@@ -61,7 +61,7 @@ async function getSubject(bgmId) {
     id: srcId,
     name: title.text(),
     nameCN: title.attr("title"),
-    image: $("div.infobox img.cover").attr("src").replace("/cover/m/", "/cover/m/"),
+    image: $("div.infobox img.cover").attr("src").replace("/cover/c/", "/cover/m/"),
     relate: relateSubject,
   }
 }
@@ -75,8 +75,8 @@ async function getSubject(bgmId) {
       a.splice(mapIndex, mapIndex < 0 ? 0 : 1, c);
     }
   };
-  const getMapPath = (id) => `./map/${Math.floor(id / 1000)}/${id}.json`;
-  const getNodePath = (id) => `./node/${Math.floor(id / 1000)}/${id}`;
+  const getMapPath = (id) => `./data/map/${Math.floor(id / 1000)}/${id}.json`;
+  const getNodePath = (id) => `./data/node/${Math.floor(id / 1000)}/${id}`;
 
   /** @type { (id: string) => SubjectRelateMap } */
   const getMap = (id) => {
