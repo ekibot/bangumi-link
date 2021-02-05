@@ -1,0 +1,45 @@
+{
+ "id": "10941",
+ "node": [
+  {
+   "id": 10941,
+   "name": "Young Justice Season 1",
+   "nameCN": "少年正义联盟 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/82/10941_BY3hz.jpg"
+  },
+  {
+   "id": 52129,
+   "name": "Young Justice：Invasion Season 2",
+   "nameCN": "少年正义联盟 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/49/52129_TNZsd.jpg"
+  },
+  {
+   "id": 197417,
+   "name": "Young Justice: Outsiders",
+   "nameCN": "少年正义联盟 局外人",
+   "image": "//lain.bgm.tv/pic/cover/m/09/31/197417_noXX6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 10941,
+   "dst": 52129
+  },
+  {
+   "relate": "前传",
+   "src": 52129,
+   "dst": 10941
+  },
+  {
+   "relate": "续集",
+   "src": 52129,
+   "dst": 197417
+  },
+  {
+   "relate": "前传",
+   "src": 197417,
+   "dst": 52129
+  }
+ ]
+}

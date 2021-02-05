@@ -1,0 +1,45 @@
+{
+ "id": "16535",
+ "node": [
+  {
+   "id": 16535,
+   "name": "パイロットウイングス リゾート",
+   "nameCN": "飞行俱乐部：休闲胜地",
+   "image": "//lain.bgm.tv/pic/cover/m/60/ec/16535_4kSLl.jpg"
+  },
+  {
+   "id": 115341,
+   "name": "パイロットウイングス",
+   "nameCN": "飞行俱乐部",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/f5/115341_OdBPn.jpg"
+  },
+  {
+   "id": 115342,
+   "name": "パイロットウイングス64",
+   "nameCN": "飞行俱乐部64",
+   "image": "//lain.bgm.tv/pic/cover/m/44/61/115342_fquLQ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 16535,
+   "dst": 115342
+  },
+  {
+   "relate": "续集",
+   "src": 115341,
+   "dst": 115342
+  },
+  {
+   "relate": "续集",
+   "src": 115342,
+   "dst": 16535
+  },
+  {
+   "relate": "前传",
+   "src": 115342,
+   "dst": 115341
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "197860",
+ "node": [
+  {
+   "id": 197860,
+   "name": "灵魂摆渡",
+   "image": "//lain.bgm.tv/pic/cover/m/35/58/197860_dJQnF.jpg"
+  },
+  {
+   "id": 197873,
+   "name": "灵魂摆渡Ⅱ",
+   "nameCN": "灵魂摆渡2",
+   "image": "//lain.bgm.tv/pic/cover/m/ab/0c/197873_nFqYp.jpg"
+  },
+  {
+   "id": 198157,
+   "name": "灵魂摆渡Ⅲ",
+   "nameCN": "灵魂摆渡3",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/5b/198157_xfoUO.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 197860,
+   "dst": 197873
+  },
+  {
+   "relate": "前传",
+   "src": 197873,
+   "dst": 197860
+  },
+  {
+   "relate": "续集",
+   "src": 197873,
+   "dst": 198157
+  },
+  {
+   "relate": "前传",
+   "src": 198157,
+   "dst": 197873
+  }
+ ]
+}

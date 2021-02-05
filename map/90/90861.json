@@ -1,0 +1,45 @@
+{
+ "id": "90861",
+ "node": [
+  {
+   "id": 90861,
+   "name": "カセキホリダー ムゲンギア",
+   "nameCN": "化石挖掘者 无限装备",
+   "image": "//lain.bgm.tv/pic/cover/m/cb/3b/90861_4S4CM.jpg"
+  },
+  {
+   "id": 260084,
+   "name": "スーパーカセキホリダー",
+   "nameCN": "超级化石挖掘者",
+   "image": "//lain.bgm.tv/pic/cover/m/15/fa/260084_JW71Q.jpg"
+  },
+  {
+   "id": 260085,
+   "name": "ぼくらはカセキホリダー",
+   "nameCN": "化石挖掘者",
+   "image": "//lain.bgm.tv/pic/cover/m/e3/09/260085_CxCe0.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 90861,
+   "dst": 260084
+  },
+  {
+   "relate": "续集",
+   "src": 260084,
+   "dst": 90861
+  },
+  {
+   "relate": "前传",
+   "src": 260084,
+   "dst": 260085
+  },
+  {
+   "relate": "续集",
+   "src": 260085,
+   "dst": 260084
+  }
+ ]
+}

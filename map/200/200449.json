@@ -1,0 +1,45 @@
+{
+ "id": "200449",
+ "node": [
+  {
+   "id": 200449,
+   "name": "Ultimate Avengers",
+   "nameCN": "终极复仇者",
+   "image": "//lain.bgm.tv/pic/cover/m/05/76/200449_Xddjc.jpg"
+  },
+  {
+   "id": 200450,
+   "name": "Ultimate Avengers 2: Rise of the Panther",
+   "nameCN": "终极复仇者2：黑豹的崛起",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/c1/200450_gy08G.jpg"
+  },
+  {
+   "id": 312319,
+   "name": "The Invincible Iron Man",
+   "nameCN": "无敌钢铁侠",
+   "image": "//lain.bgm.tv/pic/cover/m/e1/db/312319_0oZOK.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 200449,
+   "dst": 200450
+  },
+  {
+   "relate": "前传",
+   "src": 200450,
+   "dst": 200449
+  },
+  {
+   "relate": "续集",
+   "src": 200450,
+   "dst": 312319
+  },
+  {
+   "relate": "前传",
+   "src": 312319,
+   "dst": 200450
+  }
+ ]
+}

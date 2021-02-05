@@ -1,0 +1,45 @@
+{
+ "id": "155450",
+ "node": [
+  {
+   "id": 155450,
+   "name": "SOCOM: U.S. Navy SEALs Fireteam Bravo",
+   "nameCN": "海豹突击队 火线小组",
+   "image": "//lain.bgm.tv/pic/cover/m/83/62/155450_vUoyk.jpg"
+  },
+  {
+   "id": 155668,
+   "name": "SOCOM: U.S. Navy SEALs Fireteam Bravo 2",
+   "nameCN": "海豹突击队 火线小组2",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/05/155668_29XPD.jpg"
+  },
+  {
+   "id": 155671,
+   "name": "SOCOM: U.S. Navy SEALs Fireteam Bravo 3",
+   "nameCN": "海豹突击队 火线小组3",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/0e/155671_7p3Vw.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 155450,
+   "dst": 155668
+  },
+  {
+   "relate": "前传",
+   "src": 155668,
+   "dst": 155450
+  },
+  {
+   "relate": "续集",
+   "src": 155668,
+   "dst": 155671
+  },
+  {
+   "relate": "前传",
+   "src": 155671,
+   "dst": 155668
+  }
+ ]
+}

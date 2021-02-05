@@ -1,0 +1,77 @@
+{
+ "id": "6791",
+ "node": [
+  {
+   "id": 6791,
+   "name": "The IT Crowd (Season 1)",
+   "nameCN": "IT狂人 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/35/b5/6791_akx31.jpg"
+  },
+  {
+   "id": 6792,
+   "name": "The IT Crowd (Season 2)",
+   "nameCN": "IT狂人 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/5e/98/6792_mS71B.jpg"
+  },
+  {
+   "id": 6793,
+   "name": "The IT Crowd (Season 3)",
+   "nameCN": "IT狂人 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/e5/6793_21rMN.jpg"
+  },
+  {
+   "id": 6841,
+   "name": "The IT Crowd (Season 4)",
+   "nameCN": "IT狂人 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/95/59/6841_Dw2DZ.jpg"
+  },
+  {
+   "id": 84502,
+   "name": "The IT Crowd: The Last Byte",
+   "nameCN": "IT狂人：最终篇",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/d4/84502_D2e6C.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 6791,
+   "dst": 6792
+  },
+  {
+   "relate": "前传",
+   "src": 6792,
+   "dst": 6791
+  },
+  {
+   "relate": "续集",
+   "src": 6792,
+   "dst": 6793
+  },
+  {
+   "relate": "前传",
+   "src": 6793,
+   "dst": 6792
+  },
+  {
+   "relate": "续集",
+   "src": 6793,
+   "dst": 6841
+  },
+  {
+   "relate": "前传",
+   "src": 6841,
+   "dst": 6793
+  },
+  {
+   "relate": "续集",
+   "src": 6841,
+   "dst": 84502
+  },
+  {
+   "relate": "前传",
+   "src": 84502,
+   "dst": 6841
+  }
+ ]
+}

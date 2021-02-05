@@ -1,0 +1,44 @@
+{
+ "id": "84847",
+ "node": [
+  {
+   "id": 84847,
+   "name": "The Mindy Project Season 1",
+   "nameCN": "明迪烦事多第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/a8/84847_ZTG6g.jpg"
+  },
+  {
+   "id": 84848,
+   "name": "The Mindy Project Season 2",
+   "nameCN": "明迪烦事多第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/03/ca/84848_sEFw2.jpg"
+  },
+  {
+   "id": 114297,
+   "name": "The Mindy Project Season 3",
+   "nameCN": "明迪烦事多"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 84847,
+   "dst": 84848
+  },
+  {
+   "relate": "前传",
+   "src": 84848,
+   "dst": 84847
+  },
+  {
+   "relate": "续集",
+   "src": 84848,
+   "dst": 114297
+  },
+  {
+   "relate": "前传",
+   "src": 114297,
+   "dst": 84848
+  }
+ ]
+}

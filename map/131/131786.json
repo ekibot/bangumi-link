@@ -1,0 +1,45 @@
+{
+ "id": "131786",
+ "node": [
+  {
+   "id": 131786,
+   "name": "Total War: WARHAMMER",
+   "nameCN": "全面战争：战锤",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/cd/131786_tdT53.jpg"
+  },
+  {
+   "id": 215075,
+   "name": "Total War: WARHAMMER II",
+   "nameCN": "全面战争：战锤 2",
+   "image": "//lain.bgm.tv/pic/cover/m/69/43/215075_tPy55.jpg"
+  },
+  {
+   "id": 327292,
+   "name": "Total War: WARHAMMER III",
+   "nameCN": "全面战争：战锤3",
+   "image": "//lain.bgm.tv/pic/cover/m/70/d4/327292_4pjI1.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 131786,
+   "dst": 215075
+  },
+  {
+   "relate": "前传",
+   "src": 215075,
+   "dst": 131786
+  },
+  {
+   "relate": "续集",
+   "src": 215075,
+   "dst": 327292
+  },
+  {
+   "relate": "前传",
+   "src": 327292,
+   "dst": 215075
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "111843",
+ "node": [
+  {
+   "id": 111843,
+   "name": "ALICEの館",
+   "image": "//lain.bgm.tv/pic/cover/m/b6/f4/111843_W9VL9.jpg"
+  },
+  {
+   "id": 111844,
+   "name": "ALICEの館2",
+   "image": "//lain.bgm.tv/pic/cover/m/bb/33/111844_98WSS.jpg"
+  },
+  {
+   "id": 111845,
+   "name": "ALICEの館3",
+   "nameCN": "ALICE之馆3",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/51/111845_Zr13A.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 111843,
+   "dst": 111844
+  },
+  {
+   "relate": "前传",
+   "src": 111844,
+   "dst": 111843
+  },
+  {
+   "relate": "续集",
+   "src": 111844,
+   "dst": 111845
+  },
+  {
+   "relate": "前传",
+   "src": 111845,
+   "dst": 111844
+  }
+ ]
+}

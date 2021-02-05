@@ -1,0 +1,45 @@
+{
+ "id": "83044",
+ "node": [
+  {
+   "id": 83044,
+   "name": "아파트",
+   "nameCN": "公寓",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/72/149232_zugtE.jpg"
+  },
+  {
+   "id": 149281,
+   "name": "타이밍",
+   "nameCN": "追逐时间",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/c2/149281_FOpoL.jpg"
+  },
+  {
+   "id": 149292,
+   "name": "어게인",
+   "nameCN": "重回",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/da/149292_rbzZV.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 83044,
+   "dst": 149281
+  },
+  {
+   "relate": "前传",
+   "src": 149281,
+   "dst": 83044
+  },
+  {
+   "relate": "续集",
+   "src": 149281,
+   "dst": 149292
+  },
+  {
+   "relate": "前传",
+   "src": 149292,
+   "dst": 149281
+  }
+ ]
+}

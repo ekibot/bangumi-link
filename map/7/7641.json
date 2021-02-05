@@ -1,0 +1,45 @@
+{
+ "id": "7641",
+ "node": [
+  {
+   "id": 7641,
+   "name": "Desperados: Wanted Dead or Alive",
+   "nameCN": "赏金奇兵：西部通缉令",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/3e/7641_5S5SD.jpg"
+  },
+  {
+   "id": 258110,
+   "name": "Desperados III",
+   "nameCN": "赏金奇兵3",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/ec/258110_NX3uu.jpg"
+  },
+  {
+   "id": 315781,
+   "name": "Desperados 2: Cooper's Revenge",
+   "nameCN": "赏金奇兵2：库珀的复仇",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/83/315781_d0C7Z.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 7641,
+   "dst": 315781
+  },
+  {
+   "relate": "前传",
+   "src": 258110,
+   "dst": 315781
+  },
+  {
+   "relate": "前传",
+   "src": 315781,
+   "dst": 7641
+  },
+  {
+   "relate": "续集",
+   "src": 315781,
+   "dst": 258110
+  }
+ ]
+}

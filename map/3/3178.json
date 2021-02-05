@@ -1,0 +1,45 @@
+{
+ "id": "3178",
+ "node": [
+  {
+   "id": 3178,
+   "name": "Borderlands",
+   "nameCN": "无主之地",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/95/3178_BQz6S.jpg"
+  },
+  {
+   "id": 35764,
+   "name": "Borderlands 2",
+   "nameCN": "无主之地2",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/37/35764_3U3Xz.jpg"
+  },
+  {
+   "id": 279245,
+   "name": "Borderlands 3",
+   "nameCN": "无主之地3",
+   "image": "//lain.bgm.tv/pic/cover/m/3b/28/279245_9Z0ah.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3178,
+   "dst": 35764
+  },
+  {
+   "relate": "前传",
+   "src": 35764,
+   "dst": 3178
+  },
+  {
+   "relate": "续集",
+   "src": 35764,
+   "dst": 279245
+  },
+  {
+   "relate": "前传",
+   "src": 279245,
+   "dst": 35764
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "100434",
+ "node": [
+  {
+   "id": 100434,
+   "name": "ピカイア！",
+   "nameCN": "皮卡虫",
+   "image": "//lain.bgm.tv/pic/cover/m/65/c7/100434_Mkgrd.jpg"
+  },
+  {
+   "id": 135809,
+   "name": "ピカイア！続編",
+   "nameCN": "皮卡虫 续篇",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/98/135809_cPzGJ.jpg"
+  },
+  {
+   "id": 210806,
+   "name": "ピカイア!!",
+   "nameCN": "皮卡虫!!",
+   "image": "//lain.bgm.tv/pic/cover/m/15/31/210806_Mv1mH.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 100434,
+   "dst": 135809
+  },
+  {
+   "relate": "前传",
+   "src": 135809,
+   "dst": 100434
+  },
+  {
+   "relate": "续集",
+   "src": 135809,
+   "dst": 210806
+  },
+  {
+   "relate": "前传",
+   "src": 210806,
+   "dst": 135809
+  }
+ ]
+}

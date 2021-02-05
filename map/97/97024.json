@@ -1,0 +1,61 @@
+{
+ "id": "97024",
+ "node": [
+  {
+   "id": 97024,
+   "name": "S.T.A.L.K.E.R: Shadow of Chernobyl",
+   "nameCN": "潜行者：切尔诺贝利的阴影",
+   "image": "//lain.bgm.tv/pic/cover/m/03/cb/97024_lRRDd.jpg"
+  },
+  {
+   "id": 97025,
+   "name": "S.T.A.L.K.E.R: Clear Sky",
+   "nameCN": "潜行者：晴空",
+   "image": "//lain.bgm.tv/pic/cover/m/26/98/97025_Z233B.jpg"
+  },
+  {
+   "id": 97026,
+   "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+   "nameCN": "潜行者：普里皮亚季的召唤",
+   "image": "//lain.bgm.tv/pic/cover/m/d5/3d/97026_e8qz5.jpg"
+  },
+  {
+   "id": 279246,
+   "name": "S.T.A.L.K.E.R. 2",
+   "nameCN": "潜行者2",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/1a/279246_ABM91.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 97024,
+   "dst": 97025
+  },
+  {
+   "relate": "续集",
+   "src": 97024,
+   "dst": 97026
+  },
+  {
+   "relate": "续集",
+   "src": 97025,
+   "dst": 97024
+  },
+  {
+   "relate": "前传",
+   "src": 97026,
+   "dst": 97024
+  },
+  {
+   "relate": "续集",
+   "src": 97026,
+   "dst": 279246
+  },
+  {
+   "relate": "前传",
+   "src": 279246,
+   "dst": 97026
+  }
+ ]
+}

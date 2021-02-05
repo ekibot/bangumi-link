@@ -1,0 +1,43 @@
+{
+ "id": "36116",
+ "node": [
+  {
+   "id": 36116,
+   "name": "The Mask: The Animated Series Season 1",
+   "nameCN": "变相怪杰",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/1b/36116_GJW2e.jpg"
+  },
+  {
+   "id": 291042,
+   "name": "The Mask: The Animated Series Season 2",
+   "nameCN": ""
+  },
+  {
+   "id": 291043,
+   "name": "The Mask: The Animated Series Season 3",
+   "image": "/img/no_icon_subject.png"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 36116,
+   "dst": 291042
+  },
+  {
+   "relate": "前传",
+   "src": 291042,
+   "dst": 36116
+  },
+  {
+   "relate": "续集",
+   "src": 291042,
+   "dst": 291043
+  },
+  {
+   "relate": "前传",
+   "src": 291043,
+   "dst": 291042
+  }
+ ]
+}

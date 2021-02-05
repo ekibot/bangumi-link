@@ -1,0 +1,45 @@
+{
+ "id": "35956",
+ "node": [
+  {
+   "id": 35956,
+   "name": "カイジ2 人生奪回ゲーム",
+   "nameCN": "赌博默示录2：人生夺回游戏",
+   "image": "//lain.bgm.tv/pic/cover/m/99/f6/35956_3mjrh.jpg"
+  },
+  {
+   "id": 60130,
+   "name": "カイジ 人生逆転ゲーム",
+   "nameCN": "赌博默示录 人生逆转之战",
+   "image": "//lain.bgm.tv/pic/cover/m/4e/56/60130_r0Jh0.jpg"
+  },
+  {
+   "id": 283562,
+   "name": "カイジ ファイナルゲーム",
+   "nameCN": "赌博默示录3：最终游戏",
+   "image": "//lain.bgm.tv/pic/cover/m/41/e4/283562_55xO5.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 35956,
+   "dst": 60130
+  },
+  {
+   "relate": "续集",
+   "src": 35956,
+   "dst": 283562
+  },
+  {
+   "relate": "续集",
+   "src": 60130,
+   "dst": 35956
+  },
+  {
+   "relate": "前传",
+   "src": 283562,
+   "dst": 35956
+  }
+ ]
+}

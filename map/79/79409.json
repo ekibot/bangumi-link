@@ -1,0 +1,61 @@
+{
+ "id": "79409",
+ "node": [
+  {
+   "id": 79409,
+   "name": "極上パロディウス 〜過去の栄光を求めて〜",
+   "nameCN": "极上疯狂大射击",
+   "image": "//lain.bgm.tv/pic/cover/m/ea/e0/79409_zA2GG.jpg"
+  },
+  {
+   "id": 79545,
+   "name": "パロディウスだ! 〜神話からお笑いへ〜",
+   "nameCN": "疯狂大射击",
+   "image": "//lain.bgm.tv/pic/cover/m/94/51/79545_AD65z.jpg"
+  },
+  {
+   "id": 252802,
+   "name": "セクシーパロディウス",
+   "nameCN": "性感疯狂大射击",
+   "image": "//lain.bgm.tv/pic/cover/m/b4/a1/252802_7Bwl7.jpg"
+  },
+  {
+   "id": 252803,
+   "name": "実況おしゃべりパロディウス",
+   "nameCN": "实况疯狂大射击",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/5a/252803_ZeIaK.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 79409,
+   "dst": 79545
+  },
+  {
+   "relate": "续集",
+   "src": 79409,
+   "dst": 252803
+  },
+  {
+   "relate": "续集",
+   "src": 79545,
+   "dst": 79409
+  },
+  {
+   "relate": "前传",
+   "src": 252802,
+   "dst": 252803
+  },
+  {
+   "relate": "前传",
+   "src": 252803,
+   "dst": 79409
+  },
+  {
+   "relate": "续集",
+   "src": 252803,
+   "dst": 252802
+  }
+ ]
+}

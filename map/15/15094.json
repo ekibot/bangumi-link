@@ -1,0 +1,45 @@
+{
+ "id": "15094",
+ "node": [
+  {
+   "id": 15094,
+   "name": "三國志曹操伝",
+   "nameCN": "三国志曹操传",
+   "image": "//lain.bgm.tv/pic/cover/m/b5/5d/15094_T9gNQ.jpg"
+  },
+  {
+   "id": 25235,
+   "name": "三國志英傑伝",
+   "nameCN": "三国志英杰传",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/42/25235_U6S2S.jpg"
+  },
+  {
+   "id": 25236,
+   "name": "三國志孔明伝",
+   "nameCN": "三国志孔明传",
+   "image": "//lain.bgm.tv/pic/cover/m/78/ea/25236_lPjcX.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 15094,
+   "dst": 25236
+  },
+  {
+   "relate": "续集",
+   "src": 25235,
+   "dst": 25236
+  },
+  {
+   "relate": "续集",
+   "src": 25236,
+   "dst": 15094
+  },
+  {
+   "relate": "前传",
+   "src": 25236,
+   "dst": 25235
+  }
+ ]
+}

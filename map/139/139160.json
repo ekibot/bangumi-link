@@ -1,0 +1,45 @@
+{
+ "id": "139160",
+ "node": [
+  {
+   "id": 139160,
+   "name": "Dragons of a Fallen Sun",
+   "nameCN": "落日之巨龙",
+   "image": "//lain.bgm.tv/pic/cover/m/73/e0/139160_6QIgq.jpg"
+  },
+  {
+   "id": 139161,
+   "name": "Dragons of a Lost Star",
+   "nameCN": "陨星之巨龙",
+   "image": "//lain.bgm.tv/pic/cover/m/92/be/139161_ei45x.jpg"
+  },
+  {
+   "id": 139162,
+   "name": "Dragons of a Vanished Moon",
+   "nameCN": "逝月之巨龙",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/2f/139162_HIaTq.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 139160,
+   "dst": 139161
+  },
+  {
+   "relate": "前传",
+   "src": 139161,
+   "dst": 139160
+  },
+  {
+   "relate": "续集",
+   "src": 139161,
+   "dst": 139162
+  },
+  {
+   "relate": "前传",
+   "src": 139162,
+   "dst": 139161
+  }
+ ]
+}

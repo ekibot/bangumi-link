@@ -1,0 +1,45 @@
+{
+ "id": "285240",
+ "node": [
+  {
+   "id": 285240,
+   "name": "テレビ演劇 サクセス荘",
+   "nameCN": "电视演剧：成功庄园",
+   "image": "//lain.bgm.tv/pic/cover/m/32/96/285240_FKAKq.jpg"
+  },
+  {
+   "id": 308829,
+   "name": "テレビ演劇 サクセス荘２",
+   "nameCN": "电视演剧 成功庄园2",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 323900,
+   "name": "テレビ演劇 サクセス荘３",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/98/08/323900_4TStB.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 285240,
+   "dst": 308829
+  },
+  {
+   "relate": "前传",
+   "src": 308829,
+   "dst": 285240
+  },
+  {
+   "relate": "续集",
+   "src": 308829,
+   "dst": 323900
+  },
+  {
+   "relate": "前传",
+   "src": 323900,
+   "dst": 308829
+  }
+ ]
+}

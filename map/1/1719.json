@@ -1,0 +1,61 @@
+{
+ "id": "1719",
+ "node": [
+  {
+   "id": 1719,
+   "name": "クローバーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "三叶草之国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/f3/14/1719_PZV6e.jpg"
+  },
+  {
+   "id": 4429,
+   "name": "ハートの国のアリス 〜Wonderful Wonder World〜",
+   "nameCN": "心之国的爱丽丝：Wonderful Wonder World",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/d6/4429_13Nd6.jpg"
+  },
+  {
+   "id": 5934,
+   "name": "ジョーカーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "小丑国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/85/5934_DbbrS.jpg"
+  },
+  {
+   "id": 5935,
+   "name": "アニバーサリーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "纪念日之国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/23/4d/5935_8kmKk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 1719,
+   "dst": 4429
+  },
+  {
+   "relate": "续集",
+   "src": 1719,
+   "dst": 5934
+  },
+  {
+   "relate": "续集",
+   "src": 4429,
+   "dst": 1719
+  },
+  {
+   "relate": "前传",
+   "src": 5934,
+   "dst": 1719
+  },
+  {
+   "relate": "续集",
+   "src": 5934,
+   "dst": 5935
+  },
+  {
+   "relate": "前传",
+   "src": 5935,
+   "dst": 5934
+  }
+ ]
+}

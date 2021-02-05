@@ -1,0 +1,61 @@
+{
+ "id": "66486",
+ "node": [
+  {
+   "id": 66486,
+   "name": "Thief (2014)",
+   "nameCN": "神偷 4",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/bb/66486_BKa6T.jpg"
+  },
+  {
+   "id": 77004,
+   "name": "Thief: The Dark Project",
+   "nameCN": "神偷：暗黑计划",
+   "image": "//lain.bgm.tv/pic/cover/m/a1/a9/77004_t73kG.jpg"
+  },
+  {
+   "id": 77005,
+   "name": "Thief II: The Metal Age",
+   "nameCN": "神偷2：金属时代",
+   "image": "//lain.bgm.tv/pic/cover/m/21/f4/77005_i3f3K.jpg"
+  },
+  {
+   "id": 77006,
+   "name": "Thief: Deadly Shadows",
+   "nameCN": "神偷3：致命阴影",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/aa/77006_o91ik.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 66486,
+   "dst": 77006
+  },
+  {
+   "relate": "续集",
+   "src": 77004,
+   "dst": 77005
+  },
+  {
+   "relate": "前传",
+   "src": 77005,
+   "dst": 77004
+  },
+  {
+   "relate": "续集",
+   "src": 77005,
+   "dst": 77006
+  },
+  {
+   "relate": "续集",
+   "src": 77006,
+   "dst": 66486
+  },
+  {
+   "relate": "前传",
+   "src": 77006,
+   "dst": 77005
+  }
+ ]
+}

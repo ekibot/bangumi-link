@@ -1,0 +1,45 @@
+{
+ "id": "41704",
+ "node": [
+  {
+   "id": 41704,
+   "name": "アルカナハート3",
+   "nameCN": "圣灵之心3",
+   "image": "//lain.bgm.tv/pic/cover/m/38/01/41704_T374I.jpg"
+  },
+  {
+   "id": 129196,
+   "name": "アルカナハート",
+   "nameCN": "圣灵之心",
+   "image": "//lain.bgm.tv/pic/cover/m/be/46/129196_5Ezvq.jpg"
+  },
+  {
+   "id": 129197,
+   "name": "アルカナハート2",
+   "nameCN": "圣灵之心2",
+   "image": "//lain.bgm.tv/pic/cover/m/bd/b3/129197_703pk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 41704,
+   "dst": 129197
+  },
+  {
+   "relate": "续集",
+   "src": 129196,
+   "dst": 129197
+  },
+  {
+   "relate": "续集",
+   "src": 129197,
+   "dst": 41704
+  },
+  {
+   "relate": "前传",
+   "src": 129197,
+   "dst": 129196
+  }
+ ]
+}

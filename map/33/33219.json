@@ -1,0 +1,61 @@
+{
+ "id": "33219",
+ "node": [
+  {
+   "id": 33219,
+   "name": "メガゾーン23",
+   "nameCN": "无限地带23",
+   "image": "//lain.bgm.tv/pic/cover/m/e9/72/33219_tgTjq.jpg"
+  },
+  {
+   "id": 33220,
+   "name": "メガゾーン23 PART II 秘密く・だ・さ・い",
+   "nameCN": "无限地带23 PART II",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/11/33220_qNqL7.jpg"
+  },
+  {
+   "id": 37033,
+   "name": "MEGAZONE23 III",
+   "nameCN": "无限地带23 PART III",
+   "image": "//lain.bgm.tv/pic/cover/m/95/bf/37033_0lJLj.jpg"
+  },
+  {
+   "id": 210443,
+   "name": "メガゾーン 23 XI",
+   "nameCN": "无限地带23 XI",
+   "image": "//lain.bgm.tv/pic/cover/m/98/dc/210443_L2hQY.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 33219,
+   "dst": 33220
+  },
+  {
+   "relate": "前传",
+   "src": 33220,
+   "dst": 33219
+  },
+  {
+   "relate": "续集",
+   "src": 33220,
+   "dst": 37033
+  },
+  {
+   "relate": "前传",
+   "src": 37033,
+   "dst": 33220
+  },
+  {
+   "relate": "续集",
+   "src": 37033,
+   "dst": 210443
+  },
+  {
+   "relate": "前传",
+   "src": 210443,
+   "dst": 37033
+  }
+ ]
+}

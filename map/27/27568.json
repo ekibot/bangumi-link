@@ -1,0 +1,45 @@
+{
+ "id": "27568",
+ "node": [
+  {
+   "id": 27568,
+   "name": "キングダム",
+   "nameCN": "王者天下",
+   "image": "//lain.bgm.tv/pic/cover/m/d2/41/27568_lAja9.jpg"
+  },
+  {
+   "id": 62281,
+   "name": "キングダム 第2シリーズ",
+   "nameCN": "王者天下 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/ac/62281_3x3RG.jpg"
+  },
+  {
+   "id": 294288,
+   "name": "キングダム 第3シリーズ",
+   "nameCN": "王者天下 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/31/f0/294288_OOogo.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 27568,
+   "dst": 62281
+  },
+  {
+   "relate": "前传",
+   "src": 62281,
+   "dst": 27568
+  },
+  {
+   "relate": "续集",
+   "src": 62281,
+   "dst": 294288
+  },
+  {
+   "relate": "前传",
+   "src": 294288,
+   "dst": 62281
+  }
+ ]
+}

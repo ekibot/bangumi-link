@@ -1,0 +1,50 @@
+{
+ "id": "1025",
+ "node": [
+  {
+   "id": 1025,
+   "name": "ローゼンメイデン",
+   "nameCN": "蔷薇少女",
+   "image": "//lain.bgm.tv/pic/cover/m/82/b8/1025_vMYDV.jpg"
+  },
+  {
+   "id": 1026,
+   "name": "ローゼンメイデン・トロイメント",
+   "nameCN": "蔷薇少女 梦之终结",
+   "image": "//lain.bgm.tv/pic/cover/m/24/14/1026_bZoK5.jpg"
+  },
+  {
+   "id": 5365,
+   "name": "ローゼンメイデン・オーベルテューレ",
+   "nameCN": "蔷薇少女 序曲",
+   "image": "//lain.bgm.tv/pic/cover/m/b1/05/5365_ZRtBk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1025,
+   "dst": 1026
+  },
+  {
+   "relate": "前传",
+   "src": 1025,
+   "dst": 5365
+  },
+  {
+   "relate": "前传",
+   "src": 1026,
+   "dst": 1025
+  },
+  {
+   "relate": "续集",
+   "src": 5365,
+   "dst": 1025
+  },
+  {
+   "relate": "主线故事",
+   "src": 5365,
+   "dst": 1026
+  }
+ ]
+}

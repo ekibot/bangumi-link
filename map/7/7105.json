@@ -1,0 +1,77 @@
+{
+ "id": "7105",
+ "node": [
+  {
+   "id": 7105,
+   "name": "Southland Season 2",
+   "nameCN": "南城警事 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/c0/7105_2SsAo.jpg"
+  },
+  {
+   "id": 19461,
+   "name": "Southland Season 3",
+   "nameCN": "南城警事 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/35/6b/19461_8RSC4.jpg"
+  },
+  {
+   "id": 31673,
+   "name": "Southland Season 4",
+   "nameCN": "南城警事 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/dd/31673_q94JQ.jpg"
+  },
+  {
+   "id": 64996,
+   "name": "Southland Season 5",
+   "nameCN": "南城警事 第五季",
+   "image": "//lain.bgm.tv/pic/cover/m/62/1d/64996_GCes2.jpg"
+  },
+  {
+   "id": 87425,
+   "name": "Southland Season 1",
+   "nameCN": "南城警事 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/43/cf/87425_uIMpJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 7105,
+   "dst": 19461
+  },
+  {
+   "relate": "前传",
+   "src": 7105,
+   "dst": 87425
+  },
+  {
+   "relate": "前传",
+   "src": 19461,
+   "dst": 7105
+  },
+  {
+   "relate": "续集",
+   "src": 19461,
+   "dst": 31673
+  },
+  {
+   "relate": "前传",
+   "src": 31673,
+   "dst": 19461
+  },
+  {
+   "relate": "续集",
+   "src": 31673,
+   "dst": 64996
+  },
+  {
+   "relate": "前传",
+   "src": 64996,
+   "dst": 31673
+  },
+  {
+   "relate": "续集",
+   "src": 87425,
+   "dst": 7105
+  }
+ ]
+}

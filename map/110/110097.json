@@ -1,0 +1,45 @@
+{
+ "id": "110097",
+ "node": [
+  {
+   "id": 110097,
+   "name": "トゥルー・ラブストーリー",
+   "nameCN": "真爱物语",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/22/110097_XYxXy.jpg"
+  },
+  {
+   "id": 221026,
+   "name": "トゥルーラブストーリー2",
+   "nameCN": "真爱物语2",
+   "image": "//lain.bgm.tv/pic/cover/m/12/a7/221026_lQdED.jpg"
+  },
+  {
+   "id": 221027,
+   "name": "トゥルーラブストーリー3",
+   "nameCN": "真爱物语3",
+   "image": "//lain.bgm.tv/pic/cover/m/ce/b9/221027_7z3vB.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 110097,
+   "dst": 221026
+  },
+  {
+   "relate": "前传",
+   "src": 221026,
+   "dst": 110097
+  },
+  {
+   "relate": "续集",
+   "src": 221026,
+   "dst": 221027
+  },
+  {
+   "relate": "前传",
+   "src": 221027,
+   "dst": 221026
+  }
+ ]
+}

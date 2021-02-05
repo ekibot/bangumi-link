@@ -1,0 +1,64 @@
+{
+ "id": "272512",
+ "node": [
+  {
+   "id": 272512,
+   "name": "SDガンダム三国伝 風雲豪傑編",
+   "nameCN": "SD高达三国传 风云豪杰篇",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 272513,
+   "name": "BB戦士三国伝 英雄激突編",
+   "nameCN": "BB战士三国传 英雄激突篇"
+  },
+  {
+   "id": 272515,
+   "name": "BB戦士三国伝 戦神決闘編",
+   "nameCN": "BB战士三国传 战神决斗篇",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 272516,
+   "name": "SDガンダム三国伝 ブレイブバトルウォーリアーズ",
+   "nameCN": "SD高达三国传 Brave Battle Warriors"
+  },
+  {
+   "id": 272517,
+   "name": "SDガンダム三国伝 Brave Battle Warriors 創世記",
+   "nameCN": "SD高达三国传 Brave Battle Warriors 创世记"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 272512,
+   "dst": 272513
+  },
+  {
+   "relate": "前传",
+   "src": 272513,
+   "dst": 272512
+  },
+  {
+   "relate": "续集",
+   "src": 272513,
+   "dst": 272515
+  },
+  {
+   "relate": "前传",
+   "src": 272515,
+   "dst": 272513
+  },
+  {
+   "relate": "主线故事",
+   "src": 272516,
+   "dst": 272512
+  },
+  {
+   "relate": "主线故事",
+   "src": 272517,
+   "dst": 272516
+  }
+ ]
+}

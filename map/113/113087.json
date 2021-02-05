@@ -1,0 +1,44 @@
+{
+ "id": "113087",
+ "node": [
+  {
+   "id": 113087,
+   "name": "Heavy Metal",
+   "nameCN": "宇宙奇趣录",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/a5/113087_YY7e7.jpg"
+  },
+  {
+   "id": 321081,
+   "name": "Heavy Metal 2000",
+   "nameCN": "宇宙奇趣录 2000",
+   "image": "//lain.bgm.tv/pic/cover/m/11/d2/321081_hCzZG.jpg"
+  },
+  {
+   "id": 321083,
+   "name": "Heavy Metal",
+   "nameCN": "宇宙奇趣录"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 113087,
+   "dst": 321081
+  },
+  {
+   "relate": "前传",
+   "src": 321081,
+   "dst": 113087
+  },
+  {
+   "relate": "续集",
+   "src": 321081,
+   "dst": 321083
+  },
+  {
+   "relate": "前传",
+   "src": 321083,
+   "dst": 321081
+  }
+ ]
+}

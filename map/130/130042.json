@@ -1,0 +1,40 @@
+{
+ "id": "130042",
+ "node": [
+  {
+   "id": 130042,
+   "name": "LEGO Marvel Super Heroes",
+   "nameCN": "乐高 漫威 超级英雄",
+   "image": "//lain.bgm.tv/pic/cover/m/a9/3f/130042_k09GK.jpg"
+  },
+  {
+   "id": 215180,
+   "name": "LEGO Marvel Super Heroes 2",
+   "nameCN": "乐高漫威超级英雄2",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/90/215180_NUh3G.jpg"
+  },
+  {
+   "id": 263346,
+   "name": "LEGO Marvel's Avengers",
+   "nameCN": "LEGO® 漫威复仇者联盟",
+   "image": "//lain.bgm.tv/pic/cover/m/01/ed/263346_arvV6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 130042,
+   "dst": 215180
+  },
+  {
+   "relate": "前传",
+   "src": 215180,
+   "dst": 130042
+  },
+  {
+   "relate": "主线故事",
+   "src": 263346,
+   "dst": 130042
+  }
+ ]
+}

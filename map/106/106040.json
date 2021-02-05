@@ -1,0 +1,56 @@
+{
+ "id": "106040",
+ "node": [
+  {
+   "id": 106040,
+   "name": "Godzilla",
+   "nameCN": "哥斯拉",
+   "image": "//lain.bgm.tv/pic/cover/m/c2/bb/106040_gDyhD.jpg"
+  },
+  {
+   "id": 110886,
+   "name": "Godzilla: King of the Monsters",
+   "nameCN": "哥斯拉：怪兽之王",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/73/110886_wOc8p.jpg"
+  },
+  {
+   "id": 209810,
+   "name": "Kong: Skull Island",
+   "nameCN": "金刚：骷髅岛",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/c9/209810_WY0lO.jpg"
+  },
+  {
+   "id": 282398,
+   "name": "Godzilla vs. Kong",
+   "nameCN": "哥斯拉大战金刚",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/fc/282398_e46NQ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 106040,
+   "dst": 110886
+  },
+  {
+   "relate": "前传",
+   "src": 110886,
+   "dst": 106040
+  },
+  {
+   "relate": "续集",
+   "src": 110886,
+   "dst": 282398
+  },
+  {
+   "relate": "续集",
+   "src": 209810,
+   "dst": 282398
+  },
+  {
+   "relate": "前传",
+   "src": 282398,
+   "dst": 110886
+  }
+ ]
+}

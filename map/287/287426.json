@@ -1,0 +1,45 @@
+{
+ "id": "287426",
+ "node": [
+  {
+   "id": 287426,
+   "name": "Infinity Train",
+   "nameCN": "无尽列车",
+   "image": "//lain.bgm.tv/pic/cover/m/56/b5/287426_k1IeK.jpg"
+  },
+  {
+   "id": 297828,
+   "name": "Infinity Train Book 2: Cracked Reflection",
+   "nameCN": "无尽列车 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/84/37/297828_Jj6zf.jpg"
+  },
+  {
+   "id": 326500,
+   "name": "Infinity Train Book 3: Cult of the Conductor",
+   "nameCN": "无尽列车 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/20/17/326500_Xszdh.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 287426,
+   "dst": 297828
+  },
+  {
+   "relate": "前传",
+   "src": 297828,
+   "dst": 287426
+  },
+  {
+   "relate": "续集",
+   "src": 297828,
+   "dst": 326500
+  },
+  {
+   "relate": "前传",
+   "src": 326500,
+   "dst": 297828
+  }
+ ]
+}

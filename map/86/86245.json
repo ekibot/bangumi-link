@@ -1,0 +1,45 @@
+{
+ "id": "86245",
+ "node": [
+  {
+   "id": 86245,
+   "name": "The Walking Dead: The Oath",
+   "nameCN": "行尸走肉 曲念",
+   "image": "//lain.bgm.tv/pic/cover/m/23/75/86245_J37wY.jpg"
+  },
+  {
+   "id": 86365,
+   "name": "The Walking Dead：Torn apart",
+   "nameCN": "行尸走肉 两断",
+   "image": "//lain.bgm.tv/pic/cover/m/3f/d7/86365_y1BJy.jpg"
+  },
+  {
+   "id": 86366,
+   "name": "The Walking Dead：Cold storage",
+   "nameCN": "行尸走肉 鲜墓",
+   "image": "//lain.bgm.tv/pic/cover/m/86/66/86366_po440.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 86245,
+   "dst": 86366
+  },
+  {
+   "relate": "续集",
+   "src": 86365,
+   "dst": 86366
+  },
+  {
+   "relate": "续集",
+   "src": 86366,
+   "dst": 86245
+  },
+  {
+   "relate": "前传",
+   "src": 86366,
+   "dst": 86365
+  }
+ ]
+}

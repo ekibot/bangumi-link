@@ -1,0 +1,61 @@
+{
+ "id": "186",
+ "node": [
+  {
+   "id": 186,
+   "name": "Rock Band 2",
+   "nameCN": "摇滚乐团2",
+   "image": "//lain.bgm.tv/pic/cover/m/98/72/186_aus.jpg"
+  },
+  {
+   "id": 187,
+   "name": "Rock Band",
+   "nameCN": "摇滚乐团",
+   "image": "//lain.bgm.tv/pic/cover/m/31/fe/187_aus.jpg"
+  },
+  {
+   "id": 73937,
+   "name": "Rock Band 3",
+   "nameCN": "摇滚乐团3",
+   "image": "//lain.bgm.tv/pic/cover/m/73/27/73937_101hM.jpg"
+  },
+  {
+   "id": 138427,
+   "name": "Rock Band 4",
+   "nameCN": "摇滚乐团4",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/54/138427_jNoLZ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 186,
+   "dst": 187
+  },
+  {
+   "relate": "续集",
+   "src": 186,
+   "dst": 73937
+  },
+  {
+   "relate": "续集",
+   "src": 187,
+   "dst": 186
+  },
+  {
+   "relate": "前传",
+   "src": 73937,
+   "dst": 186
+  },
+  {
+   "relate": "续集",
+   "src": 73937,
+   "dst": 138427
+  },
+  {
+   "relate": "前传",
+   "src": 138427,
+   "dst": 73937
+  }
+ ]
+}

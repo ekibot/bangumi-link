@@ -1,0 +1,77 @@
+{
+ "id": "3353",
+ "node": [
+  {
+   "id": 3352,
+   "name": "太閤立志伝III",
+   "nameCN": "太阁立志传3",
+   "image": "//lain.bgm.tv/pic/cover/m/09/87/3352_CchP1.jpg"
+  },
+  {
+   "id": 3353,
+   "name": "太閤立志伝IV",
+   "nameCN": "太阁立志传4",
+   "image": "//lain.bgm.tv/pic/cover/m/8b/9e/3353_V265P.jpg"
+  },
+  {
+   "id": 3354,
+   "name": "太閤立志伝V",
+   "nameCN": "太阁立志传5",
+   "image": "//lain.bgm.tv/pic/cover/m/d2/cd/3354_Z3i3q.jpg"
+  },
+  {
+   "id": 216412,
+   "name": "太閤立志伝",
+   "nameCN": "太阁立志传",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/81/216412_MMM7b.jpg"
+  },
+  {
+   "id": 216413,
+   "name": "太閤立志伝II",
+   "nameCN": "太阁立志传2",
+   "image": "//lain.bgm.tv/pic/cover/m/c3/f7/216413_54707.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3352,
+   "dst": 3353
+  },
+  {
+   "relate": "前传",
+   "src": 3352,
+   "dst": 216413
+  },
+  {
+   "relate": "前传",
+   "src": 3353,
+   "dst": 3352
+  },
+  {
+   "relate": "续集",
+   "src": 3353,
+   "dst": 3354
+  },
+  {
+   "relate": "前传",
+   "src": 3354,
+   "dst": 3353
+  },
+  {
+   "relate": "续集",
+   "src": 216412,
+   "dst": 216413
+  },
+  {
+   "relate": "续集",
+   "src": 216413,
+   "dst": 3352
+  },
+  {
+   "relate": "前传",
+   "src": 216413,
+   "dst": 216412
+  }
+ ]
+}

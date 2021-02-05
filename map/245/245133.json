@@ -1,0 +1,45 @@
+{
+ "id": "245133",
+ "node": [
+  {
+   "id": 245133,
+   "name": "魔法天使ミサキ",
+   "nameCN": "魔法天使美咲",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 245134,
+   "name": "突撃天使かのん",
+   "nameCN": "突击天使花音",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 245135,
+   "name": "魔法天使ミサキ2",
+   "nameCN": "魔法天使美咲2",
+   "image": "/img/no_icon_subject.png"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 245133,
+   "dst": 245134
+  },
+  {
+   "relate": "前传",
+   "src": 245134,
+   "dst": 245133
+  },
+  {
+   "relate": "续集",
+   "src": 245134,
+   "dst": 245135
+  },
+  {
+   "relate": "前传",
+   "src": 245135,
+   "dst": 245134
+  }
+ ]
+}

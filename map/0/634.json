@@ -1,0 +1,45 @@
+{
+ "id": "634",
+ "node": [
+  {
+   "id": 634,
+   "name": "Ninja Gaiden II",
+   "nameCN": "忍者龙剑传 II",
+   "image": "//lain.bgm.tv/pic/cover/m/67/66/634_aus.jpg"
+  },
+  {
+   "id": 41077,
+   "name": "NINJA GAIDEN Black",
+   "nameCN": "忍者龙剑传 黑之章",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/ad/41077_2wWcb.jpg"
+  },
+  {
+   "id": 56688,
+   "name": "Ninja Gaiden 3 - Razor's Edge",
+   "nameCN": "忍者龙剑传3 刀锋边缘",
+   "image": "//lain.bgm.tv/pic/cover/m/33/a3/56688_gSpE4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 634,
+   "dst": 41077
+  },
+  {
+   "relate": "续集",
+   "src": 634,
+   "dst": 56688
+  },
+  {
+   "relate": "续集",
+   "src": 41077,
+   "dst": 634
+  },
+  {
+   "relate": "前传",
+   "src": 56688,
+   "dst": 634
+  }
+ ]
+}

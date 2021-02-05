@@ -1,0 +1,45 @@
+{
+ "id": "9720",
+ "node": [
+  {
+   "id": 9720,
+   "name": "Crusader Kings",
+   "nameCN": "十字军之王",
+   "image": "//lain.bgm.tv/pic/cover/m/ae/df/9720_O4M50.jpg"
+  },
+  {
+   "id": 33895,
+   "name": "Crusader Kings II",
+   "nameCN": "十字军之王2",
+   "image": "//lain.bgm.tv/pic/cover/m/9b/f1/33895_gj7Gt.jpg"
+  },
+  {
+   "id": 303089,
+   "name": "Crusader Kings III",
+   "nameCN": "十字军之王3",
+   "image": "//lain.bgm.tv/pic/cover/m/2c/b8/303089_V1LBb.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 9720,
+   "dst": 33895
+  },
+  {
+   "relate": "前传",
+   "src": 33895,
+   "dst": 9720
+  },
+  {
+   "relate": "续集",
+   "src": 33895,
+   "dst": 303089
+  },
+  {
+   "relate": "前传",
+   "src": 303089,
+   "dst": 33895
+  }
+ ]
+}

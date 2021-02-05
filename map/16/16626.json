@@ -1,0 +1,77 @@
+{
+ "id": "16626",
+ "node": [
+  {
+   "id": 16625,
+   "name": "A Game of Thrones",
+   "nameCN": "权力的游戏",
+   "image": "//lain.bgm.tv/pic/cover/m/ab/ff/16625_UHV2I.jpg"
+  },
+  {
+   "id": 16626,
+   "name": "A Clash of Kings",
+   "nameCN": "列王的纷争",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/c8/16626_oUsJ4.jpg"
+  },
+  {
+   "id": 16675,
+   "name": "A Storm of Swords",
+   "nameCN": "冰雨的风暴",
+   "image": "//lain.bgm.tv/pic/cover/m/10/98/16675_C6maN.jpg"
+  },
+  {
+   "id": 16676,
+   "name": "A Feast for Crows",
+   "nameCN": "群鸦的盛宴",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/ee/16676_J95sY.jpg"
+  },
+  {
+   "id": 64521,
+   "name": "A Dance with Dragons",
+   "nameCN": "魔龙的狂舞",
+   "image": "//lain.bgm.tv/pic/cover/m/1e/53/64521_SB7rn.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 16625,
+   "dst": 16626
+  },
+  {
+   "relate": "前传",
+   "src": 16626,
+   "dst": 16625
+  },
+  {
+   "relate": "续集",
+   "src": 16626,
+   "dst": 16675
+  },
+  {
+   "relate": "前传",
+   "src": 16675,
+   "dst": 16626
+  },
+  {
+   "relate": "续集",
+   "src": 16675,
+   "dst": 16676
+  },
+  {
+   "relate": "前传",
+   "src": 16676,
+   "dst": 16675
+  },
+  {
+   "relate": "续集",
+   "src": 16676,
+   "dst": 64521
+  },
+  {
+   "relate": "前传",
+   "src": 64521,
+   "dst": 16676
+  }
+ ]
+}

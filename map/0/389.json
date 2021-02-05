@@ -1,0 +1,45 @@
+{
+ "id": "389",
+ "node": [
+  {
+   "id": 389,
+   "name": "聖剣伝説DS CHILDREN of MANA",
+   "nameCN": "圣剑传说DS：玛娜之子",
+   "image": "//lain.bgm.tv/pic/cover/m/c8/6a/389_ajp.jpg"
+  },
+  {
+   "id": 393,
+   "name": "聖剣伝説 HEROES OF MANA",
+   "nameCN": "圣剑传说：玛娜英雄",
+   "image": "//lain.bgm.tv/pic/cover/m/70/c6/393_ajp.jpg"
+  },
+  {
+   "id": 63857,
+   "name": "聖剣伝説 LEGEND OF MANA",
+   "nameCN": "圣剑传说 玛娜传奇",
+   "image": "//lain.bgm.tv/pic/cover/m/12/c9/63857_g0RH4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 389,
+   "dst": 393
+  },
+  {
+   "relate": "前传",
+   "src": 389,
+   "dst": 63857
+  },
+  {
+   "relate": "前传",
+   "src": 393,
+   "dst": 389
+  },
+  {
+   "relate": "续集",
+   "src": 63857,
+   "dst": 389
+  }
+ ]
+}

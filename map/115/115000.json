@@ -1,0 +1,44 @@
+{
+ "id": "115000",
+ "node": [
+  {
+   "id": 115000,
+   "name": "デュラララ!!",
+   "nameCN": "无头骑士异闻录 漫画版",
+   "image": "//lain.bgm.tv/pic/cover/m/56/0c/115000_BprtB.jpg"
+  },
+  {
+   "id": 149372,
+   "name": "デュラララ!! 罪歌編",
+   "image": "//lain.bgm.tv/pic/cover/m/b2/c6/149372_PZEXV.jpg"
+  },
+  {
+   "id": 149373,
+   "name": "デュラララ!! 黄巾賊編",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/cb/149373_SliT0.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 115000,
+   "dst": 149372
+  },
+  {
+   "relate": "前传",
+   "src": 149372,
+   "dst": 115000
+  },
+  {
+   "relate": "续集",
+   "src": 149372,
+   "dst": 149373
+  },
+  {
+   "relate": "前传",
+   "src": 149373,
+   "dst": 149372
+  }
+ ]
+}

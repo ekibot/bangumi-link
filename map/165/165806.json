@@ -1,0 +1,44 @@
+{
+ "id": "165806",
+ "node": [
+  {
+   "id": 165806,
+   "name": "少年锦衣卫",
+   "nameCN": "少年锦衣卫",
+   "image": "//lain.bgm.tv/pic/cover/m/28/32/165806_YD0ll.jpg"
+  },
+  {
+   "id": 214518,
+   "name": "少年锦衣卫 第二季",
+   "nameCN": "少年锦衣卫 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/a0/bf/214518_ZzlpY.jpg"
+  },
+  {
+   "id": 235039,
+   "name": "少年锦衣卫 第三季",
+   "nameCN": ""
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 165806,
+   "dst": 214518
+  },
+  {
+   "relate": "前传",
+   "src": 214518,
+   "dst": 165806
+  },
+  {
+   "relate": "续集",
+   "src": 214518,
+   "dst": 235039
+  },
+  {
+   "relate": "前传",
+   "src": 235039,
+   "dst": 214518
+  }
+ ]
+}

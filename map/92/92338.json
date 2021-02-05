@@ -1,0 +1,44 @@
+{
+ "id": "92338",
+ "node": [
+  {
+   "id": 92338,
+   "name": "The Musketeers (Season 1)",
+   "nameCN": "火枪手 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/bf/c2/92338_zKR72.jpg"
+  },
+  {
+   "id": 122156,
+   "name": "The Musketeers (Season 2)",
+   "nameCN": "火枪手 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/21/53/122156_KnpR5.jpg"
+  },
+  {
+   "id": 184777,
+   "name": "The Musketeers (Season 3)",
+   "nameCN": "火枪手 第三季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 92338,
+   "dst": 122156
+  },
+  {
+   "relate": "前传",
+   "src": 122156,
+   "dst": 92338
+  },
+  {
+   "relate": "续集",
+   "src": 122156,
+   "dst": 184777
+  },
+  {
+   "relate": "前传",
+   "src": 184777,
+   "dst": 122156
+  }
+ ]
+}

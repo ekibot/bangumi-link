@@ -1,0 +1,45 @@
+{
+ "id": "165060",
+ "node": [
+  {
+   "id": 165060,
+   "name": "ドラゴンボールZ Sparking! METEOR",
+   "nameCN": "龙珠Z电光火石3",
+   "image": "//lain.bgm.tv/pic/cover/m/91/61/165060_KP9Pp.jpg"
+  },
+  {
+   "id": 293928,
+   "name": "ドラゴンボールZ Sparking! NEO",
+   "nameCN": "龙珠Z 电光火石2",
+   "image": "//lain.bgm.tv/pic/cover/m/01/e2/293928_MfIZ4.jpg"
+  },
+  {
+   "id": 293929,
+   "name": "ドラゴンボールZ Sparking!",
+   "nameCN": "龙珠Z 电光火石",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/23/293929_deSs0.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 165060,
+   "dst": 293928
+  },
+  {
+   "relate": "续集",
+   "src": 293928,
+   "dst": 165060
+  },
+  {
+   "relate": "前传",
+   "src": 293928,
+   "dst": 293929
+  },
+  {
+   "relate": "续集",
+   "src": 293929,
+   "dst": 293928
+  }
+ ]
+}

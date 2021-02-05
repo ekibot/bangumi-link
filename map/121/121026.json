@@ -1,0 +1,45 @@
+{
+ "id": "121026",
+ "node": [
+  {
+   "id": 121026,
+   "name": "Twin Peaks Season 1",
+   "nameCN": "双峰 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/11/3d/121026_iznqF.jpg"
+  },
+  {
+   "id": 121027,
+   "name": "Twin Peaks Season 2",
+   "nameCN": "双峰 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/b9/42/121027_uLeLu.jpg"
+  },
+  {
+   "id": 121029,
+   "name": "Twin Peaks: Fire Walk with Me",
+   "nameCN": "双峰：与火同行",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/c9/121029_XoLOl.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 121026,
+   "dst": 121027
+  },
+  {
+   "relate": "前传",
+   "src": 121026,
+   "dst": 121029
+  },
+  {
+   "relate": "前传",
+   "src": 121027,
+   "dst": 121026
+  },
+  {
+   "relate": "续集",
+   "src": 121029,
+   "dst": 121026
+  }
+ ]
+}

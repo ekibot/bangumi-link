@@ -1,0 +1,40 @@
+{
+ "id": "205188",
+ "node": [
+  {
+   "id": 205188,
+   "name": "人造人間キカイダー",
+   "nameCN": "电脑奇侠",
+   "image": "//lain.bgm.tv/pic/cover/m/d0/96/205188_0zIJ7.jpg"
+  },
+  {
+   "id": 205246,
+   "name": "キカイダー01",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/62/c6/205246_hFuff.jpg"
+  },
+  {
+   "id": 212253,
+   "name": "人造人間ハカイダー",
+   "nameCN": "电脑黑魔",
+   "image": "//lain.bgm.tv/pic/cover/m/98/f7/212253_Cl33f.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 205188,
+   "dst": 205246
+  },
+  {
+   "relate": "前传",
+   "src": 205246,
+   "dst": 205188
+  },
+  {
+   "relate": "主线故事",
+   "src": 212253,
+   "dst": 205188
+  }
+ ]
+}

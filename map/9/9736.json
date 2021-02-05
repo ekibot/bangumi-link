@@ -1,0 +1,61 @@
+{
+ "id": "9736",
+ "node": [
+  {
+   "id": 9736,
+   "name": "ガンダム無双2",
+   "nameCN": "高达无双2",
+   "image": "//lain.bgm.tv/pic/cover/m/fa/c0/9736_3QzgW.jpg"
+  },
+  {
+   "id": 13404,
+   "name": "ガンダム無双3",
+   "nameCN": "高达无双3",
+   "image": "//lain.bgm.tv/pic/cover/m/21/64/13404_k6IDK.jpg"
+  },
+  {
+   "id": 68116,
+   "name": "ガンダム無双",
+   "nameCN": "高达无双",
+   "image": "//lain.bgm.tv/pic/cover/m/68/be/68116_7ToZJ.jpg"
+  },
+  {
+   "id": 84243,
+   "name": "真・ガンダム無双",
+   "nameCN": "真・高达无双",
+   "image": "//lain.bgm.tv/pic/cover/m/06/de/84243_yIBi8.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 9736,
+   "dst": 13404
+  },
+  {
+   "relate": "前传",
+   "src": 9736,
+   "dst": 68116
+  },
+  {
+   "relate": "前传",
+   "src": 13404,
+   "dst": 9736
+  },
+  {
+   "relate": "续集",
+   "src": 13404,
+   "dst": 84243
+  },
+  {
+   "relate": "续集",
+   "src": 68116,
+   "dst": 9736
+  },
+  {
+   "relate": "前传",
+   "src": 84243,
+   "dst": 13404
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "1889",
+ "node": [
+  {
+   "id": 1889,
+   "name": "RAGNAROK ONLINE",
+   "nameCN": "仙境传说",
+   "image": "//lain.bgm.tv/pic/cover/m/68/14/1889_bqHr2.jpg"
+  },
+  {
+   "id": 108461,
+   "name": "Ragnarok Online II: Legend of the Second",
+   "nameCN": "仙境传说2:第二传说",
+   "image": "//lain.bgm.tv/pic/cover/m/8f/82/108461_4tL65.jpg"
+  },
+  {
+   "id": 193431,
+   "name": "天天打波利",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/6d/193431_b433i.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1889,
+   "dst": 108461
+  },
+  {
+   "relate": "前传",
+   "src": 108461,
+   "dst": 1889
+  },
+  {
+   "relate": "主线故事",
+   "src": 193431,
+   "dst": 1889
+  }
+ ]
+}

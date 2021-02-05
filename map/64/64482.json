@@ -1,0 +1,45 @@
+{
+ "id": "64482",
+ "node": [
+  {
+   "id": 64482,
+   "name": "Vampire: The Masquerade – Bloodlines",
+   "nameCN": "吸血鬼：避世之血族",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/e0/64482_6tW5H.jpg"
+  },
+  {
+   "id": 87433,
+   "name": "Vampire: The Masquerade Redemption",
+   "nameCN": "吸血鬼：避世之救赎",
+   "image": "//lain.bgm.tv/pic/cover/m/e1/03/87433_xh61x.jpg"
+  },
+  {
+   "id": 278671,
+   "name": "Vampire: The Masquerade – Bloodlines 2",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/ae/ab/278671_NOQhE.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 64482,
+   "dst": 87433
+  },
+  {
+   "relate": "续集",
+   "src": 64482,
+   "dst": 278671
+  },
+  {
+   "relate": "续集",
+   "src": 87433,
+   "dst": 64482
+  },
+  {
+   "relate": "前传",
+   "src": 278671,
+   "dst": 64482
+  }
+ ]
+}

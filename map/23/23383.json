@@ -1,0 +1,58 @@
+{
+ "id": "23383",
+ "node": [
+  {
+   "id": 23383,
+   "name": "斗龙战士",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/f3/23383_ChDer.jpg"
+  },
+  {
+   "id": 208051,
+   "name": "斗龙战士之星印罗盘",
+   "image": "//lain.bgm.tv/pic/cover/m/ae/fb/208051_uGJxG.jpg"
+  },
+  {
+   "id": 208052,
+   "name": "斗龙战士之龙印之战",
+   "image": "//lain.bgm.tv/pic/cover/m/da/1e/208052_RX8hm.jpg"
+  },
+  {
+   "id": 208053,
+   "name": "斗龙战士2 星龙圣域",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/aa/208053_0rJ7y.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 23383,
+   "dst": 208053
+  },
+  {
+   "relate": "前传",
+   "src": 208051,
+   "dst": 208052
+  },
+  {
+   "relate": "续集",
+   "src": 208052,
+   "dst": 208051
+  },
+  {
+   "relate": "前传",
+   "src": 208052,
+   "dst": 208053
+  },
+  {
+   "relate": "前传",
+   "src": 208053,
+   "dst": 23383
+  },
+  {
+   "relate": "续集",
+   "src": 208053,
+   "dst": 208052
+  }
+ ]
+}

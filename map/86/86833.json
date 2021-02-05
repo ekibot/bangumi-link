@@ -1,0 +1,45 @@
+{
+ "id": "86833",
+ "node": [
+  {
+   "id": 86833,
+   "name": "決戦III",
+   "nameCN": "决战3",
+   "image": "//lain.bgm.tv/pic/cover/m/70/7d/86833_VAQ3G.jpg"
+  },
+  {
+   "id": 306987,
+   "name": "決戦",
+   "nameCN": "决战",
+   "image": "//lain.bgm.tv/pic/cover/m/14/2e/306987_BOGge.jpg"
+  },
+  {
+   "id": 306988,
+   "name": "決戦II",
+   "nameCN": "决战2",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/98/306988_yhRRK.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 86833,
+   "dst": 306988
+  },
+  {
+   "relate": "续集",
+   "src": 306987,
+   "dst": 306988
+  },
+  {
+   "relate": "续集",
+   "src": 306988,
+   "dst": 86833
+  },
+  {
+   "relate": "前传",
+   "src": 306988,
+   "dst": 306987
+  }
+ ]
+}

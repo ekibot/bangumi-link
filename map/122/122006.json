@@ -1,0 +1,45 @@
+{
+ "id": "122006",
+ "node": [
+  {
+   "id": 122006,
+   "name": "Lilyhammer Season 1",
+   "nameCN": "莉莉海默 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/f6/c7/122006_agg2Z.jpg"
+  },
+  {
+   "id": 122007,
+   "name": "Lilyhammer Season 2",
+   "nameCN": "莉莉海默 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/01/d8/122007_DzXGy.jpg"
+  },
+  {
+   "id": 122008,
+   "name": "Lilyhammer Season 3",
+   "nameCN": "莉莉海默 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/22/0e/122008_MccF3.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 122006,
+   "dst": 122007
+  },
+  {
+   "relate": "前传",
+   "src": 122007,
+   "dst": 122006
+  },
+  {
+   "relate": "续集",
+   "src": 122007,
+   "dst": 122008
+  },
+  {
+   "relate": "前传",
+   "src": 122008,
+   "dst": 122007
+  }
+ ]
+}

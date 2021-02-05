@@ -1,0 +1,61 @@
+{
+ "id": "84586",
+ "node": [
+  {
+   "id": 84586,
+   "name": "Fresh Meat (Season 1)",
+   "nameCN": "新生六居客 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/42/84586_EJwwC.jpg"
+  },
+  {
+   "id": 84588,
+   "name": "Fresh Meat (Season 2)",
+   "nameCN": "新生六居客 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/76/94/84588_CGvqw.jpg"
+  },
+  {
+   "id": 84589,
+   "name": "Fresh Meat (Season 3)",
+   "nameCN": "新生六居客 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/90/38/84589_7KK9i.jpg"
+  },
+  {
+   "id": 170773,
+   "name": "Fresh Meat (Season 4)",
+   "nameCN": "新生六居客 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/60/170773_JAqJj.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 84586,
+   "dst": 84588
+  },
+  {
+   "relate": "前传",
+   "src": 84588,
+   "dst": 84586
+  },
+  {
+   "relate": "续集",
+   "src": 84588,
+   "dst": 84589
+  },
+  {
+   "relate": "前传",
+   "src": 84589,
+   "dst": 84588
+  },
+  {
+   "relate": "续集",
+   "src": 84589,
+   "dst": 170773
+  },
+  {
+   "relate": "前传",
+   "src": 170773,
+   "dst": 84589
+  }
+ ]
+}

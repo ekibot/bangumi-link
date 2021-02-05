@@ -1,0 +1,45 @@
+{
+ "id": "8747",
+ "node": [
+  {
+   "id": 8747,
+   "name": "ONE PIECE ギガントバトル",
+   "nameCN": "海贼王：巨人战争",
+   "image": "//lain.bgm.tv/pic/cover/m/fa/95/8747_qR0Qs.jpg"
+  },
+  {
+   "id": 61251,
+   "name": "ONE PIECE ギガントバトル！2 新世界",
+   "nameCN": "海贼王：巨人战争2 新世界",
+   "image": "//lain.bgm.tv/pic/cover/m/48/a8/61251_35jc4.jpg"
+  },
+  {
+   "id": 109104,
+   "name": "ONE PIECE 超グランドバトル！X",
+   "nameCN": "海贼王 超伟大战斗X",
+   "image": "//lain.bgm.tv/pic/cover/m/58/96/109104_Q5R48.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 8747,
+   "dst": 61251
+  },
+  {
+   "relate": "前传",
+   "src": 61251,
+   "dst": 8747
+  },
+  {
+   "relate": "续集",
+   "src": 61251,
+   "dst": 109104
+  },
+  {
+   "relate": "前传",
+   "src": 109104,
+   "dst": 61251
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "28766",
+ "node": [
+  {
+   "id": 28766,
+   "name": "Star Wars: The Old Republic",
+   "nameCN": "星球大战: 旧共和国",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/9b/28766_2Dz18.jpg"
+  },
+  {
+   "id": 88560,
+   "name": "Star Wars: Knights of the Old Republic",
+   "nameCN": "星球大战：旧共和国武士",
+   "image": "//lain.bgm.tv/pic/cover/m/58/82/88560_Fq215.jpg"
+  },
+  {
+   "id": 117296,
+   "name": "Star Wars: Knights of the Old Republic II – The Sith Lords",
+   "nameCN": "星球大战：旧共和国武士II - 西斯领主",
+   "image": "//lain.bgm.tv/pic/cover/m/ff/31/117296_r5zmD.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 28766,
+   "dst": 117296
+  },
+  {
+   "relate": "续集",
+   "src": 88560,
+   "dst": 117296
+  },
+  {
+   "relate": "续集",
+   "src": 117296,
+   "dst": 28766
+  },
+  {
+   "relate": "前传",
+   "src": 117296,
+   "dst": 88560
+  }
+ ]
+}

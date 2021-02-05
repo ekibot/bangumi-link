@@ -1,0 +1,43 @@
+{
+ "id": "123394",
+ "node": [
+  {
+   "id": 123394,
+   "name": "春光灿烂猪八戒",
+   "image": "//lain.bgm.tv/pic/cover/m/fb/41/123394_X9DlW.jpg"
+  },
+  {
+   "id": 123396,
+   "name": "福星高照猪八戒",
+   "image": "//lain.bgm.tv/pic/cover/m/63/84/123396_SVM8Q.jpg"
+  },
+  {
+   "id": 123398,
+   "name": "喜气洋洋猪八戒",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/02/97/123398_oK4Oe.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 123394,
+   "dst": 123396
+  },
+  {
+   "relate": "前传",
+   "src": 123396,
+   "dst": 123394
+  },
+  {
+   "relate": "续集",
+   "src": 123396,
+   "dst": 123398
+  },
+  {
+   "relate": "前传",
+   "src": 123398,
+   "dst": 123396
+  }
+ ]
+}

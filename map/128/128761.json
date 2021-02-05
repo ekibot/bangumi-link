@@ -1,0 +1,45 @@
+{
+ "id": "128761",
+ "node": [
+  {
+   "id": 128761,
+   "name": "フェアリーテイル・レクイエム",
+   "nameCN": "童话安魂曲",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 147400,
+   "name": "フェアリーテイル・アンコール",
+   "nameCN": "童话再奏曲",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 217402,
+   "name": "フェアリーテイル・シンフォニー",
+   "nameCN": "童话交响曲",
+   "image": "/img/no_icon_subject.png"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 128761,
+   "dst": 147400
+  },
+  {
+   "relate": "前传",
+   "src": 147400,
+   "dst": 128761
+  },
+  {
+   "relate": "续集",
+   "src": 147400,
+   "dst": 217402
+  },
+  {
+   "relate": "前传",
+   "src": 217402,
+   "dst": 128761
+  }
+ ]
+}

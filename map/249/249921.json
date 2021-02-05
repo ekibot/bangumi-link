@@ -1,0 +1,45 @@
+{
+ "id": "249921",
+ "node": [
+  {
+   "id": 249921,
+   "name": "ミッキーのマジカルアドベンチャー",
+   "nameCN": "米奇的魔法大冒险",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/c2/249921_12Xof.jpg"
+  },
+  {
+   "id": 257047,
+   "name": "The Great Circus Mystery Starring Mickey & Minnie",
+   "nameCN": "米老鼠-神秘马戏团",
+   "image": "//lain.bgm.tv/pic/cover/m/63/8d/257047_h8jg0.jpg"
+  },
+  {
+   "id": 257052,
+   "name": "Disney's Magical Quest 3 Starring Mickey & Donald",
+   "nameCN": "米老鼠与唐老鸭的魔法大冒险3",
+   "image": "//lain.bgm.tv/pic/cover/m/40/56/257052_Yez8k.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 249921,
+   "dst": 257047
+  },
+  {
+   "relate": "前传",
+   "src": 257047,
+   "dst": 249921
+  },
+  {
+   "relate": "续集",
+   "src": 257047,
+   "dst": 257052
+  },
+  {
+   "relate": "前传",
+   "src": 257052,
+   "dst": 257047
+  }
+ ]
+}

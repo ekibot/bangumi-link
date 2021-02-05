@@ -1,0 +1,56 @@
+{
+ "id": "36650",
+ "node": [
+  {
+   "id": 36650,
+   "name": "天使帝國",
+   "nameCN": "天使帝国",
+   "image": "//lain.bgm.tv/pic/cover/m/38/bc/36650_nABNN.jpg"
+  },
+  {
+   "id": 122648,
+   "name": "天使帝國Ⅳ",
+   "nameCN": "天使帝国4",
+   "image": "//lain.bgm.tv/pic/cover/m/0a/0a/122648_49Vq3.jpg"
+  },
+  {
+   "id": 189292,
+   "name": "天使帝國Ⅱ",
+   "nameCN": "天使帝国2",
+   "image": "//lain.bgm.tv/pic/cover/m/55/48/189292_elaX9.jpg"
+  },
+  {
+   "id": 189294,
+   "name": "新天使帝國",
+   "nameCN": "新天使帝国",
+   "image": "//lain.bgm.tv/pic/cover/m/e1/c7/189294_yJbIk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 36650,
+   "dst": 122648
+  },
+  {
+   "relate": "前传",
+   "src": 122648,
+   "dst": 189294
+  },
+  {
+   "relate": "前传",
+   "src": 189292,
+   "dst": 36650
+  },
+  {
+   "relate": "续集",
+   "src": 189292,
+   "dst": 122648
+  },
+  {
+   "relate": "续集",
+   "src": 189294,
+   "dst": 122648
+  }
+ ]
+}

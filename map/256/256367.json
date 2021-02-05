@@ -1,0 +1,44 @@
+{
+ "id": "256367",
+ "node": [
+  {
+   "id": 256367,
+   "name": "You Season 1",
+   "nameCN": "为卿痴狂",
+   "image": "//lain.bgm.tv/pic/cover/m/63/e0/256367_7Fa95.jpg"
+  },
+  {
+   "id": 296873,
+   "name": "You Season 2",
+   "nameCN": "为卿痴狂 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/08/296873_LulQS.jpg"
+  },
+  {
+   "id": 300859,
+   "name": "You Season 3",
+   "nameCN": "为卿痴狂 第三季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 256367,
+   "dst": 296873
+  },
+  {
+   "relate": "前传",
+   "src": 296873,
+   "dst": 256367
+  },
+  {
+   "relate": "续集",
+   "src": 296873,
+   "dst": 300859
+  },
+  {
+   "relate": "前传",
+   "src": 300859,
+   "dst": 296873
+  }
+ ]
+}

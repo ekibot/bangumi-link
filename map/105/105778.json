@@ -1,0 +1,40 @@
+{
+ "id": "105778",
+ "node": [
+  {
+   "id": 105778,
+   "name": "スプラトゥーン",
+   "nameCN": "喷射战士",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/a9/105778_G92n1.jpg"
+  },
+  {
+   "id": 205915,
+   "name": "スプラトゥーン2",
+   "nameCN": "喷射战士2",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/06/205915_C0f5H.jpg"
+  },
+  {
+   "id": 251316,
+   "name": "スプラトゥーン2　オクト・エキスパンション",
+   "nameCN": "型爆墨鱼2 章鱼扩展包",
+   "image": "//lain.bgm.tv/pic/cover/m/b2/a4/251316_8aca3.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 105778,
+   "dst": 205915
+  },
+  {
+   "relate": "前传",
+   "src": 205915,
+   "dst": 105778
+  },
+  {
+   "relate": "主线故事",
+   "src": 251316,
+   "dst": 205915
+  }
+ ]
+}

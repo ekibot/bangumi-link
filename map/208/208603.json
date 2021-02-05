@@ -1,0 +1,45 @@
+{
+ "id": "208603",
+ "node": [
+  {
+   "id": 208603,
+   "name": "Legion Season 1",
+   "nameCN": "大群 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/09/c6/208603_4o1X0.jpg"
+  },
+  {
+   "id": 212235,
+   "name": "Legion Season 2",
+   "nameCN": "大群 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/85/93/212235_pBCy4.jpg"
+  },
+  {
+   "id": 281967,
+   "name": "Legion Season 3",
+   "nameCN": "大群 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/44/2b/281967_LA2js.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 208603,
+   "dst": 212235
+  },
+  {
+   "relate": "前传",
+   "src": 212235,
+   "dst": 208603
+  },
+  {
+   "relate": "续集",
+   "src": 212235,
+   "dst": 281967
+  },
+  {
+   "relate": "前传",
+   "src": 281967,
+   "dst": 212235
+  }
+ ]
+}

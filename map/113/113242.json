@@ -1,0 +1,61 @@
+{
+ "id": "113242",
+ "node": [
+  {
+   "id": 113242,
+   "name": "The Lord of the Rings",
+   "nameCN": "魔戒",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/c1/113242_OyC9L.jpg"
+  },
+  {
+   "id": 113243,
+   "name": "The Hobbit",
+   "nameCN": "霍比特人",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/f2/113243_us.jpg"
+  },
+  {
+   "id": 113244,
+   "name": "The Silmarillion",
+   "nameCN": "精灵宝钻",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/98/113244_Qvc00.jpg"
+  },
+  {
+   "id": 184519,
+   "name": "Bilbo's Last Song",
+   "nameCN": "比尔博的最后之歌",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/df/184519_us.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 113242,
+   "dst": 113243
+  },
+  {
+   "relate": "续集",
+   "src": 113242,
+   "dst": 184519
+  },
+  {
+   "relate": "续集",
+   "src": 113243,
+   "dst": 113242
+  },
+  {
+   "relate": "前传",
+   "src": 113243,
+   "dst": 113244
+  },
+  {
+   "relate": "续集",
+   "src": 113244,
+   "dst": 113242
+  },
+  {
+   "relate": "前传",
+   "src": 184519,
+   "dst": 113242
+  }
+ ]
+}

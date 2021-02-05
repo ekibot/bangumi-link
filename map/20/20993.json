@@ -1,0 +1,45 @@
+{
+ "id": "20993",
+ "node": [
+  {
+   "id": 20993,
+   "name": "Clock Tower 3",
+   "nameCN": "钟楼惊魂3",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/40/20993_AFEg1.jpg"
+  },
+  {
+   "id": 22328,
+   "name": "Clock Tower",
+   "nameCN": "钟楼",
+   "image": "//lain.bgm.tv/pic/cover/m/cf/92/22328_7MFaQ.jpg"
+  },
+  {
+   "id": 22330,
+   "name": "Clock Tower 2",
+   "nameCN": "钟楼2",
+   "image": "//lain.bgm.tv/pic/cover/m/b3/c1/22330_7nlWc.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 20993,
+   "dst": 22330
+  },
+  {
+   "relate": "续集",
+   "src": 22328,
+   "dst": 22330
+  },
+  {
+   "relate": "续集",
+   "src": 22330,
+   "dst": 20993
+  },
+  {
+   "relate": "前传",
+   "src": 22330,
+   "dst": 22328
+  }
+ ]
+}

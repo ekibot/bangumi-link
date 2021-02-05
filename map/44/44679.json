@@ -1,0 +1,45 @@
+{
+ "id": "44679",
+ "node": [
+  {
+   "id": 44679,
+   "name": "神雕俠侶I：古墓奇緣",
+   "nameCN": "神雕侠侣I：古墓奇缘",
+   "image": "//lain.bgm.tv/pic/cover/m/30/e3/44679_NnZD6.jpg"
+  },
+  {
+   "id": 117545,
+   "name": "神雕俠侶II：襄陽風雲",
+   "nameCN": "神雕侠侣II：襄阳风云",
+   "image": "//lain.bgm.tv/pic/cover/m/73/55/117545_oqs3U.jpg"
+  },
+  {
+   "id": 117555,
+   "name": "神雕俠侶III：相約十六年",
+   "nameCN": "神雕侠侣III：十六年之约",
+   "image": "//lain.bgm.tv/pic/cover/m/18/ba/117555_0nFcE.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 44679,
+   "dst": 117545
+  },
+  {
+   "relate": "前传",
+   "src": 117545,
+   "dst": 44679
+  },
+  {
+   "relate": "续集",
+   "src": 117545,
+   "dst": 117555
+  },
+  {
+   "relate": "前传",
+   "src": 117555,
+   "dst": 117545
+  }
+ ]
+}

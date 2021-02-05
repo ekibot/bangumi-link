@@ -1,0 +1,45 @@
+{
+ "id": "194028",
+ "node": [
+  {
+   "id": 194028,
+   "name": "Le Bureau des légendes",
+   "nameCN": "传奇办公室",
+   "image": "//lain.bgm.tv/pic/cover/m/90/db/194028_2ofTO.jpg"
+  },
+  {
+   "id": 194029,
+   "name": "Le Bureau des Légendes Season 2",
+   "nameCN": "传奇办公室 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/b6/194029_7hoFf.jpg"
+  },
+  {
+   "id": 218015,
+   "name": "Le Bureau des Légendes Season 3",
+   "nameCN": "传奇办公室 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/11/218015_Zoe3T.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 194028,
+   "dst": 194029
+  },
+  {
+   "relate": "前传",
+   "src": 194029,
+   "dst": 194028
+  },
+  {
+   "relate": "续集",
+   "src": 194029,
+   "dst": 218015
+  },
+  {
+   "relate": "前传",
+   "src": 218015,
+   "dst": 194029
+  }
+ ]
+}

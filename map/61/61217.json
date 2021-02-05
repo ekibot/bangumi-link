@@ -1,0 +1,45 @@
+{
+ "id": "61217",
+ "node": [
+  {
+   "id": 61217,
+   "name": "The Smurfs",
+   "nameCN": "蓝精灵",
+   "image": "//lain.bgm.tv/pic/cover/m/82/fa/61217_YD682.jpg"
+  },
+  {
+   "id": 88446,
+   "name": "The Smurfs2",
+   "nameCN": "蓝精灵2",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/68/88446_iI6Ki.jpg"
+  },
+  {
+   "id": 209579,
+   "name": "Smurfs: The Lost Village",
+   "nameCN": "蓝精灵3：失落的村庄",
+   "image": "//lain.bgm.tv/pic/cover/m/36/f4/209579_lkkeJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 61217,
+   "dst": 88446
+  },
+  {
+   "relate": "前传",
+   "src": 88446,
+   "dst": 61217
+  },
+  {
+   "relate": "续集",
+   "src": 88446,
+   "dst": 209579
+  },
+  {
+   "relate": "前传",
+   "src": 209579,
+   "dst": 88446
+  }
+ ]
+}

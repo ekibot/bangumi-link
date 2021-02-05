@@ -1,0 +1,51 @@
+{
+ "id": "10038",
+ "node": [
+  {
+   "id": 10038,
+   "name": "Portal",
+   "nameCN": "传送门",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/6b/10038_A84A8.jpg"
+  },
+  {
+   "id": 15912,
+   "name": "Portal 2",
+   "nameCN": "传送门 2",
+   "image": "//lain.bgm.tv/pic/cover/m/06/b8/15912_Hy448.jpg"
+  },
+  {
+   "id": 223934,
+   "name": "Portal Stories: Mel",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/32/223934_MPwtd.jpg"
+  },
+  {
+   "id": 223936,
+   "name": "Thinking with Time Machine",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/ee/223936_ovtAb.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 10038,
+   "dst": 15912
+  },
+  {
+   "relate": "前传",
+   "src": 15912,
+   "dst": 10038
+  },
+  {
+   "relate": "主线故事",
+   "src": 223934,
+   "dst": 15912
+  },
+  {
+   "relate": "主线故事",
+   "src": 223936,
+   "dst": 15912
+  }
+ ]
+}

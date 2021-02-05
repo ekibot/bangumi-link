@@ -1,0 +1,61 @@
+{
+ "id": "7",
+ "node": [
+  {
+   "id": 7,
+   "name": "Unreal Tournament 3",
+   "nameCN": "虚幻竞技场3",
+   "image": "//lain.bgm.tv/pic/cover/m/8f/14/7_gQPtW.jpg"
+  },
+  {
+   "id": 248784,
+   "name": "Unreal Tournament",
+   "nameCN": "虚幻竞技场",
+   "image": "//lain.bgm.tv/pic/cover/m/c6/26/248784_D40Lf.jpg"
+  },
+  {
+   "id": 248785,
+   "name": "Unreal Tournament 2003",
+   "nameCN": "虚幻竞技场2003",
+   "image": "//lain.bgm.tv/pic/cover/m/44/0a/248785_MCdQ8.jpg"
+  },
+  {
+   "id": 248786,
+   "name": "Unreal Tournament 2004",
+   "nameCN": "虚幻竞技场2004",
+   "image": "//lain.bgm.tv/pic/cover/m/12/4c/248786_Jy0nQ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 7,
+   "dst": 248786
+  },
+  {
+   "relate": "续集",
+   "src": 248784,
+   "dst": 248785
+  },
+  {
+   "relate": "前传",
+   "src": 248785,
+   "dst": 248784
+  },
+  {
+   "relate": "续集",
+   "src": 248785,
+   "dst": 248786
+  },
+  {
+   "relate": "续集",
+   "src": 248786,
+   "dst": 7
+  },
+  {
+   "relate": "前传",
+   "src": 248786,
+   "dst": 248785
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "5591",
+ "node": [
+  {
+   "id": 5590,
+   "name": "最果ての地",
+   "nameCN": "最偏僻的地方",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/49/5590_jp.jpg"
+  },
+  {
+   "id": 5591,
+   "name": "瑕だらけの男たち",
+   "nameCN": "鹰的俘虏",
+   "image": "//lain.bgm.tv/pic/cover/m/21/7b/5591_jp.jpg"
+  },
+  {
+   "id": 40312,
+   "name": "錆びた月",
+   "nameCN": "赤蚀之月",
+   "image": "//lain.bgm.tv/pic/cover/m/46/14/40312_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 5590,
+   "dst": 5591
+  },
+  {
+   "relate": "前传",
+   "src": 5591,
+   "dst": 5590
+  },
+  {
+   "relate": "续集",
+   "src": 5591,
+   "dst": 40312
+  },
+  {
+   "relate": "前传",
+   "src": 40312,
+   "dst": 5591
+  }
+ ]
+}

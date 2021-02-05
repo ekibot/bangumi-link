@@ -1,0 +1,45 @@
+{
+ "id": "56969",
+ "node": [
+  {
+   "id": 56969,
+   "name": "忍者龍剣伝III 黄泉の方船",
+   "nameCN": "忍者龙剑传3 黄泉的方舟",
+   "image": "//lain.bgm.tv/pic/cover/m/ec/36/56969_NOtn3.jpg"
+  },
+  {
+   "id": 72804,
+   "name": "忍者龍剣伝",
+   "nameCN": "忍者龙剑传",
+   "image": "//lain.bgm.tv/pic/cover/m/da/22/72804_XaTtZ.jpg"
+  },
+  {
+   "id": 72805,
+   "name": "忍者龍剣伝II 暗黒の邪神剣",
+   "nameCN": "忍者龙剑传2 暗黑的邪神剑",
+   "image": "//lain.bgm.tv/pic/cover/m/f4/59/72805_l8mq1.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 56969,
+   "dst": 72805
+  },
+  {
+   "relate": "续集",
+   "src": 72804,
+   "dst": 72805
+  },
+  {
+   "relate": "续集",
+   "src": 72805,
+   "dst": 56969
+  },
+  {
+   "relate": "前传",
+   "src": 72805,
+   "dst": 72804
+  }
+ ]
+}

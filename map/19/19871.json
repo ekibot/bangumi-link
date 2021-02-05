@@ -1,0 +1,40 @@
+{
+ "id": "19871",
+ "node": [
+  {
+   "id": 19871,
+   "name": "雨血1：迷镇 Rainblood1:Town of Mystery",
+   "nameCN": "雨血一 迷镇",
+   "image": "//lain.bgm.tv/pic/cover/m/ec/32/19871_3X7mS.jpg"
+  },
+  {
+   "id": 28960,
+   "name": "雨血2：烨城 Rainblood2:City of Flame",
+   "nameCN": "雨血二 烨城",
+   "image": "//lain.bgm.tv/pic/cover/m/70/5c/28960_vbo93.jpg"
+  },
+  {
+   "id": 56937,
+   "name": "雨血前传：蜃楼",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/b7/aa/56937_KAl74.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 19871,
+   "dst": 28960
+  },
+  {
+   "relate": "前传",
+   "src": 28960,
+   "dst": 19871
+  },
+  {
+   "relate": "主线故事",
+   "src": 56937,
+   "dst": 19871
+  }
+ ]
+}

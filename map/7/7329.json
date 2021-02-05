@@ -1,0 +1,45 @@
+{
+ "id": "7329",
+ "node": [
+  {
+   "id": 7329,
+   "name": "幾千の夜 第一夜",
+   "nameCN": "几千之夜 第一夜",
+   "image": "//lain.bgm.tv/pic/cover/m/83/dd/7329_jp.jpg"
+  },
+  {
+   "id": 38931,
+   "name": "幾千の夜 最終夜",
+   "nameCN": "几千之夜 第终夜",
+   "image": "//lain.bgm.tv/pic/cover/m/e4/89/38931_jp.jpg"
+  },
+  {
+   "id": 38932,
+   "name": "幾千の夜 第二夜",
+   "nameCN": "几千之夜 第二夜",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/cb/38932_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 7329,
+   "dst": 38932
+  },
+  {
+   "relate": "前传",
+   "src": 38931,
+   "dst": 38932
+  },
+  {
+   "relate": "前传",
+   "src": 38932,
+   "dst": 7329
+  },
+  {
+   "relate": "续集",
+   "src": 38932,
+   "dst": 38931
+  }
+ ]
+}

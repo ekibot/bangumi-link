@@ -1,0 +1,83 @@
+{
+ "id": "19395",
+ "node": [
+  {
+   "id": 19395,
+   "name": "Lego Star Wars III: The Clone Wars",
+   "nameCN": "乐高星球大战3:克隆战争",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/cc/19395_7vhvv.jpg"
+  },
+  {
+   "id": 55698,
+   "name": "Lego Star Wars: The Video Game",
+   "nameCN": "乐高星球大战",
+   "image": "//lain.bgm.tv/pic/cover/m/14/56/55698_qT8E6.jpg"
+  },
+  {
+   "id": 155261,
+   "name": "Lego Star Wars II: The Original Trilogy",
+   "nameCN": "乐高星球大战2：原创三部曲",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/95/155261_KWS9l.jpg"
+  },
+  {
+   "id": 155262,
+   "name": "Lego Star Wars: The Complete Saga",
+   "nameCN": "乐高星球大战：完整的传奇",
+   "image": "//lain.bgm.tv/pic/cover/m/46/a2/155262_xb6BA.jpg"
+  },
+  {
+   "id": 186946,
+   "name": "Lego Star Wars: The Force Awakens",
+   "nameCN": "乐高星球大战：原力觉醒",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/c8/186946_98jzy.jpg"
+  },
+  {
+   "id": 284432,
+   "name": "LEGO Star Wars: The Skywalker Saga",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/15/284432_dZs2A.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 19395,
+   "dst": 155261
+  },
+  {
+   "relate": "续集",
+   "src": 19395,
+   "dst": 186946
+  },
+  {
+   "relate": "续集",
+   "src": 55698,
+   "dst": 155261
+  },
+  {
+   "relate": "续集",
+   "src": 155261,
+   "dst": 19395
+  },
+  {
+   "relate": "前传",
+   "src": 155261,
+   "dst": 55698
+  },
+  {
+   "relate": "前传",
+   "src": 186946,
+   "dst": 155262
+  },
+  {
+   "relate": "续集",
+   "src": 186946,
+   "dst": 284432
+  },
+  {
+   "relate": "前传",
+   "src": 284432,
+   "dst": 186946
+  }
+ ]
+}

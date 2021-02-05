@@ -1,0 +1,55 @@
+{
+ "id": "7186",
+ "node": [
+  {
+   "id": 7186,
+   "name": "俺たちに翼はない AfterStory",
+   "image": "//lain.bgm.tv/pic/cover/m/83/7a/7186_Ae1yt.jpg"
+  },
+  {
+   "id": 7868,
+   "name": "俺たちに翼はない",
+   "nameCN": "我们没有翅膀",
+   "image": "//lain.bgm.tv/pic/cover/m/2b/85/7868_RlKwS.jpg"
+  },
+  {
+   "id": 21021,
+   "name": "俺たちに翼はない～Prelude～",
+   "nameCN": "我们没有翅膀～前奏曲～",
+   "image": "//lain.bgm.tv/pic/cover/m/85/69/21021_MFfQh.jpg"
+  },
+  {
+   "id": 110527,
+   "name": "ネブ * プラス",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/6c/70/110527_XIa3o.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 7186,
+   "dst": 7868
+  },
+  {
+   "relate": "续集",
+   "src": 7868,
+   "dst": 7186
+  },
+  {
+   "relate": "前传",
+   "src": 7868,
+   "dst": 21021
+  },
+  {
+   "relate": "续集",
+   "src": 21021,
+   "dst": 7868
+  },
+  {
+   "relate": "主线故事",
+   "src": 110527,
+   "dst": 7186
+  }
+ ]
+}

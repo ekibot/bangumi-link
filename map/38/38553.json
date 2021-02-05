@@ -1,0 +1,56 @@
+{
+ "id": "38553",
+ "node": [
+  {
+   "id": 38553,
+   "name": "Divinity II: Ego Draconis",
+   "nameCN": "神界2:龙裔",
+   "image": "//lain.bgm.tv/pic/cover/m/34/57/38553_evXPL.jpg"
+  },
+  {
+   "id": 129730,
+   "name": "Divinity: Dragon Commander",
+   "nameCN": "神界：龙之指挥官",
+   "image": "//lain.bgm.tv/pic/cover/m/29/83/129730_BrgBV.jpg"
+  },
+  {
+   "id": 133939,
+   "name": "Divine Divinity",
+   "nameCN": "神界",
+   "image": "//lain.bgm.tv/pic/cover/m/67/a6/133939_dtpMp.jpg"
+  },
+  {
+   "id": 133941,
+   "name": "Beyond Divinity",
+   "nameCN": "超越神界",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/d7/133941_6bHf9.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 38553,
+   "dst": 129730
+  },
+  {
+   "relate": "前传",
+   "src": 38553,
+   "dst": 133939
+  },
+  {
+   "relate": "前传",
+   "src": 129730,
+   "dst": 38553
+  },
+  {
+   "relate": "续集",
+   "src": 133939,
+   "dst": 38553
+  },
+  {
+   "relate": "主线故事",
+   "src": 133941,
+   "dst": 133939
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "87873",
+ "node": [
+  {
+   "id": 87873,
+   "name": "Alien Breed: Impact",
+   "nameCN": "异形繁殖:冲击",
+   "image": "//lain.bgm.tv/pic/cover/m/77/3d/87873_o0Kz0.jpg"
+  },
+  {
+   "id": 87874,
+   "name": "Alien Breed 3: Descent",
+   "nameCN": "异形繁殖3:侵袭",
+   "image": "//lain.bgm.tv/pic/cover/m/04/21/87874_ywxjF.jpg"
+  },
+  {
+   "id": 87875,
+   "name": "Alien Breed 2: Assault",
+   "nameCN": "异形繁殖2:突击",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/48/87875_N92DC.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 87873,
+   "dst": 87875
+  },
+  {
+   "relate": "前传",
+   "src": 87874,
+   "dst": 87875
+  },
+  {
+   "relate": "前传",
+   "src": 87875,
+   "dst": 87873
+  },
+  {
+   "relate": "续集",
+   "src": 87875,
+   "dst": 87874
+  }
+ ]
+}

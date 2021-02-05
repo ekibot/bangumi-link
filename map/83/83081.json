@@ -1,0 +1,45 @@
+{
+ "id": "83081",
+ "node": [
+  {
+   "id": 83081,
+   "name": "DRAGONBALL Z THE LEGACY OF GOKU",
+   "nameCN": "龙珠Z 悟空的遗产",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/98/83081_7Cpuh.jpg"
+  },
+  {
+   "id": 83082,
+   "name": "DRAGONBALL Z THE LEGACY OF GOKU II",
+   "nameCN": "龙珠Z 悟空的遗产2",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/83/83082_X95w5.jpg"
+  },
+  {
+   "id": 83105,
+   "name": "Dragon Ball Z: Buu's Fury",
+   "nameCN": "龙珠Z 魔人布欧",
+   "image": "//lain.bgm.tv/pic/cover/m/b1/ef/83105_HGhEc.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 83081,
+   "dst": 83082
+  },
+  {
+   "relate": "前传",
+   "src": 83082,
+   "dst": 83081
+  },
+  {
+   "relate": "续集",
+   "src": 83082,
+   "dst": 83105
+  },
+  {
+   "relate": "前传",
+   "src": 83105,
+   "dst": 83082
+  }
+ ]
+}

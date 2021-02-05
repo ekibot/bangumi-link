@@ -1,0 +1,72 @@
+{
+ "id": "4301",
+ "node": [
+  {
+   "id": 4301,
+   "name": "星界の紋章",
+   "nameCN": "星界的纹章",
+   "image": "//lain.bgm.tv/pic/cover/m/14/75/4301_dr1D5.jpg"
+  },
+  {
+   "id": 9617,
+   "name": "星界の戦旗",
+   "nameCN": "星界的战旗",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/a9/9617_j3ryK.jpg"
+  },
+  {
+   "id": 9618,
+   "name": "星界の戦旗II",
+   "nameCN": "星界的战旗II",
+   "image": "//lain.bgm.tv/pic/cover/m/fd/34/9618_0au0E.jpg"
+  },
+  {
+   "id": 9619,
+   "name": "星界の戦旗III",
+   "nameCN": "星界的战旗III",
+   "image": "//lain.bgm.tv/pic/cover/m/e4/f6/9619_q3m49.jpg"
+  },
+  {
+   "id": 34515,
+   "name": "星界の断章 誕生",
+   "nameCN": "星界的断章 诞生",
+   "image": "//lain.bgm.tv/pic/cover/m/17/75/34515_zM0FN.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 4301,
+   "dst": 9617
+  },
+  {
+   "relate": "前传",
+   "src": 9617,
+   "dst": 4301
+  },
+  {
+   "relate": "续集",
+   "src": 9617,
+   "dst": 9618
+  },
+  {
+   "relate": "前传",
+   "src": 9618,
+   "dst": 9617
+  },
+  {
+   "relate": "续集",
+   "src": 9618,
+   "dst": 9619
+  },
+  {
+   "relate": "前传",
+   "src": 9619,
+   "dst": 9618
+  },
+  {
+   "relate": "主线故事",
+   "src": 34515,
+   "dst": 4301
+  }
+ ]
+}

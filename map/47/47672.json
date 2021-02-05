@@ -1,0 +1,45 @@
+{
+ "id": "47672",
+ "node": [
+  {
+   "id": 47669,
+   "name": "ポータブル空港",
+   "nameCN": "可携式机场",
+   "image": "//lain.bgm.tv/pic/cover/m/32/92/47669_805EP.jpg"
+  },
+  {
+   "id": 47670,
+   "name": "Space Station No. 9",
+   "nameCN": "9号太空站",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/47/47670_i4wqI.jpg"
+  },
+  {
+   "id": 47672,
+   "name": "空飛ぶ都市計画",
+   "nameCN": "飞天都市计划",
+   "image": "//lain.bgm.tv/pic/cover/m/99/ed/47672_hljk6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 47669,
+   "dst": 47670
+  },
+  {
+   "relate": "前传",
+   "src": 47670,
+   "dst": 47669
+  },
+  {
+   "relate": "续集",
+   "src": 47670,
+   "dst": 47672
+  },
+  {
+   "relate": "前传",
+   "src": 47672,
+   "dst": 47670
+  }
+ ]
+}

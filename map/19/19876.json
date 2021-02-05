@@ -1,0 +1,56 @@
+{
+ "id": "19876",
+ "node": [
+  {
+   "id": 19875,
+   "name": "Alien Shooter",
+   "nameCN": "孤胆枪手",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/c0/19875_Emd0L.jpg"
+  },
+  {
+   "id": 19876,
+   "name": "Alien Shooter 2",
+   "nameCN": "孤胆枪手2",
+   "image": "//lain.bgm.tv/pic/cover/m/11/c7/19876_x4zy1.jpg"
+  },
+  {
+   "id": 228772,
+   "name": "Alien Shooter: Revisited",
+   "nameCN": "孤胆枪手：再度来袭",
+   "image": "//lain.bgm.tv/pic/cover/m/7e/72/228772_I8RRy.jpg"
+  },
+  {
+   "id": 228773,
+   "name": "Alien Shooter 2: Conscription",
+   "nameCN": "孤胆枪手2：征兵",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/52/228773_Ld3D9.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 19875,
+   "dst": 19876
+  },
+  {
+   "relate": "前传",
+   "src": 19876,
+   "dst": 19875
+  },
+  {
+   "relate": "续集",
+   "src": 19876,
+   "dst": 228772
+  },
+  {
+   "relate": "前传",
+   "src": 228772,
+   "dst": 19876
+  },
+  {
+   "relate": "主线故事",
+   "src": 228773,
+   "dst": 19876
+  }
+ ]
+}

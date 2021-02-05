@@ -1,0 +1,61 @@
+{
+ "id": "10850",
+ "node": [
+  {
+   "id": 10850,
+   "name": "Miranda (Season 1)",
+   "nameCN": "米兰达 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/65/34/10850_P1y7Y.jpg"
+  },
+  {
+   "id": 10851,
+   "name": "Miranda (Season 2)",
+   "nameCN": "米兰达 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/77/92/10851_AA2YU.jpg"
+  },
+  {
+   "id": 59867,
+   "name": "Miranda (Season 3)",
+   "nameCN": "米兰达 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/9f/59867_hn6wu.jpg"
+  },
+  {
+   "id": 119146,
+   "name": "Miranda Christmas Specials",
+   "nameCN": "米兰达 圣诞特别篇",
+   "image": "//lain.bgm.tv/pic/cover/m/3f/e4/119146_4J1y1.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 10850,
+   "dst": 10851
+  },
+  {
+   "relate": "前传",
+   "src": 10851,
+   "dst": 10850
+  },
+  {
+   "relate": "续集",
+   "src": 10851,
+   "dst": 59867
+  },
+  {
+   "relate": "前传",
+   "src": 59867,
+   "dst": 10851
+  },
+  {
+   "relate": "续集",
+   "src": 59867,
+   "dst": 119146
+  },
+  {
+   "relate": "前传",
+   "src": 119146,
+   "dst": 59867
+  }
+ ]
+}

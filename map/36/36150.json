@@ -1,0 +1,45 @@
+{
+ "id": "36150",
+ "node": [
+  {
+   "id": 36150,
+   "name": "Spider-Man",
+   "nameCN": "蜘蛛侠",
+   "image": "//lain.bgm.tv/pic/cover/m/37/42/36150_z7j6b.jpg"
+  },
+  {
+   "id": 45619,
+   "name": "Spider-Man 2",
+   "nameCN": "蜘蛛侠2",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/d7/45619_z0gHJ.jpg"
+  },
+  {
+   "id": 45620,
+   "name": "Spider-Man 3",
+   "nameCN": "蜘蛛侠3",
+   "image": "//lain.bgm.tv/pic/cover/m/79/7a/45620_w9USS.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 36150,
+   "dst": 45619
+  },
+  {
+   "relate": "前传",
+   "src": 45619,
+   "dst": 36150
+  },
+  {
+   "relate": "续集",
+   "src": 45619,
+   "dst": 45620
+  },
+  {
+   "relate": "前传",
+   "src": 45620,
+   "dst": 45619
+  }
+ ]
+}

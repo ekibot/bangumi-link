@@ -1,0 +1,71 @@
+{
+ "id": "130961",
+ "node": [
+  {
+   "id": 130961,
+   "name": "Theガッツ2！〜海でガッツ〜",
+   "nameCN": "The勇气二！：海中勇气",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 130963,
+   "name": "THEガッツ！3 〜山でガッツ！〜",
+   "nameCN": "THE勇气！三：山中勇气",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 230443,
+   "name": "The ガッツ！4～私立ガッツ学園！～",
+   "nameCN": "",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 230444,
+   "name": "The ガッツ！5",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 230445,
+   "name": "The ガッツ！",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/65/c8/230445_ukPpF.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 130961,
+   "dst": 130963
+  },
+  {
+   "relate": "前传",
+   "src": 130961,
+   "dst": 230445
+  },
+  {
+   "relate": "前传",
+   "src": 130963,
+   "dst": 130961
+  },
+  {
+   "relate": "续集",
+   "src": 130963,
+   "dst": 230443
+  },
+  {
+   "relate": "前传",
+   "src": 230443,
+   "dst": 130963
+  },
+  {
+   "relate": "续集",
+   "src": 230443,
+   "dst": 230444
+  },
+  {
+   "relate": "续集",
+   "src": 230445,
+   "dst": 130961
+  }
+ ]
+}

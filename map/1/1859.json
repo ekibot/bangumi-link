@@ -1,0 +1,45 @@
+{
+ "id": "1859",
+ "node": [
+  {
+   "id": 1859,
+   "name": "Plants Vs. Zombies",
+   "nameCN": "植物大战僵尸",
+   "image": "//lain.bgm.tv/pic/cover/m/53/7d/1859_RuRuF.jpg"
+  },
+  {
+   "id": 72864,
+   "name": "Plants vs. Zombies 2",
+   "nameCN": "植物大战僵尸2",
+   "image": "//lain.bgm.tv/pic/cover/m/80/c6/72864_kHC39.jpg"
+  },
+  {
+   "id": 287004,
+   "name": "Plants vs. Zombies 3",
+   "nameCN": "植物大战僵尸3",
+   "image": "//lain.bgm.tv/pic/cover/m/13/a0/287004_4f4tJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1859,
+   "dst": 72864
+  },
+  {
+   "relate": "前传",
+   "src": 72864,
+   "dst": 1859
+  },
+  {
+   "relate": "续集",
+   "src": 72864,
+   "dst": 287004
+  },
+  {
+   "relate": "前传",
+   "src": 287004,
+   "dst": 72864
+  }
+ ]
+}

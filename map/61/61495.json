@@ -1,0 +1,44 @@
+{
+ "id": "61495",
+ "node": [
+  {
+   "id": 61495,
+   "name": "大富翁世界之旅3",
+   "nameCN": "大富翁世界之旅3",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/c0/61495_N7o1M.jpg"
+  },
+  {
+   "id": 294253,
+   "name": "大富翁世界之旅2",
+   "image": "//lain.bgm.tv/pic/cover/m/5d/de/294253_98n7m.jpg"
+  },
+  {
+   "id": 294270,
+   "name": "大富翁世界之旅",
+   "nameCN": "大富翁世界之旅",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/0f/294270_c4qU4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 61495,
+   "dst": 294253
+  },
+  {
+   "relate": "续集",
+   "src": 294253,
+   "dst": 61495
+  },
+  {
+   "relate": "前传",
+   "src": 294253,
+   "dst": 294270
+  },
+  {
+   "relate": "续集",
+   "src": 294270,
+   "dst": 294253
+  }
+ ]
+}

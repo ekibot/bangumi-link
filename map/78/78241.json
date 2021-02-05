@@ -1,0 +1,60 @@
+{
+ "id": "78241",
+ "node": [
+  {
+   "id": 78241,
+   "name": "Beauty and the Beast Season 1",
+   "nameCN": "新侠胆雄狮 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/de/f7/78241_NlNtx.jpg"
+  },
+  {
+   "id": 88366,
+   "name": "Beauty and the Beast Season 2",
+   "nameCN": "新侠胆雄狮 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/44/88366_g9MTM.jpg"
+  },
+  {
+   "id": 276646,
+   "name": "Beauty and the Beast Season 3",
+   "nameCN": "新侠胆雄狮第三季",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 276647,
+   "name": "Beauty and the Beast Season 4",
+   "nameCN": "新侠胆雄狮第四季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 78241,
+   "dst": 88366
+  },
+  {
+   "relate": "前传",
+   "src": 88366,
+   "dst": 78241
+  },
+  {
+   "relate": "续集",
+   "src": 88366,
+   "dst": 276646
+  },
+  {
+   "relate": "前传",
+   "src": 276646,
+   "dst": 88366
+  },
+  {
+   "relate": "续集",
+   "src": 276646,
+   "dst": 276647
+  },
+  {
+   "relate": "前传",
+   "src": 276647,
+   "dst": 276646
+  }
+ ]
+}

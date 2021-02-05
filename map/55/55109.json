@@ -1,0 +1,40 @@
+{
+ "id": "55109",
+ "node": [
+  {
+   "id": 55109,
+   "name": "Baldur's Gate:Enhanced Edition",
+   "nameCN": "博德之门：增强版",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/fb/55109_5rcB4.jpg"
+  },
+  {
+   "id": 88428,
+   "name": "Baldur's Gate II: Enhanced Edition",
+   "nameCN": "博德之门2：增强版",
+   "image": "//lain.bgm.tv/pic/cover/m/25/c1/88428_QmGJ2.jpg"
+  },
+  {
+   "id": 256894,
+   "name": "Baldur's Gate: Siege of Dragonspear",
+   "nameCN": "博德之门：龙矛围攻",
+   "image": "//lain.bgm.tv/pic/cover/m/8c/f8/256894_pKPb0.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 55109,
+   "dst": 88428
+  },
+  {
+   "relate": "前传",
+   "src": 88428,
+   "dst": 55109
+  },
+  {
+   "relate": "主线故事",
+   "src": 256894,
+   "dst": 55109
+  }
+ ]
+}

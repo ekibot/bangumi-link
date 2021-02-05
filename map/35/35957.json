@@ -1,0 +1,88 @@
+{
+ "id": "35957",
+ "node": [
+  {
+   "id": 35957,
+   "name": "The Bourne Identity",
+   "nameCN": "谍影重重",
+   "image": "//lain.bgm.tv/pic/cover/m/34/57/35957_8L0IG.jpg"
+  },
+  {
+   "id": 88306,
+   "name": "The Bourne Supremacy",
+   "nameCN": "谍影重重2",
+   "image": "//lain.bgm.tv/pic/cover/m/44/0b/88306_q1cY4.jpg"
+  },
+  {
+   "id": 88307,
+   "name": "The Bourne Ultimatum",
+   "nameCN": "谍影重重3：伯恩的最后通牒",
+   "image": "//lain.bgm.tv/pic/cover/m/75/dc/88307_0jcOC.jpg"
+  },
+  {
+   "id": 88308,
+   "name": "The Bourne Legacy",
+   "nameCN": "谍影重重4：伯恩的遗产",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/55/88308_j56Jn.jpg"
+  },
+  {
+   "id": 119804,
+   "name": "Robert Ludlum's The Bourne Conspiracy",
+   "nameCN": "伯恩的阴谋",
+   "image": "//lain.bgm.tv/pic/cover/m/6e/ae/119804_rEZXR.jpg"
+  },
+  {
+   "id": 186552,
+   "name": "Jason Bourne",
+   "nameCN": "谍影重重5",
+   "image": "//lain.bgm.tv/pic/cover/m/63/b1/186552_EexiR.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 35957,
+   "dst": 88306
+  },
+  {
+   "relate": "前传",
+   "src": 88306,
+   "dst": 35957
+  },
+  {
+   "relate": "续集",
+   "src": 88306,
+   "dst": 88307
+  },
+  {
+   "relate": "前传",
+   "src": 88307,
+   "dst": 88306
+  },
+  {
+   "relate": "续集",
+   "src": 88307,
+   "dst": 88308
+  },
+  {
+   "relate": "前传",
+   "src": 88308,
+   "dst": 88307
+  },
+  {
+   "relate": "续集",
+   "src": 88308,
+   "dst": 186552
+  },
+  {
+   "relate": "主线故事",
+   "src": 119804,
+   "dst": 35957
+  },
+  {
+   "relate": "前传",
+   "src": 186552,
+   "dst": 88308
+  }
+ ]
+}

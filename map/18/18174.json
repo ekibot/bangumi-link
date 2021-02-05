@@ -1,0 +1,78 @@
+{
+ "id": "18174",
+ "node": [
+  {
+   "id": 18173,
+   "name": "The Witcher",
+   "nameCN": "巫师",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/bd/18173_JbJFx.jpg"
+  },
+  {
+   "id": 18174,
+   "name": "The Witcher 2: Assassins of Kings",
+   "nameCN": "巫师2：国王刺客",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/00/18174_zzp6G.jpg"
+  },
+  {
+   "id": 66198,
+   "name": "The Witcher 3: Wild Hunt",
+   "nameCN": "巫师3：狂猎",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/31/66198_vgcwp.jpg"
+  },
+  {
+   "id": 262219,
+   "name": "The Witcher 3: Wild Hunt - Hearts of Stone",
+   "nameCN": "巫师3：狂猎－石之心",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/5d/262219_O4ONj.jpg"
+  },
+  {
+   "id": 262220,
+   "name": "The Witcher 3: Wild Hunt – Blood and Wine",
+   "nameCN": "巫师3：狂猎－血与酒",
+   "image": "//lain.bgm.tv/pic/cover/m/07/a5/262220_hIyGG.jpg"
+  },
+  {
+   "id": 293690,
+   "name": "The Witcher - Curse of Crows",
+   "nameCN": "巫师 - 乌鸦的诅咒",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/a1/293690_YDSMX.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 18173,
+   "dst": 18174
+  },
+  {
+   "relate": "前传",
+   "src": 18174,
+   "dst": 18173
+  },
+  {
+   "relate": "续集",
+   "src": 18174,
+   "dst": 66198
+  },
+  {
+   "relate": "前传",
+   "src": 66198,
+   "dst": 18174
+  },
+  {
+   "relate": "主线故事",
+   "src": 262219,
+   "dst": 66198
+  },
+  {
+   "relate": "主线故事",
+   "src": 262220,
+   "dst": 66198
+  },
+  {
+   "relate": "前传",
+   "src": 293690,
+   "dst": 66198
+  }
+ ]
+}

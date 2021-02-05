@@ -1,0 +1,50 @@
+{
+ "id": "3554",
+ "node": [
+  {
+   "id": 3553,
+   "name": "∀ガンダム",
+   "nameCN": "∀高达",
+   "image": "//lain.bgm.tv/pic/cover/m/e2/50/3553_C9ccy.jpg"
+  },
+  {
+   "id": 3554,
+   "name": "劇場版∀ガンダムI 地球光",
+   "nameCN": "剧场版∀高达I 地球光",
+   "image": "//lain.bgm.tv/pic/cover/m/69/b0/3554_4Slvv.jpg"
+  },
+  {
+   "id": 3555,
+   "name": "劇場版∀ガンダムII 月光蝶",
+   "nameCN": "剧场版∀高达II 月光蝶",
+   "image": "//lain.bgm.tv/pic/cover/m/22/b1/3555_QKr0U.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "总集篇",
+   "src": 3553,
+   "dst": 3555
+  },
+  {
+   "relate": "全集",
+   "src": 3554,
+   "dst": 3553
+  },
+  {
+   "relate": "续集",
+   "src": 3554,
+   "dst": 3555
+  },
+  {
+   "relate": "全集",
+   "src": 3555,
+   "dst": 3553
+  },
+  {
+   "relate": "前传",
+   "src": 3555,
+   "dst": 3554
+  }
+ ]
+}

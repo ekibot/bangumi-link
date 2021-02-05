@@ -1,0 +1,67 @@
+{
+ "id": "645",
+ "node": [
+  {
+   "id": 645,
+   "name": "F.E.A.R. First Encounter Assault Recon",
+   "nameCN": "極度恐慌",
+   "image": "//lain.bgm.tv/pic/cover/m/5e/9f/645_aus.jpg"
+  },
+  {
+   "id": 964,
+   "name": "F.E.A.R.2: Project Origin",
+   "nameCN": "极度恐慌2：起源计划",
+   "image": "//lain.bgm.tv/pic/cover/m/80/65/964_i0yEE.jpg"
+  },
+  {
+   "id": 43260,
+   "name": "F.E.A.R. Extraction Point",
+   "nameCN": "极度恐慌：撤离点",
+   "image": "//lain.bgm.tv/pic/cover/m/03/98/43260_KIY5T.jpg"
+  },
+  {
+   "id": 43262,
+   "name": "F.E.A.R 3",
+   "nameCN": "极度恐慌 3",
+   "image": "//lain.bgm.tv/pic/cover/m/98/62/43262_oHIIy.jpg"
+  },
+  {
+   "id": 45322,
+   "name": "F.E.A.R. Perseus Mandate",
+   "nameCN": "极度恐慌：帕尔修斯的指令",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/a8/45322_HW82T.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 645,
+   "dst": 964
+  },
+  {
+   "relate": "前传",
+   "src": 964,
+   "dst": 645
+  },
+  {
+   "relate": "续集",
+   "src": 964,
+   "dst": 43262
+  },
+  {
+   "relate": "主线故事",
+   "src": 43260,
+   "dst": 645
+  },
+  {
+   "relate": "前传",
+   "src": 43262,
+   "dst": 964
+  },
+  {
+   "relate": "主线故事",
+   "src": 45322,
+   "dst": 645
+  }
+ ]
+}

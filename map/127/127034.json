@@ -1,0 +1,44 @@
+{
+ "id": "127034",
+ "node": [
+  {
+   "id": 127034,
+   "name": "MIGHTY MORPHIN POWER RANGERS season 1",
+   "nameCN": "超凡战队 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/98/127034_MjBLM.jpg"
+  },
+  {
+   "id": 127035,
+   "name": "MIGHTY MORPHIN POWER RANGERS season 2",
+   "nameCN": "恐龙战队第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/a9/127035_6TPgx.jpg"
+  },
+  {
+   "id": 127036,
+   "name": "MIGHTY MORPHIN POWER RANGERS season 3",
+   "nameCN": "恐龙战队第三季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 127034,
+   "dst": 127035
+  },
+  {
+   "relate": "前传",
+   "src": 127035,
+   "dst": 127034
+  },
+  {
+   "relate": "续集",
+   "src": 127035,
+   "dst": 127036
+  },
+  {
+   "relate": "前传",
+   "src": 127036,
+   "dst": 127035
+  }
+ ]
+}

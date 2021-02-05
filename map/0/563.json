@@ -1,0 +1,40 @@
+{
+ "id": "563",
+ "node": [
+  {
+   "id": 563,
+   "name": "X",
+   "nameCN": "X战记",
+   "image": "//lain.bgm.tv/pic/cover/m/8e/ef/563_18XL5.jpg"
+  },
+  {
+   "id": 16576,
+   "name": "東京BABYLON―A save for Tokyo city story",
+   "nameCN": "东京巴比伦",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/1a/16576_bu07O.jpg"
+  },
+  {
+   "id": 26117,
+   "name": "Tokyo Babylon photographs",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/3d/26117_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 563,
+   "dst": 16576
+  },
+  {
+   "relate": "续集",
+   "src": 16576,
+   "dst": 563
+  },
+  {
+   "relate": "主线故事",
+   "src": 26117,
+   "dst": 16576
+  }
+ ]
+}

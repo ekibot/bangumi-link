@@ -1,0 +1,40 @@
+{
+ "id": "55113",
+ "node": [
+  {
+   "id": 55113,
+   "name": "たまこまーけっと",
+   "nameCN": "玉子市场",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/7f/55113_TR5Is.jpg"
+  },
+  {
+   "id": 90880,
+   "name": "たまこラブストーリー",
+   "nameCN": "玉子爱情故事",
+   "image": "//lain.bgm.tv/pic/cover/m/59/8d/90880_NYUDd.jpg"
+  },
+  {
+   "id": 97561,
+   "name": "南の島のデラちゃん",
+   "nameCN": "南之岛的德拉酱",
+   "image": "//lain.bgm.tv/pic/cover/m/53/6c/97561_BzP68.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 55113,
+   "dst": 90880
+  },
+  {
+   "relate": "前传",
+   "src": 90880,
+   "dst": 55113
+  },
+  {
+   "relate": "主线故事",
+   "src": 97561,
+   "dst": 90880
+  }
+ ]
+}

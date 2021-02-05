@@ -1,0 +1,43 @@
+{
+ "id": "38697",
+ "node": [
+  {
+   "id": 38697,
+   "name": "童话之森",
+   "image": "//lain.bgm.tv/pic/cover/m/89/0e/38697_aWO8W.jpg"
+  },
+  {
+   "id": 208812,
+   "name": "童话之心",
+   "image": "//lain.bgm.tv/pic/cover/m/61/a5/208812_7dz8d.jpg"
+  },
+  {
+   "id": 260479,
+   "name": "童话之音",
+   "nameCN": "童话之音",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/02/260479_Us8vN.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 38697,
+   "dst": 208812
+  },
+  {
+   "relate": "前传",
+   "src": 208812,
+   "dst": 38697
+  },
+  {
+   "relate": "续集",
+   "src": 208812,
+   "dst": 260479
+  },
+  {
+   "relate": "前传",
+   "src": 260479,
+   "dst": 208812
+  }
+ ]
+}

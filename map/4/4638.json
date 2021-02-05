@@ -1,0 +1,56 @@
+{
+ "id": "4638",
+ "node": [
+  {
+   "id": 4638,
+   "name": "东方口袋战争",
+   "nameCN": "东方口袋战争",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/8b/4638_g85Gb.jpg"
+  },
+  {
+   "id": 6699,
+   "name": "东方ポケット戦争EVO",
+   "nameCN": "東方口袋戰爭EVO",
+   "image": "//lain.bgm.tv/pic/cover/m/59/58/6699_cEUG5.jpg"
+  },
+  {
+   "id": 171418,
+   "name": "東方口袋戰爭EVOPlus",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/59/04/171418_Q3Moz.jpg"
+  },
+  {
+   "id": 171419,
+   "name": "東方口袋戰爭2nd",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/95/2c/171419_OK81c.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 4638,
+   "dst": 6699
+  },
+  {
+   "relate": "前传",
+   "src": 6699,
+   "dst": 4638
+  },
+  {
+   "relate": "续集",
+   "src": 6699,
+   "dst": 171419
+  },
+  {
+   "relate": "主线故事",
+   "src": 171418,
+   "dst": 6699
+  },
+  {
+   "relate": "前传",
+   "src": 171419,
+   "dst": 6699
+  }
+ ]
+}

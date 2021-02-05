@@ -1,0 +1,44 @@
+{
+ "id": "32813",
+ "node": [
+  {
+   "id": 32813,
+   "name": "約束の柱、落日の女王",
+   "nameCN": "约定之柱 落日的女王",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/e2/32813_yoqbm.jpg"
+  },
+  {
+   "id": 61506,
+   "name": "平和の鐘、永遠の女王",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/56/29/61506_jp.jpg"
+  },
+  {
+   "id": 61507,
+   "name": "真実の扉、黎明の女王",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/35/61507_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 32813,
+   "dst": 61507
+  },
+  {
+   "relate": "前传",
+   "src": 61506,
+   "dst": 61507
+  },
+  {
+   "relate": "前传",
+   "src": 61507,
+   "dst": 32813
+  },
+  {
+   "relate": "续集",
+   "src": 61507,
+   "dst": 61506
+  }
+ ]
+}

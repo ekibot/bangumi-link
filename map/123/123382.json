@@ -1,0 +1,59 @@
+{
+ "id": "123382",
+ "node": [
+  {
+   "id": 123382,
+   "name": "魔王軍へようこそ2 -魔王死す-",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/34/123382_BhHR4.jpg"
+  },
+  {
+   "id": 156932,
+   "name": "魔王軍へようこそ4",
+   "image": "//lain.bgm.tv/pic/cover/m/64/87/156932_yFf1J.jpg"
+  },
+  {
+   "id": 197525,
+   "name": "魔王軍へようこそ",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/e2/78/197525_KKnUS.jpg"
+  },
+  {
+   "id": 197527,
+   "name": "魔王軍へようこそ3 -勇者消失-",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/e9/ba/197527_oZEYK.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 123382,
+   "dst": 197525
+  },
+  {
+   "relate": "续集",
+   "src": 123382,
+   "dst": 197527
+  },
+  {
+   "relate": "前传",
+   "src": 156932,
+   "dst": 197527
+  },
+  {
+   "relate": "续集",
+   "src": 197525,
+   "dst": 123382
+  },
+  {
+   "relate": "前传",
+   "src": 197527,
+   "dst": 123382
+  },
+  {
+   "relate": "续集",
+   "src": 197527,
+   "dst": 156932
+  }
+ ]
+}

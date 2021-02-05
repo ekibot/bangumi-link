@@ -1,0 +1,45 @@
+{
+ "id": "140812",
+ "node": [
+  {
+   "id": 140812,
+   "name": "ガメラ 大怪獣空中決戦",
+   "nameCN": "加美拉 大怪兽空中决战",
+   "image": "//lain.bgm.tv/pic/cover/m/1f/b7/140812_s1g7S.jpg"
+  },
+  {
+   "id": 140813,
+   "name": "ガメラ2 レギオン襲来",
+   "nameCN": "加美拉2 雷基欧袭来",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/91/140813_zIQg3.jpg"
+  },
+  {
+   "id": 140815,
+   "name": "ガメラ3 邪神覚醒",
+   "nameCN": "加美拉3 邪神觉醒",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/89/140815_T2ZmK.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 140812,
+   "dst": 140813
+  },
+  {
+   "relate": "前传",
+   "src": 140813,
+   "dst": 140812
+  },
+  {
+   "relate": "续集",
+   "src": 140813,
+   "dst": 140815
+  },
+  {
+   "relate": "前传",
+   "src": 140815,
+   "dst": 140813
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "883",
+ "node": [
+  {
+   "id": 883,
+   "name": "黒執事",
+   "nameCN": "黑执事",
+   "image": "//lain.bgm.tv/pic/cover/m/21/0f/883_9w87Y.jpg"
+  },
+  {
+   "id": 1748,
+   "name": "黒執事II",
+   "nameCN": "黑执事II",
+   "image": "//lain.bgm.tv/pic/cover/m/54/e3/1748_fKaeF.jpg"
+  },
+  {
+   "id": 9737,
+   "name": "黒執事II OVA",
+   "nameCN": "黑执事II OVA",
+   "image": "//lain.bgm.tv/pic/cover/m/ce/46/9737_2Ux6E.jpg"
+  },
+  {
+   "id": 100511,
+   "name": "黒執事 Book of Murder",
+   "nameCN": "黑执事 幽鬼城杀人事件篇",
+   "image": "//lain.bgm.tv/pic/cover/m/c8/f7/100511_leZfU.jpg"
+  },
+  {
+   "id": 100526,
+   "name": "黒執事 Book of Circus",
+   "nameCN": "黑执事 马戏团篇",
+   "image": "//lain.bgm.tv/pic/cover/m/38/ae/100526_Q0BET.jpg"
+  },
+  {
+   "id": 148389,
+   "name": "黒執事 Book of the Atlantic",
+   "nameCN": "黑执事 豪华客船篇",
+   "image": "//lain.bgm.tv/pic/cover/m/cb/85/148389_Kn5sW.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 883,
+   "dst": 100526
+  },
+  {
+   "relate": "前传",
+   "src": 1748,
+   "dst": 883
+  },
+  {
+   "relate": "主线故事",
+   "src": 9737,
+   "dst": 1748
+  },
+  {
+   "relate": "前传",
+   "src": 100511,
+   "dst": 100526
+  },
+  {
+   "relate": "续集",
+   "src": 100511,
+   "dst": 148389
+  },
+  {
+   "relate": "前传",
+   "src": 100526,
+   "dst": 883
+  },
+  {
+   "relate": "续集",
+   "src": 100526,
+   "dst": 100511
+  },
+  {
+   "relate": "前传",
+   "src": 148389,
+   "dst": 100511
+  }
+ ]
+}

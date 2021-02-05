@@ -1,0 +1,45 @@
+{
+ "id": "86410",
+ "node": [
+  {
+   "id": 86410,
+   "name": "Some Girls (Series 1)",
+   "nameCN": "伦敦女孩 （第一季）",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/e0/86410_dw9rq.jpg"
+  },
+  {
+   "id": 86411,
+   "name": "Some Girls (Series 2)",
+   "nameCN": "伦敦女孩 （第二季）",
+   "image": "//lain.bgm.tv/pic/cover/m/df/81/86411_wKKIl.jpg"
+  },
+  {
+   "id": 118409,
+   "name": "Some Girls (Series 3)",
+   "nameCN": "伦敦女孩 （第三季）",
+   "image": "//lain.bgm.tv/pic/cover/m/02/c8/118409_iAVBc.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 86410,
+   "dst": 86411
+  },
+  {
+   "relate": "前传",
+   "src": 86411,
+   "dst": 86410
+  },
+  {
+   "relate": "续集",
+   "src": 86411,
+   "dst": 118409
+  },
+  {
+   "relate": "前传",
+   "src": 118409,
+   "dst": 86411
+  }
+ ]
+}

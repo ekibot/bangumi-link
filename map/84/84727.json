@@ -1,0 +1,61 @@
+{
+ "id": "84727",
+ "node": [
+  {
+   "id": 84727,
+   "name": "Arcania: Gothic 4",
+   "nameCN": "哥特王朝4：阿卡尼亚",
+   "image": "//lain.bgm.tv/pic/cover/m/e2/70/84727_64N70.jpg"
+  },
+  {
+   "id": 289129,
+   "name": "Gothic 3",
+   "nameCN": "哥特王朝3",
+   "image": "//lain.bgm.tv/pic/cover/m/cb/60/289129_o7RrW.jpg"
+  },
+  {
+   "id": 318360,
+   "name": "Gothic",
+   "nameCN": "哥特王朝",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/a6/318360_Uayaf.jpg"
+  },
+  {
+   "id": 318361,
+   "name": "Gothic II",
+   "nameCN": "哥特王朝II",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/3d/318361_7Hfw8.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 84727,
+   "dst": 289129
+  },
+  {
+   "relate": "续集",
+   "src": 289129,
+   "dst": 84727
+  },
+  {
+   "relate": "前传",
+   "src": 289129,
+   "dst": 318361
+  },
+  {
+   "relate": "续集",
+   "src": 318360,
+   "dst": 318361
+  },
+  {
+   "relate": "续集",
+   "src": 318361,
+   "dst": 289129
+  },
+  {
+   "relate": "前传",
+   "src": 318361,
+   "dst": 318360
+  }
+ ]
+}

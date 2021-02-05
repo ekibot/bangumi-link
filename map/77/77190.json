@@ -1,0 +1,45 @@
+{
+ "id": "77190",
+ "node": [
+  {
+   "id": 77190,
+   "name": "名探偵コナン 3人の名推理",
+   "nameCN": "名侦探柯南 三人的名推理",
+   "image": "//lain.bgm.tv/pic/cover/m/74/70/77190_NZAu7.jpg"
+  },
+  {
+   "id": 250545,
+   "name": "名探偵コナン",
+   "nameCN": "名侦探柯南",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/4c/250545_HH1P3.jpg"
+  },
+  {
+   "id": 250546,
+   "name": "名探偵コナン 最高の相棒",
+   "nameCN": "名侦探柯南 最好的搭档",
+   "image": "//lain.bgm.tv/pic/cover/m/85/e1/250546_iiiLT.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 77190,
+   "dst": 250545
+  },
+  {
+   "relate": "续集",
+   "src": 77190,
+   "dst": 250546
+  },
+  {
+   "relate": "续集",
+   "src": 250545,
+   "dst": 77190
+  },
+  {
+   "relate": "前传",
+   "src": 250546,
+   "dst": 77190
+  }
+ ]
+}

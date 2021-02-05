@@ -1,0 +1,45 @@
+{
+ "id": "91205",
+ "node": [
+  {
+   "id": 91205,
+   "name": "ハイスコアガール",
+   "nameCN": "高分少女",
+   "image": "//lain.bgm.tv/pic/cover/m/79/bb/91205_WzBkF.jpg"
+  },
+  {
+   "id": 262277,
+   "name": "ハイスコアガール EXTRA STAGE",
+   "nameCN": "高分少女 EXTRA STAGE",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/82/262277_JHzXs.jpg"
+  },
+  {
+   "id": 278569,
+   "name": "ハイスコアガールⅡ",
+   "nameCN": "高分少女 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/f7/278569_XOcJU.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 91205,
+   "dst": 262277
+  },
+  {
+   "relate": "前传",
+   "src": 262277,
+   "dst": 91205
+  },
+  {
+   "relate": "续集",
+   "src": 262277,
+   "dst": 278569
+  },
+  {
+   "relate": "前传",
+   "src": 278569,
+   "dst": 262277
+  }
+ ]
+}

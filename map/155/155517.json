@@ -1,0 +1,40 @@
+{
+ "id": "155517",
+ "node": [
+  {
+   "id": 155517,
+   "name": "カムイ伝",
+   "nameCN": "卡姆依传",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/3e/155517_CgkUm.jpg"
+  },
+  {
+   "id": 155610,
+   "name": "カムイ伝 第二部",
+   "nameCN": "卡姆依传 第二部",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/56/155610_2onOF.jpg"
+  },
+  {
+   "id": 155673,
+   "name": "カムイ外伝",
+   "nameCN": "卡姆依外传",
+   "image": "//lain.bgm.tv/pic/cover/m/96/5e/155673_wCwOI.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 155517,
+   "dst": 155610
+  },
+  {
+   "relate": "前传",
+   "src": 155610,
+   "dst": 155517
+  },
+  {
+   "relate": "主线故事",
+   "src": 155673,
+   "dst": 155517
+  }
+ ]
+}

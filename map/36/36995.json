@@ -1,0 +1,72 @@
+{
+ "id": "36995",
+ "node": [
+  {
+   "id": 36995,
+   "name": "シュヴァルツェスマーケン",
+   "nameCN": "死亡黑标",
+   "image": "//lain.bgm.tv/pic/cover/m/15/3f/36995_x0dSM.jpg"
+  },
+  {
+   "id": 134413,
+   "name": "シュヴァルツェスマーケン Requiem",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/45/fc/134413_WF9FC.jpg"
+  },
+  {
+   "id": 135075,
+   "name": "シュヴァルツェスマーケン 紅血の紋章",
+   "nameCN": "黑之宣告 血红的纹章",
+   "image": "//lain.bgm.tv/pic/cover/m/06/79/135075_3FgHZ.jpg"
+  },
+  {
+   "id": 135076,
+   "name": "シュヴァルツェスマーケン 殉教者たち",
+   "nameCN": "黑之宣告 殉教者们",
+   "image": "//lain.bgm.tv/pic/cover/m/88/a4/135076_1H00Z.jpg"
+  },
+  {
+   "id": 151391,
+   "name": "シュヴァルツェスマーケン 隻影のベルンハルト",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/2e/151391_n8IPq.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 36995,
+   "dst": 151391
+  },
+  {
+   "relate": "主线故事",
+   "src": 134413,
+   "dst": 36995
+  },
+  {
+   "relate": "续集",
+   "src": 135075,
+   "dst": 135076
+  },
+  {
+   "relate": "前传",
+   "src": 135075,
+   "dst": 151391
+  },
+  {
+   "relate": "前传",
+   "src": 135076,
+   "dst": 135075
+  },
+  {
+   "relate": "前传",
+   "src": 135076,
+   "dst": 151391
+  },
+  {
+   "relate": "续集",
+   "src": 151391,
+   "dst": 36995
+  }
+ ]
+}

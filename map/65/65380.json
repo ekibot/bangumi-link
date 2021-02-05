@@ -1,0 +1,57 @@
+{
+ "id": "65380",
+ "node": [
+  {
+   "id": 65380,
+   "name": "生贄の教室",
+   "nameCN": "生贽的教室",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 125876,
+   "name": "傀儡の教室 〜あやつりのきょうしつ〜",
+   "nameCN": "傀儡的教室：Mùǒu de Jiàoshì",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 130968,
+   "name": "贖罪の教室",
+   "nameCN": "赎罪的教室",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 130969,
+   "name": "贖罪の教室 BAD END",
+   "nameCN": "赎罪的教室 BAD END",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 130970,
+   "name": "傀儡の教室 HAPPYEND 〜アヤツリノキョウシツ ハッピーエンド〜",
+   "nameCN": "傀儡的教室 HAPPYEND 〜Mùǒu de Jiàoshì Happy End〜",
+   "image": "/img/no_icon_subject.png"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "主线故事",
+   "src": 65380,
+   "dst": 125876
+  },
+  {
+   "relate": "续集",
+   "src": 130968,
+   "dst": 125876
+  },
+  {
+   "relate": "主线故事",
+   "src": 130969,
+   "dst": 130968
+  },
+  {
+   "relate": "主线故事",
+   "src": 130970,
+   "dst": 125876
+  }
+ ]
+}

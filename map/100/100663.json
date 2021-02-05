@@ -1,0 +1,43 @@
+{
+ "id": "100663",
+ "node": [
+  {
+   "id": 100663,
+   "name": "保卫萝卜1",
+   "image": "//lain.bgm.tv/pic/cover/m/06/e7/100663_kOhC4.jpg"
+  },
+  {
+   "id": 100666,
+   "name": "保卫萝卜2",
+   "image": "//lain.bgm.tv/pic/cover/m/13/48/100666_Vgp98.jpg"
+  },
+  {
+   "id": 185034,
+   "name": "保卫萝卜3",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/c3/e6/185034_C4n9O.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 100663,
+   "dst": 100666
+  },
+  {
+   "relate": "前传",
+   "src": 100666,
+   "dst": 100663
+  },
+  {
+   "relate": "续集",
+   "src": 100666,
+   "dst": 185034
+  },
+  {
+   "relate": "前传",
+   "src": 185034,
+   "dst": 100666
+  }
+ ]
+}

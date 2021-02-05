@@ -1,0 +1,88 @@
+{
+ "id": "3986",
+ "node": [
+  {
+   "id": 3986,
+   "name": "真・女神転生",
+   "nameCN": "真・女神转生",
+   "image": "//lain.bgm.tv/pic/cover/m/54/03/3986_dJ22D.jpg"
+  },
+  {
+   "id": 3988,
+   "name": "真・女神転生II",
+   "nameCN": "真・女神転生II",
+   "image": "//lain.bgm.tv/pic/cover/m/bb/be/3988_WBChr.jpg"
+  },
+  {
+   "id": 3989,
+   "name": "真・女神転生if...",
+   "nameCN": "真・女神转生if...",
+   "image": "//lain.bgm.tv/pic/cover/m/65/16/3989_9DX3T.jpg"
+  },
+  {
+   "id": 3990,
+   "name": "真・女神転生III NOCTURNE",
+   "nameCN": "真·女神转生3：夜想曲",
+   "image": "//lain.bgm.tv/pic/cover/m/76/12/3990_5H5w2.jpg"
+  },
+  {
+   "id": 41076,
+   "name": "真・女神転生IV",
+   "nameCN": "真女神转生4",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/5c/41076_ZjQEk.jpg"
+  },
+  {
+   "id": 228423,
+   "name": "真・女神転生V",
+   "nameCN": "真女神转生5",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/d3/228423_UkNuk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3986,
+   "dst": 3988
+  },
+  {
+   "relate": "前传",
+   "src": 3988,
+   "dst": 3986
+  },
+  {
+   "relate": "续集",
+   "src": 3988,
+   "dst": 3990
+  },
+  {
+   "relate": "主线故事",
+   "src": 3989,
+   "dst": 3986
+  },
+  {
+   "relate": "前传",
+   "src": 3990,
+   "dst": 3988
+  },
+  {
+   "relate": "续集",
+   "src": 3990,
+   "dst": 41076
+  },
+  {
+   "relate": "前传",
+   "src": 41076,
+   "dst": 3990
+  },
+  {
+   "relate": "续集",
+   "src": 41076,
+   "dst": 228423
+  },
+  {
+   "relate": "前传",
+   "src": 228423,
+   "dst": 41076
+  }
+ ]
+}

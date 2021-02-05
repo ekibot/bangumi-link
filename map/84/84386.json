@@ -1,0 +1,44 @@
+{
+ "id": "84386",
+ "node": [
+  {
+   "id": 84386,
+   "name": "艦隊これくしょん -艦これ-",
+   "nameCN": "舰队Collection",
+   "image": "//lain.bgm.tv/pic/cover/m/36/81/84386_2KHHI.jpg"
+  },
+  {
+   "id": 143093,
+   "name": "劇場版 艦これ",
+   "nameCN": "舰队Collection 剧场版",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/18/143093_pQzmE.jpg"
+  },
+  {
+   "id": 270739,
+   "name": "艦隊これくしょん -艦これ- 2期",
+   "nameCN": "舰队Collection 2期"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 84386,
+   "dst": 143093
+  },
+  {
+   "relate": "前传",
+   "src": 143093,
+   "dst": 84386
+  },
+  {
+   "relate": "续集",
+   "src": 143093,
+   "dst": 270739
+  },
+  {
+   "relate": "前传",
+   "src": 270739,
+   "dst": 143093
+  }
+ ]
+}

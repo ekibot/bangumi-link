@@ -1,0 +1,45 @@
+{
+ "id": "115634",
+ "node": [
+  {
+   "id": 115634,
+   "name": "ゴルフUSコース",
+   "nameCN": "高尔夫球美国赛道",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/ea/115634_44VRC.jpg"
+  },
+  {
+   "id": 115635,
+   "name": "ゴルフJAPANコース",
+   "nameCN": "高尔夫球日本赛道",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/37/115635_e4wZf.jpg"
+  },
+  {
+   "id": 115637,
+   "name": "マリオオープンゴルフ",
+   "nameCN": "马里奥高尔夫公开赛",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/2b/115637_6sSJJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 115634,
+   "dst": 115635
+  },
+  {
+   "relate": "续集",
+   "src": 115634,
+   "dst": 115637
+  },
+  {
+   "relate": "续集",
+   "src": 115635,
+   "dst": 115634
+  },
+  {
+   "relate": "前传",
+   "src": 115637,
+   "dst": 115634
+  }
+ ]
+}

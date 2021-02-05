@@ -1,0 +1,44 @@
+{
+ "id": "304002",
+ "node": [
+  {
+   "id": 304002,
+   "name": "Simsala Grimm Season 1",
+   "nameCN": "新格林童話 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/93/1e/304002_5VMMj.jpg"
+  },
+  {
+   "id": 304003,
+   "name": "Simsala Grimm Season 2",
+   "nameCN": "新格林童話 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/86/6a/304003_zx7g6.jpg"
+  },
+  {
+   "id": 304004,
+   "name": "Simsala Grimm Season 3",
+   "nameCN": "新格林童話 第三季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 304002,
+   "dst": 304003
+  },
+  {
+   "relate": "前传",
+   "src": 304003,
+   "dst": 304002
+  },
+  {
+   "relate": "续集",
+   "src": 304003,
+   "dst": 304004
+  },
+  {
+   "relate": "前传",
+   "src": 304004,
+   "dst": 304003
+  }
+ ]
+}

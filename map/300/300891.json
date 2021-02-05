@@ -1,0 +1,45 @@
+{
+ "id": "300891",
+ "node": [
+  {
+   "id": 300891,
+   "name": "鉄子の旅",
+   "nameCN": "铁子之旅",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/d2/300891_eBE9e.jpg"
+  },
+  {
+   "id": 300902,
+   "name": "新・鉄子の旅",
+   "nameCN": "新・铁子之旅",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/43/300902_Lff1m.jpg"
+  },
+  {
+   "id": 300911,
+   "name": "鉄子の旅3代目",
+   "nameCN": "铁子之旅3代目",
+   "image": "//lain.bgm.tv/pic/cover/m/3f/96/300911_I8zup.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 300891,
+   "dst": 300902
+  },
+  {
+   "relate": "前传",
+   "src": 300902,
+   "dst": 300891
+  },
+  {
+   "relate": "续集",
+   "src": 300902,
+   "dst": 300911
+  },
+  {
+   "relate": "前传",
+   "src": 300911,
+   "dst": 300902
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "138425",
+ "node": [
+  {
+   "id": 138425,
+   "name": "Ride",
+   "nameCN": "狂飙",
+   "image": "//lain.bgm.tv/pic/cover/m/ad/ee/138425_mkFfZ.jpg"
+  },
+  {
+   "id": 209369,
+   "name": "Ride 2",
+   "nameCN": "狂飙2",
+   "image": "//lain.bgm.tv/pic/cover/m/91/0c/209369_Eh62O.jpg"
+  },
+  {
+   "id": 300725,
+   "name": "Ride 3",
+   "nameCN": "狂飙3",
+   "image": "//lain.bgm.tv/pic/cover/m/64/a5/300725_qn6wr.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 138425,
+   "dst": 209369
+  },
+  {
+   "relate": "前传",
+   "src": 209369,
+   "dst": 138425
+  },
+  {
+   "relate": "续集",
+   "src": 209369,
+   "dst": 300725
+  },
+  {
+   "relate": "前传",
+   "src": 300725,
+   "dst": 209369
+  }
+ ]
+}

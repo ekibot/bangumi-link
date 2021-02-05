@@ -1,0 +1,45 @@
+{
+ "id": "231358",
+ "node": [
+  {
+   "id": 231358,
+   "name": "Bionicle: Mask of Light",
+   "nameCN": "生化战士：光之面罩",
+   "image": "//lain.bgm.tv/pic/cover/m/47/f3/231358_r447b.jpg"
+  },
+  {
+   "id": 231359,
+   "name": "Bionicle 2: Legends of Metru Nui",
+   "nameCN": "生化战士2：美特吕传奇",
+   "image": "//lain.bgm.tv/pic/cover/m/45/6a/231359_rad3D.jpg"
+  },
+  {
+   "id": 231360,
+   "name": "Bionicle 3: Web of Shadows",
+   "nameCN": "生化战士3：暗影之网",
+   "image": "//lain.bgm.tv/pic/cover/m/f4/73/231360_iubB3.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 231358,
+   "dst": 231359
+  },
+  {
+   "relate": "前传",
+   "src": 231359,
+   "dst": 231358
+  },
+  {
+   "relate": "续集",
+   "src": 231359,
+   "dst": 231360
+  },
+  {
+   "relate": "前传",
+   "src": 231360,
+   "dst": 231359
+  }
+ ]
+}

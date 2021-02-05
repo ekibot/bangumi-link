@@ -1,0 +1,45 @@
+{
+ "id": "77121",
+ "node": [
+  {
+   "id": 77121,
+   "name": "WORLD END ECONOMiCA Episode.1",
+   "nameCN": "世界经济崩溃 第一章",
+   "image": "//lain.bgm.tv/pic/cover/m/fd/1c/77121_3hhw7.jpg"
+  },
+  {
+   "id": 77122,
+   "name": "WORLD END ECONOMiCA Episode.2",
+   "nameCN": "世界经济崩溃 第二章",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/75/77122_86QP6.jpg"
+  },
+  {
+   "id": 82315,
+   "name": "WORLD END ECONOMiCA Episode.3",
+   "nameCN": "世界经济崩溃 第三章",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/48/82315_00117.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 77121,
+   "dst": 77122
+  },
+  {
+   "relate": "前传",
+   "src": 77122,
+   "dst": 77121
+  },
+  {
+   "relate": "续集",
+   "src": 77122,
+   "dst": 82315
+  },
+  {
+   "relate": "前传",
+   "src": 82315,
+   "dst": 77122
+  }
+ ]
+}

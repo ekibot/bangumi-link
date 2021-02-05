@@ -1,0 +1,61 @@
+{
+ "id": "4507",
+ "node": [
+  {
+   "id": 4507,
+   "name": "ふしぎ遊戯",
+   "nameCN": "不可思议的游戏",
+   "image": "//lain.bgm.tv/pic/cover/m/7d/41/4507_n2N7c.jpg"
+  },
+  {
+   "id": 39523,
+   "name": "オリジナルビデオシリーズ ふしぎ遊戯",
+   "nameCN": "不思议游戏 OVA1 后篇",
+   "image": "//lain.bgm.tv/pic/cover/m/6c/60/39523_uagJ4.jpg"
+  },
+  {
+   "id": 39524,
+   "name": "ふしぎ遊戯 第二部",
+   "nameCN": "不思议游戏 OVA2 延续篇",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/88/39524_nEsTO.jpg"
+  },
+  {
+   "id": 39525,
+   "name": "ふしぎ遊戯 永光伝",
+   "nameCN": "不思议游戏 永光传",
+   "image": "//lain.bgm.tv/pic/cover/m/86/d5/39525_35uw4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 4507,
+   "dst": 39524
+  },
+  {
+   "relate": "前传",
+   "src": 39523,
+   "dst": 4507
+  },
+  {
+   "relate": "续集",
+   "src": 39523,
+   "dst": 39524
+  },
+  {
+   "relate": "前传",
+   "src": 39524,
+   "dst": 39523
+  },
+  {
+   "relate": "续集",
+   "src": 39524,
+   "dst": 39525
+  },
+  {
+   "relate": "前传",
+   "src": 39525,
+   "dst": 4507
+  }
+ ]
+}

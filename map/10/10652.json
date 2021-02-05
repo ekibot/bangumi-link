@@ -1,0 +1,45 @@
+{
+ "id": "10652",
+ "node": [
+  {
+   "id": 10652,
+   "name": "クリミナルガールズ",
+   "nameCN": "罪恶少女",
+   "image": "//lain.bgm.tv/pic/cover/m/73/d1/10652_9eYIY.jpg"
+  },
+  {
+   "id": 140129,
+   "name": "クリミナルガールズ2",
+   "nameCN": "罪恶少女2",
+   "image": "//lain.bgm.tv/pic/cover/m/76/04/140129_xN692.jpg"
+  },
+  {
+   "id": 311813,
+   "name": "クリミナルガールズX",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/36/311813_E08X4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 10652,
+   "dst": 140129
+  },
+  {
+   "relate": "前传",
+   "src": 140129,
+   "dst": 10652
+  },
+  {
+   "relate": "续集",
+   "src": 140129,
+   "dst": 311813
+  },
+  {
+   "relate": "前传",
+   "src": 311813,
+   "dst": 140129
+  }
+ ]
+}

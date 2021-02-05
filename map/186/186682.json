@@ -1,0 +1,45 @@
+{
+ "id": "186682",
+ "node": [
+  {
+   "id": 186682,
+   "name": "Starship Troopers",
+   "nameCN": "星河舰队",
+   "image": "//lain.bgm.tv/pic/cover/m/50/35/186682_00nzM.jpg"
+  },
+  {
+   "id": 274396,
+   "name": "Starship Troopers 2: Hero of the Federation (2004)",
+   "nameCN": "星河战队2：联邦英雄",
+   "image": "//lain.bgm.tv/pic/cover/m/04/ec/274396_EfZvF.jpg"
+  },
+  {
+   "id": 274397,
+   "name": "Starship Troopers 3: Marauder (2008)",
+   "nameCN": "星河战队3：掠夺者",
+   "image": "//lain.bgm.tv/pic/cover/m/2c/08/274397_jsss1.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 186682,
+   "dst": 274396
+  },
+  {
+   "relate": "前传",
+   "src": 274396,
+   "dst": 186682
+  },
+  {
+   "relate": "续集",
+   "src": 274396,
+   "dst": 274397
+  },
+  {
+   "relate": "前传",
+   "src": 274397,
+   "dst": 274396
+  }
+ ]
+}

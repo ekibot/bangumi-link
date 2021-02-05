@@ -1,0 +1,45 @@
+{
+ "id": "180",
+ "node": [
+  {
+   "id": 180,
+   "name": "LittleBigPlanet",
+   "nameCN": "小小大星球",
+   "image": "//lain.bgm.tv/pic/cover/m/04/51/180_n29i9.jpg"
+  },
+  {
+   "id": 11238,
+   "name": "LittleBigPlanet 2",
+   "nameCN": "小小大星球2",
+   "image": "//lain.bgm.tv/pic/cover/m/ab/b4/11238_5OVP9.jpg"
+  },
+  {
+   "id": 110791,
+   "name": "LittleBigPlanet 3",
+   "nameCN": "小小大星球3",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/4e/110791_RAVhS.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 180,
+   "dst": 11238
+  },
+  {
+   "relate": "前传",
+   "src": 11238,
+   "dst": 180
+  },
+  {
+   "relate": "续集",
+   "src": 11238,
+   "dst": 110791
+  },
+  {
+   "relate": "前传",
+   "src": 110791,
+   "dst": 11238
+  }
+ ]
+}

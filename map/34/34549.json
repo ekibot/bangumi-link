@@ -1,0 +1,50 @@
+{
+ "id": "34549",
+ "node": [
+  {
+   "id": 34549,
+   "name": "Fate/stay night",
+   "nameCN": "Fate/stay night 漫画版",
+   "image": "//lain.bgm.tv/pic/cover/m/15/af/34549_8Xxar.jpg"
+  },
+  {
+   "id": 65117,
+   "name": "Fate/Zero",
+   "image": "//lain.bgm.tv/pic/cover/m/a1/83/65117_ZID3Z.jpg"
+  },
+  {
+   "id": 132555,
+   "name": "Fate/stay night [Heaven's Feel]",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/7c/132555_p0TNK.jpg"
+  },
+  {
+   "id": 142877,
+   "name": "Fate/hollow ataraxiaコミックアラカルト",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/37/b1/142877_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 34549,
+   "dst": 65117
+  },
+  {
+   "relate": "续集",
+   "src": 65117,
+   "dst": 132555
+  },
+  {
+   "relate": "前传",
+   "src": 132555,
+   "dst": 65117
+  },
+  {
+   "relate": "主线故事",
+   "src": 142877,
+   "dst": 34549
+  }
+ ]
+}

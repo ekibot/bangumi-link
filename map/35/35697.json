@@ -1,0 +1,56 @@
+{
+ "id": "35697",
+ "node": [
+  {
+   "id": 35697,
+   "name": "Metro 2033",
+   "nameCN": "地铁2033",
+   "image": "//lain.bgm.tv/pic/cover/m/71/4a/35697_Aw0aA.jpg"
+  },
+  {
+   "id": 65209,
+   "name": "Metro: Last Light",
+   "nameCN": "地铁：最后的曙光",
+   "image": "//lain.bgm.tv/pic/cover/m/41/25/65209_R9Pih.jpg"
+  },
+  {
+   "id": 112136,
+   "name": "Metro Redux",
+   "nameCN": "地铁：归来",
+   "image": "//lain.bgm.tv/pic/cover/m/8b/94/112136_8NhB5.jpg"
+  },
+  {
+   "id": 216894,
+   "name": "METRO EXODUS",
+   "nameCN": "地铁：逃离",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/27/216894_HAYLd.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 35697,
+   "dst": 65209
+  },
+  {
+   "relate": "前传",
+   "src": 65209,
+   "dst": 35697
+  },
+  {
+   "relate": "续集",
+   "src": 65209,
+   "dst": 216894
+  },
+  {
+   "relate": "续集",
+   "src": 112136,
+   "dst": 216894
+  },
+  {
+   "relate": "前传",
+   "src": 216894,
+   "dst": 65209
+  }
+ ]
+}

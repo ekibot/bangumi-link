@@ -1,0 +1,55 @@
+{
+ "id": "101922",
+ "node": [
+  {
+   "id": 101922,
+   "name": "Monument Valley",
+   "nameCN": "纪念碑谷",
+   "image": "//lain.bgm.tv/pic/cover/m/a1/d1/101922_DZJzr.jpg"
+  },
+  {
+   "id": 112773,
+   "name": "Monument Valley: Forgotten Shores",
+   "nameCN": "纪念碑谷: 被遗忘的海岸",
+   "image": "//lain.bgm.tv/pic/cover/m/92/ea/112773_687pT.jpg"
+  },
+  {
+   "id": 216446,
+   "name": "Monument Valley 2",
+   "nameCN": "纪念碑谷2",
+   "image": "//lain.bgm.tv/pic/cover/m/29/05/216446_7An7a.jpg"
+  },
+  {
+   "id": 320964,
+   "name": "Monument Valley 3",
+   "nameCN": "纪念碑谷3"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 101922,
+   "dst": 216446
+  },
+  {
+   "relate": "主线故事",
+   "src": 112773,
+   "dst": 101922
+  },
+  {
+   "relate": "前传",
+   "src": 216446,
+   "dst": 101922
+  },
+  {
+   "relate": "续集",
+   "src": 216446,
+   "dst": 320964
+  },
+  {
+   "relate": "前传",
+   "src": 320964,
+   "dst": 216446
+  }
+ ]
+}

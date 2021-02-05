@@ -1,0 +1,61 @@
+{
+ "id": "104333",
+ "node": [
+  {
+   "id": 104333,
+   "name": "Postal 2",
+   "nameCN": "喋血街头2",
+   "image": "//lain.bgm.tv/pic/cover/m/5f/27/104333_93XvC.jpg"
+  },
+  {
+   "id": 104334,
+   "name": "Postal 3",
+   "nameCN": "喋血街头3",
+   "image": "//lain.bgm.tv/pic/cover/m/b4/0d/104334_8xbMM.jpg"
+  },
+  {
+   "id": 292806,
+   "name": "POSTAL 4: No Regerts",
+   "nameCN": "喋血街头4",
+   "image": "//lain.bgm.tv/pic/cover/m/da/bf/292806_Btv5x.jpg"
+  },
+  {
+   "id": 304566,
+   "name": "Postal",
+   "nameCN": "喋血街头",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/bf/304566_C8x9g.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 104333,
+   "dst": 104334
+  },
+  {
+   "relate": "前传",
+   "src": 104333,
+   "dst": 304566
+  },
+  {
+   "relate": "前传",
+   "src": 104334,
+   "dst": 104333
+  },
+  {
+   "relate": "续集",
+   "src": 104334,
+   "dst": 292806
+  },
+  {
+   "relate": "前传",
+   "src": 292806,
+   "dst": 104334
+  },
+  {
+   "relate": "续集",
+   "src": 304566,
+   "dst": 104333
+  }
+ ]
+}

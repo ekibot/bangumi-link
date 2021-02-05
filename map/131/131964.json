@@ -1,0 +1,45 @@
+{
+ "id": "131964",
+ "node": [
+  {
+   "id": 131964,
+   "name": "The Banner Saga",
+   "nameCN": "旗帜传说",
+   "image": "//lain.bgm.tv/pic/cover/m/93/50/131964_HdyIU.jpg"
+  },
+  {
+   "id": 182553,
+   "name": "The Banner Saga 2",
+   "nameCN": "旗帜传说2",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/c8/182553_4m4Qt.jpg"
+  },
+  {
+   "id": 240958,
+   "name": "The Banner Saga 3",
+   "nameCN": "旗帜传说3",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/69/240958_Kj6cf.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 131964,
+   "dst": 182553
+  },
+  {
+   "relate": "前传",
+   "src": 182553,
+   "dst": 131964
+  },
+  {
+   "relate": "续集",
+   "src": 182553,
+   "dst": 240958
+  },
+  {
+   "relate": "前传",
+   "src": 240958,
+   "dst": 182553
+  }
+ ]
+}

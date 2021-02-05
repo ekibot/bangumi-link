@@ -1,0 +1,60 @@
+{
+ "id": "3251",
+ "node": [
+  {
+   "id": 3251,
+   "name": "Dragon Age: Origins",
+   "nameCN": "龙腾世纪：起源",
+   "image": "//lain.bgm.tv/pic/cover/m/50/4c/3251_KcKjT.jpg"
+  },
+  {
+   "id": 12460,
+   "name": "Dragon Age II",
+   "nameCN": "龙腾世纪2",
+   "image": "//lain.bgm.tv/pic/cover/m/38/d6/12460_FMMXF.jpg"
+  },
+  {
+   "id": 49113,
+   "name": "Dragon Age: Inquisition",
+   "nameCN": "龙腾世纪: 审判",
+   "image": "//lain.bgm.tv/pic/cover/m/75/71/49113_evN52.jpg"
+  },
+  {
+   "id": 268592,
+   "name": "Dragon Age 4",
+   "nameCN": "龙腾世纪4"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3251,
+   "dst": 12460
+  },
+  {
+   "relate": "前传",
+   "src": 12460,
+   "dst": 3251
+  },
+  {
+   "relate": "续集",
+   "src": 12460,
+   "dst": 49113
+  },
+  {
+   "relate": "前传",
+   "src": 49113,
+   "dst": 12460
+  },
+  {
+   "relate": "续集",
+   "src": 49113,
+   "dst": 268592
+  },
+  {
+   "relate": "前传",
+   "src": 268592,
+   "dst": 49113
+  }
+ ]
+}

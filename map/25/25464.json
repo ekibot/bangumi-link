@@ -1,0 +1,104 @@
+{
+ "id": "25464",
+ "node": [
+  {
+   "id": 25462,
+   "name": "The Lord of the Rings: The Two Towers",
+   "nameCN": "魔戒2：双塔奇兵",
+   "image": "//lain.bgm.tv/pic/cover/m/30/29/25462_8OkAb.jpg"
+  },
+  {
+   "id": 25464,
+   "name": "The Lord of the Rings: The Fellowship of the Ring",
+   "nameCN": "魔戒：护戒使者",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/50/25464_2gdwd.jpg"
+  },
+  {
+   "id": 25465,
+   "name": "The Lord of the Rings: The Return of the King",
+   "nameCN": "魔戒3：王者归来",
+   "image": "//lain.bgm.tv/pic/cover/m/f7/5d/25465_ANexQ.jpg"
+  },
+  {
+   "id": 83551,
+   "name": "The Hobbit: An Unexpected Journey",
+   "nameCN": "霍比特人1：意外之旅",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/93/83551_fy45d.jpg"
+  },
+  {
+   "id": 97919,
+   "name": "The Hobbit: The Desolation of Smaug",
+   "nameCN": "霍比特人2：史矛革之战",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/44/97919_7Yuq2.jpg"
+  },
+  {
+   "id": 109452,
+   "name": "The Hobbit: The Battle of the Five Armies",
+   "nameCN": "霍比特人3：五军之战",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/2d/109452_Mgzm6.jpg"
+  },
+  {
+   "id": 119806,
+   "name": "The Hobbit: The Prelude to The Lord of the Rings",
+   "nameCN": "魔戒前传：哈比人历险记",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/24/119806_t5R6r.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 25462,
+   "dst": 25464
+  },
+  {
+   "relate": "续集",
+   "src": 25462,
+   "dst": 25465
+  },
+  {
+   "relate": "续集",
+   "src": 25464,
+   "dst": 25462
+  },
+  {
+   "relate": "前传",
+   "src": 25464,
+   "dst": 109452
+  },
+  {
+   "relate": "前传",
+   "src": 25465,
+   "dst": 25462
+  },
+  {
+   "relate": "续集",
+   "src": 83551,
+   "dst": 97919
+  },
+  {
+   "relate": "前传",
+   "src": 97919,
+   "dst": 83551
+  },
+  {
+   "relate": "续集",
+   "src": 97919,
+   "dst": 109452
+  },
+  {
+   "relate": "续集",
+   "src": 109452,
+   "dst": 25464
+  },
+  {
+   "relate": "前传",
+   "src": 109452,
+   "dst": 97919
+  },
+  {
+   "relate": "主线故事",
+   "src": 119806,
+   "dst": 83551
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "16926",
+ "node": [
+  {
+   "id": 16926,
+   "name": "Conan: The Adventurer (Season 1)",
+   "nameCN": "柯南冒险第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/52/1e/16926_K96tt.jpg"
+  },
+  {
+   "id": 286600,
+   "name": "Conan: The Adventurer (Season 2)",
+   "nameCN": "柯南冒险 第二季",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 286675,
+   "name": "Conan and the Young Warriors (1994)",
+   "nameCN": "柯南与小战士们",
+   "image": "//lain.bgm.tv/pic/cover/m/db/35/286675_J50jS.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 16926,
+   "dst": 286600
+  },
+  {
+   "relate": "前传",
+   "src": 286600,
+   "dst": 16926
+  },
+  {
+   "relate": "续集",
+   "src": 286600,
+   "dst": 286675
+  },
+  {
+   "relate": "前传",
+   "src": 286675,
+   "dst": 286600
+  }
+ ]
+}

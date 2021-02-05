@@ -1,0 +1,44 @@
+{
+ "id": "3179",
+ "node": [
+  {
+   "id": 3179,
+   "name": "センコロール",
+   "nameCN": "千子",
+   "image": "//lain.bgm.tv/pic/cover/m/91/37/3179_RFccc.jpg"
+  },
+  {
+   "id": 29413,
+   "name": "センコロール コネクト",
+   "nameCN": "CENCOROLL CONNECT",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/92/29413_m3vv4.jpg"
+  },
+  {
+   "id": 285530,
+   "name": "センコロール 3",
+   "nameCN": "CENCOROLL 3"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3179,
+   "dst": 29413
+  },
+  {
+   "relate": "前传",
+   "src": 29413,
+   "dst": 3179
+  },
+  {
+   "relate": "续集",
+   "src": 29413,
+   "dst": 285530
+  },
+  {
+   "relate": "前传",
+   "src": 285530,
+   "dst": 29413
+  }
+ ]
+}

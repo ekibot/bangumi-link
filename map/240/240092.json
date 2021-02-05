@@ -1,0 +1,45 @@
+{
+ "id": "240092",
+ "node": [
+  {
+   "id": 240092,
+   "name": "TimeSplitters",
+   "nameCN": "时空分裂者",
+   "image": "//lain.bgm.tv/pic/cover/m/ad/94/240092_YYSQ0.jpg"
+  },
+  {
+   "id": 240093,
+   "name": "TimeSplitters 2",
+   "nameCN": "时空分裂者2",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/18/240093_8JQRJ.jpg"
+  },
+  {
+   "id": 240789,
+   "name": "TimeSplitters: Future Perfect",
+   "nameCN": "时空分裂者：完美未来",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/de/240789_TsT0T.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 240092,
+   "dst": 240093
+  },
+  {
+   "relate": "前传",
+   "src": 240093,
+   "dst": 240092
+  },
+  {
+   "relate": "续集",
+   "src": 240093,
+   "dst": 240789
+  },
+  {
+   "relate": "前传",
+   "src": 240789,
+   "dst": 240093
+  }
+ ]
+}

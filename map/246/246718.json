@@ -1,0 +1,45 @@
+{
+ "id": "246718",
+ "node": [
+  {
+   "id": 246718,
+   "name": "我的朋友猪迪克",
+   "nameCN": "我的朋友猪迪克",
+   "image": "//lain.bgm.tv/pic/cover/m/4f/07/246718_736jH.jpg"
+  },
+  {
+   "id": 248886,
+   "name": "猪迪克之古怪岛大冒险Ⅰ",
+   "nameCN": "猪迪克之古怪岛大冒险 第1季",
+   "image": "//lain.bgm.tv/pic/cover/m/88/8c/248886_3gWcC.jpg"
+  },
+  {
+   "id": 248892,
+   "name": "猪迪克之古怪岛大冒险Ⅱ",
+   "nameCN": "猪迪克之古怪岛大冒险 第2季",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/e2/248892_eefER.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 246718,
+   "dst": 248886
+  },
+  {
+   "relate": "前传",
+   "src": 248886,
+   "dst": 246718
+  },
+  {
+   "relate": "续集",
+   "src": 248886,
+   "dst": 248892
+  },
+  {
+   "relate": "前传",
+   "src": 248892,
+   "dst": 248886
+  }
+ ]
+}

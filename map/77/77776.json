@@ -1,0 +1,45 @@
+{
+ "id": "77776",
+ "node": [
+  {
+   "id": 77776,
+   "name": "STANLEY博士的家",
+   "nameCN": "博士的家",
+   "image": "//lain.bgm.tv/pic/cover/m/25/1e/77776_BQl7z.jpg"
+  },
+  {
+   "id": 77777,
+   "name": "Stanley博士的家2",
+   "nameCN": "博士的家2",
+   "image": "//lain.bgm.tv/pic/cover/m/22/a4/77777_83DQB.jpg"
+  },
+  {
+   "id": 165813,
+   "name": "Stanley博士的家3",
+   "nameCN": "Stanley博士的家3",
+   "image": "//lain.bgm.tv/pic/cover/m/a4/5b/165813_ca2x8.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 77776,
+   "dst": 77777
+  },
+  {
+   "relate": "前传",
+   "src": 77777,
+   "dst": 77776
+  },
+  {
+   "relate": "续集",
+   "src": 77777,
+   "dst": 165813
+  },
+  {
+   "relate": "前传",
+   "src": 165813,
+   "dst": 77776
+  }
+ ]
+}

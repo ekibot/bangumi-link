@@ -1,0 +1,60 @@
+{
+ "id": "115645",
+ "node": [
+  {
+   "id": 115645,
+   "name": "Jane the Virgin",
+   "nameCN": "处女情缘",
+   "image": "//lain.bgm.tv/pic/cover/m/97/c6/115645_6KjCH.jpg"
+  },
+  {
+   "id": 181404,
+   "name": "Jane the Virgin Season 2",
+   "nameCN": "处女情缘 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/03/9a/181404_3U9Zh.jpg"
+  },
+  {
+   "id": 181405,
+   "name": "Jane the Virgin Season 3",
+   "nameCN": "处女情缘 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/74/181405_KEibz.jpg"
+  },
+  {
+   "id": 209267,
+   "name": "Jane the Virgin Season 4",
+   "nameCN": "处女情缘 第四季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 115645,
+   "dst": 181404
+  },
+  {
+   "relate": "前传",
+   "src": 181404,
+   "dst": 115645
+  },
+  {
+   "relate": "续集",
+   "src": 181404,
+   "dst": 181405
+  },
+  {
+   "relate": "前传",
+   "src": 181405,
+   "dst": 181404
+  },
+  {
+   "relate": "续集",
+   "src": 181405,
+   "dst": 209267
+  },
+  {
+   "relate": "前传",
+   "src": 209267,
+   "dst": 181405
+  }
+ ]
+}

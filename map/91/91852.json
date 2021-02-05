@@ -1,0 +1,45 @@
+{
+ "id": "91852",
+ "node": [
+  {
+   "id": 91852,
+   "name": "Chosen (Season 1)",
+   "nameCN": "杀无赦 （第一季）",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/ef/91852_f263o.jpg"
+  },
+  {
+   "id": 91853,
+   "name": "Chosen (Season 2)",
+   "nameCN": "杀无赦 （第二季）",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/04/91853_7SHTm.jpg"
+  },
+  {
+   "id": 102181,
+   "name": "Chosen (Season 3)",
+   "nameCN": "杀无赦 （第三季）",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/36/102181_g568b.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 91852,
+   "dst": 91853
+  },
+  {
+   "relate": "前传",
+   "src": 91853,
+   "dst": 91852
+  },
+  {
+   "relate": "续集",
+   "src": 91853,
+   "dst": 102181
+  },
+  {
+   "relate": "前传",
+   "src": 102181,
+   "dst": 91853
+  }
+ ]
+}

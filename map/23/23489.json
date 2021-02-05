@@ -1,0 +1,44 @@
+{
+ "id": "23489",
+ "node": [
+  {
+   "id": 23489,
+   "name": "パカプラス",
+   "nameCN": "草泥马相随",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/8e/23489_3ywBx.jpg"
+  },
+  {
+   "id": 68250,
+   "name": "パカプラスマイナス",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/9e/68250_NNZiM.jpg"
+  },
+  {
+   "id": 198781,
+   "name": "パカプラスプラス",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/d7/71/198781_2444O.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 23489,
+   "dst": 68250
+  },
+  {
+   "relate": "前传",
+   "src": 68250,
+   "dst": 23489
+  },
+  {
+   "relate": "续集",
+   "src": 68250,
+   "dst": 198781
+  },
+  {
+   "relate": "前传",
+   "src": 198781,
+   "dst": 68250
+  }
+ ]
+}

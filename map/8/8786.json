@@ -1,0 +1,61 @@
+{
+ "id": "8786",
+ "node": [
+  {
+   "id": 8786,
+   "name": "Hotel Babylon (Season 1)",
+   "nameCN": "巴比伦饭店 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/04/8e/8786_W9Y66.jpg"
+  },
+  {
+   "id": 18081,
+   "name": "Hotel Babylon (Season 3)",
+   "nameCN": "巴比伦饭店 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/fb/4d/18081_z9DYW.jpg"
+  },
+  {
+   "id": 21128,
+   "name": "Hotel Babylon (Season 4)",
+   "nameCN": "巴比伦饭店 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/23/4d/21128_24PlK.jpg"
+  },
+  {
+   "id": 86325,
+   "name": "Hotel Babylon (Season 2)",
+   "nameCN": "巴比伦饭店 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/d2/aa/86325_EhHHw.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 8786,
+   "dst": 86325
+  },
+  {
+   "relate": "续集",
+   "src": 18081,
+   "dst": 21128
+  },
+  {
+   "relate": "前传",
+   "src": 18081,
+   "dst": 86325
+  },
+  {
+   "relate": "前传",
+   "src": 21128,
+   "dst": 18081
+  },
+  {
+   "relate": "前传",
+   "src": 86325,
+   "dst": 8786
+  },
+  {
+   "relate": "续集",
+   "src": 86325,
+   "dst": 18081
+  }
+ ]
+}

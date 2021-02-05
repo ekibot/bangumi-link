@@ -1,0 +1,45 @@
+{
+ "id": "46655",
+ "node": [
+  {
+   "id": 46655,
+   "name": "Empire Earth",
+   "nameCN": "地球帝国",
+   "image": "//lain.bgm.tv/pic/cover/m/b5/c4/46655_mfuF7.jpg"
+  },
+  {
+   "id": 48975,
+   "name": "Empire Earth 2",
+   "nameCN": "地球帝国2",
+   "image": "//lain.bgm.tv/pic/cover/m/41/94/48975_s3N7N.jpg"
+  },
+  {
+   "id": 48976,
+   "name": "Empire Earth III",
+   "nameCN": "地球帝国3",
+   "image": "//lain.bgm.tv/pic/cover/m/20/ef/48976_9m2II.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 46655,
+   "dst": 48975
+  },
+  {
+   "relate": "前传",
+   "src": 48975,
+   "dst": 46655
+  },
+  {
+   "relate": "续集",
+   "src": 48975,
+   "dst": 48976
+  },
+  {
+   "relate": "前传",
+   "src": 48976,
+   "dst": 48975
+  }
+ ]
+}

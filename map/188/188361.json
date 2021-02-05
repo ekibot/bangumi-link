@@ -1,0 +1,45 @@
+{
+ "id": "188361",
+ "node": [
+  {
+   "id": 188361,
+   "name": "偶像来了",
+   "nameCN": "偶像来了",
+   "image": "//lain.bgm.tv/pic/cover/m/92/f4/188361_8LTLb.jpg"
+  },
+  {
+   "id": 192011,
+   "name": "我们来了",
+   "nameCN": "我们来了",
+   "image": "//lain.bgm.tv/pic/cover/m/de/47/192011_46DC5.jpg"
+  },
+  {
+   "id": 221118,
+   "name": "我们来了 第二季",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/8d/19/221118_W3f3W.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 188361,
+   "dst": 192011
+  },
+  {
+   "relate": "前传",
+   "src": 192011,
+   "dst": 188361
+  },
+  {
+   "relate": "续集",
+   "src": 192011,
+   "dst": 221118
+  },
+  {
+   "relate": "前传",
+   "src": 221118,
+   "dst": 192011
+  }
+ ]
+}

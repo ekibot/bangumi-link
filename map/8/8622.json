@@ -1,0 +1,45 @@
+{
+ "id": "8622",
+ "node": [
+  {
+   "id": 8622,
+   "name": "楽しいムーミン一家",
+   "nameCN": "姆明一族",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/52/8622_uUg1U.jpg"
+  },
+  {
+   "id": 9268,
+   "name": "楽しいムーミン一家 冒険日記",
+   "nameCN": "姆明一族 冒险日记",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/ac/9268_B34J1.jpg"
+  },
+  {
+   "id": 171034,
+   "name": "楽しいムーミン一家 ムーミン谷の彗星",
+   "nameCN": "姆明一族 姆明谷的彗星",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/ba/171034_TPpB2.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 8622,
+   "dst": 9268
+  },
+  {
+   "relate": "前传",
+   "src": 9268,
+   "dst": 8622
+  },
+  {
+   "relate": "续集",
+   "src": 9268,
+   "dst": 171034
+  },
+  {
+   "relate": "前传",
+   "src": 171034,
+   "dst": 9268
+  }
+ ]
+}

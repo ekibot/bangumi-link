@@ -1,0 +1,45 @@
+{
+ "id": "127960",
+ "node": [
+  {
+   "id": 127960,
+   "name": "Batman: The Brave and the Bold Season 1",
+   "nameCN": "蝙蝠侠：英勇无畏 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/f6/a6/127960_1YIyM.jpg"
+  },
+  {
+   "id": 127961,
+   "name": "Batman: The Brave and the Bold Season 2",
+   "nameCN": "蝙蝠侠：英勇无畏 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/73/8c/127961_huGUg.jpg"
+  },
+  {
+   "id": 127962,
+   "name": "Batman: The Brave and the Bold Season 3",
+   "nameCN": "蝙蝠侠：英勇无畏 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/37/127962_k8ovk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 127960,
+   "dst": 127961
+  },
+  {
+   "relate": "前传",
+   "src": 127961,
+   "dst": 127960
+  },
+  {
+   "relate": "续集",
+   "src": 127961,
+   "dst": 127962
+  },
+  {
+   "relate": "前传",
+   "src": 127962,
+   "dst": 127961
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "150810",
+ "node": [
+  {
+   "id": 150810,
+   "name": "the boondocks Season 1",
+   "nameCN": "乡下人 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/f8/150810_ezehZ.jpg"
+  },
+  {
+   "id": 181010,
+   "name": "the boondocks Season 2",
+   "nameCN": "乡下人 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/32/181010_h38v5.jpg"
+  },
+  {
+   "id": 181023,
+   "name": "the boondocks Season 3",
+   "nameCN": "乡下人 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/97/181023_764fx.jpg"
+  },
+  {
+   "id": 181024,
+   "name": "the boondocks Season 4",
+   "nameCN": "乡下人 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/43/41/181024_1zfsw.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 150810,
+   "dst": 181010
+  },
+  {
+   "relate": "前传",
+   "src": 181010,
+   "dst": 150810
+  },
+  {
+   "relate": "续集",
+   "src": 181010,
+   "dst": 181023
+  },
+  {
+   "relate": "前传",
+   "src": 181023,
+   "dst": 181010
+  },
+  {
+   "relate": "续集",
+   "src": 181023,
+   "dst": 181024
+  },
+  {
+   "relate": "前传",
+   "src": 181024,
+   "dst": 181023
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "112682",
+ "node": [
+  {
+   "id": 112682,
+   "name": "X-Men: First Class",
+   "nameCN": "X战警：第一战",
+   "image": "//lain.bgm.tv/pic/cover/m/6c/07/112682_7oKTI.jpg"
+  },
+  {
+   "id": 112683,
+   "name": "X-Men: Days of Future Past",
+   "nameCN": "X战警：逆转未来",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/7e/112683_7rdT1.jpg"
+  },
+  {
+   "id": 127576,
+   "name": "X-Men: Apocalypse",
+   "nameCN": "X战警：天启",
+   "image": "//lain.bgm.tv/pic/cover/m/93/11/127576_rJFj9.jpg"
+  },
+  {
+   "id": 209234,
+   "name": "Dark Phoenix",
+   "nameCN": "X战警：黑凤凰",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/f5/209234_cNTCW.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 112682,
+   "dst": 112683
+  },
+  {
+   "relate": "前传",
+   "src": 112683,
+   "dst": 112682
+  },
+  {
+   "relate": "续集",
+   "src": 112683,
+   "dst": 127576
+  },
+  {
+   "relate": "前传",
+   "src": 127576,
+   "dst": 112683
+  },
+  {
+   "relate": "续集",
+   "src": 127576,
+   "dst": 209234
+  },
+  {
+   "relate": "前传",
+   "src": 209234,
+   "dst": 127576
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "1962",
+ "node": [
+  {
+   "id": 1962,
+   "name": "大闹天宫",
+   "nameCN": "大闹天宫",
+   "image": "//lain.bgm.tv/pic/cover/m/95/f6/1962_Z1r59.jpg"
+  },
+  {
+   "id": 69466,
+   "name": "金猴降妖",
+   "image": "//lain.bgm.tv/pic/cover/m/6e/55/69466_UHe4L.jpg"
+  },
+  {
+   "id": 69467,
+   "name": "人参果",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/51/ec/69467_0OktC.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1962,
+   "dst": 69467
+  },
+  {
+   "relate": "前传",
+   "src": 69466,
+   "dst": 69467
+  },
+  {
+   "relate": "前传",
+   "src": 69467,
+   "dst": 1962
+  },
+  {
+   "relate": "续集",
+   "src": 69467,
+   "dst": 69466
+  }
+ ]
+}

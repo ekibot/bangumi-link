@@ -1,0 +1,58 @@
+{
+ "id": "160242",
+ "node": [
+  {
+   "id": 160242,
+   "name": "カナン ～約束の地～",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/ad/160242_RNovS.jpg"
+  },
+  {
+   "id": 216890,
+   "name": "GAOGAO! 1st. ラジカルシークエンス",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/99/216890_8d8Ll.jpg"
+  },
+  {
+   "id": 216891,
+   "name": "GAOGAO! 2nd パンドラの森",
+   "image": "//lain.bgm.tv/pic/cover/m/2e/c1/216891_oE002.jpg"
+  },
+  {
+   "id": 216892,
+   "name": "GAOGAO! 3rd. ワイルドフォース",
+   "image": "//lain.bgm.tv/pic/cover/m/5b/14/216892_HK4Gv.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 160242,
+   "dst": 216892
+  },
+  {
+   "relate": "续集",
+   "src": 216890,
+   "dst": 216891
+  },
+  {
+   "relate": "前传",
+   "src": 216891,
+   "dst": 216890
+  },
+  {
+   "relate": "续集",
+   "src": 216891,
+   "dst": 216892
+  },
+  {
+   "relate": "续集",
+   "src": 216892,
+   "dst": 160242
+  },
+  {
+   "relate": "前传",
+   "src": 216892,
+   "dst": 216891
+  }
+ ]
+}

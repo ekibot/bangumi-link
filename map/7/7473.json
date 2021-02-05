@@ -1,0 +1,61 @@
+{
+ "id": "7473",
+ "node": [
+  {
+   "id": 7473,
+   "name": "かわいい悪魔",
+   "nameCN": "可爱恶魔",
+   "image": "//lain.bgm.tv/pic/cover/m/30/d0/7473_jp.jpg"
+  },
+  {
+   "id": 7474,
+   "name": "いとしい悪魔",
+   "nameCN": "亲爱的恶魔",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/30/7474_jp.jpg"
+  },
+  {
+   "id": 11921,
+   "name": "悪魔は微笑む",
+   "nameCN": "恶魔在微笑",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/e5/11921_jp.jpg"
+  },
+  {
+   "id": 70595,
+   "name": "こいしい悪魔",
+   "nameCN": "怀念的恶魔",
+   "image": "//lain.bgm.tv/pic/cover/m/78/20/70595_jp.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 7473,
+   "dst": 7474
+  },
+  {
+   "relate": "前传",
+   "src": 7474,
+   "dst": 7473
+  },
+  {
+   "relate": "续集",
+   "src": 7474,
+   "dst": 11921
+  },
+  {
+   "relate": "前传",
+   "src": 11921,
+   "dst": 7474
+  },
+  {
+   "relate": "续集",
+   "src": 11921,
+   "dst": 70595
+  },
+  {
+   "relate": "前传",
+   "src": 70595,
+   "dst": 11921
+  }
+ ]
+}

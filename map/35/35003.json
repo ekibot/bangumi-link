@@ -1,0 +1,45 @@
+{
+ "id": "35003",
+ "node": [
+  {
+   "id": 35003,
+   "name": "みんなのゴルフ6",
+   "nameCN": "大众高尔夫6",
+   "image": "//lain.bgm.tv/pic/cover/m/c9/4b/35003_vMU4o.jpg"
+  },
+  {
+   "id": 163854,
+   "name": "みんなのGOLF 5",
+   "nameCN": "大众高尔夫5",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/40/163854_TeFF1.jpg"
+  },
+  {
+   "id": 213293,
+   "name": "NEW みんなのGOLF",
+   "nameCN": "新大众高尔夫",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/8e/213293_Z3dN4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 35003,
+   "dst": 163854
+  },
+  {
+   "relate": "续集",
+   "src": 35003,
+   "dst": 213293
+  },
+  {
+   "relate": "续集",
+   "src": 163854,
+   "dst": 35003
+  },
+  {
+   "relate": "前传",
+   "src": 213293,
+   "dst": 35003
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "213319",
+ "node": [
+  {
+   "id": 213319,
+   "name": "赤ひげ",
+   "nameCN": "红胡子",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/4e/213319_DZe0k.jpg"
+  },
+  {
+   "id": 280376,
+   "name": "赤ひげ2",
+   "nameCN": "红胡子 2",
+   "image": "//lain.bgm.tv/pic/cover/m/98/9d/280376_uwUQ5.jpg"
+  },
+  {
+   "id": 310399,
+   "name": "赤ひげ3",
+   "nameCN": "红胡子 3"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 213319,
+   "dst": 280376
+  },
+  {
+   "relate": "前传",
+   "src": 280376,
+   "dst": 213319
+  },
+  {
+   "relate": "续集",
+   "src": 280376,
+   "dst": 310399
+  },
+  {
+   "relate": "前传",
+   "src": 310399,
+   "dst": 280376
+  }
+ ]
+}

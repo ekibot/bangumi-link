@@ -1,0 +1,72 @@
+{
+ "id": "2706",
+ "node": [
+  {
+   "id": 3034,
+   "name": "Baldur's Gate",
+   "nameCN": "博德之门",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/66/3034_M2aZK.jpg"
+  },
+  {
+   "id": 3035,
+   "name": "Baldur's Gate II: Shadow of Amn",
+   "nameCN": "博德之门II：安姆的阴影",
+   "image": "//lain.bgm.tv/pic/cover/m/03/bf/3035_dZc2m.jpg"
+  },
+  {
+   "id": 21563,
+   "name": "Baldur's Gate II: Throne of Bhaal",
+   "nameCN": "博德之门II：巴尔的王座",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/6a/21563_27lLk.jpg"
+  },
+  {
+   "id": 37141,
+   "name": "Baldur's Gate 3",
+   "nameCN": "博德之门3",
+   "image": "//lain.bgm.tv/pic/cover/m/21/f3/37141_xOJyw.jpg"
+  },
+  {
+   "id": 256127,
+   "name": "Baldur's Gate: Tales of the Sword Coast",
+   "nameCN": "博德之门：剑湾传奇",
+   "image": "//lain.bgm.tv/pic/cover/m/5d/bf/256127_Cfs1C.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3034,
+   "dst": 3035
+  },
+  {
+   "relate": "前传",
+   "src": 3035,
+   "dst": 3034
+  },
+  {
+   "relate": "续集",
+   "src": 3035,
+   "dst": 37141
+  },
+  {
+   "relate": "主线故事",
+   "src": 21563,
+   "dst": 3035
+  },
+  {
+   "relate": "续集",
+   "src": 21563,
+   "dst": 37141
+  },
+  {
+   "relate": "前传",
+   "src": 37141,
+   "dst": 3035
+  },
+  {
+   "relate": "主线故事",
+   "src": 256127,
+   "dst": 3034
+  }
+ ]
+}

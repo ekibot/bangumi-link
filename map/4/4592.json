@@ -1,0 +1,45 @@
+{
+ "id": "4592",
+ "node": [
+  {
+   "id": 4592,
+   "name": "Black Books (Series 1)",
+   "nameCN": "布莱克书店 （第一季）",
+   "image": "//lain.bgm.tv/pic/cover/m/50/16/4592_bB2LY.jpg"
+  },
+  {
+   "id": 10677,
+   "name": "Black Books (Series 2)",
+   "nameCN": "布莱克书店 （第二季）",
+   "image": "//lain.bgm.tv/pic/cover/m/80/56/10677_FFyFZ.jpg"
+  },
+  {
+   "id": 65106,
+   "name": "Black Books (Series 3)",
+   "nameCN": "布莱克书店 （第三季）",
+   "image": "//lain.bgm.tv/pic/cover/m/78/77/65106_oTN5C.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 4592,
+   "dst": 10677
+  },
+  {
+   "relate": "前传",
+   "src": 10677,
+   "dst": 4592
+  },
+  {
+   "relate": "续集",
+   "src": 10677,
+   "dst": 65106
+  },
+  {
+   "relate": "前传",
+   "src": 65106,
+   "dst": 10677
+  }
+ ]
+}

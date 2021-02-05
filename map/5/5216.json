@@ -1,0 +1,61 @@
+{
+ "id": "5216",
+ "node": [
+  {
+   "id": 5216,
+   "name": "The Tudors Season 4",
+   "nameCN": "都铎王朝 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/80/8e/5216_p2OJ0.jpg"
+  },
+  {
+   "id": 30393,
+   "name": "The Tudors Season 3",
+   "nameCN": "都铎王朝 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/55/57/30393_bmYYG.jpg"
+  },
+  {
+   "id": 49096,
+   "name": "The Tudors Season 1",
+   "nameCN": "都铎王朝 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/cf/4a/49096_NN1oN.jpg"
+  },
+  {
+   "id": 49098,
+   "name": "The Tudors Season 2",
+   "nameCN": "都铎王朝 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/29/e1/49098_VU8LR.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 5216,
+   "dst": 30393
+  },
+  {
+   "relate": "续集",
+   "src": 30393,
+   "dst": 5216
+  },
+  {
+   "relate": "前传",
+   "src": 30393,
+   "dst": 49098
+  },
+  {
+   "relate": "续集",
+   "src": 49096,
+   "dst": 49098
+  },
+  {
+   "relate": "续集",
+   "src": 49098,
+   "dst": 30393
+  },
+  {
+   "relate": "前传",
+   "src": 49098,
+   "dst": 49096
+  }
+ ]
+}

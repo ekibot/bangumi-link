@@ -1,0 +1,45 @@
+{
+ "id": "73649",
+ "node": [
+  {
+   "id": 73649,
+   "name": "ソニックウィングス",
+   "nameCN": "四国战机",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/5a/73649_22PPa.jpg"
+  },
+  {
+   "id": 259846,
+   "name": "ソニックウィングス2",
+   "nameCN": "四国战机2",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/ab/259846_07lGe.jpg"
+  },
+  {
+   "id": 294223,
+   "name": "ソニックウィングス3",
+   "nameCN": "四国战机3",
+   "image": "//lain.bgm.tv/pic/cover/m/90/2a/294223_1b5SN.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 73649,
+   "dst": 259846
+  },
+  {
+   "relate": "前传",
+   "src": 259846,
+   "dst": 73649
+  },
+  {
+   "relate": "续集",
+   "src": 259846,
+   "dst": 294223
+  },
+  {
+   "relate": "前传",
+   "src": 294223,
+   "dst": 259846
+  }
+ ]
+}

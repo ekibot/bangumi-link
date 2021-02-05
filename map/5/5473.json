@@ -1,0 +1,43 @@
+{
+ "id": "5473",
+ "node": [
+  {
+   "id": 5473,
+   "name": "GUILTY GEAR",
+   "nameCN": "罪恶装备",
+   "image": "//lain.bgm.tv/pic/cover/m/17/45/172770_GhVwT.jpg"
+  },
+  {
+   "id": 172768,
+   "name": "GUILTY GEAR XX",
+   "image": "//lain.bgm.tv/pic/cover/m/13/77/172768_xFRt7.jpg"
+  },
+  {
+   "id": 172772,
+   "name": "GUILTY GEAR X",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/be/172772_2kuND.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 5473,
+   "dst": 172772
+  },
+  {
+   "relate": "前传",
+   "src": 172768,
+   "dst": 172772
+  },
+  {
+   "relate": "前传",
+   "src": 172772,
+   "dst": 5473
+  },
+  {
+   "relate": "续集",
+   "src": 172772,
+   "dst": 172768
+  }
+ ]
+}

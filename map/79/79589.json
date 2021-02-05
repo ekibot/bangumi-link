@@ -1,0 +1,45 @@
+{
+ "id": "79589",
+ "node": [
+  {
+   "id": 79589,
+   "name": "戦国伝承",
+   "nameCN": "战国传承",
+   "image": "//lain.bgm.tv/pic/cover/m/79/28/79589_fzT90.jpg"
+  },
+  {
+   "id": 79590,
+   "name": "戦国伝承2",
+   "nameCN": "战国传承2",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/14/79590_pPp9U.jpg"
+  },
+  {
+   "id": 79592,
+   "name": "戦国伝承2001",
+   "nameCN": "战国传承3",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/d7/79592_9A28q.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 79589,
+   "dst": 79590
+  },
+  {
+   "relate": "前传",
+   "src": 79590,
+   "dst": 79589
+  },
+  {
+   "relate": "续集",
+   "src": 79590,
+   "dst": 79592
+  },
+  {
+   "relate": "前传",
+   "src": 79592,
+   "dst": 79590
+  }
+ ]
+}

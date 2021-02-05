@@ -1,0 +1,45 @@
+{
+ "id": "103214",
+ "node": [
+  {
+   "id": 103214,
+   "name": "Faking It Season 1",
+   "nameCN": "假亦真 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/29/96/103214_dDk9k.jpg"
+  },
+  {
+   "id": 114160,
+   "name": "Faking It Season 2",
+   "nameCN": "假亦真 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/3f/7d/114160_ZZERj.jpg"
+  },
+  {
+   "id": 175282,
+   "name": "Faking It Season 3",
+   "nameCN": "假亦真 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/53/175282_cs2yk.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 103214,
+   "dst": 114160
+  },
+  {
+   "relate": "前传",
+   "src": 114160,
+   "dst": 103214
+  },
+  {
+   "relate": "续集",
+   "src": 114160,
+   "dst": 175282
+  },
+  {
+   "relate": "前传",
+   "src": 175282,
+   "dst": 114160
+  }
+ ]
+}

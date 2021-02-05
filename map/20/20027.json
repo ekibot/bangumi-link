@@ -1,0 +1,88 @@
+{
+ "id": "20027",
+ "node": [
+  {
+   "id": 1392,
+   "name": "Prison Break (Season 4)",
+   "nameCN": "越狱 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/82/1392_G57g5.jpg"
+  },
+  {
+   "id": 20027,
+   "name": "Prison Break (Season 1)",
+   "nameCN": "越狱 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/09/ce/20027_5CIUU.jpg"
+  },
+  {
+   "id": 45067,
+   "name": "Prison Break (Season 3)",
+   "nameCN": "越狱 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/50/01/45067_njMR0.jpg"
+  },
+  {
+   "id": 45068,
+   "name": "Prison Break (Season 2)",
+   "nameCN": "越狱 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/b8/fe/45068_tsR7t.jpg"
+  },
+  {
+   "id": 86799,
+   "name": "Prison Break: The Final Break",
+   "nameCN": "越狱特别篇：最后一越",
+   "image": "//lain.bgm.tv/pic/cover/m/01/bb/86799_ESAhH.jpg"
+  },
+  {
+   "id": 142861,
+   "name": "Prison Break:Sequel",
+   "nameCN": "越狱 重启剧",
+   "image": "//lain.bgm.tv/pic/cover/m/32/e7/142861_lA0ja.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 1392,
+   "dst": 45067
+  },
+  {
+   "relate": "续集",
+   "src": 1392,
+   "dst": 142861
+  },
+  {
+   "relate": "续集",
+   "src": 20027,
+   "dst": 45068
+  },
+  {
+   "relate": "续集",
+   "src": 45067,
+   "dst": 1392
+  },
+  {
+   "relate": "前传",
+   "src": 45067,
+   "dst": 45068
+  },
+  {
+   "relate": "前传",
+   "src": 45068,
+   "dst": 20027
+  },
+  {
+   "relate": "续集",
+   "src": 45068,
+   "dst": 45067
+  },
+  {
+   "relate": "主线故事",
+   "src": 86799,
+   "dst": 1392
+  },
+  {
+   "relate": "前传",
+   "src": 142861,
+   "dst": 1392
+  }
+ ]
+}

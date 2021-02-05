@@ -1,0 +1,45 @@
+{
+ "id": "144426",
+ "node": [
+  {
+   "id": 144426,
+   "name": "Dreadout",
+   "nameCN": "小镇惊魂",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/c0/144426_luayk.jpg"
+  },
+  {
+   "id": 144514,
+   "name": "DreadOut Act II",
+   "nameCN": "小镇惊魂2",
+   "image": "//lain.bgm.tv/pic/cover/m/84/55/144514_8pZHN.jpg"
+  },
+  {
+   "id": 301064,
+   "name": "DreadOut 2",
+   "nameCN": "小镇惊魂2",
+   "image": "//lain.bgm.tv/pic/cover/m/f3/05/301064_w5COx.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 144426,
+   "dst": 144514
+  },
+  {
+   "relate": "前传",
+   "src": 144514,
+   "dst": 144426
+  },
+  {
+   "relate": "续集",
+   "src": 144514,
+   "dst": 301064
+  },
+  {
+   "relate": "前传",
+   "src": 301064,
+   "dst": 144514
+  }
+ ]
+}

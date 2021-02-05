@@ -1,0 +1,45 @@
+{
+ "id": "193345",
+ "node": [
+  {
+   "id": 193345,
+   "name": "This is us",
+   "nameCN": "我们这一天",
+   "image": "//lain.bgm.tv/pic/cover/m/b5/09/193345_HJjzJ.jpg"
+  },
+  {
+   "id": 225983,
+   "name": "This Is Us Season 2",
+   "nameCN": "我们这一天 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/2b/225983_xObKx.jpg"
+  },
+  {
+   "id": 225988,
+   "name": "This Is Us Season 3",
+   "nameCN": "我们这一天 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/5e/225988_F96S5.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 193345,
+   "dst": 225983
+  },
+  {
+   "relate": "前传",
+   "src": 225983,
+   "dst": 193345
+  },
+  {
+   "relate": "续集",
+   "src": 225983,
+   "dst": 225988
+  },
+  {
+   "relate": "前传",
+   "src": 225988,
+   "dst": 225983
+  }
+ ]
+}

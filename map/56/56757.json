@@ -1,0 +1,45 @@
+{
+ "id": "56757",
+ "node": [
+  {
+   "id": 56757,
+   "name": "The Adventures of Tintin Season 1",
+   "nameCN": "丁丁历险记第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/91/06/56757_648N5.jpg"
+  },
+  {
+   "id": 56758,
+   "name": "The Adventures of Tintin Season 2",
+   "nameCN": "丁丁历险记第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/d9/56758_c0ccf.jpg"
+  },
+  {
+   "id": 56759,
+   "name": "The Adventures of Tintin Season 3",
+   "nameCN": "丁丁历险记 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/4f/56759_79bLQ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 56757,
+   "dst": 56758
+  },
+  {
+   "relate": "前传",
+   "src": 56758,
+   "dst": 56757
+  },
+  {
+   "relate": "续集",
+   "src": 56758,
+   "dst": 56759
+  },
+  {
+   "relate": "前传",
+   "src": 56759,
+   "dst": 56758
+  }
+ ]
+}

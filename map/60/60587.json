@@ -1,0 +1,61 @@
+{
+ "id": "60587",
+ "node": [
+  {
+   "id": 60587,
+   "name": "Thor",
+   "nameCN": "雷神",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/dc/60587_9z020.jpg"
+  },
+  {
+   "id": 89154,
+   "name": "Thor: The Dark World",
+   "nameCN": "雷神2：黑暗世界",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/2b/89154_9ZiIW.jpg"
+  },
+  {
+   "id": 133238,
+   "name": "Thor: Ragnarok",
+   "nameCN": "雷神3：诸神的黄昏",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/37/133238_e59NY.jpg"
+  },
+  {
+   "id": 286618,
+   "name": "Thor: Love and Thunder",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/07/d3/286618_E77Qb.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 60587,
+   "dst": 89154
+  },
+  {
+   "relate": "前传",
+   "src": 89154,
+   "dst": 60587
+  },
+  {
+   "relate": "续集",
+   "src": 89154,
+   "dst": 133238
+  },
+  {
+   "relate": "前传",
+   "src": 133238,
+   "dst": 89154
+  },
+  {
+   "relate": "续集",
+   "src": 133238,
+   "dst": 286618
+  },
+  {
+   "relate": "前传",
+   "src": 286618,
+   "dst": 133238
+  }
+ ]
+}

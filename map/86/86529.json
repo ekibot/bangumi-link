@@ -1,0 +1,56 @@
+{
+ "id": "86529",
+ "node": [
+  {
+   "id": 86529,
+   "name": "Shadow Warrior",
+   "nameCN": "影子武士 重制版",
+   "image": "//lain.bgm.tv/pic/cover/m/75/35/86529_90pSe.jpg"
+  },
+  {
+   "id": 195452,
+   "name": "Shadow Warrior 2",
+   "nameCN": "影子武士2",
+   "image": "//lain.bgm.tv/pic/cover/m/87/58/195452_44n9Z.jpg"
+  },
+  {
+   "id": 294969,
+   "name": "Viscera Cleanup Detail: Shadow Warrior",
+   "nameCN": "内脏清洁工：影武士",
+   "image": "//lain.bgm.tv/pic/cover/m/c2/a7/294969_cuScP.jpg"
+  },
+  {
+   "id": 309946,
+   "name": "Shadow Warrior 3",
+   "nameCN": "影子武士3",
+   "image": "//lain.bgm.tv/pic/cover/m/94/79/309946_0iziX.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 86529,
+   "dst": 195452
+  },
+  {
+   "relate": "前传",
+   "src": 195452,
+   "dst": 86529
+  },
+  {
+   "relate": "续集",
+   "src": 195452,
+   "dst": 309946
+  },
+  {
+   "relate": "主线故事",
+   "src": 294969,
+   "dst": 86529
+  },
+  {
+   "relate": "前传",
+   "src": 309946,
+   "dst": 195452
+  }
+ ]
+}

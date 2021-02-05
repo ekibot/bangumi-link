@@ -1,0 +1,45 @@
+{
+ "id": "283513",
+ "node": [
+  {
+   "id": 283513,
+   "name": "チョコボの不思議なダンジョン",
+   "nameCN": "陆行鸟的不可思议的迷宫",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/fc/283513_zp52g.jpg"
+  },
+  {
+   "id": 326809,
+   "name": "チョコボの不思議なダンジョン2",
+   "nameCN": "陆行鸟不可思议迷宫2",
+   "image": "//lain.bgm.tv/pic/cover/m/62/5a/326809_VMZvq.jpg"
+  },
+  {
+   "id": 326810,
+   "name": "チョコボの不思議なダンジョン 時忘れの迷宮",
+   "nameCN": "陆行鸟的不可思议迷宫 忘却时间的迷宫",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/94/326810_mTdYL.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 283513,
+   "dst": 326809
+  },
+  {
+   "relate": "前传",
+   "src": 326809,
+   "dst": 283513
+  },
+  {
+   "relate": "续集",
+   "src": 326809,
+   "dst": 326810
+  },
+  {
+   "relate": "前传",
+   "src": 326810,
+   "dst": 326809
+  }
+ ]
+}

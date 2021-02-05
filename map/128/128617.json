@@ -1,0 +1,45 @@
+{
+ "id": "128617",
+ "node": [
+  {
+   "id": 128617,
+   "name": "地獄少女",
+   "nameCN": "地狱少女",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/88/128617_gXfQu.jpg"
+  },
+  {
+   "id": 191033,
+   "name": "新・地獄少女",
+   "nameCN": "新・地狱少女",
+   "image": "//lain.bgm.tv/pic/cover/m/8b/c6/191033_X9K76.jpg"
+  },
+  {
+   "id": 191037,
+   "name": "地獄少女R",
+   "nameCN": "地狱少女R",
+   "image": "//lain.bgm.tv/pic/cover/m/78/30/191037_BsB2Z.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 128617,
+   "dst": 191033
+  },
+  {
+   "relate": "前传",
+   "src": 191033,
+   "dst": 128617
+  },
+  {
+   "relate": "续集",
+   "src": 191033,
+   "dst": 191037
+  },
+  {
+   "relate": "前传",
+   "src": 191037,
+   "dst": 191033
+  }
+ ]
+}

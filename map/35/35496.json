@@ -1,0 +1,45 @@
+{
+ "id": "35496",
+ "node": [
+  {
+   "id": 35496,
+   "name": "プロジェクト クロスゾーン",
+   "nameCN": "交叉领域计划",
+   "image": "//lain.bgm.tv/pic/cover/m/ea/68/35496_F48Zz.jpg"
+  },
+  {
+   "id": 72194,
+   "name": "NAMCO x CAPCOM",
+   "nameCN": "南梦宫X卡普空",
+   "image": "//lain.bgm.tv/pic/cover/m/c3/f2/72194_VnXN1.jpg"
+  },
+  {
+   "id": 133715,
+   "name": "プロジェクト クロスゾーン2：ブレイブニューワールド",
+   "nameCN": "交叉领域计划2：美丽新世界",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/0e/133715_u9M7C.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 35496,
+   "dst": 72194
+  },
+  {
+   "relate": "续集",
+   "src": 35496,
+   "dst": 133715
+  },
+  {
+   "relate": "续集",
+   "src": 72194,
+   "dst": 133715
+  },
+  {
+   "relate": "前传",
+   "src": 133715,
+   "dst": 72194
+  }
+ ]
+}

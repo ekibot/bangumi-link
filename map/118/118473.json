@@ -1,0 +1,60 @@
+{
+ "id": "118473",
+ "node": [
+  {
+   "id": 118473,
+   "name": "Sofia the First (Season 1)",
+   "nameCN": "小公主苏菲亚 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/98/4b/118473_tZgZN.jpg"
+  },
+  {
+   "id": 118474,
+   "name": "Sofia the First (Season 2)",
+   "nameCN": "小公主苏菲亚 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/9d/118474_8ubfy.jpg"
+  },
+  {
+   "id": 149647,
+   "name": "Sofia the First (Season 3)",
+   "nameCN": "小公主苏菲亚 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/58/af/149647_05G6W.jpg"
+  },
+  {
+   "id": 323398,
+   "name": "Sofia the First Season 4",
+   "nameCN": "小公主苏菲亚 第四季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 118473,
+   "dst": 118474
+  },
+  {
+   "relate": "前传",
+   "src": 118474,
+   "dst": 118473
+  },
+  {
+   "relate": "续集",
+   "src": 118474,
+   "dst": 149647
+  },
+  {
+   "relate": "前传",
+   "src": 149647,
+   "dst": 118474
+  },
+  {
+   "relate": "续集",
+   "src": 149647,
+   "dst": 323398
+  },
+  {
+   "relate": "前传",
+   "src": 323398,
+   "dst": 149647
+  }
+ ]
+}

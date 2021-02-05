@@ -1,0 +1,45 @@
+{
+ "id": "55683",
+ "node": [
+  {
+   "id": 55683,
+   "name": "ファイアーエムブレム 暗黒竜と光の剣",
+   "nameCN": "火焰之纹章 暗黑龙与光之剑",
+   "image": "//lain.bgm.tv/pic/cover/m/d9/22/55683_UduM2.jpg"
+  },
+  {
+   "id": 55686,
+   "name": "ファイアーエムブレム 紋章の謎",
+   "nameCN": "火焰之纹章 纹章之谜",
+   "image": "//lain.bgm.tv/pic/cover/m/26/b5/55686_878S7.jpg"
+  },
+  {
+   "id": 309939,
+   "name": "BSファイアーエムブレム アカネイア戦記",
+   "nameCN": "火焰之纹章：阿卡内亚大陆战记",
+   "image": "//lain.bgm.tv/pic/cover/m/72/13/309939_jdrac.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 55683,
+   "dst": 55686
+  },
+  {
+   "relate": "前传",
+   "src": 55683,
+   "dst": 309939
+  },
+  {
+   "relate": "前传",
+   "src": 55686,
+   "dst": 55683
+  },
+  {
+   "relate": "续集",
+   "src": 309939,
+   "dst": 55683
+  }
+ ]
+}

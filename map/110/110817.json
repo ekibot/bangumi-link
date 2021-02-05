@@ -1,0 +1,56 @@
+{
+ "id": "110817",
+ "node": [
+  {
+   "id": 110817,
+   "name": "Life is Strange",
+   "nameCN": "奇异人生",
+   "image": "//lain.bgm.tv/pic/cover/m/c2/6b/110817_p472G.jpg"
+  },
+  {
+   "id": 215386,
+   "name": "Life Is Strange: Before the Storm",
+   "nameCN": "奇异人生：暴风前夕",
+   "image": "//lain.bgm.tv/pic/cover/m/b9/b1/215386_1gabx.jpg"
+  },
+  {
+   "id": 238567,
+   "name": "Life is Strange™ - Directors' Commentary",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/c6/bc/238567_p3BbK.jpg"
+  },
+  {
+   "id": 249300,
+   "name": "Life is Strange 2",
+   "nameCN": "奇异人生2",
+   "image": "//lain.bgm.tv/pic/cover/m/66/e6/249300_1R324.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 110817,
+   "dst": 215386
+  },
+  {
+   "relate": "续集",
+   "src": 110817,
+   "dst": 249300
+  },
+  {
+   "relate": "续集",
+   "src": 215386,
+   "dst": 110817
+  },
+  {
+   "relate": "主线故事",
+   "src": 238567,
+   "dst": 110817
+  },
+  {
+   "relate": "前传",
+   "src": 249300,
+   "dst": 110817
+  }
+ ]
+}

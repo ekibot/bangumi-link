@@ -1,0 +1,66 @@
+{
+ "id": "30159",
+ "node": [
+  {
+   "id": 30159,
+   "name": "Darksiders",
+   "nameCN": "暗黑血统",
+   "image": "//lain.bgm.tv/pic/cover/m/9b/fb/30159_77plL.jpg"
+  },
+  {
+   "id": 47120,
+   "name": "Darksiders II",
+   "nameCN": "暗黑血统2",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/d7/47120_G624N.jpg"
+  },
+  {
+   "id": 214374,
+   "name": "Darksiders III",
+   "nameCN": "暗黑血统3",
+   "image": "//lain.bgm.tv/pic/cover/m/bb/8d/214374_XRRvW.jpg"
+  },
+  {
+   "id": 283987,
+   "name": "Darksiders Genesis",
+   "nameCN": "暗黑血统：创世纪",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/0b/283987_L0Uu4.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 30159,
+   "dst": 47120
+  },
+  {
+   "relate": "前传",
+   "src": 47120,
+   "dst": 30159
+  },
+  {
+   "relate": "续集",
+   "src": 47120,
+   "dst": 214374
+  },
+  {
+   "relate": "前传",
+   "src": 214374,
+   "dst": 47120
+  },
+  {
+   "relate": "续集",
+   "src": 214374,
+   "dst": 283987
+  },
+  {
+   "relate": "主线故事",
+   "src": 283987,
+   "dst": 30159
+  },
+  {
+   "relate": "前传",
+   "src": 283987,
+   "dst": 214374
+  }
+ ]
+}

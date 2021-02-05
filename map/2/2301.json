@@ -1,0 +1,45 @@
+{
+ "id": "2301",
+ "node": [
+  {
+   "id": 2301,
+   "name": "Petshop of Horrors",
+   "nameCN": "恐怖宠物店",
+   "image": "//lain.bgm.tv/pic/cover/m/2b/45/2301_N8sss.jpg"
+  },
+  {
+   "id": 57033,
+   "name": "新 Petshop of Horrors",
+   "nameCN": "新 恐怖宠物店",
+   "image": "//lain.bgm.tv/pic/cover/m/50/5e/57033_QIkhQ.jpg"
+  },
+  {
+   "id": 151206,
+   "name": "Petshop of Horrors パサージュ編",
+   "nameCN": "恐怖宠物店 拱廊街篇",
+   "image": "//lain.bgm.tv/pic/cover/m/bd/a7/151206_c6rig.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 2301,
+   "dst": 57033
+  },
+  {
+   "relate": "前传",
+   "src": 57033,
+   "dst": 2301
+  },
+  {
+   "relate": "续集",
+   "src": 57033,
+   "dst": 151206
+  },
+  {
+   "relate": "前传",
+   "src": 151206,
+   "dst": 57033
+  }
+ ]
+}

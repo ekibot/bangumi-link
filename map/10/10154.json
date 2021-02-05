@@ -1,0 +1,45 @@
+{
+ "id": "10154",
+ "node": [
+  {
+   "id": 10154,
+   "name": "初音ミク -Project DIVA- ドリーミーシアター",
+   "nameCN": "初音未来：歌姬计划 梦幻剧场",
+   "image": "//lain.bgm.tv/pic/cover/m/54/96/10154_hBMhB.jpg"
+  },
+  {
+   "id": 23487,
+   "name": "初音ミク -Project DIVA- ドリーミーシアター 2nd",
+   "nameCN": "初音Miku -Project DIVA-梦想剧场2nd",
+   "image": "//lain.bgm.tv/pic/cover/m/98/8e/23487_9MU14.jpg"
+  },
+  {
+   "id": 65739,
+   "name": "初音ミク -Project DIVA- ドリーミーシアターextend",
+   "nameCN": "初音Miku -Project DIVA-梦想剧场EX",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/a4/65739_2x01T.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 10154,
+   "dst": 23487
+  },
+  {
+   "relate": "前传",
+   "src": 23487,
+   "dst": 10154
+  },
+  {
+   "relate": "续集",
+   "src": 23487,
+   "dst": 65739
+  },
+  {
+   "relate": "前传",
+   "src": 65739,
+   "dst": 23487
+  }
+ ]
+}

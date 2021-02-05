@@ -1,0 +1,45 @@
+{
+ "id": "116028",
+ "node": [
+  {
+   "id": 116028,
+   "name": "Guardians of the Galaxy",
+   "nameCN": "银河护卫队",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/c9/116028_5CBXL.jpg"
+  },
+  {
+   "id": 133237,
+   "name": "Guardians of the Galaxy Vol. 2",
+   "nameCN": "银河护卫队2",
+   "image": "//lain.bgm.tv/pic/cover/m/67/f2/133237_W3sH7.jpg"
+  },
+  {
+   "id": 277381,
+   "name": "Guardians of the Galaxy Vol. 3",
+   "nameCN": "银河护卫队3",
+   "image": "//lain.bgm.tv/pic/cover/m/53/2a/277381_keCbR.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 116028,
+   "dst": 133237
+  },
+  {
+   "relate": "前传",
+   "src": 133237,
+   "dst": 116028
+  },
+  {
+   "relate": "续集",
+   "src": 133237,
+   "dst": 277381
+  },
+  {
+   "relate": "前传",
+   "src": 277381,
+   "dst": 133237
+  }
+ ]
+}

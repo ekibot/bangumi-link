@@ -1,0 +1,77 @@
+{
+ "id": "2305",
+ "node": [
+  {
+   "id": 2305,
+   "name": "Gundam Battle Universe",
+   "nameCN": "高达 战斗领域",
+   "image": "//lain.bgm.tv/pic/cover/m/2d/2c/2305_54rr5.jpg"
+  },
+  {
+   "id": 4375,
+   "name": "Gundam Battle Chronicle",
+   "nameCN": "高达战争：编年史",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/6a/4375_R5Rjj.jpg"
+  },
+  {
+   "id": 16818,
+   "name": "Gundam Assault Survive",
+   "nameCN": "高达 生存突击",
+   "image": "//lain.bgm.tv/pic/cover/m/fe/c8/16818_X7VaY.jpg"
+  },
+  {
+   "id": 16819,
+   "name": "Gundam Battle Royale",
+   "nameCN": "高达混战",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/b3/16819_9RrR8.jpg"
+  },
+  {
+   "id": 16820,
+   "name": "Gundam Battle Tactics",
+   "nameCN": "高达策略战",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/18/16820_4kz2S.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 2305,
+   "dst": 4375
+  },
+  {
+   "relate": "续集",
+   "src": 2305,
+   "dst": 16818
+  },
+  {
+   "relate": "续集",
+   "src": 4375,
+   "dst": 2305
+  },
+  {
+   "relate": "前传",
+   "src": 4375,
+   "dst": 16819
+  },
+  {
+   "relate": "前传",
+   "src": 16818,
+   "dst": 2305
+  },
+  {
+   "relate": "续集",
+   "src": 16819,
+   "dst": 4375
+  },
+  {
+   "relate": "前传",
+   "src": 16819,
+   "dst": 16820
+  },
+  {
+   "relate": "续集",
+   "src": 16820,
+   "dst": 16819
+  }
+ ]
+}

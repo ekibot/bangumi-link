@@ -1,0 +1,45 @@
+{
+ "id": "79316",
+ "node": [
+  {
+   "id": 79316,
+   "name": "グレート魔法大作戦",
+   "nameCN": "超级魔法大作战",
+   "image": "//lain.bgm.tv/pic/cover/m/19/22/79316_4A359.jpg"
+  },
+  {
+   "id": 79524,
+   "name": "魔法大作戦",
+   "nameCN": "魔法大作战",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/56/79524_596qS.jpg"
+  },
+  {
+   "id": 79598,
+   "name": "疾風魔法大作戦",
+   "nameCN": "疾风魔法大作战 - 王国大赏",
+   "image": "//lain.bgm.tv/pic/cover/m/b2/76/79598_9F8Tm.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 79316,
+   "dst": 79598
+  },
+  {
+   "relate": "续集",
+   "src": 79524,
+   "dst": 79598
+  },
+  {
+   "relate": "续集",
+   "src": 79598,
+   "dst": 79316
+  },
+  {
+   "relate": "前传",
+   "src": 79598,
+   "dst": 79524
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "165074",
+ "node": [
+  {
+   "id": 165074,
+   "name": "星の金貨",
+   "nameCN": "星之金币",
+   "image": "//lain.bgm.tv/pic/cover/m/34/d6/165074_9797E.jpg"
+  },
+  {
+   "id": 165075,
+   "name": "続・星の金貨",
+   "nameCN": "星之金币续集",
+   "image": "//lain.bgm.tv/pic/cover/m/66/3c/165075_k8b24.jpg"
+  },
+  {
+   "id": 165076,
+   "name": "星の金貨 完結編スペシャル",
+   "nameCN": "星之金币完结篇",
+   "image": "//lain.bgm.tv/pic/cover/m/9b/4c/165076_269O6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 165074,
+   "dst": 165075
+  },
+  {
+   "relate": "前传",
+   "src": 165075,
+   "dst": 165074
+  },
+  {
+   "relate": "续集",
+   "src": 165075,
+   "dst": 165076
+  },
+  {
+   "relate": "前传",
+   "src": 165076,
+   "dst": 165075
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "23099",
+ "node": [
+  {
+   "id": 23099,
+   "name": "ルイージマンション2",
+   "nameCN": "路易吉洋馆2",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/c6/23099_Pm5zB.jpg"
+  },
+  {
+   "id": 68134,
+   "name": "ルイージマンション",
+   "nameCN": "路易吉洋馆",
+   "image": "//lain.bgm.tv/pic/cover/m/28/80/68134_lBzeq.jpg"
+  },
+  {
+   "id": 260604,
+   "name": "ルイージマンション3",
+   "nameCN": "路易吉洋馆3",
+   "image": "//lain.bgm.tv/pic/cover/m/37/6c/260604_Z68wJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 23099,
+   "dst": 68134
+  },
+  {
+   "relate": "续集",
+   "src": 23099,
+   "dst": 260604
+  },
+  {
+   "relate": "续集",
+   "src": 68134,
+   "dst": 23099
+  },
+  {
+   "relate": "前传",
+   "src": 260604,
+   "dst": 23099
+  }
+ ]
+}

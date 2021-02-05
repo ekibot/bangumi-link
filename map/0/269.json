@@ -1,0 +1,77 @@
+{
+ "id": "269",
+ "node": [
+  {
+   "id": 269,
+   "name": "さわるメイドインワリオ",
+   "nameCN": "摸摸瓦里奥制造",
+   "image": "//lain.bgm.tv/pic/cover/m/06/13/269_3F4F4.jpg"
+  },
+  {
+   "id": 24046,
+   "name": "おどる メイド イン ワリオ",
+   "nameCN": "手舞足蹈瓦里奥制造",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/dc/24046_Isc2x.jpg"
+  },
+  {
+   "id": 67937,
+   "name": "メイド イン ワリオ",
+   "nameCN": "瓦力欧制造",
+   "image": "//lain.bgm.tv/pic/cover/m/08/20/67937_fhH2l.jpg"
+  },
+  {
+   "id": 114513,
+   "name": "まわるメイド イン ワリオ",
+   "nameCN": "瓦里奥制造大回转",
+   "image": "//lain.bgm.tv/pic/cover/m/77/66/114513_SoUd8.jpg"
+  },
+  {
+   "id": 114515,
+   "name": "あつまれ!!メイド イン ワリオ",
+   "nameCN": "集合瓦里奥制造",
+   "image": "//lain.bgm.tv/pic/cover/m/ec/59/114515_Wm8FB.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 269,
+   "dst": 24046
+  },
+  {
+   "relate": "前传",
+   "src": 269,
+   "dst": 67937
+  },
+  {
+   "relate": "前传",
+   "src": 24046,
+   "dst": 269
+  },
+  {
+   "relate": "续集",
+   "src": 67937,
+   "dst": 114515
+  },
+  {
+   "relate": "续集",
+   "src": 114513,
+   "dst": 269
+  },
+  {
+   "relate": "前传",
+   "src": 114513,
+   "dst": 114515
+  },
+  {
+   "relate": "前传",
+   "src": 114515,
+   "dst": 67937
+  },
+  {
+   "relate": "续集",
+   "src": 114515,
+   "dst": 114513
+  }
+ ]
+}

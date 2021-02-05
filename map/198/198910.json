@@ -1,0 +1,56 @@
+{
+ "id": "198910",
+ "node": [
+  {
+   "id": 198910,
+   "name": "Justice League Dark",
+   "nameCN": "黑暗正义联盟",
+   "image": "//lain.bgm.tv/pic/cover/m/ff/d5/198910_oCtc3.jpg"
+  },
+  {
+   "id": 270703,
+   "name": "Batman: Hush",
+   "nameCN": "蝙蝠侠：缄默",
+   "image": "//lain.bgm.tv/pic/cover/m/15/9e/270703_KqiD3.jpg"
+  },
+  {
+   "id": 270704,
+   "name": "Wonder Woman: Bloodlines",
+   "nameCN": "神奇女侠：血脉",
+   "image": "//lain.bgm.tv/pic/cover/m/70/bc/270704_hauG5.jpg"
+  },
+  {
+   "id": 301569,
+   "name": "Justice League Dark: Apokolips War",
+   "nameCN": "黑暗正义联盟：天启星战争",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/80/301569_u482p.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 198910,
+   "dst": 301569
+  },
+  {
+   "relate": "续集",
+   "src": 270703,
+   "dst": 270704
+  },
+  {
+   "relate": "前传",
+   "src": 270704,
+   "dst": 270703
+  },
+  {
+   "relate": "续集",
+   "src": 270704,
+   "dst": 301569
+  },
+  {
+   "relate": "前传",
+   "src": 301569,
+   "dst": 198910
+  }
+ ]
+}

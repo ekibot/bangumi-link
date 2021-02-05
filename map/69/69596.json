@@ -1,0 +1,45 @@
+{
+ "id": "69596",
+ "node": [
+  {
+   "id": 69596,
+   "name": "デュエル・マスターズ ビクトリーV3",
+   "nameCN": "决斗大师 Victory V3",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/f2/69596_BZlJ5.jpg"
+  },
+  {
+   "id": 209687,
+   "name": "デュエル・マスターズ ビクトリー",
+   "nameCN": "决斗大师 Victory",
+   "image": "//lain.bgm.tv/pic/cover/m/45/62/209687_tPccY.jpg"
+  },
+  {
+   "id": 293620,
+   "name": "デュエル・マスターズ ビクトリーV",
+   "nameCN": "决斗大师 Victory V",
+   "image": "//lain.bgm.tv/pic/cover/m/66/c1/293620_po5R6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 69596,
+   "dst": 293620
+  },
+  {
+   "relate": "续集",
+   "src": 209687,
+   "dst": 69596
+  },
+  {
+   "relate": "续集",
+   "src": 293620,
+   "dst": 69596
+  },
+  {
+   "relate": "前传",
+   "src": 293620,
+   "dst": 209687
+  }
+ ]
+}

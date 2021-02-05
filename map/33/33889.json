@@ -1,0 +1,45 @@
+{
+ "id": "33889",
+ "node": [
+  {
+   "id": 33889,
+   "name": "式神の城",
+   "nameCN": "式神之城",
+   "image": "//lain.bgm.tv/pic/cover/m/25/28/33889_NR0gr.jpg"
+  },
+  {
+   "id": 33890,
+   "name": "式神の城II",
+   "nameCN": "式神之城2",
+   "image": "//lain.bgm.tv/pic/cover/m/67/2c/33890_5iTgT.jpg"
+  },
+  {
+   "id": 33891,
+   "name": "式神の城III",
+   "nameCN": "式神之城3",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/65/33891_QrbNN.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 33889,
+   "dst": 33890
+  },
+  {
+   "relate": "前传",
+   "src": 33890,
+   "dst": 33889
+  },
+  {
+   "relate": "续集",
+   "src": 33890,
+   "dst": 33891
+  },
+  {
+   "relate": "前传",
+   "src": 33891,
+   "dst": 33890
+  }
+ ]
+}

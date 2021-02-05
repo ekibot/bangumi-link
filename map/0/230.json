@@ -1,0 +1,40 @@
+{
+ "id": "230",
+ "node": [
+  {
+   "id": 230,
+   "name": "Wii Fit",
+   "nameCN": "Wii Fit",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/a9/230_9aGQ6.jpg"
+  },
+  {
+   "id": 75644,
+   "name": "Wii Fit U",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/60/9f/75644_oDr8X.jpg"
+  },
+  {
+   "id": 117639,
+   "name": "Wii Fit Plus",
+   "nameCN": "Wii Fit Plus",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/1b/117639_77NLJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 230,
+   "dst": 75644
+  },
+  {
+   "relate": "前传",
+   "src": 75644,
+   "dst": 230
+  },
+  {
+   "relate": "主线故事",
+   "src": 117639,
+   "dst": 230
+  }
+ ]
+}

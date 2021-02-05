@@ -1,0 +1,45 @@
+{
+ "id": "86803",
+ "node": [
+  {
+   "id": 86803,
+   "name": "ドラゴンボールZ3",
+   "nameCN": "龙珠Z 武道会3",
+   "image": "//lain.bgm.tv/pic/cover/m/87/da/86803_d42wJ.jpg"
+  },
+  {
+   "id": 293918,
+   "name": "ドラゴンボールZ2",
+   "nameCN": "龙珠Z 武道会2",
+   "image": "//lain.bgm.tv/pic/cover/m/77/de/293918_4F564.jpg"
+  },
+  {
+   "id": 293919,
+   "name": "ドラゴンボールZ",
+   "nameCN": "龙珠Z 武道会",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/52/293919_u28bb.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 86803,
+   "dst": 293918
+  },
+  {
+   "relate": "续集",
+   "src": 293918,
+   "dst": 86803
+  },
+  {
+   "relate": "前传",
+   "src": 293918,
+   "dst": 293919
+  },
+  {
+   "relate": "续集",
+   "src": 293919,
+   "dst": 293918
+  }
+ ]
+}

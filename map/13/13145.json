@@ -1,0 +1,51 @@
+{
+ "id": "13145",
+ "node": [
+  {
+   "id": 13145,
+   "name": "Company of Heroes: Tales of Valor",
+   "nameCN": "英雄连：勇气传说",
+   "image": "//lain.bgm.tv/pic/cover/m/9e/f2/13145_mP5r0.jpg"
+  },
+  {
+   "id": 77099,
+   "name": "Company of Heroes 2",
+   "nameCN": "英雄连2",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/85/77099_V29ri.jpg"
+  },
+  {
+   "id": 123711,
+   "name": "Company of Heroes",
+   "nameCN": "英雄连",
+   "image": "//lain.bgm.tv/pic/cover/m/00/9a/123711_WkbPJ.jpg"
+  },
+  {
+   "id": 123712,
+   "name": "Company of Heroes: Opposing Fronts",
+   "nameCN": "英雄连：抵抗前线",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/36/123712_x0izG.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "主线故事",
+   "src": 13145,
+   "dst": 123711
+  },
+  {
+   "relate": "前传",
+   "src": 77099,
+   "dst": 123711
+  },
+  {
+   "relate": "续集",
+   "src": 123711,
+   "dst": 77099
+  },
+  {
+   "relate": "主线故事",
+   "src": 123712,
+   "dst": 123711
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "126537",
+ "node": [
+  {
+   "id": 126537,
+   "name": "Sly Cooper and the Thievius Raccoonus",
+   "image": "//lain.bgm.tv/pic/cover/m/62/3e/126537_7Ty3f.jpg"
+  },
+  {
+   "id": 240794,
+   "name": "Sly 2: Band of Thieves",
+   "nameCN": "狡狐大冒险2",
+   "image": "//lain.bgm.tv/pic/cover/m/be/61/240794_dT3D3.jpg"
+  },
+  {
+   "id": 240795,
+   "name": "Sly 3: Honor Among Thieves",
+   "nameCN": "狡狐大冒险3",
+   "image": "//lain.bgm.tv/pic/cover/m/35/69/240795_4kB4k.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 126537,
+   "dst": 240794
+  },
+  {
+   "relate": "前传",
+   "src": 240794,
+   "dst": 126537
+  },
+  {
+   "relate": "续集",
+   "src": 240794,
+   "dst": 240795
+  },
+  {
+   "relate": "前传",
+   "src": 240795,
+   "dst": 240794
+  }
+ ]
+}

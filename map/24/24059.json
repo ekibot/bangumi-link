@@ -1,0 +1,61 @@
+{
+ "id": "24059",
+ "node": [
+  {
+   "id": 24059,
+   "name": "DARK SOULS",
+   "nameCN": "黑暗之魂",
+   "image": "//lain.bgm.tv/pic/cover/m/ae/4a/24059_00e99.jpg"
+  },
+  {
+   "id": 56427,
+   "name": "DARK SOULS II",
+   "nameCN": "黑暗之魂2",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/51/56427_zC2SF.jpg"
+  },
+  {
+   "id": 124765,
+   "name": "DARK SOULS II: SCHOLAR OF THE FIRST SIN",
+   "nameCN": "黑暗之魂2：原罪学者",
+   "image": "//lain.bgm.tv/pic/cover/m/53/3d/124765_h4a3o.jpg"
+  },
+  {
+   "id": 137442,
+   "name": "DARK SOULS III",
+   "nameCN": "黑暗之魂3",
+   "image": "//lain.bgm.tv/pic/cover/m/68/50/137442_Emx95.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 24059,
+   "dst": 124765
+  },
+  {
+   "relate": "前传",
+   "src": 56427,
+   "dst": 24059
+  },
+  {
+   "relate": "续集",
+   "src": 56427,
+   "dst": 137442
+  },
+  {
+   "relate": "前传",
+   "src": 124765,
+   "dst": 24059
+  },
+  {
+   "relate": "续集",
+   "src": 124765,
+   "dst": 137442
+  },
+  {
+   "relate": "前传",
+   "src": 137442,
+   "dst": 124765
+  }
+ ]
+}

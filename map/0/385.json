@@ -1,0 +1,45 @@
+{
+ "id": "385",
+ "node": [
+  {
+   "id": 385,
+   "name": "ルミナスアーク",
+   "nameCN": "弧光之源",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/91/385_oo105.jpg"
+  },
+  {
+   "id": 984,
+   "name": "ルミナスアーク 2 ウィル",
+   "nameCN": "弧光之源2 意志",
+   "image": "//lain.bgm.tv/pic/cover/m/d9/3e/984_QvB5z.jpg"
+  },
+  {
+   "id": 3240,
+   "name": "ルミナスアーク3 アイズ",
+   "nameCN": "弧光之源3：瞳 / Luminous Arc 3: Eyes",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/54/3240_KrlkV.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 385,
+   "dst": 3240
+  },
+  {
+   "relate": "前传",
+   "src": 984,
+   "dst": 385
+  },
+  {
+   "relate": "续集",
+   "src": 984,
+   "dst": 3240
+  },
+  {
+   "relate": "前传",
+   "src": 3240,
+   "dst": 385
+  }
+ ]
+}

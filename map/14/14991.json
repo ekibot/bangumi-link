@@ -1,0 +1,61 @@
+{
+ "id": "14991",
+ "node": [
+  {
+   "id": 14991,
+   "name": "風雨来記",
+   "nameCN": "风雨来记",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/d6/14991_GBiWd.jpg"
+  },
+  {
+   "id": 14993,
+   "name": "風雨来記2",
+   "nameCN": "风雨来记2",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/83/14993_ga3wJ.jpg"
+  },
+  {
+   "id": 72051,
+   "name": "風雨来記3",
+   "nameCN": "风雨来记3",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/18/72051_mmilP.jpg"
+  },
+  {
+   "id": 323735,
+   "name": "風雨来記4",
+   "nameCN": "风雨来记4",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/2f/323735_zwl5s.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 14991,
+   "dst": 14993
+  },
+  {
+   "relate": "前传",
+   "src": 14993,
+   "dst": 14991
+  },
+  {
+   "relate": "续集",
+   "src": 14993,
+   "dst": 72051
+  },
+  {
+   "relate": "前传",
+   "src": 72051,
+   "dst": 14993
+  },
+  {
+   "relate": "续集",
+   "src": 72051,
+   "dst": 323735
+  },
+  {
+   "relate": "前传",
+   "src": 323735,
+   "dst": 72051
+  }
+ ]
+}

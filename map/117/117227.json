@@ -1,0 +1,45 @@
+{
+ "id": "117227",
+ "node": [
+  {
+   "id": 117227,
+   "name": "正常的大冒险",
+   "nameCN": "正常的大冒险",
+   "image": "//lain.bgm.tv/pic/cover/m/fa/e7/117227_jpLDb.jpg"
+  },
+  {
+   "id": 262498,
+   "name": "奇怪的大冒险",
+   "nameCN": "奇怪的大冒险",
+   "image": "//lain.bgm.tv/pic/cover/m/35/5e/262498_2dos8.jpg"
+  },
+  {
+   "id": 262499,
+   "name": "比较简单的大冒险",
+   "nameCN": "比较简单的大冒险",
+   "image": "//lain.bgm.tv/pic/cover/m/33/49/262499_z1080.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 117227,
+   "dst": 262498
+  },
+  {
+   "relate": "续集",
+   "src": 117227,
+   "dst": 262499
+  },
+  {
+   "relate": "续集",
+   "src": 262498,
+   "dst": 117227
+  },
+  {
+   "relate": "前传",
+   "src": 262499,
+   "dst": 117227
+  }
+ ]
+}

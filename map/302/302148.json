@@ -1,0 +1,44 @@
+{
+ "id": "302148",
+ "node": [
+  {
+   "id": 302148,
+   "name": "Simon",
+   "nameCN": "超人兔",
+   "image": "//lain.bgm.tv/pic/cover/m/57/af/302148_J604p.jpg"
+  },
+  {
+   "id": 302153,
+   "name": "Simon Saison 2",
+   "nameCN": "超人兔 第二季",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 302155,
+   "name": "Simon Saison 3",
+   "nameCN": "超人兔 第三季"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 302148,
+   "dst": 302153
+  },
+  {
+   "relate": "前传",
+   "src": 302153,
+   "dst": 302148
+  },
+  {
+   "relate": "续集",
+   "src": 302153,
+   "dst": 302155
+  },
+  {
+   "relate": "前传",
+   "src": 302155,
+   "dst": 302153
+  }
+ ]
+}

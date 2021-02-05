@@ -1,0 +1,45 @@
+{
+ "id": "4255",
+ "node": [
+  {
+   "id": 4255,
+   "name": "WORKING!!",
+   "nameCN": "迷糊餐厅",
+   "image": "//lain.bgm.tv/pic/cover/m/87/db/4255_jm37v.jpg"
+  },
+  {
+   "id": 20547,
+   "name": "WORKING'!!",
+   "nameCN": "迷糊餐厅 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/59/2b/20547_Fqawr.jpg"
+  },
+  {
+   "id": 110648,
+   "name": "WORKING!!!",
+   "nameCN": "迷糊餐厅 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/59/dc/110648_52R1q.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 4255,
+   "dst": 20547
+  },
+  {
+   "relate": "前传",
+   "src": 20547,
+   "dst": 4255
+  },
+  {
+   "relate": "续集",
+   "src": 20547,
+   "dst": 110648
+  },
+  {
+   "relate": "前传",
+   "src": 110648,
+   "dst": 20547
+  }
+ ]
+}

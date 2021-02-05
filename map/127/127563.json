@@ -1,0 +1,40 @@
+{
+ "id": "127563",
+ "node": [
+  {
+   "id": 127563,
+   "name": "ワンパンマン",
+   "nameCN": "一拳超人",
+   "image": "//lain.bgm.tv/pic/cover/m/8c/a2/127563_nl66u.jpg"
+  },
+  {
+   "id": 147359,
+   "name": "ワンパンマン OAD",
+   "nameCN": "一拳超人 OAD",
+   "image": "//lain.bgm.tv/pic/cover/m/49/aa/147359_bl45Q.jpg"
+  },
+  {
+   "id": 193619,
+   "name": "ワンパンマン 第2期",
+   "nameCN": "一拳超人 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/63/0f/193619_MLNLZ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 127563,
+   "dst": 193619
+  },
+  {
+   "relate": "主线故事",
+   "src": 147359,
+   "dst": 127563
+  },
+  {
+   "relate": "前传",
+   "src": 193619,
+   "dst": 127563
+  }
+ ]
+}

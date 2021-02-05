@@ -1,0 +1,45 @@
+{
+ "id": "7828",
+ "node": [
+  {
+   "id": 7828,
+   "name": "Another Century's Episode 2",
+   "nameCN": "异世纪传说2",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/56/7828_sMXFL.jpg"
+  },
+  {
+   "id": 41200,
+   "name": "Another Century's Episode 3: THE FINAL",
+   "nameCN": "异世纪传说3 THE FINAL",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/81/41200_8QB8e.jpg"
+  },
+  {
+   "id": 192002,
+   "name": "Another Century's Episode",
+   "nameCN": "异世界传说",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/1b/192002_0eOx2.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 7828,
+   "dst": 41200
+  },
+  {
+   "relate": "前传",
+   "src": 7828,
+   "dst": 192002
+  },
+  {
+   "relate": "前传",
+   "src": 41200,
+   "dst": 7828
+  },
+  {
+   "relate": "续集",
+   "src": 192002,
+   "dst": 7828
+  }
+ ]
+}

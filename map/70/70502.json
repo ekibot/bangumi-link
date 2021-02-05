@@ -1,0 +1,45 @@
+{
+ "id": "70502",
+ "node": [
+  {
+   "id": 70502,
+   "name": "Da Vinci's Demons Season 1",
+   "nameCN": "达·芬奇的恶魔 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/c7/4d/70502_LX2na.jpg"
+  },
+  {
+   "id": 75708,
+   "name": "Da Vinci's Demons Season 2",
+   "nameCN": "达·芬奇的恶魔 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/77/83/75708_UVUAn.jpg"
+  },
+  {
+   "id": 150553,
+   "name": "Da Vinci's Demons Season 3",
+   "nameCN": "达·芬奇的恶魔 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/09/f7/150553_sMX52.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 70502,
+   "dst": 75708
+  },
+  {
+   "relate": "前传",
+   "src": 75708,
+   "dst": 70502
+  },
+  {
+   "relate": "续集",
+   "src": 75708,
+   "dst": 150553
+  },
+  {
+   "relate": "前传",
+   "src": 150553,
+   "dst": 75708
+  }
+ ]
+}

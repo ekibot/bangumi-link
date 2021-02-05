@@ -1,0 +1,45 @@
+{
+ "id": "1130",
+ "node": [
+  {
+   "id": 1130,
+   "name": "殻ノ少女",
+   "nameCN": "壳之少女",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 37311,
+   "name": "虚ノ少女",
+   "nameCN": "虚之少女",
+   "image": "//lain.bgm.tv/pic/cover/m/f4/c9/37311_z5tTT.jpg"
+  },
+  {
+   "id": 163041,
+   "name": "天ノ少女",
+   "nameCN": "天之少女",
+   "image": "//lain.bgm.tv/pic/cover/m/56/41/163041_DooLx.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1130,
+   "dst": 37311
+  },
+  {
+   "relate": "前传",
+   "src": 37311,
+   "dst": 1130
+  },
+  {
+   "relate": "续集",
+   "src": 37311,
+   "dst": 163041
+  },
+  {
+   "relate": "前传",
+   "src": 163041,
+   "dst": 1130
+  }
+ ]
+}

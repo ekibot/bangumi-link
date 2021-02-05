@@ -1,0 +1,40 @@
+{
+ "id": "52524",
+ "node": [
+  {
+   "id": 52524,
+   "name": "Shadowrun",
+   "nameCN": "暗影狂奔",
+   "image": "//lain.bgm.tv/pic/cover/m/32/0d/52524_M1AFL.jpg"
+  },
+  {
+   "id": 88626,
+   "name": "Shadowrun Returns",
+   "nameCN": "暗影狂奔 归来",
+   "image": "//lain.bgm.tv/pic/cover/m/83/51/88626_0Ws42.jpg"
+  },
+  {
+   "id": 145331,
+   "name": "Shadowrun: Dragonfall",
+   "nameCN": "暗影狂奔：龙陨",
+   "image": "//lain.bgm.tv/pic/cover/m/b7/08/145331_0iIAz.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 52524,
+   "dst": 88626
+  },
+  {
+   "relate": "前传",
+   "src": 88626,
+   "dst": 52524
+  },
+  {
+   "relate": "主线故事",
+   "src": 145331,
+   "dst": 88626
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "165623",
+ "node": [
+  {
+   "id": 165623,
+   "name": "吃饭睡觉打豆豆",
+   "nameCN": "吃饭睡觉打豆豆",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/21/165623_ZaY79.jpg"
+  },
+  {
+   "id": 165627,
+   "name": "吃饭睡觉打豆豆 第二季 豆特么黑",
+   "nameCN": "吃饭睡觉打豆豆 第二季 豆特么黑",
+   "image": "//lain.bgm.tv/pic/cover/m/bf/7a/165627_LelzL.jpg"
+  },
+  {
+   "id": 165629,
+   "name": "吃饭睡觉打豆豆 第三季 神经豆",
+   "nameCN": "吃饭睡觉打豆豆 第三季 神经豆",
+   "image": "//lain.bgm.tv/pic/cover/m/28/8e/165629_Ih0fO.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 165623,
+   "dst": 165627
+  },
+  {
+   "relate": "前传",
+   "src": 165627,
+   "dst": 165623
+  },
+  {
+   "relate": "续集",
+   "src": 165627,
+   "dst": 165629
+  },
+  {
+   "relate": "前传",
+   "src": 165629,
+   "dst": 165627
+  }
+ ]
+}

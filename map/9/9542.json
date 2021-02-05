@@ -1,0 +1,45 @@
+{
+ "id": "9542",
+ "node": [
+  {
+   "id": 9542,
+   "name": "Knights Of Valour",
+   "nameCN": "三国战纪",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/da/9542_58ITg.jpg"
+  },
+  {
+   "id": 79715,
+   "name": "Knights of Valour 2",
+   "nameCN": "三国战纪2",
+   "image": "//lain.bgm.tv/pic/cover/m/b4/38/79715_iuWIF.jpg"
+  },
+  {
+   "id": 262212,
+   "name": "新·三国戦紀 七星転生",
+   "nameCN": "新三国战纪 七星转生",
+   "image": "//lain.bgm.tv/pic/cover/m/21/30/262212_9QneU.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 9542,
+   "dst": 79715
+  },
+  {
+   "relate": "前传",
+   "src": 79715,
+   "dst": 9542
+  },
+  {
+   "relate": "续集",
+   "src": 79715,
+   "dst": 262212
+  },
+  {
+   "relate": "前传",
+   "src": 262212,
+   "dst": 79715
+  }
+ ]
+}

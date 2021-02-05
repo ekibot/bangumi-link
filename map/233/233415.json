@@ -1,0 +1,45 @@
+{
+ "id": "233415",
+ "node": [
+  {
+   "id": 233415,
+   "name": "9-1-1",
+   "nameCN": "紧急呼救",
+   "image": "//lain.bgm.tv/pic/cover/m/73/30/233415_Vg3Gm.jpg"
+  },
+  {
+   "id": 309057,
+   "name": "9-1-1 Season 2",
+   "nameCN": "紧急呼救 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/a0/309057_K8HOq.jpg"
+  },
+  {
+   "id": 309329,
+   "name": "9-1-1 Season 3",
+   "nameCN": "紧急呼救 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/03/87/309329_VCpzE.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 233415,
+   "dst": 309057
+  },
+  {
+   "relate": "前传",
+   "src": 309057,
+   "dst": 233415
+  },
+  {
+   "relate": "续集",
+   "src": 309057,
+   "dst": 309329
+  },
+  {
+   "relate": "前传",
+   "src": 309329,
+   "dst": 309057
+  }
+ ]
+}

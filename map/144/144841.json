@@ -1,0 +1,45 @@
+{
+ "id": "144841",
+ "node": [
+  {
+   "id": 144841,
+   "name": "イタズラなKiss THE MOVIE Part1 ハイスクール編",
+   "nameCN": "恶作剧之吻 THE MOVIE ~高中篇~",
+   "image": "//lain.bgm.tv/pic/cover/m/2e/50/144841_5Cz0u.jpg"
+  },
+  {
+   "id": 211662,
+   "name": "イタズラなKiss THE MOVIE Part2 キャンパス編",
+   "nameCN": "一吻定情电影版2：大学篇",
+   "image": "//lain.bgm.tv/pic/cover/m/81/d8/211662_ICifF.jpg"
+  },
+  {
+   "id": 229800,
+   "name": "イタズラなKiss THE MOVIE プロポーズ編",
+   "nameCN": "一吻定情电影版3：求婚篇",
+   "image": "//lain.bgm.tv/pic/cover/m/8b/fd/229800_lb5Z8.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 144841,
+   "dst": 211662
+  },
+  {
+   "relate": "前传",
+   "src": 211662,
+   "dst": 144841
+  },
+  {
+   "relate": "续集",
+   "src": 211662,
+   "dst": 229800
+  },
+  {
+   "relate": "前传",
+   "src": 229800,
+   "dst": 211662
+  }
+ ]
+}

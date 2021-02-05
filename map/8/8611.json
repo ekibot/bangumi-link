@@ -1,0 +1,45 @@
+{
+ "id": "8611",
+ "node": [
+  {
+   "id": 8611,
+   "name": "Mafia II",
+   "nameCN": "黑手党2",
+   "image": "//lain.bgm.tv/pic/cover/m/08/b7/8611_r11Mu.jpg"
+  },
+  {
+   "id": 107715,
+   "name": "Mafia: The City of Lost Heaven",
+   "nameCN": "黑手党",
+   "image": "//lain.bgm.tv/pic/cover/m/32/4a/107715_Q1mdd.jpg"
+  },
+  {
+   "id": 142714,
+   "name": "Mafia III",
+   "nameCN": "黑手党3",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/b7/142714_tKtlz.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 8611,
+   "dst": 107715
+  },
+  {
+   "relate": "续集",
+   "src": 8611,
+   "dst": 142714
+  },
+  {
+   "relate": "续集",
+   "src": 107715,
+   "dst": 8611
+  },
+  {
+   "relate": "前传",
+   "src": 142714,
+   "dst": 8611
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "130006",
+ "node": [
+  {
+   "id": 259611,
+   "name": "DOUBLE DRAGON",
+   "nameCN": "双截龙",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/17/259611_wR36R.jpg"
+  },
+  {
+   "id": 259613,
+   "name": "DOUBLE DRAGON II The Revenge",
+   "nameCN": "双截龙II",
+   "image": "//lain.bgm.tv/pic/cover/m/14/0f/259613_66jTz.jpg"
+  },
+  {
+   "id": 259614,
+   "name": "DOUBLE DRAGON 3 The Rosetta Stone",
+   "nameCN": "双截龙3",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/f9/259614_3Mbbo.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 259611,
+   "dst": 259613
+  },
+  {
+   "relate": "前传",
+   "src": 259613,
+   "dst": 259611
+  },
+  {
+   "relate": "续集",
+   "src": 259613,
+   "dst": 259614
+  },
+  {
+   "relate": "前传",
+   "src": 259614,
+   "dst": 259613
+  }
+ ]
+}

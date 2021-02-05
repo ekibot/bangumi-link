@@ -1,0 +1,61 @@
+{
+ "id": "79610",
+ "node": [
+  {
+   "id": 121809,
+   "name": "Streets of Rage 2",
+   "nameCN": "怒之铁拳2",
+   "image": "//lain.bgm.tv/pic/cover/m/85/ed/79610_A8PvK.jpg"
+  },
+  {
+   "id": 259095,
+   "name": "ベア・ナックル 怒りの鉄拳",
+   "nameCN": "怒之铁拳",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/9c/259095_hhnnz.jpg"
+  },
+  {
+   "id": 259096,
+   "name": "ベア・ナックルIII",
+   "nameCN": "怒之铁拳3",
+   "image": "//lain.bgm.tv/pic/cover/m/cf/2c/259096_t4NT9.jpg"
+  },
+  {
+   "id": 259117,
+   "name": "Streets of Rage 4",
+   "nameCN": "怒之铁拳4",
+   "image": "//lain.bgm.tv/pic/cover/m/14/d3/259117_vi4T8.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 121809,
+   "dst": 259095
+  },
+  {
+   "relate": "续集",
+   "src": 121809,
+   "dst": 259096
+  },
+  {
+   "relate": "续集",
+   "src": 259095,
+   "dst": 121809
+  },
+  {
+   "relate": "前传",
+   "src": 259096,
+   "dst": 121809
+  },
+  {
+   "relate": "续集",
+   "src": 259096,
+   "dst": 259117
+  },
+  {
+   "relate": "前传",
+   "src": 259117,
+   "dst": 259096
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "50952",
+ "node": [
+  {
+   "id": 50952,
+   "name": "封神紀",
+   "nameCN": "封神纪Ⅰ",
+   "image": "//lain.bgm.tv/pic/cover/m/02/c1/77230_Z7zOW.jpg"
+  },
+  {
+   "id": 77234,
+   "name": "封神紀Ⅱ",
+   "nameCN": "封神纪Ⅱ",
+   "image": "//lain.bgm.tv/pic/cover/m/17/3a/77234_5522r.jpg"
+  },
+  {
+   "id": 77284,
+   "name": "封神紀Ⅲ",
+   "nameCN": "封神纪Ⅲ",
+   "image": "//lain.bgm.tv/pic/cover/m/23/0f/77284_5mVmm.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 50952,
+   "dst": 77234
+  },
+  {
+   "relate": "前传",
+   "src": 77234,
+   "dst": 50952
+  },
+  {
+   "relate": "续集",
+   "src": 77234,
+   "dst": 77284
+  },
+  {
+   "relate": "前传",
+   "src": 77284,
+   "dst": 77234
+  }
+ ]
+}

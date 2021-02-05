@@ -1,0 +1,59 @@
+{
+ "id": "107460",
+ "node": [
+  {
+   "id": 107460,
+   "name": "最終戦争伝説",
+   "nameCN": "圣战女神",
+   "image": "//lain.bgm.tv/pic/cover/m/47/4c/107460_Da0PH.jpg"
+  },
+  {
+   "id": 159830,
+   "name": "十蘭―最終戦争シリーズ1",
+   "image": "//lain.bgm.tv/pic/cover/m/08/4e/159830_YsnU6.jpg"
+  },
+  {
+   "id": 159832,
+   "name": "峡―最終戦争シリーズ2",
+   "image": "//lain.bgm.tv/pic/cover/m/ab/ca/159832_vaL4l.jpg"
+  },
+  {
+   "id": 159833,
+   "name": "風の智天使",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/72/6c/159833_xfIEM.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 107460,
+   "dst": 159833
+  },
+  {
+   "relate": "续集",
+   "src": 159830,
+   "dst": 159832
+  },
+  {
+   "relate": "前传",
+   "src": 159832,
+   "dst": 159830
+  },
+  {
+   "relate": "续集",
+   "src": 159832,
+   "dst": 159833
+  },
+  {
+   "relate": "续集",
+   "src": 159833,
+   "dst": 107460
+  },
+  {
+   "relate": "前传",
+   "src": 159833,
+   "dst": 159832
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "247425",
+ "node": [
+  {
+   "id": 247425,
+   "name": "吃鸡大作战",
+   "nameCN": "吃鸡大作战",
+   "image": "//lain.bgm.tv/pic/cover/m/96/1b/247425_9BkB6.jpg"
+  },
+  {
+   "id": 311777,
+   "name": "吃鸡大作战 第2季 沙岛生存大挑战",
+   "nameCN": "吃鸡大作战 第二季 沙岛生存大挑战",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/49/311777_sBBbD.jpg"
+  },
+  {
+   "id": 311778,
+   "name": "吃鸡大作战 第3季 冰天雪地大挑战",
+   "nameCN": "吃鸡大作战 第三季 冰天雪地大挑战",
+   "image": "//lain.bgm.tv/pic/cover/m/70/71/311778_RsEWX.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 247425,
+   "dst": 311777
+  },
+  {
+   "relate": "前传",
+   "src": 311777,
+   "dst": 247425
+  },
+  {
+   "relate": "续集",
+   "src": 311777,
+   "dst": 311778
+  },
+  {
+   "relate": "前传",
+   "src": 311778,
+   "dst": 311777
+  }
+ ]
+}

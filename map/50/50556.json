@@ -1,0 +1,45 @@
+{
+ "id": "50556",
+ "node": [
+  {
+   "id": 50556,
+   "name": "Warlords Battlecry",
+   "nameCN": "呼啸战神",
+   "image": "//lain.bgm.tv/pic/cover/m/09/cf/50556_280t0.jpg"
+  },
+  {
+   "id": 50557,
+   "name": "Warlords Battlecry II",
+   "nameCN": "呼啸战神2",
+   "image": "//lain.bgm.tv/pic/cover/m/34/aa/50557_AQM1X.jpg"
+  },
+  {
+   "id": 293889,
+   "name": "Warlords Battlecry III",
+   "nameCN": "呼啸战神3",
+   "image": "//lain.bgm.tv/pic/cover/m/48/d2/293889_ZyyvS.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 50556,
+   "dst": 50557
+  },
+  {
+   "relate": "前传",
+   "src": 50557,
+   "dst": 50556
+  },
+  {
+   "relate": "续集",
+   "src": 50557,
+   "dst": 293889
+  },
+  {
+   "relate": "前传",
+   "src": 293889,
+   "dst": 50557
+  }
+ ]
+}

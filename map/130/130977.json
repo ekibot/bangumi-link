@@ -1,0 +1,45 @@
+{
+ "id": "130977",
+ "node": [
+  {
+   "id": 130977,
+   "name": "Bloodline (Season 1)",
+   "nameCN": "血脉 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/5f/2a/130977_eFOzj.jpg"
+  },
+  {
+   "id": 212032,
+   "name": "Bloodline (Season 2)",
+   "nameCN": "血脉 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/03/212032_iWy3u.jpg"
+  },
+  {
+   "id": 242621,
+   "name": "Bloodline (Season 3)",
+   "nameCN": "血脉 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/af/3b/242621_K53Jz.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 130977,
+   "dst": 212032
+  },
+  {
+   "relate": "前传",
+   "src": 212032,
+   "dst": 130977
+  },
+  {
+   "relate": "续集",
+   "src": 212032,
+   "dst": 242621
+  },
+  {
+   "relate": "前传",
+   "src": 242621,
+   "dst": 212032
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "3189",
+ "node": [
+  {
+   "id": 3189,
+   "name": "Torchlight",
+   "nameCN": "火炬之光",
+   "image": "//lain.bgm.tv/pic/cover/m/88/32/3189_LLl74.jpg"
+  },
+  {
+   "id": 40387,
+   "name": "Torchlight II",
+   "nameCN": "火炬之光 2",
+   "image": "//lain.bgm.tv/pic/cover/m/61/a5/40387_BwNb1.jpg"
+  },
+  {
+   "id": 299201,
+   "name": "Torchlight III",
+   "nameCN": "火炬之光3",
+   "image": "//lain.bgm.tv/pic/cover/m/35/e1/299201_IY3me.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 3189,
+   "dst": 40387
+  },
+  {
+   "relate": "前传",
+   "src": 40387,
+   "dst": 3189
+  },
+  {
+   "relate": "续集",
+   "src": 40387,
+   "dst": 299201
+  },
+  {
+   "relate": "前传",
+   "src": 299201,
+   "dst": 40387
+  }
+ ]
+}

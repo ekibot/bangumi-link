@@ -1,0 +1,61 @@
+{
+ "id": "1703",
+ "node": [
+  {
+   "id": 1703,
+   "name": "純情ロマンチカ",
+   "nameCN": "纯情罗曼史",
+   "image": "//lain.bgm.tv/pic/cover/m/37/5c/1703_NblJp.jpg"
+  },
+  {
+   "id": 49598,
+   "name": "純情ロマンチカ2",
+   "nameCN": "纯情罗曼史2",
+   "image": "//lain.bgm.tv/pic/cover/m/89/73/49598_4Fc4U.jpg"
+  },
+  {
+   "id": 58245,
+   "name": "純情ロマンチカ OAD",
+   "nameCN": "纯情罗曼史 OAD",
+   "image": "//lain.bgm.tv/pic/cover/m/be/ac/58245_hOLnz.jpg"
+  },
+  {
+   "id": 109541,
+   "name": "純情ロマンチカ3",
+   "nameCN": "纯情罗曼史3",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/9d/109541_0g022.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1703,
+   "dst": 49598
+  },
+  {
+   "relate": "前传",
+   "src": 49598,
+   "dst": 1703
+  },
+  {
+   "relate": "续集",
+   "src": 49598,
+   "dst": 109541
+  },
+  {
+   "relate": "前传",
+   "src": 58245,
+   "dst": 109541
+  },
+  {
+   "relate": "前传",
+   "src": 109541,
+   "dst": 49598
+  },
+  {
+   "relate": "续集",
+   "src": 109541,
+   "dst": 58245
+  }
+ ]
+}

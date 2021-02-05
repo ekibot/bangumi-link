@@ -1,0 +1,56 @@
+{
+ "id": "61213",
+ "node": [
+  {
+   "id": 61213,
+   "name": "Hotel Transylvania",
+   "nameCN": "精灵旅社",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/bd/61213_4IbNf.jpg"
+  },
+  {
+   "id": 119034,
+   "name": "Hotel Transylvania 2",
+   "nameCN": "精灵旅社2",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/99/119034_LiAGt.jpg"
+  },
+  {
+   "id": 162158,
+   "name": "Goodnight, Mr. Foot",
+   "nameCN": "晚安，脚先生",
+   "image": "//lain.bgm.tv/pic/cover/m/47/8c/162158_KLkZM.jpg"
+  },
+  {
+   "id": 178606,
+   "name": "Hotel Transylvania 3: Summer Vacation",
+   "nameCN": "精灵旅社3：疯狂假期",
+   "image": "//lain.bgm.tv/pic/cover/m/84/98/178606_r6dek.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 61213,
+   "dst": 119034
+  },
+  {
+   "relate": "前传",
+   "src": 119034,
+   "dst": 61213
+  },
+  {
+   "relate": "续集",
+   "src": 119034,
+   "dst": 178606
+  },
+  {
+   "relate": "主线故事",
+   "src": 162158,
+   "dst": 61213
+  },
+  {
+   "relate": "前传",
+   "src": 178606,
+   "dst": 119034
+  }
+ ]
+}

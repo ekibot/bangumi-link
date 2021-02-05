@@ -1,0 +1,56 @@
+{
+ "id": "30322",
+ "node": [
+  {
+   "id": 30322,
+   "name": "ストロベリーナイト",
+   "nameCN": "草莓之夜",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/c5/30322_QnoKf.jpg"
+  },
+  {
+   "id": 49880,
+   "name": "ストロベリーナイト",
+   "nameCN": "草莓之夜 试播版",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/1e/49880_DSRRj.jpg"
+  },
+  {
+   "id": 49881,
+   "name": "映画 ストロベリーナイト",
+   "nameCN": "草莓之夜 电影版",
+   "image": "//lain.bgm.tv/pic/cover/m/c7/4f/49881_i3pp9.jpg"
+  },
+  {
+   "id": 62768,
+   "name": "ストロベリーナイト アフター・ザ・インビジブル・レイン",
+   "nameCN": "草莓之夜：隐形之雨过后",
+   "image": "//lain.bgm.tv/pic/cover/m/57/15/62768_6J353.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 30322,
+   "dst": 49880
+  },
+  {
+   "relate": "续集",
+   "src": 30322,
+   "dst": 49881
+  },
+  {
+   "relate": "续集",
+   "src": 49880,
+   "dst": 30322
+  },
+  {
+   "relate": "前传",
+   "src": 49881,
+   "dst": 30322
+  },
+  {
+   "relate": "主线故事",
+   "src": 62768,
+   "dst": 49881
+  }
+ ]
+}

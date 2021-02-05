@@ -1,0 +1,45 @@
+{
+ "id": "175513",
+ "node": [
+  {
+   "id": 175513,
+   "name": "Samorost 3",
+   "nameCN": "银河历险记 3",
+   "image": "//lain.bgm.tv/pic/cover/m/59/10/175513_5w49e.jpg"
+  },
+  {
+   "id": 208821,
+   "name": "Samorost",
+   "nameCN": "银河历险记",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/c3/208821_gW0l6.jpg"
+  },
+  {
+   "id": 208823,
+   "name": "Samorost 2",
+   "nameCN": "银河历险记2",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/9c/208823_TXX0G.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 175513,
+   "dst": 208823
+  },
+  {
+   "relate": "续集",
+   "src": 208821,
+   "dst": 208823
+  },
+  {
+   "relate": "续集",
+   "src": 208823,
+   "dst": 175513
+  },
+  {
+   "relate": "前传",
+   "src": 208823,
+   "dst": 208821
+  }
+ ]
+}

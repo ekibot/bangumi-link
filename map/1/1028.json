@@ -1,0 +1,45 @@
+{
+ "id": "1028",
+ "node": [
+  {
+   "id": 1028,
+   "name": "舞-乙HiME",
+   "nameCN": "舞-乙HiME",
+   "image": "//lain.bgm.tv/pic/cover/m/38/06/1028_Hb7JP.jpg"
+  },
+  {
+   "id": 3944,
+   "name": "舞-乙HiME Zwei",
+   "nameCN": "舞-乙HiME Zwei",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/fe/3944_U4898.jpg"
+  },
+  {
+   "id": 3948,
+   "name": "舞-乙HiME 0 ~S.ifr~",
+   "nameCN": "舞-乙HiME 0～S.ifr～",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/f1/3948_Cem55.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1028,
+   "dst": 3944
+  },
+  {
+   "relate": "前传",
+   "src": 1028,
+   "dst": 3948
+  },
+  {
+   "relate": "前传",
+   "src": 3944,
+   "dst": 1028
+  },
+  {
+   "relate": "续集",
+   "src": 3948,
+   "dst": 1028
+  }
+ ]
+}

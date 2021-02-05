@@ -1,0 +1,83 @@
+{
+ "id": "1446",
+ "node": [
+  {
+   "id": 1446,
+   "name": "Killzone 2",
+   "nameCN": "杀戮地带2",
+   "image": "//lain.bgm.tv/pic/cover/m/8f/b2/1446_5bbo0.jpg"
+  },
+  {
+   "id": 13266,
+   "name": "Killzone 3",
+   "nameCN": "杀戮地带3",
+   "image": "//lain.bgm.tv/pic/cover/m/10/a9/13266_uB8Av.jpg"
+  },
+  {
+   "id": 63034,
+   "name": "Killzone Mercenary",
+   "nameCN": "杀戮地带 雇佣兵",
+   "image": "//lain.bgm.tv/pic/cover/m/2b/b9/63034_0iz0w.jpg"
+  },
+  {
+   "id": 65495,
+   "name": "Killzone: Shadow Fall",
+   "nameCN": "杀戮地带：暗影坠落",
+   "image": "//lain.bgm.tv/pic/cover/m/2c/33/65495_7nK5R.jpg"
+  },
+  {
+   "id": 83108,
+   "name": "Killzone: Liberation",
+   "nameCN": "杀戮地带:解放",
+   "image": "//lain.bgm.tv/pic/cover/m/47/2d/83108_kt7xH.jpg"
+  },
+  {
+   "id": 86732,
+   "name": "Killzone",
+   "nameCN": "杀戮地带",
+   "image": "//lain.bgm.tv/pic/cover/m/48/af/86732_AfFfJ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 1446,
+   "dst": 13266
+  },
+  {
+   "relate": "前传",
+   "src": 1446,
+   "dst": 86732
+  },
+  {
+   "relate": "前传",
+   "src": 13266,
+   "dst": 1446
+  },
+  {
+   "relate": "续集",
+   "src": 13266,
+   "dst": 65495
+  },
+  {
+   "relate": "主线故事",
+   "src": 63034,
+   "dst": 65495
+  },
+  {
+   "relate": "前传",
+   "src": 65495,
+   "dst": 13266
+  },
+  {
+   "relate": "主线故事",
+   "src": 83108,
+   "dst": 86732
+  },
+  {
+   "relate": "续集",
+   "src": 86732,
+   "dst": 1446
+  }
+ ]
+}

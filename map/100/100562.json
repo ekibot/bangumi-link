@@ -1,0 +1,45 @@
+{
+ "id": "100562",
+ "node": [
+  {
+   "id": 100562,
+   "name": "功夫兔系列1：少林兔与武当狗",
+   "nameCN": "少林兔与武当狗",
+   "image": "//lain.bgm.tv/pic/cover/m/e1/af/100562_QQ1PN.jpg"
+  },
+  {
+   "id": 100563,
+   "name": "功夫兔系列2：兔子哪里跑",
+   "nameCN": "兔子哪里跑",
+   "image": "//lain.bgm.tv/pic/cover/m/23/05/100563_c8G0s.jpg"
+  },
+  {
+   "id": 100564,
+   "name": "功夫兔系列3：菜包狗大反击",
+   "nameCN": "菜包狗大反击",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/6c/100564_ykvJ6.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 100562,
+   "dst": 100563
+  },
+  {
+   "relate": "前传",
+   "src": 100563,
+   "dst": 100562
+  },
+  {
+   "relate": "续集",
+   "src": 100563,
+   "dst": 100564
+  },
+  {
+   "relate": "前传",
+   "src": 100564,
+   "dst": 100563
+  }
+ ]
+}

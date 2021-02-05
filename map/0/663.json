@@ -1,0 +1,61 @@
+{
+ "id": "663",
+ "node": [
+  {
+   "id": 663,
+   "name": "Call of Juarez",
+   "nameCN": "狂野西部",
+   "image": "//lain.bgm.tv/pic/cover/m/87/57/663_zvgj5.jpg"
+  },
+  {
+   "id": 49273,
+   "name": "Call of Juarez: Bound in Blood",
+   "nameCN": "狂野西部之生死同盟",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/05/49273_LTSeU.jpg"
+  },
+  {
+   "id": 49274,
+   "name": "Call of Juarez: The Cartel",
+   "nameCN": "狂野西部之毒枭",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/bf/49274_ZK2f9.jpg"
+  },
+  {
+   "id": 74223,
+   "name": "Call of Juarez: Gunslinger",
+   "nameCN": "狂野西部：枪手",
+   "image": "//lain.bgm.tv/pic/cover/m/99/74/74223_mComg.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 663,
+   "dst": 49273
+  },
+  {
+   "relate": "前传",
+   "src": 49273,
+   "dst": 663
+  },
+  {
+   "relate": "续集",
+   "src": 49273,
+   "dst": 49274
+  },
+  {
+   "relate": "前传",
+   "src": 49274,
+   "dst": 49273
+  },
+  {
+   "relate": "续集",
+   "src": 49274,
+   "dst": 74223
+  },
+  {
+   "relate": "前传",
+   "src": 74223,
+   "dst": 49274
+  }
+ ]
+}
