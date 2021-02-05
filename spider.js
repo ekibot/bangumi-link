@@ -61,7 +61,7 @@ async function getSubject(bgmId) {
     id: srcId,
     name: title.text(),
     nameCN: title.attr("title"),
-    image: $("div.infobox img.cover").attr("src").replace("/cover/c/", "/cover/m/"),
+    image: ($("div.infobox img.cover").attr("src") || "").replace("/cover/c/", "/cover/m/") || undefined,
     relate: relateSubject,
   }
 }
