@@ -36,19 +36,27 @@ jobs:
         git config --local user.name "ekibot"
         time=$(date "+%Y%m%d%H%M%S")
         git add . -v
+        set +e
         git commit -m "Update at ${time}"
-        git tag "${time}"
-        sha=$(git rev-parse HEAD)
-        echo ::set-output name=time::$time
-        echo ::set-output name=sha::$sha
+        cmt=$?
+        set -e
+        if [ $cmt -eq 0 ]; then
+          git tag "${time}"
+          sha=$(git rev-parse HEAD)
+          echo ::set-output name=time::$time
+          echo ::set-output name=sha::$sha
+        fi
+        echo ::set-output name=cmt::$cmt
     - name: Push changes
       uses: ad-m/github-push-action@master
+      if: ${{ steps.commit.outputs.sha }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         tags: true
         directory: data
     - name: Create Release
       uses: actions/create-release@v1
+      if: ${{ steps.commit.outputs.sha }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
