@@ -21,5 +21,5 @@ https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/node/{id/1000}/{id}
 
 再根据map id获取关联数据:
 ```
-https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/map/{id/1000}/{id}
+https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/map/{id/1000}/{id}.json
 ```
