@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE="
+        crossorigin="anonymous">
+  <style>
+    #search .btn:not(.active) {
+      background-color: grey;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container" id="search">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">
+        输入bgm对应的条目链接
+      </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">链接</span>
+      </div>
+      <input type="text" class="form-control"
+             id="url"
+             placeholder="URL" aria-label="URL"
+             aria-describedby="basic-addon1">
+      <div class="input-group-prepend">
+        <button class="form-control btn-primary" id="btn">GO!</button>
+      </div>
+    </div>
+    <!-- div class="btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="checkbox" checked autocomplete="off" value="Book"> Book
+      </label>
+    </div>
+    <div class="btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="checkbox" checked autocomplete="off" value="Game"> Game
+      </label>
+    </div>
+    <div class="btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="checkbox" checked autocomplete="off" value="Real"> Real
+      </label>
+    </div>
+    <div class="btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="checkbox" checked autocomplete="off" value="Anime"> Anime
+      </label>
+    </div -->
+  </div>
+  <!-- Content here -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous">
+</script>
+<script>
+
+
+  $('#btn').click(function () {
+    let param = {}
+    $('label.btn:not(.active) input').each(function (i, el) {
+      param[$(el).val()] = false
+    })
+    console.log(param)
+    console.log($.param(param))
+    // {#return#}
+    let url = $('#url').val()
+    if (url) {
+      url = url.split('/')
+      let subject_id = url[url.length - 1]
+      let href = './subject.html?subject=' + subject_id
+      console.log(href)
+      location.href = href
+    }
+  })
+
+</script>
+
+</body>
+</html>

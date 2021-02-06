@@ -1,0 +1,339 @@
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <title>Force</title>
+</head>
+
+<style>
+  body,
+  svg {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    float: left;
+  }
+
+  [data-visible="false"] {
+    display: none;
+  }
+
+  path {
+    fill: none;
+    stroke-linejoin: round;
+  }
+
+  .land-glow {
+    fill: #000;
+    fill-opacity: .2;
+    filter: url(#glow);
+  }
+
+  .land-fill {
+    fill: #fff;
+  }
+
+  .state-boundary {
+    stroke: #777;
+    stroke-width: .70px;
+  }
+
+  .land-fill,
+  .county-boundary {
+    stroke: #777;
+    stroke-width: .35px;
+  }
+
+  .nodetext {
+    font-size: 12px;
+    font-family: SimSun;
+    fill: #000000;
+  }
+
+  .linetext {
+    font-size: 12px;
+    font-family: SimSun;
+    fill: #0000FF;
+    fill-opacity: 0.0;
+  }
+</style>
+
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+  <!-- {#<script src="/static/d3.v3.js"></script>#} -->
+  <script>
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == variable) { return pair[1]; }
+      }
+      return (false);
+    }
+
+    var img_w = 50
+    var img_h = 50
+    var width = window.innerWidth * 3
+    var height = window.innerHeight * 3
+    let isMouseDown = false
+    let viewBox_width = window.innerWidth
+    let viewBox_x = viewBox_width
+    let viewBox_height = window.innerHeight
+    let viewBox_y = viewBox_height
+    let mousePos_x
+    let mousePos_y
+    let oldScale = 1.0
+    let curPos_x = width / 2
+    let curPos_y = height / 2
+
+    var svg = d3.select('body').append('svg')
+      .attr('width', width * 3)
+      .attr('height', height * 3)
+      .attr('viewBox', `${viewBox_width} ${viewBox_height} ${viewBox_width} ${viewBox_height}`)
+      .on('mousedown', function () {
+        if (d3.event.target.nodeName !== 'svg') {
+          return
+        }
+        isMouseDown = true
+        mousePos_x = d3.mouse(this)[0]
+        mousePos_y = d3.mouse(this)[1]
+      })
+      .on('mouseup', function () {
+        if (d3.event.target.nodeName !== 'svg') {
+          return
+        }
+        isMouseDown = false
+        viewBox_x = viewBox_x - d3.mouse(this)[0] + mousePos_x
+        viewBox_y = viewBox_y - d3.mouse(this)[1] + mousePos_y
+        svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
+      })
+
+      .on('mousemove', function () {
+        curPos_x = d3.mouse(this)[0]
+        curPos_y = d3.mouse(this)[1]
+        if (d3.event.target.nodeName !== 'svg') {
+          return
+        }
+        if (isMouseDown) {
+          viewBox_x = viewBox_x - d3.mouse(this)[0] + mousePos_x
+          viewBox_y = viewBox_y - d3.mouse(this)[1] + mousePos_y
+          svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
+        }
+      })
+      .call(d3.behavior.zoom()
+        .scaleExtent([0.1, 10])
+        .on('zoom', function () {
+          if (d3.event.sourceEvent) {
+            if (oldScale !== d3.event.scale) {
+              var scale = oldScale / d3.event.scale
+              oldScale = d3.event.scale
+              viewBox_x = curPos_x - scale * (curPos_x - viewBox_x)
+              viewBox_y = curPos_y - scale * (curPos_y - viewBox_y)
+              svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
+            }
+          }
+        }))
+    d3.select('svg').on('dblclick.zoom', null)
+    var force = d3.layout.force()
+      .size([width, height])
+
+
+    const _subject_id = getQueryVariable("subject");
+    d3.text(`https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/node/${(_subject_id / 1000) | 0}/${_subject_id}`, function (error, map_id) {
+      if (error) {
+        p = document.createElement('h1')
+        p.innerText = error.responseText
+        document.body.prepend(p)
+        return console.log(error)
+      }
+      d3.json(`https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/map/${(map_id / 1000) | 0}/${map_id}.json`, function (error, root) {
+
+        if (error) {
+          p = document.createElement('h1')
+          p.innerText = error.responseText
+          document.body.prepend(p)
+          return console.log(error)
+        }
+
+        const relate = root.relate.map(rel => ({
+          relate: rel.relate,
+          source: root.node.find(n => n.id === rel.src),
+          target: root.node.find(n => n.id === rel.dst),
+        }));
+
+        force
+          .nodes(root.node)
+          .links(relate)
+          .linkDistance(200)
+          .charge(-4000)
+          .gravity(0.15)
+          .friction(0.8)
+          .theta(0.2)
+          .alpha(0.4)
+          .start()
+
+        let line_color = '#b8b8b8'
+        var edges_line = svg.selectAll('line')
+          .data(relate)
+          .enter()
+          .append('line')
+          .style('stroke', line_color)
+          .style('stroke-width', 1)
+
+        var edges_text = svg.selectAll('.linetext')
+          .data(relate)
+          .enter()
+          .append('text')
+          .attr('class', 'linetext')
+          .text(function (d) {
+            return d.relate
+          })
+
+        var text_dx = -20
+        var text_dy = 20
+        var nodes_text = svg.selectAll('.nodetext')
+          .data(root.node)
+          .enter()
+          .append('text')
+          .attr('class', 'nodetext')
+          .attr('dx', text_dx)
+          .attr('dy', text_dy)
+          .text(function (d) {
+            return d.nameCN || d.name
+          })
+        var nodes_img = svg.selectAll('image')
+          .data(root.node)
+          .enter()
+          .append('image')
+          .attr('width', img_w)
+          .attr('height', img_h)
+          .attr('id', function (d) {
+            return d.id
+          })
+          .attr('xlink:href', function (d) {
+            // {#return '/static/default.png'#}
+            return d.image
+          })
+          .on('contextmenu', function (d, i, ev) {
+            d3.event.preventDefault()
+            window.open('https://bgm.tv/subject/' + d.subject_id, '_blank')
+
+            return false
+          })
+
+        function highLight(d, i) {
+
+          // 加黑相关的线条
+
+          edges_line.style('stroke', function (line) {
+            if (line.source.id === d.id) {
+              return 'black'
+            } else if (line.target.id === d.id) {
+              return line_color
+            }
+          }
+          )
+
+          //显示连接线上的文字
+          edges_text.style('fill-opacity', function (edge) {
+            if (edge.source === d) {
+              return 1.0
+            }
+          })
+
+        }
+
+        function unHighLight(d, i) {
+          // {#nodes_img.attr('data-visible', 'true')#}
+          // {#nodes_text.attr('data-visible', 'true')#}
+          if (!d.highLight) {
+            edges_line.style('stroke', line_color)
+            //隐去连接线上的文字
+            edges_text.style('fill-opacity', function (edge) {
+              if (edge.source === d) {
+                return 0.0
+              }
+            })
+          }
+        }
+
+        let fixed_id = new Set()
+        var drag = force.drag()
+          .on('dragstart', function (d, i) {
+            if (d.need_to_fix) {
+              fixed_id.add(d.id)
+            }
+            d.fixed = true
+            d.need_to_fix = true
+          })
+          .on('dragend', function (d, i) {
+            if (fixed_id.has(d.id)) {
+              d.fixed = false
+              fixed_id.delete(d.id)
+              d.need_to_fix = false
+            }
+          })
+          .on('drag', function (d, i) {
+          })
+
+        nodes_img
+          .on('mouseover', highLight)
+          .on('mouseout', unHighLight)
+          .on('dblclick', function (d, i) {
+            if (!d.highLight) {
+              let relatedRelation = relate.filter(function (val) {
+                return val.source.id === d.id || val.target.id === d.id
+              })
+
+              function dataVisible(nodes) {
+                if (relatedRelation.findIndex(function (val) { return val.source.id === nodes.id || val.target.id === nodes.id }) === -1) {
+                  return 'false'
+                } else {
+                  return 'true'
+                }
+              }
+
+              nodes_text.attr('data-visible', dataVisible)
+              nodes_img.attr('data-visible', dataVisible)
+              highLight(d, i)
+              d.highLight = true
+            } else {
+              nodes_text.attr('data-visible', 'true')
+              nodes_img.attr('data-visible', 'true')
+              d.highLight = false
+            }
+          })
+
+          .call(force.drag)
+
+        force.on('tick', function () {
+
+          //更新连接线的位置
+          edges_line.attr('x1', function (d) { return d.source.x })
+          edges_line.attr('y1', function (d) { return d.source.y })
+          edges_line.attr('x2', function (d) { return d.target.x })
+          edges_line.attr('y2', function (d) { return d.target.y })
+
+          //更新连接线上文字的位置
+          edges_text.attr('x', function (d) { return (d.source.x + d.target.x) / 2 })
+          edges_text.attr('y', function (d) { return (d.source.y + d.target.y) / 2 })
+
+          //更新结点图片和文字
+          nodes_img.attr('x', function (d) { return d.x - img_w / 2 })
+          nodes_img.attr('y', function (d) { return d.y - img_h / 2 })
+
+          nodes_text.attr('x', function (d) { return d.x })
+          nodes_text.attr('y', function (d) { return d.y + img_w / 2 })
+
+        })
+
+      })
+    });
+
+  </script>
+
+</body>
+
+</html>
