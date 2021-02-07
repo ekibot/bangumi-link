@@ -24,6 +24,18 @@
    "name": "Gダライアス",
    "nameCN": "G大流士战机",
    "image": "//lain.bgm.tv/pic/cover/m/4c/9c/154074_GV23v.jpg"
+  },
+  {
+   "id": 258538,
+   "name": "スーパーダライアスII",
+   "nameCN": "超级大流士战机II",
+   "image": "//lain.bgm.tv/pic/cover/m/6e/85/258538_Z4jDS.jpg"
+  },
+  {
+   "id": 307376,
+   "name": "Darius Cozmic Collection",
+   "nameCN": "太空战斗机 宇宙合集",
+   "image": "//lain.bgm.tv/pic/cover/m/08/b7/307376_tEBRZ.jpg"
   }
  ],
  "relate": [
@@ -31,6 +43,11 @@
    "relate": "续集",
    "src": 79294,
    "dst": 79295
+  },
+  {
+   "relate": "不同演绎",
+   "src": 79294,
+   "dst": 307376
   },
   {
    "relate": "前传",
@@ -43,6 +60,11 @@
    "dst": 79309
   },
   {
+   "relate": "不同演绎",
+   "src": 79295,
+   "dst": 258538
+  },
+  {
    "relate": "前传",
    "src": 79309,
    "dst": 79295
@@ -53,9 +75,24 @@
    "dst": 154074
   },
   {
+   "relate": "不同演绎",
+   "src": 79309,
+   "dst": 307376
+  },
+  {
    "relate": "前传",
    "src": 154074,
    "dst": 79309
+  },
+  {
+   "relate": "不同演绎",
+   "src": 258538,
+   "dst": 79295
+  },
+  {
+   "relate": "不同演绎",
+   "src": 307376,
+   "dst": 79294
   }
  ]
 }

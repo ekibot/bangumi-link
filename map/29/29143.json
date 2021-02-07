@@ -2,6 +2,24 @@
  "id": 29143,
  "node": [
   {
+   "id": 1097,
+   "name": "暁の護衛 ～プリンシパルたちの休日～",
+   "nameCN": "晓之护卫～主角们的休息日～",
+   "image": "//lain.bgm.tv/pic/cover/m/db/2b/1097_y5141.jpg"
+  },
+  {
+   "id": 3906,
+   "name": "暁の護衛",
+   "nameCN": "晓之护卫",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/93/3906_4KIUc.jpg"
+  },
+  {
+   "id": 11116,
+   "name": "暁の護衛～罪深き終末論～",
+   "nameCN": "晓之护卫 ～罪孽深重的末世论～",
+   "image": "//lain.bgm.tv/pic/cover/m/4e/4f/11116_1QQMc.jpg"
+  },
+  {
    "id": 29143,
    "name": "レミニセンス",
    "nameCN": "回忆录",
@@ -12,9 +30,55 @@
    "name": "レミニセンス Re：Collect",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/6e/29/91037_1MXf8.jpg"
+  },
+  {
+   "id": 119398,
+   "name": "暁の護衛 トリニティ",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/bd/55/119398_vOzjU.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "主线故事",
+   "src": 1097,
+   "dst": 3906
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1097,
+   "dst": 119398
+  },
+  {
+   "relate": "续集",
+   "src": 3906,
+   "dst": 11116
+  },
+  {
+   "relate": "不同演绎",
+   "src": 3906,
+   "dst": 119398
+  },
+  {
+   "relate": "前传",
+   "src": 11116,
+   "dst": 3906
+  },
+  {
+   "relate": "相同世界观",
+   "src": 11116,
+   "dst": 29143
+  },
+  {
+   "relate": "不同演绎",
+   "src": 11116,
+   "dst": 119398
+  },
+  {
+   "relate": "相同世界观",
+   "src": 29143,
+   "dst": 11116
+  },
   {
    "relate": "续集",
    "src": 29143,
@@ -24,6 +88,11 @@
    "relate": "前传",
    "src": 91037,
    "dst": 29143
+  },
+  {
+   "relate": "不同演绎",
+   "src": 119398,
+   "dst": 1097
   }
  ]
 }

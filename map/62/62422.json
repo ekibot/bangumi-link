@@ -2,23 +2,120 @@
  "id": 62422,
  "node": [
   {
+   "id": 3637,
+   "name": "真マジンガー 衝撃! Z編",
+   "nameCN": "真魔神 冲击！Z篇",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/e8/3637_F5f0G.jpg"
+  },
+  {
+   "id": 10390,
+   "name": "マジンガーZ",
+   "nameCN": "魔神Z",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/96/10390_6Ynn4.jpg"
+  },
+  {
    "id": 14231,
    "name": "マジンカイザー",
    "nameCN": "魔神凯撒",
    "image": "//lain.bgm.tv/pic/cover/m/cf/cf/14231_VhaTH.jpg"
   },
   {
+   "id": 15885,
+   "name": "マジンカイザーSKL",
+   "nameCN": "魔神凯撒SKL",
+   "image": "//lain.bgm.tv/pic/cover/m/1c/15/15885_Jzs97.jpg"
+  },
+  {
+   "id": 30163,
+   "name": "グレートマジンガー",
+   "nameCN": "大魔神",
+   "image": "//lain.bgm.tv/pic/cover/m/e8/5c/30163_PkW7J.jpg"
+  },
+  {
    "id": 62422,
    "name": "マジンカイザー 死闘!暗黒大将軍",
    "nameCN": "魔神凯撒 死斗！暗黑大将军",
    "image": "//lain.bgm.tv/pic/cover/m/4b/44/62422_IIgii.jpg"
+  },
+  {
+   "id": 114705,
+   "name": "マジンガーZ対暗黒大将軍",
+   "nameCN": "魔神Z对暗黑大将军",
+   "image": "//lain.bgm.tv/pic/cover/m/03/de/114705_W2o23.jpg"
+  },
+  {
+   "id": 211853,
+   "name": "劇場版 マジンガーZ / INFINITY",
+   "nameCN": "剧场版 魔神Z / INFINITY",
+   "image": "//lain.bgm.tv/pic/cover/m/33/35/211853_LKGtb.jpg"
+  },
+  {
+   "id": 215007,
+   "name": "マジンガーZ対ドクターヘル",
+   "nameCN": "魔神Z对地狱博士",
+   "image": "//lain.bgm.tv/pic/cover/m/79/a7/215007_w4zM2.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同世界观",
+   "src": 3637,
+   "dst": 10390
+  },
+  {
+   "relate": "不同世界观",
+   "src": 10390,
+   "dst": 14231
+  },
+  {
+   "relate": "续集",
+   "src": 10390,
+   "dst": 30163
+  },
+  {
+   "relate": "番外篇",
+   "src": 10390,
+   "dst": 215007
+  },
+  {
+   "relate": "不同世界观",
+   "src": 14231,
+   "dst": 10390
+  },
+  {
+   "relate": "番外篇",
+   "src": 14231,
+   "dst": 62422
+  },
+  {
+   "relate": "不同世界观",
+   "src": 15885,
+   "dst": 10390
+  },
+  {
+   "relate": "前传",
+   "src": 30163,
+   "dst": 10390
+  },
+  {
    "relate": "主线故事",
    "src": 62422,
    "dst": 14231
+  },
+  {
+   "relate": "主线故事",
+   "src": 114705,
+   "dst": 10390
+  },
+  {
+   "relate": "前传",
+   "src": 211853,
+   "dst": 10390
+  },
+  {
+   "relate": "主线故事",
+   "src": 215007,
+   "dst": 10390
   }
  ]
 }

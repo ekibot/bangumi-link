@@ -2,6 +2,12 @@
  "id": 20206,
  "node": [
   {
+   "id": 6927,
+   "name": "WILD ARMS XF",
+   "nameCN": "荒野兵器 交叉火力",
+   "image": "//lain.bgm.tv/pic/cover/m/0a/d5/6927_vggXi.jpg"
+  },
+  {
    "id": 20206,
    "name": "WILD ARMS the Vth Vanguard",
    "nameCN": "荒野兵器5：先驱",
@@ -12,6 +18,12 @@
    "name": "WILD ARMS the 4th Detonator",
    "nameCN": "荒野兵器4",
    "image": "//lain.bgm.tv/pic/cover/m/d9/97/20233_J8385.jpg"
+  },
+  {
+   "id": 20468,
+   "name": "ワイルドアームズXF",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/d2/4c/20468_jp.jpg"
   },
   {
    "id": 75068,
@@ -30,9 +42,25 @@
    "name": "WILD ARMS Advanced 3rd",
    "nameCN": "荒野兵器3",
    "image": "//lain.bgm.tv/pic/cover/m/a6/1b/130644_R6w2P.jpg"
+  },
+  {
+   "id": 283490,
+   "name": "WILD ARMS Alter code:F",
+   "nameCN": "荒野兵器 Alter code:F",
+   "image": "//lain.bgm.tv/pic/cover/m/88/36/283490_b7974.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 6927,
+   "dst": 20206
+  },
+  {
+   "relate": "相同世界观",
+   "src": 20206,
+   "dst": 6927
+  },
   {
    "relate": "前传",
    "src": 20206,
@@ -47,6 +75,11 @@
    "relate": "前传",
    "src": 20233,
    "dst": 130644
+  },
+  {
+   "relate": "主线故事",
+   "src": 20468,
+   "dst": 6927
   },
   {
    "relate": "前传",
@@ -64,6 +97,11 @@
    "dst": 75068
   },
   {
+   "relate": "不同演绎",
+   "src": 88604,
+   "dst": 283490
+  },
+  {
    "relate": "续集",
    "src": 130644,
    "dst": 20233
@@ -72,6 +110,11 @@
    "relate": "前传",
    "src": 130644,
    "dst": 75068
+  },
+  {
+   "relate": "不同演绎",
+   "src": 283490,
+   "dst": 88604
   }
  ]
 }

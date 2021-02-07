@@ -24,6 +24,18 @@
    "name": "Mass Effect: Revelation",
    "nameCN": "质量效应：启示录",
    "image": "//lain.bgm.tv/pic/cover/m/11/db/34109_BCC2y.jpg"
+  },
+  {
+   "id": 36321,
+   "name": "Mass Effect Infiltrator",
+   "nameCN": "质量效应 渗入者",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/59/36321_qyjhj.jpg"
+  },
+  {
+   "id": 137885,
+   "name": "Mass Effect: Andromeda",
+   "nameCN": "质量效应：仙女座",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/a5/137885_tivPo.jpg"
   }
  ],
  "relate": [
@@ -38,9 +50,19 @@
    "dst": 17786
   },
   {
+   "relate": "相同世界观",
+   "src": 4241,
+   "dst": 36321
+  },
+  {
    "relate": "续集",
    "src": 13972,
    "dst": 4241
+  },
+  {
+   "relate": "相同世界观",
+   "src": 13972,
+   "dst": 36321
   },
   {
    "relate": "前传",
@@ -48,9 +70,24 @@
    "dst": 4241
   },
   {
+   "relate": "相同世界观",
+   "src": 17786,
+   "dst": 36321
+  },
+  {
    "relate": "续集",
    "src": 34109,
    "dst": 13972
+  },
+  {
+   "relate": "相同世界观",
+   "src": 36321,
+   "dst": 4241
+  },
+  {
+   "relate": "相同世界观",
+   "src": 137885,
+   "dst": 4241
   }
  ]
 }

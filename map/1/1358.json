@@ -12,6 +12,12 @@
    "name": "ホタルノヒカリ2",
    "nameCN": "萤之光2",
    "image": "//lain.bgm.tv/pic/cover/m/f0/60/7191_PHq89.jpg"
+  },
+  {
+   "id": 59604,
+   "name": "ホタルノヒカリ",
+   "nameCN": "萤之光",
+   "image": "//lain.bgm.tv/pic/cover/m/b6/bd/59604_OtpcQ.jpg"
   }
  ],
  "relate": [
@@ -21,8 +27,23 @@
    "dst": 7191
   },
   {
+   "relate": "番外篇",
+   "src": 1358,
+   "dst": 59604
+  },
+  {
    "relate": "前传",
    "src": 7191,
+   "dst": 1358
+  },
+  {
+   "relate": "番外篇",
+   "src": 7191,
+   "dst": 59604
+  },
+  {
+   "relate": "番外篇",
+   "src": 59604,
    "dst": 1358
   }
  ]

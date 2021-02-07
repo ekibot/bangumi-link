@@ -2,6 +2,12 @@
  "id": 26407,
  "node": [
   {
+   "id": 4231,
+   "name": "Zone of the Enders The 2nd Runner",
+   "nameCN": "终极地带2引导亡灵之神",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/10/4231_0WP0I.jpg"
+  },
+  {
    "id": 26407,
    "name": "Z.O.E 2167 IDOLO",
    "nameCN": "终极地带：2167",
@@ -12,9 +18,43 @@
    "name": "Z.O.E Dolores, i",
    "nameCN": "终极地带ZOE",
    "image": "//lain.bgm.tv/pic/cover/m/56/1a/36882_wndnR.jpg"
+  },
+  {
+   "id": 44745,
+   "name": "ZONE OF THE ENDERS HD EDITION",
+   "nameCN": "终极地带HD合集",
+   "image": "//lain.bgm.tv/pic/cover/m/a8/1d/44745_Y6m00.jpg"
+  },
+  {
+   "id": 72974,
+   "name": "Z.O.E 2173 TESTAMENT",
+   "nameCN": "星域毁灭者2173-遗嘱",
+   "image": "//lain.bgm.tv/pic/cover/m/95/38/72974_3Qgk2.jpg"
+  },
+  {
+   "id": 98571,
+   "name": "ZONE OF THE ENDERS Z.O.E",
+   "nameCN": "终极地带",
+   "image": "//lain.bgm.tv/pic/cover/m/4d/86/98571_IYt7f.jpg"
+  },
+  {
+   "id": 254792,
+   "name": "ANUBIS ZONE OF THE ENDERS : M∀RS",
+   "nameCN": "终极地带2 火星",
+   "image": "//lain.bgm.tv/pic/cover/m/0a/86/254792_U0Wi0.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 4231,
+   "dst": 44745
+  },
+  {
+   "relate": "前传",
+   "src": 4231,
+   "dst": 98571
+  },
   {
    "relate": "续集",
    "src": 26407,
@@ -24,6 +64,41 @@
    "relate": "前传",
    "src": 36882,
    "dst": 26407
+  },
+  {
+   "relate": "不同演绎",
+   "src": 44745,
+   "dst": 4231
+  },
+  {
+   "relate": "主线故事",
+   "src": 72974,
+   "dst": 4231
+  },
+  {
+   "relate": "相同世界观",
+   "src": 72974,
+   "dst": 36882
+  },
+  {
+   "relate": "续集",
+   "src": 98571,
+   "dst": 4231
+  },
+  {
+   "relate": "番外篇",
+   "src": 98571,
+   "dst": 26407
+  },
+  {
+   "relate": "不同演绎",
+   "src": 98571,
+   "dst": 44745
+  },
+  {
+   "relate": "不同演绎",
+   "src": 254792,
+   "dst": 4231
   }
  ]
 }

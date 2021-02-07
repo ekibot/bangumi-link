@@ -34,7 +34,6 @@
   {
    "id": 141613,
    "name": "The Quest for the Six Dofus Eliatropes",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/12/60/141613_8eS2Y.jpg"
   },
   {
@@ -44,10 +43,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/20/10/141617_MSgAM.jpg"
   },
   {
+   "id": 141620,
+   "name": "Dofus aux trésors de Kérubim",
+   "nameCN": "克鲁布的宝物",
+   "image": "//lain.bgm.tv/pic/cover/m/33/8d/141620_8B1Ss.jpg"
+  },
+  {
    "id": 171938,
    "name": "Wakfu Season 3",
    "nameCN": "沃土 第三季",
    "image": "//lain.bgm.tv/pic/cover/m/c3/60/171938_voJ9r.jpg"
+  },
+  {
+   "id": 186947,
+   "name": "Dofus, livre 1 : Julith",
+   "nameCN": "DOFUS首章：朱莉丝",
+   "image": "//lain.bgm.tv/pic/cover/m/e9/cb/186947_zFjEl.jpg"
   }
  ],
  "relate": [
@@ -57,14 +68,29 @@
    "dst": 96894
   },
   {
+   "relate": "番外篇",
+   "src": 92704,
+   "dst": 96895
+  },
+  {
    "relate": "衍生",
    "src": 92704,
    "dst": 141172
   },
   {
+   "relate": "相同世界观",
+   "src": 92704,
+   "dst": 141620
+  },
+  {
    "relate": "前传",
    "src": 96894,
    "dst": 92704
+  },
+  {
+   "relate": "番外篇",
+   "src": 96894,
+   "dst": 141613
   },
   {
    "relate": "续集",
@@ -99,6 +125,16 @@
   {
    "relate": "前传",
    "src": 171938,
+   "dst": 92704
+  },
+  {
+   "relate": "番外篇",
+   "src": 171938,
+   "dst": 141613
+  },
+  {
+   "relate": "相同世界观",
+   "src": 186947,
    "dst": 92704
   }
  ]

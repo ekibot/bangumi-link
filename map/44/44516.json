@@ -24,6 +24,12 @@
    "name": "The House Of The Dead 4",
    "nameCN": "死亡之屋4",
    "image": "//lain.bgm.tv/pic/cover/m/1c/42/44519_O967V.jpg"
+  },
+  {
+   "id": 44697,
+   "name": "The House of the Dead 2&3 Return",
+   "nameCN": "死亡之屋2&3：回归",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/f6/44697_g86nW.jpg"
   }
  ],
  "relate": [
@@ -31,6 +37,11 @@
    "relate": "续集",
    "src": 44516,
    "dst": 44517
+  },
+  {
+   "relate": "相同世界观",
+   "src": 44516,
+   "dst": 44519
   },
   {
    "relate": "前传",
@@ -43,6 +54,16 @@
    "dst": 44518
   },
   {
+   "relate": "相同世界观",
+   "src": 44517,
+   "dst": 44519
+  },
+  {
+   "relate": "不同演绎",
+   "src": 44517,
+   "dst": 44697
+  },
+  {
    "relate": "前传",
    "src": 44518,
    "dst": 44517
@@ -53,9 +74,24 @@
    "dst": 44519
   },
   {
+   "relate": "不同演绎",
+   "src": 44518,
+   "dst": 44697
+  },
+  {
+   "relate": "相同世界观",
+   "src": 44519,
+   "dst": 44516
+  },
+  {
    "relate": "前传",
    "src": 44519,
    "dst": 44518
+  },
+  {
+   "relate": "不同演绎",
+   "src": 44697,
+   "dst": 44517
   }
  ]
 }

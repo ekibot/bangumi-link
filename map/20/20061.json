@@ -170,6 +170,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/eb/ce/247805_kSD17.jpg"
   },
   {
+   "id": 255714,
+   "name": "Star Wars：Resistance Season 1",
+   "nameCN": "星球大战：抵抗组织第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/16/255714_H1jYZ.jpg"
+  },
+  {
    "id": 262919,
    "name": "Star Wars Jedi Knight: Mysteries of the Sith",
    "nameCN": "星球大战绝地武士：西斯之谜",
@@ -188,6 +194,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/a0/30/262921_6W17F.jpg"
   },
   {
+   "id": 276576,
+   "name": "Star Wars Jedi: Fallen Order",
+   "nameCN": "星球大战 绝地：陨落的武士团",
+   "image": "//lain.bgm.tv/pic/cover/m/36/50/276576_qFXOY.jpg"
+  },
+  {
    "id": 285369,
    "name": "Star Wars: TIE Fighter",
    "nameCN": "星球大战：钛战机",
@@ -196,13 +208,13 @@
   {
    "id": 288281,
    "name": "Star Wars: Clone Wars Season 2 (2004)",
-   "nameCN": "星球大战：克隆战争 第二季 (2004)"
+   "nameCN": "星球大战：克隆战争 第二季 (2004)",
+   "image": "/img/no_icon_subject.png"
   },
   {
    "id": 288282,
    "name": "Star Wars: Clone Wars Season 3 (2005)",
-   "nameCN": "星球大战：克隆战争第三季 (2005)",
-   "image": "/img/no_icon_subject.png"
+   "nameCN": "星球大战：克隆战争第三季 (2005)"
   },
   {
    "id": 294641,
@@ -261,6 +273,11 @@
    "dst": 60391
   },
   {
+   "relate": "番外篇",
+   "src": 60390,
+   "dst": 164869
+  },
+  {
    "relate": "前传",
    "src": 60391,
    "dst": 60390
@@ -271,6 +288,11 @@
    "dst": 60402
   },
   {
+   "relate": "番外篇",
+   "src": 60391,
+   "dst": 164869
+  },
+  {
    "relate": "前传",
    "src": 60402,
    "dst": 60391
@@ -279,6 +301,11 @@
    "relate": "续集",
    "src": 60402,
    "dst": 60409
+  },
+  {
+   "relate": "番外篇",
+   "src": 60402,
+   "dst": 245537
   },
   {
    "relate": "前传",
@@ -301,6 +328,11 @@
    "dst": 148784
   },
   {
+   "relate": "番外篇",
+   "src": 60412,
+   "dst": 294641
+  },
+  {
    "relate": "主线故事",
    "src": 137313,
    "dst": 60390
@@ -309,6 +341,11 @@
    "relate": "续集",
    "src": 137313,
    "dst": 137314
+  },
+  {
+   "relate": "不同演绎",
+   "src": 137313,
+   "dst": 164869
   },
   {
    "relate": "前传",
@@ -376,9 +413,19 @@
    "dst": 207409
   },
   {
+   "relate": "相同世界观",
+   "src": 148784,
+   "dst": 255714
+  },
+  {
    "relate": "主线故事",
    "src": 164869,
    "dst": 60390
+  },
+  {
+   "relate": "不同演绎",
+   "src": 164869,
+   "dst": 137313
   },
   {
    "relate": "续集",
@@ -396,6 +443,11 @@
    "dst": 60391
   },
   {
+   "relate": "相同世界观",
+   "src": 187708,
+   "dst": 247805
+  },
+  {
    "relate": "主线故事",
    "src": 188053,
    "dst": 60402
@@ -406,6 +458,11 @@
    "dst": 137318
   },
   {
+   "relate": "相同世界观",
+   "src": 188053,
+   "dst": 187708
+  },
+  {
    "relate": "续集",
    "src": 188053,
    "dst": 189703
@@ -414,6 +471,11 @@
    "relate": "主线故事",
    "src": 189703,
    "dst": 60391
+  },
+  {
+   "relate": "相同世界观",
+   "src": 189703,
+   "dst": 187708
   },
   {
    "relate": "续集",
@@ -434,6 +496,11 @@
    "relate": "续集",
    "src": 207409,
    "dst": 213943
+  },
+  {
+   "relate": "相同世界观",
+   "src": 207409,
+   "dst": 255714
   },
   {
    "relate": "前传",
@@ -466,6 +533,11 @@
    "dst": 137313
   },
   {
+   "relate": "不同演绎",
+   "src": 213428,
+   "dst": 164869
+  },
+  {
    "relate": "前传",
    "src": 213943,
    "dst": 207409
@@ -489,6 +561,16 @@
    "relate": "主线故事",
    "src": 247805,
    "dst": 60391
+  },
+  {
+   "relate": "相同世界观",
+   "src": 247805,
+   "dst": 212924
+  },
+  {
+   "relate": "相同世界观",
+   "src": 255714,
+   "dst": 148784
   },
   {
    "relate": "续集",
@@ -521,6 +603,11 @@
    "dst": 262920
   },
   {
+   "relate": "相同世界观",
+   "src": 276576,
+   "dst": 60391
+  },
+  {
    "relate": "主线故事",
    "src": 285369,
    "dst": 60402
@@ -549,6 +636,11 @@
    "relate": "续集",
    "src": 294641,
    "dst": 300831
+  },
+  {
+   "relate": "番外篇",
+   "src": 294641,
+   "dst": 320548
   },
   {
    "relate": "主线故事",

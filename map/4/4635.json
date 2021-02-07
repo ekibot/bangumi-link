@@ -24,6 +24,12 @@
    "name": "ギャラクシーエンジェルX",
    "nameCN": "银河天使X",
    "image": "//lain.bgm.tv/pic/cover/m/78/b8/18083_toNoJ.jpg"
+  },
+  {
+   "id": 35321,
+   "name": "ギャラクシーエンジェる～ん",
+   "nameCN": "银河天使II",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/38/35321_1tBt5.jpg"
   }
  ],
  "relate": [
@@ -31,6 +37,11 @@
    "relate": "续集",
    "src": 4634,
    "dst": 4635
+  },
+  {
+   "relate": "相同世界观",
+   "src": 4634,
+   "dst": 35321
   },
   {
    "relate": "前传",
@@ -53,9 +64,24 @@
    "dst": 18083
   },
   {
+   "relate": "相同世界观",
+   "src": 18082,
+   "dst": 35321
+  },
+  {
    "relate": "前传",
    "src": 18083,
    "dst": 18082
+  },
+  {
+   "relate": "相同世界观",
+   "src": 18083,
+   "dst": 35321
+  },
+  {
+   "relate": "相同世界观",
+   "src": 35321,
+   "dst": 4634
   }
  ]
 }

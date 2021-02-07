@@ -2,18 +2,71 @@
  "id": 113040,
  "node": [
   {
+   "id": 309,
+   "name": "true tears",
+   "nameCN": "真实之泪",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/de/309_Laarr.jpg"
+  },
+  {
+   "id": 22759,
+   "name": "花咲くいろは",
+   "nameCN": "花开伊吕波",
+   "image": "//lain.bgm.tv/pic/cover/m/56/2d/22759_p1rJ8.jpg"
+  },
+  {
    "id": 37137,
    "name": "TARI TARI",
    "image": "//lain.bgm.tv/pic/cover/m/de/a5/37137_2F57F.jpg"
+  },
+  {
+   "id": 49892,
+   "name": "花咲くいろは HOME SWEET HOME",
+   "nameCN": "花开伊吕波 HOME SWEET HOME",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/55/49892_0wfrB.jpg"
   },
   {
    "id": 113040,
    "name": "TARI TARI 曇ったり 輝いたり またいつか歌ったり",
    "nameCN": "TARI TARI OVA",
    "image": "//lain.bgm.tv/pic/cover/m/34/20/113040_itnnI.jpg"
+  },
+  {
+   "id": 253685,
+   "name": "TARI TARI 〜芽吹いたり 照らしたり やっぱり時々歌ったり〜",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/e3/253685_bCP5C.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 309,
+   "dst": 22759
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22759,
+   "dst": 37137
+  },
+  {
+   "relate": "番外篇",
+   "src": 22759,
+   "dst": 49892
+  },
+  {
+   "relate": "相同世界观",
+   "src": 37137,
+   "dst": 309
+  },
+  {
+   "relate": "番外篇",
+   "src": 37137,
+   "dst": 253685
+  },
+  {
+   "relate": "主线故事",
+   "src": 49892,
+   "dst": 22759
+  },
   {
    "relate": "主线故事",
    "src": 113040,

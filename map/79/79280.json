@@ -26,6 +26,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/5b/1d/79572_882f8.jpg"
   },
   {
+   "id": 83110,
+   "name": "R-TYPE TACTICS",
+   "nameCN": "R-Type战略版",
+   "image": "//lain.bgm.tv/pic/cover/m/00/06/83110_o42rS.jpg"
+  },
+  {
    "id": 93606,
    "name": "R-TYPE III",
    "image": "//lain.bgm.tv/pic/cover/m/1a/a0/93606_9fe8a.jpg"
@@ -41,10 +47,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/53/a8/93609_rfjB7.jpg"
   },
   {
+   "id": 93610,
+   "name": "R-TYPE TACTICS II -Operation BITTER CHOCOLATE-",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/67/93610_65046.jpg"
+  },
+  {
    "id": 257685,
    "name": "Super R-Type",
    "nameCN": "超级异型战机",
    "image": "//lain.bgm.tv/pic/cover/m/71/a8/257685_1kM4K.jpg"
+  },
+  {
+   "id": 259641,
+   "name": "R-TYPE Dimensions",
+   "nameCN": "异形战机Dimensions",
+   "image": "//lain.bgm.tv/pic/cover/m/41/6c/259641_ml4j9.jpg"
   },
   {
    "id": 315952,
@@ -80,6 +98,16 @@
    "dst": 79569
   },
   {
+   "relate": "不同演绎",
+   "src": 83110,
+   "dst": 93609
+  },
+  {
+   "relate": "续集",
+   "src": 83110,
+   "dst": 93610
+  },
+  {
    "relate": "续集",
    "src": 93606,
    "dst": 93608
@@ -100,6 +128,11 @@
    "dst": 93609
   },
   {
+   "relate": "不同演绎",
+   "src": 93609,
+   "dst": 83110
+  },
+  {
    "relate": "前传",
    "src": 93609,
    "dst": 93608
@@ -110,9 +143,24 @@
    "dst": 315952
   },
   {
+   "relate": "前传",
+   "src": 93610,
+   "dst": 83110
+  },
+  {
+   "relate": "不同演绎",
+   "src": 257685,
+   "dst": 79570
+  },
+  {
    "relate": "续集",
    "src": 257685,
    "dst": 93606
+  },
+  {
+   "relate": "不同演绎",
+   "src": 259641,
+   "dst": 79569
   },
   {
    "relate": "前传",

@@ -2,22 +2,101 @@
  "id": 261166,
  "node": [
   {
+   "id": 79596,
+   "name": "Shadow Dancer",
+   "nameCN": "影武者",
+   "image": "//lain.bgm.tv/pic/cover/m/52/8d/79596_8zUce.jpg"
+  },
+  {
+   "id": 80919,
+   "name": "ザ・スーパー忍II",
+   "nameCN": "超级忍2",
+   "image": "//lain.bgm.tv/pic/cover/m/49/7c/80919_0E0Ht.jpg"
+  },
+  {
+   "id": 117643,
+   "name": "ザ・スーパー忍",
+   "nameCN": "超级忍",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/0c/117643_olHCz.jpg"
+  },
+  {
+   "id": 252422,
+   "name": "忍 -SHINOBI-",
+   "image": "//lain.bgm.tv/pic/cover/m/66/57/252422_99b9F.jpg"
+  },
+  {
+   "id": 256592,
+   "name": "シャドー・ダンサー ザ・シークレット・オブ・シノビ",
+   "nameCN": "影武者：忍者之秘",
+   "image": "//lain.bgm.tv/pic/cover/m/a9/7d/256592_6dK56.jpg"
+  },
+  {
    "id": 261166,
    "name": "The GG忍II",
+   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/8b/c6/261166_7l7B9.jpg"
   },
   {
    "id": 261167,
    "name": "The GG忍",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/95/dd/261167_TBsir.jpg"
   }
  ],
  "relate": [
   {
    "relate": "前传",
+   "src": 79596,
+   "dst": 252422
+  },
+  {
+   "relate": "不同演绎",
+   "src": 79596,
+   "dst": 256592
+  },
+  {
+   "relate": "前传",
+   "src": 80919,
+   "dst": 117643
+  },
+  {
+   "relate": "续集",
+   "src": 117643,
+   "dst": 80919
+  },
+  {
+   "relate": "前传",
+   "src": 117643,
+   "dst": 252422
+  },
+  {
+   "relate": "相同世界观",
+   "src": 117643,
+   "dst": 261167
+  },
+  {
+   "relate": "续集",
+   "src": 252422,
+   "dst": 117643
+  },
+  {
+   "relate": "相同世界观",
+   "src": 252422,
+   "dst": 261167
+  },
+  {
+   "relate": "不同演绎",
+   "src": 256592,
+   "dst": 79596
+  },
+  {
+   "relate": "前传",
    "src": 261166,
    "dst": 261167
+  },
+  {
+   "relate": "相同世界观",
+   "src": 261167,
+   "dst": 252422
   },
   {
    "relate": "续集",

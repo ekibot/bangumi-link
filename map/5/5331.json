@@ -8,10 +8,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/78/da/5331_FJ605.jpg"
   },
   {
+   "id": 5954,
+   "name": "NCIS: Los Angeles Season 1",
+   "nameCN": "海军罪案调查处：洛杉矶 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/09/5954_g9yNh.jpg"
+  },
+  {
    "id": 10204,
    "name": "NCIS Season 8",
    "nameCN": "海军罪案调查处 第八季",
    "image": "//lain.bgm.tv/pic/cover/m/51/ef/10204_TDi68.jpg"
+  },
+  {
+   "id": 10259,
+   "name": "NCIS: Los Angeles Season 2",
+   "nameCN": "海军罪案调查处：洛杉矶 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/e4/4c/10259_yhM3i.jpg"
   },
   {
    "id": 20765,
@@ -26,10 +38,28 @@
    "image": "//lain.bgm.tv/pic/cover/m/3e/23/23399_0RmpS.jpg"
   },
   {
+   "id": 25616,
+   "name": "NCIS: Los Angeles Season 3",
+   "nameCN": "海军罪案调查处：洛杉矶 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/c7/64/25616_VgPpb.jpg"
+  },
+  {
    "id": 64982,
    "name": "NCIS Season 10",
    "nameCN": "海军罪案调查处 第十季",
    "image": "//lain.bgm.tv/pic/cover/m/f2/08/64982_GtR1e.jpg"
+  },
+  {
+   "id": 64984,
+   "name": "NCIS: Los Angeles Season 4",
+   "nameCN": "海军罪案调查处：洛杉矶 第四季",
+   "image": "//lain.bgm.tv/pic/cover/m/a2/fc/64984_GVzc9.jpg"
+  },
+  {
+   "id": 84492,
+   "name": "NCIS: Los Angeles Season 5",
+   "nameCN": "海军罪案调查处：洛杉矶 第五季",
+   "image": "//lain.bgm.tv/pic/cover/m/78/80/84492_bUnln.jpg"
   },
   {
    "id": 87446,
@@ -68,10 +98,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/c2/90/87462_L3wUS.jpg"
   },
   {
+   "id": 104824,
+   "name": "NCIS: New Orleans Season 1",
+   "nameCN": "海军罪案调查处：新奥尔良 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/36/82/104824_9n22a.jpg"
+  },
+  {
    "id": 107008,
    "name": "NCIS Season 12",
    "nameCN": "海军罪案调查处 第十二季",
    "image": "//lain.bgm.tv/pic/cover/m/3c/73/107008_g4VIP.jpg"
+  },
+  {
+   "id": 126501,
+   "name": "NCIS: Los Angeles (Season 6)",
+   "nameCN": "海军罪案调查处：洛杉矶 第六季",
+   "image": "//lain.bgm.tv/pic/cover/m/ce/0d/126501_AjJ5S.jpg"
   }
  ],
  "relate": [
@@ -86,6 +128,16 @@
    "dst": 20765
   },
   {
+   "relate": "续集",
+   "src": 5954,
+   "dst": 10259
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5954,
+   "dst": 87462
+  },
+  {
    "relate": "前传",
    "src": 10204,
    "dst": 5331
@@ -94,6 +146,16 @@
    "relate": "续集",
    "src": 10204,
    "dst": 23399
+  },
+  {
+   "relate": "前传",
+   "src": 10259,
+   "dst": 5954
+  },
+  {
+   "relate": "续集",
+   "src": 10259,
+   "dst": 25616
   },
   {
    "relate": "续集",
@@ -117,6 +179,16 @@
   },
   {
    "relate": "前传",
+   "src": 25616,
+   "dst": 10259
+  },
+  {
+   "relate": "续集",
+   "src": 25616,
+   "dst": 64984
+  },
+  {
+   "relate": "前传",
    "src": 64982,
    "dst": 23399
   },
@@ -124,6 +196,26 @@
    "relate": "续集",
    "src": 64982,
    "dst": 87446
+  },
+  {
+   "relate": "前传",
+   "src": 64984,
+   "dst": 25616
+  },
+  {
+   "relate": "续集",
+   "src": 64984,
+   "dst": 84492
+  },
+  {
+   "relate": "前传",
+   "src": 84492,
+   "dst": 64984
+  },
+  {
+   "relate": "续集",
+   "src": 84492,
+   "dst": 126501
   },
   {
    "relate": "前传",
@@ -176,14 +268,29 @@
    "dst": 87462
   },
   {
+   "relate": "相同世界观",
+   "src": 87462,
+   "dst": 5954
+  },
+  {
    "relate": "续集",
    "src": 87462,
    "dst": 87461
   },
   {
+   "relate": "相同世界观",
+   "src": 104824,
+   "dst": 87462
+  },
+  {
    "relate": "前传",
    "src": 107008,
    "dst": 87446
+  },
+  {
+   "relate": "前传",
+   "src": 126501,
+   "dst": 84492
   }
  ]
 }

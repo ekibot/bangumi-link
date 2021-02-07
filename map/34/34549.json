@@ -2,10 +2,40 @@
  "id": 34549,
  "node": [
   {
+   "id": 10583,
+   "name": "真月譚 月姫",
+   "nameCN": "真月谭 月姬",
+   "image": "//lain.bgm.tv/pic/cover/m/1b/14/10583_76LPu.jpg"
+  },
+  {
    "id": 34549,
    "name": "Fate/stay night",
    "nameCN": "Fate/stay night 漫画版",
    "image": "//lain.bgm.tv/pic/cover/m/15/af/34549_8Xxar.jpg"
+  },
+  {
+   "id": 36695,
+   "name": "Fate/kaleid liner プリズマ☆イリヤ",
+   "nameCN": "Fate/kaleid liner 魔法少女☆伊莉雅",
+   "image": "//lain.bgm.tv/pic/cover/m/43/f2/36695_44UTZ.jpg"
+  },
+  {
+   "id": 37540,
+   "name": "Fate/kaleid liner プリズマ☆イリヤ ツヴァイ!",
+   "nameCN": "Fate/kaleid liner 魔法少女☆伊莉雅 2wei!",
+   "image": "//lain.bgm.tv/pic/cover/m/13/35/37540_4S4zL.jpg"
+  },
+  {
+   "id": 44591,
+   "name": "Fate/kaleid liner プリズマ☆イリヤ ドライ!!",
+   "nameCN": "Fate/kaleid liner 魔法少女☆伊莉雅3rei!!",
+   "image": "//lain.bgm.tv/pic/cover/m/1e/51/44591_aPQDQ.jpg"
+  },
+  {
+   "id": 62660,
+   "name": "空の境界 the Garden of sinners",
+   "nameCN": "空之境界  the Garden of sinners",
+   "image": "//lain.bgm.tv/pic/cover/m/a3/4d/62660_ffg0s.jpg"
   },
   {
    "id": 65117,
@@ -13,9 +43,26 @@
    "image": "//lain.bgm.tv/pic/cover/m/a1/83/65117_ZID3Z.jpg"
   },
   {
+   "id": 67881,
+   "name": "Fate/Extra",
+   "nameCN": "Fate/Extra",
+   "image": "//lain.bgm.tv/pic/cover/m/6f/e0/67881_G38Xi.jpg"
+  },
+  {
+   "id": 90423,
+   "name": "フェイト/エクストラ CCC FoxTail",
+   "nameCN": "Fate Extra CCC 妖狐传",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/0b/90423_KKn3Z.jpg"
+  },
+  {
+   "id": 119673,
+   "name": "Fate/strange Fake",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/48/3c/119673_2oIOO.jpg"
+  },
+  {
    "id": 132555,
    "name": "Fate/stay night [Heaven's Feel]",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/3d/7c/132555_p0TNK.jpg"
   },
   {
@@ -23,13 +70,76 @@
    "name": "Fate/hollow ataraxiaコミックアラカルト",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/37/b1/142877_jp.jpg"
+  },
+  {
+   "id": 180634,
+   "name": "フェイト/エクストラ CCC",
+   "nameCN": "fate EXTRA CCC",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/41/180634_GYrg2.jpg"
+  },
+  {
+   "id": 186066,
+   "name": "Fate/Apocrypha",
+   "nameCN": "Fate/Apocrypha",
+   "image": "//lain.bgm.tv/pic/cover/m/cf/a9/186066_JCqwP.jpg"
+  },
+  {
+   "id": 216124,
+   "name": "ロード・エルメロイⅡ世の事件簿",
+   "nameCN": "Lord·埃尔梅罗二世事件簿",
+   "image": "//lain.bgm.tv/pic/cover/m/40/91/216124_8810j.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 34549,
+   "dst": 62660
+  },
+  {
    "relate": "前传",
    "src": 34549,
    "dst": 65117
+  },
+  {
+   "relate": "不同世界观",
+   "src": 34549,
+   "dst": 119673
+  },
+  {
+   "relate": "番外篇",
+   "src": 34549,
+   "dst": 142877
+  },
+  {
+   "relate": "续集",
+   "src": 36695,
+   "dst": 37540
+  },
+  {
+   "relate": "不同世界观",
+   "src": 36695,
+   "dst": 132555
+  },
+  {
+   "relate": "前传",
+   "src": 37540,
+   "dst": 36695
+  },
+  {
+   "relate": "续集",
+   "src": 37540,
+   "dst": 44591
+  },
+  {
+   "relate": "前传",
+   "src": 44591,
+   "dst": 37540
+  },
+  {
+   "relate": "相同世界观",
+   "src": 65117,
+   "dst": 10583
   },
   {
    "relate": "续集",
@@ -37,14 +147,79 @@
    "dst": 132555
   },
   {
+   "relate": "不同世界观",
+   "src": 67881,
+   "dst": 34549
+  },
+  {
+   "relate": "续集",
+   "src": 67881,
+   "dst": 180634
+  },
+  {
+   "relate": "不同世界观",
+   "src": 90423,
+   "dst": 34549
+  },
+  {
+   "relate": "主线故事",
+   "src": 90423,
+   "dst": 180634
+  },
+  {
+   "relate": "不同世界观",
+   "src": 119673,
+   "dst": 132555
+  },
+  {
+   "relate": "相同世界观",
+   "src": 132555,
+   "dst": 62660
+  },
+  {
    "relate": "前传",
    "src": 132555,
    "dst": 65117
   },
   {
+   "relate": "番外篇",
+   "src": 132555,
+   "dst": 142877
+  },
+  {
+   "relate": "不同世界观",
+   "src": 132555,
+   "dst": 186066
+  },
+  {
    "relate": "主线故事",
    "src": 142877,
    "dst": 34549
+  },
+  {
+   "relate": "不同世界观",
+   "src": 180634,
+   "dst": 34549
+  },
+  {
+   "relate": "前传",
+   "src": 180634,
+   "dst": 67881
+  },
+  {
+   "relate": "番外篇",
+   "src": 180634,
+   "dst": 90423
+  },
+  {
+   "relate": "不同世界观",
+   "src": 186066,
+   "dst": 34549
+  },
+  {
+   "relate": "相同世界观",
+   "src": 216124,
+   "dst": 132555
   }
  ]
 }

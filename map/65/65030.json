@@ -2,16 +2,34 @@
  "id": 65030,
  "node": [
   {
+   "id": 9291,
+   "name": "闇金ウシジマくん",
+   "nameCN": "暗金丑岛君 (第一季)",
+   "image": "//lain.bgm.tv/pic/cover/m/14/c4/9291_Nx9R9.jpg"
+  },
+  {
    "id": 65030,
    "name": "闇金ウシジマくん",
    "nameCN": "暗金丑岛君 (Part1)",
    "image": "//lain.bgm.tv/pic/cover/m/82/38/65030_155jr.jpg"
   },
   {
+   "id": 93980,
+   "name": "闇金ウシジマくん Season2",
+   "nameCN": "暗金丑岛君 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/98/0f/93980_R9loK.jpg"
+  },
+  {
    "id": 118565,
    "name": "闇金ウシジマくん Part2",
    "nameCN": "暗金丑岛君2",
    "image": "//lain.bgm.tv/pic/cover/m/a0/97/118565_qkQFz.jpg"
+  },
+  {
+   "id": 185566,
+   "name": "闇金ウシジマくん Season3",
+   "nameCN": "暗金丑岛君 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/37/185566_68PhN.jpg"
   },
   {
    "id": 215098,
@@ -28,9 +46,34 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 9291,
+   "dst": 65030
+  },
+  {
+   "relate": "续集",
+   "src": 9291,
+   "dst": 93980
+  },
+  {
+   "relate": "不同演绎",
+   "src": 65030,
+   "dst": 9291
+  },
+  {
    "relate": "续集",
    "src": 65030,
    "dst": 118565
+  },
+  {
+   "relate": "前传",
+   "src": 93980,
+   "dst": 9291
+  },
+  {
+   "relate": "续集",
+   "src": 93980,
+   "dst": 185566
   },
   {
    "relate": "前传",
@@ -41,6 +84,11 @@
    "relate": "续集",
    "src": 118565,
    "dst": 215098
+  },
+  {
+   "relate": "前传",
+   "src": 185566,
+   "dst": 93980
   },
   {
    "relate": "前传",

@@ -2,6 +2,12 @@
  "id": 68207,
  "node": [
   {
+   "id": 21960,
+   "name": "金色のコルダ",
+   "nameCN": "金色琴弦",
+   "image": "//lain.bgm.tv/pic/cover/m/40/4b/21960_91b3k.jpg"
+  },
+  {
    "id": 68207,
    "name": "菩提樹寮のアリア〜金色のコルダシリーズ〜",
    "nameCN": "菩提树寮的抒情调～金色琴弦系列～",
@@ -14,6 +20,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/87/ef/126490_oGG8j.jpg"
   },
   {
+   "id": 231921,
+   "name": "金色のコルダ 大学生編",
+   "nameCN": "金色的琴弦 大学生篇",
+   "image": "//lain.bgm.tv/pic/cover/m/d6/ea/231921_EywFe.jpg"
+  },
+  {
    "id": 235340,
    "name": "金色のコルダ4 ─four─",
    "nameCN": "金色琴弦4 ─four─",
@@ -21,6 +33,21 @@
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 21960,
+   "dst": 68207
+  },
+  {
+   "relate": "续集",
+   "src": 21960,
+   "dst": 231921
+  },
+  {
+   "relate": "相同世界观",
+   "src": 68207,
+   "dst": 21960
+  },
   {
    "relate": "续集",
    "src": 68207,
@@ -30,6 +57,11 @@
    "relate": "续集",
    "src": 126490,
    "dst": 235340
+  },
+  {
+   "relate": "前传",
+   "src": 231921,
+   "dst": 21960
   },
   {
    "relate": "前传",

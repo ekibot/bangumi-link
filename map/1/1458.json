@@ -26,6 +26,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/ae/81/76686_NUeuZ.jpg"
   },
   {
+   "id": 76702,
+   "name": "ガリレオΦ",
+   "nameCN": "神探伽利略Φ",
+   "image": "//lain.bgm.tv/pic/cover/m/03/08/76702_SWDCV.jpg"
+  },
+  {
    "id": 91933,
    "name": "真夏の方程式",
    "nameCN": "真夏的方程式",
@@ -36,13 +42,29 @@
    "name": "ユンゲル 田園調布ネズミ男事件",
    "nameCN": "田园调布鼠男事件",
    "image": "//lain.bgm.tv/pic/cover/m/24/30/108738_L4v9t.jpg"
+  },
+  {
+   "id": 212264,
+   "name": "嫌疑人X的献身",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/9d/212264_6R5f2.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "番外篇",
+   "src": 1361,
+   "dst": 1458
+  },
+  {
    "relate": "续集",
    "src": 1361,
    "dst": 67230
+  },
+  {
+   "relate": "番外篇",
+   "src": 1458,
+   "dst": 1361
   },
   {
    "relate": "续集",
@@ -50,19 +72,39 @@
    "dst": 91933
   },
   {
+   "relate": "不同演绎",
+   "src": 1458,
+   "dst": 212264
+  },
+  {
    "relate": "前传",
    "src": 67230,
    "dst": 1361
   },
   {
+   "relate": "番外篇",
+   "src": 67230,
+   "dst": 76686
+  },
+  {
    "relate": "续集",
    "src": 67230,
    "dst": 91933
   },
   {
+   "relate": "番外篇",
+   "src": 76686,
+   "dst": 67230
+  },
+  {
    "relate": "续集",
    "src": 76686,
    "dst": 91933
+  },
+  {
+   "relate": "番外篇",
+   "src": 76702,
+   "dst": 1361
   },
   {
    "relate": "前传",
@@ -73,6 +115,11 @@
    "relate": "主线故事",
    "src": 108738,
    "dst": 1361
+  },
+  {
+   "relate": "不同演绎",
+   "src": 212264,
+   "dst": 1458
   }
  ]
 }

@@ -2,6 +2,30 @@
  "id": 211437,
  "node": [
   {
+   "id": 1266,
+   "name": "交響詩篇エウレカセブン",
+   "nameCN": "交响诗篇",
+   "image": "//lain.bgm.tv/pic/cover/m/8e/2c/1266_h6m69.jpg"
+  },
+  {
+   "id": 1759,
+   "name": "交響詩篇エウレカセブン ポケットが虹でいっぱい",
+   "nameCN": "交响诗篇 彩虹满载",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/1b/1759_wh40e.jpg"
+  },
+  {
+   "id": 29259,
+   "name": "エウレカセブンAO",
+   "nameCN": "交响诗篇AO",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/37/29259_zYeF1.jpg"
+  },
+  {
+   "id": 45143,
+   "name": "エウレカセブンAO -ユングフラウの花々たち-",
+   "nameCN": "交响诗篇AO 少女之花",
+   "image": "//lain.bgm.tv/pic/cover/m/73/e4/49633_lXbwh.jpg"
+  },
+  {
    "id": 211437,
    "name": "交響詩篇エウレカセブン ハイエボリューション1",
    "nameCN": "交响诗篇 Hi-Evolution 1",
@@ -22,9 +46,59 @@
  ],
  "relate": [
   {
+   "relate": "不同世界观",
+   "src": 1266,
+   "dst": 1759
+  },
+  {
+   "relate": "续集",
+   "src": 1266,
+   "dst": 29259
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1266,
+   "dst": 211439
+  },
+  {
+   "relate": "不同世界观",
+   "src": 1759,
+   "dst": 1266
+  },
+  {
+   "relate": "前传",
+   "src": 29259,
+   "dst": 1266
+  },
+  {
+   "relate": "不同世界观",
+   "src": 29259,
+   "dst": 1759
+  },
+  {
+   "relate": "番外篇",
+   "src": 29259,
+   "dst": 45143
+  },
+  {
+   "relate": "主线故事",
+   "src": 45143,
+   "dst": 29259
+  },
+  {
+   "relate": "不同演绎",
+   "src": 211437,
+   "dst": 1266
+  },
+  {
    "relate": "续集",
    "src": 211437,
    "dst": 211438
+  },
+  {
+   "relate": "不同演绎",
+   "src": 211438,
+   "dst": 1266
   },
   {
    "relate": "前传",
@@ -35,6 +109,11 @@
    "relate": "续集",
    "src": 211438,
    "dst": 211439
+  },
+  {
+   "relate": "不同演绎",
+   "src": 211439,
+   "dst": 1266
   },
   {
    "relate": "前传",

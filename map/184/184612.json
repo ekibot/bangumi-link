@@ -2,6 +2,18 @@
  "id": 184612,
  "node": [
   {
+   "id": 99097,
+   "name": "真説 猟奇の檻 第2章",
+   "nameCN": "真说 猎奇之槛 第2章",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/e7/99097_L2Yr6.jpg"
+  },
+  {
+   "id": 99099,
+   "name": "真説 猟奇の檻",
+   "nameCN": "真说 猎奇之槛",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
    "id": 184612,
    "name": "猟奇の檻 ～第3章～",
    "image": "//lain.bgm.tv/pic/cover/m/a5/51/184612_MmM66.jpg"
@@ -15,16 +27,36 @@
   {
    "id": 318540,
    "name": "猟奇の檻 第２章",
+   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/6e/99/318540_mW00R.jpg"
   },
   {
    "id": 318553,
    "name": "猟奇の檻",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/ae/2a/318553_1b97b.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 99097,
+   "dst": 99099
+  },
+  {
+   "relate": "不同演绎",
+   "src": 99097,
+   "dst": 318540
+  },
+  {
+   "relate": "续集",
+   "src": 99099,
+   "dst": 99097
+  },
+  {
+   "relate": "不同演绎",
+   "src": 99099,
+   "dst": 318553
+  },
   {
    "relate": "续集",
    "src": 184612,
@@ -41,6 +73,11 @@
    "dst": 184612
   },
   {
+   "relate": "不同演绎",
+   "src": 318540,
+   "dst": 99097
+  },
+  {
    "relate": "续集",
    "src": 318540,
    "dst": 184612
@@ -49,6 +86,11 @@
    "relate": "前传",
    "src": 318540,
    "dst": 318553
+  },
+  {
+   "relate": "不同演绎",
+   "src": 318553,
+   "dst": 99099
   },
   {
    "relate": "续集",

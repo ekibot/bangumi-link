@@ -2,6 +2,12 @@
  "id": 292792,
  "node": [
   {
+   "id": 282433,
+   "name": "映像研には手を出すな！",
+   "nameCN": "别对映像研出手！",
+   "image": "//lain.bgm.tv/pic/cover/m/5f/18/282433_9wDx9.jpg"
+  },
+  {
    "id": 292792,
    "name": "映画 映像研には手を出すな！",
    "nameCN": "别对映像研出手！",
@@ -12,18 +18,49 @@
    "name": "映像研には手を出すな！",
    "nameCN": "别对映像研出手！",
    "image": "//lain.bgm.tv/pic/cover/m/eb/58/300620_0Jga0.jpg"
+  },
+  {
+   "id": 302614,
+   "name": "映像研ミニアニメ",
+   "nameCN": "映像研迷你动画",
+   "image": "//lain.bgm.tv/pic/cover/m/15/fb/302614_lE2Kz.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 282433,
+   "dst": 300620
+  },
+  {
+   "relate": "衍生",
+   "src": 282433,
+   "dst": 302614
+  },
+  {
+   "relate": "不同演绎",
+   "src": 292792,
+   "dst": 282433
+  },
   {
    "relate": "前传",
    "src": 292792,
    "dst": 300620
   },
   {
+   "relate": "不同演绎",
+   "src": 300620,
+   "dst": 282433
+  },
+  {
    "relate": "续集",
    "src": 300620,
    "dst": 292792
+  },
+  {
+   "relate": "主线故事",
+   "src": 302614,
+   "dst": 282433
   }
  ]
 }

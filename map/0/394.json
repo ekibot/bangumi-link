@@ -18,6 +18,12 @@
    "name": "デジモンストーリー ムーンライト",
    "nameCN": "数码宝贝：月光",
    "image": "//lain.bgm.tv/pic/cover/m/b0/15/11078_ehEEY.jpg"
+  },
+  {
+   "id": 126370,
+   "name": "デジモンストーリー ロストエボリューション",
+   "nameCN": "数码兽物语：失落的进化",
+   "image": "//lain.bgm.tv/pic/cover/m/45/f3/126370_5GUM8.jpg"
   }
  ],
  "relate": [
@@ -27,13 +33,33 @@
    "dst": 11078
   },
   {
+   "relate": "不同演绎",
+   "src": 394,
+   "dst": 126370
+  },
+  {
    "relate": "前传",
    "src": 396,
    "dst": 394
   },
   {
+   "relate": "不同演绎",
+   "src": 396,
+   "dst": 11078
+  },
+  {
    "relate": "前传",
    "src": 11078,
+   "dst": 394
+  },
+  {
+   "relate": "不同演绎",
+   "src": 11078,
+   "dst": 396
+  },
+  {
+   "relate": "不同演绎",
+   "src": 126370,
    "dst": 394
   }
  ]

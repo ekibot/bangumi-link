@@ -2,6 +2,42 @@
  "id": 7564,
  "node": [
   {
+   "id": 40,
+   "name": "仙劍奇俠傳",
+   "nameCN": "仙剑奇侠传",
+   "image": "//lain.bgm.tv/pic/cover/m/d6/45/40_rQawC.jpg"
+  },
+  {
+   "id": 41,
+   "name": "新仙劍奇俠傳",
+   "nameCN": "新仙剑奇侠传",
+   "image": "//lain.bgm.tv/pic/cover/m/34/16/41_CPRJ7.jpg"
+  },
+  {
+   "id": 42,
+   "name": "仙劍奇俠傳二",
+   "nameCN": "仙剑奇侠传二",
+   "image": "//lain.bgm.tv/pic/cover/m/a1/d0/42_FQaC7.jpg"
+  },
+  {
+   "id": 43,
+   "name": "仙劍奇俠傳三",
+   "nameCN": "仙剑奇侠传三",
+   "image": "//lain.bgm.tv/pic/cover/m/17/e6/43_3u213.jpg"
+  },
+  {
+   "id": 44,
+   "name": "仙剑奇侠传三外传：问情篇",
+   "nameCN": "仙剑奇侠传三外传：问情篇",
+   "image": "//lain.bgm.tv/pic/cover/m/f7/17/44_qCoto.jpg"
+  },
+  {
+   "id": 45,
+   "name": "仙剑奇侠传四",
+   "nameCN": "仙剑奇侠传四",
+   "image": "//lain.bgm.tv/pic/cover/m/6c/83/45_Hurm9.jpg"
+  },
+  {
    "id": 7564,
    "name": "仙剑奇侠传五",
    "nameCN": "仙剑奇侠传五",
@@ -12,18 +48,132 @@
    "name": "仙剑奇侠传五前传",
    "nameCN": "仙剑奇侠传五前传",
    "image": "//lain.bgm.tv/pic/cover/m/83/0c/45315_kQ1jH.jpg"
+  },
+  {
+   "id": 119717,
+   "name": "仙剑奇侠传六",
+   "nameCN": "仙剑奇侠传六",
+   "image": "//lain.bgm.tv/pic/cover/m/86/57/119717_dWDqa.jpg"
+  },
+  {
+   "id": 167660,
+   "name": "仙剑奇侠传：幻璃镜",
+   "nameCN": "仙剑奇侠传：幻璃镜",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/b5/167660_Y5ApN.jpg"
+  },
+  {
+   "id": 167835,
+   "name": "仙剑奇侠传五前传（手游）",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/a3/167835_FDFJJ.jpg"
+  },
+  {
+   "id": 193168,
+   "name": "仙剑奇侠传七",
+   "nameCN": "仙剑奇侠传七",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/79/193168_R9i4Z.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 40,
+   "dst": 41
+  },
+  {
+   "relate": "续集",
+   "src": 40,
+   "dst": 42
+  },
+  {
+   "relate": "相同世界观",
+   "src": 40,
+   "dst": 119717
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41,
+   "dst": 40
+  },
+  {
+   "relate": "前传",
+   "src": 42,
+   "dst": 40
+  },
+  {
+   "relate": "相同世界观",
+   "src": 42,
+   "dst": 44
+  },
+  {
+   "relate": "续集",
+   "src": 43,
+   "dst": 44
+  },
+  {
+   "relate": "相同世界观",
+   "src": 43,
+   "dst": 7564
+  },
+  {
+   "relate": "相同世界观",
+   "src": 44,
+   "dst": 40
+  },
+  {
+   "relate": "前传",
+   "src": 44,
+   "dst": 43
+  },
+  {
+   "relate": "相同世界观",
+   "src": 45,
+   "dst": 44
+  },
   {
    "relate": "前传",
    "src": 7564,
    "dst": 45315
   },
   {
+   "relate": "相同世界观",
+   "src": 7564,
+   "dst": 119717
+  },
+  {
    "relate": "续集",
    "src": 45315,
    "dst": 7564
+  },
+  {
+   "relate": "相同世界观",
+   "src": 45315,
+   "dst": 119717
+  },
+  {
+   "relate": "不同演绎",
+   "src": 45315,
+   "dst": 167835
+  },
+  {
+   "relate": "相同世界观",
+   "src": 119717,
+   "dst": 193168
+  },
+  {
+   "relate": "相同世界观",
+   "src": 167660,
+   "dst": 45
+  },
+  {
+   "relate": "不同演绎",
+   "src": 167835,
+   "dst": 45315
+  },
+  {
+   "relate": "相同世界观",
+   "src": 193168,
+   "dst": 119717
   }
  ]
 }

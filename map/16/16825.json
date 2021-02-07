@@ -2,6 +2,18 @@
  "id": 16825,
  "node": [
   {
+   "id": 2304,
+   "name": "機動戦士ガンダム ガンダムVS.ガンダム",
+   "nameCN": "机动战士高达：高达 VS.高达",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/c2/2304_1wNex.jpg"
+  },
+  {
+   "id": 4594,
+   "name": "機動戦士ガンダム ガンダムvs.ガンダムNEXT PLUS",
+   "nameCN": "高达vs高达 NEXT PLUS",
+   "image": "//lain.bgm.tv/pic/cover/m/28/65/4594_35S5B.jpg"
+  },
+  {
    "id": 16825,
    "name": "機動戦士ガンダムSEED 連合vs.Z.A.F.T.",
    "nameCN": "机动战士高达SEED 联合VS扎夫特",
@@ -12,18 +24,156 @@
    "name": "機動戦士ガンダムSEED DESTINY 連合vs.Z.A.F.T.II",
    "nameCN": "机动战士高达SEED DESTINY 联合VS扎夫特2",
    "image": "//lain.bgm.tv/pic/cover/m/db/b6/20263_Mm5r9.jpg"
+  },
+  {
+   "id": 22565,
+   "name": "機動戦士ガンダム EXTREME VS.",
+   "nameCN": "机动战士高达 EXTREME VS.",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/57/22565_Orwpl.jpg"
+  },
+  {
+   "id": 37587,
+   "name": "機動戦士ガンダム EXTREME VS. FULL BOOST",
+   "nameCN": "机动战士高达 EXTREME VS. FULL BOOST",
+   "image": "//lain.bgm.tv/pic/cover/m/97/70/37587_iAWWd.jpg"
+  },
+  {
+   "id": 100414,
+   "name": "機動戦士ガンダム EXTREME VS. MAXI BOOST",
+   "nameCN": "机动战士高达 EXTREME VS. MAXI BOOST",
+   "image": "//lain.bgm.tv/pic/cover/m/8c/dd/100414_s7a7S.jpg"
+  },
+  {
+   "id": 147134,
+   "name": "機動戦士ガンダム EXTREME VS-FORCE",
+   "nameCN": "机动战士高达 EXTREME VS-FORCE",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/db/147134_MicTv.jpg"
+  },
+  {
+   "id": 213352,
+   "name": "ガンダムバーサス",
+   "nameCN": "高达VERSUS",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/18/213352_4f3ON.jpg"
+  },
+  {
+   "id": 293753,
+   "name": "機動戦士ガンダム EXTREME VS. 2",
+   "nameCN": "机动战士高达 EXTREME VS. 2",
+   "image": "//lain.bgm.tv/pic/cover/m/09/b8/293753_HivW7.jpg"
+  },
+  {
+   "id": 298304,
+   "name": "機動戦士ガンダム EXTREME VS. MAXI BOOST ON",
+   "nameCN": "机动战士高达 EXTREME VS. MAXI BOOST ON",
+   "image": "//lain.bgm.tv/pic/cover/m/89/70/298304_vOAlt.jpg"
+  },
+  {
+   "id": 298655,
+   "name": "機動戦士ガンダム EXTREME VS. 2 XBOOST",
+   "nameCN": "机动战士高达 EXTREME VS. 2 XBOOST",
+   "image": "//lain.bgm.tv/pic/cover/m/66/6b/298655_n7Wk0.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 2304,
+   "dst": 4594
+  },
+  {
+   "relate": "不同世界观",
+   "src": 2304,
+   "dst": 20263
+  },
+  {
+   "relate": "前传",
+   "src": 4594,
+   "dst": 2304
+  },
+  {
+   "relate": "续集",
+   "src": 4594,
+   "dst": 22565
+  },
   {
    "relate": "续集",
    "src": 16825,
    "dst": 20263
   },
   {
+   "relate": "不同世界观",
+   "src": 20263,
+   "dst": 2304
+  },
+  {
    "relate": "前传",
    "src": 20263,
    "dst": 16825
+  },
+  {
+   "relate": "前传",
+   "src": 22565,
+   "dst": 4594
+  },
+  {
+   "relate": "续集",
+   "src": 22565,
+   "dst": 37587
+  },
+  {
+   "relate": "前传",
+   "src": 37587,
+   "dst": 22565
+  },
+  {
+   "relate": "续集",
+   "src": 37587,
+   "dst": 100414
+  },
+  {
+   "relate": "前传",
+   "src": 100414,
+   "dst": 37587
+  },
+  {
+   "relate": "续集",
+   "src": 100414,
+   "dst": 298304
+  },
+  {
+   "relate": "主线故事",
+   "src": 147134,
+   "dst": 100414
+  },
+  {
+   "relate": "前传",
+   "src": 213352,
+   "dst": 298304
+  },
+  {
+   "relate": "前传",
+   "src": 293753,
+   "dst": 298304
+  },
+  {
+   "relate": "续集",
+   "src": 293753,
+   "dst": 298655
+  },
+  {
+   "relate": "前传",
+   "src": 298304,
+   "dst": 100414
+  },
+  {
+   "relate": "续集",
+   "src": 298304,
+   "dst": 293753
+  },
+  {
+   "relate": "前传",
+   "src": 298655,
+   "dst": 293753
   }
  ]
 }

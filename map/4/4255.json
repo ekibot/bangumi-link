@@ -14,10 +14,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/59/2b/20547_Fqawr.jpg"
   },
   {
+   "id": 69944,
+   "name": "サーバント×サービス",
+   "nameCN": "跟班×服务",
+   "image": "//lain.bgm.tv/pic/cover/m/b0/46/69944_FZmY2.jpg"
+  },
+  {
    "id": 110648,
    "name": "WORKING!!!",
    "nameCN": "迷糊餐厅 第三季",
    "image": "//lain.bgm.tv/pic/cover/m/59/dc/110648_52R1q.jpg"
+  },
+  {
+   "id": 176599,
+   "name": "WWW.WORKING!!",
+   "nameCN": "WWW.迷糊餐厅",
+   "image": "//lain.bgm.tv/pic/cover/m/69/61/176599_Dqhsx.jpg"
   }
  ],
  "relate": [
@@ -25,6 +37,11 @@
    "relate": "续集",
    "src": 4255,
    "dst": 20547
+  },
+  {
+   "relate": "相同世界观",
+   "src": 4255,
+   "dst": 176599
   },
   {
    "relate": "前传",
@@ -37,9 +54,29 @@
    "dst": 110648
   },
   {
+   "relate": "相同世界观",
+   "src": 20547,
+   "dst": 176599
+  },
+  {
+   "relate": "相同世界观",
+   "src": 69944,
+   "dst": 4255
+  },
+  {
    "relate": "前传",
    "src": 110648,
    "dst": 20547
+  },
+  {
+   "relate": "相同世界观",
+   "src": 110648,
+   "dst": 176599
+  },
+  {
+   "relate": "相同世界观",
+   "src": 176599,
+   "dst": 4255
   }
  ]
 }

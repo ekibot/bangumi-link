@@ -2,23 +2,74 @@
  "id": 22423,
  "node": [
   {
+   "id": 2714,
+   "name": "H2O ～FOOTPRINTS IN THE SAND～",
+   "image": "//lain.bgm.tv/pic/cover/m/b6/28/2714_KsLD0.jpg"
+  },
+  {
+   "id": 6870,
+   "name": "√after and another",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/e4/74/6870_v7IK7.jpg"
+  },
+  {
    "id": 22423,
    "name": "サクラノ詩 —櫻の森の上を舞う—",
    "nameCN": "樱之诗：在樱花之森上飞舞",
    "image": "//lain.bgm.tv/pic/cover/m/71/f7/22423_SksK2.jpg"
   },
   {
+   "id": 130208,
+   "name": "サクラノ詩 -The tear flows because of tenderness.- 春ノ雪",
+   "nameCN": "樱之诗 ～春之雪～",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/cd/130208_164E2.jpg"
+  },
+  {
    "id": 220921,
    "name": "サクラノ刻　-櫻の森の下を歩む-",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/35/d0/220921_JZxtU.jpg"
   }
  ],
  "relate": [
   {
    "relate": "续集",
+   "src": 2714,
+   "dst": 6870
+  },
+  {
+   "relate": "相同世界观",
+   "src": 2714,
+   "dst": 22423
+  },
+  {
+   "relate": "前传",
+   "src": 6870,
+   "dst": 2714
+  },
+  {
+   "relate": "相同世界观",
+   "src": 6870,
+   "dst": 22423
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22423,
+   "dst": 2714
+  },
+  {
+   "relate": "不同演绎",
+   "src": 22423,
+   "dst": 130208
+  },
+  {
+   "relate": "续集",
    "src": 22423,
    "dst": 220921
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130208,
+   "dst": 22423
   },
   {
    "relate": "前传",

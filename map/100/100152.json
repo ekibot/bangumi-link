@@ -2,6 +2,42 @@
  "id": 100152,
  "node": [
   {
+   "id": 1719,
+   "name": "クローバーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "三叶草之国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/f3/14/1719_PZV6e.jpg"
+  },
+  {
+   "id": 4429,
+   "name": "ハートの国のアリス 〜Wonderful Wonder World〜",
+   "nameCN": "心之国的爱丽丝：Wonderful Wonder World",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/d6/4429_13Nd6.jpg"
+  },
+  {
+   "id": 5934,
+   "name": "ジョーカーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "小丑国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/85/5934_DbbrS.jpg"
+  },
+  {
+   "id": 5935,
+   "name": "アニバーサリーの国のアリス～ Wonderful Wonder World ～",
+   "nameCN": "纪念日之国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/23/4d/5935_8kmKk.jpg"
+  },
+  {
+   "id": 42811,
+   "name": "ダイヤの国のアリス～Wonderful Wonder World～",
+   "nameCN": "方块国的爱丽丝～ Wonderful Wonder World ～",
+   "image": "//lain.bgm.tv/pic/cover/m/16/d6/42811_X7Nq1.jpg"
+  },
+  {
+   "id": 65755,
+   "name": "ダイヤの国のアリス～Wonderful Mirror World～",
+   "nameCN": "方块国的爱丽丝～Wonderful Mirror World～",
+   "image": "//lain.bgm.tv/pic/cover/m/9b/fa/65755_bzbQq.jpg"
+  },
+  {
    "id": 100152,
    "name": "ハートの国のアリス～Wonderful twin world～",
    "nameCN": "心之国的爱丽丝～Wonderful twin world～",
@@ -16,9 +52,69 @@
  ],
  "relate": [
   {
+   "relate": "前传",
+   "src": 1719,
+   "dst": 4429
+  },
+  {
+   "relate": "续集",
+   "src": 1719,
+   "dst": 5934
+  },
+  {
+   "relate": "续集",
+   "src": 4429,
+   "dst": 1719
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4429,
+   "dst": 101081
+  },
+  {
+   "relate": "前传",
+   "src": 5934,
+   "dst": 1719
+  },
+  {
+   "relate": "续集",
+   "src": 5934,
+   "dst": 5935
+  },
+  {
+   "relate": "前传",
+   "src": 5935,
+   "dst": 5934
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5935,
+   "dst": 42811
+  },
+  {
+   "relate": "不同演绎",
+   "src": 5935,
+   "dst": 101081
+  },
+  {
+   "relate": "相同世界观",
+   "src": 42811,
+   "dst": 5935
+  },
+  {
+   "relate": "相同世界观",
+   "src": 65755,
+   "dst": 5935
+  },
+  {
    "relate": "主线故事",
    "src": 100152,
    "dst": 101081
+  },
+  {
+   "relate": "不同演绎",
+   "src": 101081,
+   "dst": 4429
   }
  ]
 }

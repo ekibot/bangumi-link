@@ -2,6 +2,18 @@
  "id": 241979,
  "node": [
   {
+   "id": 20503,
+   "name": "涼風",
+   "nameCN": "凉风",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/63/20503_4mWqs.jpg"
+  },
+  {
+   "id": 22722,
+   "name": "君のいる町",
+   "nameCN": "有你的小镇",
+   "image": "//lain.bgm.tv/pic/cover/m/69/7f/22722_sFSfJ.jpg"
+  },
+  {
    "id": 96538,
    "name": "風夏",
    "nameCN": "风夏",
@@ -12,13 +24,60 @@
    "name": "風夏 ヤっちゃう!? ヒロインとの妄想初体験 SPECIAL EDITION",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/bd/33/241979_LP1Pg.jpg"
+  },
+  {
+   "id": 247810,
+   "name": "ヒットマン",
+   "nameCN": "HITMAN",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/a9/247810_t6A11.jpg"
+  },
+  {
+   "id": 300257,
+   "name": "君のいる町 妄想200話 SPECIAL EDITION",
+   "nameCN": "有你的小镇 妄想200话",
+   "image": "//lain.bgm.tv/pic/cover/m/c8/af/300257_r7Ff8.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 20503,
+   "dst": 96538
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22722,
+   "dst": 96538
+  },
+  {
+   "relate": "番外篇",
+   "src": 22722,
+   "dst": 300257
+  },
+  {
+   "relate": "相同世界观",
+   "src": 96538,
+   "dst": 20503
+  },
+  {
+   "relate": "番外篇",
+   "src": 96538,
+   "dst": 241979
+  },
+  {
    "relate": "主线故事",
    "src": 241979,
    "dst": 96538
+  },
+  {
+   "relate": "相同世界观",
+   "src": 247810,
+   "dst": 22722
+  },
+  {
+   "relate": "主线故事",
+   "src": 300257,
+   "dst": 22722
   }
  ]
 }

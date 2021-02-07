@@ -2,6 +2,16 @@
  "id": 30140,
  "node": [
   {
+   "id": 15736,
+   "name": "神曲奏界ポリフォニカ プラス",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/43/15736_878T6.jpg"
+  },
+  {
+   "id": 16843,
+   "name": "神曲奏界ポリフォニカ アフタースクール パーフェクトエディション",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/b9/16843_bLnqd.jpg"
+  },
+  {
    "id": 30139,
    "name": "神曲奏界ポリフォニカ 1&2話",
    "nameCN": "神曲奏界polyphonica",
@@ -12,9 +22,40 @@
    "name": "神曲奏界ポリフォニカ 3&4話　完結編",
    "nameCN": "神曲奏界polyphonica",
    "image": "//lain.bgm.tv/pic/cover/m/8b/ef/30140_y2wyy.jpg"
+  },
+  {
+   "id": 78520,
+   "name": "神曲奏界ポリフォニカ F",
+   "nameCN": "神曲奏界F",
+   "image": "//lain.bgm.tv/pic/cover/m/25/d1/78520_2AxY9.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 15736,
+   "dst": 16843
+  },
+  {
+   "relate": "续集",
+   "src": 15736,
+   "dst": 78520
+  },
+  {
+   "relate": "续集",
+   "src": 16843,
+   "dst": 15736
+  },
+  {
+   "relate": "不同演绎",
+   "src": 16843,
+   "dst": 30139
+  },
+  {
+   "relate": "不同演绎",
+   "src": 30139,
+   "dst": 16843
+  },
   {
    "relate": "续集",
    "src": 30139,
@@ -23,6 +64,21 @@
   {
    "relate": "前传",
    "src": 30140,
+   "dst": 30139
+  },
+  {
+   "relate": "不同演绎",
+   "src": 30140,
+   "dst": 78520
+  },
+  {
+   "relate": "前传",
+   "src": 78520,
+   "dst": 15736
+  },
+  {
+   "relate": "不同演绎",
+   "src": 78520,
    "dst": 30139
   }
  ]

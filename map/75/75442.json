@@ -2,6 +2,12 @@
  "id": 75442,
  "node": [
   {
+   "id": 1795,
+   "name": "戦国ランス",
+   "nameCN": "战国兰斯",
+   "image": "//lain.bgm.tv/pic/cover/m/07/31/1795_CgxQU.jpg"
+  },
+  {
    "id": 11158,
    "name": "鬼畜王ランス",
    "nameCN": "鬼畜王兰斯",
@@ -11,6 +17,24 @@
    "id": 11161,
    "name": "Rance5D －ひとりぼっちの女の子－",
    "nameCN": "兰斯5D：孤单的女孩子",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 11168,
+   "name": "Rance6 －ゼス崩壊－",
+   "nameCN": "兰斯6 - 赛斯崩坏 -",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 16845,
+   "name": "アリス2010",
+   "nameCN": "爱丽丝2010",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/a0/16845_h7O8t.jpg"
+  },
+  {
+   "id": 19750,
+   "name": "ランス・クエスト",
+   "nameCN": "兰斯8",
    "image": "/img/no_icon_subject.png"
   },
   {
@@ -56,6 +80,18 @@
    "image": "//lain.bgm.tv/pic/cover/m/17/ab/83997_sU8hT.jpg"
   },
   {
+   "id": 88739,
+   "name": "ランス9 ヘルマン革命",
+   "nameCN": "兰斯9 赫尔曼革命",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 98078,
+   "name": "ランス・クエスト マグナム",
+   "nameCN": "兰斯8 Magnum (IF资料片)",
+   "image": "//lain.bgm.tv/pic/cover/m/52/c7/98078_Tg3B0.jpg"
+  },
+  {
    "id": 118055,
    "name": "Rance2 －反逆の少女たち－",
    "nameCN": "兰斯2 -反逆的少女们-",
@@ -66,9 +102,46 @@
    "name": "ランス03 リーザス陥落",
    "nameCN": "兰斯03 利萨斯陷落",
    "image": "//lain.bgm.tv/pic/cover/m/61/c7/134929_f3y1M.jpg"
+  },
+  {
+   "id": 226254,
+   "name": "ランス10",
+   "nameCN": "兰斯10 -决战-",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 301624,
+   "name": "ALICEの館7",
+   "nameCN": "爱丽丝之馆7",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/12/301624_6dvo2.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 1795,
+   "dst": 11158
+  },
+  {
+   "relate": "前传",
+   "src": 1795,
+   "dst": 11168
+  },
+  {
+   "relate": "续集",
+   "src": 1795,
+   "dst": 19750
+  },
+  {
+   "relate": "前传",
+   "src": 16845,
+   "dst": 301624
+  },
+  {
+   "relate": "不同演绎",
+   "src": 75442,
+   "dst": 80316
+  },
   {
    "relate": "续集",
    "src": 75442,
@@ -83,6 +156,16 @@
    "relate": "前传",
    "src": 76134,
    "dst": 118055
+  },
+  {
+   "relate": "不同演绎",
+   "src": 76134,
+   "dst": 134929
+  },
+  {
+   "relate": "不同演绎",
+   "src": 80316,
+   "dst": 75442
   },
   {
    "relate": "续集",
@@ -115,14 +198,54 @@
    "dst": 83856
   },
   {
+   "relate": "不同演绎",
+   "src": 98078,
+   "dst": 11158
+  },
+  {
+   "relate": "主线故事",
+   "src": 98078,
+   "dst": 19750
+  },
+  {
+   "relate": "续集",
+   "src": 98078,
+   "dst": 88739
+  },
+  {
    "relate": "前传",
    "src": 134929,
    "dst": 75508
   },
   {
+   "relate": "不同演绎",
+   "src": 134929,
+   "dst": 76134
+  },
+  {
    "relate": "续集",
    "src": 134929,
    "dst": 83856
+  },
+  {
+   "relate": "不同演绎",
+   "src": 226254,
+   "dst": 11158
+  },
+  {
+   "relate": "前传",
+   "src": 226254,
+   "dst": 88739
+  },
+  {
+   "relate": "主线故事",
+   "src": 301624,
+   "dst": 11168
+  },
+  {
+   "relate": "续集",
+   "src": 301624,
+   "dst": 16845
   }
  ]
 }

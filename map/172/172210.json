@@ -2,6 +2,30 @@
  "id": 172210,
  "node": [
   {
+   "id": 8622,
+   "name": "楽しいムーミン一家",
+   "nameCN": "姆明一族",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/52/8622_uUg1U.jpg"
+  },
+  {
+   "id": 9268,
+   "name": "楽しいムーミン一家 冒険日記",
+   "nameCN": "姆明一族 冒险日记",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/ac/9268_B34J1.jpg"
+  },
+  {
+   "id": 171034,
+   "name": "楽しいムーミン一家 ムーミン谷の彗星",
+   "nameCN": "姆明一族 姆明谷的彗星",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/ba/171034_TPpB2.jpg"
+  },
+  {
+   "id": 171943,
+   "name": "Moomins on the Riviera",
+   "nameCN": "姆明一族 漫游蓝湾",
+   "image": "//lain.bgm.tv/pic/cover/m/52/37/171943_eP10D.jpg"
+  },
+  {
    "id": 172210,
    "name": "The Moomins",
    "nameCN": "姆明一族",
@@ -12,18 +36,110 @@
    "name": "Moomins and the Comet Chase",
    "nameCN": "姆明谷的彗星来袭",
    "image": "//lain.bgm.tv/pic/cover/m/e9/80/172220_1aDL5.jpg"
+  },
+  {
+   "id": 172223,
+   "name": "ムーミン",
+   "nameCN": "姆明",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/e5/172223_UJL4J.jpg"
+  },
+  {
+   "id": 172256,
+   "name": "新ムーミン",
+   "nameCN": "新姆明",
+   "image": "//lain.bgm.tv/pic/cover/m/d6/69/172256_ZXDzT.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 8622,
+   "dst": 9268
+  },
+  {
+   "relate": "相同世界观",
+   "src": 8622,
+   "dst": 171943
+  },
+  {
+   "relate": "不同演绎",
+   "src": 8622,
+   "dst": 172210
+  },
+  {
+   "relate": "前传",
+   "src": 9268,
+   "dst": 8622
+  },
+  {
+   "relate": "续集",
+   "src": 9268,
+   "dst": 171034
+  },
+  {
+   "relate": "相同世界观",
+   "src": 9268,
+   "dst": 171943
+  },
+  {
+   "relate": "不同演绎",
+   "src": 9268,
+   "dst": 172210
+  },
+  {
+   "relate": "前传",
+   "src": 171034,
+   "dst": 9268
+  },
+  {
+   "relate": "不同演绎",
+   "src": 171034,
+   "dst": 172210
+  },
+  {
+   "relate": "相同世界观",
+   "src": 171943,
+   "dst": 8622
+  },
+  {
+   "relate": "不同演绎",
+   "src": 171943,
+   "dst": 172210
+  },
+  {
+   "relate": "不同演绎",
+   "src": 172210,
+   "dst": 9268
+  },
   {
    "relate": "续集",
    "src": 172210,
    "dst": 172220
   },
   {
+   "relate": "不同演绎",
+   "src": 172220,
+   "dst": 171034
+  },
+  {
    "relate": "前传",
    "src": 172220,
    "dst": 172210
+  },
+  {
+   "relate": "不同演绎",
+   "src": 172223,
+   "dst": 8622
+  },
+  {
+   "relate": "续集",
+   "src": 172223,
+   "dst": 172256
+  },
+  {
+   "relate": "前传",
+   "src": 172256,
+   "dst": 172223
   }
  ]
 }

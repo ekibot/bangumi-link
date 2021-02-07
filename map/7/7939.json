@@ -2,10 +2,28 @@
  "id": 7939,
  "node": [
   {
+   "id": 867,
+   "name": "シークレットゲーム -KILLER QUEEN-",
+   "nameCN": "秘密游戏 杀手皇后",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/e7/867_jWJQ5.jpg"
+  },
+  {
+   "id": 6945,
+   "name": "キラークイーン",
+   "nameCN": "血杀女王",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/98/6945_WjEjj.jpg"
+  },
+  {
    "id": 7939,
    "name": "シークレットゲーム -KILLER QUEEN-DEPTH EDITION",
    "nameCN": "Secret Game -KILLER QUEEN- DEPTH EDITION",
    "image": "//lain.bgm.tv/pic/cover/m/43/82/15840_s8fLC.jpg"
+  },
+  {
+   "id": 55359,
+   "name": "リベリオンズ Secret Game 2nd Stage",
+   "nameCN": "秘密游戏 第二舞台",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/ac/55359_qT011.jpg"
   },
   {
    "id": 83209,
@@ -16,14 +34,44 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 867,
+   "dst": 7939
+  },
+  {
+   "relate": "相同世界观",
+   "src": 6945,
+   "dst": 7939
+  },
+  {
+   "relate": "不同演绎",
+   "src": 7939,
+   "dst": 867
+  },
+  {
+   "relate": "相同世界观",
+   "src": 7939,
+   "dst": 6945
+  },
+  {
    "relate": "续集",
    "src": 7939,
+   "dst": 83209
+  },
+  {
+   "relate": "不同演绎",
+   "src": 55359,
    "dst": 83209
   },
   {
    "relate": "前传",
    "src": 83209,
    "dst": 7939
+  },
+  {
+   "relate": "不同演绎",
+   "src": 83209,
+   "dst": 55359
   }
  ]
 }

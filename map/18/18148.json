@@ -8,22 +8,64 @@
    "image": "//lain.bgm.tv/pic/cover/m/46/02/18148_Py185.jpg"
   },
   {
+   "id": 58612,
+   "name": "AKIBA'S TRIP PLUS",
+   "nameCN": "秋叶原之旅 PLUS",
+   "image": "//lain.bgm.tv/pic/cover/m/d7/16/58612_72rR2.jpg"
+  },
+  {
    "id": 82369,
    "name": "AKIBA'S TRIP 2",
    "nameCN": "秋叶原之旅Ⅱ",
    "image": "//lain.bgm.tv/pic/cover/m/d8/30/82369_sgSQ0.jpg"
+  },
+  {
+   "id": 192794,
+   "name": "AKIBA'S TRIP -THE ANIMATION-",
+   "nameCN": "秋叶原之旅",
+   "image": "//lain.bgm.tv/pic/cover/m/35/f9/192794_4tOOw.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 18148,
+   "dst": 58612
+  },
   {
    "relate": "续集",
    "src": 18148,
    "dst": 82369
   },
   {
+   "relate": "相同世界观",
+   "src": 18148,
+   "dst": 192794
+  },
+  {
+   "relate": "不同演绎",
+   "src": 58612,
+   "dst": 18148
+  },
+  {
+   "relate": "相同世界观",
+   "src": 58612,
+   "dst": 82369
+  },
+  {
    "relate": "前传",
    "src": 82369,
    "dst": 18148
+  },
+  {
+   "relate": "相同世界观",
+   "src": 82369,
+   "dst": 58612
+  },
+  {
+   "relate": "相同世界观",
+   "src": 82369,
+   "dst": 192794
   }
  ]
 }

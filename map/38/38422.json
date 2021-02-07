@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/c1/4b/38422_JivN5.jpg"
   },
   {
+   "id": 47560,
+   "name": "ヴァンパイア クロニクル ザ カオス タワー",
+   "nameCN": "恶魔战士编年史 混沌之塔",
+   "image": "//lain.bgm.tv/pic/cover/m/25/39/47560_D5gDd.jpg"
+  },
+  {
    "id": 74611,
    "name": "ヴァンパイア The Night Warriors",
    "nameCN": "恶魔战士 午夜斗士",
@@ -24,6 +30,18 @@
    "name": "ヴァンパイア セイヴァー The Lord of Vampire",
    "nameCN": "恶魔救世主 吸血鬼之王",
    "image": "//lain.bgm.tv/pic/cover/m/0c/7b/74614_GtBbT.jpg"
+  },
+  {
+   "id": 248893,
+   "name": "ヴァンパイア ダークストーカーズコレクション",
+   "nameCN": "恶魔战士合集",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/4b/248893_c477K.jpg"
+  },
+  {
+   "id": 268313,
+   "name": "VAMPIRE RESURRECTION",
+   "nameCN": "恶魔战士 复活",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/59/268313_BrguK.jpg"
   }
  ],
  "relate": [
@@ -33,9 +51,19 @@
    "dst": 74613
   },
   {
+   "relate": "不同演绎",
+   "src": 47560,
+   "dst": 74614
+  },
+  {
    "relate": "续集",
    "src": 74611,
    "dst": 74613
+  },
+  {
+   "relate": "不同演绎",
+   "src": 74611,
+   "dst": 248893
   },
   {
    "relate": "前传",
@@ -48,8 +76,28 @@
    "dst": 74614
   },
   {
+   "relate": "不同演绎",
+   "src": 74613,
+   "dst": 248893
+  },
+  {
+   "relate": "不同演绎",
+   "src": 74614,
+   "dst": 47560
+  },
+  {
    "relate": "前传",
    "src": 74614,
+   "dst": 74613
+  },
+  {
+   "relate": "不同演绎",
+   "src": 248893,
+   "dst": 74611
+  },
+  {
+   "relate": "不同演绎",
+   "src": 268313,
    "dst": 74613
   }
  ]

@@ -2,6 +2,12 @@
  "id": 265837,
  "node": [
   {
+   "id": 213821,
+   "name": "The Young Indiana Jones Chronicles Season 1",
+   "nameCN": "少年印第安纳琼斯大冒险 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/60/213821_4ZJCy.jpg"
+  },
+  {
    "id": 265837,
    "name": "Indiana Jones and the Temple of Doom",
    "nameCN": "夺宝奇兵2",
@@ -18,9 +24,29 @@
    "name": "Raiders of the Lost Ark",
    "nameCN": "夺宝奇兵",
    "image": "//lain.bgm.tv/pic/cover/m/b5/e3/266426_a28S5.jpg"
+  },
+  {
+   "id": 271844,
+   "name": "The Young Indiana Jones Chronicles Season 2",
+   "nameCN": "少年印第安纳琼斯大冒险 第二季"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 213821,
+   "dst": 265837
+  },
+  {
+   "relate": "续集",
+   "src": 213821,
+   "dst": 271844
+  },
+  {
+   "relate": "相同世界观",
+   "src": 265837,
+   "dst": 213821
+  },
   {
    "relate": "续集",
    "src": 265837,
@@ -32,14 +58,29 @@
    "dst": 266426
   },
   {
+   "relate": "相同世界观",
+   "src": 266004,
+   "dst": 213821
+  },
+  {
    "relate": "前传",
    "src": 266004,
    "dst": 265837
   },
   {
+   "relate": "相同世界观",
+   "src": 266426,
+   "dst": 213821
+  },
+  {
    "relate": "续集",
    "src": 266426,
    "dst": 265837
+  },
+  {
+   "relate": "前传",
+   "src": 271844,
+   "dst": 213821
   }
  ]
 }

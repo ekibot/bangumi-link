@@ -2,10 +2,22 @@
  "id": 148793,
  "node": [
   {
+   "id": 24169,
+   "name": "魔女と百騎兵",
+   "nameCN": "魔女与百骑兵",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/9d/24169_sl8uI.jpg"
+  },
+  {
    "id": 148793,
    "name": "ルフランの地下迷宮と魔女ノ旅団",
    "nameCN": "鲁弗兰的地下迷宫与魔女的旅团",
    "image": "//lain.bgm.tv/pic/cover/m/88/bd/148793_ZisY7.jpg"
+  },
+  {
+   "id": 195116,
+   "name": "魔女と百騎兵2",
+   "nameCN": "魔女与百骑兵2",
+   "image": "//lain.bgm.tv/pic/cover/m/f6/8f/195116_Eye93.jpg"
   },
   {
    "id": 279054,
@@ -16,9 +28,29 @@
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 24169,
+   "dst": 148793
+  },
+  {
+   "relate": "续集",
+   "src": 24169,
+   "dst": 195116
+  },
+  {
+   "relate": "相同世界观",
+   "src": 148793,
+   "dst": 24169
+  },
+  {
    "relate": "续集",
    "src": 148793,
    "dst": 279054
+  },
+  {
+   "relate": "前传",
+   "src": 195116,
+   "dst": 24169
   },
   {
    "relate": "前传",

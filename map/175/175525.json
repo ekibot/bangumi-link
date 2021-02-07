@@ -2,6 +2,12 @@
  "id": 175525,
  "node": [
   {
+   "id": 175424,
+   "name": "活撃 刀剣乱舞",
+   "nameCN": "活击 刀剑乱舞",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/b0/175424_hmh7H.jpg"
+  },
+  {
    "id": 175525,
    "name": "刀剣乱舞-花丸-",
    "nameCN": "刀剑乱舞-花丸-",
@@ -14,19 +20,61 @@
    "image": "//lain.bgm.tv/pic/cover/m/e6/3e/208370_2LT6G.jpg"
   },
   {
+   "id": 219623,
+   "name": "活撃 刀剣乱舞 ラジオの陣",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/d7/219623_PfPI4.jpg"
+  },
+  {
    "id": 219625,
    "name": "安定・清光の『花丸通信』",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/e6/0b/219625_Zzb6P.jpg"
   },
   {
+   "id": 226440,
+   "name": "活撃 刀剣乱舞 劇場版",
+   "nameCN": "活击 刀剑乱舞 剧场版"
+  },
+  {
    "id": 226599,
    "name": "刀剣乱舞-花丸- ～幕間回想録～",
    "nameCN": "刀剑乱舞-花丸- ～幕间回想录～",
    "image": "//lain.bgm.tv/pic/cover/m/ec/ad/226599_MjJgI.jpg"
+  },
+  {
+   "id": 239831,
+   "name": "映画刀剣乱舞",
+   "nameCN": "电影 刀剑乱舞",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/1d/239831_OcwYu.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同世界观",
+   "src": 175424,
+   "dst": 175525
+  },
+  {
+   "relate": "衍生",
+   "src": 175424,
+   "dst": 219623
+  },
+  {
+   "relate": "续集",
+   "src": 175424,
+   "dst": 226440
+  },
+  {
+   "relate": "不同演绎",
+   "src": 175424,
+   "dst": 239831
+  },
+  {
+   "relate": "不同世界观",
+   "src": 175525,
+   "dst": 175424
+  },
   {
    "relate": "续集",
    "src": 175525,
@@ -43,14 +91,29 @@
    "dst": 226599
   },
   {
+   "relate": "不同演绎",
+   "src": 175525,
+   "dst": 239831
+  },
+  {
    "relate": "前传",
    "src": 208370,
    "dst": 175525
   },
   {
    "relate": "主线故事",
+   "src": 219623,
+   "dst": 175424
+  },
+  {
+   "relate": "主线故事",
    "src": 219625,
    "dst": 175525
+  },
+  {
+   "relate": "前传",
+   "src": 226440,
+   "dst": 175424
   },
   {
    "relate": "全集",
@@ -61,6 +124,11 @@
    "relate": "续集",
    "src": 226599,
    "dst": 208370
+  },
+  {
+   "relate": "不同演绎",
+   "src": 239831,
+   "dst": 175424
   }
  ]
 }

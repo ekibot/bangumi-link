@@ -2,6 +2,30 @@
  "id": 127424,
  "node": [
   {
+   "id": 18573,
+   "name": "Magic: The Gathering - Duels of the Planeswalkers",
+   "nameCN": "万智牌：旅法师对决",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/c5/18573_1FTNG.jpg"
+  },
+  {
+   "id": 19125,
+   "name": "Magic: The Gathering - Duels of the Planeswalkers 2012",
+   "nameCN": "万智牌：旅法师对决2012",
+   "image": "//lain.bgm.tv/pic/cover/m/3a/98/19125_rDDKd.jpg"
+  },
+  {
+   "id": 50762,
+   "name": "Magic: The Gathering - Duels of the Planeswalkers 2013",
+   "nameCN": "万智牌：旅法师对决2013",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/c1/50762_bgXqc.jpg"
+  },
+  {
+   "id": 109772,
+   "name": "Magic: The Gathering - Duels of the Planeswalkers 2015",
+   "nameCN": "万智牌：旅法师对决2015",
+   "image": "//lain.bgm.tv/pic/cover/m/74/41/109772_4escs.jpg"
+  },
+  {
    "id": 122048,
    "name": "Magic The Gathering",
    "nameCN": "万智牌",
@@ -12,13 +36,69 @@
    "name": "Magic Duels: Origins",
    "nameCN": "万智牌对决：起源",
    "image": "//lain.bgm.tv/pic/cover/m/a0/c6/127424_yZaz0.jpg"
+  },
+  {
+   "id": 222124,
+   "name": "Magic: The Gathering - Duels of the Planeswalkers 2014",
+   "nameCN": "万智牌：旅法师对决2014",
+   "image": "//lain.bgm.tv/pic/cover/m/63/42/222124_1HNdg.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 18573,
+   "dst": 19125
+  },
+  {
+   "relate": "前传",
+   "src": 19125,
+   "dst": 18573
+  },
+  {
+   "relate": "续集",
+   "src": 19125,
+   "dst": 50762
+  },
+  {
+   "relate": "前传",
+   "src": 50762,
+   "dst": 19125
+  },
+  {
+   "relate": "续集",
+   "src": 50762,
+   "dst": 222124
+  },
+  {
+   "relate": "相同世界观",
+   "src": 109772,
+   "dst": 127424
+  },
+  {
+   "relate": "前传",
+   "src": 109772,
+   "dst": 222124
+  },
+  {
+   "relate": "相同世界观",
+   "src": 127424,
+   "dst": 19125
+  },
+  {
    "relate": "主线故事",
    "src": 127424,
    "dst": 122048
+  },
+  {
+   "relate": "前传",
+   "src": 222124,
+   "dst": 50762
+  },
+  {
+   "relate": "续集",
+   "src": 222124,
+   "dst": 109772
   }
  ]
 }

@@ -2,6 +2,23 @@
  "id": 119614,
  "node": [
   {
+   "id": 16970,
+   "name": "華ヤカ哉、我ガ一族",
+   "nameCN": "华丽一族",
+   "image": "//lain.bgm.tv/pic/cover/m/81/63/16970_dD6wl.jpg"
+  },
+  {
+   "id": 24875,
+   "name": "華ヤカ哉、我ガ一族 キネマモザイク",
+   "image": "//lain.bgm.tv/pic/cover/m/4e/85/24875_93883.jpg"
+  },
+  {
+   "id": 46295,
+   "name": "華ヤカ哉、我ガ一族 黄昏ポウラスタ",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/d8/bc/46295_u99uH.jpg"
+  },
+  {
    "id": 119614,
    "name": "華ヤカ哉、我ガ一族 モダンノスタルジィ",
    "image": "//lain.bgm.tv/pic/cover/m/c2/80/119614_uUqlz.jpg"
@@ -11,18 +28,79 @@
    "name": "華ヤカ哉、我ガ一族 幻燈ノスタルジィ",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/df/59/126010_PhmEU.jpg"
+  },
+  {
+   "id": 224582,
+   "name": "天涯ニ舞ウ、粋ナ花",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/27/db/224582_PMqxd.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 16970,
+   "dst": 119614
+  },
+  {
+   "relate": "相同世界观",
+   "src": 16970,
+   "dst": 224582
+  },
+  {
+   "relate": "主线故事",
+   "src": 24875,
+   "dst": 16970
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24875,
+   "dst": 126010
+  },
+  {
+   "relate": "主线故事",
+   "src": 46295,
+   "dst": 16970
+  },
+  {
+   "relate": "不同演绎",
+   "src": 46295,
+   "dst": 126010
+  },
+  {
+   "relate": "不同演绎",
+   "src": 119614,
+   "dst": 16970
+  },
   {
    "relate": "续集",
    "src": 119614,
    "dst": 126010
   },
   {
+   "relate": "相同世界观",
+   "src": 119614,
+   "dst": 224582
+  },
+  {
+   "relate": "不同演绎",
+   "src": 126010,
+   "dst": 24875
+  },
+  {
    "relate": "前传",
    "src": 126010,
    "dst": 119614
+  },
+  {
+   "relate": "相同世界观",
+   "src": 126010,
+   "dst": 224582
+  },
+  {
+   "relate": "相同世界观",
+   "src": 224582,
+   "dst": 16970
   }
  ]
 }

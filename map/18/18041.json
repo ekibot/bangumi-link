@@ -2,6 +2,12 @@
  "id": 18041,
  "node": [
   {
+   "id": 2741,
+   "name": "タッチ",
+   "nameCN": "棒球英豪",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/cb/2741_q4C0T.jpg"
+  },
+  {
    "id": 18041,
    "name": "タッチ 背番号のないエース",
    "nameCN": "棒球英豪 没有背号的王牌投手",
@@ -20,17 +26,54 @@
    "image": "//lain.bgm.tv/pic/cover/m/0c/7a/18047_KTV1l.jpg"
   },
   {
+   "id": 18048,
+   "name": "タッチ Miss Lonely Yesterday あれから君は…",
+   "nameCN": "棒球英豪 在那之后的你",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/42/18048_81QaW.jpg"
+  },
+  {
    "id": 18049,
    "name": "タッチ CROSS ROAD〜風のゆくえ〜",
    "nameCN": "棒球英豪 风之速",
    "image": "//lain.bgm.tv/pic/cover/m/af/f2/18049_944Mm.jpg"
+  },
+  {
+   "id": 255980,
+   "name": "MIX MEISEI STORY",
+   "nameCN": "MIX：明青故事",
+   "image": "//lain.bgm.tv/pic/cover/m/bd/2f/255980_QS121.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 2741,
+   "dst": 18041
+  },
+  {
+   "relate": "番外篇",
+   "src": 2741,
+   "dst": 18048
+  },
+  {
+   "relate": "续集",
+   "src": 2741,
+   "dst": 255980
+  },
+  {
+   "relate": "不同演绎",
+   "src": 18041,
+   "dst": 2741
+  },
+  {
    "relate": "续集",
    "src": 18041,
    "dst": 18046
+  },
+  {
+   "relate": "不同演绎",
+   "src": 18046,
+   "dst": 2741
   },
   {
    "relate": "前传",
@@ -43,6 +86,11 @@
    "dst": 18047
   },
   {
+   "relate": "不同演绎",
+   "src": 18047,
+   "dst": 2741
+  },
+  {
    "relate": "前传",
    "src": 18047,
    "dst": 18046
@@ -53,9 +101,19 @@
    "dst": 18049
   },
   {
+   "relate": "主线故事",
+   "src": 18048,
+   "dst": 2741
+  },
+  {
    "relate": "前传",
    "src": 18049,
    "dst": 18047
+  },
+  {
+   "relate": "前传",
+   "src": 255980,
+   "dst": 2741
   }
  ]
 }

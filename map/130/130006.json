@@ -2,10 +2,34 @@
  "id": 130006,
  "node": [
   {
+   "id": 67943,
+   "name": "DOUBLE DRAGON II The Revenge",
+   "nameCN": "双截龙II",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/e2/67943_YrUr9.jpg"
+  },
+  {
+   "id": 67944,
+   "name": "DOUBLE DRAGON III The Rosetta Stone",
+   "nameCN": "双截龙III",
+   "image": "//lain.bgm.tv/pic/cover/m/56/08/67944_xHMu5.jpg"
+  },
+  {
+   "id": 207689,
+   "name": "Double Dragon IV",
+   "nameCN": "双截龙IV",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/2e/207689_7178j.jpg"
+  },
+  {
    "id": 259611,
    "name": "DOUBLE DRAGON",
    "nameCN": "双截龙",
    "image": "//lain.bgm.tv/pic/cover/m/dd/17/259611_wR36R.jpg"
+  },
+  {
+   "id": 259612,
+   "name": "DOUBLE DRAGON",
+   "nameCN": "双截龙",
+   "image": "//lain.bgm.tv/pic/cover/m/3b/cd/259612_gkeFl.jpg"
   },
   {
    "id": 259613,
@@ -23,8 +47,63 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 67943,
+   "dst": 67944
+  },
+  {
+   "relate": "前传",
+   "src": 67943,
+   "dst": 259612
+  },
+  {
+   "relate": "不同演绎",
+   "src": 67943,
+   "dst": 259613
+  },
+  {
+   "relate": "前传",
+   "src": 67944,
+   "dst": 67943
+  },
+  {
+   "relate": "续集",
+   "src": 67944,
+   "dst": 207689
+  },
+  {
+   "relate": "不同演绎",
+   "src": 67944,
+   "dst": 259614
+  },
+  {
+   "relate": "前传",
+   "src": 207689,
+   "dst": 67944
+  },
+  {
+   "relate": "不同演绎",
+   "src": 259611,
+   "dst": 259612
+  },
+  {
+   "relate": "续集",
    "src": 259611,
    "dst": 259613
+  },
+  {
+   "relate": "续集",
+   "src": 259612,
+   "dst": 67943
+  },
+  {
+   "relate": "不同演绎",
+   "src": 259612,
+   "dst": 259611
+  },
+  {
+   "relate": "不同演绎",
+   "src": 259613,
+   "dst": 67943
   },
   {
    "relate": "前传",
@@ -35,6 +114,11 @@
    "relate": "续集",
    "src": 259613,
    "dst": 259614
+  },
+  {
+   "relate": "不同演绎",
+   "src": 259614,
+   "dst": 67944
   },
   {
    "relate": "前传",

@@ -14,10 +14,58 @@
    "image": "//lain.bgm.tv/pic/cover/m/70/c6/393_ajp.jpg"
   },
   {
+   "id": 22669,
+   "name": "聖剣伝説4",
+   "nameCN": "圣剑传说4",
+   "image": "//lain.bgm.tv/pic/cover/m/94/0f/22669_DJLJ0.jpg"
+  },
+  {
+   "id": 37653,
+   "name": "聖剣伝説2",
+   "nameCN": "圣剑传说2",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/f0/37653_mCCDh.jpg"
+  },
+  {
+   "id": 52377,
+   "name": "聖剣伝説3",
+   "nameCN": "圣剑传说3",
+   "image": "//lain.bgm.tv/pic/cover/m/e8/7d/52377_jooJl.jpg"
+  },
+  {
+   "id": 52378,
+   "name": "聖剣伝説 〜ファイナルファンタジー外伝〜",
+   "nameCN": "圣剑传说 ～最终幻想外传～",
+   "image": "//lain.bgm.tv/pic/cover/m/db/51/52378_Exmsh.jpg"
+  },
+  {
+   "id": 54314,
+   "name": "新約 聖剣伝説",
+   "nameCN": "新约圣剑传说",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/64/54314_55Km0.jpg"
+  },
+  {
    "id": 63857,
    "name": "聖剣伝説 LEGEND OF MANA",
    "nameCN": "圣剑传说 玛娜传奇",
    "image": "//lain.bgm.tv/pic/cover/m/12/c9/63857_g0RH4.jpg"
+  },
+  {
+   "id": 211741,
+   "name": "聖剣伝説コレクション",
+   "nameCN": "圣剑传说：收藏版",
+   "image": "//lain.bgm.tv/pic/cover/m/ff/74/211741_5J0nA.jpg"
+  },
+  {
+   "id": 282570,
+   "name": "聖剣伝説2 SECRET of MANA",
+   "nameCN": "圣剑传说2 重制版",
+   "image": "//lain.bgm.tv/pic/cover/m/1b/3a/282570_pvPUv.jpg"
+  },
+  {
+   "id": 284507,
+   "name": "聖剣伝説3 TRIALS of MANA",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/61/5a/284507_7A1Ad.jpg"
   }
  ],
  "relate": [
@@ -37,9 +85,84 @@
    "dst": 389
   },
   {
+   "relate": "前传",
+   "src": 22669,
+   "dst": 52377
+  },
+  {
+   "relate": "续集",
+   "src": 37653,
+   "dst": 52377
+  },
+  {
+   "relate": "前传",
+   "src": 37653,
+   "dst": 52378
+  },
+  {
+   "relate": "不同演绎",
+   "src": 37653,
+   "dst": 282570
+  },
+  {
+   "relate": "续集",
+   "src": 52377,
+   "dst": 22669
+  },
+  {
+   "relate": "前传",
+   "src": 52377,
+   "dst": 37653
+  },
+  {
+   "relate": "不同演绎",
+   "src": 52377,
+   "dst": 284507
+  },
+  {
+   "relate": "续集",
+   "src": 52378,
+   "dst": 37653
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52378,
+   "dst": 63857
+  },
+  {
+   "relate": "不同演绎",
+   "src": 52378,
+   "dst": 211741
+  },
+  {
+   "relate": "不同演绎",
+   "src": 54314,
+   "dst": 52378
+  },
+  {
    "relate": "续集",
    "src": 63857,
    "dst": 389
+  },
+  {
+   "relate": "相同世界观",
+   "src": 63857,
+   "dst": 52378
+  },
+  {
+   "relate": "不同演绎",
+   "src": 211741,
+   "dst": 37653
+  },
+  {
+   "relate": "不同演绎",
+   "src": 282570,
+   "dst": 37653
+  },
+  {
+   "relate": "不同演绎",
+   "src": 284507,
+   "dst": 52377
   }
  ]
 }

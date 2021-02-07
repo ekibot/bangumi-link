@@ -18,6 +18,17 @@
    "name": "ひまわり -Pebble in the Sky-",
    "nameCN": "向日葵：天空鹅卵石",
    "image": "//lain.bgm.tv/pic/cover/m/d1/e5/103496_7ZFx8.jpg"
+  },
+  {
+   "id": 150191,
+   "name": "ISLAND",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/69/62/150191_BtQpr.jpg"
+  },
+  {
+   "id": 182337,
+   "name": "SILENTWORLD",
+   "image": "//lain.bgm.tv/pic/cover/m/b7/8d/182337_jp.jpg"
   }
  ],
  "relate": [
@@ -27,14 +38,54 @@
    "dst": 8029
   },
   {
+   "relate": "不同演绎",
+   "src": 5916,
+   "dst": 103496
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5916,
+   "dst": 150191
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5916,
+   "dst": 182337
+  },
+  {
    "relate": "前传",
    "src": 8029,
+   "dst": 5916
+  },
+  {
+   "relate": "不同演绎",
+   "src": 103496,
    "dst": 5916
   },
   {
    "relate": "续集",
    "src": 103496,
    "dst": 8029
+  },
+  {
+   "relate": "相同世界观",
+   "src": 103496,
+   "dst": 150191
+  },
+  {
+   "relate": "相同世界观",
+   "src": 103496,
+   "dst": 182337
+  },
+  {
+   "relate": "相同世界观",
+   "src": 150191,
+   "dst": 103496
+  },
+  {
+   "relate": "相同世界观",
+   "src": 150191,
+   "dst": 182337
   }
  ]
 }

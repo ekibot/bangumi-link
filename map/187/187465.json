@@ -2,6 +2,54 @@
  "id": 187465,
  "node": [
   {
+   "id": 2175,
+   "name": "THE SKULLMAN",
+   "nameCN": "骷髅人",
+   "image": "//lain.bgm.tv/pic/cover/m/21/1c/2175_4IW5J.jpg"
+  },
+  {
+   "id": 13604,
+   "name": "サイボーグ009",
+   "nameCN": "人造人009",
+   "image": "//lain.bgm.tv/pic/cover/m/a7/70/13604_6cbmq.jpg"
+  },
+  {
+   "id": 13605,
+   "name": "サイボーグ009",
+   "nameCN": "人造人009",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/66/13605_Xg3V7.jpg"
+  },
+  {
+   "id": 13607,
+   "name": "サイボーグ009 THE CYBORG SOLDIER",
+   "nameCN": "人造人009",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/79/13607_mDRDS.jpg"
+  },
+  {
+   "id": 24053,
+   "name": "009 RE:CYBORG",
+   "nameCN": "RE:人造人009",
+   "image": "//lain.bgm.tv/pic/cover/m/e3/fc/24053_FR5ur.jpg"
+  },
+  {
+   "id": 110922,
+   "name": "サイボーグ009",
+   "nameCN": "人造人009 剧场版",
+   "image": "//lain.bgm.tv/pic/cover/m/7d/60/110922_Ayonb.jpg"
+  },
+  {
+   "id": 110923,
+   "name": "サイボーグ009 怪獣戦争",
+   "nameCN": "人造人009 怪兽战争",
+   "image": "//lain.bgm.tv/pic/cover/m/bd/c4/110923_bG5mp.jpg"
+  },
+  {
+   "id": 143040,
+   "name": "サイボーグ009 超銀河伝説",
+   "nameCN": "人造人009 超银河传说",
+   "image": "//lain.bgm.tv/pic/cover/m/a2/83/143040_62MSB.jpg"
+  },
+  {
    "id": 187465,
    "name": "CYBORG009 CALL OF JUSTICE 第1章",
    "nameCN": "人造人009 CALL OF JUSTICE 第1章",
@@ -27,6 +75,61 @@
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 13604,
+   "dst": 13607
+  },
+  {
+   "relate": "不同演绎",
+   "src": 13605,
+   "dst": 24053
+  },
+  {
+   "relate": "衍生",
+   "src": 13605,
+   "dst": 143040
+  },
+  {
+   "relate": "前传",
+   "src": 13607,
+   "dst": 2175
+  },
+  {
+   "relate": "不同演绎",
+   "src": 13607,
+   "dst": 24053
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24053,
+   "dst": 187465
+  },
+  {
+   "relate": "不同演绎",
+   "src": 110922,
+   "dst": 13604
+  },
+  {
+   "relate": "续集",
+   "src": 110922,
+   "dst": 110923
+  },
+  {
+   "relate": "前传",
+   "src": 110923,
+   "dst": 110922
+  },
+  {
+   "relate": "主线故事",
+   "src": 143040,
+   "dst": 13605
+  },
+  {
+   "relate": "不同演绎",
+   "src": 187465,
+   "dst": 13604
+  },
   {
    "relate": "续集",
    "src": 187465,

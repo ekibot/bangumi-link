@@ -4,6 +4,7 @@
   {
    "id": 6610,
    "name": "愛と混乱のレストラン",
+   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/94/73/6610_jp.jpg"
   },
   {
@@ -14,7 +15,6 @@
   {
    "id": 6613,
    "name": "唇にキス 舌の上に愛",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/31/03/6613_jp.jpg"
   },
   {
@@ -31,6 +31,11 @@
    "dst": 6612
   },
   {
+   "relate": "番外篇",
+   "src": 6610,
+   "dst": 6614
+  },
+  {
    "relate": "前传",
    "src": 6612,
    "dst": 6610
@@ -41,9 +46,19 @@
    "dst": 6613
   },
   {
+   "relate": "番外篇",
+   "src": 6612,
+   "dst": 6614
+  },
+  {
    "relate": "前传",
    "src": 6613,
    "dst": 6612
+  },
+  {
+   "relate": "番外篇",
+   "src": 6613,
+   "dst": 6614
   },
   {
    "relate": "主线故事",

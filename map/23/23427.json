@@ -2,6 +2,17 @@
  "id": 23427,
  "node": [
   {
+   "id": 18370,
+   "name": "ティンクル☆くるせいだーす GoGo!",
+   "image": "//lain.bgm.tv/pic/cover/m/fb/1f/18370_bi9Pn.jpg"
+  },
+  {
+   "id": 20119,
+   "name": "プリンセスうぃっちぃず",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/81/82/20119_pcf1M.jpg"
+  },
+  {
    "id": 23427,
    "name": "ティンクル☆くるせいだーす -Passion Star Stream-",
    "nameCN": "闪耀十字军PSS",
@@ -12,18 +23,54 @@
    "name": "ティンクル☆くるせいだーす",
    "nameCN": "闪耀十字军",
    "image": "//lain.bgm.tv/pic/cover/m/e7/4f/26648_5A6lf.jpg"
+  },
+  {
+   "id": 269183,
+   "name": "ティンクル☆くるせいだーす STARLIT BRAVE XTREAM！！",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/1b/1d/269183_zhzi2.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 18370,
+   "dst": 26648
+  },
+  {
+   "relate": "相同世界观",
+   "src": 20119,
+   "dst": 23427
+  },
+  {
+   "relate": "相同世界观",
+   "src": 23427,
+   "dst": 20119
+  },
   {
    "relate": "前传",
    "src": 23427,
    "dst": 26648
   },
   {
+   "relate": "不同演绎",
+   "src": 23427,
+   "dst": 269183
+  },
+  {
+   "relate": "不同演绎",
+   "src": 26648,
+   "dst": 18370
+  },
+  {
    "relate": "续集",
    "src": 26648,
    "dst": 23427
+  },
+  {
+   "relate": "不同演绎",
+   "src": 269183,
+   "dst": 18370
   }
  ]
 }

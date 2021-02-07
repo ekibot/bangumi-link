@@ -2,10 +2,28 @@
  "id": 36128,
  "node": [
   {
+   "id": 7747,
+   "name": "風雲決",
+   "nameCN": "风云决",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/f2/7747_Bl8Fb.jpg"
+  },
+  {
+   "id": 36045,
+   "name": "風雲：雄霸天下",
+   "nameCN": "风云：雄霸天下",
+   "image": "//lain.bgm.tv/pic/cover/m/12/78/36045_1T677.jpg"
+  },
+  {
    "id": 36128,
    "name": "風雲：雄霸天下",
    "nameCN": "风云：雄霸天下",
    "image": "//lain.bgm.tv/pic/cover/m/b2/71/36128_TT9nG.jpg"
+  },
+  {
+   "id": 123392,
+   "name": "風雲II",
+   "nameCN": "风云II",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/76/123392_sDJrb.jpg"
   },
   {
    "id": 257510,
@@ -16,9 +34,34 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 7747,
+   "dst": 36045
+  },
+  {
+   "relate": "不同演绎",
+   "src": 36045,
+   "dst": 36128
+  },
+  {
+   "relate": "续集",
+   "src": 36045,
+   "dst": 123392
+  },
+  {
+   "relate": "不同演绎",
+   "src": 36128,
+   "dst": 7747
+  },
+  {
    "relate": "续集",
    "src": 36128,
    "dst": 257510
+  },
+  {
+   "relate": "前传",
+   "src": 123392,
+   "dst": 36045
   },
   {
    "relate": "前传",

@@ -8,22 +8,59 @@
    "image": "//lain.bgm.tv/pic/cover/m/73/23/3504_Q97Xc.jpg"
   },
   {
+   "id": 86839,
+   "name": "Red Dead Revolver",
+   "nameCN": "荒野大镖客",
+   "image": "//lain.bgm.tv/pic/cover/m/11/6a/86839_Qf6N5.jpg"
+  },
+  {
    "id": 195573,
    "name": "Red Dead Redemption 2",
    "nameCN": "荒野大镖客：救赎2",
    "image": "//lain.bgm.tv/pic/cover/m/37/c0/195573_aJut2.jpg"
+  },
+  {
+   "id": 321226,
+   "name": "Red Dead Online",
+   "nameCN": "荒野大镖客 在线模式",
+   "image": "//lain.bgm.tv/pic/cover/m/72/27/321226_9m8nn.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 3504,
+   "dst": 86839
+  },
   {
    "relate": "续集",
    "src": 3504,
    "dst": 195573
   },
   {
+   "relate": "相同世界观",
+   "src": 86839,
+   "dst": 3504
+  },
+  {
    "relate": "前传",
    "src": 195573,
    "dst": 3504
+  },
+  {
+   "relate": "相同世界观",
+   "src": 195573,
+   "dst": 86839
+  },
+  {
+   "relate": "不同演绎",
+   "src": 195573,
+   "dst": 321226
+  },
+  {
+   "relate": "不同演绎",
+   "src": 321226,
+   "dst": 195573
   }
  ]
 }

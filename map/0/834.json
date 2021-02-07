@@ -2,6 +2,11 @@
  "id": 834,
  "node": [
   {
+   "id": 348,
+   "name": "三國志DS2",
+   "image": "//lain.bgm.tv/pic/cover/m/01/38/348_ajp.jpg"
+  },
+  {
    "id": 834,
    "name": "三國志XI",
    "nameCN": "三国志11",
@@ -42,6 +47,24 @@
    "name": "三國志VII",
    "nameCN": "三国志7",
    "image": "//lain.bgm.tv/pic/cover/m/d2/a9/138493_lz3jJ.jpg"
+  },
+  {
+   "id": 140791,
+   "name": "三國志2 （3DS）",
+   "nameCN": "三国志2（3DS）",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/92/140791_Zfj9F.jpg"
+  },
+  {
+   "id": 140894,
+   "name": "三國志 （3DS）",
+   "nameCN": "三国志（3DS）",
+   "image": "//lain.bgm.tv/pic/cover/m/34/f1/140894_sUiGu.jpg"
+  },
+  {
+   "id": 208915,
+   "name": "三國志DS",
+   "nameCN": "三国志DS",
+   "image": "//lain.bgm.tv/pic/cover/m/e3/f2/208915_zw8Pw.jpg"
   },
   {
    "id": 216411,
@@ -87,6 +110,11 @@
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 348,
+   "dst": 208915
+  },
   {
    "relate": "前传",
    "src": 834,
@@ -158,6 +186,36 @@
    "dst": 216411
   },
   {
+   "relate": "前传",
+   "src": 140791,
+   "dst": 140894
+  },
+  {
+   "relate": "不同演绎",
+   "src": 140791,
+   "dst": 208915
+  },
+  {
+   "relate": "续集",
+   "src": 140894,
+   "dst": 140791
+  },
+  {
+   "relate": "不同演绎",
+   "src": 140894,
+   "dst": 306799
+  },
+  {
+   "relate": "续集",
+   "src": 208915,
+   "dst": 348
+  },
+  {
+   "relate": "不同演绎",
+   "src": 208915,
+   "dst": 140791
+  },
+  {
    "relate": "续集",
    "src": 216411,
    "dst": 138493
@@ -183,6 +241,11 @@
    "dst": 134329
   },
   {
+   "relate": "不同演绎",
+   "src": 306799,
+   "dst": 140894
+  },
+  {
    "relate": "续集",
    "src": 306799,
    "dst": 216411
@@ -191,6 +254,11 @@
    "relate": "前传",
    "src": 306799,
    "dst": 221163
+  },
+  {
+   "relate": "不同演绎",
+   "src": 306800,
+   "dst": 140791
   },
   {
    "relate": "续集",

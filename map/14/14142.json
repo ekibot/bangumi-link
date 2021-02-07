@@ -2,10 +2,40 @@
  "id": 14142,
  "node": [
   {
+   "id": 171,
+   "name": "Grand Theft Auto IV",
+   "nameCN": "侠盗猎车手4",
+   "image": "//lain.bgm.tv/pic/cover/m/a4/a0/171_aus.jpg"
+  },
+  {
+   "id": 347,
+   "name": "Grand Theft Auto: San Andreas",
+   "nameCN": "侠盗猎车手：圣安地列斯",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/ff/347_EEys5.jpg"
+  },
+  {
+   "id": 9555,
+   "name": "Grand Theft Auto: Vice City",
+   "nameCN": "侠盗猎车手：罪恶都市",
+   "image": "//lain.bgm.tv/pic/cover/m/8f/f3/9555_zXif0.jpg"
+  },
+  {
+   "id": 14140,
+   "name": "Grand Theft Auto: Vice City Stories",
+   "nameCN": "侠盗猎车手：罪恶都市故事",
+   "image": "//lain.bgm.tv/pic/cover/m/8d/a3/14140_ttJnP.jpg"
+  },
+  {
    "id": 14142,
    "name": "Grand Theft Auto: Liberty City Stories",
    "nameCN": "侠盗猎车手：自由城故事",
    "image": "//lain.bgm.tv/pic/cover/m/b3/04/14142_DDSOX.jpg"
+  },
+  {
+   "id": 14143,
+   "name": "Grand Theft Auto: Chinatown Wars",
+   "nameCN": "侠盗猎车手 唐人街战争",
+   "image": "//lain.bgm.tv/pic/cover/m/8e/53/14143_Jf3kk.jpg"
   },
   {
    "id": 27468,
@@ -14,22 +44,126 @@
    "image": "//lain.bgm.tv/pic/cover/m/1b/2c/27468_nVSrv.jpg"
   },
   {
+   "id": 30448,
+   "name": "Grand Theft Auto IV: Episodes from Liberty City",
+   "nameCN": "侠盗猎车4自由城之章",
+   "image": "//lain.bgm.tv/pic/cover/m/72/21/30448_7h1Tk.jpg"
+  },
+  {
+   "id": 56705,
+   "name": "Grand Theft Auto V",
+   "nameCN": "侠盗猎车手5",
+   "image": "//lain.bgm.tv/pic/cover/m/b4/79/56705_eFoam.jpg"
+  },
+  {
+   "id": 81373,
+   "name": "Grand Theft Auto Online",
+   "nameCN": "侠盗猎车手OL",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/e2/81373_4cZux.jpg"
+  },
+  {
    "id": 84104,
    "name": "Grand Theft Auto Advance",
    "nameCN": "侠盗猎车手Advance",
    "image": "//lain.bgm.tv/pic/cover/m/ad/0b/84104_s93gj.jpg"
+  },
+  {
+   "id": 84308,
+   "name": "Grand Theft Auto IV：The Lost and Damned",
+   "nameCN": "侠盗猎车手4 失落与诅咒",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/f2/84308_4vlo7.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 171,
+   "dst": 14143
+  },
+  {
+   "relate": "不同世界观",
+   "src": 171,
+   "dst": 27468
+  },
+  {
+   "relate": "主线故事",
+   "src": 171,
+   "dst": 30448
+  },
+  {
+   "relate": "续集",
+   "src": 171,
+   "dst": 56705
+  },
+  {
+   "relate": "相同世界观",
+   "src": 347,
+   "dst": 9555
+  },
+  {
+   "relate": "相同世界观",
+   "src": 9555,
+   "dst": 347
+  },
+  {
+   "relate": "前传",
+   "src": 9555,
+   "dst": 14140
+  },
+  {
+   "relate": "续集",
+   "src": 14140,
+   "dst": 9555
+  },
+  {
+   "relate": "相同世界观",
+   "src": 14140,
+   "dst": 14142
+  },
+  {
+   "relate": "相同世界观",
+   "src": 14142,
+   "dst": 347
+  },
   {
    "relate": "续集",
    "src": 14142,
    "dst": 27468
   },
   {
+   "relate": "相同世界观",
+   "src": 14143,
+   "dst": 171
+  },
+  {
+   "relate": "不同世界观",
+   "src": 27468,
+   "dst": 171
+  },
+  {
+   "relate": "相同世界观",
+   "src": 27468,
+   "dst": 347
+  },
+  {
    "relate": "前传",
    "src": 27468,
    "dst": 84104
+  },
+  {
+   "relate": "前传",
+   "src": 56705,
+   "dst": 171
+  },
+  {
+   "relate": "不同演绎",
+   "src": 56705,
+   "dst": 81373
+  },
+  {
+   "relate": "不同演绎",
+   "src": 81373,
+   "dst": 56705
   },
   {
    "relate": "前传",
@@ -40,6 +174,11 @@
    "relate": "续集",
    "src": 84104,
    "dst": 27468
+  },
+  {
+   "relate": "主线故事",
+   "src": 84308,
+   "dst": 171
   }
  ]
 }

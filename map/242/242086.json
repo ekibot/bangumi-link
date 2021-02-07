@@ -2,6 +2,27 @@
  "id": 242086,
  "node": [
   {
+   "id": 4244,
+   "name": "大头儿子和小头爸爸",
+   "nameCN": "大头儿子和小头爸爸",
+   "image": "//lain.bgm.tv/pic/cover/m/73/69/4244_9tqq7.jpg"
+  },
+  {
+   "id": 115760,
+   "name": "新大头儿子和小头爸爸",
+   "image": "//lain.bgm.tv/pic/cover/m/dc/61/115760_Nc4AL.jpg"
+  },
+  {
+   "id": 115761,
+   "name": "新大头儿子和小头爸爸之秘密计划",
+   "image": "//lain.bgm.tv/pic/cover/m/d6/6d/115761_8Z8tz.jpg"
+  },
+  {
+   "id": 208095,
+   "name": "新大头儿子和小头爸爸2 一日成才",
+   "image": "//lain.bgm.tv/pic/cover/m/62/e7/208095_Hguci.jpg"
+  },
+  {
    "id": 242086,
    "name": "棉花糖和云朵妈妈",
    "nameCN": "棉花糖和云朵妈妈",
@@ -12,9 +33,60 @@
    "name": "棉花糖和云朵妈妈 第二季",
    "nameCN": "棉花糖和云朵妈妈 第二季",
    "image": "//lain.bgm.tv/pic/cover/m/ac/26/243334_D0gsw.jpg"
+  },
+  {
+   "id": 252631,
+   "name": "新大头儿子和小头爸爸3：俄罗斯奇遇记",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/5f/252631_Ejjnx.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 4244,
+   "dst": 115760
+  },
+  {
+   "relate": "不同演绎",
+   "src": 115760,
+   "dst": 4244
+  },
+  {
+   "relate": "衍生",
+   "src": 115760,
+   "dst": 115761
+  },
+  {
+   "relate": "相同世界观",
+   "src": 115760,
+   "dst": 242086
+  },
+  {
+   "relate": "主线故事",
+   "src": 115761,
+   "dst": 115760
+  },
+  {
+   "relate": "续集",
+   "src": 115761,
+   "dst": 208095
+  },
+  {
+   "relate": "前传",
+   "src": 208095,
+   "dst": 115761
+  },
+  {
+   "relate": "续集",
+   "src": 208095,
+   "dst": 252631
+  },
+  {
+   "relate": "相同世界观",
+   "src": 242086,
+   "dst": 115760
+  },
   {
    "relate": "续集",
    "src": 242086,
@@ -24,6 +96,11 @@
    "relate": "前传",
    "src": 243334,
    "dst": 242086
+  },
+  {
+   "relate": "前传",
+   "src": 252631,
+   "dst": 208095
   }
  ]
 }

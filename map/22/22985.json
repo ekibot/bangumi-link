@@ -26,6 +26,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/a0/94/36269_0E0YK.jpg"
   },
   {
+   "id": 39121,
+   "name": "Simba, il magico leone",
+   "nameCN": "狮子王",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/ee/39121_li5wl.jpg"
+  },
+  {
    "id": 199385,
    "name": "The Lion Guard",
    "nameCN": "狮子护卫队",
@@ -36,6 +42,12 @@
    "name": "The Lion Guard: Return of the Roar",
    "nameCN": "狮子护卫队：咆哮归来",
    "image": "//lain.bgm.tv/pic/cover/m/5d/7b/199386_Ze6gz.jpg"
+  },
+  {
+   "id": 209567,
+   "name": "The Lion King",
+   "nameCN": "狮子王",
+   "image": "//lain.bgm.tv/pic/cover/m/80/b6/209567_h66T3.jpg"
   }
  ],
  "relate": [
@@ -45,9 +57,19 @@
    "dst": 22987
   },
   {
+   "relate": "不同世界观",
+   "src": 22985,
+   "dst": 39121
+  },
+  {
    "relate": "续集",
    "src": 22985,
    "dst": 199385
+  },
+  {
+   "relate": "不同演绎",
+   "src": 22985,
+   "dst": 209567
   },
   {
    "relate": "前传",
@@ -70,6 +92,11 @@
    "dst": 36269
   },
   {
+   "relate": "相同世界观",
+   "src": 22987,
+   "dst": 199385
+  },
+  {
    "relate": "主线故事",
    "src": 36269,
    "dst": 22985
@@ -80,9 +107,19 @@
    "dst": 22985
   },
   {
+   "relate": "相同世界观",
+   "src": 199385,
+   "dst": 22987
+  },
+  {
    "relate": "续集",
    "src": 199386,
    "dst": 199385
+  },
+  {
+   "relate": "不同演绎",
+   "src": 209567,
+   "dst": 22985
   }
  ]
 }

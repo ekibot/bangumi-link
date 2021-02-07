@@ -2,6 +2,18 @@
  "id": 25464,
  "node": [
   {
+   "id": 741,
+   "name": "The Lord of the Rings: The Two Towers",
+   "nameCN": "指环王：双塔奇兵",
+   "image": "//lain.bgm.tv/pic/cover/m/2e/65/741_aus.jpg"
+  },
+  {
+   "id": 743,
+   "name": "Lord of the Rings: Return of the King",
+   "nameCN": "指环王：王者归来",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/57/743_vR297.jpg"
+  },
+  {
    "id": 25462,
    "name": "The Lord of the Rings: The Two Towers",
    "nameCN": "魔戒2：双塔奇兵",
@@ -38,13 +50,80 @@
    "image": "//lain.bgm.tv/pic/cover/m/aa/2d/109452_Mgzm6.jpg"
   },
   {
+   "id": 112693,
+   "name": "The Lord of the Rings",
+   "nameCN": "指环王",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/ab/112693_ao7z5.jpg"
+  },
+  {
    "id": 119806,
    "name": "The Hobbit: The Prelude to The Lord of the Rings",
    "nameCN": "魔戒前传：哈比人历险记",
    "image": "//lain.bgm.tv/pic/cover/m/0c/24/119806_t5R6r.jpg"
+  },
+  {
+   "id": 124525,
+   "name": "The Lord of the Rings: The Fellowship of the Ring",
+   "nameCN": "指环王：护戒使者",
+   "image": "//lain.bgm.tv/pic/cover/m/15/ac/124525_1N92l.jpg"
+  },
+  {
+   "id": 124526,
+   "name": "LEGO The Lord of the Rings",
+   "nameCN": "乐高指环王",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/1d/124526_8m11d.jpg"
+  },
+  {
+   "id": 124527,
+   "name": "LEGO The Hobbit",
+   "nameCN": "乐高霍比特人",
+   "image": "//lain.bgm.tv/pic/cover/m/1e/b9/124527_fe0Qj.jpg"
+  },
+  {
+   "id": 124528,
+   "name": "The Lord of the Rings: War of the Ring",
+   "nameCN": "指环王：魔戒之战",
+   "image": "//lain.bgm.tv/pic/cover/m/38/52/124528_BySyv.jpg"
+  },
+  {
+   "id": 229899,
+   "name": "The Lord of the Rings",
+   "nameCN": "魔戒",
+   "image": "//lain.bgm.tv/pic/cover/m/69/5a/229899_f8nDp.jpg"
+  },
+  {
+   "id": 282510,
+   "name": "The Hobbit",
+   "nameCN": "霍比特人",
+   "image": "//lain.bgm.tv/pic/cover/m/23/62/282510_K3uTW.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 741,
+   "dst": 743
+  },
+  {
+   "relate": "不同演绎",
+   "src": 741,
+   "dst": 25462
+  },
+  {
+   "relate": "前传",
+   "src": 741,
+   "dst": 124525
+  },
+  {
+   "relate": "前传",
+   "src": 743,
+   "dst": 741
+  },
+  {
+   "relate": "不同演绎",
+   "src": 743,
+   "dst": 25465
+  },
   {
    "relate": "前传",
    "src": 25462,
@@ -54,6 +133,16 @@
    "relate": "续集",
    "src": 25462,
    "dst": 25465
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25462,
+   "dst": 112693
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25462,
+   "dst": 229899
   },
   {
    "relate": "续集",
@@ -66,14 +155,39 @@
    "dst": 109452
   },
   {
+   "relate": "不同演绎",
+   "src": 25464,
+   "dst": 112693
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25464,
+   "dst": 229899
+  },
+  {
    "relate": "前传",
    "src": 25465,
    "dst": 25462
   },
   {
+   "relate": "不同演绎",
+   "src": 25465,
+   "dst": 112693
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25465,
+   "dst": 229899
+  },
+  {
    "relate": "续集",
    "src": 83551,
    "dst": 97919
+  },
+  {
+   "relate": "不同演绎",
+   "src": 83551,
+   "dst": 282510
   },
   {
    "relate": "前传",
@@ -96,8 +210,58 @@
    "dst": 97919
   },
   {
+   "relate": "不同演绎",
+   "src": 112693,
+   "dst": 25462
+  },
+  {
    "relate": "主线故事",
    "src": 119806,
+   "dst": 83551
+  },
+  {
+   "relate": "续集",
+   "src": 124525,
+   "dst": 741
+  },
+  {
+   "relate": "不同演绎",
+   "src": 124525,
+   "dst": 25464
+  },
+  {
+   "relate": "不同演绎",
+   "src": 124526,
+   "dst": 25462
+  },
+  {
+   "relate": "前传",
+   "src": 124526,
+   "dst": 124527
+  },
+  {
+   "relate": "不同演绎",
+   "src": 124527,
+   "dst": 83551
+  },
+  {
+   "relate": "续集",
+   "src": 124527,
+   "dst": 124526
+  },
+  {
+   "relate": "不同演绎",
+   "src": 124528,
+   "dst": 25462
+  },
+  {
+   "relate": "不同演绎",
+   "src": 229899,
+   "dst": 25462
+  },
+  {
+   "relate": "不同演绎",
+   "src": 282510,
    "dst": 83551
   }
  ]

@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/15/7e/16114_7Imbx.jpg"
   },
   {
+   "id": 68718,
+   "name": "无尽游戏",
+   "nameCN": "无尽游戏",
+   "image": "//lain.bgm.tv/pic/cover/m/52/f7/68718_K1kQM.jpg"
+  },
+  {
    "id": 184523,
    "name": "血族·迷失乐园篇",
    "image": "//lain.bgm.tv/pic/cover/m/67/bf/184523_3Vap6.jpg"
@@ -15,7 +21,6 @@
   {
    "id": 184524,
    "name": "血族·番茄家园篇",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/2d/7c/184524_453Xh.jpg"
   },
   {
@@ -27,14 +32,29 @@
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 16114,
+   "dst": 68718
+  },
+  {
    "relate": "续集",
    "src": 16114,
    "dst": 184523
   },
   {
+   "relate": "相同世界观",
+   "src": 68718,
+   "dst": 16114
+  },
+  {
    "relate": "前传",
    "src": 184523,
    "dst": 16114
+  },
+  {
+   "relate": "相同世界观",
+   "src": 184523,
+   "dst": 68718
   },
   {
    "relate": "续集",
@@ -47,9 +67,19 @@
    "dst": 187009
   },
   {
+   "relate": "相同世界观",
+   "src": 187009,
+   "dst": 68718
+  },
+  {
    "relate": "前传",
    "src": 187009,
    "dst": 184523
+  },
+  {
+   "relate": "番外篇",
+   "src": 187009,
+   "dst": 184524
   }
  ]
 }

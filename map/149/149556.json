@@ -2,10 +2,28 @@
  "id": 149556,
  "node": [
   {
+   "id": 52519,
+   "name": "MechCommander",
+   "nameCN": "机甲指挥官",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/d1/52519_99XLs.jpg"
+  },
+  {
+   "id": 52520,
+   "name": "MechCommander 2",
+   "nameCN": "机甲指挥官2",
+   "image": "//lain.bgm.tv/pic/cover/m/1b/7f/52520_kbYji.jpg"
+  },
+  {
    "id": 149556,
    "name": "MechWarrior 4: Mercenaries",
    "nameCN": "机甲战士4：雇佣军",
    "image": "//lain.bgm.tv/pic/cover/m/2e/3a/149556_W2ClA.jpg"
+  },
+  {
+   "id": 243907,
+   "name": "BattleTech",
+   "nameCN": "战斗机甲",
+   "image": "//lain.bgm.tv/pic/cover/m/50/2d/243907_6opa1.jpg"
   },
   {
    "id": 293672,
@@ -17,13 +35,68 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 52519,
+   "dst": 52520
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52519,
+   "dst": 149556
+  },
+  {
+   "relate": "不同世界观",
+   "src": 52519,
+   "dst": 243907
+  },
+  {
+   "relate": "前传",
+   "src": 52520,
+   "dst": 52519
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52520,
+   "dst": 149556
+  },
+  {
+   "relate": "不同世界观",
+   "src": 52520,
+   "dst": 243907
+  },
+  {
+   "relate": "相同世界观",
+   "src": 149556,
+   "dst": 52519
+  },
+  {
+   "relate": "不同世界观",
+   "src": 149556,
+   "dst": 243907
+  },
+  {
+   "relate": "续集",
    "src": 149556,
    "dst": 293672
+  },
+  {
+   "relate": "不同世界观",
+   "src": 243907,
+   "dst": 52519
+  },
+  {
+   "relate": "相同世界观",
+   "src": 293672,
+   "dst": 52519
   },
   {
    "relate": "前传",
    "src": 293672,
    "dst": 149556
+  },
+  {
+   "relate": "不同世界观",
+   "src": 293672,
+   "dst": 243907
   }
  ]
 }

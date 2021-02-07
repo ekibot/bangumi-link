@@ -8,10 +8,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/2b/d3/10344_DbAdB.jpg"
   },
   {
+   "id": 33022,
+   "name": "スカーレッドライダーゼクス Ⅰ＋ FD ポータブル",
+   "nameCN": "惊鸿骑士杰克斯　携带版",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/2d/33022_if583.jpg"
+  },
+  {
    "id": 33023,
    "name": "Scared Rider Xechs －STARDUST LOVERS－",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/03/90/33023_ENNnE.jpg"
+  },
+  {
+   "id": 159842,
+   "name": "スカーレッドライダーゼクス Rev.",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/6c/159842_D74dI.jpg"
   }
  ],
  "relate": [
@@ -21,8 +33,28 @@
    "dst": 33023
   },
   {
+   "relate": "不同演绎",
+   "src": 10344,
+   "dst": 159842
+  },
+  {
+   "relate": "不同演绎",
+   "src": 33022,
+   "dst": 33023
+  },
+  {
    "relate": "前传",
    "src": 33023,
+   "dst": 10344
+  },
+  {
+   "relate": "不同演绎",
+   "src": 33023,
+   "dst": 33022
+  },
+  {
+   "relate": "不同演绎",
+   "src": 159842,
    "dst": 10344
   }
  ]

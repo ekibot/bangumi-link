@@ -2,6 +2,12 @@
  "id": 725,
  "node": [
   {
+   "id": 724,
+   "name": "メトロイド ゼロミッション",
+   "nameCN": "银河战士：零点任务",
+   "image": "//lain.bgm.tv/pic/cover/m/7f/11/724_76896.jpg"
+  },
+  {
    "id": 725,
    "name": "メトロイドフュージョン",
    "nameCN": "银河战士：融合",
@@ -24,9 +30,26 @@
    "name": "メトロイドⅡ RETURN OF SAMUS",
    "nameCN": "银河战士2 萨姆斯归来",
    "image": "//lain.bgm.tv/pic/cover/m/e4/c5/108492_1gsLJ.jpg"
+  },
+  {
+   "id": 189832,
+   "name": "Another Metroid 2 Remake",
+   "nameCN": "银河战士2 萨姆斯归来 粉丝重制版",
+   "image": "//lain.bgm.tv/pic/cover/m/70/c1/189832_ew943.jpg"
+  },
+  {
+   "id": 217062,
+   "name": "メトロイド サムスリターンズ",
+   "nameCN": "银河战士：萨姆斯归来",
+   "image": "//lain.bgm.tv/pic/cover/m/62/32/217062_473il.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 724,
+   "dst": 108286
+  },
   {
    "relate": "前传",
    "src": 725,
@@ -43,6 +66,11 @@
    "dst": 108492
   },
   {
+   "relate": "不同演绎",
+   "src": 108286,
+   "dst": 724
+  },
+  {
    "relate": "续集",
    "src": 108286,
    "dst": 108492
@@ -56,6 +84,21 @@
    "relate": "前传",
    "src": 108492,
    "dst": 108286
+  },
+  {
+   "relate": "不同演绎",
+   "src": 108492,
+   "dst": 189832
+  },
+  {
+   "relate": "不同演绎",
+   "src": 189832,
+   "dst": 108492
+  },
+  {
+   "relate": "不同演绎",
+   "src": 217062,
+   "dst": 108492
   }
  ]
 }

@@ -20,10 +20,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/9f/f3/258450_KyCcg.jpg"
   },
   {
+   "id": 258540,
+   "name": "パノラマコットン",
+   "nameCN": "全景棉花小魔女",
+   "image": "//lain.bgm.tv/pic/cover/m/58/df/258540_Ya89q.jpg"
+  },
+  {
    "id": 260091,
    "name": "コットンブーメラン",
    "nameCN": "棉花小魔女回旋镖",
    "image": "//lain.bgm.tv/pic/cover/m/47/4c/260091_znNnE.jpg"
+  },
+  {
+   "id": 315951,
+   "name": "コットン リブート！",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/99/f0/315951_8O1Xx.jpg"
   }
  ],
  "relate": [
@@ -31,6 +43,16 @@
    "relate": "续集",
    "src": 79281,
    "dst": 257492
+  },
+  {
+   "relate": "相同世界观",
+   "src": 79281,
+   "dst": 258540
+  },
+  {
+   "relate": "不同演绎",
+   "src": 79281,
+   "dst": 315951
   },
   {
    "relate": "前传",
@@ -43,6 +65,11 @@
    "dst": 258450
   },
   {
+   "relate": "相同世界观",
+   "src": 257492,
+   "dst": 258540
+  },
+  {
    "relate": "前传",
    "src": 258450,
    "dst": 257492
@@ -53,9 +80,19 @@
    "dst": 260091
   },
   {
+   "relate": "相同世界观",
+   "src": 258540,
+   "dst": 79281
+  },
+  {
    "relate": "前传",
    "src": 260091,
    "dst": 258450
+  },
+  {
+   "relate": "不同演绎",
+   "src": 315951,
+   "dst": 79281
   }
  ]
 }

@@ -2,23 +2,162 @@
  "id": 220587,
  "node": [
   {
+   "id": 3730,
+   "name": "幻想水滸伝",
+   "nameCN": "幻想水浒传",
+   "image": "//lain.bgm.tv/pic/cover/m/d8/c2/3730_IyZ41.jpg"
+  },
+  {
+   "id": 23428,
+   "name": "幻想水滸伝 ティアクライス",
+   "nameCN": "幻想水浒传 黄道之轮",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/44/23428_KkVSn.jpg"
+  },
+  {
+   "id": 33609,
+   "name": "幻想水滸伝 紡がれし百年の時",
+   "nameCN": "幻想水浒传：百年交织",
+   "image": "//lain.bgm.tv/pic/cover/m/73/98/33609_a9UUv.jpg"
+  },
+  {
+   "id": 43325,
+   "name": "幻想水滸伝II",
+   "nameCN": "幻想水浒传2",
+   "image": "//lain.bgm.tv/pic/cover/m/4a/f3/43325_oG8U8.jpg"
+  },
+  {
+   "id": 100576,
+   "name": "幻想水滸伝V",
+   "nameCN": "幻想水浒传5",
+   "image": "//lain.bgm.tv/pic/cover/m/84/19/100576_Q1QTz.jpg"
+  },
+  {
+   "id": 103033,
+   "name": "幻想水滸伝III",
+   "nameCN": "幻想水浒传3",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/63/103033_GwGEL.jpg"
+  },
+  {
    "id": 148875,
    "name": "幻想水滸伝IV",
    "nameCN": "幻想水浒传4",
    "image": "//lain.bgm.tv/pic/cover/m/69/89/148875_r8TZE.jpg"
   },
   {
+   "id": 183667,
+   "name": "幻想水滸外伝Vol.1 ハルモニアの剣士",
+   "nameCN": "幻想水浒外传Vol.1 哈鲁摩尼亚的剑客",
+   "image": "//lain.bgm.tv/pic/cover/m/03/c7/183667_bgZHX.jpg"
+  },
+  {
+   "id": 183669,
+   "name": "幻想水滸外伝Vol.2 クリスタルバレーの決闘",
+   "nameCN": "幻想水浒外传Vol.2 水晶谷的决斗",
+   "image": "//lain.bgm.tv/pic/cover/m/59/be/183669_YTCct.jpg"
+  },
+  {
    "id": 220587,
    "name": "ラプソディア",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/58/d8/220587_18jVH.jpg"
+  },
+  {
+   "id": 293873,
+   "name": "幻想水滸伝カードストーリーズ",
+   "nameCN": "幻想水浒传 卡片传说",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/f2/293873_Wk7F6.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 3730,
+   "dst": 43325
+  },
+  {
+   "relate": "相同世界观",
+   "src": 23428,
+   "dst": 33609
+  },
+  {
+   "relate": "不同世界观",
+   "src": 33609,
+   "dst": 3730
+  },
+  {
+   "relate": "相同世界观",
+   "src": 33609,
+   "dst": 23428
+  },
+  {
+   "relate": "前传",
+   "src": 43325,
+   "dst": 3730
+  },
+  {
+   "relate": "续集",
+   "src": 43325,
+   "dst": 103033
+  },
+  {
+   "relate": "相同世界观",
+   "src": 100576,
+   "dst": 103033
+  },
+  {
+   "relate": "相同世界观",
+   "src": 103033,
+   "dst": 148875
+  },
+  {
+   "relate": "前传",
+   "src": 103033,
+   "dst": 183669
+  },
+  {
+   "relate": "不同世界观",
+   "src": 148875,
+   "dst": 33609
+  },
+  {
+   "relate": "相同世界观",
+   "src": 148875,
+   "dst": 100576
+  },
+  {
+   "relate": "主线故事",
+   "src": 183667,
+   "dst": 43325
+  },
+  {
+   "relate": "续集",
+   "src": 183667,
+   "dst": 183669
+  },
+  {
+   "relate": "主线故事",
+   "src": 183669,
+   "dst": 43325
+  },
+  {
+   "relate": "续集",
+   "src": 183669,
+   "dst": 103033
+  },
+  {
+   "relate": "前传",
+   "src": 183669,
+   "dst": 183667
+  },
+  {
    "relate": "主线故事",
    "src": 220587,
    "dst": 148875
+  },
+  {
+   "relate": "主线故事",
+   "src": 293873,
+   "dst": 43325
   }
  ]
 }

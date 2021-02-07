@@ -8,10 +8,33 @@
    "image": "//lain.bgm.tv/pic/cover/m/aa/ad/66906_Apulm.jpg"
   },
   {
+   "id": 100205,
+   "name": "新妹魔王の契約者",
+   "nameCN": "新妹魔王的契约者",
+   "image": "//lain.bgm.tv/pic/cover/m/84/98/100205_vVRzI.jpg"
+  },
+  {
+   "id": 120914,
+   "name": "新妹魔王の契約者 OAD",
+   "nameCN": "新妹魔王的契约者 OAD",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 122216,
+   "name": "新妹魔王の契約者",
+   "nameCN": "新妹魔王的契约者 漫画版",
+   "image": "//lain.bgm.tv/pic/cover/m/6f/3d/122216_2W17c.jpg"
+  },
+  {
    "id": 122223,
    "name": "新妹魔王の契約者・嵐!",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/c5/2e/122223_0XHnf.jpg"
+  },
+  {
+   "id": 128885,
+   "name": "新妹魔王の契約者 BURST",
+   "nameCN": "新妹魔王的契约者 BURST",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/46/128885_DoJO4.jpg"
   },
   {
    "id": 147312,
@@ -24,13 +47,59 @@
    "name": "新妹魔王の契約者 SWEET!",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/7d/30/220651_jp.jpg"
+  },
+  {
+   "id": 228625,
+   "name": "新妹魔王の契約者 DEPARTURES",
+   "nameCN": "新妹魔王的契约者 DEPARTURES",
+   "image": "/img/no_icon_subject.png"
   }
  ],
  "relate": [
   {
+   "relate": "番外篇",
+   "src": 66906,
+   "dst": 220651
+  },
+  {
+   "relate": "衍生",
+   "src": 100205,
+   "dst": 120914
+  },
+  {
+   "relate": "续集",
+   "src": 100205,
+   "dst": 128885
+  },
+  {
+   "relate": "番外篇",
+   "src": 122216,
+   "dst": 122223
+  },
+  {
    "relate": "主线故事",
    "src": 122223,
    "dst": 66906
+  },
+  {
+   "relate": "前传",
+   "src": 128885,
+   "dst": 100205
+  },
+  {
+   "relate": "衍生",
+   "src": 128885,
+   "dst": 120914
+  },
+  {
+   "relate": "番外篇",
+   "src": 128885,
+   "dst": 122223
+  },
+  {
+   "relate": "续集",
+   "src": 128885,
+   "dst": 228625
   },
   {
    "relate": "主线故事",
@@ -41,6 +110,11 @@
    "relate": "主线故事",
    "src": 220651,
    "dst": 66906
+  },
+  {
+   "relate": "前传",
+   "src": 228625,
+   "dst": 128885
   }
  ]
 }

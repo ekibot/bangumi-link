@@ -2,10 +2,52 @@
  "id": 78796,
  "node": [
   {
+   "id": 3816,
+   "name": "頭文字D Fourth Stage",
+   "nameCN": "头文字D Fourth Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/c9/11/3816_eTotY.jpg"
+  },
+  {
+   "id": 8290,
+   "name": "頭文字D",
+   "nameCN": "头文字D",
+   "image": "//lain.bgm.tv/pic/cover/m/95/b4/8290_p4f44.jpg"
+  },
+  {
+   "id": 9568,
+   "name": "頭文字D Second Stage",
+   "nameCN": "头文字D Second Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/62/1d/9568_Q7455.jpg"
+  },
+  {
+   "id": 9569,
+   "name": "頭文字D Third Stage",
+   "nameCN": "头文字D Third Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/0f/9569_3f6Zc.jpg"
+  },
+  {
+   "id": 44758,
+   "name": "頭文字D Extra Stage",
+   "nameCN": "头文字D Extra Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/15/09/44758_JrDMM.jpg"
+  },
+  {
+   "id": 46312,
+   "name": "頭文字D Fifth Stage",
+   "nameCN": "头文字D Fifth Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/b5/46312_wayEg.jpg"
+  },
+  {
    "id": 78796,
    "name": "新劇場版 頭文字D Legend1 -覚醒-",
    "nameCN": "头文字D Legend1 -觉醒-",
    "image": "//lain.bgm.tv/pic/cover/m/e7/73/78796_agbBL.jpg"
+  },
+  {
+   "id": 104569,
+   "name": "頭文字D Final Stage",
+   "nameCN": "头文字D Final Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/de/104569_8C116.jpg"
   },
   {
    "id": 111760,
@@ -18,13 +60,109 @@
    "name": "新劇場版 頭文字D Legend3 -夢現-",
    "nameCN": "头文字D Legend3 -梦现-",
    "image": "//lain.bgm.tv/pic/cover/m/94/06/111761_2Igfq.jpg"
+  },
+  {
+   "id": 139655,
+   "name": "頭文字D Battle Stage",
+   "nameCN": "头文字D Battle Stage",
+   "image": "//lain.bgm.tv/pic/cover/m/7d/50/139655_AAfe6.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "前传",
+   "src": 3816,
+   "dst": 9569
+  },
+  {
+   "relate": "续集",
+   "src": 3816,
+   "dst": 46312
+  },
+  {
+   "relate": "总集篇",
+   "src": 3816,
+   "dst": 139655
+  },
+  {
+   "relate": "续集",
+   "src": 8290,
+   "dst": 9568
+  },
+  {
+   "relate": "不同演绎",
+   "src": 8290,
+   "dst": 78796
+  },
+  {
+   "relate": "总集篇",
+   "src": 8290,
+   "dst": 139655
+  },
+  {
+   "relate": "前传",
+   "src": 9568,
+   "dst": 8290
+  },
+  {
+   "relate": "续集",
+   "src": 9568,
+   "dst": 9569
+  },
+  {
+   "relate": "番外篇",
+   "src": 9568,
+   "dst": 44758
+  },
+  {
+   "relate": "总集篇",
+   "src": 9568,
+   "dst": 139655
+  },
+  {
+   "relate": "续集",
+   "src": 9569,
+   "dst": 3816
+  },
+  {
+   "relate": "前传",
+   "src": 9569,
+   "dst": 9568
+  },
+  {
+   "relate": "总集篇",
+   "src": 9569,
+   "dst": 139655
+  },
+  {
+   "relate": "主线故事",
+   "src": 44758,
+   "dst": 9568
+  },
+  {
+   "relate": "前传",
+   "src": 46312,
+   "dst": 3816
+  },
+  {
+   "relate": "续集",
+   "src": 46312,
+   "dst": 104569
+  },
+  {
+   "relate": "不同演绎",
+   "src": 78796,
+   "dst": 8290
+  },
+  {
    "relate": "续集",
    "src": 78796,
    "dst": 111760
+  },
+  {
+   "relate": "前传",
+   "src": 104569,
+   "dst": 46312
   },
   {
    "relate": "前传",
@@ -40,6 +178,11 @@
    "relate": "前传",
    "src": 111761,
    "dst": 111760
+  },
+  {
+   "relate": "全集",
+   "src": 139655,
+   "dst": 8290
   }
  ]
 }

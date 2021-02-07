@@ -2,6 +2,18 @@
  "id": 222227,
  "node": [
   {
+   "id": 35986,
+   "name": "妖怪人間ベム -HUMANOID MONSTER BEM-",
+   "nameCN": "妖怪人间贝姆",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/1a/35986_thK4D.jpg"
+  },
+  {
+   "id": 53743,
+   "name": "妖怪人間ベム",
+   "nameCN": "妖怪人间贝姆",
+   "image": "//lain.bgm.tv/pic/cover/m/2d/cb/53743_1o7Li.jpg"
+  },
+  {
    "id": 222227,
    "name": "俺たちゃ妖怪人間",
    "nameCN": "我们是妖怪人间",
@@ -12,18 +24,64 @@
    "name": "俺たちゃ妖怪人間G",
    "nameCN": "我们是妖怪人间G",
    "image": "//lain.bgm.tv/pic/cover/m/2e/b7/241031_Z8C00.jpg"
+  },
+  {
+   "id": 274133,
+   "name": "BEM",
+   "image": "//lain.bgm.tv/pic/cover/m/ed/5d/274133_MF3oL.jpg"
+  },
+  {
+   "id": 307925,
+   "name": "劇場版 BEM ～BECOME HUMAN～",
+   "nameCN": "剧场版 BEM ～BECOME HUMAN～",
+   "image": "//lain.bgm.tv/pic/cover/m/13/b0/307925_3MgVx.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 35986,
+   "dst": 53743
+  },
+  {
+   "relate": "不同演绎",
+   "src": 53743,
+   "dst": 222227
+  },
+  {
+   "relate": "不同演绎",
+   "src": 222227,
+   "dst": 35986
+  },
   {
    "relate": "续集",
    "src": 222227,
    "dst": 241031
   },
   {
+   "relate": "不同演绎",
+   "src": 241031,
+   "dst": 35986
+  },
+  {
    "relate": "前传",
    "src": 241031,
    "dst": 222227
+  },
+  {
+   "relate": "不同演绎",
+   "src": 274133,
+   "dst": 53743
+  },
+  {
+   "relate": "续集",
+   "src": 274133,
+   "dst": 307925
+  },
+  {
+   "relate": "前传",
+   "src": 307925,
+   "dst": 274133
   }
  ]
 }

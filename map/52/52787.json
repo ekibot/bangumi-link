@@ -2,6 +2,18 @@
  "id": 52787,
  "node": [
   {
+   "id": 20529,
+   "name": "RAY THE ANIMATION",
+   "nameCN": "怪医美女RAY",
+   "image": "//lain.bgm.tv/pic/cover/m/31/91/20529_8CNZ8.jpg"
+  },
+  {
+   "id": 46036,
+   "name": "ブラック・ジャック",
+   "nameCN": "怪医黑杰克",
+   "image": "//lain.bgm.tv/pic/cover/m/25/46/46036_SUAbj.jpg"
+  },
+  {
    "id": 52787,
    "name": "ブラック・ジャック OVA",
    "nameCN": "怪医黑杰克 OVA",
@@ -14,17 +26,86 @@
    "image": "//lain.bgm.tv/pic/cover/m/3c/cd/74542_B4G5K.jpg"
   },
   {
+   "id": 80918,
+   "name": "ブラック・ジャック21",
+   "nameCN": "怪医黑杰克21",
+   "image": "//lain.bgm.tv/pic/cover/m/10/bd/80918_m23N3.jpg"
+  },
+  {
    "id": 120067,
    "name": "ブラック・ジャック OVA FINAL",
    "nameCN": "怪医黑杰克 完结篇",
    "image": "//lain.bgm.tv/pic/cover/m/01/57/120067_c4L9u.jpg"
+  },
+  {
+   "id": 120069,
+   "name": "ブラック・ジャック ふたりの黒い医者",
+   "nameCN": "怪医黑杰克 两位神秘医师",
+   "image": "//lain.bgm.tv/pic/cover/m/1f/c9/120069_qwvx9.jpg"
+  },
+  {
+   "id": 120070,
+   "name": "スペシャル 〜命をめぐる4つの奇跡〜",
+   "nameCN": "怪医黑杰克特别篇 4个生命的奇迹",
+   "image": "//lain.bgm.tv/pic/cover/m/ad/e9/120070_bU0oa.jpg"
+  },
+  {
+   "id": 227563,
+   "name": "ブラック・ジャック 空からきた子ども",
+   "nameCN": "怪医黑杰克 从天而降的孩子",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/39/227563_1e61l.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 20529,
+   "dst": 46036
+  },
+  {
+   "relate": "相同世界观",
+   "src": 46036,
+   "dst": 20529
+  },
+  {
+   "relate": "不同演绎",
+   "src": 46036,
+   "dst": 52787
+  },
+  {
+   "relate": "续集",
+   "src": 46036,
+   "dst": 80918
+  },
+  {
+   "relate": "番外篇",
+   "src": 46036,
+   "dst": 120070
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52787,
+   "dst": 20529
+  },
+  {
+   "relate": "番外篇",
+   "src": 52787,
+   "dst": 74542
+  },
+  {
    "relate": "续集",
    "src": 52787,
    "dst": 120067
+  },
+  {
+   "relate": "不同演绎",
+   "src": 52787,
+   "dst": 227563
+  },
+  {
+   "relate": "不同演绎",
+   "src": 74542,
+   "dst": 46036
   },
   {
    "relate": "主线故事",
@@ -32,9 +113,39 @@
    "dst": 52787
   },
   {
+   "relate": "相同世界观",
+   "src": 80918,
+   "dst": 20529
+  },
+  {
+   "relate": "前传",
+   "src": 80918,
+   "dst": 46036
+  },
+  {
+   "relate": "不同演绎",
+   "src": 80918,
+   "dst": 74542
+  },
+  {
    "relate": "前传",
    "src": 120067,
    "dst": 52787
+  },
+  {
+   "relate": "主线故事",
+   "src": 120069,
+   "dst": 46036
+  },
+  {
+   "relate": "主线故事",
+   "src": 120070,
+   "dst": 46036
+  },
+  {
+   "relate": "不同演绎",
+   "src": 227563,
+   "dst": 46036
   }
  ]
 }

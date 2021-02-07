@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/5a/4b/391_6989D.jpg"
   },
   {
+   "id": 2060,
+   "name": "サクラ大戦",
+   "nameCN": "樱花大战",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/c0/2060_eFEIZ.jpg"
+  },
+  {
    "id": 7708,
    "name": "サクラ大戦",
    "nameCN": "樱花大战",
@@ -30,6 +36,12 @@
    "name": "サクラ大戦4 〜恋せよ乙女〜",
    "nameCN": "樱花大战4 ～恋爱吧少女～",
    "image": "//lain.bgm.tv/pic/cover/m/b5/5c/7713_zk1ii.jpg"
+  },
+  {
+   "id": 16438,
+   "name": "サクラ大戦 ～熱き血潮～",
+   "nameCN": "樱花大战 ～炽热之血～",
+   "image": "//lain.bgm.tv/pic/cover/m/e3/3b/16438_81lzD.jpg"
   },
   {
    "id": 20928,
@@ -116,6 +128,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/a5/ce/39257_JKxU3.jpg"
   },
   {
+   "id": 39258,
+   "name": "サクラ大戦１＆２",
+   "nameCN": "樱花大战 1&2",
+   "image": "//lain.bgm.tv/pic/cover/m/a4/fa/39258_r5b47.jpg"
+  },
+  {
    "id": 39260,
    "name": "サクラ大戦オンライン ～巴里の優雅な日々～",
    "nameCN": "樱花大战online ～巴里优雅的一日～",
@@ -144,6 +162,12 @@
    "name": "新サクラ大戦 the Animation",
    "nameCN": "新樱花大战 the Animation",
    "image": "//lain.bgm.tv/pic/cover/m/e3/6e/290630_DfdRF.jpg"
+  },
+  {
+   "id": 326202,
+   "name": "サクラ大戦1&2",
+   "nameCN": "樱花大战1&2",
+   "image": "//lain.bgm.tv/pic/cover/m/16/47/326202_2FEyP.jpg"
   }
  ],
  "relate": [
@@ -153,9 +177,19 @@
    "dst": 7711
   },
   {
+   "relate": "不同演绎",
+   "src": 2060,
+   "dst": 20929
+  },
+  {
    "relate": "续集",
    "src": 7708,
    "dst": 7709
+  },
+  {
+   "relate": "不同演绎",
+   "src": 7708,
+   "dst": 16438
   },
   {
    "relate": "前传",
@@ -166,6 +200,11 @@
    "relate": "续集",
    "src": 7709,
    "dst": 7711
+  },
+  {
+   "relate": "不同演绎",
+   "src": 7709,
+   "dst": 326202
   },
   {
    "relate": "前传",
@@ -191,6 +230,16 @@
    "relate": "续集",
    "src": 7713,
    "dst": 39244
+  },
+  {
+   "relate": "不同演绎",
+   "src": 16438,
+   "dst": 7708
+  },
+  {
+   "relate": "不同演绎",
+   "src": 20929,
+   "dst": 2060
   },
   {
    "relate": "主线故事",
@@ -263,6 +312,11 @@
    "dst": 7709
   },
   {
+   "relate": "相同世界观",
+   "src": 39248,
+   "dst": 39260
+  },
+  {
    "relate": "主线故事",
    "src": 39251,
    "dst": 7708
@@ -298,9 +352,19 @@
    "dst": 39244
   },
   {
+   "relate": "不同演绎",
+   "src": 39258,
+   "dst": 7708
+  },
+  {
    "relate": "主线故事",
    "src": 39260,
    "dst": 7711
+  },
+  {
+   "relate": "相同世界观",
+   "src": 39260,
+   "dst": 39248
   },
   {
    "relate": "续集",
@@ -321,6 +385,11 @@
    "relate": "前传",
    "src": 290630,
    "dst": 279346
+  },
+  {
+   "relate": "不同演绎",
+   "src": 326202,
+   "dst": 7708
   }
  ]
 }

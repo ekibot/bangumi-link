@@ -8,10 +8,28 @@
    "image": "//lain.bgm.tv/pic/cover/m/b4/aa/25551_SRYnF.jpg"
   },
   {
+   "id": 30503,
+   "name": "出ましたっ!パワパフガールズZ",
+   "nameCN": "飞天小女警Z",
+   "image": "//lain.bgm.tv/pic/cover/m/b8/99/30503_BtNfT.jpg"
+  },
+  {
    "id": 30627,
    "name": "The Powerpuff Girls",
    "nameCN": "飞天小女警",
    "image": "//lain.bgm.tv/pic/cover/m/a5/9a/30627_gPkqp.jpg"
+  },
+  {
+   "id": 94314,
+   "name": "The Powerpuff Girls: Dance Pantsed",
+   "nameCN": "飞天小女警特别版：尬舞大挑战",
+   "image": "//lain.bgm.tv/pic/cover/m/c9/51/94314_Ww4kw.jpg"
+  },
+  {
+   "id": 106264,
+   "name": "The Powerpuff Girls (2016 TV series)",
+   "nameCN": "飞天小女警2016",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/50/106264_fI5YO.jpg"
   },
   {
    "id": 177693,
@@ -54,6 +72,18 @@
    "name": "The Powerpuff Girls Rule!!!",
    "nameCN": "世界之钥",
    "image": "//lain.bgm.tv/pic/cover/m/9a/e0/258099_We1Hr.jpg"
+  },
+  {
+   "id": 279232,
+   "name": "The Powerpuff Girls Season 2 (2016 TV series)",
+   "nameCN": "飞天小女警 第2季(2016年动画)",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/97/279232_uU138.jpg"
+  },
+  {
+   "id": 279347,
+   "name": "The Powerpuff Girls Season 3 (2016 TV series)",
+   "nameCN": "飞天小女警 第3季(2016年动画)",
+   "image": "//lain.bgm.tv/pic/cover/m/e9/1b/279347_00lBw.jpg"
   }
  ],
  "relate": [
@@ -63,14 +93,39 @@
    "dst": 30627
   },
   {
+   "relate": "不同演绎",
+   "src": 30503,
+   "dst": 30627
+  },
+  {
    "relate": "总集篇",
    "src": 30627,
    "dst": 25551
   },
   {
+   "relate": "不同演绎",
+   "src": 30627,
+   "dst": 30503
+  },
+  {
    "relate": "续集",
    "src": 30627,
    "dst": 177693
+  },
+  {
+   "relate": "不同演绎",
+   "src": 94314,
+   "dst": 30627
+  },
+  {
+   "relate": "不同演绎",
+   "src": 106264,
+   "dst": 30627
+  },
+  {
+   "relate": "续集",
+   "src": 106264,
+   "dst": 279232
   },
   {
    "relate": "前传",
@@ -111,6 +166,11 @@
    "relate": "续集",
    "src": 177696,
    "dst": 177697
+  },
+  {
+   "relate": "番外篇",
+   "src": 177696,
+   "dst": 258098
   },
   {
    "relate": "前传",
@@ -131,6 +191,21 @@
    "relate": "前传",
    "src": 258099,
    "dst": 177697
+  },
+  {
+   "relate": "前传",
+   "src": 279232,
+   "dst": 106264
+  },
+  {
+   "relate": "续集",
+   "src": 279232,
+   "dst": 279347
+  },
+  {
+   "relate": "前传",
+   "src": 279347,
+   "dst": 279232
   }
  ]
 }

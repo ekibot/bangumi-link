@@ -2,6 +2,18 @@
  "id": 122458,
  "node": [
   {
+   "id": 18470,
+   "name": "inFAMOUS",
+   "nameCN": "臭名昭著",
+   "image": "//lain.bgm.tv/pic/cover/m/22/53/18470_6M1Oj.jpg"
+  },
+  {
+   "id": 22724,
+   "name": "inFAMOUS 2",
+   "nameCN": "恶名昭著2",
+   "image": "//lain.bgm.tv/pic/cover/m/56/7d/22724_vbVd9.jpg"
+  },
+  {
    "id": 65511,
    "name": "inFAMOUS Second Son",
    "nameCN": "恶名昭彰 次子",
@@ -15,6 +27,31 @@
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 18470,
+   "dst": 22724
+  },
+  {
+   "relate": "相同世界观",
+   "src": 18470,
+   "dst": 65511
+  },
+  {
+   "relate": "前传",
+   "src": 22724,
+   "dst": 18470
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22724,
+   "dst": 65511
+  },
+  {
+   "relate": "相同世界观",
+   "src": 65511,
+   "dst": 18470
+  },
   {
    "relate": "主线故事",
    "src": 122458,

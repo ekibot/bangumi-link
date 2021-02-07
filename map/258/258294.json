@@ -2,9 +2,20 @@
  "id": 258294,
  "node": [
   {
+   "id": 15174,
+   "name": "小倩",
+   "nameCN": "小倩",
+   "image": "//lain.bgm.tv/pic/cover/m/1a/3d/15174_c9xpw.jpg"
+  },
+  {
    "id": 258294,
    "name": "倩女幽魂",
    "image": "//lain.bgm.tv/pic/cover/m/df/d2/258294_E31Qu.jpg"
+  },
+  {
+   "id": 258296,
+   "name": "倩女幽魂",
+   "image": "//lain.bgm.tv/pic/cover/m/70/1c/258296_aA298.jpg"
   },
   {
    "id": 258345,
@@ -15,15 +26,29 @@
   {
    "id": 258346,
    "name": "倩女幽魂Ⅲ 道道道",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/c8/92/258346_75zA4.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 15174,
+   "dst": 258294
+  },
+  {
+   "relate": "不同演绎",
+   "src": 258294,
+   "dst": 258296
+  },
+  {
    "relate": "续集",
    "src": 258294,
    "dst": 258345
+  },
+  {
+   "relate": "不同演绎",
+   "src": 258296,
+   "dst": 258294
   },
   {
    "relate": "前传",
@@ -34,6 +59,11 @@
    "relate": "续集",
    "src": 258345,
    "dst": 258346
+  },
+  {
+   "relate": "不同演绎",
+   "src": 258346,
+   "dst": 15174
   },
   {
    "relate": "前传",

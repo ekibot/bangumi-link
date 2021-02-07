@@ -16,8 +16,19 @@
   {
    "id": 61965,
    "name": "海虎III",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/f8/91/61965_N034y.jpg"
+  },
+  {
+   "id": 99862,
+   "name": "武神",
+   "nameCN": "武神",
+   "image": "//lain.bgm.tv/pic/cover/m/27/c4/99862_S00eI.jpg"
+  },
+  {
+   "id": 99863,
+   "name": "武神凤凰",
+   "nameCN": "武神凤凰",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/1d/99863_Xw6fB.jpg"
   }
  ],
  "relate": [
@@ -37,9 +48,29 @@
    "dst": 61965
   },
   {
+   "relate": "相同世界观",
+   "src": 61964,
+   "dst": 99862
+  },
+  {
    "relate": "前传",
    "src": 61965,
    "dst": 61964
+  },
+  {
+   "relate": "相同世界观",
+   "src": 61965,
+   "dst": 99862
+  },
+  {
+   "relate": "相同世界观",
+   "src": 99862,
+   "dst": 61965
+  },
+  {
+   "relate": "相同世界观",
+   "src": 99863,
+   "dst": 99862
   }
  ]
 }

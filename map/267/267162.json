@@ -2,10 +2,28 @@
  "id": 267162,
  "node": [
   {
+   "id": 4735,
+   "name": "She-Ra: Princess of Power",
+   "nameCN": "非凡的公主希瑞",
+   "image": "//lain.bgm.tv/pic/cover/m/a5/12/4735_Y55Fa.jpg"
+  },
+  {
+   "id": 55426,
+   "name": "He-Man and the Masters of the Universe Season 1",
+   "nameCN": "宇宙的巨人希曼 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/70/b0/55426_pZSkZ.jpg"
+  },
+  {
    "id": 267162,
    "name": "She-Ra and the Princesses of Power",
    "nameCN": "希瑞与非凡的公主们",
    "image": "//lain.bgm.tv/pic/cover/m/ba/30/267162_74R7x.jpg"
+  },
+  {
+   "id": 269069,
+   "name": "He-Man and the Masters of the Universe Season 2",
+   "nameCN": "宇宙的巨人希曼 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/a7/86/269069_lIxuz.jpg"
   },
   {
    "id": 325702,
@@ -34,9 +52,44 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 4735,
+   "dst": 267162
+  },
+  {
+   "relate": "相同世界观",
+   "src": 4735,
+   "dst": 269069
+  },
+  {
+   "relate": "相同世界观",
+   "src": 55426,
+   "dst": 4735
+  },
+  {
+   "relate": "续集",
+   "src": 55426,
+   "dst": 269069
+  },
+  {
+   "relate": "不同演绎",
+   "src": 267162,
+   "dst": 4735
+  },
+  {
    "relate": "续集",
    "src": 267162,
    "dst": 325702
+  },
+  {
+   "relate": "相同世界观",
+   "src": 269069,
+   "dst": 4735
+  },
+  {
+   "relate": "前传",
+   "src": 269069,
+   "dst": 55426
   },
   {
    "relate": "前传",

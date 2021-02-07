@@ -2,23 +2,87 @@
  "id": 143835,
  "node": [
   {
+   "id": 44123,
+   "name": "月に寄りそう乙女の作法",
+   "nameCN": "近月少女的礼仪",
+   "image": "//lain.bgm.tv/pic/cover/m/73/87/44123_367yT.jpg"
+  },
+  {
    "id": 66760,
    "name": "乙女理論とその周辺 -Ecole de Paris-",
    "nameCN": "少女理论及其周边 -巴黎学院篇-",
    "image": "/img/no_icon_subject.png"
   },
   {
+   "id": 105074,
+   "name": "月に寄りそう乙女の作法2",
+   "nameCN": "近月少女的礼仪2",
+   "image": "//lain.bgm.tv/pic/cover/m/e8/0f/105074_8US7Q.jpg"
+  },
+  {
    "id": 143835,
    "name": "乙女理論とその後の周辺 -Belle Epoque-",
    "nameCN": "少女理论及其之后的周边 -美好年代篇-",
    "image": "//lain.bgm.tv/pic/cover/m/ef/92/143835_kQr5x.jpg"
+  },
+  {
+   "id": 206403,
+   "name": "月に寄りそう乙女の作法2.1 E×S×PAR!!",
+   "nameCN": "近月少女的礼仪2.1 E×S×PAR!!",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/4e/206403_zYXJg.jpg"
+  },
+  {
+   "id": 215883,
+   "name": "月に寄りそう乙女の作法2.2 A×L+SA!!",
+   "nameCN": "近月少女的礼仪2.2 A×L+SA!!",
+   "image": "//lain.bgm.tv/pic/cover/m/31/0f/215883_S0754.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 44123,
+   "dst": 66760
+  },
+  {
+   "relate": "续集",
+   "src": 44123,
+   "dst": 105074
+  },
+  {
+   "relate": "相同世界观",
+   "src": 66760,
+   "dst": 44123
+  },
+  {
+   "relate": "前传",
+   "src": 105074,
+   "dst": 44123
+  },
+  {
    "relate": "主线故事",
    "src": 143835,
    "dst": 66760
+  },
+  {
+   "relate": "主线故事",
+   "src": 206403,
+   "dst": 105074
+  },
+  {
+   "relate": "不同演绎",
+   "src": 206403,
+   "dst": 215883
+  },
+  {
+   "relate": "主线故事",
+   "src": 215883,
+   "dst": 105074
+  },
+  {
+   "relate": "不同演绎",
+   "src": 215883,
+   "dst": 206403
   }
  ]
 }

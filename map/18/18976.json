@@ -2,10 +2,22 @@
  "id": 18976,
  "node": [
   {
+   "id": 18975,
+   "name": "牧場物語",
+   "nameCN": "牧场物语",
+   "image": "//lain.bgm.tv/pic/cover/m/5d/2a/18975_E5Kk5.jpg"
+  },
+  {
    "id": 18976,
    "name": "牧場物語GB",
    "nameCN": "牧场物语GB",
    "image": "//lain.bgm.tv/pic/cover/m/7c/99/18976_rfRFy.jpg"
+  },
+  {
+   "id": 18978,
+   "name": "牧場物語2",
+   "nameCN": "牧场物语2",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/94/18978_CD4pC.jpg"
   },
   {
    "id": 18979,
@@ -18,13 +30,45 @@
    "name": "牧場物語GB3 ボーイ・ミーツ・ガール",
    "nameCN": "牧场物语GB3－当男孩遇上女孩",
    "image": "//lain.bgm.tv/pic/cover/m/1b/b5/18983_W1Soa.jpg"
+  },
+  {
+   "id": 86004,
+   "name": "牧場物語 しあわせの詩",
+   "nameCN": "牧场物语 幸福之诗",
+   "image": "//lain.bgm.tv/pic/cover/m/ff/ce/86004_KTuR4.jpg"
+  },
+  {
+   "id": 86005,
+   "name": "牧場物語 しあわせの詩 for ワールド",
+   "nameCN": "牧场物语 幸福之诗 for world",
+   "image": "//lain.bgm.tv/pic/cover/m/7e/66/86005_h0Cpq.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 18975,
+   "dst": 18976
+  },
+  {
+   "relate": "续集",
+   "src": 18975,
+   "dst": 18978
+  },
+  {
+   "relate": "相同世界观",
+   "src": 18976,
+   "dst": 18975
+  },
+  {
    "relate": "续集",
    "src": 18976,
    "dst": 18979
+  },
+  {
+   "relate": "前传",
+   "src": 18978,
+   "dst": 18975
   },
   {
    "relate": "前传",
@@ -40,6 +84,26 @@
    "relate": "前传",
    "src": 18983,
    "dst": 18979
+  },
+  {
+   "relate": "相同世界观",
+   "src": 86004,
+   "dst": 18975
+  },
+  {
+   "relate": "不同演绎",
+   "src": 86004,
+   "dst": 86005
+  },
+  {
+   "relate": "相同世界观",
+   "src": 86005,
+   "dst": 18975
+  },
+  {
+   "relate": "不同演绎",
+   "src": 86005,
+   "dst": 86004
   }
  ]
 }

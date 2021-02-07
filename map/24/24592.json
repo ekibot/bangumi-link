@@ -2,6 +2,12 @@
  "id": 24592,
  "node": [
   {
+   "id": 10276,
+   "name": "スクライド",
+   "nameCN": "分身战士",
+   "image": "//lain.bgm.tv/pic/cover/m/45/0a/10276_ys05r.jpg"
+  },
+  {
    "id": 24592,
    "name": "スクライド オルタレイション TAO",
    "nameCN": "分身战士 ALTERATION TAO",
@@ -16,9 +22,24 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 10276,
+   "dst": 47644
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24592,
+   "dst": 10276
+  },
+  {
    "relate": "续集",
    "src": 24592,
    "dst": 47644
+  },
+  {
+   "relate": "不同演绎",
+   "src": 47644,
+   "dst": 10276
   },
   {
    "relate": "前传",

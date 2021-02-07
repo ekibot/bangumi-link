@@ -2,10 +2,28 @@
  "id": 121803,
  "node": [
   {
+   "id": 46125,
+   "name": "高橋名人の冒険島",
+   "nameCN": "高桥名人的冒险岛",
+   "image": "//lain.bgm.tv/pic/cover/m/19/10/46125_u5c0p.jpg"
+  },
+  {
    "id": 79700,
    "name": "ワンダーボーイ",
    "nameCN": "神奇男孩",
    "image": "//lain.bgm.tv/pic/cover/m/5b/87/79700_d777F.jpg"
+  },
+  {
+   "id": 86044,
+   "name": "高橋名人の冒険島IV",
+   "nameCN": "高桥名人的冒险岛IV",
+   "image": "//lain.bgm.tv/pic/cover/m/41/41/86044_7F69F.jpg"
+  },
+  {
+   "id": 86046,
+   "name": "高橋名人の冒険島III",
+   "nameCN": "高桥名人的冒险岛III",
+   "image": "//lain.bgm.tv/pic/cover/m/13/6f/86046_9ktuH.jpg"
   },
   {
    "id": 121779,
@@ -26,6 +44,18 @@
    "image": "//lain.bgm.tv/pic/cover/m/58/6b/121808_vA9wV.jpg"
   },
   {
+   "id": 126955,
+   "name": "高橋名人の冒険島II",
+   "nameCN": "高桥名人的冒险岛II",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/2b/126955_2SF1a.jpg"
+  },
+  {
+   "id": 228993,
+   "name": "Wonder Boy: The Dragon's Trap",
+   "nameCN": "神奇小子：龙之陷阱",
+   "image": "//lain.bgm.tv/pic/cover/m/79/95/228993_O21x1.jpg"
+  },
+  {
    "id": 252562,
    "name": "ワンダーボーイIII モンスター・レアー",
    "nameCN": "神奇男孩3 怪物的巢穴",
@@ -36,13 +66,78 @@
    "name": "モンスターワールドII ドラゴンの罠",
    "nameCN": "怪物世界2 龙之陷阱",
    "image": "//lain.bgm.tv/pic/cover/m/7f/89/252566_oY08R.jpg"
+  },
+  {
+   "id": 256745,
+   "name": "高橋名人の大冒険島",
+   "nameCN": "高桥名人的大冒险岛",
+   "image": "//lain.bgm.tv/pic/cover/m/51/ea/256745_640EV.jpg"
+  },
+  {
+   "id": 256746,
+   "name": "高橋名人の大冒険島II",
+   "nameCN": "高桥名人的大冒险岛II",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/71/256746_6Nu8d.jpg"
+  },
+  {
+   "id": 256940,
+   "name": "高橋名人の新冒険島",
+   "nameCN": "高桥名人的新冒险岛",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/78/256940_gOPKF.jpg"
+  },
+  {
+   "id": 289191,
+   "name": "Wonder Boy Returns Remix",
+   "nameCN": "神奇男孩归来Remix",
+   "image": "//lain.bgm.tv/pic/cover/m/88/ad/289191_e4IL4.jpg"
+  },
+  {
+   "id": 313779,
+   "name": "ワンダーボーイ アーシャ・イン・モンスターワールド",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/03/d3/313779_25b9Y.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 46125,
+   "dst": 79700
+  },
+  {
+   "relate": "续集",
+   "src": 46125,
+   "dst": 126955
+  },
+  {
+   "relate": "相同世界观",
+   "src": 46125,
+   "dst": 256745
+  },
+  {
+   "relate": "不同演绎",
+   "src": 79700,
+   "dst": 46125
+  },
+  {
    "relate": "续集",
    "src": 79700,
    "dst": 121779
+  },
+  {
+   "relate": "前传",
+   "src": 86044,
+   "dst": 86046
+  },
+  {
+   "relate": "续集",
+   "src": 86046,
+   "dst": 86044
+  },
+  {
+   "relate": "前传",
+   "src": 86046,
+   "dst": 126955
   },
   {
    "relate": "前传",
@@ -70,6 +165,26 @@
    "dst": 121803
   },
   {
+   "relate": "不同演绎",
+   "src": 121808,
+   "dst": 313779
+  },
+  {
+   "relate": "前传",
+   "src": 126955,
+   "dst": 46125
+  },
+  {
+   "relate": "续集",
+   "src": 126955,
+   "dst": 86046
+  },
+  {
+   "relate": "不同演绎",
+   "src": 228993,
+   "dst": 252566
+  },
+  {
    "relate": "前传",
    "src": 252562,
    "dst": 121779
@@ -88,6 +203,36 @@
    "relate": "续集",
    "src": 252566,
    "dst": 121803
+  },
+  {
+   "relate": "不同演绎",
+   "src": 252566,
+   "dst": 228993
+  },
+  {
+   "relate": "续集",
+   "src": 256745,
+   "dst": 256746
+  },
+  {
+   "relate": "前传",
+   "src": 256746,
+   "dst": 256745
+  },
+  {
+   "relate": "相同世界观",
+   "src": 256940,
+   "dst": 46125
+  },
+  {
+   "relate": "不同演绎",
+   "src": 289191,
+   "dst": 79700
+  },
+  {
+   "relate": "不同演绎",
+   "src": 313779,
+   "dst": 121808
   }
  ]
 }

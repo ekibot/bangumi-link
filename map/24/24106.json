@@ -39,7 +39,20 @@
   {
    "id": 41264,
    "name": "マリー&エリーのアトリエ 〜ザールブルグの錬金術士1・2〜",
+   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/05/89/41264_YlUSq.jpg"
+  },
+  {
+   "id": 239492,
+   "name": "マリーのアトリエ Plus ～ザールブルグの錬金術士～",
+   "nameCN": "玛莉的炼金工房 Plus ～萨尔博格的炼金术士",
+   "image": "//lain.bgm.tv/pic/cover/m/da/78/239492_y8Ccq.jpg"
+  },
+  {
+   "id": 269478,
+   "name": "エリーのアトリエ GB",
+   "nameCN": "艾莉的工作室 GB",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/03/269478_8nb2b.jpg"
   }
  ],
  "relate": [
@@ -54,9 +67,19 @@
    "dst": 41260
   },
   {
+   "relate": "不同演绎",
+   "src": 24106,
+   "dst": 269478
+  },
+  {
    "relate": "续集",
    "src": 41259,
    "dst": 24106
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41259,
+   "dst": 239492
   },
   {
    "relate": "前传",
@@ -87,6 +110,21 @@
    "relate": "主线故事",
    "src": 41263,
    "dst": 41264
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41264,
+   "dst": 24106
+  },
+  {
+   "relate": "不同演绎",
+   "src": 239492,
+   "dst": 41259
+  },
+  {
+   "relate": "不同演绎",
+   "src": 269478,
+   "dst": 24106
   }
  ]
 }

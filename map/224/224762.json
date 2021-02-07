@@ -2,9 +2,21 @@
  "id": 224762,
  "node": [
   {
+   "id": 36134,
+   "name": "Pingu Series 1",
+   "nameCN": "企鹅家族",
+   "image": "//lain.bgm.tv/pic/cover/m/c3/a5/36134_606j5.jpg"
+  },
+  {
    "id": 224762,
    "name": "Pingu in the City",
    "image": "//lain.bgm.tv/pic/cover/m/ec/4b/224762_NPK2F.jpg"
+  },
+  {
+   "id": 235817,
+   "name": "Pingu Series 2",
+   "nameCN": "企鹅家族",
+   "image": "//lain.bgm.tv/pic/cover/m/91/a9/235817_kGrpK.jpg"
   },
   {
    "id": 283655,
@@ -15,9 +27,34 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 36134,
+   "dst": 224762
+  },
+  {
+   "relate": "续集",
+   "src": 36134,
+   "dst": 235817
+  },
+  {
+   "relate": "不同演绎",
+   "src": 224762,
+   "dst": 36134
+  },
+  {
    "relate": "续集",
    "src": 224762,
    "dst": 283655
+  },
+  {
+   "relate": "前传",
+   "src": 235817,
+   "dst": 36134
+  },
+  {
+   "relate": "不同演绎",
+   "src": 235817,
+   "dst": 224762
   },
   {
    "relate": "前传",

@@ -2,6 +2,12 @@
  "id": 137320,
  "node": [
   {
+   "id": 137319,
+   "name": "しちゅえ〜しょん 1‧2‧3 DVD",
+   "nameCN": "情——况 一、二、三 DVD",
+   "image": "//lain.bgm.tv/pic/cover/m/23/29/137319_LGnPo.jpg"
+  },
+  {
    "id": 137320,
    "name": "しちゅえ〜しょん",
    "nameCN": "情——况",
@@ -12,18 +18,54 @@
    "name": "しちゅえ〜しょん2",
    "nameCN": "情——况二",
    "image": "//lain.bgm.tv/pic/cover/m/5b/99/137321_dmS5n.jpg"
+  },
+  {
+   "id": 137322,
+   "name": "しちゅえ〜しょん3",
+   "nameCN": "情——况三",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/ae/137322_TbaH4.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 137319,
+   "dst": 137320
+  },
+  {
+   "relate": "续集",
+   "src": 137319,
+   "dst": 137322
+  },
+  {
+   "relate": "不同演绎",
+   "src": 137320,
+   "dst": 137319
+  },
   {
    "relate": "续集",
    "src": 137320,
    "dst": 137321
   },
   {
+   "relate": "不同演绎",
+   "src": 137321,
+   "dst": 137319
+  },
+  {
    "relate": "前传",
    "src": 137321,
    "dst": 137320
+  },
+  {
+   "relate": "前传",
+   "src": 137322,
+   "dst": 137319
+  },
+  {
+   "relate": "不同演绎",
+   "src": 137322,
+   "dst": 137321
   }
  ]
 }

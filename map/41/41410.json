@@ -2,6 +2,12 @@
  "id": 41410,
  "node": [
   {
+   "id": 4844,
+   "name": "NieR Replicant",
+   "nameCN": "尼尔 人工生命",
+   "image": "//lain.bgm.tv/pic/cover/m/e6/cc/4844_HetTe.jpg"
+  },
+  {
    "id": 41410,
    "name": "DRAG-ON DRAGOON",
    "nameCN": "龙背上的骑兵",
@@ -20,13 +26,51 @@
    "image": "//lain.bgm.tv/pic/cover/m/57/7b/67259_4Z7xz.jpg"
   },
   {
+   "id": 73545,
+   "name": "ドラッグオンドラグーン 死ニ至ル赤",
+   "nameCN": "龙背上的骑兵 至死之赤红",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/9d/73545_k10KZ.jpg"
+  },
+  {
    "id": 86183,
    "name": "どらっぐ おん どらぐーん ウタヒメファイブ",
    "nameCN": "龙背上的骑兵 歌姬Five",
    "image": "//lain.bgm.tv/pic/cover/m/b6/13/86183_4YpyZ.jpg"
+  },
+  {
+   "id": 137588,
+   "name": "NieR: Automata",
+   "nameCN": "尼尔 自动人形",
+   "image": "//lain.bgm.tv/pic/cover/m/ea/8b/137588_EKmZY.jpg"
+  },
+  {
+   "id": 302916,
+   "name": "NieR Replicant ver.1.22474487139...",
+   "nameCN": "尼尔 人工生命 ver.1.22474487139...",
+   "image": "//lain.bgm.tv/pic/cover/m/ea/dc/302916_s7Ksy.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 4844,
+   "dst": 41410
+  },
+  {
+   "relate": "续集",
+   "src": 4844,
+   "dst": 137588
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4844,
+   "dst": 302916
+  },
+  {
+   "relate": "相同世界观",
+   "src": 41410,
+   "dst": 4844
+  },
   {
    "relate": "续集",
    "src": 41410,
@@ -38,9 +82,29 @@
    "dst": 67259
   },
   {
+   "relate": "相同世界观",
+   "src": 41410,
+   "dst": 73545
+  },
+  {
+   "relate": "相同世界观",
+   "src": 41411,
+   "dst": 4844
+  },
+  {
    "relate": "前传",
    "src": 41411,
    "dst": 41410
+  },
+  {
+   "relate": "相同世界观",
+   "src": 41411,
+   "dst": 73545
+  },
+  {
+   "relate": "相同世界观",
+   "src": 67259,
+   "dst": 4844
   },
   {
    "relate": "续集",
@@ -48,9 +112,29 @@
    "dst": 41410
   },
   {
+   "relate": "相同世界观",
+   "src": 67259,
+   "dst": 73545
+  },
+  {
    "relate": "前传",
    "src": 67259,
    "dst": 86183
+  },
+  {
+   "relate": "前传",
+   "src": 137588,
+   "dst": 4844
+  },
+  {
+   "relate": "相同世界观",
+   "src": 137588,
+   "dst": 67259
+  },
+  {
+   "relate": "不同演绎",
+   "src": 302916,
+   "dst": 4844
   }
  ]
 }

@@ -2,10 +2,22 @@
  "id": 5836,
  "node": [
   {
+   "id": 818,
+   "name": "風色幻想XX 交錯的軌跡",
+   "nameCN": "风色幻想XX ～交错的轨迹～",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/ad/818_wC6TG.jpg"
+  },
+  {
    "id": 5836,
    "name": "魔導聖戰～風色幻想～",
    "nameCN": "魔导圣战～风色幻想～",
    "image": "//lain.bgm.tv/pic/cover/m/6f/d9/5836_97hpo.jpg"
+  },
+  {
+   "id": 5837,
+   "name": "風色幻想SP～封神之刻～",
+   "nameCN": "风色幻想SP～封神之刻～",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/e3/5837_JEiGj.jpg"
   },
   {
    "id": 5838,
@@ -24,13 +36,57 @@
    "name": "風色幻想4～聖戰的終焉～",
    "nameCN": "风色幻想4～圣战的终焉～",
    "image": "//lain.bgm.tv/pic/cover/m/61/d0/5840_cLy3y.jpg"
+  },
+  {
+   "id": 5841,
+   "name": "風色幻想5～赤月戰爭～",
+   "nameCN": "风色幻想5～赤月战争～",
+   "image": "//lain.bgm.tv/pic/cover/m/5f/c3/5841_4D8Y0.jpg"
+  },
+  {
+   "id": 5842,
+   "name": "風色幻想6～冒險奏鳴～",
+   "nameCN": "风色幻想6～冒险奏鸣～",
+   "image": "//lain.bgm.tv/pic/cover/m/fb/3e/5842_9TpCJ.jpg"
+  },
+  {
+   "id": 8369,
+   "name": "風色幻想 Adventure Generation Online",
+   "nameCN": "风色幻想Online",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/9f/8369_cuS9k.jpg"
+  },
+  {
+   "id": 300048,
+   "name": "エルダーアーク",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/56/300048_G0rR6.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "前传",
+   "src": 818,
+   "dst": 5842
+  },
+  {
+   "relate": "不同世界观",
+   "src": 818,
+   "dst": 8369
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5836,
+   "dst": 5837
+  },
+  {
    "relate": "续集",
    "src": 5836,
    "dst": 5838
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5837,
+   "dst": 5836
   },
   {
    "relate": "前传",
@@ -38,9 +94,19 @@
    "dst": 5836
   },
   {
+   "relate": "相同世界观",
+   "src": 5838,
+   "dst": 5837
+  },
+  {
    "relate": "续集",
    "src": 5838,
    "dst": 5839
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5839,
+   "dst": 5837
   },
   {
    "relate": "前传",
@@ -56,6 +122,56 @@
    "relate": "前传",
    "src": 5840,
    "dst": 5839
+  },
+  {
+   "relate": "不同世界观",
+   "src": 5840,
+   "dst": 5841
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5840,
+   "dst": 8369
+  },
+  {
+   "relate": "不同世界观",
+   "src": 5841,
+   "dst": 5840
+  },
+  {
+   "relate": "续集",
+   "src": 5841,
+   "dst": 5842
+  },
+  {
+   "relate": "相同世界观",
+   "src": 5841,
+   "dst": 300048
+  },
+  {
+   "relate": "续集",
+   "src": 5842,
+   "dst": 818
+  },
+  {
+   "relate": "前传",
+   "src": 5842,
+   "dst": 5841
+  },
+  {
+   "relate": "不同世界观",
+   "src": 8369,
+   "dst": 818
+  },
+  {
+   "relate": "相同世界观",
+   "src": 8369,
+   "dst": 5836
+  },
+  {
+   "relate": "相同世界观",
+   "src": 300048,
+   "dst": 5841
   }
  ]
 }

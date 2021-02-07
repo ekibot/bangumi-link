@@ -2,10 +2,28 @@
  "id": 10383,
  "node": [
   {
+   "id": 472,
+   "name": "APPLESEED",
+   "nameCN": "苹果核战记",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/57/472_9vPZK.jpg"
+  },
+  {
+   "id": 6235,
+   "name": "EX MACHINA",
+   "nameCN": "苹果核战记2",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/c6/6235_6dT79.jpg"
+  },
+  {
    "id": 10383,
    "name": "APPLESEED XIII",
    "nameCN": "苹果核战记XIII",
    "image": "//lain.bgm.tv/pic/cover/m/85/86/10383_Uh43X.jpg"
+  },
+  {
+   "id": 11072,
+   "name": "アップルシード OVA",
+   "nameCN": "苹果核战记 OVA",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/13/11072_LD4w2.jpg"
   },
   {
    "id": 61955,
@@ -18,13 +36,49 @@
    "name": "アップルシード XIII 〜預言〜",
    "nameCN": "苹果核战记XIII 预言",
    "image": "//lain.bgm.tv/pic/cover/m/d1/3f/61956_hfkHJ.jpg"
+  },
+  {
+   "id": 104139,
+   "name": "AppleSeed Alpha",
+   "nameCN": "苹果核战记α",
+   "image": "//lain.bgm.tv/pic/cover/m/a2/0f/104139_ITsrS.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 472,
+   "dst": 6235
+  },
+  {
+   "relate": "不同演绎",
+   "src": 472,
+   "dst": 10383
+  },
+  {
+   "relate": "前传",
+   "src": 472,
+   "dst": 104139
+  },
+  {
+   "relate": "前传",
+   "src": 6235,
+   "dst": 472
+  },
+  {
+   "relate": "不同演绎",
+   "src": 10383,
+   "dst": 472
+  },
+  {
    "relate": "总集篇",
    "src": 10383,
    "dst": 61955
+  },
+  {
+   "relate": "不同演绎",
+   "src": 11072,
+   "dst": 472
   },
   {
    "relate": "全集",
@@ -45,6 +99,11 @@
    "relate": "前传",
    "src": 61956,
    "dst": 61955
+  },
+  {
+   "relate": "续集",
+   "src": 104139,
+   "dst": 472
   }
  ]
 }

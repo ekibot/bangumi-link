@@ -2,6 +2,12 @@
  "id": 200355,
  "node": [
   {
+   "id": 117282,
+   "name": "ツキウタ。 THE ANIMATION",
+   "nameCN": "月歌",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/a6/117282_TJDDH.jpg"
+  },
+  {
    "id": 200355,
    "name": "TSUKIPRO THE ANIMATION",
    "image": "//lain.bgm.tv/pic/cover/m/1f/ec/200355_99ui0.jpg"
@@ -10,9 +16,36 @@
    "id": 234094,
    "name": "TSUKIPRO THE ANIMATION 2",
    "nameCN": ""
+  },
+  {
+   "id": 266349,
+   "name": "ツキウタ。 THE ANIMATION 2",
+   "nameCN": "月歌2",
+   "image": "//lain.bgm.tv/pic/cover/m/07/5a/266349_2nNdX.jpg"
+  },
+  {
+   "id": 318869,
+   "name": "VAZZROCK THE ANIMATION",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/9a/f2/318869_f4cD1.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 117282,
+   "dst": 200355
+  },
+  {
+   "relate": "续集",
+   "src": 117282,
+   "dst": 266349
+  },
+  {
+   "relate": "相同世界观",
+   "src": 200355,
+   "dst": 117282
+  },
   {
    "relate": "续集",
    "src": 200355,
@@ -21,6 +54,16 @@
   {
    "relate": "前传",
    "src": 234094,
+   "dst": 200355
+  },
+  {
+   "relate": "前传",
+   "src": 266349,
+   "dst": 117282
+  },
+  {
+   "relate": "相同世界观",
+   "src": 318869,
    "dst": 200355
   }
  ]

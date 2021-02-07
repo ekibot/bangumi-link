@@ -2,6 +2,42 @@
  "id": 156570,
  "node": [
   {
+   "id": 73693,
+   "name": "Alien vs. Predator",
+   "nameCN": "异形大战铁血战士",
+   "image": "//lain.bgm.tv/pic/cover/m/fe/d7/73693_TIE8P.jpg"
+  },
+  {
+   "id": 112135,
+   "name": "Alien: Isolation",
+   "nameCN": "异形：隔离",
+   "image": "//lain.bgm.tv/pic/cover/m/60/b9/112135_uI4ik.jpg"
+  },
+  {
+   "id": 156564,
+   "name": "Alien",
+   "nameCN": "异形",
+   "image": "//lain.bgm.tv/pic/cover/m/9b/bc/156564_aAozO.jpg"
+  },
+  {
+   "id": 156565,
+   "name": "Aliens (1986)",
+   "nameCN": "异形2",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/82/156565_MAAb9.jpg"
+  },
+  {
+   "id": 156567,
+   "name": "Alien³",
+   "nameCN": "异形3",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/84/156567_Y6Xz6.jpg"
+  },
+  {
+   "id": 156569,
+   "name": "Alien: Resurrection",
+   "nameCN": "异形4",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/da/156569_BT3T3.jpg"
+  },
+  {
    "id": 156570,
    "name": "AVP: Alien vs. Predator",
    "nameCN": "异形大战铁血战士",
@@ -12,18 +48,150 @@
    "name": "AVPR: Aliens vs Predator - Requiem",
    "nameCN": "异形大战铁血战士2",
    "image": "//lain.bgm.tv/pic/cover/m/b0/c9/156573_tn24V.jpg"
+  },
+  {
+   "id": 156574,
+   "name": "Prometheus",
+   "nameCN": "普罗米修斯",
+   "image": "//lain.bgm.tv/pic/cover/m/1f/f4/156574_MaLPc.jpg"
+  },
+  {
+   "id": 156579,
+   "name": "Alien: Covenant",
+   "nameCN": "异形：契约",
+   "image": "//lain.bgm.tv/pic/cover/m/08/59/156579_6DhqY.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 112135,
+   "dst": 156564
+  },
+  {
+   "relate": "续集",
+   "src": 156564,
+   "dst": 156565
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156564,
+   "dst": 156567
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156564,
+   "dst": 156570
+  },
+  {
+   "relate": "前传",
+   "src": 156565,
+   "dst": 156564
+  },
+  {
+   "relate": "续集",
+   "src": 156565,
+   "dst": 156567
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156565,
+   "dst": 156569
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156565,
+   "dst": 156570
+  },
+  {
+   "relate": "前传",
+   "src": 156567,
+   "dst": 156565
+  },
+  {
+   "relate": "续集",
+   "src": 156567,
+   "dst": 156569
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156567,
+   "dst": 156573
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156567,
+   "dst": 156574
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156569,
+   "dst": 156564
+  },
+  {
+   "relate": "前传",
+   "src": 156569,
+   "dst": 156567
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156569,
+   "dst": 156573
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156570,
+   "dst": 156567
+  },
   {
    "relate": "续集",
    "src": 156570,
    "dst": 156573
   },
   {
+   "relate": "相同世界观",
+   "src": 156573,
+   "dst": 73693
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156573,
+   "dst": 156564
+  },
+  {
    "relate": "前传",
    "src": 156573,
    "dst": 156570
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156574,
+   "dst": 156564
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156574,
+   "dst": 156573
+  },
+  {
+   "relate": "续集",
+   "src": 156574,
+   "dst": 156579
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156579,
+   "dst": 156564
+  },
+  {
+   "relate": "不同世界观",
+   "src": 156579,
+   "dst": 156573
+  },
+  {
+   "relate": "前传",
+   "src": 156579,
+   "dst": 156574
   }
  ]
 }

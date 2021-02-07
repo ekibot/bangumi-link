@@ -2,10 +2,22 @@
  "id": 4066,
  "node": [
   {
+   "id": 1053,
+   "name": "WHITE ALBUM",
+   "nameCN": "白色相簿",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
    "id": 4066,
    "name": "WHITE ALBUM2 -introductory chapter-",
    "nameCN": "白色相簿2 序章",
    "image": "//lain.bgm.tv/pic/cover/m/a1/98/4066_E6YA6.jpg"
+  },
+  {
+   "id": 20957,
+   "name": "WHITE ALBUM -綴られる冬の想い出-",
+   "nameCN": "白色相簿 -被点缀的冬之回忆-",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/f5/20957_2W7nm.jpg"
   },
   {
    "id": 22290,
@@ -28,9 +40,44 @@
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 1053,
+   "dst": 4066
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1053,
+   "dst": 20957
+  },
+  {
+   "relate": "相同世界观",
+   "src": 4066,
+   "dst": 1053
+  },
+  {
    "relate": "续集",
    "src": 4066,
    "dst": 22290
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4066,
+   "dst": 54898
+  },
+  {
+   "relate": "不同演绎",
+   "src": 20957,
+   "dst": 1053
+  },
+  {
+   "relate": "相同世界观",
+   "src": 20957,
+   "dst": 54898
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22290,
+   "dst": 1053
   },
   {
    "relate": "前传",
@@ -38,9 +85,24 @@
    "dst": 4066
   },
   {
+   "relate": "不同演绎",
+   "src": 22290,
+   "dst": 54898
+  },
+  {
    "relate": "续集",
    "src": 22290,
    "dst": 122158
+  },
+  {
+   "relate": "相同世界观",
+   "src": 54898,
+   "dst": 1053
+  },
+  {
+   "relate": "不同演绎",
+   "src": 54898,
+   "dst": 22290
   },
   {
    "relate": "续集",

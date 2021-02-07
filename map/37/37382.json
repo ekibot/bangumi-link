@@ -2,6 +2,18 @@
  "id": 37382,
  "node": [
   {
+   "id": 930,
+   "name": "女神異聞録 DEVIL SURVIVOR",
+   "nameCN": "女神异闻录 恶魔幸存者",
+   "image": "//lain.bgm.tv/pic/cover/m/1c/c3/930_MmXiw.jpg"
+  },
+  {
+   "id": 20802,
+   "name": "DEVIL SURVIVOR 2",
+   "nameCN": "恶魔幸存者2",
+   "image": "//lain.bgm.tv/pic/cover/m/41/29/20802_L1l7J.jpg"
+  },
+  {
    "id": 37382,
    "name": "DEVIL SURVIVOR OVER CLOCK",
    "nameCN": "恶魔幸存者 超频",
@@ -17,8 +29,38 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 930,
+   "dst": 20802
+  },
+  {
+   "relate": "不同演绎",
+   "src": 930,
+   "dst": 37382
+  },
+  {
+   "relate": "前传",
+   "src": 20802,
+   "dst": 930
+  },
+  {
+   "relate": "不同演绎",
+   "src": 20802,
+   "dst": 84275
+  },
+  {
+   "relate": "不同演绎",
+   "src": 37382,
+   "dst": 930
+  },
+  {
+   "relate": "续集",
    "src": 37382,
    "dst": 84275
+  },
+  {
+   "relate": "不同演绎",
+   "src": 84275,
+   "dst": 20802
   },
   {
    "relate": "前传",

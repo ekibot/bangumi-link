@@ -2,6 +2,18 @@
  "id": 142532,
  "node": [
   {
+   "id": 39250,
+   "name": "ボボボーボ・ボーボボ",
+   "nameCN": "鼻毛真拳",
+   "image": "//lain.bgm.tv/pic/cover/m/6e/5d/39250_tcLEC.jpg"
+  },
+  {
+   "id": 39252,
+   "name": "真说ボボボーボ・ボーボボ",
+   "nameCN": "真说鼻毛真拳",
+   "image": "//lain.bgm.tv/pic/cover/m/fe/83/39252_8W16c.jpg"
+  },
+  {
    "id": 142532,
    "name": "ほんのり! どんぱっち",
    "image": "//lain.bgm.tv/pic/cover/m/b7/92/142532_jp.jpg"
@@ -15,9 +27,29 @@
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 39250,
+   "dst": 39252
+  },
+  {
+   "relate": "不同世界观",
+   "src": 39250,
+   "dst": 143277
+  },
+  {
+   "relate": "前传",
+   "src": 39252,
+   "dst": 39250
+  },
+  {
    "relate": "前传",
    "src": 142532,
    "dst": 143277
+  },
+  {
+   "relate": "不同世界观",
+   "src": 143277,
+   "dst": 39250
   },
   {
    "relate": "续集",

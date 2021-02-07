@@ -2,6 +2,12 @@
  "id": 274514,
  "node": [
   {
+   "id": 274513,
+   "name": "RoboCop",
+   "nameCN": "机器警察",
+   "image": "//lain.bgm.tv/pic/cover/m/98/7e/274513_L1HX2.jpg"
+  },
+  {
    "id": 274514,
    "name": "RoboCop",
    "nameCN": "机器战警",
@@ -18,13 +24,39 @@
    "name": "RoboCop 3",
    "nameCN": "机器战警3",
    "image": "//lain.bgm.tv/pic/cover/m/e4/03/274645_Lol3Q.jpg"
+  },
+  {
+   "id": 274647,
+   "name": "RoboCop",
+   "nameCN": "机械战警",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/e4/274647_5lNed.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 274513,
+   "dst": 274514
+  },
+  {
+   "relate": "相同世界观",
+   "src": 274514,
+   "dst": 274513
+  },
+  {
    "relate": "续集",
    "src": 274514,
    "dst": 274643
+  },
+  {
+   "relate": "不同演绎",
+   "src": 274514,
+   "dst": 274647
+  },
+  {
+   "relate": "相同世界观",
+   "src": 274643,
+   "dst": 274513
   },
   {
    "relate": "前传",
@@ -37,9 +69,19 @@
    "dst": 274645
   },
   {
+   "relate": "相同世界观",
+   "src": 274645,
+   "dst": 274513
+  },
+  {
    "relate": "前传",
    "src": 274645,
    "dst": 274643
+  },
+  {
+   "relate": "不同演绎",
+   "src": 274647,
+   "dst": 274514
   }
  ]
 }

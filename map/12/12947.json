@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/16/ad/12947_hDgHd.jpg"
   },
   {
+   "id": 48850,
+   "name": "マルモのおきて スペシャル",
+   "nameCN": "高护木的规矩 SP",
+   "image": "//lain.bgm.tv/pic/cover/m/11/2b/48850_7yFLx.jpg"
+  },
+  {
    "id": 112573,
    "name": "マルモのおきて スペシャル2014",
    "nameCN": "高护木的规矩 SP 2014",
@@ -16,14 +22,34 @@
  ],
  "relate": [
   {
+   "relate": "番外篇",
+   "src": 12947,
+   "dst": 48850
+  },
+  {
    "relate": "总集篇",
    "src": 12947,
+   "dst": 112573
+  },
+  {
+   "relate": "番外篇",
+   "src": 48850,
+   "dst": 12947
+  },
+  {
+   "relate": "不同演绎",
+   "src": 48850,
    "dst": 112573
   },
   {
    "relate": "全集",
    "src": 112573,
    "dst": 12947
+  },
+  {
+   "relate": "不同演绎",
+   "src": 112573,
+   "dst": 48850
   }
  ]
 }

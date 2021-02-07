@@ -2,16 +2,64 @@
  "id": 24145,
  "node": [
   {
+   "id": 22956,
+   "name": "AMON デビルマン黙示録",
+   "nameCN": "AMON 恶魔人默示录",
+   "image": "//lain.bgm.tv/pic/cover/m/79/2b/22956_qWzrj.jpg"
+  },
+  {
    "id": 24145,
    "name": "デビルマン",
    "nameCN": "恶魔人",
    "image": "//lain.bgm.tv/pic/cover/m/59/8a/24145_fNFCw.jpg"
   },
   {
+   "id": 24153,
+   "name": "デビルマン 誕生編",
+   "nameCN": "恶魔人 诞生篇",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/4f/24153_7wKEb.jpg"
+  },
+  {
+   "id": 24154,
+   "name": "デビルマン 妖鳥死麗濡編",
+   "nameCN": "恶魔人 妖鸟死丽濡篇",
+   "image": "//lain.bgm.tv/pic/cover/m/1e/eb/24154_kI3w5.jpg"
+  },
+  {
+   "id": 65287,
+   "name": "AMON デビルマン黙示録",
+   "nameCN": "AMON 恶魔人启示录",
+   "image": "//lain.bgm.tv/pic/cover/m/9c/5c/65287_Huj9F.jpg"
+  },
+  {
+   "id": 65332,
+   "name": "デビルマン黙示録strange days",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/b1/8d/65332_jp.jpg"
+  },
+  {
+   "id": 78078,
+   "name": "バイオレンスジャック",
+   "nameCN": "暴力杰克",
+   "image": "//lain.bgm.tv/pic/cover/m/d4/41/78078_qjZSO.jpg"
+  },
+  {
    "id": 91993,
    "name": "デビルマン レディー",
    "nameCN": "女恶魔人",
    "image": "//lain.bgm.tv/pic/cover/m/40/92/91993_pBC27.jpg"
+  },
+  {
+   "id": 105650,
+   "name": "バイオレンスジャック",
+   "nameCN": "斗魔王杰克",
+   "image": "//lain.bgm.tv/pic/cover/m/92/de/105650_0Zw9H.jpg"
+  },
+  {
+   "id": 211311,
+   "name": "DEVILMAN crybaby",
+   "nameCN": "恶魔人 crybaby",
+   "image": "//lain.bgm.tv/pic/cover/m/c2/c7/211311_778A7.jpg"
   },
   {
    "id": 240928,
@@ -22,9 +70,69 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 22956,
+   "dst": 211311
+  },
+  {
+   "relate": "相同世界观",
+   "src": 24145,
+   "dst": 78078
+  },
+  {
+   "relate": "相同世界观",
+   "src": 24145,
+   "dst": 105650
+  },
+  {
    "relate": "续集",
    "src": 24145,
    "dst": 240928
+  },
+  {
+   "relate": "续集",
+   "src": 24153,
+   "dst": 24154
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24153,
+   "dst": 211311
+  },
+  {
+   "relate": "续集",
+   "src": 24154,
+   "dst": 22956
+  },
+  {
+   "relate": "前传",
+   "src": 24154,
+   "dst": 24153
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24154,
+   "dst": 211311
+  },
+  {
+   "relate": "相同世界观",
+   "src": 65287,
+   "dst": 24145
+  },
+  {
+   "relate": "番外篇",
+   "src": 65287,
+   "dst": 65332
+  },
+  {
+   "relate": "主线故事",
+   "src": 65332,
+   "dst": 65287
+  },
+  {
+   "relate": "相同世界观",
+   "src": 91993,
+   "dst": 24145
   },
   {
    "relate": "续集",
@@ -32,9 +140,29 @@
    "dst": 240928
   },
   {
+   "relate": "相同世界观",
+   "src": 105650,
+   "dst": 24145
+  },
+  {
+   "relate": "不同演绎",
+   "src": 211311,
+   "dst": 22956
+  },
+  {
+   "relate": "相同世界观",
+   "src": 211311,
+   "dst": 78078
+  },
+  {
    "relate": "前传",
    "src": 240928,
    "dst": 91993
+  },
+  {
+   "relate": "相同世界观",
+   "src": 240928,
+   "dst": 105650
   }
  ]
 }

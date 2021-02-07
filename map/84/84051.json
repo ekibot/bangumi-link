@@ -2,6 +2,22 @@
  "id": 84051,
  "node": [
   {
+   "id": 3644,
+   "name": "たまごっち!",
+   "nameCN": "拓麻歌子",
+   "image": "//lain.bgm.tv/pic/cover/m/f9/9b/84054_jFrjJ.jpg"
+  },
+  {
+   "id": 84048,
+   "name": "えいがでとーじょー! たまごっち ドキドキ! うちゅーのまいごっち!?",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/54/84048_tsGZ5.jpg"
+  },
+  {
+   "id": 84049,
+   "name": "映画! たまごっち うちゅーいちハッピーな物語!?",
+   "image": "//lain.bgm.tv/pic/cover/m/37/f8/84049_OQrsq.jpg"
+  },
+  {
    "id": 84050,
    "name": "TVで発見!!たまごっち",
    "image": "//lain.bgm.tv/pic/cover/m/c4/f6/84050_7wpfW.jpg"
@@ -9,15 +25,176 @@
   {
    "id": 84051,
    "name": "たまごっちホントのはなし",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/b4/be/84051_Rc6LL.jpg"
+  },
+  {
+   "id": 84052,
+   "name": "さぁイコー! たまごっち",
+   "nameCN": "最高! 拓麻歌子",
+   "image": "//lain.bgm.tv/pic/cover/m/a1/25/84052_23aeY.jpg"
+  },
+  {
+   "id": 84053,
+   "name": "たまごっちオリジナルアニメ",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/a7/21/84053_jv38W.jpg"
+  },
+  {
+   "id": 84055,
+   "name": "たまごっち! ゆめキラドリーム",
+   "nameCN": "拓麻歌子！ Yume Kira Dream",
+   "image": "//lain.bgm.tv/pic/cover/m/d0/e8/84055_1NSrv.jpg"
+  },
+  {
+   "id": 84056,
+   "name": "たまごっち! みらくるフレンズ",
+   "nameCN": "拓麻歌子！ Miracle Friends",
+   "image": "//lain.bgm.tv/pic/cover/m/7b/87/84056_d0IDb.jpg"
+  },
+  {
+   "id": 102561,
+   "name": "GO-GO たまごっち!",
+   "nameCN": "GO-GO 拓麻歌子！",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/21/102561_018I3.jpg"
+  },
+  {
+   "id": 130181,
+   "name": "たまごっち! たまともだいしゅーGO",
+   "nameCN": "拓麻歌子！拓麻朋友大集合GO",
+   "image": "//lain.bgm.tv/pic/cover/m/ff/8e/130181_rhHsc.jpg"
+  },
+  {
+   "id": 203900,
+   "name": "映画たまごっち ヒミツのおとどけ大作戦!",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/66/203900_TxwH4.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "番外篇",
+   "src": 3644,
+   "dst": 84048
+  },
+  {
+   "relate": "不同演绎",
+   "src": 3644,
+   "dst": 84050
+  },
+  {
+   "relate": "前传",
+   "src": 3644,
+   "dst": 84052
+  },
+  {
+   "relate": "续集",
+   "src": 3644,
+   "dst": 84055
+  },
+  {
+   "relate": "总集篇",
+   "src": 3644,
+   "dst": 130181
+  },
+  {
+   "relate": "衍生",
+   "src": 3644,
+   "dst": 203900
+  },
+  {
+   "relate": "主线故事",
+   "src": 84048,
+   "dst": 3644
+  },
+  {
+   "relate": "续集",
+   "src": 84048,
+   "dst": 84049
+  },
+  {
+   "relate": "主线故事",
+   "src": 84049,
+   "dst": 3644
+  },
+  {
+   "relate": "前传",
+   "src": 84049,
+   "dst": 84048
+  },
+  {
+   "relate": "不同演绎",
+   "src": 84050,
+   "dst": 3644
+  },
+  {
+   "relate": "番外篇",
+   "src": 84050,
+   "dst": 84051
+  },
+  {
    "relate": "主线故事",
    "src": 84051,
    "dst": 84050
+  },
+  {
+   "relate": "续集",
+   "src": 84052,
+   "dst": 3644
+  },
+  {
+   "relate": "主线故事",
+   "src": 84053,
+   "dst": 3644
+  },
+  {
+   "relate": "前传",
+   "src": 84055,
+   "dst": 3644
+  },
+  {
+   "relate": "续集",
+   "src": 84055,
+   "dst": 84056
+  },
+  {
+   "relate": "总集篇",
+   "src": 84055,
+   "dst": 130181
+  },
+  {
+   "relate": "前传",
+   "src": 84056,
+   "dst": 84055
+  },
+  {
+   "relate": "续集",
+   "src": 84056,
+   "dst": 102561
+  },
+  {
+   "relate": "总集篇",
+   "src": 84056,
+   "dst": 130181
+  },
+  {
+   "relate": "前传",
+   "src": 102561,
+   "dst": 84056
+  },
+  {
+   "relate": "总集篇",
+   "src": 102561,
+   "dst": 130181
+  },
+  {
+   "relate": "全集",
+   "src": 130181,
+   "dst": 3644
+  },
+  {
+   "relate": "主线故事",
+   "src": 203900,
+   "dst": 3644
   }
  ]
 }

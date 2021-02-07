@@ -2,10 +2,22 @@
  "id": 184388,
  "node": [
   {
+   "id": 10134,
+   "name": "BLEACH",
+   "nameCN": "死神",
+   "image": "//lain.bgm.tv/pic/cover/m/a8/0b/10134_nZN4H.jpg"
+  },
+  {
    "id": 184388,
    "name": "BURN THE WITCH",
    "nameCN": "龙与魔女",
    "image": "//lain.bgm.tv/pic/cover/m/5d/51/184388_DH89A.jpg"
+  },
+  {
+   "id": 204253,
+   "name": "WE DO knot ALWAYS LOVE YOU",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/de/43/204253_jp.jpg"
   },
   {
    "id": 281567,
@@ -16,9 +28,29 @@
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 10134,
+   "dst": 184388
+  },
+  {
+   "relate": "番外篇",
+   "src": 10134,
+   "dst": 204253
+  },
+  {
+   "relate": "相同世界观",
+   "src": 184388,
+   "dst": 10134
+  },
+  {
    "relate": "前传",
    "src": 184388,
    "dst": 281567
+  },
+  {
+   "relate": "主线故事",
+   "src": 204253,
+   "dst": 10134
   },
   {
    "relate": "续集",

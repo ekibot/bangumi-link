@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/02/6a/2593_qk2qM.jpg"
   },
   {
+   "id": 75748,
+   "name": "海猿",
+   "nameCN": "海猿TV版",
+   "image": "//lain.bgm.tv/pic/cover/m/b2/fa/75748_1Outg.jpg"
+  },
+  {
    "id": 75749,
    "name": "海猿 うみざる 2 NHK版",
    "nameCN": "海猿 2 NHK版",
@@ -16,14 +22,29 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 2593,
+   "dst": 75748
+  },
+  {
    "relate": "续集",
    "src": 2593,
+   "dst": 75749
+  },
+  {
+   "relate": "不同演绎",
+   "src": 75748,
    "dst": 75749
   },
   {
    "relate": "前传",
    "src": 75749,
    "dst": 2593
+  },
+  {
+   "relate": "不同演绎",
+   "src": 75749,
+   "dst": 75748
   }
  ]
 }

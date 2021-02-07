@@ -2,6 +2,12 @@
  "id": 4304,
  "node": [
   {
+   "id": 761,
+   "name": "Prince of Persia",
+   "nameCN": "波斯王子",
+   "image": "//lain.bgm.tv/pic/cover/m/88/ae/761_vV453.jpg"
+  },
+  {
    "id": 4304,
    "name": "Prince of Persia: The Sands of Time",
    "nameCN": "波斯王子：时之砂",
@@ -24,13 +30,50 @@
    "name": "Prince of Persia: the forgotten sands",
    "nameCN": "波斯王子：遗忘之沙",
    "image": "//lain.bgm.tv/pic/cover/m/9d/d3/7968_Yy3bH.jpg"
+  },
+  {
+   "id": 82485,
+   "name": "Prince of Persia:The Sands of Time",
+   "nameCN": "波斯王子时之刃",
+   "image": "//lain.bgm.tv/pic/cover/m/61/d9/82485_y1hGC.jpg"
+  },
+  {
+   "id": 314738,
+   "name": "Prince of Persia: The Sands of Time Remake",
+   "nameCN": "波斯王子：时之砂重制版",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/d2/314738_0r029.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同世界观",
+   "src": 761,
+   "dst": 4304
+  },
+  {
+   "relate": "不同世界观",
+   "src": 4304,
+   "dst": 761
+  },
+  {
    "relate": "续集",
    "src": 4304,
    "dst": 4305
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4304,
+   "dst": 82485
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4304,
+   "dst": 314738
+  },
+  {
+   "relate": "不同世界观",
+   "src": 4305,
+   "dst": 761
   },
   {
    "relate": "前传",
@@ -48,9 +91,19 @@
    "dst": 4305
   },
   {
+   "relate": "不同世界观",
+   "src": 7968,
+   "dst": 761
+  },
+  {
    "relate": "主线故事",
    "src": 7968,
    "dst": 4305
+  },
+  {
+   "relate": "不同演绎",
+   "src": 314738,
+   "dst": 4304
   }
  ]
 }

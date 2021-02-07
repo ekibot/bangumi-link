@@ -14,10 +14,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/b9/42/121027_uLeLu.jpg"
   },
   {
+   "id": 121028,
+   "name": "Twin Peaks",
+   "nameCN": "双峰",
+   "image": "//lain.bgm.tv/pic/cover/m/5a/d3/121028_7V3nu.jpg"
+  },
+  {
    "id": 121029,
    "name": "Twin Peaks: Fire Walk with Me",
    "nameCN": "双峰：与火同行",
    "image": "//lain.bgm.tv/pic/cover/m/d1/c9/121029_XoLOl.jpg"
+  },
+  {
+   "id": 267373,
+   "name": "Twin Peaks: The Missing Pieces",
+   "nameCN": "双峰：遗失的碎片",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/3c/267373_5F1rb.jpg"
   }
  ],
  "relate": [
@@ -25,6 +37,11 @@
    "relate": "续集",
    "src": 121026,
    "dst": 121027
+  },
+  {
+   "relate": "不同演绎",
+   "src": 121026,
+   "dst": 121028
   },
   {
    "relate": "前传",
@@ -37,9 +54,24 @@
    "dst": 121026
   },
   {
+   "relate": "不同演绎",
+   "src": 121028,
+   "dst": 121026
+  },
+  {
    "relate": "续集",
    "src": 121029,
    "dst": 121026
+  },
+  {
+   "relate": "相同世界观",
+   "src": 121029,
+   "dst": 267373
+  },
+  {
+   "relate": "相同世界观",
+   "src": 267373,
+   "dst": 121029
   }
  ]
 }

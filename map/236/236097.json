@@ -2,10 +2,21 @@
  "id": 236097,
  "node": [
   {
+   "id": 6928,
+   "name": "堕天使の甘い誘惑×快感フレーズ",
+   "image": "//lain.bgm.tv/pic/cover/m/20/c1/6928_63l6X.jpg"
+  },
+  {
    "id": 66767,
    "name": "快感♥フレーズ",
    "nameCN": "快感指令",
    "image": "//lain.bgm.tv/pic/cover/m/5a/3e/66767_cn9nQ.jpg"
+  },
+  {
+   "id": 198198,
+   "name": "快感フレーズNEXT",
+   "nameCN": "快感指令NEXT",
+   "image": "//lain.bgm.tv/pic/cover/m/75/8c/198198_v05In.jpg"
   },
   {
    "id": 236097,
@@ -22,6 +33,26 @@
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 6928,
+   "dst": 198198
+  },
+  {
+   "relate": "番外篇",
+   "src": 66767,
+   "dst": 236097
+  },
+  {
+   "relate": "前传",
+   "src": 198198,
+   "dst": 6928
+  },
+  {
+   "relate": "不同演绎",
+   "src": 198198,
+   "dst": 260688
+  },
+  {
    "relate": "主线故事",
    "src": 236097,
    "dst": 66767
@@ -30,6 +61,11 @@
    "relate": "主线故事",
    "src": 260688,
    "dst": 66767
+  },
+  {
+   "relate": "不同演绎",
+   "src": 260688,
+   "dst": 198198
   }
  ]
 }

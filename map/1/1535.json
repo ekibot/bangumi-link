@@ -2,6 +2,12 @@
  "id": 1535,
  "node": [
   {
+   "id": 1596,
+   "name": "零～月蝕の仮面～",
+   "nameCN": "零～月蚀的假面～",
+   "image": "//lain.bgm.tv/pic/cover/m/30/9f/1596_F4AUl.jpg"
+  },
+  {
    "id": 1597,
    "name": "零～刺青の聲～",
    "nameCN": "零～刺青之声～",
@@ -18,13 +24,57 @@
    "name": "零～ZERO～",
    "nameCN": "零-zero",
    "image": "//lain.bgm.tv/pic/cover/m/83/e8/1599_UC0as.jpg"
+  },
+  {
+   "id": 23100,
+   "name": "心霊カメラ～憑いている手帳～",
+   "nameCN": "心灵写真：附体笔记",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/81/23100_u71WB.jpg"
+  },
+  {
+   "id": 35358,
+   "name": "零 〜眞紅の蝶〜",
+   "nameCN": "零：真红之蝶",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/cf/68236_2Lvv5.jpg"
+  },
+  {
+   "id": 108558,
+   "name": "零 ～濡鴉ノ巫女～",
+   "nameCN": "零～濡鸦的巫女～",
+   "image": "//lain.bgm.tv/pic/cover/m/5b/40/108558_RDJ9k.jpg"
+  },
+  {
+   "id": 108741,
+   "name": "零 影巫女",
+   "nameCN": "零 影巫女",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/6c/108741_MF9Dv.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 1596,
+   "dst": 108558
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1596,
+   "dst": 108741
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1597,
+   "dst": 1596
+  },
+  {
    "relate": "前传",
    "src": 1597,
    "dst": 1598
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1597,
+   "dst": 108741
   },
   {
    "relate": "续集",
@@ -37,9 +87,59 @@
    "dst": 1599
   },
   {
+   "relate": "不同演绎",
+   "src": 1598,
+   "dst": 35358
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1598,
+   "dst": 108558
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1598,
+   "dst": 108741
+  },
+  {
    "relate": "续集",
    "src": 1599,
    "dst": 1598
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1599,
+   "dst": 108558
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1599,
+   "dst": 108741
+  },
+  {
+   "relate": "相同世界观",
+   "src": 23100,
+   "dst": 1596
+  },
+  {
+   "relate": "相同世界观",
+   "src": 35358,
+   "dst": 1596
+  },
+  {
+   "relate": "不同演绎",
+   "src": 35358,
+   "dst": 1598
+  },
+  {
+   "relate": "相同世界观",
+   "src": 108558,
+   "dst": 1599
+  },
+  {
+   "relate": "相同世界观",
+   "src": 108558,
+   "dst": 108741
   }
  ]
 }

@@ -2,6 +2,12 @@
  "id": 26806,
  "node": [
   {
+   "id": 10508,
+   "name": "涼風",
+   "nameCN": "凉风",
+   "image": "//lain.bgm.tv/pic/cover/m/da/42/10508_64I4T.jpg"
+  },
+  {
    "id": 26806,
    "name": "君のいる町～黄昏交差点～",
    "nameCN": "有你的小镇 OAD 黄昏交叉点",
@@ -18,18 +24,44 @@
    "name": "君のいる町 OAD",
    "nameCN": "有你的小镇 OAD",
    "image": "//lain.bgm.tv/pic/cover/m/d0/26/84506_9flvF.jpg"
+  },
+  {
+   "id": 188412,
+   "name": "風夏",
+   "nameCN": "风夏",
+   "image": "//lain.bgm.tv/pic/cover/m/cf/26/188412_0g2sZ.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 10508,
+   "dst": 66655
+  },
   {
    "relate": "主线故事",
    "src": 26806,
    "dst": 66655
   },
   {
+   "relate": "番外篇",
+   "src": 66655,
+   "dst": 26806
+  },
+  {
+   "relate": "相同世界观",
+   "src": 66655,
+   "dst": 188412
+  },
+  {
    "relate": "主线故事",
    "src": 84506,
    "dst": 66655
+  },
+  {
+   "relate": "相同世界观",
+   "src": 188412,
+   "dst": 10508
   }
  ]
 }

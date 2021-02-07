@@ -2,22 +2,59 @@
  "id": 309645,
  "node": [
   {
+   "id": 499,
+   "name": "文学少女",
+   "nameCN": "文学少女",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/f1/499_QyAUf.jpg"
+  },
+  {
+   "id": 15170,
+   "name": "“文学少女”はガーゴイルとバカの階段を昇る",
+   "nameCN": "“文学少女”登上石像怪与笨蛋的阶梯",
+   "image": "//lain.bgm.tv/pic/cover/m/13/52/15170_q054i.jpg"
+  },
+  {
    "id": 309645,
    "name": "むすぶと本。 『さいごの本やさん』の長い長い終わり",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/32/e1/309645_4Juzk.jpg"
   },
   {
    "id": 321062,
    "name": "むすぶと本。",
+   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/1f/46/321062_9IDL4.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "番外篇",
+   "src": 499,
+   "dst": 15170
+  },
+  {
+   "relate": "相同世界观",
+   "src": 499,
+   "dst": 321062
+  },
+  {
+   "relate": "主线故事",
+   "src": 15170,
+   "dst": 499
+  },
+  {
    "relate": "主线故事",
    "src": 309645,
    "dst": 321062
+  },
+  {
+   "relate": "相同世界观",
+   "src": 321062,
+   "dst": 499
+  },
+  {
+   "relate": "番外篇",
+   "src": 321062,
+   "dst": 309645
   }
  ]
 }

@@ -200,6 +200,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/fe/0e/97603_dDXdc.jpg"
   },
   {
+   "id": 104823,
+   "name": "CSI: Cyber Season 1",
+   "nameCN": "犯罪现场调查: 网络犯罪 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/db/97/104823_o0jWC.jpg"
+  },
+  {
    "id": 115190,
    "name": "CSI: Crime Scene Investigation Season 15",
    "nameCN": "犯罪现场调查 第十五季",
@@ -210,6 +216,12 @@
    "name": "Immortality",
    "nameCN": "犯罪现场调查完结篇：不朽",
    "image": "//lain.bgm.tv/pic/cover/m/32/80/147799_00z4o.jpg"
+  },
+  {
+   "id": 189707,
+   "name": "CSI: Cyber Season 2",
+   "nameCN": "网络犯罪调查 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/01/a9/189707_bJKsj.jpg"
   }
  ],
  "relate": [
@@ -267,6 +279,11 @@
    "relate": "续集",
    "src": 22357,
    "dst": 28285
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22357,
+   "dst": 87445
   },
   {
    "relate": "前传",
@@ -379,6 +396,11 @@
    "dst": 87441
   },
   {
+   "relate": "相同世界观",
+   "src": 87443,
+   "dst": 22357
+  },
+  {
    "relate": "续集",
    "src": 87443,
    "dst": 87454
@@ -392,6 +414,11 @@
    "relate": "续集",
    "src": 87444,
    "dst": 64981
+  },
+  {
+   "relate": "相同世界观",
+   "src": 87445,
+   "dst": 22357
   },
   {
    "relate": "续集",
@@ -529,6 +556,16 @@
    "dst": 97602
   },
   {
+   "relate": "相同世界观",
+   "src": 104823,
+   "dst": 22357
+  },
+  {
+   "relate": "续集",
+   "src": 104823,
+   "dst": 189707
+  },
+  {
    "relate": "前传",
    "src": 115190,
    "dst": 84494
@@ -542,6 +579,11 @@
    "relate": "前传",
    "src": 147799,
    "dst": 115190
+  },
+  {
+   "relate": "前传",
+   "src": 189707,
+   "dst": 104823
   }
  ]
 }

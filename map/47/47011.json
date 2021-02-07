@@ -2,6 +2,12 @@
  "id": 47011,
  "node": [
   {
+   "id": 4025,
+   "name": "ドクタースランプ",
+   "nameCN": "阿拉蕾",
+   "image": "//lain.bgm.tv/pic/cover/m/16/25/4025_Hu4UR.jpg"
+  },
+  {
    "id": 47011,
    "name": "Dr.スランプ アラレちゃん ハロー!不思議島",
    "nameCN": "阿拉蕾 hello!不可思议岛",
@@ -62,6 +68,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/3c/62/82727_uRVj9.jpg"
   },
   {
+   "id": 82728,
+   "name": "ドクタースランプ アラレのびっくりバーン",
+   "nameCN": "阿拉蕾 吃惊的道路",
+   "image": "//lain.bgm.tv/pic/cover/m/44/a1/82728_babaj.jpg"
+  },
+  {
    "id": 82729,
    "name": "Dr.SLUMP Dr.マシリト アバレちゃん",
    "nameCN": "阿拉蕾 马西利特博士",
@@ -70,9 +82,29 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 4025,
+   "dst": 47243
+  },
+  {
+   "relate": "番外篇",
+   "src": 4025,
+   "dst": 82728
+  },
+  {
    "relate": "主线故事",
    "src": 47011,
    "dst": 47243
+  },
+  {
+   "relate": "不同演绎",
+   "src": 47243,
+   "dst": 4025
+  },
+  {
+   "relate": "番外篇",
+   "src": 47243,
+   "dst": 82720
   },
   {
    "relate": "主线故事",
@@ -113,6 +145,11 @@
    "relate": "主线故事",
    "src": 82727,
    "dst": 47243
+  },
+  {
+   "relate": "主线故事",
+   "src": 82728,
+   "dst": 4025
   },
   {
    "relate": "主线故事",

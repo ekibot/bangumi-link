@@ -2,28 +2,133 @@
  "id": 11218,
  "node": [
   {
+   "id": 3894,
+   "name": "Starry☆Sky~in Spring~",
+   "nameCN": "星座彼氏-春季篇",
+   "image": "//lain.bgm.tv/pic/cover/m/5c/8e/3894_M77fD.jpg"
+  },
+  {
+   "id": 10499,
+   "name": "Starry☆Sky~After Spring~",
+   "image": "//lain.bgm.tv/pic/cover/m/bb/16/10499_tM05m.jpg"
+  },
+  {
+   "id": 11217,
+   "name": "Starry☆Sky~in Winter~",
+   "nameCN": "星座彼氏-冬季篇",
+   "image": "//lain.bgm.tv/pic/cover/m/44/5b/11217_MiFxm.jpg"
+  },
+  {
    "id": 11218,
    "name": "Starry☆Sky~in Autumn~",
    "nameCN": "星座彼氏-秋季篇",
    "image": "//lain.bgm.tv/pic/cover/m/56/82/11218_z5hhw.jpg"
   },
   {
+   "id": 11219,
+   "name": "Starry☆Sky~in Summer~",
+   "nameCN": "星座彼氏-夏季篇",
+   "image": "//lain.bgm.tv/pic/cover/m/d7/01/11219_F66je.jpg"
+  },
+  {
+   "id": 14992,
+   "name": "Starry☆Sky~After Summer~",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/88/f6/14992_KKjfl.jpg"
+  },
+  {
    "id": 22029,
    "name": "Starry☆Sky～After Autumn～",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/69/93/22029_m7h6S.jpg"
+  },
+  {
+   "id": 39593,
+   "name": "Starry☆Sky～After Winter～",
+   "nameCN": "Starry☆Sky～After Winter～",
+   "image": "//lain.bgm.tv/pic/cover/m/0d/d9/39593_39m9c.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 3894,
+   "dst": 10499
+  },
+  {
+   "relate": "相同世界观",
+   "src": 3894,
+   "dst": 11219
+  },
+  {
+   "relate": "前传",
+   "src": 10499,
+   "dst": 3894
+  },
+  {
+   "relate": "相同世界观",
+   "src": 10499,
+   "dst": 22029
+  },
+  {
+   "relate": "相同世界观",
+   "src": 11217,
+   "dst": 11219
+  },
+  {
+   "relate": "续集",
+   "src": 11217,
+   "dst": 39593
+  },
+  {
+   "relate": "相同世界观",
+   "src": 11218,
+   "dst": 11217
+  },
   {
    "relate": "续集",
    "src": 11218,
    "dst": 22029
   },
   {
+   "relate": "相同世界观",
+   "src": 11219,
+   "dst": 11218
+  },
+  {
+   "relate": "续集",
+   "src": 11219,
+   "dst": 14992
+  },
+  {
+   "relate": "相同世界观",
+   "src": 14992,
+   "dst": 10499
+  },
+  {
+   "relate": "前传",
+   "src": 14992,
+   "dst": 11219
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22029,
+   "dst": 10499
+  },
+  {
    "relate": "前传",
    "src": 22029,
    "dst": 11218
+  },
+  {
+   "relate": "相同世界观",
+   "src": 39593,
+   "dst": 10499
+  },
+  {
+   "relate": "前传",
+   "src": 39593,
+   "dst": 11217
   }
  ]
 }

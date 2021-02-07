@@ -4,14 +4,12 @@
   {
    "id": 66719,
    "name": "ダブル・バインド外伝：アウトフェイス",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/00/a0/66719_jp.jpg"
   },
   {
    "id": 129172,
    "name": "ダブル・バインドシリーズ",
-   "nameCN": "双重束缚",
-   "image": "/img/no_icon_subject.png"
+   "nameCN": "双重束缚"
   }
  ],
  "relate": [
@@ -19,6 +17,11 @@
    "relate": "主线故事",
    "src": 66719,
    "dst": 129172
+  },
+  {
+   "relate": "番外篇",
+   "src": 129172,
+   "dst": 66719
   }
  ]
 }

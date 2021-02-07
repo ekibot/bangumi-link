@@ -2,10 +2,28 @@
  "id": 662,
  "node": [
   {
+   "id": 137,
+   "name": "ファンタシースターポータブル",
+   "nameCN": "梦幻之星携带版 / Phantasy Star Portable",
+   "image": "//lain.bgm.tv/pic/cover/m/39/88/137_ajp.jpg"
+  },
+  {
    "id": 662,
    "name": "PHANTASY STAR UNIVERSE",
    "nameCN": "梦幻之星:宇宙",
    "image": "//lain.bgm.tv/pic/cover/m/be/31/662_DbHds.jpg"
+  },
+  {
+   "id": 3234,
+   "name": "ファンタシースターポータブル2",
+   "nameCN": "梦幻之星携带版2 / Phantasy Star Portable 2",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/65/3234_t3SOp.jpg"
+  },
+  {
+   "id": 11267,
+   "name": "梦幻之星携带版2 无限",
+   "nameCN": "ファンタシースターポータブル2 インフィニティ",
+   "image": "//lain.bgm.tv/pic/cover/m/15/1d/11267_SLCg1.jpg"
   },
   {
    "id": 57014,
@@ -16,9 +34,44 @@
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 137,
+   "dst": 662
+  },
+  {
+   "relate": "续集",
+   "src": 137,
+   "dst": 3234
+  },
+  {
+   "relate": "相同世界观",
+   "src": 662,
+   "dst": 137
+  },
+  {
    "relate": "续集",
    "src": 662,
    "dst": 57014
+  },
+  {
+   "relate": "前传",
+   "src": 3234,
+   "dst": 137
+  },
+  {
+   "relate": "相同世界观",
+   "src": 3234,
+   "dst": 662
+  },
+  {
+   "relate": "主线故事",
+   "src": 11267,
+   "dst": 3234
+  },
+  {
+   "relate": "相同世界观",
+   "src": 57014,
+   "dst": 137
   },
   {
    "relate": "前传",

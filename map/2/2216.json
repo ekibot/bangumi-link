@@ -2,10 +2,22 @@
  "id": 2216,
  "node": [
   {
+   "id": 493,
+   "name": "HELLSING OVA",
+   "nameCN": "皇家国教骑士团 OVA",
+   "image": "//lain.bgm.tv/pic/cover/m/2f/55/493_zK3f5.jpg"
+  },
+  {
    "id": 2216,
    "name": "HELLSING",
    "nameCN": "皇家国教骑士团",
    "image": "//lain.bgm.tv/pic/cover/m/59/38/2216_EvrRc.jpg"
+  },
+  {
+   "id": 27924,
+   "name": "HELLSING 外伝:THE DAWN",
+   "nameCN": "皇家国教骑士团外传：THE DAWN",
+   "image": "//lain.bgm.tv/pic/cover/m/19/8c/27924_Rl554.jpg"
   },
   {
    "id": 285380,
@@ -16,9 +28,29 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 493,
+   "dst": 2216
+  },
+  {
+   "relate": "番外篇",
+   "src": 493,
+   "dst": 27924
+  },
+  {
+   "relate": "不同演绎",
+   "src": 2216,
+   "dst": 493
+  },
+  {
    "relate": "总集篇",
    "src": 2216,
    "dst": 285380
+  },
+  {
+   "relate": "主线故事",
+   "src": 27924,
+   "dst": 493
   },
   {
    "relate": "全集",

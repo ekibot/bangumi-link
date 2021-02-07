@@ -8,22 +8,54 @@
    "image": "//lain.bgm.tv/pic/cover/m/45/88/1144_o2h95.jpg"
   },
   {
+   "id": 3748,
+   "name": "ASDVD 生まれたばかりのLoveSong",
+   "nameCN": "天使恋曲",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/ac/3748_K8Ciz.jpg"
+  },
+  {
    "id": 24101,
    "name": "エンジェリック・コンサート",
    "nameCN": "天使协奏曲",
    "image": "//lain.bgm.tv/pic/cover/m/74/03/24101_YH1Ph.jpg"
+  },
+  {
+   "id": 224506,
+   "name": "エンジェリック・コンサート～アンコール",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/f7/fd/224506_DRerE.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 1144,
+   "dst": 3748
+  },
   {
    "relate": "前传",
    "src": 1144,
    "dst": 24101
   },
   {
+   "relate": "不同演绎",
+   "src": 3748,
+   "dst": 1144
+  },
+  {
    "relate": "续集",
    "src": 24101,
    "dst": 1144
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24101,
+   "dst": 224506
+  },
+  {
+   "relate": "不同演绎",
+   "src": 224506,
+   "dst": 24101
   }
  ]
 }

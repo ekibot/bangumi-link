@@ -19,13 +19,39 @@
    "image": "//lain.bgm.tv/pic/cover/m/9b/4b/178637_jp.jpg"
   },
   {
+   "id": 193767,
+   "name": "皇帝と宦官",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/83/193767_jp.jpg"
+  },
+  {
    "id": 209370,
    "name": "メス堕ちBL",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/4a/3c/209370_NNURN.jpg"
+  },
+  {
+   "id": 219330,
+   "name": "帝國の宦官",
+   "image": "//lain.bgm.tv/pic/cover/m/31/0c/219330_hAaov.jpg"
+  },
+  {
+   "id": 293517,
+   "name": "帝國の宦官(2)",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/38/ce/293517_Dl4fB.jpg"
+  },
+  {
+   "id": 293518,
+   "name": "傾国の宦官",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/f0/33/293518_tIM8h.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 135141,
+   "dst": 178637
+  },
   {
    "relate": "续集",
    "src": 138329,
@@ -37,6 +63,11 @@
    "dst": 135141
   },
   {
+   "relate": "相同世界观",
+   "src": 193767,
+   "dst": 219330
+  },
+  {
    "relate": "主线故事",
    "src": 209370,
    "dst": 135141
@@ -45,6 +76,36 @@
    "relate": "前传",
    "src": 209370,
    "dst": 138329
+  },
+  {
+   "relate": "相同世界观",
+   "src": 219330,
+   "dst": 193767
+  },
+  {
+   "relate": "番外篇",
+   "src": 219330,
+   "dst": 209370
+  },
+  {
+   "relate": "续集",
+   "src": 219330,
+   "dst": 293517
+  },
+  {
+   "relate": "前传",
+   "src": 293517,
+   "dst": 219330
+  },
+  {
+   "relate": "相同世界观",
+   "src": 293517,
+   "dst": 293518
+  },
+  {
+   "relate": "相同世界观",
+   "src": 293518,
+   "dst": 193767
   }
  ]
 }

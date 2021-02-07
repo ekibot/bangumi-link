@@ -2,6 +2,12 @@
  "id": 11230,
  "node": [
   {
+   "id": 9580,
+   "name": "大航海時代Online",
+   "nameCN": "大航海时代Online",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/db/9580_V55oT.jpg"
+  },
+  {
    "id": 11230,
    "name": "大航海時代IV PORTO ESTADO",
    "nameCN": "大航海时代IV",
@@ -38,6 +44,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/13/02/224240_sERW7.jpg"
   },
   {
+   "id": 315953,
+   "name": "大航海時代 Origin",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/74/db/315953_1Ic0e.jpg"
+  },
+  {
    "id": 318383,
    "name": "大航海時代Ⅵ",
    "nameCN": "大航海时代6",
@@ -45,6 +57,16 @@
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 9580,
+   "dst": 11230
+  },
+  {
+   "relate": "不同演绎",
+   "src": 11230,
+   "dst": 9580
+  },
   {
    "relate": "前传",
    "src": 11230,
@@ -76,9 +98,19 @@
    "dst": 224240
   },
   {
+   "relate": "不同演绎",
+   "src": 25237,
+   "dst": 315953
+  },
+  {
    "relate": "主线故事",
    "src": 25238,
    "dst": 25237
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25238,
+   "dst": 315953
   },
   {
    "relate": "前传",
@@ -93,6 +125,11 @@
   {
    "relate": "续集",
    "src": 224240,
+   "dst": 25237
+  },
+  {
+   "relate": "不同演绎",
+   "src": 315953,
    "dst": 25237
   },
   {

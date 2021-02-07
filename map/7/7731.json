@@ -2,10 +2,52 @@
  "id": 7731,
  "node": [
   {
+   "id": 753,
+   "name": "戦国BASARA",
+   "nameCN": "战国婆娑罗",
+   "image": "//lain.bgm.tv/pic/cover/m/6f/22/753_xdjsr.jpg"
+  },
+  {
+   "id": 1429,
+   "name": "戦国BASARA",
+   "nameCN": "战国BASARA",
+   "image": "//lain.bgm.tv/pic/cover/m/56/35/1429_dA31o.jpg"
+  },
+  {
+   "id": 1749,
+   "name": "戦国BASARA OVA",
+   "nameCN": "战国BASARA OVA",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/9b/1749_gDDUr.jpg"
+  },
+  {
+   "id": 1750,
+   "name": "戦国BASARA 弐",
+   "nameCN": "战国BASARA 贰",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/5d/1750_lcbUb.jpg"
+  },
+  {
+   "id": 1993,
+   "name": "戦国BASARA 2",
+   "nameCN": "战国BASARA 2",
+   "image": "//lain.bgm.tv/pic/cover/m/c5/a4/1993_xaNAx.jpg"
+  },
+  {
+   "id": 1994,
+   "name": "戦国BASARA 2 英雄外伝",
+   "nameCN": "战国BASARA 2 英雄外传",
+   "image": "//lain.bgm.tv/pic/cover/m/00/8b/1994_PotNy.jpg"
+  },
+  {
    "id": 7731,
    "name": "戦国BASARA 3",
    "nameCN": "战国BASARA 3",
    "image": "//lain.bgm.tv/pic/cover/m/50/73/7731_OcWbz.jpg"
+  },
+  {
+   "id": 15395,
+   "name": "戦国BASARA 劇場版 -The Last Party-",
+   "nameCN": "战国BASARA 剧场版 -The Last Party-",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/bb/20914_fjkJl.jpg"
   },
   {
    "id": 23440,
@@ -20,13 +62,85 @@
    "image": "//lain.bgm.tv/pic/cover/m/17/57/68971_Ge5sg.jpg"
   },
   {
+   "id": 99962,
+   "name": "戦国BASARA Judge End",
+   "nameCN": "战国BASARA Judge End",
+   "image": "//lain.bgm.tv/pic/cover/m/76/0e/99962_oz117.jpg"
+  },
+  {
    "id": 123273,
    "name": "戦国BASARA 4 皇",
    "nameCN": "战国BASARA 4 皇",
    "image": "//lain.bgm.tv/pic/cover/m/a0/c3/123273_qYSGr.jpg"
+  },
+  {
+   "id": 241949,
+   "name": "学園BASARA",
+   "nameCN": "学园BASARA",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/00/241949_3HBvm.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 753,
+   "dst": 7731
+  },
+  {
+   "relate": "番外篇",
+   "src": 1429,
+   "dst": 1749
+  },
+  {
+   "relate": "续集",
+   "src": 1429,
+   "dst": 1750
+  },
+  {
+   "relate": "不同世界观",
+   "src": 1429,
+   "dst": 241949
+  },
+  {
+   "relate": "主线故事",
+   "src": 1749,
+   "dst": 1429
+  },
+  {
+   "relate": "前传",
+   "src": 1750,
+   "dst": 1429
+  },
+  {
+   "relate": "番外篇",
+   "src": 1750,
+   "dst": 15395
+  },
+  {
+   "relate": "续集",
+   "src": 1750,
+   "dst": 99962
+  },
+  {
+   "relate": "续集",
+   "src": 1993,
+   "dst": 1994
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1993,
+   "dst": 7731
+  },
+  {
+   "relate": "前传",
+   "src": 1994,
+   "dst": 1993
+  },
+  {
+   "relate": "相同世界观",
+   "src": 7731,
+   "dst": 753
+  },
   {
    "relate": "续集",
    "src": 7731,
@@ -34,8 +148,18 @@
   },
   {
    "relate": "主线故事",
+   "src": 15395,
+   "dst": 1750
+  },
+  {
+   "relate": "主线故事",
    "src": 23440,
    "dst": 7731
+  },
+  {
+   "relate": "相同世界观",
+   "src": 68971,
+   "dst": 753
   },
   {
    "relate": "前传",
@@ -43,9 +167,24 @@
    "dst": 7731
   },
   {
+   "relate": "前传",
+   "src": 99962,
+   "dst": 1750
+  },
+  {
    "relate": "主线故事",
    "src": 123273,
    "dst": 68971
+  },
+  {
+   "relate": "不同世界观",
+   "src": 241949,
+   "dst": 753
+  },
+  {
+   "relate": "不同世界观",
+   "src": 241949,
+   "dst": 1429
   }
  ]
 }

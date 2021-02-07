@@ -13,6 +13,18 @@
    "image": "//lain.bgm.tv/pic/cover/m/f3/04/253825_EGgDd.jpg"
   },
   {
+   "id": 256150,
+   "name": "Super Turrican 2",
+   "nameCN": "超级战士2",
+   "image": "//lain.bgm.tv/pic/cover/m/aa/01/256150_zRbXB.jpg"
+  },
+  {
+   "id": 256217,
+   "name": "Super Turrican",
+   "nameCN": "超级战士",
+   "image": "//lain.bgm.tv/pic/cover/m/0a/90/256217_ja1Lw.jpg"
+  },
+  {
    "id": 314093,
    "name": "Turrican",
    "nameCN": "",
@@ -36,9 +48,29 @@
    "dst": 252426
   },
   {
+   "relate": "前传",
+   "src": 256150,
+   "dst": 256217
+  },
+  {
+   "relate": "续集",
+   "src": 256217,
+   "dst": 256150
+  },
+  {
+   "relate": "相同世界观",
+   "src": 256217,
+   "dst": 314093
+  },
+  {
    "relate": "续集",
    "src": 314093,
    "dst": 252426
+  },
+  {
+   "relate": "相同世界观",
+   "src": 314093,
+   "dst": 256217
   }
  ]
 }

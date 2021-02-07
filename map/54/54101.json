@@ -2,6 +2,11 @@
  "id": 54101,
  "node": [
   {
+   "id": 377,
+   "name": "フロントミッション ザ・ファースト",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/4a/377_ajp.jpg"
+  },
+  {
    "id": 9925,
    "name": "Front Mission:Evolved",
    "nameCN": "前线任务:进化",
@@ -26,6 +31,24 @@
    "image": "//lain.bgm.tv/pic/cover/m/cf/6f/123418_8L9pb.jpg"
   },
   {
+   "id": 124589,
+   "name": "FRONT MISSION 1ST",
+   "nameCN": "前线任务1ST",
+   "image": "//lain.bgm.tv/pic/cover/m/27/48/124589_9k1K1.jpg"
+  },
+  {
+   "id": 192853,
+   "name": "FRONT MISSION SERIES GUN HAZARD",
+   "nameCN": "前线任务-枪之危机",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/d6/192853_6KVk5.jpg"
+  },
+  {
+   "id": 226166,
+   "name": "LEFT ALIVE",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/cc/f9/226166_NopjA.jpg"
+  },
+  {
    "id": 252350,
    "name": "FRONT MISSION5〜Scars of the War〜",
    "nameCN": "前线任务5",
@@ -46,14 +69,34 @@
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 377,
+   "dst": 54101
+  },
+  {
    "relate": "前传",
    "src": 9925,
    "dst": 252350
   },
   {
+   "relate": "不同演绎",
+   "src": 54101,
+   "dst": 377
+  },
+  {
    "relate": "前传",
    "src": 54101,
    "dst": 123418
+  },
+  {
+   "relate": "不同世界观",
+   "src": 54101,
+   "dst": 192853
+  },
+  {
+   "relate": "相同世界观",
+   "src": 54101,
+   "dst": 226166
   },
   {
    "relate": "续集",
@@ -73,6 +116,21 @@
   {
    "relate": "续集",
    "src": 123418,
+   "dst": 54101
+  },
+  {
+   "relate": "不同演绎",
+   "src": 124589,
+   "dst": 54101
+  },
+  {
+   "relate": "不同世界观",
+   "src": 192853,
+   "dst": 54101
+  },
+  {
+   "relate": "相同世界观",
+   "src": 226166,
    "dst": 54101
   },
   {

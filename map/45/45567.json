@@ -2,6 +2,18 @@
  "id": 45567,
  "node": [
   {
+   "id": 45530,
+   "name": "フルメタル・パニック!Σ",
+   "nameCN": "全金属狂潮Σ",
+   "image": "//lain.bgm.tv/pic/cover/m/93/71/45530_JhEui.jpg"
+  },
+  {
+   "id": 45556,
+   "name": "フルメタル・パニック! コミックス",
+   "nameCN": "全金属狂潮 漫画",
+   "image": "//lain.bgm.tv/pic/cover/m/47/f6/45556_lZ8Lf.jpg"
+  },
+  {
    "id": 45566,
    "name": "いきなり! フルメタル・パニック!",
    "nameCN": "校园疯云传",
@@ -10,11 +22,35 @@
   {
    "id": 45567,
    "name": "フルメタル・パニック!SURPLUS",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/8f/47/45567_jp.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 45530,
+   "dst": 45556
+  },
+  {
+   "relate": "续集",
+   "src": 45556,
+   "dst": 45530
+  },
+  {
+   "relate": "不同世界观",
+   "src": 45556,
+   "dst": 45566
+  },
+  {
+   "relate": "不同世界观",
+   "src": 45566,
+   "dst": 45556
+  },
+  {
+   "relate": "番外篇",
+   "src": 45566,
+   "dst": 45567
+  },
   {
    "relate": "主线故事",
    "src": 45567,

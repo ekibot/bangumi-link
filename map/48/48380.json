@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/88/8b/48380_D899z.jpg"
   },
   {
+   "id": 48381,
+   "name": "Tomb Raider: Anniversary",
+   "nameCN": "古墓丽影：十周年纪念版",
+   "image": "//lain.bgm.tv/pic/cover/m/05/5b/48381_iPP8P.jpg"
+  },
+  {
    "id": 48382,
    "name": "Tomb Raider: Underworld",
    "nameCN": "古墓丽影：地下世界",
@@ -48,6 +54,30 @@
    "name": "Tomb Raider: The Angel of Darkness",
    "nameCN": "古墓丽影：黑暗天使",
    "image": "//lain.bgm.tv/pic/cover/m/33/ea/54741_8Tm7q.jpg"
+  },
+  {
+   "id": 54744,
+   "name": "Tomb Raider",
+   "nameCN": "古墓丽影",
+   "image": "//lain.bgm.tv/pic/cover/m/2e/51/54744_iz9cG.jpg"
+  },
+  {
+   "id": 105646,
+   "name": "Rise of the Tomb Raider",
+   "nameCN": "古墓丽影：崛起",
+   "image": "//lain.bgm.tv/pic/cover/m/3c/9d/105646_e58eK.jpg"
+  },
+  {
+   "id": 167248,
+   "name": "Baba Yaga: The Temple of the Witch",
+   "nameCN": "芭芭雅嘎：女巫神庙",
+   "image": "//lain.bgm.tv/pic/cover/m/3b/5c/167248_S8LKt.jpg"
+  },
+  {
+   "id": 240034,
+   "name": "Shadow Of The Tomb Raider",
+   "nameCN": "古墓丽影：暗影",
+   "image": "//lain.bgm.tv/pic/cover/m/31/e0/240034_94z8N.jpg"
   }
  ],
  "relate": [
@@ -62,14 +92,29 @@
    "dst": 54741
   },
   {
+   "relate": "不同演绎",
+   "src": 48381,
+   "dst": 54736
+  },
+  {
    "relate": "前传",
    "src": 48382,
    "dst": 48380
   },
   {
+   "relate": "不同演绎",
+   "src": 54736,
+   "dst": 48381
+  },
+  {
    "relate": "续集",
    "src": 54736,
    "dst": 54737
+  },
+  {
+   "relate": "相同世界观",
+   "src": 54736,
+   "dst": 54744
   },
   {
    "relate": "前传",
@@ -120,6 +165,36 @@
    "relate": "前传",
    "src": 54741,
    "dst": 54739
+  },
+  {
+   "relate": "相同世界观",
+   "src": 54744,
+   "dst": 54736
+  },
+  {
+   "relate": "续集",
+   "src": 54744,
+   "dst": 105646
+  },
+  {
+   "relate": "前传",
+   "src": 105646,
+   "dst": 54744
+  },
+  {
+   "relate": "续集",
+   "src": 105646,
+   "dst": 240034
+  },
+  {
+   "relate": "主线故事",
+   "src": 167248,
+   "dst": 105646
+  },
+  {
+   "relate": "前传",
+   "src": 240034,
+   "dst": 105646
   }
  ]
 }

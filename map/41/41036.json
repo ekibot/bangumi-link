@@ -2,6 +2,12 @@
  "id": 41036,
  "node": [
   {
+   "id": 13203,
+   "name": "GTO",
+   "nameCN": "麻辣教师GTO",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/21/13203_fIB38.jpg"
+  },
+  {
    "id": 41036,
    "name": "GTO",
    "nameCN": "麻辣教师 2012",
@@ -19,6 +25,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/f3/73/57369_Swm98.jpg"
   },
   {
+   "id": 73077,
+   "name": "GTO",
+   "nameCN": "麻辣教师 电影版",
+   "image": "//lain.bgm.tv/pic/cover/m/d5/5f/73077_6dipZ.jpg"
+  },
+  {
    "id": 91617,
    "name": "GTO 完結編〜さらば鬼塚! 卒業スペシャル〜",
    "nameCN": "",
@@ -29,13 +41,44 @@
    "name": "GTO 続篇",
    "nameCN": "麻辣教师GTO 续篇",
    "image": "//lain.bgm.tv/pic/cover/m/6c/8f/104615_HN4kU.jpg"
+  },
+  {
+   "id": 285439,
+   "name": "GTO ドラマスペシャル",
+   "nameCN": "麻辣教师GTO SP",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/a8/285439_20L5m.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "不同演绎",
+   "src": 13203,
+   "dst": 41036
+  },
+  {
+   "relate": "续集",
+   "src": 13203,
+   "dst": 285439
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41036,
+   "dst": 13203
+  },
+  {
+   "relate": "番外篇",
+   "src": 41036,
+   "dst": 50349
+  },
+  {
    "relate": "续集",
    "src": 41036,
    "dst": 104615
+  },
+  {
+   "relate": "番外篇",
+   "src": 50349,
+   "dst": 41036
   },
   {
    "relate": "续集",
@@ -54,6 +97,11 @@
   },
   {
    "relate": "前传",
+   "src": 73077,
+   "dst": 285439
+  },
+  {
+   "relate": "前传",
    "src": 91617,
    "dst": 57369
   },
@@ -66,6 +114,16 @@
    "relate": "前传",
    "src": 104615,
    "dst": 41036
+  },
+  {
+   "relate": "前传",
+   "src": 285439,
+   "dst": 13203
+  },
+  {
+   "relate": "续集",
+   "src": 285439,
+   "dst": 73077
   }
  ]
 }

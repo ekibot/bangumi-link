@@ -2,10 +2,28 @@
  "id": 22657,
  "node": [
   {
+   "id": 297,
+   "name": "おねがい☆ティーチャー",
+   "nameCN": "拜托了老师",
+   "image": "//lain.bgm.tv/pic/cover/m/9f/d8/297_eU8cG.jpg"
+  },
+  {
+   "id": 1852,
+   "name": "おねがい☆ツインズ",
+   "nameCN": "拜托了双子星",
+   "image": "//lain.bgm.tv/pic/cover/m/eb/1e/1852_UjZnU.jpg"
+  },
+  {
    "id": 22657,
    "name": "あの夏で待ってる",
    "nameCN": "在盛夏等待",
    "image": "//lain.bgm.tv/pic/cover/m/6f/ad/22657_P0ZpP.jpg"
+  },
+  {
+   "id": 94696,
+   "name": "おねがい☆ティーチャー/ツインズ 特別編",
+   "nameCN": "拜托了老师/双子星 特别篇",
+   "image": "//lain.bgm.tv/pic/cover/m/34/db/94696_zBRjT.jpg"
   },
   {
    "id": 100450,
@@ -17,8 +35,43 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 297,
+   "dst": 1852
+  },
+  {
+   "relate": "相同世界观",
+   "src": 297,
+   "dst": 22657
+  },
+  {
+   "relate": "总集篇",
+   "src": 297,
+   "dst": 94696
+  },
+  {
+   "relate": "前传",
+   "src": 1852,
+   "dst": 297
+  },
+  {
+   "relate": "总集篇",
+   "src": 1852,
+   "dst": 94696
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22657,
+   "dst": 297
+  },
+  {
+   "relate": "续集",
    "src": 22657,
    "dst": 100450
+  },
+  {
+   "relate": "全集",
+   "src": 94696,
+   "dst": 297
   },
   {
    "relate": "前传",

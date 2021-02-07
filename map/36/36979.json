@@ -2,9 +2,50 @@
  "id": 36979,
  "node": [
   {
+   "id": 1602,
+   "name": "緋色の欠片",
+   "nameCN": "绯色的碎片",
+   "image": "//lain.bgm.tv/pic/cover/m/1b/c0/1602_nNzTr.jpg"
+  },
+  {
+   "id": 20886,
+   "name": "真・翡翠の雫 ～緋色の欠片２～",
+   "nameCN": "真・翡翠の雫 ～緋色の欠片２～",
+   "image": "//lain.bgm.tv/pic/cover/m/15/5f/20886_ycymv.jpg"
+  },
+  {
+   "id": 20908,
+   "name": "蒼黒の楔 緋色の欠片3",
+   "image": "//lain.bgm.tv/pic/cover/m/25/e0/20908_9hBBh.jpg"
+  },
+  {
+   "id": 29053,
+   "name": "蒼黒の楔　緋色の欠片　明日への扉",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/60/9e/29053_zdOL4.jpg"
+  },
+  {
    "id": 36979,
    "name": "白華の檻～緋色の欠片4～",
    "image": "//lain.bgm.tv/pic/cover/m/35/05/36979_hJCdU.jpg"
+  },
+  {
+   "id": 47009,
+   "name": "翡翠の雫 緋色の欠片2",
+   "nameCN": "翡翠之滴：绯色的碎片2",
+   "image": "//lain.bgm.tv/pic/cover/m/a7/8e/47009_wE5aJ.jpg"
+  },
+  {
+   "id": 47103,
+   "name": "緋色の欠片 愛蔵版～あかねいろの追憶～",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/cb/5e/47103_v8hzD.jpg"
+  },
+  {
+   "id": 61524,
+   "name": "緋色の欠片 ～あの空の下で～",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/18/61524_J1d5b.jpg"
   },
   {
    "id": 64564,
@@ -22,13 +63,98 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 1602,
+   "dst": 20908
+  },
+  {
+   "relate": "不同世界观",
+   "src": 1602,
+   "dst": 36979
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1602,
+   "dst": 47009
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1602,
+   "dst": 47103
+  },
+  {
+   "relate": "不同演绎",
+   "src": 20886,
+   "dst": 47009
+  },
+  {
+   "relate": "前传",
+   "src": 20908,
+   "dst": 1602
+  },
+  {
+   "relate": "不同世界观",
+   "src": 20908,
+   "dst": 36979
+  },
+  {
+   "relate": "相同世界观",
+   "src": 20908,
+   "dst": 47009
+  },
+  {
+   "relate": "主线故事",
+   "src": 29053,
+   "dst": 20908
+  },
+  {
+   "relate": "不同世界观",
    "src": 36979,
+   "dst": 1602
+  },
+  {
+   "relate": "续集",
+   "src": 36979,
+   "dst": 214124
+  },
+  {
+   "relate": "不同演绎",
+   "src": 47009,
+   "dst": 20886
+  },
+  {
+   "relate": "相同世界观",
+   "src": 47009,
+   "dst": 20908
+  },
+  {
+   "relate": "不同世界观",
+   "src": 47009,
+   "dst": 36979
+  },
+  {
+   "relate": "不同演绎",
+   "src": 47103,
+   "dst": 214124
+  },
+  {
+   "relate": "主线故事",
+   "src": 61524,
+   "dst": 1602
+  },
+  {
+   "relate": "不同演绎",
+   "src": 61524,
    "dst": 214124
   },
   {
    "relate": "主线故事",
    "src": 64564,
    "dst": 36979
+  },
+  {
+   "relate": "不同演绎",
+   "src": 214124,
+   "dst": 1602
   }
  ]
 }

@@ -2,6 +2,12 @@
  "id": 6955,
  "node": [
   {
+   "id": 6278,
+   "name": "天地劫序傳：幽城幻劍錄",
+   "nameCN": "天地劫序传：幽城幻剑录",
+   "image": "//lain.bgm.tv/pic/cover/m/30/de/6278_CtwQ7.jpg"
+  },
+  {
    "id": 6955,
    "name": "天地劫外章：寰神結",
    "nameCN": "天地劫外章:寰神结",
@@ -12,18 +18,44 @@
    "name": "天地劫:神魔至尊傳",
    "nameCN": "天地劫:神魔至尊传",
    "image": "//lain.bgm.tv/pic/cover/m/23/77/6956_eLtM4.jpg"
+  },
+  {
+   "id": 307375,
+   "name": "天地劫：幽城再临",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/20/d9/307375_20Di3.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 6278,
+   "dst": 6955
+  },
+  {
+   "relate": "相同世界观",
+   "src": 6955,
+   "dst": 6278
+  },
   {
    "relate": "续集",
    "src": 6955,
    "dst": 6956
   },
   {
+   "relate": "相同世界观",
+   "src": 6956,
+   "dst": 6278
+  },
+  {
    "relate": "前传",
    "src": 6956,
    "dst": 6955
+  },
+  {
+   "relate": "主线故事",
+   "src": 307375,
+   "dst": 6278
   }
  ]
 }

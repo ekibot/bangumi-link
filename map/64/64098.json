@@ -12,6 +12,18 @@
    "name": "The Jungle Book 2",
    "nameCN": "森林王子2",
    "image": "//lain.bgm.tv/pic/cover/m/d7/f9/112890_v8PHZ.jpg"
+  },
+  {
+   "id": 140974,
+   "name": "ジャングルブック・少年モーグリ",
+   "nameCN": "森林王子 少年毛克利",
+   "image": "//lain.bgm.tv/pic/cover/m/3a/d7/140974_0zMB0.jpg"
+  },
+  {
+   "id": 178533,
+   "name": "The Jungle Book",
+   "nameCN": "奇幻森林",
+   "image": "//lain.bgm.tv/pic/cover/m/56/bf/178533_1f5I6.jpg"
   }
  ],
  "relate": [
@@ -21,8 +33,23 @@
    "dst": 112890
   },
   {
+   "relate": "不同演绎",
+   "src": 64098,
+   "dst": 140974
+  },
+  {
    "relate": "前传",
    "src": 112890,
+   "dst": 64098
+  },
+  {
+   "relate": "不同演绎",
+   "src": 140974,
+   "dst": 64098
+  },
+  {
+   "relate": "不同演绎",
+   "src": 178533,
    "dst": 64098
   }
  ]

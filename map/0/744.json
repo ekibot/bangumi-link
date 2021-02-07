@@ -2,6 +2,24 @@
  "id": 744,
  "node": [
   {
+   "id": 150,
+   "name": "サモンナイト2",
+   "nameCN": "召唤之夜2",
+   "image": "//lain.bgm.tv/pic/cover/m/7e/f6/150_xe7ZZ.jpg"
+  },
+  {
+   "id": 383,
+   "name": "サモンナイト ツインエイジ 〜精霊たちの共鳴〜",
+   "nameCN": "召唤之夜: 孪生时代 精灵的共鸣",
+   "image": "//lain.bgm.tv/pic/cover/m/be/ed/383_5KJmH.jpg"
+  },
+  {
+   "id": 387,
+   "name": "サモンナイト",
+   "nameCN": "召唤之夜",
+   "image": "//lain.bgm.tv/pic/cover/m/8e/fb/387_ZNCVb.jpg"
+  },
+  {
    "id": 744,
    "name": "サモンナイト クラフトソード物語2",
    "nameCN": "召唤之夜 铸剑物语2",
@@ -14,13 +32,86 @@
    "image": "//lain.bgm.tv/pic/cover/m/8d/31/747_5O22w.jpg"
   },
   {
+   "id": 3231,
+   "name": "サモンナイトX ～Tears Crown～",
+   "nameCN": "召唤之夜X～泪之皇冠～",
+   "image": "//lain.bgm.tv/pic/cover/m/c3/d3/3231_UKNTd.jpg"
+  },
+  {
+   "id": 12091,
+   "name": "サモンナイト3",
+   "nameCN": "召唤之夜3",
+   "image": "//lain.bgm.tv/pic/cover/m/84/5c/12091_n8ahD.jpg"
+  },
+  {
+   "id": 24813,
+   "name": "サモンナイト4",
+   "nameCN": "召唤之夜4",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/61/24813_qzl5J.jpg"
+  },
+  {
    "id": 38785,
    "name": "サモンナイト クラフトソード物語 〜はじまりの石〜",
    "nameCN": "召唤之夜 铸剑物语3 起源之石",
    "image": "//lain.bgm.tv/pic/cover/m/de/3e/38785_9J206.jpg"
+  },
+  {
+   "id": 47558,
+   "name": "サモンナイト5",
+   "nameCN": "召唤之夜5",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/e7/47558_93i96.jpg"
+  },
+  {
+   "id": 56483,
+   "name": "SummonNight エクステーゼ 〜夜明けの翼〜",
+   "nameCN": "召喚之夜外传：黎明之翼",
+   "image": "//lain.bgm.tv/pic/cover/m/fb/0b/56483_lo0bI.jpg"
+  },
+  {
+   "id": 56484,
+   "name": "サモンナイトグランテーゼ 滅びの剣と約束の騎士",
+   "nameCN": "召唤之夜 毁灭之剑与约束骑士",
+   "image": "//lain.bgm.tv/pic/cover/m/e8/61/56484_0Bj8B.jpg"
+  },
+  {
+   "id": 143498,
+   "name": "召喚戦記サモンナイト",
+   "nameCN": "召唤战记",
+   "image": "//lain.bgm.tv/pic/cover/m/12/32/143498_lNkoS.jpg"
+  },
+  {
+   "id": 144234,
+   "name": "サモンナイト6",
+   "nameCN": "召唤之夜6 失落的境界",
+   "image": "//lain.bgm.tv/pic/cover/m/ef/09/144234_YIfY3.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 150,
+   "dst": 387
+  },
+  {
+   "relate": "续集",
+   "src": 150,
+   "dst": 12091
+  },
+  {
+   "relate": "主线故事",
+   "src": 383,
+   "dst": 387
+  },
+  {
+   "relate": "续集",
+   "src": 387,
+   "dst": 150
+  },
+  {
+   "relate": "相同世界观",
+   "src": 387,
+   "dst": 744
+  },
   {
    "relate": "前传",
    "src": 744,
@@ -37,9 +128,69 @@
    "dst": 744
   },
   {
+   "relate": "主线故事",
+   "src": 3231,
+   "dst": 387
+  },
+  {
+   "relate": "前传",
+   "src": 12091,
+   "dst": 150
+  },
+  {
+   "relate": "续集",
+   "src": 12091,
+   "dst": 24813
+  },
+  {
+   "relate": "前传",
+   "src": 24813,
+   "dst": 12091
+  },
+  {
+   "relate": "续集",
+   "src": 24813,
+   "dst": 47558
+  },
+  {
+   "relate": "相同世界观",
+   "src": 38785,
+   "dst": 387
+  },
+  {
    "relate": "前传",
    "src": 38785,
    "dst": 744
+  },
+  {
+   "relate": "前传",
+   "src": 47558,
+   "dst": 24813
+  },
+  {
+   "relate": "续集",
+   "src": 47558,
+   "dst": 144234
+  },
+  {
+   "relate": "相同世界观",
+   "src": 56483,
+   "dst": 387
+  },
+  {
+   "relate": "主线故事",
+   "src": 56484,
+   "dst": 387
+  },
+  {
+   "relate": "相同世界观",
+   "src": 143498,
+   "dst": 387
+  },
+  {
+   "relate": "前传",
+   "src": 144234,
+   "dst": 47558
   }
  ]
 }

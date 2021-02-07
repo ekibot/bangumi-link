@@ -8,6 +8,11 @@
    "image": "//lain.bgm.tv/pic/cover/m/82/14/72789_zd3dx.jpg"
   },
   {
+   "id": 320783,
+   "name": "Space Invaders II",
+   "image": "//lain.bgm.tv/pic/cover/m/a9/ab/320783_07ivI.jpg"
+  },
+  {
    "id": 320785,
    "name": "Space Invaders Part II",
    "nameCN": "太空侵略者2",
@@ -30,18 +35,39 @@
    "name": "あっかんべぇだぁ~",
    "nameCN": "太空侵略者95 月球的进攻",
    "image": "//lain.bgm.tv/pic/cover/m/b3/6c/320789_m7uZm.jpg"
+  },
+  {
+   "id": 320794,
+   "name": "Space Invaders DX",
+   "nameCN": "太空侵略者DX",
+   "image": "//lain.bgm.tv/pic/cover/m/2c/8f/320794_yj3Ju.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 72789,
+   "dst": 320783
+  },
   {
    "relate": "续集",
    "src": 72789,
    "dst": 320785
   },
   {
+   "relate": "不同演绎",
+   "src": 320783,
+   "dst": 72789
+  },
+  {
    "relate": "前传",
    "src": 320785,
    "dst": 72789
+  },
+  {
+   "relate": "不同演绎",
+   "src": 320785,
+   "dst": 320783
   },
   {
    "relate": "续集",
@@ -72,6 +98,11 @@
    "relate": "前传",
    "src": 320789,
    "dst": 320787
+  },
+  {
+   "relate": "不同演绎",
+   "src": 320794,
+   "dst": 72789
   }
  ]
 }

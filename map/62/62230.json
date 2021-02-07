@@ -2,6 +2,12 @@
  "id": 62230,
  "node": [
   {
+   "id": 9438,
+   "name": "毛糸のカービィ",
+   "nameCN": "毛线卡比",
+   "image": "//lain.bgm.tv/pic/cover/m/40/2c/9438_ss6DI.jpg"
+  },
+  {
    "id": 62230,
    "name": "ヨッシー ウールワールド",
    "nameCN": "毛线耀西",
@@ -12,9 +18,30 @@
    "name": "ヨッシークラフトワールド",
    "nameCN": "耀西的手工世界",
    "image": "//lain.bgm.tv/pic/cover/m/55/61/217048_xZVAR.jpg"
+  },
+  {
+   "id": 260605,
+   "name": "毛糸のカービィ プラス",
+   "nameCN": "毛线卡比 plus",
+   "image": "//lain.bgm.tv/pic/cover/m/79/d4/260605_V61r1.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 9438,
+   "dst": 62230
+  },
+  {
+   "relate": "不同演绎",
+   "src": 9438,
+   "dst": 260605
+  },
+  {
+   "relate": "相同世界观",
+   "src": 62230,
+   "dst": 9438
+  },
   {
    "relate": "续集",
    "src": 62230,
@@ -24,6 +51,11 @@
    "relate": "前传",
    "src": 217048,
    "dst": 62230
+  },
+  {
+   "relate": "不同演绎",
+   "src": 260605,
+   "dst": 9438
   }
  ]
 }

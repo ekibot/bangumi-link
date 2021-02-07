@@ -2,28 +2,103 @@
  "id": 40879,
  "node": [
   {
+   "id": 37275,
+   "name": "宇宙の戦士",
+   "nameCN": "星船伞兵",
+   "image": "//lain.bgm.tv/pic/cover/m/b8/92/37275_K5pP3.jpg"
+  },
+  {
    "id": 40879,
    "name": "Starship Troopers: Invasion",
    "nameCN": "星船伞兵：入侵",
    "image": "//lain.bgm.tv/pic/cover/m/e7/36/40879_Z1eEs.jpg"
   },
   {
+   "id": 186682,
+   "name": "Starship Troopers",
+   "nameCN": "星河舰队",
+   "image": "//lain.bgm.tv/pic/cover/m/50/35/186682_00nzM.jpg"
+  },
+  {
    "id": 223289,
    "name": "Starship Troopers: Traitor of Mars",
    "nameCN": "星船伞兵：火星叛徒",
    "image": "//lain.bgm.tv/pic/cover/m/53/b2/223289_riW4h.jpg"
+  },
+  {
+   "id": 274381,
+   "name": "Roughnecks: The Starship Troopers Chronicles (1999)",
+   "nameCN": "硬汉部队：星河战队历代记",
+   "image": "//lain.bgm.tv/pic/cover/m/23/51/274381_EkQa5.jpg"
+  },
+  {
+   "id": 274396,
+   "name": "Starship Troopers 2: Hero of the Federation (2004)",
+   "nameCN": "星河战队2：联邦英雄",
+   "image": "//lain.bgm.tv/pic/cover/m/04/ec/274396_EfZvF.jpg"
+  },
+  {
+   "id": 274397,
+   "name": "Starship Troopers 3: Marauder (2008)",
+   "nameCN": "星河战队3：掠夺者",
+   "image": "//lain.bgm.tv/pic/cover/m/2c/08/274397_jsss1.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 37275,
+   "dst": 40879
+  },
+  {
+   "relate": "相同世界观",
+   "src": 40879,
+   "dst": 37275
+  },
   {
    "relate": "续集",
    "src": 40879,
    "dst": 223289
   },
   {
+   "relate": "相同世界观",
+   "src": 186682,
+   "dst": 37275
+  },
+  {
+   "relate": "续集",
+   "src": 186682,
+   "dst": 274396
+  },
+  {
+   "relate": "相同世界观",
+   "src": 223289,
+   "dst": 37275
+  },
+  {
    "relate": "前传",
    "src": 223289,
    "dst": 40879
+  },
+  {
+   "relate": "相同世界观",
+   "src": 274381,
+   "dst": 37275
+  },
+  {
+   "relate": "前传",
+   "src": 274396,
+   "dst": 186682
+  },
+  {
+   "relate": "续集",
+   "src": 274396,
+   "dst": 274397
+  },
+  {
+   "relate": "前传",
+   "src": 274397,
+   "dst": 274396
   }
  ]
 }

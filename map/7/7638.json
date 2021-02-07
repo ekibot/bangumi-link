@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/19/e9/7638_97Lq1.jpg"
   },
   {
+   "id": 7639,
+   "name": "The Secret of Monkey Island: Special Edition",
+   "nameCN": "猴岛的秘密：重制版",
+   "image": "//lain.bgm.tv/pic/cover/m/08/fb/7639_9Iehe.jpg"
+  },
+  {
    "id": 147198,
    "name": "Monkey Island 2: LeChuck's Revenge",
    "nameCN": "猴岛小英雄2：勒恰克的复仇",
@@ -30,6 +36,12 @@
    "name": "Tales of Monkey Island",
    "nameCN": "猴岛小英雄5： 猴岛传说",
    "image": "//lain.bgm.tv/pic/cover/m/3c/dc/266801_22vbx.jpg"
+  },
+  {
+   "id": 318231,
+   "name": "Monkey Island 2 Special Edition: LeChuck's Revenge",
+   "nameCN": "猴岛2特别版：勒恰克的复仇",
+   "image": "//lain.bgm.tv/pic/cover/m/34/ea/318231_MYQrz.jpg"
   }
  ],
  "relate": [
@@ -44,6 +56,16 @@
    "dst": 266801
   },
   {
+   "relate": "不同演绎",
+   "src": 7639,
+   "dst": 266799
+  },
+  {
+   "relate": "续集",
+   "src": 7639,
+   "dst": 318231
+  },
+  {
    "relate": "前传",
    "src": 147198,
    "dst": 266799
@@ -52,6 +74,16 @@
    "relate": "续集",
    "src": 147198,
    "dst": 266800
+  },
+  {
+   "relate": "不同演绎",
+   "src": 147198,
+   "dst": 318231
+  },
+  {
+   "relate": "不同演绎",
+   "src": 266799,
+   "dst": 7639
   },
   {
    "relate": "续集",
@@ -72,6 +104,16 @@
    "relate": "前传",
    "src": 266801,
    "dst": 7638
+  },
+  {
+   "relate": "前传",
+   "src": 318231,
+   "dst": 7639
+  },
+  {
+   "relate": "不同演绎",
+   "src": 318231,
+   "dst": 147198
   }
  ]
 }

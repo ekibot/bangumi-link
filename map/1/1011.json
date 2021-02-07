@@ -8,9 +8,19 @@
    "image": "//lain.bgm.tv/pic/cover/m/7f/97/1011_5iNjX.jpg"
   },
   {
+   "id": 8296,
+   "name": "To Heart",
+   "image": "//lain.bgm.tv/pic/cover/m/d7/7c/8296_is4sZ.jpg"
+  },
+  {
+   "id": 8297,
+   "name": "ToHeart Remember my memories",
+   "nameCN": "Toheart 回忆永恒",
+   "image": "//lain.bgm.tv/pic/cover/m/a9/8a/8297_rAQV2.jpg"
+  },
+  {
    "id": 8725,
    "name": "ToHeart2 adnext",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/c8/62/8725_g2Loe.jpg"
   },
   {
@@ -44,9 +54,34 @@
    "dst": 8758
   },
   {
+   "relate": "续集",
+   "src": 8296,
+   "dst": 8297
+  },
+  {
+   "relate": "相同世界观",
+   "src": 8296,
+   "dst": 8758
+  },
+  {
+   "relate": "前传",
+   "src": 8297,
+   "dst": 8296
+  },
+  {
    "relate": "主线故事",
    "src": 8725,
    "dst": 8758
+  },
+  {
+   "relate": "相同世界观",
+   "src": 8758,
+   "dst": 8296
+  },
+  {
+   "relate": "番外篇",
+   "src": 8758,
+   "dst": 8725
   },
   {
    "relate": "衍生",

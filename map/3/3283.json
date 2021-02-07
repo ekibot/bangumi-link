@@ -8,21 +8,53 @@
    "image": "//lain.bgm.tv/pic/cover/m/c8/19/3283_Z56d3.jpg"
   },
   {
+   "id": 3284,
+   "name": "スーパーロボット大戦ORIGINAL GENERATION THE ANIMATION",
+   "nameCN": "超级机器人大战OG THE ANIMATION",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/d0/3284_UAAaJ.jpg"
+  },
+  {
    "id": 8400,
    "name": "スーパーロボット大戦OG -ジ・インスペクター-",
    "nameCN": "超级机器人大战OG -The inspector-",
    "image": "//lain.bgm.tv/pic/cover/m/4e/38/8400_Rhh2j.jpg"
+  },
+  {
+   "id": 32165,
+   "name": "魔装機神サイバスター",
+   "nameCN": "魔装机神",
+   "image": "//lain.bgm.tv/pic/cover/m/df/2a/32165_Ww8w8.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 3283,
+   "dst": 3284
+  },
   {
    "relate": "续集",
    "src": 3283,
    "dst": 8400
   },
   {
+   "relate": "不同世界观",
+   "src": 3283,
+   "dst": 32165
+  },
+  {
+   "relate": "不同演绎",
+   "src": 3284,
+   "dst": 3283
+  },
+  {
    "relate": "前传",
    "src": 8400,
+   "dst": 3283
+  },
+  {
+   "relate": "不同世界观",
+   "src": 32165,
    "dst": 3283
   }
  ]

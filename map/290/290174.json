@@ -2,22 +2,100 @@
  "id": 290174,
  "node": [
   {
+   "id": 234987,
+   "name": "ファミコン探偵倶楽部 消えた後継者",
+   "image": "//lain.bgm.tv/pic/cover/m/7e/3a/234987_jYt4R.jpg"
+  },
+  {
+   "id": 234988,
+   "name": "ファミコン探偵倶楽部PartII うしろに立つ少女",
+   "nameCN": "任天堂侦探俱乐部2",
+   "image": "//lain.bgm.tv/pic/cover/m/f5/51/234988_G565g.jpg"
+  },
+  {
+   "id": 280269,
+   "name": "BS探偵倶楽部 雪に消えた過去",
+   "nameCN": "BS侦探俱乐部 消失在雪中的过去",
+   "image": "//lain.bgm.tv/pic/cover/m/a8/c6/280269_bUS72.jpg"
+  },
+  {
+   "id": 280277,
+   "name": "ファミコン探偵倶楽部PartII うしろに立つ少女",
+   "nameCN": "任天堂侦探俱乐部2",
+   "image": "//lain.bgm.tv/pic/cover/m/df/c9/280277_5e5z5.jpg"
+  },
+  {
    "id": 290174,
    "name": "ファミコン探偵倶楽部 消えた後継者",
-   "nameCN": "任天堂侦探俱乐部 重制版",
-   "image": "/img/no_icon_subject.png"
+   "nameCN": "任天堂侦探俱乐部 重制版"
   },
   {
    "id": 290175,
    "name": "ファミコン探偵倶楽部 うしろに立つ少女",
-   "nameCN": "任天堂侦探俱乐部2 重制版"
+   "nameCN": "任天堂侦探俱乐部2 重制版",
+   "image": "/img/no_icon_subject.png"
   }
  ],
  "relate": [
   {
    "relate": "续集",
+   "src": 234987,
+   "dst": 234988
+  },
+  {
+   "relate": "不同演绎",
+   "src": 234987,
+   "dst": 290174
+  },
+  {
+   "relate": "前传",
+   "src": 234988,
+   "dst": 234987
+  },
+  {
+   "relate": "续集",
+   "src": 234988,
+   "dst": 280269
+  },
+  {
+   "relate": "不同演绎",
+   "src": 234988,
+   "dst": 280277
+  },
+  {
+   "relate": "前传",
+   "src": 280269,
+   "dst": 234988
+  },
+  {
+   "relate": "续集",
+   "src": 280269,
+   "dst": 280277
+  },
+  {
+   "relate": "不同演绎",
+   "src": 280277,
+   "dst": 234988
+  },
+  {
+   "relate": "前传",
+   "src": 280277,
+   "dst": 280269
+  },
+  {
+   "relate": "不同演绎",
+   "src": 290174,
+   "dst": 234987
+  },
+  {
+   "relate": "续集",
    "src": 290174,
    "dst": 290175
+  },
+  {
+   "relate": "不同演绎",
+   "src": 290175,
+   "dst": 234988
   },
   {
    "relate": "前传",

@@ -2,6 +2,30 @@
  "id": 144085,
  "node": [
   {
+   "id": 8206,
+   "name": "ワンド オブ フォーチュン",
+   "nameCN": "幸运之杖",
+   "image": "//lain.bgm.tv/pic/cover/m/00/43/8206_4dS44.jpg"
+  },
+  {
+   "id": 21020,
+   "name": "ワンド オブ フォーチュン2 ～時空に沈む黙示録～",
+   "nameCN": "幸运之杖2 沉寂于时空中的默示录",
+   "image": "//lain.bgm.tv/pic/cover/m/60/43/22688_e5SXU.jpg"
+  },
+  {
+   "id": 25687,
+   "name": "ワンド オブ フォーチュン～未来へのプロローグ～",
+   "nameCN": "幸运之杖 未来的序曲",
+   "image": "//lain.bgm.tv/pic/cover/m/0a/b3/25687_8e4O4.jpg"
+  },
+  {
+   "id": 37071,
+   "name": "ワンド オブ フォーチュン2 FD ～君に捧げるエピローグ～",
+   "nameCN": "幸运之杖2FD 献给你的终曲",
+   "image": "//lain.bgm.tv/pic/cover/m/79/24/37071_fp9AV.jpg"
+  },
+  {
    "id": 144085,
    "name": "ワンド オブ フォーチュン R",
    "image": "//lain.bgm.tv/pic/cover/m/23/5d/144085_NzXAs.jpg"
@@ -16,8 +40,58 @@
  "relate": [
   {
    "relate": "续集",
+   "src": 8206,
+   "dst": 21020
+  },
+  {
+   "relate": "不同演绎",
+   "src": 8206,
+   "dst": 144085
+  },
+  {
+   "relate": "前传",
+   "src": 21020,
+   "dst": 8206
+  },
+  {
+   "relate": "不同演绎",
+   "src": 21020,
+   "dst": 186560
+  },
+  {
+   "relate": "主线故事",
+   "src": 25687,
+   "dst": 8206
+  },
+  {
+   "relate": "不同演绎",
+   "src": 25687,
+   "dst": 144085
+  },
+  {
+   "relate": "主线故事",
+   "src": 37071,
+   "dst": 21020
+  },
+  {
+   "relate": "不同演绎",
+   "src": 37071,
+   "dst": 186560
+  },
+  {
+   "relate": "不同演绎",
+   "src": 144085,
+   "dst": 8206
+  },
+  {
+   "relate": "续集",
    "src": 144085,
    "dst": 186560
+  },
+  {
+   "relate": "不同演绎",
+   "src": 186560,
+   "dst": 21020
   },
   {
    "relate": "前传",

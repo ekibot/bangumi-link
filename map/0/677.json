@@ -42,6 +42,12 @@
    "name": "The Elder Scrolls VI",
    "nameCN": "上古卷轴6",
    "image": "//lain.bgm.tv/pic/cover/m/f4/20/249303_6nNI4.jpg"
+  },
+  {
+   "id": 297898,
+   "name": "The Elder Scrolls V: Skyrim VR",
+   "nameCN": "上古卷轴5：天际VR",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/39/297898_OHEGg.jpg"
   }
  ],
  "relate": [
@@ -66,9 +72,19 @@
    "dst": 249303
   },
   {
+   "relate": "不同演绎",
+   "src": 22574,
+   "dst": 297898
+  },
+  {
    "relate": "续集",
    "src": 50542,
    "dst": 50543
+  },
+  {
+   "relate": "相同世界观",
+   "src": 50542,
+   "dst": 79917
   },
   {
    "relate": "前传",
@@ -79,6 +95,11 @@
    "relate": "续集",
    "src": 50543,
    "dst": 50544
+  },
+  {
+   "relate": "相同世界观",
+   "src": 50543,
+   "dst": 79917
   },
   {
    "relate": "续集",
@@ -96,8 +117,18 @@
    "dst": 22574
   },
   {
+   "relate": "相同世界观",
+   "src": 79917,
+   "dst": 50542
+  },
+  {
    "relate": "前传",
    "src": 249303,
+   "dst": 22574
+  },
+  {
+   "relate": "不同演绎",
+   "src": 297898,
    "dst": 22574
   }
  ]

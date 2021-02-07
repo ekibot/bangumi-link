@@ -2,6 +2,12 @@
  "id": 10402,
  "node": [
   {
+   "id": 3417,
+   "name": "リーンの翼",
+   "nameCN": "圣光之翼",
+   "image": "//lain.bgm.tv/pic/cover/m/47/1c/3417_Gl2hQ.jpg"
+  },
+  {
    "id": 10402,
    "name": "聖戦士ダンバイン",
    "nameCN": "圣战士登拜因",
@@ -12,18 +18,39 @@
    "name": "New Story of Aura Battler DUNBINE",
    "nameCN": "圣战士登拜因 OVA",
    "image": "//lain.bgm.tv/pic/cover/m/70/e1/39869_n4iPE.jpg"
+  },
+  {
+   "id": 41871,
+   "name": "バイストン・ウェル物語 ガーゼィの翼",
+   "nameCN": "加什之翼",
+   "image": "//lain.bgm.tv/pic/cover/m/e3/0b/41871_3edtd.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 3417,
+   "dst": 10402
+  },
   {
    "relate": "续集",
    "src": 10402,
    "dst": 39869
   },
   {
+   "relate": "相同世界观",
+   "src": 10402,
+   "dst": 41871
+  },
+  {
    "relate": "前传",
    "src": 39869,
    "dst": 10402
+  },
+  {
+   "relate": "相同世界观",
+   "src": 41871,
+   "dst": 3417
   }
  ]
 }

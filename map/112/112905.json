@@ -8,6 +8,11 @@
    "image": "//lain.bgm.tv/pic/cover/m/32/3e/112905_Zs9sH.jpg"
   },
   {
+   "id": 112906,
+   "name": "SHOW BY ROCK!!",
+   "image": "//lain.bgm.tv/pic/cover/m/c7/93/112906_B5cP2.jpg"
+  },
+  {
    "id": 154073,
    "name": "SHOW BY ROCK!!#",
    "nameCN": "SHOW BY ROCK!! 第二季",
@@ -18,6 +23,35 @@
    "name": "SHOW BY ROCK!! しょ～と!!",
    "nameCN": "SHOW BY ROCK!! SHORT!!",
    "image": "//lain.bgm.tv/pic/cover/m/a7/25/167729_amC9C.jpg"
+  },
+  {
+   "id": 189540,
+   "name": "SHOW BY ROCK!! 刻めッ! 紅蓮の魂魄駆動黙示録!",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/7e/189540_jp.jpg"
+  },
+  {
+   "id": 208028,
+   "name": "SHOW BY ROCK!! クリティクリスタ♪クリクリ伝説",
+   "nameCN": "SHOW BY ROCK!! Criticrista♪Cricri传说",
+   "image": "//lain.bgm.tv/pic/cover/m/92/82/208028_64B0D.jpg"
+  },
+  {
+   "id": 295195,
+   "name": "SHOW BY ROCK!! ましゅまいれっしゅ!!",
+   "nameCN": "SHOW BY ROCK!! Mashumairesh!!",
+   "image": "//lain.bgm.tv/pic/cover/m/55/35/295195_KZkvz.jpg"
+  },
+  {
+   "id": 298210,
+   "name": "SHOW BY ROCK!! Fes A Live",
+   "nameCN": "",
+   "image": "//lain.bgm.tv/pic/cover/m/10/5d/298210_5KnQB.jpg"
+  },
+  {
+   "id": 302802,
+   "name": "SHOW BY ROCK!! STARS!!",
+   "nameCN": "SHOW BY ROCK!! STARS!!",
+   "image": "//lain.bgm.tv/pic/cover/m/51/8d/302802_Df3oo.jpg"
   }
  ],
  "relate": [
@@ -27,14 +61,69 @@
    "dst": 154073
   },
   {
+   "relate": "番外篇",
+   "src": 112905,
+   "dst": 167729
+  },
+  {
+   "relate": "相同世界观",
+   "src": 112905,
+   "dst": 295195
+  },
+  {
+   "relate": "不同世界观",
+   "src": 112906,
+   "dst": 112905
+  },
+  {
+   "relate": "番外篇",
+   "src": 112906,
+   "dst": 189540
+  },
+  {
+   "relate": "不同世界观",
+   "src": 112906,
+   "dst": 208028
+  },
+  {
+   "relate": "续集",
+   "src": 112906,
+   "dst": 298210
+  },
+  {
    "relate": "前传",
    "src": 154073,
    "dst": 112905
   },
   {
+   "relate": "番外篇",
+   "src": 154073,
+   "dst": 167729
+  },
+  {
+   "relate": "相同世界观",
+   "src": 154073,
+   "dst": 295195
+  },
+  {
    "relate": "主线故事",
    "src": 167729,
    "dst": 154073
+  },
+  {
+   "relate": "相同世界观",
+   "src": 295195,
+   "dst": 112905
+  },
+  {
+   "relate": "前传",
+   "src": 298210,
+   "dst": 112906
+  },
+  {
+   "relate": "相同世界观",
+   "src": 302802,
+   "dst": 295195
   }
  ]
 }
