@@ -104,12 +104,12 @@ async function getSubject(bgmId) {
         map.node.forEach(({ id }) => {
           writeFileSync(getNodePath(id), relateMapID);
         });
-        map.id = relateMapID;
+        map.id = Number(relateMapID);
       }
       concatMap(map.node, _relateMap.node, cmpNode);
       concatMap(map.relate, _relateMap.relate, cmpRelate);
     }
-    writeFileSync(nodePath, map.id);
+    writeFileSync(nodePath, String(map.id));
     concatMap(map.node, [node], cmpNode);
 
     map.node.sort((a, b) => a.id - b.id);
