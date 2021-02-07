@@ -25,7 +25,7 @@ function writeFileSync(nodePath, data) {
   fs.writeFileSync(nodePath, data);
 }
 
-const acceptRelate = "前传|续集|主线故事|OVA|全集|总集篇|衍生".split("|");
+const acceptRelate = "前传|续集|总集篇|全集|番外篇|相同世界观|不同世界观|不同演绎|衍生|主线故事".split("|");
 
 async function getSubject(bgmId) {
   const rsp = await this.safeRequest(`http://bgm.tv/subject/${bgmId}`);
@@ -96,18 +96,21 @@ async function getSubject(bgmId) {
     if (fs.existsSync(nodePath)) {
       const relateMapID = String(fs.readFileSync(nodePath));
       const _relateMap = getMap(relateMapID);
-      if (_relateMap === null) throw 'map data corrupt!';
-      if (relateMapID != map.id) {
-        this.log.v(this.chalk.blue(`map ${map.id} -> ${relateMapID}`));
-        const mapPath = getMapPath(map.id);
-        if (fs.existsSync(mapPath)) fs.unlinkSync(mapPath);
-        map.node.forEach(({ id }) => {
-          writeFileSync(getNodePath(id), relateMapID);
-        });
-        map.id = Number(relateMapID);
+      if (_relateMap === null) {
+        this.log.e(`map data corrupt at ${node.id} -> map ${relateMapID}`);
+      } else {
+        if (relateMapID != map.id) {
+          this.log.v(this.chalk.blue(`map ${map.id} -> ${relateMapID}`));
+          const mapPath = getMapPath(map.id);
+          if (fs.existsSync(mapPath)) fs.unlinkSync(mapPath);
+          map.node.forEach(({ id }) => {
+            writeFileSync(getNodePath(id), relateMapID);
+          });
+          map.id = Number(relateMapID);
+        }
+        concatMap(map.node, _relateMap.node, cmpNode);
+        concatMap(map.relate, _relateMap.relate, cmpRelate);
       }
-      concatMap(map.node, _relateMap.node, cmpNode);
-      concatMap(map.relate, _relateMap.relate, cmpRelate);
     }
     writeFileSync(nodePath, String(map.id));
     concatMap(map.node, [node], cmpNode);

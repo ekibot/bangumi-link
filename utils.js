@@ -127,7 +127,7 @@ async function queue(_fetchs, run, num = 2) {
       // eslint-disable-next-line no-console
       const logToConsole = (type, ...message) => {
         if (type == "error") {
-          console.log(...message.map(msg => chalk.red(util.inspect(msg))));
+          console.log(...message.map(msg => chalk.red(typeof (msg) == 'string' ? msg : util.inspect(msg))));
         } else console.log(...message);
       }
       messages.forEach((v) => v && logToConsole(...v));
