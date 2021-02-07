@@ -48,6 +48,7 @@
     font-size: 12px;
     font-family: SimSun;
     fill: #000000;
+    text-anchor: middle;
   }
 
   .linetext {
@@ -77,60 +78,44 @@
     var img_h = 50
     var width = window.innerWidth * 3
     var height = window.innerHeight * 3
-    let isMouseDown = false
     let viewBox_width = window.innerWidth
     let viewBox_x = viewBox_width
     let viewBox_height = window.innerHeight
     let viewBox_y = viewBox_height
-    let mousePos_x
-    let mousePos_y
     let oldScale = 1.0
-    let curPos_x = width / 2
-    let curPos_y = height / 2
+    let mousePos_x = 0;
+    let mousePos_y = 0;
+    let movesvg = false;
 
     var svg = d3.select('body').append('svg')
       .attr('width', width * 3)
       .attr('height', height * 3)
       .attr('viewBox', `${viewBox_width} ${viewBox_height} ${viewBox_width} ${viewBox_height}`)
       .on('mousedown', function () {
-        if (d3.event.target.nodeName !== 'svg') {
-          return
-        }
-        isMouseDown = true
-        mousePos_x = d3.mouse(this)[0]
-        mousePos_y = d3.mouse(this)[1]
+        movesvg = d3.event.target.nodeName == 'svg';
       })
-      .on('mouseup', function () {
-        if (d3.event.target.nodeName !== 'svg') {
-          return
-        }
-        isMouseDown = false
-        viewBox_x = viewBox_x - d3.mouse(this)[0] + mousePos_x
-        viewBox_y = viewBox_y - d3.mouse(this)[1] + mousePos_y
-        svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
-      })
-
       .on('mousemove', function () {
-        curPos_x = d3.mouse(this)[0]
-        curPos_y = d3.mouse(this)[1]
-        if (d3.event.target.nodeName !== 'svg') {
-          return
+        console.log(d3.event);
+        const [x, y] = d3.mouse(this);
+        if (!d3.event.buttons) {
+          [mousePos_x, mousePos_y] = [x, y];
         }
-        if (isMouseDown) {
-          viewBox_x = viewBox_x - d3.mouse(this)[0] + mousePos_x
-          viewBox_y = viewBox_y - d3.mouse(this)[1] + mousePos_y
+        if (movesvg && d3.event.buttons) {
+          viewBox_x = viewBox_x - x + mousePos_x
+          viewBox_y = viewBox_y - y + mousePos_y
           svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
         }
       })
       .call(d3.behavior.zoom()
         .scaleExtent([0.1, 10])
         .on('zoom', function () {
+          const [x, y] = d3.mouse(this);
           if (d3.event.sourceEvent) {
             if (oldScale !== d3.event.scale) {
               var scale = oldScale / d3.event.scale
               oldScale = d3.event.scale
-              viewBox_x = curPos_x - scale * (curPos_x - viewBox_x)
-              viewBox_y = curPos_y - scale * (curPos_y - viewBox_y)
+              viewBox_x = x - scale * (x - viewBox_x)
+              viewBox_y = y - scale * (y - viewBox_y)
               svg.attr('viewBox', viewBox_x + ' ' + viewBox_y + ' ' + viewBox_width / oldScale + ' ' + viewBox_height / oldScale)
             }
           }
@@ -209,6 +194,7 @@
           .append('image')
           .attr('width', img_w)
           .attr('height', img_h)
+          .attr("preserveAspectRatio", "none")
           .attr('id', function (d) {
             return d.id
           })
@@ -218,13 +204,14 @@
           })
           .on('contextmenu', function (d, i, ev) {
             d3.event.preventDefault()
-            window.open('https://bgm.tv/subject/' + d.subject_id, '_blank')
+            window.open('https://bgm.tv/subject/' + d.id, '_blank')
 
             return false
           })
 
-        function highLight(d, i) {
+        let highLightObj;
 
+        function highLight(d) {
           // 加黑相关的线条
 
           edges_line.style('stroke', function (line) {
@@ -246,8 +233,7 @@
         }
 
         function unHighLight(d, i) {
-          // {#nodes_img.attr('data-visible', 'true')#}
-          // {#nodes_text.attr('data-visible', 'true')#}
+          if (highLightObj) return highLight(highLightObj);
           if (!d.highLight) {
             edges_line.style('stroke', line_color)
             //隐去连接线上的文字
@@ -282,7 +268,7 @@
           .on('mouseover', highLight)
           .on('mouseout', unHighLight)
           .on('dblclick', function (d, i) {
-            if (!d.highLight) {
+            if (highLightObj !== d) {
               let relatedRelation = relate.filter(function (val) {
                 return val.source.id === d.id || val.target.id === d.id
               })
@@ -297,12 +283,12 @@
 
               nodes_text.attr('data-visible', dataVisible)
               nodes_img.attr('data-visible', dataVisible)
-              highLight(d, i)
-              d.highLight = true
+              highLight(d)
+              highLightObj = d;
             } else {
               nodes_text.attr('data-visible', 'true')
               nodes_img.attr('data-visible', 'true')
-              d.highLight = false
+              highLightObj = null;
             }
           })
 
@@ -324,8 +310,8 @@
           nodes_img.attr('x', function (d) { return d.x - img_w / 2 })
           nodes_img.attr('y', function (d) { return d.y - img_h / 2 })
 
-          nodes_text.attr('x', function (d) { return d.x })
-          nodes_text.attr('y', function (d) { return d.y + img_w / 2 })
+          nodes_text.attr('x', function (d) { return d.x + img_w / 2 })
+          nodes_text.attr('y', function (d) { return d.y + img_h / 2 })
 
         })
 
