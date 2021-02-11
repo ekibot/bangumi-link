@@ -2,10 +2,22 @@
  "id": 208854,
  "node": [
   {
+   "id": 44520,
+   "name": "スーパーロボット大戦COMPACT3",
+   "nameCN": "超级机器人大战COMPACT3",
+   "image": "//lain.bgm.tv/pic/cover/m/96/88/44520_8SHvm.jpg"
+  },
+  {
    "id": 98593,
    "name": "スーパーロボット大戦IMPACT",
    "nameCN": "超级机器人大战Impact",
    "image": "//lain.bgm.tv/pic/cover/m/08/4a/98593_kJQ7G.jpg"
+  },
+  {
+   "id": 208853,
+   "name": "スーパーロボット大戦COMPACT",
+   "nameCN": "超级机器人大战COMPACT",
+   "image": "//lain.bgm.tv/pic/cover/m/5d/28/208853_D1Zj1.jpg"
   },
   {
    "id": 208854,
@@ -28,6 +40,11 @@
  ],
  "relate": [
   {
+   "relate": "前传",
+   "src": 44520,
+   "dst": 98593
+  },
+  {
    "relate": "不同演绎",
    "src": 98593,
    "dst": 208855
@@ -36,6 +53,11 @@
    "relate": "不同演绎",
    "src": 208854,
    "dst": 98593
+  },
+  {
+   "relate": "前传",
+   "src": 208854,
+   "dst": 208853
   },
   {
    "relate": "续集",
