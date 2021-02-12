@@ -48,9 +48,9 @@ async function getSubject(bgmId) {
       relate: relateStr,
       subject: {
         id: Number(ele.find("a.title").attr("href").split("/").pop()),
-        name: ele.find("a.title").text(),
-        nameCN: ele.find("a.avatar").attr("title"),
-        image: (/background-image:url\('(.*?)'\)/.exec(ele.find("span.avatarNeue").attr("style")) || [])[1],
+        name: ele.find("a.title").text() || undefined,
+        nameCN: ele.find("a.avatar").attr("title") || undefined,
+        image: (/background-image:url\('(.*?)'\)/.exec(ele.find("span.avatarNeue").attr("style")) || [])[1] || undefined,
       }
     }
   }).filter((e) => acceptRelate.includes(e.relate));
@@ -59,8 +59,8 @@ async function getSubject(bgmId) {
 
   return {
     id: srcId,
-    name: title.text(),
-    nameCN: title.attr("title"),
+    name: title.text() || undefined,
+    nameCN: title.attr("title") || undefined,
     image: ($("div.infobox img.cover").attr("src") || "").replace("/cover/c/", "/cover/m/") || undefined,
     relate: relateSubject,
   }
