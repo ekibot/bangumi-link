@@ -40,13 +40,11 @@
   {
    "id": 117149,
    "name": "熊出没之雪岭熊风",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/68/fb/117149_hOtRJ.jpg"
   },
   {
    "id": 161058,
    "name": "熊出没之熊心归来",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/b7/02/161058_88Qvv.jpg"
   },
   {
@@ -62,11 +60,20 @@
   {
    "id": 269236,
    "name": "熊出没·原始时代",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/e8/04/269236_MEPqD.jpg"
+  },
+  {
+   "id": 328074,
+   "name": "熊出没·狂野大陆",
+   "image": "//lain.bgm.tv/pic/cover/m/37/a1/328074_6yzz8.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 81109,
+   "dst": 95780
+  },
   {
    "relate": "续集",
    "src": 81109,
@@ -78,9 +85,19 @@
    "dst": 107537
   },
   {
+   "relate": "衍生",
+   "src": 81109,
+   "dst": 117149
+  },
+  {
    "relate": "主线故事",
    "src": 95780,
    "dst": 81109
+  },
+  {
+   "relate": "续集",
+   "src": 95780,
+   "dst": 117149
   },
   {
    "relate": "前传",
@@ -113,9 +130,29 @@
    "dst": 81109
   },
   {
+   "relate": "前传",
+   "src": 117149,
+   "dst": 95780
+  },
+  {
+   "relate": "续集",
+   "src": 117149,
+   "dst": 161058
+  },
+  {
    "relate": "主线故事",
    "src": 161058,
    "dst": 81109
+  },
+  {
+   "relate": "前传",
+   "src": 161058,
+   "dst": 117149
+  },
+  {
+   "relate": "续集",
+   "src": 161058,
+   "dst": 203664
   },
   {
    "relate": "主线故事",
@@ -141,6 +178,11 @@
    "relate": "前传",
    "src": 269236,
    "dst": 229382
+  },
+  {
+   "relate": "前传",
+   "src": 328074,
+   "dst": 269236
   }
  ]
 }
