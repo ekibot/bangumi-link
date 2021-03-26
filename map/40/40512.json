@@ -4,20 +4,53 @@
   {
    "id": 341,
    "name": "秦殇",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/d4/341_10czF.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/3d/d4/341_aa759.jpg"
   },
   {
    "id": 40512,
-   "name": "Seal Of Evil",
-   "nameCN": "复活－秦殇前传",
+   "name": "复活之秦殇前传",
    "image": "//lain.bgm.tv/pic/cover/m/84/58/40512_8yPPa.jpg"
+  },
+  {
+   "id": 331414,
+   "name": "天骄"
+  },
+  {
+   "id": 331422,
+   "name": "天骄Ⅱ",
+   "image": "//lain.bgm.tv/pic/cover/m/25/d8/331422_MrfAq.jpg"
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 341,
+   "dst": 331414
+  },
+  {
    "relate": "主线故事",
    "src": 40512,
    "dst": 341
+  },
+  {
+   "relate": "相同世界观",
+   "src": 40512,
+   "dst": 331414
+  },
+  {
+   "relate": "相同世界观",
+   "src": 331414,
+   "dst": 40512
+  },
+  {
+   "relate": "不同演绎",
+   "src": 331414,
+   "dst": 331422
+  },
+  {
+   "relate": "不同演绎",
+   "src": 331422,
+   "dst": 331414
   }
  ]
 }
