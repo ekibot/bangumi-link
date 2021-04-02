@@ -1,0 +1,42 @@
+{
+ "id": 332006,
+ "node": [
+  {
+   "id": 260566,
+   "name": "瞳裸",
+   "image": "//lain.bgm.tv/pic/cover/m/77/c1/260566_QM1T0.jpg"
+  },
+  {
+   "id": 332005,
+   "name": "黒瞳皇～瞳裸II～",
+   "image": "//lain.bgm.tv/pic/cover/m/ac/58/332005_BL3JD.jpg"
+  },
+  {
+   "id": 332006,
+   "name": "瞳裸III～傀儡哀～",
+   "image": "//lain.bgm.tv/pic/cover/m/32/a5/332006_IAe7d.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 260566,
+   "dst": 332005
+  },
+  {
+   "relate": "前传",
+   "src": 332005,
+   "dst": 260566
+  },
+  {
+   "relate": "续集",
+   "src": 332005,
+   "dst": 332006
+  },
+  {
+   "relate": "前传",
+   "src": 332006,
+   "dst": 332005
+  }
+ ]
+}
