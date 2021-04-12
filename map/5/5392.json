@@ -2,6 +2,30 @@
  "id": 5392,
  "node": [
   {
+   "id": 531,
+   "name": "ARIA The ANIMATION",
+   "nameCN": "水星领航员",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/cb/531_lhSVh.jpg"
+  },
+  {
+   "id": 750,
+   "name": "ARIA The OVA ～ARIETTA～",
+   "nameCN": "水星领航员 OVA ～ARIETTA～",
+   "image": "//lain.bgm.tv/pic/cover/m/b1/37/750_21A6l.jpg"
+  },
+  {
+   "id": 1269,
+   "name": "ARIA The NATURAL",
+   "nameCN": "水星领航员 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/04/1269_8hpU3.jpg"
+  },
+  {
+   "id": 1270,
+   "name": "ARIA The ORIGINATION",
+   "nameCN": "水星领航员 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/c8/50/1270_Yo7p2.jpg"
+  },
+  {
    "id": 5392,
    "name": "ARIA",
    "nameCN": "水星领航员",
@@ -12,9 +36,62 @@
    "name": "AQUA",
    "nameCN": "水星领航员AQUA",
    "image": "//lain.bgm.tv/pic/cover/m/e5/31/5419_wBmBo.jpg"
+  },
+  {
+   "id": 124341,
+   "name": "ARIA The AVVENIRE",
+   "nameCN": "水星领航员 The AVVENIRE",
+   "image": "//lain.bgm.tv/pic/cover/m/10/a1/124341_5oSro.jpg"
+  },
+  {
+   "id": 304087,
+   "name": "ARIA The CREPUSCOLO",
+   "nameCN": "水星领航员 The CREPUSCOLO",
+   "image": "//lain.bgm.tv/pic/cover/m/f8/71/304087_e555S.jpg"
+  },
+  {
+   "id": 329948,
+   "name": "ARIA The BENEDIZIONE",
+   "nameCN": "水星领航员 The BENEDIZIONE",
+   "image": "//lain.bgm.tv/pic/cover/m/47/80/329948_kuBmm.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 531,
+   "dst": 1269
+  },
+  {
+   "relate": "前传",
+   "src": 750,
+   "dst": 1269
+  },
+  {
+   "relate": "续集",
+   "src": 750,
+   "dst": 1270
+  },
+  {
+   "relate": "前传",
+   "src": 1269,
+   "dst": 531
+  },
+  {
+   "relate": "续集",
+   "src": 1269,
+   "dst": 750
+  },
+  {
+   "relate": "前传",
+   "src": 1270,
+   "dst": 750
+  },
+  {
+   "relate": "续集",
+   "src": 1270,
+   "dst": 124341
+  },
   {
    "relate": "前传",
    "src": 5392,
@@ -24,6 +101,36 @@
    "relate": "续集",
    "src": 5419,
    "dst": 5392
+  },
+  {
+   "relate": "前传",
+   "src": 124341,
+   "dst": 1270
+  },
+  {
+   "relate": "续集",
+   "src": 124341,
+   "dst": 304087
+  },
+  {
+   "relate": "前传",
+   "src": 304087,
+   "dst": 5392
+  },
+  {
+   "relate": "前传",
+   "src": 304087,
+   "dst": 124341
+  },
+  {
+   "relate": "续集",
+   "src": 304087,
+   "dst": 329948
+  },
+  {
+   "relate": "前传",
+   "src": 329948,
+   "dst": 304087
   }
  ]
 }
