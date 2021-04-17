@@ -16,7 +16,6 @@
   {
    "id": 13132,
    "name": "羊羊运动会",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/a8/68/13132_9lq3l.jpg"
   },
   {
@@ -69,13 +68,11 @@
   {
    "id": 57754,
    "name": "喜羊羊与灰太狼之开心日记",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/dd/07/57754_q0vkL.jpg"
   },
   {
    "id": 57755,
    "name": "喜羊羊与灰太狼之喜气羊羊过蛇年",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/57/13/57755_oWLBz.jpg"
   },
   {
@@ -87,13 +84,11 @@
   {
    "id": 90349,
    "name": "喜羊羊与灰太狼之飞马奇遇记",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/35/f6/90349_SnIhM.jpg"
   },
   {
    "id": 90600,
    "name": "喜羊羊与灰太狼之懒羊羊当大厨",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/b8/54/90600_3n169.jpg"
   },
   {
@@ -101,6 +96,11 @@
    "name": "喜羊羊与灰太狼之开心方程式",
    "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/27/04/90601_883vx.jpg"
+  },
+  {
+   "id": 124630,
+   "name": "喜羊羊与灰太狼之羊年喜羊羊",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/47/124630_BKlLq.jpg"
   },
   {
    "id": 167708,
@@ -111,19 +111,16 @@
   {
    "id": 208077,
    "name": "喜羊羊与灰太狼之羊羊小心愿",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/8c/82/208077_p1tT8.jpg"
   },
   {
    "id": 208078,
    "name": "喜羊羊与灰太狼之衣橱大冒险",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/ee/cb/208078_HM4F2.jpg"
   },
   {
    "id": 208079,
    "name": "喜羊羊与灰太狼之妈妈乐疯狂",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/32/e9/208079_SB9fN.jpg"
   },
   {
@@ -147,20 +144,30 @@
   {
    "id": 208084,
    "name": "喜羊羊与灰太狼之嘻哈闯世界",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/65/ac/208084_yAaau.jpg"
   },
   {
    "id": 208085,
    "name": "喜羊羊与灰太狼之深海历险记",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/6c/41/208085_6pX9P.jpg"
+  },
+  {
+   "id": 209191,
+   "name": "嫁人就嫁灰太狼",
+   "nameCN": "嫁人就嫁灰太狼",
+   "image": "//lain.bgm.tv/pic/cover/m/5d/8c/209191_SMDbe.jpg"
   },
   {
    "id": 269263,
    "name": "喜羊羊与灰太狼之发明大作战",
    "nameCN": "喜羊羊与灰太狼之发明大作战",
    "image": "//lain.bgm.tv/pic/cover/m/ed/c2/269263_vv3i3.jpg"
+  },
+  {
+   "id": 269265,
+   "name": "喜羊羊与灰太狼之奇幻天空岛",
+   "nameCN": "喜羊羊与灰太狼之奇幻天空岛",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/ac/269265_HRuYf.jpg"
   },
   {
    "id": 273458,
@@ -209,6 +216,11 @@
    "relate": "衍生",
    "src": 13131,
    "dst": 13158
+  },
+  {
+   "relate": "衍生",
+   "src": 13131,
+   "dst": 209191
   },
   {
    "relate": "主线故事",
@@ -281,8 +293,18 @@
    "dst": 13131
   },
   {
+   "relate": "续集",
+   "src": 90600,
+   "dst": 208079
+  },
+  {
    "relate": "主线故事",
    "src": 90601,
+   "dst": 13131
+  },
+  {
+   "relate": "相同世界观",
+   "src": 124630,
    "dst": 13131
   },
   {
@@ -331,6 +353,16 @@
    "dst": 13131
   },
   {
+   "relate": "前传",
+   "src": 208085,
+   "dst": 208084
+  },
+  {
+   "relate": "续集",
+   "src": 208085,
+   "dst": 269265
+  },
+  {
    "relate": "主线故事",
    "src": 269263,
    "dst": 13131
@@ -341,6 +373,16 @@
    "dst": 273458
   },
   {
+   "relate": "前传",
+   "src": 269265,
+   "dst": 208085
+  },
+  {
+   "relate": "续集",
+   "src": 269265,
+   "dst": 310927
+  },
+  {
    "relate": "主线故事",
    "src": 273458,
    "dst": 13131
@@ -349,6 +391,16 @@
    "relate": "主线故事",
    "src": 310927,
    "dst": 13131
+  },
+  {
+   "relate": "前传",
+   "src": 310927,
+   "dst": 269265
+  },
+  {
+   "relate": "相同世界观",
+   "src": 310927,
+   "dst": 273458
   },
   {
    "relate": "主线故事",
