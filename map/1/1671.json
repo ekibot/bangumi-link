@@ -17,7 +17,7 @@
    "id": 23161,
    "name": "偽物語",
    "nameCN": "伪物语",
-   "image": "//lain.bgm.tv/pic/cover/m/8e/28/23161_dTuTy.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/8e/28/23161_y2AEb.jpg"
   },
   {
    "id": 56117,
@@ -29,7 +29,7 @@
    "id": 68812,
    "name": "〈物語〉シリーズ セカンドシーズン",
    "nameCN": "物语系列 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/67/68812_QUpB2.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/a1/67/68812_4vgt1.jpg"
   },
   {
    "id": 82322,
@@ -121,6 +121,11 @@
   {
    "relate": "续集",
    "src": 23161,
+   "dst": 56117
+  },
+  {
+   "relate": "续集",
+   "src": 23161,
    "dst": 68812
   },
   {
@@ -131,12 +136,27 @@
   {
    "relate": "前传",
    "src": 56117,
+   "dst": 23161
+  },
+  {
+   "relate": "续集",
+   "src": 56117,
+   "dst": 68812
+  },
+  {
+   "relate": "前传",
+   "src": 56117,
    "dst": 148037
   },
   {
    "relate": "前传",
    "src": 68812,
    "dst": 23161
+  },
+  {
+   "relate": "前传",
+   "src": 68812,
+   "dst": 56117
   },
   {
    "relate": "番外篇",
@@ -154,9 +174,19 @@
    "dst": 68812
   },
   {
+   "relate": "续集",
+   "src": 82322,
+   "dst": 115932
+  },
+  {
    "relate": "前传",
    "src": 115932,
    "dst": 68812
+  },
+  {
+   "relate": "前传",
+   "src": 115932,
+   "dst": 82322
   },
   {
    "relate": "续集",
