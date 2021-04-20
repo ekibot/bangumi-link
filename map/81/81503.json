@@ -22,7 +22,7 @@
   {
    "id": 49298,
    "name": "Quake III Arena",
-   "nameCN": "雷神之锤3",
+   "nameCN": "雷神之锤3：竞技场",
    "image": "//lain.bgm.tv/pic/cover/m/bd/ee/49298_IOG6g.jpg"
   },
   {
@@ -89,6 +89,12 @@
    "name": "Wolfenstein: Enemy Territory",
    "nameCN": "重返德军总部：深入敌后",
    "image": "//lain.bgm.tv/pic/cover/m/e7/82/323801_hkIdZ.jpg"
+  },
+  {
+   "id": 333669,
+   "name": "Quake Live",
+   "nameCN": "雷神之锤Live",
+   "image": "//lain.bgm.tv/pic/cover/m/d3/5c/333669_R7AUa.jpg"
   }
  ],
  "relate": [
@@ -126,6 +132,11 @@
    "relate": "前传",
    "src": 49298,
    "dst": 49297
+  },
+  {
+   "relate": "不同演绎",
+   "src": 49298,
+   "dst": 333669
   },
   {
    "relate": "续集",
@@ -211,6 +222,11 @@
    "relate": "续集",
    "src": 323801,
    "dst": 146726
+  },
+  {
+   "relate": "不同演绎",
+   "src": 333669,
+   "dst": 49298
   }
  ]
 }
