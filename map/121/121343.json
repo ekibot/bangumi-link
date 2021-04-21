@@ -12,6 +12,12 @@
    "name": "Battleheart Legacy",
    "nameCN": "战斗之心：传承",
    "image": "//lain.bgm.tv/pic/cover/m/28/85/121344_V1k7D.jpg"
+  },
+  {
+   "id": 333750,
+   "name": "Battleheart 2",
+   "nameCN": "战斗之心 2",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/03/333750_w955E.jpg"
   }
  ],
  "relate": [
@@ -21,8 +27,18 @@
    "dst": 121344
   },
   {
+   "relate": "续集",
+   "src": 121343,
+   "dst": 333750
+  },
+  {
    "relate": "前传",
    "src": 121344,
+   "dst": 121343
+  },
+  {
+   "relate": "前传",
+   "src": 333750,
    "dst": 121343
   }
  ]
