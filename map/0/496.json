@@ -8,6 +8,12 @@
    "image": "//lain.bgm.tv/pic/cover/m/b5/34/496_1D61r.jpg"
   },
   {
+   "id": 52385,
+   "name": "The Matrix: Path of Neo",
+   "nameCN": "黑客帝国：尼奥之路",
+   "image": "//lain.bgm.tv/pic/cover/m/27/16/52385_4fX1R.jpg"
+  },
+  {
    "id": 112920,
    "name": "The Matrix",
    "nameCN": "黑客帝国",
@@ -24,6 +30,18 @@
    "name": "The Matrix Revolutions",
    "nameCN": "黑客帝国3：矩阵革命",
    "image": "//lain.bgm.tv/pic/cover/m/4e/08/112922_iAn1L.jpg"
+  },
+  {
+   "id": 248609,
+   "name": "Enter the Matrix",
+   "nameCN": "黑客帝国",
+   "image": "//lain.bgm.tv/pic/cover/m/48/2c/248609_JqQhr.jpg"
+  },
+  {
+   "id": 264531,
+   "name": "The Matrix Online",
+   "nameCN": "黑客帝国在线",
+   "image": "//lain.bgm.tv/pic/cover/m/f7/9f/264531_Wc8Dw.jpg"
   }
  ],
  "relate": [
@@ -31,6 +49,16 @@
    "relate": "主线故事",
    "src": 496,
    "dst": 112920
+  },
+  {
+   "relate": "前传",
+   "src": 52385,
+   "dst": 248609
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52385,
+   "dst": 264531
   },
   {
    "relate": "番外篇",
@@ -66,6 +94,21 @@
    "relate": "前传",
    "src": 112922,
    "dst": 112921
+  },
+  {
+   "relate": "续集",
+   "src": 248609,
+   "dst": 52385
+  },
+  {
+   "relate": "相同世界观",
+   "src": 248609,
+   "dst": 264531
+  },
+  {
+   "relate": "相同世界观",
+   "src": 264531,
+   "dst": 496
   }
  ]
 }
