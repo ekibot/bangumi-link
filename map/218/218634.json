@@ -30,7 +30,6 @@
   {
    "id": 222229,
    "name": "魔法戦士スイートナイツ ～ヒロイン凌辱指令～",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/ef/a7/222229_5z1D4.jpg"
   },
   {
@@ -46,19 +45,16 @@
   {
    "id": 222232,
    "name": "魔法戦士シンフォニックナイツ －女神を継ぐ乙女たち－",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/47/50/222232_oz9zp.jpg"
   },
   {
    "id": 222233,
    "name": "魔法戦士レムティアナイツ －光の乙女たち－",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/56/70/222233_eN0Za.jpg"
   },
   {
    "id": 222234,
    "name": "魔法戦士の学園祭 －FANDISCの乙女たち－",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/a8/29/222234_BeQoZ.jpg"
   },
   {
@@ -70,14 +66,17 @@
   {
    "id": 222240,
    "name": "魔法戦士エクストラステージ2 学園感獄",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/f7/f7/222240_99g69.jpg"
   },
   {
    "id": 222242,
    "name": "セイクリッドグラウンド",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/3d/88/222242_0iJJL.jpg"
+  },
+  {
+   "id": 290282,
+   "name": "魔法戦士エクストラステージ3 -引き裂かれた女神たち-",
+   "image": "//lain.bgm.tv/pic/cover/m/c9/76/290282_4y85Z.jpg"
   }
  ],
  "relate": [
@@ -157,6 +156,11 @@
    "dst": 218634
   },
   {
+   "relate": "续集",
+   "src": 222234,
+   "dst": 222240
+  },
+  {
    "relate": "主线故事",
    "src": 222239,
    "dst": 222212
@@ -172,9 +176,19 @@
    "dst": 200512
   },
   {
+   "relate": "前传",
+   "src": 222240,
+   "dst": 222234
+  },
+  {
    "relate": "主线故事",
    "src": 222242,
    "dst": 218634
+  },
+  {
+   "relate": "前传",
+   "src": 290282,
+   "dst": 222240
   }
  ]
 }
