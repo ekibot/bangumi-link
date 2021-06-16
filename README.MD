@@ -7,8 +7,7 @@
 --> 
 # Bangumi条目关联爬虫
 
-[![](https://data.jsdelivr.com/v1/package/gh/ekibun/bangumi_link/badge)](https://www.jsdelivr.com/package/gh/ekibun/bangumi_link)
-![spider](https://github.com/ekibun/bangumi_link/workflows/spider/badge.svg)
+[![](https://data.jsdelivr.com/v1/package/gh/ekibot/bangumi-link/badge)](https://www.jsdelivr.com/package/gh/ekibot/bangumi-link)
 
 ### 使用方法
 
