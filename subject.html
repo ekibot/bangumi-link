@@ -126,14 +126,14 @@
 
 
     const _subject_id = getQueryVariable("subject");
-    d3.text(`https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/node/${(_subject_id / 1000) | 0}/${_subject_id}`, function (error, map_id) {
+    d3.text(`https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/node/${(_subject_id / 1000) | 0}/${_subject_id}`, function (error, map_id) {
       if (error) {
         p = document.createElement('h1')
         p.innerText = error.responseText
         document.body.prepend(p)
         return console.log(error)
       }
-      d3.json(`https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/map/${(map_id / 1000) | 0}/${map_id}.json`, function (error, root) {
+      d3.json(`https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/map/${(map_id / 1000) | 0}/${map_id}.json`, function (error, root) {
 
         if (error) {
           p = document.createElement('h1')
