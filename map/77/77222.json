@@ -12,6 +12,17 @@
    "name": "G.I. Joe: Retaliation",
    "nameCN": "特种部队：全面反击",
    "image": "//lain.bgm.tv/pic/cover/m/ad/12/77223_yhYUU.jpg"
+  },
+  {
+   "id": 322681,
+   "name": "Snake Eyes: G.I. Joe Origins",
+   "nameCN": "特种部队：蛇眼",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/d7/322681_Q0IAU.jpg"
+  },
+  {
+   "id": 322682,
+   "name": "G.I. Joe: Ever Vigilant",
+   "nameCN": "特种部队：永远警觉"
   }
  ],
  "relate": [
@@ -21,9 +32,29 @@
    "dst": 77223
   },
   {
+   "relate": "番外篇",
+   "src": 77222,
+   "dst": 322681
+  },
+  {
    "relate": "前传",
    "src": 77223,
    "dst": 77222
+  },
+  {
+   "relate": "续集",
+   "src": 77223,
+   "dst": 322682
+  },
+  {
+   "relate": "主线故事",
+   "src": 322681,
+   "dst": 77222
+  },
+  {
+   "relate": "前传",
+   "src": 322682,
+   "dst": 77223
   }
  ]
 }
