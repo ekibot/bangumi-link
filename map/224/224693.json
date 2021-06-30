@@ -9,8 +9,17 @@
   {
    "id": 224693,
    "name": "同窓会refrain",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/71/22/224693_n3wF2.jpg"
+  },
+  {
+   "id": 224738,
+   "name": "同窓会again",
+   "image": "//lain.bgm.tv/pic/cover/m/36/b2/224738_NLDCi.jpg"
+  },
+  {
+   "id": 312882,
+   "name": "同窓会メモリアルパッケージ",
+   "image": "//lain.bgm.tv/pic/cover/m/72/cc/312882_xZw54.jpg"
   }
  ],
  "relate": [
@@ -18,6 +27,26 @@
    "relate": "前传",
    "src": 224693,
    "dst": 90128
+  },
+  {
+   "relate": "前传",
+   "src": 224693,
+   "dst": 224738
+  },
+  {
+   "relate": "续集",
+   "src": 224738,
+   "dst": 224693
+  },
+  {
+   "relate": "前传",
+   "src": 224738,
+   "dst": 312882
+  },
+  {
+   "relate": "续集",
+   "src": 312882,
+   "dst": 224738
   }
  ]
 }
