@@ -3,8 +3,8 @@
  "node": [
   {
    "id": 16420,
-   "name": "超时空英雄传说2: 复仇魔神",
-   "nameCN": "超时空英雄传说2: 复仇魔神",
+   "name": "超時空英雄傳說2 復仇魔神",
+   "nameCN": "超时空英雄传说2 复仇魔神",
    "image": "//lain.bgm.tv/pic/cover/m/ef/03/16420_nsNH3.jpg"
   },
   {
@@ -15,14 +15,21 @@
   },
   {
    "id": 137415,
-   "name": "超时空英雄传说3：狂神降世",
+   "name": "超時空英雄傳說Ⅲ 狂神降世",
+   "nameCN": "超时空英雄传说Ⅲ 狂神降世",
    "image": "//lain.bgm.tv/pic/cover/m/df/8c/137415_ZZM7I.jpg"
   },
   {
    "id": 219817,
-   "name": "超时空英雄传说2 北方密使",
+   "name": "超時空英雄傳說2 北方密使",
    "nameCN": "超时空英雄传说2 北方密使",
    "image": "//lain.bgm.tv/pic/cover/m/cc/9c/219817_aD9HD.jpg"
+  },
+  {
+   "id": 341422,
+   "name": "超時空英雄傳說",
+   "nameCN": "超时空英雄传说",
+   "image": "/img/no_icon_subject.png"
   }
  ],
  "relate": [
@@ -30,6 +37,11 @@
    "relate": "续集",
    "src": 16420,
    "dst": 137415
+  },
+  {
+   "relate": "前传",
+   "src": 16420,
+   "dst": 341422
   },
   {
    "relate": "不同世界观",
@@ -55,6 +67,11 @@
    "relate": "续集",
    "src": 219817,
    "dst": 137415
+  },
+  {
+   "relate": "续集",
+   "src": 341422,
+   "dst": 16420
   }
  ]
 }
