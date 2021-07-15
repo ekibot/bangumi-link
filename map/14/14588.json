@@ -8,10 +8,22 @@
    "image": "//lain.bgm.tv/pic/cover/m/43/d9/14588_bDB2r.jpg"
   },
   {
+   "id": 19696,
+   "name": "ゆるゆり",
+   "nameCN": "摇曳百合",
+   "image": "//lain.bgm.tv/pic/cover/m/ee/2a/19696_23iP3.jpg"
+  },
+  {
    "id": 28900,
    "name": "ゆるゆり♪♪",
    "nameCN": "摇曳百合♪♪",
    "image": "//lain.bgm.tv/pic/cover/m/f2/9f/28900_PB3pC.jpg"
+  },
+  {
+   "id": 73503,
+   "name": "大室家",
+   "nameCN": "大室家",
+   "image": "//lain.bgm.tv/pic/cover/m/cd/87/73503_JQbmJ.jpg"
   },
   {
    "id": 99796,
@@ -32,6 +44,11 @@
    "image": "//lain.bgm.tv/pic/cover/m/6b/d7/136311_N51T6.jpg"
   },
   {
+   "id": 141053,
+   "name": "reset!",
+   "image": "//lain.bgm.tv/pic/cover/m/86/05/141053_0Q0nc.jpg"
+  },
+  {
    "id": 243787,
    "name": "ゆるゆり、",
    "nameCN": "摇曳百合、",
@@ -42,6 +59,12 @@
    "name": "みにゆり",
    "nameCN": "迷你百合",
    "image": "//lain.bgm.tv/pic/cover/m/ef/83/285545_8sL5s.jpg"
+  },
+  {
+   "id": 311696,
+   "name": "東西南北！",
+   "nameCN": "东西南北！",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/9e/311696_m0d0o.jpg"
   }
  ],
  "relate": [
@@ -56,6 +79,16 @@
    "dst": 285545
   },
   {
+   "relate": "番外篇",
+   "src": 19696,
+   "dst": 73503
+  },
+  {
+   "relate": "番外篇",
+   "src": 19696,
+   "dst": 141053
+  },
+  {
    "relate": "前传",
    "src": 28900,
    "dst": 14588
@@ -64,6 +97,16 @@
    "relate": "续集",
    "src": 28900,
    "dst": 99796
+  },
+  {
+   "relate": "主线故事",
+   "src": 73503,
+   "dst": 19696
+  },
+  {
+   "relate": "主线故事",
+   "src": 73503,
+   "dst": 28900
   },
   {
    "relate": "前传",
@@ -94,6 +137,11 @@
    "relate": "续集",
    "src": 136311,
    "dst": 127573
+  },
+  {
+   "relate": "主线故事",
+   "src": 141053,
+   "dst": 19696
   },
   {
    "relate": "前传",
@@ -109,6 +157,11 @@
    "relate": "主线故事",
    "src": 285545,
    "dst": 243787
+  },
+  {
+   "relate": "主线故事",
+   "src": 311696,
+   "dst": 19696
   }
  ]
 }
