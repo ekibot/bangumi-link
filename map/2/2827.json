@@ -24,13 +24,22 @@
   {
    "id": 169347,
    "name": "pixiv年鑑2014 オフィシャルブック",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/ca/d3/169347_jp.jpg"
   },
   {
    "id": 169350,
    "name": "pixiv年鑑2013 オフィシャルブック",
    "image": "//lain.bgm.tv/pic/cover/m/b3/57/169350_jp.jpg"
+  },
+  {
+   "id": 345850,
+   "name": "pixivイラストレーター年鑑 2017",
+   "image": "//lain.bgm.tv/pic/cover/m/6e/35/345850_Xg11N.jpg"
+  },
+  {
+   "id": 345924,
+   "name": "pixiv 5th Anniversary Book",
+   "image": "//lain.bgm.tv/pic/cover/m/8a/80/345924_DdMdz.jpg"
   }
  ],
  "relate": [
@@ -60,6 +69,11 @@
    "dst": 169350
   },
   {
+   "relate": "续集",
+   "src": 29396,
+   "dst": 345924
+  },
+  {
    "relate": "前传",
    "src": 169346,
    "dst": 169347
@@ -83,6 +97,26 @@
    "relate": "续集",
    "src": 169350,
    "dst": 169347
+  },
+  {
+   "relate": "前传",
+   "src": 169350,
+   "dst": 345924
+  },
+  {
+   "relate": "前传",
+   "src": 345850,
+   "dst": 169346
+  },
+  {
+   "relate": "前传",
+   "src": 345924,
+   "dst": 29396
+  },
+  {
+   "relate": "续集",
+   "src": 345924,
+   "dst": 169350
   }
  ]
 }
