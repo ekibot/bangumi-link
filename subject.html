@@ -1,399 +1,398 @@
 <html lang="zh">
-<head>
-    <meta charset="utf-8"/>
+  <head>
+    <meta charset="utf-8" />
     <title>Force</title>
-</head>
+  </head>
 
-<style>
+  <style>
     body,
     svg {
-        height: 100%;
-        margin: 0;
-        width: 100%;
-        float: left;
+      height: 100%;
+      margin: 0;
+      width: 100%;
+      float: left;
     }
 
     [data-visible="false"] {
-        display: none;
+      display: none;
     }
 
     path {
-        fill: none;
-        stroke-linejoin: round;
+      fill: none;
+      stroke-linejoin: round;
     }
 
     .land-glow {
-        fill: #000;
-        fill-opacity: 0.2;
-        filter: url(#glow);
+      fill: #000;
+      fill-opacity: 0.2;
+      filter: url(#glow);
     }
 
     .land-fill {
-        fill: #fff;
+      fill: #fff;
     }
 
     .state-boundary {
-        stroke: #777;
-        stroke-width: 0.7px;
+      stroke: #777;
+      stroke-width: 0.7px;
     }
 
     .land-fill,
     .county-boundary {
-        stroke: #777;
-        stroke-width: 0.35px;
+      stroke: #777;
+      stroke-width: 0.35px;
     }
 
     .nodetext {
-        font-size: 12px;
-        font-family: SimSun;
-        fill: #000000;
-        text-anchor: middle;
+      font-size: 12px;
+      font-family: SimSun;
+      fill: #000000;
+      text-anchor: middle;
     }
 
     .linetext {
-        font-size: 12px;
-        font-family: SimSun;
-        fill: #0000ff;
-        fill-opacity: 0;
+      font-size: 12px;
+      font-family: SimSun;
+      fill: #0000ff;
+      fill-opacity: 0;
     }
-</style>
+  </style>
 
-<body>
-<script
-        src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
-        charset="utf-8"
-></script>
+  <body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
+      charset="utf-8"
+    ></script>
 
-<script>
-    const defaultLineColor = "#b8b8b8";
+    <script>
+      const defaultLineColor = "#b8b8b8";
 
-    function boldNextAndPrev(matchedValue, defaultValue) {
+      function boldNextAndPrev(matchedValue, defaultValue) {
         return function (line) {
-            if (["前传", "续集"].includes(line.relate)) {
-                return matchedValue;
-            }
-            return defaultValue;
+          if (["前传", "续集"].includes(line.relate)) {
+            return matchedValue;
+          }
+          return defaultValue;
         };
-    }
+      }
 
-    const strokeStyler = boldNextAndPrev("black", defaultLineColor);
+      const strokeStyler = boldNextAndPrev("black", defaultLineColor);
 
-    function getQueryVariable(variable) {
+      function getQueryVariable(variable) {
         let query = window.location.search.substring(1);
         let vars = query.split("&");
         for (let i = 0; i < vars.length; i++) {
-            let pair = vars[i].split("=");
-            if (pair[0] === variable) {
-                return pair[1];
-            }
+          let pair = vars[i].split("=");
+          if (pair[0] === variable) {
+            return pair[1];
+          }
         }
         return false;
-    }
+      }
 
-    let img_w = 50;
-    let img_h = 50;
-    let width = window.innerWidth * 3;
-    let height = window.innerHeight * 3;
-    let viewBox_width = window.innerWidth;
-    let viewBox_x = viewBox_width;
-    let viewBox_height = window.innerHeight;
-    let viewBox_y = viewBox_height;
-    let oldScale = 1.0;
-    let mousePos_x = 0;
-    let mousePos_y = 0;
-    let movesvg = false;
+      let img_w = 50;
+      let img_h = 50;
+      let width = window.innerWidth * 3;
+      let height = window.innerHeight * 3;
+      let viewBox_width = window.innerWidth;
+      let viewBox_x = viewBox_width;
+      let viewBox_height = window.innerHeight;
+      let viewBox_y = viewBox_height;
+      let oldScale = 1.0;
+      let mousePos_x = 0;
+      let mousePos_y = 0;
+      let movesvg = false;
 
-    let svg = d3
+      let svg = d3
         .select("body")
         .append("svg")
         .attr("width", width * 3)
         .attr("height", height * 3)
         .attr(
-            "viewBox",
-            `${viewBox_width} ${viewBox_height} ${viewBox_width} ${viewBox_height}`
+          "viewBox",
+          `${viewBox_width} ${viewBox_height} ${viewBox_width} ${viewBox_height}`
         )
         .on("mousedown", function () {
-            movesvg = d3.event.target.nodeName == "svg";
+          movesvg = d3.event.target.nodeName == "svg";
         })
         .on("mousemove", function () {
-            console.log(d3.event);
-            const [x, y] = d3.mouse(this);
-            if (!d3.event.buttons) {
-                [mousePos_x, mousePos_y] = [x, y];
-            }
-            if (movesvg && d3.event.buttons) {
-                viewBox_x = viewBox_x - x + mousePos_x;
-                viewBox_y = viewBox_y - y + mousePos_y;
-                svg.attr(
-                    "viewBox",
-                    viewBox_x +
-                    " " +
-                    viewBox_y +
-                    " " +
-                    viewBox_width / oldScale +
-                    " " +
-                    viewBox_height / oldScale
-                );
-            }
+          console.log(d3.event);
+          const [x, y] = d3.mouse(this);
+          if (!d3.event.buttons) {
+            [mousePos_x, mousePos_y] = [x, y];
+          }
+          if (movesvg && d3.event.buttons) {
+            viewBox_x = viewBox_x - x + mousePos_x;
+            viewBox_y = viewBox_y - y + mousePos_y;
+            svg.attr(
+              "viewBox",
+              viewBox_x +
+                " " +
+                viewBox_y +
+                " " +
+                viewBox_width / oldScale +
+                " " +
+                viewBox_height / oldScale
+            );
+          }
         })
         .call(
-            d3.behavior
-                .zoom()
-                .scaleExtent([0.1, 10])
-                .on("zoom", function () {
-                    const [x, y] = d3.mouse(this);
-                    if (d3.event.sourceEvent) {
-                        if (oldScale !== d3.event.scale) {
-                            var scale = oldScale / d3.event.scale;
-                            oldScale = d3.event.scale;
-                            viewBox_x = x - scale * (x - viewBox_x);
-                            viewBox_y = y - scale * (y - viewBox_y);
-                            svg.attr(
-                                "viewBox",
-                                viewBox_x +
-                                " " +
-                                viewBox_y +
-                                " " +
-                                viewBox_width / oldScale +
-                                " " +
-                                viewBox_height / oldScale
-                            );
-                        }
-                    }
-                })
+          d3.behavior
+            .zoom()
+            .scaleExtent([0.1, 10])
+            .on("zoom", function () {
+              const [x, y] = d3.mouse(this);
+              if (d3.event.sourceEvent) {
+                if (oldScale !== d3.event.scale) {
+                  var scale = oldScale / d3.event.scale;
+                  oldScale = d3.event.scale;
+                  viewBox_x = x - scale * (x - viewBox_x);
+                  viewBox_y = y - scale * (y - viewBox_y);
+                  svg.attr(
+                    "viewBox",
+                    viewBox_x +
+                      " " +
+                      viewBox_y +
+                      " " +
+                      viewBox_width / oldScale +
+                      " " +
+                      viewBox_height / oldScale
+                  );
+                }
+              }
+            })
         );
-    d3.select("svg").on("dblclick.zoom", null);
-    let force = d3.layout.force().size([width, height]);
+      d3.select("svg").on("dblclick.zoom", null);
+      let force = d3.layout.force().size([width, height]);
 
-    const _subject_id = getQueryVariable("subject");
-    d3.text(
+      const _subject_id = getQueryVariable("subject");
+      d3.text(
         `https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/node/${
-            (_subject_id / 1000) | 0
+          (_subject_id / 1000) | 0
         }/${_subject_id}`,
         function (error, map_id) {
-            if (error) {
+          if (error) {
+            p = document.createElement("h1");
+            p.innerText = error.responseText;
+            document.body.prepend(p);
+            return console.log(error);
+          }
+          d3.json(
+            `https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/map/${
+              (map_id / 1000) | 0
+            }/${map_id}.json`,
+            function (error, root) {
+              if (error) {
                 p = document.createElement("h1");
                 p.innerText = error.responseText;
                 document.body.prepend(p);
                 return console.log(error);
-            }
-            d3.json(
-                `https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/map/${
-                    (map_id / 1000) | 0
-                }/${map_id}.json`,
-                function (error, root) {
-                    if (error) {
-                        p = document.createElement("h1");
-                        p.innerText = error.responseText;
-                        document.body.prepend(p);
-                        return console.log(error);
+              }
+
+              const relate = root.relate.map((rel) => ({
+                relate: rel.relate,
+                source: root.node.find((n) => n.id === rel.src),
+                target: root.node.find((n) => n.id === rel.dst),
+              }));
+
+              force
+                .nodes(root.node)
+                .links(relate)
+                .linkDistance(200)
+                .charge(-4000)
+                .gravity(0.15)
+                .friction(0.8)
+                .theta(0.2)
+                .alpha(0.4)
+                .start();
+
+              let edges_line = svg
+                .selectAll("line")
+                .data(relate)
+                .enter()
+                .append("line")
+                .style("stroke", strokeStyler)
+                .style("stroke-width", boldNextAndPrev(2, 1));
+
+              let edges_text = svg
+                .selectAll(".linetext")
+                .data(relate)
+                .enter()
+                .append("text")
+                .attr("class", "linetext")
+                .text(function (d) {
+                  return d.relate;
+                });
+
+              var text_dx = -20;
+              var text_dy = 20;
+              var nodes_text = svg
+                .selectAll(".nodetext")
+                .data(root.node)
+                .enter()
+                .append("text")
+                .attr("class", "nodetext")
+                .attr("dx", text_dx)
+                .attr("dy", text_dy)
+                .text(function (d) {
+                  return d.nameCN || d.name;
+                });
+              var nodes_img = svg
+                .selectAll("image")
+                .data(root.node)
+                .enter()
+                .append("image")
+                .attr("width", img_w)
+                .attr("height", img_h)
+                .attr("preserveAspectRatio", "none")
+                .attr("id", function (d) {
+                  return d.id;
+                })
+                .attr("xlink:href", function (d) {
+                  // {#return '/static/default.png'#}
+                  return d.image;
+                })
+                .on("contextmenu", function (d, i, ev) {
+                  d3.event.preventDefault();
+                  window.open("https://bgm.tv/subject/" + d.id, "_blank");
+
+                  return false;
+                });
+
+              let highLightObj;
+
+              function highLight(d) {
+                // 加黑相关的线条
+
+                edges_line.style("stroke", function (line) {
+                  if (line.source.id === d.id || line.target.id === d.id) {
+                    return strokeStyler(line);
+                  }
+                });
+
+                //显示连接线上的文字
+                edges_text.style("fill-opacity", function (edge) {
+                  if (edge.source === d) {
+                    return 1.0;
+                  }
+                });
+              }
+
+              function unHighLight(d, i) {
+                if (highLightObj) return highLight(highLightObj);
+
+                if (!d.highLight) {
+                  edges_line.style(
+                    "stroke",
+                    boldNextAndPrev("black", defaultLineColor)
+                  );
+                  //隐去连接线上的文字
+                  edges_text.style("fill-opacity", function (edge) {
+                    if (edge.source === d) {
+                      return 0.0;
                     }
-
-                    const relate = root.relate.map((rel) => ({
-                        relate: rel.relate,
-                        source: root.node.find((n) => n.id === rel.src),
-                        target: root.node.find((n) => n.id === rel.dst),
-                    }));
-
-                    force
-                        .nodes(root.node)
-                        .links(relate)
-                        .linkDistance(200)
-                        .charge(-4000)
-                        .gravity(0.15)
-                        .friction(0.8)
-                        .theta(0.2)
-                        .alpha(0.4)
-                        .start();
-
-                    let edges_line = svg
-                        .selectAll("line")
-                        .data(relate)
-                        .enter()
-                        .append("line")
-                        .style("stroke", strokeStyler)
-                        .style("stroke-width", boldNextAndPrev(2, 1));
-
-                    let edges_text = svg
-                        .selectAll(".linetext")
-                        .data(relate)
-                        .enter()
-                        .append("text")
-                        .attr("class", "linetext")
-                        .text(function (d) {
-                            return d.relate;
-                        });
-
-                    var text_dx = -20;
-                    var text_dy = 20;
-                    var nodes_text = svg
-                        .selectAll(".nodetext")
-                        .data(root.node)
-                        .enter()
-                        .append("text")
-                        .attr("class", "nodetext")
-                        .attr("dx", text_dx)
-                        .attr("dy", text_dy)
-                        .text(function (d) {
-                            return d.nameCN || d.name;
-                        });
-                    var nodes_img = svg
-                        .selectAll("image")
-                        .data(root.node)
-                        .enter()
-                        .append("image")
-                        .attr("width", img_w)
-                        .attr("height", img_h)
-                        .attr("preserveAspectRatio", "none")
-                        .attr("id", function (d) {
-                            return d.id;
-                        })
-                        .attr("xlink:href", function (d) {
-                            // {#return '/static/default.png'#}
-                            return d.image;
-                        })
-                        .on("contextmenu", function (d, i, ev) {
-                            d3.event.preventDefault();
-                            window.open("https://bgm.tv/subject/" + d.id, "_blank");
-
-                            return false;
-                        });
-
-                    let highLightObj;
-
-                    function highLight(d) {
-                        // 加黑相关的线条
-
-                        edges_line.style("stroke", function (line) {
-                            if (line.source.id === d.id || line.target.id === d.id) {
-                                return strokeStyler(line);
-                            }
-                        });
-
-                        //显示连接线上的文字
-                        edges_text.style("fill-opacity", function (edge) {
-                            if (edge.source === d) {
-                                return 1.0;
-                            }
-                        });
-                    }
-
-                    function unHighLight(d, i) {
-                        if (highLightObj) return highLight(highLightObj);
-
-                        if (!d.highLight) {
-                            edges_line.style(
-                                "stroke",
-                                boldNextAndPrev("black", defaultLineColor)
-                            );
-                            //隐去连接线上的文字
-                            edges_text.style("fill-opacity", function (edge) {
-                                if (edge.source === d) {
-                                    return 0.0;
-                                }
-                            });
-                        }
-                    }
-
-                    let fixed_id = new Set();
-                    force
-                        .drag()
-                        .on("dragstart", function (d, i) {
-                            if (d.need_to_fix) {
-                                fixed_id.add(d.id);
-                            }
-                            d.fixed = true;
-                            d.need_to_fix = true;
-                        })
-                        .on("dragend", function (d, i) {
-                            if (fixed_id.has(d.id)) {
-                                d.fixed = false;
-                                fixed_id.delete(d.id);
-                                d.need_to_fix = false;
-                            }
-                        })
-                        .on("drag", function (d, i) {
-                        });
-
-                    nodes_img
-                        .on("mouseover", highLight)
-                        .on("mouseout", unHighLight)
-                        .on("dblclick", function (d, i) {
-                            if (highLightObj !== d) {
-                                let relatedRelation = relate.filter(function (val) {
-                                    return val.source.id === d.id || val.target.id === d.id;
-                                });
-
-                                function dataVisible(nodes) {
-                                    if (
-                                        relatedRelation.findIndex(function (val) {
-                                            return (
-                                                val.source.id === nodes.id ||
-                                                val.target.id === nodes.id
-                                            );
-                                        }) === -1
-                                    ) {
-                                        return "false";
-                                    } else {
-                                        return "true";
-                                    }
-                                }
-
-                                nodes_text.attr("data-visible", dataVisible);
-                                nodes_img.attr("data-visible", dataVisible);
-                                highLight(d);
-                                highLightObj = d;
-                            } else {
-                                nodes_text.attr("data-visible", "true");
-                                nodes_img.attr("data-visible", "true");
-                                highLightObj = null;
-                            }
-                        })
-
-                        .call(force.drag);
-
-                    force.on("tick", function () {
-                        //更新连接线的位置
-                        edges_line.attr("x1", function (d) {
-                            return d.source.x;
-                        });
-                        edges_line.attr("y1", function (d) {
-                            return d.source.y;
-                        });
-                        edges_line.attr("x2", function (d) {
-                            return d.target.x;
-                        });
-                        edges_line.attr("y2", function (d) {
-                            return d.target.y;
-                        });
-
-                        //更新连接线上文字的位置
-                        edges_text.attr("x", function (d) {
-                            return (d.source.x + d.target.x) / 2;
-                        });
-                        edges_text.attr("y", function (d) {
-                            return (d.source.y + d.target.y) / 2;
-                        });
-
-                        //更新结点图片和文字
-                        nodes_img.attr("x", function (d) {
-                            return d.x - img_w / 2;
-                        });
-                        nodes_img.attr("y", function (d) {
-                            return d.y - img_h / 2;
-                        });
-
-                        nodes_text.attr("x", function (d) {
-                            return d.x + img_w / 2;
-                        });
-                        nodes_text.attr("y", function (d) {
-                            return d.y + img_h / 2;
-                        });
-                    });
+                  });
                 }
-            );
+              }
+
+              let fixed_id = new Set();
+              force
+                .drag()
+                .on("dragstart", function (d, i) {
+                  if (d.need_to_fix) {
+                    fixed_id.add(d.id);
+                  }
+                  d.fixed = true;
+                  d.need_to_fix = true;
+                })
+                .on("dragend", function (d, i) {
+                  if (fixed_id.has(d.id)) {
+                    d.fixed = false;
+                    fixed_id.delete(d.id);
+                    d.need_to_fix = false;
+                  }
+                })
+                .on("drag", function (d, i) {});
+
+              nodes_img
+                .on("mouseover", highLight)
+                .on("mouseout", unHighLight)
+                .on("dblclick", function (d, i) {
+                  if (highLightObj !== d) {
+                    let relatedRelation = relate.filter(function (val) {
+                      return val.source.id === d.id || val.target.id === d.id;
+                    });
+
+                    function dataVisible(nodes) {
+                      if (
+                        relatedRelation.findIndex(function (val) {
+                          return (
+                            val.source.id === nodes.id ||
+                            val.target.id === nodes.id
+                          );
+                        }) === -1
+                      ) {
+                        return "false";
+                      } else {
+                        return "true";
+                      }
+                    }
+
+                    nodes_text.attr("data-visible", dataVisible);
+                    nodes_img.attr("data-visible", dataVisible);
+                    highLight(d);
+                    highLightObj = d;
+                  } else {
+                    nodes_text.attr("data-visible", "true");
+                    nodes_img.attr("data-visible", "true");
+                    highLightObj = null;
+                  }
+                })
+
+                .call(force.drag);
+
+              force.on("tick", function () {
+                //更新连接线的位置
+                edges_line.attr("x1", function (d) {
+                  return d.source.x;
+                });
+                edges_line.attr("y1", function (d) {
+                  return d.source.y;
+                });
+                edges_line.attr("x2", function (d) {
+                  return d.target.x;
+                });
+                edges_line.attr("y2", function (d) {
+                  return d.target.y;
+                });
+
+                //更新连接线上文字的位置
+                edges_text.attr("x", function (d) {
+                  return (d.source.x + d.target.x) / 2;
+                });
+                edges_text.attr("y", function (d) {
+                  return (d.source.y + d.target.y) / 2;
+                });
+
+                //更新结点图片和文字
+                nodes_img.attr("x", function (d) {
+                  return d.x - img_w / 2;
+                });
+                nodes_img.attr("y", function (d) {
+                  return d.y - img_h / 2;
+                });
+
+                nodes_text.attr("x", function (d) {
+                  return d.x + img_w / 2;
+                });
+                nodes_text.attr("y", function (d) {
+                  return d.y + img_h / 2;
+                });
+              });
+            }
+          );
         }
-    );
-</script>
-</body>
+      );
+    </script>
+  </body>
 </html>
