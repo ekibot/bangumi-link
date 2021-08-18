@@ -63,7 +63,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
       charset="utf-8"
     ></script>
-    <!-- {#<script src="/static/d3.v3.js"></script>#} -->
+
     <script>
       const defaultLineColor = "#b8b8b8";
 
@@ -296,7 +296,7 @@
               }
 
               let fixed_id = new Set();
-              var drag = force
+              force
                 .drag()
                 .on("dragstart", function (d, i) {
                   if (d.need_to_fix) {
