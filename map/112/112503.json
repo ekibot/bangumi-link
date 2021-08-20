@@ -3,8 +3,8 @@
  "node": [
   {
    "id": 8199,
-   "name": "Gargoyles",
-   "nameCN": "夜行神龙",
+   "name": "Gargoyles Season 1",
+   "nameCN": "夜行神龙 第一季",
    "image": "//lain.bgm.tv/pic/cover/m/65/3c/8199_47Faj.jpg"
   },
   {
@@ -12,6 +12,18 @@
    "name": "Gargoyles: The Heroes Awaken",
    "nameCN": "夜行神龙电影版",
    "image": "//lain.bgm.tv/pic/cover/m/44/ac/112503_uoyp5.jpg"
+  },
+  {
+   "id": 347340,
+   "name": "Gargoyles Season 2",
+   "nameCN": "夜行神龙 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/dd/a4/347340_Im3Jn.jpg"
+  },
+  {
+   "id": 347364,
+   "name": "Gargoyles: The Goliath Chronicles",
+   "nameCN": "夜行神龙 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/6d/7d/347364_r0l03.jpg"
   }
  ],
  "relate": [
@@ -21,9 +33,29 @@
    "dst": 112503
   },
   {
+   "relate": "续集",
+   "src": 8199,
+   "dst": 347340
+  },
+  {
    "relate": "主线故事",
    "src": 112503,
    "dst": 8199
+  },
+  {
+   "relate": "前传",
+   "src": 347340,
+   "dst": 8199
+  },
+  {
+   "relate": "续集",
+   "src": 347340,
+   "dst": 347364
+  },
+  {
+   "relate": "前传",
+   "src": 347364,
+   "dst": 347340
   }
  ]
 }
