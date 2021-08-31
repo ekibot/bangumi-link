@@ -127,8 +127,7 @@
           }
         })
         .call(
-          d3
-            .behavior
+          d3.behavior
             .zoom()
             .scaleExtent([0.1, 10])
             .on("zoom", function () {
