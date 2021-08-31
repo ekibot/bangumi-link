@@ -123,36 +123,23 @@
           if (movesvg && d3.event.buttons) {
             viewBox_x = viewBox_x - x + mousePos_x;
             viewBox_y = viewBox_y - y + mousePos_y;
-            svg.attr(
-              "viewBox",
-              `${viewBox_x} ${viewBox_y} ${viewBox_width / oldScale} ${
-                viewBox_height / oldScale
-              }`
-            );
+            svg.attr("viewBox", `${viewBox_x} ${viewBox_y} ${viewBox_width / oldScale} ${viewBox_height / oldScale}`);
           }
         })
         .call(
-          d3.behavior
+          d3
+            .behavior
             .zoom()
             .scaleExtent([0.1, 10])
             .on("zoom", function () {
               const [x, y] = d3.mouse(this);
               if (d3.event.sourceEvent) {
                 if (oldScale !== d3.event.scale) {
-                  var scale = oldScale / d3.event.scale;
+                  let scale = oldScale / d3.event.scale;
                   oldScale = d3.event.scale;
                   viewBox_x = x - scale * (x - viewBox_x);
                   viewBox_y = y - scale * (y - viewBox_y);
-                  svg.attr(
-                    "viewBox",
-                    viewBox_x +
-                      " " +
-                      viewBox_y +
-                      " " +
-                      viewBox_width / oldScale +
-                      " " +
-                      viewBox_height / oldScale
-                  );
+                  svg.attr("viewBox", `${viewBox_x} ${viewBox_y} ${viewBox_width / oldScale} ${viewBox_height / oldScale}`);
                 }
               }
             })
@@ -243,7 +230,7 @@
 
                   return false;
                 })
-                .attr("fixed", function (d) {
+                .each(function (d) {
                   if (d.id === _subject_id) {
                     d.fixed = true;
                     d.need_to_fix = true;
@@ -257,7 +244,6 @@
                 .nodes(root.node)
                 .links(relate)
                 .linkDistance(100)
-                // .force('charge', -4000)
                 .charge(-4000)
                 .gravity(0)
                 .friction(0.8)
@@ -302,7 +288,6 @@
               }
 
               let fixed_id = new Set();
-
               force
                 .drag()
                 .on("dragstart", function (d, i) {
