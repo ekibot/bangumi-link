@@ -103,21 +103,6 @@
       let mousePos_y = 0;
       let movesvg = false;
 
-      console.log(
-        img_w,
-        img_h,
-        width,
-        height,
-        viewBox_width,
-        viewBox_x,
-        viewBox_height,
-        viewBox_y,
-        oldScale,
-        mousePos_x,
-        mousePos_y,
-        movesvg
-      );
-
       let svg = d3
         .select("body")
         .append("svg")
@@ -283,7 +268,6 @@
               let highLightObj;
 
               function highLight(d) {
-                console.log(d.x, d.y);
                 // 加黑相关的线条
 
                 edges_line.style("stroke", function (line) {
