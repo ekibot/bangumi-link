@@ -314,10 +314,28 @@
    "image": "//lain.bgm.tv/pic/cover/m/2f/a9/311285_bK58t.jpg"
   },
   {
+   "id": 314041,
+   "name": "Star Trek: Lower Decks Season 1",
+   "nameCN": "星际迷航：下层舰员 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/f1/cc/314041_HN3yv.jpg"
+  },
+  {
    "id": 333984,
    "name": "Star Trek: Voyager – Elite Force",
    "nameCN": "星际迷航：精英力量",
    "image": "//lain.bgm.tv/pic/cover/m/aa/04/333984_bzK7J.jpg"
+  },
+  {
+   "id": 347693,
+   "name": "Star Trek: Lower Decks Season 2",
+   "nameCN": "星际迷航：下层舰员 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/a7/08/347693_7224i.jpg"
+  },
+  {
+   "id": 348149,
+   "name": "Star Trek: Enterprise",
+   "nameCN": "星际旅行：进取号",
+   "image": "/img/no_icon_subject.png"
   }
  ],
  "relate": [
@@ -344,7 +362,17 @@
   {
    "relate": "番外篇",
    "src": 35823,
+   "dst": 275063
+  },
+  {
+   "relate": "番外篇",
+   "src": 35823,
    "dst": 275070
+  },
+  {
+   "relate": "相同世界观",
+   "src": 35823,
+   "dst": 347693
   },
   {
    "relate": "前传",
@@ -637,6 +665,11 @@
    "dst": 36814
   },
   {
+   "relate": "主线故事",
+   "src": 275063,
+   "dst": 75025
+  },
+  {
    "relate": "不同演绎",
    "src": 275063,
    "dst": 198969
@@ -913,6 +946,21 @@
   },
   {
    "relate": "续集",
+   "src": 311285,
+   "dst": 348149
+  },
+  {
+   "relate": "相同世界观",
+   "src": 314041,
+   "dst": 35823
+  },
+  {
+   "relate": "续集",
+   "src": 314041,
+   "dst": 347693
+  },
+  {
+   "relate": "续集",
    "src": 333984,
    "dst": 240797
   },
@@ -920,6 +968,16 @@
    "relate": "相同世界观",
    "src": 333984,
    "dst": 311218
+  },
+  {
+   "relate": "前传",
+   "src": 347693,
+   "dst": 314041
+  },
+  {
+   "relate": "前传",
+   "src": 348149,
+   "dst": 311285
   }
  ]
 }
