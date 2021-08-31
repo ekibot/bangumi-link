@@ -84,7 +84,7 @@
         for (let i = 0; i < vars.length; i++) {
           let pair = vars[i].split("=");
           if (pair[0] === variable) {
-            return pair[1];
+            return parseInt(pair[1]);
           }
         }
         return false;
@@ -103,6 +103,21 @@
       let mousePos_y = 0;
       let movesvg = false;
 
+      console.log(
+        img_w,
+        img_h,
+        width,
+        height,
+        viewBox_width,
+        viewBox_x,
+        viewBox_height,
+        viewBox_y,
+        oldScale,
+        mousePos_x,
+        mousePos_y,
+        movesvg
+      );
+
       let svg = d3
         .select("body")
         .append("svg")
@@ -113,10 +128,9 @@
           `${viewBox_width} ${viewBox_height} ${viewBox_width} ${viewBox_height}`
         )
         .on("mousedown", function () {
-          movesvg = d3.event.target.nodeName == "svg";
+          movesvg = d3.event.target.nodeName === "svg";
         })
         .on("mousemove", function () {
-          console.log(d3.event);
           const [x, y] = d3.mouse(this);
           if (!d3.event.buttons) {
             [mousePos_x, mousePos_y] = [x, y];
@@ -126,13 +140,9 @@
             viewBox_y = viewBox_y - y + mousePos_y;
             svg.attr(
               "viewBox",
-              viewBox_x +
-                " " +
-                viewBox_y +
-                " " +
-                viewBox_width / oldScale +
-                " " +
+              `${viewBox_x} ${viewBox_y} ${viewBox_width / oldScale} ${
                 viewBox_height / oldScale
+              }`
             );
           }
         })
@@ -195,17 +205,6 @@
                 target: root.node.find((n) => n.id === rel.dst),
               }));
 
-              force
-                .nodes(root.node)
-                .links(relate)
-                .linkDistance(200)
-                .charge(-4000)
-                .gravity(0.15)
-                .friction(0.8)
-                .theta(0.2)
-                .alpha(0.4)
-                .start();
-
               let edges_line = svg
                 .selectAll("line")
                 .data(relate)
@@ -224,9 +223,9 @@
                   return d.relate;
                 });
 
-              var text_dx = -20;
-              var text_dy = 20;
-              var nodes_text = svg
+              let text_dx = -20;
+              let text_dy = 20;
+              let nodes_text = svg
                 .selectAll(".nodetext")
                 .data(root.node)
                 .enter()
@@ -237,7 +236,8 @@
                 .text(function (d) {
                   return d.nameCN || d.name;
                 });
-              var nodes_img = svg
+
+              let nodes_img = svg
                 .selectAll("image")
                 .data(root.node)
                 .enter()
@@ -257,11 +257,33 @@
                   window.open("https://bgm.tv/subject/" + d.id, "_blank");
 
                   return false;
+                })
+                .attr("fixed", function (d) {
+                  if (d.id === _subject_id) {
+                    d.fixed = true;
+                    d.need_to_fix = true;
+                    d.x = viewBox_width * 1.5;
+                    d.y = viewBox_height * 1.5;
+                  }
                 });
+
+              // 全局重力
+              force
+                .nodes(root.node)
+                .links(relate)
+                .linkDistance(100)
+                // .force('charge', -4000)
+                .charge(-4000)
+                .gravity(0)
+                .friction(0.8)
+                // .theta(0.4)
+                // .alpha(0.4)
+                .start();
 
               let highLightObj;
 
               function highLight(d) {
+                console.log(d.x, d.y);
                 // 加黑相关的线条
 
                 edges_line.style("stroke", function (line) {
@@ -296,6 +318,7 @@
               }
 
               let fixed_id = new Set();
+
               force
                 .drag()
                 .on("dragstart", function (d, i) {
