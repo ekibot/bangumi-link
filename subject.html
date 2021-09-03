@@ -94,7 +94,7 @@
 
   let ratio = window.innerWidth / window.innerHeight
 
-  let viewBox_width = 1600
+  let viewBox_width = 1600 * 2
   let viewBox_height = viewBox_width / ratio
 
   // viewBox_width = 800
@@ -160,11 +160,8 @@
       .attr('id', d => d.id)
       // .attr('xlink:href', d => d.image)
       .attr('xlink:href', d => d.image)
-      .on('contextmenu', function (d) {
-        d3.event.preventDefault()
-        window.open('https://bgm.tv/subject/' + d.id, '_blank')
-
-        return false
+      .on('contextmenu', function (event) {
+        window.open('https://bgm.tv/subject/' + event.target.id, '_blank')
       })
       .each(function (d, index) {
         if (d.id === _subject_id) {
@@ -291,18 +288,22 @@
         }
       })
     // .call(force.drag)
+
     force
       .nodes(root.node)
       .force('charge', d3.forceManyBody().strength(-8000))
-      .force('link', d3.forceLink(relate).distance(150).strength(3))
+      .force('link', d3.forceLink().links(relate).distance(100).strength(3))
+      .force('gravity', null)
+      .force('center', null)
+
       // .linkDistance(150)
       // .linkStrength(1)
       // .charge(-4000)
       // .gravity(0)
-      .velocityDecay(0.5)
+      .velocityDecay(0.6)
       // .theta(0.4)
       .on('tick', function () {
-        force.alpha(0.2)
+        force.alpha(0.05)
 
         //更新连接线的位置
         edges_line.attr('x1', d => d.source.x)
@@ -345,15 +346,16 @@
   const _subject_id = getQueryVariable('subject')
 
   async function fetchData () {
+    const _prefix = 'https://cdn.jsdelivr.net/gh/ekibot/bangumi-link'
     const _subject_dir = (_subject_id / 1000) | 0
-    let res = await fetch(`https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/node/${_subject_dir}/${_subject_id}`)
+    let res = await fetch(`${_prefix}/node/${_subject_dir}/${_subject_id}`)
     if (res.status !== 200) {
       throw new Error(await res.text())
     }
 
     const map_id = await res.text()
     const map_dir = (map_id / 1000) | 0
-    let json = await fetch(`https://cdn.jsdelivr.net/gh/ekibot/bangumi-link/map/${map_dir}/${map_id}.json`)
+    let json = await fetch(`${_prefix}/map/${map_dir}/${map_id}.json`)
     if (json.status !== 200) {
       throw new Error(await json.text())
     }
