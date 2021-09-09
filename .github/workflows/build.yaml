@@ -19,5 +19,6 @@ jobs:
       - run: |
           echo $DOCKER_TOKEN | docker login ghcr.io -u ekibot --password-stdin
           docker push ghcr.io/ekibot/bangumi_link:latest
+        name: push docker image
         env:
           DOCKER_TOKEN: ${{ github.token }}
