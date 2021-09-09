@@ -31,5 +31,5 @@ https://cdn.jsdelivr.net/gh/ekibun/bangumi_link/map/{id/1000}/{id}
 ### 爬取数据
 
 ```bash
-docker run -v $PWD/data:/app/data ghcr.io/ekibot/bangumi_link]
+docker run -v $PWD/data:/app/data ghcr.io/ekibot/bangumi_link
 ```
