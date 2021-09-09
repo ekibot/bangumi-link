@@ -1,0 +1,23 @@
+name: build docker
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - spider
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: build docker image
+        run: docker build -t ghcr.io/ekibot/bangumi_link:latest .
+
+      - run: |
+          echo $DOCKER_TOKEN | docker login ghcr.io -u ekibot --password-stdin
+          docker push ghcr.io/ekibot/bangumi_link:latest
+        env:
+          DOCKER_TOKEN: ${{ github.token }}
