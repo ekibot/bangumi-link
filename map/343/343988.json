@@ -2,6 +2,18 @@
  "id": 343988,
  "node": [
   {
+   "id": 239278,
+   "name": "Good Girls Season 1",
+   "nameCN": "好女孩 第一季",
+   "image": "//lain.bgm.tv/pic/cover/m/6c/6a/239278_O2oEZ.jpg"
+  },
+  {
+   "id": 284365,
+   "name": "Good Girls Season 2",
+   "nameCN": "好女孩 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/72/43/284365_C5Jrg.jpg"
+  },
+  {
    "id": 301143,
    "name": "Good Girls Season 3",
    "nameCN": "好女孩 第三季",
@@ -15,6 +27,31 @@
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 239278,
+   "dst": 284365
+  },
+  {
+   "relate": "前传",
+   "src": 284365,
+   "dst": 239278
+  },
+  {
+   "relate": "续集",
+   "src": 284365,
+   "dst": 301143
+  },
+  {
+   "relate": "前传",
+   "src": 301143,
+   "dst": 284365
+  },
+  {
+   "relate": "续集",
+   "src": 301143,
+   "dst": 343988
+  },
   {
    "relate": "前传",
    "src": 343988,

@@ -12,6 +12,36 @@
    "name": "Futurama (Season 7)",
    "nameCN": "飞出个未来 第7季",
    "image": "//lain.bgm.tv/pic/cover/m/2c/6b/22346_W6Ec3.jpg"
+  },
+  {
+   "id": 28065,
+   "name": "Futurama (Season 1)",
+   "nameCN": "飞出个未来 第1季",
+   "image": "//lain.bgm.tv/pic/cover/m/ad/01/28065_T4fSa.jpg"
+  },
+  {
+   "id": 28066,
+   "name": "Futurama (Season 2)",
+   "nameCN": "飞出个未来 第2季",
+   "image": "//lain.bgm.tv/pic/cover/m/e5/f6/28066_vQK92.jpg"
+  },
+  {
+   "id": 31836,
+   "name": "Futurama (Season 3)",
+   "nameCN": "飞出个未来 第3季",
+   "image": "//lain.bgm.tv/pic/cover/m/a0/de/31836_CGh7I.jpg"
+  },
+  {
+   "id": 84756,
+   "name": "Futurama (Season 4)",
+   "nameCN": "飞出个未来 第4季",
+   "image": "//lain.bgm.tv/pic/cover/m/8f/b3/84756_Err5e.jpg"
+  },
+  {
+   "id": 219986,
+   "name": "Futurama (Season 5)",
+   "nameCN": "飞出个未来 第5季",
+   "image": "//lain.bgm.tv/pic/cover/m/d0/d8/219986_f5s2g.jpg"
   }
  ],
  "relate": [
@@ -22,8 +52,58 @@
   },
   {
    "relate": "前传",
+   "src": 5753,
+   "dst": 219986
+  },
+  {
+   "relate": "前传",
    "src": 22346,
    "dst": 5753
+  },
+  {
+   "relate": "续集",
+   "src": 28065,
+   "dst": 28066
+  },
+  {
+   "relate": "前传",
+   "src": 28066,
+   "dst": 28065
+  },
+  {
+   "relate": "续集",
+   "src": 28066,
+   "dst": 31836
+  },
+  {
+   "relate": "前传",
+   "src": 31836,
+   "dst": 28066
+  },
+  {
+   "relate": "续集",
+   "src": 31836,
+   "dst": 84756
+  },
+  {
+   "relate": "前传",
+   "src": 84756,
+   "dst": 31836
+  },
+  {
+   "relate": "续集",
+   "src": 84756,
+   "dst": 219986
+  },
+  {
+   "relate": "续集",
+   "src": 219986,
+   "dst": 5753
+  },
+  {
+   "relate": "前传",
+   "src": 219986,
+   "dst": 84756
   }
  ]
 }

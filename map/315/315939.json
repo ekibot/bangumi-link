@@ -142,7 +142,6 @@
   {
    "id": 68124,
    "name": "真・三國無双ADVANCE",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/df/d1/68124_nj5nn.jpg"
   },
   {
@@ -160,7 +159,6 @@
   {
    "id": 118056,
    "name": "真・三國無双SLASH",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/f1/05/118056_8l2Vd.jpg"
   },
   {
@@ -180,6 +178,17 @@
    "name": "真・三國無双8 Empires",
    "nameCN": "真·三国无双8 帝国",
    "image": "//lain.bgm.tv/pic/cover/m/7d/46/315939_00MrS.jpg"
+  },
+  {
+   "id": 327461,
+   "name": "真・三國無双",
+   "nameCN": "真・三国无双",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/be/327461_1dxBB.jpg"
+  },
+  {
+   "id": 336417,
+   "name": "真・三国无双 霸",
+   "image": "//lain.bgm.tv/pic/cover/m/4f/49/336417_kNrxo.jpg"
   }
  ],
  "relate": [
@@ -244,14 +253,14 @@
    "dst": 153
   },
   {
+   "relate": "相同世界观",
+   "src": 19571,
+   "dst": 1799
+  },
+  {
    "relate": "不同演绎",
    "src": 19571,
    "dst": 8376
-  },
-  {
-   "relate": "相同世界观",
-   "src": 19571,
-   "dst": 14614
   },
   {
    "relate": "主线故事",
@@ -272,6 +281,11 @@
    "relate": "主线故事",
    "src": 36420,
    "dst": 14614
+  },
+  {
+   "relate": "不同演绎",
+   "src": 36420,
+   "dst": 336417
   },
   {
    "relate": "相同世界观",
@@ -306,12 +320,17 @@
   {
    "relate": "相同世界观",
    "src": 67923,
-   "dst": 1799
+   "dst": 56713
   },
   {
    "relate": "前传",
    "src": 67923,
    "dst": 68122
+  },
+  {
+   "relate": "不同演绎",
+   "src": 67923,
+   "dst": 327461
   },
   {
    "relate": "主线故事",
@@ -377,6 +396,11 @@
    "relate": "主线故事",
    "src": 315939,
    "dst": 122646
+  },
+  {
+   "relate": "不同演绎",
+   "src": 327461,
+   "dst": 67923
   }
  ]
 }

@@ -8,6 +8,18 @@
    "image": "//lain.bgm.tv/pic/cover/m/0c/72/149232_zugtE.jpg"
   },
   {
+   "id": 149237,
+   "name": "이웃 사람",
+   "nameCN": "邻居",
+   "image": "//lain.bgm.tv/pic/cover/m/02/59/149237_66NKG.jpg"
+  },
+  {
+   "id": 149270,
+   "name": "조명가게",
+   "nameCN": "照明商店",
+   "image": "//lain.bgm.tv/pic/cover/m/76/58/149270_ijqAW.jpg"
+  },
+  {
    "id": 149281,
    "name": "타이밍",
    "nameCN": "追逐时间",
@@ -18,6 +30,18 @@
    "name": "어게인",
    "nameCN": "重回",
    "image": "//lain.bgm.tv/pic/cover/m/ba/da/149292_rbzZV.jpg"
+  },
+  {
+   "id": 171167,
+   "name": "무빙",
+   "nameCN": "舞动",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/3e/171167_G7gR1.jpg"
+  },
+  {
+   "id": 337972,
+   "name": "브릿지",
+   "nameCN": "桥",
+   "image": "//lain.bgm.tv/pic/cover/m/d5/40/337972_2l4N9.jpg"
   }
  ],
  "relate": [
@@ -27,9 +51,24 @@
    "dst": 149281
   },
   {
+   "relate": "相同世界观",
+   "src": 149237,
+   "dst": 149281
+  },
+  {
+   "relate": "相同世界观",
+   "src": 149270,
+   "dst": 149281
+  },
+  {
    "relate": "前传",
    "src": 149281,
    "dst": 83044
+  },
+  {
+   "relate": "相同世界观",
+   "src": 149281,
+   "dst": 149270
   },
   {
    "relate": "续集",
@@ -40,6 +79,26 @@
    "relate": "前传",
    "src": 149292,
    "dst": 149281
+  },
+  {
+   "relate": "相同世界观",
+   "src": 171167,
+   "dst": 149281
+  },
+  {
+   "relate": "续集",
+   "src": 171167,
+   "dst": 337972
+  },
+  {
+   "relate": "相同世界观",
+   "src": 337972,
+   "dst": 149281
+  },
+  {
+   "relate": "前传",
+   "src": 337972,
+   "dst": 171167
   }
  ]
 }

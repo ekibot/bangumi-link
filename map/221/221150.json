@@ -2,6 +2,12 @@
  "id": 221150,
  "node": [
   {
+   "id": 115242,
+   "name": "Farming Simulator 14",
+   "nameCN": "模拟农场14",
+   "image": "//lain.bgm.tv/pic/cover/m/58/55/115242_t6zO1.jpg"
+  },
+  {
    "id": 221150,
    "name": "Farming Simulator 17",
    "nameCN": "模拟农场17",
@@ -24,23 +30,34 @@
    "name": "Farming Simulator 16",
    "nameCN": "模拟农场16",
    "image": "//lain.bgm.tv/pic/cover/m/8b/5b/329761_UYMmm.jpg"
+  },
+  {
+   "id": 342585,
+   "name": "Farming Simulator 20",
+   "nameCN": "模拟农场20",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/a6/342585_n330g.jpg"
   }
  ],
  "relate": [
   {
    "relate": "续集",
+   "src": 115242,
+   "dst": 329761
+  },
+  {
+   "relate": "续集",
    "src": 221150,
-   "dst": 221151
+   "dst": 268440
   },
   {
    "relate": "前传",
    "src": 221151,
-   "dst": 221150
+   "dst": 329761
   },
   {
    "relate": "续集",
    "src": 221151,
-   "dst": 268440
+   "dst": 342585
   },
   {
    "relate": "前传",
@@ -49,8 +66,23 @@
   },
   {
    "relate": "续集",
+   "src": 268440,
+   "dst": 342585
+  },
+  {
+   "relate": "前传",
    "src": 329761,
-   "dst": 221150
+   "dst": 115242
+  },
+  {
+   "relate": "续集",
+   "src": 329761,
+   "dst": 221151
+  },
+  {
+   "relate": "前传",
+   "src": 342585,
+   "dst": 221151
   }
  ]
 }

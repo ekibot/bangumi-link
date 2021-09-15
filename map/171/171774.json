@@ -1,0 +1,44 @@
+{
+ "id": 171774,
+ "node": [
+  {
+   "id": 171774,
+   "name": "하이브",
+   "nameCN": "虫穴",
+   "image": "//lain.bgm.tv/pic/cover/m/ab/f8/171774_bIbCs.jpg"
+  },
+  {
+   "id": 341073,
+   "name": "개장수",
+   "nameCN": "虫穴前传：狗贩子",
+   "image": "//lain.bgm.tv/pic/cover/m/fc/f4/341073_xLuXe.jpg"
+  },
+  {
+   "id": 341074,
+   "name": "데드퀸",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/c6/341074_NG8g1.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 171774,
+   "dst": 341073
+  },
+  {
+   "relate": "续集",
+   "src": 171774,
+   "dst": 341074
+  },
+  {
+   "relate": "续集",
+   "src": 341073,
+   "dst": 171774
+  },
+  {
+   "relate": "前传",
+   "src": 341074,
+   "dst": 171774
+  }
+ ]
+}

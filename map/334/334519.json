@@ -1,0 +1,45 @@
+{
+ "id": 334519,
+ "node": [
+  {
+   "id": 334519,
+   "name": "Myth: The Fallen Lords",
+   "nameCN": "神话：堕落之神",
+   "image": "//lain.bgm.tv/pic/cover/m/83/dd/334519_Od8US.jpg"
+  },
+  {
+   "id": 334521,
+   "name": "Myth II: Soulblighter",
+   "nameCN": "神话2：勾魂使者",
+   "image": "//lain.bgm.tv/pic/cover/m/13/a7/334521_Y1BzR.jpg"
+  },
+  {
+   "id": 334522,
+   "name": "Myth III: The Wolf Age",
+   "nameCN": "神话3：苍狼世纪",
+   "image": "//lain.bgm.tv/pic/cover/m/2d/52/334522_8Qo0i.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 334519,
+   "dst": 334521
+  },
+  {
+   "relate": "前传",
+   "src": 334521,
+   "dst": 334519
+  },
+  {
+   "relate": "续集",
+   "src": 334521,
+   "dst": 334522
+  },
+  {
+   "relate": "前传",
+   "src": 334522,
+   "dst": 334521
+  }
+ ]
+}

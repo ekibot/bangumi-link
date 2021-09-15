@@ -87,8 +87,8 @@
   },
   {
    "id": 229899,
-   "name": "The Lord of the Rings",
-   "nameCN": "魔戒",
+   "name": "The Lord of the Rings Season 1",
+   "nameCN": "指环王 第一季",
    "image": "//lain.bgm.tv/pic/cover/m/69/5a/229899_f8nDp.jpg"
   },
   {
@@ -96,6 +96,11 @@
    "name": "The Hobbit",
    "nameCN": "霍比特人",
    "image": "//lain.bgm.tv/pic/cover/m/23/62/282510_K3uTW.jpg"
+  },
+  {
+   "id": 321209,
+   "name": "The Lord of the Rings Season 2",
+   "nameCN": "指环王 第二季"
   }
  ],
  "relate": [
@@ -191,6 +196,11 @@
   },
   {
    "relate": "前传",
+   "src": 83551,
+   "dst": 321209
+  },
+  {
+   "relate": "前传",
    "src": 97919,
    "dst": 83551
   },
@@ -255,14 +265,24 @@
    "dst": 25462
   },
   {
-   "relate": "不同演绎",
+   "relate": "续集",
    "src": 229899,
-   "dst": 25462
+   "dst": 321209
   },
   {
    "relate": "不同演绎",
    "src": 282510,
    "dst": 83551
+  },
+  {
+   "relate": "续集",
+   "src": 321209,
+   "dst": 83551
+  },
+  {
+   "relate": "前传",
+   "src": 321209,
+   "dst": 229899
   }
  ]
 }

@@ -58,14 +58,19 @@
   {
    "id": 123740,
    "name": "アンジェリーク ルトゥール",
-   "nameCN": "",
-   "image": "//lain.bgm.tv/pic/cover/m/35/6e/123740_0XIQm.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/35/6e/123740_gI3Qu.jpg"
   },
   {
    "id": 125038,
    "name": "スウィートアンジェ",
    "nameCN": "甜蜜安琪",
    "image": "//lain.bgm.tv/pic/cover/m/b6/ec/125038_4NP6B.jpg"
+  },
+  {
+   "id": 319268,
+   "name": "アンジェリーク ルミナライズ",
+   "nameCN": "安琪莉可Luminarise",
+   "image": "//lain.bgm.tv/pic/cover/m/ec/5c/319268_fpolF.jpg"
   }
  ],
  "relate": [
@@ -83,6 +88,11 @@
    "relate": "不同演绎",
    "src": 21039,
    "dst": 114492
+  },
+  {
+   "relate": "相同世界观",
+   "src": 21039,
+   "dst": 319268
   },
   {
    "relate": "前传",
@@ -140,18 +150,33 @@
    "dst": 123740
   },
   {
+   "relate": "相同世界观",
+   "src": 114492,
+   "dst": 319268
+  },
+  {
+   "relate": "不同演绎",
+   "src": 123740,
+   "dst": 21039
+  },
+  {
    "relate": "续集",
    "src": 123740,
    "dst": 21040
   },
   {
-   "relate": "不同演绎",
+   "relate": "相同世界观",
    "src": 123740,
-   "dst": 114492
+   "dst": 319268
   },
   {
    "relate": "主线故事",
    "src": 125038,
+   "dst": 21039
+  },
+  {
+   "relate": "相同世界观",
+   "src": 319268,
    "dst": 21039
   }
  ]

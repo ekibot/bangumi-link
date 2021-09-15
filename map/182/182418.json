@@ -4,7 +4,7 @@
   {
    "id": 182418,
    "name": "善悪の屑",
-   "nameCN": "",
+   "nameCN": "善恶的屑",
    "image": "//lain.bgm.tv/pic/cover/m/08/05/182418_Og4D4.jpg"
   },
   {
@@ -15,8 +15,12 @@
   {
    "id": 271985,
    "name": "園田の歌",
-   "nameCN": "",
    "image": "//lain.bgm.tv/pic/cover/m/5f/3e/271985_dP11U.jpg"
+  },
+  {
+   "id": 332211,
+   "name": "朝食会",
+   "image": "//lain.bgm.tv/pic/cover/m/71/f5/332211_C5Xr6.jpg"
   }
  ],
  "relate": [
@@ -24,6 +28,11 @@
    "relate": "续集",
    "src": 182418,
    "dst": 182419
+  },
+  {
+   "relate": "番外篇",
+   "src": 182418,
+   "dst": 332211
   },
   {
    "relate": "前传",
@@ -39,6 +48,11 @@
    "relate": "主线故事",
    "src": 271985,
    "dst": 182419
+  },
+  {
+   "relate": "主线故事",
+   "src": 332211,
+   "dst": 182418
   }
  ]
 }

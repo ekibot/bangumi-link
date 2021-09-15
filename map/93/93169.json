@@ -8,10 +8,33 @@
    "image": "//lain.bgm.tv/pic/cover/m/b4/41/93169_jp.jpg"
   },
   {
+   "id": 132723,
+   "name": "ゲッターロボ號 愛蔵版",
+   "nameCN": "盖塔机器人号",
+   "image": "//lain.bgm.tv/pic/cover/m/7d/e7/132723_2RYrk.jpg"
+  },
+  {
+   "id": 166835,
+   "name": "ゲッターロボ",
+   "nameCN": "盖塔机器人 文库版",
+   "image": "//lain.bgm.tv/pic/cover/m/6a/fb/166835_T0bMt.jpg"
+  },
+  {
+   "id": 166836,
+   "name": "ゲッターロボG 文庫版",
+   "nameCN": "盖塔机器人G",
+   "image": "//lain.bgm.tv/pic/cover/m/c4/9d/166836_W1ppE.jpg"
+  },
+  {
    "id": 241761,
    "name": "ゲッターロボ アーク",
    "nameCN": "盖塔机器人 ARC",
    "image": "//lain.bgm.tv/pic/cover/m/24/d6/241761_O8nJZ.jpg"
+  },
+  {
+   "id": 314777,
+   "name": "ゲッターロボ號 文庫版",
+   "image": "//lain.bgm.tv/pic/cover/m/62/5e/314777_0tZP5.jpg"
   },
   {
    "id": 315253,
@@ -28,8 +51,38 @@
   },
   {
    "relate": "前传",
+   "src": 132723,
+   "dst": 166836
+  },
+  {
+   "relate": "续集",
+   "src": 166835,
+   "dst": 166836
+  },
+  {
+   "relate": "前传",
+   "src": 166836,
+   "dst": 166835
+  },
+  {
+   "relate": "续集",
+   "src": 166836,
+   "dst": 314777
+  },
+  {
+   "relate": "前传",
    "src": 241761,
    "dst": 93169
+  },
+  {
+   "relate": "前传",
+   "src": 314777,
+   "dst": 166836
+  },
+  {
+   "relate": "续集",
+   "src": 314777,
+   "dst": 241761
   },
   {
    "relate": "续集",

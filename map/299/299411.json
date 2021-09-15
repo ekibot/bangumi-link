@@ -10,13 +10,17 @@
   {
    "id": 299411,
    "name": "SEQUEL awake",
-   "nameCN": "",
    "image": "/img/no_icon_subject.png"
   },
   {
    "id": 299412,
    "name": "SEQUEL colony",
    "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 347465,
+   "name": "SEQUEL kludge",
+   "image": "//lain.bgm.tv/pic/cover/m/d1/76/347465_tZrvg.jpg"
   }
  ],
  "relate": [
@@ -34,6 +38,16 @@
    "relate": "前传",
    "src": 299412,
    "dst": 299411
+  },
+  {
+   "relate": "续集",
+   "src": 299412,
+   "dst": 347465
+  },
+  {
+   "relate": "前传",
+   "src": 347465,
+   "dst": 299412
   }
  ]
 }

@@ -5,13 +5,13 @@
    "id": 50267,
    "name": "DOOM",
    "nameCN": "毁灭战士",
-   "image": "//lain.bgm.tv/pic/cover/m/59/84/50267_HhFz0.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/59/84/50267_7uNQ6.jpg"
   },
   {
    "id": 53682,
    "name": "DOOM 3",
    "nameCN": "毁灭战士3",
-   "image": "//lain.bgm.tv/pic/cover/m/bf/7f/53682_qCIPD.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/bf/7f/53682_VAGNH.jpg"
   },
   {
    "id": 168389,
@@ -54,6 +54,18 @@
    "name": "DOOM 3: Resurrection of Evil",
    "nameCN": "毁灭战士3：邪恶复苏",
    "image": "//lain.bgm.tv/pic/cover/m/c8/8e/333666_Huz55.jpg"
+  },
+  {
+   "id": 334728,
+   "name": "Doom RPG",
+   "nameCN": "毁灭战士RPG",
+   "image": "//lain.bgm.tv/pic/cover/m/28/16/334728_zUNPB.jpg"
+  },
+  {
+   "id": 334729,
+   "name": "Doom II RPG",
+   "nameCN": "毁灭战士2 RPG",
+   "image": "//lain.bgm.tv/pic/cover/m/7a/28/334729_77Rty.jpg"
   }
  ],
  "relate": [
@@ -126,6 +138,21 @@
    "relate": "主线故事",
    "src": 333666,
    "dst": 53682
+  },
+  {
+   "relate": "主线故事",
+   "src": 334728,
+   "dst": 50267
+  },
+  {
+   "relate": "续集",
+   "src": 334728,
+   "dst": 334729
+  },
+  {
+   "relate": "前传",
+   "src": 334729,
+   "dst": 334728
   }
  ]
 }

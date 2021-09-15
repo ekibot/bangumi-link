@@ -12,6 +12,16 @@
    "name": "貝獣物語",
    "nameCN": "贝兽物语",
    "image": "//lain.bgm.tv/pic/cover/m/b2/87/307272_pHN8Z.jpg"
+  },
+  {
+   "id": 341005,
+   "name": "召喚王レクス",
+   "image": "//lain.bgm.tv/pic/cover/m/c0/7a/341005_N3Xl3.jpg"
+  },
+  {
+   "id": 341027,
+   "name": "MOZ 召喚王レクスII",
+   "image": "//lain.bgm.tv/pic/cover/m/4c/e5/341027_jNIjz.jpg"
   }
  ],
  "relate": [
@@ -21,9 +31,24 @@
    "dst": 307272
   },
   {
+   "relate": "相同世界观",
+   "src": 141154,
+   "dst": 341005
+  },
+  {
    "relate": "续集",
    "src": 307272,
    "dst": 141154
+  },
+  {
+   "relate": "续集",
+   "src": 341005,
+   "dst": 341027
+  },
+  {
+   "relate": "前传",
+   "src": 341027,
+   "dst": 341005
   }
  ]
 }

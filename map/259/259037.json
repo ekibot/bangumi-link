@@ -1,0 +1,44 @@
+{
+ "id": 259037,
+ "node": [
+  {
+   "id": 259037,
+   "name": "Paradise PD",
+   "nameCN": "天堂镇警局",
+   "image": "//lain.bgm.tv/pic/cover/m/2d/68/259037_0yxUU.jpg"
+  },
+  {
+   "id": 331647,
+   "name": "Paradise PD Season 2",
+   "image": "//lain.bgm.tv/pic/cover/m/2d/40/331647_YTWyx.jpg"
+  },
+  {
+   "id": 331648,
+   "name": "Paradise PD Season 3",
+   "nameCN": "天堂镇警局 第三季",
+   "image": "//lain.bgm.tv/pic/cover/m/67/7d/331648_eYScQ.jpg"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 259037,
+   "dst": 331647
+  },
+  {
+   "relate": "前传",
+   "src": 331647,
+   "dst": 259037
+  },
+  {
+   "relate": "续集",
+   "src": 331647,
+   "dst": 331648
+  },
+  {
+   "relate": "前传",
+   "src": 331648,
+   "dst": 331647
+  }
+ ]
+}
