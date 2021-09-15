@@ -59,7 +59,7 @@ function getReleaseDate($) {
 const acceptRelate = '前传|续集|总集篇|全集|番外篇|相同世界观|不同世界观|不同演绎|衍生|主线故事'.split('|');
 
 async function getSubject(bgmId) {
-  const rsp = await this.safeRequest(`http://bgm.tv/subject/${bgmId}`);
+  const rsp = await this.safeRequest(`http://mirror.bgm.rincat.ch/subject/${bgmId}`);
   const $ = cheerio.load(rsp);
 
   const title = $('h1.nameSingle a');
@@ -156,10 +156,12 @@ async function getSubject(bgmId) {
   async function queueItem(bgmId) {
     this.log.v(bgmId);
 
+    // (ASYNC)读取Subject
     /** @type { SubjectNode & { relate: { relate: string, subject: SubjectNode }[] } } } */
     const subject = await getSubject.call(this, bgmId);
     if (subject == null) return;
 
+    // (SYNC)从文件读取map
     /** @type { SubjectRelateMap } */
     const map = getMap(bgmId) || {
       id: bgmId,
@@ -179,19 +181,80 @@ async function getSubject(bgmId) {
       }], cmpRelate);
       writeNode.call(this, rel.subject, map);
     }
+    const unrels = [];
+    while (true) {
+      const unrelIndex = map.relate.findIndex(
+        (rel) => rel.src == node.id && relate.findIndex((r) => r.subject.id == rel.dst) < 0
+      )
+      if (unrelIndex < 0) break;
+      const unrel = map.relate.splice(unrelIndex, 1)[0];
+      this.log.v(this.chalk.red(` ${node.id}-x-${unrel.relate}->${unrel.dst}`));
+      unrels.push(unrel);
+    }
+    if (unrels.length == 0) return;
+    const unionFind = {}
+    const unionFindMap = {}
+    for (const rel of map.relate) {
+      const isrc = unionFind[rel.src];
+      const idst = unionFind[rel.dst];
+      const usrc = unionFindMap[isrc];
+      const udst = unionFindMap[idst];
+      delete unionFindMap[isrc];
+      delete unionFindMap[idst];
+      const newMap = {
+        id: usrc ? usrc.id : udst ? udst.id : rel.src,
+        node: [
+          map.node.find((n) => n.id == rel.src),
+          map.node.find((n) => n.id == rel.dst)
+        ],
+        relate: [
+          rel
+        ],
+      }
+      if (usrc) {
+        concatMap(newMap.node, usrc.node, cmpNode);
+        concatMap(newMap.relate, usrc.relate, cmpRelate);
+      }
+      if (udst) {
+        concatMap(newMap.node, udst.node, cmpNode);
+        concatMap(newMap.relate, udst.relate, cmpRelate);
+      }
+      unionFind[rel.src] = newMap.id
+      unionFind[rel.dst] = newMap.id
+      for (const u in unionFind) {
+        if (unionFind[u] == isrc || unionFind[u] == idst) unionFind[u] = newMap.id;
+      }
+      unionFindMap[newMap.id] = newMap
+    }
+    if (Object.keys(unionFindMap).length <= 1) {
+      writeFileSync(getMapPath(map.id), JSON.stringify(map, null, 1));
+      return;
+    }
+    for (const m in unionFindMap) {
+      const newMap = unionFindMap[m];
+      if (newMap.node.find((n) => n.id == map.id))
+        newMap.id = map.id
+      else for (const node of newMap.node) {
+        const nodePath = getNodePath(node.id);
+        writeFileSync(nodePath, String(newMap.id));
+      }
+      newMap.node.sort((a, b) => a.id - b.id);
+      newMap.relate.sort((a, b) => (a.src - b.src) || (a.dst - b.dst));
+      writeFileSync(getMapPath(newMap.id), JSON.stringify(newMap, null, 1));
+    }
   }
 
   const rsp = await utils.createThis().safeRequest('https://bgm.tv/wiki');
   const $ = cheerio.load(rsp);
+  let max = 0;
   const updateArray = $('li > a.l').toArray()
     .map((v) => Number((/\/subject\/(\d+)/.exec($(v).attr('href')) || [])[1]))
     .reduce((newArray, v) => {
+      max = v > 0 ? Math.max(max, v) : max;
       if (v > 0 && newArray.indexOf(v) === -1) newArray.push(v);
       return newArray;
     }, []);
-
-  updateArray.sort();
-
-  await utils.queue(updateArray, queueItem, 10);
+  await utils.queue(
+    process.argv.includes('-all') ? Array(max).fill(0).map((_, i) => i + 1) : updateArray, queueItem, 20);
   console.log('done!');
 })();
