@@ -158,7 +158,7 @@
       .attr('height', img_h)
       .attr('preserveAspectRatio', 'none')
       .attr('id', d => d.id)
-      // .attr('xlink:href', d => d.image)
+      // .attr('xlink:href', d => d.image||'https://bgm.tv/img/no_icon_subject.png')
       .attr('xlink:href', d => d.image)
       .on('contextmenu', function (event) {
         window.open('https://bgm.tv/subject/' + event.target.id, '_blank')
