@@ -4,6 +4,7 @@
   "description": "bangumi link",
   "main": "spider.js",
   "scripts": {
+    "lint": "eslint --fix ./*.js",
     "dev": "node spider.js"
   },
   "repository": {
@@ -14,8 +15,6 @@
     "abort-controller": "^3.0.0",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.5",
-    "moment": "^2.29.1",
-    "moment-timezone": "^0.5.32",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {

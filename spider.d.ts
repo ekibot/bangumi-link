@@ -14,6 +14,7 @@ type SubjectNode = {
   name: string,       // 名称
   nameCN: string,     // 译名
   image: string,      // 封面图
+  date: string,       // 发行日期
 }
 
 /**
