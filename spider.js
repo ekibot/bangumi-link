@@ -27,9 +27,9 @@ function writeFileSync(nodePath, data) {
 
 function parseDateStr(s) {
   for (const pattern of [
-    /(\d{4})年(\d+)月(\d+)日?/, // YYYY年MM月DD日
-    /(\d{4})-(\d{2})-(\d{2})/, // YYYY-MM-DD
-    /(\d{4})\/(\d+)\/(\d+)/, // YYYY/MM/DD
+    /^(\d{4})年(\d+)月(\d+)日?.*/, // YYYY年MM月DD日
+    /^(\d{4})-(\d{2})-(\d{2}).*/, // YYYY-MM-DD
+    /^(\d{4})\/(\d+)\/(\d+).*/, // YYYY/MM/DD
   ]) {
     const m = pattern.exec(s);
     if (m) return `${m[1].padStart(4, '0')}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}`;
@@ -44,7 +44,7 @@ function getReleaseDate($) {
     const e = s[index];
     const text = $(e).find('span').text();
     if (!text) continue;
-    if (['放送开始:', '发行日期:', '开始:', '发售日:'].includes(text.trim())) {
+    if (['放送开始:', '发行日期:', '开始:', '发售日:', '上映年度:'].includes(text.trim())) {
       dateStr = $(e).text().split(':').pop().trim();
       break;
     }
@@ -152,6 +152,7 @@ async function getSubject(bgmId) {
     map.relate.sort((a, b) => (a.src - b.src) || (a.dst - b.dst));
     writeFileSync(getMapPath(map.id), JSON.stringify(map, null, 1));
   }
+
   async function queueItem(bgmId) {
     this.log.v(bgmId);
 
@@ -184,11 +185,12 @@ async function getSubject(bgmId) {
   const $ = cheerio.load(rsp);
   const updateArray = $('li > a.l').toArray()
     .map((v) => Number((/\/subject\/(\d+)/.exec($(v).attr('href')) || [])[1]))
-    .reduce((new_array, v) => {
-      if (v > 0 && new_array.indexOf(v) == -1) new_array.push(v);
-      return new_array;
+    .reduce((newArray, v) => {
+      if (v > 0 && newArray.indexOf(v) === -1) newArray.push(v);
+      return newArray;
     }, []);
 
+  updateArray.sort();
 
   await utils.queue(updateArray, queueItem, 10);
   console.log('done!');
