@@ -22,7 +22,7 @@ module.exports = {
     "ecmaVersion": 2018
   },
   "rules": {
-    "indent": ["error", 4],
+    "indent": ["error", 2],
     "curly": 0,
     "global-require": 0,
     "import/no-dynamic-require": 0,

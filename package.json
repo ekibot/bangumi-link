@@ -4,6 +4,7 @@
   "description": "bangumi link",
   "main": "spider.js",
   "scripts": {
+    "lint": "eslint --fix ./*.js",
     "dev": "node spider.js"
   },
   "repository": {
