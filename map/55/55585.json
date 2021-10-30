@@ -5,25 +5,35 @@
    "id": 3510,
    "name": "ONE PIECE",
    "nameCN": "海贼王",
-   "image": "//lain.bgm.tv/pic/cover/m/15/e1/3510_pWiY9.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/15/e1/3510_pWiY9.jpg",
+   "date": "1997-07-22"
   },
   {
    "id": 55585,
    "name": "ONE PIECE 巻零",
    "nameCN": "海贼王 第0卷",
-   "image": "//lain.bgm.tv/pic/cover/m/f5/15/55585_dK8Qw.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/f5/15/55585_dK8Qw.jpg",
+   "date": "2009-11-30"
   },
   {
    "id": 55586,
    "name": "ONE PIECE 巻千",
    "nameCN": "海贼王 第千卷",
-   "image": "//lain.bgm.tv/pic/cover/m/56/94/55586_q27RY.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/56/94/55586_q27RY.jpg",
+   "date": "2012-12-15"
   },
   {
    "id": 119526,
    "name": "ワンピースパーティー",
    "nameCN": "海贼盛宴",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/7b/119526_bMb8q.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/ca/7b/119526_bMb8q.jpg",
+   "date": "2014-12-05"
+  },
+  {
+   "id": 273149,
+   "name": "ONE PIECE コビー似の小日山~ウリふたつなぎの大秘宝~",
+   "image": "//lain.bgm.tv/pic/cover/m/3a/2b/273149_B7Xcm.jpg",
+   "date": "2018-12-04"
   }
  ],
  "relate": [
@@ -33,9 +43,19 @@
    "dst": 55585
   },
   {
+   "relate": "番外篇",
+   "src": 3510,
+   "dst": 55586
+  },
+  {
    "relate": "不同世界观",
    "src": 3510,
    "dst": 119526
+  },
+  {
+   "relate": "不同世界观",
+   "src": 3510,
+   "dst": 273149
   },
   {
    "relate": "主线故事",
@@ -50,6 +70,11 @@
   {
    "relate": "不同世界观",
    "src": 119526,
+   "dst": 3510
+  },
+  {
+   "relate": "不同世界观",
+   "src": 273149,
    "dst": 3510
   }
  ]

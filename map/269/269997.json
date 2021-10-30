@@ -5,25 +5,50 @@
    "id": 269994,
    "name": "ヒプノシスマイク -Before The Battle- The Dirty Dawg",
    "nameCN": "催眠麦克风 -战争前传- The Dirty Dawg",
-   "image": "//lain.bgm.tv/pic/cover/m/5b/a6/269994_18flL.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/5b/a6/269994_18flL.jpg",
+   "date": "unknown"
   },
   {
    "id": 269996,
    "name": "ヒプノシスマイク-Division Rap Battle- side B.B & M.T.C",
    "nameCN": "催眠麦克风 -DRB- side B.B & M.T.C",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/9f/269996_GUxr6.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/c5/9f/269996_GUxr6.jpg",
+   "date": "unknown"
   },
   {
    "id": 269997,
-   "name": "ヒプノシスマイク-Division Rap Battle- side F.P & M",
+   "name": "ヒプノシスマイク -Division Rap Battle- side F.P & M",
    "nameCN": "催眠麦克风 -DRB- side F.P & M",
-   "image": "//lain.bgm.tv/pic/cover/m/47/a5/269997_gZXXo.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/47/a5/269997_gZXXo.jpg",
+   "date": "unknown"
   },
   {
    "id": 305992,
    "name": "ヒプノシスマイク -Division Rap Battle- side D.H & B.A.T",
    "nameCN": "催眠麦克风 -DRB-  side D.H & B.A.T",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/72/305992_KZyGU.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/c5/72/305992_KZyGU.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 354103,
+   "name": "ヒプノシスマイク -Division Rap Battle- side F.P & M +",
+   "nameCN": "催眠麦克风 -DRB- side F.P & M +",
+   "image": "//lain.bgm.tv/pic/cover/m/6b/b8/354103_Ztv5p.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 354106,
+   "name": "ヒプノシスマイク -Division Rap Battle- side B.B & M.T.C +",
+   "nameCN": "催眠麦克风 -DRB- side B.B & M.T.C +",
+   "image": "//lain.bgm.tv/pic/cover/m/be/d8/354106_MB833.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 354117,
+   "name": "ヒプノシスマイク -Before The Battle- Dawn Of Divisions",
+   "nameCN": "催眠麦克风 -战争前传- Dawn Of Divisions",
+   "image": "//lain.bgm.tv/pic/cover/m/77/2c/354117_S0K25.jpg",
+   "date": "unknown"
   }
  ],
  "relate": [
@@ -33,9 +58,19 @@
    "dst": 269996
   },
   {
+   "relate": "续集",
+   "src": 269994,
+   "dst": 354117
+  },
+  {
    "relate": "相同世界观",
    "src": 269996,
    "dst": 269994
+  },
+  {
+   "relate": "续集",
+   "src": 269996,
+   "dst": 354106
   },
   {
    "relate": "相同世界观",
@@ -43,8 +78,28 @@
    "dst": 269994
   },
   {
+   "relate": "续集",
+   "src": 269997,
+   "dst": 354103
+  },
+  {
    "relate": "相同世界观",
    "src": 305992,
+   "dst": 269994
+  },
+  {
+   "relate": "前传",
+   "src": 354103,
+   "dst": 269997
+  },
+  {
+   "relate": "前传",
+   "src": 354106,
+   "dst": 269996
+  },
+  {
+   "relate": "前传",
+   "src": 354117,
    "dst": 269994
   }
  ]

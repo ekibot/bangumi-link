@@ -5,13 +5,22 @@
    "id": 251067,
    "name": "アクトレイザー",
    "nameCN": "雷莎出击",
-   "image": "//lain.bgm.tv/pic/cover/m/2d/bf/251067_xgRU6.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/2d/bf/251067_xgRU6.jpg",
+   "date": "1990-12-16"
   },
   {
    "id": 259097,
    "name": "アクトレイザー2 沈黙への聖戦",
    "nameCN": "雷莎出击2",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/91/259097_7jl1a.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/e4/91/259097_7jl1a.jpg",
+   "date": "1993-10-29"
+  },
+  {
+   "id": 350843,
+   "name": "アクトレイザー・ルネサンス",
+   "nameCN": "蕾莎出击：文艺复兴",
+   "image": "//lain.bgm.tv/pic/cover/m/68/19/350843_0ev0K.jpg",
+   "date": "2021-09-24"
   }
  ],
  "relate": [
@@ -21,8 +30,18 @@
    "dst": 259097
   },
   {
+   "relate": "不同演绎",
+   "src": 251067,
+   "dst": 350843
+  },
+  {
    "relate": "前传",
    "src": 259097,
+   "dst": 251067
+  },
+  {
+   "relate": "不同演绎",
+   "src": 350843,
    "dst": 251067
   }
  ]

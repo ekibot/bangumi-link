@@ -2,19 +2,77 @@
  "id": 683,
  "node": [
   {
+   "id": 23674,
+   "name": "Harry Potter and the Sorcerer's Stone",
+   "nameCN": "哈利·波特与魔法石",
+   "image": "//lain.bgm.tv/pic/cover/m/57/ed/23674_w4n0S.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 77755,
+   "name": "Harry Potter and the Chamber of Secrets",
+   "nameCN": "哈利·波特与密室",
+   "image": "//lain.bgm.tv/pic/cover/m/bc/d5/77755_byYA9.jpg",
+   "date": "2002-11-15"
+  },
+  {
    "id": 117255,
    "name": "Harry Potter and the Order of the Phoenix",
    "nameCN": "哈利波特与凤凰社",
-   "image": "//lain.bgm.tv/pic/cover/m/24/68/683_aus.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/24/68/683_aus.jpg",
+   "date": "2007-06-25"
   },
   {
    "id": 349336,
    "name": "Harry Potter and the Half-Blood Prince",
    "nameCN": "哈利·波特与“混血王子”",
-   "image": "//lain.bgm.tv/pic/cover/m/79/b7/349336_q25KG.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/79/b7/349336_q25KG.jpg",
+   "date": "2009-06-30"
+  },
+  {
+   "id": 349337,
+   "name": "Harry Potter and the Prisoner of Azkaban",
+   "nameCN": "哈利·波特与阿兹卡班的囚徒",
+   "image": "//lain.bgm.tv/pic/cover/m/07/82/349337_333p2.jpg",
+   "date": "2004-05-15"
+  },
+  {
+   "id": 350346,
+   "name": "Harry Potter and the Goblet of Fire",
+   "nameCN": "哈利·波特与火焰杯",
+   "image": "//lain.bgm.tv/pic/cover/m/f7/4f/350346_F69h1.jpg",
+   "date": "2005-11-08"
+  },
+  {
+   "id": 353277,
+   "name": "Harry Potter and the Deathly Hallows: Part 1",
+   "nameCN": "哈利·波特与死亡圣器（上）",
+   "image": "//lain.bgm.tv/pic/cover/m/4b/5a/353277_7LZ7U.jpg",
+   "date": "2010-11-16"
+  },
+  {
+   "id": 353278,
+   "name": "Harry Potter and the Deathly Hallows: Part 2",
+   "nameCN": "哈利·波特与死亡圣器（下）",
+   "image": "//lain.bgm.tv/pic/cover/m/0e/57/353278_fQL85.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 23674,
+   "dst": 77755
+  },
+  {
+   "relate": "前传",
+   "src": 77755,
+   "dst": 23674
+  },
+  {
+   "relate": "续集",
+   "src": 77755,
+   "dst": 349337
+  },
   {
    "relate": "续集",
    "src": 117255,
@@ -22,8 +80,48 @@
   },
   {
    "relate": "前传",
+   "src": 117255,
+   "dst": 350346
+  },
+  {
+   "relate": "前传",
    "src": 349336,
    "dst": 117255
+  },
+  {
+   "relate": "续集",
+   "src": 349336,
+   "dst": 353277
+  },
+  {
+   "relate": "前传",
+   "src": 349337,
+   "dst": 77755
+  },
+  {
+   "relate": "续集",
+   "src": 349337,
+   "dst": 350346
+  },
+  {
+   "relate": "续集",
+   "src": 350346,
+   "dst": 117255
+  },
+  {
+   "relate": "前传",
+   "src": 350346,
+   "dst": 349337
+  },
+  {
+   "relate": "前传",
+   "src": 353277,
+   "dst": 349336
+  },
+  {
+   "relate": "续集",
+   "src": 353277,
+   "dst": 353278
   }
  ]
 }

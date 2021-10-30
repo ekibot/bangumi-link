@@ -5,43 +5,56 @@
    "id": 1566,
    "name": "STAR OCEAN 1 First Departure",
    "nameCN": "星之海洋：初次启程",
-   "image": "//lain.bgm.tv/pic/cover/m/be/53/1566_ppwP0.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/be/53/1566_ppwP0.jpg",
+   "date": "2008-10-21"
   },
   {
    "id": 3534,
    "name": "STAR OCEAN 4 -THE LAST HOPE-",
    "nameCN": "星之海洋4：最后的希望",
-   "image": "//lain.bgm.tv/pic/cover/m/aa/97/3534_P0P2R.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/aa/97/3534_P0P2R.jpg",
+   "date": "2009-02-19"
   },
   {
    "id": 75135,
    "name": "STAR OCEAN 2 Second Evolution",
    "nameCN": "星之海洋2",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/bd/75135_3Ox2u.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/e4/bd/75135_3Ox2u.jpg",
+   "date": "2008-04-02"
   },
   {
    "id": 79816,
    "name": "STAR OCEAN 3 Till the End of Time",
    "nameCN": "星之海洋3 直到时间尽头",
-   "image": "//lain.bgm.tv/pic/cover/m/e5/8c/79816_hECWm.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/e5/8c/79816_hECWm.jpg",
+   "date": "2003-02-27"
   },
   {
    "id": 131108,
    "name": "STAR OCEAN 5 Integrity and Faithlessness",
    "nameCN": "星之海洋5",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/b6/131108_YJ3ym.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/6e/b6/131108_YJ3ym.jpg",
+   "date": "2016-03-31"
   },
   {
    "id": 133330,
    "name": "STAR OCEAN: THE SECOND STORY",
    "nameCN": "星海游侠：第二个故事",
-   "image": "//lain.bgm.tv/pic/cover/m/28/46/133330_L6U63.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/28/46/133330_L6U63.jpg",
+   "date": "1998-07-30"
   },
   {
    "id": 279066,
    "name": "STAR OCEAN",
    "nameCN": "星之海洋",
-   "image": "//lain.bgm.tv/pic/cover/m/25/76/279066_5iNnT.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/25/76/279066_5iNnT.jpg",
+   "date": "1996-07-19"
+  },
+  {
+   "id": 354664,
+   "name": "スターオーシャン6 THE DIVINE FORCE",
+   "image": "//lain.bgm.tv/pic/cover/m/08/4c/354664_fZPFh.jpg",
+   "date": null
   }
  ],
  "relate": [
@@ -96,6 +109,11 @@
    "dst": 3534
   },
   {
+   "relate": "续集",
+   "src": 131108,
+   "dst": 354664
+  },
+  {
    "relate": "前传",
    "src": 133330,
    "dst": 1566
@@ -119,6 +137,11 @@
    "relate": "续集",
    "src": 279066,
    "dst": 133330
+  },
+  {
+   "relate": "前传",
+   "src": 354664,
+   "dst": 131108
   }
  ]
 }
