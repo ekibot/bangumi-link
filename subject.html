@@ -1,368 +1,51 @@
 <html lang="zh">
   <head>
     <meta charset="utf-8" />
-    <title>Force</title>
+    <title>Documents</title>
 
-    <style>
-      body,
-      svg {
-        height: 100%;
-        margin: 0;
-        width: 100%;
-        float: left;
-      }
-
-      [data-visible="false"] {
-        display: none;
-      }
-
-      path {
-        fill: none;
-        stroke-linejoin: round;
-      }
-
-      .land-glow {
-        fill: #000;
-        fill-opacity: 0.2;
-        filter: url(#glow);
-      }
-
-      .land-fill {
-        fill: #fff;
-      }
-
-      .state-boundary {
-        stroke: #777;
-        stroke-width: 0.7px;
-      }
-
-      .land-fill,
-      .county-boundary {
-        stroke: #777;
-        stroke-width: 0.35px;
-      }
-
-      .nodetext {
-        font-size: 12px;
-        font-family: SimSun;
-        fill: #000000;
-        text-anchor: middle;
-      }
-
-      .linetext {
-        font-size: 12px;
-        font-family: SimSun;
-        fill: #0000ff;
-        fill-opacity: 0;
-      }
-    </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <div id="container" class="container">
+      <a id="force">
+        <h1>关系图</h1>
+      </a>
+      <a id="sort">
+        <h1>按照发行时间排序</h1>
+      </a>
+    </div>
     <script>
-      const defaultLineColor = "#b8b8b8";
-
-      const force = d3.forceSimulation();
-
-      function boldNextAndPrev(matchedValue, defaultValue) {
-        return function (line) {
-          if (["前传", "续集"].includes(line.relate)) {
-            return matchedValue;
-          }
-          return defaultValue;
-        };
-      }
-
-      const strokeStyler = boldNextAndPrev("black", defaultLineColor);
-      const query = new URLSearchParams(document.location.search.substring(1));
-
       function getQueryVariable(variable) {
+        const query = new URLSearchParams(
+          document.location.search.substring(1)
+        );
         return query.get(variable);
       }
 
-      let img_w = 50;
-      let img_h = 50;
-
-      let ratio = window.innerWidth / window.innerHeight;
-
-      let viewBox_width = 1600 * 2;
-      let viewBox_height = viewBox_width / ratio;
-
-      // viewBox_width = 800
-      // viewBox_height = 800
-
-      let viewBox = d3
-        .select("body")
-        .append("svg")
-        .attr("viewBox", `0 0 ${viewBox_width} ${viewBox_height}`);
-
-      const svg = viewBox.append("g");
-
-      const zoom = d3.zoom().on("zoom", (e) => {
-        svg.attr("transform", e.transform);
-      });
-
-      viewBox
-        .call(zoom)
-        .call(zoom.transform, d3.zoomIdentity)
-        .on("dblclick.zoom", null);
-
-      function onData(root) {
-        const relate = root.relate.map((rel) => ({
-          relate: rel.relate,
-          source: root.node.find((n) => n.id === rel.src),
-          target: root.node.find((n) => n.id === rel.dst),
-        }));
-
-        let edges_line = svg
-          .selectAll("line")
-          .data(relate)
-          .enter()
-          .append("line")
-          .style("stroke", strokeStyler)
-          .style("stroke-width", boldNextAndPrev(2, 1));
-
-        let edges_text = svg
-          .selectAll(".linetext")
-          .data(relate)
-          .enter()
-          .append("text")
-          .attr("class", "linetext")
-          .text((d) => d.relate);
-
-        let nodes_text = svg
-          .selectAll(".nodetext")
-          .data(root.node)
-          .enter()
-          .append("text")
-          .attr("class", "nodetext")
-          .attr("dx", -20)
-          .attr("dy", 20)
-          .text((d) => d.nameCN || d.name);
-
-        let nodes_img = svg
-          .selectAll("image")
-          .data(root.node)
-          .enter()
-          .append("image")
-          .attr("width", img_w)
-          .attr("height", img_h)
-          .attr("preserveAspectRatio", "none")
-          .attr("id", (d) => d.id)
-          .attr(
-            "xlink:href",
-            (d) => d.image || "https://bgm.tv/img/no_icon_subject.png"
-          )
-          .on("contextmenu", function (event) {
-            window.open("https://bgm.tv/subject/" + event.target.id, "_blank");
-          })
-          .each(function (d, index) {
-            if (d.id === _subject_id) {
-              d.fixed = true;
-              d.need_to_fix = true;
-              d.fx = viewBox_width / 2;
-              d.fy = viewBox_height / 2;
-            } else {
-              const theta = (index / root.node.length) * Math.PI;
-              d.x = viewBox_width / 2 + 150 * Math.cos(theta);
-              d.y = viewBox_height / 2 + 150 * Math.sin(theta);
-            }
-          });
-
-        const nodeContainer = {};
-
-        nodes_img.each(function (d) {
-          nodeContainer[d.id] = d;
-        });
-
-        let highLightObj;
-
-        function highLight(event) {
-          const targetID = parseInt(event.target.id);
-
-          // 加黑相关的线条
-          edges_line.style("stroke", function (line) {
-            if (line.source.id === targetID || line.target.id === targetID) {
-              return strokeStyler(line);
-            }
-          });
-
-          //显示连接线上的文字
-          edges_text.style("fill-opacity", function (edge) {
-            if (edge.source.id === targetID) {
-              return 1.0;
-            }
-          });
-        }
-
-        function unHighLight(d) {
-          if (highLightObj) {
-            return highLight(highLightObj);
-          }
-
-          if (!d.highLight) {
-            edges_line.style(
-              "stroke",
-              boldNextAndPrev("black", defaultLineColor)
-            );
-            //隐去连接线上的文字
-            edges_text.style("fill-opacity", 0);
-          }
-        }
-
-        nodes_img.call(
-          d3
-            .drag()
-            .on("start", function (event) {
-              event.subject.fx = event.x;
-              event.subject.fy = event.y;
-            })
-            .on("drag", function (event) {
-              event.subject.fx = event.x;
-              event.subject.fy = event.y;
-              event.subject.x = event.x;
-              event.subject.y = event.y;
-            })
-            .on("end", function (event) {
-              event.subject.fixed = !event.subject.fixed;
-              event.subject.x = event.x;
-              event.subject.y = event.y;
-
-              if (event.subject.fixed) {
-                event.subject.fx = event.x;
-                event.subject.fy = event.y;
-              } else {
-                delete event.subject.fx;
-                delete event.subject.fy;
-              }
-            })
-        );
-
-        nodes_img
-          .on("mouseover", (event) => {
-            const obj = nodeContainer[event.target.id];
-            obj.fx = obj.x;
-            obj.fy = obj.y;
-            highLight(event);
-          })
-          .on("mouseout", (event) => {
-            const obj = nodeContainer[event.target.id];
-            if (!obj.fixed) {
-              delete obj.fx;
-              delete obj.fy;
-            }
-
-            unHighLight(event);
-          })
-          .on("dblclick", function (d, i) {
-            if (highLightObj !== d) {
-              let relatedRelation = relate.filter(function (val) {
-                return val.source.id === d.id || val.target.id === d.id;
-              });
-
-              function dataVisible(nodes) {
-                if (
-                  relatedRelation.findIndex(function (val) {
-                    return (
-                      val.source.id === nodes.id || val.target.id === nodes.id
-                    );
-                  }) === -1
-                ) {
-                  return null;
-                } else {
-                  return "true";
-                }
-              }
-
-              nodes_text.attr("data-visible", dataVisible);
-              nodes_img.attr("data-visible", dataVisible);
-              highLight(d);
-              highLightObj = d;
-            } else {
-              nodes_text.attr("data-visible", "true");
-              nodes_img.attr("data-visible", "true");
-              highLightObj = null;
-            }
-          });
-        // .call(force.drag)
-
-        force
-          .nodes(root.node)
-          .force("charge", d3.forceManyBody().strength(-8000))
-          .force("link", d3.forceLink().links(relate).distance(100).strength(3))
-          .force("gravity", null)
-          .force("center", null)
-
-          // .linkDistance(150)
-          // .linkStrength(1)
-          // .charge(-4000)
-          // .gravity(0)
-          .velocityDecay(0.6)
-          // .theta(0.4)
-          .on("tick", function () {
-            force.alpha(0.05);
-
-            //更新连接线的位置
-            edges_line.attr("x1", (d) => d.source.x);
-            edges_line.attr("y1", (d) => d.source.y);
-            edges_line.attr("x2", (d) => d.target.x);
-            edges_line.attr("y2", (d) => d.target.y);
-
-            //更新连接线上文字的位置
-            edges_text.attr("x", function (d) {
-              return (d.source.x + d.target.x) / 2;
-            });
-            edges_text.attr("y", function (d) {
-              return (d.source.y + d.target.y) / 2;
-            });
-
-            //更新结点图片和文字
-            nodes_img.attr("x", function (d) {
-              return d.x - img_w / 2;
-            });
-            nodes_img.attr("y", function (d) {
-              return d.y - img_h / 2;
-            });
-
-            nodes_text.attr("x", function (d) {
-              return d.x + img_w / 2;
-            });
-            nodes_text.attr("y", function (d) {
-              return d.y + img_h / 2;
-            });
-          });
-      }
-
-      function errorHandle(error) {
-        const p = document.createElement("h1");
-        p.innerText = error;
-        document.body.prepend(p);
-        console.log(error);
-      }
-
-      async function fetchData() {
-        const _prefix = "https://cdn.jsdelivr.net/gh/ekibot/bangumi-link";
-        const _subject_dir = (_subject_id / 1000) | 0;
-        let res = await fetch(`${_prefix}/node/${_subject_dir}/${_subject_id}`);
-        if (res.status !== 200) {
-          throw new Error(await res.text());
-        }
-
-        const map_id = await res.text();
-        const map_dir = (map_id / 1000) | 0;
-        let json = await fetch(`${_prefix}/map/${map_dir}/${map_id}.json`);
-        if (json.status !== 200) {
-          throw new Error(await json.text());
-        }
-        return await json.json();
-      }
       const _subject_id = getQueryVariable("subject");
 
       if (!_subject_id) {
-        errorHandle(new Error("请指定subject参数"));
+        $("body").html("请指定subject参数");
       } else {
-        fetchData().then(onData).catch(errorHandle);
+        $("#sort").attr("href", `./date_sort.html?subject=${_subject_id}`);
+        $("#force").attr("href", `./force_layout.html?subject=${_subject_id}`);
       }
     </script>
   </body>
