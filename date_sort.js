@@ -6,13 +6,12 @@ function render(item) {
     return `
 <div class="card row" id="item_${item.id}">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="${item.image}" class="img-fluid rounded-start" alt="${item.name}">
+    <div class="col-4">
+      <img src="${item.image}" class="img-fluid rounded mx-auto"  style='max-height: 120px' alt="${item.name}">
     </div>
-    <div class="col-md-8" style="height: 40px" >
-      <div class="card-body" style="height: 40px" >
-        <h5 class="card-title">${item.nameCN}</h5>
-        <p>${item.name}</p>
+    <div class="col-8">
+      <div class="card-body">
+        <h5 class="card-title">${item.nameCN} <small class="text-muted">${item.name}</small></h5>
         <p class="card-text"><small class="text-muted">${item.date ?? 'unknown'}</small></p>
       </div>
     </div>
