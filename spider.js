@@ -58,8 +58,8 @@ function getReleaseDate($) {
 
 const acceptRelate = '前传|续集|总集篇|全集|番外篇|相同世界观|不同世界观|不同演绎|衍生|主线故事'.split('|');
 
-async function getSubject(bgmId) {
-  const rsp = await this.safeRequest(`http://mirror.bgm.rincat.ch/subject/${bgmId}`);
+async function getSubject(bgmId, host) {
+  const rsp = await this.safeRequest(`${host}/subject/${bgmId}`);
   const $ = cheerio.load(rsp);
 
   const title = $('h1.nameSingle a');
@@ -153,12 +153,14 @@ async function getSubject(bgmId) {
     writeFileSync(getMapPath(map.id), JSON.stringify(map, null, 1));
   }
 
+  const host = process.argv.includes('-mirror') ? "http://mirror.bgm.rincat.ch" : "http://bgm.tv"
+
   async function queueItem(bgmId) {
     this.log.v(bgmId);
 
     // (ASYNC)读取Subject
     /** @type { SubjectNode & { relate: { relate: string, subject: SubjectNode }[] } } } */
-    const subject = await getSubject.call(this, bgmId);
+    const subject = await getSubject.call(this, bgmId, host);
     if (subject == null) return;
 
     // (SYNC)从文件读取map
@@ -255,6 +257,6 @@ async function getSubject(bgmId) {
       return newArray;
     }, []);
   await utils.queue(
-    process.argv.includes('-all') ? Array(max).fill(0).map((_, i) => i + 1) : updateArray, queueItem, 20);
+    process.argv.includes('-all') ? Array(max).fill(0).map((_, i) => i + 1) : updateArray, queueItem, 10);
   console.log('done!');
 })();
