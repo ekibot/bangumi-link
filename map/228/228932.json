@@ -10,13 +10,40 @@
   {
    "id": 350162,
    "name": "WONPARAウォーズ",
-   "image": "/img/no_icon_subject.png"
+   "image": "/img/no_icon_subject.png",
+   "date": "1993-03-31"
+  },
+  {
+   "id": 350163,
+   "name": "WONPARAウォーズII",
+   "image": "/img/no_icon_subject.png",
+   "date": "1995-03-10"
   }
  ],
  "relate": [
   {
    "relate": "不同演绎",
    "src": 228932,
+   "dst": 350162
+  },
+  {
+   "relate": "不同演绎",
+   "src": 350162,
+   "dst": 228932
+  },
+  {
+   "relate": "续集",
+   "src": 350162,
+   "dst": 350163
+  },
+  {
+   "relate": "不同演绎",
+   "src": 350163,
+   "dst": 228932
+  },
+  {
+   "relate": "前传",
+   "src": 350163,
    "dst": 350162
   }
  ]

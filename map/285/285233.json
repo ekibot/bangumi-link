@@ -11,13 +11,35 @@
   {
    "id": 351706,
    "name": "東京-四季-上",
-   "image": "//lain.bgm.tv/pic/cover/m/3a/07/351706_7fowt.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/3a/07/351706_7fowt.jpg",
+   "date": "2021-10-01"
+  },
+  {
+   "id": 351707,
+   "name": "東京-四季-下",
+   "image": "//lain.bgm.tv/pic/cover/m/3e/0b/351707_HH3nh.jpg",
+   "date": "2021-10-01"
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 285233,
+   "dst": 351706
+  },
+  {
+   "relate": "前传",
+   "src": 351706,
+   "dst": 285233
+  },
+  {
+   "relate": "续集",
+   "src": 351706,
+   "dst": 351707
+  },
+  {
+   "relate": "前传",
+   "src": 351707,
    "dst": 351706
   }
  ]
