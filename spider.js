@@ -256,7 +256,14 @@ async function getSubject(bgmId, host) {
       if (v > 0 && newArray.indexOf(v) === -1) newArray.push(v);
       return newArray;
     }, []);
+  // 90天循环 
+  const maxUpdateLoop = 90
+  const updateOffset = Math.floor(new Date().getTime() / (24 * 60 * 60 * 1000)) % maxUpdateLoop
+  console.log(`update ${updateOffset}/${maxUpdateLoop}`);
   await utils.queue(
-    process.argv.includes('-all') ? Array(max).fill(0).map((_, i) => i + 1) : updateArray, queueItem, 10);
+    process.argv.includes('-all') ? Array(max).fill(0).map((_, i) => i + 1) : [
+      ...updateArray, 
+      ...Array(Math.ceil(max / maxUpdateLoop)).fill(0).map((_, i) => i * maxUpdateLoop + 1 + updateOffset)
+    ], queueItem, 10);
   console.log('done!');
 })();
