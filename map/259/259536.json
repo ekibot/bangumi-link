@@ -1,0 +1,73 @@
+{
+ "id": 259536,
+ "node": [
+  {
+   "id": 49702,
+   "name": "ドカベン",
+   "nameCN": "大飯桶",
+   "image": "//lain.bgm.tv/pic/cover/m/53/76/49702_6z4wZ.jpg"
+  },
+  {
+   "id": 259536,
+   "name": "大甲子園",
+   "nameCN": "大甲子园",
+   "image": "//lain.bgm.tv/pic/cover/m/a8/76/259536_GzpVd.jpg",
+   "date": null
+  },
+  {
+   "id": 259541,
+   "name": "ドカベン スーパースターズ編",
+   "image": "//lain.bgm.tv/pic/cover/m/97/b9/259541_9Za1m.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 259542,
+   "name": "ドカベン ドリームトーナメント編",
+   "image": "//lain.bgm.tv/pic/cover/m/3f/22/259542_k0Vvv.jpg",
+   "date": "2012-03-29"
+  },
+  {
+   "id": 259543,
+   "name": "ドカベン プロ野球編",
+   "image": "//lain.bgm.tv/pic/cover/m/d0/53/259543_cVVG7.jpg",
+   "date": null
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 259536,
+   "dst": 49702
+  },
+  {
+   "relate": "续集",
+   "src": 259536,
+   "dst": 259543
+  },
+  {
+   "relate": "续集",
+   "src": 259541,
+   "dst": 259542
+  },
+  {
+   "relate": "前传",
+   "src": 259541,
+   "dst": 259543
+  },
+  {
+   "relate": "前传",
+   "src": 259542,
+   "dst": 259541
+  },
+  {
+   "relate": "前传",
+   "src": 259543,
+   "dst": 259536
+  },
+  {
+   "relate": "续集",
+   "src": 259543,
+   "dst": 259541
+  }
+ ]
+}
