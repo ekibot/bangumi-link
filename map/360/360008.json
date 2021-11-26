@@ -1,0 +1,38 @@
+{
+ "id": 360008,
+ "node": [
+  {
+   "id": 360006,
+   "name": "dogs.1",
+   "date": "unknown",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 360007,
+   "name": "dogs.2",
+   "date": "unknown"
+  },
+  {
+   "id": 360008,
+   "name": "dogs.1.5",
+   "date": "unknown"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "续集",
+   "src": 360006,
+   "dst": 360007
+  },
+  {
+   "relate": "前传",
+   "src": 360007,
+   "dst": 360006
+  },
+  {
+   "relate": "主线故事",
+   "src": 360008,
+   "dst": 360007
+  }
+ ]
+}
