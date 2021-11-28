@@ -2,6 +2,19 @@
  "id": 335280,
  "node": [
   {
+   "id": 270479,
+   "name": "Jurassic Park",
+   "nameCN": "侏罗纪公园",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/e6/270479_JW7Rh.jpg"
+  },
+  {
+   "id": 272032,
+   "name": "Jurassic World",
+   "nameCN": "侏罗纪世界",
+   "image": "//lain.bgm.tv/pic/cover/m/16/7c/272032_KKvM9.jpg",
+   "date": "2015-06-12"
+  },
+  {
    "id": 331651,
    "name": "Jurassic World: Camp Cretaceous",
    "nameCN": "侏罗纪世界：露营白垩纪",
@@ -14,9 +27,36 @@
    "nameCN": "侏罗纪世界：露营白垩纪 第二季",
    "image": "//lain.bgm.tv/pic/cover/m/31/ad/335280_ZCH1T.jpg",
    "date": "2021-01-22"
+  },
+  {
+   "id": 357212,
+   "name": "Jurassic World: Fallen Kingdom",
+   "nameCN": "侏罗纪世界：殒落国度",
+   "image": "//lain.bgm.tv/pic/cover/m/fe/77/357212_F15AW.jpg",
+   "date": "2018-06-15"
   }
  ],
  "relate": [
+  {
+   "relate": "不同世界观",
+   "src": 272032,
+   "dst": 270479
+  },
+  {
+   "relate": "相同世界观",
+   "src": 272032,
+   "dst": 331651
+  },
+  {
+   "relate": "续集",
+   "src": 272032,
+   "dst": 357212
+  },
+  {
+   "relate": "相同世界观",
+   "src": 331651,
+   "dst": 272032
+  },
   {
    "relate": "续集",
    "src": 331651,
@@ -26,6 +66,11 @@
    "relate": "前传",
    "src": 335280,
    "dst": 331651
+  },
+  {
+   "relate": "前传",
+   "src": 357212,
+   "dst": 272032
   }
  ]
 }
