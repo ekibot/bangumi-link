@@ -2,6 +2,12 @@
  "id": 331641,
  "node": [
   {
+   "id": 317273,
+   "name": "The Rookie",
+   "nameCN": "菜鸟老警",
+   "date": "2018-10-16"
+  },
+  {
    "id": 331538,
    "name": "The Rookie",
    "date": "unknown",
@@ -16,10 +22,21 @@
   {
    "id": 331641,
    "name": "The Rookie (Season 3)",
-   "date": "unknown"
+   "date": "unknown",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 360779,
+   "name": "The Rookie (Season 4)",
+   "date": null
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 317273,
+   "dst": 331640
+  },
   {
    "relate": "续集",
    "src": 331538,
@@ -39,6 +56,11 @@
    "relate": "前传",
    "src": 331641,
    "dst": 331640
+  },
+  {
+   "relate": "前传",
+   "src": 360779,
+   "dst": 331641
   }
  ]
 }
