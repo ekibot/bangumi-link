@@ -1,5 +1,5 @@
 {
- "id": 143694,
+ "id": 361385,
  "node": [
   {
    "id": 2907,
@@ -122,9 +122,22 @@
   },
   {
    "id": 315026,
-   "name": "銀河英雄伝説 Die Neue These 续篇",
-   "nameCN": "银河英雄传说 Die Neue These 续篇",
-   "date": "unknown",
+   "name": "銀河英雄伝説 Die Neue These 激突 第1章",
+   "nameCN": "银河英雄传说 Die Neue These 激突 第1章",
+   "date": "2022-03-04",
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 361384,
+   "name": "銀河英雄伝説 Die Neue These 激突 第2章",
+   "nameCN": "银河英雄传说 Die Neue These 激突 第2章",
+   "date": "2022-04-01"
+  },
+  {
+   "id": 361385,
+   "name": "銀河英雄伝説 Die Neue These 激突 第3章",
+   "nameCN": "银河英雄传说 Die Neue These 激突 第3章",
+   "date": "2022-05-13",
    "image": "/img/no_icon_subject.png"
   }
  ],
@@ -328,6 +341,26 @@
    "relate": "前传",
    "src": 315026,
    "dst": 226224
+  },
+  {
+   "relate": "续集",
+   "src": 315026,
+   "dst": 361384
+  },
+  {
+   "relate": "前传",
+   "src": 361384,
+   "dst": 315026
+  },
+  {
+   "relate": "续集",
+   "src": 361384,
+   "dst": 361385
+  },
+  {
+   "relate": "前传",
+   "src": 361385,
+   "dst": 361384
   }
  ]
 }
