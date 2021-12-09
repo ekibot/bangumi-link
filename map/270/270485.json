@@ -2,6 +2,13 @@
  "id": 270485,
  "node": [
   {
+   "id": 132067,
+   "name": "虚構推理",
+   "nameCN": "虚构推理",
+   "image": "//lain.bgm.tv/pic/cover/m/9d/ba/132067_beW65.jpg",
+   "date": "2015-04-20"
+  },
+  {
    "id": 132069,
    "name": "虚構推理 鋼人七瀬",
    "nameCN": "虚构推理 钢人七濑",
@@ -13,9 +20,20 @@
    "name": "虚構推理短編集 岩永琴子の出現",
    "image": "//lain.bgm.tv/pic/cover/m/c1/ef/270485_Nm1ka.jpg",
    "date": "2018-12-20"
+  },
+  {
+   "id": 361532,
+   "name": "虚構推理短編集 岩永琴子の純真",
+   "image": "//lain.bgm.tv/pic/cover/m/28/cd/361532_lVUL8.jpg",
+   "date": "2021-10-15"
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 132067,
+   "dst": 270485
+  },
   {
    "relate": "番外篇",
    "src": 132069,
@@ -25,6 +43,11 @@
    "relate": "主线故事",
    "src": 270485,
    "dst": 132069
+  },
+  {
+   "relate": "主线故事",
+   "src": 361532,
+   "dst": 132067
   }
  ]
 }
