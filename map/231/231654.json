@@ -9,6 +9,13 @@
    "date": "2015-06-25"
   },
   {
+   "id": 215285,
+   "name": "ありふれた職業で世界最強",
+   "nameCN": "平凡职业成就世界最强",
+   "image": "//lain.bgm.tv/pic/cover/m/bf/ec/215285_ZjsEP.jpg",
+   "date": "2016-01-25"
+  },
+  {
    "id": 228467,
    "name": "回復術士のやり直し",
    "nameCN": "回复术士的重来人生",
@@ -22,10 +29,24 @@
    "date": "2017-12-25"
   },
   {
+   "id": 246048,
+   "name": "ありふれた職業で世界最強 零",
+   "nameCN": "平凡职业成就世界最强 零",
+   "image": "//lain.bgm.tv/pic/cover/m/e0/7d/246048_lW8ss.jpg",
+   "date": "unknown"
+  },
+  {
    "id": 292019,
    "name": "ありふれた職業で世界最強 小篇集",
    "image": "//lain.bgm.tv/pic/cover/m/51/c0/292019_jJv95.jpg",
    "date": "2019-09-19"
+  },
+  {
+   "id": 305287,
+   "name": "ありふれた学園で世界最強",
+   "nameCN": "平凡学园造就世界最强",
+   "image": "//lain.bgm.tv/pic/cover/m/94/f4/305287_UX3F3.jpg",
+   "date": "unknown"
   }
  ],
  "relate": [
@@ -40,13 +61,33 @@
    "dst": 231654
   },
   {
+   "relate": "前传",
+   "src": 215285,
+   "dst": 246048
+  },
+  {
+   "relate": "番外篇",
+   "src": 215285,
+   "dst": 305287
+  },
+  {
    "relate": "主线故事",
    "src": 231654,
    "dst": 144482
   },
   {
+   "relate": "续集",
+   "src": 246048,
+   "dst": 215285
+  },
+  {
    "relate": "主线故事",
    "src": 292019,
+   "dst": 144482
+  },
+  {
+   "relate": "主线故事",
+   "src": 305287,
    "dst": 144482
   }
  ]
