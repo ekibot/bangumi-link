@@ -16,18 +16,19 @@
   {
    "id": 331640,
    "name": "The Rookie (Season 2)",
-   "date": "unknown"
-  },
-  {
-   "id": 331641,
-   "name": "The Rookie (Season 3)",
    "date": "unknown",
    "image": "/img/no_icon_subject.png"
   },
   {
+   "id": 331641,
+   "name": "The Rookie (Season 3)",
+   "date": "unknown"
+  },
+  {
    "id": 360779,
    "name": "The Rookie (Season 4)",
-   "date": null
+   "date": null,
+   "image": "/img/no_icon_subject.png"
   }
  ],
  "relate": [
@@ -55,6 +56,11 @@
    "relate": "前传",
    "src": 331641,
    "dst": 331640
+  },
+  {
+   "relate": "续集",
+   "src": 331641,
+   "dst": 360779
   },
   {
    "relate": "前传",
