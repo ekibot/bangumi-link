@@ -2,6 +2,11 @@
  "id": 355314,
  "node": [
   {
+   "id": 354522,
+   "name": "サムライカアサンNEO",
+   "image": "//lain.bgm.tv/pic/cover/m/72/be/354522_0U511.jpg"
+  },
+  {
    "id": 355314,
    "name": "サムライカアサン",
    "image": "//lain.bgm.tv/pic/cover/m/6a/64/355314_6MsfJ.jpg",
@@ -10,7 +15,8 @@
   {
    "id": 355315,
    "name": "サムライカアサンプラス",
-   "image": "//lain.bgm.tv/pic/cover/m/17/a4/355315_67tTG.jpg"
+   "image": "//lain.bgm.tv/pic/cover/m/17/a4/355315_67tTG.jpg",
+   "date": "2012-10-25"
   }
  ],
  "relate": [
@@ -18,6 +24,16 @@
    "relate": "续集",
    "src": 355314,
    "dst": 355315
+  },
+  {
+   "relate": "续集",
+   "src": 355315,
+   "dst": 354522
+  },
+  {
+   "relate": "前传",
+   "src": 355315,
+   "dst": 355314
   }
  ]
 }
