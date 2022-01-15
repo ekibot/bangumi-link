@@ -836,6 +836,12 @@
    "date": "2017-01-24"
   },
   {
+   "id": 210335,
+   "name": "Nightwing",
+   "nameCN": "夜翼",
+   "date": "unknown"
+  },
+  {
    "id": 213442,
    "name": "Teen Titans: The Judas Contract",
    "nameCN": "少年泰坦：犹大契约",
@@ -1211,7 +1217,7 @@
    "name": "Superman & Lois Season 2",
    "nameCN": "超人和露易斯 第二季",
    "date": null,
-   "image": "/img/no_icon_subject.png"
+   "image": "//lain.bgm.tv/pic/cover/m/b9/66/350851_5dFX4.jpg"
   },
   {
    "id": 352976,
@@ -1240,6 +1246,12 @@
    "nameCN": "黑亚当",
    "image": "//lain.bgm.tv/pic/cover/m/73/6b/364688_pKonZ.jpg",
    "date": "2022-07-29"
+  },
+  {
+   "id": 365742,
+   "name": "Bizarro Superman",
+   "nameCN": "比扎罗",
+   "date": null
   }
  ],
  "relate": [
@@ -2014,14 +2026,19 @@
    "dst": 138825
   },
   {
-   "relate": "续集",
+   "relate": "前传",
    "src": 107806,
-   "dst": 140959
+   "dst": 77157
   },
   {
    "relate": "相同世界观",
    "src": 107806,
-   "dst": 140962
+   "dst": 140956
+  },
+  {
+   "relate": "续集",
+   "src": 107806,
+   "dst": 140959
   },
   {
    "relate": "不同世界观",
@@ -2684,6 +2701,11 @@
    "dst": 301569
   },
   {
+   "relate": "相同世界观",
+   "src": 210335,
+   "dst": 140959
+  },
+  {
    "relate": "不同演绎",
    "src": 213442,
    "dst": 10941
@@ -3211,6 +3233,11 @@
   {
    "relate": "相同世界观",
    "src": 364688,
+   "dst": 140959
+  },
+  {
+   "relate": "相同世界观",
+   "src": 365742,
    "dst": 140959
   }
  ]
