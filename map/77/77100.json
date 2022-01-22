@@ -28,6 +28,18 @@
    "nameCN": "神兵玄奇",
    "image": "//lain.bgm.tv/pic/cover/m/61/66/91264_1R0X7.jpg",
    "date": "unknown"
+  },
+  {
+   "id": 348103,
+   "name": "神兵玄奇贰",
+   "image": "//lain.bgm.tv/pic/cover/m/8d/8f/348103_8desN.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 348104,
+   "name": "神兵玄奇3",
+   "nameCN": "神兵玄奇3",
+   "image": "//lain.bgm.tv/pic/cover/m/3a/7a/348104_2sssQ.jpg"
   }
  ],
  "relate": [
@@ -44,12 +56,27 @@
   {
    "relate": "前传",
    "src": 77124,
-   "dst": 91264
+   "dst": 348103
   },
   {
    "relate": "续集",
    "src": 91264,
-   "dst": 77100
+   "dst": 348103
+  },
+  {
+   "relate": "续集",
+   "src": 348103,
+   "dst": 77124
+  },
+  {
+   "relate": "前传",
+   "src": 348103,
+   "dst": 91264
+  },
+  {
+   "relate": "相同世界观",
+   "src": 348103,
+   "dst": 348104
   }
  ]
 }
