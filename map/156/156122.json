@@ -2,6 +2,12 @@
  "id": 156122,
  "node": [
   {
+   "id": 14233,
+   "name": "PARADISE LOST",
+   "image": "/img/no_icon_subject.png",
+   "date": "2004-01-16"
+  },
+  {
    "id": 14895,
    "name": "神咒神威神楽",
    "image": "//lain.bgm.tv/pic/cover/m/5f/1d/14895_YtSB3.jpg",
@@ -57,9 +63,19 @@
    "id": 221631,
    "name": "Dies irae ~Song to the Witch~",
    "image": "//lain.bgm.tv/pic/cover/m/ce/8e/221631_bPI64.jpg"
+  },
+  {
+   "id": 338306,
+   "name": "黒白のアヴェスター",
+   "image": "//lain.bgm.tv/pic/cover/m/25/f9/338306_xbBx2.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 14233,
+   "dst": 338306
+  },
   {
    "relate": "相同世界观",
    "src": 14895,
@@ -72,18 +88,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 14895,
+   "dst": 338306
+  },
+  {
+   "relate": "相同世界观",
    "src": 16849,
    "dst": 14895
   },
   {
    "relate": "不同演绎",
    "src": 16849,
-   "dst": 187085
+   "dst": 43372
   },
   {
    "relate": "番外篇",
    "src": 16849,
    "dst": 221631
+  },
+  {
+   "relate": "相同世界观",
+   "src": 16849,
+   "dst": 338306
   },
   {
    "relate": "不同演绎",
@@ -94,6 +120,11 @@
    "relate": "番外篇",
    "src": 43372,
    "dst": 221631
+  },
+  {
+   "relate": "相同世界观",
+   "src": 43372,
+   "dst": 338306
   },
   {
    "relate": "不同演绎",
@@ -103,7 +134,7 @@
   {
    "relate": "相同世界观",
    "src": 62985,
-   "dst": 16849
+   "dst": 338306
   },
   {
    "relate": "番外篇",
@@ -113,7 +144,12 @@
   {
    "relate": "主线故事",
    "src": 156122,
-   "dst": 187085
+   "dst": 43372
+  },
+  {
+   "relate": "相同世界观",
+   "src": 156122,
+   "dst": 338306
   },
   {
    "relate": "不同演绎",
