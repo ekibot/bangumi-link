@@ -3,7 +3,7 @@
  "node": [
   {
    "id": 311051,
-   "name": "Loose Lipsシリーズ",
+   "name": "Loose Lips（SIDE:rainy day）",
    "image": "//lain.bgm.tv/pic/cover/m/5c/09/311051_szNUs.jpg",
    "date": "2020-06-19"
   },
@@ -24,6 +24,24 @@
    "name": "番外編：Loose Lips（ep.Ed）",
    "image": "//lain.bgm.tv/pic/cover/m/ea/9b/322768_a53Th.jpg",
    "date": "2020-05-07"
+  },
+  {
+   "id": 367114,
+   "name": "Loose Lips（SIDE:sunny day）",
+   "image": "//lain.bgm.tv/pic/cover/m/ba/6c/367114_11PXN.jpg",
+   "date": "2019-07-04"
+  },
+  {
+   "id": 367115,
+   "name": "Loose Lips（SIDE:foggy）",
+   "image": "//lain.bgm.tv/pic/cover/m/c8/53/367115_rE4Q4.jpg",
+   "date": "2021-07-20"
+  },
+  {
+   "id": 367116,
+   "name": "Loose Lips（SIDE:Dry_Kissing）",
+   "image": "//lain.bgm.tv/pic/cover/m/0f/40/367116_svas9.jpg",
+   "date": "2022-01-14"
   }
  ],
  "relate": [
@@ -31,6 +49,11 @@
    "relate": "前传",
    "src": 311051,
    "dst": 322765
+  },
+  {
+   "relate": "续集",
+   "src": 311051,
+   "dst": 367114
   },
   {
    "relate": "续集",
@@ -46,6 +69,31 @@
    "relate": "主线故事",
    "src": 322768,
    "dst": 311051
+  },
+  {
+   "relate": "前传",
+   "src": 367114,
+   "dst": 311051
+  },
+  {
+   "relate": "续集",
+   "src": 367114,
+   "dst": 367115
+  },
+  {
+   "relate": "前传",
+   "src": 367115,
+   "dst": 367114
+  },
+  {
+   "relate": "续集",
+   "src": 367115,
+   "dst": 367116
+  },
+  {
+   "relate": "前传",
+   "src": 367116,
+   "dst": 367115
   }
  ]
 }
