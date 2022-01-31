@@ -2,6 +2,13 @@
  "id": 264785,
  "node": [
   {
+   "id": 194566,
+   "name": "佐々木と宮野",
+   "nameCN": "佐佐木与宫野",
+   "image": "//lain.bgm.tv/pic/cover/m/a6/bf/194566_X22xl.jpg",
+   "date": "2016-09-26"
+  },
+  {
    "id": 264785,
    "name": "ノベル 平野と鍵浦",
    "image": "//lain.bgm.tv/pic/cover/m/6f/05/264785_Ii6K5.jpg",
@@ -16,19 +23,40 @@
   {
    "id": 363591,
    "name": "ノベル 佐々木と宮野 2年生",
-   "date": "2022-01-27"
+   "date": "2022-01-27",
+   "image": "//lain.bgm.tv/pic/cover/m/be/80/363591_2jpkB.jpg"
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 194566,
+   "dst": 363591
+  },
   {
    "relate": "续集",
    "src": 264785,
    "dst": 303605
   },
   {
+   "relate": "主线故事",
+   "src": 303605,
+   "dst": 194566
+  },
+  {
    "relate": "前传",
    "src": 303605,
    "dst": 264785
+  },
+  {
+   "relate": "续集",
+   "src": 303605,
+   "dst": 363591
+  },
+  {
+   "relate": "主线故事",
+   "src": 363591,
+   "dst": 194566
   },
   {
    "relate": "前传",
