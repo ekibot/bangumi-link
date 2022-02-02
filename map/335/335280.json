@@ -5,7 +5,7 @@
    "id": 270479,
    "name": "Jurassic Park",
    "nameCN": "侏罗纪公园",
-   "image": "//lain.bgm.tv/pic/cover/m/0c/e6/270479_JW7Rh.jpg",
+   "image": "//lain.bgm.tv/pic/cover/m/0c/e6/270479_T0Rrd.jpg",
    "date": "unknown"
   },
   {
@@ -35,6 +35,20 @@
    "nameCN": "侏罗纪世界：殒落国度",
    "image": "//lain.bgm.tv/pic/cover/m/fe/77/357212_F15AW.jpg",
    "date": "2018-06-15"
+  },
+  {
+   "id": 367390,
+   "name": "The Lost World: Jurassic Park",
+   "nameCN": "侏罗纪公园：失落的世界",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/a9/367390_5dxt9.jpg",
+   "date": "1997-05-23"
+  },
+  {
+   "id": 367391,
+   "name": "Jurassic Park III",
+   "nameCN": "侏罗纪公园3",
+   "image": "//lain.bgm.tv/pic/cover/m/e4/a6/367391_38M7c.jpg",
+   "date": "2001-07-18"
   }
  ],
  "relate": [
@@ -42,6 +56,11 @@
    "relate": "不同世界观",
    "src": 270479,
    "dst": 272032
+  },
+  {
+   "relate": "续集",
+   "src": 270479,
+   "dst": 367390
   },
   {
    "relate": "不同世界观",
@@ -77,6 +96,21 @@
    "relate": "前传",
    "src": 357212,
    "dst": 272032
+  },
+  {
+   "relate": "前传",
+   "src": 367390,
+   "dst": 270479
+  },
+  {
+   "relate": "续集",
+   "src": 367390,
+   "dst": 367391
+  },
+  {
+   "relate": "前传",
+   "src": 367391,
+   "dst": 367390
   }
  ]
 }
