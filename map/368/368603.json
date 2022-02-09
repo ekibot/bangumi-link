@@ -1,0 +1,65 @@
+{
+ "id": 368603,
+ "node": [
+  {
+   "id": 37497,
+   "name": "Galaxy on Fire 2",
+   "nameCN": "浴火银河2",
+   "image": "//lain.bgm.tv/pic/cover/m/b9/27/37497_gIeij.jpg",
+   "date": null
+  },
+  {
+   "id": 368601,
+   "name": "Galaxy on Fire 3D",
+   "nameCN": "浴火银河",
+   "image": "//lain.bgm.tv/pic/cover/m/48/d5/368601_wg7GN.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 368602,
+   "name": "Galaxy on Fire 3",
+   "nameCN": "浴火银河3",
+   "image": "//lain.bgm.tv/pic/cover/m/44/97/368602_SZ5c9.jpg",
+   "date": "unknown"
+  },
+  {
+   "id": 368603,
+   "name": "Galaxy on Fire: Alliances",
+   "nameCN": "浴火银河：联盟",
+   "image": "//lain.bgm.tv/pic/cover/m/fa/26/368603_mCfwG.jpg",
+   "date": null
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 37497,
+   "dst": 368601
+  },
+  {
+   "relate": "续集",
+   "src": 37497,
+   "dst": 368603
+  },
+  {
+   "relate": "续集",
+   "src": 368601,
+   "dst": 37497
+  },
+  {
+   "relate": "前传",
+   "src": 368602,
+   "dst": 368603
+  },
+  {
+   "relate": "前传",
+   "src": 368603,
+   "dst": 37497
+  },
+  {
+   "relate": "续集",
+   "src": 368603,
+   "dst": 368602
+  }
+ ]
+}
