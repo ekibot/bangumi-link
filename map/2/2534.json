@@ -20,13 +20,13 @@
    "name": "ドリームクラブ ZERO ポータブル",
    "nameCN": "梦幻俱乐部 ZERO 携带版",
    "image": "//lain.bgm.tv/pic/cover/m/24/1f/25785_JlTJ3.jpg",
-   "date": null
+   "date": "2011-12-17"
   },
   {
    "id": 34126,
    "name": "ドリームクラブ PORTABLE",
    "nameCN": "梦幻俱乐部：携带版",
-   "image": "//lain.bgm.tv/pic/cover/m/c1/53/34126_hc5Vz.jpg",
+   "image": "//lain.bgm.tv/pic/cover/m/c1/53/34126_OvL2z.jpg",
    "date": "2010-10-28"
   },
   {
@@ -35,6 +35,27 @@
    "nameCN": "麻将梦幻俱乐部",
    "image": "//lain.bgm.tv/pic/cover/m/d5/16/39028_3JBhS.jpg",
    "date": null
+  },
+  {
+   "id": 99714,
+   "name": "ドリームクラブ Complete Edipyon!",
+   "nameCN": "梦幻俱乐部 Complete Edipyon!",
+   "image": "//lain.bgm.tv/pic/cover/m/b3/63/99714_o8fz9.jpg",
+   "date": "2012-11-15"
+  },
+  {
+   "id": 99715,
+   "name": "ドリームクラブ ZERO Special Edipyon!",
+   "nameCN": "梦幻俱乐部 ZERO Special Edipyon!",
+   "image": "//lain.bgm.tv/pic/cover/m/23/47/99715_D26fe.jpg",
+   "date": "2013-01-17"
+  },
+  {
+   "id": 122848,
+   "name": "ドリームクラブGogo.",
+   "nameCN": "梦幻俱乐部Gogo.",
+   "image": "//lain.bgm.tv/pic/cover/m/b7/55/122848_sMCCC.jpg",
+   "date": "2014-04-10"
   }
  ],
  "relate": [
@@ -46,7 +67,7 @@
   {
    "relate": "不同演绎",
    "src": 2534,
-   "dst": 25785
+   "dst": 99715
   },
   {
    "relate": "前传",
@@ -64,14 +85,54 @@
    "dst": 2534
   },
   {
+   "relate": "续集",
+   "src": 25785,
+   "dst": 34126
+  },
+  {
    "relate": "不同演绎",
    "src": 34126,
    "dst": 3358
   },
   {
+   "relate": "前传",
+   "src": 34126,
+   "dst": 25785
+  },
+  {
    "relate": "主线故事",
    "src": 39028,
    "dst": 3358
+  },
+  {
+   "relate": "不同演绎",
+   "src": 99714,
+   "dst": 3358
+  },
+  {
+   "relate": "前传",
+   "src": 99714,
+   "dst": 99715
+  },
+  {
+   "relate": "不同演绎",
+   "src": 99715,
+   "dst": 2534
+  },
+  {
+   "relate": "续集",
+   "src": 99715,
+   "dst": 99714
+  },
+  {
+   "relate": "相同世界观",
+   "src": 99715,
+   "dst": 122848
+  },
+  {
+   "relate": "相同世界观",
+   "src": 122848,
+   "dst": 99715
   }
  ]
 }
