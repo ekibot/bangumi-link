@@ -11,9 +11,9 @@
   {
    "id": 46731,
    "name": "The Settlers II: 10th Anniversary Edition",
-   "nameCN": "工人物语10周年纪念版",
+   "nameCN": "工人物语2：10周年纪念版",
    "image": "//lain.bgm.tv/pic/cover/m/f6/ae/46731_jsPpj.jpg",
-   "date": null
+   "date": "2006-09-07"
   },
   {
    "id": 46732,
@@ -27,7 +27,7 @@
    "name": "The Settlers",
    "nameCN": "工人物语",
    "image": "//lain.bgm.tv/pic/cover/m/64/15/50546_J3EaY.jpg",
-   "date": null
+   "date": "1993-06-30"
   },
   {
    "id": 50547,
@@ -56,6 +56,13 @@
    "nameCN": "工人物语6：帝国之崛起",
    "image": "//lain.bgm.tv/pic/cover/m/26/c5/50550_z4Bnw.jpg",
    "date": "2007-09-25"
+  },
+  {
+   "id": 370387,
+   "name": "The Settlers",
+   "nameCN": "新工人物语",
+   "image": "//lain.bgm.tv/pic/cover/m/2a/e0/370387_lRl85.jpg",
+   "date": "2022-03-17"
   }
  ],
  "relate": [
@@ -88,6 +95,11 @@
    "relate": "续集",
    "src": 50546,
    "dst": 46732
+  },
+  {
+   "relate": "不同演绎",
+   "src": 50546,
+   "dst": 370387
   },
   {
    "relate": "前传",
@@ -128,6 +140,11 @@
    "relate": "前传",
    "src": 50550,
    "dst": 50549
+  },
+  {
+   "relate": "不同演绎",
+   "src": 370387,
+   "dst": 50546
   }
  ]
 }
