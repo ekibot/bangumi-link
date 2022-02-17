@@ -27,7 +27,7 @@
    "name": "Anno 1503",
    "nameCN": "纪元1503",
    "image": "//lain.bgm.tv/pic/cover/m/53/a2/50373_hEqkE.jpg",
-   "date": "2003-04-04"
+   "date": "2002-10-25"
   },
   {
    "id": 50375,
@@ -53,9 +53,16 @@
   {
    "id": 280683,
    "name": "Anno 1800",
-   "nameCN": "纪元 1800",
+   "nameCN": "纪元1800",
    "image": "//lain.bgm.tv/pic/cover/m/d7/09/280683_7neUR.jpg",
    "date": "2019-04-15"
+  },
+  {
+   "id": 370553,
+   "name": "Anno 1602",
+   "nameCN": "纪元1602",
+   "image": "//lain.bgm.tv/pic/cover/m/1d/43/370553_m5Sq7.jpg",
+   "date": "1998-04-15"
   }
  ],
  "relate": [
@@ -90,6 +97,11 @@
    "dst": 50375
   },
   {
+   "relate": "前传",
+   "src": 50373,
+   "dst": 370553
+  },
+  {
    "relate": "续集",
    "src": 50375,
    "dst": 1798
@@ -118,6 +130,11 @@
    "relate": "前传",
    "src": 280683,
    "dst": 137447
+  },
+  {
+   "relate": "续集",
+   "src": 370553,
+   "dst": 50373
   }
  ]
 }
