@@ -27,7 +27,7 @@
    "name": "DOCTORS 最強の名医 スペシャル 2015",
    "nameCN": "最强的名医 2015 SP",
    "image": "//lain.bgm.tv/pic/cover/m/2d/35/118070_lc2IR.jpg",
-   "date": null
+   "date": "2015-01-04"
   },
   {
    "id": 118071,
@@ -35,6 +35,11 @@
    "nameCN": "最强的名医3",
    "image": "//lain.bgm.tv/pic/cover/m/43/93/118071_pnn3s.jpg",
    "date": "2015-01-08"
+  },
+  {
+   "id": 234158,
+   "name": "DOCTORS～最強の名医～新春スペシャル",
+   "image": "//lain.bgm.tv/pic/cover/m/7c/4c/234158_wsK4s.jpg"
   }
  ],
  "relate": [
@@ -54,6 +59,11 @@
    "dst": 26991
   },
   {
+   "relate": "番外篇",
+   "src": 78232,
+   "dst": 118070
+  },
+  {
    "relate": "续集",
    "src": 78232,
    "dst": 118071
@@ -64,14 +74,19 @@
    "dst": 26991
   },
   {
-   "relate": "番外篇",
+   "relate": "主线故事",
    "src": 118070,
-   "dst": 26991
+   "dst": 78232
   },
   {
    "relate": "前传",
    "src": 118071,
    "dst": 78232
+  },
+  {
+   "relate": "番外篇",
+   "src": 118071,
+   "dst": 234158
   }
  ]
 }
