@@ -131,14 +131,27 @@
    "name": "MySims",
    "nameCN": "我的模拟人生",
    "image": "//lain.bgm.tv/pic/cover/m/ca/2c/324963_Ti63c.jpg",
-   "date": "2007-09-18"
+   "date": "2007-09-17"
   },
   {
    "id": 324964,
-   "name": "MySims Kingdom",
+   "name": "MySims: Kingdom",
    "nameCN": "我的模拟人生：王国",
    "image": "//lain.bgm.tv/pic/cover/m/46/c9/324964_GeJKJ.jpg",
    "date": "2008-10-28"
+  },
+  {
+   "id": 373056,
+   "name": "MySims: Party",
+   "nameCN": "我的模拟人生：派对",
+   "image": "//lain.bgm.tv/pic/cover/m/83/6f/373056_9n0db.jpg",
+   "date": "2009-03-10"
+  },
+  {
+   "id": 373057,
+   "name": "MySims: Agents",
+   "image": "//lain.bgm.tv/pic/cover/m/21/16/373057_To7Zg.jpg",
+   "date": "2009-09-25"
   }
  ],
  "relate": [
@@ -251,6 +264,26 @@
    "relate": "前传",
    "src": 324964,
    "dst": 324963
+  },
+  {
+   "relate": "续集",
+   "src": 324964,
+   "dst": 373056
+  },
+  {
+   "relate": "前传",
+   "src": 373056,
+   "dst": 324964
+  },
+  {
+   "relate": "续集",
+   "src": 373056,
+   "dst": 373057
+  },
+  {
+   "relate": "前传",
+   "src": 373057,
+   "dst": 373056
   }
  ]
 }
