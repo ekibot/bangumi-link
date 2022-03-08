@@ -180,7 +180,21 @@
    "id": 350512,
    "name": "The Walking Dead SPIN-OFF",
    "nameCN": "行尸走肉衍生剧",
+   "date": null,
+   "image": "/img/no_icon_subject.png"
+  },
+  {
+   "id": 373540,
+   "name": "Isle of the Dead",
+   "nameCN": "死亡之岛",
    "date": null
+  },
+  {
+   "id": 373544,
+   "name": "The Walking Dead: World Beyond Season 2",
+   "nameCN": "行尸走肉：外面的世界 第二季",
+   "image": "//lain.bgm.tv/pic/cover/m/0b/71/373544_4A6du.jpg",
+   "date": "2021-09-26"
   }
  ],
  "relate": [
@@ -195,9 +209,9 @@
    "dst": 86365
   },
   {
-   "relate": "番外篇",
+   "relate": "衍生",
    "src": 9644,
-   "dst": 286957
+   "dst": 288323
   },
   {
    "relate": "前传",
@@ -320,6 +334,11 @@
    "dst": 153804
   },
   {
+   "relate": "相同世界观",
+   "src": 129931,
+   "dst": 114538
+  },
+  {
    "relate": "续集",
    "src": 129931,
    "dst": 129932
@@ -328,11 +347,6 @@
    "relate": "衍生",
    "src": 129931,
    "dst": 195917
-  },
-  {
-   "relate": "相同世界观",
-   "src": 129931,
-   "dst": 288323
   },
   {
    "relate": "前传",
@@ -472,7 +486,12 @@
   {
    "relate": "相同世界观",
    "src": 288323,
-   "dst": 129931
+   "dst": 276862
+  },
+  {
+   "relate": "续集",
+   "src": 288323,
+   "dst": 373544
   },
   {
    "relate": "前传",
@@ -482,7 +501,7 @@
   {
    "relate": "相同世界观",
    "src": 292785,
-   "dst": 276862
+   "dst": 288323
   },
   {
    "relate": "续集",
@@ -495,14 +514,14 @@
    "dst": 276862
   },
   {
-   "relate": "番外篇",
-   "src": 292786,
-   "dst": 286957
-  },
-  {
    "relate": "相同世界观",
    "src": 292786,
    "dst": 324749
+  },
+  {
+   "relate": "衍生",
+   "src": 292786,
+   "dst": 350512
   },
   {
    "relate": "前传",
@@ -518,6 +537,21 @@
    "relate": "主线故事",
    "src": 350512,
    "dst": 9644
+  },
+  {
+   "relate": "衍生",
+   "src": 373540,
+   "dst": 9644
+  },
+  {
+   "relate": "前传",
+   "src": 373544,
+   "dst": 288323
+  },
+  {
+   "relate": "相同世界观",
+   "src": 373544,
+   "dst": 292786
   }
  ]
 }
