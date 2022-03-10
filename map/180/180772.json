@@ -9,6 +9,12 @@
    "date": "2016-04-28"
   },
   {
+   "id": 217316,
+   "name": "実況パワフルプロ野球 チャンピオンシップ2017",
+   "image": "//lain.bgm.tv/pic/cover/m/16/30/217316_RqF7w.jpg",
+   "date": "unknown"
+  },
+  {
    "id": 266033,
    "name": "実況パワフルプロ野球2018",
    "nameCN": "实况力量棒球2018",
@@ -27,23 +33,40 @@
    "nameCN": "实况力量棒球2020",
    "image": "//lain.bgm.tv/pic/cover/m/43/af/311188_TE296.jpg",
    "date": "2020-07-09"
+  },
+  {
+   "id": 373185,
+   "name": "eBASEBALLパワフルプロ野球2022",
+   "nameCN": "eBASEBALL实况力量棒球2022",
+   "image": "//lain.bgm.tv/pic/cover/m/d7/bf/373185_azr6r.jpg",
+   "date": "2022-04-21"
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 180772,
+   "dst": 217316
+  },
+  {
+   "relate": "前传",
+   "src": 217316,
+   "dst": 180772
+  },
+  {
+   "relate": "续集",
+   "src": 217316,
    "dst": 266033
   },
   {
    "relate": "前传",
    "src": 266033,
-   "dst": 180772
+   "dst": 217316
   },
   {
    "relate": "续集",
    "src": 266033,
-   "dst": 297453
+   "dst": 311188
   },
   {
    "relate": "前传",
@@ -58,7 +81,17 @@
   {
    "relate": "前传",
    "src": 311188,
-   "dst": 297453
+   "dst": 266033
+  },
+  {
+   "relate": "续集",
+   "src": 311188,
+   "dst": 373185
+  },
+  {
+   "relate": "前传",
+   "src": 373185,
+   "dst": 311188
   }
  ]
 }
