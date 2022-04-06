@@ -1,0 +1,65 @@
+{
+ "id": 377249,
+ "node": [
+  {
+   "id": 377241,
+   "name": "Mad Max: Fury Road",
+   "nameCN": "疯狂的麦克斯4：狂暴之路",
+   "image": "//lain.bgm.tv/pic/cover/m/00/bb/377241_bIZ2d.jpg",
+   "date": "2015-05-14"
+  },
+  {
+   "id": 377246,
+   "name": "Mad Max",
+   "nameCN": "疯狂的麦克斯",
+   "image": "//lain.bgm.tv/pic/cover/m/1c/bb/377246_PjWoh.jpg",
+   "date": "1979-04-12"
+  },
+  {
+   "id": 377247,
+   "name": "Mad Max 2",
+   "nameCN": "疯狂的麦克斯2",
+   "image": "//lain.bgm.tv/pic/cover/m/40/90/377247_oc9Ih.jpg",
+   "date": "1981-12-24"
+  },
+  {
+   "id": 377249,
+   "name": "Mad Max 3",
+   "nameCN": "疯狂的麦克斯3",
+   "image": "//lain.bgm.tv/pic/cover/m/7d/b6/377249_EE0eI.jpg",
+   "date": "1985-06-29"
+  }
+ ],
+ "relate": [
+  {
+   "relate": "前传",
+   "src": 377241,
+   "dst": 377249
+  },
+  {
+   "relate": "续集",
+   "src": 377246,
+   "dst": 377247
+  },
+  {
+   "relate": "前传",
+   "src": 377247,
+   "dst": 377246
+  },
+  {
+   "relate": "续集",
+   "src": 377247,
+   "dst": 377249
+  },
+  {
+   "relate": "续集",
+   "src": 377249,
+   "dst": 377241
+  },
+  {
+   "relate": "前传",
+   "src": 377249,
+   "dst": 377247
+  }
+ ]
+}
