@@ -1,12 +1,6 @@
 {
- "id": 187465,
+ "id": 13604,
  "node": [
-  {
-   "id": 2175,
-   "name": "THE SKULLMAN",
-   "nameCN": "骷髅人",
-   "image": "//lain.bgm.tv/pic/cover/m/21/1c/2175_4IW5J.jpg"
-  },
   {
    "id": 13604,
    "name": "サイボーグ009",
@@ -17,8 +11,8 @@
   {
    "id": 13605,
    "name": "サイボーグ009",
-   "nameCN": "人造人009",
-   "image": "//lain.bgm.tv/pic/cover/m/f2/66/13605_Xg3V7.jpg",
+   "nameCN": "人造人009 1979版",
+   "image": "//lain.bgm.tv/pic/cover/m/f2/66/13605_EiIbh.jpg",
    "date": "1979-03-06"
   },
   {
@@ -64,6 +58,12 @@
    "date": "2016-11-25"
   },
   {
+   "id": 211383,
+   "name": "009: The Reopening",
+   "nameCN": "人造人009：重新开放",
+   "image": "//lain.bgm.tv/pic/cover/m/3d/d1/211383_lFmAV.jpg"
+  },
+  {
    "id": 268941,
    "name": "CYBORG009 CALL OF JUSTICE 第2章",
    "nameCN": "人造人009 CALL OF JUSTICE 第2章",
@@ -89,12 +89,22 @@
   {
    "relate": "不同演绎",
    "src": 13604,
-   "dst": 13607
+   "dst": 13605
+  },
+  {
+   "relate": "不同世界观",
+   "src": 13604,
+   "dst": 24053
   },
   {
    "relate": "不同演绎",
    "src": 13605,
    "dst": 13607
+  },
+  {
+   "relate": "不同世界观",
+   "src": 13605,
+   "dst": 24053
   },
   {
    "relate": "衍生",
@@ -104,12 +114,22 @@
   {
    "relate": "不同演绎",
    "src": 13607,
+   "dst": 13605
+  },
+  {
+   "relate": "不同世界观",
+   "src": 13607,
+   "dst": 24053
+  },
+  {
+   "relate": "不同世界观",
+   "src": 24053,
    "dst": 13604
   },
   {
    "relate": "不同演绎",
    "src": 24053,
-   "dst": 187465
+   "dst": 211383
   },
   {
    "relate": "不同演绎",
@@ -130,11 +150,6 @@
    "relate": "主线故事",
    "src": 143040,
    "dst": 13605
-  },
-  {
-   "relate": "不同演绎",
-   "src": 187465,
-   "dst": 13604
   },
   {
    "relate": "续集",
@@ -170,6 +185,11 @@
    "relate": "总集篇",
    "src": 268942,
    "dst": 268943
+  },
+  {
+   "relate": "不同世界观",
+   "src": 268943,
+   "dst": 13604
   },
   {
    "relate": "全集",
