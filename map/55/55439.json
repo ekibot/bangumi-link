@@ -2,6 +2,13 @@
  "id": 55439,
  "node": [
   {
+   "id": 2193,
+   "name": "ムシウタ",
+   "nameCN": "虫之歌",
+   "image": "//lain.bgm.tv/pic/cover/m/ca/0d/2193_LHZtx.jpg",
+   "date": null
+  },
+  {
    "id": 14478,
    "name": "ミスマルカ興国物語",
    "nameCN": "密斯玛路卡兴国物语",
@@ -13,6 +20,13 @@
    "name": "ミスマルカ興国物語 エックス",
    "image": "//lain.bgm.tv/pic/cover/m/d2/27/55439_jp.jpg",
    "date": "2012-11-30"
+  },
+  {
+   "id": 130313,
+   "name": "ムシウタ bug",
+   "nameCN": "虫之歌bug",
+   "image": "//lain.bgm.tv/pic/cover/m/3b/e5/130313_d07tC.jpg",
+   "date": null
   },
   {
    "id": 187398,
@@ -29,6 +43,16 @@
  ],
  "relate": [
   {
+   "relate": "前传",
+   "src": 2193,
+   "dst": 130313
+  },
+  {
+   "relate": "番外篇",
+   "src": 2193,
+   "dst": 377336
+  },
+  {
    "relate": "番外篇",
    "src": 14478,
    "dst": 55439
@@ -37,6 +61,11 @@
    "relate": "主线故事",
    "src": 55439,
    "dst": 14478
+  },
+  {
+   "relate": "续集",
+   "src": 130313,
+   "dst": 2193
   },
   {
    "relate": "主线故事",
