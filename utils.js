@@ -1,3 +1,4 @@
+/* eslint-disable no-throw-literal */
 /*
  * @Description: utils
  * @Author: ekibun
@@ -11,10 +12,10 @@ const http = require('http');
 const https = require('https');
 
 const httpAgent = new http.Agent({
-  keepAlive: true
+  keepAlive: true,
 });
 const httpsAgent = new https.Agent({
-  keepAlive: true
+  keepAlive: true,
 });
 
 const fetch = require('node-fetch');
@@ -36,34 +37,33 @@ const chalk = new (require('chalk')).Instance({ level: 2 });
  * @param { number } retry
  */
 async function _safeRequest(url, options, retry = 3) {
-  if (!retry) throw "max retry exceeded";
+  if (!retry) throw 'max retry exceeded';
   const controller = new AbortController();
   const timeout = setTimeout(() => {
     controller.abort();
   }, 5000);
   try {
     const rsp = await fetch(url, {
-      agent: function (_parsedURL) {
-        if (_parsedURL.protocol == 'http:') {
+      agent(_parsedURL) {
+        if (_parsedURL.protocol === 'http:') {
           return httpAgent;
-        } else {
-          return httpsAgent;
         }
+        return httpsAgent;
       },
       signal: controller.signal,
+      headers: {
+        'user-agent': 'ekibot/bangumi-link',
+      },
       ...options,
-    })
-    const text = await rsp.text();
+    });
     if (!rsp.ok) {
-      const errorStr = cheerio.load(text).text().trim().split('\n')[0].substring(0, 100);
+      const errorStr = cheerio.load(await rsp.text()).text().trim().split('\n')[0].substring(0, 100);
       throw `${rsp.status} ${errorStr}`;
     }
-    return text;
+    return rsp;
   } catch (error) {
-    if (error.name === "AbortError")
-      this.log.e("timeout of 5000ms exceeded");
-    else
-      this.log.e(error);
+    if (error.name === 'AbortError') this.log.e('timeout of 5000ms exceeded');
+    else this.log.e(error);
     return _safeRequest.call(this, url, options, retry - 1);
   } finally {
     clearTimeout(timeout);
@@ -99,8 +99,7 @@ function createThis(printer = (type, ...message) => console[type](...message)) {
     chalk,
     log,
   };
-  _this.safeRequest = (url, options, retry) =>
-    _safeRequest.call(_this, url, options, retry);
+  _this.safeRequest = (url, options, retry) => _safeRequest.call(_this, url, options, retry);
   return _this;
 }
 
@@ -124,12 +123,13 @@ async function queue(_fetchs, run, num = 2) {
       _this.log = createThis(() => { }).log;
       messages[0] = messages[0] || ['log'];
       messages[0].splice(1, 0, ...pre);
-      // eslint-disable-next-line no-console
       const logToConsole = (type, ...message) => {
-        if (type == "error") {
-          console.log(...message.map(msg => chalk.red(typeof (msg) == 'string' ? msg : util.inspect(msg))));
+        if (type === 'error') {
+          // eslint-disable-next-line no-console
+          console.log(...message.map((msg) => chalk.red(typeof (msg) === 'string' ? msg : util.inspect(msg))));
+          // eslint-disable-next-line no-console
         } else console.log(...message);
-      }
+      };
       messages.forEach((v) => v && logToConsole(...v));
     }
   }));
@@ -140,18 +140,3 @@ module.exports = {
   queue,
   createThis,
 };
-
-
-if (!module.parent) {
-  const bangumiData = require('bangumi-data');
-  (async () => {
-    async function queueItem(bgmItem) {
-      while (true) {
-        const test = new Promise((res) => setTimeout(() => res(bgmItem.title), 10));
-        this.log.v(await this.awaitTimeout(test));
-      }
-    }
-    // console.log(...[chalk.red(inspect(new Error("233")).toString())])
-    await queue(bangumiData.items, queueItem, 5, 100);
-  })();
-}
