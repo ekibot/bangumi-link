@@ -5,22 +5,31 @@
    "id": 192429,
    "name": "StartUp Season 1",
    "nameCN": "创业公司 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/a7/a4/192429_yAyFy.jpg",
-   "date": "2016-09-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/a7/a4/192429_yAyFy.jpg",
+   "date": "2016-09-06",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 227605,
    "name": "StartUp Season 2",
    "nameCN": "创业公司 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/69/f6/227605_0aluL.jpg",
-   "date": "2017-09-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/69/f6/227605_0aluL.jpg",
+   "date": "2017-09-28",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 267618,
    "name": "StartUp Season 3",
    "nameCN": "创业公司 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/c2/94/267618_rh3h3.jpg",
-   "date": "2018-11-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/94/267618_rh3h3.jpg",
+   "date": "2018-11-01",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 192429,
    "dst": 227605
+  },
+  {
+   "relate": "续集",
+   "src": 192429,
+   "dst": 267618
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 267618,
    "dst": 192429
+  },
+  {
+   "relate": "前传",
+   "src": 267618,
+   "dst": 227605
   }
  ]
 }

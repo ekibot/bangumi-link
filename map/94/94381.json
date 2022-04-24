@@ -4,19 +4,53 @@
   {
    "id": 94381,
    "name": "Re；Lord －ヘルフォルトの魔女とぬいぐるみ－",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/d2/94381_IEi4i.jpg",
-   "date": "2014-06-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/e4/d2/94381_IEi4i.jpg",
+   "date": "2014-06-27",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 116111,
    "name": "Re；Lord 第二章 ～ケルンの魔女と黒猫～",
-   "image": "//lain.bgm.tv/pic/cover/m/9b/98/116111_2wcwM.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/9b/98/116111_2wcwM.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2015-05-29",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 209715,
+   "name": "Re;Lord 第三章 グローセンの魔王と最後の魔女",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/fb/ae/209715_lg66z.jpg",
+   "type": 4,
+   "date": "2017-07-28",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 94381,
+   "dst": 116111
+  },
+  {
+   "relate": "前传",
+   "src": 116111,
+   "dst": 94381
+  },
+  {
+   "relate": "续集",
+   "src": 116111,
+   "dst": 209715
+  },
+  {
+   "relate": "前传",
+   "src": 209715,
    "dst": 116111
   }
  ]

@@ -5,22 +5,31 @@
    "id": 123702,
    "name": "陆小凤与花满楼",
    "nameCN": "陆小凤与花满楼",
-   "image": "//lain.bgm.tv/pic/cover/m/28/e2/123702_HU91x.jpg",
-   "date": "2015-01-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/e2/123702_HU91x.jpg",
+   "date": "2015-01-10",
+   "nsfw": false,
+   "platform": "华语剧",
+   "type": 6
   },
   {
    "id": 124614,
    "name": "陸小鳳",
    "nameCN": "陆小凤",
-   "image": "//lain.bgm.tv/pic/cover/m/21/83/124614_HG73K.jpg",
-   "date": "1976-12-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/21/83/124614_HG73K.jpg",
+   "date": "1976-12-06",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 294255,
    "name": "陸小鳳之鳳舞九天",
    "nameCN": "陆小凤之凤舞九天",
-   "image": "//lain.bgm.tv/pic/cover/m/55/06/294255_aRFfO.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/55/06/294255_aRFfO.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "不同演绎",
+   "src": 123702,
+   "dst": 294255
+  },
+  {
+   "relate": "不同演绎",
    "src": 124614,
    "dst": 123702
   },
   {
    "relate": "不同演绎",
+   "src": 124614,
+   "dst": 294255
+  },
+  {
+   "relate": "不同演绎",
    "src": 294255,
    "dst": 123702
+  },
+  {
+   "relate": "不同演绎",
+   "src": 294255,
+   "dst": 124614
   }
  ]
 }

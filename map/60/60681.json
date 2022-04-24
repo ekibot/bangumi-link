@@ -5,25 +5,39 @@
    "id": 60681,
    "name": "はなまる幼稚園",
    "nameCN": "花丸幼稚园",
-   "image": "//lain.bgm.tv/pic/cover/m/b1/be/60681_dNJRH.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/be/60681_dNJRH.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 61119,
    "name": "いろは坂、上がってすぐ。",
    "nameCN": "伊吕波坡道上、不远处",
-   "image": "//lain.bgm.tv/pic/cover/m/38/16/61119_phzpx.jpg",
-   "date": "2012-01-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/38/16/61119_phzpx.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 68319,
    "name": "シスプラス",
    "nameCN": "妹相伴+",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/06/68319_Nuqsq.jpg",
-   "date": "2010-07-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/06/68319_Nuqsq.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 60681,
+   "dst": 61119
+  },
   {
    "relate": "相同世界观",
    "src": 60681,
@@ -32,6 +46,16 @@
   {
    "relate": "相同世界观",
    "src": 61119,
+   "dst": 60681
+  },
+  {
+   "relate": "相同世界观",
+   "src": 61119,
+   "dst": 68319
+  },
+  {
+   "relate": "相同世界观",
+   "src": 68319,
    "dst": 60681
   },
   {

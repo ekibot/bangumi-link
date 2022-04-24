@@ -5,36 +5,51 @@
    "id": 44461,
    "name": "纳米核心",
    "nameCN": "纳米核心",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/9b/44461_2vVHi.jpg",
-   "date": "2014-02-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/9b/44461_2vVHi.jpg",
+   "date": "2014-02-14",
+   "nsfw": false,
+   "platform": "WEB",
+   "type": 2
   },
   {
    "id": 161941,
    "name": "纳米核心 第二季",
    "nameCN": "纳米核心 抉择篇",
-   "image": "//lain.bgm.tv/pic/cover/m/e9/c3/161941_j4bxP.jpg",
-   "date": "2016-04-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/e9/c3/161941_j4bxP.jpg",
+   "date": "2016-04-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 189780,
    "name": "纳米核心 第三季",
    "nameCN": "纳米核心 黄昏篇",
-   "image": "//lain.bgm.tv/pic/cover/m/95/20/189780_C57ok.jpg",
-   "date": "2017-08-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/95/20/189780_C57ok.jpg",
+   "date": "2017-08-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 227573,
    "name": "纳米核心 特别篇",
    "nameCN": "纳米核心 特别篇",
-   "image": "//lain.bgm.tv/pic/cover/m/12/13/227573_lYLKz.jpg",
-   "date": "2017-10-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/12/13/227573_lYLKz.jpg",
+   "date": "2017-10-11",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 252736,
    "name": "纳米学院",
    "nameCN": "纳米学院",
-   "image": "//lain.bgm.tv/pic/cover/m/d8/c2/252736_tE5O0.jpg",
-   "date": "2018-07-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/d8/c2/252736_tE5O0.jpg",
+   "date": "2018-07-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   }
  ],
  "relate": [
@@ -74,6 +89,11 @@
    "dst": 227573
   },
   {
+   "relate": "番外篇",
+   "src": 189780,
+   "dst": 252736
+  },
+  {
    "relate": "主线故事",
    "src": 227573,
    "dst": 189780
@@ -82,6 +102,16 @@
    "relate": "主线故事",
    "src": 252736,
    "dst": 44461
+  },
+  {
+   "relate": "主线故事",
+   "src": 252736,
+   "dst": 161941
+  },
+  {
+   "relate": "主线故事",
+   "src": 252736,
+   "dst": 189780
   }
  ]
 }

@@ -4,19 +4,38 @@
   {
    "id": 148022,
    "name": "オレの奴隷～氷川雫",
-   "image": "//lain.bgm.tv/pic/cover/m/ff/60/148022_JABbs.jpg",
-   "date": "2006-09-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/ff/60/148022_JABbs.jpg",
+   "date": "2006-09-22",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
+  },
+  {
+   "id": 148252,
+   "name": "クロス～狂気への道標～",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/9e/d4/148252_7X9p0.jpg",
+   "date": "2004-09-03",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 192223,
    "name": "クロス～狂気への道しるべ～",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/87/192223_ePe3g.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/87/192223_ePe3g.jpg",
+   "nameCN": "",
+   "type": 4
   },
   {
    "id": 192224,
    "name": "オレの恋人～氷川雫",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/11/192224_8frP1.jpg",
-   "date": "2006-09-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/11/192224_8frP1.jpg",
+   "date": "2006-09-22",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -27,8 +46,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 148022,
+   "dst": 192224
+  },
+  {
+   "relate": "相同世界观",
+   "src": 148252,
+   "dst": 148022
+  },
+  {
+   "relate": "相同世界观",
+   "src": 148252,
+   "dst": 192224
+  },
+  {
+   "relate": "相同世界观",
    "src": 192224,
    "dst": 148022
+  },
+  {
+   "relate": "相同世界观",
+   "src": 192224,
+   "dst": 192223
   }
  ]
 }

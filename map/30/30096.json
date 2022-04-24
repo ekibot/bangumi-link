@@ -2,15 +2,41 @@
  "id": 30096,
  "node": [
   {
+   "id": 29483,
+   "name": "VenusBlood -FRONTIER-",
+   "image": "https://lain.bgm.tv/pic/cover/m/f6/8b/29483_37dAB.jpg",
+   "nameCN": "",
+   "type": 4
+  },
+  {
+   "id": 30048,
+   "name": "VenusBlood－ABYSS－",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/83/ec/30048_H2xx9.jpg",
+   "date": "2011-09-30",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
    "id": 30096,
    "name": "VenusBlood -DESIRE-",
-   "image": "//lain.bgm.tv/pic/cover/m/5b/df/30096_4zp4z.jpg",
-   "date": "2009-09-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/df/30096_4zp4z.jpg",
+   "date": "2009-09-24",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 30097,
    "name": "VenusBlood -EMPIRE-",
-   "image": "//lain.bgm.tv/pic/cover/m/e9/88/30097_90m5i.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/e9/88/30097_90m5i.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2010-11-26",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 83843,
@@ -21,16 +47,50 @@
   {
    "id": 83844,
    "name": "VenusBlood -Chimera-",
-   "image": "/img/no_icon_subject.png",
-   "date": "2008-10-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/d0/83844_eyMZp.jpg",
+   "date": "2008-10-31",
+   "nameCN": "",
+   "type": 4
   },
   {
    "id": 323721,
    "name": "VenusBlood AfterDays Episode:2 風の双竜神",
-   "image": "//lain.bgm.tv/pic/cover/m/c7/7c/323721_l0WqQ.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/7c/323721_l0WqQ.jpg",
+   "nameCN": "",
+   "date": "2017-12-22",
+   "nsfw": false,
+   "platform": null
+  },
+  {
+   "id": 323724,
+   "name": "VenusBlood AfterDays Episode:5 温泉宿の守護女神",
+   "image": "https://lain.bgm.tv/pic/cover/m/81/98/323724_MBca9.jpg",
+   "nameCN": "",
+   "date": "2020-10-23",
+   "nsfw": false,
+   "platform": null
+  },
+  {
+   "id": 323725,
+   "name": "VenusBlood AfterDays Episode:6 後宮の絶対神",
+   "image": "https://lain.bgm.tv/pic/cover/m/21/6d/323725_5F0k5.jpg",
+   "nameCN": "",
+   "date": "2020-10-23",
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 30048,
+   "dst": 29483
+  },
+  {
+   "relate": "前传",
+   "src": 30048,
+   "dst": 30097
+  },
   {
    "relate": "续集",
    "src": 30096,
@@ -40,6 +100,16 @@
    "relate": "前传",
    "src": 30096,
    "dst": 83844
+  },
+  {
+   "relate": "续集",
+   "src": 30097,
+   "dst": 30048
+  },
+  {
+   "relate": "前传",
+   "src": 30097,
+   "dst": 30096
   },
   {
    "relate": "续集",
@@ -55,6 +125,16 @@
    "relate": "主线故事",
    "src": 323721,
    "dst": 30097
+  },
+  {
+   "relate": "主线故事",
+   "src": 323724,
+   "dst": 29483
+  },
+  {
+   "relate": "主线故事",
+   "src": 323725,
+   "dst": 29483
   }
  ]
 }

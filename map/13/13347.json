@@ -5,60 +5,89 @@
    "id": 13347,
    "name": "イナズマイレブン",
    "nameCN": "闪电十一人",
-   "image": "//lain.bgm.tv/pic/cover/m/61/3e/13347_U8UAz.jpg",
-   "date": "2008-08-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/61/3e/13347_U8UAz.jpg",
+   "date": "2008-08-22",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 13369,
    "name": "イナズマイレブン2~脅威の侵略者~ ファイア",
    "nameCN": "闪电十一人2 威胁的入侵者~烈焰",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/ed/13369_t2Gv5.jpg",
-   "date": "2009-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/ed/13369_t2Gv5.jpg",
+   "date": "2009-10-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": "NDS"
   },
   {
    "id": 13371,
    "name": "イナズマイレブン2~脅威の侵略者~ブリザード",
    "nameCN": "闪电十一人2 威胁的入侵者~暴雪",
-   "image": "//lain.bgm.tv/pic/cover/m/23/4f/13371_BFM6S.jpg",
-   "date": "2009-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/23/4f/13371_BFM6S.jpg",
+   "date": "2009-10-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": "NDS"
   },
   {
    "id": 13462,
    "name": "イナズマイレブン3 世界への挑戦!! スパーク",
    "nameCN": "闪电十一人3 世界的挑战!!火花",
-   "image": "//lain.bgm.tv/pic/cover/m/27/dc/13462_pQdAT.jpg",
-   "date": "2010-07-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/27/dc/13462_pQdAT.jpg",
+   "date": "2010-07-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 13727,
    "name": "イナズマイレブン3 世界への挑戦!! ボンバー",
    "nameCN": "闪电十一人3 世界的挑战!!爆裂",
-   "image": "//lain.bgm.tv/pic/cover/m/69/62/13727_A7a99.jpg",
-   "date": "2010-07-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/69/62/13727_A7a99.jpg",
+   "date": "2010-07-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 21896,
    "name": "イナズマイレブン ストライカーズ",
    "nameCN": "闪电十一人：强袭者",
-   "image": "//lain.bgm.tv/pic/cover/m/09/35/21896_3J09J.jpg",
-   "date": "2011-07-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/09/35/21896_3J09J.jpg",
+   "date": "2011-07-16",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 22039,
    "name": "イナズマイレブン3 世界への挑戦!! ジ・オーガ",
    "nameCN": "闪电十一人3:面向世界的挑战!! The 王牙",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/2e/22039_L3lwL.jpg",
-   "date": "2010-12-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/2e/22039_L3lwL.jpg",
+   "date": "2010-12-16",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 30655,
    "name": "イナズマイレブン ストライカーズ 2012 エクストリーム",
    "nameCN": "闪电十一人 王牌前锋 2012 Xtreme",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/75/30655_uFFao.jpg",
-   "date": "2011-12-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/75/30655_uFFao.jpg",
+   "date": "2011-12-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 13347,
+   "dst": 13369
+  },
   {
    "relate": "续集",
    "src": 13347,
@@ -77,7 +106,17 @@
   {
    "relate": "续集",
    "src": 13369,
+   "dst": 13462
+  },
+  {
+   "relate": "续集",
+   "src": 13369,
    "dst": 13727
+  },
+  {
+   "relate": "续集",
+   "src": 13369,
+   "dst": 22039
   },
   {
    "relate": "前传",
@@ -92,12 +131,32 @@
   {
    "relate": "续集",
    "src": 13371,
+   "dst": 13462
+  },
+  {
+   "relate": "续集",
+   "src": 13371,
    "dst": 13727
+  },
+  {
+   "relate": "续集",
+   "src": 13371,
+   "dst": 22039
   },
   {
    "relate": "前传",
    "src": 13462,
    "dst": 13369
+  },
+  {
+   "relate": "前传",
+   "src": 13462,
+   "dst": 13371
+  },
+  {
+   "relate": "不同演绎",
+   "src": 13462,
+   "dst": 13727
   },
   {
    "relate": "不同演绎",
@@ -110,9 +169,19 @@
    "dst": 13369
   },
   {
+   "relate": "前传",
+   "src": 13727,
+   "dst": 13371
+  },
+  {
    "relate": "不同演绎",
    "src": 13727,
    "dst": 13462
+  },
+  {
+   "relate": "不同演绎",
+   "src": 13727,
+   "dst": 22039
   },
   {
    "relate": "主线故事",
@@ -130,9 +199,19 @@
    "dst": 13369
   },
   {
+   "relate": "前传",
+   "src": 22039,
+   "dst": 13371
+  },
+  {
    "relate": "不同演绎",
    "src": 22039,
    "dst": 13462
+  },
+  {
+   "relate": "不同演绎",
+   "src": 22039,
+   "dst": 13727
   },
   {
    "relate": "前传",

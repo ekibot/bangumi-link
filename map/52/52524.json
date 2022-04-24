@@ -5,50 +5,71 @@
    "id": 52524,
    "name": "Shadowrun",
    "nameCN": "暗影狂奔",
-   "image": "//lain.bgm.tv/pic/cover/m/32/0d/52524_M1AFL.jpg",
-   "date": "2007-06-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/32/0d/52524_M1AFL.jpg",
+   "date": "2007-06-23",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 88623,
    "name": "Shadowrun (1993 video game)",
    "nameCN": "暗影狂奔",
-   "image": "//lain.bgm.tv/pic/cover/m/68/71/88623_N7j83.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/68/71/88623_N7j83.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 88624,
    "name": "Shadowrun (1994 video game)",
    "nameCN": "暗影狂奔",
-   "image": "//lain.bgm.tv/pic/cover/m/09/af/88624_eTC6e.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/09/af/88624_eTC6e.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 88625,
    "name": "シャドウラン",
    "nameCN": "暗影狂奔",
-   "image": "//lain.bgm.tv/pic/cover/m/78/02/88625_u5bBB.jpg",
-   "date": "1996-04-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/02/88625_u5bBB.jpg",
+   "date": "1996-04-23",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 88626,
    "name": "Shadowrun Returns",
    "nameCN": "暗影狂奔 归来",
-   "image": "//lain.bgm.tv/pic/cover/m/83/51/88626_0Ws42.jpg",
-   "date": "2013-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/83/51/88626_0Ws42.jpg",
+   "date": "2013-07-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 145330,
    "name": "Shadowrun: Hong Kong",
    "nameCN": "暗影狂奔：香港",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/6f/145330_7ukd0.jpg",
-   "date": "2015-08-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/6f/145330_7ukd0.jpg",
+   "date": "2015-08-20",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 145331,
    "name": "Shadowrun: Dragonfall",
    "nameCN": "暗影狂奔：龙陨",
-   "image": "//lain.bgm.tv/pic/cover/m/b7/08/145331_0iIAz.jpg",
-   "date": "2014-09-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/b7/08/145331_0iIAz.jpg",
+   "date": "2014-09-18",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -60,7 +81,17 @@
   {
    "relate": "相同世界观",
    "src": 52524,
+   "dst": 145330
+  },
+  {
+   "relate": "相同世界观",
+   "src": 52524,
    "dst": 145331
+  },
+  {
+   "relate": "相同世界观",
+   "src": 88623,
+   "dst": 145330
   },
   {
    "relate": "相同世界观",
@@ -70,7 +101,17 @@
   {
    "relate": "相同世界观",
    "src": 88624,
+   "dst": 145330
+  },
+  {
+   "relate": "相同世界观",
+   "src": 88624,
    "dst": 145331
+  },
+  {
+   "relate": "相同世界观",
+   "src": 88625,
+   "dst": 145330
   },
   {
    "relate": "相同世界观",
@@ -90,7 +131,37 @@
   {
    "relate": "相同世界观",
    "src": 145330,
+   "dst": 52524
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145330,
    "dst": 88623
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145330,
+   "dst": 88624
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145330,
+   "dst": 88625
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145330,
+   "dst": 88626
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145330,
+   "dst": 145331
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145331,
+   "dst": 52524
   },
   {
    "relate": "相同世界观",
@@ -98,9 +169,24 @@
    "dst": 88623
   },
   {
+   "relate": "相同世界观",
+   "src": 145331,
+   "dst": 88624
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145331,
+   "dst": 88625
+  },
+  {
    "relate": "主线故事",
    "src": 145331,
    "dst": 88626
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145331,
+   "dst": 145330
   }
  ]
 }

@@ -5,36 +5,51 @@
    "id": 52519,
    "name": "MechCommander",
    "nameCN": "机甲指挥官",
-   "image": "//lain.bgm.tv/pic/cover/m/9c/d1/52519_99XLs.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/9c/d1/52519_99XLs.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 52520,
    "name": "MechCommander 2",
    "nameCN": "机甲指挥官2",
-   "image": "//lain.bgm.tv/pic/cover/m/1b/7f/52520_kbYji.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/1b/7f/52520_kbYji.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 149556,
    "name": "MechWarrior 4: Mercenaries",
    "nameCN": "机甲战士4：雇佣军",
-   "image": "//lain.bgm.tv/pic/cover/m/2e/3a/149556_W2ClA.jpg",
-   "date": "2002-11-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/2e/3a/149556_W2ClA.jpg",
+   "date": "2002-11-07",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 243907,
    "name": "BattleTech",
    "nameCN": "战斗机甲",
-   "image": "//lain.bgm.tv/pic/cover/m/50/2d/243907_6opa1.jpg",
-   "date": "2018-04-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/50/2d/243907_6opa1.jpg",
+   "date": "2018-04-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 293672,
    "name": "MechWarrior 5: Mercenaries",
    "nameCN": "机甲战士5：雇佣兵",
-   "image": "//lain.bgm.tv/pic/cover/m/2d/eb/293672_yJ75Y.jpg",
-   "date": "2019-12-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/2d/eb/293672_yJ75Y.jpg",
+   "date": "2019-12-10",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -54,6 +69,11 @@
    "dst": 243907
   },
   {
+   "relate": "相同世界观",
+   "src": 52519,
+   "dst": 293672
+  },
+  {
    "relate": "前传",
    "src": 52520,
    "dst": 52519
@@ -70,8 +90,18 @@
   },
   {
    "relate": "相同世界观",
+   "src": 52520,
+   "dst": 293672
+  },
+  {
+   "relate": "相同世界观",
    "src": 149556,
    "dst": 52519
+  },
+  {
+   "relate": "相同世界观",
+   "src": 149556,
+   "dst": 52520
   },
   {
    "relate": "不同世界观",
@@ -89,9 +119,29 @@
    "dst": 52519
   },
   {
+   "relate": "不同世界观",
+   "src": 243907,
+   "dst": 52520
+  },
+  {
+   "relate": "不同世界观",
+   "src": 243907,
+   "dst": 149556
+  },
+  {
+   "relate": "不同世界观",
+   "src": 243907,
+   "dst": 293672
+  },
+  {
    "relate": "相同世界观",
    "src": 293672,
    "dst": 52519
+  },
+  {
+   "relate": "相同世界观",
+   "src": 293672,
+   "dst": 52520
   },
   {
    "relate": "前传",

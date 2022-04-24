@@ -4,20 +4,31 @@
   {
    "id": 47100,
    "name": "らぶ☆どろ ～LoveDrops～",
-   "image": "//lain.bgm.tv/pic/cover/m/bb/3a/47100_FssCq.jpg",
-   "date": "2007-05-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/bb/3a/47100_FssCq.jpg",
+   "date": "2007-05-31",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 59441,
    "name": "Love☆Drops みらくる同居物語 公式ビジュアルファンブック",
-   "image": "//lain.bgm.tv/pic/cover/m/04/c7/59441_jp.jpg",
-   "date": "2006-06-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/04/c7/59441_jp.jpg",
+   "date": "2006-06-30",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "画集"
   },
   {
    "id": 60074,
    "name": "Love☆Drops 〜みらくる同居物語〜",
    "nameCN": "Love☆Drops：奇迹同居物语",
-   "image": "//lain.bgm.tv/pic/cover/m/17/cd/60074_l65wj.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/17/cd/60074_l65wj.jpg",
+   "type": 4,
+   "date": "2006-03-03",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -30,6 +41,11 @@
    "relate": "主线故事",
    "src": 59441,
    "dst": 60074
+  },
+  {
+   "relate": "不同演绎",
+   "src": 60074,
+   "dst": 47100
   }
  ]
 }

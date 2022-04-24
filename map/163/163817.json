@@ -5,21 +5,39 @@
    "id": 111282,
    "name": "やたもも",
    "nameCN": "八田百田",
-   "image": "//lain.bgm.tv/pic/cover/m/b1/9f/111282_jp.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/9f/111282_jp.jpg",
+   "date": "2014-08-16",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 163817,
    "name": "やたもも2",
-   "image": "//lain.bgm.tv/pic/cover/m/21/ee/163817_GB6pG.jpg",
-   "date": "2017-04-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/21/ee/163817_GB6pG.jpg",
+   "date": "2017-04-27",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 210193,
    "name": "やたもも 3",
-   "image": "//lain.bgm.tv/pic/cover/m/9c/85/210193_DLRzz.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/9c/85/210193_DLRzz.jpg",
+   "nameCN": "",
+   "type": 1,
+   "date": "2017-04-27",
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 111282,
+   "dst": 163817
+  },
   {
    "relate": "前传",
    "src": 163817,
@@ -29,6 +47,11 @@
    "relate": "续集",
    "src": 163817,
    "dst": 210193
+  },
+  {
+   "relate": "前传",
+   "src": 210193,
+   "dst": 163817
   }
  ]
 }

@@ -5,36 +5,51 @@
    "id": 75882,
    "name": "The Incredible Adventures of Van Helsing",
    "nameCN": "范海辛的惊奇之旅",
-   "image": "//lain.bgm.tv/pic/cover/m/5f/9e/75882_XSt7d.jpg",
-   "date": "2013-05-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/5f/9e/75882_XSt7d.jpg",
+   "date": "2013-05-22",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 111680,
    "name": "The Incredible Adventures of Van Helsing II",
    "nameCN": "范海辛的奇妙冒险2",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/3e/111680_Ggx2z.jpg",
-   "date": "2014-05-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/e4/3e/111680_Ggx2z.jpg",
+   "date": "2014-05-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 203411,
    "name": "World of Van Helsing: Deathtrap",
    "nameCN": "范海辛的世界：死亡陷阱",
-   "image": "//lain.bgm.tv/pic/cover/m/b0/db/203411_Qq30l.jpg",
-   "date": "2017-01-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/b0/db/203411_Qq30l.jpg",
+   "date": "2017-01-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 205258,
    "name": "The Incredible Adventures of Van Helsing III",
    "nameCN": "范海辛的奇妙冒险3",
-   "image": "//lain.bgm.tv/pic/cover/m/64/ad/205258_5S72P.jpg",
-   "date": "2015-05-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/64/ad/205258_5S72P.jpg",
+   "date": "2015-05-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 282407,
    "name": "The Incredible Adventures of Van Helsing: Final Cut",
    "nameCN": "范海辛的奇妙冒险:终极剪辑版",
-   "image": "//lain.bgm.tv/pic/cover/m/73/e0/282407_Zme7X.jpg",
-   "date": "2015-11-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/73/e0/282407_Zme7X.jpg",
+   "date": "2015-11-06",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -79,6 +94,11 @@
    "dst": 75882
   },
   {
+   "relate": "相同世界观",
+   "src": 203411,
+   "dst": 111680
+  },
+  {
    "relate": "前传",
    "src": 205258,
    "dst": 111680
@@ -92,6 +112,16 @@
    "relate": "不同演绎",
    "src": 282407,
    "dst": 75882
+  },
+  {
+   "relate": "不同演绎",
+   "src": 282407,
+   "dst": 111680
+  },
+  {
+   "relate": "不同演绎",
+   "src": 282407,
+   "dst": 205258
   }
  ]
 }

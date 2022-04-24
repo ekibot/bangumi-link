@@ -5,26 +5,41 @@
    "id": 91659,
    "name": "健全ロボ ダイミダラー",
    "nameCN": "健全机斗士",
-   "image": "//lain.bgm.tv/pic/cover/m/25/ac/91659_h8Vsh.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/25/ac/91659_h8Vsh.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 135031,
    "name": "火星ロボ大決戦！",
    "nameCN": "火星机器人大决战！",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/fe/135031_D6F00.jpg",
-   "date": "2004-07-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/fe/135031_D6F00.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 207037,
    "name": "健全ロボ ダイミダラーOGS",
    "nameCN": "健全机斗士OGS",
-   "image": "//lain.bgm.tv/pic/cover/m/18/ce/207037_79DBz.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/18/ce/207037_79DBz.jpg",
+   "type": 1,
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 222396,
    "name": "カニメガ大接戦！",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/81/222396_Pz9y7.jpg",
-   "date": "2005-01-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/81/222396_Pz9y7.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -40,6 +55,16 @@
   },
   {
    "relate": "相同世界观",
+   "src": 91659,
+   "dst": 222396
+  },
+  {
+   "relate": "相同世界观",
+   "src": 135031,
+   "dst": 91659
+  },
+  {
+   "relate": "相同世界观",
    "src": 135031,
    "dst": 222396
   },
@@ -52,6 +77,11 @@
    "relate": "相同世界观",
    "src": 222396,
    "dst": 91659
+  },
+  {
+   "relate": "相同世界观",
+   "src": 222396,
+   "dst": 135031
   }
  ]
 }

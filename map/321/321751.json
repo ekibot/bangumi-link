@@ -4,41 +4,70 @@
   {
    "id": 280963,
    "name": "Seek Girl",
-   "image": "//lain.bgm.tv/pic/cover/m/8a/9f/280963_E9VYJ.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/8a/9f/280963_E9VYJ.jpg",
+   "nameCN": "",
+   "date": "2019-03-15",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 293934,
    "name": "Seek Girl Ⅱ",
-   "image": "//lain.bgm.tv/pic/cover/m/6f/07/293934_WaVEO.jpg",
-   "date": "2019-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/6f/07/293934_WaVEO.jpg",
+   "date": "2019-10-01",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 298159,
    "name": "Seek Girl Ⅲ",
-   "image": "//lain.bgm.tv/pic/cover/m/9f/8f/298159_966y8.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/9f/8f/298159_966y8.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2019-12-06",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 298160,
    "name": "Seek Girl Ⅳ",
-   "image": "//lain.bgm.tv/pic/cover/m/a0/8e/298160_032X9.jpg",
-   "date": "2020-01-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/a0/8e/298160_032X9.jpg",
+   "date": "2020-01-10",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 321749,
    "name": "Seek Girl V",
-   "image": "//lain.bgm.tv/pic/cover/m/d1/d8/321749_tSJZZ.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/d1/d8/321749_tSJZZ.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2020-08-28",
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 321751,
    "name": "Seek Girl Ⅵ",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/6c/321751_zrfw4.jpg",
-   "date": "2020-09-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/6c/321751_zrfw4.jpg",
+   "date": "2020-09-30",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 351101,
    "name": "Seek Girl Ⅶ",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-12-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/25/351101_kFnfz.jpg",
+   "date": "2020-12-11",
+   "nameCN": "",
+   "type": 4
   },
   {
    "id": 351102,
@@ -48,6 +77,11 @@
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 280963,
+   "dst": 293934
+  },
   {
    "relate": "前传",
    "src": 293934,
@@ -60,6 +94,16 @@
   },
   {
    "relate": "前传",
+   "src": 298159,
+   "dst": 293934
+  },
+  {
+   "relate": "续集",
+   "src": 298159,
+   "dst": 298160
+  },
+  {
+   "relate": "前传",
    "src": 298160,
    "dst": 298159
   },
@@ -67,6 +111,16 @@
    "relate": "续集",
    "src": 298160,
    "dst": 321749
+  },
+  {
+   "relate": "前传",
+   "src": 321749,
+   "dst": 298160
+  },
+  {
+   "relate": "续集",
+   "src": 321749,
+   "dst": 321751
   },
   {
    "relate": "前传",

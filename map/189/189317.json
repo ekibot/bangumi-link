@@ -5,22 +5,31 @@
    "id": 8601,
    "name": "まよチキ！",
    "nameCN": "迷茫管家与懦弱的我",
-   "image": "//lain.bgm.tv/pic/cover/m/d2/ab/8601_F6jF6.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/d2/ab/8601_F6jF6.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 87909,
    "name": "まよチキ!",
    "nameCN": "迷茫管家与懦弱的我",
-   "image": "//lain.bgm.tv/pic/cover/m/15/5c/87909_0kh6o.jpg",
-   "date": "2010-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/5c/87909_0kh6o.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 189317,
    "name": "まよマヨ！",
    "nameCN": "迷茫女仆！",
-   "image": "//lain.bgm.tv/pic/cover/m/3e/b1/189317_7fiiq.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/3e/b1/189317_7fiiq.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -33,6 +42,11 @@
    "relate": "番外篇",
    "src": 87909,
    "dst": 189317
+  },
+  {
+   "relate": "主线故事",
+   "src": 189317,
+   "dst": 8601
   },
   {
    "relate": "主线故事",

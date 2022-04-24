@@ -5,20 +5,31 @@
    "id": 258197,
    "name": "告死天使之言",
    "nameCN": "告死天使之言",
-   "image": "//lain.bgm.tv/pic/cover/m/02/80/258197_o4zpc.jpg",
-   "date": "2019-08-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/02/80/258197_o4zpc.jpg",
+   "date": "2019-08-10",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 326499,
    "name": "告死天使的审判-Death Angel Trial",
    "nameCN": "告死天使的审判",
-   "image": "//lain.bgm.tv/pic/cover/m/2c/08/326499_urRNr.jpg",
-   "date": "2020-08-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/2c/08/326499_urRNr.jpg",
+   "date": "2020-08-03",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 378066,
    "name": "花之殇",
-   "date": "2016-04-01"
+   "date": "2016-04-01",
+   "nameCN": "",
+   "image": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -38,9 +49,19 @@
    "dst": 258197
   },
   {
+   "relate": "前传",
+   "src": 326499,
+   "dst": 378066
+  },
+  {
    "relate": "续集",
    "src": 378066,
    "dst": 258197
+  },
+  {
+   "relate": "续集",
+   "src": 378066,
+   "dst": 326499
   }
  ]
 }

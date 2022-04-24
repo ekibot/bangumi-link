@@ -5,26 +5,41 @@
    "id": 182418,
    "name": "善悪の屑",
    "nameCN": "善恶的屑",
-   "image": "//lain.bgm.tv/pic/cover/m/08/05/182418_Og4D4.jpg",
-   "date": "2014-04-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/08/05/182418_Og4D4.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 182419,
    "name": "外道の歌",
-   "image": "//lain.bgm.tv/pic/cover/m/71/df/182419_PDDS7.jpg",
-   "date": "2016-03-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/71/df/182419_PDDS7.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 271985,
    "name": "園田の歌",
-   "image": "//lain.bgm.tv/pic/cover/m/5f/3e/271985_dP11U.jpg",
-   "date": "2018-11-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/5f/3e/271985_dP11U.jpg",
+   "date": "2018-11-26",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 332211,
    "name": "朝食会",
-   "image": "//lain.bgm.tv/pic/cover/m/71/f5/332211_C5Xr6.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/71/f5/332211_C5Xr6.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -46,6 +61,11 @@
   {
    "relate": "番外篇",
    "src": 182419,
+   "dst": 271985
+  },
+  {
+   "relate": "番外篇",
+   "src": 182419,
    "dst": 332211
   },
   {
@@ -57,6 +77,11 @@
    "relate": "主线故事",
    "src": 332211,
    "dst": 182418
+  },
+  {
+   "relate": "主线故事",
+   "src": 332211,
+   "dst": 182419
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 1848,
    "name": "R.O.D -READ OR DIE-",
    "nameCN": "读或死 OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/73/85/1848_xDV0e.jpg",
-   "date": "2001-05-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/73/85/1848_xDV0e.jpg",
+   "date": "2001-05-23",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 1850,
    "name": "R.O.D -THE TV-",
    "nameCN": "读或死 TV",
-   "image": "//lain.bgm.tv/pic/cover/m/8c/30/1850_mR0z4.jpg",
-   "date": "2003-09-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/8c/30/1850_mR0z4.jpg",
+   "date": "2003-09-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 190731,
    "name": "R.O.D",
    "nameCN": "R.O.D",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/d0/190731_aFQ5z.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/d0/190731_aFQ5z.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -48,6 +57,11 @@
    "relate": "相同世界观",
    "src": 190731,
    "dst": 1848
+  },
+  {
+   "relate": "相同世界观",
+   "src": 190731,
+   "dst": 1850
   }
  ]
 }

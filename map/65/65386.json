@@ -5,21 +5,31 @@
    "id": 65385,
    "name": "ひとりのクオリア",
    "nameCN": "一个人的感质空间",
-   "image": "//lain.bgm.tv/pic/cover/m/f7/7a/65385_aSWHE.jpg",
-   "date": "2014-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/f7/7a/65385_aSWHE.jpg",
+   "date": "2014-07-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 65386,
    "name": "ふたりのクオリア",
    "nameCN": "两个人的感质空间",
-   "image": "//lain.bgm.tv/pic/cover/m/15/c4/65386_GDKGL.jpg",
-   "date": "2014-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/c4/65386_GDKGL.jpg",
+   "date": "2014-07-25",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 373627,
    "name": "おわりのクオリア",
-   "image": "//lain.bgm.tv/pic/cover/m/22/d5/373627_G9v95.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/22/d5/373627_G9v95.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -29,14 +39,29 @@
    "dst": 65386
   },
   {
+   "relate": "续集",
+   "src": 65385,
+   "dst": 373627
+  },
+  {
    "relate": "相同世界观",
    "src": 65386,
    "dst": 65385
   },
   {
+   "relate": "续集",
+   "src": 65386,
+   "dst": 373627
+  },
+  {
    "relate": "前传",
    "src": 373627,
    "dst": 65385
+  },
+  {
+   "relate": "前传",
+   "src": 373627,
+   "dst": 65386
   }
  ]
 }

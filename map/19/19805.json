@@ -3,22 +3,33 @@
  "node": [
   {
    "id": 19804,
-   "name": "9S<ナインエス> memories",
-   "image": "//lain.bgm.tv/pic/cover/m/92/e0/19804_jp.jpg",
-   "date": "2007-12-10"
+   "name": "9S&lt;ナインエス&gt; memories",
+   "image": "https://lain.bgm.tv/pic/cover/m/92/e0/19804_jp.jpg",
+   "date": "2007-12-10",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 19805,
-   "name": "9S<ないんえす? > SS",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/a4/19805_jp.jpg",
-   "date": null
+   "name": "9S&lt;ないんえす? &gt; SS",
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/a4/19805_jp.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 19806,
    "name": "9S",
    "nameCN": "9S 遗产尖兵",
-   "image": "//lain.bgm.tv/pic/cover/m/42/85/19806_tgvud.jpg",
-   "date": "2003-09-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/42/85/19806_tgvud.jpg",
+   "date": "2003-09-01",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -36,6 +47,11 @@
    "relate": "番外篇",
    "src": 19806,
    "dst": 19804
+  },
+  {
+   "relate": "番外篇",
+   "src": 19806,
+   "dst": 19805
   }
  ]
 }

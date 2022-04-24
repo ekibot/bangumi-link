@@ -5,45 +5,66 @@
    "id": 845,
    "name": "リトルバスターズ！エクスタシー",
    "nameCN": "Little Busters! EX",
-   "image": "//lain.bgm.tv/pic/cover/m/b8/6e/845_u43XO.jpg",
-   "date": "2008-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/b8/6e/845_u43XO.jpg",
+   "date": "2008-07-25",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 4502,
    "name": "クドわふたー",
    "nameCN": "库特wafter",
-   "image": "//lain.bgm.tv/pic/cover/m/76/7b/4502_6aFx1.jpg",
-   "date": "2010-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/76/7b/4502_6aFx1.jpg",
+   "date": "2010-06-25",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 45938,
    "name": "リトルバスターズ！コンバーティッドエディション",
    "nameCN": "Little Busters! Converted Edition",
-   "image": "//lain.bgm.tv/pic/cover/m/c0/d6/45938_eCc02.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/c0/d6/45938_eCc02.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 84256,
    "name": "クドわふたー Converted Edition",
    "nameCN": "库特wafter 改装版",
-   "image": "//lain.bgm.tv/pic/cover/m/58/e5/84256_IbYzv.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/58/e5/84256_IbYzv.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 101380,
    "name": "棗恭介风来记",
    "nameCN": "棗恭介风来记",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/e0/101380_pD7xH.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/6e/e0/101380_pD7xH.jpg",
+   "type": 1
   },
   {
    "id": 125131,
    "name": "リトルバスターズ！",
    "nameCN": "Little Busters!",
-   "image": "//lain.bgm.tv/pic/cover/m/78/49/125131_x4hmy.jpg",
-   "date": "2007-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/49/125131_x4hmy.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 845,
+   "dst": 45938
+  },
   {
    "relate": "不同演绎",
    "src": 845,
@@ -66,6 +87,11 @@
   },
   {
    "relate": "不同演绎",
+   "src": 45938,
+   "dst": 125131
+  },
+  {
+   "relate": "不同演绎",
    "src": 84256,
    "dst": 4502
   },
@@ -73,6 +99,11 @@
    "relate": "不同演绎",
    "src": 125131,
    "dst": 845
+  },
+  {
+   "relate": "不同演绎",
+   "src": 125131,
+   "dst": 45938
   },
   {
    "relate": "番外篇",

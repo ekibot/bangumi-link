@@ -5,27 +5,41 @@
    "id": 155281,
    "name": "ラクエンロジック",
    "nameCN": "幸运逻辑",
-   "image": "//lain.bgm.tv/pic/cover/m/ad/ed/155281_WM8j5.jpg",
-   "date": "2016-01-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/ad/ed/155281_WM8j5.jpg",
+   "date": "2016-01-09",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 175362,
    "name": "ひなろじ 〜from Luck ＆ Logic〜",
    "nameCN": "雏逻辑 from Luck ＆ Logic",
-   "image": "//lain.bgm.tv/pic/cover/m/5c/70/175362_1f848.jpg",
-   "date": "2017-06-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/5c/70/175362_1f848.jpg",
+   "date": "2017-06-24",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 259626,
    "name": "私たち、らくろじ部！",
-   "image": "//lain.bgm.tv/pic/cover/m/79/e5/259626_IfhES.jpg",
-   "date": "2016-01-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/79/e5/259626_IfhES.jpg",
+   "date": "2016-01-09",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 259628,
    "name": "私たち、らくろじ部！ 2期",
-   "image": "//lain.bgm.tv/pic/cover/m/91/17/259628_Ff4MD.jpg",
-   "date": "2016-08-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/91/17/259628_Ff4MD.jpg",
+   "date": "2016-08-01",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -40,19 +54,24 @@
    "dst": 259626
   },
   {
+   "relate": "不同世界观",
+   "src": 155281,
+   "dst": 259628
+  },
+  {
    "relate": "相同世界观",
    "src": 175362,
    "dst": 155281
   },
   {
    "relate": "不同世界观",
-   "src": 175362,
-   "dst": 259626
+   "src": 259626,
+   "dst": 155281
   },
   {
    "relate": "不同世界观",
    "src": 259626,
-   "dst": 155281
+   "dst": 175362
   },
   {
    "relate": "续集",
@@ -63,6 +82,11 @@
    "relate": "不同世界观",
    "src": 259628,
    "dst": 155281
+  },
+  {
+   "relate": "不同世界观",
+   "src": 259628,
+   "dst": 175362
   },
   {
    "relate": "前传",

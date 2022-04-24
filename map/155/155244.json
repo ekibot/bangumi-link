@@ -4,20 +4,32 @@
   {
    "id": 155244,
    "name": "咎人のくちづけ",
-   "image": "//lain.bgm.tv/pic/cover/m/78/5b/155244_jp.jpg",
-   "date": "2013-10-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/5b/155244_jp.jpg",
+   "date": "2013-10-31",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 165128,
    "name": "あかつきの塔の魔術師",
-   "image": "//lain.bgm.tv/pic/cover/m/2d/3e/165128_jp.jpg",
-   "date": "2013-02-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/2d/3e/165128_jp.jpg",
+   "date": "2013-02-28",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 165133,
    "name": "蒼穹の剣士と漆黒の騎士",
-   "image": "//lain.bgm.tv/pic/cover/m/b8/64/165133_jp.jpg",
-   "date": "2010-04-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/b8/64/165133_jp.jpg",
+   "date": "2010-04-28",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -28,13 +40,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 155244,
+   "dst": 165133
+  },
+  {
+   "relate": "相同世界观",
    "src": 165128,
    "dst": 155244
   },
   {
    "relate": "相同世界观",
+   "src": 165128,
+   "dst": 165133
+  },
+  {
+   "relate": "相同世界观",
    "src": 165133,
    "dst": 155244
+  },
+  {
+   "relate": "相同世界观",
+   "src": 165133,
+   "dst": 165128
   }
  ]
 }

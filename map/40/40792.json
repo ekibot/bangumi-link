@@ -4,20 +4,42 @@
   {
    "id": 40792,
    "name": "辻堂さんの純愛ロード",
-   "image": "//lain.bgm.tv/pic/cover/m/47/44/40792_QKo66.jpg",
-   "date": "2012-09-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/47/44/40792_QKo66.jpg",
+   "date": "2012-09-28",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 70604,
    "name": "辻堂さんのバージンロード",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/22/70604_48wTr.jpg",
-   "date": "2013-08-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/22/70604_48wTr.jpg",
+   "date": "2013-08-30",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
+  },
+  {
+   "id": 113764,
+   "name": "姉小路直子と銀色の死神",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/2e/05/113764_00Cc0.jpg",
+   "date": "2015-03-27",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 213195,
    "name": "みなとカーニバルFD",
-   "image": "//lain.bgm.tv/pic/cover/m/a6/99/213195_l9WgK.jpg",
-   "date": "2017-08-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/a6/99/213195_l9WgK.jpg",
+   "date": "2017-08-25",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -25,6 +47,11 @@
    "relate": "续集",
    "src": 40792,
    "dst": 70604
+  },
+  {
+   "relate": "续集",
+   "src": 40792,
+   "dst": 213195
   },
   {
    "relate": "前传",
@@ -37,9 +64,19 @@
    "dst": 213195
   },
   {
+   "relate": "续集",
+   "src": 113764,
+   "dst": 213195
+  },
+  {
    "relate": "前传",
    "src": 213195,
    "dst": 70604
+  },
+  {
+   "relate": "前传",
+   "src": 213195,
+   "dst": 113764
   }
  ]
 }

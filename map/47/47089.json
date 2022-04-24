@@ -5,21 +5,31 @@
    "id": 47089,
    "name": "フルハウスキス2",
    "nameCN": "恋爱家政妇二",
-   "image": "//lain.bgm.tv/pic/cover/m/d2/3f/47089_2Gzp2.jpg",
-   "date": "2006-02-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/d2/3f/47089_2Gzp2.jpg",
+   "date": "2006-02-23",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 55448,
    "name": "フルハウスキス",
    "nameCN": "恋爱家政妇",
-   "image": "//lain.bgm.tv/pic/cover/m/66/80/55448_jYb1E.jpg",
-   "date": "2006-12-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/66/80/55448_jYb1E.jpg",
+   "date": "2006-12-21",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 55450,
    "name": "フルハウスキス2～恋愛迷宮～",
-   "image": "//lain.bgm.tv/pic/cover/m/b2/4d/55450_3cj84.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/b2/4d/55450_3cj84.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   }
  ],
  "relate": [
@@ -39,9 +49,19 @@
    "dst": 47089
   },
   {
+   "relate": "续集",
+   "src": 55448,
+   "dst": 55450
+  },
+  {
    "relate": "前传",
    "src": 55450,
    "dst": 47089
+  },
+  {
+   "relate": "前传",
+   "src": 55450,
+   "dst": 55448
   }
  ]
 }

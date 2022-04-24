@@ -5,36 +5,49 @@
    "id": 64098,
    "name": "The Jungle Book",
    "nameCN": "森林王子",
-   "image": "//lain.bgm.tv/pic/cover/m/0e/25/64098_l6744.jpg",
-   "date": "1967-10-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/0e/25/64098_l6744.jpg",
+   "date": "1967-10-18",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 112890,
    "name": "The Jungle Book 2",
    "nameCN": "森林王子2",
-   "image": "//lain.bgm.tv/pic/cover/m/d7/f9/112890_v8PHZ.jpg",
-   "date": "2003-04-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/d7/f9/112890_v8PHZ.jpg",
+   "date": "2003-04-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 140974,
    "name": "ジャングルブック・少年モーグリ",
    "nameCN": "森林王子 少年毛克利",
-   "image": "//lain.bgm.tv/pic/cover/m/3a/d7/140974_0zMB0.jpg",
-   "date": "1989-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/3a/d7/140974_0zMB0.jpg",
+   "date": "1989-10-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 178533,
    "name": "The Jungle Book",
    "nameCN": "奇幻森林",
-   "image": "//lain.bgm.tv/pic/cover/m/56/bf/178533_1f5I6.jpg",
-   "date": "2016-04-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/56/bf/178533_1f5I6.jpg",
+   "date": "2016-04-04",
+   "type": 2
   },
   {
    "id": 363082,
    "name": "The Jungle Book",
    "nameCN": "奇幻森林",
-   "image": "//lain.bgm.tv/pic/cover/m/56/bf/178533_1f5I6.jpg",
-   "date": "2016-04-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/56/bf/178533_1f5I6.jpg",
+   "date": "2016-04-04",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -42,6 +55,16 @@
    "relate": "续集",
    "src": 64098,
    "dst": 112890
+  },
+  {
+   "relate": "不同演绎",
+   "src": 64098,
+   "dst": 140974
+  },
+  {
+   "relate": "不同演绎",
+   "src": 64098,
+   "dst": 178533
   },
   {
    "relate": "不同演绎",
@@ -60,6 +83,16 @@
   },
   {
    "relate": "不同演绎",
+   "src": 140974,
+   "dst": 178533
+  },
+  {
+   "relate": "不同演绎",
+   "src": 140974,
+   "dst": 363082
+  },
+  {
+   "relate": "不同演绎",
    "src": 178533,
    "dst": 64098
   },
@@ -67,6 +100,11 @@
    "relate": "不同演绎",
    "src": 363082,
    "dst": 64098
+  },
+  {
+   "relate": "不同演绎",
+   "src": 363082,
+   "dst": 140974
   }
  ]
 }

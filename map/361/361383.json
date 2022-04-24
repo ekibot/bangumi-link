@@ -4,32 +4,51 @@
   {
    "id": 286703,
    "name": "真説 神谷右京2",
-   "image": "//lain.bgm.tv/pic/cover/m/08/79/286703_3R4vJ.jpg",
-   "date": "1995-07-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/08/79/286703_3R4vJ.jpg",
+   "date": "1995-07-14",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 288726,
    "name": "真説 大江戸探偵 神谷右京",
-   "image": "//lain.bgm.tv/pic/cover/m/01/b1/288726_1k266.jpg",
-   "date": "1994-08-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/01/b1/288726_1k266.jpg",
+   "date": "1994-08-26",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 300879,
    "name": "真説 神谷右京3 ～Missing Link～",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/e1/300879_a0JeM.jpg",
-   "date": "1996-09-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/e1/300879_a0JeM.jpg",
+   "date": "1996-09-06",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 361383,
    "name": "Missing Link -ACTUAL FACTS-",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/21/361383_ZGDB0.jpg",
-   "date": "2002-03-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/21/361383_ZGDB0.jpg",
+   "date": "2002-03-29",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 362549,
    "name": "探偵・苫米地研介 普通はこうだぜ!!",
-   "image": "//lain.bgm.tv/pic/cover/m/62/ff/362549_Tt9TX.jpg",
-   "date": "1997-04-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/62/ff/362549_Tt9TX.jpg",
+   "date": "1997-04-25",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -46,7 +65,17 @@
   {
    "relate": "续集",
    "src": 288726,
+   "dst": 286703
+  },
+  {
+   "relate": "续集",
+   "src": 288726,
    "dst": 300879
+  },
+  {
+   "relate": "前传",
+   "src": 300879,
+   "dst": 286703
   },
   {
    "relate": "前传",
@@ -67,6 +96,16 @@
    "relate": "主线故事",
    "src": 362549,
    "dst": 286703
+  },
+  {
+   "relate": "主线故事",
+   "src": 362549,
+   "dst": 288726
+  },
+  {
+   "relate": "主线故事",
+   "src": 362549,
+   "dst": 300879
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 10750,
    "name": "黄金夢想曲",
    "nameCN": "海猫鸣泣之时-黄金梦想曲",
-   "image": "//lain.bgm.tv/pic/cover/m/94/e0/10750_dZKA7.jpg",
-   "date": "2010-12-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/94/e0/10750_dZKA7.jpg",
+   "date": "2010-12-31",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 67987,
    "name": "黄金夢想曲X",
    "nameCN": "海猫鸣泣之时-黄金梦想曲X",
-   "image": "//lain.bgm.tv/pic/cover/m/0b/bb/67987_Up42x.jpg",
-   "date": "2011-10-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/0b/bb/67987_Up42x.jpg",
+   "date": "2011-10-06",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 67988,
    "name": "黄金夢想曲†CROSS",
    "nameCN": "海猫鸣泣之时-黄金梦想曲†CROSS",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/d2/67988_ekh4H.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/d2/67988_ekh4H.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -48,6 +57,11 @@
    "relate": "前传",
    "src": 67988,
    "dst": 10750
+  },
+  {
+   "relate": "前传",
+   "src": 67988,
+   "dst": 67987
   }
  ]
 }

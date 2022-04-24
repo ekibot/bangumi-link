@@ -5,21 +5,81 @@
    "id": 820,
    "name": "トリニティ・ブラッド",
    "nameCN": "圣魔之血",
-   "image": "//lain.bgm.tv/pic/cover/m/e2/a2/820_7jMN7.jpg",
-   "date": "2001-04-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/e2/a2/820_7jMN7.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
+  },
+  {
+   "id": 2983,
+   "name": "レンタルマギカ",
+   "nameCN": "魔法人力派遣公司",
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/b0/2983_etXXO.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
+  },
+  {
+   "id": 14489,
+   "name": "テスタメントシュピーゲル",
+   "image": "https://lain.bgm.tv/pic/cover/m/8e/fe/14489_vy63Z.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
+  },
+  {
+   "id": 27365,
+   "name": "オイレンシュピーゲル",
+   "nameCN": "特甲少女 惡戲之猋",
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/ca/27365_8D2z2.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
+  },
+  {
+   "id": 27377,
+   "name": "スプライトシュピーゲル",
+   "nameCN": "特甲少女 焱之精靈",
+   "image": "https://lain.bgm.tv/pic/cover/m/7c/14/27377_3hVWM.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
+  },
+  {
+   "id": 50257,
+   "name": "消閑の挑戦者",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/f7/7c/50257_RRFSc.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 76387,
    "name": "トリニティ・ブラッド Canon 神学大全",
    "nameCN": "圣魔之血 Canon 神学大全",
-   "image": "//lain.bgm.tv/pic/cover/m/b0/5d/76387_jp.jpg",
-   "date": "2005-04-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/b0/5d/76387_jp.jpg",
+   "date": "2005-04-28",
+   "type": 1,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 377338,
-   "name": "Ｓ　ＲＥＤ ザ・スニーカー１００号記念アンソロジー",
-   "image": "//lain.bgm.tv/pic/cover/m/07/bd/377338_H33SC.jpg",
-   "date": "2010-07-01"
+   "name": "S RED ザ・スニーカー100号記念アンソロジー",
+   "image": "https://lain.bgm.tv/pic/cover/m/07/bd/377338_H33SC.jpg",
+   "date": "2010-07-01",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -27,6 +87,56 @@
    "relate": "番外篇",
    "src": 820,
    "dst": 76387
+  },
+  {
+   "relate": "番外篇",
+   "src": 820,
+   "dst": 377338
+  },
+  {
+   "relate": "番外篇",
+   "src": 2983,
+   "dst": 377338
+  },
+  {
+   "relate": "前传",
+   "src": 14489,
+   "dst": 27365
+  },
+  {
+   "relate": "前传",
+   "src": 14489,
+   "dst": 27377
+  },
+  {
+   "relate": "续集",
+   "src": 27365,
+   "dst": 14489
+  },
+  {
+   "relate": "相同世界观",
+   "src": 27365,
+   "dst": 27377
+  },
+  {
+   "relate": "番外篇",
+   "src": 27365,
+   "dst": 377338
+  },
+  {
+   "relate": "续集",
+   "src": 27377,
+   "dst": 14489
+  },
+  {
+   "relate": "相同世界观",
+   "src": 27377,
+   "dst": 27365
+  },
+  {
+   "relate": "番外篇",
+   "src": 50257,
+   "dst": 377338
   },
   {
    "relate": "主线故事",
@@ -37,6 +147,21 @@
    "relate": "主线故事",
    "src": 377338,
    "dst": 820
+  },
+  {
+   "relate": "主线故事",
+   "src": 377338,
+   "dst": 2983
+  },
+  {
+   "relate": "主线故事",
+   "src": 377338,
+   "dst": 27365
+  },
+  {
+   "relate": "主线故事",
+   "src": 377338,
+   "dst": 50257
   }
  ]
 }

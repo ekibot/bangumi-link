@@ -5,29 +5,40 @@
    "id": 28459,
    "name": "GRAVITY DAZE/重力的眩暈:上層への帰還において、彼女の内宇宙に生じた摂動",
    "nameCN": "重力异想世界",
-   "image": "//lain.bgm.tv/pic/cover/m/22/47/28459_05FL7.jpg",
-   "date": "2012-02-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/22/47/28459_05FL7.jpg",
+   "date": "2012-02-09",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 146603,
    "name": "GRAVITY DAZE/重力的眩暈:上層への帰還において、彼女の内宇宙に生じた摂動",
    "nameCN": "重力异想世界 重制版",
-   "image": "//lain.bgm.tv/pic/cover/m/ea/1f/146603_btKnE.jpg",
-   "date": "2015-12-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/ea/1f/146603_btKnE.jpg",
+   "date": "2015-12-10",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 146608,
    "name": "GRAVITY DAZE 2/重力的眩暈完結編:上層への帰還の果て、彼女の内宇宙に収斂した選択",
    "nameCN": "重力异想世界完结篇",
-   "image": "//lain.bgm.tv/pic/cover/m/15/61/146608_b86GE.jpg",
-   "date": "2017-01-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/61/146608_b86GE.jpg",
+   "date": "2017-01-18",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 187502,
    "name": "GRAVITY DAZE The Animation ～Ouverture～",
    "nameCN": "重力眩晕 序章",
-   "image": "//lain.bgm.tv/pic/cover/m/49/ef/187502_b2266.jpg",
-   "date": "2016-12-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/ef/187502_b2266.jpg",
+   "date": "2016-12-25",
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -57,9 +68,19 @@
    "dst": 28459
   },
   {
+   "relate": "前传",
+   "src": 146608,
+   "dst": 146603
+  },
+  {
    "relate": "主线故事",
    "src": 187502,
    "dst": 28459
+  },
+  {
+   "relate": "主线故事",
+   "src": 187502,
+   "dst": 146608
   }
  ]
 }

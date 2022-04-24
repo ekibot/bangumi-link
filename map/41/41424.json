@@ -5,36 +5,51 @@
    "id": 41424,
    "name": "The Last of Us",
    "nameCN": "最后生还者",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/25/41424_MMP6M.jpg",
-   "date": "2013-06-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/25/41424_MMP6M.jpg",
+   "date": "2013-06-14",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 110598,
    "name": "The Last of Us Remastered",
    "nameCN": "最后生还者 重制版",
-   "image": "//lain.bgm.tv/pic/cover/m/3e/89/110598_k1fn9.jpg",
-   "date": "2014-07-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/3e/89/110598_k1fn9.jpg",
+   "date": "2014-07-29",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 157641,
    "name": "The Last of Us: Left Behind",
    "nameCN": "最后生还者：别走",
-   "image": "//lain.bgm.tv/pic/cover/m/70/5a/157641_drG99.jpg",
-   "date": "2014-02-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/70/5a/157641_drG99.jpg",
+   "date": "2014-02-14",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 200187,
    "name": "The Last of Us: Part II",
    "nameCN": "最后生还者2",
-   "image": "//lain.bgm.tv/pic/cover/m/8f/59/200187_t8u5U.jpg",
-   "date": "2020-06-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/8f/59/200187_t8u5U.jpg",
+   "date": "2020-06-19",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 286983,
    "name": "The Last of Us: American Dreams",
    "nameCN": "最后生还者：美国梦",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/8d/286983_D4Rm7.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/8d/286983_D4Rm7.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -64,9 +79,19 @@
    "dst": 41424
   },
   {
+   "relate": "主线故事",
+   "src": 157641,
+   "dst": 110598
+  },
+  {
    "relate": "前传",
    "src": 200187,
    "dst": 41424
+  },
+  {
+   "relate": "前传",
+   "src": 200187,
+   "dst": 110598
   },
   {
    "relate": "相同世界观",

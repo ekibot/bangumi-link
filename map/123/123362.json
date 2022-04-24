@@ -5,62 +5,90 @@
    "id": 123362,
    "name": "真・女神転生 デビルチルドレン 黒の書",
    "nameCN": "真女神转生 恶魔之子 黑之书",
-   "image": "//lain.bgm.tv/pic/cover/m/65/a8/123362_Tkzvp.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/65/a8/123362_Tkzvp.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 123364,
    "name": "真・女神転生デビルチルドレン 赤の書",
    "nameCN": "真女神转生 恶魔之子 红之书",
-   "image": "//lain.bgm.tv/pic/cover/m/f5/ee/123364_d99l9.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/f5/ee/123364_d99l9.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123365,
    "name": "真・女神転生 デビルチルドレン 白の書",
    "nameCN": "真女神转生 恶魔之子 白之书",
-   "image": "//lain.bgm.tv/pic/cover/m/76/f8/123365_mFbmF.jpg",
-   "date": "2001-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/76/f8/123365_mFbmF.jpg",
+   "date": "2001-07-27",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123366,
    "name": "真・女神転生 デビルチルドレン 光の書",
    "nameCN": "真女神转生 恶魔之子 光之书",
-   "image": "//lain.bgm.tv/pic/cover/m/4a/ee/123366_ffbBe.jpg",
-   "date": "2002-11-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/4a/ee/123366_ffbBe.jpg",
+   "date": "2002-11-15",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 123367,
    "name": "真・女神転生 デビルチルドレン 闇の書",
    "nameCN": "真女神转生 恶魔之子 暗之书",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/ae/123367_gcKjD.jpg",
-   "date": "2002-11-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/ae/123367_gcKjD.jpg",
+   "date": "2002-11-15",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123368,
    "name": "真・女神転生デビルチルドレン パズルDEコール!",
-   "image": "//lain.bgm.tv/pic/cover/m/0e/4a/123368_Yz53Q.jpg",
-   "date": "2003-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/0e/4a/123368_Yz53Q.jpg",
+   "date": "2003-07-25",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123369,
    "name": "真・女神転生 デビルチルドレン 炎の書",
    "nameCN": "真女神转生 恶魔之子 炎之书",
-   "image": "//lain.bgm.tv/pic/cover/m/df/a1/123369_6G1sU.jpg",
-   "date": "2003-09-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/df/a1/123369_6G1sU.jpg",
+   "date": "2003-09-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123370,
    "name": "真・女神転生 デビルチルドレン 氷の書",
    "nameCN": "真女神转生 恶魔之子 冰之书",
-   "image": "//lain.bgm.tv/pic/cover/m/53/12/123370_GA99i.jpg",
-   "date": "2003-09-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/53/12/123370_GA99i.jpg",
+   "date": "2003-09-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 123371,
    "name": "真・女神転生デビルチルドレン メシアライザー",
-   "image": "//lain.bgm.tv/pic/cover/m/f0/3d/123371_RRMHZ.jpg",
-   "date": "2004-11-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/f0/3d/123371_RRMHZ.jpg",
+   "date": "2004-11-04",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -87,12 +115,22 @@
   {
    "relate": "前传",
    "src": 123365,
+   "dst": 123362
+  },
+  {
+   "relate": "前传",
+   "src": 123365,
    "dst": 123364
   },
   {
    "relate": "续集",
    "src": 123365,
    "dst": 123366
+  },
+  {
+   "relate": "续集",
+   "src": 123365,
+   "dst": 123367
   },
   {
    "relate": "前传",
@@ -110,6 +148,11 @@
    "dst": 123369
   },
   {
+   "relate": "续集",
+   "src": 123366,
+   "dst": 123370
+  },
+  {
    "relate": "前传",
    "src": 123367,
    "dst": 123365
@@ -125,14 +168,39 @@
    "dst": 123369
   },
   {
+   "relate": "续集",
+   "src": 123367,
+   "dst": 123370
+  },
+  {
    "relate": "主线故事",
    "src": 123368,
    "dst": 123366
   },
   {
+   "relate": "主线故事",
+   "src": 123368,
+   "dst": 123367
+  },
+  {
+   "relate": "主线故事",
+   "src": 123368,
+   "dst": 123369
+  },
+  {
+   "relate": "主线故事",
+   "src": 123368,
+   "dst": 123370
+  },
+  {
    "relate": "前传",
    "src": 123369,
    "dst": 123366
+  },
+  {
+   "relate": "前传",
+   "src": 123369,
+   "dst": 123367
   },
   {
    "relate": "不同演绎",
@@ -150,6 +218,11 @@
    "dst": 123366
   },
   {
+   "relate": "前传",
+   "src": 123370,
+   "dst": 123367
+  },
+  {
    "relate": "不同演绎",
    "src": 123370,
    "dst": 123369
@@ -163,6 +236,11 @@
    "relate": "前传",
    "src": 123371,
    "dst": 123369
+  },
+  {
+   "relate": "前传",
+   "src": 123371,
+   "dst": 123370
   }
  ]
 }

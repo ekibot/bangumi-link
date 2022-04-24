@@ -5,22 +5,31 @@
    "id": 2750,
    "name": "GANTZ 〜the first stage〜",
    "nameCN": "杀戮都市",
-   "image": "//lain.bgm.tv/pic/cover/m/fc/19/2750_T1ilI.jpg",
-   "date": "2004-04-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/fc/19/2750_T1ilI.jpg",
+   "date": "2004-04-12",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 52764,
    "name": "GANTZ 〜the 2nd stage〜",
    "nameCN": "杀戮都市 2nd Stage",
-   "image": "//lain.bgm.tv/pic/cover/m/0b/18/52764_35r0S.jpg",
-   "date": "2004-08-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/0b/18/52764_35r0S.jpg",
+   "date": "2004-08-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 154971,
    "name": "GANTZ:O",
    "nameCN": "杀戮都市：O",
-   "image": "//lain.bgm.tv/pic/cover/m/7a/04/154971_gR08E.jpg",
-   "date": "2016-10-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/7a/04/154971_gR08E.jpg",
+   "date": "2016-10-14",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -48,6 +57,11 @@
    "relate": "不同演绎",
    "src": 154971,
    "dst": 2750
+  },
+  {
+   "relate": "不同演绎",
+   "src": 154971,
+   "dst": 52764
   }
  ]
 }

@@ -5,70 +5,100 @@
    "id": 5476,
    "name": "アクセル・ワールド",
    "nameCN": "加速世界",
-   "image": "//lain.bgm.tv/pic/cover/m/9b/a8/5476_WjURR.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/9b/a8/5476_WjURR.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 23685,
    "name": "アクセル・ワールド",
    "nameCN": "加速世界",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/d8/23685_Y1wYG.jpg",
-   "date": "2012-04-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/d8/23685_Y1wYG.jpg",
+   "date": "2012-04-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 43539,
    "name": "アクセル・ワールド -銀翼の覚醒-",
    "nameCN": "加速世界 Stage:01 银翼的觉醒",
-   "image": "//lain.bgm.tv/pic/cover/m/bf/86/43539_IqKLt.jpg",
-   "date": "2012-09-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/bf/86/43539_IqKLt.jpg",
+   "date": "2012-09-13",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 48997,
    "name": "アクセル・ワールド -银翼的觉醒-",
    "nameCN": "加速世界 Stage:01 -银翼的觉醒-",
-   "image": "//lain.bgm.tv/pic/cover/m/b8/45/48997_wZ1VG.jpg",
-   "date": "2012-09-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/b8/45/48997_wZ1VG.jpg",
+   "date": "2012-09-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 49056,
    "name": "アクセル・ワールド -加速の頂点-",
    "nameCN": "加速世界 Stage:02 加速的顶点",
-   "image": "//lain.bgm.tv/pic/cover/m/54/f7/49056_WaP5n.jpg",
-   "date": "2013-01-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/54/f7/49056_WaP5n.jpg",
+   "date": "2013-01-31",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 49362,
    "name": "アクセル・ワールド -加速の頂点-",
    "nameCN": "加速世界 Stage:02 -加速的顶点-",
-   "image": "//lain.bgm.tv/pic/cover/m/77/fe/49362_lYCUA.jpg",
-   "date": "2013-01-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/77/fe/49362_lYCUA.jpg",
+   "date": "2013-01-31",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 67229,
    "name": "あくちぇる・わーるど。",
    "nameCN": "加素世界",
-   "image": "//lain.bgm.tv/pic/cover/m/43/0d/67229_zCLGr.jpg",
-   "date": "2012-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/43/0d/67229_zCLGr.jpg",
+   "date": "2012-07-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 148095,
    "name": "アクセル・ワールド INFINITE∞BURST",
    "nameCN": "加速世界 Infinite Burst",
-   "image": "//lain.bgm.tv/pic/cover/m/15/f1/148095_MO9Az.jpg",
-   "date": "2016-07-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/f1/148095_MO9Az.jpg",
+   "date": "2016-07-23",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 188028,
    "name": "アクセル・ワールド エンドオブバースト",
    "nameCN": "加速世界 超频终点",
-   "image": "//lain.bgm.tv/pic/cover/m/6b/62/188028_KYCzv.jpg",
-   "date": "2017-01-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/6b/62/188028_KYCzv.jpg",
+   "date": "2017-01-16",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 197515,
    "name": "アクセル・ワールド ―無限への跳躍―",
-   "image": "//lain.bgm.tv/pic/cover/m/89/50/197515_jp.jpg",
-   "date": "2016-07-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/50/197515_jp.jpg",
+   "date": "2016-07-23",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -83,9 +113,19 @@
    "dst": 48997
   },
   {
+   "relate": "番外篇",
+   "src": 23685,
+   "dst": 49362
+  },
+  {
    "relate": "衍生",
    "src": 23685,
    "dst": 67229
+  },
+  {
+   "relate": "番外篇",
+   "src": 23685,
+   "dst": 148095
   },
   {
    "relate": "主线故事",

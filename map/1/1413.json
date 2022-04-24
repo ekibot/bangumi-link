@@ -5,32 +5,49 @@
    "id": 1413,
    "name": "幕末恋華 新選組 DS",
    "nameCN": "幕末恋华：新选组 DS",
-   "image": "//lain.bgm.tv/pic/cover/m/59/f5/1413_q53EA.jpg",
-   "date": "2008-11-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/59/f5/1413_q53EA.jpg",
+   "date": "2008-11-27",
+   "nsfw": false,
+   "platform": "NDS",
+   "type": 4
   },
   {
    "id": 2754,
    "name": "幕末恋華 花柳剣士伝",
    "nameCN": "幕末恋华：花柳剑士传",
-   "image": "//lain.bgm.tv/pic/cover/m/04/4a/2754_w2BIx.jpg",
-   "date": "2007-10-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/04/4a/2754_w2BIx.jpg",
+   "date": "2007-10-04",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PS2"
   },
   {
    "id": 2755,
    "name": "幕末恋華 新選組",
    "nameCN": "幕末恋华 新选组",
-   "image": "//lain.bgm.tv/pic/cover/m/17/69/2755_x9IXe.jpg",
-   "date": "2004-12-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/17/69/2755_x9IXe.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 10202,
    "name": "維新恋華 龍馬外伝",
    "nameCN": "维新恋华 龙马外传",
-   "image": "//lain.bgm.tv/pic/cover/m/53/2a/10202_LDc9C.jpg",
-   "date": "2010-11-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/53/2a/10202_LDc9C.jpg",
+   "date": "2010-11-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PSP"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 1413,
+   "dst": 2754
+  },
   {
    "relate": "不同演绎",
    "src": 1413,
@@ -48,13 +65,33 @@
   },
   {
    "relate": "相同世界观",
+   "src": 2754,
+   "dst": 10202
+  },
+  {
+   "relate": "相同世界观",
    "src": 2755,
    "dst": 2754
   },
   {
    "relate": "相同世界观",
+   "src": 2755,
+   "dst": 10202
+  },
+  {
+   "relate": "相同世界观",
    "src": 10202,
    "dst": 1413
+  },
+  {
+   "relate": "相同世界观",
+   "src": 10202,
+   "dst": 2754
+  },
+  {
+   "relate": "相同世界观",
+   "src": 10202,
+   "dst": 2755
   }
  ]
 }

@@ -4,14 +4,22 @@
   {
    "id": 155705,
    "name": "ナツイロココロログ",
-   "image": "//lain.bgm.tv/pic/cover/m/9c/a5/155705_Zh3hn.jpg",
+   "image": "https://lain.bgm.tv/pic/cover/m/9c/a5/155705_Zh3hn.jpg",
    "date": "2016-05-27",
-   "nameCN": "夏色心跳日志"
+   "nameCN": "夏色心跳日志",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 197099,
    "name": "ナツイロココロログ～Happy Summer～",
-   "image": "//lain.bgm.tv/pic/cover/m/15/4b/197099_VJJZk.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/4b/197099_VJJZk.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2017-03-24",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -19,6 +27,11 @@
    "relate": "续集",
    "src": 155705,
    "dst": 197099
+  },
+  {
+   "relate": "前传",
+   "src": 197099,
+   "dst": 155705
   }
  ]
 }

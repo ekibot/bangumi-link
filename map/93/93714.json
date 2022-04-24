@@ -5,43 +5,61 @@
    "id": 93714,
    "name": "東京喰種トーキョーグール",
    "nameCN": "东京喰种",
-   "image": "//lain.bgm.tv/pic/cover/m/12/ab/93714_r1U22.jpg",
-   "date": "2014-07-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/12/ab/93714_r1U22.jpg",
+   "date": "2014-07-03",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 115292,
    "name": "東京喰種トーキョーグール √A",
    "nameCN": "东京喰种√A",
-   "image": "//lain.bgm.tv/pic/cover/m/32/73/115292_RnE82.jpg",
-   "date": "2015-01-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/32/73/115292_RnE82.jpg",
+   "date": "2015-01-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 129687,
    "name": "東京喰種トーキョーグール［JACK］",
    "nameCN": "东京喰种 JACK",
-   "image": "//lain.bgm.tv/pic/cover/m/58/6d/129687_m168X.jpg",
-   "date": "2015-09-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/58/6d/129687_m168X.jpg",
+   "date": "2015-09-30",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 140634,
    "name": "東京喰種トーキョーグール［PINTO］",
    "nameCN": "东京喰种 PINTO",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/b1/140634_BnQN9.jpg",
-   "date": "2015-12-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/b1/140634_BnQN9.jpg",
+   "date": "2015-12-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 148481,
    "name": "東京喰種トーキョーグール：re",
    "nameCN": "东京喰种:re",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/20/148481_v7x7A.jpg",
-   "date": "2018-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/20/148481_v7x7A.jpg",
+   "date": "2018-04-03",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 244878,
    "name": "東京喰種トーキョーグール：re 第2期",
    "nameCN": "东京喰种:re 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/b7/5c/244878_i6FE9.jpg",
-   "date": "2018-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/b7/5c/244878_i6FE9.jpg",
+   "date": "2018-10-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -71,6 +89,11 @@
    "dst": 129687
   },
   {
+   "relate": "番外篇",
+   "src": 115292,
+   "dst": 140634
+  },
+  {
    "relate": "续集",
    "src": 115292,
    "dst": 148481
@@ -82,18 +105,23 @@
   },
   {
    "relate": "主线故事",
+   "src": 129687,
+   "dst": 115292
+  },
+  {
+   "relate": "主线故事",
    "src": 140634,
    "dst": 93714
+  },
+  {
+   "relate": "主线故事",
+   "src": 140634,
+   "dst": 115292
   },
   {
    "relate": "前传",
    "src": 148481,
    "dst": 115292
-  },
-  {
-   "relate": "续集",
-   "src": 148481,
-   "dst": 244878
   },
   {
    "relate": "前传",

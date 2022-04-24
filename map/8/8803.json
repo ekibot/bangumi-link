@@ -5,50 +5,71 @@
    "id": 8803,
    "name": "幽☆遊☆白書",
    "nameCN": "幽游白书",
-   "image": "//lain.bgm.tv/pic/cover/m/74/9b/8803_7QhSs.jpg",
-   "date": "1992-10-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/74/9b/8803_7QhSs.jpg",
+   "date": "1992-10-10",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 8804,
    "name": "幽☆遊☆白書 冥界死闘篇 炎の絆",
    "nameCN": "幽游白书 冥界死斗篇 炎之绊",
-   "image": "//lain.bgm.tv/pic/cover/m/a3/6a/8804_aNRnN.jpg",
-   "date": "1994-04-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/a3/6a/8804_aNRnN.jpg",
+   "date": "1994-04-09",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 8805,
    "name": "幽☆遊☆白書",
    "nameCN": "幽游白书 夜叉的阴谋",
-   "image": "//lain.bgm.tv/pic/cover/m/07/0c/8805_P8I2x.jpg",
-   "date": "1993-07-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/0c/8805_P8I2x.jpg",
+   "date": "1993-07-10",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 38629,
    "name": "幽☆遊☆白書　映像白書～暗黒武術会の章～",
    "nameCN": "幽游白书 映像白书~暗黑武术会之章~",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/e3/38629_2s9XN.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/e3/38629_2s9XN.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 40931,
    "name": "幽☆遊☆白書 映像白書II",
    "nameCN": "幽游白书 映像白书2",
-   "image": "//lain.bgm.tv/pic/cover/m/06/cd/40931_56C45.jpg",
-   "date": "1995-12-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/06/cd/40931_56C45.jpg",
+   "date": "1995-12-16",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 232658,
    "name": "幽☆遊☆白書 完全新作アニメーション",
    "nameCN": "幽游白书 完全新作动画",
-   "image": "//lain.bgm.tv/pic/cover/m/91/4c/232658_x0Jjj.jpg",
-   "date": "2018-10-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/91/4c/232658_x0Jjj.jpg",
+   "date": "2018-10-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 322631,
    "name": "幽☆遊☆白書",
    "nameCN": "幽游白书",
    "date": null,
-   "image": "/img/no_icon_subject.png"
+   "image": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -58,9 +79,24 @@
    "dst": 8804
   },
   {
+   "relate": "番外篇",
+   "src": 8803,
+   "dst": 8805
+  },
+  {
    "relate": "总集篇",
    "src": 8803,
    "dst": 38629
+  },
+  {
+   "relate": "总集篇",
+   "src": 8803,
+   "dst": 40931
+  },
+  {
+   "relate": "番外篇",
+   "src": 8803,
+   "dst": 232658
   },
   {
    "relate": "不同演绎",

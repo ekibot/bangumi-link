@@ -5,22 +5,60 @@
    "id": 1041,
    "name": "Phantom -PHANTOM OF INFERNO-",
    "nameCN": "幻灵镇魂曲",
-   "image": "//lain.bgm.tv/pic/cover/m/d7/36/1041_nt74W.jpg",
-   "date": "2000-02-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/d7/36/1041_nt74W.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
+   "id": 1426,
+   "name": "Phantom -Requiem for the Phantom-",
+   "nameCN": "幻灵镇魂曲",
+   "image": "https://lain.bgm.tv/pic/cover/m/29/9f/1426_2E03Q.jpg",
+   "date": "2009-04-02",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
+  },
+  {
+   "id": 2217,
+   "name": "Phantom -PHANTOM THE ANIMATION-",
+   "nameCN": "幻影",
+   "image": "https://lain.bgm.tv/pic/cover/m/b5/c0/2217_sKFkb.jpg",
+   "date": "2004-02-27",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 15841,
    "name": "Phantom INTEGRATION",
    "nameCN": "幻灵镇魂曲",
-   "image": "//lain.bgm.tv/pic/cover/m/e6/49/15841_67W1c.jpg",
-   "date": "2009-04-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/49/15841_67W1c.jpg",
+   "date": "2009-04-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 78442,
    "name": "Phantom PHANTOM OF INFERNO",
    "nameCN": "幻灵镇魂曲",
-   "image": "//lain.bgm.tv/pic/cover/m/aa/0d/78442_Fg8PP.jpg",
-   "date": "2012-10-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/aa/0d/78442_Fg8PP.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 136502,
+   "name": "Phantom ～Requiem for the Phantom～",
+   "nameCN": "Phantom～幻灵镇魂曲～",
+   "image": "https://lain.bgm.tv/pic/cover/m/b4/30/136502_bDgwY.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -31,13 +69,58 @@
   },
   {
    "relate": "不同演绎",
+   "src": 1041,
+   "dst": 78442
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1426,
+   "dst": 2217
+  },
+  {
+   "relate": "不同演绎",
+   "src": 2217,
+   "dst": 1426
+  },
+  {
+   "relate": "不同演绎",
    "src": 15841,
    "dst": 1041
   },
   {
    "relate": "不同演绎",
+   "src": 15841,
+   "dst": 78442
+  },
+  {
+   "relate": "不同演绎",
    "src": 78442,
    "dst": 1041
+  },
+  {
+   "relate": "不同演绎",
+   "src": 78442,
+   "dst": 15841
+  },
+  {
+   "relate": "不同演绎",
+   "src": 136502,
+   "dst": 1041
+  },
+  {
+   "relate": "不同演绎",
+   "src": 136502,
+   "dst": 1426
+  },
+  {
+   "relate": "不同演绎",
+   "src": 136502,
+   "dst": 2217
+  },
+  {
+   "relate": "不同演绎",
+   "src": 136502,
+   "dst": 15841
   }
  ]
 }

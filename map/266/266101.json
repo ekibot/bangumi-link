@@ -2,23 +2,85 @@
  "id": 266101,
  "node": [
   {
+   "id": 26709,
+   "name": "魔法少女イスカ",
+   "nameCN": "魔法少女伊斯卡",
+   "image": "https://lain.bgm.tv/pic/cover/m/d4/a1/26709_4z544.jpg",
+   "date": "2009-06-19",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
+   "id": 26710,
+   "name": "魔法少女スバル",
+   "image": "https://lain.bgm.tv/pic/cover/m/ae/fc/26710_1lcYc.jpg",
+   "date": "2009-12-18",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
    "id": 70294,
    "name": "レイZERO",
    "image": "/img/no_icon_subject.png"
   },
   {
+   "id": 190545,
+   "name": "発情エクソシスト！～祓うと発情するお嬢様に仕えてます。～",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/fc/190545_b9xg9.jpg",
+   "type": 4
+  },
+  {
    "id": 266101,
    "name": "特務捜査官レイ＆風子 —受精街の家畜調教—",
    "nameCN": "特务捜査官玲＆风子：受精街的家畜调教",
-   "image": "/img/no_icon_subject.png",
-   "date": "2005-04-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/46/ea/266101_bNkgd.jpg",
+   "date": "2005-04-08",
+   "type": 4
+  },
+  {
+   "id": 303919,
+   "name": "LILITH-IZM07～俺のペット編～",
+   "image": "https://lain.bgm.tv/pic/cover/m/3c/95/303919_Pp5QP.jpg",
+   "date": "2011-07-29",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
+   "relate": "相同世界观",
+   "src": 26709,
+   "dst": 26710
+  },
+  {
+   "relate": "相同世界观",
+   "src": 26710,
+   "dst": 26709
+  },
+  {
    "relate": "衍生",
    "src": 266101,
    "dst": 70294
+  },
+  {
+   "relate": "主线故事",
+   "src": 303919,
+   "dst": 26709
+  },
+  {
+   "relate": "主线故事",
+   "src": 303919,
+   "dst": 190545
+  },
+  {
+   "relate": "主线故事",
+   "src": 303919,
+   "dst": 266101
   }
  ]
 }

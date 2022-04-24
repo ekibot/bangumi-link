@@ -5,15 +5,30 @@
    "id": 81186,
    "name": "メカクシティアクターズ",
    "nameCN": "目隐都市的演绎者",
-   "image": "//lain.bgm.tv/pic/cover/m/b8/e7/81186_929Xl.jpg",
-   "date": "2014-04-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/b8/e7/81186_929Xl.jpg",
+   "date": "2014-04-12",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 180173,
    "name": "カゲロウデイズ-in a day's-",
    "nameCN": "阳炎眩乱-in a day's-",
-   "image": "//lain.bgm.tv/pic/cover/m/05/1e/180173_IxNSK.jpg",
-   "date": "2016-11-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/1e/180173_IxNSK.jpg",
+   "date": "2016-11-04",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
+  },
+  {
+   "id": 261165,
+   "name": "メカクシティリロード",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/b4/d0/261165_4TA07.jpg",
+   "date": "2018-11-07",
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -25,6 +40,11 @@
   {
    "relate": "不同演绎",
    "src": 180173,
+   "dst": 81186
+  },
+  {
+   "relate": "前传",
+   "src": 261165,
    "dst": 81186
   }
  ]

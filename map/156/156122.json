@@ -10,64 +10,92 @@
   {
    "id": 14895,
    "name": "神咒神威神楽",
-   "image": "//lain.bgm.tv/pic/cover/m/5f/1d/14895_YtSB3.jpg",
-   "date": "2011-09-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/5f/1d/14895_YtSB3.jpg",
+   "date": "2011-09-22",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 16849,
    "name": "Dies irae 〜Acta est Fabula〜",
    "nameCN": "神怒之日 ～剧终～",
-   "image": "//lain.bgm.tv/pic/cover/m/8b/e6/16849_3fwe2.jpg",
-   "date": "2009-12-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/8b/e6/16849_3fwe2.jpg",
+   "date": "2009-12-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 43372,
    "name": "Dies irae ～Amantes amentes～",
-   "image": "//lain.bgm.tv/pic/cover/m/73/36/43372_1QU1q.jpg",
-   "date": "2012-06-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/73/36/43372_1QU1q.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 62985,
    "name": "神咒神威神楽 曙之光",
-   "image": "//lain.bgm.tv/pic/cover/m/22/18/62985_RAAL3.jpg",
-   "date": "2013-04-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/22/18/62985_RAAL3.jpg",
+   "date": "2013-04-25",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 131901,
    "name": "Dies irae",
    "nameCN": "神怒之日",
-   "image": "//lain.bgm.tv/pic/cover/m/03/89/131901_8iTEV.jpg",
-   "date": "2017-10-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/03/89/131901_8iTEV.jpg",
+   "date": "2017-10-06",
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 156122,
    "name": "Dies irae ～Interview with Kaziklu Bey～",
    "nameCN": "神怒之日 ～夜访穿刺公～",
-   "image": "//lain.bgm.tv/pic/cover/m/b7/ee/156122_M8io8.jpg",
-   "date": "2016-03-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/b7/ee/156122_M8io8.jpg",
+   "date": "2016-03-25",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 187085,
    "name": "Dies irae -Also sprach Zarathustra-",
    "nameCN": "神怒之日 -查拉图斯特拉如是说-",
-   "image": "//lain.bgm.tv/pic/cover/m/aa/19/187085_FN9Xf.jpg",
-   "date": "2007-12-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/aa/19/187085_FN9Xf.jpg",
+   "date": "2007-12-21",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 221627,
    "name": "Dies irae ～Wolfsrudel～",
-   "image": "//lain.bgm.tv/pic/cover/m/60/07/221627_9s013.jpg",
-   "date": "2016-09-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/60/07/221627_9s013.jpg",
+   "date": "2016-09-30",
+   "nameCN": "",
+   "type": 1
   },
   {
    "id": 221631,
    "name": "Dies irae ~Song to the Witch~",
-   "image": "//lain.bgm.tv/pic/cover/m/ce/8e/221631_bPI64.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/ce/8e/221631_bPI64.jpg",
+   "nameCN": "",
+   "type": 1
   },
   {
    "id": 338306,
    "name": "黒白のアヴェスター",
-   "image": "//lain.bgm.tv/pic/cover/m/25/f9/338306_xbBx2.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/25/f9/338306_xbBx2.jpg",
+   "nameCN": "",
+   "type": 1
   }
  ],
  "relate": [
@@ -102,6 +130,16 @@
    "dst": 43372
   },
   {
+   "relate": "相同世界观",
+   "src": 16849,
+   "dst": 62985
+  },
+  {
+   "relate": "不同演绎",
+   "src": 16849,
+   "dst": 187085
+  },
+  {
    "relate": "番外篇",
    "src": 16849,
    "dst": 221631
@@ -114,22 +152,17 @@
   {
    "relate": "不同演绎",
    "src": 43372,
-   "dst": 16849
-  },
-  {
-   "relate": "番外篇",
-   "src": 43372,
-   "dst": 221631
-  },
-  {
-   "relate": "相同世界观",
-   "src": 43372,
-   "dst": 338306
+   "dst": 43372
   },
   {
    "relate": "不同演绎",
    "src": 62985,
    "dst": 14895
+  },
+  {
+   "relate": "相同世界观",
+   "src": 62985,
+   "dst": 16849
   },
   {
    "relate": "相同世界观",
@@ -142,9 +175,24 @@
    "dst": 221627
   },
   {
+   "relate": "番外篇",
+   "src": 131901,
+   "dst": 221631
+  },
+  {
+   "relate": "主线故事",
+   "src": 156122,
+   "dst": 16849
+  },
+  {
    "relate": "主线故事",
    "src": 156122,
    "dst": 43372
+  },
+  {
+   "relate": "主线故事",
+   "src": 156122,
+   "dst": 187085
   },
   {
    "relate": "相同世界观",
@@ -155,6 +203,11 @@
    "relate": "不同演绎",
    "src": 187085,
    "dst": 16849
+  },
+  {
+   "relate": "不同演绎",
+   "src": 187085,
+   "dst": 43372
   },
   {
    "relate": "主线故事",

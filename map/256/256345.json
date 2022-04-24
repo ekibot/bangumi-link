@@ -5,22 +5,31 @@
    "id": 256345,
    "name": "Wrecked Season3",
    "nameCN": "开荒岛民 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/b8/2c/256345_5fzHF.jpg",
-   "date": "2018-08-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/b8/2c/256345_5fzHF.jpg",
+   "date": "2018-08-08",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 257457,
    "name": "Wrecked Season1",
    "nameCN": "开荒岛民 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/9c/f7/257457_8bb08.jpg",
-   "date": "2016-06-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/9c/f7/257457_8bb08.jpg",
+   "date": "2016-06-14",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 257458,
    "name": "Wrecked Season2",
    "nameCN": "开荒岛民 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/bd/97/257458_ii914.jpg",
-   "date": "2017-06-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/bd/97/257458_ii914.jpg",
+   "date": "2017-06-20",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -30,9 +39,19 @@
    "dst": 257457
   },
   {
+   "relate": "前传",
+   "src": 256345,
+   "dst": 257458
+  },
+  {
    "relate": "续集",
    "src": 257457,
    "dst": 256345
+  },
+  {
+   "relate": "续集",
+   "src": 257457,
+   "dst": 257458
   },
   {
    "relate": "续集",

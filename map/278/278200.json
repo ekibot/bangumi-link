@@ -5,22 +5,31 @@
    "id": 278200,
    "name": "Élite",
    "nameCN": "名校风暴",
-   "image": "//lain.bgm.tv/pic/cover/m/1b/95/278200_wz15E.jpg",
-   "date": "2018-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/1b/95/278200_wz15E.jpg",
+   "date": "2018-10-05",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 289950,
    "name": "Élite Season 2",
    "nameCN": "名校风暴 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/c2/76/289950_Dl0cY.jpg",
-   "date": "2019-09-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/76/289950_Dl0cY.jpg",
+   "date": "2019-09-06",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 303132,
    "name": "Élite Season 3",
    "nameCN": "名校风暴 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/19/fc/303132_G1OUI.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/19/fc/303132_G1OUI.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 278200,
    "dst": 289950
+  },
+  {
+   "relate": "续集",
+   "src": 278200,
+   "dst": 303132
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 303132,
    "dst": 278200
+  },
+  {
+   "relate": "前传",
+   "src": 303132,
+   "dst": 289950
   }
  ]
 }

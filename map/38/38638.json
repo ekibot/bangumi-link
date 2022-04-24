@@ -5,20 +5,49 @@
    "id": 1042,
    "name": "あやかしびと",
    "nameCN": "妖人",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/c4/1042_a04AH.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/c4/1042_a04AH.jpg",
+   "type": 4
+  },
+  {
+   "id": 16518,
+   "name": "Bullet Butlers",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/40/e1/16518_seVfk.jpg",
+   "type": 4
   },
   {
    "id": 38638,
    "name": "クロノベルト",
    "nameCN": "时之带",
-   "image": "//lain.bgm.tv/pic/cover/m/a7/4e/38638_2ws25.jpg",
-   "date": "2008-05-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/a7/4e/38638_2ws25.jpg",
+   "date": "2008-05-23",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 210376,
+   "name": "あやかしばん",
+   "nameCN": "妖盘",
+   "image": "https://lain.bgm.tv/pic/cover/m/9c/dd/210376_tZ4xx.jpg",
+   "date": "2005-10-18",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
    "relate": "主线故事",
    "src": 38638,
+   "dst": 1042
+  },
+  {
+   "relate": "主线故事",
+   "src": 38638,
+   "dst": 16518
+  },
+  {
+   "relate": "主线故事",
+   "src": 210376,
    "dst": 1042
   }
  ]

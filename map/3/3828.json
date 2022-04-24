@@ -5,25 +5,39 @@
    "id": 3828,
    "name": "乙女はお姉さまに恋してる",
    "nameCN": "少女爱上姐姐",
-   "image": "//lain.bgm.tv/pic/cover/m/46/d3/3828_sYj4j.jpg",
-   "date": "2006-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/46/d3/3828_sYj4j.jpg",
+   "date": "2006-10-07",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 10457,
    "name": "乙女はお姉さまに恋してる 2人のエルダー",
    "nameCN": "少女爱上姐姐 ～2人的Elder～",
-   "image": "//lain.bgm.tv/pic/cover/m/01/63/10457_nnJLO.jpg",
-   "date": "2012-08-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/01/63/10457_nnJLO.jpg",
+   "date": "2012-08-29",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 348376,
    "name": "処女はお姉さまに恋してる～3つのきら星～",
    "nameCN": "少女爱上姐姐～三颗闪耀之星～",
-   "image": "//lain.bgm.tv/pic/cover/m/92/ce/348376_sVKnU.jpg",
-   "date": "2022-01-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/92/ce/348376_sVKnU.jpg",
+   "date": "2022-01-28",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 3828,
+   "dst": 10457
+  },
   {
    "relate": "相同世界观",
    "src": 3828,
@@ -36,8 +50,18 @@
   },
   {
    "relate": "相同世界观",
+   "src": 10457,
+   "dst": 348376
+  },
+  {
+   "relate": "相同世界观",
    "src": 348376,
    "dst": 3828
+  },
+  {
+   "relate": "相同世界观",
+   "src": 348376,
+   "dst": 10457
   }
  ]
 }

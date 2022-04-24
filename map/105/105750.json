@@ -5,36 +5,51 @@
    "id": 105750,
    "name": "Outlander Season 1",
    "nameCN": "古战场传奇 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/c2/6c/105750_da4UO.jpg",
-   "date": "2014-08-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/6c/105750_da4UO.jpg",
+   "date": "2014-08-09",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 180631,
    "name": "Outlander Season 2",
    "nameCN": "古战场传奇 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/95/6e/180631_xy44z.jpg",
-   "date": "2016-04-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/95/6e/180631_xy44z.jpg",
+   "date": "2016-04-09",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 225586,
    "name": "Outlander Season 3",
    "nameCN": "古战场传奇 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/8c/47/225586_o2XP6.jpg",
-   "date": "2017-09-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/8c/47/225586_o2XP6.jpg",
+   "date": "2017-09-10",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 234872,
    "name": "Outlander Season 4",
    "nameCN": "古战场传奇 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/0a/98/234872_4dQmL.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/98/234872_4dQmL.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 301169,
    "name": "Outlander Season 5",
    "nameCN": "古战场传奇 第五季",
-   "image": "//lain.bgm.tv/pic/cover/m/15/91/301169_wp7uQ.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/91/301169_wp7uQ.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -42,6 +57,11 @@
    "relate": "续集",
    "src": 105750,
    "dst": 180631
+  },
+  {
+   "relate": "续集",
+   "src": 105750,
+   "dst": 301169
   },
   {
    "relate": "前传",
@@ -54,6 +74,11 @@
    "dst": 225586
   },
   {
+   "relate": "续集",
+   "src": 180631,
+   "dst": 301169
+  },
+  {
    "relate": "前传",
    "src": 225586,
    "dst": 180631
@@ -62,6 +87,11 @@
    "relate": "续集",
    "src": 225586,
    "dst": 234872
+  },
+  {
+   "relate": "续集",
+   "src": 225586,
+   "dst": 301169
   },
   {
    "relate": "前传",
@@ -77,6 +107,21 @@
    "relate": "前传",
    "src": 301169,
    "dst": 105750
+  },
+  {
+   "relate": "前传",
+   "src": 301169,
+   "dst": 180631
+  },
+  {
+   "relate": "前传",
+   "src": 301169,
+   "dst": 225586
+  },
+  {
+   "relate": "前传",
+   "src": 301169,
+   "dst": 234872
   }
  ]
 }

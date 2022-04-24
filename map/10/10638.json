@@ -5,43 +5,61 @@
    "id": 10638,
    "name": "HERO",
    "nameCN": "律政英雄",
-   "image": "//lain.bgm.tv/pic/cover/m/39/d3/10638_q7jFe.jpg",
-   "date": "2001-01-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/39/d3/10638_q7jFe.jpg",
+   "date": "2001-01-08",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 106085,
    "name": "HERO 2",
    "nameCN": "律政英雄2",
-   "image": "//lain.bgm.tv/pic/cover/m/be/f1/106085_fbYXa.jpg",
-   "date": "2014-07-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/be/f1/106085_fbYXa.jpg",
+   "date": "2014-07-14",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 107808,
    "name": "HERO SP 今夜復活!!美しい海の町の怪事件に伝説の検事が挑む",
    "nameCN": "律政英雄 特别篇",
-   "image": "//lain.bgm.tv/pic/cover/m/1d/c6/107808_MPqnf.jpg",
-   "date": "2006-07-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/1d/c6/107808_MPqnf.jpg",
+   "date": "2006-07-03",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 107809,
    "name": "HERO 剧场版",
    "nameCN": "律政英雄 电影",
-   "image": "//lain.bgm.tv/pic/cover/m/5a/7e/107809_Awu5F.jpg",
-   "date": "2007-09-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/5a/7e/107809_Awu5F.jpg",
+   "date": "2007-09-23",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 111273,
    "name": "HORE",
    "nameCN": "律政英雄2 外传",
-   "image": "//lain.bgm.tv/pic/cover/m/19/bb/111273_814oO.jpg",
-   "date": "2014-08-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/19/bb/111273_814oO.jpg",
+   "date": "2014-08-10",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 120376,
    "name": "映画 HERO",
    "nameCN": "律政英雄 新电影版",
-   "image": "//lain.bgm.tv/pic/cover/m/ce/94/120376_xPr0S.jpg",
-   "date": "2015-07-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/ce/94/120376_xPr0S.jpg",
+   "date": "2015-07-18",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -54,6 +72,11 @@
    "relate": "番外篇",
    "src": 10638,
    "dst": 107808
+  },
+  {
+   "relate": "番外篇",
+   "src": 10638,
+   "dst": 107809
   },
   {
    "relate": "不同演绎",
@@ -99,6 +122,16 @@
    "relate": "不同演绎",
    "src": 120376,
    "dst": 10638
+  },
+  {
+   "relate": "不同演绎",
+   "src": 120376,
+   "dst": 106085
+  },
+  {
+   "relate": "不同演绎",
+   "src": 120376,
+   "dst": 107809
   }
  ]
 }

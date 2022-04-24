@@ -4,21 +4,42 @@
   {
    "id": 1789,
    "name": "AIKa ZERO",
-   "image": "//lain.bgm.tv/pic/cover/m/ec/d6/1789_1wjNA.jpg",
-   "date": "2009-08-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/ec/d6/1789_1wjNA.jpg",
+   "date": "2009-08-25",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 1790,
    "name": "AIKa R-16:VIRGIN MISSION",
    "nameCN": "AIKa R-16:处女任务",
-   "image": "//lain.bgm.tv/pic/cover/m/d2/54/1790_D2BHJ.jpg",
-   "date": "2007-04-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/d2/54/1790_D2BHJ.jpg",
+   "date": "2007-04-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 2935,
+   "name": "ナジカ電撃作戦",
+   "nameCN": "七虹香电击大作战",
+   "image": "https://lain.bgm.tv/pic/cover/m/b6/61/2935_B5jFY.jpg",
+   "date": "2001-10-04",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 36686,
    "name": "AIKa",
    "nameCN": "海底娇娃蓝华",
-   "image": "//lain.bgm.tv/pic/cover/m/71/1d/36686_7bDI4.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/71/1d/36686_7bDI4.jpg",
+   "type": 2,
+   "date": "1997-04-25",
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -36,6 +57,21 @@
    "relate": "续集",
    "src": 1790,
    "dst": 1789
+  },
+  {
+   "relate": "相同世界观",
+   "src": 2935,
+   "dst": 36686
+  },
+  {
+   "relate": "前传",
+   "src": 36686,
+   "dst": 1789
+  },
+  {
+   "relate": "相同世界观",
+   "src": 36686,
+   "dst": 2935
   }
  ]
 }

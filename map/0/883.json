@@ -5,46 +5,87 @@
    "id": 883,
    "name": "黒執事",
    "nameCN": "黑执事",
-   "image": "//lain.bgm.tv/pic/cover/m/21/0f/883_9w87Y.jpg",
-   "date": "2008-10-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/21/0f/883_9w87Y.jpg",
+   "date": "2008-10-02",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 1748,
    "name": "黒執事II",
    "nameCN": "黑执事II",
-   "image": "//lain.bgm.tv/pic/cover/m/54/e3/1748_fKaeF.jpg",
-   "date": "2010-07-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/54/e3/1748_fKaeF.jpg",
+   "date": "2010-07-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 9737,
    "name": "黒執事II OVA",
    "nameCN": "黑执事II OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/ce/46/9737_2Ux6E.jpg",
-   "date": "2010-10-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/ce/46/9737_2Ux6E.jpg",
+   "date": "2010-10-27",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 100503,
+   "name": "黒執事Ⅲ",
+   "nameCN": "黑执事 马戏团篇",
+   "image": "",
+   "date": null,
+   "nsfw": false,
+   "platform": "TV"
+  },
+  {
+   "id": 100508,
+   "name": "黒執事 Book of Circus",
+   "nameCN": "黑执事 马戏团篇",
+   "image": "https://lain.bgm.tv/pic/cover/m/60/27/100508_aFee9.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 100511,
    "name": "黒執事 Book of Murder",
    "nameCN": "黑执事 幽鬼城杀人事件篇",
-   "image": "//lain.bgm.tv/pic/cover/m/c8/f7/100511_leZfU.jpg",
-   "date": "2015-01-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/c8/f7/100511_leZfU.jpg",
+   "date": "2015-01-28",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 100526,
    "name": "黒執事 Book of Circus",
    "nameCN": "黑执事 马戏团篇",
-   "image": "//lain.bgm.tv/pic/cover/m/38/ae/100526_Q0BET.jpg",
-   "date": "2014-07-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/38/ae/100526_Q0BET.jpg",
+   "date": "2014-07-10",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 148389,
    "name": "黒執事 Book of the Atlantic",
    "nameCN": "黑执事 豪华客船篇",
-   "image": "//lain.bgm.tv/pic/cover/m/cb/85/148389_Kn5sW.jpg",
-   "date": "2017-01-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/cb/85/148389_Kn5sW.jpg",
+   "date": "2017-01-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 883,
+   "dst": 1748
+  },
   {
    "relate": "续集",
    "src": 883,
@@ -68,6 +109,16 @@
   {
    "relate": "主线故事",
    "src": 9737,
+   "dst": 1748
+  },
+  {
+   "relate": "前传",
+   "src": 100503,
+   "dst": 1748
+  },
+  {
+   "relate": "前传",
+   "src": 100508,
    "dst": 1748
   },
   {

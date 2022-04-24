@@ -5,62 +5,91 @@
    "id": 1361,
    "name": "ガリレオ",
    "nameCN": "神探伽利略",
-   "image": "//lain.bgm.tv/pic/cover/m/cf/9a/1361_L9jZ7.jpg",
-   "date": "2007-10-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/cf/9a/1361_L9jZ7.jpg",
+   "date": "2007-10-15",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 1458,
    "name": "容疑者Xの献身",
    "nameCN": "嫌疑犯X的献身",
-   "image": "//lain.bgm.tv/pic/cover/m/4d/ca/1458_yngbb.jpg",
-   "date": "2008-10-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/4d/ca/1458_yngbb.jpg",
+   "date": "2008-10-04",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 67230,
    "name": "ガリレオ2",
    "nameCN": "神探伽利略2",
-   "image": "//lain.bgm.tv/pic/cover/m/93/91/67230_mZ5Fb.jpg",
-   "date": "2013-04-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/93/91/67230_mZ5Fb.jpg",
+   "date": "2013-04-15",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 76686,
    "name": "ガリレオXX 内海薫最後の事件　愚弄ぶ",
    "nameCN": "神探伽利略XX 内海薰最后的案件 愚弄",
-   "image": "//lain.bgm.tv/pic/cover/m/ae/81/76686_NUeuZ.jpg",
-   "date": "2013-06-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/ae/81/76686_NUeuZ.jpg",
+   "date": "2013-06-22",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 76702,
    "name": "ガリレオΦ",
    "nameCN": "神探伽利略Φ",
-   "image": "//lain.bgm.tv/pic/cover/m/03/08/76702_SWDCV.jpg",
-   "date": "2008-10-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/03/08/76702_SWDCV.jpg",
+   "date": "2008-10-04",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 91933,
    "name": "真夏の方程式",
    "nameCN": "真夏的方程式",
-   "image": "//lain.bgm.tv/pic/cover/m/89/6f/91933_tX04m.jpg",
-   "date": "2013-06-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/6f/91933_tX04m.jpg",
+   "date": "2013-06-29",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 108738,
    "name": "ユンゲル 田園調布ネズミ男事件",
    "nameCN": "田园调布鼠男事件",
-   "image": "//lain.bgm.tv/pic/cover/m/24/30/108738_L4v9t.jpg",
-   "date": "2008-01-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/24/30/108738_L4v9t.jpg",
+   "date": "2008-01-01",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 212264,
    "name": "嫌疑人X的献身",
-   "image": "//lain.bgm.tv/pic/cover/m/d1/9d/212264_6R5f2.jpg",
-   "date": "2017-03-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/d1/9d/212264_6R5f2.jpg",
+   "date": "2017-03-31",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 362740,
    "name": "沈黙のパレード",
-   "date": "unknown",
-   "image": "/img/no_icon_subject.png"
+   "date": null,
+   "image": "",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -72,12 +101,32 @@
   {
    "relate": "续集",
    "src": 1361,
+   "dst": 67230
+  },
+  {
+   "relate": "续集",
+   "src": 1361,
+   "dst": 76686
+  },
+  {
+   "relate": "番外篇",
+   "src": 1361,
+   "dst": 76702
+  },
+  {
+   "relate": "续集",
+   "src": 1361,
    "dst": 91933
   },
   {
    "relate": "衍生",
    "src": 1361,
    "dst": 108738
+  },
+  {
+   "relate": "续集",
+   "src": 1361,
+   "dst": 362740
   },
   {
    "relate": "番外篇",
@@ -133,6 +182,21 @@
    "relate": "前传",
    "src": 91933,
    "dst": 1361
+  },
+  {
+   "relate": "前传",
+   "src": 91933,
+   "dst": 1458
+  },
+  {
+   "relate": "前传",
+   "src": 91933,
+   "dst": 67230
+  },
+  {
+   "relate": "前传",
+   "src": 91933,
+   "dst": 76686
   },
   {
    "relate": "续集",

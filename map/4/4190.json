@@ -5,21 +5,31 @@
    "id": 4190,
    "name": "シャーマンキング",
    "nameCN": "通灵王",
-   "image": "//lain.bgm.tv/pic/cover/m/77/cd/4190_3sVI6.jpg",
-   "date": "2001-07-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/77/cd/4190_3sVI6.jpg",
+   "date": "2001-07-04",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 308558,
    "name": "SHAMAN KING",
    "nameCN": "通灵王",
-   "image": "//lain.bgm.tv/pic/cover/m/e1/78/308558_bFm8p.jpg",
-   "date": "2021-04-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/78/308558_bFm8p.jpg",
+   "date": "2021-04-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 378797,
    "name": "SHAMAN KING 続編",
    "nameCN": "通灵王 续篇",
-   "date": "unknown"
+   "date": null,
+   "image": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -32,6 +42,11 @@
    "relate": "不同演绎",
    "src": 308558,
    "dst": 4190
+  },
+  {
+   "relate": "续集",
+   "src": 308558,
+   "dst": 378797
   },
   {
    "relate": "前传",

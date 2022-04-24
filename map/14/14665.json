@@ -5,52 +5,79 @@
    "id": 14665,
    "name": "EVE ～burst error～",
    "nameCN": "夜行侦探",
-   "image": "//lain.bgm.tv/pic/cover/m/54/ac/14665_6z10l.jpg",
-   "date": "1995-11-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/54/ac/14665_6z10l.jpg",
+   "date": "1995-11-22",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 78818,
    "name": "EVE ZERO 〜ark of the matter〜",
    "nameCN": "夜行侦探 零",
-   "image": "//lain.bgm.tv/pic/cover/m/73/8d/78818_ajcOr.jpg",
-   "date": "2000-06-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/73/8d/78818_ajcOr.jpg",
+   "date": "2000-06-23",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 99098,
    "name": "EVE ～new generation X～",
-   "image": "//lain.bgm.tv/pic/cover/m/4b/98/99098_xUV6h.jpg",
-   "date": "2007-03-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/4b/98/99098_xUV6h.jpg",
+   "date": "2007-03-23",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 107536,
-   "name": "EVE ～the lost one～",
+   "name": "EVE  ～the lost one～",
    "nameCN": "夜行侦探 迷失者",
-   "image": "//lain.bgm.tv/pic/cover/m/67/ff/107536_LY299.jpg",
-   "date": "1998-03-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/67/ff/107536_LY299.jpg",
+   "date": "1998-03-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 168953,
    "name": "EVE Burst error R",
-   "image": "//lain.bgm.tv/pic/cover/m/9e/8e/168953_X7wx7.jpg",
-   "date": "2016-04-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/9e/8e/168953_X7wx7.jpg",
+   "date": "2016-04-28",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 268586,
    "name": "EVE rebirth terror",
-   "image": "//lain.bgm.tv/pic/cover/m/64/fb/268586_aee8M.jpg",
-   "date": "2019-04-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/64/fb/268586_aee8M.jpg",
+   "date": "2019-04-25",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 269179,
    "name": "Adam: The Double Factor",
-   "image": "/img/no_icon_subject.png",
-   "date": "1999-06-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/db/1b/269179_Nwkmk.jpg",
+   "date": "1999-06-18",
+   "nameCN": "",
+   "type": 4
   },
   {
    "id": 360777,
    "name": "EVE ghost enemies",
-   "image": "//lain.bgm.tv/pic/cover/m/19/3d/360777_HZAvv.jpg",
-   "date": "2022-04-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/19/3d/360777_HZAvv.jpg",
+   "date": "2022-06-30",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -76,6 +103,16 @@
   },
   {
    "relate": "续集",
+   "src": 14665,
+   "dst": 268586
+  },
+  {
+   "relate": "续集",
+   "src": 14665,
+   "dst": 269179
+  },
+  {
+   "relate": "续集",
    "src": 78818,
    "dst": 14665
   },
@@ -83,6 +120,11 @@
    "relate": "相同世界观",
    "src": 78818,
    "dst": 99098
+  },
+  {
+   "relate": "相同世界观",
+   "src": 78818,
+   "dst": 107536
   },
   {
    "relate": "不同演绎",
@@ -93,6 +135,16 @@
    "relate": "相同世界观",
    "src": 99098,
    "dst": 14665
+  },
+  {
+   "relate": "相同世界观",
+   "src": 99098,
+   "dst": 78818
+  },
+  {
+   "relate": "相同世界观",
+   "src": 99098,
+   "dst": 107536
   },
   {
    "relate": "不同演绎",
@@ -110,6 +162,11 @@
    "dst": 78818
   },
   {
+   "relate": "相同世界观",
+   "src": 107536,
+   "dst": 99098
+  },
+  {
    "relate": "不同演绎",
    "src": 107536,
    "dst": 168953
@@ -118,6 +175,21 @@
    "relate": "不同演绎",
    "src": 168953,
    "dst": 14665
+  },
+  {
+   "relate": "不同演绎",
+   "src": 168953,
+   "dst": 78818
+  },
+  {
+   "relate": "不同演绎",
+   "src": 168953,
+   "dst": 99098
+  },
+  {
+   "relate": "不同演绎",
+   "src": 168953,
+   "dst": 107536
   },
   {
    "relate": "前传",

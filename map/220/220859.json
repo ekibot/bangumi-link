@@ -4,14 +4,31 @@
   {
    "id": 123767,
    "name": "豪華客船で恋は始まる",
-   "image": "//lain.bgm.tv/pic/cover/m/2d/32/123767_RrS5P.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/2d/32/123767_RrS5P.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 220859,
    "name": "豪華客船EX",
    "date": "2004-07-16",
-   "image": "/img/no_icon_subject.png"
+   "image": "",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
+  },
+  {
+   "id": 220860,
+   "name": "恋人たちの休日は始まる~豪華客船EX",
+   "nameCN": "恋人们的休假日",
+   "image": "https://lain.bgm.tv/pic/cover/m/aa/db/220860_jp.jpg",
+   "date": "2004-07-16",
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -23,6 +40,11 @@
   {
    "relate": "主线故事",
    "src": 220859,
+   "dst": 123767
+  },
+  {
+   "relate": "主线故事",
+   "src": 220860,
    "dst": 123767
   }
  ]

@@ -5,43 +5,61 @@
    "id": 749,
    "name": "The Charlie Brown and Snoopy Show",
    "nameCN": "查理布朗和史努比",
-   "image": "//lain.bgm.tv/pic/cover/m/b0/56/749_zd2ni.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/b0/56/749_zd2ni.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 113090,
    "name": "Snoopy, Come Home",
    "nameCN": "聪明狗走天涯",
-   "image": "//lain.bgm.tv/pic/cover/m/d2/fb/113090_32vLJ.jpg",
-   "date": "1973-06-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/d2/fb/113090_32vLJ.jpg",
+   "date": "1973-06-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 113092,
    "name": "A Boy Named Charlie Brown",
    "nameCN": "查理布朗男孩",
-   "image": "//lain.bgm.tv/pic/cover/m/84/47/113092_II1xx.jpg",
-   "date": "1971-08-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/84/47/113092_II1xx.jpg",
+   "date": "1971-08-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 139016,
    "name": "The Peanuts Movie",
    "nameCN": "花生漫画大电影：史努比",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/5f/139016_265aa.jpg",
-   "date": "2015-11-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/5f/139016_265aa.jpg",
+   "date": "2015-11-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 234250,
    "name": "A Charlie Brown Christmas",
    "nameCN": "查理布朗的圣诞节",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/05/234250_kMOOv.jpg",
-   "date": "1965-12-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/05/234250_kMOOv.jpg",
+   "date": "1965-12-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 280582,
    "name": "It's the Great Pumpkin, Charlie Brown",
    "nameCN": "这是南瓜大王哦！ 查理·布朗！",
-   "image": "//lain.bgm.tv/pic/cover/m/04/00/280582_0z81t.jpg",
-   "date": "1966-10-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/04/00/280582_0z81t.jpg",
+   "date": "1966-10-27",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -51,9 +69,24 @@
    "dst": 113090
   },
   {
+   "relate": "番外篇",
+   "src": 749,
+   "dst": 113092
+  },
+  {
    "relate": "不同演绎",
    "src": 749,
    "dst": 139016
+  },
+  {
+   "relate": "番外篇",
+   "src": 749,
+   "dst": 234250
+  },
+  {
+   "relate": "番外篇",
+   "src": 749,
+   "dst": 280582
   },
   {
    "relate": "主线故事",

@@ -5,27 +5,41 @@
    "id": 234521,
    "name": "徒花の館",
    "nameCN": "徒花之馆",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/b0/234521_z66N6.jpg",
-   "date": "2016-10-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/b0/234521_z66N6.jpg",
+   "date": "2016-10-28",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 234524,
    "name": "徒花の館・紅",
    "nameCN": "徒花之馆・红",
-   "image": "//lain.bgm.tv/pic/cover/m/ea/0a/234524_fGzeh.jpg",
-   "date": "2017-05-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/ea/0a/234524_fGzeh.jpg",
+   "date": "2017-05-14",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 239339,
    "name": "徒花の館・蒼",
-   "image": "//lain.bgm.tv/pic/cover/m/e5/b8/239339_cILQT.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/e5/b8/239339_cILQT.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 263729,
    "name": "徒花の館・地獄篇",
-   "image": "//lain.bgm.tv/pic/cover/m/c9/f4/263729_B3pvP.jpg",
-   "date": "2018-10-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/c9/f4/263729_B3pvP.jpg",
+   "date": "2018-10-13",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -61,8 +75,18 @@
   },
   {
    "relate": "相同世界观",
+   "src": 239339,
+   "dst": 263729
+  },
+  {
+   "relate": "相同世界观",
    "src": 263729,
    "dst": 234524
+  },
+  {
+   "relate": "相同世界观",
+   "src": 263729,
+   "dst": 239339
   }
  ]
 }

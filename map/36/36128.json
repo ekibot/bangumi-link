@@ -5,36 +5,51 @@
    "id": 7747,
    "name": "風雲決",
    "nameCN": "风云决",
-   "image": "//lain.bgm.tv/pic/cover/m/aa/f2/7747_Bl8Fb.jpg",
-   "date": "2008-07-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/aa/f2/7747_Bl8Fb.jpg",
+   "date": "2008-07-19",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 36045,
    "name": "風雲：雄霸天下",
    "nameCN": "风云：雄霸天下",
-   "image": "//lain.bgm.tv/pic/cover/m/12/78/36045_1T677.jpg",
-   "date": "1998-07-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/12/78/36045_1T677.jpg",
+   "date": "1998-07-18",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 36128,
    "name": "風雲：雄霸天下",
    "nameCN": "风云：雄霸天下",
-   "image": "//lain.bgm.tv/pic/cover/m/b2/71/36128_TT9nG.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/b2/71/36128_TT9nG.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 123392,
    "name": "風雲II",
    "nameCN": "风云II",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/76/123392_sDJrb.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/76/123392_sDJrb.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 257510,
    "name": "風雲Ⅱ",
    "nameCN": "风云2 （2005）",
-   "image": "//lain.bgm.tv/pic/cover/m/d3/64/257510_6qVU9.jpg",
-   "date": "2005-01-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/d3/64/257510_6qVU9.jpg",
+   "date": "2005-01-15",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -42,6 +57,16 @@
    "relate": "不同演绎",
    "src": 7747,
    "dst": 36045
+  },
+  {
+   "relate": "不同演绎",
+   "src": 7747,
+   "dst": 36128
+  },
+  {
+   "relate": "不同演绎",
+   "src": 36045,
+   "dst": 7747
   },
   {
    "relate": "不同演绎",
@@ -57,6 +82,11 @@
    "relate": "不同演绎",
    "src": 36128,
    "dst": 7747
+  },
+  {
+   "relate": "不同演绎",
+   "src": 36128,
+   "dst": 36045
   },
   {
    "relate": "续集",

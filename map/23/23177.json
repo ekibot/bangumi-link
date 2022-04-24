@@ -5,37 +5,68 @@
    "id": 3621,
    "name": "鎧伝サムライトルーパー",
    "nameCN": "魔神坛斗士",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/b2/3621_1W133.jpg",
-   "date": "1988-04-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/c5/b2/3621_1W133.jpg",
+   "date": "1988-04-30",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 23177,
    "name": "鎧伝サムライトルーパー 外伝",
    "nameCN": "魔神坛斗士 外传",
-   "image": "//lain.bgm.tv/pic/cover/m/0c/45/23177_lmDyU.jpg",
-   "date": "1989-04-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/0c/45/23177_lmDyU.jpg",
+   "date": "1989-04-30",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 23178,
    "name": "鎧伝サムライトルーパー 輝煌帝伝説",
    "nameCN": "魔神坛斗士 辉煌帝传说",
-   "image": "//lain.bgm.tv/pic/cover/m/d5/72/23178_TmTRC.jpg",
-   "date": "1989-10-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/d5/72/23178_TmTRC.jpg",
+   "date": "1989-10-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 23180,
    "name": "鎧伝サムライトルーパー MESSAGE",
    "nameCN": "魔神坛斗士 MESSAGE",
-   "image": "//lain.bgm.tv/pic/cover/m/db/78/23180_pdL0d.jpg",
-   "date": "1991-03-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/db/78/23180_pdL0d.jpg",
+   "date": "1991-03-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 51662,
    "name": "鎧外伝 サムライトルーパー (ケイブンシャノベルス)",
-   "image": "//lain.bgm.tv/pic/cover/m/78/3b/51662_G4868.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/3b/51662_G4868.jpg",
+   "nameCN": "",
+   "type": 1
+  },
+  {
+   "id": 155037,
+   "name": "鎧正伝",
+   "nameCN": "魔神坛斗士",
+   "image": "https://lain.bgm.tv/pic/cover/m/e2/fb/155037_dQNTN.jpg",
+   "type": 1
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 3621,
+   "dst": 23177
+  },
+  {
+   "relate": "番外篇",
+   "src": 3621,
+   "dst": 23178
+  },
   {
    "relate": "番外篇",
    "src": 3621,
@@ -45,6 +76,11 @@
    "relate": "番外篇",
    "src": 3621,
    "dst": 51662
+  },
+  {
+   "relate": "番外篇",
+   "src": 3621,
+   "dst": 155037
   },
   {
    "relate": "主线故事",

@@ -5,49 +5,71 @@
    "id": 849,
    "name": "To LOVEる -とらぶる-",
    "nameCN": "出包王女",
-   "image": "//lain.bgm.tv/pic/cover/m/fe/8c/849_Irz3w.jpg",
-   "date": "2008-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/fe/8c/849_Irz3w.jpg",
+   "date": "2008-04-03",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 3325,
    "name": "To LOVEる－とらぶる－ OVA",
    "nameCN": "出包王女 OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/93/68/3325_3MicC.jpg",
-   "date": "2009-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/93/68/3325_3MicC.jpg",
+   "date": "2009-04-03",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 8546,
    "name": "もっと To LOVEる",
    "nameCN": "更多 出包王女",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/40/8546_gBpmI.jpg",
-   "date": "2010-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/40/8546_gBpmI.jpg",
+   "date": "2010-10-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 37694,
    "name": "To LOVEる-とらぶる-ダークネス",
    "nameCN": "出包王女Darkness",
-   "image": "//lain.bgm.tv/pic/cover/m/46/3e/37694_irI8V.jpg",
-   "date": "2012-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/46/3e/37694_irI8V.jpg",
+   "date": "2012-10-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 45884,
    "name": "To LOVEる-とらぶる-ダークネス OAD",
    "nameCN": "出包王女Darkness OAD",
-   "image": "//lain.bgm.tv/pic/cover/m/07/a4/45884_cdz4x.jpg",
-   "date": "2012-08-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/a4/45884_cdz4x.jpg",
+   "date": "2012-08-17",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 120763,
    "name": "To LOVEる -とらぶる- ダークネス 2nd",
    "nameCN": "出包王女Darkness 2nd",
-   "image": "//lain.bgm.tv/pic/cover/m/38/c9/120763_XXV54.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/38/c9/120763_XXV54.jpg",
+   "type": 2,
+   "date": "2015-07-06",
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 210486,
    "name": "To LOVEる-とらぶる-ダークネス OVA",
    "nameCN": "出包王女Darkness OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/e0/9b/210486_bnSuB.jpg",
-   "date": "2017-11-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/e0/9b/210486_bnSuB.jpg",
+   "date": "2017-11-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -92,13 +114,43 @@
    "dst": 120763
   },
   {
+   "relate": "番外篇",
+   "src": 37694,
+   "dst": 210486
+  },
+  {
+   "relate": "主线故事",
+   "src": 45884,
+   "dst": 849
+  },
+  {
+   "relate": "主线故事",
+   "src": 45884,
+   "dst": 8546
+  },
+  {
+   "relate": "主线故事",
+   "src": 45884,
+   "dst": 37694
+  },
+  {
    "relate": "主线故事",
    "src": 45884,
    "dst": 120763
   },
   {
-   "relate": "续集",
-   "src": 45884,
+   "relate": "前传",
+   "src": 120763,
+   "dst": 37694
+  },
+  {
+   "relate": "番外篇",
+   "src": 120763,
+   "dst": 45884
+  },
+  {
+   "relate": "番外篇",
+   "src": 120763,
    "dst": 210486
   },
   {
@@ -110,6 +162,11 @@
    "relate": "前传",
    "src": 210486,
    "dst": 45884
+  },
+  {
+   "relate": "主线故事",
+   "src": 210486,
+   "dst": 120763
   }
  ]
 }

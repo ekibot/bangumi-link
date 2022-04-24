@@ -5,29 +5,41 @@
    "id": 27380,
    "name": "Mind Your Language (Season 3)",
    "nameCN": "请说普通话 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/cc/7f/27380_0iI9d.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/cc/7f/27380_0iI9d.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 33492,
    "name": "Mind Your Language (Season 1)",
    "nameCN": "请说普通话 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/98/c6/33492_W422c.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/98/c6/33492_W422c.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 86326,
    "name": "Mind Your Language (Season 2)",
    "nameCN": "请说普通话 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/51/69/86326_33TkU.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/51/69/86326_33TkU.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 86327,
    "name": "Mind Your Language (Season 4)",
    "nameCN": "请说普通话 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/3f/86327_y3ChZ.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/3f/86327_y3ChZ.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -37,9 +49,24 @@
    "dst": 33492
   },
   {
+   "relate": "前传",
+   "src": 27380,
+   "dst": 86326
+  },
+  {
    "relate": "续集",
    "src": 27380,
    "dst": 86327
+  },
+  {
+   "relate": "续集",
+   "src": 33492,
+   "dst": 27380
+  },
+  {
+   "relate": "续集",
+   "src": 33492,
+   "dst": 86326
   },
   {
    "relate": "续集",
@@ -57,9 +84,24 @@
    "dst": 33492
   },
   {
+   "relate": "续集",
+   "src": 86326,
+   "dst": 86327
+  },
+  {
    "relate": "前传",
    "src": 86327,
    "dst": 27380
+  },
+  {
+   "relate": "前传",
+   "src": 86327,
+   "dst": 33492
+  },
+  {
+   "relate": "前传",
+   "src": 86327,
+   "dst": 86326
   }
  ]
 }

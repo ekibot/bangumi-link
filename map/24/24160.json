@@ -5,29 +5,48 @@
    "id": 24160,
    "name": "Avalon",
    "nameCN": "阿瓦隆",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/1b/24160_YccH3.jpg",
-   "date": "2001-01-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/1b/24160_YccH3.jpg",
+   "date": "2001-01-20",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   },
   {
    "id": 77429,
    "name": "ASSAULT GIRLS",
    "nameCN": "突击少女",
-   "image": "//lain.bgm.tv/pic/cover/m/85/98/77429_qgqHp.jpg",
-   "date": "2009-12-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/85/98/77429_qgqHp.jpg",
+   "date": "2009-12-19",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 77431,
    "name": "斬〜KILL〜",
    "nameCN": "斩",
-   "image": "//lain.bgm.tv/pic/cover/m/a8/0f/77431_0cGZI.jpg",
-   "date": "2008-12-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/a8/0f/77431_0cGZI.jpg",
+   "date": "2008-12-06",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
+  },
+  {
+   "id": 157295,
+   "name": "Avalon 灰色の貴婦人",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/24/91/157295_eTkzD.jpg",
+   "type": 1
   },
   {
    "id": 186513,
    "name": "Sand Whale and Me",
    "nameCN": "沙鲸与我",
-   "image": "//lain.bgm.tv/pic/cover/m/ab/ee/186513_5m5kv.jpg",
-   "date": "2017-03-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/ab/ee/186513_5m5kv.jpg",
+   "date": "2017-03-18",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -35,6 +54,11 @@
    "relate": "续集",
    "src": 24160,
    "dst": 77429
+  },
+  {
+   "relate": "相同世界观",
+   "src": 24160,
+   "dst": 157295
   },
   {
    "relate": "相同世界观",
@@ -65,6 +89,11 @@
    "relate": "相同世界观",
    "src": 186513,
    "dst": 24160
+  },
+  {
+   "relate": "相同世界观",
+   "src": 186513,
+   "dst": 77429
   }
  ]
 }

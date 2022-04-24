@@ -5,22 +5,31 @@
    "id": 165791,
    "name": "シリーズ・江戸川乱歩短編集 1925年の明智小五郎",
    "nameCN": "江户川乱步短篇集 1925年的明智小五郎",
-   "image": "//lain.bgm.tv/pic/cover/m/e1/bc/165791_oN6Sn.jpg",
-   "date": "2016-01-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/bc/165791_oN6Sn.jpg",
+   "date": "2016-01-11",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 206516,
    "name": "シリーズ・江戸川乱歩短編集 妖しい愛の物語",
    "nameCN": "江户川乱步短篇集2",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/2e/206516_MKkmH.jpg",
-   "date": "2016-12-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/2e/206516_MKkmH.jpg",
+   "date": "2016-12-26",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 270409,
    "name": "満島ひかり×江戸川乱歩",
    "nameCN": "满岛光×江户川乱步",
-   "image": "//lain.bgm.tv/pic/cover/m/c6/67/270409_W295q.jpg",
-   "date": "2018-12-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/c6/67/270409_W295q.jpg",
+   "date": "2018-12-30",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 165791,
    "dst": 206516
+  },
+  {
+   "relate": "续集",
+   "src": 165791,
+   "dst": 270409
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 270409,
    "dst": 165791
+  },
+  {
+   "relate": "前传",
+   "src": 270409,
+   "dst": 206516
   }
  ]
 }

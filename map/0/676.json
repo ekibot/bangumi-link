@@ -5,52 +5,78 @@
    "id": 676,
    "name": "Fable 2",
    "nameCN": "神鬼寓言2",
-   "image": "//lain.bgm.tv/pic/cover/m/dc/6a/676_aus.jpg",
-   "date": "2008-10-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/dc/6a/676_aus.jpg",
+   "date": "2008-10-21",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 5966,
    "name": "Fable",
    "nameCN": "神鬼寓言",
-   "image": "//lain.bgm.tv/pic/cover/m/95/c8/5966_n70mI.jpg",
-   "date": "2004-09-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/95/c8/5966_n70mI.jpg",
+   "date": "2004-09-14",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 18014,
    "name": "Fable 3",
    "nameCN": "神鬼寓言3",
-   "image": "//lain.bgm.tv/pic/cover/m/4c/23/18014_p4Zpo.jpg",
-   "date": "2010-10-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/4c/23/18014_p4Zpo.jpg",
+   "date": "2010-10-26",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 126630,
    "name": "Fable Legends",
    "nameCN": "神鬼寓言：传奇",
-   "image": "//lain.bgm.tv/pic/cover/m/1c/0b/126630_Xfn64.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/1c/0b/126630_Xfn64.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 134183,
    "name": "Fable Anniversary",
    "nameCN": "神鬼寓言 周年纪念版",
-   "image": "//lain.bgm.tv/pic/cover/m/dc/62/134183_Vg0wU.jpg",
-   "date": "2014-02-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/dc/62/134183_Vg0wU.jpg",
+   "date": "2014-02-04",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 216515,
    "name": "Fable Fortune",
    "nameCN": "神鬼寓言：财富",
-   "image": "//lain.bgm.tv/pic/cover/m/6b/cc/216515_KwKDJ.jpg",
-   "date": "2017-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/6b/cc/216515_KwKDJ.jpg",
+   "date": "2017-07-25",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 311075,
    "name": "Fable",
-   "image": "//lain.bgm.tv/pic/cover/m/05/72/311075_hkX16.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/05/72/311075_hkX16.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 676,
+   "dst": 5966
+  },
   {
    "relate": "续集",
    "src": 676,
@@ -82,6 +108,11 @@
    "dst": 126630
   },
   {
+   "relate": "续集",
+   "src": 18014,
+   "dst": 311075
+  },
+  {
    "relate": "前传",
    "src": 126630,
    "dst": 18014
@@ -100,6 +131,16 @@
    "relate": "主线故事",
    "src": 216515,
    "dst": 676
+  },
+  {
+   "relate": "主线故事",
+   "src": 216515,
+   "dst": 5966
+  },
+  {
+   "relate": "主线故事",
+   "src": 216515,
+   "dst": 18014
   },
   {
    "relate": "前传",

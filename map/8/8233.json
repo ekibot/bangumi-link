@@ -5,14 +5,21 @@
    "id": 8233,
    "name": "はぴねす!",
    "nameCN": "Happiness!",
-   "image": "//lain.bgm.tv/pic/cover/m/b6/af/8233_e7aV8.jpg",
-   "date": "2006-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/b6/af/8233_e7aV8.jpg",
+   "date": "2006-10-05",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 78823,
    "name": "はぴねす! 渡良瀬準の華麗なる一日",
    "nameCN": "Happiness! 渡良濑准华丽的一天",
-   "image": "//lain.bgm.tv/pic/cover/m/7e/25/78823_OzME0.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/7e/25/78823_OzME0.jpg",
+   "type": 2,
+   "date": "2007-01-25",
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -20,6 +27,11 @@
    "relate": "番外篇",
    "src": 8233,
    "dst": 78823
+  },
+  {
+   "relate": "主线故事",
+   "src": 78823,
+   "dst": 8233
   }
  ]
 }

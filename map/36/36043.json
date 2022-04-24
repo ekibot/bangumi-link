@@ -5,29 +5,48 @@
    "id": 36043,
    "name": "木更津キャッツアイ",
    "nameCN": "木更津猫眼怪盗团",
-   "image": "//lain.bgm.tv/pic/cover/m/93/6d/36043_5tzLZ.jpg",
-   "date": "2002-01-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/93/6d/36043_5tzLZ.jpg",
+   "date": "2002-01-18",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 71601,
    "name": "木更津キャッツアイ ワールドシリーズ",
    "nameCN": "木更津猫眼 — 世界系列",
-   "image": "//lain.bgm.tv/pic/cover/m/3b/6c/71601_m3116.jpg",
-   "date": "2006-10-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/3b/6c/71601_m3116.jpg",
+   "date": "2006-10-28",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 71605,
    "name": "木更津キャッツアイ 日本シリーズ",
    "nameCN": "木更津猫眼 日本篇",
-   "image": "//lain.bgm.tv/pic/cover/m/bb/26/71605_bw8LY.jpg",
-   "date": "2003-11-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/bb/26/71605_bw8LY.jpg",
+   "date": "2003-11-01",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 36043,
+   "dst": 71601
+  },
+  {
+   "relate": "续集",
+   "src": 36043,
    "dst": 71605
+  },
+  {
+   "relate": "前传",
+   "src": 71601,
+   "dst": 36043
   },
   {
    "relate": "前传",

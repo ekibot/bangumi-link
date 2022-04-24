@@ -5,25 +5,39 @@
    "id": 60533,
    "name": "Cinderella",
    "nameCN": "灰姑娘",
-   "image": "//lain.bgm.tv/pic/cover/m/ae/44/60533_2vcUa.jpg",
-   "date": "1950-02-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/ae/44/60533_2vcUa.jpg",
+   "date": "1950-02-15",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 112884,
    "name": "Cinderella II: Dreams Come True",
    "nameCN": "仙履奇缘2：美梦成真",
-   "image": "//lain.bgm.tv/pic/cover/m/05/e7/112884_klK3L.jpg",
-   "date": "2002-02-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/e7/112884_klK3L.jpg",
+   "date": "2002-02-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 113084,
    "name": "Cinderella III: A Twist in Time",
    "nameCN": "仙履奇缘3： 时间魔法",
-   "image": "//lain.bgm.tv/pic/cover/m/c7/aa/113084_bjJJL.jpg",
-   "date": "2007-02-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/aa/113084_bjJJL.jpg",
+   "date": "2007-02-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 60533,
+   "dst": 112884
+  },
   {
    "relate": "续集",
    "src": 60533,
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 113084,
    "dst": 60533
+  },
+  {
+   "relate": "前传",
+   "src": 113084,
+   "dst": 112884
   }
  ]
 }

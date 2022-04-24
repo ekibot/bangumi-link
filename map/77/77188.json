@@ -5,36 +5,51 @@
    "id": 77188,
    "name": "鬼灯の冷徹",
    "nameCN": "鬼灯的冷彻",
-   "image": "//lain.bgm.tv/pic/cover/m/7a/e3/77188_zMiKm.jpg",
-   "date": "2014-01-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/7a/e3/77188_zMiKm.jpg",
+   "date": "2014-01-09",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 105191,
    "name": "鬼灯の冷徹 OAD",
    "nameCN": "鬼灯的冷彻 OAD",
-   "image": "//lain.bgm.tv/pic/cover/m/79/9e/105191_6uWsz.jpg",
-   "date": "2015-02-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/79/9e/105191_6uWsz.jpg",
+   "date": "2015-02-23",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 211035,
    "name": "鬼灯の冷徹 第弐期",
    "nameCN": "鬼灯的冷彻 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/a2/2f/211035_jUSo9.jpg",
-   "date": "2017-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/a2/2f/211035_jUSo9.jpg",
+   "date": "2017-10-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 234305,
    "name": "鬼灯の冷徹 第弐期 その弐",
    "nameCN": "鬼灯的冷彻 第二季 其之二",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/22/234305_Q00yH.jpg",
-   "date": "2018-04-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/22/234305_Q00yH.jpg",
+   "date": "2018-04-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 278449,
    "name": "鬼灯の冷徹 第弐期 OAD",
    "nameCN": "鬼灯的冷彻 第二季 OAD",
-   "image": "//lain.bgm.tv/pic/cover/m/6b/2e/278449_C1DR3.jpg",
-   "date": "2019-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/6b/2e/278449_C1DR3.jpg",
+   "date": "2019-09-20",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -49,6 +64,16 @@
    "dst": 211035
   },
   {
+   "relate": "番外篇",
+   "src": 77188,
+   "dst": 278449
+  },
+  {
+   "relate": "主线故事",
+   "src": 105191,
+   "dst": 77188
+  },
+  {
    "relate": "主线故事",
    "src": 105191,
    "dst": 211035
@@ -57,6 +82,11 @@
    "relate": "前传",
    "src": 211035,
    "dst": 77188
+  },
+  {
+   "relate": "番外篇",
+   "src": 211035,
+   "dst": 105191
   },
   {
    "relate": "续集",
@@ -77,6 +107,11 @@
    "relate": "主线故事",
    "src": 278449,
    "dst": 77188
+  },
+  {
+   "relate": "主线故事",
+   "src": 278449,
+   "dst": 211035
   }
  ]
 }

@@ -5,27 +5,41 @@
    "id": 79712,
    "name": "西遊釋厄伝",
    "nameCN": "西游释厄传",
-   "image": "//lain.bgm.tv/pic/cover/m/21/55/79712_dgkkk.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/21/55/79712_dgkkk.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 321721,
    "name": "西遊釋厄傳2",
    "nameCN": "西游释厄传2",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/5d/321721_wC8eG.jpg",
-   "date": "2008-01-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/5d/321721_wC8eG.jpg",
+   "date": "2008-01-04",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 321723,
    "name": "西遊釋厄伝SUPER",
    "nameCN": "西游释厄伝SUPER",
-   "date": null
+   "date": null,
+   "image": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 321724,
    "name": "西遊釋厄伝群魔亂舞",
    "nameCN": "西游释厄传群魔乱舞",
-   "date": null
+   "date": null,
+   "image": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -40,6 +54,11 @@
    "dst": 321723
   },
   {
+   "relate": "不同演绎",
+   "src": 79712,
+   "dst": 321724
+  },
+  {
    "relate": "前传",
    "src": 321721,
    "dst": 79712
@@ -51,8 +70,18 @@
   },
   {
    "relate": "不同演绎",
+   "src": 321723,
+   "dst": 321724
+  },
+  {
+   "relate": "不同演绎",
    "src": 321724,
    "dst": 79712
+  },
+  {
+   "relate": "不同演绎",
+   "src": 321724,
+   "dst": 321723
   }
  ]
 }

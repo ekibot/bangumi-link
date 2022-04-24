@@ -2,20 +2,66 @@
  "id": 60070,
  "node": [
   {
+   "id": 12104,
+   "name": "星の王女",
+   "nameCN": "星之王女",
+   "image": "https://lain.bgm.tv/pic/cover/m/29/76/12104_zJzja.jpg",
+   "date": "2003-08-25",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
+  },
+  {
+   "id": 60067,
+   "name": "星の王女2",
+   "nameCN": "星之王女二",
+   "image": "https://lain.bgm.tv/pic/cover/m/7f/2f/60067_F72Df.jpg",
+   "type": 4,
+   "date": "2004-02-29",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
    "id": 60069,
    "name": "星の王女3 ——天・地・人の創世記——",
    "nameCN": "星之王女三：天、地、人的创世纪",
-   "image": "//lain.bgm.tv/pic/cover/m/05/92/60069_edJt5.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/92/60069_edJt5.jpg",
+   "type": 4,
+   "date": "2004-11-21",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 60070,
    "name": "星の王女シリーズ 星の約束",
    "nameCN": "星之王女系列：星之约束",
-   "image": "//lain.bgm.tv/pic/cover/m/e9/d4/60070_pRBEl.jpg",
-   "date": "2005-03-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/e9/d4/60070_pRBEl.jpg",
+   "date": "2005-03-31",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 12104,
+   "dst": 60067
+  },
+  {
+   "relate": "前传",
+   "src": 60067,
+   "dst": 12104
+  },
+  {
+   "relate": "续集",
+   "src": 60067,
+   "dst": 60069
+  },
+  {
+   "relate": "前传",
+   "src": 60069,
+   "dst": 60067
+  },
   {
    "relate": "主线故事",
    "src": 60070,

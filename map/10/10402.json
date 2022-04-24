@@ -5,32 +5,49 @@
    "id": 3417,
    "name": "リーンの翼",
    "nameCN": "圣光之翼",
-   "image": "//lain.bgm.tv/pic/cover/m/47/1c/3417_9b4x1.jpg",
-   "date": "2005-12-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/47/1c/3417_9b4x1.jpg",
+   "date": "2005-12-10",
+   "nsfw": false,
+   "platform": "WEB",
+   "type": 2
   },
   {
    "id": 10402,
    "name": "聖戦士ダンバイン",
    "nameCN": "圣战士登拜因",
-   "image": "//lain.bgm.tv/pic/cover/m/f9/d3/10402_LSYLu.jpg",
-   "date": "1983-02-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/f9/d3/10402_LSYLu.jpg",
+   "date": "1983-02-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 39869,
    "name": "New Story of Aura Battler DUNBINE",
    "nameCN": "圣战士登拜因 OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/70/e1/39869_00spe.jpg",
-   "date": "1988-02-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/70/e1/39869_00spe.jpg",
+   "date": "1988-02-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 41871,
    "name": "バイストン・ウェル物語 ガーゼィの翼",
    "nameCN": "加什之翼",
-   "image": "//lain.bgm.tv/pic/cover/m/e3/0b/41871_3edtd.jpg",
-   "date": "1996-09-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/e3/0b/41871_3edtd.jpg",
+   "date": "1996-09-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
+  {
+   "relate": "相同世界观",
+   "src": 3417,
+   "dst": 10402
+  },
   {
    "relate": "相同世界观",
    "src": 3417,
@@ -47,6 +64,11 @@
    "dst": 39869
   },
   {
+   "relate": "相同世界观",
+   "src": 10402,
+   "dst": 41871
+  },
+  {
    "relate": "前传",
    "src": 39869,
    "dst": 10402
@@ -55,6 +77,11 @@
    "relate": "相同世界观",
    "src": 41871,
    "dst": 3417
+  },
+  {
+   "relate": "相同世界观",
+   "src": 41871,
+   "dst": 10402
   }
  ]
 }

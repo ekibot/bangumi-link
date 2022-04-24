@@ -4,30 +4,47 @@
   {
    "id": 119464,
    "name": "男遊郭",
-   "image": "//lain.bgm.tv/pic/cover/m/fd/5c/119464_sBnn1.jpg",
-   "date": "2015-02-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/fd/5c/119464_sBnn1.jpg",
+   "date": "2015-02-19",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 151282,
    "name": "逆転吉原",
    "nameCN": "逆转吉原",
-   "image": "//lain.bgm.tv/pic/cover/m/61/01/151282_srz7x.jpg",
-   "date": "2014-05-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/61/01/151282_srz7x.jpg",
+   "date": "2014-05-07",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 197508,
    "name": "逆転吉原～扇屋編～",
    "nameCN": "逆转吉原～扇屋编～",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/b7/197508_62OK2.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/b7/197508_62OK2.jpg",
+   "type": 4,
+   "date": "2015-10-29",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 197509,
    "name": "逆転吉原～菊屋編～",
    "nameCN": "逆转吉原～菊屋编～",
-   "image": "//lain.bgm.tv/pic/cover/m/7e/9c/197509_d2nd7.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/7e/9c/197509_d2nd7.jpg",
+   "type": 4
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 119464,
+   "dst": 151282
+  },
   {
    "relate": "不同演绎",
    "src": 119464,
@@ -39,9 +56,19 @@
    "dst": 119464
   },
   {
+   "relate": "不同演绎",
+   "src": 151282,
+   "dst": 151282
+  },
+  {
    "relate": "相同世界观",
    "src": 151282,
    "dst": 197508
+  },
+  {
+   "relate": "相同世界观",
+   "src": 197508,
+   "dst": 151282
   }
  ]
 }

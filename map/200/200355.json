@@ -5,40 +5,61 @@
    "id": 117282,
    "name": "ツキウタ。 THE ANIMATION",
    "nameCN": "月歌",
-   "image": "//lain.bgm.tv/pic/cover/m/0c/a6/117282_TJDDH.jpg",
-   "date": "2016-07-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/0c/a6/117282_TJDDH.jpg",
+   "date": "2016-07-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 200355,
    "name": "TSUKIPRO THE ANIMATION",
-   "image": "//lain.bgm.tv/pic/cover/m/1f/ec/200355_99ui0.jpg",
-   "date": "2017-10-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/1f/ec/200355_99ui0.jpg",
+   "date": "2017-10-04",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 234094,
    "name": "TSUKIPRO THE ANIMATION 2",
-   "image": "//lain.bgm.tv/pic/cover/m/6f/e1/234094_TPglP.jpg",
-   "date": "2021-07-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/6f/e1/234094_TwMU3.jpg",
+   "date": "2021-07-07",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 266349,
    "name": "ツキウタ。 THE ANIMATION 2",
    "nameCN": "月歌2",
-   "image": "//lain.bgm.tv/pic/cover/m/07/5a/266349_2nNdX.jpg",
-   "date": "2020-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/5a/266349_2nNdX.jpg",
+   "date": "2020-10-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 318869,
    "name": "VAZZROCK THE ANIMATION",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/f2/318869_f4cD1.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/f2/318869_f4cD1.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 376448,
    "name": "RABBITS KINGDOM THE MOVIE",
    "nameCN": "月歌 剧场版 兔子王国",
-   "image": "//lain.bgm.tv/pic/cover/m/15/65/376448_ZzKc9.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/15/65/376448_ZzKc9.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -68,6 +89,11 @@
    "dst": 234094
   },
   {
+   "relate": "相同世界观",
+   "src": 200355,
+   "dst": 318869
+  },
+  {
    "relate": "前传",
    "src": 234094,
    "dst": 200355
@@ -78,6 +104,11 @@
    "dst": 117282
   },
   {
+   "relate": "不同世界观",
+   "src": 266349,
+   "dst": 376448
+  },
+  {
    "relate": "相同世界观",
    "src": 318869,
    "dst": 200355
@@ -86,6 +117,11 @@
    "relate": "不同世界观",
    "src": 376448,
    "dst": 117282
+  },
+  {
+   "relate": "不同世界观",
+   "src": 376448,
+   "dst": 266349
   }
  ]
 }

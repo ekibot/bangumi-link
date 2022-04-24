@@ -5,61 +5,90 @@
    "id": 24106,
    "name": "エリーのアトリエ 〜ザールブルグの錬金术士2〜",
    "nameCN": "炼金术士艾莉",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/95/24106_rBBb5.jpg",
-   "date": "1998-12-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/95/24106_rBBb5.jpg",
+   "date": "1998-12-17",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 41259,
    "name": "マリーのアトリエ 〜ザールブルグの錬金術士〜",
    "nameCN": "炼金术士玛莉",
-   "image": "//lain.bgm.tv/pic/cover/m/c7/f3/41259_7SRY2.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/f3/41259_7SRY2.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 41260,
    "name": "リリーのアトリエ 〜ザールブルグの錬金術士3〜",
    "nameCN": "炼金术士莉莉",
-   "image": "//lain.bgm.tv/pic/cover/m/57/6f/41260_2XXDl.jpg",
-   "date": "2001-06-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/57/6f/41260_2XXDl.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 41261,
    "name": "ヘルミーナとクルス 〜リリーのアトリエ もう一つの物語〜",
    "nameCN": "海美娜与库鲁斯～莉莉的工作室～另一个故事～",
-   "image": "//lain.bgm.tv/pic/cover/m/bd/47/41261_r9a99.jpg",
-   "date": "2001-12-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/bd/47/41261_r9a99.jpg",
+   "date": "2001-12-20",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 41262,
-   "name": "マリー&エリー ふたりのアトリエ",
-   "image": "//lain.bgm.tv/pic/cover/m/5e/45/41262_HH64d.jpg",
-   "date": "2001-10-25"
+   "name": "マリー&amp;エリー ふたりのアトリエ",
+   "image": "https://lain.bgm.tv/pic/cover/m/5e/45/41262_HH64d.jpg",
+   "date": "2001-10-25",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 41263,
-   "name": "マリー・エリー&アニスのアトリエ 〜そよ風からの伝言〜",
-   "image": "//lain.bgm.tv/pic/cover/m/36/57/41263_7VnN8.jpg",
-   "date": "2003-01-24"
+   "name": "マリー・エリー&amp;アニスのアトリエ 〜そよ風からの伝言〜",
+   "image": "https://lain.bgm.tv/pic/cover/m/36/57/41263_7VnN8.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 41264,
-   "name": "マリー&エリーのアトリエ 〜ザールブルグの錬金術士1・2〜",
-   "image": "//lain.bgm.tv/pic/cover/m/05/89/41264_YlUSq.jpg",
-   "date": "2001-11-15"
+   "name": "マリー&amp;エリーのアトリエ 〜ザールブルグの錬金術士1・2〜",
+   "image": "https://lain.bgm.tv/pic/cover/m/05/89/41264_YlUSq.jpg",
+   "date": "2001-11-15",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 239492,
    "name": "マリーのアトリエ Plus ～ザールブルグの錬金術士～",
    "nameCN": "玛莉的炼金工房 Plus ～萨尔博格的炼金术士",
-   "image": "//lain.bgm.tv/pic/cover/m/da/78/239492_y8Ccq.jpg",
-   "date": "1998-06-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/da/78/239492_y8Ccq.jpg",
+   "date": "1998-06-04",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 269478,
    "name": "エリーのアトリエ GB",
    "nameCN": "艾莉的工作室 GB",
-   "image": "//lain.bgm.tv/pic/cover/m/7b/03/269478_8nb2b.jpg",
-   "date": "2000-01-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/7b/03/269478_8nb2b.jpg",
+   "date": "2000-01-08",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -76,6 +105,11 @@
   {
    "relate": "不同演绎",
    "src": 24106,
+   "dst": 41264
+  },
+  {
+   "relate": "不同演绎",
+   "src": 24106,
    "dst": 269478
   },
   {
@@ -86,7 +120,17 @@
   {
    "relate": "不同演绎",
    "src": 41259,
+   "dst": 41264
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41259,
    "dst": 239492
+  },
+  {
+   "relate": "前传",
+   "src": 41260,
+   "dst": 24106
   },
   {
    "relate": "前传",
@@ -122,6 +166,11 @@
    "relate": "不同演绎",
    "src": 41264,
    "dst": 24106
+  },
+  {
+   "relate": "不同演绎",
+   "src": 41264,
+   "dst": 41259
   },
   {
    "relate": "不同演绎",

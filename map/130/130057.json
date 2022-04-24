@@ -5,36 +5,51 @@
    "id": 130057,
    "name": "Blade",
    "nameCN": "刀锋战士",
-   "image": "//lain.bgm.tv/pic/cover/m/55/01/130057_wTK4F.jpg",
-   "date": "1998-08-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/55/01/130057_wTK4F.jpg",
+   "date": "1998-08-21",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   },
   {
    "id": 130060,
    "name": "Blade II",
    "nameCN": "刀锋战士2",
-   "image": "//lain.bgm.tv/pic/cover/m/40/ca/130060_LI06u.jpg",
-   "date": "2002-03-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/40/ca/130060_LI06u.jpg",
+   "date": "2002-03-22",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 130061,
    "name": "Blade: Trinity",
    "nameCN": "刀锋战士3",
-   "image": "//lain.bgm.tv/pic/cover/m/9a/03/130061_kDZcC.jpg",
-   "date": "2004-12-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/03/130061_kDZcC.jpg",
+   "date": "2004-12-08",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 130062,
    "name": "Blade: The Series",
    "nameCN": "刀锋战士 电视剧版",
-   "image": "//lain.bgm.tv/pic/cover/m/0a/15/130062_LVMcY.jpg",
-   "date": "2006-06-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/15/130062_LVMcY.jpg",
+   "date": "2006-06-28",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 286962,
    "name": "Marvel's Blade",
    "nameCN": "刀锋战士",
-   "image": "//lain.bgm.tv/pic/cover/m/bb/35/286962_7pLtg.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/bb/35/286962_7pLtg.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -47,6 +62,11 @@
    "relate": "不同演绎",
    "src": 130057,
    "dst": 130062
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130057,
+   "dst": 286962
   },
   {
    "relate": "前传",
@@ -70,8 +90,18 @@
   },
   {
    "relate": "不同演绎",
+   "src": 130062,
+   "dst": 286962
+  },
+  {
+   "relate": "不同演绎",
    "src": 286962,
    "dst": 130057
+  },
+  {
+   "relate": "不同演绎",
+   "src": 286962,
+   "dst": 130062
   }
  ]
 }

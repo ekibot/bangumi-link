@@ -5,63 +5,91 @@
    "id": 4623,
    "name": "深夜食堂",
    "nameCN": "深夜食堂",
-   "image": "//lain.bgm.tv/pic/cover/m/83/ea/4623_xYE2R.jpg",
-   "date": "2009-10-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/83/ea/4623_xYE2R.jpg",
+   "date": "2009-10-10",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 24253,
    "name": "深夜食堂2",
    "nameCN": "深夜食堂2",
-   "image": "//lain.bgm.tv/pic/cover/m/dd/8a/24253_ebPOO.jpg",
-   "date": "2011-10-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/dd/8a/24253_ebPOO.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 110887,
    "name": "深夜食堂3",
    "nameCN": "深夜食堂3",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/55/110887_v7R5I.jpg",
-   "date": "2014-10-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/6e/55/110887_v7R5I.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 110888,
    "name": "深夜食堂",
    "nameCN": "深夜食堂",
-   "image": "//lain.bgm.tv/pic/cover/m/c3/73/110888_cepYG.jpg",
-   "date": "2014-11-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/c3/73/110888_cepYG.jpg",
+   "date": "2014-11-10",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 169493,
    "name": "심야식당",
    "nameCN": "深夜食堂",
-   "image": "//lain.bgm.tv/pic/cover/m/45/df/169493_8FJoM.jpg",
-   "date": "2015-07-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/45/df/169493_8FJoM.jpg",
+   "date": "2015-07-04",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 176670,
    "name": "深夜食堂",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/5b/176670_YNH86.jpg",
-   "date": "2017-06-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/5b/176670_YNH86.jpg",
+   "date": "2017-06-11",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 194648,
    "name": "続・深夜食堂",
    "nameCN": "续・深夜食堂",
-   "image": "//lain.bgm.tv/pic/cover/m/99/cf/194648_gJ8JH.jpg",
-   "date": "2016-11-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/99/cf/194648_gJ8JH.jpg",
+   "date": "2016-11-05",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 194649,
    "name": "深夜食堂 -TOKYO Stories-",
    "nameCN": "深夜食堂 -东京故事-",
-   "image": "//lain.bgm.tv/pic/cover/m/7d/eb/194649_HJeg4.jpg",
-   "date": "2016-10-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/7d/eb/194649_HJeg4.jpg",
+   "date": "2016-10-21",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 285060,
    "name": "深夜食堂 -TOKYO Stories 2-",
    "nameCN": "深夜食堂 -东京故事2-",
-   "image": "//lain.bgm.tv/pic/cover/m/c6/78/285060_V9DM2.jpg",
-   "date": "2019-10-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/c6/78/285060_V9DM2.jpg",
+   "date": "2019-10-11",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -74,6 +102,11 @@
    "relate": "不同演绎",
    "src": 4623,
    "dst": 169493
+  },
+  {
+   "relate": "不同演绎",
+   "src": 4623,
+   "dst": 176670
   },
   {
    "relate": "前传",
@@ -117,8 +150,18 @@
   },
   {
    "relate": "不同演绎",
+   "src": 169493,
+   "dst": 176670
+  },
+  {
+   "relate": "不同演绎",
    "src": 176670,
    "dst": 4623
+  },
+  {
+   "relate": "不同演绎",
+   "src": 176670,
+   "dst": 169493
   },
   {
    "relate": "前传",

@@ -5,36 +5,50 @@
    "id": 53761,
    "name": "新・オバケのQ太郎",
    "nameCN": "新小鬼Q太郎",
-   "image": "//lain.bgm.tv/pic/cover/m/3a/ff/53761_zLSGX.jpg",
-   "date": "1971-09-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/3a/ff/53761_zLSGX.jpg",
+   "date": "1971-09-01",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 53805,
    "name": "オバケのQ太郎",
    "nameCN": "小鬼Q太郎",
-   "image": "//lain.bgm.tv/pic/cover/m/c8/b4/53805_lYc4o.jpg",
-   "date": "1965-08-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/c8/b4/53805_lYc4o.jpg",
+   "date": "1965-08-29",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 299557,
    "name": "オバケのQ太郎 ワンワンパニック",
    "nameCN": "小鬼Q太郎 汪汪危机",
-   "image": "//lain.bgm.tv/pic/cover/m/e9/bc/299557_tCE2u.jpg",
-   "date": "1985-12-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/e9/bc/299557_tCE2u.jpg",
+   "date": "1985-12-16",
+   "nsfw": false,
+   "platform": "FC"
   },
   {
    "id": 313663,
    "name": "オバケのQ太郎 とびだせ! バケバケ大作戦",
    "nameCN": "小鬼Q太郎：Bake Bake大作战",
-   "image": "//lain.bgm.tv/pic/cover/m/df/63/313663_xbMVV.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/df/63/313663_xbMVV.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 313794,
    "name": "オバケのQ太郎 進め! 1/100大作戦",
    "nameCN": "小鬼Q太郎 前进！1/100大作战",
-   "image": "//lain.bgm.tv/pic/cover/m/6f/73/313794_3Frzh.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/6f/73/313794_3Frzh.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -54,9 +68,19 @@
    "dst": 313663
   },
   {
+   "relate": "衍生",
+   "src": 53805,
+   "dst": 313794
+  },
+  {
    "relate": "相同世界观",
    "src": 299557,
    "dst": 53761
+  },
+  {
+   "relate": "相同世界观",
+   "src": 299557,
+   "dst": 53805
   },
   {
    "relate": "主线故事",

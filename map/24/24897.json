@@ -5,20 +5,31 @@
    "id": 24897,
    "name": "12時の鐘とシンデレラ～Halloween Wedding～",
    "nameCN": "12点的钟与灰姑娘",
-   "image": "//lain.bgm.tv/pic/cover/m/f2/fe/24897_8cPxP.jpg",
-   "date": "2012-02-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/f2/fe/24897_8cPxP.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 37073,
    "name": "24時の鐘とシンデレラ～Halloween Wedding～",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/0b/37073_tkgfk.jpg",
-   "date": "2012-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/c5/0b/37073_tkgfk.jpg",
+   "date": "2012-09-20",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 61449,
    "name": "0時の鐘のシンデレラ〜Halloween Wedding〜",
-   "image": "//lain.bgm.tv/pic/cover/m/78/ff/61449_xpu2X.jpg",
-   "date": "2013-05-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/ff/61449_xpu2X.jpg",
+   "date": "2013-05-23",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -29,6 +40,16 @@
   },
   {
    "relate": "相同世界观",
+   "src": 24897,
+   "dst": 61449
+  },
+  {
+   "relate": "相同世界观",
+   "src": 37073,
+   "dst": 24897
+  },
+  {
+   "relate": "相同世界观",
    "src": 37073,
    "dst": 61449
   },
@@ -36,6 +57,11 @@
    "relate": "相同世界观",
    "src": 61449,
    "dst": 24897
+  },
+  {
+   "relate": "相同世界观",
+   "src": 61449,
+   "dst": 37073
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 7880,
    "name": "Paradise Kiss",
    "nameCN": "天堂之吻",
-   "image": "//lain.bgm.tv/pic/cover/m/46/ba/7880_x3GyR.jpg",
-   "date": "2005-10-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/46/ba/7880_x3GyR.jpg",
+   "date": "2005-10-13",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 38226,
    "name": "ご近所物語",
    "nameCN": "近所物语",
-   "image": "//lain.bgm.tv/pic/cover/m/1c/55/38226_yAJ66.jpg",
-   "date": "1995-09-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/1c/55/38226_yAJ66.jpg",
+   "date": "1995-09-10",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 270663,
    "name": "ご近所物語 (劇場版)",
    "nameCN": "近所物语 剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/14/cb/270663_2zd6x.jpg",
-   "date": "1996-03-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/14/cb/270663_2zd6x.jpg",
+   "date": "1996-03-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "相同世界观",
    "src": 7880,
    "dst": 38226
+  },
+  {
+   "relate": "相同世界观",
+   "src": 7880,
+   "dst": 270663
   },
   {
    "relate": "相同世界观",

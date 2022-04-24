@@ -4,13 +4,22 @@
   {
    "id": 185529,
    "name": "最高の小説家-secret-",
-   "image": "//lain.bgm.tv/pic/cover/m/26/bf/185529_aHo96.jpg",
-   "date": "2019-10-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/26/bf/185529_aHo96.jpg",
+   "date": "2019-10-10",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 226398,
    "name": "最高の小説家",
-   "image": "//lain.bgm.tv/pic/cover/m/11/18/226398_jp.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/11/18/226398_jp.jpg",
+   "nameCN": "",
+   "type": 1,
+   "date": "2017-08-10",
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -18,6 +27,11 @@
    "relate": "前传",
    "src": 185529,
    "dst": 226398
+  },
+  {
+   "relate": "续集",
+   "src": 226398,
+   "dst": 185529
   }
  ]
 }

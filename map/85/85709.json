@@ -5,22 +5,31 @@
    "id": 85709,
    "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
    "nameCN": "激龟快打",
-   "image": "//lain.bgm.tv/pic/cover/m/97/ea/85709_W54c0.jpg",
-   "date": "1993-12-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/97/ea/85709_W54c0.jpg",
+   "date": "1993-12-10",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 128691,
    "name": "T.M.N.T. トーナメントファイターズ",
    "nameCN": "忍者神龟：格斗大会",
-   "image": "//lain.bgm.tv/pic/cover/m/8f/b2/128691_qQtqJ.jpg",
-   "date": "1993-12-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/8f/b2/128691_qQtqJ.jpg",
+   "date": "1993-12-10",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 128695,
    "name": "ティーンエイジ・ミュータント・ニンジャ・タートルズ：ミュータント・ウォーリアーズ",
    "nameCN": "忍者神龟格斗",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/2f/128695_f3K06.jpg",
-   "date": "1993-12-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/2f/128695_f3K06.jpg",
+   "date": "1993-12-03",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "不同演绎",
+   "src": 85709,
+   "dst": 128695
+  },
+  {
+   "relate": "不同演绎",
    "src": 128691,
    "dst": 85709
   },
   {
    "relate": "不同演绎",
+   "src": 128691,
+   "dst": 128695
+  },
+  {
+   "relate": "不同演绎",
    "src": 128695,
    "dst": 85709
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128695,
+   "dst": 128691
   }
  ]
 }

@@ -4,21 +4,32 @@
   {
    "id": 115689,
    "name": "絶対命令",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/cc/115689_jp.jpg",
-   "date": "2008-12-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/c5/cc/115689_jp.jpg",
+   "date": "2008-12-27",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 115752,
    "name": "仄かな恋の断片を",
    "nameCN": "微熱戀碎片",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/88/115752_jp.jpg",
-   "date": "2006-05-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/88/115752_jp.jpg",
+   "date": "2006-05-29",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 115753,
    "name": "略奪者",
-   "image": "//lain.bgm.tv/pic/cover/m/14/42/115753_jp.jpg",
-   "date": "2009-11-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/14/42/115753_jp.jpg",
+   "date": "2009-11-28",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -38,9 +49,19 @@
    "dst": 115689
   },
   {
+   "relate": "续集",
+   "src": 115752,
+   "dst": 115753
+  },
+  {
    "relate": "前传",
    "src": 115753,
    "dst": 115689
+  },
+  {
+   "relate": "前传",
+   "src": 115753,
+   "dst": 115752
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 37266,
    "name": "バビル2世",
    "nameCN": "巴比伦二世",
-   "image": "//lain.bgm.tv/pic/cover/m/58/d2/37266_c9A1u.jpg",
-   "date": "1973-01-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/58/d2/37266_c9A1u.jpg",
+   "date": "1973-01-01",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 37267,
    "name": "バビル2世",
    "nameCN": "巴比伦二世",
-   "image": "//lain.bgm.tv/pic/cover/m/45/95/37267_007ZQ.jpg",
-   "date": "2001-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/45/95/37267_007ZQ.jpg",
+   "date": "2001-10-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 37268,
    "name": "バビル2世",
    "nameCN": "巴比伦二世 OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/55/d1/37268_yLJ6y.jpg",
-   "date": "1992-03-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/55/d1/37268_yLJ6y.jpg",
+   "date": "1992-03-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "不同演绎",
+   "src": 37266,
+   "dst": 37268
+  },
+  {
+   "relate": "不同演绎",
    "src": 37267,
    "dst": 37266
   },
   {
    "relate": "不同演绎",
+   "src": 37267,
+   "dst": 37268
+  },
+  {
+   "relate": "不同演绎",
    "src": 37268,
    "dst": 37266
+  },
+  {
+   "relate": "不同演绎",
+   "src": 37268,
+   "dst": 37267
   }
  ]
 }

@@ -5,43 +5,61 @@
    "id": 96114,
    "name": "The League of Gentlemen (Series 1)",
    "nameCN": "绅士联盟 （第一季）",
-   "image": "//lain.bgm.tv/pic/cover/m/c8/48/96114_reKDv.jpg",
-   "date": "1999-01-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/c8/48/96114_reKDv.jpg",
+   "date": "1999-01-11",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 96115,
    "name": "The League of Gentlemen (Series 2)",
    "nameCN": "绅士联盟 （第二季）",
-   "image": "//lain.bgm.tv/pic/cover/m/7b/96/96115_v4ruA.jpg",
-   "date": "2000-01-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/7b/96/96115_v4ruA.jpg",
+   "date": "2000-01-14",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 96117,
    "name": "The League of Gentlemen (Christmas Special)",
    "nameCN": "绅士联盟 （圣诞特辑）",
-   "image": "//lain.bgm.tv/pic/cover/m/a0/b8/96117_rwz8r.jpg",
-   "date": "2000-12-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/a0/b8/96117_rwz8r.jpg",
+   "date": "2000-12-27",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 96118,
    "name": "The League of Gentlemen (Series 3)",
    "nameCN": "绅士联盟 （第三季）",
-   "image": "//lain.bgm.tv/pic/cover/m/b1/92/96118_ZF2OZ.jpg",
-   "date": "2002-09-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/92/96118_ZF2OZ.jpg",
+   "date": "2002-09-26",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 96123,
    "name": "The League of Gentlemen's Apocalypse",
    "nameCN": "绅士联盟启示录",
-   "image": "//lain.bgm.tv/pic/cover/m/d4/70/96123_MLNLs.jpg",
-   "date": "2005-06-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/d4/70/96123_MLNLs.jpg",
+   "date": "2005-06-03",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 233348,
    "name": "The League of Gentlemen Anniversary Specials",
    "nameCN": "绅士联盟 20周年特辑",
-   "image": "//lain.bgm.tv/pic/cover/m/ee/76/233348_LF9kP.jpg",
-   "date": "2017-12-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/ee/76/233348_LF9kP.jpg",
+   "date": "2017-12-18",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -59,6 +77,11 @@
    "relate": "衍生",
    "src": 96114,
    "dst": 96123
+  },
+  {
+   "relate": "番外篇",
+   "src": 96114,
+   "dst": 233348
   },
   {
    "relate": "前传",
@@ -81,14 +104,34 @@
    "dst": 96123
   },
   {
+   "relate": "番外篇",
+   "src": 96115,
+   "dst": 233348
+  },
+  {
    "relate": "主线故事",
    "src": 96117,
    "dst": 96114
   },
   {
+   "relate": "主线故事",
+   "src": 96117,
+   "dst": 96115
+  },
+  {
+   "relate": "主线故事",
+   "src": 96117,
+   "dst": 96118
+  },
+  {
    "relate": "相同世界观",
    "src": 96117,
    "dst": 96123
+  },
+  {
+   "relate": "相同世界观",
+   "src": 96117,
+   "dst": 233348
   },
   {
    "relate": "前传",
@@ -106,14 +149,34 @@
    "dst": 96123
   },
   {
+   "relate": "番外篇",
+   "src": 96118,
+   "dst": 233348
+  },
+  {
    "relate": "衍生",
    "src": 96123,
    "dst": 96114
   },
   {
+   "relate": "衍生",
+   "src": 96123,
+   "dst": 96115
+  },
+  {
    "relate": "相同世界观",
    "src": 96123,
    "dst": 96117
+  },
+  {
+   "relate": "衍生",
+   "src": 96123,
+   "dst": 96118
+  },
+  {
+   "relate": "相同世界观",
+   "src": 96123,
+   "dst": 233348
   },
   {
    "relate": "主线故事",
@@ -121,9 +184,24 @@
    "dst": 96114
   },
   {
+   "relate": "主线故事",
+   "src": 233348,
+   "dst": 96115
+  },
+  {
    "relate": "相同世界观",
    "src": 233348,
    "dst": 96117
+  },
+  {
+   "relate": "主线故事",
+   "src": 233348,
+   "dst": 96118
+  },
+  {
+   "relate": "相同世界观",
+   "src": 233348,
+   "dst": 96123
   }
  ]
 }

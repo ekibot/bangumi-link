@@ -5,36 +5,51 @@
    "id": 104645,
    "name": "The Last Ship Season 1",
    "nameCN": "末日孤舰",
-   "image": "//lain.bgm.tv/pic/cover/m/65/ba/104645_x0i6I.jpg",
-   "date": "2014-06-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/65/ba/104645_x0i6I.jpg",
+   "date": "2014-06-22",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 138187,
    "name": "The Last Ship Season 2",
    "nameCN": "末日孤舰 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/29/2a/138187_u1oAZ.jpg",
-   "date": "2015-06-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/29/2a/138187_u1oAZ.jpg",
+   "date": "2015-06-21",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 185212,
    "name": "The Last Ship Season 3",
    "nameCN": "末日孤舰 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/d1/74/185212_uRAov.jpg",
-   "date": "2016-06-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/d1/74/185212_uRAov.jpg",
+   "date": "2016-06-19",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 222543,
    "name": "The Last Ship Season 4",
    "nameCN": "末日孤舰 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/4b/05/222543_zOu8u.jpg",
-   "date": "2017-08-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/4b/05/222543_zOu8u.jpg",
+   "date": "2017-08-21",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 223160,
    "name": "The Last Ship Season 5",
    "nameCN": "末日孤舰 第五季",
-   "image": "//lain.bgm.tv/pic/cover/m/d5/af/223160_YuI62.jpg",
-   "date": "2018-09-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/d5/af/223160_YuI62.jpg",
+   "date": "2018-09-09",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -42,6 +57,21 @@
    "relate": "续集",
    "src": 104645,
    "dst": 138187
+  },
+  {
+   "relate": "续集",
+   "src": 104645,
+   "dst": 185212
+  },
+  {
+   "relate": "续集",
+   "src": 104645,
+   "dst": 222543
+  },
+  {
+   "relate": "续集",
+   "src": 104645,
+   "dst": 223160
   },
   {
    "relate": "前传",
@@ -54,6 +84,21 @@
    "dst": 185212
   },
   {
+   "relate": "续集",
+   "src": 138187,
+   "dst": 222543
+  },
+  {
+   "relate": "续集",
+   "src": 138187,
+   "dst": 223160
+  },
+  {
+   "relate": "前传",
+   "src": 185212,
+   "dst": 104645
+  },
+  {
    "relate": "前传",
    "src": 185212,
    "dst": 138187
@@ -62,6 +107,21 @@
    "relate": "续集",
    "src": 185212,
    "dst": 222543
+  },
+  {
+   "relate": "续集",
+   "src": 185212,
+   "dst": 223160
+  },
+  {
+   "relate": "前传",
+   "src": 222543,
+   "dst": 104645
+  },
+  {
+   "relate": "前传",
+   "src": 222543,
+   "dst": 138187
   },
   {
    "relate": "前传",
@@ -77,6 +137,21 @@
    "relate": "前传",
    "src": 223160,
    "dst": 104645
+  },
+  {
+   "relate": "前传",
+   "src": 223160,
+   "dst": 138187
+  },
+  {
+   "relate": "前传",
+   "src": 223160,
+   "dst": 185212
+  },
+  {
+   "relate": "前传",
+   "src": 223160,
+   "dst": 222543
   }
  ]
 }

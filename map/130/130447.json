@@ -4,40 +4,56 @@
   {
    "id": 5375,
    "name": "闇の声ZERO",
-   "image": "//lain.bgm.tv/pic/cover/m/bf/76/5375_p1pbE.jpg",
-   "date": "2008-03-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/bf/76/5375_p1pbE.jpg",
+   "date": "2008-03-28",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 42293,
    "name": "小夜子",
-   "image": "/img/no_icon_subject.png"
+   "image": "https://lain.bgm.tv/pic/cover/m/72/e8/42293_eN4R1.jpg",
+   "nameCN": "",
+   "type": 4
   },
   {
    "id": 130447,
    "name": "闇の声",
    "nameCN": "闇之声",
-   "image": "/img/no_icon_subject.png",
-   "date": "2001-06-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/22/80/130447_TL06R.jpg",
+   "date": "2001-06-08",
+   "type": 4
   },
   {
    "id": 141184,
    "name": "闇の声Ⅱ",
    "nameCN": "闇之声2",
-   "image": "//lain.bgm.tv/pic/cover/m/b1/03/141184_x1nQ4.jpg",
-   "date": "2002-11-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/03/141184_x1nQ4.jpg",
+   "date": "2002-11-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 190798,
    "name": "闇の声異聞録",
    "nameCN": "闇之声异闻录",
-   "image": "//lain.bgm.tv/pic/cover/m/eb/ff/190798_i8I8b.jpg",
-   "date": "2005-07-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/ff/190798_i8I8b.jpg",
+   "date": "2005-07-29",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 207344,
    "name": "闇の声III ～五芒三欲魔方陣～",
-   "image": "//lain.bgm.tv/pic/cover/m/e7/2e/207344_f2ViA.jpg",
-   "date": "2003-12-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/e7/2e/207344_f2ViA.jpg",
+   "date": "2003-12-19",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -47,6 +63,21 @@
    "dst": 42293
   },
   {
+   "relate": "续集",
+   "src": 5375,
+   "dst": 130447
+  },
+  {
+   "relate": "续集",
+   "src": 5375,
+   "dst": 141184
+  },
+  {
+   "relate": "续集",
+   "src": 5375,
+   "dst": 207344
+  },
+  {
    "relate": "前传",
    "src": 130447,
    "dst": 5375
@@ -54,6 +85,16 @@
   {
    "relate": "续集",
    "src": 130447,
+   "dst": 42293
+  },
+  {
+   "relate": "前传",
+   "src": 141184,
+   "dst": 5375
+  },
+  {
+   "relate": "续集",
+   "src": 141184,
    "dst": 42293
   },
   {
@@ -72,6 +113,21 @@
    "dst": 130447
   },
   {
+   "relate": "主线故事",
+   "src": 190798,
+   "dst": 141184
+  },
+  {
+   "relate": "主线故事",
+   "src": 190798,
+   "dst": 207344
+  },
+  {
+   "relate": "前传",
+   "src": 207344,
+   "dst": 5375
+  },
+  {
    "relate": "续集",
    "src": 207344,
    "dst": 42293
@@ -80,6 +136,11 @@
    "relate": "前传",
    "src": 207344,
    "dst": 130447
+  },
+  {
+   "relate": "前传",
+   "src": 207344,
+   "dst": 141184
   }
  ]
 }

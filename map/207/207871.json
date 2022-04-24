@@ -5,50 +5,88 @@
    "id": 207871,
    "name": "ぼくは航空管制官４ 羽田",
    "nameCN": "我是航空管制官4 羽田",
-   "image": "//lain.bgm.tv/pic/cover/m/89/b9/207871_943g3.jpg",
-   "date": "2015-09-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/b9/207871_943g3.jpg",
+   "date": "2015-09-17",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 207874,
    "name": "ぼくは航空管制官４ 関空",
    "nameCN": "我是航空管制官4 关空",
-   "image": "//lain.bgm.tv/pic/cover/m/8d/0f/207874_Zf4Az.jpg",
-   "date": "2016-06-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/8d/0f/207874_Zf4Az.jpg",
+   "date": "2016-06-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 207875,
    "name": "ぼくは航空管制官４ 福岡",
    "nameCN": "我是航空管制官4 福冈",
-   "image": "//lain.bgm.tv/pic/cover/m/60/c2/207875_9uv8A.jpg",
-   "date": "2017-01-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/60/c2/207875_9uv8A.jpg",
+   "date": "2017-01-20",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 294116,
    "name": "ぼくは航空管制官４　羽田２",
    "nameCN": "我是航空管制官:羽田2",
-   "image": "//lain.bgm.tv/pic/cover/m/ba/e2/294116_Po6qd.jpg",
-   "date": "2018-02-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/ba/e2/294116_Po6qd.jpg",
+   "date": "2018-02-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 294118,
    "name": "ぼくは航空管制官４　セントレア",
    "nameCN": "我是航空管制官4:CENTRAIR",
-   "image": "//lain.bgm.tv/pic/cover/m/02/62/294118_8nsLd.jpg",
-   "date": "2018-06-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/02/62/294118_8nsLd.jpg",
+   "date": "2018-06-28",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 294119,
    "name": "ぼくは航空管制官４　那覇",
    "nameCN": "我是航空管制官4:那霸",
-   "image": "//lain.bgm.tv/pic/cover/m/e6/f2/294119_DG2MG.jpg",
-   "date": "2019-12-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/f2/294119_DG2MG.jpg",
+   "date": "2019-12-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 207871,
+   "dst": 207874
+  },
+  {
+   "relate": "续集",
+   "src": 207871,
+   "dst": 207875
+  },
+  {
+   "relate": "续集",
+   "src": 207871,
+   "dst": 294116
+  },
+  {
+   "relate": "续集",
+   "src": 207871,
    "dst": 294118
+  },
+  {
+   "relate": "续集",
+   "src": 207871,
+   "dst": 294119
   },
   {
    "relate": "前传",
@@ -61,9 +99,39 @@
    "dst": 207875
   },
   {
+   "relate": "续集",
+   "src": 207874,
+   "dst": 294116
+  },
+  {
+   "relate": "续集",
+   "src": 207874,
+   "dst": 294118
+  },
+  {
+   "relate": "续集",
+   "src": 207874,
+   "dst": 294119
+  },
+  {
    "relate": "前传",
    "src": 207875,
    "dst": 207871
+  },
+  {
+   "relate": "前传",
+   "src": 207875,
+   "dst": 207874
+  },
+  {
+   "relate": "续集",
+   "src": 207875,
+   "dst": 294116
+  },
+  {
+   "relate": "续集",
+   "src": 207875,
+   "dst": 294118
   },
   {
    "relate": "续集",
@@ -73,7 +141,22 @@
   {
    "relate": "前传",
    "src": 294116,
+   "dst": 207871
+  },
+  {
+   "relate": "前传",
+   "src": 294116,
    "dst": 207874
+  },
+  {
+   "relate": "前传",
+   "src": 294116,
+   "dst": 207875
+  },
+  {
+   "relate": "续集",
+   "src": 294116,
+   "dst": 294118
   },
   {
    "relate": "续集",
@@ -83,7 +166,22 @@
   {
    "relate": "前传",
    "src": 294118,
+   "dst": 207871
+  },
+  {
+   "relate": "前传",
+   "src": 294118,
    "dst": 207874
+  },
+  {
+   "relate": "前传",
+   "src": 294118,
+   "dst": 207875
+  },
+  {
+   "relate": "前传",
+   "src": 294118,
+   "dst": 294116
   },
   {
    "relate": "续集",
@@ -94,6 +192,26 @@
    "relate": "前传",
    "src": 294119,
    "dst": 207871
+  },
+  {
+   "relate": "前传",
+   "src": 294119,
+   "dst": 207874
+  },
+  {
+   "relate": "前传",
+   "src": 294119,
+   "dst": 207875
+  },
+  {
+   "relate": "前传",
+   "src": 294119,
+   "dst": 294116
+  },
+  {
+   "relate": "前传",
+   "src": 294119,
+   "dst": 294118
   }
  ]
 }

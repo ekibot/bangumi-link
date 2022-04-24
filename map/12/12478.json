@@ -5,22 +5,31 @@
    "id": 12478,
    "name": "英雄＊戦姫",
    "nameCN": "英雄战姬",
-   "image": "//lain.bgm.tv/pic/cover/m/50/31/12478_dn13n.jpg",
-   "date": "2012-03-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/50/31/12478_dn13n.jpg",
+   "date": "2012-03-30",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 81657,
    "name": "英雄＊戦姫GOLD",
    "nameCN": "英雄战姬GOLD",
-   "image": "//lain.bgm.tv/pic/cover/m/1e/0a/81657_xoXAY.jpg",
-   "date": "2014-03-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/1e/0a/81657_xoXAY.jpg",
+   "date": "2014-03-28",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 324558,
    "name": "英雄＊戦姫ＷＷ",
    "nameCN": "英雄战姬ww",
-   "image": "//lain.bgm.tv/pic/cover/m/ee/96/324558_Ntzht.jpg",
-   "date": "2019-07-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/ee/96/324558_Ntzht.jpg",
+   "date": "2019-07-30",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "不同演绎",
+   "src": 12478,
+   "dst": 324558
+  },
+  {
+   "relate": "不同演绎",
    "src": 81657,
    "dst": 12478
   },
   {
    "relate": "不同演绎",
+   "src": 81657,
+   "dst": 324558
+  },
+  {
+   "relate": "不同演绎",
    "src": 324558,
    "dst": 12478
+  },
+  {
+   "relate": "不同演绎",
+   "src": 324558,
+   "dst": 81657
   }
  ]
 }

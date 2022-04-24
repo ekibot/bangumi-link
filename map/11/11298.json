@@ -5,36 +5,59 @@
    "id": 11298,
    "name": "真剣で私に恋しなさい!!",
    "nameCN": "认真和我恋爱",
-   "image": "//lain.bgm.tv/pic/cover/m/b9/c7/11298_Vq4dV.jpg",
-   "date": "2009-08-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/b9/c7/11298_Vq4dV.jpg",
+   "date": "2009-08-28",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 22963,
    "name": "真剣で私に恋しなさい！S",
    "nameCN": "认真和我恋爱！S",
-   "image": "//lain.bgm.tv/pic/cover/m/71/27/22963_z1DVm.jpg",
-   "date": "2012-01-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/71/27/22963_z1DVm.jpg",
+   "date": "2012-01-27",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 50604,
    "name": "真剣で私に恋しなさい！A",
-   "image": "//lain.bgm.tv/pic/cover/m/38/99/50604_YDoDL.jpg",
-   "date": "2013-01-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/38/99/50604_YDoDL.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 204486,
    "name": "真剣で私に恋しなさい！Ａ プラスディスク",
-   "image": "//lain.bgm.tv/pic/cover/m/28/13/204486_6Gc7K.jpg",
-   "date": "2016-12-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/13/204486_6Gc7K.jpg",
+   "date": "2016-12-22",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 297305,
    "name": "真剣で私に恋しなさい！A猟犬ルートアフター",
-   "image": "//lain.bgm.tv/pic/cover/m/d7/ef/297305_9t285.jpg",
-   "date": "2019-12-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/d7/ef/297305_9t285.jpg",
+   "date": "2019-12-28",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 11298,
+   "dst": 22963
+  },
   {
    "relate": "续集",
    "src": 11298,
@@ -49,6 +72,11 @@
    "relate": "续集",
    "src": 22963,
    "dst": 50604
+  },
+  {
+   "relate": "前传",
+   "src": 50604,
+   "dst": 11298
   },
   {
    "relate": "前传",

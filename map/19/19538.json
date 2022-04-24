@@ -5,21 +5,31 @@
    "id": 19538,
    "name": "花右京メイド隊",
    "nameCN": "花右京女仆队",
-   "image": "//lain.bgm.tv/pic/cover/m/76/d4/19538_0TEKT.jpg",
-   "date": "2001-04-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/76/d4/19538_0TEKT.jpg",
+   "date": "2001-04-12",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 84547,
    "name": "花右京メイド隊 La Verite",
    "nameCN": "花右京女仆队 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/4a/bb/84547_H6NqZ.jpg",
-   "date": "2004-04-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/4a/bb/84547_H6NqZ.jpg",
+   "date": "2004-04-04",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 84549,
    "name": "DVDシングルアニメーション 花右京メイド隊",
    "nameCN": "花右京女仆队 OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/8c/fd/84549_1u1eA.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/8c/fd/84549_1u1eA.jpg",
+   "type": 2,
+   "date": "2001-09-19",
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -36,6 +46,11 @@
   {
    "relate": "前传",
    "src": 84547,
+   "dst": 19538
+  },
+  {
+   "relate": "主线故事",
+   "src": 84549,
    "dst": 19538
   }
  ]

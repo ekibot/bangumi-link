@@ -5,21 +5,31 @@
    "id": 294104,
    "name": "Gotham Girls",
    "nameCN": "哥谭妹子",
-   "image": "//lain.bgm.tv/pic/cover/m/98/c9/294104_60j39.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/98/c9/294104_60j39.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "WEB",
+   "type": 2
   },
   {
    "id": 294106,
    "name": "Gotham Girls Season 2",
    "nameCN": "高谭妹子 第二季",
    "date": null,
-   "image": "/img/no_icon_subject.png"
+   "image": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 294108,
    "name": "Gotham Girls Season 3",
    "nameCN": "高谭妹子 第三季",
-   "image": "/img/no_icon_subject.png"
+   "image": "",
+   "type": 2,
+   "date": null,
+   "nsfw": false,
+   "platform": "WEB"
   }
  ],
  "relate": [
@@ -37,6 +47,11 @@
    "relate": "续集",
    "src": 294106,
    "dst": 294108
+  },
+  {
+   "relate": "前传",
+   "src": 294108,
+   "dst": 294106
   }
  ]
 }

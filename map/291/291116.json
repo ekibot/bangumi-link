@@ -5,29 +5,41 @@
    "id": 295906,
    "name": "Criminal: UK",
    "nameCN": "审讯室：英国",
-   "image": "//lain.bgm.tv/pic/cover/m/c1/36/295906_D644J.jpg",
-   "date": "2019-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/c1/36/295906_D644J.jpg",
+   "date": "2019-09-20",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 296160,
    "name": "Criminal: Germany",
    "nameCN": "审讯室：德国",
-   "image": "//lain.bgm.tv/pic/cover/m/1e/32/296160_VjZ15.jpg",
-   "date": "2019-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/1e/32/296160_VjZ15.jpg",
+   "date": "2019-09-20",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 296161,
    "name": "Criminal: Spain",
    "nameCN": "审讯室：西班牙",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/49/296161_V7Fqz.jpg",
-   "date": "2019-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/49/296161_V7Fqz.jpg",
+   "date": "2019-09-20",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 296162,
    "name": "Criminal: France",
    "nameCN": "审讯室：法国",
-   "image": "//lain.bgm.tv/pic/cover/m/bd/39/296162_6Uzk0.jpg",
-   "date": "2019-09-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/bd/39/296162_6Uzk0.jpg",
+   "date": "2019-09-20",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -38,8 +50,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 295906,
+   "dst": 296161
+  },
+  {
+   "relate": "相同世界观",
+   "src": 295906,
+   "dst": 296162
+  },
+  {
+   "relate": "相同世界观",
    "src": 296160,
    "dst": 295906
+  },
+  {
+   "relate": "相同世界观",
+   "src": 296160,
+   "dst": 296161
+  },
+  {
+   "relate": "相同世界观",
+   "src": 296160,
+   "dst": 296162
   },
   {
    "relate": "相同世界观",
@@ -48,8 +80,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 296161,
+   "dst": 296160
+  },
+  {
+   "relate": "相同世界观",
+   "src": 296161,
+   "dst": 296162
+  },
+  {
+   "relate": "相同世界观",
    "src": 296162,
    "dst": 295906
+  },
+  {
+   "relate": "相同世界观",
+   "src": 296162,
+   "dst": 296160
+  },
+  {
+   "relate": "相同世界观",
+   "src": 296162,
+   "dst": 296161
   }
  ]
 }

@@ -5,20 +5,46 @@
    "id": 18443,
    "name": "薔薇ノ木ニ薔薇ノ花咲ク",
    "nameCN": "蔷薇树上蔷薇花开",
-   "image": "//lain.bgm.tv/pic/cover/m/ff/5b/18443_gq4M6.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/ff/5b/18443_gq4M6.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 73863,
    "name": "薔薇ノ木ニ薔薇ノ花咲ク 愛蔵版",
    "nameCN": "蔷薇树上蔷薇花开 爱藏版",
-   "image": "//lain.bgm.tv/pic/cover/m/57/78/73863_p2x13.jpg",
-   "date": "2007-03-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/57/78/73863_p2x13.jpg",
+   "date": "2007-03-30",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 73864,
+   "name": "薔薇ノ木ニ薔薇ノ花咲ク ファンディスク",
+   "nameCN": "蔷薇树上蔷薇花开 Fan Disk",
+   "image": "https://lain.bgm.tv/pic/cover/m/ee/94/73864_68MQ1.jpg",
+   "date": "2003-09-26",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
    "relate": "不同演绎",
+   "src": 18443,
+   "dst": 73863
+  },
+  {
+   "relate": "不同演绎",
    "src": 73863,
+   "dst": 18443
+  },
+  {
+   "relate": "主线故事",
+   "src": 73864,
    "dst": 18443
   }
  ]

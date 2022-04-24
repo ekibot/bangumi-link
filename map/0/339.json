@@ -5,36 +5,51 @@
    "id": 339,
    "name": "Crysis",
    "nameCN": "孤岛危机",
-   "image": "//lain.bgm.tv/pic/cover/m/04/02/339_9ouDY.jpg",
-   "date": "2007-11-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/04/02/339_9ouDY.jpg",
+   "date": "2007-11-13",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 1808,
    "name": "Crysis Warhead",
    "nameCN": "孤岛危机：弹头",
-   "image": "//lain.bgm.tv/pic/cover/m/39/02/1808_554JC.jpg",
-   "date": "2008-09-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/39/02/1808_554JC.jpg",
+   "date": "2008-09-16",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 14621,
    "name": "Crysis 2",
    "nameCN": "孤岛危机2",
-   "image": "//lain.bgm.tv/pic/cover/m/f7/ff/14621_OJxyA.jpg",
-   "date": "2011-03-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/f7/ff/14621_OJxyA.jpg",
+   "date": "2011-03-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 54783,
    "name": "Crysis 3",
    "nameCN": "孤岛危机3",
-   "image": "//lain.bgm.tv/pic/cover/m/dd/6d/54783_zkBI4.jpg",
-   "date": "2013-02-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/dd/6d/54783_zkBI4.jpg",
+   "date": "2013-02-19",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 366962,
    "name": "Crysis 4",
    "nameCN": "孤岛危机4",
-   "image": "//lain.bgm.tv/pic/cover/m/0a/06/366962_2z4rZ.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/06/366962_2z4rZ.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -54,9 +69,19 @@
    "dst": 14621
   },
   {
+   "relate": "续集",
+   "src": 1808,
+   "dst": 54783
+  },
+  {
    "relate": "前传",
    "src": 14621,
    "dst": 339
+  },
+  {
+   "relate": "前传",
+   "src": 14621,
+   "dst": 1808
   },
   {
    "relate": "续集",

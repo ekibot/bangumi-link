@@ -5,22 +5,61 @@
    "id": 47556,
    "name": "円卓の生徒 Students of Round",
    "nameCN": "圆桌学生会",
-   "image": "//lain.bgm.tv/pic/cover/m/36/b3/47556_A7nxo.jpg",
-   "date": "2010-04-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/36/b3/47556_A7nxo.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
+   "id": 113447,
+   "name": "剣の街の異邦人 ~白の王宮~",
+   "nameCN": "剑之街的异邦人：白之王宫",
+   "image": "https://lain.bgm.tv/pic/cover/m/27/49/113447_zTsR7.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
+   "id": 128996,
+   "name": "剣の街の異邦人 ~黒の宮殿~",
+   "nameCN": "剑之街的异邦人：黑之宫殿",
+   "image": "https://lain.bgm.tv/pic/cover/m/a6/30/128996_HTNv1.jpg",
+   "date": "2015-01-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 168243,
+   "name": "STRANGER OF SWORD CITY",
+   "nameCN": "剑之街的异邦人（重制版）",
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/a9/168243_jz5cC.jpg",
+   "date": "2016-03-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 181754,
    "name": "黄泉ヲ裂ク華",
    "nameCN": "撕裂黄泉之花",
-   "image": "//lain.bgm.tv/pic/cover/m/f2/10/181754_iUMW2.jpg",
-   "date": "2020-06-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/f2/10/181754_iUMW2.jpg",
+   "date": "2020-06-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 288276,
    "name": "蒼き翼のシュバリエ",
    "nameCN": "苍翼的骑士",
-   "image": "//lain.bgm.tv/pic/cover/m/13/5c/288276_55hzV.jpg",
-   "date": "2019-07-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/13/5c/288276_55hzV.jpg",
+   "date": "2019-07-11",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -35,6 +74,31 @@
    "dst": 288276
   },
   {
+   "relate": "不同演绎",
+   "src": 113447,
+   "dst": 128996
+  },
+  {
+   "relate": "不同演绎",
+   "src": 113447,
+   "dst": 168243
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128996,
+   "dst": 113447
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128996,
+   "dst": 288276
+  },
+  {
+   "relate": "不同演绎",
+   "src": 168243,
+   "dst": 113447
+  },
+  {
    "relate": "相同世界观",
    "src": 181754,
    "dst": 47556
@@ -43,6 +107,11 @@
    "relate": "不同演绎",
    "src": 288276,
    "dst": 47556
+  },
+  {
+   "relate": "不同演绎",
+   "src": 288276,
+   "dst": 128996
   }
  ]
 }

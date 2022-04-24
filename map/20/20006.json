@@ -5,57 +5,81 @@
    "id": 20006,
    "name": "Stargate Universe Season 2",
    "nameCN": "星际之门：宇宙 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/b8/20006_OKsOU.jpg",
-   "date": "2010-09-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/b8/20006_OKsOU.jpg",
+   "date": "2010-09-28",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 23057,
    "name": "Stargate SG-1 Season 1",
    "nameCN": "星际之门 SG-1 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/5f/b0/23057_PoPTE.jpg",
-   "date": "1997-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/5f/b0/23057_PoPTE.jpg",
+   "date": "1997-07-27",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 98174,
    "name": "Stargate Universe Season 1",
    "nameCN": "星际之门：宇宙 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/77/92/98174_AfemU.jpg",
-   "date": "2009-10-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/77/92/98174_AfemU.jpg",
+   "date": "2009-10-02",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 98175,
    "name": "Stargate Atlantis (Season 1)",
    "nameCN": "星际之门：亚特兰蒂斯 [第一季]",
-   "image": "//lain.bgm.tv/pic/cover/m/f1/c5/98175_GEONG.jpg",
-   "date": "2004-07-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/f1/c5/98175_GEONG.jpg",
+   "date": "2004-07-16",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 205070,
    "name": "Stargate Atlantis (Season 2)",
    "nameCN": "星际之门：亚特兰蒂斯 [第二季]",
-   "image": "//lain.bgm.tv/pic/cover/m/51/bb/205070_ely0B.jpg",
-   "date": "2005-07-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/51/bb/205070_ely0B.jpg",
+   "date": "2005-07-15",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 205072,
    "name": "Stargate Atlantis (Season 3)",
    "nameCN": "星际之门：亚特兰蒂斯 [第三季]",
-   "image": "//lain.bgm.tv/pic/cover/m/29/5f/205072_Hz0sy.jpg",
-   "date": "2006-07-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/29/5f/205072_Hz0sy.jpg",
+   "date": "2006-07-14",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 205073,
    "name": "Stargate Atlantis (Season 4)",
    "nameCN": "星际之门：亚特兰蒂斯 [第四季]",
-   "image": "//lain.bgm.tv/pic/cover/m/f4/3e/205073_9Ctff.jpg",
-   "date": "2007-09-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/f4/3e/205073_9Ctff.jpg",
+   "date": "2007-09-28",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 205075,
    "name": "Stargate Atlantis (Season 5)",
    "nameCN": "星际之门：亚特兰蒂斯 [第五季]",
-   "image": "//lain.bgm.tv/pic/cover/m/7d/38/205075_X8cDh.jpg",
-   "date": "2008-07-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/7d/38/205075_X8cDh.jpg",
+   "date": "2008-07-11",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -70,6 +94,11 @@
    "dst": 98174
   },
   {
+   "relate": "衍生",
+   "src": 23057,
+   "dst": 98175
+  },
+  {
    "relate": "相同世界观",
    "src": 23057,
    "dst": 205070
@@ -78,6 +107,11 @@
    "relate": "续集",
    "src": 98174,
    "dst": 20006
+  },
+  {
+   "relate": "衍生",
+   "src": 98174,
+   "dst": 23057
   },
   {
    "relate": "衍生",
@@ -93,6 +127,11 @@
    "relate": "衍生",
    "src": 98175,
    "dst": 23057
+  },
+  {
+   "relate": "衍生",
+   "src": 98175,
+   "dst": 98174
   },
   {
    "relate": "续集",

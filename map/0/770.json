@@ -5,54 +5,77 @@
    "id": 770,
    "name": "天元突破グレンラガン",
    "nameCN": "天元突破 红莲螺岩",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/a0/770_EvrMq.jpg",
-   "date": "2007-04-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/a0/770_EvrMq.jpg",
+   "date": "2007-04-01",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 3995,
    "name": "劇場版 天元突破グレンラガン 紅蓮篇",
    "nameCN": "天元突破红莲螺岩 红莲篇",
-   "image": "//lain.bgm.tv/pic/cover/m/d4/64/3995_FNwzn.jpg",
-   "date": "2008-09-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/d4/64/3995_FNwzn.jpg",
+   "date": "2008-09-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 3996,
    "name": "劇場版 天元突破グレンラガン 螺巌篇",
    "nameCN": "天元突破红莲螺岩 螺岩篇",
-   "image": "//lain.bgm.tv/pic/cover/m/43/e0/3996_YC2Qp.jpg",
-   "date": "2009-04-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/43/e0/3996_YC2Qp.jpg",
+   "date": "2009-04-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 57018,
    "name": "天元突破グレンラガン",
    "nameCN": "天元突破 红莲螺岩",
-   "image": "//lain.bgm.tv/pic/cover/m/10/c8/57018_wWZQE.jpg",
-   "date": "2007-10-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/10/c8/57018_wWZQE.jpg",
+   "date": "2007-10-25",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 84728,
    "name": "グレパラ 〜グレンラガン パラレルワークス〜",
    "nameCN": "天元突破 Parallel Works",
-   "image": "//lain.bgm.tv/pic/cover/m/94/a0/84728_9L2q7.jpg",
-   "date": "2008-06-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/94/a0/84728_9L2q7.jpg",
+   "date": "2008-06-16",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 84758,
    "name": "グレンラガン パラレルワークス2",
    "nameCN": "天元突破 Parallel Works 2",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/5d/84758_Fh7rB.jpg",
-   "date": "2010-05-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/5d/84758_Fh7rB.jpg",
+   "date": "2010-05-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 92902,
    "name": "天元突破グレンラガン 男一匹編",
-   "image": "//lain.bgm.tv/pic/cover/m/02/0c/92902_jp.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/02/0c/92902_jp.jpg",
+   "nameCN": "",
+   "type": 1
   },
   {
    "id": 161818,
    "name": "天元突破グレンラガン キラメキ☆ヨーコbox ～pieces of sweet stars～",
-   "image": "//lain.bgm.tv/pic/cover/m/f6/1e/161818_98Tz3.jpg",
-   "date": "2009-05-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/f6/1e/161818_98Tz3.jpg",
+   "date": "2009-05-27",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 193584,
@@ -71,6 +94,11 @@
   {
    "relate": "总集篇",
    "src": 770,
+   "dst": 3995
+  },
+  {
+   "relate": "总集篇",
+   "src": 770,
    "dst": 3996
   },
   {
@@ -79,9 +107,19 @@
    "dst": 84728
   },
   {
+   "relate": "衍生",
+   "src": 770,
+   "dst": 84758
+  },
+  {
    "relate": "番外篇",
    "src": 770,
    "dst": 92902
+  },
+  {
+   "relate": "衍生",
+   "src": 770,
+   "dst": 161818
   },
   {
    "relate": "全集",

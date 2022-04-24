@@ -5,36 +5,51 @@
    "id": 25713,
    "name": "Popeye the Sailor",
    "nameCN": "大力水手",
-   "image": "//lain.bgm.tv/pic/cover/m/a3/90/25713_7HDKe.jpg",
-   "date": "1960-06-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/a3/90/25713_7HDKe.jpg",
+   "date": "1960-06-10",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 136905,
    "name": "Popeye the Sailor with Betty Boop",
    "nameCN": "大力水手",
-   "image": "//lain.bgm.tv/pic/cover/m/13/24/136905_3M269.jpg",
-   "date": "1933-07-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/13/24/136905_3M269.jpg",
+   "date": "1933-07-14",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 234773,
    "name": "Let's Celebrake",
    "nameCN": "大力水手贺新年",
-   "image": "//lain.bgm.tv/pic/cover/m/48/68/234773_Nr7eA.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/48/68/234773_Nr7eA.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 241671,
    "name": "Popeye the Sailor Meets Sindbad the Sailor",
    "nameCN": "当大力水手遇到水手辛巴达",
-   "image": "//lain.bgm.tv/pic/cover/m/c4/a7/241671_17j78.jpg",
-   "date": "1936-11-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/c4/a7/241671_17j78.jpg",
+   "date": "1936-11-27",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 2
   },
   {
    "id": 315432,
    "name": "Popeye the Sailor Meets Ali Baba's Forty Thieves",
    "nameCN": "大力水手和四十大盗",
-   "image": "//lain.bgm.tv/pic/cover/m/e2/d7/315432_RwB0W.jpg",
-   "date": "1937-11-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/e2/d7/315432_RwB0W.jpg",
+   "date": "1937-11-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -45,13 +60,33 @@
   },
   {
    "relate": "相同世界观",
+   "src": 25713,
+   "dst": 234773
+  },
+  {
+   "relate": "相同世界观",
    "src": 136905,
    "dst": 25713
   },
   {
    "relate": "相同世界观",
+   "src": 136905,
+   "dst": 234773
+  },
+  {
+   "relate": "相同世界观",
+   "src": 136905,
+   "dst": 315432
+  },
+  {
+   "relate": "相同世界观",
    "src": 234773,
    "dst": 25713
+  },
+  {
+   "relate": "相同世界观",
+   "src": 234773,
+   "dst": 136905
   },
   {
    "relate": "相同世界观",
@@ -62,6 +97,11 @@
    "relate": "相同世界观",
    "src": 315432,
    "dst": 136905
+  },
+  {
+   "relate": "相同世界观",
+   "src": 315432,
+   "dst": 241671
   }
  ]
 }

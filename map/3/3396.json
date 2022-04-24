@@ -5,22 +5,31 @@
    "id": 3396,
    "name": "魔法遣いに大切なこと 太陽と風の坂道",
    "nameCN": "魔法使的条件 太阳与风的坡道",
-   "image": "//lain.bgm.tv/pic/cover/m/81/8d/3396_1nfWz.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/81/8d/3396_1nfWz.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 14399,
    "name": "魔法遣いに大切なこと - SOMEDAY'S DREAMERS",
    "nameCN": "魔法使的条件 - Someday's dreamers",
-   "image": "//lain.bgm.tv/pic/cover/m/86/21/14399_r8u7t.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/86/21/14399_r8u7t.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 60281,
    "name": "魔法遣いに大切なこと 〜夏のソラ〜",
    "nameCN": "魔法使的条件 夏日天空",
-   "image": "//lain.bgm.tv/pic/cover/m/db/bb/60281_ADDK1.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/db/bb/60281_ADDK1.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 3396,
+   "dst": 60281
+  },
+  {
+   "relate": "相同世界观",
    "src": 14399,
    "dst": 3396
   },
   {
    "relate": "相同世界观",
+   "src": 14399,
+   "dst": 60281
+  },
+  {
+   "relate": "相同世界观",
    "src": 60281,
    "dst": 3396
+  },
+  {
+   "relate": "相同世界观",
+   "src": 60281,
+   "dst": 14399
   }
  ]
 }

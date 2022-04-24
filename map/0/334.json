@@ -5,57 +5,81 @@
    "id": 334,
    "name": "フルメタル・パニック!",
    "nameCN": "全金属狂潮",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/2b/334_MWQMC.jpg",
-   "date": "2002-01-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/2b/334_MWQMC.jpg",
+   "date": "2002-01-15",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 337,
    "name": "フルメタル・パニック! The Second Raid",
    "nameCN": "全金属狂潮 The Second Raid",
-   "image": "//lain.bgm.tv/pic/cover/m/35/7a/337_WzSea.jpg",
-   "date": "2005-07-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/35/7a/337_WzSea.jpg",
+   "date": "2005-07-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 338,
    "name": "フルメタル・パニック? ふもっふ",
    "nameCN": "全金属狂潮 校园篇",
-   "image": "//lain.bgm.tv/pic/cover/m/81/9f/338_W81CE.jpg",
-   "date": "2003-08-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/81/9f/338_W81CE.jpg",
+   "date": "2003-08-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 2689,
    "name": "フルメタル・パニック! The Second Raid 特別版OVA「わりとヒマな戦隊長の一日」",
    "nameCN": "全金属狂潮 The Second Raid OVA 战队长悠闲的一天",
-   "image": "//lain.bgm.tv/pic/cover/m/57/7f/2689_nr14G.jpg",
-   "date": "2006-05-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/57/7f/2689_nr14G.jpg",
+   "date": "2006-05-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 150246,
    "name": "フルメタル・パニック! Invisible Victory",
    "nameCN": "全金属狂潮 Invisible Victory",
-   "image": "//lain.bgm.tv/pic/cover/m/66/5d/150246_fcg4u.jpg",
-   "date": "2018-04-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/66/5d/150246_fcg4u.jpg",
+   "date": "2018-04-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 226187,
    "name": "フルメタル・パニック! ワン・ナイト・スタンド",
    "nameCN": "全金属狂潮 One Night Stand",
-   "image": "//lain.bgm.tv/pic/cover/m/78/48/226187_8SF2z.jpg",
-   "date": "2018-01-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/48/226187_8SF2z.jpg",
+   "date": "2018-01-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 226190,
    "name": "フルメタル・パニック! ボーイ・ミーツ・ガール",
    "nameCN": "全金属狂潮 Boy Meets Girl",
-   "image": "//lain.bgm.tv/pic/cover/m/a2/9f/226190_LVp99.jpg",
-   "date": "2017-11-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/a2/9f/226190_LVp99.jpg",
+   "date": "2017-11-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 226191,
    "name": "フルメタル・パニック! イントゥ・ザ・ブルー",
    "nameCN": "全金属狂潮 Into the Blue",
-   "image": "//lain.bgm.tv/pic/cover/m/fc/b6/226191_9yls9.jpg",
-   "date": "2018-01-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/fc/b6/226191_9yls9.jpg",
+   "date": "2018-01-20",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -72,7 +96,17 @@
   {
    "relate": "总集篇",
    "src": 334,
+   "dst": 226187
+  },
+  {
+   "relate": "总集篇",
+   "src": 334,
    "dst": 226190
+  },
+  {
+   "relate": "总集篇",
+   "src": 334,
+   "dst": 226191
   },
   {
    "relate": "前传",
@@ -85,6 +119,11 @@
    "dst": 338
   },
   {
+   "relate": "番外篇",
+   "src": 337,
+   "dst": 2689
+  },
+  {
    "relate": "续集",
    "src": 337,
    "dst": 150246
@@ -93,6 +132,16 @@
    "relate": "主线故事",
    "src": 338,
    "dst": 334
+  },
+  {
+   "relate": "主线故事",
+   "src": 338,
+   "dst": 337
+  },
+  {
+   "relate": "主线故事",
+   "src": 338,
+   "dst": 150246
   },
   {
    "relate": "主线故事",

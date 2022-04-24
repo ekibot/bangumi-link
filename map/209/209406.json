@@ -5,21 +5,52 @@
    "id": 67958,
    "name": "DREAM HUNTER 麗夢",
    "nameCN": "梦猎人丽梦",
-   "image": "//lain.bgm.tv/pic/cover/m/05/46/67958_HV9gV.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/46/67958_HV9gV.jpg",
+   "date": "1985-06-10",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
+  },
+  {
+   "id": 67959,
+   "name": "NEW DREAM HUNTER 麗夢",
+   "nameCN": "新梦猎人丽梦",
+   "image": "https://lain.bgm.tv/pic/cover/m/70/6e/67959_OB793.jpg",
+   "type": 2,
+   "date": "1990-12-16",
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 209406,
    "name": "レムの夢魔退治",
    "nameCN": "丽梦的梦魔退治",
-   "image": "//lain.bgm.tv/pic/cover/m/c2/fa/209406_3fMf1.jpg",
-   "date": "2006-03-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/fa/209406_3fMf1.jpg",
+   "date": "2006-03-06",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 67958,
+   "dst": 67959
+  },
+  {
+   "relate": "前传",
+   "src": 67959,
+   "dst": 67958
+  },
+  {
    "relate": "衍生",
    "src": 209406,
    "dst": 67958
+  },
+  {
+   "relate": "衍生",
+   "src": 209406,
+   "dst": 67959
   }
  ]
 }

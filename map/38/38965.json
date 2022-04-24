@@ -5,13 +5,21 @@
    "id": 38965,
    "name": "HAND MAID メイ",
    "nameCN": "袖珍女侍小梅",
-   "image": "//lain.bgm.tv/pic/cover/m/70/a5/38965_9V43g.jpg",
-   "date": "2000-07-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/70/a5/38965_9V43g.jpg",
+   "date": "2000-07-26",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 125064,
    "name": "HAND MAID マイ",
-   "image": "//lain.bgm.tv/pic/cover/m/a0/6e/125064_yZ8i8.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/a0/6e/125064_yZ8i8.jpg",
+   "nameCN": "",
+   "type": 2,
+   "date": "2003-02-18",
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -19,6 +27,11 @@
    "relate": "番外篇",
    "src": 38965,
    "dst": 125064
+  },
+  {
+   "relate": "主线故事",
+   "src": 125064,
+   "dst": 38965
   }
  ]
 }

@@ -5,14 +5,41 @@
    "id": 42627,
    "name": "Honey Bitter",
    "nameCN": "苦涩的甜蜜",
-   "image": "//lain.bgm.tv/pic/cover/m/61/77/42627_x6zk0.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/61/77/42627_x6zk0.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
+  },
+  {
+   "id": 42628,
+   "name": "こどものおもちゃ",
+   "nameCN": "玩偶游戏",
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/58/42628_2dEUZ.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
+  },
+  {
+   "id": 53326,
+   "name": "水の館",
+   "nameCN": "水之馆",
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/2a/53326_PjhrA.jpg",
+   "date": "1999-10-15",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 53327,
    "name": "Deep Clear 「Honey Bitter」×「こどものおもちゃ」特別番外編",
-   "image": "//lain.bgm.tv/pic/cover/m/75/1c/53327_jp.jpg",
-   "date": "2010-12-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/75/1c/53327_jp.jpg",
+   "date": "2010-12-17",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -22,9 +49,29 @@
    "dst": 53327
   },
   {
+   "relate": "番外篇",
+   "src": 42628,
+   "dst": 53326
+  },
+  {
+   "relate": "番外篇",
+   "src": 42628,
+   "dst": 53327
+  },
+  {
+   "relate": "主线故事",
+   "src": 53326,
+   "dst": 42628
+  },
+  {
    "relate": "主线故事",
    "src": 53327,
    "dst": 42627
+  },
+  {
+   "relate": "主线故事",
+   "src": 53327,
+   "dst": 42628
   }
  ]
 }

@@ -5,28 +5,41 @@
    "id": 195122,
    "name": "三国恋戦記～江東の花嫁～",
    "nameCN": "三国恋战记～江东的新娘～",
-   "image": "//lain.bgm.tv/pic/cover/m/7b/01/195122_qyCy4.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/7b/01/195122_qyCy4.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 195128,
    "name": "三国恋戦記～オトメの兵法！～",
    "nameCN": "三国恋战记～少女的兵法！～",
-   "image": "//lain.bgm.tv/pic/cover/m/c2/d3/195128_X8XxV.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/d3/195128_X8XxV.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 220652,
    "name": "三国恋戦記～とこしえの華墨～",
-   "image": "//lain.bgm.tv/pic/cover/m/a5/64/220652_9njYu.jpg",
-   "date": "2018-02-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/a5/64/220652_9njYu.jpg",
+   "date": "2018-02-15",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 220654,
    "name": "三国恋戦記～籠中の鳥～",
    "nameCN": "三国恋战记～笼中之鸟～",
-   "image": "//lain.bgm.tv/pic/cover/m/99/09/220654_tSFuC.jpg",
-   "date": "2015-03-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/99/09/220654_tSFuC.jpg",
+   "date": "2015-03-14",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -41,9 +54,29 @@
    "dst": 220652
   },
   {
+   "relate": "相同世界观",
+   "src": 195122,
+   "dst": 220654
+  },
+  {
+   "relate": "番外篇",
+   "src": 195128,
+   "dst": 195122
+  },
+  {
    "relate": "番外篇",
    "src": 195128,
    "dst": 220652
+  },
+  {
+   "relate": "番外篇",
+   "src": 195128,
+   "dst": 220654
+  },
+  {
+   "relate": "相同世界观",
+   "src": 220652,
+   "dst": 195122
   },
   {
    "relate": "主线故事",
@@ -64,6 +97,11 @@
    "relate": "主线故事",
    "src": 220654,
    "dst": 195128
+  },
+  {
+   "relate": "相同世界观",
+   "src": 220654,
+   "dst": 220652
   }
  ]
 }

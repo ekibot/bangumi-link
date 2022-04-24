@@ -5,25 +5,39 @@
    "id": 53769,
    "name": "ひみつのアッコちゃん",
    "nameCN": "甜蜜小天使",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/6d/53769_DQbwY.jpg",
-   "date": "1969-01-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/6d/53769_DQbwY.jpg",
+   "date": "1969-01-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 89248,
    "name": "ひみつのアッコちゃん",
    "nameCN": "甜蜜小天使",
-   "image": "//lain.bgm.tv/pic/cover/m/99/35/89248_GV9qD.jpg",
-   "date": "1998-04-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/99/35/89248_GV9qD.jpg",
+   "date": "1998-04-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 89256,
    "name": "ひみつのアッコちゃん",
    "nameCN": "甜蜜小天使",
-   "image": "//lain.bgm.tv/pic/cover/m/97/7b/89256_49wxC.jpg",
-   "date": "1988-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/97/7b/89256_49wxC.jpg",
+   "date": "1988-10-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 53769,
+   "dst": 89248
+  },
   {
    "relate": "不同演绎",
    "src": 53769,
@@ -36,8 +50,18 @@
   },
   {
    "relate": "不同演绎",
+   "src": 89248,
+   "dst": 89256
+  },
+  {
+   "relate": "不同演绎",
    "src": 89256,
    "dst": 53769
+  },
+  {
+   "relate": "不同演绎",
+   "src": 89256,
+   "dst": 89248
   }
  ]
 }

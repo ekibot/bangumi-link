@@ -5,14 +5,24 @@
    "id": 52337,
    "name": "魔女の家",
    "nameCN": "魔女之家",
-   "image": "//lain.bgm.tv/pic/cover/m/33/c3/52337_Lc56L.jpg",
-   "date": "2012-10-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/33/c3/52337_Lc56L.jpg",
+   "date": "2012-10-03",
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 119980,
    "name": "魔女の家 エレンの日記",
    "nameCN": "魔女之家 艾莲的日记",
-   "image": "//lain.bgm.tv/pic/cover/m/1d/8c/119980_sGCts.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/1d/8c/119980_sGCts.jpg",
+   "type": 1
+  },
+  {
+   "id": 214032,
+   "name": "魔女の家 エレンの日記",
+   "nameCN": "魔女之家 艾莲的日记",
+   "image": "https://lain.bgm.tv/pic/cover/m/48/47/214032_lHdLb.jpg",
+   "type": 1
   }
  ],
  "relate": [
@@ -20,6 +30,11 @@
    "relate": "前传",
    "src": 52337,
    "dst": 119980
+  },
+  {
+   "relate": "前传",
+   "src": 52337,
+   "dst": 214032
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 285890,
    "name": "The Dark Pictures Anthology: Man of Medan",
    "nameCN": "黑相集：棉兰号",
-   "image": "//lain.bgm.tv/pic/cover/m/68/8f/285890_J3i3c.jpg",
-   "date": "2019-08-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/68/8f/285890_J3i3c.jpg",
+   "date": "2019-08-30",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 304214,
    "name": "The Dark Pictures Anthology: Little Hope",
    "nameCN": "黑相集：稀望镇",
-   "image": "//lain.bgm.tv/pic/cover/m/2e/50/304214_D8501.jpg",
-   "date": "2020-10-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/2e/50/304214_D8501.jpg",
+   "date": "2020-10-30",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 350117,
    "name": "The Dark Pictures Anthology: House of Ashes",
    "nameCN": "黑相集：灰烬屋",
-   "image": "//lain.bgm.tv/pic/cover/m/7a/0b/350117_1dkgN.jpg",
-   "date": "2021-10-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/7a/0b/350117_1dkgN.jpg",
+   "date": "2021-10-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -30,14 +39,29 @@
    "dst": 304214
   },
   {
+   "relate": "相同世界观",
+   "src": 285890,
+   "dst": 350117
+  },
+  {
    "relate": "前传",
    "src": 304214,
    "dst": 285890
   },
   {
    "relate": "相同世界观",
+   "src": 304214,
+   "dst": 350117
+  },
+  {
+   "relate": "相同世界观",
    "src": 350117,
    "dst": 285890
+  },
+  {
+   "relate": "相同世界观",
+   "src": 350117,
+   "dst": 304214
   }
  ]
 }

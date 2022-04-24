@@ -5,57 +5,81 @@
    "id": 221127,
    "name": "ゴールデンカムイ",
    "nameCN": "黄金神威",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/59/221127_v6nv6.jpg",
-   "date": "2018-04-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/59/221127_v6nv6.jpg",
+   "date": "2018-04-09",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 243097,
    "name": "ゴールデン道画劇場",
    "nameCN": "黄金神威 小剧场",
-   "image": "//lain.bgm.tv/pic/cover/m/e1/36/243097_X8qPp.jpg",
-   "date": "2018-04-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/36/243097_X8qPp.jpg",
+   "date": "2018-04-16",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 251547,
    "name": "ゴールデンカムイ 第2期",
    "nameCN": "黄金神威 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/82/b2/251547_QG80O.jpg",
-   "date": "2018-10-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/82/b2/251547_QG80O.jpg",
+   "date": "2018-10-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 256406,
    "name": "ゴールデンカムイ OAD",
    "nameCN": "黄金神威 OAD",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/dd/256406_Hr80g.jpg",
-   "date": "2018-09-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/dd/256406_Hr80g.jpg",
+   "date": "2018-09-19",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 267437,
    "name": "ゴールデン道画劇場 第2期",
    "nameCN": "黄金神威 小剧场 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/2d/267437_94J4A.jpg",
-   "date": "2018-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/2d/267437_94J4A.jpg",
+   "date": "2018-10-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 285901,
    "name": "ゴールデンカムイ 第3期",
    "nameCN": "黄金神威 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/72/f9/285901_94tQr.jpg",
-   "date": "2020-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/72/f9/285901_94tQr.jpg",
+   "date": "2020-10-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 320733,
    "name": "ゴールデン道画劇場 第3期",
    "nameCN": "黄金神威 小剧场 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/0b/e9/320733_ynyx8.jpg",
-   "date": "2020-10-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/0b/e9/320733_ynyx8.jpg",
+   "date": "2020-10-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 361095,
    "name": "ゴールデンカムイ 第4期",
    "nameCN": "黄金神威 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/1c/55/361095_prTmo.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/1c/55/361095_prTmo.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -68,6 +92,11 @@
    "relate": "续集",
    "src": 221127,
    "dst": 251547
+  },
+  {
+   "relate": "衍生",
+   "src": 221127,
+   "dst": 256406
   },
   {
    "relate": "主线故事",
@@ -90,6 +119,11 @@
    "dst": 256406
   },
   {
+   "relate": "衍生",
+   "src": 251547,
+   "dst": 267437
+  },
+  {
    "relate": "续集",
    "src": 251547,
    "dst": 285901
@@ -98,6 +132,11 @@
    "relate": "主线故事",
    "src": 256406,
    "dst": 221127
+  },
+  {
+   "relate": "主线故事",
+   "src": 256406,
+   "dst": 251547
   },
   {
    "relate": "前传",

@@ -5,22 +5,31 @@
    "id": 35496,
    "name": "プロジェクト クロスゾーン",
    "nameCN": "交叉领域计划",
-   "image": "//lain.bgm.tv/pic/cover/m/ea/68/35496_F48Zz.jpg",
-   "date": "2012-10-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/ea/68/35496_F48Zz.jpg",
+   "date": "2012-10-11",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 72194,
    "name": "NAMCO x CAPCOM",
    "nameCN": "南梦宫X卡普空",
-   "image": "//lain.bgm.tv/pic/cover/m/c3/f2/72194_VnXN1.jpg",
-   "date": "2005-05-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/c3/f2/72194_VnXN1.jpg",
+   "date": "2005-05-26",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 133715,
    "name": "プロジェクト クロスゾーン2：ブレイブニューワールド",
    "nameCN": "交叉领域计划2：美丽新世界",
-   "image": "//lain.bgm.tv/pic/cover/m/c1/0e/133715_u9M7C.jpg",
-   "date": "2015-11-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/c1/0e/133715_u9M7C.jpg",
+   "date": "2015-11-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -37,7 +46,17 @@
   {
    "relate": "续集",
    "src": 72194,
+   "dst": 35496
+  },
+  {
+   "relate": "续集",
+   "src": 72194,
    "dst": 133715
+  },
+  {
+   "relate": "前传",
+   "src": 133715,
+   "dst": 35496
   },
   {
    "relate": "前传",

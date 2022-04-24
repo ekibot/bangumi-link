@@ -4,20 +4,32 @@
   {
    "id": 286693,
    "name": "アイキス",
-   "image": "//lain.bgm.tv/pic/cover/m/17/81/286693_3C30i.jpg",
-   "date": "2019-10-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/17/81/286693_3C30i.jpg",
+   "date": "2019-10-25",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 313466,
    "name": "アイキス2",
-   "image": "//lain.bgm.tv/pic/cover/m/98/c8/313466_F0PM8.jpg",
-   "date": "2020-11-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/98/c8/313466_F0PM8.jpg",
+   "date": "2020-11-27",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 348391,
    "name": "アイキス3 sexy",
-   "image": "//lain.bgm.tv/pic/cover/m/51/4b/348391_0y98K.jpg",
-   "date": "2022-03-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/51/4b/348391_0y98K.jpg",
+   "date": "2022-03-25",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -25,6 +37,11 @@
    "relate": "不同演绎",
    "src": 286693,
    "dst": 313466
+  },
+  {
+   "relate": "续集",
+   "src": 286693,
+   "dst": 348391
   },
   {
    "relate": "不同演绎",
@@ -40,6 +57,11 @@
    "relate": "不同演绎",
    "src": 348391,
    "dst": 286693
+  },
+  {
+   "relate": "前传",
+   "src": 348391,
+   "dst": 313466
   }
  ]
 }

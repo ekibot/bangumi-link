@@ -5,14 +5,27 @@
    "id": 24121,
    "name": "オトメディウスG（ゴージャス！）",
    "nameCN": "少女沙罗曼蛇 G",
-   "image": "//lain.bgm.tv/pic/cover/m/05/28/18874_88N61.jpg",
-   "date": "2008-11-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/28/18874_88N61.jpg",
+   "date": "2008-11-20",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 24122,
    "name": "オトメディウスX（エクセレント！)",
    "nameCN": "少女沙罗曼蛇 X",
-   "image": "//lain.bgm.tv/pic/cover/m/25/1b/24122_wE4aO.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/25/1b/24122_wE4aO.jpg",
+   "type": 4
+  },
+  {
+   "id": 58020,
+   "name": "オトメディウス X",
+   "nameCN": "少女巡航机X",
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/2d/58020_mJS3Y.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -20,6 +33,11 @@
    "relate": "续集",
    "src": 24121,
    "dst": 24122
+  },
+  {
+   "relate": "前传",
+   "src": 58020,
+   "dst": 24121
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 37905,
    "name": "影技 SHADOW SKILL",
    "nameCN": "影技",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/8a/37905_PofZ6.jpg",
-   "date": "1998-07-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/8a/37905_PofZ6.jpg",
+   "date": "1998-07-02",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 39237,
    "name": "影技 -SHADOW SKILL-",
    "nameCN": "影技OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/f7/6d/39237_RAS94.jpg",
-   "date": "1995-10-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/f7/6d/39237_RAS94.jpg",
+   "date": "1995-10-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 47341,
    "name": "SHADOW SKILL クルダ流交殺法の秘密",
    "nameCN": "影技 克鲁达流交杀法的秘密",
-   "image": "//lain.bgm.tv/pic/cover/m/a7/c3/47341_cD33C.jpg",
-   "date": "2003-12-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/a7/c3/47341_cD33C.jpg",
+   "date": "2003-12-12",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -48,6 +57,11 @@
    "relate": "主线故事",
    "src": 47341,
    "dst": 37905
+  },
+  {
+   "relate": "主线故事",
+   "src": 47341,
+   "dst": 39237
   }
  ]
 }

@@ -4,21 +4,40 @@
   {
    "id": 61565,
    "name": "魔法の守護姫アルテミナ",
-   "image": "//lain.bgm.tv/pic/cover/m/89/0e/61565_E2Me2.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/0e/61565_E2Me2.jpg",
+   "nameCN": "",
+   "date": "2011-05-27",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 240651,
    "name": "サマナープリンセス アルテミナ2 ～戦え！アポローグ～",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/9b/240651_lj12d.jpg",
-   "date": "2015-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/9b/240651_lj12d.jpg",
+   "date": "2015-10-09",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 279306,
    "name": "サマナープリンセス アルテミナ3 ～二人の有紗～",
-   "image": "//lain.bgm.tv/pic/cover/m/9b/28/279306_YZyc2.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/9b/28/279306_YZyc2.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2019-03-29",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 61565,
+   "dst": 240651
+  },
   {
    "relate": "前传",
    "src": 240651,
@@ -28,6 +47,11 @@
    "relate": "续集",
    "src": 240651,
    "dst": 279306
+  },
+  {
+   "relate": "前传",
+   "src": 279306,
+   "dst": 240651
   }
  ]
 }

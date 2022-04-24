@@ -5,39 +5,59 @@
    "id": 53801,
    "name": "タイガーマスク",
    "nameCN": "虎头假面",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/d6/53801_rzoeE.jpg",
-   "date": "1969-10-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/d6/53801_rzoeE.jpg",
+   "date": "1969-10-02",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 70565,
    "name": "タイガーマスク二世",
    "nameCN": "虎头假面二世",
-   "image": "//lain.bgm.tv/pic/cover/m/1e/ae/70565_Jn50G.jpg",
-   "date": "1981-04-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/1e/ae/70565_Jn50G.jpg",
+   "date": "1981-04-20",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 171366,
    "name": "タイガーマスクW",
    "nameCN": "虎面人W",
-   "image": "//lain.bgm.tv/pic/cover/m/ec/16/171366_Q30lW.jpg",
-   "date": "2016-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/ec/16/171366_Q30lW.jpg",
+   "date": "2016-10-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 311183,
    "name": "タイガーマスク (1970)",
    "nameCN": "虎面人",
-   "image": "//lain.bgm.tv/pic/cover/m/89/c0/311183_umgqh.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/89/c0/311183_umgqh.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 311184,
    "name": "タイガーマスク ふく面リーグ戦",
    "nameCN": "虎面人 面具联盟之战",
-   "image": "//lain.bgm.tv/pic/cover/m/16/01/311184_Vz3EE.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/16/01/311184_Vz3EE.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 53801,
+   "dst": 70565
+  },
   {
    "relate": "续集",
    "src": 53801,
@@ -47,6 +67,11 @@
    "relate": "番外篇",
    "src": 53801,
    "dst": 311183
+  },
+  {
+   "relate": "番外篇",
+   "src": 53801,
+   "dst": 311184
   },
   {
    "relate": "前传",

@@ -4,20 +4,32 @@
   {
    "id": 221005,
    "name": "遠国送歌 Requiem",
-   "image": "//lain.bgm.tv/pic/cover/m/a8/84/221005_wWh23.jpg",
-   "date": "2014-12-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/a8/84/221005_wWh23.jpg",
+   "date": "2014-12-14",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 221007,
    "name": "雪見桜 Ende des Traums",
-   "image": "//lain.bgm.tv/pic/cover/m/32/23/221007_58uHk.jpg",
-   "date": "2016-04-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/32/23/221007_58uHk.jpg",
+   "date": "2016-04-27",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 319171,
    "name": "誰が為に鴉は啼く",
-   "image": "//lain.bgm.tv/pic/cover/m/5a/e3/319171_UXUF3.jpg",
-   "date": "2020-11-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/5a/e3/319171_UXUF3.jpg",
+   "date": "2020-11-07",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -25,6 +37,11 @@
    "relate": "续集",
    "src": 221005,
    "dst": 221007
+  },
+  {
+   "relate": "续集",
+   "src": 221005,
+   "dst": 319171
   },
   {
    "relate": "前传",
@@ -40,6 +57,11 @@
    "relate": "前传",
    "src": 319171,
    "dst": 221005
+  },
+  {
+   "relate": "前传",
+   "src": 319171,
+   "dst": 221007
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 50032,
    "name": "蒼髮的蜻蜓姬",
    "nameCN": "苍发的蜻蜓姬",
-   "image": "//lain.bgm.tv/pic/cover/m/df/dc/50032_ccXng.jpg",
-   "date": "2012-07-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/df/dc/50032_ccXng.jpg",
+   "date": "2012-07-28",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 61247,
    "name": "黄龙天空",
    "nameCN": "黄龙天空",
-   "image": "//lain.bgm.tv/pic/cover/m/96/3c/61247_x1a7u.jpg",
-   "date": "2013-01-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/96/3c/61247_x1a7u.jpg",
+   "date": "2013-01-20",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 84624,
    "name": "光耀启明星",
    "nameCN": "光耀启明星",
-   "image": "//lain.bgm.tv/pic/cover/m/89/99/84624_Ev6Hp.jpg",
-   "date": "2013-08-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/99/84624_Ev6Hp.jpg",
+   "date": "2013-08-01",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 50032,
    "dst": 61247
+  },
+  {
+   "relate": "续集",
+   "src": 50032,
+   "dst": 84624
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 84624,
    "dst": 50032
+  },
+  {
+   "relate": "前传",
+   "src": 84624,
+   "dst": 61247
   }
  ]
 }

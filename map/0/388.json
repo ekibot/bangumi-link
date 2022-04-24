@@ -5,57 +5,81 @@
    "id": 388,
    "name": "ポケモン不思議のダンジョン 青の救助隊",
    "nameCN": "精灵宝可梦：不可思议迷宫 青之救助队",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/fc/388_8vvhX.jpg",
-   "date": "2005-11-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/fc/388_8vvhX.jpg",
+   "date": "2005-11-17",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 16108,
    "name": "ポケモン不思議のダンジョン 空の探検隊",
    "nameCN": "精灵宝可梦：不可思议迷宫 空之探险队",
-   "image": "//lain.bgm.tv/pic/cover/m/a4/b5/16108_QsD36.jpg",
-   "date": "2009-04-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/a4/b5/16108_QsD36.jpg",
+   "date": "2009-04-18",
+   "type": 4,
+   "nsfw": false,
+   "platform": "NDS"
   },
   {
    "id": 30684,
    "name": "ポケモン不思議のダンジョン 赤の救助隊",
    "nameCN": "宝可梦不可思议的迷宫 赤之救助队",
-   "image": "//lain.bgm.tv/pic/cover/m/07/c4/30684_Jhvsd.jpg",
-   "date": "2005-11-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/c4/30684_Jhvsd.jpg",
+   "date": "2005-11-17",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 50312,
    "name": "ポケモン不思議のダンジョン　～マグナゲートと∞迷宮",
    "nameCN": "宝可梦不思议的迷宫 玛古那之门与无限迷宫",
-   "image": "//lain.bgm.tv/pic/cover/m/77/54/50312_GkCO3.jpg",
-   "date": "2012-11-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/77/54/50312_GkCO3.jpg",
+   "date": "2012-11-23",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 134713,
    "name": "ポケモン超不思議のダンジョン",
    "nameCN": "宝可梦 超不可思议的迷宫",
-   "image": "//lain.bgm.tv/pic/cover/m/fc/46/134713_biffy.jpg",
-   "date": "2015-09-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/fc/46/134713_biffy.jpg",
+   "date": "2015-09-17",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 135206,
    "name": "ポケモン不思議のダンジョン 時の探検隊",
    "nameCN": "精灵宝可梦：不可思议迷宫 时之探险队",
-   "image": "//lain.bgm.tv/pic/cover/m/ac/ec/135206_9FqGa.jpg",
-   "date": "2007-09-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/ac/ec/135206_9FqGa.jpg",
+   "date": "2007-09-13",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 135207,
    "name": "ポケモン不思議のダンジョン 闇の探検隊",
    "nameCN": "口袋妖怪：不可思议迷宫 暗之探险队",
-   "image": "//lain.bgm.tv/pic/cover/m/db/1a/135207_wzQp3.jpg",
-   "date": "2007-09-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/db/1a/135207_wzQp3.jpg",
+   "date": "2007-09-13",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 298120,
    "name": "ポケモン不思議のダンジョン 救助隊DX",
    "nameCN": "宝可梦不可思议迷宫：救助队DX",
-   "image": "//lain.bgm.tv/pic/cover/m/82/48/298120_2ub4m.jpg",
-   "date": "2020-03-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/82/48/298120_2ub4m.jpg",
+   "date": "2020-03-06",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -71,6 +95,21 @@
   },
   {
    "relate": "续集",
+   "src": 388,
+   "dst": 135206
+  },
+  {
+   "relate": "续集",
+   "src": 388,
+   "dst": 135207
+  },
+  {
+   "relate": "不同演绎",
+   "src": 388,
+   "dst": 298120
+  },
+  {
+   "relate": "续集",
    "src": 16108,
    "dst": 50312
   },
@@ -80,6 +119,11 @@
    "dst": 135206
   },
   {
+   "relate": "前传",
+   "src": 16108,
+   "dst": 135207
+  },
+  {
    "relate": "不同演绎",
    "src": 30684,
    "dst": 388
@@ -87,7 +131,22 @@
   {
    "relate": "续集",
    "src": 30684,
+   "dst": 16108
+  },
+  {
+   "relate": "续集",
+   "src": 30684,
    "dst": 135206
+  },
+  {
+   "relate": "续集",
+   "src": 30684,
+   "dst": 135207
+  },
+  {
+   "relate": "不同演绎",
+   "src": 30684,
+   "dst": 298120
   },
   {
    "relate": "前传",
@@ -110,6 +169,11 @@
    "dst": 298120
   },
   {
+   "relate": "前传",
+   "src": 135206,
+   "dst": 388
+  },
+  {
    "relate": "续集",
    "src": 135206,
    "dst": 16108
@@ -123,6 +187,11 @@
    "relate": "相同世界观",
    "src": 135206,
    "dst": 135207
+  },
+  {
+   "relate": "前传",
+   "src": 135207,
+   "dst": 388
   },
   {
    "relate": "续集",
@@ -143,6 +212,11 @@
    "relate": "不同演绎",
    "src": 298120,
    "dst": 388
+  },
+  {
+   "relate": "不同演绎",
+   "src": 298120,
+   "dst": 30684
   },
   {
    "relate": "前传",

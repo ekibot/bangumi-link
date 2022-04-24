@@ -4,28 +4,42 @@
   {
    "id": 13155,
    "name": "花と太陽と雨と",
-   "image": "//lain.bgm.tv/pic/cover/m/af/d2/13155_E3t9i.jpg",
-   "date": "2001-05-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/af/d2/13155_E3t9i.jpg",
+   "date": "2001-05-02",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 194804,
    "name": "シルバー事件",
    "nameCN": "银色事件",
-   "image": "//lain.bgm.tv/pic/cover/m/1d/98/194804_zEA76.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/1d/98/194804_zEA76.jpg",
+   "date": "1999-10-07",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 253959,
    "name": "シルバー2425",
-   "image": "//lain.bgm.tv/pic/cover/m/57/02/253959_x4QT8.jpg",
-   "date": "2018-03-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/57/02/253959_x4QT8.jpg",
+   "date": "2018-03-15",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 332969,
    "name": "シルバー事件25区",
    "nameCN": "银色事件25区",
-   "image": "//lain.bgm.tv/pic/cover/m/99/e9/332969_cbU47.jpg",
-   "date": "2005-10-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/99/e9/332969_cbU47.jpg",
+   "date": "2005-10-03",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -33,6 +47,11 @@
    "relate": "前传",
    "src": 13155,
    "dst": 194804
+  },
+  {
+   "relate": "续集",
+   "src": 194804,
+   "dst": 13155
   },
   {
    "relate": "不同演绎",
@@ -48,6 +67,11 @@
    "relate": "不同演绎",
    "src": 253959,
    "dst": 194804
+  },
+  {
+   "relate": "不同演绎",
+   "src": 253959,
+   "dst": 332969
   },
   {
    "relate": "前传",

@@ -2,21 +2,82 @@
  "id": 97533,
  "node": [
   {
+   "id": 5475,
+   "name": "絶対可憐チルドレン",
+   "nameCN": "绝对可怜CHILDREN",
+   "image": "https://lain.bgm.tv/pic/cover/m/65/17/5475_m8tMz.jpg",
+   "date": "2008-04-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
+  },
+  {
+   "id": 7383,
+   "name": "絶対可憐チルドレン～愛多憎生！奪われた未来？～",
+   "nameCN": "绝对可怜children OVA",
+   "image": "https://lain.bgm.tv/pic/cover/m/58/0f/7383_DpOd1.jpg",
+   "date": "2010-07-16",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 52484,
+   "name": "THE UNLIMITED -兵部京介-",
+   "nameCN": "THE UNLIMITED 兵部京介",
+   "image": "https://lain.bgm.tv/pic/cover/m/95/ba/52484_UUXKX.jpg",
+   "date": "2013-01-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
+  },
+  {
    "id": 53046,
    "name": "絶対可憐チルドレン",
    "nameCN": "绝对可怜CHILDREN",
-   "image": "//lain.bgm.tv/pic/cover/m/05/d9/53046_5Vpa5.jpg",
-   "date": "2004-08-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/d9/53046_5Vpa5.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 97533,
    "name": "THE UNLIMITED 兵部京介",
    "nameCN": "The Unlimited 兵部京介",
-   "image": "//lain.bgm.tv/pic/cover/m/ba/8d/97533_Kk88K.jpg",
-   "date": "2013-03-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/ba/8d/97533_Kk88K.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 5475,
+   "dst": 7383
+  },
+  {
+   "relate": "衍生",
+   "src": 5475,
+   "dst": 52484
+  },
+  {
+   "relate": "主线故事",
+   "src": 7383,
+   "dst": 5475
+  },
+  {
+   "relate": "主线故事",
+   "src": 52484,
+   "dst": 5475
+  },
+  {
+   "relate": "主线故事",
+   "src": 52484,
+   "dst": 53046
+  },
   {
    "relate": "番外篇",
    "src": 53046,

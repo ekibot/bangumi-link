@@ -5,69 +5,106 @@
    "id": 23095,
    "name": "ファイアーエムブレム 覚醒",
    "nameCN": "火焰之纹章 觉醒",
-   "image": "//lain.bgm.tv/pic/cover/m/be/63/23095_21c9k.jpg",
-   "date": "2012-04-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/be/63/23095_21c9k.jpg",
+   "date": "2012-04-19",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 122519,
    "name": "ファイアーエムブレムif",
    "nameCN": "火焰之纹章if",
-   "image": "//lain.bgm.tv/pic/cover/m/ff/8a/122519_5pZk6.jpg",
-   "date": "2015-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/ff/8a/122519_5pZk6.jpg",
+   "date": "2015-06-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 130134,
    "name": "ファイアーエムブレムif 暗夜王国",
    "nameCN": "火焰之纹章if 暗夜王国",
-   "image": "//lain.bgm.tv/pic/cover/m/00/28/130134_nf88j.jpg",
-   "date": "2015-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/00/28/130134_nf88j.jpg",
+   "date": "2015-06-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 130136,
    "name": "ファイアーエムブレムif 白夜王国",
    "nameCN": "火焰之纹章if 白夜王国",
-   "image": "//lain.bgm.tv/pic/cover/m/fe/67/130136_Fcw9p.jpg",
-   "date": "2015-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/fe/67/130136_Fcw9p.jpg",
+   "date": "2015-06-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 206733,
    "name": "ファイアーエムブレム 風花雪月",
    "nameCN": "火焰之纹章 风花雪月",
-   "image": "//lain.bgm.tv/pic/cover/m/64/24/206733_h5Y95.jpg",
-   "date": "2019-07-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/64/24/206733_h5Y95.jpg",
+   "date": "2019-07-26",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 227963,
    "name": "ファイアーエムブレムif インビジブル・キングダム",
    "nameCN": "火焰之纹章if 透魔王国",
-   "image": "//lain.bgm.tv/pic/cover/m/4f/1c/227963_ZjxP3.jpg",
-   "date": "2015-07-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/4f/1c/227963_ZjxP3.jpg",
+   "date": "2015-07-09",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 300960,
    "name": "ファイアーエムブレム 風花雪月 エキスパンション・パス",
    "nameCN": "火焰之纹章 风花雪月 Expansion Pass",
-   "image": "//lain.bgm.tv/pic/cover/m/39/95/300960_4e4kN.jpg",
-   "date": "2019-07-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/39/95/300960_4e4kN.jpg",
+   "date": "2019-07-26",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 368786,
    "name": "ファイアーエムブレム無双 風花雪月",
    "nameCN": "火焰之纹章无双 风花雪月",
-   "image": "//lain.bgm.tv/pic/cover/m/78/37/368786_77mys.jpg",
-   "date": "2022-06-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/78/37/368786_77mys.jpg",
+   "date": "2022-06-24",
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
   {
    "relate": "续集",
    "src": 23095,
+   "dst": 122519
+  },
+  {
+   "relate": "续集",
+   "src": 23095,
    "dst": 130134
+  },
+  {
+   "relate": "续集",
+   "src": 23095,
+   "dst": 130136
   },
   {
    "relate": "前传",
    "src": 122519,
    "dst": 23095
+  },
+  {
+   "relate": "不同演绎",
+   "src": 122519,
+   "dst": 130134
   },
   {
    "relate": "不同演绎",
@@ -95,6 +132,11 @@
    "dst": 130136
   },
   {
+   "relate": "相同世界观",
+   "src": 130134,
+   "dst": 227963
+  },
+  {
    "relate": "前传",
    "src": 130136,
    "dst": 23095
@@ -103,6 +145,11 @@
    "relate": "不同演绎",
    "src": 130136,
    "dst": 122519
+  },
+  {
+   "relate": "相同世界观",
+   "src": 130136,
+   "dst": 130134
   },
   {
    "relate": "相同世界观",
@@ -118,6 +165,11 @@
    "relate": "相同世界观",
    "src": 227963,
    "dst": 130134
+  },
+  {
+   "relate": "相同世界观",
+   "src": 227963,
+   "dst": 130136
   },
   {
    "relate": "主线故事",

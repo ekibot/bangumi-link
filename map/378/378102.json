@@ -4,21 +4,40 @@
   {
    "id": 345971,
    "name": "Sakura Forest Girls",
-   "image": "//lain.bgm.tv/pic/cover/m/62/f0/345971_zS57r.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/62/f0/345971_zS57r.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2021-04-20",
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 378102,
    "name": "Sakura Forest Girls 2",
-   "image": "//lain.bgm.tv/pic/cover/m/b7/cd/378102_pNR77.jpg",
-   "date": "2021-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/b7/cd/378102_pNR77.jpg",
+   "date": "2021-07-27",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
   },
   {
    "id": 378103,
    "name": "Sakura Forest Girls 3",
-   "image": "//lain.bgm.tv/pic/cover/m/76/8c/378103_n9fNp.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/76/8c/378103_n9fNp.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2021-11-16",
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 345971,
+   "dst": 378102
+  },
   {
    "relate": "前传",
    "src": 378102,
@@ -28,6 +47,11 @@
    "relate": "续集",
    "src": 378102,
    "dst": 378103
+  },
+  {
+   "relate": "前传",
+   "src": 378103,
+   "dst": 378102
   }
  ]
 }

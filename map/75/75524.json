@@ -4,26 +4,42 @@
   {
    "id": 75524,
    "name": "忍び、恋うつつ",
-   "image": "//lain.bgm.tv/pic/cover/m/a0/14/75524_dVNE8.jpg",
-   "date": "2014-01-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/a0/14/75524_dVNE8.jpg",
+   "date": "2014-01-30",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 123723,
    "name": "忍び、恋うつつ ― 雪月花恋絵巻 ―",
-   "image": "//lain.bgm.tv/pic/cover/m/43/58/123723_4S19k.jpg",
-   "date": "2015-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/43/58/123723_4S19k.jpg",
+   "date": "2015-06-25",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 212188,
    "name": "忍び、恋うつつ ― 甘蜜花絵巻 ―",
-   "image": "//lain.bgm.tv/pic/cover/m/c7/94/212188_n311V.jpg",
-   "date": "2017-09-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/94/212188_n311V.jpg",
+   "date": "2017-09-28",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 261309,
    "name": "忍び、恋うつつ ― 万花彩絵巻 ―",
-   "image": "//lain.bgm.tv/pic/cover/m/1a/83/261309_8zTzt.jpg",
-   "date": "2018-02-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/1a/83/261309_8zTzt.jpg",
+   "date": "2018-02-15",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -36,6 +52,16 @@
    "relate": "续集",
    "src": 75524,
    "dst": 212188
+  },
+  {
+   "relate": "不同演绎",
+   "src": 75524,
+   "dst": 261309
+  },
+  {
+   "relate": "不同演绎",
+   "src": 123723,
+   "dst": 75524
   },
   {
    "relate": "续集",
@@ -53,6 +79,11 @@
    "dst": 75524
   },
   {
+   "relate": "前传",
+   "src": 212188,
+   "dst": 123723
+  },
+  {
    "relate": "续集",
    "src": 212188,
    "dst": 261309
@@ -61,6 +92,11 @@
    "relate": "不同演绎",
    "src": 261309,
    "dst": 75524
+  },
+  {
+   "relate": "不同演绎",
+   "src": 261309,
+   "dst": 123723
   },
   {
    "relate": "前传",

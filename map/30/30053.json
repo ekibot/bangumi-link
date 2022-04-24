@@ -5,50 +5,70 @@
    "id": 30053,
    "name": "LUNAR ハーモニー オブ シルバースター",
    "nameCN": "露娜 银星和声",
-   "image": "//lain.bgm.tv/pic/cover/m/24/51/30053_r99p4.jpg",
-   "date": "2009-11-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/24/51/30053_r99p4.jpg",
+   "date": "2009-11-12",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 38981,
    "name": "LUNAR2 エターナルブルー",
    "nameCN": "露娜2 永恒蔚蓝",
-   "image": "//lain.bgm.tv/pic/cover/m/74/0d/38981_qkth3.jpg",
-   "date": "1994-12-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/74/0d/38981_qkth3.jpg",
+   "date": "1994-12-22",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 88590,
    "name": "LUNAR ザ・シルバースター",
    "nameCN": "露娜 银河之星",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/c6/88590_ZyG8v.jpg",
-   "date": "1992-06-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/c6/88590_ZyG8v.jpg",
+   "date": "1992-06-26",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 88591,
    "name": "LUNAR -ジェネシス-",
    "nameCN": "露娜 创世纪",
-   "image": "//lain.bgm.tv/pic/cover/m/08/f6/88591_6sN2w.jpg",
-   "date": "2005-08-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/08/f6/88591_6sN2w.jpg",
+   "date": "2005-08-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 88592,
    "name": "LUNAR さんぽする学園",
    "nameCN": "露娜 散步学园",
-   "image": "//lain.bgm.tv/pic/cover/m/32/c5/88592_njIM3.jpg",
-   "date": "1996-01-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/32/c5/88592_njIM3.jpg",
+   "date": "1996-01-12",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 88594,
    "name": "魔法学園LUNAR!",
    "nameCN": "魔法学园露娜！",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/a3/88594_pPQa9.jpg",
-   "date": "1997-11-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/a3/88594_pPQa9.jpg",
+   "date": "1997-11-20",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 88598,
    "name": "魔法学園ルナ LUNAR! 青い竜の秘密スッポコ魔法作戦!",
    "nameCN": "魔法学园露娜",
-   "image": "//lain.bgm.tv/pic/cover/m/6d/bc/88598_t755T.jpg",
-   "date": "1997-03-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/6d/bc/88598_t755T.jpg",
+   "date": "1997-03-15",
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -73,6 +93,11 @@
    "dst": 30053
   },
   {
+   "relate": "前传",
+   "src": 38981,
+   "dst": 88590
+  },
+  {
    "relate": "不同演绎",
    "src": 88590,
    "dst": 30053
@@ -93,9 +118,19 @@
    "dst": 30053
   },
   {
+   "relate": "续集",
+   "src": 88591,
+   "dst": 88590
+  },
+  {
    "relate": "主线故事",
    "src": 88592,
    "dst": 30053
+  },
+  {
+   "relate": "主线故事",
+   "src": 88592,
+   "dst": 88590
   },
   {
    "relate": "续集",
@@ -108,6 +143,11 @@
    "dst": 30053
   },
   {
+   "relate": "主线故事",
+   "src": 88594,
+   "dst": 88590
+  },
+  {
    "relate": "前传",
    "src": 88594,
    "dst": 88592
@@ -116,6 +156,11 @@
    "relate": "主线故事",
    "src": 88598,
    "dst": 30053
+  },
+  {
+   "relate": "主线故事",
+   "src": 88598,
+   "dst": 88590
   }
  ]
 }

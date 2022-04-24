@@ -5,42 +5,61 @@
    "id": 1167,
    "name": "narcissu",
    "nameCN": "水仙",
-   "image": "//lain.bgm.tv/pic/cover/m/9d/a1/1167_zR2DM.jpg",
-   "date": "2005-08-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/9d/a1/1167_zR2DM.jpg",
+   "date": "2005-08-01",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 1168,
    "name": "narcissu SIDE 2nd",
    "nameCN": "水仙2",
-   "image": "//lain.bgm.tv/pic/cover/m/2f/29/1168_aY6d3.jpg",
-   "date": "2007-05-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/2f/29/1168_aY6d3.jpg",
+   "date": "2007-05-16",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 1504,
    "name": "narcissu 3rd -Die Dritte Welt-",
    "nameCN": "水仙3",
-   "image": "//lain.bgm.tv/pic/cover/m/49/b8/1504_Rq1QR.jpg",
-   "date": "2009-04-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/b8/1504_Rq1QR.jpg",
+   "date": "2009-04-27",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 6991,
    "name": "ナルキッソス～もしも明日があるなら～Portable",
    "nameCN": "水仙：如果还有明天携带版",
-   "image": "//lain.bgm.tv/pic/cover/m/03/94/6991_romV3.jpg",
-   "date": "2010-06-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/03/94/6991_romV3.jpg",
+   "date": "2010-06-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PSP"
   },
   {
    "id": 174632,
    "name": "Narcissu 10th Anniversary Anthology Project",
-   "image": "//lain.bgm.tv/pic/cover/m/7e/60/174632_D5xjv.jpg",
-   "date": "2016-01-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/7e/60/174632_D5xjv.jpg",
+   "date": "2016-01-28",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 186568,
    "name": "ナルキッソス -スミレ-",
    "nameCN": "水仙 -Sumire-",
-   "image": "//lain.bgm.tv/pic/cover/m/ea/49/186568_gcEVV.jpg",
-   "date": "2015-12-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/ea/49/186568_gcEVV.jpg",
+   "date": "2015-12-31",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -53,6 +72,11 @@
    "relate": "相同世界观",
    "src": 1167,
    "dst": 1504
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1167,
+   "dst": 6991
   },
   {
    "relate": "不同演绎",
@@ -72,12 +96,27 @@
   {
    "relate": "不同演绎",
    "src": 1168,
+   "dst": 6991
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1168,
    "dst": 174632
   },
   {
    "relate": "相同世界观",
    "src": 1504,
+   "dst": 1167
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1504,
    "dst": 1168
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1504,
+   "dst": 6991
   },
   {
    "relate": "不同演绎",
@@ -91,8 +130,43 @@
   },
   {
    "relate": "不同演绎",
+   "src": 6991,
+   "dst": 1168
+  },
+  {
+   "relate": "不同演绎",
+   "src": 6991,
+   "dst": 1504
+  },
+  {
+   "relate": "不同演绎",
+   "src": 6991,
+   "dst": 174632
+  },
+  {
+   "relate": "不同演绎",
+   "src": 174632,
+   "dst": 1167
+  },
+  {
+   "relate": "不同演绎",
+   "src": 174632,
+   "dst": 1168
+  },
+  {
+   "relate": "不同演绎",
+   "src": 174632,
+   "dst": 1504
+  },
+  {
+   "relate": "不同演绎",
    "src": 174632,
    "dst": 6991
+  },
+  {
+   "relate": "不同演绎",
+   "src": 174632,
+   "dst": 186568
   },
   {
    "relate": "不同演绎",

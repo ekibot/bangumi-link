@@ -5,21 +5,31 @@
    "id": 2091,
    "name": "セイント・ビースト ～光陰叙事詩天使譚～",
    "nameCN": "四圣兽 ~光阴叙事诗天使谭~",
-   "image": "//lain.bgm.tv/pic/cover/m/0b/1e/2091_eTEUP.jpg",
-   "date": "2007-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/0b/1e/2091_eTEUP.jpg",
+   "date": "2007-04-03",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 7365,
    "name": "セイント・ビースト ～幾千の昼と夜 編～",
    "nameCN": "四圣兽 ～几千个昼与夜篇～",
-   "image": "//lain.bgm.tv/pic/cover/m/95/c8/7365_D434H.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/95/c8/7365_D434H.jpg",
+   "type": 2,
+   "date": "2005-12-17",
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 7366,
    "name": "セイント・ビースト～聖獣降臨編～",
    "nameCN": "四圣兽 ～圣兽降临篇～",
-   "image": "//lain.bgm.tv/pic/cover/m/e6/be/7366_Fk60N.jpg",
-   "date": "2003-05-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/be/7366_Fk60N.jpg",
+   "date": "2003-05-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -32,6 +42,11 @@
    "relate": "续集",
    "src": 2091,
    "dst": 7366
+  },
+  {
+   "relate": "主线故事",
+   "src": 7365,
+   "dst": 2091
   },
   {
    "relate": "前传",

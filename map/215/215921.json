@@ -5,42 +5,61 @@
    "id": 140925,
    "name": "BATMAN (1966)",
    "nameCN": "蝙蝠侠：大电影",
-   "image": "//lain.bgm.tv/pic/cover/m/e3/36/140925_dTxqE.jpg",
-   "date": "1967-08-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/e3/36/140925_dTxqE.jpg",
+   "date": "1967-08-03",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 148580,
    "name": "Batman (1966) Season 1",
    "nameCN": "蝙蝠侠 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/5a/148580_RdYeE.jpg",
-   "date": "1966-01-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/6e/5a/148580_RdYeE.jpg",
+   "date": "1966-01-12",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 148584,
    "name": "Batman (1966) Season 2",
    "nameCN": "蝙蝠侠 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/da/46/148584_fscZ0.jpg",
-   "date": "1966-09-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/da/46/148584_fscZ0.jpg",
+   "date": "1966-09-07",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 148585,
    "name": "Batman (1967) Season 3",
    "nameCN": "蝙蝠侠 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/6a/32/148585_A3Pay.jpg",
-   "date": "1967-09-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/6a/32/148585_A3Pay.jpg",
+   "date": "1967-09-14",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 215921,
    "name": "Batman: Return of the Caped Crusaders",
    "nameCN": "蝙蝠侠：披风斗士归来",
-   "image": "//lain.bgm.tv/pic/cover/m/1c/40/215921_44YP3.jpg",
-   "date": "2016-10-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/1c/40/215921_44YP3.jpg",
+   "date": "2016-10-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 223334,
    "name": "Batman vs. Two-Face",
-   "image": "//lain.bgm.tv/pic/cover/m/4d/66/223334_3T4gG.jpg",
-   "date": "2017-10-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/4d/66/223334_3T4gG.jpg",
+   "date": "2017-10-17",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -53,6 +72,11 @@
    "relate": "相同世界观",
    "src": 140925,
    "dst": 215921
+  },
+  {
+   "relate": "相同世界观",
+   "src": 140925,
+   "dst": 223334
   },
   {
    "relate": "番外篇",
@@ -70,6 +94,11 @@
    "dst": 215921
   },
   {
+   "relate": "相同世界观",
+   "src": 148580,
+   "dst": 223334
+  },
+  {
    "relate": "前传",
    "src": 148584,
    "dst": 148580
@@ -85,6 +114,11 @@
    "dst": 215921
   },
   {
+   "relate": "相同世界观",
+   "src": 148584,
+   "dst": 223334
+  },
+  {
    "relate": "前传",
    "src": 148585,
    "dst": 148584
@@ -96,8 +130,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 148585,
+   "dst": 223334
+  },
+  {
+   "relate": "相同世界观",
    "src": 215921,
    "dst": 140925
+  },
+  {
+   "relate": "相同世界观",
+   "src": 215921,
+   "dst": 148580
+  },
+  {
+   "relate": "相同世界观",
+   "src": 215921,
+   "dst": 148584
+  },
+  {
+   "relate": "相同世界观",
+   "src": 215921,
+   "dst": 148585
   },
   {
    "relate": "续集",
@@ -108,6 +162,21 @@
    "relate": "相同世界观",
    "src": 223334,
    "dst": 140925
+  },
+  {
+   "relate": "相同世界观",
+   "src": 223334,
+   "dst": 148580
+  },
+  {
+   "relate": "相同世界观",
+   "src": 223334,
+   "dst": 148584
+  },
+  {
+   "relate": "相同世界观",
+   "src": 223334,
+   "dst": 148585
   },
   {
    "relate": "前传",

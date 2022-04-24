@@ -5,67 +5,99 @@
    "id": 18580,
    "name": "Kung Fu Panda 2",
    "nameCN": "功夫熊猫 2",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/91/18580_29QXX.jpg",
-   "date": "2011-05-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/c5/91/18580_29QXX.jpg",
+   "date": "2011-05-28",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 35814,
    "name": "Kung Fu Panda",
    "nameCN": "功夫熊猫",
-   "image": "//lain.bgm.tv/pic/cover/m/99/ef/35814_S3jzf.jpg",
-   "date": "2008-06-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/99/ef/35814_S3jzf.jpg",
+   "date": "2008-06-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 46128,
    "name": "Kung Fu Panda: Secrets of the Furious Five",
    "nameCN": "功夫熊猫:盖世五侠的秘密",
-   "image": "//lain.bgm.tv/pic/cover/m/70/77/46128_Z021g.jpg",
-   "date": "2008-11-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/70/77/46128_Z021g.jpg",
+   "date": "2008-11-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 46131,
    "name": "Kung Fu Panda: Legends of Awesomeness Season 1",
    "nameCN": "功夫熊猫：非凡传奇 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/87/aa/46131_Lw2kC.jpg",
-   "date": "2011-09-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/87/aa/46131_Lw2kC.jpg",
+   "date": "2011-09-19",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 65242,
    "name": "Kung Fu Panda: Legends of Awesomeness Season 2",
    "nameCN": "功夫熊猫：非凡传奇 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/f2/cc/65242_MDuNN.jpg",
-   "date": "2012-08-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/f2/cc/65242_MDuNN.jpg",
+   "date": "2012-08-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 82715,
    "name": "Kung Fu Panda Holiday Special",
    "nameCN": "功夫熊猫感恩节特辑",
-   "image": "//lain.bgm.tv/pic/cover/m/0c/89/82715_753a5.jpg",
-   "date": "2010-11-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/0c/89/82715_753a5.jpg",
+   "date": "2010-11-24",
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 82716,
    "name": "Kung Fu Panda: Secrets of the Masters",
    "nameCN": "功夫熊猫之师傅的秘密",
-   "image": "//lain.bgm.tv/pic/cover/m/48/2c/82716_ehazs.jpg",
-   "date": "2011-12-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/48/2c/82716_ehazs.jpg",
+   "date": "2011-12-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 115615,
    "name": "Kung Fu Panda 3",
    "nameCN": "功夫熊猫3",
-   "image": "//lain.bgm.tv/pic/cover/m/68/b2/115615_GGegk.jpg",
-   "date": "2016-01-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/68/b2/115615_GGegk.jpg",
+   "date": "2016-01-29",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 115617,
    "name": "Kung Fu Panda: Legends of Awesomeness Season 3",
    "nameCN": "功夫熊猫：非凡传奇 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/7b/115617_f4SPt.jpg",
-   "date": "2013-06-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/7b/115617_f4SPt.jpg",
+   "date": "2013-06-24",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 18580,
+   "dst": 35814
+  },
   {
    "relate": "前传",
    "src": 18580,
@@ -77,6 +109,11 @@
    "dst": 115615
   },
   {
+   "relate": "续集",
+   "src": 35814,
+   "dst": 18580
+  },
+  {
    "relate": "番外篇",
    "src": 35814,
    "dst": 46128
@@ -85,6 +122,16 @@
    "relate": "续集",
    "src": 35814,
    "dst": 46131
+  },
+  {
+   "relate": "番外篇",
+   "src": 35814,
+   "dst": 82715
+  },
+  {
+   "relate": "番外篇",
+   "src": 35814,
+   "dst": 82716
   },
   {
    "relate": "主线故事",

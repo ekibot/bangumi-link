@@ -5,29 +5,41 @@
    "id": 313762,
    "name": "Superman: Man of Tomorrow",
    "nameCN": "超人：明日之子",
-   "image": "//lain.bgm.tv/pic/cover/m/bd/f1/313762_My8jM.jpg",
-   "date": "2020-08-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/bd/f1/313762_My8jM.jpg",
+   "date": "2020-08-23",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 327360,
    "name": "Justice Society: World War II",
    "nameCN": "正义协会：二战",
-   "image": "//lain.bgm.tv/pic/cover/m/40/19/327360_CYbBz.jpg",
-   "date": "2021-04-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/40/19/327360_CYbBz.jpg",
+   "date": "2021-04-27",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 339679,
    "name": "Batman: The Long Halloween, Part One",
    "nameCN": "蝙蝠侠：漫长的万圣节（上）",
-   "image": "//lain.bgm.tv/pic/cover/m/dd/27/339679_r5O5q.jpg",
-   "date": "2021-06-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/dd/27/339679_r5O5q.jpg",
+   "date": "2021-06-22",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 345628,
    "name": "Batman: The Long Halloween, Part Two",
    "nameCN": "蝙蝠侠：漫长的万圣节（下）",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/b0/345628_y7WFh.jpg",
-   "date": "2021-07-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/b0/345628_y7WFh.jpg",
+   "date": "2021-07-27",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -38,7 +50,22 @@
   },
   {
    "relate": "相同世界观",
+   "src": 313762,
+   "dst": 339679
+  },
+  {
+   "relate": "相同世界观",
    "src": 327360,
+   "dst": 313762
+  },
+  {
+   "relate": "相同世界观",
+   "src": 327360,
+   "dst": 339679
+  },
+  {
+   "relate": "相同世界观",
+   "src": 339679,
    "dst": 313762
   },
   {

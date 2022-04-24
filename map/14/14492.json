@@ -5,29 +5,41 @@
    "id": 14492,
    "name": "伝説の勇者の伝説",
    "nameCN": "传说中的勇者的传说",
-   "image": "//lain.bgm.tv/pic/cover/m/5a/e8/14492_ruhrU.jpg",
-   "date": "2002-02-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/5a/e8/14492_ruhrU.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 25123,
    "name": "大伝説の勇者の伝説",
    "nameCN": "大传说中勇者的传说",
-   "image": "//lain.bgm.tv/pic/cover/m/d7/41/25123_06TA0.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/d7/41/25123_06TA0.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 25135,
    "name": "とりあえず伝説の勇者の伝説",
    "nameCN": "总之就是传说的勇者的传说",
-   "image": "//lain.bgm.tv/pic/cover/m/0d/c7/25135_d4lAi.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/c7/25135_d4lAi.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 41506,
    "name": "真伝勇伝・革命編 堕ちた黒い勇者の伝説",
    "nameCN": "真传勇传・革命篇 堕落黑勇者的传说",
-   "image": "//lain.bgm.tv/pic/cover/m/9d/f8/41506_ix9NY.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/9d/f8/41506_ix9NY.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -35,6 +47,11 @@
    "relate": "续集",
    "src": 14492,
    "dst": 25123
+  },
+  {
+   "relate": "番外篇",
+   "src": 14492,
+   "dst": 25135
   },
   {
    "relate": "番外篇",
@@ -55,6 +72,11 @@
    "relate": "主线故事",
    "src": 25135,
    "dst": 14492
+  },
+  {
+   "relate": "主线故事",
+   "src": 25135,
+   "dst": 25123
   },
   {
    "relate": "主线故事",

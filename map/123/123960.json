@@ -4,22 +4,32 @@
   {
    "id": 123960,
    "name": "夏家三千金",
-   "image": "//lain.bgm.tv/pic/cover/m/93/2c/123960_SBRbc.jpg",
-   "date": "2011-01-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/93/2c/123960_SBRbc.jpg",
+   "date": "2011-01-22",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "华语剧",
+   "type": 6
   },
   {
    "id": 125207,
    "name": "爱情睡醒了",
    "nameCN": "爱情睡醒了",
-   "image": "//lain.bgm.tv/pic/cover/m/28/2d/125207_Afe7j.jpg",
-   "date": "2011-09-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/2d/125207_Afe7j.jpg",
+   "date": "2011-09-13",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 125209,
    "name": "爱情回来了",
    "nameCN": "爱情回来了",
-   "image": "//lain.bgm.tv/pic/cover/m/8e/46/125209_FQJOj.jpg",
-   "date": "2014-07-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/8e/46/125209_FQJOj.jpg",
+   "date": "2014-07-21",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -30,13 +40,28 @@
   },
   {
    "relate": "衍生",
+   "src": 123960,
+   "dst": 125209
+  },
+  {
+   "relate": "衍生",
    "src": 125207,
    "dst": 123960
   },
   {
    "relate": "衍生",
+   "src": 125207,
+   "dst": 125209
+  },
+  {
+   "relate": "衍生",
    "src": 125209,
    "dst": 123960
+  },
+  {
+   "relate": "衍生",
+   "src": 125209,
+   "dst": 125207
   }
  ]
 }

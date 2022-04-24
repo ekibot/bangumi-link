@@ -5,63 +5,88 @@
    "id": 404,
    "name": "ロックマン ゼクス",
    "nameCN": "洛克人 ZX",
-   "image": "//lain.bgm.tv/pic/cover/m/4f/4a/404_ajp.jpg",
-   "date": "2006-07-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/4f/4a/404_ajp.jpg",
+   "date": "2006-07-06",
+   "nsfw": false,
+   "platform": "NDS",
+   "type": 4
   },
   {
    "id": 1054,
    "name": "ロックマンゼクス アドベント",
    "nameCN": "洛克人 ZX Advent",
-   "image": "//lain.bgm.tv/pic/cover/m/db/57/1054_j01nK.jpg",
-   "date": "2007-07-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/db/57/1054_j01nK.jpg",
+   "date": "2007-07-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": "NDS"
   },
   {
    "id": 2315,
    "name": "ロックマン ゼロ",
    "nameCN": "洛克人 Zero",
-   "image": "//lain.bgm.tv/pic/cover/m/88/bf/2315_fZuJ4.jpg",
-   "date": "2002-04-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/88/bf/2315_fZuJ4.jpg",
+   "date": "2002-04-26",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 63941,
    "name": "ロックマン ゼロ2",
    "nameCN": "洛克人 Zero2",
-   "image": "//lain.bgm.tv/pic/cover/m/10/32/65555_yuFuY.jpg",
-   "date": "2003-05-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/10/32/65555_yuFuY.jpg",
+   "date": "2003-05-02",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 64386,
-   "name": "ロックマン ゼロ3",
+   "name": "ロックマン  ゼロ3",
    "nameCN": "洛克人 Zero3",
-   "image": "//lain.bgm.tv/pic/cover/m/41/f0/64386_r7E4o.jpg",
-   "date": "2004-04-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/41/f0/64386_r7E4o.jpg",
+   "date": "2004-04-23",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 64538,
-   "name": "ロックマン ゼロ4",
+   "name": "ロックマン  ゼロ4",
    "nameCN": "洛克人 Zero4",
-   "image": "//lain.bgm.tv/pic/cover/m/5b/44/64538_QEivN.jpg",
-   "date": "2005-04-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/44/64538_QEivN.jpg",
+   "date": "2005-04-21",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 65556,
    "name": "ロックマン ゼロ3",
    "nameCN": "洛克人ZERO3",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/31/65556_wU7rJ.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/31/65556_wU7rJ.jpg",
+   "type": 4
   },
   {
    "id": 65558,
    "name": "ロックマン ゼロ コレクション",
    "nameCN": "洛克人ZERO 经典合集",
-   "image": "//lain.bgm.tv/pic/cover/m/ba/59/65558_8Zd8i.jpg",
-   "date": "2010-04-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/ba/59/65558_8Zd8i.jpg",
+   "date": "2010-04-21",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 293812,
-   "name": "ロックマン ゼロ&ゼクス ダブルヒーローコレクション",
+   "name": "ロックマン ゼロ&amp;ゼクス ダブルヒーローコレクション",
    "nameCN": "洛克人Zero/ZX 遗产合集",
-   "image": "//lain.bgm.tv/pic/cover/m/93/11/293812_SizrZ.jpg",
-   "date": "2020-02-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/93/11/293812_SizrZ.jpg",
+   "date": "2020-02-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -106,6 +131,11 @@
    "dst": 65558
   },
   {
+   "relate": "不同演绎",
+   "src": 2315,
+   "dst": 293812
+  },
+  {
    "relate": "前传",
    "src": 63941,
    "dst": 2315
@@ -121,6 +151,11 @@
    "dst": 65558
   },
   {
+   "relate": "不同演绎",
+   "src": 63941,
+   "dst": 293812
+  },
+  {
    "relate": "前传",
    "src": 64386,
    "dst": 63941
@@ -129,11 +164,6 @@
    "relate": "续集",
    "src": 64386,
    "dst": 64538
-  },
-  {
-   "relate": "不同演绎",
-   "src": 64386,
-   "dst": 65558
   },
   {
    "relate": "前传",
@@ -147,13 +177,58 @@
   },
   {
    "relate": "不同演绎",
+   "src": 64538,
+   "dst": 293812
+  },
+  {
+   "relate": "不同演绎",
    "src": 65558,
    "dst": 2315
   },
   {
    "relate": "不同演绎",
+   "src": 65558,
+   "dst": 63941
+  },
+  {
+   "relate": "不同演绎",
+   "src": 65558,
+   "dst": 64386
+  },
+  {
+   "relate": "不同演绎",
+   "src": 65558,
+   "dst": 64538
+  },
+  {
+   "relate": "不同演绎",
+   "src": 293812,
+   "dst": 404
+  },
+  {
+   "relate": "不同演绎",
+   "src": 293812,
+   "dst": 1054
+  },
+  {
+   "relate": "不同演绎",
    "src": 293812,
    "dst": 2315
+  },
+  {
+   "relate": "不同演绎",
+   "src": 293812,
+   "dst": 63941
+  },
+  {
+   "relate": "不同演绎",
+   "src": 293812,
+   "dst": 64386
+  },
+  {
+   "relate": "不同演绎",
+   "src": 293812,
+   "dst": 64538
   }
  ]
 }

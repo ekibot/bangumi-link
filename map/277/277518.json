@@ -5,29 +5,41 @@
    "id": 277518,
    "name": "ギヴン",
    "nameCN": "GIVEN 被赠与的未来",
-   "image": "//lain.bgm.tv/pic/cover/m/5b/66/277518_7K1U7.jpg",
-   "date": "2019-07-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/66/277518_7K1U7.jpg",
+   "date": "2019-07-11",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 290993,
    "name": "映画 ギヴン",
    "nameCN": "GIVEN 剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/14/fc/290993_3cgLG.jpg",
-   "date": "2020-08-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/14/fc/290993_3cgLG.jpg",
+   "date": "2020-08-22",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 337433,
    "name": "ギヴン うらがわの存在",
    "nameCN": "GIVEN 内侧的存在",
-   "image": "//lain.bgm.tv/pic/cover/m/7c/f7/337433_22K7h.jpg",
-   "date": "2021-12-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/7c/f7/337433_22K7h.jpg",
+   "date": "2021-12-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 337434,
    "name": "ギヴン",
    "nameCN": "GIVEN",
-   "image": "//lain.bgm.tv/pic/cover/m/fe/7e/337434_434Z4.jpg",
-   "date": "2021-07-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/fe/7e/337434_434Z4.jpg",
+   "date": "2021-07-17",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -60,6 +72,11 @@
    "relate": "主线故事",
    "src": 337433,
    "dst": 277518
+  },
+  {
+   "relate": "主线故事",
+   "src": 337433,
+   "dst": 290993
   },
   {
    "relate": "不同演绎",

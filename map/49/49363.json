@@ -4,54 +4,82 @@
   {
    "id": 1045,
    "name": "ToHeart2 XRATED",
-   "image": "//lain.bgm.tv/pic/cover/m/a0/e2/1045_jnFXa.jpg",
-   "date": "2005-12-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/a0/e2/1045_jnFXa.jpg",
+   "date": "2005-12-09",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 1086,
    "name": "ToHeart2 AnotherDays",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/1d/1086_ajp.jpg",
-   "date": "2008-02-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/1d/1086_ajp.jpg",
+   "date": "2008-02-29",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 1091,
    "name": "To Heart",
-   "image": "//lain.bgm.tv/pic/cover/m/75/4d/1091_ajp.jpg",
-   "date": "1997-05-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/75/4d/1091_ajp.jpg",
+   "date": "1997-05-23",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 1222,
    "name": "ToHeart2",
    "nameCN": "ToHeart2",
-   "image": "//lain.bgm.tv/pic/cover/m/3a/02/1222_ajp.jpg",
-   "date": "2004-12-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/3a/02/1222_ajp.jpg",
+   "date": "2004-12-28",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PS2"
   },
   {
    "id": 16847,
    "name": "愛佳でいくの!!～Leaf Amusement Soft Vol.5～",
-   "image": "//lain.bgm.tv/pic/cover/m/a5/e4/16847_48GmL.jpg",
-   "date": "2009-12-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/a5/e4/16847_48GmL.jpg",
+   "date": "2009-12-18",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 19394,
    "name": "ToHeart2 ダンジョントラベラーズ",
    "nameCN": "ToHeart2 迷宫旅行者",
-   "image": "//lain.bgm.tv/pic/cover/m/d7/67/19394_eLOW8.jpg",
-   "date": "2011-06-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/d7/67/19394_eLOW8.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 49363,
    "name": "ダンジョントラベラーズ2 王立図書館とマモノの封印",
    "nameCN": "迷宫旅行者2 王立图书馆与魔物的封印",
-   "image": "//lain.bgm.tv/pic/cover/m/91/5d/49363_nNxHE.jpg",
-   "date": "2015-08-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/91/5d/49363_nNxHE.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 193241,
    "name": "ダンジョントラベラーズ2-2 闇堕ちの乙女とはじまりの書",
    "nameCN": "迷宫旅人2-2 暗堕少女与初始之书",
-   "image": "//lain.bgm.tv/pic/cover/m/59/44/193241_F37fb.jpg",
-   "date": "2017-04-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/59/44/193241_F37fb.jpg",
+   "date": "2017-04-20",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -71,6 +99,16 @@
    "dst": 16847
   },
   {
+   "relate": "不同世界观",
+   "src": 1045,
+   "dst": 19394
+  },
+  {
+   "relate": "不同世界观",
+   "src": 1045,
+   "dst": 49363
+  },
+  {
    "relate": "主线故事",
    "src": 1086,
    "dst": 1045
@@ -81,9 +119,19 @@
    "dst": 16847
   },
   {
+   "relate": "不同世界观",
+   "src": 1086,
+   "dst": 49363
+  },
+  {
    "relate": "相同世界观",
    "src": 1091,
    "dst": 1045
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1091,
+   "dst": 1222
   },
   {
    "relate": "不同演绎",
@@ -102,13 +150,28 @@
   },
   {
    "relate": "不同世界观",
+   "src": 1222,
+   "dst": 49363
+  },
+  {
+   "relate": "不同世界观",
    "src": 16847,
    "dst": 1045
   },
   {
    "relate": "不同世界观",
+   "src": 16847,
+   "dst": 1086
+  },
+  {
+   "relate": "不同世界观",
    "src": 19394,
    "dst": 1045
+  },
+  {
+   "relate": "不同世界观",
+   "src": 19394,
+   "dst": 1222
   },
   {
    "relate": "相同世界观",
@@ -119,6 +182,16 @@
    "relate": "不同世界观",
    "src": 49363,
    "dst": 1045
+  },
+  {
+   "relate": "不同世界观",
+   "src": 49363,
+   "dst": 1086
+  },
+  {
+   "relate": "不同世界观",
+   "src": 49363,
+   "dst": 1222
   },
   {
    "relate": "相同世界观",

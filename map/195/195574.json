@@ -5,22 +5,31 @@
    "id": 195574,
    "name": "Travelers (Season 1)",
    "nameCN": "穿越者 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/a2/195574_utu9Z.jpg",
-   "date": "2016-10-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/e4/a2/195574_utu9Z.jpg",
+   "date": "2016-10-18",
+   "nsfw": false,
+   "platform": "欧美剧",
+   "type": 6
   },
   {
    "id": 228487,
    "name": "Travelers (Season 2)",
    "nameCN": "穿越者 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/e1/8a/228487_ej5Je.jpg",
-   "date": "2017-10-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/8a/228487_ej5Je.jpg",
+   "date": "2017-10-16",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 269031,
    "name": "Travelers (Season 3)",
    "nameCN": "穿越者 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/77/57/269031_aKanE.jpg",
-   "date": "2018-12-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/77/57/269031_aKanE.jpg",
+   "date": "2018-12-15",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 195574,
    "dst": 228487
+  },
+  {
+   "relate": "续集",
+   "src": 195574,
+   "dst": 269031
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 269031,
    "dst": 195574
+  },
+  {
+   "relate": "前传",
+   "src": 269031,
+   "dst": 228487
   }
  ]
 }

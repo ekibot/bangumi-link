@@ -5,64 +5,91 @@
    "id": 72776,
    "name": "Dune 2000",
    "nameCN": "沙丘2000",
-   "image": "//lain.bgm.tv/pic/cover/m/11/a5/72776_y6FkS.jpg",
-   "date": "1998-08-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/11/a5/72776_y6FkS.jpg",
+   "date": "1998-08-31",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 256461,
    "name": "Dune II",
    "nameCN": "沙丘II 新王朝",
-   "image": "//lain.bgm.tv/pic/cover/m/04/21/256461_74Q2v.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/04/21/256461_74Q2v.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 350662,
    "name": "Dune (1984)",
    "nameCN": "沙丘（1984）",
-   "image": "//lain.bgm.tv/pic/cover/m/a3/98/350662_q9kCL.jpg",
-   "date": "1984-12-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/a3/98/350662_q9kCL.jpg",
+   "date": "1984-12-01",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 351322,
    "name": "Dune (2021)",
    "nameCN": "沙丘（2021）",
-   "image": "//lain.bgm.tv/pic/cover/m/57/4e/351322_97Pyy.jpg",
-   "date": "2021-10-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/57/4e/351322_97Pyy.jpg",
+   "date": "2021-10-22",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 351531,
    "name": "Dune (2000)",
    "nameCN": "沙丘魔堡2000",
-   "image": "//lain.bgm.tv/pic/cover/m/18/6a/351531_0PPII.jpg",
-   "date": "2000-12-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/18/6a/351531_0PPII.jpg",
+   "date": "2000-12-03",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 351535,
    "name": "Children of Dune",
    "nameCN": "沙丘之子",
-   "image": "//lain.bgm.tv/pic/cover/m/3c/82/351535_sasW5.jpg",
-   "date": "2003-03-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/3c/82/351535_sasW5.jpg",
+   "date": "2003-03-16",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 351557,
    "name": "Emperor: Battle for Dune",
    "nameCN": "皇帝：沙丘之战",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/5f/351557_Mm4EG.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/ca/5f/351557_Mm4EG.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 351558,
    "name": "Frank Herbert's Dune",
    "nameCN": "沙丘魔堡",
-   "image": "//lain.bgm.tv/pic/cover/m/65/86/351558_84c9c.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/65/86/351558_84c9c.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 354531,
    "name": "Dune 2",
    "nameCN": "沙丘2",
-   "image": "//lain.bgm.tv/pic/cover/m/7f/87/354531_4bC2K.jpg",
-   "date": "2023-10-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/7f/87/354531_4bC2K.jpg",
+   "date": "2023-10-20",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -75,6 +102,11 @@
    "relate": "相同世界观",
    "src": 72776,
    "dst": 350662
+  },
+  {
+   "relate": "相同世界观",
+   "src": 72776,
+   "dst": 351531
   },
   {
    "relate": "续集",
@@ -99,12 +131,27 @@
   {
    "relate": "相同世界观",
    "src": 256461,
+   "dst": 351531
+  },
+  {
+   "relate": "相同世界观",
+   "src": 256461,
    "dst": 351558
   },
   {
    "relate": "不同演绎",
    "src": 350662,
    "dst": 351322
+  },
+  {
+   "relate": "不同演绎",
+   "src": 350662,
+   "dst": 351531
+  },
+  {
+   "relate": "不同演绎",
+   "src": 351322,
+   "dst": 350662
   },
   {
    "relate": "不同演绎",
@@ -120,6 +167,11 @@
    "relate": "不同演绎",
    "src": 351531,
    "dst": 350662
+  },
+  {
+   "relate": "不同演绎",
+   "src": 351531,
+   "dst": 351322
   },
   {
    "relate": "续集",
@@ -145,6 +197,16 @@
    "relate": "相同世界观",
    "src": 351558,
    "dst": 72776
+  },
+  {
+   "relate": "相同世界观",
+   "src": 351558,
+   "dst": 256461
+  },
+  {
+   "relate": "相同世界观",
+   "src": 351558,
+   "dst": 351557
   },
   {
    "relate": "前传",

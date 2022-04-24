@@ -5,57 +5,81 @@
    "id": 67787,
    "name": "Croissant de Triomphe",
    "nameCN": "羊角面包的凯旋",
-   "image": "//lain.bgm.tv/pic/cover/m/a2/c5/67787_zqYXC.jpg",
-   "date": "2013-03-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/a2/c5/67787_zqYXC.jpg",
+   "date": "2013-03-12",
+   "nsfw": false,
+   "platform": "WEB",
+   "type": 2
   },
   {
    "id": 79973,
    "name": "Mickey Mouse Season 1",
    "nameCN": "米老鼠2013 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/0a/d5/79973_hRTf0.jpg",
-   "date": "2013-06-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/d5/79973_hRTf0.jpg",
+   "date": "2013-06-28",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 106051,
    "name": "Mickey Mouse Season 2",
    "nameCN": "米老鼠2013 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/92/8e/106051_72Vk9.jpg",
-   "date": "2014-04-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/92/8e/106051_72Vk9.jpg",
+   "date": "2014-04-11",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 112703,
    "name": "Mickey's Once Upon a Christmas",
    "nameCN": "米老鼠温馨圣诞",
-   "image": "//lain.bgm.tv/pic/cover/m/44/2d/112703_qyVYw.jpg",
-   "date": "1999-12-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/44/2d/112703_qyVYw.jpg",
+   "date": "1999-12-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 113012,
    "name": "Mickey's Twice Upon a Christmas",
    "nameCN": "米奇节日嘉年华",
-   "image": "//lain.bgm.tv/pic/cover/m/d1/0b/113012_06Jh4.jpg",
-   "date": "2004-11-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/d1/0b/113012_06Jh4.jpg",
+   "date": "2004-11-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 168748,
    "name": "Mickey Mouse Season 3",
    "nameCN": "米老鼠2013 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/21/63/168748_xJ4QR.jpg",
-   "date": "2015-07-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/21/63/168748_xJ4QR.jpg",
+   "date": "2015-07-17",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 222400,
    "name": "Mickey Mouse Season 4",
    "nameCN": "米老鼠2013 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/0e/57/222400_ZAATV.jpg",
-   "date": "2017-06-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/0e/57/222400_ZAATV.jpg",
+   "date": "2017-06-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 324300,
    "name": "Mickey Mouse Season 5",
    "nameCN": "米老鼠2013 第五季",
-   "image": "//lain.bgm.tv/pic/cover/m/43/f2/324300_CT080.jpg",
-   "date": "2018-10-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/43/f2/324300_CT080.jpg",
+   "date": "2018-10-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -71,6 +95,11 @@
   },
   {
    "relate": "衍生",
+   "src": 67787,
+   "dst": 113012
+  },
+  {
+   "relate": "衍生",
    "src": 79973,
    "dst": 67787
   },
@@ -78,6 +107,11 @@
    "relate": "续集",
    "src": 79973,
    "dst": 106051
+  },
+  {
+   "relate": "衍生",
+   "src": 79973,
+   "dst": 112703
   },
   {
    "relate": "前传",

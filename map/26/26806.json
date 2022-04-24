@@ -5,36 +5,51 @@
    "id": 10508,
    "name": "涼風",
    "nameCN": "凉风",
-   "image": "//lain.bgm.tv/pic/cover/m/da/42/10508_64I4T.jpg",
-   "date": "2005-07-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/da/42/10508_64I4T.jpg",
+   "date": "2005-07-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 26806,
    "name": "君のいる町～黄昏交差点～",
    "nameCN": "有你的小镇 OAD 黄昏交叉点",
-   "image": "//lain.bgm.tv/pic/cover/m/63/03/26806_5CtL1.jpg",
-   "date": "2012-03-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/63/03/26806_5CtL1.jpg",
+   "date": "2012-03-16",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 66655,
    "name": "君のいる町",
    "nameCN": "有你的小镇",
-   "image": "//lain.bgm.tv/pic/cover/m/e8/fc/66655_51vlT.jpg",
-   "date": "2013-07-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/e8/fc/66655_51vlT.jpg",
+   "date": "2013-07-13",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 84506,
    "name": "君のいる町 OAD",
    "nameCN": "有你的小镇 OAD",
-   "image": "//lain.bgm.tv/pic/cover/m/d0/26/84506_9flvF.jpg",
-   "date": "2014-01-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/d0/26/84506_9flvF.jpg",
+   "date": "2014-01-17",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 188412,
    "name": "風夏",
    "nameCN": "风夏",
-   "image": "//lain.bgm.tv/pic/cover/m/cf/26/188412_0g2sZ.jpg",
-   "date": "2017-01-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/cf/26/188412_0g2sZ.jpg",
+   "date": "2017-01-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -44,14 +59,29 @@
    "dst": 66655
   },
   {
+   "relate": "相同世界观",
+   "src": 10508,
+   "dst": 188412
+  },
+  {
    "relate": "主线故事",
    "src": 26806,
    "dst": 66655
   },
   {
+   "relate": "相同世界观",
+   "src": 66655,
+   "dst": 10508
+  },
+  {
    "relate": "番外篇",
    "src": 66655,
    "dst": 26806
+  },
+  {
+   "relate": "番外篇",
+   "src": 66655,
+   "dst": 84506
   },
   {
    "relate": "相同世界观",
@@ -67,6 +97,11 @@
    "relate": "相同世界观",
    "src": 188412,
    "dst": 10508
+  },
+  {
+   "relate": "相同世界观",
+   "src": 188412,
+   "dst": 66655
   }
  ]
 }

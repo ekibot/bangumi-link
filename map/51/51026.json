@@ -5,50 +5,71 @@
    "id": 51026,
    "name": "XCOM:Enemy Unknown",
    "nameCN": "幽浮：未知敌人",
-   "image": "//lain.bgm.tv/pic/cover/m/60/4e/51026_duqre.jpg",
-   "date": "2012-10-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/60/4e/51026_duqre.jpg",
+   "date": "2012-10-09",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 126123,
    "name": "XCOM: Enemy Within",
    "nameCN": "幽浮：内部的敌人",
-   "image": "//lain.bgm.tv/pic/cover/m/e0/fb/126123_QF2q7.jpg",
-   "date": "2013-11-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/e0/fb/126123_QF2q7.jpg",
+   "date": "2013-11-12",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 140897,
    "name": "XCOM 2",
    "nameCN": "幽浮2",
-   "image": "//lain.bgm.tv/pic/cover/m/14/04/140897_01oaO.jpg",
-   "date": "2016-02-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/14/04/140897_01oaO.jpg",
+   "date": "2016-02-05",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 144983,
    "name": "The Bureau: XCOM Declassified",
    "nameCN": "调查局：幽浮解密",
-   "image": "//lain.bgm.tv/pic/cover/m/53/0a/144983_duy5b.jpg",
-   "date": "2013-08-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/53/0a/144983_duy5b.jpg",
+   "date": "2013-08-20",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 259930,
    "name": "X-COM: UFO Defense",
    "nameCN": "幽浮：浮游",
-   "image": "//lain.bgm.tv/pic/cover/m/c7/52/259930_pTHh9.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/c7/52/259930_pTHh9.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 304113,
    "name": "XCOM: Chimera Squad",
    "nameCN": "幽浮：奇美拉战队",
-   "image": "//lain.bgm.tv/pic/cover/m/f1/36/304113_Jqp6V.jpg",
-   "date": "2020-04-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/f1/36/304113_Jqp6V.jpg",
+   "date": "2020-04-24",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 309801,
    "name": "XCOM 2: War of the Chosen",
    "nameCN": "XCOM 2 天选者之战",
-   "image": "//lain.bgm.tv/pic/cover/m/b1/a9/309801_3m8a7.jpg",
-   "date": "2017-08-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/b1/a9/309801_3m8a7.jpg",
+   "date": "2017-08-29",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -85,6 +106,11 @@
   {
    "relate": "前传",
    "src": 140897,
+   "dst": 51026
+  },
+  {
+   "relate": "前传",
+   "src": 140897,
    "dst": 126123
   },
   {
@@ -96,6 +122,21 @@
    "relate": "不同世界观",
    "src": 144983,
    "dst": 51026
+  },
+  {
+   "relate": "不同世界观",
+   "src": 144983,
+   "dst": 126123
+  },
+  {
+   "relate": "不同世界观",
+   "src": 144983,
+   "dst": 140897
+  },
+  {
+   "relate": "不同世界观",
+   "src": 144983,
+   "dst": 309801
   },
   {
    "relate": "不同演绎",

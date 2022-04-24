@@ -5,29 +5,41 @@
    "id": 1076,
    "name": "ICO",
    "nameCN": "古堡迷踪",
-   "image": "//lain.bgm.tv/pic/cover/m/8a/1e/1076_6KWwE.jpg",
-   "date": "2001-12-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/8a/1e/1076_6KWwE.jpg",
+   "date": "2001-12-06",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 4126,
    "name": "ワンダと巨像",
    "nameCN": "汪达与巨像",
-   "image": "//lain.bgm.tv/pic/cover/m/84/f7/4126_Lylj2.jpg",
-   "date": "2005-10-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/84/f7/4126_Lylj2.jpg",
+   "date": "2005-10-27",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 38219,
    "name": "人喰いの大鷲トリコ",
    "nameCN": "最后的守护者",
-   "image": "//lain.bgm.tv/pic/cover/m/c6/08/38219_6wqjc.jpg",
-   "date": "2016-12-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/c6/08/38219_6wqjc.jpg",
+   "date": "2016-12-06",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 217121,
    "name": "ワンダと巨像",
    "nameCN": "旺达与巨像 重制版",
-   "image": "//lain.bgm.tv/pic/cover/m/7a/b7/217121_44q81.jpg",
-   "date": "2018-02-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/7a/b7/217121_44q81.jpg",
+   "date": "2018-02-06",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -38,8 +50,18 @@
   },
   {
    "relate": "相同世界观",
+   "src": 1076,
+   "dst": 38219
+  },
+  {
+   "relate": "相同世界观",
    "src": 4126,
    "dst": 1076
+  },
+  {
+   "relate": "相同世界观",
+   "src": 4126,
+   "dst": 38219
   },
   {
    "relate": "不同演绎",
@@ -50,6 +72,11 @@
    "relate": "相同世界观",
    "src": 38219,
    "dst": 1076
+  },
+  {
+   "relate": "相同世界观",
+   "src": 38219,
+   "dst": 4126
   },
   {
    "relate": "不同演绎",

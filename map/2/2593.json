@@ -5,22 +5,31 @@
    "id": 2593,
    "name": "海猿 うみざる NHK版",
    "nameCN": "海猿",
-   "image": "//lain.bgm.tv/pic/cover/m/02/6a/2593_qk2qM.jpg",
-   "date": "2002-07-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/02/6a/2593_qk2qM.jpg",
+   "date": "2002-07-13",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 75748,
    "name": "海猿",
    "nameCN": "海猿TV版",
-   "image": "//lain.bgm.tv/pic/cover/m/b2/fa/75748_1Outg.jpg",
-   "date": "2005-07-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/b2/fa/75748_1Outg.jpg",
+   "date": "2005-07-05",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 75749,
    "name": "海猿 うみざる 2 NHK版",
    "nameCN": "海猿 2 NHK版",
-   "image": "//lain.bgm.tv/pic/cover/m/b4/3c/75749_5IPSi.jpg",
-   "date": "2003-08-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/b4/3c/75749_5IPSi.jpg",
+   "date": "2003-08-18",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   }
  ],
  "relate": [
@@ -33,6 +42,11 @@
    "relate": "续集",
    "src": 2593,
    "dst": 75749
+  },
+  {
+   "relate": "不同演绎",
+   "src": 75748,
+   "dst": 2593
   },
   {
    "relate": "不同演绎",

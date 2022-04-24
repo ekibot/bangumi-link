@@ -5,47 +5,71 @@
    "id": 79596,
    "name": "Shadow Dancer",
    "nameCN": "影武者",
-   "image": "//lain.bgm.tv/pic/cover/m/52/8d/79596_8zUce.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/52/8d/79596_8zUce.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 80919,
    "name": "ザ・スーパー忍II",
    "nameCN": "超级忍2",
-   "image": "//lain.bgm.tv/pic/cover/m/49/7c/80919_0E0Ht.jpg",
-   "date": "1993-07-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/7c/80919_0E0Ht.jpg",
+   "date": "1993-07-23",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 117643,
    "name": "ザ・スーパー忍",
    "nameCN": "超级忍",
-   "image": "//lain.bgm.tv/pic/cover/m/0c/0c/117643_olHCz.jpg",
-   "date": "1989-12-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/0c/0c/117643_olHCz.jpg",
+   "date": "1989-12-02",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 252422,
    "name": "忍 -SHINOBI-",
-   "image": "//lain.bgm.tv/pic/cover/m/66/57/252422_99b9F.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/66/57/252422_99b9F.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 256592,
    "name": "シャドー・ダンサー ザ・シークレット・オブ・シノビ",
    "nameCN": "影武者：忍者之秘",
-   "image": "//lain.bgm.tv/pic/cover/m/a9/7d/256592_6dK56.jpg",
-   "date": "1990-12-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/a9/7d/256592_6dK56.jpg",
+   "date": "1990-12-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 261166,
    "name": "The GG忍II",
-   "image": "//lain.bgm.tv/pic/cover/m/8b/c6/261166_7l7B9.jpg",
-   "date": "1992-12-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/8b/c6/261166_7l7B9.jpg",
+   "date": "1992-12-11",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 261167,
    "name": "The GG忍",
-   "image": "//lain.bgm.tv/pic/cover/m/95/dd/261167_TBsir.jpg",
-   "date": "1991-04-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/95/dd/261167_TBsir.jpg",
+   "date": "1991-04-26",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -82,6 +106,11 @@
   {
    "relate": "续集",
    "src": 252422,
+   "dst": 79596
+  },
+  {
+   "relate": "续集",
+   "src": 252422,
    "dst": 117643
   },
   {
@@ -98,6 +127,11 @@
    "relate": "前传",
    "src": 261166,
    "dst": 261167
+  },
+  {
+   "relate": "相同世界观",
+   "src": 261167,
+   "dst": 117643
   },
   {
    "relate": "相同世界观",

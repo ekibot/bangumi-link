@@ -5,22 +5,31 @@
    "id": 1780,
    "name": "ゴルゴ13",
    "nameCN": "骷髅13",
-   "image": "//lain.bgm.tv/pic/cover/m/f6/3f/1780_vsnsx.jpg",
-   "date": "2008-04-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/f6/3f/1780_vsnsx.jpg",
+   "date": "2008-04-11",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 52783,
    "name": "ゴルゴ13",
    "nameCN": "骷髅13 剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/4f/c3/52783_kzaRx.jpg",
-   "date": "1983-05-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/4f/c3/52783_kzaRx.jpg",
+   "date": "1983-05-28",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 54293,
    "name": "ゴルゴ13〜QUEEN BEE〜",
    "nameCN": "骷髅13：女王蜂",
-   "image": "//lain.bgm.tv/pic/cover/m/df/1f/54293_CTPGV.jpg",
-   "date": "1998-05-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/df/1f/54293_CTPGV.jpg",
+   "date": "1998-05-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "番外篇",
    "src": 1780,
    "dst": 52783
+  },
+  {
+   "relate": "衍生",
+   "src": 1780,
+   "dst": 54293
   },
   {
    "relate": "主线故事",

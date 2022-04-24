@@ -5,40 +5,60 @@
    "id": 166150,
    "name": "薄桜鬼 真改 風ノ章",
    "nameCN": "薄樱鬼 真改 风之章",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/2e/166150_iYZm8.jpg",
-   "date": "2015-09-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/2e/166150_iYZm8.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 186437,
    "name": "薄桜鬼 真改 華ノ章",
    "nameCN": "薄樱鬼 真改 华之章",
-   "image": "//lain.bgm.tv/pic/cover/m/73/05/186437_HxoQo.jpg",
-   "date": "2016-06-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/73/05/186437_HxoQo.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 211139,
    "name": "薄桜鬼 真改 風華伝",
    "nameCN": "薄樱鬼 真改 风华传",
-   "image": "//lain.bgm.tv/pic/cover/m/00/97/211139_SfghS.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/00/97/211139_SfghS.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 246057,
    "name": "薄桜鬼 真改 月影ノ抄",
-   "image": "//lain.bgm.tv/pic/cover/m/ad/e4/246057_4ViY6.jpg",
-   "date": "2019-09-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/ad/e4/246057_4ViY6.jpg",
+   "date": "2019-09-26",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 259956,
    "name": "薄桜鬼 真改 銀星ノ抄",
-   "image": "//lain.bgm.tv/pic/cover/m/9b/bf/259956_sAtST.jpg",
-   "date": "2020-07-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/9b/bf/259956_sAtST.jpg",
+   "date": "2020-07-30",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 371676,
    "name": "薄桜鬼 真改 天雲ノ抄",
-   "image": "//lain.bgm.tv/pic/cover/m/fc/4d/371676_lt3Hp.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/fc/4d/371676_lt3Hp.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -58,9 +78,19 @@
    "dst": 166150
   },
   {
+   "relate": "不同演绎",
+   "src": 211139,
+   "dst": 186437
+  },
+  {
    "relate": "主线故事",
    "src": 246057,
    "dst": 166150
+  },
+  {
+   "relate": "主线故事",
+   "src": 246057,
+   "dst": 186437
   },
   {
    "relate": "续集",
@@ -70,12 +100,27 @@
   {
    "relate": "主线故事",
    "src": 259956,
+   "dst": 166150
+  },
+  {
+   "relate": "主线故事",
+   "src": 259956,
    "dst": 186437
+  },
+  {
+   "relate": "续集",
+   "src": 259956,
+   "dst": 371676
   },
   {
    "relate": "前传",
    "src": 371676,
    "dst": 246057
+  },
+  {
+   "relate": "前传",
+   "src": 371676,
+   "dst": 259956
   }
  ]
 }

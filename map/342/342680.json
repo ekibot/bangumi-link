@@ -4,24 +4,62 @@
   {
    "id": 342680,
    "name": "THE MAN CALLED CRIMSON -Episode I-χ 量子コンピューターの少女",
-   "image": "//lain.bgm.tv/pic/cover/m/88/45/342680_l8QJD.jpg",
-   "date": "2010-12-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/88/45/342680_l8QJD.jpg",
+   "date": "2010-12-29",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": null,
+   "type": 4
   },
   {
    "id": 342681,
    "name": "THE MAN CALLED CRIMSON -Episode II- テラトランジスタの少女",
-   "image": "//lain.bgm.tv/pic/cover/m/70/41/342681_3EeE3.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/70/41/342681_3EeE3.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2007-08-17",
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 342682,
    "name": "THE MAN CALLED CRIMSON -Episode III- 金色紙幣の騎士と被造の天才",
-   "image": "//lain.bgm.tv/pic/cover/m/06/45/342682_5uU2n.jpg",
-   "date": "2008-08-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/06/45/342682_5uU2n.jpg",
+   "date": "2008-08-16",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 342683,
    "name": "THE MAN CALLED CRIMSON -Episode IV- シスの大地と飛躍の階段",
-   "image": "//lain.bgm.tv/pic/cover/m/a6/ea/342683_g3Zdi.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/a6/ea/342683_g3Zdi.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2009-08-15",
+   "nsfw": false,
+   "platform": null
+  },
+  {
+   "id": 342684,
+   "name": "THE MAN CALLED CRIMSON -Episode V- 超えゆくヒトと機械と神々",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/22/8b/342684_u8nBM.jpg",
+   "type": 4,
+   "date": "2010-08-14",
+   "nsfw": false,
+   "platform": null
+  },
+  {
+   "id": 342685,
+   "name": "THE MAN CALLED CRIMSON -Episode Final- 超絶の奴隷と自由の孤者",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/5c/04/342685_sJPYF.jpg",
+   "type": 4,
+   "date": "2011-08-13",
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -32,6 +70,16 @@
   },
   {
    "relate": "前传",
+   "src": 342681,
+   "dst": 342680
+  },
+  {
+   "relate": "续集",
+   "src": 342681,
+   "dst": 342682
+  },
+  {
+   "relate": "前传",
    "src": 342682,
    "dst": 342681
   },
@@ -39,6 +87,31 @@
    "relate": "续集",
    "src": 342682,
    "dst": 342683
+  },
+  {
+   "relate": "前传",
+   "src": 342683,
+   "dst": 342682
+  },
+  {
+   "relate": "续集",
+   "src": 342683,
+   "dst": 342684
+  },
+  {
+   "relate": "前传",
+   "src": 342684,
+   "dst": 342683
+  },
+  {
+   "relate": "续集",
+   "src": 342684,
+   "dst": 342685
+  },
+  {
+   "relate": "前传",
+   "src": 342685,
+   "dst": 342684
   }
  ]
 }

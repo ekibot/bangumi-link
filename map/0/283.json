@@ -5,50 +5,80 @@
    "id": 283,
    "name": "みなみけ",
    "nameCN": "南家三姐妹",
-   "image": "//lain.bgm.tv/pic/cover/m/0f/49/283_qtWfz.jpg",
-   "date": "2007-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/49/283_qtWfz.jpg",
+   "date": "2007-10-07",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 889,
    "name": "みなみけ おかえり",
    "nameCN": "南家三姐妹 欢迎回来",
-   "image": "//lain.bgm.tv/pic/cover/m/07/87/889_qF2Qq.jpg",
-   "date": "2009-01-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/87/889_qF2Qq.jpg",
+   "date": "2009-01-04",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 890,
    "name": "みなみけ おかわり",
    "nameCN": "南家三姐妹 再来一碗",
-   "image": "//lain.bgm.tv/pic/cover/m/02/4d/890_etET8.jpg",
-   "date": "2008-01-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/02/4d/890_etET8.jpg",
+   "date": "2008-01-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 3016,
    "name": "みなみけ べつばら",
    "nameCN": "南家三姐妹 饭后甜点",
-   "image": "//lain.bgm.tv/pic/cover/m/53/a1/3016_eE2Ld.jpg",
-   "date": "2009-06-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/53/a1/3016_eE2Ld.jpg",
+   "date": "2009-06-23",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 47684,
    "name": "みなみけ おまたせ",
    "nameCN": "南家三姐妹 久候多时",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/5b/47684_Vt0ve.jpg",
-   "date": "2012-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/ca/5b/47684_Vt0ve.jpg",
+   "date": "2012-10-05",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 47685,
    "name": "みなみけ ただいま",
    "nameCN": "南家三姐妹 我回来了",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/1b/47685_QC42y.jpg",
-   "date": "2013-01-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/6e/1b/47685_QC42y.jpg",
+   "date": "2013-01-05",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 80205,
    "name": "みなみけ 夏やすみ",
    "nameCN": "南家三姐妹 夏日假期",
-   "image": "//lain.bgm.tv/pic/cover/m/e6/29/80205_mnDnm.jpg",
-   "date": "2013-08-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/29/80205_mnDnm.jpg",
+   "date": "2013-08-06",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 80564,
+   "name": "みなみけ (11)",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/3e/ab/80564_jp.jpg",
+   "date": "2013-08-06",
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -103,9 +133,19 @@
    "dst": 47684
   },
   {
+   "relate": "番外篇",
+   "src": 47685,
+   "dst": 80205
+  },
+  {
    "relate": "主线故事",
    "src": 80205,
    "dst": 47685
+  },
+  {
+   "relate": "不同演绎",
+   "src": 80564,
+   "dst": 80205
   }
  ]
 }

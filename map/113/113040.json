@@ -5,40 +5,57 @@
    "id": 309,
    "name": "true tears",
    "nameCN": "真实之泪",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/de/309_Laarr.jpg",
-   "date": "2008-01-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/de/309_Laarr.jpg",
+   "date": "2008-01-05",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 22759,
    "name": "花咲くいろは",
    "nameCN": "花开伊吕波",
-   "image": "//lain.bgm.tv/pic/cover/m/56/2d/22759_A5N6H.jpg",
-   "date": "2011-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/56/2d/22759_A5N6H.jpg",
+   "date": "2011-04-03",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 37137,
    "name": "TARI TARI",
-   "image": "//lain.bgm.tv/pic/cover/m/de/a5/37137_2F57F.jpg",
-   "date": "2012-07-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/de/a5/37137_2F57F.jpg",
+   "date": "2012-07-01",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 49892,
    "name": "劇場版 花咲くいろは HOME SWEET HOME",
    "nameCN": "剧场版 花开伊吕波 HOME SWEET HOME",
-   "image": "//lain.bgm.tv/pic/cover/m/c5/55/49892_0wfrB.jpg",
-   "date": "2013-03-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/c5/55/49892_0wfrB.jpg",
+   "date": "2013-03-09",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 113040,
    "name": "TARI TARI 曇ったり 輝いたり またいつか歌ったり",
    "nameCN": "TARI TARI OVA",
-   "image": "//lain.bgm.tv/pic/cover/m/34/20/113040_itnnI.jpg",
-   "date": "2014-12-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/34/20/113040_itnnI.jpg",
+   "date": "2014-12-17",
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 253685,
    "name": "TARI TARI 〜芽吹いたり 照らしたり やっぱり時々歌ったり〜",
-   "image": "//lain.bgm.tv/pic/cover/m/8a/e3/253685_bCP5C.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/8a/e3/253685_bCP5C.jpg",
+   "nameCN": "",
+   "type": 1
   }
  ],
  "relate": [
@@ -46,6 +63,16 @@
    "relate": "相同世界观",
    "src": 309,
    "dst": 22759
+  },
+  {
+   "relate": "相同世界观",
+   "src": 309,
+   "dst": 37137
+  },
+  {
+   "relate": "相同世界观",
+   "src": 22759,
+   "dst": 309
   },
   {
    "relate": "相同世界观",
@@ -61,6 +88,11 @@
    "relate": "相同世界观",
    "src": 37137,
    "dst": 309
+  },
+  {
+   "relate": "相同世界观",
+   "src": 37137,
+   "dst": 22759
   },
   {
    "relate": "番外篇",

@@ -5,22 +5,31 @@
    "id": 366052,
    "name": "天下HD",
    "nameCN": "天下HD",
-   "image": "//lain.bgm.tv/pic/cover/m/11/45/366052_55161.jpg",
-   "date": "2014-12-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/11/45/366052_55161.jpg",
+   "date": "2014-12-23",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
   },
   {
    "id": 366095,
    "name": "天下",
    "nameCN": "天下手游",
-   "image": "//lain.bgm.tv/pic/cover/m/18/5c/366095_Nz0nr.jpg",
-   "date": "2016-09-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/18/5c/366095_Nz0nr.jpg",
+   "date": "2016-09-29",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   },
   {
    "id": 366097,
    "name": "天下3",
    "nameCN": "天下3",
-   "image": "//lain.bgm.tv/pic/cover/m/bf/68/366097_z5Hdd.jpg",
-   "date": "2017-06-16"
+   "image": "https://lain.bgm.tv/pic/cover/m/bf/68/366097_z5Hdd.jpg",
+   "date": "2017-06-16",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -31,13 +40,28 @@
   },
   {
    "relate": "不同演绎",
+   "src": 366052,
+   "dst": 366097
+  },
+  {
+   "relate": "不同演绎",
    "src": 366095,
    "dst": 366052
   },
   {
    "relate": "不同演绎",
+   "src": 366095,
+   "dst": 366097
+  },
+  {
+   "relate": "不同演绎",
    "src": 366097,
    "dst": 366052
+  },
+  {
+   "relate": "不同演绎",
+   "src": 366097,
+   "dst": 366095
   }
  ]
 }

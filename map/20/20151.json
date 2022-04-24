@@ -4,14 +4,31 @@
   {
    "id": 20151,
    "name": "催眠学園",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/e4/20151_cDrDE.jpg",
-   "date": "2003-06-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/e4/20151_cDrDE.jpg",
+   "date": "2003-06-06",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 20159,
    "name": "ガジェット",
-   "image": "//lain.bgm.tv/pic/cover/m/9f/42/20159_sTVS9.jpg",
-   "date": "2005-03-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/9f/42/20159_sTVS9.jpg",
+   "date": "2005-03-11",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 20163,
+   "name": "ガジェット ファンディスク",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/ee/96/20163_7dMm8.jpg",
+   "date": "2005-08-26",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -24,6 +41,11 @@
    "relate": "相同世界观",
    "src": 20159,
    "dst": 20151
+  },
+  {
+   "relate": "主线故事",
+   "src": 20163,
+   "dst": 20159
   }
  ]
 }

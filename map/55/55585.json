@@ -5,29 +5,41 @@
    "id": 3510,
    "name": "ONE PIECE",
    "nameCN": "海贼王",
-   "image": "//lain.bgm.tv/pic/cover/m/15/e1/3510_pWiY9.jpg",
-   "date": "1997-12-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/15/e1/3510_pWiY9.jpg",
+   "date": "1997-12-24",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 55585,
    "name": "ONE PIECE 巻零",
    "nameCN": "海贼王 第0卷",
-   "image": "//lain.bgm.tv/pic/cover/m/f5/15/55585_dK8Qw.jpg",
-   "date": "2009-11-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/f5/15/55585_dK8Qw.jpg",
+   "date": "2009-11-30",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 55586,
    "name": "ONE PIECE 巻千",
    "nameCN": "海贼王 第千卷",
-   "image": "//lain.bgm.tv/pic/cover/m/56/94/55586_q27RY.jpg",
-   "date": "2012-12-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/56/94/55586_q27RY.jpg",
+   "date": "2012-12-15",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 119526,
    "name": "ワンピースパーティー",
    "nameCN": "海贼盛宴",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/7b/119526_bMb8q.jpg",
-   "date": "2014-12-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/ca/7b/119526_bMb8q.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 273147,
@@ -46,15 +58,21 @@
    "id": 353224,
    "name": "チョッパーマン",
    "nameCN": "乔巴超人",
-   "image": "//lain.bgm.tv/pic/cover/m/d9/4f/353224_3P00W.jpg",
-   "date": "2012-05-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/d9/4f/353224_3P00W.jpg",
+   "date": "2012-05-02",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 353230,
    "name": "チョッパーマン : ゆけゆけ!みんなのチョッパー先生",
    "nameCN": "乔巴超人 冲啊！大家的乔巴老师",
-   "image": "//lain.bgm.tv/pic/cover/m/12/61/353230_Z9O0P.jpg",
-   "date": "2012-02-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/12/61/353230_Z9O0P.jpg",
+   "date": "2012-02-03",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 353234,
@@ -67,17 +85,29 @@
    "id": 353235,
    "name": "ONE PIECE学園",
    "nameCN": "航海王学园",
-   "image": "//lain.bgm.tv/pic/cover/m/ed/43/353235_seQfP.jpg",
-   "date": "2020-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/43/353235_seQfP.jpg",
+   "date": "2020-04-03",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 353240,
    "name": "CHIN PIECE",
-   "image": "//lain.bgm.tv/pic/cover/m/16/12/353240_7bK0o.jpg",
-   "date": "2019-07-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/16/12/353240_7bK0o.jpg",
+   "date": "2019-07-04",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
+  {
+   "relate": "番外篇",
+   "src": 3510,
+   "dst": 55585
+  },
   {
    "relate": "番外篇",
    "src": 3510,
@@ -86,7 +116,27 @@
   {
    "relate": "不同世界观",
    "src": 3510,
+   "dst": 119526
+  },
+  {
+   "relate": "不同世界观",
+   "src": 3510,
+   "dst": 353224
+  },
+  {
+   "relate": "不同世界观",
+   "src": 3510,
    "dst": 353230
+  },
+  {
+   "relate": "不同世界观",
+   "src": 3510,
+   "dst": 353235
+  },
+  {
+   "relate": "不同世界观",
+   "src": 3510,
+   "dst": 353240
   },
   {
    "relate": "主线故事",

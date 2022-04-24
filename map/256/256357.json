@@ -5,22 +5,39 @@
    "id": 211067,
    "name": "恋愛なんてゆるしません!",
    "nameCN": "我可不允许你谈恋爱!",
-   "image": "//lain.bgm.tv/pic/cover/m/58/33/211067_OV4Ue.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/58/33/211067_OV4Ue.jpg",
+   "date": "2017-04-01",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 256357,
    "name": "熱愛なんてありえません！",
-   "image": "//lain.bgm.tv/pic/cover/m/cd/9c/256357_8hoOP.jpg",
-   "date": "2018-08-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/cd/9c/256357_8hoOP.jpg",
+   "date": "2018-08-01",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 293634,
    "name": "溺愛なんてみとめません！",
-   "image": "//lain.bgm.tv/pic/cover/m/88/fa/293634_FqHG4.jpg",
-   "date": "2019-12-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/88/fa/293634_FqHG4.jpg",
+   "date": "2019-12-02",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 211067,
+   "dst": 256357
+  },
   {
    "relate": "前传",
    "src": 256357,
@@ -35,6 +52,11 @@
    "relate": "前传",
    "src": 293634,
    "dst": 211067
+  },
+  {
+   "relate": "前传",
+   "src": 293634,
+   "dst": 256357
   }
  ]
 }

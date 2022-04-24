@@ -4,20 +4,32 @@
   {
    "id": 171455,
    "name": "野望の幻想郷",
-   "image": "//lain.bgm.tv/pic/cover/m/e6/98/171455_RbWYZ.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/e6/98/171455_RbWYZ.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 171459,
    "name": "野望の幻想郷リアルタイム",
-   "image": "//lain.bgm.tv/pic/cover/m/05/e4/171459_7xhIx.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/05/e4/171459_7xhIx.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 171460,
    "name": "東方ちぇんごくし＆野望の幻想郷サウンドトラック",
-   "image": "//lain.bgm.tv/pic/cover/m/53/b7/171460_2q91Q.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/53/b7/171460_2q91Q.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -37,9 +49,19 @@
    "dst": 171455
   },
   {
+   "relate": "续集",
+   "src": 171459,
+   "dst": 171460
+  },
+  {
    "relate": "前传",
    "src": 171460,
    "dst": 171455
+  },
+  {
+   "relate": "前传",
+   "src": 171460,
+   "dst": 171459
   }
  ]
 }

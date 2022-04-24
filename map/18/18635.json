@@ -5,35 +5,61 @@
    "id": 18635,
    "name": "ギルティクラウン",
    "nameCN": "罪恶王冠",
-   "image": "//lain.bgm.tv/pic/cover/m/7d/4c/18635_71IIr.jpg",
-   "date": "2011-10-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/7d/4c/18635_71IIr.jpg",
+   "date": "2011-10-13",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 25122,
    "name": "ギルティクラウン ロストクリスマス",
    "nameCN": "罪恶王冠 失落的圣诞节",
-   "image": "//lain.bgm.tv/pic/cover/m/bc/2b/25122_S7i86.jpg",
-   "date": "2012-07-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/bc/2b/25122_S7i86.jpg",
+   "date": "2012-07-26",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 36968,
    "name": "ギルティクラウン プリンセス・オブ・デッドプール",
    "nameCN": "罪恶王冠 亡池的公主",
-   "image": "//lain.bgm.tv/pic/cover/m/d0/ab/36968_y6W56.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/d0/ab/36968_y6W56.jpg",
+   "type": 1
   },
   {
    "id": 45706,
    "name": "ギルティクラウン ロストクリスマス an episode of port town",
    "nameCN": "罪恶王冠 失落的圣诞节 an episode of port town",
-   "image": "//lain.bgm.tv/pic/cover/m/fc/68/45706_Gr3ew.jpg",
-   "date": "2012-07-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/fc/68/45706_Gr3ew.jpg",
+   "date": "2012-07-26",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 176981,
+   "name": "ギルティクラウン Dancing Endlaves",
+   "nameCN": "罪恶王冠 Dancing Endlaves",
+   "image": "https://lain.bgm.tv/pic/cover/m/55/5b/176981_GXvO8.jpg",
+   "type": 1
   },
   {
    "id": 217820,
    "name": "ぎる亭くら雲 ギルクラ 4コマ劇場",
    "nameCN": "罪亭冠云 罪恶王冠 四格剧场",
-   "image": "//lain.bgm.tv/pic/cover/m/ba/aa/217820_z45mP.jpg",
-   "date": "2012-01-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/ba/aa/217820_z45mP.jpg",
+   "date": "2012-01-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
+   "id": 249477,
+   "name": "ギルティクラウン アンソロジーコミック (ガンガンコミックスアンソロジー)",
+   "nameCN": "罪恶王冠 漫画选集",
+   "image": "https://lain.bgm.tv/pic/cover/m/5c/9a/249477_5vp8f.jpg",
+   "type": 1
   }
  ],
  "relate": [
@@ -48,9 +74,19 @@
    "dst": 45706
   },
   {
+   "relate": "番外篇",
+   "src": 18635,
+   "dst": 176981
+  },
+  {
    "relate": "衍生",
    "src": 18635,
    "dst": 217820
+  },
+  {
+   "relate": "番外篇",
+   "src": 18635,
+   "dst": 249477
   },
   {
    "relate": "续集",

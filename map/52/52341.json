@@ -5,21 +5,28 @@
    "id": 41574,
    "name": "アラタなるセカイ 未来編",
    "nameCN": "新世界 未来篇",
-   "image": "//lain.bgm.tv/pic/cover/m/2c/2c/41574_p99cc.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/2c/2c/41574_p99cc.jpg",
+   "type": 2
   },
   {
    "id": 52340,
    "name": "アラタなるセカイ 過去編",
    "nameCN": "新世界 过去篇",
-   "image": "//lain.bgm.tv/pic/cover/m/96/8d/52340_NfN9Z.jpg",
-   "date": "2012-10-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/96/8d/52340_NfN9Z.jpg",
+   "date": "2012-10-20",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 52341,
    "name": "アラタなるセカイ 現在編",
    "nameCN": "新世界 现在篇",
-   "image": "//lain.bgm.tv/pic/cover/m/49/69/52341_9a7c2.jpg",
-   "date": "2012-10-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/69/52341_9a7c2.jpg",
+   "date": "2012-10-20",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -27,6 +34,11 @@
    "relate": "续集",
    "src": 52340,
    "dst": 41574
+  },
+  {
+   "relate": "续集",
+   "src": 52340,
+   "dst": 52341
   },
   {
    "relate": "续集",

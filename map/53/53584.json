@@ -4,33 +4,73 @@
   {
    "id": 23874,
    "name": "Missing",
-   "image": "//lain.bgm.tv/pic/cover/m/7b/62/23874_6zc71.jpg",
-   "date": "2001-07-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/7b/62/23874_6zc71.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 53584,
    "name": "夜魔",
-   "image": "//lain.bgm.tv/pic/cover/m/ad/1a/53584_jp.jpg",
-   "date": "2005-11-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/ad/1a/53584_jp.jpg",
+   "date": "2005-11-10",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 53585,
    "name": "夜魔 -奇-",
-   "image": "//lain.bgm.tv/pic/cover/m/63/a7/53585_jp.jpg",
-   "date": "2010-01-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/63/a7/53585_jp.jpg",
+   "date": "2010-01-10",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
   },
   {
    "id": 53586,
    "name": "夜魔 -怪-",
-   "image": "//lain.bgm.tv/pic/cover/m/64/8c/301661_Zxlbl.jpg",
-   "date": "2010-01-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/64/8c/301661_Zxlbl.jpg",
+   "date": "2010-01-25",
+   "nameCN": "",
+   "type": 1,
+   "nsfw": false,
+   "platform": "小说"
+  },
+  {
+   "id": 301660,
+   "name": "夜魔 -奇-",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/5a/9b/301660_sh3Nd.jpg",
+   "type": 1
+  },
+  {
+   "id": 301661,
+   "name": "夜魔 -怪-",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/64/8c/301661_Zxlbl.jpg",
+   "type": 1
   }
  ],
  "relate": [
   {
    "relate": "番外篇",
    "src": 23874,
+   "dst": 53584
+  },
+  {
+   "relate": "番外篇",
+   "src": 23874,
    "dst": 53585
+  },
+  {
+   "relate": "番外篇",
+   "src": 23874,
+   "dst": 53586
   },
   {
    "relate": "主线故事",
@@ -43,24 +83,19 @@
    "dst": 53585
   },
   {
-   "relate": "主线故事",
-   "src": 53585,
-   "dst": 23874
-  },
-  {
    "relate": "相同世界观",
+   "src": 53584,
+   "dst": 53586
+  },
+  {
+   "relate": "续集",
    "src": 53585,
-   "dst": 53584
+   "dst": 301661
   },
   {
-   "relate": "主线故事",
+   "relate": "前传",
    "src": 53586,
-   "dst": 23874
-  },
-  {
-   "relate": "相同世界观",
-   "src": 53586,
-   "dst": 53584
+   "dst": 301660
   }
  ]
 }

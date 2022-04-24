@@ -2,36 +2,130 @@
  "id": 109438,
  "node": [
   {
+   "id": 86529,
+   "name": "Shadow Warrior",
+   "nameCN": "影子武士 重制版",
+   "image": "https://lain.bgm.tv/pic/cover/m/75/35/86529_90pSe.jpg",
+   "date": "2013-09-26",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
    "id": 109438,
    "name": "Viscera Cleanup Detail: Santa's Rampage",
    "nameCN": "内脏清洁工：圣诞之怒",
-   "image": "//lain.bgm.tv/pic/cover/m/b5/e5/109438_13Vrk.jpg",
-   "date": "2013-12-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/b5/e5/109438_13Vrk.jpg",
+   "date": "2013-12-13",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 195452,
+   "name": "Shadow Warrior 2",
+   "nameCN": "影子武士2",
+   "image": "https://lain.bgm.tv/pic/cover/m/87/58/195452_q60Z1.jpg",
+   "date": "2016-10-13",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 294967,
    "name": "Viscera Cleanup Detail",
    "nameCN": "内脏清洁工",
-   "image": "//lain.bgm.tv/pic/cover/m/86/ae/294967_2k723.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/86/ae/294967_2k723.jpg",
+   "type": 4
   },
   {
    "id": 294968,
    "name": "Viscera Cleanup Detail - House of Horror",
    "nameCN": "内脏清洁工 - 恐怖屋",
-   "image": "//lain.bgm.tv/pic/cover/m/13/33/294968_A0t8D.jpg",
-   "date": "2015-10-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/13/33/294968_A0t8D.jpg",
+   "date": "2015-10-30",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 294969,
+   "name": "Viscera Cleanup Detail: Shadow Warrior",
+   "nameCN": "内脏清洁工：影武士",
+   "image": "https://lain.bgm.tv/pic/cover/m/c2/a7/294969_cuScP.jpg",
+   "date": "2013-10-11",
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 309946,
+   "name": "Shadow Warrior 3",
+   "nameCN": "影子武士3",
+   "image": "https://lain.bgm.tv/pic/cover/m/94/79/309946_323sR.jpg",
+   "date": "2022-03-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
+  },
+  {
+   "id": 320013,
+   "name": "Shadow Warrior",
+   "nameCN": "影子武士",
+   "image": "https://lain.bgm.tv/pic/cover/m/84/d3/320013_FCjkm.jpg",
+   "date": "1997-09-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 86529,
+   "dst": 195452
+  },
+  {
+   "relate": "不同演绎",
+   "src": 86529,
+   "dst": 320013
+  },
   {
    "relate": "主线故事",
    "src": 109438,
    "dst": 294967
   },
   {
+   "relate": "前传",
+   "src": 195452,
+   "dst": 86529
+  },
+  {
+   "relate": "续集",
+   "src": 195452,
+   "dst": 309946
+  },
+  {
    "relate": "主线故事",
    "src": 294968,
    "dst": 294967
+  },
+  {
+   "relate": "主线故事",
+   "src": 294969,
+   "dst": 86529
+  },
+  {
+   "relate": "主线故事",
+   "src": 294969,
+   "dst": 294967
+  },
+  {
+   "relate": "前传",
+   "src": 309946,
+   "dst": 195452
+  },
+  {
+   "relate": "不同演绎",
+   "src": 320013,
+   "dst": 86529
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 8041,
    "name": "おしおき学園 激受編",
    "nameCN": "惩罚学园",
-   "image": "//lain.bgm.tv/pic/cover/m/1a/07/8041_jp.jpg",
-   "date": "2009-02-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/1a/07/8041_jp.jpg",
+   "date": "2009-02-28",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 8042,
    "name": "おしおき学園",
    "nameCN": "错乱学园",
-   "image": "//lain.bgm.tv/pic/cover/m/6e/bb/8042_jp.jpg",
-   "date": "2006-01-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/6e/bb/8042_jp.jpg",
+   "date": "2006-01-31",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 81132,
    "name": "おしおき学園 男婚編",
    "nameCN": "懲罰學園 男婚篇",
-   "image": "//lain.bgm.tv/pic/cover/m/ad/7d/81132_jp.jpg",
-   "date": "2012-06-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/ad/7d/81132_jp.jpg",
+   "date": "2012-06-30",
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -40,9 +49,19 @@
    "dst": 8041
   },
   {
+   "relate": "续集",
+   "src": 8042,
+   "dst": 81132
+  },
+  {
    "relate": "前传",
    "src": 81132,
    "dst": 8041
+  },
+  {
+   "relate": "前传",
+   "src": 81132,
+   "dst": 8042
   }
  ]
 }

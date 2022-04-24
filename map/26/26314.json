@@ -5,31 +5,49 @@
    "id": 26314,
    "name": "ソニック X",
    "nameCN": "索尼克 X",
-   "image": "//lain.bgm.tv/pic/cover/m/2b/21/26314_64wdT.jpg",
-   "date": "2003-04-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/2b/21/26314_64wdT.jpg",
+   "date": "2003-04-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 36122,
    "name": "Sonic the Hedgehog: The Animated Series",
    "nameCN": "刺猬索尼克",
-   "image": "//lain.bgm.tv/pic/cover/m/60/7a/36122_42eis.jpg",
-   "date": "1993-09-18"
+   "image": "https://lain.bgm.tv/pic/cover/m/60/7a/36122_42eis.jpg",
+   "date": "1993-09-18",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 144637,
    "name": "Sonic Boom",
-   "image": "//lain.bgm.tv/pic/cover/m/03/13/144637_2k1Yo.jpg",
-   "date": "2014-11-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/03/13/144637_2k1Yo.jpg",
+   "date": "2014-11-08",
+   "nameCN": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 195912,
    "name": "ソニック・ザ・ヘッジホッグ",
    "nameCN": "超音鼠奇兵",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/0b/195912_879eA.jpg",
-   "date": "1996-01-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/0b/195912_879eA.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   }
  ],
  "relate": [
+  {
+   "relate": "不同世界观",
+   "src": 26314,
+   "dst": 36122
+  },
   {
    "relate": "不同世界观",
    "src": 26314,
@@ -59,6 +77,11 @@
    "relate": "不同演绎",
    "src": 195912,
    "dst": 26314
+  },
+  {
+   "relate": "不同演绎",
+   "src": 195912,
+   "dst": 36122
   }
  ]
 }

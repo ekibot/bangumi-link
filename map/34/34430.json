@@ -2,35 +2,93 @@
  "id": 34430,
  "node": [
   {
+   "id": 4466,
+   "name": "吸血姫美夕",
+   "nameCN": "吸血姬美夕",
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/46/4466_3D199.jpg",
+   "date": "1997-10-06",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
+  },
+  {
+   "id": 7345,
+   "name": "吸血姫美夕 OVA",
+   "nameCN": "吸血姬美夕 OVA",
+   "image": "https://lain.bgm.tv/pic/cover/m/2e/4f/7345_ZYT37.jpg",
+   "date": "1988-07-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
+  },
+  {
    "id": 34430,
    "name": "吸血姫美夕",
    "nameCN": "吸血姬美夕",
-   "image": "//lain.bgm.tv/pic/cover/m/e4/5e/34430_pS88G.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/e4/5e/34430_pS88G.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 34432,
    "name": "吸血姫夕維 香音抄",
    "nameCN": "吸血姬夕维 香音抄",
-   "image": "//lain.bgm.tv/pic/cover/m/e3/53/34432_M1cz0.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/e3/53/34432_M1cz0.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 59003,
    "name": "新・吸血姫美夕",
    "nameCN": "新吸血姬美夕",
-   "image": "//lain.bgm.tv/pic/cover/m/32/58/59003_fCQGG.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/32/58/59003_fCQGG.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 59032,
    "name": "吸血姫夕維",
    "nameCN": "吸血姬夕维",
-   "image": "//lain.bgm.tv/pic/cover/m/ab/3d/59032_Q111S.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/ab/3d/59032_Q111S.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
+  },
+  {
+   "id": 59099,
+   "name": "吸血姫美夕 (文庫版)",
+   "nameCN": "吸血姬美夕（文库版）",
+   "image": "https://lain.bgm.tv/pic/cover/m/be/7b/59099_53DcO.jpg",
+   "type": 1
+  },
+  {
+   "id": 145741,
+   "name": "吸血姫夕維 〜千夜抄〜",
+   "nameCN": "吸血姬夕维：千夜抄",
+   "image": "https://lain.bgm.tv/pic/cover/m/ea/a3/145741_OIkL1.jpg",
+   "date": "2003-03-27",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 4466,
+   "dst": 7345
+  },
+  {
+   "relate": "不同演绎",
+   "src": 7345,
+   "dst": 4466
+  },
   {
    "relate": "相同世界观",
    "src": 34430,
@@ -40,6 +98,11 @@
    "relate": "续集",
    "src": 34430,
    "dst": 59003
+  },
+  {
+   "relate": "相同世界观",
+   "src": 34430,
+   "dst": 59032
   },
   {
    "relate": "相同世界观",
@@ -65,6 +128,21 @@
    "relate": "续集",
    "src": 59032,
    "dst": 34432
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145741,
+   "dst": 4466
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145741,
+   "dst": 34430
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145741,
+   "dst": 59099
   }
  ]
 }

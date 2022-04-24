@@ -2,23 +2,56 @@
  "id": 194113,
  "node": [
   {
+   "id": 194110,
+   "name": "刀剣恋慕　～始まりの審神者～",
+   "nameCN": "刀剑恋慕 ～最初的审神者～",
+   "image": "https://lain.bgm.tv/pic/cover/m/57/6a/194110_37EKI.jpg",
+   "date": "2015-05-03",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
+  },
+  {
    "id": 194113,
    "name": "刀剣恋慕～導かれし者～",
    "nameCN": "刀剑恋慕 ～被引导之人～",
-   "image": "//lain.bgm.tv/pic/cover/m/e1/5c/194113_lq8zz.jpg",
-   "date": "2015-08-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/5c/194113_lq8zz.jpg",
+   "date": "2015-08-15",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 200618,
    "name": "密事",
-   "image": "//lain.bgm.tv/pic/cover/m/00/a7/200618_vb533.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/00/a7/200618_vb533.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2015-10-04",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
   {
    "relate": "续集",
+   "src": 194110,
+   "dst": 200618
+  },
+  {
+   "relate": "续集",
    "src": 194113,
    "dst": 200618
+  },
+  {
+   "relate": "前传",
+   "src": 200618,
+   "dst": 194110
+  },
+  {
+   "relate": "前传",
+   "src": 200618,
+   "dst": 194113
   }
  ]
 }

@@ -4,28 +4,42 @@
   {
    "id": 134954,
    "name": "神探狄仁杰",
-   "image": "//lain.bgm.tv/pic/cover/m/28/ef/134954_ivO3M.jpg",
-   "date": "2004-08-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/ef/134954_ivO3M.jpg",
+   "date": "2004-08-05",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "华语剧",
+   "type": 6
   },
   {
    "id": 135114,
    "name": "神探狄仁杰2",
-   "image": "//lain.bgm.tv/pic/cover/m/65/58/135114_A1296.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/65/58/135114_A1296.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 138892,
    "name": "神探狄仁杰3",
    "nameCN": "神探狄仁杰3",
-   "image": "//lain.bgm.tv/pic/cover/m/37/7b/138892_sRmZW.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/37/7b/138892_sRmZW.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 315928,
    "name": "神断狄仁杰",
    "nameCN": "神断狄仁杰",
-   "image": "//lain.bgm.tv/pic/cover/m/07/4f/315928_iP060.jpg",
-   "date": "unknown"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/4f/315928_iP060.jpg",
+   "date": null,
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -33,6 +47,16 @@
    "relate": "续集",
    "src": 134954,
    "dst": 135114
+  },
+  {
+   "relate": "续集",
+   "src": 134954,
+   "dst": 138892
+  },
+  {
+   "relate": "续集",
+   "src": 134954,
+   "dst": 315928
   },
   {
    "relate": "前传",
@@ -43,6 +67,16 @@
    "relate": "续集",
    "src": 135114,
    "dst": 138892
+  },
+  {
+   "relate": "续集",
+   "src": 135114,
+   "dst": 315928
+  },
+  {
+   "relate": "前传",
+   "src": 138892,
+   "dst": 134954
   },
   {
    "relate": "前传",
@@ -58,6 +92,16 @@
    "relate": "前传",
    "src": 315928,
    "dst": 134954
+  },
+  {
+   "relate": "前传",
+   "src": 315928,
+   "dst": 135114
+  },
+  {
+   "relate": "前传",
+   "src": 315928,
+   "dst": 138892
   }
  ]
 }

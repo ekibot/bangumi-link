@@ -5,36 +5,50 @@
    "id": 87718,
    "name": "ハマトラ",
    "nameCN": "滨虎",
-   "image": "//lain.bgm.tv/pic/cover/m/a6/cb/87718_8e7pF.jpg",
-   "date": "2014-01-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/a6/cb/87718_8e7pF.jpg",
+   "date": "2014-01-07",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 92995,
    "name": "ハマトラ THE COMIC",
    "nameCN": "滨虎",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/cd/92995_PeEM7.jpg",
-   "date": "2013-11-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/cd/92995_PeEM7.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 101322,
    "name": "Re:␣ ハマトラ",
    "nameCN": "REPLY 滨虎",
-   "image": "//lain.bgm.tv/pic/cover/m/38/a0/101322_2baUb.jpg",
-   "date": "2014-07-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/38/a0/101322_2baUb.jpg",
+   "date": "2014-07-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 127716,
    "name": "FW：ハマトラ",
    "nameCN": "FW：滨虎",
-   "image": "//lain.bgm.tv/pic/cover/m/65/17/127716_AebsS.jpg",
-   "date": "2015-11-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/65/17/127716_AebsS.jpg",
+   "date": "2015-11-14",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 127817,
    "name": "ミニはま -MINIMUM HAMATORA-",
    "nameCN": "浜虎SD",
-   "image": "//lain.bgm.tv/pic/cover/m/9b/52/127817_W0E23.jpg",
-   "date": "2015-11-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/9b/52/127817_W0E23.jpg",
+   "date": "2015-11-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -76,12 +90,22 @@
   {
    "relate": "全集",
    "src": 127716,
+   "dst": 87718
+  },
+  {
+   "relate": "全集",
+   "src": 127716,
    "dst": 101322
   },
   {
    "relate": "主线故事",
    "src": 127817,
    "dst": 87718
+  },
+  {
+   "relate": "主线故事",
+   "src": 127817,
+   "dst": 101322
   }
  ]
 }

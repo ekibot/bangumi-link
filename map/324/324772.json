@@ -5,57 +5,81 @@
    "id": 768,
    "name": "トップをねらえ2!",
    "nameCN": "飞跃巅峰2！",
-   "image": "//lain.bgm.tv/pic/cover/m/3a/83/768_2E3Rm.jpg",
-   "date": "2004-11-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/3a/83/768_2E3Rm.jpg",
+   "date": "2004-11-26",
+   "nsfw": false,
+   "platform": "OVA",
+   "type": 2
   },
   {
    "id": 769,
    "name": "トップをねらえ!",
    "nameCN": "飞跃巅峰！",
-   "image": "//lain.bgm.tv/pic/cover/m/28/8c/769_oP9Vs.jpg",
-   "date": "1988-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/8c/769_oP9Vs.jpg",
+   "date": "1988-10-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 5997,
    "name": "トップをねらえ! 劇場版",
    "nameCN": "飞跃巅峰！剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/07/7f/5997_2MD08.jpg",
-   "date": "2006-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/7f/5997_2MD08.jpg",
+   "date": "2006-10-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 5998,
    "name": "トップをねらえ2! 劇場版",
    "nameCN": "飞跃巅峰2！剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/b9/8a/5998_33OE6.jpg",
-   "date": "2006-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/b9/8a/5998_33OE6.jpg",
+   "date": "2006-10-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 57105,
-   "name": "トップをねらえ!&トップをねらえ2! 合体劇場版!!",
+   "name": "トップをねらえ!&amp;トップをねらえ2! 合体劇場版!!",
    "nameCN": "飞跃巅峰！飞跃巅峰2！合体剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/b9/b5/57105_YwstI.jpg",
-   "date": "2006-10-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/b9/b5/57105_YwstI.jpg",
+   "date": "2006-10-01",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 117808,
    "name": "トップをねらえ! 科学講座",
    "nameCN": "飞跃巅峰 科学讲座",
-   "image": "//lain.bgm.tv/pic/cover/m/7c/f2/117808_CXccS.jpg",
-   "date": "1988-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/7c/f2/117808_CXccS.jpg",
+   "date": "1988-10-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 259709,
    "name": "トップをねらえ3（仮題）",
    "nameCN": "飞跃巅峰3",
    "date": null,
-   "image": "/img/no_icon_subject.png"
+   "image": "",
+   "type": 2,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 284454,
    "name": "トップをねらえ2! 科学講座",
    "nameCN": "飞跃巅峰2 科学讲座",
-   "image": "//lain.bgm.tv/pic/cover/m/85/12/284454_IG6dB.jpg",
-   "date": "2004-10-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/85/12/284454_IG6dB.jpg",
+   "date": "2004-10-03",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 324772,
@@ -74,8 +98,9 @@
    "id": 324774,
    "name": "電脳学園III トップをねらえ!",
    "nameCN": "电脑学园3",
-   "image": "/img/no_icon_subject.png",
-   "date": "1990-03-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/37/51/324774_FfnTm.jpg",
+   "date": "1990-03-24",
+   "type": 4
   },
   {
    "id": 324775,
@@ -97,6 +122,11 @@
    "dst": 5998
   },
   {
+   "relate": "总集篇",
+   "src": 768,
+   "dst": 57105
+  },
+  {
    "relate": "续集",
    "src": 768,
    "dst": 259709
@@ -110,6 +140,11 @@
    "relate": "续集",
    "src": 769,
    "dst": 768
+  },
+  {
+   "relate": "总集篇",
+   "src": 769,
+   "dst": 5997
   },
   {
    "relate": "总集篇",
@@ -160,6 +195,21 @@
    "relate": "全集",
    "src": 57105,
    "dst": 768
+  },
+  {
+   "relate": "全集",
+   "src": 57105,
+   "dst": 769
+  },
+  {
+   "relate": "全集",
+   "src": 57105,
+   "dst": 5997
+  },
+  {
+   "relate": "全集",
+   "src": 57105,
+   "dst": 5998
   },
   {
    "relate": "主线故事",

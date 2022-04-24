@@ -4,26 +4,42 @@
   {
    "id": 24124,
    "name": "仙剑奇侠传",
-   "image": "//lain.bgm.tv/pic/cover/m/ba/b5/24124_4WwrR.jpg",
-   "date": "2005-01-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/ba/b5/24124_4WwrR.jpg",
+   "date": "2005-01-24",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "华语剧",
+   "type": 6
   },
   {
    "id": 28754,
    "name": "仙剑奇侠传三",
-   "image": "//lain.bgm.tv/pic/cover/m/fe/53/28754_3o9Ma.jpg",
-   "date": "2008-06-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/fe/53/28754_3o9Ma.jpg",
+   "date": "2008-06-20",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 138215,
    "name": "仙剑奇侠传",
-   "date": "unknown",
-   "image": "/img/no_icon_subject.png"
+   "date": null,
+   "image": "",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 144850,
    "name": "仙剑云之凡",
-   "image": "//lain.bgm.tv/pic/cover/m/6c/31/144850_1WbTC.jpg",
-   "date": "2016-05-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/6c/31/144850_1WbTC.jpg",
+   "date": "2016-05-23",
+   "nameCN": "",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -39,8 +55,18 @@
   },
   {
    "relate": "相同世界观",
+   "src": 24124,
+   "dst": 144850
+  },
+  {
+   "relate": "相同世界观",
    "src": 28754,
    "dst": 24124
+  },
+  {
+   "relate": "相同世界观",
+   "src": 28754,
+   "dst": 144850
   },
   {
    "relate": "不同演绎",
@@ -51,6 +77,11 @@
    "relate": "相同世界观",
    "src": 144850,
    "dst": 24124
+  },
+  {
+   "relate": "相同世界观",
+   "src": 144850,
+   "dst": 28754
   }
  ]
 }

@@ -5,29 +5,41 @@
    "id": 181395,
    "name": "ウルトラマンオーブ",
    "nameCN": "欧布奥特曼",
-   "image": "//lain.bgm.tv/pic/cover/m/db/7b/181395_gA73w.jpg",
-   "date": "2016-07-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/db/7b/181395_gA73w.jpg",
+   "date": "2016-07-09",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 204134,
    "name": "ウルトラマンオーブ THE ORIGIN SAGA",
    "nameCN": "欧布奥特曼 起源传奇",
-   "image": "//lain.bgm.tv/pic/cover/m/89/80/204134_JkGCK.jpg",
-   "date": "2016-12-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/89/80/204134_JkGCK.jpg",
+   "date": "2016-12-26",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 220519,
    "name": "劇場版 ウルトラマンオーブ 絆の力、おかりします！",
    "nameCN": "欧布奥特曼剧场版 赐予我羁绊之力吧！",
-   "image": "//lain.bgm.tv/pic/cover/m/35/2d/220519_rFYRJ.jpg",
-   "date": "2017-03-11"
+   "image": "https://lain.bgm.tv/pic/cover/m/35/2d/220519_rFYRJ.jpg",
+   "date": "2017-03-11",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 257296,
    "name": "ウルトラファイトオーブ 親子の力、おかりします!",
    "nameCN": "奥特格斗欧布 父子之力，借用一下！",
-   "image": "//lain.bgm.tv/pic/cover/m/49/f6/257296_jJTcV.jpg",
-   "date": "2017-04-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/f6/257296_jJTcV.jpg",
+   "date": "2017-04-15",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -40,6 +52,11 @@
    "relate": "番外篇",
    "src": 181395,
    "dst": 220519
+  },
+  {
+   "relate": "番外篇",
+   "src": 181395,
+   "dst": 257296
   },
   {
    "relate": "续集",
@@ -60,6 +77,11 @@
    "relate": "主线故事",
    "src": 257296,
    "dst": 181395
+  },
+  {
+   "relate": "主线故事",
+   "src": 257296,
+   "dst": 204134
   }
  ]
 }

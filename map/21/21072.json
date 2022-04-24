@@ -5,36 +5,51 @@
    "id": 21072,
    "name": "サガ3 時空の覇者 Shadow or Light",
    "nameCN": "沙加3 时空的霸者 黑暗与光明",
-   "image": "//lain.bgm.tv/pic/cover/m/b5/e2/21072_N02kB.jpg",
-   "date": "2011-01-06"
+   "image": "https://lain.bgm.tv/pic/cover/m/b5/e2/21072_N02kB.jpg",
+   "date": "2011-01-06",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 52643,
    "name": "サガ2 秘宝伝説 GODDESS OF DESTINY",
    "nameCN": "沙加2 秘宝传说 命运女神",
-   "image": "//lain.bgm.tv/pic/cover/m/86/7a/52643_RZRPf.jpg",
-   "date": "2009-09-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/86/7a/52643_RZRPf.jpg",
+   "date": "2009-09-17",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 73081,
    "name": "時空の覇者 Sa・Ga3 [完結編]",
    "nameCN": "沙加3 时空的霸者",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/49/73081_3j3ZD.jpg",
-   "date": "1991-12-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/ca/49/73081_3j3ZD.jpg",
+   "date": "1991-12-13",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 282512,
    "name": "魔界塔士 Sa・Ga",
    "nameCN": "沙加 魔界塔士",
-   "image": "//lain.bgm.tv/pic/cover/m/de/fe/282512_0Z9Ix.jpg",
-   "date": "1989-12-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/de/fe/282512_0Z9Ix.jpg",
+   "date": "1989-12-15",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 282513,
    "name": "Sa・Ga2 秘宝伝説",
    "nameCN": "沙加2 秘宝传说",
-   "image": "//lain.bgm.tv/pic/cover/m/51/3d/282513_CB6fZ.jpg",
-   "date": "1990-12-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/51/3d/282513_CB6fZ.jpg",
+   "date": "1990-12-14",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -50,6 +65,21 @@
   },
   {
    "relate": "不同世界观",
+   "src": 21072,
+   "dst": 282512
+  },
+  {
+   "relate": "不同世界观",
+   "src": 21072,
+   "dst": 282513
+  },
+  {
+   "relate": "不同世界观",
+   "src": 52643,
+   "dst": 21072
+  },
+  {
+   "relate": "不同世界观",
    "src": 52643,
    "dst": 282512
   },
@@ -67,6 +97,16 @@
    "relate": "不同世界观",
    "src": 73081,
    "dst": 282512
+  },
+  {
+   "relate": "不同世界观",
+   "src": 73081,
+   "dst": 282513
+  },
+  {
+   "relate": "不同世界观",
+   "src": 282512,
+   "dst": 73081
   },
   {
    "relate": "不同世界观",
@@ -82,6 +122,16 @@
    "relate": "不同演绎",
    "src": 282513,
    "dst": 52643
+  },
+  {
+   "relate": "不同世界观",
+   "src": 282513,
+   "dst": 73081
+  },
+  {
+   "relate": "不同世界观",
+   "src": 282513,
+   "dst": 282512
   }
  ]
 }

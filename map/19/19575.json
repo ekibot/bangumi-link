@@ -5,35 +5,51 @@
    "id": 19575,
    "name": "剑侠情缘外传：月影传说",
    "nameCN": "剑侠情缘外传：月影传说",
-   "image": "//lain.bgm.tv/pic/cover/m/43/44/19575_b9gGk.jpg",
-   "date": "2001-07-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/43/44/19575_b9gGk.jpg",
+   "date": "2001-07-01",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 19576,
    "name": "剑侠情缘2",
    "nameCN": "剑侠情缘2",
-   "image": "//lain.bgm.tv/pic/cover/m/e5/c2/19576_tawvJ.jpg",
-   "date": "2000-06-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/e5/c2/19576_tawvJ.jpg",
+   "date": "2000-06-30",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 19577,
    "name": "新剑侠情缘",
    "nameCN": "新剑侠情缘",
-   "image": "//lain.bgm.tv/pic/cover/m/b3/23/19577_4V1N9.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/b3/23/19577_4V1N9.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 63188,
    "name": "剑侠情缘",
-   "image": "//lain.bgm.tv/pic/cover/m/12/8d/63188_1rH11.jpg",
-   "date": "1997-04-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/12/8d/63188_1rH11.jpg",
+   "date": "1997-04-03",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 122650,
    "name": "剑侠情缘之谢云流传",
    "nameCN": "剑侠情缘之谢云流传",
-   "image": "//lain.bgm.tv/pic/cover/m/07/fb/122650_ei6JN.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/07/fb/122650_ei6JN.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -68,6 +84,11 @@
    "dst": 19575
   },
   {
+   "relate": "相同世界观",
+   "src": 19577,
+   "dst": 19576
+  },
+  {
    "relate": "不同演绎",
    "src": 19577,
    "dst": 63188
@@ -83,9 +104,19 @@
    "dst": 19577
   },
   {
+   "relate": "续集",
+   "src": 63188,
+   "dst": 122650
+  },
+  {
    "relate": "前传",
    "src": 122650,
    "dst": 19576
+  },
+  {
+   "relate": "前传",
+   "src": 122650,
+   "dst": 63188
   }
  ]
 }

@@ -5,37 +5,79 @@
    "id": 1411,
    "name": "11eyes -罪と罰と贖いの少女-",
    "nameCN": "11eyes 罪与罚与赎的少女",
-   "image": "//lain.bgm.tv/pic/cover/m/54/07/1411_AtstS.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/54/07/1411_AtstS.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 6889,
    "name": "3days ～満ちてゆく刻の彼方で～",
    "nameCN": "3days ～在逝去时间的另一端～",
-   "image": "//lain.bgm.tv/pic/cover/m/0a/55/6889_zQmm1.jpg",
-   "date": "2004-06-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/55/6889_zQmm1.jpg",
+   "date": "2004-06-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 11554,
    "name": "11eyes－Resona Forma－",
    "nameCN": "11eyes -Resona Forma-",
-   "image": "//lain.bgm.tv/pic/cover/m/36/41/11554_aaSPk.jpg",
-   "date": "2011-04-15"
+   "image": "https://lain.bgm.tv/pic/cover/m/36/41/11554_aaSPk.jpg",
+   "date": "2011-04-15",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PC"
   },
   {
    "id": 82128,
    "name": "11eyes Crossover",
    "nameCN": "11eyes ～交错视线～",
-   "image": "//lain.bgm.tv/pic/cover/m/cd/57/82128_3rh3g.jpg",
-   "date": "2010-01-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/cd/57/82128_3rh3g.jpg",
+   "date": "2010-01-28",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 145237,
    "name": "Liber_7",
-   "image": "//lain.bgm.tv/pic/cover/m/13/43/145237_SzwVe.jpg",
-   "date": "2016-12-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/13/43/145237_SzwVe.jpg",
+   "date": "2016-12-22",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "前传",
+   "src": 1411,
+   "dst": 6889
+  },
+  {
+   "relate": "续集",
+   "src": 1411,
+   "dst": 11554
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1411,
+   "dst": 82128
+  },
+  {
+   "relate": "相同世界观",
+   "src": 1411,
+   "dst": 145237
+  },
+  {
+   "relate": "续集",
+   "src": 6889,
+   "dst": 1411
+  },
   {
    "relate": "续集",
    "src": 6889,
@@ -52,6 +94,11 @@
    "dst": 1411
   },
   {
+   "relate": "前传",
+   "src": 11554,
+   "dst": 6889
+  },
+  {
    "relate": "不同演绎",
    "src": 82128,
    "dst": 1411
@@ -60,6 +107,11 @@
    "relate": "相同世界观",
    "src": 145237,
    "dst": 1411
+  },
+  {
+   "relate": "相同世界观",
+   "src": 145237,
+   "dst": 6889
   }
  ]
 }

@@ -5,22 +5,31 @@
    "id": 11876,
    "name": "REIDEEN",
    "nameCN": "新勇者莱丁",
-   "image": "//lain.bgm.tv/pic/cover/m/a8/e5/11876_TqQPZ.jpg",
-   "date": "2007-03-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/a8/e5/11876_TqQPZ.jpg",
+   "date": "2007-03-03",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 30170,
    "name": "勇者ライディーン",
    "nameCN": "勇者雷汀",
-   "image": "//lain.bgm.tv/pic/cover/m/37/65/30170_8Pw2R.jpg",
-   "date": "1975-04-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/37/65/30170_8Pw2R.jpg",
+   "date": "1975-04-04",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 37194,
    "name": "超者ライディーン",
    "nameCN": "超者雷汀",
-   "image": "//lain.bgm.tv/pic/cover/m/8f/09/37194_D2IHw.jpg",
-   "date": "1996-10-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/8f/09/37194_D2IHw.jpg",
+   "date": "1996-10-02",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -31,6 +40,16 @@
   },
   {
    "relate": "不同世界观",
+   "src": 11876,
+   "dst": 37194
+  },
+  {
+   "relate": "不同世界观",
+   "src": 30170,
+   "dst": 11876
+  },
+  {
+   "relate": "不同世界观",
    "src": 30170,
    "dst": 37194
   },
@@ -38,6 +57,11 @@
    "relate": "不同世界观",
    "src": 37194,
    "dst": 11876
+  },
+  {
+   "relate": "不同世界观",
+   "src": 37194,
+   "dst": 30170
   }
  ]
 }

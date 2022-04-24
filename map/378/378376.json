@@ -5,21 +5,41 @@
    "id": 378375,
    "name": "레드스톰",
    "nameCN": "红色风暴",
-   "image": "//lain.bgm.tv/pic/cover/m/e2/9d/378375_6FaDO.jpg",
-   "date": "2012-01-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/e2/9d/378375_6FaDO.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 378376,
    "name": "아비무쌍",
    "nameCN": "父无双",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/5d/378376_5tHIm.jpg",
-   "date": "2017-10-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/5d/378376_5tHIm.jpg",
+   "date": null,
+   "type": 1,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 378378,
    "name": "관존 이강진",
    "nameCN": "官尊",
-   "image": "//lain.bgm.tv/pic/cover/m/8d/fb/378378_sma53.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/8d/fb/378378_sma53.jpg",
+   "type": 1,
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
+  },
+  {
+   "id": 378379,
+   "name": "대사형 선유",
+   "nameCN": "大师兄",
+   "image": "https://lain.bgm.tv/pic/cover/m/0f/59/378379_SpNo8.jpg",
+   "type": 1,
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -37,6 +57,21 @@
    "relate": "番外篇",
    "src": 378376,
    "dst": 378378
+  },
+  {
+   "relate": "番外篇",
+   "src": 378376,
+   "dst": 378379
+  },
+  {
+   "relate": "主线故事",
+   "src": 378378,
+   "dst": 378376
+  },
+  {
+   "relate": "主线故事",
+   "src": 378379,
+   "dst": 378376
   }
  ]
 }

@@ -5,42 +5,61 @@
    "id": 230568,
    "name": "明星大侦探 第一季",
    "nameCN": "明星大侦探 第一季",
-   "image": "//lain.bgm.tv/pic/cover/m/16/9a/230568_fuE9N.jpg",
-   "date": "2016-03-27"
+   "image": "https://lain.bgm.tv/pic/cover/m/16/9a/230568_fuE9N.jpg",
+   "date": "2016-03-27",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   },
   {
    "id": 230572,
    "name": "明星大侦探 第三季",
    "nameCN": "明星大侦探 第三季",
-   "image": "//lain.bgm.tv/pic/cover/m/10/b7/230572_VEz7X.jpg",
-   "date": "2017-09-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/10/b7/230572_VEz7X.jpg",
+   "date": "2017-09-22",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   },
   {
    "id": 230573,
    "name": "明星大侦探 第二季",
    "nameCN": "明星大侦探 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/02/230573_4qKkQ.jpg",
-   "date": "2017-01-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/02/230573_4qKkQ.jpg",
+   "date": "2017-01-13",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 284532,
    "name": "明星大侦探 第四季",
    "nameCN": "明星大侦探 第四季",
-   "image": "//lain.bgm.tv/pic/cover/m/d0/d1/284532_G2ow5.jpg",
-   "date": "2018-10-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/d0/d1/284532_G2ow5.jpg",
+   "date": "2018-10-26",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
   },
   {
    "id": 328031,
    "name": "明星大侦探 第五季",
    "nameCN": "明星大侦探 第五季",
-   "image": "//lain.bgm.tv/pic/cover/m/68/c1/328031_jkj88.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/68/c1/328031_jkj88.jpg",
+   "type": 6,
+   "date": "2019-11-08",
+   "nsfw": false,
+   "platform": "华语剧"
   },
   {
    "id": 378503,
    "name": "明星大侦探 第六季",
    "nameCN": "明星大侦探 第六季",
-   "image": "//lain.bgm.tv/pic/cover/m/d6/e4/378503_wwW4N.jpg",
-   "date": "2020-12-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/d6/e4/378503_wwW4N.jpg",
+   "date": "2020-12-24",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   }
  ],
  "relate": [
@@ -53,6 +72,11 @@
    "relate": "前传",
    "src": 230572,
    "dst": 230573
+  },
+  {
+   "relate": "续集",
+   "src": 230572,
+   "dst": 284532
   },
   {
    "relate": "前传",
@@ -73,6 +97,16 @@
    "relate": "续集",
    "src": 284532,
    "dst": 328031
+  },
+  {
+   "relate": "前传",
+   "src": 328031,
+   "dst": 284532
+  },
+  {
+   "relate": "续集",
+   "src": 328031,
+   "dst": 378503
   },
   {
    "relate": "前传",

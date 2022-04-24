@@ -5,20 +5,42 @@
    "id": 1536,
    "name": "大神",
    "nameCN": "大神",
-   "image": "//lain.bgm.tv/pic/cover/m/b5/a1/1536_9T45c.jpg",
-   "date": "2006-04-20"
+   "image": "https://lain.bgm.tv/pic/cover/m/b5/a1/1536_9T45c.jpg",
+   "date": "2006-04-20",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 7332,
    "name": "大神伝～小さき太陽～",
    "nameCN": "大神传：小小太阳",
-   "image": "//lain.bgm.tv/pic/cover/m/3d/12/7332_SUUH6.jpg",
-   "date": "2010-09-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/12/7332_SUUH6.jpg",
+   "date": "2010-09-30",
+   "type": 4,
+   "nsfw": false,
+   "platform": "NDS"
+  },
+  {
+   "id": 18193,
+   "name": "大神絵物語〈其ノ2〉北の戦士と妖怪退治",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/fa/c2/18193_jp.jpg",
+   "type": 1
   },
   {
    "id": 18195,
    "name": "大神 絵物語―まいごさがしとお祭さわぎ",
-   "image": "//lain.bgm.tv/pic/cover/m/98/40/18195_jp.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/98/40/18195_jp.jpg",
+   "nameCN": "",
+   "type": 1
+  },
+  {
+   "id": 73559,
+   "name": "大神絵物語〈其ノ3〉クサナギ伍とドタバタ活劇",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/8a/39/73559_jp.jpg",
+   "type": 1
   }
  ],
  "relate": [
@@ -30,7 +52,17 @@
   {
    "relate": "番外篇",
    "src": 1536,
+   "dst": 18193
+  },
+  {
+   "relate": "番外篇",
+   "src": 1536,
    "dst": 18195
+  },
+  {
+   "relate": "番外篇",
+   "src": 1536,
+   "dst": 73559
   },
   {
    "relate": "前传",

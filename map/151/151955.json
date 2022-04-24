@@ -5,29 +5,41 @@
    "id": 151955,
    "name": "OPUS：地球計畫",
    "nameCN": "OPUS：地球计划",
-   "image": "//lain.bgm.tv/pic/cover/m/f0/96/151955_3e3GL.jpg",
-   "date": "2015-10-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/f0/96/151955_3e3GL.jpg",
+   "date": "2015-10-22",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 224624,
    "name": "OPUS：靈魂之橋",
    "nameCN": "OPUS：灵魂之桥",
-   "image": "//lain.bgm.tv/pic/cover/m/28/35/224624_D1dY1.jpg",
-   "date": "2017-09-14"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/35/224624_D1dY1.jpg",
+   "date": "2017-09-14",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 318704,
    "name": "OPUS：龍脈常歌",
    "nameCN": "OPUS：龙脉常歌",
-   "image": "//lain.bgm.tv/pic/cover/m/76/ac/318704_rlbIM.jpg",
-   "date": "2021-09-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/76/ac/318704_rlbIM.jpg",
+   "date": "2021-09-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 335630,
    "name": "靈魂之橋前傳：追憶",
    "nameCN": "灵魂之桥前传：追忆",
-   "image": "//lain.bgm.tv/pic/cover/m/4f/17/335630_pG4lw.jpg",
-   "date": "2018-09-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/4f/17/335630_pG4lw.jpg",
+   "date": "2018-09-12",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -37,9 +49,19 @@
    "dst": 224624
   },
   {
+   "relate": "相同世界观",
+   "src": 151955,
+   "dst": 318704
+  },
+  {
    "relate": "前传",
    "src": 224624,
    "dst": 151955
+  },
+  {
+   "relate": "相同世界观",
+   "src": 224624,
+   "dst": 318704
   },
   {
    "relate": "前传",
@@ -50,6 +72,11 @@
    "relate": "相同世界观",
    "src": 318704,
    "dst": 151955
+  },
+  {
+   "relate": "相同世界观",
+   "src": 318704,
+   "dst": 224624
   },
   {
    "relate": "续集",

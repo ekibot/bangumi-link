@@ -5,32 +5,49 @@
    "id": 2153,
    "name": "花ざかりの君たちへ～イケメン♂パラダイス～",
    "nameCN": "花样少年少女",
-   "image": "//lain.bgm.tv/pic/cover/m/cb/8d/2153_7Z5Ns.jpg",
-   "date": "2007-07-03"
+   "image": "https://lain.bgm.tv/pic/cover/m/cb/8d/2153_7Z5Ns.jpg",
+   "date": "2007-07-03",
+   "nsfw": false,
+   "platform": "日剧",
+   "type": 6
   },
   {
    "id": 19868,
    "name": "花ざかりの君たちへ 〜イケメン☆パラダイス〜2011",
    "nameCN": "花样少年少女2011",
-   "image": "//lain.bgm.tv/pic/cover/m/49/91/19868_Gb3zm.jpg",
-   "date": "2011-07-10"
+   "image": "https://lain.bgm.tv/pic/cover/m/49/91/19868_Gb3zm.jpg",
+   "date": "2011-07-10",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 106487,
-   "name": "花ざかりの君たちへ〜イケメン♂パラダイス〜 卒業式&7と1/2話スペシャル",
+   "name": "花ざかりの君たちへ〜イケメン♂パラダイス〜 卒業式&amp;7と1/2話スペシャル",
    "nameCN": "花样少男少女SP",
-   "image": "//lain.bgm.tv/pic/cover/m/64/04/106487_6xczJ.jpg",
-   "date": "2008-10-12"
+   "image": "https://lain.bgm.tv/pic/cover/m/64/04/106487_6xczJ.jpg",
+   "date": "2008-10-12",
+   "type": 6,
+   "nsfw": false,
+   "platform": "日剧"
   },
   {
    "id": 120272,
    "name": "花樣少年少女",
    "nameCN": "花样少年少女",
-   "image": "//lain.bgm.tv/pic/cover/m/ef/91/120272_enjwO.jpg",
-   "date": "2006-11-19"
+   "image": "https://lain.bgm.tv/pic/cover/m/ef/91/120272_enjwO.jpg",
+   "date": "2006-11-19",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 2153,
+   "dst": 19868
+  },
   {
    "relate": "续集",
    "src": 2153,
@@ -40,6 +57,11 @@
    "relate": "不同演绎",
    "src": 2153,
    "dst": 120272
+  },
+  {
+   "relate": "不同演绎",
+   "src": 19868,
+   "dst": 2153
   },
   {
    "relate": "不同演绎",
@@ -55,6 +77,11 @@
    "relate": "不同演绎",
    "src": 120272,
    "dst": 2153
+  },
+  {
+   "relate": "不同演绎",
+   "src": 120272,
+   "dst": 19868
   }
  ]
 }

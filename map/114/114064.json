@@ -5,29 +5,60 @@
    "id": 3177,
    "name": "タユタマ-Kiss on my Deity-",
    "nameCN": "游魂-Kiss on my Deity-",
-   "image": "//lain.bgm.tv/pic/cover/m/d3/63/3177_dwPD8.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/d3/63/3177_dwPD8.jpg",
+   "date": "2008-07-11",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
+  },
+  {
+   "id": 59762,
+   "name": "タユタマ -Kiss on my Deity-",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/28/9f/59762_jp.jpg",
+   "type": 1
   },
   {
    "id": 114064,
    "name": "タユタマ -It’s happy days-",
    "nameCN": "游魂 -It’s happy days-",
-   "image": "//lain.bgm.tv/pic/cover/m/ce/c6/114064_ltTtt.jpg",
-   "date": "2009-05-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/ce/c6/114064_ltTtt.jpg",
+   "date": "2009-05-29",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 131917,
    "name": "タユタマ2 -you're the only one-",
    "nameCN": "游魂2 -you're the only one-",
-   "image": "//lain.bgm.tv/pic/cover/m/07/f0/131917_nOl02.jpg",
-   "date": "2016-09-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/07/f0/131917_nOl02.jpg",
+   "date": "2016-09-23",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 198439,
    "name": "タユタマ2 -After Stories-",
-   "image": "//lain.bgm.tv/pic/cover/m/b0/3d/198439_dI2DJ.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/b0/3d/198439_dI2DJ.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2017-04-28",
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
+  {
+   "relate": "续集",
+   "src": 3177,
+   "dst": 59762
+  },
+  {
+   "relate": "相同世界观",
+   "src": 3177,
+   "dst": 131917
+  },
   {
    "relate": "主线故事",
    "src": 114064,
@@ -42,6 +73,11 @@
    "relate": "续集",
    "src": 131917,
    "dst": 198439
+  },
+  {
+   "relate": "前传",
+   "src": 198439,
+   "dst": 131917
   }
  ]
 }

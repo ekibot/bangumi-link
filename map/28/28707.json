@@ -5,21 +5,38 @@
    "id": 28707,
    "name": "白蛇伝",
    "nameCN": "白蛇传",
-   "image": "//lain.bgm.tv/pic/cover/m/a4/01/28707_44IYD.jpg",
-   "date": "1958-10-22"
+   "image": "https://lain.bgm.tv/pic/cover/m/a4/01/28707_44IYD.jpg",
+   "date": "1958-10-22",
+   "nsfw": false,
+   "platform": "剧场版",
+   "type": 2
   },
   {
    "id": 37526,
    "name": "水漫金山",
-   "image": "//lain.bgm.tv/pic/cover/m/8c/c5/37526_QD1r8.jpg",
-   "date": "2012-03-13"
+   "image": "https://lain.bgm.tv/pic/cover/m/8c/c5/37526_QD1r8.jpg",
+   "date": "2012-03-13",
+   "nameCN": "",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
+  },
+  {
+   "id": 94424,
+   "name": "雷峰塔",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/98/28/94424_vWVzq.jpg",
+   "type": 4
   },
   {
    "id": 123151,
    "name": "新白娘子傳奇",
    "nameCN": "新白娘子传奇",
-   "image": "//lain.bgm.tv/pic/cover/m/41/c3/123151_xPAqO.jpg",
-   "date": "1992-11-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/41/c3/123151_xPAqO.jpg",
+   "date": "1992-11-05",
+   "type": 6,
+   "nsfw": false,
+   "platform": "华语剧"
   }
  ],
  "relate": [
@@ -36,7 +53,17 @@
   {
    "relate": "不同演绎",
    "src": 123151,
+   "dst": 28707
+  },
+  {
+   "relate": "不同演绎",
+   "src": 123151,
    "dst": 37526
+  },
+  {
+   "relate": "不同演绎",
+   "src": 123151,
+   "dst": 94424
   }
  ]
 }

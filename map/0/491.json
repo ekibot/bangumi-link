@@ -5,50 +5,71 @@
    "id": 490,
    "name": "灼眼のシャナ",
    "nameCN": "灼眼的夏娜",
-   "image": "//lain.bgm.tv/pic/cover/m/c4/10/490_kuz6S.jpg",
-   "date": "2005-10-05"
+   "image": "https://lain.bgm.tv/pic/cover/m/c4/10/490_kuz6S.jpg",
+   "date": "2005-10-05",
+   "nsfw": false,
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 491,
    "name": "灼眼のシャナII",
    "nameCN": "灼眼的夏娜 第二季",
-   "image": "//lain.bgm.tv/pic/cover/m/55/9c/491_pQQHn.jpg",
-   "date": "2007-10-04"
+   "image": "https://lain.bgm.tv/pic/cover/m/55/9c/491_pQQHn.jpg",
+   "date": "2007-10-04",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   },
   {
    "id": 1862,
    "name": "劇場版 灼眼のシャナ",
    "nameCN": "灼眼的夏娜 剧场版",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/87/1862_b0Le4.jpg",
-   "date": "2007-04-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/87/1862_b0Le4.jpg",
+   "date": "2007-04-21",
+   "type": 2,
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 1868,
    "name": "灼眼のシャナ特別編 恋と温泉の校外学習！",
    "nameCN": "灼眼的夏娜 恋爱和温泉校外学习",
-   "image": "//lain.bgm.tv/pic/cover/m/c1/64/1868_1QCFl.jpg",
-   "date": "2006-12-08"
+   "image": "https://lain.bgm.tv/pic/cover/m/c1/64/1868_1QCFl.jpg",
+   "date": "2006-12-08",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 3110,
    "name": "灼眼のシャナS",
    "nameCN": "灼眼的夏娜S",
-   "image": "//lain.bgm.tv/pic/cover/m/e9/fb/3110_ucarX.jpg",
-   "date": "2009-10-23"
+   "image": "https://lain.bgm.tv/pic/cover/m/e9/fb/3110_ucarX.jpg",
+   "date": "2009-10-23",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 5109,
    "name": "灼眼のシャナたん",
    "nameCN": "灼眼的夏娜炭",
-   "image": "//lain.bgm.tv/pic/cover/m/7a/0c/5109_PpP9Q.jpg",
-   "date": "2006-01-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/7a/0c/5109_PpP9Q.jpg",
+   "date": "2006-01-25",
+   "type": 2,
+   "nsfw": false,
+   "platform": "OVA"
   },
   {
    "id": 18631,
    "name": "灼眼のシャナIII -Final-",
    "nameCN": "灼眼的夏娜 Final",
-   "image": "//lain.bgm.tv/pic/cover/m/56/47/18631_UjsU2.jpg",
-   "date": "2011-10-07"
+   "image": "https://lain.bgm.tv/pic/cover/m/56/47/18631_UjsU2.jpg",
+   "date": "2011-10-07",
+   "type": 2,
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -66,6 +87,11 @@
    "relate": "番外篇",
    "src": 490,
    "dst": 1868
+  },
+  {
+   "relate": "番外篇",
+   "src": 490,
+   "dst": 5109
   },
   {
    "relate": "前传",
@@ -115,7 +141,27 @@
   {
    "relate": "主线故事",
    "src": 5109,
+   "dst": 490
+  },
+  {
+   "relate": "主线故事",
+   "src": 5109,
    "dst": 491
+  },
+  {
+   "relate": "主线故事",
+   "src": 5109,
+   "dst": 1862
+  },
+  {
+   "relate": "主线故事",
+   "src": 5109,
+   "dst": 3110
+  },
+  {
+   "relate": "主线故事",
+   "src": 5109,
+   "dst": 18631
   },
   {
    "relate": "前传",

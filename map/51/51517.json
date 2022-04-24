@@ -5,50 +5,103 @@
    "id": 51517,
    "name": "ALIA's CARNIVAL!",
    "nameCN": "爱丽娅的明日盛典！",
-   "image": "//lain.bgm.tv/pic/cover/m/74/6c/51517_P6cKa.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/74/6c/51517_P6cKa.jpg",
+   "date": "2014-03-28",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 120597,
    "name": "ALIA's CARNIVAL！ Flowering Sky",
-   "image": "//lain.bgm.tv/pic/cover/m/17/67/120597_rKmmB.jpg"
+   "image": "https://lain.bgm.tv/pic/cover/m/17/67/120597_s4Hs9.jpg",
+   "nameCN": "",
+   "type": 4,
+   "date": "2015-05-29",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 150807,
    "name": "ALIA's CARNIVAL! サクラメント",
-   "image": "//lain.bgm.tv/pic/cover/m/28/e6/150807_5rR75.jpg",
-   "date": "2015-10-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/28/e6/150807_5rR75.jpg",
+   "date": "2015-10-29",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 174064,
    "name": "春音アリス＊グラム",
-   "image": "/img/no_icon_subject.png"
+   "image": "https://lain.bgm.tv/pic/cover/m/8d/21/174064_w0u04.jpg",
+   "nameCN": "",
+   "type": 4
+  },
+  {
+   "id": 238119,
+   "name": "白恋サクラ＊グラム",
+   "image": "https://lain.bgm.tv/pic/cover/m/62/f3/238119_Fm7Sz.jpg",
+   "nameCN": "",
+   "date": "2019-03-29",
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 333386,
    "name": "花鐘カナデ＊グラム",
-   "image": "//lain.bgm.tv/pic/cover/m/2c/a5/333386_i3TY2.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/2c/a5/333386_i3TY2.jpg",
+   "date": null,
+   "nameCN": "",
+   "nsfw": false,
+   "platform": null,
+   "type": 4
   },
   {
    "id": 333740,
    "name": "花鐘カナデ＊グラム Chapter:1 小桜結編",
-   "image": "//lain.bgm.tv/pic/cover/m/4e/f3/333740_XJSJS.jpg",
-   "date": "2021-11-26"
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/f3/333740_XJSJS.jpg",
+   "date": "2021-11-26",
+   "nameCN": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 337560,
    "name": "花鐘カナデ＊グラム Chapter:2 花ノ香澄玲編",
-   "date": "2022-05-27"
+   "date": "2022-05-27",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/61/3b/337560_1SAEE.jpg",
+   "type": 4
   },
   {
    "id": 337561,
    "name": "花鐘カナデ＊グラム Chapter:3 星泉コトナ編",
-   "date": null
+   "date": null,
+   "nameCN": "",
+   "image": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 337563,
    "name": "花鐘カナデ＊グラム Chapter:4 綾世奏編",
-   "date": null
+   "date": null,
+   "nameCN": "",
+   "image": "",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
+  },
+  {
+   "id": 358566,
+   "name": "白恋サクラ*グラムLF",
+   "image": "https://lain.bgm.tv/pic/cover/m/49/59/358566_26y62.jpg",
+   "date": null,
+   "nameCN": "",
+   "type": 4
   }
  ],
  "relate": [
@@ -68,9 +121,24 @@
    "dst": 174064
   },
   {
+   "relate": "前传",
+   "src": 120597,
+   "dst": 51517
+  },
+  {
    "relate": "不同演绎",
    "src": 150807,
    "dst": 51517
+  },
+  {
+   "relate": "前传",
+   "src": 238119,
+   "dst": 174064
+  },
+  {
+   "relate": "续集",
+   "src": 238119,
+   "dst": 358566
   },
   {
    "relate": "相同世界观",
@@ -79,8 +147,33 @@
   },
   {
    "relate": "相同世界观",
+   "src": 333386,
+   "dst": 333740
+  },
+  {
+   "relate": "相同世界观",
+   "src": 333386,
+   "dst": 337560
+  },
+  {
+   "relate": "相同世界观",
+   "src": 333386,
+   "dst": 337561
+  },
+  {
+   "relate": "相同世界观",
+   "src": 333386,
+   "dst": 337563
+  },
+  {
+   "relate": "相同世界观",
    "src": 333740,
    "dst": 174064
+  },
+  {
+   "relate": "相同世界观",
+   "src": 333740,
+   "dst": 333386
   },
   {
    "relate": "相同世界观",
@@ -94,8 +187,23 @@
   },
   {
    "relate": "相同世界观",
+   "src": 337561,
+   "dst": 333386
+  },
+  {
+   "relate": "相同世界观",
    "src": 337563,
    "dst": 174064
+  },
+  {
+   "relate": "相同世界观",
+   "src": 337563,
+   "dst": 333386
+  },
+  {
+   "relate": "前传",
+   "src": 358566,
+   "dst": 238119
   }
  ]
 }

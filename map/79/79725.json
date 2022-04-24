@@ -5,50 +5,71 @@
    "id": 79725,
    "name": "Crash Bandicoot",
    "nameCN": "古惑狼",
-   "image": "//lain.bgm.tv/pic/cover/m/14/6a/79725_x74VA.jpg",
-   "date": "1996-09-09"
+   "image": "https://lain.bgm.tv/pic/cover/m/14/6a/79725_x74VA.jpg",
+   "date": "1996-09-09",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 99331,
    "name": "Crash Bandicoot: Warped",
    "nameCN": "古惑狼3",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/77/99331_0Yi0I.jpg",
-   "date": "1998-10-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/77/99331_0Yi0I.jpg",
+   "date": "1998-10-31",
+   "nsfw": false,
+   "platform": "",
+   "type": 4
   },
   {
    "id": 183115,
    "name": "Crash Bandicoot 2: Cortex Strikes Back",
    "nameCN": "古惑狼2",
-   "image": "//lain.bgm.tv/pic/cover/m/09/97/183115_9Ief9.jpg",
-   "date": "1997-10-31"
+   "image": "https://lain.bgm.tv/pic/cover/m/09/97/183115_9Ief9.jpg",
+   "date": "1997-10-31",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 214410,
    "name": "Crash Bandicoot N Sane Trilogy",
    "nameCN": "古惑狼：疯狂三部曲",
-   "image": "//lain.bgm.tv/pic/cover/m/f7/b2/214410_7RLII.jpg",
-   "date": "2017-06-30"
+   "image": "https://lain.bgm.tv/pic/cover/m/f7/b2/214410_7RLII.jpg",
+   "date": "2017-06-30",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 253890,
    "name": "Crash Team Racing",
    "nameCN": "袋狼大進擊賽車",
-   "image": "//lain.bgm.tv/pic/cover/m/50/8f/253890_iA761.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/50/8f/253890_iA761.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 284936,
    "name": "Crash Team Racing Nitro-Fueled",
    "nameCN": "古惑狼赛车重制版",
-   "image": "//lain.bgm.tv/pic/cover/m/d5/65/284936_86iij.jpg",
-   "date": "2019-06-21"
+   "image": "https://lain.bgm.tv/pic/cover/m/d5/65/284936_86iij.jpg",
+   "date": "2019-06-21",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 309167,
    "name": "Crash Bandicoot 4: It's About Time",
    "nameCN": "古惑狼4：时机已到",
-   "image": "//lain.bgm.tv/pic/cover/m/a1/28/309167_18dTO.jpg",
-   "date": "2020-10-02"
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/28/309167_18dTO.jpg",
+   "date": "2020-10-02",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -103,6 +124,16 @@
    "dst": 79725
   },
   {
+   "relate": "不同演绎",
+   "src": 214410,
+   "dst": 99331
+  },
+  {
+   "relate": "不同演绎",
+   "src": 214410,
+   "dst": 183115
+  },
+  {
    "relate": "续集",
    "src": 214410,
    "dst": 309167
@@ -126,6 +157,11 @@
    "relate": "前传",
    "src": 309167,
    "dst": 99331
+  },
+  {
+   "relate": "前传",
+   "src": 309167,
+   "dst": 214410
   }
  ]
 }

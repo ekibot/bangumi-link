@@ -5,36 +5,50 @@
    "id": 1093,
    "name": "Tears to Tiara ～ティアーズ・トゥ・ティアラ～",
    "nameCN": "花冠之泪",
-   "image": "//lain.bgm.tv/pic/cover/m/68/b1/1093_Vr9iM.jpg",
-   "date": "2005-04-28"
+   "image": "https://lain.bgm.tv/pic/cover/m/68/b1/1093_Vr9iM.jpg",
+   "date": "2005-04-28",
+   "nsfw": false,
+   "platform": "PC",
+   "type": 4
   },
   {
    "id": 5438,
    "name": "ティアーズ・トゥ・ティアラ 花冠の大地",
    "nameCN": "花冠之泪",
-   "image": "//lain.bgm.tv/pic/cover/m/47/9b/5438_4Ri2r.jpg",
-   "date": null
+   "image": "https://lain.bgm.tv/pic/cover/m/47/9b/5438_4Ri2r.jpg",
+   "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": "PS3"
   },
   {
    "id": 7827,
    "name": "ティアーズ・トゥ・ティアラ 外伝－アヴァロンの謎－",
    "nameCN": "提亚拉之泪外传：阿瓦隆之谜",
-   "image": "//lain.bgm.tv/pic/cover/m/5b/5c/7827_xaoh0.jpg",
-   "date": "2009-09-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/5b/5c/7827_xaoh0.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": ""
   },
   {
    "id": 10458,
    "name": "ティアーズ トゥ ティアラ 花冠の大地 ポータブル",
    "nameCN": "花冠的大地",
-   "image": "//lain.bgm.tv/pic/cover/m/a2/c7/10458_vc6O2.jpg",
-   "date": "2010-11-25"
+   "image": "https://lain.bgm.tv/pic/cover/m/a2/c7/10458_vc6O2.jpg",
+   "date": "2010-11-25",
+   "type": 4,
+   "nsfw": false,
+   "platform": "PSP"
   },
   {
    "id": 52339,
    "name": "ティアーズ・トゥ・ティアラII－覇王の末裔－",
    "nameCN": "提亚拉之泪II：霸王的末裔",
-   "image": "//lain.bgm.tv/pic/cover/m/05/f1/52339_JTgjl.jpg",
-   "date": "2013-10-24"
+   "image": "https://lain.bgm.tv/pic/cover/m/05/f1/52339_JTgjl.jpg",
+   "date": "2013-10-24",
+   "type": 4,
+   "nsfw": false,
+   "platform": ""
   }
  ],
  "relate": [
@@ -42,6 +56,11 @@
    "relate": "不同演绎",
    "src": 1093,
    "dst": 5438
+  },
+  {
+   "relate": "不同演绎",
+   "src": 1093,
+   "dst": 10458
   },
   {
    "relate": "续集",
@@ -64,6 +83,11 @@
    "dst": 1093
   },
   {
+   "relate": "主线故事",
+   "src": 7827,
+   "dst": 5438
+  },
+  {
    "relate": "不同演绎",
    "src": 10458,
    "dst": 1093
@@ -72,6 +96,11 @@
    "relate": "前传",
    "src": 52339,
    "dst": 1093
+  },
+  {
+   "relate": "前传",
+   "src": 52339,
+   "dst": 5438
   }
  ]
 }

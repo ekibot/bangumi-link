@@ -5,22 +5,31 @@
    "id": 326249,
    "name": "ルゴーム砦の脱出",
    "nameCN": "冲出卢高穆要塞",
-   "image": "//lain.bgm.tv/pic/cover/m/82/df/326249_yQTYY.jpg",
-   "date": "2013-12-29"
+   "image": "https://lain.bgm.tv/pic/cover/m/82/df/326249_yQTYY.jpg",
+   "date": "2013-12-29",
+   "nsfw": false,
+   "platform": null,
+   "type": 4
   },
   {
    "id": 326250,
    "name": "オーレクタ砂漠の魔術師",
    "nameCN": "大雷库塔沙漠的魔术师",
-   "image": "//lain.bgm.tv/pic/cover/m/2a/2b/326250_BBsfi.jpg",
-   "date": "2016-11-01"
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/2b/326250_BBsfi.jpg",
+   "date": "2016-11-01",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   },
   {
    "id": 345871,
    "name": "アドゥスタ海の孤島",
    "nameCN": "阿杜斯塔海之孤岛",
-   "image": "//lain.bgm.tv/pic/cover/m/c6/a4/345871_dU6wG.jpg",
-   "date": "2020-01-17"
+   "image": "https://lain.bgm.tv/pic/cover/m/c6/a4/345871_dU6wG.jpg",
+   "date": "2020-01-17",
+   "type": 4,
+   "nsfw": false,
+   "platform": null
   }
  ],
  "relate": [
@@ -28,6 +37,11 @@
    "relate": "续集",
    "src": 326249,
    "dst": 326250
+  },
+  {
+   "relate": "续集",
+   "src": 326249,
+   "dst": 345871
   },
   {
    "relate": "前传",
@@ -43,6 +57,11 @@
    "relate": "前传",
    "src": 345871,
    "dst": 326249
+  },
+  {
+   "relate": "前传",
+   "src": 345871,
+   "dst": 326250
   }
  ]
 }
