@@ -1,4 +1,5 @@
-import { Avatar, Button, Space, Card, Image, Tag, Layout, Select, Collapse, List } from 'antd';
+import { CaretDownOutlined, CaretUpOutlined } from '@ant-design/icons';
+import { Avatar, Button, Space, Card, Image, Tag, Row, Select, Col, List, Switch } from 'antd';
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate, Link } from "react-router-dom";
 
@@ -59,6 +60,7 @@ async function loadCollectionData(uid, setLoading) {
   const fetchs = collections.concat();
   await Promise.all(new Array(20).fill(0).map(async (_, i) => {
     while (fetchs.length) {
+      const sort = fetchs.length;
       const collect = fetchs.shift();
       if (collect.visited) continue;
       const subjectId = collect.subject_id;
@@ -69,7 +71,10 @@ async function loadCollectionData(uid, setLoading) {
         setLoading(`获取关联数据(${collections.length - fetchs.length}/${collections.length})`);
         downloadedMap[mapId] = map;
         map.node.forEach((n) => nodeToMap[n.id] = mapId);
-        relateMap.push(getSeason(map, collections, subjectId, collect.subject_type));
+        relateMap.push({
+          sort,
+          data: getSeason(map, collections, subjectId, collect.subject_type),
+        });
       } catch (e) {
         // TODO
       }
@@ -79,18 +84,30 @@ async function loadCollectionData(uid, setLoading) {
 
   return {
     update_at: new Date().toISOString(),
-    data: relateMap
+    data: relateMap.sort((a, b) => b.sort - a.sort).map((v) => v.data)
   };
 }
 
 const subjectTypes = '全部类型|书籍|动画|音乐|游戏||三次元'.split('|');
 
-const filters = [
+const swicthFilters = [
   {
     key: 'onlyNoWatched',
-    options: ['全部状态', '仅未看'],
-    filter: (data, value) => value === '仅未看' ? data.filter((d) => d.collect === 0) : data
+    switch: '系列必须包含看过/在看',
+    filter: (data, value) => value && !data.find((d) => [2, 3].includes(d.collect)) ? [] : data
   },
+  {
+    key: 'onlyOnAir',
+    switch: '排除未到日期的条目',
+    filter: (data, value) => {
+      if (!value) return data
+      const now = new Date().getTime();
+      return data.filter((v) => v.date && (new Date(v.date).getTime() < now))
+    }
+  }
+]
+
+const optionsFilters = [
   {
     key: 'subjectType',
     options: subjectTypes.filter((v) => v),
@@ -109,6 +126,7 @@ function Page() {
   const [user, setUser] = useState({});
   const [loadingCollection, setLoadingCollection] = useState('');
   const [filterState, setFilterState] = useState({});
+  const [onlyNoCollects, setOnlyNoCollects] = useState({});
 
   useEffect(() => {
     try {
@@ -130,13 +148,19 @@ function Page() {
 
   const { filterdCollection, filterdPlatforms } = useMemo(() => {
     const filterdPlatforms = new Set();
-    const filterdCollection = collection?.data?.map((items) => ({
-      label: items.find((v) => v.collect),
-      subjects: filters.reduce((v, f) => {
+    const filterdCollection = collection?.data?.map((items, index) => {
+      const filteredSubjects = [
+        ...swicthFilters,
+        ...optionsFilters,
+      ].reduce((v, f) => {
         return f.filter(v, filterState[f.key])
-      }, items),
-      info: `共 ${items.length} 个条目 / ${items.filter((v) => v.collect).length} 已收藏`
-    }));
+      }, items);
+      return {
+        id: index,
+        label: items.find((v) => v.collect),
+        subjects: filteredSubjects,
+      };
+    }).filter((items) => items.subjects?.length > 0)
 
     const value = filterState.platforms;
     filterdCollection?.forEach((v) => {
@@ -149,108 +173,138 @@ function Page() {
   }, [collection, filterState]);
 
   return user.error || (
-    <Layout>
-      <Layout.Content>
-        <Card>
-          <Card.Meta
-            avatar={<Avatar src={user?.avatar?.medium} />}
-            title={user?.nickname ?? user?.username ?? uid}
-            description={
-              <Space wrap>
-                {collection?.update_at && `获取到 ${(collection.data || []).length} 条关联数据`}
-                <Button
-                  disabled={loadingCollection}
-                  onClick={async () => {
-                    const data = await loadCollectionData(uid, setLoadingCollection).catch((e) => {
-                      setLoadingCollection('');
-                      throw e;
-                    });
-                    console.log(data);
-                    setCollection(data);
-                    localStorage.setItem(`${uid}/collections`, JSON.stringify(data));
-                  }}
-                >{loadingCollection || (collection?.update_at ? `上次更新于 ${collection?.update_at}` : '获取收藏数据')}</Button>
-              </Space>
-            }
-          />
-          <Space style={{ marginTop: '16px' }}>
+    <>
+      <Card>
+        <Card.Meta
+          avatar={<Avatar src={user?.avatar?.medium} />}
+          title={user?.nickname ?? user?.username ?? uid}
+          description={
+            <Space wrap>
+              {collection?.update_at && `获取到 ${(collection.data || []).length} 条关联数据`}
+              <Button
+                disabled={loadingCollection}
+                onClick={async () => {
+                  const data = await loadCollectionData(uid, setLoadingCollection).catch((e) => {
+                    setLoadingCollection('');
+                    throw e;
+                  });
+                  console.log(data);
+                  setCollection(data);
+                  localStorage.setItem(`${uid}/collections`, JSON.stringify(data));
+                }}
+              >{loadingCollection || (collection?.update_at ? `上次更新于 ${collection?.update_at}` : '获取收藏数据')}</Button>
+            </Space>
+          }
+        />
+        <div>
+          <Space style={{ marginTop: '16px' }} wrap>
             {
-              [
-                ...filters,
-                {
-                  key: 'platforms',
-                  options: ['全部平台', ...filterdPlatforms]
-                },
-              ].map((f) => (
-                <Select
-                  style={{ width: 120 }}
-                  key={f.key}
-                  defaultValue={f.options[0]}
-                  onChange={(v) => setFilterState({ ...filterState, [f.key]: v })}
-                >
-                  {
-                    f.options.map((v) => (
-                      <Select.Option key={v}>{v}</Select.Option>
-                    ))
-                  }
-                </Select>
+              swicthFilters.map((f) => (
+                <span key={f.key}>
+                  <Switch
+                    checked={filterState[f.key]}
+                    onChange={(v) => setFilterState({ ...filterState, [f.key]: v })}
+                  />
+                  {f.switch}
+                </span>
               ))
             }
           </Space>
-        </Card>
-        {
-          filterdCollection &&
-          <List
-            pagination={{
-              position: 'both',
-              pageSize: 50,
-            }}
-            dataSource={filterdCollection.filter((items) => items.subjects?.length > 0)}
-            renderItem={(items) => (
-              <Collapse defaultActiveKey="1" bordered={false}>
-                <Collapse.Panel
-                  key="1"
-                  header={
-                    <Space>
-                      <Tag>{subjectTypes[items.label?.type || 0]}</Tag>
-                      {items.label?.nameCN || items.label?.name}
-                    </Space>}
-                  extra={<Space>
-                    {items.info}
+        </div>
+        <Space style={{ marginTop: '16px' }} wrap>
+          {
+            [
+              ...optionsFilters,
+              {
+                key: 'platforms',
+                options: ['全部平台', ...filterdPlatforms]
+              },
+            ].map((f) => (
+              <Select
+                style={{ width: 120 }}
+                key={f.key}
+                defaultValue={f.options[0]}
+                value={filterState[f.key] ?? f.options[0]}
+                onChange={(v) => setFilterState({ ...filterState, [f.key]: v })}
+              >
+                {
+                  f.options.map((v) => (
+                    <Select.Option key={v}>{v}</Select.Option>
+                  ))
+                }
+              </Select>
+            ))
+          }
+          <span>
+            <Button onClick={() => setOnlyNoCollects({
+              ...collection?.data?.map(() => true)
+            })}>收起已收藏条目</Button>
+            <Button onClick={() => setOnlyNoCollects({})}>展开已收藏条目</Button>
+          </span>
+        </Space>
+
+      </Card>
+      {
+        filterdCollection &&
+        <List
+          pagination={{
+            position: 'both',
+            pageSize: 30,
+          }}
+          dataSource={filterdCollection}
+          renderItem={(items) => (
+            <Card key={items.id}>
+              <Card.Grid style={{ width: '100%' }} hoverable={false}>
+                <Row wrap={false}>
+                  <Col flex="auto" style={{ whiteSpace: 'nowrap', overflow: 'hidden' }}>
+                    <Tag>{subjectTypes[items.label?.type || 0]}</Tag>
+                    {items.label?.nameCN || items.label?.name}
+                  </Col>
+                  <Col flex="none">
+                    <Button onClick={() => setOnlyNoCollects({
+                      ...onlyNoCollects,
+                      [items.id]: !onlyNoCollects[items.id]
+                    })} size="small">
+                      {onlyNoCollects[items.id] ? <CaretDownOutlined /> : <CaretUpOutlined />}
+                    </Button>
+                    {' '}
                     <Link to={`/subject/${items?.label?.id}`}>
                       关系图
                     </Link>
-                  </Space>}
-                >
-                  {items.subjects.map((item) => (
-                    <Card.Grid key={item.id} style={{ width: '100%' }}>
-                      <a target="_blank" href={`https://bgm.tv/subject/${item.id}`} rel="noreferrer">
-                        <Card.Meta
-                          avatar={<Image
-                            style={{ objectFit: 'cover' }}
-                            width={60}
-                            height={90}
-                            src={item.image?.replace(/\/[cgmls]\//, '/c/')} preview={false} />}
-                          title={item.nameCN || item.name}
-                          description={<>
-                            <p>{item.name}</p>
-                            <Tag color={collectionColor[item.collect || 0]}>
-                              {collectionType[item.collect || 0]}
-                            </Tag>
-                            {item.platform && <Tag>{item.platform}</Tag>}
-                            {item.date}
-                          </>}
-                        />
-                      </a>
-                    </Card.Grid>
-                  ))}
-                </Collapse.Panel>
-              </Collapse>
-            )}
-          />
-        }
-      </Layout.Content>
-    </Layout>
+                  </Col>
+                </Row>
+
+              </Card.Grid>
+              {(onlyNoCollects[items.id] ? items.subjects.filter((v) => !v.collect) : items.subjects).map((item) => (
+                <a key={item.id} target="_blank" href={`https://bgm.tv/subject/${item.id}`} rel="noreferrer">
+                  <Card.Grid style={{ width: '100%' }}>
+
+                    <Card.Meta
+                      avatar={<Image
+                        style={{ objectFit: 'cover' }}
+                        width={60}
+                        height={90}
+                        src={item.image?.replace(/\/[cgmls]\//, '/c/')} preview={false} />}
+                      title={item.nameCN || item.name}
+                      description={<>
+                        <p>{item.name}</p>
+                        <Tag color={collectionColor[item.collect || 0]}>
+                          {collectionType[item.collect || 0]}
+                        </Tag>
+                        {item.platform && <Tag>{item.platform}</Tag>}
+                        {item.date}
+                      </>}
+                    />
+
+                  </Card.Grid>
+                </a>
+              ))}
+            </Card>
+
+          )}
+        />
+      }
+    </>
 
   );
 }
