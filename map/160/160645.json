@@ -5,7 +5,7 @@
    "id": 160625,
    "name": "四龍島シリーズ",
    "date": null,
-   "image": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/e8/84/160625_YH1XW.jpg",
    "nameCN": "",
    "nsfw": false,
    "platform": "小说",
@@ -90,6 +90,16 @@
    "type": 1,
    "nsfw": false,
    "platform": "小说"
+  },
+  {
+   "id": 379299,
+   "name": "龍花艶舞～四龍島夜曲～",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/05/31/379299_vLg21.jpg",
+   "type": 1,
+   "date": "2020-09-25",
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -134,6 +144,11 @@
    "dst": 160652
   },
   {
+   "relate": "番外篇",
+   "src": 160625,
+   "dst": 379299
+  },
+  {
    "relate": "主线故事",
    "src": 160645,
    "dst": 160625
@@ -171,6 +186,11 @@
   {
    "relate": "主线故事",
    "src": 160652,
+   "dst": 160625
+  },
+  {
+   "relate": "主线故事",
+   "src": 379299,
    "dst": 160625
   }
  ]
