@@ -30,6 +30,36 @@
    "type": 6,
    "nsfw": false,
    "platform": "其他"
+  },
+  {
+   "id": 379519,
+   "name": "乃木坂スター誕生!",
+   "nameCN": "乃木坂明星诞生!",
+   "image": "https://lain.bgm.tv/pic/cover/m/a9/5c/379519_MWuCC.jpg",
+   "type": 6,
+   "date": "2021-05-11",
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
+   "id": 379523,
+   "name": "乃木坂スター誕生!2",
+   "nameCN": "乃木坂明星诞生!2",
+   "image": "https://lain.bgm.tv/pic/cover/m/d1/22/379523_WWFal.jpg",
+   "type": 6,
+   "date": "2021-10-12",
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
+   "id": 379524,
+   "name": "新・乃木坂スター誕生!",
+   "nameCN": "新・乃木坂明星诞生!",
+   "image": "https://lain.bgm.tv/pic/cover/m/e7/81/379524_ecEKh.jpg",
+   "date": "2022-04-26",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   }
  ],
  "relate": [
@@ -52,6 +82,36 @@
    "relate": "前传",
    "src": 318586,
    "dst": 312238
+  },
+  {
+   "relate": "前传",
+   "src": 379519,
+   "dst": 318586
+  },
+  {
+   "relate": "续集",
+   "src": 379519,
+   "dst": 379523
+  },
+  {
+   "relate": "续集",
+   "src": 379519,
+   "dst": 379524
+  },
+  {
+   "relate": "前传",
+   "src": 379523,
+   "dst": 379519
+  },
+  {
+   "relate": "续集",
+   "src": 379523,
+   "dst": 379524
+  },
+  {
+   "relate": "前传",
+   "src": 379524,
+   "dst": 379523
   }
  ]
 }
