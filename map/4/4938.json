@@ -3,7 +3,7 @@
  "node": [
   {
    "id": 4938,
-   "name": "けいおん！",
+   "name": "けいおん!",
    "nameCN": "K-ON！轻音少女",
    "image": "https://lain.bgm.tv/pic/cover/m/ec/16/4938_8uy80.jpg",
    "date": null,
@@ -12,8 +12,28 @@
    "type": 1
   },
   {
+   "id": 48684,
+   "name": "けいおん! college",
+   "nameCN": "轻音 college",
+   "image": "https://lain.bgm.tv/pic/cover/m/c8/7d/48684_1BDBk.jpg",
+   "type": 1,
+   "date": "2012-09-27",
+   "nsfw": false,
+   "platform": "漫画"
+  },
+  {
+   "id": 48685,
+   "name": "けいおん! highschool",
+   "nameCN": "轻音 highschool",
+   "image": "https://lain.bgm.tv/pic/cover/m/33/1f/48685_S1y88.jpg",
+   "date": "2012-10-27",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
+  },
+  {
    "id": 249048,
-   "name": "けいおん！Shuffle",
+   "name": "けいおん! Shuffle",
    "image": "https://lain.bgm.tv/pic/cover/m/bb/df/249048_hLoWl.jpg",
    "date": null,
    "nameCN": "",
@@ -24,9 +44,29 @@
  ],
  "relate": [
   {
+   "relate": "续集",
+   "src": 4938,
+   "dst": 48684
+  },
+  {
+   "relate": "续集",
+   "src": 4938,
+   "dst": 48685
+  },
+  {
    "relate": "相同世界观",
    "src": 4938,
    "dst": 249048
+  },
+  {
+   "relate": "前传",
+   "src": 48684,
+   "dst": 4938
+  },
+  {
+   "relate": "前传",
+   "src": 48685,
+   "dst": 4938
   },
   {
    "relate": "相同世界观",
