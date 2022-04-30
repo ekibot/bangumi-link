@@ -330,6 +330,26 @@
    "type": 2,
    "nsfw": false,
    "platform": "TV"
+  },
+  {
+   "id": 379838,
+   "name": "The Simpsons Season 32",
+   "nameCN": "辛普森一家 第三十二季",
+   "image": "https://lain.bgm.tv/pic/cover/m/77/2d/379838_58dZn.jpg",
+   "type": 2,
+   "date": "2020-09-27",
+   "nsfw": false,
+   "platform": "TV"
+  },
+  {
+   "id": 379840,
+   "name": "The Simpsons Season 33",
+   "nameCN": "辛普森一家 第三十三季",
+   "image": "https://lain.bgm.tv/pic/cover/m/1e/b5/379840_LzUTv.jpg",
+   "type": 2,
+   "date": "2021-09-26",
+   "nsfw": false,
+   "platform": "TV"
   }
  ],
  "relate": [
@@ -652,6 +672,26 @@
    "relate": "前传",
    "src": 301568,
    "dst": 301565
+  },
+  {
+   "relate": "续集",
+   "src": 301568,
+   "dst": 379838
+  },
+  {
+   "relate": "前传",
+   "src": 379838,
+   "dst": 301568
+  },
+  {
+   "relate": "续集",
+   "src": 379838,
+   "dst": 379840
+  },
+  {
+   "relate": "前传",
+   "src": 379840,
+   "dst": 379838
   }
  ]
 }
