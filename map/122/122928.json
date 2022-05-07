@@ -25,14 +25,26 @@
    "image": "https://lain.bgm.tv/pic/cover/m/4e/a0/256658_4h0IB.jpg",
    "date": "2019-02-22",
    "nsfw": false,
-   "platform": "全部游戏"
+   "platform": "全部游戏",
+   "type": 4
   },
   {
    "id": 289305,
    "name": "イブニクルの主人公がランスだったら… もしもディスク",
-   "nameCN": "夏娃年代记的主人公是兰斯的话……If Disk",
+   "nameCN": "夏娃年代记的主人公是兰斯的话… If Disk",
    "image": "https://lain.bgm.tv/pic/cover/m/41/af/289305_11112.jpg",
    "date": "2015-04-24",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
+  },
+  {
+   "id": 362100,
+   "name": "イブニクル2の主人公がランスだったら… もしもディスク",
+   "nameCN": "夏娃年代记2的主人公是兰斯的话… If Disk",
+   "image": "https://lain.bgm.tv/pic/cover/m/a1/ac/362100_K7LZ7.jpg",
+   "type": 4,
+   "date": null,
    "nsfw": false,
    "platform": "全部游戏"
   }
@@ -60,8 +72,28 @@
   },
   {
    "relate": "相同世界观",
+   "src": 256658,
+   "dst": 362100
+  },
+  {
+   "relate": "相同世界观",
    "src": 289305,
    "dst": 122928
+  },
+  {
+   "relate": "续集",
+   "src": 289305,
+   "dst": 362100
+  },
+  {
+   "relate": "相同世界观",
+   "src": 362100,
+   "dst": 256658
+  },
+  {
+   "relate": "前传",
+   "src": 362100,
+   "dst": 289305
   }
  ]
 }
