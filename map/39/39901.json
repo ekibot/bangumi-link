@@ -4,7 +4,7 @@
   {
    "id": 39901,
    "name": "アンブロークンアロー 戦闘妖精・雪風",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/fd/39901_jp.jpg",
+   "image": "https://lain.bgm.tv/pic/cover/m/23/fd/39901_VlKEO.jpg",
    "date": "2011-03-10",
    "nameCN": "",
    "nsfw": false,
@@ -24,10 +24,20 @@
   {
    "id": 84014,
    "name": "グッドラック 戦闘妖精・雪風",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/6d/84014_NmKy2.jpg",
+   "image": "https://lain.bgm.tv/pic/cover/m/91/6d/84014_yH7OM.jpg",
    "date": "2001-12-11",
    "nameCN": "",
    "type": 1,
+   "nsfw": false,
+   "platform": "小说"
+  },
+  {
+   "id": 380905,
+   "name": "アグレッサーズ 戦闘妖精・雪風",
+   "nameCN": "",
+   "image": "",
+   "type": 1,
+   "date": "2022-04-20",
    "nsfw": false,
    "platform": "小说"
   }
@@ -37,6 +47,11 @@
    "relate": "前传",
    "src": 39901,
    "dst": 84014
+  },
+  {
+   "relate": "续集",
+   "src": 39901,
+   "dst": 380905
   },
   {
    "relate": "续集",
@@ -52,6 +67,11 @@
    "relate": "前传",
    "src": 84014,
    "dst": 84013
+  },
+  {
+   "relate": "前传",
+   "src": 380905,
+   "dst": 39901
   }
  ]
 }
