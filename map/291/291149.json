@@ -5,7 +5,7 @@
    "id": 26657,
    "name": "金星特急",
    "image": "https://lain.bgm.tv/pic/cover/m/38/9c/26657_f9CFO.jpg",
-   "date": null,
+   "date": "2010-01-09",
    "nameCN": "",
    "nsfw": false,
    "platform": "小说",
@@ -20,6 +20,23 @@
    "type": 1,
    "nsfw": false,
    "platform": "小说"
+  },
+  {
+   "id": 382080,
+   "name": "金星特急・番外編 花を追う旅",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/1d/d3/382080_JU3hd.jpg",
+   "type": 1
+  },
+  {
+   "id": 382088,
+   "name": "続・金星特急 竜血の娘",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/3d/65/382088_i1Dzo.jpg",
+   "type": 1,
+   "date": "2021-03-10",
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -29,8 +46,23 @@
    "dst": 291149
   },
   {
+   "relate": "番外篇",
+   "src": 26657,
+   "dst": 382080
+  },
+  {
+   "relate": "续集",
+   "src": 26657,
+   "dst": 382088
+  },
+  {
    "relate": "主线故事",
    "src": 291149,
+   "dst": 26657
+  },
+  {
+   "relate": "前传",
+   "src": 382088,
    "dst": 26657
   }
  ]
