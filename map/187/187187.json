@@ -35,9 +35,19 @@
    "id": 234867,
    "name": "Stranger Things Season 4",
    "nameCN": "怪奇物语 第四季",
-   "date": null,
+   "date": "2022-05-27",
+   "image": "https://lain.bgm.tv/pic/cover/m/54/0e/234867_9z009.jpg",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
+  },
+  {
+   "id": 383130,
+   "name": "Stranger Things Season 5",
+   "nameCN": "怪奇物语 第五季",
    "image": "",
    "type": 6,
+   "date": null,
    "nsfw": false,
    "platform": "欧美剧"
   }
@@ -72,6 +82,16 @@
    "relate": "前传",
    "src": 234867,
    "dst": 231461
+  },
+  {
+   "relate": "续集",
+   "src": 234867,
+   "dst": 383130
+  },
+  {
+   "relate": "前传",
+   "src": 383130,
+   "dst": 234867
   }
  ]
 }
