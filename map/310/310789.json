@@ -15,14 +15,18 @@
    "image": "https://lain.bgm.tv/pic/cover/m/31/93/310789_kT5l7.jpg",
    "date": "2020-01-01",
    "nsfw": false,
-   "platform": "小说"
+   "platform": "小说",
+   "type": 1
   },
   {
    "id": 329993,
    "name": "告白実行委員会 アイドルシリーズ ロメオ",
    "nameCN": "告白预演系列 告白执行委员会 青春偶像辑 罗密欧",
    "image": "https://lain.bgm.tv/pic/cover/m/57/8f/329993_2LnV8.jpg",
-   "type": 1
+   "type": 1,
+   "date": "2020-12-01",
+   "nsfw": false,
+   "platform": "小说"
   }
  ],
  "relate": [
@@ -35,6 +39,11 @@
    "relate": "续集",
    "src": 310789,
    "dst": 329993
+  },
+  {
+   "relate": "前传",
+   "src": 329993,
+   "dst": 310789
   }
  ]
 }
