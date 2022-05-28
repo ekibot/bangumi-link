@@ -2,8 +2,25 @@
  "id": 61010,
  "node": [
   {
+   "id": 938,
+   "name": "Solitaire",
+   "nameCN": "纸牌",
+   "image": "https://lain.bgm.tv/pic/cover/m/74/bb/938_yBFY4.jpg",
+   "type": 4
+  },
+  {
+   "id": 40479,
+   "name": "Spider Solitaire",
+   "nameCN": "蜘蛛纸牌",
+   "image": "https://lain.bgm.tv/pic/cover/m/60/e7/40479_r2996.jpg",
+   "type": 4,
+   "date": "1998-05-15",
+   "nsfw": false,
+   "platform": "全部游戏"
+  },
+  {
    "id": 61010,
-   "name": "FreeCell",
+   "name": "FreeCell Solitaire",
    "nameCN": "空当接龙",
    "image": "https://lain.bgm.tv/pic/cover/m/da/a7/61010_5lwHv.jpg",
    "date": null,
@@ -20,9 +37,24 @@
    "type": 4,
    "nsfw": false,
    "platform": "全部游戏"
+  },
+  {
+   "id": 385200,
+   "name": "Microsoft Solitaire Collection",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/0d/08/385200_HBAXB.jpg",
+   "date": "2012-10-26",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
   }
  ],
  "relate": [
+  {
+   "relate": "不同演绎",
+   "src": 40479,
+   "dst": 385200
+  },
   {
    "relate": "不同演绎",
    "src": 61010,
@@ -30,7 +62,27 @@
   },
   {
    "relate": "不同演绎",
+   "src": 61010,
+   "dst": 385200
+  },
+  {
+   "relate": "不同演绎",
    "src": 230408,
+   "dst": 61010
+  },
+  {
+   "relate": "不同演绎",
+   "src": 385200,
+   "dst": 938
+  },
+  {
+   "relate": "不同演绎",
+   "src": 385200,
+   "dst": 40479
+  },
+  {
+   "relate": "不同演绎",
+   "src": 385200,
    "dst": 61010
   }
  ]
