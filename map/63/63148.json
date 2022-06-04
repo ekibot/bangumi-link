@@ -8,14 +8,18 @@
    "image": "https://lain.bgm.tv/pic/cover/m/d6/bb/63148_GrIOg.jpg",
    "date": "2006-09-28",
    "nsfw": false,
-   "platform": "全部游戏"
+   "platform": "全部游戏",
+   "type": 4
   },
   {
    "id": 132098,
    "name": "ARIA The ORIGINATION 〜蒼い惑星のエルシエロ〜",
    "nameCN": "ARIA The ORIGINATION ～蓝色行星的天空～",
    "image": "https://lain.bgm.tv/pic/cover/m/a6/38/132098_cUhNm.jpg",
-   "type": 4
+   "type": 4,
+   "date": "2008-06-26",
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -23,6 +27,11 @@
    "relate": "续集",
    "src": 63148,
    "dst": 132098
+  },
+  {
+   "relate": "前传",
+   "src": 132098,
+   "dst": 63148
   }
  ]
 }
