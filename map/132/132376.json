@@ -960,6 +960,26 @@
    "type": 2,
    "nsfw": false,
    "platform": "剧场版"
+  },
+  {
+   "id": 386923,
+   "name": "Give and Tyke",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/93/c5/386923_z2YHb.jpg",
+   "date": "1957-03-29",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 2
+  },
+  {
+   "id": 386924,
+   "name": "Scat Cats",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/67/386924_oKoO0.jpg",
+   "type": 2,
+   "date": "1957-07-26",
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -1417,6 +1437,16 @@
    "relate": "不同演绎",
    "src": 25961,
    "dst": 280942
+  },
+  {
+   "relate": "番外篇",
+   "src": 25961,
+   "dst": 386923
+  },
+  {
+   "relate": "番外篇",
+   "src": 25961,
+   "dst": 386924
   },
   {
    "relate": "前传",
@@ -2592,6 +2622,26 @@
    "relate": "前传",
    "src": 280942,
    "dst": 280941
+  },
+  {
+   "relate": "主线故事",
+   "src": 386923,
+   "dst": 25961
+  },
+  {
+   "relate": "前传",
+   "src": 386923,
+   "dst": 386924
+  },
+  {
+   "relate": "主线故事",
+   "src": 386924,
+   "dst": 25961
+  },
+  {
+   "relate": "续集",
+   "src": 386924,
+   "dst": 386923
   }
  ]
 }
