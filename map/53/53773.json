@@ -8,14 +8,18 @@
    "image": "https://lain.bgm.tv/pic/cover/m/c4/47/53773_2Lp42.jpg",
    "date": "1969-12-07",
    "nsfw": false,
-   "platform": "TV"
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 378799,
    "name": "劇場版 アタックNo.1",
    "nameCN": "排球甜心 剧场版",
    "image": "https://lain.bgm.tv/pic/cover/m/80/c6/378799_2y07q.jpg",
-   "type": 2
+   "type": 2,
+   "date": "1970-03-21",
+   "nsfw": false,
+   "platform": "剧场版"
   },
   {
    "id": 378806,
@@ -59,6 +63,11 @@
    "relate": "总集篇",
    "src": 53773,
    "dst": 378810
+  },
+  {
+   "relate": "主线故事",
+   "src": 378799,
+   "dst": 53773
   }
  ]
 }
