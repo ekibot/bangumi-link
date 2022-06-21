@@ -3,7 +3,7 @@
  "node": [
   {
    "id": 184015,
-   "name": "枢やな画集 黒執事 1",
+   "name": "枢やな画集 黒執事 (1)",
    "nameCN": "枢梁画集 黑执事 1",
    "image": "https://lain.bgm.tv/pic/cover/m/1b/1e/184015_us.jpg",
    "date": "2014-01-18",
@@ -13,13 +13,33 @@
   },
   {
    "id": 184053,
-   "name": "枢やな画集 黒執事 ２",
+   "name": "枢やな画集 黒執事 (2)",
    "nameCN": "枢梁画集 黑执事 2",
    "image": "https://lain.bgm.tv/pic/cover/m/1b/5f/184053_us.jpg",
    "date": "2015-05-27",
    "type": 1,
    "nsfw": false,
    "platform": "画集"
+  },
+  {
+   "id": 388962,
+   "name": "枢やな画集 黒執事 (3)",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/77/6c/388962_0vvHm.jpg",
+   "type": 1,
+   "date": "2021-09-27",
+   "nsfw": false,
+   "platform": "画集"
+  },
+  {
+   "id": 388963,
+   "name": "枢やな画集 黒執事 (4)",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/03/db/388963_WEF3w.jpg",
+   "date": "2022-07-27",
+   "nsfw": false,
+   "platform": "画集",
+   "type": 1
   }
  ],
  "relate": [
@@ -32,6 +52,26 @@
    "relate": "前传",
    "src": 184053,
    "dst": 184015
+  },
+  {
+   "relate": "续集",
+   "src": 184053,
+   "dst": 388962
+  },
+  {
+   "relate": "前传",
+   "src": 388962,
+   "dst": 184053
+  },
+  {
+   "relate": "续集",
+   "src": 388962,
+   "dst": 388963
+  },
+  {
+   "relate": "前传",
+   "src": 388963,
+   "dst": 388962
   }
  ]
 }
