@@ -20,6 +20,36 @@
    "type": 1,
    "nsfw": false,
    "platform": "漫画"
+  },
+  {
+   "id": 389673,
+   "name": "アオバ自転車店へようこそ!",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/e1/9a/389673_24D46.jpg",
+   "type": 1,
+   "date": "2012-08-30",
+   "nsfw": false,
+   "platform": "漫画"
+  },
+  {
+   "id": 389698,
+   "name": "アオバ自転車店",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/95/7b/389698_8wp7c.jpg",
+   "type": 1,
+   "date": "2007-09-25",
+   "nsfw": false,
+   "platform": "漫画"
+  },
+  {
+   "id": 389699,
+   "name": "並木橋通りアオバ自転車店",
+   "nameCN": "",
+   "image": "https://lain.bgm.tv/pic/cover/m/46/e6/389699_dlksk.jpg",
+   "date": "1999-10-08",
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   }
  ],
  "relate": [
@@ -32,6 +62,31 @@
    "relate": "相同世界观",
    "src": 275227,
    "dst": 275222
+  },
+  {
+   "relate": "续集",
+   "src": 389673,
+   "dst": 275222
+  },
+  {
+   "relate": "前传",
+   "src": 389673,
+   "dst": 389698
+  },
+  {
+   "relate": "续集",
+   "src": 389698,
+   "dst": 389673
+  },
+  {
+   "relate": "前传",
+   "src": 389698,
+   "dst": 389699
+  },
+  {
+   "relate": "续集",
+   "src": 389699,
+   "dst": 389698
   }
  ]
 }
