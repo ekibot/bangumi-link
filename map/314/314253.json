@@ -198,20 +198,24 @@
    "image": "https://lain.bgm.tv/pic/cover/m/77/a1/120795_iC82H.jpg",
    "date": null,
    "nsfw": false,
-   "platform": "漫画"
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 128337,
    "name": "THE IDOLM@STER",
    "nameCN": "偶像大师",
    "image": "https://lain.bgm.tv/pic/cover/m/d6/fb/128337_I41D1.jpg",
-   "type": 1
+   "type": 1,
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   },
   {
    "id": 130231,
    "name": "アイドルマスター シンデレラガールズ 2ndシーズン",
    "nameCN": "偶像大师 灰姑娘女孩 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/a9/130231_75sv7.jpg",
+   "image": "https://lain.bgm.tv/pic/cover/m/6d/a9/130231_YPZJn.jpg",
    "date": "2015-07-17",
    "type": 2,
    "nsfw": false,
@@ -1032,6 +1036,16 @@
    "relate": "前传",
    "src": 120795,
    "dst": 11577
+  },
+  {
+   "relate": "前传",
+   "src": 120795,
+   "dst": 128337
+  },
+  {
+   "relate": "续集",
+   "src": 128337,
+   "dst": 120795
   },
   {
    "relate": "前传",

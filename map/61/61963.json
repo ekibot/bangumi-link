@@ -58,7 +58,28 @@
    "image": "https://lain.bgm.tv/pic/cover/m/d9/38/390094_sSXZC.jpg",
    "date": null,
    "nsfw": false,
+   "platform": "漫画",
+   "type": 1
+  },
+  {
+   "id": 390425,
+   "name": "武神海虎．地獄",
+   "nameCN": "武神海虎地狱",
+   "image": "https://lain.bgm.tv/pic/cover/m/16/5b/390425_EcuC7.jpg",
+   "type": 1,
+   "date": null,
+   "nsfw": false,
    "platform": "漫画"
+  },
+  {
+   "id": 390426,
+   "name": "武神終極",
+   "nameCN": "武神终极",
+   "image": "https://lain.bgm.tv/pic/cover/m/5e/01/390426_a50n0.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画",
+   "type": 1
   }
  ],
  "relate": [
@@ -116,6 +137,21 @@
    "relate": "相同世界观",
    "src": 390094,
    "dst": 99863
+  },
+  {
+   "relate": "前传",
+   "src": 390425,
+   "dst": 390094
+  },
+  {
+   "relate": "续集",
+   "src": 390425,
+   "dst": 390426
+  },
+  {
+   "relate": "前传",
+   "src": 390426,
+   "dst": 390425
   }
  ]
 }
