@@ -242,6 +242,16 @@
    "platform": "日剧"
   },
   {
+   "id": 231247,
+   "name": "ULTRAMAN",
+   "nameCN": "机动奥特曼",
+   "image": "https://lain.bgm.tv/pic/cover/m/37/75/231247_1Cc81.jpg",
+   "date": "2019-04-01",
+   "nsfw": false,
+   "platform": "WEB",
+   "type": 2
+  },
+  {
    "id": 281078,
    "name": "ウルトラマン THE FIRST",
    "image": "https://lain.bgm.tv/pic/cover/m/f2/99/281078_6hsKH.jpg",
@@ -259,6 +269,16 @@
    "type": 6,
    "nsfw": false,
    "platform": "其他"
+  },
+  {
+   "id": 284510,
+   "name": "ULTRAMAN Season 2",
+   "nameCN": "机动奥特曼 第二季",
+   "image": "https://lain.bgm.tv/pic/cover/m/35/af/284510_GYp2b.jpg",
+   "date": "2022-04-14",
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
   },
   {
    "id": 289481,
@@ -449,6 +469,25 @@
    "type": 6,
    "nsfw": false,
    "platform": "日剧"
+  },
+  {
+   "id": 378504,
+   "name": "ULTRAMAN Final Season",
+   "nameCN": "机动奥特曼 最终季",
+   "image": "https://lain.bgm.tv/pic/cover/m/4a/ee/378504_2B0oS.jpg",
+   "date": null,
+   "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
+  },
+  {
+   "id": 390863,
+   "name": "ULTRAMAN",
+   "nameCN": "奥特曼",
+   "image": "",
+   "date": null,
+   "nsfw": false,
+   "platform": "WEB"
   }
  ],
  "relate": [
@@ -809,6 +848,16 @@
   },
   {
    "relate": "不同演绎",
+   "src": 231247,
+   "dst": 38650
+  },
+  {
+   "relate": "续集",
+   "src": 231247,
+   "dst": 284510
+  },
+  {
+   "relate": "不同演绎",
    "src": 281078,
    "dst": 38650
   },
@@ -816,6 +865,16 @@
    "relate": "不同演绎",
    "src": 283379,
    "dst": 38650
+  },
+  {
+   "relate": "前传",
+   "src": 284510,
+   "dst": 231247
+  },
+  {
+   "relate": "续集",
+   "src": 284510,
+   "dst": 378504
   },
   {
    "relate": "主线故事",
@@ -926,6 +985,16 @@
    "relate": "相同世界观",
    "src": 366359,
    "dst": 333282
+  },
+  {
+   "relate": "前传",
+   "src": 378504,
+   "dst": 284510
+  },
+  {
+   "relate": "不同演绎",
+   "src": 390863,
+   "dst": 38650
   }
  ]
 }
