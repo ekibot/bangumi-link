@@ -1743,7 +1743,8 @@
    "image": "https://lain.bgm.tv/pic/cover/m/f1/fd/349441_zow6j.jpg",
    "date": null,
    "nsfw": false,
-   "platform": "TV"
+   "platform": "TV",
+   "type": 2
   },
   {
    "id": 349442,
@@ -1815,6 +1816,15 @@
    "date": null,
    "nsfw": false,
    "platform": "漫画"
+  },
+  {
+   "id": 391706,
+   "name": "機動戦士ガンダム 水星の魔女 PROLOGUE",
+   "nameCN": "机动战士高达 水星的魔女 PROLOGUE",
+   "image": "https://lain.bgm.tv/pic/cover/m/2a/9c/391706_YCinX.jpg",
+   "date": "2022-07-14",
+   "nsfw": false,
+   "platform": "剧场版"
   }
  ],
  "relate": [
@@ -3862,6 +3872,11 @@
    "relate": "主线故事",
    "src": 390083,
    "dst": 1860
+  },
+  {
+   "relate": "续集",
+   "src": 391706,
+   "dst": 349441
   }
  ]
 }
