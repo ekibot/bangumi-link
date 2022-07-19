@@ -40,6 +40,26 @@
    "type": 4,
    "nsfw": false,
    "platform": "全部游戏"
+  },
+  {
+   "id": 392299,
+   "name": "MotoGP 21",
+   "nameCN": "摩托GP21",
+   "image": "https://lain.bgm.tv/pic/cover/m/eb/77/392299_WhwsB.jpg",
+   "date": "2021-04-22",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
+  },
+  {
+   "id": 392300,
+   "name": "MotoGP 22",
+   "nameCN": "摩托GP22",
+   "image": "https://lain.bgm.tv/pic/cover/m/81/40/392300_4247x.jpg",
+   "type": 4,
+   "date": "2022-04-21",
+   "nsfw": false,
+   "platform": "全部游戏"
   }
  ],
  "relate": [
@@ -72,6 +92,21 @@
    "relate": "续集",
    "src": 322754,
    "dst": 322752
+  },
+  {
+   "relate": "前传",
+   "src": 392299,
+   "dst": 322752
+  },
+  {
+   "relate": "续集",
+   "src": 392299,
+   "dst": 392300
+  },
+  {
+   "relate": "前传",
+   "src": 392300,
+   "dst": 392299
   }
  ]
 }
