@@ -22,6 +22,16 @@
    "type": 4
   },
   {
+   "id": 85709,
+   "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+   "nameCN": "激龟快打",
+   "image": "https://lain.bgm.tv/pic/cover/m/97/ea/85709_W54c0.jpg",
+   "date": null,
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
+  },
+  {
    "id": 128671,
    "name": "T.M.N.T タートルズ",
    "nameCN": "忍者神龟2",
@@ -37,6 +47,26 @@
    "nameCN": "忍者神龟：时空武士",
    "image": "https://lain.bgm.tv/pic/cover/m/8d/a9/128676_wiuGG.jpg",
    "date": null,
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
+  },
+  {
+   "id": 128691,
+   "name": "T.M.N.T. トーナメントファイターズ",
+   "nameCN": "忍者神龟格斗",
+   "image": "https://lain.bgm.tv/pic/cover/m/8f/b2/128691_qQtqJ.jpg",
+   "date": "1993-12-10",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
+  },
+  {
+   "id": 128695,
+   "name": "ティーンエイジ・ミュータント・ニンジャ・タートルズ：ミュータント・ウォーリアーズ",
+   "nameCN": "忍者神龟格斗",
+   "image": "https://lain.bgm.tv/pic/cover/m/4e/2f/128695_f3K06.jpg",
+   "date": "1993-12-03",
    "type": 4,
    "nsfw": false,
    "platform": "全部游戏"
@@ -59,6 +89,21 @@
    "dst": 128671
   },
   {
+   "relate": "前传",
+   "src": 85709,
+   "dst": 47246
+  },
+  {
+   "relate": "不同演绎",
+   "src": 85709,
+   "dst": 128691
+  },
+  {
+   "relate": "不同演绎",
+   "src": 85709,
+   "dst": 128695
+  },
+  {
    "relate": "续集",
    "src": 128671,
    "dst": 47246
@@ -72,6 +117,26 @@
    "relate": "前传",
    "src": 128676,
    "dst": 47246
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128691,
+   "dst": 85709
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128691,
+   "dst": 128695
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128695,
+   "dst": 85709
+  },
+  {
+   "relate": "不同演绎",
+   "src": 128695,
+   "dst": 128691
   }
  ]
 }
