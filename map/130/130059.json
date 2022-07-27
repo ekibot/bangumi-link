@@ -482,6 +482,16 @@
    "platform": "其他"
   },
   {
+   "id": 130057,
+   "name": "Blade",
+   "nameCN": "刀锋战士",
+   "image": "https://lain.bgm.tv/pic/cover/m/55/01/130057_wTK4F.jpg",
+   "date": "1998-08-21",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
+  },
+  {
    "id": 130059,
    "name": "X-Men",
    "nameCN": "X战警",
@@ -490,6 +500,36 @@
    "type": 2,
    "nsfw": false,
    "platform": "TV"
+  },
+  {
+   "id": 130060,
+   "name": "Blade II",
+   "nameCN": "刀锋战士2",
+   "image": "https://lain.bgm.tv/pic/cover/m/40/ca/130060_LI06u.jpg",
+   "date": "2002-03-22",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
+   "id": 130061,
+   "name": "Blade: Trinity",
+   "nameCN": "刀锋战士3",
+   "image": "https://lain.bgm.tv/pic/cover/m/9a/03/130061_kDZcC.jpg",
+   "date": "2004-12-08",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
+   "id": 130062,
+   "name": "Blade: The Series",
+   "nameCN": "刀锋战士 电视剧版",
+   "image": "https://lain.bgm.tv/pic/cover/m/0a/15/130062_LVMcY.jpg",
+   "date": "2006-06-28",
+   "type": 6,
+   "nsfw": false,
+   "platform": "欧美剧"
   },
   {
    "id": 130121,
@@ -1360,6 +1400,16 @@
    "platform": "其他"
   },
   {
+   "id": 286962,
+   "name": "Marvel's Blade",
+   "nameCN": "刀锋战士",
+   "image": "https://lain.bgm.tv/pic/cover/m/bb/35/286962_7pLtg.jpg",
+   "date": "2023-11-03",
+   "type": 6,
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
    "id": 286963,
    "name": "What If...? Season 1",
    "nameCN": "假如…？ 第一季",
@@ -1626,6 +1676,26 @@
    "date": null,
    "nsfw": false,
    "platform": "欧美剧"
+  },
+  {
+   "id": 393438,
+   "name": "Avengers: The Kang Dynasty",
+   "nameCN": "复仇者联盟：康之王朝",
+   "image": "https://lain.bgm.tv/pic/cover/m/f8/dc/393438_rDs6y.jpg",
+   "type": 6,
+   "date": "2025-05-02",
+   "nsfw": false,
+   "platform": "其他"
+  },
+  {
+   "id": 393439,
+   "name": "Avengers: Secret Wars",
+   "nameCN": "复仇者联盟：秘密战争",
+   "image": "https://lain.bgm.tv/pic/cover/m/59/3f/393439_BQcb8.jpg",
+   "date": "2025-11-07",
+   "nsfw": false,
+   "platform": "其他",
+   "type": 6
   }
  ],
  "relate": [
@@ -3240,6 +3310,21 @@
    "dst": 223003
   },
   {
+   "relate": "续集",
+   "src": 130057,
+   "dst": 130060
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130057,
+   "dst": 130062
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130057,
+   "dst": 286962
+  },
+  {
    "relate": "不同演绎",
    "src": 130059,
    "dst": 10600
@@ -3258,6 +3343,31 @@
    "relate": "相同世界观",
    "src": 130059,
    "dst": 213777
+  },
+  {
+   "relate": "前传",
+   "src": 130060,
+   "dst": 130057
+  },
+  {
+   "relate": "续集",
+   "src": 130060,
+   "dst": 130061
+  },
+  {
+   "relate": "前传",
+   "src": 130061,
+   "dst": 130060
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130062,
+   "dst": 130057
+  },
+  {
+   "relate": "不同演绎",
+   "src": 130062,
+   "dst": 286962
   },
   {
    "relate": "相同世界观",
@@ -5610,6 +5720,21 @@
    "dst": 133238
   },
   {
+   "relate": "相同世界观",
+   "src": 286962,
+   "dst": 39162
+  },
+  {
+   "relate": "不同演绎",
+   "src": 286962,
+   "dst": 130057
+  },
+  {
+   "relate": "不同演绎",
+   "src": 286962,
+   "dst": 130062
+  },
+  {
    "relate": "不同演绎",
    "src": 286963,
    "dst": 39162
@@ -5853,6 +5978,21 @@
    "relate": "不同演绎",
    "src": 392957,
    "dst": 126726
+  },
+  {
+   "relate": "前传",
+   "src": 393438,
+   "dst": 133243
+  },
+  {
+   "relate": "续集",
+   "src": 393438,
+   "dst": 393439
+  },
+  {
+   "relate": "前传",
+   "src": 393439,
+   "dst": 393438
   }
  ]
 }
