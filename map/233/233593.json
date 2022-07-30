@@ -13,8 +13,8 @@
   },
   {
    "id": 298070,
-   "name": "非人哉 第三季",
-   "nameCN": "非人哉 第三季",
+   "name": "非人哉 Part.3",
+   "nameCN": "非人哉 第三部分",
    "image": "https://lain.bgm.tv/pic/cover/m/f9/b6/298070_3j9hQ.jpg",
    "date": "2020-01-08",
    "nsfw": false,
@@ -23,8 +23,8 @@
   },
   {
    "id": 308545,
-   "name": "非人哉 第四季",
-   "nameCN": "非人哉 第四季",
+   "name": "非人哉 Part.4",
+   "nameCN": "非人哉 第四部分",
    "image": "https://lain.bgm.tv/pic/cover/m/8b/fd/308545_i0G71.jpg",
    "date": "2020-06-17",
    "type": 2,
@@ -33,8 +33,8 @@
   },
   {
    "id": 312629,
-   "name": "非人哉 第二季",
-   "nameCN": "非人哉 第二季",
+   "name": "非人哉 Part.2",
+   "nameCN": "非人哉 第二部分",
    "image": "https://lain.bgm.tv/pic/cover/m/09/76/312629_IRXLs.jpg",
    "date": "2018-07-26",
    "type": 2,
@@ -43,21 +43,31 @@
   },
   {
    "id": 328512,
-   "name": "非人哉 第五季",
+   "name": "非人哉 Part.5",
    "image": "https://lain.bgm.tv/pic/cover/m/b0/bd/328512_C0BVj.jpg",
    "date": "2021-02-10",
-   "nameCN": "",
+   "nameCN": "非人哉 第五部分",
    "type": 2,
    "nsfw": false,
    "platform": "WEB"
   },
   {
    "id": 341360,
-   "name": "非人哉 第六季",
+   "name": "非人哉 Part.6",
    "image": "https://lain.bgm.tv/pic/cover/m/15/90/341360_VnQZB.jpg",
    "date": "2021-07-21",
-   "nameCN": "",
+   "nameCN": "非人哉 第六部分",
    "type": 2,
+   "nsfw": false,
+   "platform": "WEB"
+  },
+  {
+   "id": 393947,
+   "name": "非人哉 第2季",
+   "nameCN": "非人哉 第二季",
+   "image": "https://lain.bgm.tv/pic/cover/m/44/1f/393947_ffWGn.jpg",
+   "type": 2,
+   "date": "2022-08-10",
    "nsfw": false,
    "platform": "WEB"
   }
@@ -112,6 +122,16 @@
    "relate": "前传",
    "src": 341360,
    "dst": 328512
+  },
+  {
+   "relate": "续集",
+   "src": 341360,
+   "dst": 393947
+  },
+  {
+   "relate": "前传",
+   "src": 393947,
+   "dst": 341360
   }
  ]
 }
