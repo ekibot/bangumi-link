@@ -8,14 +8,18 @@
    "image": "https://lain.bgm.tv/pic/cover/m/6d/f7/175509_qNGNn.jpg",
    "date": "2013-06-21",
    "nsfw": false,
-   "platform": "漫画"
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 382535,
    "name": "コウノドリ 新型コロナウイルス編",
    "nameCN": "",
    "image": "https://lain.bgm.tv/pic/cover/m/84/5a/382535_UjXBB.jpg",
-   "type": 1
+   "type": 1,
+   "date": null,
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -23,6 +27,11 @@
    "relate": "续集",
    "src": 175509,
    "dst": 382535
+  },
+  {
+   "relate": "前传",
+   "src": 382535,
+   "dst": 175509
   }
  ]
 }
