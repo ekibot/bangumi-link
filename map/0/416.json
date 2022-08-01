@@ -63,13 +63,42 @@
   },
   {
    "id": 42700,
-   "name": "SDガンダム GGENERATION OVERWORLD",
+   "name": "SDガンダム ジージェネレーション オーバーワールド",
    "nameCN": "SD高达G世纪 超越世界",
    "image": "https://lain.bgm.tv/pic/cover/m/ae/92/42700_MaYV3.jpg",
    "date": "2012-09-27",
    "type": 4,
    "nsfw": false,
    "platform": "全部游戏"
+  },
+  {
+   "id": 167728,
+   "name": "SD GUNDAM G Generation Genesis",
+   "nameCN": "SD高达G世纪 创世",
+   "image": "https://lain.bgm.tv/pic/cover/m/1a/99/167728_TCUYH.jpg",
+   "date": "2016-11-22",
+   "nsfw": false,
+   "platform": "全部游戏",
+   "type": 4
+  },
+  {
+   "id": 273390,
+   "name": "SDガンダム ジージェネレーション クロスレイズ",
+   "nameCN": "SD高达G世纪 火线纵横",
+   "image": "https://lain.bgm.tv/pic/cover/m/ed/42/273390_fc2lF.jpg",
+   "date": "2019-11-28",
+   "type": 4,
+   "nsfw": false,
+   "platform": "全部游戏"
+  },
+  {
+   "id": 349843,
+   "name": "SDガンダム GGENERATION ADVANCE",
+   "nameCN": "SD高达G世纪 ADVANCE",
+   "image": "https://lain.bgm.tv/pic/cover/m/fe/57/349843_e42cD.jpg",
+   "date": "2003-11-27",
+   "nsfw": false,
+   "platform": "GameCube"
   }
  ],
  "relate": [
@@ -127,6 +156,26 @@
    "relate": "前传",
    "src": 42700,
    "dst": 12349
+  },
+  {
+   "relate": "前传",
+   "src": 167728,
+   "dst": 42700
+  },
+  {
+   "relate": "续集",
+   "src": 167728,
+   "dst": 273390
+  },
+  {
+   "relate": "前传",
+   "src": 273390,
+   "dst": 167728
+  },
+  {
+   "relate": "续集",
+   "src": 349843,
+   "dst": 416
   }
  ]
 }
