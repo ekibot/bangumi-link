@@ -8,14 +8,18 @@
    "image": "https://lain.bgm.tv/pic/cover/m/f0/ce/255533_O35vK.jpg",
    "date": "2015-10-06",
    "nsfw": false,
-   "platform": "漫画"
+   "platform": "漫画",
+   "type": 1
   },
   {
    "id": 359865,
    "name": "スモーキング・サベージ",
    "nameCN": "",
    "image": "https://lain.bgm.tv/pic/cover/m/12/6f/359865_1PoKj.jpg",
-   "type": 1
+   "type": 1,
+   "date": "2018-11-26",
+   "nsfw": false,
+   "platform": "漫画"
   }
  ],
  "relate": [
@@ -23,6 +27,11 @@
    "relate": "续集",
    "src": 255533,
    "dst": 359865
+  },
+  {
+   "relate": "前传",
+   "src": 359865,
+   "dst": 255533
   }
  ]
 }

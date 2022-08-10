@@ -23,7 +23,7 @@
   },
   {
    "id": 240760,
-   "name": "モブサイコ100 II",
+   "name": "モブサイコ100 Ⅱ",
    "nameCN": "灵能百分百 第二季",
    "image": "https://lain.bgm.tv/pic/cover/m/8e/c7/240760_xB0VY.jpg",
    "date": "2019-01-07",
@@ -43,13 +43,23 @@
   },
   {
    "id": 353605,
-   "name": "モブサイコ100 III",
+   "name": "モブサイコ100 Ⅲ",
    "nameCN": "灵能百分百 第三季",
    "image": "https://lain.bgm.tv/pic/cover/m/ac/c4/353605_ud8uX.jpg",
-   "date": null,
+   "date": "2022-10-05",
    "type": 2,
    "nsfw": false,
    "platform": "TV"
+  },
+  {
+   "id": 395420,
+   "name": "塩中放送部",
+   "nameCN": "盐中放送部",
+   "image": "",
+   "type": 6,
+   "date": "2018-09-21",
+   "nsfw": false,
+   "platform": "其他"
   }
  ],
  "relate": [
@@ -94,6 +104,11 @@
    "dst": 353605
   },
   {
+   "relate": "衍生",
+   "src": 240760,
+   "dst": 395420
+  },
+  {
    "relate": "主线故事",
    "src": 279700,
    "dst": 240760
@@ -101,6 +116,11 @@
   {
    "relate": "前传",
    "src": 353605,
+   "dst": 240760
+  },
+  {
+   "relate": "衍生",
+   "src": 395420,
    "dst": 240760
   }
  ]
