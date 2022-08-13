@@ -1,14 +1,24 @@
-# rm dump.zip
-# wget https://github.com/bangumi/Archive/releases/download/archive/dump.zip
+echo "load archive ..."
+
+rm dump.zip
+wget https://github.com/bangumi/Archive/releases/download/archive/dump.zip
 
 rm -r ./archive
 unzip dump.zip -d ./archive
 
-cd data
-git pull
-cd ..
+echo "fetch data ..."
+
+rm -r ./data
+git clone --depth 1 https://${GH_TOKEN}@github.com/ekibot/bangumi-link.git data
+
+echo "extracting ..."
+
 yarn install
+yarn add bangumi-data@latest
 node src/extract.js
+
+echo "commit change ..."
+
 cd data
 git config --local user.email "soekibun+bot@gmail.com"
 git config --local user.name "ekibot"

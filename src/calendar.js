@@ -41,7 +41,7 @@ function getChinaDate(item) {
 
 const calendar = {};
 const now = moment();
-getArchive('episode').forEach((ep) => {
+getArchive('episode', (ep) => {
   if (!ep.airdate) return;
   const airdate = moment(ep.airdate);
   const diff = now.diff(airdate, 'day');

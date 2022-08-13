@@ -1,8 +1,6 @@
 name: build docker
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   push:
     branches:
       - spider

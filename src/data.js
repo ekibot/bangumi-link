@@ -1,13 +1,14 @@
+/* eslint-disable camelcase */
 const fs = require('fs');
 
 /**
  * parse archive json lines
  * @param {string} name
  */
-const getArchive = (name) => fs.readFileSync(`archive/${name}.jsonlines`)
+const getArchive = (name, map) => fs.readFileSync(`archive/${name}.jsonlines`)
   .toString().split('\n').map((v) => {
     try {
-      return JSON.parse(v);
+      return map(JSON.parse(v));
     } catch (e) {
       return undefined;
     }
@@ -81,8 +82,8 @@ const subjectCacheFile = 'archive/subject.json';
  */
 const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(subjectCacheFile))
   : (() => {
-    const _subjects = Object.fromEntries(getArchive('subject').map((v) => {
-      // process.stdout.write(`processing subject ${v.id}\r`);
+    const _subjects = Object.fromEntries(getArchive('subject', (v) => {
+      process.stdout.write(`processing subject ${v.id}\r`);
       const infobox = parseInfoBox(v.infobox);
       let date;
       const week = ([
@@ -98,7 +99,11 @@ const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(su
         }
       }
       return [v.id, {
-        ...v,
+        id: v.id,
+        name: v.name,
+        name_cn: v.name_cn,
+        type: v.type,
+        nsfw: v.nsfw,
         date,
         week,
         platform: platformInfo[v.type]?.[v.platform].type_cn,

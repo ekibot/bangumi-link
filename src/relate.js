@@ -21,7 +21,7 @@ const acceptRelate = '前传|续集|总集篇|全集|番外篇|相同世界观|�
  * "order":5
  * }}}
  */
-getArchive('subject-relations').forEach((v) => {
+getArchive('subject-relations', (v) => {
   const srcSubject = subjects[v.subject_id];
   const dstSubject = subjects[v.related_subject_id];
   if (!srcSubject || !dstSubject) return;
@@ -64,7 +64,7 @@ getArchive('subject-relations').forEach((v) => {
   }
 }, {});
 
-process.stdout.write('process subject relations done\r');
+process.stdout.write('process subject relations done\n');
 
 function rmdirs(url) {
   if (fs.existsSync(url)) {
@@ -99,13 +99,11 @@ rmdirs('data/map');
 rmdirs('data/node');
 
 Object.keys(bgmIdToMapId).forEach((id) => {
-  // process.stdout.write(`writting subject relations node ${index}/${arr.length} ...\r`);
   const mapId = bgmIdToMapId[id];
   const filePath = `./data/node/${Math.floor(id / 1000)}/${id}`;
   writeFileSync(filePath, mapId.toString());
 });
 Object.keys(maps).forEach((id) => {
-  // process.stdout.write(`writting subject relations map ${index}/${arr.length} ...\r`);
   const filePath = `./data/map/${Math.floor(id / 1000)}/${id}.json`;
   const map = maps[id];
   writeFileSync(filePath, JSON.stringify({
