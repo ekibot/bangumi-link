@@ -34,6 +34,7 @@ getArchive('subject-relations', (v) => {
     const mapId = Math.min(mapIdSrc, mapIdDst, v.subject_id, v.related_subject_id);
     // map附加记录
     const map = maps[mapId] ?? {
+      id: mapId.toString(),
       node: [],
       relate: [],
     };
@@ -106,19 +107,21 @@ Object.keys(bgmIdToMapId).forEach((id) => {
 Object.keys(maps).forEach((id) => {
   const filePath = `./data/map/${Math.floor(id / 1000)}/${id}.json`;
   const map = maps[id];
-  writeFileSync(filePath, JSON.stringify({
-    id,
-    node: map.node.map((node) => ({
-      id: node.id,
-      name: node.name,
-      nameCN: node.name_cn,
-      date: node.date,
-      type: node.type,
-      nsfw: node.nsfw,
-      platform: node.platform,
-    })),
-    relate: map.relate,
-  }, null, 2));
+  map.node = map.node.map((node) => ({
+    id: node.id,
+    name: node.name,
+    nameCN: node.name_cn,
+    date: node.date,
+    type: node.type,
+    nsfw: node.nsfw,
+    platform: node.platform,
+  }));
+  writeFileSync(filePath, JSON.stringify(map, null, 2));
 });
+
+fs.writeFileSync('./data/relate.json', JSON.stringify({
+  ids: bgmIdToMapId,
+  maps,
+}));
 
 process.stdout.write('writting subject relations done. \n');

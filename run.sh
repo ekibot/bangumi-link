@@ -26,3 +26,8 @@ time=$(date "+%Y%m%d%H%M%S")
 git add . -v
 git commit -m "Update at $time"
 git push
+
+echo "update jsdelivr ..."
+
+curl https://purge.jsdelivr.net/gh/ekibot/bangumi-link/calendar.json
+curl https://purge.jsdelivr.net/gh/ekibot/bangumi-link/relate.json
