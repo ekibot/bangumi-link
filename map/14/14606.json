@@ -1,37 +1,35 @@
 {
- "id": 14606,
- "node": [
-  {
-   "id": 14606,
-   "name": "勝あしたの雪之丞2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/80/14606_7T7cc.jpg",
-   "date": "2002-09-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 29416,
-   "name": "あしたの雪之丞",
-   "nameCN": "明日的雪之丞",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/6b/29416_4izz3.jpg",
-   "date": "2001-08-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 14606,
-   "dst": 29416
-  },
-  {
-   "relate": "续集",
-   "src": 29416,
-   "dst": 14606
-  }
- ]
+  "id": "14606",
+  "node": [
+    {
+      "id": 14606,
+      "name": "勝あしたの雪之丞2",
+      "nameCN": "",
+      "date": "2002-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 29416,
+      "name": "あしたの雪之丞",
+      "nameCN": "明日的雪之丞",
+      "date": "2001-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 14606,
+      "dst": 29416
+    },
+    {
+      "relateString": "续集",
+      "src": 29416,
+      "dst": 14606
+    }
+  ]
 }

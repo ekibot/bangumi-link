@@ -1,37 +1,35 @@
 {
- "id": 8509,
- "node": [
-  {
-   "id": 8509,
-   "name": "倒凶十将伝",
-   "nameCN": "倒凶十将传",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/0b/8509_oHfVh.jpg",
-   "date": "1999-07-23",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 222321,
-   "name": "倒凶十将伝 封魔五行伝承",
-   "nameCN": "倒凶十将传 封魔五行传承",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/2b/222321_ckb24.jpg",
-   "date": "2001-08-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8509,
-   "dst": 222321
-  },
-  {
-   "relate": "前传",
-   "src": 222321,
-   "dst": 8509
-  }
- ]
+  "id": "8509",
+  "node": [
+    {
+      "id": 8509,
+      "name": "倒凶十将伝",
+      "nameCN": "倒凶十将传",
+      "date": "1999-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 222321,
+      "name": "倒凶十将伝 封魔五行伝承",
+      "nameCN": "倒凶十将传 封魔五行传承",
+      "date": "2001-08-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8509,
+      "dst": 222321
+    },
+    {
+      "relateString": "前传",
+      "src": 222321,
+      "dst": 8509
+    }
+  ]
 }

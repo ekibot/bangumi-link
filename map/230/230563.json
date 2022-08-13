@@ -1,37 +1,35 @@
 {
- "id": 230563,
- "node": [
-  {
-   "id": 230563,
-   "name": "千年時計",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/67/230563_zNM45.jpg",
-   "date": "2015-08-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 296364,
-   "name": "Cruel Capriccio～λの狂想曲～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/f5/296364_D6X78.jpg",
-   "date": "2013-03-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 230563,
-   "dst": 296364
-  },
-  {
-   "relate": "续集",
-   "src": 296364,
-   "dst": 230563
-  }
- ]
+  "id": "230563",
+  "node": [
+    {
+      "id": 230563,
+      "name": "千年時計",
+      "nameCN": "",
+      "date": "2015-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 296364,
+      "name": "Cruel Capriccio～λの狂想曲～",
+      "nameCN": "",
+      "date": "2013-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 230563,
+      "dst": 296364
+    },
+    {
+      "relateString": "续集",
+      "src": 296364,
+      "dst": 230563
+    }
+  ]
 }

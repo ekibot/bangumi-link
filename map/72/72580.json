@@ -1,77 +1,71 @@
 {
- "id": 72580,
- "node": [
-  {
-   "id": 72580,
-   "name": "終わりのセラフ",
-   "nameCN": "终结的炽天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/99/72580_J2634.jpg",
-   "date": "2013-01-04",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 121525,
-   "name": "終わりのセラフ 一瀬グレン、16歳の破滅",
-   "nameCN": "终结的炽天使 一濑红莲、16岁的破灭",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/0d/121525_89Xxz.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 172206,
-   "name": "終わりのセラフ 吸血鬼ミカエラの物語",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/81/172206_uGmmU.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 231657,
-   "name": "終わりのセラフ 一瀬グレン、19歳の世界再誕",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/57/231657_sA8Kk.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 72580,
-   "dst": 121525
-  },
-  {
-   "relate": "番外篇",
-   "src": 72580,
-   "dst": 172206
-  },
-  {
-   "relate": "续集",
-   "src": 121525,
-   "dst": 72580
-  },
-  {
-   "relate": "续集",
-   "src": 121525,
-   "dst": 231657
-  },
-  {
-   "relate": "主线故事",
-   "src": 172206,
-   "dst": 72580
-  },
-  {
-   "relate": "前传",
-   "src": 231657,
-   "dst": 121525
-  }
- ]
+  "id": "72580",
+  "node": [
+    {
+      "id": 72580,
+      "name": "終わりのセラフ",
+      "nameCN": "终结的炽天使",
+      "date": "2013-01-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121525,
+      "name": "終わりのセラフ 一瀬グレン、16歳の破滅",
+      "nameCN": "终结的炽天使 一濑红莲、16岁的破灭",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 172206,
+      "name": "終わりのセラフ 吸血鬼ミカエラの物語",
+      "nameCN": "",
+      "date": "2015-12-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 231657,
+      "name": "終わりのセラフ 一瀬グレン、19歳の世界再誕",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 72580,
+      "dst": 121525
+    },
+    {
+      "relateString": "番外篇",
+      "src": 72580,
+      "dst": 172206
+    },
+    {
+      "relateString": "续集",
+      "src": 121525,
+      "dst": 72580
+    },
+    {
+      "relateString": "续集",
+      "src": 121525,
+      "dst": 231657
+    },
+    {
+      "relateString": "主线故事",
+      "src": 172206,
+      "dst": 72580
+    },
+    {
+      "relateString": "前传",
+      "src": 231657,
+      "dst": 121525
+    }
+  ]
 }

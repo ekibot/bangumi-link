@@ -1,71 +1,68 @@
 {
- "id": 2030,
- "node": [
-  {
-   "id": 2030,
-   "name": "Dungeon Siege",
-   "nameCN": "地牢围攻",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/57/2030_PnzVw.jpg",
-   "date": "2002-04-10",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 2031,
-   "name": "Dungeon Siege 2",
-   "nameCN": "地牢围攻2",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/ef/2031_Sd222.jpg",
-   "date": "2005-08-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 2032,
-   "name": "Dungeon Siege II: Broken World",
-   "nameCN": "地牢围攻2: 破碎的世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/52/2032_BgrrP.jpg",
-   "date": "2006-08-22",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 20136,
-   "name": "Dungeon Siege III",
-   "nameCN": "地牢围攻3",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/04/20136_2waiz.jpg",
-   "date": "2011-05-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2030,
-   "dst": 2031
-  },
-  {
-   "relate": "前传",
-   "src": 2031,
-   "dst": 2030
-  },
-  {
-   "relate": "续集",
-   "src": 2031,
-   "dst": 20136
-  },
-  {
-   "relate": "主线故事",
-   "src": 2032,
-   "dst": 2031
-  },
-  {
-   "relate": "前传",
-   "src": 20136,
-   "dst": 2031
-  }
- ]
+  "id": "2030",
+  "node": [
+    {
+      "id": 2030,
+      "name": "Dungeon Siege",
+      "nameCN": "地牢围攻",
+      "date": "2002-04-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 2031,
+      "name": "Dungeon Siege 2",
+      "nameCN": "地牢围攻2",
+      "date": "2005-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 20136,
+      "name": "Dungeon Siege III",
+      "nameCN": "地牢围攻3",
+      "date": "2011-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 2032,
+      "name": "Dungeon Siege II: Broken World",
+      "nameCN": "地牢围攻2: 破碎的世界",
+      "date": "2006-08-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2030,
+      "dst": 2031
+    },
+    {
+      "relateString": "前传",
+      "src": 2031,
+      "dst": 2030
+    },
+    {
+      "relateString": "续集",
+      "src": 2031,
+      "dst": 20136
+    },
+    {
+      "relateString": "主线故事",
+      "src": 2032,
+      "dst": 2031
+    },
+    {
+      "relateString": "前传",
+      "src": 20136,
+      "dst": 2031
+    }
+  ]
 }

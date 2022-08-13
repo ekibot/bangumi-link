@@ -1,0 +1,54 @@
+{
+  "id": "355199",
+  "node": [
+    {
+      "id": 355199,
+      "name": "마당 씨의 식탁",
+      "nameCN": "马当家的饭桌",
+      "date": "2015-05-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355200,
+      "name": "마당 씨의 좋은 시절",
+      "nameCN": "马当家的好时光",
+      "date": "2017-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355201,
+      "name": "마당 씨의 가족 앨범(상)",
+      "nameCN": "马当家的家庭相册",
+      "date": "2019-05-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 355199,
+      "dst": 355200
+    },
+    {
+      "relateString": "前传",
+      "src": 355200,
+      "dst": 355199
+    },
+    {
+      "relateString": "续集",
+      "src": 355200,
+      "dst": 355201
+    },
+    {
+      "relateString": "前传",
+      "src": 355201,
+      "dst": 355200
+    }
+  ]
+}

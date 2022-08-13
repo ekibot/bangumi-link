@@ -1,0 +1,54 @@
+{
+  "id": "76391",
+  "node": [
+    {
+      "id": 76391,
+      "name": "Real Racing",
+      "nameCN": "真实赛车",
+      "date": "2011-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340314,
+      "name": "Real Racing 2",
+      "nameCN": "真实赛车2",
+      "date": "2010-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340316,
+      "name": "Real Racing 3",
+      "nameCN": "真实赛车3",
+      "date": "2013-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76391,
+      "dst": 340314
+    },
+    {
+      "relateString": "前传",
+      "src": 340314,
+      "dst": 76391
+    },
+    {
+      "relateString": "续集",
+      "src": 340314,
+      "dst": 340316
+    },
+    {
+      "relateString": "前传",
+      "src": 340316,
+      "dst": 340314
+    }
+  ]
+}

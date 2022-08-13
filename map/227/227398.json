@@ -1,37 +1,35 @@
 {
- "id": 227398,
- "node": [
-  {
-   "id": 227398,
-   "name": "鉄牌のジャン!",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/50/227398_1Z3fQ.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 243193,
-   "name": "鉄牌のジャン!VR",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 227398,
-   "dst": 243193
-  },
-  {
-   "relate": "前传",
-   "src": 243193,
-   "dst": 227398
-  }
- ]
+  "id": "227398",
+  "node": [
+    {
+      "id": 227398,
+      "name": "鉄牌のジャン!",
+      "nameCN": "",
+      "date": "2015-09-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 243193,
+      "name": "鉄牌のジャン!VR",
+      "nameCN": "",
+      "date": "2018-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 227398,
+      "dst": 243193
+    },
+    {
+      "relateString": "前传",
+      "src": 243193,
+      "dst": 227398
+    }
+  ]
 }

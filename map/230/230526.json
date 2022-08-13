@@ -1,37 +1,33 @@
 {
- "id": 230526,
- "node": [
-  {
-   "id": 230526,
-   "name": "こちら、郵政省特別配達課! (ソノラマノベルス)",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/74/230526_us.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 230829,
-   "name": "追伸・こちら特別配達課 (ソノラマ文庫)",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/42/230829_us.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230526,
-   "dst": 230829
-  },
-  {
-   "relate": "前传",
-   "src": 230829,
-   "dst": 230526
-  }
- ]
+  "id": "230526",
+  "node": [
+    {
+      "id": 230526,
+      "name": "こちら、郵政省特別配達課! (ソノラマノベルス)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 230829,
+      "name": "追伸・こちら特別配達課 (ソノラマ文庫)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230526,
+      "dst": 230829
+    },
+    {
+      "relateString": "前传",
+      "src": 230829,
+      "dst": 230526
+    }
+  ]
 }

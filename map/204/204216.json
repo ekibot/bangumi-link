@@ -1,37 +1,35 @@
 {
- "id": 204216,
- "node": [
-  {
-   "id": 204216,
-   "name": "龍魂–命定–",
-   "nameCN": "龙魂–命定–",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/0f/204216_BU5w5.jpg",
-   "date": "2014-04-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231183,
-   "name": "龍魂–守–",
-   "nameCN": "龙魂–守–",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/2e/231183_BsDz8.jpg",
-   "date": "2017-11-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 204216,
-   "dst": 231183
-  },
-  {
-   "relate": "前传",
-   "src": 231183,
-   "dst": 204216
-  }
- ]
+  "id": "204216",
+  "node": [
+    {
+      "id": 204216,
+      "name": "龍魂–命定–",
+      "nameCN": "龙魂–命定–",
+      "date": "2014-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231183,
+      "name": "龍魂–守–",
+      "nameCN": "龙魂–守–",
+      "date": "2017-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 204216,
+      "dst": 231183
+    },
+    {
+      "relateString": "前传",
+      "src": 231183,
+      "dst": 204216
+    }
+  ]
 }

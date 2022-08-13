@@ -1,57 +1,51 @@
 {
- "id": 123176,
- "node": [
-  {
-   "id": 123176,
-   "name": "神鵰俠侶",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/88/123176_jkFPX.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 123558,
-   "name": "射鵰英雄傳",
-   "nameCN": "射雕英雄传",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/df/123558_2H6tX.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 123722,
-   "name": "倚天屠龍記",
-   "nameCN": "倚天屠龙记",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/3d/123722_uaHhw.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 123176,
-   "dst": 123558
-  },
-  {
-   "relate": "续集",
-   "src": 123176,
-   "dst": 123722
-  },
-  {
-   "relate": "续集",
-   "src": 123558,
-   "dst": 123176
-  },
-  {
-   "relate": "前传",
-   "src": 123722,
-   "dst": 123176
-  }
- ]
+  "id": "123176",
+  "node": [
+    {
+      "id": 123176,
+      "name": "神鵰俠侶",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 123558,
+      "name": "射鵰英雄傳",
+      "nameCN": "射雕英雄传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 123722,
+      "name": "倚天屠龍記",
+      "nameCN": "倚天屠龙记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 123176,
+      "dst": 123558
+    },
+    {
+      "relateString": "续集",
+      "src": 123176,
+      "dst": 123722
+    },
+    {
+      "relateString": "续集",
+      "src": 123558,
+      "dst": 123176
+    },
+    {
+      "relateString": "前传",
+      "src": 123722,
+      "dst": 123176
+    }
+  ]
 }

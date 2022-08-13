@@ -1,37 +1,35 @@
 {
- "id": 68034,
- "node": [
-  {
-   "id": 68034,
-   "name": "In the Flesh (Season 1)",
-   "nameCN": "复生 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/7d/68034_Zrill.jpg",
-   "date": "2013-03-17",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 97925,
-   "name": "In the Flesh (Season 2)",
-   "nameCN": "复生 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/4f/97925_ox800.jpg",
-   "date": "2014-05-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68034,
-   "dst": 97925
-  },
-  {
-   "relate": "前传",
-   "src": 97925,
-   "dst": 68034
-  }
- ]
+  "id": "68034",
+  "node": [
+    {
+      "id": 68034,
+      "name": "In the Flesh (Season 1)",
+      "nameCN": "复生 第一季",
+      "date": "2013-03-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97925,
+      "name": "In the Flesh (Season 2)",
+      "nameCN": "复生 第二季",
+      "date": "2014-05-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68034,
+      "dst": 97925
+    },
+    {
+      "relateString": "前传",
+      "src": 97925,
+      "dst": 68034
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 338002,
- "node": [
-  {
-   "id": 338002,
-   "name": "Club Penguin",
-   "nameCN": "企鹅俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/5a/338002_mzPAI.jpg",
-   "date": "2005-10-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 338003,
-   "name": "Club Penguin Island",
-   "nameCN": "企鹅岛俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/75/338003_DrwY9.jpg",
-   "date": "2017-03-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 338002,
-   "dst": 338003
-  },
-  {
-   "relate": "前传",
-   "src": 338003,
-   "dst": 338002
-  }
- ]
+  "id": "338002",
+  "node": [
+    {
+      "id": 338002,
+      "name": "Club Penguin",
+      "nameCN": "企鹅俱乐部",
+      "date": "2005-10-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 338003,
+      "name": "Club Penguin Island",
+      "nameCN": "企鹅岛俱乐部",
+      "date": "2017-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 338002,
+      "dst": 338003
+    },
+    {
+      "relateString": "前传",
+      "src": 338003,
+      "dst": 338002
+    }
+  ]
 }

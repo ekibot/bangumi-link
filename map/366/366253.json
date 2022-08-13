@@ -1,56 +1,52 @@
 {
- "id": 366253,
- "node": [
-  {
-   "id": 366253,
-   "name": "エスタブライフ グレイトエスケープ",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/e2/366253_9Q1aR.jpg",
-   "date": "2022-04-06",
-   "nameCN": "Estab Life Great Escape",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 366257,
-   "name": "エスタブライフ リベンジャーズロード",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/2c/366257_ZP65d.jpg",
-   "date": null,
-   "nameCN": "Estab Life Revengers Road",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 386334,
-   "name": "エスタブライフ ユニティメモリーズ",
-   "nameCN": "Estab Life Unity Memories",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/12/386334_7n98U.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 366253,
-   "dst": 366257
-  },
-  {
-   "relate": "相同世界观",
-   "src": 366257,
-   "dst": 366253
-  },
-  {
-   "relate": "相同世界观",
-   "src": 386334,
-   "dst": 366253
-  },
-  {
-   "relate": "相同世界观",
-   "src": 386334,
-   "dst": 366257
-  }
- ]
+  "id": "366253",
+  "node": [
+    {
+      "id": 366253,
+      "name": "エスタブライフ グレイトエスケープ",
+      "nameCN": "Estab Life Great Escape",
+      "date": "2022-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 366257,
+      "name": "エスタブライフ リベンジャーズロード",
+      "nameCN": "Estab Life Revengers Road",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 386334,
+      "name": "エスタブライフ ユニティメモリーズ",
+      "nameCN": "Estab Life Unity Memories",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 366253,
+      "dst": 366257
+    },
+    {
+      "relateString": "前传",
+      "src": 366257,
+      "dst": 366253
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 386334,
+      "dst": 366253
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 386334,
+      "dst": 366257
+    }
+  ]
 }

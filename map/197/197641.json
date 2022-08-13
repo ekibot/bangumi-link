@@ -1,37 +1,35 @@
 {
- "id": 197641,
- "node": [
-  {
-   "id": 197641,
-   "name": "机变英盟",
-   "nameCN": "机变英盟",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/0e/197641_HBHYe.jpg",
-   "date": "2016-11-11",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 229566,
-   "name": "机变英盟 第二季",
-   "nameCN": "机变英盟 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/2c/229566_EbEPx.jpg",
-   "date": "2017-11-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197641,
-   "dst": 229566
-  },
-  {
-   "relate": "前传",
-   "src": 229566,
-   "dst": 197641
-  }
- ]
+  "id": "197641",
+  "node": [
+    {
+      "id": 197641,
+      "name": "机变英盟",
+      "nameCN": "机变英盟",
+      "date": "2016-11-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229566,
+      "name": "机变英盟 第二季",
+      "nameCN": "机变英盟 第二季",
+      "date": "2017-11-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197641,
+      "dst": 229566
+    },
+    {
+      "relateString": "前传",
+      "src": 229566,
+      "dst": 197641
+    }
+  ]
 }

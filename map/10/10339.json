@@ -1,97 +1,92 @@
 {
- "id": 10339,
- "node": [
-  {
-   "id": 10339,
-   "name": "青の祓魔師",
-   "nameCN": "青之驱魔师",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/06/10339_UJ5JJ.jpg",
-   "date": "2011-04-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 28110,
-   "name": "青の祓魔師 クロの家出",
-   "nameCN": "青之驱魔师 小黑出走记",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/10/28110_K5w0z.jpg",
-   "date": "2011-10-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 38070,
-   "name": "青の祓魔師 劇場版",
-   "nameCN": "青之驱魔师 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/df/38070_Twp5d.jpg",
-   "date": "2012-12-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 186034,
-   "name": "青の祓魔師 京都不浄王編",
-   "nameCN": "青之驱魔师 京都不净王篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/c7/186034_Ez2MN.jpg",
-   "date": "2017-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 199630,
-   "name": "青の祓魔師 OAD",
-   "nameCN": "青之驱魔师 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/f6/199630_A7pw5.jpg",
-   "date": "2017-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 10339,
-   "dst": 28110
-  },
-  {
-   "relate": "番外篇",
-   "src": 10339,
-   "dst": 38070
-  },
-  {
-   "relate": "续集",
-   "src": 10339,
-   "dst": 186034
-  },
-  {
-   "relate": "主线故事",
-   "src": 28110,
-   "dst": 10339
-  },
-  {
-   "relate": "主线故事",
-   "src": 38070,
-   "dst": 10339
-  },
-  {
-   "relate": "前传",
-   "src": 186034,
-   "dst": 10339
-  },
-  {
-   "relate": "番外篇",
-   "src": 186034,
-   "dst": 199630
-  },
-  {
-   "relate": "主线故事",
-   "src": 199630,
-   "dst": 186034
-  }
- ]
+  "id": "10339",
+  "node": [
+    {
+      "id": 10339,
+      "name": "青の祓魔師",
+      "nameCN": "青之驱魔师",
+      "date": "2011-04-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 28110,
+      "name": "青の祓魔師 クロの家出",
+      "nameCN": "青之驱魔师 小黑出走记",
+      "date": "2011-10-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 38070,
+      "name": "青の祓魔師 劇場版",
+      "nameCN": "青之驱魔师 剧场版",
+      "date": "2012-12-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 186034,
+      "name": "青の祓魔師 京都不浄王編",
+      "nameCN": "青之驱魔师 京都不净王篇",
+      "date": "2017-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 199630,
+      "name": "青の祓魔師 OAD",
+      "nameCN": "青之驱魔师 OAD",
+      "date": "2017-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 10339,
+      "dst": 28110
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10339,
+      "dst": 38070
+    },
+    {
+      "relateString": "续集",
+      "src": 10339,
+      "dst": 186034
+    },
+    {
+      "relateString": "主线故事",
+      "src": 28110,
+      "dst": 10339
+    },
+    {
+      "relateString": "主线故事",
+      "src": 38070,
+      "dst": 10339
+    },
+    {
+      "relateString": "前传",
+      "src": 186034,
+      "dst": 10339
+    },
+    {
+      "relateString": "番外篇",
+      "src": 186034,
+      "dst": 199630
+    },
+    {
+      "relateString": "主线故事",
+      "src": 199630,
+      "dst": 186034
+    }
+  ]
 }

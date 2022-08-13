@@ -1,37 +1,35 @@
 {
- "id": 124061,
- "node": [
-  {
-   "id": 124061,
-   "name": "正阳门下",
-   "nameCN": "正阳门下",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/c8/124061_SsdUs.jpg",
-   "date": "2013-06-04",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 304963,
-   "name": "正阳门下小女人",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/8b/304963_E85Ml.jpg",
-   "date": "2018-10-16",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124061,
-   "dst": 304963
-  },
-  {
-   "relate": "前传",
-   "src": 304963,
-   "dst": 124061
-  }
- ]
+  "id": "124061",
+  "node": [
+    {
+      "id": 124061,
+      "name": "正阳门下",
+      "nameCN": "正阳门下",
+      "date": "2013-06-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 304963,
+      "name": "正阳门下小女人",
+      "nameCN": "",
+      "date": "2018-10-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124061,
+      "dst": 304963
+    },
+    {
+      "relateString": "前传",
+      "src": 304963,
+      "dst": 124061
+    }
+  ]
 }

@@ -1,49 +1,54 @@
 {
- "id": 809,
- "node": [
-  {
-   "id": 809,
-   "name": "桃華月憚",
-   "nameCN": "桃华月惮",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/b3/809_8wjaw.jpg",
-   "date": "2007-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 1906,
-   "name": "ヤミと帽子と本の旅人",
-   "nameCN": "暗与帽子与书之旅人",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/a9/1906_Ac88k.jpg",
-   "date": "2003-10-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 17652,
-   "name": "顔のない月 -No Surface Moon THE ANIMATION-",
-   "nameCN": "无颜之月",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/43/17652_f2TTp.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 809,
-   "dst": 1906
-  },
-  {
-   "relate": "前传",
-   "src": 809,
-   "dst": 17652
-  },
-  {
-   "relate": "不同世界观",
-   "src": 1906,
-   "dst": 809
-  }
- ]
+  "id": "809",
+  "node": [
+    {
+      "id": 809,
+      "name": "桃華月憚",
+      "nameCN": "桃华月惮",
+      "date": "2007-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 1906,
+      "name": "ヤミと帽子と本の旅人",
+      "nameCN": "暗与帽子与书之旅人",
+      "date": "2003-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 17652,
+      "name": "顔のない月 -No Surface Moon THE ANIMATION-",
+      "nameCN": "无颜之月",
+      "date": "2001-12-08",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 809,
+      "dst": 1906
+    },
+    {
+      "relateString": "前传",
+      "src": 809,
+      "dst": 17652
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 1906,
+      "dst": 809
+    },
+    {
+      "relateString": "续集",
+      "src": 17652,
+      "dst": 809
+    }
+  ]
 }

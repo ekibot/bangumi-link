@@ -1,0 +1,54 @@
+{
+  "id": "79333",
+  "node": [
+    {
+      "id": 79333,
+      "name": "ガーデン",
+      "nameCN": "",
+      "date": "2012-06-28",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 85359,
+      "name": "イマコシステム",
+      "nameCN": "",
+      "date": "2010-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 119833,
+      "name": "ガーデンII",
+      "nameCN": "",
+      "date": "2013-11-29",
+      "type": 1,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 79333,
+      "dst": 85359
+    },
+    {
+      "relateString": "续集",
+      "src": 79333,
+      "dst": 119833
+    },
+    {
+      "relateString": "番外篇",
+      "src": 85359,
+      "dst": 79333
+    },
+    {
+      "relateString": "前传",
+      "src": 119833,
+      "dst": 79333
+    }
+  ]
+}

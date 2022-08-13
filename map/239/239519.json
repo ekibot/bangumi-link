@@ -1,37 +1,35 @@
 {
- "id": 239519,
- "node": [
-  {
-   "id": 239519,
-   "name": "The Suffering",
-   "nameCN": "劫难",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/b5/239519_gD6Ed.jpg",
-   "date": "2004-03-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 242384,
-   "name": "The Suffering: Ties That Bind",
-   "nameCN": "劫难: 困兽",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/3a/242384_aIUaU.jpg",
-   "date": "2005-09-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 239519,
-   "dst": 242384
-  },
-  {
-   "relate": "前传",
-   "src": 242384,
-   "dst": 239519
-  }
- ]
+  "id": "239519",
+  "node": [
+    {
+      "id": 239519,
+      "name": "The Suffering",
+      "nameCN": "劫难",
+      "date": "2004-03-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242384,
+      "name": "The Suffering: Ties That Bind",
+      "nameCN": "劫难: 困兽",
+      "date": "2005-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 239519,
+      "dst": 242384
+    },
+    {
+      "relateString": "前传",
+      "src": 242384,
+      "dst": 239519
+    }
+  ]
 }

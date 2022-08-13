@@ -1,57 +1,53 @@
 {
- "id": 20694,
- "node": [
-  {
-   "id": 20694,
-   "name": "縮小学園",
-   "nameCN": "缩小学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/c7/20694_9JC29.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 302262,
-   "name": "縮小学園外伝〜ハンパネー島の伝説〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/a7/302262_WvpD0.jpg",
-   "date": "2013-08-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 302263,
-   "name": "成恵の日記",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/56/302263_gumSp.jpg",
-   "date": "2013-08-05",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20694,
-   "dst": 302263
-  },
-  {
-   "relate": "前传",
-   "src": 302262,
-   "dst": 302263
-  },
-  {
-   "relate": "前传",
-   "src": 302263,
-   "dst": 20694
-  },
-  {
-   "relate": "续集",
-   "src": 302263,
-   "dst": 302262
-  }
- ]
+  "id": "20694",
+  "node": [
+    {
+      "id": 20694,
+      "name": "縮小学園",
+      "nameCN": "缩小学园",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302263,
+      "name": "成恵の日記",
+      "nameCN": "",
+      "date": "2013-08-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302262,
+      "name": "縮小学園外伝〜ハンパネー島の伝説〜",
+      "nameCN": "",
+      "date": "2013-08-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20694,
+      "dst": 302263
+    },
+    {
+      "relateString": "前传",
+      "src": 302262,
+      "dst": 302263
+    },
+    {
+      "relateString": "前传",
+      "src": 302263,
+      "dst": 20694
+    },
+    {
+      "relateString": "续集",
+      "src": 302263,
+      "dst": 302262
+    }
+  ]
 }

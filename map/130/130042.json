@@ -1,51 +1,49 @@
 {
- "id": 130042,
- "node": [
-  {
-   "id": 130042,
-   "name": "LEGO Marvel Super Heroes",
-   "nameCN": "乐高 漫威 超级英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/3f/130042_k09GK.jpg",
-   "date": "2013-10-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215180,
-   "name": "LEGO Marvel Super Heroes 2",
-   "nameCN": "乐高漫威超级英雄2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/90/215180_NUh3G.jpg",
-   "date": "2017-11-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 263346,
-   "name": "LEGO Marvel's Avengers",
-   "nameCN": "LEGO® 漫威复仇者联盟",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/ed/263346_arvV6.jpg",
-   "date": "2016-01-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130042,
-   "dst": 215180
-  },
-  {
-   "relate": "前传",
-   "src": 215180,
-   "dst": 130042
-  },
-  {
-   "relate": "主线故事",
-   "src": 263346,
-   "dst": 130042
-  }
- ]
+  "id": "130042",
+  "node": [
+    {
+      "id": 130042,
+      "name": "LEGO Marvel Super Heroes",
+      "nameCN": "乐高 漫威 超级英雄",
+      "date": "2013-10-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215180,
+      "name": "LEGO Marvel Super Heroes 2",
+      "nameCN": "乐高漫威超级英雄2",
+      "date": "2017-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 263346,
+      "name": "LEGO Marvel's Avengers",
+      "nameCN": "LEGO® 漫威复仇者联盟",
+      "date": "2016-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130042,
+      "dst": 215180
+    },
+    {
+      "relateString": "前传",
+      "src": 215180,
+      "dst": 130042
+    },
+    {
+      "relateString": "主线故事",
+      "src": 263346,
+      "dst": 130042
+    }
+  ]
 }

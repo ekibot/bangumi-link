@@ -1,37 +1,35 @@
 {
- "id": 86897,
- "node": [
-  {
-   "id": 86897,
-   "name": "ゴールデンタイム 〈7〉I'll be back",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/5a/86897_jp.jpg",
-   "date": "2013-10-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 130563,
-   "name": "ゴールデンタイム 〈8〉冬の旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/75/130563_jp.jpg",
-   "date": "2014-03-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86897,
-   "dst": 130563
-  },
-  {
-   "relate": "前传",
-   "src": 130563,
-   "dst": 86897
-  }
- ]
+  "id": "86897",
+  "node": [
+    {
+      "id": 86897,
+      "name": "ゴールデンタイム 〈7〉I'll be back",
+      "nameCN": "",
+      "date": "2013-10-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 130563,
+      "name": "ゴールデンタイム 〈8〉冬の旅",
+      "nameCN": "",
+      "date": "2014-03-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86897,
+      "dst": 130563
+    },
+    {
+      "relateString": "前传",
+      "src": 130563,
+      "dst": 86897
+    }
+  ]
 }

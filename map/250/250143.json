@@ -1,57 +1,54 @@
 {
- "id": 250143,
- "node": [
-  {
-   "id": 250143,
-   "name": "ココロ―奇跡―",
-   "nameCN": "心―奇跡―",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/42/250143_EEwyo.jpg",
-   "date": "2014-06-25",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 250144,
-   "name": "ココロ―再会―",
-   "nameCN": "心―再会―",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/32/250144_BbCC8.jpg",
-   "date": "2013-05-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 250145,
-   "name": "ココロ",
-   "nameCN": "心",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/ad/250145_KWBbr.jpg",
-   "date": "2012-04-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 250143,
-   "dst": 250144
-  },
-  {
-   "relate": "续集",
-   "src": 250144,
-   "dst": 250143
-  },
-  {
-   "relate": "前传",
-   "src": 250144,
-   "dst": 250145
-  },
-  {
-   "relate": "续集",
-   "src": 250145,
-   "dst": 250144
-  }
- ]
+  "id": "250143",
+  "node": [
+    {
+      "id": 250143,
+      "name": "ココロ―奇跡―",
+      "nameCN": "心―奇跡―",
+      "date": "2014-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 250144,
+      "name": "ココロ―再会―",
+      "nameCN": "心―再会―",
+      "date": "2013-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 250145,
+      "name": "ココロ",
+      "nameCN": "心",
+      "date": "2012-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 250143,
+      "dst": 250144
+    },
+    {
+      "relateString": "续集",
+      "src": 250144,
+      "dst": 250143
+    },
+    {
+      "relateString": "前传",
+      "src": 250144,
+      "dst": 250145
+    },
+    {
+      "relateString": "续集",
+      "src": 250145,
+      "dst": 250144
+    }
+  ]
 }

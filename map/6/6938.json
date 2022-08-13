@@ -1,37 +1,35 @@
 {
- "id": 6938,
- "node": [
-  {
-   "id": 6938,
-   "name": "グレイ・ゾーン 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/cf/6938_jp.jpg",
-   "date": "2010-06-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 6939,
-   "name": "グレイ・ゾーン 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/56/6939_jp.jpg",
-   "date": "2010-06-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6938,
-   "dst": 6939
-  },
-  {
-   "relate": "前传",
-   "src": 6939,
-   "dst": 6938
-  }
- ]
+  "id": "6938",
+  "node": [
+    {
+      "id": 6938,
+      "name": "グレイ・ゾーン 上",
+      "nameCN": "",
+      "date": "2010-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 6939,
+      "name": "グレイ・ゾーン 下",
+      "nameCN": "",
+      "date": "2010-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6938,
+      "dst": 6939
+    },
+    {
+      "relateString": "前传",
+      "src": 6939,
+      "dst": 6938
+    }
+  ]
 }

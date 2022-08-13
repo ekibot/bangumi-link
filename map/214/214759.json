@@ -1,37 +1,35 @@
 {
- "id": 214759,
- "node": [
-  {
-   "id": 214759,
-   "name": "トゥインクル ノーラ ロック・ミー！",
-   "nameCN": "闪耀的我",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/2e/214759_cs7sO.jpg",
-   "date": "1985-11-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 324060,
-   "name": "ノーラ",
-   "nameCN": "诺拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/45/324060_oS89B.jpg",
-   "date": "1985-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 214759,
-   "dst": 324060
-  },
-  {
-   "relate": "续集",
-   "src": 324060,
-   "dst": 214759
-  }
- ]
+  "id": "214759",
+  "node": [
+    {
+      "id": 214759,
+      "name": "トゥインクル ノーラ ロック・ミー！",
+      "nameCN": "闪耀的我",
+      "date": "1985-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 324060,
+      "name": "ノーラ",
+      "nameCN": "诺拉",
+      "date": "1985-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 214759,
+      "dst": 324060
+    },
+    {
+      "relateString": "续集",
+      "src": 324060,
+      "dst": 214759
+    }
+  ]
 }

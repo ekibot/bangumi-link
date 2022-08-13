@@ -1,37 +1,35 @@
 {
- "id": 120026,
- "node": [
-  {
-   "id": 120026,
-   "name": "アルドノア・ゼロTVアニメ公式ガイドブック (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/1f/120026_jp.jpg",
-   "date": "2014-12-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 141603,
-   "name": "アルドノア・ゼロ　TVアニメ公式ガイドブック (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/46/141603_jp.jpg",
-   "date": "2015-06-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120026,
-   "dst": 141603
-  },
-  {
-   "relate": "前传",
-   "src": 141603,
-   "dst": 120026
-  }
- ]
+  "id": "120026",
+  "node": [
+    {
+      "id": 120026,
+      "name": "アルドノア・ゼロTVアニメ公式ガイドブック (1)",
+      "nameCN": "",
+      "date": "2014-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 141603,
+      "name": "アルドノア・ゼロ　TVアニメ公式ガイドブック (2)",
+      "nameCN": "",
+      "date": "2015-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120026,
+      "dst": 141603
+    },
+    {
+      "relateString": "前传",
+      "src": 141603,
+      "dst": 120026
+    }
+  ]
 }

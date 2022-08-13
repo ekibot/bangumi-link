@@ -1,97 +1,93 @@
 {
- "id": 253581,
- "node": [
-  {
-   "id": 253581,
-   "name": "剑网3·侠肝义胆沈剑心",
-   "nameCN": "剑网3·侠肝义胆沈剑心",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/71/253581_1JNKI.jpg",
-   "date": "2018-09-21",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 291643,
-   "name": "剑网3·侠肝义胆沈剑心Ⅱ",
-   "nameCN": "剑网3·侠肝义胆沈剑心 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/ba/291643_67nNo.jpg",
-   "date": "2019-12-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 313935,
-   "name": "剑网3·侠肝义胆沈剑心 第三季（上卷）",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/43/313935_2b2ZD.jpg",
-   "date": "2022-07-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 313936,
-   "name": "剑网3·侠肝义胆沈剑心之长漂",
-   "nameCN": "剑网3·侠肝义胆沈剑心之长漂",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/52/313936_g69Qs.jpg",
-   "date": "2020-10-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 253581,
-   "dst": 291643
-  },
-  {
-   "relate": "衍生",
-   "src": 253581,
-   "dst": 313936
-  },
-  {
-   "relate": "前传",
-   "src": 291643,
-   "dst": 253581
-  },
-  {
-   "relate": "续集",
-   "src": 291643,
-   "dst": 313935
-  },
-  {
-   "relate": "衍生",
-   "src": 291643,
-   "dst": 313936
-  },
-  {
-   "relate": "前传",
-   "src": 313935,
-   "dst": 291643
-  },
-  {
-   "relate": "衍生",
-   "src": 313935,
-   "dst": 313936
-  },
-  {
-   "relate": "主线故事",
-   "src": 313936,
-   "dst": 253581
-  },
-  {
-   "relate": "主线故事",
-   "src": 313936,
-   "dst": 291643
-  },
-  {
-   "relate": "主线故事",
-   "src": 313936,
-   "dst": 313935
-  }
- ]
+  "id": "253581",
+  "node": [
+    {
+      "id": 253581,
+      "name": "剑网3·侠肝义胆沈剑心",
+      "nameCN": "剑网3·侠肝义胆沈剑心",
+      "date": "2018-09-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 291643,
+      "name": "剑网3·侠肝义胆沈剑心Ⅱ",
+      "nameCN": "剑网3·侠肝义胆沈剑心 第二季",
+      "date": "2019-12-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 313936,
+      "name": "剑网3·侠肝义胆沈剑心之长漂",
+      "nameCN": "剑网3·侠肝义胆沈剑心之长漂",
+      "date": "2020-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 313935,
+      "name": "剑网3·侠肝义胆沈剑心 第三季（上卷）",
+      "nameCN": "",
+      "date": "2022-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 253581,
+      "dst": 291643
+    },
+    {
+      "relateString": "衍生",
+      "src": 253581,
+      "dst": 313936
+    },
+    {
+      "relateString": "前传",
+      "src": 291643,
+      "dst": 253581
+    },
+    {
+      "relateString": "续集",
+      "src": 291643,
+      "dst": 313935
+    },
+    {
+      "relateString": "衍生",
+      "src": 291643,
+      "dst": 313936
+    },
+    {
+      "relateString": "前传",
+      "src": 313935,
+      "dst": 291643
+    },
+    {
+      "relateString": "衍生",
+      "src": 313935,
+      "dst": 313936
+    },
+    {
+      "relateString": "主线故事",
+      "src": 313936,
+      "dst": 253581
+    },
+    {
+      "relateString": "主线故事",
+      "src": 313936,
+      "dst": 291643
+    },
+    {
+      "relateString": "主线故事",
+      "src": 313936,
+      "dst": 313935
+    }
+  ]
 }

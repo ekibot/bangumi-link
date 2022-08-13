@@ -1,51 +1,49 @@
 {
- "id": 1570,
- "node": [
-  {
-   "id": 1570,
-   "name": "無限回廊",
-   "nameCN": "无限回廊",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/49/1570_9lzEZ.jpg",
-   "date": "2008-03-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 7672,
-   "name": "時限回廊",
-   "nameCN": "时限回廊",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/c2/7672_r82XY.jpg",
-   "date": "2009-11-01",
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 283724,
-   "name": "無限回廊 光と影の箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/67/283724_f717v.jpg",
-   "date": "2010-12-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1570,
-   "dst": 283724
-  },
-  {
-   "relate": "主线故事",
-   "src": 7672,
-   "dst": 1570
-  },
-  {
-   "relate": "前传",
-   "src": 283724,
-   "dst": 1570
-  }
- ]
+  "id": "1570",
+  "node": [
+    {
+      "id": 1570,
+      "name": "無限回廊",
+      "nameCN": "无限回廊",
+      "date": "2008-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 283724,
+      "name": "無限回廊 光と影の箱",
+      "nameCN": "",
+      "date": "2010-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 7672,
+      "name": "時限回廊",
+      "nameCN": "时限回廊",
+      "date": "2009-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1570,
+      "dst": 283724
+    },
+    {
+      "relateString": "主线故事",
+      "src": 7672,
+      "dst": 1570
+    },
+    {
+      "relateString": "前传",
+      "src": 283724,
+      "dst": 1570
+    }
+  ]
 }

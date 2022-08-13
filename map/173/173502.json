@@ -1,37 +1,34 @@
 {
- "id": 173502,
- "node": [
-  {
-   "id": 173502,
-   "name": "交通事故鑑定人 環倫一郎",
-   "nameCN": "交通意外调查员",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/56/173502_VAd90.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 173505,
-   "name": "R2 TRAFFIC ACCIDENTS FILE",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/4d/173505_A2Xno.jpg",
-   "date": "2002-11-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 173502,
-   "dst": 173505
-  },
-  {
-   "relate": "前传",
-   "src": 173505,
-   "dst": 173502
-  }
- ]
+  "id": "173502",
+  "node": [
+    {
+      "id": 173502,
+      "name": "交通事故鑑定人 環倫一郎",
+      "nameCN": "交通意外调查员",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 173505,
+      "name": "R2 TRAFFIC ACCIDENTS FILE",
+      "nameCN": "",
+      "date": "2002-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 173502,
+      "dst": 173505
+    },
+    {
+      "relateString": "前传",
+      "src": 173505,
+      "dst": 173502
+    }
+  ]
 }

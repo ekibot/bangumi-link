@@ -1,102 +1,96 @@
 {
- "id": 167655,
- "node": [
-  {
-   "id": 167655,
-   "name": "幼女戦記",
-   "nameCN": "幼女战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/e3/167655_O0npY.jpg",
-   "date": "2017-01-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 205115,
-   "name": "ようじょしぇんき",
-   "nameCN": "迷你幼女战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/43/205115_w3MQF.jpg",
-   "date": "2017-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 234771,
-   "name": "劇場版 幼女戦記",
-   "nameCN": "剧场版 幼女战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/0d/234771_MfZ1O.jpg",
-   "date": "2019-02-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 339515,
-   "name": "幼女戦記Ⅱ",
-   "nameCN": "幼女战记Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/a6/339515_kxl3k.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 339533,
-   "name": "幼女戦記 砂漠のパスタ大作戦",
-   "nameCN": "幼女战记 沙漠意面大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/cc/339533_51RHp.jpg",
-   "date": "2021-06-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 167655,
-   "dst": 205115
-  },
-  {
-   "relate": "续集",
-   "src": 167655,
-   "dst": 234771
-  },
-  {
-   "relate": "番外篇",
-   "src": 167655,
-   "dst": 339533
-  },
-  {
-   "relate": "主线故事",
-   "src": 205115,
-   "dst": 167655
-  },
-  {
-   "relate": "前传",
-   "src": 234771,
-   "dst": 167655
-  },
-  {
-   "relate": "续集",
-   "src": 234771,
-   "dst": 339515
-  },
-  {
-   "relate": "前传",
-   "src": 339515,
-   "dst": 234771
-  },
-  {
-   "relate": "主线故事",
-   "src": 339533,
-   "dst": 167655
-  },
-  {
-   "relate": "续集",
-   "src": 339533,
-   "dst": 234771
-  }
- ]
+  "id": "167655",
+  "node": [
+    {
+      "id": 167655,
+      "name": "幼女戦記",
+      "nameCN": "幼女战记",
+      "date": "2017-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 205115,
+      "name": "ようじょしぇんき",
+      "nameCN": "迷你幼女战记",
+      "date": "2017-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 234771,
+      "name": "劇場版 幼女戦記",
+      "nameCN": "剧场版 幼女战记",
+      "date": "2019-02-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 339533,
+      "name": "幼女戦記 砂漠のパスタ大作戦",
+      "nameCN": "幼女战记 沙漠意面大作战",
+      "date": "2021-06-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 339515,
+      "name": "幼女戦記Ⅱ",
+      "nameCN": "幼女战记Ⅱ",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 167655,
+      "dst": 205115
+    },
+    {
+      "relateString": "续集",
+      "src": 167655,
+      "dst": 234771
+    },
+    {
+      "relateString": "番外篇",
+      "src": 167655,
+      "dst": 339533
+    },
+    {
+      "relateString": "主线故事",
+      "src": 205115,
+      "dst": 167655
+    },
+    {
+      "relateString": "前传",
+      "src": 234771,
+      "dst": 167655
+    },
+    {
+      "relateString": "续集",
+      "src": 234771,
+      "dst": 339515
+    },
+    {
+      "relateString": "前传",
+      "src": 339515,
+      "dst": 234771
+    },
+    {
+      "relateString": "主线故事",
+      "src": 339533,
+      "dst": 167655
+    },
+    {
+      "relateString": "续集",
+      "src": 339533,
+      "dst": 234771
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 106305,
- "node": [
-  {
-   "id": 106305,
-   "name": "O Negócio",
-   "nameCN": "营销伎巧",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/08/106305_4jkWy.jpg",
-   "date": "2013-08-18",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 176611,
-   "name": "O Negócio Season2",
-   "nameCN": "营销伎巧 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/b3/176611_06arc.jpg",
-   "date": "2014-08-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 106305,
-   "dst": 176611
-  },
-  {
-   "relate": "前传",
-   "src": 176611,
-   "dst": 106305
-  }
- ]
+  "id": "106305",
+  "node": [
+    {
+      "id": 106305,
+      "name": "O Negócio",
+      "nameCN": "营销伎巧",
+      "date": "2013-08-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 176611,
+      "name": "O Negócio Season2",
+      "nameCN": "营销伎巧 第二季",
+      "date": "2014-08-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 106305,
+      "dst": 176611
+    },
+    {
+      "relateString": "前传",
+      "src": 176611,
+      "dst": 106305
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 234854,
- "node": [
-  {
-   "id": 234854,
-   "name": "Freedom Planet 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/d5/234854_kx3Q3.jpg",
-   "date": "2022-09-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 235329,
-   "name": "Freedom Planet",
-   "nameCN": "自由星球",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/cc/235329_H996E.jpg",
-   "date": "2014-07-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 234854,
-   "dst": 235329
-  },
-  {
-   "relate": "续集",
-   "src": 235329,
-   "dst": 234854
-  }
- ]
+  "id": "234854",
+  "node": [
+    {
+      "id": 234854,
+      "name": "Freedom Planet 2",
+      "nameCN": "",
+      "date": "2022-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 235329,
+      "name": "Freedom Planet",
+      "nameCN": "自由星球",
+      "date": "2014-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 234854,
+      "dst": 235329
+    },
+    {
+      "relateString": "续集",
+      "src": 235329,
+      "dst": 234854
+    }
+  ]
 }

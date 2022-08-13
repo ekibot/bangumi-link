@@ -1,37 +1,35 @@
 {
- "id": 269262,
- "node": [
-  {
-   "id": 269262,
-   "name": "廻り花を揺らす指",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/52/269262_T2b9f.jpg",
-   "date": "2004-03-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 269264,
-   "name": "花シリーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/c3/269264_k46P0.jpg",
-   "date": "2004-09-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269262,
-   "dst": 269264
-  },
-  {
-   "relate": "前传",
-   "src": 269264,
-   "dst": 269262
-  }
- ]
+  "id": "269262",
+  "node": [
+    {
+      "id": 269262,
+      "name": "廻り花を揺らす指",
+      "nameCN": "",
+      "date": "2004-03-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 269264,
+      "name": "花シリーズ",
+      "nameCN": "",
+      "date": "2004-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269262,
+      "dst": 269264
+    },
+    {
+      "relateString": "前传",
+      "src": 269264,
+      "dst": 269262
+    }
+  ]
 }

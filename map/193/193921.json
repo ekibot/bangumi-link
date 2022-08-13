@@ -1,37 +1,34 @@
 {
- "id": 193921,
- "node": [
-  {
-   "id": 193921,
-   "name": "Quantico Season2",
-   "nameCN": "谍网 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/e6/193921_11zLZ.jpg",
-   "date": "2016-09-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 215228,
-   "name": "Quantico Season 3",
-   "nameCN": "谍网 第三季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 193921,
-   "dst": 215228
-  },
-  {
-   "relate": "前传",
-   "src": 215228,
-   "dst": 193921
-  }
- ]
+  "id": "193921",
+  "node": [
+    {
+      "id": 193921,
+      "name": "Quantico Season2",
+      "nameCN": "谍网 第二季",
+      "date": "2016-09-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 215228,
+      "name": "Quantico Season 3",
+      "nameCN": "谍网 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 193921,
+      "dst": 215228
+    },
+    {
+      "relateString": "前传",
+      "src": 215228,
+      "dst": 193921
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 6472,
- "node": [
-  {
-   "id": 6472,
-   "name": "Ever Quest",
-   "nameCN": "无尽的任务",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/23/6472_j881z.jpg",
-   "date": "1999-03-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 82142,
-   "name": "EverQuest Next",
-   "nameCN": "无尽的任务Next",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/55/82142_0T7F6.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6472,
-   "dst": 82142
-  },
-  {
-   "relate": "前传",
-   "src": 82142,
-   "dst": 6472
-  }
- ]
+  "id": "6472",
+  "node": [
+    {
+      "id": 6472,
+      "name": "Ever Quest",
+      "nameCN": "无尽的任务",
+      "date": "1999-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 82142,
+      "name": "EverQuest Next",
+      "nameCN": "无尽的任务Next",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6472,
+      "dst": 82142
+    },
+    {
+      "relateString": "前传",
+      "src": 82142,
+      "dst": 6472
+    }
+  ]
 }

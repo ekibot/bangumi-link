@@ -1,37 +1,34 @@
 {
- "id": 311014,
- "node": [
-  {
-   "id": 311014,
-   "name": "光路郎",
-   "nameCN": "光路郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/40/311014_G4em9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 311016,
-   "name": "妹先生 渚",
-   "nameCN": "妹妹老师·小渚",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/12/311016_ZhVVJ.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 311014,
-   "dst": 311016
-  },
-  {
-   "relate": "前传",
-   "src": 311016,
-   "dst": 311014
-  }
- ]
+  "id": "311014",
+  "node": [
+    {
+      "id": 311014,
+      "name": "光路郎",
+      "nameCN": "光路郎",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 311016,
+      "name": "妹先生 渚",
+      "nameCN": "妹妹老师·小渚",
+      "date": "2010-04-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 311014,
+      "dst": 311016
+    },
+    {
+      "relateString": "前传",
+      "src": 311016,
+      "dst": 311014
+    }
+  ]
 }

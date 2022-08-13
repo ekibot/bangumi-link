@@ -1,37 +1,35 @@
 {
- "id": 71932,
- "node": [
-  {
-   "id": 71932,
-   "name": "ブラザーズ",
-   "nameCN": "Brothers - 兄弟新生活",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/6e/71932_68dAi.jpg",
-   "date": "2003-07-24",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 156646,
-   "name": "ブラザーズ+",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/95/156646_xe7IO.jpg",
-   "date": "2015-09-23",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 71932,
-   "dst": 156646
-  },
-  {
-   "relate": "前传",
-   "src": 156646,
-   "dst": 71932
-  }
- ]
+  "id": "71932",
+  "node": [
+    {
+      "id": 71932,
+      "name": "ブラザーズ",
+      "nameCN": "Brothers - 兄弟新生活",
+      "date": "2003-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 156646,
+      "name": "ブラザーズ+",
+      "nameCN": "",
+      "date": "2015-09-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 71932,
+      "dst": 156646
+    },
+    {
+      "relateString": "前传",
+      "src": 156646,
+      "dst": 71932
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 296076,
- "node": [
-  {
-   "id": 296076,
-   "name": "彼女、お借りします",
-   "nameCN": "租借女友",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/37/296076_6cP6Q.jpg",
-   "date": "2020-07-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 315745,
-   "name": "彼女、お借りします 第2期",
-   "nameCN": "租借女友 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/f0/315745_n981m.jpg",
-   "date": "2022-07-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 296076,
-   "dst": 315745
-  },
-  {
-   "relate": "前传",
-   "src": 315745,
-   "dst": 296076
-  }
- ]
+  "id": "296076",
+  "node": [
+    {
+      "id": 296076,
+      "name": "彼女、お借りします",
+      "nameCN": "租借女友",
+      "date": "2020-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 315745,
+      "name": "彼女、お借りします 第2期",
+      "nameCN": "租借女友 第二季",
+      "date": "2022-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 296076,
+      "dst": 315745
+    },
+    {
+      "relateString": "前传",
+      "src": 315745,
+      "dst": 296076
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 40098,
- "node": [
-  {
-   "id": 40098,
-   "name": "Candy Crush Saga",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/c4/40098_9n8kd.jpg",
-   "date": null,
-   "nameCN": "糖果传奇",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 129818,
-   "name": "Candy Crush Soda Saga",
-   "nameCN": "糖果粉碎苏打传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/65/129818_0pA48.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 40098,
-   "dst": 129818
-  },
-  {
-   "relate": "前传",
-   "src": 129818,
-   "dst": 40098
-  }
- ]
+  "id": "40098",
+  "node": [
+    {
+      "id": 40098,
+      "name": "Candy Crush Saga",
+      "nameCN": "糖果传奇",
+      "date": "2012-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 129818,
+      "name": "Candy Crush Soda Saga",
+      "nameCN": "糖果粉碎苏打传奇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 40098,
+      "dst": 129818
+    },
+    {
+      "relateString": "前传",
+      "src": 129818,
+      "dst": 40098
+    }
+  ]
 }

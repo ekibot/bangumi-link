@@ -1,77 +1,35 @@
 {
- "id": 41272,
- "node": [
-  {
-   "id": 2738,
-   "name": "マナケミア2 ～おちた学園と錬金術士たち～ Portable+",
-   "nameCN": "玛娜传奇2：学园的炼金术士们携带版+",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/61/2738_061f0.jpg",
-   "date": "2009-10-01",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 41272,
-   "name": "マナケミア 〜学園の錬金術士たち〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/6e/41272_Jakco.jpg",
-   "date": "2007-06-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PS2",
-   "type": 4
-  },
-  {
-   "id": 41273,
-   "name": "マナケミア 〜学園の錬金術士たち〜PORTABLE+",
-   "nameCN": "玛娜传奇：学园的炼金术士们 携带版+",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/49/41273_6WljL.jpg",
-   "date": "2008-09-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 41274,
-   "name": "マナケミア2 〜おちた学園と錬金術士たち〜",
-   "nameCN": "玛娜传奇2～衰落的学园与炼金术士们～",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/81/41274_akOoa.jpg",
-   "date": "2008-05-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PS2"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 2738,
-   "dst": 41274
-  },
-  {
-   "relate": "不同演绎",
-   "src": 41272,
-   "dst": 41273
-  },
-  {
-   "relate": "续集",
-   "src": 41272,
-   "dst": 41274
-  },
-  {
-   "relate": "不同演绎",
-   "src": 41273,
-   "dst": 41272
-  },
-  {
-   "relate": "不同演绎",
-   "src": 41274,
-   "dst": 2738
-  },
-  {
-   "relate": "前传",
-   "src": 41274,
-   "dst": 41272
-  }
- ]
+  "id": "41272",
+  "node": [
+    {
+      "id": 41272,
+      "name": "マナケミア 〜学園の錬金術士たち〜",
+      "nameCN": "",
+      "date": "2007-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 41274,
+      "name": "マナケミア2 〜おちた学園と錬金術士たち〜",
+      "nameCN": "玛娜传奇2～衰落的学园与炼金术士们～",
+      "date": "2008-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 41272,
+      "dst": 41274
+    },
+    {
+      "relateString": "前传",
+      "src": 41274,
+      "dst": 41272
+    }
+  ]
 }

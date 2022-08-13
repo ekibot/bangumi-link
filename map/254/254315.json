@@ -1,37 +1,34 @@
 {
- "id": 254315,
- "node": [
-  {
-   "id": 254315,
-   "name": "LOST:SMILE memories",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/c3/254315_3c6r9.jpg",
-   "date": "2019-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 254316,
-   "name": "LOST:SMILE promises",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/74/254316_bKrfr.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 254315,
-   "dst": 254316
-  },
-  {
-   "relate": "前传",
-   "src": 254316,
-   "dst": 254315
-  }
- ]
+  "id": "254315",
+  "node": [
+    {
+      "id": 254315,
+      "name": "LOST:SMILE memories",
+      "nameCN": "",
+      "date": "2019-07-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 254316,
+      "name": "LOST:SMILE promises",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 254315,
+      "dst": 254316
+    },
+    {
+      "relateString": "前传",
+      "src": 254316,
+      "dst": 254315
+    }
+  ]
 }

@@ -1,87 +1,82 @@
 {
- "id": 53890,
- "node": [
-  {
-   "id": 53890,
-   "name": "あいまいみー",
-   "nameCN": "漫研部",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/99/53890_z8X94.jpg",
-   "date": "2013-01-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 101195,
-   "name": "あいまいみー～妄想カタストロフ～",
-   "nameCN": "漫研部～妄想突变～",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/c6/101195_1gtuu.jpg",
-   "date": "2014-07-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 145769,
-   "name": "裏あいまいみー",
-   "nameCN": "里漫研部",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/9a/145769_JiJ63.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 196188,
-   "name": "あいまいみー～Surgical Friends～",
-   "nameCN": "漫研部～Surgical Friends～",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/16/196188_ZB582.jpg",
-   "date": "2017-01-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53890,
-   "dst": 101195
-  },
-  {
-   "relate": "衍生",
-   "src": 53890,
-   "dst": 145769
-  },
-  {
-   "relate": "前传",
-   "src": 101195,
-   "dst": 53890
-  },
-  {
-   "relate": "衍生",
-   "src": 101195,
-   "dst": 145769
-  },
-  {
-   "relate": "续集",
-   "src": 101195,
-   "dst": 196188
-  },
-  {
-   "relate": "主线故事",
-   "src": 145769,
-   "dst": 53890
-  },
-  {
-   "relate": "主线故事",
-   "src": 145769,
-   "dst": 101195
-  },
-  {
-   "relate": "前传",
-   "src": 196188,
-   "dst": 101195
-  }
- ]
+  "id": "53890",
+  "node": [
+    {
+      "id": 53890,
+      "name": "あいまいみー",
+      "nameCN": "漫研部",
+      "date": "2013-01-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 101195,
+      "name": "あいまいみー～妄想カタストロフ～",
+      "nameCN": "漫研部～妄想突变～",
+      "date": "2014-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 145769,
+      "name": "裏あいまいみー",
+      "nameCN": "里漫研部",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 196188,
+      "name": "あいまいみー～Surgical Friends～",
+      "nameCN": "漫研部～Surgical Friends～",
+      "date": "2017-01-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53890,
+      "dst": 101195
+    },
+    {
+      "relateString": "衍生",
+      "src": 53890,
+      "dst": 145769
+    },
+    {
+      "relateString": "前传",
+      "src": 101195,
+      "dst": 53890
+    },
+    {
+      "relateString": "衍生",
+      "src": 101195,
+      "dst": 145769
+    },
+    {
+      "relateString": "续集",
+      "src": 101195,
+      "dst": 196188
+    },
+    {
+      "relateString": "主线故事",
+      "src": 145769,
+      "dst": 53890
+    },
+    {
+      "relateString": "主线故事",
+      "src": 145769,
+      "dst": 101195
+    },
+    {
+      "relateString": "前传",
+      "src": 196188,
+      "dst": 101195
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 86803,
- "node": [
-  {
-   "id": 86803,
-   "name": "ドラゴンボールZ3",
-   "nameCN": "龙珠Z 武道会3",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/da/86803_d42wJ.jpg",
-   "date": "2005-02-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 293918,
-   "name": "ドラゴンボールZ2",
-   "nameCN": "龙珠Z 武道会2",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/de/293918_4F564.jpg",
-   "date": "2003-12-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 293919,
-   "name": "ドラゴンボールZ",
-   "nameCN": "龙珠Z 武道会",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/52/293919_u28bb.jpg",
-   "date": "2002-11-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 86803,
-   "dst": 293918
-  },
-  {
-   "relate": "续集",
-   "src": 293918,
-   "dst": 86803
-  },
-  {
-   "relate": "前传",
-   "src": 293918,
-   "dst": 293919
-  },
-  {
-   "relate": "续集",
-   "src": 293919,
-   "dst": 293918
-  }
- ]
+  "id": "86803",
+  "node": [
+    {
+      "id": 86803,
+      "name": "ドラゴンボールZ3",
+      "nameCN": "龙珠Z 武道会3",
+      "date": "2005-02-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293918,
+      "name": "ドラゴンボールZ2",
+      "nameCN": "龙珠Z 武道会2",
+      "date": "2003-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293919,
+      "name": "ドラゴンボールZ",
+      "nameCN": "龙珠Z 武道会",
+      "date": "2002-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 86803,
+      "dst": 293918
+    },
+    {
+      "relateString": "续集",
+      "src": 293918,
+      "dst": 86803
+    },
+    {
+      "relateString": "前传",
+      "src": 293918,
+      "dst": 293919
+    },
+    {
+      "relateString": "续集",
+      "src": 293919,
+      "dst": 293918
+    }
+  ]
 }

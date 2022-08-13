@@ -1,37 +1,35 @@
 {
- "id": 298376,
- "node": [
-  {
-   "id": 298376,
-   "name": "オールドファッションカップケーキ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/2e/298376_NVpSP.jpg",
-   "date": "2020-01-04",
-   "nameCN": "经典杯子蛋糕",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 333599,
-   "name": "オールドファッションカップケーキ with カプチーノ",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/0f/333599_bd9BW.jpg",
-   "nameCN": "经典杯子蛋糕 with 卡布奇诺",
-   "date": "2020-05-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 298376,
-   "dst": 333599
-  },
-  {
-   "relate": "前传",
-   "src": 333599,
-   "dst": 298376
-  }
- ]
+  "id": "298376",
+  "node": [
+    {
+      "id": 298376,
+      "name": "オールドファッションカップケーキ",
+      "nameCN": "经典杯子蛋糕",
+      "date": "2020-01-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 333599,
+      "name": "オールドファッションカップケーキ with カプチーノ",
+      "nameCN": "经典杯子蛋糕 with 卡布奇诺",
+      "date": "2020-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 298376,
+      "dst": 333599
+    },
+    {
+      "relateString": "前传",
+      "src": 333599,
+      "dst": 298376
+    }
+  ]
 }

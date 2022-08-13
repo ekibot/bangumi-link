@@ -1,77 +1,70 @@
 {
- "id": 138202,
- "node": [
-  {
-   "id": 138202,
-   "name": "ソフィーのアトリエ ～不思議な本の錬金術士～",
-   "nameCN": "索菲的工作室 ～不可思议之书的炼金术士～",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/76/138202_55wYy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 183563,
-   "name": "フィリスのアトリエ ～不思議な旅の錬金術士～",
-   "nameCN": "菲莉丝的工作室 ～不可思议之旅的炼金术士～",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/6b/183563_QJiQp.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216522,
-   "name": "リディー＆スールのアトリエ ～不思議な絵画の錬金術士～",
-   "nameCN": "莉蒂与苏尔的工作室 ～不可思议绘画的炼金术士～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/0a/216522_grAZs.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 351423,
-   "name": "ソフィーのアトリエ2 ～不思議な夢の錬金術士～",
-   "nameCN": "苏菲的炼金工房２ ～不可思议梦的炼金术士～",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/b9/351423_U4AJ4.jpg",
-   "date": "2022-02-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 138202,
-   "dst": 183563
-  },
-  {
-   "relate": "续集",
-   "src": 138202,
-   "dst": 351423
-  },
-  {
-   "relate": "前传",
-   "src": 183563,
-   "dst": 138202
-  },
-  {
-   "relate": "续集",
-   "src": 183563,
-   "dst": 216522
-  },
-  {
-   "relate": "前传",
-   "src": 216522,
-   "dst": 183563
-  },
-  {
-   "relate": "前传",
-   "src": 351423,
-   "dst": 138202
-  }
- ]
+  "id": "138202",
+  "node": [
+    {
+      "id": 138202,
+      "name": "ソフィーのアトリエ ～不思議な本の錬金術士～",
+      "nameCN": "索菲的工作室 ～不可思议之书的炼金术士～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 183563,
+      "name": "フィリスのアトリエ ～不思議な旅の錬金術士～",
+      "nameCN": "菲莉丝的工作室 ～不可思议之旅的炼金术士～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 351423,
+      "name": "ソフィーのアトリエ2 ～不思議な夢の錬金術士～",
+      "nameCN": "苏菲的炼金工房２ ～不可思议梦的炼金术士～",
+      "date": "2022-02-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216522,
+      "name": "リディー＆スールのアトリエ ～不思議な絵画の錬金術士～",
+      "nameCN": "莉蒂与苏尔的工作室 ～不可思议绘画的炼金术士～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 138202,
+      "dst": 183563
+    },
+    {
+      "relateString": "续集",
+      "src": 138202,
+      "dst": 351423
+    },
+    {
+      "relateString": "前传",
+      "src": 183563,
+      "dst": 138202
+    },
+    {
+      "relateString": "续集",
+      "src": 183563,
+      "dst": 216522
+    },
+    {
+      "relateString": "前传",
+      "src": 216522,
+      "dst": 183563
+    },
+    {
+      "relateString": "前传",
+      "src": 351423,
+      "dst": 138202
+    }
+  ]
 }

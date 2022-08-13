@@ -1,46 +1,54 @@
 {
- "id": 358545,
- "node": [
-  {
-   "id": 358545,
-   "name": "Miss Neko",
-   "image": "/img/no_icon_subject.png",
-   "date": "2019-08-14",
-   "nameCN": "Miss Neko"
-  },
-  {
-   "id": 358547,
-   "name": "Miss Neko 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/1a/358547_1DJ1q.jpg",
-   "date": "2021-12-25",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 390566,
-   "name": "Miss Neko 3",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/ac/390566_I24nI.jpg",
-   "date": "2022-12-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 358545,
-   "dst": 358547
-  },
-  {
-   "relate": "前传",
-   "src": 358547,
-   "dst": 358545
-  },
-  {
-   "relate": "前传",
-   "src": 390566,
-   "dst": 358547
-  }
- ]
+  "id": "358545",
+  "node": [
+    {
+      "id": 358545,
+      "name": "Miss Neko",
+      "nameCN": "",
+      "date": "2019-08-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 358547,
+      "name": "Miss Neko 2",
+      "nameCN": "",
+      "date": "2021-12-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 390566,
+      "name": "Miss Neko 3",
+      "nameCN": "",
+      "date": "2022-12-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 358545,
+      "dst": 358547
+    },
+    {
+      "relateString": "前传",
+      "src": 358547,
+      "dst": 358545
+    },
+    {
+      "relateString": "续集",
+      "src": 358547,
+      "dst": 390566
+    },
+    {
+      "relateString": "前传",
+      "src": 390566,
+      "dst": 358547
+    }
+  ]
 }

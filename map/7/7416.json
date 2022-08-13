@@ -1,37 +1,35 @@
 {
- "id": 7416,
- "node": [
-  {
-   "id": 7416,
-   "name": "花陰－堕ちた蜜華－",
-   "nameCN": "花阴 -浮世风华-",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/91/7416_6W96O.jpg",
-   "date": "2009-10-26",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 19457,
-   "name": "花町物語",
-   "nameCN": "花町物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/c4/19457_sGisJ.jpg",
-   "type": 4,
-   "date": "2005-08-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7416,
-   "dst": 19457
-  },
-  {
-   "relate": "续集",
-   "src": 19457,
-   "dst": 7416
-  }
- ]
+  "id": "7416",
+  "node": [
+    {
+      "id": 7416,
+      "name": "花陰－堕ちた蜜華－",
+      "nameCN": "花阴 -浮世风华-",
+      "date": "2009-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 19457,
+      "name": "花町物語",
+      "nameCN": "花町物语",
+      "date": "2005-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7416,
+      "dst": 19457
+    },
+    {
+      "relateString": "续集",
+      "src": 19457,
+      "dst": 7416
+    }
+  ]
 }

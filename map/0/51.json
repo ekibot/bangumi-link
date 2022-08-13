@@ -1,117 +1,112 @@
 {
- "id": 51,
- "node": [
-  {
-   "id": 51,
-   "name": "CLANNAD -クラナド-",
-   "nameCN": "CLANNAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/38/51_6PN42.jpg",
-   "date": "2007-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 876,
-   "name": "CLANNAD ～AFTER STORY～",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/d1/876_dCfrd.jpg",
-   "date": "2008-10-02",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 3686,
-   "name": "劇場版 CLANNAD",
-   "nameCN": "CLANNAD 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/72/3686_UU9ge.jpg",
-   "date": "2007-09-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 37873,
-   "name": "CLANNAD もうひとつの世界 智代編",
-   "nameCN": "CLANNAD 另一个世界 智代篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/ec/37873_ZyP2G.jpg",
-   "date": "2008-07-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 37874,
-   "name": "CLANNAD ～AFTER STORY～もうひとつの世界 杏編",
-   "nameCN": "CLANNAD ～AFTER STORY～另一个世界 杏篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/66/37874_qB06C.jpg",
-   "date": "2009-05-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 51,
-   "dst": 876
-  },
-  {
-   "relate": "不同演绎",
-   "src": 51,
-   "dst": 3686
-  },
-  {
-   "relate": "番外篇",
-   "src": 51,
-   "dst": 37873
-  },
-  {
-   "relate": "番外篇",
-   "src": 51,
-   "dst": 37874
-  },
-  {
-   "relate": "前传",
-   "src": 876,
-   "dst": 51
-  },
-  {
-   "relate": "番外篇",
-   "src": 876,
-   "dst": 37873
-  },
-  {
-   "relate": "番外篇",
-   "src": 876,
-   "dst": 37874
-  },
-  {
-   "relate": "不同演绎",
-   "src": 3686,
-   "dst": 51
-  },
-  {
-   "relate": "主线故事",
-   "src": 37873,
-   "dst": 51
-  },
-  {
-   "relate": "主线故事",
-   "src": 37873,
-   "dst": 876
-  },
-  {
-   "relate": "主线故事",
-   "src": 37874,
-   "dst": 51
-  },
-  {
-   "relate": "主线故事",
-   "src": 37874,
-   "dst": 876
-  }
- ]
+  "id": "51",
+  "node": [
+    {
+      "id": 51,
+      "name": "CLANNAD -クラナド-",
+      "nameCN": "CLANNAD",
+      "date": "2007-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 876,
+      "name": "CLANNAD ～AFTER STORY～",
+      "nameCN": "",
+      "date": "2008-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3686,
+      "name": "劇場版 CLANNAD",
+      "nameCN": "CLANNAD 剧场版",
+      "date": "2007-09-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 37873,
+      "name": "CLANNAD もうひとつの世界 智代編",
+      "nameCN": "CLANNAD 另一个世界 智代篇",
+      "date": "2008-07-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 37874,
+      "name": "CLANNAD ～AFTER STORY～もうひとつの世界 杏編",
+      "nameCN": "CLANNAD ～AFTER STORY～另一个世界 杏篇",
+      "date": "2009-05-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 51,
+      "dst": 876
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 51,
+      "dst": 3686
+    },
+    {
+      "relateString": "番外篇",
+      "src": 51,
+      "dst": 37873
+    },
+    {
+      "relateString": "番外篇",
+      "src": 51,
+      "dst": 37874
+    },
+    {
+      "relateString": "前传",
+      "src": 876,
+      "dst": 51
+    },
+    {
+      "relateString": "番外篇",
+      "src": 876,
+      "dst": 37873
+    },
+    {
+      "relateString": "番外篇",
+      "src": 876,
+      "dst": 37874
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 3686,
+      "dst": 51
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37873,
+      "dst": 51
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37873,
+      "dst": 876
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37874,
+      "dst": 51
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37874,
+      "dst": 876
+    }
+  ]
 }

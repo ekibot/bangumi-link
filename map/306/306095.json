@@ -1,91 +1,84 @@
 {
- "id": 306095,
- "node": [
-  {
-   "id": 306095,
-   "name": "The&quot;BellKnight series&quot;Act1　ナイトハルトの魔剣",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/f5/306095_wPs94.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 306098,
-   "name": "The&quot;BellKnight series&quot; Act2 -ベルナイトとルナの騎士-",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/52/306098_vnFi2.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 326645,
-   "name": "The&quot;BellKnight series&quot;外伝　CHRIST ROSE",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/ba/326645_JJHhh.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 326646,
-   "name": "The&quot;BellKnight series&quot;Act3　PAST GALLERY",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 306095,
-   "dst": 306098
-  },
-  {
-   "relate": "续集",
-   "src": 306095,
-   "dst": 326646
-  },
-  {
-   "relate": "前传",
-   "src": 306098,
-   "dst": 306095
-  },
-  {
-   "relate": "续集",
-   "src": 306098,
-   "dst": 326646
-  },
-  {
-   "relate": "主线故事",
-   "src": 326645,
-   "dst": 306095
-  },
-  {
-   "relate": "主线故事",
-   "src": 326645,
-   "dst": 306098
-  },
-  {
-   "relate": "主线故事",
-   "src": 326645,
-   "dst": 326646
-  },
-  {
-   "relate": "前传",
-   "src": 326646,
-   "dst": 306095
-  },
-  {
-   "relate": "前传",
-   "src": 326646,
-   "dst": 306098
-  }
- ]
+  "id": "306095",
+  "node": [
+    {
+      "id": 306095,
+      "name": "The&quot;BellKnight series&quot;Act1　ナイトハルトの魔剣",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306098,
+      "name": "The&quot;BellKnight series&quot; Act2 -ベルナイトとルナの騎士-",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326646,
+      "name": "The&quot;BellKnight series&quot;Act3　PAST GALLERY",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326645,
+      "name": "The&quot;BellKnight series&quot;外伝　CHRIST ROSE",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 306095,
+      "dst": 306098
+    },
+    {
+      "relateString": "续集",
+      "src": 306095,
+      "dst": 326646
+    },
+    {
+      "relateString": "前传",
+      "src": 306098,
+      "dst": 306095
+    },
+    {
+      "relateString": "续集",
+      "src": 306098,
+      "dst": 326646
+    },
+    {
+      "relateString": "主线故事",
+      "src": 326645,
+      "dst": 306095
+    },
+    {
+      "relateString": "主线故事",
+      "src": 326645,
+      "dst": 306098
+    },
+    {
+      "relateString": "主线故事",
+      "src": 326645,
+      "dst": 326646
+    },
+    {
+      "relateString": "前传",
+      "src": 326646,
+      "dst": 306095
+    },
+    {
+      "relateString": "前传",
+      "src": 326646,
+      "dst": 306098
+    }
+  ]
 }

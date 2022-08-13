@@ -1,37 +1,34 @@
 {
- "id": 327055,
- "node": [
-  {
-   "id": 327055,
-   "name": "死神坊ちゃんと黒メイド",
-   "nameCN": "死神少爷与黑女仆",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/99/327055_s19V6.jpg",
-   "date": "2021-07-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 349319,
-   "name": "死神坊ちゃんと黒メイド 第2期",
-   "nameCN": "死神少爷与黑女仆 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/1e/349319_IOIs8.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 327055,
-   "dst": 349319
-  },
-  {
-   "relate": "前传",
-   "src": 349319,
-   "dst": 327055
-  }
- ]
+  "id": "327055",
+  "node": [
+    {
+      "id": 327055,
+      "name": "死神坊ちゃんと黒メイド",
+      "nameCN": "死神少爷与黑女仆",
+      "date": "2021-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 349319,
+      "name": "死神坊ちゃんと黒メイド 第2期",
+      "nameCN": "死神少爷与黑女仆 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 327055,
+      "dst": 349319
+    },
+    {
+      "relateString": "前传",
+      "src": 349319,
+      "dst": 327055
+    }
+  ]
 }

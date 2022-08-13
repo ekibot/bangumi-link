@@ -1,37 +1,33 @@
 {
- "id": 56259,
- "node": [
-  {
-   "id": 56259,
-   "name": "PONG",
-   "nameCN": "乓",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/83/56259_veeIt.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308593,
-   "name": "Pong Doubles",
-   "nameCN": "乒乓",
-   "date": null,
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56259,
-   "dst": 308593
-  },
-  {
-   "relate": "前传",
-   "src": 308593,
-   "dst": 56259
-  }
- ]
+  "id": "56259",
+  "node": [
+    {
+      "id": 56259,
+      "name": "PONG",
+      "nameCN": "乓",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308593,
+      "name": "Pong Doubles",
+      "nameCN": "乒乓",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56259,
+      "dst": 308593
+    },
+    {
+      "relateString": "前传",
+      "src": 308593,
+      "dst": 56259
+    }
+  ]
 }

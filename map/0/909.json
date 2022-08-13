@@ -1,57 +1,54 @@
 {
- "id": 909,
- "node": [
-  {
-   "id": 909,
-   "name": "とらドラ!",
-   "nameCN": "龙与虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/30/909_e5zhk.jpg",
-   "date": "2008-10-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 13429,
-   "name": "とらドラSOS!～食いしん坊万々歳～",
-   "nameCN": "龙与虎SOS～贪吃鬼万万岁～",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/26/13429_Meowe.jpg",
-   "date": "2009-02-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 29139,
-   "name": "とらドラ! OVA「弁当の極意」",
-   "nameCN": "龙与虎OVA 便当的精髓",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/de/29139_00UEe.jpg",
-   "date": "2011-12-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 909,
-   "dst": 13429
-  },
-  {
-   "relate": "番外篇",
-   "src": 909,
-   "dst": 29139
-  },
-  {
-   "relate": "主线故事",
-   "src": 13429,
-   "dst": 909
-  },
-  {
-   "relate": "主线故事",
-   "src": 29139,
-   "dst": 909
-  }
- ]
+  "id": "909",
+  "node": [
+    {
+      "id": 909,
+      "name": "とらドラ!",
+      "nameCN": "龙与虎",
+      "date": "2008-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 13429,
+      "name": "とらドラSOS!～食いしん坊万々歳～",
+      "nameCN": "龙与虎SOS～贪吃鬼万万岁～",
+      "date": "2009-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 29139,
+      "name": "とらドラ! OVA「弁当の極意」",
+      "nameCN": "龙与虎OVA 便当的精髓",
+      "date": "2011-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 909,
+      "dst": 13429
+    },
+    {
+      "relateString": "番外篇",
+      "src": 909,
+      "dst": 29139
+    },
+    {
+      "relateString": "主线故事",
+      "src": 13429,
+      "dst": 909
+    },
+    {
+      "relateString": "主线故事",
+      "src": 29139,
+      "dst": 909
+    }
+  ]
 }

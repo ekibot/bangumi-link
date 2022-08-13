@@ -1,127 +1,121 @@
 {
- "id": 292846,
- "node": [
-  {
-   "id": 292846,
-   "name": "乃木坂どこへ",
-   "nameCN": "乃木坂去哪儿",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/26/292846_6v23M.jpg",
-   "date": "2019-10-22",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 312238,
-   "name": "ノギザカスキッツ",
-   "nameCN": "乃木坂短剧",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/c0/312238_vv3tP.jpg",
-   "date": "2020-06-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 318586,
-   "name": "ノギザカスキッツ ACT2",
-   "nameCN": "乃木坂短剧2",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/10/318586_Hz6Jn.jpg",
-   "date": "2020-11-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 379519,
-   "name": "乃木坂スター誕生!",
-   "nameCN": "乃木坂明星诞生!",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/5c/379519_MWuCC.jpg",
-   "type": 6,
-   "date": "2021-05-11",
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 379523,
-   "name": "乃木坂スター誕生!2",
-   "nameCN": "乃木坂明星诞生!2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/22/379523_WWFal.jpg",
-   "type": 6,
-   "date": "2021-10-12",
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 379524,
-   "name": "新・乃木坂スター誕生!",
-   "nameCN": "新・乃木坂明星诞生!",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/81/379524_ecEKh.jpg",
-   "date": "2022-04-26",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 292846,
-   "dst": 312238
-  },
-  {
-   "relate": "前传",
-   "src": 312238,
-   "dst": 292846
-  },
-  {
-   "relate": "续集",
-   "src": 312238,
-   "dst": 318586
-  },
-  {
-   "relate": "续集",
-   "src": 312238,
-   "dst": 379519
-  },
-  {
-   "relate": "前传",
-   "src": 318586,
-   "dst": 312238
-  },
-  {
-   "relate": "续集",
-   "src": 318586,
-   "dst": 379519
-  },
-  {
-   "relate": "前传",
-   "src": 379519,
-   "dst": 318586
-  },
-  {
-   "relate": "续集",
-   "src": 379519,
-   "dst": 379523
-  },
-  {
-   "relate": "续集",
-   "src": 379519,
-   "dst": 379524
-  },
-  {
-   "relate": "前传",
-   "src": 379523,
-   "dst": 379519
-  },
-  {
-   "relate": "续集",
-   "src": 379523,
-   "dst": 379524
-  },
-  {
-   "relate": "前传",
-   "src": 379524,
-   "dst": 379523
-  }
- ]
+  "id": "292846",
+  "node": [
+    {
+      "id": 292846,
+      "name": "乃木坂どこへ",
+      "nameCN": "乃木坂去哪儿",
+      "date": "2019-10-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 312238,
+      "name": "ノギザカスキッツ",
+      "nameCN": "乃木坂短剧",
+      "date": "2020-06-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 318586,
+      "name": "ノギザカスキッツ ACT2",
+      "nameCN": "乃木坂短剧2",
+      "date": "2020-11-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 379519,
+      "name": "乃木坂スター誕生!",
+      "nameCN": "乃木坂明星诞生!",
+      "date": "2021-05-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 379523,
+      "name": "乃木坂スター誕生!2",
+      "nameCN": "乃木坂明星诞生!2",
+      "date": "2021-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 379524,
+      "name": "新・乃木坂スター誕生!",
+      "nameCN": "新・乃木坂明星诞生!",
+      "date": "2022-04-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 292846,
+      "dst": 312238
+    },
+    {
+      "relateString": "前传",
+      "src": 312238,
+      "dst": 292846
+    },
+    {
+      "relateString": "续集",
+      "src": 312238,
+      "dst": 318586
+    },
+    {
+      "relateString": "续集",
+      "src": 312238,
+      "dst": 379519
+    },
+    {
+      "relateString": "前传",
+      "src": 318586,
+      "dst": 312238
+    },
+    {
+      "relateString": "续集",
+      "src": 318586,
+      "dst": 379519
+    },
+    {
+      "relateString": "前传",
+      "src": 379519,
+      "dst": 318586
+    },
+    {
+      "relateString": "续集",
+      "src": 379519,
+      "dst": 379523
+    },
+    {
+      "relateString": "续集",
+      "src": 379519,
+      "dst": 379524
+    },
+    {
+      "relateString": "前传",
+      "src": 379523,
+      "dst": 379519
+    },
+    {
+      "relateString": "续集",
+      "src": 379523,
+      "dst": 379524
+    },
+    {
+      "relateString": "前传",
+      "src": 379524,
+      "dst": 379523
+    }
+  ]
 }

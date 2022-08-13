@@ -1,57 +1,51 @@
 {
- "id": 300891,
- "node": [
-  {
-   "id": 300891,
-   "name": "鉄子の旅",
-   "nameCN": "铁子之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/d2/300891_eBE9e.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 300902,
-   "name": "新・鉄子の旅",
-   "nameCN": "新・铁子之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/43/300902_Lff1m.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 300911,
-   "name": "鉄子の旅3代目",
-   "nameCN": "铁子之旅3代目",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/96/300911_I8zup.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 300891,
-   "dst": 300902
-  },
-  {
-   "relate": "前传",
-   "src": 300902,
-   "dst": 300891
-  },
-  {
-   "relate": "续集",
-   "src": 300902,
-   "dst": 300911
-  },
-  {
-   "relate": "前传",
-   "src": 300911,
-   "dst": 300902
-  }
- ]
+  "id": "300891",
+  "node": [
+    {
+      "id": 300891,
+      "name": "鉄子の旅",
+      "nameCN": "铁子之旅",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300902,
+      "name": "新・鉄子の旅",
+      "nameCN": "新・铁子之旅",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300911,
+      "name": "鉄子の旅3代目",
+      "nameCN": "铁子之旅3代目",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 300891,
+      "dst": 300902
+    },
+    {
+      "relateString": "前传",
+      "src": 300902,
+      "dst": 300891
+    },
+    {
+      "relateString": "续集",
+      "src": 300902,
+      "dst": 300911
+    },
+    {
+      "relateString": "前传",
+      "src": 300911,
+      "dst": 300902
+    }
+  ]
 }

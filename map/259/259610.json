@@ -1,37 +1,34 @@
 {
- "id": 259610,
- "node": [
-  {
-   "id": 259610,
-   "name": "ソロモンの鍵2 〜クールミン島救出作戦〜",
-   "nameCN": "所罗门之匙2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/66/259610_vFkVF.jpg",
-   "date": "1992-01-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260831,
-   "name": "ソロモンの鍵",
-   "nameCN": "所罗门之匙",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/66/260831_61018.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 259610,
-   "dst": 260831
-  },
-  {
-   "relate": "续集",
-   "src": 260831,
-   "dst": 259610
-  }
- ]
+  "id": "259610",
+  "node": [
+    {
+      "id": 259610,
+      "name": "ソロモンの鍵2 〜クールミン島救出作戦〜",
+      "nameCN": "所罗门之匙2",
+      "date": "1992-01-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260831,
+      "name": "ソロモンの鍵",
+      "nameCN": "所罗门之匙",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 259610,
+      "dst": 260831
+    },
+    {
+      "relateString": "续集",
+      "src": 260831,
+      "dst": 259610
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 197860,
- "node": [
-  {
-   "id": 197860,
-   "name": "灵魂摆渡",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/58/197860_dJQnF.jpg",
-   "date": "2014-02-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 197873,
-   "name": "灵魂摆渡Ⅱ",
-   "nameCN": "灵魂摆渡2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/0c/197873_nFqYp.jpg",
-   "date": "2015-10-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 198157,
-   "name": "灵魂摆渡Ⅲ",
-   "nameCN": "灵魂摆渡3",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/5b/198157_xfoUO.jpg",
-   "date": "2016-11-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197860,
-   "dst": 197873
-  },
-  {
-   "relate": "前传",
-   "src": 197873,
-   "dst": 197860
-  },
-  {
-   "relate": "续集",
-   "src": 197873,
-   "dst": 198157
-  },
-  {
-   "relate": "前传",
-   "src": 198157,
-   "dst": 197873
-  }
- ]
+  "id": "197860",
+  "node": [
+    {
+      "id": 197860,
+      "name": "灵魂摆渡",
+      "nameCN": "",
+      "date": "2014-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 197873,
+      "name": "灵魂摆渡Ⅱ",
+      "nameCN": "灵魂摆渡2",
+      "date": "2015-10-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 198157,
+      "name": "灵魂摆渡Ⅲ",
+      "nameCN": "灵魂摆渡3",
+      "date": "2016-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197860,
+      "dst": 197873
+    },
+    {
+      "relateString": "前传",
+      "src": 197873,
+      "dst": 197860
+    },
+    {
+      "relateString": "续集",
+      "src": 197873,
+      "dst": 198157
+    },
+    {
+      "relateString": "前传",
+      "src": 198157,
+      "dst": 197873
+    }
+  ]
 }

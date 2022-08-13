@@ -1,37 +1,34 @@
 {
- "id": 79629,
- "node": [
-  {
-   "id": 79629,
-   "name": "Virtua Cop",
-   "nameCN": "VR特警",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/82/79629_Df1d0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 128280,
-   "name": "Virtua Cop 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/a4/128280_11G6M.jpg",
-   "date": "1995-09-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79629,
-   "dst": 128280
-  },
-  {
-   "relate": "前传",
-   "src": 128280,
-   "dst": 79629
-  }
- ]
+  "id": "79629",
+  "node": [
+    {
+      "id": 79629,
+      "name": "Virtua Cop",
+      "nameCN": "VR特警",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 128280,
+      "name": "Virtua Cop 2",
+      "nameCN": "",
+      "date": "1995-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79629,
+      "dst": 128280
+    },
+    {
+      "relateString": "前传",
+      "src": 128280,
+      "dst": 79629
+    }
+  ]
 }

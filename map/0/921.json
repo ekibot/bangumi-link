@@ -1,57 +1,54 @@
 {
- "id": 921,
- "node": [
-  {
-   "id": 921,
-   "name": "LAST EXILE",
-   "nameCN": "最终流放",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/0c/921_RA84a.jpg",
-   "date": "2003-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 12081,
-   "name": "ラストエグザイル-銀翼のファム-",
-   "nameCN": "最终流放-银翼的飞梦-",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/ec/12081_I4fGF.jpg",
-   "date": "2011-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 148846,
-   "name": "ラストエグザイル -銀翼のファム- Over the Wishes",
-   "nameCN": "最终流放-银翼的飞梦 Over the wishes",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/09/148846_xVIL5.jpg",
-   "date": "2016-02-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 921,
-   "dst": 12081
-  },
-  {
-   "relate": "前传",
-   "src": 12081,
-   "dst": 921
-  },
-  {
-   "relate": "总集篇",
-   "src": 12081,
-   "dst": 148846
-  },
-  {
-   "relate": "全集",
-   "src": 148846,
-   "dst": 12081
-  }
- ]
+  "id": "921",
+  "node": [
+    {
+      "id": 921,
+      "name": "LAST EXILE",
+      "nameCN": "最终流放",
+      "date": "2003-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 12081,
+      "name": "ラストエグザイル-銀翼のファム-",
+      "nameCN": "最终流放-银翼的飞梦-",
+      "date": "2011-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 148846,
+      "name": "ラストエグザイル -銀翼のファム- Over the Wishes",
+      "nameCN": "最终流放-银翼的飞梦 Over the wishes",
+      "date": "2016-02-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 921,
+      "dst": 12081
+    },
+    {
+      "relateString": "前传",
+      "src": 12081,
+      "dst": 921
+    },
+    {
+      "relateString": "总集篇",
+      "src": 12081,
+      "dst": 148846
+    },
+    {
+      "relateString": "全集",
+      "src": 148846,
+      "dst": 12081
+    }
+  ]
 }

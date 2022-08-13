@@ -1,37 +1,33 @@
 {
- "id": 103952,
- "node": [
-  {
-   "id": 103952,
-   "name": "GRAMCATS",
-   "nameCN": "GRAMCATS",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/b4/103952_GQI5V.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 130565,
-   "name": "GRAMCATS 2",
-   "nameCN": "GRAMCATS 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/32/130565_vFX5F.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103952,
-   "dst": 130565
-  },
-  {
-   "relate": "前传",
-   "src": 130565,
-   "dst": 103952
-  }
- ]
+  "id": "103952",
+  "node": [
+    {
+      "id": 103952,
+      "name": "GRAMCATS",
+      "nameCN": "GRAMCATS",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130565,
+      "name": "GRAMCATS 2",
+      "nameCN": "GRAMCATS 2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103952,
+      "dst": 130565
+    },
+    {
+      "relateString": "前传",
+      "src": 130565,
+      "dst": 103952
+    }
+  ]
 }

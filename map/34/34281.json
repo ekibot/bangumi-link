@@ -1,37 +1,35 @@
 {
- "id": 34281,
- "node": [
-  {
-   "id": 34281,
-   "name": "戦闘メカ ザブングル",
-   "nameCN": "战斗机甲萨芬格尔",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/ed/34281_QXZ3e.jpg",
-   "date": "1982-02-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 192783,
-   "name": "ザブングル グラフィティ",
-   "nameCN": "萨芬格尔·涂鸦",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/07/192783_Jppkn.jpg",
-   "date": "1983-07-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 34281,
-   "dst": 192783
-  },
-  {
-   "relate": "全集",
-   "src": 192783,
-   "dst": 34281
-  }
- ]
+  "id": "34281",
+  "node": [
+    {
+      "id": 34281,
+      "name": "戦闘メカ ザブングル",
+      "nameCN": "战斗机甲萨芬格尔",
+      "date": "1982-02-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 192783,
+      "name": "ザブングル グラフィティ",
+      "nameCN": "萨芬格尔·涂鸦",
+      "date": "1983-07-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 34281,
+      "dst": 192783
+    },
+    {
+      "relateString": "全集",
+      "src": 192783,
+      "dst": 34281
+    }
+  ]
 }

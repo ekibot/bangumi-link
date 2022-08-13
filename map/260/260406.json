@@ -1,37 +1,35 @@
 {
- "id": 260406,
- "node": [
-  {
-   "id": 260406,
-   "name": "江戸前の旬",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/56/260406_8F6pf.jpg",
-   "date": "2018-10-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 291063,
-   "name": "江戸前の旬season2",
-   "nameCN": "江户寿司王 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/ba/291063_tYtaP.jpg",
-   "date": "2019-10-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 260406,
-   "dst": 291063
-  },
-  {
-   "relate": "前传",
-   "src": 291063,
-   "dst": 260406
-  }
- ]
+  "id": "260406",
+  "node": [
+    {
+      "id": 260406,
+      "name": "江戸前の旬",
+      "nameCN": "",
+      "date": "2018-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 291063,
+      "name": "江戸前の旬season2",
+      "nameCN": "江户寿司王 第二季",
+      "date": "2019-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 260406,
+      "dst": 291063
+    },
+    {
+      "relateString": "前传",
+      "src": 291063,
+      "dst": 260406
+    }
+  ]
 }

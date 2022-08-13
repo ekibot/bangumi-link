@@ -1,37 +1,35 @@
 {
- "id": 264320,
- "node": [
-  {
-   "id": 264320,
-   "name": "Final Space Season 1",
-   "nameCN": "太空终界 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/7b/264320_62Cmo.jpg",
-   "date": "2018-02-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 284258,
-   "name": "Final Space Season 2",
-   "nameCN": "太空终界 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/7f/284258_x3666.jpg",
-   "date": "2019-06-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 264320,
-   "dst": 284258
-  },
-  {
-   "relate": "前传",
-   "src": 284258,
-   "dst": 264320
-  }
- ]
+  "id": "264320",
+  "node": [
+    {
+      "id": 264320,
+      "name": "Final Space Season 1",
+      "nameCN": "太空终界 第一季",
+      "date": "2018-02-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 284258,
+      "name": "Final Space Season 2",
+      "nameCN": "太空终界 第二季",
+      "date": "2019-06-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 264320,
+      "dst": 284258
+    },
+    {
+      "relateString": "前传",
+      "src": 284258,
+      "dst": 264320
+    }
+  ]
 }

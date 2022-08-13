@@ -1,37 +1,34 @@
 {
- "id": 123098,
- "node": [
-  {
-   "id": 123098,
-   "name": "モリのアサガオ番外編",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/9d/123098_jp.jpg",
-   "date": "2010-11-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 123099,
-   "name": "モリのアサガオ",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/aa/123099_7E9p9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 123098,
-   "dst": 123099
-  },
-  {
-   "relate": "番外篇",
-   "src": 123099,
-   "dst": 123098
-  }
- ]
+  "id": "123098",
+  "node": [
+    {
+      "id": 123098,
+      "name": "モリのアサガオ番外編",
+      "nameCN": "",
+      "date": "2010-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 123099,
+      "name": "モリのアサガオ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 123098,
+      "dst": 123099
+    },
+    {
+      "relateString": "番外篇",
+      "src": 123099,
+      "dst": 123098
+    }
+  ]
 }

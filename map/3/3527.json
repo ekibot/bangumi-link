@@ -1,37 +1,35 @@
 {
- "id": 3527,
- "node": [
-  {
-   "id": 3527,
-   "name": "サラリーマン金太郎 2",
-   "nameCN": "上班族金太郎 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/74/3527_Hj9si.jpg",
-   "date": "2010-01-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 3726,
-   "name": "サラリーマン金太郎",
-   "nameCN": "上班族金太郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/e7/3726_G9asz.jpg",
-   "date": "2008-10-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 3527,
-   "dst": 3726
-  },
-  {
-   "relate": "续集",
-   "src": 3726,
-   "dst": 3527
-  }
- ]
+  "id": "3527",
+  "node": [
+    {
+      "id": 3527,
+      "name": "サラリーマン金太郎 2",
+      "nameCN": "上班族金太郎 2",
+      "date": "2010-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 3726,
+      "name": "サラリーマン金太郎",
+      "nameCN": "上班族金太郎",
+      "date": "2008-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 3527,
+      "dst": 3726
+    },
+    {
+      "relateString": "续集",
+      "src": 3726,
+      "dst": 3527
+    }
+  ]
 }

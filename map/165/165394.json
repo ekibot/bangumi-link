@@ -1,57 +1,54 @@
 {
- "id": 165394,
- "node": [
-  {
-   "id": 165394,
-   "name": "コチンPa!",
-   "nameCN": "KoChinPa!",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/d2/165394_Q2PhF.jpg",
-   "date": "2015-12-22",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208321,
-   "name": "コチンPa! 第二期",
-   "nameCN": "KoChinPa!2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/c3/208321_2x1S9.jpg",
-   "date": "2016-12-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 261082,
-   "name": "でびどる！",
-   "nameCN": "恶魔偶像",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/69/261082_LUMYp.jpg",
-   "date": "2018-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165394,
-   "dst": 208321
-  },
-  {
-   "relate": "前传",
-   "src": 208321,
-   "dst": 165394
-  },
-  {
-   "relate": "续集",
-   "src": 208321,
-   "dst": 261082
-  },
-  {
-   "relate": "前传",
-   "src": 261082,
-   "dst": 208321
-  }
- ]
+  "id": "165394",
+  "node": [
+    {
+      "id": 165394,
+      "name": "コチンPa!",
+      "nameCN": "KoChinPa!",
+      "date": "2015-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208321,
+      "name": "コチンPa! 第二期",
+      "nameCN": "KoChinPa!2",
+      "date": "2016-12-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 261082,
+      "name": "でびどる！",
+      "nameCN": "恶魔偶像",
+      "date": "2018-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165394,
+      "dst": 208321
+    },
+    {
+      "relateString": "前传",
+      "src": 208321,
+      "dst": 165394
+    },
+    {
+      "relateString": "续集",
+      "src": 208321,
+      "dst": 261082
+    },
+    {
+      "relateString": "前传",
+      "src": 261082,
+      "dst": 208321
+    }
+  ]
 }

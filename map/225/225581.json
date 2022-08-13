@@ -1,37 +1,35 @@
 {
- "id": 225581,
- "node": [
-  {
-   "id": 225581,
-   "name": "アンナチュラル",
-   "nameCN": "非自然死亡",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/3f/225581_ifE52.jpg",
-   "date": "2018-01-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 300179,
-   "name": "MIU404",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/15/300179_8WSMs.jpg",
-   "date": "2020-06-26",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 225581,
-   "dst": 300179
-  },
-  {
-   "relate": "相同世界观",
-   "src": 300179,
-   "dst": 225581
-  }
- ]
+  "id": "225581",
+  "node": [
+    {
+      "id": 225581,
+      "name": "アンナチュラル",
+      "nameCN": "非自然死亡",
+      "date": "2018-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 300179,
+      "name": "MIU404",
+      "nameCN": "",
+      "date": "2020-06-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 225581,
+      "dst": 300179
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 300179,
+      "dst": 225581
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 46835,
- "node": [
-  {
-   "id": 46835,
-   "name": "マブラヴ オルタネイティヴ トータル・イクリプス",
-   "nameCN": "Muv-Luv Alternative Total Eclipse 漫画版第一部",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/cc/46835_86ZhA.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 46845,
-   "name": "マブラヴ オルタネイティヴ トータル・イクリプス rising",
-   "nameCN": "Muv-Luv Alternative Total Eclipse 漫画版第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/18/46845_63OWA.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46835,
-   "dst": 46845
-  },
-  {
-   "relate": "前传",
-   "src": 46845,
-   "dst": 46835
-  }
- ]
+  "id": "46835",
+  "node": [
+    {
+      "id": 46835,
+      "name": "マブラヴ オルタネイティヴ トータル・イクリプス",
+      "nameCN": "Muv-Luv Alternative Total Eclipse 漫画版第一部",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 46845,
+      "name": "マブラヴ オルタネイティヴ トータル・イクリプス rising",
+      "nameCN": "Muv-Luv Alternative Total Eclipse 漫画版第二部",
+      "date": "2012-05-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 46835,
+      "dst": 46845
+    },
+    {
+      "relateString": "前传",
+      "src": 46845,
+      "dst": 46835
+    }
+  ]
 }

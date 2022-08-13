@@ -1,37 +1,33 @@
 {
- "id": 225214,
- "node": [
-  {
-   "id": 225214,
-   "name": "嘻哈小天才",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/19/225214_Vzb5u.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 335259,
-   "name": "嘻哈奇侠传",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/cc/335259_O694W.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225214,
-   "dst": 335259
-  },
-  {
-   "relate": "前传",
-   "src": 335259,
-   "dst": 225214
-  }
- ]
+  "id": "225214",
+  "node": [
+    {
+      "id": 225214,
+      "name": "嘻哈小天才",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 335259,
+      "name": "嘻哈奇侠传",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225214,
+      "dst": 335259
+    },
+    {
+      "relateString": "前传",
+      "src": 335259,
+      "dst": 225214
+    }
+  ]
 }

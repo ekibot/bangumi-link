@@ -1,57 +1,53 @@
 {
- "id": 177118,
- "node": [
-  {
-   "id": 177118,
-   "name": "白竜",
-   "nameCN": "白龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/a5/177118_lnjjD.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 177160,
-   "name": "白竜LEGEND",
-   "nameCN": "白龙传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/79/177160_E65cT.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 312512,
-   "name": "白竜HADOU",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/9c/312512_5o4pd.jpg",
-   "date": "2017-03-09",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 177118,
-   "dst": 177160
-  },
-  {
-   "relate": "前传",
-   "src": 177160,
-   "dst": 177118
-  },
-  {
-   "relate": "续集",
-   "src": 177160,
-   "dst": 312512
-  },
-  {
-   "relate": "前传",
-   "src": 312512,
-   "dst": 177160
-  }
- ]
+  "id": "177118",
+  "node": [
+    {
+      "id": 177118,
+      "name": "白竜",
+      "nameCN": "白龙",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 177160,
+      "name": "白竜LEGEND",
+      "nameCN": "白龙传奇",
+      "date": "2007-11-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 312512,
+      "name": "白竜HADOU",
+      "nameCN": "",
+      "date": "2017-03-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 177118,
+      "dst": 177160
+    },
+    {
+      "relateString": "前传",
+      "src": 177160,
+      "dst": 177118
+    },
+    {
+      "relateString": "续集",
+      "src": 177160,
+      "dst": 312512
+    },
+    {
+      "relateString": "前传",
+      "src": 312512,
+      "dst": 177160
+    }
+  ]
 }

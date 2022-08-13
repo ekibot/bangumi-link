@@ -1,77 +1,71 @@
 {
- "id": 165566,
- "node": [
-  {
-   "id": 165566,
-   "name": "Command: Modern Air / Naval Operations WOTY",
-   "nameCN": "Command: 现代空海战斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/dc/165566_ZZtzX.jpg",
-   "date": "2013-09-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171862,
-   "name": "Larry Bond's Harpoon - Ultimate Edition",
-   "nameCN": "鱼叉",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/8e/171862_xoetW.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 198607,
-   "name": "Harpoon 3 Advanced Naval Warfare",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/68/198607_8T8ht.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 294217,
-   "name": "Command: Modern Operations",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/52/294217_5TRs6.jpg",
-   "date": "2019-11-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 165566,
-   "dst": 171862
-  },
-  {
-   "relate": "续集",
-   "src": 165566,
-   "dst": 294217
-  },
-  {
-   "relate": "续集",
-   "src": 171862,
-   "dst": 165566
-  },
-  {
-   "relate": "续集",
-   "src": 171862,
-   "dst": 198607
-  },
-  {
-   "relate": "前传",
-   "src": 198607,
-   "dst": 171862
-  },
-  {
-   "relate": "前传",
-   "src": 294217,
-   "dst": 165566
-  }
- ]
+  "id": "165566",
+  "node": [
+    {
+      "id": 165566,
+      "name": "Command: Modern Air / Naval Operations WOTY",
+      "nameCN": "Command: 现代空海战斗",
+      "date": "2013-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171862,
+      "name": "Larry Bond's Harpoon - Ultimate Edition",
+      "nameCN": "鱼叉",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294217,
+      "name": "Command: Modern Operations",
+      "nameCN": "",
+      "date": "2019-11-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198607,
+      "name": "Harpoon 3 Advanced Naval Warfare",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 165566,
+      "dst": 171862
+    },
+    {
+      "relateString": "续集",
+      "src": 165566,
+      "dst": 294217
+    },
+    {
+      "relateString": "续集",
+      "src": 171862,
+      "dst": 165566
+    },
+    {
+      "relateString": "续集",
+      "src": 171862,
+      "dst": 198607
+    },
+    {
+      "relateString": "前传",
+      "src": 198607,
+      "dst": 171862
+    },
+    {
+      "relateString": "前传",
+      "src": 294217,
+      "dst": 165566
+    }
+  ]
 }

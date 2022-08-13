@@ -1,117 +1,109 @@
 {
- "id": 20007,
- "node": [
-  {
-   "id": 20007,
-   "name": "Teen Wolf (Season 1)",
-   "nameCN": "少狼 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/c8/20007_Qpwzz.jpg",
-   "date": "2011-06-05",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 76055,
-   "name": "Teen Wolf (Season 2)",
-   "nameCN": "少狼 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/e0/76055_JJ1j9.jpg",
-   "date": "2012-06-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 76056,
-   "name": "Teen Wolf (Season 3)",
-   "nameCN": "少狼 （第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/31/76056_s71Xp.jpg",
-   "date": "2013-06-13",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 105499,
-   "name": "Teen Wolf (Season 4)",
-   "nameCN": "少狼 （第四季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/56/105499_A0gN2.jpg",
-   "date": "2014-06-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 140079,
-   "name": "Teen Wolf (Season 5)",
-   "nameCN": "少狼 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/22/140079_9tx9d.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 140080,
-   "name": "Teen Wolf (Season 6)",
-   "nameCN": "少狼 第六季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/6d/140080_ooReq.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20007,
-   "dst": 76055
-  },
-  {
-   "relate": "前传",
-   "src": 76055,
-   "dst": 20007
-  },
-  {
-   "relate": "续集",
-   "src": 76055,
-   "dst": 76056
-  },
-  {
-   "relate": "前传",
-   "src": 76056,
-   "dst": 76055
-  },
-  {
-   "relate": "续集",
-   "src": 76056,
-   "dst": 105499
-  },
-  {
-   "relate": "前传",
-   "src": 105499,
-   "dst": 76056
-  },
-  {
-   "relate": "续集",
-   "src": 105499,
-   "dst": 140079
-  },
-  {
-   "relate": "前传",
-   "src": 140079,
-   "dst": 105499
-  },
-  {
-   "relate": "续集",
-   "src": 140079,
-   "dst": 140080
-  },
-  {
-   "relate": "前传",
-   "src": 140080,
-   "dst": 140079
-  }
- ]
+  "id": "20007",
+  "node": [
+    {
+      "id": 20007,
+      "name": "Teen Wolf (Season 1)",
+      "nameCN": "少狼 （第一季）",
+      "date": "2011-06-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 76055,
+      "name": "Teen Wolf (Season 2)",
+      "nameCN": "少狼 （第二季）",
+      "date": "2012-06-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 76056,
+      "name": "Teen Wolf (Season 3)",
+      "nameCN": "少狼 （第三季）",
+      "date": "2013-06-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 105499,
+      "name": "Teen Wolf (Season 4)",
+      "nameCN": "少狼 （第四季）",
+      "date": "2014-06-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 140079,
+      "name": "Teen Wolf (Season 5)",
+      "nameCN": "少狼 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 140080,
+      "name": "Teen Wolf (Season 6)",
+      "nameCN": "少狼 第六季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20007,
+      "dst": 76055
+    },
+    {
+      "relateString": "前传",
+      "src": 76055,
+      "dst": 20007
+    },
+    {
+      "relateString": "续集",
+      "src": 76055,
+      "dst": 76056
+    },
+    {
+      "relateString": "前传",
+      "src": 76056,
+      "dst": 76055
+    },
+    {
+      "relateString": "续集",
+      "src": 76056,
+      "dst": 105499
+    },
+    {
+      "relateString": "前传",
+      "src": 105499,
+      "dst": 76056
+    },
+    {
+      "relateString": "续集",
+      "src": 105499,
+      "dst": 140079
+    },
+    {
+      "relateString": "前传",
+      "src": 140079,
+      "dst": 105499
+    },
+    {
+      "relateString": "续集",
+      "src": 140079,
+      "dst": 140080
+    },
+    {
+      "relateString": "前传",
+      "src": 140080,
+      "dst": 140079
+    }
+  ]
 }

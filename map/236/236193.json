@@ -1,37 +1,35 @@
 {
- "id": 236193,
- "node": [
-  {
-   "id": 236193,
-   "name": "The Last Door",
-   "nameCN": "最后一扇门",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/f2/236193_fA0Ll.jpg",
-   "date": "2014-05-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 236194,
-   "name": "The Last Door: Season 2",
-   "nameCN": "最后一扇门：第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/b6/236194_88Tjw.jpg",
-   "date": "2016-03-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 236193,
-   "dst": 236194
-  },
-  {
-   "relate": "前传",
-   "src": 236194,
-   "dst": 236193
-  }
- ]
+  "id": "236193",
+  "node": [
+    {
+      "id": 236193,
+      "name": "The Last Door",
+      "nameCN": "最后一扇门",
+      "date": "2014-05-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 236194,
+      "name": "The Last Door: Season 2",
+      "nameCN": "最后一扇门：第二季",
+      "date": "2016-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 236193,
+      "dst": 236194
+    },
+    {
+      "relateString": "前传",
+      "src": 236194,
+      "dst": 236193
+    }
+  ]
 }

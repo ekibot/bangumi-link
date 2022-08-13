@@ -1,37 +1,35 @@
 {
- "id": 218472,
- "node": [
-  {
-   "id": 218472,
-   "name": "Foxy",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/d8/218472_4k4ut.jpg",
-   "date": "1990-02-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 218473,
-   "name": "Foxy 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/69/218473_IiHq9.jpg",
-   "date": "1991-04-04",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218472,
-   "dst": 218473
-  },
-  {
-   "relate": "前传",
-   "src": 218473,
-   "dst": 218472
-  }
- ]
+  "id": "218472",
+  "node": [
+    {
+      "id": 218472,
+      "name": "Foxy",
+      "nameCN": "",
+      "date": "1990-02-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218473,
+      "name": "Foxy 2",
+      "nameCN": "",
+      "date": "1991-04-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218472,
+      "dst": 218473
+    },
+    {
+      "relateString": "前传",
+      "src": 218473,
+      "dst": 218472
+    }
+  ]
 }

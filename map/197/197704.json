@@ -1,37 +1,35 @@
 {
- "id": 197704,
- "node": [
-  {
-   "id": 197704,
-   "name": "ブタイウラ 上巻",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/75/197704_jp.jpg",
-   "date": "2014-12-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 197705,
-   "name": "ブタイウラ 下巻",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/56/197705_jp.jpg",
-   "date": "2014-12-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197704,
-   "dst": 197705
-  },
-  {
-   "relate": "前传",
-   "src": 197705,
-   "dst": 197704
-  }
- ]
+  "id": "197704",
+  "node": [
+    {
+      "id": 197704,
+      "name": "ブタイウラ 上巻",
+      "nameCN": "",
+      "date": "2014-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 197705,
+      "name": "ブタイウラ 下巻",
+      "nameCN": "",
+      "date": "2014-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197704,
+      "dst": 197705
+    },
+    {
+      "relateString": "前传",
+      "src": 197705,
+      "dst": 197704
+    }
+  ]
 }

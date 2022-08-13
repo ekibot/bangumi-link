@@ -1,57 +1,53 @@
 {
- "id": 84386,
- "node": [
-  {
-   "id": 84386,
-   "name": "艦隊これくしょん -艦これ-",
-   "nameCN": "舰队Collection",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/81/84386_2KHHI.jpg",
-   "date": "2015-01-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 143093,
-   "name": "劇場版 艦これ",
-   "nameCN": "舰队Collection 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/18/143093_pQzmE.jpg",
-   "date": "2016-11-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 270739,
-   "name": "「艦これ」いつかあの海で",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/0d/270739_llse5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84386,
-   "dst": 143093
-  },
-  {
-   "relate": "不同演绎",
-   "src": 84386,
-   "dst": 270739
-  },
-  {
-   "relate": "前传",
-   "src": 143093,
-   "dst": 84386
-  },
-  {
-   "relate": "不同演绎",
-   "src": 270739,
-   "dst": 84386
-  }
- ]
+  "id": "84386",
+  "node": [
+    {
+      "id": 84386,
+      "name": "艦隊これくしょん -艦これ-",
+      "nameCN": "舰队Collection",
+      "date": "2015-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 143093,
+      "name": "劇場版 艦これ",
+      "nameCN": "舰队Collection 剧场版",
+      "date": "2016-11-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 270739,
+      "name": "「艦これ」いつかあの海で",
+      "nameCN": "舰队Collection 总有一天，在那片海",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84386,
+      "dst": 143093
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 84386,
+      "dst": 270739
+    },
+    {
+      "relateString": "前传",
+      "src": 143093,
+      "dst": 84386
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 270739,
+      "dst": 84386
+    }
+  ]
 }

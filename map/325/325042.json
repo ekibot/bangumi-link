@@ -1,37 +1,35 @@
 {
- "id": 325042,
- "node": [
-  {
-   "id": 325042,
-   "name": "大江大河",
-   "nameCN": "大江大河",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/a8/325042_RRRW6.jpg",
-   "date": "2018-12-10",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 325051,
-   "name": "大江大河2",
-   "nameCN": "大江大河2",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/5f/325051_X2GaP.jpg",
-   "date": "2020-12-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 325042,
-   "dst": 325051
-  },
-  {
-   "relate": "前传",
-   "src": 325051,
-   "dst": 325042
-  }
- ]
+  "id": "325042",
+  "node": [
+    {
+      "id": 325042,
+      "name": "大江大河",
+      "nameCN": "大江大河",
+      "date": "2018-12-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 325051,
+      "name": "大江大河2",
+      "nameCN": "大江大河2",
+      "date": "2020-12-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 325042,
+      "dst": 325051
+    },
+    {
+      "relateString": "前传",
+      "src": 325051,
+      "dst": 325042
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 239912,
- "node": [
-  {
-   "id": 239912,
-   "name": "キャロル＆チューズデイ",
-   "nameCN": "CAROLE &amp; TUESDAY",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/aa/239912_z34n4.jpg",
-   "date": "2019-04-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 285522,
-   "name": "きゃろる＆ちゅーずでい",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/c9/285522_95j83.jpg",
-   "date": "2019-06-28",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 239912,
-   "dst": 285522
-  },
-  {
-   "relate": "主线故事",
-   "src": 285522,
-   "dst": 239912
-  }
- ]
+  "id": "239912",
+  "node": [
+    {
+      "id": 239912,
+      "name": "キャロル＆チューズデイ",
+      "nameCN": "CAROLE &amp; TUESDAY",
+      "date": "2019-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 285522,
+      "name": "きゃろる＆ちゅーずでい",
+      "nameCN": "",
+      "date": "2019-06-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 239912,
+      "dst": 285522
+    },
+    {
+      "relateString": "主线故事",
+      "src": 285522,
+      "dst": 239912
+    }
+  ]
 }

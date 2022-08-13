@@ -1,37 +1,34 @@
 {
- "id": 101838,
- "node": [
-  {
-   "id": 101838,
-   "name": "ケリ姫クエスト",
-   "nameCN": "公主蓬特",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/ee/101838_GF7N5.jpg",
-   "date": "2011-11-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 101840,
-   "name": "ケリ姫スイーツ",
-   "nameCN": "公主蓬特2",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/d9/101840_14fAD.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 101838,
-   "dst": 101840
-  },
-  {
-   "relate": "前传",
-   "src": 101840,
-   "dst": 101838
-  }
- ]
+  "id": "101838",
+  "node": [
+    {
+      "id": 101838,
+      "name": "ケリ姫クエスト",
+      "nameCN": "公主蓬特",
+      "date": "2011-11-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 101840,
+      "name": "ケリ姫スイーツ",
+      "nameCN": "公主蓬特2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 101838,
+      "dst": 101840
+    },
+    {
+      "relateString": "前传",
+      "src": 101840,
+      "dst": 101838
+    }
+  ]
 }

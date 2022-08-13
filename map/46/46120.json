@@ -1,57 +1,53 @@
 {
- "id": 46120,
- "node": [
-  {
-   "id": 46120,
-   "name": "Lode Runner",
-   "nameCN": "淘金者",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/0f/46120_wI87i.jpg",
-   "date": "1983-06-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 46122,
-   "name": "Championship Lode Runner",
-   "nameCN": "淘金者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/92/46122_6w7oh.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 239360,
-   "name": "ロードランナー",
-   "nameCN": "淘金者",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/db/239360_Hz6TH.jpg",
-   "date": "2006-10-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46120,
-   "dst": 46122
-  },
-  {
-   "relate": "续集",
-   "src": 46120,
-   "dst": 239360
-  },
-  {
-   "relate": "前传",
-   "src": 46122,
-   "dst": 46120
-  },
-  {
-   "relate": "前传",
-   "src": 239360,
-   "dst": 46120
-  }
- ]
+  "id": "46120",
+  "node": [
+    {
+      "id": 46120,
+      "name": "Lode Runner",
+      "nameCN": "淘金者",
+      "date": "1983-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 46122,
+      "name": "Championship Lode Runner",
+      "nameCN": "淘金者2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 239360,
+      "name": "ロードランナー",
+      "nameCN": "淘金者",
+      "date": "2006-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 46120,
+      "dst": 46122
+    },
+    {
+      "relateString": "续集",
+      "src": 46120,
+      "dst": 239360
+    },
+    {
+      "relateString": "前传",
+      "src": 46122,
+      "dst": 46120
+    },
+    {
+      "relateString": "前传",
+      "src": 239360,
+      "dst": 46120
+    }
+  ]
 }

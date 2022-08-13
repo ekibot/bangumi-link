@@ -1,37 +1,35 @@
 {
- "id": 37649,
- "node": [
-  {
-   "id": 37649,
-   "name": "4TEEN",
-   "nameCN": "4TEEN十四岁",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/35/37649_Tek5x.jpg",
-   "date": "2003-05-22",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 40682,
-   "name": "6TEEN",
-   "nameCN": "十六歲",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/81/40682_jp.jpg",
-   "date": "2009-10-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37649,
-   "dst": 40682
-  },
-  {
-   "relate": "前传",
-   "src": 40682,
-   "dst": 37649
-  }
- ]
+  "id": "37649",
+  "node": [
+    {
+      "id": 37649,
+      "name": "4TEEN",
+      "nameCN": "4TEEN十四岁",
+      "date": "2003-05-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 40682,
+      "name": "6TEEN",
+      "nameCN": "十六歲",
+      "date": "2009-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37649,
+      "dst": 40682
+    },
+    {
+      "relateString": "前传",
+      "src": 40682,
+      "dst": 37649
+    }
+  ]
 }

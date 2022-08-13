@@ -1,0 +1,110 @@
+{
+  "id": "38432",
+  "node": [
+    {
+      "id": 38432,
+      "name": "Bible Black",
+      "nameCN": "黑暗圣经",
+      "date": "2001-07-21",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 60375,
+      "name": "Bible Black 外伝",
+      "nameCN": "黑暗圣经 外传",
+      "date": "2002-05-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 62506,
+      "name": "新・Bible Black",
+      "nameCN": "新・黑暗圣经",
+      "date": "2004-04-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 62507,
+      "name": "Bible Black Only Version",
+      "nameCN": "黑暗圣经 Only",
+      "date": "2005-07-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 83938,
+      "name": "Bible Black -La noche de walpurgis-",
+      "nameCN": "黑暗圣经 -沃普尔吉斯之夜-",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83940,
+      "name": "Bible Black -The Infection-",
+      "nameCN": "黑暗圣经 -感染-",
+      "date": "2008-07-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 38432,
+      "dst": 60375
+    },
+    {
+      "relateString": "续集",
+      "src": 38432,
+      "dst": 62506
+    },
+    {
+      "relateString": "番外篇",
+      "src": 38432,
+      "dst": 62507
+    },
+    {
+      "relateString": "续集",
+      "src": 60375,
+      "dst": 38432
+    },
+    {
+      "relateString": "前传",
+      "src": 62506,
+      "dst": 38432
+    },
+    {
+      "relateString": "主线故事",
+      "src": 62507,
+      "dst": 38432
+    },
+    {
+      "relateString": "衍生",
+      "src": 83938,
+      "dst": 62506
+    },
+    {
+      "relateString": "衍生",
+      "src": 83938,
+      "dst": 62507
+    },
+    {
+      "relateString": "续集",
+      "src": 83938,
+      "dst": 83940
+    },
+    {
+      "relateString": "前传",
+      "src": 83940,
+      "dst": 83938
+    }
+  ]
+}

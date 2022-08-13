@@ -1,37 +1,35 @@
 {
- "id": 362,
- "node": [
-  {
-   "id": 362,
-   "name": "刑事J.B.ハロルドの事件簿 ~殺人倶楽部~",
-   "nameCN": "刑警J.B. 哈罗德事件簿 杀人俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/e8/362_ajp.jpg",
-   "date": "2008-02-29",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 13114,
-   "name": "刑事J.B.ハロルドの事件簿 ~マンハッタン·レクイエム＆キス·オブ·マーダー~",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/bf/13114_Xxdms.jpg",
-   "date": "2008-11-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 362,
-   "dst": 13114
-  },
-  {
-   "relate": "前传",
-   "src": 13114,
-   "dst": 362
-  }
- ]
+  "id": "362",
+  "node": [
+    {
+      "id": 362,
+      "name": "刑事J.B.ハロルドの事件簿 ~殺人倶楽部~",
+      "nameCN": "刑警J.B. 哈罗德事件簿 杀人俱乐部",
+      "date": "2008-02-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 13114,
+      "name": "刑事J.B.ハロルドの事件簿 ~マンハッタン·レクイエム＆キス·オブ·マーダー~",
+      "nameCN": "",
+      "date": "2008-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 362,
+      "dst": 13114
+    },
+    {
+      "relateString": "前传",
+      "src": 13114,
+      "dst": 362
+    }
+  ]
 }

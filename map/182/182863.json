@@ -1,57 +1,53 @@
 {
- "id": 182863,
- "node": [
-  {
-   "id": 182863,
-   "name": "クロノス: 天命探偵 Next Gear",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/25/182863_jp.jpg",
-   "date": "2013-11-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 182875,
-   "name": "天命探偵 真田省吾",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/0b/182875_nF37a.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 182876,
-   "name": "アレス: 天命探偵 Next Gear",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/43/182876_jp.jpg",
-   "date": "2015-11-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 182863,
-   "dst": 182875
-  },
-  {
-   "relate": "续集",
-   "src": 182863,
-   "dst": 182876
-  },
-  {
-   "relate": "番外篇",
-   "src": 182875,
-   "dst": 182863
-  },
-  {
-   "relate": "前传",
-   "src": 182876,
-   "dst": 182863
-  }
- ]
+  "id": "182863",
+  "node": [
+    {
+      "id": 182863,
+      "name": "クロノス: 天命探偵 Next Gear",
+      "nameCN": "",
+      "date": "2013-11-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 182875,
+      "name": "天命探偵 真田省吾",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 182876,
+      "name": "アレス: 天命探偵 Next Gear",
+      "nameCN": "",
+      "date": "2015-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 182863,
+      "dst": 182875
+    },
+    {
+      "relateString": "续集",
+      "src": 182863,
+      "dst": 182876
+    },
+    {
+      "relateString": "番外篇",
+      "src": 182875,
+      "dst": 182863
+    },
+    {
+      "relateString": "前传",
+      "src": 182876,
+      "dst": 182863
+    }
+  ]
 }

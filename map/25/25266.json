@@ -1,0 +1,72 @@
+{
+  "id": "25266",
+  "node": [
+    {
+      "id": 25266,
+      "name": "銃夢",
+      "nameCN": "铳梦",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 25282,
+      "name": "銃夢 Last Order",
+      "nameCN": "铳梦 Last Order",
+      "date": "2000-11-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 65960,
+      "name": "銃夢外伝",
+      "nameCN": "",
+      "date": "2007-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121486,
+      "name": "銃夢火星戦記",
+      "nameCN": "铳梦 火星战记",
+      "date": "2015-05-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25266,
+      "dst": 25282
+    },
+    {
+      "relateString": "番外篇",
+      "src": 25266,
+      "dst": 65960
+    },
+    {
+      "relateString": "前传",
+      "src": 25282,
+      "dst": 25266
+    },
+    {
+      "relateString": "续集",
+      "src": 25282,
+      "dst": 121486
+    },
+    {
+      "relateString": "主线故事",
+      "src": 65960,
+      "dst": 25266
+    },
+    {
+      "relateString": "前传",
+      "src": 121486,
+      "dst": 25282
+    }
+  ]
+}

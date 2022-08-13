@@ -1,37 +1,34 @@
 {
- "id": 150357,
- "node": [
-  {
-   "id": 150357,
-   "name": "ロスト・ユニバースすぺしゃる",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/7c/150357_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 150360,
-   "name": "ロスト・ユニバース",
-   "nameCN": "失落的宇宙 漫画",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/b8/150360_1wALp.jpg",
-   "date": "1998-04-06",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 150357,
-   "dst": 150360
-  },
-  {
-   "relate": "番外篇",
-   "src": 150360,
-   "dst": 150357
-  }
- ]
+  "id": "150357",
+  "node": [
+    {
+      "id": 150357,
+      "name": "ロスト・ユニバースすぺしゃる",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 150360,
+      "name": "ロスト・ユニバース",
+      "nameCN": "失落的宇宙 漫画",
+      "date": "1998-04-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 150357,
+      "dst": 150360
+    },
+    {
+      "relateString": "番外篇",
+      "src": 150360,
+      "dst": 150357
+    }
+  ]
 }

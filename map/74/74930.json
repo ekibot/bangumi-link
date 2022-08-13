@@ -1,37 +1,35 @@
 {
- "id": 74930,
- "node": [
-  {
-   "id": 74930,
-   "name": "ヴァイス・サヴァイヴR",
-   "nameCN": "Weiss Survive R",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/92/74930_IpiWj.jpg",
-   "date": "2009-12-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 74932,
-   "name": "ヴァイス・サヴァイヴ",
-   "nameCN": "Weiss Survive",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/a2/74932_77WiI.jpg",
-   "date": "2009-06-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 74930,
-   "dst": 74932
-  },
-  {
-   "relate": "续集",
-   "src": 74932,
-   "dst": 74930
-  }
- ]
+  "id": "74930",
+  "node": [
+    {
+      "id": 74930,
+      "name": "ヴァイス・サヴァイヴR",
+      "nameCN": "Weiss Survive R",
+      "date": "2009-12-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 74932,
+      "name": "ヴァイス・サヴァイヴ",
+      "nameCN": "Weiss Survive",
+      "date": "2009-06-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 74930,
+      "dst": 74932
+    },
+    {
+      "relateString": "续集",
+      "src": 74932,
+      "dst": 74930
+    }
+  ]
 }

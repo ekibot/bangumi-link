@@ -1,37 +1,34 @@
 {
- "id": 101867,
- "node": [
-  {
-   "id": 101867,
-   "name": "はやて×ブレード",
-   "nameCN": "星空学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/d6/101867_PB2Bz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 101868,
-   "name": "はやて×ブレード2",
-   "nameCN": "星空学园2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/3a/101868_p89pd.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 101867,
-   "dst": 101868
-  },
-  {
-   "relate": "前传",
-   "src": 101868,
-   "dst": 101867
-  }
- ]
+  "id": "101867",
+  "node": [
+    {
+      "id": 101867,
+      "name": "はやて×ブレード",
+      "nameCN": "星空学园",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 101868,
+      "name": "はやて×ブレード2",
+      "nameCN": "星空学园2",
+      "date": "2013-08-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 101867,
+      "dst": 101868
+    },
+    {
+      "relateString": "前传",
+      "src": 101868,
+      "dst": 101867
+    }
+  ]
 }

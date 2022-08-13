@@ -1,57 +1,54 @@
 {
- "id": 124808,
- "node": [
-  {
-   "id": 124808,
-   "name": "ひだまりが聴こえる",
-   "nameCN": "聽見向陽之聲",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/10/124808_z3Ttr.jpg",
-   "date": "2014-10-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 180066,
-   "name": "ひだまりが聴こえる-幸福論-",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/36/180066_HVBkF.jpg",
-   "date": "2016-05-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 228316,
-   "name": "ひだまりが聴こえる-リミット-",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/9d/228316_5113P.jpg",
-   "date": "2017-10-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124808,
-   "dst": 180066
-  },
-  {
-   "relate": "前传",
-   "src": 180066,
-   "dst": 124808
-  },
-  {
-   "relate": "续集",
-   "src": 180066,
-   "dst": 228316
-  },
-  {
-   "relate": "前传",
-   "src": 228316,
-   "dst": 180066
-  }
- ]
+  "id": "124808",
+  "node": [
+    {
+      "id": 124808,
+      "name": "ひだまりが聴こえる",
+      "nameCN": "聽見向陽之聲",
+      "date": "2014-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 180066,
+      "name": "ひだまりが聴こえる-幸福論-",
+      "nameCN": "",
+      "date": "2016-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 228316,
+      "name": "ひだまりが聴こえる-リミット-",
+      "nameCN": "",
+      "date": "2017-10-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124808,
+      "dst": 180066
+    },
+    {
+      "relateString": "前传",
+      "src": 180066,
+      "dst": 124808
+    },
+    {
+      "relateString": "续集",
+      "src": 180066,
+      "dst": 228316
+    },
+    {
+      "relateString": "前传",
+      "src": 228316,
+      "dst": 180066
+    }
+  ]
 }

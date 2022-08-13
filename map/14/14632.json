@@ -1,37 +1,35 @@
 {
- "id": 14632,
- "node": [
-  {
-   "id": 14632,
-   "name": "フジログ",
-   "nameCN": "富士日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/83/14632_Xf6QP.jpg",
-   "date": "2011-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 23514,
-   "name": "フジログ シーズン2",
-   "nameCN": "富士日记 第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/74/23514_Tct6k.jpg",
-   "date": "2011-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14632,
-   "dst": 23514
-  },
-  {
-   "relate": "前传",
-   "src": 23514,
-   "dst": 14632
-  }
- ]
+  "id": "14632",
+  "node": [
+    {
+      "id": 14632,
+      "name": "フジログ",
+      "nameCN": "富士日记",
+      "date": "2011-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 23514,
+      "name": "フジログ シーズン2",
+      "nameCN": "富士日记 第2季",
+      "date": "2011-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14632,
+      "dst": 23514
+    },
+    {
+      "relateString": "前传",
+      "src": 23514,
+      "dst": 14632
+    }
+  ]
 }

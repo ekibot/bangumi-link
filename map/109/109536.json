@@ -1,65 +1,73 @@
 {
- "id": 109536,
- "node": [
-  {
-   "id": 109536,
-   "name": "ひとりじめマイヒーロー",
-   "nameCN": "独占我的英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/d0/109536_2rQpz.jpg",
-   "date": "2012-02-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 110750,
-   "name": "ひとりじめボーイフレンド",
-   "nameCN": "独占男友",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/f1/110750_jp.jpg",
-   "date": "2010-11-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 250033,
-   "name": "ひとりじめマイヒーロー コミックアンソロジー",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/5a/250033_Ak142.jpg",
-   "date": "2017-08-25",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 250034,
-   "name": "ひとりじめマイヒーロー コミックアンソロジー VOL.2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/eb/250034_gxGUk.jpg",
-   "date": "2017-12-25",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 109536,
-   "dst": 110750
-  },
-  {
-   "relate": "相同世界观",
-   "src": 110750,
-   "dst": 109536
-  },
-  {
-   "relate": "主线故事",
-   "src": 250033,
-   "dst": 109536
-  },
-  {
-   "relate": "主线故事",
-   "src": 250034,
-   "dst": 109536
-  }
- ]
+  "id": "109536",
+  "node": [
+    {
+      "id": 109536,
+      "name": "ひとりじめマイヒーロー",
+      "nameCN": "独占我的英雄",
+      "date": "2012-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 110750,
+      "name": "ひとりじめボーイフレンド",
+      "nameCN": "独占男友",
+      "date": "2010-11-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 250033,
+      "name": "ひとりじめマイヒーロー コミックアンソロジー",
+      "nameCN": "",
+      "date": "2017-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 250034,
+      "name": "ひとりじめマイヒーロー コミックアンソロジー VOL.2",
+      "nameCN": "",
+      "date": "2017-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 109536,
+      "dst": 110750
+    },
+    {
+      "relateString": "番外篇",
+      "src": 109536,
+      "dst": 250033
+    },
+    {
+      "relateString": "番外篇",
+      "src": 109536,
+      "dst": 250034
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 110750,
+      "dst": 109536
+    },
+    {
+      "relateString": "主线故事",
+      "src": 250033,
+      "dst": 109536
+    },
+    {
+      "relateString": "主线故事",
+      "src": 250034,
+      "dst": 109536
+    }
+  ]
 }

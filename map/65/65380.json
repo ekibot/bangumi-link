@@ -1,61 +1,87 @@
 {
- "id": 65380,
- "node": [
-  {
-   "id": 65380,
-   "name": "生贄の教室",
-   "nameCN": "生贽的教室",
-   "image": "/img/no_icon_subject.png",
-   "date": "2003-04-25"
-  },
-  {
-   "id": 125876,
-   "name": "傀儡の教室 〜あやつりのきょうしつ〜",
-   "nameCN": "傀儡的教室：Mùǒu de Jiàoshì",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 130968,
-   "name": "贖罪の教室 ～The seven stories of sin～",
-   "nameCN": "赎罪的教室～The seven stories of sin～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2000-04-07"
-  },
-  {
-   "id": 130969,
-   "name": "贖罪の教室 BAD END",
-   "nameCN": "赎罪的教室 BAD END",
-   "image": "/img/no_icon_subject.png",
-   "date": "2001-05-18"
-  },
-  {
-   "id": 130970,
-   "name": "傀儡の教室 HAPPYEND 〜アヤツリノキョウシツ ハッピーエンド〜",
-   "nameCN": "傀儡的教室 HAPPYEND 〜Mùǒu de Jiàoshì Happy End〜",
-   "image": "/img/no_icon_subject.png",
-   "date": "2001-08-03"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 65380,
-   "dst": 125876
-  },
-  {
-   "relate": "续集",
-   "src": 130968,
-   "dst": 125876
-  },
-  {
-   "relate": "主线故事",
-   "src": 130969,
-   "dst": 130968
-  },
-  {
-   "relate": "主线故事",
-   "src": 130970,
-   "dst": 125876
-  }
- ]
+  "id": "65380",
+  "node": [
+    {
+      "id": 65380,
+      "name": "生贄の教室",
+      "nameCN": "生贽的教室",
+      "date": "2003-04-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 125876,
+      "name": "傀儡の教室 〜あやつりのきょうしつ〜",
+      "nameCN": "傀儡的教室：Mùǒu de Jiàoshì",
+      "date": "2000-11-10",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130968,
+      "name": "贖罪の教室 ～The seven stories of sin～",
+      "nameCN": "赎罪的教室～The seven stories of sin～",
+      "date": "2000-04-07",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130969,
+      "name": "贖罪の教室 BAD END",
+      "nameCN": "赎罪的教室 BAD END",
+      "date": "2001-05-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130970,
+      "name": "傀儡の教室 HAPPYEND 〜アヤツリノキョウシツ ハッピーエンド〜",
+      "nameCN": "傀儡的教室 HAPPYEND 〜Mùǒu de Jiàoshì Happy End〜",
+      "date": "2001-08-03",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 65380,
+      "dst": 125876
+    },
+    {
+      "relateString": "主线故事",
+      "src": 65380,
+      "dst": 130968
+    },
+    {
+      "relateString": "主线故事",
+      "src": 65380,
+      "dst": 130969
+    },
+    {
+      "relateString": "主线故事",
+      "src": 65380,
+      "dst": 130970
+    },
+    {
+      "relateString": "续集",
+      "src": 130968,
+      "dst": 125876
+    },
+    {
+      "relateString": "主线故事",
+      "src": 130969,
+      "dst": 130968
+    },
+    {
+      "relateString": "主线故事",
+      "src": 130970,
+      "dst": 125876
+    }
+  ]
 }

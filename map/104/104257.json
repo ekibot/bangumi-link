@@ -1,67 +1,64 @@
 {
- "id": 104257,
- "node": [
-  {
-   "id": 104257,
-   "name": "Baby, ココロのママに! (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/cb/104257_jp.jpg",
-   "date": "2013-10-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 145885,
-   "name": "Baby, ココロのママに! (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/3f/145885_jp.jpg",
-   "date": "2014-06-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 145886,
-   "name": "Baby, ココロのママに! (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/d4/145886_jp.jpg",
-   "date": "2015-01-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104257,
-   "dst": 145885
-  },
-  {
-   "relate": "续集",
-   "src": 104257,
-   "dst": 145886
-  },
-  {
-   "relate": "前传",
-   "src": 145885,
-   "dst": 104257
-  },
-  {
-   "relate": "续集",
-   "src": 145885,
-   "dst": 145886
-  },
-  {
-   "relate": "前传",
-   "src": 145886,
-   "dst": 104257
-  },
-  {
-   "relate": "前传",
-   "src": 145886,
-   "dst": 145885
-  }
- ]
+  "id": "104257",
+  "node": [
+    {
+      "id": 104257,
+      "name": "Baby, ココロのママに! (1)",
+      "nameCN": "",
+      "date": "2013-10-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145885,
+      "name": "Baby, ココロのママに! (2)",
+      "nameCN": "",
+      "date": "2014-06-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145886,
+      "name": "Baby, ココロのママに! (3)",
+      "nameCN": "",
+      "date": "2015-01-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104257,
+      "dst": 145885
+    },
+    {
+      "relateString": "续集",
+      "src": 104257,
+      "dst": 145886
+    },
+    {
+      "relateString": "前传",
+      "src": 145885,
+      "dst": 104257
+    },
+    {
+      "relateString": "续集",
+      "src": 145885,
+      "dst": 145886
+    },
+    {
+      "relateString": "前传",
+      "src": 145886,
+      "dst": 104257
+    },
+    {
+      "relateString": "前传",
+      "src": 145886,
+      "dst": 145885
+    }
+  ]
 }

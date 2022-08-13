@@ -1,37 +1,34 @@
 {
- "id": 67541,
- "node": [
-  {
-   "id": 67541,
-   "name": "いけない!ルナ先生",
-   "nameCN": "俏妞老師",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/1a/67541_3FTdy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 67547,
-   "name": "あぶない! ルナ先生",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/3c/67547_6PN5K.jpg",
-   "date": "1986-08-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 67541,
-   "dst": 67547
-  },
-  {
-   "relate": "续集",
-   "src": 67547,
-   "dst": 67541
-  }
- ]
+  "id": "67541",
+  "node": [
+    {
+      "id": 67541,
+      "name": "いけない!ルナ先生",
+      "nameCN": "俏妞老師",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 67547,
+      "name": "あぶない! ルナ先生",
+      "nameCN": "",
+      "date": "1986-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 67541,
+      "dst": 67547
+    },
+    {
+      "relateString": "续集",
+      "src": 67547,
+      "dst": 67541
+    }
+  ]
 }

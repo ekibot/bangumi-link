@@ -1,34 +1,35 @@
 {
- "id": 197619,
- "node": [
-  {
-   "id": 197619,
-   "name": "妖縛奇譚",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/b9/197619_7ubg7.jpg",
-   "date": "2016-08-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 223976,
-   "name": "妖縛奇譚アポカリプス",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/20/223976_ACU1j.jpg",
-   "date": "2017-04-14",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197619,
-   "dst": 223976
-  },
-  {
-   "relate": "前传",
-   "src": 223976,
-   "dst": 197619
-  }
- ]
+  "id": "197619",
+  "node": [
+    {
+      "id": 197619,
+      "name": "妖縛奇譚",
+      "nameCN": "",
+      "date": "2016-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223976,
+      "name": "妖縛奇譚アポカリプス",
+      "nameCN": "",
+      "date": "2017-04-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197619,
+      "dst": 223976
+    },
+    {
+      "relateString": "前传",
+      "src": 223976,
+      "dst": 197619
+    }
+  ]
 }

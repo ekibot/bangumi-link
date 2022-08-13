@@ -1,57 +1,54 @@
 {
- "id": 38938,
- "node": [
-  {
-   "id": 38938,
-   "name": "BLUE SEED",
-   "nameCN": "碧奇魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/d5/38938_iaS0X.jpg",
-   "date": "1994-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 39263,
-   "name": "BLUE SEED2",
-   "nameCN": "碧奇魂2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/b7/39263_0eb92.jpg",
-   "date": "1996-07-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 39264,
-   "name": "BLUE SEED Ver.1.5",
-   "nameCN": "碧奇魂 Ver.1.5",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/b8/39264_MLrR9.jpg",
-   "date": "1996-06-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 38938,
-   "dst": 39263
-  },
-  {
-   "relate": "总集篇",
-   "src": 38938,
-   "dst": 39264
-  },
-  {
-   "relate": "前传",
-   "src": 39263,
-   "dst": 38938
-  },
-  {
-   "relate": "全集",
-   "src": 39264,
-   "dst": 38938
-  }
- ]
+  "id": "38938",
+  "node": [
+    {
+      "id": 38938,
+      "name": "BLUE SEED",
+      "nameCN": "碧奇魂",
+      "date": "1994-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 39263,
+      "name": "BLUE SEED2",
+      "nameCN": "碧奇魂2",
+      "date": "1996-07-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 39264,
+      "name": "BLUE SEED Ver.1.5",
+      "nameCN": "碧奇魂 Ver.1.5",
+      "date": "1996-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 38938,
+      "dst": 39263
+    },
+    {
+      "relateString": "总集篇",
+      "src": 38938,
+      "dst": 39264
+    },
+    {
+      "relateString": "前传",
+      "src": 39263,
+      "dst": 38938
+    },
+    {
+      "relateString": "全集",
+      "src": 39264,
+      "dst": 38938
+    }
+  ]
 }

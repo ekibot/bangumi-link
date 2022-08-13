@@ -1,91 +1,87 @@
 {
- "id": 158290,
- "node": [
-  {
-   "id": 158290,
-   "name": "Five Nights at Freddy's",
-   "nameCN": "玩具熊的五夜后宫",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/cc/158290_9dq92.jpg",
-   "date": "2014-08-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 262361,
-   "name": "Five Nights at Freddy's 3",
-   "nameCN": "玩具熊的五夜后宫3",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/c3/262361_dcUxb.jpg",
-   "date": "2015-03-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 262362,
-   "name": "Five Nights at Freddy's 2",
-   "nameCN": "玩具熊的五夜后宫2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/1a/262362_IFO4k.jpg",
-   "date": "2014-11-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 262363,
-   "name": "Five Nights at Freddy's 4",
-   "nameCN": "玩具熊的五夜后宫4",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/40/262363_3Wsty.jpg",
-   "date": "2015-07-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 272539,
-   "name": "Five Nights at Freddy's: Sister Location",
-   "nameCN": "玩具熊的五夜后宫：姊妹地点篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/9c/272539_uVTNg.jpg",
-   "date": "2016-10-07",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158290,
-   "dst": 262362
-  },
-  {
-   "relate": "前传",
-   "src": 262361,
-   "dst": 262362
-  },
-  {
-   "relate": "续集",
-   "src": 262361,
-   "dst": 262363
-  },
-  {
-   "relate": "前传",
-   "src": 262362,
-   "dst": 158290
-  },
-  {
-   "relate": "续集",
-   "src": 262362,
-   "dst": 262361
-  },
-  {
-   "relate": "前传",
-   "src": 262363,
-   "dst": 262361
-  },
-  {
-   "relate": "主线故事",
-   "src": 272539,
-   "dst": 158290
-  }
- ]
+  "id": "158290",
+  "node": [
+    {
+      "id": 158290,
+      "name": "Five Nights at Freddy's",
+      "nameCN": "玩具熊的五夜后宫",
+      "date": "2014-08-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262362,
+      "name": "Five Nights at Freddy's 2",
+      "nameCN": "玩具熊的五夜后宫2",
+      "date": "2014-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262361,
+      "name": "Five Nights at Freddy's 3",
+      "nameCN": "玩具熊的五夜后宫3",
+      "date": "2015-03-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262363,
+      "name": "Five Nights at Freddy's 4",
+      "nameCN": "玩具熊的五夜后宫4",
+      "date": "2015-07-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272539,
+      "name": "Five Nights at Freddy's: Sister Location",
+      "nameCN": "玩具熊的五夜后宫：姊妹地点篇",
+      "date": "2016-10-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158290,
+      "dst": 262362
+    },
+    {
+      "relateString": "前传",
+      "src": 262361,
+      "dst": 262362
+    },
+    {
+      "relateString": "续集",
+      "src": 262361,
+      "dst": 262363
+    },
+    {
+      "relateString": "前传",
+      "src": 262362,
+      "dst": 158290
+    },
+    {
+      "relateString": "续集",
+      "src": 262362,
+      "dst": 262361
+    },
+    {
+      "relateString": "前传",
+      "src": 262363,
+      "dst": 262361
+    },
+    {
+      "relateString": "主线故事",
+      "src": 272539,
+      "dst": 158290
+    }
+  ]
 }

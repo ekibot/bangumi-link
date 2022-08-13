@@ -1,51 +1,53 @@
 {
- "id": 97052,
- "node": [
-  {
-   "id": 97052,
-   "name": "薔薇王の葬列",
-   "nameCN": "蔷薇王的葬列",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/48/97052_xCKB3.jpg",
-   "date": "2014-03-14",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 361808,
-   "name": "薔薇王の葬列 original novel 五つの幕間",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/d3/361808_jHhfm.jpg",
-   "date": "2021-12-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 394872,
-   "name": "薔薇王の葬列 王妃と薔薇の騎士",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/b6/394872_2sj7y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 97052,
-   "dst": 361808
-  },
-  {
-   "relate": "主线故事",
-   "src": 361808,
-   "dst": 97052
-  },
-  {
-   "relate": "续集",
-   "src": 394872,
-   "dst": 97052
-  }
- ]
+  "id": "97052",
+  "node": [
+    {
+      "id": 97052,
+      "name": "薔薇王の葬列",
+      "nameCN": "蔷薇王的葬列",
+      "date": "2014-03-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 361808,
+      "name": "薔薇王の葬列 original novel 五つの幕間",
+      "nameCN": "",
+      "date": "2021-12-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 394872,
+      "name": "薔薇王の葬列 王妃と薔薇の騎士",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 97052,
+      "dst": 361808
+    },
+    {
+      "relateString": "前传",
+      "src": 97052,
+      "dst": 394872
+    },
+    {
+      "relateString": "主线故事",
+      "src": 361808,
+      "dst": 97052
+    },
+    {
+      "relateString": "续集",
+      "src": 394872,
+      "dst": 97052
+    }
+  ]
 }

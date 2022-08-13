@@ -1,37 +1,35 @@
 {
- "id": 265570,
- "node": [
-  {
-   "id": 265570,
-   "name": "将夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/ee/265570_4CAW7.jpg",
-   "date": "2018-10-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 298289,
-   "name": "将夜2",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/c8/298289_Gxzol.jpg",
-   "date": "2020-01-13",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 265570,
-   "dst": 298289
-  },
-  {
-   "relate": "前传",
-   "src": 298289,
-   "dst": 265570
-  }
- ]
+  "id": "265570",
+  "node": [
+    {
+      "id": 265570,
+      "name": "将夜",
+      "nameCN": "",
+      "date": "2018-10-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 298289,
+      "name": "将夜2",
+      "nameCN": "",
+      "date": "2020-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 265570,
+      "dst": 298289
+    },
+    {
+      "relateString": "前传",
+      "src": 298289,
+      "dst": 265570
+    }
+  ]
 }

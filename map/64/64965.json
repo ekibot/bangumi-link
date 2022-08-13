@@ -1,57 +1,54 @@
 {
- "id": 64965,
- "node": [
-  {
-   "id": 64965,
-   "name": "The Godfather",
-   "nameCN": "教父",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/81/64965_8c3K2.jpg",
-   "date": "1972-03-15",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 96295,
-   "name": "The Godfather: Part Ⅱ",
-   "nameCN": "教父2",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/74/96295_XoO8o.jpg",
-   "date": "1974-12-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 96296,
-   "name": "The Godfather: Part III",
-   "nameCN": "教父3",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/10/96296_64Zk4.jpg",
-   "date": "1990-12-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64965,
-   "dst": 96295
-  },
-  {
-   "relate": "前传",
-   "src": 96295,
-   "dst": 64965
-  },
-  {
-   "relate": "续集",
-   "src": 96295,
-   "dst": 96296
-  },
-  {
-   "relate": "前传",
-   "src": 96296,
-   "dst": 96295
-  }
- ]
+  "id": "64965",
+  "node": [
+    {
+      "id": 64965,
+      "name": "The Godfather",
+      "nameCN": "教父",
+      "date": "1972-03-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 96295,
+      "name": "The Godfather: Part Ⅱ",
+      "nameCN": "教父2",
+      "date": "1974-12-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 96296,
+      "name": "The Godfather: Part III",
+      "nameCN": "教父3",
+      "date": "1990-12-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64965,
+      "dst": 96295
+    },
+    {
+      "relateString": "前传",
+      "src": 96295,
+      "dst": 64965
+    },
+    {
+      "relateString": "续集",
+      "src": 96295,
+      "dst": 96296
+    },
+    {
+      "relateString": "前传",
+      "src": 96296,
+      "dst": 96295
+    }
+  ]
 }

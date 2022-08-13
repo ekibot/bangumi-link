@@ -1,37 +1,35 @@
 {
- "id": 140950,
- "node": [
-  {
-   "id": 140950,
-   "name": "Red",
-   "nameCN": "赤焰战场",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/a3/140950_3OiWC.jpg",
-   "date": "2011-04-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 140955,
-   "name": "Red 2",
-   "nameCN": "赤焰战场2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/00/140955_xN55z.jpg",
-   "date": "2013-11-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 140950,
-   "dst": 140955
-  },
-  {
-   "relate": "前传",
-   "src": 140955,
-   "dst": 140950
-  }
- ]
+  "id": "140950",
+  "node": [
+    {
+      "id": 140950,
+      "name": "Red",
+      "nameCN": "赤焰战场",
+      "date": "2011-04-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 140955,
+      "name": "Red 2",
+      "nameCN": "赤焰战场2",
+      "date": "2013-11-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 140950,
+      "dst": 140955
+    },
+    {
+      "relateString": "前传",
+      "src": 140955,
+      "dst": 140950
+    }
+  ]
 }

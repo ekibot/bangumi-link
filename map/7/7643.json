@@ -1,57 +1,53 @@
 {
- "id": 7643,
- "node": [
-  {
-   "id": 7643,
-   "name": "Black Mirror II",
-   "nameCN": "黑镜2",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/7e/7643_5C5sX.jpg",
-   "date": "2010-05-07",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 15031,
-   "name": "The Black Mirror",
-   "nameCN": "黑镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/fe/15031_JlM06.jpg",
-   "date": "2003-10-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 19611,
-   "name": "Black Mirror III",
-   "nameCN": "黑镜3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/cd/19611_AEitL.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7643,
-   "dst": 15031
-  },
-  {
-   "relate": "续集",
-   "src": 7643,
-   "dst": 19611
-  },
-  {
-   "relate": "续集",
-   "src": 15031,
-   "dst": 7643
-  },
-  {
-   "relate": "前传",
-   "src": 19611,
-   "dst": 7643
-  }
- ]
+  "id": "7643",
+  "node": [
+    {
+      "id": 7643,
+      "name": "Black Mirror II",
+      "nameCN": "黑镜2",
+      "date": "2010-05-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 15031,
+      "name": "The Black Mirror",
+      "nameCN": "黑镜",
+      "date": "2003-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 19611,
+      "name": "Black Mirror III",
+      "nameCN": "黑镜3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7643,
+      "dst": 15031
+    },
+    {
+      "relateString": "续集",
+      "src": 7643,
+      "dst": 19611
+    },
+    {
+      "relateString": "续集",
+      "src": 15031,
+      "dst": 7643
+    },
+    {
+      "relateString": "前传",
+      "src": 19611,
+      "dst": 7643
+    }
+  ]
 }

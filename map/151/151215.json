@@ -1,37 +1,33 @@
 {
- "id": 151215,
- "node": [
-  {
-   "id": 151215,
-   "name": "仮面探偵",
-   "nameCN": "假面侦探",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/13/151215_oKDnX.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 151216,
-   "name": "新・仮面探偵",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/56/151216_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 151215,
-   "dst": 151216
-  },
-  {
-   "relate": "前传",
-   "src": 151216,
-   "dst": 151215
-  }
- ]
+  "id": "151215",
+  "node": [
+    {
+      "id": 151215,
+      "name": "仮面探偵",
+      "nameCN": "假面侦探",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 151216,
+      "name": "新・仮面探偵",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 151215,
+      "dst": 151216
+    },
+    {
+      "relateString": "前传",
+      "src": 151216,
+      "dst": 151215
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 4274,
- "node": [
-  {
-   "id": 4274,
-   "name": "マルドゥック・スクランブル 圧縮",
-   "nameCN": "壳中少女 压缩",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/f8/4274_bnzIo.jpg",
-   "date": "2010-11-06",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 44690,
-   "name": "マルドゥック・スクランブル 燃焼",
-   "nameCN": "壳中少女 燃烧",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/97/44690_zYDFW.jpg",
-   "date": "2011-09-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 44691,
-   "name": "マルドゥック・スクランブル 排気",
-   "nameCN": "壳中少女 排气",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/09/44691_f2Ue2.jpg",
-   "date": "2012-09-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4274,
-   "dst": 44690
-  },
-  {
-   "relate": "前传",
-   "src": 44690,
-   "dst": 4274
-  },
-  {
-   "relate": "续集",
-   "src": 44690,
-   "dst": 44691
-  },
-  {
-   "relate": "前传",
-   "src": 44691,
-   "dst": 44690
-  }
- ]
+  "id": "4274",
+  "node": [
+    {
+      "id": 4274,
+      "name": "マルドゥック・スクランブル 圧縮",
+      "nameCN": "壳中少女 压缩",
+      "date": "2010-11-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 44690,
+      "name": "マルドゥック・スクランブル 燃焼",
+      "nameCN": "壳中少女 燃烧",
+      "date": "2011-09-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 44691,
+      "name": "マルドゥック・スクランブル 排気",
+      "nameCN": "壳中少女 排气",
+      "date": "2012-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4274,
+      "dst": 44690
+    },
+    {
+      "relateString": "前传",
+      "src": 44690,
+      "dst": 4274
+    },
+    {
+      "relateString": "续集",
+      "src": 44690,
+      "dst": 44691
+    },
+    {
+      "relateString": "前传",
+      "src": 44691,
+      "dst": 44690
+    }
+  ]
 }

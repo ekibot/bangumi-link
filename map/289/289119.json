@@ -1,37 +1,35 @@
 {
- "id": 289119,
- "node": [
-  {
-   "id": 289119,
-   "name": "アイカツオンパレード！",
-   "nameCN": "偶像活动 on Parade",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/bb/289119_kt1J9.jpg",
-   "date": "2019-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 302549,
-   "name": "アイカツオンパレード！ドリームストーリー",
-   "nameCN": "偶像活动 on Parade！Dream Story",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/77/302549_a7u6N.jpg",
-   "date": "2020-03-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 289119,
-   "dst": 302549
-  },
-  {
-   "relate": "主线故事",
-   "src": 302549,
-   "dst": 289119
-  }
- ]
+  "id": "289119",
+  "node": [
+    {
+      "id": 289119,
+      "name": "アイカツオンパレード！",
+      "nameCN": "偶像活动 on Parade",
+      "date": "2019-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 302549,
+      "name": "アイカツオンパレード！ドリームストーリー",
+      "nameCN": "偶像活动 on Parade！Dream Story",
+      "date": "2020-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 289119,
+      "dst": 302549
+    },
+    {
+      "relateString": "主线故事",
+      "src": 302549,
+      "dst": 289119
+    }
+  ]
 }

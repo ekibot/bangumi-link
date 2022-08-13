@@ -1,37 +1,35 @@
 {
- "id": 26367,
- "node": [
-  {
-   "id": 26367,
-   "name": "今宵おまえと (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/e7/26367_jp.jpg",
-   "date": "2010-11-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 36020,
-   "name": "今宵おまえと (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/d1/36020_jp.jpg",
-   "date": "2011-12-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26367,
-   "dst": 36020
-  },
-  {
-   "relate": "前传",
-   "src": 36020,
-   "dst": 26367
-  }
- ]
+  "id": "26367",
+  "node": [
+    {
+      "id": 26367,
+      "name": "今宵おまえと (1)",
+      "nameCN": "",
+      "date": "2010-11-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 36020,
+      "name": "今宵おまえと (2)",
+      "nameCN": "",
+      "date": "2011-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26367,
+      "dst": 36020
+    },
+    {
+      "relateString": "前传",
+      "src": 36020,
+      "dst": 26367
+    }
+  ]
 }

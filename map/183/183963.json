@@ -1,57 +1,54 @@
 {
- "id": 183963,
- "node": [
-  {
-   "id": 183963,
-   "name": "ソリッド・ラヴ",
-   "nameCN": "純色之戀",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/6e/183963_jp.jpg",
-   "date": "2000-11-09",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 183965,
-   "name": "レイニー・シーズン―吾妻&amp;伊万里",
-   "nameCN": "愛情晴雨天",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/42/183965_jp.jpg",
-   "date": "2001-06-14",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 183966,
-   "name": "オール・スマイル―吾妻&amp;伊万里",
-   "nameCN": "愛神的微笑",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/4f/183966_jp.jpg",
-   "date": "2002-02-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 183963,
-   "dst": 183965
-  },
-  {
-   "relate": "前传",
-   "src": 183965,
-   "dst": 183963
-  },
-  {
-   "relate": "续集",
-   "src": 183965,
-   "dst": 183966
-  },
-  {
-   "relate": "前传",
-   "src": 183966,
-   "dst": 183965
-  }
- ]
+  "id": "183963",
+  "node": [
+    {
+      "id": 183963,
+      "name": "ソリッド・ラヴ",
+      "nameCN": "純色之戀",
+      "date": "2000-11-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 183965,
+      "name": "レイニー・シーズン―吾妻&amp;伊万里",
+      "nameCN": "愛情晴雨天",
+      "date": "2001-06-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 183966,
+      "name": "オール・スマイル―吾妻&amp;伊万里",
+      "nameCN": "愛神的微笑",
+      "date": "2002-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 183963,
+      "dst": 183965
+    },
+    {
+      "relateString": "前传",
+      "src": 183965,
+      "dst": 183963
+    },
+    {
+      "relateString": "续集",
+      "src": 183965,
+      "dst": 183966
+    },
+    {
+      "relateString": "前传",
+      "src": 183966,
+      "dst": 183965
+    }
+  ]
 }

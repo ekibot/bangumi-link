@@ -1,37 +1,35 @@
 {
- "id": 263694,
- "node": [
-  {
-   "id": 263694,
-   "name": "The Haunting of Hill House",
-   "nameCN": "鬼入侵",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/36/263694_947CU.jpg",
-   "date": "2018-10-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 316663,
-   "name": "The Haunting of Bly Manor",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/7d/316663_d9Dm0.jpg",
-   "date": "2020-10-09",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263694,
-   "dst": 316663
-  },
-  {
-   "relate": "前传",
-   "src": 316663,
-   "dst": 263694
-  }
- ]
+  "id": "263694",
+  "node": [
+    {
+      "id": 263694,
+      "name": "The Haunting of Hill House",
+      "nameCN": "鬼入侵",
+      "date": "2018-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 316663,
+      "name": "The Haunting of Bly Manor",
+      "nameCN": "",
+      "date": "2020-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263694,
+      "dst": 316663
+    },
+    {
+      "relateString": "前传",
+      "src": 316663,
+      "dst": 263694
+    }
+  ]
 }

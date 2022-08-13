@@ -1,57 +1,54 @@
 {
- "id": 162660,
- "node": [
-  {
-   "id": 162660,
-   "name": "LISA",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/fa/162660_Eoe1T.jpg",
-   "date": "2014-12-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 317131,
-   "name": "LISA: THE FIRST",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/0c/317131_VmL4J.jpg",
-   "date": "2012-10-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 317136,
-   "name": "LISA: THE JOYFUL",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/ea/317136_DBx5e.jpg",
-   "date": "2015-08-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 162660,
-   "dst": 317131
-  },
-  {
-   "relate": "续集",
-   "src": 162660,
-   "dst": 317136
-  },
-  {
-   "relate": "续集",
-   "src": 317131,
-   "dst": 162660
-  },
-  {
-   "relate": "前传",
-   "src": 317136,
-   "dst": 162660
-  }
- ]
+  "id": "162660",
+  "node": [
+    {
+      "id": 162660,
+      "name": "LISA",
+      "nameCN": "",
+      "date": "2014-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317131,
+      "name": "LISA: THE FIRST",
+      "nameCN": "",
+      "date": "2012-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317136,
+      "name": "LISA: THE JOYFUL",
+      "nameCN": "",
+      "date": "2015-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 162660,
+      "dst": 317131
+    },
+    {
+      "relateString": "续集",
+      "src": 162660,
+      "dst": 317136
+    },
+    {
+      "relateString": "续集",
+      "src": 317131,
+      "dst": 162660
+    },
+    {
+      "relateString": "前传",
+      "src": 317136,
+      "dst": 162660
+    }
+  ]
 }

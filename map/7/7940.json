@@ -1,34 +1,35 @@
 {
- "id": 7940,
- "node": [
-  {
-   "id": 7940,
-   "name": "はるかぜどりに、とまりぎを。2nd Story ～月の扉と海の欠片～",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/de/7940_sD8Dh.jpg",
-   "date": "2010-01-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 12310,
-   "name": "はるかぜどりに、とまりぎを。",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/19/12310_2GfxY.jpg",
-   "date": "2007-10-26",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7940,
-   "dst": 12310
-  },
-  {
-   "relate": "续集",
-   "src": 12310,
-   "dst": 7940
-  }
- ]
+  "id": "7940",
+  "node": [
+    {
+      "id": 7940,
+      "name": "はるかぜどりに、とまりぎを。2nd Story ～月の扉と海の欠片～",
+      "nameCN": "",
+      "date": "2010-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 12310,
+      "name": "はるかぜどりに、とまりぎを。",
+      "nameCN": "",
+      "date": "2007-10-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7940,
+      "dst": 12310
+    },
+    {
+      "relateString": "续集",
+      "src": 12310,
+      "dst": 7940
+    }
+  ]
 }

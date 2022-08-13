@@ -1,37 +1,35 @@
 {
- "id": 300501,
- "node": [
-  {
-   "id": 300501,
-   "name": "アークザラッド2 炎のエルク1 ガンガンコミックス",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/57/300501_R9oHi.jpg",
-   "date": "1997-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 300507,
-   "name": "アークザラッド2 炎のエルク2 ガンガンコミックス",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/45/300507_A9I2A.jpg",
-   "date": "1998-03-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 300501,
-   "dst": 300507
-  },
-  {
-   "relate": "前传",
-   "src": 300507,
-   "dst": 300501
-  }
- ]
+  "id": "300501",
+  "node": [
+    {
+      "id": 300501,
+      "name": "アークザラッド2 炎のエルク1 ガンガンコミックス",
+      "nameCN": "",
+      "date": "1997-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300507,
+      "name": "アークザラッド2 炎のエルク2 ガンガンコミックス",
+      "nameCN": "",
+      "date": "1998-03-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 300501,
+      "dst": 300507
+    },
+    {
+      "relateString": "前传",
+      "src": 300507,
+      "dst": 300501
+    }
+  ]
 }

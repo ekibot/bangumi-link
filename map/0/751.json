@@ -1,97 +1,89 @@
 {
- "id": 751,
- "node": [
-  {
-   "id": 751,
-   "name": "葫芦兄弟",
-   "nameCN": "葫芦兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/2d/751_Nj9Q8.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 36268,
-   "name": "葫芦小金刚",
-   "nameCN": "葫芦小金刚",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/f7/36268_9z7M9.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 141165,
-   "name": "葫芦娃异闻录",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 178859,
-   "name": "葫芦兄弟",
-   "nameCN": "葫芦兄弟 电影版",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/f0/178859_hc01M.jpg",
-   "date": "2008-05-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 186780,
-   "name": "新葫芦兄弟",
-   "nameCN": "新葫芦兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/65/186780_d9lL0.jpg",
-   "date": "2016-07-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 751,
-   "dst": 36268
-  },
-  {
-   "relate": "不同演绎",
-   "src": 751,
-   "dst": 141165
-  },
-  {
-   "relate": "总集篇",
-   "src": 751,
-   "dst": 178859
-  },
-  {
-   "relate": "不同演绎",
-   "src": 751,
-   "dst": 186780
-  },
-  {
-   "relate": "前传",
-   "src": 36268,
-   "dst": 751
-  },
-  {
-   "relate": "不同演绎",
-   "src": 141165,
-   "dst": 751
-  },
-  {
-   "relate": "全集",
-   "src": 178859,
-   "dst": 751
-  },
-  {
-   "relate": "不同演绎",
-   "src": 186780,
-   "dst": 751
-  }
- ]
+  "id": "751",
+  "node": [
+    {
+      "id": 751,
+      "name": "葫芦兄弟",
+      "nameCN": "葫芦兄弟",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36268,
+      "name": "葫芦小金刚",
+      "nameCN": "葫芦小金刚",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 141165,
+      "name": "葫芦娃异闻录",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 178859,
+      "name": "葫芦兄弟",
+      "nameCN": "葫芦兄弟 电影版",
+      "date": "2008-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 186780,
+      "name": "新葫芦兄弟",
+      "nameCN": "新葫芦兄弟",
+      "date": "2016-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 751,
+      "dst": 36268
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 751,
+      "dst": 141165
+    },
+    {
+      "relateString": "总集篇",
+      "src": 751,
+      "dst": 178859
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 751,
+      "dst": 186780
+    },
+    {
+      "relateString": "前传",
+      "src": 36268,
+      "dst": 751
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 141165,
+      "dst": 751
+    },
+    {
+      "relateString": "全集",
+      "src": 178859,
+      "dst": 751
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 186780,
+      "dst": 751
+    }
+  ]
 }

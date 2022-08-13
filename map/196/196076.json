@@ -1,37 +1,35 @@
 {
- "id": 196076,
- "node": [
-  {
-   "id": 196076,
-   "name": "梦想召唤王",
-   "nameCN": "梦想召唤王",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/14/196076_J27jx.jpg",
-   "date": "2016-10-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 236599,
-   "name": "梦想召唤王 第二季：彩虹",
-   "nameCN": "梦想召唤王 第二季：彩虹",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/bb/236599_xo6xw.jpg",
-   "date": "2018-01-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196076,
-   "dst": 236599
-  },
-  {
-   "relate": "前传",
-   "src": 236599,
-   "dst": 196076
-  }
- ]
+  "id": "196076",
+  "node": [
+    {
+      "id": 196076,
+      "name": "梦想召唤王",
+      "nameCN": "梦想召唤王",
+      "date": "2016-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 236599,
+      "name": "梦想召唤王 第二季：彩虹",
+      "nameCN": "梦想召唤王 第二季：彩虹",
+      "date": "2018-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196076,
+      "dst": 236599
+    },
+    {
+      "relateString": "前传",
+      "src": 236599,
+      "dst": 196076
+    }
+  ]
 }

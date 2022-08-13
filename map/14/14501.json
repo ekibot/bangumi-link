@@ -1,37 +1,35 @@
 {
- "id": 14501,
- "node": [
-  {
-   "id": 14501,
-   "name": "乙女恋心プリスターFANDISC～もっとHに恋せよ乙女！～",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/11/14501_9cfIn.jpg",
-   "date": "2010-07-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 92174,
-   "name": "乙女恋心プリスター",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/8a/92174_85PG2.jpg",
-   "date": "2010-01-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 14501,
-   "dst": 92174
-  },
-  {
-   "relate": "续集",
-   "src": 92174,
-   "dst": 14501
-  }
- ]
+  "id": "14501",
+  "node": [
+    {
+      "id": 14501,
+      "name": "乙女恋心プリスターFANDISC～もっとHに恋せよ乙女！～",
+      "nameCN": "",
+      "date": "2010-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 92174,
+      "name": "乙女恋心プリスター",
+      "nameCN": "",
+      "date": "2010-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 14501,
+      "dst": 92174
+    },
+    {
+      "relateString": "续集",
+      "src": 92174,
+      "dst": 14501
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 120031,
- "node": [
-  {
-   "id": 120031,
-   "name": "放課後メンズハレム",
-   "nameCN": "放学后的秘密花园",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/9c/120031_jp.jpg",
-   "date": "2008-05-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 120032,
-   "name": "好きだけどっ!",
-   "nameCN": "就是喜欢你",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/84/120032_jp.jpg",
-   "date": "2007-10-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 120031,
-   "dst": 120032
-  },
-  {
-   "relate": "续集",
-   "src": 120032,
-   "dst": 120031
-  }
- ]
+  "id": "120031",
+  "node": [
+    {
+      "id": 120031,
+      "name": "放課後メンズハレム",
+      "nameCN": "放学后的秘密花园",
+      "date": "2008-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120032,
+      "name": "好きだけどっ!",
+      "nameCN": "就是喜欢你",
+      "date": "2007-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 120031,
+      "dst": 120032
+    },
+    {
+      "relateString": "续集",
+      "src": 120032,
+      "dst": 120031
+    }
+  ]
 }

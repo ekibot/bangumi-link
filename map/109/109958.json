@@ -1,37 +1,34 @@
 {
- "id": 109958,
- "node": [
-  {
-   "id": 109958,
-   "name": "ハッピー・マニア",
-   "nameCN": "恋爱暴走族",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/87/109958_OLXNJ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 334824,
-   "name": "後ハッピーマニア",
-   "nameCN": "后恋爱暴走族",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/c5/334824_A28wq.jpg",
-   "date": "2020-08-06",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 109958,
-   "dst": 334824
-  },
-  {
-   "relate": "前传",
-   "src": 334824,
-   "dst": 109958
-  }
- ]
+  "id": "109958",
+  "node": [
+    {
+      "id": 109958,
+      "name": "ハッピー・マニア",
+      "nameCN": "恋爱暴走族",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 334824,
+      "name": "後ハッピーマニア",
+      "nameCN": "后恋爱暴走族",
+      "date": "2020-08-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 109958,
+      "dst": 334824
+    },
+    {
+      "relateString": "前传",
+      "src": 334824,
+      "dst": 109958
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 3769,
- "node": [
-  {
-   "id": 3769,
-   "name": "ブギーポップは笑わない Boogiepop Phantom",
-   "nameCN": "幻影死神",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/25/3769_jc66R.jpg",
-   "date": "2000-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 97016,
-   "name": "ブギーポップは笑わない Boogiepop and Others",
-   "nameCN": "幻影死神",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/22/97016_RpPXn.jpg",
-   "date": "2000-03-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 240039,
-   "name": "ブギーポップは笑わない",
-   "nameCN": "不吉波普不笑",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/2a/240039_DSzs2.jpg",
-   "date": "2019-01-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 3769,
-   "dst": 97016
-  },
-  {
-   "relate": "不同演绎",
-   "src": 3769,
-   "dst": 240039
-  },
-  {
-   "relate": "不同演绎",
-   "src": 97016,
-   "dst": 3769
-  },
-  {
-   "relate": "不同演绎",
-   "src": 240039,
-   "dst": 3769
-  }
- ]
+  "id": "3769",
+  "node": [
+    {
+      "id": 3769,
+      "name": "ブギーポップは笑わない Boogiepop Phantom",
+      "nameCN": "幻影死神",
+      "date": "2000-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 97016,
+      "name": "ブギーポップは笑わない Boogiepop and Others",
+      "nameCN": "幻影死神",
+      "date": "2000-03-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 240039,
+      "name": "ブギーポップは笑わない",
+      "nameCN": "不吉波普不笑",
+      "date": "2019-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 3769,
+      "dst": 97016
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 3769,
+      "dst": 240039
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 97016,
+      "dst": 3769
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 240039,
+      "dst": 3769
+    }
+  ]
 }

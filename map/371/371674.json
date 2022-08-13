@@ -1,37 +1,34 @@
 {
- "id": 371674,
- "node": [
-  {
-   "id": 371674,
-   "name": "Halo Season 1",
-   "nameCN": "光环 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/c8/371674_28w2O.jpg",
-   "date": "2022-03-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 371677,
-   "name": "Halo Season 2",
-   "nameCN": "光环 第二季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 371674,
-   "dst": 371677
-  },
-  {
-   "relate": "前传",
-   "src": 371677,
-   "dst": 371674
-  }
- ]
+  "id": "371674",
+  "node": [
+    {
+      "id": 371674,
+      "name": "Halo Season 1",
+      "nameCN": "光环 第一季",
+      "date": "2022-03-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 371677,
+      "name": "Halo Season 2",
+      "nameCN": "光环 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 371674,
+      "dst": 371677
+    },
+    {
+      "relateString": "前传",
+      "src": 371677,
+      "dst": 371674
+    }
+  ]
 }

@@ -1,85 +1,82 @@
 {
- "id": 4872,
- "node": [
-  {
-   "id": 4872,
-   "name": "Sacred 2 - Fallen Angel",
-   "nameCN": "圣域2：堕落天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/b5/4872_njf3b.jpg",
-   "date": "2008-11-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107083,
-   "name": "Sacred",
-   "nameCN": "圣域",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/f7/107083_LLGoi.jpg",
-   "date": "2004-03-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 107084,
-   "name": "Sacred: Underworld",
-   "nameCN": "圣域：魔都魅影",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/f8/107084_xrEp5.jpg",
-   "date": "2005-08-17",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 116284,
-   "name": "Sacred 3",
-   "nameCN": "圣域3",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/26/116284_6e5TZ.jpg",
-   "date": "2014-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 279247,
-   "name": "Sacred 2 - Fallen Angel: Ice and Blood",
-   "nameCN": "圣域2：冰与血",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/3a/279247_Iw2y9.jpg",
-   "date": "2009-10-02",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 4872,
-   "dst": 107083
-  },
-  {
-   "relate": "续集",
-   "src": 4872,
-   "dst": 116284
-  },
-  {
-   "relate": "续集",
-   "src": 107083,
-   "dst": 4872
-  },
-  {
-   "relate": "主线故事",
-   "src": 107084,
-   "dst": 107083
-  },
-  {
-   "relate": "前传",
-   "src": 116284,
-   "dst": 4872
-  },
-  {
-   "relate": "主线故事",
-   "src": 279247,
-   "dst": 4872
-  }
- ]
+  "id": "4872",
+  "node": [
+    {
+      "id": 4872,
+      "name": "Sacred 2 - Fallen Angel",
+      "nameCN": "圣域2：堕落天使",
+      "date": "2008-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107083,
+      "name": "Sacred",
+      "nameCN": "圣域",
+      "date": "2004-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 116284,
+      "name": "Sacred 3",
+      "nameCN": "圣域3",
+      "date": "2014-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107084,
+      "name": "Sacred: Underworld",
+      "nameCN": "圣域：魔都魅影",
+      "date": "2005-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 279247,
+      "name": "Sacred 2 - Fallen Angel: Ice and Blood",
+      "nameCN": "圣域2：冰与血",
+      "date": "2009-10-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 4872,
+      "dst": 107083
+    },
+    {
+      "relateString": "续集",
+      "src": 4872,
+      "dst": 116284
+    },
+    {
+      "relateString": "续集",
+      "src": 107083,
+      "dst": 4872
+    },
+    {
+      "relateString": "主线故事",
+      "src": 107084,
+      "dst": 107083
+    },
+    {
+      "relateString": "前传",
+      "src": 116284,
+      "dst": 4872
+    },
+    {
+      "relateString": "主线故事",
+      "src": 279247,
+      "dst": 4872
+    }
+  ]
 }

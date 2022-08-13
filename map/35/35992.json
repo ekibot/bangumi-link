@@ -1,37 +1,35 @@
 {
- "id": 35992,
- "node": [
-  {
-   "id": 35992,
-   "name": "EXILE ENTERTAINMENT BEST エグザムライ  六本木地獄の章",
-   "nameCN": "EXILE战国 六本木地狱之章",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/4d/35992_2hmzq.jpg",
-   "date": "2008-07-23",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 98431,
-   "name": "エグザムライ戦国",
-   "nameCN": "EXILE战国",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/ce/98431_Z5F5F.jpg",
-   "date": "2009-01-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 35992,
-   "dst": 98431
-  },
-  {
-   "relate": "番外篇",
-   "src": 98431,
-   "dst": 35992
-  }
- ]
+  "id": "35992",
+  "node": [
+    {
+      "id": 35992,
+      "name": "EXILE ENTERTAINMENT BEST エグザムライ  六本木地獄の章",
+      "nameCN": "EXILE战国 六本木地狱之章",
+      "date": "2008-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 98431,
+      "name": "エグザムライ戦国",
+      "nameCN": "EXILE战国",
+      "date": "2009-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 35992,
+      "dst": 98431
+    },
+    {
+      "relateString": "番外篇",
+      "src": 98431,
+      "dst": 35992
+    }
+  ]
 }

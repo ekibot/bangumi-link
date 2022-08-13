@@ -1,37 +1,35 @@
 {
- "id": 21034,
- "node": [
-  {
-   "id": 21034,
-   "name": "ネオ アンジェリーク",
-   "nameCN": "新安琪莉可",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/66/21034_sjtBN.jpg",
-   "date": "2006-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 218014,
-   "name": "ネオ アンジェリーク 天使の涙",
-   "nameCN": "新安琪莉可 天使之泪",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/48/218014_EM6j2.jpg",
-   "date": "2017-12-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21034,
-   "dst": 218014
-  },
-  {
-   "relate": "前传",
-   "src": 218014,
-   "dst": 21034
-  }
- ]
+  "id": "21034",
+  "node": [
+    {
+      "id": 21034,
+      "name": "ネオ アンジェリーク",
+      "nameCN": "新安琪莉可",
+      "date": "2006-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218014,
+      "name": "ネオ アンジェリーク 天使の涙",
+      "nameCN": "新安琪莉可 天使之泪",
+      "date": "2017-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21034,
+      "dst": 218014
+    },
+    {
+      "relateString": "前传",
+      "src": 218014,
+      "dst": 21034
+    }
+  ]
 }

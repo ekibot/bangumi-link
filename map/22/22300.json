@@ -1,57 +1,54 @@
 {
- "id": 22300,
- "node": [
-  {
-   "id": 22300,
-   "name": "Cities XL 2011",
-   "nameCN": "特大城市2011",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/b6/22300_WTOIG.jpg",
-   "date": "2010-10-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 24965,
-   "name": "Cities XL 2012",
-   "nameCN": "特大城市2012",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/ff/24965_r7yLy.jpg",
-   "date": "2011-10-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122697,
-   "name": "Cities XXL",
-   "nameCN": "超大城市",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/7d/122697_dI4TF.jpg",
-   "date": "2015-01-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22300,
-   "dst": 24965
-  },
-  {
-   "relate": "前传",
-   "src": 24965,
-   "dst": 22300
-  },
-  {
-   "relate": "续集",
-   "src": 24965,
-   "dst": 122697
-  },
-  {
-   "relate": "前传",
-   "src": 122697,
-   "dst": 24965
-  }
- ]
+  "id": "22300",
+  "node": [
+    {
+      "id": 22300,
+      "name": "Cities XL 2011",
+      "nameCN": "特大城市2011",
+      "date": "2010-10-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 24965,
+      "name": "Cities XL 2012",
+      "nameCN": "特大城市2012",
+      "date": "2011-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122697,
+      "name": "Cities XXL",
+      "nameCN": "超大城市",
+      "date": "2015-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22300,
+      "dst": 24965
+    },
+    {
+      "relateString": "前传",
+      "src": 24965,
+      "dst": 22300
+    },
+    {
+      "relateString": "续集",
+      "src": 24965,
+      "dst": 122697
+    },
+    {
+      "relateString": "前传",
+      "src": 122697,
+      "dst": 24965
+    }
+  ]
 }

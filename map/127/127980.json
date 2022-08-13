@@ -1,37 +1,35 @@
 {
- "id": 127980,
- "node": [
-  {
-   "id": 127980,
-   "name": "セブンデイズ MONDAY→THURSDAY",
-   "nameCN": "星期恋人",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/1b/127980_tM66O.jpg",
-   "date": "2015-06-06",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 128254,
-   "name": "セブンデイズ FRIDAY→SUNDAY",
-   "nameCN": "星期恋人续",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/8d/128254_iOvIe.jpg",
-   "date": "2015-07-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127980,
-   "dst": 128254
-  },
-  {
-   "relate": "前传",
-   "src": 128254,
-   "dst": 127980
-  }
- ]
+  "id": "127980",
+  "node": [
+    {
+      "id": 127980,
+      "name": "セブンデイズ MONDAY→THURSDAY",
+      "nameCN": "星期恋人",
+      "date": "2015-06-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 128254,
+      "name": "セブンデイズ FRIDAY→SUNDAY",
+      "nameCN": "星期恋人续",
+      "date": "2015-07-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127980,
+      "dst": 128254
+    },
+    {
+      "relateString": "前传",
+      "src": 128254,
+      "dst": 127980
+    }
+  ]
 }

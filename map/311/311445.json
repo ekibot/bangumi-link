@@ -1,57 +1,54 @@
 {
- "id": 311445,
- "node": [
-  {
-   "id": 311445,
-   "name": "道",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/a3/311445_r0h31.jpg",
-   "date": "2017-11-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 311446,
-   "name": "迷仙引：中华民俗志怪绘本",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/01/311446_rzr1o.jpg",
-   "date": "2019-08-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 376067,
-   "name": "笑尘觉：中华民俗志怪绘本",
-   "nameCN": "笑尘觉",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/62/376067_i5Uux.jpg",
-   "date": "2021-11-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 311445,
-   "dst": 311446
-  },
-  {
-   "relate": "前传",
-   "src": 311446,
-   "dst": 311445
-  },
-  {
-   "relate": "续集",
-   "src": 311446,
-   "dst": 376067
-  },
-  {
-   "relate": "前传",
-   "src": 376067,
-   "dst": 311446
-  }
- ]
+  "id": "311445",
+  "node": [
+    {
+      "id": 311445,
+      "name": "道",
+      "nameCN": "",
+      "date": "2017-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 311446,
+      "name": "迷仙引：中华民俗志怪绘本",
+      "nameCN": "",
+      "date": "2019-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 376067,
+      "name": "笑尘觉：中华民俗志怪绘本",
+      "nameCN": "笑尘觉",
+      "date": "2021-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 311445,
+      "dst": 311446
+    },
+    {
+      "relateString": "前传",
+      "src": 311446,
+      "dst": 311445
+    },
+    {
+      "relateString": "续集",
+      "src": 311446,
+      "dst": 376067
+    },
+    {
+      "relateString": "前传",
+      "src": 376067,
+      "dst": 311446
+    }
+  ]
 }

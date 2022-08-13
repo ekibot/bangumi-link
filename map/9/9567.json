@@ -1,77 +1,73 @@
 {
- "id": 9567,
- "node": [
-  {
-   "id": 9567,
-   "name": "爆走兄弟レッツ&amp;ゴー!!",
-   "nameCN": "四驱兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/df/9567_cwNHR.jpg",
-   "date": "1996-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 47759,
-   "name": "爆走兄弟レッツ&amp;ゴー!!WGP",
-   "nameCN": "四驱兄弟WGP",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/3b/47759_61jRv.jpg",
-   "date": "1997-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 47760,
-   "name": "爆走兄弟レッツ&amp;ゴー!!MAX",
-   "nameCN": "四驱兄弟MAX",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/ab/47760_1HMSM.jpg",
-   "date": "1998-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 47761,
-   "name": "爆走兄弟レッツ&amp;ゴー!!WGP 暴走ミニ四駆大追跡!",
-   "nameCN": "四驱兄弟WGP 暴走四驱大追踪",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/a4/47761_87Wy7.jpg",
-   "date": "1997-07-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9567,
-   "dst": 47759
-  },
-  {
-   "relate": "前传",
-   "src": 47759,
-   "dst": 9567
-  },
-  {
-   "relate": "续集",
-   "src": 47759,
-   "dst": 47760
-  },
-  {
-   "relate": "番外篇",
-   "src": 47759,
-   "dst": 47761
-  },
-  {
-   "relate": "前传",
-   "src": 47760,
-   "dst": 47759
-  },
-  {
-   "relate": "主线故事",
-   "src": 47761,
-   "dst": 47759
-  }
- ]
+  "id": "9567",
+  "node": [
+    {
+      "id": 9567,
+      "name": "爆走兄弟レッツ&amp;ゴー!!",
+      "nameCN": "四驱兄弟",
+      "date": "1996-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 47759,
+      "name": "爆走兄弟レッツ&amp;ゴー!!WGP",
+      "nameCN": "四驱兄弟WGP",
+      "date": "1997-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 47760,
+      "name": "爆走兄弟レッツ&amp;ゴー!!MAX",
+      "nameCN": "四驱兄弟MAX",
+      "date": "1998-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 47761,
+      "name": "爆走兄弟レッツ&amp;ゴー!!WGP 暴走ミニ四駆大追跡!",
+      "nameCN": "四驱兄弟WGP 暴走四驱大追踪",
+      "date": "1997-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9567,
+      "dst": 47759
+    },
+    {
+      "relateString": "前传",
+      "src": 47759,
+      "dst": 9567
+    },
+    {
+      "relateString": "续集",
+      "src": 47759,
+      "dst": 47760
+    },
+    {
+      "relateString": "番外篇",
+      "src": 47759,
+      "dst": 47761
+    },
+    {
+      "relateString": "前传",
+      "src": 47760,
+      "dst": 47759
+    },
+    {
+      "relateString": "主线故事",
+      "src": 47761,
+      "dst": 47759
+    }
+  ]
 }

@@ -1,23 +1,35 @@
 {
- "id": 283753,
- "node": [
-  {
-   "id": 283753,
-   "name": "マナさんと母屋を離れて…",
-   "image": "/img/no_icon_subject.png",
-   "date": "2019-07-17"
-  },
-  {
-   "id": 301927,
-   "name": "従姉と子作りさせられて… マナさんと母屋を離れて… (2)",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 283753,
-   "dst": 301927
-  }
- ]
+  "id": "283753",
+  "node": [
+    {
+      "id": 283753,
+      "name": "マナさんと母屋を離れて…",
+      "nameCN": "",
+      "date": "2019-07-17",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 301927,
+      "name": "従姉と子作りさせられて… マナさんと母屋を離れて… (2)",
+      "nameCN": "",
+      "date": "2020-04-16",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 283753,
+      "dst": 301927
+    },
+    {
+      "relateString": "前传",
+      "src": 301927,
+      "dst": 283753
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 101269,
- "node": [
-  {
-   "id": 101269,
-   "name": "猫のダヤン",
-   "nameCN": "猫咪达洋",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/92/101269_D72C9.jpg",
-   "date": "2014-04-26",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 209630,
-   "name": "猫のダヤン ふしぎ劇場",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/dd/209630_E4ItO.jpg",
-   "date": "2016-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 258329,
-   "name": "猫のダヤン　日本へ行く",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/fe/258329_k5dt8.jpg",
-   "date": "2015-10-17",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 101269,
-   "dst": 258329
-  },
-  {
-   "relate": "前传",
-   "src": 209630,
-   "dst": 258329
-  },
-  {
-   "relate": "前传",
-   "src": 258329,
-   "dst": 101269
-  },
-  {
-   "relate": "续集",
-   "src": 258329,
-   "dst": 209630
-  }
- ]
+  "id": "101269",
+  "node": [
+    {
+      "id": 101269,
+      "name": "猫のダヤン",
+      "nameCN": "猫咪达洋",
+      "date": "2014-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 258329,
+      "name": "猫のダヤン　日本へ行く",
+      "nameCN": "",
+      "date": "2015-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 209630,
+      "name": "猫のダヤン ふしぎ劇場",
+      "nameCN": "",
+      "date": "2016-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 101269,
+      "dst": 258329
+    },
+    {
+      "relateString": "前传",
+      "src": 209630,
+      "dst": 258329
+    },
+    {
+      "relateString": "前传",
+      "src": 258329,
+      "dst": 101269
+    },
+    {
+      "relateString": "续集",
+      "src": 258329,
+      "dst": 209630
+    }
+  ]
 }

@@ -1,97 +1,90 @@
 {
- "id": 10915,
- "node": [
-  {
-   "id": 10915,
-   "name": "Episodes Season 1",
-   "nameCN": "戏里戏外 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/14/10915_z2WwE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 40389,
-   "name": "Episodes Season 2",
-   "nameCN": "戏里戏外 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/85/40389_16zWH.jpg",
-   "date": "2012-05-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 93271,
-   "name": "Episodes Season 3",
-   "nameCN": "戏里戏外 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/84/93271_9jO0n.jpg",
-   "date": "2014-01-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 122173,
-   "name": "Episodes Season 4",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 222150,
-   "name": "Episodes Season 5",
-   "date": "2017-08-20",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10915,
-   "dst": 40389
-  },
-  {
-   "relate": "前传",
-   "src": 40389,
-   "dst": 10915
-  },
-  {
-   "relate": "续集",
-   "src": 40389,
-   "dst": 93271
-  },
-  {
-   "relate": "前传",
-   "src": 93271,
-   "dst": 40389
-  },
-  {
-   "relate": "续集",
-   "src": 93271,
-   "dst": 122173
-  },
-  {
-   "relate": "前传",
-   "src": 122173,
-   "dst": 93271
-  },
-  {
-   "relate": "续集",
-   "src": 122173,
-   "dst": 222150
-  },
-  {
-   "relate": "前传",
-   "src": 222150,
-   "dst": 122173
-  }
- ]
+  "id": "10915",
+  "node": [
+    {
+      "id": 10915,
+      "name": "Episodes Season 1",
+      "nameCN": "戏里戏外 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 40389,
+      "name": "Episodes Season 2",
+      "nameCN": "戏里戏外 第二季",
+      "date": "2012-05-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 93271,
+      "name": "Episodes Season 3",
+      "nameCN": "戏里戏外 第三季",
+      "date": "2014-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 122173,
+      "name": "Episodes Season 4",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 222150,
+      "name": "Episodes Season 5",
+      "nameCN": "",
+      "date": "2017-08-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10915,
+      "dst": 40389
+    },
+    {
+      "relateString": "前传",
+      "src": 40389,
+      "dst": 10915
+    },
+    {
+      "relateString": "续集",
+      "src": 40389,
+      "dst": 93271
+    },
+    {
+      "relateString": "前传",
+      "src": 93271,
+      "dst": 40389
+    },
+    {
+      "relateString": "续集",
+      "src": 93271,
+      "dst": 122173
+    },
+    {
+      "relateString": "前传",
+      "src": 122173,
+      "dst": 93271
+    },
+    {
+      "relateString": "续集",
+      "src": 122173,
+      "dst": 222150
+    },
+    {
+      "relateString": "前传",
+      "src": 222150,
+      "dst": 122173
+    }
+  ]
 }

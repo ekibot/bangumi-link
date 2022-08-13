@@ -1,37 +1,35 @@
 {
- "id": 214157,
- "node": [
-  {
-   "id": 214157,
-   "name": "星光2",
-   "nameCN": "星光2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/ed/214157_X6X99.jpg",
-   "date": "2016-06-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 214159,
-   "name": "星光",
-   "nameCN": "星光",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/e3/214159_cRQB8.jpg",
-   "date": "2012-05-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 214157,
-   "dst": 214159
-  },
-  {
-   "relate": "续集",
-   "src": 214159,
-   "dst": 214157
-  }
- ]
+  "id": "214157",
+  "node": [
+    {
+      "id": 214157,
+      "name": "星光2",
+      "nameCN": "星光2",
+      "date": "2016-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214159,
+      "name": "星光",
+      "nameCN": "星光",
+      "date": "2012-05-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 214157,
+      "dst": 214159
+    },
+    {
+      "relateString": "续集",
+      "src": 214159,
+      "dst": 214157
+    }
+  ]
 }

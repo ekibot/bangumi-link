@@ -1,37 +1,33 @@
 {
- "id": 85838,
- "node": [
-  {
-   "id": 85838,
-   "name": "恋愛プラスα",
-   "nameCN": "亲密接触心疼心",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/bd/85838_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 85839,
-   "name": "恋愛プラスα 2",
-   "nameCN": "亲密接触长相依",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/6b/85839_PDdcv.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85838,
-   "dst": 85839
-  },
-  {
-   "relate": "前传",
-   "src": 85839,
-   "dst": 85838
-  }
- ]
+  "id": "85838",
+  "node": [
+    {
+      "id": 85838,
+      "name": "恋愛プラスα",
+      "nameCN": "亲密接触心疼心",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 85839,
+      "name": "恋愛プラスα 2",
+      "nameCN": "亲密接触长相依",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85838,
+      "dst": 85839
+    },
+    {
+      "relateString": "前传",
+      "src": 85839,
+      "dst": 85838
+    }
+  ]
 }

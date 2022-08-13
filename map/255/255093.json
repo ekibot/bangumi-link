@@ -1,37 +1,35 @@
 {
- "id": 255093,
- "node": [
-  {
-   "id": 255093,
-   "name": "LOVE RECIPE",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/a9/255093_g7IZv.jpg",
-   "date": "2005-06-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 255097,
-   "name": "LOVE PORTION",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/39/255097_9PFpz.jpg",
-   "date": "2007-09-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 255093,
-   "dst": 255097
-  },
-  {
-   "relate": "前传",
-   "src": 255097,
-   "dst": 255093
-  }
- ]
+  "id": "255093",
+  "node": [
+    {
+      "id": 255093,
+      "name": "LOVE RECIPE",
+      "nameCN": "",
+      "date": "2005-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 255097,
+      "name": "LOVE PORTION",
+      "nameCN": "",
+      "date": "2007-09-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 255093,
+      "dst": 255097
+    },
+    {
+      "relateString": "前传",
+      "src": 255097,
+      "dst": 255093
+    }
+  ]
 }

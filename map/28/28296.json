@@ -1,62 +1,59 @@
 {
- "id": 28296,
- "node": [
-  {
-   "id": 28296,
-   "name": "夢幻廻廊",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/30/28296_YDDD2.jpg",
-   "date": "2005-09-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 28297,
-   "name": "夢幻廻廊2 ～螺旋～",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/83/28297_O380H.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2009-06-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 68257,
-   "name": "夢幻廻廊1.5 ～連鎖～",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/91/68257_xgGKd.jpg",
-   "type": 4,
-   "date": "2009-02-27",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 28296,
-   "dst": 28297
-  },
-  {
-   "relate": "不同演绎",
-   "src": 28297,
-   "dst": 28296
-  },
-  {
-   "relate": "不同演绎",
-   "src": 28297,
-   "dst": 68257
-  },
-  {
-   "relate": "主线故事",
-   "src": 68257,
-   "dst": 28296
-  },
-  {
-   "relate": "不同演绎",
-   "src": 68257,
-   "dst": 28297
-  }
- ]
+  "id": "28296",
+  "node": [
+    {
+      "id": 28296,
+      "name": "夢幻廻廊",
+      "nameCN": "",
+      "date": "2005-09-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 28297,
+      "name": "夢幻廻廊2 ～螺旋～",
+      "nameCN": "",
+      "date": "2009-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 68257,
+      "name": "夢幻廻廊1.5 ～連鎖～",
+      "nameCN": "",
+      "date": "2009-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 28296,
+      "dst": 28297
+    },
+    {
+      "relateString": "前传",
+      "src": 28297,
+      "dst": 28296
+    },
+    {
+      "relateString": "前传",
+      "src": 28297,
+      "dst": 68257
+    },
+    {
+      "relateString": "主线故事",
+      "src": 68257,
+      "dst": 28296
+    },
+    {
+      "relateString": "续集",
+      "src": 68257,
+      "dst": 28297
+    }
+  ]
 }

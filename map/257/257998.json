@@ -1,28 +1,35 @@
 {
- "id": 257998,
- "node": [
-  {
-   "id": 257998,
-   "name": "성판17",
-   "nameCN": "17种性幻想",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/af/257998_9O9ze.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 257999,
-   "name": "성판17: 커플게임",
-   "nameCN": "17种性幻想 ver.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/35/257999_hVPYV.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 257998,
-   "dst": 257999
-  }
- ]
+  "id": "257998",
+  "node": [
+    {
+      "id": 257998,
+      "name": "성판17",
+      "nameCN": "17种性幻想",
+      "date": "2014-07-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 257999,
+      "name": "성판17: 커플게임",
+      "nameCN": "17种性幻想 ver.2",
+      "date": "2016-05-29",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 257998,
+      "dst": 257999
+    },
+    {
+      "relateString": "前传",
+      "src": 257999,
+      "dst": 257998
+    }
+  ]
 }

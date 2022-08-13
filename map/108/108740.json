@@ -1,37 +1,35 @@
 {
- "id": 108740,
- "node": [
-  {
-   "id": 108740,
-   "name": "もぐささん",
-   "nameCN": "百草同学",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/ea/108740_GG2Sh.jpg",
-   "date": "2014-04-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 194355,
-   "name": "もぐささんは食欲と闘う",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/bb/194355_4D67u.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 108740,
-   "dst": 194355
-  },
-  {
-   "relate": "前传",
-   "src": 194355,
-   "dst": 108740
-  }
- ]
+  "id": "108740",
+  "node": [
+    {
+      "id": 108740,
+      "name": "もぐささん",
+      "nameCN": "百草同学",
+      "date": "2014-04-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 194355,
+      "name": "もぐささんは食欲と闘う",
+      "nameCN": "",
+      "date": "2016-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 108740,
+      "dst": 194355
+    },
+    {
+      "relateString": "前传",
+      "src": 194355,
+      "dst": 108740
+    }
+  ]
 }

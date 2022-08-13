@@ -1,65 +1,62 @@
 {
- "id": 105512,
- "node": [
-  {
-   "id": 105512,
-   "name": "ザ･クイーン・オブ・デュエリスト",
-   "nameCN": "决斗女王",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/d1/105512_Q5zQm.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 106699,
-   "name": "ザ･クイーン・オブ・デュエリスト外伝",
-   "nameCN": "决斗女王外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/7d/106699_74FeG.jpg",
-   "date": "1993-10-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 106700,
-   "name": "ザ・クィーン・オブ・デュエリスト外伝α",
-   "nameCN": "决斗女王外传α",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/39/106700_F8ive.jpg",
-   "date": "1994-01-29",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 106701,
-   "name": "ザ・クィーン・オブ・デュエリスト外伝α＋",
-   "nameCN": "决斗女王外传α+",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/7d/106701_VWXPJ.jpg",
-   "date": "1994-03-05",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105512,
-   "dst": 106699
-  },
-  {
-   "relate": "前传",
-   "src": 106699,
-   "dst": 105512
-  },
-  {
-   "relate": "主线故事",
-   "src": 106700,
-   "dst": 106699
-  },
-  {
-   "relate": "主线故事",
-   "src": 106701,
-   "dst": 106699
-  }
- ]
+  "id": "105512",
+  "node": [
+    {
+      "id": 105512,
+      "name": "ザ･クイーン・オブ・デュエリスト",
+      "nameCN": "决斗女王",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 106699,
+      "name": "ザ･クイーン・オブ・デュエリスト外伝",
+      "nameCN": "决斗女王外传",
+      "date": "1993-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 106700,
+      "name": "ザ・クィーン・オブ・デュエリスト外伝α",
+      "nameCN": "决斗女王外传α",
+      "date": "1994-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 106701,
+      "name": "ザ・クィーン・オブ・デュエリスト外伝α＋",
+      "nameCN": "决斗女王外传α+",
+      "date": "1994-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105512,
+      "dst": 106699
+    },
+    {
+      "relateString": "前传",
+      "src": 106699,
+      "dst": 105512
+    },
+    {
+      "relateString": "主线故事",
+      "src": 106700,
+      "dst": 106699
+    },
+    {
+      "relateString": "主线故事",
+      "src": 106701,
+      "dst": 106699
+    }
+  ]
 }

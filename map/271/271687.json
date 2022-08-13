@@ -1,57 +1,53 @@
 {
- "id": 271687,
- "node": [
-  {
-   "id": 271687,
-   "name": "虚構推理",
-   "nameCN": "虚构推理",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/3b/271687_8jAPf.jpg",
-   "date": "2020-01-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 297088,
-   "name": "虚構推理 のミニアニメ",
-   "nameCN": "虚构推理 迷你动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/4f/297088_9ioVd.jpg",
-   "date": "2019-11-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 320839,
-   "name": "虚構推理 Season2",
-   "nameCN": "虚构推理 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/09/320839_15WX5.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 271687,
-   "dst": 297088
-  },
-  {
-   "relate": "续集",
-   "src": 271687,
-   "dst": 320839
-  },
-  {
-   "relate": "主线故事",
-   "src": 297088,
-   "dst": 271687
-  },
-  {
-   "relate": "前传",
-   "src": 320839,
-   "dst": 271687
-  }
- ]
+  "id": "271687",
+  "node": [
+    {
+      "id": 271687,
+      "name": "虚構推理",
+      "nameCN": "虚构推理",
+      "date": "2020-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 297088,
+      "name": "虚構推理 のミニアニメ",
+      "nameCN": "虚构推理 迷你动画",
+      "date": "2019-11-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320839,
+      "name": "虚構推理 Season2",
+      "nameCN": "虚构推理 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 271687,
+      "dst": 297088
+    },
+    {
+      "relateString": "续集",
+      "src": 271687,
+      "dst": 320839
+    },
+    {
+      "relateString": "主线故事",
+      "src": 297088,
+      "dst": 271687
+    },
+    {
+      "relateString": "前传",
+      "src": 320839,
+      "dst": 271687
+    }
+  ]
 }

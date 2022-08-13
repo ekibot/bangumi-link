@@ -1,67 +1,64 @@
 {
- "id": 2750,
- "node": [
-  {
-   "id": 2750,
-   "name": "GANTZ 〜the first stage〜",
-   "nameCN": "杀戮都市",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/19/2750_T1ilI.jpg",
-   "date": "2004-04-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 52764,
-   "name": "GANTZ 〜the 2nd stage〜",
-   "nameCN": "杀戮都市 2nd Stage",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/18/52764_35r0S.jpg",
-   "date": "2004-08-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 154971,
-   "name": "GANTZ:O",
-   "nameCN": "杀戮都市：O",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/04/154971_gR08E.jpg",
-   "date": "2016-10-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2750,
-   "dst": 52764
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2750,
-   "dst": 154971
-  },
-  {
-   "relate": "前传",
-   "src": 52764,
-   "dst": 2750
-  },
-  {
-   "relate": "不同演绎",
-   "src": 52764,
-   "dst": 154971
-  },
-  {
-   "relate": "不同演绎",
-   "src": 154971,
-   "dst": 2750
-  },
-  {
-   "relate": "不同演绎",
-   "src": 154971,
-   "dst": 52764
-  }
- ]
+  "id": "2750",
+  "node": [
+    {
+      "id": 2750,
+      "name": "GANTZ 〜the first stage〜",
+      "nameCN": "杀戮都市",
+      "date": "2004-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 52764,
+      "name": "GANTZ 〜the 2nd stage〜",
+      "nameCN": "杀戮都市 2nd Stage",
+      "date": "2004-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 154971,
+      "name": "GANTZ:O",
+      "nameCN": "杀戮都市：O",
+      "date": "2016-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2750,
+      "dst": 52764
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 2750,
+      "dst": 154971
+    },
+    {
+      "relateString": "前传",
+      "src": 52764,
+      "dst": 2750
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 52764,
+      "dst": 154971
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 154971,
+      "dst": 2750
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 154971,
+      "dst": 52764
+    }
+  ]
 }

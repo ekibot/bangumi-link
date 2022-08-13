@@ -1,34 +1,35 @@
 {
- "id": 160609,
- "node": [
-  {
-   "id": 160609,
-   "name": "プリンセスムーン 〜聖宝石騎士団の受難〜",
-   "nameCN": "月光公主之调教受难",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/73/160609_9BG09.jpg",
-   "date": "2004-04-09",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 205199,
-   "name": "プリンセス・プリンセス～姉妹姫背徳の儀式～",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/6f/205199_vL4f8.jpg",
-   "date": "2009-11-27",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 160609,
-   "dst": 205199
-  },
-  {
-   "relate": "前传",
-   "src": 205199,
-   "dst": 160609
-  }
- ]
+  "id": "160609",
+  "node": [
+    {
+      "id": 160609,
+      "name": "プリンセスムーン 〜聖宝石騎士団の受難〜",
+      "nameCN": "月光公主之调教受难",
+      "date": "2004-04-09",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 205199,
+      "name": "プリンセス・プリンセス～姉妹姫背徳の儀式～",
+      "nameCN": "",
+      "date": "2009-11-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 160609,
+      "dst": 205199
+    },
+    {
+      "relateString": "前传",
+      "src": 205199,
+      "dst": 160609
+    }
+  ]
 }

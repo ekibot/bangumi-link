@@ -1,37 +1,34 @@
 {
- "id": 97909,
- "node": [
-  {
-   "id": 97909,
-   "name": "ドラゴンボールZ 真武道会2",
-   "nameCN": "龙珠Z：真武道会2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/0d/97909_IaRXE.jpg",
-   "date": "2007-03-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 97910,
-   "name": "ドラゴンボールZ 真武道会",
-   "nameCN": "龙珠Z：真武道会",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/2a/97910_C31aF.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 97909,
-   "dst": 97910
-  },
-  {
-   "relate": "续集",
-   "src": 97910,
-   "dst": 97909
-  }
- ]
+  "id": "97909",
+  "node": [
+    {
+      "id": 97909,
+      "name": "ドラゴンボールZ 真武道会2",
+      "nameCN": "龙珠Z：真武道会2",
+      "date": "2007-03-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 97910,
+      "name": "ドラゴンボールZ 真武道会",
+      "nameCN": "龙珠Z：真武道会",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 97909,
+      "dst": 97910
+    },
+    {
+      "relateString": "续集",
+      "src": 97910,
+      "dst": 97909
+    }
+  ]
 }

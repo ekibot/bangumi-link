@@ -1,37 +1,35 @@
 {
- "id": 80663,
- "node": [
-  {
-   "id": 80663,
-   "name": "紅の海2",
-   "nameCN": "红海2",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/b6/80663_g6g11.jpg",
-   "date": "2004-03-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 306979,
-   "name": "紅の海",
-   "nameCN": "红之海",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/7d/306979_hs60N.jpg",
-   "date": "2002-12-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 80663,
-   "dst": 306979
-  },
-  {
-   "relate": "续集",
-   "src": 306979,
-   "dst": 80663
-  }
- ]
+  "id": "80663",
+  "node": [
+    {
+      "id": 80663,
+      "name": "紅の海2",
+      "nameCN": "红海2",
+      "date": "2004-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306979,
+      "name": "紅の海",
+      "nameCN": "红之海",
+      "date": "2002-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 80663,
+      "dst": 306979
+    },
+    {
+      "relateString": "续集",
+      "src": 306979,
+      "dst": 80663
+    }
+  ]
 }

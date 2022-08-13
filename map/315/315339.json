@@ -1,37 +1,35 @@
 {
- "id": 315339,
- "node": [
-  {
-   "id": 315339,
-   "name": "一罰百快",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/e4/315339_aYhRT.jpg",
-   "date": "1999-05-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 315340,
-   "name": "一罰②百快",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/9d/315340_98sEq.jpg",
-   "date": "2000-08-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 315339,
-   "dst": 315340
-  },
-  {
-   "relate": "前传",
-   "src": 315340,
-   "dst": 315339
-  }
- ]
+  "id": "315339",
+  "node": [
+    {
+      "id": 315339,
+      "name": "一罰百快",
+      "nameCN": "",
+      "date": "1999-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 315340,
+      "name": "一罰②百快",
+      "nameCN": "",
+      "date": "2000-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 315339,
+      "dst": 315340
+    },
+    {
+      "relateString": "前传",
+      "src": 315340,
+      "dst": 315339
+    }
+  ]
 }

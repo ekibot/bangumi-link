@@ -1,37 +1,33 @@
 {
- "id": 43875,
- "node": [
-  {
-   "id": 43875,
-   "name": "くるねこ",
-   "nameCN": "来来猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/c1/43875_6D63y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 299525,
-   "name": "はぴはぴ くるねこ",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/dd/299525_yufR9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43875,
-   "dst": 299525
-  },
-  {
-   "relate": "前传",
-   "src": 299525,
-   "dst": 43875
-  }
- ]
+  "id": "43875",
+  "node": [
+    {
+      "id": 43875,
+      "name": "くるねこ",
+      "nameCN": "来来猫",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 299525,
+      "name": "はぴはぴ くるねこ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43875,
+      "dst": 299525
+    },
+    {
+      "relateString": "前传",
+      "src": 299525,
+      "dst": 43875
+    }
+  ]
 }

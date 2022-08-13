@@ -1,77 +1,72 @@
 {
- "id": 8026,
- "node": [
-  {
-   "id": 8026,
-   "name": "魔理沙と6つのキノコ",
-   "nameCN": "魔理沙与六色蘑菇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/87/8026_88K81.jpg",
-   "date": "2010-08-14",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 124250,
-   "name": "スーパーマリサランド",
-   "nameCN": "超级魔理沙大陆",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/cc/124250_xcl9O.jpg",
-   "date": "2005-05-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 174758,
-   "name": "MegaMari",
-   "nameCN": "魔理沙的野望",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/b8/174758_QiSqW.jpg",
-   "date": "2006-05-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 263323,
-   "name": "マリサランド・レガシィ",
-   "nameCN": "魔理沙大陸・遺產",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/36/263323_LIxj5.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 8026,
-   "dst": 124250
-  },
-  {
-   "relate": "续集",
-   "src": 124250,
-   "dst": 8026
-  },
-  {
-   "relate": "续集",
-   "src": 124250,
-   "dst": 174758
-  },
-  {
-   "relate": "续集",
-   "src": 124250,
-   "dst": 263323
-  },
-  {
-   "relate": "前传",
-   "src": 174758,
-   "dst": 124250
-  },
-  {
-   "relate": "前传",
-   "src": 263323,
-   "dst": 124250
-  }
- ]
+  "id": "8026",
+  "node": [
+    {
+      "id": 8026,
+      "name": "魔理沙と6つのキノコ",
+      "nameCN": "魔理沙与六色蘑菇",
+      "date": "2010-08-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 124250,
+      "name": "スーパーマリサランド",
+      "nameCN": "超级魔理沙大陆",
+      "date": "2005-05-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 174758,
+      "name": "MegaMari",
+      "nameCN": "魔理沙的野望",
+      "date": "2006-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 263323,
+      "name": "マリサランド・レガシィ",
+      "nameCN": "魔理沙大陸・遺產",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 8026,
+      "dst": 124250
+    },
+    {
+      "relateString": "续集",
+      "src": 124250,
+      "dst": 8026
+    },
+    {
+      "relateString": "续集",
+      "src": 124250,
+      "dst": 174758
+    },
+    {
+      "relateString": "续集",
+      "src": 124250,
+      "dst": 263323
+    },
+    {
+      "relateString": "前传",
+      "src": 174758,
+      "dst": 124250
+    },
+    {
+      "relateString": "前传",
+      "src": 263323,
+      "dst": 124250
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 18620,
- "node": [
-  {
-   "id": 18620,
-   "name": "月光",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/da/18620_00Yx0.jpg",
-   "date": "2010-09-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 39914,
-   "name": "変愛サイケデリック",
-   "nameCN": "畸恋迷幻",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/c5/39914_T0w8P.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 18620,
-   "dst": 39914
-  },
-  {
-   "relate": "相同世界观",
-   "src": 39914,
-   "dst": 18620
-  }
- ]
+  "id": "18620",
+  "node": [
+    {
+      "id": 18620,
+      "name": "月光",
+      "nameCN": "",
+      "date": "2010-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 39914,
+      "name": "変愛サイケデリック",
+      "nameCN": "畸恋迷幻",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 18620,
+      "dst": 39914
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 39914,
+      "dst": 18620
+    }
+  ]
 }

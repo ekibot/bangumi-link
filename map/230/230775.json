@@ -1,37 +1,33 @@
 {
- "id": 230775,
- "node": [
-  {
-   "id": 230775,
-   "name": "名探偵コナン セレクション",
-   "nameCN": "名侦探柯南 My First Big",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/a7/230775_4zE4t.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 230788,
-   "name": "名探偵コナン スーパーコレクション",
-   "nameCN": "名侦探柯南 My First Big SPECIAL",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/5c/230788_CTzff.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230775,
-   "dst": 230788
-  },
-  {
-   "relate": "前传",
-   "src": 230788,
-   "dst": 230775
-  }
- ]
+  "id": "230775",
+  "node": [
+    {
+      "id": 230775,
+      "name": "名探偵コナン セレクション",
+      "nameCN": "名侦探柯南 My First Big",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 230788,
+      "name": "名探偵コナン スーパーコレクション",
+      "nameCN": "名侦探柯南 My First Big SPECIAL",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230775,
+      "dst": 230788
+    },
+    {
+      "relateString": "前传",
+      "src": 230788,
+      "dst": 230775
+    }
+  ]
 }

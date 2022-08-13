@@ -1,37 +1,35 @@
 {
- "id": 43458,
- "node": [
-  {
-   "id": 43458,
-   "name": "The Hollow Crown",
-   "nameCN": "虚妄之冠",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/cc/43458_6K3Dx.jpg",
-   "date": "2012-07-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 315517,
-   "name": "The Hollow Crown: The Wars Of The Roses",
-   "nameCN": "虚妄之冠 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/6d/315517_wLgGK.jpg",
-   "date": "2016-05-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43458,
-   "dst": 315517
-  },
-  {
-   "relate": "前传",
-   "src": 315517,
-   "dst": 43458
-  }
- ]
+  "id": "43458",
+  "node": [
+    {
+      "id": 43458,
+      "name": "The Hollow Crown",
+      "nameCN": "虚妄之冠",
+      "date": "2012-07-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 315517,
+      "name": "The Hollow Crown: The Wars Of The Roses",
+      "nameCN": "虚妄之冠 第二季",
+      "date": "2016-05-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43458,
+      "dst": 315517
+    },
+    {
+      "relateString": "前传",
+      "src": 315517,
+      "dst": 43458
+    }
+  ]
 }

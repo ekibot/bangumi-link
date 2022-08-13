@@ -1,37 +1,35 @@
 {
- "id": 488,
- "node": [
-  {
-   "id": 488,
-   "name": "D.Gray-man",
-   "nameCN": "驱魔少年",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/c5/488_PJu3N.jpg",
-   "date": "2006-10-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 161793,
-   "name": "D.Gray-man HALLOW",
-   "nameCN": "驱魔少年 HALLOW",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/ab/161793_6jfcs.jpg",
-   "date": "2016-07-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 488,
-   "dst": 161793
-  },
-  {
-   "relate": "前传",
-   "src": 161793,
-   "dst": 488
-  }
- ]
+  "id": "488",
+  "node": [
+    {
+      "id": 488,
+      "name": "D.Gray-man",
+      "nameCN": "驱魔少年",
+      "date": "2006-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 161793,
+      "name": "D.Gray-man HALLOW",
+      "nameCN": "驱魔少年 HALLOW",
+      "date": "2016-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 488,
+      "dst": 161793
+    },
+    {
+      "relateString": "前传",
+      "src": 161793,
+      "dst": 488
+    }
+  ]
 }

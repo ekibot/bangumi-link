@@ -1,34 +1,35 @@
 {
- "id": 2071,
- "node": [
-  {
-   "id": 2071,
-   "name": "鬼哭街",
-   "nameCN": "鬼哭街",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/2e/2071_NvwOA.jpg",
-   "date": "2002-03-29",
-   "type": 4
-  },
-  {
-   "id": 14295,
-   "name": "鬼哭街 涙尽鈴音響",
-   "nameCN": "鬼哭街 泪尽铃音响",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/01/14295_CWNdZ.jpg",
-   "date": "2011-05-27",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 2071,
-   "dst": 14295
-  },
-  {
-   "relate": "不同演绎",
-   "src": 14295,
-   "dst": 2071
-  }
- ]
+  "id": "2071",
+  "node": [
+    {
+      "id": 2071,
+      "name": "鬼哭街",
+      "nameCN": "鬼哭街",
+      "date": "2002-03-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 14295,
+      "name": "鬼哭街 涙尽鈴音響",
+      "nameCN": "鬼哭街 泪尽铃音响",
+      "date": "2011-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 2071,
+      "dst": 14295
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 14295,
+      "dst": 2071
+    }
+  ]
 }

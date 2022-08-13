@@ -1,37 +1,33 @@
 {
- "id": 272552,
- "node": [
-  {
-   "id": 272552,
-   "name": "Those Nights at Rachel's",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/b8/272552_jUyf8.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 272553,
-   "name": "Those Nights at Rachel's 2: Reloaded",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/86/272553_0oa2v.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272552,
-   "dst": 272553
-  },
-  {
-   "relate": "前传",
-   "src": 272553,
-   "dst": 272552
-  }
- ]
+  "id": "272552",
+  "node": [
+    {
+      "id": 272552,
+      "name": "Those Nights at Rachel's",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272553,
+      "name": "Those Nights at Rachel's 2: Reloaded",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272552,
+      "dst": 272553
+    },
+    {
+      "relateString": "前传",
+      "src": 272553,
+      "dst": 272552
+    }
+  ]
 }

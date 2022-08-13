@@ -1,57 +1,54 @@
 {
- "id": 60007,
- "node": [
-  {
-   "id": 60007,
-   "name": "SPEC～零～",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/ea/60007_9mHmN.jpg",
-   "date": "2012-04-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 60020,
-   "name": "SPEC〜天〜",
-   "nameCN": "SPEC -天-",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/21/60020_6Q8Ix.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 245387,
-   "name": "SPEC 〜結〜",
-   "nameCN": "SPEC 〜结〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/e2/245387_ydBea.jpg",
-   "date": "2013-11-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60007,
-   "dst": 60020
-  },
-  {
-   "relate": "前传",
-   "src": 60020,
-   "dst": 60007
-  },
-  {
-   "relate": "续集",
-   "src": 60020,
-   "dst": 245387
-  },
-  {
-   "relate": "前传",
-   "src": 245387,
-   "dst": 60020
-  }
- ]
+  "id": "60007",
+  "node": [
+    {
+      "id": 60007,
+      "name": "SPEC～零～",
+      "nameCN": "",
+      "date": "2012-04-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 60020,
+      "name": "SPEC〜天〜",
+      "nameCN": "SPEC -天-",
+      "date": "2012-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 245387,
+      "name": "SPEC 〜結〜",
+      "nameCN": "SPEC 〜结〜",
+      "date": "2013-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60007,
+      "dst": 60020
+    },
+    {
+      "relateString": "前传",
+      "src": 60020,
+      "dst": 60007
+    },
+    {
+      "relateString": "续集",
+      "src": 60020,
+      "dst": 245387
+    },
+    {
+      "relateString": "前传",
+      "src": 245387,
+      "dst": 60020
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 234984,
- "node": [
-  {
-   "id": 234984,
-   "name": "無敵せんせい",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/14/234984_axe45.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 234985,
-   "name": "ピコピコぱんち！VS無敵せんせい",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/b4/234985_9JJ63.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234984,
-   "dst": 234985
-  },
-  {
-   "relate": "前传",
-   "src": 234985,
-   "dst": 234984
-  }
- ]
+  "id": "234984",
+  "node": [
+    {
+      "id": 234984,
+      "name": "無敵せんせい",
+      "nameCN": "",
+      "date": "2005-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 234985,
+      "name": "ピコピコぱんち！VS無敵せんせい",
+      "nameCN": "",
+      "date": "2006-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234984,
+      "dst": 234985
+    },
+    {
+      "relateString": "前传",
+      "src": 234985,
+      "dst": 234984
+    }
+  ]
 }

@@ -1,66 +1,54 @@
 {
- "id": 2309,
- "node": [
-  {
-   "id": 2309,
-   "name": "処女はお姉さまに恋してる",
-   "nameCN": "少女爱上姐姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/16/2309_TvteQ.jpg",
-   "date": "2005-01-28",
-   "type": 4
-  },
-  {
-   "id": 7148,
-   "name": "処女はお姉さまに恋してる　2人のエルダー",
-   "nameCN": "少女爱上姐姐：2位艾露达",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/1c/7148_yVqfJ.jpg",
-   "date": "2010-06-30",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 227176,
-   "name": "処女はお姉さまに恋してる 3つのきら星",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/b9/227176_U8Uqc.jpg",
-   "date": "2018-02-23",
-   "nameCN": "少女爱上姐姐 三颗闪耀之星",
-   "type": 4
-  },
-  {
-   "id": 283299,
-   "name": "乙女はお姉さまに恋してるPortable",
-   "nameCN": "少女爱上姐姐：携带版",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/43/283299_GUwRg.jpg",
-   "date": "2010-04-29",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2309,
-   "dst": 7148
-  },
-  {
-   "relate": "前传",
-   "src": 7148,
-   "dst": 2309
-  },
-  {
-   "relate": "续集",
-   "src": 7148,
-   "dst": 227176
-  },
-  {
-   "relate": "前传",
-   "src": 227176,
-   "dst": 7148
-  },
-  {
-   "relate": "主线故事",
-   "src": 283299,
-   "dst": 2309
-  }
- ]
+  "id": "2309",
+  "node": [
+    {
+      "id": 2309,
+      "name": "処女はお姉さまに恋してる",
+      "nameCN": "少女爱上姐姐",
+      "date": "2005-01-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 7148,
+      "name": "処女はお姉さまに恋してる　2人のエルダー",
+      "nameCN": "少女爱上姐姐：2位艾露达",
+      "date": "2010-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227176,
+      "name": "処女はお姉さまに恋してる 3つのきら星",
+      "nameCN": "少女爱上姐姐 三颗闪耀之星",
+      "date": "2018-02-23",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2309,
+      "dst": 7148
+    },
+    {
+      "relateString": "前传",
+      "src": 7148,
+      "dst": 2309
+    },
+    {
+      "relateString": "续集",
+      "src": 7148,
+      "dst": 227176
+    },
+    {
+      "relateString": "前传",
+      "src": 227176,
+      "dst": 7148
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 107638,
- "node": [
-  {
-   "id": 107638,
-   "name": "TERRA BATTLE",
-   "nameCN": "地球战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/cc/107638_d6gVB.jpg",
-   "date": "2014-10-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 217554,
-   "name": "Terra Battle 2",
-   "nameCN": "地球战争2",
-   "date": "2017-09-21",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107638,
-   "dst": 217554
-  },
-  {
-   "relate": "前传",
-   "src": 217554,
-   "dst": 107638
-  }
- ]
+  "id": "107638",
+  "node": [
+    {
+      "id": 107638,
+      "name": "TERRA BATTLE",
+      "nameCN": "地球战争",
+      "date": "2014-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217554,
+      "name": "Terra Battle 2",
+      "nameCN": "地球战争2",
+      "date": "2017-09-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107638,
+      "dst": 217554
+    },
+    {
+      "relateString": "前传",
+      "src": 217554,
+      "dst": 107638
+    }
+  ]
 }

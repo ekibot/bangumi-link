@@ -1,37 +1,35 @@
 {
- "id": 129116,
- "node": [
-  {
-   "id": 129116,
-   "name": "愛·回家",
-   "nameCN": "爱·回家",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/20/129116_pAsfX.jpg",
-   "date": "2012-05-14",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 230463,
-   "name": "愛·回家 (第二輯)",
-   "nameCN": "爱·回家 (第二辑)",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/67/230463_yg6Ll.jpg",
-   "date": "2015-07-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129116,
-   "dst": 230463
-  },
-  {
-   "relate": "前传",
-   "src": 230463,
-   "dst": 129116
-  }
- ]
+  "id": "129116",
+  "node": [
+    {
+      "id": 129116,
+      "name": "愛·回家",
+      "nameCN": "爱·回家",
+      "date": "2012-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 230463,
+      "name": "愛·回家 (第二輯)",
+      "nameCN": "爱·回家 (第二辑)",
+      "date": "2015-07-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129116,
+      "dst": 230463
+    },
+    {
+      "relateString": "前传",
+      "src": 230463,
+      "dst": 129116
+    }
+  ]
 }

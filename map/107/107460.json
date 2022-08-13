@@ -1,77 +1,69 @@
 {
- "id": 107460,
- "node": [
-  {
-   "id": 107460,
-   "name": "最終戦争伝説",
-   "nameCN": "圣战女神",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/4c/107460_Da0PH.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 159830,
-   "name": "十蘭―最終戦争シリーズ1",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/4e/159830_YsnU6.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 159832,
-   "name": "峡―最終戦争シリーズ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/ca/159832_vaL4l.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 159833,
-   "name": "風の智天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/6c/159833_xfIEM.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 107460,
-   "dst": 159833
-  },
-  {
-   "relate": "续集",
-   "src": 159830,
-   "dst": 159832
-  },
-  {
-   "relate": "前传",
-   "src": 159832,
-   "dst": 159830
-  },
-  {
-   "relate": "续集",
-   "src": 159832,
-   "dst": 159833
-  },
-  {
-   "relate": "续集",
-   "src": 159833,
-   "dst": 107460
-  },
-  {
-   "relate": "前传",
-   "src": 159833,
-   "dst": 159832
-  }
- ]
+  "id": "107460",
+  "node": [
+    {
+      "id": 107460,
+      "name": "最終戦争伝説",
+      "nameCN": "圣战女神",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159833,
+      "name": "風の智天使",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159830,
+      "name": "十蘭―最終戦争シリーズ1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159832,
+      "name": "峡―最終戦争シリーズ2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 107460,
+      "dst": 159833
+    },
+    {
+      "relateString": "续集",
+      "src": 159830,
+      "dst": 159832
+    },
+    {
+      "relateString": "前传",
+      "src": 159832,
+      "dst": 159830
+    },
+    {
+      "relateString": "续集",
+      "src": 159832,
+      "dst": 159833
+    },
+    {
+      "relateString": "续集",
+      "src": 159833,
+      "dst": 107460
+    },
+    {
+      "relateString": "前传",
+      "src": 159833,
+      "dst": 159832
+    }
+  ]
 }

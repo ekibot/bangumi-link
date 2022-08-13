@@ -1,37 +1,35 @@
 {
- "id": 342524,
- "node": [
-  {
-   "id": 342524,
-   "name": "象棋水滸戰",
-   "nameCN": "象棋水浒传",
-   "date": "1997-08-15",
-   "image": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 342525,
-   "name": "象棋水滸戰2",
-   "nameCN": "象棋水浒传2",
-   "date": "2000-02-20",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 342524,
-   "dst": 342525
-  },
-  {
-   "relate": "前传",
-   "src": 342525,
-   "dst": 342524
-  }
- ]
+  "id": "342524",
+  "node": [
+    {
+      "id": 342524,
+      "name": "象棋水滸戰",
+      "nameCN": "象棋水浒传",
+      "date": "1997-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 342525,
+      "name": "象棋水滸戰2",
+      "nameCN": "象棋水浒传2",
+      "date": "2000-02-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 342524,
+      "dst": 342525
+    },
+    {
+      "relateString": "前传",
+      "src": 342525,
+      "dst": 342524
+    }
+  ]
 }

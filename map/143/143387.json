@@ -1,57 +1,54 @@
 {
- "id": 143387,
- "node": [
-  {
-   "id": 143387,
-   "name": "禽兽超人",
-   "nameCN": "禽兽超人",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/54/143387_UI2lI.jpg",
-   "date": "2015-05-27",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 187571,
-   "name": "禽兽超人之无奸不摧",
-   "nameCN": "禽兽超人之无奸不摧",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/6c/187571_S0y2m.jpg",
-   "date": "2016-07-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 223066,
-   "name": "禽兽超人之迷雾围城",
-   "nameCN": "禽兽超人之迷雾围城",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/00/223066_f3f43.jpg",
-   "date": "2017-07-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143387,
-   "dst": 187571
-  },
-  {
-   "relate": "前传",
-   "src": 187571,
-   "dst": 143387
-  },
-  {
-   "relate": "续集",
-   "src": 187571,
-   "dst": 223066
-  },
-  {
-   "relate": "前传",
-   "src": 223066,
-   "dst": 187571
-  }
- ]
+  "id": "143387",
+  "node": [
+    {
+      "id": 143387,
+      "name": "禽兽超人",
+      "nameCN": "禽兽超人",
+      "date": "2015-05-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 187571,
+      "name": "禽兽超人之无奸不摧",
+      "nameCN": "禽兽超人之无奸不摧",
+      "date": "2016-07-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 223066,
+      "name": "禽兽超人之迷雾围城",
+      "nameCN": "禽兽超人之迷雾围城",
+      "date": "2017-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143387,
+      "dst": 187571
+    },
+    {
+      "relateString": "前传",
+      "src": 187571,
+      "dst": 143387
+    },
+    {
+      "relateString": "续集",
+      "src": 187571,
+      "dst": 223066
+    },
+    {
+      "relateString": "前传",
+      "src": 223066,
+      "dst": 187571
+    }
+  ]
 }

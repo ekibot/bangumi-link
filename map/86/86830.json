@@ -1,51 +1,49 @@
 {
- "id": 86830,
- "node": [
-  {
-   "id": 86830,
-   "name": "Hidden &amp; Dangerous",
-   "nameCN": "危机最前线",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/fe/86830_vI0c2.jpg",
-   "date": "1999-07-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 241963,
-   "name": "Hidden &amp; Dangerous 2",
-   "nameCN": "隐藏与危险2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/0c/241963_71tKT.jpg",
-   "date": "2003-10-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 243879,
-   "name": "Hidden &amp; Dangerous 2: Sabre Squadron",
-   "nameCN": "隐藏与危险2之军刀中队",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/f1/243879_xdsDe.jpg",
-   "date": "2004-10-19",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86830,
-   "dst": 241963
-  },
-  {
-   "relate": "前传",
-   "src": 241963,
-   "dst": 86830
-  },
-  {
-   "relate": "主线故事",
-   "src": 243879,
-   "dst": 241963
-  }
- ]
+  "id": "86830",
+  "node": [
+    {
+      "id": 86830,
+      "name": "Hidden &amp; Dangerous",
+      "nameCN": "危机最前线",
+      "date": "1999-07-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 241963,
+      "name": "Hidden &amp; Dangerous 2",
+      "nameCN": "隐藏与危险2",
+      "date": "2003-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243879,
+      "name": "Hidden &amp; Dangerous 2: Sabre Squadron",
+      "nameCN": "隐藏与危险2之军刀中队",
+      "date": "2004-10-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86830,
+      "dst": 241963
+    },
+    {
+      "relateString": "前传",
+      "src": 241963,
+      "dst": 86830
+    },
+    {
+      "relateString": "主线故事",
+      "src": 243879,
+      "dst": 241963
+    }
+  ]
 }

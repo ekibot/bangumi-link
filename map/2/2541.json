@@ -1,37 +1,35 @@
 {
- "id": 2541,
- "node": [
-  {
-   "id": 2541,
-   "name": "1ポンドの福音",
-   "nameCN": "1磅的福音",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/2d/2541_2686I.jpg",
-   "date": "2008-01-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 81299,
-   "name": "1ポンドの福音",
-   "nameCN": "1磅的福音",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/ee/81299_atLlf.jpg",
-   "date": "1988-12-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 2541,
-   "dst": 81299
-  },
-  {
-   "relate": "全集",
-   "src": 81299,
-   "dst": 2541
-  }
- ]
+  "id": "2541",
+  "node": [
+    {
+      "id": 2541,
+      "name": "1ポンドの福音",
+      "nameCN": "1磅的福音",
+      "date": "2008-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 81299,
+      "name": "1ポンドの福音",
+      "nameCN": "1磅的福音",
+      "date": "1988-12-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 2541,
+      "dst": 81299
+    },
+    {
+      "relateString": "全集",
+      "src": 81299,
+      "dst": 2541
+    }
+  ]
 }

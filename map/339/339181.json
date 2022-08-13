@@ -1,37 +1,34 @@
 {
- "id": 339181,
- "node": [
-  {
-   "id": 339181,
-   "name": "The Box Of Lore",
-   "date": "2008-01-08",
-   "image": "",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 339182,
-   "name": "RE:The Box Of Lore",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/be/339182_tlqtq.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 339181,
-   "dst": 339182
-  },
-  {
-   "relate": "前传",
-   "src": 339182,
-   "dst": 339181
-  }
- ]
+  "id": "339181",
+  "node": [
+    {
+      "id": 339181,
+      "name": "The Box Of Lore",
+      "nameCN": "",
+      "date": "2008-01-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339182,
+      "name": "RE:The Box Of Lore",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 339181,
+      "dst": 339182
+    },
+    {
+      "relateString": "前传",
+      "src": 339182,
+      "dst": 339181
+    }
+  ]
 }

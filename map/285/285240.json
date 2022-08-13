@@ -1,57 +1,54 @@
 {
- "id": 285240,
- "node": [
-  {
-   "id": 285240,
-   "name": "テレビ演劇 サクセス荘",
-   "nameCN": "电视演剧：成功庄园",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/96/285240_FKAKq.jpg",
-   "date": "2019-07-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 308829,
-   "name": "テレビ演劇 サクセス荘２",
-   "nameCN": "电视演剧 成功庄园2",
-   "date": "2020-07-09",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/ac/308829_35bJq.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 323900,
-   "name": "テレビ演劇 サクセス荘３",
-   "nameCN": "电视演剧 成功庄园3",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/08/323900_4TStB.jpg",
-   "date": "2021-01-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 285240,
-   "dst": 308829
-  },
-  {
-   "relate": "前传",
-   "src": 308829,
-   "dst": 285240
-  },
-  {
-   "relate": "续集",
-   "src": 308829,
-   "dst": 323900
-  },
-  {
-   "relate": "前传",
-   "src": 323900,
-   "dst": 308829
-  }
- ]
+  "id": "285240",
+  "node": [
+    {
+      "id": 285240,
+      "name": "テレビ演劇 サクセス荘",
+      "nameCN": "电视演剧：成功庄园",
+      "date": "2019-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 308829,
+      "name": "テレビ演劇 サクセス荘２",
+      "nameCN": "电视演剧 成功庄园2",
+      "date": "2020-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 323900,
+      "name": "テレビ演劇 サクセス荘３",
+      "nameCN": "电视演剧 成功庄园3",
+      "date": "2021-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 285240,
+      "dst": 308829
+    },
+    {
+      "relateString": "前传",
+      "src": 308829,
+      "dst": 285240
+    },
+    {
+      "relateString": "续集",
+      "src": 308829,
+      "dst": 323900
+    },
+    {
+      "relateString": "前传",
+      "src": 323900,
+      "dst": 308829
+    }
+  ]
 }

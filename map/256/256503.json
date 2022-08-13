@@ -1,28 +1,35 @@
 {
- "id": 256503,
- "node": [
-  {
-   "id": 256503,
-   "name": "Yoshiwara Rose",
-   "nameCN": "吉原玫瑰",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/07/256503_P2IQL.jpg",
-   "date": "2017-10-11",
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 262105,
-   "name": "Yoshiwara Rose 2",
-   "nameCN": "吉原玫瑰 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/b2/262105_njphF.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 256503,
-   "dst": 262105
-  }
- ]
+  "id": "256503",
+  "node": [
+    {
+      "id": 256503,
+      "name": "Yoshiwara Rose",
+      "nameCN": "吉原玫瑰",
+      "date": "2017-10-11",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 262105,
+      "name": "Yoshiwara Rose 2.0 - A Cycle Of Guilt",
+      "nameCN": "吉原玫瑰 2",
+      "date": "2018-07-29",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 256503,
+      "dst": 262105
+    },
+    {
+      "relateString": "前传",
+      "src": 262105,
+      "dst": 256503
+    }
+  ]
 }

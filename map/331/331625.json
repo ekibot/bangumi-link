@@ -1,37 +1,35 @@
 {
- "id": 331625,
- "node": [
-  {
-   "id": 331625,
-   "name": "神様なんか信じない僕らのエデン (上)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/77/331625_z7o0y.jpg",
-   "date": "2021-03-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 331626,
-   "name": "神様なんか信じない僕らのエデン (下)",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/d5/331626_J74EJ.jpg",
-   "date": "2021-03-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 331625,
-   "dst": 331626
-  },
-  {
-   "relate": "前传",
-   "src": 331626,
-   "dst": 331625
-  }
- ]
+  "id": "331625",
+  "node": [
+    {
+      "id": 331625,
+      "name": "神様なんか信じない僕らのエデン (上)",
+      "nameCN": "",
+      "date": "2021-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 331626,
+      "name": "神様なんか信じない僕らのエデン (下)",
+      "nameCN": "",
+      "date": "2021-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 331625,
+      "dst": 331626
+    },
+    {
+      "relateString": "前传",
+      "src": 331626,
+      "dst": 331625
+    }
+  ]
 }

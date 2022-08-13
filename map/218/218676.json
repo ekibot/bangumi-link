@@ -1,34 +1,35 @@
 {
- "id": 218676,
- "node": [
-  {
-   "id": 218676,
-   "name": "Hello Good-bye！～男ともだち女ともだち～",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/be/218676_LQXgj.jpg",
-   "date": "2003-11-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224845,
-   "name": "Hello Good-bye！ 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/45/224845_ZCwNC.jpg",
-   "date": "2011-04-09",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218676,
-   "dst": 224845
-  },
-  {
-   "relate": "前传",
-   "src": 224845,
-   "dst": 218676
-  }
- ]
+  "id": "218676",
+  "node": [
+    {
+      "id": 218676,
+      "name": "Hello Good-bye！～男ともだち女ともだち～",
+      "nameCN": "",
+      "date": "2003-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224845,
+      "name": "Hello Good-bye！ 2",
+      "nameCN": "",
+      "date": "2011-04-09",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218676,
+      "dst": 224845
+    },
+    {
+      "relateString": "前传",
+      "src": 224845,
+      "dst": 218676
+    }
+  ]
 }

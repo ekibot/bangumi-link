@@ -1,37 +1,35 @@
 {
- "id": 7790,
- "node": [
-  {
-   "id": 7790,
-   "name": "Neighbours From Hell",
-   "nameCN": "地狱邻居",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/56/7790_ok91A.jpg",
-   "date": "2003-06-20",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 36967,
-   "name": "Neighbours from Hell 2: On Vacation",
-   "nameCN": "地狱邻居2：恐怖假期",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/80/36967_E5Fln.jpg",
-   "date": "2004-05-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7790,
-   "dst": 36967
-  },
-  {
-   "relate": "前传",
-   "src": 36967,
-   "dst": 7790
-  }
- ]
+  "id": "7790",
+  "node": [
+    {
+      "id": 7790,
+      "name": "Neighbours From Hell",
+      "nameCN": "地狱邻居",
+      "date": "2003-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 36967,
+      "name": "Neighbours from Hell 2: On Vacation",
+      "nameCN": "地狱邻居2：恐怖假期",
+      "date": "2004-05-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7790,
+      "dst": 36967
+    },
+    {
+      "relateString": "前传",
+      "src": 36967,
+      "dst": 7790
+    }
+  ]
 }

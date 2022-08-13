@@ -1,177 +1,167 @@
 {
- "id": 205,
- "node": [
-  {
-   "id": 205,
-   "name": "マリオカートDS",
-   "nameCN": "马里奥赛车DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/e2/205_S6PCc.jpg",
-   "date": "2005-11-14",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 229,
-   "name": "マリオカートWii",
-   "nameCN": "马里奥赛车Wii",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/ae/229_iXW3F.jpg",
-   "date": "2008-04-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 20836,
-   "name": "マリオカート7",
-   "nameCN": "马力欧卡丁车7",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/9c/20836_SdsDw.jpg",
-   "date": "2011-12-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 55027,
-   "name": "マリオカートアドバンス",
-   "nameCN": "马里奥赛车Advance",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/27/55027_NJkoT.jpg",
-   "date": "2001-07-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 75640,
-   "name": "マリオカート8",
-   "nameCN": "马力欧卡丁车8",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/61/75640_jzhZ5.jpg",
-   "date": "2014-05-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 114504,
-   "name": "マリオカート64",
-   "nameCN": "马里奥赛车64",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/7d/114504_6pVIc.jpg",
-   "date": "1996-12-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 114577,
-   "name": "マリオカート ダブルダッシュ!!",
-   "nameCN": "马里奥赛车 双重冲击",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/12/114577_ZgmqM.jpg",
-   "date": "2003-11-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 114581,
-   "name": "スーパーマリオカート",
-   "nameCN": "超级马里奥赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/08/114581_4x9to.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 210141,
-   "name": "マリオカート8 デラックス",
-   "nameCN": "马力欧卡丁车8 豪华版",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/50/210141_yNeZM.jpg",
-   "date": "2017-04-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 205,
-   "dst": 229
-  },
-  {
-   "relate": "前传",
-   "src": 205,
-   "dst": 114577
-  },
-  {
-   "relate": "前传",
-   "src": 229,
-   "dst": 205
-  },
-  {
-   "relate": "续集",
-   "src": 229,
-   "dst": 20836
-  },
-  {
-   "relate": "前传",
-   "src": 20836,
-   "dst": 229
-  },
-  {
-   "relate": "续集",
-   "src": 20836,
-   "dst": 75640
-  },
-  {
-   "relate": "前传",
-   "src": 55027,
-   "dst": 114504
-  },
-  {
-   "relate": "续集",
-   "src": 55027,
-   "dst": 114577
-  },
-  {
-   "relate": "前传",
-   "src": 75640,
-   "dst": 20836
-  },
-  {
-   "relate": "不同演绎",
-   "src": 75640,
-   "dst": 210141
-  },
-  {
-   "relate": "续集",
-   "src": 114504,
-   "dst": 55027
-  },
-  {
-   "relate": "前传",
-   "src": 114504,
-   "dst": 114581
-  },
-  {
-   "relate": "续集",
-   "src": 114577,
-   "dst": 205
-  },
-  {
-   "relate": "前传",
-   "src": 114577,
-   "dst": 55027
-  },
-  {
-   "relate": "续集",
-   "src": 114581,
-   "dst": 114504
-  },
-  {
-   "relate": "不同演绎",
-   "src": 210141,
-   "dst": 75640
-  }
- ]
+  "id": "205",
+  "node": [
+    {
+      "id": 205,
+      "name": "マリオカートDS",
+      "nameCN": "马里奥赛车DS",
+      "date": "2005-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 229,
+      "name": "マリオカートWii",
+      "nameCN": "马里奥赛车Wii",
+      "date": "2008-04-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114577,
+      "name": "マリオカート ダブルダッシュ!!",
+      "nameCN": "马里奥赛车 双重冲击",
+      "date": "2003-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20836,
+      "name": "マリオカート7",
+      "nameCN": "马力欧卡丁车7",
+      "date": "2011-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 75640,
+      "name": "マリオカート8",
+      "nameCN": "马力欧卡丁车8",
+      "date": "2014-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 55027,
+      "name": "マリオカートアドバンス",
+      "nameCN": "马里奥赛车Advance",
+      "date": "2001-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114504,
+      "name": "マリオカート64",
+      "nameCN": "马里奥赛车64",
+      "date": "1996-12-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 210141,
+      "name": "マリオカート8 デラックス",
+      "nameCN": "马力欧卡丁车8 豪华版",
+      "date": "2017-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114581,
+      "name": "スーパーマリオカート",
+      "nameCN": "超级马里奥赛车",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205,
+      "dst": 229
+    },
+    {
+      "relateString": "前传",
+      "src": 205,
+      "dst": 114577
+    },
+    {
+      "relateString": "前传",
+      "src": 229,
+      "dst": 205
+    },
+    {
+      "relateString": "续集",
+      "src": 229,
+      "dst": 20836
+    },
+    {
+      "relateString": "前传",
+      "src": 20836,
+      "dst": 229
+    },
+    {
+      "relateString": "续集",
+      "src": 20836,
+      "dst": 75640
+    },
+    {
+      "relateString": "前传",
+      "src": 55027,
+      "dst": 114504
+    },
+    {
+      "relateString": "续集",
+      "src": 55027,
+      "dst": 114577
+    },
+    {
+      "relateString": "前传",
+      "src": 75640,
+      "dst": 20836
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 75640,
+      "dst": 210141
+    },
+    {
+      "relateString": "续集",
+      "src": 114504,
+      "dst": 55027
+    },
+    {
+      "relateString": "前传",
+      "src": 114504,
+      "dst": 114581
+    },
+    {
+      "relateString": "续集",
+      "src": 114577,
+      "dst": 205
+    },
+    {
+      "relateString": "前传",
+      "src": 114577,
+      "dst": 55027
+    },
+    {
+      "relateString": "续集",
+      "src": 114581,
+      "dst": 114504
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 210141,
+      "dst": 75640
+    }
+  ]
 }

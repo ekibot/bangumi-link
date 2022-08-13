@@ -1,37 +1,35 @@
 {
- "id": 2937,
- "node": [
-  {
-   "id": 2937,
-   "name": "SHUFFLE!",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/c6/2937_mBmS1.jpg",
-   "date": "2005-07-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2938,
-   "name": "SHUFFLE! MEMORIES",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/85/2938_D1RaA.jpg",
-   "date": "2007-01-07",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 2937,
-   "dst": 2938
-  },
-  {
-   "relate": "全集",
-   "src": 2938,
-   "dst": 2937
-  }
- ]
+  "id": "2937",
+  "node": [
+    {
+      "id": 2937,
+      "name": "SHUFFLE!",
+      "nameCN": "",
+      "date": "2005-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2938,
+      "name": "SHUFFLE! MEMORIES",
+      "nameCN": "",
+      "date": "2007-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 2937,
+      "dst": 2938
+    },
+    {
+      "relateString": "全集",
+      "src": 2938,
+      "dst": 2937
+    }
+  ]
 }

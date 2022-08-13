@@ -1,37 +1,34 @@
 {
- "id": 16985,
- "node": [
-  {
-   "id": 16985,
-   "name": "Under the Rose",
-   "nameCN": "蔷薇下的真相",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/ca/16985_NEmI5.jpg",
-   "date": "2003-10-24",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 112141,
-   "name": "Honey Rose",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/44/112141_LLQII.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 16985,
-   "dst": 112141
-  },
-  {
-   "relate": "前传",
-   "src": 112141,
-   "dst": 16985
-  }
- ]
+  "id": "16985",
+  "node": [
+    {
+      "id": 16985,
+      "name": "Under the Rose",
+      "nameCN": "蔷薇下的真相",
+      "date": "2003-10-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 112141,
+      "name": "Honey Rose",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 16985,
+      "dst": 112141
+    },
+    {
+      "relateString": "前传",
+      "src": 112141,
+      "dst": 16985
+    }
+  ]
 }

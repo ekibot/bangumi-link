@@ -1,57 +1,52 @@
 {
- "id": 8335,
- "node": [
-  {
-   "id": 8335,
-   "name": "となりの801ちゃん",
-   "nameCN": "超萌系！我的801女友",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/45/8335_WFQam.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 109887,
-   "name": "よりぬき となりの801ちゃん",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/9b/109887_jp.jpg",
-   "date": "2010-11-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 203744,
-   "name": "となりの801ちゃん+",
-   "nameCN": "超萌系！我的801女友+",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/c9/203744_RRb71.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 8335,
-   "dst": 109887
-  },
-  {
-   "relate": "续集",
-   "src": 8335,
-   "dst": 203744
-  },
-  {
-   "relate": "主线故事",
-   "src": 109887,
-   "dst": 8335
-  },
-  {
-   "relate": "前传",
-   "src": 203744,
-   "dst": 8335
-  }
- ]
+  "id": "8335",
+  "node": [
+    {
+      "id": 8335,
+      "name": "となりの801ちゃん",
+      "nameCN": "超萌系！我的801女友",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 109887,
+      "name": "よりぬき となりの801ちゃん",
+      "nameCN": "",
+      "date": "2010-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 203744,
+      "name": "となりの801ちゃん+",
+      "nameCN": "超萌系！我的801女友+",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 8335,
+      "dst": 109887
+    },
+    {
+      "relateString": "续集",
+      "src": 8335,
+      "dst": 203744
+    },
+    {
+      "relateString": "主线故事",
+      "src": 109887,
+      "dst": 8335
+    },
+    {
+      "relateString": "前传",
+      "src": 203744,
+      "dst": 8335
+    }
+  ]
 }

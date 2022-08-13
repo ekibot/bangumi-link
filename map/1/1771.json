@@ -1,37 +1,33 @@
 {
- "id": 1771,
- "node": [
-  {
-   "id": 1771,
-   "name": "EA Sports Active",
-   "nameCN": "EA运动活力",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/be/1771_Oqyzy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "Wii",
-   "type": 4
-  },
-  {
-   "id": 117638,
-   "name": "EA Sports Active 2",
-   "nameCN": "EA运动活力2",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/0f/117638_dtgIC.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1771,
-   "dst": 117638
-  },
-  {
-   "relate": "前传",
-   "src": 117638,
-   "dst": 1771
-  }
- ]
+  "id": "1771",
+  "node": [
+    {
+      "id": 1771,
+      "name": "EA Sports Active",
+      "nameCN": "EA运动活力",
+      "type": 4,
+      "nsfw": false,
+      "platform": "Wii"
+    },
+    {
+      "id": 117638,
+      "name": "EA Sports Active 2",
+      "nameCN": "EA运动活力2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1771,
+      "dst": 117638
+    },
+    {
+      "relateString": "前传",
+      "src": 117638,
+      "dst": 1771
+    }
+  ]
 }

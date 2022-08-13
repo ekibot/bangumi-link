@@ -1,0 +1,73 @@
+{
+  "id": "7787",
+  "node": [
+    {
+      "id": 7787,
+      "name": "Hannah Montana Season 1",
+      "nameCN": "汉娜·蒙塔娜 第一季",
+      "date": "2006-03-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 7788,
+      "name": "Hannah Montana Season 2",
+      "nameCN": "汉娜·蒙塔娜 第二季",
+      "date": "2007-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 7789,
+      "name": "Hannah Montana Season 3",
+      "nameCN": "汉娜·蒙塔娜 第三季",
+      "date": "2008-11-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 66224,
+      "name": "Hannah Montana Season 4",
+      "nameCN": "汉娜·蒙塔娜 第四季",
+      "date": "2010-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7787,
+      "dst": 7788
+    },
+    {
+      "relateString": "前传",
+      "src": 7788,
+      "dst": 7787
+    },
+    {
+      "relateString": "续集",
+      "src": 7788,
+      "dst": 7789
+    },
+    {
+      "relateString": "前传",
+      "src": 7789,
+      "dst": 7788
+    },
+    {
+      "relateString": "续集",
+      "src": 7789,
+      "dst": 66224
+    },
+    {
+      "relateString": "前传",
+      "src": 66224,
+      "dst": 7789
+    }
+  ]
+}

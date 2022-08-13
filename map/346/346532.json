@@ -1,37 +1,35 @@
 {
- "id": 346532,
- "node": [
-  {
-   "id": 346532,
-   "name": "小小军团2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/da/346532_6IN5A.jpg",
-   "date": "2020-05-14",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 346533,
-   "name": "小小军团",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/44/346533_C9tzY.jpg",
-   "date": "2013-08-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 346532,
-   "dst": 346533
-  },
-  {
-   "relate": "续集",
-   "src": 346533,
-   "dst": 346532
-  }
- ]
+  "id": "346532",
+  "node": [
+    {
+      "id": 346532,
+      "name": "小小军团2",
+      "nameCN": "",
+      "date": "2020-05-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 346533,
+      "name": "小小军团",
+      "nameCN": "",
+      "date": "2013-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 346532,
+      "dst": 346533
+    },
+    {
+      "relateString": "续集",
+      "src": 346533,
+      "dst": 346532
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 109609,
- "node": [
-  {
-   "id": 109609,
-   "name": "Watership Down",
-   "nameCN": "沃特希普荒原",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/62/109609_rdsuK.jpg",
-   "date": "1978-10-14",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 276751,
-   "name": "Watership Down",
-   "nameCN": "沃特希普荒原",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/35/276750_9aPkK.jpg",
-   "date": "2018-12-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 109609,
-   "dst": 276751
-  },
-  {
-   "relate": "不同演绎",
-   "src": 276751,
-   "dst": 109609
-  }
- ]
+  "id": "109609",
+  "node": [
+    {
+      "id": 109609,
+      "name": "Watership Down",
+      "nameCN": "沃特希普荒原",
+      "date": "1978-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 276751,
+      "name": "Watership Down",
+      "nameCN": "沃特希普荒原",
+      "date": "2018-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 109609,
+      "dst": 276751
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 276751,
+      "dst": 109609
+    }
+  ]
 }

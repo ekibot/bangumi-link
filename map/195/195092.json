@@ -1,37 +1,35 @@
 {
- "id": 195092,
- "node": [
-  {
-   "id": 195092,
-   "name": "大海原と大海原",
-   "nameCN": "大海原与大海原",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/27/195092_2zreE.jpg",
-   "date": "2015-12-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 218497,
-   "name": "大海原と大海原 死の海編",
-   "nameCN": "大海原与大海原 死之海篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/25/218497_9pEI5.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195092,
-   "dst": 218497
-  },
-  {
-   "relate": "前传",
-   "src": 218497,
-   "dst": 195092
-  }
- ]
+  "id": "195092",
+  "node": [
+    {
+      "id": 195092,
+      "name": "大海原と大海原",
+      "nameCN": "大海原与大海原",
+      "date": "2015-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 218497,
+      "name": "大海原と大海原 死の海編",
+      "nameCN": "大海原与大海原 死之海篇",
+      "date": "2017-06-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195092,
+      "dst": 218497
+    },
+    {
+      "relateString": "前传",
+      "src": 218497,
+      "dst": 195092
+    }
+  ]
 }

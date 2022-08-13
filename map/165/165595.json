@@ -1,37 +1,34 @@
 {
- "id": 165595,
- "node": [
-  {
-   "id": 165595,
-   "name": "Toki Tori",
-   "nameCN": "小鸡快跑",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/ac/165595_vVSVD.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 165599,
-   "name": "Toki Tori 2",
-   "nameCN": "小鸡快跑2",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/0f/165599_0kyT9.jpg",
-   "date": "2013-07-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165595,
-   "dst": 165599
-  },
-  {
-   "relate": "前传",
-   "src": 165599,
-   "dst": 165595
-  }
- ]
+  "id": "165595",
+  "node": [
+    {
+      "id": 165595,
+      "name": "Toki Tori",
+      "nameCN": "小鸡快跑",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165599,
+      "name": "Toki Tori 2",
+      "nameCN": "小鸡快跑2",
+      "date": "2013-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165595,
+      "dst": 165599
+    },
+    {
+      "relateString": "前传",
+      "src": 165599,
+      "dst": 165595
+    }
+  ]
 }

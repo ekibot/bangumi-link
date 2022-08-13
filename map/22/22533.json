@@ -1,37 +1,35 @@
 {
- "id": 22533,
- "node": [
-  {
-   "id": 22533,
-   "name": "The Lying Game (Season 1)",
-   "nameCN": "谎言游戏 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/35/22533_X9lYK.jpg",
-   "date": "2011-08-15",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 87427,
-   "name": "The Lying Game (Season 2)",
-   "nameCN": "谎言游戏 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/ae/87427_dDDD6.jpg",
-   "date": "2013-01-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22533,
-   "dst": 87427
-  },
-  {
-   "relate": "前传",
-   "src": 87427,
-   "dst": 22533
-  }
- ]
+  "id": "22533",
+  "node": [
+    {
+      "id": 22533,
+      "name": "The Lying Game (Season 1)",
+      "nameCN": "谎言游戏 第一季",
+      "date": "2011-08-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 87427,
+      "name": "The Lying Game (Season 2)",
+      "nameCN": "谎言游戏 第二季",
+      "date": "2013-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22533,
+      "dst": 87427
+    },
+    {
+      "relateString": "前传",
+      "src": 87427,
+      "dst": 22533
+    }
+  ]
 }

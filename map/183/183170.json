@@ -1,37 +1,34 @@
 {
- "id": 183170,
- "node": [
-  {
-   "id": 183170,
-   "name": "本日の猫事情PLUS",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/10/183170_jp.jpg",
-   "date": "2011-10-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 183171,
-   "name": "本日の猫事情",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/62/183171_oLcjI.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 183170,
-   "dst": 183171
-  },
-  {
-   "relate": "番外篇",
-   "src": 183171,
-   "dst": 183170
-  }
- ]
+  "id": "183170",
+  "node": [
+    {
+      "id": 183170,
+      "name": "本日の猫事情PLUS",
+      "nameCN": "",
+      "date": "2011-10-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 183171,
+      "name": "本日の猫事情",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 183170,
+      "dst": 183171
+    },
+    {
+      "relateString": "番外篇",
+      "src": 183171,
+      "dst": 183170
+    }
+  ]
 }

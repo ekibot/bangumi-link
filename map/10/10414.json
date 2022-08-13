@@ -1,77 +1,73 @@
 {
- "id": 10414,
- "node": [
-  {
-   "id": 10414,
-   "name": "ストラトス・フォー",
-   "nameCN": "星空防卫队",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/6e/10414_ZjCGl.jpg",
-   "date": "2003-01-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 48991,
-   "name": "ストラトス・フォー X シリーズ",
-   "nameCN": "星空防卫队 CODE：X",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/38/48991_Koo6u.jpg",
-   "date": "2004-05-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 48992,
-   "name": "ストラトス・フォー アドヴァンス",
-   "nameCN": "星空防卫队 Advance",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/f1/48992_d0rkg.jpg",
-   "date": "2005-03-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 48994,
-   "name": "ストラトス・フォー アドヴァンス 完結編",
-   "nameCN": "星空防卫队 Advance 完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/66/48994_QPAvm.jpg",
-   "date": "2006-09-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10414,
-   "dst": 48991
-  },
-  {
-   "relate": "前传",
-   "src": 48991,
-   "dst": 10414
-  },
-  {
-   "relate": "续集",
-   "src": 48991,
-   "dst": 48992
-  },
-  {
-   "relate": "前传",
-   "src": 48992,
-   "dst": 48991
-  },
-  {
-   "relate": "续集",
-   "src": 48992,
-   "dst": 48994
-  },
-  {
-   "relate": "前传",
-   "src": 48994,
-   "dst": 48992
-  }
- ]
+  "id": "10414",
+  "node": [
+    {
+      "id": 10414,
+      "name": "ストラトス・フォー",
+      "nameCN": "星空防卫队",
+      "date": "2003-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 48991,
+      "name": "ストラトス・フォー X シリーズ",
+      "nameCN": "星空防卫队 CODE：X",
+      "date": "2004-05-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 48992,
+      "name": "ストラトス・フォー アドヴァンス",
+      "nameCN": "星空防卫队 Advance",
+      "date": "2005-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 48994,
+      "name": "ストラトス・フォー アドヴァンス 完結編",
+      "nameCN": "星空防卫队 Advance 完结篇",
+      "date": "2006-09-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10414,
+      "dst": 48991
+    },
+    {
+      "relateString": "前传",
+      "src": 48991,
+      "dst": 10414
+    },
+    {
+      "relateString": "续集",
+      "src": 48991,
+      "dst": 48992
+    },
+    {
+      "relateString": "前传",
+      "src": 48992,
+      "dst": 48991
+    },
+    {
+      "relateString": "续集",
+      "src": 48992,
+      "dst": 48994
+    },
+    {
+      "relateString": "前传",
+      "src": 48994,
+      "dst": 48992
+    }
+  ]
 }

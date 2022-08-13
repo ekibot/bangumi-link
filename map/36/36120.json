@@ -1,67 +1,64 @@
 {
- "id": 36120,
- "node": [
-  {
-   "id": 36120,
-   "name": "Hercules",
-   "nameCN": "大力士",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/6d/36120_t6Vhp.jpg",
-   "date": "1998-08-31",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 36698,
-   "name": "Hercules",
-   "nameCN": "大力士",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/39/36698_2XFFh.jpg",
-   "date": "1997-06-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 112508,
-   "name": "Hercules: Zero to Hero",
-   "nameCN": "大力士：从零到英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/68/112508_Z7ZzZ.jpg",
-   "date": "1999-08-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 36120,
-   "dst": 36698
-  },
-  {
-   "relate": "不同演绎",
-   "src": 36120,
-   "dst": 112508
-  },
-  {
-   "relate": "续集",
-   "src": 36698,
-   "dst": 36120
-  },
-  {
-   "relate": "续集",
-   "src": 36698,
-   "dst": 112508
-  },
-  {
-   "relate": "不同演绎",
-   "src": 112508,
-   "dst": 36120
-  },
-  {
-   "relate": "前传",
-   "src": 112508,
-   "dst": 36698
-  }
- ]
+  "id": "36120",
+  "node": [
+    {
+      "id": 36120,
+      "name": "Hercules",
+      "nameCN": "大力士",
+      "date": "1998-08-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36698,
+      "name": "Hercules",
+      "nameCN": "大力士",
+      "date": "1997-06-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112508,
+      "name": "Hercules: Zero to Hero",
+      "nameCN": "大力士：从零到英雄",
+      "date": "1999-08-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 36120,
+      "dst": 36698
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 36120,
+      "dst": 112508
+    },
+    {
+      "relateString": "续集",
+      "src": 36698,
+      "dst": 36120
+    },
+    {
+      "relateString": "续集",
+      "src": 36698,
+      "dst": 112508
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 112508,
+      "dst": 36120
+    },
+    {
+      "relateString": "前传",
+      "src": 112508,
+      "dst": 36698
+    }
+  ]
 }

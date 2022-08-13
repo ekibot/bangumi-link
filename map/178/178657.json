@@ -1,37 +1,33 @@
 {
- "id": 178657,
- "node": [
-  {
-   "id": 178657,
-   "name": "丧尸末日",
-   "nameCN": "丧尸末日",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/80/178657_JW4W4.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 178658,
-   "name": "丧尸风暴",
-   "nameCN": "丧尸风暴",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/57/178658_QWL56.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 178657,
-   "dst": 178658
-  },
-  {
-   "relate": "前传",
-   "src": 178658,
-   "dst": 178657
-  }
- ]
+  "id": "178657",
+  "node": [
+    {
+      "id": 178657,
+      "name": "丧尸末日",
+      "nameCN": "丧尸末日",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 178658,
+      "name": "丧尸风暴",
+      "nameCN": "丧尸风暴",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 178657,
+      "dst": 178658
+    },
+    {
+      "relateString": "前传",
+      "src": 178658,
+      "dst": 178657
+    }
+  ]
 }

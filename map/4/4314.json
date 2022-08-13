@@ -1,77 +1,73 @@
 {
- "id": 4314,
- "node": [
-  {
-   "id": 4314,
-   "name": "リングにかけろ1 影道編",
-   "nameCN": "拳王创世纪1 影道篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/f7/4314_aRZmT.jpg",
-   "date": "2010-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 10568,
-   "name": "リングにかけろ1 世界大会編",
-   "nameCN": "拳王创世纪1 世界大会篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/e5/10568_C99A5.jpg",
-   "date": "2011-04-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 75520,
-   "name": "リングにかけろ1 -日米決戦編-",
-   "nameCN": "拳王创世纪1 日美决战篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/87/75520_7Ghg4.jpg",
-   "date": "2006-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 209557,
-   "name": "リングにかけろ1",
-   "nameCN": "拳王创世纪1",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/ad/209557_px36U.jpg",
-   "date": "2004-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4314,
-   "dst": 10568
-  },
-  {
-   "relate": "前传",
-   "src": 4314,
-   "dst": 75520
-  },
-  {
-   "relate": "前传",
-   "src": 10568,
-   "dst": 4314
-  },
-  {
-   "relate": "续集",
-   "src": 75520,
-   "dst": 4314
-  },
-  {
-   "relate": "前传",
-   "src": 75520,
-   "dst": 209557
-  },
-  {
-   "relate": "续集",
-   "src": 209557,
-   "dst": 75520
-  }
- ]
+  "id": "4314",
+  "node": [
+    {
+      "id": 4314,
+      "name": "リングにかけろ1 影道編",
+      "nameCN": "拳王创世纪1 影道篇",
+      "date": "2010-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10568,
+      "name": "リングにかけろ1 世界大会編",
+      "nameCN": "拳王创世纪1 世界大会篇",
+      "date": "2011-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 75520,
+      "name": "リングにかけろ1 -日米決戦編-",
+      "nameCN": "拳王创世纪1 日美决战篇",
+      "date": "2006-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 209557,
+      "name": "リングにかけろ1",
+      "nameCN": "拳王创世纪1",
+      "date": "2004-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4314,
+      "dst": 10568
+    },
+    {
+      "relateString": "前传",
+      "src": 4314,
+      "dst": 75520
+    },
+    {
+      "relateString": "前传",
+      "src": 10568,
+      "dst": 4314
+    },
+    {
+      "relateString": "续集",
+      "src": 75520,
+      "dst": 4314
+    },
+    {
+      "relateString": "前传",
+      "src": 75520,
+      "dst": 209557
+    },
+    {
+      "relateString": "续集",
+      "src": 209557,
+      "dst": 75520
+    }
+  ]
 }

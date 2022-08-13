@@ -1,37 +1,35 @@
 {
- "id": 148325,
- "node": [
-  {
-   "id": 148325,
-   "name": "Dr. Ken",
-   "nameCN": "肯医师烦事多",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/fd/148325_6zwPm.jpg",
-   "date": "2015-10-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 207763,
-   "name": "Dr. Ken Season 2",
-   "nameCN": "肯医生 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/e4/207763_ebHN0.jpg",
-   "date": "2016-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 148325,
-   "dst": 207763
-  },
-  {
-   "relate": "前传",
-   "src": 207763,
-   "dst": 148325
-  }
- ]
+  "id": "148325",
+  "node": [
+    {
+      "id": 148325,
+      "name": "Dr. Ken",
+      "nameCN": "肯医师烦事多",
+      "date": "2015-10-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 207763,
+      "name": "Dr. Ken Season 2",
+      "nameCN": "肯医生 第二季",
+      "date": "2016-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 148325,
+      "dst": 207763
+    },
+    {
+      "relateString": "前传",
+      "src": 207763,
+      "dst": 148325
+    }
+  ]
 }

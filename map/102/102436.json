@@ -1,57 +1,54 @@
 {
- "id": 102436,
- "node": [
-  {
-   "id": 102436,
-   "name": "Angelic Vale",
-   "nameCN": "天使之谷",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/24/102436_Z1T5w.jpg",
-   "date": "2003-04-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 102437,
-   "name": "Angelic Vale Progress ~ ウェスペールの迷宮",
-   "nameCN": "天使之谷续章：威斯贝尔的迷宫",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/eb/102437_23i95.jpg",
-   "date": "2003-11-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 102443,
-   "name": "Angelic Vale新伝 - エフェメール島綺譚 -",
-   "nameCN": "天使之谷新传：艾菲梅尔岛传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/8e/102443_d4Q94.jpg",
-   "date": "2005-03-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 102436,
-   "dst": 102437
-  },
-  {
-   "relate": "前传",
-   "src": 102437,
-   "dst": 102436
-  },
-  {
-   "relate": "续集",
-   "src": 102437,
-   "dst": 102443
-  },
-  {
-   "relate": "前传",
-   "src": 102443,
-   "dst": 102437
-  }
- ]
+  "id": "102436",
+  "node": [
+    {
+      "id": 102436,
+      "name": "Angelic Vale",
+      "nameCN": "天使之谷",
+      "date": "2003-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 102437,
+      "name": "Angelic Vale Progress ~ ウェスペールの迷宮",
+      "nameCN": "天使之谷续章：威斯贝尔的迷宫",
+      "date": "2003-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 102443,
+      "name": "Angelic Vale新伝 - エフェメール島綺譚 -",
+      "nameCN": "天使之谷新传：艾菲梅尔岛传说",
+      "date": "2005-03-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 102436,
+      "dst": 102437
+    },
+    {
+      "relateString": "前传",
+      "src": 102437,
+      "dst": 102436
+    },
+    {
+      "relateString": "续集",
+      "src": 102437,
+      "dst": 102443
+    },
+    {
+      "relateString": "前传",
+      "src": 102443,
+      "dst": 102437
+    }
+  ]
 }

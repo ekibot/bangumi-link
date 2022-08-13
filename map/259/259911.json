@@ -1,37 +1,35 @@
 {
- "id": 259911,
- "node": [
-  {
-   "id": 259911,
-   "name": "Hurtbreak Wonderland",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/6c/259911_WBRCb.jpg",
-   "date": "2008-04-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259913,
-   "name": "Hurtbreak Wonderland +",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/8d/259913_7U99a.jpg",
-   "date": "2009-01-20",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 259911,
-   "dst": 259913
-  },
-  {
-   "relate": "前传",
-   "src": 259913,
-   "dst": 259911
-  }
- ]
+  "id": "259911",
+  "node": [
+    {
+      "id": 259911,
+      "name": "Hurtbreak Wonderland",
+      "nameCN": "",
+      "date": "2008-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259913,
+      "name": "Hurtbreak Wonderland +",
+      "nameCN": "",
+      "date": "2009-01-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 259911,
+      "dst": 259913
+    },
+    {
+      "relateString": "前传",
+      "src": 259913,
+      "dst": 259911
+    }
+  ]
 }

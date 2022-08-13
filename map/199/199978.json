@@ -1,37 +1,35 @@
 {
- "id": 199978,
- "node": [
-  {
-   "id": 199978,
-   "name": "同棲からはじめました。",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/e9/199978_jp.jpg",
-   "date": "2016-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 322738,
-   "name": "同棲からはじめました。相思相愛編",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/74/322738_765Om.jpg",
-   "date": "2020-10-23",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 199978,
-   "dst": 322738
-  },
-  {
-   "relate": "前传",
-   "src": 322738,
-   "dst": 199978
-  }
- ]
+  "id": "199978",
+  "node": [
+    {
+      "id": 199978,
+      "name": "同棲からはじめました。",
+      "nameCN": "",
+      "date": "2016-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322738,
+      "name": "同棲からはじめました。相思相愛編",
+      "nameCN": "",
+      "date": "2020-10-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 199978,
+      "dst": 322738
+    },
+    {
+      "relateString": "前传",
+      "src": 322738,
+      "dst": 199978
+    }
+  ]
 }

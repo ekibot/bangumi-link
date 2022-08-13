@@ -1,117 +1,111 @@
 {
- "id": 207,
- "node": [
-  {
-   "id": 207,
-   "name": "Mario &amp; Sonic at the Olympic Games",
-   "nameCN": "马里奥与索尼克在北京奥运会",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/ad/207_THlRj.jpg",
-   "date": "2007-11-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 224934,
-   "name": "Mario &amp; Sonic at the Olympic Winter Games",
-   "nameCN": "马里奥与索尼克在温哥华冬奥会",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/af/224934_S66Ix.jpg",
-   "date": "2009-11-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224940,
-   "name": "Mario and Sonic at London 2012 Olympic Games",
-   "nameCN": "马里奥和索尼克在伦敦奥运会",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/9e/224940_f4JCG.jpg",
-   "date": "2011-12-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224941,
-   "name": "Mario &amp; Sonic at the Sochi 2014 Olympic Winter Games",
-   "nameCN": "马里奥和索尼克在索契冬奥会",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/5e/224941_wd3gh.jpg",
-   "date": "2013-12-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224950,
-   "name": "Mario &amp; Sonic at the Rio 2016 Olympic Games",
-   "nameCN": "马里奥与索尼克在里约奥运会",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/2c/224950_W4A1D.jpg",
-   "date": "2016-06-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 290173,
-   "name": "Mario &amp; Sonic at the Olympic Games Tokyo 2020",
-   "nameCN": "马力欧&amp;索尼克AT 2020东京奥运",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/21/290173_bWMdj.jpg",
-   "date": "2019-11-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 207,
-   "dst": 224934
-  },
-  {
-   "relate": "前传",
-   "src": 224934,
-   "dst": 207
-  },
-  {
-   "relate": "续集",
-   "src": 224934,
-   "dst": 224940
-  },
-  {
-   "relate": "前传",
-   "src": 224940,
-   "dst": 224934
-  },
-  {
-   "relate": "续集",
-   "src": 224940,
-   "dst": 224941
-  },
-  {
-   "relate": "前传",
-   "src": 224941,
-   "dst": 224940
-  },
-  {
-   "relate": "续集",
-   "src": 224941,
-   "dst": 224950
-  },
-  {
-   "relate": "前传",
-   "src": 224950,
-   "dst": 224941
-  },
-  {
-   "relate": "续集",
-   "src": 224950,
-   "dst": 290173
-  },
-  {
-   "relate": "前传",
-   "src": 290173,
-   "dst": 224950
-  }
- ]
+  "id": "207",
+  "node": [
+    {
+      "id": 207,
+      "name": "Mario &amp; Sonic at the Olympic Games",
+      "nameCN": "马里奥与索尼克在北京奥运会",
+      "date": "2007-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224934,
+      "name": "Mario &amp; Sonic at the Olympic Winter Games",
+      "nameCN": "马里奥与索尼克在温哥华冬奥会",
+      "date": "2009-11-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224940,
+      "name": "Mario and Sonic at London 2012 Olympic Games",
+      "nameCN": "马里奥和索尼克在伦敦奥运会",
+      "date": "2011-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224941,
+      "name": "Mario &amp; Sonic at the Sochi 2014 Olympic Winter Games",
+      "nameCN": "马里奥和索尼克在索契冬奥会",
+      "date": "2013-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224950,
+      "name": "Mario &amp; Sonic at the Rio 2016 Olympic Games",
+      "nameCN": "马里奥与索尼克在里约奥运会",
+      "date": "2016-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 290173,
+      "name": "Mario &amp; Sonic at the Olympic Games Tokyo 2020",
+      "nameCN": "马力欧&amp;索尼克AT 2020东京奥运",
+      "date": "2019-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 207,
+      "dst": 224934
+    },
+    {
+      "relateString": "前传",
+      "src": 224934,
+      "dst": 207
+    },
+    {
+      "relateString": "续集",
+      "src": 224934,
+      "dst": 224940
+    },
+    {
+      "relateString": "前传",
+      "src": 224940,
+      "dst": 224934
+    },
+    {
+      "relateString": "续集",
+      "src": 224940,
+      "dst": 224941
+    },
+    {
+      "relateString": "前传",
+      "src": 224941,
+      "dst": 224940
+    },
+    {
+      "relateString": "续集",
+      "src": 224941,
+      "dst": 224950
+    },
+    {
+      "relateString": "前传",
+      "src": 224950,
+      "dst": 224941
+    },
+    {
+      "relateString": "续集",
+      "src": 224950,
+      "dst": 290173
+    },
+    {
+      "relateString": "前传",
+      "src": 290173,
+      "dst": 224950
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 114230,
- "node": [
-  {
-   "id": 114230,
-   "name": "ハッピータイム",
-   "nameCN": "欢愉时刻",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/ae/114230_liiHL.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 114231,
-   "name": "ハッピーハーレム",
-   "nameCN": "欢愉闺房",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/d5/114231_99Zuw.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114230,
-   "dst": 114231
-  },
-  {
-   "relate": "前传",
-   "src": 114231,
-   "dst": 114230
-  }
- ]
+  "id": "114230",
+  "node": [
+    {
+      "id": 114230,
+      "name": "ハッピータイム",
+      "nameCN": "欢愉时刻",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 114231,
+      "name": "ハッピーハーレム",
+      "nameCN": "欢愉闺房",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114230,
+      "dst": 114231
+    },
+    {
+      "relateString": "前传",
+      "src": 114231,
+      "dst": 114230
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 1358,
- "node": [
-  {
-   "id": 1358,
-   "name": "ホタルノヒカリ",
-   "nameCN": "萤之光",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/ad/1358_zvaiY.jpg",
-   "date": "2007-07-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 7191,
-   "name": "ホタルノヒカリ2",
-   "nameCN": "萤之光2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/60/7191_PHq89.jpg",
-   "date": "2010-07-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 59604,
-   "name": "ホタルノヒカリ",
-   "nameCN": "萤之光",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/bd/59604_OtpcQ.jpg",
-   "date": "2012-06-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1358,
-   "dst": 7191
-  },
-  {
-   "relate": "番外篇",
-   "src": 1358,
-   "dst": 59604
-  },
-  {
-   "relate": "前传",
-   "src": 7191,
-   "dst": 1358
-  },
-  {
-   "relate": "番外篇",
-   "src": 7191,
-   "dst": 59604
-  },
-  {
-   "relate": "番外篇",
-   "src": 59604,
-   "dst": 1358
-  },
-  {
-   "relate": "番外篇",
-   "src": 59604,
-   "dst": 7191
-  }
- ]
+  "id": "1358",
+  "node": [
+    {
+      "id": 1358,
+      "name": "ホタルノヒカリ",
+      "nameCN": "萤之光",
+      "date": "2007-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 7191,
+      "name": "ホタルノヒカリ2",
+      "nameCN": "萤之光2",
+      "date": "2010-07-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 59604,
+      "name": "ホタルノヒカリ",
+      "nameCN": "萤之光",
+      "date": "2012-06-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1358,
+      "dst": 7191
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1358,
+      "dst": 59604
+    },
+    {
+      "relateString": "前传",
+      "src": 7191,
+      "dst": 1358
+    },
+    {
+      "relateString": "番外篇",
+      "src": 7191,
+      "dst": 59604
+    },
+    {
+      "relateString": "番外篇",
+      "src": 59604,
+      "dst": 1358
+    },
+    {
+      "relateString": "番外篇",
+      "src": 59604,
+      "dst": 7191
+    }
+  ]
 }

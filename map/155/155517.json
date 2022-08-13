@@ -1,57 +1,53 @@
 {
- "id": 155517,
- "node": [
-  {
-   "id": 155517,
-   "name": "カムイ伝",
-   "nameCN": "卡姆依传",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/3e/155517_CgkUm.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 155610,
-   "name": "カムイ伝 第二部",
-   "nameCN": "卡姆依传 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/56/155610_2onOF.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 155673,
-   "name": "カムイ外伝",
-   "nameCN": "卡姆依外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/5e/155673_wCwOI.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155517,
-   "dst": 155610
-  },
-  {
-   "relate": "番外篇",
-   "src": 155517,
-   "dst": 155673
-  },
-  {
-   "relate": "前传",
-   "src": 155610,
-   "dst": 155517
-  },
-  {
-   "relate": "主线故事",
-   "src": 155673,
-   "dst": 155517
-  }
- ]
+  "id": "155517",
+  "node": [
+    {
+      "id": 155517,
+      "name": "カムイ伝",
+      "nameCN": "卡姆依传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155610,
+      "name": "カムイ伝 第二部",
+      "nameCN": "卡姆依传 第二部",
+      "date": "1988-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155673,
+      "name": "カムイ外伝",
+      "nameCN": "卡姆依外传",
+      "date": "1965-05-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155517,
+      "dst": 155610
+    },
+    {
+      "relateString": "番外篇",
+      "src": 155517,
+      "dst": 155673
+    },
+    {
+      "relateString": "前传",
+      "src": 155610,
+      "dst": 155517
+    },
+    {
+      "relateString": "主线故事",
+      "src": 155673,
+      "dst": 155517
+    }
+  ]
 }

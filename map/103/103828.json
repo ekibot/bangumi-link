@@ -1,37 +1,35 @@
 {
- "id": 103828,
- "node": [
-  {
-   "id": 103828,
-   "name": "近キョリ恋愛",
-   "nameCN": "近距离恋爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/58/103828_AmOm7.jpg",
-   "date": "2014-10-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 106946,
-   "name": "近キョリ恋愛～Season Zero～",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/a2/106946_WwPK4.jpg",
-   "date": "2014-07-19",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 103828,
-   "dst": 106946
-  },
-  {
-   "relate": "衍生",
-   "src": 106946,
-   "dst": 103828
-  }
- ]
+  "id": "103828",
+  "node": [
+    {
+      "id": 103828,
+      "name": "近キョリ恋愛",
+      "nameCN": "近距离恋爱",
+      "date": "2014-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 106946,
+      "name": "近キョリ恋愛～Season Zero～",
+      "nameCN": "",
+      "date": "2014-07-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 103828,
+      "dst": 106946
+    },
+    {
+      "relateString": "衍生",
+      "src": 106946,
+      "dst": 103828
+    }
+  ]
 }

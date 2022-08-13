@@ -1,37 +1,35 @@
 {
- "id": 1969,
- "node": [
-  {
-   "id": 1969,
-   "name": "地球へ…",
-   "nameCN": "奔向地球",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/85/1969_ky3Gg.jpg",
-   "date": "2007-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 38646,
-   "name": "地球へ…",
-   "nameCN": "奔向地球",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/51/38646_nj0y4.jpg",
-   "date": "1980-04-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1969,
-   "dst": 38646
-  },
-  {
-   "relate": "不同演绎",
-   "src": 38646,
-   "dst": 1969
-  }
- ]
+  "id": "1969",
+  "node": [
+    {
+      "id": 1969,
+      "name": "地球へ…",
+      "nameCN": "奔向地球",
+      "date": "2007-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 38646,
+      "name": "地球へ…",
+      "nameCN": "奔向地球",
+      "date": "1980-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1969,
+      "dst": 38646
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 38646,
+      "dst": 1969
+    }
+  ]
 }

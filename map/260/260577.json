@@ -1,37 +1,34 @@
 {
- "id": 260577,
- "node": [
-  {
-   "id": 260577,
-   "name": "流星蝴蝶劍",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/f4/260577_CNRcS.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 296231,
-   "name": "新流星蝴蝶剑",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/91/296231_Yqhsq.jpg",
-   "date": "1993-01-16",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 260577,
-   "dst": 296231
-  },
-  {
-   "relate": "不同演绎",
-   "src": 296231,
-   "dst": 260577
-  }
- ]
+  "id": "260577",
+  "node": [
+    {
+      "id": 260577,
+      "name": "流星蝴蝶劍",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 296231,
+      "name": "新流星蝴蝶剑",
+      "nameCN": "",
+      "date": "1993-01-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 260577,
+      "dst": 296231
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 296231,
+      "dst": 260577
+    }
+  ]
 }

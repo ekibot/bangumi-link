@@ -1,37 +1,35 @@
 {
- "id": 219342,
- "node": [
-  {
-   "id": 219342,
-   "name": "澪つくし",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/df/219342_jp.jpg",
-   "date": "2017-05-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 383332,
-   "name": "澪つくし (2)",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/5b/383332_tU0uA.jpg",
-   "type": 1,
-   "date": "2020-02-10",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219342,
-   "dst": 383332
-  },
-  {
-   "relate": "前传",
-   "src": 383332,
-   "dst": 219342
-  }
- ]
+  "id": "219342",
+  "node": [
+    {
+      "id": 219342,
+      "name": "澪つくし",
+      "nameCN": "",
+      "date": "2017-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 383332,
+      "name": "澪つくし (2)",
+      "nameCN": "",
+      "date": "2020-02-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219342,
+      "dst": 383332
+    },
+    {
+      "relateString": "前传",
+      "src": 383332,
+      "dst": 219342
+    }
+  ]
 }

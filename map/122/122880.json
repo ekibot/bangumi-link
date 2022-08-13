@@ -1,37 +1,35 @@
 {
- "id": 122880,
- "node": [
-  {
-   "id": 122880,
-   "name": "ワルプルギスの淫夢 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/89/122880_jp.jpg",
-   "date": "2009-06-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 122881,
-   "name": "ワルプルギスの淫夢 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/69/122881_jp.jpg",
-   "date": "2010-05-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122880,
-   "dst": 122881
-  },
-  {
-   "relate": "前传",
-   "src": 122881,
-   "dst": 122880
-  }
- ]
+  "id": "122880",
+  "node": [
+    {
+      "id": 122880,
+      "name": "ワルプルギスの淫夢 (1)",
+      "nameCN": "",
+      "date": "2009-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 122881,
+      "name": "ワルプルギスの淫夢 (2)",
+      "nameCN": "",
+      "date": "2010-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122880,
+      "dst": 122881
+    },
+    {
+      "relateString": "前传",
+      "src": 122881,
+      "dst": 122880
+    }
+  ]
 }

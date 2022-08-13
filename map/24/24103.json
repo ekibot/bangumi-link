@@ -1,57 +1,54 @@
 {
- "id": 24103,
- "node": [
-  {
-   "id": 24103,
-   "name": "センチメンタルグラフティ",
-   "nameCN": "青涩宝贝",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/8d/24103_y9H3K.jpg",
-   "date": "1998-10-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 100288,
-   "name": "センチメンタルグラフティ2",
-   "nameCN": "青涩之恋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/5d/100288_f8d74.jpg",
-   "date": "2001-03-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 100290,
-   "name": "センチメンタルプレリュード",
-   "nameCN": "青涩前奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/c1/100290_9gOt2.jpg",
-   "date": "2004-10-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 24103,
-   "dst": 100288
-  },
-  {
-   "relate": "前传",
-   "src": 24103,
-   "dst": 100290
-  },
-  {
-   "relate": "前传",
-   "src": 100288,
-   "dst": 24103
-  },
-  {
-   "relate": "续集",
-   "src": 100290,
-   "dst": 24103
-  }
- ]
+  "id": "24103",
+  "node": [
+    {
+      "id": 24103,
+      "name": "センチメンタルグラフティ",
+      "nameCN": "青涩宝贝",
+      "date": "1998-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 100288,
+      "name": "センチメンタルグラフティ2",
+      "nameCN": "青涩之恋2",
+      "date": "2001-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 100290,
+      "name": "センチメンタルプレリュード",
+      "nameCN": "青涩前奏曲",
+      "date": "2004-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 24103,
+      "dst": 100288
+    },
+    {
+      "relateString": "前传",
+      "src": 24103,
+      "dst": 100290
+    },
+    {
+      "relateString": "前传",
+      "src": 100288,
+      "dst": 24103
+    },
+    {
+      "relateString": "续集",
+      "src": 100290,
+      "dst": 24103
+    }
+  ]
 }

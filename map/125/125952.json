@@ -1,37 +1,33 @@
 {
- "id": 125952,
- "node": [
-  {
-   "id": 125952,
-   "name": "ぴよぴよキングダム",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/4f/125952_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 125962,
-   "name": "ぴよぴよキングダム〈2〉ときのしおり",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/f1/125962_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125952,
-   "dst": 125962
-  },
-  {
-   "relate": "前传",
-   "src": 125962,
-   "dst": 125952
-  }
- ]
+  "id": "125952",
+  "node": [
+    {
+      "id": 125952,
+      "name": "ぴよぴよキングダム",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 125962,
+      "name": "ぴよぴよキングダム〈2〉ときのしおり",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125952,
+      "dst": 125962
+    },
+    {
+      "relateString": "前传",
+      "src": 125962,
+      "dst": 125952
+    }
+  ]
 }

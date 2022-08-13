@@ -1,37 +1,35 @@
 {
- "id": 8967,
- "node": [
-  {
-   "id": 8967,
-   "name": "俺と彼女と先生の話",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/a5/8967_jp.jpg",
-   "date": "2009-11-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 122541,
-   "name": "僕と彼女と先輩の話",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/e0/122541_jp.jpg",
-   "date": "2011-05-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8967,
-   "dst": 122541
-  },
-  {
-   "relate": "前传",
-   "src": 122541,
-   "dst": 8967
-  }
- ]
+  "id": "8967",
+  "node": [
+    {
+      "id": 8967,
+      "name": "俺と彼女と先生の話",
+      "nameCN": "",
+      "date": "2009-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 122541,
+      "name": "僕と彼女と先輩の話",
+      "nameCN": "",
+      "date": "2011-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8967,
+      "dst": 122541
+    },
+    {
+      "relateString": "前传",
+      "src": 122541,
+      "dst": 8967
+    }
+  ]
 }

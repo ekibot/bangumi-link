@@ -1,37 +1,35 @@
 {
- "id": 350903,
- "node": [
-  {
-   "id": 350903,
-   "name": "Heroes of the Pacific",
-   "nameCN": "太平洋英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/81/350903_e5XxM.jpg",
-   "date": "2005-09-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 350949,
-   "name": "Heroes Over Europe",
-   "nameCN": "欧洲空战英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/50/350949_zRjSM.jpg",
-   "date": "2009-09-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 350903,
-   "dst": 350949
-  },
-  {
-   "relate": "前传",
-   "src": 350949,
-   "dst": 350903
-  }
- ]
+  "id": "350903",
+  "node": [
+    {
+      "id": 350903,
+      "name": "Heroes of the Pacific",
+      "nameCN": "太平洋英雄",
+      "date": "2005-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350949,
+      "name": "Heroes Over Europe",
+      "nameCN": "欧洲空战英雄",
+      "date": "2009-09-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 350903,
+      "dst": 350949
+    },
+    {
+      "relateString": "前传",
+      "src": 350949,
+      "dst": 350903
+    }
+  ]
 }

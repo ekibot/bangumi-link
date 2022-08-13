@@ -1,57 +1,53 @@
 {
- "id": 38697,
- "node": [
-  {
-   "id": 38697,
-   "name": "童话之森",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/0e/38697_aWO8W.jpg",
-   "date": "2011-09-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 208812,
-   "name": "童话之心",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/a5/208812_7dz8d.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 260479,
-   "name": "童话之音",
-   "nameCN": "童话之音",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/02/260479_Us8vN.jpg",
-   "date": "2018-05-12",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 38697,
-   "dst": 208812
-  },
-  {
-   "relate": "前传",
-   "src": 208812,
-   "dst": 38697
-  },
-  {
-   "relate": "续集",
-   "src": 208812,
-   "dst": 260479
-  },
-  {
-   "relate": "前传",
-   "src": 260479,
-   "dst": 208812
-  }
- ]
+  "id": "38697",
+  "node": [
+    {
+      "id": 38697,
+      "name": "童话之森",
+      "nameCN": "",
+      "date": "2011-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 208812,
+      "name": "童话之心",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 260479,
+      "name": "童话之音",
+      "nameCN": "童话之音",
+      "date": "2018-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 38697,
+      "dst": 208812
+    },
+    {
+      "relateString": "前传",
+      "src": 208812,
+      "dst": 38697
+    },
+    {
+      "relateString": "续集",
+      "src": 208812,
+      "dst": 260479
+    },
+    {
+      "relateString": "前传",
+      "src": 260479,
+      "dst": 208812
+    }
+  ]
 }

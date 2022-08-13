@@ -1,37 +1,33 @@
 {
- "id": 30935,
- "node": [
-  {
-   "id": 30935,
-   "name": "闇の声",
-   "nameCN": "暗之声",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/fa/30935_6HLxN.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 52517,
-   "name": "新・闇の声 潰談",
-   "nameCN": "新·暗之声 溃谈",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/bb/52517_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30935,
-   "dst": 52517
-  },
-  {
-   "relate": "前传",
-   "src": 52517,
-   "dst": 30935
-  }
- ]
+  "id": "30935",
+  "node": [
+    {
+      "id": 30935,
+      "name": "闇の声",
+      "nameCN": "暗之声",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52517,
+      "name": "新・闇の声 潰談",
+      "nameCN": "新·暗之声 溃谈",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30935,
+      "dst": 52517
+    },
+    {
+      "relateString": "前传",
+      "src": 52517,
+      "dst": 30935
+    }
+  ]
 }

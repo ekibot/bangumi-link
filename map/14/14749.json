@@ -1,67 +1,64 @@
 {
- "id": 14749,
- "node": [
-  {
-   "id": 14749,
-   "name": "京騒戯画",
-   "nameCN": "京骚戏画",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/dd/14749_R0ZDJ.jpg",
-   "date": "2011-12-10",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 42342,
-   "name": "京騒戯画",
-   "nameCN": "京骚戏画",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/72/42342_qA7L1.jpg",
-   "date": "2012-08-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 79114,
-   "name": "京騒戯画",
-   "nameCN": "京骚戏画",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/a1/79114_FdvzV.jpg",
-   "date": "2013-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14749,
-   "dst": 42342
-  },
-  {
-   "relate": "不同演绎",
-   "src": 14749,
-   "dst": 79114
-  },
-  {
-   "relate": "前传",
-   "src": 42342,
-   "dst": 14749
-  },
-  {
-   "relate": "不同演绎",
-   "src": 42342,
-   "dst": 79114
-  },
-  {
-   "relate": "不同演绎",
-   "src": 79114,
-   "dst": 14749
-  },
-  {
-   "relate": "不同演绎",
-   "src": 79114,
-   "dst": 42342
-  }
- ]
+  "id": "14749",
+  "node": [
+    {
+      "id": 14749,
+      "name": "京騒戯画",
+      "nameCN": "京骚戏画",
+      "date": "2011-12-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 42342,
+      "name": "京騒戯画",
+      "nameCN": "京骚戏画",
+      "date": "2012-08-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 79114,
+      "name": "京騒戯画",
+      "nameCN": "京骚戏画",
+      "date": "2013-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14749,
+      "dst": 42342
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 14749,
+      "dst": 79114
+    },
+    {
+      "relateString": "前传",
+      "src": 42342,
+      "dst": 14749
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 42342,
+      "dst": 79114
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 79114,
+      "dst": 14749
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 79114,
+      "dst": 42342
+    }
+  ]
 }

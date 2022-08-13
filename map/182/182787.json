@@ -1,37 +1,35 @@
 {
- "id": 182787,
- "node": [
-  {
-   "id": 182787,
-   "name": "Human Resource Machine",
-   "nameCN": "人力资源机器",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/7e/182787_B3ZSh.jpg",
-   "date": "2015-10-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 258327,
-   "name": "7 Billion Humans",
-   "nameCN": "七十亿人",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/54/258327_q3ptT.jpg",
-   "date": "2018-08-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 182787,
-   "dst": 258327
-  },
-  {
-   "relate": "前传",
-   "src": 258327,
-   "dst": 182787
-  }
- ]
+  "id": "182787",
+  "node": [
+    {
+      "id": 182787,
+      "name": "Human Resource Machine",
+      "nameCN": "人力资源机器",
+      "date": "2015-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258327,
+      "name": "7 Billion Humans",
+      "nameCN": "七十亿人",
+      "date": "2018-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 182787,
+      "dst": 258327
+    },
+    {
+      "relateString": "前传",
+      "src": 258327,
+      "dst": 182787
+    }
+  ]
 }

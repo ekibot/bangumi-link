@@ -1,37 +1,35 @@
 {
- "id": 2628,
- "node": [
-  {
-   "id": 2628,
-   "name": "アイシテル〜海容〜",
-   "nameCN": "爱与宽恕",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/06/2628_HLxEj.jpg",
-   "date": "2009-04-15",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 119170,
-   "name": "アイシテル〜絆〜",
-   "nameCN": "爱与宽容～绊～",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/85/119170_36DCZ.jpg",
-   "date": "2011-09-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2628,
-   "dst": 119170
-  },
-  {
-   "relate": "前传",
-   "src": 119170,
-   "dst": 2628
-  }
- ]
+  "id": "2628",
+  "node": [
+    {
+      "id": 2628,
+      "name": "アイシテル〜海容〜",
+      "nameCN": "爱与宽恕",
+      "date": "2009-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 119170,
+      "name": "アイシテル〜絆〜",
+      "nameCN": "爱与宽容～绊～",
+      "date": "2011-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2628,
+      "dst": 119170
+    },
+    {
+      "relateString": "前传",
+      "src": 119170,
+      "dst": 2628
+    }
+  ]
 }

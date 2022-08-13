@@ -1,37 +1,35 @@
 {
- "id": 20705,
- "node": [
-  {
-   "id": 20705,
-   "name": "Gift ～ギフト～",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/4b/20705_R1Idu.jpg",
-   "date": "2005-05-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 22706,
-   "name": "Gift～にじいろストーリーズ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/15/22706_TW6tj.jpg",
-   "date": "2006-01-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20705,
-   "dst": 22706
-  },
-  {
-   "relate": "前传",
-   "src": 22706,
-   "dst": 20705
-  }
- ]
+  "id": "20705",
+  "node": [
+    {
+      "id": 20705,
+      "name": "Gift ～ギフト～",
+      "nameCN": "",
+      "date": "2005-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 22706,
+      "name": "Gift～にじいろストーリーズ～",
+      "nameCN": "",
+      "date": "2006-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20705,
+      "dst": 22706
+    },
+    {
+      "relateString": "前传",
+      "src": 22706,
+      "dst": 20705
+    }
+  ]
 }

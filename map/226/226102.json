@@ -1,37 +1,35 @@
 {
- "id": 226102,
- "node": [
-  {
-   "id": 226102,
-   "name": "不倫食堂",
-   "nameCN": "不伦食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/0c/226102_5SH1J.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 275274,
-   "name": "不倫食堂 第2期",
-   "nameCN": "不伦食堂 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/8d/275274_zg5Cd.jpg",
-   "date": "2019-07-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226102,
-   "dst": 275274
-  },
-  {
-   "relate": "前传",
-   "src": 275274,
-   "dst": 226102
-  }
- ]
+  "id": "226102",
+  "node": [
+    {
+      "id": 226102,
+      "name": "不倫食堂",
+      "nameCN": "不伦食堂",
+      "date": "2018-03-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 275274,
+      "name": "不倫食堂 第2期",
+      "nameCN": "不伦食堂 第二季",
+      "date": "2019-07-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226102,
+      "dst": 275274
+    },
+    {
+      "relateString": "前传",
+      "src": 275274,
+      "dst": 226102
+    }
+  ]
 }

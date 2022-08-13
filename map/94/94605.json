@@ -1,37 +1,33 @@
 {
- "id": 94605,
- "node": [
-  {
-   "id": 94605,
-   "name": "アウターゾーン",
-   "nameCN": "来自魔界",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/55/94605_BI1Ln.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 190524,
-   "name": "アウターゾーン リ:ビジテッド",
-   "nameCN": "来自魔界 再临",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/64/190524_BZKW6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 94605,
-   "dst": 190524
-  },
-  {
-   "relate": "前传",
-   "src": 190524,
-   "dst": 94605
-  }
- ]
+  "id": "94605",
+  "node": [
+    {
+      "id": 94605,
+      "name": "アウターゾーン",
+      "nameCN": "来自魔界",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 190524,
+      "name": "アウターゾーン リ:ビジテッド",
+      "nameCN": "来自魔界 再临",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 94605,
+      "dst": 190524
+    },
+    {
+      "relateString": "前传",
+      "src": 190524,
+      "dst": 94605
+    }
+  ]
 }

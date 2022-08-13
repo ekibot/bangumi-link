@@ -1,57 +1,53 @@
 {
- "id": 88561,
- "node": [
-  {
-   "id": 88561,
-   "name": "System Shock",
-   "nameCN": "网络奇兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/6d/88561_mI51P.jpg",
-   "date": "1994-09-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 88565,
-   "name": "System Shock 2",
-   "nameCN": "网络奇兵2",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/ab/88565_XZsgL.jpg",
-   "date": "1999-08-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 326167,
-   "name": "System Shock",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/0b/326167_bbQyX.jpg",
-   "date": null,
-   "nameCN": "网络奇兵：重制版",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88561,
-   "dst": 88565
-  },
-  {
-   "relate": "不同演绎",
-   "src": 88561,
-   "dst": 326167
-  },
-  {
-   "relate": "前传",
-   "src": 88565,
-   "dst": 88561
-  },
-  {
-   "relate": "不同演绎",
-   "src": 326167,
-   "dst": 88561
-  }
- ]
+  "id": "88561",
+  "node": [
+    {
+      "id": 88561,
+      "name": "System Shock",
+      "nameCN": "网络奇兵",
+      "date": "1994-09-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 88565,
+      "name": "System Shock 2",
+      "nameCN": "网络奇兵2",
+      "date": "1999-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326167,
+      "name": "System Shock",
+      "nameCN": "网络奇兵：重制版",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88561,
+      "dst": 88565
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 88561,
+      "dst": 326167
+    },
+    {
+      "relateString": "前传",
+      "src": 88565,
+      "dst": 88561
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 326167,
+      "dst": 88561
+    }
+  ]
 }

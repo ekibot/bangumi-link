@@ -1,77 +1,73 @@
 {
- "id": 10652,
- "node": [
-  {
-   "id": 10652,
-   "name": "クリミナルガールズ",
-   "nameCN": "罪恶少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/d1/10652_9eYIY.jpg",
-   "date": "2010-11-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 140129,
-   "name": "クリミナルガールズ2",
-   "nameCN": "罪恶少女2",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/04/140129_xN692.jpg",
-   "date": "2015-11-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 253954,
-   "name": "クリミナルガールズ INVITATION",
-   "nameCN": "罪恶少女 诱惑",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/2d/253954_LSkwF.jpg",
-   "date": "2013-11-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 311813,
-   "name": "クリミナルガールズX",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/36/311813_E08X4.jpg",
-   "date": "2020-10-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10652,
-   "dst": 140129
-  },
-  {
-   "relate": "不同演绎",
-   "src": 10652,
-   "dst": 253954
-  },
-  {
-   "relate": "前传",
-   "src": 140129,
-   "dst": 10652
-  },
-  {
-   "relate": "续集",
-   "src": 140129,
-   "dst": 311813
-  },
-  {
-   "relate": "不同演绎",
-   "src": 253954,
-   "dst": 10652
-  },
-  {
-   "relate": "前传",
-   "src": 311813,
-   "dst": 140129
-  }
- ]
+  "id": "10652",
+  "node": [
+    {
+      "id": 10652,
+      "name": "クリミナルガールズ",
+      "nameCN": "罪恶少女",
+      "date": "2010-11-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 140129,
+      "name": "クリミナルガールズ2",
+      "nameCN": "罪恶少女2",
+      "date": "2015-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 253954,
+      "name": "クリミナルガールズ INVITATION",
+      "nameCN": "罪恶少女 诱惑",
+      "date": "2013-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 311813,
+      "name": "クリミナルガールズX",
+      "nameCN": "",
+      "date": "2020-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10652,
+      "dst": 140129
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 10652,
+      "dst": 253954
+    },
+    {
+      "relateString": "前传",
+      "src": 140129,
+      "dst": 10652
+    },
+    {
+      "relateString": "续集",
+      "src": 140129,
+      "dst": 311813
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 253954,
+      "dst": 10652
+    },
+    {
+      "relateString": "前传",
+      "src": 311813,
+      "dst": 140129
+    }
+  ]
 }

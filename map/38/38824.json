@@ -1,0 +1,52 @@
+{
+  "id": "38824",
+  "node": [
+    {
+      "id": 38824,
+      "name": "新吼えろペン",
+      "nameCN": "新生 漫画狂战记",
+      "date": "2005-03-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 38838,
+      "name": "吼えろペン",
+      "nameCN": "新！漫画狂战记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 81798,
+      "name": "燃えよペン",
+      "nameCN": "元祖漫画狂战记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 38824,
+      "dst": 38838
+    },
+    {
+      "relateString": "续集",
+      "src": 38838,
+      "dst": 38824
+    },
+    {
+      "relateString": "前传",
+      "src": 38838,
+      "dst": 81798
+    },
+    {
+      "relateString": "续集",
+      "src": 81798,
+      "dst": 38838
+    }
+  ]
+}

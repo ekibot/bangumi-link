@@ -1,37 +1,35 @@
 {
- "id": 64048,
- "node": [
-  {
-   "id": 64048,
-   "name": "Alice in Wonderland",
-   "nameCN": "爱丽丝梦游仙境",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/b3/64048_qz3FR.jpg",
-   "date": "1951-07-28",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 195914,
-   "name": "ふしぎの国のアリス",
-   "nameCN": "爱丽思梦游记",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/7d/195914_oYad7.jpg",
-   "date": "1983-10-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 64048,
-   "dst": 195914
-  },
-  {
-   "relate": "不同演绎",
-   "src": 195914,
-   "dst": 64048
-  }
- ]
+  "id": "64048",
+  "node": [
+    {
+      "id": 64048,
+      "name": "Alice in Wonderland",
+      "nameCN": "爱丽丝梦游仙境",
+      "date": "1951-07-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 195914,
+      "name": "ふしぎの国のアリス",
+      "nameCN": "爱丽思梦游记",
+      "date": "1983-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 64048,
+      "dst": 195914
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 195914,
+      "dst": 64048
+    }
+  ]
 }

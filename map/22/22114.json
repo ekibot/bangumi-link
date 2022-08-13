@@ -1,31 +1,35 @@
 {
- "id": 22114,
- "node": [
-  {
-   "id": 22114,
-   "name": "黒の断章 -THE LITERARY FRAGMENT-",
-   "nameCN": "黑之断章",
-   "image": "/img/no_icon_subject.png",
-   "date": "1995-07-14"
-  },
-  {
-   "id": 22115,
-   "name": "Esの方程式",
-   "nameCN": "Es的方程式",
-   "image": "/img/no_icon_subject.png",
-   "date": "1996-05-24"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22114,
-   "dst": 22115
-  },
-  {
-   "relate": "前传",
-   "src": 22115,
-   "dst": 22114
-  }
- ]
+  "id": "22114",
+  "node": [
+    {
+      "id": 22114,
+      "name": "黒の断章 -THE LITERARY FRAGMENT-",
+      "nameCN": "黑之断章",
+      "date": "1995-07-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 22115,
+      "name": "Esの方程式",
+      "nameCN": "Es的方程式",
+      "date": "1996-05-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22114,
+      "dst": 22115
+    },
+    {
+      "relateString": "前传",
+      "src": 22115,
+      "dst": 22114
+    }
+  ]
 }

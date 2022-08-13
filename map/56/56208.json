@@ -1,37 +1,34 @@
 {
- "id": 56208,
- "node": [
-  {
-   "id": 56208,
-   "name": "フダンシズム-腐男子主義-",
-   "nameCN": "腐男子主义",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/47/56208_Eq3r7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56209,
-   "name": "フダンシフル!",
-   "nameCN": "腐男子主义 高校篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/93/56209_0feli.jpg",
-   "date": "2011-05-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56208,
-   "dst": 56209
-  },
-  {
-   "relate": "前传",
-   "src": 56209,
-   "dst": 56208
-  }
- ]
+  "id": "56208",
+  "node": [
+    {
+      "id": 56208,
+      "name": "フダンシズム-腐男子主義-",
+      "nameCN": "腐男子主义",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56209,
+      "name": "フダンシフル!",
+      "nameCN": "腐男子主义 高校篇",
+      "date": "2011-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56208,
+      "dst": 56209
+    },
+    {
+      "relateString": "前传",
+      "src": 56209,
+      "dst": 56208
+    }
+  ]
 }

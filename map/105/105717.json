@@ -1,37 +1,35 @@
 {
- "id": 105717,
- "node": [
-  {
-   "id": 105717,
-   "name": "Cigars of the Pharoah (The Adventures of Tintin)",
-   "nameCN": "法老的雪茄",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/d6/105717_us.jpg",
-   "date": "1975-04-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 105718,
-   "name": "The Blue Lotus (The Adventures of Tintin)",
-   "nameCN": "蓝莲花",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/35/105718_us.jpg",
-   "date": "1984-07-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105717,
-   "dst": 105718
-  },
-  {
-   "relate": "前传",
-   "src": 105718,
-   "dst": 105717
-  }
- ]
+  "id": "105717",
+  "node": [
+    {
+      "id": 105717,
+      "name": "Cigars of the Pharoah (The Adventures of Tintin)",
+      "nameCN": "法老的雪茄",
+      "date": "1975-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 105718,
+      "name": "The Blue Lotus (The Adventures of Tintin)",
+      "nameCN": "蓝莲花",
+      "date": "1984-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105717,
+      "dst": 105718
+    },
+    {
+      "relateString": "前传",
+      "src": 105718,
+      "dst": 105717
+    }
+  ]
 }

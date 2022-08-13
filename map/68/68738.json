@@ -1,37 +1,35 @@
 {
- "id": 68738,
- "node": [
-  {
-   "id": 68738,
-   "name": "グリム名作劇場",
-   "nameCN": "格林童话剧场",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/50/68738_WOm7w.jpg",
-   "date": "1987-10-21",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 81531,
-   "name": "新グリム名作劇場",
-   "nameCN": "新格林名作剧场",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/95/81531_4A4J6.jpg",
-   "date": "1988-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68738,
-   "dst": 81531
-  },
-  {
-   "relate": "前传",
-   "src": 81531,
-   "dst": 68738
-  }
- ]
+  "id": "68738",
+  "node": [
+    {
+      "id": 68738,
+      "name": "グリム名作劇場",
+      "nameCN": "格林童话剧场",
+      "date": "1987-10-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 81531,
+      "name": "新グリム名作劇場",
+      "nameCN": "新格林名作剧场",
+      "date": "1988-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68738,
+      "dst": 81531
+    },
+    {
+      "relateString": "前传",
+      "src": 81531,
+      "dst": 68738
+    }
+  ]
 }

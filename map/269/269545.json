@@ -1,57 +1,54 @@
 {
- "id": 269545,
- "node": [
-  {
-   "id": 269545,
-   "name": "百妖谱",
-   "nameCN": "百妖谱",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/72/269545_SB48G.jpg",
-   "date": "2020-04-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 320215,
-   "name": "百妖谱 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/1d/320215_4AizA.jpg",
-   "date": "2021-07-18",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 350795,
-   "name": "百妖谱·京师篇",
-   "date": "2022-07-25",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/63/350795_c9SrC.jpg",
-   "nameCN": "百妖谱 第三季",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269545,
-   "dst": 320215
-  },
-  {
-   "relate": "前传",
-   "src": 320215,
-   "dst": 269545
-  },
-  {
-   "relate": "续集",
-   "src": 320215,
-   "dst": 350795
-  },
-  {
-   "relate": "前传",
-   "src": 350795,
-   "dst": 320215
-  }
- ]
+  "id": "269545",
+  "node": [
+    {
+      "id": 269545,
+      "name": "百妖谱",
+      "nameCN": "百妖谱",
+      "date": "2020-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320215,
+      "name": "百妖谱 第二季",
+      "nameCN": "",
+      "date": "2021-07-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 350795,
+      "name": "百妖谱·京师篇",
+      "nameCN": "百妖谱 第三季",
+      "date": "2022-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269545,
+      "dst": 320215
+    },
+    {
+      "relateString": "前传",
+      "src": 320215,
+      "dst": 269545
+    },
+    {
+      "relateString": "续集",
+      "src": 320215,
+      "dst": 350795
+    },
+    {
+      "relateString": "前传",
+      "src": 350795,
+      "dst": 320215
+    }
+  ]
 }

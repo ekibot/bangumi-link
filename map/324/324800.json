@@ -1,0 +1,63 @@
+{
+  "id": "324800",
+  "node": [
+    {
+      "id": 324800,
+      "name": "스캔들",
+      "nameCN": "Scandal",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 355244,
+      "name": "찌라시 시즌1",
+      "nameCN": "丑闻",
+      "date": "2014-11-01",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 355245,
+      "name": "찌라시2:업그레이드",
+      "nameCN": "丑闻 第二季",
+      "date": "2015-08-11",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 324800,
+      "dst": 355244
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 324800,
+      "dst": 355245
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 355244,
+      "dst": 324800
+    },
+    {
+      "relateString": "前传",
+      "src": 355244,
+      "dst": 355245
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 355245,
+      "dst": 324800
+    },
+    {
+      "relateString": "续集",
+      "src": 355245,
+      "dst": 355244
+    }
+  ]
+}

@@ -1,37 +1,33 @@
 {
- "id": 115471,
- "node": [
-  {
-   "id": 115471,
-   "name": "i saw her standing there",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/3a/115471_RnnCN.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 121437,
-   "name": "i saw her too, with lasers",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/9d/121437_4u7Er.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 115471,
-   "dst": 121437
-  },
-  {
-   "relate": "前传",
-   "src": 121437,
-   "dst": 115471
-  }
- ]
+  "id": "115471",
+  "node": [
+    {
+      "id": 115471,
+      "name": "i saw her standing there",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 121437,
+      "name": "i saw her too, with lasers",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 115471,
+      "dst": 121437
+    },
+    {
+      "relateString": "前传",
+      "src": 121437,
+      "dst": 115471
+    }
+  ]
 }

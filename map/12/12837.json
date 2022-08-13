@@ -1,37 +1,35 @@
 {
- "id": 12837,
- "node": [
-  {
-   "id": 12837,
-   "name": "Archer MacLean's Mercury",
-   "nameCN": "水银",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/b1/12837_1cO2r.jpg",
-   "date": "2005-04-06",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 16815,
-   "name": "Mercury Meltdown",
-   "nameCN": "水银:融化",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/9e/16815_181XX.jpg",
-   "date": "2006-08-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12837,
-   "dst": 16815
-  },
-  {
-   "relate": "前传",
-   "src": 16815,
-   "dst": 12837
-  }
- ]
+  "id": "12837",
+  "node": [
+    {
+      "id": 12837,
+      "name": "Archer MacLean's Mercury",
+      "nameCN": "水银",
+      "date": "2005-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 16815,
+      "name": "Mercury Meltdown",
+      "nameCN": "水银:融化",
+      "date": "2006-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12837,
+      "dst": 16815
+    },
+    {
+      "relateString": "前传",
+      "src": 16815,
+      "dst": 12837
+    }
+  ]
 }

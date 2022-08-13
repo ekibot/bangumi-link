@@ -1,87 +1,83 @@
 {
- "id": 979,
- "node": [
-  {
-   "id": 979,
-   "name": "BLACK LAGOON",
-   "nameCN": "黑礁",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/2d/979_Pw5W0.jpg",
-   "date": "2006-04-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 980,
-   "name": "BLACK LAGOON The Second Barrage",
-   "nameCN": "黑礁 The Second Barrage",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/9a/980_b715Q.jpg",
-   "date": "2006-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 6985,
-   "name": "BLACK LAGOON Roberta’s Blood Trail",
-   "nameCN": "黑礁 Roberta’s Blood Trail",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/9e/6985_RLiBN.jpg",
-   "date": "2010-07-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 64276,
-   "name": "BLACK LAGOON 映像特典",
-   "nameCN": "黑礁 特典小剧场",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/82/64276_1M8WL.jpg",
-   "date": "2009-12-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 979,
-   "dst": 980
-  },
-  {
-   "relate": "衍生",
-   "src": 979,
-   "dst": 64276
-  },
-  {
-   "relate": "前传",
-   "src": 980,
-   "dst": 979
-  },
-  {
-   "relate": "续集",
-   "src": 980,
-   "dst": 6985
-  },
-  {
-   "relate": "衍生",
-   "src": 980,
-   "dst": 64276
-  },
-  {
-   "relate": "前传",
-   "src": 6985,
-   "dst": 980
-  },
-  {
-   "relate": "主线故事",
-   "src": 64276,
-   "dst": 979
-  },
-  {
-   "relate": "主线故事",
-   "src": 64276,
-   "dst": 980
-  }
- ]
+  "id": "979",
+  "node": [
+    {
+      "id": 979,
+      "name": "BLACK LAGOON",
+      "nameCN": "黑礁",
+      "date": "2006-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 980,
+      "name": "BLACK LAGOON The Second Barrage",
+      "nameCN": "黑礁 The Second Barrage",
+      "date": "2006-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 64276,
+      "name": "BLACK LAGOON 映像特典",
+      "nameCN": "黑礁 特典小剧场",
+      "date": "2009-12-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 6985,
+      "name": "BLACK LAGOON Roberta’s Blood Trail",
+      "nameCN": "黑礁 Roberta’s Blood Trail",
+      "date": "2010-07-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 979,
+      "dst": 980
+    },
+    {
+      "relateString": "衍生",
+      "src": 979,
+      "dst": 64276
+    },
+    {
+      "relateString": "前传",
+      "src": 980,
+      "dst": 979
+    },
+    {
+      "relateString": "续集",
+      "src": 980,
+      "dst": 6985
+    },
+    {
+      "relateString": "衍生",
+      "src": 980,
+      "dst": 64276
+    },
+    {
+      "relateString": "前传",
+      "src": 6985,
+      "dst": 980
+    },
+    {
+      "relateString": "主线故事",
+      "src": 64276,
+      "dst": 979
+    },
+    {
+      "relateString": "主线故事",
+      "src": 64276,
+      "dst": 980
+    }
+  ]
 }

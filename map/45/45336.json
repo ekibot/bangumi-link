@@ -1,84 +1,83 @@
 {
- "id": 45336,
- "node": [
-  {
-   "id": 45336,
-   "name": "Gravity Falls Season 1",
-   "nameCN": "怪诞小镇 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/34/45336_VgOVf.jpg",
-   "date": "2012-06-16",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 110148,
-   "name": "Gravity Falls Season 2",
-   "nameCN": "怪诞小镇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/63/110148_O9I5E.jpg",
-   "date": "2014-08-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 119892,
-   "name": "Gravity Falls Shorts",
-   "nameCN": "怪诞小镇短篇集",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/27/119892_Plv85.jpg",
-   "date": "2013-10-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 315596,
-   "name": "Gravity Falls: Lost Legends",
-   "nameCN": "怪诞小镇：失落的传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/6f/315596_weXcy.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 45336,
-   "dst": 110148
-  },
-  {
-   "relate": "衍生",
-   "src": 45336,
-   "dst": 119892
-  },
-  {
-   "relate": "番外篇",
-   "src": 45336,
-   "dst": 315596
-  },
-  {
-   "relate": "前传",
-   "src": 110148,
-   "dst": 45336
-  },
-  {
-   "relate": "衍生",
-   "src": 110148,
-   "dst": 119892
-  },
-  {
-   "relate": "番外篇",
-   "src": 110148,
-   "dst": 315596
-  },
-  {
-   "relate": "主线故事",
-   "src": 119892,
-   "dst": 45336
-  },
-  {
-   "relate": "主线故事",
-   "src": 119892,
-   "dst": 110148
-  }
- ]
+  "id": "45336",
+  "node": [
+    {
+      "id": 45336,
+      "name": "Gravity Falls Season 1",
+      "nameCN": "怪诞小镇 第一季",
+      "date": "2012-06-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 110148,
+      "name": "Gravity Falls Season 2",
+      "nameCN": "怪诞小镇 第二季",
+      "date": "2014-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 119892,
+      "name": "Gravity Falls Shorts",
+      "nameCN": "怪诞小镇短篇集",
+      "date": "2013-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 315596,
+      "name": "Gravity Falls: Lost Legends",
+      "nameCN": "怪诞小镇：失落的传说",
+      "date": "2018-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 45336,
+      "dst": 110148
+    },
+    {
+      "relateString": "衍生",
+      "src": 45336,
+      "dst": 119892
+    },
+    {
+      "relateString": "番外篇",
+      "src": 45336,
+      "dst": 315596
+    },
+    {
+      "relateString": "前传",
+      "src": 110148,
+      "dst": 45336
+    },
+    {
+      "relateString": "衍生",
+      "src": 110148,
+      "dst": 119892
+    },
+    {
+      "relateString": "番外篇",
+      "src": 110148,
+      "dst": 315596
+    },
+    {
+      "relateString": "主线故事",
+      "src": 119892,
+      "dst": 45336
+    },
+    {
+      "relateString": "主线故事",
+      "src": 119892,
+      "dst": 110148
+    }
+  ]
 }

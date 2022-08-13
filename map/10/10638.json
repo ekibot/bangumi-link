@@ -1,137 +1,131 @@
 {
- "id": 10638,
- "node": [
-  {
-   "id": 10638,
-   "name": "HERO",
-   "nameCN": "律政英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/d3/10638_q7jFe.jpg",
-   "date": "2001-01-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 106085,
-   "name": "HERO 2",
-   "nameCN": "律政英雄2",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/f1/106085_fbYXa.jpg",
-   "date": "2014-07-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 107808,
-   "name": "HERO SP 今夜復活!!美しい海の町の怪事件に伝説の検事が挑む",
-   "nameCN": "律政英雄 特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/c6/107808_MPqnf.jpg",
-   "date": "2006-07-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 107809,
-   "name": "HERO 剧场版",
-   "nameCN": "律政英雄 电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/7e/107809_Awu5F.jpg",
-   "date": "2007-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 111273,
-   "name": "HORE",
-   "nameCN": "律政英雄2 外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/bb/111273_814oO.jpg",
-   "date": "2014-08-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 120376,
-   "name": "映画 HERO",
-   "nameCN": "律政英雄 新电影版",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/94/120376_xPr0S.jpg",
-   "date": "2015-07-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10638,
-   "dst": 106085
-  },
-  {
-   "relate": "番外篇",
-   "src": 10638,
-   "dst": 107808
-  },
-  {
-   "relate": "番外篇",
-   "src": 10638,
-   "dst": 107809
-  },
-  {
-   "relate": "不同演绎",
-   "src": 10638,
-   "dst": 120376
-  },
-  {
-   "relate": "前传",
-   "src": 106085,
-   "dst": 10638
-  },
-  {
-   "relate": "番外篇",
-   "src": 106085,
-   "dst": 111273
-  },
-  {
-   "relate": "不同演绎",
-   "src": 106085,
-   "dst": 120376
-  },
-  {
-   "relate": "番外篇",
-   "src": 107808,
-   "dst": 10638
-  },
-  {
-   "relate": "番外篇",
-   "src": 107809,
-   "dst": 10638
-  },
-  {
-   "relate": "不同演绎",
-   "src": 107809,
-   "dst": 120376
-  },
-  {
-   "relate": "主线故事",
-   "src": 111273,
-   "dst": 106085
-  },
-  {
-   "relate": "不同演绎",
-   "src": 120376,
-   "dst": 10638
-  },
-  {
-   "relate": "不同演绎",
-   "src": 120376,
-   "dst": 106085
-  },
-  {
-   "relate": "不同演绎",
-   "src": 120376,
-   "dst": 107809
-  }
- ]
+  "id": "10638",
+  "node": [
+    {
+      "id": 10638,
+      "name": "HERO",
+      "nameCN": "律政英雄",
+      "date": "2001-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 106085,
+      "name": "HERO 2",
+      "nameCN": "律政英雄2",
+      "date": "2014-07-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 107808,
+      "name": "HERO SP 今夜復活!!美しい海の町の怪事件に伝説の検事が挑む",
+      "nameCN": "律政英雄 特别篇",
+      "date": "2006-07-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 107809,
+      "name": "HERO 剧场版",
+      "nameCN": "律政英雄 电影",
+      "date": "2007-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 120376,
+      "name": "映画 HERO",
+      "nameCN": "律政英雄 新电影版",
+      "date": "2015-07-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 111273,
+      "name": "HORE",
+      "nameCN": "律政英雄2 外传",
+      "date": "2014-08-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10638,
+      "dst": 106085
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10638,
+      "dst": 107808
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10638,
+      "dst": 107809
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 10638,
+      "dst": 120376
+    },
+    {
+      "relateString": "前传",
+      "src": 106085,
+      "dst": 10638
+    },
+    {
+      "relateString": "番外篇",
+      "src": 106085,
+      "dst": 111273
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 106085,
+      "dst": 120376
+    },
+    {
+      "relateString": "番外篇",
+      "src": 107808,
+      "dst": 10638
+    },
+    {
+      "relateString": "番外篇",
+      "src": 107809,
+      "dst": 10638
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 107809,
+      "dst": 120376
+    },
+    {
+      "relateString": "主线故事",
+      "src": 111273,
+      "dst": 106085
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 120376,
+      "dst": 10638
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 120376,
+      "dst": 106085
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 120376,
+      "dst": 107809
+    }
+  ]
 }

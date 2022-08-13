@@ -1,97 +1,91 @@
 {
- "id": 137892,
- "node": [
-  {
-   "id": 137892,
-   "name": "The Secret Life of Pets",
-   "nameCN": "爱宠大机密",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/75/137892_NcsZB.jpg",
-   "date": "2016-07-08",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 273564,
-   "name": "Mower Minions",
-   "nameCN": "修剪草坪的小黄人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/c9/273564_Q4Utw.jpg",
-   "date": "2016-07-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 285724,
-   "name": "The Secret Life of Pets 2",
-   "nameCN": "爱宠大机密2",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/9d/285724_68AO8.jpg",
-   "date": "2019-06-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 286156,
-   "name": "Norman Television",
-   "nameCN": "诺尔曼电视台",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/8d/286156_JaaFw.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 300020,
-   "name": "Minion Scouts",
-   "nameCN": "小黄人童子军",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/f4/300020_S5zAT.jpg",
-   "date": "2019-08-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 137892,
-   "dst": 273564
-  },
-  {
-   "relate": "续集",
-   "src": 137892,
-   "dst": 285724
-  },
-  {
-   "relate": "番外篇",
-   "src": 137892,
-   "dst": 286156
-  },
-  {
-   "relate": "主线故事",
-   "src": 273564,
-   "dst": 137892
-  },
-  {
-   "relate": "前传",
-   "src": 285724,
-   "dst": 137892
-  },
-  {
-   "relate": "衍生",
-   "src": 285724,
-   "dst": 300020
-  },
-  {
-   "relate": "主线故事",
-   "src": 286156,
-   "dst": 137892
-  },
-  {
-   "relate": "主线故事",
-   "src": 300020,
-   "dst": 285724
-  }
- ]
+  "id": "137892",
+  "node": [
+    {
+      "id": 137892,
+      "name": "The Secret Life of Pets",
+      "nameCN": "爱宠大机密",
+      "date": "2016-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 273564,
+      "name": "Mower Minions",
+      "nameCN": "修剪草坪的小黄人",
+      "date": "2016-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 285724,
+      "name": "The Secret Life of Pets 2",
+      "nameCN": "爱宠大机密2",
+      "date": "2019-06-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 286156,
+      "name": "Norman Television",
+      "nameCN": "诺尔曼电视台",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 300020,
+      "name": "Minion Scouts",
+      "nameCN": "小黄人童子军",
+      "date": "2019-08-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 137892,
+      "dst": 273564
+    },
+    {
+      "relateString": "续集",
+      "src": 137892,
+      "dst": 285724
+    },
+    {
+      "relateString": "番外篇",
+      "src": 137892,
+      "dst": 286156
+    },
+    {
+      "relateString": "主线故事",
+      "src": 273564,
+      "dst": 137892
+    },
+    {
+      "relateString": "前传",
+      "src": 285724,
+      "dst": 137892
+    },
+    {
+      "relateString": "衍生",
+      "src": 285724,
+      "dst": 300020
+    },
+    {
+      "relateString": "主线故事",
+      "src": 286156,
+      "dst": 137892
+    },
+    {
+      "relateString": "主线故事",
+      "src": 300020,
+      "dst": 285724
+    }
+  ]
 }

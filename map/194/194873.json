@@ -1,37 +1,34 @@
 {
- "id": 194873,
- "node": [
-  {
-   "id": 194873,
-   "name": "あたしのライオン",
-   "nameCN": "学生老公",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/7c/194873_heKQ6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 203511,
-   "name": "Myダーリン・ライオン",
-   "nameCN": "我的亲爱老公",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/58/203511_zlxah.jpg",
-   "date": "1997-10-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194873,
-   "dst": 203511
-  },
-  {
-   "relate": "前传",
-   "src": 203511,
-   "dst": 194873
-  }
- ]
+  "id": "194873",
+  "node": [
+    {
+      "id": 194873,
+      "name": "あたしのライオン",
+      "nameCN": "学生老公",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 203511,
+      "name": "Myダーリン・ライオン",
+      "nameCN": "我的亲爱老公",
+      "date": "1997-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194873,
+      "dst": 203511
+    },
+    {
+      "relateString": "前传",
+      "src": 203511,
+      "dst": 194873
+    }
+  ]
 }

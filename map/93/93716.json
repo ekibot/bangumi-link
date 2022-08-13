@@ -1,37 +1,35 @@
 {
- "id": 93716,
- "node": [
-  {
-   "id": 93716,
-   "name": "劇場版 ゆうとくんがいく",
-   "nameCN": "剧场版 GOGO佑都",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/50/93716_7OVbc.jpg",
-   "date": "2014-05-31",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 93717,
-   "name": "ゆうとくんがいく",
-   "nameCN": "GOGO佑都",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/57/93717_pVYYj.jpg",
-   "date": "2013-06-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 93716,
-   "dst": 93717
-  },
-  {
-   "relate": "衍生",
-   "src": 93717,
-   "dst": 93716
-  }
- ]
+  "id": "93716",
+  "node": [
+    {
+      "id": 93716,
+      "name": "劇場版 ゆうとくんがいく",
+      "nameCN": "剧场版 GOGO佑都",
+      "date": "2014-05-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 93717,
+      "name": "ゆうとくんがいく",
+      "nameCN": "GOGO佑都",
+      "date": "2013-06-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 93716,
+      "dst": 93717
+    },
+    {
+      "relateString": "衍生",
+      "src": 93717,
+      "dst": 93716
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 224249,
- "node": [
-  {
-   "id": 224249,
-   "name": "WoRKs DoLL",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/d8/224249_4rKXO.jpg",
-   "date": "1999-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 227361,
-   "name": "ReNN",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/74/227361_OMhZm.jpg",
-   "date": "2001-11-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224249,
-   "dst": 227361
-  },
-  {
-   "relate": "前传",
-   "src": 227361,
-   "dst": 224249
-  }
- ]
+  "id": "224249",
+  "node": [
+    {
+      "id": 224249,
+      "name": "WoRKs DoLL",
+      "nameCN": "",
+      "date": "1999-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227361,
+      "name": "ReNN",
+      "nameCN": "",
+      "date": "2001-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224249,
+      "dst": 227361
+    },
+    {
+      "relateString": "前传",
+      "src": 227361,
+      "dst": 224249
+    }
+  ]
 }

@@ -1,23 +1,35 @@
 {
- "id": 267433,
- "node": [
-  {
-   "id": 267433,
-   "name": "アママネ",
-   "nameCN": "",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 308966,
-   "name": "アママネ2",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 267433,
-   "dst": 308966
-  }
- ]
+  "id": "267433",
+  "node": [
+    {
+      "id": 267433,
+      "name": "アママネ",
+      "nameCN": "",
+      "date": "2019-02-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308966,
+      "name": "アママネ2",
+      "nameCN": "",
+      "date": "2020-09-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 267433,
+      "dst": 308966
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 308966,
+      "dst": 267433
+    }
+  ]
 }

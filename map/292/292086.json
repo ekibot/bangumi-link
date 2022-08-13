@@ -1,34 +1,35 @@
 {
- "id": 292086,
- "node": [
-  {
-   "id": 292086,
-   "name": "ナビキノカジツ～Sadistic Medicine PLUS～",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/39/292086_5e3Ii.jpg",
-   "date": "2000-12-08",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 318507,
-   "name": "SADISTIC MEDICINE",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/0d/318507_y6pEe.jpg",
-   "date": "1998-02-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 292086,
-   "dst": 318507
-  },
-  {
-   "relate": "不同演绎",
-   "src": 318507,
-   "dst": 292086
-  }
- ]
+  "id": "292086",
+  "node": [
+    {
+      "id": 292086,
+      "name": "ナビキノカジツ～Sadistic Medicine PLUS～",
+      "nameCN": "",
+      "date": "2000-12-08",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 318507,
+      "name": "SADISTIC MEDICINE",
+      "nameCN": "",
+      "date": "1998-02-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 292086,
+      "dst": 318507
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 318507,
+      "dst": 292086
+    }
+  ]
 }

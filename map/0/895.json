@@ -1,77 +1,73 @@
 {
- "id": 895,
- "node": [
-  {
-   "id": 895,
-   "name": "今日から㋮王!",
-   "nameCN": "今天开始做魔王",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/ae/895_H4G2V.jpg",
-   "date": "2004-04-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 897,
-   "name": "今日から㋮王! 第2章",
-   "nameCN": "今天开始做魔王 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/05/897_2M14K.jpg",
-   "date": "2005-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 14731,
-   "name": "今日から㋮王! 第3章",
-   "nameCN": "今天开始做魔王 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/ff/14731_7Gh3M.jpg",
-   "date": "2008-04-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 14871,
-   "name": "今日から㋮王! R",
-   "nameCN": "今天开始做魔王 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/e7/14871_eZ5e5.jpg",
-   "date": "2007-10-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 895,
-   "dst": 897
-  },
-  {
-   "relate": "前传",
-   "src": 897,
-   "dst": 895
-  },
-  {
-   "relate": "续集",
-   "src": 897,
-   "dst": 14871
-  },
-  {
-   "relate": "前传",
-   "src": 14731,
-   "dst": 14871
-  },
-  {
-   "relate": "前传",
-   "src": 14871,
-   "dst": 897
-  },
-  {
-   "relate": "续集",
-   "src": 14871,
-   "dst": 14731
-  }
- ]
+  "id": "895",
+  "node": [
+    {
+      "id": 895,
+      "name": "今日から㋮王!",
+      "nameCN": "今天开始做魔王",
+      "date": "2004-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 897,
+      "name": "今日から㋮王! 第2章",
+      "nameCN": "今天开始做魔王 第二季",
+      "date": "2005-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 14871,
+      "name": "今日から㋮王! R",
+      "nameCN": "今天开始做魔王 OVA",
+      "date": "2007-10-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 14731,
+      "name": "今日から㋮王! 第3章",
+      "nameCN": "今天开始做魔王 第三季",
+      "date": "2008-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 895,
+      "dst": 897
+    },
+    {
+      "relateString": "前传",
+      "src": 897,
+      "dst": 895
+    },
+    {
+      "relateString": "续集",
+      "src": 897,
+      "dst": 14871
+    },
+    {
+      "relateString": "前传",
+      "src": 14731,
+      "dst": 14871
+    },
+    {
+      "relateString": "前传",
+      "src": 14871,
+      "dst": 897
+    },
+    {
+      "relateString": "续集",
+      "src": 14871,
+      "dst": 14731
+    }
+  ]
 }

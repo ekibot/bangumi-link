@@ -1,0 +1,64 @@
+{
+  "id": "2520",
+  "node": [
+    {
+      "id": 2520,
+      "name": "33分探偵",
+      "nameCN": "33分钟侦探",
+      "date": "2008-08-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 2521,
+      "name": "帰ってくるのか!? 33分探偵",
+      "nameCN": "归来否？33分侦探",
+      "date": "2009-03-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 2522,
+      "name": "帰ってこさせられた33分探偵",
+      "nameCN": "被迫归来的33分侦探",
+      "date": "2009-03-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2520,
+      "dst": 2521
+    },
+    {
+      "relateString": "续集",
+      "src": 2520,
+      "dst": 2522
+    },
+    {
+      "relateString": "前传",
+      "src": 2521,
+      "dst": 2520
+    },
+    {
+      "relateString": "续集",
+      "src": 2521,
+      "dst": 2522
+    },
+    {
+      "relateString": "前传",
+      "src": 2522,
+      "dst": 2520
+    },
+    {
+      "relateString": "前传",
+      "src": 2522,
+      "dst": 2521
+    }
+  ]
+}

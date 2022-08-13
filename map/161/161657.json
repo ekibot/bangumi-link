@@ -1,37 +1,35 @@
 {
- "id": 161657,
- "node": [
-  {
-   "id": 161657,
-   "name": "Master of None",
-   "nameCN": "无为大师",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/8a/161657_LqU09.jpg",
-   "date": "2015-11-06",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 216737,
-   "name": "Master of None Season 2",
-   "nameCN": "无为大师 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/3b/216737_gl7yG.jpg",
-   "date": "2017-05-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161657,
-   "dst": 216737
-  },
-  {
-   "relate": "前传",
-   "src": 216737,
-   "dst": 161657
-  }
- ]
+  "id": "161657",
+  "node": [
+    {
+      "id": 161657,
+      "name": "Master of None",
+      "nameCN": "无为大师",
+      "date": "2015-11-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 216737,
+      "name": "Master of None Season 2",
+      "nameCN": "无为大师 第二季",
+      "date": "2017-05-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161657,
+      "dst": 216737
+    },
+    {
+      "relateString": "前传",
+      "src": 216737,
+      "dst": 161657
+    }
+  ]
 }

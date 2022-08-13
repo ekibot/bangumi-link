@@ -1,37 +1,35 @@
 {
- "id": 269422,
- "node": [
-  {
-   "id": 269422,
-   "name": "アニメぷそ煮コミ",
-   "nameCN": "动画乱炖",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/46/269422_3hhC9.jpg",
-   "date": "2019-01-07",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 303799,
-   "name": "アニメぷそ煮コミおかわり",
-   "nameCN": "动画乱炖 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/f5/303799_xnWzq.jpg",
-   "date": "2020-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269422,
-   "dst": 303799
-  },
-  {
-   "relate": "前传",
-   "src": 303799,
-   "dst": 269422
-  }
- ]
+  "id": "269422",
+  "node": [
+    {
+      "id": 269422,
+      "name": "アニメぷそ煮コミ",
+      "nameCN": "动画乱炖",
+      "date": "2019-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 303799,
+      "name": "アニメぷそ煮コミおかわり",
+      "nameCN": "动画乱炖 第二季",
+      "date": "2020-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269422,
+      "dst": 303799
+    },
+    {
+      "relateString": "前传",
+      "src": 303799,
+      "dst": 269422
+    }
+  ]
 }

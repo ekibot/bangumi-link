@@ -1,0 +1,73 @@
+{
+  "id": "7933",
+  "node": [
+    {
+      "id": 7933,
+      "name": "ぼくのぴこ",
+      "nameCN": "我的Pico",
+      "date": "2006-09-07",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 10995,
+      "name": "ぼくのぴこ 2",
+      "nameCN": "我的Pico2",
+      "date": "2007-04-19",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 25577,
+      "name": "pico～ぼくの小さな夏物語～",
+      "nameCN": "女装正太 PICO～我的夏季小物语",
+      "date": "2007-11-08",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 7962,
+      "name": "ぼくのぴこ 3",
+      "nameCN": "我的Pico3",
+      "date": "2008-10-09",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7933,
+      "dst": 10995
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 7933,
+      "dst": 25577
+    },
+    {
+      "relateString": "前传",
+      "src": 7962,
+      "dst": 10995
+    },
+    {
+      "relateString": "前传",
+      "src": 10995,
+      "dst": 7933
+    },
+    {
+      "relateString": "续集",
+      "src": 10995,
+      "dst": 7962
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 25577,
+      "dst": 7933
+    }
+  ]
+}

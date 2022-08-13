@@ -1,37 +1,34 @@
 {
- "id": 111885,
- "node": [
-  {
-   "id": 111885,
-   "name": "さよなら、うつつ。",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/0a/111885_iNtlZ.jpg",
-   "date": "2014-08-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 165801,
-   "name": "さよなら、うつつ。 ～金で買える程度のハッピーデッドエンド追加版～",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/4f/165801_cm484.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111885,
-   "dst": 165801
-  },
-  {
-   "relate": "前传",
-   "src": 165801,
-   "dst": 111885
-  }
- ]
+  "id": "111885",
+  "node": [
+    {
+      "id": 111885,
+      "name": "さよなら、うつつ。",
+      "nameCN": "",
+      "date": "2014-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165801,
+      "name": "さよなら、うつつ。 ～金で買える程度のハッピーデッドエンド追加版～",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111885,
+      "dst": 165801
+    },
+    {
+      "relateString": "前传",
+      "src": 165801,
+      "dst": 111885
+    }
+  ]
 }

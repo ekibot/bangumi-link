@@ -1,37 +1,35 @@
 {
- "id": 150819,
- "node": [
-  {
-   "id": 150819,
-   "name": "東方繰人形",
-   "nameCN": "东方缲人形",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/dc/150819_uurP6.jpg",
-   "date": "2003-11-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171414,
-   "name": "東方繰人形2 アリスといっしょ -Alice to Eternal-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/36/171414_wc1oI.jpg",
-   "date": "2005-05-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150819,
-   "dst": 171414
-  },
-  {
-   "relate": "前传",
-   "src": 171414,
-   "dst": 150819
-  }
- ]
+  "id": "150819",
+  "node": [
+    {
+      "id": 150819,
+      "name": "東方繰人形",
+      "nameCN": "东方缲人形",
+      "date": "2003-11-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171414,
+      "name": "東方繰人形2 アリスといっしょ -Alice to Eternal-",
+      "nameCN": "",
+      "date": "2005-05-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150819,
+      "dst": 171414
+    },
+    {
+      "relateString": "前传",
+      "src": 171414,
+      "dst": 150819
+    }
+  ]
 }

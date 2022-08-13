@@ -1,57 +1,54 @@
 {
- "id": 875,
- "node": [
-  {
-   "id": 875,
-   "name": "Afro Samurai",
-   "nameCN": "爆炸头武士",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/0a/875_4XSsd.jpg",
-   "date": "2007-01-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 38428,
-   "name": "Afro Samurai: Resurrection",
-   "nameCN": "爆炸头武士：复活",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/fd/38428_Bu3Sk.jpg",
-   "date": "2009-01-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 38430,
-   "name": "Afro Samurai 劇場版",
-   "nameCN": "爆炸头武士 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/c8/38430_ge5Al.jpg",
-   "date": "2007-10-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 875,
-   "dst": 38428
-  },
-  {
-   "relate": "总集篇",
-   "src": 875,
-   "dst": 38430
-  },
-  {
-   "relate": "前传",
-   "src": 38428,
-   "dst": 875
-  },
-  {
-   "relate": "全集",
-   "src": 38430,
-   "dst": 875
-  }
- ]
+  "id": "875",
+  "node": [
+    {
+      "id": 875,
+      "name": "Afro Samurai",
+      "nameCN": "爆炸头武士",
+      "date": "2007-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 38428,
+      "name": "Afro Samurai: Resurrection",
+      "nameCN": "爆炸头武士：复活",
+      "date": "2009-01-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 38430,
+      "name": "Afro Samurai 劇場版",
+      "nameCN": "爆炸头武士 剧场版",
+      "date": "2007-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 875,
+      "dst": 38428
+    },
+    {
+      "relateString": "总集篇",
+      "src": 875,
+      "dst": 38430
+    },
+    {
+      "relateString": "前传",
+      "src": 38428,
+      "dst": 875
+    },
+    {
+      "relateString": "全集",
+      "src": 38430,
+      "dst": 875
+    }
+  ]
 }

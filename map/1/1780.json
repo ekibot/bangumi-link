@@ -1,0 +1,54 @@
+{
+  "id": "1780",
+  "node": [
+    {
+      "id": 1780,
+      "name": "ゴルゴ13",
+      "nameCN": "骷髅13",
+      "date": "2008-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 52783,
+      "name": "ゴルゴ13",
+      "nameCN": "骷髅13 剧场版",
+      "date": "1983-05-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 54293,
+      "name": "ゴルゴ13〜QUEEN BEE〜",
+      "nameCN": "骷髅13：女王蜂",
+      "date": "1998-05-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 1780,
+      "dst": 52783
+    },
+    {
+      "relateString": "衍生",
+      "src": 1780,
+      "dst": 54293
+    },
+    {
+      "relateString": "主线故事",
+      "src": 52783,
+      "dst": 1780
+    },
+    {
+      "relateString": "主线故事",
+      "src": 54293,
+      "dst": 1780
+    }
+  ]
+}

@@ -1,37 +1,35 @@
 {
- "id": 351959,
- "node": [
-  {
-   "id": 351959,
-   "name": "Pathfinder Roleplaying Game",
-   "nameCN": "开拓者",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/e1/351959_Fu579.jpg",
-   "date": "2009-08-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 351960,
-   "name": "Pathfinder Second Edition",
-   "nameCN": "开拓者第二版",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/23/351960_kUKUk.jpg",
-   "date": "2019-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 351959,
-   "dst": 351960
-  },
-  {
-   "relate": "前传",
-   "src": 351960,
-   "dst": 351959
-  }
- ]
+  "id": "351959",
+  "node": [
+    {
+      "id": 351959,
+      "name": "Pathfinder Roleplaying Game",
+      "nameCN": "开拓者",
+      "date": "2009-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 351960,
+      "name": "Pathfinder Second Edition",
+      "nameCN": "开拓者第二版",
+      "date": "2019-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 351959,
+      "dst": 351960
+    },
+    {
+      "relateString": "前传",
+      "src": 351960,
+      "dst": 351959
+    }
+  ]
 }

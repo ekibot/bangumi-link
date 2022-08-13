@@ -1,37 +1,35 @@
 {
- "id": 139137,
- "node": [
-  {
-   "id": 139137,
-   "name": "クラシカロイド",
-   "nameCN": "克拉斯卡劳埃德",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/3c/139137_8HJOf.jpg",
-   "date": "2016-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 212315,
-   "name": "クラシカロイド 第2シリーズ",
-   "nameCN": "克拉斯卡劳埃德 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/91/212315_8wigs.jpg",
-   "date": "2017-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 139137,
-   "dst": 212315
-  },
-  {
-   "relate": "前传",
-   "src": 212315,
-   "dst": 139137
-  }
- ]
+  "id": "139137",
+  "node": [
+    {
+      "id": 139137,
+      "name": "クラシカロイド",
+      "nameCN": "克拉斯卡劳埃德",
+      "date": "2016-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 212315,
+      "name": "クラシカロイド 第2シリーズ",
+      "nameCN": "克拉斯卡劳埃德 第二季",
+      "date": "2017-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139137,
+      "dst": 212315
+    },
+    {
+      "relateString": "前传",
+      "src": 212315,
+      "dst": 139137
+    }
+  ]
 }

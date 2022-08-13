@@ -1,57 +1,53 @@
 {
- "id": 243951,
- "node": [
-  {
-   "id": 243951,
-   "name": "Home Sweet Home",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/23/243951_ZUwzk.jpg",
-   "date": "2017-09-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309074,
-   "name": "Home Sweet Home EP2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/34/309074_3XNB1.jpg",
-   "date": "2019-09-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 329469,
-   "name": "Home Sweet Home : Survive",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/c8/329469_c6A61.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 243951,
-   "dst": 309074
-  },
-  {
-   "relate": "前传",
-   "src": 309074,
-   "dst": 243951
-  },
-  {
-   "relate": "不同世界观",
-   "src": 309074,
-   "dst": 329469
-  },
-  {
-   "relate": "不同世界观",
-   "src": 329469,
-   "dst": 309074
-  }
- ]
+  "id": "243951",
+  "node": [
+    {
+      "id": 243951,
+      "name": "Home Sweet Home",
+      "nameCN": "",
+      "date": "2017-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309074,
+      "name": "Home Sweet Home EP2",
+      "nameCN": "",
+      "date": "2019-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 329469,
+      "name": "Home Sweet Home : Survive",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 243951,
+      "dst": 309074
+    },
+    {
+      "relateString": "前传",
+      "src": 309074,
+      "dst": 243951
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 309074,
+      "dst": 329469
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 329469,
+      "dst": 309074
+    }
+  ]
 }

@@ -1,117 +1,91 @@
 {
- "id": 41424,
- "node": [
-  {
-   "id": 41424,
-   "name": "The Last of Us",
-   "nameCN": "最后生还者",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/25/41424_MMP6M.jpg",
-   "date": "2013-06-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 110598,
-   "name": "The Last of Us Remastered",
-   "nameCN": "最后生还者 重制版",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/89/110598_k1fn9.jpg",
-   "date": "2014-07-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 157641,
-   "name": "The Last of Us: Left Behind",
-   "nameCN": "最后生还者：别走",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/5a/157641_drG99.jpg",
-   "date": "2014-02-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 200187,
-   "name": "The Last of Us: Part II",
-   "nameCN": "最后生还者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/59/200187_t8u5U.jpg",
-   "date": "2020-06-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 286983,
-   "name": "The Last of Us: American Dreams",
-   "nameCN": "最后生还者：美国梦",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/8d/286983_D4Rm7.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 387052,
-   "name": "The Last of Us Part I",
-   "nameCN": "最后生还者 第一幕",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/33/387052_PR0K8.jpg",
-   "date": "2022-09-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 41424,
-   "dst": 200187
-  },
-  {
-   "relate": "不同演绎",
-   "src": 41424,
-   "dst": 387052
-  },
-  {
-   "relate": "不同演绎",
-   "src": 110598,
-   "dst": 41424
-  },
-  {
-   "relate": "续集",
-   "src": 110598,
-   "dst": 200187
-  },
-  {
-   "relate": "主线故事",
-   "src": 157641,
-   "dst": 41424
-  },
-  {
-   "relate": "前传",
-   "src": 200187,
-   "dst": 41424
-  },
-  {
-   "relate": "相同世界观",
-   "src": 200187,
-   "dst": 286983
-  },
-  {
-   "relate": "主线故事",
-   "src": 286983,
-   "dst": 41424
-  },
-  {
-   "relate": "续集",
-   "src": 286983,
-   "dst": 157641
-  },
-  {
-   "relate": "不同演绎",
-   "src": 387052,
-   "dst": 41424
-  }
- ]
+  "id": "41424",
+  "node": [
+    {
+      "id": 41424,
+      "name": "The Last of Us",
+      "nameCN": "最后生还者",
+      "date": "2013-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 200187,
+      "name": "The Last of Us: Part II",
+      "nameCN": "最后生还者2",
+      "date": "2020-06-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 387052,
+      "name": "The Last of Us Part I",
+      "nameCN": "最后生还者 第一幕",
+      "date": "2022-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 157641,
+      "name": "The Last of Us: Left Behind",
+      "nameCN": "最后生还者：别走",
+      "date": "2014-02-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 286983,
+      "name": "The Last of Us: American Dreams",
+      "nameCN": "最后生还者：美国梦",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 41424,
+      "dst": 200187
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 41424,
+      "dst": 387052
+    },
+    {
+      "relateString": "主线故事",
+      "src": 157641,
+      "dst": 41424
+    },
+    {
+      "relateString": "前传",
+      "src": 200187,
+      "dst": 41424
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 200187,
+      "dst": 286983
+    },
+    {
+      "relateString": "主线故事",
+      "src": 286983,
+      "dst": 41424
+    },
+    {
+      "relateString": "续集",
+      "src": 286983,
+      "dst": 157641
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 387052,
+      "dst": 41424
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 135517,
- "node": [
-  {
-   "id": 135517,
-   "name": "心理罪",
-   "nameCN": "心理罪",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/b4/135517_6P9x7.jpg",
-   "date": "2015-05-08",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 215065,
-   "name": "心理罪2",
-   "nameCN": "心理罪2",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/5c/215065_zrU07.jpg",
-   "date": "2016-07-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135517,
-   "dst": 215065
-  },
-  {
-   "relate": "前传",
-   "src": 215065,
-   "dst": 135517
-  }
- ]
+  "id": "135517",
+  "node": [
+    {
+      "id": 135517,
+      "name": "心理罪",
+      "nameCN": "心理罪",
+      "date": "2015-05-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 215065,
+      "name": "心理罪2",
+      "nameCN": "心理罪2",
+      "date": "2016-07-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135517,
+      "dst": 215065
+    },
+    {
+      "relateString": "前传",
+      "src": 215065,
+      "dst": 135517
+    }
+  ]
 }

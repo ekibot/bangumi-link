@@ -1,37 +1,35 @@
 {
- "id": 228194,
- "node": [
-  {
-   "id": 228194,
-   "name": "バタフライシーカー",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/3a/228194_IDfGC.jpg",
-   "date": "2018-03-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 250374,
-   "name": "バタフライシーカー～カオス・ナイトメア～",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/f6/250374_qtxzE.jpg",
-   "date": "2018-08-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228194,
-   "dst": 250374
-  },
-  {
-   "relate": "前传",
-   "src": 250374,
-   "dst": 228194
-  }
- ]
+  "id": "228194",
+  "node": [
+    {
+      "id": 228194,
+      "name": "バタフライシーカー",
+      "nameCN": "",
+      "date": "2018-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 250374,
+      "name": "バタフライシーカー～カオス・ナイトメア～",
+      "nameCN": "",
+      "date": "2018-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228194,
+      "dst": 250374
+    },
+    {
+      "relateString": "前传",
+      "src": 250374,
+      "dst": 228194
+    }
+  ]
 }

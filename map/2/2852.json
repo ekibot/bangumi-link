@@ -1,37 +1,34 @@
 {
- "id": 2852,
- "node": [
-  {
-   "id": 2852,
-   "name": "3年Z組銀八先生",
-   "nameCN": "三年Z组银八先生",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/1c/2852_4eRyu.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 4705,
-   "name": "銀魂",
-   "nameCN": "银魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/31/4705_S7P06.jpg",
-   "date": "2004-04-02",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 2852,
-   "dst": 4705
-  },
-  {
-   "relate": "番外篇",
-   "src": 4705,
-   "dst": 2852
-  }
- ]
+  "id": "2852",
+  "node": [
+    {
+      "id": 2852,
+      "name": "3年Z組銀八先生",
+      "nameCN": "三年Z组银八先生",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 4705,
+      "name": "銀魂",
+      "nameCN": "银魂",
+      "date": "2004-04-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 2852,
+      "dst": 4705
+    },
+    {
+      "relateString": "番外篇",
+      "src": 4705,
+      "dst": 2852
+    }
+  ]
 }

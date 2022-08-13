@@ -1,57 +1,54 @@
 {
- "id": 231592,
- "node": [
-  {
-   "id": 231592,
-   "name": "忘却のサチコ",
-   "nameCN": "忘却的幸子",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/a8/231592_c55h5.jpg",
-   "date": "2018-01-02",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 255218,
-   "name": "忘却のサチコ",
-   "nameCN": "忘却的幸子",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/26/255218_XoOT2.jpg",
-   "date": "2018-10-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 297427,
-   "name": "忘却のサチコ　新春スペシャル",
-   "nameCN": "忘却的幸子 新春SP",
-   "date": "2020-01-02",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231592,
-   "dst": 255218
-  },
-  {
-   "relate": "前传",
-   "src": 255218,
-   "dst": 231592
-  },
-  {
-   "relate": "番外篇",
-   "src": 255218,
-   "dst": 297427
-  },
-  {
-   "relate": "主线故事",
-   "src": 297427,
-   "dst": 255218
-  }
- ]
+  "id": "231592",
+  "node": [
+    {
+      "id": 231592,
+      "name": "忘却のサチコ",
+      "nameCN": "忘却的幸子",
+      "date": "2018-01-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 255218,
+      "name": "忘却のサチコ",
+      "nameCN": "忘却的幸子",
+      "date": "2018-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 297427,
+      "name": "忘却のサチコ　新春スペシャル",
+      "nameCN": "忘却的幸子 新春SP",
+      "date": "2020-01-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231592,
+      "dst": 255218
+    },
+    {
+      "relateString": "前传",
+      "src": 255218,
+      "dst": 231592
+    },
+    {
+      "relateString": "番外篇",
+      "src": 255218,
+      "dst": 297427
+    },
+    {
+      "relateString": "主线故事",
+      "src": 297427,
+      "dst": 255218
+    }
+  ]
 }

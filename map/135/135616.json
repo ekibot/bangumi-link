@@ -1,77 +1,73 @@
 {
- "id": 135616,
- "node": [
-  {
-   "id": 135616,
-   "name": "Chef's Table",
-   "nameCN": "主厨的餐桌",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/65/135616_3IG31.jpg",
-   "date": "2015-04-26",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 211790,
-   "name": "Chef's Table Season 2",
-   "date": "2016-05-27",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 212015,
-   "name": "Chef's Table Season 3",
-   "date": "2017-02-17",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 255158,
-   "name": "Chef's Table Season 4",
-   "nameCN": "主厨的餐桌 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/8b/255158_RS1r4.jpg",
-   "date": "2018-04-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135616,
-   "dst": 211790
-  },
-  {
-   "relate": "前传",
-   "src": 211790,
-   "dst": 135616
-  },
-  {
-   "relate": "续集",
-   "src": 211790,
-   "dst": 212015
-  },
-  {
-   "relate": "前传",
-   "src": 212015,
-   "dst": 211790
-  },
-  {
-   "relate": "续集",
-   "src": 212015,
-   "dst": 255158
-  },
-  {
-   "relate": "前传",
-   "src": 255158,
-   "dst": 212015
-  }
- ]
+  "id": "135616",
+  "node": [
+    {
+      "id": 135616,
+      "name": "Chef's Table",
+      "nameCN": "主厨的餐桌",
+      "date": "2015-04-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 211790,
+      "name": "Chef's Table Season 2",
+      "nameCN": "",
+      "date": "2016-05-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 212015,
+      "name": "Chef's Table Season 3",
+      "nameCN": "",
+      "date": "2017-02-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 255158,
+      "name": "Chef's Table Season 4",
+      "nameCN": "主厨的餐桌 第四季",
+      "date": "2018-04-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135616,
+      "dst": 211790
+    },
+    {
+      "relateString": "前传",
+      "src": 211790,
+      "dst": 135616
+    },
+    {
+      "relateString": "续集",
+      "src": 211790,
+      "dst": 212015
+    },
+    {
+      "relateString": "前传",
+      "src": 212015,
+      "dst": 211790
+    },
+    {
+      "relateString": "续集",
+      "src": 212015,
+      "dst": 255158
+    },
+    {
+      "relateString": "前传",
+      "src": 255158,
+      "dst": 212015
+    }
+  ]
 }

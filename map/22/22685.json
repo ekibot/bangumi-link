@@ -1,96 +1,73 @@
 {
- "id": 22685,
- "node": [
-  {
-   "id": 22685,
-   "name": "アルカナ・ファミリア La storia della Arcana Famiglia",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/40/22685_1gX32.jpg",
-   "date": "2011-10-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 29055,
-   "name": "アルカナ・ファミリア －幽霊船の魔術師－",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/a7/29055_p9cr4.jpg",
-   "date": "2012-06-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 44112,
-   "name": "アルカナ・ファミリア フェスタ・レガーロ！",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/2b/44112_KgOzc.jpg",
-   "date": "2012-12-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 49101,
-   "name": "アルカナ・ファミリア2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/63/49101_BIbbl.jpg",
-   "date": "2013-11-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 179100,
-   "name": "アルカナ・ファミリア -La storia della Arcana Famiglia- Ancora",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/48/179100_e1mUN.jpg",
-   "date": "2015-12-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22685,
-   "dst": 49101
-  },
-  {
-   "relate": "不同演绎",
-   "src": 22685,
-   "dst": 179100
-  },
-  {
-   "relate": "主线故事",
-   "src": 29055,
-   "dst": 22685
-  },
-  {
-   "relate": "续集",
-   "src": 29055,
-   "dst": 49101
-  },
-  {
-   "relate": "主线故事",
-   "src": 44112,
-   "dst": 22685
-  },
-  {
-   "relate": "前传",
-   "src": 49101,
-   "dst": 22685
-  },
-  {
-   "relate": "前传",
-   "src": 49101,
-   "dst": 29055
-  },
-  {
-   "relate": "不同演绎",
-   "src": 179100,
-   "dst": 22685
-  }
- ]
+  "id": "22685",
+  "node": [
+    {
+      "id": 22685,
+      "name": "アルカナ・ファミリア La storia della Arcana Famiglia",
+      "nameCN": "",
+      "date": "2011-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 49101,
+      "name": "アルカナ・ファミリア2",
+      "nameCN": "",
+      "date": "2013-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 29055,
+      "name": "アルカナ・ファミリア －幽霊船の魔術師－",
+      "nameCN": "",
+      "date": "2012-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 44112,
+      "name": "アルカナ・ファミリア フェスタ・レガーロ！",
+      "nameCN": "",
+      "date": "2012-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22685,
+      "dst": 49101
+    },
+    {
+      "relateString": "主线故事",
+      "src": 29055,
+      "dst": 22685
+    },
+    {
+      "relateString": "续集",
+      "src": 29055,
+      "dst": 49101
+    },
+    {
+      "relateString": "主线故事",
+      "src": 44112,
+      "dst": 22685
+    },
+    {
+      "relateString": "前传",
+      "src": 49101,
+      "dst": 22685
+    },
+    {
+      "relateString": "前传",
+      "src": 49101,
+      "dst": 29055
+    }
+  ]
 }

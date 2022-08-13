@@ -1,77 +1,73 @@
 {
- "id": 123419,
- "node": [
-  {
-   "id": 123419,
-   "name": "還珠格格 第一部",
-   "nameCN": "还珠格格 第一部",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/4f/123419_6sYzP.jpg",
-   "date": "1998-04-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 123420,
-   "name": "還珠格格 第二部",
-   "nameCN": "还珠格格 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/18/123420_1tQH2.jpg",
-   "date": "1999-04-21",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 123421,
-   "name": "還珠格格 第三部",
-   "nameCN": "还珠格格 第三部",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/e4/123421_q2fjQ.jpg",
-   "date": "2003-07-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 123422,
-   "name": "新还珠格格",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/9b/123422_WeGEb.jpg",
-   "date": "2011-07-16",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123419,
-   "dst": 123420
-  },
-  {
-   "relate": "不同演绎",
-   "src": 123419,
-   "dst": 123422
-  },
-  {
-   "relate": "前传",
-   "src": 123420,
-   "dst": 123419
-  },
-  {
-   "relate": "续集",
-   "src": 123420,
-   "dst": 123421
-  },
-  {
-   "relate": "前传",
-   "src": 123421,
-   "dst": 123420
-  },
-  {
-   "relate": "不同演绎",
-   "src": 123422,
-   "dst": 123419
-  }
- ]
+  "id": "123419",
+  "node": [
+    {
+      "id": 123419,
+      "name": "還珠格格 第一部",
+      "nameCN": "还珠格格 第一部",
+      "date": "1998-04-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123420,
+      "name": "還珠格格 第二部",
+      "nameCN": "还珠格格 第二部",
+      "date": "1999-04-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123422,
+      "name": "新还珠格格",
+      "nameCN": "",
+      "date": "2011-07-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123421,
+      "name": "還珠格格 第三部",
+      "nameCN": "还珠格格 第三部",
+      "date": "2003-07-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123419,
+      "dst": 123420
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 123419,
+      "dst": 123422
+    },
+    {
+      "relateString": "前传",
+      "src": 123420,
+      "dst": 123419
+    },
+    {
+      "relateString": "续集",
+      "src": 123420,
+      "dst": 123421
+    },
+    {
+      "relateString": "前传",
+      "src": 123421,
+      "dst": 123420
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 123422,
+      "dst": 123419
+    }
+  ]
 }

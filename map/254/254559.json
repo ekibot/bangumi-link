@@ -1,37 +1,35 @@
 {
- "id": 254559,
- "node": [
-  {
-   "id": 254559,
-   "name": "クローバー trefle",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/22/254559_sZSMt.jpg",
-   "date": "2013-01-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 353155,
-   "name": "クローバー melodie",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/ae/353155_emNVe.jpg",
-   "date": "2021-09-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 254559,
-   "dst": 353155
-  },
-  {
-   "relate": "前传",
-   "src": 353155,
-   "dst": 254559
-  }
- ]
+  "id": "254559",
+  "node": [
+    {
+      "id": 254559,
+      "name": "クローバー trefle",
+      "nameCN": "",
+      "date": "2013-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 353155,
+      "name": "クローバー melodie",
+      "nameCN": "",
+      "date": "2021-09-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 254559,
+      "dst": 353155
+    },
+    {
+      "relateString": "前传",
+      "src": 353155,
+      "dst": 254559
+    }
+  ]
 }

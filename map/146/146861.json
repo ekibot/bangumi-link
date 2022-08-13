@@ -1,37 +1,35 @@
 {
- "id": 146861,
- "node": [
-  {
-   "id": 146861,
-   "name": "霊剣山 星屑たちの宴",
-   "nameCN": "从前有座灵剑山",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/4f/146861_OWDcO.jpg",
-   "date": "2016-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 175432,
-   "name": "霊剣山 叡智への資格",
-   "nameCN": "从前有座灵剑山 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/d3/175432_d17YD.jpg",
-   "date": "2017-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 146861,
-   "dst": 175432
-  },
-  {
-   "relate": "前传",
-   "src": 175432,
-   "dst": 146861
-  }
- ]
+  "id": "146861",
+  "node": [
+    {
+      "id": 146861,
+      "name": "霊剣山 星屑たちの宴",
+      "nameCN": "从前有座灵剑山",
+      "date": "2016-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 175432,
+      "name": "霊剣山 叡智への資格",
+      "nameCN": "从前有座灵剑山 第二季",
+      "date": "2017-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 146861,
+      "dst": 175432
+    },
+    {
+      "relateString": "前传",
+      "src": 175432,
+      "dst": 146861
+    }
+  ]
 }

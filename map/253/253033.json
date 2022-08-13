@@ -1,37 +1,35 @@
 {
- "id": 253033,
- "node": [
-  {
-   "id": 253033,
-   "name": "ワンダープロジェクトJ 機械の少年ピーノ",
-   "nameCN": "神奇计划J",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/ef/253033_MoQ5K.jpg",
-   "date": "1994-12-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 253034,
-   "name": "ワンダープロジェクトJ2 コルロの森のジョゼット",
-   "nameCN": "神奇计划J2：科鲁罗之森的朱赛特",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/af/253034_H5p8h.jpg",
-   "date": "1996-11-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 253033,
-   "dst": 253034
-  },
-  {
-   "relate": "前传",
-   "src": 253034,
-   "dst": 253033
-  }
- ]
+  "id": "253033",
+  "node": [
+    {
+      "id": 253033,
+      "name": "ワンダープロジェクトJ 機械の少年ピーノ",
+      "nameCN": "神奇计划J",
+      "date": "1994-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 253034,
+      "name": "ワンダープロジェクトJ2 コルロの森のジョゼット",
+      "nameCN": "神奇计划J2：科鲁罗之森的朱赛特",
+      "date": "1996-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 253033,
+      "dst": 253034
+    },
+    {
+      "relateString": "前传",
+      "src": 253034,
+      "dst": 253033
+    }
+  ]
 }

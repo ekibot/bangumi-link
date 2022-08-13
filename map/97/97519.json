@@ -1,40 +1,44 @@
 {
- "id": 97519,
- "node": [
-  {
-   "id": 97519,
-   "name": "冬のさざなみ",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/61/97519_zu44o.jpg",
-   "date": "2013-12-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 98369,
-   "name": "夏のさざんか",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/b7/98369_JBHhE.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 100048,
-   "name": "パコられ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/5c/100048_7s1bb.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 97519,
-   "dst": 98369
-  },
-  {
-   "relate": "主线故事",
-   "src": 97519,
-   "dst": 100048
-  }
- ]
+  "id": "97519",
+  "node": [
+    {
+      "id": 97519,
+      "name": "冬のさざなみ",
+      "nameCN": "",
+      "date": "2013-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 98369,
+      "name": "夏のさざんか",
+      "nameCN": "",
+      "date": "2013-04-01",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 100048,
+      "name": "パコられ",
+      "nameCN": "",
+      "date": "2013-08-11",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 97519,
+      "dst": 98369
+    },
+    {
+      "relateString": "主线故事",
+      "src": 97519,
+      "dst": 100048
+    }
+  ]
 }

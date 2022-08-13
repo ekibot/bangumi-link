@@ -1,37 +1,33 @@
 {
- "id": 96806,
- "node": [
-  {
-   "id": 96806,
-   "name": "Superman 75th Anniversary Short",
-   "nameCN": "超人75周年纪念动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/93/96806_cLz5d.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 101920,
-   "name": "Batman: Strange Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/2f/101920_0434b.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 96806,
-   "dst": 101920
-  },
-  {
-   "relate": "相同世界观",
-   "src": 101920,
-   "dst": 96806
-  }
- ]
+  "id": "96806",
+  "node": [
+    {
+      "id": 96806,
+      "name": "Superman 75th Anniversary Short",
+      "nameCN": "超人75周年纪念动画",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 101920,
+      "name": "Batman: Strange Days",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 96806,
+      "dst": 101920
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 101920,
+      "dst": 96806
+    }
+  ]
 }

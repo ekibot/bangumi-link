@@ -1,63 +1,63 @@
 {
- "id": 139080,
- "node": [
-  {
-   "id": 139080,
-   "name": "春萌～はるもい～",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/c2/139080_jBwAD.jpg",
-   "date": "2006-04-14",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 168812,
-   "name": "STEP×STEADY",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/68/168812_28UKb.jpg",
-   "type": 4
-  },
-  {
-   "id": 168813,
-   "name": "LOVERSOULファンディスク～恋魂詰～",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/ea/168813_WwbB4.jpg",
-   "date": "2008-05-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 203692,
-   "name": "沙緒アフター",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/82/203692_yQV73.jpg",
-   "date": "2007-01-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 139080,
-   "dst": 203692
-  },
-  {
-   "relate": "主线故事",
-   "src": 168813,
-   "dst": 139080
-  },
-  {
-   "relate": "主线故事",
-   "src": 168813,
-   "dst": 168812
-  },
-  {
-   "relate": "前传",
-   "src": 203692,
-   "dst": 139080
-  }
- ]
+  "id": "139080",
+  "node": [
+    {
+      "id": 139080,
+      "name": "春萌～はるもい～",
+      "nameCN": "",
+      "date": "2006-04-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 203692,
+      "name": "沙緒アフター",
+      "nameCN": "",
+      "date": "2007-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 168813,
+      "name": "LOVERSOULファンディスク～恋魂詰～",
+      "nameCN": "",
+      "date": "2008-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 168812,
+      "name": "STEP×STEADY",
+      "nameCN": "",
+      "date": "2007-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139080,
+      "dst": 203692
+    },
+    {
+      "relateString": "主线故事",
+      "src": 168813,
+      "dst": 139080
+    },
+    {
+      "relateString": "主线故事",
+      "src": 168813,
+      "dst": 168812
+    },
+    {
+      "relateString": "前传",
+      "src": 203692,
+      "dst": 139080
+    }
+  ]
 }

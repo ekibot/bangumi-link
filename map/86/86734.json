@@ -1,57 +1,54 @@
 {
- "id": 86734,
- "node": [
-  {
-   "id": 86734,
-   "name": "NARUTO－ナルト－ナルティメットヒーロー3",
-   "nameCN": "火影忍者：木叶英雄3",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/f4/86734_84585.jpg",
-   "date": "2005-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321111,
-   "name": "NARUTO-ナルト-ナルティメットヒーロー",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/56/321111_TzV4Y.jpg",
-   "date": "2003-10-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321112,
-   "name": "NARUTO-ナルト-ナルティメットヒーロー2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/fb/321112_F6HVT.jpg",
-   "date": "2004-09-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 86734,
-   "dst": 321112
-  },
-  {
-   "relate": "续集",
-   "src": 321111,
-   "dst": 321112
-  },
-  {
-   "relate": "续集",
-   "src": 321112,
-   "dst": 86734
-  },
-  {
-   "relate": "前传",
-   "src": 321112,
-   "dst": 321111
-  }
- ]
+  "id": "86734",
+  "node": [
+    {
+      "id": 86734,
+      "name": "NARUTO－ナルト－ナルティメットヒーロー3",
+      "nameCN": "火影忍者：木叶英雄3",
+      "date": "2005-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321112,
+      "name": "NARUTO-ナルト-ナルティメットヒーロー2",
+      "nameCN": "",
+      "date": "2004-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321111,
+      "name": "NARUTO-ナルト-ナルティメットヒーロー",
+      "nameCN": "",
+      "date": "2003-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 86734,
+      "dst": 321112
+    },
+    {
+      "relateString": "续集",
+      "src": 321111,
+      "dst": 321112
+    },
+    {
+      "relateString": "续集",
+      "src": 321112,
+      "dst": 86734
+    },
+    {
+      "relateString": "前传",
+      "src": 321112,
+      "dst": 321111
+    }
+  ]
 }

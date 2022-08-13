@@ -1,37 +1,35 @@
 {
- "id": 12102,
- "node": [
-  {
-   "id": 12102,
-   "name": "すみれの蕾",
-   "nameCN": "堇之蕾",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/28/12102_nGZYQ.jpg",
-   "date": "2009-03-13",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 60064,
-   "name": "すみれの蕾 Fan Disk ~ウェディング大作戦~",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/85/60064_Jnevu.jpg",
-   "type": 4,
-   "date": "2009-12-29",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12102,
-   "dst": 60064
-  },
-  {
-   "relate": "前传",
-   "src": 60064,
-   "dst": 12102
-  }
- ]
+  "id": "12102",
+  "node": [
+    {
+      "id": 12102,
+      "name": "すみれの蕾",
+      "nameCN": "堇之蕾",
+      "date": "2009-03-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 60064,
+      "name": "すみれの蕾 Fan Disk ~ウェディング大作戦~",
+      "nameCN": "",
+      "date": "2009-12-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12102,
+      "dst": 60064
+    },
+    {
+      "relateString": "前传",
+      "src": 60064,
+      "dst": 12102
+    }
+  ]
 }

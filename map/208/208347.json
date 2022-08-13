@@ -1,37 +1,35 @@
 {
- "id": 208347,
- "node": [
-  {
-   "id": 208347,
-   "name": "どちゃもん じゅにあ 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/08/208347_pUpJU.jpg",
-   "date": "2016-10-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 209643,
-   "name": "どちゃもん じゅにあ",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/5c/209643_5KVnU.jpg",
-   "date": "2015-10-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 208347,
-   "dst": 209643
-  },
-  {
-   "relate": "续集",
-   "src": 209643,
-   "dst": 208347
-  }
- ]
+  "id": "208347",
+  "node": [
+    {
+      "id": 208347,
+      "name": "どちゃもん じゅにあ 2",
+      "nameCN": "",
+      "date": "2016-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 209643,
+      "name": "どちゃもん じゅにあ",
+      "nameCN": "",
+      "date": "2015-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 208347,
+      "dst": 209643
+    },
+    {
+      "relateString": "续集",
+      "src": 209643,
+      "dst": 208347
+    }
+  ]
 }

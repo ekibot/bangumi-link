@@ -1,37 +1,35 @@
 {
- "id": 100654,
- "node": [
-  {
-   "id": 100654,
-   "name": "スパイダーライダーズ ～オラクルの勇者たち～",
-   "nameCN": "蜘蛛骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/2e/100654_vR70x.jpg",
-   "date": "2006-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 106290,
-   "name": "スパイダーライダーズ 〜よみがえる太陽〜",
-   "nameCN": "蜘蛛骑士第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/8b/106290_tZqUI.jpg",
-   "date": "2007-04-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100654,
-   "dst": 106290
-  },
-  {
-   "relate": "前传",
-   "src": 106290,
-   "dst": 100654
-  }
- ]
+  "id": "100654",
+  "node": [
+    {
+      "id": 100654,
+      "name": "スパイダーライダーズ ～オラクルの勇者たち～",
+      "nameCN": "蜘蛛骑士",
+      "date": "2006-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 106290,
+      "name": "スパイダーライダーズ 〜よみがえる太陽〜",
+      "nameCN": "蜘蛛骑士第2季",
+      "date": "2007-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100654,
+      "dst": 106290
+    },
+    {
+      "relateString": "前传",
+      "src": 106290,
+      "dst": 100654
+    }
+  ]
 }

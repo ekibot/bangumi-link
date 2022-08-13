@@ -1,37 +1,35 @@
 {
- "id": 123982,
- "node": [
-  {
-   "id": 123982,
-   "name": "てるみな",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/4c/123982_f4fHN.jpg",
-   "date": "2013-03-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 237103,
-   "name": "ぱらのま",
-   "nameCN": "全景之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/ad/237103_Vo9R3.jpg",
-   "date": "2017-01-31",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 123982,
-   "dst": 237103
-  },
-  {
-   "relate": "相同世界观",
-   "src": 237103,
-   "dst": 123982
-  }
- ]
+  "id": "123982",
+  "node": [
+    {
+      "id": 123982,
+      "name": "てるみな",
+      "nameCN": "",
+      "date": "2013-03-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237103,
+      "name": "ぱらのま",
+      "nameCN": "全景之旅",
+      "date": "2017-01-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 123982,
+      "dst": 237103
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 237103,
+      "dst": 123982
+    }
+  ]
 }

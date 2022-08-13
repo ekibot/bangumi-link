@@ -1,57 +1,53 @@
 {
- "id": 169132,
- "node": [
-  {
-   "id": 169132,
-   "name": "雪地灵犬Balto",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/c7/169132_A2Xx0.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 308822,
-   "name": "Balto III: Wings of Change",
-   "nameCN": "雪地灵犬3",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/05/308822_1q6B6.jpg",
-   "date": "2004-09-30",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 308823,
-   "name": "Balto II: Wolf Quest",
-   "nameCN": "雪地灵犬2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/53/308823_J4EPa.jpg",
-   "date": "2002-02-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169132,
-   "dst": 308823
-  },
-  {
-   "relate": "前传",
-   "src": 308822,
-   "dst": 308823
-  },
-  {
-   "relate": "前传",
-   "src": 308823,
-   "dst": 169132
-  },
-  {
-   "relate": "续集",
-   "src": 308823,
-   "dst": 308822
-  }
- ]
+  "id": "169132",
+  "node": [
+    {
+      "id": 169132,
+      "name": "雪地灵犬Balto",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 308823,
+      "name": "Balto II: Wolf Quest",
+      "nameCN": "雪地灵犬2",
+      "date": "2002-02-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 308822,
+      "name": "Balto III: Wings of Change",
+      "nameCN": "雪地灵犬3",
+      "date": "2004-09-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169132,
+      "dst": 308823
+    },
+    {
+      "relateString": "前传",
+      "src": 308822,
+      "dst": 308823
+    },
+    {
+      "relateString": "前传",
+      "src": 308823,
+      "dst": 169132
+    },
+    {
+      "relateString": "续集",
+      "src": 308823,
+      "dst": 308822
+    }
+  ]
 }

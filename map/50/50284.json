@@ -1,37 +1,35 @@
 {
- "id": 50284,
- "node": [
-  {
-   "id": 50284,
-   "name": "TOKYOエアポート〜東京空港管制保安部〜",
-   "nameCN": "TOKYO AIRPORT～东京空港管制保安部～",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/c4/50284_LNcOw.jpg",
-   "date": "2012-10-14",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 126832,
-   "name": "TOKYO コントロール 東京航空交通管制部",
-   "nameCN": "Tokyo Control 东京航空交通管制部",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/8d/126832_x86Ax.jpg",
-   "date": "2011-01-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 50284,
-   "dst": 126832
-  },
-  {
-   "relate": "续集",
-   "src": 126832,
-   "dst": 50284
-  }
- ]
+  "id": "50284",
+  "node": [
+    {
+      "id": 50284,
+      "name": "TOKYOエアポート〜東京空港管制保安部〜",
+      "nameCN": "TOKYO AIRPORT～东京空港管制保安部～",
+      "date": "2012-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 126832,
+      "name": "TOKYO コントロール 東京航空交通管制部",
+      "nameCN": "Tokyo Control 东京航空交通管制部",
+      "date": "2011-01-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 50284,
+      "dst": 126832
+    },
+    {
+      "relateString": "续集",
+      "src": 126832,
+      "dst": 50284
+    }
+  ]
 }

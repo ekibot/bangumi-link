@@ -1,57 +1,54 @@
 {
- "id": 290163,
- "node": [
-  {
-   "id": 290163,
-   "name": "黄昏アウトフォーカス",
-   "nameCN": "黄昏失焦",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/b4/290163_VBM1v.jpg",
-   "date": "2019-06-14",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 322316,
-   "name": "残像スローモーション",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/81/322316_nU3HU.jpg",
-   "date": "2020-07-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 324952,
-   "name": "黄昏アウトフォーカス overlap",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/16/324952_RjIsz.jpg",
-   "date": "2020-08-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 290163,
-   "dst": 322316
-  },
-  {
-   "relate": "续集",
-   "src": 290163,
-   "dst": 324952
-  },
-  {
-   "relate": "相同世界观",
-   "src": 322316,
-   "dst": 290163
-  },
-  {
-   "relate": "前传",
-   "src": 324952,
-   "dst": 290163
-  }
- ]
+  "id": "290163",
+  "node": [
+    {
+      "id": 290163,
+      "name": "黄昏アウトフォーカス",
+      "nameCN": "黄昏失焦",
+      "date": "2019-06-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322316,
+      "name": "残像スローモーション",
+      "nameCN": "",
+      "date": "2020-07-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 324952,
+      "name": "黄昏アウトフォーカス overlap",
+      "nameCN": "",
+      "date": "2020-08-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 290163,
+      "dst": 322316
+    },
+    {
+      "relateString": "续集",
+      "src": 290163,
+      "dst": 324952
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 322316,
+      "dst": 290163
+    },
+    {
+      "relateString": "前传",
+      "src": 324952,
+      "dst": 290163
+    }
+  ]
 }

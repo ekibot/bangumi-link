@@ -1,37 +1,35 @@
 {
- "id": 164870,
- "node": [
-  {
-   "id": 164870,
-   "name": "画皮",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/e1/164870_UvU3G.jpg",
-   "date": "2011-04-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 164871,
-   "name": "画皮之真爱无悔",
-   "nameCN": "画皮2",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/7c/164871_8s8Bi.jpg",
-   "date": "2013-04-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164870,
-   "dst": 164871
-  },
-  {
-   "relate": "前传",
-   "src": 164871,
-   "dst": 164870
-  }
- ]
+  "id": "164870",
+  "node": [
+    {
+      "id": 164870,
+      "name": "画皮",
+      "nameCN": "",
+      "date": "2011-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 164871,
+      "name": "画皮之真爱无悔",
+      "nameCN": "画皮2",
+      "date": "2013-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164870,
+      "dst": 164871
+    },
+    {
+      "relateString": "前传",
+      "src": 164871,
+      "dst": 164870
+    }
+  ]
 }

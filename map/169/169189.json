@@ -1,37 +1,35 @@
 {
- "id": 169189,
- "node": [
-  {
-   "id": 169189,
-   "name": "KARAKARA",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/ca/169189_tRasY.jpg",
-   "date": "2016-06-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 211926,
-   "name": "KARAKARA2",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/df/211926_oQMdF.jpg",
-   "date": "2017-11-11",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169189,
-   "dst": 211926
-  },
-  {
-   "relate": "前传",
-   "src": 211926,
-   "dst": 169189
-  }
- ]
+  "id": "169189",
+  "node": [
+    {
+      "id": 169189,
+      "name": "KARAKARA",
+      "nameCN": "",
+      "date": "2016-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211926,
+      "name": "KARAKARA2",
+      "nameCN": "",
+      "date": "2017-11-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169189,
+      "dst": 211926
+    },
+    {
+      "relateString": "前传",
+      "src": 211926,
+      "dst": 169189
+    }
+  ]
 }

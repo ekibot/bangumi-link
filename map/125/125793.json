@@ -1,37 +1,35 @@
 {
- "id": 125793,
- "node": [
-  {
-   "id": 125793,
-   "name": "ごめんね・アイドルくん",
-   "nameCN": "偶像達令請別哭泣",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/48/125793_jp.jpg",
-   "date": "2014-01-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 182269,
-   "name": "おやすみ アイドルくん",
-   "nameCN": "偶像达令别说晚安",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/68/182269_jp.jpg",
-   "date": "2016-05-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125793,
-   "dst": 182269
-  },
-  {
-   "relate": "前传",
-   "src": 182269,
-   "dst": 125793
-  }
- ]
+  "id": "125793",
+  "node": [
+    {
+      "id": 125793,
+      "name": "ごめんね・アイドルくん",
+      "nameCN": "偶像達令請別哭泣",
+      "date": "2014-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 182269,
+      "name": "おやすみ アイドルくん",
+      "nameCN": "偶像达令别说晚安",
+      "date": "2016-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125793,
+      "dst": 182269
+    },
+    {
+      "relateString": "前传",
+      "src": 182269,
+      "dst": 125793
+    }
+  ]
 }

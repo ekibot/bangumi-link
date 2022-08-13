@@ -1,37 +1,35 @@
 {
- "id": 170,
- "node": [
-  {
-   "id": 170,
-   "name": "頭文字D エクストリーム ステージ",
-   "nameCN": "头文字D EXTREME STAGE",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/9e/170_ajp.jpg",
-   "date": "2008-07-03",
-   "nsfw": false,
-   "platform": "PS3",
-   "type": 4
-  },
-  {
-   "id": 14149,
-   "name": "頭文字D STREET STAGE",
-   "nameCN": "头文字D Street Stage",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/03/14149_E0EaR.jpg",
-   "date": "2006-02-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 170,
-   "dst": 14149
-  },
-  {
-   "relate": "续集",
-   "src": 14149,
-   "dst": 170
-  }
- ]
+  "id": "170",
+  "node": [
+    {
+      "id": 170,
+      "name": "頭文字D エクストリーム ステージ",
+      "nameCN": "头文字D EXTREME STAGE",
+      "date": "2008-07-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS3"
+    },
+    {
+      "id": 14149,
+      "name": "頭文字D STREET STAGE",
+      "nameCN": "头文字D Street Stage",
+      "date": "2006-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 170,
+      "dst": 14149
+    },
+    {
+      "relateString": "续集",
+      "src": 14149,
+      "dst": 170
+    }
+  ]
 }

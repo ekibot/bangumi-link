@@ -1,37 +1,35 @@
 {
- "id": 123402,
- "node": [
-  {
-   "id": 123402,
-   "name": "飛虎",
-   "nameCN": "飞虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/56/123402_4x04m.jpg",
-   "date": "2012-06-24",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 123403,
-   "name": "飛虎II",
-   "nameCN": "飞虎II",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/96/123403_Zh3jK.jpg",
-   "date": "2014-10-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123402,
-   "dst": 123403
-  },
-  {
-   "relate": "前传",
-   "src": 123403,
-   "dst": 123402
-  }
- ]
+  "id": "123402",
+  "node": [
+    {
+      "id": 123402,
+      "name": "飛虎",
+      "nameCN": "飞虎",
+      "date": "2012-06-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123403,
+      "name": "飛虎II",
+      "nameCN": "飞虎II",
+      "date": "2014-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123402,
+      "dst": 123403
+    },
+    {
+      "relateString": "前传",
+      "src": 123403,
+      "dst": 123402
+    }
+  ]
 }

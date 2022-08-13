@@ -1,37 +1,35 @@
 {
- "id": 323407,
- "node": [
-  {
-   "id": 323407,
-   "name": "Birth Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/c6/323407_FjbNj.jpg",
-   "date": "1994-11-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 323408,
-   "name": "Valentine Kiss: Birthdays 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/f9/323408_1dfi5.jpg",
-   "date": "1996-02-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 323407,
-   "dst": 323408
-  },
-  {
-   "relate": "前传",
-   "src": 323408,
-   "dst": 323407
-  }
- ]
+  "id": "323407",
+  "node": [
+    {
+      "id": 323407,
+      "name": "Birth Days",
+      "nameCN": "",
+      "date": "1994-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323408,
+      "name": "Valentine Kiss: Birthdays 2",
+      "nameCN": "",
+      "date": "1996-02-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 323407,
+      "dst": 323408
+    },
+    {
+      "relateString": "前传",
+      "src": 323408,
+      "dst": 323407
+    }
+  ]
 }

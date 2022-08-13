@@ -1,37 +1,35 @@
 {
- "id": 368518,
- "node": [
-  {
-   "id": 368518,
-   "name": "NOISZ STARLIVHT",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/5b/368518_te31D.jpg",
-   "date": "2021-11-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 368524,
-   "name": "NOISZ",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/db/368524_blMgM.jpg",
-   "date": "2018-09-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 368518,
-   "dst": 368524
-  },
-  {
-   "relate": "续集",
-   "src": 368524,
-   "dst": 368518
-  }
- ]
+  "id": "368518",
+  "node": [
+    {
+      "id": 368518,
+      "name": "NOISZ STARLIVHT",
+      "nameCN": "",
+      "date": "2021-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368524,
+      "name": "NOISZ",
+      "nameCN": "",
+      "date": "2018-09-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 368518,
+      "dst": 368524
+    },
+    {
+      "relateString": "续集",
+      "src": 368524,
+      "dst": 368518
+    }
+  ]
 }

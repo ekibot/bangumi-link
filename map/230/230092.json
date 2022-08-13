@@ -1,37 +1,35 @@
 {
- "id": 230092,
- "node": [
-  {
-   "id": 230092,
-   "name": "欢乐逗地主",
-   "nameCN": "欢乐逗地主",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/db/230092_iI7Ii.jpg",
-   "date": "2017-11-17",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 258519,
-   "name": "欢乐逗地主2",
-   "nameCN": "欢乐逗地主 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/e8/258519_R47hJ.jpg",
-   "date": "2018-08-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230092,
-   "dst": 258519
-  },
-  {
-   "relate": "前传",
-   "src": 258519,
-   "dst": 230092
-  }
- ]
+  "id": "230092",
+  "node": [
+    {
+      "id": 230092,
+      "name": "欢乐逗地主",
+      "nameCN": "欢乐逗地主",
+      "date": "2017-11-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 258519,
+      "name": "欢乐逗地主2",
+      "nameCN": "欢乐逗地主 第二季",
+      "date": "2018-08-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230092,
+      "dst": 258519
+    },
+    {
+      "relateString": "前传",
+      "src": 258519,
+      "dst": 230092
+    }
+  ]
 }

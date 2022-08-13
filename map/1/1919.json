@@ -1,126 +1,120 @@
 {
- "id": 1919,
- "node": [
-  {
-   "id": 1919,
-   "name": "XANADU NEXT",
-   "nameCN": "迷城的国度Next",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/8a/1919_GZNSO.jpg",
-   "date": "2005-10-27",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 74887,
-   "name": "ロマンシア",
-   "nameCN": "爱的罗曼史",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/1f/74887_vANMP.jpg",
-   "date": "1986-10-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 74982,
-   "name": "XANADU",
-   "nameCN": "仙那度",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/8a/74982_5f735.jpg",
-   "date": "1985-11-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 75535,
-   "name": "XANADU シナリオII The Resurrection of Dragon",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/c7/75535_LajtN.jpg",
-   "date": "1986-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255697,
-   "name": "FAXANADU",
-   "nameCN": "沙那多",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/d2/255697_n6n2t.jpg",
-   "date": "1987-11-16",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258464,
-   "name": "Revival XANADU",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/2b/258464_hAy2Q.jpg",
-   "date": "1995-04-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258466,
-   "name": "Revival XANADU II REMIX",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/03/258466_98Ioi.jpg",
-   "date": "1995-12-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1919,
-   "dst": 74982
-  },
-  {
-   "relate": "前传",
-   "src": 74887,
-   "dst": 74982
-  },
-  {
-   "relate": "续集",
-   "src": 74982,
-   "dst": 1919
-  },
-  {
-   "relate": "续集",
-   "src": 74982,
-   "dst": 74887
-  },
-  {
-   "relate": "不同演绎",
-   "src": 74982,
-   "dst": 258464
-  },
-  {
-   "relate": "主线故事",
-   "src": 75535,
-   "dst": 74982
-  },
-  {
-   "relate": "不同演绎",
-   "src": 75535,
-   "dst": 258466
-  },
-  {
-   "relate": "主线故事",
-   "src": 255697,
-   "dst": 74982
-  },
-  {
-   "relate": "不同演绎",
-   "src": 258464,
-   "dst": 74982
-  },
-  {
-   "relate": "不同演绎",
-   "src": 258466,
-   "dst": 75535
-  }
- ]
+  "id": "1919",
+  "node": [
+    {
+      "id": 1919,
+      "name": "XANADU NEXT",
+      "nameCN": "迷城的国度Next",
+      "date": "2005-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 74982,
+      "name": "XANADU",
+      "nameCN": "仙那度",
+      "date": "1985-11-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 74887,
+      "name": "ロマンシア",
+      "nameCN": "爱的罗曼史",
+      "date": "1986-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258464,
+      "name": "Revival XANADU",
+      "nameCN": "",
+      "date": "1995-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 75535,
+      "name": "XANADU シナリオII The Resurrection of Dragon",
+      "nameCN": "",
+      "date": "1986-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258466,
+      "name": "Revival XANADU II REMIX",
+      "nameCN": "",
+      "date": "1995-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255697,
+      "name": "FAXANADU",
+      "nameCN": "沙那多",
+      "date": "1987-11-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1919,
+      "dst": 74982
+    },
+    {
+      "relateString": "前传",
+      "src": 74887,
+      "dst": 74982
+    },
+    {
+      "relateString": "续集",
+      "src": 74982,
+      "dst": 1919
+    },
+    {
+      "relateString": "续集",
+      "src": 74982,
+      "dst": 74887
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 74982,
+      "dst": 258464
+    },
+    {
+      "relateString": "主线故事",
+      "src": 75535,
+      "dst": 74982
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 75535,
+      "dst": 258466
+    },
+    {
+      "relateString": "主线故事",
+      "src": 255697,
+      "dst": 74982
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 258464,
+      "dst": 74982
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 258466,
+      "dst": 75535
+    }
+  ]
 }

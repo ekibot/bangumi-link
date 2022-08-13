@@ -1,37 +1,35 @@
 {
- "id": 183408,
- "node": [
-  {
-   "id": 183408,
-   "name": "最好的我们",
-   "nameCN": "最好的我们",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/7a/183408_3eC3u.jpg",
-   "date": "2016-04-08",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 234276,
-   "name": "你好，旧时光",
-   "nameCN": "你好，旧时光",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/e1/234276_s0dOO.jpg",
-   "date": "2017-11-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 183408,
-   "dst": 234276
-  },
-  {
-   "relate": "相同世界观",
-   "src": 234276,
-   "dst": 183408
-  }
- ]
+  "id": "183408",
+  "node": [
+    {
+      "id": 183408,
+      "name": "最好的我们",
+      "nameCN": "最好的我们",
+      "date": "2016-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 234276,
+      "name": "你好，旧时光",
+      "nameCN": "你好，旧时光",
+      "date": "2017-11-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 183408,
+      "dst": 234276
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 234276,
+      "dst": 183408
+    }
+  ]
 }

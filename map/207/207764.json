@@ -1,37 +1,35 @@
 {
- "id": 207764,
- "node": [
-  {
-   "id": 207764,
-   "name": "Riverdale",
-   "nameCN": "河谷镇",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/70/207764_9pipC.jpg",
-   "date": "2017-01-26",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 227720,
-   "name": "Riverdale Season 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/39/227720_vrsR7.jpg",
-   "date": "2017-10-11",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 207764,
-   "dst": 227720
-  },
-  {
-   "relate": "前传",
-   "src": 227720,
-   "dst": 207764
-  }
- ]
+  "id": "207764",
+  "node": [
+    {
+      "id": 207764,
+      "name": "Riverdale",
+      "nameCN": "河谷镇",
+      "date": "2017-01-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 227720,
+      "name": "Riverdale Season 2",
+      "nameCN": "",
+      "date": "2017-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 207764,
+      "dst": 227720
+    },
+    {
+      "relateString": "前传",
+      "src": 227720,
+      "dst": 207764
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 217246,
- "node": [
-  {
-   "id": 217246,
-   "name": "ぽぽたん",
-   "nameCN": "蒲公英",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/71/217246_9luUM.jpg",
-   "date": "2002-12-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 217247,
-   "name": "ぽぽたんファンディスク　いっしょにA・SO・BO",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/70/217247_O3F3r.jpg",
-   "date": "2003-07-11",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217246,
-   "dst": 217247
-  },
-  {
-   "relate": "前传",
-   "src": 217247,
-   "dst": 217246
-  }
- ]
+  "id": "217246",
+  "node": [
+    {
+      "id": 217246,
+      "name": "ぽぽたん",
+      "nameCN": "蒲公英",
+      "date": "2002-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217247,
+      "name": "ぽぽたんファンディスク　いっしょにA・SO・BO",
+      "nameCN": "",
+      "date": "2003-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217246,
+      "dst": 217247
+    },
+    {
+      "relateString": "前传",
+      "src": 217247,
+      "dst": 217246
+    }
+  ]
 }

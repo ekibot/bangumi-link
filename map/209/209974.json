@@ -1,37 +1,35 @@
 {
- "id": 209974,
- "node": [
-  {
-   "id": 209974,
-   "name": "ほめられてのびるらじおPP",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/3b/209974_s1BEM.jpg",
-   "date": "2007-03-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 209975,
-   "name": "ほめられてのびるらじおZ",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/b6/209975_PB1IT.jpg",
-   "date": "2011-05-05",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 209974,
-   "dst": 209975
-  },
-  {
-   "relate": "前传",
-   "src": 209975,
-   "dst": 209974
-  }
- ]
+  "id": "209974",
+  "node": [
+    {
+      "id": 209974,
+      "name": "ほめられてのびるらじおPP",
+      "nameCN": "",
+      "date": "2007-03-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 209975,
+      "name": "ほめられてのびるらじおZ",
+      "nameCN": "",
+      "date": "2011-05-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 209974,
+      "dst": 209975
+    },
+    {
+      "relateString": "前传",
+      "src": 209975,
+      "dst": 209974
+    }
+  ]
 }

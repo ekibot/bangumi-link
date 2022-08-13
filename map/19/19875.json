@@ -1,0 +1,67 @@
+{
+  "id": "19875",
+  "node": [
+    {
+      "id": 19875,
+      "name": "Alien Shooter",
+      "nameCN": "孤胆枪手",
+      "date": "2003-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 19876,
+      "name": "Alien Shooter 2",
+      "nameCN": "孤胆枪手2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228772,
+      "name": "Alien Shooter: Revisited",
+      "nameCN": "孤胆枪手：再度来袭",
+      "date": "2009-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228773,
+      "name": "Alien Shooter 2: Conscription",
+      "nameCN": "孤胆枪手2：征兵",
+      "date": "2012-05-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 19875,
+      "dst": 19876
+    },
+    {
+      "relateString": "前传",
+      "src": 19876,
+      "dst": 19875
+    },
+    {
+      "relateString": "续集",
+      "src": 19876,
+      "dst": 228772
+    },
+    {
+      "relateString": "前传",
+      "src": 228772,
+      "dst": 19876
+    },
+    {
+      "relateString": "主线故事",
+      "src": 228773,
+      "dst": 19876
+    }
+  ]
+}

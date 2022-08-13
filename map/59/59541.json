@@ -1,37 +1,33 @@
 {
- "id": 59541,
- "node": [
-  {
-   "id": 59541,
-   "name": "僕の初恋をキミに捧ぐ",
-   "nameCN": "我的初恋情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/2f/59541_j19z1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 59653,
-   "name": "僕は妹に恋をする",
-   "nameCN": "妹妹恋人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/d8/59653_WVxl8.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 59541,
-   "dst": 59653
-  },
-  {
-   "relate": "相同世界观",
-   "src": 59653,
-   "dst": 59541
-  }
- ]
+  "id": "59541",
+  "node": [
+    {
+      "id": 59541,
+      "name": "僕の初恋をキミに捧ぐ",
+      "nameCN": "我的初恋情人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59653,
+      "name": "僕は妹に恋をする",
+      "nameCN": "妹妹恋人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 59541,
+      "dst": 59653
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 59653,
+      "dst": 59541
+    }
+  ]
 }

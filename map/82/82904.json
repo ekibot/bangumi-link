@@ -1,57 +1,54 @@
 {
- "id": 82904,
- "node": [
-  {
-   "id": 82904,
-   "name": "エデン",
-   "nameCN": "重返伊甸园",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/83/82904_jp.jpg",
-   "date": "2011-12-17",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 82905,
-   "name": "ノーウェア",
-   "nameCN": "窒碍难行",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/07/82905_jp.jpg",
-   "date": "2010-08-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 82906,
-   "name": "コーリング",
-   "nameCN": "当铃声响起",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/a7/82906_jp.jpg",
-   "date": "2009-02-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 82904,
-   "dst": 82905
-  },
-  {
-   "relate": "续集",
-   "src": 82905,
-   "dst": 82904
-  },
-  {
-   "relate": "前传",
-   "src": 82905,
-   "dst": 82906
-  },
-  {
-   "relate": "续集",
-   "src": 82906,
-   "dst": 82905
-  }
- ]
+  "id": "82904",
+  "node": [
+    {
+      "id": 82904,
+      "name": "エデン",
+      "nameCN": "重返伊甸园",
+      "date": "2011-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82905,
+      "name": "ノーウェア",
+      "nameCN": "窒碍难行",
+      "date": "2010-08-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82906,
+      "name": "コーリング",
+      "nameCN": "当铃声响起",
+      "date": "2009-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 82904,
+      "dst": 82905
+    },
+    {
+      "relateString": "续集",
+      "src": 82905,
+      "dst": 82904
+    },
+    {
+      "relateString": "前传",
+      "src": 82905,
+      "dst": 82906
+    },
+    {
+      "relateString": "续集",
+      "src": 82906,
+      "dst": 82905
+    }
+  ]
 }

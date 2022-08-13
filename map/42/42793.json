@@ -1,37 +1,35 @@
 {
- "id": 42793,
- "node": [
-  {
-   "id": 42793,
-   "name": "リッチマン、プアウーマン",
-   "nameCN": "富贵男贫穷女",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/06/42793_4AmBA.jpg",
-   "date": "2012-07-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 65221,
-   "name": "リッチマン、プアウーマン in ニューヨーク",
-   "nameCN": "Rich Man、Poor Woman 2013春SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/bb/65221_JjjQq.jpg",
-   "date": "2013-04-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 42793,
-   "dst": 65221
-  },
-  {
-   "relate": "前传",
-   "src": 65221,
-   "dst": 42793
-  }
- ]
+  "id": "42793",
+  "node": [
+    {
+      "id": 42793,
+      "name": "リッチマン、プアウーマン",
+      "nameCN": "富贵男贫穷女",
+      "date": "2012-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 65221,
+      "name": "リッチマン、プアウーマン in ニューヨーク",
+      "nameCN": "Rich Man、Poor Woman 2013春SP",
+      "date": "2013-04-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 42793,
+      "dst": 65221
+    },
+    {
+      "relateString": "前传",
+      "src": 65221,
+      "dst": 42793
+    }
+  ]
 }

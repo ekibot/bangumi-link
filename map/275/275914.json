@@ -1,37 +1,35 @@
 {
- "id": 275914,
- "node": [
-  {
-   "id": 275914,
-   "name": "おしい刑事",
-   "nameCN": "掉链子刑警",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/b0/275914_EfUCq.jpg",
-   "date": "2019-05-05",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 320965,
-   "name": "やっぱりおしい刑事",
-   "nameCN": "果然是掉链子刑警",
-   "date": "2021-03-07",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 275914,
-   "dst": 320965
-  },
-  {
-   "relate": "前传",
-   "src": 320965,
-   "dst": 275914
-  }
- ]
+  "id": "275914",
+  "node": [
+    {
+      "id": 275914,
+      "name": "おしい刑事",
+      "nameCN": "掉链子刑警",
+      "date": "2019-05-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 320965,
+      "name": "やっぱりおしい刑事",
+      "nameCN": "果然是掉链子刑警",
+      "date": "2021-03-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 275914,
+      "dst": 320965
+    },
+    {
+      "relateString": "前传",
+      "src": 320965,
+      "dst": 275914
+    }
+  ]
 }

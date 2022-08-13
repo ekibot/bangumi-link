@@ -1,40 +1,64 @@
 {
- "id": 247828,
- "node": [
-  {
-   "id": 247828,
-   "name": "家神女房-イエガミニョウボウ- ～残念美人な白狐と同棲始めました。～",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/26/247828_778y3.jpg",
-   "date": "2018-07-27",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 262368,
-   "name": "家神女房-イエガミニョウボウ- ～名無し猫又は神Tuber～",
-   "nameCN": "家有仙妻～无名小猫又与神Tuber～",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/4f/262368_Rs2UU.jpg",
-   "type": 4
-  },
-  {
-   "id": 282683,
-   "name": "家神女房-イエガミニョウボウ- ～恋する因幡は金髪うさぎ～",
-   "nameCN": "家有神妻～恋上金发兔因幡～",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/db/282683_ZizyJ.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 247828,
-   "dst": 262368
-  },
-  {
-   "relate": "相同世界观",
-   "src": 247828,
-   "dst": 282683
-  }
- ]
+  "id": "247828",
+  "node": [
+    {
+      "id": 247828,
+      "name": "家神女房-イエガミニョウボウ- ～残念美人な白狐と同棲始めました。～",
+      "nameCN": "",
+      "date": "2018-07-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262368,
+      "name": "家神女房-イエガミニョウボウ- ～名無し猫又は神Tuber～",
+      "nameCN": "家有仙妻～无名小猫又与神Tuber～",
+      "date": "2018-11-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 282683,
+      "name": "家神女房-イエガミニョウボウ- ～恋する因幡は金髪うさぎ～",
+      "nameCN": "家有神妻～恋上金发兔因幡～",
+      "date": "2019-06-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 247828,
+      "dst": 262368
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 247828,
+      "dst": 282683
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 262368,
+      "dst": 247828
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 262368,
+      "dst": 282683
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 282683,
+      "dst": 247828
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 282683,
+      "dst": 262368
+    }
+  ]
 }

@@ -1,56 +1,54 @@
 {
- "id": 123351,
- "node": [
-  {
-   "id": 123351,
-   "name": "X Change Alternative2 ～キミノヒトミニウツルキミ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/b0/123351_VLlvf.jpg",
-   "date": "2008-09-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 174236,
-   "name": "Yin-Yang! X Change Alternative",
-   "nameCN": "Yin-Yang! X Change Alternative",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/2b/174236_x2cJx.jpg",
-   "date": "2004-10-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 274759,
-   "name": "Yin-Yang! X Change EX ～僕の先生がこんなに女なわけがない～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/3c/274759_9Ntlk.jpg",
-   "date": "2012-11-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 123351,
-   "dst": 174236
-  },
-  {
-   "relate": "续集",
-   "src": 174236,
-   "dst": 123351
-  },
-  {
-   "relate": "主线故事",
-   "src": 274759,
-   "dst": 123351
-  },
-  {
-   "relate": "主线故事",
-   "src": 274759,
-   "dst": 174236
-  }
- ]
+  "id": "123351",
+  "node": [
+    {
+      "id": 123351,
+      "name": "X Change Alternative2 ～キミノヒトミニウツルキミ～",
+      "nameCN": "",
+      "date": "2008-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 174236,
+      "name": "Yin-Yang! X Change Alternative",
+      "nameCN": "Yin-Yang! X Change Alternative",
+      "date": "2004-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 274759,
+      "name": "Yin-Yang! X Change EX ～僕の先生がこんなに女なわけがない～",
+      "nameCN": "",
+      "date": "2012-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 123351,
+      "dst": 174236
+    },
+    {
+      "relateString": "续集",
+      "src": 174236,
+      "dst": 123351
+    },
+    {
+      "relateString": "主线故事",
+      "src": 274759,
+      "dst": 123351
+    },
+    {
+      "relateString": "主线故事",
+      "src": 274759,
+      "dst": 174236
+    }
+  ]
 }

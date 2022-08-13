@@ -1,37 +1,33 @@
 {
- "id": 341532,
- "node": [
-  {
-   "id": 341532,
-   "name": "충무공전：난중일기편",
-   "nameCN": "风雪江山",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 341537,
-   "name": "충무공전2：난세영웅편",
-   "nameCN": "争战天下",
-   "date": null,
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 341532,
-   "dst": 341537
-  },
-  {
-   "relate": "前传",
-   "src": 341537,
-   "dst": 341532
-  }
- ]
+  "id": "341532",
+  "node": [
+    {
+      "id": 341532,
+      "name": "충무공전：난중일기편",
+      "nameCN": "风雪江山",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 341537,
+      "name": "충무공전2：난세영웅편",
+      "nameCN": "争战天下",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 341532,
+      "dst": 341537
+    },
+    {
+      "relateString": "前传",
+      "src": 341537,
+      "dst": 341532
+    }
+  ]
 }

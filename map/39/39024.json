@@ -1,97 +1,92 @@
 {
- "id": 39024,
- "node": [
-  {
-   "id": 39024,
-   "name": "Jackie Chan Adventures Season 1",
-   "nameCN": "成龙历险记 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/cd/39024_yzwyh.jpg",
-   "date": "2000-09-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 334399,
-   "name": "Jackie Chan Adventures Season 2",
-   "nameCN": "成龙历险记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/aa/334399_S02Ho.jpg",
-   "date": "2001-09-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 334400,
-   "name": "Jackie Chan Adventures Season 3",
-   "nameCN": "成龙历险记 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/78/334400_Y4zsS.jpg",
-   "date": "2002-09-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 334401,
-   "name": "Jackie Chan Adventures Season 4",
-   "nameCN": "成龙历险记 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/85/334401_DdaGn.jpg",
-   "date": "2003-09-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 334402,
-   "name": "Jackie Chan Adventures Season 5",
-   "nameCN": "成龙历险记 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/2d/334402_m2r33.jpg",
-   "date": "2004-09-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 39024,
-   "dst": 334399
-  },
-  {
-   "relate": "前传",
-   "src": 334399,
-   "dst": 39024
-  },
-  {
-   "relate": "续集",
-   "src": 334399,
-   "dst": 334400
-  },
-  {
-   "relate": "前传",
-   "src": 334400,
-   "dst": 334399
-  },
-  {
-   "relate": "续集",
-   "src": 334400,
-   "dst": 334401
-  },
-  {
-   "relate": "前传",
-   "src": 334401,
-   "dst": 334400
-  },
-  {
-   "relate": "续集",
-   "src": 334401,
-   "dst": 334402
-  },
-  {
-   "relate": "前传",
-   "src": 334402,
-   "dst": 334401
-  }
- ]
+  "id": "39024",
+  "node": [
+    {
+      "id": 39024,
+      "name": "Jackie Chan Adventures Season 1",
+      "nameCN": "成龙历险记 第一季",
+      "date": "2000-09-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 334399,
+      "name": "Jackie Chan Adventures Season 2",
+      "nameCN": "成龙历险记 第二季",
+      "date": "2001-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 334400,
+      "name": "Jackie Chan Adventures Season 3",
+      "nameCN": "成龙历险记 第三季",
+      "date": "2002-09-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 334401,
+      "name": "Jackie Chan Adventures Season 4",
+      "nameCN": "成龙历险记 第四季",
+      "date": "2003-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 334402,
+      "name": "Jackie Chan Adventures Season 5",
+      "nameCN": "成龙历险记 第五季",
+      "date": "2004-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 39024,
+      "dst": 334399
+    },
+    {
+      "relateString": "前传",
+      "src": 334399,
+      "dst": 39024
+    },
+    {
+      "relateString": "续集",
+      "src": 334399,
+      "dst": 334400
+    },
+    {
+      "relateString": "前传",
+      "src": 334400,
+      "dst": 334399
+    },
+    {
+      "relateString": "续集",
+      "src": 334400,
+      "dst": 334401
+    },
+    {
+      "relateString": "前传",
+      "src": 334401,
+      "dst": 334400
+    },
+    {
+      "relateString": "续集",
+      "src": 334401,
+      "dst": 334402
+    },
+    {
+      "relateString": "前传",
+      "src": 334402,
+      "dst": 334401
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 144028,
- "node": [
-  {
-   "id": 144028,
-   "name": "ニル・アドミラリの天秤 帝都幻惑綺譚",
-   "nameCN": "冷然之天秤 帝都幻惑绮谭",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/d9/144028_l3zFh.jpg",
-   "date": "2016-04-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 202243,
-   "name": "ニル・アドミラリの天秤 クロユリ炎陽譚",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/40/202243_h76Qb.jpg",
-   "date": "2017-09-21",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144028,
-   "dst": 202243
-  },
-  {
-   "relate": "前传",
-   "src": 202243,
-   "dst": 144028
-  }
- ]
+  "id": "144028",
+  "node": [
+    {
+      "id": 144028,
+      "name": "ニル・アドミラリの天秤 帝都幻惑綺譚",
+      "nameCN": "冷然之天秤 帝都幻惑绮谭",
+      "date": "2016-04-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202243,
+      "name": "ニル・アドミラリの天秤 クロユリ炎陽譚",
+      "nameCN": "",
+      "date": "2017-09-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144028,
+      "dst": 202243
+    },
+    {
+      "relateString": "前传",
+      "src": 202243,
+      "dst": 144028
+    }
+  ]
 }

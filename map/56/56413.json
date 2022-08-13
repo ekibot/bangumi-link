@@ -1,37 +1,35 @@
 {
- "id": 56413,
- "node": [
-  {
-   "id": 56413,
-   "name": "2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/dd/56413_qs7ZM.jpg",
-   "date": "2012-08-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 149642,
-   "name": "[映]アムリタ",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/3b/149642_XIUxp.jpg",
-   "date": "2009-12-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 56413,
-   "dst": 149642
-  },
-  {
-   "relate": "续集",
-   "src": 149642,
-   "dst": 56413
-  }
- ]
+  "id": "56413",
+  "node": [
+    {
+      "id": 56413,
+      "name": "2",
+      "nameCN": "",
+      "date": "2012-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 149642,
+      "name": "[映]アムリタ",
+      "nameCN": "",
+      "date": "2009-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 56413,
+      "dst": 149642
+    },
+    {
+      "relateString": "续集",
+      "src": 149642,
+      "dst": 56413
+    }
+  ]
 }

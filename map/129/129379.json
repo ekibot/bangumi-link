@@ -1,37 +1,33 @@
 {
- "id": 129379,
- "node": [
-  {
-   "id": 129379,
-   "name": "匠三代",
-   "nameCN": "匠三代",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/10/129379_0OmfB.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 176418,
-   "name": "匠三代 深川大家族",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/c2/176418_dp440.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129379,
-   "dst": 176418
-  },
-  {
-   "relate": "前传",
-   "src": 176418,
-   "dst": 129379
-  }
- ]
+  "id": "129379",
+  "node": [
+    {
+      "id": 129379,
+      "name": "匠三代",
+      "nameCN": "匠三代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 176418,
+      "name": "匠三代 深川大家族",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129379,
+      "dst": 176418
+    },
+    {
+      "relateString": "前传",
+      "src": 176418,
+      "dst": 129379
+    }
+  ]
 }

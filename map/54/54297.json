@@ -1,37 +1,35 @@
 {
- "id": 54297,
- "node": [
-  {
-   "id": 54297,
-   "name": "はだしのゲン",
-   "nameCN": "赤足小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/f2/54297_edN3b.jpg",
-   "date": "1983-07-21",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 137099,
-   "name": "はだしのゲン2",
-   "nameCN": "赤足小子2",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/9b/137099_M4jGJ.jpg",
-   "date": "1986-06-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 54297,
-   "dst": 137099
-  },
-  {
-   "relate": "前传",
-   "src": 137099,
-   "dst": 54297
-  }
- ]
+  "id": "54297",
+  "node": [
+    {
+      "id": 54297,
+      "name": "はだしのゲン",
+      "nameCN": "赤足小子",
+      "date": "1983-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 137099,
+      "name": "はだしのゲン2",
+      "nameCN": "赤足小子2",
+      "date": "1986-06-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 54297,
+      "dst": 137099
+    },
+    {
+      "relateString": "前传",
+      "src": 137099,
+      "dst": 54297
+    }
+  ]
 }

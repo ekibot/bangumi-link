@@ -1,87 +1,76 @@
 {
- "id": 1851,
- "node": [
-  {
-   "id": 1851,
-   "name": "Angel Beats!",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/14/1851_ZFEg7.jpg",
-   "date": "2010-04-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 4561,
-   "name": "Angel Beats!-Track ZERO",
-   "nameCN": "Angel Beats!-Track ZERO",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/3c/4561_D9599.jpg",
-   "type": 1
-  },
-  {
-   "id": 54369,
-   "name": "Angel Beats! - Heaven's Door -",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/72/54369_D29H9.jpg",
-   "nameCN": "",
-   "type": 1
-  },
-  {
-   "id": 54370,
-   "name": "Angel Beats! The 4コマ 僕らの戦線行進曲♪",
-   "nameCN": "Angel Beats! The 四格漫画 我们的战线行进曲♪",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/e6/54370_AnJ9h.jpg",
-   "type": 1
-  },
-  {
-   "id": 120930,
-   "name": "Angel Beats! Hell's Kitchen",
-   "nameCN": "Angel Beats! 地狱厨房",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/09/120930_fRQW1.jpg",
-   "date": "2015-06-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 223963,
-   "name": "Angel Beats! -The Last Operation-",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/68/223982_N0qE8.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1851,
-   "dst": 4561
-  },
-  {
-   "relate": "前传",
-   "src": 1851,
-   "dst": 54369
-  },
-  {
-   "relate": "番外篇",
-   "src": 1851,
-   "dst": 54370
-  },
-  {
-   "relate": "番外篇",
-   "src": 1851,
-   "dst": 120930
-  },
-  {
-   "relate": "主线故事",
-   "src": 120930,
-   "dst": 1851
-  },
-  {
-   "relate": "不同演绎",
-   "src": 223963,
-   "dst": 1851
-  }
- ]
+  "id": "1851",
+  "node": [
+    {
+      "id": 1851,
+      "name": "Angel Beats!",
+      "nameCN": "",
+      "date": "2010-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 4561,
+      "name": "Angel Beats!-Track ZERO",
+      "nameCN": "Angel Beats!-Track ZERO",
+      "date": "2010-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 54369,
+      "name": "Angel Beats! - Heaven's Door -",
+      "nameCN": "",
+      "date": "2010-03-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 54370,
+      "name": "Angel Beats! The 4コマ 僕らの戦線行進曲♪",
+      "nameCN": "Angel Beats! The 四格漫画 我们的战线行进曲♪",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120930,
+      "name": "Angel Beats! Hell's Kitchen",
+      "nameCN": "Angel Beats! 地狱厨房",
+      "date": "2015-06-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1851,
+      "dst": 4561
+    },
+    {
+      "relateString": "前传",
+      "src": 1851,
+      "dst": 54369
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1851,
+      "dst": 54370
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1851,
+      "dst": 120930
+    },
+    {
+      "relateString": "主线故事",
+      "src": 120930,
+      "dst": 1851
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 236943,
- "node": [
-  {
-   "id": 236943,
-   "name": "カラダ探し",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/d5/236943_ZKY0a.jpg",
-   "date": "2016-11-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 280662,
-   "name": "カラダ探し 第二夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/05/280662_JM4aG.jpg",
-   "date": "2017-11-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 280663,
-   "name": "カラダ探し 第三夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/44/280663_8JbHJ.jpg",
-   "date": "2018-11-21",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 389755,
-   "name": "カラダ探し 最終夜",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/2a/389755_66GIv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 236943,
-   "dst": 280662
-  },
-  {
-   "relate": "前传",
-   "src": 280662,
-   "dst": 236943
-  },
-  {
-   "relate": "续集",
-   "src": 280662,
-   "dst": 280663
-  },
-  {
-   "relate": "前传",
-   "src": 280663,
-   "dst": 280662
-  },
-  {
-   "relate": "续集",
-   "src": 280663,
-   "dst": 389755
-  },
-  {
-   "relate": "前传",
-   "src": 389755,
-   "dst": 280663
-  }
- ]
+  "id": "236943",
+  "node": [
+    {
+      "id": 236943,
+      "name": "カラダ探し",
+      "nameCN": "",
+      "date": "2016-11-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 280662,
+      "name": "カラダ探し 第二夜",
+      "nameCN": "",
+      "date": "2017-11-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 280663,
+      "name": "カラダ探し 第三夜",
+      "nameCN": "",
+      "date": "2018-11-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 389755,
+      "name": "カラダ探し 最終夜",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 236943,
+      "dst": 280662
+    },
+    {
+      "relateString": "前传",
+      "src": 280662,
+      "dst": 236943
+    },
+    {
+      "relateString": "续集",
+      "src": 280662,
+      "dst": 280663
+    },
+    {
+      "relateString": "前传",
+      "src": 280663,
+      "dst": 280662
+    },
+    {
+      "relateString": "续集",
+      "src": 280663,
+      "dst": 389755
+    },
+    {
+      "relateString": "前传",
+      "src": 389755,
+      "dst": 280663
+    }
+  ]
 }

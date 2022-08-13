@@ -1,57 +1,54 @@
 {
- "id": 256624,
- "node": [
-  {
-   "id": 256624,
-   "name": "Syphon Filter",
-   "nameCN": "虹吸战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/a5/256624_1Xj2r.jpg",
-   "date": "1999-02-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256634,
-   "name": "Syphon Filter 2",
-   "nameCN": "虹吸战士2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/0d/256634_3ZhNh.jpg",
-   "date": "2000-03-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 260885,
-   "name": "Syphon Filter 3",
-   "nameCN": "虹吸战士3",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/43/260885_Hz6eD.jpg",
-   "date": "2001-11-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 256624,
-   "dst": 256634
-  },
-  {
-   "relate": "前传",
-   "src": 256634,
-   "dst": 256624
-  },
-  {
-   "relate": "续集",
-   "src": 256634,
-   "dst": 260885
-  },
-  {
-   "relate": "前传",
-   "src": 260885,
-   "dst": 256634
-  }
- ]
+  "id": "256624",
+  "node": [
+    {
+      "id": 256624,
+      "name": "Syphon Filter",
+      "nameCN": "虹吸战士",
+      "date": "1999-02-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256634,
+      "name": "Syphon Filter 2",
+      "nameCN": "虹吸战士2",
+      "date": "2000-03-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260885,
+      "name": "Syphon Filter 3",
+      "nameCN": "虹吸战士3",
+      "date": "2001-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 256624,
+      "dst": 256634
+    },
+    {
+      "relateString": "前传",
+      "src": 256634,
+      "dst": 256624
+    },
+    {
+      "relateString": "续集",
+      "src": 256634,
+      "dst": 260885
+    },
+    {
+      "relateString": "前传",
+      "src": 260885,
+      "dst": 256634
+    }
+  ]
 }

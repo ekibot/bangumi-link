@@ -1,57 +1,54 @@
 {
- "id": 234191,
- "node": [
-  {
-   "id": 234191,
-   "name": "DARK Season 1",
-   "nameCN": "闇 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/5a/234191_7qcx7.jpg",
-   "date": "2017-12-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 283213,
-   "name": "Dark Season 2",
-   "nameCN": "闇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/08/283213_A6F2Y.jpg",
-   "date": "2019-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 309569,
-   "name": "Dark Season 3",
-   "nameCN": "闇 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/98/309569_Ou05k.jpg",
-   "date": "2020-06-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234191,
-   "dst": 283213
-  },
-  {
-   "relate": "前传",
-   "src": 283213,
-   "dst": 234191
-  },
-  {
-   "relate": "续集",
-   "src": 283213,
-   "dst": 309569
-  },
-  {
-   "relate": "前传",
-   "src": 309569,
-   "dst": 283213
-  }
- ]
+  "id": "234191",
+  "node": [
+    {
+      "id": 234191,
+      "name": "DARK Season 1",
+      "nameCN": "闇 第一季",
+      "date": "2017-12-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 283213,
+      "name": "Dark Season 2",
+      "nameCN": "闇 第二季",
+      "date": "2019-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 309569,
+      "name": "Dark Season 3",
+      "nameCN": "闇 第三季",
+      "date": "2020-06-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234191,
+      "dst": 283213
+    },
+    {
+      "relateString": "前传",
+      "src": 283213,
+      "dst": 234191
+    },
+    {
+      "relateString": "续集",
+      "src": 283213,
+      "dst": 309569
+    },
+    {
+      "relateString": "前传",
+      "src": 309569,
+      "dst": 283213
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 299582,
- "node": [
-  {
-   "id": 299582,
-   "name": "放課後くえすと！1",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/11/299582_PpOAJ.jpg",
-   "date": "2014-04-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 299583,
-   "name": "放課後くえすと！２",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/72/299583_71v7L.jpg",
-   "date": "2015-04-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 299582,
-   "dst": 299583
-  },
-  {
-   "relate": "前传",
-   "src": 299583,
-   "dst": 299582
-  }
- ]
+  "id": "299582",
+  "node": [
+    {
+      "id": 299582,
+      "name": "放課後くえすと！1",
+      "nameCN": "",
+      "date": "2014-04-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299583,
+      "name": "放課後くえすと！２",
+      "nameCN": "",
+      "date": "2015-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 299582,
+      "dst": 299583
+    },
+    {
+      "relateString": "前传",
+      "src": 299583,
+      "dst": 299582
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 165046,
- "node": [
-  {
-   "id": 165046,
-   "name": "DAYS",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/b4/165046_p88u9.jpg",
-   "date": "2016-07-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 192589,
-   "name": "DAYS OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/e0/192589_ozfP8.jpg",
-   "date": "2017-03-17",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 228275,
-   "name": "DAYS 東院学園戦",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/9f/228275_IaOI2.jpg",
-   "date": "2018-03-16",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 165046,
-   "dst": 192589
-  },
-  {
-   "relate": "续集",
-   "src": 165046,
-   "dst": 228275
-  },
-  {
-   "relate": "主线故事",
-   "src": 192589,
-   "dst": 165046
-  },
-  {
-   "relate": "前传",
-   "src": 228275,
-   "dst": 165046
-  }
- ]
+  "id": "165046",
+  "node": [
+    {
+      "id": 165046,
+      "name": "DAYS",
+      "nameCN": "",
+      "date": "2016-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 192589,
+      "name": "DAYS OAD",
+      "nameCN": "",
+      "date": "2017-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 228275,
+      "name": "DAYS 東院学園戦",
+      "nameCN": "",
+      "date": "2018-03-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 165046,
+      "dst": 192589
+    },
+    {
+      "relateString": "续集",
+      "src": 165046,
+      "dst": 228275
+    },
+    {
+      "relateString": "主线故事",
+      "src": 192589,
+      "dst": 165046
+    },
+    {
+      "relateString": "前传",
+      "src": 228275,
+      "dst": 165046
+    }
+  ]
 }

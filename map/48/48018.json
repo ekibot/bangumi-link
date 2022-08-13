@@ -1,57 +1,53 @@
 {
- "id": 48018,
- "node": [
-  {
-   "id": 48018,
-   "name": "ベルサイユのばら",
-   "nameCN": "凡尔赛玫瑰（MARGARET COMICS）",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/ec/48018_C4j6t.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 389312,
-   "name": "ベルサイユのばら外伝",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/c0/389312_0mfG1.jpg",
-   "type": 1,
-   "date": "1985-10-03",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 389316,
-   "name": "ベルばらKids",
-   "nameCN": "凡尔赛玫瑰Kids（单行本）",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/25/389316_6zN1z.jpg",
-   "type": 1,
-   "date": "2006-10-01",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 48018,
-   "dst": 389312
-  },
-  {
-   "relate": "番外篇",
-   "src": 48018,
-   "dst": 389316
-  },
-  {
-   "relate": "主线故事",
-   "src": 389312,
-   "dst": 48018
-  },
-  {
-   "relate": "主线故事",
-   "src": 389316,
-   "dst": 48018
-  }
- ]
+  "id": "48018",
+  "node": [
+    {
+      "id": 48018,
+      "name": "ベルサイユのばら",
+      "nameCN": "凡尔赛玫瑰（MARGARET COMICS）",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 389312,
+      "name": "ベルサイユのばら外伝",
+      "nameCN": "",
+      "date": "1985-10-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 389316,
+      "name": "ベルばらKids",
+      "nameCN": "凡尔赛玫瑰Kids（单行本）",
+      "date": "2006-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 48018,
+      "dst": 389312
+    },
+    {
+      "relateString": "番外篇",
+      "src": 48018,
+      "dst": 389316
+    },
+    {
+      "relateString": "主线故事",
+      "src": 389312,
+      "dst": 48018
+    },
+    {
+      "relateString": "主线故事",
+      "src": 389316,
+      "dst": 48018
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 1009,
- "node": [
-  {
-   "id": 1009,
-   "name": "ネオ アンジェリーク Abyss",
-   "nameCN": "新安琪莉可Abyss",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/b3/1009_H4lKF.jpg",
-   "date": "2008-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 21035,
-   "name": "ネオ アンジェリークAbyss -Second Age",
-   "nameCN": "新安琪莉可 abyss 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/49/21035_cp1D9.jpg",
-   "date": "2008-07-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1009,
-   "dst": 21035
-  },
-  {
-   "relate": "前传",
-   "src": 21035,
-   "dst": 1009
-  }
- ]
+  "id": "1009",
+  "node": [
+    {
+      "id": 1009,
+      "name": "ネオ アンジェリーク Abyss",
+      "nameCN": "新安琪莉可Abyss",
+      "date": "2008-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 21035,
+      "name": "ネオ アンジェリークAbyss -Second Age",
+      "nameCN": "新安琪莉可 abyss 第二季",
+      "date": "2008-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1009,
+      "dst": 21035
+    },
+    {
+      "relateString": "前传",
+      "src": 21035,
+      "dst": 1009
+    }
+  ]
 }

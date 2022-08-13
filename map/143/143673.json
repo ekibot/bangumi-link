@@ -1,57 +1,53 @@
 {
- "id": 143673,
- "node": [
-  {
-   "id": 143673,
-   "name": "Blindspot Season 1",
-   "nameCN": "盲点 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/b6/143673_707TF.jpg",
-   "date": "2015-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 194647,
-   "name": "Blindspot Season 2",
-   "nameCN": "盲点 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/24/194647_3ugzG.jpg",
-   "date": "2016-09-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 215385,
-   "name": "Blindspot Season 3",
-   "nameCN": "盲点 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/a0/215385_Tya5y.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143673,
-   "dst": 194647
-  },
-  {
-   "relate": "前传",
-   "src": 194647,
-   "dst": 143673
-  },
-  {
-   "relate": "续集",
-   "src": 194647,
-   "dst": 215385
-  },
-  {
-   "relate": "前传",
-   "src": 215385,
-   "dst": 194647
-  }
- ]
+  "id": "143673",
+  "node": [
+    {
+      "id": 143673,
+      "name": "Blindspot Season 1",
+      "nameCN": "盲点 第一季",
+      "date": "2015-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 194647,
+      "name": "Blindspot Season 2",
+      "nameCN": "盲点 第二季",
+      "date": "2016-09-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 215385,
+      "name": "Blindspot Season 3",
+      "nameCN": "盲点 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143673,
+      "dst": 194647
+    },
+    {
+      "relateString": "前传",
+      "src": 194647,
+      "dst": 143673
+    },
+    {
+      "relateString": "续集",
+      "src": 194647,
+      "dst": 215385
+    },
+    {
+      "relateString": "前传",
+      "src": 215385,
+      "dst": 194647
+    }
+  ]
 }

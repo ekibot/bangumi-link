@@ -1,57 +1,54 @@
 {
- "id": 199407,
- "node": [
-  {
-   "id": 199407,
-   "name": "女生宿舍日常",
-   "nameCN": "女生宿舍日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/c2/199407_8Cc74.jpg",
-   "date": "2016-11-30",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 228331,
-   "name": "女生宿舍日常 第2季",
-   "nameCN": "女生宿舍日常 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/82/228331_96S9Z.jpg",
-   "date": "2017-10-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 236566,
-   "name": "宿舍不日常",
-   "nameCN": "宿舍不日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/4a/236566_L3HJV.jpg",
-   "date": "2018-01-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 199407,
-   "dst": 228331
-  },
-  {
-   "relate": "前传",
-   "src": 228331,
-   "dst": 199407
-  },
-  {
-   "relate": "续集",
-   "src": 228331,
-   "dst": 236566
-  },
-  {
-   "relate": "前传",
-   "src": 236566,
-   "dst": 228331
-  }
- ]
+  "id": "199407",
+  "node": [
+    {
+      "id": 199407,
+      "name": "女生宿舍日常",
+      "nameCN": "女生宿舍日常",
+      "date": "2016-11-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 228331,
+      "name": "女生宿舍日常 第2季",
+      "nameCN": "女生宿舍日常 第二季",
+      "date": "2017-10-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 236566,
+      "name": "宿舍不日常",
+      "nameCN": "宿舍不日常",
+      "date": "2018-01-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 199407,
+      "dst": 228331
+    },
+    {
+      "relateString": "前传",
+      "src": 228331,
+      "dst": 199407
+    },
+    {
+      "relateString": "续集",
+      "src": 228331,
+      "dst": 236566
+    },
+    {
+      "relateString": "前传",
+      "src": 236566,
+      "dst": 228331
+    }
+  ]
 }

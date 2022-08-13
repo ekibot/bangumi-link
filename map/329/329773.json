@@ -1,37 +1,35 @@
 {
- "id": 329773,
- "node": [
-  {
-   "id": 329773,
-   "name": "異世界不倫～魔王討伐から十年、妻とはレスの元勇者と、夫を亡くした女戦士～",
-   "nameCN": "异世界不伦勇者",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/7a/329773_5J4Bk.jpg",
-   "date": "2021-03-12",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 359984,
-   "name": "異世界不倫Ⅱ～導かれし人妻たちと不器用転生勇者～",
-   "nameCN": "异世界不伦勇者 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/8d/359984_E2n8G.jpg",
-   "type": 1,
-   "date": "2022-05-12",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 329773,
-   "dst": 359984
-  },
-  {
-   "relate": "前传",
-   "src": 359984,
-   "dst": 329773
-  }
- ]
+  "id": "329773",
+  "node": [
+    {
+      "id": 329773,
+      "name": "異世界不倫～魔王討伐から十年、妻とはレスの元勇者と、夫を亡くした女戦士～",
+      "nameCN": "异世界不伦勇者",
+      "date": "2021-03-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 359984,
+      "name": "異世界不倫Ⅱ～導かれし人妻たちと不器用転生勇者～",
+      "nameCN": "异世界不伦勇者 2",
+      "date": "2022-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 329773,
+      "dst": 359984
+    },
+    {
+      "relateString": "前传",
+      "src": 359984,
+      "dst": 329773
+    }
+  ]
 }

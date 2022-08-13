@@ -1,37 +1,35 @@
 {
- "id": 181087,
- "node": [
-  {
-   "id": 181087,
-   "name": "Nidhogg",
-   "nameCN": "尼德霍格",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/d0/181087_5XFU9.jpg",
-   "date": "2014-01-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 223788,
-   "name": "Nidhogg 2",
-   "nameCN": "尼德霍格2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/14/223788_9c2E9.jpg",
-   "date": "2017-08-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 181087,
-   "dst": 223788
-  },
-  {
-   "relate": "前传",
-   "src": 223788,
-   "dst": 181087
-  }
- ]
+  "id": "181087",
+  "node": [
+    {
+      "id": 181087,
+      "name": "Nidhogg",
+      "nameCN": "尼德霍格",
+      "date": "2014-01-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223788,
+      "name": "Nidhogg 2",
+      "nameCN": "尼德霍格2",
+      "date": "2017-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 181087,
+      "dst": 223788
+    },
+    {
+      "relateString": "前传",
+      "src": 223788,
+      "dst": 181087
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 33000,
- "node": [
-  {
-   "id": 33000,
-   "name": "マヨナカ生テレビ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/25/33000_TJ4kf.jpg",
-   "date": "2011-08-26",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 33001,
-   "name": "マヨナカ生テレビ The GOLDEN",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/20/33001_R4qr5.jpg",
-   "date": "2011-12-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33000,
-   "dst": 33001
-  },
-  {
-   "relate": "前传",
-   "src": 33001,
-   "dst": 33000
-  }
- ]
+  "id": "33000",
+  "node": [
+    {
+      "id": 33000,
+      "name": "マヨナカ生テレビ",
+      "nameCN": "",
+      "date": "2011-08-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 33001,
+      "name": "マヨナカ生テレビ The GOLDEN",
+      "nameCN": "",
+      "date": "2011-12-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33000,
+      "dst": 33001
+    },
+    {
+      "relateString": "前传",
+      "src": 33001,
+      "dst": 33000
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 229634,
- "node": [
-  {
-   "id": 229634,
-   "name": "モンスター娘のお医者さん",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/3c/229634_Ljcr9.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 310589,
-   "name": "モンスター娘のお医者さん (0)",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/d1/310589_gKXFU.jpg",
-   "date": "2020-03-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 229634,
-   "dst": 310589
-  },
-  {
-   "relate": "续集",
-   "src": 310589,
-   "dst": 229634
-  }
- ]
+  "id": "229634",
+  "node": [
+    {
+      "id": 229634,
+      "name": "モンスター娘のお医者さん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 310589,
+      "name": "モンスター娘のお医者さん (0)",
+      "nameCN": "",
+      "date": "2020-03-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 229634,
+      "dst": 310589
+    },
+    {
+      "relateString": "续集",
+      "src": 310589,
+      "dst": 229634
+    }
+  ]
 }

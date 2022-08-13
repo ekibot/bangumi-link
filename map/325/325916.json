@@ -1,37 +1,33 @@
 {
- "id": 325916,
- "node": [
-  {
-   "id": 325916,
-   "name": "懸疑快感",
-   "nameCN": "悬疑快感",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 325932,
-   "name": "懸疑快感續集",
-   "nameCN": "悬疑快感续集",
-   "date": null,
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 325916,
-   "dst": 325932
-  },
-  {
-   "relate": "前传",
-   "src": 325932,
-   "dst": 325916
-  }
- ]
+  "id": "325916",
+  "node": [
+    {
+      "id": 325916,
+      "name": "懸疑快感",
+      "nameCN": "悬疑快感",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325932,
+      "name": "懸疑快感續集",
+      "nameCN": "悬疑快感续集",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 325916,
+      "dst": 325932
+    },
+    {
+      "relateString": "前传",
+      "src": 325932,
+      "dst": 325916
+    }
+  ]
 }

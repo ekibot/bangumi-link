@@ -1,37 +1,35 @@
 {
- "id": 75616,
- "node": [
-  {
-   "id": 75616,
-   "name": "THE CREW",
-   "nameCN": "法外之徒",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/23/75616_tz9hm.jpg",
-   "date": "2014-12-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 216985,
-   "name": "The Crew 2",
-   "nameCN": "飙酷车神2",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/62/216985_5vJjJ.jpg",
-   "date": "2018-06-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75616,
-   "dst": 216985
-  },
-  {
-   "relate": "前传",
-   "src": 216985,
-   "dst": 75616
-  }
- ]
+  "id": "75616",
+  "node": [
+    {
+      "id": 75616,
+      "name": "THE CREW",
+      "nameCN": "法外之徒",
+      "date": "2014-12-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216985,
+      "name": "The Crew 2",
+      "nameCN": "飙酷车神2",
+      "date": "2018-06-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75616,
+      "dst": 216985
+    },
+    {
+      "relateString": "前传",
+      "src": 216985,
+      "dst": 75616
+    }
+  ]
 }

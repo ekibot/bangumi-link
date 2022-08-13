@@ -1,37 +1,35 @@
 {
- "id": 206251,
- "node": [
-  {
-   "id": 206251,
-   "name": "一起同过窗",
-   "nameCN": "一起同过窗",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/cb/206251_Er7YY.jpg",
-   "date": "2016-07-15",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 233007,
-   "name": "一起同过窗Ⅱ",
-   "nameCN": "一起同过窗 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/5b/233007_4080b.jpg",
-   "date": "2017-11-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 206251,
-   "dst": 233007
-  },
-  {
-   "relate": "前传",
-   "src": 233007,
-   "dst": 206251
-  }
- ]
+  "id": "206251",
+  "node": [
+    {
+      "id": 206251,
+      "name": "一起同过窗",
+      "nameCN": "一起同过窗",
+      "date": "2016-07-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 233007,
+      "name": "一起同过窗Ⅱ",
+      "nameCN": "一起同过窗 第二季",
+      "date": "2017-11-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 206251,
+      "dst": 233007
+    },
+    {
+      "relateString": "前传",
+      "src": 233007,
+      "dst": 206251
+    }
+  ]
 }

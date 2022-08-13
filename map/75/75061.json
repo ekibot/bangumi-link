@@ -1,57 +1,54 @@
 {
- "id": 75061,
- "node": [
-  {
-   "id": 75061,
-   "name": "Deca Sports",
-   "nameCN": "德卡运动会",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/9f/75061_tTqcc.jpg",
-   "date": "2008-03-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 75139,
-   "name": "Deca Sports 2",
-   "nameCN": "德卡运动会",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/c3/75139_ZJ8vL.jpg",
-   "date": "2009-04-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 75431,
-   "name": "Deca Sports 3",
-   "nameCN": "德卡运动会3",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/b1/75431_I5227.jpg",
-   "date": "2010-09-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75061,
-   "dst": 75139
-  },
-  {
-   "relate": "前传",
-   "src": 75139,
-   "dst": 75061
-  },
-  {
-   "relate": "续集",
-   "src": 75139,
-   "dst": 75431
-  },
-  {
-   "relate": "前传",
-   "src": 75431,
-   "dst": 75139
-  }
- ]
+  "id": "75061",
+  "node": [
+    {
+      "id": 75061,
+      "name": "Deca Sports",
+      "nameCN": "德卡运动会",
+      "date": "2008-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 75139,
+      "name": "Deca Sports 2",
+      "nameCN": "德卡运动会",
+      "date": "2009-04-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 75431,
+      "name": "Deca Sports 3",
+      "nameCN": "德卡运动会3",
+      "date": "2010-09-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75061,
+      "dst": 75139
+    },
+    {
+      "relateString": "前传",
+      "src": 75139,
+      "dst": 75061
+    },
+    {
+      "relateString": "续集",
+      "src": 75139,
+      "dst": 75431
+    },
+    {
+      "relateString": "前传",
+      "src": 75431,
+      "dst": 75139
+    }
+  ]
 }

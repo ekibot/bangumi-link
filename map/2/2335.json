@@ -1,77 +1,70 @@
 {
- "id": 2335,
- "node": [
-  {
-   "id": 2335,
-   "name": "マルドゥック・スクランブル",
-   "nameCN": "壳中少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/47/2335_8Xw01.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 45727,
-   "name": "マルドゥック・ヴェロシティ",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/7d/45727_09u6w.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 240308,
-   "name": "マルドゥック・アノニマス",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/bc/240308_QUrdH.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 240318,
-   "name": "マルドゥック・フラグメンツ",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/39/240318_qL1I7.jpg",
-   "date": "2011-05-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2335,
-   "dst": 45727
-  },
-  {
-   "relate": "续集",
-   "src": 2335,
-   "dst": 240308
-  },
-  {
-   "relate": "番外篇",
-   "src": 2335,
-   "dst": 240318
-  },
-  {
-   "relate": "续集",
-   "src": 45727,
-   "dst": 2335
-  },
-  {
-   "relate": "前传",
-   "src": 240308,
-   "dst": 2335
-  },
-  {
-   "relate": "主线故事",
-   "src": 240318,
-   "dst": 2335
-  }
- ]
+  "id": "2335",
+  "node": [
+    {
+      "id": 2335,
+      "name": "マルドゥック・スクランブル",
+      "nameCN": "壳中少女",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 45727,
+      "name": "マルドゥック・ヴェロシティ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 240308,
+      "name": "マルドゥック・アノニマス",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 240318,
+      "name": "マルドゥック・フラグメンツ",
+      "nameCN": "",
+      "date": "2011-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2335,
+      "dst": 45727
+    },
+    {
+      "relateString": "续集",
+      "src": 2335,
+      "dst": 240308
+    },
+    {
+      "relateString": "番外篇",
+      "src": 2335,
+      "dst": 240318
+    },
+    {
+      "relateString": "续集",
+      "src": 45727,
+      "dst": 2335
+    },
+    {
+      "relateString": "前传",
+      "src": 240308,
+      "dst": 2335
+    },
+    {
+      "relateString": "主线故事",
+      "src": 240318,
+      "dst": 2335
+    }
+  ]
 }

@@ -1,77 +1,69 @@
 {
- "id": 75534,
- "node": [
-  {
-   "id": 75534,
-   "name": "快乐东西1",
-   "nameCN": "快乐东西1",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/af/75534_6BeZx.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 119969,
-   "name": "快乐东西2",
-   "nameCN": "快乐东西2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/07/119969_Fn1JH.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 119970,
-   "name": "快乐东西3",
-   "nameCN": "快乐东西3",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/e3/119970_YS7cT.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 119971,
-   "name": "快乐东西4",
-   "nameCN": "快乐东西4",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/64/119971_2Av3c.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75534,
-   "dst": 119969
-  },
-  {
-   "relate": "前传",
-   "src": 119969,
-   "dst": 75534
-  },
-  {
-   "relate": "续集",
-   "src": 119969,
-   "dst": 119970
-  },
-  {
-   "relate": "前传",
-   "src": 119970,
-   "dst": 119969
-  },
-  {
-   "relate": "续集",
-   "src": 119970,
-   "dst": 119971
-  },
-  {
-   "relate": "前传",
-   "src": 119971,
-   "dst": 119970
-  }
- ]
+  "id": "75534",
+  "node": [
+    {
+      "id": 75534,
+      "name": "快乐东西1",
+      "nameCN": "快乐东西1",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 119969,
+      "name": "快乐东西2",
+      "nameCN": "快乐东西2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 119970,
+      "name": "快乐东西3",
+      "nameCN": "快乐东西3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 119971,
+      "name": "快乐东西4",
+      "nameCN": "快乐东西4",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75534,
+      "dst": 119969
+    },
+    {
+      "relateString": "前传",
+      "src": 119969,
+      "dst": 75534
+    },
+    {
+      "relateString": "续集",
+      "src": 119969,
+      "dst": 119970
+    },
+    {
+      "relateString": "前传",
+      "src": 119970,
+      "dst": 119969
+    },
+    {
+      "relateString": "续集",
+      "src": 119970,
+      "dst": 119971
+    },
+    {
+      "relateString": "前传",
+      "src": 119971,
+      "dst": 119970
+    }
+  ]
 }

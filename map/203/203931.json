@@ -1,77 +1,72 @@
 {
- "id": 203931,
- "node": [
-  {
-   "id": 203931,
-   "name": "LIPSTICK. ADV",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/89/296385_9B0Jx.jpg",
-   "date": "1988-10-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260561,
-   "name": "Lipstick. ADV2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/74/260561_1ss2y.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 300364,
-   "name": "リップスティックアドベンチャー３",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/a5/300364_wCO1i.jpg",
-   "date": "1993-04-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 300365,
-   "name": "リップスティックアドベンチャー４",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/dc/300365_LPhWN.jpg",
-   "date": "2001-02-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 203931,
-   "dst": 260561
-  },
-  {
-   "relate": "前传",
-   "src": 260561,
-   "dst": 203931
-  },
-  {
-   "relate": "续集",
-   "src": 260561,
-   "dst": 300364
-  },
-  {
-   "relate": "前传",
-   "src": 300364,
-   "dst": 260561
-  },
-  {
-   "relate": "续集",
-   "src": 300364,
-   "dst": 300365
-  },
-  {
-   "relate": "前传",
-   "src": 300365,
-   "dst": 300364
-  }
- ]
+  "id": "203931",
+  "node": [
+    {
+      "id": 203931,
+      "name": "LIPSTICK. ADV",
+      "nameCN": "",
+      "date": "1988-10-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260561,
+      "name": "Lipstick. ADV2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 300364,
+      "name": "リップスティックアドベンチャー３",
+      "nameCN": "",
+      "date": "1993-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 300365,
+      "name": "リップスティックアドベンチャー４",
+      "nameCN": "",
+      "date": "2001-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 203931,
+      "dst": 260561
+    },
+    {
+      "relateString": "前传",
+      "src": 260561,
+      "dst": 203931
+    },
+    {
+      "relateString": "续集",
+      "src": 260561,
+      "dst": 300364
+    },
+    {
+      "relateString": "前传",
+      "src": 300364,
+      "dst": 260561
+    },
+    {
+      "relateString": "续集",
+      "src": 300364,
+      "dst": 300365
+    },
+    {
+      "relateString": "前传",
+      "src": 300365,
+      "dst": 300364
+    }
+  ]
 }

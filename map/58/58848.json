@@ -1,37 +1,33 @@
 {
- "id": 58848,
- "node": [
-  {
-   "id": 58848,
-   "name": "球状闪电",
-   "nameCN": "球状闪电",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/32/58848_J44E4.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 90411,
-   "name": "地球往事三部曲",
-   "nameCN": "地球往事三部曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/e7/90411_0s5fn.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 58848,
-   "dst": 90411
-  },
-  {
-   "relate": "相同世界观",
-   "src": 90411,
-   "dst": 58848
-  }
- ]
+  "id": "58848",
+  "node": [
+    {
+      "id": 58848,
+      "name": "球状闪电",
+      "nameCN": "球状闪电",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 90411,
+      "name": "地球往事三部曲",
+      "nameCN": "地球往事三部曲",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 58848,
+      "dst": 90411
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 90411,
+      "dst": 58848
+    }
+  ]
 }

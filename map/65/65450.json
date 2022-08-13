@@ -1,102 +1,97 @@
 {
- "id": 65450,
- "node": [
-  {
-   "id": 65450,
-   "name": "さよならフットボール",
-   "nameCN": "再见足球",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/20/65450_tWOT4.jpg",
-   "date": "2009-06-20",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 177203,
-   "name": "さよなら私のクラマー",
-   "nameCN": "再见了，我的克拉默",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/0b/177203_61380.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 314163,
-   "name": "さよなら私のクラマー",
-   "nameCN": "再见了，我的克拉默",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/dc/314163_QOk21.jpg",
-   "date": "2021-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 314169,
-   "name": "映画 さよなら私のクラマー ファーストタッチ",
-   "nameCN": "电影 再见了，我的克拉默 First Touch",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/b7/314169_7TG2H.jpg",
-   "date": "2021-06-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 335121,
-   "name": "さよなら私のクラマー (0)",
-   "nameCN": "再见了，我的克拉默 第0卷",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/72/335121_pT6TH.jpg",
-   "date": "2021-06-11",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65450,
-   "dst": 177203
-  },
-  {
-   "relate": "续集",
-   "src": 65450,
-   "dst": 335121
-  },
-  {
-   "relate": "前传",
-   "src": 177203,
-   "dst": 65450
-  },
-  {
-   "relate": "前传",
-   "src": 177203,
-   "dst": 335121
-  },
-  {
-   "relate": "前传",
-   "src": 314163,
-   "dst": 314169
-  },
-  {
-   "relate": "续集",
-   "src": 314169,
-   "dst": 314163
-  },
-  {
-   "relate": "前传",
-   "src": 335121,
-   "dst": 65450
-  },
-  {
-   "relate": "续集",
-   "src": 335121,
-   "dst": 177203
-  },
-  {
-   "relate": "前传",
-   "src": 335121,
-   "dst": 314169
-  }
- ]
+  "id": "65450",
+  "node": [
+    {
+      "id": 65450,
+      "name": "さよならフットボール",
+      "nameCN": "再见足球",
+      "date": "2009-06-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 177203,
+      "name": "さよなら私のクラマー",
+      "nameCN": "再见了，我的克拉默",
+      "date": "2016-05-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 335121,
+      "name": "さよなら私のクラマー (0)",
+      "nameCN": "再见了，我的克拉默 第0卷",
+      "date": "2021-06-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 314163,
+      "name": "さよなら私のクラマー",
+      "nameCN": "再见了，我的克拉默",
+      "date": "2021-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 314169,
+      "name": "映画 さよなら私のクラマー ファーストタッチ",
+      "nameCN": "电影 再见了，我的克拉默 First Touch",
+      "date": "2021-06-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65450,
+      "dst": 177203
+    },
+    {
+      "relateString": "续集",
+      "src": 65450,
+      "dst": 335121
+    },
+    {
+      "relateString": "前传",
+      "src": 177203,
+      "dst": 65450
+    },
+    {
+      "relateString": "前传",
+      "src": 177203,
+      "dst": 335121
+    },
+    {
+      "relateString": "前传",
+      "src": 335121,
+      "dst": 65450
+    },
+    {
+      "relateString": "续集",
+      "src": 335121,
+      "dst": 177203
+    },
+    {
+      "relateString": "前传",
+      "src": 314163,
+      "dst": 314169
+    },
+    {
+      "relateString": "续集",
+      "src": 314169,
+      "dst": 314163
+    },
+    {
+      "relateString": "前传",
+      "src": 335121,
+      "dst": 314169
+    }
+  ]
 }

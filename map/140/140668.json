@@ -1,37 +1,35 @@
 {
- "id": 140668,
- "node": [
-  {
-   "id": 140668,
-   "name": "犬と欠け月",
-   "nameCN": "缺月之犬",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/a4/140668_jp.jpg",
-   "date": "2015-03-23",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 231636,
-   "name": "犬と欠け月 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/58/231636_9BR8g.jpg",
-   "date": "2017-12-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 140668,
-   "dst": 231636
-  },
-  {
-   "relate": "前传",
-   "src": 231636,
-   "dst": 140668
-  }
- ]
+  "id": "140668",
+  "node": [
+    {
+      "id": 140668,
+      "name": "犬と欠け月",
+      "nameCN": "缺月之犬",
+      "date": "2015-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 231636,
+      "name": "犬と欠け月 2",
+      "nameCN": "",
+      "date": "2017-12-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 140668,
+      "dst": 231636
+    },
+    {
+      "relateString": "前传",
+      "src": 231636,
+      "dst": 140668
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 314248,
- "node": [
-  {
-   "id": 314248,
-   "name": "rFactor",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/ed/314248_mWXUZ.jpg",
-   "date": "2005-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314249,
-   "name": "rFactor 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/b4/314249_GWvls.jpg",
-   "date": "2013-03-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314248,
-   "dst": 314249
-  },
-  {
-   "relate": "前传",
-   "src": 314249,
-   "dst": 314248
-  }
- ]
+  "id": "314248",
+  "node": [
+    {
+      "id": 314248,
+      "name": "rFactor",
+      "nameCN": "",
+      "date": "2005-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314249,
+      "name": "rFactor 2",
+      "nameCN": "",
+      "date": "2013-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314248,
+      "dst": 314249
+    },
+    {
+      "relateString": "前传",
+      "src": 314249,
+      "dst": 314248
+    }
+  ]
 }

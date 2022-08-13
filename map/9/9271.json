@@ -1,37 +1,35 @@
 {
- "id": 9271,
- "node": [
-  {
-   "id": 9271,
-   "name": "おじゃる丸",
-   "nameCN": "反斗小王子",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/6f/9271_n5X20.jpg",
-   "date": "1998-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 317688,
-   "name": "映画おじゃる丸 約束の夏 おじゃるとせみら",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/51/317688_qQ0lD.jpg",
-   "date": "2000-07-15",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 9271,
-   "dst": 317688
-  },
-  {
-   "relate": "主线故事",
-   "src": 317688,
-   "dst": 9271
-  }
- ]
+  "id": "9271",
+  "node": [
+    {
+      "id": 9271,
+      "name": "おじゃる丸",
+      "nameCN": "反斗小王子",
+      "date": "1998-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317688,
+      "name": "映画おじゃる丸 約束の夏 おじゃるとせみら",
+      "nameCN": "",
+      "date": "2000-07-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 9271,
+      "dst": 317688
+    },
+    {
+      "relateString": "主线故事",
+      "src": 317688,
+      "dst": 9271
+    }
+  ]
 }

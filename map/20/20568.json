@@ -1,77 +1,73 @@
 {
- "id": 20568,
- "node": [
-  {
-   "id": 20568,
-   "name": "Veronica Mars (Season 1)",
-   "nameCN": "美眉校探 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/8c/20568_IDRn8.jpg",
-   "date": "2004-09-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 100707,
-   "name": "Veronica Mars (Season 2)",
-   "nameCN": "美眉校探 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/af/100707_7iT7z.jpg",
-   "date": "2005-09-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100708,
-   "name": "Veronica Mars (Season 3)",
-   "nameCN": "美眉校探 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/ea/100708_lZ888.jpg",
-   "date": "2006-10-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 100713,
-   "name": "The Veronica Mars Movie",
-   "nameCN": "美眉校探 电影版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/4a/100713_J2xxY.jpg",
-   "date": "2014-03-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20568,
-   "dst": 100707
-  },
-  {
-   "relate": "前传",
-   "src": 100707,
-   "dst": 20568
-  },
-  {
-   "relate": "续集",
-   "src": 100707,
-   "dst": 100708
-  },
-  {
-   "relate": "前传",
-   "src": 100708,
-   "dst": 100707
-  },
-  {
-   "relate": "续集",
-   "src": 100708,
-   "dst": 100713
-  },
-  {
-   "relate": "前传",
-   "src": 100713,
-   "dst": 100708
-  }
- ]
+  "id": "20568",
+  "node": [
+    {
+      "id": 20568,
+      "name": "Veronica Mars (Season 1)",
+      "nameCN": "美眉校探 第一季",
+      "date": "2004-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100707,
+      "name": "Veronica Mars (Season 2)",
+      "nameCN": "美眉校探 第二季",
+      "date": "2005-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100708,
+      "name": "Veronica Mars (Season 3)",
+      "nameCN": "美眉校探 第三季",
+      "date": "2006-10-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100713,
+      "name": "The Veronica Mars Movie",
+      "nameCN": "美眉校探 电影版",
+      "date": "2014-03-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20568,
+      "dst": 100707
+    },
+    {
+      "relateString": "前传",
+      "src": 100707,
+      "dst": 20568
+    },
+    {
+      "relateString": "续集",
+      "src": 100707,
+      "dst": 100708
+    },
+    {
+      "relateString": "前传",
+      "src": 100708,
+      "dst": 100707
+    },
+    {
+      "relateString": "续集",
+      "src": 100708,
+      "dst": 100713
+    },
+    {
+      "relateString": "前传",
+      "src": 100713,
+      "dst": 100708
+    }
+  ]
 }

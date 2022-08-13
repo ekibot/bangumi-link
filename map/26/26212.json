@@ -1,77 +1,72 @@
 {
- "id": 26212,
- "node": [
-  {
-   "id": 26212,
-   "name": "駅弁ひとり旅",
-   "nameCN": "铁路便当之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/3c/26212_rIw9I.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 300871,
-   "name": "駅弁ひとり旅 がんばっぺ東北編",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/56/300871_iBGyj.jpg",
-   "date": "2012-03-06",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 300872,
-   "name": "駅弁ひとり旅 ザ・ワールド 台湾+沖縄編",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/76/300872_IZh97.jpg",
-   "date": "2013-01-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 300877,
-   "name": "新・駅弁ひとり旅",
-   "nameCN": "新・铁路便当之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/45/300877_OoLso.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26212,
-   "dst": 300871
-  },
-  {
-   "relate": "前传",
-   "src": 300871,
-   "dst": 26212
-  },
-  {
-   "relate": "续集",
-   "src": 300871,
-   "dst": 300872
-  },
-  {
-   "relate": "前传",
-   "src": 300872,
-   "dst": 300871
-  },
-  {
-   "relate": "续集",
-   "src": 300872,
-   "dst": 300877
-  },
-  {
-   "relate": "前传",
-   "src": 300877,
-   "dst": 300872
-  }
- ]
+  "id": "26212",
+  "node": [
+    {
+      "id": 26212,
+      "name": "駅弁ひとり旅",
+      "nameCN": "铁路便当之旅",
+      "date": "2005-07-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300871,
+      "name": "駅弁ひとり旅 がんばっぺ東北編",
+      "nameCN": "",
+      "date": "2012-03-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300872,
+      "name": "駅弁ひとり旅 ザ・ワールド 台湾+沖縄編",
+      "nameCN": "",
+      "date": "2013-01-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300877,
+      "name": "新・駅弁ひとり旅",
+      "nameCN": "新・铁路便当之旅",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26212,
+      "dst": 300871
+    },
+    {
+      "relateString": "前传",
+      "src": 300871,
+      "dst": 26212
+    },
+    {
+      "relateString": "续集",
+      "src": 300871,
+      "dst": 300872
+    },
+    {
+      "relateString": "前传",
+      "src": 300872,
+      "dst": 300871
+    },
+    {
+      "relateString": "续集",
+      "src": 300872,
+      "dst": 300877
+    },
+    {
+      "relateString": "前传",
+      "src": 300877,
+      "dst": 300872
+    }
+  ]
 }

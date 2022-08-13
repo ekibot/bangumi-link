@@ -1,37 +1,34 @@
 {
- "id": 234669,
- "node": [
-  {
-   "id": 234669,
-   "name": "绝对小孩2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/29/234669_9Ymtb.jpg",
-   "date": "2009-01-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 270087,
-   "name": "绝对小孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/cd/270087_2RZpp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 234669,
-   "dst": 270087
-  },
-  {
-   "relate": "续集",
-   "src": 270087,
-   "dst": 234669
-  }
- ]
+  "id": "234669",
+  "node": [
+    {
+      "id": 234669,
+      "name": "绝对小孩2",
+      "nameCN": "",
+      "date": "2009-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 270087,
+      "name": "绝对小孩",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 234669,
+      "dst": 270087
+    },
+    {
+      "relateString": "续集",
+      "src": 270087,
+      "dst": 234669
+    }
+  ]
 }

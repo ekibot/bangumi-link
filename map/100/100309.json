@@ -1,72 +1,102 @@
 {
- "id": 100309,
- "node": [
-  {
-   "id": 100309,
-   "name": "PRIMAL×HEARTS",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/09/100309_yCrCa.jpg",
-   "date": "2014-08-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 128762,
-   "name": "PRIMAL×HEARTS2",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/16/128762_7V7pi.jpg",
-   "date": "2015-10-30",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 206741,
-   "name": "お家に帰るまでがましまろです",
-   "nameCN": "回家前都算是棉花糖",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/d7/206741_57VW0.jpg",
-   "type": 4
-  },
-  {
-   "id": 216485,
-   "name": "倉賀野聖良らぶらぶアフター",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/84/216485_lqC4C.jpg",
-   "date": "2015-10-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100309,
-   "dst": 128762
-  },
-  {
-   "relate": "相同世界观",
-   "src": 100309,
-   "dst": 206741
-  },
-  {
-   "relate": "续集",
-   "src": 100309,
-   "dst": 216485
-  },
-  {
-   "relate": "前传",
-   "src": 128762,
-   "dst": 100309
-  },
-  {
-   "relate": "相同世界观",
-   "src": 128762,
-   "dst": 206741
-  },
-  {
-   "relate": "前传",
-   "src": 216485,
-   "dst": 100309
-  }
- ]
+  "id": "100309",
+  "node": [
+    {
+      "id": 100309,
+      "name": "PRIMAL×HEARTS",
+      "nameCN": "",
+      "date": "2014-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 128762,
+      "name": "PRIMAL×HEARTS2",
+      "nameCN": "",
+      "date": "2015-10-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206741,
+      "name": "お家に帰るまでがましまろです",
+      "nameCN": "回家前都算是棉花糖",
+      "date": "2017-07-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216485,
+      "name": "倉賀野聖良らぶらぶアフター",
+      "nameCN": "",
+      "date": "2015-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 374999,
+      "name": "アリスティアらぶらぶアフター",
+      "nameCN": "",
+      "date": "2017-12-08",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100309,
+      "dst": 128762
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 100309,
+      "dst": 206741
+    },
+    {
+      "relateString": "续集",
+      "src": 100309,
+      "dst": 216485
+    },
+    {
+      "relateString": "前传",
+      "src": 128762,
+      "dst": 100309
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 128762,
+      "dst": 206741
+    },
+    {
+      "relateString": "续集",
+      "src": 128762,
+      "dst": 374999
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 206741,
+      "dst": 100309
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 206741,
+      "dst": 128762
+    },
+    {
+      "relateString": "前传",
+      "src": 216485,
+      "dst": 100309
+    },
+    {
+      "relateString": "前传",
+      "src": 374999,
+      "dst": 128762
+    }
+  ]
 }

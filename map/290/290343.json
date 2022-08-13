@@ -1,31 +1,35 @@
 {
- "id": 290343,
- "node": [
-  {
-   "id": 290343,
-   "name": "あまいろショコラータ",
-   "nameCN": "巧克甜恋",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-01-31"
-  },
-  {
-   "id": 325937,
-   "name": "あまいろショコラータ２",
-   "nameCN": "巧克甜恋2",
-   "image": "//lain.bgm.tv/pic/cover/m/ca/66/325937_0ZgJj.jpg",
-   "date": "2021-05-28"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 290343,
-   "dst": 325937
-  },
-  {
-   "relate": "前传",
-   "src": 325937,
-   "dst": 290343
-  }
- ]
+  "id": "290343",
+  "node": [
+    {
+      "id": 290343,
+      "name": "あまいろショコラータ",
+      "nameCN": "巧克甜恋",
+      "date": "2020-01-31",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325937,
+      "name": "あまいろショコラータ２",
+      "nameCN": "巧克甜恋2",
+      "date": "2021-05-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 290343,
+      "dst": 325937
+    },
+    {
+      "relateString": "前传",
+      "src": 325937,
+      "dst": 290343
+    }
+  ]
 }

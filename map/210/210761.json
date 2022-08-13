@@ -1,37 +1,35 @@
 {
- "id": 210761,
- "node": [
-  {
-   "id": 210761,
-   "name": "製品用途擬人化劇場 ピュアスキンジェリー邸の潤わしき人々",
-   "nameCN": "产品用途拟人化剧场 pure skin jelly 滋润的众人",
-   "date": "2010-11-29",
-   "image": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 210763,
-   "name": "製品用途擬人化劇場 ピュアスキンジェリー邸の潤わしき人々～2nd Season～",
-   "nameCN": "产品用途拟人化剧场 pure skin jelly 滋润的众人 第二季",
-   "date": "2011-10-27",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 210761,
-   "dst": 210763
-  },
-  {
-   "relate": "前传",
-   "src": 210763,
-   "dst": 210761
-  }
- ]
+  "id": "210761",
+  "node": [
+    {
+      "id": 210761,
+      "name": "製品用途擬人化劇場 ピュアスキンジェリー邸の潤わしき人々",
+      "nameCN": "产品用途拟人化剧场 pure skin jelly 滋润的众人",
+      "date": "2010-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 210763,
+      "name": "製品用途擬人化劇場 ピュアスキンジェリー邸の潤わしき人々～2nd Season～",
+      "nameCN": "产品用途拟人化剧场 pure skin jelly 滋润的众人 第二季",
+      "date": "2011-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 210761,
+      "dst": 210763
+    },
+    {
+      "relateString": "前传",
+      "src": 210763,
+      "dst": 210761
+    }
+  ]
 }

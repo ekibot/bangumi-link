@@ -1,37 +1,34 @@
 {
- "id": 102932,
- "node": [
-  {
-   "id": 102932,
-   "name": "ときめきトゥナイト",
-   "nameCN": "心跳今夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/98/102932_q9TBu.jpg",
-   "date": "1982-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 284187,
-   "name": "ときめきトゥナイト 総集編",
-   "nameCN": "心跳今夜OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/ce/284187_YzeZ0.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 102932,
-   "dst": 284187
-  },
-  {
-   "relate": "全集",
-   "src": 284187,
-   "dst": 102932
-  }
- ]
+  "id": "102932",
+  "node": [
+    {
+      "id": 102932,
+      "name": "ときめきトゥナイト",
+      "nameCN": "心跳今夜",
+      "date": "1982-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 284187,
+      "name": "ときめきトゥナイト 総集編",
+      "nameCN": "心跳今夜OVA",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 102932,
+      "dst": 284187
+    },
+    {
+      "relateString": "全集",
+      "src": 284187,
+      "dst": 102932
+    }
+  ]
 }

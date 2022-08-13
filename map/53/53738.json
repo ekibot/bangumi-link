@@ -1,37 +1,34 @@
 {
- "id": 53738,
- "node": [
-  {
-   "id": 53738,
-   "name": "ハイスクール!奇面組",
-   "nameCN": "高校奇面组",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/b0/53738_MXyHr.jpg",
-   "date": "1985-10-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 214191,
-   "name": "ハイスクール!奇面組劇場版",
-   "nameCN": "高校奇面组 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/95/214191_285I9.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 53738,
-   "dst": 214191
-  },
-  {
-   "relate": "全集",
-   "src": 214191,
-   "dst": 53738
-  }
- ]
+  "id": "53738",
+  "node": [
+    {
+      "id": 53738,
+      "name": "ハイスクール!奇面組",
+      "nameCN": "高校奇面组",
+      "date": "1985-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 214191,
+      "name": "ハイスクール!奇面組劇場版",
+      "nameCN": "高校奇面组 剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 53738,
+      "dst": 214191
+    },
+    {
+      "relateString": "全集",
+      "src": 214191,
+      "dst": 53738
+    }
+  ]
 }

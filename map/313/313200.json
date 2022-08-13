@@ -1,37 +1,35 @@
 {
- "id": 313200,
- "node": [
-  {
-   "id": 313200,
-   "name": "妖怪人間ベラ 〜Episode 0〜",
-   "nameCN": "妖怪人间贝拉 Episode 0",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/24/313200_cvL42.jpg",
-   "date": "2020-08-13",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 313203,
-   "name": "妖怪人間ベラ",
-   "nameCN": "妖怪人间贝拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/c5/313203_ooRO5.jpg",
-   "date": "2020-09-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 313200,
-   "dst": 313203
-  },
-  {
-   "relate": "前传",
-   "src": 313203,
-   "dst": 313200
-  }
- ]
+  "id": "313200",
+  "node": [
+    {
+      "id": 313200,
+      "name": "妖怪人間ベラ 〜Episode 0〜",
+      "nameCN": "妖怪人间贝拉 Episode 0",
+      "date": "2020-08-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 313203,
+      "name": "妖怪人間ベラ",
+      "nameCN": "妖怪人间贝拉",
+      "date": "2020-09-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 313200,
+      "dst": 313203
+    },
+    {
+      "relateString": "前传",
+      "src": 313203,
+      "dst": 313200
+    }
+  ]
 }

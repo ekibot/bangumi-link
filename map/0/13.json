@@ -1,0 +1,67 @@
+{
+  "id": "13",
+  "node": [
+    {
+      "id": 3660,
+      "name": "智代アフター 〜It’s a Wonderful Life〜",
+      "nameCN": "智代After ～It's a Wonderful Life～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 13,
+      "name": "CLANNAD",
+      "nameCN": "",
+      "date": "2004-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 6312,
+      "name": "CLANNAD:光見守る坂道で 上巻",
+      "nameCN": "Clannad:光芒守护的小镇 上卷",
+      "date": "2010-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 7970,
+      "name": "CLANNAD:光見守る坂道で 下巻",
+      "nameCN": "Clannad:光芒守护的小镇 下卷",
+      "date": "2010-07-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 3660,
+      "dst": 13
+    },
+    {
+      "relateString": "主线故事",
+      "src": 6312,
+      "dst": 13
+    },
+    {
+      "relateString": "续集",
+      "src": 6312,
+      "dst": 7970
+    },
+    {
+      "relateString": "主线故事",
+      "src": 7970,
+      "dst": 13
+    },
+    {
+      "relateString": "前传",
+      "src": 7970,
+      "dst": 6312
+    }
+  ]
+}

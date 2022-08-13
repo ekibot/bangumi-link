@@ -1,37 +1,34 @@
 {
- "id": 198895,
- "node": [
-  {
-   "id": 198895,
-   "name": "異世界居酒屋「のぶ」",
-   "nameCN": "异世界居酒屋阿信",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/88/198895_fI9xX.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 247402,
-   "name": "異世界居酒屋「げん」",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/f7/247402_2HvXU.jpg",
-   "date": "2018-05-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 198895,
-   "dst": 247402
-  },
-  {
-   "relate": "不同世界观",
-   "src": 247402,
-   "dst": 198895
-  }
- ]
+  "id": "198895",
+  "node": [
+    {
+      "id": 198895,
+      "name": "異世界居酒屋「のぶ」",
+      "nameCN": "异世界居酒屋阿信",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 247402,
+      "name": "異世界居酒屋「げん」",
+      "nameCN": "",
+      "date": "2018-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 198895,
+      "dst": 247402
+    },
+    {
+      "relateString": "主线故事",
+      "src": 247402,
+      "dst": 198895
+    }
+  ]
 }

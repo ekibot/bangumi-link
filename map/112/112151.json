@@ -1,57 +1,54 @@
 {
- "id": 112151,
- "node": [
-  {
-   "id": 112151,
-   "name": "終わりのセラフ",
-   "nameCN": "终结的炽天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/bd/112151_ceb55.jpg",
-   "date": "2015-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 120705,
-   "name": "終わりのセラフ 名古屋決戦編",
-   "nameCN": "终结的炽天使 名古屋决战篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/69/120705_vJwsZ.jpg",
-   "date": "2015-10-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 148096,
-   "name": "终结的炽天使 OAD",
-   "nameCN": "终结的炽天使 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/55/148096_Dzdz5.jpg",
-   "date": "2016-05-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 112151,
-   "dst": 120705
-  },
-  {
-   "relate": "前传",
-   "src": 120705,
-   "dst": 112151
-  },
-  {
-   "relate": "番外篇",
-   "src": 120705,
-   "dst": 148096
-  },
-  {
-   "relate": "主线故事",
-   "src": 148096,
-   "dst": 120705
-  }
- ]
+  "id": "112151",
+  "node": [
+    {
+      "id": 112151,
+      "name": "終わりのセラフ",
+      "nameCN": "终结的炽天使",
+      "date": "2015-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 120705,
+      "name": "終わりのセラフ 名古屋決戦編",
+      "nameCN": "终结的炽天使 名古屋决战篇",
+      "date": "2015-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 148096,
+      "name": "终结的炽天使 OAD",
+      "nameCN": "终结的炽天使 OAD",
+      "date": "2016-05-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 112151,
+      "dst": 120705
+    },
+    {
+      "relateString": "前传",
+      "src": 120705,
+      "dst": 112151
+    },
+    {
+      "relateString": "番外篇",
+      "src": 120705,
+      "dst": 148096
+    },
+    {
+      "relateString": "主线故事",
+      "src": 148096,
+      "dst": 120705
+    }
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "128461",
+  "node": [
+    {
+      "id": 128461,
+      "name": "交渉人〜THE NEGOTIATOR〜",
+      "nameCN": "交涉人",
+      "date": "2008-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 128462,
+      "name": "交渉人〜THE NEGOTIATOR〜 第2シリーズ",
+      "nameCN": "交涉人2",
+      "date": "2009-10-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 128464,
+      "name": "交渉人 THE MOVIE タイムリミット高度10,000mの頭脳戦",
+      "nameCN": "交涉人 电影版",
+      "date": "2010-02-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128461,
+      "dst": 128462
+    },
+    {
+      "relateString": "番外篇",
+      "src": 128461,
+      "dst": 128464
+    },
+    {
+      "relateString": "前传",
+      "src": 128462,
+      "dst": 128461
+    },
+    {
+      "relateString": "主线故事",
+      "src": 128464,
+      "dst": 128461
+    }
+  ]
+}

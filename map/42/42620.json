@@ -1,37 +1,33 @@
 {
- "id": 42620,
- "node": [
-  {
-   "id": 42620,
-   "name": "ANGEL ~ SEASON2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/d6/42620_fJvlZ.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 42621,
-   "name": "ANGEL - Highschool Sexual Bad Boys &amp; Girls Story (完全版)",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/a6/42621_q4S5f.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 42620,
-   "dst": 42621
-  },
-  {
-   "relate": "续集",
-   "src": 42621,
-   "dst": 42620
-  }
- ]
+  "id": "42620",
+  "node": [
+    {
+      "id": 42620,
+      "name": "ANGEL ~ SEASON2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 42621,
+      "name": "ANGEL - Highschool Sexual Bad Boys &amp; Girls Story (完全版)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 42620,
+      "dst": 42621
+    },
+    {
+      "relateString": "续集",
+      "src": 42621,
+      "dst": 42620
+    }
+  ]
 }

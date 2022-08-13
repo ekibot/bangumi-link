@@ -1,97 +1,92 @@
 {
- "id": 43316,
- "node": [
-  {
-   "id": 43316,
-   "name": "金田一少年の事件簿 firstseason",
-   "nameCN": "金田一少年事件簿 I",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/e4/43316_8VuWk.jpg",
-   "date": "1995-07-15",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 43349,
-   "name": "金田一少年の事件簿 secondseason",
-   "nameCN": "金田一少年事件簿 II",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/f5/43349_j6D0b.jpg",
-   "date": "1996-07-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 43512,
-   "name": "金田一少年の事件簿 thirdseason",
-   "nameCN": "金田一少年事件簿 III",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/55/43512_5857y.jpg",
-   "date": "2001-07-14",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 106457,
-   "name": "金田一少年の事件簿 魔術列車殺人事件",
-   "nameCN": "金田一少年事件簿特别篇 魔术列车杀人事件",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/52/106457_47pvq.jpg",
-   "date": "2001-03-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 114054,
-   "name": "金田一少年の事件簿 上海魚人伝説",
-   "nameCN": "金田一少年之事件簿 上海人鱼传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/43/114054_AckDA.jpg",
-   "date": "1997-12-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43316,
-   "dst": 43349
-  },
-  {
-   "relate": "前传",
-   "src": 43349,
-   "dst": 43316
-  },
-  {
-   "relate": "续集",
-   "src": 43349,
-   "dst": 106457
-  },
-  {
-   "relate": "番外篇",
-   "src": 43349,
-   "dst": 114054
-  },
-  {
-   "relate": "前传",
-   "src": 43512,
-   "dst": 106457
-  },
-  {
-   "relate": "前传",
-   "src": 106457,
-   "dst": 43349
-  },
-  {
-   "relate": "续集",
-   "src": 106457,
-   "dst": 43512
-  },
-  {
-   "relate": "主线故事",
-   "src": 114054,
-   "dst": 43349
-  }
- ]
+  "id": "43316",
+  "node": [
+    {
+      "id": 43316,
+      "name": "金田一少年の事件簿 firstseason",
+      "nameCN": "金田一少年事件簿 I",
+      "date": "1995-07-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 43349,
+      "name": "金田一少年の事件簿 secondseason",
+      "nameCN": "金田一少年事件簿 II",
+      "date": "1996-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 106457,
+      "name": "金田一少年の事件簿 魔術列車殺人事件",
+      "nameCN": "金田一少年事件簿特别篇 魔术列车杀人事件",
+      "date": "2001-03-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 114054,
+      "name": "金田一少年の事件簿 上海魚人伝説",
+      "nameCN": "金田一少年之事件簿 上海人鱼传说",
+      "date": "1997-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 43512,
+      "name": "金田一少年の事件簿 thirdseason",
+      "nameCN": "金田一少年事件簿 III",
+      "date": "2001-07-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43316,
+      "dst": 43349
+    },
+    {
+      "relateString": "前传",
+      "src": 43349,
+      "dst": 43316
+    },
+    {
+      "relateString": "续集",
+      "src": 43349,
+      "dst": 106457
+    },
+    {
+      "relateString": "番外篇",
+      "src": 43349,
+      "dst": 114054
+    },
+    {
+      "relateString": "前传",
+      "src": 43512,
+      "dst": 106457
+    },
+    {
+      "relateString": "前传",
+      "src": 106457,
+      "dst": 43349
+    },
+    {
+      "relateString": "续集",
+      "src": 106457,
+      "dst": 43512
+    },
+    {
+      "relateString": "主线故事",
+      "src": 114054,
+      "dst": 43349
+    }
+  ]
 }

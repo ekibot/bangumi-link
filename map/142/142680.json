@@ -1,37 +1,35 @@
 {
- "id": 142680,
- "node": [
-  {
-   "id": 142680,
-   "name": "相生結び",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/4a/142680_jp.jpg",
-   "date": "2014-10-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 155663,
-   "name": "相生結び・続",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/c5/155663_jp.jpg",
-   "date": "2015-11-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142680,
-   "dst": 155663
-  },
-  {
-   "relate": "前传",
-   "src": 155663,
-   "dst": 142680
-  }
- ]
+  "id": "142680",
+  "node": [
+    {
+      "id": 142680,
+      "name": "相生結び",
+      "nameCN": "",
+      "date": "2014-10-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155663,
+      "name": "相生結び・続",
+      "nameCN": "",
+      "date": "2015-11-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142680,
+      "dst": 155663
+    },
+    {
+      "relateString": "前传",
+      "src": 155663,
+      "dst": 142680
+    }
+  ]
 }

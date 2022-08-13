@@ -1,37 +1,33 @@
 {
- "id": 119166,
- "node": [
-  {
-   "id": 119166,
-   "name": "アイシテル〜海容〜",
-   "nameCN": "爱与宽恕",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/2e/119166_VVQX9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 119169,
-   "name": "アイシテル〜絆〜",
-   "nameCN": "爱与宽恕2",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/0b/119169_fzY3c.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 119166,
-   "dst": 119169
-  },
-  {
-   "relate": "前传",
-   "src": 119169,
-   "dst": 119166
-  }
- ]
+  "id": "119166",
+  "node": [
+    {
+      "id": 119166,
+      "name": "アイシテル〜海容〜",
+      "nameCN": "爱与宽恕",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 119169,
+      "name": "アイシテル〜絆〜",
+      "nameCN": "爱与宽恕2",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 119166,
+      "dst": 119169
+    },
+    {
+      "relateString": "前传",
+      "src": 119169,
+      "dst": 119166
+    }
+  ]
 }

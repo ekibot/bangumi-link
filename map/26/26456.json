@@ -1,37 +1,35 @@
 {
- "id": 26456,
- "node": [
-  {
-   "id": 26456,
-   "name": "ある夏のお見合いと、あるいは空を泳ぐアネモイと。",
-   "nameCN": "相亲于盛夏 再会翱翔天际之风",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/ba/26456_5pSX2.jpg",
-   "date": "2008-05-20",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 26457,
-   "name": "ある秋の卒業式と、あるいは空を見上げるアネモイと。",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/66/26457_8b0uj.jpg",
-   "date": "2010-04-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26456,
-   "dst": 26457
-  },
-  {
-   "relate": "前传",
-   "src": 26457,
-   "dst": 26456
-  }
- ]
+  "id": "26456",
+  "node": [
+    {
+      "id": 26456,
+      "name": "ある夏のお見合いと、あるいは空を泳ぐアネモイと。",
+      "nameCN": "相亲于盛夏 再会翱翔天际之风",
+      "date": "2008-05-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 26457,
+      "name": "ある秋の卒業式と、あるいは空を見上げるアネモイと。",
+      "nameCN": "",
+      "date": "2010-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26456,
+      "dst": 26457
+    },
+    {
+      "relateString": "前传",
+      "src": 26457,
+      "dst": 26456
+    }
+  ]
 }

@@ -1,57 +1,52 @@
 {
- "id": 6176,
- "node": [
-  {
-   "id": 6176,
-   "name": "GOSICK -ゴシック-",
-   "nameCN": "GOSICK",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/1f/6176_mDeAV.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 136793,
-   "name": "GOSICKs -ゴシックエス-",
-   "nameCN": "GOSICKs",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/e0/136793_VyBZm.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 136794,
-   "name": "GOSICK グレイウルフ探偵社編",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/fa/136794_0RhHa.jpg",
-   "date": null,
-   "nameCN": "GOSICK 灰狼侦探社篇",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 6176,
-   "dst": 136793
-  },
-  {
-   "relate": "续集",
-   "src": 6176,
-   "dst": 136794
-  },
-  {
-   "relate": "主线故事",
-   "src": 136793,
-   "dst": 6176
-  },
-  {
-   "relate": "前传",
-   "src": 136794,
-   "dst": 6176
-  }
- ]
+  "id": "6176",
+  "node": [
+    {
+      "id": 6176,
+      "name": "GOSICK -ゴシック-",
+      "nameCN": "GOSICK",
+      "date": "2003-12-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 136793,
+      "name": "GOSICKs -ゴシックエス-",
+      "nameCN": "GOSICKs",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 136794,
+      "name": "GOSICK グレイウルフ探偵社編",
+      "nameCN": "GOSICK 灰狼侦探社篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 6176,
+      "dst": 136793
+    },
+    {
+      "relateString": "续集",
+      "src": 6176,
+      "dst": 136794
+    },
+    {
+      "relateString": "主线故事",
+      "src": 136793,
+      "dst": 6176
+    },
+    {
+      "relateString": "前传",
+      "src": 136794,
+      "dst": 6176
+    }
+  ]
 }

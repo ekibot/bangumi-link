@@ -1,67 +1,62 @@
 {
- "id": 49137,
- "node": [
-  {
-   "id": 49137,
-   "name": "まほろ駅前番外地",
-   "nameCN": "真幌站前番外地",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/f1/49137_Zee24.jpg",
-   "date": "2013-01-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 111746,
-   "name": "まほろ駅前狂騒曲",
-   "nameCN": "真幌站前狂骚曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/8e/111746_0vTB8.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 111747,
-   "name": "まほろ駅前多田便利軒",
-   "nameCN": "多田便利屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/e4/111747_a7s8R.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49137,
-   "dst": 111746
-  },
-  {
-   "relate": "前传",
-   "src": 49137,
-   "dst": 111747
-  },
-  {
-   "relate": "前传",
-   "src": 111746,
-   "dst": 49137
-  },
-  {
-   "relate": "前传",
-   "src": 111746,
-   "dst": 111747
-  },
-  {
-   "relate": "续集",
-   "src": 111747,
-   "dst": 49137
-  },
-  {
-   "relate": "续集",
-   "src": 111747,
-   "dst": 111746
-  }
- ]
+  "id": "49137",
+  "node": [
+    {
+      "id": 49137,
+      "name": "まほろ駅前番外地",
+      "nameCN": "真幌站前番外地",
+      "date": "2013-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 111746,
+      "name": "まほろ駅前狂騒曲",
+      "nameCN": "真幌站前狂骚曲",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 111747,
+      "name": "まほろ駅前多田便利軒",
+      "nameCN": "多田便利屋",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49137,
+      "dst": 111746
+    },
+    {
+      "relateString": "前传",
+      "src": 49137,
+      "dst": 111747
+    },
+    {
+      "relateString": "前传",
+      "src": 111746,
+      "dst": 49137
+    },
+    {
+      "relateString": "前传",
+      "src": 111746,
+      "dst": 111747
+    },
+    {
+      "relateString": "续集",
+      "src": 111747,
+      "dst": 49137
+    },
+    {
+      "relateString": "续集",
+      "src": 111747,
+      "dst": 111746
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 188004,
- "node": [
-  {
-   "id": 188004,
-   "name": "ドSな姫は汚される因果ノ章",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/ee/188004_jp.jpg",
-   "date": "2013-04-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 233771,
-   "name": "ドSな姫は汚される応報ノ章",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/ad/233771_raKGd.jpg",
-   "type": 1,
-   "date": "2013-04-26",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 188004,
-   "dst": 233771
-  },
-  {
-   "relate": "前传",
-   "src": 233771,
-   "dst": 188004
-  }
- ]
+  "id": "188004",
+  "node": [
+    {
+      "id": 188004,
+      "name": "ドSな姫は汚される因果ノ章",
+      "nameCN": "",
+      "date": "2013-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 233771,
+      "name": "ドSな姫は汚される応報ノ章",
+      "nameCN": "",
+      "date": "2013-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 188004,
+      "dst": 233771
+    },
+    {
+      "relateString": "前传",
+      "src": 233771,
+      "dst": 188004
+    }
+  ]
 }

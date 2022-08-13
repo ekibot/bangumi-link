@@ -1,45 +1,54 @@
 {
- "id": 325092,
- "node": [
-  {
-   "id": 325092,
-   "name": "Monsters of the Sea 3",
-   "image": "/img/no_icon_subject.png",
-   "date": "2014-01-24"
-  },
-  {
-   "id": 325093,
-   "name": "Monsters of the Sea 2",
-   "image": "/img/no_icon_subject.png",
-   "date": "2010-11-20"
-  },
-  {
-   "id": 325094,
-   "name": "Monsters of the Sea",
-   "image": "/img/no_icon_subject.png",
-   "date": "2009-08-21"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 325092,
-   "dst": 325093
-  },
-  {
-   "relate": "续集",
-   "src": 325093,
-   "dst": 325092
-  },
-  {
-   "relate": "前传",
-   "src": 325093,
-   "dst": 325094
-  },
-  {
-   "relate": "续集",
-   "src": 325094,
-   "dst": 325093
-  }
- ]
+  "id": "325092",
+  "node": [
+    {
+      "id": 325092,
+      "name": "Monsters of the Sea 3",
+      "nameCN": "",
+      "date": "2014-01-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325093,
+      "name": "Monsters of the Sea 2",
+      "nameCN": "",
+      "date": "2010-11-20",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325094,
+      "name": "Monsters of the Sea",
+      "nameCN": "",
+      "date": "2009-08-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 325092,
+      "dst": 325093
+    },
+    {
+      "relateString": "续集",
+      "src": 325093,
+      "dst": 325092
+    },
+    {
+      "relateString": "前传",
+      "src": 325093,
+      "dst": 325094
+    },
+    {
+      "relateString": "续集",
+      "src": 325094,
+      "dst": 325093
+    }
+  ]
 }

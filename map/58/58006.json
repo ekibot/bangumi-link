@@ -1,91 +1,85 @@
 {
- "id": 58006,
- "node": [
-  {
-   "id": 58006,
-   "name": "ぎゃる☆がん",
-   "nameCN": "少女射击",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/c1/58006_PUOao.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 129220,
-   "name": "ぎゃる☆がん だぶるぴーす",
-   "nameCN": "少女射击VV",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/a8/129220_SF94O.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 226168,
-   "name": "ぎゃる☆がん2",
-   "nameCN": "少女射击2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/c4/226168_Cufqz.jpg",
-   "date": "2018-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 272893,
-   "name": "ぎゃる☆がんVR",
-   "nameCN": "少女射击VR",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/b8/272893_mXP64.jpg",
-   "date": "2017-08-10",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 315946,
-   "name": "ぎゃる☆がん りたーんず",
-   "nameCN": "少女☆射击 回归初心",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/8f/315946_965Ug.jpg",
-   "date": "2021-01-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 58006,
-   "dst": 129220
-  },
-  {
-   "relate": "不同演绎",
-   "src": 58006,
-   "dst": 315946
-  },
-  {
-   "relate": "前传",
-   "src": 129220,
-   "dst": 58006
-  },
-  {
-   "relate": "续集",
-   "src": 129220,
-   "dst": 226168
-  },
-  {
-   "relate": "前传",
-   "src": 226168,
-   "dst": 129220
-  },
-  {
-   "relate": "主线故事",
-   "src": 272893,
-   "dst": 129220
-  },
-  {
-   "relate": "不同演绎",
-   "src": 315946,
-   "dst": 58006
-  }
- ]
+  "id": "58006",
+  "node": [
+    {
+      "id": 58006,
+      "name": "ぎゃる☆がん",
+      "nameCN": "少女射击",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 129220,
+      "name": "ぎゃる☆がん だぶるぴーす",
+      "nameCN": "少女射击VV",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 315946,
+      "name": "ぎゃる☆がん りたーんず",
+      "nameCN": "少女☆射击 回归初心",
+      "date": "2021-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226168,
+      "name": "ぎゃる☆がん2",
+      "nameCN": "少女射击2",
+      "date": "2018-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272893,
+      "name": "ぎゃる☆がんVR",
+      "nameCN": "少女射击VR",
+      "date": "2017-08-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 58006,
+      "dst": 129220
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 58006,
+      "dst": 315946
+    },
+    {
+      "relateString": "前传",
+      "src": 129220,
+      "dst": 58006
+    },
+    {
+      "relateString": "续集",
+      "src": 129220,
+      "dst": 226168
+    },
+    {
+      "relateString": "前传",
+      "src": 226168,
+      "dst": 129220
+    },
+    {
+      "relateString": "主线故事",
+      "src": 272893,
+      "dst": 129220
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 315946,
+      "dst": 58006
+    }
+  ]
 }

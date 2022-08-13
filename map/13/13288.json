@@ -1,37 +1,35 @@
 {
- "id": 13288,
- "node": [
-  {
-   "id": 13288,
-   "name": "Watchmen",
-   "nameCN": "守望者",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/5c/13288_2ffO9.jpg",
-   "date": "2009-02-23",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 282499,
-   "name": "Watchmen",
-   "nameCN": "守望者",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/d3/282499_Xm8tG.jpg",
-   "date": "2019-10-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 13288,
-   "dst": 282499
-  },
-  {
-   "relate": "不同演绎",
-   "src": 282499,
-   "dst": 13288
-  }
- ]
+  "id": "13288",
+  "node": [
+    {
+      "id": 13288,
+      "name": "Watchmen",
+      "nameCN": "守望者",
+      "date": "2009-02-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 282499,
+      "name": "Watchmen",
+      "nameCN": "守望者",
+      "date": "2019-10-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 13288,
+      "dst": 282499
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 282499,
+      "dst": 13288
+    }
+  ]
 }

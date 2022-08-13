@@ -1,37 +1,35 @@
 {
- "id": 8292,
- "node": [
-  {
-   "id": 8292,
-   "name": "星方武侠アウトロースター",
-   "nameCN": "星方武侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/b5/8292_gRj75.jpg",
-   "date": "1998-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 30520,
-   "name": "星方天使エンジェルリンクス",
-   "nameCN": "星方天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/a4/30520_5bA10.jpg",
-   "date": "1999-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 8292,
-   "dst": 30520
-  },
-  {
-   "relate": "相同世界观",
-   "src": 30520,
-   "dst": 8292
-  }
- ]
+  "id": "8292",
+  "node": [
+    {
+      "id": 8292,
+      "name": "星方武侠アウトロースター",
+      "nameCN": "星方武侠",
+      "date": "1998-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 30520,
+      "name": "星方天使エンジェルリンクス",
+      "nameCN": "星方天使",
+      "date": "1999-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 8292,
+      "dst": 30520
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 30520,
+      "dst": 8292
+    }
+  ]
 }

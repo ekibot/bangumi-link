@@ -1,92 +1,86 @@
 {
- "id": 132916,
- "node": [
-  {
-   "id": 132916,
-   "name": "あんさんぶるスターズ！",
-   "nameCN": "偶像梦幻祭",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/ab/132916_bhmzj.jpg",
-   "date": "2015-05-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 159159,
-   "name": "あんさんぶるスターズ！",
-   "nameCN": "偶像梦幻祭",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/e3/159159_rSKms.jpg",
-   "type": 2,
-   "date": "2019-07-07",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 184541,
-   "name": "あんさんぶるガールズ!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/9e/184541_dNn1k.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 293719,
-   "name": "あんさんぶるスターズ！！ Music",
-   "nameCN": "偶像梦幻祭2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/7b/293719_08a26.jpg",
-   "date": "2020-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 358909,
-   "name": "あんさんぶるスターズ！！-Road to Show!!-",
-   "nameCN": "偶像梦幻祭！！-Road to Show!!-",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/44/358909_vrIEL.jpg",
-   "date": "2022-03-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 132916,
-   "dst": 184541
-  },
-  {
-   "relate": "续集",
-   "src": 132916,
-   "dst": 293719
-  },
-  {
-   "relate": "续集",
-   "src": 159159,
-   "dst": 358909
-  },
-  {
-   "relate": "相同世界观",
-   "src": 184541,
-   "dst": 132916
-  },
-  {
-   "relate": "前传",
-   "src": 293719,
-   "dst": 132916
-  },
-  {
-   "relate": "番外篇",
-   "src": 293719,
-   "dst": 358909
-  },
-  {
-   "relate": "前传",
-   "src": 358909,
-   "dst": 159159
-  }
- ]
+  "id": "132916",
+  "node": [
+    {
+      "id": 132916,
+      "name": "あんさんぶるスターズ！",
+      "nameCN": "偶像梦幻祭",
+      "date": "2015-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 184541,
+      "name": "あんさんぶるガールズ!!",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293719,
+      "name": "あんさんぶるスターズ！！ Music",
+      "nameCN": "偶像梦幻祭2",
+      "date": "2020-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 159159,
+      "name": "あんさんぶるスターズ！",
+      "nameCN": "偶像梦幻祭",
+      "date": "2019-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 358909,
+      "name": "あんさんぶるスターズ！！-Road to Show!!-",
+      "nameCN": "偶像梦幻祭！！-Road to Show!!-",
+      "date": "2022-03-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 132916,
+      "dst": 184541
+    },
+    {
+      "relateString": "续集",
+      "src": 132916,
+      "dst": 293719
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 184541,
+      "dst": 132916
+    },
+    {
+      "relateString": "前传",
+      "src": 293719,
+      "dst": 132916
+    },
+    {
+      "relateString": "续集",
+      "src": 159159,
+      "dst": 358909
+    },
+    {
+      "relateString": "番外篇",
+      "src": 293719,
+      "dst": 358909
+    },
+    {
+      "relateString": "前传",
+      "src": 358909,
+      "dst": 159159
+    }
+  ]
 }

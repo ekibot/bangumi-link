@@ -1,37 +1,33 @@
 {
- "id": 179267,
- "node": [
-  {
-   "id": 179267,
-   "name": "미스터 손",
-   "nameCN": "Mr.孙",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/7b/179267_wo31p.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 179268,
-   "name": "날아라 슈퍼보드",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/66/179268_41E1S.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 179267,
-   "dst": 179268
-  },
-  {
-   "relate": "前传",
-   "src": 179268,
-   "dst": 179267
-  }
- ]
+  "id": "179267",
+  "node": [
+    {
+      "id": 179267,
+      "name": "미스터 손",
+      "nameCN": "Mr.孙",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 179268,
+      "name": "날아라 슈퍼보드",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 179267,
+      "dst": 179268
+    },
+    {
+      "relateString": "前传",
+      "src": 179268,
+      "dst": 179267
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 115709,
- "node": [
-  {
-   "id": 115709,
-   "name": "ホクサイと飯",
-   "nameCN": "北斋和饭",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/76/115709_mK4sm.jpg",
-   "date": "2013-10-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 144346,
-   "name": "ホクサイと飯さえあれば",
-   "nameCN": "只要有北斋和饭",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/63/144346_P8XPq.jpg",
-   "date": "2015-04-06",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 115709,
-   "dst": 144346
-  },
-  {
-   "relate": "续集",
-   "src": 144346,
-   "dst": 115709
-  }
- ]
+  "id": "115709",
+  "node": [
+    {
+      "id": 115709,
+      "name": "ホクサイと飯",
+      "nameCN": "北斋和饭",
+      "date": "2013-10-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144346,
+      "name": "ホクサイと飯さえあれば",
+      "nameCN": "只要有北斋和饭",
+      "date": "2015-04-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 115709,
+      "dst": 144346
+    },
+    {
+      "relateString": "续集",
+      "src": 144346,
+      "dst": 115709
+    }
+  ]
 }

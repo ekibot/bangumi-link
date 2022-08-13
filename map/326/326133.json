@@ -1,57 +1,54 @@
 {
- "id": 326133,
- "node": [
-  {
-   "id": 326133,
-   "name": "正宗台灣十六張麻將",
-   "nameCN": "正宗台湾16张麻将",
-   "date": "1994-01-18",
-   "image": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 326135,
-   "name": "正宗台灣十六張麻將２",
-   "nameCN": "正宗台湾十六张麻将2",
-   "date": "1997-01-10",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 326143,
-   "name": "正宗台灣十六張麻將３",
-   "nameCN": "正宗台湾十六张麻将3",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/aa/326143_fEdwk.jpg",
-   "date": "2003-03-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 326133,
-   "dst": 326135
-  },
-  {
-   "relate": "前传",
-   "src": 326135,
-   "dst": 326133
-  },
-  {
-   "relate": "续集",
-   "src": 326135,
-   "dst": 326143
-  },
-  {
-   "relate": "前传",
-   "src": 326143,
-   "dst": 326135
-  }
- ]
+  "id": "326133",
+  "node": [
+    {
+      "id": 326133,
+      "name": "正宗台灣十六張麻將",
+      "nameCN": "正宗台湾16张麻将",
+      "date": "1994-01-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326135,
+      "name": "正宗台灣十六張麻將２",
+      "nameCN": "正宗台湾十六张麻将2",
+      "date": "1997-01-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326143,
+      "name": "正宗台灣十六張麻將３",
+      "nameCN": "正宗台湾十六张麻将3",
+      "date": "2003-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 326133,
+      "dst": 326135
+    },
+    {
+      "relateString": "前传",
+      "src": 326135,
+      "dst": 326133
+    },
+    {
+      "relateString": "续集",
+      "src": 326135,
+      "dst": 326143
+    },
+    {
+      "relateString": "前传",
+      "src": 326143,
+      "dst": 326135
+    }
+  ]
 }

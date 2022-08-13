@@ -1,37 +1,35 @@
 {
- "id": 93259,
- "node": [
-  {
-   "id": 93259,
-   "name": "チャンネル5.5",
-   "nameCN": "5.5频道",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/63/93259_G377s.jpg",
-   "date": "2014-01-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 238441,
-   "name": "チャンネル5.5 Season2",
-   "nameCN": "5.5频道 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/59/238441_iWLAP.jpg",
-   "date": "2015-07-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93259,
-   "dst": 238441
-  },
-  {
-   "relate": "前传",
-   "src": 238441,
-   "dst": 93259
-  }
- ]
+  "id": "93259",
+  "node": [
+    {
+      "id": 93259,
+      "name": "チャンネル5.5",
+      "nameCN": "5.5频道",
+      "date": "2014-01-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 238441,
+      "name": "チャンネル5.5 Season2",
+      "nameCN": "5.5频道 第二季",
+      "date": "2015-07-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93259,
+      "dst": 238441
+    },
+    {
+      "relateString": "前传",
+      "src": 238441,
+      "dst": 93259
+    }
+  ]
 }

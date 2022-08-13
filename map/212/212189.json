@@ -1,37 +1,34 @@
 {
- "id": 212189,
- "node": [
-  {
-   "id": 212189,
-   "name": "アオアシ",
-   "nameCN": "青之芦苇",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/c4/212189_Y1WOa.jpg",
-   "date": "2015-04-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 342405,
-   "name": "アオアシ ブラザーフット",
-   "nameCN": "青之芦苇 Brother Foot",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/8e/342405_SjtEE.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 212189,
-   "dst": 342405
-  },
-  {
-   "relate": "主线故事",
-   "src": 342405,
-   "dst": 212189
-  }
- ]
+  "id": "212189",
+  "node": [
+    {
+      "id": 212189,
+      "name": "アオアシ",
+      "nameCN": "青之芦苇",
+      "date": "2015-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 342405,
+      "name": "アオアシ ブラザーフット",
+      "nameCN": "青之芦苇 Brother Foot",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 212189,
+      "dst": 342405
+    },
+    {
+      "relateString": "主线故事",
+      "src": 342405,
+      "dst": 212189
+    }
+  ]
 }

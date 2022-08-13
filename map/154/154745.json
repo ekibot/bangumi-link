@@ -1,37 +1,33 @@
 {
- "id": 154745,
- "node": [
-  {
-   "id": 154745,
-   "name": "圣石记骑士篇",
-   "nameCN": "圣石记骑士篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/b8/154745_gr9KF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 302651,
-   "name": "圣石记II假面的复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/f7/302651_bEtlt.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 154745,
-   "dst": 302651
-  },
-  {
-   "relate": "前传",
-   "src": 302651,
-   "dst": 154745
-  }
- ]
+  "id": "154745",
+  "node": [
+    {
+      "id": 154745,
+      "name": "圣石记骑士篇",
+      "nameCN": "圣石记骑士篇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302651,
+      "name": "圣石记II假面的复仇",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 154745,
+      "dst": 302651
+    },
+    {
+      "relateString": "前传",
+      "src": 302651,
+      "dst": 154745
+    }
+  ]
 }

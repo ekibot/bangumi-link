@@ -1,57 +1,54 @@
 {
- "id": 43261,
- "node": [
-  {
-   "id": 43261,
-   "name": "The Newsroom (Season 1)",
-   "nameCN": "新闻编辑室 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/c3/43261_p1d36.jpg",
-   "date": "2012-06-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 72229,
-   "name": "The Newsroom (Season 2)",
-   "nameCN": "新闻编辑室 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/d4/72229_8J6zv.jpg",
-   "date": "2013-07-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 96121,
-   "name": "The Newsroom (Season 3)",
-   "nameCN": "新闻编辑室 （第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/92/96121_sXt8S.jpg",
-   "date": "2014-11-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43261,
-   "dst": 72229
-  },
-  {
-   "relate": "前传",
-   "src": 72229,
-   "dst": 43261
-  },
-  {
-   "relate": "续集",
-   "src": 72229,
-   "dst": 96121
-  },
-  {
-   "relate": "前传",
-   "src": 96121,
-   "dst": 72229
-  }
- ]
+  "id": "43261",
+  "node": [
+    {
+      "id": 43261,
+      "name": "The Newsroom (Season 1)",
+      "nameCN": "新闻编辑室 （第一季）",
+      "date": "2012-06-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 72229,
+      "name": "The Newsroom (Season 2)",
+      "nameCN": "新闻编辑室 （第二季）",
+      "date": "2013-07-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 96121,
+      "name": "The Newsroom (Season 3)",
+      "nameCN": "新闻编辑室 （第三季）",
+      "date": "2014-11-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43261,
+      "dst": 72229
+    },
+    {
+      "relateString": "前传",
+      "src": 72229,
+      "dst": 43261
+    },
+    {
+      "relateString": "续集",
+      "src": 72229,
+      "dst": 96121
+    },
+    {
+      "relateString": "前传",
+      "src": 96121,
+      "dst": 72229
+    }
+  ]
 }

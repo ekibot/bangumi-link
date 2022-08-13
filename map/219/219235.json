@@ -1,37 +1,35 @@
 {
- "id": 219235,
- "node": [
-  {
-   "id": 219235,
-   "name": "ぷりサガ！～ボクの妃は×××～",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/79/219235_lmCV4.jpg",
-   "date": "2006-07-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219236,
-   "name": "ぷりサガ！X（エックス）",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/22/219236_w8ddm.jpg",
-   "date": "2008-05-02",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 219235,
-   "dst": 219236
-  },
-  {
-   "relate": "不同演绎",
-   "src": 219236,
-   "dst": 219235
-  }
- ]
+  "id": "219235",
+  "node": [
+    {
+      "id": 219235,
+      "name": "ぷりサガ！～ボクの妃は×××～",
+      "nameCN": "",
+      "date": "2006-07-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219236,
+      "name": "ぷりサガ！X（エックス）",
+      "nameCN": "",
+      "date": "2008-05-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 219235,
+      "dst": 219236
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 219236,
+      "dst": 219235
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 15980,
- "node": [
-  {
-   "id": 15980,
-   "name": "スパイラル 〜推理の絆〜",
-   "nameCN": "推理之绊",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/4e/15980_ccwk6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 15994,
-   "name": "スパイラル・アライヴ",
-   "nameCN": "推理之绊 螺旋再临",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/97/15994_zv9fK.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 15980,
-   "dst": 15994
-  },
-  {
-   "relate": "续集",
-   "src": 15994,
-   "dst": 15980
-  }
- ]
+  "id": "15980",
+  "node": [
+    {
+      "id": 15980,
+      "name": "スパイラル 〜推理の絆〜",
+      "nameCN": "推理之绊",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 15994,
+      "name": "スパイラル・アライヴ",
+      "nameCN": "推理之绊 螺旋再临",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 15980,
+      "dst": 15994
+    },
+    {
+      "relateString": "续集",
+      "src": 15994,
+      "dst": 15980
+    }
+  ]
 }

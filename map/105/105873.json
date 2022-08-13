@@ -1,37 +1,34 @@
 {
- "id": 105873,
- "node": [
-  {
-   "id": 105873,
-   "name": "ドラゴンボール ゼノバース",
-   "nameCN": "龙珠：超宇宙",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/2c/105873_3iuHy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 182957,
-   "name": "ドラゴンボール ゼノバース2",
-   "nameCN": "龙珠：超宇宙2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/42/182957_53nJn.jpg",
-   "date": "2016-10-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105873,
-   "dst": 182957
-  },
-  {
-   "relate": "前传",
-   "src": 182957,
-   "dst": 105873
-  }
- ]
+  "id": "105873",
+  "node": [
+    {
+      "id": 105873,
+      "name": "ドラゴンボール ゼノバース",
+      "nameCN": "龙珠：超宇宙",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 182957,
+      "name": "ドラゴンボール ゼノバース2",
+      "nameCN": "龙珠：超宇宙2",
+      "date": "2016-10-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105873,
+      "dst": 182957
+    },
+    {
+      "relateString": "前传",
+      "src": 182957,
+      "dst": 105873
+    }
+  ]
 }

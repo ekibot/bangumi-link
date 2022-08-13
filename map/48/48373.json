@@ -1,28 +1,30 @@
 {
- "id": 48373,
- "node": [
-  {
-   "id": 48373,
-   "name": "子羊プロジェクト 1",
-   "nameCN": "羔羊计划 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/c9/48373_jp.jpg",
-   "date": "2012-05-12",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 48374,
-   "name": "子羊プロジェクト 2",
-   "nameCN": "羔羊计划 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/20/48374_jp.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48373,
-   "dst": 48374
-  }
- ]
+  "id": "48373",
+  "node": [
+    {
+      "id": 48373,
+      "name": "子羊プロジェクト 1",
+      "nameCN": "羔羊计划 1",
+      "date": "2012-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 48374,
+      "name": "子羊プロジェクト 2",
+      "nameCN": "羔羊计划 2",
+      "date": "2012-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48373,
+      "dst": 48374
+    }
+  ]
 }

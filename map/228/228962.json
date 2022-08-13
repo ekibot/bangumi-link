@@ -1,37 +1,35 @@
 {
- "id": 228962,
- "node": [
-  {
-   "id": 228962,
-   "name": "木奇灵之绿影战灵",
-   "nameCN": "木奇灵之绿影战灵",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/50/228962_FRPRp.jpg",
-   "date": "2014-07-25",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 228966,
-   "name": "木奇灵2圣天灵种",
-   "nameCN": "木奇灵2圣天灵种",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/7a/228966_t2E7e.jpg",
-   "date": "2016-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228962,
-   "dst": 228966
-  },
-  {
-   "relate": "前传",
-   "src": 228966,
-   "dst": 228962
-  }
- ]
+  "id": "228962",
+  "node": [
+    {
+      "id": 228962,
+      "name": "木奇灵之绿影战灵",
+      "nameCN": "木奇灵之绿影战灵",
+      "date": "2014-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228966,
+      "name": "木奇灵2圣天灵种",
+      "nameCN": "木奇灵2圣天灵种",
+      "date": "2016-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228962,
+      "dst": 228966
+    },
+    {
+      "relateString": "前传",
+      "src": 228966,
+      "dst": 228962
+    }
+  ]
 }

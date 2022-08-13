@@ -1,37 +1,35 @@
 {
- "id": 219580,
- "node": [
-  {
-   "id": 219580,
-   "name": "双世宠妃",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/40/219580_f00cm.jpg",
-   "date": "2017-07-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 263298,
-   "name": "双世宠妃Ⅱ",
-   "nameCN": "双世宠妃2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/a6/263298_Zpn2J.jpg",
-   "date": "2018-10-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219580,
-   "dst": 263298
-  },
-  {
-   "relate": "前传",
-   "src": 263298,
-   "dst": 219580
-  }
- ]
+  "id": "219580",
+  "node": [
+    {
+      "id": 219580,
+      "name": "双世宠妃",
+      "nameCN": "",
+      "date": "2017-07-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 263298,
+      "name": "双世宠妃Ⅱ",
+      "nameCN": "双世宠妃2",
+      "date": "2018-10-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219580,
+      "dst": 263298
+    },
+    {
+      "relateString": "前传",
+      "src": 263298,
+      "dst": 219580
+    }
+  ]
 }

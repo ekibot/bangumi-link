@@ -1,57 +1,54 @@
 {
- "id": 29326,
- "node": [
-  {
-   "id": 29326,
-   "name": "戦え!!イクサー1",
-   "nameCN": "战斗吧!! 伊克萨1",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/ea/29326_KHY3m.jpg",
-   "date": "1985-10-19",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 32492,
-   "name": "冒険!イクサー3",
-   "nameCN": "冒险! 伊克萨3",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/b4/32492_Xg59O.jpg",
-   "date": "1990-09-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 32493,
-   "name": "戦ー少女イクセリオン",
-   "nameCN": "战少女伊库赛利翁",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/7d/32493_aaiRo.jpg",
-   "date": "1995-01-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 29326,
-   "dst": 32492
-  },
-  {
-   "relate": "前传",
-   "src": 32492,
-   "dst": 29326
-  },
-  {
-   "relate": "续集",
-   "src": 32492,
-   "dst": 32493
-  },
-  {
-   "relate": "前传",
-   "src": 32493,
-   "dst": 32492
-  }
- ]
+  "id": "29326",
+  "node": [
+    {
+      "id": 29326,
+      "name": "戦え!!イクサー1",
+      "nameCN": "战斗吧!! 伊克萨1",
+      "date": "1985-10-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 32492,
+      "name": "冒険!イクサー3",
+      "nameCN": "冒险! 伊克萨3",
+      "date": "1990-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 32493,
+      "name": "戦ー少女イクセリオン",
+      "nameCN": "战少女伊库赛利翁",
+      "date": "1995-01-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 29326,
+      "dst": 32492
+    },
+    {
+      "relateString": "前传",
+      "src": 32492,
+      "dst": 29326
+    },
+    {
+      "relateString": "续集",
+      "src": 32492,
+      "dst": 32493
+    },
+    {
+      "relateString": "前传",
+      "src": 32493,
+      "dst": 32492
+    }
+  ]
 }

@@ -1,107 +1,102 @@
 {
- "id": 121026,
- "node": [
-  {
-   "id": 121026,
-   "name": "Twin Peaks Season 1",
-   "nameCN": "双峰 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/3d/121026_iznqF.jpg",
-   "date": "1990-04-08",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 121027,
-   "name": "Twin Peaks Season 2",
-   "nameCN": "双峰 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/42/121027_uLeLu.jpg",
-   "date": "1990-09-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 121028,
-   "name": "Twin Peaks Season 3",
-   "nameCN": "双峰 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/d3/121028_7V3nu.jpg",
-   "date": "2017-05-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 121029,
-   "name": "Twin Peaks: Fire Walk with Me",
-   "nameCN": "双峰：与火同行",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/c9/121029_XoLOl.jpg",
-   "date": "1992-06-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 267373,
-   "name": "Twin Peaks: The Missing Pieces",
-   "nameCN": "双峰：遗失的碎片",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/3c/267373_5F1rb.jpg",
-   "date": "2014-06-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121026,
-   "dst": 121027
-  },
-  {
-   "relate": "前传",
-   "src": 121026,
-   "dst": 121029
-  },
-  {
-   "relate": "前传",
-   "src": 121027,
-   "dst": 121026
-  },
-  {
-   "relate": "续集",
-   "src": 121027,
-   "dst": 121028
-  },
-  {
-   "relate": "前传",
-   "src": 121027,
-   "dst": 121029
-  },
-  {
-   "relate": "前传",
-   "src": 121028,
-   "dst": 121027
-  },
-  {
-   "relate": "续集",
-   "src": 121029,
-   "dst": 121026
-  },
-  {
-   "relate": "续集",
-   "src": 121029,
-   "dst": 121027
-  },
-  {
-   "relate": "相同世界观",
-   "src": 121029,
-   "dst": 267373
-  },
-  {
-   "relate": "相同世界观",
-   "src": 267373,
-   "dst": 121029
-  }
- ]
+  "id": "121026",
+  "node": [
+    {
+      "id": 121026,
+      "name": "Twin Peaks Season 1",
+      "nameCN": "双峰 第一季",
+      "date": "1990-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 121027,
+      "name": "Twin Peaks Season 2",
+      "nameCN": "双峰 第二季",
+      "date": "1990-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 121029,
+      "name": "Twin Peaks: Fire Walk with Me",
+      "nameCN": "双峰：与火同行",
+      "date": "1992-06-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 121028,
+      "name": "Twin Peaks Season 3",
+      "nameCN": "双峰 第三季",
+      "date": "2017-05-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 267373,
+      "name": "Twin Peaks: The Missing Pieces",
+      "nameCN": "双峰：遗失的碎片",
+      "date": "2014-06-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121026,
+      "dst": 121027
+    },
+    {
+      "relateString": "前传",
+      "src": 121026,
+      "dst": 121029
+    },
+    {
+      "relateString": "前传",
+      "src": 121027,
+      "dst": 121026
+    },
+    {
+      "relateString": "续集",
+      "src": 121027,
+      "dst": 121028
+    },
+    {
+      "relateString": "前传",
+      "src": 121027,
+      "dst": 121029
+    },
+    {
+      "relateString": "前传",
+      "src": 121028,
+      "dst": 121027
+    },
+    {
+      "relateString": "续集",
+      "src": 121029,
+      "dst": 121026
+    },
+    {
+      "relateString": "续集",
+      "src": 121029,
+      "dst": 121027
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 121029,
+      "dst": 267373
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 267373,
+      "dst": 121029
+    }
+  ]
 }

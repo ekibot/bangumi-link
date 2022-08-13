@@ -1,71 +1,68 @@
 {
- "id": 110629,
- "node": [
-  {
-   "id": 110629,
-   "name": "恋と嘘",
-   "nameCN": "恋爱与谎言",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/96/110629_n5IHi.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 209412,
-   "name": "恋と嘘",
-   "nameCN": "恋爱禁止的世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/6d/209412_BBTsj.jpg",
-   "date": "2017-07-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 212405,
-   "name": "恋と嘘",
-   "nameCN": "恋爱禁止的世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/31/212405_Mihni.jpg",
-   "date": "2017-10-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 242617,
-   "name": "恋と嘘 OAD",
-   "nameCN": "恋爱禁止的世界 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/58/242617_1iCCq.jpg",
-   "date": "2018-11-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 110629,
-   "dst": 212405
-  },
-  {
-   "relate": "相同世界观",
-   "src": 209412,
-   "dst": 212405
-  },
-  {
-   "relate": "番外篇",
-   "src": 209412,
-   "dst": 242617
-  },
-  {
-   "relate": "相同世界观",
-   "src": 212405,
-   "dst": 209412
-  },
-  {
-   "relate": "主线故事",
-   "src": 242617,
-   "dst": 209412
-  }
- ]
+  "id": "110629",
+  "node": [
+    {
+      "id": 110629,
+      "name": "恋と嘘",
+      "nameCN": "恋爱与谎言",
+      "date": "2014-08-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 212405,
+      "name": "恋と嘘",
+      "nameCN": "恋爱禁止的世界",
+      "date": "2017-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 209412,
+      "name": "恋と嘘",
+      "nameCN": "恋爱禁止的世界",
+      "date": "2017-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 242617,
+      "name": "恋と嘘 OAD",
+      "nameCN": "恋爱禁止的世界 OAD",
+      "date": "2018-11-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 110629,
+      "dst": 212405
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 209412,
+      "dst": 212405
+    },
+    {
+      "relateString": "番外篇",
+      "src": 209412,
+      "dst": 242617
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 212405,
+      "dst": 209412
+    },
+    {
+      "relateString": "主线故事",
+      "src": 242617,
+      "dst": 209412
+    }
+  ]
 }

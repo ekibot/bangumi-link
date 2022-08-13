@@ -1,37 +1,35 @@
 {
- "id": 171321,
- "node": [
-  {
-   "id": 171321,
-   "name": "富江 BEGINNING",
-   "nameCN": "富江之恶魔再生",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/ea/171321_0dwuw.jpg",
-   "date": "2005-04-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 171332,
-   "name": "富江 REVENGE",
-   "nameCN": "富江之终极复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/a9/171332_nswjT.jpg",
-   "date": "2005-04-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171321,
-   "dst": 171332
-  },
-  {
-   "relate": "前传",
-   "src": 171332,
-   "dst": 171321
-  }
- ]
+  "id": "171321",
+  "node": [
+    {
+      "id": 171321,
+      "name": "富江 BEGINNING",
+      "nameCN": "富江之恶魔再生",
+      "date": "2005-04-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 171332,
+      "name": "富江 REVENGE",
+      "nameCN": "富江之终极复仇",
+      "date": "2005-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171321,
+      "dst": 171332
+    },
+    {
+      "relateString": "前传",
+      "src": 171332,
+      "dst": 171321
+    }
+  ]
 }

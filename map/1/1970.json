@@ -1,37 +1,35 @@
 {
- "id": 1970,
- "node": [
-  {
-   "id": 1970,
-   "name": "ヴァンパイア騎士",
-   "nameCN": "吸血鬼骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/04/1970_2306k.jpg",
-   "date": "2008-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 1971,
-   "name": "ヴァンパイア騎士 Guilty",
-   "nameCN": "吸血鬼骑士 Guilty",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/73/1971_573M3.jpg",
-   "date": "2008-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1970,
-   "dst": 1971
-  },
-  {
-   "relate": "前传",
-   "src": 1971,
-   "dst": 1970
-  }
- ]
+  "id": "1970",
+  "node": [
+    {
+      "id": 1970,
+      "name": "ヴァンパイア騎士",
+      "nameCN": "吸血鬼骑士",
+      "date": "2008-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 1971,
+      "name": "ヴァンパイア騎士 Guilty",
+      "nameCN": "吸血鬼骑士 Guilty",
+      "date": "2008-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1970,
+      "dst": 1971
+    },
+    {
+      "relateString": "前传",
+      "src": 1971,
+      "dst": 1970
+    }
+  ]
 }

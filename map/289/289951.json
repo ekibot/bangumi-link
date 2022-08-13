@@ -1,37 +1,35 @@
 {
- "id": 289951,
- "node": [
-  {
-   "id": 289951,
-   "name": "ランウェイで笑って",
-   "nameCN": "请在T台上微笑",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/2c/289951_1sogr.jpg",
-   "date": "2020-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 302669,
-   "name": "ランウェイで笑って ミニアニメ",
-   "nameCN": "请在T台上微笑 迷你动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/e6/302669_okDs8.jpg",
-   "date": "2019-11-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 289951,
-   "dst": 302669
-  },
-  {
-   "relate": "主线故事",
-   "src": 302669,
-   "dst": 289951
-  }
- ]
+  "id": "289951",
+  "node": [
+    {
+      "id": 289951,
+      "name": "ランウェイで笑って",
+      "nameCN": "请在T台上微笑",
+      "date": "2020-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 302669,
+      "name": "ランウェイで笑って ミニアニメ",
+      "nameCN": "请在T台上微笑 迷你动画",
+      "date": "2019-11-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 289951,
+      "dst": 302669
+    },
+    {
+      "relateString": "主线故事",
+      "src": 302669,
+      "dst": 289951
+    }
+  ]
 }

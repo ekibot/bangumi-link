@@ -1,37 +1,35 @@
 {
- "id": 4599,
- "node": [
-  {
-   "id": 4599,
-   "name": "ポポロクロイス物語",
-   "nameCN": "波波罗克罗伊斯物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/f8/4599_YMWI3.jpg",
-   "date": "1998-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 154748,
-   "name": "ポポロクロイス",
-   "nameCN": "波波罗王国",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/6b/154748_bjpmV.jpg",
-   "date": "2003-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4599,
-   "dst": 154748
-  },
-  {
-   "relate": "前传",
-   "src": 154748,
-   "dst": 4599
-  }
- ]
+  "id": "4599",
+  "node": [
+    {
+      "id": 4599,
+      "name": "ポポロクロイス物語",
+      "nameCN": "波波罗克罗伊斯物语",
+      "date": "1998-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 154748,
+      "name": "ポポロクロイス",
+      "nameCN": "波波罗王国",
+      "date": "2003-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4599,
+      "dst": 154748
+    },
+    {
+      "relateString": "前传",
+      "src": 154748,
+      "dst": 4599
+    }
+  ]
 }

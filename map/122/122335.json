@@ -1,37 +1,35 @@
 {
- "id": 122335,
- "node": [
-  {
-   "id": 122335,
-   "name": "湾岸ミッドナイト",
-   "nameCN": "湾岸午夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/fe/122335_HdJH9.jpg",
-   "date": "1990-03-05",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 122382,
-   "name": "湾岸ミッドナイト C1ランナー",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/08/122382_YpwfY.jpg",
-   "date": "2008-08-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122335,
-   "dst": 122382
-  },
-  {
-   "relate": "前传",
-   "src": 122382,
-   "dst": 122335
-  }
- ]
+  "id": "122335",
+  "node": [
+    {
+      "id": 122335,
+      "name": "湾岸ミッドナイト",
+      "nameCN": "湾岸午夜",
+      "date": "1990-03-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 122382,
+      "name": "湾岸ミッドナイト C1ランナー",
+      "nameCN": "",
+      "date": "2008-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122335,
+      "dst": 122382
+    },
+    {
+      "relateString": "前传",
+      "src": 122382,
+      "dst": 122335
+    }
+  ]
 }

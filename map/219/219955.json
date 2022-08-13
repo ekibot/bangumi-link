@@ -1,57 +1,54 @@
 {
- "id": 219955,
- "node": [
-  {
-   "id": 219955,
-   "name": "せいぜいがんばれ！魔法少女くるみ",
-   "nameCN": "尽量加油吧！魔法少女胡桃",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/a7/219955_mnBRB.jpg",
-   "date": "2017-07-29",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 256948,
-   "name": "せいぜいがんばれ！魔法少女くるみ 2期",
-   "nameCN": "尽量加油吧！魔法少女胡桃 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/bc/256948_W96G1.jpg",
-   "date": "2018-10-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 310899,
-   "name": "せいぜいがんばれ！魔法少女くるみ 3期",
-   "nameCN": "尽量加油吧！魔法少女胡桃 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/65/310899_WL100.jpg",
-   "date": "2020-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219955,
-   "dst": 256948
-  },
-  {
-   "relate": "前传",
-   "src": 256948,
-   "dst": 219955
-  },
-  {
-   "relate": "续集",
-   "src": 256948,
-   "dst": 310899
-  },
-  {
-   "relate": "前传",
-   "src": 310899,
-   "dst": 256948
-  }
- ]
+  "id": "219955",
+  "node": [
+    {
+      "id": 219955,
+      "name": "せいぜいがんばれ！魔法少女くるみ",
+      "nameCN": "尽量加油吧！魔法少女胡桃",
+      "date": "2017-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 256948,
+      "name": "せいぜいがんばれ！魔法少女くるみ 2期",
+      "nameCN": "尽量加油吧！魔法少女胡桃 第二季",
+      "date": "2018-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 310899,
+      "name": "せいぜいがんばれ！魔法少女くるみ 3期",
+      "nameCN": "尽量加油吧！魔法少女胡桃 第三季",
+      "date": "2020-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219955,
+      "dst": 256948
+    },
+    {
+      "relateString": "前传",
+      "src": 256948,
+      "dst": 219955
+    },
+    {
+      "relateString": "续集",
+      "src": 256948,
+      "dst": 310899
+    },
+    {
+      "relateString": "前传",
+      "src": 310899,
+      "dst": 256948
+    }
+  ]
 }

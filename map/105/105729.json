@@ -1,37 +1,35 @@
 {
- "id": 105729,
- "node": [
-  {
-   "id": 105729,
-   "name": "Destination Moon (The Adventures of Tintin)",
-   "nameCN": "奔向月球",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/7f/105729_us.jpg",
-   "date": "1976-09-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 105730,
-   "name": "Explorers on the Moon (The Adventures of Tintin)",
-   "nameCN": "月球探险",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/c0/105730_us.jpg",
-   "date": "1976-09-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105729,
-   "dst": 105730
-  },
-  {
-   "relate": "前传",
-   "src": 105730,
-   "dst": 105729
-  }
- ]
+  "id": "105729",
+  "node": [
+    {
+      "id": 105729,
+      "name": "Destination Moon (The Adventures of Tintin)",
+      "nameCN": "奔向月球",
+      "date": "1976-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 105730,
+      "name": "Explorers on the Moon (The Adventures of Tintin)",
+      "nameCN": "月球探险",
+      "date": "1976-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105729,
+      "dst": 105730
+    },
+    {
+      "relateString": "前传",
+      "src": 105730,
+      "dst": 105729
+    }
+  ]
 }

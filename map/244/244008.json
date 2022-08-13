@@ -1,129 +1,123 @@
 {
- "id": 244008,
- "node": [
-  {
-   "id": 244008,
-   "name": "刺客伍六七",
-   "nameCN": "刺客伍六七",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/fa/244008_Y34Qh.jpg",
-   "date": "2018-04-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 277436,
-   "name": "伍六七之最强发型师",
-   "nameCN": "伍六七之最强发型师",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/42/277436_sVpfF.jpg",
-   "date": "2019-10-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 312700,
-   "name": "伍六七之玄武国篇 上篇",
-   "nameCN": "伍六七之玄武国篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/db/312700_vpftp.jpg",
-   "date": "2021-01-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 329160,
-   "name": "伍六七之玄武国篇 下篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/71/329160_pbW8d.jpg",
-   "nameCN": "伍六七之玄武国篇 下篇",
-   "date": "2021-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 335032,
-   "name": "伍六七大电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/f5/335032_0BdTB.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 335672,
-   "name": "阿七遨游记",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/ff/335672_qfLrQ.jpg",
-   "date": "2021-07-23",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 335684,
-   "name": "伍六七：黑白双龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/29/335684_rw5f5.jpg",
-   "nameCN": "",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 244008,
-   "dst": 277436
-  },
-  {
-   "relate": "番外篇",
-   "src": 244008,
-   "dst": 335672
-  },
-  {
-   "relate": "前传",
-   "src": 244008,
-   "dst": 335684
-  },
-  {
-   "relate": "前传",
-   "src": 277436,
-   "dst": 244008
-  },
-  {
-   "relate": "续集",
-   "src": 277436,
-   "dst": 312700
-  },
-  {
-   "relate": "前传",
-   "src": 312700,
-   "dst": 277436
-  },
-  {
-   "relate": "续集",
-   "src": 312700,
-   "dst": 329160
-  },
-  {
-   "relate": "前传",
-   "src": 329160,
-   "dst": 312700
-  },
-  {
-   "relate": "续集",
-   "src": 329160,
-   "dst": 335032
-  },
-  {
-   "relate": "前传",
-   "src": 335032,
-   "dst": 329160
-  },
-  {
-   "relate": "主线故事",
-   "src": 335672,
-   "dst": 244008
-  }
- ]
+  "id": "244008",
+  "node": [
+    {
+      "id": 244008,
+      "name": "刺客伍六七",
+      "nameCN": "刺客伍六七",
+      "date": "2018-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 277436,
+      "name": "伍六七之最强发型师",
+      "nameCN": "伍六七之最强发型师",
+      "date": "2019-10-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 335672,
+      "name": "阿七遨游记",
+      "nameCN": "",
+      "date": "2021-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 335684,
+      "name": "伍六七：黑白双龙",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 312700,
+      "name": "伍六七之玄武国篇 上篇",
+      "nameCN": "伍六七之玄武国篇",
+      "date": "2021-01-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 329160,
+      "name": "伍六七之玄武国篇 下篇",
+      "nameCN": "伍六七之玄武国篇 下篇",
+      "date": "2021-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 335032,
+      "name": "伍六七大电影",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 244008,
+      "dst": 277436
+    },
+    {
+      "relateString": "番外篇",
+      "src": 244008,
+      "dst": 335672
+    },
+    {
+      "relateString": "前传",
+      "src": 244008,
+      "dst": 335684
+    },
+    {
+      "relateString": "前传",
+      "src": 277436,
+      "dst": 244008
+    },
+    {
+      "relateString": "续集",
+      "src": 277436,
+      "dst": 312700
+    },
+    {
+      "relateString": "前传",
+      "src": 312700,
+      "dst": 277436
+    },
+    {
+      "relateString": "续集",
+      "src": 312700,
+      "dst": 329160
+    },
+    {
+      "relateString": "前传",
+      "src": 329160,
+      "dst": 312700
+    },
+    {
+      "relateString": "续集",
+      "src": 329160,
+      "dst": 335032
+    },
+    {
+      "relateString": "前传",
+      "src": 335032,
+      "dst": 329160
+    },
+    {
+      "relateString": "主线故事",
+      "src": 335672,
+      "dst": 244008
+    }
+  ]
 }

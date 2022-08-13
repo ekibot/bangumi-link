@@ -1,37 +1,35 @@
 {
- "id": 186315,
- "node": [
-  {
-   "id": 186315,
-   "name": "京都アニメーション版 作画の手引き",
-   "nameCN": "京都动画版 作画指南",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/69/186315_jp.jpg",
-   "date": "2010-09-17",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 310776,
-   "name": "京都アニメーション版 仕上げ・撮影の手引き",
-   "nameCN": "京都动画版 上色・摄影指南",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/48/310776_SjP5F.jpg",
-   "date": "2010-09-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 186315,
-   "dst": 310776
-  },
-  {
-   "relate": "前传",
-   "src": 310776,
-   "dst": 186315
-  }
- ]
+  "id": "186315",
+  "node": [
+    {
+      "id": 186315,
+      "name": "京都アニメーション版 作画の手引き",
+      "nameCN": "京都动画版 作画指南",
+      "date": "2010-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 310776,
+      "name": "京都アニメーション版 仕上げ・撮影の手引き",
+      "nameCN": "京都动画版 上色・摄影指南",
+      "date": "2010-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 186315,
+      "dst": 310776
+    },
+    {
+      "relateString": "前传",
+      "src": 310776,
+      "dst": 186315
+    }
+  ]
 }

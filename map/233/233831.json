@@ -1,37 +1,35 @@
 {
- "id": 233831,
- "node": [
-  {
-   "id": 233831,
-   "name": "無用庵隠居修行",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/8e/233831_GisjP.jpg",
-   "date": "2017-12-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 259188,
-   "name": "無用庵隠居修行２",
-   "date": "2018-09-08",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233831,
-   "dst": 259188
-  },
-  {
-   "relate": "前传",
-   "src": 259188,
-   "dst": 233831
-  }
- ]
+  "id": "233831",
+  "node": [
+    {
+      "id": 233831,
+      "name": "無用庵隠居修行",
+      "nameCN": "",
+      "date": "2017-12-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 259188,
+      "name": "無用庵隠居修行２",
+      "nameCN": "",
+      "date": "2018-09-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233831,
+      "dst": 259188
+    },
+    {
+      "relateString": "前传",
+      "src": 259188,
+      "dst": 233831
+    }
+  ]
 }

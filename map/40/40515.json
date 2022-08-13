@@ -1,37 +1,35 @@
 {
- "id": 40515,
- "node": [
-  {
-   "id": 40515,
-   "name": "Luxor 3",
-   "nameCN": "埃及祖玛3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/18/40515_d7Ou8.jpg",
-   "date": "2007-10-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 144657,
-   "name": "Luxor 2",
-   "nameCN": "埃及祖玛 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/1b/144657_X9x63.jpg",
-   "date": "2006-10-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 40515,
-   "dst": 144657
-  },
-  {
-   "relate": "续集",
-   "src": 144657,
-   "dst": 40515
-  }
- ]
+  "id": "40515",
+  "node": [
+    {
+      "id": 40515,
+      "name": "Luxor 3",
+      "nameCN": "埃及祖玛3",
+      "date": "2007-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144657,
+      "name": "Luxor 2",
+      "nameCN": "埃及祖玛 2",
+      "date": "2006-10-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 40515,
+      "dst": 144657
+    },
+    {
+      "relateString": "续集",
+      "src": 144657,
+      "dst": 40515
+    }
+  ]
 }

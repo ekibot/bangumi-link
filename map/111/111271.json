@@ -1,57 +1,54 @@
 {
- "id": 111271,
- "node": [
-  {
-   "id": 111271,
-   "name": "Open Season",
-   "nameCN": "丛林大反攻",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/97/111271_6r8r8.jpg",
-   "date": "2006-09-29",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 111272,
-   "name": "Open Season 2",
-   "nameCN": "丛林大反攻2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/ed/111272_y7NPY.jpg",
-   "date": "2008-09-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 111274,
-   "name": "Open Season 3",
-   "nameCN": "丛林大反攻3",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/21/111274_909ee.jpg",
-   "date": "2010-01-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111271,
-   "dst": 111272
-  },
-  {
-   "relate": "前传",
-   "src": 111272,
-   "dst": 111271
-  },
-  {
-   "relate": "续集",
-   "src": 111272,
-   "dst": 111274
-  },
-  {
-   "relate": "前传",
-   "src": 111274,
-   "dst": 111272
-  }
- ]
+  "id": "111271",
+  "node": [
+    {
+      "id": 111271,
+      "name": "Open Season",
+      "nameCN": "丛林大反攻",
+      "date": "2006-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 111272,
+      "name": "Open Season 2",
+      "nameCN": "丛林大反攻2",
+      "date": "2008-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 111274,
+      "name": "Open Season 3",
+      "nameCN": "丛林大反攻3",
+      "date": "2010-01-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111271,
+      "dst": 111272
+    },
+    {
+      "relateString": "前传",
+      "src": 111272,
+      "dst": 111271
+    },
+    {
+      "relateString": "续集",
+      "src": 111272,
+      "dst": 111274
+    },
+    {
+      "relateString": "前传",
+      "src": 111274,
+      "dst": 111272
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 352237,
- "node": [
-  {
-   "id": 352237,
-   "name": "周生如故",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/75/352237_7vGcA.jpg",
-   "date": "2021-08-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 352253,
-   "name": "一生一世",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/92/352253_a60U6.jpg",
-   "date": "2021-09-06",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 352237,
-   "dst": 352253
-  },
-  {
-   "relate": "前传",
-   "src": 352253,
-   "dst": 352237
-  }
- ]
+  "id": "352237",
+  "node": [
+    {
+      "id": 352237,
+      "name": "周生如故",
+      "nameCN": "",
+      "date": "2021-08-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 352253,
+      "name": "一生一世",
+      "nameCN": "",
+      "date": "2021-09-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 352237,
+      "dst": 352253
+    },
+    {
+      "relateString": "前传",
+      "src": 352253,
+      "dst": 352237
+    }
+  ]
 }

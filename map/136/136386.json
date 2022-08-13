@@ -1,37 +1,34 @@
 {
- "id": 136386,
- "node": [
-  {
-   "id": 136386,
-   "name": "空想東京百景〈異聞〉Strange report",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/fa/136386_jp.jpg",
-   "date": "2015-04-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 136390,
-   "name": "空想東京百景",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/cb/136390_xDd0g.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 136386,
-   "dst": 136390
-  },
-  {
-   "relate": "番外篇",
-   "src": 136390,
-   "dst": 136386
-  }
- ]
+  "id": "136386",
+  "node": [
+    {
+      "id": 136386,
+      "name": "空想東京百景〈異聞〉Strange report",
+      "nameCN": "",
+      "date": "2015-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 136390,
+      "name": "空想東京百景",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 136386,
+      "dst": 136390
+    },
+    {
+      "relateString": "番外篇",
+      "src": 136390,
+      "dst": 136386
+    }
+  ]
 }

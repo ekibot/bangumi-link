@@ -1,57 +1,53 @@
 {
- "id": 121286,
- "node": [
-  {
-   "id": 121286,
-   "name": "Papuwa",
-   "nameCN": "南国少年巴布华",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/c3/121286_OE69y.jpg",
-   "date": "2003-09-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 121287,
-   "name": "南国少年パプワくん",
-   "nameCN": "南国少年巴布华",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/5d/121287_liSF2.jpg",
-   "date": "1992-10-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 160925,
-   "name": "南国少年パプワくん 星降る夜に会いましょう",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/c5/160925_CPKx4.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 121286,
-   "dst": 121287
-  },
-  {
-   "relate": "续集",
-   "src": 121287,
-   "dst": 121286
-  },
-  {
-   "relate": "番外篇",
-   "src": 121287,
-   "dst": 160925
-  },
-  {
-   "relate": "主线故事",
-   "src": 160925,
-   "dst": 121287
-  }
- ]
+  "id": "121286",
+  "node": [
+    {
+      "id": 121286,
+      "name": "Papuwa",
+      "nameCN": "南国少年巴布华",
+      "date": "2003-09-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 121287,
+      "name": "南国少年パプワくん",
+      "nameCN": "南国少年巴布华",
+      "date": "1992-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 160925,
+      "name": "南国少年パプワくん 星降る夜に会いましょう",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 121286,
+      "dst": 121287
+    },
+    {
+      "relateString": "续集",
+      "src": 121287,
+      "dst": 121286
+    },
+    {
+      "relateString": "番外篇",
+      "src": 121287,
+      "dst": 160925
+    },
+    {
+      "relateString": "主线故事",
+      "src": 160925,
+      "dst": 121287
+    }
+  ]
 }

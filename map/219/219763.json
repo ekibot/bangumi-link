@@ -1,37 +1,35 @@
 {
- "id": 219763,
- "node": [
-  {
-   "id": 219763,
-   "name": "Salvation Season 1",
-   "nameCN": "救星 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/fc/219763_0NzBx.jpg",
-   "date": "2017-07-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 280260,
-   "name": "Salvation Season 2",
-   "nameCN": "救星 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/c4/280260_WDdf3.jpg",
-   "date": "2018-06-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219763,
-   "dst": 280260
-  },
-  {
-   "relate": "前传",
-   "src": 280260,
-   "dst": 219763
-  }
- ]
+  "id": "219763",
+  "node": [
+    {
+      "id": 219763,
+      "name": "Salvation Season 1",
+      "nameCN": "救星 第一季",
+      "date": "2017-07-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 280260,
+      "name": "Salvation Season 2",
+      "nameCN": "救星 第二季",
+      "date": "2018-06-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219763,
+      "dst": 280260
+    },
+    {
+      "relateString": "前传",
+      "src": 280260,
+      "dst": 219763
+    }
+  ]
 }

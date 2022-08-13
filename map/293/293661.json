@@ -1,29 +1,35 @@
 {
- "id": 293661,
- "node": [
-  {
-   "id": 293661,
-   "name": "妖花の園",
-   "image": "/img/no_icon_subject.png",
-   "date": "2019-10-25"
-  },
-  {
-   "id": 313988,
-   "name": "妖花の園 II",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-11-27"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 293661,
-   "dst": 313988
-  },
-  {
-   "relate": "前传",
-   "src": 313988,
-   "dst": 293661
-  }
- ]
+  "id": "293661",
+  "node": [
+    {
+      "id": 293661,
+      "name": "妖花の園",
+      "nameCN": "",
+      "date": "2019-10-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 313988,
+      "name": "妖花の園 II",
+      "nameCN": "妖花之园 Ⅱ",
+      "date": "2020-11-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 293661,
+      "dst": 313988
+    },
+    {
+      "relateString": "前传",
+      "src": 313988,
+      "dst": 293661
+    }
+  ]
 }

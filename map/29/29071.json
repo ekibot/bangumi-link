@@ -1,37 +1,35 @@
 {
- "id": 29071,
- "node": [
-  {
-   "id": 29071,
-   "name": "騙王",
-   "nameCN": "骗王",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/93/29071_jp.jpg",
-   "date": "2011-07-23",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 84628,
-   "name": "謀王",
-   "nameCN": "谋王",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/f5/84628_jp.jpg",
-   "date": "2013-04-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 29071,
-   "dst": 84628
-  },
-  {
-   "relate": "前传",
-   "src": 84628,
-   "dst": 29071
-  }
- ]
+  "id": "29071",
+  "node": [
+    {
+      "id": 29071,
+      "name": "騙王",
+      "nameCN": "骗王",
+      "date": "2011-07-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 84628,
+      "name": "謀王",
+      "nameCN": "谋王",
+      "date": "2013-04-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 29071,
+      "dst": 84628
+    },
+    {
+      "relateString": "前传",
+      "src": 84628,
+      "dst": 29071
+    }
+  ]
 }

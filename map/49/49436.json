@@ -1,37 +1,35 @@
 {
- "id": 49436,
- "node": [
-  {
-   "id": 49436,
-   "name": "47都道府犬",
-   "nameCN": "47都道府犬",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/83/49436_WkZ9m.jpg",
-   "date": "2011-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 90899,
-   "name": "47都道府犬R",
-   "nameCN": "47都道府犬R",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/22/90899_wSnbk.jpg",
-   "date": "2014-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49436,
-   "dst": 90899
-  },
-  {
-   "relate": "前传",
-   "src": 90899,
-   "dst": 49436
-  }
- ]
+  "id": "49436",
+  "node": [
+    {
+      "id": 49436,
+      "name": "47都道府犬",
+      "nameCN": "47都道府犬",
+      "date": "2011-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 90899,
+      "name": "47都道府犬R",
+      "nameCN": "47都道府犬R",
+      "date": "2014-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49436,
+      "dst": 90899
+    },
+    {
+      "relateString": "前传",
+      "src": 90899,
+      "dst": 49436
+    }
+  ]
 }

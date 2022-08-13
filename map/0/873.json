@@ -1,71 +1,68 @@
 {
- "id": 873,
- "node": [
-  {
-   "id": 873,
-   "name": "ZWEI II",
-   "nameCN": "双星物语Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/d6/873_a4PEQ.jpg",
-   "date": "2008-09-25",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 1586,
-   "name": "Zwei!!",
-   "nameCN": "双星物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/19/1586_wGm05.jpg",
-   "date": "2001-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 8485,
-   "name": "ZWEI II+",
-   "nameCN": "双星物语2加强版",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/04/8485_CW88W.jpg",
-   "date": "2009-12-24",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 206040,
-   "name": "Zwei!!",
-   "nameCN": "双星物语(PSP版)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/23/206040_0SY1U.jpg",
-   "date": "2008-12-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 873,
-   "dst": 1586
-  },
-  {
-   "relate": "续集",
-   "src": 1586,
-   "dst": 873
-  },
-  {
-   "relate": "不同演绎",
-   "src": 1586,
-   "dst": 206040
-  },
-  {
-   "relate": "主线故事",
-   "src": 8485,
-   "dst": 873
-  },
-  {
-   "relate": "不同演绎",
-   "src": 206040,
-   "dst": 1586
-  }
- ]
+  "id": "873",
+  "node": [
+    {
+      "id": 873,
+      "name": "ZWEI II",
+      "nameCN": "双星物语Ⅱ",
+      "date": "2008-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 1586,
+      "name": "Zwei!!",
+      "nameCN": "双星物语",
+      "date": "2001-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206040,
+      "name": "Zwei!!",
+      "nameCN": "双星物语(PSP版)",
+      "date": "2008-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 8485,
+      "name": "ZWEI II+",
+      "nameCN": "双星物语2加强版",
+      "date": "2009-12-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 873,
+      "dst": 1586
+    },
+    {
+      "relateString": "续集",
+      "src": 1586,
+      "dst": 873
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 1586,
+      "dst": 206040
+    },
+    {
+      "relateString": "主线故事",
+      "src": 8485,
+      "dst": 873
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 206040,
+      "dst": 1586
+    }
+  ]
 }

@@ -1,97 +1,91 @@
 {
- "id": 128255,
- "node": [
-  {
-   "id": 128255,
-   "name": "iZombie Season 1",
-   "nameCN": "我是僵尸 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/25/128255_WtmH2.jpg",
-   "date": "2015-03-17",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 137584,
-   "name": "iZombie Season 2",
-   "nameCN": "我是僵尸 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/6e/137584_53hMk.jpg",
-   "date": "2015-10-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 212544,
-   "name": "iZombie Season 3",
-   "nameCN": "我是僵尸 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/d1/212544_rKjse.jpg",
-   "date": "2017-04-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 218208,
-   "name": "iZombie Season 4",
-   "nameCN": "我是僵尸 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/52/218208_63r0r.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 282193,
-   "name": "iZombie Season 5",
-   "nameCN": "我是僵尸 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/73/282193_4K8k5.jpg",
-   "date": "2019-05-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128255,
-   "dst": 137584
-  },
-  {
-   "relate": "前传",
-   "src": 137584,
-   "dst": 128255
-  },
-  {
-   "relate": "续集",
-   "src": 137584,
-   "dst": 212544
-  },
-  {
-   "relate": "前传",
-   "src": 212544,
-   "dst": 137584
-  },
-  {
-   "relate": "续集",
-   "src": 212544,
-   "dst": 218208
-  },
-  {
-   "relate": "前传",
-   "src": 218208,
-   "dst": 212544
-  },
-  {
-   "relate": "续集",
-   "src": 218208,
-   "dst": 282193
-  },
-  {
-   "relate": "前传",
-   "src": 282193,
-   "dst": 218208
-  }
- ]
+  "id": "128255",
+  "node": [
+    {
+      "id": 128255,
+      "name": "iZombie Season 1",
+      "nameCN": "我是僵尸 第一季",
+      "date": "2015-03-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 137584,
+      "name": "iZombie Season 2",
+      "nameCN": "我是僵尸 第二季",
+      "date": "2015-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 212544,
+      "name": "iZombie Season 3",
+      "nameCN": "我是僵尸 第三季",
+      "date": "2017-04-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 218208,
+      "name": "iZombie Season 4",
+      "nameCN": "我是僵尸 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 282193,
+      "name": "iZombie Season 5",
+      "nameCN": "我是僵尸 第五季",
+      "date": "2019-05-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128255,
+      "dst": 137584
+    },
+    {
+      "relateString": "前传",
+      "src": 137584,
+      "dst": 128255
+    },
+    {
+      "relateString": "续集",
+      "src": 137584,
+      "dst": 212544
+    },
+    {
+      "relateString": "前传",
+      "src": 212544,
+      "dst": 137584
+    },
+    {
+      "relateString": "续集",
+      "src": 212544,
+      "dst": 218208
+    },
+    {
+      "relateString": "前传",
+      "src": 218208,
+      "dst": 212544
+    },
+    {
+      "relateString": "续集",
+      "src": 218208,
+      "dst": 282193
+    },
+    {
+      "relateString": "前传",
+      "src": 282193,
+      "dst": 218208
+    }
+  ]
 }

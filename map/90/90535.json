@@ -1,37 +1,35 @@
 {
- "id": 90535,
- "node": [
-  {
-   "id": 90535,
-   "name": "Helix (Season 1)",
-   "nameCN": "双螺旋 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/57/90535_Orfjd.jpg",
-   "date": "2014-01-10",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 101113,
-   "name": "Helix (Season 2)",
-   "nameCN": "双螺旋 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/e9/101113_u0QHe.jpg",
-   "date": "2015-01-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 90535,
-   "dst": 101113
-  },
-  {
-   "relate": "前传",
-   "src": 101113,
-   "dst": 90535
-  }
- ]
+  "id": "90535",
+  "node": [
+    {
+      "id": 90535,
+      "name": "Helix (Season 1)",
+      "nameCN": "双螺旋 第一季",
+      "date": "2014-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 101113,
+      "name": "Helix (Season 2)",
+      "nameCN": "双螺旋 第二季",
+      "date": "2015-01-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 90535,
+      "dst": 101113
+    },
+    {
+      "relateString": "前传",
+      "src": 101113,
+      "dst": 90535
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 127882,
- "node": [
-  {
-   "id": 127882,
-   "name": "東方玄夢妖譚～乱",
-   "nameCN": "东方玄梦妖谭 乱",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/29/127882_71z1d.jpg",
-   "date": "2013-12-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171402,
-   "name": "東方玄夢妖譚",
-   "nameCN": "东方玄梦妖谭",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/10/171402_5sz0e.jpg",
-   "date": "2013-12-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 127882,
-   "dst": 171402
-  },
-  {
-   "relate": "续集",
-   "src": 171402,
-   "dst": 127882
-  }
- ]
+  "id": "127882",
+  "node": [
+    {
+      "id": 127882,
+      "name": "東方玄夢妖譚～乱",
+      "nameCN": "东方玄梦妖谭 乱",
+      "date": "2013-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171402,
+      "name": "東方玄夢妖譚",
+      "nameCN": "东方玄梦妖谭",
+      "date": "2013-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 127882,
+      "dst": 171402
+    },
+    {
+      "relateString": "续集",
+      "src": 171402,
+      "dst": 127882
+    }
+  ]
 }

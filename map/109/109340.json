@@ -1,57 +1,54 @@
 {
- "id": 109340,
- "node": [
-  {
-   "id": 109340,
-   "name": "ドラキュラ伝説",
-   "nameCN": "恶魔城：德古拉传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/e2/109340_sir8L.jpg",
-   "date": "1989-10-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 109341,
-   "name": "ドラキュラ伝説II",
-   "nameCN": "恶魔城：德古拉传说2",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/a8/109341_Rq8K1.jpg",
-   "date": "1991-07-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258336,
-   "name": "ドラキュラ伝説 ReBirth",
-   "nameCN": "恶魔城：德古拉传说 重生",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/f9/258336_8ehQ3.jpg",
-   "date": "2009-10-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 109340,
-   "dst": 109341
-  },
-  {
-   "relate": "不同演绎",
-   "src": 109340,
-   "dst": 258336
-  },
-  {
-   "relate": "前传",
-   "src": 109341,
-   "dst": 109340
-  },
-  {
-   "relate": "不同演绎",
-   "src": 258336,
-   "dst": 109340
-  }
- ]
+  "id": "109340",
+  "node": [
+    {
+      "id": 109340,
+      "name": "ドラキュラ伝説",
+      "nameCN": "恶魔城：德古拉传说",
+      "date": "1989-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 109341,
+      "name": "ドラキュラ伝説II",
+      "nameCN": "恶魔城：德古拉传说2",
+      "date": "1991-07-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258336,
+      "name": "ドラキュラ伝説 ReBirth",
+      "nameCN": "恶魔城：德古拉传说 重生",
+      "date": "2009-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 109340,
+      "dst": 109341
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 109340,
+      "dst": 258336
+    },
+    {
+      "relateString": "前传",
+      "src": 109341,
+      "dst": 109340
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 258336,
+      "dst": 109340
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 11826,
- "node": [
-  {
-   "id": 11826,
-   "name": "Gunstar Super Heroes",
-   "nameCN": "超级火枪英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/58/11826_FkZs6.jpg",
-   "date": "2005-10-06",
-   "nsfw": false,
-   "platform": "GameCube",
-   "type": 4
-  },
-  {
-   "id": 72803,
-   "name": "Gunstar Heroes",
-   "nameCN": "火枪英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/b8/72803_8iIy6.jpg",
-   "date": "1993-09-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 11826,
-   "dst": 72803
-  },
-  {
-   "relate": "续集",
-   "src": 72803,
-   "dst": 11826
-  }
- ]
+  "id": "11826",
+  "node": [
+    {
+      "id": 11826,
+      "name": "Gunstar Super Heroes",
+      "nameCN": "超级火枪英雄",
+      "date": "2005-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "GameCube"
+    },
+    {
+      "id": 72803,
+      "name": "Gunstar Heroes",
+      "nameCN": "火枪英雄",
+      "date": "1993-09-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 11826,
+      "dst": 72803
+    },
+    {
+      "relateString": "续集",
+      "src": 72803,
+      "dst": 11826
+    }
+  ]
 }

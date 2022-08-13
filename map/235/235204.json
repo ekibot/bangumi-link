@@ -1,37 +1,35 @@
 {
- "id": 235204,
- "node": [
-  {
-   "id": 235204,
-   "name": "王者歪传",
-   "nameCN": "王者歪传",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/53/235204_S3WBw.jpg",
-   "date": "2018-01-12",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 271248,
-   "name": "玄玄英雄传",
-   "nameCN": "玄玄英雄传",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/74/271248_876c6.jpg",
-   "date": "2019-01-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 235204,
-   "dst": 271248
-  },
-  {
-   "relate": "前传",
-   "src": 271248,
-   "dst": 235204
-  }
- ]
+  "id": "235204",
+  "node": [
+    {
+      "id": 235204,
+      "name": "王者歪传",
+      "nameCN": "王者歪传",
+      "date": "2018-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 271248,
+      "name": "玄玄英雄传",
+      "nameCN": "玄玄英雄传",
+      "date": "2019-01-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 235204,
+      "dst": 271248
+    },
+    {
+      "relateString": "前传",
+      "src": 271248,
+      "dst": 235204
+    }
+  ]
 }

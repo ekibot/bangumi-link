@@ -1,71 +1,72 @@
 {
- "id": 36111,
- "node": [
-  {
-   "id": 36111,
-   "name": "The Addams Family",
-   "nameCN": "阿达一族",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/b3/36111_94v9V.jpg",
-   "date": "1992-09-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 299554,
-   "name": "The Addams Family (2019)",
-   "nameCN": "亚当斯一家",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/cc/299554_zx1GX.jpg",
-   "date": "2019-10-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 363288,
-   "name": "The Addams Family 2",
-   "nameCN": "亚当斯一家2",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/ea/363288_f2Z3F.jpg",
-   "date": "2021-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 386556,
-   "name": "Wednesday",
-   "nameCN": "星期三",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/f2/386556_7doDo.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 36111,
-   "dst": 299554
-  },
-  {
-   "relate": "相同世界观",
-   "src": 299554,
-   "dst": 36111
-  },
-  {
-   "relate": "续集",
-   "src": 299554,
-   "dst": 363288
-  },
-  {
-   "relate": "前传",
-   "src": 363288,
-   "dst": 299554
-  },
-  {
-   "relate": "主线故事",
-   "src": 386556,
-   "dst": 36111
-  }
- ]
+  "id": "36111",
+  "node": [
+    {
+      "id": 36111,
+      "name": "The Addams Family",
+      "nameCN": "阿达一族",
+      "date": "1992-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 299554,
+      "name": "The Addams Family (2019)",
+      "nameCN": "亚当斯一家",
+      "date": "2019-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 386556,
+      "name": "Wednesday",
+      "nameCN": "星期三",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 363288,
+      "name": "The Addams Family 2",
+      "nameCN": "亚当斯一家2",
+      "date": "2021-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 36111,
+      "dst": 299554
+    },
+    {
+      "relateString": "衍生",
+      "src": 36111,
+      "dst": 386556
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 299554,
+      "dst": 36111
+    },
+    {
+      "relateString": "续集",
+      "src": 299554,
+      "dst": 363288
+    },
+    {
+      "relateString": "前传",
+      "src": 363288,
+      "dst": 299554
+    },
+    {
+      "relateString": "主线故事",
+      "src": 386556,
+      "dst": 36111
+    }
+  ]
 }

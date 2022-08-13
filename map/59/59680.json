@@ -1,77 +1,71 @@
 {
- "id": 59680,
- "node": [
-  {
-   "id": 59680,
-   "name": "死太郎くん",
-   "nameCN": "千之恐怖馆-死太郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/09/59680_ruCcu.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 59681,
-   "name": "死太郎くん 2",
-   "nameCN": "千之恐怖馆-人皮傀儡",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/a6/59681_4UQNo.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 59682,
-   "name": "うわさの死太郎くん",
-   "nameCN": "傳說中的死太郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/96/59682_jp.jpg",
-   "date": "2006-08-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 59683,
-   "name": "うわさの死太郎くん リターンズ!",
-   "nameCN": "傳說中的死太郎 - 回來了！",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/5c/59683_54l45.jpg",
-   "date": "2007-04-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 59680,
-   "dst": 59681
-  },
-  {
-   "relate": "前传",
-   "src": 59681,
-   "dst": 59680
-  },
-  {
-   "relate": "续集",
-   "src": 59681,
-   "dst": 59682
-  },
-  {
-   "relate": "前传",
-   "src": 59682,
-   "dst": 59681
-  },
-  {
-   "relate": "续集",
-   "src": 59682,
-   "dst": 59683
-  },
-  {
-   "relate": "前传",
-   "src": 59683,
-   "dst": 59682
-  }
- ]
+  "id": "59680",
+  "node": [
+    {
+      "id": 59680,
+      "name": "死太郎くん",
+      "nameCN": "千之恐怖馆-死太郎",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59681,
+      "name": "死太郎くん 2",
+      "nameCN": "千之恐怖馆-人皮傀儡",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59682,
+      "name": "うわさの死太郎くん",
+      "nameCN": "傳說中的死太郎",
+      "date": "2006-08-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59683,
+      "name": "うわさの死太郎くん リターンズ!",
+      "nameCN": "傳說中的死太郎 - 回來了！",
+      "date": "2007-04-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 59680,
+      "dst": 59681
+    },
+    {
+      "relateString": "前传",
+      "src": 59681,
+      "dst": 59680
+    },
+    {
+      "relateString": "续集",
+      "src": 59681,
+      "dst": 59682
+    },
+    {
+      "relateString": "前传",
+      "src": 59682,
+      "dst": 59681
+    },
+    {
+      "relateString": "续集",
+      "src": 59682,
+      "dst": 59683
+    },
+    {
+      "relateString": "前传",
+      "src": 59683,
+      "dst": 59682
+    }
+  ]
 }

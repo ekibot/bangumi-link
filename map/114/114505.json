@@ -1,37 +1,35 @@
 {
- "id": 114505,
- "node": [
-  {
-   "id": 114505,
-   "name": "囚体 - HeadLess",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/86/114505_4g4rG.jpg",
-   "date": "2013-03-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 223793,
-   "name": "死村 - Dead Village",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/6c/223793_9PrRI.jpg",
-   "date": "2014-04-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114505,
-   "dst": 223793
-  },
-  {
-   "relate": "前传",
-   "src": 223793,
-   "dst": 114505
-  }
- ]
+  "id": "114505",
+  "node": [
+    {
+      "id": 114505,
+      "name": "囚体 - HeadLess",
+      "nameCN": "",
+      "date": "2013-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223793,
+      "name": "死村 - Dead Village",
+      "nameCN": "",
+      "date": "2014-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114505,
+      "dst": 223793
+    },
+    {
+      "relateString": "前传",
+      "src": 223793,
+      "dst": 114505
+    }
+  ]
 }

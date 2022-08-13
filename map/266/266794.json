@@ -1,77 +1,72 @@
 {
- "id": 266794,
- "node": [
-  {
-   "id": 266794,
-   "name": "Dr.STONE",
-   "nameCN": "新石纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/3a/266794_4h8ov.jpg",
-   "date": "2019-07-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 296261,
-   "name": "Dr.STONE STONE WARS",
-   "nameCN": "新石纪 STONE WARS",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/b5/296261_3VpPn.jpg",
-   "date": "2021-01-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 331479,
-   "name": "Dr.STONE 龍水",
-   "date": "2022-07-10",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/d9/331479_taxcT.jpg",
-   "nameCN": "新石纪 龙水",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 363101,
-   "name": "Dr.STONE NEW WORLD",
-   "nameCN": "新石纪 NEW WORLD",
-   "date": null,
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/02/363101_xf746.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 266794,
-   "dst": 296261
-  },
-  {
-   "relate": "前传",
-   "src": 296261,
-   "dst": 266794
-  },
-  {
-   "relate": "续集",
-   "src": 296261,
-   "dst": 331479
-  },
-  {
-   "relate": "前传",
-   "src": 331479,
-   "dst": 296261
-  },
-  {
-   "relate": "续集",
-   "src": 331479,
-   "dst": 363101
-  },
-  {
-   "relate": "前传",
-   "src": 363101,
-   "dst": 331479
-  }
- ]
+  "id": "266794",
+  "node": [
+    {
+      "id": 266794,
+      "name": "Dr.STONE",
+      "nameCN": "新石纪",
+      "date": "2019-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 296261,
+      "name": "Dr.STONE STONE WARS",
+      "nameCN": "新石纪 STONE WARS",
+      "date": "2021-01-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 331479,
+      "name": "Dr.STONE 龍水",
+      "nameCN": "新石纪 龙水",
+      "date": "2022-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 363101,
+      "name": "Dr.STONE NEW WORLD",
+      "nameCN": "新石纪 NEW WORLD",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 266794,
+      "dst": 296261
+    },
+    {
+      "relateString": "前传",
+      "src": 296261,
+      "dst": 266794
+    },
+    {
+      "relateString": "续集",
+      "src": 296261,
+      "dst": 331479
+    },
+    {
+      "relateString": "前传",
+      "src": 331479,
+      "dst": 296261
+    },
+    {
+      "relateString": "续集",
+      "src": 331479,
+      "dst": 363101
+    },
+    {
+      "relateString": "前传",
+      "src": 363101,
+      "dst": 331479
+    }
+  ]
 }

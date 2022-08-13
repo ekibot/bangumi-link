@@ -1,37 +1,35 @@
 {
- "id": 110357,
- "node": [
-  {
-   "id": 110357,
-   "name": "MURCIÉLAGO —ムルシエラゴ—",
-   "nameCN": "MURCIÉLAGO 蝙蝠",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/77/110357_ju8z3.jpg",
-   "date": "2014-04-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 251680,
-   "name": "MURCIÉLAGO -ムルシエラゴ- BYPRODUCT -アラーニァ-",
-   "nameCN": "ARANA-蜘蛛",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/ed/251680_8MmUR.jpg",
-   "date": "2018-06-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 110357,
-   "dst": 251680
-  },
-  {
-   "relate": "相同世界观",
-   "src": 251680,
-   "dst": 110357
-  }
- ]
+  "id": "110357",
+  "node": [
+    {
+      "id": 110357,
+      "name": "MURCIÉLAGO —ムルシエラゴ—",
+      "nameCN": "MURCIÉLAGO 蝙蝠",
+      "date": "2014-04-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 251680,
+      "name": "MURCIÉLAGO -ムルシエラゴ- BYPRODUCT -アラーニァ-",
+      "nameCN": "ARANA-蜘蛛",
+      "date": "2018-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 110357,
+      "dst": 251680
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 251680,
+      "dst": 110357
+    }
+  ]
 }

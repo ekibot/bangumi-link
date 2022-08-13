@@ -1,117 +1,87 @@
 {
- "id": 3178,
- "node": [
-  {
-   "id": 3178,
-   "name": "Borderlands",
-   "nameCN": "无主之地",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/95/3178_BQz6S.jpg",
-   "date": "2009-10-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 35764,
-   "name": "Borderlands 2",
-   "nameCN": "无主之地2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/37/35764_3U3Xz.jpg",
-   "date": "2012-09-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 116068,
-   "name": "Borderlands: The Pre-Sequel",
-   "nameCN": "无主之地:前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/0e/116068_tH335.jpg",
-   "type": 4
-  },
-  {
-   "id": 124524,
-   "name": "Borderlands: The Handsome Collection",
-   "nameCN": "无主之地：帅杰克合集",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/45/124524_36jaM.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 279245,
-   "name": "Borderlands 3",
-   "nameCN": "无主之地3",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/28/279245_9Z0ah.jpg",
-   "date": "2019-09-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 338642,
-   "name": "Tiny Tina's Wonderlands",
-   "nameCN": "小缇娜的奇幻之地",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/69/338642_2gtUC.jpg",
-   "date": "2022-03-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 343375,
-   "name": "Borderlands Online",
-   "nameCN": "无主之地OL",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/5f/343375_WwtgS.jpg",
-   "date": "2015-01-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3178,
-   "dst": 35764
-  },
-  {
-   "relate": "不同演绎",
-   "src": 3178,
-   "dst": 343375
-  },
-  {
-   "relate": "前传",
-   "src": 35764,
-   "dst": 3178
-  },
-  {
-   "relate": "续集",
-   "src": 35764,
-   "dst": 279245
-  },
-  {
-   "relate": "不同演绎",
-   "src": 124524,
-   "dst": 35764
-  },
-  {
-   "relate": "不同演绎",
-   "src": 124524,
-   "dst": 116068
-  },
-  {
-   "relate": "前传",
-   "src": 279245,
-   "dst": 35764
-  },
-  {
-   "relate": "主线故事",
-   "src": 338642,
-   "dst": 279245
-  },
-  {
-   "relate": "不同演绎",
-   "src": 343375,
-   "dst": 3178
-  }
- ]
+  "id": "3178",
+  "node": [
+    {
+      "id": 3178,
+      "name": "Borderlands",
+      "nameCN": "无主之地",
+      "date": "2009-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 35764,
+      "name": "Borderlands 2",
+      "nameCN": "无主之地2",
+      "date": "2012-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 343375,
+      "name": "Borderlands Online",
+      "nameCN": "无主之地OL",
+      "date": "2015-01-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 279245,
+      "name": "Borderlands 3",
+      "nameCN": "无主之地3",
+      "date": "2019-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 338642,
+      "name": "Tiny Tina's Wonderlands",
+      "nameCN": "小缇娜的奇幻之地",
+      "date": "2022-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3178,
+      "dst": 35764
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 3178,
+      "dst": 343375
+    },
+    {
+      "relateString": "前传",
+      "src": 35764,
+      "dst": 3178
+    },
+    {
+      "relateString": "续集",
+      "src": 35764,
+      "dst": 279245
+    },
+    {
+      "relateString": "前传",
+      "src": 279245,
+      "dst": 35764
+    },
+    {
+      "relateString": "主线故事",
+      "src": 338642,
+      "dst": 279245
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 343375,
+      "dst": 3178
+    }
+  ]
 }

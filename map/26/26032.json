@@ -1,37 +1,33 @@
 {
- "id": 26032,
- "node": [
-  {
-   "id": 26032,
-   "name": "鋼鉄の白兎騎士団",
-   "nameCN": "鋼鐵白兔騎士團",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/43/26032_vZIw1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 35139,
-   "name": "ガブリエラ戦記",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/6f/35139_JVQq7.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26032,
-   "dst": 35139
-  },
-  {
-   "relate": "前传",
-   "src": 35139,
-   "dst": 26032
-  }
- ]
+  "id": "26032",
+  "node": [
+    {
+      "id": 26032,
+      "name": "鋼鉄の白兎騎士団",
+      "nameCN": "鋼鐵白兔騎士團",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 35139,
+      "name": "ガブリエラ戦記",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26032,
+      "dst": 35139
+    },
+    {
+      "relateString": "前传",
+      "src": 35139,
+      "dst": 26032
+    }
+  ]
 }

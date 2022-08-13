@@ -1,37 +1,35 @@
 {
- "id": 238071,
- "node": [
-  {
-   "id": 238071,
-   "name": "新麦圈可可美食天下",
-   "nameCN": "新麦圈可可美食天下",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/34/238071_YU9mM.jpg",
-   "date": "2018-02-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 240298,
-   "name": "新麦圈可可美食天下 第2季",
-   "nameCN": "新麦圈可可美食天下 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/77/240298_Mu2EO.jpg",
-   "date": "2018-03-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238071,
-   "dst": 240298
-  },
-  {
-   "relate": "前传",
-   "src": 240298,
-   "dst": 238071
-  }
- ]
+  "id": "238071",
+  "node": [
+    {
+      "id": 238071,
+      "name": "新麦圈可可美食天下",
+      "nameCN": "新麦圈可可美食天下",
+      "date": "2018-02-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 240298,
+      "name": "新麦圈可可美食天下 第2季",
+      "nameCN": "新麦圈可可美食天下 第二季",
+      "date": "2018-03-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238071,
+      "dst": 240298
+    },
+    {
+      "relateString": "前传",
+      "src": 240298,
+      "dst": 238071
+    }
+  ]
 }

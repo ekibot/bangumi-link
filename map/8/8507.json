@@ -1,77 +1,73 @@
 {
- "id": 8507,
- "node": [
-  {
-   "id": 8507,
-   "name": "Nikita Season 1",
-   "nameCN": "尼基塔 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/2f/8507_E4At3.jpg",
-   "date": "2010-09-09",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 23521,
-   "name": "Nikita Season 2",
-   "nameCN": "尼基塔 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/38/23521_raZjw.jpg",
-   "date": "2011-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 52121,
-   "name": "Nikita Season 3",
-   "nameCN": "尼基塔 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/cb/52121_1L088.jpg",
-   "date": "2012-10-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 89483,
-   "name": "Nikita Season 4",
-   "nameCN": "尼基塔 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/19/89483_nc3Rn.jpg",
-   "date": "2013-11-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8507,
-   "dst": 23521
-  },
-  {
-   "relate": "前传",
-   "src": 23521,
-   "dst": 8507
-  },
-  {
-   "relate": "续集",
-   "src": 23521,
-   "dst": 52121
-  },
-  {
-   "relate": "前传",
-   "src": 52121,
-   "dst": 23521
-  },
-  {
-   "relate": "续集",
-   "src": 52121,
-   "dst": 89483
-  },
-  {
-   "relate": "前传",
-   "src": 89483,
-   "dst": 52121
-  }
- ]
+  "id": "8507",
+  "node": [
+    {
+      "id": 8507,
+      "name": "Nikita Season 1",
+      "nameCN": "尼基塔 第一季",
+      "date": "2010-09-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 23521,
+      "name": "Nikita Season 2",
+      "nameCN": "尼基塔 第二季",
+      "date": "2011-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 52121,
+      "name": "Nikita Season 3",
+      "nameCN": "尼基塔 第三季",
+      "date": "2012-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 89483,
+      "name": "Nikita Season 4",
+      "nameCN": "尼基塔 第四季",
+      "date": "2013-11-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8507,
+      "dst": 23521
+    },
+    {
+      "relateString": "前传",
+      "src": 23521,
+      "dst": 8507
+    },
+    {
+      "relateString": "续集",
+      "src": 23521,
+      "dst": 52121
+    },
+    {
+      "relateString": "前传",
+      "src": 52121,
+      "dst": 23521
+    },
+    {
+      "relateString": "续集",
+      "src": 52121,
+      "dst": 89483
+    },
+    {
+      "relateString": "前传",
+      "src": 89483,
+      "dst": 52121
+    }
+  ]
 }

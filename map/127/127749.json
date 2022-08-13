@@ -1,37 +1,35 @@
 {
- "id": 127749,
- "node": [
-  {
-   "id": 127749,
-   "name": "The Village Season 1",
-   "nameCN": "百年乡情 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/8d/127749_0wNPu.jpg",
-   "date": "2013-03-31",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 127750,
-   "name": "The Village Season 2",
-   "nameCN": "百年乡情 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/4e/127750_d5o0o.jpg",
-   "date": "2014-08-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127749,
-   "dst": 127750
-  },
-  {
-   "relate": "前传",
-   "src": 127750,
-   "dst": 127749
-  }
- ]
+  "id": "127749",
+  "node": [
+    {
+      "id": 127749,
+      "name": "The Village Season 1",
+      "nameCN": "百年乡情 第一季",
+      "date": "2013-03-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 127750,
+      "name": "The Village Season 2",
+      "nameCN": "百年乡情 第二季",
+      "date": "2014-08-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127749,
+      "dst": 127750
+    },
+    {
+      "relateString": "前传",
+      "src": 127750,
+      "dst": 127749
+    }
+  ]
 }

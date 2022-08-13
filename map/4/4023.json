@@ -1,37 +1,35 @@
 {
- "id": 4023,
- "node": [
-  {
-   "id": 4023,
-   "name": "コレクター・ユイ 第1期",
-   "nameCN": "网络安琪儿 第一期",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/47/4023_rvrJY.jpg",
-   "date": "1999-04-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 4024,
-   "name": "コレクター・ユイ 第二期",
-   "nameCN": "网络安琪儿 第二期",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/b9/4024_rrDDD.jpg",
-   "date": "2000-04-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4023,
-   "dst": 4024
-  },
-  {
-   "relate": "前传",
-   "src": 4024,
-   "dst": 4023
-  }
- ]
+  "id": "4023",
+  "node": [
+    {
+      "id": 4023,
+      "name": "コレクター・ユイ 第1期",
+      "nameCN": "网络安琪儿 第一期",
+      "date": "1999-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 4024,
+      "name": "コレクター・ユイ 第二期",
+      "nameCN": "网络安琪儿 第二期",
+      "date": "2000-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4023,
+      "dst": 4024
+    },
+    {
+      "relateString": "前传",
+      "src": 4024,
+      "dst": 4023
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 155706,
- "node": [
-  {
-   "id": 155706,
-   "name": "赤ずきんダークサイド",
-   "nameCN": "黑暗小红帽",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/70/155706_nwdDe.jpg",
-   "date": "2013-06-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309065,
-   "name": "ヘンゼルとグレーテルDS",
-   "nameCN": "汉塞尔和格雷特 DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/0e/309065_cfr3g.jpg",
-   "date": "2019-05-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155706,
-   "dst": 309065
-  },
-  {
-   "relate": "前传",
-   "src": 309065,
-   "dst": 155706
-  }
- ]
+  "id": "155706",
+  "node": [
+    {
+      "id": 155706,
+      "name": "赤ずきんダークサイド",
+      "nameCN": "黑暗小红帽",
+      "date": "2013-06-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309065,
+      "name": "ヘンゼルとグレーテルDS",
+      "nameCN": "汉塞尔和格雷特 DS",
+      "date": "2019-05-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155706,
+      "dst": 309065
+    },
+    {
+      "relateString": "前传",
+      "src": 309065,
+      "dst": 155706
+    }
+  ]
 }

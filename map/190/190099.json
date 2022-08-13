@@ -1,49 +1,48 @@
 {
- "id": 190099,
- "node": [
-  {
-   "id": 190099,
-   "name": "囚われのパルマ",
-   "nameCN": "无法触碰的掌心",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/d6/190099_JWvRf.jpg",
-   "date": "2016-08-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 195703,
-   "name": "囚われのパルマ～忠誠の首輪～",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/96/195703_3IHyC.jpg",
-   "nameCN": "",
-   "type": 1
-  },
-  {
-   "id": 260498,
-   "name": "囚われのパルマ Refrain",
-   "nameCN": "被囚禁的掌心 Refrain",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/9d/260498_hYx69.jpg",
-   "date": "2018-12-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 190099,
-   "dst": 195703
-  },
-  {
-   "relate": "相同世界观",
-   "src": 190099,
-   "dst": 260498
-  },
-  {
-   "relate": "相同世界观",
-   "src": 260498,
-   "dst": 190099
-  }
- ]
+  "id": "190099",
+  "node": [
+    {
+      "id": 190099,
+      "name": "囚われのパルマ",
+      "nameCN": "无法触碰的掌心",
+      "date": "2016-08-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 195703,
+      "name": "囚われのパルマ～忠誠の首輪～",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 260498,
+      "name": "囚われのパルマ Refrain",
+      "nameCN": "被囚禁的掌心 Refrain",
+      "date": "2018-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 190099,
+      "dst": 195703
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 190099,
+      "dst": 260498
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 260498,
+      "dst": 190099
+    }
+  ]
 }

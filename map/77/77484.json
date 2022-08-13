@@ -1,37 +1,35 @@
 {
- "id": 77484,
- "node": [
-  {
-   "id": 77484,
-   "name": "Pixar Short Films Collection, Volume 1",
-   "nameCN": "皮克斯动画短片集",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/e1/77484_X5jz4.jpg",
-   "date": "2007-11-06",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 111251,
-   "name": "Pixar Short Films Collection, Volume 2",
-   "nameCN": "皮克斯动画短片集2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/84/111251_LHLAN.jpg",
-   "date": "2012-11-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77484,
-   "dst": 111251
-  },
-  {
-   "relate": "前传",
-   "src": 111251,
-   "dst": 77484
-  }
- ]
+  "id": "77484",
+  "node": [
+    {
+      "id": 77484,
+      "name": "Pixar Short Films Collection, Volume 1",
+      "nameCN": "皮克斯动画短片集",
+      "date": "2007-11-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 111251,
+      "name": "Pixar Short Films Collection, Volume 2",
+      "nameCN": "皮克斯动画短片集2",
+      "date": "2012-11-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77484,
+      "dst": 111251
+    },
+    {
+      "relateString": "前传",
+      "src": 111251,
+      "dst": 77484
+    }
+  ]
 }

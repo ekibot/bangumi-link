@@ -1,37 +1,34 @@
 {
- "id": 103560,
- "node": [
-  {
-   "id": 103560,
-   "name": "STEINS;GATE 閉時曲線のエピグラフ",
-   "nameCN": "命运石之门 闭时曲线的碑文",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/d2/103560_Whz52.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 126791,
-   "name": "STEINS;GATE 永劫回帰のパンドラ",
-   "nameCN": "命运石之门 永劫回归的潘多拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/d1/126791_RO3kF.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103560,
-   "dst": 126791
-  },
-  {
-   "relate": "前传",
-   "src": 126791,
-   "dst": 103560
-  }
- ]
+  "id": "103560",
+  "node": [
+    {
+      "id": 103560,
+      "name": "STEINS;GATE 閉時曲線のエピグラフ",
+      "nameCN": "命运石之门 闭时曲线的碑文",
+      "date": "2013-02-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 126791,
+      "name": "STEINS;GATE 永劫回帰のパンドラ",
+      "nameCN": "命运石之门 永劫回归的潘多拉",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103560,
+      "dst": 126791
+    },
+    {
+      "relateString": "前传",
+      "src": 126791,
+      "dst": 103560
+    }
+  ]
 }

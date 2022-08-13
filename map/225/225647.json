@@ -1,37 +1,35 @@
 {
- "id": 225647,
- "node": [
-  {
-   "id": 225647,
-   "name": "Liar",
-   "nameCN": "谁在撒谎",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/5e/225647_Nnjnn.jpg",
-   "date": "2017-09-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 301708,
-   "name": "Liar Season 2",
-   "nameCN": "谁在撒谎 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/4c/301708_730S8.jpg",
-   "date": "2020-03-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225647,
-   "dst": 301708
-  },
-  {
-   "relate": "前传",
-   "src": 301708,
-   "dst": 225647
-  }
- ]
+  "id": "225647",
+  "node": [
+    {
+      "id": 225647,
+      "name": "Liar",
+      "nameCN": "谁在撒谎",
+      "date": "2017-09-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 301708,
+      "name": "Liar Season 2",
+      "nameCN": "谁在撒谎 第二季",
+      "date": "2020-03-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225647,
+      "dst": 301708
+    },
+    {
+      "relateString": "前传",
+      "src": 301708,
+      "dst": 225647
+    }
+  ]
 }

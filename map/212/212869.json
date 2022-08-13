@@ -1,37 +1,33 @@
 {
- "id": 212869,
- "node": [
-  {
-   "id": 212869,
-   "name": "死にたがりと魔物",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/6f/212869_397l9.jpg",
-   "date": "2013-12-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 212870,
-   "name": "続・死にたがりと魔物",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/b7/212870_l5ltI.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 212869,
-   "dst": 212870
-  },
-  {
-   "relate": "前传",
-   "src": 212870,
-   "dst": 212869
-  }
- ]
+  "id": "212869",
+  "node": [
+    {
+      "id": 212869,
+      "name": "死にたがりと魔物",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 212870,
+      "name": "続・死にたがりと魔物",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 212869,
+      "dst": 212870
+    },
+    {
+      "relateString": "前传",
+      "src": 212870,
+      "dst": 212869
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 197163,
- "node": [
-  {
-   "id": 197163,
-   "name": "The Crown Season 1",
-   "nameCN": "王冠 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/67/197163_ur9WR.jpg",
-   "date": "2016-11-04",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 225987,
-   "name": "The Crown Season 2",
-   "nameCN": "王冠 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/1c/225987_ar2zI.jpg",
-   "date": "2017-12-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 234874,
-   "name": "The Crown Season 3",
-   "nameCN": "王冠 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/80/234874_R5X8f.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 319726,
-   "name": "The Crown Season 4",
-   "nameCN": "王冠 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/6a/319726_p7p2W.jpg",
-   "date": "2020-11-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197163,
-   "dst": 225987
-  },
-  {
-   "relate": "前传",
-   "src": 225987,
-   "dst": 197163
-  },
-  {
-   "relate": "续集",
-   "src": 225987,
-   "dst": 234874
-  },
-  {
-   "relate": "前传",
-   "src": 234874,
-   "dst": 225987
-  },
-  {
-   "relate": "续集",
-   "src": 234874,
-   "dst": 319726
-  },
-  {
-   "relate": "前传",
-   "src": 319726,
-   "dst": 234874
-  }
- ]
+  "id": "197163",
+  "node": [
+    {
+      "id": 197163,
+      "name": "The Crown Season 1",
+      "nameCN": "王冠 第一季",
+      "date": "2016-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 225987,
+      "name": "The Crown Season 2",
+      "nameCN": "王冠 第二季",
+      "date": "2017-12-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 234874,
+      "name": "The Crown Season 3",
+      "nameCN": "王冠 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 319726,
+      "name": "The Crown Season 4",
+      "nameCN": "王冠 第四季",
+      "date": "2020-11-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197163,
+      "dst": 225987
+    },
+    {
+      "relateString": "前传",
+      "src": 225987,
+      "dst": 197163
+    },
+    {
+      "relateString": "续集",
+      "src": 225987,
+      "dst": 234874
+    },
+    {
+      "relateString": "前传",
+      "src": 234874,
+      "dst": 225987
+    },
+    {
+      "relateString": "续集",
+      "src": 234874,
+      "dst": 319726
+    },
+    {
+      "relateString": "前传",
+      "src": 319726,
+      "dst": 234874
+    }
+  ]
 }

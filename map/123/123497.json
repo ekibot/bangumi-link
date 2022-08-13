@@ -1,37 +1,35 @@
 {
- "id": 123497,
- "node": [
-  {
-   "id": 123497,
-   "name": "Dying Light",
-   "nameCN": "消逝的光芒",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/91/123497_uZm46.jpg",
-   "date": "2015-01-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 249294,
-   "name": "Dying Light 2 Stay Human",
-   "nameCN": "消逝的光芒2 人与仁之战",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/12/249294_3L3xF.jpg",
-   "date": "2022-02-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123497,
-   "dst": 249294
-  },
-  {
-   "relate": "前传",
-   "src": 249294,
-   "dst": 123497
-  }
- ]
+  "id": "123497",
+  "node": [
+    {
+      "id": 123497,
+      "name": "Dying Light",
+      "nameCN": "消逝的光芒",
+      "date": "2015-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249294,
+      "name": "Dying Light 2 Stay Human",
+      "nameCN": "消逝的光芒2 人与仁之战",
+      "date": "2022-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123497,
+      "dst": 249294
+    },
+    {
+      "relateString": "前传",
+      "src": 249294,
+      "dst": 123497
+    }
+  ]
 }

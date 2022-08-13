@@ -1,37 +1,35 @@
 {
- "id": 104845,
- "node": [
-  {
-   "id": 104845,
-   "name": "Galavant",
-   "nameCN": "游侠笑传",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/e6/104845_8858p.jpg",
-   "date": "2015-01-04",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 164510,
-   "name": "Galavant Season 2",
-   "nameCN": "游侠笑传 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/39/164510_MHIwh.jpg",
-   "date": "2016-01-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104845,
-   "dst": 164510
-  },
-  {
-   "relate": "前传",
-   "src": 164510,
-   "dst": 104845
-  }
- ]
+  "id": "104845",
+  "node": [
+    {
+      "id": 104845,
+      "name": "Galavant",
+      "nameCN": "游侠笑传",
+      "date": "2015-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 164510,
+      "name": "Galavant Season 2",
+      "nameCN": "游侠笑传 第二季",
+      "date": "2016-01-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104845,
+      "dst": 164510
+    },
+    {
+      "relateString": "前传",
+      "src": 164510,
+      "dst": 104845
+    }
+  ]
 }

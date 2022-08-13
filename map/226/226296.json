@@ -1,77 +1,73 @@
 {
- "id": 226296,
- "node": [
-  {
-   "id": 226296,
-   "name": "The Durrells Season 1",
-   "nameCN": "德雷尔一家 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/b3/226296_6RS6E.jpg",
-   "date": "2016-04-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 226476,
-   "name": "The Durrells Season 2",
-   "nameCN": "德雷尔一家 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/4c/226476_RC66d.jpg",
-   "date": "2017-04-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 240830,
-   "name": "The Durrells Season 3",
-   "nameCN": "德雷尔一家 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/71/240830_2SQzQ.jpg",
-   "date": "2018-03-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 264119,
-   "name": "The Durrells Season 4",
-   "nameCN": "德雷尔一家 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/8a/264119_H2SkH.jpg",
-   "date": "2019-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226296,
-   "dst": 226476
-  },
-  {
-   "relate": "前传",
-   "src": 226476,
-   "dst": 226296
-  },
-  {
-   "relate": "续集",
-   "src": 226476,
-   "dst": 240830
-  },
-  {
-   "relate": "前传",
-   "src": 240830,
-   "dst": 226476
-  },
-  {
-   "relate": "续集",
-   "src": 240830,
-   "dst": 264119
-  },
-  {
-   "relate": "前传",
-   "src": 264119,
-   "dst": 240830
-  }
- ]
+  "id": "226296",
+  "node": [
+    {
+      "id": 226296,
+      "name": "The Durrells Season 1",
+      "nameCN": "德雷尔一家 第一季",
+      "date": "2016-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 226476,
+      "name": "The Durrells Season 2",
+      "nameCN": "德雷尔一家 第二季",
+      "date": "2017-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 240830,
+      "name": "The Durrells Season 3",
+      "nameCN": "德雷尔一家 第三季",
+      "date": "2018-03-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 264119,
+      "name": "The Durrells Season 4",
+      "nameCN": "德雷尔一家 第四季",
+      "date": "2019-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226296,
+      "dst": 226476
+    },
+    {
+      "relateString": "前传",
+      "src": 226476,
+      "dst": 226296
+    },
+    {
+      "relateString": "续集",
+      "src": 226476,
+      "dst": 240830
+    },
+    {
+      "relateString": "前传",
+      "src": 240830,
+      "dst": 226476
+    },
+    {
+      "relateString": "续集",
+      "src": 240830,
+      "dst": 264119
+    },
+    {
+      "relateString": "前传",
+      "src": 264119,
+      "dst": 240830
+    }
+  ]
 }

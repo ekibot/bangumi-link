@@ -1,37 +1,34 @@
 {
- "id": 150628,
- "node": [
-  {
-   "id": 150628,
-   "name": "炎人",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/d5/150628_7iB4a.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 150643,
-   "name": "炎人 UNDERWORLD",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/d0/150643_W5RqZ.jpg",
-   "date": "2012-06-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150628,
-   "dst": 150643
-  },
-  {
-   "relate": "前传",
-   "src": 150643,
-   "dst": 150628
-  }
- ]
+  "id": "150628",
+  "node": [
+    {
+      "id": 150628,
+      "name": "炎人",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 150643,
+      "name": "炎人 UNDERWORLD",
+      "nameCN": "",
+      "date": "2012-06-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150628,
+      "dst": 150643
+    },
+    {
+      "relateString": "前传",
+      "src": 150643,
+      "dst": 150628
+    }
+  ]
 }

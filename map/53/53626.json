@@ -1,37 +1,35 @@
 {
- "id": 53626,
- "node": [
-  {
-   "id": 53626,
-   "name": "同人に恋して",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/69/53626_5rzr2.jpg",
-   "date": "2012-12-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 85816,
-   "name": "同人に夢みて",
-   "nameCN": "梦见同人",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/93/85816_jp.jpg",
-   "date": "2013-08-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53626,
-   "dst": 85816
-  },
-  {
-   "relate": "前传",
-   "src": 85816,
-   "dst": 53626
-  }
- ]
+  "id": "53626",
+  "node": [
+    {
+      "id": 53626,
+      "name": "同人に恋して",
+      "nameCN": "",
+      "date": "2012-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 85816,
+      "name": "同人に夢みて",
+      "nameCN": "梦见同人",
+      "date": "2013-08-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53626,
+      "dst": 85816
+    },
+    {
+      "relateString": "前传",
+      "src": 85816,
+      "dst": 53626
+    }
+  ]
 }

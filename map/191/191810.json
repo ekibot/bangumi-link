@@ -1,34 +1,35 @@
 {
- "id": 191810,
- "node": [
-  {
-   "id": 191810,
-   "name": "緊縛の館",
-   "nameCN": "紧缚之馆",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/8a/191810_G7V16.jpg",
-   "date": "1996-11-22",
-   "type": 4
-  },
-  {
-   "id": 191811,
-   "name": "略奪 緊縛の館 完結編",
-   "nameCN": "略夺 紧缚之馆 完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/45/191811_vBSiT.jpg",
-   "date": "1999-04-09",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191810,
-   "dst": 191811
-  },
-  {
-   "relate": "前传",
-   "src": 191811,
-   "dst": 191810
-  }
- ]
+  "id": "191810",
+  "node": [
+    {
+      "id": 191810,
+      "name": "緊縛の館",
+      "nameCN": "紧缚之馆",
+      "date": "1996-11-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 191811,
+      "name": "略奪 緊縛の館 完結編",
+      "nameCN": "略夺 紧缚之馆 完结篇",
+      "date": "1999-04-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191810,
+      "dst": 191811
+    },
+    {
+      "relateString": "前传",
+      "src": 191811,
+      "dst": 191810
+    }
+  ]
 }

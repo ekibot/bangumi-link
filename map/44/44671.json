@@ -1,57 +1,53 @@
 {
- "id": 44671,
- "node": [
-  {
-   "id": 44671,
-   "name": "BLACK CITY - 叶恭弘短編集",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/60/44671_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 44672,
-   "name": "Tokyo ants―叶恭弘短編集2",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/6e/44672_jp.jpg",
-   "date": "2003-01-06",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 44673,
-   "name": "Snow in the Dark -叶恭弘短編集- 3",
-   "nameCN": "黑雪公主",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/c8/44673_jp.jpg",
-   "date": "2007-06-04",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44671,
-   "dst": 44672
-  },
-  {
-   "relate": "前传",
-   "src": 44672,
-   "dst": 44671
-  },
-  {
-   "relate": "续集",
-   "src": 44672,
-   "dst": 44673
-  },
-  {
-   "relate": "前传",
-   "src": 44673,
-   "dst": 44672
-  }
- ]
+  "id": "44671",
+  "node": [
+    {
+      "id": 44671,
+      "name": "BLACK CITY - 叶恭弘短編集",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44672,
+      "name": "Tokyo ants―叶恭弘短編集2",
+      "nameCN": "",
+      "date": "2003-01-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44673,
+      "name": "Snow in the Dark -叶恭弘短編集- 3",
+      "nameCN": "黑雪公主",
+      "date": "2007-06-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44671,
+      "dst": 44672
+    },
+    {
+      "relateString": "前传",
+      "src": 44672,
+      "dst": 44671
+    },
+    {
+      "relateString": "续集",
+      "src": 44672,
+      "dst": 44673
+    },
+    {
+      "relateString": "前传",
+      "src": 44673,
+      "dst": 44672
+    }
+  ]
 }

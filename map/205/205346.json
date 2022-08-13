@@ -1,37 +1,35 @@
 {
- "id": 205346,
- "node": [
-  {
-   "id": 205346,
-   "name": "小暮写眞館(上) (講談社文庫)",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/6e/205346_jp.jpg",
-   "date": "2013-10-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 205349,
-   "name": "小暮写眞館(下) (講談社文庫)",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/30/205349_CGko8.jpg",
-   "date": "2013-10-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 205346,
-   "dst": 205349
-  },
-  {
-   "relate": "前传",
-   "src": 205349,
-   "dst": 205346
-  }
- ]
+  "id": "205346",
+  "node": [
+    {
+      "id": 205346,
+      "name": "小暮写眞館(上) (講談社文庫)",
+      "nameCN": "",
+      "date": "2013-10-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 205349,
+      "name": "小暮写眞館(下) (講談社文庫)",
+      "nameCN": "",
+      "date": "2013-10-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205346,
+      "dst": 205349
+    },
+    {
+      "relateString": "前传",
+      "src": 205349,
+      "dst": 205346
+    }
+  ]
 }

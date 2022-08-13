@@ -1,37 +1,35 @@
 {
- "id": 128478,
- "node": [
-  {
-   "id": 128478,
-   "name": "施公奇案",
-   "nameCN": "施公奇案",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/ef/128478_4FU42.jpg",
-   "date": "2006-01-31",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 128480,
-   "name": "施公奇案II",
-   "nameCN": "施公奇案II",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/2d/128480_6Qqg2.jpg",
-   "date": "2010-07-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128478,
-   "dst": 128480
-  },
-  {
-   "relate": "前传",
-   "src": 128480,
-   "dst": 128478
-  }
- ]
+  "id": "128478",
+  "node": [
+    {
+      "id": 128478,
+      "name": "施公奇案",
+      "nameCN": "施公奇案",
+      "date": "2006-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128480,
+      "name": "施公奇案II",
+      "nameCN": "施公奇案II",
+      "date": "2010-07-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128478,
+      "dst": 128480
+    },
+    {
+      "relateString": "前传",
+      "src": 128480,
+      "dst": 128478
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 150286,
- "node": [
-  {
-   "id": 150286,
-   "name": "おらぁグズラだど",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/7b/150286_4bcS9.jpg",
-   "date": "1967-10-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 308946,
-   "name": "おらぁグズラだど リメイク版",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/8f/308946_a4eq2.jpg",
-   "date": "1987-10-12",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 150286,
-   "dst": 308946
-  },
-  {
-   "relate": "不同演绎",
-   "src": 308946,
-   "dst": 150286
-  }
- ]
+  "id": "150286",
+  "node": [
+    {
+      "id": 150286,
+      "name": "おらぁグズラだど",
+      "nameCN": "",
+      "date": "1967-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 308946,
+      "name": "おらぁグズラだど リメイク版",
+      "nameCN": "",
+      "date": "1987-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 150286,
+      "dst": 308946
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 308946,
+      "dst": 150286
+    }
+  ]
 }

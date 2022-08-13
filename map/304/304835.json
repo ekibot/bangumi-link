@@ -1,57 +1,54 @@
 {
- "id": 304835,
- "node": [
-  {
-   "id": 304835,
-   "name": "ニンジャボックス",
-   "nameCN": "忍者之箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/bc/304835_BAi8i.jpg",
-   "date": "2019-08-08",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 304838,
-   "name": "ニンジャボックス シーズン2",
-   "nameCN": "忍者之箱 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/9a/304838_2066W.jpg",
-   "date": "2019-10-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 304840,
-   "name": "ニンジャボックス 新シリーズ",
-   "nameCN": "忍者之箱 新系列",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/f7/304840_TSkok.jpg",
-   "date": "2020-03-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 304835,
-   "dst": 304838
-  },
-  {
-   "relate": "前传",
-   "src": 304838,
-   "dst": 304835
-  },
-  {
-   "relate": "续集",
-   "src": 304838,
-   "dst": 304840
-  },
-  {
-   "relate": "前传",
-   "src": 304840,
-   "dst": 304838
-  }
- ]
+  "id": "304835",
+  "node": [
+    {
+      "id": 304835,
+      "name": "ニンジャボックス",
+      "nameCN": "忍者之箱",
+      "date": "2019-08-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 304838,
+      "name": "ニンジャボックス シーズン2",
+      "nameCN": "忍者之箱 第二季",
+      "date": "2019-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 304840,
+      "name": "ニンジャボックス 新シリーズ",
+      "nameCN": "忍者之箱 新系列",
+      "date": "2020-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 304835,
+      "dst": 304838
+    },
+    {
+      "relateString": "前传",
+      "src": 304838,
+      "dst": 304835
+    },
+    {
+      "relateString": "续集",
+      "src": 304838,
+      "dst": 304840
+    },
+    {
+      "relateString": "前传",
+      "src": 304840,
+      "dst": 304838
+    }
+  ]
 }

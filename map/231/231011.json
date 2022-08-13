@@ -1,0 +1,54 @@
+{
+  "id": "231011",
+  "node": [
+    {
+      "id": 231011,
+      "name": "せ・ん・せ・い",
+      "nameCN": "",
+      "date": "1998-11-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231012,
+      "name": "せ・ん・せ・い2",
+      "nameCN": "",
+      "date": "2000-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231013,
+      "name": "せ・ん・せ・い3",
+      "nameCN": "",
+      "date": "2002-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231011,
+      "dst": 231012
+    },
+    {
+      "relateString": "前传",
+      "src": 231012,
+      "dst": 231011
+    },
+    {
+      "relateString": "续集",
+      "src": 231012,
+      "dst": 231013
+    },
+    {
+      "relateString": "前传",
+      "src": 231013,
+      "dst": 231012
+    }
+  ]
+}

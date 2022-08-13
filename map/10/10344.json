@@ -1,100 +1,30 @@
 {
- "id": 10344,
- "node": [
-  {
-   "id": 10344,
-   "name": "スカーレッドライダーゼクス",
-   "nameCN": "红伤骑士X",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/d3/10344_DbAdB.jpg",
-   "date": "2010-07-01",
-   "type": 4
-  },
-  {
-   "id": 33022,
-   "name": "スカーレッドライダーゼクス Ⅰ＋ FD ポータブル",
-   "nameCN": "惊鸿骑士杰克斯　携带版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/2d/33022_if583.jpg",
-   "date": "2012-04-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 33023,
-   "name": "Scared Rider Xechs －STARDUST LOVERS－",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/90/33023_ENNnE.jpg",
-   "date": "2011-06-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 159842,
-   "name": "スカーレッドライダーゼクス Rev.",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/6c/159842_D74dI.jpg",
-   "date": "2015-11-19",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10344,
-   "dst": 33023
-  },
-  {
-   "relate": "不同演绎",
-   "src": 10344,
-   "dst": 159842
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33022,
-   "dst": 10344
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33022,
-   "dst": 33023
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33022,
-   "dst": 159842
-  },
-  {
-   "relate": "前传",
-   "src": 33023,
-   "dst": 10344
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33023,
-   "dst": 33022
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33023,
-   "dst": 159842
-  },
-  {
-   "relate": "不同演绎",
-   "src": 159842,
-   "dst": 10344
-  },
-  {
-   "relate": "不同演绎",
-   "src": 159842,
-   "dst": 33022
-  },
-  {
-   "relate": "不同演绎",
-   "src": 159842,
-   "dst": 33023
-  }
- ]
+  "id": "10344",
+  "node": [
+    {
+      "id": 33023,
+      "name": "Scared Rider Xechs －STARDUST LOVERS－",
+      "nameCN": "",
+      "date": "2011-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 10344,
+      "name": "スカーレッドライダーゼクス",
+      "nameCN": "红伤骑士X",
+      "date": "2010-07-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 33023,
+      "dst": 10344
+    }
+  ]
 }

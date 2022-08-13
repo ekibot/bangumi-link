@@ -1,67 +1,64 @@
 {
- "id": 119646,
- "node": [
-  {
-   "id": 119646,
-   "name": "天使は傲慢に支配する",
-   "nameCN": "傲慢天使的支配",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/0d/119646_jp.jpg",
-   "date": "2006-11-17",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 119647,
-   "name": "天使は凶暴に支配する",
-   "nameCN": "凶暴天使的支配",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/ca/119647_jp.jpg",
-   "date": "2006-09-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 119648,
-   "name": "悪魔は蜜で花ひらく",
-   "nameCN": "恶魔的甜蜜诱惑",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/5e/119648_jp.jpg",
-   "date": "2008-06-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 119646,
-   "dst": 119647
-  },
-  {
-   "relate": "番外篇",
-   "src": 119646,
-   "dst": 119648
-  },
-  {
-   "relate": "前传",
-   "src": 119647,
-   "dst": 119646
-  },
-  {
-   "relate": "番外篇",
-   "src": 119647,
-   "dst": 119648
-  },
-  {
-   "relate": "主线故事",
-   "src": 119648,
-   "dst": 119646
-  },
-  {
-   "relate": "主线故事",
-   "src": 119648,
-   "dst": 119647
-  }
- ]
+  "id": "119646",
+  "node": [
+    {
+      "id": 119646,
+      "name": "天使は傲慢に支配する",
+      "nameCN": "傲慢天使的支配",
+      "date": "2006-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 119647,
+      "name": "天使は凶暴に支配する",
+      "nameCN": "凶暴天使的支配",
+      "date": "2006-09-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 119648,
+      "name": "悪魔は蜜で花ひらく",
+      "nameCN": "恶魔的甜蜜诱惑",
+      "date": "2008-06-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 119646,
+      "dst": 119647
+    },
+    {
+      "relateString": "番外篇",
+      "src": 119646,
+      "dst": 119648
+    },
+    {
+      "relateString": "前传",
+      "src": 119647,
+      "dst": 119646
+    },
+    {
+      "relateString": "番外篇",
+      "src": 119647,
+      "dst": 119648
+    },
+    {
+      "relateString": "主线故事",
+      "src": 119648,
+      "dst": 119646
+    },
+    {
+      "relateString": "主线故事",
+      "src": 119648,
+      "dst": 119647
+    }
+  ]
 }

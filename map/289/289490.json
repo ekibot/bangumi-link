@@ -1,97 +1,90 @@
 {
- "id": 289490,
- "node": [
-  {
-   "id": 289490,
-   "name": "La casa de papel Season 1",
-   "nameCN": "纸钞屋 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/8a/289490_8R6uq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 303508,
-   "name": "La casa de papel Season 2",
-   "nameCN": "纸钞屋 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/08/303508_Ak56V.jpg",
-   "date": "2018-04-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 305581,
-   "name": "La casa de papel Season 3",
-   "nameCN": "纸钞屋 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/41/305581_Elw7b.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 305582,
-   "name": "La casa de papel Season 4",
-   "nameCN": "纸钞屋 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/6c/305582_BBqb0.jpg",
-   "date": "2020-04-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 350339,
-   "name": "La casa de papel Season 5",
-   "nameCN": "纸钞屋 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/a4/350339_94lIu.jpg",
-   "date": "2021-09-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 289490,
-   "dst": 303508
-  },
-  {
-   "relate": "前传",
-   "src": 303508,
-   "dst": 289490
-  },
-  {
-   "relate": "续集",
-   "src": 303508,
-   "dst": 305581
-  },
-  {
-   "relate": "前传",
-   "src": 305581,
-   "dst": 303508
-  },
-  {
-   "relate": "续集",
-   "src": 305581,
-   "dst": 305582
-  },
-  {
-   "relate": "前传",
-   "src": 305582,
-   "dst": 305581
-  },
-  {
-   "relate": "续集",
-   "src": 305582,
-   "dst": 350339
-  },
-  {
-   "relate": "前传",
-   "src": 350339,
-   "dst": 305582
-  }
- ]
+  "id": "289490",
+  "node": [
+    {
+      "id": 289490,
+      "name": "La casa de papel Season 1",
+      "nameCN": "纸钞屋 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 303508,
+      "name": "La casa de papel Season 2",
+      "nameCN": "纸钞屋 第二季",
+      "date": "2018-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 305581,
+      "name": "La casa de papel Season 3",
+      "nameCN": "纸钞屋 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 305582,
+      "name": "La casa de papel Season 4",
+      "nameCN": "纸钞屋 第四季",
+      "date": "2020-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 350339,
+      "name": "La casa de papel Season 5",
+      "nameCN": "纸钞屋 第五季",
+      "date": "2021-09-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 289490,
+      "dst": 303508
+    },
+    {
+      "relateString": "前传",
+      "src": 303508,
+      "dst": 289490
+    },
+    {
+      "relateString": "续集",
+      "src": 303508,
+      "dst": 305581
+    },
+    {
+      "relateString": "前传",
+      "src": 305581,
+      "dst": 303508
+    },
+    {
+      "relateString": "续集",
+      "src": 305581,
+      "dst": 305582
+    },
+    {
+      "relateString": "前传",
+      "src": 305582,
+      "dst": 305581
+    },
+    {
+      "relateString": "续集",
+      "src": 305582,
+      "dst": 350339
+    },
+    {
+      "relateString": "前传",
+      "src": 350339,
+      "dst": 305582
+    }
+  ]
 }

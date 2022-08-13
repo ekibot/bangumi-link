@@ -1,37 +1,35 @@
 {
- "id": 182604,
- "node": [
-  {
-   "id": 182604,
-   "name": "The Detour Season 1",
-   "nameCN": "一路绕行 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/6a/182604_vDoDF.jpg",
-   "date": "2016-04-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 183564,
-   "name": "The Detour Season 2",
-   "nameCN": "一路绕行 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/50/183564_traLI.jpg",
-   "date": "2017-02-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 182604,
-   "dst": 183564
-  },
-  {
-   "relate": "前传",
-   "src": 183564,
-   "dst": 182604
-  }
- ]
+  "id": "182604",
+  "node": [
+    {
+      "id": 182604,
+      "name": "The Detour Season 1",
+      "nameCN": "一路绕行 第一季",
+      "date": "2016-04-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 183564,
+      "name": "The Detour Season 2",
+      "nameCN": "一路绕行 第二季",
+      "date": "2017-02-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 182604,
+      "dst": 183564
+    },
+    {
+      "relateString": "前传",
+      "src": 183564,
+      "dst": 182604
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 304229,
- "node": [
-  {
-   "id": 304229,
-   "name": "アレロパシック・プランツ",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/37/304229_E99kE.jpg",
-   "date": "2019-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 318596,
-   "name": "アレロパシック・プランツ-遊園地編-",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 304229,
-   "dst": 318596
-  },
-  {
-   "relate": "前传",
-   "src": 318596,
-   "dst": 304229
-  }
- ]
+  "id": "304229",
+  "node": [
+    {
+      "id": 304229,
+      "name": "アレロパシック・プランツ",
+      "nameCN": "",
+      "date": "2019-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 318596,
+      "name": "アレロパシック・プランツ-遊園地編-",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 304229,
+      "dst": 318596
+    },
+    {
+      "relateString": "前传",
+      "src": 318596,
+      "dst": 304229
+    }
+  ]
 }

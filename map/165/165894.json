@@ -1,25 +1,35 @@
 {
- "id": 165894,
- "node": [
-  {
-   "id": 165894,
-   "name": "アマツツミ",
-   "nameCN": "天津罪",
-   "image": "/img/no_icon_subject.png",
-   "date": "2016-07-29"
-  },
-  {
-   "id": 220311,
-   "name": "アオイトリ",
-   "nameCN": "青鸟",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 165894,
-   "dst": 220311
-  }
- ]
+  "id": "165894",
+  "node": [
+    {
+      "id": 165894,
+      "name": "アマツツミ",
+      "nameCN": "天津罪",
+      "date": "2016-07-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220311,
+      "name": "アオイトリ",
+      "nameCN": "青鸟",
+      "date": "2017-11-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 165894,
+      "dst": 220311
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 220311,
+      "dst": 165894
+    }
+  ]
 }

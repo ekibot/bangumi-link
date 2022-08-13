@@ -1,37 +1,33 @@
 {
- "id": 140189,
- "node": [
-  {
-   "id": 140189,
-   "name": "ディグディグDX",
-   "nameCN": "挖挖挖DX",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/15/140189_TIZ80.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 238182,
-   "name": "ディグディグ3",
-   "nameCN": "挖挖挖3",
-   "date": null,
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 140189,
-   "dst": 238182
-  },
-  {
-   "relate": "前传",
-   "src": 238182,
-   "dst": 140189
-  }
- ]
+  "id": "140189",
+  "node": [
+    {
+      "id": 140189,
+      "name": "ディグディグDX",
+      "nameCN": "挖挖挖DX",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 238182,
+      "name": "ディグディグ3",
+      "nameCN": "挖挖挖3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 140189,
+      "dst": 238182
+    },
+    {
+      "relateString": "前传",
+      "src": 238182,
+      "dst": 140189
+    }
+  ]
 }

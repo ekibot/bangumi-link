@@ -1,63 +1,35 @@
 {
- "id": 33292,
- "node": [
-  {
-   "id": 167,
-   "name": "SIREN: New Translation",
-   "nameCN": "死魂曲 新生",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/78/167_ajp.jpg",
-   "date": "2008-07-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 33292,
-   "name": "SIREN",
-   "nameCN": "死魂曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/38/33292_9rvq9.jpg",
-   "date": "2003-11-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 37967,
-   "name": "SIREN2",
-   "nameCN": "死魂曲2",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/72/37967_D5v0j.jpg",
-   "date": "2006-02-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 57965,
-   "name": "サイレン ニュー・トランスレーション",
-   "nameCN": "死魂曲 新生",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/4b/57965_111eF.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 167,
-   "dst": 37967
-  },
-  {
-   "relate": "续集",
-   "src": 33292,
-   "dst": 37967
-  },
-  {
-   "relate": "前传",
-   "src": 37967,
-   "dst": 33292
-  },
-  {
-   "relate": "续集",
-   "src": 37967,
-   "dst": 57965
-  }
- ]
+  "id": "33292",
+  "node": [
+    {
+      "id": 33292,
+      "name": "SIREN",
+      "nameCN": "死魂曲",
+      "date": "2003-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 37967,
+      "name": "SIREN2",
+      "nameCN": "死魂曲2",
+      "date": "2006-02-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33292,
+      "dst": 37967
+    },
+    {
+      "relateString": "前传",
+      "src": 37967,
+      "dst": 33292
+    }
+  ]
 }

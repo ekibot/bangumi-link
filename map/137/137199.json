@@ -1,37 +1,33 @@
 {
- "id": 137199,
- "node": [
-  {
-   "id": 137199,
-   "name": "ジャストミート",
-   "nameCN": "好球旋风儿",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/e5/137199_768Q5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 353600,
-   "name": "ジャストミート外伝　ふぁうるちっぷ",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/e9/353600_ELesB.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 137199,
-   "dst": 353600
-  },
-  {
-   "relate": "主线故事",
-   "src": 353600,
-   "dst": 137199
-  }
- ]
+  "id": "137199",
+  "node": [
+    {
+      "id": 137199,
+      "name": "ジャストミート",
+      "nameCN": "好球旋风儿",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 353600,
+      "name": "ジャストミート外伝　ふぁうるちっぷ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 137199,
+      "dst": 353600
+    },
+    {
+      "relateString": "主线故事",
+      "src": 353600,
+      "dst": 137199
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 297817,
- "node": [
-  {
-   "id": 297817,
-   "name": "ボーイズ・バッド・ロマンス！",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/cc/297817_NrSBA.jpg",
-   "date": "2018-01-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 297821,
-   "name": "ボーイズ・バッド・ロマンス! リターンマッチ",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/14/297821_PBS09.jpg",
-   "date": "2018-08-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 297822,
-   "name": "ボーイズ・バッド・ロマンス! エクストラステージ",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/22/297822_Q0Q0z.jpg",
-   "date": "2019-12-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 297817,
-   "dst": 297821
-  },
-  {
-   "relate": "前传",
-   "src": 297821,
-   "dst": 297817
-  },
-  {
-   "relate": "续集",
-   "src": 297821,
-   "dst": 297822
-  },
-  {
-   "relate": "前传",
-   "src": 297822,
-   "dst": 297821
-  }
- ]
+  "id": "297817",
+  "node": [
+    {
+      "id": 297817,
+      "name": "ボーイズ・バッド・ロマンス！",
+      "nameCN": "",
+      "date": "2018-01-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 297821,
+      "name": "ボーイズ・バッド・ロマンス! リターンマッチ",
+      "nameCN": "",
+      "date": "2018-08-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 297822,
+      "name": "ボーイズ・バッド・ロマンス! エクストラステージ",
+      "nameCN": "",
+      "date": "2019-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 297817,
+      "dst": 297821
+    },
+    {
+      "relateString": "前传",
+      "src": 297821,
+      "dst": 297817
+    },
+    {
+      "relateString": "续集",
+      "src": 297821,
+      "dst": 297822
+    },
+    {
+      "relateString": "前传",
+      "src": 297822,
+      "dst": 297821
+    }
+  ]
 }

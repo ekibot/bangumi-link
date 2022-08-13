@@ -1,0 +1,46 @@
+{
+  "id": "360006",
+  "node": [
+    {
+      "id": 360006,
+      "name": "dogs.1",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 360007,
+      "name": "dogs.2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 360008,
+      "name": "dogs.1.5",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 360006,
+      "dst": 360007
+    },
+    {
+      "relateString": "前传",
+      "src": 360007,
+      "dst": 360006
+    },
+    {
+      "relateString": "主线故事",
+      "src": 360008,
+      "dst": 360007
+    }
+  ]
+}

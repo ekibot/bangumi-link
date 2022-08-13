@@ -1,37 +1,34 @@
 {
- "id": 21374,
- "node": [
-  {
-   "id": 21374,
-   "name": "学園革命伝ミツルギ",
-   "nameCN": "学园革命传MITSURUGI",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/30/21374_9FULB.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 154361,
-   "name": "学園革命伝ミツルギ なかよし",
-   "date": "2011-05-25",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/0f/154361_DHjG6.jpg",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21374,
-   "dst": 154361
-  },
-  {
-   "relate": "前传",
-   "src": 154361,
-   "dst": 21374
-  }
- ]
+  "id": "21374",
+  "node": [
+    {
+      "id": 21374,
+      "name": "学園革命伝ミツルギ",
+      "nameCN": "学园革命传MITSURUGI",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 154361,
+      "name": "学園革命伝ミツルギ なかよし",
+      "nameCN": "",
+      "date": "2011-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21374,
+      "dst": 154361
+    },
+    {
+      "relateString": "前传",
+      "src": 154361,
+      "dst": 21374
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 340605,
- "node": [
-  {
-   "id": 340605,
-   "name": "どんぐりの家",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/e4/340605_MO27a.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 340614,
-   "name": "どんぐりの家~それから~",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/9e/340614_aJJIi.jpg",
-   "date": "2007-10-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 340605,
-   "dst": 340614
-  },
-  {
-   "relate": "前传",
-   "src": 340614,
-   "dst": 340605
-  }
- ]
+  "id": "340605",
+  "node": [
+    {
+      "id": 340605,
+      "name": "どんぐりの家",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340614,
+      "name": "どんぐりの家~それから~",
+      "nameCN": "",
+      "date": "2007-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 340605,
+      "dst": 340614
+    },
+    {
+      "relateString": "前传",
+      "src": 340614,
+      "dst": 340605
+    }
+  ]
 }

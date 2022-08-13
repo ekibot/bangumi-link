@@ -1,37 +1,34 @@
 {
- "id": 43076,
- "node": [
-  {
-   "id": 43076,
-   "name": "獣王記 -PROJECT ALTERED BEAST-",
-   "nameCN": "兽王记",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/01/43076_DKTRD.jpg",
-   "date": "2005-01-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 73656,
-   "name": "獣王記",
-   "nameCN": "兽王记",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/34/73656_wQ0EU.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 43076,
-   "dst": 73656
-  },
-  {
-   "relate": "续集",
-   "src": 73656,
-   "dst": 43076
-  }
- ]
+  "id": "43076",
+  "node": [
+    {
+      "id": 43076,
+      "name": "獣王記 -PROJECT ALTERED BEAST-",
+      "nameCN": "兽王记",
+      "date": "2005-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 73656,
+      "name": "獣王記",
+      "nameCN": "兽王记",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 43076,
+      "dst": 73656
+    },
+    {
+      "relateString": "续集",
+      "src": 73656,
+      "dst": 43076
+    }
+  ]
 }

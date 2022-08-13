@@ -1,37 +1,35 @@
 {
- "id": 136150,
- "node": [
-  {
-   "id": 136150,
-   "name": "莽荒纪",
-   "nameCN": "莽荒纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/99/136150_94IVd.jpg",
-   "date": "2015-04-04",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 245380,
-   "name": "莽荒纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/8d/245380_r1hW1.jpg",
-   "date": "2018-04-30",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 136150,
-   "dst": 245380
-  },
-  {
-   "relate": "不同演绎",
-   "src": 245380,
-   "dst": 136150
-  }
- ]
+  "id": "136150",
+  "node": [
+    {
+      "id": 136150,
+      "name": "莽荒纪",
+      "nameCN": "莽荒纪",
+      "date": "2015-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 245380,
+      "name": "莽荒纪",
+      "nameCN": "",
+      "date": "2018-04-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 136150,
+      "dst": 245380
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 245380,
+      "dst": 136150
+    }
+  ]
 }

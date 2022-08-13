@@ -1,37 +1,35 @@
 {
- "id": 220875,
- "node": [
-  {
-   "id": 220875,
-   "name": "天天酷跑",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/db/220875_3Fq0q.jpg",
-   "date": "2013-09-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 341732,
-   "name": "天天酷跑3D",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/6e/341732_H2KsH.jpg",
-   "date": "2016-01-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 220875,
-   "dst": 341732
-  },
-  {
-   "relate": "前传",
-   "src": 341732,
-   "dst": 220875
-  }
- ]
+  "id": "220875",
+  "node": [
+    {
+      "id": 220875,
+      "name": "天天酷跑",
+      "nameCN": "",
+      "date": "2013-09-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 341732,
+      "name": "天天酷跑3D",
+      "nameCN": "",
+      "date": "2016-01-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 220875,
+      "dst": 341732
+    },
+    {
+      "relateString": "前传",
+      "src": 341732,
+      "dst": 220875
+    }
+  ]
 }

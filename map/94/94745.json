@@ -1,37 +1,35 @@
 {
- "id": 94745,
- "node": [
-  {
-   "id": 94745,
-   "name": "昨日青空",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/2a/94745_7Dcri.jpg",
-   "date": "2012-01-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 311393,
-   "name": "昨日青空·印刻流年",
-   "nameCN": "昨日青空之印刻流年",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/77/311393_0t9TA.jpg",
-   "date": "2018-07-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 94745,
-   "dst": 311393
-  },
-  {
-   "relate": "续集",
-   "src": 311393,
-   "dst": 94745
-  }
- ]
+  "id": "94745",
+  "node": [
+    {
+      "id": 94745,
+      "name": "昨日青空",
+      "nameCN": "",
+      "date": "2012-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 311393,
+      "name": "昨日青空·印刻流年",
+      "nameCN": "昨日青空之印刻流年",
+      "date": "2018-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 94745,
+      "dst": 311393
+    },
+    {
+      "relateString": "续集",
+      "src": 311393,
+      "dst": 94745
+    }
+  ]
 }

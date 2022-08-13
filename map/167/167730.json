@@ -1,77 +1,73 @@
 {
- "id": 167730,
- "node": [
-  {
-   "id": 167730,
-   "name": "鬼島くんの大嫌いで大好きな彼",
-   "nameCN": "鬼岛同学又恨又爱的他",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/d6/167730_jp.jpg",
-   "date": "2015-12-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 182265,
-   "name": "木嶋くんシリーズ",
-   "nameCN": "木嶋同学系列",
-   "date": "2013-05-29",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 226809,
-   "name": "木嶋兄が狙われてます。",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/40/226809_us.jpg",
-   "date": "2017-06-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 315460,
-   "name": "木嶋兄は我慢できません。",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/37/315460_firGj.jpg",
-   "date": "2018-06-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 167730,
-   "dst": 182265
-  },
-  {
-   "relate": "番外篇",
-   "src": 182265,
-   "dst": 167730
-  },
-  {
-   "relate": "番外篇",
-   "src": 182265,
-   "dst": 226809
-  },
-  {
-   "relate": "主线故事",
-   "src": 226809,
-   "dst": 182265
-  },
-  {
-   "relate": "续集",
-   "src": 226809,
-   "dst": 315460
-  },
-  {
-   "relate": "前传",
-   "src": 315460,
-   "dst": 226809
-  }
- ]
+  "id": "167730",
+  "node": [
+    {
+      "id": 167730,
+      "name": "鬼島くんの大嫌いで大好きな彼",
+      "nameCN": "鬼岛同学又恨又爱的他",
+      "date": "2015-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 182265,
+      "name": "木嶋くんシリーズ",
+      "nameCN": "木嶋同学系列",
+      "date": "2013-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 226809,
+      "name": "木嶋兄が狙われてます。",
+      "nameCN": "",
+      "date": "2017-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 315460,
+      "name": "木嶋兄は我慢できません。",
+      "nameCN": "",
+      "date": "2018-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 167730,
+      "dst": 182265
+    },
+    {
+      "relateString": "番外篇",
+      "src": 182265,
+      "dst": 167730
+    },
+    {
+      "relateString": "番外篇",
+      "src": 182265,
+      "dst": 226809
+    },
+    {
+      "relateString": "主线故事",
+      "src": 226809,
+      "dst": 182265
+    },
+    {
+      "relateString": "续集",
+      "src": 226809,
+      "dst": 315460
+    },
+    {
+      "relateString": "前传",
+      "src": 315460,
+      "dst": 226809
+    }
+  ]
 }

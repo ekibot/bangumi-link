@@ -1,37 +1,35 @@
 {
- "id": 183566,
- "node": [
-  {
-   "id": 183566,
-   "name": "El ministerio del tiempo Season 1",
-   "nameCN": "时间管理局 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/67/183566_DP00A.jpg",
-   "date": "2015-02-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 183567,
-   "name": "El ministerio del tiempo Season 2",
-   "nameCN": "时间管理局 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/9e/183567_ci4ce.jpg",
-   "date": "2016-02-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 183566,
-   "dst": 183567
-  },
-  {
-   "relate": "前传",
-   "src": 183567,
-   "dst": 183566
-  }
- ]
+  "id": "183566",
+  "node": [
+    {
+      "id": 183566,
+      "name": "El ministerio del tiempo Season 1",
+      "nameCN": "时间管理局 第一季",
+      "date": "2015-02-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 183567,
+      "name": "El ministerio del tiempo Season 2",
+      "nameCN": "时间管理局 第二季",
+      "date": "2016-02-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 183566,
+      "dst": 183567
+    },
+    {
+      "relateString": "前传",
+      "src": 183567,
+      "dst": 183566
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 87717,
- "node": [
-  {
-   "id": 87717,
-   "name": "ベイビーステップ",
-   "nameCN": "网球优等生",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/6c/87717_bhpsc.jpg",
-   "date": "2014-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 113906,
-   "name": "ベイビーステップ 第2シリーズ",
-   "nameCN": "网球优等生 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/83/113906_NO75R.jpg",
-   "date": "2015-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87717,
-   "dst": 113906
-  },
-  {
-   "relate": "前传",
-   "src": 113906,
-   "dst": 87717
-  }
- ]
+  "id": "87717",
+  "node": [
+    {
+      "id": 87717,
+      "name": "ベイビーステップ",
+      "nameCN": "网球优等生",
+      "date": "2014-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113906,
+      "name": "ベイビーステップ 第2シリーズ",
+      "nameCN": "网球优等生 第二季",
+      "date": "2015-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87717,
+      "dst": 113906
+    },
+    {
+      "relateString": "前传",
+      "src": 113906,
+      "dst": 87717
+    }
+  ]
 }

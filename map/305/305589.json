@@ -1,57 +1,52 @@
 {
- "id": 305589,
- "node": [
-  {
-   "id": 305589,
-   "name": "ウイングマンスペシャル -さらば夢戦士-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/46/305589_0uuP0.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 305591,
-   "name": "ウイングマン2 - キータクラーの復活-",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/a7/305591_uz7Ad.jpg",
-   "date": "1986-04-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 305592,
-   "name": "ウイングマン",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/82/305592_xnbHO.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 305589,
-   "dst": 305591
-  },
-  {
-   "relate": "续集",
-   "src": 305591,
-   "dst": 305589
-  },
-  {
-   "relate": "前传",
-   "src": 305591,
-   "dst": 305592
-  },
-  {
-   "relate": "续集",
-   "src": 305592,
-   "dst": 305591
-  }
- ]
+  "id": "305589",
+  "node": [
+    {
+      "id": 305589,
+      "name": "ウイングマンスペシャル -さらば夢戦士-",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 305591,
+      "name": "ウイングマン2 - キータクラーの復活-",
+      "nameCN": "",
+      "date": "1986-04-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 305592,
+      "name": "ウイングマン",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 305589,
+      "dst": 305591
+    },
+    {
+      "relateString": "续集",
+      "src": 305591,
+      "dst": 305589
+    },
+    {
+      "relateString": "前传",
+      "src": 305591,
+      "dst": 305592
+    },
+    {
+      "relateString": "续集",
+      "src": 305592,
+      "dst": 305591
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 272769,
- "node": [
-  {
-   "id": 272769,
-   "name": "古董局中局",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/9f/272769_R31wd.jpg",
-   "date": "2018-12-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 306875,
-   "name": "古董局中局Ⅱ",
-   "nameCN": "古董局中局Ⅱ：鉴墨寻瓷",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/5b/306875_dUxpg.jpg",
-   "date": "2020-05-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272769,
-   "dst": 306875
-  },
-  {
-   "relate": "前传",
-   "src": 306875,
-   "dst": 272769
-  }
- ]
+  "id": "272769",
+  "node": [
+    {
+      "id": 272769,
+      "name": "古董局中局",
+      "nameCN": "",
+      "date": "2018-12-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 306875,
+      "name": "古董局中局Ⅱ",
+      "nameCN": "古董局中局Ⅱ：鉴墨寻瓷",
+      "date": "2020-05-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272769,
+      "dst": 306875
+    },
+    {
+      "relateString": "前传",
+      "src": 306875,
+      "dst": 272769
+    }
+  ]
 }

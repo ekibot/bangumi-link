@@ -1,37 +1,35 @@
 {
- "id": 7360,
- "node": [
-  {
-   "id": 7360,
-   "name": "冬の蝉",
-   "nameCN": "冬之蝉",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/4e/7360_R0PSi.jpg",
-   "date": "2007-02-23",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 18606,
-   "name": "春を抱いていた",
-   "nameCN": "拥抱春天的罗曼史",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/7d/18606_9GgSa.jpg",
-   "date": "2005-03-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 7360,
-   "dst": 18606
-  },
-  {
-   "relate": "番外篇",
-   "src": 18606,
-   "dst": 7360
-  }
- ]
+  "id": "7360",
+  "node": [
+    {
+      "id": 7360,
+      "name": "冬の蝉",
+      "nameCN": "冬之蝉",
+      "date": "2007-02-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 18606,
+      "name": "春を抱いていた",
+      "nameCN": "拥抱春天的罗曼史",
+      "date": "2005-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 7360,
+      "dst": 18606
+    },
+    {
+      "relateString": "番外篇",
+      "src": 18606,
+      "dst": 7360
+    }
+  ]
 }

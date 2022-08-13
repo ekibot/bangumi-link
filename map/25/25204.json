@@ -1,42 +1,54 @@
 {
- "id": 25204,
- "node": [
-  {
-   "id": 25204,
-   "name": "遺作",
-   "nameCN": "遗作",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/8a/25204_77g9i.jpg",
-   "date": "1995-08-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 25205,
-   "name": "臭作",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/73/25205_s2Po9.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 25206,
-   "name": "鬼作",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/76/25206_fnR20.jpg",
-   "date": "2001-03-30",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 25204,
-   "dst": 25205
-  },
-  {
-   "relate": "前传",
-   "src": 25206,
-   "dst": 25205
-  }
- ]
+  "id": "25204",
+  "node": [
+    {
+      "id": 25204,
+      "name": "遺作",
+      "nameCN": "遗作",
+      "date": "1995-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 25205,
+      "name": "臭作",
+      "nameCN": "",
+      "date": "1998-03-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 25206,
+      "name": "鬼作",
+      "nameCN": "",
+      "date": "2001-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25204,
+      "dst": 25205
+    },
+    {
+      "relateString": "前传",
+      "src": 25205,
+      "dst": 25204
+    },
+    {
+      "relateString": "续集",
+      "src": 25205,
+      "dst": 25206
+    },
+    {
+      "relateString": "前传",
+      "src": 25206,
+      "dst": 25205
+    }
+  ]
 }

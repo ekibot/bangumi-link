@@ -1,57 +1,54 @@
 {
- "id": 305856,
- "node": [
-  {
-   "id": 305856,
-   "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.1",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/5b/305856_Cnw8b.jpg",
-   "date": "2020-03-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 313179,
-   "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/c1/313179_b1gS6.jpg",
-   "date": "2020-07-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  },
-  {
-   "id": 344264,
-   "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.3",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/1c/344264_dlDJI.jpg",
-   "date": "2021-07-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 305856,
-   "dst": 313179
-  },
-  {
-   "relate": "前传",
-   "src": 313179,
-   "dst": 305856
-  },
-  {
-   "relate": "续集",
-   "src": 313179,
-   "dst": 344264
-  },
-  {
-   "relate": "前传",
-   "src": 344264,
-   "dst": 313179
-  }
- ]
+  "id": "305856",
+  "node": [
+    {
+      "id": 305856,
+      "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.1",
+      "nameCN": "",
+      "date": "2020-03-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 313179,
+      "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.2",
+      "nameCN": "",
+      "date": "2020-07-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 344264,
+      "name": "プリンセスコネクト！Re:Dive 公式アートワークス Vol.3",
+      "nameCN": "",
+      "date": "2021-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 305856,
+      "dst": 313179
+    },
+    {
+      "relateString": "前传",
+      "src": 313179,
+      "dst": 305856
+    },
+    {
+      "relateString": "续集",
+      "src": 313179,
+      "dst": 344264
+    },
+    {
+      "relateString": "前传",
+      "src": 344264,
+      "dst": 313179
+    }
+  ]
 }

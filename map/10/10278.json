@@ -1,57 +1,54 @@
 {
- "id": 10278,
- "node": [
-  {
-   "id": 10278,
-   "name": "DOG DAYS",
-   "nameCN": "DOG DAYS",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/e1/10278_g8G2M.jpg",
-   "date": "2011-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 23681,
-   "name": "DOG DAYS'",
-   "nameCN": "DOG DAYS'",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/94/23681_2Oa9u.jpg",
-   "date": "2012-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 54942,
-   "name": "DOG DAYS''",
-   "nameCN": "DOG DAYS''",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/79/54942_A1ez8.jpg",
-   "date": "2015-01-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10278,
-   "dst": 23681
-  },
-  {
-   "relate": "前传",
-   "src": 23681,
-   "dst": 10278
-  },
-  {
-   "relate": "续集",
-   "src": 23681,
-   "dst": 54942
-  },
-  {
-   "relate": "前传",
-   "src": 54942,
-   "dst": 23681
-  }
- ]
+  "id": "10278",
+  "node": [
+    {
+      "id": 10278,
+      "name": "DOG DAYS",
+      "nameCN": "DOG DAYS",
+      "date": "2011-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 23681,
+      "name": "DOG DAYS'",
+      "nameCN": "DOG DAYS'",
+      "date": "2012-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 54942,
+      "name": "DOG DAYS''",
+      "nameCN": "DOG DAYS''",
+      "date": "2015-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10278,
+      "dst": 23681
+    },
+    {
+      "relateString": "前传",
+      "src": 23681,
+      "dst": 10278
+    },
+    {
+      "relateString": "续集",
+      "src": 23681,
+      "dst": 54942
+    },
+    {
+      "relateString": "前传",
+      "src": 54942,
+      "dst": 23681
+    }
+  ]
 }

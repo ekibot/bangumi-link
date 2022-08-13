@@ -1,117 +1,111 @@
 {
- "id": 108261,
- "node": [
-  {
-   "id": 108261,
-   "name": "DEAR BOYS",
-   "nameCN": "灌篮少年",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/5b/108261_q2Vlk.jpg",
-   "date": "1989-12-13",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 142003,
-   "name": "DEAR BOYS ACT II",
-   "nameCN": "灌篮少年Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/d1/142003_Gwi99.jpg",
-   "date": "1997-11-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 153530,
-   "name": "DEAR BOYS ACT3",
-   "nameCN": "灌篮少年 ACT3",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/f0/153530_w4dOT.jpg",
-   "date": "2009-06-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 186752,
-   "name": "DEAR BOYS OVER TIME",
-   "nameCN": "灌篮少年 OVER TIME",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/8e/186752_EsnYu.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 341888,
-   "name": "DEAR BOYS ACT4",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/2c/341888_937X9.jpg",
-   "date": "2019-03-15",
-   "nameCN": "灌篮少年 ACT4",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 348219,
-   "name": "DEAR BOYS THE EARLY DAYS",
-   "nameCN": "灌篮少年 国中篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/37/348219_ZXdYh.jpg",
-   "date": "1997-08-09",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 108261,
-   "dst": 142003
-  },
-  {
-   "relate": "番外篇",
-   "src": 108261,
-   "dst": 186752
-  },
-  {
-   "relate": "番外篇",
-   "src": 108261,
-   "dst": 348219
-  },
-  {
-   "relate": "前传",
-   "src": 142003,
-   "dst": 108261
-  },
-  {
-   "relate": "续集",
-   "src": 142003,
-   "dst": 153530
-  },
-  {
-   "relate": "前传",
-   "src": 153530,
-   "dst": 142003
-  },
-  {
-   "relate": "续集",
-   "src": 153530,
-   "dst": 341888
-  },
-  {
-   "relate": "主线故事",
-   "src": 186752,
-   "dst": 108261
-  },
-  {
-   "relate": "前传",
-   "src": 341888,
-   "dst": 153530
-  },
-  {
-   "relate": "主线故事",
-   "src": 348219,
-   "dst": 108261
-  }
- ]
+  "id": "108261",
+  "node": [
+    {
+      "id": 108261,
+      "name": "DEAR BOYS",
+      "nameCN": "灌篮少年",
+      "date": "1989-12-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 142003,
+      "name": "DEAR BOYS ACT II",
+      "nameCN": "灌篮少年Ⅱ",
+      "date": "1997-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 186752,
+      "name": "DEAR BOYS OVER TIME",
+      "nameCN": "灌篮少年 OVER TIME",
+      "date": "2016-02-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 348219,
+      "name": "DEAR BOYS THE EARLY DAYS",
+      "nameCN": "灌篮少年 国中篇",
+      "date": "1997-08-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 153530,
+      "name": "DEAR BOYS ACT3",
+      "nameCN": "灌篮少年 ACT3",
+      "date": "2009-06-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341888,
+      "name": "DEAR BOYS ACT4",
+      "nameCN": "灌篮少年 ACT4",
+      "date": "2019-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 108261,
+      "dst": 142003
+    },
+    {
+      "relateString": "番外篇",
+      "src": 108261,
+      "dst": 186752
+    },
+    {
+      "relateString": "番外篇",
+      "src": 108261,
+      "dst": 348219
+    },
+    {
+      "relateString": "前传",
+      "src": 142003,
+      "dst": 108261
+    },
+    {
+      "relateString": "续集",
+      "src": 142003,
+      "dst": 153530
+    },
+    {
+      "relateString": "前传",
+      "src": 153530,
+      "dst": 142003
+    },
+    {
+      "relateString": "续集",
+      "src": 153530,
+      "dst": 341888
+    },
+    {
+      "relateString": "主线故事",
+      "src": 186752,
+      "dst": 108261
+    },
+    {
+      "relateString": "前传",
+      "src": 341888,
+      "dst": 153530
+    },
+    {
+      "relateString": "主线故事",
+      "src": 348219,
+      "dst": 108261
+    }
+  ]
 }

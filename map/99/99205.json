@@ -1,37 +1,35 @@
 {
- "id": 99205,
- "node": [
-  {
-   "id": 99205,
-   "name": "教授と執事の静かな生活 (1)",
-   "nameCN": "教授与执事的恬静生活",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/e9/99205_jp.jpg",
-   "date": "2012-12-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 99206,
-   "name": "教授と執事の静かな生活 (2)",
-   "nameCN": "教授与执事的恬静生活 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/3a/99206_jp.jpg",
-   "date": "2014-03-03",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99205,
-   "dst": 99206
-  },
-  {
-   "relate": "前传",
-   "src": 99206,
-   "dst": 99205
-  }
- ]
+  "id": "99205",
+  "node": [
+    {
+      "id": 99205,
+      "name": "教授と執事の静かな生活 (1)",
+      "nameCN": "教授与执事的恬静生活",
+      "date": "2012-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 99206,
+      "name": "教授と執事の静かな生活 (2)",
+      "nameCN": "教授与执事的恬静生活 2",
+      "date": "2014-03-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99205,
+      "dst": 99206
+    },
+    {
+      "relateString": "前传",
+      "src": 99206,
+      "dst": 99205
+    }
+  ]
 }

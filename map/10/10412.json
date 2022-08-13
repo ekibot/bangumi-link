@@ -1,37 +1,35 @@
 {
- "id": 10412,
- "node": [
-  {
-   "id": 10412,
-   "name": "魔法使いTai!",
-   "nameCN": "魔法使tai",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/61/10412_DDC1T.jpg",
-   "date": "1999-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 26463,
-   "name": "魔法使いTai! OVA",
-   "nameCN": "魔法使Tai! OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/03/26463_7AfNR.jpg",
-   "date": "1996-05-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 10412,
-   "dst": 26463
-  },
-  {
-   "relate": "续集",
-   "src": 26463,
-   "dst": 10412
-  }
- ]
+  "id": "10412",
+  "node": [
+    {
+      "id": 10412,
+      "name": "魔法使いTai!",
+      "nameCN": "魔法使tai",
+      "date": "1999-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 26463,
+      "name": "魔法使いTai! OVA",
+      "nameCN": "魔法使Tai! OVA",
+      "date": "1996-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 10412,
+      "dst": 26463
+    },
+    {
+      "relateString": "续集",
+      "src": 26463,
+      "dst": 10412
+    }
+  ]
 }

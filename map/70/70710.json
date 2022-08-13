@@ -1,121 +1,116 @@
 {
- "id": 70710,
- "node": [
-  {
-   "id": 70710,
-   "name": "さよなら 海腹川背",
-   "nameCN": "再见 海腹川背",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/8f/70710_wJo43.jpg",
-   "date": "2013-06-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 80699,
-   "name": "海腹川背",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/44/80699_qO29d.jpg",
-   "date": "1994-12-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 80700,
-   "name": "海腹川背・旬",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/a1/80700_yEzYe.jpg",
-   "date": "1997-02-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 212266,
-   "name": "さよなら 海腹川背 ちらり",
-   "nameCN": "再会 海腹川背 闪",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/d8/184615_DmDX0.jpg",
-   "date": "2013-06-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259643,
-   "name": "海腹川背 Fresh!",
-   "nameCN": "海腹川背 Fresh!",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/09/259643_8ROg9.jpg",
-   "date": "2019-04-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 304740,
-   "name": "海腹川背 BaZooKa!",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/73/304740_AcRmw.jpg",
-   "date": "2020-05-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 70710,
-   "dst": 80700
-  },
-  {
-   "relate": "不同演绎",
-   "src": 70710,
-   "dst": 212266
-  },
-  {
-   "relate": "续集",
-   "src": 80699,
-   "dst": 80700
-  },
-  {
-   "relate": "续集",
-   "src": 80700,
-   "dst": 70710
-  },
-  {
-   "relate": "前传",
-   "src": 80700,
-   "dst": 80699
-  },
-  {
-   "relate": "续集",
-   "src": 80700,
-   "dst": 212266
-  },
-  {
-   "relate": "不同演绎",
-   "src": 212266,
-   "dst": 70710
-  },
-  {
-   "relate": "前传",
-   "src": 212266,
-   "dst": 80700
-  },
-  {
-   "relate": "续集",
-   "src": 212266,
-   "dst": 259643
-  },
-  {
-   "relate": "前传",
-   "src": 259643,
-   "dst": 212266
-  },
-  {
-   "relate": "主线故事",
-   "src": 304740,
-   "dst": 80699
-  }
- ]
+  "id": "70710",
+  "node": [
+    {
+      "id": 70710,
+      "name": "さよなら 海腹川背",
+      "nameCN": "再见 海腹川背",
+      "date": "2013-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 80700,
+      "name": "海腹川背・旬",
+      "nameCN": "",
+      "date": "1997-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 212266,
+      "name": "さよなら 海腹川背 ちらり",
+      "nameCN": "再会 海腹川背 闪",
+      "date": "2013-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 80699,
+      "name": "海腹川背",
+      "nameCN": "",
+      "date": "1994-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259643,
+      "name": "海腹川背 Fresh!",
+      "nameCN": "海腹川背 Fresh!",
+      "date": "2019-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 304740,
+      "name": "海腹川背 BaZooKa!",
+      "nameCN": "",
+      "date": "2020-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 70710,
+      "dst": 80700
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 70710,
+      "dst": 212266
+    },
+    {
+      "relateString": "续集",
+      "src": 80699,
+      "dst": 80700
+    },
+    {
+      "relateString": "续集",
+      "src": 80700,
+      "dst": 70710
+    },
+    {
+      "relateString": "前传",
+      "src": 80700,
+      "dst": 80699
+    },
+    {
+      "relateString": "续集",
+      "src": 80700,
+      "dst": 212266
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 212266,
+      "dst": 70710
+    },
+    {
+      "relateString": "前传",
+      "src": 212266,
+      "dst": 80700
+    },
+    {
+      "relateString": "续集",
+      "src": 212266,
+      "dst": 259643
+    },
+    {
+      "relateString": "前传",
+      "src": 259643,
+      "dst": 212266
+    },
+    {
+      "relateString": "主线故事",
+      "src": 304740,
+      "dst": 80699
+    }
+  ]
 }

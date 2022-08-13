@@ -1,45 +1,54 @@
 {
- "id": 93314,
- "node": [
-  {
-   "id": 93314,
-   "name": "看護しちゃうぞ2～女子寮は萌えているか～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2002-04-19"
-  },
-  {
-   "id": 226877,
-   "name": "看護しちゃうぞ",
-   "image": "/img/no_icon_subject.png",
-   "date": "2001-03-02"
-  },
-  {
-   "id": 226878,
-   "name": "看護しちゃうぞ3～看護婦さんは甘えんぼ～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2004-07-16"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 93314,
-   "dst": 226877
-  },
-  {
-   "relate": "续集",
-   "src": 93314,
-   "dst": 226878
-  },
-  {
-   "relate": "续集",
-   "src": 226877,
-   "dst": 93314
-  },
-  {
-   "relate": "前传",
-   "src": 226878,
-   "dst": 93314
-  }
- ]
+  "id": "93314",
+  "node": [
+    {
+      "id": 93314,
+      "name": "看護しちゃうぞ2～女子寮は萌えているか～",
+      "nameCN": "",
+      "date": "2002-04-19",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226877,
+      "name": "看護しちゃうぞ",
+      "nameCN": "",
+      "date": "2001-03-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226878,
+      "name": "看護しちゃうぞ3～看護婦さんは甘えんぼ～",
+      "nameCN": "",
+      "date": "2004-07-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 93314,
+      "dst": 226877
+    },
+    {
+      "relateString": "续集",
+      "src": 93314,
+      "dst": 226878
+    },
+    {
+      "relateString": "续集",
+      "src": 226877,
+      "dst": 93314
+    },
+    {
+      "relateString": "前传",
+      "src": 226878,
+      "dst": 93314
+    }
+  ]
 }

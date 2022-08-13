@@ -1,57 +1,53 @@
 {
- "id": 72774,
- "node": [
-  {
-   "id": 72774,
-   "name": "スーパードンキーコング",
-   "nameCN": "超级大金刚",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/5f/72774_8Zrv3.jpg",
-   "date": "1994-11-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 83125,
-   "name": "スーパードンキーコング2 ディクシー&amp;ディディー",
-   "nameCN": "超级大金刚2：迪克西和迪迪",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/5d/83125_V41f4.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 83126,
-   "name": "スーパードンキーコング3",
-   "nameCN": "超级大金刚3",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/68/83126_YYWek.jpg",
-   "date": "1996-11-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72774,
-   "dst": 83125
-  },
-  {
-   "relate": "前传",
-   "src": 83125,
-   "dst": 72774
-  },
-  {
-   "relate": "续集",
-   "src": 83125,
-   "dst": 83126
-  },
-  {
-   "relate": "前传",
-   "src": 83126,
-   "dst": 83125
-  }
- ]
+  "id": "72774",
+  "node": [
+    {
+      "id": 72774,
+      "name": "スーパードンキーコング",
+      "nameCN": "超级大金刚",
+      "date": "1994-11-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83125,
+      "name": "スーパードンキーコング2 ディクシー&amp;ディディー",
+      "nameCN": "超级大金刚2：迪克西和迪迪",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83126,
+      "name": "スーパードンキーコング3",
+      "nameCN": "超级大金刚3",
+      "date": "1996-11-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72774,
+      "dst": 83125
+    },
+    {
+      "relateString": "前传",
+      "src": 83125,
+      "dst": 72774
+    },
+    {
+      "relateString": "续集",
+      "src": 83125,
+      "dst": 83126
+    },
+    {
+      "relateString": "前传",
+      "src": 83126,
+      "dst": 83125
+    }
+  ]
 }

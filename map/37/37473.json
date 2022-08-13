@@ -1,37 +1,35 @@
 {
- "id": 37473,
- "node": [
-  {
-   "id": 37473,
-   "name": "Freelancer",
-   "nameCN": "自由枪骑兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/42/37473_DK1kZ.jpg",
-   "date": "2003-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 338707,
-   "name": "Starlancer",
-   "nameCN": "星际枪骑兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/1d/338707_me2OO.jpg",
-   "date": "2000-03-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 37473,
-   "dst": 338707
-  },
-  {
-   "relate": "续集",
-   "src": 338707,
-   "dst": 37473
-  }
- ]
+  "id": "37473",
+  "node": [
+    {
+      "id": 37473,
+      "name": "Freelancer",
+      "nameCN": "自由枪骑兵",
+      "date": "2003-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 338707,
+      "name": "Starlancer",
+      "nameCN": "星际枪骑兵",
+      "date": "2000-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 37473,
+      "dst": 338707
+    },
+    {
+      "relateString": "续集",
+      "src": 338707,
+      "dst": 37473
+    }
+  ]
 }

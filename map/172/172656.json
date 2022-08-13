@@ -1,37 +1,34 @@
 {
- "id": 172656,
- "node": [
-  {
-   "id": 172656,
-   "name": "四年生",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/f2/172656_q539R.jpg",
-   "date": "1998-05-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 310826,
-   "name": "五年生",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/c2/310826_ain9q.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 172656,
-   "dst": 310826
-  },
-  {
-   "relate": "前传",
-   "src": 310826,
-   "dst": 172656
-  }
- ]
+  "id": "172656",
+  "node": [
+    {
+      "id": 172656,
+      "name": "四年生",
+      "nameCN": "",
+      "date": "1998-05-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 310826,
+      "name": "五年生",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 172656,
+      "dst": 310826
+    },
+    {
+      "relateString": "前传",
+      "src": 310826,
+      "dst": 172656
+    }
+  ]
 }

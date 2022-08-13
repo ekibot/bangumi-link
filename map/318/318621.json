@@ -1,77 +1,73 @@
 {
- "id": 318621,
- "node": [
-  {
-   "id": 318621,
-   "name": "魔王難為Ⅰ",
-   "nameCN": "魔王难为Ⅰ",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/69/318621_R4mWe.jpg",
-   "date": "2015-08-07",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 318633,
-   "name": "魔王難為Ⅱ",
-   "nameCN": "魔王难为Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/83/318633_8g233.jpg",
-   "date": "2017-04-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 318643,
-   "name": "魔王難為Ⅲ",
-   "nameCN": "魔王难为Ⅲ",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/12/318643_l2DY7.jpg",
-   "date": "2015-08-07",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 318644,
-   "name": "魔王難為Ⅳ",
-   "nameCN": "魔王难为Ⅳ",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/7d/318644_K4J93.jpg",
-   "date": "2017-03-31",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 318621,
-   "dst": 318633
-  },
-  {
-   "relate": "前传",
-   "src": 318633,
-   "dst": 318621
-  },
-  {
-   "relate": "续集",
-   "src": 318633,
-   "dst": 318643
-  },
-  {
-   "relate": "前传",
-   "src": 318643,
-   "dst": 318633
-  },
-  {
-   "relate": "续集",
-   "src": 318643,
-   "dst": 318644
-  },
-  {
-   "relate": "前传",
-   "src": 318644,
-   "dst": 318643
-  }
- ]
+  "id": "318621",
+  "node": [
+    {
+      "id": 318621,
+      "name": "魔王難為Ⅰ",
+      "nameCN": "魔王难为Ⅰ",
+      "date": "2015-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 318633,
+      "name": "魔王難為Ⅱ",
+      "nameCN": "魔王难为Ⅱ",
+      "date": "2017-04-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 318643,
+      "name": "魔王難為Ⅲ",
+      "nameCN": "魔王难为Ⅲ",
+      "date": "2015-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 318644,
+      "name": "魔王難為Ⅳ",
+      "nameCN": "魔王难为Ⅳ",
+      "date": "2017-03-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 318621,
+      "dst": 318633
+    },
+    {
+      "relateString": "前传",
+      "src": 318633,
+      "dst": 318621
+    },
+    {
+      "relateString": "续集",
+      "src": 318633,
+      "dst": 318643
+    },
+    {
+      "relateString": "前传",
+      "src": 318643,
+      "dst": 318633
+    },
+    {
+      "relateString": "续集",
+      "src": 318643,
+      "dst": 318644
+    },
+    {
+      "relateString": "前传",
+      "src": 318644,
+      "dst": 318643
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 208388,
- "node": [
-  {
-   "id": 208388,
-   "name": "まじかりて！",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/04/208388_4OxXe.jpg",
-   "date": "2013-12-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256151,
-   "name": "まじかりて！ -Final Stage-",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 208388,
-   "dst": 256151
-  },
-  {
-   "relate": "前传",
-   "src": 256151,
-   "dst": 208388
-  }
- ]
+  "id": "208388",
+  "node": [
+    {
+      "id": 208388,
+      "name": "まじかりて！",
+      "nameCN": "",
+      "date": "2013-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256151,
+      "name": "まじかりて！ -Final Stage-",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 208388,
+      "dst": 256151
+    },
+    {
+      "relateString": "前传",
+      "src": 256151,
+      "dst": 208388
+    }
+  ]
 }

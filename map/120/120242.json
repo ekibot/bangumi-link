@@ -1,37 +1,34 @@
 {
- "id": 120242,
- "node": [
-  {
-   "id": 120242,
-   "name": "はなちゃんのみそ汁",
-   "nameCN": "小花的味噌汤",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/a6/120242_548Bl.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 120243,
-   "name": "はなちゃんのみそ汁",
-   "nameCN": "小花的味噌汤",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/31/120243_00X6K.jpg",
-   "date": "2014-08-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 120242,
-   "dst": 120243
-  },
-  {
-   "relate": "不同演绎",
-   "src": 120243,
-   "dst": 120242
-  }
- ]
+  "id": "120242",
+  "node": [
+    {
+      "id": 120242,
+      "name": "はなちゃんのみそ汁",
+      "nameCN": "小花的味噌汤",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 120243,
+      "name": "はなちゃんのみそ汁",
+      "nameCN": "小花的味噌汤",
+      "date": "2014-08-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 120242,
+      "dst": 120243
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 120243,
+      "dst": 120242
+    }
+  ]
 }

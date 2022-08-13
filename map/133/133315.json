@@ -1,37 +1,33 @@
 {
- "id": 133315,
- "node": [
-  {
-   "id": 133315,
-   "name": "インセクツ",
-   "nameCN": "昆虫末日",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/ca/133315_zqZ9y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 144907,
-   "name": "インセクツR",
-   "nameCN": "昆虫末日R",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/41/144907_yMWwq.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 133315,
-   "dst": 144907
-  },
-  {
-   "relate": "前传",
-   "src": 144907,
-   "dst": 133315
-  }
- ]
+  "id": "133315",
+  "node": [
+    {
+      "id": 133315,
+      "name": "インセクツ",
+      "nameCN": "昆虫末日",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144907,
+      "name": "インセクツR",
+      "nameCN": "昆虫末日R",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 133315,
+      "dst": 144907
+    },
+    {
+      "relateString": "前传",
+      "src": 144907,
+      "dst": 133315
+    }
+  ]
 }

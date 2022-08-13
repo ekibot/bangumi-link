@@ -1,57 +1,53 @@
 {
- "id": 4194,
- "node": [
-  {
-   "id": 4194,
-   "name": "MASTERキートン",
-   "nameCN": "危险调查员",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/29/4194_8e5F9.jpg",
-   "date": "1996-07-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56493,
-   "name": "キートン動物記 - MASTERキートン/番外編",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/8f/56493_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 56494,
-   "name": "MASTERキートン Reマスター",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/0d/56494_Fkxiy.jpg",
-   "date": "2014-11-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 4194,
-   "dst": 56493
-  },
-  {
-   "relate": "续集",
-   "src": 4194,
-   "dst": 56494
-  },
-  {
-   "relate": "主线故事",
-   "src": 56493,
-   "dst": 4194
-  },
-  {
-   "relate": "前传",
-   "src": 56494,
-   "dst": 4194
-  }
- ]
+  "id": "4194",
+  "node": [
+    {
+      "id": 4194,
+      "name": "MASTERキートン",
+      "nameCN": "危险调查员",
+      "date": "1996-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56493,
+      "name": "キートン動物記 - MASTERキートン/番外編",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56494,
+      "name": "MASTERキートン Reマスター",
+      "nameCN": "",
+      "date": "2014-11-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 4194,
+      "dst": 56493
+    },
+    {
+      "relateString": "续集",
+      "src": 4194,
+      "dst": 56494
+    },
+    {
+      "relateString": "主线故事",
+      "src": 56493,
+      "dst": 4194
+    },
+    {
+      "relateString": "前传",
+      "src": 56494,
+      "dst": 4194
+    }
+  ]
 }

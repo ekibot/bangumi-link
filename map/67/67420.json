@@ -1,0 +1,54 @@
+{
+  "id": "67420",
+  "node": [
+    {
+      "id": 67420,
+      "name": "魔界天使ジブリール",
+      "nameCN": "魔界天使 第一季",
+      "date": "2004-11-26",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 67424,
+      "name": "魔界天使ジブリール episode2",
+      "nameCN": "魔界天使 第二季",
+      "date": "2007-05-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 67425,
+      "name": "魔界天使ジブリール3",
+      "nameCN": "魔界天使 第三季",
+      "date": "2009-09-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67420,
+      "dst": 67424
+    },
+    {
+      "relateString": "前传",
+      "src": 67424,
+      "dst": 67420
+    },
+    {
+      "relateString": "续集",
+      "src": 67424,
+      "dst": 67425
+    },
+    {
+      "relateString": "前传",
+      "src": 67425,
+      "dst": 67424
+    }
+  ]
+}

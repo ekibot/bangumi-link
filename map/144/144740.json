@@ -1,37 +1,34 @@
 {
- "id": 144740,
- "node": [
-  {
-   "id": 144740,
-   "name": "SHIROBAKO ミニファンブック",
-   "nameCN": "SHIROBAKO Mini Fanbook",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/79/144740_Ny9F1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 312746,
-   "name": "SHIROBAKO ミニファンブック2",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/ca/312746_K91TB.jpg",
-   "date": "2015-05-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144740,
-   "dst": 312746
-  },
-  {
-   "relate": "前传",
-   "src": 312746,
-   "dst": 144740
-  }
- ]
+  "id": "144740",
+  "node": [
+    {
+      "id": 144740,
+      "name": "SHIROBAKO ミニファンブック",
+      "nameCN": "SHIROBAKO Mini Fanbook",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 312746,
+      "name": "SHIROBAKO ミニファンブック2",
+      "nameCN": "",
+      "date": "2015-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144740,
+      "dst": 312746
+    },
+    {
+      "relateString": "前传",
+      "src": 312746,
+      "dst": 144740
+    }
+  ]
 }

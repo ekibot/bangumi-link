@@ -1,37 +1,35 @@
 {
- "id": 10440,
- "node": [
-  {
-   "id": 10440,
-   "name": "あの日見た花の名前を僕達はまだ知らない。",
-   "nameCN": "我们仍未知道那天所看见的花的名字。",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/e8/10440_8HP6O.jpg",
-   "date": "2011-04-14",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 46213,
-   "name": "劇場版 あの日見た花の名前を僕達はまだ知らない。",
-   "nameCN": "剧场版 我们仍未知道那天所看见的花的名字。",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/3a/46213_bVqun.jpg",
-   "date": "2013-08-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 10440,
-   "dst": 46213
-  },
-  {
-   "relate": "全集",
-   "src": 46213,
-   "dst": 10440
-  }
- ]
+  "id": "10440",
+  "node": [
+    {
+      "id": 10440,
+      "name": "あの日見た花の名前を僕達はまだ知らない。",
+      "nameCN": "我们仍未知道那天所看见的花的名字。",
+      "date": "2011-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 46213,
+      "name": "劇場版 あの日見た花の名前を僕達はまだ知らない。",
+      "nameCN": "剧场版 我们仍未知道那天所看见的花的名字。",
+      "date": "2013-08-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 10440,
+      "dst": 46213
+    },
+    {
+      "relateString": "全集",
+      "src": 46213,
+      "dst": 10440
+    }
+  ]
 }

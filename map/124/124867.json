@@ -1,37 +1,35 @@
 {
- "id": 124867,
- "node": [
-  {
-   "id": 124867,
-   "name": "戇夫成龍",
-   "nameCN": "戆夫成龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/09/124867_mDMLw.jpg",
-   "date": "2002-12-30",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 125040,
-   "name": "阿旺新傳",
-   "nameCN": "阿旺新传",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/89/125040_7KMj6.jpg",
-   "date": "2005-10-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 124867,
-   "dst": 125040
-  },
-  {
-   "relate": "衍生",
-   "src": 125040,
-   "dst": 124867
-  }
- ]
+  "id": "124867",
+  "node": [
+    {
+      "id": 124867,
+      "name": "戇夫成龍",
+      "nameCN": "戆夫成龙",
+      "date": "2002-12-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125040,
+      "name": "阿旺新傳",
+      "nameCN": "阿旺新传",
+      "date": "2005-10-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 124867,
+      "dst": 125040
+    },
+    {
+      "relateString": "衍生",
+      "src": 125040,
+      "dst": 124867
+    }
+  ]
 }

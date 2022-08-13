@@ -1,51 +1,49 @@
 {
- "id": 241860,
- "node": [
-  {
-   "id": 241860,
-   "name": "SWAT 4",
-   "nameCN": "霹雳小组4",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/a1/242213_zkskb.jpg",
-   "date": "2005-04-05",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 242551,
-   "name": "SWAT 3: Close Quarters Battle",
-   "nameCN": "霹雳小组3：近距离作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/b8/242551_CWjwx.jpg",
-   "date": "1999-11-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 242782,
-   "name": "SWAT 4: The Stetchkov Syndicate",
-   "nameCN": "霹雳小组4：斯氏集团",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/49/242782_Ws7X7.jpg",
-   "date": "2006-02-28",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 241860,
-   "dst": 242551
-  },
-  {
-   "relate": "续集",
-   "src": 242551,
-   "dst": 241860
-  },
-  {
-   "relate": "主线故事",
-   "src": 242782,
-   "dst": 241860
-  }
- ]
+  "id": "241860",
+  "node": [
+    {
+      "id": 241860,
+      "name": "SWAT 4",
+      "nameCN": "霹雳小组4",
+      "date": "2005-04-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242551,
+      "name": "SWAT 3: Close Quarters Battle",
+      "nameCN": "霹雳小组3：近距离作战",
+      "date": "1999-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242782,
+      "name": "SWAT 4: The Stetchkov Syndicate",
+      "nameCN": "霹雳小组4：斯氏集团",
+      "date": "2006-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 241860,
+      "dst": 242551
+    },
+    {
+      "relateString": "续集",
+      "src": 242551,
+      "dst": 241860
+    },
+    {
+      "relateString": "主线故事",
+      "src": 242782,
+      "dst": 241860
+    }
+  ]
 }

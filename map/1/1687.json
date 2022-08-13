@@ -1,37 +1,34 @@
 {
- "id": 1687,
- "node": [
-  {
-   "id": 1687,
-   "name": "バクマン。",
-   "nameCN": "爆漫王",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/ea/1687_Nm1F2.jpg",
-   "date": "2009-01-05",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287100,
-   "name": "バクマン。 age13、14",
-   "nameCN": "食梦者 age13、14",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/ed/287100_ddAAe.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1687,
-   "dst": 287100
-  },
-  {
-   "relate": "续集",
-   "src": 287100,
-   "dst": 1687
-  }
- ]
+  "id": "1687",
+  "node": [
+    {
+      "id": 1687,
+      "name": "バクマン。",
+      "nameCN": "爆漫王",
+      "date": "2009-01-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287100,
+      "name": "バクマン。 age13、14",
+      "nameCN": "食梦者 age13、14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 1687,
+      "dst": 287100
+    },
+    {
+      "relateString": "主线故事",
+      "src": 287100,
+      "dst": 1687
+    }
+  ]
 }

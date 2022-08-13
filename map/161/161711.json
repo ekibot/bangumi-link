@@ -1,51 +1,49 @@
 {
- "id": 161711,
- "node": [
-  {
-   "id": 161711,
-   "name": "Cuphead",
-   "nameCN": "茶杯头大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/7b/161711_IFBDf.jpg",
-   "date": "2017-09-29",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 286186,
-   "name": "The Cuphead Show!",
-   "nameCN": "茶杯头大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/04/286186_Kjt11.jpg",
-   "type": 2,
-   "date": "2022-02-18",
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 386950,
-   "name": "The Cuphead Show! Season 2",
-   "nameCN": "茶杯头大冒险 第二季",
-   "image": "",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 161711,
-   "dst": 286186
-  },
-  {
-   "relate": "续集",
-   "src": 286186,
-   "dst": 386950
-  },
-  {
-   "relate": "前传",
-   "src": 386950,
-   "dst": 286186
-  }
- ]
+  "id": "161711",
+  "node": [
+    {
+      "id": 161711,
+      "name": "Cuphead",
+      "nameCN": "茶杯头大冒险",
+      "date": "2017-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 286186,
+      "name": "The Cuphead Show!",
+      "nameCN": "茶杯头大冒险",
+      "date": "2022-02-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 386950,
+      "name": "The Cuphead Show! Season 2",
+      "nameCN": "茶杯头大冒险 第二季",
+      "date": "2022-08-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 161711,
+      "dst": 286186
+    },
+    {
+      "relateString": "续集",
+      "src": 286186,
+      "dst": 386950
+    },
+    {
+      "relateString": "前传",
+      "src": 386950,
+      "dst": 286186
+    }
+  ]
 }

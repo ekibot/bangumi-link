@@ -1,37 +1,35 @@
 {
- "id": 80841,
- "node": [
-  {
-   "id": 80841,
-   "name": "NITRO+ROYALE -HEROINES DUEL-",
-   "nameCN": "NITRO+明星大乱斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/31/80841_kLQwc.jpg",
-   "date": "2007-08-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 135999,
-   "name": "NiTRO+ BLASTERZ",
-   "nameCN": "Nitro+女主角梦幻格斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/95/135999_52FrS.jpg",
-   "date": "2015-12-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 80841,
-   "dst": 135999
-  },
-  {
-   "relate": "前传",
-   "src": 135999,
-   "dst": 80841
-  }
- ]
+  "id": "80841",
+  "node": [
+    {
+      "id": 80841,
+      "name": "NITRO+ROYALE -HEROINES DUEL-",
+      "nameCN": "NITRO+明星大乱斗",
+      "date": "2007-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 135999,
+      "name": "NiTRO+ BLASTERZ",
+      "nameCN": "Nitro+女主角梦幻格斗",
+      "date": "2015-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 80841,
+      "dst": 135999
+    },
+    {
+      "relateString": "前传",
+      "src": 135999,
+      "dst": 80841
+    }
+  ]
 }

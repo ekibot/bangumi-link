@@ -1,97 +1,92 @@
 {
- "id": 20004,
- "node": [
-  {
-   "id": 20004,
-   "name": "Lost Girl Season 1",
-   "nameCN": "妖女迷行 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/8c/20004_40ePE.jpg",
-   "date": "2010-09-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 23171,
-   "name": "Lost Girl Season 2",
-   "nameCN": "妖女迷行 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/e5/23171_h3h73.jpg",
-   "date": "2011-09-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97929,
-   "name": "Lost Girl Season 3",
-   "nameCN": "妖女迷行 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/87/97929_1TjqD.jpg",
-   "date": "2013-01-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97930,
-   "name": "Lost Girl Season 4",
-   "nameCN": "妖女迷行 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/6d/97930_sm7Ez.jpg",
-   "date": "2013-11-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 131499,
-   "name": "Lost Girl Season 5",
-   "nameCN": "妖女迷行 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/f5/131499_88PIP.jpg",
-   "date": "2014-12-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20004,
-   "dst": 23171
-  },
-  {
-   "relate": "前传",
-   "src": 23171,
-   "dst": 20004
-  },
-  {
-   "relate": "续集",
-   "src": 23171,
-   "dst": 97929
-  },
-  {
-   "relate": "前传",
-   "src": 97929,
-   "dst": 23171
-  },
-  {
-   "relate": "续集",
-   "src": 97929,
-   "dst": 97930
-  },
-  {
-   "relate": "前传",
-   "src": 97930,
-   "dst": 97929
-  },
-  {
-   "relate": "续集",
-   "src": 97930,
-   "dst": 131499
-  },
-  {
-   "relate": "前传",
-   "src": 131499,
-   "dst": 97930
-  }
- ]
+  "id": "20004",
+  "node": [
+    {
+      "id": 20004,
+      "name": "Lost Girl Season 1",
+      "nameCN": "妖女迷行 第一季",
+      "date": "2010-09-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 23171,
+      "name": "Lost Girl Season 2",
+      "nameCN": "妖女迷行 第二季",
+      "date": "2011-09-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97929,
+      "name": "Lost Girl Season 3",
+      "nameCN": "妖女迷行 第三季",
+      "date": "2013-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97930,
+      "name": "Lost Girl Season 4",
+      "nameCN": "妖女迷行 第四季",
+      "date": "2013-11-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 131499,
+      "name": "Lost Girl Season 5",
+      "nameCN": "妖女迷行 第五季",
+      "date": "2014-12-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20004,
+      "dst": 23171
+    },
+    {
+      "relateString": "前传",
+      "src": 23171,
+      "dst": 20004
+    },
+    {
+      "relateString": "续集",
+      "src": 23171,
+      "dst": 97929
+    },
+    {
+      "relateString": "前传",
+      "src": 97929,
+      "dst": 23171
+    },
+    {
+      "relateString": "续集",
+      "src": 97929,
+      "dst": 97930
+    },
+    {
+      "relateString": "前传",
+      "src": 97930,
+      "dst": 97929
+    },
+    {
+      "relateString": "续集",
+      "src": 97930,
+      "dst": 131499
+    },
+    {
+      "relateString": "前传",
+      "src": 131499,
+      "dst": 97930
+    }
+  ]
 }

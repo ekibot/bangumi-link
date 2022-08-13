@@ -1,49 +1,34 @@
 {
- "id": 222386,
- "node": [
-  {
-   "id": 106189,
-   "name": "アプローズ —喝采—",
-   "nameCN": "喝彩",
-   "image": "//lain.bgm.tv/pic/cover/m/d3/13/106189_Lb971.jpg",
-   "date": null
-  },
-  {
-   "id": 222386,
-   "name": "ブルージュ ——アプローズ——",
-   "nameCN": "喝彩",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/29/222386_n5YAh.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 372351,
-   "name": "アプローズ ——喝采——",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/63/372351_9tzH4.jpg",
-   "date": "1997-09-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 106189,
-   "dst": 222386
-  },
-  {
-   "relate": "主线故事",
-   "src": 222386,
-   "dst": 372351
-  },
-  {
-   "relate": "番外篇",
-   "src": 372351,
-   "dst": 222386
-  }
- ]
+  "id": "222386",
+  "node": [
+    {
+      "id": 222386,
+      "name": "ブルージュ ——アプローズ——",
+      "nameCN": "喝彩",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 372351,
+      "name": "アプローズ ——喝采——",
+      "nameCN": "",
+      "date": "1997-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 222386,
+      "dst": 372351
+    },
+    {
+      "relateString": "番外篇",
+      "src": 372351,
+      "dst": 222386
+    }
+  ]
 }

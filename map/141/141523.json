@@ -1,37 +1,35 @@
 {
- "id": 141523,
- "node": [
-  {
-   "id": 141523,
-   "name": "院内感染",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/53/141523_jp.jpg",
-   "date": "2007-05-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 141524,
-   "name": "主治医",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/01/141524_jp.jpg",
-   "date": "2008-05-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 141523,
-   "dst": 141524
-  },
-  {
-   "relate": "前传",
-   "src": 141524,
-   "dst": 141523
-  }
- ]
+  "id": "141523",
+  "node": [
+    {
+      "id": 141523,
+      "name": "院内感染",
+      "nameCN": "",
+      "date": "2007-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 141524,
+      "name": "主治医",
+      "nameCN": "",
+      "date": "2008-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 141523,
+      "dst": 141524
+    },
+    {
+      "relateString": "前传",
+      "src": 141524,
+      "dst": 141523
+    }
+  ]
 }

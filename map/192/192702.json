@@ -1,37 +1,35 @@
 {
- "id": 192702,
- "node": [
-  {
-   "id": 192702,
-   "name": "Recall",
-   "nameCN": "守望先锋：归来",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/26/192702_VQxS2.jpg",
-   "date": "2016-03-23",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 302036,
-   "name": "Zero Hour",
-   "nameCN": "守望先锋2：零点时刻",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/b6/302036_0GGJg.jpg",
-   "date": "2019-11-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192702,
-   "dst": 302036
-  },
-  {
-   "relate": "前传",
-   "src": 302036,
-   "dst": 192702
-  }
- ]
+  "id": "192702",
+  "node": [
+    {
+      "id": 192702,
+      "name": "Recall",
+      "nameCN": "守望先锋：归来",
+      "date": "2016-03-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 302036,
+      "name": "Zero Hour",
+      "nameCN": "守望先锋2：零点时刻",
+      "date": "2019-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192702,
+      "dst": 302036
+    },
+    {
+      "relateString": "前传",
+      "src": 302036,
+      "dst": 192702
+    }
+  ]
 }

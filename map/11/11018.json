@@ -1,97 +1,92 @@
 {
- "id": 11018,
- "node": [
-  {
-   "id": 11018,
-   "name": "パンドラ",
-   "nameCN": "潘多拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/8a/11018_6qtsh.jpg",
-   "date": "2008-04-06",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 11019,
-   "name": "パンドラII 飢餓列島",
-   "nameCN": "潘多拉2饥饿列岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/fd/11019_q4Z2q.jpg",
-   "date": "2010-04-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 24720,
-   "name": "パンドラIII 革命前夜",
-   "nameCN": "潘朵拉III 革命前夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/11/24720_8z8T5.jpg",
-   "date": "2011-10-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 103619,
-   "name": "パンドラ～永遠の命～",
-   "nameCN": "潘多拉～永恒的生命～",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/bf/103619_qDK7b.jpg",
-   "date": "2014-04-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 258790,
-   "name": "パンドラIV～AI戦争～",
-   "nameCN": "潘多拉IV～AI战争～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/eb/258790_z3dKC.jpg",
-   "date": "2018-11-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11018,
-   "dst": 11019
-  },
-  {
-   "relate": "前传",
-   "src": 11019,
-   "dst": 11018
-  },
-  {
-   "relate": "续集",
-   "src": 11019,
-   "dst": 24720
-  },
-  {
-   "relate": "前传",
-   "src": 24720,
-   "dst": 11019
-  },
-  {
-   "relate": "续集",
-   "src": 24720,
-   "dst": 103619
-  },
-  {
-   "relate": "前传",
-   "src": 103619,
-   "dst": 24720
-  },
-  {
-   "relate": "续集",
-   "src": 103619,
-   "dst": 258790
-  },
-  {
-   "relate": "前传",
-   "src": 258790,
-   "dst": 103619
-  }
- ]
+  "id": "11018",
+  "node": [
+    {
+      "id": 11018,
+      "name": "パンドラ",
+      "nameCN": "潘多拉",
+      "date": "2008-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 11019,
+      "name": "パンドラII 飢餓列島",
+      "nameCN": "潘多拉2饥饿列岛",
+      "date": "2010-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 24720,
+      "name": "パンドラIII 革命前夜",
+      "nameCN": "潘朵拉III 革命前夜",
+      "date": "2011-10-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 103619,
+      "name": "パンドラ～永遠の命～",
+      "nameCN": "潘多拉～永恒的生命～",
+      "date": "2014-04-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 258790,
+      "name": "パンドラIV～AI戦争～",
+      "nameCN": "潘多拉IV～AI战争～",
+      "date": "2018-11-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11018,
+      "dst": 11019
+    },
+    {
+      "relateString": "前传",
+      "src": 11019,
+      "dst": 11018
+    },
+    {
+      "relateString": "续集",
+      "src": 11019,
+      "dst": 24720
+    },
+    {
+      "relateString": "前传",
+      "src": 24720,
+      "dst": 11019
+    },
+    {
+      "relateString": "续集",
+      "src": 24720,
+      "dst": 103619
+    },
+    {
+      "relateString": "前传",
+      "src": 103619,
+      "dst": 24720
+    },
+    {
+      "relateString": "续集",
+      "src": 103619,
+      "dst": 258790
+    },
+    {
+      "relateString": "前传",
+      "src": 258790,
+      "dst": 103619
+    }
+  ]
 }

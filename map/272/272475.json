@@ -1,37 +1,35 @@
 {
- "id": 272475,
- "node": [
-  {
-   "id": 272475,
-   "name": "Fairy gone フェアリーゴーン",
-   "nameCN": "Fairy gone",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/23/272475_k60P6.jpg",
-   "date": "2019-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 283053,
-   "name": "Fairy gone フェアリーゴーン2",
-   "nameCN": "Fairy gone 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/c3/283053_fFiKt.jpg",
-   "date": "2019-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272475,
-   "dst": 283053
-  },
-  {
-   "relate": "前传",
-   "src": 283053,
-   "dst": 272475
-  }
- ]
+  "id": "272475",
+  "node": [
+    {
+      "id": 272475,
+      "name": "Fairy gone フェアリーゴーン",
+      "nameCN": "Fairy gone",
+      "date": "2019-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 283053,
+      "name": "Fairy gone フェアリーゴーン2",
+      "nameCN": "Fairy gone 2",
+      "date": "2019-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272475,
+      "dst": 283053
+    },
+    {
+      "relateString": "前传",
+      "src": 283053,
+      "dst": 272475
+    }
+  ]
 }

@@ -1,118 +1,133 @@
 {
- "id": 143067,
- "node": [
-  {
-   "id": 143067,
-   "name": "パラレルワールド・インザドリィム",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/c0/143067_v64P4.jpg",
-   "date": "2014-08-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 143071,
-   "name": "メランコリック・ドリィムタワー",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/1b/143071_Ndl9Y.jpg",
-   "date": "2011-08-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 202187,
-   "name": "六月の毒",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/a8/202187_v83B8.jpg",
-   "date": "2016-06-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 202188,
-   "name": "スプリング・メロウ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/e9/202188_MFdNf.jpg",
-   "date": "2012-06-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 202189,
-   "name": "Hit＆Blow for mdt",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/ed/202189_J11WJ.jpg",
-   "date": "2013-09-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 202192,
-   "name": "メランコリック・ドリィムツアー",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/c5/202192_9B49s.jpg",
-   "date": "2012-04-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 365447,
-   "name": "Takahiro_com",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/23/365447_teE88.jpg",
-   "date": "2021-06-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 143067,
-   "dst": 143071
-  },
-  {
-   "relate": "续集",
-   "src": 143071,
-   "dst": 143067
-  },
-  {
-   "relate": "续集",
-   "src": 143071,
-   "dst": 202188
-  },
-  {
-   "relate": "主线故事",
-   "src": 202187,
-   "dst": 143067
-  },
-  {
-   "relate": "前传",
-   "src": 202188,
-   "dst": 143071
-  },
-  {
-   "relate": "主线故事",
-   "src": 202189,
-   "dst": 143071
-  },
-  {
-   "relate": "主线故事",
-   "src": 202192,
-   "dst": 143071
-  },
-  {
-   "relate": "主线故事",
-   "src": 365447,
-   "dst": 143067
-  },
-  {
-   "relate": "主线故事",
-   "src": 365447,
-   "dst": 143071
-  }
- ]
+  "id": "143067",
+  "node": [
+    {
+      "id": 143067,
+      "name": "パラレルワールド・インザドリィム",
+      "nameCN": "",
+      "date": "2014-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 143071,
+      "name": "メランコリック・ドリィムタワー",
+      "nameCN": "",
+      "date": "2011-08-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202188,
+      "name": "スプリング・メロウ",
+      "nameCN": "",
+      "date": "2012-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202187,
+      "name": "六月の毒",
+      "nameCN": "",
+      "date": "2016-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202189,
+      "name": "Hit＆Blow for mdt",
+      "nameCN": "",
+      "date": "2013-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202192,
+      "name": "メランコリック・ドリィムツアー",
+      "nameCN": "",
+      "date": "2012-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 365447,
+      "name": "Takahiro_com",
+      "nameCN": "",
+      "date": "2021-06-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 380629,
+      "name": "トリップ＊トラップ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 143067,
+      "dst": 143071
+    },
+    {
+      "relateString": "续集",
+      "src": 143071,
+      "dst": 143067
+    },
+    {
+      "relateString": "续集",
+      "src": 143071,
+      "dst": 202188
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202187,
+      "dst": 143067
+    },
+    {
+      "relateString": "前传",
+      "src": 202188,
+      "dst": 143071
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202189,
+      "dst": 143071
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202192,
+      "dst": 143071
+    },
+    {
+      "relateString": "主线故事",
+      "src": 365447,
+      "dst": 143067
+    },
+    {
+      "relateString": "主线故事",
+      "src": 365447,
+      "dst": 143071
+    },
+    {
+      "relateString": "主线故事",
+      "src": 380629,
+      "dst": 143067
+    },
+    {
+      "relateString": "主线故事",
+      "src": 380629,
+      "dst": 143071
+    }
+  ]
 }

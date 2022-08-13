@@ -1,77 +1,72 @@
 {
- "id": 269350,
- "node": [
-  {
-   "id": 269350,
-   "name": "The Grinch",
-   "nameCN": "绿毛怪格林奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/ac/269350_8bNnp.jpg",
-   "date": "2018-11-09",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 285448,
-   "name": "Yellow is the New Black",
-   "nameCN": "小黄人越狱计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/e4/285448_X2q97.jpg",
-   "date": "2018-11-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 286149,
-   "name": "Santa's Little Helpers",
-   "nameCN": "圣诞老人的小帮手",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/6a/286149_cer2z.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 305801,
-   "name": "How the Grinch Stole Christmas",
-   "nameCN": "格林奇是如何偷走圣诞节的",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/a2/305801_na8a1.jpg",
-   "date": "1966-12-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 269350,
-   "dst": 285448
-  },
-  {
-   "relate": "衍生",
-   "src": 269350,
-   "dst": 286149
-  },
-  {
-   "relate": "不同演绎",
-   "src": 269350,
-   "dst": 305801
-  },
-  {
-   "relate": "主线故事",
-   "src": 285448,
-   "dst": 269350
-  },
-  {
-   "relate": "主线故事",
-   "src": 286149,
-   "dst": 269350
-  },
-  {
-   "relate": "不同演绎",
-   "src": 305801,
-   "dst": 269350
-  }
- ]
+  "id": "269350",
+  "node": [
+    {
+      "id": 269350,
+      "name": "The Grinch",
+      "nameCN": "绿毛怪格林奇",
+      "date": "2018-11-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 285448,
+      "name": "Yellow is the New Black",
+      "nameCN": "小黄人越狱计划",
+      "date": "2018-11-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 286149,
+      "name": "Santa's Little Helpers",
+      "nameCN": "圣诞老人的小帮手",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 305801,
+      "name": "How the Grinch Stole Christmas",
+      "nameCN": "格林奇是如何偷走圣诞节的",
+      "date": "1966-12-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 269350,
+      "dst": 285448
+    },
+    {
+      "relateString": "衍生",
+      "src": 269350,
+      "dst": 286149
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 269350,
+      "dst": 305801
+    },
+    {
+      "relateString": "主线故事",
+      "src": 285448,
+      "dst": 269350
+    },
+    {
+      "relateString": "主线故事",
+      "src": 286149,
+      "dst": 269350
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 305801,
+      "dst": 269350
+    }
+  ]
 }

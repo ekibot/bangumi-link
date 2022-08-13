@@ -1,37 +1,35 @@
 {
- "id": 263905,
- "node": [
-  {
-   "id": 263905,
-   "name": "声優と夜あそび",
-   "nameCN": "与声优一起夜间游玩",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/9a/263905_bxYbz.jpg",
-   "date": "2018-04-02",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 310365,
-   "name": "声優と夜あそび2020",
-   "nameCN": "与声优一起夜间游玩 2020",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/d8/310365_FQlml.jpg",
-   "date": "2020-04-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263905,
-   "dst": 310365
-  },
-  {
-   "relate": "前传",
-   "src": 310365,
-   "dst": 263905
-  }
- ]
+  "id": "263905",
+  "node": [
+    {
+      "id": 263905,
+      "name": "声優と夜あそび",
+      "nameCN": "与声优一起夜间游玩",
+      "date": "2018-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 310365,
+      "name": "声優と夜あそび2020",
+      "nameCN": "与声优一起夜间游玩 2020",
+      "date": "2020-04-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263905,
+      "dst": 310365
+    },
+    {
+      "relateString": "前传",
+      "src": 310365,
+      "dst": 263905
+    }
+  ]
 }

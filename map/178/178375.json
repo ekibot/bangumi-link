@@ -1,37 +1,35 @@
 {
- "id": 178375,
- "node": [
-  {
-   "id": 178375,
-   "name": "画江湖之不良人",
-   "nameCN": "画江湖之不良人",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/ab/178375_459a4.jpg",
-   "date": "2016-09-21",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 306064,
-   "name": "画江湖之不良人2",
-   "nameCN": "画江湖之不良人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/ca/306064_3YAZ2.jpg",
-   "date": "2016-12-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 178375,
-   "dst": 306064
-  },
-  {
-   "relate": "前传",
-   "src": 306064,
-   "dst": 178375
-  }
- ]
+  "id": "178375",
+  "node": [
+    {
+      "id": 178375,
+      "name": "画江湖之不良人",
+      "nameCN": "画江湖之不良人",
+      "date": "2016-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 306064,
+      "name": "画江湖之不良人2",
+      "nameCN": "画江湖之不良人 第二季",
+      "date": "2016-12-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 178375,
+      "dst": 306064
+    },
+    {
+      "relateString": "前传",
+      "src": 306064,
+      "dst": 178375
+    }
+  ]
 }

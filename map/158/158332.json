@@ -1,37 +1,35 @@
 {
- "id": 158332,
- "node": [
-  {
-   "id": 158332,
-   "name": "欢乐颂",
-   "nameCN": "欢乐颂",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/dd/158332_11R18.jpg",
-   "date": "2016-04-18",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 213033,
-   "name": "欢乐颂2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/45/213033_YgbBy.jpg",
-   "date": "2017-05-11",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158332,
-   "dst": 213033
-  },
-  {
-   "relate": "前传",
-   "src": 213033,
-   "dst": 158332
-  }
- ]
+  "id": "158332",
+  "node": [
+    {
+      "id": 158332,
+      "name": "欢乐颂",
+      "nameCN": "欢乐颂",
+      "date": "2016-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 213033,
+      "name": "欢乐颂2",
+      "nameCN": "",
+      "date": "2017-05-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158332,
+      "dst": 213033
+    },
+    {
+      "relateString": "前传",
+      "src": 213033,
+      "dst": 158332
+    }
+  ]
 }

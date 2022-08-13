@@ -1,37 +1,34 @@
 {
- "id": 2123,
- "node": [
-  {
-   "id": 2123,
-   "name": "カードキャプターさくら",
-   "nameCN": "魔卡少女樱",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/1e/2123_vRzfr.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 180841,
-   "name": "カードキャプターさくら クリアカード編",
-   "nameCN": "魔卡少女樱 透明牌篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/87/180841_QO17O.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2123,
-   "dst": 180841
-  },
-  {
-   "relate": "前传",
-   "src": 180841,
-   "dst": 2123
-  }
- ]
+  "id": "2123",
+  "node": [
+    {
+      "id": 2123,
+      "name": "カードキャプターさくら",
+      "nameCN": "魔卡少女樱",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 180841,
+      "name": "カードキャプターさくら クリアカード編",
+      "nameCN": "魔卡少女樱 透明牌篇",
+      "date": "2016-06-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2123,
+      "dst": 180841
+    },
+    {
+      "relateString": "前传",
+      "src": 180841,
+      "dst": 2123
+    }
+  ]
 }

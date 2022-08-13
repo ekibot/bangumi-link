@@ -1,72 +1,67 @@
 {
- "id": 141154,
- "node": [
-  {
-   "id": 141154,
-   "name": "大貝獣物語",
-   "nameCN": "大贝兽物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/7c/141154_mtDz6.jpg",
-   "date": "1994-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307272,
-   "name": "貝獣物語",
-   "nameCN": "贝兽物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/87/307272_pHN8Z.jpg",
-   "date": "1988-11-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 341005,
-   "name": "召喚王レクス",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/7a/341005_N3Xl3.jpg",
-   "date": "1999-02-03",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 341027,
-   "name": "MOZ 召喚王レクスII",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/e5/341027_jNIjz.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 141154,
-   "dst": 307272
-  },
-  {
-   "relate": "相同世界观",
-   "src": 141154,
-   "dst": 341005
-  },
-  {
-   "relate": "续集",
-   "src": 307272,
-   "dst": 141154
-  },
-  {
-   "relate": "续集",
-   "src": 341005,
-   "dst": 341027
-  },
-  {
-   "relate": "前传",
-   "src": 341027,
-   "dst": 341005
-  }
- ]
+  "id": "141154",
+  "node": [
+    {
+      "id": 141154,
+      "name": "大貝獣物語",
+      "nameCN": "大贝兽物语",
+      "date": "1994-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307272,
+      "name": "貝獣物語",
+      "nameCN": "贝兽物语",
+      "date": "1988-11-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 341005,
+      "name": "召喚王レクス",
+      "nameCN": "",
+      "date": "1999-02-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341027,
+      "name": "MOZ 召喚王レクスII",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 141154,
+      "dst": 307272
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 141154,
+      "dst": 341005
+    },
+    {
+      "relateString": "续集",
+      "src": 307272,
+      "dst": 141154
+    },
+    {
+      "relateString": "续集",
+      "src": 341005,
+      "dst": 341027
+    },
+    {
+      "relateString": "前传",
+      "src": 341027,
+      "dst": 341005
+    }
+  ]
 }

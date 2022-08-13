@@ -1,57 +1,52 @@
 {
- "id": 66566,
- "node": [
-  {
-   "id": 66566,
-   "name": "Malcolm in the Middle (Season 1)",
-   "nameCN": "马尔柯姆的一家 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/28/66566_gTT32.jpg",
-   "date": "2000-01-09",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 102888,
-   "name": "Malcolm in the Middle (Season 2)",
-   "nameCN": "马尔柯姆的一家 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/ea/102888_Rrv75.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 104837,
-   "name": "Malcolm in the Middle (Season 3)",
-   "nameCN": "马尔柯姆的一家 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/07/104837_vhrr7.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66566,
-   "dst": 102888
-  },
-  {
-   "relate": "前传",
-   "src": 102888,
-   "dst": 66566
-  },
-  {
-   "relate": "续集",
-   "src": 102888,
-   "dst": 104837
-  },
-  {
-   "relate": "前传",
-   "src": 104837,
-   "dst": 102888
-  }
- ]
+  "id": "66566",
+  "node": [
+    {
+      "id": 66566,
+      "name": "Malcolm in the Middle (Season 1)",
+      "nameCN": "马尔柯姆的一家 第一季",
+      "date": "2000-01-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 102888,
+      "name": "Malcolm in the Middle (Season 2)",
+      "nameCN": "马尔柯姆的一家 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 104837,
+      "name": "Malcolm in the Middle (Season 3)",
+      "nameCN": "马尔柯姆的一家 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66566,
+      "dst": 102888
+    },
+    {
+      "relateString": "前传",
+      "src": 102888,
+      "dst": 66566
+    },
+    {
+      "relateString": "续集",
+      "src": 102888,
+      "dst": 104837
+    },
+    {
+      "relateString": "前传",
+      "src": 104837,
+      "dst": 102888
+    }
+  ]
 }

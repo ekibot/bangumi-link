@@ -1,37 +1,33 @@
 {
- "id": 360146,
- "node": [
-  {
-   "id": 360146,
-   "name": "俗女養成記",
-   "nameCN": "俗女养成记",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/91/360146_ttZTK.jpg",
-   "date": "2019-08-04",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 360505,
-   "name": "俗女養成記2",
-   "nameCN": "俗女养成记",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/a1/360505_vK7KG.jpg",
-   "date": "2021-08-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 360146,
-   "dst": 360505
-  },
-  {
-   "relate": "前传",
-   "src": 360505,
-   "dst": 360146
-  }
- ]
+  "id": "360146",
+  "node": [
+    {
+      "id": 360146,
+      "name": "俗女養成記",
+      "nameCN": "俗女养成记",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 360505,
+      "name": "俗女養成記2",
+      "nameCN": "俗女养成记",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 360146,
+      "dst": 360505
+    },
+    {
+      "relateString": "前传",
+      "src": 360505,
+      "dst": 360146
+    }
+  ]
 }

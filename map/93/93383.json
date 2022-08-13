@@ -1,37 +1,35 @@
 {
- "id": 93383,
- "node": [
-  {
-   "id": 93383,
-   "name": "SHARK",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/7d/93383_J4FxW.jpg",
-   "date": "2014-01-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 102463,
-   "name": "SHARK～2nd Season～",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/21/102463_z77E8.jpg",
-   "date": "2014-04-20",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93383,
-   "dst": 102463
-  },
-  {
-   "relate": "前传",
-   "src": 102463,
-   "dst": 93383
-  }
- ]
+  "id": "93383",
+  "node": [
+    {
+      "id": 93383,
+      "name": "SHARK",
+      "nameCN": "",
+      "date": "2014-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 102463,
+      "name": "SHARK～2nd Season～",
+      "nameCN": "",
+      "date": "2014-04-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93383,
+      "dst": 102463
+    },
+    {
+      "relateString": "前传",
+      "src": 102463,
+      "dst": 93383
+    }
+  ]
 }

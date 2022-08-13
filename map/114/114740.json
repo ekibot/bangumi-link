@@ -1,57 +1,54 @@
 {
- "id": 114740,
- "node": [
-  {
-   "id": 114740,
-   "name": "闯堂兔",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/b7/114740_Ta43k.jpg",
-   "date": "2011-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 114742,
-   "name": "闯堂兔2疯狂马戏团",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/6f/114742_2Q48G.jpg",
-   "date": "2015-01-01",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 163463,
-   "name": "闯闯闯！我是闯堂兔！",
-   "nameCN": "闯闯闯！我是闯堂兔！",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/7a/163463_R0rsa.jpg",
-   "date": "2015-11-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114740,
-   "dst": 114742
-  },
-  {
-   "relate": "前传",
-   "src": 114742,
-   "dst": 114740
-  },
-  {
-   "relate": "续集",
-   "src": 114742,
-   "dst": 163463
-  },
-  {
-   "relate": "前传",
-   "src": 163463,
-   "dst": 114742
-  }
- ]
+  "id": "114740",
+  "node": [
+    {
+      "id": 114740,
+      "name": "闯堂兔",
+      "nameCN": "",
+      "date": "2011-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 114742,
+      "name": "闯堂兔2疯狂马戏团",
+      "nameCN": "",
+      "date": "2015-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 163463,
+      "name": "闯闯闯！我是闯堂兔！",
+      "nameCN": "闯闯闯！我是闯堂兔！",
+      "date": "2015-11-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114740,
+      "dst": 114742
+    },
+    {
+      "relateString": "前传",
+      "src": 114742,
+      "dst": 114740
+    },
+    {
+      "relateString": "续集",
+      "src": 114742,
+      "dst": 163463
+    },
+    {
+      "relateString": "前传",
+      "src": 163463,
+      "dst": 114742
+    }
+  ]
 }

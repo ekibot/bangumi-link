@@ -1,37 +1,34 @@
 {
- "id": 106404,
- "node": [
-  {
-   "id": 106404,
-   "name": "クィンティア·ロード",
-   "nameCN": "超时空G点",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/38/106404_83DcN.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 194541,
-   "name": "クィンティアロード２",
-   "nameCN": "超时空G点2",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/bc/194541_k9aAq.jpg",
-   "date": "1993-04-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 106404,
-   "dst": 194541
-  },
-  {
-   "relate": "前传",
-   "src": 194541,
-   "dst": 106404
-  }
- ]
+  "id": "106404",
+  "node": [
+    {
+      "id": 106404,
+      "name": "クィンティア·ロード",
+      "nameCN": "超时空G点",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 194541,
+      "name": "クィンティアロード２",
+      "nameCN": "超时空G点2",
+      "date": "1993-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 106404,
+      "dst": 194541
+    },
+    {
+      "relateString": "前传",
+      "src": 194541,
+      "dst": 106404
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 139499,
- "node": [
-  {
-   "id": 139499,
-   "name": "のらくろ",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/8b/139499_qNvA9.jpg",
-   "date": "1970-10-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 187468,
-   "name": "のらくろクン",
-   "nameCN": "狗仔爷爷",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/0f/187468_9tA9v.jpg",
-   "date": "1987-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 139499,
-   "dst": 187468
-  },
-  {
-   "relate": "不同演绎",
-   "src": 187468,
-   "dst": 139499
-  }
- ]
+  "id": "139499",
+  "node": [
+    {
+      "id": 139499,
+      "name": "のらくろ",
+      "nameCN": "",
+      "date": "1970-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 187468,
+      "name": "のらくろクン",
+      "nameCN": "狗仔爷爷",
+      "date": "1987-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 139499,
+      "dst": 187468
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 187468,
+      "dst": 139499
+    }
+  ]
 }

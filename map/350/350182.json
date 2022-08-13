@@ -1,0 +1,63 @@
+{
+  "id": "350182",
+  "node": [
+    {
+      "id": 350182,
+      "name": "嘘八百",
+      "nameCN": "谎话连篇",
+      "date": "2018-01-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 350183,
+      "name": "嘘八百 京町ロワイヤル",
+      "nameCN": "谎话连篇 京町皇室",
+      "date": "2020-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 390921,
+      "name": "嘘八百 なにわ夢の陣",
+      "nameCN": "谎话连篇 浪花梦之阵",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 350182,
+      "dst": 350183
+    },
+    {
+      "relateString": "续集",
+      "src": 350182,
+      "dst": 390921
+    },
+    {
+      "relateString": "前传",
+      "src": 350183,
+      "dst": 350182
+    },
+    {
+      "relateString": "续集",
+      "src": 350183,
+      "dst": 390921
+    },
+    {
+      "relateString": "前传",
+      "src": 390921,
+      "dst": 350182
+    },
+    {
+      "relateString": "前传",
+      "src": 390921,
+      "dst": 350183
+    }
+  ]
+}

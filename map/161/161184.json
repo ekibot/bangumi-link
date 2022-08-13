@@ -1,117 +1,112 @@
 {
- "id": 161184,
- "node": [
-  {
-   "id": 161184,
-   "name": "大力金刚",
-   "nameCN": "大力金刚",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/e5/161184_i4I1N.jpg",
-   "date": "2015-01-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 179999,
-   "name": "我差点就信了",
-   "nameCN": "我差点就信了",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/7a/179999_qnh6s.jpg",
-   "date": "2016-04-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 180079,
-   "name": "大力金刚 第二季",
-   "nameCN": "大力金刚 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/c0/180079_8OiYd.jpg",
-   "date": "2016-04-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 195053,
-   "name": "我差点就信了 第2季",
-   "nameCN": "我差点就信了 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/0a/195053_RqbeV.jpg",
-   "date": "2016-10-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 195055,
-   "name": "我爱大湿兄",
-   "nameCN": "我爱大湿兄",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/35/195055_7Z7qh.jpg",
-   "date": "2016-09-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161184,
-   "dst": 179999
-  },
-  {
-   "relate": "续集",
-   "src": 161184,
-   "dst": 180079
-  },
-  {
-   "relate": "前传",
-   "src": 179999,
-   "dst": 161184
-  },
-  {
-   "relate": "不同演绎",
-   "src": 179999,
-   "dst": 180079
-  },
-  {
-   "relate": "续集",
-   "src": 179999,
-   "dst": 195053
-  },
-  {
-   "relate": "衍生",
-   "src": 179999,
-   "dst": 195055
-  },
-  {
-   "relate": "前传",
-   "src": 180079,
-   "dst": 161184
-  },
-  {
-   "relate": "不同演绎",
-   "src": 180079,
-   "dst": 179999
-  },
-  {
-   "relate": "前传",
-   "src": 195053,
-   "dst": 179999
-  },
-  {
-   "relate": "衍生",
-   "src": 195053,
-   "dst": 195055
-  },
-  {
-   "relate": "主线故事",
-   "src": 195055,
-   "dst": 179999
-  },
-  {
-   "relate": "主线故事",
-   "src": 195055,
-   "dst": 195053
-  }
- ]
+  "id": "161184",
+  "node": [
+    {
+      "id": 161184,
+      "name": "大力金刚",
+      "nameCN": "大力金刚",
+      "date": "2015-01-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 179999,
+      "name": "我差点就信了",
+      "nameCN": "我差点就信了",
+      "date": "2016-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 180079,
+      "name": "大力金刚 第二季",
+      "nameCN": "大力金刚 第二季",
+      "date": "2016-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 195053,
+      "name": "我差点就信了 第2季",
+      "nameCN": "我差点就信了 第二季",
+      "date": "2016-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 195055,
+      "name": "我爱大湿兄",
+      "nameCN": "我爱大湿兄",
+      "date": "2016-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161184,
+      "dst": 179999
+    },
+    {
+      "relateString": "续集",
+      "src": 161184,
+      "dst": 180079
+    },
+    {
+      "relateString": "前传",
+      "src": 179999,
+      "dst": 161184
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 179999,
+      "dst": 180079
+    },
+    {
+      "relateString": "续集",
+      "src": 179999,
+      "dst": 195053
+    },
+    {
+      "relateString": "衍生",
+      "src": 179999,
+      "dst": 195055
+    },
+    {
+      "relateString": "前传",
+      "src": 180079,
+      "dst": 161184
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 180079,
+      "dst": 179999
+    },
+    {
+      "relateString": "前传",
+      "src": 195053,
+      "dst": 179999
+    },
+    {
+      "relateString": "衍生",
+      "src": 195053,
+      "dst": 195055
+    },
+    {
+      "relateString": "主线故事",
+      "src": 195055,
+      "dst": 179999
+    },
+    {
+      "relateString": "主线故事",
+      "src": 195055,
+      "dst": 195053
+    }
+  ]
 }

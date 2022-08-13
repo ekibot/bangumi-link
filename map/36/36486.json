@@ -1,57 +1,52 @@
 {
- "id": 36486,
- "node": [
-  {
-   "id": 36486,
-   "name": "Batman the Dark Knight Returns",
-   "nameCN": "蝙蝠侠：黑暗骑士归来",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/74/36486_us.jpg",
-   "date": "1986-02-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 215958,
-   "name": "Batman: The Dark Knight Strikes Again",
-   "nameCN": "蝙蝠侠：黑暗骑士再袭",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/12/215958_ijrqC.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 215959,
-   "name": "The Dark Knight III: The Master Race",
-   "nameCN": "黑暗骑士III：至高种族",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/fd/215959_mmpfD.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36486,
-   "dst": 215958
-  },
-  {
-   "relate": "前传",
-   "src": 215958,
-   "dst": 36486
-  },
-  {
-   "relate": "续集",
-   "src": 215958,
-   "dst": 215959
-  },
-  {
-   "relate": "前传",
-   "src": 215959,
-   "dst": 215958
-  }
- ]
+  "id": "36486",
+  "node": [
+    {
+      "id": 36486,
+      "name": "Batman the Dark Knight Returns",
+      "nameCN": "蝙蝠侠：黑暗骑士归来",
+      "date": "1986-02-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 215958,
+      "name": "Batman: The Dark Knight Strikes Again",
+      "nameCN": "蝙蝠侠：黑暗骑士再袭",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 215959,
+      "name": "The Dark Knight III: The Master Race",
+      "nameCN": "黑暗骑士III：至高种族",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36486,
+      "dst": 215958
+    },
+    {
+      "relateString": "前传",
+      "src": 215958,
+      "dst": 36486
+    },
+    {
+      "relateString": "续集",
+      "src": 215958,
+      "dst": 215959
+    },
+    {
+      "relateString": "前传",
+      "src": 215959,
+      "dst": 215958
+    }
+  ]
 }

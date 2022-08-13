@@ -1,37 +1,35 @@
 {
- "id": 1074,
- "node": [
-  {
-   "id": 1074,
-   "name": "Wi-Fi対応 世界のだれでもアソビ大全",
-   "nameCN": "Wifi对应 谁都能玩大全",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/8f/1074_J6xr6.jpg",
-   "date": "2006-09-29",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 302805,
-   "name": "世界のアソビ大全51",
-   "nameCN": "世界游戏大全51",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/b4/302805_Vc7z2.jpg",
-   "date": "2020-06-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1074,
-   "dst": 302805
-  },
-  {
-   "relate": "前传",
-   "src": 302805,
-   "dst": 1074
-  }
- ]
+  "id": "1074",
+  "node": [
+    {
+      "id": 1074,
+      "name": "Wi-Fi対応 世界のだれでもアソビ大全",
+      "nameCN": "Wifi对应 谁都能玩大全",
+      "date": "2006-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 302805,
+      "name": "世界のアソビ大全51",
+      "nameCN": "世界游戏大全51",
+      "date": "2020-06-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1074,
+      "dst": 302805
+    },
+    {
+      "relateString": "前传",
+      "src": 302805,
+      "dst": 1074
+    }
+  ]
 }

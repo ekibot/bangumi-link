@@ -1,86 +1,82 @@
 {
- "id": 23324,
- "node": [
-  {
-   "id": 23324,
-   "name": "Red Orchestra 2: Heroes of Stalingrad",
-   "nameCN": "红色管弦乐2：斯大林格勒英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/d6/23324_Y1vEs.jpg",
-   "date": "2011-09-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228768,
-   "name": "Red Orchestra: Ostfront 41-45",
-   "nameCN": "红色管弦乐：东线41-45",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/0c/228768_6RRrb.jpg",
-   "date": "2006-03-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 229486,
-   "name": "Darkest Hour: Europe '44-'45",
-   "nameCN": "至暗之时：欧洲'44-'45",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/2f/229486_3HoJn.jpg",
-   "date": "2008-06-06",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 286536,
-   "name": "Rising Storm 2: Vietnam",
-   "nameCN": "风起云涌2:越南",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/fc/286536_jJJLV.jpg",
-   "date": "2017-05-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 334733,
-   "name": "Rising Storm",
-   "nameCN": "风起云涌",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/d6/334733_s38kR.jpg",
-   "date": "2013-05-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 23324,
-   "dst": 228768
-  },
-  {
-   "relate": "续集",
-   "src": 228768,
-   "dst": 23324
-  },
-  {
-   "relate": "主线故事",
-   "src": 229486,
-   "dst": 228768
-  },
-  {
-   "relate": "前传",
-   "src": 286536,
-   "dst": 334733
-  },
-  {
-   "relate": "主线故事",
-   "src": 334733,
-   "dst": 23324
-  },
-  {
-   "relate": "续集",
-   "src": 334733,
-   "dst": 286536
-  }
- ]
+  "id": "23324",
+  "node": [
+    {
+      "id": 23324,
+      "name": "Red Orchestra 2: Heroes of Stalingrad",
+      "nameCN": "红色管弦乐2：斯大林格勒英雄",
+      "date": "2011-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228768,
+      "name": "Red Orchestra: Ostfront 41-45",
+      "nameCN": "红色管弦乐：东线41-45",
+      "date": "2006-03-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229486,
+      "name": "Darkest Hour: Europe '44-'45",
+      "nameCN": "至暗之时：欧洲'44-'45",
+      "date": "2008-06-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 286536,
+      "name": "Rising Storm 2: Vietnam",
+      "nameCN": "风起云涌2:越南",
+      "date": "2017-05-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 334733,
+      "name": "Rising Storm",
+      "nameCN": "风起云涌",
+      "date": "2013-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 23324,
+      "dst": 228768
+    },
+    {
+      "relateString": "续集",
+      "src": 228768,
+      "dst": 23324
+    },
+    {
+      "relateString": "主线故事",
+      "src": 229486,
+      "dst": 228768
+    },
+    {
+      "relateString": "前传",
+      "src": 286536,
+      "dst": 334733
+    },
+    {
+      "relateString": "主线故事",
+      "src": 334733,
+      "dst": 23324
+    },
+    {
+      "relateString": "续集",
+      "src": 334733,
+      "dst": 286536
+    }
+  ]
 }

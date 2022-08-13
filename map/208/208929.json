@@ -1,57 +1,54 @@
 {
- "id": 208929,
- "node": [
-  {
-   "id": 208929,
-   "name": "Bus Simulator 16",
-   "nameCN": "模拟巴士16",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/05/208929_I0zyC.jpg",
-   "date": "2016-01-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294416,
-   "name": "Bus Simulator 18",
-   "nameCN": "模拟巴士18",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/8d/294416_lOITt.jpg",
-   "date": "2018-06-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 348757,
-   "name": "Bus Simulator 21",
-   "nameCN": "巴士模拟21",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/5d/348757_l28U4.jpg",
-   "date": "2021-09-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 208929,
-   "dst": 294416
-  },
-  {
-   "relate": "前传",
-   "src": 294416,
-   "dst": 208929
-  },
-  {
-   "relate": "续集",
-   "src": 294416,
-   "dst": 348757
-  },
-  {
-   "relate": "前传",
-   "src": 348757,
-   "dst": 294416
-  }
- ]
+  "id": "208929",
+  "node": [
+    {
+      "id": 208929,
+      "name": "Bus Simulator 16",
+      "nameCN": "模拟巴士16",
+      "date": "2016-01-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294416,
+      "name": "Bus Simulator 18",
+      "nameCN": "模拟巴士18",
+      "date": "2018-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348757,
+      "name": "Bus Simulator 21",
+      "nameCN": "巴士模拟21",
+      "date": "2021-09-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 208929,
+      "dst": 294416
+    },
+    {
+      "relateString": "前传",
+      "src": 294416,
+      "dst": 208929
+    },
+    {
+      "relateString": "续集",
+      "src": 294416,
+      "dst": 348757
+    },
+    {
+      "relateString": "前传",
+      "src": 348757,
+      "dst": 294416
+    }
+  ]
 }

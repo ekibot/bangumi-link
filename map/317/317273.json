@@ -1,0 +1,70 @@
+{
+  "id": "317273",
+  "node": [
+    {
+      "id": 317273,
+      "name": "The Rookie",
+      "nameCN": "菜鸟老警",
+      "date": "2018-10-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 331640,
+      "name": "The Rookie (Season 2)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 331641,
+      "name": "The Rookie (Season 3)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 360779,
+      "name": "The Rookie (Season 4)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 317273,
+      "dst": 331640
+    },
+    {
+      "relateString": "前传",
+      "src": 331640,
+      "dst": 317273
+    },
+    {
+      "relateString": "续集",
+      "src": 331640,
+      "dst": 331641
+    },
+    {
+      "relateString": "前传",
+      "src": 331641,
+      "dst": 331640
+    },
+    {
+      "relateString": "续集",
+      "src": 331641,
+      "dst": 360779
+    },
+    {
+      "relateString": "前传",
+      "src": 360779,
+      "dst": 331641
+    }
+  ]
+}

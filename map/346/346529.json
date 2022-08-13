@@ -1,37 +1,35 @@
 {
- "id": 346529,
- "node": [
-  {
-   "id": 346529,
-   "name": "一起来飞车",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/cc/346529_lsxxq.jpg",
-   "date": "2015-09-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 346536,
-   "name": "一起来飞车2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/cc/346536_rPHpc.jpg",
-   "date": "2021-06-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 346529,
-   "dst": 346536
-  },
-  {
-   "relate": "前传",
-   "src": 346536,
-   "dst": 346529
-  }
- ]
+  "id": "346529",
+  "node": [
+    {
+      "id": 346529,
+      "name": "一起来飞车",
+      "nameCN": "",
+      "date": "2015-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 346536,
+      "name": "一起来飞车2",
+      "nameCN": "",
+      "date": "2021-06-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 346529,
+      "dst": 346536
+    },
+    {
+      "relateString": "前传",
+      "src": 346536,
+      "dst": 346529
+    }
+  ]
 }

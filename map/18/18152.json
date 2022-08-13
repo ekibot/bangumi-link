@@ -1,57 +1,53 @@
 {
- "id": 18152,
- "node": [
-  {
-   "id": 18152,
-   "name": "タオルケットをもう一度3",
-   "nameCN": "毛毯再一次3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/a8/18152_wY7us.jpg",
-   "date": "2008-09-02",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 213515,
-   "name": "タオルケットをもう一度",
-   "nameCN": "毛毯再一次",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/ff/213515_Y3YY1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 213517,
-   "name": "タオルケットをもう一度2",
-   "nameCN": "毛毯再一次2",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/10/213517_7KV0V.jpg",
-   "date": "2008-05-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 18152,
-   "dst": 213517
-  },
-  {
-   "relate": "续集",
-   "src": 213515,
-   "dst": 213517
-  },
-  {
-   "relate": "续集",
-   "src": 213517,
-   "dst": 18152
-  },
-  {
-   "relate": "前传",
-   "src": 213517,
-   "dst": 213515
-  }
- ]
+  "id": "18152",
+  "node": [
+    {
+      "id": 18152,
+      "name": "タオルケットをもう一度3",
+      "nameCN": "毛毯再一次3",
+      "date": "2008-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 213517,
+      "name": "タオルケットをもう一度2",
+      "nameCN": "毛毯再一次2",
+      "date": "2008-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 213515,
+      "name": "タオルケットをもう一度",
+      "nameCN": "毛毯再一次",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 18152,
+      "dst": 213517
+    },
+    {
+      "relateString": "续集",
+      "src": 213515,
+      "dst": 213517
+    },
+    {
+      "relateString": "续集",
+      "src": 213517,
+      "dst": 18152
+    },
+    {
+      "relateString": "前传",
+      "src": 213517,
+      "dst": 213515
+    }
+  ]
 }

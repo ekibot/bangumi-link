@@ -1,37 +1,35 @@
 {
- "id": 245624,
- "node": [
-  {
-   "id": 245624,
-   "name": "ケダモノアラシ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/62/245624_t7Owu.jpg",
-   "date": "2018-03-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 297209,
-   "name": "ケダモノアラシ ―Kiss Me Baby！―",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/e4/297209_NHhP8.jpg",
-   "date": "2019-03-09",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 245624,
-   "dst": 297209
-  },
-  {
-   "relate": "前传",
-   "src": 297209,
-   "dst": 245624
-  }
- ]
+  "id": "245624",
+  "node": [
+    {
+      "id": 245624,
+      "name": "ケダモノアラシ",
+      "nameCN": "",
+      "date": "2018-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 297209,
+      "name": "ケダモノアラシ ―Kiss Me Baby！―",
+      "nameCN": "",
+      "date": "2019-03-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 245624,
+      "dst": 297209
+    },
+    {
+      "relateString": "前传",
+      "src": 297209,
+      "dst": 245624
+    }
+  ]
 }

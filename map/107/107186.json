@@ -1,77 +1,73 @@
 {
- "id": 107186,
- "node": [
-  {
-   "id": 107186,
-   "name": "怪盗ジョーカー",
-   "nameCN": "怪盗Joker",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/9e/107186_GHZ4g.jpg",
-   "date": "2014-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 122864,
-   "name": "怪盗ジョーカー シーズン2",
-   "nameCN": "怪盗Joker2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/c4/122864_3G1ww.jpg",
-   "date": "2015-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 147085,
-   "name": "怪盗ジョーカー シーズン3",
-   "nameCN": "怪盗Joker3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/fd/147085_J455E.jpg",
-   "date": "2016-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 185825,
-   "name": "怪盗ジョーカー シーズン4",
-   "nameCN": "怪盗Joker4",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/dc/185825_b5588.jpg",
-   "date": "2016-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107186,
-   "dst": 122864
-  },
-  {
-   "relate": "前传",
-   "src": 122864,
-   "dst": 107186
-  },
-  {
-   "relate": "续集",
-   "src": 122864,
-   "dst": 147085
-  },
-  {
-   "relate": "前传",
-   "src": 147085,
-   "dst": 122864
-  },
-  {
-   "relate": "续集",
-   "src": 147085,
-   "dst": 185825
-  },
-  {
-   "relate": "前传",
-   "src": 185825,
-   "dst": 147085
-  }
- ]
+  "id": "107186",
+  "node": [
+    {
+      "id": 107186,
+      "name": "怪盗ジョーカー",
+      "nameCN": "怪盗Joker",
+      "date": "2014-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 122864,
+      "name": "怪盗ジョーカー シーズン2",
+      "nameCN": "怪盗Joker2",
+      "date": "2015-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 147085,
+      "name": "怪盗ジョーカー シーズン3",
+      "nameCN": "怪盗Joker3",
+      "date": "2016-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 185825,
+      "name": "怪盗ジョーカー シーズン4",
+      "nameCN": "怪盗Joker4",
+      "date": "2016-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107186,
+      "dst": 122864
+    },
+    {
+      "relateString": "前传",
+      "src": 122864,
+      "dst": 107186
+    },
+    {
+      "relateString": "续集",
+      "src": 122864,
+      "dst": 147085
+    },
+    {
+      "relateString": "前传",
+      "src": 147085,
+      "dst": 122864
+    },
+    {
+      "relateString": "续集",
+      "src": 147085,
+      "dst": 185825
+    },
+    {
+      "relateString": "前传",
+      "src": 185825,
+      "dst": 147085
+    }
+  ]
 }

@@ -1,127 +1,121 @@
 {
- "id": 85964,
- "node": [
-  {
-   "id": 85964,
-   "name": "キングダム ハーツ",
-   "nameCN": "王国之心",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/7e/85964_mStms.jpg",
-   "date": "2005-06-30",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 85975,
-   "name": "GAME NOVELS キングダムハーツ チェイン オブ メモリーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/bc/85975_Tn0fH.jpg",
-   "date": "2005-10-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 85977,
-   "name": "GAME NOVELS キングダム ハーツII",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/6b/85977_Kf9p9.jpg",
-   "date": "2006-04-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 86000,
-   "name": "小説 キングダム ハーツ 358/2 Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/52/86000_a2kFm.jpg",
-   "date": "2009-09-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 86001,
-   "name": "キングダム ハーツ バース バイ スリープ",
-   "nameCN": "王国之心 梦中降生",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/6d/86001_oNiFb.jpg",
-   "date": "2010-12-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 281932,
-   "name": "GAME NOVELS キングダム ハーツIII",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/71/281932_95vzt.jpg",
-   "date": "2019-03-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85964,
-   "dst": 85975
-  },
-  {
-   "relate": "续集",
-   "src": 85964,
-   "dst": 86000
-  },
-  {
-   "relate": "前传",
-   "src": 85964,
-   "dst": 86001
-  },
-  {
-   "relate": "前传",
-   "src": 85975,
-   "dst": 85964
-  },
-  {
-   "relate": "续集",
-   "src": 85975,
-   "dst": 85977
-  },
-  {
-   "relate": "前传",
-   "src": 85977,
-   "dst": 85975
-  },
-  {
-   "relate": "前传",
-   "src": 85977,
-   "dst": 86000
-  },
-  {
-   "relate": "续集",
-   "src": 85977,
-   "dst": 281932
-  },
-  {
-   "relate": "前传",
-   "src": 86000,
-   "dst": 85964
-  },
-  {
-   "relate": "续集",
-   "src": 86000,
-   "dst": 85977
-  },
-  {
-   "relate": "续集",
-   "src": 86001,
-   "dst": 85964
-  },
-  {
-   "relate": "前传",
-   "src": 281932,
-   "dst": 85977
-  }
- ]
+  "id": "85964",
+  "node": [
+    {
+      "id": 85964,
+      "name": "キングダム ハーツ",
+      "nameCN": "王国之心",
+      "date": "2005-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 85975,
+      "name": "GAME NOVELS キングダムハーツ チェイン オブ メモリーズ",
+      "nameCN": "",
+      "date": "2005-10-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 86000,
+      "name": "小説 キングダム ハーツ 358/2 Days",
+      "nameCN": "",
+      "date": "2009-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 86001,
+      "name": "キングダム ハーツ バース バイ スリープ",
+      "nameCN": "王国之心 梦中降生",
+      "date": "2010-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 85977,
+      "name": "GAME NOVELS キングダム ハーツII",
+      "nameCN": "",
+      "date": "2006-04-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 281932,
+      "name": "GAME NOVELS キングダム ハーツIII",
+      "nameCN": "",
+      "date": "2019-03-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85964,
+      "dst": 85975
+    },
+    {
+      "relateString": "续集",
+      "src": 85964,
+      "dst": 86000
+    },
+    {
+      "relateString": "前传",
+      "src": 85964,
+      "dst": 86001
+    },
+    {
+      "relateString": "前传",
+      "src": 85975,
+      "dst": 85964
+    },
+    {
+      "relateString": "续集",
+      "src": 85975,
+      "dst": 85977
+    },
+    {
+      "relateString": "前传",
+      "src": 85977,
+      "dst": 85975
+    },
+    {
+      "relateString": "前传",
+      "src": 85977,
+      "dst": 86000
+    },
+    {
+      "relateString": "续集",
+      "src": 85977,
+      "dst": 281932
+    },
+    {
+      "relateString": "前传",
+      "src": 86000,
+      "dst": 85964
+    },
+    {
+      "relateString": "续集",
+      "src": 86000,
+      "dst": 85977
+    },
+    {
+      "relateString": "续集",
+      "src": 86001,
+      "dst": 85964
+    },
+    {
+      "relateString": "前传",
+      "src": 281932,
+      "dst": 85977
+    }
+  ]
 }

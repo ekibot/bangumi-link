@@ -1,37 +1,35 @@
 {
- "id": 77891,
- "node": [
-  {
-   "id": 77891,
-   "name": "くーねるまるた",
-   "nameCN": "吃吃睡睡的玛璐塔",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/a0/77891_y2A5A.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 259297,
-   "name": "くーねるまるた ぬーぼ",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/51/259297_o22gZ.jpg",
-   "date": "2018-08-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77891,
-   "dst": 259297
-  },
-  {
-   "relate": "前传",
-   "src": 259297,
-   "dst": 77891
-  }
- ]
+  "id": "77891",
+  "node": [
+    {
+      "id": 77891,
+      "name": "くーねるまるた",
+      "nameCN": "吃吃睡睡的玛璐塔",
+      "date": "2012-08-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259297,
+      "name": "くーねるまるた ぬーぼ",
+      "nameCN": "",
+      "date": "2018-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77891,
+      "dst": 259297
+    },
+    {
+      "relateString": "前传",
+      "src": 259297,
+      "dst": 77891
+    }
+  ]
 }

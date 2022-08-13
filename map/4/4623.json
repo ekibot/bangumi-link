@@ -1,187 +1,176 @@
 {
- "id": 4623,
- "node": [
-  {
-   "id": 4623,
-   "name": "深夜食堂",
-   "nameCN": "深夜食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/ea/4623_xYE2R.jpg",
-   "date": "2009-10-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 24253,
-   "name": "深夜食堂2",
-   "nameCN": "深夜食堂2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/8a/24253_ebPOO.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 110887,
-   "name": "深夜食堂3",
-   "nameCN": "深夜食堂3",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/55/110887_v7R5I.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 110888,
-   "name": "深夜食堂",
-   "nameCN": "深夜食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/73/110888_cepYG.jpg",
-   "date": "2014-11-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 169493,
-   "name": "심야식당",
-   "nameCN": "深夜食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/df/169493_8FJoM.jpg",
-   "date": "2015-07-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 176670,
-   "name": "深夜食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/5b/176670_YNH86.jpg",
-   "date": "2017-06-11",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 194648,
-   "name": "続・深夜食堂",
-   "nameCN": "续・深夜食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/cf/194648_gJ8JH.jpg",
-   "date": "2016-11-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 194649,
-   "name": "深夜食堂 -TOKYO Stories-",
-   "nameCN": "深夜食堂 -东京故事-",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/eb/194649_HJeg4.jpg",
-   "date": "2016-10-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 285060,
-   "name": "深夜食堂 -TOKYO Stories 2-",
-   "nameCN": "深夜食堂 -东京故事2-",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/78/285060_V9DM2.jpg",
-   "date": "2019-10-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4623,
-   "dst": 24253
-  },
-  {
-   "relate": "不同演绎",
-   "src": 4623,
-   "dst": 169493
-  },
-  {
-   "relate": "不同演绎",
-   "src": 4623,
-   "dst": 176670
-  },
-  {
-   "relate": "前传",
-   "src": 24253,
-   "dst": 4623
-  },
-  {
-   "relate": "续集",
-   "src": 24253,
-   "dst": 110887
-  },
-  {
-   "relate": "前传",
-   "src": 110887,
-   "dst": 24253
-  },
-  {
-   "relate": "衍生",
-   "src": 110887,
-   "dst": 110888
-  },
-  {
-   "relate": "续集",
-   "src": 110887,
-   "dst": 194649
-  },
-  {
-   "relate": "衍生",
-   "src": 110888,
-   "dst": 110887
-  },
-  {
-   "relate": "续集",
-   "src": 110888,
-   "dst": 194648
-  },
-  {
-   "relate": "不同演绎",
-   "src": 169493,
-   "dst": 4623
-  },
-  {
-   "relate": "不同演绎",
-   "src": 169493,
-   "dst": 176670
-  },
-  {
-   "relate": "不同演绎",
-   "src": 176670,
-   "dst": 4623
-  },
-  {
-   "relate": "不同演绎",
-   "src": 176670,
-   "dst": 169493
-  },
-  {
-   "relate": "前传",
-   "src": 194648,
-   "dst": 110888
-  },
-  {
-   "relate": "前传",
-   "src": 194649,
-   "dst": 110887
-  },
-  {
-   "relate": "续集",
-   "src": 194649,
-   "dst": 285060
-  },
-  {
-   "relate": "前传",
-   "src": 285060,
-   "dst": 194649
-  }
- ]
+  "id": "4623",
+  "node": [
+    {
+      "id": 4623,
+      "name": "深夜食堂",
+      "nameCN": "深夜食堂",
+      "date": "2009-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 24253,
+      "name": "深夜食堂2",
+      "nameCN": "深夜食堂2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 169493,
+      "name": "심야식당",
+      "nameCN": "深夜食堂",
+      "date": "2015-07-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 176670,
+      "name": "深夜食堂",
+      "nameCN": "",
+      "date": "2017-06-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 110887,
+      "name": "深夜食堂3",
+      "nameCN": "深夜食堂3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 110888,
+      "name": "深夜食堂",
+      "nameCN": "深夜食堂",
+      "date": "2014-11-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 194649,
+      "name": "深夜食堂 -TOKYO Stories-",
+      "nameCN": "深夜食堂 -东京故事-",
+      "date": "2016-10-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 194648,
+      "name": "続・深夜食堂",
+      "nameCN": "续・深夜食堂",
+      "date": "2016-11-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 285060,
+      "name": "深夜食堂 -TOKYO Stories 2-",
+      "nameCN": "深夜食堂 -东京故事2-",
+      "date": "2019-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4623,
+      "dst": 24253
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 4623,
+      "dst": 169493
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 4623,
+      "dst": 176670
+    },
+    {
+      "relateString": "前传",
+      "src": 24253,
+      "dst": 4623
+    },
+    {
+      "relateString": "续集",
+      "src": 24253,
+      "dst": 110887
+    },
+    {
+      "relateString": "前传",
+      "src": 110887,
+      "dst": 24253
+    },
+    {
+      "relateString": "衍生",
+      "src": 110887,
+      "dst": 110888
+    },
+    {
+      "relateString": "续集",
+      "src": 110887,
+      "dst": 194649
+    },
+    {
+      "relateString": "衍生",
+      "src": 110888,
+      "dst": 110887
+    },
+    {
+      "relateString": "续集",
+      "src": 110888,
+      "dst": 194648
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 169493,
+      "dst": 4623
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 169493,
+      "dst": 176670
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 176670,
+      "dst": 4623
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 176670,
+      "dst": 169493
+    },
+    {
+      "relateString": "前传",
+      "src": 194648,
+      "dst": 110888
+    },
+    {
+      "relateString": "前传",
+      "src": 194649,
+      "dst": 110887
+    },
+    {
+      "relateString": "续集",
+      "src": 194649,
+      "dst": 285060
+    },
+    {
+      "relateString": "前传",
+      "src": 285060,
+      "dst": 194649
+    }
+  ]
 }

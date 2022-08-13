@@ -1,37 +1,35 @@
 {
- "id": 294,
- "node": [
-  {
-   "id": 294,
-   "name": "図書館戦争",
-   "nameCN": "图书馆战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/83/294_foDCV.jpg",
-   "date": "2008-04-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 34025,
-   "name": "図書館戦争 革命のつばさ",
-   "nameCN": "图书馆战争 革命之翼",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/a6/34025_wn4Tu.jpg",
-   "date": "2012-06-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294,
-   "dst": 34025
-  },
-  {
-   "relate": "前传",
-   "src": 34025,
-   "dst": 294
-  }
- ]
+  "id": "294",
+  "node": [
+    {
+      "id": 294,
+      "name": "図書館戦争",
+      "nameCN": "图书馆战争",
+      "date": "2008-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 34025,
+      "name": "図書館戦争 革命のつばさ",
+      "nameCN": "图书馆战争 革命之翼",
+      "date": "2012-06-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294,
+      "dst": 34025
+    },
+    {
+      "relateString": "前传",
+      "src": 34025,
+      "dst": 294
+    }
+  ]
 }

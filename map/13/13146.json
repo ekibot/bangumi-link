@@ -1,77 +1,70 @@
 {
- "id": 13146,
- "node": [
-  {
-   "id": 13146,
-   "name": "Test Drive Unlimited 2",
-   "nameCN": "无限试驾2",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/58/13146_9hi8P.jpg",
-   "date": "2011-02-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 57357,
-   "name": "Test Drive: Ferrari Racing Legends",
-   "nameCN": "无限试驾：法拉利",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/41/57357_4IzC5.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 64376,
-   "name": "Test Drive Unlimited",
-   "nameCN": "无限试驾",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/fa/64376_1uuTJ.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 317550,
-   "name": "Test Drive Unlimited Solar Crown",
-   "nameCN": "无限试驾 太阳王冠",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/21/317550_5484r.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13146,
-   "dst": 57357
-  },
-  {
-   "relate": "前传",
-   "src": 13146,
-   "dst": 64376
-  },
-  {
-   "relate": "前传",
-   "src": 57357,
-   "dst": 13146
-  },
-  {
-   "relate": "续集",
-   "src": 57357,
-   "dst": 317550
-  },
-  {
-   "relate": "续集",
-   "src": 64376,
-   "dst": 13146
-  },
-  {
-   "relate": "前传",
-   "src": 317550,
-   "dst": 57357
-  }
- ]
+  "id": "13146",
+  "node": [
+    {
+      "id": 13146,
+      "name": "Test Drive Unlimited 2",
+      "nameCN": "无限试驾2",
+      "date": "2011-02-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 57357,
+      "name": "Test Drive: Ferrari Racing Legends",
+      "nameCN": "无限试驾：法拉利",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 64376,
+      "name": "Test Drive Unlimited",
+      "nameCN": "无限试驾",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317550,
+      "name": "Test Drive Unlimited Solar Crown",
+      "nameCN": "无限试驾 太阳王冠",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13146,
+      "dst": 57357
+    },
+    {
+      "relateString": "前传",
+      "src": 13146,
+      "dst": 64376
+    },
+    {
+      "relateString": "前传",
+      "src": 57357,
+      "dst": 13146
+    },
+    {
+      "relateString": "续集",
+      "src": 57357,
+      "dst": 317550
+    },
+    {
+      "relateString": "续集",
+      "src": 64376,
+      "dst": 13146
+    },
+    {
+      "relateString": "前传",
+      "src": 317550,
+      "dst": 57357
+    }
+  ]
 }

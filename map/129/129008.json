@@ -1,37 +1,35 @@
 {
- "id": 129008,
- "node": [
-  {
-   "id": 129008,
-   "name": "On Call 36小時",
-   "nameCN": "On Call 36小时",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/33/129008_kAqx3.jpg",
-   "date": "2012-02-13",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 129009,
-   "name": "On Call 36小時II",
-   "nameCN": "On Call 36小时II",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/53/129009_EzdWX.jpg",
-   "date": "2013-11-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129008,
-   "dst": 129009
-  },
-  {
-   "relate": "前传",
-   "src": 129009,
-   "dst": 129008
-  }
- ]
+  "id": "129008",
+  "node": [
+    {
+      "id": 129008,
+      "name": "On Call 36小時",
+      "nameCN": "On Call 36小时",
+      "date": "2012-02-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 129009,
+      "name": "On Call 36小時II",
+      "nameCN": "On Call 36小时II",
+      "date": "2013-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129008,
+      "dst": 129009
+    },
+    {
+      "relateString": "前传",
+      "src": 129009,
+      "dst": 129008
+    }
+  ]
 }

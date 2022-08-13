@@ -1,77 +1,72 @@
 {
- "id": 32489,
- "node": [
-  {
-   "id": 32489,
-   "name": "ユニコ",
-   "nameCN": "小白角",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/e2/32489_mz25M.jpg",
-   "date": "1981-03-14",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 79790,
-   "name": "ユニコ 魔法の島へ",
-   "nameCN": "小白角 魔法岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/eb/79790_1ltpT.jpg",
-   "date": "1983-07-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 112445,
-   "name": "ガラスの地球を救え・ユニコ特別編",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/2d/112445_vUzZV.jpg",
-   "date": "2000-07-20",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 112664,
-   "name": "短編ユニコ 黒い雲と白い羽",
-   "nameCN": "黑云与白羽毛",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/27/112664_br4a0.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 32489,
-   "dst": 79790
-  },
-  {
-   "relate": "番外篇",
-   "src": 32489,
-   "dst": 112445
-  },
-  {
-   "relate": "不同演绎",
-   "src": 32489,
-   "dst": 112664
-  },
-  {
-   "relate": "前传",
-   "src": 79790,
-   "dst": 32489
-  },
-  {
-   "relate": "主线故事",
-   "src": 112445,
-   "dst": 32489
-  },
-  {
-   "relate": "不同演绎",
-   "src": 112664,
-   "dst": 32489
-  }
- ]
+  "id": "32489",
+  "node": [
+    {
+      "id": 32489,
+      "name": "ユニコ",
+      "nameCN": "小白角",
+      "date": "1981-03-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 79790,
+      "name": "ユニコ 魔法の島へ",
+      "nameCN": "小白角 魔法岛",
+      "date": "1983-07-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112445,
+      "name": "ガラスの地球を救え・ユニコ特別編",
+      "nameCN": "",
+      "date": "2000-07-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112664,
+      "name": "短編ユニコ 黒い雲と白い羽",
+      "nameCN": "黑云与白羽毛",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 32489,
+      "dst": 79790
+    },
+    {
+      "relateString": "番外篇",
+      "src": 32489,
+      "dst": 112445
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 32489,
+      "dst": 112664
+    },
+    {
+      "relateString": "前传",
+      "src": 79790,
+      "dst": 32489
+    },
+    {
+      "relateString": "主线故事",
+      "src": 112445,
+      "dst": 32489
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 112664,
+      "dst": 32489
+    }
+  ]
 }

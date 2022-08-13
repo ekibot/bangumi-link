@@ -1,37 +1,35 @@
 {
- "id": 216225,
- "node": [
-  {
-   "id": 216225,
-   "name": "Heart's Medicine - Time to Heal",
-   "nameCN": "心灵良方―治疗时间",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/f5/216225_a507c.jpg",
-   "date": "2016-09-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 216227,
-   "name": "Heart's Medicine - Hospital Heat",
-   "nameCN": "心灵良方－火烧医院",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/71/216227_8AAAI.jpg",
-   "date": "2017-05-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 216225,
-   "dst": 216227
-  },
-  {
-   "relate": "前传",
-   "src": 216227,
-   "dst": 216225
-  }
- ]
+  "id": "216225",
+  "node": [
+    {
+      "id": 216225,
+      "name": "Heart's Medicine - Time to Heal",
+      "nameCN": "心灵良方―治疗时间",
+      "date": "2016-09-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216227,
+      "name": "Heart's Medicine - Hospital Heat",
+      "nameCN": "心灵良方－火烧医院",
+      "date": "2017-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 216225,
+      "dst": 216227
+    },
+    {
+      "relateString": "前传",
+      "src": 216227,
+      "dst": 216225
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 106461,
- "node": [
-  {
-   "id": 106461,
-   "name": "演技者 第11弾：狂うがまま",
-   "nameCN": "演技者11 疯狂",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/cb/106461_JJkfa.jpg",
-   "date": "2003-06-17",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 271133,
-   "name": "演技者 第6弹：ミツオ",
-   "nameCN": "演技者 6 三男",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/fa/271133_hhfJ4.jpg",
-   "date": "2002-11-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 271134,
-   "name": "演技者 第14弾：蠅取り紙",
-   "nameCN": "演技者 14 灭蝇纸",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/e1/271134_EWqS5.jpg",
-   "date": "2003-10-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 106461,
-   "dst": 271133
-  },
-  {
-   "relate": "续集",
-   "src": 106461,
-   "dst": 271134
-  },
-  {
-   "relate": "续集",
-   "src": 271133,
-   "dst": 106461
-  },
-  {
-   "relate": "前传",
-   "src": 271134,
-   "dst": 106461
-  }
- ]
+  "id": "106461",
+  "node": [
+    {
+      "id": 106461,
+      "name": "演技者 第11弾：狂うがまま",
+      "nameCN": "演技者11 疯狂",
+      "date": "2003-06-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 271133,
+      "name": "演技者 第6弹：ミツオ",
+      "nameCN": "演技者 6 三男",
+      "date": "2002-11-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 271134,
+      "name": "演技者 第14弾：蠅取り紙",
+      "nameCN": "演技者 14 灭蝇纸",
+      "date": "2003-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 106461,
+      "dst": 271133
+    },
+    {
+      "relateString": "续集",
+      "src": 106461,
+      "dst": 271134
+    },
+    {
+      "relateString": "续集",
+      "src": 271133,
+      "dst": 106461
+    },
+    {
+      "relateString": "前传",
+      "src": 271134,
+      "dst": 106461
+    }
+  ]
 }

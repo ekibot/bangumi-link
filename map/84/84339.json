@@ -1,67 +1,64 @@
 {
- "id": 84339,
- "node": [
-  {
-   "id": 84339,
-   "name": "太鼓の達人 Wii Uば～じょん!",
-   "nameCN": "太鼓达人 WiiU版~",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/7f/84339_oA034.jpg",
-   "date": "2013-11-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 113188,
-   "name": "太鼓の达人 特盛り!",
-   "nameCN": "太鼓达人：盛宴",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/37/113188_dmDpw.jpg",
-   "date": "2014-11-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 145086,
-   "name": "太鼓の達人 あつめて★ともだち大作戦！",
-   "nameCN": "太鼓达人 集合！朋友大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/67/145086_hh63u.jpg",
-   "date": "2015-11-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84339,
-   "dst": 113188
-  },
-  {
-   "relate": "续集",
-   "src": 84339,
-   "dst": 145086
-  },
-  {
-   "relate": "前传",
-   "src": 113188,
-   "dst": 84339
-  },
-  {
-   "relate": "续集",
-   "src": 113188,
-   "dst": 145086
-  },
-  {
-   "relate": "前传",
-   "src": 145086,
-   "dst": 84339
-  },
-  {
-   "relate": "前传",
-   "src": 145086,
-   "dst": 113188
-  }
- ]
+  "id": "84339",
+  "node": [
+    {
+      "id": 84339,
+      "name": "太鼓の達人 Wii Uば～じょん!",
+      "nameCN": "太鼓达人 WiiU版~",
+      "date": "2013-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 113188,
+      "name": "太鼓の达人 特盛り!",
+      "nameCN": "太鼓达人：盛宴",
+      "date": "2014-11-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 145086,
+      "name": "太鼓の達人 あつめて★ともだち大作戦！",
+      "nameCN": "太鼓达人 集合！朋友大作战",
+      "date": "2015-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84339,
+      "dst": 113188
+    },
+    {
+      "relateString": "续集",
+      "src": 84339,
+      "dst": 145086
+    },
+    {
+      "relateString": "前传",
+      "src": 113188,
+      "dst": 84339
+    },
+    {
+      "relateString": "续集",
+      "src": 113188,
+      "dst": 145086
+    },
+    {
+      "relateString": "前传",
+      "src": 145086,
+      "dst": 84339
+    },
+    {
+      "relateString": "前传",
+      "src": 145086,
+      "dst": 113188
+    }
+  ]
 }

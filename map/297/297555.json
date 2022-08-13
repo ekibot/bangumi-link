@@ -1,57 +1,53 @@
 {
- "id": 297555,
- "node": [
-  {
-   "id": 297555,
-   "name": "今天开始做明星",
-   "nameCN": "今天开始做明星",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/86/297555_QAggD.jpg",
-   "date": "2019-12-27",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 308731,
-   "name": "今天开始做明星 第二季",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 364866,
-   "name": "今天开始做明星之天使情歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/44/364866_bwb2H.jpg",
-   "date": "2021-08-03",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 297555,
-   "dst": 308731
-  },
-  {
-   "relate": "总集篇",
-   "src": 297555,
-   "dst": 364866
-  },
-  {
-   "relate": "前传",
-   "src": 308731,
-   "dst": 297555
-  },
-  {
-   "relate": "全集",
-   "src": 364866,
-   "dst": 297555
-  }
- ]
+  "id": "297555",
+  "node": [
+    {
+      "id": 297555,
+      "name": "今天开始做明星",
+      "nameCN": "今天开始做明星",
+      "date": "2019-12-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 308731,
+      "name": "今天开始做明星 第二季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 364866,
+      "name": "今天开始做明星之天使情歌",
+      "nameCN": "",
+      "date": "2021-08-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 297555,
+      "dst": 308731
+    },
+    {
+      "relateString": "总集篇",
+      "src": 297555,
+      "dst": 364866
+    },
+    {
+      "relateString": "前传",
+      "src": 308731,
+      "dst": 297555
+    },
+    {
+      "relateString": "全集",
+      "src": 364866,
+      "dst": 297555
+    }
+  ]
 }

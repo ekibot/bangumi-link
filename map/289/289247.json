@@ -1,37 +1,35 @@
 {
- "id": 289247,
- "node": [
-  {
-   "id": 289247,
-   "name": "Remothered: Broken Porcelain",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/f3/289247_9KNTg.jpg",
-   "date": "2020-10-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 289248,
-   "name": "Remothered: Tormented Fathers",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/64/289248_RtJe2.jpg",
-   "date": "2018-01-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 289247,
-   "dst": 289248
-  },
-  {
-   "relate": "续集",
-   "src": 289248,
-   "dst": 289247
-  }
- ]
+  "id": "289247",
+  "node": [
+    {
+      "id": 289247,
+      "name": "Remothered: Broken Porcelain",
+      "nameCN": "",
+      "date": "2020-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289248,
+      "name": "Remothered: Tormented Fathers",
+      "nameCN": "",
+      "date": "2018-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 289247,
+      "dst": 289248
+    },
+    {
+      "relateString": "续集",
+      "src": 289248,
+      "dst": 289247
+    }
+  ]
 }

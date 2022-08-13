@@ -1,37 +1,35 @@
 {
- "id": 192651,
- "node": [
-  {
-   "id": 192651,
-   "name": "機動戦士ガンダム 鉄血のオルフェンズ",
-   "nameCN": "机动战士高达 铁血的孤儿",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/b7/192651_nPgbp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 211747,
-   "name": "機動戦士ガンダム 鉄血のオルフェンズ弐",
-   "nameCN": "机动战士高达 铁血的孤儿2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/80/211747_4esZZ.jpg",
-   "date": "2016-11-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192651,
-   "dst": 211747
-  },
-  {
-   "relate": "前传",
-   "src": 211747,
-   "dst": 192651
-  }
- ]
+  "id": "192651",
+  "node": [
+    {
+      "id": 192651,
+      "name": "機動戦士ガンダム 鉄血のオルフェンズ",
+      "nameCN": "机动战士高达 铁血的孤儿",
+      "date": "2015-10-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 211747,
+      "name": "機動戦士ガンダム 鉄血のオルフェンズ弐",
+      "nameCN": "机动战士高达 铁血的孤儿2",
+      "date": "2016-11-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192651,
+      "dst": 211747
+    },
+    {
+      "relateString": "前传",
+      "src": 211747,
+      "dst": 192651
+    }
+  ]
 }

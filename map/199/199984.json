@@ -1,57 +1,54 @@
 {
- "id": 199984,
- "node": [
-  {
-   "id": 199984,
-   "name": "俺が両性なんて認めない!",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/95/199984_jp.jpg",
-   "date": "2016-10-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 274944,
-   "name": "俺が両性なんて認めない! 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/81/274944_i6ofP.jpg",
-   "date": "2017-10-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 274945,
-   "name": "俺が両性なんて認めない! 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/88/274945_qlh8h.jpg",
-   "date": "2019-01-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 199984,
-   "dst": 274944
-  },
-  {
-   "relate": "前传",
-   "src": 274944,
-   "dst": 199984
-  },
-  {
-   "relate": "续集",
-   "src": 274944,
-   "dst": 274945
-  },
-  {
-   "relate": "前传",
-   "src": 274945,
-   "dst": 274944
-  }
- ]
+  "id": "199984",
+  "node": [
+    {
+      "id": 199984,
+      "name": "俺が両性なんて認めない!",
+      "nameCN": "",
+      "date": "2016-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 274944,
+      "name": "俺が両性なんて認めない! 2",
+      "nameCN": "",
+      "date": "2017-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 274945,
+      "name": "俺が両性なんて認めない! 3",
+      "nameCN": "",
+      "date": "2019-01-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 199984,
+      "dst": 274944
+    },
+    {
+      "relateString": "前传",
+      "src": 274944,
+      "dst": 199984
+    },
+    {
+      "relateString": "续集",
+      "src": 274944,
+      "dst": 274945
+    },
+    {
+      "relateString": "前传",
+      "src": 274945,
+      "dst": 274944
+    }
+  ]
 }

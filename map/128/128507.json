@@ -1,37 +1,35 @@
 {
- "id": 128507,
- "node": [
-  {
-   "id": 128507,
-   "name": "仁心解碼",
-   "nameCN": "仁心解码",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/13/128507_82v0L.jpg",
-   "date": "2011-01-10",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 128508,
-   "name": "仁心解碼II",
-   "nameCN": "仁心解码II",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/67/128508_PO7z1.jpg",
-   "date": "2013-03-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128507,
-   "dst": 128508
-  },
-  {
-   "relate": "前传",
-   "src": 128508,
-   "dst": 128507
-  }
- ]
+  "id": "128507",
+  "node": [
+    {
+      "id": 128507,
+      "name": "仁心解碼",
+      "nameCN": "仁心解码",
+      "date": "2011-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128508,
+      "name": "仁心解碼II",
+      "nameCN": "仁心解码II",
+      "date": "2013-03-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128507,
+      "dst": 128508
+    },
+    {
+      "relateString": "前传",
+      "src": 128508,
+      "dst": 128507
+    }
+  ]
 }

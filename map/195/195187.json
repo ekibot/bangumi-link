@@ -1,77 +1,73 @@
 {
- "id": 195187,
- "node": [
-  {
-   "id": 195187,
-   "name": "怪物公寓",
-   "nameCN": "怪物公寓",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/42/195187_8JnoJ.jpg",
-   "date": "2016-10-14",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 229099,
-   "name": "怪物公寓 第2季",
-   "nameCN": "怪物公寓 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/9d/229099_Z2Z8N.jpg",
-   "date": "2017-11-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 306250,
-   "name": "怪物公寓 第3季",
-   "nameCN": "怪物公寓 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/3a/306250_V588p.jpg",
-   "date": "2019-05-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 311844,
-   "name": "怪物公寓之崭新生活",
-   "nameCN": "怪物公寓之崭新生活",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/2e/311844_B55Jc.jpg",
-   "date": "2020-07-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195187,
-   "dst": 229099
-  },
-  {
-   "relate": "前传",
-   "src": 229099,
-   "dst": 195187
-  },
-  {
-   "relate": "续集",
-   "src": 229099,
-   "dst": 306250
-  },
-  {
-   "relate": "前传",
-   "src": 306250,
-   "dst": 229099
-  },
-  {
-   "relate": "续集",
-   "src": 306250,
-   "dst": 311844
-  },
-  {
-   "relate": "前传",
-   "src": 311844,
-   "dst": 306250
-  }
- ]
+  "id": "195187",
+  "node": [
+    {
+      "id": 195187,
+      "name": "怪物公寓",
+      "nameCN": "怪物公寓",
+      "date": "2016-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229099,
+      "name": "怪物公寓 第2季",
+      "nameCN": "怪物公寓 第二季",
+      "date": "2017-11-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 306250,
+      "name": "怪物公寓 第3季",
+      "nameCN": "怪物公寓 第三季",
+      "date": "2019-05-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 311844,
+      "name": "怪物公寓之崭新生活",
+      "nameCN": "怪物公寓之崭新生活",
+      "date": "2020-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195187,
+      "dst": 229099
+    },
+    {
+      "relateString": "前传",
+      "src": 229099,
+      "dst": 195187
+    },
+    {
+      "relateString": "续集",
+      "src": 229099,
+      "dst": 306250
+    },
+    {
+      "relateString": "前传",
+      "src": 306250,
+      "dst": 229099
+    },
+    {
+      "relateString": "续集",
+      "src": 306250,
+      "dst": 311844
+    },
+    {
+      "relateString": "前传",
+      "src": 311844,
+      "dst": 306250
+    }
+  ]
 }

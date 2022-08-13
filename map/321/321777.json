@@ -1,57 +1,73 @@
 {
- "id": 321777,
- "node": [
-  {
-   "id": 321777,
-   "name": "Hot And Lovely",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/d6/321777_43r4d.jpg",
-   "date": "2020-01-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 321778,
-   "name": "Hot And Lovely 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/b7/321778_i7Fix.jpg",
-   "date": "2020-03-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321779,
-   "name": "Hot And Lovely 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/8d/321779_R882f.jpg",
-   "date": "2020-05-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 321777,
-   "dst": 321778
-  },
-  {
-   "relate": "前传",
-   "src": 321778,
-   "dst": 321777
-  },
-  {
-   "relate": "续集",
-   "src": 321778,
-   "dst": 321779
-  },
-  {
-   "relate": "前传",
-   "src": 321779,
-   "dst": 321778
-  }
- ]
+  "id": "321777",
+  "node": [
+    {
+      "id": 321777,
+      "name": "Hot And Lovely",
+      "nameCN": "",
+      "date": "2020-01-08",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321778,
+      "name": "Hot And Lovely 2",
+      "nameCN": "",
+      "date": "2020-03-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321779,
+      "name": "Hot And Lovely 3",
+      "nameCN": "",
+      "date": "2020-05-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 390802,
+      "name": "Hot And Lovely 4",
+      "nameCN": "",
+      "date": "2021-09-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 321777,
+      "dst": 321778
+    },
+    {
+      "relateString": "前传",
+      "src": 321778,
+      "dst": 321777
+    },
+    {
+      "relateString": "续集",
+      "src": 321778,
+      "dst": 321779
+    },
+    {
+      "relateString": "前传",
+      "src": 321779,
+      "dst": 321778
+    },
+    {
+      "relateString": "续集",
+      "src": 321779,
+      "dst": 390802
+    },
+    {
+      "relateString": "前传",
+      "src": 390802,
+      "dst": 321779
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 12402,
- "node": [
-  {
-   "id": 12402,
-   "name": "ジャングルはいつもハレのちグゥ",
-   "nameCN": "热带雨林的爆笑生活",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/5a/12402_8FqFF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 64505,
-   "name": "ハレグゥ",
-   "nameCN": "哈雷阿布",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/de/64505_iO11z.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12402,
-   "dst": 64505
-  },
-  {
-   "relate": "前传",
-   "src": 64505,
-   "dst": 12402
-  }
- ]
+  "id": "12402",
+  "node": [
+    {
+      "id": 12402,
+      "name": "ジャングルはいつもハレのちグゥ",
+      "nameCN": "热带雨林的爆笑生活",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 64505,
+      "name": "ハレグゥ",
+      "nameCN": "哈雷阿布",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12402,
+      "dst": 64505
+    },
+    {
+      "relateString": "前传",
+      "src": 64505,
+      "dst": 12402
+    }
+  ]
 }

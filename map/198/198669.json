@@ -1,37 +1,35 @@
 {
- "id": 198669,
- "node": [
-  {
-   "id": 198669,
-   "name": "エジコイ！〜エジプト神と恋しよっ〜",
-   "nameCN": "埃及恋！〜和埃及神恋爱吧〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/e2/198669_N6QP8.jpg",
-   "date": "2016-01-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 198671,
-   "name": "エジコイ！～エジプト神と恋しよっ～【アイドル編】",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/ba/198671_Tjh35.jpg",
-   "date": "2016-09-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198669,
-   "dst": 198671
-  },
-  {
-   "relate": "前传",
-   "src": 198671,
-   "dst": 198669
-  }
- ]
+  "id": "198669",
+  "node": [
+    {
+      "id": 198669,
+      "name": "エジコイ！〜エジプト神と恋しよっ〜",
+      "nameCN": "埃及恋！〜和埃及神恋爱吧〜",
+      "date": "2016-01-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198671,
+      "name": "エジコイ！～エジプト神と恋しよっ～【アイドル編】",
+      "nameCN": "",
+      "date": "2016-09-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198669,
+      "dst": 198671
+    },
+    {
+      "relateString": "前传",
+      "src": 198671,
+      "dst": 198669
+    }
+  ]
 }

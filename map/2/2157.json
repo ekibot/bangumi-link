@@ -1,37 +1,35 @@
 {
- "id": 2157,
- "node": [
-  {
-   "id": 2157,
-   "name": "絶対彼氏 ～完全無欠の恋人ロボット～",
-   "nameCN": "绝对彼氏",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/42/2157_3eq2z.jpg",
-   "date": "2008-04-15",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 152094,
-   "name": "絶対彼氏 ～完全無欠の恋人ロボット～ 最終章スペシャル",
-   "nameCN": "绝对彼氏 最终章",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/7b/152094_wsEsF.jpg",
-   "date": "2009-03-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2157,
-   "dst": 152094
-  },
-  {
-   "relate": "前传",
-   "src": 152094,
-   "dst": 2157
-  }
- ]
+  "id": "2157",
+  "node": [
+    {
+      "id": 2157,
+      "name": "絶対彼氏 ～完全無欠の恋人ロボット～",
+      "nameCN": "绝对彼氏",
+      "date": "2008-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 152094,
+      "name": "絶対彼氏 ～完全無欠の恋人ロボット～ 最終章スペシャル",
+      "nameCN": "绝对彼氏 最终章",
+      "date": "2009-03-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2157,
+      "dst": 152094
+    },
+    {
+      "relateString": "前传",
+      "src": 152094,
+      "dst": 2157
+    }
+  ]
 }

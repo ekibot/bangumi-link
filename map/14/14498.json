@@ -1,68 +1,68 @@
 {
- "id": 14498,
- "node": [
-  {
-   "id": 14498,
-   "name": "BUNNYBLACK",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/5c/14498_X7z5u.jpg",
-   "date": "2010-07-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 33140,
-   "name": "BUNNYBLACK2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/b6/33140_Q23B3.jpg",
-   "date": "2012-01-27",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 67221,
-   "name": "BUNNYBLACK3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/56/67221_iO5M5.jpg",
-   "nameCN": "",
-   "date": "2013-06-21",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 122762,
-   "name": "悪魔娘の看板料理",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/87/122762_bGL5o.jpg",
-   "date": "2015-02-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14498,
-   "dst": 33140
-  },
-  {
-   "relate": "前传",
-   "src": 33140,
-   "dst": 14498
-  },
-  {
-   "relate": "续集",
-   "src": 33140,
-   "dst": 67221
-  },
-  {
-   "relate": "前传",
-   "src": 67221,
-   "dst": 33140
-  },
-  {
-   "relate": "主线故事",
-   "src": 122762,
-   "dst": 14498
-  }
- ]
+  "id": "14498",
+  "node": [
+    {
+      "id": 14498,
+      "name": "BUNNYBLACK",
+      "nameCN": "",
+      "date": "2010-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 33140,
+      "name": "BUNNYBLACK2",
+      "nameCN": "",
+      "date": "2012-01-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 67221,
+      "name": "BUNNYBLACK3",
+      "nameCN": "",
+      "date": "2013-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 122762,
+      "name": "悪魔娘の看板料理",
+      "nameCN": "",
+      "date": "2015-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14498,
+      "dst": 33140
+    },
+    {
+      "relateString": "前传",
+      "src": 33140,
+      "dst": 14498
+    },
+    {
+      "relateString": "续集",
+      "src": 33140,
+      "dst": 67221
+    },
+    {
+      "relateString": "前传",
+      "src": 67221,
+      "dst": 33140
+    },
+    {
+      "relateString": "主线故事",
+      "src": 122762,
+      "dst": 14498
+    }
+  ]
 }

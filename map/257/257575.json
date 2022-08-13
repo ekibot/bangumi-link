@@ -1,37 +1,35 @@
 {
- "id": 257575,
- "node": [
-  {
-   "id": 257575,
-   "name": "狼彼氏×天然彼女",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/f1/257575_MT905.jpg",
-   "date": "2017-05-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 257576,
-   "name": "続・狼彼氏×天然彼女",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/4d/257576_rRqQ0.jpg",
-   "date": "2017-08-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 257575,
-   "dst": 257576
-  },
-  {
-   "relate": "前传",
-   "src": 257576,
-   "dst": 257575
-  }
- ]
+  "id": "257575",
+  "node": [
+    {
+      "id": 257575,
+      "name": "狼彼氏×天然彼女",
+      "nameCN": "",
+      "date": "2017-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 257576,
+      "name": "続・狼彼氏×天然彼女",
+      "nameCN": "",
+      "date": "2017-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 257575,
+      "dst": 257576
+    },
+    {
+      "relateString": "前传",
+      "src": 257576,
+      "dst": 257575
+    }
+  ]
 }

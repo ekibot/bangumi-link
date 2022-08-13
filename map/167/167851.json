@@ -1,77 +1,73 @@
 {
- "id": 167851,
- "node": [
-  {
-   "id": 167851,
-   "name": "Madden NFL 16",
-   "nameCN": "麦登橄榄球16",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/67/167851_5sw75.jpg",
-   "date": "2015-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 167856,
-   "name": "Madden NFL 15",
-   "nameCN": "麦登橄榄球15",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/b2/167856_3Tug0.jpg",
-   "date": "2014-08-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 185087,
-   "name": "Madden NFL 17",
-   "nameCN": "职业橄榄球2017",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/c6/185087_sBZ1Y.jpg",
-   "date": "2016-08-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216693,
-   "name": "Madden NFL 18",
-   "nameCN": "麦登橄榄球18",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/48/216693_xIlKK.jpg",
-   "date": "2017-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 167851,
-   "dst": 167856
-  },
-  {
-   "relate": "续集",
-   "src": 167851,
-   "dst": 185087
-  },
-  {
-   "relate": "续集",
-   "src": 167856,
-   "dst": 167851
-  },
-  {
-   "relate": "前传",
-   "src": 185087,
-   "dst": 167851
-  },
-  {
-   "relate": "续集",
-   "src": 185087,
-   "dst": 216693
-  },
-  {
-   "relate": "前传",
-   "src": 216693,
-   "dst": 185087
-  }
- ]
+  "id": "167851",
+  "node": [
+    {
+      "id": 167851,
+      "name": "Madden NFL 16",
+      "nameCN": "麦登橄榄球16",
+      "date": "2015-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167856,
+      "name": "Madden NFL 15",
+      "nameCN": "麦登橄榄球15",
+      "date": "2014-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 185087,
+      "name": "Madden NFL 17",
+      "nameCN": "职业橄榄球2017",
+      "date": "2016-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216693,
+      "name": "Madden NFL 18",
+      "nameCN": "麦登橄榄球18",
+      "date": "2017-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 167851,
+      "dst": 167856
+    },
+    {
+      "relateString": "续集",
+      "src": 167851,
+      "dst": 185087
+    },
+    {
+      "relateString": "续集",
+      "src": 167856,
+      "dst": 167851
+    },
+    {
+      "relateString": "前传",
+      "src": 185087,
+      "dst": 167851
+    },
+    {
+      "relateString": "续集",
+      "src": 185087,
+      "dst": 216693
+    },
+    {
+      "relateString": "前传",
+      "src": 216693,
+      "dst": 185087
+    }
+  ]
 }

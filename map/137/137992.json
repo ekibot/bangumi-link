@@ -1,37 +1,35 @@
 {
- "id": 137992,
- "node": [
-  {
-   "id": 137992,
-   "name": "西暦2236年",
-   "nameCN": "西历2236年",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/52/137992_fR42p.jpg",
-   "date": "2014-12-30",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 272818,
-   "name": "西暦2236年の秘書",
-   "nameCN": "西历2236年的秘书",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/71/272818_rIJfj.jpg",
-   "date": "2013-12-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 137992,
-   "dst": 272818
-  },
-  {
-   "relate": "续集",
-   "src": 272818,
-   "dst": 137992
-  }
- ]
+  "id": "137992",
+  "node": [
+    {
+      "id": 137992,
+      "name": "西暦2236年",
+      "nameCN": "西历2236年",
+      "date": "2014-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 272818,
+      "name": "西暦2236年の秘書",
+      "nameCN": "西历2236年的秘书",
+      "date": "2013-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 137992,
+      "dst": 272818
+    },
+    {
+      "relateString": "续集",
+      "src": 272818,
+      "dst": 137992
+    }
+  ]
 }

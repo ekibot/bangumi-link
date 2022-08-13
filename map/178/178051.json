@@ -1,37 +1,33 @@
 {
- "id": 178051,
- "node": [
-  {
-   "id": 178051,
-   "name": "ハイスクール!奇面組",
-   "nameCN": "高校奇面组",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/60/178051_dJ1TO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 178058,
-   "name": "3年奇面組",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/28/178058_A595Z.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 178051,
-   "dst": 178058
-  },
-  {
-   "relate": "续集",
-   "src": 178058,
-   "dst": 178051
-  }
- ]
+  "id": "178051",
+  "node": [
+    {
+      "id": 178051,
+      "name": "ハイスクール!奇面組",
+      "nameCN": "高校奇面组",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 178058,
+      "name": "3年奇面組",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 178051,
+      "dst": 178058
+    },
+    {
+      "relateString": "续集",
+      "src": 178058,
+      "dst": 178051
+    }
+  ]
 }

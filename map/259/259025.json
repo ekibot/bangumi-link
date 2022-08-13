@@ -1,37 +1,33 @@
 {
- "id": 259025,
- "node": [
-  {
-   "id": 259025,
-   "name": "正チャンの冒険",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/37/259025_FZr3W.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 259033,
-   "name": "正チャンの其後",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/c8/259033_HX1nM.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 259025,
-   "dst": 259033
-  },
-  {
-   "relate": "前传",
-   "src": 259033,
-   "dst": 259025
-  }
- ]
+  "id": "259025",
+  "node": [
+    {
+      "id": 259025,
+      "name": "正チャンの冒険",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259033,
+      "name": "正チャンの其後",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 259025,
+      "dst": 259033
+    },
+    {
+      "relateString": "前传",
+      "src": 259033,
+      "dst": 259025
+    }
+  ]
 }

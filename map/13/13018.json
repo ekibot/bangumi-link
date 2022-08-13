@@ -1,37 +1,34 @@
 {
- "id": 13018,
- "node": [
-  {
-   "id": 13018,
-   "name": "Elona",
-   "nameCN": "伊洛纳",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/9d/13018_2xnnM.jpg",
-   "date": "2007-08-31",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 219110,
-   "name": "Elin",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/ac/219110_77fBl.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13018,
-   "dst": 219110
-  },
-  {
-   "relate": "前传",
-   "src": 219110,
-   "dst": 13018
-  }
- ]
+  "id": "13018",
+  "node": [
+    {
+      "id": 13018,
+      "name": "Elona",
+      "nameCN": "伊洛纳",
+      "date": "2007-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 219110,
+      "name": "Elin",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13018,
+      "dst": 219110
+    },
+    {
+      "relateString": "前传",
+      "src": 219110,
+      "dst": 13018
+    }
+  ]
 }

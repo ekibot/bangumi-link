@@ -1,122 +1,120 @@
 {
- "id": 311051,
- "node": [
-  {
-   "id": 311051,
-   "name": "Loose Lips（SIDE:rainy day）",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/09/311051_szNUs.jpg",
-   "date": "2020-06-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 322765,
-   "name": "LooseLipsシリーズ前日譚",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/9a/322765_XxVGd.jpg",
-   "date": "2020-07-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 322767,
-   "name": "Loose Lips(SIDE:cedie)",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-03-15"
-  },
-  {
-   "id": 322768,
-   "name": "番外編：Loose Lips（ep.Ed）",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/9b/322768_a53Th.jpg",
-   "date": "2020-05-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 367114,
-   "name": "Loose Lips（SIDE:sunny day）",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/6c/367114_11PXN.jpg",
-   "date": "2019-07-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 367115,
-   "name": "Loose Lips（SIDE:foggy）",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/53/367115_rE4Q4.jpg",
-   "date": "2021-07-20",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 367116,
-   "name": "Loose Lips（SIDE:Dry_Kissing）",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/40/367116_svas9.jpg",
-   "date": "2022-01-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 311051,
-   "dst": 322765
-  },
-  {
-   "relate": "续集",
-   "src": 311051,
-   "dst": 367114
-  },
-  {
-   "relate": "续集",
-   "src": 322765,
-   "dst": 311051
-  },
-  {
-   "relate": "主线故事",
-   "src": 322767,
-   "dst": 311051
-  },
-  {
-   "relate": "主线故事",
-   "src": 322768,
-   "dst": 311051
-  },
-  {
-   "relate": "前传",
-   "src": 367114,
-   "dst": 311051
-  },
-  {
-   "relate": "续集",
-   "src": 367114,
-   "dst": 367115
-  },
-  {
-   "relate": "前传",
-   "src": 367115,
-   "dst": 367114
-  },
-  {
-   "relate": "续集",
-   "src": 367115,
-   "dst": 367116
-  },
-  {
-   "relate": "前传",
-   "src": 367116,
-   "dst": 367115
-  }
- ]
+  "id": "311051",
+  "node": [
+    {
+      "id": 311051,
+      "name": "Loose Lips（SIDE:rainy day）",
+      "nameCN": "",
+      "date": "2020-06-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322765,
+      "name": "LooseLipsシリーズ前日譚",
+      "nameCN": "",
+      "date": "2020-07-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 367114,
+      "name": "Loose Lips（SIDE:sunny day）",
+      "nameCN": "",
+      "date": "2019-07-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322767,
+      "name": "Loose Lips(SIDE:cedie)",
+      "nameCN": "",
+      "date": "2020-03-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322768,
+      "name": "番外編：Loose Lips（ep.Ed）",
+      "nameCN": "",
+      "date": "2020-05-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 367115,
+      "name": "Loose Lips（SIDE:foggy）",
+      "nameCN": "",
+      "date": "2021-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 367116,
+      "name": "Loose Lips（SIDE:Dry_Kissing）",
+      "nameCN": "",
+      "date": "2022-01-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 311051,
+      "dst": 322765
+    },
+    {
+      "relateString": "续集",
+      "src": 311051,
+      "dst": 367114
+    },
+    {
+      "relateString": "续集",
+      "src": 322765,
+      "dst": 311051
+    },
+    {
+      "relateString": "主线故事",
+      "src": 322767,
+      "dst": 311051
+    },
+    {
+      "relateString": "主线故事",
+      "src": 322768,
+      "dst": 311051
+    },
+    {
+      "relateString": "前传",
+      "src": 367114,
+      "dst": 311051
+    },
+    {
+      "relateString": "续集",
+      "src": 367114,
+      "dst": 367115
+    },
+    {
+      "relateString": "前传",
+      "src": 367115,
+      "dst": 367114
+    },
+    {
+      "relateString": "续集",
+      "src": 367115,
+      "dst": 367116
+    },
+    {
+      "relateString": "前传",
+      "src": 367116,
+      "dst": 367115
+    }
+  ]
 }

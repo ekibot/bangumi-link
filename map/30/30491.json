@@ -1,57 +1,54 @@
 {
- "id": 30491,
- "node": [
-  {
-   "id": 30491,
-   "name": "アミテージ・ザ・サード",
-   "nameCN": "奥美帝III",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/a0/30491_CiYMA.jpg",
-   "date": "1995-02-25",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 30494,
-   "name": "アミテージ・ザ・サード POLY-MATRIX",
-   "nameCN": "奥美帝III POLY-MATRIX",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/31/30494_TEJ0Z.jpg",
-   "date": "1996-04-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 30495,
-   "name": "アミテージ・ザ・サード DUAL-MATRIX",
-   "nameCN": "奥美帝III DUAL-MATRIX",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/93/30495_8ZLL1.jpg",
-   "date": "2002-03-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 30491,
-   "dst": 30494
-  },
-  {
-   "relate": "续集",
-   "src": 30491,
-   "dst": 30495
-  },
-  {
-   "relate": "全集",
-   "src": 30494,
-   "dst": 30491
-  },
-  {
-   "relate": "前传",
-   "src": 30495,
-   "dst": 30491
-  }
- ]
+  "id": "30491",
+  "node": [
+    {
+      "id": 30491,
+      "name": "アミテージ・ザ・サード",
+      "nameCN": "奥美帝III",
+      "date": "1995-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 30494,
+      "name": "アミテージ・ザ・サード POLY-MATRIX",
+      "nameCN": "奥美帝III POLY-MATRIX",
+      "date": "1996-04-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 30495,
+      "name": "アミテージ・ザ・サード DUAL-MATRIX",
+      "nameCN": "奥美帝III DUAL-MATRIX",
+      "date": "2002-03-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 30491,
+      "dst": 30494
+    },
+    {
+      "relateString": "续集",
+      "src": 30491,
+      "dst": 30495
+    },
+    {
+      "relateString": "全集",
+      "src": 30494,
+      "dst": 30491
+    },
+    {
+      "relateString": "前传",
+      "src": 30495,
+      "dst": 30491
+    }
+  ]
 }

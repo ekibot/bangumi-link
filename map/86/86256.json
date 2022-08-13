@@ -1,37 +1,33 @@
 {
- "id": 86256,
- "node": [
-  {
-   "id": 86256,
-   "name": "RoboKill",
-   "nameCN": "杀戮机器",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/da/86256_XPYx1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 86259,
-   "name": "RoboKill 2",
-   "nameCN": "杀戮机器2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/30/86259_L1eOf.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86256,
-   "dst": 86259
-  },
-  {
-   "relate": "前传",
-   "src": 86259,
-   "dst": 86256
-  }
- ]
+  "id": "86256",
+  "node": [
+    {
+      "id": 86256,
+      "name": "RoboKill",
+      "nameCN": "杀戮机器",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 86259,
+      "name": "RoboKill 2",
+      "nameCN": "杀戮机器2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86256,
+      "dst": 86259
+    },
+    {
+      "relateString": "前传",
+      "src": 86259,
+      "dst": 86256
+    }
+  ]
 }

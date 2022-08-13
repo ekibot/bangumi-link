@@ -1,37 +1,35 @@
 {
- "id": 241967,
- "node": [
-  {
-   "id": 241967,
-   "name": "Four of a kind",
-   "nameCN": "四牌士",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/22/241967_S2EB2.jpg",
-   "date": "2018-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 291844,
-   "name": "Four of a kind 新シリーズ",
-   "nameCN": "四牌士 新系列",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/d0/291844_qvn23.jpg",
-   "date": "2019-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 241967,
-   "dst": 291844
-  },
-  {
-   "relate": "前传",
-   "src": 291844,
-   "dst": 241967
-  }
- ]
+  "id": "241967",
+  "node": [
+    {
+      "id": 241967,
+      "name": "Four of a kind",
+      "nameCN": "四牌士",
+      "date": "2018-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 291844,
+      "name": "Four of a kind 新シリーズ",
+      "nameCN": "四牌士 新系列",
+      "date": "2019-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 241967,
+      "dst": 291844
+    },
+    {
+      "relateString": "前传",
+      "src": 291844,
+      "dst": 241967
+    }
+  ]
 }

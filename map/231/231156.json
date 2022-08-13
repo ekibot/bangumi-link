@@ -1,37 +1,34 @@
 {
- "id": 231156,
- "node": [
-  {
-   "id": 231156,
-   "name": "プレゼント",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/da/231156_MFRFw.jpg",
-   "date": "1991-10-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231157,
-   "name": "プレゼント２",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/41/231157_N6Nt0.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231156,
-   "dst": 231157
-  },
-  {
-   "relate": "前传",
-   "src": 231157,
-   "dst": 231156
-  }
- ]
+  "id": "231156",
+  "node": [
+    {
+      "id": 231156,
+      "name": "プレゼント",
+      "nameCN": "",
+      "date": "1991-10-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231157,
+      "name": "プレゼント２",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231156,
+      "dst": 231157
+    },
+    {
+      "relateString": "前传",
+      "src": 231157,
+      "dst": 231156
+    }
+  ]
 }

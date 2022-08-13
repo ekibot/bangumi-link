@@ -1,37 +1,35 @@
 {
- "id": 301663,
- "node": [
-  {
-   "id": 301663,
-   "name": "ノロワレ",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/5e/301663_5O91h.jpg",
-   "date": "2012-12-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 301664,
-   "name": "ノロワレ 怪奇作家真木夢人と幽霊マンション",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/a7/301664_V3H1E.jpg",
-   "date": "2015-06-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 301663,
-   "dst": 301664
-  },
-  {
-   "relate": "前传",
-   "src": 301664,
-   "dst": 301663
-  }
- ]
+  "id": "301663",
+  "node": [
+    {
+      "id": 301663,
+      "name": "ノロワレ",
+      "nameCN": "",
+      "date": "2012-12-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 301664,
+      "name": "ノロワレ 怪奇作家真木夢人と幽霊マンション",
+      "nameCN": "",
+      "date": "2015-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 301663,
+      "dst": 301664
+    },
+    {
+      "relateString": "前传",
+      "src": 301664,
+      "dst": 301663
+    }
+  ]
 }

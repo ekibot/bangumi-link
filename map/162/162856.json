@@ -1,57 +1,54 @@
 {
- "id": 162856,
- "node": [
-  {
-   "id": 162856,
-   "name": "パブリックスクール -檻の中の王-",
-   "nameCN": "悖德學園1 籠中之王",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/79/162856_jp.jpg",
-   "date": "2015-10-27",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 216232,
-   "name": "パブリックスクール -群れを出た小鳥-",
-   "nameCN": "悖德學園2 離群之鳥",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/60/216232_5lOdO.jpg",
-   "date": "2015-11-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 216233,
-   "name": "パブリックスクール -八年後の王と小鳥-",
-   "nameCN": "悖德學園3 -八年後的王與小鳥-",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/21/216233_QJxwf.jpg",
-   "date": "2016-06-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 162856,
-   "dst": 216232
-  },
-  {
-   "relate": "前传",
-   "src": 216232,
-   "dst": 162856
-  },
-  {
-   "relate": "续集",
-   "src": 216232,
-   "dst": 216233
-  },
-  {
-   "relate": "前传",
-   "src": 216233,
-   "dst": 216232
-  }
- ]
+  "id": "162856",
+  "node": [
+    {
+      "id": 162856,
+      "name": "パブリックスクール -檻の中の王-",
+      "nameCN": "悖德學園1 籠中之王",
+      "date": "2015-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 216232,
+      "name": "パブリックスクール -群れを出た小鳥-",
+      "nameCN": "悖德學園2 離群之鳥",
+      "date": "2015-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 216233,
+      "name": "パブリックスクール -八年後の王と小鳥-",
+      "nameCN": "悖德學園3 -八年後的王與小鳥-",
+      "date": "2016-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 162856,
+      "dst": 216232
+    },
+    {
+      "relateString": "前传",
+      "src": 216232,
+      "dst": 162856
+    },
+    {
+      "relateString": "续集",
+      "src": 216232,
+      "dst": 216233
+    },
+    {
+      "relateString": "前传",
+      "src": 216233,
+      "dst": 216232
+    }
+  ]
 }

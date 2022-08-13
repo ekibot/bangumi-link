@@ -1,57 +1,54 @@
 {
- "id": 40547,
- "node": [
-  {
-   "id": 40547,
-   "name": "TRON: Uprising",
-   "nameCN": "创：崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/a6/40547_4nvnl.jpg",
-   "date": "2012-05-20",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 86423,
-   "name": "TRON: Legacy",
-   "nameCN": "创：战纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/96/86423_4IUla.jpg",
-   "date": "2010-12-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 128937,
-   "name": "TRON",
-   "nameCN": "电子世界争霸战",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/6e/128937_DZApb.jpg",
-   "date": "1982-07-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 40547,
-   "dst": 86423
-  },
-  {
-   "relate": "番外篇",
-   "src": 86423,
-   "dst": 40547
-  },
-  {
-   "relate": "前传",
-   "src": 86423,
-   "dst": 128937
-  },
-  {
-   "relate": "续集",
-   "src": 128937,
-   "dst": 86423
-  }
- ]
+  "id": "40547",
+  "node": [
+    {
+      "id": 40547,
+      "name": "TRON: Uprising",
+      "nameCN": "创：崛起",
+      "date": "2012-05-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 86423,
+      "name": "TRON: Legacy",
+      "nameCN": "创：战纪",
+      "date": "2010-12-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 128937,
+      "name": "TRON",
+      "nameCN": "电子世界争霸战",
+      "date": "1982-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 40547,
+      "dst": 86423
+    },
+    {
+      "relateString": "番外篇",
+      "src": 86423,
+      "dst": 40547
+    },
+    {
+      "relateString": "前传",
+      "src": 86423,
+      "dst": 128937
+    },
+    {
+      "relateString": "续集",
+      "src": 128937,
+      "dst": 86423
+    }
+  ]
 }

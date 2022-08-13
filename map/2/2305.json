@@ -1,97 +1,92 @@
 {
- "id": 2305,
- "node": [
-  {
-   "id": 2305,
-   "name": "Gundam Battle Universe",
-   "nameCN": "高达 战斗领域",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/2c/2305_54rr5.jpg",
-   "date": "2008-07-17",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 4375,
-   "name": "Gundam Battle Chronicle",
-   "nameCN": "高达战争：编年史",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/6a/4375_R5Rjj.jpg",
-   "date": "2007-10-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 16818,
-   "name": "Gundam Assault Survive",
-   "nameCN": "高达 生存突击",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/c8/16818_X7VaY.jpg",
-   "date": "2010-03-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 16819,
-   "name": "Gundam Battle Royale",
-   "nameCN": "高达混战",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/b3/16819_9RrR8.jpg",
-   "date": "2006-10-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 16820,
-   "name": "Gundam Battle Tactics",
-   "nameCN": "高达策略战",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/18/16820_4kz2S.jpg",
-   "date": "2005-09-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2305,
-   "dst": 4375
-  },
-  {
-   "relate": "续集",
-   "src": 2305,
-   "dst": 16818
-  },
-  {
-   "relate": "续集",
-   "src": 4375,
-   "dst": 2305
-  },
-  {
-   "relate": "前传",
-   "src": 4375,
-   "dst": 16819
-  },
-  {
-   "relate": "前传",
-   "src": 16818,
-   "dst": 2305
-  },
-  {
-   "relate": "续集",
-   "src": 16819,
-   "dst": 4375
-  },
-  {
-   "relate": "前传",
-   "src": 16819,
-   "dst": 16820
-  },
-  {
-   "relate": "续集",
-   "src": 16820,
-   "dst": 16819
-  }
- ]
+  "id": "2305",
+  "node": [
+    {
+      "id": 2305,
+      "name": "Gundam Battle Universe",
+      "nameCN": "高达 战斗领域",
+      "date": "2008-07-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 4375,
+      "name": "Gundam Battle Chronicle",
+      "nameCN": "高达战争：编年史",
+      "date": "2007-10-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 16818,
+      "name": "Gundam Assault Survive",
+      "nameCN": "高达 生存突击",
+      "date": "2010-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 16819,
+      "name": "Gundam Battle Royale",
+      "nameCN": "高达混战",
+      "date": "2006-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 16820,
+      "name": "Gundam Battle Tactics",
+      "nameCN": "高达策略战",
+      "date": "2005-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2305,
+      "dst": 4375
+    },
+    {
+      "relateString": "续集",
+      "src": 2305,
+      "dst": 16818
+    },
+    {
+      "relateString": "续集",
+      "src": 4375,
+      "dst": 2305
+    },
+    {
+      "relateString": "前传",
+      "src": 4375,
+      "dst": 16819
+    },
+    {
+      "relateString": "前传",
+      "src": 16818,
+      "dst": 2305
+    },
+    {
+      "relateString": "续集",
+      "src": 16819,
+      "dst": 4375
+    },
+    {
+      "relateString": "前传",
+      "src": 16819,
+      "dst": 16820
+    },
+    {
+      "relateString": "续集",
+      "src": 16820,
+      "dst": 16819
+    }
+  ]
 }

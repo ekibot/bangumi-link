@@ -1,37 +1,34 @@
 {
- "id": 27250,
- "node": [
-  {
-   "id": 27250,
-   "name": "俺の屍を越えてゆけ",
-   "nameCN": "越过我的尸体",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/4c/27250_Qkc6u.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 102112,
-   "name": "俺の屍を越えてゆけ2",
-   "nameCN": "跨越我的尸体2",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/d2/102112_szQYX.jpg",
-   "date": "2014-07-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 27250,
-   "dst": 102112
-  },
-  {
-   "relate": "前传",
-   "src": 102112,
-   "dst": 27250
-  }
- ]
+  "id": "27250",
+  "node": [
+    {
+      "id": 27250,
+      "name": "俺の屍を越えてゆけ",
+      "nameCN": "越过我的尸体",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 102112,
+      "name": "俺の屍を越えてゆけ2",
+      "nameCN": "跨越我的尸体2",
+      "date": "2014-07-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 27250,
+      "dst": 102112
+    },
+    {
+      "relateString": "前传",
+      "src": 102112,
+      "dst": 27250
+    }
+  ]
 }

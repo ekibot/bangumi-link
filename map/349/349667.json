@@ -1,37 +1,35 @@
 {
- "id": 349667,
- "node": [
-  {
-   "id": 349667,
-   "name": "スニーカーすとりいと",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/a1/349667_01174.jpg",
-   "date": "1981-08-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 349668,
-   "name": "続・スニーカーすとりいと",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/14/349668_pW1aa.jpg",
-   "date": "1982-09-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 349667,
-   "dst": 349668
-  },
-  {
-   "relate": "前传",
-   "src": 349668,
-   "dst": 349667
-  }
- ]
+  "id": "349667",
+  "node": [
+    {
+      "id": 349667,
+      "name": "スニーカーすとりいと",
+      "nameCN": "",
+      "date": "1981-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 349668,
+      "name": "続・スニーカーすとりいと",
+      "nameCN": "",
+      "date": "1982-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 349667,
+      "dst": 349668
+    },
+    {
+      "relateString": "前传",
+      "src": 349668,
+      "dst": 349667
+    }
+  ]
 }

@@ -1,34 +1,35 @@
 {
- "id": 17025,
- "node": [
-  {
-   "id": 17025,
-   "name": "your diary",
-   "nameCN": "你的日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/f2/17025_E1KAs.jpg",
-   "date": "2011-09-30",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 101803,
-   "name": "your diary ＋H",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/d6/101803_KBy9V.jpg",
-   "date": "2014-05-30",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 17025,
-   "dst": 101803
-  },
-  {
-   "relate": "不同演绎",
-   "src": 101803,
-   "dst": 17025
-  }
- ]
+  "id": "17025",
+  "node": [
+    {
+      "id": 17025,
+      "name": "your diary",
+      "nameCN": "你的日记",
+      "date": "2011-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 101803,
+      "name": "your diary ＋H",
+      "nameCN": "",
+      "date": "2014-05-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 17025,
+      "dst": 101803
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 101803,
+      "dst": 17025
+    }
+  ]
 }

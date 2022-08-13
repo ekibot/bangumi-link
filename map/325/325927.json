@@ -1,57 +1,51 @@
 {
- "id": 325927,
- "node": [
-  {
-   "id": 325927,
-   "name": "勇者鬥惡龍",
-   "nameCN": "勇者斗恶龙（精讯）",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/66/325927_fy2MM.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 325929,
-   "name": "勇者鬥惡龍Ⅱ",
-   "nameCN": "勇者斗恶龙2（精讯）",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/f8/325929_g44b0.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 325931,
-   "name": "勇者鬥惡龍Ⅲ 傳說的終章",
-   "nameCN": "勇者斗恶龙3 传说的终章（精讯）",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/5b/325931_O62g5.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 325927,
-   "dst": 325929
-  },
-  {
-   "relate": "前传",
-   "src": 325929,
-   "dst": 325927
-  },
-  {
-   "relate": "续集",
-   "src": 325929,
-   "dst": 325931
-  },
-  {
-   "relate": "前传",
-   "src": 325931,
-   "dst": 325929
-  }
- ]
+  "id": "325927",
+  "node": [
+    {
+      "id": 325927,
+      "name": "勇者鬥惡龍",
+      "nameCN": "勇者斗恶龙（精讯）",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325929,
+      "name": "勇者鬥惡龍Ⅱ",
+      "nameCN": "勇者斗恶龙2（精讯）",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325931,
+      "name": "勇者鬥惡龍Ⅲ 傳說的終章",
+      "nameCN": "勇者斗恶龙3 传说的终章（精讯）",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 325927,
+      "dst": 325929
+    },
+    {
+      "relateString": "前传",
+      "src": 325929,
+      "dst": 325927
+    },
+    {
+      "relateString": "续集",
+      "src": 325929,
+      "dst": 325931
+    },
+    {
+      "relateString": "前传",
+      "src": 325931,
+      "dst": 325929
+    }
+  ]
 }

@@ -1,42 +1,44 @@
 {
- "id": 217878,
- "node": [
-  {
-   "id": 217878,
-   "name": "巫女さんファイター涼子ちゃん 〜巫女さん細腕繁盛記外伝〜",
-   "nameCN": "巫女战士小凉：巫女细腕繁盛记外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/b9/217878_u8228.jpg",
-   "date": "2006-07-28",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224562,
-   "name": "巫女さん細腕繁盛記",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/7a/224562_m1m2l.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 224564,
-   "name": "巫女さん細腕繁盛記えくすとら",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/fa/224564_MxNnm.jpg",
-   "date": "2004-12-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 217878,
-   "dst": 224562
-  },
-  {
-   "relate": "主线故事",
-   "src": 224564,
-   "dst": 224562
-  }
- ]
+  "id": "217878",
+  "node": [
+    {
+      "id": 217878,
+      "name": "巫女さんファイター涼子ちゃん 〜巫女さん細腕繁盛記外伝〜",
+      "nameCN": "巫女战士小凉：巫女细腕繁盛记外传",
+      "date": "2006-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224562,
+      "name": "巫女さん細腕繁盛記",
+      "nameCN": "",
+      "date": "2004-06-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224564,
+      "name": "巫女さん細腕繁盛記えくすとら",
+      "nameCN": "",
+      "date": "2004-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 217878,
+      "dst": 224562
+    },
+    {
+      "relateString": "主线故事",
+      "src": 224564,
+      "dst": 224562
+    }
+  ]
 }

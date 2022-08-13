@@ -1,37 +1,35 @@
 {
- "id": 185796,
- "node": [
-  {
-   "id": 185796,
-   "name": "Anodyne",
-   "nameCN": "镇痛",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/be/185796_9oRwS.jpg",
-   "date": "2013-03-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 302038,
-   "name": "Anodyne 2: Return to Dust",
-   "nameCN": "镇痛2：归于尘土",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/f5/302038_1J4W4.jpg",
-   "date": "2019-08-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185796,
-   "dst": 302038
-  },
-  {
-   "relate": "前传",
-   "src": 302038,
-   "dst": 185796
-  }
- ]
+  "id": "185796",
+  "node": [
+    {
+      "id": 185796,
+      "name": "Anodyne",
+      "nameCN": "镇痛",
+      "date": "2013-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302038,
+      "name": "Anodyne 2: Return to Dust",
+      "nameCN": "镇痛2：归于尘土",
+      "date": "2019-08-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185796,
+      "dst": 302038
+    },
+    {
+      "relateString": "前传",
+      "src": 302038,
+      "dst": 185796
+    }
+  ]
 }

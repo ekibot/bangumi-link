@@ -1,57 +1,54 @@
 {
- "id": 44119,
- "node": [
-  {
-   "id": 44119,
-   "name": "風の探索者～Grand Slam～",
-   "nameCN": "风之探索者",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/21/44119_6TV3D.jpg",
-   "date": "2000-08-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84160,
-   "name": "風の探索者 大陸編 ～Eternal Flame～",
-   "nameCN": "风之探索者 大陆篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/e1/84160_7XpaK.jpg",
-   "date": "2002-08-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 84161,
-   "name": "風の探索者2 ～Shadow Kingdom～",
-   "nameCN": "风之探索者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/8f/84161_3qmYn.jpg",
-   "date": "2003-07-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44119,
-   "dst": 84160
-  },
-  {
-   "relate": "前传",
-   "src": 84160,
-   "dst": 44119
-  },
-  {
-   "relate": "续集",
-   "src": 84160,
-   "dst": 84161
-  },
-  {
-   "relate": "前传",
-   "src": 84161,
-   "dst": 84160
-  }
- ]
+  "id": "44119",
+  "node": [
+    {
+      "id": 44119,
+      "name": "風の探索者～Grand Slam～",
+      "nameCN": "风之探索者",
+      "date": "2000-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84160,
+      "name": "風の探索者 大陸編 ～Eternal Flame～",
+      "nameCN": "风之探索者 大陆篇",
+      "date": "2002-08-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84161,
+      "name": "風の探索者2 ～Shadow Kingdom～",
+      "nameCN": "风之探索者2",
+      "date": "2003-07-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44119,
+      "dst": 84160
+    },
+    {
+      "relateString": "前传",
+      "src": 84160,
+      "dst": 44119
+    },
+    {
+      "relateString": "续集",
+      "src": 84160,
+      "dst": 84161
+    },
+    {
+      "relateString": "前传",
+      "src": 84161,
+      "dst": 84160
+    }
+  ]
 }

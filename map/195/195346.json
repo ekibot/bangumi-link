@@ -1,57 +1,54 @@
 {
- "id": 195346,
- "node": [
-  {
-   "id": 195346,
-   "name": "ハリガネサービス",
-   "nameCN": "钢索发球",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/a5/195346_W20sP.jpg",
-   "date": "2014-09-08",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 263697,
-   "name": "ハリガネサービスACE",
-   "nameCN": "钢索发球ACE",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/c5/263697_OpuSl.jpg",
-   "date": "2019-04-08",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 369931,
-   "name": "ハリガネサービス外伝ヒュドラブレイク",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/23/369931_Qmrw2.jpg",
-   "date": "2022-01-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195346,
-   "dst": 263697
-  },
-  {
-   "relate": "前传",
-   "src": 263697,
-   "dst": 195346
-  },
-  {
-   "relate": "番外篇",
-   "src": 263697,
-   "dst": 369931
-  },
-  {
-   "relate": "主线故事",
-   "src": 369931,
-   "dst": 263697
-  }
- ]
+  "id": "195346",
+  "node": [
+    {
+      "id": 195346,
+      "name": "ハリガネサービス",
+      "nameCN": "钢索发球",
+      "date": "2014-09-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 263697,
+      "name": "ハリガネサービスACE",
+      "nameCN": "钢索发球ACE",
+      "date": "2019-04-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 369931,
+      "name": "ハリガネサービス外伝ヒュドラブレイク",
+      "nameCN": "",
+      "date": "2022-01-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195346,
+      "dst": 263697
+    },
+    {
+      "relateString": "前传",
+      "src": 263697,
+      "dst": 195346
+    },
+    {
+      "relateString": "番外篇",
+      "src": 263697,
+      "dst": 369931
+    },
+    {
+      "relateString": "主线故事",
+      "src": 369931,
+      "dst": 263697
+    }
+  ]
 }

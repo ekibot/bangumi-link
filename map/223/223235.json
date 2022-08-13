@@ -1,77 +1,73 @@
 {
- "id": 223235,
- "node": [
-  {
-   "id": 223235,
-   "name": "末世觉醒之入侵",
-   "nameCN": "末世觉醒之入侵",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/d6/223235_P60CP.jpg",
-   "date": "2018-05-24",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 256721,
-   "name": "末世觉醒之入侵 第一季·下",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/3a/256721_uX66s.jpg",
-   "date": "2019-07-11",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 306908,
-   "name": "末世觉醒之溯源",
-   "nameCN": "末世觉醒之溯源",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/74/306908_RRGRW.jpg",
-   "date": "2020-12-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 330886,
-   "name": "末世觉醒之溯源 续篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/9a/330886_yaTiz.jpg",
-   "date": "2021-04-13",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223235,
-   "dst": 256721
-  },
-  {
-   "relate": "前传",
-   "src": 256721,
-   "dst": 223235
-  },
-  {
-   "relate": "续集",
-   "src": 256721,
-   "dst": 306908
-  },
-  {
-   "relate": "前传",
-   "src": 306908,
-   "dst": 256721
-  },
-  {
-   "relate": "续集",
-   "src": 306908,
-   "dst": 330886
-  },
-  {
-   "relate": "前传",
-   "src": 330886,
-   "dst": 306908
-  }
- ]
+  "id": "223235",
+  "node": [
+    {
+      "id": 223235,
+      "name": "末世觉醒之入侵",
+      "nameCN": "末世觉醒之入侵",
+      "date": "2018-05-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 256721,
+      "name": "末世觉醒之入侵 第一季·下",
+      "nameCN": "",
+      "date": "2019-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 306908,
+      "name": "末世觉醒之溯源",
+      "nameCN": "末世觉醒之溯源",
+      "date": "2020-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 330886,
+      "name": "末世觉醒之溯源 续篇",
+      "nameCN": "",
+      "date": "2021-04-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223235,
+      "dst": 256721
+    },
+    {
+      "relateString": "前传",
+      "src": 256721,
+      "dst": 223235
+    },
+    {
+      "relateString": "续集",
+      "src": 256721,
+      "dst": 306908
+    },
+    {
+      "relateString": "前传",
+      "src": 306908,
+      "dst": 256721
+    },
+    {
+      "relateString": "续集",
+      "src": 306908,
+      "dst": 330886
+    },
+    {
+      "relateString": "前传",
+      "src": 330886,
+      "dst": 306908
+    }
+  ]
 }

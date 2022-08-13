@@ -1,37 +1,35 @@
 {
- "id": 57363,
- "node": [
-  {
-   "id": 57363,
-   "name": "信長のシェフ",
-   "nameCN": "信长的主厨",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/99/57363_2h77e.jpg",
-   "date": "2013-01-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 106086,
-   "name": "信長のシェフ 2",
-   "nameCN": "信长的主厨 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/26/106086_7mBEf.jpg",
-   "date": "2014-07-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 57363,
-   "dst": 106086
-  },
-  {
-   "relate": "前传",
-   "src": 106086,
-   "dst": 57363
-  }
- ]
+  "id": "57363",
+  "node": [
+    {
+      "id": 57363,
+      "name": "信長のシェフ",
+      "nameCN": "信长的主厨",
+      "date": "2013-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 106086,
+      "name": "信長のシェフ 2",
+      "nameCN": "信长的主厨 2",
+      "date": "2014-07-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 57363,
+      "dst": 106086
+    },
+    {
+      "relateString": "前传",
+      "src": 106086,
+      "dst": 57363
+    }
+  ]
 }

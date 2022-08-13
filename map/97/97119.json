@@ -1,37 +1,35 @@
 {
- "id": 97119,
- "node": [
-  {
-   "id": 97119,
-   "name": "Dead Trigger",
-   "nameCN": "死亡扳机",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/ff/97119_R7Bro.jpg",
-   "date": "2012-06-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 97295,
-   "name": "Dead Trigger 2",
-   "nameCN": "死亡扳机2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/24/97295_0SjW0.jpg",
-   "date": "2013-10-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 97119,
-   "dst": 97295
-  },
-  {
-   "relate": "前传",
-   "src": 97295,
-   "dst": 97119
-  }
- ]
+  "id": "97119",
+  "node": [
+    {
+      "id": 97119,
+      "name": "Dead Trigger",
+      "nameCN": "死亡扳机",
+      "date": "2012-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 97295,
+      "name": "Dead Trigger 2",
+      "nameCN": "死亡扳机2",
+      "date": "2013-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 97119,
+      "dst": 97295
+    },
+    {
+      "relateString": "前传",
+      "src": 97295,
+      "dst": 97119
+    }
+  ]
 }

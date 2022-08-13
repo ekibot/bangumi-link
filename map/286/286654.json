@@ -1,37 +1,35 @@
 {
- "id": 286654,
- "node": [
-  {
-   "id": 286654,
-   "name": "REAL⇔FAKE",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/44/286654_Vqxm1.jpg",
-   "date": "2019-09-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 322043,
-   "name": "REAL⇔FAKE 2nd STAGE",
-   "date": "2021-06-15",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/b9/322043_8Dy5O.jpg",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 286654,
-   "dst": 322043
-  },
-  {
-   "relate": "前传",
-   "src": 322043,
-   "dst": 286654
-  }
- ]
+  "id": "286654",
+  "node": [
+    {
+      "id": 286654,
+      "name": "REAL⇔FAKE",
+      "nameCN": "",
+      "date": "2019-09-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 322043,
+      "name": "REAL⇔FAKE 2nd STAGE",
+      "nameCN": "",
+      "date": "2021-06-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 286654,
+      "dst": 322043
+    },
+    {
+      "relateString": "前传",
+      "src": 322043,
+      "dst": 286654
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 341129,
- "node": [
-  {
-   "id": 341129,
-   "name": "三國志武將爭霸",
-   "nameCN": "三国志武将争霸",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/37/341129_n4658.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 341132,
-   "name": "三國志武將爭霸2",
-   "nameCN": "三国志武将争霸2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/8c/341132_RCZ6d.jpg",
-   "date": "1995-02-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 341129,
-   "dst": 341132
-  },
-  {
-   "relate": "前传",
-   "src": 341132,
-   "dst": 341129
-  }
- ]
+  "id": "341129",
+  "node": [
+    {
+      "id": 341129,
+      "name": "三國志武將爭霸",
+      "nameCN": "三国志武将争霸",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 341132,
+      "name": "三國志武將爭霸2",
+      "nameCN": "三国志武将争霸2",
+      "date": "1995-02-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 341129,
+      "dst": 341132
+    },
+    {
+      "relateString": "前传",
+      "src": 341132,
+      "dst": 341129
+    }
+  ]
 }

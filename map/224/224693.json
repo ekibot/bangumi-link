@@ -1,62 +1,54 @@
 {
- "id": 224693,
- "node": [
-  {
-   "id": 90128,
-   "name": "同窓会 Yesterday Once More",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 224693,
-   "name": "同窓会refrain",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/22/224693_n3wF2.jpg",
-   "date": "2001-08-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 224738,
-   "name": "同窓会again",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/b2/224738_NLDCi.jpg",
-   "date": "2001-01-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 312882,
-   "name": "同窓会～Yesterday Once More～",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/cc/312882_xZw54.jpg",
-   "date": "1996-09-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 224693,
-   "dst": 224738
-  },
-  {
-   "relate": "续集",
-   "src": 224738,
-   "dst": 224693
-  },
-  {
-   "relate": "前传",
-   "src": 224738,
-   "dst": 312882
-  },
-  {
-   "relate": "续集",
-   "src": 312882,
-   "dst": 224738
-  }
- ]
+  "id": "224693",
+  "node": [
+    {
+      "id": 224693,
+      "name": "同窓会refrain",
+      "nameCN": "",
+      "date": "2001-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224738,
+      "name": "同窓会again",
+      "nameCN": "",
+      "date": "2001-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 312882,
+      "name": "同窓会～Yesterday Once More～",
+      "nameCN": "",
+      "date": "1996-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 224693,
+      "dst": 224738
+    },
+    {
+      "relateString": "续集",
+      "src": 224738,
+      "dst": 224693
+    },
+    {
+      "relateString": "前传",
+      "src": 224738,
+      "dst": 312882
+    },
+    {
+      "relateString": "续集",
+      "src": 312882,
+      "dst": 224738
+    }
+  ]
 }

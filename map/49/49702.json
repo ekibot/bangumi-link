@@ -1,0 +1,90 @@
+{
+  "id": "49702",
+  "node": [
+    {
+      "id": 49702,
+      "name": "ドカベン",
+      "nameCN": "大飯桶",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259536,
+      "name": "大甲子園",
+      "nameCN": "大甲子园",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259543,
+      "name": "ドカベン プロ野球編",
+      "nameCN": "",
+      "date": "1995-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259541,
+      "name": "ドカベン スーパースターズ編",
+      "nameCN": "",
+      "date": "2004-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259542,
+      "name": "ドカベン ドリームトーナメント編",
+      "nameCN": "",
+      "date": "2012-09-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49702,
+      "dst": 259536
+    },
+    {
+      "relateString": "前传",
+      "src": 259536,
+      "dst": 49702
+    },
+    {
+      "relateString": "续集",
+      "src": 259536,
+      "dst": 259543
+    },
+    {
+      "relateString": "续集",
+      "src": 259541,
+      "dst": 259542
+    },
+    {
+      "relateString": "前传",
+      "src": 259541,
+      "dst": 259543
+    },
+    {
+      "relateString": "前传",
+      "src": 259542,
+      "dst": 259541
+    },
+    {
+      "relateString": "前传",
+      "src": 259543,
+      "dst": 259536
+    },
+    {
+      "relateString": "续集",
+      "src": 259543,
+      "dst": 259541
+    }
+  ]
+}

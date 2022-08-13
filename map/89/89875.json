@@ -1,97 +1,91 @@
 {
- "id": 89875,
- "node": [
-  {
-   "id": 89875,
-   "name": "Robotech",
-   "nameCN": "太空堡垒",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/ef/89875_IIK17.jpg",
-   "date": "1985-03-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 89876,
-   "name": "Robotech: The Movie",
-   "nameCN": "太空堡垒：未说的故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/fa/89876_yD1Yp.jpg",
-   "date": "1986-07-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 89879,
-   "name": "Robotech II: The Sentinels",
-   "nameCN": "太空堡垒II：哨兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/59/89879_Sgj5U.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 89880,
-   "name": "Robotech: The Shadow Chronicles",
-   "nameCN": "太空堡垒：暗影编年",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/3f/89880_4O1l1.jpg",
-   "date": "2007-01-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 89881,
-   "name": "Robotech: Love Live Alive",
-   "nameCN": "太空堡垒：烽火情歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/ba/89881_o0VjQ.jpg",
-   "date": "2013-07-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 89875,
-   "dst": 89876
-  },
-  {
-   "relate": "续集",
-   "src": 89875,
-   "dst": 89879
-  },
-  {
-   "relate": "续集",
-   "src": 89875,
-   "dst": 89880
-  },
-  {
-   "relate": "总集篇",
-   "src": 89875,
-   "dst": 89881
-  },
-  {
-   "relate": "主线故事",
-   "src": 89876,
-   "dst": 89875
-  },
-  {
-   "relate": "前传",
-   "src": 89879,
-   "dst": 89875
-  },
-  {
-   "relate": "前传",
-   "src": 89880,
-   "dst": 89875
-  },
-  {
-   "relate": "全集",
-   "src": 89881,
-   "dst": 89875
-  }
- ]
+  "id": "89875",
+  "node": [
+    {
+      "id": 89875,
+      "name": "Robotech",
+      "nameCN": "太空堡垒",
+      "date": "1985-03-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 89876,
+      "name": "Robotech: The Movie",
+      "nameCN": "太空堡垒：未说的故事",
+      "date": "1986-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 89879,
+      "name": "Robotech II: The Sentinels",
+      "nameCN": "太空堡垒II：哨兵",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 89880,
+      "name": "Robotech: The Shadow Chronicles",
+      "nameCN": "太空堡垒：暗影编年",
+      "date": "2007-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 89881,
+      "name": "Robotech: Love Live Alive",
+      "nameCN": "太空堡垒：烽火情歌",
+      "date": "2013-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 89875,
+      "dst": 89876
+    },
+    {
+      "relateString": "续集",
+      "src": 89875,
+      "dst": 89879
+    },
+    {
+      "relateString": "续集",
+      "src": 89875,
+      "dst": 89880
+    },
+    {
+      "relateString": "总集篇",
+      "src": 89875,
+      "dst": 89881
+    },
+    {
+      "relateString": "主线故事",
+      "src": 89876,
+      "dst": 89875
+    },
+    {
+      "relateString": "前传",
+      "src": 89879,
+      "dst": 89875
+    },
+    {
+      "relateString": "前传",
+      "src": 89880,
+      "dst": 89875
+    },
+    {
+      "relateString": "全集",
+      "src": 89881,
+      "dst": 89875
+    }
+  ]
 }

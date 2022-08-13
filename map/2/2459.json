@@ -1,97 +1,92 @@
 {
- "id": 2459,
- "node": [
-  {
-   "id": 2459,
-   "name": "ギャグマンガ日和3",
-   "nameCN": "搞笑漫画日和3",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/db/2459_BeQ8d.jpg",
-   "date": "2008-03-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2460,
-   "name": "ギャグマンガ日和2",
-   "nameCN": "搞笑漫画日和2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/41/2460_78W8w.jpg",
-   "date": "2006-08-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 2461,
-   "name": "ギャグマンガ日和",
-   "nameCN": "搞笑漫画日和",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/05/2461_2poPa.jpg",
-   "date": "2005-02-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 3482,
-   "name": "ギャグマンガ日和＋",
-   "nameCN": "搞笑漫画日和＋",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/fe/3482_D1SG8.jpg",
-   "date": "2010-01-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 113443,
-   "name": "ギャグマンガ日和 ジャンプフェスタ2002版",
-   "nameCN": "搞笑漫画日和 Jump Festa 2002版",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/d8/113443_nzzs9.jpg",
-   "date": "2005-07-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2459,
-   "dst": 2460
-  },
-  {
-   "relate": "续集",
-   "src": 2459,
-   "dst": 3482
-  },
-  {
-   "relate": "续集",
-   "src": 2460,
-   "dst": 2459
-  },
-  {
-   "relate": "前传",
-   "src": 2460,
-   "dst": 2461
-  },
-  {
-   "relate": "续集",
-   "src": 2461,
-   "dst": 2460
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2461,
-   "dst": 113443
-  },
-  {
-   "relate": "前传",
-   "src": 3482,
-   "dst": 2459
-  },
-  {
-   "relate": "不同演绎",
-   "src": 113443,
-   "dst": 2461
-  }
- ]
+  "id": "2459",
+  "node": [
+    {
+      "id": 2459,
+      "name": "ギャグマンガ日和3",
+      "nameCN": "搞笑漫画日和3",
+      "date": "2008-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2460,
+      "name": "ギャグマンガ日和2",
+      "nameCN": "搞笑漫画日和2",
+      "date": "2006-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3482,
+      "name": "ギャグマンガ日和＋",
+      "nameCN": "搞笑漫画日和＋",
+      "date": "2010-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2461,
+      "name": "ギャグマンガ日和",
+      "nameCN": "搞笑漫画日和",
+      "date": "2005-02-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113443,
+      "name": "ギャグマンガ日和 ジャンプフェスタ2002版",
+      "nameCN": "搞笑漫画日和 Jump Festa 2002版",
+      "date": "2005-07-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2459,
+      "dst": 2460
+    },
+    {
+      "relateString": "续集",
+      "src": 2459,
+      "dst": 3482
+    },
+    {
+      "relateString": "续集",
+      "src": 2460,
+      "dst": 2459
+    },
+    {
+      "relateString": "前传",
+      "src": 2460,
+      "dst": 2461
+    },
+    {
+      "relateString": "续集",
+      "src": 2461,
+      "dst": 2460
+    },
+    {
+      "relateString": "前传",
+      "src": 2461,
+      "dst": 113443
+    },
+    {
+      "relateString": "前传",
+      "src": 3482,
+      "dst": 2459
+    },
+    {
+      "relateString": "续集",
+      "src": 113443,
+      "dst": 2461
+    }
+  ]
 }

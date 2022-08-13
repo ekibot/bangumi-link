@@ -1,57 +1,54 @@
 {
- "id": 192252,
- "node": [
-  {
-   "id": 192252,
-   "name": "異世界食堂",
-   "nameCN": "异世界食堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/49/192252_L9Ip9.jpg",
-   "date": "2017-07-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 226637,
-   "name": "異世界食堂で晩餐会！",
-   "nameCN": "在异世界食堂开始的晚餐会！",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/70/226637_SiaxA.jpg",
-   "date": "2017-09-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 333853,
-   "name": "異世界食堂２",
-   "nameCN": "异世界食堂2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/d6/333853_H0g6q.jpg",
-   "date": "2021-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 192252,
-   "dst": 226637
-  },
-  {
-   "relate": "续集",
-   "src": 192252,
-   "dst": 333853
-  },
-  {
-   "relate": "衍生",
-   "src": 226637,
-   "dst": 192252
-  },
-  {
-   "relate": "前传",
-   "src": 333853,
-   "dst": 192252
-  }
- ]
+  "id": "192252",
+  "node": [
+    {
+      "id": 192252,
+      "name": "異世界食堂",
+      "nameCN": "异世界食堂",
+      "date": "2017-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 226637,
+      "name": "異世界食堂で晩餐会！",
+      "nameCN": "在异世界食堂开始的晚餐会！",
+      "date": "2017-09-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 333853,
+      "name": "異世界食堂２",
+      "nameCN": "异世界食堂2",
+      "date": "2021-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 192252,
+      "dst": 226637
+    },
+    {
+      "relateString": "续集",
+      "src": 192252,
+      "dst": 333853
+    },
+    {
+      "relateString": "衍生",
+      "src": 226637,
+      "dst": 192252
+    },
+    {
+      "relateString": "前传",
+      "src": 333853,
+      "dst": 192252
+    }
+  ]
 }

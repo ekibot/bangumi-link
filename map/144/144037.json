@@ -1,37 +1,33 @@
 {
- "id": 144037,
- "node": [
-  {
-   "id": 144037,
-   "name": "恶魔实验",
-   "nameCN": "恶魔实验",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/2f/144037_41BHA.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 144038,
-   "name": "智慧刻印",
-   "nameCN": "智慧刻印",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/4f/144038_pINoO.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 144037,
-   "dst": 144038
-  },
-  {
-   "relate": "续集",
-   "src": 144038,
-   "dst": 144037
-  }
- ]
+  "id": "144037",
+  "node": [
+    {
+      "id": 144037,
+      "name": "恶魔实验",
+      "nameCN": "恶魔实验",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144038,
+      "name": "智慧刻印",
+      "nameCN": "智慧刻印",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 144037,
+      "dst": 144038
+    },
+    {
+      "relateString": "续集",
+      "src": 144038,
+      "dst": 144037
+    }
+  ]
 }

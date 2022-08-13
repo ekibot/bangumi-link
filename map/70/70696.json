@@ -1,57 +1,51 @@
 {
- "id": 70696,
- "node": [
-  {
-   "id": 70696,
-   "name": "コータローまかりとおる!",
-   "nameCN": "功夫旋风儿",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/1c/70696_18a8s.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 70697,
-   "name": "新・コータローまかりとおる! 柔道編",
-   "nameCN": "新功夫旋风儿 柔道篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/05/70697_eZCSD.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 70698,
-   "name": "コータローまかりとおる! L",
-   "nameCN": "新功夫旋风儿 L",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/0c/70698_m6tTL.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 70696,
-   "dst": 70697
-  },
-  {
-   "relate": "前传",
-   "src": 70697,
-   "dst": 70696
-  },
-  {
-   "relate": "续集",
-   "src": 70697,
-   "dst": 70698
-  },
-  {
-   "relate": "前传",
-   "src": 70698,
-   "dst": 70697
-  }
- ]
+  "id": "70696",
+  "node": [
+    {
+      "id": 70696,
+      "name": "コータローまかりとおる!",
+      "nameCN": "功夫旋风儿",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 70697,
+      "name": "新・コータローまかりとおる! 柔道編",
+      "nameCN": "新功夫旋风儿 柔道篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 70698,
+      "name": "コータローまかりとおる! L",
+      "nameCN": "新功夫旋风儿 L",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 70696,
+      "dst": 70697
+    },
+    {
+      "relateString": "前传",
+      "src": 70697,
+      "dst": 70696
+    },
+    {
+      "relateString": "续集",
+      "src": 70697,
+      "dst": 70698
+    },
+    {
+      "relateString": "前传",
+      "src": 70698,
+      "dst": 70697
+    }
+  ]
 }

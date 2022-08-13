@@ -1,77 +1,73 @@
 {
- "id": 247425,
- "node": [
-  {
-   "id": 247425,
-   "name": "吃鸡大作战",
-   "nameCN": "吃鸡大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/1b/247425_9BkB6.jpg",
-   "date": "2018-05-30",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 311777,
-   "name": "吃鸡大作战 第2季 沙岛生存大挑战",
-   "nameCN": "吃鸡大作战 第二季 沙岛生存大挑战",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/49/311777_sBBbD.jpg",
-   "date": "2019-07-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 311778,
-   "name": "吃鸡大作战 第3季 冰天雪地大挑战",
-   "nameCN": "吃鸡大作战 第三季 冰天雪地大挑战",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/71/311778_RsEWX.jpg",
-   "date": "2020-07-03",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 340940,
-   "name": "吃鸡大作战 第4季",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/2f/340940_XZ48F.jpg",
-   "date": "2021-07-03",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 247425,
-   "dst": 311777
-  },
-  {
-   "relate": "前传",
-   "src": 311777,
-   "dst": 247425
-  },
-  {
-   "relate": "续集",
-   "src": 311777,
-   "dst": 311778
-  },
-  {
-   "relate": "前传",
-   "src": 311778,
-   "dst": 311777
-  },
-  {
-   "relate": "续集",
-   "src": 311778,
-   "dst": 340940
-  },
-  {
-   "relate": "前传",
-   "src": 340940,
-   "dst": 311778
-  }
- ]
+  "id": "247425",
+  "node": [
+    {
+      "id": 247425,
+      "name": "吃鸡大作战",
+      "nameCN": "吃鸡大作战",
+      "date": "2018-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 311777,
+      "name": "吃鸡大作战 第2季 沙岛生存大挑战",
+      "nameCN": "吃鸡大作战 第二季 沙岛生存大挑战",
+      "date": "2019-07-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 311778,
+      "name": "吃鸡大作战 第3季 冰天雪地大挑战",
+      "nameCN": "吃鸡大作战 第三季 冰天雪地大挑战",
+      "date": "2020-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 340940,
+      "name": "吃鸡大作战 第4季",
+      "nameCN": "",
+      "date": "2021-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 247425,
+      "dst": 311777
+    },
+    {
+      "relateString": "前传",
+      "src": 311777,
+      "dst": 247425
+    },
+    {
+      "relateString": "续集",
+      "src": 311777,
+      "dst": 311778
+    },
+    {
+      "relateString": "前传",
+      "src": 311778,
+      "dst": 311777
+    },
+    {
+      "relateString": "续集",
+      "src": 311778,
+      "dst": 340940
+    },
+    {
+      "relateString": "前传",
+      "src": 340940,
+      "dst": 311778
+    }
+  ]
 }

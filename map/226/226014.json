@@ -1,77 +1,72 @@
 {
- "id": 226014,
- "node": [
-  {
-   "id": 226014,
-   "name": "地灵曲",
-   "nameCN": "地灵曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/c0/226014_qs593.jpg",
-   "date": "2017-09-19",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 276432,
-   "name": "地灵曲 楼兰完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/25/276432_ASmmA.jpg",
-   "date": "2019-02-25",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 281086,
-   "name": "地灵曲 南疆迷雾",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/12/281086_9CLfA.jpg",
-   "date": "2019-08-12",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 295811,
-   "name": "地灵曲 死亡迷沟",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226014,
-   "dst": 276432
-  },
-  {
-   "relate": "前传",
-   "src": 276432,
-   "dst": 226014
-  },
-  {
-   "relate": "续集",
-   "src": 276432,
-   "dst": 281086
-  },
-  {
-   "relate": "前传",
-   "src": 281086,
-   "dst": 276432
-  },
-  {
-   "relate": "续集",
-   "src": 281086,
-   "dst": 295811
-  },
-  {
-   "relate": "前传",
-   "src": 295811,
-   "dst": 281086
-  }
- ]
+  "id": "226014",
+  "node": [
+    {
+      "id": 226014,
+      "name": "地灵曲",
+      "nameCN": "地灵曲",
+      "date": "2017-09-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 276432,
+      "name": "地灵曲 楼兰完结篇",
+      "nameCN": "",
+      "date": "2019-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 281086,
+      "name": "地灵曲 南疆迷雾",
+      "nameCN": "",
+      "date": "2019-08-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 295811,
+      "name": "地灵曲 死亡迷沟",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226014,
+      "dst": 276432
+    },
+    {
+      "relateString": "前传",
+      "src": 276432,
+      "dst": 226014
+    },
+    {
+      "relateString": "续集",
+      "src": 276432,
+      "dst": 281086
+    },
+    {
+      "relateString": "前传",
+      "src": 281086,
+      "dst": 276432
+    },
+    {
+      "relateString": "续集",
+      "src": 281086,
+      "dst": 295811
+    },
+    {
+      "relateString": "前传",
+      "src": 295811,
+      "dst": 281086
+    }
+  ]
 }

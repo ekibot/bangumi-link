@@ -1,97 +1,87 @@
 {
- "id": 58766,
- "node": [
-  {
-   "id": 58766,
-   "name": "Dragonlance Chronicles",
-   "nameCN": "龙枪编年史",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/0c/58766_A77n5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 139119,
-   "name": "Dragonlance Legends",
-   "nameCN": "龙枪传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/d4/139119_p4UAE.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 139156,
-   "name": "The Second Generation",
-   "nameCN": "龙枪传承",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/07/139156_VO0mB.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 139157,
-   "name": "Dragons of Summer Flame",
-   "nameCN": "夏焰之巨龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/fc/139157_Sy7Oh.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 139159,
-   "name": "The War of Souls",
-   "nameCN": "灵魂之战",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/95/139159_h5vgj.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 58766,
-   "dst": 139119
-  },
-  {
-   "relate": "前传",
-   "src": 139119,
-   "dst": 58766
-  },
-  {
-   "relate": "续集",
-   "src": 139119,
-   "dst": 139156
-  },
-  {
-   "relate": "前传",
-   "src": 139156,
-   "dst": 139119
-  },
-  {
-   "relate": "续集",
-   "src": 139156,
-   "dst": 139157
-  },
-  {
-   "relate": "前传",
-   "src": 139157,
-   "dst": 139156
-  },
-  {
-   "relate": "续集",
-   "src": 139157,
-   "dst": 139159
-  },
-  {
-   "relate": "前传",
-   "src": 139159,
-   "dst": 139157
-  }
- ]
+  "id": "58766",
+  "node": [
+    {
+      "id": 58766,
+      "name": "Dragonlance Chronicles",
+      "nameCN": "龙枪编年史",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139119,
+      "name": "Dragonlance Legends",
+      "nameCN": "龙枪传奇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139156,
+      "name": "The Second Generation",
+      "nameCN": "龙枪传承",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139157,
+      "name": "Dragons of Summer Flame",
+      "nameCN": "夏焰之巨龙",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139159,
+      "name": "The War of Souls",
+      "nameCN": "灵魂之战",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 58766,
+      "dst": 139119
+    },
+    {
+      "relateString": "前传",
+      "src": 139119,
+      "dst": 58766
+    },
+    {
+      "relateString": "续集",
+      "src": 139119,
+      "dst": 139156
+    },
+    {
+      "relateString": "前传",
+      "src": 139156,
+      "dst": 139119
+    },
+    {
+      "relateString": "续集",
+      "src": 139156,
+      "dst": 139157
+    },
+    {
+      "relateString": "前传",
+      "src": 139157,
+      "dst": 139156
+    },
+    {
+      "relateString": "续集",
+      "src": 139157,
+      "dst": 139159
+    },
+    {
+      "relateString": "前传",
+      "src": 139159,
+      "dst": 139157
+    }
+  ]
 }

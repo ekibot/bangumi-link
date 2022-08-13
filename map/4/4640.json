@@ -1,77 +1,72 @@
 {
- "id": 4640,
- "node": [
-  {
-   "id": 4640,
-   "name": "Cougar Town Season 1",
-   "nameCN": "熟女镇 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/0c/4640_9GYgE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 9356,
-   "name": "Cougar Town Season 2",
-   "nameCN": "熟女镇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/d7/9356_d7LD3.jpg",
-   "date": "2010-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 34411,
-   "name": "Cougar Town Season 3",
-   "nameCN": "熟女镇 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/a7/34411_r6r8d.jpg",
-   "date": "2012-02-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 68848,
-   "name": "Cougar Town Season 4",
-   "nameCN": "熟女镇 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/0f/68848_X3JT5.jpg",
-   "date": "2013-01-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4640,
-   "dst": 9356
-  },
-  {
-   "relate": "前传",
-   "src": 9356,
-   "dst": 4640
-  },
-  {
-   "relate": "续集",
-   "src": 9356,
-   "dst": 34411
-  },
-  {
-   "relate": "前传",
-   "src": 34411,
-   "dst": 9356
-  },
-  {
-   "relate": "续集",
-   "src": 34411,
-   "dst": 68848
-  },
-  {
-   "relate": "前传",
-   "src": 68848,
-   "dst": 34411
-  }
- ]
+  "id": "4640",
+  "node": [
+    {
+      "id": 4640,
+      "name": "Cougar Town Season 1",
+      "nameCN": "熟女镇 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 9356,
+      "name": "Cougar Town Season 2",
+      "nameCN": "熟女镇 第二季",
+      "date": "2010-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 34411,
+      "name": "Cougar Town Season 3",
+      "nameCN": "熟女镇 第三季",
+      "date": "2012-02-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 68848,
+      "name": "Cougar Town Season 4",
+      "nameCN": "熟女镇 第四季",
+      "date": "2013-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4640,
+      "dst": 9356
+    },
+    {
+      "relateString": "前传",
+      "src": 9356,
+      "dst": 4640
+    },
+    {
+      "relateString": "续集",
+      "src": 9356,
+      "dst": 34411
+    },
+    {
+      "relateString": "前传",
+      "src": 34411,
+      "dst": 9356
+    },
+    {
+      "relateString": "续集",
+      "src": 34411,
+      "dst": 68848
+    },
+    {
+      "relateString": "前传",
+      "src": 68848,
+      "dst": 34411
+    }
+  ]
 }

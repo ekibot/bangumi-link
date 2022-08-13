@@ -1,37 +1,35 @@
 {
- "id": 177308,
- "node": [
-  {
-   "id": 177308,
-   "name": "ねこねこ日本史",
-   "nameCN": "猫猫日本史",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/f5/177308_uqtqQ.jpg",
-   "date": "2014-08-07",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 383692,
-   "name": "ねこねこ日本史 ヒーロー&amp;ヒロイン列伝",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/65/383692_d8855.jpg",
-   "type": 1,
-   "date": "2020-03-06",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 177308,
-   "dst": 383692
-  },
-  {
-   "relate": "主线故事",
-   "src": 383692,
-   "dst": 177308
-  }
- ]
+  "id": "177308",
+  "node": [
+    {
+      "id": 177308,
+      "name": "ねこねこ日本史",
+      "nameCN": "猫猫日本史",
+      "date": "2014-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 383692,
+      "name": "ねこねこ日本史 ヒーロー&amp;ヒロイン列伝",
+      "nameCN": "",
+      "date": "2020-03-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 177308,
+      "dst": 383692
+    },
+    {
+      "relateString": "主线故事",
+      "src": 383692,
+      "dst": 177308
+    }
+  ]
 }

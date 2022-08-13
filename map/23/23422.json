@@ -1,57 +1,53 @@
 {
- "id": 23422,
- "node": [
-  {
-   "id": 23422,
-   "name": "神さまの言うとおり",
-   "nameCN": "诚如神之所说",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/8e/23422_i1z58.jpg",
-   "date": "2011-07-08",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 70371,
-   "name": "神さまの言うとおり 弐",
-   "nameCN": "诚如神之所说 贰",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/55/70371_ZPULm.jpg",
-   "date": "2013-04-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 217145,
-   "name": "神さまの言うとおり 零",
-   "nameCN": "诚如神之所说 零",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/47/217145_o8Rm4.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23422,
-   "dst": 70371
-  },
-  {
-   "relate": "前传",
-   "src": 23422,
-   "dst": 217145
-  },
-  {
-   "relate": "前传",
-   "src": 70371,
-   "dst": 23422
-  },
-  {
-   "relate": "续集",
-   "src": 217145,
-   "dst": 23422
-  }
- ]
+  "id": "23422",
+  "node": [
+    {
+      "id": 23422,
+      "name": "神さまの言うとおり",
+      "nameCN": "诚如神之所说",
+      "date": "2011-07-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 70371,
+      "name": "神さまの言うとおり 弐",
+      "nameCN": "诚如神之所说 贰",
+      "date": "2013-04-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 217145,
+      "name": "神さまの言うとおり 零",
+      "nameCN": "诚如神之所说 零",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23422,
+      "dst": 70371
+    },
+    {
+      "relateString": "前传",
+      "src": 23422,
+      "dst": 217145
+    },
+    {
+      "relateString": "前传",
+      "src": 70371,
+      "dst": 23422
+    },
+    {
+      "relateString": "续集",
+      "src": 217145,
+      "dst": 23422
+    }
+  ]
 }

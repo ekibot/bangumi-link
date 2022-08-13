@@ -1,57 +1,54 @@
 {
- "id": 37968,
- "node": [
-  {
-   "id": 37968,
-   "name": "ばらかもん",
-   "nameCN": "元气囝仔",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/00/37968_zw396.jpg",
-   "date": "2009-08-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 114557,
-   "name": "はんだくん",
-   "nameCN": "半田君",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/d2/114557_u26Hj.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 269116,
-   "name": "ばらかもん 18+1",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/04/269116_7j28a.jpg",
-   "date": "2018-12-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 37968,
-   "dst": 114557
-  },
-  {
-   "relate": "番外篇",
-   "src": 37968,
-   "dst": 269116
-  },
-  {
-   "relate": "续集",
-   "src": 114557,
-   "dst": 37968
-  },
-  {
-   "relate": "主线故事",
-   "src": 269116,
-   "dst": 37968
-  }
- ]
+  "id": "37968",
+  "node": [
+    {
+      "id": 37968,
+      "name": "ばらかもん",
+      "nameCN": "元气囝仔",
+      "date": "2009-08-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 114557,
+      "name": "はんだくん",
+      "nameCN": "半田君",
+      "date": "2013-10-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 269116,
+      "name": "ばらかもん 18+1",
+      "nameCN": "",
+      "date": "2018-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 37968,
+      "dst": 114557
+    },
+    {
+      "relateString": "番外篇",
+      "src": 37968,
+      "dst": 269116
+    },
+    {
+      "relateString": "续集",
+      "src": 114557,
+      "dst": 37968
+    },
+    {
+      "relateString": "主线故事",
+      "src": 269116,
+      "dst": 37968
+    }
+  ]
 }

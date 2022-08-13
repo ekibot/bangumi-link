@@ -1,37 +1,34 @@
 {
- "id": 12057,
- "node": [
-  {
-   "id": 12057,
-   "name": "富江 PARTIII",
-   "nameCN": "富江 PART3",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/91/12057_jp.jpg",
-   "date": "2003-01-07",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 13147,
-   "name": "富江－The complete comics of Tomie",
-   "nameCN": "富江",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/5d/13147_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 12057,
-   "dst": 13147
-  },
-  {
-   "relate": "续集",
-   "src": 13147,
-   "dst": 12057
-  }
- ]
+  "id": "12057",
+  "node": [
+    {
+      "id": 12057,
+      "name": "富江 PARTIII",
+      "nameCN": "富江 PART3",
+      "date": "2003-01-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 13147,
+      "name": "富江－The complete comics of Tomie",
+      "nameCN": "富江",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 12057,
+      "dst": 13147
+    },
+    {
+      "relateString": "续集",
+      "src": 13147,
+      "dst": 12057
+    }
+  ]
 }

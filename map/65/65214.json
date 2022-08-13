@@ -1,37 +1,35 @@
 {
- "id": 65214,
- "node": [
-  {
-   "id": 65214,
-   "name": "刑事110キロ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/bf/65214_4Cd01.jpg",
-   "date": "2013-04-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 102456,
-   "name": "刑事110キロ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/0a/102456_Dc9cF.jpg",
-   "date": "2014-04-17",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65214,
-   "dst": 102456
-  },
-  {
-   "relate": "前传",
-   "src": 102456,
-   "dst": 65214
-  }
- ]
+  "id": "65214",
+  "node": [
+    {
+      "id": 65214,
+      "name": "刑事110キロ",
+      "nameCN": "",
+      "date": "2013-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 102456,
+      "name": "刑事110キロ2",
+      "nameCN": "",
+      "date": "2014-04-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65214,
+      "dst": 102456
+    },
+    {
+      "relateString": "前传",
+      "src": 102456,
+      "dst": 65214
+    }
+  ]
 }

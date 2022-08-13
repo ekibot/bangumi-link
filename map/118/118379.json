@@ -1,37 +1,35 @@
 {
- "id": 118379,
- "node": [
-  {
-   "id": 118379,
-   "name": "Judge Dredd: Superfiend Season 1",
-   "nameCN": "特警判官：残暴恶魔",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/34/118379_AVfHh.jpg",
-   "date": "2014-10-27",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 274651,
-   "name": "Dredd",
-   "nameCN": "新特警判官",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/bf/274651_NNi00.jpg",
-   "date": "2012-09-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 118379,
-   "dst": 274651
-  },
-  {
-   "relate": "番外篇",
-   "src": 274651,
-   "dst": 118379
-  }
- ]
+  "id": "118379",
+  "node": [
+    {
+      "id": 118379,
+      "name": "Judge Dredd: Superfiend Season 1",
+      "nameCN": "特警判官：残暴恶魔",
+      "date": "2014-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 274651,
+      "name": "Dredd",
+      "nameCN": "新特警判官",
+      "date": "2012-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 118379,
+      "dst": 274651
+    },
+    {
+      "relateString": "番外篇",
+      "src": 274651,
+      "dst": 118379
+    }
+  ]
 }

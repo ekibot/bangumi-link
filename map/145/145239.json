@@ -1,57 +1,54 @@
 {
- "id": 145239,
- "node": [
-  {
-   "id": 145239,
-   "name": "午前3時の無法地帯 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/5d/145239_jp.jpg",
-   "date": "2008-12-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 145240,
-   "name": "午前3時の無法地帯 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/63/145240_jp.jpg",
-   "date": "2009-04-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 145241,
-   "name": "午前3時の無法地帯 (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/a6/145241_jp.jpg",
-   "date": "2009-09-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 145239,
-   "dst": 145240
-  },
-  {
-   "relate": "前传",
-   "src": 145240,
-   "dst": 145239
-  },
-  {
-   "relate": "续集",
-   "src": 145240,
-   "dst": 145241
-  },
-  {
-   "relate": "前传",
-   "src": 145241,
-   "dst": 145240
-  }
- ]
+  "id": "145239",
+  "node": [
+    {
+      "id": 145239,
+      "name": "午前3時の無法地帯 (1)",
+      "nameCN": "",
+      "date": "2008-12-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145240,
+      "name": "午前3時の無法地帯 (2)",
+      "nameCN": "",
+      "date": "2009-04-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145241,
+      "name": "午前3時の無法地帯 (3)",
+      "nameCN": "",
+      "date": "2009-09-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 145239,
+      "dst": 145240
+    },
+    {
+      "relateString": "前传",
+      "src": 145240,
+      "dst": 145239
+    },
+    {
+      "relateString": "续集",
+      "src": 145240,
+      "dst": 145241
+    },
+    {
+      "relateString": "前传",
+      "src": 145241,
+      "dst": 145240
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 14225,
- "node": [
-  {
-   "id": 14225,
-   "name": "T.P.さくら～タイムパラディンさくら～ 前編",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/70/14225_ot0Ee.jpg",
-   "date": "2011-01-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 14252,
-   "name": "T.P.さくら～タイムパラディンさくら～ 後編",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/e3/14252_32H20.jpg",
-   "date": "2011-02-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14225,
-   "dst": 14252
-  },
-  {
-   "relate": "前传",
-   "src": 14252,
-   "dst": 14225
-  }
- ]
+  "id": "14225",
+  "node": [
+    {
+      "id": 14225,
+      "name": "T.P.さくら～タイムパラディンさくら～ 前編",
+      "nameCN": "",
+      "date": "2011-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 14252,
+      "name": "T.P.さくら～タイムパラディンさくら～ 後編",
+      "nameCN": "",
+      "date": "2011-02-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14225,
+      "dst": 14252
+    },
+    {
+      "relateString": "前传",
+      "src": 14252,
+      "dst": 14225
+    }
+  ]
 }

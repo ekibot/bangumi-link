@@ -1,57 +1,54 @@
 {
- "id": 204527,
- "node": [
-  {
-   "id": 204527,
-   "name": "脱いじゃダメ！",
-   "nameCN": "不可以那个啦！",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/0e/204527_jp.jpg",
-   "date": "2008-08-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 204528,
-   "name": "やっぱり脱いじゃダメ！",
-   "nameCN": "还是不可以那个啦！",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/f3/204528_jp.jpg",
-   "date": "2009-03-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 204531,
-   "name": "それでも脱いじゃダメ！",
-   "nameCN": "总之就是不可以那个啦！",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/70/204531_jp.jpg",
-   "date": "2009-12-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 204527,
-   "dst": 204528
-  },
-  {
-   "relate": "前传",
-   "src": 204528,
-   "dst": 204527
-  },
-  {
-   "relate": "续集",
-   "src": 204528,
-   "dst": 204531
-  },
-  {
-   "relate": "前传",
-   "src": 204531,
-   "dst": 204528
-  }
- ]
+  "id": "204527",
+  "node": [
+    {
+      "id": 204527,
+      "name": "脱いじゃダメ！",
+      "nameCN": "不可以那个啦！",
+      "date": "2008-08-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 204528,
+      "name": "やっぱり脱いじゃダメ！",
+      "nameCN": "还是不可以那个啦！",
+      "date": "2009-03-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 204531,
+      "name": "それでも脱いじゃダメ！",
+      "nameCN": "总之就是不可以那个啦！",
+      "date": "2009-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 204527,
+      "dst": 204528
+    },
+    {
+      "relateString": "前传",
+      "src": 204528,
+      "dst": 204527
+    },
+    {
+      "relateString": "续集",
+      "src": 204528,
+      "dst": 204531
+    },
+    {
+      "relateString": "前传",
+      "src": 204531,
+      "dst": 204528
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 75643,
- "node": [
-  {
-   "id": 75643,
-   "name": "Wii Party U",
-   "nameCN": "Wii聚会U",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/92/75643_6WPJi.jpg",
-   "date": "2013-10-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 130905,
-   "name": "ウィー パーティ",
-   "nameCN": "Wii聚会",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/4b/130905_97J79.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 75643,
-   "dst": 130905
-  },
-  {
-   "relate": "续集",
-   "src": 130905,
-   "dst": 75643
-  }
- ]
+  "id": "75643",
+  "node": [
+    {
+      "id": 75643,
+      "name": "Wii Party U",
+      "nameCN": "Wii聚会U",
+      "date": "2013-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130905,
+      "name": "ウィー パーティ",
+      "nameCN": "Wii聚会",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 75643,
+      "dst": 130905
+    },
+    {
+      "relateString": "续集",
+      "src": 130905,
+      "dst": 75643
+    }
+  ]
 }

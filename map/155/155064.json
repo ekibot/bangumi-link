@@ -1,57 +1,54 @@
 {
- "id": 155064,
- "node": [
-  {
-   "id": 155064,
-   "name": "Into the Badlands Season 1",
-   "nameCN": "荒原 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/b6/155064_Sr3iy.jpg",
-   "date": "2015-11-15",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 211712,
-   "name": "Into the Badlands Season 2",
-   "nameCN": "荒原 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/52/211712_zn25N.jpg",
-   "date": "2017-03-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 213944,
-   "name": "Into the Badlands Season 3",
-   "nameCN": "荒原 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/34/213944_s44aW.jpg",
-   "date": "2018-04-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155064,
-   "dst": 211712
-  },
-  {
-   "relate": "前传",
-   "src": 211712,
-   "dst": 155064
-  },
-  {
-   "relate": "续集",
-   "src": 211712,
-   "dst": 213944
-  },
-  {
-   "relate": "前传",
-   "src": 213944,
-   "dst": 211712
-  }
- ]
+  "id": "155064",
+  "node": [
+    {
+      "id": 155064,
+      "name": "Into the Badlands Season 1",
+      "nameCN": "荒原 第一季",
+      "date": "2015-11-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 211712,
+      "name": "Into the Badlands Season 2",
+      "nameCN": "荒原 第二季",
+      "date": "2017-03-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 213944,
+      "name": "Into the Badlands Season 3",
+      "nameCN": "荒原 第三季",
+      "date": "2018-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155064,
+      "dst": 211712
+    },
+    {
+      "relateString": "前传",
+      "src": 211712,
+      "dst": 155064
+    },
+    {
+      "relateString": "续集",
+      "src": 211712,
+      "dst": 213944
+    },
+    {
+      "relateString": "前传",
+      "src": 213944,
+      "dst": 211712
+    }
+  ]
 }

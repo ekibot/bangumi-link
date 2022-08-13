@@ -1,57 +1,54 @@
 {
- "id": 76636,
- "node": [
-  {
-   "id": 76636,
-   "name": "Under The Dome (Season 1)",
-   "nameCN": "穹顶之下 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/72/76636_koJiK.jpg",
-   "date": "2013-06-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 83857,
-   "name": "Under The Dome (Season 2)",
-   "nameCN": "穹顶之下 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/e1/83857_dkfcz.jpg",
-   "date": "2014-06-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 139163,
-   "name": "Under the Dome Season 3",
-   "nameCN": "穹顶之下 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/9a/139163_0WRk2.jpg",
-   "date": "2015-06-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76636,
-   "dst": 83857
-  },
-  {
-   "relate": "前传",
-   "src": 83857,
-   "dst": 76636
-  },
-  {
-   "relate": "续集",
-   "src": 83857,
-   "dst": 139163
-  },
-  {
-   "relate": "前传",
-   "src": 139163,
-   "dst": 83857
-  }
- ]
+  "id": "76636",
+  "node": [
+    {
+      "id": 76636,
+      "name": "Under The Dome (Season 1)",
+      "nameCN": "穹顶之下 （第一季）",
+      "date": "2013-06-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 83857,
+      "name": "Under The Dome (Season 2)",
+      "nameCN": "穹顶之下 （第二季）",
+      "date": "2014-06-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 139163,
+      "name": "Under the Dome Season 3",
+      "nameCN": "穹顶之下 第三季",
+      "date": "2015-06-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76636,
+      "dst": 83857
+    },
+    {
+      "relateString": "前传",
+      "src": 83857,
+      "dst": 76636
+    },
+    {
+      "relateString": "续集",
+      "src": 83857,
+      "dst": 139163
+    },
+    {
+      "relateString": "前传",
+      "src": 139163,
+      "dst": 83857
+    }
+  ]
 }

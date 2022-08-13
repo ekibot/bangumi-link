@@ -1,37 +1,33 @@
 {
- "id": 281332,
- "node": [
-  {
-   "id": 281332,
-   "name": "いわかける! ―Climbing Girls―",
-   "nameCN": "攀岩！ -Climbing Girls-",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/17/281332_8QYUi.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 319694,
-   "name": "いわかける!! -Try a new climbing-",
-   "nameCN": "攀岩！！ -Try a new climbing-",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/4d/319694_ox9Oq.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 281332,
-   "dst": 319694
-  },
-  {
-   "relate": "前传",
-   "src": 319694,
-   "dst": 281332
-  }
- ]
+  "id": "281332",
+  "node": [
+    {
+      "id": 281332,
+      "name": "いわかける! ―Climbing Girls―",
+      "nameCN": "攀岩！ -Climbing Girls-",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 319694,
+      "name": "いわかける!! -Try a new climbing-",
+      "nameCN": "攀岩！！ -Try a new climbing-",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 281332,
+      "dst": 319694
+    },
+    {
+      "relateString": "前传",
+      "src": 319694,
+      "dst": 281332
+    }
+  ]
 }

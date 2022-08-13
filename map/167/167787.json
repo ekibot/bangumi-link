@@ -1,37 +1,35 @@
 {
- "id": 167787,
- "node": [
-  {
-   "id": 167787,
-   "name": "もういちど、なんどでも。(上)",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/33/167787_LLAlR.jpg",
-   "date": "2016-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 167789,
-   "name": "もういちど、なんどでも。(下)",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/46/167789_6N8xc.jpg",
-   "date": "2016-02-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167787,
-   "dst": 167789
-  },
-  {
-   "relate": "前传",
-   "src": 167789,
-   "dst": 167787
-  }
- ]
+  "id": "167787",
+  "node": [
+    {
+      "id": 167787,
+      "name": "もういちど、なんどでも。(上)",
+      "nameCN": "",
+      "date": "2016-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 167789,
+      "name": "もういちど、なんどでも。(下)",
+      "nameCN": "",
+      "date": "2016-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167787,
+      "dst": 167789
+    },
+    {
+      "relateString": "前传",
+      "src": 167789,
+      "dst": 167787
+    }
+  ]
 }

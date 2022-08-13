@@ -1,37 +1,35 @@
 {
- "id": 269195,
- "node": [
-  {
-   "id": 269195,
-   "name": "PERFECT FIT",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/34/269195_apQe6.jpg",
-   "date": "2018-03-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 302077,
-   "name": "PERFECT FIT 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/9f/302077_epZqD.jpg",
-   "date": "2019-01-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269195,
-   "dst": 302077
-  },
-  {
-   "relate": "前传",
-   "src": 302077,
-   "dst": 269195
-  }
- ]
+  "id": "269195",
+  "node": [
+    {
+      "id": 269195,
+      "name": "PERFECT FIT",
+      "nameCN": "",
+      "date": "2018-03-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 302077,
+      "name": "PERFECT FIT 2",
+      "nameCN": "",
+      "date": "2019-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269195,
+      "dst": 302077
+    },
+    {
+      "relateString": "前传",
+      "src": 302077,
+      "dst": 269195
+    }
+  ]
 }

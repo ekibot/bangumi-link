@@ -1,37 +1,35 @@
 {
- "id": 124625,
- "node": [
-  {
-   "id": 124625,
-   "name": "テラフォーマーズ",
-   "nameCN": "火星异种",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/75/124625_ajIpZ.jpg",
-   "date": "2016-04-29",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 168931,
-   "name": "テラフォーマーズ 新たなる希望",
-   "nameCN": "火星异种：新的希望",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/34/168931_8v9X2.jpg",
-   "date": "2016-04-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 124625,
-   "dst": 168931
-  },
-  {
-   "relate": "续集",
-   "src": 168931,
-   "dst": 124625
-  }
- ]
+  "id": "124625",
+  "node": [
+    {
+      "id": 124625,
+      "name": "テラフォーマーズ",
+      "nameCN": "火星异种",
+      "date": "2016-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 168931,
+      "name": "テラフォーマーズ 新たなる希望",
+      "nameCN": "火星异种：新的希望",
+      "date": "2016-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 124625,
+      "dst": 168931
+    },
+    {
+      "relateString": "续集",
+      "src": 168931,
+      "dst": 124625
+    }
+  ]
 }

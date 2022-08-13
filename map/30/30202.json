@@ -1,37 +1,35 @@
 {
- "id": 30202,
- "node": [
-  {
-   "id": 30202,
-   "name": "JAG Season 1",
-   "nameCN": "执法悍将 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/4e/30202_B2fCc.jpg",
-   "date": "1995-09-23",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 76411,
-   "name": "JAG Season 2",
-   "nameCN": "执法悍将 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/e7/76411_jlYzt.jpg",
-   "date": "1997-01-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30202,
-   "dst": 76411
-  },
-  {
-   "relate": "前传",
-   "src": 76411,
-   "dst": 30202
-  }
- ]
+  "id": "30202",
+  "node": [
+    {
+      "id": 30202,
+      "name": "JAG Season 1",
+      "nameCN": "执法悍将 第一季",
+      "date": "1995-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 76411,
+      "name": "JAG Season 2",
+      "nameCN": "执法悍将 第二季",
+      "date": "1997-01-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30202,
+      "dst": 76411
+    },
+    {
+      "relateString": "前传",
+      "src": 76411,
+      "dst": 30202
+    }
+  ]
 }

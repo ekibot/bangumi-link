@@ -1,37 +1,34 @@
 {
- "id": 45134,
- "node": [
-  {
-   "id": 45134,
-   "name": "しろくまカフェ",
-   "nameCN": "白熊咖啡厅",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/2a/45134_siVVn.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 191018,
-   "name": "しろくまカフェ today's special",
-   "nameCN": "白熊咖啡厅 today's special",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/a3/191018_vsVdN.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 45134,
-   "dst": 191018
-  },
-  {
-   "relate": "前传",
-   "src": 191018,
-   "dst": 45134
-  }
- ]
+  "id": "45134",
+  "node": [
+    {
+      "id": 45134,
+      "name": "しろくまカフェ",
+      "nameCN": "白熊咖啡厅",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 191018,
+      "name": "しろくまカフェ today's special",
+      "nameCN": "白熊咖啡厅 today's special",
+      "date": "2014-07-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 45134,
+      "dst": 191018
+    },
+    {
+      "relateString": "前传",
+      "src": 191018,
+      "dst": 45134
+    }
+  ]
 }

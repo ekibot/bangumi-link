@@ -1,37 +1,33 @@
 {
- "id": 292696,
- "node": [
-  {
-   "id": 292696,
-   "name": "창 너머 창",
-   "nameCN": "窗外的窗",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/f1/292696_WcAnn.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 294390,
-   "name": "방 건너 방",
-   "nameCN": "屋外的屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/aa/294390_Bb2a4.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 292696,
-   "dst": 294390
-  },
-  {
-   "relate": "前传",
-   "src": 294390,
-   "dst": 292696
-  }
- ]
+  "id": "292696",
+  "node": [
+    {
+      "id": 292696,
+      "name": "창 너머 창",
+      "nameCN": "窗外的窗",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 294390,
+      "name": "방 건너 방",
+      "nameCN": "屋外的屋",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 292696,
+      "dst": 294390
+    },
+    {
+      "relateString": "前传",
+      "src": 294390,
+      "dst": 292696
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 67941,
- "node": [
-  {
-   "id": 67941,
-   "name": "キャプテン翼II スーパーストライカー",
-   "nameCN": "足球小将2 超级射手",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/71/67941_ejrij.jpg",
-   "date": "1990-07-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 78663,
-   "name": "キャプテン翼",
-   "nameCN": "足球小将",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/5c/78663_Wv91Z.jpg",
-   "date": "1988-04-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 78665,
-   "name": "キャプテン翼III 皇帝の挑戦",
-   "nameCN": "足球小将3 皇帝的挑战",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/a4/78665_44S4P.jpg",
-   "date": "1992-07-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 67941,
-   "dst": 78663
-  },
-  {
-   "relate": "续集",
-   "src": 67941,
-   "dst": 78665
-  },
-  {
-   "relate": "续集",
-   "src": 78663,
-   "dst": 67941
-  },
-  {
-   "relate": "前传",
-   "src": 78665,
-   "dst": 67941
-  }
- ]
+  "id": "67941",
+  "node": [
+    {
+      "id": 67941,
+      "name": "キャプテン翼II スーパーストライカー",
+      "nameCN": "足球小将2 超级射手",
+      "date": "1990-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 78663,
+      "name": "キャプテン翼",
+      "nameCN": "足球小将",
+      "date": "1988-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 78665,
+      "name": "キャプテン翼III 皇帝の挑戦",
+      "nameCN": "足球小将3 皇帝的挑战",
+      "date": "1992-07-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 67941,
+      "dst": 78663
+    },
+    {
+      "relateString": "续集",
+      "src": 67941,
+      "dst": 78665
+    },
+    {
+      "relateString": "续集",
+      "src": 78663,
+      "dst": 67941
+    },
+    {
+      "relateString": "前传",
+      "src": 78665,
+      "dst": 67941
+    }
+  ]
 }

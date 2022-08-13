@@ -1,37 +1,34 @@
 {
- "id": 114206,
- "node": [
-  {
-   "id": 114206,
-   "name": "エイトレンジャー",
-   "nameCN": "关八战队",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/9c/114206_hLJZJ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 212387,
-   "name": "エイトレンジャー2",
-   "nameCN": "关八战队2",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/7f/212387_040Sf.jpg",
-   "date": "2014-07-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114206,
-   "dst": 212387
-  },
-  {
-   "relate": "前传",
-   "src": 212387,
-   "dst": 114206
-  }
- ]
+  "id": "114206",
+  "node": [
+    {
+      "id": 114206,
+      "name": "エイトレンジャー",
+      "nameCN": "关八战队",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 212387,
+      "name": "エイトレンジャー2",
+      "nameCN": "关八战队2",
+      "date": "2014-07-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114206,
+      "dst": 212387
+    },
+    {
+      "relateString": "前传",
+      "src": 212387,
+      "dst": 114206
+    }
+  ]
 }

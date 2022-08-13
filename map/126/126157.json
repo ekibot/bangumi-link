@@ -1,37 +1,35 @@
 {
- "id": 126157,
- "node": [
-  {
-   "id": 126157,
-   "name": "ビッグオーダー OAD",
-   "nameCN": "至高指令 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/b0/126157_5M659.jpg",
-   "date": "2015-10-03",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 149959,
-   "name": "ビッグオーダー",
-   "nameCN": "至高指令",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/0f/149959_yWzSb.jpg",
-   "date": "2016-04-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 126157,
-   "dst": 149959
-  },
-  {
-   "relate": "番外篇",
-   "src": 149959,
-   "dst": 126157
-  }
- ]
+  "id": "126157",
+  "node": [
+    {
+      "id": 126157,
+      "name": "ビッグオーダー OAD",
+      "nameCN": "至高指令 OAD",
+      "date": "2015-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 149959,
+      "name": "ビッグオーダー",
+      "nameCN": "至高指令",
+      "date": "2016-04-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 126157,
+      "dst": 149959
+    },
+    {
+      "relateString": "番外篇",
+      "src": 149959,
+      "dst": 126157
+    }
+  ]
 }

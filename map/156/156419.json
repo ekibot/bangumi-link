@@ -1,37 +1,33 @@
 {
- "id": 156419,
- "node": [
-  {
-   "id": 156419,
-   "name": "甲賀忍法帖",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/83/156419_h4IbM.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 385837,
-   "name": "桜花忍法帖 バジリスク 新章",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/0e/385837_hR7hM.jpg",
-   "type": 1,
-   "date": null,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156419,
-   "dst": 385837
-  },
-  {
-   "relate": "前传",
-   "src": 385837,
-   "dst": 156419
-  }
- ]
+  "id": "156419",
+  "node": [
+    {
+      "id": 156419,
+      "name": "甲賀忍法帖",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 385837,
+      "name": "桜花忍法帖 バジリスク 新章",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156419,
+      "dst": 385837
+    },
+    {
+      "relateString": "前传",
+      "src": 385837,
+      "dst": 156419
+    }
+  ]
 }

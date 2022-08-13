@@ -1,57 +1,54 @@
 {
- "id": 6335,
- "node": [
-  {
-   "id": 6335,
-   "name": "ジンキ－人機－",
-   "nameCN": "人机",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/28/6335_3YKRv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 6340,
-   "name": "ジンキ・エクステンド",
-   "nameCN": "人机续篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/1f/6340_Rs5Yq.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 6352,
-   "name": "JINKIー真説ーFINAL EPISODE",
-   "nameCN": "人机-真说- 完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/16/6352_wngUy.jpg",
-   "date": "2008-12-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6335,
-   "dst": 6340
-  },
-  {
-   "relate": "前传",
-   "src": 6340,
-   "dst": 6335
-  },
-  {
-   "relate": "续集",
-   "src": 6340,
-   "dst": 6352
-  },
-  {
-   "relate": "前传",
-   "src": 6352,
-   "dst": 6340
-  }
- ]
+  "id": "6335",
+  "node": [
+    {
+      "id": 6335,
+      "name": "ジンキ－人機－",
+      "nameCN": "人机",
+      "date": "2000-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 6340,
+      "name": "ジンキ・エクステンド",
+      "nameCN": "人机续篇",
+      "date": "2002-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 6352,
+      "name": "JINKIー真説ーFINAL EPISODE",
+      "nameCN": "人机-真说- 完结篇",
+      "date": "2008-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6335,
+      "dst": 6340
+    },
+    {
+      "relateString": "前传",
+      "src": 6340,
+      "dst": 6335
+    },
+    {
+      "relateString": "续集",
+      "src": 6340,
+      "dst": 6352
+    },
+    {
+      "relateString": "前传",
+      "src": 6352,
+      "dst": 6340
+    }
+  ]
 }

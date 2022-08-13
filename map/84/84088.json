@@ -1,37 +1,35 @@
 {
- "id": 84088,
- "node": [
-  {
-   "id": 84088,
-   "name": "Atlantis Season 1",
-   "nameCN": "亚特兰蒂斯 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/82/84088_M23Cl.jpg",
-   "date": "2013-09-28",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 131488,
-   "name": "Atlantis Season 2",
-   "nameCN": "亚特兰蒂斯 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/ee/131488_rJr54.jpg",
-   "date": "2014-11-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84088,
-   "dst": 131488
-  },
-  {
-   "relate": "前传",
-   "src": 131488,
-   "dst": 84088
-  }
- ]
+  "id": "84088",
+  "node": [
+    {
+      "id": 84088,
+      "name": "Atlantis Season 1",
+      "nameCN": "亚特兰蒂斯 第一季",
+      "date": "2013-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 131488,
+      "name": "Atlantis Season 2",
+      "nameCN": "亚特兰蒂斯 第二季",
+      "date": "2014-11-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84088,
+      "dst": 131488
+    },
+    {
+      "relateString": "前传",
+      "src": 131488,
+      "dst": 84088
+    }
+  ]
 }

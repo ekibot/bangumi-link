@@ -1,77 +1,73 @@
 {
- "id": 319889,
- "node": [
-  {
-   "id": 319889,
-   "name": "테러맨",
-   "nameCN": "极限拯救",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/3f/319889_GZEuO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 319985,
-   "name": "부활남",
-   "nameCN": "复活男",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/2b/319985_un5uU.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 320525,
-   "name": "한림체육관",
-   "nameCN": "翰林体育馆",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/bd/320525_6t9nZ.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 324266,
-   "name": "테러대부활",
-   "nameCN": "恐怖份子 VS 复活男",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/07/324266_AIZ8p.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 319889,
-   "dst": 324266
-  },
-  {
-   "relate": "前传",
-   "src": 319985,
-   "dst": 320525
-  },
-  {
-   "relate": "续集",
-   "src": 319985,
-   "dst": 324266
-  },
-  {
-   "relate": "续集",
-   "src": 320525,
-   "dst": 319985
-  },
-  {
-   "relate": "前传",
-   "src": 324266,
-   "dst": 319889
-  },
-  {
-   "relate": "前传",
-   "src": 324266,
-   "dst": 319985
-  }
- ]
+  "id": "319889",
+  "node": [
+    {
+      "id": 319889,
+      "name": "테러맨",
+      "nameCN": "极限拯救",
+      "date": "2016-01-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 324266,
+      "name": "테러대부활",
+      "nameCN": "恐怖份子 VS 复活男",
+      "date": "2020-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 319985,
+      "name": "부활남",
+      "nameCN": "复活男",
+      "date": "2016-05-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 320525,
+      "name": "한림체육관",
+      "nameCN": "翰林体育馆",
+      "date": "2020-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 319889,
+      "dst": 324266
+    },
+    {
+      "relateString": "前传",
+      "src": 319985,
+      "dst": 320525
+    },
+    {
+      "relateString": "续集",
+      "src": 319985,
+      "dst": 324266
+    },
+    {
+      "relateString": "续集",
+      "src": 320525,
+      "dst": 319985
+    },
+    {
+      "relateString": "前传",
+      "src": 324266,
+      "dst": 319889
+    },
+    {
+      "relateString": "前传",
+      "src": 324266,
+      "dst": 319985
+    }
+  ]
 }

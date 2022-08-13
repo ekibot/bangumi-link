@@ -1,37 +1,33 @@
 {
- "id": 277135,
- "node": [
-  {
-   "id": 277135,
-   "name": "あかつきのベイビーズ！",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/70/277135_HGiEG.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 304508,
-   "name": "あかつきのベイビーズ！season2",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/41/304508_ZaqDK.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 277135,
-   "dst": 304508
-  },
-  {
-   "relate": "前传",
-   "src": 304508,
-   "dst": 277135
-  }
- ]
+  "id": "277135",
+  "node": [
+    {
+      "id": 277135,
+      "name": "あかつきのベイビーズ！",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 304508,
+      "name": "あかつきのベイビーズ！season2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 277135,
+      "dst": 304508
+    },
+    {
+      "relateString": "前传",
+      "src": 304508,
+      "dst": 277135
+    }
+  ]
 }

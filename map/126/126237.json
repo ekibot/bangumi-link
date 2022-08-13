@@ -1,37 +1,35 @@
 {
- "id": 126237,
- "node": [
-  {
-   "id": 126237,
-   "name": "晴れときどき、わかば荘あらあら",
-   "nameCN": "时晴的若叶庄",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/6c/126237_jp.jpg",
-   "date": "2013-09-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 146294,
-   "name": "晴れときどき、わかば荘まあまあ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/5b/146294_jp.jpg",
-   "date": "2015-03-02",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126237,
-   "dst": 146294
-  },
-  {
-   "relate": "前传",
-   "src": 146294,
-   "dst": 126237
-  }
- ]
+  "id": "126237",
+  "node": [
+    {
+      "id": 126237,
+      "name": "晴れときどき、わかば荘あらあら",
+      "nameCN": "时晴的若叶庄",
+      "date": "2013-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 146294,
+      "name": "晴れときどき、わかば荘まあまあ",
+      "nameCN": "",
+      "date": "2015-03-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126237,
+      "dst": 146294
+    },
+    {
+      "relateString": "前传",
+      "src": 146294,
+      "dst": 126237
+    }
+  ]
 }

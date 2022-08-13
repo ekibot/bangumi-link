@@ -1,37 +1,35 @@
 {
- "id": 76616,
- "node": [
-  {
-   "id": 76616,
-   "name": "侍灵演武 SOUL BUSTER",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/90/76616_444AF.jpg",
-   "date": "2013-06-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 2
-  },
-  {
-   "id": 165785,
-   "name": "侍霊演武：将星乱",
-   "nameCN": "侍灵演武：将星乱",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/3a/165785_b5ner.jpg",
-   "date": "2016-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 76616,
-   "dst": 165785
-  },
-  {
-   "relate": "衍生",
-   "src": 165785,
-   "dst": 76616
-  }
- ]
+  "id": "76616",
+  "node": [
+    {
+      "id": 76616,
+      "name": "侍灵演武 SOUL BUSTER",
+      "nameCN": "",
+      "date": "2013-06-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 165785,
+      "name": "侍霊演武：将星乱",
+      "nameCN": "侍灵演武：将星乱",
+      "date": "2016-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 76616,
+      "dst": 165785
+    },
+    {
+      "relateString": "衍生",
+      "src": 165785,
+      "dst": 76616
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 122623,
- "node": [
-  {
-   "id": 122623,
-   "name": "あまゆる。",
-   "nameCN": "百合甜心",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/0b/122623_43WWP.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 143900,
-   "name": "あまなつ",
-   "nameCN": "夏日甜心",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/8f/143900_r4zl8.jpg",
-   "date": "2015-08-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 162814,
-   "name": "sweet winter",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/6e/162814_gH241.jpg",
-   "date": "2015-12-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122623,
-   "dst": 143900
-  },
-  {
-   "relate": "前传",
-   "src": 143900,
-   "dst": 122623
-  },
-  {
-   "relate": "续集",
-   "src": 143900,
-   "dst": 162814
-  },
-  {
-   "relate": "前传",
-   "src": 162814,
-   "dst": 143900
-  }
- ]
+  "id": "122623",
+  "node": [
+    {
+      "id": 122623,
+      "name": "あまゆる。",
+      "nameCN": "百合甜心",
+      "date": "2013-01-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143900,
+      "name": "あまなつ",
+      "nameCN": "夏日甜心",
+      "date": "2015-08-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162814,
+      "name": "sweet winter",
+      "nameCN": "",
+      "date": "2015-12-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122623,
+      "dst": 143900
+    },
+    {
+      "relateString": "前传",
+      "src": 143900,
+      "dst": 122623
+    },
+    {
+      "relateString": "续集",
+      "src": 143900,
+      "dst": 162814
+    },
+    {
+      "relateString": "前传",
+      "src": 162814,
+      "dst": 143900
+    }
+  ]
 }

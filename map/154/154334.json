@@ -1,37 +1,35 @@
 {
- "id": 154334,
- "node": [
-  {
-   "id": 154334,
-   "name": "Dance with Devils",
-   "nameCN": "与魔共舞",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/6f/154334_Ky8PI.jpg",
-   "date": "2016-03-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 229280,
-   "name": "Dance with Devils My Carol",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/f1/229280_TxFTy.jpg",
-   "date": "2018-03-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 154334,
-   "dst": 229280
-  },
-  {
-   "relate": "前传",
-   "src": 229280,
-   "dst": 154334
-  }
- ]
+  "id": "154334",
+  "node": [
+    {
+      "id": 154334,
+      "name": "Dance with Devils",
+      "nameCN": "与魔共舞",
+      "date": "2016-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229280,
+      "name": "Dance with Devils My Carol",
+      "nameCN": "",
+      "date": "2018-03-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 154334,
+      "dst": 229280
+    },
+    {
+      "relateString": "前传",
+      "src": 229280,
+      "dst": 154334
+    }
+  ]
 }

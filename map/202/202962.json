@@ -1,57 +1,53 @@
 {
- "id": 202962,
- "node": [
-  {
-   "id": 202962,
-   "name": "恋心・センプク中",
-   "nameCN": "恋爱潜伏期",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/2e/202962_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 202969,
-   "name": "恋心キョウメイ中",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/90/202969_jp.jpg",
-   "date": "2009-04-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 202970,
-   "name": "恋心・コウシン中",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/2d/202970_jp.jpg",
-   "date": "2008-08-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 202962,
-   "dst": 202970
-  },
-  {
-   "relate": "前传",
-   "src": 202969,
-   "dst": 202970
-  },
-  {
-   "relate": "前传",
-   "src": 202970,
-   "dst": 202962
-  },
-  {
-   "relate": "续集",
-   "src": 202970,
-   "dst": 202969
-  }
- ]
+  "id": "202962",
+  "node": [
+    {
+      "id": 202962,
+      "name": "恋心・センプク中",
+      "nameCN": "恋爱潜伏期",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 202970,
+      "name": "恋心・コウシン中",
+      "nameCN": "",
+      "date": "2008-08-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 202969,
+      "name": "恋心キョウメイ中",
+      "nameCN": "",
+      "date": "2009-04-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 202962,
+      "dst": 202970
+    },
+    {
+      "relateString": "前传",
+      "src": 202969,
+      "dst": 202970
+    },
+    {
+      "relateString": "前传",
+      "src": 202970,
+      "dst": 202962
+    },
+    {
+      "relateString": "续集",
+      "src": 202970,
+      "dst": 202969
+    }
+  ]
 }

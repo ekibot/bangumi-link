@@ -1,97 +1,87 @@
 {
- "id": 7214,
- "node": [
-  {
-   "id": 7214,
-   "name": "Damages Season 3",
-   "nameCN": "裂痕 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/bc/7214_3bzbU.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 86995,
-   "name": "Damages Season 1",
-   "nameCN": "裂痕 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/6a/86995_51vc7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 86996,
-   "name": "Damages Season 2",
-   "nameCN": "裂痕 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/7a/86996_AepTV.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97604,
-   "name": "Damages Season 4",
-   "nameCN": "裂痕 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/0d/97604_dx35I.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97605,
-   "name": "Damages Season 5",
-   "nameCN": "裂痕 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/29/97605_Z4PDZ.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7214,
-   "dst": 86996
-  },
-  {
-   "relate": "续集",
-   "src": 7214,
-   "dst": 97604
-  },
-  {
-   "relate": "续集",
-   "src": 86995,
-   "dst": 86996
-  },
-  {
-   "relate": "续集",
-   "src": 86996,
-   "dst": 7214
-  },
-  {
-   "relate": "前传",
-   "src": 86996,
-   "dst": 86995
-  },
-  {
-   "relate": "前传",
-   "src": 97604,
-   "dst": 7214
-  },
-  {
-   "relate": "续集",
-   "src": 97604,
-   "dst": 97605
-  },
-  {
-   "relate": "前传",
-   "src": 97605,
-   "dst": 97604
-  }
- ]
+  "id": "7214",
+  "node": [
+    {
+      "id": 7214,
+      "name": "Damages Season 3",
+      "nameCN": "裂痕 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86996,
+      "name": "Damages Season 2",
+      "nameCN": "裂痕 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97604,
+      "name": "Damages Season 4",
+      "nameCN": "裂痕 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86995,
+      "name": "Damages Season 1",
+      "nameCN": "裂痕 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97605,
+      "name": "Damages Season 5",
+      "nameCN": "裂痕 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7214,
+      "dst": 86996
+    },
+    {
+      "relateString": "续集",
+      "src": 7214,
+      "dst": 97604
+    },
+    {
+      "relateString": "续集",
+      "src": 86995,
+      "dst": 86996
+    },
+    {
+      "relateString": "续集",
+      "src": 86996,
+      "dst": 7214
+    },
+    {
+      "relateString": "前传",
+      "src": 86996,
+      "dst": 86995
+    },
+    {
+      "relateString": "前传",
+      "src": 97604,
+      "dst": 7214
+    },
+    {
+      "relateString": "续集",
+      "src": 97604,
+      "dst": 97605
+    },
+    {
+      "relateString": "前传",
+      "src": 97605,
+      "dst": 97604
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 88552,
- "node": [
-  {
-   "id": 88552,
-   "name": "between the sheets",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/40/88552_jp.jpg",
-   "date": "2013-11-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 138698,
-   "name": "BlueMoon,Blue ～between the sheets～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/69/138698_jp.jpg",
-   "date": "2015-04-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88552,
-   "dst": 138698
-  },
-  {
-   "relate": "前传",
-   "src": 138698,
-   "dst": 88552
-  }
- ]
+  "id": "88552",
+  "node": [
+    {
+      "id": 88552,
+      "name": "between the sheets",
+      "nameCN": "",
+      "date": "2013-11-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 138698,
+      "name": "BlueMoon,Blue ～between the sheets～",
+      "nameCN": "",
+      "date": "2015-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88552,
+      "dst": 138698
+    },
+    {
+      "relateString": "前传",
+      "src": 138698,
+      "dst": 88552
+    }
+  ]
 }

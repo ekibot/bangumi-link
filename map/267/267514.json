@@ -1,34 +1,35 @@
 {
- "id": 267514,
- "node": [
-  {
-   "id": 267514,
-   "name": "メイドさんのいる暮らし",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/0e/267514_AE96A.jpg",
-   "date": "2019-03-29",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 323787,
-   "name": "幼馴染のいる暮らし",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/e6/323787_eZe9d.jpg",
-   "nameCN": "",
-   "date": "2021-04-30",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 267514,
-   "dst": 323787
-  },
-  {
-   "relate": "相同世界观",
-   "src": 323787,
-   "dst": 267514
-  }
- ]
+  "id": "267514",
+  "node": [
+    {
+      "id": 267514,
+      "name": "メイドさんのいる暮らし",
+      "nameCN": "",
+      "date": "2019-03-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323787,
+      "name": "幼馴染のいる暮らし",
+      "nameCN": "",
+      "date": "2021-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 267514,
+      "dst": 323787
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 323787,
+      "dst": 267514
+    }
+  ]
 }

@@ -1,71 +1,68 @@
 {
- "id": 6488,
- "node": [
-  {
-   "id": 6488,
-   "name": "Operation Flashpoint Dragon Rising",
-   "nameCN": "闪点行动：龙之崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/fe/6488_CUwCI.jpg",
-   "date": "2009-10-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 16372,
-   "name": "Operation Flashpoint: Red River",
-   "nameCN": "闪点行动：红河",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/18/16372_K8RIR.jpg",
-   "date": "2011-04-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122947,
-   "name": "Operation Flashpoint: Cold War Crisis",
-   "nameCN": "闪点行动：雷霆救兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/88/122947_PVsBV.jpg",
-   "date": "2001-06-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122948,
-   "name": "Operation Flashpoint: Resistance",
-   "nameCN": "闪点行动：抵抗力量",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/05/122948_W67XN.jpg",
-   "date": "2002-06-10",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6488,
-   "dst": 16372
-  },
-  {
-   "relate": "前传",
-   "src": 6488,
-   "dst": 122947
-  },
-  {
-   "relate": "前传",
-   "src": 16372,
-   "dst": 6488
-  },
-  {
-   "relate": "续集",
-   "src": 122947,
-   "dst": 6488
-  },
-  {
-   "relate": "主线故事",
-   "src": 122948,
-   "dst": 122947
-  }
- ]
+  "id": "6488",
+  "node": [
+    {
+      "id": 6488,
+      "name": "Operation Flashpoint Dragon Rising",
+      "nameCN": "闪点行动：龙之崛起",
+      "date": "2009-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 16372,
+      "name": "Operation Flashpoint: Red River",
+      "nameCN": "闪点行动：红河",
+      "date": "2011-04-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122947,
+      "name": "Operation Flashpoint: Cold War Crisis",
+      "nameCN": "闪点行动：雷霆救兵",
+      "date": "2001-06-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122948,
+      "name": "Operation Flashpoint: Resistance",
+      "nameCN": "闪点行动：抵抗力量",
+      "date": "2002-06-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6488,
+      "dst": 16372
+    },
+    {
+      "relateString": "前传",
+      "src": 6488,
+      "dst": 122947
+    },
+    {
+      "relateString": "前传",
+      "src": 16372,
+      "dst": 6488
+    },
+    {
+      "relateString": "续集",
+      "src": 122947,
+      "dst": 6488
+    },
+    {
+      "relateString": "主线故事",
+      "src": 122948,
+      "dst": 122947
+    }
+  ]
 }

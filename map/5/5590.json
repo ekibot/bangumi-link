@@ -1,0 +1,53 @@
+{
+  "id": "5590",
+  "node": [
+    {
+      "id": 5590,
+      "name": "最果ての地",
+      "nameCN": "最偏僻的地方",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 5591,
+      "name": "瑕だらけの男たち",
+      "nameCN": "鹰的俘虏",
+      "date": "2009-10-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 40312,
+      "name": "錆びた月",
+      "nameCN": "赤蚀之月",
+      "date": "2012-02-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 5590,
+      "dst": 5591
+    },
+    {
+      "relateString": "前传",
+      "src": 5591,
+      "dst": 5590
+    },
+    {
+      "relateString": "续集",
+      "src": 5591,
+      "dst": 40312
+    },
+    {
+      "relateString": "前传",
+      "src": 40312,
+      "dst": 5591
+    }
+  ]
+}

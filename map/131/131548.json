@@ -1,69 +1,68 @@
 {
- "id": 131548,
- "node": [
-  {
-   "id": 131548,
-   "name": "傷モノの学園",
-   "nameCN": "破鞋学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/39/131548_Xnpp9.jpg",
-   "date": "2001-08-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 238949,
-   "name": "傷モノの学園Ⅲ —heaven’s door—",
-   "nameCN": "破鞋学园3：heaven’s door",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/8d/238949_IVejp.jpg",
-   "date": "2007-03-16",
-   "type": 4
-  },
-  {
-   "id": 285636,
-   "name": "傷モノの学園II～case of saint spica～",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/49/285636_IrABr.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2002-11-22",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 285637,
-   "name": "傷モノの少女 －傷モノの学園・外伝－",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/01/285637_SMYPv.jpg",
-   "date": "2003-12-12",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 131548,
-   "dst": 285636
-  },
-  {
-   "relate": "前传",
-   "src": 238949,
-   "dst": 285636
-  },
-  {
-   "relate": "前传",
-   "src": 285636,
-   "dst": 131548
-  },
-  {
-   "relate": "续集",
-   "src": 285636,
-   "dst": 238949
-  },
-  {
-   "relate": "主线故事",
-   "src": 285637,
-   "dst": 131548
-  }
- ]
+  "id": "131548",
+  "node": [
+    {
+      "id": 131548,
+      "name": "傷モノの学園",
+      "nameCN": "破鞋学园",
+      "date": "2001-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285636,
+      "name": "傷モノの学園II～case of saint spica～",
+      "nameCN": "",
+      "date": "2002-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 238949,
+      "name": "傷モノの学園Ⅲ —heaven’s door—",
+      "nameCN": "破鞋学园3：heaven’s door",
+      "date": "2007-03-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285637,
+      "name": "傷モノの少女 －傷モノの学園・外伝－",
+      "nameCN": "",
+      "date": "2003-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 131548,
+      "dst": 285636
+    },
+    {
+      "relateString": "前传",
+      "src": 238949,
+      "dst": 285636
+    },
+    {
+      "relateString": "前传",
+      "src": 285636,
+      "dst": 131548
+    },
+    {
+      "relateString": "续集",
+      "src": 285636,
+      "dst": 238949
+    },
+    {
+      "relateString": "主线故事",
+      "src": 285637,
+      "dst": 131548
+    }
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "187206",
+  "node": [
+    {
+      "id": 187206,
+      "name": "Star Sky",
+      "nameCN": "",
+      "date": "2015-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 187207,
+      "name": "Star Sky 2",
+      "nameCN": "",
+      "date": "2016-03-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 391093,
+      "name": "Star Sky 3",
+      "nameCN": "",
+      "date": "2018-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 187206,
+      "dst": 187207
+    },
+    {
+      "relateString": "前传",
+      "src": 187207,
+      "dst": 187206
+    },
+    {
+      "relateString": "续集",
+      "src": 187207,
+      "dst": 391093
+    },
+    {
+      "relateString": "前传",
+      "src": 391093,
+      "dst": 187207
+    }
+  ]
+}

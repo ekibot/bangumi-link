@@ -1,51 +1,35 @@
 {
- "id": 78226,
- "node": [
-  {
-   "id": 78226,
-   "name": "えんどうくんの観察日記",
-   "nameCN": "远藤君的观察日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/4a/78226_A7Ztf.jpg",
-   "date": "2011-10-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 219682,
-   "name": "えんどうくんの実験ノート 上",
-   "nameCN": "远藤同学的实验笔记 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/91/219682_Mt1Mu.jpg",
-   "date": "2017-06-23",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 246322,
-   "name": "えんどうくんの実験ノート",
-   "nameCN": "远藤君的实验日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/b5/246322_x13Rx.jpg",
-   "date": "2017-06-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78226,
-   "dst": 246322
-  },
-  {
-   "relate": "前传",
-   "src": 219682,
-   "dst": 78226
-  },
-  {
-   "relate": "前传",
-   "src": 246322,
-   "dst": 78226
-  }
- ]
+  "id": "78226",
+  "node": [
+    {
+      "id": 78226,
+      "name": "えんどうくんの観察日記",
+      "nameCN": "远藤君的观察日记",
+      "date": "2011-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 246322,
+      "name": "えんどうくんの実験ノート",
+      "nameCN": "远藤君的实验日记",
+      "date": "2017-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78226,
+      "dst": 246322
+    },
+    {
+      "relateString": "前传",
+      "src": 246322,
+      "dst": 78226
+    }
+  ]
 }

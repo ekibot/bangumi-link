@@ -1,37 +1,33 @@
 {
- "id": 176222,
- "node": [
-  {
-   "id": 176222,
-   "name": "もっとGOODキッス!",
-   "nameCN": "初吻",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/43/176222_z0z8v.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 176231,
-   "name": "GOOD KISS! Version2.0",
-   "nameCN": "初吻2",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/57/176231_H6nQ6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 176222,
-   "dst": 176231
-  },
-  {
-   "relate": "前传",
-   "src": 176231,
-   "dst": 176222
-  }
- ]
+  "id": "176222",
+  "node": [
+    {
+      "id": 176222,
+      "name": "もっとGOODキッス!",
+      "nameCN": "初吻",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 176231,
+      "name": "GOOD KISS! Version2.0",
+      "nameCN": "初吻2",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 176222,
+      "dst": 176231
+    },
+    {
+      "relateString": "前传",
+      "src": 176231,
+      "dst": 176222
+    }
+  ]
 }

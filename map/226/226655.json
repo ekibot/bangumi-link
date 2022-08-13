@@ -1,37 +1,35 @@
 {
- "id": 226655,
- "node": [
-  {
-   "id": 226655,
-   "name": "新成龙历险记",
-   "nameCN": "新成龙历险记",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/30/226655_fkfKL.jpg",
-   "date": "2017-08-14",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 243496,
-   "name": "新成龙历险记 第二季",
-   "nameCN": "新成龙历险记之梦境守护者 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/ea/243496_33z1O.jpg",
-   "date": "2018-02-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226655,
-   "dst": 243496
-  },
-  {
-   "relate": "前传",
-   "src": 243496,
-   "dst": 226655
-  }
- ]
+  "id": "226655",
+  "node": [
+    {
+      "id": 226655,
+      "name": "新成龙历险记",
+      "nameCN": "新成龙历险记",
+      "date": "2017-08-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 243496,
+      "name": "新成龙历险记 第二季",
+      "nameCN": "新成龙历险记之梦境守护者 第二季",
+      "date": "2018-02-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226655,
+      "dst": 243496
+    },
+    {
+      "relateString": "前传",
+      "src": 243496,
+      "dst": 226655
+    }
+  ]
 }

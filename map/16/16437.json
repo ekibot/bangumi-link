@@ -1,37 +1,35 @@
 {
- "id": 16437,
- "node": [
-  {
-   "id": 16437,
-   "name": "RIO",
-   "nameCN": "里约大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/21/16437_3fT1P.jpg",
-   "date": "2011-04-08",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 67807,
-   "name": "Rio 2",
-   "nameCN": "里约大冒险2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/0d/67807_yUgrg.jpg",
-   "date": "2014-04-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 16437,
-   "dst": 67807
-  },
-  {
-   "relate": "前传",
-   "src": 67807,
-   "dst": 16437
-  }
- ]
+  "id": "16437",
+  "node": [
+    {
+      "id": 16437,
+      "name": "RIO",
+      "nameCN": "里约大冒险",
+      "date": "2011-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 67807,
+      "name": "Rio 2",
+      "nameCN": "里约大冒险2",
+      "date": "2014-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 16437,
+      "dst": 67807
+    },
+    {
+      "relateString": "前传",
+      "src": 67807,
+      "dst": 16437
+    }
+  ]
 }

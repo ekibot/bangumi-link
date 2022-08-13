@@ -1,77 +1,73 @@
 {
- "id": 329794,
- "node": [
-  {
-   "id": 329794,
-   "name": "Guitar Hero",
-   "nameCN": "吉他英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/27/329794_T2Tty.jpg",
-   "date": "2005-11-08",
-   "nsfw": false,
-   "platform": "PS2",
-   "type": 4
-  },
-  {
-   "id": 329799,
-   "name": "Guitar Hero II",
-   "nameCN": "吉他英雄2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/15/329799_LW33D.jpg",
-   "date": "2006-11-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 330315,
-   "name": "Guitar Hero III: Legends of Rock",
-   "nameCN": "吉他英雄3：摇滚传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/7b/330315_YcVzR.jpg",
-   "date": "2007-10-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 330316,
-   "name": "Guitar Hero III Mobile",
-   "nameCN": "吉他英雄3 移动版",
-   "date": "2007-12-20",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 329794,
-   "dst": 329799
-  },
-  {
-   "relate": "前传",
-   "src": 329799,
-   "dst": 329794
-  },
-  {
-   "relate": "不同演绎",
-   "src": 329799,
-   "dst": 330316
-  },
-  {
-   "relate": "不同演绎",
-   "src": 330315,
-   "dst": 330316
-  },
-  {
-   "relate": "不同演绎",
-   "src": 330316,
-   "dst": 329799
-  },
-  {
-   "relate": "续集",
-   "src": 330316,
-   "dst": 330315
-  }
- ]
+  "id": "329794",
+  "node": [
+    {
+      "id": 329794,
+      "name": "Guitar Hero",
+      "nameCN": "吉他英雄",
+      "date": "2005-11-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 329799,
+      "name": "Guitar Hero II",
+      "nameCN": "吉他英雄2",
+      "date": "2006-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 330316,
+      "name": "Guitar Hero III Mobile",
+      "nameCN": "吉他英雄3 移动版",
+      "date": "2007-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 330315,
+      "name": "Guitar Hero III: Legends of Rock",
+      "nameCN": "吉他英雄3：摇滚传奇",
+      "date": "2007-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 329794,
+      "dst": 329799
+    },
+    {
+      "relateString": "前传",
+      "src": 329799,
+      "dst": 329794
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 329799,
+      "dst": 330316
+    },
+    {
+      "relateString": "前传",
+      "src": 330315,
+      "dst": 330316
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 330316,
+      "dst": 329799
+    },
+    {
+      "relateString": "续集",
+      "src": 330316,
+      "dst": 330315
+    }
+  ]
 }

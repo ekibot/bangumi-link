@@ -1,29 +1,35 @@
 {
- "id": 114014,
- "node": [
-  {
-   "id": 114014,
-   "name": "Revolver(リボルバー)",
-   "image": "/img/no_icon_subject.png",
-   "date": "1998-08-28"
-  },
-  {
-   "id": 194992,
-   "name": "Revolver357MAG",
-   "image": "/img/no_icon_subject.png",
-   "date": "2002-08-30"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114014,
-   "dst": 194992
-  },
-  {
-   "relate": "前传",
-   "src": 194992,
-   "dst": 114014
-  }
- ]
+  "id": "114014",
+  "node": [
+    {
+      "id": 114014,
+      "name": "Revolver(リボルバー)",
+      "nameCN": "",
+      "date": "1998-08-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 194992,
+      "name": "Revolver357MAG",
+      "nameCN": "",
+      "date": "2002-08-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114014,
+      "dst": 194992
+    },
+    {
+      "relateString": "前传",
+      "src": 194992,
+      "dst": 114014
+    }
+  ]
 }

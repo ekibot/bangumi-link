@@ -1,37 +1,35 @@
 {
- "id": 343836,
- "node": [
-  {
-   "id": 343836,
-   "name": "銀河連合日本 Age after",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/e2/343836_C9xCn.jpg",
-   "date": "2020-06-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 343842,
-   "name": "銀河連合日本",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/2f/343842_CdD86.jpg",
-   "date": "2016-02-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 343836,
-   "dst": 343842
-  },
-  {
-   "relate": "续集",
-   "src": 343842,
-   "dst": 343836
-  }
- ]
+  "id": "343836",
+  "node": [
+    {
+      "id": 343836,
+      "name": "銀河連合日本 Age after",
+      "nameCN": "",
+      "date": "2020-06-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 343842,
+      "name": "銀河連合日本",
+      "nameCN": "",
+      "date": "2016-02-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 343836,
+      "dst": 343842
+    },
+    {
+      "relateString": "续集",
+      "src": 343842,
+      "dst": 343836
+    }
+  ]
 }

@@ -1,62 +1,59 @@
 {
- "id": 12703,
- "node": [
-  {
-   "id": 12703,
-   "name": "境界線上のホライゾン",
-   "nameCN": "境界线上的地平线",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/49/12703_aJh82.jpg",
-   "date": "2011-10-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 29307,
-   "name": "境界線上のホライゾンII",
-   "nameCN": "境界线上的地平线 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/e6/29307_h19Oo.jpg",
-   "date": "2012-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 259874,
-   "name": "境界線上のホライゾン Blu-ray BOX 特典アニメーション",
-   "nameCN": "境界线上的地平线 Blu-ray BOX 特典动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/14/259874_JYjYg.jpg",
-   "date": "2018-12-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12703,
-   "dst": 29307
-  },
-  {
-   "relate": "衍生",
-   "src": 12703,
-   "dst": 259874
-  },
-  {
-   "relate": "前传",
-   "src": 29307,
-   "dst": 12703
-  },
-  {
-   "relate": "续集",
-   "src": 29307,
-   "dst": 259874
-  },
-  {
-   "relate": "前传",
-   "src": 259874,
-   "dst": 29307
-  }
- ]
+  "id": "12703",
+  "node": [
+    {
+      "id": 12703,
+      "name": "境界線上のホライゾン",
+      "nameCN": "境界线上的地平线",
+      "date": "2011-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 29307,
+      "name": "境界線上のホライゾンII",
+      "nameCN": "境界线上的地平线 第二季",
+      "date": "2012-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 259874,
+      "name": "境界線上のホライゾン Blu-ray BOX 特典アニメーション",
+      "nameCN": "境界线上的地平线 Blu-ray BOX 特典动画",
+      "date": "2018-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12703,
+      "dst": 29307
+    },
+    {
+      "relateString": "衍生",
+      "src": 12703,
+      "dst": 259874
+    },
+    {
+      "relateString": "前传",
+      "src": 29307,
+      "dst": 12703
+    },
+    {
+      "relateString": "续集",
+      "src": 29307,
+      "dst": 259874
+    },
+    {
+      "relateString": "前传",
+      "src": 259874,
+      "dst": 29307
+    }
+  ]
 }

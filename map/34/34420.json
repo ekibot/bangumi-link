@@ -1,37 +1,35 @@
 {
- "id": 34420,
- "node": [
-  {
-   "id": 34420,
-   "name": "Smash (Season 1)",
-   "nameCN": "名声大噪 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/01/34420_Tw7EZ.jpg",
-   "date": "2012-02-06",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 61512,
-   "name": "Smash (Season 2)",
-   "nameCN": "名声大噪 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/f0/61512_NNWXw.jpg",
-   "date": "2013-02-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 34420,
-   "dst": 61512
-  },
-  {
-   "relate": "前传",
-   "src": 61512,
-   "dst": 34420
-  }
- ]
+  "id": "34420",
+  "node": [
+    {
+      "id": 34420,
+      "name": "Smash (Season 1)",
+      "nameCN": "名声大噪 第一季",
+      "date": "2012-02-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 61512,
+      "name": "Smash (Season 2)",
+      "nameCN": "名声大噪 第二季",
+      "date": "2013-02-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 34420,
+      "dst": 61512
+    },
+    {
+      "relateString": "前传",
+      "src": 61512,
+      "dst": 34420
+    }
+  ]
 }

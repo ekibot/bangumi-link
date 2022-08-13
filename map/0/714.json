@@ -1,77 +1,72 @@
 {
- "id": 714,
- "node": [
-  {
-   "id": 714,
-   "name": "スーパーマリオ ヨッシーアイランド",
-   "nameCN": "耀西岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/42/714_R406S.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 90863,
-   "name": "ヨッシー New アイランド",
-   "nameCN": "新耀西岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/b9/90863_Uk8NN.jpg",
-   "date": "2014-07-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 144373,
-   "name": "ヨッシーストーリー",
-   "nameCN": "耀西的故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/6b/144373_hLF4T.jpg",
-   "date": "1997-12-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 144374,
-   "name": "ヨッシーアイランドDS",
-   "nameCN": "耀西岛DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/12/144374_Qj3j3.jpg",
-   "date": "2006-11-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 714,
-   "dst": 144373
-  },
-  {
-   "relate": "续集",
-   "src": 714,
-   "dst": 144374
-  },
-  {
-   "relate": "前传",
-   "src": 90863,
-   "dst": 144374
-  },
-  {
-   "relate": "前传",
-   "src": 144373,
-   "dst": 714
-  },
-  {
-   "relate": "前传",
-   "src": 144374,
-   "dst": 714
-  },
-  {
-   "relate": "续集",
-   "src": 144374,
-   "dst": 90863
-  }
- ]
+  "id": "714",
+  "node": [
+    {
+      "id": 714,
+      "name": "スーパーマリオ ヨッシーアイランド",
+      "nameCN": "耀西岛",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144373,
+      "name": "ヨッシーストーリー",
+      "nameCN": "耀西的故事",
+      "date": "1997-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144374,
+      "name": "ヨッシーアイランドDS",
+      "nameCN": "耀西岛DS",
+      "date": "2006-11-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 90863,
+      "name": "ヨッシー New アイランド",
+      "nameCN": "新耀西岛",
+      "date": "2014-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 714,
+      "dst": 144373
+    },
+    {
+      "relateString": "续集",
+      "src": 714,
+      "dst": 144374
+    },
+    {
+      "relateString": "前传",
+      "src": 90863,
+      "dst": 144374
+    },
+    {
+      "relateString": "前传",
+      "src": 144373,
+      "dst": 714
+    },
+    {
+      "relateString": "前传",
+      "src": 144374,
+      "dst": 714
+    },
+    {
+      "relateString": "续集",
+      "src": 144374,
+      "dst": 90863
+    }
+  ]
 }

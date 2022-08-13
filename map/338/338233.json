@@ -1,37 +1,35 @@
 {
- "id": 338233,
- "node": [
-  {
-   "id": 338233,
-   "name": "すきまめし",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/d8/338233_KAome.jpg",
-   "date": "2012-04-14",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 338234,
-   "name": "続・すきまめし",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/4b/338234_6xosA.jpg",
-   "date": "2013-04-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 338233,
-   "dst": 338234
-  },
-  {
-   "relate": "前传",
-   "src": 338234,
-   "dst": 338233
-  }
- ]
+  "id": "338233",
+  "node": [
+    {
+      "id": 338233,
+      "name": "すきまめし",
+      "nameCN": "",
+      "date": "2012-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 338234,
+      "name": "続・すきまめし",
+      "nameCN": "",
+      "date": "2013-04-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 338233,
+      "dst": 338234
+    },
+    {
+      "relateString": "前传",
+      "src": 338234,
+      "dst": 338233
+    }
+  ]
 }

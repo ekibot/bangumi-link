@@ -1,37 +1,34 @@
 {
- "id": 79600,
- "node": [
-  {
-   "id": 79600,
-   "name": "Shock Troopers",
-   "nameCN": "突击骑兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/90/79600_RyoQR.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 225938,
-   "name": "SHOCK TROOPERS 2nd Squad",
-   "nameCN": "突击骑兵2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/89/225938_yba5p.jpg",
-   "date": "1998-06-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79600,
-   "dst": 225938
-  },
-  {
-   "relate": "前传",
-   "src": 225938,
-   "dst": 79600
-  }
- ]
+  "id": "79600",
+  "node": [
+    {
+      "id": 79600,
+      "name": "Shock Troopers",
+      "nameCN": "突击骑兵",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225938,
+      "name": "SHOCK TROOPERS 2nd Squad",
+      "nameCN": "突击骑兵2",
+      "date": "1998-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79600,
+      "dst": 225938
+    },
+    {
+      "relateString": "前传",
+      "src": 225938,
+      "dst": 79600
+    }
+  ]
 }

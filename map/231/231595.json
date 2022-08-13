@@ -1,57 +1,54 @@
 {
- "id": 231595,
- "node": [
-  {
-   "id": 231595,
-   "name": "Altered Carbon",
-   "nameCN": "碳变",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/09/231595_sBttF.jpg",
-   "date": "2018-02-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 277363,
-   "name": "オルタード・カーボン：リスリーブド",
-   "nameCN": "碳变：义体置换",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/20/277363_n729y.jpg",
-   "date": "2020-03-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 298674,
-   "name": "Altered Carbon Season 2",
-   "nameCN": "碳变 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/22/298674_9YI1g.jpg",
-   "date": "2020-02-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 231595,
-   "dst": 277363
-  },
-  {
-   "relate": "续集",
-   "src": 231595,
-   "dst": 298674
-  },
-  {
-   "relate": "主线故事",
-   "src": 277363,
-   "dst": 231595
-  },
-  {
-   "relate": "前传",
-   "src": 298674,
-   "dst": 231595
-  }
- ]
+  "id": "231595",
+  "node": [
+    {
+      "id": 231595,
+      "name": "Altered Carbon",
+      "nameCN": "碳变",
+      "date": "2018-02-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 277363,
+      "name": "オルタード・カーボン：リスリーブド",
+      "nameCN": "碳变：义体置换",
+      "date": "2020-03-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 298674,
+      "name": "Altered Carbon Season 2",
+      "nameCN": "碳变 第二季",
+      "date": "2020-02-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 231595,
+      "dst": 277363
+    },
+    {
+      "relateString": "续集",
+      "src": 231595,
+      "dst": 298674
+    },
+    {
+      "relateString": "主线故事",
+      "src": 277363,
+      "dst": 231595
+    },
+    {
+      "relateString": "前传",
+      "src": 298674,
+      "dst": 231595
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 14119,
- "node": [
-  {
-   "id": 14119,
-   "name": "初恋予報。",
-   "nameCN": "初恋预报。",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/f5/14119_6NnWw.jpg",
-   "date": "2011-05-27",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 24509,
-   "name": "初恋前線。",
-   "nameCN": "初恋前线。",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/d7/24509_3m8X8.jpg",
-   "date": "2012-02-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14119,
-   "dst": 24509
-  },
-  {
-   "relate": "前传",
-   "src": 24509,
-   "dst": 14119
-  }
- ]
+  "id": "14119",
+  "node": [
+    {
+      "id": 14119,
+      "name": "初恋予報。",
+      "nameCN": "初恋预报。",
+      "date": "2011-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 24509,
+      "name": "初恋前線。",
+      "nameCN": "初恋前线。",
+      "date": "2012-02-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14119,
+      "dst": 24509
+    },
+    {
+      "relateString": "前传",
+      "src": 24509,
+      "dst": 14119
+    }
+  ]
 }

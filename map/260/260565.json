@@ -1,77 +1,72 @@
 {
- "id": 260565,
- "node": [
-  {
-   "id": 260565,
-   "name": "Cookie Run",
-   "nameCN": "跑跑姜饼人",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/84/260565_l5Vqv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 340962,
-   "name": "Cookie Run: OvenBreak",
-   "nameCN": "跑跑姜饼人：烤箱大逃亡",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/37/340962_8wu0h.jpg",
-   "date": "2016-10-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 340963,
-   "name": "Cookie Run: Puzzle World",
-   "nameCN": "姜饼人消消乐",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/f6/340963_638Dh.jpg",
-   "date": "2020-01-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 340978,
-   "name": "Cookie Run: Kingdom",
-   "nameCN": "姜饼人王国",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/b4/340978_PntO3.jpg",
-   "date": "2021-01-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 260565,
-   "dst": 340962
-  },
-  {
-   "relate": "前传",
-   "src": 340962,
-   "dst": 260565
-  },
-  {
-   "relate": "续集",
-   "src": 340962,
-   "dst": 340963
-  },
-  {
-   "relate": "前传",
-   "src": 340963,
-   "dst": 340962
-  },
-  {
-   "relate": "续集",
-   "src": 340963,
-   "dst": 340978
-  },
-  {
-   "relate": "前传",
-   "src": 340978,
-   "dst": 340963
-  }
- ]
+  "id": "260565",
+  "node": [
+    {
+      "id": 260565,
+      "name": "Cookie Run",
+      "nameCN": "跑跑姜饼人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340962,
+      "name": "Cookie Run: OvenBreak",
+      "nameCN": "跑跑姜饼人：烤箱大逃亡",
+      "date": "2016-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340963,
+      "name": "Cookie Run: Puzzle World",
+      "nameCN": "姜饼人消消乐",
+      "date": "2020-01-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340978,
+      "name": "Cookie Run: Kingdom",
+      "nameCN": "姜饼人王国",
+      "date": "2021-01-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 260565,
+      "dst": 340962
+    },
+    {
+      "relateString": "前传",
+      "src": 340962,
+      "dst": 260565
+    },
+    {
+      "relateString": "续集",
+      "src": 340962,
+      "dst": 340963
+    },
+    {
+      "relateString": "前传",
+      "src": 340963,
+      "dst": 340962
+    },
+    {
+      "relateString": "续集",
+      "src": 340963,
+      "dst": 340978
+    },
+    {
+      "relateString": "前传",
+      "src": 340978,
+      "dst": 340963
+    }
+  ]
 }

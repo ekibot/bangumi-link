@@ -1,57 +1,54 @@
 {
- "id": 110920,
- "node": [
-  {
-   "id": 110920,
-   "name": "高円寺女子サッカー",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/e0/110920_79639.jpg",
-   "date": "2006-04-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 111008,
-   "name": "高円寺女子サッカー2 ~恋はネバギバ高円寺~",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/e8/111008_A1L12.jpg",
-   "date": "2007-11-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 111011,
-   "name": "高円寺女子サッカー3 ~恋するイレブン いつかはヘブン~",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/af/111011_1CpJj.jpg",
-   "date": "2016-06-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 110920,
-   "dst": 111008
-  },
-  {
-   "relate": "前传",
-   "src": 111008,
-   "dst": 110920
-  },
-  {
-   "relate": "续集",
-   "src": 111008,
-   "dst": 111011
-  },
-  {
-   "relate": "前传",
-   "src": 111011,
-   "dst": 111008
-  }
- ]
+  "id": "110920",
+  "node": [
+    {
+      "id": 110920,
+      "name": "高円寺女子サッカー",
+      "nameCN": "",
+      "date": "2006-04-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111008,
+      "name": "高円寺女子サッカー2 ~恋はネバギバ高円寺~",
+      "nameCN": "",
+      "date": "2007-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111011,
+      "name": "高円寺女子サッカー3 ~恋するイレブン いつかはヘブン~",
+      "nameCN": "",
+      "date": "2016-06-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 110920,
+      "dst": 111008
+    },
+    {
+      "relateString": "前传",
+      "src": 111008,
+      "dst": 110920
+    },
+    {
+      "relateString": "续集",
+      "src": 111008,
+      "dst": 111011
+    },
+    {
+      "relateString": "前传",
+      "src": 111011,
+      "dst": 111008
+    }
+  ]
 }

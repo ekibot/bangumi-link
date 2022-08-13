@@ -1,37 +1,35 @@
 {
- "id": 2732,
- "node": [
-  {
-   "id": 2732,
-   "name": "Moonlight Mile -Lift off-",
-   "nameCN": "月光旅程 -Lift off-",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/14/2732_hbML9.jpg",
-   "date": "2007-03-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2733,
-   "name": "Moonlight Mile -Touch down-",
-   "nameCN": "月光旅程 -Touch down-",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/1f/2733_Pu993.jpg",
-   "date": "2007-09-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2732,
-   "dst": 2733
-  },
-  {
-   "relate": "前传",
-   "src": 2733,
-   "dst": 2732
-  }
- ]
+  "id": "2732",
+  "node": [
+    {
+      "id": 2732,
+      "name": "Moonlight Mile -Lift off-",
+      "nameCN": "月光旅程 -Lift off-",
+      "date": "2007-03-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2733,
+      "name": "Moonlight Mile -Touch down-",
+      "nameCN": "月光旅程 -Touch down-",
+      "date": "2007-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2732,
+      "dst": 2733
+    },
+    {
+      "relateString": "前传",
+      "src": 2733,
+      "dst": 2732
+    }
+  ]
 }

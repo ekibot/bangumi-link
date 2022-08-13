@@ -1,0 +1,73 @@
+{
+  "id": "41803",
+  "node": [
+    {
+      "id": 41803,
+      "name": "猫ラーメン",
+      "nameCN": "猫拉面",
+      "date": "2006-06-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 41809,
+      "name": "猫ラーメンTHE MOVIE―猫ラーメン番外編",
+      "nameCN": "",
+      "date": "2008-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 383708,
+      "name": "猫ラーメン物語 子猫のトーマス",
+      "nameCN": "",
+      "date": "2012-07-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 383717,
+      "name": "新装開店！ 猫ラーメン",
+      "nameCN": "",
+      "date": "2017-02-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 41803,
+      "dst": 41809
+    },
+    {
+      "relateString": "前传",
+      "src": 41803,
+      "dst": 383708
+    },
+    {
+      "relateString": "续集",
+      "src": 41803,
+      "dst": 383717
+    },
+    {
+      "relateString": "主线故事",
+      "src": 41809,
+      "dst": 41803
+    },
+    {
+      "relateString": "续集",
+      "src": 383708,
+      "dst": 41803
+    },
+    {
+      "relateString": "前传",
+      "src": 383717,
+      "dst": 41803
+    }
+  ]
+}

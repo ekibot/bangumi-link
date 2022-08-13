@@ -1,0 +1,54 @@
+{
+  "id": "49",
+  "node": [
+    {
+      "id": 49,
+      "name": "小説・秒速5センチメートル",
+      "nameCN": "",
+      "date": "2007-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 51234,
+      "name": "秒速5センチメートル one more side",
+      "nameCN": "秒速5厘米 one more side",
+      "date": "2011-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 238160,
+      "name": "小説 秒速5センチメートル (角川文庫)",
+      "nameCN": "秒速五厘米",
+      "date": "2016-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 49,
+      "dst": 51234
+    },
+    {
+      "relateString": "主线故事",
+      "src": 51234,
+      "dst": 49
+    },
+    {
+      "relateString": "主线故事",
+      "src": 51234,
+      "dst": 238160
+    },
+    {
+      "relateString": "番外篇",
+      "src": 238160,
+      "dst": 51234
+    }
+  ]
+}

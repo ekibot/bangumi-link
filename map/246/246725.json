@@ -1,37 +1,35 @@
 {
- "id": 246725,
- "node": [
-  {
-   "id": 246725,
-   "name": "欅って、書けない?",
-   "nameCN": "欅会不会写？",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/bc/246725_VmE5Z.jpg",
-   "date": "2015-10-04",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 317181,
-   "name": "そこ曲がったら、櫻坂？",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/88/317181_FDrYO.jpg",
-   "date": "2020-10-18",
-   "nameCN": "转角就是櫻坂吗?",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 246725,
-   "dst": 317181
-  },
-  {
-   "relate": "前传",
-   "src": 317181,
-   "dst": 246725
-  }
- ]
+  "id": "246725",
+  "node": [
+    {
+      "id": 246725,
+      "name": "欅って、書けない?",
+      "nameCN": "欅会不会写？",
+      "date": "2015-10-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 317181,
+      "name": "そこ曲がったら、櫻坂？",
+      "nameCN": "转角就是櫻坂吗?",
+      "date": "2020-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 246725,
+      "dst": 317181
+    },
+    {
+      "relateString": "前传",
+      "src": 317181,
+      "dst": 246725
+    }
+  ]
 }

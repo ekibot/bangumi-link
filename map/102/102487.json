@@ -1,37 +1,35 @@
 {
- "id": 102487,
- "node": [
-  {
-   "id": 102487,
-   "name": "シリョクケンサ",
-   "nameCN": "视力检查",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/30/102487_yRWTN.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 126652,
-   "name": "小説 シリョクケンサ -僕が歩んできた道-",
-   "nameCN": "小说 视力检查 -我所走过的路-",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/50/126652_jp.jpg",
-   "date": "2015-02-13",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 102487,
-   "dst": 126652
-  },
-  {
-   "relate": "续集",
-   "src": 126652,
-   "dst": 102487
-  }
- ]
+  "id": "102487",
+  "node": [
+    {
+      "id": 102487,
+      "name": "シリョクケンサ",
+      "nameCN": "视力检查",
+      "date": "2013-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 126652,
+      "name": "小説 シリョクケンサ -僕が歩んできた道-",
+      "nameCN": "小说 视力检查 -我所走过的路-",
+      "date": "2015-02-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 102487,
+      "dst": 126652
+    },
+    {
+      "relateString": "续集",
+      "src": 126652,
+      "dst": 102487
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 42336,
- "node": [
-  {
-   "id": 42336,
-   "name": "珍遊記 -太郎とゆかいな仲間たち-",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/8f/42336_7gGv8.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 42338,
-   "name": "珍遊記2〜夢の印税生活編〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/bc/42338_brruC.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 42336,
-   "dst": 42338
-  },
-  {
-   "relate": "前传",
-   "src": 42338,
-   "dst": 42336
-  }
- ]
+  "id": "42336",
+  "node": [
+    {
+      "id": 42336,
+      "name": "珍遊記 -太郎とゆかいな仲間たち-",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 42338,
+      "name": "珍遊記2〜夢の印税生活編〜",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 42336,
+      "dst": 42338
+    },
+    {
+      "relateString": "前传",
+      "src": 42338,
+      "dst": 42336
+    }
+  ]
 }

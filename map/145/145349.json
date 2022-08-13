@@ -1,37 +1,35 @@
 {
- "id": 145349,
- "node": [
-  {
-   "id": 145349,
-   "name": "4.9x4.9",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/bb/145349_8XvvH.jpg",
-   "date": "2010-06-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 211590,
-   "name": "4.9X4.9 NEW BATTLE",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/4a/211590_GU00o.jpg",
-   "date": "2011-08-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 145349,
-   "dst": 211590
-  },
-  {
-   "relate": "前传",
-   "src": 211590,
-   "dst": 145349
-  }
- ]
+  "id": "145349",
+  "node": [
+    {
+      "id": 145349,
+      "name": "4.9x4.9",
+      "nameCN": "",
+      "date": "2010-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 211590,
+      "name": "4.9X4.9 NEW BATTLE",
+      "nameCN": "",
+      "date": "2011-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 145349,
+      "dst": 211590
+    },
+    {
+      "relateString": "前传",
+      "src": 211590,
+      "dst": 145349
+    }
+  ]
 }

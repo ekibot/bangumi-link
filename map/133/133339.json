@@ -1,57 +1,52 @@
 {
- "id": 133339,
- "node": [
-  {
-   "id": 133339,
-   "name": "星の瞳のシルエット",
-   "nameCN": "星之瞳的剪影",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/06/133339_gpLG7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 274179,
-   "name": "星の瞳のシルエット―青春フィナーレ―",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/e1/274179_YWtYK.jpg",
-   "date": "2017-06-23",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 274183,
-   "name": "Engage",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/f6/274183_7d0AA.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 133339,
-   "dst": 274179
-  },
-  {
-   "relate": "番外篇",
-   "src": 133339,
-   "dst": 274183
-  },
-  {
-   "relate": "前传",
-   "src": 274179,
-   "dst": 133339
-  },
-  {
-   "relate": "主线故事",
-   "src": 274183,
-   "dst": 133339
-  }
- ]
+  "id": "133339",
+  "node": [
+    {
+      "id": 133339,
+      "name": "星の瞳のシルエット",
+      "nameCN": "星之瞳的剪影",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 274179,
+      "name": "星の瞳のシルエット―青春フィナーレ―",
+      "nameCN": "",
+      "date": "2017-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 274183,
+      "name": "Engage",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 133339,
+      "dst": 274179
+    },
+    {
+      "relateString": "番外篇",
+      "src": 133339,
+      "dst": 274183
+    },
+    {
+      "relateString": "前传",
+      "src": 274179,
+      "dst": 133339
+    },
+    {
+      "relateString": "主线故事",
+      "src": 274183,
+      "dst": 133339
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 331657,
- "node": [
-  {
-   "id": 331657,
-   "name": "Call of Cthulhu: Prisoner of Ice",
-   "nameCN": "南极冰怪",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/71/331657_PyIj7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 331658,
-   "name": "Shadow of the Comet",
-   "nameCN": "魔影哈雷",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/41/331658_z0867.jpg",
-   "date": "1993-03-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 331657,
-   "dst": 331658
-  },
-  {
-   "relate": "续集",
-   "src": 331658,
-   "dst": 331657
-  }
- ]
+  "id": "331657",
+  "node": [
+    {
+      "id": 331657,
+      "name": "Call of Cthulhu: Prisoner of Ice",
+      "nameCN": "南极冰怪",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 331658,
+      "name": "Shadow of the Comet",
+      "nameCN": "魔影哈雷",
+      "date": "1993-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 331657,
+      "dst": 331658
+    },
+    {
+      "relateString": "续集",
+      "src": 331658,
+      "dst": 331657
+    }
+  ]
 }

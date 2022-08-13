@@ -1,37 +1,35 @@
 {
- "id": 111462,
- "node": [
-  {
-   "id": 111462,
-   "name": "マイティガンヴォルト",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/ad/111462_bebyq.jpg",
-   "date": "2014-08-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 293483,
-   "name": "マイティガンヴォルト バースト",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/71/293483_zKkVk.jpg",
-   "date": "2017-06-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111462,
-   "dst": 293483
-  },
-  {
-   "relate": "前传",
-   "src": 293483,
-   "dst": 111462
-  }
- ]
+  "id": "111462",
+  "node": [
+    {
+      "id": 111462,
+      "name": "マイティガンヴォルト",
+      "nameCN": "",
+      "date": "2014-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293483,
+      "name": "マイティガンヴォルト バースト",
+      "nameCN": "",
+      "date": "2017-06-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111462,
+      "dst": 293483
+    },
+    {
+      "relateString": "前传",
+      "src": 293483,
+      "dst": 111462
+    }
+  ]
 }

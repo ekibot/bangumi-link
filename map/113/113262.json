@@ -1,37 +1,35 @@
 {
- "id": 113262,
- "node": [
-  {
-   "id": 113262,
-   "name": "The Land Before Time",
-   "nameCN": "小脚板走天涯",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/6a/113262_xuyMX.jpg",
-   "date": "1988-11-18",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 363948,
-   "name": "The Land Before Time II: The Great Valley Adventure",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/8c/363948_wpfvI.jpg",
-   "date": "1994-12-13",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113262,
-   "dst": 363948
-  },
-  {
-   "relate": "前传",
-   "src": 363948,
-   "dst": 113262
-  }
- ]
+  "id": "113262",
+  "node": [
+    {
+      "id": 113262,
+      "name": "The Land Before Time",
+      "nameCN": "小脚板走天涯",
+      "date": "1988-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 363948,
+      "name": "The Land Before Time II: The Great Valley Adventure",
+      "nameCN": "",
+      "date": "1994-12-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113262,
+      "dst": 363948
+    },
+    {
+      "relateString": "前传",
+      "src": 363948,
+      "dst": 113262
+    }
+  ]
 }

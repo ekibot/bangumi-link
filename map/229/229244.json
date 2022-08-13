@@ -1,57 +1,54 @@
 {
- "id": 229244,
- "node": [
-  {
-   "id": 229244,
-   "name": "Blood Royal",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/72/229244_lHemN.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "1999-12-10",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 229245,
-   "name": "EXILE～BLOOD ROYAL2～",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/27/229245_lJHlt.jpg",
-   "date": "2000-11-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 229246,
-   "name": "Kyrie ~Blood Royal 3~",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/5e/229246_cT6fN.jpg",
-   "date": "2004-01-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229244,
-   "dst": 229245
-  },
-  {
-   "relate": "前传",
-   "src": 229245,
-   "dst": 229244
-  },
-  {
-   "relate": "续集",
-   "src": 229245,
-   "dst": 229246
-  },
-  {
-   "relate": "前传",
-   "src": 229246,
-   "dst": 229245
-  }
- ]
+  "id": "229244",
+  "node": [
+    {
+      "id": 229244,
+      "name": "Blood Royal",
+      "nameCN": "",
+      "date": "1999-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229245,
+      "name": "EXILE～BLOOD ROYAL2～",
+      "nameCN": "",
+      "date": "2000-11-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229246,
+      "name": "Kyrie ~Blood Royal 3~",
+      "nameCN": "",
+      "date": "2004-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229244,
+      "dst": 229245
+    },
+    {
+      "relateString": "前传",
+      "src": 229245,
+      "dst": 229244
+    },
+    {
+      "relateString": "续集",
+      "src": 229245,
+      "dst": 229246
+    },
+    {
+      "relateString": "前传",
+      "src": 229246,
+      "dst": 229245
+    }
+  ]
 }

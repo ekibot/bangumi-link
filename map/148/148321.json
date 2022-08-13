@@ -1,37 +1,35 @@
 {
- "id": 148321,
- "node": [
-  {
-   "id": 148321,
-   "name": "皇牌机娘",
-   "nameCN": "皇牌机娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/0e/148321_JMeXE.jpg",
-   "date": "2016-09-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 337128,
-   "name": "苍穹战线",
-   "nameCN": "苍穹战线",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/a1/337128_P8zBj.jpg",
-   "date": "2018-02-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 148321,
-   "dst": 337128
-  },
-  {
-   "relate": "前传",
-   "src": 337128,
-   "dst": 148321
-  }
- ]
+  "id": "148321",
+  "node": [
+    {
+      "id": 148321,
+      "name": "皇牌机娘",
+      "nameCN": "皇牌机娘",
+      "date": "2016-09-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 337128,
+      "name": "苍穹战线",
+      "nameCN": "苍穹战线",
+      "date": "2018-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 148321,
+      "dst": 337128
+    },
+    {
+      "relateString": "前传",
+      "src": 337128,
+      "dst": 148321
+    }
+  ]
 }

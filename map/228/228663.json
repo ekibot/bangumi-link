@@ -1,77 +1,72 @@
 {
- "id": 228663,
- "node": [
-  {
-   "id": 228663,
-   "name": "枪神记",
-   "nameCN": "枪神记",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/90/228663_7Aelc.jpg",
-   "date": "2017-12-08",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 247284,
-   "name": "枪神记 特工世界篇",
-   "nameCN": "枪神记 特工世界篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/f7/247284_M4sGi.jpg",
-   "date": "2018-06-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 258256,
-   "name": "枪神记 血族秘史篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/b3/258256_5OCt3.jpg",
-   "date": "2019-12-15",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 300837,
-   "name": "枪神记 深海陷落篇",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228663,
-   "dst": 247284
-  },
-  {
-   "relate": "前传",
-   "src": 247284,
-   "dst": 228663
-  },
-  {
-   "relate": "续集",
-   "src": 247284,
-   "dst": 258256
-  },
-  {
-   "relate": "前传",
-   "src": 258256,
-   "dst": 247284
-  },
-  {
-   "relate": "续集",
-   "src": 258256,
-   "dst": 300837
-  },
-  {
-   "relate": "前传",
-   "src": 300837,
-   "dst": 258256
-  }
- ]
+  "id": "228663",
+  "node": [
+    {
+      "id": 228663,
+      "name": "枪神记",
+      "nameCN": "枪神记",
+      "date": "2017-12-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 247284,
+      "name": "枪神记 特工世界篇",
+      "nameCN": "枪神记 特工世界篇",
+      "date": "2018-06-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 258256,
+      "name": "枪神记 血族秘史篇",
+      "nameCN": "",
+      "date": "2019-12-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 300837,
+      "name": "枪神记 深海陷落篇",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228663,
+      "dst": 247284
+    },
+    {
+      "relateString": "前传",
+      "src": 247284,
+      "dst": 228663
+    },
+    {
+      "relateString": "续集",
+      "src": 247284,
+      "dst": 258256
+    },
+    {
+      "relateString": "前传",
+      "src": 258256,
+      "dst": 247284
+    },
+    {
+      "relateString": "续集",
+      "src": 258256,
+      "dst": 300837
+    },
+    {
+      "relateString": "前传",
+      "src": 300837,
+      "dst": 258256
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 165390,
- "node": [
-  {
-   "id": 165390,
-   "name": "Draw a Stickman:Epic",
-   "nameCN": "画个火柴人：传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/28/165390_sUmD1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 234629,
-   "name": "Draw a Stickman: EPIC 2",
-   "nameCN": "画个火柴人：传奇2",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/29/234629_nb5jg.jpg",
-   "date": "2015-11-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165390,
-   "dst": 234629
-  },
-  {
-   "relate": "前传",
-   "src": 234629,
-   "dst": 165390
-  }
- ]
+  "id": "165390",
+  "node": [
+    {
+      "id": 165390,
+      "name": "Draw a Stickman:Epic",
+      "nameCN": "画个火柴人：传奇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234629,
+      "name": "Draw a Stickman: EPIC 2",
+      "nameCN": "画个火柴人：传奇2",
+      "date": "2015-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165390,
+      "dst": 234629
+    },
+    {
+      "relateString": "前传",
+      "src": 234629,
+      "dst": 165390
+    }
+  ]
 }

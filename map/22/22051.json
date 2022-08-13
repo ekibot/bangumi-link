@@ -1,37 +1,33 @@
 {
- "id": 22051,
- "node": [
-  {
-   "id": 22051,
-   "name": "彼岸花の咲く夜に 第一夜",
-   "nameCN": "彼岸花盛开之夜 第一夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/87/22051_Q18Pm.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 125921,
-   "name": "彼岸花の咲く夜に 第二夜",
-   "nameCN": "彼岸花盛开之夜 第二夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/dd/125921_Id1jg.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22051,
-   "dst": 125921
-  },
-  {
-   "relate": "前传",
-   "src": 125921,
-   "dst": 22051
-  }
- ]
+  "id": "22051",
+  "node": [
+    {
+      "id": 22051,
+      "name": "彼岸花の咲く夜に 第一夜",
+      "nameCN": "彼岸花盛开之夜 第一夜",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 125921,
+      "name": "彼岸花の咲く夜に 第二夜",
+      "nameCN": "彼岸花盛开之夜 第二夜",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22051,
+      "dst": 125921
+    },
+    {
+      "relateString": "前传",
+      "src": 125921,
+      "dst": 22051
+    }
+  ]
 }

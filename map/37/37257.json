@@ -1,37 +1,35 @@
 {
- "id": 37257,
- "node": [
-  {
-   "id": 37257,
-   "name": "ヤマトタケル",
-   "nameCN": "魔天战神",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/4c/37257_0jPjQ.jpg",
-   "date": "1994-04-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 180401,
-   "name": "ヤマトタケル 〜After War〜",
-   "nameCN": "魔天战神 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/26/180401_DVqeL.jpg",
-   "date": "1995-11-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37257,
-   "dst": 180401
-  },
-  {
-   "relate": "前传",
-   "src": 180401,
-   "dst": 37257
-  }
- ]
+  "id": "37257",
+  "node": [
+    {
+      "id": 37257,
+      "name": "ヤマトタケル",
+      "nameCN": "魔天战神",
+      "date": "1994-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 180401,
+      "name": "ヤマトタケル 〜After War〜",
+      "nameCN": "魔天战神 OVA",
+      "date": "1995-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37257,
+      "dst": 180401
+    },
+    {
+      "relateString": "前传",
+      "src": 180401,
+      "dst": 37257
+    }
+  ]
 }

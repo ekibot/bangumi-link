@@ -1,37 +1,35 @@
 {
- "id": 147527,
- "node": [
-  {
-   "id": 147527,
-   "name": "3月のライオン 前編",
-   "nameCN": "3月的狮子 前篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/56/147527_Ps105.jpg",
-   "date": "2017-03-18",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 173753,
-   "name": "3月のライオン 後編",
-   "nameCN": "3月的狮子 后篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/53/173753_paTFA.jpg",
-   "date": "2017-04-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147527,
-   "dst": 173753
-  },
-  {
-   "relate": "前传",
-   "src": 173753,
-   "dst": 147527
-  }
- ]
+  "id": "147527",
+  "node": [
+    {
+      "id": 147527,
+      "name": "3月のライオン 前編",
+      "nameCN": "3月的狮子 前篇",
+      "date": "2017-03-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 173753,
+      "name": "3月のライオン 後編",
+      "nameCN": "3月的狮子 后篇",
+      "date": "2017-04-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147527,
+      "dst": 173753
+    },
+    {
+      "relateString": "前传",
+      "src": 173753,
+      "dst": 147527
+    }
+  ]
 }

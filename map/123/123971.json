@@ -1,31 +1,35 @@
 {
- "id": 123971,
- "node": [
-  {
-   "id": 123971,
-   "name": "Say Yah!",
-   "nameCN": "Say Yah!",
-   "image": "/img/no_icon_subject.png",
-   "date": "1999-12-17"
-  },
-  {
-   "id": 152110,
-   "name": "SayYah! —2003—",
-   "nameCN": "SayYah!: 2003",
-   "image": "/img/no_icon_subject.png",
-   "date": "2003-12-26"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123971,
-   "dst": 152110
-  },
-  {
-   "relate": "前传",
-   "src": 152110,
-   "dst": 123971
-  }
- ]
+  "id": "123971",
+  "node": [
+    {
+      "id": 123971,
+      "name": "Say Yah!",
+      "nameCN": "Say Yah!",
+      "date": "1999-12-17",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 152110,
+      "name": "SayYah! —2003—",
+      "nameCN": "SayYah!: 2003",
+      "date": "2003-12-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123971,
+      "dst": 152110
+    },
+    {
+      "relateString": "前传",
+      "src": 152110,
+      "dst": 123971
+    }
+  ]
 }

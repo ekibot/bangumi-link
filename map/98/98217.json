@@ -1,37 +1,35 @@
 {
- "id": 98217,
- "node": [
-  {
-   "id": 98217,
-   "name": "監督不行届",
-   "nameCN": "监督不行届",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/a7/98217_QS00k.jpg",
-   "date": "2014-04-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 195869,
-   "name": "おおきなカブ（株）",
-   "nameCN": "好孩子的历史动画：大大的萝卜",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/dd/221017_6l8hw.jpg",
-   "date": "2016-11-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 98217,
-   "dst": 195869
-  },
-  {
-   "relate": "主线故事",
-   "src": 195869,
-   "dst": 98217
-  }
- ]
+  "id": "98217",
+  "node": [
+    {
+      "id": 98217,
+      "name": "監督不行届",
+      "nameCN": "监督不行届",
+      "date": "2014-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 195869,
+      "name": "おおきなカブ（株）",
+      "nameCN": "好孩子的历史动画：大大的萝卜",
+      "date": "2016-11-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 98217,
+      "dst": 195869
+    },
+    {
+      "relateString": "主线故事",
+      "src": 195869,
+      "dst": 98217
+    }
+  ]
 }

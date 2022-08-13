@@ -1,67 +1,63 @@
 {
- "id": 47089,
- "node": [
-  {
-   "id": 47089,
-   "name": "フルハウスキス2",
-   "nameCN": "恋爱家政妇二",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/3f/47089_2Gzp2.jpg",
-   "date": "2006-02-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 55448,
-   "name": "フルハウスキス",
-   "nameCN": "恋爱家政妇",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/80/55448_jYb1E.jpg",
-   "date": "2006-12-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 55450,
-   "name": "フルハウスキス2～恋愛迷宮～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/4d/55450_3cj84.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 47089,
-   "dst": 55448
-  },
-  {
-   "relate": "续集",
-   "src": 47089,
-   "dst": 55450
-  },
-  {
-   "relate": "续集",
-   "src": 55448,
-   "dst": 47089
-  },
-  {
-   "relate": "续集",
-   "src": 55448,
-   "dst": 55450
-  },
-  {
-   "relate": "前传",
-   "src": 55450,
-   "dst": 47089
-  },
-  {
-   "relate": "前传",
-   "src": 55450,
-   "dst": 55448
-  }
- ]
+  "id": "47089",
+  "node": [
+    {
+      "id": 47089,
+      "name": "フルハウスキス2",
+      "nameCN": "恋爱家政妇二",
+      "date": "2006-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 55448,
+      "name": "フルハウスキス",
+      "nameCN": "恋爱家政妇",
+      "date": "2006-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 55450,
+      "name": "フルハウスキス2～恋愛迷宮～",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 47089,
+      "dst": 55448
+    },
+    {
+      "relateString": "续集",
+      "src": 47089,
+      "dst": 55450
+    },
+    {
+      "relateString": "续集",
+      "src": 55448,
+      "dst": 47089
+    },
+    {
+      "relateString": "续集",
+      "src": 55448,
+      "dst": 55450
+    },
+    {
+      "relateString": "前传",
+      "src": 55450,
+      "dst": 47089
+    },
+    {
+      "relateString": "前传",
+      "src": 55450,
+      "dst": 55448
+    }
+  ]
 }

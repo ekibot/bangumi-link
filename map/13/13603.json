@@ -1,57 +1,54 @@
 {
- "id": 13603,
- "node": [
-  {
-   "id": 13603,
-   "name": "罗小黑战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/51/13603_hwDMr.jpg",
-   "date": "2011-03-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 159725,
-   "name": "罗小黑战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/e4/159725_G2bCk.jpg",
-   "date": "2019-09-07",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 294880,
-   "name": "罗小黑战记 众生之门篇",
-   "nameCN": "罗小黑战记 众生之门篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/f5/294880_RkZ3u.jpg",
-   "date": "2021-04-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 13603,
-   "dst": 159725
-  },
-  {
-   "relate": "续集",
-   "src": 13603,
-   "dst": 294880
-  },
-  {
-   "relate": "续集",
-   "src": 159725,
-   "dst": 13603
-  },
-  {
-   "relate": "前传",
-   "src": 294880,
-   "dst": 13603
-  }
- ]
+  "id": "13603",
+  "node": [
+    {
+      "id": 13603,
+      "name": "罗小黑战记",
+      "nameCN": "",
+      "date": "2011-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 159725,
+      "name": "罗小黑战记",
+      "nameCN": "",
+      "date": "2019-09-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 294880,
+      "name": "罗小黑战记 众生之门篇",
+      "nameCN": "罗小黑战记 众生之门篇",
+      "date": "2021-04-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 13603,
+      "dst": 159725
+    },
+    {
+      "relateString": "续集",
+      "src": 13603,
+      "dst": 294880
+    },
+    {
+      "relateString": "续集",
+      "src": 159725,
+      "dst": 13603
+    },
+    {
+      "relateString": "前传",
+      "src": 294880,
+      "dst": 13603
+    }
+  ]
 }

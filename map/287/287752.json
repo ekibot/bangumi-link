@@ -1,37 +1,35 @@
 {
- "id": 287752,
- "node": [
-  {
-   "id": 287752,
-   "name": "京京来乐道",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/17/287752_N0n7H.jpg",
-   "date": "2019-08-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 294248,
-   "name": "京京来乐道 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/9b/294248_OgfmW.jpg",
-   "date": "2019-11-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 287752,
-   "dst": 294248
-  },
-  {
-   "relate": "前传",
-   "src": 294248,
-   "dst": 287752
-  }
- ]
+  "id": "287752",
+  "node": [
+    {
+      "id": 287752,
+      "name": "京京来乐道",
+      "nameCN": "",
+      "date": "2019-08-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 294248,
+      "name": "京京来乐道 第二季",
+      "nameCN": "",
+      "date": "2019-11-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 287752,
+      "dst": 294248
+    },
+    {
+      "relateString": "前传",
+      "src": 294248,
+      "dst": 287752
+    }
+  ]
 }

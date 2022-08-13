@@ -1,37 +1,35 @@
 {
- "id": 127554,
- "node": [
-  {
-   "id": 127554,
-   "name": "ショッピングの女王",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/a1/127554_jp.jpg",
-   "date": "2002-07-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 127556,
-   "name": "ショッピングの女王 (ホスト&amp;プチ整形編)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/f9/127556_jp.jpg",
-   "date": "2004-04-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127554,
-   "dst": 127556
-  },
-  {
-   "relate": "前传",
-   "src": 127556,
-   "dst": 127554
-  }
- ]
+  "id": "127554",
+  "node": [
+    {
+      "id": 127554,
+      "name": "ショッピングの女王",
+      "nameCN": "",
+      "date": "2002-07-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 127556,
+      "name": "ショッピングの女王 (ホスト&amp;プチ整形編)",
+      "nameCN": "",
+      "date": "2004-04-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127554,
+      "dst": 127556
+    },
+    {
+      "relateString": "前传",
+      "src": 127556,
+      "dst": 127554
+    }
+  ]
 }

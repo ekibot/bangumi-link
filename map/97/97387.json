@@ -1,57 +1,53 @@
 {
- "id": 97387,
- "node": [
-  {
-   "id": 97387,
-   "name": "Lauras Stern",
-   "nameCN": "劳拉的星星",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/62/97387_EDOzc.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 97388,
-   "name": "Lauras Stern und der geheimnisvolle Drache Nian",
-   "nameCN": "劳拉的星星在中国",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/a1/97388_MBmj5.jpg",
-   "date": "2009-09-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 97392,
-   "name": "Lauras Stern und die Traummonst",
-   "nameCN": "劳拉的星星和梦中的怪物",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/83/97392_60210.jpg",
-   "date": "2011-10-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 97387,
-   "dst": 97388
-  },
-  {
-   "relate": "前传",
-   "src": 97388,
-   "dst": 97387
-  },
-  {
-   "relate": "续集",
-   "src": 97388,
-   "dst": 97392
-  },
-  {
-   "relate": "前传",
-   "src": 97392,
-   "dst": 97388
-  }
- ]
+  "id": "97387",
+  "node": [
+    {
+      "id": 97387,
+      "name": "Lauras Stern",
+      "nameCN": "劳拉的星星",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 97388,
+      "name": "Lauras Stern und der geheimnisvolle Drache Nian",
+      "nameCN": "劳拉的星星在中国",
+      "date": "2009-09-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 97392,
+      "name": "Lauras Stern und die Traummonst",
+      "nameCN": "劳拉的星星和梦中的怪物",
+      "date": "2011-10-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 97387,
+      "dst": 97388
+    },
+    {
+      "relateString": "前传",
+      "src": 97388,
+      "dst": 97387
+    },
+    {
+      "relateString": "续集",
+      "src": 97388,
+      "dst": 97392
+    },
+    {
+      "relateString": "前传",
+      "src": 97392,
+      "dst": 97388
+    }
+  ]
 }

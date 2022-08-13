@@ -1,37 +1,35 @@
 {
- "id": 16128,
- "node": [
-  {
-   "id": 16128,
-   "name": "Bully: Scholarship Edition",
-   "nameCN": "恶霸鲁尼：奖学金版",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/50/16128_TS3t6.jpg",
-   "date": "2008-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84105,
-   "name": "Bully",
-   "nameCN": "恶霸鲁尼",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/db/84105_zj6EI.jpg",
-   "date": "2006-10-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 16128,
-   "dst": 84105
-  },
-  {
-   "relate": "不同演绎",
-   "src": 84105,
-   "dst": 16128
-  }
- ]
+  "id": "16128",
+  "node": [
+    {
+      "id": 16128,
+      "name": "Bully: Scholarship Edition",
+      "nameCN": "恶霸鲁尼：奖学金版",
+      "date": "2008-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84105,
+      "name": "Bully",
+      "nameCN": "恶霸鲁尼",
+      "date": "2006-10-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 16128,
+      "dst": 84105
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 84105,
+      "dst": 16128
+    }
+  ]
 }

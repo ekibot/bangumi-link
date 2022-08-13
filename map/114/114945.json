@@ -1,37 +1,35 @@
 {
- "id": 114945,
- "node": [
-  {
-   "id": 114945,
-   "name": "狂気の国のアリス",
-   "nameCN": "疯狂之国的爱丽丝",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/b2/114945_oy2lK.jpg",
-   "date": "2014-09-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 126987,
-   "name": "逆襲の国のアリス",
-   "nameCN": "反击之国的爱丽丝",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/5e/126987_S3L55.jpg",
-   "date": "2015-02-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114945,
-   "dst": 126987
-  },
-  {
-   "relate": "前传",
-   "src": 126987,
-   "dst": 114945
-  }
- ]
+  "id": "114945",
+  "node": [
+    {
+      "id": 114945,
+      "name": "狂気の国のアリス",
+      "nameCN": "疯狂之国的爱丽丝",
+      "date": "2014-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 126987,
+      "name": "逆襲の国のアリス",
+      "nameCN": "反击之国的爱丽丝",
+      "date": "2015-02-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114945,
+      "dst": 126987
+    },
+    {
+      "relateString": "前传",
+      "src": 126987,
+      "dst": 114945
+    }
+  ]
 }

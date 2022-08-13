@@ -1,77 +1,71 @@
 {
- "id": 51158,
- "node": [
-  {
-   "id": 51158,
-   "name": "ホリミヤ",
-   "nameCN": "堀与宫村",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/cd/51158_55lcl.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 52025,
-   "name": "堀さんと宮村くん",
-   "nameCN": "堀桑与宫村君",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/9a/52025_5fhjA.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 52031,
-   "name": "浅尾さんと倉田くん",
-   "nameCN": "浅尾桑与仓田君",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/f6/52031_jrQxx.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 86700,
-   "name": "堀さんと宮村くん おまけ",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/28/86700_F1VLL.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 51158,
-   "dst": 52031
-  },
-  {
-   "relate": "相同世界观",
-   "src": 52025,
-   "dst": 52031
-  },
-  {
-   "relate": "番外篇",
-   "src": 52025,
-   "dst": 86700
-  },
-  {
-   "relate": "相同世界观",
-   "src": 52031,
-   "dst": 51158
-  },
-  {
-   "relate": "相同世界观",
-   "src": 52031,
-   "dst": 52025
-  },
-  {
-   "relate": "主线故事",
-   "src": 86700,
-   "dst": 52025
-  }
- ]
+  "id": "51158",
+  "node": [
+    {
+      "id": 51158,
+      "name": "ホリミヤ",
+      "nameCN": "堀与宫村",
+      "date": "2011-10-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52031,
+      "name": "浅尾さんと倉田くん",
+      "nameCN": "浅尾桑与仓田君",
+      "date": "2008-10-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52025,
+      "name": "堀さんと宮村くん",
+      "nameCN": "堀桑与宫村君",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86700,
+      "name": "堀さんと宮村くん おまけ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 51158,
+      "dst": 52031
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 52025,
+      "dst": 52031
+    },
+    {
+      "relateString": "番外篇",
+      "src": 52025,
+      "dst": 86700
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 52031,
+      "dst": 51158
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 52031,
+      "dst": 52025
+    },
+    {
+      "relateString": "主线故事",
+      "src": 86700,
+      "dst": 52025
+    }
+  ]
 }

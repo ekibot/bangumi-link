@@ -1,37 +1,35 @@
 {
- "id": 10806,
- "node": [
-  {
-   "id": 10806,
-   "name": "フェアリーテイルポータブルギルド",
-   "nameCN": "妖精的尾巴：携带公会",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/13/10806_MGhld.jpg",
-   "date": "2010-06-03",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 106360,
-   "name": "フェアリーテイルポータブルギル2",
-   "nameCN": "妖精的尾巴：携带公会2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/70/106360_561zX.jpg",
-   "date": "2011-03-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10806,
-   "dst": 106360
-  },
-  {
-   "relate": "前传",
-   "src": 106360,
-   "dst": 10806
-  }
- ]
+  "id": "10806",
+  "node": [
+    {
+      "id": 10806,
+      "name": "フェアリーテイルポータブルギルド",
+      "nameCN": "妖精的尾巴：携带公会",
+      "date": "2010-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 106360,
+      "name": "フェアリーテイルポータブルギル2",
+      "nameCN": "妖精的尾巴：携带公会2",
+      "date": "2011-03-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10806,
+      "dst": 106360
+    },
+    {
+      "relateString": "前传",
+      "src": 106360,
+      "dst": 10806
+    }
+  ]
 }

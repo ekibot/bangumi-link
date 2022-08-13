@@ -1,37 +1,35 @@
 {
- "id": 121807,
- "node": [
-  {
-   "id": 121807,
-   "name": "How to Survive: Storm Warning Edition",
-   "nameCN": "生存指南：风暴警告版",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/a8/121807_PAdd6.jpg",
-   "date": "2014-10-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 196479,
-   "name": "How to Survive 2",
-   "nameCN": "生存指南2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/cc/196479_3UpK2.jpg",
-   "date": "2016-09-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121807,
-   "dst": 196479
-  },
-  {
-   "relate": "前传",
-   "src": 196479,
-   "dst": 121807
-  }
- ]
+  "id": "121807",
+  "node": [
+    {
+      "id": 121807,
+      "name": "How to Survive: Storm Warning Edition",
+      "nameCN": "生存指南：风暴警告版",
+      "date": "2014-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196479,
+      "name": "How to Survive 2",
+      "nameCN": "生存指南2",
+      "date": "2016-09-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121807,
+      "dst": 196479
+    },
+    {
+      "relateString": "前传",
+      "src": 196479,
+      "dst": 121807
+    }
+  ]
 }

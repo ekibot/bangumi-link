@@ -1,37 +1,35 @@
 {
- "id": 252000,
- "node": [
-  {
-   "id": 252000,
-   "name": "与一とツグモ",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/5d/252000_EiJgR.jpg",
-   "date": "2018-03-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 334441,
-   "name": "与一とツグモ ―悠久の結―",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/55/334441_51TWo.jpg",
-   "date": "2020-09-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 252000,
-   "dst": 334441
-  },
-  {
-   "relate": "前传",
-   "src": 334441,
-   "dst": 252000
-  }
- ]
+  "id": "252000",
+  "node": [
+    {
+      "id": 252000,
+      "name": "与一とツグモ",
+      "nameCN": "",
+      "date": "2018-03-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 334441,
+      "name": "与一とツグモ ―悠久の結―",
+      "nameCN": "",
+      "date": "2020-09-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 252000,
+      "dst": 334441
+    },
+    {
+      "relateString": "前传",
+      "src": 334441,
+      "dst": 252000
+    }
+  ]
 }

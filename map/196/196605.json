@@ -1,127 +1,121 @@
 {
- "id": 196605,
- "node": [
-  {
-   "id": 196605,
-   "name": "リンちゃんなう ver.0",
-   "nameCN": "铃酱NOW ver.0",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/13/196605_jp.jpg",
-   "date": "2013-03-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 196606,
-   "name": "リンちゃんなう ver.1",
-   "nameCN": "铃酱NOW ver.1",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/15/196606_jp.jpg",
-   "date": "2014-02-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 196607,
-   "name": "リンちゃんなう ver.1 Special Edition",
-   "nameCN": "铃酱NOW ver.1 Special Edition",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/c2/196607_jp.jpg",
-   "date": "2014-02-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 196608,
-   "name": "リンちゃんなう ver.2",
-   "nameCN": "铃酱NOW ver.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/d0/196608_jp.jpg",
-   "date": "2014-06-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 196609,
-   "name": "リンちゃんなう ver.3",
-   "nameCN": "铃酱NOW ver.3",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/69/196609_jp.jpg",
-   "date": "2014-12-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 196610,
-   "name": "リンちゃんなう ver.2 Special Edition",
-   "nameCN": "铃酱NOW ver.2 Special Edition",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/e4/196610_jp.jpg",
-   "date": "2014-06-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196605,
-   "dst": 196606
-  },
-  {
-   "relate": "前传",
-   "src": 196606,
-   "dst": 196605
-  },
-  {
-   "relate": "续集",
-   "src": 196606,
-   "dst": 196607
-  },
-  {
-   "relate": "续集",
-   "src": 196606,
-   "dst": 196608
-  },
-  {
-   "relate": "前传",
-   "src": 196607,
-   "dst": 196606
-  },
-  {
-   "relate": "前传",
-   "src": 196608,
-   "dst": 196606
-  },
-  {
-   "relate": "续集",
-   "src": 196608,
-   "dst": 196609
-  },
-  {
-   "relate": "续集",
-   "src": 196608,
-   "dst": 196610
-  },
-  {
-   "relate": "前传",
-   "src": 196609,
-   "dst": 196608
-  },
-  {
-   "relate": "前传",
-   "src": 196609,
-   "dst": 196610
-  },
-  {
-   "relate": "前传",
-   "src": 196610,
-   "dst": 196608
-  },
-  {
-   "relate": "续集",
-   "src": 196610,
-   "dst": 196609
-  }
- ]
+  "id": "196605",
+  "node": [
+    {
+      "id": 196605,
+      "name": "リンちゃんなう ver.0",
+      "nameCN": "铃酱NOW ver.0",
+      "date": "2013-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196606,
+      "name": "リンちゃんなう ver.1",
+      "nameCN": "铃酱NOW ver.1",
+      "date": "2014-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196607,
+      "name": "リンちゃんなう ver.1 Special Edition",
+      "nameCN": "铃酱NOW ver.1 Special Edition",
+      "date": "2014-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196608,
+      "name": "リンちゃんなう ver.2",
+      "nameCN": "铃酱NOW ver.2",
+      "date": "2014-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196609,
+      "name": "リンちゃんなう ver.3",
+      "nameCN": "铃酱NOW ver.3",
+      "date": "2014-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196610,
+      "name": "リンちゃんなう ver.2 Special Edition",
+      "nameCN": "铃酱NOW ver.2 Special Edition",
+      "date": "2014-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196605,
+      "dst": 196606
+    },
+    {
+      "relateString": "前传",
+      "src": 196606,
+      "dst": 196605
+    },
+    {
+      "relateString": "续集",
+      "src": 196606,
+      "dst": 196607
+    },
+    {
+      "relateString": "续集",
+      "src": 196606,
+      "dst": 196608
+    },
+    {
+      "relateString": "前传",
+      "src": 196607,
+      "dst": 196606
+    },
+    {
+      "relateString": "前传",
+      "src": 196608,
+      "dst": 196606
+    },
+    {
+      "relateString": "续集",
+      "src": 196608,
+      "dst": 196609
+    },
+    {
+      "relateString": "续集",
+      "src": 196608,
+      "dst": 196610
+    },
+    {
+      "relateString": "前传",
+      "src": 196609,
+      "dst": 196608
+    },
+    {
+      "relateString": "前传",
+      "src": 196609,
+      "dst": 196610
+    },
+    {
+      "relateString": "前传",
+      "src": 196610,
+      "dst": 196608
+    },
+    {
+      "relateString": "续集",
+      "src": 196610,
+      "dst": 196609
+    }
+  ]
 }

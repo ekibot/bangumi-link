@@ -1,57 +1,53 @@
 {
- "id": 44146,
- "node": [
-  {
-   "id": 44146,
-   "name": "鉄腕アトム",
-   "nameCN": "铁臂阿童木",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/35/44146_9Z8g4.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 97469,
-   "name": "アトム今昔物語",
-   "nameCN": "阿童木今昔物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/ed/97469_s7ckA.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 157710,
-   "name": "アトム ザ・ビギニング",
-   "nameCN": "阿童木起源",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/f9/157710_p2y9A.jpg",
-   "date": "2015-06-05",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 44146,
-   "dst": 97469
-  },
-  {
-   "relate": "前传",
-   "src": 44146,
-   "dst": 157710
-  },
-  {
-   "relate": "主线故事",
-   "src": 97469,
-   "dst": 44146
-  },
-  {
-   "relate": "续集",
-   "src": 157710,
-   "dst": 44146
-  }
- ]
+  "id": "44146",
+  "node": [
+    {
+      "id": 44146,
+      "name": "鉄腕アトム",
+      "nameCN": "铁臂阿童木",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 97469,
+      "name": "アトム今昔物語",
+      "nameCN": "阿童木今昔物语",
+      "date": "1967-01-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 157710,
+      "name": "アトム ザ・ビギニング",
+      "nameCN": "阿童木起源",
+      "date": "2015-06-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 44146,
+      "dst": 97469
+    },
+    {
+      "relateString": "前传",
+      "src": 44146,
+      "dst": 157710
+    },
+    {
+      "relateString": "主线故事",
+      "src": 97469,
+      "dst": 44146
+    },
+    {
+      "relateString": "续集",
+      "src": 157710,
+      "dst": 44146
+    }
+  ]
 }

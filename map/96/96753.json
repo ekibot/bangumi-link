@@ -1,57 +1,54 @@
 {
- "id": 96753,
- "node": [
-  {
-   "id": 96753,
-   "name": "エルフオールスターズ脱衣雀",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/2e/96753_1f92e.jpg",
-   "date": "2000-03-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 96754,
-   "name": "エルフオールスターズ脱衣雀2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/d2/96754_TAEOs.jpg",
-   "date": "2001-11-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 96755,
-   "name": "エルフオールスターズ脱衣雀3",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/17/96755_1zKs7.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2006-03-31",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 96753,
-   "dst": 96754
-  },
-  {
-   "relate": "前传",
-   "src": 96754,
-   "dst": 96753
-  },
-  {
-   "relate": "续集",
-   "src": 96754,
-   "dst": 96755
-  },
-  {
-   "relate": "前传",
-   "src": 96755,
-   "dst": 96754
-  }
- ]
+  "id": "96753",
+  "node": [
+    {
+      "id": 96753,
+      "name": "エルフオールスターズ脱衣雀",
+      "nameCN": "",
+      "date": "2000-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 96754,
+      "name": "エルフオールスターズ脱衣雀2",
+      "nameCN": "",
+      "date": "2001-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 96755,
+      "name": "エルフオールスターズ脱衣雀3",
+      "nameCN": "",
+      "date": "2006-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 96753,
+      "dst": 96754
+    },
+    {
+      "relateString": "前传",
+      "src": 96754,
+      "dst": 96753
+    },
+    {
+      "relateString": "续集",
+      "src": 96754,
+      "dst": 96755
+    },
+    {
+      "relateString": "前传",
+      "src": 96755,
+      "dst": 96754
+    }
+  ]
 }

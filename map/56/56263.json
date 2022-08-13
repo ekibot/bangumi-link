@@ -1,57 +1,52 @@
 {
- "id": 56263,
- "node": [
-  {
-   "id": 56263,
-   "name": "アルカノイド",
-   "nameCN": "快打砖块",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/90/56263_8o56c.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259115,
-   "name": "アルカノイド Doh It Again",
-   "nameCN": "超任打砖块",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/7a/259115_yhRXR.jpg",
-   "date": "1997-01-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260814,
-   "name": "アルカノイド リベンジ オブ Doh",
-   "nameCN": "打砖块2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/62/260814_NP4rk.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56263,
-   "dst": 260814
-  },
-  {
-   "relate": "前传",
-   "src": 259115,
-   "dst": 260814
-  },
-  {
-   "relate": "前传",
-   "src": 260814,
-   "dst": 56263
-  },
-  {
-   "relate": "续集",
-   "src": 260814,
-   "dst": 259115
-  }
- ]
+  "id": "56263",
+  "node": [
+    {
+      "id": 56263,
+      "name": "アルカノイド",
+      "nameCN": "快打砖块",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260814,
+      "name": "アルカノイド リベンジ オブ Doh",
+      "nameCN": "打砖块2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259115,
+      "name": "アルカノイド Doh It Again",
+      "nameCN": "超任打砖块",
+      "date": "1997-01-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56263,
+      "dst": 260814
+    },
+    {
+      "relateString": "前传",
+      "src": 259115,
+      "dst": 260814
+    },
+    {
+      "relateString": "前传",
+      "src": 260814,
+      "dst": 56263
+    },
+    {
+      "relateString": "续集",
+      "src": 260814,
+      "dst": 259115
+    }
+  ]
 }

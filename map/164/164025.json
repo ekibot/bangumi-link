@@ -1,37 +1,35 @@
 {
- "id": 164025,
- "node": [
-  {
-   "id": 164025,
-   "name": "SとM",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/5a/164025_a73o7.jpg",
-   "date": "2005-10-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 172815,
-   "name": "SとM エクスタシー",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/7f/172815_z22AX.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164025,
-   "dst": 172815
-  },
-  {
-   "relate": "前传",
-   "src": 172815,
-   "dst": 164025
-  }
- ]
+  "id": "164025",
+  "node": [
+    {
+      "id": 164025,
+      "name": "SとM",
+      "nameCN": "",
+      "date": "2005-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 172815,
+      "name": "SとM エクスタシー",
+      "nameCN": "",
+      "date": "2016-03-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164025,
+      "dst": 172815
+    },
+    {
+      "relateString": "前传",
+      "src": 172815,
+      "dst": 164025
+    }
+  ]
 }

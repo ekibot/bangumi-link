@@ -1,34 +1,35 @@
 {
- "id": 99043,
- "node": [
-  {
-   "id": 99043,
-   "name": "SEEK ～地下室の牝奴隷達～",
-   "nameCN": "探索~地下室的雌奴隶们~",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/04/99043_33GrT.jpg",
-   "date": "1995-03-31",
-   "type": 4
-  },
-  {
-   "id": 99044,
-   "name": "SEEK2 ～SADISTIC BABYLON～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/ff/99044_aon1C.jpg",
-   "date": "1999-06-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99043,
-   "dst": 99044
-  },
-  {
-   "relate": "前传",
-   "src": 99044,
-   "dst": 99043
-  }
- ]
+  "id": "99043",
+  "node": [
+    {
+      "id": 99043,
+      "name": "SEEK ～地下室の牝奴隷達～",
+      "nameCN": "探索~地下室的雌奴隶们~",
+      "date": "1995-03-31",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99044,
+      "name": "SEEK2 ～SADISTIC BABYLON～",
+      "nameCN": "",
+      "date": "1999-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99043,
+      "dst": 99044
+    },
+    {
+      "relateString": "前传",
+      "src": 99044,
+      "dst": 99043
+    }
+  ]
 }

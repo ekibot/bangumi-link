@@ -1,37 +1,35 @@
 {
- "id": 348429,
- "node": [
-  {
-   "id": 348429,
-   "name": "野球しようぜ!",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/e7/348429_1Fvk1.jpg",
-   "date": "2005-02-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 351656,
-   "name": "もっと野球しようぜ!",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/4c/351656_FSsex.jpg",
-   "date": "2008-06-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 348429,
-   "dst": 351656
-  },
-  {
-   "relate": "前传",
-   "src": 351656,
-   "dst": 348429
-  }
- ]
+  "id": "348429",
+  "node": [
+    {
+      "id": 348429,
+      "name": "野球しようぜ!",
+      "nameCN": "",
+      "date": "2005-02-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 351656,
+      "name": "もっと野球しようぜ!",
+      "nameCN": "",
+      "date": "2008-06-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 348429,
+      "dst": 351656
+    },
+    {
+      "relateString": "前传",
+      "src": 351656,
+      "dst": 348429
+    }
+  ]
 }

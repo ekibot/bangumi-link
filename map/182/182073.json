@@ -1,37 +1,35 @@
 {
- "id": 182073,
- "node": [
-  {
-   "id": 182073,
-   "name": "'Splosion Man",
-   "nameCN": "爆炸人",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/f6/182073_hgiIj.jpg",
-   "date": "2009-07-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 222392,
-   "name": "Ms. Splosion Man™",
-   "nameCN": "爆炸小妹",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/ad/222392_9y4Y4.jpg",
-   "date": "2011-07-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 182073,
-   "dst": 222392
-  },
-  {
-   "relate": "前传",
-   "src": 222392,
-   "dst": 182073
-  }
- ]
+  "id": "182073",
+  "node": [
+    {
+      "id": 182073,
+      "name": "'Splosion Man",
+      "nameCN": "爆炸人",
+      "date": "2009-07-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222392,
+      "name": "Ms. Splosion Man™",
+      "nameCN": "爆炸小妹",
+      "date": "2011-07-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 182073,
+      "dst": 222392
+    },
+    {
+      "relateString": "前传",
+      "src": 222392,
+      "dst": 182073
+    }
+  ]
 }

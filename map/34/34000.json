@@ -1,37 +1,35 @@
 {
- "id": 34000,
- "node": [
-  {
-   "id": 34000,
-   "name": "超智能足球",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/4b/34000_nNzYD.jpg",
-   "date": "2010-06-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 240470,
-   "name": "超智能足球2 世界大赛篇",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/a6/240470_4WiJf.jpg",
-   "date": "2018-03-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 34000,
-   "dst": 240470
-  },
-  {
-   "relate": "前传",
-   "src": 240470,
-   "dst": 34000
-  }
- ]
+  "id": "34000",
+  "node": [
+    {
+      "id": 34000,
+      "name": "超智能足球",
+      "nameCN": "",
+      "date": "2010-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 240470,
+      "name": "超智能足球2 世界大赛篇",
+      "nameCN": "",
+      "date": "2018-03-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 34000,
+      "dst": 240470
+    },
+    {
+      "relateString": "前传",
+      "src": 240470,
+      "dst": 34000
+    }
+  ]
 }

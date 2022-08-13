@@ -1,57 +1,54 @@
 {
- "id": 237979,
- "node": [
-  {
-   "id": 237979,
-   "name": "文豪失格",
-   "nameCN": "文豪失格",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/a5/237979_H8Ygj.jpg",
-   "date": "2015-11-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 237980,
-   "name": "文豪失格 文豪の恥ずかしい手紙編",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/60/237980_S5iQ1.jpg",
-   "date": "2016-10-05",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 237981,
-   "name": "文豪失格 文豪、同人マーケットに出る! ?編",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/a1/237981_C4cIr.jpg",
-   "date": "2017-11-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 237979,
-   "dst": 237980
-  },
-  {
-   "relate": "续集",
-   "src": 237979,
-   "dst": 237981
-  },
-  {
-   "relate": "前传",
-   "src": 237980,
-   "dst": 237979
-  },
-  {
-   "relate": "前传",
-   "src": 237981,
-   "dst": 237979
-  }
- ]
+  "id": "237979",
+  "node": [
+    {
+      "id": 237979,
+      "name": "文豪失格",
+      "nameCN": "文豪失格",
+      "date": "2015-11-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237980,
+      "name": "文豪失格 文豪の恥ずかしい手紙編",
+      "nameCN": "",
+      "date": "2016-10-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237981,
+      "name": "文豪失格 文豪、同人マーケットに出る! ?編",
+      "nameCN": "",
+      "date": "2017-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 237979,
+      "dst": 237980
+    },
+    {
+      "relateString": "续集",
+      "src": 237979,
+      "dst": 237981
+    },
+    {
+      "relateString": "前传",
+      "src": 237980,
+      "dst": 237979
+    },
+    {
+      "relateString": "前传",
+      "src": 237981,
+      "dst": 237979
+    }
+  ]
 }

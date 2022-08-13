@@ -1,37 +1,34 @@
 {
- "id": 203334,
- "node": [
-  {
-   "id": 203334,
-   "name": "美男高校地球防衛部LOVE!LOVE!",
-   "nameCN": "美男高校地球防卫部LOVE!LOVE!",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/82/203334_QG5So.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 203335,
-   "name": "美男高校地球征服部LOVE!",
-   "nameCN": "美男高校地球征服部LOVE！",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/58/203335_jp.jpg",
-   "date": "2015-09-18",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 203334,
-   "dst": 203335
-  },
-  {
-   "relate": "续集",
-   "src": 203335,
-   "dst": 203334
-  }
- ]
+  "id": "203334",
+  "node": [
+    {
+      "id": 203334,
+      "name": "美男高校地球防衛部LOVE!LOVE!",
+      "nameCN": "美男高校地球防卫部LOVE!LOVE!",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 203335,
+      "name": "美男高校地球征服部LOVE!",
+      "nameCN": "美男高校地球征服部LOVE！",
+      "date": "2015-09-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 203334,
+      "dst": 203335
+    },
+    {
+      "relateString": "续集",
+      "src": 203335,
+      "dst": 203334
+    }
+  ]
 }

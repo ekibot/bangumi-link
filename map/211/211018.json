@@ -1,37 +1,35 @@
 {
- "id": 211018,
- "node": [
-  {
-   "id": 211018,
-   "name": "アクマイザー3",
-   "nameCN": "伏魔三剑侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/f7/211018_OlY4E.jpg",
-   "date": "1975-10-07",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 278832,
-   "name": "超神ビビューン",
-   "nameCN": "超神三战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/61/278832_YjE8R.jpg",
-   "date": "1976-07-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211018,
-   "dst": 278832
-  },
-  {
-   "relate": "前传",
-   "src": 278832,
-   "dst": 211018
-  }
- ]
+  "id": "211018",
+  "node": [
+    {
+      "id": 211018,
+      "name": "アクマイザー3",
+      "nameCN": "伏魔三剑侠",
+      "date": "1975-10-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 278832,
+      "name": "超神ビビューン",
+      "nameCN": "超神三战士",
+      "date": "1976-07-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211018,
+      "dst": 278832
+    },
+    {
+      "relateString": "前传",
+      "src": 278832,
+      "dst": 211018
+    }
+  ]
 }

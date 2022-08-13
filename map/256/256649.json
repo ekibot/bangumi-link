@@ -1,37 +1,35 @@
 {
- "id": 256649,
- "node": [
-  {
-   "id": 256649,
-   "name": "歌舞伎町シャーロック",
-   "nameCN": "歌舞伎町夏洛克",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/e2/256649_1aSRN.jpg",
-   "date": "2019-10-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 304051,
-   "name": "歌舞伎町シャーロック OVA",
-   "nameCN": "歌舞伎町夏洛克 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/01/304051_7Vcr0.jpg",
-   "date": "2020-08-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 256649,
-   "dst": 304051
-  },
-  {
-   "relate": "前传",
-   "src": 304051,
-   "dst": 256649
-  }
- ]
+  "id": "256649",
+  "node": [
+    {
+      "id": 256649,
+      "name": "歌舞伎町シャーロック",
+      "nameCN": "歌舞伎町夏洛克",
+      "date": "2019-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 304051,
+      "name": "歌舞伎町シャーロック OVA",
+      "nameCN": "歌舞伎町夏洛克 OVA",
+      "date": "2020-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 256649,
+      "dst": 304051
+    },
+    {
+      "relateString": "前传",
+      "src": 304051,
+      "dst": 256649
+    }
+  ]
 }

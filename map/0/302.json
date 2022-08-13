@@ -1,37 +1,35 @@
 {
- "id": 302,
- "node": [
-  {
-   "id": 302,
-   "name": "となりのトトロ",
-   "nameCN": "龙猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/7b/302_zSSjC.jpg",
-   "date": "1988-04-16",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 105781,
-   "name": "めいとこねこバス",
-   "nameCN": "梅伊与小猫巴士",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/4f/105781_2FUq2.jpg",
-   "date": "2002-09-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 302,
-   "dst": 105781
-  },
-  {
-   "relate": "主线故事",
-   "src": 105781,
-   "dst": 302
-  }
- ]
+  "id": "302",
+  "node": [
+    {
+      "id": 302,
+      "name": "となりのトトロ",
+      "nameCN": "龙猫",
+      "date": "1988-04-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 105781,
+      "name": "めいとこねこバス",
+      "nameCN": "梅伊与小猫巴士",
+      "date": "2002-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 302,
+      "dst": 105781
+    },
+    {
+      "relateString": "主线故事",
+      "src": 105781,
+      "dst": 302
+    }
+  ]
 }

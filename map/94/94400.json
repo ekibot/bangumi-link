@@ -1,29 +1,35 @@
 {
- "id": 94400,
- "node": [
-  {
-   "id": 94400,
-   "name": "おにいちゃんのためのSEX講座",
-   "nameCN": "为兄而设的SEX讲座",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 230815,
-   "name": "おにいちゃんのためのSEX講座2",
-   "nameCN": "为兄而设的SEX讲座2",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 94400,
-   "dst": 230815
-  },
-  {
-   "relate": "前传",
-   "src": 230815,
-   "dst": 94400
-  }
- ]
+  "id": "94400",
+  "node": [
+    {
+      "id": 94400,
+      "name": "おにいちゃんのためのSEX講座",
+      "nameCN": "为兄而设的SEX讲座",
+      "date": "2011-11-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 230815,
+      "name": "おにいちゃんのためのSEX講座2",
+      "nameCN": "为兄而设的SEX讲座2",
+      "date": "2017-11-23",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 94400,
+      "dst": 230815
+    },
+    {
+      "relateString": "前传",
+      "src": 230815,
+      "dst": 94400
+    }
+  ]
 }

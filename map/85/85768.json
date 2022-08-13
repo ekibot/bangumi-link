@@ -1,37 +1,33 @@
 {
- "id": 85768,
- "node": [
-  {
-   "id": 85768,
-   "name": "Dancing Blade かってに桃天使!",
-   "nameCN": "任性桃天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/cd/85768_o2nk2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 85769,
-   "name": "Dancing Blade かってに桃天使II 〜Tears of Eden〜",
-   "nameCN": "任性桃天使2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/49/85769_7MJ5h.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85768,
-   "dst": 85769
-  },
-  {
-   "relate": "前传",
-   "src": 85769,
-   "dst": 85768
-  }
- ]
+  "id": "85768",
+  "node": [
+    {
+      "id": 85768,
+      "name": "Dancing Blade かってに桃天使!",
+      "nameCN": "任性桃天使",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 85769,
+      "name": "Dancing Blade かってに桃天使II 〜Tears of Eden〜",
+      "nameCN": "任性桃天使2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85768,
+      "dst": 85769
+    },
+    {
+      "relateString": "前传",
+      "src": 85769,
+      "dst": 85768
+    }
+  ]
 }

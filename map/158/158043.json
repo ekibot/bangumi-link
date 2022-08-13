@@ -1,37 +1,35 @@
 {
- "id": 158043,
- "node": [
-  {
-   "id": 158043,
-   "name": "爱神巧克力ing",
-   "nameCN": "爱神巧克力",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/ca/158043_XUFoP.jpg",
-   "date": "2015-12-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 174222,
-   "name": "爱神巧克力ing Ⅱ",
-   "nameCN": "爱神巧克力 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/b9/174222_8B5BB.jpg",
-   "date": "2017-12-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158043,
-   "dst": 174222
-  },
-  {
-   "relate": "前传",
-   "src": 174222,
-   "dst": 158043
-  }
- ]
+  "id": "158043",
+  "node": [
+    {
+      "id": 158043,
+      "name": "爱神巧克力ing",
+      "nameCN": "爱神巧克力",
+      "date": "2015-12-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 174222,
+      "name": "爱神巧克力ing Ⅱ",
+      "nameCN": "爱神巧克力 第二季",
+      "date": "2017-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158043,
+      "dst": 174222
+    },
+    {
+      "relateString": "前传",
+      "src": 174222,
+      "dst": 158043
+    }
+  ]
 }

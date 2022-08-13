@@ -1,37 +1,35 @@
 {
- "id": 213940,
- "node": [
-  {
-   "id": 213940,
-   "name": "Great News",
-   "nameCN": "老妈撞入电视台",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/bc/213940_R7cAl.jpg",
-   "date": "2017-04-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 228933,
-   "name": "Great News Season 2 (2017)",
-   "date": "2017-09-28",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213940,
-   "dst": 228933
-  },
-  {
-   "relate": "前传",
-   "src": 228933,
-   "dst": 213940
-  }
- ]
+  "id": "213940",
+  "node": [
+    {
+      "id": 213940,
+      "name": "Great News",
+      "nameCN": "老妈撞入电视台",
+      "date": "2017-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 228933,
+      "name": "Great News Season 2 (2017)",
+      "nameCN": "",
+      "date": "2017-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213940,
+      "dst": 228933
+    },
+    {
+      "relateString": "前传",
+      "src": 228933,
+      "dst": 213940
+    }
+  ]
 }

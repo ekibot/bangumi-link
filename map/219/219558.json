@@ -1,37 +1,35 @@
 {
- "id": 219558,
- "node": [
-  {
-   "id": 219558,
-   "name": "クロエのレクイエム infinito",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/ad/219558_jp.jpg",
-   "date": "2014-11-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 219559,
-   "name": "クロエのレクイエム andante 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/24/219559_jp.jpg",
-   "date": "2016-03-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219558,
-   "dst": 219559
-  },
-  {
-   "relate": "前传",
-   "src": 219559,
-   "dst": 219558
-  }
- ]
+  "id": "219558",
+  "node": [
+    {
+      "id": 219558,
+      "name": "クロエのレクイエム infinito",
+      "nameCN": "",
+      "date": "2014-11-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 219559,
+      "name": "クロエのレクイエム andante 2",
+      "nameCN": "",
+      "date": "2016-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219558,
+      "dst": 219559
+    },
+    {
+      "relateString": "前传",
+      "src": 219559,
+      "dst": 219558
+    }
+  ]
 }

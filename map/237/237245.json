@@ -1,37 +1,35 @@
 {
- "id": 237245,
- "node": [
-  {
-   "id": 237245,
-   "name": "霧雨が降る森 End Over End",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/3f/237245_Cro4q.jpg",
-   "date": "2015-11-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 237247,
-   "name": "霧雨が降る森",
-   "nameCN": "雾雨飘散之森",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/04/237247_CrnBq.jpg",
-   "date": "2014-09-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 237245,
-   "dst": 237247
-  },
-  {
-   "relate": "续集",
-   "src": 237247,
-   "dst": 237245
-  }
- ]
+  "id": "237245",
+  "node": [
+    {
+      "id": 237245,
+      "name": "霧雨が降る森 End Over End",
+      "nameCN": "",
+      "date": "2015-11-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 237247,
+      "name": "霧雨が降る森",
+      "nameCN": "雾雨飘散之森",
+      "date": "2014-09-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 237245,
+      "dst": 237247
+    },
+    {
+      "relateString": "续集",
+      "src": 237247,
+      "dst": 237245
+    }
+  ]
 }

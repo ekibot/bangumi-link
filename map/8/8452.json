@@ -1,97 +1,92 @@
 {
- "id": 8452,
- "node": [
-  {
-   "id": 8452,
-   "name": "たまゆら",
-   "nameCN": "玉响",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/ad/8452_T293t.jpg",
-   "date": "2010-11-26",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 18605,
-   "name": "たまゆら～hitotose～",
-   "nameCN": "玉响～hitotose～",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/8d/18605_VTtTJ.jpg",
-   "date": "2011-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 45213,
-   "name": "たまゆら～もあぐれっしぶ～",
-   "nameCN": "玉响～more aggressive～",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/f9/45213_HB53a.jpg",
-   "date": "2013-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 105278,
-   "name": "たまゆら～もあぐれっしぶ～ OVA",
-   "nameCN": "玉响～more aggressive～ OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/c0/105278_U4EbS.jpg",
-   "date": "2014-06-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 109869,
-   "name": "たまゆら～卒業写真～",
-   "nameCN": "玉响～毕业写真～",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/30/109869_w5vOo.jpg",
-   "date": "2015-05-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8452,
-   "dst": 18605
-  },
-  {
-   "relate": "前传",
-   "src": 18605,
-   "dst": 8452
-  },
-  {
-   "relate": "续集",
-   "src": 18605,
-   "dst": 45213
-  },
-  {
-   "relate": "前传",
-   "src": 45213,
-   "dst": 18605
-  },
-  {
-   "relate": "番外篇",
-   "src": 45213,
-   "dst": 105278
-  },
-  {
-   "relate": "续集",
-   "src": 45213,
-   "dst": 109869
-  },
-  {
-   "relate": "主线故事",
-   "src": 105278,
-   "dst": 45213
-  },
-  {
-   "relate": "前传",
-   "src": 109869,
-   "dst": 45213
-  }
- ]
+  "id": "8452",
+  "node": [
+    {
+      "id": 8452,
+      "name": "たまゆら",
+      "nameCN": "玉响",
+      "date": "2010-11-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 18605,
+      "name": "たまゆら～hitotose～",
+      "nameCN": "玉响～hitotose～",
+      "date": "2011-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 45213,
+      "name": "たまゆら～もあぐれっしぶ～",
+      "nameCN": "玉响～more aggressive～",
+      "date": "2013-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 105278,
+      "name": "たまゆら～もあぐれっしぶ～ OVA",
+      "nameCN": "玉响～more aggressive～ OVA",
+      "date": "2014-06-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 109869,
+      "name": "たまゆら～卒業写真～",
+      "nameCN": "玉响～毕业写真～",
+      "date": "2015-05-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8452,
+      "dst": 18605
+    },
+    {
+      "relateString": "前传",
+      "src": 18605,
+      "dst": 8452
+    },
+    {
+      "relateString": "续集",
+      "src": 18605,
+      "dst": 45213
+    },
+    {
+      "relateString": "前传",
+      "src": 45213,
+      "dst": 18605
+    },
+    {
+      "relateString": "番外篇",
+      "src": 45213,
+      "dst": 105278
+    },
+    {
+      "relateString": "续集",
+      "src": 45213,
+      "dst": 109869
+    },
+    {
+      "relateString": "主线故事",
+      "src": 105278,
+      "dst": 45213
+    },
+    {
+      "relateString": "前传",
+      "src": 109869,
+      "dst": 45213
+    }
+  ]
 }

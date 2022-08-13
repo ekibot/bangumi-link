@@ -1,57 +1,54 @@
 {
- "id": 156591,
- "node": [
-  {
-   "id": 156591,
-   "name": "镇魂街",
-   "nameCN": "镇魂街",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/b3/156591_iqi0Q.jpg",
-   "date": "2016-04-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 233547,
-   "name": "镇魂街 北落师门篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/3a/233547_30760.jpg",
-   "date": "2019-12-28",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 298525,
-   "name": "镇魂街 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/34/298525_qtO72.jpg",
-   "date": "2021-05-15",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156591,
-   "dst": 233547
-  },
-  {
-   "relate": "前传",
-   "src": 233547,
-   "dst": 156591
-  },
-  {
-   "relate": "续集",
-   "src": 233547,
-   "dst": 298525
-  },
-  {
-   "relate": "前传",
-   "src": 298525,
-   "dst": 233547
-  }
- ]
+  "id": "156591",
+  "node": [
+    {
+      "id": 156591,
+      "name": "镇魂街",
+      "nameCN": "镇魂街",
+      "date": "2016-04-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 233547,
+      "name": "镇魂街 北落师门篇",
+      "nameCN": "",
+      "date": "2019-12-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 298525,
+      "name": "镇魂街 第二季",
+      "nameCN": "",
+      "date": "2021-05-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156591,
+      "dst": 233547
+    },
+    {
+      "relateString": "前传",
+      "src": 233547,
+      "dst": 156591
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 233547,
+      "dst": 298525
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 298525,
+      "dst": 233547
+    }
+  ]
 }

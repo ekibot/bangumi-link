@@ -1,77 +1,73 @@
 {
- "id": 205410,
- "node": [
-  {
-   "id": 205410,
-   "name": "Siralim",
-   "nameCN": "瑟拉利姆",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/31/205410_M0vgQ.jpg",
-   "date": "2015-04-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 299806,
-   "name": "Siralim 2",
-   "nameCN": "瑟拉利姆2",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/33/299806_05x10.jpg",
-   "date": "2016-08-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 299807,
-   "name": "Siralim 3",
-   "nameCN": "瑟拉利姆3",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/75/299807_K6UCL.jpg",
-   "date": "2018-10-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 329124,
-   "name": "Siralim Ultimate",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/8a/329124_RIDCK.jpg",
-   "date": "2021-12-03",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 205410,
-   "dst": 299806
-  },
-  {
-   "relate": "前传",
-   "src": 299806,
-   "dst": 205410
-  },
-  {
-   "relate": "续集",
-   "src": 299806,
-   "dst": 299807
-  },
-  {
-   "relate": "前传",
-   "src": 299807,
-   "dst": 299806
-  },
-  {
-   "relate": "续集",
-   "src": 299807,
-   "dst": 329124
-  },
-  {
-   "relate": "前传",
-   "src": 329124,
-   "dst": 299807
-  }
- ]
+  "id": "205410",
+  "node": [
+    {
+      "id": 205410,
+      "name": "Siralim",
+      "nameCN": "瑟拉利姆",
+      "date": "2015-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299806,
+      "name": "Siralim 2",
+      "nameCN": "瑟拉利姆2",
+      "date": "2016-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299807,
+      "name": "Siralim 3",
+      "nameCN": "瑟拉利姆3",
+      "date": "2018-10-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 329124,
+      "name": "Siralim Ultimate",
+      "nameCN": "",
+      "date": "2021-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205410,
+      "dst": 299806
+    },
+    {
+      "relateString": "前传",
+      "src": 299806,
+      "dst": 205410
+    },
+    {
+      "relateString": "续集",
+      "src": 299806,
+      "dst": 299807
+    },
+    {
+      "relateString": "前传",
+      "src": 299807,
+      "dst": 299806
+    },
+    {
+      "relateString": "续集",
+      "src": 299807,
+      "dst": 329124
+    },
+    {
+      "relateString": "前传",
+      "src": 329124,
+      "dst": 299807
+    }
+  ]
 }

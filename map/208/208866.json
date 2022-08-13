@@ -1,37 +1,35 @@
 {
- "id": 208866,
- "node": [
-  {
-   "id": 208866,
-   "name": "ABEYーBLUEー",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/54/208866_jp.jpg",
-   "date": "2014-02-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 208900,
-   "name": "ABEYーREDー",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/ee/208900_jp.jpg",
-   "date": "2014-03-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 208866,
-   "dst": 208900
-  },
-  {
-   "relate": "相同世界观",
-   "src": 208900,
-   "dst": 208866
-  }
- ]
+  "id": "208866",
+  "node": [
+    {
+      "id": 208866,
+      "name": "ABEYーBLUEー",
+      "nameCN": "",
+      "date": "2014-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 208900,
+      "name": "ABEYーREDー",
+      "nameCN": "",
+      "date": "2014-03-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 208866,
+      "dst": 208900
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 208900,
+      "dst": 208866
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 166813,
- "node": [
-  {
-   "id": 166813,
-   "name": "Colony Season 1 (2016)",
-   "nameCN": "殖民地",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/16/166813_wgjEc.jpg",
-   "date": "2016-01-14",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 205952,
-   "name": "Colony Season 2",
-   "date": "2017-01-12",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 246407,
-   "name": "Colony Season 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/9b/246407_ZIlz8.jpg",
-   "date": "2018-05-02",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 166813,
-   "dst": 205952
-  },
-  {
-   "relate": "前传",
-   "src": 205952,
-   "dst": 166813
-  },
-  {
-   "relate": "续集",
-   "src": 205952,
-   "dst": 246407
-  },
-  {
-   "relate": "前传",
-   "src": 246407,
-   "dst": 205952
-  }
- ]
+  "id": "166813",
+  "node": [
+    {
+      "id": 166813,
+      "name": "Colony Season 1 (2016)",
+      "nameCN": "殖民地",
+      "date": "2016-01-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 205952,
+      "name": "Colony Season 2",
+      "nameCN": "",
+      "date": "2017-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 246407,
+      "name": "Colony Season 3",
+      "nameCN": "",
+      "date": "2018-05-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 166813,
+      "dst": 205952
+    },
+    {
+      "relateString": "前传",
+      "src": 205952,
+      "dst": 166813
+    },
+    {
+      "relateString": "续集",
+      "src": 205952,
+      "dst": 246407
+    },
+    {
+      "relateString": "前传",
+      "src": 246407,
+      "dst": 205952
+    }
+  ]
 }

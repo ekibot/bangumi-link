@@ -1,37 +1,34 @@
 {
- "id": 44678,
- "node": [
-  {
-   "id": 44678,
-   "name": "Biker Mice from Mars",
-   "nameCN": "火星鼠骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/e2/44678_Vlk42.jpg",
-   "date": "1993-09-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 322846,
-   "name": "Biker Mice from Mars (2006)",
-   "nameCN": "火星鼠骑士 (2006)",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/00/322846_IKa31.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 44678,
-   "dst": 322846
-  },
-  {
-   "relate": "不同演绎",
-   "src": 322846,
-   "dst": 44678
-  }
- ]
+  "id": "44678",
+  "node": [
+    {
+      "id": 44678,
+      "name": "Biker Mice from Mars",
+      "nameCN": "火星鼠骑士",
+      "date": "1993-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 322846,
+      "name": "Biker Mice from Mars (2006)",
+      "nameCN": "火星鼠骑士 (2006)",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 44678,
+      "dst": 322846
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 322846,
+      "dst": 44678
+    }
+  ]
 }

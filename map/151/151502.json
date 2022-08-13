@@ -1,57 +1,52 @@
 {
- "id": 151502,
- "node": [
-  {
-   "id": 151502,
-   "name": "福五鼠之三十六计",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/bc/151502_0gY44.jpg",
-   "date": "2008-08-20",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 151503,
-   "name": "福五鼠之孙子兵法",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 151504,
-   "name": "福五鼠之战国风云",
-   "nameCN": "福五鼠之战国风云",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 151502,
-   "dst": 151503
-  },
-  {
-   "relate": "前传",
-   "src": 151503,
-   "dst": 151502
-  },
-  {
-   "relate": "续集",
-   "src": 151503,
-   "dst": 151504
-  },
-  {
-   "relate": "前传",
-   "src": 151504,
-   "dst": 151503
-  }
- ]
+  "id": "151502",
+  "node": [
+    {
+      "id": 151502,
+      "name": "福五鼠之三十六计",
+      "nameCN": "",
+      "date": "2008-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 151503,
+      "name": "福五鼠之孙子兵法",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 151504,
+      "name": "福五鼠之战国风云",
+      "nameCN": "福五鼠之战国风云",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 151502,
+      "dst": 151503
+    },
+    {
+      "relateString": "前传",
+      "src": 151503,
+      "dst": 151502
+    },
+    {
+      "relateString": "续集",
+      "src": 151503,
+      "dst": 151504
+    },
+    {
+      "relateString": "前传",
+      "src": 151504,
+      "dst": 151503
+    }
+  ]
 }

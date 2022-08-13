@@ -1,37 +1,35 @@
 {
- "id": 333028,
- "node": [
-  {
-   "id": 333028,
-   "name": "とある科学の超電磁砲T OFFICIAL VISUAL BOOK",
-   "nameCN": "某科学的超电磁炮T OFFICIAL VISUAL BOOK",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/64/333028_6Bb56.jpg",
-   "date": "2021-03-27",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 361950,
-   "name": "とある科学の超電磁砲T OFFICIAL VISUAL BOOK 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/e1/361950_ttT9b.jpg",
-   "date": "2022-02-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 333028,
-   "dst": 361950
-  },
-  {
-   "relate": "前传",
-   "src": 361950,
-   "dst": 333028
-  }
- ]
+  "id": "333028",
+  "node": [
+    {
+      "id": 333028,
+      "name": "とある科学の超電磁砲T OFFICIAL VISUAL BOOK",
+      "nameCN": "某科学的超电磁炮T OFFICIAL VISUAL BOOK",
+      "date": "2021-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 361950,
+      "name": "とある科学の超電磁砲T OFFICIAL VISUAL BOOK 2",
+      "nameCN": "",
+      "date": "2022-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 333028,
+      "dst": 361950
+    },
+    {
+      "relateString": "前传",
+      "src": 361950,
+      "dst": 333028
+    }
+  ]
 }

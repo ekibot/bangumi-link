@@ -1,81 +1,78 @@
 {
- "id": 54675,
- "node": [
-  {
-   "id": 54675,
-   "name": "リトルウィッチアカデミア",
-   "nameCN": "小魔女学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/ba/54675_df9sF.jpg",
-   "date": "2013-03-02",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 124646,
-   "name": "リトルウィッチアカデミア 魔法仕掛けのパレード",
-   "nameCN": "小魔女学园 魔法游行",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/5c/124646_tpRV3.jpg",
-   "date": "2015-10-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 183477,
-   "name": "リトルウィッチアカデミア 月夜の王冠",
-   "nameCN": "小魔女学院~月夜的王冠",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/bb/183477_9b3a2.jpg",
-   "date": "2016-02-25",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 185792,
-   "name": "リトルウィッチアカデミア",
-   "nameCN": "小魔女学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/09/185792_YmcaM.jpg",
-   "date": "2017-01-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 54675,
-   "dst": 124646
-  },
-  {
-   "relate": "不同演绎",
-   "src": 54675,
-   "dst": 185792
-  },
-  {
-   "relate": "前传",
-   "src": 124646,
-   "dst": 54675
-  },
-  {
-   "relate": "不同演绎",
-   "src": 124646,
-   "dst": 185792
-  },
-  {
-   "relate": "相同世界观",
-   "src": 183477,
-   "dst": 54675
-  },
-  {
-   "relate": "不同演绎",
-   "src": 185792,
-   "dst": 54675
-  },
-  {
-   "relate": "不同演绎",
-   "src": 185792,
-   "dst": 124646
-  }
- ]
+  "id": "54675",
+  "node": [
+    {
+      "id": 54675,
+      "name": "リトルウィッチアカデミア",
+      "nameCN": "小魔女学园",
+      "date": "2013-03-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 124646,
+      "name": "リトルウィッチアカデミア 魔法仕掛けのパレード",
+      "nameCN": "小魔女学园 魔法游行",
+      "date": "2015-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 185792,
+      "name": "リトルウィッチアカデミア",
+      "nameCN": "小魔女学园",
+      "date": "2017-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 183477,
+      "name": "リトルウィッチアカデミア 月夜の王冠",
+      "nameCN": "小魔女学院~月夜的王冠",
+      "date": "2016-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 54675,
+      "dst": 124646
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 54675,
+      "dst": 185792
+    },
+    {
+      "relateString": "前传",
+      "src": 124646,
+      "dst": 54675
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 124646,
+      "dst": 185792
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 183477,
+      "dst": 54675
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 185792,
+      "dst": 54675
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 185792,
+      "dst": 124646
+    }
+  ]
 }

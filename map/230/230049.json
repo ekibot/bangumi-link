@@ -1,57 +1,54 @@
 {
- "id": 230049,
- "node": [
-  {
-   "id": 230049,
-   "name": "柳太郎伝記～古宮村編～",
-   "nameCN": "柳太郎传记～古宫村篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/6d/230049_H2n4n.jpg",
-   "date": "2013-08-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 230051,
-   "name": "柳太郎伝記～出雲城編～",
-   "nameCN": "柳太郎传记～出云城篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/eb/230051_ck4hE.jpg",
-   "date": "2014-03-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 230053,
-   "name": "柳太郎伝記～奇住山編～",
-   "nameCN": "柳太郎传记～奇住山篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/dd/230053_L9u77.jpg",
-   "date": "2015-06-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230049,
-   "dst": 230051
-  },
-  {
-   "relate": "前传",
-   "src": 230051,
-   "dst": 230049
-  },
-  {
-   "relate": "续集",
-   "src": 230051,
-   "dst": 230053
-  },
-  {
-   "relate": "前传",
-   "src": 230053,
-   "dst": 230051
-  }
- ]
+  "id": "230049",
+  "node": [
+    {
+      "id": 230049,
+      "name": "柳太郎伝記～古宮村編～",
+      "nameCN": "柳太郎传记～古宫村篇～",
+      "date": "2013-08-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230051,
+      "name": "柳太郎伝記～出雲城編～",
+      "nameCN": "柳太郎传记～出云城篇～",
+      "date": "2014-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230053,
+      "name": "柳太郎伝記～奇住山編～",
+      "nameCN": "柳太郎传记～奇住山篇～",
+      "date": "2015-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230049,
+      "dst": 230051
+    },
+    {
+      "relateString": "前传",
+      "src": 230051,
+      "dst": 230049
+    },
+    {
+      "relateString": "续集",
+      "src": 230051,
+      "dst": 230053
+    },
+    {
+      "relateString": "前传",
+      "src": 230053,
+      "dst": 230051
+    }
+  ]
 }

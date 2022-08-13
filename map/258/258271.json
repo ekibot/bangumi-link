@@ -1,37 +1,34 @@
 {
- "id": 258271,
- "node": [
-  {
-   "id": 258271,
-   "name": "東方先代録『紅魔郷編』",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/3f/258271_5B5i5.jpg",
-   "date": "2014-11-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 258322,
-   "name": "東方先代録『地霊殿編』",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/6b/258322_MBbs3.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 258271,
-   "dst": 258322
-  },
-  {
-   "relate": "前传",
-   "src": 258322,
-   "dst": 258271
-  }
- ]
+  "id": "258271",
+  "node": [
+    {
+      "id": 258271,
+      "name": "東方先代録『紅魔郷編』",
+      "nameCN": "",
+      "date": "2014-11-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258322,
+      "name": "東方先代録『地霊殿編』",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 258271,
+      "dst": 258322
+    },
+    {
+      "relateString": "前传",
+      "src": 258322,
+      "dst": 258271
+    }
+  ]
 }

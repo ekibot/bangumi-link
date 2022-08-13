@@ -1,37 +1,34 @@
 {
- "id": 73655,
- "node": [
-  {
-   "id": 73655,
-   "name": "ASOII -LAST GUARDIAN-",
-   "nameCN": "阿尔法任务2",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/23/73655_alZAL.jpg",
-   "date": "1991-03-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 73683,
-   "name": "ASO Armored Scrum Object",
-   "nameCN": "ASO 组合战机",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/27/73683_M5xx2.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 73655,
-   "dst": 73683
-  },
-  {
-   "relate": "续集",
-   "src": 73683,
-   "dst": 73655
-  }
- ]
+  "id": "73655",
+  "node": [
+    {
+      "id": 73655,
+      "name": "ASOII -LAST GUARDIAN-",
+      "nameCN": "阿尔法任务2",
+      "date": "1991-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 73683,
+      "name": "ASO Armored Scrum Object",
+      "nameCN": "ASO 组合战机",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 73655,
+      "dst": 73683
+    },
+    {
+      "relateString": "续集",
+      "src": 73683,
+      "dst": 73655
+    }
+  ]
 }

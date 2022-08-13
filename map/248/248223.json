@@ -1,37 +1,35 @@
 {
- "id": 248223,
- "node": [
-  {
-   "id": 248223,
-   "name": "ふたりサッカー",
-   "nameCN": "两人的足球",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/62/248223_I1aG3.jpg",
-   "date": "2010-10-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 248224,
-   "name": "ふたりサッカー 2試合目",
-   "nameCN": "两人的足球 2比赛",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/e2/248224_DDd16.jpg",
-   "date": "2011-10-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 248223,
-   "dst": 248224
-  },
-  {
-   "relate": "前传",
-   "src": 248224,
-   "dst": 248223
-  }
- ]
+  "id": "248223",
+  "node": [
+    {
+      "id": 248223,
+      "name": "ふたりサッカー",
+      "nameCN": "两人的足球",
+      "date": "2010-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 248224,
+      "name": "ふたりサッカー 2試合目",
+      "nameCN": "两人的足球 2比赛",
+      "date": "2011-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 248223,
+      "dst": 248224
+    },
+    {
+      "relateString": "前传",
+      "src": 248224,
+      "dst": 248223
+    }
+  ]
 }

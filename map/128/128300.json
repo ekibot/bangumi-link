@@ -1,77 +1,72 @@
 {
- "id": 128300,
- "node": [
-  {
-   "id": 128300,
-   "name": "大秦帝国之裂变",
-   "nameCN": "大秦帝国：裂变",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/0f/128300_m88VT.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 128301,
-   "name": "大秦帝国之纵横",
-   "nameCN": "大秦帝国2：纵横",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/a8/128301_T7mgZ.jpg",
-   "date": "2012-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 128304,
-   "name": "大秦帝国之崛起",
-   "nameCN": "大秦帝国之崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/0e/128304_FSNp1.jpg",
-   "date": "2017-02-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 321197,
-   "name": "大秦赋",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/ca/321197_Z4ys5.jpg",
-   "date": "2020-12-01",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128300,
-   "dst": 128301
-  },
-  {
-   "relate": "前传",
-   "src": 128301,
-   "dst": 128300
-  },
-  {
-   "relate": "续集",
-   "src": 128301,
-   "dst": 128304
-  },
-  {
-   "relate": "前传",
-   "src": 128304,
-   "dst": 128301
-  },
-  {
-   "relate": "续集",
-   "src": 128304,
-   "dst": 321197
-  },
-  {
-   "relate": "前传",
-   "src": 321197,
-   "dst": 128304
-  }
- ]
+  "id": "128300",
+  "node": [
+    {
+      "id": 128300,
+      "name": "大秦帝国之裂变",
+      "nameCN": "大秦帝国：裂变",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128301,
+      "name": "大秦帝国之纵横",
+      "nameCN": "大秦帝国2：纵横",
+      "date": "2012-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128304,
+      "name": "大秦帝国之崛起",
+      "nameCN": "大秦帝国之崛起",
+      "date": "2017-02-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 321197,
+      "name": "大秦赋",
+      "nameCN": "",
+      "date": "2020-12-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128300,
+      "dst": 128301
+    },
+    {
+      "relateString": "前传",
+      "src": 128301,
+      "dst": 128300
+    },
+    {
+      "relateString": "续集",
+      "src": 128301,
+      "dst": 128304
+    },
+    {
+      "relateString": "前传",
+      "src": 128304,
+      "dst": 128301
+    },
+    {
+      "relateString": "续集",
+      "src": 128304,
+      "dst": 321197
+    },
+    {
+      "relateString": "前传",
+      "src": 321197,
+      "dst": 128304
+    }
+  ]
 }

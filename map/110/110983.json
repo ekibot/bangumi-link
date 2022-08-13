@@ -1,57 +1,51 @@
 {
- "id": 110983,
- "node": [
-  {
-   "id": 110983,
-   "name": "Spooks (Season 7)",
-   "nameCN": "军情五处 第七季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/f6/110983_t6My6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 112438,
-   "name": "Spooks (Season 8)",
-   "nameCN": "军情五处 第八季",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/4a/112438_EngRN.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 113582,
-   "name": "Spooks (Season 9)",
-   "nameCN": "军情五处 第九季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/47/113582_Rqffl.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 110983,
-   "dst": 112438
-  },
-  {
-   "relate": "前传",
-   "src": 112438,
-   "dst": 110983
-  },
-  {
-   "relate": "续集",
-   "src": 112438,
-   "dst": 113582
-  },
-  {
-   "relate": "前传",
-   "src": 113582,
-   "dst": 112438
-  }
- ]
+  "id": "110983",
+  "node": [
+    {
+      "id": 110983,
+      "name": "Spooks (Season 7)",
+      "nameCN": "军情五处 第七季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 112438,
+      "name": "Spooks (Season 8)",
+      "nameCN": "军情五处 第八季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 113582,
+      "name": "Spooks (Season 9)",
+      "nameCN": "军情五处 第九季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 110983,
+      "dst": 112438
+    },
+    {
+      "relateString": "前传",
+      "src": 112438,
+      "dst": 110983
+    },
+    {
+      "relateString": "续集",
+      "src": 112438,
+      "dst": 113582
+    },
+    {
+      "relateString": "前传",
+      "src": 113582,
+      "dst": 112438
+    }
+  ]
 }

@@ -1,51 +1,52 @@
 {
- "id": 239964,
- "node": [
-  {
-   "id": 239964,
-   "name": "レイフォース",
-   "nameCN": "Layer Section",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/50/239964_66Sfy.jpg",
-   "date": "1995-09-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260093,
-   "name": "レイストーム",
-   "nameCN": "镭射风暴",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/23/260093_2otEO.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 390925,
-   "name": "レイクライシス",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/a1/390925_4CsHM.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 239964,
-   "dst": 260093
-  },
-  {
-   "relate": "前传",
-   "src": 260093,
-   "dst": 239964
-  },
-  {
-   "relate": "前传",
-   "src": 390925,
-   "dst": 260093
-  }
- ]
+  "id": "239964",
+  "node": [
+    {
+      "id": 239964,
+      "name": "レイフォース",
+      "nameCN": "Layer Section",
+      "date": "1995-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260093,
+      "name": "レイストーム",
+      "nameCN": "镭射风暴",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 390925,
+      "name": "レイクライシス",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 239964,
+      "dst": 260093
+    },
+    {
+      "relateString": "前传",
+      "src": 260093,
+      "dst": 239964
+    },
+    {
+      "relateString": "续集",
+      "src": 260093,
+      "dst": 390925
+    },
+    {
+      "relateString": "前传",
+      "src": 390925,
+      "dst": 260093
+    }
+  ]
 }

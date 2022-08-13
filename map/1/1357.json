@@ -1,57 +1,54 @@
 {
- "id": 1357,
- "node": [
-  {
-   "id": 1357,
-   "name": "結婚できない男",
-   "nameCN": "不能结婚的男人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/68/1357_8Awln.jpg",
-   "date": "2006-07-04",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 281294,
-   "name": "まだ結婚できない男",
-   "nameCN": "还是不能结婚的男人",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/4e/281294_9806m.jpg",
-   "date": "2019-10-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 292442,
-   "name": "まだ結婚できない男　チェインストーリー",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/cc/292442_rAAv2.jpg",
-   "date": "2019-09-20",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1357,
-   "dst": 281294
-  },
-  {
-   "relate": "前传",
-   "src": 281294,
-   "dst": 1357
-  },
-  {
-   "relate": "衍生",
-   "src": 281294,
-   "dst": 292442
-  },
-  {
-   "relate": "衍生",
-   "src": 292442,
-   "dst": 281294
-  }
- ]
+  "id": "1357",
+  "node": [
+    {
+      "id": 1357,
+      "name": "結婚できない男",
+      "nameCN": "不能结婚的男人",
+      "date": "2006-07-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 281294,
+      "name": "まだ結婚できない男",
+      "nameCN": "还是不能结婚的男人",
+      "date": "2019-10-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 292442,
+      "name": "まだ結婚できない男　チェインストーリー",
+      "nameCN": "",
+      "date": "2019-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1357,
+      "dst": 281294
+    },
+    {
+      "relateString": "前传",
+      "src": 281294,
+      "dst": 1357
+    },
+    {
+      "relateString": "衍生",
+      "src": 281294,
+      "dst": 292442
+    },
+    {
+      "relateString": "衍生",
+      "src": 292442,
+      "dst": 281294
+    }
+  ]
 }

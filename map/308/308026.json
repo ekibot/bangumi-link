@@ -1,37 +1,35 @@
 {
- "id": 308026,
- "node": [
-  {
-   "id": 308026,
-   "name": "白狼恋歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/b4/308026_PBIy4.jpg",
-   "date": "2006-07-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308027,
-   "name": "白狼隊士記",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/e8/308027_RR7fZ.jpg",
-   "date": "2005-07-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 308026,
-   "dst": 308027
-  },
-  {
-   "relate": "续集",
-   "src": 308027,
-   "dst": 308026
-  }
- ]
+  "id": "308026",
+  "node": [
+    {
+      "id": 308026,
+      "name": "白狼恋歌",
+      "nameCN": "",
+      "date": "2006-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308027,
+      "name": "白狼隊士記",
+      "nameCN": "",
+      "date": "2005-07-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 308026,
+      "dst": 308027
+    },
+    {
+      "relateString": "续集",
+      "src": 308027,
+      "dst": 308026
+    }
+  ]
 }

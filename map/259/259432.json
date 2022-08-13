@@ -1,57 +1,54 @@
 {
- "id": 259432,
- "node": [
-  {
-   "id": 259432,
-   "name": "The Dragon Prince",
-   "nameCN": "龙太子",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/ba/259432_GdAd1.jpg",
-   "date": "2018-09-14",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 275392,
-   "name": "The Dragon Prince Season 2",
-   "nameCN": "龙太子 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/a5/275392_JoqBq.jpg",
-   "date": "2019-02-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 318238,
-   "name": "The Dragon Prince Season 3",
-   "nameCN": "龙太子 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/e8/318238_VZLiz.jpg",
-   "date": "2019-11-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 259432,
-   "dst": 275392
-  },
-  {
-   "relate": "前传",
-   "src": 275392,
-   "dst": 259432
-  },
-  {
-   "relate": "续集",
-   "src": 275392,
-   "dst": 318238
-  },
-  {
-   "relate": "前传",
-   "src": 318238,
-   "dst": 275392
-  }
- ]
+  "id": "259432",
+  "node": [
+    {
+      "id": 259432,
+      "name": "The Dragon Prince",
+      "nameCN": "龙太子",
+      "date": "2018-09-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 275392,
+      "name": "The Dragon Prince Season 2",
+      "nameCN": "龙太子 第二季",
+      "date": "2019-02-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 318238,
+      "name": "The Dragon Prince Season 3",
+      "nameCN": "龙太子 第三季",
+      "date": "2019-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 259432,
+      "dst": 275392
+    },
+    {
+      "relateString": "前传",
+      "src": 275392,
+      "dst": 259432
+    },
+    {
+      "relateString": "续集",
+      "src": 275392,
+      "dst": 318238
+    },
+    {
+      "relateString": "前传",
+      "src": 318238,
+      "dst": 275392
+    }
+  ]
 }

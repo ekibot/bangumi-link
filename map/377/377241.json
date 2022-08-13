@@ -1,0 +1,73 @@
+{
+  "id": "377241",
+  "node": [
+    {
+      "id": 377241,
+      "name": "Mad Max: Fury Road",
+      "nameCN": "疯狂的麦克斯4：狂暴之路",
+      "date": "2015-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 377249,
+      "name": "Mad Max 3",
+      "nameCN": "疯狂的麦克斯3",
+      "date": "1985-06-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 377246,
+      "name": "Mad Max",
+      "nameCN": "疯狂的麦克斯",
+      "date": "1979-04-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 377247,
+      "name": "Mad Max 2",
+      "nameCN": "疯狂的麦克斯2",
+      "date": "1981-12-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 377241,
+      "dst": 377249
+    },
+    {
+      "relateString": "续集",
+      "src": 377246,
+      "dst": 377247
+    },
+    {
+      "relateString": "前传",
+      "src": 377247,
+      "dst": 377246
+    },
+    {
+      "relateString": "续集",
+      "src": 377247,
+      "dst": 377249
+    },
+    {
+      "relateString": "续集",
+      "src": 377249,
+      "dst": 377241
+    },
+    {
+      "relateString": "前传",
+      "src": 377249,
+      "dst": 377247
+    }
+  ]
+}

@@ -1,37 +1,35 @@
 {
- "id": 311160,
- "node": [
-  {
-   "id": 311160,
-   "name": "Swat Kats: The Radical Squadron Season 1",
-   "nameCN": "霹雳特警猫 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/c6/311160_p404S.jpg",
-   "date": "1993-09-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 311162,
-   "name": "Swat Kats: The Radical Squadron Season 2",
-   "nameCN": "霹雳特警猫 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/cf/311162_In8Zn.jpg",
-   "date": "1994-09-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 311160,
-   "dst": 311162
-  },
-  {
-   "relate": "前传",
-   "src": 311162,
-   "dst": 311160
-  }
- ]
+  "id": "311160",
+  "node": [
+    {
+      "id": 311160,
+      "name": "Swat Kats: The Radical Squadron Season 1",
+      "nameCN": "霹雳特警猫 第一季",
+      "date": "1993-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 311162,
+      "name": "Swat Kats: The Radical Squadron Season 2",
+      "nameCN": "霹雳特警猫 第二季",
+      "date": "1994-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 311160,
+      "dst": 311162
+    },
+    {
+      "relateString": "前传",
+      "src": 311162,
+      "dst": 311160
+    }
+  ]
 }

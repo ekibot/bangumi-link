@@ -1,37 +1,35 @@
 {
- "id": 238867,
- "node": [
-  {
-   "id": 238867,
-   "name": "番台猫のタマさん",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/34/238867_RYcL6.jpg",
-   "date": "2018-02-28",
-   "nameCN": "收费员猫咪小玉",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 291608,
-   "name": "女子寮猫のタマさん",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/64/291608_Tc8ns.jpg",
-   "date": "2019-08-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238867,
-   "dst": 291608
-  },
-  {
-   "relate": "前传",
-   "src": 291608,
-   "dst": 238867
-  }
- ]
+  "id": "238867",
+  "node": [
+    {
+      "id": 238867,
+      "name": "番台猫のタマさん",
+      "nameCN": "收费员猫咪小玉",
+      "date": "2018-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 291608,
+      "name": "女子寮猫のタマさん",
+      "nameCN": "",
+      "date": "2019-08-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238867,
+      "dst": 291608
+    },
+    {
+      "relateString": "前传",
+      "src": 291608,
+      "dst": 238867
+    }
+  ]
 }

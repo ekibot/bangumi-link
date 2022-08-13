@@ -1,37 +1,35 @@
 {
- "id": 2796,
- "node": [
-  {
-   "id": 2796,
-   "name": "Fantastic Fortune",
-   "nameCN": "梦幻奇缘",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/7a/2796_C9JAP.jpg",
-   "date": "1998-11-27",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 102425,
-   "name": "ファンタスティックフォーチュン2",
-   "nameCN": "梦幻奇缘2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/c7/102425_yqkOO.jpg",
-   "date": "2003-06-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2796,
-   "dst": 102425
-  },
-  {
-   "relate": "前传",
-   "src": 102425,
-   "dst": 2796
-  }
- ]
+  "id": "2796",
+  "node": [
+    {
+      "id": 2796,
+      "name": "Fantastic Fortune",
+      "nameCN": "梦幻奇缘",
+      "date": "1998-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 102425,
+      "name": "ファンタスティックフォーチュン2",
+      "nameCN": "梦幻奇缘2",
+      "date": "2003-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2796,
+      "dst": 102425
+    },
+    {
+      "relateString": "前传",
+      "src": 102425,
+      "dst": 2796
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 148553,
- "node": [
-  {
-   "id": 148553,
-   "name": "Casual Season 1",
-   "nameCN": "随性所欲 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/57/148553_0cJmS.jpg",
-   "date": "2015-10-07",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 185272,
-   "name": "Casual Season 2",
-   "nameCN": "随性所欲 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/03/185272_z1EPb.jpg",
-   "date": "2016-06-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 215960,
-   "name": "Casual Season 3",
-   "nameCN": "随性所欲 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/34/215960_9s9SZ.jpg",
-   "date": "2017-05-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 148553,
-   "dst": 185272
-  },
-  {
-   "relate": "前传",
-   "src": 185272,
-   "dst": 148553
-  },
-  {
-   "relate": "续集",
-   "src": 185272,
-   "dst": 215960
-  },
-  {
-   "relate": "前传",
-   "src": 215960,
-   "dst": 185272
-  }
- ]
+  "id": "148553",
+  "node": [
+    {
+      "id": 148553,
+      "name": "Casual Season 1",
+      "nameCN": "随性所欲 第一季",
+      "date": "2015-10-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 185272,
+      "name": "Casual Season 2",
+      "nameCN": "随性所欲 第二季",
+      "date": "2016-06-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 215960,
+      "name": "Casual Season 3",
+      "nameCN": "随性所欲 第三季",
+      "date": "2017-05-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 148553,
+      "dst": 185272
+    },
+    {
+      "relateString": "前传",
+      "src": 185272,
+      "dst": 148553
+    },
+    {
+      "relateString": "续集",
+      "src": 185272,
+      "dst": 215960
+    },
+    {
+      "relateString": "前传",
+      "src": 215960,
+      "dst": 185272
+    }
+  ]
 }

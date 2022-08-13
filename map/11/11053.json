@@ -1,37 +1,35 @@
 {
- "id": 11053,
- "node": [
-  {
-   "id": 11053,
-   "name": "Defense Grid: The Awakening",
-   "nameCN": "防御阵型：觉醒",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/2f/11053_ss4qz.jpg",
-   "date": "2008-12-08",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 201143,
-   "name": "Defense Grid 2",
-   "nameCN": "要塞防御2",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/d8/201143_cTWcs.jpg",
-   "date": "2014-09-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11053,
-   "dst": 201143
-  },
-  {
-   "relate": "前传",
-   "src": 201143,
-   "dst": 11053
-  }
- ]
+  "id": "11053",
+  "node": [
+    {
+      "id": 11053,
+      "name": "Defense Grid: The Awakening",
+      "nameCN": "防御阵型：觉醒",
+      "date": "2008-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 201143,
+      "name": "Defense Grid 2",
+      "nameCN": "要塞防御2",
+      "date": "2014-09-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11053,
+      "dst": 201143
+    },
+    {
+      "relateString": "前传",
+      "src": 201143,
+      "dst": 11053
+    }
+  ]
 }

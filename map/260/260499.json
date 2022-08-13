@@ -1,57 +1,54 @@
 {
- "id": 260499,
- "node": [
-  {
-   "id": 260499,
-   "name": "ヌーク３ 最後の性戦",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/ab/260499_n8noH.jpg",
-   "date": "1994-12-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 287857,
-   "name": "ヌーク～あばかれた陰謀～",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/c3/287857_6qoXD.jpg",
-   "date": "1992-11-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 287861,
-   "name": "ヌーク2～レミーの逆襲～",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/89/287861_1va4r.jpg",
-   "date": "1993-10-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 260499,
-   "dst": 287861
-  },
-  {
-   "relate": "续集",
-   "src": 287857,
-   "dst": 287861
-  },
-  {
-   "relate": "续集",
-   "src": 287861,
-   "dst": 260499
-  },
-  {
-   "relate": "前传",
-   "src": 287861,
-   "dst": 287857
-  }
- ]
+  "id": "260499",
+  "node": [
+    {
+      "id": 260499,
+      "name": "ヌーク３ 最後の性戦",
+      "nameCN": "",
+      "date": "1994-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 287861,
+      "name": "ヌーク2～レミーの逆襲～",
+      "nameCN": "",
+      "date": "1993-10-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 287857,
+      "name": "ヌーク～あばかれた陰謀～",
+      "nameCN": "",
+      "date": "1992-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 260499,
+      "dst": 287861
+    },
+    {
+      "relateString": "续集",
+      "src": 287857,
+      "dst": 287861
+    },
+    {
+      "relateString": "续集",
+      "src": 287861,
+      "dst": 260499
+    },
+    {
+      "relateString": "前传",
+      "src": 287861,
+      "dst": 287857
+    }
+  ]
 }

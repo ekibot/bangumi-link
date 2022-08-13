@@ -1,57 +1,54 @@
 {
- "id": 144585,
- "node": [
-  {
-   "id": 144585,
-   "name": "おシゴトの時間！？",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/f3/144585_jp.jpg",
-   "date": "2009-10-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 144586,
-   "name": "おツトメの時間！？",
-   "nameCN": "现在是工作时间!?",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/1c/144586_jp.jpg",
-   "date": "2011-05-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 144587,
-   "name": "ご奉仕の時間！？",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/ac/144587_jp.jpg",
-   "date": "2012-10-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144585,
-   "dst": 144586
-  },
-  {
-   "relate": "前传",
-   "src": 144586,
-   "dst": 144585
-  },
-  {
-   "relate": "续集",
-   "src": 144586,
-   "dst": 144587
-  },
-  {
-   "relate": "前传",
-   "src": 144587,
-   "dst": 144586
-  }
- ]
+  "id": "144585",
+  "node": [
+    {
+      "id": 144585,
+      "name": "おシゴトの時間！？",
+      "nameCN": "",
+      "date": "2009-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144586,
+      "name": "おツトメの時間！？",
+      "nameCN": "现在是工作时间!?",
+      "date": "2011-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144587,
+      "name": "ご奉仕の時間！？",
+      "nameCN": "",
+      "date": "2012-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144585,
+      "dst": 144586
+    },
+    {
+      "relateString": "前传",
+      "src": 144586,
+      "dst": 144585
+    },
+    {
+      "relateString": "续集",
+      "src": 144586,
+      "dst": 144587
+    },
+    {
+      "relateString": "前传",
+      "src": 144587,
+      "dst": 144586
+    }
+  ]
 }

@@ -1,40 +1,44 @@
 {
- "id": 186180,
- "node": [
-  {
-   "id": 186180,
-   "name": "重神機パンドーラ",
-   "nameCN": "重神机潘多拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/39/186180_1hnR6.jpg",
-   "date": "2018-03-28",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 246971,
-   "name": "重神機パンドーラ0",
-   "nameCN": "重神机潘多拉0",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/a8/246971_N88w8.jpg",
-   "type": 1
-  },
-  {
-   "id": 246972,
-   "name": "重神機パンドーラ -Before Pandora-",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/8d/246972_ASax1.jpg",
-   "nameCN": "",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 186180,
-   "dst": 246971
-  },
-  {
-   "relate": "番外篇",
-   "src": 186180,
-   "dst": 246972
-  }
- ]
+  "id": "186180",
+  "node": [
+    {
+      "id": 186180,
+      "name": "重神機パンドーラ",
+      "nameCN": "重神机潘多拉",
+      "date": "2018-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 246971,
+      "name": "重神機パンドーラ0",
+      "nameCN": "重神机潘多拉0",
+      "date": "2018-03-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 246972,
+      "name": "重神機パンドーラ -Before Pandora-",
+      "nameCN": "",
+      "date": "2018-05-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 186180,
+      "dst": 246971
+    },
+    {
+      "relateString": "番外篇",
+      "src": 186180,
+      "dst": 246972
+    }
+  ]
 }

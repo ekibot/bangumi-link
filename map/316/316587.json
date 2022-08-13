@@ -1,33 +1,34 @@
 {
- "id": 316587,
- "node": [
-  {
-   "id": 316587,
-   "name": "シード・オブ・ザ・デッド",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/b3/316587_CX3jz.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 316590,
-   "name": "Seed of the Dead 2",
-   "nameCN": "死亡之种2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/7b/316590_KFkeN.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 316587,
-   "dst": 316590
-  },
-  {
-   "relate": "前传",
-   "src": 316590,
-   "dst": 316587
-  }
- ]
+  "id": "316587",
+  "node": [
+    {
+      "id": 316587,
+      "name": "シード・オブ・ザ・デッド",
+      "nameCN": "",
+      "date": "2017-09-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 316590,
+      "name": "Seed of the Dead 2",
+      "nameCN": "死亡之种2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 316587,
+      "dst": 316590
+    },
+    {
+      "relateString": "前传",
+      "src": 316590,
+      "dst": 316587
+    }
+  ]
 }

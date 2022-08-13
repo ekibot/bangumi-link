@@ -1,37 +1,35 @@
 {
- "id": 171339,
- "node": [
-  {
-   "id": 171339,
-   "name": "暴基枪手",
-   "nameCN": "暴基枪手",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/21/171339_Hin1s.jpg",
-   "date": "2016-03-04",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 223005,
-   "name": "暴基枪手之AK西游",
-   "nameCN": "暴基枪手之AK西游",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/05/223005_WDD8w.jpg",
-   "date": "2017-06-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171339,
-   "dst": 223005
-  },
-  {
-   "relate": "前传",
-   "src": 223005,
-   "dst": 171339
-  }
- ]
+  "id": "171339",
+  "node": [
+    {
+      "id": 171339,
+      "name": "暴基枪手",
+      "nameCN": "暴基枪手",
+      "date": "2016-03-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 223005,
+      "name": "暴基枪手之AK西游",
+      "nameCN": "暴基枪手之AK西游",
+      "date": "2017-06-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171339,
+      "dst": 223005
+    },
+    {
+      "relateString": "前传",
+      "src": 223005,
+      "dst": 171339
+    }
+  ]
 }

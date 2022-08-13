@@ -1,57 +1,54 @@
 {
- "id": 59601,
- "node": [
-  {
-   "id": 59601,
-   "name": "まじもじるるも",
-   "nameCN": "修业魔女璐璐萌",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/e3/59601_VDnDO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 59602,
-   "name": "まじもじるるも 魔界編",
-   "nameCN": "修业魔女璐璐萌 魔界篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/1b/59602_k88Kk.jpg",
-   "date": "2011-12-09",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 112171,
-   "name": "まじもじるるも 放課後の魔法中学生",
-   "nameCN": "修业魔女璐璐萌 放课后的魔法中学生",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/7c/112171_zZ3is.jpg",
-   "date": "2014-07-09",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 59601,
-   "dst": 59602
-  },
-  {
-   "relate": "前传",
-   "src": 59602,
-   "dst": 59601
-  },
-  {
-   "relate": "续集",
-   "src": 59602,
-   "dst": 112171
-  },
-  {
-   "relate": "前传",
-   "src": 112171,
-   "dst": 59602
-  }
- ]
+  "id": "59601",
+  "node": [
+    {
+      "id": 59601,
+      "name": "まじもじるるも",
+      "nameCN": "修业魔女璐璐萌",
+      "date": "2008-02-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59602,
+      "name": "まじもじるるも 魔界編",
+      "nameCN": "修业魔女璐璐萌 魔界篇",
+      "date": "2011-12-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 112171,
+      "name": "まじもじるるも 放課後の魔法中学生",
+      "nameCN": "修业魔女璐璐萌 放课后的魔法中学生",
+      "date": "2014-07-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 59601,
+      "dst": 59602
+    },
+    {
+      "relateString": "前传",
+      "src": 59602,
+      "dst": 59601
+    },
+    {
+      "relateString": "续集",
+      "src": 59602,
+      "dst": 112171
+    },
+    {
+      "relateString": "前传",
+      "src": 112171,
+      "dst": 59602
+    }
+  ]
 }

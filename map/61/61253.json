@@ -1,0 +1,73 @@
+{
+  "id": "61253",
+  "node": [
+    {
+      "id": 61253,
+      "name": "BLEACH DS 蒼天に駆ける運命",
+      "nameCN": "死神DS：傲于苍天的命运",
+      "date": "2006-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61254,
+      "name": "Bleach DS 2nd 黒衣ひらめく鎮魂歌",
+      "nameCN": "死神DS2：黑衣的镇魂歌",
+      "date": "2007-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 359146,
+      "name": "BLEACH ザ・サード・ファントム",
+      "nameCN": "死神DS3：三度幻影",
+      "date": "2008-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61255,
+      "name": "Bleach DS 4th フレイム・ブリンガー",
+      "nameCN": "死神DS4：火焰传承者",
+      "date": "2009-08-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 61253,
+      "dst": 61254
+    },
+    {
+      "relateString": "前传",
+      "src": 61254,
+      "dst": 61253
+    },
+    {
+      "relateString": "续集",
+      "src": 61254,
+      "dst": 359146
+    },
+    {
+      "relateString": "前传",
+      "src": 61255,
+      "dst": 359146
+    },
+    {
+      "relateString": "前传",
+      "src": 359146,
+      "dst": 61254
+    },
+    {
+      "relateString": "续集",
+      "src": 359146,
+      "dst": 61255
+    }
+  ]
+}

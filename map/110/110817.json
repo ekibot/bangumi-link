@@ -1,131 +1,125 @@
 {
- "id": 110817,
- "node": [
-  {
-   "id": 110817,
-   "name": "Life is Strange",
-   "nameCN": "奇异人生",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/6b/110817_p472G.jpg",
-   "date": "2015-01-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215386,
-   "name": "Life Is Strange: Before the Storm",
-   "nameCN": "奇异人生：暴风前夕",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/b1/215386_1gabx.jpg",
-   "date": "2017-08-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 238567,
-   "name": "Life is Strange™ - Directors' Commentary",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/bc/238567_p3BbK.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 249299,
-   "name": "The Awesome Adventures of Captain Spirit",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/7e/249299_Nx0KJ.jpg",
-   "date": "2018-06-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 249300,
-   "name": "Life is Strange 2",
-   "nameCN": "奇异人生2",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/e6/249300_1R324.jpg",
-   "date": "2018-09-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 331201,
-   "name": "Life is Strange: True Colors",
-   "nameCN": "奇异人生：本色",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/20/331201_11ZRh.jpg",
-   "date": "2021-09-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 110817,
-   "dst": 215386
-  },
-  {
-   "relate": "相同世界观",
-   "src": 110817,
-   "dst": 249299
-  },
-  {
-   "relate": "续集",
-   "src": 110817,
-   "dst": 249300
-  },
-  {
-   "relate": "续集",
-   "src": 215386,
-   "dst": 110817
-  },
-  {
-   "relate": "相同世界观",
-   "src": 215386,
-   "dst": 249300
-  },
-  {
-   "relate": "主线故事",
-   "src": 238567,
-   "dst": 110817
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249299,
-   "dst": 110817
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249299,
-   "dst": 249300
-  },
-  {
-   "relate": "前传",
-   "src": 249300,
-   "dst": 110817
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249300,
-   "dst": 215386
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249300,
-   "dst": 249299
-  },
-  {
-   "relate": "续集",
-   "src": 249300,
-   "dst": 331201
-  },
-  {
-   "relate": "前传",
-   "src": 331201,
-   "dst": 249300
-  }
- ]
+  "id": "110817",
+  "node": [
+    {
+      "id": 110817,
+      "name": "Life is Strange",
+      "nameCN": "奇异人生",
+      "date": "2015-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215386,
+      "name": "Life Is Strange: Before the Storm",
+      "nameCN": "奇异人生：暴风前夕",
+      "date": "2017-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249299,
+      "name": "The Awesome Adventures of Captain Spirit",
+      "nameCN": "",
+      "date": "2018-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249300,
+      "name": "Life is Strange 2",
+      "nameCN": "奇异人生2",
+      "date": "2018-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 238567,
+      "name": "Life is Strange™ - Directors' Commentary",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 331201,
+      "name": "Life is Strange: True Colors",
+      "nameCN": "奇异人生：本色",
+      "date": "2021-09-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 110817,
+      "dst": 215386
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 110817,
+      "dst": 249299
+    },
+    {
+      "relateString": "续集",
+      "src": 110817,
+      "dst": 249300
+    },
+    {
+      "relateString": "续集",
+      "src": 215386,
+      "dst": 110817
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 215386,
+      "dst": 249300
+    },
+    {
+      "relateString": "主线故事",
+      "src": 238567,
+      "dst": 110817
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249299,
+      "dst": 110817
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249299,
+      "dst": 249300
+    },
+    {
+      "relateString": "前传",
+      "src": 249300,
+      "dst": 110817
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249300,
+      "dst": 215386
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249300,
+      "dst": 249299
+    },
+    {
+      "relateString": "续集",
+      "src": 249300,
+      "dst": 331201
+    },
+    {
+      "relateString": "前传",
+      "src": 331201,
+      "dst": 249300
+    }
+  ]
 }

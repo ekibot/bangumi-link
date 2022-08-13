@@ -1,37 +1,34 @@
 {
- "id": 277239,
- "node": [
-  {
-   "id": 277239,
-   "name": "Black Monday",
-   "nameCN": "黑色星期一",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/29/277239_uKKTK.jpg",
-   "date": "2019-01-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 303587,
-   "name": "Black Monday Season 2",
-   "nameCN": "黑色星期一 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/5e/303587_TVZTX.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 277239,
-   "dst": 303587
-  },
-  {
-   "relate": "前传",
-   "src": 303587,
-   "dst": 277239
-  }
- ]
+  "id": "277239",
+  "node": [
+    {
+      "id": 277239,
+      "name": "Black Monday",
+      "nameCN": "黑色星期一",
+      "date": "2019-01-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 303587,
+      "name": "Black Monday Season 2",
+      "nameCN": "黑色星期一 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 277239,
+      "dst": 303587
+    },
+    {
+      "relateString": "前传",
+      "src": 303587,
+      "dst": 277239
+    }
+  ]
 }

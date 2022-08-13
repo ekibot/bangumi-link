@@ -1,77 +1,72 @@
 {
- "id": 23383,
- "node": [
-  {
-   "id": 23383,
-   "name": "斗龙战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/f3/23383_ChDer.jpg",
-   "date": "2011-07-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208051,
-   "name": "斗龙战士之星印罗盘",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/fb/208051_uGJxG.jpg",
-   "date": "2016-06-01",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 208052,
-   "name": "斗龙战士之龙印之战",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/1e/208052_RX8hm.jpg",
-   "date": "2015-09-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208053,
-   "name": "斗龙战士2 星龙圣域",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/aa/208053_0rJ7y.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23383,
-   "dst": 208053
-  },
-  {
-   "relate": "前传",
-   "src": 208051,
-   "dst": 208052
-  },
-  {
-   "relate": "续集",
-   "src": 208052,
-   "dst": 208051
-  },
-  {
-   "relate": "前传",
-   "src": 208052,
-   "dst": 208053
-  },
-  {
-   "relate": "前传",
-   "src": 208053,
-   "dst": 23383
-  },
-  {
-   "relate": "续集",
-   "src": 208053,
-   "dst": 208052
-  }
- ]
+  "id": "23383",
+  "node": [
+    {
+      "id": 23383,
+      "name": "斗龙战士",
+      "nameCN": "",
+      "date": "2011-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208053,
+      "name": "斗龙战士2 星龙圣域",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208051,
+      "name": "斗龙战士之星印罗盘",
+      "nameCN": "",
+      "date": "2016-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 208052,
+      "name": "斗龙战士之龙印之战",
+      "nameCN": "",
+      "date": "2015-09-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23383,
+      "dst": 208053
+    },
+    {
+      "relateString": "前传",
+      "src": 208051,
+      "dst": 208052
+    },
+    {
+      "relateString": "续集",
+      "src": 208052,
+      "dst": 208051
+    },
+    {
+      "relateString": "前传",
+      "src": 208052,
+      "dst": 208053
+    },
+    {
+      "relateString": "前传",
+      "src": 208053,
+      "dst": 23383
+    },
+    {
+      "relateString": "续集",
+      "src": 208053,
+      "dst": 208052
+    }
+  ]
 }

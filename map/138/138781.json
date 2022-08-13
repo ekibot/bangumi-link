@@ -1,57 +1,53 @@
 {
- "id": 138781,
- "node": [
-  {
-   "id": 138781,
-   "name": "夜廻",
-   "nameCN": "夜廻",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/6c/138781_BSbtw.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 213903,
-   "name": "深夜廻",
-   "nameCN": "深夜迴",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/43/213903_wWl70.jpg",
-   "date": "2017-08-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 362925,
-   "name": "夜廻三",
-   "nameCN": "夜迴三",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/d7/362925_Zd06a.jpg",
-   "date": "2022-04-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 138781,
-   "dst": 213903
-  },
-  {
-   "relate": "前传",
-   "src": 213903,
-   "dst": 138781
-  },
-  {
-   "relate": "续集",
-   "src": 213903,
-   "dst": 362925
-  },
-  {
-   "relate": "前传",
-   "src": 362925,
-   "dst": 213903
-  }
- ]
+  "id": "138781",
+  "node": [
+    {
+      "id": 138781,
+      "name": "夜廻",
+      "nameCN": "夜廻",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 213903,
+      "name": "深夜廻",
+      "nameCN": "深夜迴",
+      "date": "2017-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 362925,
+      "name": "夜廻三",
+      "nameCN": "夜迴三",
+      "date": "2022-04-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 138781,
+      "dst": 213903
+    },
+    {
+      "relateString": "前传",
+      "src": 213903,
+      "dst": 138781
+    },
+    {
+      "relateString": "续集",
+      "src": 213903,
+      "dst": 362925
+    },
+    {
+      "relateString": "前传",
+      "src": 362925,
+      "dst": 213903
+    }
+  ]
 }

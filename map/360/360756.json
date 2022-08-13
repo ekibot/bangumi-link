@@ -1,37 +1,35 @@
 {
- "id": 360756,
- "node": [
-  {
-   "id": 360756,
-   "name": "Timmy Time: Season 2",
-   "nameCN": "咪咪羊：第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/9c/360756_NvAok.jpg",
-   "date": "2010-05-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 360757,
-   "name": "Timmy Time: Season 1",
-   "nameCN": "咪咪羊：第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/e7/360757_yo3ub.jpg",
-   "date": "2009-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 360756,
-   "dst": 360757
-  },
-  {
-   "relate": "续集",
-   "src": 360757,
-   "dst": 360756
-  }
- ]
+  "id": "360756",
+  "node": [
+    {
+      "id": 360756,
+      "name": "Timmy Time: Season 2",
+      "nameCN": "咪咪羊：第二季",
+      "date": "2010-05-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 360757,
+      "name": "Timmy Time: Season 1",
+      "nameCN": "咪咪羊：第一季",
+      "date": "2009-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 360756,
+      "dst": 360757
+    },
+    {
+      "relateString": "续集",
+      "src": 360757,
+      "dst": 360756
+    }
+  ]
 }

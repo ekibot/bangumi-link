@@ -1,37 +1,35 @@
 {
- "id": 193188,
- "node": [
-  {
-   "id": 193188,
-   "name": "クノイチノイチ!",
-   "nameCN": "色色女忍不能忍！",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/fb/193188_cz9ds.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 286331,
-   "name": "クノイチノイチ! ノ弐",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/5a/286331_BGjup.jpg",
-   "date": "2018-05-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 193188,
-   "dst": 286331
-  },
-  {
-   "relate": "前传",
-   "src": 286331,
-   "dst": 193188
-  }
- ]
+  "id": "193188",
+  "node": [
+    {
+      "id": 193188,
+      "name": "クノイチノイチ!",
+      "nameCN": "色色女忍不能忍！",
+      "date": "2016-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 286331,
+      "name": "クノイチノイチ! ノ弐",
+      "nameCN": "",
+      "date": "2018-05-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 193188,
+      "dst": 286331
+    },
+    {
+      "relateString": "前传",
+      "src": 286331,
+      "dst": 193188
+    }
+  ]
 }

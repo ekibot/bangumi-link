@@ -1,67 +1,64 @@
 {
- "id": 12449,
- "node": [
-  {
-   "id": 12449,
-   "name": "Psychoville (Series 1)",
-   "nameCN": "疯城记 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/ec/12449_j492g.jpg",
-   "date": "2009-06-18",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 32252,
-   "name": "Psychoville (Series 2)",
-   "nameCN": "疯城记 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/ae/32252_W28cZ.jpg",
-   "date": "2011-05-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 85313,
-   "name": "Psychoville Halloween Special",
-   "nameCN": "疯城记 万圣节特辑",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/4a/85313_LEwM9.jpg",
-   "date": "2010-10-31",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12449,
-   "dst": 32252
-  },
-  {
-   "relate": "番外篇",
-   "src": 12449,
-   "dst": 85313
-  },
-  {
-   "relate": "前传",
-   "src": 32252,
-   "dst": 12449
-  },
-  {
-   "relate": "番外篇",
-   "src": 32252,
-   "dst": 85313
-  },
-  {
-   "relate": "番外篇",
-   "src": 85313,
-   "dst": 12449
-  },
-  {
-   "relate": "番外篇",
-   "src": 85313,
-   "dst": 32252
-  }
- ]
+  "id": "12449",
+  "node": [
+    {
+      "id": 12449,
+      "name": "Psychoville (Series 1)",
+      "nameCN": "疯城记 （第一季）",
+      "date": "2009-06-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 32252,
+      "name": "Psychoville (Series 2)",
+      "nameCN": "疯城记 （第二季）",
+      "date": "2011-05-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 85313,
+      "name": "Psychoville Halloween Special",
+      "nameCN": "疯城记 万圣节特辑",
+      "date": "2010-10-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12449,
+      "dst": 32252
+    },
+    {
+      "relateString": "番外篇",
+      "src": 12449,
+      "dst": 85313
+    },
+    {
+      "relateString": "前传",
+      "src": 32252,
+      "dst": 12449
+    },
+    {
+      "relateString": "番外篇",
+      "src": 32252,
+      "dst": 85313
+    },
+    {
+      "relateString": "番外篇",
+      "src": 85313,
+      "dst": 12449
+    },
+    {
+      "relateString": "番外篇",
+      "src": 85313,
+      "dst": 32252
+    }
+  ]
 }

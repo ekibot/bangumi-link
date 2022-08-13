@@ -1,57 +1,51 @@
 {
- "id": 77773,
- "node": [
-  {
-   "id": 77773,
-   "name": "Darkest Fear",
-   "nameCN": "漆黑惊栗",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/4d/77773_kU76s.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 77774,
-   "name": "Darkest Fear2",
-   "nameCN": "漆黑惊栗2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/25/77774_2nl1g.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 77775,
-   "name": "Darkest Fear3",
-   "nameCN": "漆黑惊栗3",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/05/77775_BFYuz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77773,
-   "dst": 77774
-  },
-  {
-   "relate": "前传",
-   "src": 77774,
-   "dst": 77773
-  },
-  {
-   "relate": "续集",
-   "src": 77774,
-   "dst": 77775
-  },
-  {
-   "relate": "前传",
-   "src": 77775,
-   "dst": 77774
-  }
- ]
+  "id": "77773",
+  "node": [
+    {
+      "id": 77773,
+      "name": "Darkest Fear",
+      "nameCN": "漆黑惊栗",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77774,
+      "name": "Darkest Fear2",
+      "nameCN": "漆黑惊栗2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77775,
+      "name": "Darkest Fear3",
+      "nameCN": "漆黑惊栗3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77773,
+      "dst": 77774
+    },
+    {
+      "relateString": "前传",
+      "src": 77774,
+      "dst": 77773
+    },
+    {
+      "relateString": "续集",
+      "src": 77774,
+      "dst": 77775
+    },
+    {
+      "relateString": "前传",
+      "src": 77775,
+      "dst": 77774
+    }
+  ]
 }

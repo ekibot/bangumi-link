@@ -1,77 +1,73 @@
 {
- "id": 16865,
- "node": [
-  {
-   "id": 16865,
-   "name": "グリーングリーン",
-   "nameCN": "钟之音学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/41/16865_n03TT.jpg",
-   "date": "2001-10-05",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 83272,
-   "name": "グリーングリーン OVERDRIVE EDITION",
-   "nameCN": "钟之音学园 OVERDRIVE版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/0f/83272_7rc74.jpg",
-   "date": "2013-10-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 99053,
-   "name": "グリーングリーン2　恋のスペシャルサマー",
-   "nameCN": "钟之音学园2 恋爱的特别夏季",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/7e/99053_79hfH.jpg",
-   "date": "2004-10-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 99057,
-   "name": "グリーングリーン3 ハローグッバイ",
-   "nameCN": "钟之音学园3 Hello Goodbye",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/72/99057_evyJ5.jpg",
-   "date": "2005-08-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 16865,
-   "dst": 83272
-  },
-  {
-   "relate": "续集",
-   "src": 16865,
-   "dst": 99053
-  },
-  {
-   "relate": "不同演绎",
-   "src": 83272,
-   "dst": 16865
-  },
-  {
-   "relate": "前传",
-   "src": 99053,
-   "dst": 16865
-  },
-  {
-   "relate": "续集",
-   "src": 99053,
-   "dst": 99057
-  },
-  {
-   "relate": "前传",
-   "src": 99057,
-   "dst": 99053
-  }
- ]
+  "id": "16865",
+  "node": [
+    {
+      "id": 16865,
+      "name": "グリーングリーン",
+      "nameCN": "钟之音学园",
+      "date": "2001-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 83272,
+      "name": "グリーングリーン OVERDRIVE EDITION",
+      "nameCN": "钟之音学园 OVERDRIVE版",
+      "date": "2013-10-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99053,
+      "name": "グリーングリーン2　恋のスペシャルサマー",
+      "nameCN": "钟之音学园2 恋爱的特别夏季",
+      "date": "2004-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99057,
+      "name": "グリーングリーン3 ハローグッバイ",
+      "nameCN": "钟之音学园3 Hello Goodbye",
+      "date": "2005-08-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 16865,
+      "dst": 83272
+    },
+    {
+      "relateString": "续集",
+      "src": 16865,
+      "dst": 99053
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 83272,
+      "dst": 16865
+    },
+    {
+      "relateString": "前传",
+      "src": 99053,
+      "dst": 16865
+    },
+    {
+      "relateString": "续集",
+      "src": 99053,
+      "dst": 99057
+    },
+    {
+      "relateString": "前传",
+      "src": 99057,
+      "dst": 99053
+    }
+  ]
 }

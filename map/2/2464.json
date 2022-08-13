@@ -1,37 +1,35 @@
 {
- "id": 2464,
- "node": [
-  {
-   "id": 2464,
-   "name": "荒川アンダー ザ ブリッジ",
-   "nameCN": "荒川爆笑团",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/c4/2464_ZwB1N.jpg",
-   "date": "2010-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 8081,
-   "name": "荒川アンダー ザ ブリッジ×ブリッジ",
-   "nameCN": "荒川爆笑团2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/fe/8081_o68Z8.jpg",
-   "date": "2010-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2464,
-   "dst": 8081
-  },
-  {
-   "relate": "前传",
-   "src": 8081,
-   "dst": 2464
-  }
- ]
+  "id": "2464",
+  "node": [
+    {
+      "id": 2464,
+      "name": "荒川アンダー ザ ブリッジ",
+      "nameCN": "荒川爆笑团",
+      "date": "2010-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 8081,
+      "name": "荒川アンダー ザ ブリッジ×ブリッジ",
+      "nameCN": "荒川爆笑团2",
+      "date": "2010-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2464,
+      "dst": 8081
+    },
+    {
+      "relateString": "前传",
+      "src": 8081,
+      "dst": 2464
+    }
+  ]
 }

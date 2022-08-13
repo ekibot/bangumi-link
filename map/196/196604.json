@@ -1,37 +1,35 @@
 {
- "id": 196604,
- "node": [
-  {
-   "id": 196604,
-   "name": "リンちゃんなう!  SSs",
-   "nameCN": "铃酱NOW！SSs",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/2d/196604_jp.jpg",
-   "date": "2013-03-27",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 196612,
-   "name": "リンちゃんなう! SSs2",
-   "nameCN": "铃酱NOW！SSs2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/5a/196612_jp.jpg",
-   "date": "2015-10-02",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196604,
-   "dst": 196612
-  },
-  {
-   "relate": "前传",
-   "src": 196612,
-   "dst": 196604
-  }
- ]
+  "id": "196604",
+  "node": [
+    {
+      "id": 196604,
+      "name": "リンちゃんなう!  SSs",
+      "nameCN": "铃酱NOW！SSs",
+      "date": "2013-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 196612,
+      "name": "リンちゃんなう! SSs2",
+      "nameCN": "铃酱NOW！SSs2",
+      "date": "2015-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196604,
+      "dst": 196612
+    },
+    {
+      "relateString": "前传",
+      "src": 196612,
+      "dst": 196604
+    }
+  ]
 }

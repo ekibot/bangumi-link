@@ -1,97 +1,91 @@
 {
- "id": 41658,
- "node": [
-  {
-   "id": 41658,
-   "name": "ヤマノススメ",
-   "nameCN": "向山进发",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/b2/41658_Gsis2.jpg",
-   "date": "2013-01-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 86670,
-   "name": "ヤマノススメ セカンドシーズン",
-   "nameCN": "向山进发 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/3b/86670_6jUQX.jpg",
-   "date": "2014-07-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 216310,
-   "name": "ヤマノススメ サードシーズン",
-   "nameCN": "向山进发 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/a2/216310_ci5yT.jpg",
-   "date": "2018-07-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 216311,
-   "name": "ヤマノススメ おもいでプレゼント",
-   "nameCN": "向山进发 回忆的礼物",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/ee/216311_zSJvJ.jpg",
-   "date": "2017-10-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 290980,
-   "name": "ヤマノススメ Next Summit",
-   "nameCN": "向山进发 Next Summit",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/5a/290980_Jju6q.jpg",
-   "date": "2022-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 41658,
-   "dst": 86670
-  },
-  {
-   "relate": "前传",
-   "src": 86670,
-   "dst": 41658
-  },
-  {
-   "relate": "续集",
-   "src": 86670,
-   "dst": 216310
-  },
-  {
-   "relate": "番外篇",
-   "src": 86670,
-   "dst": 216311
-  },
-  {
-   "relate": "前传",
-   "src": 216310,
-   "dst": 86670
-  },
-  {
-   "relate": "续集",
-   "src": 216310,
-   "dst": 290980
-  },
-  {
-   "relate": "主线故事",
-   "src": 216311,
-   "dst": 86670
-  },
-  {
-   "relate": "前传",
-   "src": 290980,
-   "dst": 216310
-  }
- ]
+  "id": "41658",
+  "node": [
+    {
+      "id": 41658,
+      "name": "ヤマノススメ",
+      "nameCN": "向山进发",
+      "date": "2013-01-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 86670,
+      "name": "ヤマノススメ セカンドシーズン",
+      "nameCN": "向山进发 第二季",
+      "date": "2014-07-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 216310,
+      "name": "ヤマノススメ サードシーズン",
+      "nameCN": "向山进发 第三季",
+      "date": "2018-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 216311,
+      "name": "ヤマノススメ おもいでプレゼント",
+      "nameCN": "向山进发 回忆的礼物",
+      "date": "2018-01-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 290980,
+      "name": "ヤマノススメ Next Summit",
+      "nameCN": "向山进发 Next Summit",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 41658,
+      "dst": 86670
+    },
+    {
+      "relateString": "前传",
+      "src": 86670,
+      "dst": 41658
+    },
+    {
+      "relateString": "续集",
+      "src": 86670,
+      "dst": 216310
+    },
+    {
+      "relateString": "番外篇",
+      "src": 86670,
+      "dst": 216311
+    },
+    {
+      "relateString": "前传",
+      "src": 216310,
+      "dst": 86670
+    },
+    {
+      "relateString": "续集",
+      "src": 216310,
+      "dst": 290980
+    },
+    {
+      "relateString": "主线故事",
+      "src": 216311,
+      "dst": 86670
+    },
+    {
+      "relateString": "前传",
+      "src": 290980,
+      "dst": 216310
+    }
+  ]
 }

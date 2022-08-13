@@ -1,47 +1,34 @@
 {
- "id": 121141,
- "node": [
-  {
-   "id": 121141,
-   "name": "結城友奈は勇者部所属",
-   "nameCN": "结城友奈是勇者部成员",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/d1/121141_z5z6z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 231311,
-   "name": "結城友奈は勇者部所属 ぷにっと！",
-   "nameCN": "结城友奈所属的勇者部PUNITTO！",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/0f/231311_dtnGx.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 291893,
-   "name": "結城友奈は勇者である 娘太丸アートワークス",
-   "image": "//lain.bgm.tv/pic/cover/m/b6/bc/291893_pN68x.jpg"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121141,
-   "dst": 231311
-  },
-  {
-   "relate": "前传",
-   "src": 231311,
-   "dst": 121141
-  },
-  {
-   "relate": "前传",
-   "src": 291893,
-   "dst": 231311
-  }
- ]
+  "id": "121141",
+  "node": [
+    {
+      "id": 121141,
+      "name": "結城友奈は勇者部所属",
+      "nameCN": "结城友奈是勇者部成员",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 231311,
+      "name": "結城友奈は勇者部所属 ぷにっと！",
+      "nameCN": "结城友奈所属的勇者部PUNITTO！",
+      "date": "2017-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121141,
+      "dst": 231311
+    },
+    {
+      "relateString": "前传",
+      "src": 231311,
+      "dst": 121141
+    }
+  ]
 }

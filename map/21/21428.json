@@ -1,37 +1,35 @@
 {
- "id": 21428,
- "node": [
-  {
-   "id": 21428,
-   "name": "わたしに××しなさい!",
-   "nameCN": "绝对恋爱命令",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/d7/21428_GK4FE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 251051,
-   "name": "わたしに××しなさい! カップル編",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/a4/251051_qXrxk.jpg",
-   "date": "2018-06-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21428,
-   "dst": 251051
-  },
-  {
-   "relate": "前传",
-   "src": 251051,
-   "dst": 21428
-  }
- ]
+  "id": "21428",
+  "node": [
+    {
+      "id": 21428,
+      "name": "わたしに××しなさい!",
+      "nameCN": "绝对恋爱命令",
+      "date": "2009-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 251051,
+      "name": "わたしに××しなさい! カップル編",
+      "nameCN": "",
+      "date": "2018-06-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21428,
+      "dst": 251051
+    },
+    {
+      "relateString": "前传",
+      "src": 251051,
+      "dst": 21428
+    }
+  ]
 }

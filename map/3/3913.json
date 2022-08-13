@@ -1,57 +1,53 @@
 {
- "id": 3913,
- "node": [
-  {
-   "id": 3913,
-   "name": "Eufloria",
-   "nameCN": "真菌世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/85/3913_bGy8X.jpg",
-   "date": "2009-10-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 236275,
-   "name": "Eufloria RPG",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/3d/236275_yljy2.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 236276,
-   "name": "Eufloria Adventures",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/fe/236276_iEIif.jpg",
-   "date": "2014-04-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3913,
-   "dst": 236275
-  },
-  {
-   "relate": "续集",
-   "src": 3913,
-   "dst": 236276
-  },
-  {
-   "relate": "前传",
-   "src": 236275,
-   "dst": 3913
-  },
-  {
-   "relate": "前传",
-   "src": 236276,
-   "dst": 3913
-  }
- ]
+  "id": "3913",
+  "node": [
+    {
+      "id": 3913,
+      "name": "Eufloria",
+      "nameCN": "真菌世界",
+      "date": "2009-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 236275,
+      "name": "Eufloria RPG",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 236276,
+      "name": "Eufloria Adventures",
+      "nameCN": "",
+      "date": "2014-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3913,
+      "dst": 236275
+    },
+    {
+      "relateString": "续集",
+      "src": 3913,
+      "dst": 236276
+    },
+    {
+      "relateString": "前传",
+      "src": 236275,
+      "dst": 3913
+    },
+    {
+      "relateString": "前传",
+      "src": 236276,
+      "dst": 3913
+    }
+  ]
 }

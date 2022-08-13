@@ -1,37 +1,35 @@
 {
- "id": 302672,
- "node": [
-  {
-   "id": 302672,
-   "name": "恐竜少女ガウ子",
-   "nameCN": "恐龙女孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/65/302672_KfKgK.jpg",
-   "date": "2019-11-22",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 302673,
-   "name": "恐竜少女ガウ子 シーズン2",
-   "nameCN": "恐龙女孩 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/8d/302673_dZYpL.jpg",
-   "date": "2020-03-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 302672,
-   "dst": 302673
-  },
-  {
-   "relate": "前传",
-   "src": 302673,
-   "dst": 302672
-  }
- ]
+  "id": "302672",
+  "node": [
+    {
+      "id": 302672,
+      "name": "恐竜少女ガウ子",
+      "nameCN": "恐龙女孩",
+      "date": "2019-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 302673,
+      "name": "恐竜少女ガウ子 シーズン2",
+      "nameCN": "恐龙女孩 第二季",
+      "date": "2020-03-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 302672,
+      "dst": 302673
+    },
+    {
+      "relateString": "前传",
+      "src": 302673,
+      "dst": 302672
+    }
+  ]
 }

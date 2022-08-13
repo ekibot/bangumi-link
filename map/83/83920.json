@@ -1,37 +1,35 @@
 {
- "id": 83920,
- "node": [
-  {
-   "id": 83920,
-   "name": "大怪獣ラッシュ ウルトラフロンティア",
-   "nameCN": "大怪兽RUSH",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/ba/83920_2BW4t.jpg",
-   "date": "2013-09-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 107724,
-   "name": "大怪獣ラッシュ ウルトラフロンティア 2ndシーズン",
-   "nameCN": "大怪兽RUSH第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/0d/107724_FKEJe.jpg",
-   "date": "2014-06-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 83920,
-   "dst": 107724
-  },
-  {
-   "relate": "前传",
-   "src": 107724,
-   "dst": 83920
-  }
- ]
+  "id": "83920",
+  "node": [
+    {
+      "id": 83920,
+      "name": "大怪獣ラッシュ ウルトラフロンティア",
+      "nameCN": "大怪兽RUSH",
+      "date": "2013-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 107724,
+      "name": "大怪獣ラッシュ ウルトラフロンティア 2ndシーズン",
+      "nameCN": "大怪兽RUSH第2季",
+      "date": "2014-06-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 83920,
+      "dst": 107724
+    },
+    {
+      "relateString": "前传",
+      "src": 107724,
+      "dst": 83920
+    }
+  ]
 }

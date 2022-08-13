@@ -1,57 +1,54 @@
 {
- "id": 263102,
- "node": [
-  {
-   "id": 263102,
-   "name": "ちっちゃい先輩が可愛すぎる。",
-   "nameCN": "小个子前辈太可爱了。",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/b4/263102_x836w.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 299943,
-   "name": "ちっちゃい彼女先輩が可愛すぎる。",
-   "nameCN": "可爱的小不点前辈是我的女友。",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/33/299943_V53YH.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 316822,
-   "name": "ちっちゃい彼女先輩と同棲します。",
-   "nameCN": "与小不点前辈的同居生活。",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/f8/316822_XVekf.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263102,
-   "dst": 299943
-  },
-  {
-   "relate": "前传",
-   "src": 299943,
-   "dst": 263102
-  },
-  {
-   "relate": "续集",
-   "src": 299943,
-   "dst": 316822
-  },
-  {
-   "relate": "前传",
-   "src": 316822,
-   "dst": 299943
-  }
- ]
+  "id": "263102",
+  "node": [
+    {
+      "id": 263102,
+      "name": "ちっちゃい先輩が可愛すぎる。",
+      "nameCN": "小个子前辈太可爱了。",
+      "date": "2017-10-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 299943,
+      "name": "ちっちゃい彼女先輩が可愛すぎる。",
+      "nameCN": "可爱的小不点前辈是我的女友。",
+      "date": "2019-10-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 316822,
+      "name": "ちっちゃい彼女先輩と同棲します。",
+      "nameCN": "与小不点前辈的同居生活。",
+      "date": "2020-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263102,
+      "dst": 299943
+    },
+    {
+      "relateString": "前传",
+      "src": 299943,
+      "dst": 263102
+    },
+    {
+      "relateString": "续集",
+      "src": 299943,
+      "dst": 316822
+    },
+    {
+      "relateString": "前传",
+      "src": 316822,
+      "dst": 299943
+    }
+  ]
 }

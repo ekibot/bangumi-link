@@ -1,82 +1,78 @@
 {
- "id": 1703,
- "node": [
-  {
-   "id": 1703,
-   "name": "純情ロマンチカ",
-   "nameCN": "纯情罗曼史",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/5c/1703_NblJp.jpg",
-   "date": "2008-04-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 49598,
-   "name": "純情ロマンチカ2",
-   "nameCN": "纯情罗曼史2",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/73/49598_4Fc4U.jpg",
-   "date": "2008-10-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 58245,
-   "name": "純情ロマンチカ OAD",
-   "nameCN": "纯情罗曼史 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/ac/58245_hOLnz.jpg",
-   "date": "2012-12-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 109541,
-   "name": "純情ロマンチカ3",
-   "nameCN": "纯情罗曼史3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/9d/109541_0g022.jpg",
-   "date": "2015-07-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1703,
-   "dst": 49598
-  },
-  {
-   "relate": "前传",
-   "src": 49598,
-   "dst": 1703
-  },
-  {
-   "relate": "番外篇",
-   "src": 49598,
-   "dst": 58245
-  },
-  {
-   "relate": "续集",
-   "src": 49598,
-   "dst": 109541
-  },
-  {
-   "relate": "前传",
-   "src": 58245,
-   "dst": 109541
-  },
-  {
-   "relate": "前传",
-   "src": 109541,
-   "dst": 49598
-  },
-  {
-   "relate": "续集",
-   "src": 109541,
-   "dst": 58245
-  }
- ]
+  "id": "1703",
+  "node": [
+    {
+      "id": 1703,
+      "name": "純情ロマンチカ",
+      "nameCN": "纯情罗曼史",
+      "date": "2008-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 49598,
+      "name": "純情ロマンチカ2",
+      "nameCN": "纯情罗曼史2",
+      "date": "2008-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 58245,
+      "name": "純情ロマンチカ OAD",
+      "nameCN": "纯情罗曼史 OAD",
+      "date": "2012-12-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 109541,
+      "name": "純情ロマンチカ3",
+      "nameCN": "纯情罗曼史3",
+      "date": "2015-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1703,
+      "dst": 49598
+    },
+    {
+      "relateString": "前传",
+      "src": 49598,
+      "dst": 1703
+    },
+    {
+      "relateString": "番外篇",
+      "src": 49598,
+      "dst": 58245
+    },
+    {
+      "relateString": "续集",
+      "src": 49598,
+      "dst": 109541
+    },
+    {
+      "relateString": "前传",
+      "src": 58245,
+      "dst": 109541
+    },
+    {
+      "relateString": "前传",
+      "src": 109541,
+      "dst": 49598
+    },
+    {
+      "relateString": "续集",
+      "src": 109541,
+      "dst": 58245
+    }
+  ]
 }

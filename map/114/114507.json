@@ -1,57 +1,53 @@
 {
- "id": 114507,
- "node": [
-  {
-   "id": 114507,
-   "name": "マイクタイソン・パンチアウト!!",
-   "nameCN": "迈克泰森拳击",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/91/114507_gJaGS.jpg",
-   "date": "1987-10-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114508,
-   "name": "パンチアウト!!",
-   "nameCN": "Punch-Out!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/76/114508_T6UH4.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 114509,
-   "name": "スーパーパンチアウト!!",
-   "nameCN": "Super Punch-Out!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/48/114509_iNguN.jpg",
-   "date": "1994-09-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 114507,
-   "dst": 114508
-  },
-  {
-   "relate": "续集",
-   "src": 114507,
-   "dst": 114509
-  },
-  {
-   "relate": "不同演绎",
-   "src": 114508,
-   "dst": 114507
-  },
-  {
-   "relate": "前传",
-   "src": 114509,
-   "dst": 114507
-  }
- ]
+  "id": "114507",
+  "node": [
+    {
+      "id": 114507,
+      "name": "マイクタイソン・パンチアウト!!",
+      "nameCN": "迈克泰森拳击",
+      "date": "1987-10-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114508,
+      "name": "パンチアウト!!",
+      "nameCN": "Punch-Out!!",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114509,
+      "name": "スーパーパンチアウト!!",
+      "nameCN": "Super Punch-Out!!",
+      "date": "1994-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 114507,
+      "dst": 114508
+    },
+    {
+      "relateString": "续集",
+      "src": 114507,
+      "dst": 114509
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 114508,
+      "dst": 114507
+    },
+    {
+      "relateString": "前传",
+      "src": 114509,
+      "dst": 114507
+    }
+  ]
 }

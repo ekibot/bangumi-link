@@ -1,37 +1,35 @@
 {
- "id": 222215,
- "node": [
-  {
-   "id": 222215,
-   "name": "いもうと観察日記",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/36/222215_F95Ye.jpg",
-   "date": "2002-12-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 222217,
-   "name": "いもうと観察日記2",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/91/222217_6BkwK.jpg",
-   "date": "2004-10-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 222215,
-   "dst": 222217
-  },
-  {
-   "relate": "前传",
-   "src": 222217,
-   "dst": 222215
-  }
- ]
+  "id": "222215",
+  "node": [
+    {
+      "id": 222215,
+      "name": "いもうと観察日記",
+      "nameCN": "",
+      "date": "2002-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222217,
+      "name": "いもうと観察日記2",
+      "nameCN": "",
+      "date": "2004-10-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 222215,
+      "dst": 222217
+    },
+    {
+      "relateString": "前传",
+      "src": 222217,
+      "dst": 222215
+    }
+  ]
 }

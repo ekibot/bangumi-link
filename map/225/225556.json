@@ -1,37 +1,33 @@
 {
- "id": 225556,
- "node": [
-  {
-   "id": 225556,
-   "name": "Wチェンジ!!",
-   "nameCN": "大小姐当家",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/75/225556_o7mS6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 225557,
-   "name": "ちぇんじ!!",
-   "nameCN": "百变大小姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/0f/225557_e5bz5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 225556,
-   "dst": 225557
-  },
-  {
-   "relate": "续集",
-   "src": 225557,
-   "dst": 225556
-  }
- ]
+  "id": "225556",
+  "node": [
+    {
+      "id": 225556,
+      "name": "Wチェンジ!!",
+      "nameCN": "大小姐当家",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 225557,
+      "name": "ちぇんじ!!",
+      "nameCN": "百变大小姐",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 225556,
+      "dst": 225557
+    },
+    {
+      "relateString": "续集",
+      "src": 225557,
+      "dst": 225556
+    }
+  ]
 }

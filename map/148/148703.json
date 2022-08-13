@@ -1,37 +1,33 @@
 {
- "id": 148703,
- "node": [
-  {
-   "id": 148703,
-   "name": "火力少年王之传奇再现",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/34/148703_mESbq.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 148704,
-   "name": "火力少年王之传奇再现续集",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/69/148704_F7UCG.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 148703,
-   "dst": 148704
-  },
-  {
-   "relate": "前传",
-   "src": 148704,
-   "dst": 148703
-  }
- ]
+  "id": "148703",
+  "node": [
+    {
+      "id": 148703,
+      "name": "火力少年王之传奇再现",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 148704,
+      "name": "火力少年王之传奇再现续集",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 148703,
+      "dst": 148704
+    },
+    {
+      "relateString": "前传",
+      "src": 148704,
+      "dst": 148703
+    }
+  ]
 }

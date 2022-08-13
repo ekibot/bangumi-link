@@ -1,97 +1,88 @@
 {
- "id": 44368,
- "node": [
-  {
-   "id": 44368,
-   "name": "シュート!",
-   "nameCN": "足球风云",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/16/44368_6T6TT.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 44402,
-   "name": "シュート! 〜蒼きめぐり逢い〜",
-   "nameCN": "足球风云II",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/ff/44402_OYjGP.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 44411,
-   "name": "シュート! 〜熱き挑戦〜",
-   "nameCN": "足球风云III 炙热的挑战",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/25/44411_yLnQ9.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 44424,
-   "name": "シュート! 〜新たなる伝説〜",
-   "nameCN": "足球风云 新的传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/36/44424_30VHx.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 371905,
-   "name": "シュート!の世界にゴン中山が転生してしまった件",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/0a/371905_15S4a.jpg",
-   "date": "2020-07-09",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44368,
-   "dst": 44402
-  },
-  {
-   "relate": "不同世界观",
-   "src": 44368,
-   "dst": 371905
-  },
-  {
-   "relate": "前传",
-   "src": 44402,
-   "dst": 44368
-  },
-  {
-   "relate": "续集",
-   "src": 44402,
-   "dst": 44411
-  },
-  {
-   "relate": "前传",
-   "src": 44411,
-   "dst": 44402
-  },
-  {
-   "relate": "续集",
-   "src": 44411,
-   "dst": 44424
-  },
-  {
-   "relate": "前传",
-   "src": 44424,
-   "dst": 44411
-  },
-  {
-   "relate": "不同世界观",
-   "src": 371905,
-   "dst": 44368
-  }
- ]
+  "id": "44368",
+  "node": [
+    {
+      "id": 44368,
+      "name": "シュート!",
+      "nameCN": "足球风云",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44402,
+      "name": "シュート! 〜蒼きめぐり逢い〜",
+      "nameCN": "足球风云II",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 371905,
+      "name": "シュート!の世界にゴン中山が転生してしまった件",
+      "nameCN": "",
+      "date": "2020-07-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44411,
+      "name": "シュート! 〜熱き挑戦〜",
+      "nameCN": "足球风云III 炙热的挑战",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44424,
+      "name": "シュート! 〜新たなる伝説〜",
+      "nameCN": "足球风云 新的传说",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44368,
+      "dst": 44402
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 44368,
+      "dst": 371905
+    },
+    {
+      "relateString": "前传",
+      "src": 44402,
+      "dst": 44368
+    },
+    {
+      "relateString": "续集",
+      "src": 44402,
+      "dst": 44411
+    },
+    {
+      "relateString": "前传",
+      "src": 44411,
+      "dst": 44402
+    },
+    {
+      "relateString": "续集",
+      "src": 44411,
+      "dst": 44424
+    },
+    {
+      "relateString": "前传",
+      "src": 44424,
+      "dst": 44411
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 371905,
+      "dst": 44368
+    }
+  ]
 }

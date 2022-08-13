@@ -1,37 +1,35 @@
 {
- "id": 227174,
- "node": [
-  {
-   "id": 227174,
-   "name": "ダウンタウン乱闘行進曲 かちぬきかくとうSP",
-   "nameCN": "街头大乱斗进行曲 大激战SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/2e/227174_m94us.jpg",
-   "date": "2017-09-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 300358,
-   "name": "ダウンタウン乱闘行進曲マッハ",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/51/300358_ll4kx.jpg",
-   "date": "2019-10-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 227174,
-   "dst": 300358
-  },
-  {
-   "relate": "前传",
-   "src": 300358,
-   "dst": 227174
-  }
- ]
+  "id": "227174",
+  "node": [
+    {
+      "id": 227174,
+      "name": "ダウンタウン乱闘行進曲 かちぬきかくとうSP",
+      "nameCN": "街头大乱斗进行曲 大激战SP",
+      "date": "2017-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 300358,
+      "name": "ダウンタウン乱闘行進曲マッハ",
+      "nameCN": "",
+      "date": "2019-10-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 227174,
+      "dst": 300358
+    },
+    {
+      "relateString": "前传",
+      "src": 300358,
+      "dst": 227174
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 84630,
- "node": [
-  {
-   "id": 84630,
-   "name": "ごちそうさん",
-   "nameCN": "多谢款待",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/c1/84630_TcJjC.jpg",
-   "date": "2013-09-30",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 107503,
-   "name": "ごちそうさんっていわしたい！",
-   "nameCN": "多谢款待SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/5b/107503_1xI3h.jpg",
-   "date": "2014-04-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 84630,
-   "dst": 107503
-  },
-  {
-   "relate": "番外篇",
-   "src": 107503,
-   "dst": 84630
-  }
- ]
+  "id": "84630",
+  "node": [
+    {
+      "id": 84630,
+      "name": "ごちそうさん",
+      "nameCN": "多谢款待",
+      "date": "2013-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 107503,
+      "name": "ごちそうさんっていわしたい！",
+      "nameCN": "多谢款待SP",
+      "date": "2014-04-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 84630,
+      "dst": 107503
+    },
+    {
+      "relateString": "番外篇",
+      "src": 107503,
+      "dst": 84630
+    }
+  ]
 }

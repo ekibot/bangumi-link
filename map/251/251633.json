@@ -1,37 +1,35 @@
 {
- "id": 251633,
- "node": [
-  {
-   "id": 251633,
-   "name": "サバゲっぱなし",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/4e/251633_o7Ukl.jpg",
-   "date": "2017-05-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 377253,
-   "name": "サバゲっぱなしS",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/c0/377253_94xXy.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251633,
-   "dst": 377253
-  },
-  {
-   "relate": "前传",
-   "src": 377253,
-   "dst": 251633
-  }
- ]
+  "id": "251633",
+  "node": [
+    {
+      "id": 251633,
+      "name": "サバゲっぱなし",
+      "nameCN": "",
+      "date": "2017-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 377253,
+      "name": "サバゲっぱなしS",
+      "nameCN": "",
+      "date": "2022-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251633,
+      "dst": 377253
+    },
+    {
+      "relateString": "前传",
+      "src": 377253,
+      "dst": 251633
+    }
+  ]
 }

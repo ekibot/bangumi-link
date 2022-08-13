@@ -1,37 +1,35 @@
 {
- "id": 307983,
- "node": [
-  {
-   "id": 307983,
-   "name": "The House of Da Vinci",
-   "nameCN": "达芬奇之家",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/f3/307983_tdDlK.jpg",
-   "date": "2017-11-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307984,
-   "name": "The House of Da Vinci 2",
-   "nameCN": "达芬奇之家 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/bf/307984_bUPqL.jpg",
-   "date": "2020-05-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 307983,
-   "dst": 307984
-  },
-  {
-   "relate": "前传",
-   "src": 307984,
-   "dst": 307983
-  }
- ]
+  "id": "307983",
+  "node": [
+    {
+      "id": 307983,
+      "name": "The House of Da Vinci",
+      "nameCN": "达芬奇之家",
+      "date": "2017-11-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307984,
+      "name": "The House of Da Vinci 2",
+      "nameCN": "达芬奇之家 2",
+      "date": "2020-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 307983,
+      "dst": 307984
+    },
+    {
+      "relateString": "前传",
+      "src": 307984,
+      "dst": 307983
+    }
+  ]
 }

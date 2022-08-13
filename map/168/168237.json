@@ -1,77 +1,72 @@
 {
- "id": 168237,
- "node": [
-  {
-   "id": 168237,
-   "name": "American Crime Story",
-   "nameCN": "美国犯罪故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/b2/168237_q4H1v.jpg",
-   "date": "2016-02-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 236238,
-   "name": "American Crime Story Season 2",
-   "nameCN": "美国犯罪故事 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/6b/236238_54vV6.jpg",
-   "date": "2018-01-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 236239,
-   "name": "American Crime Story Season 3",
-   "nameCN": "美国犯罪故事 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/b8/236239_374iz.jpg",
-   "date": "2021-09-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 236240,
-   "name": "American Crime Story Season 4",
-   "nameCN": "美国犯罪故事 第四季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 168237,
-   "dst": 236238
-  },
-  {
-   "relate": "前传",
-   "src": 236238,
-   "dst": 168237
-  },
-  {
-   "relate": "续集",
-   "src": 236238,
-   "dst": 236239
-  },
-  {
-   "relate": "前传",
-   "src": 236239,
-   "dst": 236238
-  },
-  {
-   "relate": "续集",
-   "src": 236239,
-   "dst": 236240
-  },
-  {
-   "relate": "前传",
-   "src": 236240,
-   "dst": 236239
-  }
- ]
+  "id": "168237",
+  "node": [
+    {
+      "id": 168237,
+      "name": "American Crime Story",
+      "nameCN": "美国犯罪故事",
+      "date": "2016-02-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 236238,
+      "name": "American Crime Story Season 2",
+      "nameCN": "美国犯罪故事 第二季",
+      "date": "2018-01-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 236239,
+      "name": "American Crime Story Season 3",
+      "nameCN": "美国犯罪故事 第三季",
+      "date": "2021-09-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 236240,
+      "name": "American Crime Story Season 4",
+      "nameCN": "美国犯罪故事 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 168237,
+      "dst": 236238
+    },
+    {
+      "relateString": "前传",
+      "src": 236238,
+      "dst": 168237
+    },
+    {
+      "relateString": "续集",
+      "src": 236238,
+      "dst": 236239
+    },
+    {
+      "relateString": "前传",
+      "src": 236239,
+      "dst": 236238
+    },
+    {
+      "relateString": "续集",
+      "src": 236239,
+      "dst": 236240
+    },
+    {
+      "relateString": "前传",
+      "src": 236240,
+      "dst": 236239
+    }
+  ]
 }

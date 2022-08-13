@@ -1,37 +1,35 @@
 {
- "id": 125384,
- "node": [
-  {
-   "id": 125384,
-   "name": "あずみ",
-   "nameCN": "少女杀手阿墨",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/e3/125384_fFf3V.jpg",
-   "date": "2003-05-10",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 125385,
-   "name": "あずみ2　Death or Love",
-   "nameCN": "少女杀手阿墨2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/b5/125385_KYYYf.jpg",
-   "date": "2005-03-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125384,
-   "dst": 125385
-  },
-  {
-   "relate": "前传",
-   "src": 125385,
-   "dst": 125384
-  }
- ]
+  "id": "125384",
+  "node": [
+    {
+      "id": 125384,
+      "name": "あずみ",
+      "nameCN": "少女杀手阿墨",
+      "date": "2003-05-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 125385,
+      "name": "あずみ2　Death or Love",
+      "nameCN": "少女杀手阿墨2",
+      "date": "2005-03-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125384,
+      "dst": 125385
+    },
+    {
+      "relateString": "前传",
+      "src": 125385,
+      "dst": 125384
+    }
+  ]
 }

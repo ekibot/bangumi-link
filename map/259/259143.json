@@ -1,37 +1,34 @@
 {
- "id": 259143,
- "node": [
-  {
-   "id": 259143,
-   "name": "水滸伝・天導一〇八星",
-   "nameCN": "水浒传 天导108星",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/37/259143_dDoJR.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259145,
-   "name": "水滸伝・天命の誓い",
-   "nameCN": "水浒传 天命之誓",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/bf/259145_Wn3VL.jpg",
-   "date": "1988-12-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 259143,
-   "dst": 259145
-  },
-  {
-   "relate": "续集",
-   "src": 259145,
-   "dst": 259143
-  }
- ]
+  "id": "259143",
+  "node": [
+    {
+      "id": 259143,
+      "name": "水滸伝・天導一〇八星",
+      "nameCN": "水浒传 天导108星",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259145,
+      "name": "水滸伝・天命の誓い",
+      "nameCN": "水浒传 天命之誓",
+      "date": "1988-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 259143,
+      "dst": 259145
+    },
+    {
+      "relateString": "续集",
+      "src": 259145,
+      "dst": 259143
+    }
+  ]
 }

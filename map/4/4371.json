@@ -1,57 +1,54 @@
 {
- "id": 4371,
- "node": [
-  {
-   "id": 4371,
-   "name": "天上天下",
-   "nameCN": "天上天下",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/77/4371_Aa777.jpg",
-   "date": "2004-04-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 38766,
-   "name": "天上天下 ULTIMATE FIGHT",
-   "nameCN": "天上天下 终极格斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/d6/38766_Y2yV9.jpg",
-   "date": "2005-03-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 109408,
-   "name": "天上天下 THE PAST CHAPTER",
-   "nameCN": "天上天下 THE PAST CHAPTER",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/32/109408_c5CY2.jpg",
-   "date": "2005-03-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 4371,
-   "dst": 38766
-  },
-  {
-   "relate": "前传",
-   "src": 4371,
-   "dst": 109408
-  },
-  {
-   "relate": "主线故事",
-   "src": 38766,
-   "dst": 4371
-  },
-  {
-   "relate": "续集",
-   "src": 109408,
-   "dst": 4371
-  }
- ]
+  "id": "4371",
+  "node": [
+    {
+      "id": 4371,
+      "name": "天上天下",
+      "nameCN": "天上天下",
+      "date": "2004-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 38766,
+      "name": "天上天下 ULTIMATE FIGHT",
+      "nameCN": "天上天下 终极格斗",
+      "date": "2005-03-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 109408,
+      "name": "天上天下 THE PAST CHAPTER",
+      "nameCN": "天上天下 THE PAST CHAPTER",
+      "date": "2005-03-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 4371,
+      "dst": 38766
+    },
+    {
+      "relateString": "前传",
+      "src": 4371,
+      "dst": 109408
+    },
+    {
+      "relateString": "主线故事",
+      "src": 38766,
+      "dst": 4371
+    },
+    {
+      "relateString": "续集",
+      "src": 109408,
+      "dst": 4371
+    }
+  ]
 }

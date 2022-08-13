@@ -1,37 +1,35 @@
 {
- "id": 230073,
- "node": [
-  {
-   "id": 230073,
-   "name": "喵咪斗恶龙",
-   "nameCN": "喵咪斗恶龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/1c/230073_Igr23.jpg",
-   "date": "2017-08-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309371,
-   "name": "Cat Quest II",
-   "nameCN": "喵咪斗恶龙  II",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/b6/309371_SYKI1.jpg",
-   "date": "2019-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230073,
-   "dst": 309371
-  },
-  {
-   "relate": "前传",
-   "src": 309371,
-   "dst": 230073
-  }
- ]
+  "id": "230073",
+  "node": [
+    {
+      "id": 230073,
+      "name": "喵咪斗恶龙",
+      "nameCN": "喵咪斗恶龙",
+      "date": "2017-08-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309371,
+      "name": "Cat Quest II",
+      "nameCN": "喵咪斗恶龙  II",
+      "date": "2019-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230073,
+      "dst": 309371
+    },
+    {
+      "relateString": "前传",
+      "src": 309371,
+      "dst": 230073
+    }
+  ]
 }

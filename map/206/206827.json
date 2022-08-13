@@ -1,37 +1,35 @@
 {
- "id": 206827,
- "node": [
-  {
-   "id": 206827,
-   "name": "Six",
-   "nameCN": "海豹六队",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/53/206827_rZI8s.jpg",
-   "date": "2017-01-18",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 252314,
-   "name": "Six Season 2",
-   "nameCN": "海豹六队 第二季",
-   "date": "2018-05-28",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 206827,
-   "dst": 252314
-  },
-  {
-   "relate": "前传",
-   "src": 252314,
-   "dst": 206827
-  }
- ]
+  "id": "206827",
+  "node": [
+    {
+      "id": 206827,
+      "name": "Six",
+      "nameCN": "海豹六队",
+      "date": "2017-01-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 252314,
+      "name": "Six Season 2",
+      "nameCN": "海豹六队 第二季",
+      "date": "2018-05-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 206827,
+      "dst": 252314
+    },
+    {
+      "relateString": "前传",
+      "src": 252314,
+      "dst": 206827
+    }
+  ]
 }

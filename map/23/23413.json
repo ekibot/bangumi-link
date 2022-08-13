@@ -1,77 +1,73 @@
 {
- "id": 23413,
- "node": [
-  {
-   "id": 23413,
-   "name": "Revenge (Season 1)",
-   "nameCN": "复仇 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/ae/23413_V8Ktx.jpg",
-   "date": "2011-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 50047,
-   "name": "Revenge (Season 2)",
-   "nameCN": "复仇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/9f/50047_3FUXc.jpg",
-   "date": "2012-09-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 84093,
-   "name": "Revenge (Season 3)",
-   "nameCN": "复仇 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/19/84093_wff44.jpg",
-   "date": "2013-09-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 112800,
-   "name": "Revenge (Season 4)",
-   "nameCN": "复仇 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/da/112800_4gGAI.jpg",
-   "date": "2014-09-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23413,
-   "dst": 50047
-  },
-  {
-   "relate": "前传",
-   "src": 50047,
-   "dst": 23413
-  },
-  {
-   "relate": "续集",
-   "src": 50047,
-   "dst": 84093
-  },
-  {
-   "relate": "前传",
-   "src": 84093,
-   "dst": 50047
-  },
-  {
-   "relate": "续集",
-   "src": 84093,
-   "dst": 112800
-  },
-  {
-   "relate": "前传",
-   "src": 112800,
-   "dst": 84093
-  }
- ]
+  "id": "23413",
+  "node": [
+    {
+      "id": 23413,
+      "name": "Revenge (Season 1)",
+      "nameCN": "复仇 第一季",
+      "date": "2011-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 50047,
+      "name": "Revenge (Season 2)",
+      "nameCN": "复仇 第二季",
+      "date": "2012-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 84093,
+      "name": "Revenge (Season 3)",
+      "nameCN": "复仇 第三季",
+      "date": "2013-09-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 112800,
+      "name": "Revenge (Season 4)",
+      "nameCN": "复仇 第四季",
+      "date": "2014-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23413,
+      "dst": 50047
+    },
+    {
+      "relateString": "前传",
+      "src": 50047,
+      "dst": 23413
+    },
+    {
+      "relateString": "续集",
+      "src": 50047,
+      "dst": 84093
+    },
+    {
+      "relateString": "前传",
+      "src": 84093,
+      "dst": 50047
+    },
+    {
+      "relateString": "续集",
+      "src": 84093,
+      "dst": 112800
+    },
+    {
+      "relateString": "前传",
+      "src": 112800,
+      "dst": 84093
+    }
+  ]
 }

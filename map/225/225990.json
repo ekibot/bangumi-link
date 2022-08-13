@@ -1,37 +1,35 @@
 {
- "id": 225990,
- "node": [
-  {
-   "id": 225990,
-   "name": "探探猫之奇幻马戏团",
-   "nameCN": "探探猫之奇幻马戏团",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/cb/225990_mdb5m.jpg",
-   "date": "2017-09-16",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 240965,
-   "name": "探探猫之奇幻马戏团 第2季",
-   "nameCN": "探探猫之奇幻马戏团 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/67/240965_RaUi4.jpg",
-   "date": "2018-03-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225990,
-   "dst": 240965
-  },
-  {
-   "relate": "前传",
-   "src": 240965,
-   "dst": 225990
-  }
- ]
+  "id": "225990",
+  "node": [
+    {
+      "id": 225990,
+      "name": "探探猫之奇幻马戏团",
+      "nameCN": "探探猫之奇幻马戏团",
+      "date": "2017-09-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 240965,
+      "name": "探探猫之奇幻马戏团 第2季",
+      "nameCN": "探探猫之奇幻马戏团 第二季",
+      "date": "2018-03-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225990,
+      "dst": 240965
+    },
+    {
+      "relateString": "前传",
+      "src": 240965,
+      "dst": 225990
+    }
+  ]
 }

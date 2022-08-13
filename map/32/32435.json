@@ -1,0 +1,52 @@
+{
+  "id": "32435",
+  "node": [
+    {
+      "id": 32435,
+      "name": "バガボンド",
+      "nameCN": "浪客行",
+      "date": "1999-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 66356,
+      "name": "いのうえの　満月篇",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 66358,
+      "name": "いのうえの 三日月篇",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 32435,
+      "dst": 66356
+    },
+    {
+      "relateString": "续集",
+      "src": 32435,
+      "dst": 66358
+    },
+    {
+      "relateString": "前传",
+      "src": 66356,
+      "dst": 32435
+    },
+    {
+      "relateString": "前传",
+      "src": 66358,
+      "dst": 32435
+    }
+  ]
+}

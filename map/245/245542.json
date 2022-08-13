@@ -1,37 +1,35 @@
 {
- "id": 245542,
- "node": [
-  {
-   "id": 245542,
-   "name": "Emily Wants To Play",
-   "nameCN": "艾米丽玩闹鬼",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/88/245542_h8rxK.jpg",
-   "date": "2015-12-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 245543,
-   "name": "Emily Wants to Play Too",
-   "nameCN": "艾米丽玩闹鬼2",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/d7/245543_9fF7P.jpg",
-   "date": "2017-12-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 245542,
-   "dst": 245543
-  },
-  {
-   "relate": "前传",
-   "src": 245543,
-   "dst": 245542
-  }
- ]
+  "id": "245542",
+  "node": [
+    {
+      "id": 245542,
+      "name": "Emily Wants To Play",
+      "nameCN": "艾米丽玩闹鬼",
+      "date": "2015-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245543,
+      "name": "Emily Wants to Play Too",
+      "nameCN": "艾米丽玩闹鬼2",
+      "date": "2017-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 245542,
+      "dst": 245543
+    },
+    {
+      "relateString": "前传",
+      "src": 245543,
+      "dst": 245542
+    }
+  ]
 }

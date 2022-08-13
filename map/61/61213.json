@@ -1,97 +1,92 @@
 {
- "id": 61213,
- "node": [
-  {
-   "id": 61213,
-   "name": "Hotel Transylvania",
-   "nameCN": "精灵旅社",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/bd/61213_4IbNf.jpg",
-   "date": "2012-09-28",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 119034,
-   "name": "Hotel Transylvania 2",
-   "nameCN": "精灵旅社2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/99/119034_LiAGt.jpg",
-   "date": "2015-09-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 162158,
-   "name": "Goodnight, Mr. Foot",
-   "nameCN": "晚安，脚先生",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/8c/162158_KLkZM.jpg",
-   "date": "2012-10-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 178606,
-   "name": "Hotel Transylvania 3: Summer Vacation",
-   "nameCN": "精灵旅社3：疯狂假期",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/98/178606_r6dek.jpg",
-   "date": "2018-07-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 365782,
-   "name": "Hotel Transylvania 4: Transformania",
-   "nameCN": "精灵旅社4：变身大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/40/365782_F6vzV.jpg",
-   "date": "2022-01-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 61213,
-   "dst": 119034
-  },
-  {
-   "relate": "番外篇",
-   "src": 61213,
-   "dst": 162158
-  },
-  {
-   "relate": "前传",
-   "src": 119034,
-   "dst": 61213
-  },
-  {
-   "relate": "续集",
-   "src": 119034,
-   "dst": 178606
-  },
-  {
-   "relate": "主线故事",
-   "src": 162158,
-   "dst": 61213
-  },
-  {
-   "relate": "前传",
-   "src": 178606,
-   "dst": 119034
-  },
-  {
-   "relate": "续集",
-   "src": 178606,
-   "dst": 365782
-  },
-  {
-   "relate": "前传",
-   "src": 365782,
-   "dst": 178606
-  }
- ]
+  "id": "61213",
+  "node": [
+    {
+      "id": 61213,
+      "name": "Hotel Transylvania",
+      "nameCN": "精灵旅社",
+      "date": "2012-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 119034,
+      "name": "Hotel Transylvania 2",
+      "nameCN": "精灵旅社2",
+      "date": "2015-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 162158,
+      "name": "Goodnight, Mr. Foot",
+      "nameCN": "晚安，脚先生",
+      "date": "2012-10-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 178606,
+      "name": "Hotel Transylvania 3: Summer Vacation",
+      "nameCN": "精灵旅社3：疯狂假期",
+      "date": "2018-07-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 365782,
+      "name": "Hotel Transylvania 4: Transformania",
+      "nameCN": "精灵旅社4：变身大冒险",
+      "date": "2022-01-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 61213,
+      "dst": 119034
+    },
+    {
+      "relateString": "番外篇",
+      "src": 61213,
+      "dst": 162158
+    },
+    {
+      "relateString": "前传",
+      "src": 119034,
+      "dst": 61213
+    },
+    {
+      "relateString": "续集",
+      "src": 119034,
+      "dst": 178606
+    },
+    {
+      "relateString": "主线故事",
+      "src": 162158,
+      "dst": 61213
+    },
+    {
+      "relateString": "前传",
+      "src": 178606,
+      "dst": 119034
+    },
+    {
+      "relateString": "续集",
+      "src": 178606,
+      "dst": 365782
+    },
+    {
+      "relateString": "前传",
+      "src": 365782,
+      "dst": 178606
+    }
+  ]
 }

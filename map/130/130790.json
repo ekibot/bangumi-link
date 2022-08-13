@@ -1,37 +1,35 @@
 {
- "id": 130790,
- "node": [
-  {
-   "id": 130790,
-   "name": "辛巴达历险记2013",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/59/130790_iW799.jpg",
-   "date": "2013-05-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 130890,
-   "name": "辛巴达历险记2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/cd/130890_kff6S.jpg",
-   "date": "2014-05-30",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130790,
-   "dst": 130890
-  },
-  {
-   "relate": "前传",
-   "src": 130890,
-   "dst": 130790
-  }
- ]
+  "id": "130790",
+  "node": [
+    {
+      "id": 130790,
+      "name": "辛巴达历险记2013",
+      "nameCN": "",
+      "date": "2013-05-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 130890,
+      "name": "辛巴达历险记2",
+      "nameCN": "",
+      "date": "2014-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130790,
+      "dst": 130890
+    },
+    {
+      "relateString": "前传",
+      "src": 130890,
+      "dst": 130790
+    }
+  ]
 }

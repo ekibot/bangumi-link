@@ -1,57 +1,54 @@
 {
- "id": 130977,
- "node": [
-  {
-   "id": 130977,
-   "name": "Bloodline (Season 1)",
-   "nameCN": "血脉 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/2a/130977_eFOzj.jpg",
-   "date": "2015-03-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 212032,
-   "name": "Bloodline (Season 2)",
-   "nameCN": "血脉 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/03/212032_iWy3u.jpg",
-   "date": "2016-05-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 242621,
-   "name": "Bloodline (Season 3)",
-   "nameCN": "血脉 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/3b/242621_K53Jz.jpg",
-   "date": "2017-05-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130977,
-   "dst": 212032
-  },
-  {
-   "relate": "前传",
-   "src": 212032,
-   "dst": 130977
-  },
-  {
-   "relate": "续集",
-   "src": 212032,
-   "dst": 242621
-  },
-  {
-   "relate": "前传",
-   "src": 242621,
-   "dst": 212032
-  }
- ]
+  "id": "130977",
+  "node": [
+    {
+      "id": 130977,
+      "name": "Bloodline (Season 1)",
+      "nameCN": "血脉 第一季",
+      "date": "2015-03-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 212032,
+      "name": "Bloodline (Season 2)",
+      "nameCN": "血脉 第二季",
+      "date": "2016-05-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 242621,
+      "name": "Bloodline (Season 3)",
+      "nameCN": "血脉 第三季",
+      "date": "2017-05-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130977,
+      "dst": 212032
+    },
+    {
+      "relateString": "前传",
+      "src": 212032,
+      "dst": 130977
+    },
+    {
+      "relateString": "续集",
+      "src": 212032,
+      "dst": 242621
+    },
+    {
+      "relateString": "前传",
+      "src": 242621,
+      "dst": 212032
+    }
+  ]
 }

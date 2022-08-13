@@ -1,63 +1,35 @@
 {
- "id": 367999,
- "node": [
-  {
-   "id": 367999,
-   "name": "パンドラの果実～科学犯罪捜査ファイル～ Season 1",
-   "date": "2022-04-23",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/1c/367999_rhPMb.jpg",
-   "nameCN": "潘多拉的果实～科学犯罪搜查档案～第一季",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 368000,
-   "name": "パンドラの果実～科学犯罪捜査ファイル～ Season 2",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 6
-  },
-  {
-   "id": 377605,
-   "name": "パンドラの果実～科学犯罪捜査ファイル～Season1",
-   "nameCN": "潘多拉的果实～科学犯罪搜查档案～第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/be/377605_ysixC.jpg",
-   "date": "2022-04-23",
-   "type": 6
-  },
-  {
-   "id": 377606,
-   "name": "パンドラの果実～科学犯罪捜査ファイル～ Season 2",
-   "nameCN": "潘多拉的果实～科学犯罪搜查档案～第二季",
-   "date": "2022-06-25",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/78/377606_D0PgK.jpg",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 367999,
-   "dst": 377606
-  },
-  {
-   "relate": "前传",
-   "src": 368000,
-   "dst": 367999
-  },
-  {
-   "relate": "续集",
-   "src": 377605,
-   "dst": 377606
-  },
-  {
-   "relate": "前传",
-   "src": 377606,
-   "dst": 367999
-  }
- ]
+  "id": "367999",
+  "node": [
+    {
+      "id": 367999,
+      "name": "パンドラの果実～科学犯罪捜査ファイル～ Season 1",
+      "nameCN": "潘多拉的果实～科学犯罪搜查档案～第一季",
+      "date": "2022-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 377606,
+      "name": "パンドラの果実～科学犯罪捜査ファイル～ Season 2",
+      "nameCN": "潘多拉的果实～科学犯罪搜查档案～第二季",
+      "date": "2022-06-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 367999,
+      "dst": 377606
+    },
+    {
+      "relateString": "前传",
+      "src": 377606,
+      "dst": 367999
+    }
+  ]
 }

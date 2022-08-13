@@ -1,37 +1,35 @@
 {
- "id": 250483,
- "node": [
-  {
-   "id": 250483,
-   "name": "セブンティウイザン",
-   "nameCN": "70岁的初产",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/e9/250483_TS1qJ.jpg",
-   "date": "2017-02-09",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 292890,
-   "name": "セブンティドリームズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/69/292890_kvllG.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 250483,
-   "dst": 292890
-  },
-  {
-   "relate": "前传",
-   "src": 292890,
-   "dst": 250483
-  }
- ]
+  "id": "250483",
+  "node": [
+    {
+      "id": 250483,
+      "name": "セブンティウイザン",
+      "nameCN": "70岁的初产",
+      "date": "2017-02-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 292890,
+      "name": "セブンティドリームズ",
+      "nameCN": "",
+      "date": "2018-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 250483,
+      "dst": 292890
+    },
+    {
+      "relateString": "前传",
+      "src": 292890,
+      "dst": 250483
+    }
+  ]
 }

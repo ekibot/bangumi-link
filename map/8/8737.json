@@ -1,77 +1,73 @@
 {
- "id": 8737,
- "node": [
-  {
-   "id": 8737,
-   "name": "Raising Hope (Season 1)",
-   "nameCN": "家有喜旺（第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/b7/8737_T0AWY.jpg",
-   "date": "2010-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 50061,
-   "name": "Raising Hope (Season 2)",
-   "nameCN": "家有喜旺（第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/f9/50061_8V2ZR.jpg",
-   "date": "2011-09-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 50306,
-   "name": "Raising Hope (Season 3)",
-   "nameCN": "家有喜旺（第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/09/50306_4fIMm.jpg",
-   "date": "2012-10-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 88356,
-   "name": "Raising Hope (Season 4)",
-   "nameCN": "家有喜旺 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/29/88356_85ZSO.jpg",
-   "date": "2013-11-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8737,
-   "dst": 50061
-  },
-  {
-   "relate": "前传",
-   "src": 50061,
-   "dst": 8737
-  },
-  {
-   "relate": "续集",
-   "src": 50061,
-   "dst": 50306
-  },
-  {
-   "relate": "前传",
-   "src": 50306,
-   "dst": 50061
-  },
-  {
-   "relate": "续集",
-   "src": 50306,
-   "dst": 88356
-  },
-  {
-   "relate": "前传",
-   "src": 88356,
-   "dst": 50306
-  }
- ]
+  "id": "8737",
+  "node": [
+    {
+      "id": 8737,
+      "name": "Raising Hope (Season 1)",
+      "nameCN": "家有喜旺（第一季）",
+      "date": "2010-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 50061,
+      "name": "Raising Hope (Season 2)",
+      "nameCN": "家有喜旺（第二季）",
+      "date": "2011-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 50306,
+      "name": "Raising Hope (Season 3)",
+      "nameCN": "家有喜旺（第三季）",
+      "date": "2012-10-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 88356,
+      "name": "Raising Hope (Season 4)",
+      "nameCN": "家有喜旺 第四季",
+      "date": "2013-11-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8737,
+      "dst": 50061
+    },
+    {
+      "relateString": "前传",
+      "src": 50061,
+      "dst": 8737
+    },
+    {
+      "relateString": "续集",
+      "src": 50061,
+      "dst": 50306
+    },
+    {
+      "relateString": "前传",
+      "src": 50306,
+      "dst": 50061
+    },
+    {
+      "relateString": "续集",
+      "src": 50306,
+      "dst": 88356
+    },
+    {
+      "relateString": "前传",
+      "src": 88356,
+      "dst": 50306
+    }
+  ]
 }

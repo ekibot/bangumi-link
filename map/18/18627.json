@@ -1,37 +1,35 @@
 {
- "id": 18627,
- "node": [
-  {
-   "id": 18627,
-   "name": "フリクリ (下) (講談社BOX)",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/0f/18627_jp.jpg",
-   "date": "2007-06-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 187116,
-   "name": "フリクリ (上) (講談社BOX)",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/34/187116_jp.jpg",
-   "date": "2007-05-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 18627,
-   "dst": 187116
-  },
-  {
-   "relate": "续集",
-   "src": 187116,
-   "dst": 18627
-  }
- ]
+  "id": "18627",
+  "node": [
+    {
+      "id": 18627,
+      "name": "フリクリ (下) (講談社BOX)",
+      "nameCN": "",
+      "date": "2007-06-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 187116,
+      "name": "フリクリ (上) (講談社BOX)",
+      "nameCN": "",
+      "date": "2007-05-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 18627,
+      "dst": 187116
+    },
+    {
+      "relateString": "续集",
+      "src": 187116,
+      "dst": 18627
+    }
+  ]
 }

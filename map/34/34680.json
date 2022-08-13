@@ -1,37 +1,34 @@
 {
- "id": 34680,
- "node": [
-  {
-   "id": 34680,
-   "name": "僕らの王国～アラビアンナイト～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/74/34680_jp.jpg",
-   "date": "2007-10-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 34681,
-   "name": "僕らの王国",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/12/34681_66WlG.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 34680,
-   "dst": 34681
-  },
-  {
-   "relate": "番外篇",
-   "src": 34681,
-   "dst": 34680
-  }
- ]
+  "id": "34680",
+  "node": [
+    {
+      "id": 34680,
+      "name": "僕らの王国～アラビアンナイト～",
+      "nameCN": "",
+      "date": "2007-10-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 34681,
+      "name": "僕らの王国",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 34680,
+      "dst": 34681
+    },
+    {
+      "relateString": "番外篇",
+      "src": 34681,
+      "dst": 34680
+    }
+  ]
 }

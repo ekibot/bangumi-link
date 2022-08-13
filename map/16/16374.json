@@ -1,37 +1,35 @@
 {
- "id": 16374,
- "node": [
-  {
-   "id": 16374,
-   "name": "トロピカルKISS",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/9a/16374_SAzqH.jpg",
-   "date": "2009-09-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 101461,
-   "name": "トロピカルVACATION",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/0b/101461_0mk4j.jpg",
-   "date": "2014-10-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 16374,
-   "dst": 101461
-  },
-  {
-   "relate": "前传",
-   "src": 101461,
-   "dst": 16374
-  }
- ]
+  "id": "16374",
+  "node": [
+    {
+      "id": 16374,
+      "name": "トロピカルKISS",
+      "nameCN": "",
+      "date": "2009-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 101461,
+      "name": "トロピカルVACATION",
+      "nameCN": "",
+      "date": "2014-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 16374,
+      "dst": 101461
+    },
+    {
+      "relateString": "前传",
+      "src": 101461,
+      "dst": 16374
+    }
+  ]
 }

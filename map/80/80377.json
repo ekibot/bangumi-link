@@ -1,117 +1,109 @@
 {
- "id": 80377,
- "node": [
-  {
-   "id": 80377,
-   "name": "センゴク兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/62/80377_jp.jpg",
-   "date": "2009-10-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 80384,
-   "name": "センゴク",
-   "nameCN": "战国",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/df/80384_3wZ0u.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 80400,
-   "name": "センゴク 天正記",
-   "nameCN": "战国天正记",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/c8/80400_WqKw9.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 80416,
-   "name": "センゴク 一統記",
-   "nameCN": "战国一统记",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/53/80416_33Bz4.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 80421,
-   "name": "センゴク外伝 桶狭間戦記",
-   "nameCN": "战国外传 桶狭间战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/75/80421_09kWM.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 154116,
-   "name": "センゴク 権兵衛",
-   "nameCN": "战国权兵卫",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/5a/154116_x7494.jpg",
-   "date": "2016-03-04",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 80377,
-   "dst": 80384
-  },
-  {
-   "relate": "番外篇",
-   "src": 80384,
-   "dst": 80377
-  },
-  {
-   "relate": "续集",
-   "src": 80384,
-   "dst": 80400
-  },
-  {
-   "relate": "番外篇",
-   "src": 80384,
-   "dst": 80421
-  },
-  {
-   "relate": "前传",
-   "src": 80400,
-   "dst": 80384
-  },
-  {
-   "relate": "续集",
-   "src": 80400,
-   "dst": 80416
-  },
-  {
-   "relate": "前传",
-   "src": 80416,
-   "dst": 80400
-  },
-  {
-   "relate": "续集",
-   "src": 80416,
-   "dst": 154116
-  },
-  {
-   "relate": "主线故事",
-   "src": 80421,
-   "dst": 80384
-  },
-  {
-   "relate": "前传",
-   "src": 154116,
-   "dst": 80416
-  }
- ]
+  "id": "80377",
+  "node": [
+    {
+      "id": 80377,
+      "name": "センゴク兄弟",
+      "nameCN": "",
+      "date": "2009-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 80384,
+      "name": "センゴク",
+      "nameCN": "战国",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 80400,
+      "name": "センゴク 天正記",
+      "nameCN": "战国天正记",
+      "date": "2007-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 80421,
+      "name": "センゴク外伝 桶狭間戦記",
+      "nameCN": "战国外传 桶狭间战记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 80416,
+      "name": "センゴク 一統記",
+      "nameCN": "战国一统记",
+      "date": "2012-07-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 154116,
+      "name": "センゴク 権兵衛",
+      "nameCN": "战国权兵卫",
+      "date": "2016-03-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 80377,
+      "dst": 80384
+    },
+    {
+      "relateString": "番外篇",
+      "src": 80384,
+      "dst": 80377
+    },
+    {
+      "relateString": "续集",
+      "src": 80384,
+      "dst": 80400
+    },
+    {
+      "relateString": "番外篇",
+      "src": 80384,
+      "dst": 80421
+    },
+    {
+      "relateString": "前传",
+      "src": 80400,
+      "dst": 80384
+    },
+    {
+      "relateString": "续集",
+      "src": 80400,
+      "dst": 80416
+    },
+    {
+      "relateString": "前传",
+      "src": 80416,
+      "dst": 80400
+    },
+    {
+      "relateString": "续集",
+      "src": 80416,
+      "dst": 154116
+    },
+    {
+      "relateString": "主线故事",
+      "src": 80421,
+      "dst": 80384
+    },
+    {
+      "relateString": "前传",
+      "src": 154116,
+      "dst": 80416
+    }
+  ]
 }

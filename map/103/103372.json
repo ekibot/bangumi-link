@@ -1,37 +1,34 @@
 {
- "id": 103372,
- "node": [
-  {
-   "id": 103372,
-   "name": "GRANBLUE FANTASY",
-   "nameCN": "碧蓝幻想",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/df/103372_Wpnwf.jpg",
-   "date": "2014-03-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 233713,
-   "name": "GRANBLUE FANTASY: Relink",
-   "nameCN": "碧蓝幻想 Relink",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/aa/233713_297sy.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 103372,
-   "dst": 233713
-  },
-  {
-   "relate": "不同演绎",
-   "src": 233713,
-   "dst": 103372
-  }
- ]
+  "id": "103372",
+  "node": [
+    {
+      "id": 103372,
+      "name": "GRANBLUE FANTASY",
+      "nameCN": "碧蓝幻想",
+      "date": "2014-03-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 233713,
+      "name": "GRANBLUE FANTASY: Relink",
+      "nameCN": "碧蓝幻想 Relink",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 103372,
+      "dst": 233713
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 233713,
+      "dst": 103372
+    }
+  ]
 }

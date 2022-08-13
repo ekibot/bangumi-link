@@ -1,57 +1,54 @@
 {
- "id": 14388,
- "node": [
-  {
-   "id": 14388,
-   "name": "まじのコンプレックス",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/b1/14388_j5olR.jpg",
-   "date": "2010-08-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 15450,
-   "name": "さかしき人にみるこころ",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/e2/15450_35I9x.jpg",
-   "date": "2008-05-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 15451,
-   "name": "どんちゃんがきゅ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/1f/15451_dZLl2.jpg",
-   "date": "2009-05-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 14388,
-   "dst": 15451
-  },
-  {
-   "relate": "续集",
-   "src": 15450,
-   "dst": 15451
-  },
-  {
-   "relate": "续集",
-   "src": 15451,
-   "dst": 14388
-  },
-  {
-   "relate": "前传",
-   "src": 15451,
-   "dst": 15450
-  }
- ]
+  "id": "14388",
+  "node": [
+    {
+      "id": 14388,
+      "name": "まじのコンプレックス",
+      "nameCN": "",
+      "date": "2010-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 15451,
+      "name": "どんちゃんがきゅ～",
+      "nameCN": "",
+      "date": "2009-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 15450,
+      "name": "さかしき人にみるこころ",
+      "nameCN": "",
+      "date": "2008-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 14388,
+      "dst": 15451
+    },
+    {
+      "relateString": "续集",
+      "src": 15450,
+      "dst": 15451
+    },
+    {
+      "relateString": "续集",
+      "src": 15451,
+      "dst": 14388
+    },
+    {
+      "relateString": "前传",
+      "src": 15451,
+      "dst": 15450
+    }
+  ]
 }

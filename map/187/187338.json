@@ -1,37 +1,35 @@
 {
- "id": 187338,
- "node": [
-  {
-   "id": 187338,
-   "name": "狠西游",
-   "nameCN": "狠西游",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/06/187338_0fuzj.jpg",
-   "date": "2016-07-18",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 249240,
-   "name": "狠西游2",
-   "nameCN": "狠西游 第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/a9/249240_H8epj.jpg",
-   "date": "2018-12-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 187338,
-   "dst": 249240
-  },
-  {
-   "relate": "前传",
-   "src": 249240,
-   "dst": 187338
-  }
- ]
+  "id": "187338",
+  "node": [
+    {
+      "id": 187338,
+      "name": "狠西游",
+      "nameCN": "狠西游",
+      "date": "2016-07-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 249240,
+      "name": "狠西游2",
+      "nameCN": "狠西游 第2季",
+      "date": "2018-12-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 187338,
+      "dst": 249240
+    },
+    {
+      "relateString": "前传",
+      "src": 249240,
+      "dst": 187338
+    }
+  ]
 }

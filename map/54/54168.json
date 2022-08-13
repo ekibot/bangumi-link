@@ -1,57 +1,51 @@
 {
- "id": 54168,
- "node": [
-  {
-   "id": 54168,
-   "name": "緋弾のアリア",
-   "nameCN": "绯弹的亚莉亚",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/fb/54168_J5XmG.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 254521,
-   "name": "緋弾のアリア 紫電の魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/de/254521_MwG03.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 371748,
-   "name": "緋弾のアリア Gの血族",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/5d/371748_Ikifq.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 54168,
-   "dst": 254521
-  },
-  {
-   "relate": "前传",
-   "src": 254521,
-   "dst": 54168
-  },
-  {
-   "relate": "续集",
-   "src": 254521,
-   "dst": 371748
-  },
-  {
-   "relate": "前传",
-   "src": 371748,
-   "dst": 254521
-  }
- ]
+  "id": "54168",
+  "node": [
+    {
+      "id": 54168,
+      "name": "緋弾のアリア",
+      "nameCN": "绯弹的亚莉亚",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 254521,
+      "name": "緋弾のアリア 紫電の魔女",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 371748,
+      "name": "緋弾のアリア Gの血族",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 54168,
+      "dst": 254521
+    },
+    {
+      "relateString": "前传",
+      "src": 254521,
+      "dst": 54168
+    },
+    {
+      "relateString": "续集",
+      "src": 254521,
+      "dst": 371748
+    },
+    {
+      "relateString": "前传",
+      "src": 371748,
+      "dst": 254521
+    }
+  ]
 }

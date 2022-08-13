@@ -1,37 +1,33 @@
 {
- "id": 261147,
- "node": [
-  {
-   "id": 261147,
-   "name": "Spirou Season 1",
-   "nameCN": "斯皮鲁历险记 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/e3/261147_NTN47.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 261195,
-   "name": "Spirou Season 2",
-   "nameCN": "斯皮鲁历险记 第二季",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 261147,
-   "dst": 261195
-  },
-  {
-   "relate": "前传",
-   "src": 261195,
-   "dst": 261147
-  }
- ]
+  "id": "261147",
+  "node": [
+    {
+      "id": 261147,
+      "name": "Spirou Season 1",
+      "nameCN": "斯皮鲁历险记 第一季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 261195,
+      "name": "Spirou Season 2",
+      "nameCN": "斯皮鲁历险记 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 261147,
+      "dst": 261195
+    },
+    {
+      "relateString": "前传",
+      "src": 261195,
+      "dst": 261147
+    }
+  ]
 }

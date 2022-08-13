@@ -1,23 +1,35 @@
 {
- "id": 121585,
- "node": [
-  {
-   "id": 121585,
-   "name": "Fu・shi・da・ra",
-   "image": "/img/no_icon_subject.png",
-   "date": "1999-09-03"
-  },
-  {
-   "id": 228936,
-   "name": "Fu・shi・da・ra again",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 121585,
-   "dst": 228936
-  }
- ]
+  "id": "121585",
+  "node": [
+    {
+      "id": 121585,
+      "name": "Fu・shi・da・ra",
+      "nameCN": "",
+      "date": "1999-09-03",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228936,
+      "name": "Fu・shi・da・ra again",
+      "nameCN": "",
+      "date": "2008-10-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 121585,
+      "dst": 228936
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 228936,
+      "dst": 121585
+    }
+  ]
 }

@@ -1,97 +1,92 @@
 {
- "id": 3898,
- "node": [
-  {
-   "id": 3898,
-   "name": "Two and a Half Men(Season 1)",
-   "nameCN": "好汉两个半 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/db/3898_XYO77.jpg",
-   "date": "2003-09-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 3914,
-   "name": "Two and a Half Men(Season 2)",
-   "nameCN": "好汉两个半 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/5d/3914_85f4A.jpg",
-   "date": "2004-09-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 11181,
-   "name": "Two and a Half Men(Season 5)",
-   "nameCN": "好汉两个半 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/6b/11181_NDSUt.jpg",
-   "date": "2007-09-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 11182,
-   "name": "Two and a Half Men(Season 4)",
-   "nameCN": "好汉两个半 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/89/11182_LlCC9.jpg",
-   "date": "2006-09-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 11183,
-   "name": "Two and a Half Men(Season 3)",
-   "nameCN": "好汉两个半 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/bc/11183_O7hZP.jpg",
-   "date": "2005-09-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3898,
-   "dst": 3914
-  },
-  {
-   "relate": "前传",
-   "src": 3914,
-   "dst": 3898
-  },
-  {
-   "relate": "续集",
-   "src": 3914,
-   "dst": 11183
-  },
-  {
-   "relate": "前传",
-   "src": 11181,
-   "dst": 11182
-  },
-  {
-   "relate": "续集",
-   "src": 11182,
-   "dst": 11181
-  },
-  {
-   "relate": "前传",
-   "src": 11182,
-   "dst": 11183
-  },
-  {
-   "relate": "前传",
-   "src": 11183,
-   "dst": 3914
-  },
-  {
-   "relate": "续集",
-   "src": 11183,
-   "dst": 11182
-  }
- ]
+  "id": "3898",
+  "node": [
+    {
+      "id": 3898,
+      "name": "Two and a Half Men(Season 1)",
+      "nameCN": "好汉两个半 第一季",
+      "date": "2003-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 3914,
+      "name": "Two and a Half Men(Season 2)",
+      "nameCN": "好汉两个半 第二季",
+      "date": "2004-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 11183,
+      "name": "Two and a Half Men(Season 3)",
+      "nameCN": "好汉两个半 第三季",
+      "date": "2005-09-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 11181,
+      "name": "Two and a Half Men(Season 5)",
+      "nameCN": "好汉两个半 第五季",
+      "date": "2007-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 11182,
+      "name": "Two and a Half Men(Season 4)",
+      "nameCN": "好汉两个半 第四季",
+      "date": "2006-09-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3898,
+      "dst": 3914
+    },
+    {
+      "relateString": "前传",
+      "src": 3914,
+      "dst": 3898
+    },
+    {
+      "relateString": "续集",
+      "src": 3914,
+      "dst": 11183
+    },
+    {
+      "relateString": "前传",
+      "src": 11181,
+      "dst": 11182
+    },
+    {
+      "relateString": "续集",
+      "src": 11182,
+      "dst": 11181
+    },
+    {
+      "relateString": "前传",
+      "src": 11182,
+      "dst": 11183
+    },
+    {
+      "relateString": "前传",
+      "src": 11183,
+      "dst": 3914
+    },
+    {
+      "relateString": "续集",
+      "src": 11183,
+      "dst": 11182
+    }
+  ]
 }

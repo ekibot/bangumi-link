@@ -1,77 +1,70 @@
 {
- "id": 175359,
- "node": [
-  {
-   "id": 175359,
-   "name": "The Boogie Man",
-   "nameCN": "摇摆男",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/50/175359_LJ5Lr.jpg",
-   "date": "2016-02-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 230000,
-   "name": "The Hanged Man",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/e9/230000_E43yo.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 230001,
-   "name": "The Crooked Man",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/4f/230001_E005m.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 230002,
-   "name": "THE SAND MAN",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/c8/230002_5SAO1.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 175359,
-   "dst": 230000
-  },
-  {
-   "relate": "前传",
-   "src": 175359,
-   "dst": 230002
-  },
-  {
-   "relate": "前传",
-   "src": 230000,
-   "dst": 175359
-  },
-  {
-   "relate": "续集",
-   "src": 230001,
-   "dst": 230002
-  },
-  {
-   "relate": "续集",
-   "src": 230002,
-   "dst": 175359
-  },
-  {
-   "relate": "前传",
-   "src": 230002,
-   "dst": 230001
-  }
- ]
+  "id": "175359",
+  "node": [
+    {
+      "id": 175359,
+      "name": "The Boogie Man",
+      "nameCN": "摇摆男",
+      "date": "2016-02-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230000,
+      "name": "The Hanged Man",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230002,
+      "name": "THE SAND MAN",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230001,
+      "name": "The Crooked Man",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 175359,
+      "dst": 230000
+    },
+    {
+      "relateString": "前传",
+      "src": 175359,
+      "dst": 230002
+    },
+    {
+      "relateString": "前传",
+      "src": 230000,
+      "dst": 175359
+    },
+    {
+      "relateString": "续集",
+      "src": 230001,
+      "dst": 230002
+    },
+    {
+      "relateString": "续集",
+      "src": 230002,
+      "dst": 175359
+    },
+    {
+      "relateString": "前传",
+      "src": 230002,
+      "dst": 230001
+    }
+  ]
 }

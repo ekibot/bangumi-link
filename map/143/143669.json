@@ -1,37 +1,33 @@
 {
- "id": 143669,
- "node": [
-  {
-   "id": 143669,
-   "name": "鼹鼠同萌（上）",
-   "nameCN": "鼹鼠同萌（上）",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/84/143669_9wwcx.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 143670,
-   "name": "鼹鼠同萌（下）",
-   "nameCN": "鼹鼠同萌（下）",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/00/143670_ssqSO.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143669,
-   "dst": 143670
-  },
-  {
-   "relate": "前传",
-   "src": 143670,
-   "dst": 143669
-  }
- ]
+  "id": "143669",
+  "node": [
+    {
+      "id": 143669,
+      "name": "鼹鼠同萌（上）",
+      "nameCN": "鼹鼠同萌（上）",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143670,
+      "name": "鼹鼠同萌（下）",
+      "nameCN": "鼹鼠同萌（下）",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143669,
+      "dst": 143670
+    },
+    {
+      "relateString": "前传",
+      "src": 143670,
+      "dst": 143669
+    }
+  ]
 }

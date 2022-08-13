@@ -1,97 +1,89 @@
 {
- "id": 126828,
- "node": [
-  {
-   "id": 126828,
-   "name": "快乐星球",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/8d/126828_EI25V.jpg",
-   "date": "2004-09-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 211878,
-   "name": "快乐星球第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/b0/211878_08F2z.jpg",
-   "date": "2006-01-21",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 211879,
-   "name": "快乐星球第三部",
-   "nameCN": "快乐星球之逃出星球",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 211880,
-   "name": "快乐星球第五部",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 211881,
-   "name": "快乐星球第四部",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126828,
-   "dst": 211878
-  },
-  {
-   "relate": "前传",
-   "src": 211878,
-   "dst": 126828
-  },
-  {
-   "relate": "续集",
-   "src": 211878,
-   "dst": 211879
-  },
-  {
-   "relate": "前传",
-   "src": 211879,
-   "dst": 211878
-  },
-  {
-   "relate": "续集",
-   "src": 211879,
-   "dst": 211881
-  },
-  {
-   "relate": "前传",
-   "src": 211880,
-   "dst": 211881
-  },
-  {
-   "relate": "前传",
-   "src": 211881,
-   "dst": 211879
-  },
-  {
-   "relate": "续集",
-   "src": 211881,
-   "dst": 211880
-  }
- ]
+  "id": "126828",
+  "node": [
+    {
+      "id": 126828,
+      "name": "快乐星球",
+      "nameCN": "",
+      "date": "2004-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 211878,
+      "name": "快乐星球第二部",
+      "nameCN": "",
+      "date": "2006-01-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 211879,
+      "name": "快乐星球第三部",
+      "nameCN": "快乐星球之逃出星球",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 211881,
+      "name": "快乐星球第四部",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 211880,
+      "name": "快乐星球第五部",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126828,
+      "dst": 211878
+    },
+    {
+      "relateString": "前传",
+      "src": 211878,
+      "dst": 126828
+    },
+    {
+      "relateString": "续集",
+      "src": 211878,
+      "dst": 211879
+    },
+    {
+      "relateString": "前传",
+      "src": 211879,
+      "dst": 211878
+    },
+    {
+      "relateString": "续集",
+      "src": 211879,
+      "dst": 211881
+    },
+    {
+      "relateString": "前传",
+      "src": 211880,
+      "dst": 211881
+    },
+    {
+      "relateString": "前传",
+      "src": 211881,
+      "dst": 211879
+    },
+    {
+      "relateString": "续集",
+      "src": 211881,
+      "dst": 211880
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 139757,
- "node": [
-  {
-   "id": 139757,
-   "name": "Deutschland 83",
-   "nameCN": "德国八三年",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/de/139757_z6Sc3.jpg",
-   "date": "2015-06-17",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 267352,
-   "name": "Deutschland 86",
-   "nameCN": "德国八六年",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/4f/267352_gLcx8.jpg",
-   "date": "2018-10-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 139757,
-   "dst": 267352
-  },
-  {
-   "relate": "前传",
-   "src": 267352,
-   "dst": 139757
-  }
- ]
+  "id": "139757",
+  "node": [
+    {
+      "id": 139757,
+      "name": "Deutschland 83",
+      "nameCN": "德国八三年",
+      "date": "2015-06-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 267352,
+      "name": "Deutschland 86",
+      "nameCN": "德国八六年",
+      "date": "2018-10-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139757,
+      "dst": 267352
+    },
+    {
+      "relateString": "前传",
+      "src": 267352,
+      "dst": 139757
+    }
+  ]
 }

@@ -1,121 +1,116 @@
 {
- "id": 340,
- "node": [
-  {
-   "id": 340,
-   "name": "蟲師",
-   "nameCN": "虫师",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/00/340_J14Mj.jpg",
-   "date": "2005-10-22",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 20260,
-   "name": "蟲師 ~天降る里~",
-   "nameCN": "虫师 天降之村",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/35/20260_7kfqQ.jpg",
-   "date": "2008-01-31",
-   "nsfw": false,
-   "platform": "NDS"
-  },
-  {
-   "id": 88473,
-   "name": "蟲師 特別篇 日蝕む翳",
-   "nameCN": "虫师 特別篇 蚀日之翳",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/f1/88473_e7hEE.jpg",
-   "date": "2014-01-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 92705,
-   "name": "蟲師 続章",
-   "nameCN": "虫师 续章",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/33/92705_P0yq4.jpg",
-   "date": "2014-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 106207,
-   "name": "蟲師 続章 第2クール",
-   "nameCN": "虫师 续章 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/c7/106207_z8288.jpg",
-   "date": "2014-10-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 120700,
-   "name": "蟲師 特別編「鈴の雫」",
-   "nameCN": "虫师 特别篇 铃之雫",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/55/120700_899iQ.jpg",
-   "date": "2015-05-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 340,
-   "dst": 88473
-  },
-  {
-   "relate": "续集",
-   "src": 340,
-   "dst": 92705
-  },
-  {
-   "relate": "不同演绎",
-   "src": 20260,
-   "dst": 340
-  },
-  {
-   "relate": "主线故事",
-   "src": 88473,
-   "dst": 340
-  },
-  {
-   "relate": "主线故事",
-   "src": 88473,
-   "dst": 92705
-  },
-  {
-   "relate": "前传",
-   "src": 92705,
-   "dst": 340
-  },
-  {
-   "relate": "番外篇",
-   "src": 92705,
-   "dst": 88473
-  },
-  {
-   "relate": "续集",
-   "src": 92705,
-   "dst": 106207
-  },
-  {
-   "relate": "前传",
-   "src": 106207,
-   "dst": 92705
-  },
-  {
-   "relate": "续集",
-   "src": 106207,
-   "dst": 120700
-  },
-  {
-   "relate": "前传",
-   "src": 120700,
-   "dst": 106207
-  }
- ]
+  "id": "340",
+  "node": [
+    {
+      "id": 340,
+      "name": "蟲師",
+      "nameCN": "虫师",
+      "date": "2005-10-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 88473,
+      "name": "蟲師 特別篇 日蝕む翳",
+      "nameCN": "虫师 特別篇 蚀日之翳",
+      "date": "2014-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 92705,
+      "name": "蟲師 続章",
+      "nameCN": "虫师 续章",
+      "date": "2014-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 20260,
+      "name": "蟲師 ~天降る里~",
+      "nameCN": "虫师 天降之村",
+      "date": "2008-01-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 106207,
+      "name": "蟲師 続章 第2クール",
+      "nameCN": "虫师 续章 第2期",
+      "date": "2014-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 120700,
+      "name": "蟲師 特別編「鈴の雫」",
+      "nameCN": "虫师 特别篇 铃之雫",
+      "date": "2015-05-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 340,
+      "dst": 88473
+    },
+    {
+      "relateString": "续集",
+      "src": 340,
+      "dst": 92705
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 20260,
+      "dst": 340
+    },
+    {
+      "relateString": "主线故事",
+      "src": 88473,
+      "dst": 340
+    },
+    {
+      "relateString": "主线故事",
+      "src": 88473,
+      "dst": 92705
+    },
+    {
+      "relateString": "前传",
+      "src": 92705,
+      "dst": 340
+    },
+    {
+      "relateString": "番外篇",
+      "src": 92705,
+      "dst": 88473
+    },
+    {
+      "relateString": "续集",
+      "src": 92705,
+      "dst": 106207
+    },
+    {
+      "relateString": "前传",
+      "src": 106207,
+      "dst": 92705
+    },
+    {
+      "relateString": "续集",
+      "src": 106207,
+      "dst": 120700
+    },
+    {
+      "relateString": "前传",
+      "src": 120700,
+      "dst": 106207
+    }
+  ]
 }

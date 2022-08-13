@@ -1,37 +1,35 @@
 {
- "id": 185089,
- "node": [
-  {
-   "id": 185089,
-   "name": "Batman: The Telltale Series",
-   "nameCN": "蝙蝠侠：秘密系谱",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/d7/185089_HMdwp.jpg",
-   "date": "2016-08-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 220224,
-   "name": "Batman: The Enemy Within - The Telltale Series",
-   "nameCN": "蝙蝠侠：内敌",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/ff/220224_Z588O.jpg",
-   "date": "2017-08-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185089,
-   "dst": 220224
-  },
-  {
-   "relate": "前传",
-   "src": 220224,
-   "dst": 185089
-  }
- ]
+  "id": "185089",
+  "node": [
+    {
+      "id": 185089,
+      "name": "Batman: The Telltale Series",
+      "nameCN": "蝙蝠侠：秘密系谱",
+      "date": "2016-08-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220224,
+      "name": "Batman: The Enemy Within - The Telltale Series",
+      "nameCN": "蝙蝠侠：内敌",
+      "date": "2017-08-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185089,
+      "dst": 220224
+    },
+    {
+      "relateString": "前传",
+      "src": 220224,
+      "dst": 185089
+    }
+  ]
 }

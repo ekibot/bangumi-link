@@ -1,97 +1,92 @@
 {
- "id": 144981,
- "node": [
-  {
-   "id": 144981,
-   "name": "Wing Commander III: Heart of the Tiger",
-   "nameCN": "银河飞将3：虎之心",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/1e/144981_gkgZZ.jpg",
-   "date": "1994-03-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 144982,
-   "name": "Wing Commander IV: The Price of Freedom",
-   "nameCN": "银河飞将4：自由的代价",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/6c/144982_OT1B4.jpg",
-   "date": "1996-02-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 339552,
-   "name": "Wing Commander",
-   "nameCN": "银河飞将1",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/ed/339552_iAZrI.jpg",
-   "date": "1990-09-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 339555,
-   "name": "Wing Commander II: Vengeance of the Kilrathi",
-   "nameCN": "银河飞将2：基拉西的复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/7f/339555_n1cs0.jpg",
-   "date": "1991-09-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 339672,
-   "name": "Wing Commander 5: Prophecy",
-   "nameCN": "银河飞将5: 预言",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/fa/339672_68nQo.jpg",
-   "date": "1997-11-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144981,
-   "dst": 144982
-  },
-  {
-   "relate": "前传",
-   "src": 144981,
-   "dst": 339555
-  },
-  {
-   "relate": "前传",
-   "src": 144982,
-   "dst": 144981
-  },
-  {
-   "relate": "续集",
-   "src": 144982,
-   "dst": 339672
-  },
-  {
-   "relate": "续集",
-   "src": 339552,
-   "dst": 339555
-  },
-  {
-   "relate": "续集",
-   "src": 339555,
-   "dst": 144981
-  },
-  {
-   "relate": "前传",
-   "src": 339555,
-   "dst": 339552
-  },
-  {
-   "relate": "前传",
-   "src": 339672,
-   "dst": 144982
-  }
- ]
+  "id": "144981",
+  "node": [
+    {
+      "id": 144981,
+      "name": "Wing Commander III: Heart of the Tiger",
+      "nameCN": "银河飞将3：虎之心",
+      "date": "1994-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144982,
+      "name": "Wing Commander IV: The Price of Freedom",
+      "nameCN": "银河飞将4：自由的代价",
+      "date": "1996-02-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339555,
+      "name": "Wing Commander II: Vengeance of the Kilrathi",
+      "nameCN": "银河飞将2：基拉西的复仇",
+      "date": "1991-09-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339672,
+      "name": "Wing Commander 5: Prophecy",
+      "nameCN": "银河飞将5: 预言",
+      "date": "1997-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339552,
+      "name": "Wing Commander",
+      "nameCN": "银河飞将1",
+      "date": "1990-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144981,
+      "dst": 144982
+    },
+    {
+      "relateString": "前传",
+      "src": 144981,
+      "dst": 339555
+    },
+    {
+      "relateString": "前传",
+      "src": 144982,
+      "dst": 144981
+    },
+    {
+      "relateString": "续集",
+      "src": 144982,
+      "dst": 339672
+    },
+    {
+      "relateString": "续集",
+      "src": 339552,
+      "dst": 339555
+    },
+    {
+      "relateString": "续集",
+      "src": 339555,
+      "dst": 144981
+    },
+    {
+      "relateString": "前传",
+      "src": 339555,
+      "dst": 339552
+    },
+    {
+      "relateString": "前传",
+      "src": 339672,
+      "dst": 144982
+    }
+  ]
 }

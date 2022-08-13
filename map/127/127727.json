@@ -1,57 +1,54 @@
 {
- "id": 127727,
- "node": [
-  {
-   "id": 127727,
-   "name": "フェア・ゲーム",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/9a/127727_jp.jpg",
-   "date": "2013-02-09",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 327347,
-   "name": "フェア・プレイ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/3c/327347_tZZRU.jpg",
-   "date": "2016-12-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 327348,
-   "name": "フェア・チャンス",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/18/327348_XkEte.jpg",
-   "date": "2020-01-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127727,
-   "dst": 327347
-  },
-  {
-   "relate": "前传",
-   "src": 327347,
-   "dst": 127727
-  },
-  {
-   "relate": "续集",
-   "src": 327347,
-   "dst": 327348
-  },
-  {
-   "relate": "前传",
-   "src": 327348,
-   "dst": 327347
-  }
- ]
+  "id": "127727",
+  "node": [
+    {
+      "id": 127727,
+      "name": "フェア・ゲーム",
+      "nameCN": "",
+      "date": "2013-02-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 327347,
+      "name": "フェア・プレイ",
+      "nameCN": "",
+      "date": "2016-12-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 327348,
+      "name": "フェア・チャンス",
+      "nameCN": "",
+      "date": "2020-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127727,
+      "dst": 327347
+    },
+    {
+      "relateString": "前传",
+      "src": 327347,
+      "dst": 127727
+    },
+    {
+      "relateString": "续集",
+      "src": 327347,
+      "dst": 327348
+    },
+    {
+      "relateString": "前传",
+      "src": 327348,
+      "dst": 327347
+    }
+  ]
 }

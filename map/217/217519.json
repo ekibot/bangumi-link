@@ -1,34 +1,35 @@
 {
- "id": 217519,
- "node": [
-  {
-   "id": 217519,
-   "name": "今宵も召しませAlicetale",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/c2/217519_D89TL.jpg",
-   "date": "2003-09-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 217520,
-   "name": "今宵も召しませAlicetale　おかわり",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/9a/217520_gwzg3.jpg",
-   "date": "2004-12-10",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217519,
-   "dst": 217520
-  },
-  {
-   "relate": "前传",
-   "src": 217520,
-   "dst": 217519
-  }
- ]
+  "id": "217519",
+  "node": [
+    {
+      "id": 217519,
+      "name": "今宵も召しませAlicetale",
+      "nameCN": "",
+      "date": "2003-09-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217520,
+      "name": "今宵も召しませAlicetale　おかわり",
+      "nameCN": "",
+      "date": "2004-12-10",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217519,
+      "dst": 217520
+    },
+    {
+      "relateString": "前传",
+      "src": 217520,
+      "dst": 217519
+    }
+  ]
 }

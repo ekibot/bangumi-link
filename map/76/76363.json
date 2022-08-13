@@ -1,37 +1,35 @@
 {
- "id": 76363,
- "node": [
-  {
-   "id": 76363,
-   "name": "やっぱりダメな大人ですが",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/6c/76363_jp.jpg",
-   "date": "2013-06-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 76365,
-   "name": "ダメな大人ですが",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/55/76365_jp.jpg",
-   "date": "2012-09-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 76363,
-   "dst": 76365
-  },
-  {
-   "relate": "续集",
-   "src": 76365,
-   "dst": 76363
-  }
- ]
+  "id": "76363",
+  "node": [
+    {
+      "id": 76363,
+      "name": "やっぱりダメな大人ですが",
+      "nameCN": "",
+      "date": "2013-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 76365,
+      "name": "ダメな大人ですが",
+      "nameCN": "",
+      "date": "2012-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 76363,
+      "dst": 76365
+    },
+    {
+      "relateString": "续集",
+      "src": 76365,
+      "dst": 76363
+    }
+  ]
 }

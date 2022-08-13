@@ -1,37 +1,35 @@
 {
- "id": 10608,
- "node": [
-  {
-   "id": 10608,
-   "name": "純愛えろ期",
-   "nameCN": "纯爱发情期",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/90/10608_jp.jpg",
-   "date": "2010-10-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 113884,
-   "name": "相愛えろ期",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/8e/113884_0A9jV.jpg",
-   "date": "2014-09-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10608,
-   "dst": 113884
-  },
-  {
-   "relate": "前传",
-   "src": 113884,
-   "dst": 10608
-  }
- ]
+  "id": "10608",
+  "node": [
+    {
+      "id": 10608,
+      "name": "純愛えろ期",
+      "nameCN": "纯爱发情期",
+      "date": "2010-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 113884,
+      "name": "相愛えろ期",
+      "nameCN": "",
+      "date": "2014-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10608,
+      "dst": 113884
+    },
+    {
+      "relateString": "前传",
+      "src": 113884,
+      "dst": 10608
+    }
+  ]
 }

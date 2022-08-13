@@ -1,37 +1,34 @@
 {
- "id": 72581,
- "node": [
-  {
-   "id": 72581,
-   "name": "ソウルリヴァイヴァー",
-   "nameCN": "灵魂夺还者",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/72/72581_AnVg8.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 142443,
-   "name": "ソウルリヴァイヴァー SOUTH",
-   "nameCN": "灵魂夺还者 SOUTH",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/00/142443_2O5H7.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72581,
-   "dst": 142443
-  },
-  {
-   "relate": "前传",
-   "src": 142443,
-   "dst": 72581
-  }
- ]
+  "id": "72581",
+  "node": [
+    {
+      "id": 72581,
+      "name": "ソウルリヴァイヴァー",
+      "nameCN": "灵魂夺还者",
+      "date": "2011-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 142443,
+      "name": "ソウルリヴァイヴァー SOUTH",
+      "nameCN": "灵魂夺还者 SOUTH",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72581,
+      "dst": 142443
+    },
+    {
+      "relateString": "前传",
+      "src": 142443,
+      "dst": 72581
+    }
+  ]
 }

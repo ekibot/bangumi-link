@@ -1,37 +1,35 @@
 {
- "id": 189605,
- "node": [
-  {
-   "id": 189605,
-   "name": "ヴァージンコントロール",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/9f/189605_jp.jpg",
-   "date": "2012-01-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 189606,
-   "name": "ヴァージンコントロール2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/3c/189606_jp.jpg",
-   "date": "2012-02-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189605,
-   "dst": 189606
-  },
-  {
-   "relate": "前传",
-   "src": 189606,
-   "dst": 189605
-  }
- ]
+  "id": "189605",
+  "node": [
+    {
+      "id": 189605,
+      "name": "ヴァージンコントロール",
+      "nameCN": "",
+      "date": "2012-01-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 189606,
+      "name": "ヴァージンコントロール2",
+      "nameCN": "",
+      "date": "2012-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189605,
+      "dst": 189606
+    },
+    {
+      "relateString": "前传",
+      "src": 189606,
+      "dst": 189605
+    }
+  ]
 }

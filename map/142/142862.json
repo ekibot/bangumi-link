@@ -1,37 +1,34 @@
 {
- "id": 142862,
- "node": [
-  {
-   "id": 142862,
-   "name": "The Young Pope",
-   "nameCN": "年轻的教宗",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/c8/142862_fUEPk.jpg",
-   "date": "2016-10-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 231124,
-   "name": "The New Pope",
-   "nameCN": "新教宗",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142862,
-   "dst": 231124
-  },
-  {
-   "relate": "前传",
-   "src": 231124,
-   "dst": 142862
-  }
- ]
+  "id": "142862",
+  "node": [
+    {
+      "id": 142862,
+      "name": "The Young Pope",
+      "nameCN": "年轻的教宗",
+      "date": "2016-10-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 231124,
+      "name": "The New Pope",
+      "nameCN": "新教宗",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142862,
+      "dst": 231124
+    },
+    {
+      "relateString": "前传",
+      "src": 231124,
+      "dst": 142862
+    }
+  ]
 }

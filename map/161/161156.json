@@ -1,37 +1,33 @@
 {
- "id": 161156,
- "node": [
-  {
-   "id": 161156,
-   "name": "恋はいつもアマンドピンク 番外編",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/c6/161156_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 161157,
-   "name": "恋はいつもアマンドピンク 新装版",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 161156,
-   "dst": 161157
-  },
-  {
-   "relate": "番外篇",
-   "src": 161157,
-   "dst": 161156
-  }
- ]
+  "id": "161156",
+  "node": [
+    {
+      "id": 161156,
+      "name": "恋はいつもアマンドピンク 番外編",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 161157,
+      "name": "恋はいつもアマンドピンク 新装版",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 161156,
+      "dst": 161157
+    },
+    {
+      "relateString": "番外篇",
+      "src": 161157,
+      "dst": 161156
+    }
+  ]
 }

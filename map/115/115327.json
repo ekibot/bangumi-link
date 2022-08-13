@@ -1,37 +1,34 @@
 {
- "id": 115327,
- "node": [
-  {
-   "id": 115327,
-   "name": "ポケモンスナップ",
-   "nameCN": "口袋妖怪快照",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/3c/115327_lVEor.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308881,
-   "name": "New ポケモンスナップ",
-   "nameCN": "New 宝可梦随乐拍",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/a8/308881_cBO4v.jpg",
-   "date": "2021-04-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 115327,
-   "dst": 308881
-  },
-  {
-   "relate": "前传",
-   "src": 308881,
-   "dst": 115327
-  }
- ]
+  "id": "115327",
+  "node": [
+    {
+      "id": 115327,
+      "name": "ポケモンスナップ",
+      "nameCN": "口袋妖怪快照",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308881,
+      "name": "New ポケモンスナップ",
+      "nameCN": "New 宝可梦随乐拍",
+      "date": "2021-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 115327,
+      "dst": 308881
+    },
+    {
+      "relateString": "前传",
+      "src": 308881,
+      "dst": 115327
+    }
+  ]
 }

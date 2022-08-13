@@ -1,77 +1,72 @@
 {
- "id": 11742,
- "node": [
-  {
-   "id": 11742,
-   "name": "東京トイボックス",
-   "nameCN": "东京玩具箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/df/11742_aa2us.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 11753,
-   "name": "大東京トイボックス",
-   "nameCN": "大东京玩具箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/7a/11753_Nn6I2.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 84227,
-   "name": "大東京トイボックスSP",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/69/84227_jp.jpg",
-   "date": "2013-09-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 100672,
-   "name": "東京トイボックス0",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/11/100672_jp.jpg",
-   "date": "2014-03-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11742,
-   "dst": 11753
-  },
-  {
-   "relate": "前传",
-   "src": 11742,
-   "dst": 100672
-  },
-  {
-   "relate": "前传",
-   "src": 11753,
-   "dst": 11742
-  },
-  {
-   "relate": "番外篇",
-   "src": 11753,
-   "dst": 84227
-  },
-  {
-   "relate": "主线故事",
-   "src": 84227,
-   "dst": 11753
-  },
-  {
-   "relate": "续集",
-   "src": 100672,
-   "dst": 11742
-  }
- ]
+  "id": "11742",
+  "node": [
+    {
+      "id": 11742,
+      "name": "東京トイボックス",
+      "nameCN": "东京玩具箱",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 11753,
+      "name": "大東京トイボックス",
+      "nameCN": "大东京玩具箱",
+      "date": "2006-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 100672,
+      "name": "東京トイボックス0",
+      "nameCN": "",
+      "date": "2014-03-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 84227,
+      "name": "大東京トイボックスSP",
+      "nameCN": "",
+      "date": "2013-09-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11742,
+      "dst": 11753
+    },
+    {
+      "relateString": "前传",
+      "src": 11742,
+      "dst": 100672
+    },
+    {
+      "relateString": "前传",
+      "src": 11753,
+      "dst": 11742
+    },
+    {
+      "relateString": "番外篇",
+      "src": 11753,
+      "dst": 84227
+    },
+    {
+      "relateString": "主线故事",
+      "src": 84227,
+      "dst": 11753
+    },
+    {
+      "relateString": "续集",
+      "src": 100672,
+      "dst": 11742
+    }
+  ]
 }

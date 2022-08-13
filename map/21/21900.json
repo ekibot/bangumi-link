@@ -1,57 +1,54 @@
 {
- "id": 21900,
- "node": [
-  {
-   "id": 21900,
-   "name": "輪廻のラグランジェ",
-   "nameCN": "轮回的拉格朗日",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/98/21900_UIIW0.jpg",
-   "date": "2012-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 37562,
-   "name": "輪廻のラグランジェ season2",
-   "nameCN": "轮回的拉格朗日 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/a1/37562_949PC.jpg",
-   "date": "2012-07-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 41428,
-   "name": "輪廻のラグランジェ 鴨川デイズ",
-   "nameCN": "轮回的拉格朗日 鸭川日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/b1/41428_abAva.jpg",
-   "date": "2012-08-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21900,
-   "dst": 37562
-  },
-  {
-   "relate": "番外篇",
-   "src": 21900,
-   "dst": 41428
-  },
-  {
-   "relate": "前传",
-   "src": 37562,
-   "dst": 21900
-  },
-  {
-   "relate": "主线故事",
-   "src": 41428,
-   "dst": 21900
-  }
- ]
+  "id": "21900",
+  "node": [
+    {
+      "id": 21900,
+      "name": "輪廻のラグランジェ",
+      "nameCN": "轮回的拉格朗日",
+      "date": "2012-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37562,
+      "name": "輪廻のラグランジェ season2",
+      "nameCN": "轮回的拉格朗日 第二季",
+      "date": "2012-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 41428,
+      "name": "輪廻のラグランジェ 鴨川デイズ",
+      "nameCN": "轮回的拉格朗日 鸭川日常",
+      "date": "2012-08-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21900,
+      "dst": 37562
+    },
+    {
+      "relateString": "番外篇",
+      "src": 21900,
+      "dst": 41428
+    },
+    {
+      "relateString": "前传",
+      "src": 37562,
+      "dst": 21900
+    },
+    {
+      "relateString": "主线故事",
+      "src": 41428,
+      "dst": 21900
+    }
+  ]
 }

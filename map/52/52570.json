@@ -1,37 +1,34 @@
 {
- "id": 52570,
- "node": [
-  {
-   "id": 52570,
-   "name": "成恵の世界",
-   "nameCN": "成惠的世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/a6/52570_W7wW2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 273938,
-   "name": "魔砲少女四号ちゃん",
-   "nameCN": "魔炮少女四号",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/d2/273938_Eff08.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 52570,
-   "dst": 273938
-  },
-  {
-   "relate": "不同世界观",
-   "src": 273938,
-   "dst": 52570
-  }
- ]
+  "id": "52570",
+  "node": [
+    {
+      "id": 52570,
+      "name": "成恵の世界",
+      "nameCN": "成惠的世界",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 273938,
+      "name": "魔砲少女四号ちゃん",
+      "nameCN": "魔炮少女四号",
+      "date": "2014-04-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 52570,
+      "dst": 273938
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 273938,
+      "dst": 52570
+    }
+  ]
 }

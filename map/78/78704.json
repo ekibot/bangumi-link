@@ -1,37 +1,35 @@
 {
- "id": 78704,
- "node": [
-  {
-   "id": 78704,
-   "name": "大正鬼譚",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/c2/78704_o2892.jpg",
-   "date": "2013-12-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 105065,
-   "name": "大正鬼譚 ～言ノ葉櫻～",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/aa/105065_gU9zQ.jpg",
-   "date": "2014-10-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78704,
-   "dst": 105065
-  },
-  {
-   "relate": "前传",
-   "src": 105065,
-   "dst": 78704
-  }
- ]
+  "id": "78704",
+  "node": [
+    {
+      "id": 78704,
+      "name": "大正鬼譚",
+      "nameCN": "",
+      "date": "2013-12-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 105065,
+      "name": "大正鬼譚 ～言ノ葉櫻～",
+      "nameCN": "",
+      "date": "2014-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78704,
+      "dst": 105065
+    },
+    {
+      "relateString": "前传",
+      "src": 105065,
+      "dst": 78704
+    }
+  ]
 }

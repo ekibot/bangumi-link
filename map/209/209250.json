@@ -1,37 +1,34 @@
 {
- "id": 209250,
- "node": [
-  {
-   "id": 209250,
-   "name": "Hollow Knight",
-   "nameCN": "空洞骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/b4/209250_S4o33.jpg",
-   "date": "2017-02-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 274582,
-   "name": "Hollow Knight: Silksong",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/4c/274582_b5HO6.jpg",
-   "date": null,
-   "nameCN": "空洞骑士：丝之歌",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 209250,
-   "dst": 274582
-  },
-  {
-   "relate": "前传",
-   "src": 274582,
-   "dst": 209250
-  }
- ]
+  "id": "209250",
+  "node": [
+    {
+      "id": 209250,
+      "name": "Hollow Knight",
+      "nameCN": "空洞骑士",
+      "date": "2017-02-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 274582,
+      "name": "Hollow Knight: Silksong",
+      "nameCN": "空洞骑士：丝之歌",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 209250,
+      "dst": 274582
+    },
+    {
+      "relateString": "前传",
+      "src": 274582,
+      "dst": 209250
+    }
+  ]
 }

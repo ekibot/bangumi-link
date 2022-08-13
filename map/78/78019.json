@@ -1,37 +1,33 @@
 {
- "id": 78019,
- "node": [
-  {
-   "id": 78019,
-   "name": "Oh!透明人間",
-   "nameCN": "Oh!透明人间",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/7d/78019_urnC7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 78022,
-   "name": "Oh!透明人間21",
-   "nameCN": "Oh!透明人间21",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/5e/78022_0oN2o.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78019,
-   "dst": 78022
-  },
-  {
-   "relate": "前传",
-   "src": 78022,
-   "dst": 78019
-  }
- ]
+  "id": "78019",
+  "node": [
+    {
+      "id": 78019,
+      "name": "Oh!透明人間",
+      "nameCN": "Oh!透明人间",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 78022,
+      "name": "Oh!透明人間21",
+      "nameCN": "Oh!透明人间21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78019,
+      "dst": 78022
+    },
+    {
+      "relateString": "前传",
+      "src": 78022,
+      "dst": 78019
+    }
+  ]
 }

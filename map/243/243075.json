@@ -1,37 +1,34 @@
 {
- "id": 243075,
- "node": [
-  {
-   "id": 243075,
-   "name": "サウダージ",
-   "nameCN": "异域迷情",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/4c/243075_9M9tE.jpg",
-   "date": "2006-08-30",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 277417,
-   "name": "アマンテ",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/09/277417_luPP9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 243075,
-   "dst": 277417
-  },
-  {
-   "relate": "相同世界观",
-   "src": 277417,
-   "dst": 243075
-  }
- ]
+  "id": "243075",
+  "node": [
+    {
+      "id": 243075,
+      "name": "サウダージ",
+      "nameCN": "异域迷情",
+      "date": "2006-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 277417,
+      "name": "アマンテ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 243075,
+      "dst": 277417
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 277417,
+      "dst": 243075
+    }
+  ]
 }

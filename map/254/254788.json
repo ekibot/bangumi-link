@@ -1,37 +1,35 @@
 {
- "id": 254788,
- "node": [
-  {
-   "id": 254788,
-   "name": "この音とまれ！",
-   "nameCN": "一弦定音！",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/7f/254788_5501o.jpg",
-   "date": "2019-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 270060,
-   "name": "この音とまれ！第2クール",
-   "nameCN": "一弦定音！第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/bf/270060_kZvVN.jpg",
-   "date": "2019-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 254788,
-   "dst": 270060
-  },
-  {
-   "relate": "前传",
-   "src": 270060,
-   "dst": 254788
-  }
- ]
+  "id": "254788",
+  "node": [
+    {
+      "id": 254788,
+      "name": "この音とまれ！",
+      "nameCN": "一弦定音！",
+      "date": "2019-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 270060,
+      "name": "この音とまれ！第2クール",
+      "nameCN": "一弦定音！第二季",
+      "date": "2019-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 254788,
+      "dst": 270060
+    },
+    {
+      "relateString": "前传",
+      "src": 270060,
+      "dst": 254788
+    }
+  ]
 }

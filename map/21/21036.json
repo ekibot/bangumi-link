@@ -1,37 +1,35 @@
 {
- "id": 21036,
- "node": [
-  {
-   "id": 21036,
-   "name": "恋する天使アンジェリーク 〜心のめざめる時〜",
-   "nameCN": "恋爱天使 安琪莉可～心觉醒之时～",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/56/21036_4CrHH.jpg",
-   "date": "2006-07-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 21037,
-   "name": "恋する天使アンジェリーク 〜かがやきの明日〜",
-   "nameCN": "恋爱天使 安琪莉可 闪耀的明日",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/6e/21037_9NJJc.jpg",
-   "date": "2007-01-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21036,
-   "dst": 21037
-  },
-  {
-   "relate": "前传",
-   "src": 21037,
-   "dst": 21036
-  }
- ]
+  "id": "21036",
+  "node": [
+    {
+      "id": 21036,
+      "name": "恋する天使アンジェリーク 〜心のめざめる時〜",
+      "nameCN": "恋爱天使 安琪莉可～心觉醒之时～",
+      "date": "2006-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 21037,
+      "name": "恋する天使アンジェリーク 〜かがやきの明日〜",
+      "nameCN": "恋爱天使 安琪莉可 闪耀的明日",
+      "date": "2007-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21036,
+      "dst": 21037
+    },
+    {
+      "relateString": "前传",
+      "src": 21037,
+      "dst": 21036
+    }
+  ]
 }

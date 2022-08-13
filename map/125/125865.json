@@ -1,37 +1,35 @@
 {
- "id": 125865,
- "node": [
-  {
-   "id": 125865,
-   "name": "YOUNG BAD EDUCATION",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/eb/125865_jp.jpg",
-   "date": "2014-10-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 224557,
-   "name": "YOUNG GOOD BOYFRIEND",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/11/224557_cW7eU.jpg",
-   "date": "2017-06-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125865,
-   "dst": 224557
-  },
-  {
-   "relate": "前传",
-   "src": 224557,
-   "dst": 125865
-  }
- ]
+  "id": "125865",
+  "node": [
+    {
+      "id": 125865,
+      "name": "YOUNG BAD EDUCATION",
+      "nameCN": "",
+      "date": "2014-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 224557,
+      "name": "YOUNG GOOD BOYFRIEND",
+      "nameCN": "",
+      "date": "2017-06-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125865,
+      "dst": 224557
+    },
+    {
+      "relateString": "前传",
+      "src": 224557,
+      "dst": 125865
+    }
+  ]
 }

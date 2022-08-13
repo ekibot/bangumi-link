@@ -1,37 +1,35 @@
 {
- "id": 84857,
- "node": [
-  {
-   "id": 84857,
-   "name": "ヒーローバンク",
-   "nameCN": "英雄银行",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/da/84857_ZVK9i.jpg",
-   "date": "2014-03-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 111505,
-   "name": "ヒーローバンク２",
-   "nameCN": "英雄银行2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/3b/111505_z9pKN.jpg",
-   "date": "2014-11-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84857,
-   "dst": 111505
-  },
-  {
-   "relate": "前传",
-   "src": 111505,
-   "dst": 84857
-  }
- ]
+  "id": "84857",
+  "node": [
+    {
+      "id": 84857,
+      "name": "ヒーローバンク",
+      "nameCN": "英雄银行",
+      "date": "2014-03-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111505,
+      "name": "ヒーローバンク２",
+      "nameCN": "英雄银行2",
+      "date": "2014-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84857,
+      "dst": 111505
+    },
+    {
+      "relateString": "前传",
+      "src": 111505,
+      "dst": 84857
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 75706,
- "node": [
-  {
-   "id": 75706,
-   "name": "Devious Maids (Season 1)",
-   "nameCN": "蛇蝎女佣 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/7d/75706_436y5.jpg",
-   "date": "2013-06-23",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 97610,
-   "name": "Devious Maids (Season 2)",
-   "nameCN": "蛇蝎女佣 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/8f/97610_3da43.jpg",
-   "date": "2014-04-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 136079,
-   "name": "Devious Maids (Season 3)",
-   "nameCN": "蛇蝎女佣 （第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/e5/136079_OuzgU.jpg",
-   "date": "2015-06-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 184298,
-   "name": "Devious Maids Season 4",
-   "nameCN": "蛇蝎女佣 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/60/184298_B4EEU.jpg",
-   "date": "2016-06-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75706,
-   "dst": 97610
-  },
-  {
-   "relate": "前传",
-   "src": 97610,
-   "dst": 75706
-  },
-  {
-   "relate": "续集",
-   "src": 97610,
-   "dst": 136079
-  },
-  {
-   "relate": "前传",
-   "src": 136079,
-   "dst": 97610
-  },
-  {
-   "relate": "续集",
-   "src": 136079,
-   "dst": 184298
-  },
-  {
-   "relate": "前传",
-   "src": 184298,
-   "dst": 136079
-  }
- ]
+  "id": "75706",
+  "node": [
+    {
+      "id": 75706,
+      "name": "Devious Maids (Season 1)",
+      "nameCN": "蛇蝎女佣 （第一季）",
+      "date": "2013-06-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97610,
+      "name": "Devious Maids (Season 2)",
+      "nameCN": "蛇蝎女佣 （第二季）",
+      "date": "2014-04-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 136079,
+      "name": "Devious Maids (Season 3)",
+      "nameCN": "蛇蝎女佣 （第三季）",
+      "date": "2015-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 184298,
+      "name": "Devious Maids Season 4",
+      "nameCN": "蛇蝎女佣 第四季",
+      "date": "2016-06-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75706,
+      "dst": 97610
+    },
+    {
+      "relateString": "前传",
+      "src": 97610,
+      "dst": 75706
+    },
+    {
+      "relateString": "续集",
+      "src": 97610,
+      "dst": 136079
+    },
+    {
+      "relateString": "前传",
+      "src": 136079,
+      "dst": 97610
+    },
+    {
+      "relateString": "续集",
+      "src": 136079,
+      "dst": 184298
+    },
+    {
+      "relateString": "前传",
+      "src": 184298,
+      "dst": 136079
+    }
+  ]
 }

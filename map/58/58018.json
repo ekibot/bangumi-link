@@ -1,37 +1,33 @@
 {
- "id": 58018,
- "node": [
-  {
-   "id": 58018,
-   "name": "ガンバード",
-   "nameCN": "武装飞鸟",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/36/58018_Qo41A.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 58019,
-   "name": "ガンバード2",
-   "nameCN": "武装飞鸟2",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/45/58019_j8b3v.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 58018,
-   "dst": 58019
-  },
-  {
-   "relate": "前传",
-   "src": 58019,
-   "dst": 58018
-  }
- ]
+  "id": "58018",
+  "node": [
+    {
+      "id": 58018,
+      "name": "ガンバード",
+      "nameCN": "武装飞鸟",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 58019,
+      "name": "ガンバード2",
+      "nameCN": "武装飞鸟2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 58018,
+      "dst": 58019
+    },
+    {
+      "relateString": "前传",
+      "src": 58019,
+      "dst": 58018
+    }
+  ]
 }

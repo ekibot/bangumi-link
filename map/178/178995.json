@@ -1,37 +1,35 @@
 {
- "id": 178995,
- "node": [
-  {
-   "id": 178995,
-   "name": "東京シャッターガール",
-   "nameCN": "相机女孩漫游东京",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/f7/178995_0Zd04.jpg",
-   "date": "2012-01-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 232526,
-   "name": "金沢シャッターガール",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/5f/232526_8xEUD.jpg",
-   "date": "2018-01-11",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 178995,
-   "dst": 232526
-  },
-  {
-   "relate": "相同世界观",
-   "src": 232526,
-   "dst": 178995
-  }
- ]
+  "id": "178995",
+  "node": [
+    {
+      "id": 178995,
+      "name": "東京シャッターガール",
+      "nameCN": "相机女孩漫游东京",
+      "date": "2012-01-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 232526,
+      "name": "金沢シャッターガール",
+      "nameCN": "",
+      "date": "2018-01-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 178995,
+      "dst": 232526
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 232526,
+      "dst": 178995
+    }
+  ]
 }

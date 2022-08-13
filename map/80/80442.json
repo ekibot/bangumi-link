@@ -1,57 +1,54 @@
 {
- "id": 80442,
- "node": [
-  {
-   "id": 80442,
-   "name": "てさぐれ！部活もの",
-   "nameCN": "摸索吧！部活剧",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/dc/80442_o1ku3.jpg",
-   "date": "2013-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 91987,
-   "name": "てさぐれ!部活もの あんこーる",
-   "nameCN": "摸索吧！部活剧 再来一个",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/cd/91987_gfq7P.jpg",
-   "date": "2014-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 112838,
-   "name": "てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう",
-   "nameCN": "摸索吧！部活剧 Spinoff 和噗噜噗噜夏露姆游玩吧",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/b3/112838_q00uu.jpg",
-   "date": "2015-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 80442,
-   "dst": 91987
-  },
-  {
-   "relate": "前传",
-   "src": 91987,
-   "dst": 80442
-  },
-  {
-   "relate": "续集",
-   "src": 91987,
-   "dst": 112838
-  },
-  {
-   "relate": "前传",
-   "src": 112838,
-   "dst": 91987
-  }
- ]
+  "id": "80442",
+  "node": [
+    {
+      "id": 80442,
+      "name": "てさぐれ！部活もの",
+      "nameCN": "摸索吧！部活剧",
+      "date": "2013-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 91987,
+      "name": "てさぐれ!部活もの あんこーる",
+      "nameCN": "摸索吧！部活剧 再来一个",
+      "date": "2014-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 112838,
+      "name": "てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう",
+      "nameCN": "摸索吧！部活剧 Spinoff 和噗噜噗噜夏露姆游玩吧",
+      "date": "2015-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 80442,
+      "dst": 91987
+    },
+    {
+      "relateString": "前传",
+      "src": 91987,
+      "dst": 80442
+    },
+    {
+      "relateString": "续集",
+      "src": 91987,
+      "dst": 112838
+    },
+    {
+      "relateString": "前传",
+      "src": 112838,
+      "dst": 91987
+    }
+  ]
 }

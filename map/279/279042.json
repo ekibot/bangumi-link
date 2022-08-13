@@ -1,37 +1,34 @@
 {
- "id": 279042,
- "node": [
-  {
-   "id": 279042,
-   "name": "FIFA Online 2",
-   "nameCN": "国际足联大赛在线2",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/e1/279042_Efw4G.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307406,
-   "name": "FIFA Online 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/19/307406_iy93x.jpg",
-   "date": "2012-12-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 279042,
-   "dst": 307406
-  },
-  {
-   "relate": "前传",
-   "src": 307406,
-   "dst": 279042
-  }
- ]
+  "id": "279042",
+  "node": [
+    {
+      "id": 279042,
+      "name": "FIFA Online 2",
+      "nameCN": "国际足联大赛在线2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307406,
+      "name": "FIFA Online 3",
+      "nameCN": "",
+      "date": "2012-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 279042,
+      "dst": 307406
+    },
+    {
+      "relateString": "前传",
+      "src": 307406,
+      "dst": 279042
+    }
+  ]
 }

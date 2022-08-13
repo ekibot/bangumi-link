@@ -1,71 +1,89 @@
 {
- "id": 67462,
- "node": [
-  {
-   "id": 67462,
-   "name": "BADBOYS",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/08/67462_11oAo.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 312546,
-   "name": "KIPPO",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/e1/312546_05Nmn.jpg",
-   "date": "2012-12-06",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 312563,
-   "name": "BADBOYS グレアー",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/ff/312563_8NF68.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 319806,
-   "name": "莫逆家族",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/11/319806_557dI.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 67462,
-   "dst": 312563
-  },
-  {
-   "relate": "前传",
-   "src": 312546,
-   "dst": 312563
-  },
-  {
-   "relate": "前传",
-   "src": 312563,
-   "dst": 67462
-  },
-  {
-   "relate": "续集",
-   "src": 312563,
-   "dst": 312546
-  },
-  {
-   "relate": "相同世界观",
-   "src": 319806,
-   "dst": 67462
-  }
- ]
+  "id": "67462",
+  "node": [
+    {
+      "id": 67462,
+      "name": "BADBOYS",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 88971,
+      "name": "女神の鬼",
+      "nameCN": "女神之鬼",
+      "date": "2005-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 312563,
+      "name": "BADBOYS グレアー",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 319806,
+      "name": "莫逆家族",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 312546,
+      "name": "KIPPO",
+      "nameCN": "",
+      "date": "2012-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 67462,
+      "dst": 88971
+    },
+    {
+      "relateString": "续集",
+      "src": 67462,
+      "dst": 312563
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 67462,
+      "dst": 319806
+    },
+    {
+      "relateString": "主线故事",
+      "src": 88971,
+      "dst": 67462
+    },
+    {
+      "relateString": "前传",
+      "src": 312546,
+      "dst": 312563
+    },
+    {
+      "relateString": "前传",
+      "src": 312563,
+      "dst": 67462
+    },
+    {
+      "relateString": "续集",
+      "src": 312563,
+      "dst": 312546
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 319806,
+      "dst": 67462
+    }
+  ]
 }

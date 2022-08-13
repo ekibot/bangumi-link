@@ -1,37 +1,33 @@
 {
- "id": 211982,
- "node": [
-  {
-   "id": 211982,
-   "name": "Ringmaster Clause",
-   "nameCN": "领班人克劳泽",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/9c/211982_jfDkk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 211983,
-   "name": "Queen Mary's Script",
-   "nameCN": "玛丽女王的脚本",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/54/211983_oUThv.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211982,
-   "dst": 211983
-  },
-  {
-   "relate": "前传",
-   "src": 211983,
-   "dst": 211982
-  }
- ]
+  "id": "211982",
+  "node": [
+    {
+      "id": 211982,
+      "name": "Ringmaster Clause",
+      "nameCN": "领班人克劳泽",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211983,
+      "name": "Queen Mary's Script",
+      "nameCN": "玛丽女王的脚本",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211982,
+      "dst": 211983
+    },
+    {
+      "relateString": "前传",
+      "src": 211983,
+      "dst": 211982
+    }
+  ]
 }

@@ -1,132 +1,130 @@
 {
- "id": 30310,
- "node": [
-  {
-   "id": 30310,
-   "name": "Black Mirror (Series 1)",
-   "nameCN": "黑镜 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/b8/30310_gpS6r.jpg",
-   "date": "2011-12-04",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 64399,
-   "name": "Black Mirror (Series 2)",
-   "nameCN": "黑镜 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/2a/64399_5flgF.jpg",
-   "date": "2013-02-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 118747,
-   "name": "Black Mirror: White Christmas",
-   "nameCN": "黑镜：白色圣诞",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/50/118747_601Fc.jpg",
-   "date": "2014-12-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 120220,
-   "name": "Black Mirror (Series 3)",
-   "nameCN": "黑镜 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/ae/120220_G3frz.jpg",
-   "date": "2016-10-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 214352,
-   "name": "Black Mirror (Series 4)",
-   "nameCN": "黑镜 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/b0/214352_AGKG4.jpg",
-   "date": "2017-12-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 270266,
-   "name": "Black Mirror: Bandersnatch",
-   "nameCN": "黑镜：潘达斯奈基",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/40/270266_sFkp1.jpg",
-   "date": "2018-12-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 282929,
-   "name": "Black Mirror (Series 5)",
-   "nameCN": "黑镜 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/40/282929_NC83c.jpg",
-   "date": "2019-06-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30310,
-   "dst": 64399
-  },
-  {
-   "relate": "前传",
-   "src": 64399,
-   "dst": 30310
-  },
-  {
-   "relate": "番外篇",
-   "src": 64399,
-   "dst": 118747
-  },
-  {
-   "relate": "续集",
-   "src": 64399,
-   "dst": 120220
-  },
-  {
-   "relate": "番外篇",
-   "src": 118747,
-   "dst": 64399
-  },
-  {
-   "relate": "不同演绎",
-   "src": 120220,
-   "dst": 30310
-  },
-  {
-   "relate": "前传",
-   "src": 214352,
-   "dst": 120220
-  },
-  {
-   "relate": "番外篇",
-   "src": 214352,
-   "dst": 270266
-  },
-  {
-   "relate": "续集",
-   "src": 214352,
-   "dst": 282929
-  },
-  {
-   "relate": "主线故事",
-   "src": 270266,
-   "dst": 214352
-  },
-  {
-   "relate": "前传",
-   "src": 282929,
-   "dst": 214352
-  }
- ]
+  "id": "30310",
+  "node": [
+    {
+      "id": 30310,
+      "name": "Black Mirror (Series 1)",
+      "nameCN": "黑镜 第一季",
+      "date": "2011-12-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 64399,
+      "name": "Black Mirror (Series 2)",
+      "nameCN": "黑镜 第二季",
+      "date": "2013-02-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 118747,
+      "name": "Black Mirror: White Christmas",
+      "nameCN": "黑镜：白色圣诞",
+      "date": "2014-12-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 120220,
+      "name": "Black Mirror (Series 3)",
+      "nameCN": "黑镜 第三季",
+      "date": "2016-10-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 214352,
+      "name": "Black Mirror (Series 4)",
+      "nameCN": "黑镜 第四季",
+      "date": "2017-12-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 270266,
+      "name": "Black Mirror: Bandersnatch",
+      "nameCN": "黑镜：潘达斯奈基",
+      "date": "2018-12-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 282929,
+      "name": "Black Mirror (Series 5)",
+      "nameCN": "黑镜 第五季",
+      "date": "2019-06-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30310,
+      "dst": 64399
+    },
+    {
+      "relateString": "前传",
+      "src": 64399,
+      "dst": 30310
+    },
+    {
+      "relateString": "番外篇",
+      "src": 64399,
+      "dst": 118747
+    },
+    {
+      "relateString": "续集",
+      "src": 64399,
+      "dst": 120220
+    },
+    {
+      "relateString": "番外篇",
+      "src": 118747,
+      "dst": 64399
+    },
+    {
+      "relateString": "前传",
+      "src": 120220,
+      "dst": 64399
+    },
+    {
+      "relateString": "续集",
+      "src": 120220,
+      "dst": 214352
+    },
+    {
+      "relateString": "前传",
+      "src": 214352,
+      "dst": 120220
+    },
+    {
+      "relateString": "番外篇",
+      "src": 214352,
+      "dst": 270266
+    },
+    {
+      "relateString": "续集",
+      "src": 214352,
+      "dst": 282929
+    },
+    {
+      "relateString": "主线故事",
+      "src": 270266,
+      "dst": 214352
+    },
+    {
+      "relateString": "前传",
+      "src": 282929,
+      "dst": 214352
+    }
+  ]
 }

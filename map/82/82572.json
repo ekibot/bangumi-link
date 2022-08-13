@@ -1,87 +1,83 @@
 {
- "id": 82572,
- "node": [
-  {
-   "id": 82572,
-   "name": "ノラガミ",
-   "nameCN": "野良神",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/de/82572_PNW44.jpg",
-   "date": "2014-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 84864,
-   "name": "ノラガミ OAD",
-   "nameCN": "野良神 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/bb/84864_N8Y2B.jpg",
-   "date": "2014-02-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 129988,
-   "name": "ノラガミ ARAGOTO",
-   "nameCN": "野良神 ARAGOTO",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/07/129988_4Bmy1.jpg",
-   "date": "2015-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 147364,
-   "name": "ノラガミ ARAGOTO OAD",
-   "nameCN": "野良神 ARAGOTO OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/9c/147364_HO3hG.jpg",
-   "date": "2015-11-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 82572,
-   "dst": 84864
-  },
-  {
-   "relate": "续集",
-   "src": 82572,
-   "dst": 129988
-  },
-  {
-   "relate": "主线故事",
-   "src": 84864,
-   "dst": 82572
-  },
-  {
-   "relate": "续集",
-   "src": 84864,
-   "dst": 147364
-  },
-  {
-   "relate": "前传",
-   "src": 129988,
-   "dst": 82572
-  },
-  {
-   "relate": "番外篇",
-   "src": 129988,
-   "dst": 147364
-  },
-  {
-   "relate": "前传",
-   "src": 147364,
-   "dst": 84864
-  },
-  {
-   "relate": "主线故事",
-   "src": 147364,
-   "dst": 129988
-  }
- ]
+  "id": "82572",
+  "node": [
+    {
+      "id": 82572,
+      "name": "ノラガミ",
+      "nameCN": "野良神",
+      "date": "2014-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 84864,
+      "name": "ノラガミ OAD",
+      "nameCN": "野良神 OAD",
+      "date": "2014-02-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 129988,
+      "name": "ノラガミ ARAGOTO",
+      "nameCN": "野良神 ARAGOTO",
+      "date": "2015-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 147364,
+      "name": "ノラガミ ARAGOTO OAD",
+      "nameCN": "野良神 ARAGOTO OAD",
+      "date": "2015-11-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 82572,
+      "dst": 84864
+    },
+    {
+      "relateString": "续集",
+      "src": 82572,
+      "dst": 129988
+    },
+    {
+      "relateString": "主线故事",
+      "src": 84864,
+      "dst": 82572
+    },
+    {
+      "relateString": "续集",
+      "src": 84864,
+      "dst": 147364
+    },
+    {
+      "relateString": "前传",
+      "src": 129988,
+      "dst": 82572
+    },
+    {
+      "relateString": "番外篇",
+      "src": 129988,
+      "dst": 147364
+    },
+    {
+      "relateString": "前传",
+      "src": 147364,
+      "dst": 84864
+    },
+    {
+      "relateString": "主线故事",
+      "src": 147364,
+      "dst": 129988
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 73262,
- "node": [
-  {
-   "id": 73262,
-   "name": "スミレ♡16歳!!",
-   "nameCN": "人形少女16岁!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/ee/73262_55UDK.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 73263,
-   "name": "スミレ♡17歳!!",
-   "nameCN": "人形少女17岁!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/62/73263_Zi56q.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 73262,
-   "dst": 73263
-  },
-  {
-   "relate": "前传",
-   "src": 73263,
-   "dst": 73262
-  }
- ]
+  "id": "73262",
+  "node": [
+    {
+      "id": 73262,
+      "name": "スミレ♡16歳!!",
+      "nameCN": "人形少女16岁!!",
+      "date": "2006-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 73263,
+      "name": "スミレ♡17歳!!",
+      "nameCN": "人形少女17岁!!",
+      "date": "2005-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 73262,
+      "dst": 73263
+    },
+    {
+      "relateString": "前传",
+      "src": 73263,
+      "dst": 73262
+    }
+  ]
 }

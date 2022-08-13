@@ -1,37 +1,35 @@
 {
- "id": 11080,
- "node": [
-  {
-   "id": 11080,
-   "name": "ひぐらしデイブレイク",
-   "nameCN": "寒蝉休日",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/13/11080_sN8zI.jpg",
-   "date": "2006-08-11",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 11081,
-   "name": "ひぐらしデイブレイク 改",
-   "nameCN": "寒蝉休日 改",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/77/11081_lXPXU.jpg",
-   "date": "2006-08-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11080,
-   "dst": 11081
-  },
-  {
-   "relate": "前传",
-   "src": 11081,
-   "dst": 11080
-  }
- ]
+  "id": "11080",
+  "node": [
+    {
+      "id": 11080,
+      "name": "ひぐらしデイブレイク",
+      "nameCN": "寒蝉休日",
+      "date": "2006-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 11081,
+      "name": "ひぐらしデイブレイク 改",
+      "nameCN": "寒蝉休日 改",
+      "date": "2006-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11080,
+      "dst": 11081
+    },
+    {
+      "relateString": "前传",
+      "src": 11081,
+      "dst": 11080
+    }
+  ]
 }

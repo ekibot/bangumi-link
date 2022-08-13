@@ -1,57 +1,54 @@
 {
- "id": 295939,
- "node": [
-  {
-   "id": 295939,
-   "name": "Harley Quinn Season 1",
-   "nameCN": "哈莉·奎茵 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/ca/295939_nNvvB.jpg",
-   "date": "2019-11-29",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 303507,
-   "name": "Harley Quinn Season 2",
-   "nameCN": "哈莉·奎茵 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/96/303507_X7cw8.jpg",
-   "date": "2020-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 389821,
-   "name": "Harley Quinn Season 3",
-   "nameCN": "哈莉·奎茵 第三季",
-   "image": "",
-   "date": "2022-07-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 295939,
-   "dst": 303507
-  },
-  {
-   "relate": "前传",
-   "src": 303507,
-   "dst": 295939
-  },
-  {
-   "relate": "续集",
-   "src": 303507,
-   "dst": 389821
-  },
-  {
-   "relate": "前传",
-   "src": 389821,
-   "dst": 303507
-  }
- ]
+  "id": "295939",
+  "node": [
+    {
+      "id": 295939,
+      "name": "Harley Quinn Season 1",
+      "nameCN": "哈莉·奎茵 第一季",
+      "date": "2019-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 303507,
+      "name": "Harley Quinn Season 2",
+      "nameCN": "哈莉·奎茵 第二季",
+      "date": "2020-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 389821,
+      "name": "Harley Quinn Season 3",
+      "nameCN": "哈莉·奎茵 第三季",
+      "date": "2022-07-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 295939,
+      "dst": 303507
+    },
+    {
+      "relateString": "前传",
+      "src": 303507,
+      "dst": 295939
+    },
+    {
+      "relateString": "续集",
+      "src": 303507,
+      "dst": 389821
+    },
+    {
+      "relateString": "前传",
+      "src": 389821,
+      "dst": 303507
+    }
+  ]
 }

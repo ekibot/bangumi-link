@@ -1,67 +1,64 @@
 {
- "id": 7842,
- "node": [
-  {
-   "id": 7842,
-   "name": "侵略!イカ娘",
-   "nameCN": "侵略！乌贼娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/1c/7842_UIFGZ.jpg",
-   "date": "2010-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 18004,
-   "name": "侵略!?イカ娘",
-   "nameCN": "侵略！？乌贼娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/4f/18004_unw67.jpg",
-   "date": "2011-09-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 46703,
-   "name": "侵略!!イカ娘 OAD",
-   "nameCN": "侵略！！乌贼娘 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/77/46703_MKJHE.jpg",
-   "date": "2012-08-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7842,
-   "dst": 18004
-  },
-  {
-   "relate": "番外篇",
-   "src": 7842,
-   "dst": 46703
-  },
-  {
-   "relate": "前传",
-   "src": 18004,
-   "dst": 7842
-  },
-  {
-   "relate": "番外篇",
-   "src": 18004,
-   "dst": 46703
-  },
-  {
-   "relate": "主线故事",
-   "src": 46703,
-   "dst": 7842
-  },
-  {
-   "relate": "主线故事",
-   "src": 46703,
-   "dst": 18004
-  }
- ]
+  "id": "7842",
+  "node": [
+    {
+      "id": 7842,
+      "name": "侵略!イカ娘",
+      "nameCN": "侵略！乌贼娘",
+      "date": "2010-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 18004,
+      "name": "侵略!?イカ娘",
+      "nameCN": "侵略！？乌贼娘",
+      "date": "2011-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 46703,
+      "name": "侵略!!イカ娘 OAD",
+      "nameCN": "侵略！！乌贼娘 OAD",
+      "date": "2012-08-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7842,
+      "dst": 18004
+    },
+    {
+      "relateString": "番外篇",
+      "src": 7842,
+      "dst": 46703
+    },
+    {
+      "relateString": "前传",
+      "src": 18004,
+      "dst": 7842
+    },
+    {
+      "relateString": "番外篇",
+      "src": 18004,
+      "dst": 46703
+    },
+    {
+      "relateString": "主线故事",
+      "src": 46703,
+      "dst": 7842
+    },
+    {
+      "relateString": "主线故事",
+      "src": 46703,
+      "dst": 18004
+    }
+  ]
 }

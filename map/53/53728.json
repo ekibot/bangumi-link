@@ -1,37 +1,35 @@
 {
- "id": 53728,
- "node": [
-  {
-   "id": 53728,
-   "name": "銀牙 -流れ星 銀-",
-   "nameCN": "银牙",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/99/53728_xbVex.jpg",
-   "date": "1986-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 53729,
-   "name": "銀牙伝説WEED",
-   "nameCN": "银牙传说WEED",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/69/53729_C8UdO.jpg",
-   "date": "2005-11-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53728,
-   "dst": 53729
-  },
-  {
-   "relate": "前传",
-   "src": 53729,
-   "dst": 53728
-  }
- ]
+  "id": "53728",
+  "node": [
+    {
+      "id": 53728,
+      "name": "銀牙 -流れ星 銀-",
+      "nameCN": "银牙",
+      "date": "1986-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 53729,
+      "name": "銀牙伝説WEED",
+      "nameCN": "银牙传说WEED",
+      "date": "2005-11-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53728,
+      "dst": 53729
+    },
+    {
+      "relateString": "前传",
+      "src": 53729,
+      "dst": 53728
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 158001,
- "node": [
-  {
-   "id": 158001,
-   "name": "庭先案内",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/b2/158001_22qE6.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 173057,
-   "name": "庭先塩梅",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/4a/173057_5VdLx.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158001,
-   "dst": 173057
-  },
-  {
-   "relate": "前传",
-   "src": 173057,
-   "dst": 158001
-  }
- ]
+  "id": "158001",
+  "node": [
+    {
+      "id": 158001,
+      "name": "庭先案内",
+      "nameCN": "",
+      "date": "2004-07-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 173057,
+      "name": "庭先塩梅",
+      "nameCN": "",
+      "date": "2010-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158001,
+      "dst": 173057
+    },
+    {
+      "relateString": "前传",
+      "src": 173057,
+      "dst": 158001
+    }
+  ]
 }

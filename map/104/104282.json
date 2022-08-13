@@ -1,37 +1,35 @@
 {
- "id": 104282,
- "node": [
-  {
-   "id": 104282,
-   "name": "天空侵犯",
-   "nameCN": "天空侵犯",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/74/104282_z9WkM.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287928,
-   "name": "天空侵犯arrive",
-   "nameCN": "天空侵犯arrive",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/3b/287928_9N9WA.jpg",
-   "date": "2019-11-08",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104282,
-   "dst": 287928
-  },
-  {
-   "relate": "前传",
-   "src": 287928,
-   "dst": 104282
-  }
- ]
+  "id": "104282",
+  "node": [
+    {
+      "id": 104282,
+      "name": "天空侵犯",
+      "nameCN": "天空侵犯",
+      "date": "2013-12-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287928,
+      "name": "天空侵犯arrive",
+      "nameCN": "天空侵犯arrive",
+      "date": "2019-11-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104282,
+      "dst": 287928
+    },
+    {
+      "relateString": "前传",
+      "src": 287928,
+      "dst": 104282
+    }
+  ]
 }

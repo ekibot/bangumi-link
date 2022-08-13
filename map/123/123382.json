@@ -1,97 +1,92 @@
 {
- "id": 123382,
- "node": [
-  {
-   "id": 123382,
-   "name": "魔王軍へようこそ2 -魔王死す-",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/34/123382_BhHR4.jpg",
-   "date": "2008-08-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 156932,
-   "name": "魔王軍へようこそ4",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/87/156932_yFf1J.jpg",
-   "date": "2015-11-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 197525,
-   "name": "魔王軍へようこそ",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/78/197525_KKnUS.jpg",
-   "date": "2007-04-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 197527,
-   "name": "魔王軍へようこそ3 -勇者消失-",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/ba/197527_oZEYK.jpg",
-   "date": "2011-10-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 381685,
-   "name": "魔王軍へようこそ5 -創世-",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/ee/381685_5D76d.jpg",
-   "date": "2019-01-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 123382,
-   "dst": 197525
-  },
-  {
-   "relate": "续集",
-   "src": 123382,
-   "dst": 197527
-  },
-  {
-   "relate": "前传",
-   "src": 156932,
-   "dst": 197527
-  },
-  {
-   "relate": "续集",
-   "src": 156932,
-   "dst": 381685
-  },
-  {
-   "relate": "续集",
-   "src": 197525,
-   "dst": 123382
-  },
-  {
-   "relate": "前传",
-   "src": 197527,
-   "dst": 123382
-  },
-  {
-   "relate": "续集",
-   "src": 197527,
-   "dst": 156932
-  },
-  {
-   "relate": "前传",
-   "src": 381685,
-   "dst": 156932
-  }
- ]
+  "id": "123382",
+  "node": [
+    {
+      "id": 123382,
+      "name": "魔王軍へようこそ2 -魔王死す-",
+      "nameCN": "",
+      "date": "2008-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 197525,
+      "name": "魔王軍へようこそ",
+      "nameCN": "",
+      "date": "2007-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 197527,
+      "name": "魔王軍へようこそ3 -勇者消失-",
+      "nameCN": "",
+      "date": "2011-10-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 156932,
+      "name": "魔王軍へようこそ4",
+      "nameCN": "",
+      "date": "2015-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 381685,
+      "name": "魔王軍へようこそ5 -創世-",
+      "nameCN": "",
+      "date": "2019-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 123382,
+      "dst": 197525
+    },
+    {
+      "relateString": "续集",
+      "src": 123382,
+      "dst": 197527
+    },
+    {
+      "relateString": "前传",
+      "src": 156932,
+      "dst": 197527
+    },
+    {
+      "relateString": "续集",
+      "src": 156932,
+      "dst": 381685
+    },
+    {
+      "relateString": "续集",
+      "src": 197525,
+      "dst": 123382
+    },
+    {
+      "relateString": "前传",
+      "src": 197527,
+      "dst": 123382
+    },
+    {
+      "relateString": "续集",
+      "src": 197527,
+      "dst": 156932
+    },
+    {
+      "relateString": "前传",
+      "src": 381685,
+      "dst": 156932
+    }
+  ]
 }

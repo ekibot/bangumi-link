@@ -1,57 +1,54 @@
 {
- "id": 241352,
- "node": [
-  {
-   "id": 241352,
-   "name": "Barry",
-   "nameCN": "巴瑞",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/63/241352_434WZ.jpg",
-   "date": "2018-03-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 280614,
-   "name": "Barry Season 2",
-   "nameCN": "巴瑞 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/b5/280614_ZzP55.jpg",
-   "date": "2019-03-31",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 379321,
-   "name": "Barry Season 3",
-   "nameCN": "巴瑞 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/cb/379321_zRRRZ.jpg",
-   "date": "2022-04-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 241352,
-   "dst": 280614
-  },
-  {
-   "relate": "前传",
-   "src": 280614,
-   "dst": 241352
-  },
-  {
-   "relate": "续集",
-   "src": 280614,
-   "dst": 379321
-  },
-  {
-   "relate": "前传",
-   "src": 379321,
-   "dst": 280614
-  }
- ]
+  "id": "241352",
+  "node": [
+    {
+      "id": 241352,
+      "name": "Barry",
+      "nameCN": "巴瑞",
+      "date": "2018-03-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 280614,
+      "name": "Barry Season 2",
+      "nameCN": "巴瑞 第二季",
+      "date": "2019-03-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 379321,
+      "name": "Barry Season 3",
+      "nameCN": "巴瑞 第三季",
+      "date": "2022-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 241352,
+      "dst": 280614
+    },
+    {
+      "relateString": "前传",
+      "src": 280614,
+      "dst": 241352
+    },
+    {
+      "relateString": "续集",
+      "src": 280614,
+      "dst": 379321
+    },
+    {
+      "relateString": "前传",
+      "src": 379321,
+      "dst": 280614
+    }
+  ]
 }

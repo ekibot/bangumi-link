@@ -1,37 +1,34 @@
 {
- "id": 179791,
- "node": [
-  {
-   "id": 179791,
-   "name": "おとぼけ課長",
-   "nameCN": "乌龙课长",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/cf/179791_O9XhZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 215463,
-   "name": "おとぼけ部長代理",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/af/215463_kt6fX.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 179791,
-   "dst": 215463
-  },
-  {
-   "relate": "前传",
-   "src": 215463,
-   "dst": 179791
-  }
- ]
+  "id": "179791",
+  "node": [
+    {
+      "id": 179791,
+      "name": "おとぼけ課長",
+      "nameCN": "乌龙课长",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 215463,
+      "name": "おとぼけ部長代理",
+      "nameCN": "",
+      "date": "2017-06-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 179791,
+      "dst": 215463
+    },
+    {
+      "relateString": "前传",
+      "src": 215463,
+      "dst": 179791
+    }
+  ]
 }

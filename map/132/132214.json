@@ -1,37 +1,35 @@
 {
- "id": 132214,
- "node": [
-  {
-   "id": 132214,
-   "name": "The Odd Couple Season 1",
-   "nameCN": "天生冤家 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/37/132214_wn4Cl.jpg",
-   "date": "2015-02-19",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 180487,
-   "name": "The Odd Couple Season 2",
-   "nameCN": "天生冤家 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/1d/180487_2lnnk.jpg",
-   "date": "2016-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 132214,
-   "dst": 180487
-  },
-  {
-   "relate": "前传",
-   "src": 180487,
-   "dst": 132214
-  }
- ]
+  "id": "132214",
+  "node": [
+    {
+      "id": 132214,
+      "name": "The Odd Couple Season 1",
+      "nameCN": "天生冤家 第一季",
+      "date": "2015-02-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 180487,
+      "name": "The Odd Couple Season 2",
+      "nameCN": "天生冤家 第二季",
+      "date": "2016-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 132214,
+      "dst": 180487
+    },
+    {
+      "relateString": "前传",
+      "src": 180487,
+      "dst": 132214
+    }
+  ]
 }

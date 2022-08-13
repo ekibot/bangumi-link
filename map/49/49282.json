@@ -1,57 +1,54 @@
 {
- "id": 49282,
- "node": [
-  {
-   "id": 49282,
-   "name": "がんばれ! ルルロロ",
-   "nameCN": "加油！露露落落",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/d5/49282_271i4.jpg",
-   "date": "2013-01-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 112841,
-   "name": "がんばれ!ルルロロ 第2シリーズ",
-   "nameCN": "加油！露露落落 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/06/112841_9c4H2.jpg",
-   "date": "2014-09-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 162799,
-   "name": "がんばれ！ルルロロ 第3シリーズ",
-   "nameCN": "加油！露露落落 第3期",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/01/162799_8BZ8t.jpg",
-   "date": "2016-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49282,
-   "dst": 112841
-  },
-  {
-   "relate": "前传",
-   "src": 112841,
-   "dst": 49282
-  },
-  {
-   "relate": "续集",
-   "src": 112841,
-   "dst": 162799
-  },
-  {
-   "relate": "前传",
-   "src": 162799,
-   "dst": 112841
-  }
- ]
+  "id": "49282",
+  "node": [
+    {
+      "id": 49282,
+      "name": "がんばれ! ルルロロ",
+      "nameCN": "加油！露露落落",
+      "date": "2013-01-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 112841,
+      "name": "がんばれ!ルルロロ 第2シリーズ",
+      "nameCN": "加油！露露落落 第2期",
+      "date": "2014-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 162799,
+      "name": "がんばれ！ルルロロ 第3シリーズ",
+      "nameCN": "加油！露露落落 第3期",
+      "date": "2016-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49282,
+      "dst": 112841
+    },
+    {
+      "relateString": "前传",
+      "src": 112841,
+      "dst": 49282
+    },
+    {
+      "relateString": "续集",
+      "src": 112841,
+      "dst": 162799
+    },
+    {
+      "relateString": "前传",
+      "src": 162799,
+      "dst": 112841
+    }
+  ]
 }

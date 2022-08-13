@@ -1,37 +1,35 @@
 {
- "id": 178561,
- "node": [
-  {
-   "id": 178561,
-   "name": "Space Invaders Extreme",
-   "nameCN": "太空侵略者EX",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/46/178561_3TOZq.jpg",
-   "date": "2008-02-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259644,
-   "name": "Space Invaders Extreme 2",
-   "nameCN": "太空侵略者EX 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/07/259644_Fhpzm.jpg",
-   "date": "2009-03-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 178561,
-   "dst": 259644
-  },
-  {
-   "relate": "前传",
-   "src": 259644,
-   "dst": 178561
-  }
- ]
+  "id": "178561",
+  "node": [
+    {
+      "id": 178561,
+      "name": "Space Invaders Extreme",
+      "nameCN": "太空侵略者EX",
+      "date": "2008-02-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259644,
+      "name": "Space Invaders Extreme 2",
+      "nameCN": "太空侵略者EX 2",
+      "date": "2009-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 178561,
+      "dst": 259644
+    },
+    {
+      "relateString": "前传",
+      "src": 259644,
+      "dst": 178561
+    }
+  ]
 }

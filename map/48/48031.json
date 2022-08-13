@@ -1,37 +1,35 @@
 {
- "id": 48031,
- "node": [
-  {
-   "id": 48031,
-   "name": "GJ部",
-   "nameCN": "GJ部",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/a4/48031_31K3k.jpg",
-   "date": "2013-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 90772,
-   "name": "GJ部@",
-   "nameCN": "GJ部@",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/71/90772_5Pc3Z.jpg",
-   "date": "2014-05-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48031,
-   "dst": 90772
-  },
-  {
-   "relate": "前传",
-   "src": 90772,
-   "dst": 48031
-  }
- ]
+  "id": "48031",
+  "node": [
+    {
+      "id": 48031,
+      "name": "GJ部",
+      "nameCN": "GJ部",
+      "date": "2013-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 90772,
+      "name": "GJ部@",
+      "nameCN": "GJ部@",
+      "date": "2014-05-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48031,
+      "dst": 90772
+    },
+    {
+      "relateString": "前传",
+      "src": 90772,
+      "dst": 48031
+    }
+  ]
 }

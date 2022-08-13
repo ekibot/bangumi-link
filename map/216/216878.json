@@ -1,37 +1,35 @@
 {
- "id": 216878,
- "node": [
-  {
-   "id": 216878,
-   "name": "哑舍",
-   "nameCN": "哑舍",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/e3/216878_CnKG9.jpg",
-   "date": "2011-04-01",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 304437,
-   "name": "哑舍・零",
-   "nameCN": "哑舍・零",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/48/304437_MJmYY.jpg",
-   "date": "2015-09-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 216878,
-   "dst": 304437
-  },
-  {
-   "relate": "续集",
-   "src": 304437,
-   "dst": 216878
-  }
- ]
+  "id": "216878",
+  "node": [
+    {
+      "id": 216878,
+      "name": "哑舍",
+      "nameCN": "哑舍",
+      "date": "2011-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 304437,
+      "name": "哑舍・零",
+      "nameCN": "哑舍・零",
+      "date": "2015-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 216878,
+      "dst": 304437
+    },
+    {
+      "relateString": "续集",
+      "src": 304437,
+      "dst": 216878
+    }
+  ]
 }

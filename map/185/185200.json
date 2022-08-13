@@ -1,37 +1,35 @@
 {
- "id": 185200,
- "node": [
-  {
-   "id": 185200,
-   "name": "東京喰種トーキョーグール",
-   "nameCN": "东京喰种",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/67/185200_u27p8.jpg",
-   "date": "2017-07-29",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 262242,
-   "name": "東京喰種 トーキョーグール【S】",
-   "nameCN": "东京喰种【S】",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/b7/262242_DQBAO.jpg",
-   "date": "2019-07-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185200,
-   "dst": 262242
-  },
-  {
-   "relate": "前传",
-   "src": 262242,
-   "dst": 185200
-  }
- ]
+  "id": "185200",
+  "node": [
+    {
+      "id": 185200,
+      "name": "東京喰種トーキョーグール",
+      "nameCN": "东京喰种",
+      "date": "2017-07-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 262242,
+      "name": "東京喰種 トーキョーグール【S】",
+      "nameCN": "东京喰种【S】",
+      "date": "2019-07-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185200,
+      "dst": 262242
+    },
+    {
+      "relateString": "前传",
+      "src": 262242,
+      "dst": 185200
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 56995,
- "node": [
-  {
-   "id": 56995,
-   "name": "がんばれ!キッカーズ",
-   "nameCN": "加油！吉塔斯",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/65/56995_5i474.jpg",
-   "date": "1986-10-15",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 310760,
-   "name": "がんばれ！キッカーズスペシャル ひとりぼっちのエースストライカー",
-   "nameCN": "加油！吉塔斯特别篇：单独一人的王牌前锋",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/56/310760_lez9Q.jpg",
-   "date": "1988-01-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 56995,
-   "dst": 310760
-  },
-  {
-   "relate": "主线故事",
-   "src": 310760,
-   "dst": 56995
-  }
- ]
+  "id": "56995",
+  "node": [
+    {
+      "id": 56995,
+      "name": "がんばれ!キッカーズ",
+      "nameCN": "加油！吉塔斯",
+      "date": "1986-10-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 310760,
+      "name": "がんばれ！キッカーズスペシャル ひとりぼっちのエースストライカー",
+      "nameCN": "加油！吉塔斯特别篇：单独一人的王牌前锋",
+      "date": "1988-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 56995,
+      "dst": 310760
+    },
+    {
+      "relateString": "主线故事",
+      "src": 310760,
+      "dst": 56995
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 114013,
- "node": [
-  {
-   "id": 114013,
-   "name": "源平討魔伝",
-   "nameCN": "源平讨魔传",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/76/114013_FReoR.jpg",
-   "date": "1986-10-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114015,
-   "name": "源平討魔伝 巻ノ弐",
-   "nameCN": "源平讨魔传 卷之贰",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/14/114015_Y663R.jpg",
-   "date": "1992-04-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114013,
-   "dst": 114015
-  },
-  {
-   "relate": "前传",
-   "src": 114015,
-   "dst": 114013
-  }
- ]
+  "id": "114013",
+  "node": [
+    {
+      "id": 114013,
+      "name": "源平討魔伝",
+      "nameCN": "源平讨魔传",
+      "date": "1986-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114015,
+      "name": "源平討魔伝 巻ノ弐",
+      "nameCN": "源平讨魔传 卷之贰",
+      "date": "1992-04-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114013,
+      "dst": 114015
+    },
+    {
+      "relateString": "前传",
+      "src": 114015,
+      "dst": 114013
+    }
+  ]
 }

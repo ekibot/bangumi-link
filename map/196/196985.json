@@ -1,37 +1,35 @@
 {
- "id": 196985,
- "node": [
-  {
-   "id": 196985,
-   "name": "Bugってハニー",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/f3/196985_20Ydw.jpg",
-   "date": "1986-10-03",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 231946,
-   "name": "Bugってハニー メガロム少女舞4622",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/fd/231946_d0b74.jpg",
-   "date": "1987-07-21",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 196985,
-   "dst": 231946
-  },
-  {
-   "relate": "主线故事",
-   "src": 231946,
-   "dst": 196985
-  }
- ]
+  "id": "196985",
+  "node": [
+    {
+      "id": 196985,
+      "name": "Bugってハニー",
+      "nameCN": "",
+      "date": "1986-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 231946,
+      "name": "Bugってハニー メガロム少女舞4622",
+      "nameCN": "",
+      "date": "1987-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 196985,
+      "dst": 231946
+    },
+    {
+      "relateString": "主线故事",
+      "src": 231946,
+      "dst": 196985
+    }
+  ]
 }

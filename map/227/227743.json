@@ -1,28 +1,35 @@
 {
- "id": 227743,
- "node": [
-  {
-   "id": 227743,
-   "name": "調教相談室",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/37/227743_GjGkN.jpg",
-   "date": "2017-08-31",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 254476,
-   "name": "調教相談室2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/4a/254476_6gfRR.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 227743,
-   "dst": 254476
-  }
- ]
+  "id": "227743",
+  "node": [
+    {
+      "id": 227743,
+      "name": "調教相談室",
+      "nameCN": "",
+      "date": "2017-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 254476,
+      "name": "調教相談室2",
+      "nameCN": "",
+      "date": "2018-08-31",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 227743,
+      "dst": 254476
+    },
+    {
+      "relateString": "前传",
+      "src": 254476,
+      "dst": 227743
+    }
+  ]
 }

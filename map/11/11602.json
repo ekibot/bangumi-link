@@ -1,0 +1,54 @@
+{
+  "id": "11602",
+  "node": [
+    {
+      "id": 11602,
+      "name": "UP",
+      "nameCN": "飞屋环游记",
+      "date": "2009-08-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 111237,
+      "name": "Dug's Special Mission",
+      "nameCN": "道格的特别任务",
+      "date": "2009-11-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 347843,
+      "name": "Dug Days",
+      "nameCN": "小逗的日子",
+      "date": "2021-09-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 11602,
+      "dst": 111237
+    },
+    {
+      "relateString": "续集",
+      "src": 11602,
+      "dst": 347843
+    },
+    {
+      "relateString": "主线故事",
+      "src": 111237,
+      "dst": 11602
+    },
+    {
+      "relateString": "前传",
+      "src": 347843,
+      "dst": 11602
+    }
+  ]
+}

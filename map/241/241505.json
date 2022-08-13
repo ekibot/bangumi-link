@@ -1,37 +1,35 @@
 {
- "id": 241505,
- "node": [
-  {
-   "id": 241505,
-   "name": "悪のボスと猫。",
-   "nameCN": "黑帮Boss与猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/b9/241505_vpL8z.jpg",
-   "date": "2017-02-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 241506,
-   "name": "悪のボスと猫。Part2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/ad/241506_12kKz.jpg",
-   "date": "2018-01-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 241505,
-   "dst": 241506
-  },
-  {
-   "relate": "前传",
-   "src": 241506,
-   "dst": 241505
-  }
- ]
+  "id": "241505",
+  "node": [
+    {
+      "id": 241505,
+      "name": "悪のボスと猫。",
+      "nameCN": "黑帮Boss与猫",
+      "date": "2017-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241506,
+      "name": "悪のボスと猫。Part2",
+      "nameCN": "",
+      "date": "2018-01-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 241505,
+      "dst": 241506
+    },
+    {
+      "relateString": "前传",
+      "src": 241506,
+      "dst": 241505
+    }
+  ]
 }

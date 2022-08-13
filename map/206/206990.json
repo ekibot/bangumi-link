@@ -1,37 +1,35 @@
 {
- "id": 206990,
- "node": [
-  {
-   "id": 206990,
-   "name": "モンスターコンプリワールド",
-   "nameCN": "怪物完全世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/ee/206990_fP0qk.jpg",
-   "date": "1999-05-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 206991,
-   "name": "伝説獣の穴 モンスタコンプリワールドVer.2",
-   "nameCN": "传说之兽的洞窟 怪物完全世界2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/a2/206991_18R10.jpg",
-   "date": "1999-10-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 206990,
-   "dst": 206991
-  },
-  {
-   "relate": "前传",
-   "src": 206991,
-   "dst": 206990
-  }
- ]
+  "id": "206990",
+  "node": [
+    {
+      "id": 206990,
+      "name": "モンスターコンプリワールド",
+      "nameCN": "怪物完全世界",
+      "date": "1999-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206991,
+      "name": "伝説獣の穴 モンスタコンプリワールドVer.2",
+      "nameCN": "传说之兽的洞窟 怪物完全世界2",
+      "date": "1999-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 206990,
+      "dst": 206991
+    },
+    {
+      "relateString": "前传",
+      "src": 206991,
+      "dst": 206990
+    }
+  ]
 }

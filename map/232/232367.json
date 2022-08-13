@@ -1,37 +1,35 @@
 {
- "id": 232367,
- "node": [
-  {
-   "id": 232367,
-   "name": "マネマネサイコトロピック",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/28/232367_8jvnU.jpg",
-   "date": "2015-03-03",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 232369,
-   "name": "イナイイナイ依存症",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/07/232369_7YDg6.jpg",
-   "date": "2017-06-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 232367,
-   "dst": 232369
-  },
-  {
-   "relate": "前传",
-   "src": 232369,
-   "dst": 232367
-  }
- ]
+  "id": "232367",
+  "node": [
+    {
+      "id": 232367,
+      "name": "マネマネサイコトロピック",
+      "nameCN": "",
+      "date": "2015-03-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 232369,
+      "name": "イナイイナイ依存症",
+      "nameCN": "",
+      "date": "2017-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 232367,
+      "dst": 232369
+    },
+    {
+      "relateString": "前传",
+      "src": 232369,
+      "dst": 232367
+    }
+  ]
 }

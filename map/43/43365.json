@@ -1,57 +1,54 @@
 {
- "id": 43365,
- "node": [
-  {
-   "id": 43365,
-   "name": "K先生の野獣な愛情",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/48/43365_jp.jpg",
-   "date": "2012-05-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 99867,
-   "name": "K先生の野蛮な恋愛",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/97/99867_jp.jpg",
-   "date": "2013-07-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 137012,
-   "name": "K先生の不埒な純愛",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/bc/137012_jp.jpg",
-   "date": "2014-11-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43365,
-   "dst": 99867
-  },
-  {
-   "relate": "前传",
-   "src": 99867,
-   "dst": 43365
-  },
-  {
-   "relate": "续集",
-   "src": 99867,
-   "dst": 137012
-  },
-  {
-   "relate": "前传",
-   "src": 137012,
-   "dst": 99867
-  }
- ]
+  "id": "43365",
+  "node": [
+    {
+      "id": 43365,
+      "name": "K先生の野獣な愛情",
+      "nameCN": "",
+      "date": "2012-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 99867,
+      "name": "K先生の野蛮な恋愛",
+      "nameCN": "",
+      "date": "2013-07-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 137012,
+      "name": "K先生の不埒な純愛",
+      "nameCN": "",
+      "date": "2014-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43365,
+      "dst": 99867
+    },
+    {
+      "relateString": "前传",
+      "src": 99867,
+      "dst": 43365
+    },
+    {
+      "relateString": "续集",
+      "src": 99867,
+      "dst": 137012
+    },
+    {
+      "relateString": "前传",
+      "src": 137012,
+      "dst": 99867
+    }
+  ]
 }

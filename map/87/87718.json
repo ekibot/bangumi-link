@@ -1,111 +1,107 @@
 {
- "id": 87718,
- "node": [
-  {
-   "id": 87718,
-   "name": "ハマトラ",
-   "nameCN": "滨虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/cb/87718_8e7pF.jpg",
-   "date": "2014-01-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 92995,
-   "name": "ハマトラ THE COMIC",
-   "nameCN": "滨虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/cd/92995_PeEM7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 101322,
-   "name": "Re:␣ ハマトラ",
-   "nameCN": "REPLY 滨虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/a0/101322_2baUb.jpg",
-   "date": "2014-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 127716,
-   "name": "FW：ハマトラ",
-   "nameCN": "FW：滨虎",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/17/127716_AebsS.jpg",
-   "date": "2015-11-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 127817,
-   "name": "ミニはま -MINIMUM HAMATORA-",
-   "nameCN": "浜虎SD",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/52/127817_W0E23.jpg",
-   "date": "2015-11-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87718,
-   "dst": 101322
-  },
-  {
-   "relate": "总集篇",
-   "src": 87718,
-   "dst": 127716
-  },
-  {
-   "relate": "衍生",
-   "src": 87718,
-   "dst": 127817
-  },
-  {
-   "relate": "续集",
-   "src": 92995,
-   "dst": 87718
-  },
-  {
-   "relate": "前传",
-   "src": 101322,
-   "dst": 87718
-  },
-  {
-   "relate": "总集篇",
-   "src": 101322,
-   "dst": 127716
-  },
-  {
-   "relate": "衍生",
-   "src": 101322,
-   "dst": 127817
-  },
-  {
-   "relate": "全集",
-   "src": 127716,
-   "dst": 87718
-  },
-  {
-   "relate": "全集",
-   "src": 127716,
-   "dst": 101322
-  },
-  {
-   "relate": "主线故事",
-   "src": 127817,
-   "dst": 87718
-  },
-  {
-   "relate": "主线故事",
-   "src": 127817,
-   "dst": 101322
-  }
- ]
+  "id": "87718",
+  "node": [
+    {
+      "id": 87718,
+      "name": "ハマトラ",
+      "nameCN": "滨虎",
+      "date": "2014-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 101322,
+      "name": "Re:␣ ハマトラ",
+      "nameCN": "REPLY 滨虎",
+      "date": "2014-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 127716,
+      "name": "FW：ハマトラ",
+      "nameCN": "FW：滨虎",
+      "date": "2015-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 127817,
+      "name": "ミニはま -MINIMUM HAMATORA-",
+      "nameCN": "浜虎SD",
+      "date": "2015-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 92995,
+      "name": "ハマトラ THE COMIC",
+      "nameCN": "滨虎",
+      "date": "2013-11-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87718,
+      "dst": 101322
+    },
+    {
+      "relateString": "总集篇",
+      "src": 87718,
+      "dst": 127716
+    },
+    {
+      "relateString": "衍生",
+      "src": 87718,
+      "dst": 127817
+    },
+    {
+      "relateString": "续集",
+      "src": 92995,
+      "dst": 87718
+    },
+    {
+      "relateString": "前传",
+      "src": 101322,
+      "dst": 87718
+    },
+    {
+      "relateString": "总集篇",
+      "src": 101322,
+      "dst": 127716
+    },
+    {
+      "relateString": "衍生",
+      "src": 101322,
+      "dst": 127817
+    },
+    {
+      "relateString": "全集",
+      "src": 127716,
+      "dst": 87718
+    },
+    {
+      "relateString": "全集",
+      "src": 127716,
+      "dst": 101322
+    },
+    {
+      "relateString": "主线故事",
+      "src": 127817,
+      "dst": 87718
+    },
+    {
+      "relateString": "主线故事",
+      "src": 127817,
+      "dst": 101322
+    }
+  ]
 }

@@ -1,34 +1,35 @@
 {
- "id": 194344,
- "node": [
-  {
-   "id": 194344,
-   "name": "緋のない所に烟は立たない",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/b2/194344_Z6N7N.jpg",
-   "date": "2016-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 196869,
-   "name": "緋のない所に烟は立たない -緋修離と一蓮托生の女たち-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/5e/196869_NXUHN.jpg",
-   "date": "2017-01-27",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194344,
-   "dst": 196869
-  },
-  {
-   "relate": "前传",
-   "src": 196869,
-   "dst": 194344
-  }
- ]
+  "id": "194344",
+  "node": [
+    {
+      "id": 194344,
+      "name": "緋のない所に烟は立たない",
+      "nameCN": "",
+      "date": "2016-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196869,
+      "name": "緋のない所に烟は立たない -緋修離と一蓮托生の女たち-",
+      "nameCN": "",
+      "date": "2017-01-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194344,
+      "dst": 196869
+    },
+    {
+      "relateString": "前传",
+      "src": 196869,
+      "dst": 194344
+    }
+  ]
 }

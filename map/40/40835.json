@@ -1,37 +1,35 @@
 {
- "id": 40835,
- "node": [
-  {
-   "id": 40835,
-   "name": "桃太郎の海鷲",
-   "nameCN": "桃太郎的海鹰",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/76/40835_0HQBH.jpg",
-   "date": "1943-03-25",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 40836,
-   "name": "桃太郎 海の神兵",
-   "nameCN": "桃太郎 海的神兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/ed/40836_xrAe3.jpg",
-   "date": "1945-04-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 40835,
-   "dst": 40836
-  },
-  {
-   "relate": "前传",
-   "src": 40836,
-   "dst": 40835
-  }
- ]
+  "id": "40835",
+  "node": [
+    {
+      "id": 40835,
+      "name": "桃太郎の海鷲",
+      "nameCN": "桃太郎的海鹰",
+      "date": "1943-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 40836,
+      "name": "桃太郎 海の神兵",
+      "nameCN": "桃太郎 海的神兵",
+      "date": "1945-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 40835,
+      "dst": 40836
+    },
+    {
+      "relateString": "前传",
+      "src": 40836,
+      "dst": 40835
+    }
+  ]
 }

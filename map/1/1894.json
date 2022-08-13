@@ -1,122 +1,112 @@
 {
- "id": 1894,
- "node": [
-  {
-   "id": 1894,
-   "name": "勇者王ガオガイガー",
-   "nameCN": "勇者王GaoGaiGar",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/a9/1894_JQQyr.jpg",
-   "date": "1997-02-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2979,
-   "name": "勇者王ガオガイガーFINAL",
-   "nameCN": "勇者王GaoGaiGar Final",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/71/2979_VygjJ.jpg",
-   "date": "2000-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 2981,
-   "name": "勇者王ガオガイガーFINAL GRAND GLORIOUS GATHERING",
-   "nameCN": "勇者王GaoGaiGar Final Grand Glorious Gathering",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/f0/2981_QGdCY.jpg",
-   "date": "2005-04-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 10417,
-   "name": "ベターマン",
-   "nameCN": "进化战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/5f/10417_08V64.jpg",
-   "date": "1999-04-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 271549,
-   "name": "覇界王~ガオガイガー対ベターマン~ the COMIC",
-   "nameCN": "霸界王～GaoGaiGar对Betterman～ the COMIC",
-   "image": "//lain.bgm.tv/pic/cover/m/30/89/271549_8ZYmo.jpg"
-  },
-  {
-   "id": 354950,
-   "name": "覇界王~ガオガイガー対ベターマン~",
-   "nameCN": "霸界王～GaoGaiGar对Betterman～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/ad/354950_lVvrb.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1894,
-   "dst": 2979
-  },
-  {
-   "relate": "续集",
-   "src": 1894,
-   "dst": 2981
-  },
-  {
-   "relate": "相同世界观",
-   "src": 1894,
-   "dst": 10417
-  },
-  {
-   "relate": "前传",
-   "src": 2979,
-   "dst": 1894
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2979,
-   "dst": 2981
-  },
-  {
-   "relate": "前传",
-   "src": 2981,
-   "dst": 1894
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2981,
-   "dst": 2979
-  },
-  {
-   "relate": "相同世界观",
-   "src": 2981,
-   "dst": 10417
-  },
-  {
-   "relate": "相同世界观",
-   "src": 10417,
-   "dst": 1894
-  },
-  {
-   "relate": "相同世界观",
-   "src": 10417,
-   "dst": 2981
-  },
-  {
-   "relate": "前传",
-   "src": 354950,
-   "dst": 2979
-  },
-  {
-   "relate": "前传",
-   "src": 354950,
-   "dst": 10417
-  }
- ]
+  "id": "1894",
+  "node": [
+    {
+      "id": 1894,
+      "name": "勇者王ガオガイガー",
+      "nameCN": "勇者王GaoGaiGar",
+      "date": "1997-02-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2979,
+      "name": "勇者王ガオガイガーFINAL",
+      "nameCN": "勇者王GaoGaiGar Final",
+      "date": "2000-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 2981,
+      "name": "勇者王ガオガイガーFINAL GRAND GLORIOUS GATHERING",
+      "nameCN": "勇者王GaoGaiGar Final Grand Glorious Gathering",
+      "date": "2005-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10417,
+      "name": "ベターマン",
+      "nameCN": "进化战记",
+      "date": "1999-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 354950,
+      "name": "覇界王~ガオガイガー対ベターマン~",
+      "nameCN": "霸界王～GaoGaiGar对Betterman～",
+      "date": "2016-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1894,
+      "dst": 2979
+    },
+    {
+      "relateString": "续集",
+      "src": 1894,
+      "dst": 2981
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 1894,
+      "dst": 10417
+    },
+    {
+      "relateString": "前传",
+      "src": 2979,
+      "dst": 1894
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 2979,
+      "dst": 2981
+    },
+    {
+      "relateString": "前传",
+      "src": 2981,
+      "dst": 1894
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 2981,
+      "dst": 2979
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 2981,
+      "dst": 10417
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 10417,
+      "dst": 1894
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 10417,
+      "dst": 2981
+    },
+    {
+      "relateString": "前传",
+      "src": 354950,
+      "dst": 2979
+    },
+    {
+      "relateString": "前传",
+      "src": 354950,
+      "dst": 10417
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 8532,
- "node": [
-  {
-   "id": 8532,
-   "name": "Obscure: The Aftermath",
-   "nameCN": "暗夜杀机2：结果",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/83/8532_E9cee.jpg",
-   "date": "2009-10-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 122630,
-   "name": "Obscure",
-   "nameCN": "恶夜杀机",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/57/122630_1cF00.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 8532,
-   "dst": 122630
-  },
-  {
-   "relate": "续集",
-   "src": 122630,
-   "dst": 8532
-  }
- ]
+  "id": "8532",
+  "node": [
+    {
+      "id": 8532,
+      "name": "Obscure: The Aftermath",
+      "nameCN": "暗夜杀机2：结果",
+      "date": "2009-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122630,
+      "name": "Obscure",
+      "nameCN": "恶夜杀机",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 8532,
+      "dst": 122630
+    },
+    {
+      "relateString": "续集",
+      "src": 122630,
+      "dst": 8532
+    }
+  ]
 }

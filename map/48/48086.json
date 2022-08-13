@@ -1,37 +1,35 @@
 {
- "id": 48086,
- "node": [
-  {
-   "id": 48086,
-   "name": "まんが日本昔ばなし",
-   "nameCN": "日本古代传说 第一期",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/72/48086_XI639.jpg",
-   "date": "1975-01-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 53802,
-   "name": "まんが日本昔ばなし",
-   "nameCN": "漫画日本昔话",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/7f/53802_TIYY8.jpg",
-   "date": "1976-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48086,
-   "dst": 53802
-  },
-  {
-   "relate": "前传",
-   "src": 53802,
-   "dst": 48086
-  }
- ]
+  "id": "48086",
+  "node": [
+    {
+      "id": 48086,
+      "name": "まんが日本昔ばなし",
+      "nameCN": "日本古代传说 第一期",
+      "date": "1975-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 53802,
+      "name": "まんが日本昔ばなし",
+      "nameCN": "漫画日本昔话",
+      "date": "1976-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48086,
+      "dst": 53802
+    },
+    {
+      "relateString": "前传",
+      "src": 53802,
+      "dst": 48086
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 124833,
- "node": [
-  {
-   "id": 124833,
-   "name": "妙手仁心",
-   "nameCN": "妙手仁心",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/64/124833_Z0Zyl.jpg",
-   "date": "1998-08-31",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 124835,
-   "name": "妙手仁心II",
-   "nameCN": "妙手仁心II",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/27/124835_gJSKj.jpg",
-   "date": "2000-11-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 124840,
-   "name": "妙手仁心III",
-   "nameCN": "妙手仁心III",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/9c/124840_1r6rC.jpg",
-   "date": "2005-07-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124833,
-   "dst": 124835
-  },
-  {
-   "relate": "前传",
-   "src": 124835,
-   "dst": 124833
-  },
-  {
-   "relate": "续集",
-   "src": 124835,
-   "dst": 124840
-  },
-  {
-   "relate": "前传",
-   "src": 124840,
-   "dst": 124835
-  }
- ]
+  "id": "124833",
+  "node": [
+    {
+      "id": 124833,
+      "name": "妙手仁心",
+      "nameCN": "妙手仁心",
+      "date": "1998-08-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 124835,
+      "name": "妙手仁心II",
+      "nameCN": "妙手仁心II",
+      "date": "2000-11-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 124840,
+      "name": "妙手仁心III",
+      "nameCN": "妙手仁心III",
+      "date": "2005-07-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124833,
+      "dst": 124835
+    },
+    {
+      "relateString": "前传",
+      "src": 124835,
+      "dst": 124833
+    },
+    {
+      "relateString": "续集",
+      "src": 124835,
+      "dst": 124840
+    },
+    {
+      "relateString": "前传",
+      "src": 124840,
+      "dst": 124835
+    }
+  ]
 }

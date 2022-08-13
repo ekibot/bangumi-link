@@ -1,37 +1,33 @@
 {
- "id": 152626,
- "node": [
-  {
-   "id": 152626,
-   "name": "緋が走る",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/18/152626_It4Pt.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 152636,
-   "name": "美咲の器-それからの緋が走る-",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/3f/152636_OolU0.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 152626,
-   "dst": 152636
-  },
-  {
-   "relate": "前传",
-   "src": 152636,
-   "dst": 152626
-  }
- ]
+  "id": "152626",
+  "node": [
+    {
+      "id": 152626,
+      "name": "緋が走る",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 152636,
+      "name": "美咲の器-それからの緋が走る-",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 152626,
+      "dst": 152636
+    },
+    {
+      "relateString": "前传",
+      "src": 152636,
+      "dst": 152626
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 86195,
- "node": [
-  {
-   "id": 86195,
-   "name": "サイコメトラーEIJI",
-   "nameCN": "感应少年 EIJI",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/d1/86195_J56Xq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 86221,
-   "name": "サイコメトラー",
-   "nameCN": "感应少年EIJI 新章",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/3f/86221_AHF2K.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86195,
-   "dst": 86221
-  },
-  {
-   "relate": "前传",
-   "src": 86221,
-   "dst": 86195
-  }
- ]
+  "id": "86195",
+  "node": [
+    {
+      "id": 86195,
+      "name": "サイコメトラーEIJI",
+      "nameCN": "感应少年 EIJI",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86221,
+      "name": "サイコメトラー",
+      "nameCN": "感应少年EIJI 新章",
+      "date": "2011-04-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86195,
+      "dst": 86221
+    },
+    {
+      "relateString": "前传",
+      "src": 86221,
+      "dst": 86195
+    }
+  ]
 }

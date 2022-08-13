@@ -1,37 +1,35 @@
 {
- "id": 236861,
- "node": [
-  {
-   "id": 236861,
-   "name": "サンサーラ・ナーガ",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/8f/236861_2cQPI.jpg",
-   "date": "1990-03-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "FC"
-  },
-  {
-   "id": 236862,
-   "name": "サンサーラ・ナーガ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/d1/236862_MrgVO.jpg",
-   "date": "1994-07-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "SFC",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 236861,
-   "dst": 236862
-  },
-  {
-   "relate": "前传",
-   "src": 236862,
-   "dst": 236861
-  }
- ]
+  "id": "236861",
+  "node": [
+    {
+      "id": 236861,
+      "name": "サンサーラ・ナーガ",
+      "nameCN": "",
+      "date": "1990-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "FC"
+    },
+    {
+      "id": 236862,
+      "name": "サンサーラ・ナーガ2",
+      "nameCN": "",
+      "date": "1994-07-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "SFC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 236861,
+      "dst": 236862
+    },
+    {
+      "relateString": "前传",
+      "src": 236862,
+      "dst": 236861
+    }
+  ]
 }

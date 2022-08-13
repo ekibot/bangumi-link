@@ -1,37 +1,35 @@
 {
- "id": 239961,
- "node": [
-  {
-   "id": 239961,
-   "name": "小兵・杨来西",
-   "nameCN": "小兵杨来西",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/4b/239961_25hek.jpg",
-   "date": "2018-03-09",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 242963,
-   "name": "小兵・杨来西 第二部",
-   "nameCN": "小兵杨来西 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/20/242963_LZT8M.jpg",
-   "date": "2018-04-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 239961,
-   "dst": 242963
-  },
-  {
-   "relate": "前传",
-   "src": 242963,
-   "dst": 239961
-  }
- ]
+  "id": "239961",
+  "node": [
+    {
+      "id": 239961,
+      "name": "小兵・杨来西",
+      "nameCN": "小兵杨来西",
+      "date": "2018-03-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 242963,
+      "name": "小兵・杨来西 第二部",
+      "nameCN": "小兵杨来西 第二部",
+      "date": "2018-04-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 239961,
+      "dst": 242963
+    },
+    {
+      "relateString": "前传",
+      "src": 242963,
+      "dst": 239961
+    }
+  ]
 }

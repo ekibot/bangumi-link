@@ -1,37 +1,34 @@
 {
- "id": 63277,
- "node": [
-  {
-   "id": 63277,
-   "name": "Miffy and Friends",
-   "nameCN": "米菲和它的朋友们",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/89/63277_N08qV.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208465,
-   "name": "Miffy's Adventures Big and Small",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/75/208465_x3a31.jpg",
-   "date": "2015-10-02",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 63277,
-   "dst": 208465
-  },
-  {
-   "relate": "前传",
-   "src": 208465,
-   "dst": 63277
-  }
- ]
+  "id": "63277",
+  "node": [
+    {
+      "id": 63277,
+      "name": "Miffy and Friends",
+      "nameCN": "米菲和它的朋友们",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208465,
+      "name": "Miffy's Adventures Big and Small",
+      "nameCN": "",
+      "date": "2015-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 63277,
+      "dst": 208465
+    },
+    {
+      "relateString": "前传",
+      "src": 208465,
+      "dst": 63277
+    }
+  ]
 }

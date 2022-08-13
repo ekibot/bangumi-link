@@ -1,71 +1,67 @@
 {
- "id": 18457,
- "node": [
-  {
-   "id": 18457,
-   "name": "人造人間キカイダーTHE ANIMATION",
-   "nameCN": "人造人间Kikaider",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/8d/18457_Ce9sD.jpg",
-   "date": "2000-10-16",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 28238,
-   "name": "キカイダー01 THE ANIMATION",
-   "nameCN": "电脑奇侠 01",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/ed/28238_aMve0.jpg",
-   "date": "2001-11-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 139478,
-   "name": "ギターを持った少年 -キカイダーVSイナズマン-",
-   "nameCN": "背着吉他的少年 -电脑奇侠 VS 闪电超人-",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/2e/139478_NfSvf.jpg",
-   "date": "2003-09-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 139573,
-   "name": "イナズマンVSキカイダー",
-   "nameCN": "闪电人 VS 电脑奇侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/b0/139573_tldEP.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 18457,
-   "dst": 28238
-  },
-  {
-   "relate": "前传",
-   "src": 28238,
-   "dst": 18457
-  },
-  {
-   "relate": "续集",
-   "src": 28238,
-   "dst": 139478
-  },
-  {
-   "relate": "前传",
-   "src": 139478,
-   "dst": 28238
-  },
-  {
-   "relate": "不同演绎",
-   "src": 139573,
-   "dst": 139478
-  }
- ]
+  "id": "18457",
+  "node": [
+    {
+      "id": 18457,
+      "name": "人造人間キカイダーTHE ANIMATION",
+      "nameCN": "人造人间Kikaider",
+      "date": "2000-10-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 28238,
+      "name": "キカイダー01 THE ANIMATION",
+      "nameCN": "电脑奇侠 01",
+      "date": "2001-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 139478,
+      "name": "ギターを持った少年 -キカイダーVSイナズマン-",
+      "nameCN": "背着吉他的少年 -电脑奇侠 VS 闪电超人-",
+      "date": "2003-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 139573,
+      "name": "イナズマンVSキカイダー",
+      "nameCN": "闪电人 VS 电脑奇侠",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 18457,
+      "dst": 28238
+    },
+    {
+      "relateString": "前传",
+      "src": 28238,
+      "dst": 18457
+    },
+    {
+      "relateString": "续集",
+      "src": 28238,
+      "dst": 139478
+    },
+    {
+      "relateString": "前传",
+      "src": 139478,
+      "dst": 28238
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 139573,
+      "dst": 139478
+    }
+  ]
 }

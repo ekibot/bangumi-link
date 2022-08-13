@@ -1,37 +1,35 @@
 {
- "id": 153207,
- "node": [
-  {
-   "id": 153207,
-   "name": "乙女が彩る恋のエッセンス",
-   "nameCN": "少女荡漾滨纷的爱之芬芳",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/71/153207_t4rd9.jpg",
-   "date": "2016-03-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 188512,
-   "name": "乙女が彩る恋のエッセンス～笑顔で織りなす未来～",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/3f/188512_m18ZV.jpg",
-   "date": "2016-11-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 153207,
-   "dst": 188512
-  },
-  {
-   "relate": "前传",
-   "src": 188512,
-   "dst": 153207
-  }
- ]
+  "id": "153207",
+  "node": [
+    {
+      "id": 153207,
+      "name": "乙女が彩る恋のエッセンス",
+      "nameCN": "少女荡漾滨纷的爱之芬芳",
+      "date": "2016-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 188512,
+      "name": "乙女が彩る恋のエッセンス～笑顔で織りなす未来～",
+      "nameCN": "",
+      "date": "2016-11-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 153207,
+      "dst": 188512
+    },
+    {
+      "relateString": "前传",
+      "src": 188512,
+      "dst": 153207
+    }
+  ]
 }

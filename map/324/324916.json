@@ -1,37 +1,35 @@
 {
- "id": 324916,
- "node": [
-  {
-   "id": 324916,
-   "name": "medium 霊媒探偵城塚翡翠",
-   "nameCN": "心灵侦探城冢翡翠",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/42/324916_wq6Mk.jpg",
-   "date": "2019-09-12",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 339367,
-   "name": "invert 城塚翡翠倒叙集",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/6c/339367_zct66.jpg",
-   "date": "2021-07-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 324916,
-   "dst": 339367
-  },
-  {
-   "relate": "前传",
-   "src": 339367,
-   "dst": 324916
-  }
- ]
+  "id": "324916",
+  "node": [
+    {
+      "id": 324916,
+      "name": "medium 霊媒探偵城塚翡翠",
+      "nameCN": "心灵侦探城冢翡翠",
+      "date": "2019-09-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 339367,
+      "name": "invert 城塚翡翠倒叙集",
+      "nameCN": "",
+      "date": "2021-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 324916,
+      "dst": 339367
+    },
+    {
+      "relateString": "前传",
+      "src": 339367,
+      "dst": 324916
+    }
+  ]
 }

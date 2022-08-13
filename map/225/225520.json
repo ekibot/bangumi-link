@@ -1,57 +1,54 @@
 {
- "id": 225520,
- "node": [
-  {
-   "id": 225520,
-   "name": "The Orville",
-   "nameCN": "奥维尔号",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/2e/225520_NzZj8.jpg",
-   "date": "2017-09-10",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 272043,
-   "name": "The Orville Season2",
-   "nameCN": "奥维尔号 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/4e/272043_k3883.jpg",
-   "date": "2018-12-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 347656,
-   "name": "The Orville Season3",
-   "nameCN": "奥维尔号 第三季",
-   "date": "2022-06-02",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/d9/347656_5Sk6o.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225520,
-   "dst": 272043
-  },
-  {
-   "relate": "前传",
-   "src": 272043,
-   "dst": 225520
-  },
-  {
-   "relate": "续集",
-   "src": 272043,
-   "dst": 347656
-  },
-  {
-   "relate": "前传",
-   "src": 347656,
-   "dst": 272043
-  }
- ]
+  "id": "225520",
+  "node": [
+    {
+      "id": 225520,
+      "name": "The Orville",
+      "nameCN": "奥维尔号",
+      "date": "2017-09-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 272043,
+      "name": "The Orville Season2",
+      "nameCN": "奥维尔号 第二季",
+      "date": "2018-12-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 347656,
+      "name": "The Orville Season3",
+      "nameCN": "奥维尔号 第三季",
+      "date": "2022-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225520,
+      "dst": 272043
+    },
+    {
+      "relateString": "前传",
+      "src": 272043,
+      "dst": 225520
+    },
+    {
+      "relateString": "续集",
+      "src": 272043,
+      "dst": 347656
+    },
+    {
+      "relateString": "前传",
+      "src": 347656,
+      "dst": 272043
+    }
+  ]
 }

@@ -1,57 +1,51 @@
 {
- "id": 102892,
- "node": [
-  {
-   "id": 102892,
-   "name": "超頭脳シルバーウルフ (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/e2/102892_GKs03.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 102894,
-   "name": "超頭脳シルバーウルフ (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/3a/102894_paXTC.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 102910,
-   "name": "超頭脳シルバーウルフ (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/e8/102910_4LeLU.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 102892,
-   "dst": 102894
-  },
-  {
-   "relate": "前传",
-   "src": 102894,
-   "dst": 102892
-  },
-  {
-   "relate": "续集",
-   "src": 102894,
-   "dst": 102910
-  },
-  {
-   "relate": "前传",
-   "src": 102910,
-   "dst": 102894
-  }
- ]
+  "id": "102892",
+  "node": [
+    {
+      "id": 102892,
+      "name": "超頭脳シルバーウルフ (1)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 102894,
+      "name": "超頭脳シルバーウルフ (2)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 102910,
+      "name": "超頭脳シルバーウルフ (3)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 102892,
+      "dst": 102894
+    },
+    {
+      "relateString": "前传",
+      "src": 102894,
+      "dst": 102892
+    },
+    {
+      "relateString": "续集",
+      "src": 102894,
+      "dst": 102910
+    },
+    {
+      "relateString": "前传",
+      "src": 102910,
+      "dst": 102894
+    }
+  ]
 }

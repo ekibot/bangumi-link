@@ -1,57 +1,54 @@
 {
- "id": 27170,
- "node": [
-  {
-   "id": 27170,
-   "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコ",
-   "nameCN": "宇宙战舰山本洋子",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/45/27170_ji2gt.jpg",
-   "date": "1999-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 27206,
-   "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコ",
-   "nameCN": "宇宙战舰山本洋子",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/ab/27206_b8ZYY.jpg",
-   "date": "1996-03-06",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 27207,
-   "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコII",
-   "nameCN": "宇宙战舰山本洋子II",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/1c/27207_F9NK7.jpg",
-   "date": "1997-08-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 27170,
-   "dst": 27207
-  },
-  {
-   "relate": "续集",
-   "src": 27206,
-   "dst": 27207
-  },
-  {
-   "relate": "续集",
-   "src": 27207,
-   "dst": 27170
-  },
-  {
-   "relate": "前传",
-   "src": 27207,
-   "dst": 27206
-  }
- ]
+  "id": "27170",
+  "node": [
+    {
+      "id": 27170,
+      "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコ",
+      "nameCN": "宇宙战舰山本洋子",
+      "date": "1999-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 27207,
+      "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコII",
+      "nameCN": "宇宙战舰山本洋子II",
+      "date": "1997-08-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 27206,
+      "name": "それゆけ! 宇宙戦艦ヤマモト・ヨーコ",
+      "nameCN": "宇宙战舰山本洋子",
+      "date": "1996-03-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 27170,
+      "dst": 27207
+    },
+    {
+      "relateString": "续集",
+      "src": 27206,
+      "dst": 27207
+    },
+    {
+      "relateString": "续集",
+      "src": 27207,
+      "dst": 27170
+    },
+    {
+      "relateString": "前传",
+      "src": 27207,
+      "dst": 27206
+    }
+  ]
 }

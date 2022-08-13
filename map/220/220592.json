@@ -1,37 +1,34 @@
 {
- "id": 220592,
- "node": [
-  {
-   "id": 220592,
-   "name": "ヴァンダルハーツ〜失われた古代文明〜",
-   "nameCN": "汪达尔之心：失落的古代文明",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/2f/220592_6O0pE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260884,
-   "name": "ヴァンダルハーツ II 天上の門",
-   "nameCN": "汪达尔之心II",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/6b/260884_H6gb6.jpg",
-   "date": "1999-07-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 220592,
-   "dst": 260884
-  },
-  {
-   "relate": "前传",
-   "src": 260884,
-   "dst": 220592
-  }
- ]
+  "id": "220592",
+  "node": [
+    {
+      "id": 220592,
+      "name": "ヴァンダルハーツ〜失われた古代文明〜",
+      "nameCN": "汪达尔之心：失落的古代文明",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260884,
+      "name": "ヴァンダルハーツ II 天上の門",
+      "nameCN": "汪达尔之心II",
+      "date": "1999-07-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 220592,
+      "dst": 260884
+    },
+    {
+      "relateString": "前传",
+      "src": 260884,
+      "dst": 220592
+    }
+  ]
 }

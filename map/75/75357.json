@@ -1,57 +1,53 @@
 {
- "id": 75357,
- "node": [
-  {
-   "id": 75357,
-   "name": "Mrs Brown's Boys (Season 3)",
-   "nameCN": "布朗夫人的儿子们 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/ae/75357_iHTa6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 98026,
-   "name": "Mrs Brown's Boys (Season 1)",
-   "nameCN": "布朗夫人的儿子们 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/94/98026_y8VFX.jpg",
-   "date": "2011-01-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 98027,
-   "name": "Mrs Brown's Boys (Season 2)",
-   "nameCN": "布朗夫人的儿子们 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/dc/98027_ADT9C.jpg",
-   "date": "2011-12-31",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 75357,
-   "dst": 98027
-  },
-  {
-   "relate": "续集",
-   "src": 98026,
-   "dst": 98027
-  },
-  {
-   "relate": "续集",
-   "src": 98027,
-   "dst": 75357
-  },
-  {
-   "relate": "前传",
-   "src": 98027,
-   "dst": 98026
-  }
- ]
+  "id": "75357",
+  "node": [
+    {
+      "id": 75357,
+      "name": "Mrs Brown's Boys (Season 3)",
+      "nameCN": "布朗夫人的儿子们 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 98027,
+      "name": "Mrs Brown's Boys (Season 2)",
+      "nameCN": "布朗夫人的儿子们 第二季",
+      "date": "2011-12-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 98026,
+      "name": "Mrs Brown's Boys (Season 1)",
+      "nameCN": "布朗夫人的儿子们 第一季",
+      "date": "2011-01-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 75357,
+      "dst": 98027
+    },
+    {
+      "relateString": "续集",
+      "src": 98026,
+      "dst": 98027
+    },
+    {
+      "relateString": "续集",
+      "src": 98027,
+      "dst": 75357
+    },
+    {
+      "relateString": "前传",
+      "src": 98027,
+      "dst": 98026
+    }
+  ]
 }

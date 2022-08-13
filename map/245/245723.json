@@ -1,37 +1,35 @@
 {
- "id": 245723,
- "node": [
-  {
-   "id": 245723,
-   "name": "ふきげんなディア",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/bf/245723_UMrkM.jpg",
-   "date": "2018-01-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 294088,
-   "name": "ふきげんなディア 桜庭先生の稀有な悩み",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/1e/294088_bh3bs.jpg",
-   "date": "2019-11-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 245723,
-   "dst": 294088
-  },
-  {
-   "relate": "前传",
-   "src": 294088,
-   "dst": 245723
-  }
- ]
+  "id": "245723",
+  "node": [
+    {
+      "id": 245723,
+      "name": "ふきげんなディア",
+      "nameCN": "",
+      "date": "2018-01-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 294088,
+      "name": "ふきげんなディア 桜庭先生の稀有な悩み",
+      "nameCN": "",
+      "date": "2019-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 245723,
+      "dst": 294088
+    },
+    {
+      "relateString": "前传",
+      "src": 294088,
+      "dst": 245723
+    }
+  ]
 }

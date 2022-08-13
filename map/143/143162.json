@@ -1,77 +1,72 @@
 {
- "id": 143162,
- "node": [
-  {
-   "id": 143162,
-   "name": "MLB 14 THE SHOW",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/6e/143162_S48SB.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 348214,
-   "name": "MLB 12 THE SHOW",
-   "nameCN": "MLB美国职业棒球大联盟12",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/71/348214_NKU4Z.jpg",
-   "date": "2012-03-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 348215,
-   "name": "MLB 13 THE SHOW",
-   "nameCN": "MLB美国职业棒球大联盟13",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/99/348215_pivkA.jpg",
-   "date": "2013-03-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 348216,
-   "name": "MLB 15 THE SHOW",
-   "nameCN": "MLB美国职业棒球大联盟15",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/ea/348216_TiH5Z.jpg",
-   "date": "2015-03-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 143162,
-   "dst": 348215
-  },
-  {
-   "relate": "续集",
-   "src": 143162,
-   "dst": 348216
-  },
-  {
-   "relate": "续集",
-   "src": 348214,
-   "dst": 348215
-  },
-  {
-   "relate": "续集",
-   "src": 348215,
-   "dst": 143162
-  },
-  {
-   "relate": "前传",
-   "src": 348215,
-   "dst": 348214
-  },
-  {
-   "relate": "前传",
-   "src": 348216,
-   "dst": 143162
-  }
- ]
+  "id": "143162",
+  "node": [
+    {
+      "id": 143162,
+      "name": "MLB 14 THE SHOW",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348215,
+      "name": "MLB 13 THE SHOW",
+      "nameCN": "MLB美国职业棒球大联盟13",
+      "date": "2013-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348216,
+      "name": "MLB 15 THE SHOW",
+      "nameCN": "MLB美国职业棒球大联盟15",
+      "date": "2015-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348214,
+      "name": "MLB 12 THE SHOW",
+      "nameCN": "MLB美国职业棒球大联盟12",
+      "date": "2012-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 143162,
+      "dst": 348215
+    },
+    {
+      "relateString": "续集",
+      "src": 143162,
+      "dst": 348216
+    },
+    {
+      "relateString": "续集",
+      "src": 348214,
+      "dst": 348215
+    },
+    {
+      "relateString": "续集",
+      "src": 348215,
+      "dst": 143162
+    },
+    {
+      "relateString": "前传",
+      "src": 348215,
+      "dst": 348214
+    },
+    {
+      "relateString": "前传",
+      "src": 348216,
+      "dst": 143162
+    }
+  ]
 }

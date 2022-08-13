@@ -1,57 +1,51 @@
 {
- "id": 19155,
- "node": [
-  {
-   "id": 19155,
-   "name": "トーマの心臓",
-   "nameCN": "托马的心脏",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/f7/19155_n2906.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 135002,
-   "name": "訪問者",
-   "nameCN": "访问者",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/84/135002_39Vl6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 135608,
-   "name": "湖畔にて - エーリク 十四と半分の年の夏",
-   "nameCN": "在湖畔 - 亚历克 十四岁半那年的夏天",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/c6/135608_GcuKN.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 19155,
-   "dst": 135002
-  },
-  {
-   "relate": "续集",
-   "src": 19155,
-   "dst": 135608
-  },
-  {
-   "relate": "续集",
-   "src": 135002,
-   "dst": 19155
-  },
-  {
-   "relate": "前传",
-   "src": 135608,
-   "dst": 19155
-  }
- ]
+  "id": "19155",
+  "node": [
+    {
+      "id": 19155,
+      "name": "トーマの心臓",
+      "nameCN": "托马的心脏",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 135002,
+      "name": "訪問者",
+      "nameCN": "访问者",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 135608,
+      "name": "湖畔にて - エーリク 十四と半分の年の夏",
+      "nameCN": "在湖畔 - 亚历克 十四岁半那年的夏天",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 19155,
+      "dst": 135002
+    },
+    {
+      "relateString": "续集",
+      "src": 19155,
+      "dst": 135608
+    },
+    {
+      "relateString": "续集",
+      "src": 135002,
+      "dst": 19155
+    },
+    {
+      "relateString": "前传",
+      "src": 135608,
+      "dst": 19155
+    }
+  ]
 }

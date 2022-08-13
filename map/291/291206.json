@@ -1,57 +1,54 @@
 {
- "id": 291206,
- "node": [
-  {
-   "id": 291206,
-   "name": "万圣街",
-   "nameCN": "万圣街",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/32/291206_bE6ik.jpg",
-   "date": "2020-04-01",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 312314,
-   "name": "万圣街2",
-   "nameCN": "万圣街 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/15/312314_2X5XZ.jpg",
-   "date": "2020-10-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 345809,
-   "name": "万圣街 第三季",
-   "nameCN": "万圣街 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/d8/345809_kFIXd.jpg",
-   "date": "2022-01-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 291206,
-   "dst": 312314
-  },
-  {
-   "relate": "前传",
-   "src": 312314,
-   "dst": 291206
-  },
-  {
-   "relate": "续集",
-   "src": 312314,
-   "dst": 345809
-  },
-  {
-   "relate": "前传",
-   "src": 345809,
-   "dst": 312314
-  }
- ]
+  "id": "291206",
+  "node": [
+    {
+      "id": 291206,
+      "name": "万圣街",
+      "nameCN": "万圣街",
+      "date": "2020-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 312314,
+      "name": "万圣街2",
+      "nameCN": "万圣街 第二季",
+      "date": "2020-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345809,
+      "name": "万圣街 第三季",
+      "nameCN": "万圣街 第三季",
+      "date": "2022-01-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 291206,
+      "dst": 312314
+    },
+    {
+      "relateString": "前传",
+      "src": 312314,
+      "dst": 291206
+    },
+    {
+      "relateString": "续集",
+      "src": 312314,
+      "dst": 345809
+    },
+    {
+      "relateString": "前传",
+      "src": 345809,
+      "dst": 312314
+    }
+  ]
 }

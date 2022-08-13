@@ -1,37 +1,35 @@
 {
- "id": 8582,
- "node": [
-  {
-   "id": 8582,
-   "name": "獣兵衛忍風帖",
-   "nameCN": "兽兵卫忍风帖",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/28/8582_cCtWN.jpg",
-   "date": "1993-06-05",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 36484,
-   "name": "獣兵衛忍風帖 龍宝玉篇",
-   "nameCN": "兽兵卫忍风帖 龙宝玉篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/a2/36484_qs4S7.jpg",
-   "date": "2003-04-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8582,
-   "dst": 36484
-  },
-  {
-   "relate": "前传",
-   "src": 36484,
-   "dst": 8582
-  }
- ]
+  "id": "8582",
+  "node": [
+    {
+      "id": 8582,
+      "name": "獣兵衛忍風帖",
+      "nameCN": "兽兵卫忍风帖",
+      "date": "1993-06-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 36484,
+      "name": "獣兵衛忍風帖 龍宝玉篇",
+      "nameCN": "兽兵卫忍风帖 龙宝玉篇",
+      "date": "2003-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8582,
+      "dst": 36484
+    },
+    {
+      "relateString": "前传",
+      "src": 36484,
+      "dst": 8582
+    }
+  ]
 }

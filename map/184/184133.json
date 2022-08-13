@@ -1,37 +1,35 @@
 {
- "id": 184133,
- "node": [
-  {
-   "id": 184133,
-   "name": "楽園通信社綺談",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/e8/184133_jp.jpg",
-   "date": "2006-10-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 184135,
-   "name": "ビブリオテーク・リヴ",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/c2/184135_jp.jpg",
-   "date": "2006-11-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 184133,
-   "dst": 184135
-  },
-  {
-   "relate": "前传",
-   "src": 184135,
-   "dst": 184133
-  }
- ]
+  "id": "184133",
+  "node": [
+    {
+      "id": 184133,
+      "name": "楽園通信社綺談",
+      "nameCN": "",
+      "date": "2006-10-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 184135,
+      "name": "ビブリオテーク・リヴ",
+      "nameCN": "",
+      "date": "2006-11-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 184133,
+      "dst": 184135
+    },
+    {
+      "relateString": "前传",
+      "src": 184135,
+      "dst": 184133
+    }
+  ]
 }

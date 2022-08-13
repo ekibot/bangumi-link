@@ -1,77 +1,73 @@
 {
- "id": 211440,
- "node": [
-  {
-   "id": 211440,
-   "name": "「クロネコのはなし」",
-   "nameCN": "『黑猫物语』",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/59/211440_QR9bi.jpg",
-   "date": "2015-10-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 211441,
-   "name": "「魔法使いのはなし」",
-   "nameCN": "「魔法使物语」",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/13/211441_0x20r.jpg",
-   "date": "2015-11-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 211446,
-   "name": "クロネコのはなし　Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/50/211446_J7P97.jpg",
-   "date": "2016-07-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 211447,
-   "name": "魔法使いのはなしⅡ",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/9c/211447_6ry26.jpg",
-   "date": "2017-01-20",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 211440,
-   "dst": 211441
-  },
-  {
-   "relate": "续集",
-   "src": 211440,
-   "dst": 211446
-  },
-  {
-   "relate": "续集",
-   "src": 211441,
-   "dst": 211440
-  },
-  {
-   "relate": "续集",
-   "src": 211441,
-   "dst": 211447
-  },
-  {
-   "relate": "前传",
-   "src": 211446,
-   "dst": 211440
-  },
-  {
-   "relate": "前传",
-   "src": 211447,
-   "dst": 211441
-  }
- ]
+  "id": "211440",
+  "node": [
+    {
+      "id": 211440,
+      "name": "「クロネコのはなし」",
+      "nameCN": "『黑猫物语』",
+      "date": "2015-10-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211441,
+      "name": "「魔法使いのはなし」",
+      "nameCN": "「魔法使物语」",
+      "date": "2015-11-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211446,
+      "name": "クロネコのはなし　Ⅱ",
+      "nameCN": "",
+      "date": "2016-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211447,
+      "name": "魔法使いのはなしⅡ",
+      "nameCN": "",
+      "date": "2017-01-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 211440,
+      "dst": 211441
+    },
+    {
+      "relateString": "续集",
+      "src": 211440,
+      "dst": 211446
+    },
+    {
+      "relateString": "续集",
+      "src": 211441,
+      "dst": 211440
+    },
+    {
+      "relateString": "续集",
+      "src": 211441,
+      "dst": 211447
+    },
+    {
+      "relateString": "前传",
+      "src": 211446,
+      "dst": 211440
+    },
+    {
+      "relateString": "前传",
+      "src": 211447,
+      "dst": 211441
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 69804,
- "node": [
-  {
-   "id": 69804,
-   "name": "erotica",
-   "nameCN": "erotica",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/ed/69804_jp.jpg",
-   "date": "2012-08-20",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 128020,
-   "name": "threesome",
-   "nameCN": "threesome极道秘情",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/f8/128020_jp.jpg",
-   "date": "2015-03-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 69804,
-   "dst": 128020
-  },
-  {
-   "relate": "前传",
-   "src": 128020,
-   "dst": 69804
-  }
- ]
+  "id": "69804",
+  "node": [
+    {
+      "id": 69804,
+      "name": "erotica",
+      "nameCN": "erotica",
+      "date": "2012-08-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 128020,
+      "name": "threesome",
+      "nameCN": "threesome极道秘情",
+      "date": "2015-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 69804,
+      "dst": 128020
+    },
+    {
+      "relateString": "前传",
+      "src": 128020,
+      "dst": 69804
+    }
+  ]
 }

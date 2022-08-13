@@ -1,37 +1,34 @@
 {
- "id": 22126,
- "node": [
-  {
-   "id": 22126,
-   "name": "カンガエル EXIT",
-   "nameCN": "思考  紧急出口",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/bb/22126_44nnP.jpg",
-   "date": "2006-09-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 169541,
-   "name": "EXIT",
-   "nameCN": "逃脱大师",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/61/169541_NOt0H.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 22126,
-   "dst": 169541
-  },
-  {
-   "relate": "续集",
-   "src": 169541,
-   "dst": 22126
-  }
- ]
+  "id": "22126",
+  "node": [
+    {
+      "id": 22126,
+      "name": "カンガエル EXIT",
+      "nameCN": "思考  紧急出口",
+      "date": "2006-09-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 169541,
+      "name": "EXIT",
+      "nameCN": "逃脱大师",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 22126,
+      "dst": 169541
+    },
+    {
+      "relateString": "续集",
+      "src": 169541,
+      "dst": 22126
+    }
+  ]
 }

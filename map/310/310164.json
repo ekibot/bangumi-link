@@ -1,37 +1,34 @@
 {
- "id": 310164,
- "node": [
-  {
-   "id": 310164,
-   "name": "Breakout",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/0d/310164_WmDDa.jpg",
-   "date": "1976-05-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 310170,
-   "name": "Super Breakout",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 310164,
-   "dst": 310170
-  },
-  {
-   "relate": "前传",
-   "src": 310170,
-   "dst": 310164
-  }
- ]
+  "id": "310164",
+  "node": [
+    {
+      "id": 310164,
+      "name": "Breakout",
+      "nameCN": "",
+      "date": "1976-05-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 310170,
+      "name": "Super Breakout",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 310164,
+      "dst": 310170
+    },
+    {
+      "relateString": "前传",
+      "src": 310170,
+      "dst": 310164
+    }
+  ]
 }

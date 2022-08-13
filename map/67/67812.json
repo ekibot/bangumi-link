@@ -1,37 +1,34 @@
 {
- "id": 67812,
- "node": [
-  {
-   "id": 67812,
-   "name": "奴隷区 僕と23人の奴隷",
-   "nameCN": "奴隶区 我与23人的奴隶",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/8a/67812_1b3d3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 216269,
-   "name": "大奴隷区 君と1億3千万の奴隷",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/21/216269_uK8BG.jpg",
-   "date": "2017-05-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 67812,
-   "dst": 216269
-  },
-  {
-   "relate": "前传",
-   "src": 216269,
-   "dst": 67812
-  }
- ]
+  "id": "67812",
+  "node": [
+    {
+      "id": 67812,
+      "name": "奴隷区 僕と23人の奴隷",
+      "nameCN": "奴隶区 我与23人的奴隶",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 216269,
+      "name": "大奴隷区 君と1億3千万の奴隷",
+      "nameCN": "",
+      "date": "2017-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67812,
+      "dst": 216269
+    },
+    {
+      "relateString": "前传",
+      "src": 216269,
+      "dst": 67812
+    }
+  ]
 }

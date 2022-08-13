@@ -1,51 +1,49 @@
 {
- "id": 6353,
- "node": [
-  {
-   "id": 6353,
-   "name": "JINKI-真説-コンプリート・エディション",
-   "nameCN": "人机-真说-完全版",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/57/6353_3UnSl.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 38868,
-   "name": "JINKI:EXTEND コンプリート・エディション",
-   "nameCN": "人机 续篇 完全版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/87/38868_91Hfu.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 294938,
-   "name": "JINKI  RESURRECTION",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/91/294938_fuxF0.jpg",
-   "date": "2020-03-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6353,
-   "dst": 38868
-  },
-  {
-   "relate": "前传",
-   "src": 38868,
-   "dst": 6353
-  },
-  {
-   "relate": "前传",
-   "src": 294938,
-   "dst": 38868
-  }
- ]
+  "id": "6353",
+  "node": [
+    {
+      "id": 6353,
+      "name": "JINKI-真説-コンプリート・エディション",
+      "nameCN": "人机-真说-完全版",
+      "date": "2008-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 38868,
+      "name": "JINKI:EXTEND コンプリート・エディション",
+      "nameCN": "人机 续篇 完全版",
+      "date": "2011-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 294938,
+      "name": "JINKI  RESURRECTION",
+      "nameCN": "",
+      "date": "2020-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6353,
+      "dst": 38868
+    },
+    {
+      "relateString": "前传",
+      "src": 38868,
+      "dst": 6353
+    },
+    {
+      "relateString": "前传",
+      "src": 294938,
+      "dst": 38868
+    }
+  ]
 }

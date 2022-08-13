@@ -1,37 +1,34 @@
 {
- "id": 67403,
- "node": [
-  {
-   "id": 67403,
-   "name": "ゆりてつ 私立百合ヶ咲女子高鉄道部",
-   "nameCN": "百合铁~私立百合咲女子高校铁道部~",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/30/67403_pn3f1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 301277,
-   "name": "鉄娘な3姉妹",
-   "nameCN": "铁娘3姐妹",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/21/301277_99t58.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 67403,
-   "dst": 301277
-  },
-  {
-   "relate": "续集",
-   "src": 301277,
-   "dst": 67403
-  }
- ]
+  "id": "67403",
+  "node": [
+    {
+      "id": 67403,
+      "name": "ゆりてつ 私立百合ヶ咲女子高鉄道部",
+      "nameCN": "百合铁~私立百合咲女子高校铁道部~",
+      "date": "2011-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 301277,
+      "name": "鉄娘な3姉妹",
+      "nameCN": "铁娘3姐妹",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 67403,
+      "dst": 301277
+    },
+    {
+      "relateString": "续集",
+      "src": 301277,
+      "dst": 67403
+    }
+  ]
 }

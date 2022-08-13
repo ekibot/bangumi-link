@@ -1,37 +1,34 @@
 {
- "id": 156051,
- "node": [
-  {
-   "id": 156051,
-   "name": "貴公子と迷子のウサギ〈前編〉",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/d2/156051_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 156052,
-   "name": "貴公子と迷子のウサギ〈後編〉",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/75/156052_jp.jpg",
-   "date": "2004-10-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156051,
-   "dst": 156052
-  },
-  {
-   "relate": "前传",
-   "src": 156052,
-   "dst": 156051
-  }
- ]
+  "id": "156051",
+  "node": [
+    {
+      "id": 156051,
+      "name": "貴公子と迷子のウサギ〈前編〉",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 156052,
+      "name": "貴公子と迷子のウサギ〈後編〉",
+      "nameCN": "",
+      "date": "2004-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156051,
+      "dst": 156052
+    },
+    {
+      "relateString": "前传",
+      "src": 156052,
+      "dst": 156051
+    }
+  ]
 }

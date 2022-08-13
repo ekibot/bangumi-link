@@ -1,37 +1,34 @@
 {
- "id": 62054,
- "node": [
-  {
-   "id": 62054,
-   "name": "クロサギ",
-   "nameCN": "诈欺猎人",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/65/62054_303Tk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 62121,
-   "name": "新クロサギ",
-   "nameCN": "新诈欺猎人",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/ac/62121_R5UGq.jpg",
-   "date": "2008-12-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 62054,
-   "dst": 62121
-  },
-  {
-   "relate": "前传",
-   "src": 62121,
-   "dst": 62054
-  }
- ]
+  "id": "62054",
+  "node": [
+    {
+      "id": 62054,
+      "name": "クロサギ",
+      "nameCN": "诈欺猎人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 62121,
+      "name": "新クロサギ",
+      "nameCN": "新诈欺猎人",
+      "date": "2008-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 62054,
+      "dst": 62121
+    },
+    {
+      "relateString": "前传",
+      "src": 62121,
+      "dst": 62054
+    }
+  ]
 }

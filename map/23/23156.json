@@ -1,37 +1,35 @@
 {
- "id": 23156,
- "node": [
-  {
-   "id": 23156,
-   "name": "メモリーズオフ3.5〜想い出の彼方へ〜",
-   "nameCN": "秋之回忆3.5〜朝向回忆的彼方〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/f5/23156_tMy5g.jpg",
-   "date": "2004-05-12",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 55680,
-   "name": "メモリーズオフ3.5 祈りの届く刻…",
-   "nameCN": "秋之回忆3.5 传达祈愿的时刻…",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/27/55680_QqSKZ.jpg",
-   "date": "2004-09-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23156,
-   "dst": 55680
-  },
-  {
-   "relate": "前传",
-   "src": 55680,
-   "dst": 23156
-  }
- ]
+  "id": "23156",
+  "node": [
+    {
+      "id": 23156,
+      "name": "メモリーズオフ3.5〜想い出の彼方へ〜",
+      "nameCN": "秋之回忆3.5〜朝向回忆的彼方〜",
+      "date": "2004-05-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 55680,
+      "name": "メモリーズオフ3.5 祈りの届く刻…",
+      "nameCN": "秋之回忆3.5 传达祈愿的时刻…",
+      "date": "2004-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23156,
+      "dst": 55680
+    },
+    {
+      "relateString": "前传",
+      "src": 55680,
+      "dst": 23156
+    }
+  ]
 }

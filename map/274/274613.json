@@ -1,57 +1,54 @@
 {
- "id": 274613,
- "node": [
-  {
-   "id": 274613,
-   "name": "Love, Death &amp; Robots",
-   "nameCN": "爱、死亡 &amp; 机器人",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/b8/274613_sx1iX.jpg",
-   "date": "2019-03-15",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 284428,
-   "name": "Love, Death &amp; Robots Volume 2",
-   "nameCN": "爱、死亡 &amp; 机器人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/b7/284428_3q1MO.jpg",
-   "date": "2021-05-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 333707,
-   "name": "Love, Death &amp; Robots Volume 3",
-   "nameCN": "爱、死亡 &amp; 机器人 第三季",
-   "date": "2022-05-20",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/a9/333707_XoOYR.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 274613,
-   "dst": 284428
-  },
-  {
-   "relate": "前传",
-   "src": 284428,
-   "dst": 274613
-  },
-  {
-   "relate": "续集",
-   "src": 284428,
-   "dst": 333707
-  },
-  {
-   "relate": "前传",
-   "src": 333707,
-   "dst": 284428
-  }
- ]
+  "id": "274613",
+  "node": [
+    {
+      "id": 274613,
+      "name": "Love, Death &amp; Robots",
+      "nameCN": "爱、死亡 &amp; 机器人",
+      "date": "2019-03-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 284428,
+      "name": "Love, Death &amp; Robots Volume 2",
+      "nameCN": "爱、死亡 &amp; 机器人 第二季",
+      "date": "2021-05-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 333707,
+      "name": "Love, Death &amp; Robots Volume 3",
+      "nameCN": "爱、死亡 &amp; 机器人 第三季",
+      "date": "2022-05-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 274613,
+      "dst": 284428
+    },
+    {
+      "relateString": "前传",
+      "src": 284428,
+      "dst": 274613
+    },
+    {
+      "relateString": "续集",
+      "src": 284428,
+      "dst": 333707
+    },
+    {
+      "relateString": "前传",
+      "src": 333707,
+      "dst": 284428
+    }
+  ]
 }

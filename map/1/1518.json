@@ -1,37 +1,35 @@
 {
- "id": 1518,
- "node": [
-  {
-   "id": 1518,
-   "name": "ドラゴン桜",
-   "nameCN": "龙樱",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/d6/1518_zW6bZ.jpg",
-   "date": "2005-07-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 299230,
-   "name": "ドラゴン桜2",
-   "nameCN": "龙樱2",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/4d/299230_MHM9s.jpg",
-   "date": "2021-04-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1518,
-   "dst": 299230
-  },
-  {
-   "relate": "前传",
-   "src": 299230,
-   "dst": 1518
-  }
- ]
+  "id": "1518",
+  "node": [
+    {
+      "id": 1518,
+      "name": "ドラゴン桜",
+      "nameCN": "龙樱",
+      "date": "2005-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 299230,
+      "name": "ドラゴン桜2",
+      "nameCN": "龙樱2",
+      "date": "2021-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1518,
+      "dst": 299230
+    },
+    {
+      "relateString": "前传",
+      "src": 299230,
+      "dst": 1518
+    }
+  ]
 }

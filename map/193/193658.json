@@ -1,71 +1,73 @@
 {
- "id": 193658,
- "node": [
-  {
-   "id": 193658,
-   "name": "Atlanta Season 1",
-   "nameCN": "亚特兰大 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/c9/193658_Ejeuq.jpg",
-   "date": "2016-09-06",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 225986,
-   "name": "Atlanta Season 2",
-   "nameCN": "亚特兰大 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/a6/225986_iVkSS.jpg",
-   "date": "2018-03-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 378555,
-   "name": "Atlanta Season 3",
-   "nameCN": "亚特兰大 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/f0/378555_qrP1x.jpg",
-   "date": "2022-03-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 392917,
-   "name": "Atlanta Season 4",
-   "nameCN": "亚特兰大 第四季",
-   "image": "",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 193658,
-   "dst": 225986
-  },
-  {
-   "relate": "前传",
-   "src": 225986,
-   "dst": 193658
-  },
-  {
-   "relate": "续集",
-   "src": 225986,
-   "dst": 378555
-  },
-  {
-   "relate": "前传",
-   "src": 378555,
-   "dst": 225986
-  },
-  {
-   "relate": "前传",
-   "src": 392917,
-   "dst": 378555
-  }
- ]
+  "id": "193658",
+  "node": [
+    {
+      "id": 193658,
+      "name": "Atlanta Season 1",
+      "nameCN": "亚特兰大 第一季",
+      "date": "2016-09-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 225986,
+      "name": "Atlanta Season 2",
+      "nameCN": "亚特兰大 第二季",
+      "date": "2018-03-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 378555,
+      "name": "Atlanta Season 3",
+      "nameCN": "亚特兰大 第三季",
+      "date": "2022-03-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 392917,
+      "name": "Atlanta Season 4",
+      "nameCN": "亚特兰大 第四季",
+      "date": "2022-09-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 193658,
+      "dst": 225986
+    },
+    {
+      "relateString": "前传",
+      "src": 225986,
+      "dst": 193658
+    },
+    {
+      "relateString": "续集",
+      "src": 225986,
+      "dst": 378555
+    },
+    {
+      "relateString": "前传",
+      "src": 378555,
+      "dst": 225986
+    },
+    {
+      "relateString": "续集",
+      "src": 378555,
+      "dst": 392917
+    },
+    {
+      "relateString": "前传",
+      "src": 392917,
+      "dst": 378555
+    }
+  ]
 }

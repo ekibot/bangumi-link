@@ -1,37 +1,35 @@
 {
- "id": 271776,
- "node": [
-  {
-   "id": 271776,
-   "name": "オレを守ると誓ってよ",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/78/271776_09DKp.jpg",
-   "date": "2017-08-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271777,
-   "name": "オレを守ると誓ってよ more!",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/06/271777_IR72M.jpg",
-   "date": "2019-01-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 271776,
-   "dst": 271777
-  },
-  {
-   "relate": "前传",
-   "src": 271777,
-   "dst": 271776
-  }
- ]
+  "id": "271776",
+  "node": [
+    {
+      "id": 271776,
+      "name": "オレを守ると誓ってよ",
+      "nameCN": "",
+      "date": "2017-08-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271777,
+      "name": "オレを守ると誓ってよ more!",
+      "nameCN": "",
+      "date": "2019-01-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 271776,
+      "dst": 271777
+    },
+    {
+      "relateString": "前传",
+      "src": 271777,
+      "dst": 271776
+    }
+  ]
 }

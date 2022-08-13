@@ -1,37 +1,35 @@
 {
- "id": 78597,
- "node": [
-  {
-   "id": 78597,
-   "name": "偷星九月天之童年故事",
-   "nameCN": "偷星九月天之童年故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/ca/78597_OSgpF.jpg",
-   "date": "2009-12-31",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 126421,
-   "name": "偷星九月天之侦探学院",
-   "nameCN": "偷星九月天之侦探学院",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/93/126421_ihJqF.jpg",
-   "date": "2014-11-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78597,
-   "dst": 126421
-  },
-  {
-   "relate": "前传",
-   "src": 126421,
-   "dst": 78597
-  }
- ]
+  "id": "78597",
+  "node": [
+    {
+      "id": 78597,
+      "name": "偷星九月天之童年故事",
+      "nameCN": "偷星九月天之童年故事",
+      "date": "2009-12-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 126421,
+      "name": "偷星九月天之侦探学院",
+      "nameCN": "偷星九月天之侦探学院",
+      "date": "2014-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78597,
+      "dst": 126421
+    },
+    {
+      "relateString": "前传",
+      "src": 126421,
+      "dst": 78597
+    }
+  ]
 }

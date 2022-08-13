@@ -1,37 +1,34 @@
 {
- "id": 5582,
- "node": [
-  {
-   "id": 5582,
-   "name": "Syd&amp;Lid",
-   "nameCN": "魔法人西德&amp;利德系列",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/36/5582_ObSFe.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162569,
-   "name": "バリエ ガーデン",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/97/162569_mWMdT.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 5582,
-   "dst": 162569
-  },
-  {
-   "relate": "前传",
-   "src": 162569,
-   "dst": 5582
-  }
- ]
+  "id": "5582",
+  "node": [
+    {
+      "id": 5582,
+      "name": "Syd&amp;Lid",
+      "nameCN": "魔法人西德&amp;利德系列",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162569,
+      "name": "バリエ ガーデン",
+      "nameCN": "",
+      "date": "2013-08-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 5582,
+      "dst": 162569
+    },
+    {
+      "relateString": "前传",
+      "src": 162569,
+      "dst": 5582
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 55699,
- "node": [
-  {
-   "id": 55699,
-   "name": "Diagnosis ～淫魔のノート～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/00/55699_8LmuU.jpg",
-   "date": "2006-03-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 55701,
-   "name": "Diagnosis2 ～強欲のノート～",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/be/55701_r16G1.jpg",
-   "date": "2007-05-11",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 55699,
-   "dst": 55701
-  },
-  {
-   "relate": "前传",
-   "src": 55701,
-   "dst": 55699
-  }
- ]
+  "id": "55699",
+  "node": [
+    {
+      "id": 55699,
+      "name": "Diagnosis ～淫魔のノート～",
+      "nameCN": "",
+      "date": "2006-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 55701,
+      "name": "Diagnosis2 ～強欲のノート～",
+      "nameCN": "",
+      "date": "2007-05-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 55699,
+      "dst": 55701
+    },
+    {
+      "relateString": "前传",
+      "src": 55701,
+      "dst": 55699
+    }
+  ]
 }

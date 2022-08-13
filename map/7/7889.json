@@ -1,37 +1,35 @@
 {
- "id": 7889,
- "node": [
-  {
-   "id": 7889,
-   "name": "エンドゲーム 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/09/7889_jp.jpg",
-   "date": "2010-07-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 86531,
-   "name": "エンドゲーム 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/4b/86531_jp.jpg",
-   "date": "2010-12-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7889,
-   "dst": 86531
-  },
-  {
-   "relate": "前传",
-   "src": 86531,
-   "dst": 7889
-  }
- ]
+  "id": "7889",
+  "node": [
+    {
+      "id": 7889,
+      "name": "エンドゲーム 1",
+      "nameCN": "",
+      "date": "2010-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86531,
+      "name": "エンドゲーム 2",
+      "nameCN": "",
+      "date": "2010-12-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7889,
+      "dst": 86531
+    },
+    {
+      "relateString": "前传",
+      "src": 86531,
+      "dst": 7889
+    }
+  ]
 }

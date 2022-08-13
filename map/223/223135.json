@@ -1,37 +1,35 @@
 {
- "id": 223135,
- "node": [
-  {
-   "id": 223135,
-   "name": "いただきじゃんがりあん",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/e4/223135_XmdpD.jpg",
-   "date": "2000-11-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 223137,
-   "name": "いただきじゃんがりあんR",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/c6/223137_uU8U8.jpg",
-   "date": "2005-08-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223135,
-   "dst": 223137
-  },
-  {
-   "relate": "前传",
-   "src": 223137,
-   "dst": 223135
-  }
- ]
+  "id": "223135",
+  "node": [
+    {
+      "id": 223135,
+      "name": "いただきじゃんがりあん",
+      "nameCN": "",
+      "date": "2000-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223137,
+      "name": "いただきじゃんがりあんR",
+      "nameCN": "",
+      "date": "2005-08-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223135,
+      "dst": 223137
+    },
+    {
+      "relateString": "前传",
+      "src": 223137,
+      "dst": 223135
+    }
+  ]
 }

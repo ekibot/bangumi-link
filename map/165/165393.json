@@ -1,37 +1,33 @@
 {
- "id": 165393,
- "node": [
-  {
-   "id": 165393,
-   "name": "Lily love",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/01/165393_hbB02.jpg",
-   "date": null,
-   "nameCN": "莉莉之爱",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 314340,
-   "name": "Lily Love 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/29/314340_iYtZO.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165393,
-   "dst": 314340
-  },
-  {
-   "relate": "前传",
-   "src": 314340,
-   "dst": 165393
-  }
- ]
+  "id": "165393",
+  "node": [
+    {
+      "id": 165393,
+      "name": "Lily love",
+      "nameCN": "莉莉之爱",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 314340,
+      "name": "Lily Love 2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165393,
+      "dst": 314340
+    },
+    {
+      "relateString": "前传",
+      "src": 314340,
+      "dst": 165393
+    }
+  ]
 }

@@ -1,57 +1,52 @@
 {
- "id": 11595,
- "node": [
-  {
-   "id": 11595,
-   "name": "Magicka",
-   "nameCN": "魔能",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/8b/11595_ttDTk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 100976,
-   "name": "Magicka: Wizards of the Square Tablet",
-   "nameCN": "魔能移动版",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/bd/100976_w2Seb.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 105663,
-   "name": "Magicka 2",
-   "nameCN": "魔能2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/c2/105663_585wB.jpg",
-   "date": "2015-05-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 11595,
-   "dst": 100976
-  },
-  {
-   "relate": "续集",
-   "src": 11595,
-   "dst": 105663
-  },
-  {
-   "relate": "不同演绎",
-   "src": 100976,
-   "dst": 11595
-  },
-  {
-   "relate": "前传",
-   "src": 105663,
-   "dst": 11595
-  }
- ]
+  "id": "11595",
+  "node": [
+    {
+      "id": 11595,
+      "name": "Magicka",
+      "nameCN": "魔能",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 100976,
+      "name": "Magicka: Wizards of the Square Tablet",
+      "nameCN": "魔能移动版",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 105663,
+      "name": "Magicka 2",
+      "nameCN": "魔能2",
+      "date": "2015-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 11595,
+      "dst": 100976
+    },
+    {
+      "relateString": "续集",
+      "src": 11595,
+      "dst": 105663
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 100976,
+      "dst": 11595
+    },
+    {
+      "relateString": "前传",
+      "src": 105663,
+      "dst": 11595
+    }
+  ]
 }

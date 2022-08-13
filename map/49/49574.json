@@ -1,37 +1,35 @@
 {
- "id": 49574,
- "node": [
-  {
-   "id": 49574,
-   "name": "Temple Run",
-   "nameCN": "神庙逃亡",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/46/49574_4FaoO.jpg",
-   "date": "2012-03-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 63975,
-   "name": "Temple Run 2",
-   "nameCN": "神庙逃亡 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/23/63975_RWYy5.jpg",
-   "date": "2013-02-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49574,
-   "dst": 63975
-  },
-  {
-   "relate": "前传",
-   "src": 63975,
-   "dst": 49574
-  }
- ]
+  "id": "49574",
+  "node": [
+    {
+      "id": 49574,
+      "name": "Temple Run",
+      "nameCN": "神庙逃亡",
+      "date": "2012-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 63975,
+      "name": "Temple Run 2",
+      "nameCN": "神庙逃亡 2",
+      "date": "2013-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49574,
+      "dst": 63975
+    },
+    {
+      "relateString": "前传",
+      "src": 63975,
+      "dst": 49574
+    }
+  ]
 }

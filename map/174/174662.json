@@ -1,77 +1,72 @@
 {
- "id": 174662,
- "node": [
-  {
-   "id": 174662,
-   "name": "Toy Soldiers",
-   "nameCN": "玩具士兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/c4/174662_gZD3D.jpg",
-   "date": "2010-03-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307429,
-   "name": "Toy Soldiers: Cold War",
-   "nameCN": "玩具士兵：冷战",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/ef/307429_Js60R.jpg",
-   "date": "2011-08-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 307440,
-   "name": "Toy Soldiers: War Chest",
-   "nameCN": "玩具士兵：战争宝箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/cf/307440_TDa6X.jpg",
-   "date": "2015-08-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 307441,
-   "name": "Toy Soldiers 2: Finest Hour",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/57/307441_55Moy.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 174662,
-   "dst": 307429
-  },
-  {
-   "relate": "前传",
-   "src": 307429,
-   "dst": 174662
-  },
-  {
-   "relate": "续集",
-   "src": 307429,
-   "dst": 307440
-  },
-  {
-   "relate": "续集",
-   "src": 307429,
-   "dst": 307441
-  },
-  {
-   "relate": "前传",
-   "src": 307440,
-   "dst": 307429
-  },
-  {
-   "relate": "前传",
-   "src": 307441,
-   "dst": 307429
-  }
- ]
+  "id": "174662",
+  "node": [
+    {
+      "id": 174662,
+      "name": "Toy Soldiers",
+      "nameCN": "玩具士兵",
+      "date": "2010-03-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307429,
+      "name": "Toy Soldiers: Cold War",
+      "nameCN": "玩具士兵：冷战",
+      "date": "2011-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307440,
+      "name": "Toy Soldiers: War Chest",
+      "nameCN": "玩具士兵：战争宝箱",
+      "date": "2015-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307441,
+      "name": "Toy Soldiers 2: Finest Hour",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 174662,
+      "dst": 307429
+    },
+    {
+      "relateString": "前传",
+      "src": 307429,
+      "dst": 174662
+    },
+    {
+      "relateString": "续集",
+      "src": 307429,
+      "dst": 307440
+    },
+    {
+      "relateString": "续集",
+      "src": 307429,
+      "dst": 307441
+    },
+    {
+      "relateString": "前传",
+      "src": 307440,
+      "dst": 307429
+    },
+    {
+      "relateString": "前传",
+      "src": 307441,
+      "dst": 307429
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 170616,
- "node": [
-  {
-   "id": 170616,
-   "name": "ナポレオン -獅子の時代-",
-   "nameCN": "拿破仑 狮子的时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/86/170616_h0bWF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 170632,
-   "name": "ナポレオン -覇道進撃-",
-   "nameCN": "拿破仑 霸道进击",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/c2/170632_kIK56.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 170616,
-   "dst": 170632
-  },
-  {
-   "relate": "前传",
-   "src": 170632,
-   "dst": 170616
-  }
- ]
+  "id": "170616",
+  "node": [
+    {
+      "id": 170616,
+      "name": "ナポレオン -獅子の時代-",
+      "nameCN": "拿破仑 狮子的时代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 170632,
+      "name": "ナポレオン -覇道進撃-",
+      "nameCN": "拿破仑 霸道进击",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 170616,
+      "dst": 170632
+    },
+    {
+      "relateString": "前传",
+      "src": 170632,
+      "dst": 170616
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 308818,
- "node": [
-  {
-   "id": 308818,
-   "name": "居留守ねむり",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/30/308818_4A511.jpg",
-   "date": "2018-08-04",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308819,
-   "name": "おでかけねむり",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/1e/308819_YlG62.jpg",
-   "date": "2019-04-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 308818,
-   "dst": 308819
-  },
-  {
-   "relate": "前传",
-   "src": 308819,
-   "dst": 308818
-  }
- ]
+  "id": "308818",
+  "node": [
+    {
+      "id": 308818,
+      "name": "居留守ねむり",
+      "nameCN": "",
+      "date": "2018-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308819,
+      "name": "おでかけねむり",
+      "nameCN": "",
+      "date": "2019-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 308818,
+      "dst": 308819
+    },
+    {
+      "relateString": "前传",
+      "src": 308819,
+      "dst": 308818
+    }
+  ]
 }

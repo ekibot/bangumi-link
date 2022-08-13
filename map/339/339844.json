@@ -1,57 +1,54 @@
 {
- "id": 339844,
- "node": [
-  {
-   "id": 339844,
-   "name": "Rick and Morty",
-   "nameCN": "瑞克与莫蒂",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/a8/339844_g8ph4.jpg",
-   "date": "2015-11-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 339857,
-   "name": "Rick and Morty: Go To Hell",
-   "nameCN": "瑞克与莫蒂: Go To Hell",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/cc/339857_cjwPR.jpg",
-   "date": "2020-12-02",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 339858,
-   "name": "Rick and Morty Ever After",
-   "nameCN": "瑞克与莫蒂 Ever After",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/5e/339858_Cch57.jpg",
-   "date": "2021-06-02",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 339844,
-   "dst": 339857
-  },
-  {
-   "relate": "番外篇",
-   "src": 339844,
-   "dst": 339858
-  },
-  {
-   "relate": "主线故事",
-   "src": 339857,
-   "dst": 339844
-  },
-  {
-   "relate": "主线故事",
-   "src": 339858,
-   "dst": 339844
-  }
- ]
+  "id": "339844",
+  "node": [
+    {
+      "id": 339844,
+      "name": "Rick and Morty",
+      "nameCN": "瑞克与莫蒂",
+      "date": "2015-11-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 339857,
+      "name": "Rick and Morty: Go To Hell",
+      "nameCN": "瑞克与莫蒂: Go To Hell",
+      "date": "2020-12-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 339858,
+      "name": "Rick and Morty Ever After",
+      "nameCN": "瑞克与莫蒂 Ever After",
+      "date": "2021-06-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 339844,
+      "dst": 339857
+    },
+    {
+      "relateString": "番外篇",
+      "src": 339844,
+      "dst": 339858
+    },
+    {
+      "relateString": "主线故事",
+      "src": 339857,
+      "dst": 339844
+    },
+    {
+      "relateString": "主线故事",
+      "src": 339858,
+      "dst": 339844
+    }
+  ]
 }

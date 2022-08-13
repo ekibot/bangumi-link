@@ -1,37 +1,34 @@
 {
- "id": 2515,
- "node": [
-  {
-   "id": 2515,
-   "name": "猿ロック",
-   "nameCN": "开锁王",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/5e/2515_SU8Sn.jpg",
-   "date": "2009-07-26",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 72409,
-   "name": "猿ロック THE MOVIE",
-   "nameCN": "开锁王 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/7c/72409_nmv7r.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 2515,
-   "dst": 72409
-  },
-  {
-   "relate": "番外篇",
-   "src": 72409,
-   "dst": 2515
-  }
- ]
+  "id": "2515",
+  "node": [
+    {
+      "id": 2515,
+      "name": "猿ロック",
+      "nameCN": "开锁王",
+      "date": "2009-07-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 72409,
+      "name": "猿ロック THE MOVIE",
+      "nameCN": "开锁王 剧场版",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 2515,
+      "dst": 72409
+    },
+    {
+      "relateString": "番外篇",
+      "src": 72409,
+      "dst": 2515
+    }
+  ]
 }

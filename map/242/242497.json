@@ -1,77 +1,73 @@
 {
- "id": 242497,
- "node": [
-  {
-   "id": 242497,
-   "name": "Killing Eve Season 1",
-   "nameCN": "杀死伊芙 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/f5/242497_Z55Gl.jpg",
-   "date": "2018-04-08",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 280293,
-   "name": "Killing Eve Season 2",
-   "nameCN": "杀死伊芙 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/4e/280293_5EpI0.jpg",
-   "date": "2019-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 301483,
-   "name": "Killing Eve Season 3",
-   "nameCN": "杀死伊芙 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/fa/301483_3QvOT.jpg",
-   "date": "2020-04-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 372241,
-   "name": "Killing Eve Season 4",
-   "nameCN": "杀死伊芙 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/46/372241_1nh66.jpg",
-   "date": "2022-02-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 242497,
-   "dst": 280293
-  },
-  {
-   "relate": "前传",
-   "src": 280293,
-   "dst": 242497
-  },
-  {
-   "relate": "续集",
-   "src": 280293,
-   "dst": 301483
-  },
-  {
-   "relate": "前传",
-   "src": 301483,
-   "dst": 280293
-  },
-  {
-   "relate": "续集",
-   "src": 301483,
-   "dst": 372241
-  },
-  {
-   "relate": "前传",
-   "src": 372241,
-   "dst": 301483
-  }
- ]
+  "id": "242497",
+  "node": [
+    {
+      "id": 242497,
+      "name": "Killing Eve Season 1",
+      "nameCN": "杀死伊芙 第一季",
+      "date": "2018-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 280293,
+      "name": "Killing Eve Season 2",
+      "nameCN": "杀死伊芙 第二季",
+      "date": "2019-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 301483,
+      "name": "Killing Eve Season 3",
+      "nameCN": "杀死伊芙 第三季",
+      "date": "2020-04-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 372241,
+      "name": "Killing Eve Season 4",
+      "nameCN": "杀死伊芙 第四季",
+      "date": "2022-02-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 242497,
+      "dst": 280293
+    },
+    {
+      "relateString": "前传",
+      "src": 280293,
+      "dst": 242497
+    },
+    {
+      "relateString": "续集",
+      "src": 280293,
+      "dst": 301483
+    },
+    {
+      "relateString": "前传",
+      "src": 301483,
+      "dst": 280293
+    },
+    {
+      "relateString": "续集",
+      "src": 301483,
+      "dst": 372241
+    },
+    {
+      "relateString": "前传",
+      "src": 372241,
+      "dst": 301483
+    }
+  ]
 }

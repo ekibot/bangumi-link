@@ -1,0 +1,64 @@
+{
+  "id": "10227",
+  "node": [
+    {
+      "id": 10227,
+      "name": "Aチャンネル",
+      "nameCN": "A频道",
+      "date": "2011-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 29432,
+      "name": "Aチャンネル+smile",
+      "nameCN": "A频道+smile",
+      "date": "2012-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 212084,
+      "name": "Aチャンネル 鍋を食べよう",
+      "nameCN": "A频道 来吃火锅吧",
+      "date": "2017-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 10227,
+      "dst": 29432
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10227,
+      "dst": 212084
+    },
+    {
+      "relateString": "主线故事",
+      "src": 29432,
+      "dst": 10227
+    },
+    {
+      "relateString": "续集",
+      "src": 29432,
+      "dst": 212084
+    },
+    {
+      "relateString": "主线故事",
+      "src": 212084,
+      "dst": 10227
+    },
+    {
+      "relateString": "前传",
+      "src": 212084,
+      "dst": 29432
+    }
+  ]
+}

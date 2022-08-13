@@ -1,37 +1,33 @@
 {
- "id": 171876,
- "node": [
-  {
-   "id": 171876,
-   "name": "War in the Pacific - Admiral's Edition",
-   "nameCN": "太平洋战争：海军上将",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/e9/171876_1eE4Y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171877,
-   "name": "War In The Pacific",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/fc/171877_L51EP.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 171876,
-   "dst": 171877
-  },
-  {
-   "relate": "续集",
-   "src": 171877,
-   "dst": 171876
-  }
- ]
+  "id": "171876",
+  "node": [
+    {
+      "id": 171876,
+      "name": "War in the Pacific - Admiral's Edition",
+      "nameCN": "太平洋战争：海军上将",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171877,
+      "name": "War In The Pacific",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 171876,
+      "dst": 171877
+    },
+    {
+      "relateString": "续集",
+      "src": 171877,
+      "dst": 171876
+    }
+  ]
 }

@@ -1,51 +1,49 @@
 {
- "id": 90692,
- "node": [
-  {
-   "id": 90692,
-   "name": "BEATLESS",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/7b/90692_1BNiZ.jpg",
-   "date": "2012-10-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 137465,
-   "name": "天動のシンギュラリティ",
-   "nameCN": "天动的特异日",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/e5/137465_bLEWe.jpg",
-   "date": "2014-10-14",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 227102,
-   "name": "BEATLESS",
-   "nameCN": "BEATLESS -没有心跳的少女-",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/59/227102_rs1uW.jpg",
-   "date": "2018-01-12",
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 90692,
-   "dst": 137465
-  },
-  {
-   "relate": "相同世界观",
-   "src": 137465,
-   "dst": 90692
-  },
-  {
-   "relate": "相同世界观",
-   "src": 227102,
-   "dst": 137465
-  }
- ]
+  "id": "90692",
+  "node": [
+    {
+      "id": 90692,
+      "name": "BEATLESS",
+      "nameCN": "",
+      "date": "2012-10-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 137465,
+      "name": "天動のシンギュラリティ",
+      "nameCN": "天动的特异日",
+      "date": "2014-10-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 227102,
+      "name": "BEATLESS",
+      "nameCN": "BEATLESS -没有心跳的少女-",
+      "date": "2018-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 90692,
+      "dst": 137465
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 137465,
+      "dst": 90692
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 227102,
+      "dst": 137465
+    }
+  ]
 }

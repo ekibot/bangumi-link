@@ -1,37 +1,34 @@
 {
- "id": 102956,
- "node": [
-  {
-   "id": 102956,
-   "name": "Shadowgrounds",
-   "nameCN": "阴影地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/5d/102956_JKp77.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 115679,
-   "name": "Shadowgrounds Survivor",
-   "nameCN": "阴影地带之幸存者",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/a9/115679_sY5OZ.jpg",
-   "date": "2007-11-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 102956,
-   "dst": 115679
-  },
-  {
-   "relate": "前传",
-   "src": 115679,
-   "dst": 102956
-  }
- ]
+  "id": "102956",
+  "node": [
+    {
+      "id": 102956,
+      "name": "Shadowgrounds",
+      "nameCN": "阴影地带",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 115679,
+      "name": "Shadowgrounds Survivor",
+      "nameCN": "阴影地带之幸存者",
+      "date": "2007-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 102956,
+      "dst": 115679
+    },
+    {
+      "relateString": "前传",
+      "src": 115679,
+      "dst": 102956
+    }
+  ]
 }

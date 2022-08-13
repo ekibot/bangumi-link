@@ -1,37 +1,35 @@
 {
- "id": 118343,
- "node": [
-  {
-   "id": 118343,
-   "name": "FRAMED",
-   "nameCN": "致命框架",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/dd/118343_ic007.jpg",
-   "date": "2014-11-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 216535,
-   "name": "FRAMED 2",
-   "nameCN": "致命框架2",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/b7/216535_kF5zI.jpg",
-   "date": "2017-06-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 118343,
-   "dst": 216535
-  },
-  {
-   "relate": "前传",
-   "src": 216535,
-   "dst": 118343
-  }
- ]
+  "id": "118343",
+  "node": [
+    {
+      "id": 118343,
+      "name": "FRAMED",
+      "nameCN": "致命框架",
+      "date": "2014-11-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216535,
+      "name": "FRAMED 2",
+      "nameCN": "致命框架2",
+      "date": "2017-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 118343,
+      "dst": 216535
+    },
+    {
+      "relateString": "前传",
+      "src": 216535,
+      "dst": 118343
+    }
+  ]
 }

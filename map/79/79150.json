@@ -1,51 +1,49 @@
 {
- "id": 79150,
- "node": [
-  {
-   "id": 79150,
-   "name": "Daxter",
-   "nameCN": "达斯特",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/30/79150_2hvH6.jpg",
-   "date": "2006-03-14",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 198058,
-   "name": "Jak and Daxter Collection",
-   "nameCN": "杰克与达斯特1-3 HD",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/eb/198058_EZ2aI.jpg",
-   "date": "2012-02-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 239294,
-   "name": "Jak and Daxter: The Precursor Legacy",
-   "nameCN": "杰克与达斯特:旧世界的遗产",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/cf/239294_rrf9G.jpg",
-   "date": "2001-12-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 79150,
-   "dst": 239294
-  },
-  {
-   "relate": "不同演绎",
-   "src": 198058,
-   "dst": 239294
-  },
-  {
-   "relate": "不同演绎",
-   "src": 239294,
-   "dst": 198058
-  }
- ]
+  "id": "79150",
+  "node": [
+    {
+      "id": 79150,
+      "name": "Daxter",
+      "nameCN": "达斯特",
+      "date": "2006-03-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 239294,
+      "name": "Jak and Daxter: The Precursor Legacy",
+      "nameCN": "杰克与达斯特:旧世界的遗产",
+      "date": "2001-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198058,
+      "name": "Jak and Daxter Collection",
+      "nameCN": "杰克与达斯特1-3 HD",
+      "date": "2012-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 79150,
+      "dst": 239294
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 198058,
+      "dst": 239294
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 239294,
+      "dst": 198058
+    }
+  ]
 }

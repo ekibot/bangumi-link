@@ -1,37 +1,34 @@
 {
- "id": 79217,
- "node": [
-  {
-   "id": 79217,
-   "name": "Kerbal Space Program",
-   "nameCN": "坎巴拉太空计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/09/79217_qQG5Q.jpg",
-   "date": "2015-04-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 368597,
-   "name": "Kerbal Space Program 2",
-   "nameCN": "坎巴拉太空计划2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/c7/368597_497pM.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79217,
-   "dst": 368597
-  },
-  {
-   "relate": "前传",
-   "src": 368597,
-   "dst": 79217
-  }
- ]
+  "id": "79217",
+  "node": [
+    {
+      "id": 79217,
+      "name": "Kerbal Space Program",
+      "nameCN": "坎巴拉太空计划",
+      "date": "2015-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368597,
+      "name": "Kerbal Space Program 2",
+      "nameCN": "坎巴拉太空计划2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79217,
+      "dst": 368597
+    },
+    {
+      "relateString": "前传",
+      "src": 368597,
+      "dst": 79217
+    }
+  ]
 }

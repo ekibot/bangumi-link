@@ -1,67 +1,63 @@
 {
- "id": 7598,
- "node": [
-  {
-   "id": 7598,
-   "name": "まほろ駅前多田便利軒",
-   "nameCN": "真幌站前多田便利屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/7e/7598_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 138309,
-   "name": "まほろ駅前番外地",
-   "nameCN": "真幌站前番外地",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/f3/138309_jp.jpg",
-   "date": "2012-10-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 292540,
-   "name": "まほろ駅前狂騒曲",
-   "nameCN": "真幌站前狂骚曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/74/292540_7o7n7.jpg",
-   "date": "2013-10-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7598,
-   "dst": 138309
-  },
-  {
-   "relate": "续集",
-   "src": 7598,
-   "dst": 292540
-  },
-  {
-   "relate": "前传",
-   "src": 138309,
-   "dst": 7598
-  },
-  {
-   "relate": "续集",
-   "src": 138309,
-   "dst": 292540
-  },
-  {
-   "relate": "前传",
-   "src": 292540,
-   "dst": 7598
-  },
-  {
-   "relate": "前传",
-   "src": 292540,
-   "dst": 138309
-  }
- ]
+  "id": "7598",
+  "node": [
+    {
+      "id": 7598,
+      "name": "まほろ駅前多田便利軒",
+      "nameCN": "真幌站前多田便利屋",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 138309,
+      "name": "まほろ駅前番外地",
+      "nameCN": "真幌站前番外地",
+      "date": "2012-10-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 292540,
+      "name": "まほろ駅前狂騒曲",
+      "nameCN": "真幌站前狂骚曲",
+      "date": "2013-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7598,
+      "dst": 138309
+    },
+    {
+      "relateString": "续集",
+      "src": 7598,
+      "dst": 292540
+    },
+    {
+      "relateString": "前传",
+      "src": 138309,
+      "dst": 7598
+    },
+    {
+      "relateString": "续集",
+      "src": 138309,
+      "dst": 292540
+    },
+    {
+      "relateString": "前传",
+      "src": 292540,
+      "dst": 7598
+    },
+    {
+      "relateString": "前传",
+      "src": 292540,
+      "dst": 138309
+    }
+  ]
 }

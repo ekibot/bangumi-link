@@ -1,29 +1,35 @@
 {
- "id": 15751,
- "node": [
-  {
-   "id": 15751,
-   "name": "恋の恋 Others",
-   "image": "/img/no_icon_subject.png",
-   "date": "2009-02-27"
-  },
-  {
-   "id": 84223,
-   "name": "恋の恋",
-   "image": "/img/no_icon_subject.png",
-   "date": "2008-11-28"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 15751,
-   "dst": 84223
-  },
-  {
-   "relate": "续集",
-   "src": 84223,
-   "dst": 15751
-  }
- ]
+  "id": "15751",
+  "node": [
+    {
+      "id": 15751,
+      "name": "恋の恋 Others",
+      "nameCN": "",
+      "date": "2009-02-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 84223,
+      "name": "恋の恋",
+      "nameCN": "",
+      "date": "2008-11-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 15751,
+      "dst": 84223
+    },
+    {
+      "relateString": "续集",
+      "src": 84223,
+      "dst": 15751
+    }
+  ]
 }

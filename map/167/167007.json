@@ -1,57 +1,54 @@
 {
- "id": 167007,
- "node": [
-  {
-   "id": 167007,
-   "name": "まじかるカナン2 ～緋色のベルガモット～",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/bb/167007_1bo29.jpg",
-   "date": "2015-01-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 230733,
-   "name": "SeptemCharm まじかるカナン",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/31/230733_vewVg.jpg",
-   "date": "1998-12-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 344901,
-   "name": "まじかるカナン - RISEA - トリプルフィーチャリングBOX",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/94/344901_qDV2W.jpg",
-   "date": "2005-04-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 167007,
-   "dst": 230733
-  },
-  {
-   "relate": "续集",
-   "src": 230733,
-   "dst": 167007
-  },
-  {
-   "relate": "不同演绎",
-   "src": 230733,
-   "dst": 344901
-  },
-  {
-   "relate": "不同演绎",
-   "src": 344901,
-   "dst": 230733
-  }
- ]
+  "id": "167007",
+  "node": [
+    {
+      "id": 167007,
+      "name": "まじかるカナン2 ～緋色のベルガモット～",
+      "nameCN": "",
+      "date": "2015-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230733,
+      "name": "SeptemCharm まじかるカナン",
+      "nameCN": "",
+      "date": "1998-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 344901,
+      "name": "まじかるカナン - RISEA - トリプルフィーチャリングBOX",
+      "nameCN": "",
+      "date": "2005-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 167007,
+      "dst": 230733
+    },
+    {
+      "relateString": "续集",
+      "src": 230733,
+      "dst": 167007
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 230733,
+      "dst": 344901
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 344901,
+      "dst": 230733
+    }
+  ]
 }

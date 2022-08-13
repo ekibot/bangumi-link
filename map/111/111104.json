@@ -1,37 +1,35 @@
 {
- "id": 111104,
- "node": [
-  {
-   "id": 111104,
-   "name": "Helck",
-   "nameCN": "勇者赫鲁库",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/52/111104_9PVe7.jpg",
-   "date": "2014-08-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 313666,
-   "name": "異剣戦記ヴェルンディオ",
-   "nameCN": "异剑战记Völundio",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/26/313666_s9IY7.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 111104,
-   "dst": 313666
-  },
-  {
-   "relate": "相同世界观",
-   "src": 313666,
-   "dst": 111104
-  }
- ]
+  "id": "111104",
+  "node": [
+    {
+      "id": 111104,
+      "name": "Helck",
+      "nameCN": "勇者赫鲁库",
+      "date": "2014-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 313666,
+      "name": "異剣戦記ヴェルンディオ",
+      "nameCN": "异剑战记Völundio",
+      "date": "2021-02-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 111104,
+      "dst": 313666
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 313666,
+      "dst": 111104
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 289142,
- "node": [
-  {
-   "id": 289142,
-   "name": "AlexiA ~アレクシア~",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/a4/289142_BFJA5.jpg",
-   "date": "2019-08-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 322644,
-   "name": "AlexiA～アレクシア～ スピンオフ",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 289142,
-   "dst": 322644
-  },
-  {
-   "relate": "前传",
-   "src": 322644,
-   "dst": 289142
-  }
- ]
+  "id": "289142",
+  "node": [
+    {
+      "id": 289142,
+      "name": "AlexiA ~アレクシア~",
+      "nameCN": "",
+      "date": "2019-08-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322644,
+      "name": "AlexiA～アレクシア～ スピンオフ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 289142,
+      "dst": 322644
+    },
+    {
+      "relateString": "前传",
+      "src": 322644,
+      "dst": 289142
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 198638,
- "node": [
-  {
-   "id": 198638,
-   "name": "Orwell",
-   "nameCN": "奥威尔",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/e7/198638_snQ6J.jpg",
-   "date": "2016-10-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 296314,
-   "name": "Orwell: Ignorance is Strength",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/7e/296314_813Xw.jpg",
-   "nameCN": "奥威尔:无知就是力量",
-   "date": "2018-02-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198638,
-   "dst": 296314
-  },
-  {
-   "relate": "前传",
-   "src": 296314,
-   "dst": 198638
-  }
- ]
+  "id": "198638",
+  "node": [
+    {
+      "id": 198638,
+      "name": "Orwell",
+      "nameCN": "奥威尔",
+      "date": "2016-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 296314,
+      "name": "Orwell: Ignorance is Strength",
+      "nameCN": "奥威尔:无知就是力量",
+      "date": "2018-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198638,
+      "dst": 296314
+    },
+    {
+      "relateString": "前传",
+      "src": 296314,
+      "dst": 198638
+    }
+  ]
 }

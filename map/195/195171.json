@@ -1,37 +1,35 @@
 {
- "id": 195171,
- "node": [
-  {
-   "id": 195171,
-   "name": "Amulet Zero零物语",
-   "nameCN": "零物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/07/195171_bE1kl.jpg",
-   "date": "2013-07-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 214088,
-   "name": "Asyula",
-   "nameCN": "方舟之链",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/8c/214088_yTy5s.jpg",
-   "date": "2017-08-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195171,
-   "dst": 214088
-  },
-  {
-   "relate": "前传",
-   "src": 214088,
-   "dst": 195171
-  }
- ]
+  "id": "195171",
+  "node": [
+    {
+      "id": 195171,
+      "name": "Amulet Zero 零物语",
+      "nameCN": "零物语",
+      "date": "2013-07-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214088,
+      "name": "Asyula",
+      "nameCN": "方舟之链",
+      "date": "2017-08-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195171,
+      "dst": 214088
+    },
+    {
+      "relateString": "前传",
+      "src": 214088,
+      "dst": 195171
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 998,
- "node": [
-  {
-   "id": 998,
-   "name": "Left 4 Dead",
-   "nameCN": "求生之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/b0/998_9Nx0u.jpg",
-   "date": "2008-11-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 2037,
-   "name": "Left 4 Dead 2",
-   "nameCN": "求生之路2",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/d2/2037_8V21u.jpg",
-   "date": "2009-11-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 316862,
-   "name": "LEFT 4 DEAD -生存者たち-",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/a5/316862_XmM9C.jpg",
-   "date": "2014-04-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 998,
-   "dst": 2037
-  },
-  {
-   "relate": "相同世界观",
-   "src": 998,
-   "dst": 316862
-  },
-  {
-   "relate": "前传",
-   "src": 2037,
-   "dst": 998
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2037,
-   "dst": 316862
-  },
-  {
-   "relate": "相同世界观",
-   "src": 316862,
-   "dst": 998
-  },
-  {
-   "relate": "不同演绎",
-   "src": 316862,
-   "dst": 2037
-  }
- ]
+  "id": "998",
+  "node": [
+    {
+      "id": 998,
+      "name": "Left 4 Dead",
+      "nameCN": "求生之路",
+      "date": "2008-11-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 2037,
+      "name": "Left 4 Dead 2",
+      "nameCN": "求生之路2",
+      "date": "2009-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 316862,
+      "name": "LEFT 4 DEAD -生存者たち-",
+      "nameCN": "",
+      "date": "2014-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 998,
+      "dst": 2037
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 998,
+      "dst": 316862
+    },
+    {
+      "relateString": "前传",
+      "src": 2037,
+      "dst": 998
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 2037,
+      "dst": 316862
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 316862,
+      "dst": 998
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 316862,
+      "dst": 2037
+    }
+  ]
 }

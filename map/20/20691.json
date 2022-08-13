@@ -1,37 +1,35 @@
 {
- "id": 20691,
- "node": [
-  {
-   "id": 20691,
-   "name": "猫ラーメン",
-   "nameCN": "猫拉面",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/00/20691_sJTWt.jpg",
-   "date": "2007-06-22",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 20692,
-   "name": "猫ラーメン~俺の醤油味~",
-   "nameCN": "猫拉面 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/d5/20692_0hiif.jpg",
-   "date": "2008-11-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20691,
-   "dst": 20692
-  },
-  {
-   "relate": "前传",
-   "src": 20692,
-   "dst": 20691
-  }
- ]
+  "id": "20691",
+  "node": [
+    {
+      "id": 20691,
+      "name": "猫ラーメン",
+      "nameCN": "猫拉面",
+      "date": "2007-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 20692,
+      "name": "猫ラーメン~俺の醤油味~",
+      "nameCN": "猫拉面 第二季",
+      "date": "2008-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20691,
+      "dst": 20692
+    },
+    {
+      "relateString": "前传",
+      "src": 20692,
+      "dst": 20691
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 57978,
- "node": [
-  {
-   "id": 57978,
-   "name": "きんいろモザイク",
-   "nameCN": "黄金拼图",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/42/57978_NK1n4.jpg",
-   "date": "2013-07-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 100405,
-   "name": "ハロー!!きんいろモザイク",
-   "nameCN": "HELLO!! 黄金拼图",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/f9/100405_JrNQA.jpg",
-   "date": "2015-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 175532,
-   "name": "きんいろモザイク Pretty Days",
-   "nameCN": "黄金拼图 Pretty Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/98/175532_zNK2n.jpg",
-   "date": "2016-11-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 302373,
-   "name": "きんいろモザイク Thank you!!",
-   "nameCN": "黄金拼图 Thank you!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/7c/302373_jHFzJ.jpg",
-   "date": "2021-08-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 57978,
-   "dst": 100405
-  },
-  {
-   "relate": "前传",
-   "src": 100405,
-   "dst": 57978
-  },
-  {
-   "relate": "续集",
-   "src": 100405,
-   "dst": 175532
-  },
-  {
-   "relate": "前传",
-   "src": 175532,
-   "dst": 100405
-  },
-  {
-   "relate": "续集",
-   "src": 175532,
-   "dst": 302373
-  },
-  {
-   "relate": "前传",
-   "src": 302373,
-   "dst": 175532
-  }
- ]
+  "id": "57978",
+  "node": [
+    {
+      "id": 57978,
+      "name": "きんいろモザイク",
+      "nameCN": "黄金拼图",
+      "date": "2013-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 100405,
+      "name": "ハロー!!きんいろモザイク",
+      "nameCN": "HELLO!! 黄金拼图",
+      "date": "2015-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 175532,
+      "name": "きんいろモザイク Pretty Days",
+      "nameCN": "黄金拼图 Pretty Days",
+      "date": "2016-11-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 302373,
+      "name": "きんいろモザイク Thank you!!",
+      "nameCN": "黄金拼图 Thank you!!",
+      "date": "2021-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 57978,
+      "dst": 100405
+    },
+    {
+      "relateString": "前传",
+      "src": 100405,
+      "dst": 57978
+    },
+    {
+      "relateString": "续集",
+      "src": 100405,
+      "dst": 175532
+    },
+    {
+      "relateString": "前传",
+      "src": 175532,
+      "dst": 100405
+    },
+    {
+      "relateString": "续集",
+      "src": 175532,
+      "dst": 302373
+    },
+    {
+      "relateString": "前传",
+      "src": 302373,
+      "dst": 175532
+    }
+  ]
 }

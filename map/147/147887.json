@@ -1,37 +1,34 @@
 {
- "id": 147887,
- "node": [
-  {
-   "id": 147887,
-   "name": "Party Hard",
-   "nameCN": "疯狂派对",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/5c/147887_Cc14Z.jpg",
-   "date": "2015-08-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 288825,
-   "name": "Party Hard 2",
-   "nameCN": "派对杀手2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/c6/288825_CSrYz.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147887,
-   "dst": 288825
-  },
-  {
-   "relate": "前传",
-   "src": 288825,
-   "dst": 147887
-  }
- ]
+  "id": "147887",
+  "node": [
+    {
+      "id": 147887,
+      "name": "Party Hard",
+      "nameCN": "疯狂派对",
+      "date": "2015-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 288825,
+      "name": "Party Hard 2",
+      "nameCN": "派对杀手2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147887,
+      "dst": 288825
+    },
+    {
+      "relateString": "前传",
+      "src": 288825,
+      "dst": 147887
+    }
+  ]
 }

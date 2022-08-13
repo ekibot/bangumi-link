@@ -1,37 +1,35 @@
 {
- "id": 26176,
- "node": [
-  {
-   "id": 26176,
-   "name": "スレイヴ×スレイヴ",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/02/26176_jp.jpg",
-   "date": "2006-04-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 26211,
-   "name": "エロティックM",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/ed/26211_jp.jpg",
-   "date": "2009-10-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26176,
-   "dst": 26211
-  },
-  {
-   "relate": "前传",
-   "src": 26211,
-   "dst": 26176
-  }
- ]
+  "id": "26176",
+  "node": [
+    {
+      "id": 26176,
+      "name": "スレイヴ×スレイヴ",
+      "nameCN": "",
+      "date": "2006-04-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 26211,
+      "name": "エロティックM",
+      "nameCN": "",
+      "date": "2009-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26176,
+      "dst": 26211
+    },
+    {
+      "relateString": "前传",
+      "src": 26211,
+      "dst": 26176
+    }
+  ]
 }

@@ -1,51 +1,49 @@
 {
- "id": 16382,
- "node": [
-  {
-   "id": 16382,
-   "name": "スズノネセブン！－Sweet Lovers’Concerto－",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/55/16382_mmbuf.jpg",
-   "date": "2009-11-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 20054,
-   "name": "スズノネセブン！",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/d5/20054_55u75.jpg",
-   "date": "2009-01-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 246026,
-   "name": "スズノネセブン! 〜Rebirth knot〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/73/246026_iXI70.jpg",
-   "date": "2010-05-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 16382,
-   "dst": 20054
-  },
-  {
-   "relate": "不同演绎",
-   "src": 20054,
-   "dst": 246026
-  },
-  {
-   "relate": "不同演绎",
-   "src": 246026,
-   "dst": 20054
-  }
- ]
+  "id": "16382",
+  "node": [
+    {
+      "id": 16382,
+      "name": "スズノネセブン！－Sweet Lovers’Concerto－",
+      "nameCN": "",
+      "date": "2009-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 20054,
+      "name": "スズノネセブン！",
+      "nameCN": "",
+      "date": "2009-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 246026,
+      "name": "スズノネセブン! 〜Rebirth knot〜",
+      "nameCN": "",
+      "date": "2010-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 16382,
+      "dst": 20054
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 20054,
+      "dst": 246026
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 246026,
+      "dst": 20054
+    }
+  ]
 }

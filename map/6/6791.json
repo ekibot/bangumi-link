@@ -1,97 +1,92 @@
 {
- "id": 6791,
- "node": [
-  {
-   "id": 6791,
-   "name": "The IT Crowd (Season 1)",
-   "nameCN": "IT狂人 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/b5/6791_akx31.jpg",
-   "date": "2006-02-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 6792,
-   "name": "The IT Crowd (Season 2)",
-   "nameCN": "IT狂人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/98/6792_mS71B.jpg",
-   "date": "2007-08-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 6793,
-   "name": "The IT Crowd (Season 3)",
-   "nameCN": "IT狂人 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/e5/6793_21rMN.jpg",
-   "date": "2008-11-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 6841,
-   "name": "The IT Crowd (Season 4)",
-   "nameCN": "IT狂人 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/59/6841_Dw2DZ.jpg",
-   "date": "2010-06-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 84502,
-   "name": "The IT Crowd: The Last Byte",
-   "nameCN": "IT狂人：最终篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/d4/84502_D2e6C.jpg",
-   "date": "2013-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6791,
-   "dst": 6792
-  },
-  {
-   "relate": "前传",
-   "src": 6792,
-   "dst": 6791
-  },
-  {
-   "relate": "续集",
-   "src": 6792,
-   "dst": 6793
-  },
-  {
-   "relate": "前传",
-   "src": 6793,
-   "dst": 6792
-  },
-  {
-   "relate": "续集",
-   "src": 6793,
-   "dst": 6841
-  },
-  {
-   "relate": "前传",
-   "src": 6841,
-   "dst": 6793
-  },
-  {
-   "relate": "续集",
-   "src": 6841,
-   "dst": 84502
-  },
-  {
-   "relate": "前传",
-   "src": 84502,
-   "dst": 6841
-  }
- ]
+  "id": "6791",
+  "node": [
+    {
+      "id": 6791,
+      "name": "The IT Crowd (Season 1)",
+      "nameCN": "IT狂人 第一季",
+      "date": "2006-02-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 6792,
+      "name": "The IT Crowd (Season 2)",
+      "nameCN": "IT狂人 第二季",
+      "date": "2007-08-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 6793,
+      "name": "The IT Crowd (Season 3)",
+      "nameCN": "IT狂人 第三季",
+      "date": "2008-11-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 6841,
+      "name": "The IT Crowd (Season 4)",
+      "nameCN": "IT狂人 第四季",
+      "date": "2010-06-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 84502,
+      "name": "The IT Crowd: The Last Byte",
+      "nameCN": "IT狂人：最终篇",
+      "date": "2013-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6791,
+      "dst": 6792
+    },
+    {
+      "relateString": "前传",
+      "src": 6792,
+      "dst": 6791
+    },
+    {
+      "relateString": "续集",
+      "src": 6792,
+      "dst": 6793
+    },
+    {
+      "relateString": "前传",
+      "src": 6793,
+      "dst": 6792
+    },
+    {
+      "relateString": "续集",
+      "src": 6793,
+      "dst": 6841
+    },
+    {
+      "relateString": "前传",
+      "src": 6841,
+      "dst": 6793
+    },
+    {
+      "relateString": "续集",
+      "src": 6841,
+      "dst": 84502
+    },
+    {
+      "relateString": "前传",
+      "src": 84502,
+      "dst": 6841
+    }
+  ]
 }

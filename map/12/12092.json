@@ -1,57 +1,54 @@
 {
- "id": 12092,
- "node": [
-  {
-   "id": 12092,
-   "name": "Stellar☆Theater",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/7d/12092_070jw.jpg",
-   "date": "2009-06-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 16778,
-   "name": "Stellar☆Theater encore",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/70/16778_z5r54.jpg",
-   "date": "2011-06-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 246377,
-   "name": "Stellar☆Theater Portable",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/66/246377_Pmpes.jpg",
-   "date": "2013-02-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12092,
-   "dst": 16778
-  },
-  {
-   "relate": "不同演绎",
-   "src": 12092,
-   "dst": 246377
-  },
-  {
-   "relate": "前传",
-   "src": 16778,
-   "dst": 12092
-  },
-  {
-   "relate": "不同演绎",
-   "src": 246377,
-   "dst": 12092
-  }
- ]
+  "id": "12092",
+  "node": [
+    {
+      "id": 12092,
+      "name": "Stellar☆Theater",
+      "nameCN": "",
+      "date": "2009-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 16778,
+      "name": "Stellar☆Theater encore",
+      "nameCN": "",
+      "date": "2011-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 246377,
+      "name": "Stellar☆Theater Portable",
+      "nameCN": "",
+      "date": "2013-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12092,
+      "dst": 16778
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 12092,
+      "dst": 246377
+    },
+    {
+      "relateString": "前传",
+      "src": 16778,
+      "dst": 12092
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 246377,
+      "dst": 12092
+    }
+  ]
 }

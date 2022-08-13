@@ -1,37 +1,34 @@
 {
- "id": 272302,
- "node": [
-  {
-   "id": 272302,
-   "name": "貴方の価値を教えてくれ(上)",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/a4/272302_sc4T4.jpg",
-   "date": "2018-12-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321904,
-   "name": "貴方の価値を教えてくれ(下)",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/95/321904_cAJQC.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272302,
-   "dst": 321904
-  },
-  {
-   "relate": "前传",
-   "src": 321904,
-   "dst": 272302
-  }
- ]
+  "id": "272302",
+  "node": [
+    {
+      "id": 272302,
+      "name": "貴方の価値を教えてくれ(上)",
+      "nameCN": "",
+      "date": "2018-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321904,
+      "name": "貴方の価値を教えてくれ(下)",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272302,
+      "dst": 321904
+    },
+    {
+      "relateString": "前传",
+      "src": 321904,
+      "dst": 272302
+    }
+  ]
 }

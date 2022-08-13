@@ -1,57 +1,51 @@
 {
- "id": 156472,
- "node": [
-  {
-   "id": 156472,
-   "name": "ロマンスの震源地",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/04/156472_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 156473,
-   "name": "ロマンスの震源地2 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/ad/156473_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 156474,
-   "name": "ロマンスの震源地2 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/c2/156474_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156472,
-   "dst": 156473
-  },
-  {
-   "relate": "前传",
-   "src": 156473,
-   "dst": 156472
-  },
-  {
-   "relate": "续集",
-   "src": 156473,
-   "dst": 156474
-  },
-  {
-   "relate": "前传",
-   "src": 156474,
-   "dst": 156473
-  }
- ]
+  "id": "156472",
+  "node": [
+    {
+      "id": 156472,
+      "name": "ロマンスの震源地",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 156473,
+      "name": "ロマンスの震源地2 上",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 156474,
+      "name": "ロマンスの震源地2 下",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156472,
+      "dst": 156473
+    },
+    {
+      "relateString": "前传",
+      "src": 156473,
+      "dst": 156472
+    },
+    {
+      "relateString": "续集",
+      "src": 156473,
+      "dst": 156474
+    },
+    {
+      "relateString": "前传",
+      "src": 156474,
+      "dst": 156473
+    }
+  ]
 }

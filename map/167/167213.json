@@ -1,57 +1,54 @@
 {
- "id": 167213,
- "node": [
-  {
-   "id": 167213,
-   "name": "クロスロード",
-   "nameCN": "CROSS ROAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/25/167213_AAQl4.jpg",
-   "date": "2016-02-25",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 208159,
-   "name": "クロスロード～声なきに聞き形なきに見よ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/28/208159_ivwil.jpg",
-   "date": "2017-05-28",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 262281,
-   "name": "クロスロード３ 群衆の正義",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/a4/262281_CFqnK.jpg",
-   "date": "2018-12-02",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167213,
-   "dst": 208159
-  },
-  {
-   "relate": "前传",
-   "src": 208159,
-   "dst": 167213
-  },
-  {
-   "relate": "续集",
-   "src": 208159,
-   "dst": 262281
-  },
-  {
-   "relate": "前传",
-   "src": 262281,
-   "dst": 208159
-  }
- ]
+  "id": "167213",
+  "node": [
+    {
+      "id": 167213,
+      "name": "クロスロード",
+      "nameCN": "CROSS ROAD",
+      "date": "2016-02-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 208159,
+      "name": "クロスロード～声なきに聞き形なきに見よ～",
+      "nameCN": "",
+      "date": "2017-05-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 262281,
+      "name": "クロスロード３ 群衆の正義",
+      "nameCN": "",
+      "date": "2018-12-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167213,
+      "dst": 208159
+    },
+    {
+      "relateString": "前传",
+      "src": 208159,
+      "dst": 167213
+    },
+    {
+      "relateString": "续集",
+      "src": 208159,
+      "dst": 262281
+    },
+    {
+      "relateString": "前传",
+      "src": 262281,
+      "dst": 208159
+    }
+  ]
 }

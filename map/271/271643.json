@@ -1,77 +1,72 @@
 {
- "id": 271643,
- "node": [
-  {
-   "id": 271643,
-   "name": "Sex Education",
-   "nameCN": "性教育",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/0d/271643_YKLNS.jpg",
-   "date": "2019-01-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 273482,
-   "name": "Sex Education Season 2",
-   "nameCN": "性教育 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/1a/273482_BF9F9.jpg",
-   "date": "2020-01-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 341262,
-   "name": "Sex Education Season 3",
-   "nameCN": "性教育 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/26/341262_0agy5.jpg",
-   "date": "2021-09-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 355346,
-   "name": "Sex Education Season 4",
-   "nameCN": "性教育 第四季",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 271643,
-   "dst": 273482
-  },
-  {
-   "relate": "前传",
-   "src": 273482,
-   "dst": 271643
-  },
-  {
-   "relate": "续集",
-   "src": 273482,
-   "dst": 341262
-  },
-  {
-   "relate": "前传",
-   "src": 341262,
-   "dst": 273482
-  },
-  {
-   "relate": "续集",
-   "src": 341262,
-   "dst": 355346
-  },
-  {
-   "relate": "前传",
-   "src": 355346,
-   "dst": 341262
-  }
- ]
+  "id": "271643",
+  "node": [
+    {
+      "id": 271643,
+      "name": "Sex Education",
+      "nameCN": "性教育",
+      "date": "2019-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 273482,
+      "name": "Sex Education Season 2",
+      "nameCN": "性教育 第二季",
+      "date": "2020-01-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 341262,
+      "name": "Sex Education Season 3",
+      "nameCN": "性教育 第三季",
+      "date": "2021-09-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 355346,
+      "name": "Sex Education Season 4",
+      "nameCN": "性教育 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 271643,
+      "dst": 273482
+    },
+    {
+      "relateString": "前传",
+      "src": 273482,
+      "dst": 271643
+    },
+    {
+      "relateString": "续集",
+      "src": 273482,
+      "dst": 341262
+    },
+    {
+      "relateString": "前传",
+      "src": 341262,
+      "dst": 273482
+    },
+    {
+      "relateString": "续集",
+      "src": 341262,
+      "dst": 355346
+    },
+    {
+      "relateString": "前传",
+      "src": 355346,
+      "dst": 341262
+    }
+  ]
 }

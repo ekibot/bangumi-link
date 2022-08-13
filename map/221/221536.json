@@ -1,37 +1,35 @@
 {
- "id": 221536,
- "node": [
-  {
-   "id": 221536,
-   "name": "河神",
-   "nameCN": "河神",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/e8/221536_8Nfvv.jpg",
-   "date": "2017-07-19",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 309882,
-   "name": "河神2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/42/309882_ali40.jpg",
-   "date": "2020-07-06",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 221536,
-   "dst": 309882
-  },
-  {
-   "relate": "前传",
-   "src": 309882,
-   "dst": 221536
-  }
- ]
+  "id": "221536",
+  "node": [
+    {
+      "id": 221536,
+      "name": "河神",
+      "nameCN": "河神",
+      "date": "2017-07-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 309882,
+      "name": "河神2",
+      "nameCN": "",
+      "date": "2020-07-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 221536,
+      "dst": 309882
+    },
+    {
+      "relateString": "前传",
+      "src": 309882,
+      "dst": 221536
+    }
+  ]
 }

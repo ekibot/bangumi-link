@@ -1,57 +1,54 @@
 {
- "id": 19538,
- "node": [
-  {
-   "id": 19538,
-   "name": "花右京メイド隊",
-   "nameCN": "花右京女仆队",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/d4/19538_0TEKT.jpg",
-   "date": "2001-04-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 84547,
-   "name": "花右京メイド隊 La Verite",
-   "nameCN": "花右京女仆队 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/bb/84547_H6NqZ.jpg",
-   "date": "2004-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 84549,
-   "name": "DVDシングルアニメーション 花右京メイド隊",
-   "nameCN": "花右京女仆队 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/fd/84549_1u1eA.jpg",
-   "type": 2,
-   "date": "2001-09-19",
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 19538,
-   "dst": 84547
-  },
-  {
-   "relate": "番外篇",
-   "src": 19538,
-   "dst": 84549
-  },
-  {
-   "relate": "前传",
-   "src": 84547,
-   "dst": 19538
-  },
-  {
-   "relate": "主线故事",
-   "src": 84549,
-   "dst": 19538
-  }
- ]
+  "id": "19538",
+  "node": [
+    {
+      "id": 19538,
+      "name": "花右京メイド隊",
+      "nameCN": "花右京女仆队",
+      "date": "2001-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 84547,
+      "name": "花右京メイド隊 La Verite",
+      "nameCN": "花右京女仆队 第二季",
+      "date": "2004-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 84549,
+      "name": "DVDシングルアニメーション 花右京メイド隊",
+      "nameCN": "花右京女仆队 OVA",
+      "date": "2001-09-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 19538,
+      "dst": 84547
+    },
+    {
+      "relateString": "番外篇",
+      "src": 19538,
+      "dst": 84549
+    },
+    {
+      "relateString": "前传",
+      "src": 84547,
+      "dst": 19538
+    },
+    {
+      "relateString": "主线故事",
+      "src": 84549,
+      "dst": 19538
+    }
+  ]
 }

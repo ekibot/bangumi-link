@@ -1,37 +1,35 @@
 {
- "id": 19886,
- "node": [
-  {
-   "id": 19886,
-   "name": "離婚弁護士",
-   "nameCN": "离婚女律师",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/c5/19886_RvRZC.jpg",
-   "date": "2004-04-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 19887,
-   "name": "離婚弁護士II",
-   "nameCN": "离婚女律师2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/76/19887_baeMu.jpg",
-   "date": "2005-04-19",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 19886,
-   "dst": 19887
-  },
-  {
-   "relate": "前传",
-   "src": 19887,
-   "dst": 19886
-  }
- ]
+  "id": "19886",
+  "node": [
+    {
+      "id": 19886,
+      "name": "離婚弁護士",
+      "nameCN": "离婚女律师",
+      "date": "2004-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 19887,
+      "name": "離婚弁護士II",
+      "nameCN": "离婚女律师2",
+      "date": "2005-04-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 19886,
+      "dst": 19887
+    },
+    {
+      "relateString": "前传",
+      "src": 19887,
+      "dst": 19886
+    }
+  ]
 }

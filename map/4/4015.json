@@ -1,37 +1,35 @@
 {
- "id": 4015,
- "node": [
-  {
-   "id": 4015,
-   "name": "ダイバージェンス・イヴ",
-   "nameCN": "死体兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/75/4015_7Dn1Y.jpg",
-   "date": "2003-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 8591,
-   "name": "みさきクロニクル 〜ダイバージェンス・イヴ〜",
-   "nameCN": "死体兵 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/6b/8591_uJjUW.jpg",
-   "date": "2004-01-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4015,
-   "dst": 8591
-  },
-  {
-   "relate": "前传",
-   "src": 8591,
-   "dst": 4015
-  }
- ]
+  "id": "4015",
+  "node": [
+    {
+      "id": 4015,
+      "name": "ダイバージェンス・イヴ",
+      "nameCN": "死体兵",
+      "date": "2003-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 8591,
+      "name": "みさきクロニクル 〜ダイバージェンス・イヴ〜",
+      "nameCN": "死体兵 第二季",
+      "date": "2004-01-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4015,
+      "dst": 8591
+    },
+    {
+      "relateString": "前传",
+      "src": 8591,
+      "dst": 4015
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 319324,
- "node": [
-  {
-   "id": 319324,
-   "name": "僕らのメメント･モリ",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/f3/319324_BtUOs.jpg",
-   "date": "2019-03-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 319326,
-   "name": "僕のイデアリズム",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/64/319326_qJ6DV.jpg",
-   "date": "2019-06-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 319324,
-   "dst": 319326
-  },
-  {
-   "relate": "前传",
-   "src": 319326,
-   "dst": 319324
-  }
- ]
+  "id": "319324",
+  "node": [
+    {
+      "id": 319324,
+      "name": "僕らのメメント･モリ",
+      "nameCN": "",
+      "date": "2019-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 319326,
+      "name": "僕のイデアリズム",
+      "nameCN": "",
+      "date": "2019-06-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 319324,
+      "dst": 319326
+    },
+    {
+      "relateString": "前传",
+      "src": 319326,
+      "dst": 319324
+    }
+  ]
 }

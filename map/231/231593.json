@@ -1,37 +1,35 @@
 {
- "id": 231593,
- "node": [
-  {
-   "id": 231593,
-   "name": "僕のヒーローアカデミア One's Justice",
-   "nameCN": "我的英雄学院 One’s Justice",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/f9/231593_ZVVmv.jpg",
-   "date": "2018-08-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 291346,
-   "name": "僕のヒーローアカデミア ワンズジャスティス2",
-   "nameCN": "我的英雄学院 One’s Justice 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/a8/291346_BjLWX.jpg",
-   "date": "2020-03-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231593,
-   "dst": 291346
-  },
-  {
-   "relate": "前传",
-   "src": 291346,
-   "dst": 231593
-  }
- ]
+  "id": "231593",
+  "node": [
+    {
+      "id": 231593,
+      "name": "僕のヒーローアカデミア One's Justice",
+      "nameCN": "我的英雄学院 One’s Justice",
+      "date": "2018-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 291346,
+      "name": "僕のヒーローアカデミア ワンズジャスティス2",
+      "nameCN": "我的英雄学院 One’s Justice 2",
+      "date": "2020-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231593,
+      "dst": 291346
+    },
+    {
+      "relateString": "前传",
+      "src": 291346,
+      "dst": 231593
+    }
+  ]
 }

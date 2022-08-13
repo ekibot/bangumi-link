@@ -1,37 +1,35 @@
 {
- "id": 185465,
- "node": [
-  {
-   "id": 185465,
-   "name": "博多豚骨ラーメンズ",
-   "nameCN": "博多豚骨拉面",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/59/185465_5tB96.jpg",
-   "date": "2017-03-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 222881,
-   "name": "博多豚骨ラーメンズ 第2幕",
-   "nameCN": "博多豚骨拉面 第2幕",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/42/222881_98GwB.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185465,
-   "dst": 222881
-  },
-  {
-   "relate": "前传",
-   "src": 222881,
-   "dst": 185465
-  }
- ]
+  "id": "185465",
+  "node": [
+    {
+      "id": 185465,
+      "name": "博多豚骨ラーメンズ",
+      "nameCN": "博多豚骨拉面",
+      "date": "2017-03-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 222881,
+      "name": "博多豚骨ラーメンズ 第2幕",
+      "nameCN": "博多豚骨拉面 第2幕",
+      "date": "2017-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185465,
+      "dst": 222881
+    },
+    {
+      "relateString": "前传",
+      "src": 222881,
+      "dst": 185465
+    }
+  ]
 }

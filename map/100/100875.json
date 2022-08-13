@@ -1,37 +1,34 @@
 {
- "id": 100875,
- "node": [
-  {
-   "id": 100875,
-   "name": "Will &amp; Grace Season 1",
-   "nameCN": "威尔和格蕾丝 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/8a/100875_D6cv6.jpg",
-   "date": "1998-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 100876,
-   "name": "Will &amp; Grace Season 2",
-   "nameCN": "威尔和格蕾丝 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/03/100876_WwujD.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100875,
-   "dst": 100876
-  },
-  {
-   "relate": "前传",
-   "src": 100876,
-   "dst": 100875
-  }
- ]
+  "id": "100875",
+  "node": [
+    {
+      "id": 100875,
+      "name": "Will &amp; Grace Season 1",
+      "nameCN": "威尔和格蕾丝 第一季",
+      "date": "1998-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100876,
+      "name": "Will &amp; Grace Season 2",
+      "nameCN": "威尔和格蕾丝 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100875,
+      "dst": 100876
+    },
+    {
+      "relateString": "前传",
+      "src": 100876,
+      "dst": 100875
+    }
+  ]
 }

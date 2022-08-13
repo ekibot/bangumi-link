@@ -1,37 +1,35 @@
 {
- "id": 91707,
- "node": [
-  {
-   "id": 91707,
-   "name": "ポケモントローゼ",
-   "nameCN": "宝可梦益智方块",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/71/91707_22l1T.jpg",
-   "date": "2005-10-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 99730,
-   "name": "ポケモンバトルトローゼ",
-   "nameCN": "精灵宝可梦：战斗方块",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/83/99730_fWcUh.jpg",
-   "date": "2014-03-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91707,
-   "dst": 99730
-  },
-  {
-   "relate": "前传",
-   "src": 99730,
-   "dst": 91707
-  }
- ]
+  "id": "91707",
+  "node": [
+    {
+      "id": 91707,
+      "name": "ポケモントローゼ",
+      "nameCN": "宝可梦益智方块",
+      "date": "2005-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99730,
+      "name": "ポケモンバトルトローゼ",
+      "nameCN": "精灵宝可梦：战斗方块",
+      "date": "2014-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91707,
+      "dst": 99730
+    },
+    {
+      "relateString": "前传",
+      "src": 99730,
+      "dst": 91707
+    }
+  ]
 }

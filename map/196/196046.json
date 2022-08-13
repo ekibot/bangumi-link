@@ -1,57 +1,54 @@
 {
- "id": 196046,
- "node": [
-  {
-   "id": 196046,
-   "name": "キボウノシマ (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/f4/196046_jp.jpg",
-   "date": "2016-07-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 196047,
-   "name": "キボウノシマ (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/5a/196047_jp.jpg",
-   "date": "2016-01-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 230487,
-   "name": "キボウノシマ (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/61/230487_z6c8C.jpg",
-   "date": "2017-02-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 196046,
-   "dst": 196047
-  },
-  {
-   "relate": "续集",
-   "src": 196046,
-   "dst": 230487
-  },
-  {
-   "relate": "续集",
-   "src": 196047,
-   "dst": 196046
-  },
-  {
-   "relate": "前传",
-   "src": 230487,
-   "dst": 196046
-  }
- ]
+  "id": "196046",
+  "node": [
+    {
+      "id": 196046,
+      "name": "キボウノシマ (2)",
+      "nameCN": "",
+      "date": "2016-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196047,
+      "name": "キボウノシマ (1)",
+      "nameCN": "",
+      "date": "2016-01-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 230487,
+      "name": "キボウノシマ (3)",
+      "nameCN": "",
+      "date": "2017-02-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 196046,
+      "dst": 196047
+    },
+    {
+      "relateString": "续集",
+      "src": 196046,
+      "dst": 230487
+    },
+    {
+      "relateString": "续集",
+      "src": 196047,
+      "dst": 196046
+    },
+    {
+      "relateString": "前传",
+      "src": 230487,
+      "dst": 196046
+    }
+  ]
 }

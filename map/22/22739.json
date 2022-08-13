@@ -1,37 +1,35 @@
 {
- "id": 22739,
- "node": [
-  {
-   "id": 22739,
-   "name": "武装神姫 MOON ANGEL",
-   "nameCN": "武装神姬 Moon Angel",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/a3/22739_UK8X1.jpg",
-   "date": "2011-09-22",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 40756,
-   "name": "武装神姫",
-   "nameCN": "武装神姬",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/ad/40756_G65G1.jpg",
-   "date": "2012-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 22739,
-   "dst": 40756
-  },
-  {
-   "relate": "不同演绎",
-   "src": 40756,
-   "dst": 22739
-  }
- ]
+  "id": "22739",
+  "node": [
+    {
+      "id": 22739,
+      "name": "武装神姫 MOON ANGEL",
+      "nameCN": "武装神姬 Moon Angel",
+      "date": "2011-09-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 40756,
+      "name": "武装神姫",
+      "nameCN": "武装神姬",
+      "date": "2012-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 22739,
+      "dst": 40756
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 40756,
+      "dst": 22739
+    }
+  ]
 }

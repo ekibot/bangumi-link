@@ -1,37 +1,34 @@
 {
- "id": 210824,
- "node": [
-  {
-   "id": 210824,
-   "name": "Feud: Bette and Joan",
-   "nameCN": "宿敌：贝蒂和琼",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/b3/210824_2rkfU.jpg",
-   "date": "2017-03-05",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 234868,
-   "name": "Feud: Charles and Diana",
-   "nameCN": "宿敌：查尔斯与戴安娜",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 210824,
-   "dst": 234868
-  },
-  {
-   "relate": "前传",
-   "src": 234868,
-   "dst": 210824
-  }
- ]
+  "id": "210824",
+  "node": [
+    {
+      "id": 210824,
+      "name": "Feud: Bette and Joan",
+      "nameCN": "宿敌：贝蒂和琼",
+      "date": "2017-03-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 234868,
+      "name": "Feud: Charles and Diana",
+      "nameCN": "宿敌：查尔斯与戴安娜",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 210824,
+      "dst": 234868
+    },
+    {
+      "relateString": "前传",
+      "src": 234868,
+      "dst": 210824
+    }
+  ]
 }

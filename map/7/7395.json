@@ -1,37 +1,33 @@
 {
- "id": 7395,
- "node": [
-  {
-   "id": 7395,
-   "name": "きみがいなけりゃ息もできない",
-   "nameCN": "沒有你我无法呼吸",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/dd/23625_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 23623,
-   "name": "きみがいるなら世界の果てでも",
-   "nameCN": "擁有你可以天涯同行",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/01/23623_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7395,
-   "dst": 23623
-  },
-  {
-   "relate": "前传",
-   "src": 23623,
-   "dst": 7395
-  }
- ]
+  "id": "7395",
+  "node": [
+    {
+      "id": 7395,
+      "name": "きみがいなけりゃ息もできない",
+      "nameCN": "沒有你我无法呼吸",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 23623,
+      "name": "きみがいるなら世界の果てでも",
+      "nameCN": "擁有你可以天涯同行",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7395,
+      "dst": 23623
+    },
+    {
+      "relateString": "前传",
+      "src": 23623,
+      "dst": 7395
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 183023,
- "node": [
-  {
-   "id": 183023,
-   "name": "巨蟲列島",
-   "nameCN": "巨虫列岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/87/183023_5IiAf.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 291323,
-   "name": "大巨蟲列島",
-   "nameCN": "大巨虫列岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/2f/291323_VeF2P.jpg",
-   "date": "2019-12-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 297653,
-   "name": "巨蟲山脈",
-   "nameCN": "巨虫山脉",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/39/297653_9HGeg.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 183023,
-   "dst": 291323
-  },
-  {
-   "relate": "前传",
-   "src": 291323,
-   "dst": 183023
-  },
-  {
-   "relate": "续集",
-   "src": 291323,
-   "dst": 297653
-  },
-  {
-   "relate": "前传",
-   "src": 297653,
-   "dst": 291323
-  }
- ]
+  "id": "183023",
+  "node": [
+    {
+      "id": 183023,
+      "name": "巨蟲列島",
+      "nameCN": "巨虫列岛",
+      "date": "2015-03-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 291323,
+      "name": "大巨蟲列島",
+      "nameCN": "大巨虫列岛",
+      "date": "2019-12-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 297653,
+      "name": "巨蟲山脈",
+      "nameCN": "巨虫山脉",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 183023,
+      "dst": 291323
+    },
+    {
+      "relateString": "前传",
+      "src": 291323,
+      "dst": 183023
+    },
+    {
+      "relateString": "续集",
+      "src": 291323,
+      "dst": 297653
+    },
+    {
+      "relateString": "前传",
+      "src": 297653,
+      "dst": 291323
+    }
+  ]
 }

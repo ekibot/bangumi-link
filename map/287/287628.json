@@ -1,37 +1,35 @@
 {
- "id": 287628,
- "node": [
-  {
-   "id": 287628,
-   "name": "背徳の夜食　第1弾",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/b2/287628_11fRf.jpg",
-   "date": "2019-07-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 291649,
-   "name": "背徳の夜食　第2弾",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/d9/291649_1XP8X.jpg",
-   "date": "2019-09-28",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 287628,
-   "dst": 291649
-  },
-  {
-   "relate": "前传",
-   "src": 291649,
-   "dst": 287628
-  }
- ]
+  "id": "287628",
+  "node": [
+    {
+      "id": 287628,
+      "name": "背徳の夜食　第1弾",
+      "nameCN": "",
+      "date": "2019-07-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 291649,
+      "name": "背徳の夜食　第2弾",
+      "nameCN": "",
+      "date": "2019-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 287628,
+      "dst": 291649
+    },
+    {
+      "relateString": "前传",
+      "src": 291649,
+      "dst": 287628
+    }
+  ]
 }

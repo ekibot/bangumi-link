@@ -1,57 +1,53 @@
 {
- "id": 113087,
- "node": [
-  {
-   "id": 113087,
-   "name": "Heavy Metal",
-   "nameCN": "宇宙奇趣录",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/a5/113087_YY7e7.jpg",
-   "date": "1981-07-29",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 321081,
-   "name": "Heavy Metal 2000",
-   "nameCN": "宇宙奇趣录 2000",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/d2/321081_hCzZG.jpg",
-   "date": "2000-04-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 321083,
-   "name": "Heavy Metal",
-   "nameCN": "宇宙奇趣录",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113087,
-   "dst": 321081
-  },
-  {
-   "relate": "前传",
-   "src": 321081,
-   "dst": 113087
-  },
-  {
-   "relate": "续集",
-   "src": 321081,
-   "dst": 321083
-  },
-  {
-   "relate": "前传",
-   "src": 321083,
-   "dst": 321081
-  }
- ]
+  "id": "113087",
+  "node": [
+    {
+      "id": 113087,
+      "name": "Heavy Metal",
+      "nameCN": "宇宙奇趣录",
+      "date": "1981-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 321081,
+      "name": "Heavy Metal 2000",
+      "nameCN": "宇宙奇趣录 2000",
+      "date": "2000-04-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 321083,
+      "name": "Heavy Metal",
+      "nameCN": "宇宙奇趣录",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113087,
+      "dst": 321081
+    },
+    {
+      "relateString": "前传",
+      "src": 321081,
+      "dst": 113087
+    },
+    {
+      "relateString": "续集",
+      "src": 321081,
+      "dst": 321083
+    },
+    {
+      "relateString": "前传",
+      "src": 321083,
+      "dst": 321081
+    }
+  ]
 }

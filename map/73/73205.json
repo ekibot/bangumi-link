@@ -1,37 +1,33 @@
 {
- "id": 73205,
- "node": [
-  {
-   "id": 73205,
-   "name": "あずみ",
-   "nameCN": "少女杀手阿墨",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/e3/73205_KbzE7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 125287,
-   "name": "AZUMI",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/da/125287_8kSNM.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 73205,
-   "dst": 125287
-  },
-  {
-   "relate": "前传",
-   "src": 125287,
-   "dst": 73205
-  }
- ]
+  "id": "73205",
+  "node": [
+    {
+      "id": 73205,
+      "name": "あずみ",
+      "nameCN": "少女杀手阿墨",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 125287,
+      "name": "AZUMI",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 73205,
+      "dst": 125287
+    },
+    {
+      "relateString": "前传",
+      "src": 125287,
+      "dst": 73205
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 95784,
- "node": [
-  {
-   "id": 95784,
-   "name": "The Lego Movie",
-   "nameCN": "乐高大电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/63/95784_69vkq.jpg",
-   "date": "2014-02-07",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 114889,
-   "name": "LEGO Batman: The Movie - DC Superheroes Unite",
-   "nameCN": "乐高蝙蝠侠大电影：DC英雄集结",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/2d/114889_0P4w8.jpg",
-   "date": "2013-05-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 175428,
-   "name": "The Lego Batman Movie",
-   "nameCN": "乐高蝙蝠侠大电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/ac/175428_BJuHh.jpg",
-   "date": "2017-02-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 270083,
-   "name": "The Lego Movie 2: The Second Part",
-   "nameCN": "乐高大电影2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/6f/270083_RhSqh.jpg",
-   "date": "2019-02-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 95784,
-   "dst": 175428
-  },
-  {
-   "relate": "续集",
-   "src": 95784,
-   "dst": 270083
-  },
-  {
-   "relate": "不同世界观",
-   "src": 114889,
-   "dst": 175428
-  },
-  {
-   "relate": "相同世界观",
-   "src": 175428,
-   "dst": 95784
-  },
-  {
-   "relate": "不同世界观",
-   "src": 175428,
-   "dst": 114889
-  },
-  {
-   "relate": "前传",
-   "src": 270083,
-   "dst": 95784
-  }
- ]
+  "id": "95784",
+  "node": [
+    {
+      "id": 95784,
+      "name": "The Lego Movie",
+      "nameCN": "乐高大电影",
+      "date": "2014-02-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 175428,
+      "name": "The Lego Batman Movie",
+      "nameCN": "乐高蝙蝠侠大电影",
+      "date": "2017-02-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 270083,
+      "name": "The Lego Movie 2: The Second Part",
+      "nameCN": "乐高大电影2",
+      "date": "2019-02-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 114889,
+      "name": "LEGO Batman: The Movie - DC Superheroes Unite",
+      "nameCN": "乐高蝙蝠侠大电影：DC英雄集结",
+      "date": "2013-05-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 95784,
+      "dst": 175428
+    },
+    {
+      "relateString": "续集",
+      "src": 95784,
+      "dst": 270083
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 114889,
+      "dst": 175428
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 175428,
+      "dst": 95784
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 175428,
+      "dst": 114889
+    },
+    {
+      "relateString": "前传",
+      "src": 270083,
+      "dst": 95784
+    }
+  ]
 }

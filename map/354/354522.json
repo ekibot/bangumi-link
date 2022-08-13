@@ -1,0 +1,54 @@
+{
+  "id": "354522",
+  "node": [
+    {
+      "id": 354522,
+      "name": "サムライカアサンNEO",
+      "nameCN": "",
+      "date": "2021-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355315,
+      "name": "サムライカアサンプラス",
+      "nameCN": "",
+      "date": "2012-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355314,
+      "name": "サムライカアサン",
+      "nameCN": "",
+      "date": "2006-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 354522,
+      "dst": 355315
+    },
+    {
+      "relateString": "续集",
+      "src": 355314,
+      "dst": 355315
+    },
+    {
+      "relateString": "续集",
+      "src": 355315,
+      "dst": 354522
+    },
+    {
+      "relateString": "前传",
+      "src": 355315,
+      "dst": 355314
+    }
+  ]
+}

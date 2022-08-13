@@ -1,57 +1,54 @@
 {
- "id": 186685,
- "node": [
-  {
-   "id": 186685,
-   "name": "ナイトミルクヘッズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/5e/186685_jp.jpg",
-   "date": "2016-06-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 226817,
-   "name": "ナイトミルクヘブン",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/fd/226817_sSRFc.jpg",
-   "date": "2017-06-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287535,
-   "name": "ナイトミルクアソート",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/3a/287535_dp7Fe.jpg",
-   "date": "2019-07-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 186685,
-   "dst": 287535
-  },
-  {
-   "relate": "续集",
-   "src": 226817,
-   "dst": 287535
-  },
-  {
-   "relate": "前传",
-   "src": 287535,
-   "dst": 186685
-  },
-  {
-   "relate": "前传",
-   "src": 287535,
-   "dst": 226817
-  }
- ]
+  "id": "186685",
+  "node": [
+    {
+      "id": 186685,
+      "name": "ナイトミルクヘッズ",
+      "nameCN": "",
+      "date": "2016-06-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287535,
+      "name": "ナイトミルクアソート",
+      "nameCN": "",
+      "date": "2019-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 226817,
+      "name": "ナイトミルクヘブン",
+      "nameCN": "",
+      "date": "2017-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 186685,
+      "dst": 287535
+    },
+    {
+      "relateString": "续集",
+      "src": 226817,
+      "dst": 287535
+    },
+    {
+      "relateString": "前传",
+      "src": 287535,
+      "dst": 186685
+    },
+    {
+      "relateString": "前传",
+      "src": 287535,
+      "dst": 226817
+    }
+  ]
 }

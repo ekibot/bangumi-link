@@ -1,37 +1,35 @@
 {
- "id": 211015,
- "node": [
-  {
-   "id": 211015,
-   "name": "のらみみ",
-   "nameCN": "野良耳",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/c3/211015_njaTK.jpg",
-   "date": "2008-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 215551,
-   "name": "のらみみ2",
-   "nameCN": "野良耳2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/23/215551_NhdCh.jpg",
-   "date": "2008-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211015,
-   "dst": 215551
-  },
-  {
-   "relate": "前传",
-   "src": 215551,
-   "dst": 211015
-  }
- ]
+  "id": "211015",
+  "node": [
+    {
+      "id": 211015,
+      "name": "のらみみ",
+      "nameCN": "野良耳",
+      "date": "2008-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 215551,
+      "name": "のらみみ2",
+      "nameCN": "野良耳2",
+      "date": "2008-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211015,
+      "dst": 215551
+    },
+    {
+      "relateString": "前传",
+      "src": 215551,
+      "dst": 211015
+    }
+  ]
 }

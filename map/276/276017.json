@@ -1,57 +1,54 @@
 {
- "id": 276017,
- "node": [
-  {
-   "id": 276017,
-   "name": "カンナさーん!",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/bf/276017_gYz22.jpg",
-   "date": "2001-12-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 276033,
-   "name": "カンナさーん!―ドラマ化スペシャル",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/c8/276033_kLBob.jpg",
-   "date": "2017-07-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 276034,
-   "name": "カンナさーん! アラフォー編",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/4d/276034_uMZY9.jpg",
-   "date": "2017-07-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 276017,
-   "dst": 276033
-  },
-  {
-   "relate": "续集",
-   "src": 276017,
-   "dst": 276034
-  },
-  {
-   "relate": "主线故事",
-   "src": 276033,
-   "dst": 276017
-  },
-  {
-   "relate": "前传",
-   "src": 276034,
-   "dst": 276017
-  }
- ]
+  "id": "276017",
+  "node": [
+    {
+      "id": 276017,
+      "name": "カンナさーん!",
+      "nameCN": "",
+      "date": "2001-12-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 276033,
+      "name": "カンナさーん!―ドラマ化スペシャル",
+      "nameCN": "",
+      "date": "2017-07-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 276034,
+      "name": "カンナさーん! アラフォー編",
+      "nameCN": "",
+      "date": "2017-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 276017,
+      "dst": 276033
+    },
+    {
+      "relateString": "续集",
+      "src": 276017,
+      "dst": 276034
+    },
+    {
+      "relateString": "主线故事",
+      "src": 276033,
+      "dst": 276017
+    },
+    {
+      "relateString": "前传",
+      "src": 276034,
+      "dst": 276017
+    }
+  ]
 }

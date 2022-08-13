@@ -1,37 +1,35 @@
 {
- "id": 211830,
- "node": [
-  {
-   "id": 211830,
-   "name": "奥様はおねえちゃん！？",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/30/211830_3uII3.jpg",
-   "date": "2004-12-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 211831,
-   "name": "続・奥様はおねぇちゃん!?",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/00/211831_5UF2H.jpg",
-   "type": 4,
-   "date": "2017-05-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211830,
-   "dst": 211831
-  },
-  {
-   "relate": "前传",
-   "src": 211831,
-   "dst": 211830
-  }
- ]
+  "id": "211830",
+  "node": [
+    {
+      "id": 211830,
+      "name": "奥様はおねえちゃん！？",
+      "nameCN": "",
+      "date": "2004-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211831,
+      "name": "続・奥様はおねぇちゃん!?",
+      "nameCN": "",
+      "date": "2017-05-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211830,
+      "dst": 211831
+    },
+    {
+      "relateString": "前传",
+      "src": 211831,
+      "dst": 211830
+    }
+  ]
 }

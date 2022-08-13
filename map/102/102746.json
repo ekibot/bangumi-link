@@ -1,77 +1,73 @@
 {
- "id": 102746,
- "node": [
-  {
-   "id": 102746,
-   "name": "Midnight Club 2",
-   "nameCN": "午夜俱乐部2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/2b/102746_qYA0B.jpg",
-   "date": "2003-04-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 122436,
-   "name": "Midnight Club: Los Angeles",
-   "nameCN": "湾岸午夜俱乐部 洛杉矶",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/6d/122436_LwZjV.jpg",
-   "date": "2008-10-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 157624,
-   "name": "Midnight Club: Street Racing",
-   "nameCN": "湾岸：街头赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/39/157624_w6W0j.jpg",
-   "date": "2000-10-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 157625,
-   "name": "Midnight Club 3: DUB Edition",
-   "nameCN": "湾岸午夜俱乐部3：DUB版",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/56/157625_yT4Xx.jpg",
-   "date": "2005-04-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 102746,
-   "dst": 157624
-  },
-  {
-   "relate": "续集",
-   "src": 102746,
-   "dst": 157625
-  },
-  {
-   "relate": "前传",
-   "src": 122436,
-   "dst": 157625
-  },
-  {
-   "relate": "续集",
-   "src": 157624,
-   "dst": 102746
-  },
-  {
-   "relate": "前传",
-   "src": 157625,
-   "dst": 102746
-  },
-  {
-   "relate": "续集",
-   "src": 157625,
-   "dst": 122436
-  }
- ]
+  "id": "102746",
+  "node": [
+    {
+      "id": 102746,
+      "name": "Midnight Club 2",
+      "nameCN": "午夜俱乐部2",
+      "date": "2003-04-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 157624,
+      "name": "Midnight Club: Street Racing",
+      "nameCN": "湾岸：街头赛车",
+      "date": "2000-10-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 157625,
+      "name": "Midnight Club 3: DUB Edition",
+      "nameCN": "湾岸午夜俱乐部3：DUB版",
+      "date": "2005-04-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122436,
+      "name": "Midnight Club: Los Angeles",
+      "nameCN": "湾岸午夜俱乐部 洛杉矶",
+      "date": "2008-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 102746,
+      "dst": 157624
+    },
+    {
+      "relateString": "续集",
+      "src": 102746,
+      "dst": 157625
+    },
+    {
+      "relateString": "前传",
+      "src": 122436,
+      "dst": 157625
+    },
+    {
+      "relateString": "续集",
+      "src": 157624,
+      "dst": 102746
+    },
+    {
+      "relateString": "前传",
+      "src": 157625,
+      "dst": 102746
+    },
+    {
+      "relateString": "续集",
+      "src": 157625,
+      "dst": 122436
+    }
+  ]
 }

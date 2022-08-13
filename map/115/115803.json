@@ -1,37 +1,35 @@
 {
- "id": 115803,
- "node": [
-  {
-   "id": 115803,
-   "name": "ファミコングランプリ F1レース",
-   "nameCN": "FC大奖赛：F1赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/46/115803_UF5FN.jpg",
-   "date": "1987-10-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 115805,
-   "name": "ファミコングランプリII 3Dホットラリー",
-   "nameCN": "FC大奖赛2：3D Hot Rally",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/c7/115805_AiHvv.jpg",
-   "date": "1988-04-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 115803,
-   "dst": 115805
-  },
-  {
-   "relate": "前传",
-   "src": 115805,
-   "dst": 115803
-  }
- ]
+  "id": "115803",
+  "node": [
+    {
+      "id": 115803,
+      "name": "ファミコングランプリ F1レース",
+      "nameCN": "FC大奖赛：F1赛车",
+      "date": "1987-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 115805,
+      "name": "ファミコングランプリII 3Dホットラリー",
+      "nameCN": "FC大奖赛2：3D Hot Rally",
+      "date": "1988-04-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 115803,
+      "dst": 115805
+    },
+    {
+      "relateString": "前传",
+      "src": 115805,
+      "dst": 115803
+    }
+  ]
 }

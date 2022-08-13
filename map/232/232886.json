@@ -1,37 +1,35 @@
 {
- "id": 232886,
- "node": [
-  {
-   "id": 232886,
-   "name": "かみくじむら",
-   "nameCN": "神签村",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/15/232886_c9rir.jpg",
-   "date": "2018-09-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 359872,
-   "name": "かみくじむら ~ぬめりロワイヤル~",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/f0/359872_0m2Tb.jpg",
-   "date": "2021-10-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 232886,
-   "dst": 359872
-  },
-  {
-   "relate": "主线故事",
-   "src": 359872,
-   "dst": 232886
-  }
- ]
+  "id": "232886",
+  "node": [
+    {
+      "id": 232886,
+      "name": "かみくじむら",
+      "nameCN": "神签村",
+      "date": "2018-09-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 359872,
+      "name": "かみくじむら ~ぬめりロワイヤル~",
+      "nameCN": "",
+      "date": "2021-10-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 232886,
+      "dst": 359872
+    },
+    {
+      "relateString": "主线故事",
+      "src": 359872,
+      "dst": 232886
+    }
+  ]
 }

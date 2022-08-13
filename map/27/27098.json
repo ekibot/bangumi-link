@@ -1,57 +1,52 @@
 {
- "id": 27098,
- "node": [
-  {
-   "id": 27098,
-   "name": "戦場のヴァルキュリア2 -our only days-",
-   "nameCN": "战场女武神2 our only days",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/04/27098_za5FF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 27101,
-   "name": "戦場のヴァルキュリア2 蒼光のエイリアス",
-   "nameCN": "战场的女武神2 苍光之爱丽雅丝",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/84/27101_9v5wb.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 27106,
-   "name": "戦場のヴァルキュリア2",
-   "nameCN": "战场女武神 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/a6/27106_Se6p6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 27098,
-   "dst": 27106
-  },
-  {
-   "relate": "主线故事",
-   "src": 27101,
-   "dst": 27106
-  },
-  {
-   "relate": "番外篇",
-   "src": 27106,
-   "dst": 27098
-  },
-  {
-   "relate": "番外篇",
-   "src": 27106,
-   "dst": 27101
-  }
- ]
+  "id": "27098",
+  "node": [
+    {
+      "id": 27098,
+      "name": "戦場のヴァルキュリア2 -our only days-",
+      "nameCN": "战场女武神2 our only days",
+      "date": "2010-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 27106,
+      "name": "戦場のヴァルキュリア2",
+      "nameCN": "战场女武神 2",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 27101,
+      "name": "戦場のヴァルキュリア2 蒼光のエイリアス",
+      "nameCN": "战场的女武神2 苍光之爱丽雅丝",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 27098,
+      "dst": 27106
+    },
+    {
+      "relateString": "主线故事",
+      "src": 27101,
+      "dst": 27106
+    },
+    {
+      "relateString": "番外篇",
+      "src": 27106,
+      "dst": 27098
+    },
+    {
+      "relateString": "番外篇",
+      "src": 27106,
+      "dst": 27101
+    }
+  ]
 }

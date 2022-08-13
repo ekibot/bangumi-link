@@ -1,0 +1,53 @@
+{
+  "id": "78440",
+  "node": [
+    {
+      "id": 78440,
+      "name": "放課後ドロップ",
+      "nameCN": "放课后drop",
+      "date": "2008-11-27",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 92820,
+      "name": "秘書課ドロップ",
+      "nameCN": "秘书课秘蜜情事",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 92465,
+      "name": "秘書課ドロップミックス 1",
+      "nameCN": "秘书课秘密情事Mix",
+      "date": "2009-11-27",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 78440,
+      "dst": 92820
+    },
+    {
+      "relateString": "主线故事",
+      "src": 92465,
+      "dst": 92820
+    },
+    {
+      "relateString": "番外篇",
+      "src": 92820,
+      "dst": 78440
+    },
+    {
+      "relateString": "番外篇",
+      "src": 92820,
+      "dst": 92465
+    }
+  ]
+}

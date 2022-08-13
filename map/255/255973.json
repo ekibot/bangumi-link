@@ -1,37 +1,33 @@
 {
- "id": 255973,
- "node": [
-  {
-   "id": 255973,
-   "name": "Wizards &amp; Warriors",
-   "nameCN": "巫师与战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/d2/255973_HtoQ5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256042,
-   "name": "Ironsword: Wizards &amp; Warriors II",
-   "nameCN": "巫师与战士2",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/38/256042_XRX4s.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 255973,
-   "dst": 256042
-  },
-  {
-   "relate": "前传",
-   "src": 256042,
-   "dst": 255973
-  }
- ]
+  "id": "255973",
+  "node": [
+    {
+      "id": 255973,
+      "name": "Wizards &amp; Warriors",
+      "nameCN": "巫师与战士",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256042,
+      "name": "Ironsword: Wizards &amp; Warriors II",
+      "nameCN": "巫师与战士2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 255973,
+      "dst": 256042
+    },
+    {
+      "relateString": "前传",
+      "src": 256042,
+      "dst": 255973
+    }
+  ]
 }

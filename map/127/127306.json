@@ -1,37 +1,35 @@
 {
- "id": 127306,
- "node": [
-  {
-   "id": 127306,
-   "name": "Three Little Pigs",
-   "nameCN": "三只小猪",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/ca/127306_K84Kz.jpg",
-   "date": "1933-05-27",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 149207,
-   "name": "Three Little Wolves",
-   "nameCN": "三只小狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/0c/149207_vvkcG.jpg",
-   "date": "1936-04-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 127306,
-   "dst": 149207
-  },
-  {
-   "relate": "主线故事",
-   "src": 149207,
-   "dst": 127306
-  }
- ]
+  "id": "127306",
+  "node": [
+    {
+      "id": 127306,
+      "name": "Three Little Pigs",
+      "nameCN": "三只小猪",
+      "date": "1933-05-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 149207,
+      "name": "Three Little Wolves",
+      "nameCN": "三只小狼",
+      "date": "1936-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 127306,
+      "dst": 149207
+    },
+    {
+      "relateString": "主线故事",
+      "src": 149207,
+      "dst": 127306
+    }
+  ]
 }

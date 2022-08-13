@@ -1,37 +1,33 @@
 {
- "id": 36056,
- "node": [
-  {
-   "id": 36056,
-   "name": "没头脑和不高兴",
-   "nameCN": "没头脑和不高兴",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/17/36056_nUsSI.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 229733,
-   "name": "新没头脑和不高兴",
-   "nameCN": "新没头脑和不高兴",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/e1/229733_n4xGD.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 36056,
-   "dst": 229733
-  },
-  {
-   "relate": "不同演绎",
-   "src": 229733,
-   "dst": 36056
-  }
- ]
+  "id": "36056",
+  "node": [
+    {
+      "id": 36056,
+      "name": "没头脑和不高兴",
+      "nameCN": "没头脑和不高兴",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 229733,
+      "name": "新没头脑和不高兴",
+      "nameCN": "新没头脑和不高兴",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 36056,
+      "dst": 229733
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 229733,
+      "dst": 36056
+    }
+  ]
 }

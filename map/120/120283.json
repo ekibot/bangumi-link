@@ -1,34 +1,35 @@
 {
- "id": 120283,
- "node": [
-  {
-   "id": 120283,
-   "name": "トラベリングスターズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/56/120283_VGXix.jpg",
-   "date": "2015-08-28",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 168596,
-   "name": "トラベリングスターズ MiniFanDisc ジルコニアVer.",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/7d/168596_t3SL3.jpg",
-   "date": "2016-03-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120283,
-   "dst": 168596
-  },
-  {
-   "relate": "前传",
-   "src": 168596,
-   "dst": 120283
-  }
- ]
+  "id": "120283",
+  "node": [
+    {
+      "id": 120283,
+      "name": "トラベリングスターズ",
+      "nameCN": "",
+      "date": "2015-08-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 168596,
+      "name": "トラベリングスターズ MiniFanDisc ジルコニアVer.",
+      "nameCN": "",
+      "date": "2016-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120283,
+      "dst": 168596
+    },
+    {
+      "relateString": "前传",
+      "src": 168596,
+      "dst": 120283
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 7211,
- "node": [
-  {
-   "id": 7211,
-   "name": "Hung Season 2",
-   "nameCN": "大器晚成 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/0f/7211_2MX3g.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 86637,
-   "name": "Hung Season 1",
-   "nameCN": "大器晚成 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/cc/86637_qiM9N.jpg",
-   "date": "2009-06-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86638,
-   "name": "Hung Season 3",
-   "nameCN": "大器晚成 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/7c/86638_uZ5ZT.jpg",
-   "date": "2011-10-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7211,
-   "dst": 86637
-  },
-  {
-   "relate": "续集",
-   "src": 7211,
-   "dst": 86638
-  },
-  {
-   "relate": "续集",
-   "src": 86637,
-   "dst": 7211
-  },
-  {
-   "relate": "前传",
-   "src": 86638,
-   "dst": 7211
-  }
- ]
+  "id": "7211",
+  "node": [
+    {
+      "id": 7211,
+      "name": "Hung Season 2",
+      "nameCN": "大器晚成 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86637,
+      "name": "Hung Season 1",
+      "nameCN": "大器晚成 第一季",
+      "date": "2009-06-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86638,
+      "name": "Hung Season 3",
+      "nameCN": "大器晚成 第三季",
+      "date": "2011-10-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7211,
+      "dst": 86637
+    },
+    {
+      "relateString": "续集",
+      "src": 7211,
+      "dst": 86638
+    },
+    {
+      "relateString": "续集",
+      "src": 86637,
+      "dst": 7211
+    },
+    {
+      "relateString": "前传",
+      "src": 86638,
+      "dst": 7211
+    }
+  ]
 }

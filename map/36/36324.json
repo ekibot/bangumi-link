@@ -1,37 +1,35 @@
 {
- "id": 36324,
- "node": [
-  {
-   "id": 36324,
-   "name": "青山剛昌短編集",
-   "nameCN": "青山刚昌短篇集",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/68/36324_v2uyr.jpg",
-   "date": "1999-03-17",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 36326,
-   "name": "青山剛昌短編集 2",
-   "nameCN": "青山刚昌短篇集 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/1a/36326_R21Ch.jpg",
-   "date": "1999-12-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36324,
-   "dst": 36326
-  },
-  {
-   "relate": "前传",
-   "src": 36326,
-   "dst": 36324
-  }
- ]
+  "id": "36324",
+  "node": [
+    {
+      "id": 36324,
+      "name": "青山剛昌短編集",
+      "nameCN": "青山刚昌短篇集",
+      "date": "1999-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 36326,
+      "name": "青山剛昌短編集 2",
+      "nameCN": "青山刚昌短篇集 2",
+      "date": "1999-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36324,
+      "dst": 36326
+    },
+    {
+      "relateString": "前传",
+      "src": 36326,
+      "dst": 36324
+    }
+  ]
 }

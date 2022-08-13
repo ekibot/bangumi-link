@@ -1,57 +1,54 @@
 {
- "id": 70433,
- "node": [
-  {
-   "id": 70433,
-   "name": "Wargame: European Escalation",
-   "nameCN": "战争游戏：欧洲扩张",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/8a/70433_fFPpZ.jpg",
-   "date": "2012-02-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 72653,
-   "name": "Wargame:Airland Battle",
-   "nameCN": "战争游戏：空地一体战",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/72/72653_3oJLQ.jpg",
-   "date": "2013-05-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 109106,
-   "name": "Wargame:Red Dragon",
-   "nameCN": "战争游戏：红龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/83/109106_lHM2J.jpg",
-   "date": "2014-04-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 70433,
-   "dst": 72653
-  },
-  {
-   "relate": "前传",
-   "src": 72653,
-   "dst": 70433
-  },
-  {
-   "relate": "续集",
-   "src": 72653,
-   "dst": 109106
-  },
-  {
-   "relate": "前传",
-   "src": 109106,
-   "dst": 72653
-  }
- ]
+  "id": "70433",
+  "node": [
+    {
+      "id": 70433,
+      "name": "Wargame: European Escalation",
+      "nameCN": "战争游戏：欧洲扩张",
+      "date": "2012-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 72653,
+      "name": "Wargame:Airland Battle",
+      "nameCN": "战争游戏：空地一体战",
+      "date": "2013-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 109106,
+      "name": "Wargame:Red Dragon",
+      "nameCN": "战争游戏：红龙",
+      "date": "2014-04-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 70433,
+      "dst": 72653
+    },
+    {
+      "relateString": "前传",
+      "src": 72653,
+      "dst": 70433
+    },
+    {
+      "relateString": "续集",
+      "src": 72653,
+      "dst": 109106
+    },
+    {
+      "relateString": "前传",
+      "src": 109106,
+      "dst": 72653
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 169326,
- "node": [
-  {
-   "id": 169326,
-   "name": "寄性獣医・鈴音 GENESIS",
-   "nameCN": "寄性兽医・铃音 GENESIS",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/0f/169326_sL11s.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 169328,
-   "name": "寄性獣医・鈴音 EVOLUTION",
-   "nameCN": "寄性兽医・铃音 EVOLUTION",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/56/169328_AthUS.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169326,
-   "dst": 169328
-  },
-  {
-   "relate": "前传",
-   "src": 169328,
-   "dst": 169326
-  }
- ]
+  "id": "169326",
+  "node": [
+    {
+      "id": 169326,
+      "name": "寄性獣医・鈴音 GENESIS",
+      "nameCN": "寄性兽医・铃音 GENESIS",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 169328,
+      "name": "寄性獣医・鈴音 EVOLUTION",
+      "nameCN": "寄性兽医・铃音 EVOLUTION",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169326,
+      "dst": 169328
+    },
+    {
+      "relateString": "前传",
+      "src": 169328,
+      "dst": 169326
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 260494,
- "node": [
-  {
-   "id": 260494,
-   "name": "ワルキューレの伝説",
-   "nameCN": "女武神传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/73/260494_wIzC9.jpg",
-   "date": "1989-04-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260882,
-   "name": "ワルキューレの冒険 時の鍵伝説",
-   "nameCN": "女武神的冒险 时之钥传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/6f/260882_8pR2U.jpg",
-   "date": "1986-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 260494,
-   "dst": 260882
-  },
-  {
-   "relate": "续集",
-   "src": 260882,
-   "dst": 260494
-  }
- ]
+  "id": "260494",
+  "node": [
+    {
+      "id": 260494,
+      "name": "ワルキューレの伝説",
+      "nameCN": "女武神传说",
+      "date": "1989-04-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260882,
+      "name": "ワルキューレの冒険 時の鍵伝説",
+      "nameCN": "女武神的冒险 时之钥传说",
+      "date": "1986-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 260494,
+      "dst": 260882
+    },
+    {
+      "relateString": "续集",
+      "src": 260882,
+      "dst": 260494
+    }
+  ]
 }

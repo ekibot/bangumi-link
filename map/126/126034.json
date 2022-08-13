@@ -1,57 +1,54 @@
 {
- "id": 126034,
- "node": [
-  {
-   "id": 126034,
-   "name": "赤髪の白雪姫",
-   "nameCN": "赤发白雪姬",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/82/126034_zXVXx.jpg",
-   "date": "2015-07-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 144620,
-   "name": "赤髪の白雪姫 OAD",
-   "nameCN": "赤发白雪姬 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/ed/144620_P2WsS.jpg",
-   "date": "2016-01-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 145407,
-   "name": "赤髪の白雪姫 第2クール",
-   "nameCN": "赤发白雪姬 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/37/145407_8Ukug.jpg",
-   "date": "2016-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 126034,
-   "dst": 144620
-  },
-  {
-   "relate": "续集",
-   "src": 126034,
-   "dst": 145407
-  },
-  {
-   "relate": "主线故事",
-   "src": 144620,
-   "dst": 126034
-  },
-  {
-   "relate": "前传",
-   "src": 145407,
-   "dst": 126034
-  }
- ]
+  "id": "126034",
+  "node": [
+    {
+      "id": 126034,
+      "name": "赤髪の白雪姫",
+      "nameCN": "赤发白雪姬",
+      "date": "2015-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 144620,
+      "name": "赤髪の白雪姫 OAD",
+      "nameCN": "赤发白雪姬 OAD",
+      "date": "2016-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 145407,
+      "name": "赤髪の白雪姫 第2クール",
+      "nameCN": "赤发白雪姬 第二季",
+      "date": "2016-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 126034,
+      "dst": 144620
+    },
+    {
+      "relateString": "续集",
+      "src": 126034,
+      "dst": 145407
+    },
+    {
+      "relateString": "主线故事",
+      "src": 144620,
+      "dst": 126034
+    },
+    {
+      "relateString": "前传",
+      "src": 145407,
+      "dst": 126034
+    }
+  ]
 }

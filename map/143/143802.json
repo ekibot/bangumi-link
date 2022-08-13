@@ -1,37 +1,33 @@
 {
- "id": 143802,
- "node": [
-  {
-   "id": 143802,
-   "name": "Stealth Inc 2: A Game of Clones",
-   "nameCN": "潜行公司2：克隆游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/9e/143802_0Hggy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 205109,
-   "name": "Stealth Bastard: Tactical Espionage Arsehole",
-   "nameCN": "潜行公司",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/76/205109_nXIRA.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 143802,
-   "dst": 205109
-  },
-  {
-   "relate": "续集",
-   "src": 205109,
-   "dst": 143802
-  }
- ]
+  "id": "143802",
+  "node": [
+    {
+      "id": 143802,
+      "name": "Stealth Inc 2: A Game of Clones",
+      "nameCN": "潜行公司2：克隆游戏",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 205109,
+      "name": "Stealth Bastard: Tactical Espionage Arsehole",
+      "nameCN": "潜行公司",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 143802,
+      "dst": 205109
+    },
+    {
+      "relateString": "续集",
+      "src": 205109,
+      "dst": 143802
+    }
+  ]
 }

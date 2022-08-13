@@ -1,51 +1,48 @@
 {
- "id": 121775,
- "node": [
-  {
-   "id": 121775,
-   "name": "ベースボールスターズプロフェッショナル",
-   "nameCN": "棒球之星 职业版",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/a9/121775_8nnP6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 121783,
-   "name": "ベースボールスターズ2",
-   "nameCN": "棒球之星2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/de/121783_s5gIg.jpg",
-   "date": "1992-04-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255692,
-   "name": "ベースボールスター めざせ三冠王",
-   "nameCN": "棒球之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/aa/255692_TKAkK.jpg",
-   "date": "1989-05-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 121775,
-   "dst": 255692
-  },
-  {
-   "relate": "前传",
-   "src": 121783,
-   "dst": 255692
-  },
-  {
-   "relate": "续集",
-   "src": 255692,
-   "dst": 121783
-  }
- ]
+  "id": "121775",
+  "node": [
+    {
+      "id": 121775,
+      "name": "ベースボールスターズプロフェッショナル",
+      "nameCN": "棒球之星 职业版",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255692,
+      "name": "ベースボールスター めざせ三冠王",
+      "nameCN": "棒球之星",
+      "date": "1989-05-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 121783,
+      "name": "ベースボールスターズ2",
+      "nameCN": "棒球之星2",
+      "date": "1992-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 121775,
+      "dst": 255692
+    },
+    {
+      "relateString": "前传",
+      "src": 121783,
+      "dst": 255692
+    },
+    {
+      "relateString": "续集",
+      "src": 255692,
+      "dst": 121783
+    }
+  ]
 }

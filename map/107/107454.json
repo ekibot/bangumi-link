@@ -1,37 +1,35 @@
 {
- "id": 107454,
- "node": [
-  {
-   "id": 107454,
-   "name": "どろろ",
-   "nameCN": "多罗罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/94/107454_p7q2z.jpg",
-   "date": "1969-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 240838,
-   "name": "どろろ",
-   "nameCN": "多罗罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/da/240838_5Ax95.jpg",
-   "date": "2019-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 107454,
-   "dst": 240838
-  },
-  {
-   "relate": "不同演绎",
-   "src": 240838,
-   "dst": 107454
-  }
- ]
+  "id": "107454",
+  "node": [
+    {
+      "id": 107454,
+      "name": "どろろ",
+      "nameCN": "多罗罗",
+      "date": "1969-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 240838,
+      "name": "どろろ",
+      "nameCN": "多罗罗",
+      "date": "2019-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 107454,
+      "dst": 240838
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 240838,
+      "dst": 107454
+    }
+  ]
 }

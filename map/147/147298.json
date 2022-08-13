@@ -1,37 +1,35 @@
 {
- "id": 147298,
- "node": [
-  {
-   "id": 147298,
-   "name": "Scream Queens Season 1",
-   "nameCN": "尖叫皇后 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/3d/147298_l18st.jpg",
-   "date": "2015-09-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 193307,
-   "name": "Scream Queens Season 2",
-   "nameCN": "尖叫皇后 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/4e/193307_kDA7p.jpg",
-   "date": "2016-09-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147298,
-   "dst": 193307
-  },
-  {
-   "relate": "前传",
-   "src": 193307,
-   "dst": 147298
-  }
- ]
+  "id": "147298",
+  "node": [
+    {
+      "id": 147298,
+      "name": "Scream Queens Season 1",
+      "nameCN": "尖叫皇后 第一季",
+      "date": "2015-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 193307,
+      "name": "Scream Queens Season 2",
+      "nameCN": "尖叫皇后 第二季",
+      "date": "2016-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147298,
+      "dst": 193307
+    },
+    {
+      "relateString": "前传",
+      "src": 193307,
+      "dst": 147298
+    }
+  ]
 }

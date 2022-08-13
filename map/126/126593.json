@@ -1,0 +1,54 @@
+{
+  "id": "126593",
+  "node": [
+    {
+      "id": 126593,
+      "name": "舌尖上的中国",
+      "nameCN": "舌尖上的中国",
+      "date": "2012-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 126594,
+      "name": "舌尖上的中国（第二季）",
+      "nameCN": "舌尖上的中国2",
+      "date": "2014-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 133611,
+      "name": "舌尖上的中国（第三季）",
+      "nameCN": "舌尖上的中国3",
+      "date": "2018-02-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126593,
+      "dst": 126594
+    },
+    {
+      "relateString": "前传",
+      "src": 126594,
+      "dst": 126593
+    },
+    {
+      "relateString": "续集",
+      "src": 126594,
+      "dst": 133611
+    },
+    {
+      "relateString": "前传",
+      "src": 133611,
+      "dst": 126594
+    }
+  ]
+}

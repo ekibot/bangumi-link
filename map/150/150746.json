@@ -1,37 +1,35 @@
 {
- "id": 150746,
- "node": [
-  {
-   "id": 150746,
-   "name": "この美術部には問題がある！",
-   "nameCN": "这个美术社大有问题！",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/fb/150746_p7rI3.jpg",
-   "date": "2016-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 210802,
-   "name": "この美術部には問題がある！この映像特典には問題がある！",
-   "nameCN": "这个美术社大有问题！这个映像特典大有问题！",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/45/210802_5vk91.jpg",
-   "date": "2016-11-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 150746,
-   "dst": 210802
-  },
-  {
-   "relate": "主线故事",
-   "src": 210802,
-   "dst": 150746
-  }
- ]
+  "id": "150746",
+  "node": [
+    {
+      "id": 150746,
+      "name": "この美術部には問題がある！",
+      "nameCN": "这个美术社大有问题！",
+      "date": "2016-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 210802,
+      "name": "この美術部には問題がある！この映像特典には問題がある！",
+      "nameCN": "这个美术社大有问题！这个映像特典大有问题！",
+      "date": "2016-11-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 150746,
+      "dst": 210802
+    },
+    {
+      "relateString": "主线故事",
+      "src": 210802,
+      "dst": 150746
+    }
+  ]
 }

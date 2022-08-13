@@ -1,77 +1,73 @@
 {
- "id": 136176,
- "node": [
-  {
-   "id": 136176,
-   "name": "UnReal Season 1",
-   "nameCN": "镜花水月 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/ae/136176_U9a9j.jpg",
-   "date": "2015-06-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 184746,
-   "name": "UnReal Season 2",
-   "nameCN": "镜花水月 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/14/184746_2Onw7.jpg",
-   "date": "2016-06-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 239171,
-   "name": "Unreal Season 3",
-   "nameCN": "镜花水月 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/a1/239171_b8WxI.jpg",
-   "date": "2018-02-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 256254,
-   "name": "UnReal Season 4",
-   "nameCN": "镜花水月 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/c4/256254_a3mG3.jpg",
-   "date": "2018-07-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 136176,
-   "dst": 184746
-  },
-  {
-   "relate": "前传",
-   "src": 184746,
-   "dst": 136176
-  },
-  {
-   "relate": "续集",
-   "src": 184746,
-   "dst": 239171
-  },
-  {
-   "relate": "前传",
-   "src": 239171,
-   "dst": 184746
-  },
-  {
-   "relate": "续集",
-   "src": 239171,
-   "dst": 256254
-  },
-  {
-   "relate": "前传",
-   "src": 256254,
-   "dst": 239171
-  }
- ]
+  "id": "136176",
+  "node": [
+    {
+      "id": 136176,
+      "name": "UnReal Season 1",
+      "nameCN": "镜花水月 第一季",
+      "date": "2015-06-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 184746,
+      "name": "UnReal Season 2",
+      "nameCN": "镜花水月 第二季",
+      "date": "2016-06-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 239171,
+      "name": "Unreal Season 3",
+      "nameCN": "镜花水月 第三季",
+      "date": "2018-02-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 256254,
+      "name": "UnReal Season 4",
+      "nameCN": "镜花水月 第四季",
+      "date": "2018-07-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 136176,
+      "dst": 184746
+    },
+    {
+      "relateString": "前传",
+      "src": 184746,
+      "dst": 136176
+    },
+    {
+      "relateString": "续集",
+      "src": 184746,
+      "dst": 239171
+    },
+    {
+      "relateString": "前传",
+      "src": 239171,
+      "dst": 184746
+    },
+    {
+      "relateString": "续集",
+      "src": 239171,
+      "dst": 256254
+    },
+    {
+      "relateString": "前传",
+      "src": 256254,
+      "dst": 239171
+    }
+  ]
 }

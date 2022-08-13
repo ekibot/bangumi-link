@@ -1,121 +1,117 @@
 {
- "id": 4507,
- "node": [
-  {
-   "id": 4507,
-   "name": "ふしぎ遊戯",
-   "nameCN": "不可思议的游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/41/4507_HAjKN.jpg",
-   "date": "1995-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 28351,
-   "name": "ふしぎ遊戯 玄武開伝 外伝 鏡の巫女",
-   "nameCN": "不思议游戏 玄武开传 外传 镜之巫女",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/24/28351_2Njyy.jpg",
-   "date": "2005-06-23",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 39523,
-   "name": "オリジナルビデオシリーズ ふしぎ遊戯",
-   "nameCN": "不思议游戏 OVA1 后篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/60/39523_23CFO.jpg",
-   "date": "1997-05-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 39524,
-   "name": "ふしぎ遊戯 第二部",
-   "nameCN": "不思议游戏 OVA2 延续篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/88/39524_OI4xI.jpg",
-   "date": "1997-05-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 39525,
-   "name": "ふしぎ遊戯 永光伝",
-   "nameCN": "不思议游戏 永光传",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/d5/39525_35uw4.jpg",
-   "date": "2001-12-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4507,
-   "dst": 39523
-  },
-  {
-   "relate": "续集",
-   "src": 4507,
-   "dst": 39524
-  },
-  {
-   "relate": "续集",
-   "src": 4507,
-   "dst": 39525
-  },
-  {
-   "relate": "相同世界观",
-   "src": 28351,
-   "dst": 4507
-  },
-  {
-   "relate": "前传",
-   "src": 39523,
-   "dst": 4507
-  },
-  {
-   "relate": "续集",
-   "src": 39523,
-   "dst": 39524
-  },
-  {
-   "relate": "续集",
-   "src": 39523,
-   "dst": 39525
-  },
-  {
-   "relate": "前传",
-   "src": 39524,
-   "dst": 4507
-  },
-  {
-   "relate": "前传",
-   "src": 39524,
-   "dst": 39523
-  },
-  {
-   "relate": "续集",
-   "src": 39524,
-   "dst": 39525
-  },
-  {
-   "relate": "前传",
-   "src": 39525,
-   "dst": 4507
-  },
-  {
-   "relate": "前传",
-   "src": 39525,
-   "dst": 39523
-  },
-  {
-   "relate": "前传",
-   "src": 39525,
-   "dst": 39524
-  }
- ]
+  "id": "4507",
+  "node": [
+    {
+      "id": 4507,
+      "name": "ふしぎ遊戯",
+      "nameCN": "不可思议的游戏",
+      "date": "1995-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 39523,
+      "name": "オリジナルビデオシリーズ ふしぎ遊戯",
+      "nameCN": "不思议游戏 OVA1 后篇",
+      "date": "1997-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 39524,
+      "name": "ふしぎ遊戯 第二部",
+      "nameCN": "不思议游戏 OVA2 延续篇",
+      "date": "1997-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 39525,
+      "name": "ふしぎ遊戯 永光伝",
+      "nameCN": "不思议游戏 永光传",
+      "date": "2001-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 28351,
+      "name": "ふしぎ遊戯 玄武開伝 外伝 鏡の巫女",
+      "nameCN": "不思议游戏 玄武开传 外传 镜之巫女",
+      "date": "2005-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4507,
+      "dst": 39523
+    },
+    {
+      "relateString": "续集",
+      "src": 4507,
+      "dst": 39524
+    },
+    {
+      "relateString": "续集",
+      "src": 4507,
+      "dst": 39525
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 28351,
+      "dst": 4507
+    },
+    {
+      "relateString": "前传",
+      "src": 39523,
+      "dst": 4507
+    },
+    {
+      "relateString": "续集",
+      "src": 39523,
+      "dst": 39524
+    },
+    {
+      "relateString": "续集",
+      "src": 39523,
+      "dst": 39525
+    },
+    {
+      "relateString": "前传",
+      "src": 39524,
+      "dst": 4507
+    },
+    {
+      "relateString": "前传",
+      "src": 39524,
+      "dst": 39523
+    },
+    {
+      "relateString": "续集",
+      "src": 39524,
+      "dst": 39525
+    },
+    {
+      "relateString": "前传",
+      "src": 39525,
+      "dst": 4507
+    },
+    {
+      "relateString": "前传",
+      "src": 39525,
+      "dst": 39523
+    },
+    {
+      "relateString": "前传",
+      "src": 39525,
+      "dst": 39524
+    }
+  ]
 }

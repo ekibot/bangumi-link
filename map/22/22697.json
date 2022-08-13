@@ -1,81 +1,62 @@
 {
- "id": 22697,
- "node": [
-  {
-   "id": 22697,
-   "name": "乃木坂春香の秘密",
-   "nameCN": "乃木坂春香的秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/28/22697_fV4FV.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 271669,
-   "name": "乃木坂明日夏の秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/53/271669_7H477.jpg",
-   "date": "2018-04-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 298560,
-   "name": "乃木坂明日夏の秘密",
-   "nameCN": "乃木坂明日夏的秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/61/298560_qxzMR.jpg",
-   "date": "2020-01-23",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 329290,
-   "name": "島崎奈々@お仕事募集中",
-   "nameCN": "岛崎奈奈@工作募集中",
-   "image": "//lain.bgm.tv/pic/cover/m/ae/e1/329290_JZqPL.jpg",
-   "date": "2020-04-03"
-  },
-  {
-   "id": 354125,
-   "name": "음란한 그녀와의 순정만화",
-   "nameCN": "绘写你我的纯真",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/24/354125_4A3ok.jpg",
-   "date": "2019-04-17",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 22697,
-   "dst": 271669
-  },
-  {
-   "relate": "相同世界观",
-   "src": 22697,
-   "dst": 354125
-  },
-  {
-   "relate": "相同世界观",
-   "src": 271669,
-   "dst": 22697
-  },
-  {
-   "relate": "相同世界观",
-   "src": 298560,
-   "dst": 354125
-  },
-  {
-   "relate": "相同世界观",
-   "src": 329290,
-   "dst": 354125
-  },
-  {
-   "relate": "相同世界观",
-   "src": 354125,
-   "dst": 22697
-  }
- ]
+  "id": "22697",
+  "node": [
+    {
+      "id": 22697,
+      "name": "乃木坂春香の秘密",
+      "nameCN": "乃木坂春香的秘密",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 271669,
+      "name": "乃木坂明日夏の秘密",
+      "nameCN": "",
+      "date": "2018-04-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 354125,
+      "name": "음란한 그녀와의 순정만화",
+      "nameCN": "绘写你我的纯真",
+      "date": "2019-04-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 298560,
+      "name": "乃木坂明日夏の秘密",
+      "nameCN": "乃木坂明日夏的秘密",
+      "date": "2020-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 22697,
+      "dst": 271669
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 22697,
+      "dst": 354125
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 271669,
+      "dst": 22697
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 298560,
+      "dst": 354125
+    }
+  ]
 }

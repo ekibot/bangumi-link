@@ -1,37 +1,35 @@
 {
- "id": 136251,
- "node": [
-  {
-   "id": 136251,
-   "name": "Syphon Filter - Logan's Shadow",
-   "nameCN": "虹吸战士2 罗根之影",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/db/136251_CVSsF.jpg",
-   "date": "2007-10-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 241384,
-   "name": "Syphon Filter: Dark Mirror",
-   "nameCN": "虹吸战士：黑镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/ed/241384_7vINO.jpg",
-   "date": "2006-03-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 136251,
-   "dst": 241384
-  },
-  {
-   "relate": "续集",
-   "src": 241384,
-   "dst": 136251
-  }
- ]
+  "id": "136251",
+  "node": [
+    {
+      "id": 136251,
+      "name": "Syphon Filter - Logan's Shadow",
+      "nameCN": "虹吸战士2 罗根之影",
+      "date": "2007-10-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 241384,
+      "name": "Syphon Filter: Dark Mirror",
+      "nameCN": "虹吸战士：黑镜",
+      "date": "2006-03-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 136251,
+      "dst": 241384
+    },
+    {
+      "relateString": "续集",
+      "src": 241384,
+      "dst": 136251
+    }
+  ]
 }

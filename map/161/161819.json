@@ -1,37 +1,35 @@
 {
- "id": 161819,
- "node": [
-  {
-   "id": 161819,
-   "name": "帝一の國",
-   "nameCN": "帝一之国",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/ab/161819_Z6iZj.jpg",
-   "date": "2017-04-29",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 214770,
-   "name": "帝一の國～学生街の喫茶店～",
-   "nameCN": "帝一之国～学生街的咖啡店～",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/e6/214770_icV7p.jpg",
-   "date": "2017-04-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 161819,
-   "dst": 214770
-  },
-  {
-   "relate": "衍生",
-   "src": 214770,
-   "dst": 161819
-  }
- ]
+  "id": "161819",
+  "node": [
+    {
+      "id": 161819,
+      "name": "帝一の國",
+      "nameCN": "帝一之国",
+      "date": "2017-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 214770,
+      "name": "帝一の國～学生街の喫茶店～",
+      "nameCN": "帝一之国～学生街的咖啡店～",
+      "date": "2017-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 161819,
+      "dst": 214770
+    },
+    {
+      "relateString": "主线故事",
+      "src": 214770,
+      "dst": 161819
+    }
+  ]
 }

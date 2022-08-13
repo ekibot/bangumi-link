@@ -1,37 +1,35 @@
 {
- "id": 73351,
- "node": [
-  {
-   "id": 73351,
-   "name": "恋人は期間限定のハニー",
-   "nameCN": "恋人是期间限定的HONEY",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/67/73351_jp.jpg",
-   "date": "2012-10-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 113074,
-   "name": "恋人は年下のスーパースター",
-   "nameCN": "恋人是年下的SUPER STAR",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/6d/113074_jp.jpg",
-   "date": "2013-10-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 73351,
-   "dst": 113074
-  },
-  {
-   "relate": "前传",
-   "src": 113074,
-   "dst": 73351
-  }
- ]
+  "id": "73351",
+  "node": [
+    {
+      "id": 73351,
+      "name": "恋人は期間限定のハニー",
+      "nameCN": "恋人是期间限定的HONEY",
+      "date": "2012-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 113074,
+      "name": "恋人は年下のスーパースター",
+      "nameCN": "恋人是年下的SUPER STAR",
+      "date": "2013-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 73351,
+      "dst": 113074
+    },
+    {
+      "relateString": "前传",
+      "src": 113074,
+      "dst": 73351
+    }
+  ]
 }

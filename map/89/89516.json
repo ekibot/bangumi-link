@@ -1,37 +1,35 @@
 {
- "id": 89516,
- "node": [
-  {
-   "id": 89516,
-   "name": "Spelunky",
-   "nameCN": "洞穴探险",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/87/89516_b1Vjx.jpg",
-   "date": "2008-12-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228871,
-   "name": "Spelunky 2",
-   "nameCN": "洞穴探险2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/ac/228871_u22H5.jpg",
-   "date": "2020-09-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89516,
-   "dst": 228871
-  },
-  {
-   "relate": "前传",
-   "src": 228871,
-   "dst": 89516
-  }
- ]
+  "id": "89516",
+  "node": [
+    {
+      "id": 89516,
+      "name": "Spelunky",
+      "nameCN": "洞穴探险",
+      "date": "2008-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228871,
+      "name": "Spelunky 2",
+      "nameCN": "洞穴探险2",
+      "date": "2020-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89516,
+      "dst": 228871
+    },
+    {
+      "relateString": "前传",
+      "src": 228871,
+      "dst": 89516
+    }
+  ]
 }

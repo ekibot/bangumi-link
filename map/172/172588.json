@@ -1,37 +1,35 @@
 {
- "id": 172588,
- "node": [
-  {
-   "id": 172588,
-   "name": "美少女遊戯ユニット クレーンゲール",
-   "nameCN": "Crane Game Girls",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/1c/172588_D9kds.jpg",
-   "date": "2016-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 186035,
-   "name": "美少女遊戯ユニットクレーンゲール ギャラクシー",
-   "nameCN": "Crane Game Girls 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/cb/186035_3bljD.jpg",
-   "date": "2016-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 172588,
-   "dst": 186035
-  },
-  {
-   "relate": "前传",
-   "src": 186035,
-   "dst": 172588
-  }
- ]
+  "id": "172588",
+  "node": [
+    {
+      "id": 172588,
+      "name": "美少女遊戯ユニット クレーンゲール",
+      "nameCN": "Crane Game Girls",
+      "date": "2016-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 186035,
+      "name": "美少女遊戯ユニットクレーンゲール ギャラクシー",
+      "nameCN": "Crane Game Girls 第二季",
+      "date": "2016-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 172588,
+      "dst": 186035
+    },
+    {
+      "relateString": "前传",
+      "src": 186035,
+      "dst": 172588
+    }
+  ]
 }

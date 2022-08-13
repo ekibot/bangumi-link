@@ -1,37 +1,35 @@
 {
- "id": 115818,
- "node": [
-  {
-   "id": 115818,
-   "name": "エスパードリーム",
-   "nameCN": "超能力之梦",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/b5/115818_E28b2.jpg",
-   "date": "1987-02-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307271,
-   "name": "エスパードリーム2 新たなる戦い",
-   "nameCN": "超能力之梦2",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/28/307271_dObDT.jpg",
-   "date": "1992-06-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 115818,
-   "dst": 307271
-  },
-  {
-   "relate": "前传",
-   "src": 307271,
-   "dst": 115818
-  }
- ]
+  "id": "115818",
+  "node": [
+    {
+      "id": 115818,
+      "name": "エスパードリーム",
+      "nameCN": "超能力之梦",
+      "date": "1987-02-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307271,
+      "name": "エスパードリーム2 新たなる戦い",
+      "nameCN": "超能力之梦2",
+      "date": "1992-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 115818,
+      "dst": 307271
+    },
+    {
+      "relateString": "前传",
+      "src": 307271,
+      "dst": 115818
+    }
+  ]
 }

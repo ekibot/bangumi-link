@@ -1,117 +1,111 @@
 {
- "id": 2310,
- "node": [
-  {
-   "id": 2310,
-   "name": "麥兜响噹噹",
-   "nameCN": "麦兜响当当",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/c0/2310_xZ98O.jpg",
-   "date": "2009-07-24",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 47144,
-   "name": "麥兜故事",
-   "nameCN": "麦兜故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/cf/47144_402XA.jpg",
-   "date": "2001-12-15",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 47146,
-   "name": "麥兜菠蘿油王子",
-   "nameCN": "麦兜菠萝油王子",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/36/47146_iMH6H.jpg",
-   "date": "2004-06-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 47147,
-   "name": "麥兜噹噹伴我心",
-   "nameCN": "麦兜当当伴我心",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/58/47147_qpAPh.jpg",
-   "date": "2012-07-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 66122,
-   "name": "春田花花同學會",
-   "nameCN": "春田花花同学会",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/b5/66122_XO0Ja.jpg",
-   "date": "2006-01-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 110885,
-   "name": "麥兜·我和我媽媽",
-   "nameCN": "麦兜·我和我妈妈",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/17/110885_ho9Vk.jpg",
-   "date": "2014-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2310,
-   "dst": 47147
-  },
-  {
-   "relate": "前传",
-   "src": 2310,
-   "dst": 66122
-  },
-  {
-   "relate": "续集",
-   "src": 47144,
-   "dst": 47146
-  },
-  {
-   "relate": "前传",
-   "src": 47146,
-   "dst": 47144
-  },
-  {
-   "relate": "续集",
-   "src": 47146,
-   "dst": 66122
-  },
-  {
-   "relate": "前传",
-   "src": 47147,
-   "dst": 2310
-  },
-  {
-   "relate": "续集",
-   "src": 47147,
-   "dst": 110885
-  },
-  {
-   "relate": "续集",
-   "src": 66122,
-   "dst": 2310
-  },
-  {
-   "relate": "前传",
-   "src": 66122,
-   "dst": 47146
-  },
-  {
-   "relate": "前传",
-   "src": 110885,
-   "dst": 47147
-  }
- ]
+  "id": "2310",
+  "node": [
+    {
+      "id": 2310,
+      "name": "麥兜响噹噹",
+      "nameCN": "麦兜响当当",
+      "date": "2009-07-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 47147,
+      "name": "麥兜噹噹伴我心",
+      "nameCN": "麦兜当当伴我心",
+      "date": "2012-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 66122,
+      "name": "春田花花同學會",
+      "nameCN": "春田花花同学会",
+      "date": "2006-01-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 47144,
+      "name": "麥兜故事",
+      "nameCN": "麦兜故事",
+      "date": "2001-12-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 47146,
+      "name": "麥兜菠蘿油王子",
+      "nameCN": "麦兜菠萝油王子",
+      "date": "2004-06-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 110885,
+      "name": "麥兜·我和我媽媽",
+      "nameCN": "麦兜·我和我妈妈",
+      "date": "2014-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2310,
+      "dst": 47147
+    },
+    {
+      "relateString": "前传",
+      "src": 2310,
+      "dst": 66122
+    },
+    {
+      "relateString": "续集",
+      "src": 47144,
+      "dst": 47146
+    },
+    {
+      "relateString": "前传",
+      "src": 47146,
+      "dst": 47144
+    },
+    {
+      "relateString": "续集",
+      "src": 47146,
+      "dst": 66122
+    },
+    {
+      "relateString": "前传",
+      "src": 47147,
+      "dst": 2310
+    },
+    {
+      "relateString": "续集",
+      "src": 47147,
+      "dst": 110885
+    },
+    {
+      "relateString": "续集",
+      "src": 66122,
+      "dst": 2310
+    },
+    {
+      "relateString": "前传",
+      "src": 66122,
+      "dst": 47146
+    },
+    {
+      "relateString": "前传",
+      "src": 110885,
+      "dst": 47147
+    }
+  ]
 }

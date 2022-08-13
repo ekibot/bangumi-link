@@ -1,48 +1,33 @@
 {
- "id": 563,
- "node": [
-  {
-   "id": 563,
-   "name": "X",
-   "nameCN": "X战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/ef/563_7IeTf.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 16576,
-   "name": "東京BABYLON―A save for Tokyo city story",
-   "nameCN": "东京巴比伦",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/1a/16576_pPdtD.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 26117,
-   "name": "Tokyo Babylon photographs",
-   "image": "//lain.bgm.tv/pic/cover/m/b0/3d/26117_jp.jpg",
-   "date": null
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 563,
-   "dst": 16576
-  },
-  {
-   "relate": "续集",
-   "src": 16576,
-   "dst": 563
-  },
-  {
-   "relate": "主线故事",
-   "src": 26117,
-   "dst": 16576
-  }
- ]
+  "id": "563",
+  "node": [
+    {
+      "id": 563,
+      "name": "X",
+      "nameCN": "X战记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 16576,
+      "name": "東京BABYLON―A save for Tokyo city story",
+      "nameCN": "东京巴比伦",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 563,
+      "dst": 16576
+    },
+    {
+      "relateString": "续集",
+      "src": 16576,
+      "dst": 563
+    }
+  ]
 }

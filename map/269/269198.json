@@ -1,57 +1,54 @@
 {
- "id": 269198,
- "node": [
-  {
-   "id": 269198,
-   "name": "九尾の狐となまぐさ坊主",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/c0/269198_TW6A7.jpg",
-   "date": "2018-01-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 273987,
-   "name": "九尾の狐と子連れの坊主",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/8c/273987_SF9Gq.jpg",
-   "date": "2019-02-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 337352,
-   "name": "九尾の狐と子連れの坊主―永遠に―",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/a6/337352_0m65t.jpg",
-   "date": "2020-02-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269198,
-   "dst": 273987
-  },
-  {
-   "relate": "前传",
-   "src": 273987,
-   "dst": 269198
-  },
-  {
-   "relate": "续集",
-   "src": 273987,
-   "dst": 337352
-  },
-  {
-   "relate": "前传",
-   "src": 337352,
-   "dst": 273987
-  }
- ]
+  "id": "269198",
+  "node": [
+    {
+      "id": 269198,
+      "name": "九尾の狐となまぐさ坊主",
+      "nameCN": "",
+      "date": "2018-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 273987,
+      "name": "九尾の狐と子連れの坊主",
+      "nameCN": "",
+      "date": "2019-02-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 337352,
+      "name": "九尾の狐と子連れの坊主―永遠に―",
+      "nameCN": "",
+      "date": "2020-02-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269198,
+      "dst": 273987
+    },
+    {
+      "relateString": "前传",
+      "src": 273987,
+      "dst": 269198
+    },
+    {
+      "relateString": "续集",
+      "src": 273987,
+      "dst": 337352
+    },
+    {
+      "relateString": "前传",
+      "src": 337352,
+      "dst": 273987
+    }
+  ]
 }

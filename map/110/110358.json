@@ -1,37 +1,35 @@
 {
- "id": 110358,
- "node": [
-  {
-   "id": 110358,
-   "name": "Pucca Season 1",
-   "nameCN": "中国娃娃 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/2d/110358_zQX66.jpg",
-   "date": "2006-09-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 110359,
-   "name": "Pucca Season 2",
-   "nameCN": "中国娃娃 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/fe/110359_bZj9m.jpg",
-   "date": "2008-03-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 110358,
-   "dst": 110359
-  },
-  {
-   "relate": "前传",
-   "src": 110359,
-   "dst": 110358
-  }
- ]
+  "id": "110358",
+  "node": [
+    {
+      "id": 110358,
+      "name": "Pucca Season 1",
+      "nameCN": "中国娃娃 第一季",
+      "date": "2006-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 110359,
+      "name": "Pucca Season 2",
+      "nameCN": "中国娃娃 第二季",
+      "date": "2008-03-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 110358,
+      "dst": 110359
+    },
+    {
+      "relateString": "前传",
+      "src": 110359,
+      "dst": 110358
+    }
+  ]
 }

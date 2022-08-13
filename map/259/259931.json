@@ -1,57 +1,54 @@
 {
- "id": 259931,
- "node": [
-  {
-   "id": 259931,
-   "name": "藤原竜也の二回道",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/57/259931_bubfE.jpg",
-   "date": "2018-10-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 259932,
-   "name": "藤原竜也の一回道",
-   "nameCN": "藤原龙也的一回道",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/53/259932_A3bAP.jpg",
-   "date": "2014-10-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 301801,
-   "name": "藤原竜也の三回道",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/b2/301801_L6070.jpg",
-   "date": "2020-04-15",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 259931,
-   "dst": 259932
-  },
-  {
-   "relate": "续集",
-   "src": 259931,
-   "dst": 301801
-  },
-  {
-   "relate": "续集",
-   "src": 259932,
-   "dst": 259931
-  },
-  {
-   "relate": "前传",
-   "src": 301801,
-   "dst": 259931
-  }
- ]
+  "id": "259931",
+  "node": [
+    {
+      "id": 259931,
+      "name": "藤原竜也の二回道",
+      "nameCN": "",
+      "date": "2018-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 259932,
+      "name": "藤原竜也の一回道",
+      "nameCN": "藤原龙也的一回道",
+      "date": "2014-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 301801,
+      "name": "藤原竜也の三回道",
+      "nameCN": "",
+      "date": "2020-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 259931,
+      "dst": 259932
+    },
+    {
+      "relateString": "续集",
+      "src": 259931,
+      "dst": 301801
+    },
+    {
+      "relateString": "续集",
+      "src": 259932,
+      "dst": 259931
+    },
+    {
+      "relateString": "前传",
+      "src": 301801,
+      "dst": 259931
+    }
+  ]
 }

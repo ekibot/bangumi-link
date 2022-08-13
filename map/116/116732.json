@@ -1,57 +1,53 @@
 {
- "id": 116732,
- "node": [
-  {
-   "id": 116732,
-   "name": "秘密な関係",
-   "nameCN": "偷偷的亲密关系",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/98/116732_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 116733,
-   "name": "ナイショな関係",
-   "nameCN": "爱恋的秘密关系",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/2d/116733_jp.jpg",
-   "date": "2003-12-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 116734,
-   "name": "ホントの関係",
-   "nameCN": "缠绵不舍的关系",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/cb/116734_jp.jpg",
-   "date": "2005-04-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 116732,
-   "dst": 116733
-  },
-  {
-   "relate": "前传",
-   "src": 116733,
-   "dst": 116732
-  },
-  {
-   "relate": "续集",
-   "src": 116733,
-   "dst": 116734
-  },
-  {
-   "relate": "前传",
-   "src": 116734,
-   "dst": 116733
-  }
- ]
+  "id": "116732",
+  "node": [
+    {
+      "id": 116732,
+      "name": "秘密な関係",
+      "nameCN": "偷偷的亲密关系",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 116733,
+      "name": "ナイショな関係",
+      "nameCN": "爱恋的秘密关系",
+      "date": "2003-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 116734,
+      "name": "ホントの関係",
+      "nameCN": "缠绵不舍的关系",
+      "date": "2005-04-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 116732,
+      "dst": 116733
+    },
+    {
+      "relateString": "前传",
+      "src": 116733,
+      "dst": 116732
+    },
+    {
+      "relateString": "续集",
+      "src": 116733,
+      "dst": 116734
+    },
+    {
+      "relateString": "前传",
+      "src": 116734,
+      "dst": 116733
+    }
+  ]
 }

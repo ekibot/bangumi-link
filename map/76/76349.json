@@ -1,37 +1,35 @@
 {
- "id": 76349,
- "node": [
-  {
-   "id": 76349,
-   "name": "忍と若様 1",
-   "nameCN": "忍者与少爷 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/16/76349_jp.jpg",
-   "date": "2011-09-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 76350,
-   "name": "忍と若様 2",
-   "nameCN": "忍者与少爷 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/e9/76350_jp.jpg",
-   "date": "2012-03-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76349,
-   "dst": 76350
-  },
-  {
-   "relate": "前传",
-   "src": 76350,
-   "dst": 76349
-  }
- ]
+  "id": "76349",
+  "node": [
+    {
+      "id": 76349,
+      "name": "忍と若様 1",
+      "nameCN": "忍者与少爷 1",
+      "date": "2011-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 76350,
+      "name": "忍と若様 2",
+      "nameCN": "忍者与少爷 2",
+      "date": "2012-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76349,
+      "dst": 76350
+    },
+    {
+      "relateString": "前传",
+      "src": 76350,
+      "dst": 76349
+    }
+  ]
 }

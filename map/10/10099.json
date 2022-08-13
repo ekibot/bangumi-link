@@ -1,37 +1,35 @@
 {
- "id": 10099,
- "node": [
-  {
-   "id": 10099,
-   "name": "天保異聞 妖奇士",
-   "nameCN": "天保异闻妖奇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/5c/10099_VSh3N.jpg",
-   "date": "2006-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 53687,
-   "name": "天保異聞 妖奇士 奇士神曲",
-   "nameCN": "天保异闻妖奇士 奇士神曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/be/53687_xaA3y.jpg",
-   "date": "2007-08-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10099,
-   "dst": 53687
-  },
-  {
-   "relate": "前传",
-   "src": 53687,
-   "dst": 10099
-  }
- ]
+  "id": "10099",
+  "node": [
+    {
+      "id": 10099,
+      "name": "天保異聞 妖奇士",
+      "nameCN": "天保异闻妖奇士",
+      "date": "2006-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 53687,
+      "name": "天保異聞 妖奇士 奇士神曲",
+      "nameCN": "天保异闻妖奇士 奇士神曲",
+      "date": "2007-08-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10099,
+      "dst": 53687
+    },
+    {
+      "relateString": "前传",
+      "src": 53687,
+      "dst": 10099
+    }
+  ]
 }

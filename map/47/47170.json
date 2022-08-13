@@ -1,37 +1,35 @@
 {
- "id": 47170,
- "node": [
-  {
-   "id": 47170,
-   "name": "はいたい七葉",
-   "nameCN": "你好七叶",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/91/47170_Z6N6o.jpg",
-   "date": "2012-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 66693,
-   "name": "はいたい七葉 第2期",
-   "nameCN": "你好七叶 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/ec/66693_XbLxT.jpg",
-   "date": "2013-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47170,
-   "dst": 66693
-  },
-  {
-   "relate": "前传",
-   "src": 66693,
-   "dst": 47170
-  }
- ]
+  "id": "47170",
+  "node": [
+    {
+      "id": 47170,
+      "name": "はいたい七葉",
+      "nameCN": "你好七叶",
+      "date": "2012-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 66693,
+      "name": "はいたい七葉 第2期",
+      "nameCN": "你好七叶 第二季",
+      "date": "2013-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47170,
+      "dst": 66693
+    },
+    {
+      "relateString": "前传",
+      "src": 66693,
+      "dst": 47170
+    }
+  ]
 }

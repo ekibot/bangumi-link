@@ -1,117 +1,111 @@
 {
- "id": 43068,
- "node": [
-  {
-   "id": 43068,
-   "name": "3rd Rock from the Sun (Season 5)",
-   "nameCN": "歪星撞地球 （第五季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/fb/43068_x9rOO.jpg",
-   "date": "1999-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 49823,
-   "name": "3rd Rock from the Sun (season 1)",
-   "nameCN": "歪星撞地球 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/50/49823_55SU6.jpg",
-   "date": "1996-01-09",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 49824,
-   "name": "3rd Rock from the Sun (season 2)",
-   "nameCN": "歪星撞地球 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/d0/49824_hJKih.jpg",
-   "date": "1996-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 49825,
-   "name": "3rd Rock from the Sun (season 3)",
-   "nameCN": "歪星撞地球 （第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/96/49825_TZ848.jpg",
-   "date": "1997-09-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 49826,
-   "name": "3rd Rock from the Sun (season 4)",
-   "nameCN": "歪星撞地球 （第四季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/77/49826_gBGbz.jpg",
-   "date": "1998-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 49827,
-   "name": "3rd Rock from the Sun (season 6)",
-   "nameCN": "歪星撞地球 （第六季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/98/49827_y4639.jpg",
-   "date": "2000-10-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 43068,
-   "dst": 49826
-  },
-  {
-   "relate": "续集",
-   "src": 43068,
-   "dst": 49827
-  },
-  {
-   "relate": "续集",
-   "src": 49823,
-   "dst": 49824
-  },
-  {
-   "relate": "前传",
-   "src": 49824,
-   "dst": 49823
-  },
-  {
-   "relate": "续集",
-   "src": 49824,
-   "dst": 49825
-  },
-  {
-   "relate": "前传",
-   "src": 49825,
-   "dst": 49824
-  },
-  {
-   "relate": "续集",
-   "src": 49825,
-   "dst": 49826
-  },
-  {
-   "relate": "续集",
-   "src": 49826,
-   "dst": 43068
-  },
-  {
-   "relate": "前传",
-   "src": 49826,
-   "dst": 49825
-  },
-  {
-   "relate": "前传",
-   "src": 49827,
-   "dst": 43068
-  }
- ]
+  "id": "43068",
+  "node": [
+    {
+      "id": 43068,
+      "name": "3rd Rock from the Sun (Season 5)",
+      "nameCN": "歪星撞地球 （第五季）",
+      "date": "1999-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49826,
+      "name": "3rd Rock from the Sun (season 4)",
+      "nameCN": "歪星撞地球 （第四季）",
+      "date": "1998-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49827,
+      "name": "3rd Rock from the Sun (season 6)",
+      "nameCN": "歪星撞地球 （第六季）",
+      "date": "2000-10-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49823,
+      "name": "3rd Rock from the Sun (season 1)",
+      "nameCN": "歪星撞地球 （第一季）",
+      "date": "1996-01-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49824,
+      "name": "3rd Rock from the Sun (season 2)",
+      "nameCN": "歪星撞地球 （第二季）",
+      "date": "1996-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49825,
+      "name": "3rd Rock from the Sun (season 3)",
+      "nameCN": "歪星撞地球 （第三季）",
+      "date": "1997-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 43068,
+      "dst": 49826
+    },
+    {
+      "relateString": "续集",
+      "src": 43068,
+      "dst": 49827
+    },
+    {
+      "relateString": "续集",
+      "src": 49823,
+      "dst": 49824
+    },
+    {
+      "relateString": "前传",
+      "src": 49824,
+      "dst": 49823
+    },
+    {
+      "relateString": "续集",
+      "src": 49824,
+      "dst": 49825
+    },
+    {
+      "relateString": "前传",
+      "src": 49825,
+      "dst": 49824
+    },
+    {
+      "relateString": "续集",
+      "src": 49825,
+      "dst": 49826
+    },
+    {
+      "relateString": "续集",
+      "src": 49826,
+      "dst": 43068
+    },
+    {
+      "relateString": "前传",
+      "src": 49826,
+      "dst": 49825
+    },
+    {
+      "relateString": "前传",
+      "src": 49827,
+      "dst": 43068
+    }
+  ]
 }

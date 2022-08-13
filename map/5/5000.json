@@ -1,37 +1,35 @@
 {
- "id": 5000,
- "node": [
-  {
-   "id": 5000,
-   "name": "法医学者と刑事の相性",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/5f/5000_ZiA3t.jpg",
-   "date": "2010-01-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 8313,
-   "name": "法医学者と刑事の本音",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/2f/8313_f9fWW.jpg",
-   "date": "2010-08-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 5000,
-   "dst": 8313
-  },
-  {
-   "relate": "前传",
-   "src": 8313,
-   "dst": 5000
-  }
- ]
+  "id": "5000",
+  "node": [
+    {
+      "id": 5000,
+      "name": "法医学者と刑事の相性",
+      "nameCN": "",
+      "date": "2010-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 8313,
+      "name": "法医学者と刑事の本音",
+      "nameCN": "",
+      "date": "2010-08-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 5000,
+      "dst": 8313
+    },
+    {
+      "relateString": "前传",
+      "src": 8313,
+      "dst": 5000
+    }
+  ]
 }

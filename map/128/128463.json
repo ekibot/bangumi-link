@@ -1,77 +1,73 @@
 {
- "id": 128463,
- "node": [
-  {
-   "id": 128463,
-   "name": "Batman (1989)",
-   "nameCN": "蝙蝠侠 （1989版）",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/85/128463_hll3R.jpg",
-   "date": "1989-06-23",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 140933,
-   "name": "Batman Returns",
-   "nameCN": "蝙蝠侠归来",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/f9/140933_kKiUb.jpg",
-   "date": "1992-06-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 140934,
-   "name": "Batman Forever",
-   "nameCN": "永远的蝙蝠侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/18/140934_M6Wo8.jpg",
-   "date": "1995-06-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 140935,
-   "name": "Batman &amp; Robin",
-   "nameCN": "蝙蝠侠与罗宾",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/40/140935_RC4Dn.jpg",
-   "date": "1997-06-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128463,
-   "dst": 140933
-  },
-  {
-   "relate": "前传",
-   "src": 140933,
-   "dst": 128463
-  },
-  {
-   "relate": "续集",
-   "src": 140933,
-   "dst": 140934
-  },
-  {
-   "relate": "前传",
-   "src": 140934,
-   "dst": 140933
-  },
-  {
-   "relate": "续集",
-   "src": 140934,
-   "dst": 140935
-  },
-  {
-   "relate": "前传",
-   "src": 140935,
-   "dst": 140934
-  }
- ]
+  "id": "128463",
+  "node": [
+    {
+      "id": 128463,
+      "name": "Batman (1989)",
+      "nameCN": "蝙蝠侠 （1989版）",
+      "date": "1989-06-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 140933,
+      "name": "Batman Returns",
+      "nameCN": "蝙蝠侠归来",
+      "date": "1992-06-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 140934,
+      "name": "Batman Forever",
+      "nameCN": "永远的蝙蝠侠",
+      "date": "1995-06-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 140935,
+      "name": "Batman &amp; Robin",
+      "nameCN": "蝙蝠侠与罗宾",
+      "date": "1997-06-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128463,
+      "dst": 140933
+    },
+    {
+      "relateString": "前传",
+      "src": 140933,
+      "dst": 128463
+    },
+    {
+      "relateString": "续集",
+      "src": 140933,
+      "dst": 140934
+    },
+    {
+      "relateString": "前传",
+      "src": 140934,
+      "dst": 140933
+    },
+    {
+      "relateString": "续集",
+      "src": 140934,
+      "dst": 140935
+    },
+    {
+      "relateString": "前传",
+      "src": 140935,
+      "dst": 140934
+    }
+  ]
 }

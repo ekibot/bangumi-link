@@ -1,37 +1,35 @@
 {
- "id": 2255,
- "node": [
-  {
-   "id": 2255,
-   "name": "日本一の男の魂",
-   "nameCN": "日本第一男人之魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/ba/2255_k0tT0.jpg",
-   "date": "1999-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2256,
-   "name": "日本一の男の魂2",
-   "nameCN": "日本第一男人之魂2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/c7/2256_E4O9X.jpg",
-   "date": "1999-05-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2255,
-   "dst": 2256
-  },
-  {
-   "relate": "前传",
-   "src": 2256,
-   "dst": 2255
-  }
- ]
+  "id": "2255",
+  "node": [
+    {
+      "id": 2255,
+      "name": "日本一の男の魂",
+      "nameCN": "日本第一男人之魂",
+      "date": "1999-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2256,
+      "name": "日本一の男の魂2",
+      "nameCN": "日本第一男人之魂2",
+      "date": "1999-05-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2255,
+      "dst": 2256
+    },
+    {
+      "relateString": "前传",
+      "src": 2256,
+      "dst": 2255
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 114962,
- "node": [
-  {
-   "id": 114962,
-   "name": "Middle-earth: Shadow of Mordor",
-   "nameCN": "中土世界：摩多暗影",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/17/114962_UZxyq.jpg",
-   "date": "2014-09-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 210286,
-   "name": "Middle Earth：Shadow of War",
-   "nameCN": "中土世界：战争之影",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/03/210286_83878.jpg",
-   "date": "2017-10-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114962,
-   "dst": 210286
-  },
-  {
-   "relate": "前传",
-   "src": 210286,
-   "dst": 114962
-  }
- ]
+  "id": "114962",
+  "node": [
+    {
+      "id": 114962,
+      "name": "Middle-earth: Shadow of Mordor",
+      "nameCN": "中土世界：摩多暗影",
+      "date": "2014-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 210286,
+      "name": "Middle Earth：Shadow of War",
+      "nameCN": "中土世界：战争之影",
+      "date": "2017-10-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114962,
+      "dst": 210286
+    },
+    {
+      "relateString": "前传",
+      "src": 210286,
+      "dst": 114962
+    }
+  ]
 }

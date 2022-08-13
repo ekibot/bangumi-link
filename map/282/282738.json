@@ -1,37 +1,35 @@
 {
- "id": 282738,
- "node": [
-  {
-   "id": 282738,
-   "name": "画江湖之轨夜行 上篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/5a/282738_gwwkk.jpg",
-   "date": "2020-11-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 331347,
-   "name": "画江湖之轨夜行 下篇",
-   "date": "2021-12-14",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/9d/331347_DpdPQ.jpg",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 282738,
-   "dst": 331347
-  },
-  {
-   "relate": "前传",
-   "src": 331347,
-   "dst": 282738
-  }
- ]
+  "id": "282738",
+  "node": [
+    {
+      "id": 282738,
+      "name": "画江湖之轨夜行 上篇",
+      "nameCN": "",
+      "date": "2020-11-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 331347,
+      "name": "画江湖之轨夜行 下篇",
+      "nameCN": "",
+      "date": "2021-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 282738,
+      "dst": 331347
+    },
+    {
+      "relateString": "前传",
+      "src": 331347,
+      "dst": 282738
+    }
+  ]
 }

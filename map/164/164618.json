@@ -1,37 +1,35 @@
 {
- "id": 164618,
- "node": [
-  {
-   "id": 164618,
-   "name": "TOKYO WAR MOBILE POLICE PATLABOR",
-   "nameCN": "机动警察 东京战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/23/164618_jp.jpg",
-   "date": "2005-06-30",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 164619,
-   "name": "TOKYO WAR (2) 灰色の幽霊 THE NEXT GENERATION パトレイバー",
-   "nameCN": "东京战记(2) 灰色的幽灵",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/f4/164619_jp.jpg",
-   "date": "2015-05-02",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164618,
-   "dst": 164619
-  },
-  {
-   "relate": "前传",
-   "src": 164619,
-   "dst": 164618
-  }
- ]
+  "id": "164618",
+  "node": [
+    {
+      "id": 164618,
+      "name": "TOKYO WAR MOBILE POLICE PATLABOR",
+      "nameCN": "机动警察 东京战记",
+      "date": "2005-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 164619,
+      "name": "TOKYO WAR (2) 灰色の幽霊 THE NEXT GENERATION パトレイバー",
+      "nameCN": "东京战记(2) 灰色的幽灵",
+      "date": "2015-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164618,
+      "dst": 164619
+    },
+    {
+      "relateString": "前传",
+      "src": 164619,
+      "dst": 164618
+    }
+  ]
 }

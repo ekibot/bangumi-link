@@ -1,57 +1,54 @@
 {
- "id": 257369,
- "node": [
-  {
-   "id": 257369,
-   "name": "ぼくたちは勉強ができない",
-   "nameCN": "我们真的学不来",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/a6/257369_32HM0.jpg",
-   "date": "2019-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 285130,
-   "name": "ぼくたちは勉強ができない！",
-   "nameCN": "我们真的学不来！",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/0f/285130_brGSR.jpg",
-   "date": "2019-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 294059,
-   "name": "ぼくたちは勉強ができない OVA",
-   "nameCN": "我们真的学不来 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/d3/294059_CrXln.jpg",
-   "date": "2019-11-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 257369,
-   "dst": 285130
-  },
-  {
-   "relate": "前传",
-   "src": 285130,
-   "dst": 257369
-  },
-  {
-   "relate": "番外篇",
-   "src": 285130,
-   "dst": 294059
-  },
-  {
-   "relate": "主线故事",
-   "src": 294059,
-   "dst": 285130
-  }
- ]
+  "id": "257369",
+  "node": [
+    {
+      "id": 257369,
+      "name": "ぼくたちは勉強ができない",
+      "nameCN": "我们真的学不来",
+      "date": "2019-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 285130,
+      "name": "ぼくたちは勉強ができない！",
+      "nameCN": "我们真的学不来！",
+      "date": "2019-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 294059,
+      "name": "ぼくたちは勉強ができない OVA",
+      "nameCN": "我们真的学不来 OVA",
+      "date": "2019-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 257369,
+      "dst": 285130
+    },
+    {
+      "relateString": "前传",
+      "src": 285130,
+      "dst": 257369
+    },
+    {
+      "relateString": "番外篇",
+      "src": 285130,
+      "dst": 294059
+    },
+    {
+      "relateString": "主线故事",
+      "src": 294059,
+      "dst": 285130
+    }
+  ]
 }

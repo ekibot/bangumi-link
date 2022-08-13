@@ -1,37 +1,35 @@
 {
- "id": 2751,
- "node": [
-  {
-   "id": 2751,
-   "name": "B'T-X",
-   "nameCN": "钢铁神兵B'T-X",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/0e/2751_Z61Bd.jpg",
-   "date": "1996-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 35970,
-   "name": "B'T-X NEO",
-   "nameCN": "钢铁神兵B'T-X NEO",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/91/35970_xSss6.jpg",
-   "date": "1997-08-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2751,
-   "dst": 35970
-  },
-  {
-   "relate": "前传",
-   "src": 35970,
-   "dst": 2751
-  }
- ]
+  "id": "2751",
+  "node": [
+    {
+      "id": 2751,
+      "name": "B'T-X",
+      "nameCN": "钢铁神兵B'T-X",
+      "date": "1996-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 35970,
+      "name": "B'T-X NEO",
+      "nameCN": "钢铁神兵B'T-X NEO",
+      "date": "1997-08-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2751,
+      "dst": 35970
+    },
+    {
+      "relateString": "前传",
+      "src": 35970,
+      "dst": 2751
+    }
+  ]
 }

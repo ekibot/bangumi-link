@@ -1,57 +1,51 @@
 {
- "id": 156827,
- "node": [
-  {
-   "id": 156827,
-   "name": "不気田くん愛のコレクター",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/36/156827_StLjR.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 156831,
-   "name": "不気田くん",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/66/156831_Ll60X.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 156832,
-   "name": "真・不気田くん",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/3d/156832_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156827,
-   "dst": 156831
-  },
-  {
-   "relate": "前传",
-   "src": 156831,
-   "dst": 156827
-  },
-  {
-   "relate": "续集",
-   "src": 156831,
-   "dst": 156832
-  },
-  {
-   "relate": "前传",
-   "src": 156832,
-   "dst": 156831
-  }
- ]
+  "id": "156827",
+  "node": [
+    {
+      "id": 156827,
+      "name": "不気田くん愛のコレクター",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 156831,
+      "name": "不気田くん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 156832,
+      "name": "真・不気田くん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156827,
+      "dst": 156831
+    },
+    {
+      "relateString": "前传",
+      "src": 156831,
+      "dst": 156827
+    },
+    {
+      "relateString": "续集",
+      "src": 156831,
+      "dst": 156832
+    },
+    {
+      "relateString": "前传",
+      "src": 156832,
+      "dst": 156831
+    }
+  ]
 }

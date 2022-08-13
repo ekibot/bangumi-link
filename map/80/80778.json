@@ -1,97 +1,92 @@
 {
- "id": 80778,
- "node": [
-  {
-   "id": 80778,
-   "name": "ミス・モノクローム -The Animation-",
-   "nameCN": "黑白小姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/7e/80778_3UZ00.jpg",
-   "date": "2013-10-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 104879,
-   "name": "ミス・モノクローム -The Animation- OVA サッカー篇",
-   "nameCN": "黑白小姐 OVA 足球篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/60/104879_nvKPb.jpg",
-   "date": "2014-06-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 114062,
-   "name": "ミス・モノクローム -The Animation- 「MANAGER」",
-   "nameCN": "黑白小姐 「经纪人」",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/62/114062_2oD62.jpg",
-   "date": "2014-09-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 129105,
-   "name": "ミス・モノクローム -The Animation- 2",
-   "nameCN": "黑白小姐 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/34/129105_uFMGf.jpg",
-   "date": "2015-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 145775,
-   "name": "ミス・モノクローム -The Animation- 3",
-   "nameCN": "黑白小姐 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/a4/145775_57i01.jpg",
-   "date": "2015-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 80778,
-   "dst": 104879
-  },
-  {
-   "relate": "番外篇",
-   "src": 80778,
-   "dst": 114062
-  },
-  {
-   "relate": "续集",
-   "src": 80778,
-   "dst": 129105
-  },
-  {
-   "relate": "主线故事",
-   "src": 104879,
-   "dst": 80778
-  },
-  {
-   "relate": "主线故事",
-   "src": 114062,
-   "dst": 80778
-  },
-  {
-   "relate": "前传",
-   "src": 129105,
-   "dst": 80778
-  },
-  {
-   "relate": "续集",
-   "src": 129105,
-   "dst": 145775
-  },
-  {
-   "relate": "前传",
-   "src": 145775,
-   "dst": 129105
-  }
- ]
+  "id": "80778",
+  "node": [
+    {
+      "id": 80778,
+      "name": "ミス・モノクローム -The Animation-",
+      "nameCN": "黑白小姐",
+      "date": "2013-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 104879,
+      "name": "ミス・モノクローム -The Animation- OVA サッカー篇",
+      "nameCN": "黑白小姐 OVA 足球篇",
+      "date": "2014-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 114062,
+      "name": "ミス・モノクローム -The Animation- 「MANAGER」",
+      "nameCN": "黑白小姐 「经纪人」",
+      "date": "2014-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 129105,
+      "name": "ミス・モノクローム -The Animation- 2",
+      "nameCN": "黑白小姐 第二季",
+      "date": "2015-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 145775,
+      "name": "ミス・モノクローム -The Animation- 3",
+      "nameCN": "黑白小姐 第三季",
+      "date": "2015-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 80778,
+      "dst": 104879
+    },
+    {
+      "relateString": "番外篇",
+      "src": 80778,
+      "dst": 114062
+    },
+    {
+      "relateString": "续集",
+      "src": 80778,
+      "dst": 129105
+    },
+    {
+      "relateString": "主线故事",
+      "src": 104879,
+      "dst": 80778
+    },
+    {
+      "relateString": "主线故事",
+      "src": 114062,
+      "dst": 80778
+    },
+    {
+      "relateString": "前传",
+      "src": 129105,
+      "dst": 80778
+    },
+    {
+      "relateString": "续集",
+      "src": 129105,
+      "dst": 145775
+    },
+    {
+      "relateString": "前传",
+      "src": 145775,
+      "dst": 129105
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 116770,
- "node": [
-  {
-   "id": 116770,
-   "name": "スタアに愛",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/be/116770_jp.jpg",
-   "date": "2005-12-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 239446,
-   "name": "スタアな恋",
-   "nameCN": "大明星之恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/9b/239446_OFARA.jpg",
-   "date": "2004-06-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 116770,
-   "dst": 239446
-  },
-  {
-   "relate": "续集",
-   "src": 239446,
-   "dst": 116770
-  }
- ]
+  "id": "116770",
+  "node": [
+    {
+      "id": 116770,
+      "name": "スタアに愛",
+      "nameCN": "",
+      "date": "2005-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 239446,
+      "name": "スタアな恋",
+      "nameCN": "大明星之恋",
+      "date": "2004-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 116770,
+      "dst": 239446
+    },
+    {
+      "relateString": "续集",
+      "src": 239446,
+      "dst": 116770
+    }
+  ]
 }

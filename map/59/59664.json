@@ -1,37 +1,35 @@
 {
- "id": 59664,
- "node": [
-  {
-   "id": 59664,
-   "name": "銀の匙 Silver Spoon",
-   "nameCN": "银之匙 Silver Spoon",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/0d/59664_xK3y7.jpg",
-   "date": "2013-07-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 77480,
-   "name": "銀の匙 Silver Spoon 第2期",
-   "nameCN": "银之匙 Silver Spoon 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/7b/77480_xuCK5.jpg",
-   "date": "2014-01-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 59664,
-   "dst": 77480
-  },
-  {
-   "relate": "前传",
-   "src": 77480,
-   "dst": 59664
-  }
- ]
+  "id": "59664",
+  "node": [
+    {
+      "id": 59664,
+      "name": "銀の匙 Silver Spoon",
+      "nameCN": "银之匙 Silver Spoon",
+      "date": "2013-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 77480,
+      "name": "銀の匙 Silver Spoon 第2期",
+      "nameCN": "银之匙 Silver Spoon 第二季",
+      "date": "2014-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 59664,
+      "dst": 77480
+    },
+    {
+      "relateString": "前传",
+      "src": 77480,
+      "dst": 59664
+    }
+  ]
 }

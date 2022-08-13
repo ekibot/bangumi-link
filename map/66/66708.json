@@ -1,37 +1,35 @@
 {
- "id": 66708,
- "node": [
-  {
-   "id": 66708,
-   "name": "やんなっちゃうくらい愛してる 1",
-   "nameCN": "帅哥除魔师 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/8b/66708_6uP67.jpg",
-   "date": "2003-05-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 66709,
-   "name": "やんなっちゃうくらい愛してる 2",
-   "nameCN": "帅哥除魔师 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/34/66709_jp.jpg",
-   "date": "2004-08-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66708,
-   "dst": 66709
-  },
-  {
-   "relate": "前传",
-   "src": 66709,
-   "dst": 66708
-  }
- ]
+  "id": "66708",
+  "node": [
+    {
+      "id": 66708,
+      "name": "やんなっちゃうくらい愛してる 1",
+      "nameCN": "帅哥除魔师 1",
+      "date": "2003-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 66709,
+      "name": "やんなっちゃうくらい愛してる 2",
+      "nameCN": "帅哥除魔师 2",
+      "date": "2004-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66708,
+      "dst": 66709
+    },
+    {
+      "relateString": "前传",
+      "src": 66709,
+      "dst": 66708
+    }
+  ]
 }

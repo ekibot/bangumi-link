@@ -1,37 +1,35 @@
 {
- "id": 1693,
- "node": [
-  {
-   "id": 1693,
-   "name": "Prototype",
-   "nameCN": "虐杀原形",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/9a/1693_Pa55y.jpg",
-   "date": "2009-06-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 40014,
-   "name": "Prototype 2",
-   "nameCN": "虐杀原形2",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/f4/40014_XtEx4.jpg",
-   "date": "2012-04-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1693,
-   "dst": 40014
-  },
-  {
-   "relate": "前传",
-   "src": 40014,
-   "dst": 1693
-  }
- ]
+  "id": "1693",
+  "node": [
+    {
+      "id": 1693,
+      "name": "Prototype",
+      "nameCN": "虐杀原形",
+      "date": "2009-06-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 40014,
+      "name": "Prototype 2",
+      "nameCN": "虐杀原形2",
+      "date": "2012-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1693,
+      "dst": 40014
+    },
+    {
+      "relateString": "前传",
+      "src": 40014,
+      "dst": 1693
+    }
+  ]
 }

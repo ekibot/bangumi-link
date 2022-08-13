@@ -1,37 +1,35 @@
 {
- "id": 169069,
- "node": [
-  {
-   "id": 169069,
-   "name": "彼の両性具有独占欲",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/b4/169069_jp.jpg",
-   "date": "2014-12-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 169073,
-   "name": "彼の両性具有妊娠期",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/7c/169073_jp.jpg",
-   "date": "2015-09-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169069,
-   "dst": 169073
-  },
-  {
-   "relate": "前传",
-   "src": 169073,
-   "dst": 169069
-  }
- ]
+  "id": "169069",
+  "node": [
+    {
+      "id": 169069,
+      "name": "彼の両性具有独占欲",
+      "nameCN": "",
+      "date": "2014-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 169073,
+      "name": "彼の両性具有妊娠期",
+      "nameCN": "",
+      "date": "2015-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169069,
+      "dst": 169073
+    },
+    {
+      "relateString": "前传",
+      "src": 169073,
+      "dst": 169069
+    }
+  ]
 }

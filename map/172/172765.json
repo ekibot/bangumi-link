@@ -1,37 +1,35 @@
 {
- "id": 172765,
- "node": [
-  {
-   "id": 172765,
-   "name": "The Real O'Neals",
-   "nameCN": "出柜家庭",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/62/172765_Dg488.jpg",
-   "date": "2016-03-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 183815,
-   "name": "The Real O'Neals Season 2",
-   "nameCN": "出柜家庭 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/22/183815_4mVMh.jpg",
-   "date": "2016-10-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 172765,
-   "dst": 183815
-  },
-  {
-   "relate": "前传",
-   "src": 183815,
-   "dst": 172765
-  }
- ]
+  "id": "172765",
+  "node": [
+    {
+      "id": 172765,
+      "name": "The Real O'Neals",
+      "nameCN": "出柜家庭",
+      "date": "2016-03-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 183815,
+      "name": "The Real O'Neals Season 2",
+      "nameCN": "出柜家庭 第二季",
+      "date": "2016-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 172765,
+      "dst": 183815
+    },
+    {
+      "relateString": "前传",
+      "src": 183815,
+      "dst": 172765
+    }
+  ]
 }

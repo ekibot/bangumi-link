@@ -1,37 +1,34 @@
 {
- "id": 25896,
- "node": [
-  {
-   "id": 25896,
-   "name": "火の鳥",
-   "nameCN": "火之鸟",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/6e/25896_FAsgz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 325192,
-   "name": "小説 火の鳥 大地編",
-   "nameCN": "小说 火之鸟 大地篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/a5/325192_hVNTN.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 25896,
-   "dst": 325192
-  },
-  {
-   "relate": "前传",
-   "src": 325192,
-   "dst": 25896
-  }
- ]
+  "id": "25896",
+  "node": [
+    {
+      "id": 25896,
+      "name": "火の鳥",
+      "nameCN": "火之鸟",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 325192,
+      "name": "小説 火の鳥 大地編",
+      "nameCN": "小说 火之鸟 大地篇",
+      "date": "2019-04-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25896,
+      "dst": 325192
+    },
+    {
+      "relateString": "前传",
+      "src": 325192,
+      "dst": 25896
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 19534,
- "node": [
-  {
-   "id": 19534,
-   "name": "アンチェインブレイズ レクス",
-   "nameCN": "解放之刃雷克斯",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/7c/19534_p2bND.jpg",
-   "date": "2011-07-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 43578,
-   "name": "アンチェインブレイズ エクシヴ",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/04/43578_l78ZR.jpg",
-   "date": "2012-11-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 19534,
-   "dst": 43578
-  },
-  {
-   "relate": "前传",
-   "src": 43578,
-   "dst": 19534
-  }
- ]
+  "id": "19534",
+  "node": [
+    {
+      "id": 19534,
+      "name": "アンチェインブレイズ レクス",
+      "nameCN": "解放之刃雷克斯",
+      "date": "2011-07-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 43578,
+      "name": "アンチェインブレイズ エクシヴ",
+      "nameCN": "",
+      "date": "2012-11-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 19534,
+      "dst": 43578
+    },
+    {
+      "relateString": "前传",
+      "src": 43578,
+      "dst": 19534
+    }
+  ]
 }

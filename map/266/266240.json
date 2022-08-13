@@ -1,37 +1,34 @@
 {
- "id": 266240,
- "node": [
-  {
-   "id": 266240,
-   "name": "小吉の女房",
-   "nameCN": "小吉的妻子",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/71/266240_0QQmY.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 310942,
-   "name": "小吉の女房2",
-   "nameCN": "小吉的妻子2",
-   "date": "2021-04-02",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/76/310942_NDD2n.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 266240,
-   "dst": 310942
-  },
-  {
-   "relate": "前传",
-   "src": 310942,
-   "dst": 266240
-  }
- ]
+  "id": "266240",
+  "node": [
+    {
+      "id": 266240,
+      "name": "小吉の女房",
+      "nameCN": "小吉的妻子",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 310942,
+      "name": "小吉の女房2",
+      "nameCN": "小吉的妻子2",
+      "date": "2021-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 266240,
+      "dst": 310942
+    },
+    {
+      "relateString": "前传",
+      "src": 310942,
+      "dst": 266240
+    }
+  ]
 }

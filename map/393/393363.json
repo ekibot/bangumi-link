@@ -1,28 +1,54 @@
 {
- "id": 393363,
- "node": [
-  {
-   "id": 393363,
-   "name": "麒麟之一世君奴",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/87/393363_75S6e.jpg",
-   "date": "2018-04-09",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 393364,
-   "name": "麒麟之二世敵手",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/b5/393364_WJmI6.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 393363,
-   "dst": 393364
-  }
- ]
+  "id": "393363",
+  "node": [
+    {
+      "id": 393363,
+      "name": "麒麟之一世君奴",
+      "nameCN": "",
+      "date": "2018-04-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 393364,
+      "name": "麒麟之二世敵手",
+      "nameCN": "",
+      "date": "2019-01-22",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 393365,
+      "name": "麒麟之三世叛將",
+      "nameCN": "",
+      "date": "2019-07-19",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 393363,
+      "dst": 393364
+    },
+    {
+      "relateString": "前传",
+      "src": 393364,
+      "dst": 393363
+    },
+    {
+      "relateString": "续集",
+      "src": 393364,
+      "dst": 393365
+    },
+    {
+      "relateString": "前传",
+      "src": 393365,
+      "dst": 393364
+    }
+  ]
 }

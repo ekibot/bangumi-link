@@ -1,37 +1,35 @@
 {
- "id": 53758,
- "node": [
-  {
-   "id": 53758,
-   "name": "エイトマン",
-   "nameCN": "八号超人",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/36/348411_bzLD4.jpg",
-   "date": "1963-11-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 95013,
-   "name": "エイトマンAFTER",
-   "nameCN": "8 Man After",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/17/95013_79XzA.jpg",
-   "date": "1993-08-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53758,
-   "dst": 95013
-  },
-  {
-   "relate": "前传",
-   "src": 95013,
-   "dst": 53758
-  }
- ]
+  "id": "53758",
+  "node": [
+    {
+      "id": 53758,
+      "name": "エイトマン",
+      "nameCN": "八号超人",
+      "date": "1963-11-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 95013,
+      "name": "エイトマンAFTER",
+      "nameCN": "8 Man After",
+      "date": "1993-08-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53758,
+      "dst": 95013
+    },
+    {
+      "relateString": "前传",
+      "src": 95013,
+      "dst": 53758
+    }
+  ]
 }

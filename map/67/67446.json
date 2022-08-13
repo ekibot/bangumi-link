@@ -1,37 +1,35 @@
 {
- "id": 67446,
- "node": [
-  {
-   "id": 67446,
-   "name": "ロミオVSジュリエット",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/e7/67446_xXtQ4.jpg",
-   "date": "2013-08-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 95004,
-   "name": "ロミオ&amp;ジュリエット",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/f3/95004_msZDe.jpg",
-   "date": "2014-03-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 67446,
-   "dst": 95004
-  },
-  {
-   "relate": "前传",
-   "src": 95004,
-   "dst": 67446
-  }
- ]
+  "id": "67446",
+  "node": [
+    {
+      "id": 67446,
+      "name": "ロミオVSジュリエット",
+      "nameCN": "",
+      "date": "2013-08-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 95004,
+      "name": "ロミオ&amp;ジュリエット",
+      "nameCN": "",
+      "date": "2014-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67446,
+      "dst": 95004
+    },
+    {
+      "relateString": "前传",
+      "src": 95004,
+      "dst": 67446
+    }
+  ]
 }

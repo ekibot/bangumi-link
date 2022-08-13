@@ -1,77 +1,73 @@
 {
- "id": 212127,
- "node": [
-  {
-   "id": 212127,
-   "name": "前方高能之滑稽",
-   "nameCN": "前方高能之滑稽",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/db/212127_TezD0.jpg",
-   "date": "2017-01-13",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 212128,
-   "name": "前方高能之神烦狗",
-   "nameCN": "前方高能之神烦狗",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/bb/212128_9e84r.jpg",
-   "date": "2016-06-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 232984,
-   "name": "前方高能之辣稽",
-   "nameCN": "前方高能之辣稽",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/02/232984_3u13U.jpg",
-   "date": "2017-06-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 232985,
-   "name": "哈哈滑小稽",
-   "nameCN": "哈哈滑小稽",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/27/232985_9QD7Y.jpg",
-   "date": "2017-11-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 212127,
-   "dst": 212128
-  },
-  {
-   "relate": "续集",
-   "src": 212127,
-   "dst": 232984
-  },
-  {
-   "relate": "续集",
-   "src": 212128,
-   "dst": 212127
-  },
-  {
-   "relate": "前传",
-   "src": 232984,
-   "dst": 212127
-  },
-  {
-   "relate": "续集",
-   "src": 232984,
-   "dst": 232985
-  },
-  {
-   "relate": "前传",
-   "src": 232985,
-   "dst": 232984
-  }
- ]
+  "id": "212127",
+  "node": [
+    {
+      "id": 212127,
+      "name": "前方高能之滑稽",
+      "nameCN": "前方高能之滑稽",
+      "date": "2017-01-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 212128,
+      "name": "前方高能之神烦狗",
+      "nameCN": "前方高能之神烦狗",
+      "date": "2016-06-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 232984,
+      "name": "前方高能之辣稽",
+      "nameCN": "前方高能之辣稽",
+      "date": "2017-06-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 232985,
+      "name": "哈哈滑小稽",
+      "nameCN": "哈哈滑小稽",
+      "date": "2017-11-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 212127,
+      "dst": 212128
+    },
+    {
+      "relateString": "续集",
+      "src": 212127,
+      "dst": 232984
+    },
+    {
+      "relateString": "续集",
+      "src": 212128,
+      "dst": 212127
+    },
+    {
+      "relateString": "前传",
+      "src": 232984,
+      "dst": 212127
+    },
+    {
+      "relateString": "续集",
+      "src": 232984,
+      "dst": 232985
+    },
+    {
+      "relateString": "前传",
+      "src": 232985,
+      "dst": 232984
+    }
+  ]
 }

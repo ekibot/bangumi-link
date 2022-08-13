@@ -1,28 +1,30 @@
 {
- "id": 10086,
- "node": [
-  {
-   "id": 10086,
-   "name": "よつばと!",
-   "nameCN": "四叶妹妹！",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/12/10086_J20g0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 190793,
-   "name": "にゃんぼー！",
-   "nameCN": "喵楞！",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/80/190793_1xk9m.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 10086,
-   "dst": 190793
-  }
- ]
+  "id": "10086",
+  "node": [
+    {
+      "id": 10086,
+      "name": "よつばと!",
+      "nameCN": "四叶妹妹！",
+      "date": "2003-01-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 190793,
+      "name": "にゃんぼー！",
+      "nameCN": "喵楞！",
+      "date": "2016-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 10086,
+      "dst": 190793
+    }
+  ]
 }

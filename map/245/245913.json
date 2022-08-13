@@ -1,37 +1,35 @@
 {
- "id": 245913,
- "node": [
-  {
-   "id": 245913,
-   "name": "ゾンビ彼女",
-   "nameCN": "僵尸女友",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/1f/245913_xGaTW.jpg",
-   "date": "2014-03-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 245923,
-   "name": "ゾンビ彼女2",
-   "nameCN": "僵尸女友2",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/2e/245923_z5QBZ.jpg",
-   "date": "2015-09-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 245913,
-   "dst": 245923
-  },
-  {
-   "relate": "续集",
-   "src": 245923,
-   "dst": 245913
-  }
- ]
+  "id": "245913",
+  "node": [
+    {
+      "id": 245913,
+      "name": "ゾンビ彼女",
+      "nameCN": "僵尸女友",
+      "date": "2014-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245923,
+      "name": "ゾンビ彼女2",
+      "nameCN": "僵尸女友2",
+      "date": "2015-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 245913,
+      "dst": 245923
+    },
+    {
+      "relateString": "续集",
+      "src": 245923,
+      "dst": 245913
+    }
+  ]
 }

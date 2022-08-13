@@ -1,37 +1,35 @@
 {
- "id": 99957,
- "node": [
-  {
-   "id": 99957,
-   "name": "ハートカクテルアゲイン",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/87/99957_TWnAE.jpg",
-   "date": "2003-10-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 164980,
-   "name": "ハートカクテル",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/0c/164980_AcSKC.jpg",
-   "date": "1986-10-03",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 99957,
-   "dst": 164980
-  },
-  {
-   "relate": "续集",
-   "src": 164980,
-   "dst": 99957
-  }
- ]
+  "id": "99957",
+  "node": [
+    {
+      "id": 99957,
+      "name": "ハートカクテルアゲイン",
+      "nameCN": "",
+      "date": "2003-10-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 164980,
+      "name": "ハートカクテル",
+      "nameCN": "",
+      "date": "1986-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 99957,
+      "dst": 164980
+    },
+    {
+      "relateString": "续集",
+      "src": 164980,
+      "dst": 99957
+    }
+  ]
 }

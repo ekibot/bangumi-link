@@ -1,37 +1,35 @@
 {
- "id": 14714,
- "node": [
-  {
-   "id": 14714,
-   "name": "太陽のプロミア",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/e2/14714_7zbw0.jpg",
-   "date": "2011-05-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 126153,
-   "name": "太陽のプロミア Flowering Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/9a/126153_vnPFf.jpg",
-   "date": "2013-05-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14714,
-   "dst": 126153
-  },
-  {
-   "relate": "前传",
-   "src": 126153,
-   "dst": 14714
-  }
- ]
+  "id": "14714",
+  "node": [
+    {
+      "id": 14714,
+      "name": "太陽のプロミア",
+      "nameCN": "",
+      "date": "2011-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 126153,
+      "name": "太陽のプロミア Flowering Days",
+      "nameCN": "",
+      "date": "2013-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14714,
+      "dst": 126153
+    },
+    {
+      "relateString": "前传",
+      "src": 126153,
+      "dst": 14714
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 14480,
- "node": [
-  {
-   "id": 14480,
-   "name": "氷結鏡界のエデン",
-   "nameCN": "冰結鏡界的伊甸",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/d1/14480_Cx56O.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 53091,
-   "name": "不完全神性機関イリス",
-   "nameCN": "不完全神性机关伊莉斯",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/2f/53091_WUggw.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 14480,
-   "dst": 53091
-  },
-  {
-   "relate": "续集",
-   "src": 53091,
-   "dst": 14480
-  }
- ]
+  "id": "14480",
+  "node": [
+    {
+      "id": 14480,
+      "name": "氷結鏡界のエデン",
+      "nameCN": "冰結鏡界的伊甸",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 53091,
+      "name": "不完全神性機関イリス",
+      "nameCN": "不完全神性机关伊莉斯",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 14480,
+      "dst": 53091
+    },
+    {
+      "relateString": "续集",
+      "src": 53091,
+      "dst": 14480
+    }
+  ]
 }

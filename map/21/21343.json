@@ -1,37 +1,35 @@
 {
- "id": 21343,
- "node": [
-  {
-   "id": 21343,
-   "name": "Samurai: Way of the Warrior",
-   "nameCN": "Samurai: Way of the Warrior",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/c0/21343_44446.jpg",
-   "date": "2010-07-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 48981,
-   "name": "Samurai II: Vengeance",
-   "nameCN": "武士2：复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/7e/48981_ugW80.jpg",
-   "date": "2011-05-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21343,
-   "dst": 48981
-  },
-  {
-   "relate": "前传",
-   "src": 48981,
-   "dst": 21343
-  }
- ]
+  "id": "21343",
+  "node": [
+    {
+      "id": 21343,
+      "name": "Samurai: Way of the Warrior",
+      "nameCN": "Samurai: Way of the Warrior",
+      "date": "2010-07-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 48981,
+      "name": "Samurai II: Vengeance",
+      "nameCN": "武士2：复仇",
+      "date": "2011-05-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21343,
+      "dst": 48981
+    },
+    {
+      "relateString": "前传",
+      "src": 48981,
+      "dst": 21343
+    }
+  ]
 }

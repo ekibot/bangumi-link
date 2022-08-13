@@ -1,81 +1,76 @@
 {
- "id": 83360,
- "node": [
-  {
-   "id": 83360,
-   "name": "Tom Clancy's The Division",
-   "nameCN": "全境封锁",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/1f/83360_e701l.jpg",
-   "date": "2016-03-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 239945,
-   "name": "Tom Clancy's The Division 2",
-   "nameCN": "全境封锁2",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/75/239945_zm8i4.jpg",
-   "date": "2019-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 336423,
-   "name": "The Division: Heartland",
-   "nameCN": "全境封锁：中心地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/e3/336423_MY3q5.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 391714,
-   "name": "The Division Resurgence",
-   "nameCN": "全境封锁：曙光",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/b9/391714_XXHpZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 83360,
-   "dst": 239945
-  },
-  {
-   "relate": "不同世界观",
-   "src": 83360,
-   "dst": 336423
-  },
-  {
-   "relate": "前传",
-   "src": 239945,
-   "dst": 83360
-  },
-  {
-   "relate": "不同世界观",
-   "src": 239945,
-   "dst": 336423
-  },
-  {
-   "relate": "不同世界观",
-   "src": 336423,
-   "dst": 83360
-  },
-  {
-   "relate": "不同世界观",
-   "src": 336423,
-   "dst": 239945
-  },
-  {
-   "relate": "主线故事",
-   "src": 391714,
-   "dst": 83360
-  }
- ]
+  "id": "83360",
+  "node": [
+    {
+      "id": 83360,
+      "name": "Tom Clancy's The Division",
+      "nameCN": "全境封锁",
+      "date": "2016-03-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 239945,
+      "name": "Tom Clancy's The Division 2",
+      "nameCN": "全境封锁2",
+      "date": "2019-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 336423,
+      "name": "The Division: Heartland",
+      "nameCN": "全境封锁：中心地带",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 391714,
+      "name": "The Division Resurgence",
+      "nameCN": "全境封锁：曙光",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 83360,
+      "dst": 239945
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 83360,
+      "dst": 336423
+    },
+    {
+      "relateString": "前传",
+      "src": 239945,
+      "dst": 83360
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 239945,
+      "dst": 336423
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 336423,
+      "dst": 83360
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 336423,
+      "dst": 239945
+    },
+    {
+      "relateString": "主线故事",
+      "src": 391714,
+      "dst": 83360
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 273844,
- "node": [
-  {
-   "id": 273844,
-   "name": "魔入りました！入間くん",
-   "nameCN": "入间同学入魔了",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/b9/273844_JQ26Q.jpg",
-   "date": "2019-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 301740,
-   "name": "魔入りました！入間くん 第2シリーズ",
-   "nameCN": "入间同学入魔了 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/e8/301740_ZratR.jpg",
-   "date": "2021-04-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 348699,
-   "name": "魔入りました！入間くん 第3シリーズ",
-   "nameCN": "入间同学入魔了 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/82/348699_x6KHc.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 273844,
-   "dst": 301740
-  },
-  {
-   "relate": "前传",
-   "src": 301740,
-   "dst": 273844
-  },
-  {
-   "relate": "续集",
-   "src": 301740,
-   "dst": 348699
-  },
-  {
-   "relate": "前传",
-   "src": 348699,
-   "dst": 301740
-  }
- ]
+  "id": "273844",
+  "node": [
+    {
+      "id": 273844,
+      "name": "魔入りました！入間くん",
+      "nameCN": "入间同学入魔了",
+      "date": "2019-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 301740,
+      "name": "魔入りました！入間くん 第2シリーズ",
+      "nameCN": "入间同学入魔了 第二季",
+      "date": "2021-04-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 348699,
+      "name": "魔入りました！入間くん 第3シリーズ",
+      "nameCN": "入间同学入魔了 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 273844,
+      "dst": 301740
+    },
+    {
+      "relateString": "前传",
+      "src": 301740,
+      "dst": 273844
+    },
+    {
+      "relateString": "续集",
+      "src": 301740,
+      "dst": 348699
+    },
+    {
+      "relateString": "前传",
+      "src": 348699,
+      "dst": 301740
+    }
+  ]
 }

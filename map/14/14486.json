@@ -1,57 +1,53 @@
 {
- "id": 14486,
- "node": [
-  {
-   "id": 14486,
-   "name": "パパのいうことを聞きなさい！",
-   "nameCN": "听爸爸的话",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/8c/14486_JcyJz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 81159,
-   "name": "パパのいうことを聞きなさい! -空色の響き-",
-   "nameCN": "听爸爸的话！空色回响",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/06/81159_u7379.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 187282,
-   "name": "パパのいうことを聞きなさい! after 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/fe/187282_jp.jpg",
-   "date": "2016-07-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 14486,
-   "dst": 81159
-  },
-  {
-   "relate": "番外篇",
-   "src": 14486,
-   "dst": 187282
-  },
-  {
-   "relate": "续集",
-   "src": 81159,
-   "dst": 14486
-  },
-  {
-   "relate": "主线故事",
-   "src": 187282,
-   "dst": 14486
-  }
- ]
+  "id": "14486",
+  "node": [
+    {
+      "id": 14486,
+      "name": "パパのいうことを聞きなさい！",
+      "nameCN": "听爸爸的话",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 81159,
+      "name": "パパのいうことを聞きなさい! -空色の響き-",
+      "nameCN": "听爸爸的话！空色回响",
+      "date": "2011-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 187282,
+      "name": "パパのいうことを聞きなさい! after 1",
+      "nameCN": "",
+      "date": "2016-07-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 14486,
+      "dst": 81159
+    },
+    {
+      "relateString": "番外篇",
+      "src": 14486,
+      "dst": 187282
+    },
+    {
+      "relateString": "续集",
+      "src": 81159,
+      "dst": 14486
+    },
+    {
+      "relateString": "主线故事",
+      "src": 187282,
+      "dst": 14486
+    }
+  ]
 }

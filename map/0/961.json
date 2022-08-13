@@ -1,57 +1,54 @@
 {
- "id": 961,
- "node": [
-  {
-   "id": 961,
-   "name": "パタポン",
-   "nameCN": "啪嗒嘭",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/07/961_OMykP.jpg",
-   "date": "2007-12-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 1579,
-   "name": "パタポン2 ドンチャカ♪",
-   "nameCN": "啪嗒嘭2 咚锵",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/42/1579_gchsY.jpg",
-   "date": "2008-11-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 15926,
-   "name": "パタポン3",
-   "nameCN": "啪嗒砰3",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/b2/15926_fhcrp.jpg",
-   "date": "2011-04-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 961,
-   "dst": 1579
-  },
-  {
-   "relate": "前传",
-   "src": 1579,
-   "dst": 961
-  },
-  {
-   "relate": "续集",
-   "src": 1579,
-   "dst": 15926
-  },
-  {
-   "relate": "前传",
-   "src": 15926,
-   "dst": 1579
-  }
- ]
+  "id": "961",
+  "node": [
+    {
+      "id": 961,
+      "name": "パタポン",
+      "nameCN": "啪嗒嘭",
+      "date": "2007-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 1579,
+      "name": "パタポン2 ドンチャカ♪",
+      "nameCN": "啪嗒嘭2 咚锵",
+      "date": "2008-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 15926,
+      "name": "パタポン3",
+      "nameCN": "啪嗒砰3",
+      "date": "2011-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 961,
+      "dst": 1579
+    },
+    {
+      "relateString": "前传",
+      "src": 1579,
+      "dst": 961
+    },
+    {
+      "relateString": "续集",
+      "src": 1579,
+      "dst": 15926
+    },
+    {
+      "relateString": "前传",
+      "src": 15926,
+      "dst": 1579
+    }
+  ]
 }

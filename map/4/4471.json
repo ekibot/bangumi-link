@@ -1,37 +1,35 @@
 {
- "id": 4471,
- "node": [
-  {
-   "id": 4471,
-   "name": "爆裂天使",
-   "nameCN": "爆裂天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/d7/4471_Wfdy2.jpg",
-   "date": "2004-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 45375,
-   "name": "爆裂天使 ~インフィニティ~",
-   "nameCN": "爆裂天使INFINITY",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/0c/45375_y023i.jpg",
-   "date": "2007-03-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4471,
-   "dst": 45375
-  },
-  {
-   "relate": "前传",
-   "src": 45375,
-   "dst": 4471
-  }
- ]
+  "id": "4471",
+  "node": [
+    {
+      "id": 4471,
+      "name": "爆裂天使",
+      "nameCN": "爆裂天使",
+      "date": "2004-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 45375,
+      "name": "爆裂天使 ~インフィニティ~",
+      "nameCN": "爆裂天使INFINITY",
+      "date": "2007-03-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4471,
+      "dst": 45375
+    },
+    {
+      "relateString": "前传",
+      "src": 45375,
+      "dst": 4471
+    }
+  ]
 }

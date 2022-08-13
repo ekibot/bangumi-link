@@ -1,37 +1,34 @@
 {
- "id": 5392,
- "node": [
-  {
-   "id": 5392,
-   "name": "ARIA",
-   "nameCN": "水星领航员",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/10/5392_LLC7q.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 5419,
-   "name": "AQUA",
-   "nameCN": "水星领航员AQUA",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/31/5419_wBmBo.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 5392,
-   "dst": 5419
-  },
-  {
-   "relate": "续集",
-   "src": 5419,
-   "dst": 5392
-  }
- ]
+  "id": "5392",
+  "node": [
+    {
+      "id": 5392,
+      "name": "ARIA",
+      "nameCN": "水星领航员",
+      "date": "2002-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 5419,
+      "name": "AQUA",
+      "nameCN": "水星领航员AQUA",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 5392,
+      "dst": 5419
+    },
+    {
+      "relateString": "续集",
+      "src": 5419,
+      "dst": 5392
+    }
+  ]
 }

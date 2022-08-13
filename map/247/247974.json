@@ -1,37 +1,35 @@
 {
- "id": 247974,
- "node": [
-  {
-   "id": 247974,
-   "name": "百变布鲁可",
-   "nameCN": "百变布鲁可",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/14/247974_tg7U4.jpg",
-   "date": "2017-09-22",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 249074,
-   "name": "百变布鲁可 第2季",
-   "nameCN": "百变布鲁可 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/06/249074_h00TW.jpg",
-   "date": "2018-04-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 247974,
-   "dst": 249074
-  },
-  {
-   "relate": "前传",
-   "src": 249074,
-   "dst": 247974
-  }
- ]
+  "id": "247974",
+  "node": [
+    {
+      "id": 247974,
+      "name": "百变布鲁可",
+      "nameCN": "百变布鲁可",
+      "date": "2017-09-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 249074,
+      "name": "百变布鲁可 第2季",
+      "nameCN": "百变布鲁可 第二季",
+      "date": "2018-04-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 247974,
+      "dst": 249074
+    },
+    {
+      "relateString": "前传",
+      "src": 249074,
+      "dst": 247974
+    }
+  ]
 }

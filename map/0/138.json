@@ -1,37 +1,35 @@
 {
- "id": 138,
- "node": [
-  {
-   "id": 138,
-   "name": "ヴァルハラナイツ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/3d/138_ajp.jpg",
-   "date": "2008-05-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 49211,
-   "name": "ヴァルハラナイツ3",
-   "nameCN": "瓦尔哈拉骑士3",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/79/49211_na3Jf.jpg",
-   "date": "2013-05-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 138,
-   "dst": 49211
-  },
-  {
-   "relate": "前传",
-   "src": 49211,
-   "dst": 138
-  }
- ]
+  "id": "138",
+  "node": [
+    {
+      "id": 138,
+      "name": "ヴァルハラナイツ2",
+      "nameCN": "",
+      "date": "2008-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 49211,
+      "name": "ヴァルハラナイツ3",
+      "nameCN": "瓦尔哈拉骑士3",
+      "date": "2013-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 138,
+      "dst": 49211
+    },
+    {
+      "relateString": "前传",
+      "src": 49211,
+      "dst": 138
+    }
+  ]
 }

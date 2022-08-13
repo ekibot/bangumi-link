@@ -1,37 +1,35 @@
 {
- "id": 230945,
- "node": [
-  {
-   "id": 230945,
-   "name": "Glass Masquerade",
-   "nameCN": "玻璃假面",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/cc/230945_I0kc0.jpg",
-   "date": "2016-11-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 289940,
-   "name": "Glass Masquerade 2: Illusions",
-   "nameCN": "玻璃假面舞会2:幻想",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/6a/289940_4Qd3H.jpg",
-   "date": "2019-02-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230945,
-   "dst": 289940
-  },
-  {
-   "relate": "前传",
-   "src": 289940,
-   "dst": 230945
-  }
- ]
+  "id": "230945",
+  "node": [
+    {
+      "id": 230945,
+      "name": "Glass Masquerade",
+      "nameCN": "玻璃假面",
+      "date": "2016-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289940,
+      "name": "Glass Masquerade 2: Illusions",
+      "nameCN": "玻璃假面舞会2:幻想",
+      "date": "2019-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230945,
+      "dst": 289940
+    },
+    {
+      "relateString": "前传",
+      "src": 289940,
+      "dst": 230945
+    }
+  ]
 }

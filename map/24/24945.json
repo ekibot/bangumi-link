@@ -1,37 +1,34 @@
 {
- "id": 24945,
- "node": [
-  {
-   "id": 24945,
-   "name": "フォトカノ",
-   "nameCN": "写真女友",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/d8/24945_PH8H7.jpg",
-   "date": "2012-02-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 61156,
-   "name": "フォトカノ Kiss",
-   "nameCN": "写真女友 Kiss",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/bd/61156_Hh3cW.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 24945,
-   "dst": 61156
-  },
-  {
-   "relate": "不同演绎",
-   "src": 61156,
-   "dst": 24945
-  }
- ]
+  "id": "24945",
+  "node": [
+    {
+      "id": 24945,
+      "name": "フォトカノ",
+      "nameCN": "写真女友",
+      "date": "2012-02-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61156,
+      "name": "フォトカノ Kiss",
+      "nameCN": "写真女友 Kiss",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 24945,
+      "dst": 61156
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 61156,
+      "dst": 24945
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 66491,
- "node": [
-  {
-   "id": 66491,
-   "name": "血液型くん！",
-   "nameCN": "血型君",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/6e/66491_vwRw1.jpg",
-   "date": "2013-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 116651,
-   "name": "血液型くん！2",
-   "nameCN": "血型君2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/65/116651_queSJ.jpg",
-   "date": "2015-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 145667,
-   "name": "血液型くん！3",
-   "nameCN": "血型君3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/39/145667_OYFGg.jpg",
-   "date": "2015-10-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 159892,
-   "name": "血液型くん！4",
-   "nameCN": "血型君4",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/5d/159892_JEaF5.jpg",
-   "date": "2016-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66491,
-   "dst": 116651
-  },
-  {
-   "relate": "前传",
-   "src": 116651,
-   "dst": 66491
-  },
-  {
-   "relate": "续集",
-   "src": 116651,
-   "dst": 145667
-  },
-  {
-   "relate": "前传",
-   "src": 145667,
-   "dst": 116651
-  },
-  {
-   "relate": "续集",
-   "src": 145667,
-   "dst": 159892
-  },
-  {
-   "relate": "前传",
-   "src": 159892,
-   "dst": 145667
-  }
- ]
+  "id": "66491",
+  "node": [
+    {
+      "id": 66491,
+      "name": "血液型くん！",
+      "nameCN": "血型君",
+      "date": "2013-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 116651,
+      "name": "血液型くん！2",
+      "nameCN": "血型君2",
+      "date": "2015-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 145667,
+      "name": "血液型くん！3",
+      "nameCN": "血型君3",
+      "date": "2015-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 159892,
+      "name": "血液型くん！4",
+      "nameCN": "血型君4",
+      "date": "2016-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66491,
+      "dst": 116651
+    },
+    {
+      "relateString": "前传",
+      "src": 116651,
+      "dst": 66491
+    },
+    {
+      "relateString": "续集",
+      "src": 116651,
+      "dst": 145667
+    },
+    {
+      "relateString": "前传",
+      "src": 145667,
+      "dst": 116651
+    },
+    {
+      "relateString": "续集",
+      "src": 145667,
+      "dst": 159892
+    },
+    {
+      "relateString": "前传",
+      "src": 159892,
+      "dst": 145667
+    }
+  ]
 }

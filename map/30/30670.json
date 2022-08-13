@@ -1,37 +1,34 @@
 {
- "id": 30670,
- "node": [
-  {
-   "id": 30670,
-   "name": "XIII The Series Season 1",
-   "nameCN": "杀手十三电视版 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/b2/30670_DlRak.jpg",
-   "date": "2011-04-18",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 87440,
-   "name": "XIII The Series Season 2",
-   "nameCN": "杀手十三电视版 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/19/87440_Xx61e.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30670,
-   "dst": 87440
-  },
-  {
-   "relate": "前传",
-   "src": 87440,
-   "dst": 30670
-  }
- ]
+  "id": "30670",
+  "node": [
+    {
+      "id": 30670,
+      "name": "XIII The Series Season 1",
+      "nameCN": "杀手十三电视版 第一季",
+      "date": "2011-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 87440,
+      "name": "XIII The Series Season 2",
+      "nameCN": "杀手十三电视版 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30670,
+      "dst": 87440
+    },
+    {
+      "relateString": "前传",
+      "src": 87440,
+      "dst": 30670
+    }
+  ]
 }

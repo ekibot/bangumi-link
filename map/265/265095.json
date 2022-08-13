@@ -1,37 +1,35 @@
 {
- "id": 265095,
- "node": [
-  {
-   "id": 265095,
-   "name": "全裸監督",
-   "nameCN": "全裸导演",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/2c/265095_hnqUC.jpg",
-   "date": "2019-08-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 288991,
-   "name": "全裸監督 シーズン2",
-   "nameCN": "全裸导演 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/38/288991_NQYnK.jpg",
-   "date": "2021-06-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 265095,
-   "dst": 288991
-  },
-  {
-   "relate": "前传",
-   "src": 288991,
-   "dst": 265095
-  }
- ]
+  "id": "265095",
+  "node": [
+    {
+      "id": 265095,
+      "name": "全裸監督",
+      "nameCN": "全裸导演",
+      "date": "2019-08-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 288991,
+      "name": "全裸監督 シーズン2",
+      "nameCN": "全裸导演 第二季",
+      "date": "2021-06-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 265095,
+      "dst": 288991
+    },
+    {
+      "relateString": "前传",
+      "src": 288991,
+      "dst": 265095
+    }
+  ]
 }

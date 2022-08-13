@@ -1,107 +1,102 @@
 {
- "id": 112502,
- "node": [
-  {
-   "id": 112502,
-   "name": "DuckTales: The Movie - Treasure of the Lost Lamp",
-   "nameCN": "唐老鸭俱乐部电影版：失落的神灯",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/52/112502_Oip80.jpg",
-   "date": "1990-08-03",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 184996,
-   "name": "DuckTales",
-   "nameCN": "唐老鸭俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/5e/184996_0Kns0.jpg",
-   "date": "1987-09-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 220342,
-   "name": "DuckTales Season 1 (2017)",
-   "nameCN": "新唐老鸭俱乐部 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/f1/220342_fb302.jpg",
-   "date": "2017-08-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 317877,
-   "name": "DuckTales Season 2",
-   "nameCN": "新唐老鸭俱乐部 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/79/317877_xaaSc.jpg",
-   "date": "2018-10-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 317878,
-   "name": "DuckTales Season 3",
-   "nameCN": "新唐老鸭俱乐部 第三季",
-   "date": "2020-04-04",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 112502,
-   "dst": 184996
-  },
-  {
-   "relate": "续集",
-   "src": 112502,
-   "dst": 220342
-  },
-  {
-   "relate": "番外篇",
-   "src": 184996,
-   "dst": 112502
-  },
-  {
-   "relate": "续集",
-   "src": 184996,
-   "dst": 220342
-  },
-  {
-   "relate": "前传",
-   "src": 220342,
-   "dst": 112502
-  },
-  {
-   "relate": "前传",
-   "src": 220342,
-   "dst": 184996
-  },
-  {
-   "relate": "续集",
-   "src": 220342,
-   "dst": 317877
-  },
-  {
-   "relate": "前传",
-   "src": 317877,
-   "dst": 220342
-  },
-  {
-   "relate": "续集",
-   "src": 317877,
-   "dst": 317878
-  },
-  {
-   "relate": "前传",
-   "src": 317878,
-   "dst": 317877
-  }
- ]
+  "id": "112502",
+  "node": [
+    {
+      "id": 112502,
+      "name": "DuckTales: The Movie - Treasure of the Lost Lamp",
+      "nameCN": "唐老鸭俱乐部电影版：失落的神灯",
+      "date": "1990-08-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 184996,
+      "name": "DuckTales",
+      "nameCN": "唐老鸭俱乐部",
+      "date": "1987-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 220342,
+      "name": "DuckTales Season 1 (2017)",
+      "nameCN": "新唐老鸭俱乐部 第一季",
+      "date": "2017-08-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317877,
+      "name": "DuckTales Season 2",
+      "nameCN": "新唐老鸭俱乐部 第二季",
+      "date": "2018-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317878,
+      "name": "DuckTales Season 3",
+      "nameCN": "新唐老鸭俱乐部 第三季",
+      "date": "2020-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 112502,
+      "dst": 184996
+    },
+    {
+      "relateString": "续集",
+      "src": 112502,
+      "dst": 220342
+    },
+    {
+      "relateString": "番外篇",
+      "src": 184996,
+      "dst": 112502
+    },
+    {
+      "relateString": "续集",
+      "src": 184996,
+      "dst": 220342
+    },
+    {
+      "relateString": "前传",
+      "src": 220342,
+      "dst": 112502
+    },
+    {
+      "relateString": "前传",
+      "src": 220342,
+      "dst": 184996
+    },
+    {
+      "relateString": "续集",
+      "src": 220342,
+      "dst": 317877
+    },
+    {
+      "relateString": "前传",
+      "src": 317877,
+      "dst": 220342
+    },
+    {
+      "relateString": "续集",
+      "src": 317877,
+      "dst": 317878
+    },
+    {
+      "relateString": "前传",
+      "src": 317878,
+      "dst": 317877
+    }
+  ]
 }

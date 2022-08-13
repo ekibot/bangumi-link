@@ -1,37 +1,35 @@
 {
- "id": 29054,
- "node": [
-  {
-   "id": 29054,
-   "name": "逢魔時～怪談ロマンス～",
-   "nameCN": "逢魔时～怪谈罗曼史～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/19/29054_9uRMY.jpg",
-   "date": "2012-03-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 52366,
-   "name": "黄昏時～怪談ロマンス～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/f2/52366_yxsHa.jpg",
-   "date": "2013-01-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 29054,
-   "dst": 52366
-  },
-  {
-   "relate": "前传",
-   "src": 52366,
-   "dst": 29054
-  }
- ]
+  "id": "29054",
+  "node": [
+    {
+      "id": 29054,
+      "name": "逢魔時～怪談ロマンス～",
+      "nameCN": "逢魔时～怪谈罗曼史～",
+      "date": "2012-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 52366,
+      "name": "黄昏時～怪談ロマンス～",
+      "nameCN": "",
+      "date": "2013-01-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 29054,
+      "dst": 52366
+    },
+    {
+      "relateString": "前传",
+      "src": 52366,
+      "dst": 29054
+    }
+  ]
 }

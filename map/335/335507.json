@@ -1,37 +1,35 @@
 {
- "id": 335507,
- "node": [
-  {
-   "id": 335507,
-   "name": "悪食",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/26/335507_244LY.jpg",
-   "date": "2019-11-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 337523,
-   "name": "羽化 悪食2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/1c/337523_PgiBD.jpg",
-   "date": "2021-05-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 335507,
-   "dst": 337523
-  },
-  {
-   "relate": "前传",
-   "src": 337523,
-   "dst": 335507
-  }
- ]
+  "id": "335507",
+  "node": [
+    {
+      "id": 335507,
+      "name": "悪食",
+      "nameCN": "",
+      "date": "2019-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 337523,
+      "name": "羽化 悪食2",
+      "nameCN": "",
+      "date": "2021-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 335507,
+      "dst": 337523
+    },
+    {
+      "relateString": "前传",
+      "src": 337523,
+      "dst": 335507
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 1350,
- "node": [
-  {
-   "id": 1350,
-   "name": "白夜行",
-   "nameCN": "白夜行",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/1d/1350_4Zwx4.jpg",
-   "date": "2006-01-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 72411,
-   "name": "白夜行",
-   "nameCN": "白夜行",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/f2/72411_HhQEl.jpg",
-   "date": "2011-01-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1350,
-   "dst": 72411
-  },
-  {
-   "relate": "不同演绎",
-   "src": 72411,
-   "dst": 1350
-  }
- ]
+  "id": "1350",
+  "node": [
+    {
+      "id": 1350,
+      "name": "白夜行",
+      "nameCN": "白夜行",
+      "date": "2006-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 72411,
+      "name": "白夜行",
+      "nameCN": "白夜行",
+      "date": "2011-01-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1350,
+      "dst": 72411
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 72411,
+      "dst": 1350
+    }
+  ]
 }

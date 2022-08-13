@@ -1,57 +1,54 @@
 {
- "id": 61480,
- "node": [
-  {
-   "id": 61480,
-   "name": "ジョジョの奇妙な冒険 オールスターバトル",
-   "nameCN": "JOJO的奇妙冒险 全明星大乱斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/c8/61480_jFF7j.jpg",
-   "date": "2013-08-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84860,
-   "name": "ジョジョの奇妙な冒険 オールスターバトルR",
-   "nameCN": "JOJO的奇妙冒险 全明星大乱斗R",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/bb/84860_k8yKF.jpg",
-   "date": "2022-09-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 120227,
-   "name": "ジョジョの奇妙な冒険 アイズオブヘブン",
-   "nameCN": "JOJO的奇妙冒险 天国之眼",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/09/120227_N4C66.jpg",
-   "date": "2015-12-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 61480,
-   "dst": 84860
-  },
-  {
-   "relate": "续集",
-   "src": 61480,
-   "dst": 120227
-  },
-  {
-   "relate": "不同演绎",
-   "src": 84860,
-   "dst": 61480
-  },
-  {
-   "relate": "前传",
-   "src": 120227,
-   "dst": 61480
-  }
- ]
+  "id": "61480",
+  "node": [
+    {
+      "id": 61480,
+      "name": "ジョジョの奇妙な冒険 オールスターバトル",
+      "nameCN": "JOJO的奇妙冒险 全明星大乱斗",
+      "date": "2013-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84860,
+      "name": "ジョジョの奇妙な冒険 オールスターバトルR",
+      "nameCN": "JOJO的奇妙冒险 全明星大乱斗R",
+      "date": "2022-09-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 120227,
+      "name": "ジョジョの奇妙な冒険 アイズオブヘブン",
+      "nameCN": "JOJO的奇妙冒险 天国之眼",
+      "date": "2015-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 61480,
+      "dst": 84860
+    },
+    {
+      "relateString": "续集",
+      "src": 61480,
+      "dst": 120227
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 84860,
+      "dst": 61480
+    },
+    {
+      "relateString": "前传",
+      "src": 120227,
+      "dst": 61480
+    }
+  ]
 }

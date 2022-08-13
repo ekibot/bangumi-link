@@ -1,77 +1,73 @@
 {
- "id": 127563,
- "node": [
-  {
-   "id": 127563,
-   "name": "ワンパンマン",
-   "nameCN": "一拳超人",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/a2/127563_nl66u.jpg",
-   "date": "2015-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 147359,
-   "name": "ワンパンマン OAD",
-   "nameCN": "一拳超人 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/aa/147359_3q7YY.jpg",
-   "date": "2015-12-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 193619,
-   "name": "ワンパンマン 第2期",
-   "nameCN": "一拳超人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/0f/193619_MLNLZ.jpg",
-   "date": "2019-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 350343,
-   "name": "ワンパンマン 短編アニメ劇場 『Go! Saitama』",
-   "nameCN": "一拳超人 短篇动画剧场 『Go! Saitama』",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/9c/350343_ib50b.jpg",
-   "date": "2021-09-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 127563,
-   "dst": 147359
-  },
-  {
-   "relate": "续集",
-   "src": 127563,
-   "dst": 193619
-  },
-  {
-   "relate": "不同演绎",
-   "src": 127563,
-   "dst": 350343
-  },
-  {
-   "relate": "主线故事",
-   "src": 147359,
-   "dst": 127563
-  },
-  {
-   "relate": "前传",
-   "src": 193619,
-   "dst": 127563
-  },
-  {
-   "relate": "不同演绎",
-   "src": 350343,
-   "dst": 127563
-  }
- ]
+  "id": "127563",
+  "node": [
+    {
+      "id": 127563,
+      "name": "ワンパンマン",
+      "nameCN": "一拳超人",
+      "date": "2015-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 147359,
+      "name": "ワンパンマン OAD",
+      "nameCN": "一拳超人 OAD",
+      "date": "2015-12-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 193619,
+      "name": "ワンパンマン 第2期",
+      "nameCN": "一拳超人 第二季",
+      "date": "2019-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 350343,
+      "name": "ワンパンマン 短編アニメ劇場 『Go! Saitama』",
+      "nameCN": "一拳超人 短篇动画剧场 『Go! Saitama』",
+      "date": "2021-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 127563,
+      "dst": 147359
+    },
+    {
+      "relateString": "续集",
+      "src": 127563,
+      "dst": 193619
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 127563,
+      "dst": 350343
+    },
+    {
+      "relateString": "主线故事",
+      "src": 147359,
+      "dst": 127563
+    },
+    {
+      "relateString": "前传",
+      "src": 193619,
+      "dst": 127563
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 350343,
+      "dst": 127563
+    }
+  ]
 }

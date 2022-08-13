@@ -1,71 +1,54 @@
 {
- "id": 105778,
- "node": [
-  {
-   "id": 105778,
-   "name": "スプラトゥーン",
-   "nameCN": "斯普拉遁",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/a9/105778_G92n1.jpg",
-   "date": "2015-05-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 205915,
-   "name": "スプラトゥーン2",
-   "nameCN": "斯普拉遁2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/06/205915_C0f5H.jpg",
-   "date": "2017-07-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 251316,
-   "name": "スプラトゥーン2　オクト・エキスパンション",
-   "nameCN": "型爆墨鱼2 章鱼扩展包",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/a4/251316_8aca3.jpg",
-   "date": "2018-06-14",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 328536,
-   "name": "スプラトゥーン3",
-   "nameCN": "斯普拉遁3",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/28/328536_mIZem.jpg",
-   "date": "2022-09-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105778,
-   "dst": 205915
-  },
-  {
-   "relate": "前传",
-   "src": 205915,
-   "dst": 105778
-  },
-  {
-   "relate": "续集",
-   "src": 205915,
-   "dst": 328536
-  },
-  {
-   "relate": "主线故事",
-   "src": 251316,
-   "dst": 205915
-  },
-  {
-   "relate": "前传",
-   "src": 328536,
-   "dst": 205915
-  }
- ]
+  "id": "105778",
+  "node": [
+    {
+      "id": 105778,
+      "name": "スプラトゥーン",
+      "nameCN": "斯普拉遁",
+      "date": "2015-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 205915,
+      "name": "スプラトゥーン2",
+      "nameCN": "斯普拉遁2",
+      "date": "2017-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 328536,
+      "name": "スプラトゥーン3",
+      "nameCN": "斯普拉遁3",
+      "date": "2022-09-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105778,
+      "dst": 205915
+    },
+    {
+      "relateString": "前传",
+      "src": 205915,
+      "dst": 105778
+    },
+    {
+      "relateString": "续集",
+      "src": 205915,
+      "dst": 328536
+    },
+    {
+      "relateString": "前传",
+      "src": 328536,
+      "dst": 205915
+    }
+  ]
 }

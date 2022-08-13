@@ -1,37 +1,35 @@
 {
- "id": 118323,
- "node": [
-  {
-   "id": 118323,
-   "name": "イラストレーションズ&amp;アートワークス Vol.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/08/118323_jp.jpg",
-   "date": "2012-12-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 118324,
-   "name": "イラストレーションズ&amp;アートワークス Vol.1",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/8d/118324_jp.jpg",
-   "date": "2012-08-11",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 118323,
-   "dst": 118324
-  },
-  {
-   "relate": "续集",
-   "src": 118324,
-   "dst": 118323
-  }
- ]
+  "id": "118323",
+  "node": [
+    {
+      "id": 118323,
+      "name": "イラストレーションズ&amp;アートワークス Vol.2",
+      "nameCN": "",
+      "date": "2012-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 118324,
+      "name": "イラストレーションズ&amp;アートワークス Vol.1",
+      "nameCN": "",
+      "date": "2012-08-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 118323,
+      "dst": 118324
+    },
+    {
+      "relateString": "续集",
+      "src": 118324,
+      "dst": 118323
+    }
+  ]
 }

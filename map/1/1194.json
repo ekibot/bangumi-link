@@ -1,91 +1,87 @@
 {
- "id": 1194,
- "node": [
-  {
-   "id": 1194,
-   "name": "鉄腕バーディー DECODE:02",
-   "nameCN": "铁腕巴迪 DECODE 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/2a/1194_Cjj11.jpg",
-   "date": "2009-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2443,
-   "name": "鉄腕バーディー DECODE",
-   "nameCN": "铁腕巴迪 DECODE",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/e2/2443_XVqt5.jpg",
-   "date": "2008-07-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 14616,
-   "name": "鉄腕バーディー DECODE -THE CIPHER-",
-   "nameCN": "铁腕巴迪 DECODE OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/52/14616_Ma5bc.jpg",
-   "date": "2009-07-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 36587,
-   "name": "鉄腕バーディー",
-   "nameCN": "铁腕巴迪",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/23/36587_KgMkG.jpg",
-   "date": "1996-07-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 145524,
-   "name": "鉄腕バーディーDECODE",
-   "nameCN": "铁腕巴迪 DECODE",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/84/145524_jp.jpg",
-   "date": "2009-02-19",
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1194,
-   "dst": 14616
-  },
-  {
-   "relate": "续集",
-   "src": 2443,
-   "dst": 14616
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2443,
-   "dst": 36587
-  },
-  {
-   "relate": "续集",
-   "src": 14616,
-   "dst": 1194
-  },
-  {
-   "relate": "前传",
-   "src": 14616,
-   "dst": 2443
-  },
-  {
-   "relate": "不同演绎",
-   "src": 36587,
-   "dst": 2443
-  },
-  {
-   "relate": "主线故事",
-   "src": 145524,
-   "dst": 2443
-  }
- ]
+  "id": "1194",
+  "node": [
+    {
+      "id": 1194,
+      "name": "鉄腕バーディー DECODE:02",
+      "nameCN": "铁腕巴迪 DECODE 第二季",
+      "date": "2009-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 14616,
+      "name": "鉄腕バーディー DECODE -THE CIPHER-",
+      "nameCN": "铁腕巴迪 DECODE OVA",
+      "date": "2009-07-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 2443,
+      "name": "鉄腕バーディー DECODE",
+      "nameCN": "铁腕巴迪 DECODE",
+      "date": "2008-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36587,
+      "name": "鉄腕バーディー",
+      "nameCN": "铁腕巴迪",
+      "date": "1996-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 145524,
+      "name": "鉄腕バーディーDECODE",
+      "nameCN": "铁腕巴迪 DECODE",
+      "date": "2009-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1194,
+      "dst": 14616
+    },
+    {
+      "relateString": "续集",
+      "src": 2443,
+      "dst": 14616
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 2443,
+      "dst": 36587
+    },
+    {
+      "relateString": "续集",
+      "src": 14616,
+      "dst": 1194
+    },
+    {
+      "relateString": "前传",
+      "src": 14616,
+      "dst": 2443
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 36587,
+      "dst": 2443
+    },
+    {
+      "relateString": "主线故事",
+      "src": 145524,
+      "dst": 2443
+    }
+  ]
 }

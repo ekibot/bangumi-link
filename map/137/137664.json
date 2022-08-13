@@ -1,34 +1,35 @@
 {
- "id": 137664,
- "node": [
-  {
-   "id": 137664,
-   "name": "ワガママハイスペック",
-   "nameCN": "任性HighSpec",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/b7/137664_A3lpX.jpg",
-   "date": "2016-04-28",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 204477,
-   "name": "ワガママハイスペックOC",
-   "nameCN": "任性HighSpec OC",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/a1/204477_TKb7e.jpg",
-   "date": "2017-08-25",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 137664,
-   "dst": 204477
-  },
-  {
-   "relate": "前传",
-   "src": 204477,
-   "dst": 137664
-  }
- ]
+  "id": "137664",
+  "node": [
+    {
+      "id": 137664,
+      "name": "ワガママハイスペック",
+      "nameCN": "任性HighSpec",
+      "date": "2016-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 204477,
+      "name": "ワガママハイスペックOC",
+      "nameCN": "任性HighSpec OC",
+      "date": "2017-08-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 137664,
+      "dst": 204477
+    },
+    {
+      "relateString": "前传",
+      "src": 204477,
+      "dst": 137664
+    }
+  ]
 }

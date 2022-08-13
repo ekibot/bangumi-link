@@ -1,37 +1,33 @@
 {
- "id": 305258,
- "node": [
-  {
-   "id": 305258,
-   "name": "Bron/Broen (Season 1)",
-   "nameCN": "桥 (第一季)",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 305259,
-   "name": "Bron/Broen (Season 2)",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 305258,
-   "dst": 305259
-  },
-  {
-   "relate": "前传",
-   "src": 305259,
-   "dst": 305258
-  }
- ]
+  "id": "305258",
+  "node": [
+    {
+      "id": 305258,
+      "name": "Bron/Broen (Season 1)",
+      "nameCN": "桥 (第一季)",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 305259,
+      "name": "Bron/Broen (Season 2)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 305258,
+      "dst": 305259
+    },
+    {
+      "relateString": "前传",
+      "src": 305259,
+      "dst": 305258
+    }
+  ]
 }

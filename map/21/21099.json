@@ -1,37 +1,35 @@
 {
- "id": 21099,
- "node": [
-  {
-   "id": 21099,
-   "name": "ひまわりっ!",
-   "nameCN": "向日葵！",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/6e/21099_sQRqR.jpg",
-   "date": "2006-04-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 21100,
-   "name": "ひまわりっ!!",
-   "nameCN": "向日葵!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/bd/21100_088Kl.jpg",
-   "date": "2007-01-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21099,
-   "dst": 21100
-  },
-  {
-   "relate": "前传",
-   "src": 21100,
-   "dst": 21099
-  }
- ]
+  "id": "21099",
+  "node": [
+    {
+      "id": 21099,
+      "name": "ひまわりっ!",
+      "nameCN": "向日葵！",
+      "date": "2006-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 21100,
+      "name": "ひまわりっ!!",
+      "nameCN": "向日葵!!",
+      "date": "2007-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21099,
+      "dst": 21100
+    },
+    {
+      "relateString": "前传",
+      "src": 21100,
+      "dst": 21099
+    }
+  ]
 }

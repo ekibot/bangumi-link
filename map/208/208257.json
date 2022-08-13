@@ -1,37 +1,34 @@
 {
- "id": 208257,
- "node": [
-  {
-   "id": 208257,
-   "name": "일진에게 찍혔을 때",
-   "nameCN": "被不良少年盯上",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/41/208257_XTE78.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 218806,
-   "name": "일진에게 반했을 때",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/b7/218806_Tj4sn.jpg",
-   "date": "2017-06-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 208257,
-   "dst": 218806
-  },
-  {
-   "relate": "前传",
-   "src": 218806,
-   "dst": 208257
-  }
- ]
+  "id": "208257",
+  "node": [
+    {
+      "id": 208257,
+      "name": "일진에게 찍혔을 때",
+      "nameCN": "被不良少年盯上",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218806,
+      "name": "일진에게 반했을 때",
+      "nameCN": "",
+      "date": "2017-06-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 208257,
+      "dst": 218806
+    },
+    {
+      "relateString": "前传",
+      "src": 218806,
+      "dst": 208257
+    }
+  ]
 }

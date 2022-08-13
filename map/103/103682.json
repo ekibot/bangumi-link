@@ -1,71 +1,66 @@
 {
- "id": 103682,
- "node": [
-  {
-   "id": 103682,
-   "name": "はっちゃけあやよさん ２ -いけないホリデイ-",
-   "nameCN": "调皮的绫代小姐2 不对头的假日",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/da/103682_30oGu.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 103683,
-   "name": "はっちゃけあやよさん",
-   "nameCN": "调皮的绫代小姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/11/103683_4zwhC.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 104495,
-   "name": "はっちゃけあやよさん3 「私、逝っちゃったんです」",
-   "nameCN": "调皮的绫代小姐3 “我，已经死掉了”",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/38/104495_w22OH.jpg",
-   "date": "1991-09-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 104496,
-   "name": "ぶっちゃけトモコさん",
-   "nameCN": "坦率的智子小姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/38/104496_6v455.jpg",
-   "date": "1991-09-20",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 103682,
-   "dst": 103683
-  },
-  {
-   "relate": "续集",
-   "src": 103682,
-   "dst": 104495
-  },
-  {
-   "relate": "续集",
-   "src": 103683,
-   "dst": 103682
-  },
-  {
-   "relate": "前传",
-   "src": 104495,
-   "dst": 103682
-  },
-  {
-   "relate": "主线故事",
-   "src": 104496,
-   "dst": 104495
-  }
- ]
+  "id": "103682",
+  "node": [
+    {
+      "id": 103682,
+      "name": "はっちゃけあやよさん ２ -いけないホリデイ-",
+      "nameCN": "调皮的绫代小姐2 不对头的假日",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 103683,
+      "name": "はっちゃけあやよさん",
+      "nameCN": "调皮的绫代小姐",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 104495,
+      "name": "はっちゃけあやよさん3 「私、逝っちゃったんです」",
+      "nameCN": "调皮的绫代小姐3 “我，已经死掉了”",
+      "date": "1991-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 104496,
+      "name": "ぶっちゃけトモコさん",
+      "nameCN": "坦率的智子小姐",
+      "date": "1991-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 103682,
+      "dst": 103683
+    },
+    {
+      "relateString": "续集",
+      "src": 103682,
+      "dst": 104495
+    },
+    {
+      "relateString": "续集",
+      "src": 103683,
+      "dst": 103682
+    },
+    {
+      "relateString": "前传",
+      "src": 104495,
+      "dst": 103682
+    },
+    {
+      "relateString": "主线故事",
+      "src": 104496,
+      "dst": 104495
+    }
+  ]
 }

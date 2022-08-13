@@ -1,37 +1,33 @@
 {
- "id": 70911,
- "node": [
-  {
-   "id": 70911,
-   "name": "怪盗ジョーカー",
-   "nameCN": "怪盗Joker",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/28/70911_qDQKF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 313266,
-   "name": "怪盗少年 ジョーカーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/7d/313266_oyyhw.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 70911,
-   "dst": 313266
-  },
-  {
-   "relate": "前传",
-   "src": 313266,
-   "dst": 70911
-  }
- ]
+  "id": "70911",
+  "node": [
+    {
+      "id": 70911,
+      "name": "怪盗ジョーカー",
+      "nameCN": "怪盗Joker",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 313266,
+      "name": "怪盗少年 ジョーカーズ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 70911,
+      "dst": 313266
+    },
+    {
+      "relateString": "前传",
+      "src": 313266,
+      "dst": 70911
+    }
+  ]
 }

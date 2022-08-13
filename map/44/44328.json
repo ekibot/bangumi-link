@@ -1,57 +1,52 @@
 {
- "id": 44328,
- "node": [
-  {
-   "id": 44328,
-   "name": "花より男子",
-   "nameCN": "花样男子",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/b3/44328_cP3Ns.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 84853,
-   "name": "花より男子 完全版",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/0c/84853_r9rOr.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 127267,
-   "name": "花のち晴れ ～花男 Next Season～",
-   "nameCN": "花过天晴 ～花男 Next Season～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/c1/127267_ltE6a.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44328,
-   "dst": 127267
-  },
-  {
-   "relate": "续集",
-   "src": 84853,
-   "dst": 127267
-  },
-  {
-   "relate": "前传",
-   "src": 127267,
-   "dst": 44328
-  },
-  {
-   "relate": "前传",
-   "src": 127267,
-   "dst": 84853
-  }
- ]
+  "id": "44328",
+  "node": [
+    {
+      "id": 44328,
+      "name": "花より男子",
+      "nameCN": "花样男子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 127267,
+      "name": "花のち晴れ ～花男 Next Season～",
+      "nameCN": "花过天晴 ～花男 Next Season～",
+      "date": "2015-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 84853,
+      "name": "花より男子 完全版",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44328,
+      "dst": 127267
+    },
+    {
+      "relateString": "续集",
+      "src": 84853,
+      "dst": 127267
+    },
+    {
+      "relateString": "前传",
+      "src": 127267,
+      "dst": 44328
+    },
+    {
+      "relateString": "前传",
+      "src": 127267,
+      "dst": 84853
+    }
+  ]
 }

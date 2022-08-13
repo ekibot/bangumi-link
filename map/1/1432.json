@@ -1,37 +1,34 @@
 {
- "id": 1432,
- "node": [
-  {
-   "id": 1432,
-   "name": "赤い糸",
-   "nameCN": "红线",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/46/1432_IwOMP.jpg",
-   "date": "2008-12-06",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 88007,
-   "name": "赤い糸",
-   "nameCN": "366天的约定",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/a8/88007_c11za.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1432,
-   "dst": 88007
-  },
-  {
-   "relate": "不同演绎",
-   "src": 88007,
-   "dst": 1432
-  }
- ]
+  "id": "1432",
+  "node": [
+    {
+      "id": 1432,
+      "name": "赤い糸",
+      "nameCN": "红线",
+      "date": "2008-12-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 88007,
+      "name": "赤い糸",
+      "nameCN": "366天的约定",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1432,
+      "dst": 88007
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 88007,
+      "dst": 1432
+    }
+  ]
 }

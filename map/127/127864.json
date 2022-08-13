@@ -1,37 +1,35 @@
 {
- "id": 127864,
- "node": [
-  {
-   "id": 127864,
-   "name": "なもり画集 ゆるなもり",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/b5/127864_jp.jpg",
-   "date": "2013-08-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 273443,
-   "name": "なもり画集2 なもり展",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/74/273443_R446m.jpg",
-   "date": "2019-01-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127864,
-   "dst": 273443
-  },
-  {
-   "relate": "前传",
-   "src": 273443,
-   "dst": 127864
-  }
- ]
+  "id": "127864",
+  "node": [
+    {
+      "id": 127864,
+      "name": "なもり画集 ゆるなもり",
+      "nameCN": "",
+      "date": "2013-08-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 273443,
+      "name": "なもり画集2 なもり展",
+      "nameCN": "",
+      "date": "2019-01-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127864,
+      "dst": 273443
+    },
+    {
+      "relateString": "前传",
+      "src": 273443,
+      "dst": 127864
+    }
+  ]
 }

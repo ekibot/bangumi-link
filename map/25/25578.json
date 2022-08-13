@@ -1,37 +1,35 @@
 {
- "id": 25578,
- "node": [
-  {
-   "id": 25578,
-   "name": "エルフを狩るモノたち",
-   "nameCN": "妖精狩猎者",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/66/25578_h22KD.jpg",
-   "date": "1996-10-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 43473,
-   "name": "エルフを狩るモノたち II",
-   "nameCN": "妖精狩猎者II",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/94/43473_SsQtC.jpg",
-   "date": "1997-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 25578,
-   "dst": 43473
-  },
-  {
-   "relate": "前传",
-   "src": 43473,
-   "dst": 25578
-  }
- ]
+  "id": "25578",
+  "node": [
+    {
+      "id": 25578,
+      "name": "エルフを狩るモノたち",
+      "nameCN": "妖精狩猎者",
+      "date": "1996-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 43473,
+      "name": "エルフを狩るモノたち II",
+      "nameCN": "妖精狩猎者II",
+      "date": "1997-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25578,
+      "dst": 43473
+    },
+    {
+      "relateString": "前传",
+      "src": 43473,
+      "dst": 25578
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 266223,
- "node": [
-  {
-   "id": 266223,
-   "name": "残念だったな、運命だ！",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/32/266223_48AJN.jpg",
-   "date": "2018-06-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 380613,
-   "name": "残念だったな、運命だ! 再",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/19/380613_BqADk.jpg",
-   "type": 1,
-   "date": "2021-09-17",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 266223,
-   "dst": 380613
-  },
-  {
-   "relate": "前传",
-   "src": 380613,
-   "dst": 266223
-  }
- ]
+  "id": "266223",
+  "node": [
+    {
+      "id": 266223,
+      "name": "残念だったな、運命だ！",
+      "nameCN": "",
+      "date": "2018-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 380613,
+      "name": "残念だったな、運命だ! 再",
+      "nameCN": "",
+      "date": "2021-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 266223,
+      "dst": 380613
+    },
+    {
+      "relateString": "前传",
+      "src": 380613,
+      "dst": 266223
+    }
+  ]
 }

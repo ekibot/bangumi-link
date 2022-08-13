@@ -1,37 +1,35 @@
 {
- "id": 40188,
- "node": [
-  {
-   "id": 40188,
-   "name": "Mulan",
-   "nameCN": "花木兰",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/9d/40188_A4Dl9.jpg",
-   "date": "1998-06-19",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 82717,
-   "name": "Mulan II",
-   "nameCN": "花木兰2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/b9/82717_sQlQZ.jpg",
-   "date": "2004-12-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 40188,
-   "dst": 82717
-  },
-  {
-   "relate": "前传",
-   "src": 82717,
-   "dst": 40188
-  }
- ]
+  "id": "40188",
+  "node": [
+    {
+      "id": 40188,
+      "name": "Mulan",
+      "nameCN": "花木兰",
+      "date": "1998-06-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 82717,
+      "name": "Mulan II",
+      "nameCN": "花木兰2",
+      "date": "2004-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 40188,
+      "dst": 82717
+    },
+    {
+      "relateString": "前传",
+      "src": 82717,
+      "dst": 40188
+    }
+  ]
 }

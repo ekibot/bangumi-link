@@ -1,97 +1,92 @@
 {
- "id": 129007,
- "node": [
-  {
-   "id": 129007,
-   "name": "スタミュ",
-   "nameCN": "高校星歌剧",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/dd/129007_Wfe9L.jpg",
-   "date": "2015-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 175547,
-   "name": "スタミュ OVA",
-   "nameCN": "高校星歌剧 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/a0/175547_v8W2a.jpg",
-   "date": "2016-07-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 184022,
-   "name": "スタミュ 第2期",
-   "nameCN": "高校星歌剧 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/11/184022_6KkpV.jpg",
-   "date": "2017-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 227390,
-   "name": "スタミュ 第3期",
-   "nameCN": "高校星歌剧 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/28/227390_BpZfs.jpg",
-   "date": "2019-07-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 227393,
-   "name": "スタミュ in ハロウィン",
-   "nameCN": "高校星歌剧 in 万圣节前夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/53/227393_YO2IO.jpg",
-   "date": "2018-10-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129007,
-   "dst": 175547
-  },
-  {
-   "relate": "前传",
-   "src": 175547,
-   "dst": 129007
-  },
-  {
-   "relate": "续集",
-   "src": 175547,
-   "dst": 184022
-  },
-  {
-   "relate": "前传",
-   "src": 184022,
-   "dst": 175547
-  },
-  {
-   "relate": "续集",
-   "src": 184022,
-   "dst": 227390
-  },
-  {
-   "relate": "番外篇",
-   "src": 184022,
-   "dst": 227393
-  },
-  {
-   "relate": "前传",
-   "src": 227390,
-   "dst": 184022
-  },
-  {
-   "relate": "主线故事",
-   "src": 227393,
-   "dst": 184022
-  }
- ]
+  "id": "129007",
+  "node": [
+    {
+      "id": 129007,
+      "name": "スタミュ",
+      "nameCN": "高校星歌剧",
+      "date": "2015-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 175547,
+      "name": "スタミュ OVA",
+      "nameCN": "高校星歌剧 OVA",
+      "date": "2016-07-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 184022,
+      "name": "スタミュ 第2期",
+      "nameCN": "高校星歌剧 第二季",
+      "date": "2017-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 227390,
+      "name": "スタミュ 第3期",
+      "nameCN": "高校星歌剧 第三季",
+      "date": "2019-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 227393,
+      "name": "スタミュ in ハロウィン",
+      "nameCN": "高校星歌剧 in 万圣节前夜",
+      "date": "2018-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129007,
+      "dst": 175547
+    },
+    {
+      "relateString": "前传",
+      "src": 175547,
+      "dst": 129007
+    },
+    {
+      "relateString": "续集",
+      "src": 175547,
+      "dst": 184022
+    },
+    {
+      "relateString": "前传",
+      "src": 184022,
+      "dst": 175547
+    },
+    {
+      "relateString": "续集",
+      "src": 184022,
+      "dst": 227390
+    },
+    {
+      "relateString": "番外篇",
+      "src": 184022,
+      "dst": 227393
+    },
+    {
+      "relateString": "前传",
+      "src": 227390,
+      "dst": 184022
+    },
+    {
+      "relateString": "主线故事",
+      "src": 227393,
+      "dst": 184022
+    }
+  ]
 }

@@ -1,125 +1,73 @@
 {
- "id": 2617,
- "node": [
-  {
-   "id": 2617,
-   "name": "そらのおとしもの",
-   "nameCN": "天降之物",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/e3/2617_7c8Cr.jpg",
-   "date": "2009-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 3619,
-   "name": "GIRLSブラボー first season",
-   "nameCN": "女生万岁 first season",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/0e/3619_SOWp9.jpg",
-   "date": "2004-07-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 7150,
-   "name": "そらのおとしものf",
-   "nameCN": "天降之物f",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/0b/7150_5EEG1.jpg",
-   "date": "2010-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 7352,
-   "name": "GIRLSブラボー second season",
-   "nameCN": "女生万岁 second season",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/73/7352_xKHf6.jpg",
-   "date": "2005-01-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 10507,
-   "name": "Φなる・あぷろーち",
-   "nameCN": "爱情泡泡糖",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/6c/10507_8nRHC.jpg",
-   "date": "2004-10-02",
-   "type": 2
-  },
-  {
-   "id": 12576,
-   "name": "劇場版 そらのおとしもの 時計じかけの哀女神",
-   "nameCN": "天降之物 计时的悲伤女神",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/dd/12576_ZW5pW.jpg",
-   "date": "2011-06-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 86445,
-   "name": "そらのおとしものFinal 永遠の私の鳥籠",
-   "nameCN": "天降之物Final 永远的我的鸟笼",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/93/86445_UUA2S.jpg",
-   "date": "2014-04-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2617,
-   "dst": 7150
-  },
-  {
-   "relate": "续集",
-   "src": 3619,
-   "dst": 7352
-  },
-  {
-   "relate": "相同世界观",
-   "src": 3619,
-   "dst": 10507
-  },
-  {
-   "relate": "前传",
-   "src": 7150,
-   "dst": 2617
-  },
-  {
-   "relate": "续集",
-   "src": 7150,
-   "dst": 12576
-  },
-  {
-   "relate": "前传",
-   "src": 7352,
-   "dst": 3619
-  },
-  {
-   "relate": "相同世界观",
-   "src": 10507,
-   "dst": 2617
-  },
-  {
-   "relate": "前传",
-   "src": 12576,
-   "dst": 7150
-  },
-  {
-   "relate": "续集",
-   "src": 12576,
-   "dst": 86445
-  },
-  {
-   "relate": "前传",
-   "src": 86445,
-   "dst": 12576
-  }
- ]
+  "id": "2617",
+  "node": [
+    {
+      "id": 2617,
+      "name": "そらのおとしもの",
+      "nameCN": "天降之物",
+      "date": "2009-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 7150,
+      "name": "そらのおとしものf",
+      "nameCN": "天降之物f",
+      "date": "2010-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 12576,
+      "name": "劇場版 そらのおとしもの 時計じかけの哀女神",
+      "nameCN": "天降之物 计时的悲伤女神",
+      "date": "2011-06-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 86445,
+      "name": "そらのおとしものFinal 永遠の私の鳥籠",
+      "nameCN": "天降之物Final 永远的我的鸟笼",
+      "date": "2014-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2617,
+      "dst": 7150
+    },
+    {
+      "relateString": "前传",
+      "src": 7150,
+      "dst": 2617
+    },
+    {
+      "relateString": "续集",
+      "src": 7150,
+      "dst": 12576
+    },
+    {
+      "relateString": "前传",
+      "src": 12576,
+      "dst": 7150
+    },
+    {
+      "relateString": "续集",
+      "src": 12576,
+      "dst": 86445
+    },
+    {
+      "relateString": "前传",
+      "src": 86445,
+      "dst": 12576
+    }
+  ]
 }

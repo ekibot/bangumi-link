@@ -1,37 +1,35 @@
 {
- "id": 242971,
- "node": [
-  {
-   "id": 242971,
-   "name": "飞天少年 第二季",
-   "nameCN": "飞天少年之启航篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/8e/242971_qgUOQ.jpg",
-   "date": "2018-04-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 245164,
-   "name": "飞天少年",
-   "nameCN": "飞天少年 梦想篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/a8/245164_zEuUt.jpg",
-   "date": "2016-08-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 242971,
-   "dst": 245164
-  },
-  {
-   "relate": "续集",
-   "src": 245164,
-   "dst": 242971
-  }
- ]
+  "id": "242971",
+  "node": [
+    {
+      "id": 242971,
+      "name": "飞天少年 第二季",
+      "nameCN": "飞天少年之启航篇",
+      "date": "2018-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 245164,
+      "name": "飞天少年",
+      "nameCN": "飞天少年 梦想篇",
+      "date": "2016-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 242971,
+      "dst": 245164
+    },
+    {
+      "relateString": "续集",
+      "src": 245164,
+      "dst": 242971
+    }
+  ]
 }

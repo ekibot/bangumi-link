@@ -1,77 +1,71 @@
 {
- "id": 1022,
- "node": [
-  {
-   "id": 1022,
-   "name": "咲かせて! ちびロボ!",
-   "nameCN": "开花吧！  小机器人",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/d6/1022_O8vg2.jpg",
-   "date": "2007-07-05",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 7146,
-   "name": "ちびロボ!",
-   "nameCN": "小小机器人",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/00/7146_I90N2.jpg",
-   "date": "2005-06-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 40403,
-   "name": "おかえり！ちびロボ！ハッピーリッチー大そうじ！",
-   "nameCN": "欢迎回来！小机器人！开心大扫除",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/e8/40403_y0SOL.jpg",
-   "date": "2009-07-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 135865,
-   "name": "なげなわアクション！ぐるぐる！ちびロボ！",
-   "nameCN": "旋转！小机器人",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/9b/135865_On999.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1022,
-   "dst": 7146
-  },
-  {
-   "relate": "续集",
-   "src": 1022,
-   "dst": 40403
-  },
-  {
-   "relate": "续集",
-   "src": 7146,
-   "dst": 1022
-  },
-  {
-   "relate": "前传",
-   "src": 40403,
-   "dst": 1022
-  },
-  {
-   "relate": "续集",
-   "src": 40403,
-   "dst": 135865
-  },
-  {
-   "relate": "前传",
-   "src": 135865,
-   "dst": 7146
-  }
- ]
+  "id": "1022",
+  "node": [
+    {
+      "id": 1022,
+      "name": "咲かせて! ちびロボ!",
+      "nameCN": "开花吧！  小机器人",
+      "date": "2007-07-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 7146,
+      "name": "ちびロボ!",
+      "nameCN": "小小机器人",
+      "date": "2005-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 40403,
+      "name": "おかえり！ちびロボ！ハッピーリッチー大そうじ！",
+      "nameCN": "欢迎回来！小机器人！开心大扫除",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 135865,
+      "name": "なげなわアクション！ぐるぐる！ちびロボ！",
+      "nameCN": "旋转！小机器人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1022,
+      "dst": 7146
+    },
+    {
+      "relateString": "续集",
+      "src": 1022,
+      "dst": 40403
+    },
+    {
+      "relateString": "续集",
+      "src": 7146,
+      "dst": 1022
+    },
+    {
+      "relateString": "前传",
+      "src": 40403,
+      "dst": 1022
+    },
+    {
+      "relateString": "续集",
+      "src": 40403,
+      "dst": 135865
+    },
+    {
+      "relateString": "前传",
+      "src": 135865,
+      "dst": 40403
+    }
+  ]
 }

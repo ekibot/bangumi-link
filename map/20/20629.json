@@ -1,37 +1,33 @@
 {
- "id": 20629,
- "node": [
-  {
-   "id": 20629,
-   "name": "夜想譚グリモアリス",
-   "nameCN": "夜想谭教诲师",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/b4/20629_4ELx8.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 35410,
-   "name": "幻想譚グリモアリス",
-   "nameCN": "幻想谭教诲师",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/54/35410_45x8G.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20629,
-   "dst": 35410
-  },
-  {
-   "relate": "前传",
-   "src": 35410,
-   "dst": 20629
-  }
- ]
+  "id": "20629",
+  "node": [
+    {
+      "id": 20629,
+      "name": "夜想譚グリモアリス",
+      "nameCN": "夜想谭教诲师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 35410,
+      "name": "幻想譚グリモアリス",
+      "nameCN": "幻想谭教诲师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20629,
+      "dst": 35410
+    },
+    {
+      "relateString": "前传",
+      "src": 35410,
+      "dst": 20629
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 215293,
- "node": [
-  {
-   "id": 215293,
-   "name": "アシガール",
-   "nameCN": "跑女战国行",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/b7/215293_xrD5F.jpg",
-   "date": "2017-09-23",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 239067,
-   "name": "アシガールSP",
-   "nameCN": "跑女战国行SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/46/239067_4zI7C.jpg",
-   "date": "2018-12-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 215293,
-   "dst": 239067
-  },
-  {
-   "relate": "前传",
-   "src": 239067,
-   "dst": 215293
-  }
- ]
+  "id": "215293",
+  "node": [
+    {
+      "id": 215293,
+      "name": "アシガール",
+      "nameCN": "跑女战国行",
+      "date": "2017-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 239067,
+      "name": "アシガールSP",
+      "nameCN": "跑女战国行SP",
+      "date": "2018-12-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 215293,
+      "dst": 239067
+    },
+    {
+      "relateString": "前传",
+      "src": 239067,
+      "dst": 215293
+    }
+  ]
 }

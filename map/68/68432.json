@@ -1,37 +1,35 @@
 {
- "id": 68432,
- "node": [
-  {
-   "id": 68432,
-   "name": "絶対☆は～れむ",
-   "nameCN": "绝对后宫",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/4b/68432_3XdSU.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189872,
-   "name": "絶対★は~れむQUEENS",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/eb/189872_jp.jpg",
-   "nameCN": "",
-   "type": 1,
-   "date": "2016-07-30",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68432,
-   "dst": 189872
-  },
-  {
-   "relate": "前传",
-   "src": 189872,
-   "dst": 68432
-  }
- ]
+  "id": "68432",
+  "node": [
+    {
+      "id": 68432,
+      "name": "絶対☆は～れむ",
+      "nameCN": "绝对后宫",
+      "date": "2009-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189872,
+      "name": "絶対★は~れむQUEENS",
+      "nameCN": "",
+      "date": "2016-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68432,
+      "dst": 189872
+    },
+    {
+      "relateString": "前传",
+      "src": 189872,
+      "dst": 68432
+    }
+  ]
 }

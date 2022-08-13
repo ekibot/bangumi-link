@@ -1,57 +1,52 @@
 {
- "id": 258545,
- "node": [
-  {
-   "id": 258545,
-   "name": "ローリングサンダー2",
-   "nameCN": "雷霆计划2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/0e/258545_JXABv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259093,
-   "name": "ローリングサンダー",
-   "nameCN": "雷霆计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/4a/259093_OvIV1.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259094,
-   "name": "Rolling Thunder 3",
-   "nameCN": "雷霆计划3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/9e/259094_pZBY9.jpg",
-   "date": "1993-05-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 258545,
-   "dst": 259093
-  },
-  {
-   "relate": "续集",
-   "src": 258545,
-   "dst": 259094
-  },
-  {
-   "relate": "续集",
-   "src": 259093,
-   "dst": 258545
-  },
-  {
-   "relate": "前传",
-   "src": 259094,
-   "dst": 258545
-  }
- ]
+  "id": "258545",
+  "node": [
+    {
+      "id": 258545,
+      "name": "ローリングサンダー2",
+      "nameCN": "雷霆计划2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259093,
+      "name": "ローリングサンダー",
+      "nameCN": "雷霆计划",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259094,
+      "name": "Rolling Thunder 3",
+      "nameCN": "雷霆计划3",
+      "date": "1993-05-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 258545,
+      "dst": 259093
+    },
+    {
+      "relateString": "续集",
+      "src": 258545,
+      "dst": 259094
+    },
+    {
+      "relateString": "续集",
+      "src": 259093,
+      "dst": 258545
+    },
+    {
+      "relateString": "前传",
+      "src": 259094,
+      "dst": 258545
+    }
+  ]
 }

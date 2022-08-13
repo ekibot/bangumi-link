@@ -1,29 +1,52 @@
 {
- "id": 337921,
- "node": [
-  {
-   "id": 337921,
-   "name": "鴉とライオン",
-   "image": "/img/no_icon_subject.png",
-   "date": "2011-11-11"
-  },
-  {
-   "id": 337922,
-   "name": "鴉とライオン～涼視点～",
-   "image": "/img/no_icon_subject.png",
-   "date": null
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 337921,
-   "dst": 337922
-  },
-  {
-   "relate": "前传",
-   "src": 337922,
-   "dst": 337921
-  }
- ]
+  "id": "337921",
+  "node": [
+    {
+      "id": 337921,
+      "name": "鴉とライオン",
+      "nameCN": "",
+      "date": "2011-11-11",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 337922,
+      "name": "鴉とライオン～涼視点～",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 376584,
+      "name": "『鴉とライオン』リメイク版",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 337921,
+      "dst": 337922
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 337921,
+      "dst": 376584
+    },
+    {
+      "relateString": "前传",
+      "src": 337922,
+      "dst": 337921
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 376584,
+      "dst": 337921
+    }
+  ]
 }

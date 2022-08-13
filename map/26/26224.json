@@ -1,147 +1,141 @@
 {
- "id": 26224,
- "node": [
-  {
-   "id": 26224,
-   "name": "Shaun the Sheep Season 1",
-   "nameCN": "超级无敌羊咩咩 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/1f/26224_89nIa.jpg",
-   "date": "2007-03-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 26225,
-   "name": "Shaun the Sheep Season 2",
-   "nameCN": "超级无敌羊咩咩 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/f8/26225_iPCRJ.jpg",
-   "date": "2007-09-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 132197,
-   "name": "Shaun the Sheep Movie",
-   "nameCN": "小羊肖恩",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/59/132197_Yil3l.jpg",
-   "date": "2015-02-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 140626,
-   "name": "Shaun the Sheep Season 3",
-   "nameCN": "超级无敌羊咩咩 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/75/140626_fULrW.jpg",
-   "date": "2013-02-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 140627,
-   "name": "Shaun the Sheep Season 4",
-   "nameCN": "超级无敌羊咩咩 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/b0/140627_QqF8d.jpg",
-   "date": "2014-02-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 306381,
-   "name": "A Shaun the Sheep Movie: Farmageddon",
-   "nameCN": "小羊肖恩2：末日农场",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/1a/306381_0L0N5.jpg",
-   "date": "2019-09-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26224,
-   "dst": 26225
-  },
-  {
-   "relate": "衍生",
-   "src": 26224,
-   "dst": 132197
-  },
-  {
-   "relate": "前传",
-   "src": 26225,
-   "dst": 26224
-  },
-  {
-   "relate": "衍生",
-   "src": 26225,
-   "dst": 132197
-  },
-  {
-   "relate": "续集",
-   "src": 26225,
-   "dst": 140626
-  },
-  {
-   "relate": "主线故事",
-   "src": 132197,
-   "dst": 26224
-  },
-  {
-   "relate": "主线故事",
-   "src": 132197,
-   "dst": 26225
-  },
-  {
-   "relate": "主线故事",
-   "src": 132197,
-   "dst": 140626
-  },
-  {
-   "relate": "主线故事",
-   "src": 132197,
-   "dst": 140627
-  },
-  {
-   "relate": "续集",
-   "src": 132197,
-   "dst": 306381
-  },
-  {
-   "relate": "前传",
-   "src": 140626,
-   "dst": 26225
-  },
-  {
-   "relate": "衍生",
-   "src": 140626,
-   "dst": 132197
-  },
-  {
-   "relate": "续集",
-   "src": 140626,
-   "dst": 140627
-  },
-  {
-   "relate": "衍生",
-   "src": 140627,
-   "dst": 132197
-  },
-  {
-   "relate": "前传",
-   "src": 140627,
-   "dst": 140626
-  },
-  {
-   "relate": "前传",
-   "src": 306381,
-   "dst": 132197
-  }
- ]
+  "id": "26224",
+  "node": [
+    {
+      "id": 26224,
+      "name": "Shaun the Sheep Season 1",
+      "nameCN": "超级无敌羊咩咩 第一季",
+      "date": "2007-03-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 26225,
+      "name": "Shaun the Sheep Season 2",
+      "nameCN": "超级无敌羊咩咩 第二季",
+      "date": "2007-09-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 132197,
+      "name": "Shaun the Sheep Movie",
+      "nameCN": "小羊肖恩",
+      "date": "2015-02-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 140626,
+      "name": "Shaun the Sheep Season 3",
+      "nameCN": "超级无敌羊咩咩 第三季",
+      "date": "2013-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 140627,
+      "name": "Shaun the Sheep Season 4",
+      "nameCN": "超级无敌羊咩咩 第四季",
+      "date": "2014-02-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 306381,
+      "name": "A Shaun the Sheep Movie: Farmageddon",
+      "nameCN": "小羊肖恩2：末日农场",
+      "date": "2019-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26224,
+      "dst": 26225
+    },
+    {
+      "relateString": "衍生",
+      "src": 26224,
+      "dst": 132197
+    },
+    {
+      "relateString": "前传",
+      "src": 26225,
+      "dst": 26224
+    },
+    {
+      "relateString": "衍生",
+      "src": 26225,
+      "dst": 132197
+    },
+    {
+      "relateString": "续集",
+      "src": 26225,
+      "dst": 140626
+    },
+    {
+      "relateString": "主线故事",
+      "src": 132197,
+      "dst": 26224
+    },
+    {
+      "relateString": "主线故事",
+      "src": 132197,
+      "dst": 26225
+    },
+    {
+      "relateString": "主线故事",
+      "src": 132197,
+      "dst": 140626
+    },
+    {
+      "relateString": "主线故事",
+      "src": 132197,
+      "dst": 140627
+    },
+    {
+      "relateString": "续集",
+      "src": 132197,
+      "dst": 306381
+    },
+    {
+      "relateString": "前传",
+      "src": 140626,
+      "dst": 26225
+    },
+    {
+      "relateString": "衍生",
+      "src": 140626,
+      "dst": 132197
+    },
+    {
+      "relateString": "续集",
+      "src": 140626,
+      "dst": 140627
+    },
+    {
+      "relateString": "衍生",
+      "src": 140627,
+      "dst": 132197
+    },
+    {
+      "relateString": "前传",
+      "src": 140627,
+      "dst": 140626
+    },
+    {
+      "relateString": "前传",
+      "src": 306381,
+      "dst": 132197
+    }
+  ]
 }

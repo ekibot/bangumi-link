@@ -1,77 +1,53 @@
 {
- "id": 84893,
- "node": [
-  {
-   "id": 84893,
-   "name": "State of Decay",
-   "nameCN": "腐烂国度",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/17/84893_snxdD.jpg",
-   "date": "2013-11-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 127654,
-   "name": "State of Decay: Year-One Survival Edition",
-   "nameCN": "腐烂国度:年度版",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/93/127654_mlzgD.jpg",
-   "date": "2015-04-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 185172,
-   "name": "State of Decay 2",
-   "nameCN": "腐烂国度2",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/8b/185172_Qe5eg.jpg",
-   "date": "2018-05-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 311079,
-   "name": "State of Decay 3",
-   "nameCN": "腐烂国度3",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/f0/311079_y9S6f.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 84893,
-   "dst": 127654
-  },
-  {
-   "relate": "续集",
-   "src": 84893,
-   "dst": 185172
-  },
-  {
-   "relate": "不同演绎",
-   "src": 127654,
-   "dst": 84893
-  },
-  {
-   "relate": "前传",
-   "src": 185172,
-   "dst": 84893
-  },
-  {
-   "relate": "续集",
-   "src": 185172,
-   "dst": 311079
-  },
-  {
-   "relate": "前传",
-   "src": 311079,
-   "dst": 185172
-  }
- ]
+  "id": "84893",
+  "node": [
+    {
+      "id": 84893,
+      "name": "State of Decay",
+      "nameCN": "腐烂国度",
+      "date": "2013-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 185172,
+      "name": "State of Decay 2",
+      "nameCN": "腐烂国度2",
+      "date": "2018-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 311079,
+      "name": "State of Decay 3",
+      "nameCN": "腐烂国度3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84893,
+      "dst": 185172
+    },
+    {
+      "relateString": "前传",
+      "src": 185172,
+      "dst": 84893
+    },
+    {
+      "relateString": "续集",
+      "src": 185172,
+      "dst": 311079
+    },
+    {
+      "relateString": "前传",
+      "src": 311079,
+      "dst": 185172
+    }
+  ]
 }

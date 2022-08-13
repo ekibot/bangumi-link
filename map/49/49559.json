@@ -1,37 +1,35 @@
 {
- "id": 49559,
- "node": [
-  {
-   "id": 49559,
-   "name": "きらりん☆レボリューション",
-   "nameCN": "偶像宣言",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/10/49559_LUA9W.jpg",
-   "date": "2006-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 49560,
-   "name": "きらりん☆レボリューション STAGE3",
-   "nameCN": "偶像宣言STAGE3",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/47/49560_66wzR.jpg",
-   "date": "2008-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49559,
-   "dst": 49560
-  },
-  {
-   "relate": "前传",
-   "src": 49560,
-   "dst": 49559
-  }
- ]
+  "id": "49559",
+  "node": [
+    {
+      "id": 49559,
+      "name": "きらりん☆レボリューション",
+      "nameCN": "偶像宣言",
+      "date": "2006-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 49560,
+      "name": "きらりん☆レボリューション STAGE3",
+      "nameCN": "偶像宣言STAGE3",
+      "date": "2008-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49559,
+      "dst": 49560
+    },
+    {
+      "relateString": "前传",
+      "src": 49560,
+      "dst": 49559
+    }
+  ]
 }

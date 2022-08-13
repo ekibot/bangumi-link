@@ -1,37 +1,35 @@
 {
- "id": 351994,
- "node": [
-  {
-   "id": 351994,
-   "name": "雪原の月影 三日月",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/b3/351994_SNsh7.jpg",
-   "date": "2021-09-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 351995,
-   "name": "雪原の月影 満月",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/2f/351995_2NAX9.jpg",
-   "date": "2021-10-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 351994,
-   "dst": 351995
-  },
-  {
-   "relate": "前传",
-   "src": 351995,
-   "dst": 351994
-  }
- ]
+  "id": "351994",
+  "node": [
+    {
+      "id": 351994,
+      "name": "雪原の月影 三日月",
+      "nameCN": "",
+      "date": "2021-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 351995,
+      "name": "雪原の月影 満月",
+      "nameCN": "",
+      "date": "2021-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 351994,
+      "dst": 351995
+    },
+    {
+      "relateString": "前传",
+      "src": 351995,
+      "dst": 351994
+    }
+  ]
 }

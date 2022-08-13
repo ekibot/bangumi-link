@@ -1,37 +1,35 @@
 {
- "id": 1964,
- "node": [
-  {
-   "id": 1964,
-   "name": "英國戀物語エマ",
-   "nameCN": "英国恋物语艾玛",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/dc/1964_NVFmz.jpg",
-   "date": "2005-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 1965,
-   "name": "英國戀物語エマ 第二幕",
-   "nameCN": "英国恋物语艾玛 第二幕",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/6e/1965_Yess4.jpg",
-   "date": "2007-04-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1964,
-   "dst": 1965
-  },
-  {
-   "relate": "前传",
-   "src": 1965,
-   "dst": 1964
-  }
- ]
+  "id": "1964",
+  "node": [
+    {
+      "id": 1964,
+      "name": "英國戀物語エマ",
+      "nameCN": "英国恋物语艾玛",
+      "date": "2005-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 1965,
+      "name": "英國戀物語エマ 第二幕",
+      "nameCN": "英国恋物语艾玛 第二幕",
+      "date": "2007-04-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1964,
+      "dst": 1965
+    },
+    {
+      "relateString": "前传",
+      "src": 1965,
+      "dst": 1964
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 74099,
- "node": [
-  {
-   "id": 74099,
-   "name": "土竜の唄 潜入捜査官REIJI",
-   "nameCN": "鼹鼠之歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/4f/74099_DVCnM.jpg",
-   "date": "2014-02-15",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 197607,
-   "name": "土竜の唄 香港狂騒曲",
-   "nameCN": "鼹鼠之歌2：香港狂骚曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/3f/197607_wQuQ8.jpg",
-   "date": "2016-12-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 354158,
-   "name": "土竜の唄 FINAL",
-   "nameCN": "鼹鼠之歌 FINAL",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/23/354158_T8OxE.jpg",
-   "date": "2021-11-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 74099,
-   "dst": 197607
-  },
-  {
-   "relate": "前传",
-   "src": 197607,
-   "dst": 74099
-  },
-  {
-   "relate": "续集",
-   "src": 197607,
-   "dst": 354158
-  },
-  {
-   "relate": "前传",
-   "src": 354158,
-   "dst": 197607
-  }
- ]
+  "id": "74099",
+  "node": [
+    {
+      "id": 74099,
+      "name": "土竜の唄 潜入捜査官REIJI",
+      "nameCN": "鼹鼠之歌",
+      "date": "2014-02-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 197607,
+      "name": "土竜の唄 香港狂騒曲",
+      "nameCN": "鼹鼠之歌2：香港狂骚曲",
+      "date": "2016-12-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 354158,
+      "name": "土竜の唄 FINAL",
+      "nameCN": "鼹鼠之歌 FINAL",
+      "date": "2021-11-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 74099,
+      "dst": 197607
+    },
+    {
+      "relateString": "前传",
+      "src": 197607,
+      "dst": 74099
+    },
+    {
+      "relateString": "续集",
+      "src": 197607,
+      "dst": 354158
+    },
+    {
+      "relateString": "前传",
+      "src": 354158,
+      "dst": 197607
+    }
+  ]
 }

@@ -1,0 +1,47 @@
+{
+  "id": "343933",
+  "node": [
+    {
+      "id": 343933,
+      "name": "伊甸之歌",
+      "nameCN": "伊甸之歌",
+      "date": "2021-08-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 366600,
+      "name": "伊甸之歌2~海市蜃楼之街~",
+      "nameCN": "伊甸之歌2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 366601,
+      "name": "伊甸之歌DLC",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 343933,
+      "dst": 366600
+    },
+    {
+      "relateString": "前传",
+      "src": 366600,
+      "dst": 343933
+    },
+    {
+      "relateString": "主线故事",
+      "src": 366601,
+      "dst": 343933
+    }
+  ]
+}

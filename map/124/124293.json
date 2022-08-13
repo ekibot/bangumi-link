@@ -1,77 +1,70 @@
 {
- "id": 124293,
- "node": [
-  {
-   "id": 124293,
-   "name": "クイーンズブレイド –Hide&amp;Seek–",
-   "nameCN": "女王之刃 -Hide&amp;Seek-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/f4/124293_9SZDq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 124347,
-   "name": "クイーンズブレイド リベリオン 青嵐の姫騎士",
-   "nameCN": "女王之刃 叛乱 青岚的姬骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/31/124347_VvF93.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 124350,
-   "name": "クイーンズブレイド リベリオン ZERO",
-   "nameCN": "女王之刃Ⅱ 叛乱:ZERO",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/09/124350_aAa3Z.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 124355,
-   "name": "クイーンズブレイド 流浪の戦士",
-   "nameCN": "女王之刃 流浪战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/8d/124355_SfFNn.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124293,
-   "dst": 124347
-  },
-  {
-   "relate": "前传",
-   "src": 124293,
-   "dst": 124355
-  },
-  {
-   "relate": "前传",
-   "src": 124347,
-   "dst": 124293
-  },
-  {
-   "relate": "番外篇",
-   "src": 124347,
-   "dst": 124350
-  },
-  {
-   "relate": "主线故事",
-   "src": 124350,
-   "dst": 124347
-  },
-  {
-   "relate": "续集",
-   "src": 124355,
-   "dst": 124293
-  }
- ]
+  "id": "124293",
+  "node": [
+    {
+      "id": 124293,
+      "name": "クイーンズブレイド –Hide&amp;Seek–",
+      "nameCN": "女王之刃 -Hide&amp;Seek-",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 124347,
+      "name": "クイーンズブレイド リベリオン 青嵐の姫騎士",
+      "nameCN": "女王之刃 叛乱 青岚的姬骑士",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 124355,
+      "name": "クイーンズブレイド 流浪の戦士",
+      "nameCN": "女王之刃 流浪战士",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 124350,
+      "name": "クイーンズブレイド リベリオン ZERO",
+      "nameCN": "女王之刃Ⅱ 叛乱:ZERO",
+      "date": "2011-12-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124293,
+      "dst": 124347
+    },
+    {
+      "relateString": "前传",
+      "src": 124293,
+      "dst": 124355
+    },
+    {
+      "relateString": "前传",
+      "src": 124347,
+      "dst": 124293
+    },
+    {
+      "relateString": "番外篇",
+      "src": 124347,
+      "dst": 124350
+    },
+    {
+      "relateString": "主线故事",
+      "src": 124350,
+      "dst": 124347
+    },
+    {
+      "relateString": "续集",
+      "src": 124355,
+      "dst": 124293
+    }
+  ]
 }

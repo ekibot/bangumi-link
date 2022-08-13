@@ -1,37 +1,35 @@
 {
- "id": 234588,
- "node": [
-  {
-   "id": 234588,
-   "name": "童貞に愛なんて叫べない!",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/f8/234588_moFux.jpg",
-   "date": "2017-05-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 315485,
-   "name": "元童貞は何度でも愛を叫びたい!",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/1e/315485_SG9BZ.jpg",
-   "date": "2019-05-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234588,
-   "dst": 315485
-  },
-  {
-   "relate": "前传",
-   "src": 315485,
-   "dst": 234588
-  }
- ]
+  "id": "234588",
+  "node": [
+    {
+      "id": 234588,
+      "name": "童貞に愛なんて叫べない!",
+      "nameCN": "",
+      "date": "2017-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 315485,
+      "name": "元童貞は何度でも愛を叫びたい!",
+      "nameCN": "",
+      "date": "2019-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234588,
+      "dst": 315485
+    },
+    {
+      "relateString": "前传",
+      "src": 315485,
+      "dst": 234588
+    }
+  ]
 }

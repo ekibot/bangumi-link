@@ -1,57 +1,53 @@
 {
- "id": 168397,
- "node": [
-  {
-   "id": 168397,
-   "name": "ピーチガール",
-   "nameCN": "蜜桃女孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/92/168397_AB5h5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 194937,
-   "name": "ピーチガールNEXT",
-   "nameCN": "蜜桃女孩NEXT",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/22/194937_rqJQr.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 202439,
-   "name": "裏ピーチガール",
-   "nameCN": "蜜桃女孩Reverse",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/00/202439_akDnp.jpg",
-   "date": "2005-01-13",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 168397,
-   "dst": 194937
-  },
-  {
-   "relate": "番外篇",
-   "src": 168397,
-   "dst": 202439
-  },
-  {
-   "relate": "前传",
-   "src": 194937,
-   "dst": 168397
-  },
-  {
-   "relate": "主线故事",
-   "src": 202439,
-   "dst": 168397
-  }
- ]
+  "id": "168397",
+  "node": [
+    {
+      "id": 168397,
+      "name": "ピーチガール",
+      "nameCN": "蜜桃女孩",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 194937,
+      "name": "ピーチガールNEXT",
+      "nameCN": "蜜桃女孩NEXT",
+      "date": "2016-08-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 202439,
+      "name": "裏ピーチガール",
+      "nameCN": "蜜桃女孩Reverse",
+      "date": "2005-01-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 168397,
+      "dst": 194937
+    },
+    {
+      "relateString": "番外篇",
+      "src": 168397,
+      "dst": 202439
+    },
+    {
+      "relateString": "前传",
+      "src": 194937,
+      "dst": 168397
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202439,
+      "dst": 168397
+    }
+  ]
 }

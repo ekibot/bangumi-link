@@ -1,37 +1,35 @@
 {
- "id": 82940,
- "node": [
-  {
-   "id": 82940,
-   "name": "DEAR MYSELF",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/4a/82940_jp.jpg",
-   "date": "1998-01-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 82941,
-   "name": "WORLD'S END",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/17/82941_jp.jpg",
-   "date": "1999-06-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82940,
-   "dst": 82941
-  },
-  {
-   "relate": "前传",
-   "src": 82941,
-   "dst": 82940
-  }
- ]
+  "id": "82940",
+  "node": [
+    {
+      "id": 82940,
+      "name": "DEAR MYSELF",
+      "nameCN": "",
+      "date": "1998-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82941,
+      "name": "WORLD'S END",
+      "nameCN": "",
+      "date": "1999-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82940,
+      "dst": 82941
+    },
+    {
+      "relateString": "前传",
+      "src": 82941,
+      "dst": 82940
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 2425,
- "node": [
-  {
-   "id": 2425,
-   "name": "しゅごキャラ!!どきっ",
-   "nameCN": "守护甜心!!心跳",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/36/2425_7pPhS.jpg",
-   "date": "2008-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2427,
-   "name": "しゅごキャラ!",
-   "nameCN": "守护甜心!",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/aa/2427_7UDhH.jpg",
-   "date": "2007-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 3018,
-   "name": "しゅごキャラ!パーティー!",
-   "nameCN": "守护甜心!派对!",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/96/3018_rMBsd.jpg",
-   "date": "2009-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2425,
-   "dst": 2427
-  },
-  {
-   "relate": "续集",
-   "src": 2425,
-   "dst": 3018
-  },
-  {
-   "relate": "续集",
-   "src": 2427,
-   "dst": 2425
-  },
-  {
-   "relate": "前传",
-   "src": 3018,
-   "dst": 2425
-  }
- ]
+  "id": "2425",
+  "node": [
+    {
+      "id": 2425,
+      "name": "しゅごキャラ!!どきっ",
+      "nameCN": "守护甜心!!心跳",
+      "date": "2008-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2427,
+      "name": "しゅごキャラ!",
+      "nameCN": "守护甜心!",
+      "date": "2007-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3018,
+      "name": "しゅごキャラ!パーティー!",
+      "nameCN": "守护甜心!派对!",
+      "date": "2009-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2425,
+      "dst": 2427
+    },
+    {
+      "relateString": "续集",
+      "src": 2425,
+      "dst": 3018
+    },
+    {
+      "relateString": "续集",
+      "src": 2427,
+      "dst": 2425
+    },
+    {
+      "relateString": "前传",
+      "src": 3018,
+      "dst": 2425
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 64273,
- "node": [
-  {
-   "id": 64273,
-   "name": "怪物王女",
-   "nameCN": "怪物王女",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/65/64273_EK65y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 228614,
-   "name": "怪物王女 ナイトメア",
-   "nameCN": "怪物王女 Nightmare",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/e2/228614_CM105.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64273,
-   "dst": 228614
-  },
-  {
-   "relate": "前传",
-   "src": 228614,
-   "dst": 64273
-  }
- ]
+  "id": "64273",
+  "node": [
+    {
+      "id": 64273,
+      "name": "怪物王女",
+      "nameCN": "怪物王女",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 228614,
+      "name": "怪物王女 ナイトメア",
+      "nameCN": "怪物王女 Nightmare",
+      "date": "2017-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64273,
+      "dst": 228614
+    },
+    {
+      "relateString": "前传",
+      "src": 228614,
+      "dst": 64273
+    }
+  ]
 }

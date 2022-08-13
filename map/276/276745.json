@@ -1,37 +1,35 @@
 {
- "id": 276745,
- "node": [
-  {
-   "id": 276745,
-   "name": "The Black Arrow",
-   "nameCN": "黑箭",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/00/276745_8z2Pa.jpg",
-   "date": "1988-08-16",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 277137,
-   "name": "Black Arrow",
-   "nameCN": "黑箭",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/5e/277137_S78Fn.jpg",
-   "date": "1985-01-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 276745,
-   "dst": 277137
-  },
-  {
-   "relate": "不同演绎",
-   "src": 277137,
-   "dst": 276745
-  }
- ]
+  "id": "276745",
+  "node": [
+    {
+      "id": 276745,
+      "name": "The Black Arrow",
+      "nameCN": "黑箭",
+      "date": "1988-08-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 277137,
+      "name": "Black Arrow",
+      "nameCN": "黑箭",
+      "date": "1985-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 276745,
+      "dst": 277137
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 277137,
+      "dst": 276745
+    }
+  ]
 }

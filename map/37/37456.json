@@ -1,37 +1,35 @@
 {
- "id": 37456,
- "node": [
-  {
-   "id": 37456,
-   "name": "オレは少女漫画家",
-   "nameCN": "我是少女漫画家",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/72/37456_T0BDU.jpg",
-   "date": "2012-02-23",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 63352,
-   "name": "オレは少女漫画家R",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/4f/63352_Q11Dy.jpg",
-   "date": "2013-03-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 37456,
-   "dst": 63352
-  },
-  {
-   "relate": "不同演绎",
-   "src": 63352,
-   "dst": 37456
-  }
- ]
+  "id": "37456",
+  "node": [
+    {
+      "id": 37456,
+      "name": "オレは少女漫画家",
+      "nameCN": "我是少女漫画家",
+      "date": "2012-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 63352,
+      "name": "オレは少女漫画家R",
+      "nameCN": "",
+      "date": "2013-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 37456,
+      "dst": 63352
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 63352,
+      "dst": 37456
+    }
+  ]
 }

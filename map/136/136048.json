@@ -1,57 +1,54 @@
 {
- "id": 136048,
- "node": [
-  {
-   "id": 136048,
-   "name": "1000ちゃんねる",
-   "nameCN": "1000酱！SSD",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/65/136048_REBJJ.jpg",
-   "date": "2015-06-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 136058,
-   "name": "1000ちゃん",
-   "nameCN": "1000酱！",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/36/136058_bkfNY.jpg",
-   "date": "2014-05-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 196702,
-   "name": "1000ちゃん 厚木LOVE編",
-   "nameCN": "1000酱！ 厚木LOVE編",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/7f/196702_V2bCw.jpg",
-   "date": "2016-08-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 136048,
-   "dst": 136058
-  },
-  {
-   "relate": "续集",
-   "src": 136048,
-   "dst": 196702
-  },
-  {
-   "relate": "续集",
-   "src": 136058,
-   "dst": 136048
-  },
-  {
-   "relate": "前传",
-   "src": 196702,
-   "dst": 136048
-  }
- ]
+  "id": "136048",
+  "node": [
+    {
+      "id": 136048,
+      "name": "1000ちゃんねる",
+      "nameCN": "1000酱！SSD",
+      "date": "2015-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 136058,
+      "name": "1000ちゃん",
+      "nameCN": "1000酱！",
+      "date": "2014-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 196702,
+      "name": "1000ちゃん 厚木LOVE編",
+      "nameCN": "1000酱！ 厚木LOVE編",
+      "date": "2016-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 136048,
+      "dst": 136058
+    },
+    {
+      "relateString": "续集",
+      "src": 136048,
+      "dst": 196702
+    },
+    {
+      "relateString": "续集",
+      "src": 136058,
+      "dst": 136048
+    },
+    {
+      "relateString": "前传",
+      "src": 196702,
+      "dst": 136048
+    }
+  ]
 }

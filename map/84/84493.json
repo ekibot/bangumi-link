@@ -1,57 +1,35 @@
 {
- "id": 84493,
- "node": [
-  {
-   "id": 84493,
-   "name": "みんな集まれ! ファルコム学園",
-   "nameCN": "大家集合！Falcom学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/45/84493_71698.jpg",
-   "date": "2014-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 110961,
-   "name": "みんな集まれ! ファルコム学園 SC",
-   "nameCN": "大家集合！Falcom学园 2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/4a/110961_F6Dfb.jpg",
-   "date": "2015-01-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 143866,
-   "name": "みんな集まれ! ファルコム学園 3期",
-   "nameCN": "大家集合！Falcom学园 3期",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84493,
-   "dst": 110961
-  },
-  {
-   "relate": "前传",
-   "src": 110961,
-   "dst": 84493
-  },
-  {
-   "relate": "续集",
-   "src": 110961,
-   "dst": 143866
-  },
-  {
-   "relate": "前传",
-   "src": 143866,
-   "dst": 110961
-  }
- ]
+  "id": "84493",
+  "node": [
+    {
+      "id": 84493,
+      "name": "みんな集まれ! ファルコム学園",
+      "nameCN": "大家集合！Falcom学园",
+      "date": "2014-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 110961,
+      "name": "みんな集まれ! ファルコム学園 SC",
+      "nameCN": "大家集合！Falcom学园 2期",
+      "date": "2015-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84493,
+      "dst": 110961
+    },
+    {
+      "relateString": "前传",
+      "src": 110961,
+      "dst": 84493
+    }
+  ]
 }

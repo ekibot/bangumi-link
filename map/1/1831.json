@@ -1,37 +1,34 @@
 {
- "id": 1831,
- "node": [
-  {
-   "id": 1831,
-   "name": "フルメタル・パニック!",
-   "nameCN": "全金属狂潮",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/ab/1831_s9ZtE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 30219,
-   "name": "フルメタル・パニック! アナザー",
-   "nameCN": "全金属狂潮 Another",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/1d/30219_D944F.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1831,
-   "dst": 30219
-  },
-  {
-   "relate": "前传",
-   "src": 30219,
-   "dst": 1831
-  }
- ]
+  "id": "1831",
+  "node": [
+    {
+      "id": 1831,
+      "name": "フルメタル・パニック!",
+      "nameCN": "全金属狂潮",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 30219,
+      "name": "フルメタル・パニック! アナザー",
+      "nameCN": "全金属狂潮 Another",
+      "date": "2011-08-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1831,
+      "dst": 30219
+    },
+    {
+      "relateString": "前传",
+      "src": 30219,
+      "dst": 1831
+    }
+  ]
 }

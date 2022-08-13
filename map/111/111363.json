@@ -1,117 +1,110 @@
 {
- "id": 111363,
- "node": [
-  {
-   "id": 111363,
-   "name": "ワカコ酒",
-   "nameCN": "和歌子酒",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/9b/111363_gU0RQ.jpg",
-   "date": "2015-01-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 177093,
-   "name": "ワカコ酒 Season2",
-   "nameCN": "和歌子酒 第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/ac/177093_4TZSt.jpg",
-   "date": "2016-01-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 226937,
-   "name": "ワカコ酒 Season3",
-   "nameCN": "和歌子酒 第3季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/dd/226937_700dD.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 267371,
-   "name": "ワカコ酒 Season4",
-   "nameCN": "和歌子酒 第4季",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/b2/267371_Z8sGC.jpg",
-   "date": "2019-01-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 299948,
-   "name": "ワカコ酒 Season5",
-   "nameCN": "和歌子酒 第5季",
-   "date": "2020-04-06",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/ad/299948_A3IYk.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 356731,
-   "name": "ワカコ酒 Season6",
-   "nameCN": "和歌子酒 第6季",
-   "date": "2022-01-10",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/1b/356731_YvU1m.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111363,
-   "dst": 177093
-  },
-  {
-   "relate": "前传",
-   "src": 177093,
-   "dst": 111363
-  },
-  {
-   "relate": "续集",
-   "src": 177093,
-   "dst": 226937
-  },
-  {
-   "relate": "前传",
-   "src": 226937,
-   "dst": 177093
-  },
-  {
-   "relate": "续集",
-   "src": 226937,
-   "dst": 267371
-  },
-  {
-   "relate": "前传",
-   "src": 267371,
-   "dst": 226937
-  },
-  {
-   "relate": "续集",
-   "src": 267371,
-   "dst": 299948
-  },
-  {
-   "relate": "前传",
-   "src": 299948,
-   "dst": 267371
-  },
-  {
-   "relate": "续集",
-   "src": 299948,
-   "dst": 356731
-  },
-  {
-   "relate": "前传",
-   "src": 356731,
-   "dst": 299948
-  }
- ]
+  "id": "111363",
+  "node": [
+    {
+      "id": 111363,
+      "name": "ワカコ酒",
+      "nameCN": "和歌子酒",
+      "date": "2015-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 177093,
+      "name": "ワカコ酒 Season2",
+      "nameCN": "和歌子酒 第2季",
+      "date": "2016-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 226937,
+      "name": "ワカコ酒 Season3",
+      "nameCN": "和歌子酒 第3季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 267371,
+      "name": "ワカコ酒 Season4",
+      "nameCN": "和歌子酒 第4季",
+      "date": "2019-01-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 299948,
+      "name": "ワカコ酒 Season5",
+      "nameCN": "和歌子酒 第5季",
+      "date": "2020-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 356731,
+      "name": "ワカコ酒 Season6",
+      "nameCN": "和歌子酒 第6季",
+      "date": "2022-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111363,
+      "dst": 177093
+    },
+    {
+      "relateString": "前传",
+      "src": 177093,
+      "dst": 111363
+    },
+    {
+      "relateString": "续集",
+      "src": 177093,
+      "dst": 226937
+    },
+    {
+      "relateString": "前传",
+      "src": 226937,
+      "dst": 177093
+    },
+    {
+      "relateString": "续集",
+      "src": 226937,
+      "dst": 267371
+    },
+    {
+      "relateString": "前传",
+      "src": 267371,
+      "dst": 226937
+    },
+    {
+      "relateString": "续集",
+      "src": 267371,
+      "dst": 299948
+    },
+    {
+      "relateString": "前传",
+      "src": 299948,
+      "dst": 267371
+    },
+    {
+      "relateString": "续集",
+      "src": 299948,
+      "dst": 356731
+    },
+    {
+      "relateString": "前传",
+      "src": 356731,
+      "dst": 299948
+    }
+  ]
 }

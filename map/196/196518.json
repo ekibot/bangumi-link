@@ -1,51 +1,35 @@
 {
- "id": 196518,
- "node": [
-  {
-   "id": 196518,
-   "name": "The Coma: Cutting Class",
-   "nameCN": "昏迷",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/95/196518_fU53v.jpg",
-   "date": "2015-10-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 235795,
-   "name": "The Coma: Recut",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/57/235795_dDcLD.jpg",
-   "date": "2017-09-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 310287,
-   "name": "The Coma 2: Vicious Sisters",
-   "nameCN": "昏迷2：恶毒姐妹",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/b6/310287_ji2Ys.jpg",
-   "date": "2020-01-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196518,
-   "dst": 310287
-  },
-  {
-   "relate": "不同演绎",
-   "src": 235795,
-   "dst": 196518
-  },
-  {
-   "relate": "前传",
-   "src": 310287,
-   "dst": 196518
-  }
- ]
+  "id": "196518",
+  "node": [
+    {
+      "id": 196518,
+      "name": "The Coma: Cutting Class",
+      "nameCN": "昏迷",
+      "date": "2015-10-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 310287,
+      "name": "The Coma 2: Vicious Sisters",
+      "nameCN": "昏迷2：恶毒姐妹",
+      "date": "2020-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196518,
+      "dst": 310287
+    },
+    {
+      "relateString": "前传",
+      "src": 310287,
+      "dst": 196518
+    }
+  ]
 }

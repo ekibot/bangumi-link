@@ -1,37 +1,35 @@
 {
- "id": 229642,
- "node": [
-  {
-   "id": 229642,
-   "name": "働くお兄さん！",
-   "nameCN": "打工小哥！",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/57/229642_UT3Dl.jpg",
-   "date": "2018-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 241831,
-   "name": "働くお兄さん！の2！",
-   "nameCN": "打工小哥！之2！",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/01/241831_5Sa59.jpg",
-   "date": "2018-07-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229642,
-   "dst": 241831
-  },
-  {
-   "relate": "前传",
-   "src": 241831,
-   "dst": 229642
-  }
- ]
+  "id": "229642",
+  "node": [
+    {
+      "id": 229642,
+      "name": "働くお兄さん！",
+      "nameCN": "打工小哥！",
+      "date": "2018-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 241831,
+      "name": "働くお兄さん！の2！",
+      "nameCN": "打工小哥！之2！",
+      "date": "2018-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229642,
+      "dst": 241831
+    },
+    {
+      "relateString": "前传",
+      "src": 241831,
+      "dst": 229642
+    }
+  ]
 }

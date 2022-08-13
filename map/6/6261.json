@@ -1,37 +1,35 @@
 {
- "id": 6261,
- "node": [
-  {
-   "id": 6261,
-   "name": "Eets",
-   "nameCN": "伊特",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/f8/6261_B8zs1.jpg",
-   "date": "2006-03-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84415,
-   "name": "Eets Munchies",
-   "nameCN": "点心大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/8a/84415_rKiaa.jpg",
-   "date": "2014-03-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6261,
-   "dst": 84415
-  },
-  {
-   "relate": "前传",
-   "src": 84415,
-   "dst": 6261
-  }
- ]
+  "id": "6261",
+  "node": [
+    {
+      "id": 6261,
+      "name": "Eets",
+      "nameCN": "伊特",
+      "date": "2006-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84415,
+      "name": "Eets Munchies",
+      "nameCN": "点心大作战",
+      "date": "2014-03-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6261,
+      "dst": 84415
+    },
+    {
+      "relateString": "前传",
+      "src": 84415,
+      "dst": 6261
+    }
+  ]
 }

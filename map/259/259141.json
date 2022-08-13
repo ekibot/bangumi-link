@@ -1,37 +1,35 @@
 {
- "id": 259141,
- "node": [
-  {
-   "id": 259141,
-   "name": "あなたには渡さない",
-   "nameCN": "我不会让给你",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/95/259141_DlMHt.jpg",
-   "date": "2018-11-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 268173,
-   "name": "あいつには渡さない",
-   "date": "2018-12-01",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 259141,
-   "dst": 268173
-  },
-  {
-   "relate": "衍生",
-   "src": 268173,
-   "dst": 259141
-  }
- ]
+  "id": "259141",
+  "node": [
+    {
+      "id": 259141,
+      "name": "あなたには渡さない",
+      "nameCN": "我不会让给你",
+      "date": "2018-11-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 268173,
+      "name": "あいつには渡さない",
+      "nameCN": "",
+      "date": "2018-12-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 259141,
+      "dst": 268173
+    },
+    {
+      "relateString": "衍生",
+      "src": 268173,
+      "dst": 259141
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 13631,
- "node": [
-  {
-   "id": 13631,
-   "name": "DEATHSMILES",
-   "nameCN": "死亡微笑",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/4e/13631_UDsl3.jpg",
-   "date": "2009-04-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 18902,
-   "name": "DEATHSMILES II 魔界のメリークリスマス",
-   "nameCN": "死亡微笑2：魔界圣诞节",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/cb/18902_Ehbeh.jpg",
-   "date": "2009-05-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13631,
-   "dst": 18902
-  },
-  {
-   "relate": "前传",
-   "src": 18902,
-   "dst": 13631
-  }
- ]
+  "id": "13631",
+  "node": [
+    {
+      "id": 13631,
+      "name": "DEATHSMILES",
+      "nameCN": "死亡微笑",
+      "date": "2009-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 18902,
+      "name": "DEATHSMILES II 魔界のメリークリスマス",
+      "nameCN": "死亡微笑2：魔界圣诞节",
+      "date": "2009-05-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13631,
+      "dst": 18902
+    },
+    {
+      "relateString": "前传",
+      "src": 18902,
+      "dst": 13631
+    }
+  ]
 }

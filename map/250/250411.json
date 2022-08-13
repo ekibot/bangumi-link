@@ -1,37 +1,35 @@
 {
- "id": 250411,
- "node": [
-  {
-   "id": 250411,
-   "name": "Disney's Aladdin",
-   "nameCN": "阿拉丁",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/da/250411_AfNdZ.jpg",
-   "date": "1993-11-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308424,
-   "name": "Disney Classic Games: Aladdin and The Lion King",
-   "nameCN": "迪士尼经典游戏：阿拉丁与狮子王",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/86/308424_7ZqeE.jpg",
-   "date": "2019-10-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 250411,
-   "dst": 308424
-  },
-  {
-   "relate": "不同演绎",
-   "src": 308424,
-   "dst": 250411
-  }
- ]
+  "id": "250411",
+  "node": [
+    {
+      "id": 250411,
+      "name": "Disney's Aladdin",
+      "nameCN": "阿拉丁",
+      "date": "1993-11-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308424,
+      "name": "Disney Classic Games: Aladdin and The Lion King",
+      "nameCN": "迪士尼经典游戏：阿拉丁与狮子王",
+      "date": "2019-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 250411,
+      "dst": 308424
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 308424,
+      "dst": 250411
+    }
+  ]
 }

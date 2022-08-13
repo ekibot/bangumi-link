@@ -1,57 +1,54 @@
 {
- "id": 32813,
- "node": [
-  {
-   "id": 32813,
-   "name": "約束の柱、落日の女王",
-   "nameCN": "约定之柱 落日的女王",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/e2/32813_yoqbm.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 61506,
-   "name": "平和の鐘、永遠の女王",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/29/61506_jp.jpg",
-   "date": "2005-05-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 61507,
-   "name": "真実の扉、黎明の女王",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/35/61507_jp.jpg",
-   "date": "2005-02-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 32813,
-   "dst": 61507
-  },
-  {
-   "relate": "前传",
-   "src": 61506,
-   "dst": 61507
-  },
-  {
-   "relate": "前传",
-   "src": 61507,
-   "dst": 32813
-  },
-  {
-   "relate": "续集",
-   "src": 61507,
-   "dst": 61506
-  }
- ]
+  "id": "32813",
+  "node": [
+    {
+      "id": 32813,
+      "name": "約束の柱、落日の女王",
+      "nameCN": "约定之柱 落日的女王",
+      "date": "2004-09-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 61507,
+      "name": "真実の扉、黎明の女王",
+      "nameCN": "",
+      "date": "2005-02-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 61506,
+      "name": "平和の鐘、永遠の女王",
+      "nameCN": "",
+      "date": "2005-05-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 32813,
+      "dst": 61507
+    },
+    {
+      "relateString": "前传",
+      "src": 61506,
+      "dst": 61507
+    },
+    {
+      "relateString": "前传",
+      "src": 61507,
+      "dst": 32813
+    },
+    {
+      "relateString": "续集",
+      "src": 61507,
+      "dst": 61506
+    }
+  ]
 }

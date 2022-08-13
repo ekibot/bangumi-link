@@ -1,37 +1,35 @@
 {
- "id": 263194,
- "node": [
-  {
-   "id": 263194,
-   "name": "由你玩四年 第一季",
-   "nameCN": "由你玩四年第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/d5/263194_44Q4i.jpg",
-   "date": "2018-10-16",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 294877,
-   "name": "由你玩四年之王者大宿舍",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/b7/294877_gi0Q0.jpg",
-   "date": "2019-12-01",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263194,
-   "dst": 294877
-  },
-  {
-   "relate": "前传",
-   "src": 294877,
-   "dst": 263194
-  }
- ]
+  "id": "263194",
+  "node": [
+    {
+      "id": 263194,
+      "name": "由你玩四年 第一季",
+      "nameCN": "由你玩四年第一季",
+      "date": "2018-10-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 294877,
+      "name": "由你玩四年之王者大宿舍",
+      "nameCN": "",
+      "date": "2019-12-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263194,
+      "dst": 294877
+    },
+    {
+      "relateString": "前传",
+      "src": 294877,
+      "dst": 263194
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 289981,
- "node": [
-  {
-   "id": 289981,
-   "name": "UTOPIACHE",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/54/289981_1777Z.jpg",
-   "date": "2019-09-03",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314536,
-   "name": "アルケレコード",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/b1/314536_RzEeC.jpg",
-   "date": "2019-12-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 289981,
-   "dst": 314536
-  },
-  {
-   "relate": "续集",
-   "src": 314536,
-   "dst": 289981
-  }
- ]
+  "id": "289981",
+  "node": [
+    {
+      "id": 289981,
+      "name": "UTOPIACHE",
+      "nameCN": "",
+      "date": "2019-09-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314536,
+      "name": "アルケレコード",
+      "nameCN": "",
+      "date": "2019-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 289981,
+      "dst": 314536
+    },
+    {
+      "relateString": "续集",
+      "src": 314536,
+      "dst": 289981
+    }
+  ]
 }

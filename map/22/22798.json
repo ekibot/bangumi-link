@@ -1,37 +1,35 @@
 {
- "id": 22798,
- "node": [
-  {
-   "id": 22798,
-   "name": "いちご100%",
-   "nameCN": "草莓100%",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/7a/22798_fJUgt.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 211889,
-   "name": "いちご100％ EAST SIDE STORY",
-   "nameCN": "草莓百分百～东城的故事～",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/67/211889_ko36x.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22798,
-   "dst": 211889
-  },
-  {
-   "relate": "前传",
-   "src": 211889,
-   "dst": 22798
-  }
- ]
+  "id": "22798",
+  "node": [
+    {
+      "id": 22798,
+      "name": "いちご100%",
+      "nameCN": "草莓100%",
+      "date": "2003-02-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 211889,
+      "name": "いちご100％ EAST SIDE STORY",
+      "nameCN": "草莓百分百～东城的故事～",
+      "date": "2017-04-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22798,
+      "dst": 211889
+    },
+    {
+      "relateString": "前传",
+      "src": 211889,
+      "dst": 22798
+    }
+  ]
 }

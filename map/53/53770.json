@@ -1,37 +1,35 @@
 {
- "id": 53770,
- "node": [
-  {
-   "id": 53770,
-   "name": "怪物くん",
-   "nameCN": "怪物太郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/49/53770_a5Mgr.jpg",
-   "date": "1968-04-21",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 110775,
-   "name": "怪物くん（カラー版）",
-   "nameCN": "怪物太郎（彩色版）",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/0a/110775_PHxBh.jpg",
-   "date": "1980-09-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53770,
-   "dst": 110775
-  },
-  {
-   "relate": "前传",
-   "src": 110775,
-   "dst": 53770
-  }
- ]
+  "id": "53770",
+  "node": [
+    {
+      "id": 53770,
+      "name": "怪物くん",
+      "nameCN": "怪物太郎",
+      "date": "1968-04-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 110775,
+      "name": "怪物くん（カラー版）",
+      "nameCN": "怪物太郎（彩色版）",
+      "date": "1980-09-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53770,
+      "dst": 110775
+    },
+    {
+      "relateString": "前传",
+      "src": 110775,
+      "dst": 53770
+    }
+  ]
 }

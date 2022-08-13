@@ -1,37 +1,35 @@
 {
- "id": 15437,
- "node": [
-  {
-   "id": 15437,
-   "name": "リンゴに蜂蜜",
-   "nameCN": "蜜糖苹果",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/2b/15437_jp.jpg",
-   "date": "2011-02-20",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 67040,
-   "name": "彼のバラ色の人生",
-   "nameCN": "他的蔷薇色的人生",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/ed/67040_jp.jpg",
-   "date": "2012-05-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 15437,
-   "dst": 67040
-  },
-  {
-   "relate": "前传",
-   "src": 67040,
-   "dst": 15437
-  }
- ]
+  "id": "15437",
+  "node": [
+    {
+      "id": 15437,
+      "name": "リンゴに蜂蜜",
+      "nameCN": "蜜糖苹果",
+      "date": "2011-02-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 67040,
+      "name": "彼のバラ色の人生",
+      "nameCN": "他的蔷薇色的人生",
+      "date": "2012-05-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 15437,
+      "dst": 67040
+    },
+    {
+      "relateString": "前传",
+      "src": 67040,
+      "dst": 15437
+    }
+  ]
 }

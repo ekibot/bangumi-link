@@ -1,97 +1,92 @@
 {
- "id": 131945,
- "node": [
-  {
-   "id": 131945,
-   "name": "植物男子ベランダー",
-   "nameCN": "植物男子阳台星人",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/73/131945_Xl3a6.jpg",
-   "date": "2014-04-02",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 131946,
-   "name": "植物男子ベランダー 2ndシーズン",
-   "nameCN": "植物男子阳台星人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/83/131946_FM0pP.jpg",
-   "date": "2015-04-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 306589,
-   "name": "植物男子ベランダー 3rdシーズン",
-   "nameCN": "植物男子阳台星人3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/68/306589_YtP3P.jpg",
-   "date": "2016-04-07",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 306591,
-   "name": "植物男子ベランダー 俺のウィンタースペシャル",
-   "nameCN": "植物男子阳台星人 我的冬季特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/d2/306591_NdugG.jpg",
-   "date": "2015-12-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 306597,
-   "name": "植物男子ベランダー パイロット版",
-   "nameCN": "植物男子阳台星人 试播版",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/22/306597_zoo0L.jpg",
-   "date": "2013-11-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 131945,
-   "dst": 131946
-  },
-  {
-   "relate": "番外篇",
-   "src": 131945,
-   "dst": 306597
-  },
-  {
-   "relate": "前传",
-   "src": 131946,
-   "dst": 131945
-  },
-  {
-   "relate": "续集",
-   "src": 131946,
-   "dst": 306591
-  },
-  {
-   "relate": "前传",
-   "src": 306589,
-   "dst": 306591
-  },
-  {
-   "relate": "前传",
-   "src": 306591,
-   "dst": 131946
-  },
-  {
-   "relate": "续集",
-   "src": 306591,
-   "dst": 306589
-  },
-  {
-   "relate": "主线故事",
-   "src": 306597,
-   "dst": 131945
-  }
- ]
+  "id": "131945",
+  "node": [
+    {
+      "id": 131945,
+      "name": "植物男子ベランダー",
+      "nameCN": "植物男子阳台星人",
+      "date": "2014-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 131946,
+      "name": "植物男子ベランダー 2ndシーズン",
+      "nameCN": "植物男子阳台星人2",
+      "date": "2015-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 306597,
+      "name": "植物男子ベランダー パイロット版",
+      "nameCN": "植物男子阳台星人 试播版",
+      "date": "2013-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 306591,
+      "name": "植物男子ベランダー 俺のウィンタースペシャル",
+      "nameCN": "植物男子阳台星人 我的冬季特别篇",
+      "date": "2015-12-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 306589,
+      "name": "植物男子ベランダー 3rdシーズン",
+      "nameCN": "植物男子阳台星人3",
+      "date": "2016-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 131945,
+      "dst": 131946
+    },
+    {
+      "relateString": "番外篇",
+      "src": 131945,
+      "dst": 306597
+    },
+    {
+      "relateString": "前传",
+      "src": 131946,
+      "dst": 131945
+    },
+    {
+      "relateString": "续集",
+      "src": 131946,
+      "dst": 306591
+    },
+    {
+      "relateString": "前传",
+      "src": 306589,
+      "dst": 306591
+    },
+    {
+      "relateString": "前传",
+      "src": 306591,
+      "dst": 131946
+    },
+    {
+      "relateString": "续集",
+      "src": 306591,
+      "dst": 306589
+    },
+    {
+      "relateString": "主线故事",
+      "src": 306597,
+      "dst": 131945
+    }
+  ]
 }

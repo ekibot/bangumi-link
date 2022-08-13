@@ -1,65 +1,63 @@
 {
- "id": 1376,
- "node": [
-  {
-   "id": 1376,
-   "name": "プリズム・アーク ～プリズム・ハート エピソード2 ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/a4/1376_374hm.jpg",
-   "date": "2006-08-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 16989,
-   "name": "プリズム・アーク らぶらぶマキシマム！",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/4b/16989_3Da1C.jpg",
-   "date": "2008-01-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 234810,
-   "name": "プリズム・ハート",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/02/234810_uP53Y.jpg",
-   "date": "2000-10-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 356762,
-   "name": "ぷりずむ・ぼっくす",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/d7/356762_Mmeco.jpg",
-   "date": "2001-04-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1376,
-   "dst": 234810
-  },
-  {
-   "relate": "主线故事",
-   "src": 16989,
-   "dst": 1376
-  },
-  {
-   "relate": "续集",
-   "src": 234810,
-   "dst": 1376
-  },
-  {
-   "relate": "主线故事",
-   "src": 356762,
-   "dst": 234810
-  }
- ]
+  "id": "1376",
+  "node": [
+    {
+      "id": 1376,
+      "name": "プリズム・アーク ～プリズム・ハート エピソード2 ～",
+      "nameCN": "",
+      "date": "2006-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 234810,
+      "name": "プリズム・ハート",
+      "nameCN": "",
+      "date": "2000-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 16989,
+      "name": "プリズム・アーク らぶらぶマキシマム！",
+      "nameCN": "",
+      "date": "2008-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 356762,
+      "name": "ぷりずむ・ぼっくす",
+      "nameCN": "",
+      "date": "2001-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1376,
+      "dst": 234810
+    },
+    {
+      "relateString": "主线故事",
+      "src": 16989,
+      "dst": 1376
+    },
+    {
+      "relateString": "续集",
+      "src": 234810,
+      "dst": 1376
+    },
+    {
+      "relateString": "主线故事",
+      "src": 356762,
+      "dst": 234810
+    }
+  ]
 }

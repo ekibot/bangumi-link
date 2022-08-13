@@ -1,0 +1,54 @@
+{
+  "id": "6258",
+  "node": [
+    {
+      "id": 6258,
+      "name": "amato amaro",
+      "nameCN": "被爱与苦涩",
+      "date": "2007-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 6259,
+      "name": "クマとインテリ",
+      "nameCN": "熊男与知识分子",
+      "date": "2005-05-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 12085,
+      "name": "アルとネーリとその周辺",
+      "nameCN": "亚尔与尼利，以及身边事",
+      "date": "2011-02-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 6258,
+      "dst": 6259
+    },
+    {
+      "relateString": "续集",
+      "src": 6258,
+      "dst": 12085
+    },
+    {
+      "relateString": "续集",
+      "src": 6259,
+      "dst": 6258
+    },
+    {
+      "relateString": "前传",
+      "src": 12085,
+      "dst": 6258
+    }
+  ]
+}

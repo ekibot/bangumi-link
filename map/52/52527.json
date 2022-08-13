@@ -1,0 +1,51 @@
+{
+  "id": "52527",
+  "node": [
+    {
+      "id": 52527,
+      "name": "Combat Mission: Beyond Overlord",
+      "nameCN": "战斗任务：超越帝国",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 52528,
+      "name": "Combat Mission II: Barbarossa to Berlin",
+      "nameCN": "战斗任务：从巴巴罗沙到柏林",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 52529,
+      "name": "Combat Mission: Afrika Korps",
+      "nameCN": "战斗任务3：非洲军团",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52527,
+      "dst": 52528
+    },
+    {
+      "relateString": "前传",
+      "src": 52528,
+      "dst": 52527
+    },
+    {
+      "relateString": "续集",
+      "src": 52528,
+      "dst": 52529
+    },
+    {
+      "relateString": "前传",
+      "src": 52529,
+      "dst": 52528
+    }
+  ]
+}

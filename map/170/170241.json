@@ -1,37 +1,35 @@
 {
- "id": 170241,
- "node": [
-  {
-   "id": 170241,
-   "name": "B: The Beginning",
-   "nameCN": "B：起点",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/ed/170241_0NAPa.jpg",
-   "date": "2018-03-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 249471,
-   "name": "B: The Beginning Succession",
-   "nameCN": "B：起点 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/12/249471_C6Mx6.jpg",
-   "date": "2021-03-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 170241,
-   "dst": 249471
-  },
-  {
-   "relate": "前传",
-   "src": 249471,
-   "dst": 170241
-  }
- ]
+  "id": "170241",
+  "node": [
+    {
+      "id": 170241,
+      "name": "B: The Beginning",
+      "nameCN": "B：起点",
+      "date": "2018-03-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 249471,
+      "name": "B: The Beginning Succession",
+      "nameCN": "B：起点 第二季",
+      "date": "2021-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 170241,
+      "dst": 249471
+    },
+    {
+      "relateString": "前传",
+      "src": 249471,
+      "dst": 170241
+    }
+  ]
 }

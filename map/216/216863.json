@@ -1,37 +1,35 @@
 {
- "id": 216863,
- "node": [
-  {
-   "id": 216863,
-   "name": "Steel Division: Normandy 44",
-   "nameCN": "钢铁之师：诺曼底44",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/17/216863_GNsE9.jpg",
-   "date": "2017-05-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 280387,
-   "name": "Steel Division 2",
-   "nameCN": "钢铁之师 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/37/280387_3zebr.jpg",
-   "date": "2019-06-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 216863,
-   "dst": 280387
-  },
-  {
-   "relate": "前传",
-   "src": 280387,
-   "dst": 216863
-  }
- ]
+  "id": "216863",
+  "node": [
+    {
+      "id": 216863,
+      "name": "Steel Division: Normandy 44",
+      "nameCN": "钢铁之师：诺曼底44",
+      "date": "2017-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 280387,
+      "name": "Steel Division 2",
+      "nameCN": "钢铁之师 2",
+      "date": "2019-06-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 216863,
+      "dst": 280387
+    },
+    {
+      "relateString": "前传",
+      "src": 280387,
+      "dst": 216863
+    }
+  ]
 }

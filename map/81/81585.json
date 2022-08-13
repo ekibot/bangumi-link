@@ -1,37 +1,35 @@
 {
- "id": 81585,
- "node": [
-  {
-   "id": 81585,
-   "name": "カリメロ",
-   "nameCN": "卡里麦罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/be/81585_6uTM1.jpg",
-   "date": "1992-10-15",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 113658,
-   "name": "カリメロ",
-   "nameCN": "卡里麦罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/da/113658_O0Yh5.jpg",
-   "date": "2014-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 81585,
-   "dst": 113658
-  },
-  {
-   "relate": "前传",
-   "src": 113658,
-   "dst": 81585
-  }
- ]
+  "id": "81585",
+  "node": [
+    {
+      "id": 81585,
+      "name": "カリメロ",
+      "nameCN": "卡里麦罗",
+      "date": "1992-10-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113658,
+      "name": "カリメロ",
+      "nameCN": "卡里麦罗",
+      "date": "2014-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 81585,
+      "dst": 113658
+    },
+    {
+      "relateString": "前传",
+      "src": 113658,
+      "dst": 81585
+    }
+  ]
 }

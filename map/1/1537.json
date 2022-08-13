@@ -1,77 +1,73 @@
 {
- "id": 1537,
- "node": [
-  {
-   "id": 1537,
-   "name": "みんな大好き塊魂",
-   "nameCN": "人见人爱的块魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/a6/1537_FyrM3.jpg",
-   "date": "2005-07-07",
-   "nsfw": false,
-   "platform": "PS2",
-   "type": 4
-  },
-  {
-   "id": 2130,
-   "name": "僕の私の塊魂",
-   "nameCN": "我们的块魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/5d/2130_NLdxD.jpg",
-   "date": "2005-12-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PSP"
-  },
-  {
-   "id": 27884,
-   "name": "塊魂",
-   "nameCN": "块魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/d4/27884_HbHla.jpg",
-   "date": "2004-03-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 292860,
-   "name": "塊魂アンコール",
-   "nameCN": "块魂Encore",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/06/292860_z8MwU.jpg",
-   "date": "2018-12-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1537,
-   "dst": 2130
-  },
-  {
-   "relate": "前传",
-   "src": 1537,
-   "dst": 27884
-  },
-  {
-   "relate": "前传",
-   "src": 2130,
-   "dst": 1537
-  },
-  {
-   "relate": "续集",
-   "src": 27884,
-   "dst": 1537
-  },
-  {
-   "relate": "不同演绎",
-   "src": 27884,
-   "dst": 292860
-  },
-  {
-   "relate": "不同演绎",
-   "src": 292860,
-   "dst": 27884
-  }
- ]
+  "id": "1537",
+  "node": [
+    {
+      "id": 1537,
+      "name": "みんな大好き塊魂",
+      "nameCN": "人见人爱的块魂",
+      "date": "2005-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 2130,
+      "name": "僕の私の塊魂",
+      "nameCN": "我们的块魂",
+      "date": "2005-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 27884,
+      "name": "塊魂",
+      "nameCN": "块魂",
+      "date": "2004-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 292860,
+      "name": "塊魂アンコール",
+      "nameCN": "块魂Encore",
+      "date": "2018-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1537,
+      "dst": 2130
+    },
+    {
+      "relateString": "前传",
+      "src": 1537,
+      "dst": 27884
+    },
+    {
+      "relateString": "前传",
+      "src": 2130,
+      "dst": 1537
+    },
+    {
+      "relateString": "续集",
+      "src": 27884,
+      "dst": 1537
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 27884,
+      "dst": 292860
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 292860,
+      "dst": 27884
+    }
+  ]
 }

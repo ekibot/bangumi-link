@@ -1,57 +1,54 @@
 {
- "id": 172972,
- "node": [
-  {
-   "id": 172972,
-   "name": "立花登青春手控え",
-   "nameCN": "立花登・青春手记",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/07/172972_22C2C.jpg",
-   "date": "2016-05-13",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 207721,
-   "name": "立花登青春手控え２",
-   "nameCN": "立花登青春备忘录2",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/86/207721_99GZY.jpg",
-   "date": "2017-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 258923,
-   "name": "立花登青春手控え3",
-   "nameCN": "立花登青春备忘录 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/ef/258923_Z9J65.jpg",
-   "date": "2018-11-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 172972,
-   "dst": 207721
-  },
-  {
-   "relate": "前传",
-   "src": 207721,
-   "dst": 172972
-  },
-  {
-   "relate": "续集",
-   "src": 207721,
-   "dst": 258923
-  },
-  {
-   "relate": "前传",
-   "src": 258923,
-   "dst": 207721
-  }
- ]
+  "id": "172972",
+  "node": [
+    {
+      "id": 172972,
+      "name": "立花登青春手控え",
+      "nameCN": "立花登・青春手记",
+      "date": "2016-05-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 207721,
+      "name": "立花登青春手控え２",
+      "nameCN": "立花登青春备忘录2",
+      "date": "2017-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 258923,
+      "name": "立花登青春手控え3",
+      "nameCN": "立花登青春备忘录 3",
+      "date": "2018-11-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 172972,
+      "dst": 207721
+    },
+    {
+      "relateString": "前传",
+      "src": 207721,
+      "dst": 172972
+    },
+    {
+      "relateString": "续集",
+      "src": 207721,
+      "dst": 258923
+    },
+    {
+      "relateString": "前传",
+      "src": 258923,
+      "dst": 207721
+    }
+  ]
 }

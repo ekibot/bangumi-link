@@ -1,37 +1,35 @@
 {
- "id": 171891,
- "node": [
-  {
-   "id": 171891,
-   "name": "変 HEN 鈴木くんと佐藤くん",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/b6/171891_ii5L6.jpg",
-   "date": "1996-04-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 171898,
-   "name": "HEN ちずるちゃんとあずみちゃん",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/74/171898_N14Jd.jpg",
-   "date": "1996-05-25",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171891,
-   "dst": 171898
-  },
-  {
-   "relate": "前传",
-   "src": 171898,
-   "dst": 171891
-  }
- ]
+  "id": "171891",
+  "node": [
+    {
+      "id": 171891,
+      "name": "変 HEN 鈴木くんと佐藤くん",
+      "nameCN": "",
+      "date": "1996-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 171898,
+      "name": "HEN ちずるちゃんとあずみちゃん",
+      "nameCN": "",
+      "date": "1996-05-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171891,
+      "dst": 171898
+    },
+    {
+      "relateString": "前传",
+      "src": 171898,
+      "dst": 171891
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 74663,
- "node": [
-  {
-   "id": 74663,
-   "name": "蒼き鋼のアルペジオ -アルス・ノヴァ-",
-   "nameCN": "苍蓝钢铁的琶音",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/ce/74663_V1vk8.jpg",
-   "date": "2013-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 107099,
-   "name": "劇場版 蒼き鋼のアルペジオ -アルス・ノヴァ- DC",
-   "nameCN": "苍蓝钢铁的琶音 DC",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/ac/107099_3300D.jpg",
-   "date": "2015-01-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 107100,
-   "name": "劇場版 蒼き鋼のアルペジオ -アルス・ノヴァ- Cadenza",
-   "nameCN": "苍蓝钢铁的琶音 Cadenza",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/fa/107100_ucN2F.jpg",
-   "date": "2015-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 122767,
-   "name": "霧くまs",
-   "nameCN": "雾熊s",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/0b/122767_e5X23.jpg",
-   "date": "2014-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 74663,
-   "dst": 107099
-  },
-  {
-   "relate": "衍生",
-   "src": 74663,
-   "dst": 122767
-  },
-  {
-   "relate": "前传",
-   "src": 107099,
-   "dst": 74663
-  },
-  {
-   "relate": "续集",
-   "src": 107099,
-   "dst": 107100
-  },
-  {
-   "relate": "前传",
-   "src": 107100,
-   "dst": 107099
-  },
-  {
-   "relate": "主线故事",
-   "src": 122767,
-   "dst": 74663
-  }
- ]
+  "id": "74663",
+  "node": [
+    {
+      "id": 74663,
+      "name": "蒼き鋼のアルペジオ -アルス・ノヴァ-",
+      "nameCN": "苍蓝钢铁的琶音",
+      "date": "2013-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 107099,
+      "name": "劇場版 蒼き鋼のアルペジオ -アルス・ノヴァ- DC",
+      "nameCN": "苍蓝钢铁的琶音 DC",
+      "date": "2015-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 122767,
+      "name": "霧くまs",
+      "nameCN": "雾熊s",
+      "date": "2014-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 107100,
+      "name": "劇場版 蒼き鋼のアルペジオ -アルス・ノヴァ- Cadenza",
+      "nameCN": "苍蓝钢铁的琶音 Cadenza",
+      "date": "2015-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 74663,
+      "dst": 107099
+    },
+    {
+      "relateString": "衍生",
+      "src": 74663,
+      "dst": 122767
+    },
+    {
+      "relateString": "前传",
+      "src": 107099,
+      "dst": 74663
+    },
+    {
+      "relateString": "续集",
+      "src": 107099,
+      "dst": 107100
+    },
+    {
+      "relateString": "前传",
+      "src": 107100,
+      "dst": 107099
+    },
+    {
+      "relateString": "主线故事",
+      "src": 122767,
+      "dst": 74663
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 8747,
- "node": [
-  {
-   "id": 8747,
-   "name": "ONE PIECE ギガントバトル",
-   "nameCN": "海贼王：巨人战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/95/8747_qR0Qs.jpg",
-   "date": "2010-09-09",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 61251,
-   "name": "ONE PIECE ギガントバトル！2 新世界",
-   "nameCN": "海贼王：巨人战争2 新世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/a8/61251_35jc4.jpg",
-   "date": "2011-11-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 109104,
-   "name": "ONE PIECE 超グランドバトル！X",
-   "nameCN": "海贼王 超伟大战斗X",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/96/109104_Q5R48.jpg",
-   "date": "2014-11-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8747,
-   "dst": 61251
-  },
-  {
-   "relate": "前传",
-   "src": 61251,
-   "dst": 8747
-  },
-  {
-   "relate": "续集",
-   "src": 61251,
-   "dst": 109104
-  },
-  {
-   "relate": "前传",
-   "src": 109104,
-   "dst": 61251
-  }
- ]
+  "id": "8747",
+  "node": [
+    {
+      "id": 8747,
+      "name": "ONE PIECE ギガントバトル",
+      "nameCN": "海贼王：巨人战争",
+      "date": "2010-09-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 61251,
+      "name": "ONE PIECE ギガントバトル！2 新世界",
+      "nameCN": "海贼王：巨人战争2 新世界",
+      "date": "2011-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 109104,
+      "name": "ONE PIECE 超グランドバトル！X",
+      "nameCN": "海贼王 超伟大战斗X",
+      "date": "2014-11-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8747,
+      "dst": 61251
+    },
+    {
+      "relateString": "前传",
+      "src": 61251,
+      "dst": 8747
+    },
+    {
+      "relateString": "续集",
+      "src": 61251,
+      "dst": 109104
+    },
+    {
+      "relateString": "前传",
+      "src": 109104,
+      "dst": 61251
+    }
+  ]
 }

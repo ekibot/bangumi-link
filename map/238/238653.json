@@ -1,37 +1,33 @@
 {
- "id": 238653,
- "node": [
-  {
-   "id": 238653,
-   "name": "俺と蛙さんの異世界放浪記",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/04/238653_2WPO2.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 238664,
-   "name": "新・俺と蛙さんの異世界放浪記",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/4f/238664_EnRmR.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238653,
-   "dst": 238664
-  },
-  {
-   "relate": "前传",
-   "src": 238664,
-   "dst": 238653
-  }
- ]
+  "id": "238653",
+  "node": [
+    {
+      "id": 238653,
+      "name": "俺と蛙さんの異世界放浪記",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 238664,
+      "name": "新・俺と蛙さんの異世界放浪記",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238653,
+      "dst": 238664
+    },
+    {
+      "relateString": "前传",
+      "src": 238664,
+      "dst": 238653
+    }
+  ]
 }

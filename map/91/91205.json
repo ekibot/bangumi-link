@@ -1,57 +1,54 @@
 {
- "id": 91205,
- "node": [
-  {
-   "id": 91205,
-   "name": "ハイスコアガール",
-   "nameCN": "高分少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/bb/91205_WzBkF.jpg",
-   "date": "2018-07-13",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 262277,
-   "name": "ハイスコアガール  EXTRA STAGE",
-   "nameCN": "高分少女 EXTRA STAGE",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/82/262277_JHzXs.jpg",
-   "date": "2019-03-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 278569,
-   "name": "ハイスコアガールⅡ",
-   "nameCN": "高分少女 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/f7/278569_XOcJU.jpg",
-   "date": "2019-10-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91205,
-   "dst": 262277
-  },
-  {
-   "relate": "前传",
-   "src": 262277,
-   "dst": 91205
-  },
-  {
-   "relate": "续集",
-   "src": 262277,
-   "dst": 278569
-  },
-  {
-   "relate": "前传",
-   "src": 278569,
-   "dst": 262277
-  }
- ]
+  "id": "91205",
+  "node": [
+    {
+      "id": 91205,
+      "name": "ハイスコアガール",
+      "nameCN": "高分少女",
+      "date": "2018-07-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 262277,
+      "name": "ハイスコアガール  EXTRA STAGE",
+      "nameCN": "高分少女 EXTRA STAGE",
+      "date": "2019-03-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 278569,
+      "name": "ハイスコアガールⅡ",
+      "nameCN": "高分少女 第二季",
+      "date": "2019-10-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91205,
+      "dst": 262277
+    },
+    {
+      "relateString": "前传",
+      "src": 262277,
+      "dst": 91205
+    },
+    {
+      "relateString": "续集",
+      "src": 262277,
+      "dst": 278569
+    },
+    {
+      "relateString": "前传",
+      "src": 278569,
+      "dst": 262277
+    }
+  ]
 }

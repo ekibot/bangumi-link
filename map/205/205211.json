@@ -1,0 +1,33 @@
+{
+  "id": "205211",
+  "node": [
+    {
+      "id": 205211,
+      "name": "激战奇轮",
+      "nameCN": "激战奇轮",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 205212,
+      "name": "激战奇轮第二部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205211,
+      "dst": 205212
+    },
+    {
+      "relateString": "前传",
+      "src": 205212,
+      "dst": 205211
+    }
+  ]
+}

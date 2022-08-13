@@ -1,57 +1,54 @@
 {
- "id": 145151,
- "node": [
-  {
-   "id": 145151,
-   "name": "魔法のしっぽな 第三話",
-   "nameCN": "魔法的希珀娜 第三话",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/a1/145151_764Qt.jpg",
-   "date": "2003-01-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 145157,
-   "name": "魔法のしっぽな",
-   "nameCN": "魔法的希珀娜",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/ea/145157_IgxDV.jpg",
-   "date": "2002-03-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 145158,
-   "name": "魔法のしっぽな 〜第二話〜",
-   "nameCN": "魔法的希珀娜：第二话",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/3d/145158_U3V68.jpg",
-   "date": "2002-09-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 145151,
-   "dst": 145158
-  },
-  {
-   "relate": "续集",
-   "src": 145157,
-   "dst": 145158
-  },
-  {
-   "relate": "续集",
-   "src": 145158,
-   "dst": 145151
-  },
-  {
-   "relate": "前传",
-   "src": 145158,
-   "dst": 145157
-  }
- ]
+  "id": "145151",
+  "node": [
+    {
+      "id": 145151,
+      "name": "魔法のしっぽな 第三話",
+      "nameCN": "魔法的希珀娜 第三话",
+      "date": "2003-01-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 145158,
+      "name": "魔法のしっぽな 〜第二話〜",
+      "nameCN": "魔法的希珀娜：第二话",
+      "date": "2002-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 145157,
+      "name": "魔法のしっぽな",
+      "nameCN": "魔法的希珀娜",
+      "date": "2002-03-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 145151,
+      "dst": 145158
+    },
+    {
+      "relateString": "续集",
+      "src": 145157,
+      "dst": 145158
+    },
+    {
+      "relateString": "续集",
+      "src": 145158,
+      "dst": 145151
+    },
+    {
+      "relateString": "前传",
+      "src": 145158,
+      "dst": 145157
+    }
+  ]
 }

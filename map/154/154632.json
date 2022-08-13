@@ -1,37 +1,35 @@
 {
- "id": 154632,
- "node": [
-  {
-   "id": 154632,
-   "name": "もっと! ひねくれチェイサー",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/a6/154632_jp.jpg",
-   "date": "2015-04-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 154633,
-   "name": "ひねくれチェイサー",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/ba/154633_jp.jpg",
-   "date": "2014-05-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 154632,
-   "dst": 154633
-  },
-  {
-   "relate": "续集",
-   "src": 154633,
-   "dst": 154632
-  }
- ]
+  "id": "154632",
+  "node": [
+    {
+      "id": 154632,
+      "name": "もっと! ひねくれチェイサー",
+      "nameCN": "",
+      "date": "2015-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 154633,
+      "name": "ひねくれチェイサー",
+      "nameCN": "",
+      "date": "2014-05-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 154632,
+      "dst": 154633
+    },
+    {
+      "relateString": "续集",
+      "src": 154633,
+      "dst": 154632
+    }
+  ]
 }

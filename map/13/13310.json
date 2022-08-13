@@ -1,71 +1,67 @@
 {
- "id": 13310,
- "node": [
-  {
-   "id": 13310,
-   "name": "レアランドストーリー 少女の約定",
-   "nameCN": "兰岛物语：少女的约定",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/fc/13310_0B4bn.jpg",
-   "date": "2009-07-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 196982,
-   "name": "おてがるパズルシリーズ チリアの動物小屋",
-   "nameCN": "奇莉娅的动物小屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/0d/196982_4a4zg.jpg",
-   "date": "2009-06-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 277964,
-   "name": "蘭島物語2：奇滄的幻海",
-   "nameCN": "兰岛物语2：奇沧的幻海",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/2d/277964_uwXnV.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 283309,
-   "name": "レアランドストーリー 少女の約定 Remake",
-   "nameCN": "兰岛物语：少女的约定 Remake",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/5a/283309_yzpH8.jpg",
-   "date": "2019-07-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13310,
-   "dst": 277964
-  },
-  {
-   "relate": "不同演绎",
-   "src": 13310,
-   "dst": 283309
-  },
-  {
-   "relate": "主线故事",
-   "src": 196982,
-   "dst": 13310
-  },
-  {
-   "relate": "前传",
-   "src": 277964,
-   "dst": 13310
-  },
-  {
-   "relate": "不同演绎",
-   "src": 283309,
-   "dst": 13310
-  }
- ]
+  "id": "13310",
+  "node": [
+    {
+      "id": 13310,
+      "name": "レアランドストーリー 少女の約定",
+      "nameCN": "兰岛物语：少女的约定",
+      "date": "2009-07-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 277964,
+      "name": "蘭島物語2：奇滄的幻海",
+      "nameCN": "兰岛物语2：奇沧的幻海",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 283309,
+      "name": "レアランドストーリー 少女の約定 Remake",
+      "nameCN": "兰岛物语：少女的约定 Remake",
+      "date": "2019-07-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196982,
+      "name": "おてがるパズルシリーズ チリアの動物小屋",
+      "nameCN": "奇莉娅的动物小屋",
+      "date": "2009-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13310,
+      "dst": 277964
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 13310,
+      "dst": 283309
+    },
+    {
+      "relateString": "主线故事",
+      "src": 196982,
+      "dst": 13310
+    },
+    {
+      "relateString": "前传",
+      "src": 277964,
+      "dst": 13310
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 283309,
+      "dst": 13310
+    }
+  ]
 }

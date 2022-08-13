@@ -1,37 +1,35 @@
 {
- "id": 214474,
- "node": [
-  {
-   "id": 214474,
-   "name": "辱",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/e2/214474_74rq7.jpg",
-   "date": "2016-12-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 238378,
-   "name": "辱 ―断罪―",
-   "nameCN": "辱 -断罪-",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/00/238378_oqlQ7.jpg",
-   "date": "2017-08-18",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 214474,
-   "dst": 238378
-  },
-  {
-   "relate": "前传",
-   "src": 238378,
-   "dst": 214474
-  }
- ]
+  "id": "214474",
+  "node": [
+    {
+      "id": 214474,
+      "name": "辱",
+      "nameCN": "",
+      "date": "2016-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 238378,
+      "name": "辱 ―断罪―",
+      "nameCN": "辱 -断罪-",
+      "date": "2017-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 214474,
+      "dst": 238378
+    },
+    {
+      "relateString": "前传",
+      "src": 238378,
+      "dst": 214474
+    }
+  ]
 }

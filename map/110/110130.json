@@ -1,37 +1,35 @@
 {
- "id": 110130,
- "node": [
-  {
-   "id": 110130,
-   "name": "マテリアル・パズル",
-   "date": "2002-06-22",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/1a/110130_z9au9.jpg",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 274844,
-   "name": "マテリアル・パズル~神無き世界の魔法使い~",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/48/274844_zIgah.jpg",
-   "date": "2019-02-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 110130,
-   "dst": 274844
-  },
-  {
-   "relate": "前传",
-   "src": 274844,
-   "dst": 110130
-  }
- ]
+  "id": "110130",
+  "node": [
+    {
+      "id": 110130,
+      "name": "マテリアル・パズル",
+      "nameCN": "",
+      "date": "2002-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 274844,
+      "name": "マテリアル・パズル~神無き世界の魔法使い~",
+      "nameCN": "",
+      "date": "2019-02-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 110130,
+      "dst": 274844
+    },
+    {
+      "relateString": "前传",
+      "src": 274844,
+      "dst": 110130
+    }
+  ]
 }

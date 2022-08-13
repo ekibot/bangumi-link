@@ -1,43 +1,33 @@
 {
- "id": 127505,
- "node": [
-  {
-   "id": 127505,
-   "name": "乙女は祈る ひみつのドミトリ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/88/127505_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 222475,
-   "name": "ひみつの階段",
-   "nameCN": "秘密的楼梯",
-   "image": "//lain.bgm.tv/pic/cover/m/ac/b5/222475_F1TGe.jpg"
-  },
-  {
-   "id": 222478,
-   "name": "ひみつの階段",
-   "nameCN": "秘密的楼梯（POPLAR漫画 Azone）",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/4b/222478_g73gE.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 127505,
-   "dst": 222478
-  },
-  {
-   "relate": "续集",
-   "src": 222478,
-   "dst": 127505
-  }
- ]
+  "id": "127505",
+  "node": [
+    {
+      "id": 127505,
+      "name": "乙女は祈る ひみつのドミトリ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 222478,
+      "name": "ひみつの階段",
+      "nameCN": "秘密的楼梯（POPLAR漫画 Azone）",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 127505,
+      "dst": 222478
+    },
+    {
+      "relateString": "续集",
+      "src": 222478,
+      "dst": 127505
+    }
+  ]
 }

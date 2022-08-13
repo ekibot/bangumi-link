@@ -1,37 +1,35 @@
 {
- "id": 161791,
- "node": [
-  {
-   "id": 161791,
-   "name": "EXCAVE",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/9a/161791_5Gguk.jpg",
-   "date": "2015-02-19",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 161792,
-   "name": "EXCAVE Ⅱ ~Wizard of the Underworld~",
-   "nameCN": "Excave2 异界魔导师",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/74/161792_YB1Ma.jpg",
-   "date": "2015-04-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161791,
-   "dst": 161792
-  },
-  {
-   "relate": "前传",
-   "src": 161792,
-   "dst": 161791
-  }
- ]
+  "id": "161791",
+  "node": [
+    {
+      "id": 161791,
+      "name": "EXCAVE",
+      "nameCN": "",
+      "date": "2015-02-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 161792,
+      "name": "EXCAVE Ⅱ ~Wizard of the Underworld~",
+      "nameCN": "Excave2 异界魔导师",
+      "date": "2015-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161791,
+      "dst": 161792
+    },
+    {
+      "relateString": "前传",
+      "src": 161792,
+      "dst": 161791
+    }
+  ]
 }

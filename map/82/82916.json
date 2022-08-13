@@ -1,57 +1,54 @@
 {
- "id": 82916,
- "node": [
-  {
-   "id": 82916,
-   "name": "ヒート",
-   "nameCN": "最真的爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/f2/82916_jp.jpg",
-   "date": "2005-03-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 82922,
-   "name": "ノット・ラブ",
-   "nameCN": "没有人能像你",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/5f/82922_jp.jpg",
-   "date": "2003-09-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 82927,
-   "name": "アー・ユー・エネミー？",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/7d/82927_thmbH.jpg",
-   "date": "2001-12-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 82916,
-   "dst": 82922
-  },
-  {
-   "relate": "续集",
-   "src": 82922,
-   "dst": 82916
-  },
-  {
-   "relate": "前传",
-   "src": 82922,
-   "dst": 82927
-  },
-  {
-   "relate": "续集",
-   "src": 82927,
-   "dst": 82922
-  }
- ]
+  "id": "82916",
+  "node": [
+    {
+      "id": 82916,
+      "name": "ヒート",
+      "nameCN": "最真的爱",
+      "date": "2005-03-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82922,
+      "name": "ノット・ラブ",
+      "nameCN": "没有人能像你",
+      "date": "2003-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82927,
+      "name": "アー・ユー・エネミー？",
+      "nameCN": "",
+      "date": "2001-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 82916,
+      "dst": 82922
+    },
+    {
+      "relateString": "续集",
+      "src": 82922,
+      "dst": 82916
+    },
+    {
+      "relateString": "前传",
+      "src": 82922,
+      "dst": 82927
+    },
+    {
+      "relateString": "续集",
+      "src": 82927,
+      "dst": 82922
+    }
+  ]
 }

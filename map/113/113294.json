@@ -1,37 +1,33 @@
 {
- "id": 113294,
- "node": [
-  {
-   "id": 113294,
-   "name": "シューピアリア",
-   "nameCN": "Superior 魔王爱勇者",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/b9/113294_lDXy4.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 113304,
-   "name": "シューピアリア・クロス",
-   "nameCN": "魔王爱勇者Cross",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/a1/113304_rpjZV.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113294,
-   "dst": 113304
-  },
-  {
-   "relate": "前传",
-   "src": 113304,
-   "dst": 113294
-  }
- ]
+  "id": "113294",
+  "node": [
+    {
+      "id": 113294,
+      "name": "シューピアリア",
+      "nameCN": "Superior 魔王爱勇者",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 113304,
+      "name": "シューピアリア・クロス",
+      "nameCN": "魔王爱勇者Cross",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113294,
+      "dst": 113304
+    },
+    {
+      "relateString": "前传",
+      "src": 113304,
+      "dst": 113294
+    }
+  ]
 }

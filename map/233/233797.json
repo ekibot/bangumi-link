@@ -1,37 +1,35 @@
 {
- "id": 233797,
- "node": [
-  {
-   "id": 233797,
-   "name": "Unikitty!",
-   "nameCN": "独角猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/f8/233797_oxCLY.jpg",
-   "date": "2017-10-27",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 279268,
-   "name": "Unikitty! Season 2",
-   "nameCN": "独角猫 第二季",
-   "date": "2019-02-04",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233797,
-   "dst": 279268
-  },
-  {
-   "relate": "前传",
-   "src": 279268,
-   "dst": 233797
-  }
- ]
+  "id": "233797",
+  "node": [
+    {
+      "id": 233797,
+      "name": "Unikitty!",
+      "nameCN": "独角猫",
+      "date": "2017-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 279268,
+      "name": "Unikitty! Season 2",
+      "nameCN": "独角猫 第二季",
+      "date": "2019-02-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233797,
+      "dst": 279268
+    },
+    {
+      "relateString": "前传",
+      "src": 279268,
+      "dst": 233797
+    }
+  ]
 }

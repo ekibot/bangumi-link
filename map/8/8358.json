@@ -1,57 +1,53 @@
 {
- "id": 8358,
- "node": [
-  {
-   "id": 8358,
-   "name": "3×3EYES",
-   "nameCN": "三只眼",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/71/8358_8wHK6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 144342,
-   "name": "3×3EYES 幻獣の森の遭難者",
-   "nameCN": "3×3EYES 幻兽之森的遇难者",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/33/144342_yjySF.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 280455,
-   "name": "3×3EYES 鬼籍の闇の契約者",
-   "nameCN": "3×3EYES 鬼籍之暗的契约者",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/53/280455_Ij580.jpg",
-   "date": "2017-06-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8358,
-   "dst": 144342
-  },
-  {
-   "relate": "前传",
-   "src": 144342,
-   "dst": 8358
-  },
-  {
-   "relate": "续集",
-   "src": 144342,
-   "dst": 280455
-  },
-  {
-   "relate": "前传",
-   "src": 280455,
-   "dst": 144342
-  }
- ]
+  "id": "8358",
+  "node": [
+    {
+      "id": 8358,
+      "name": "3×3EYES",
+      "nameCN": "三只眼",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 144342,
+      "name": "3×3EYES 幻獣の森の遭難者",
+      "nameCN": "3×3EYES 幻兽之森的遇难者",
+      "date": "2014-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 280455,
+      "name": "3×3EYES 鬼籍の闇の契約者",
+      "nameCN": "3×3EYES 鬼籍之暗的契约者",
+      "date": "2017-06-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8358,
+      "dst": 144342
+    },
+    {
+      "relateString": "前传",
+      "src": 144342,
+      "dst": 8358
+    },
+    {
+      "relateString": "续集",
+      "src": 144342,
+      "dst": 280455
+    },
+    {
+      "relateString": "前传",
+      "src": 280455,
+      "dst": 144342
+    }
+  ]
 }

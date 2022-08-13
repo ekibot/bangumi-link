@@ -1,37 +1,35 @@
 {
- "id": 76880,
- "node": [
-  {
-   "id": 76880,
-   "name": "Sleepy Hollow (Season 1)",
-   "nameCN": "断头谷 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/2b/76880_1Us13.jpg",
-   "date": "2013-09-16",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 85341,
-   "name": "Sleepy Hollow (Season 2)",
-   "nameCN": "断头谷 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/db/85341_4pEbg.jpg",
-   "date": "2014-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76880,
-   "dst": 85341
-  },
-  {
-   "relate": "前传",
-   "src": 85341,
-   "dst": 76880
-  }
- ]
+  "id": "76880",
+  "node": [
+    {
+      "id": 76880,
+      "name": "Sleepy Hollow (Season 1)",
+      "nameCN": "断头谷 （第一季）",
+      "date": "2013-09-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 85341,
+      "name": "Sleepy Hollow (Season 2)",
+      "nameCN": "断头谷 （第二季）",
+      "date": "2014-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76880,
+      "dst": 85341
+    },
+    {
+      "relateString": "前传",
+      "src": 85341,
+      "dst": 76880
+    }
+  ]
 }

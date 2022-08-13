@@ -1,37 +1,35 @@
 {
- "id": 237796,
- "node": [
-  {
-   "id": 237796,
-   "name": "サムライボーイフレンド",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/9d/237796_GK6Z1.jpg",
-   "date": "2016-02-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 237797,
-   "name": "サムライボーイフレンド 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/0f/237797_V226z.jpg",
-   "date": "2017-04-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 237796,
-   "dst": 237797
-  },
-  {
-   "relate": "前传",
-   "src": 237797,
-   "dst": 237796
-  }
- ]
+  "id": "237796",
+  "node": [
+    {
+      "id": 237796,
+      "name": "サムライボーイフレンド",
+      "nameCN": "",
+      "date": "2016-02-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237797,
+      "name": "サムライボーイフレンド 2",
+      "nameCN": "",
+      "date": "2017-04-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 237796,
+      "dst": 237797
+    },
+    {
+      "relateString": "前传",
+      "src": 237797,
+      "dst": 237796
+    }
+  ]
 }

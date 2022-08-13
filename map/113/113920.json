@@ -1,37 +1,35 @@
 {
- "id": 113920,
- "node": [
-  {
-   "id": 113920,
-   "name": "黒蝶のサイケデリカ",
-   "nameCN": "黑蝶幻境",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/3f/113920_4DA4H.jpg",
-   "date": "2015-01-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 144084,
-   "name": "灰鷹のサイケデリカ",
-   "nameCN": "灰鹰幻境",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/e7/144084_ZWs3S.jpg",
-   "date": "2016-09-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113920,
-   "dst": 144084
-  },
-  {
-   "relate": "前传",
-   "src": 144084,
-   "dst": 113920
-  }
- ]
+  "id": "113920",
+  "node": [
+    {
+      "id": 113920,
+      "name": "黒蝶のサイケデリカ",
+      "nameCN": "黑蝶幻境",
+      "date": "2015-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144084,
+      "name": "灰鷹のサイケデリカ",
+      "nameCN": "灰鹰幻境",
+      "date": "2016-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113920,
+      "dst": 144084
+    },
+    {
+      "relateString": "前传",
+      "src": 144084,
+      "dst": 113920
+    }
+  ]
 }

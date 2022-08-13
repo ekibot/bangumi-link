@@ -1,37 +1,35 @@
 {
- "id": 60188,
- "node": [
-  {
-   "id": 60188,
-   "name": "冒険王ビィト",
-   "nameCN": "冒险王比特",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/3a/60188_Yii1v.jpg",
-   "date": "2004-09-30",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 195012,
-   "name": "冒険王ビィト エクセリオン",
-   "nameCN": "冒险王比特EX",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/ef/195012_jlZq4.jpg",
-   "date": "2005-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60188,
-   "dst": 195012
-  },
-  {
-   "relate": "前传",
-   "src": 195012,
-   "dst": 60188
-  }
- ]
+  "id": "60188",
+  "node": [
+    {
+      "id": 60188,
+      "name": "冒険王ビィト",
+      "nameCN": "冒险王比特",
+      "date": "2004-09-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 195012,
+      "name": "冒険王ビィト エクセリオン",
+      "nameCN": "冒险王比特EX",
+      "date": "2005-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60188,
+      "dst": 195012
+    },
+    {
+      "relateString": "前传",
+      "src": 195012,
+      "dst": 60188
+    }
+  ]
 }

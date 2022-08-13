@@ -1,37 +1,34 @@
 {
- "id": 106144,
- "node": [
-  {
-   "id": 106144,
-   "name": "我的师父姜子牙",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/e3/106144_a3xvV.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 291286,
-   "name": "姜子牙",
-   "nameCN": "姜子牙",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/2c/291286_qGcCX.jpg",
-   "date": "2020-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 106144,
-   "dst": 291286
-  },
-  {
-   "relate": "不同演绎",
-   "src": 291286,
-   "dst": 106144
-  }
- ]
+  "id": "106144",
+  "node": [
+    {
+      "id": 106144,
+      "name": "我的师父姜子牙",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 291286,
+      "name": "姜子牙",
+      "nameCN": "姜子牙",
+      "date": "2020-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 106144,
+      "dst": 291286
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 291286,
+      "dst": 106144
+    }
+  ]
 }

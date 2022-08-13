@@ -1,35 +1,35 @@
 {
- "id": 11160,
- "node": [
-  {
-   "id": 11160,
-   "name": "超昂天使エスカレイヤー",
-   "nameCN": "超昂天使",
-   "image": "/img/no_icon_subject.png",
-   "date": "2002-08-02"
-  },
-  {
-   "id": 102851,
-   "name": "超昂天使エスカレイヤー・リブート",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 316611,
-   "name": "超昂大戦 エスカレーションヒロインズ",
-   "nameCN": "超昂大战",
-   "image": "//lain.bgm.tv/pic/cover/m/d5/50/316611_66h26.jpg"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 11160,
-   "dst": 102851
-  },
-  {
-   "relate": "不同演绎",
-   "src": 316611,
-   "dst": 11160
-  }
- ]
+  "id": "11160",
+  "node": [
+    {
+      "id": 11160,
+      "name": "超昂天使エスカレイヤー",
+      "nameCN": "超昂天使",
+      "date": "2002-08-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 102851,
+      "name": "超昂天使エスカレイヤー・リブート",
+      "nameCN": "",
+      "date": "2014-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 11160,
+      "dst": 102851
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 102851,
+      "dst": 11160
+    }
+  ]
 }

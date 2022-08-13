@@ -1,37 +1,35 @@
 {
- "id": 378789,
- "node": [
-  {
-   "id": 378789,
-   "name": "ねこ物件",
-   "nameCN": "猫咪合租屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/33/378789_u649D.jpg",
-   "date": "2022-04-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 394992,
-   "name": "劇場版 ねこ物件",
-   "nameCN": "剧场版 猫咪合租屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/43/394992_6GB4x.jpg",
-   "type": 6,
-   "date": "2022-08-06",
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 378789,
-   "dst": 394992
-  },
-  {
-   "relate": "前传",
-   "src": 394992,
-   "dst": 378789
-  }
- ]
+  "id": "378789",
+  "node": [
+    {
+      "id": 378789,
+      "name": "ねこ物件",
+      "nameCN": "猫咪合租屋",
+      "date": "2022-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 394992,
+      "name": "劇場版 ねこ物件",
+      "nameCN": "剧场版 猫咪合租屋",
+      "date": "2022-08-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 378789,
+      "dst": 394992
+    },
+    {
+      "relateString": "前传",
+      "src": 394992,
+      "dst": 378789
+    }
+  ]
 }

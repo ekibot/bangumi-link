@@ -1,57 +1,54 @@
 {
- "id": 8023,
- "node": [
-  {
-   "id": 8023,
-   "name": "電車でGO！特別編 ～復活！昭和の山手線～",
-   "nameCN": "电车GO！特别篇：复活！昭和的山手线",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/cd/8023_hjNjg.jpg",
-   "date": "2010-07-22",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 101295,
-   "name": "Mobile Train Simulator + 电车でGO！东京急行篇",
-   "nameCN": "移动火车模拟 电车GO！东京急行篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/7a/101295_Y9n90.jpg",
-   "date": "2005-02-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 101296,
-   "name": "Mobile Train Simulator 京成・都営浅草・京急線",
-   "nameCN": "移动火车模拟：京成、都営浅草、京急线",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/36/101296_iZ5i5.jpg",
-   "date": "2006-02-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 8023,
-   "dst": 101295
-  },
-  {
-   "relate": "相同世界观",
-   "src": 101295,
-   "dst": 8023
-  },
-  {
-   "relate": "相同世界观",
-   "src": 101295,
-   "dst": 101296
-  },
-  {
-   "relate": "相同世界观",
-   "src": 101296,
-   "dst": 101295
-  }
- ]
+  "id": "8023",
+  "node": [
+    {
+      "id": 8023,
+      "name": "電車でGO！特別編 ～復活！昭和の山手線～",
+      "nameCN": "电车GO！特别篇：复活！昭和的山手线",
+      "date": "2010-07-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 101295,
+      "name": "Mobile Train Simulator + 电车でGO！东京急行篇",
+      "nameCN": "移动火车模拟 电车GO！东京急行篇",
+      "date": "2005-02-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 101296,
+      "name": "Mobile Train Simulator 京成・都営浅草・京急線",
+      "nameCN": "移动火车模拟：京成、都営浅草、京急线",
+      "date": "2006-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 8023,
+      "dst": 101295
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 101295,
+      "dst": 8023
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 101295,
+      "dst": 101296
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 101296,
+      "dst": 101295
+    }
+  ]
 }

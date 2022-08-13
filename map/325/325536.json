@@ -1,34 +1,35 @@
 {
- "id": 325536,
- "node": [
-  {
-   "id": 325536,
-   "name": "坠入苍蓝色的深渊",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/eb/325536_fSxsY.jpg",
-   "date": "2014-08-08",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 325537,
-   "name": "炽焰战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/fc/325537_wT1YT.jpg",
-   "date": "2017-06-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 325536,
-   "dst": 325537
-  },
-  {
-   "relate": "续集",
-   "src": 325537,
-   "dst": 325536
-  }
- ]
+  "id": "325536",
+  "node": [
+    {
+      "id": 325536,
+      "name": "坠入苍蓝色的深渊",
+      "nameCN": "",
+      "date": "2014-08-08",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 325537,
+      "name": "炽焰战记",
+      "nameCN": "",
+      "date": "2017-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 325536,
+      "dst": 325537
+    },
+    {
+      "relateString": "续集",
+      "src": 325537,
+      "dst": 325536
+    }
+  ]
 }

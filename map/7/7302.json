@@ -1,0 +1,54 @@
+{
+  "id": "7302",
+  "node": [
+    {
+      "id": 7302,
+      "name": "Little Britain Series 1",
+      "nameCN": "小不列颠 第一季",
+      "date": "2003-09-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 7303,
+      "name": "Little Britain Series 2",
+      "nameCN": "小不列颠 第二季",
+      "date": "2004-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 7304,
+      "name": "Little Britain Series 3",
+      "nameCN": "小不列颠 第三季",
+      "date": "2005-11-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7302,
+      "dst": 7303
+    },
+    {
+      "relateString": "前传",
+      "src": 7303,
+      "dst": 7302
+    },
+    {
+      "relateString": "续集",
+      "src": 7303,
+      "dst": 7304
+    },
+    {
+      "relateString": "前传",
+      "src": 7304,
+      "dst": 7303
+    }
+  ]
+}

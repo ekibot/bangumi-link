@@ -1,37 +1,35 @@
 {
- "id": 87855,
- "node": [
-  {
-   "id": 87855,
-   "name": "Take Over Zone 1",
-   "nameCN": "Take Over Zone 爱情接力区 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/28/87855_jp.jpg",
-   "date": "2009-09-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 87856,
-   "name": "Take Over Zone 2",
-   "nameCN": "Take Over Zone 爱情接力区 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/a7/87856_jp.jpg",
-   "date": "2010-09-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87855,
-   "dst": 87856
-  },
-  {
-   "relate": "前传",
-   "src": 87856,
-   "dst": 87855
-  }
- ]
+  "id": "87855",
+  "node": [
+    {
+      "id": 87855,
+      "name": "Take Over Zone 1",
+      "nameCN": "Take Over Zone 爱情接力区 1",
+      "date": "2009-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 87856,
+      "name": "Take Over Zone 2",
+      "nameCN": "Take Over Zone 爱情接力区 2",
+      "date": "2010-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87855,
+      "dst": 87856
+    },
+    {
+      "relateString": "前传",
+      "src": 87856,
+      "dst": 87855
+    }
+  ]
 }

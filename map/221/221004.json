@@ -1,28 +1,30 @@
 {
- "id": 221004,
- "node": [
-  {
-   "id": 221004,
-   "name": "壊葬のメロディア",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/31/221004_58z5i.jpg",
-   "date": "2016-12-04",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 221008,
-   "name": "奏葬のラプソディア",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/8e/221008_J0487.jpg",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 221004,
-   "dst": 221008
-  }
- ]
+  "id": "221004",
+  "node": [
+    {
+      "id": 221004,
+      "name": "壊葬のメロディア",
+      "nameCN": "",
+      "date": "2016-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 221008,
+      "name": "奏葬のラプソディア",
+      "nameCN": "",
+      "date": "2014-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 221004,
+      "dst": 221008
+    }
+  ]
 }

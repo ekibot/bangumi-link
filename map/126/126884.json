@@ -1,28 +1,30 @@
 {
- "id": 126884,
- "node": [
-  {
-   "id": 126884,
-   "name": "ラブライブ! コミックアンソロジー",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/46/126884_jp.jpg",
-   "date": "2013-06-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 126885,
-   "name": "ラブライブ! コミックアンソロジー (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/9d/126885_jp.jpg",
-   "nameCN": "",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126884,
-   "dst": 126885
-  }
- ]
+  "id": "126884",
+  "node": [
+    {
+      "id": 126884,
+      "name": "ラブライブ! コミックアンソロジー",
+      "nameCN": "",
+      "date": "2013-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 126885,
+      "name": "ラブライブ! コミックアンソロジー (2)",
+      "nameCN": "",
+      "date": "2014-06-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126884,
+      "dst": 126885
+    }
+  ]
 }

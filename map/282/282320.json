@@ -1,37 +1,35 @@
 {
- "id": 282320,
- "node": [
-  {
-   "id": 282320,
-   "name": "よろずの候 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/e0/282320_hXgX3.jpg",
-   "date": "2018-10-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 302610,
-   "name": "よろずの候 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/41/302610_JJl52.jpg",
-   "date": "2019-07-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 282320,
-   "dst": 302610
-  },
-  {
-   "relate": "前传",
-   "src": 302610,
-   "dst": 282320
-  }
- ]
+  "id": "282320",
+  "node": [
+    {
+      "id": 282320,
+      "name": "よろずの候 (1)",
+      "nameCN": "",
+      "date": "2018-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 302610,
+      "name": "よろずの候 (2)",
+      "nameCN": "",
+      "date": "2019-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 282320,
+      "dst": 302610
+    },
+    {
+      "relateString": "前传",
+      "src": 302610,
+      "dst": 282320
+    }
+  ]
 }

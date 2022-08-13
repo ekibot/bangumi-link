@@ -1,37 +1,35 @@
 {
- "id": 10182,
- "node": [
-  {
-   "id": 10182,
-   "name": "まもって守護月天!",
-   "nameCN": "守护月天",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/47/10182_llNIH.jpg",
-   "date": "1998-10-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 207622,
-   "name": "伝心 まもって守護月天!",
-   "nameCN": "守护月天",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/38/207622_KWaLc.jpg",
-   "date": "2000-06-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 10182,
-   "dst": 207622
-  },
-  {
-   "relate": "不同演绎",
-   "src": 207622,
-   "dst": 10182
-  }
- ]
+  "id": "10182",
+  "node": [
+    {
+      "id": 10182,
+      "name": "まもって守護月天!",
+      "nameCN": "守护月天",
+      "date": "1998-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 207622,
+      "name": "伝心 まもって守護月天!",
+      "nameCN": "守护月天",
+      "date": "2000-06-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 10182,
+      "dst": 207622
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 207622,
+      "dst": 10182
+    }
+  ]
 }

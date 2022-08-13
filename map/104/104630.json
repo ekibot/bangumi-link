@@ -1,37 +1,33 @@
 {
- "id": 104630,
- "node": [
-  {
-   "id": 104630,
-   "name": "新☆だぁ! だぁ! だぁ!",
-   "nameCN": "新☆Da!Da!Da!",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/36/104630_rMTvv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 104631,
-   "name": "だぁ!だぁ!だぁ!",
-   "nameCN": "Da!Da!Da!",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/b1/104631_mK2g2.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 104630,
-   "dst": 104631
-  },
-  {
-   "relate": "续集",
-   "src": 104631,
-   "dst": 104630
-  }
- ]
+  "id": "104630",
+  "node": [
+    {
+      "id": 104630,
+      "name": "新☆だぁ! だぁ! だぁ!",
+      "nameCN": "新☆Da!Da!Da!",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 104631,
+      "name": "だぁ!だぁ!だぁ!",
+      "nameCN": "Da!Da!Da!",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 104630,
+      "dst": 104631
+    },
+    {
+      "relateString": "续集",
+      "src": 104631,
+      "dst": 104630
+    }
+  ]
 }

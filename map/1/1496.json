@@ -1,40 +1,44 @@
 {
- "id": 1496,
- "node": [
-  {
-   "id": 1496,
-   "name": "Lamento -BEYOND THE VOID-",
-   "nameCN": "哀歌-虚无的彼方-",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/15/1496_7gu22.jpg",
-   "date": "2007-04-27",
-   "type": 4
-  },
-  {
-   "id": 62420,
-   "name": "Lamento -BEYOND THE VOID- expiatio",
-   "nameCN": "忏悔录",
-   "image": "//lain.bgm.tv/pic/cover/m/36/81/62420_UU44Y.jpg"
-  },
-  {
-   "id": 376383,
-   "name": "Lamento",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/58/376383_Y0ah2.jpg",
-   "date": "2008-04-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 1496,
-   "dst": 62420
-  },
-  {
-   "relate": "不同演绎",
-   "src": 376383,
-   "dst": 1496
-  }
- ]
+  "id": "1496",
+  "node": [
+    {
+      "id": 1496,
+      "name": "Lamento -BEYOND THE VOID-",
+      "nameCN": "哀歌-虚无的彼方-",
+      "date": "2007-04-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 62420,
+      "name": "Lamento -BEYOND THE VOID- expiatio",
+      "nameCN": "忏悔录",
+      "date": "2009-04-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 376383,
+      "name": "Lamento",
+      "nameCN": "",
+      "date": "2008-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 1496,
+      "dst": 62420
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 376383,
+      "dst": 1496
+    }
+  ]
 }

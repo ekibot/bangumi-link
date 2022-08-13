@@ -1,37 +1,34 @@
 {
- "id": 1176,
- "node": [
-  {
-   "id": 1176,
-   "name": "東方香霖堂 ～ Curiosities of Lotus Asia.",
-   "nameCN": "东方求闻史纪 ～ Perfect Memento in Strict Sense.",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/d8/1176_n82gZ.jpg",
-   "date": "2010-09-30",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 148744,
-   "name": "東方外來韋編 Strange Creators of Outer World.",
-   "nameCN": "东方外来韦编 Strange Creators of Outer World.",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/98/148744_m3Aav.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1176,
-   "dst": 148744
-  },
-  {
-   "relate": "前传",
-   "src": 148744,
-   "dst": 1176
-  }
- ]
+  "id": "1176",
+  "node": [
+    {
+      "id": 1176,
+      "name": "東方香霖堂 ～ Curiosities of Lotus Asia.",
+      "nameCN": "东方求闻史纪 ～ Perfect Memento in Strict Sense.",
+      "date": "2010-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 148744,
+      "name": "東方外來韋編 Strange Creators of Outer World.",
+      "nameCN": "东方外来韦编 Strange Creators of Outer World.",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1176,
+      "dst": 148744
+    },
+    {
+      "relateString": "前传",
+      "src": 148744,
+      "dst": 1176
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 161768,
- "node": [
-  {
-   "id": 161768,
-   "name": "Battlefleet Gothic: Armada",
-   "nameCN": "哥特舰队：阿玛达",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/cc/161768_N84OG.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 270738,
-   "name": "Battlefleet Gothic: Armada 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/83/270738_DZx4t.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161768,
-   "dst": 270738
-  },
-  {
-   "relate": "前传",
-   "src": 270738,
-   "dst": 161768
-  }
- ]
+  "id": "161768",
+  "node": [
+    {
+      "id": 161768,
+      "name": "Battlefleet Gothic: Armada",
+      "nameCN": "哥特舰队：阿玛达",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 270738,
+      "name": "Battlefleet Gothic: Armada 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161768,
+      "dst": 270738
+    },
+    {
+      "relateString": "前传",
+      "src": 270738,
+      "dst": 161768
+    }
+  ]
 }

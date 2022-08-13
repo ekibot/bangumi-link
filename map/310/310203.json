@@ -1,37 +1,35 @@
 {
- "id": 310203,
- "node": [
-  {
-   "id": 310203,
-   "name": "天下四国シリーズ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/4e/310203_HCQrz.jpg",
-   "date": "2017-04-04",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 382064,
-   "name": "異邦の使者 南天の神々",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/db/382064_cmHu3.jpg",
-   "type": 1,
-   "date": "2022-06-15",
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 310203,
-   "dst": 382064
-  },
-  {
-   "relate": "主线故事",
-   "src": 382064,
-   "dst": 310203
-  }
- ]
+  "id": "310203",
+  "node": [
+    {
+      "id": 310203,
+      "name": "天下四国シリーズ",
+      "nameCN": "",
+      "date": "2017-04-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 382064,
+      "name": "異邦の使者 南天の神々",
+      "nameCN": "",
+      "date": "2022-06-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 310203,
+      "dst": 382064
+    },
+    {
+      "relateString": "主线故事",
+      "src": 382064,
+      "dst": 310203
+    }
+  ]
 }

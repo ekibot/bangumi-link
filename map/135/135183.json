@@ -1,97 +1,92 @@
 {
- "id": 135183,
- "node": [
-  {
-   "id": 135183,
-   "name": "Shantae and the Pirate's Curse",
-   "nameCN": "桑塔与海盗的诅咒",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/13/135183_5ZT1M.jpg",
-   "date": "2014-10-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 186151,
-   "name": "Shantae: Half-Genie Hero",
-   "nameCN": "桑塔：半精灵英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/d5/186151_qqqkH.jpg",
-   "date": "2016-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216518,
-   "name": "Shantae: Risky's Revenge",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/c2/216518_1whPQ.jpg",
-   "date": "2010-10-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 229784,
-   "name": "Shantae",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/48/229784_PhzRS.jpg",
-   "date": "2002-06-02",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 289252,
-   "name": "Shantae and the Seven Sirens",
-   "nameCN": "桑塔与七赛莲",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/41/289252_oLT1b.jpg",
-   "date": "2020-05-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135183,
-   "dst": 186151
-  },
-  {
-   "relate": "前传",
-   "src": 135183,
-   "dst": 216518
-  },
-  {
-   "relate": "前传",
-   "src": 186151,
-   "dst": 135183
-  },
-  {
-   "relate": "续集",
-   "src": 186151,
-   "dst": 289252
-  },
-  {
-   "relate": "续集",
-   "src": 216518,
-   "dst": 135183
-  },
-  {
-   "relate": "前传",
-   "src": 216518,
-   "dst": 229784
-  },
-  {
-   "relate": "续集",
-   "src": 229784,
-   "dst": 216518
-  },
-  {
-   "relate": "前传",
-   "src": 289252,
-   "dst": 186151
-  }
- ]
+  "id": "135183",
+  "node": [
+    {
+      "id": 135183,
+      "name": "Shantae and the Pirate's Curse",
+      "nameCN": "桑塔与海盗的诅咒",
+      "date": "2014-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 186151,
+      "name": "Shantae: Half-Genie Hero",
+      "nameCN": "桑塔：半精灵英雄",
+      "date": "2016-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216518,
+      "name": "Shantae: Risky's Revenge",
+      "nameCN": "",
+      "date": "2010-10-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289252,
+      "name": "Shantae and the Seven Sirens",
+      "nameCN": "桑塔与七赛莲",
+      "date": "2020-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229784,
+      "name": "Shantae",
+      "nameCN": "",
+      "date": "2002-06-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135183,
+      "dst": 186151
+    },
+    {
+      "relateString": "前传",
+      "src": 135183,
+      "dst": 216518
+    },
+    {
+      "relateString": "前传",
+      "src": 186151,
+      "dst": 135183
+    },
+    {
+      "relateString": "续集",
+      "src": 186151,
+      "dst": 289252
+    },
+    {
+      "relateString": "续集",
+      "src": 216518,
+      "dst": 135183
+    },
+    {
+      "relateString": "前传",
+      "src": 216518,
+      "dst": 229784
+    },
+    {
+      "relateString": "续集",
+      "src": 229784,
+      "dst": 216518
+    },
+    {
+      "relateString": "前传",
+      "src": 289252,
+      "dst": 186151
+    }
+  ]
 }

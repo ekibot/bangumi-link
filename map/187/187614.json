@@ -1,37 +1,33 @@
 {
- "id": 187614,
- "node": [
-  {
-   "id": 187614,
-   "name": "莫林的眼镜",
-   "nameCN": "莫林的眼镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/f3/187614_7lKXH.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 187616,
-   "name": "莫名的眼镜",
-   "nameCN": "莫名的眼镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/b4/187616_kgIdg.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 187614,
-   "dst": 187616
-  },
-  {
-   "relate": "前传",
-   "src": 187616,
-   "dst": 187614
-  }
- ]
+  "id": "187614",
+  "node": [
+    {
+      "id": 187614,
+      "name": "莫林的眼镜",
+      "nameCN": "莫林的眼镜",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 187616,
+      "name": "莫名的眼镜",
+      "nameCN": "莫名的眼镜",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 187614,
+      "dst": 187616
+    },
+    {
+      "relateString": "前传",
+      "src": 187616,
+      "dst": 187614
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 93202,
- "node": [
-  {
-   "id": 93202,
-   "name": "ZOIDS concept art III",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/8c/93202_jp.jpg",
-   "date": "2012-07-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 93203,
-   "name": "ZOIDS concept art",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/02/93203_jp.jpg",
-   "date": "2010-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 93204,
-   "name": "ZOIDS concept art Ⅱ",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/57/93204_jp.jpg",
-   "date": "2011-07-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  },
-  {
-   "id": 93205,
-   "name": "ZOIDS 暗黒軍の襲来",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/10/93205_jp.jpg",
-   "date": "2013-08-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 93202,
-   "dst": 93204
-  },
-  {
-   "relate": "续集",
-   "src": 93202,
-   "dst": 93205
-  },
-  {
-   "relate": "续集",
-   "src": 93203,
-   "dst": 93204
-  },
-  {
-   "relate": "续集",
-   "src": 93204,
-   "dst": 93202
-  },
-  {
-   "relate": "前传",
-   "src": 93204,
-   "dst": 93203
-  },
-  {
-   "relate": "前传",
-   "src": 93205,
-   "dst": 93202
-  }
- ]
+  "id": "93202",
+  "node": [
+    {
+      "id": 93202,
+      "name": "ZOIDS concept art III",
+      "nameCN": "",
+      "date": "2012-07-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 93204,
+      "name": "ZOIDS concept art Ⅱ",
+      "nameCN": "",
+      "date": "2011-07-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 93205,
+      "name": "ZOIDS 暗黒軍の襲来",
+      "nameCN": "",
+      "date": "2013-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 93203,
+      "name": "ZOIDS concept art",
+      "nameCN": "",
+      "date": "2010-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 93202,
+      "dst": 93204
+    },
+    {
+      "relateString": "续集",
+      "src": 93202,
+      "dst": 93205
+    },
+    {
+      "relateString": "续集",
+      "src": 93203,
+      "dst": 93204
+    },
+    {
+      "relateString": "续集",
+      "src": 93204,
+      "dst": 93202
+    },
+    {
+      "relateString": "前传",
+      "src": 93204,
+      "dst": 93203
+    },
+    {
+      "relateString": "前传",
+      "src": 93205,
+      "dst": 93202
+    }
+  ]
 }

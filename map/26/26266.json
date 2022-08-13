@@ -1,37 +1,35 @@
 {
- "id": 26266,
- "node": [
-  {
-   "id": 26266,
-   "name": "愛天使伝説ウェディングピーチ",
-   "nameCN": "爱天使传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/ac/26266_hCdaM.jpg",
-   "date": "1995-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 139958,
-   "name": "ウェディングピーチDX",
-   "nameCN": "爱天使传说DX",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/5b/139958_o5ooO.jpg",
-   "date": "1996-11-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26266,
-   "dst": 139958
-  },
-  {
-   "relate": "前传",
-   "src": 139958,
-   "dst": 26266
-  }
- ]
+  "id": "26266",
+  "node": [
+    {
+      "id": 26266,
+      "name": "愛天使伝説ウェディングピーチ",
+      "nameCN": "爱天使传说",
+      "date": "1995-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 139958,
+      "name": "ウェディングピーチDX",
+      "nameCN": "爱天使传说DX",
+      "date": "1996-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26266,
+      "dst": 139958
+    },
+    {
+      "relateString": "前传",
+      "src": 139958,
+      "dst": 26266
+    }
+  ]
 }

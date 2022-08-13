@@ -1,105 +1,101 @@
 {
- "id": 12456,
- "node": [
-  {
-   "id": 12456,
-   "name": "Dead Space 2",
-   "nameCN": "死亡空间2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/9e/12456_87tt6.jpg",
-   "date": "2011-01-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 17405,
-   "name": "Dead Space: Extraction",
-   "nameCN": "死亡空间：撤离",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/94/17405_TNGen.jpg",
-   "date": "2009-09-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 20141,
-   "name": "Dead Space",
-   "nameCN": "死亡空间",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/a6/20141_7l8CA.jpg",
-   "date": "2008-10-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 41420,
-   "name": "Dead Space 3",
-   "nameCN": "死亡空间3",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/5e/41420_44L2v.jpg",
-   "date": "2013-02-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 180954,
-   "name": "Dead Space",
-   "nameCN": "死亡空间 携带版",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/18/180954_IXIcA.jpg",
-   "date": "2011-01-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 343281,
-   "name": "Dead Space",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/14/343281_2qels.jpg",
-   "date": null,
-   "nameCN": "死亡空间 重制版",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 12456,
-   "dst": 20141
-  },
-  {
-   "relate": "续集",
-   "src": 12456,
-   "dst": 41420
-  },
-  {
-   "relate": "主线故事",
-   "src": 17405,
-   "dst": 20141
-  },
-  {
-   "relate": "续集",
-   "src": 20141,
-   "dst": 12456
-  },
-  {
-   "relate": "不同演绎",
-   "src": 20141,
-   "dst": 343281
-  },
-  {
-   "relate": "前传",
-   "src": 41420,
-   "dst": 12456
-  },
-  {
-   "relate": "主线故事",
-   "src": 180954,
-   "dst": 20141
-  },
-  {
-   "relate": "不同演绎",
-   "src": 343281,
-   "dst": 20141
-  }
- ]
+  "id": "12456",
+  "node": [
+    {
+      "id": 12456,
+      "name": "Dead Space 2",
+      "nameCN": "死亡空间2",
+      "date": "2011-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20141,
+      "name": "Dead Space",
+      "nameCN": "死亡空间",
+      "date": "2008-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 41420,
+      "name": "Dead Space 3",
+      "nameCN": "死亡空间3",
+      "date": "2013-02-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 17405,
+      "name": "Dead Space: Extraction",
+      "nameCN": "死亡空间：撤离",
+      "date": "2009-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 343281,
+      "name": "Dead Space",
+      "nameCN": "死亡空间 重制版",
+      "date": "2023-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 180954,
+      "name": "Dead Space",
+      "nameCN": "死亡空间 携带版",
+      "date": "2011-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 12456,
+      "dst": 20141
+    },
+    {
+      "relateString": "续集",
+      "src": 12456,
+      "dst": 41420
+    },
+    {
+      "relateString": "主线故事",
+      "src": 17405,
+      "dst": 20141
+    },
+    {
+      "relateString": "续集",
+      "src": 20141,
+      "dst": 12456
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 20141,
+      "dst": 343281
+    },
+    {
+      "relateString": "前传",
+      "src": 41420,
+      "dst": 12456
+    },
+    {
+      "relateString": "主线故事",
+      "src": 180954,
+      "dst": 20141
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 343281,
+      "dst": 20141
+    }
+  ]
 }

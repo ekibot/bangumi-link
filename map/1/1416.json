@@ -1,37 +1,35 @@
 {
- "id": 1416,
- "node": [
-  {
-   "id": 1416,
-   "name": "立体ピクロス",
-   "nameCN": "立体绘图方块",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/ad/1416_fr8ic.jpg",
-   "date": "2009-03-12",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 144232,
-   "name": "カタチ新発見! 立体ピクロス2",
-   "nameCN": "立体绘图方块2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/d8/144232_DSsIx.jpg",
-   "date": "2015-10-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1416,
-   "dst": 144232
-  },
-  {
-   "relate": "前传",
-   "src": 144232,
-   "dst": 1416
-  }
- ]
+  "id": "1416",
+  "node": [
+    {
+      "id": 1416,
+      "name": "立体ピクロス",
+      "nameCN": "立体绘图方块",
+      "date": "2009-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 144232,
+      "name": "カタチ新発見! 立体ピクロス2",
+      "nameCN": "立体绘图方块2",
+      "date": "2015-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1416,
+      "dst": 144232
+    },
+    {
+      "relateString": "前传",
+      "src": 144232,
+      "dst": 1416
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 217573,
- "node": [
-  {
-   "id": 217573,
-   "name": "リラックマとカオルさん",
-   "nameCN": "轻松小熊和小薰",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/de/217573_trel5.jpg",
-   "date": "2019-04-19",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 317694,
-   "name": "リラックマと遊園地",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/64/317694_95H85.jpg",
-   "date": "2022-08-25",
-   "nameCN": "轻松熊与游乐园",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217573,
-   "dst": 317694
-  },
-  {
-   "relate": "前传",
-   "src": 317694,
-   "dst": 217573
-  }
- ]
+  "id": "217573",
+  "node": [
+    {
+      "id": 217573,
+      "name": "リラックマとカオルさん",
+      "nameCN": "轻松小熊和小薰",
+      "date": "2019-04-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 317694,
+      "name": "リラックマと遊園地",
+      "nameCN": "轻松熊与游乐园",
+      "date": "2022-08-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217573,
+      "dst": 317694
+    },
+    {
+      "relateString": "前传",
+      "src": 317694,
+      "dst": 217573
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 46255,
- "node": [
-  {
-   "id": 46255,
-   "name": "夏达短篇漫画集2:米特兰的晨星",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/d7/46255_56ai2.jpg",
-   "date": "2009-01-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 241772,
-   "name": "安多莉亚",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/58/241772_2kPK3.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46255,
-   "dst": 241772
-  },
-  {
-   "relate": "前传",
-   "src": 241772,
-   "dst": 46255
-  }
- ]
+  "id": "46255",
+  "node": [
+    {
+      "id": 46255,
+      "name": "夏达短篇漫画集2:米特兰的晨星",
+      "nameCN": "",
+      "date": "2009-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241772,
+      "name": "安多莉亚",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 46255,
+      "dst": 241772
+    },
+    {
+      "relateString": "前传",
+      "src": 241772,
+      "dst": 46255
+    }
+  ]
 }

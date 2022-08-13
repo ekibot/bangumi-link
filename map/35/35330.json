@@ -1,37 +1,35 @@
 {
- "id": 35330,
- "node": [
-  {
-   "id": 35330,
-   "name": "博士の創りし犬 上巻",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/03/35330_jp.jpg",
-   "date": "2010-07-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 115852,
-   "name": "博士の創りし犬 下巻",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/b2/115852_jp.jpg",
-   "date": "2010-07-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 35330,
-   "dst": 115852
-  },
-  {
-   "relate": "前传",
-   "src": 115852,
-   "dst": 35330
-  }
- ]
+  "id": "35330",
+  "node": [
+    {
+      "id": 35330,
+      "name": "博士の創りし犬 上巻",
+      "nameCN": "",
+      "date": "2010-07-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 115852,
+      "name": "博士の創りし犬 下巻",
+      "nameCN": "",
+      "date": "2010-07-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 35330,
+      "dst": 115852
+    },
+    {
+      "relateString": "前传",
+      "src": 115852,
+      "dst": 35330
+    }
+  ]
 }

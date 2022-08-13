@@ -1,37 +1,34 @@
 {
- "id": 198405,
- "node": [
-  {
-   "id": 198405,
-   "name": "彼はトモダチPLUS",
-   "nameCN": "他只是朋友PLUS",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/95/198405_jp.jpg",
-   "date": "2011-09-13",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 198427,
-   "name": "彼はトモダチ",
-   "nameCN": "他只是朋友",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/7b/198427_0xO1z.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 198405,
-   "dst": 198427
-  },
-  {
-   "relate": "番外篇",
-   "src": 198427,
-   "dst": 198405
-  }
- ]
+  "id": "198405",
+  "node": [
+    {
+      "id": 198405,
+      "name": "彼はトモダチPLUS",
+      "nameCN": "他只是朋友PLUS",
+      "date": "2011-09-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 198427,
+      "name": "彼はトモダチ",
+      "nameCN": "他只是朋友",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 198405,
+      "dst": 198427
+    },
+    {
+      "relateString": "番外篇",
+      "src": 198427,
+      "dst": 198405
+    }
+  ]
 }

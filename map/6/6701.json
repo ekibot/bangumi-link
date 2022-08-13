@@ -1,37 +1,35 @@
 {
- "id": 6701,
- "node": [
-  {
-   "id": 6701,
-   "name": "花とアリス",
-   "nameCN": "花与爱丽丝",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/87/6701_sou6d.jpg",
-   "date": "2004-03-13",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 115732,
-   "name": "花とアリス 殺人事件",
-   "nameCN": "花与爱丽丝杀人事件",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/ed/115732_ae4L6.jpg",
-   "date": "2015-02-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 6701,
-   "dst": 115732
-  },
-  {
-   "relate": "续集",
-   "src": 115732,
-   "dst": 6701
-  }
- ]
+  "id": "6701",
+  "node": [
+    {
+      "id": 6701,
+      "name": "花とアリス",
+      "nameCN": "花与爱丽丝",
+      "date": "2004-03-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 115732,
+      "name": "花とアリス 殺人事件",
+      "nameCN": "花与爱丽丝杀人事件",
+      "date": "2015-02-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 6701,
+      "dst": 115732
+    },
+    {
+      "relateString": "续集",
+      "src": 115732,
+      "dst": 6701
+    }
+  ]
 }

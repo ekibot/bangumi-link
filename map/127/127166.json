@@ -1,57 +1,54 @@
 {
- "id": 127166,
- "node": [
-  {
-   "id": 127166,
-   "name": "黑白无双",
-   "nameCN": "黑白无双",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/61/127166_72wZq.jpg",
-   "date": "2015-07-09",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 193171,
-   "name": "黑白无双 第二季",
-   "nameCN": "黑白无双 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/bc/193171_Kzdm3.jpg",
-   "date": "2017-08-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 227897,
-   "name": "黑白无双 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/50/227897_LP1X1.jpg",
-   "date": "2021-07-19",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127166,
-   "dst": 193171
-  },
-  {
-   "relate": "前传",
-   "src": 193171,
-   "dst": 127166
-  },
-  {
-   "relate": "续集",
-   "src": 193171,
-   "dst": 227897
-  },
-  {
-   "relate": "前传",
-   "src": 227897,
-   "dst": 193171
-  }
- ]
+  "id": "127166",
+  "node": [
+    {
+      "id": 127166,
+      "name": "黑白无双",
+      "nameCN": "黑白无双",
+      "date": "2015-07-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 193171,
+      "name": "黑白无双 第二季",
+      "nameCN": "黑白无双 第二季",
+      "date": "2017-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 227897,
+      "name": "黑白无双 第三季",
+      "nameCN": "",
+      "date": "2021-07-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127166,
+      "dst": 193171
+    },
+    {
+      "relateString": "前传",
+      "src": 193171,
+      "dst": 127166
+    },
+    {
+      "relateString": "续集",
+      "src": 193171,
+      "dst": 227897
+    },
+    {
+      "relateString": "前传",
+      "src": 227897,
+      "dst": 193171
+    }
+  ]
 }

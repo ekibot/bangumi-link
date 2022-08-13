@@ -1,37 +1,35 @@
 {
- "id": 212957,
- "node": [
-  {
-   "id": 212957,
-   "name": "Cinderella Phenomenon",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/85/212957_CylAY.jpg",
-   "date": "2017-04-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 323828,
-   "name": "Cinderella Phenomenon Evermore",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/b9/323828_ZvqzK.jpg",
-   "date": "2020-12-13",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 212957,
-   "dst": 323828
-  },
-  {
-   "relate": "前传",
-   "src": 323828,
-   "dst": 212957
-  }
- ]
+  "id": "212957",
+  "node": [
+    {
+      "id": 212957,
+      "name": "Cinderella Phenomenon",
+      "nameCN": "",
+      "date": "2017-04-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323828,
+      "name": "Cinderella Phenomenon Evermore",
+      "nameCN": "",
+      "date": "2020-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 212957,
+      "dst": 323828
+    },
+    {
+      "relateString": "前传",
+      "src": 323828,
+      "dst": 212957
+    }
+  ]
 }

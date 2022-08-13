@@ -1,57 +1,54 @@
 {
- "id": 4643,
- "node": [
-  {
-   "id": 4643,
-   "name": "阿貓阿狗",
-   "nameCN": "阿猫阿狗",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/c6/4643_R3W1e.jpg",
-   "date": "1998-08-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 4644,
-   "name": "阿貓阿狗 2",
-   "nameCN": "阿猫阿狗 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/d4/4644_Ymk2v.jpg",
-   "date": "2005-07-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 234067,
-   "name": "阿貓阿狗：重返木桶鎮",
-   "nameCN": "阿猫阿狗：重返木桶镇",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/fe/234067_9ZSsi.jpg",
-   "date": "2017-12-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4643,
-   "dst": 4644
-  },
-  {
-   "relate": "相同世界观",
-   "src": 4643,
-   "dst": 234067
-  },
-  {
-   "relate": "前传",
-   "src": 4644,
-   "dst": 4643
-  },
-  {
-   "relate": "相同世界观",
-   "src": 234067,
-   "dst": 4643
-  }
- ]
+  "id": "4643",
+  "node": [
+    {
+      "id": 4643,
+      "name": "阿貓阿狗",
+      "nameCN": "阿猫阿狗",
+      "date": "1998-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 4644,
+      "name": "阿貓阿狗 2",
+      "nameCN": "阿猫阿狗 2",
+      "date": "2005-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 234067,
+      "name": "阿貓阿狗：重返木桶鎮",
+      "nameCN": "阿猫阿狗：重返木桶镇",
+      "date": "2017-12-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4643,
+      "dst": 4644
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 4643,
+      "dst": 234067
+    },
+    {
+      "relateString": "前传",
+      "src": 4644,
+      "dst": 4643
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 234067,
+      "dst": 4643
+    }
+  ]
 }

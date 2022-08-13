@@ -1,97 +1,92 @@
 {
- "id": 4301,
- "node": [
-  {
-   "id": 4301,
-   "name": "星界の紋章",
-   "nameCN": "星界的纹章",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/75/4301_dr1D5.jpg",
-   "date": "1999-01-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 9617,
-   "name": "星界の戦旗",
-   "nameCN": "星界的战旗",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/a9/9617_61y8h.jpg",
-   "date": "2000-04-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 9618,
-   "name": "星界の戦旗II",
-   "nameCN": "星界的战旗II",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/34/9618_zM1rc.jpg",
-   "date": "2001-07-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 9619,
-   "name": "星界の戦旗III",
-   "nameCN": "星界的战旗III",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/f6/9619_k6xxO.jpg",
-   "date": "2005-08-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 34515,
-   "name": "星界の断章 誕生",
-   "nameCN": "星界的断章 诞生",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/75/34515_VdZZ6.jpg",
-   "date": "2000-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4301,
-   "dst": 9617
-  },
-  {
-   "relate": "番外篇",
-   "src": 4301,
-   "dst": 34515
-  },
-  {
-   "relate": "前传",
-   "src": 9617,
-   "dst": 4301
-  },
-  {
-   "relate": "续集",
-   "src": 9617,
-   "dst": 9618
-  },
-  {
-   "relate": "前传",
-   "src": 9618,
-   "dst": 9617
-  },
-  {
-   "relate": "续集",
-   "src": 9618,
-   "dst": 9619
-  },
-  {
-   "relate": "前传",
-   "src": 9619,
-   "dst": 9618
-  },
-  {
-   "relate": "主线故事",
-   "src": 34515,
-   "dst": 4301
-  }
- ]
+  "id": "4301",
+  "node": [
+    {
+      "id": 4301,
+      "name": "星界の紋章",
+      "nameCN": "星界的纹章",
+      "date": "1999-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 9617,
+      "name": "星界の戦旗",
+      "nameCN": "星界的战旗",
+      "date": "2000-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 34515,
+      "name": "星界の断章 誕生",
+      "nameCN": "星界的断章 诞生",
+      "date": "2000-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 9618,
+      "name": "星界の戦旗II",
+      "nameCN": "星界的战旗II",
+      "date": "2001-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 9619,
+      "name": "星界の戦旗III",
+      "nameCN": "星界的战旗III",
+      "date": "2005-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4301,
+      "dst": 9617
+    },
+    {
+      "relateString": "番外篇",
+      "src": 4301,
+      "dst": 34515
+    },
+    {
+      "relateString": "前传",
+      "src": 9617,
+      "dst": 4301
+    },
+    {
+      "relateString": "续集",
+      "src": 9617,
+      "dst": 9618
+    },
+    {
+      "relateString": "前传",
+      "src": 9618,
+      "dst": 9617
+    },
+    {
+      "relateString": "续集",
+      "src": 9618,
+      "dst": 9619
+    },
+    {
+      "relateString": "前传",
+      "src": 9619,
+      "dst": 9618
+    },
+    {
+      "relateString": "主线故事",
+      "src": 34515,
+      "dst": 4301
+    }
+  ]
 }

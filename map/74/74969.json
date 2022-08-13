@@ -1,37 +1,33 @@
 {
- "id": 74969,
- "node": [
-  {
-   "id": 74969,
-   "name": "ソーサリアン",
-   "nameCN": "神龙骑兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/e7/74969_DCeXD.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 74980,
-   "name": "新ソーサリアンシリーズ",
-   "nameCN": "新Sorcerian系列",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/93/74980_RntyZ.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 74969,
-   "dst": 74980
-  },
-  {
-   "relate": "前传",
-   "src": 74980,
-   "dst": 74969
-  }
- ]
+  "id": "74969",
+  "node": [
+    {
+      "id": 74969,
+      "name": "ソーサリアン",
+      "nameCN": "神龙骑兵",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 74980,
+      "name": "新ソーサリアンシリーズ",
+      "nameCN": "新Sorcerian系列",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 74969,
+      "dst": 74980
+    },
+    {
+      "relateString": "前传",
+      "src": 74980,
+      "dst": 74969
+    }
+  ]
 }

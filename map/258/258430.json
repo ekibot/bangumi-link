@@ -1,37 +1,33 @@
 {
- "id": 258430,
- "node": [
-  {
-   "id": 258430,
-   "name": "HORROR HOUSE",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/f3/258430_6F601.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 258442,
-   "name": "狂気の館",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/c8/258442_3QNZ5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 258430,
-   "dst": 258442
-  },
-  {
-   "relate": "前传",
-   "src": 258442,
-   "dst": 258430
-  }
- ]
+  "id": "258430",
+  "node": [
+    {
+      "id": 258430,
+      "name": "HORROR HOUSE",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258442,
+      "name": "狂気の館",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 258430,
+      "dst": 258442
+    },
+    {
+      "relateString": "前传",
+      "src": 258442,
+      "dst": 258430
+    }
+  ]
 }

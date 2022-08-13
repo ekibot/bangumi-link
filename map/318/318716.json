@@ -1,77 +1,73 @@
 {
- "id": 318716,
- "node": [
-  {
-   "id": 318716,
-   "name": "以神之名",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/02/318716_A2OQ9.jpg",
-   "date": "2015-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 319026,
-   "name": "人娃契",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/90/319026_TqIzA.jpg",
-   "date": "2013-03-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 319029,
-   "name": "書寫人",
-   "nameCN": "书写人",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/a8/319029_zpt5a.jpg",
-   "date": "2013-08-21",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 319030,
-   "name": "殤九歌",
-   "nameCN": "殇九歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/4b/319030_NMbMM.jpg",
-   "date": "2019-08-07",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 318716,
-   "dst": 319026
-  },
-  {
-   "relate": "续集",
-   "src": 318716,
-   "dst": 319030
-  },
-  {
-   "relate": "续集",
-   "src": 319026,
-   "dst": 318716
-  },
-  {
-   "relate": "番外篇",
-   "src": 319026,
-   "dst": 319029
-  },
-  {
-   "relate": "主线故事",
-   "src": 319029,
-   "dst": 319026
-  },
-  {
-   "relate": "前传",
-   "src": 319030,
-   "dst": 318716
-  }
- ]
+  "id": "318716",
+  "node": [
+    {
+      "id": 318716,
+      "name": "以神之名",
+      "nameCN": "",
+      "date": "2015-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 319026,
+      "name": "人娃契",
+      "nameCN": "",
+      "date": "2013-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 319030,
+      "name": "殤九歌",
+      "nameCN": "殇九歌",
+      "date": "2019-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 319029,
+      "name": "書寫人",
+      "nameCN": "书写人",
+      "date": "2013-08-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 318716,
+      "dst": 319026
+    },
+    {
+      "relateString": "续集",
+      "src": 318716,
+      "dst": 319030
+    },
+    {
+      "relateString": "续集",
+      "src": 319026,
+      "dst": 318716
+    },
+    {
+      "relateString": "番外篇",
+      "src": 319026,
+      "dst": 319029
+    },
+    {
+      "relateString": "主线故事",
+      "src": 319029,
+      "dst": 319026
+    },
+    {
+      "relateString": "前传",
+      "src": 319030,
+      "dst": 318716
+    }
+  ]
 }

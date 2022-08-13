@@ -1,104 +1,101 @@
 {
- "id": 3304,
- "node": [
-  {
-   "id": 3304,
-   "name": "GUNSLINGER GIRL",
-   "nameCN": "神枪少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/9d/3304_JvL9C.jpg",
-   "date": "2003-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 3532,
-   "name": "GUNSLINGER GIRL -IL TEATRINO-",
-   "nameCN": "神枪少女 -IL TEATRINO-",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/ab/3532_00sRP.jpg",
-   "date": "2008-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 3787,
-   "name": "GUNSLINGER GIRL -IL TEATRINO OVA",
-   "nameCN": "神枪少女 -IL TEATRINO- OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/17/3787_DF201.jpg",
-   "date": "2008-10-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 4209,
-   "name": "BITTERSWEET FOOLS",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/04/4209_Lu8h6.jpg",
-   "date": "2001-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 13388,
-   "name": "GUNSLINGER GIRL",
-   "nameCN": "神枪少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/46/13388_0HO22.jpg",
-   "type": 1
-  },
-  {
-   "id": 220010,
-   "name": "SIMPLE2000シリーズVol.9 THE恋愛アドベンチャー 〜BITTERSWEET FOOLS〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/9c/220010_omJWl.jpg",
-   "date": "2002-09-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3304,
-   "dst": 3532
-  },
-  {
-   "relate": "前传",
-   "src": 3532,
-   "dst": 3304
-  },
-  {
-   "relate": "续集",
-   "src": 3532,
-   "dst": 3787
-  },
-  {
-   "relate": "前传",
-   "src": 3787,
-   "dst": 3532
-  },
-  {
-   "relate": "相同世界观",
-   "src": 4209,
-   "dst": 3304
-  },
-  {
-   "relate": "相同世界观",
-   "src": 4209,
-   "dst": 13388
-  },
-  {
-   "relate": "不同演绎",
-   "src": 4209,
-   "dst": 220010
-  },
-  {
-   "relate": "不同演绎",
-   "src": 220010,
-   "dst": 4209
-  }
- ]
+  "id": "3304",
+  "node": [
+    {
+      "id": 3304,
+      "name": "GUNSLINGER GIRL",
+      "nameCN": "神枪少女",
+      "date": "2003-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3532,
+      "name": "GUNSLINGER GIRL -IL TEATRINO-",
+      "nameCN": "神枪少女 -IL TEATRINO-",
+      "date": "2008-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3787,
+      "name": "GUNSLINGER GIRL -IL TEATRINO OVA",
+      "nameCN": "神枪少女 -IL TEATRINO- OVA",
+      "date": "2008-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 4209,
+      "name": "BITTERSWEET FOOLS",
+      "nameCN": "",
+      "date": "2001-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 13388,
+      "name": "GUNSLINGER GIRL",
+      "nameCN": "神枪少女",
+      "date": "2002-05-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 220010,
+      "name": "SIMPLE2000シリーズVol.9 THE恋愛アドベンチャー 〜BITTERSWEET FOOLS〜",
+      "nameCN": "",
+      "date": "2002-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3304,
+      "dst": 3532
+    },
+    {
+      "relateString": "前传",
+      "src": 3532,
+      "dst": 3304
+    },
+    {
+      "relateString": "续集",
+      "src": 3532,
+      "dst": 3787
+    },
+    {
+      "relateString": "前传",
+      "src": 3787,
+      "dst": 3532
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 4209,
+      "dst": 3304
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 4209,
+      "dst": 13388
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 4209,
+      "dst": 220010
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 220010,
+      "dst": 4209
+    }
+  ]
 }

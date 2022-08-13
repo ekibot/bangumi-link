@@ -1,37 +1,34 @@
 {
- "id": 219956,
- "node": [
-  {
-   "id": 219956,
-   "name": "アスディバインハーツ",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/ae/219956_FZoMF.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219958,
-   "name": "アスディバインハーツ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/a1/219958_c4lVW.jpg",
-   "date": "2016-08-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219956,
-   "dst": 219958
-  },
-  {
-   "relate": "前传",
-   "src": 219958,
-   "dst": 219956
-  }
- ]
+  "id": "219956",
+  "node": [
+    {
+      "id": 219956,
+      "name": "アスディバインハーツ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219958,
+      "name": "アスディバインハーツ2",
+      "nameCN": "",
+      "date": "2016-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219956,
+      "dst": 219958
+    },
+    {
+      "relateString": "前传",
+      "src": 219958,
+      "dst": 219956
+    }
+  ]
 }

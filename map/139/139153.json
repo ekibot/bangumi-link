@@ -1,0 +1,51 @@
+{
+  "id": "139153",
+  "node": [
+    {
+      "id": 139153,
+      "name": "Time of the Twins",
+      "nameCN": "时空之卷",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139154,
+      "name": "War of the Twins",
+      "nameCN": "烽火之卷",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139155,
+      "name": "Test of the Twins",
+      "nameCN": "试炼之卷",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139153,
+      "dst": 139154
+    },
+    {
+      "relateString": "前传",
+      "src": 139154,
+      "dst": 139153
+    },
+    {
+      "relateString": "续集",
+      "src": 139154,
+      "dst": 139155
+    },
+    {
+      "relateString": "前传",
+      "src": 139155,
+      "dst": 139154
+    }
+  ]
+}

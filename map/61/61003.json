@@ -1,37 +1,33 @@
 {
- "id": 61003,
- "node": [
-  {
-   "id": 61003,
-   "name": "絶対彼氏。【番外編】アリガトウ。",
-   "nameCN": "绝对达令 番外篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/96/61003_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 61011,
-   "name": "絶対彼氏。",
-   "nameCN": "绝对达令",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/f9/61011_XNN8W.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 61003,
-   "dst": 61011
-  },
-  {
-   "relate": "番外篇",
-   "src": 61011,
-   "dst": 61003
-  }
- ]
+  "id": "61003",
+  "node": [
+    {
+      "id": 61003,
+      "name": "絶対彼氏。【番外編】アリガトウ。",
+      "nameCN": "绝对达令 番外篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 61011,
+      "name": "絶対彼氏。",
+      "nameCN": "绝对达令",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 61003,
+      "dst": 61011
+    },
+    {
+      "relateString": "番外篇",
+      "src": 61011,
+      "dst": 61003
+    }
+  ]
 }

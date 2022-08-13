@@ -1,54 +1,64 @@
 {
- "id": 59071,
- "node": [
-  {
-   "id": 59071,
-   "name": "ソナビア-SonabiA-",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/f2/59071_nxKRX.jpg",
-   "date": "2012-12-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 59112,
-   "name": "ソル・ルイ-異界の魔法少女-",
-   "nameCN": "异界的魔法少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/33/59112_tI92A.jpg",
-   "type": 4,
-   "date": "2011-12-09",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 194266,
-   "name": "赤首の闘技場",
-   "nameCN": "赤首斗技场",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/67/194266_dsviv.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 59071,
-   "dst": 59112
-  },
-  {
-   "relate": "相同世界观",
-   "src": 59071,
-   "dst": 194266
-  },
-  {
-   "relate": "相同世界观",
-   "src": 59112,
-   "dst": 59071
-  },
-  {
-   "relate": "相同世界观",
-   "src": 59112,
-   "dst": 194266
-  }
- ]
+  "id": "59071",
+  "node": [
+    {
+      "id": 59071,
+      "name": "ソナビア-SonabiA-",
+      "nameCN": "",
+      "date": "2012-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 59112,
+      "name": "ソル・ルイ-異界の魔法少女-",
+      "nameCN": "异界的魔法少女",
+      "date": "2011-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 194266,
+      "name": "赤首の闘技場",
+      "nameCN": "赤首斗技场",
+      "date": "2014-08-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 59071,
+      "dst": 59112
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 59071,
+      "dst": 194266
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 59112,
+      "dst": 59071
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 59112,
+      "dst": 194266
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 194266,
+      "dst": 59071
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 194266,
+      "dst": 59112
+    }
+  ]
 }

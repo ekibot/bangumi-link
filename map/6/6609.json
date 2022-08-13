@@ -1,37 +1,35 @@
 {
- "id": 6609,
- "node": [
-  {
-   "id": 6609,
-   "name": "Wind -a breath of heart-",
-   "nameCN": "风－心之呼吸",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/a6/6609_Y8247.jpg",
-   "date": "2004-06-30",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 54724,
-   "name": "Wind -a breath of heart- OVA",
-   "nameCN": "风－心之呼吸 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/28/54724_0E4lr.jpg",
-   "date": "2004-06-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6609,
-   "dst": 54724
-  },
-  {
-   "relate": "前传",
-   "src": 54724,
-   "dst": 6609
-  }
- ]
+  "id": "6609",
+  "node": [
+    {
+      "id": 6609,
+      "name": "Wind -a breath of heart-",
+      "nameCN": "风－心之呼吸",
+      "date": "2004-06-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 54724,
+      "name": "Wind -a breath of heart- OVA",
+      "nameCN": "风－心之呼吸 OVA",
+      "date": "2004-06-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 6609,
+      "dst": 54724
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 54724,
+      "dst": 6609
+    }
+  ]
 }

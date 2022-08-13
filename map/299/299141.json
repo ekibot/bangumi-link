@@ -1,57 +1,52 @@
 {
- "id": 299141,
- "node": [
-  {
-   "id": 299141,
-   "name": "シリーズ横溝正史短編集Ⅱ「金田一耕助 踊る!」",
-   "date": "2020-01-18",
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 374964,
-   "name": "シリーズ横溝正史短編集 「金田一耕助登場！」",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 374965,
-   "name": "シリーズ横溝正史短編集III 池松壮亮×金田一耕助3",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 299141,
-   "dst": 374964
-  },
-  {
-   "relate": "续集",
-   "src": 299141,
-   "dst": 374965
-  },
-  {
-   "relate": "续集",
-   "src": 374964,
-   "dst": 299141
-  },
-  {
-   "relate": "前传",
-   "src": 374965,
-   "dst": 299141
-  }
- ]
+  "id": "299141",
+  "node": [
+    {
+      "id": 299141,
+      "name": "シリーズ横溝正史短編集Ⅱ「金田一耕助 踊る!」",
+      "nameCN": "",
+      "date": "2020-01-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 374964,
+      "name": "シリーズ横溝正史短編集 「金田一耕助登場！」",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 374965,
+      "name": "シリーズ横溝正史短編集III 池松壮亮×金田一耕助3",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 299141,
+      "dst": 374964
+    },
+    {
+      "relateString": "续集",
+      "src": 299141,
+      "dst": 374965
+    },
+    {
+      "relateString": "续集",
+      "src": 374964,
+      "dst": 299141
+    },
+    {
+      "relateString": "前传",
+      "src": 374965,
+      "dst": 299141
+    }
+  ]
 }

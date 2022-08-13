@@ -1,34 +1,35 @@
 {
- "id": 16346,
- "node": [
-  {
-   "id": 16346,
-   "name": "Princess Party Camellia",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/50/16346_IuZo0.jpg",
-   "date": "2009-09-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 132437,
-   "name": "Princess Party",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/ea/132437_s0zoB.jpg",
-   "date": "2009-03-27",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 16346,
-   "dst": 132437
-  },
-  {
-   "relate": "续集",
-   "src": 132437,
-   "dst": 16346
-  }
- ]
+  "id": "16346",
+  "node": [
+    {
+      "id": 16346,
+      "name": "Princess Party Camellia",
+      "nameCN": "",
+      "date": "2009-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 132437,
+      "name": "Princess Party",
+      "nameCN": "",
+      "date": "2009-03-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 16346,
+      "dst": 132437
+    },
+    {
+      "relateString": "续集",
+      "src": 132437,
+      "dst": 16346
+    }
+  ]
 }

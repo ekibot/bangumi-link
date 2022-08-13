@@ -1,37 +1,34 @@
 {
- "id": 83904,
- "node": [
-  {
-   "id": 83904,
-   "name": "GOTH  モリノヨル",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/91/83904_jp.jpg",
-   "date": "2008-12-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 188635,
-   "name": "GOTH―リストカット事件",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/0b/188635_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 83904,
-   "dst": 188635
-  },
-  {
-   "relate": "番外篇",
-   "src": 188635,
-   "dst": 83904
-  }
- ]
+  "id": "83904",
+  "node": [
+    {
+      "id": 83904,
+      "name": "GOTH  モリノヨル",
+      "nameCN": "",
+      "date": "2008-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 188635,
+      "name": "GOTH―リストカット事件",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 83904,
+      "dst": 188635
+    },
+    {
+      "relateString": "番外篇",
+      "src": 188635,
+      "dst": 83904
+    }
+  ]
 }

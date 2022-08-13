@@ -1,57 +1,54 @@
 {
- "id": 311919,
- "node": [
-  {
-   "id": 311919,
-   "name": "グラウンドの空",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/52/311919_O041i.jpg",
-   "date": "2013-06-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 311920,
-   "name": "晩夏のプレイボール",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/c4/311920_zV1Y0.jpg",
-   "date": "2010-06-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 311921,
-   "name": "グラウンドの詩",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/8b/311921_ASpD4.jpg",
-   "date": "2015-06-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 311919,
-   "dst": 311921
-  },
-  {
-   "relate": "前传",
-   "src": 311920,
-   "dst": 311921
-  },
-  {
-   "relate": "前传",
-   "src": 311921,
-   "dst": 311919
-  },
-  {
-   "relate": "续集",
-   "src": 311921,
-   "dst": 311920
-  }
- ]
+  "id": "311919",
+  "node": [
+    {
+      "id": 311919,
+      "name": "グラウンドの空",
+      "nameCN": "",
+      "date": "2013-06-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 311921,
+      "name": "グラウンドの詩",
+      "nameCN": "",
+      "date": "2015-06-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 311920,
+      "name": "晩夏のプレイボール",
+      "nameCN": "",
+      "date": "2010-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 311919,
+      "dst": 311921
+    },
+    {
+      "relateString": "前传",
+      "src": 311920,
+      "dst": 311921
+    },
+    {
+      "relateString": "前传",
+      "src": 311921,
+      "dst": 311919
+    },
+    {
+      "relateString": "续集",
+      "src": 311921,
+      "dst": 311920
+    }
+  ]
 }

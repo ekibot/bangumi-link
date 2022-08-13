@@ -1,37 +1,35 @@
 {
- "id": 113107,
- "node": [
-  {
-   "id": 113107,
-   "name": "Running Wild with Bear Grylls Season 1",
-   "nameCN": "越野千里",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/89/113107_MH9Hl.jpg",
-   "date": "2014-07-29",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 141281,
-   "name": "Running Wild with Bear Grylls Season 2",
-   "nameCN": "越野千里 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/ad/141281_266ob.jpg",
-   "date": "2015-07-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113107,
-   "dst": 141281
-  },
-  {
-   "relate": "前传",
-   "src": 141281,
-   "dst": 113107
-  }
- ]
+  "id": "113107",
+  "node": [
+    {
+      "id": 113107,
+      "name": "Running Wild with Bear Grylls Season 1",
+      "nameCN": "越野千里",
+      "date": "2014-07-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 141281,
+      "name": "Running Wild with Bear Grylls Season 2",
+      "nameCN": "越野千里 第二季",
+      "date": "2015-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113107,
+      "dst": 141281
+    },
+    {
+      "relateString": "前传",
+      "src": 141281,
+      "dst": 113107
+    }
+  ]
 }

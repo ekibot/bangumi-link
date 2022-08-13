@@ -1,57 +1,51 @@
 {
- "id": 33889,
- "node": [
-  {
-   "id": 33889,
-   "name": "式神の城",
-   "nameCN": "式神之城",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/28/33889_NR0gr.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 33890,
-   "name": "式神の城II",
-   "nameCN": "式神之城2",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/2c/33890_5iTgT.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 33891,
-   "name": "式神の城III",
-   "nameCN": "式神之城3",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/65/33891_QrbNN.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33889,
-   "dst": 33890
-  },
-  {
-   "relate": "前传",
-   "src": 33890,
-   "dst": 33889
-  },
-  {
-   "relate": "续集",
-   "src": 33890,
-   "dst": 33891
-  },
-  {
-   "relate": "前传",
-   "src": 33891,
-   "dst": 33890
-  }
- ]
+  "id": "33889",
+  "node": [
+    {
+      "id": 33889,
+      "name": "式神の城",
+      "nameCN": "式神之城",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 33890,
+      "name": "式神の城II",
+      "nameCN": "式神之城2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 33891,
+      "name": "式神の城III",
+      "nameCN": "式神之城3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33889,
+      "dst": 33890
+    },
+    {
+      "relateString": "前传",
+      "src": 33890,
+      "dst": 33889
+    },
+    {
+      "relateString": "续集",
+      "src": 33890,
+      "dst": 33891
+    },
+    {
+      "relateString": "前传",
+      "src": 33891,
+      "dst": 33890
+    }
+  ]
 }

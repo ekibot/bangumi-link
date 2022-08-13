@@ -1,37 +1,35 @@
 {
- "id": 274646,
- "node": [
-  {
-   "id": 274646,
-   "name": "プリンセスコネクト！Re:Dive",
-   "nameCN": "公主连结 Re:Dive",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/09/274646_yTEYw.jpg",
-   "date": "2020-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 312958,
-   "name": "プリンセスコネクト！Re:Dive Season 2",
-   "nameCN": "公主连结 Re:Dive 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/67/312958_vbCCV.jpg",
-   "date": "2022-01-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 274646,
-   "dst": 312958
-  },
-  {
-   "relate": "前传",
-   "src": 312958,
-   "dst": 274646
-  }
- ]
+  "id": "274646",
+  "node": [
+    {
+      "id": 274646,
+      "name": "プリンセスコネクト！Re:Dive",
+      "nameCN": "公主连结 Re:Dive",
+      "date": "2020-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 312958,
+      "name": "プリンセスコネクト！Re:Dive Season 2",
+      "nameCN": "公主连结 Re:Dive 第二季",
+      "date": "2022-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 274646,
+      "dst": 312958
+    },
+    {
+      "relateString": "前传",
+      "src": 312958,
+      "dst": 274646
+    }
+  ]
 }

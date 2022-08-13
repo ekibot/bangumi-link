@@ -1,37 +1,35 @@
 {
- "id": 112650,
- "node": [
-  {
-   "id": 112650,
-   "name": "臀撃おしおき娘 ゴータマンR 愛と悲しみのファイナル・バトル",
-   "nameCN": "正义使者臀娘R",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/ff/112650_Kpn7N.jpg",
-   "date": "1994-10-24",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 112651,
-   "name": "臀撃おしおき娘 ゴータマン ゴータマン誕生編",
-   "nameCN": "正义使者臀娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/db/112651_Nut0R.jpg",
-   "type": 2,
-   "date": "1994-05-24",
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 112650,
-   "dst": 112651
-  },
-  {
-   "relate": "续集",
-   "src": 112651,
-   "dst": 112650
-  }
- ]
+  "id": "112650",
+  "node": [
+    {
+      "id": 112650,
+      "name": "臀撃おしおき娘 ゴータマンR 愛と悲しみのファイナル・バトル",
+      "nameCN": "正义使者臀娘R",
+      "date": "1994-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 112651,
+      "name": "臀撃おしおき娘 ゴータマン ゴータマン誕生編",
+      "nameCN": "正义使者臀娘",
+      "date": "1994-05-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 112650,
+      "dst": 112651
+    },
+    {
+      "relateString": "续集",
+      "src": 112651,
+      "dst": 112650
+    }
+  ]
 }

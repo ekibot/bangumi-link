@@ -1,37 +1,35 @@
 {
- "id": 82807,
- "node": [
-  {
-   "id": 82807,
-   "name": "僕はすべてを知っている (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/17/82807_jp.jpg",
-   "date": "2011-11-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 100851,
-   "name": "僕はすべてを知っている (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/b3/100851_jp.jpg",
-   "date": "2014-03-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82807,
-   "dst": 100851
-  },
-  {
-   "relate": "前传",
-   "src": 100851,
-   "dst": 82807
-  }
- ]
+  "id": "82807",
+  "node": [
+    {
+      "id": 82807,
+      "name": "僕はすべてを知っている (2)",
+      "nameCN": "",
+      "date": "2011-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 100851,
+      "name": "僕はすべてを知っている (3)",
+      "nameCN": "",
+      "date": "2014-03-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82807,
+      "dst": 100851
+    },
+    {
+      "relateString": "前传",
+      "src": 100851,
+      "dst": 82807
+    }
+  ]
 }

@@ -1,30 +1,35 @@
 {
- "id": 213519,
- "node": [
-  {
-   "id": 213519,
-   "name": "Mirage 淫宴の触手病棟 Another Story Of D’ERLANGER",
-   "nameCN": "Mirage 淫宴触手病栋 Another Story Of D’ERLANGER",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-05-26"
-  },
-  {
-   "id": 223272,
-   "name": "D’ELRANGER～誘惑の淫魔病棟～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2007-04-27"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 213519,
-   "dst": 223272
-  },
-  {
-   "relate": "相同世界观",
-   "src": 223272,
-   "dst": 213519
-  }
- ]
+  "id": "213519",
+  "node": [
+    {
+      "id": 213519,
+      "name": "Mirage 淫宴の触手病棟 Another Story Of D’ERLANGER",
+      "nameCN": "Mirage 淫宴触手病栋 Another Story Of D’ERLANGER",
+      "date": "2006-05-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223272,
+      "name": "D’ELRANGER～誘惑の淫魔病棟～",
+      "nameCN": "",
+      "date": "2007-04-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 213519,
+      "dst": 223272
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 223272,
+      "dst": 213519
+    }
+  ]
 }

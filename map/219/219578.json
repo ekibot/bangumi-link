@@ -1,77 +1,73 @@
 {
- "id": 219578,
- "node": [
-  {
-   "id": 219578,
-   "name": "F Is for Family Season 2",
-   "nameCN": "福是全家福的福 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/9e/219578_Xjj52.jpg",
-   "date": "2017-05-30",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 288831,
-   "name": "F Is for Family Season 1",
-   "nameCN": "福是全家福的福 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/78/288831_8c8s8.jpg",
-   "date": "2015-12-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 288833,
-   "name": "F Is for Family Season 3",
-   "nameCN": "福是全家福的福 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/36/288833_2KFV9.jpg",
-   "date": "2018-11-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 313649,
-   "name": "F Is for Family Season 4",
-   "nameCN": "福是全家福的福 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/c3/313649_4ia4o.jpg",
-   "date": "2020-06-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 219578,
-   "dst": 288831
-  },
-  {
-   "relate": "续集",
-   "src": 219578,
-   "dst": 288833
-  },
-  {
-   "relate": "续集",
-   "src": 288831,
-   "dst": 219578
-  },
-  {
-   "relate": "前传",
-   "src": 288833,
-   "dst": 219578
-  },
-  {
-   "relate": "续集",
-   "src": 288833,
-   "dst": 313649
-  },
-  {
-   "relate": "前传",
-   "src": 313649,
-   "dst": 288833
-  }
- ]
+  "id": "219578",
+  "node": [
+    {
+      "id": 219578,
+      "name": "F Is for Family Season 2",
+      "nameCN": "福是全家福的福 第二季",
+      "date": "2017-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 288831,
+      "name": "F Is for Family Season 1",
+      "nameCN": "福是全家福的福 第一季",
+      "date": "2015-12-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 288833,
+      "name": "F Is for Family Season 3",
+      "nameCN": "福是全家福的福 第三季",
+      "date": "2018-11-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 313649,
+      "name": "F Is for Family Season 4",
+      "nameCN": "福是全家福的福 第四季",
+      "date": "2020-06-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 219578,
+      "dst": 288831
+    },
+    {
+      "relateString": "续集",
+      "src": 219578,
+      "dst": 288833
+    },
+    {
+      "relateString": "续集",
+      "src": 288831,
+      "dst": 219578
+    },
+    {
+      "relateString": "前传",
+      "src": 288833,
+      "dst": 219578
+    },
+    {
+      "relateString": "续集",
+      "src": 288833,
+      "dst": 313649
+    },
+    {
+      "relateString": "前传",
+      "src": 313649,
+      "dst": 288833
+    }
+  ]
 }

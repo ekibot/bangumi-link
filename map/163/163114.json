@@ -1,57 +1,53 @@
 {
- "id": 163114,
- "node": [
-  {
-   "id": 163114,
-   "name": "ノラと皇女と野良猫ハート",
-   "nameCN": "野良和皇女和流浪猫之心",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/dc/163114_ULZds.jpg",
-   "date": "2017-07-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 215841,
-   "name": "ノラと皇女と野良猫ラジオ",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/0b/215841_3KWNK.jpg",
-   "date": "2017-05-25",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 267988,
-   "name": "ノラと皇女と野良猫ハート 次期",
-   "nameCN": "野良和皇女和流浪猫之心 次期",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/74/267988_1lD6S.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 163114,
-   "dst": 215841
-  },
-  {
-   "relate": "续集",
-   "src": 163114,
-   "dst": 267988
-  },
-  {
-   "relate": "衍生",
-   "src": 215841,
-   "dst": 163114
-  },
-  {
-   "relate": "前传",
-   "src": 267988,
-   "dst": 163114
-  }
- ]
+  "id": "163114",
+  "node": [
+    {
+      "id": 163114,
+      "name": "ノラと皇女と野良猫ハート",
+      "nameCN": "野良和皇女和流浪猫之心",
+      "date": "2017-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 215841,
+      "name": "ノラと皇女と野良猫ラジオ",
+      "nameCN": "",
+      "date": "2017-05-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 267988,
+      "name": "ノラと皇女と野良猫ハート 次期",
+      "nameCN": "野良和皇女和流浪猫之心 次期",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 163114,
+      "dst": 215841
+    },
+    {
+      "relateString": "续集",
+      "src": 163114,
+      "dst": 267988
+    },
+    {
+      "relateString": "衍生",
+      "src": 215841,
+      "dst": 163114
+    },
+    {
+      "relateString": "前传",
+      "src": 267988,
+      "dst": 163114
+    }
+  ]
 }

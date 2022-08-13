@@ -1,62 +1,59 @@
 {
- "id": 35798,
- "node": [
-  {
-   "id": 35798,
-   "name": "警察戦車隊 TANK S.W.A.T.",
-   "nameCN": "警察战车队 TANK S.W.A.T.",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/c1/35798_g9kRt.jpg",
-   "date": "2006-03-24",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 35799,
-   "name": "特捜戦車隊ドミニオン",
-   "nameCN": "特搜战车队Dominion",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/10/35799_2ZKgi.jpg",
-   "date": "1993-10-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 46955,
-   "name": "ドミニオン",
-   "nameCN": "特搜机动队",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/fe/46955_FHten.jpg",
-   "date": "1988-05-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 35798,
-   "dst": 35799
-  },
-  {
-   "relate": "相同世界观",
-   "src": 35798,
-   "dst": 46955
-  },
-  {
-   "relate": "相同世界观",
-   "src": 35799,
-   "dst": 35798
-  },
-  {
-   "relate": "前传",
-   "src": 35799,
-   "dst": 46955
-  },
-  {
-   "relate": "续集",
-   "src": 46955,
-   "dst": 35799
-  }
- ]
+  "id": "35798",
+  "node": [
+    {
+      "id": 35798,
+      "name": "警察戦車隊 TANK S.W.A.T.",
+      "nameCN": "警察战车队 TANK S.W.A.T.",
+      "date": "2006-03-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 35799,
+      "name": "特捜戦車隊ドミニオン",
+      "nameCN": "特搜战车队Dominion",
+      "date": "1993-10-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 46955,
+      "name": "ドミニオン",
+      "nameCN": "特搜机动队",
+      "date": "1988-05-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 35798,
+      "dst": 35799
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 35798,
+      "dst": 46955
+    },
+    {
+      "relateString": "续集",
+      "src": 35799,
+      "dst": 35798
+    },
+    {
+      "relateString": "前传",
+      "src": 35799,
+      "dst": 46955
+    },
+    {
+      "relateString": "续集",
+      "src": 46955,
+      "dst": 35799
+    }
+  ]
 }

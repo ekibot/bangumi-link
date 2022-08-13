@@ -1,77 +1,73 @@
 {
- "id": 3515,
- "node": [
-  {
-   "id": 3515,
-   "name": "ファイアボール",
-   "nameCN": "火球",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/ef/3515_BzB05.jpg",
-   "date": "2008-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 14996,
-   "name": "ファイアボール チャーミング",
-   "nameCN": "火球 魅力之章",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/53/14996_54gm5.jpg",
-   "date": "2011-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 223134,
-   "name": "ファイアボール ユーモラス",
-   "nameCN": "火球 幽默之章",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/08/223134_rnRlU.jpg",
-   "date": "2017-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 316612,
-   "name": "ファイアボール ゲボイデ＝ボイデ",
-   "nameCN": "火球最终章",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/68/316612_sNn1R.jpg",
-   "date": "2020-11-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3515,
-   "dst": 14996
-  },
-  {
-   "relate": "前传",
-   "src": 14996,
-   "dst": 3515
-  },
-  {
-   "relate": "续集",
-   "src": 14996,
-   "dst": 223134
-  },
-  {
-   "relate": "前传",
-   "src": 223134,
-   "dst": 14996
-  },
-  {
-   "relate": "续集",
-   "src": 223134,
-   "dst": 316612
-  },
-  {
-   "relate": "前传",
-   "src": 316612,
-   "dst": 223134
-  }
- ]
+  "id": "3515",
+  "node": [
+    {
+      "id": 3515,
+      "name": "ファイアボール",
+      "nameCN": "火球",
+      "date": "2008-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 14996,
+      "name": "ファイアボール チャーミング",
+      "nameCN": "火球 魅力之章",
+      "date": "2011-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 223134,
+      "name": "ファイアボール ユーモラス",
+      "nameCN": "火球 幽默之章",
+      "date": "2017-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 316612,
+      "name": "ファイアボール ゲボイデ＝ボイデ",
+      "nameCN": "火球最终章",
+      "date": "2020-11-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3515,
+      "dst": 14996
+    },
+    {
+      "relateString": "前传",
+      "src": 14996,
+      "dst": 3515
+    },
+    {
+      "relateString": "续集",
+      "src": 14996,
+      "dst": 223134
+    },
+    {
+      "relateString": "前传",
+      "src": 223134,
+      "dst": 14996
+    },
+    {
+      "relateString": "续集",
+      "src": 223134,
+      "dst": 316612
+    },
+    {
+      "relateString": "前传",
+      "src": 316612,
+      "dst": 223134
+    }
+  ]
 }

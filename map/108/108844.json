@@ -1,37 +1,35 @@
 {
- "id": 108844,
- "node": [
-  {
-   "id": 108844,
-   "name": "Mortal METAL屍鋼 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/f0/108844_jp.jpg",
-   "date": "2012-08-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 108845,
-   "name": "Mortal METAL屍鋼 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/b7/108845_jp.jpg",
-   "date": "2013-05-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 108844,
-   "dst": 108845
-  },
-  {
-   "relate": "前传",
-   "src": 108845,
-   "dst": 108844
-  }
- ]
+  "id": "108844",
+  "node": [
+    {
+      "id": 108844,
+      "name": "Mortal METAL屍鋼 1",
+      "nameCN": "",
+      "date": "2012-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 108845,
+      "name": "Mortal METAL屍鋼 2",
+      "nameCN": "",
+      "date": "2013-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 108844,
+      "dst": 108845
+    },
+    {
+      "relateString": "前传",
+      "src": 108845,
+      "dst": 108844
+    }
+  ]
 }

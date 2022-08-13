@@ -1,137 +1,130 @@
 {
- "id": 47981,
- "node": [
-  {
-   "id": 47981,
-   "name": "ご近所物語 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/00/47981_jp.jpg",
-   "date": "1995-10-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 47982,
-   "name": "ご近所物語 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/2a/47982_jp.jpg",
-   "date": "1996-03-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 47983,
-   "name": "ご近所物語 (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/bc/47983_jp.jpg",
-   "date": "1996-08-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 47984,
-   "name": "ご近所物語 (4)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/3d/47984_jp.jpg",
-   "date": "1997-01-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 47985,
-   "name": "ご近所物語 (5)",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/ed/47985_jp.jpg",
-   "date": "1997-07-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 47986,
-   "name": "ご近所物語 (6)",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/ec/47986_jp.jpg",
-   "date": "1997-11-14",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 47987,
-   "name": "ご近所物語 (7)",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/59/47987_jp.jpg",
-   "date": "1998-04-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47981,
-   "dst": 47982
-  },
-  {
-   "relate": "前传",
-   "src": 47982,
-   "dst": 47981
-  },
-  {
-   "relate": "续集",
-   "src": 47982,
-   "dst": 47983
-  },
-  {
-   "relate": "前传",
-   "src": 47983,
-   "dst": 47982
-  },
-  {
-   "relate": "续集",
-   "src": 47983,
-   "dst": 47984
-  },
-  {
-   "relate": "前传",
-   "src": 47984,
-   "dst": 47983
-  },
-  {
-   "relate": "续集",
-   "src": 47984,
-   "dst": 47985
-  },
-  {
-   "relate": "前传",
-   "src": 47985,
-   "dst": 47984
-  },
-  {
-   "relate": "续集",
-   "src": 47985,
-   "dst": 47986
-  },
-  {
-   "relate": "前传",
-   "src": 47986,
-   "dst": 47985
-  },
-  {
-   "relate": "续集",
-   "src": 47986,
-   "dst": 47987
-  },
-  {
-   "relate": "前传",
-   "src": 47987,
-   "dst": 47986
-  }
- ]
+  "id": "47981",
+  "node": [
+    {
+      "id": 47981,
+      "name": "ご近所物語 (1)",
+      "nameCN": "",
+      "date": "1995-10-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47982,
+      "name": "ご近所物語 (2)",
+      "nameCN": "",
+      "date": "1996-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47983,
+      "name": "ご近所物語 (3)",
+      "nameCN": "",
+      "date": "1996-08-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47984,
+      "name": "ご近所物語 (4)",
+      "nameCN": "",
+      "date": "1997-01-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47985,
+      "name": "ご近所物語 (5)",
+      "nameCN": "",
+      "date": "1997-07-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47986,
+      "name": "ご近所物語 (6)",
+      "nameCN": "",
+      "date": "1997-11-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 47987,
+      "name": "ご近所物語 (7)",
+      "nameCN": "",
+      "date": "1998-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47981,
+      "dst": 47982
+    },
+    {
+      "relateString": "前传",
+      "src": 47982,
+      "dst": 47981
+    },
+    {
+      "relateString": "续集",
+      "src": 47982,
+      "dst": 47983
+    },
+    {
+      "relateString": "前传",
+      "src": 47983,
+      "dst": 47982
+    },
+    {
+      "relateString": "续集",
+      "src": 47983,
+      "dst": 47984
+    },
+    {
+      "relateString": "前传",
+      "src": 47984,
+      "dst": 47983
+    },
+    {
+      "relateString": "续集",
+      "src": 47984,
+      "dst": 47985
+    },
+    {
+      "relateString": "前传",
+      "src": 47985,
+      "dst": 47984
+    },
+    {
+      "relateString": "续集",
+      "src": 47985,
+      "dst": 47986
+    },
+    {
+      "relateString": "前传",
+      "src": 47986,
+      "dst": 47985
+    },
+    {
+      "relateString": "续集",
+      "src": 47986,
+      "dst": 47987
+    },
+    {
+      "relateString": "前传",
+      "src": 47987,
+      "dst": 47986
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 1575,
- "node": [
-  {
-   "id": 1575,
-   "name": "ロコロコ",
-   "nameCN": "乐克乐克",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/ef/1575_Uc923.jpg",
-   "date": "2006-07-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 1581,
-   "name": "ロコロコ2",
-   "nameCN": "乐克乐克2",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/a1/1581_K5kCg.jpg",
-   "date": "2008-12-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1575,
-   "dst": 1581
-  },
-  {
-   "relate": "前传",
-   "src": 1581,
-   "dst": 1575
-  }
- ]
+  "id": "1575",
+  "node": [
+    {
+      "id": 1575,
+      "name": "ロコロコ",
+      "nameCN": "乐克乐克",
+      "date": "2006-07-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 1581,
+      "name": "ロコロコ2",
+      "nameCN": "乐克乐克2",
+      "date": "2008-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1575,
+      "dst": 1581
+    },
+    {
+      "relateString": "前传",
+      "src": 1581,
+      "dst": 1575
+    }
+  ]
 }

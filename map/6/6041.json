@@ -1,57 +1,51 @@
 {
- "id": 6041,
- "node": [
-  {
-   "id": 6041,
-   "name": "Brothers &amp; Sisters Season 4",
-   "nameCN": "兄弟姐妹 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/ee/6041_N4OoY.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 87617,
-   "name": "Brothers &amp; Sisters Season 5",
-   "nameCN": "兄弟姐妹 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/1e/87617_7DjSF.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97568,
-   "name": "Brothers &amp; Sisters Season 3",
-   "nameCN": "兄弟姐妹 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/08/97568_TPOTt.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6041,
-   "dst": 87617
-  },
-  {
-   "relate": "前传",
-   "src": 6041,
-   "dst": 97568
-  },
-  {
-   "relate": "前传",
-   "src": 87617,
-   "dst": 6041
-  },
-  {
-   "relate": "续集",
-   "src": 97568,
-   "dst": 6041
-  }
- ]
+  "id": "6041",
+  "node": [
+    {
+      "id": 6041,
+      "name": "Brothers &amp; Sisters Season 4",
+      "nameCN": "兄弟姐妹 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 87617,
+      "name": "Brothers &amp; Sisters Season 5",
+      "nameCN": "兄弟姐妹 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97568,
+      "name": "Brothers &amp; Sisters Season 3",
+      "nameCN": "兄弟姐妹 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6041,
+      "dst": 87617
+    },
+    {
+      "relateString": "前传",
+      "src": 6041,
+      "dst": 97568
+    },
+    {
+      "relateString": "前传",
+      "src": 87617,
+      "dst": 6041
+    },
+    {
+      "relateString": "续集",
+      "src": 97568,
+      "dst": 6041
+    }
+  ]
 }

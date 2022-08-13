@@ -1,57 +1,51 @@
 {
- "id": 121448,
- "node": [
-  {
-   "id": 121448,
-   "name": "義風堂々 直江兼続 -前田慶次月語り-",
-   "nameCN": "义风堂堂！！兼续和庆次",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/3e/121448_l9Twq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 121458,
-   "name": "義風堂々!!直江兼続 -前田慶次酒語り-",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/3c/121458_BAJ8B.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 121472,
-   "name": "義風堂々!!直江兼続 -前田慶次花語り-",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/c1/121472_F8IGV.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121448,
-   "dst": 121458
-  },
-  {
-   "relate": "前传",
-   "src": 121458,
-   "dst": 121448
-  },
-  {
-   "relate": "续集",
-   "src": 121458,
-   "dst": 121472
-  },
-  {
-   "relate": "前传",
-   "src": 121472,
-   "dst": 121458
-  }
- ]
+  "id": "121448",
+  "node": [
+    {
+      "id": 121448,
+      "name": "義風堂々 直江兼続 -前田慶次月語り-",
+      "nameCN": "义风堂堂！！兼续和庆次",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121458,
+      "name": "義風堂々!!直江兼続 -前田慶次酒語り-",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121472,
+      "name": "義風堂々!!直江兼続 -前田慶次花語り-",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121448,
+      "dst": 121458
+    },
+    {
+      "relateString": "前传",
+      "src": 121458,
+      "dst": 121448
+    },
+    {
+      "relateString": "续集",
+      "src": 121458,
+      "dst": 121472
+    },
+    {
+      "relateString": "前传",
+      "src": 121472,
+      "dst": 121458
+    }
+  ]
 }

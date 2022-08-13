@@ -1,37 +1,35 @@
 {
- "id": 12311,
- "node": [
-  {
-   "id": 12311,
-   "name": "Shank",
-   "nameCN": "闪克",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/e2/12311_h9heU.jpg",
-   "date": "2010-08-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 33548,
-   "name": "Shank 2",
-   "nameCN": "闪克 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/4f/33548_nWzLz.jpg",
-   "date": "2012-02-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12311,
-   "dst": 33548
-  },
-  {
-   "relate": "前传",
-   "src": 33548,
-   "dst": 12311
-  }
- ]
+  "id": "12311",
+  "node": [
+    {
+      "id": 12311,
+      "name": "Shank",
+      "nameCN": "闪克",
+      "date": "2010-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 33548,
+      "name": "Shank 2",
+      "nameCN": "闪克 2",
+      "date": "2012-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12311,
+      "dst": 33548
+    },
+    {
+      "relateString": "前传",
+      "src": 33548,
+      "dst": 12311
+    }
+  ]
 }

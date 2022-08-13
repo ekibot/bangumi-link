@@ -1,37 +1,35 @@
 {
- "id": 7236,
- "node": [
-  {
-   "id": 7236,
-   "name": "ラッキーナンバー13 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/ae/7236_22FF8.jpg",
-   "date": "2010-07-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 22725,
-   "name": "ラッキーナンバー13 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/f2/22725_jp.jpg",
-   "date": "2011-08-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7236,
-   "dst": 22725
-  },
-  {
-   "relate": "前传",
-   "src": 22725,
-   "dst": 7236
-  }
- ]
+  "id": "7236",
+  "node": [
+    {
+      "id": 7236,
+      "name": "ラッキーナンバー13 (1)",
+      "nameCN": "",
+      "date": "2010-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 22725,
+      "name": "ラッキーナンバー13 (2)",
+      "nameCN": "",
+      "date": "2011-08-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7236,
+      "dst": 22725
+    },
+    {
+      "relateString": "前传",
+      "src": 22725,
+      "dst": 7236
+    }
+  ]
 }

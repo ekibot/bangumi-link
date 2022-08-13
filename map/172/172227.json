@@ -1,57 +1,53 @@
 {
- "id": 172227,
- "node": [
-  {
-   "id": 172227,
-   "name": "大正処女御伽話",
-   "nameCN": "大正处女御伽话",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/90/172227_CjYcr.jpg",
-   "date": "2016-02-04",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 259940,
-   "name": "昭和オトメ御伽話",
-   "nameCN": "昭和处女御伽话",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/b4/259940_biAOd.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 344351,
-   "name": "大正処女御伽話 -厭世家ノ食卓-",
-   "nameCN": "大正处女御伽话-厌世者的餐桌",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/9d/344351_Go2x8.jpg",
-   "date": "2021-10-04",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 172227,
-   "dst": 259940
-  },
-  {
-   "relate": "番外篇",
-   "src": 172227,
-   "dst": 344351
-  },
-  {
-   "relate": "相同世界观",
-   "src": 259940,
-   "dst": 172227
-  },
-  {
-   "relate": "主线故事",
-   "src": 344351,
-   "dst": 172227
-  }
- ]
+  "id": "172227",
+  "node": [
+    {
+      "id": 172227,
+      "name": "大正処女御伽話",
+      "nameCN": "大正处女御伽话",
+      "date": "2016-02-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259940,
+      "name": "昭和オトメ御伽話",
+      "nameCN": "昭和处女御伽话",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 344351,
+      "name": "大正処女御伽話 -厭世家ノ食卓-",
+      "nameCN": "大正处女御伽话-厌世者的餐桌",
+      "date": "2021-10-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 172227,
+      "dst": 259940
+    },
+    {
+      "relateString": "番外篇",
+      "src": 172227,
+      "dst": 344351
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 259940,
+      "dst": 172227
+    },
+    {
+      "relateString": "主线故事",
+      "src": 344351,
+      "dst": 172227
+    }
+  ]
 }

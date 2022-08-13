@@ -1,37 +1,35 @@
 {
- "id": 92797,
- "node": [
-  {
-   "id": 92797,
-   "name": "ロンリー・マイセルフ・サーガ 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/41/92797_jp.jpg",
-   "date": "2013-04-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 105511,
-   "name": "ロンリー・マイセルフ・サーガ 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/f3/105511_jp.jpg",
-   "date": "2013-09-21",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 92797,
-   "dst": 105511
-  },
-  {
-   "relate": "前传",
-   "src": 105511,
-   "dst": 92797
-  }
- ]
+  "id": "92797",
+  "node": [
+    {
+      "id": 92797,
+      "name": "ロンリー・マイセルフ・サーガ 1",
+      "nameCN": "",
+      "date": "2013-04-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 105511,
+      "name": "ロンリー・マイセルフ・サーガ 2",
+      "nameCN": "",
+      "date": "2013-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 92797,
+      "dst": 105511
+    },
+    {
+      "relateString": "前传",
+      "src": 105511,
+      "dst": 92797
+    }
+  ]
 }

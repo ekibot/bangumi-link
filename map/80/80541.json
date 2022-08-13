@@ -1,37 +1,33 @@
 {
- "id": 80541,
- "node": [
-  {
-   "id": 80541,
-   "name": "ハネムーンサラダ",
-   "nameCN": "蜜月沙拉",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/82/80541_AkA5g.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 80542,
-   "name": "ベイビーリーフ",
-   "nameCN": "我的学弟男友",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/0a/80542_3otQC.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 80541,
-   "dst": 80542
-  },
-  {
-   "relate": "续集",
-   "src": 80542,
-   "dst": 80541
-  }
- ]
+  "id": "80541",
+  "node": [
+    {
+      "id": 80541,
+      "name": "ハネムーンサラダ",
+      "nameCN": "蜜月沙拉",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 80542,
+      "name": "ベイビーリーフ",
+      "nameCN": "我的学弟男友",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 80541,
+      "dst": 80542
+    },
+    {
+      "relateString": "续集",
+      "src": 80542,
+      "dst": 80541
+    }
+  ]
 }

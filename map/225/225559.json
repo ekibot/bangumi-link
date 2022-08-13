@@ -1,37 +1,33 @@
 {
- "id": 225559,
- "node": [
-  {
-   "id": 225559,
-   "name": "逝翼",
-   "nameCN": "逝翼",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/b7/225559_nbRgy.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 225560,
-   "name": "逝翼~再逢~",
-   "nameCN": "逝翼~再逢~",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/46/225560_Jj6Rs.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225559,
-   "dst": 225560
-  },
-  {
-   "relate": "前传",
-   "src": 225560,
-   "dst": 225559
-  }
- ]
+  "id": "225559",
+  "node": [
+    {
+      "id": 225559,
+      "name": "逝翼",
+      "nameCN": "逝翼",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225560,
+      "name": "逝翼~再逢~",
+      "nameCN": "逝翼~再逢~",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225559,
+      "dst": 225560
+    },
+    {
+      "relateString": "前传",
+      "src": 225560,
+      "dst": 225559
+    }
+  ]
 }

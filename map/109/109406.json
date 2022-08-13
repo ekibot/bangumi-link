@@ -1,37 +1,35 @@
 {
- "id": 109406,
- "node": [
-  {
-   "id": 109406,
-   "name": "Manhattan Season 1",
-   "nameCN": "曼哈顿计划 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/1c/109406_gwvsa.jpg",
-   "date": "2014-07-27",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 161796,
-   "name": "Manhattan Season 2",
-   "nameCN": "曼哈顿计划 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/eb/161796_lQ4sh.jpg",
-   "date": "2015-10-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 109406,
-   "dst": 161796
-  },
-  {
-   "relate": "前传",
-   "src": 161796,
-   "dst": 109406
-  }
- ]
+  "id": "109406",
+  "node": [
+    {
+      "id": 109406,
+      "name": "Manhattan Season 1",
+      "nameCN": "曼哈顿计划 第一季",
+      "date": "2014-07-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 161796,
+      "name": "Manhattan Season 2",
+      "nameCN": "曼哈顿计划 第二季",
+      "date": "2015-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 109406,
+      "dst": 161796
+    },
+    {
+      "relateString": "前传",
+      "src": 161796,
+      "dst": 109406
+    }
+  ]
 }

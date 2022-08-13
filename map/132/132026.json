@@ -1,57 +1,51 @@
 {
- "id": 132026,
- "node": [
-  {
-   "id": 132026,
-   "name": "Hexcells",
-   "nameCN": "六角细胞",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/a7/132026_VVSk9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 132027,
-   "name": "Hexcells Infinite",
-   "nameCN": "无尽六边形",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/70/132027_lX450.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 132028,
-   "name": "Hexcells Plus",
-   "nameCN": "六角细胞+",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/11/132028_MnD4m.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 132026,
-   "dst": 132028
-  },
-  {
-   "relate": "前传",
-   "src": 132027,
-   "dst": 132028
-  },
-  {
-   "relate": "前传",
-   "src": 132028,
-   "dst": 132026
-  },
-  {
-   "relate": "续集",
-   "src": 132028,
-   "dst": 132027
-  }
- ]
+  "id": "132026",
+  "node": [
+    {
+      "id": 132026,
+      "name": "Hexcells",
+      "nameCN": "六角细胞",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 132028,
+      "name": "Hexcells Plus",
+      "nameCN": "六角细胞+",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 132027,
+      "name": "Hexcells Infinite",
+      "nameCN": "无尽六边形",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 132026,
+      "dst": 132028
+    },
+    {
+      "relateString": "前传",
+      "src": 132027,
+      "dst": 132028
+    },
+    {
+      "relateString": "前传",
+      "src": 132028,
+      "dst": 132026
+    },
+    {
+      "relateString": "续集",
+      "src": 132028,
+      "dst": 132027
+    }
+  ]
 }

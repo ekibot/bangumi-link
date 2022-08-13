@@ -1,37 +1,35 @@
 {
- "id": 220568,
- "node": [
-  {
-   "id": 220568,
-   "name": "二科てすらは推理しない",
-   "nameCN": "二科特斯拉不推理",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/da/220568_fKfkt.jpg",
-   "date": "2017-10-23",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 241647,
-   "name": "二科てすらは見つからない",
-   "nameCN": "二科特斯拉找不到",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/cb/241647_Tib7R.jpg",
-   "date": "2018-07-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 220568,
-   "dst": 241647
-  },
-  {
-   "relate": "前传",
-   "src": 241647,
-   "dst": 220568
-  }
- ]
+  "id": "220568",
+  "node": [
+    {
+      "id": 220568,
+      "name": "二科てすらは推理しない",
+      "nameCN": "二科特斯拉不推理",
+      "date": "2017-10-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241647,
+      "name": "二科てすらは見つからない",
+      "nameCN": "二科特斯拉找不到",
+      "date": "2018-07-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 220568,
+      "dst": 241647
+    },
+    {
+      "relateString": "前传",
+      "src": 241647,
+      "dst": 220568
+    }
+  ]
 }

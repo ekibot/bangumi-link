@@ -1,37 +1,34 @@
 {
- "id": 87517,
- "node": [
-  {
-   "id": 87517,
-   "name": "エリートヤンキー三郎",
-   "nameCN": "史上最不幸的大佬 三郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/59/87517_lo4ma.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 158693,
-   "name": "エリートヤンキー三郎 風雲野望編",
-   "nameCN": "史上最不幸的大佬三郎 风云野望篇",
-   "date": "2005-10-06",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87517,
-   "dst": 158693
-  },
-  {
-   "relate": "前传",
-   "src": 158693,
-   "dst": 87517
-  }
- ]
+  "id": "87517",
+  "node": [
+    {
+      "id": 87517,
+      "name": "エリートヤンキー三郎",
+      "nameCN": "史上最不幸的大佬 三郎",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 158693,
+      "name": "エリートヤンキー三郎 風雲野望編",
+      "nameCN": "史上最不幸的大佬三郎 风云野望篇",
+      "date": "2005-10-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87517,
+      "dst": 158693
+    },
+    {
+      "relateString": "前传",
+      "src": 158693,
+      "dst": 87517
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 47052,
- "node": [
-  {
-   "id": 47052,
-   "name": "象の背中 -旅立つ日-",
-   "nameCN": "象之背 起程之日",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/1b/47052_O9Om1.jpg",
-   "date": "2007-10-26",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 47054,
-   "name": "続・象の背中 -バトンタッチ-",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/0e/47054_NqO59.jpg",
-   "date": "2009-02-27",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47052,
-   "dst": 47054
-  },
-  {
-   "relate": "前传",
-   "src": 47054,
-   "dst": 47052
-  }
- ]
+  "id": "47052",
+  "node": [
+    {
+      "id": 47052,
+      "name": "象の背中 -旅立つ日-",
+      "nameCN": "象之背 起程之日",
+      "date": "2007-10-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 47054,
+      "name": "続・象の背中 -バトンタッチ-",
+      "nameCN": "",
+      "date": "2009-02-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47052,
+      "dst": 47054
+    },
+    {
+      "relateString": "前传",
+      "src": 47054,
+      "dst": 47052
+    }
+  ]
 }

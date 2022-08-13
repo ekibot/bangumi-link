@@ -1,37 +1,35 @@
 {
- "id": 27993,
- "node": [
-  {
-   "id": 27993,
-   "name": "BLUE DRAGON",
-   "nameCN": "蓝龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/bc/27993_KQg2G.jpg",
-   "date": "2007-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 50665,
-   "name": "BLUE DRAGON 天界の七竜",
-   "nameCN": "蓝龙 天界的七龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/91/50665_122Xd.jpg",
-   "date": "2008-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 27993,
-   "dst": 50665
-  },
-  {
-   "relate": "前传",
-   "src": 50665,
-   "dst": 27993
-  }
- ]
+  "id": "27993",
+  "node": [
+    {
+      "id": 27993,
+      "name": "BLUE DRAGON",
+      "nameCN": "蓝龙",
+      "date": "2007-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 50665,
+      "name": "BLUE DRAGON 天界の七竜",
+      "nameCN": "蓝龙 天界的七龙",
+      "date": "2008-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 27993,
+      "dst": 50665
+    },
+    {
+      "relateString": "前传",
+      "src": 50665,
+      "dst": 27993
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 224641,
- "node": [
-  {
-   "id": 224641,
-   "name": "武动乾坤",
-   "nameCN": "武动乾坤",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/18/224641_ZtSzh.jpg",
-   "date": "2019-01-27",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 309600,
-   "name": "武动乾坤 第二季",
-   "nameCN": "武动乾坤 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/8e/309600_5uTrt.jpg",
-   "date": "2020-07-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 312437,
-   "name": "武动乾坤 第三季",
-   "nameCN": "武动乾坤 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/ac/312437_GksPP.jpg",
-   "date": "2022-05-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 395285,
-   "name": "武动乾坤 第四季",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/74/395285_fif9H.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224641,
-   "dst": 309600
-  },
-  {
-   "relate": "前传",
-   "src": 309600,
-   "dst": 224641
-  },
-  {
-   "relate": "续集",
-   "src": 309600,
-   "dst": 312437
-  },
-  {
-   "relate": "前传",
-   "src": 312437,
-   "dst": 309600
-  },
-  {
-   "relate": "续集",
-   "src": 312437,
-   "dst": 395285
-  },
-  {
-   "relate": "前传",
-   "src": 395285,
-   "dst": 312437
-  }
- ]
+  "id": "224641",
+  "node": [
+    {
+      "id": 224641,
+      "name": "武动乾坤",
+      "nameCN": "武动乾坤",
+      "date": "2019-01-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 309600,
+      "name": "武动乾坤 第二季",
+      "nameCN": "武动乾坤 第二季",
+      "date": "2020-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 312437,
+      "name": "武动乾坤 第三季",
+      "nameCN": "武动乾坤 第三季",
+      "date": "2022-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 395285,
+      "name": "武动乾坤 第四季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224641,
+      "dst": 309600
+    },
+    {
+      "relateString": "前传",
+      "src": 309600,
+      "dst": 224641
+    },
+    {
+      "relateString": "续集",
+      "src": 309600,
+      "dst": 312437
+    },
+    {
+      "relateString": "前传",
+      "src": 312437,
+      "dst": 309600
+    },
+    {
+      "relateString": "续集",
+      "src": 312437,
+      "dst": 395285
+    },
+    {
+      "relateString": "前传",
+      "src": 395285,
+      "dst": 312437
+    }
+  ]
 }

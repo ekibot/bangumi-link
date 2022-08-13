@@ -1,37 +1,35 @@
 {
- "id": 4521,
- "node": [
-  {
-   "id": 4521,
-   "name": "메이플스토리",
-   "nameCN": "冒险岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/2d/4521_SHIrh.jpg",
-   "date": "2003-04-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228879,
-   "name": "MapleStory 2",
-   "nameCN": "冒险岛2",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/84/228879_iBEI5.jpg",
-   "date": "2015-07-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 4521,
-   "dst": 228879
-  },
-  {
-   "relate": "相同世界观",
-   "src": 228879,
-   "dst": 4521
-  }
- ]
+  "id": "4521",
+  "node": [
+    {
+      "id": 4521,
+      "name": "메이플스토리",
+      "nameCN": "冒险岛",
+      "date": "2003-04-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228879,
+      "name": "MapleStory 2",
+      "nameCN": "冒险岛2",
+      "date": "2015-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 4521,
+      "dst": 228879
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 228879,
+      "dst": 4521
+    }
+  ]
 }

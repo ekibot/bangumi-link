@@ -1,37 +1,35 @@
 {
- "id": 117206,
- "node": [
-  {
-   "id": 117206,
-   "name": "OVERWATCH",
-   "nameCN": "守望先锋",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/a1/117206_ElQql.jpg",
-   "date": "2016-05-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294014,
-   "name": "OVERWATCH 2",
-   "nameCN": "守望先锋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/ca/294014_mM3fe.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 117206,
-   "dst": 294014
-  },
-  {
-   "relate": "前传",
-   "src": 294014,
-   "dst": 117206
-  }
- ]
+  "id": "117206",
+  "node": [
+    {
+      "id": 117206,
+      "name": "OVERWATCH",
+      "nameCN": "守望先锋",
+      "date": "2016-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294014,
+      "name": "OVERWATCH 2",
+      "nameCN": "守望先锋2",
+      "date": "2022-10-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 117206,
+      "dst": 294014
+    },
+    {
+      "relateString": "前传",
+      "src": 294014,
+      "dst": 117206
+    }
+  ]
 }

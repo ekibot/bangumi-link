@@ -1,37 +1,34 @@
 {
- "id": 8256,
- "node": [
-  {
-   "id": 8256,
-   "name": "Vexed Series 1",
-   "nameCN": "冤家搭档 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/2b/8256_EU7J3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 46338,
-   "name": "Vexed Series 2",
-   "nameCN": "冤家搭档 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/0e/46338_6YGer.jpg",
-   "date": "2012-08-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 8256,
-   "dst": 46338
-  },
-  {
-   "relate": "主线故事",
-   "src": 46338,
-   "dst": 8256
-  }
- ]
+  "id": "8256",
+  "node": [
+    {
+      "id": 8256,
+      "name": "Vexed Series 1",
+      "nameCN": "冤家搭档 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 46338,
+      "name": "Vexed Series 2",
+      "nameCN": "冤家搭档 第二季",
+      "date": "2012-08-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 8256,
+      "dst": 46338
+    },
+    {
+      "relateString": "主线故事",
+      "src": 46338,
+      "dst": 8256
+    }
+  ]
 }

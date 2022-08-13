@@ -1,37 +1,35 @@
 {
- "id": 77012,
- "node": [
-  {
-   "id": 77012,
-   "name": "Please Like Me",
-   "nameCN": "请喜欢我",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/83/77012_RdzOF.jpg",
-   "date": "2013-02-28",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 111389,
-   "name": "Please Like Me Season 2",
-   "nameCN": "请喜欢我 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/05/111389_b0C0G.jpg",
-   "date": "2014-08-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77012,
-   "dst": 111389
-  },
-  {
-   "relate": "前传",
-   "src": 111389,
-   "dst": 77012
-  }
- ]
+  "id": "77012",
+  "node": [
+    {
+      "id": 77012,
+      "name": "Please Like Me",
+      "nameCN": "请喜欢我",
+      "date": "2013-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 111389,
+      "name": "Please Like Me Season 2",
+      "nameCN": "请喜欢我 第二季",
+      "date": "2014-08-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77012,
+      "dst": 111389
+    },
+    {
+      "relateString": "前传",
+      "src": 111389,
+      "dst": 77012
+    }
+  ]
 }

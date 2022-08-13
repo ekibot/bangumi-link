@@ -1,77 +1,71 @@
 {
- "id": 10958,
- "node": [
-  {
-   "id": 10958,
-   "name": "Super Meat Boy",
-   "nameCN": "超级食肉男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/29/10958_osRAA.jpg",
-   "date": "2010-10-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107953,
-   "name": "Meat Boy",
-   "nameCN": "肉男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/7a/107953_16Pzm.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 107972,
-   "name": "Super Tofu Boy",
-   "nameCN": "超级豆腐男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/d0/107972_CXUKr.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 116115,
-   "name": "Super Meat Boy Forever",
-   "nameCN": "超级食肉男孩永恒",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/16/116115_QvbY8.jpg",
-   "date": "2020-12-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 10958,
-   "dst": 107953
-  },
-  {
-   "relate": "相同世界观",
-   "src": 10958,
-   "dst": 107972
-  },
-  {
-   "relate": "续集",
-   "src": 10958,
-   "dst": 116115
-  },
-  {
-   "relate": "续集",
-   "src": 107953,
-   "dst": 10958
-  },
-  {
-   "relate": "相同世界观",
-   "src": 107972,
-   "dst": 10958
-  },
-  {
-   "relate": "前传",
-   "src": 116115,
-   "dst": 10958
-  }
- ]
+  "id": "10958",
+  "node": [
+    {
+      "id": 10958,
+      "name": "Super Meat Boy",
+      "nameCN": "超级食肉男孩",
+      "date": "2010-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107953,
+      "name": "Meat Boy",
+      "nameCN": "肉男孩",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107972,
+      "name": "Super Tofu Boy",
+      "nameCN": "超级豆腐男孩",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 116115,
+      "name": "Super Meat Boy Forever",
+      "nameCN": "超级食肉男孩永恒",
+      "date": "2020-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 10958,
+      "dst": 107953
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 10958,
+      "dst": 107972
+    },
+    {
+      "relateString": "续集",
+      "src": 10958,
+      "dst": 116115
+    },
+    {
+      "relateString": "续集",
+      "src": 107953,
+      "dst": 10958
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 107972,
+      "dst": 10958
+    },
+    {
+      "relateString": "前传",
+      "src": 116115,
+      "dst": 10958
+    }
+  ]
 }

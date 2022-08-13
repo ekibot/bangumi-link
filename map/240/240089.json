@@ -1,37 +1,35 @@
 {
- "id": 240089,
- "node": [
-  {
-   "id": 240089,
-   "name": "Hello,Hello and Hello",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/d0/240089_1n6tT.jpg",
-   "date": "2018-03-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 260196,
-   "name": "Hello,Hello and Hello ~piece of mind~",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/0e/260196_R24oZ.jpg",
-   "date": "2018-08-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240089,
-   "dst": 260196
-  },
-  {
-   "relate": "前传",
-   "src": 260196,
-   "dst": 240089
-  }
- ]
+  "id": "240089",
+  "node": [
+    {
+      "id": 240089,
+      "name": "Hello,Hello and Hello",
+      "nameCN": "",
+      "date": "2018-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 260196,
+      "name": "Hello,Hello and Hello ~piece of mind~",
+      "nameCN": "",
+      "date": "2018-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240089,
+      "dst": 260196
+    },
+    {
+      "relateString": "前传",
+      "src": 260196,
+      "dst": 240089
+    }
+  ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "98932",
+  "node": [
+    {
+      "id": 98932,
+      "name": "ふくらみかけ りた～んず",
+      "nameCN": "",
+      "date": "2003-01-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348545,
+      "name": "ふくらみかけ",
+      "nameCN": "",
+      "date": "2002-06-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348548,
+      "name": "ふくらみかけ2～ブラかえました～",
+      "nameCN": "",
+      "date": "2003-11-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 98932,
+      "dst": 348545
+    },
+    {
+      "relateString": "续集",
+      "src": 348545,
+      "dst": 348548
+    },
+    {
+      "relateString": "前传",
+      "src": 348548,
+      "dst": 348545
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "67215",
+  "node": [
+    {
+      "id": 67215,
+      "name": "Specialist スペシャリスト",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 99979,
+      "name": "Specialist 2",
+      "nameCN": "",
+      "date": "2014-03-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 174563,
+      "name": "Specialist 3",
+      "nameCN": "",
+      "date": "2015-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 154978,
+      "name": "スペシャリスト",
+      "nameCN": "SPECIALIST",
+      "date": "2016-01-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 174564,
+      "name": "Specialist 4",
+      "nameCN": "",
+      "date": "2015-12-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67215,
+      "dst": 99979
+    },
+    {
+      "relateString": "前传",
+      "src": 99979,
+      "dst": 67215
+    },
+    {
+      "relateString": "续集",
+      "src": 99979,
+      "dst": 174563
+    },
+    {
+      "relateString": "前传",
+      "src": 174563,
+      "dst": 99979
+    },
+    {
+      "relateString": "前传",
+      "src": 154978,
+      "dst": 174564
+    },
+    {
+      "relateString": "续集",
+      "src": 174563,
+      "dst": 174564
+    },
+    {
+      "relateString": "续集",
+      "src": 174564,
+      "dst": 154978
+    },
+    {
+      "relateString": "前传",
+      "src": 174564,
+      "dst": 174563
+    }
+  ]
+}

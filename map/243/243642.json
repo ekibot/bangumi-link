@@ -1,108 +1,151 @@
 {
- "id": 243642,
- "node": [
-  {
-   "id": 243642,
-   "name": "フェチ3 表の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2005-06-03"
-  },
-  {
-   "id": 243643,
-   "name": "フェチ3 裏の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2005-06-03"
-  },
-  {
-   "id": 243649,
-   "name": "フェチ2 表の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2004-05-21"
-  },
-  {
-   "id": 243650,
-   "name": "フェチ2 裏の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2004-05-21"
-  },
-  {
-   "id": 268672,
-   "name": "フェチ 裏の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-04-01"
-  },
-  {
-   "id": 268675,
-   "name": "フェチ 表の記憶",
-   "image": "/img/no_icon_subject.png",
-   "date": "2004-02-06"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 243642,
-   "dst": 243643
-  },
-  {
-   "relate": "前传",
-   "src": 243642,
-   "dst": 243649
-  },
-  {
-   "relate": "不同演绎",
-   "src": 243643,
-   "dst": 243642
-  },
-  {
-   "relate": "前传",
-   "src": 243643,
-   "dst": 243649
-  },
-  {
-   "relate": "续集",
-   "src": 243649,
-   "dst": 243642
-  },
-  {
-   "relate": "不同演绎",
-   "src": 243649,
-   "dst": 243650
-  },
-  {
-   "relate": "前传",
-   "src": 243649,
-   "dst": 268675
-  },
-  {
-   "relate": "续集",
-   "src": 243650,
-   "dst": 243642
-  },
-  {
-   "relate": "不同演绎",
-   "src": 243650,
-   "dst": 243649
-  },
-  {
-   "relate": "前传",
-   "src": 243650,
-   "dst": 268675
-  },
-  {
-   "relate": "不同演绎",
-   "src": 268672,
-   "dst": 268675
-  },
-  {
-   "relate": "续集",
-   "src": 268675,
-   "dst": 243650
-  },
-  {
-   "relate": "不同演绎",
-   "src": 268675,
-   "dst": 268672
-  }
- ]
+  "id": "243642",
+  "node": [
+    {
+      "id": 243642,
+      "name": "フェチ3 表の記憶",
+      "nameCN": "",
+      "date": "2005-06-03",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243643,
+      "name": "フェチ3 裏の記憶",
+      "nameCN": "",
+      "date": "2005-06-03",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243649,
+      "name": "フェチ2 表の記憶",
+      "nameCN": "",
+      "date": "2004-05-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243650,
+      "name": "フェチ2 裏の記憶",
+      "nameCN": "",
+      "date": "2004-05-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 268675,
+      "name": "フェチ 表の記憶",
+      "nameCN": "",
+      "date": "2004-02-06",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 268672,
+      "name": "フェチ 裏の記憶",
+      "nameCN": "",
+      "date": "2006-04-01",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 243642,
+      "dst": 243643
+    },
+    {
+      "relateString": "前传",
+      "src": 243642,
+      "dst": 243649
+    },
+    {
+      "relateString": "前传",
+      "src": 243642,
+      "dst": 243650
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 243643,
+      "dst": 243642
+    },
+    {
+      "relateString": "前传",
+      "src": 243643,
+      "dst": 243649
+    },
+    {
+      "relateString": "前传",
+      "src": 243643,
+      "dst": 243650
+    },
+    {
+      "relateString": "续集",
+      "src": 243649,
+      "dst": 243642
+    },
+    {
+      "relateString": "续集",
+      "src": 243649,
+      "dst": 243643
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 243649,
+      "dst": 243650
+    },
+    {
+      "relateString": "前传",
+      "src": 243649,
+      "dst": 268675
+    },
+    {
+      "relateString": "续集",
+      "src": 243650,
+      "dst": 243642
+    },
+    {
+      "relateString": "续集",
+      "src": 243650,
+      "dst": 243643
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 243650,
+      "dst": 243649
+    },
+    {
+      "relateString": "前传",
+      "src": 243650,
+      "dst": 268675
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 268672,
+      "dst": 268675
+    },
+    {
+      "relateString": "续集",
+      "src": 268675,
+      "dst": 243649
+    },
+    {
+      "relateString": "续集",
+      "src": 268675,
+      "dst": 243650
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 268675,
+      "dst": 268672
+    }
+  ]
 }

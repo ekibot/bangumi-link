@@ -1,37 +1,35 @@
 {
- "id": 190394,
- "node": [
-  {
-   "id": 190394,
-   "name": "小説おそ松さん 前松",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/f9/190394_jp.jpg",
-   "date": "2016-07-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 200706,
-   "name": "小説おそ松さん 後松",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/87/200706_jp.jpg",
-   "date": "2016-11-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 190394,
-   "dst": 200706
-  },
-  {
-   "relate": "前传",
-   "src": 200706,
-   "dst": 190394
-  }
- ]
+  "id": "190394",
+  "node": [
+    {
+      "id": 190394,
+      "name": "小説おそ松さん 前松",
+      "nameCN": "",
+      "date": "2016-07-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 200706,
+      "name": "小説おそ松さん 後松",
+      "nameCN": "",
+      "date": "2016-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 190394,
+      "dst": 200706
+    },
+    {
+      "relateString": "前传",
+      "src": 200706,
+      "dst": 190394
+    }
+  ]
 }

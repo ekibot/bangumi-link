@@ -1,37 +1,35 @@
 {
- "id": 68035,
- "node": [
-  {
-   "id": 68035,
-   "name": "有頂天家族",
-   "nameCN": "有顶天家族",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/0e/68035_252p4.jpg",
-   "date": "2013-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 193042,
-   "name": "有頂天家族2",
-   "nameCN": "有顶天家族2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/e4/193042_So0pa.jpg",
-   "date": "2017-04-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68035,
-   "dst": 193042
-  },
-  {
-   "relate": "前传",
-   "src": 193042,
-   "dst": 68035
-  }
- ]
+  "id": "68035",
+  "node": [
+    {
+      "id": 68035,
+      "name": "有頂天家族",
+      "nameCN": "有顶天家族",
+      "date": "2013-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 193042,
+      "name": "有頂天家族2",
+      "nameCN": "有顶天家族2",
+      "date": "2017-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68035,
+      "dst": 193042
+    },
+    {
+      "relateString": "前传",
+      "src": 193042,
+      "dst": 68035
+    }
+  ]
 }

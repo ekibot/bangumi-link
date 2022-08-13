@@ -1,125 +1,117 @@
 {
- "id": 93169,
- "node": [
-  {
-   "id": 93169,
-   "name": "真ゲッターロボ",
-   "nameCN": "真盖塔",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/41/93169_jp.jpg",
-   "date": "2002-09-17",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 132723,
-   "name": "ゲッターロボ號 愛蔵版",
-   "nameCN": "盖塔机器人号",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/e7/132723_2RYrk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 166835,
-   "name": "ゲッターロボ",
-   "nameCN": "盖塔机器人 文库版",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/fb/166835_T0bMt.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 166836,
-   "name": "ゲッターロボG 文庫版",
-   "nameCN": "盖塔机器人G",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/9d/166836_W1ppE.jpg",
-   "date": "2002-03-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 241761,
-   "name": "ゲッターロボ アーク",
-   "nameCN": "盖塔机器人 ARC",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/d6/241761_O8nJZ.jpg",
-   "date": "2001-07-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 314777,
-   "name": "ゲッターロボ號 文庫版",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/5e/314777_0tZP5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 315253,
-   "name": "ゲッターロボ號",
-   "nameCN": "盖塔机器人号",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/1c/315253_7z48y.jpg",
-   "date": "1991-01-26",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93169,
-   "dst": 241761
-  },
-  {
-   "relate": "前传",
-   "src": 132723,
-   "dst": 166836
-  },
-  {
-   "relate": "续集",
-   "src": 166835,
-   "dst": 166836
-  },
-  {
-   "relate": "前传",
-   "src": 166836,
-   "dst": 166835
-  },
-  {
-   "relate": "续集",
-   "src": 166836,
-   "dst": 314777
-  },
-  {
-   "relate": "前传",
-   "src": 241761,
-   "dst": 93169
-  },
-  {
-   "relate": "前传",
-   "src": 241761,
-   "dst": 314777
-  },
-  {
-   "relate": "前传",
-   "src": 314777,
-   "dst": 166836
-  },
-  {
-   "relate": "续集",
-   "src": 314777,
-   "dst": 241761
-  },
-  {
-   "relate": "续集",
-   "src": 315253,
-   "dst": 241761
-  }
- ]
+  "id": "93169",
+  "node": [
+    {
+      "id": 93169,
+      "name": "真ゲッターロボ",
+      "nameCN": "真盖塔",
+      "date": "2002-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241761,
+      "name": "ゲッターロボ アーク",
+      "nameCN": "盖塔机器人 ARC",
+      "date": "2001-07-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 132723,
+      "name": "ゲッターロボ號 愛蔵版",
+      "nameCN": "盖塔机器人号",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 166836,
+      "name": "ゲッターロボG 文庫版",
+      "nameCN": "盖塔机器人G",
+      "date": "2002-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 166835,
+      "name": "ゲッターロボ",
+      "nameCN": "盖塔机器人 文库版",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 314777,
+      "name": "ゲッターロボ號 文庫版",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 315253,
+      "name": "ゲッターロボ號",
+      "nameCN": "盖塔机器人号",
+      "date": "1991-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93169,
+      "dst": 241761
+    },
+    {
+      "relateString": "前传",
+      "src": 241761,
+      "dst": 93169
+    },
+    {
+      "relateString": "前传",
+      "src": 132723,
+      "dst": 166836
+    },
+    {
+      "relateString": "续集",
+      "src": 166835,
+      "dst": 166836
+    },
+    {
+      "relateString": "前传",
+      "src": 166836,
+      "dst": 166835
+    },
+    {
+      "relateString": "续集",
+      "src": 166836,
+      "dst": 314777
+    },
+    {
+      "relateString": "前传",
+      "src": 241761,
+      "dst": 314777
+    },
+    {
+      "relateString": "前传",
+      "src": 314777,
+      "dst": 166836
+    },
+    {
+      "relateString": "续集",
+      "src": 314777,
+      "dst": 241761
+    },
+    {
+      "relateString": "续集",
+      "src": 315253,
+      "dst": 241761
+    }
+  ]
 }

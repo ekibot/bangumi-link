@@ -1,0 +1,54 @@
+{
+  "id": "1177",
+  "node": [
+    {
+      "id": 1177,
+      "name": "戯言シリーズ",
+      "nameCN": "戏言系列",
+      "date": "2002-02-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 4177,
+      "name": "人間シリーズ",
+      "nameCN": "人间系列",
+      "date": "2004-02-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 177918,
+      "name": "最強シリーズ",
+      "nameCN": "最强系列",
+      "date": "2015-04-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 1177,
+      "dst": 4177
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1177,
+      "dst": 177918
+    },
+    {
+      "relateString": "主线故事",
+      "src": 4177,
+      "dst": 1177
+    },
+    {
+      "relateString": "主线故事",
+      "src": 177918,
+      "dst": 1177
+    }
+  ]
+}

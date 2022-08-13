@@ -1,37 +1,35 @@
 {
- "id": 68726,
- "node": [
-  {
-   "id": 68726,
-   "name": "方舟奇航ARK SAGA",
-   "nameCN": "方舟奇航",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/5b/68726_mV2uY.jpg",
-   "date": "2011-07-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 355505,
-   "name": "方舟奇航R",
-   "nameCN": "方舟奇航R",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/fb/355505_PPlPD.jpg",
-   "date": "2013-02-16",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68726,
-   "dst": 355505
-  },
-  {
-   "relate": "前传",
-   "src": 355505,
-   "dst": 68726
-  }
- ]
+  "id": "68726",
+  "node": [
+    {
+      "id": 68726,
+      "name": "方舟奇航ARK SAGA",
+      "nameCN": "方舟奇航",
+      "date": "2011-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355505,
+      "name": "方舟奇航R",
+      "nameCN": "方舟奇航R",
+      "date": "2013-02-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68726,
+      "dst": 355505
+    },
+    {
+      "relateString": "前传",
+      "src": 355505,
+      "dst": 68726
+    }
+  ]
 }

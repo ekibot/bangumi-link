@@ -1,77 +1,71 @@
 {
- "id": 108297,
- "node": [
-  {
-   "id": 108297,
-   "name": "ドンキーコング",
-   "nameCN": "大金刚",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/c3/108297_2zU6s.jpg",
-   "date": "1981-07-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114592,
-   "name": "ドンキーコング",
-   "nameCN": "大金刚(GB版)",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/4f/114592_2b25S.jpg",
-   "date": "1994-06-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 187229,
-   "name": "ドンキーコングJR.",
-   "nameCN": "大金刚JR.",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/a0/187229_hs3hS.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 187241,
-   "name": "ドンキーコング3",
-   "nameCN": "大金刚3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/10/187241_E7xAX.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 108297,
-   "dst": 114592
-  },
-  {
-   "relate": "续集",
-   "src": 108297,
-   "dst": 187229
-  },
-  {
-   "relate": "不同演绎",
-   "src": 114592,
-   "dst": 108297
-  },
-  {
-   "relate": "前传",
-   "src": 187229,
-   "dst": 108297
-  },
-  {
-   "relate": "续集",
-   "src": 187229,
-   "dst": 187241
-  },
-  {
-   "relate": "前传",
-   "src": 187241,
-   "dst": 187229
-  }
- ]
+  "id": "108297",
+  "node": [
+    {
+      "id": 108297,
+      "name": "ドンキーコング",
+      "nameCN": "大金刚",
+      "date": "1981-07-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114592,
+      "name": "ドンキーコング",
+      "nameCN": "大金刚(GB版)",
+      "date": "1994-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 187229,
+      "name": "ドンキーコングJR.",
+      "nameCN": "大金刚JR.",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 187241,
+      "name": "ドンキーコング3",
+      "nameCN": "大金刚3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 108297,
+      "dst": 114592
+    },
+    {
+      "relateString": "续集",
+      "src": 108297,
+      "dst": 187229
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 114592,
+      "dst": 108297
+    },
+    {
+      "relateString": "前传",
+      "src": 187229,
+      "dst": 108297
+    },
+    {
+      "relateString": "续集",
+      "src": 187229,
+      "dst": 187241
+    },
+    {
+      "relateString": "前传",
+      "src": 187241,
+      "dst": 187229
+    }
+  ]
 }

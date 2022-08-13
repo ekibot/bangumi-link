@@ -1,77 +1,71 @@
 {
- "id": 166,
- "node": [
-  {
-   "id": 166,
-   "name": "Wii Sports",
-   "nameCN": "Wii 运动",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/77/166_ajp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "Wii",
-   "type": 4
-  },
-  {
-   "id": 38085,
-   "name": "Wii Sports Resort",
-   "nameCN": "Wii运动胜地",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/67/38085_tewEv.jpg",
-   "date": "2009-06-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 95220,
-   "name": "Wii Sports Club",
-   "nameCN": "Wii运动俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/23/95220_LGJ0M.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 368788,
-   "name": "Nintendo Switch Sports",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/dc/368788_9bkDY.jpg",
-   "date": "2022-04-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 166,
-   "dst": 38085
-  },
-  {
-   "relate": "续集",
-   "src": 166,
-   "dst": 95220
-  },
-  {
-   "relate": "续集",
-   "src": 166,
-   "dst": 368788
-  },
-  {
-   "relate": "前传",
-   "src": 38085,
-   "dst": 166
-  },
-  {
-   "relate": "前传",
-   "src": 95220,
-   "dst": 166
-  },
-  {
-   "relate": "前传",
-   "src": 368788,
-   "dst": 166
-  }
- ]
+  "id": "166",
+  "node": [
+    {
+      "id": 166,
+      "name": "Wii Sports",
+      "nameCN": "Wii 运动",
+      "type": 4,
+      "nsfw": false,
+      "platform": "Wii"
+    },
+    {
+      "id": 38085,
+      "name": "Wii Sports Resort",
+      "nameCN": "Wii运动胜地",
+      "date": "2009-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 95220,
+      "name": "Wii Sports Club",
+      "nameCN": "Wii运动俱乐部",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368788,
+      "name": "Nintendo Switch Sports",
+      "nameCN": "",
+      "date": "2022-04-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 166,
+      "dst": 38085
+    },
+    {
+      "relateString": "续集",
+      "src": 166,
+      "dst": 95220
+    },
+    {
+      "relateString": "续集",
+      "src": 166,
+      "dst": 368788
+    },
+    {
+      "relateString": "前传",
+      "src": 38085,
+      "dst": 166
+    },
+    {
+      "relateString": "前传",
+      "src": 95220,
+      "dst": 166
+    },
+    {
+      "relateString": "前传",
+      "src": 368788,
+      "dst": 166
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 33466,
- "node": [
-  {
-   "id": 33466,
-   "name": "リング",
-   "nameCN": "午夜凶铃",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/07/33466_81a93.jpg",
-   "date": "1998-01-31",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 184581,
-   "name": "リング2",
-   "nameCN": "午夜凶铃2：贞子缠身",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/c6/184581_7f40D.jpg",
-   "date": "1999-01-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 184582,
-   "name": "リング0 バースデイ",
-   "nameCN": "午夜凶铃3：贞相大白",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/72/184582_T0d0t.jpg",
-   "date": "2000-01-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 184588,
-   "name": "らせん",
-   "nameCN": "午夜凶铃：凶铃再现",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/28/184588_6FFX6.jpg",
-   "date": "1998-01-31",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33466,
-   "dst": 184581
-  },
-  {
-   "relate": "续集",
-   "src": 33466,
-   "dst": 184588
-  },
-  {
-   "relate": "前传",
-   "src": 184581,
-   "dst": 33466
-  },
-  {
-   "relate": "续集",
-   "src": 184581,
-   "dst": 184582
-  },
-  {
-   "relate": "前传",
-   "src": 184582,
-   "dst": 184581
-  },
-  {
-   "relate": "前传",
-   "src": 184588,
-   "dst": 33466
-  }
- ]
+  "id": "33466",
+  "node": [
+    {
+      "id": 33466,
+      "name": "リング",
+      "nameCN": "午夜凶铃",
+      "date": "1998-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 184581,
+      "name": "リング2",
+      "nameCN": "午夜凶铃2：贞子缠身",
+      "date": "1999-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 184588,
+      "name": "らせん",
+      "nameCN": "午夜凶铃：凶铃再现",
+      "date": "1998-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 184582,
+      "name": "リング0 バースデイ",
+      "nameCN": "午夜凶铃3：贞相大白",
+      "date": "2000-01-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33466,
+      "dst": 184581
+    },
+    {
+      "relateString": "续集",
+      "src": 33466,
+      "dst": 184588
+    },
+    {
+      "relateString": "前传",
+      "src": 184581,
+      "dst": 33466
+    },
+    {
+      "relateString": "续集",
+      "src": 184581,
+      "dst": 184582
+    },
+    {
+      "relateString": "前传",
+      "src": 184582,
+      "dst": 184581
+    },
+    {
+      "relateString": "前传",
+      "src": 184588,
+      "dst": 33466
+    }
+  ]
 }

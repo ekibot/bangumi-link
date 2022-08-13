@@ -1,37 +1,35 @@
 {
- "id": 155066,
- "node": [
-  {
-   "id": 155066,
-   "name": "Boss Season 1",
-   "nameCN": "风城大佬 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/dc/155066_15H6f.jpg",
-   "date": "2011-10-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 155067,
-   "name": "Boss Season 2",
-   "nameCN": "风城大佬 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/90/155067_pPYHd.jpg",
-   "date": "2012-08-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155066,
-   "dst": 155067
-  },
-  {
-   "relate": "前传",
-   "src": 155067,
-   "dst": 155066
-  }
- ]
+  "id": "155066",
+  "node": [
+    {
+      "id": 155066,
+      "name": "Boss Season 1",
+      "nameCN": "风城大佬 第一季",
+      "date": "2011-10-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 155067,
+      "name": "Boss Season 2",
+      "nameCN": "风城大佬 第二季",
+      "date": "2012-08-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155066,
+      "dst": 155067
+    },
+    {
+      "relateString": "前传",
+      "src": 155067,
+      "dst": 155066
+    }
+  ]
 }

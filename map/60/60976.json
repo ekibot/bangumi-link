@@ -1,57 +1,53 @@
 {
- "id": 60976,
- "node": [
-  {
-   "id": 60976,
-   "name": "ロザリオとバンパイア",
-   "nameCN": "十字架与吸血鬼",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/5a/60976_fufFP.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 61104,
-   "name": "ロザリオとバンパイア season II",
-   "nameCN": "吸血鬼与十字架 第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/77/61104_FnvgJ.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 63514,
-   "name": "小説 ロザリオとバンパイア",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/9b/63514_jp.jpg",
-   "date": "2008-04-04",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60976,
-   "dst": 61104
-  },
-  {
-   "relate": "番外篇",
-   "src": 60976,
-   "dst": 63514
-  },
-  {
-   "relate": "前传",
-   "src": 61104,
-   "dst": 60976
-  },
-  {
-   "relate": "主线故事",
-   "src": 63514,
-   "dst": 60976
-  }
- ]
+  "id": "60976",
+  "node": [
+    {
+      "id": 60976,
+      "name": "ロザリオとバンパイア",
+      "nameCN": "十字架与吸血鬼",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 61104,
+      "name": "ロザリオとバンパイア season II",
+      "nameCN": "吸血鬼与十字架 第2季",
+      "date": "2007-11-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 63514,
+      "name": "小説 ロザリオとバンパイア",
+      "nameCN": "",
+      "date": "2008-04-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60976,
+      "dst": 61104
+    },
+    {
+      "relateString": "番外篇",
+      "src": 60976,
+      "dst": 63514
+    },
+    {
+      "relateString": "前传",
+      "src": 61104,
+      "dst": 60976
+    },
+    {
+      "relateString": "主线故事",
+      "src": 63514,
+      "dst": 60976
+    }
+  ]
 }

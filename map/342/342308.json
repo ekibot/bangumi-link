@@ -1,37 +1,33 @@
 {
- "id": 342308,
- "node": [
-  {
-   "id": 342308,
-   "name": "胸キュン刑事",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/1a/342308_Eb1v8.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 342316,
-   "name": "胸キュン刑事2 みるくCC",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/e3/342316_n4qAQ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 342308,
-   "dst": 342316
-  },
-  {
-   "relate": "前传",
-   "src": 342316,
-   "dst": 342308
-  }
- ]
+  "id": "342308",
+  "node": [
+    {
+      "id": 342308,
+      "name": "胸キュン刑事",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 342316,
+      "name": "胸キュン刑事2 みるくCC",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 342308,
+      "dst": 342316
+    },
+    {
+      "relateString": "前传",
+      "src": 342316,
+      "dst": 342308
+    }
+  ]
 }

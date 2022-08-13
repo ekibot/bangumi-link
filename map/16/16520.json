@@ -1,37 +1,35 @@
 {
- "id": 16520,
- "node": [
-  {
-   "id": 16520,
-   "name": "秋色恋華",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/12/16520_d7q5o.jpg",
-   "date": "2005-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 216806,
-   "name": "秋色謳華",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/f9/216806_jay8r.jpg",
-   "date": "2005-08-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 16520,
-   "dst": 216806
-  },
-  {
-   "relate": "前传",
-   "src": 216806,
-   "dst": 16520
-  }
- ]
+  "id": "16520",
+  "node": [
+    {
+      "id": 16520,
+      "name": "秋色恋華",
+      "nameCN": "",
+      "date": "2005-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 216806,
+      "name": "秋色謳華",
+      "nameCN": "",
+      "date": "2005-08-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 16520,
+      "dst": 216806
+    },
+    {
+      "relateString": "前传",
+      "src": 216806,
+      "dst": 16520
+    }
+  ]
 }

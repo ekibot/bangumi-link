@@ -1,37 +1,34 @@
 {
- "id": 22652,
- "node": [
-  {
-   "id": 22652,
-   "name": "東京フレンズ",
-   "nameCN": "东京朋友",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/84/22652_h11rp.jpg",
-   "date": "2005-06-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 181865,
-   "name": "東京フレンズ The Movie",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22652,
-   "dst": 181865
-  },
-  {
-   "relate": "前传",
-   "src": 181865,
-   "dst": 22652
-  }
- ]
+  "id": "22652",
+  "node": [
+    {
+      "id": 22652,
+      "name": "東京フレンズ",
+      "nameCN": "东京朋友",
+      "date": "2005-06-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 181865,
+      "name": "東京フレンズ The Movie",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22652,
+      "dst": 181865
+    },
+    {
+      "relateString": "前传",
+      "src": 181865,
+      "dst": 22652
+    }
+  ]
 }

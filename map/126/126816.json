@@ -1,37 +1,35 @@
 {
- "id": 126816,
- "node": [
-  {
-   "id": 126816,
-   "name": "LOVEREC.",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/88/126816_G2xHX.jpg",
-   "date": "2015-06-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 160942,
-   "name": "LOVEREC. -ミニシアターズ-",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/b8/160942_0EFzT.jpg",
-   "date": "2016-01-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126816,
-   "dst": 160942
-  },
-  {
-   "relate": "前传",
-   "src": 160942,
-   "dst": 126816
-  }
- ]
+  "id": "126816",
+  "node": [
+    {
+      "id": 126816,
+      "name": "LOVEREC.",
+      "nameCN": "",
+      "date": "2015-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 160942,
+      "name": "LOVEREC. -ミニシアターズ-",
+      "nameCN": "",
+      "date": "2016-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126816,
+      "dst": 160942
+    },
+    {
+      "relateString": "前传",
+      "src": 160942,
+      "dst": 126816
+    }
+  ]
 }

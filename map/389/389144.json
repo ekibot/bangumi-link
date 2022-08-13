@@ -1,0 +1,54 @@
+{
+  "id": "389144",
+  "node": [
+    {
+      "id": 389144,
+      "name": "あくまくまじっく",
+      "nameCN": "",
+      "date": "1995-02-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 392846,
+      "name": "アンチテーゼ",
+      "nameCN": "",
+      "date": "1996-03-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 392845,
+      "name": "たまごっこ",
+      "nameCN": "",
+      "date": "1997-05-01",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 389144,
+      "dst": 392846
+    },
+    {
+      "relateString": "前传",
+      "src": 392845,
+      "dst": 392846
+    },
+    {
+      "relateString": "前传",
+      "src": 392846,
+      "dst": 389144
+    },
+    {
+      "relateString": "续集",
+      "src": 392846,
+      "dst": 392845
+    }
+  ]
+}

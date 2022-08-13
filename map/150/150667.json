@@ -1,37 +1,34 @@
 {
- "id": 150667,
- "node": [
-  {
-   "id": 150667,
-   "name": "戦国自衛隊1549",
-   "nameCN": "战国自卫队1549",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/cc/150667_hj16R.jpg",
-   "date": "2005-06-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 334828,
-   "name": "戦国自衛隊",
-   "nameCN": "战国自卫队",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/86/334828_F919Y.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 150667,
-   "dst": 334828
-  },
-  {
-   "relate": "续集",
-   "src": 334828,
-   "dst": 150667
-  }
- ]
+  "id": "150667",
+  "node": [
+    {
+      "id": 150667,
+      "name": "戦国自衛隊1549",
+      "nameCN": "战国自卫队1549",
+      "date": "2005-06-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 334828,
+      "name": "戦国自衛隊",
+      "nameCN": "战国自卫队",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 150667,
+      "dst": 334828
+    },
+    {
+      "relateString": "续集",
+      "src": 334828,
+      "dst": 150667
+    }
+  ]
 }

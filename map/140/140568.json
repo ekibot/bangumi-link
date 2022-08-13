@@ -1,77 +1,71 @@
 {
- "id": 140568,
- "node": [
-  {
-   "id": 140568,
-   "name": "生徒諸君!",
-   "nameCN": "生徒诸君！",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/c6/140568_7lPDn.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 206956,
-   "name": "生徒諸君!教師編",
-   "nameCN": "生徒诸君！教师篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/d6/206956_5v651.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 206994,
-   "name": "生徒諸君! 最終章・旅立ち",
-   "nameCN": "生徒诸君！ 最终章・旅程",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/53/206994_lbLBI.jpg",
-   "date": "2011-08-11",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 358400,
-   "name": "生徒諸君! Kids",
-   "nameCN": "生徒诸君! Kids",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/00/358400_858v0.jpg",
-   "date": "2019-10-11",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 140568,
-   "dst": 206956
-  },
-  {
-   "relate": "前传",
-   "src": 206956,
-   "dst": 140568
-  },
-  {
-   "relate": "续集",
-   "src": 206956,
-   "dst": 206994
-  },
-  {
-   "relate": "前传",
-   "src": 206994,
-   "dst": 206956
-  },
-  {
-   "relate": "续集",
-   "src": 206994,
-   "dst": 358400
-  },
-  {
-   "relate": "前传",
-   "src": 358400,
-   "dst": 206994
-  }
- ]
+  "id": "140568",
+  "node": [
+    {
+      "id": 140568,
+      "name": "生徒諸君!",
+      "nameCN": "生徒诸君！",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 206956,
+      "name": "生徒諸君!教師編",
+      "nameCN": "生徒诸君！教师篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 206994,
+      "name": "生徒諸君! 最終章・旅立ち",
+      "nameCN": "生徒诸君！ 最终章・旅程",
+      "date": "2011-08-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 358400,
+      "name": "生徒諸君! Kids",
+      "nameCN": "生徒诸君! Kids",
+      "date": "2019-10-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 140568,
+      "dst": 206956
+    },
+    {
+      "relateString": "前传",
+      "src": 206956,
+      "dst": 140568
+    },
+    {
+      "relateString": "续集",
+      "src": 206956,
+      "dst": 206994
+    },
+    {
+      "relateString": "前传",
+      "src": 206994,
+      "dst": 206956
+    },
+    {
+      "relateString": "续集",
+      "src": 206994,
+      "dst": 358400
+    },
+    {
+      "relateString": "前传",
+      "src": 358400,
+      "dst": 206994
+    }
+  ]
 }

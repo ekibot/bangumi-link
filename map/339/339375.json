@@ -1,37 +1,35 @@
 {
- "id": 339375,
- "node": [
-  {
-   "id": 339375,
-   "name": "スーパーロボット大戦Scramble Commander",
-   "nameCN": "超级机器人大战：特勤司令官",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/9c/339375_kNuai.jpg",
-   "date": "2003-11-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 339381,
-   "name": "スーパーロボット大戦Scramble Commander the 2nd",
-   "nameCN": "超级机器人大战：特勤司令官2",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/ad/339381_J0PBA.jpg",
-   "date": "2007-11-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 339375,
-   "dst": 339381
-  },
-  {
-   "relate": "前传",
-   "src": 339381,
-   "dst": 339375
-  }
- ]
+  "id": "339375",
+  "node": [
+    {
+      "id": 339375,
+      "name": "スーパーロボット大戦Scramble Commander",
+      "nameCN": "超级机器人大战：特勤司令官",
+      "date": "2003-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339381,
+      "name": "スーパーロボット大戦Scramble Commander the 2nd",
+      "nameCN": "超级机器人大战：特勤司令官2",
+      "date": "2007-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 339375,
+      "dst": 339381
+    },
+    {
+      "relateString": "前传",
+      "src": 339381,
+      "dst": 339375
+    }
+  ]
 }

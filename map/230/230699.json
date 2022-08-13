@@ -1,37 +1,35 @@
 {
- "id": 230699,
- "node": [
-  {
-   "id": 230699,
-   "name": "今宵は淫魔ちゃん",
-   "nameCN": "今晚的淫魔酱",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/75/230699_iqyq6.jpg",
-   "date": "2018-07-24",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287091,
-   "name": "今宵は淫魔ちゃん (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/5d/287091_0aYnE.jpg",
-   "date": "2019-07-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230699,
-   "dst": 287091
-  },
-  {
-   "relate": "前传",
-   "src": 287091,
-   "dst": 230699
-  }
- ]
+  "id": "230699",
+  "node": [
+    {
+      "id": 230699,
+      "name": "今宵は淫魔ちゃん",
+      "nameCN": "今晚的淫魔酱",
+      "date": "2018-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287091,
+      "name": "今宵は淫魔ちゃん (2)",
+      "nameCN": "",
+      "date": "2019-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230699,
+      "dst": 287091
+    },
+    {
+      "relateString": "前传",
+      "src": 287091,
+      "dst": 230699
+    }
+  ]
 }

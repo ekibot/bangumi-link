@@ -1,37 +1,34 @@
 {
- "id": 91612,
- "node": [
-  {
-   "id": 91612,
-   "name": "馒头日记",
-   "nameCN": "馒头日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/5b/91612_LgfWv.jpg",
-   "date": "2013-12-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 312581,
-   "name": "馒头日记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/d4/312581_uIt6h.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91612,
-   "dst": 312581
-  },
-  {
-   "relate": "前传",
-   "src": 312581,
-   "dst": 91612
-  }
- ]
+  "id": "91612",
+  "node": [
+    {
+      "id": 91612,
+      "name": "馒头日记",
+      "nameCN": "馒头日记",
+      "date": "2013-12-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 312581,
+      "name": "馒头日记 第二季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91612,
+      "dst": 312581
+    },
+    {
+      "relateString": "前传",
+      "src": 312581,
+      "dst": 91612
+    }
+  ]
 }

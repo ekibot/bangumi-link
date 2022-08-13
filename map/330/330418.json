@@ -1,37 +1,35 @@
 {
- "id": 330418,
- "node": [
-  {
-   "id": 330418,
-   "name": "君はパーフェクト",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/fd/330418_q8vmX.jpg",
-   "date": "2019-12-17",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 381372,
-   "name": "君はパーフェクト NEXT LEVEL",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/6b/381372_m5v8G.jpg",
-   "type": 1,
-   "date": "2020-11-17",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 330418,
-   "dst": 381372
-  },
-  {
-   "relate": "前传",
-   "src": 381372,
-   "dst": 330418
-  }
- ]
+  "id": "330418",
+  "node": [
+    {
+      "id": 330418,
+      "name": "君はパーフェクト",
+      "nameCN": "",
+      "date": "2019-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 381372,
+      "name": "君はパーフェクト NEXT LEVEL",
+      "nameCN": "",
+      "date": "2020-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 330418,
+      "dst": 381372
+    },
+    {
+      "relateString": "前传",
+      "src": 381372,
+      "dst": 330418
+    }
+  ]
 }

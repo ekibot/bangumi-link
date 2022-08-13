@@ -1,37 +1,35 @@
 {
- "id": 240312,
- "node": [
-  {
-   "id": 240312,
-   "name": "ラブゾンビ!?",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/f8/240312_L9uuR.jpg",
-   "date": "2018-02-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 258634,
-   "name": "ラブゾンビ!? 2 ~the Kiss~",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/07/258634_kOBb8.jpg",
-   "date": "2018-08-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240312,
-   "dst": 258634
-  },
-  {
-   "relate": "前传",
-   "src": 258634,
-   "dst": 240312
-  }
- ]
+  "id": "240312",
+  "node": [
+    {
+      "id": 240312,
+      "name": "ラブゾンビ!?",
+      "nameCN": "",
+      "date": "2018-02-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 258634,
+      "name": "ラブゾンビ!? 2 ~the Kiss~",
+      "nameCN": "",
+      "date": "2018-08-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240312,
+      "dst": 258634
+    },
+    {
+      "relateString": "前传",
+      "src": 258634,
+      "dst": 240312
+    }
+  ]
 }

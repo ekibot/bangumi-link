@@ -1,51 +1,48 @@
 {
- "id": 37782,
- "node": [
-  {
-   "id": 37782,
-   "name": "新世界より",
-   "nameCN": "来自新世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/7b/37782_OkkQ7.jpg",
-   "date": "2008-01-23",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 37785,
-   "name": "新世界より",
-   "nameCN": "来自新世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/64/37785_aBBEd.jpg",
-   "date": "2012-09-28",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 308870,
-   "name": "新世界ゼロ年",
-   "nameCN": "新世界元年",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/0f/308870_3gdf3.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 37782,
-   "dst": 308870
-  },
-  {
-   "relate": "前传",
-   "src": 37785,
-   "dst": 308870
-  },
-  {
-   "relate": "续集",
-   "src": 308870,
-   "dst": 37782
-  }
- ]
+  "id": "37782",
+  "node": [
+    {
+      "id": 37782,
+      "name": "新世界より",
+      "nameCN": "来自新世界",
+      "date": "2008-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 308870,
+      "name": "新世界ゼロ年",
+      "nameCN": "新世界元年",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 37785,
+      "name": "新世界より",
+      "nameCN": "来自新世界",
+      "date": "2012-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 37782,
+      "dst": 308870
+    },
+    {
+      "relateString": "前传",
+      "src": 37785,
+      "dst": 308870
+    },
+    {
+      "relateString": "续集",
+      "src": 308870,
+      "dst": 37782
+    }
+  ]
 }

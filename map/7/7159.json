@@ -1,0 +1,53 @@
+{
+  "id": "7159",
+  "node": [
+    {
+      "id": 7159,
+      "name": "TRIGUN",
+      "nameCN": "枪神",
+      "date": "1998-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10782,
+      "name": "TRIGUN Badlands Rumble",
+      "nameCN": "枪神 Badlands Rumble",
+      "date": "2010-04-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 388170,
+      "name": "TRIGUN STAMPEDE",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 7159,
+      "dst": 10782
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 7159,
+      "dst": 388170
+    },
+    {
+      "relateString": "主线故事",
+      "src": 10782,
+      "dst": 7159
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 388170,
+      "dst": 7159
+    }
+  ]
+}

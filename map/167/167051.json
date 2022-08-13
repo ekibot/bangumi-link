@@ -1,57 +1,51 @@
 {
- "id": 167051,
- "node": [
-  {
-   "id": 167051,
-   "name": "I wanna kill the kamilia",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 167053,
-   "name": "i wanna kill the kamilia 2",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 167055,
-   "name": "i wanna kill the kamilia 3",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167051,
-   "dst": 167053
-  },
-  {
-   "relate": "前传",
-   "src": 167053,
-   "dst": 167051
-  },
-  {
-   "relate": "续集",
-   "src": 167053,
-   "dst": 167055
-  },
-  {
-   "relate": "前传",
-   "src": 167055,
-   "dst": 167053
-  }
- ]
+  "id": "167051",
+  "node": [
+    {
+      "id": 167051,
+      "name": "I wanna kill the kamilia",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167053,
+      "name": "i wanna kill the kamilia 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167055,
+      "name": "i wanna kill the kamilia 3",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167051,
+      "dst": 167053
+    },
+    {
+      "relateString": "前传",
+      "src": 167053,
+      "dst": 167051
+    },
+    {
+      "relateString": "续集",
+      "src": 167053,
+      "dst": 167055
+    },
+    {
+      "relateString": "前传",
+      "src": 167055,
+      "dst": 167053
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 130364,
- "node": [
-  {
-   "id": 130364,
-   "name": "勇者大冒险",
-   "nameCN": "勇者大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/0a/130364_43Ky4.jpg",
-   "date": "2015-03-31",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 144348,
-   "name": "勇者大冒险之黄泉手记",
-   "nameCN": "勇者大冒险之黄泉手记",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/70/144348_21GxC.jpg",
-   "date": "2015-08-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 167386,
-   "name": "勇者大冒险 第二季",
-   "nameCN": "勇者大冒险 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/36/167386_Ov9iv.jpg",
-   "date": "2016-03-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 195292,
-   "name": "勇者大冒险 第三季",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 130364,
-   "dst": 144348
-  },
-  {
-   "relate": "续集",
-   "src": 130364,
-   "dst": 167386
-  },
-  {
-   "relate": "全集",
-   "src": 144348,
-   "dst": 130364
-  },
-  {
-   "relate": "前传",
-   "src": 167386,
-   "dst": 130364
-  },
-  {
-   "relate": "续集",
-   "src": 167386,
-   "dst": 195292
-  },
-  {
-   "relate": "前传",
-   "src": 195292,
-   "dst": 167386
-  }
- ]
+  "id": "130364",
+  "node": [
+    {
+      "id": 130364,
+      "name": "勇者大冒险",
+      "nameCN": "勇者大冒险",
+      "date": "2015-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 144348,
+      "name": "勇者大冒险之黄泉手记",
+      "nameCN": "勇者大冒险之黄泉手记",
+      "date": "2015-08-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 167386,
+      "name": "勇者大冒险 第二季",
+      "nameCN": "勇者大冒险 第二季",
+      "date": "2016-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 195292,
+      "name": "勇者大冒险 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 130364,
+      "dst": 144348
+    },
+    {
+      "relateString": "续集",
+      "src": 130364,
+      "dst": 167386
+    },
+    {
+      "relateString": "全集",
+      "src": 144348,
+      "dst": 130364
+    },
+    {
+      "relateString": "前传",
+      "src": 167386,
+      "dst": 130364
+    },
+    {
+      "relateString": "续集",
+      "src": 167386,
+      "dst": 195292
+    },
+    {
+      "relateString": "前传",
+      "src": 195292,
+      "dst": 167386
+    }
+  ]
 }

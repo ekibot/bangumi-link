@@ -1,37 +1,33 @@
 {
- "id": 104629,
- "node": [
-  {
-   "id": 104629,
-   "name": "人造少女 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/73/104629_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189355,
-   "name": "人造少女 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/93/189355_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104629,
-   "dst": 189355
-  },
-  {
-   "relate": "前传",
-   "src": 189355,
-   "dst": 104629
-  }
- ]
+  "id": "104629",
+  "node": [
+    {
+      "id": 104629,
+      "name": "人造少女 上",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189355,
+      "name": "人造少女 下",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104629,
+      "dst": 189355
+    },
+    {
+      "relateString": "前传",
+      "src": 189355,
+      "dst": 104629
+    }
+  ]
 }

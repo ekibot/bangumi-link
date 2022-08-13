@@ -1,97 +1,91 @@
 {
- "id": 125042,
- "node": [
-  {
-   "id": 125042,
-   "name": "壹號皇庭",
-   "nameCN": "壹号皇庭",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/8d/125042_3rPEN.jpg",
-   "date": "1992-04-19",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 125043,
-   "name": "壹號皇庭II",
-   "nameCN": "壹号皇庭II",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/2b/125043_wU4va.jpg",
-   "date": "1993-04-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 125044,
-   "name": "壹號皇庭III",
-   "nameCN": "壹号皇庭III",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/58/125044_2R43c.jpg",
-   "date": "1994-10-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 125045,
-   "name": "壹號皇庭V",
-   "nameCN": "壹号皇庭V",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/ac/125045_0tJAN.jpg",
-   "date": "1997-03-10",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 125046,
-   "name": "壹號皇庭IV",
-   "nameCN": "壹号皇庭IV",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/5b/125046_Hn6h6.jpg",
-   "date": "1995-09-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125042,
-   "dst": 125043
-  },
-  {
-   "relate": "前传",
-   "src": 125043,
-   "dst": 125042
-  },
-  {
-   "relate": "续集",
-   "src": 125043,
-   "dst": 125044
-  },
-  {
-   "relate": "前传",
-   "src": 125044,
-   "dst": 125043
-  },
-  {
-   "relate": "续集",
-   "src": 125044,
-   "dst": 125046
-  },
-  {
-   "relate": "前传",
-   "src": 125045,
-   "dst": 125046
-  },
-  {
-   "relate": "前传",
-   "src": 125046,
-   "dst": 125044
-  },
-  {
-   "relate": "续集",
-   "src": 125046,
-   "dst": 125045
-  }
- ]
+  "id": "125042",
+  "node": [
+    {
+      "id": 125042,
+      "name": "壹號皇庭",
+      "nameCN": "壹号皇庭",
+      "date": "1992-04-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125043,
+      "name": "壹號皇庭II",
+      "nameCN": "壹号皇庭II",
+      "date": "1993-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125044,
+      "name": "壹號皇庭III",
+      "nameCN": "壹号皇庭III",
+      "date": "1994-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125046,
+      "name": "壹號皇庭IV",
+      "nameCN": "壹号皇庭IV",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125045,
+      "name": "壹號皇庭V",
+      "nameCN": "壹号皇庭V",
+      "date": "1997-03-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125042,
+      "dst": 125043
+    },
+    {
+      "relateString": "前传",
+      "src": 125043,
+      "dst": 125042
+    },
+    {
+      "relateString": "续集",
+      "src": 125043,
+      "dst": 125044
+    },
+    {
+      "relateString": "前传",
+      "src": 125044,
+      "dst": 125043
+    },
+    {
+      "relateString": "续集",
+      "src": 125044,
+      "dst": 125046
+    },
+    {
+      "relateString": "前传",
+      "src": 125045,
+      "dst": 125046
+    },
+    {
+      "relateString": "前传",
+      "src": 125046,
+      "dst": 125044
+    },
+    {
+      "relateString": "续集",
+      "src": 125046,
+      "dst": 125045
+    }
+  ]
 }

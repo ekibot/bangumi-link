@@ -1,37 +1,35 @@
 {
- "id": 89052,
- "node": [
-  {
-   "id": 89052,
-   "name": "ミクとネオ 上巻",
-   "nameCN": "失忆男与怪坊守 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/f3/89052_jp.jpg",
-   "date": "2013-05-31",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 89053,
-   "name": "ミクとネオ 下巻",
-   "nameCN": "失忆男与怪坊守 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/8c/89053_jp.jpg",
-   "date": "2013-05-31",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89052,
-   "dst": 89053
-  },
-  {
-   "relate": "前传",
-   "src": 89053,
-   "dst": 89052
-  }
- ]
+  "id": "89052",
+  "node": [
+    {
+      "id": 89052,
+      "name": "ミクとネオ 上巻",
+      "nameCN": "失忆男与怪坊守 上",
+      "date": "2013-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 89053,
+      "name": "ミクとネオ 下巻",
+      "nameCN": "失忆男与怪坊守 下",
+      "date": "2013-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89052,
+      "dst": 89053
+    },
+    {
+      "relateString": "前传",
+      "src": 89053,
+      "dst": 89052
+    }
+  ]
 }

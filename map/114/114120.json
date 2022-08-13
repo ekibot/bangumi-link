@@ -1,37 +1,35 @@
 {
- "id": 114120,
- "node": [
-  {
-   "id": 114120,
-   "name": "大友克洋アートワーク KABA",
-   "date": "1989-09-01",
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 114121,
-   "name": "OTOMO KATSUHIRO ARTWORK KABA2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/c2/114121_jp.jpg",
-   "date": "2012-01-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114120,
-   "dst": 114121
-  },
-  {
-   "relate": "前传",
-   "src": 114121,
-   "dst": 114120
-  }
- ]
+  "id": "114120",
+  "node": [
+    {
+      "id": 114120,
+      "name": "大友克洋アートワーク KABA",
+      "nameCN": "",
+      "date": "1989-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 114121,
+      "name": "OTOMO KATSUHIRO ARTWORK KABA2",
+      "nameCN": "",
+      "date": "2012-01-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114120,
+      "dst": 114121
+    },
+    {
+      "relateString": "前传",
+      "src": 114121,
+      "dst": 114120
+    }
+  ]
 }

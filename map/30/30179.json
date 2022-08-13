@@ -1,77 +1,71 @@
 {
- "id": 30179,
- "node": [
-  {
-   "id": 30179,
-   "name": "恐龙宝贝之龙神勇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/16/30179_i797f.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 30180,
-   "name": "恐龙宝贝",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/aa/30180_kJA5u.jpg",
-   "date": "2011-04-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 115763,
-   "name": "恐龙宝贝之龙神勇士第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/53/115763_BO666.jpg",
-   "date": "2010-01-13",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 115764,
-   "name": "恐龙宝贝之龙神勇士第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/b4/115764_20265.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 30179,
-   "dst": 30180
-  },
-  {
-   "relate": "续集",
-   "src": 30179,
-   "dst": 115763
-  },
-  {
-   "relate": "不同演绎",
-   "src": 30180,
-   "dst": 30179
-  },
-  {
-   "relate": "前传",
-   "src": 115763,
-   "dst": 30179
-  },
-  {
-   "relate": "续集",
-   "src": 115763,
-   "dst": 115764
-  },
-  {
-   "relate": "前传",
-   "src": 115764,
-   "dst": 115763
-  }
- ]
+  "id": "30179",
+  "node": [
+    {
+      "id": 30179,
+      "name": "恐龙宝贝之龙神勇士",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 30180,
+      "name": "恐龙宝贝",
+      "nameCN": "",
+      "date": "2011-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 115763,
+      "name": "恐龙宝贝之龙神勇士第二季",
+      "nameCN": "",
+      "date": "2010-01-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 115764,
+      "name": "恐龙宝贝之龙神勇士第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 30179,
+      "dst": 30180
+    },
+    {
+      "relateString": "续集",
+      "src": 30179,
+      "dst": 115763
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 30180,
+      "dst": 30179
+    },
+    {
+      "relateString": "前传",
+      "src": 115763,
+      "dst": 30179
+    },
+    {
+      "relateString": "续集",
+      "src": 115763,
+      "dst": 115764
+    },
+    {
+      "relateString": "前传",
+      "src": 115764,
+      "dst": 115763
+    }
+  ]
 }

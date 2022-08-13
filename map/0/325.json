@@ -1,37 +1,35 @@
 {
- "id": 325,
- "node": [
-  {
-   "id": 325,
-   "name": "セキレイ",
-   "nameCN": "鹡鸰女神",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/f0/325_26e33.jpg",
-   "date": "2008-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 3327,
-   "name": "セキレイ～Pure Engagement～",
-   "nameCN": "鹡鸰女神～Pure Engagement～",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/b0/3327_5S6na.jpg",
-   "date": "2010-07-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 325,
-   "dst": 3327
-  },
-  {
-   "relate": "前传",
-   "src": 3327,
-   "dst": 325
-  }
- ]
+  "id": "325",
+  "node": [
+    {
+      "id": 325,
+      "name": "セキレイ",
+      "nameCN": "鹡鸰女神",
+      "date": "2008-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3327,
+      "name": "セキレイ～Pure Engagement～",
+      "nameCN": "鹡鸰女神～Pure Engagement～",
+      "date": "2010-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 325,
+      "dst": 3327
+    },
+    {
+      "relateString": "前传",
+      "src": 3327,
+      "dst": 325
+    }
+  ]
 }

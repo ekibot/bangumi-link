@@ -1,90 +1,86 @@
 {
- "id": 9962,
- "node": [
-  {
-   "id": 9962,
-   "name": "ケイオスリングス",
-   "nameCN": "混沌之戒",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/82/9962_XedAz.jpg",
-   "date": "2010-04-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 37219,
-   "name": "ケイオスリングス II",
-   "nameCN": "混沌之戒2",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/00/37219_fX1X6.jpg",
-   "date": "2012-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 79033,
-   "name": "Chaos Rings Ω",
-   "nameCN": "混沌之戒 欧米伽",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/8a/79033_8DDqT.jpg",
-   "date": "2012-11-23",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 115545,
-   "name": "ケイオスリングスⅢ",
-   "nameCN": "混沌之戒3",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/70/115545_56954.jpg",
-   "date": "2014-10-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 343279,
-   "name": "ケイオスリングス",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/6f/343279_qQlnJ.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9962,
-   "dst": 37219
-  },
-  {
-   "relate": "续集",
-   "src": 9962,
-   "dst": 115545
-  },
-  {
-   "relate": "前传",
-   "src": 37219,
-   "dst": 9962
-  },
-  {
-   "relate": "续集",
-   "src": 37219,
-   "dst": 115545
-  },
-  {
-   "relate": "主线故事",
-   "src": 79033,
-   "dst": 9962
-  },
-  {
-   "relate": "前传",
-   "src": 115545,
-   "dst": 37219
-  },
-  {
-   "relate": "相同世界观",
-   "src": 343279,
-   "dst": 9962
-  }
- ]
+  "id": "9962",
+  "node": [
+    {
+      "id": 9962,
+      "name": "ケイオスリングス",
+      "nameCN": "混沌之戒",
+      "date": "2010-04-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 37219,
+      "name": "ケイオスリングス II",
+      "nameCN": "混沌之戒2",
+      "date": "2012-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 115545,
+      "name": "ケイオスリングスⅢ",
+      "nameCN": "混沌之戒3",
+      "date": "2014-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 79033,
+      "name": "Chaos Rings Ω",
+      "nameCN": "混沌之戒 欧米伽",
+      "date": "2012-11-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 343279,
+      "name": "ケイオスリングス",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9962,
+      "dst": 37219
+    },
+    {
+      "relateString": "续集",
+      "src": 9962,
+      "dst": 115545
+    },
+    {
+      "relateString": "前传",
+      "src": 37219,
+      "dst": 9962
+    },
+    {
+      "relateString": "续集",
+      "src": 37219,
+      "dst": 115545
+    },
+    {
+      "relateString": "主线故事",
+      "src": 79033,
+      "dst": 9962
+    },
+    {
+      "relateString": "前传",
+      "src": 115545,
+      "dst": 37219
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 343279,
+      "dst": 9962
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 936,
- "node": [
-  {
-   "id": 936,
-   "name": "ウィッシュルーム 天使の記憶",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/79/936_JJXbD.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 3789,
-   "name": "ラストウィンドウ 真夜中の約束",
-   "nameCN": "最后之窗: 真夜中的约束",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/5d/3789_o2OZO.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 936,
-   "dst": 3789
-  },
-  {
-   "relate": "前传",
-   "src": 3789,
-   "dst": 936
-  }
- ]
+  "id": "936",
+  "node": [
+    {
+      "id": 936,
+      "name": "ウィッシュルーム 天使の記憶",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 3789,
+      "name": "ラストウィンドウ 真夜中の約束",
+      "nameCN": "最后之窗: 真夜中的约束",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 936,
+      "dst": 3789
+    },
+    {
+      "relateString": "前传",
+      "src": 3789,
+      "dst": 936
+    }
+  ]
 }

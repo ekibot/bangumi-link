@@ -1,77 +1,73 @@
 {
- "id": 30582,
- "node": [
-  {
-   "id": 30582,
-   "name": "アカメが斬る!",
-   "nameCN": "斩·赤红之瞳！",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/cc/30582_GLqIr.jpg",
-   "date": "2010-08-21",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 89143,
-   "name": "アカメが斬る! 零",
-   "nameCN": "斩・赤红之瞳！零",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/83/89143_jJl5R.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 209871,
-   "name": "ヒノワが征く!",
-   "nameCN": "日轮征服！",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/b9/209871_cT5Bn.jpg",
-   "date": "2017-12-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 234282,
-   "name": "アカメが斬る! (1.5) ナイトレイド短編集(ストーリーズ)＆エピローグ",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/50/234282_W4w7U.jpg",
-   "date": "2017-12-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 30582,
-   "dst": 89143
-  },
-  {
-   "relate": "续集",
-   "src": 30582,
-   "dst": 209871
-  },
-  {
-   "relate": "番外篇",
-   "src": 30582,
-   "dst": 234282
-  },
-  {
-   "relate": "续集",
-   "src": 89143,
-   "dst": 30582
-  },
-  {
-   "relate": "前传",
-   "src": 209871,
-   "dst": 30582
-  },
-  {
-   "relate": "主线故事",
-   "src": 234282,
-   "dst": 30582
-  }
- ]
+  "id": "30582",
+  "node": [
+    {
+      "id": 30582,
+      "name": "アカメが斬る!",
+      "nameCN": "斩·赤红之瞳！",
+      "date": "2010-08-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 89143,
+      "name": "アカメが斬る! 零",
+      "nameCN": "斩・赤红之瞳！零",
+      "date": "2013-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 209871,
+      "name": "ヒノワが征く!",
+      "nameCN": "日轮征服！",
+      "date": "2017-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 234282,
+      "name": "アカメが斬る! (1.5) ナイトレイド短編集(ストーリーズ)＆エピローグ",
+      "nameCN": "",
+      "date": "2017-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 30582,
+      "dst": 89143
+    },
+    {
+      "relateString": "续集",
+      "src": 30582,
+      "dst": 209871
+    },
+    {
+      "relateString": "番外篇",
+      "src": 30582,
+      "dst": 234282
+    },
+    {
+      "relateString": "续集",
+      "src": 89143,
+      "dst": 30582
+    },
+    {
+      "relateString": "前传",
+      "src": 209871,
+      "dst": 30582
+    },
+    {
+      "relateString": "主线故事",
+      "src": 234282,
+      "dst": 30582
+    }
+  ]
 }

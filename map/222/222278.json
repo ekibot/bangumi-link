@@ -1,77 +1,73 @@
 {
- "id": 222278,
- "node": [
-  {
-   "id": 222278,
-   "name": "峡谷重案组",
-   "nameCN": "峡谷重案组",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/28/222278_A85iI.jpg",
-   "date": "2017-06-23",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 234061,
-   "name": "峡谷重案组2",
-   "nameCN": "峡谷重案组 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/bd/234061_w9TzO.jpg",
-   "date": "2018-02-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 305943,
-   "name": "峡谷重案组3",
-   "nameCN": "峡谷重案组 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/dd/305943_7cyfT.jpg",
-   "date": "2018-11-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 305946,
-   "name": "峡谷重案组 王者现长安",
-   "nameCN": "峡谷重案组 王者现长安",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/3b/305946_cKsEl.jpg",
-   "date": "2019-12-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 222278,
-   "dst": 234061
-  },
-  {
-   "relate": "前传",
-   "src": 234061,
-   "dst": 222278
-  },
-  {
-   "relate": "续集",
-   "src": 234061,
-   "dst": 305943
-  },
-  {
-   "relate": "前传",
-   "src": 305943,
-   "dst": 234061
-  },
-  {
-   "relate": "续集",
-   "src": 305943,
-   "dst": 305946
-  },
-  {
-   "relate": "前传",
-   "src": 305946,
-   "dst": 305943
-  }
- ]
+  "id": "222278",
+  "node": [
+    {
+      "id": 222278,
+      "name": "峡谷重案组",
+      "nameCN": "峡谷重案组",
+      "date": "2017-06-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 234061,
+      "name": "峡谷重案组2",
+      "nameCN": "峡谷重案组 第二季",
+      "date": "2018-02-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 305943,
+      "name": "峡谷重案组3",
+      "nameCN": "峡谷重案组 第三季",
+      "date": "2018-11-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 305946,
+      "name": "峡谷重案组 王者现长安",
+      "nameCN": "峡谷重案组 王者现长安",
+      "date": "2019-12-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 222278,
+      "dst": 234061
+    },
+    {
+      "relateString": "前传",
+      "src": 234061,
+      "dst": 222278
+    },
+    {
+      "relateString": "续集",
+      "src": 234061,
+      "dst": 305943
+    },
+    {
+      "relateString": "前传",
+      "src": 305943,
+      "dst": 234061
+    },
+    {
+      "relateString": "续集",
+      "src": 305943,
+      "dst": 305946
+    },
+    {
+      "relateString": "前传",
+      "src": 305946,
+      "dst": 305943
+    }
+  ]
 }

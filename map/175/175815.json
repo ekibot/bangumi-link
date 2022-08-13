@@ -1,37 +1,33 @@
 {
- "id": 175815,
- "node": [
-  {
-   "id": 175815,
-   "name": "ゴッドサイダー",
-   "nameCN": "启示录战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/b9/175815_4qQ72.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 175832,
-   "name": "ゴッドサイダーセカンド",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/d7/175832_W51WH.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 175815,
-   "dst": 175832
-  },
-  {
-   "relate": "相同世界观",
-   "src": 175832,
-   "dst": 175815
-  }
- ]
+  "id": "175815",
+  "node": [
+    {
+      "id": 175815,
+      "name": "ゴッドサイダー",
+      "nameCN": "启示录战争",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 175832,
+      "name": "ゴッドサイダーセカンド",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 175815,
+      "dst": 175832
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 175832,
+      "dst": 175815
+    }
+  ]
 }

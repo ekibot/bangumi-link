@@ -1,37 +1,34 @@
 {
- "id": 123152,
- "node": [
-  {
-   "id": 123152,
-   "name": "點解阿sir係隻鬼",
-   "nameCN": "学堂威龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/ce/123152_FICrr.jpg",
-   "date": "1992-01-06",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 123154,
-   "name": "點解阿sir係隻鬼2",
-   "nameCN": "米格忠魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/da/123154_mFHF1.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123152,
-   "dst": 123154
-  },
-  {
-   "relate": "前传",
-   "src": 123154,
-   "dst": 123152
-  }
- ]
+  "id": "123152",
+  "node": [
+    {
+      "id": 123152,
+      "name": "點解阿sir係隻鬼",
+      "nameCN": "学堂威龙",
+      "date": "1992-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123154,
+      "name": "點解阿sir係隻鬼2",
+      "nameCN": "米格忠魂",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123152,
+      "dst": 123154
+    },
+    {
+      "relateString": "前传",
+      "src": 123154,
+      "dst": 123152
+    }
+  ]
 }

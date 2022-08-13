@@ -1,37 +1,34 @@
 {
- "id": 13238,
- "node": [
-  {
-   "id": 13238,
-   "name": "NANA",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/76/13238_rjMP7.jpg",
-   "date": "2005-09-03",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 13240,
-   "name": "NANA2",
-   "nameCN": "NANA2",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/d6/13240_LyB98.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13238,
-   "dst": 13240
-  },
-  {
-   "relate": "前传",
-   "src": 13240,
-   "dst": 13238
-  }
- ]
+  "id": "13238",
+  "node": [
+    {
+      "id": 13238,
+      "name": "NANA",
+      "nameCN": "",
+      "date": "2005-09-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 13240,
+      "name": "NANA2",
+      "nameCN": "NANA2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13238,
+      "dst": 13240
+    },
+    {
+      "relateString": "前传",
+      "src": 13240,
+      "dst": 13238
+    }
+  ]
 }

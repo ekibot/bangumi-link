@@ -1,51 +1,49 @@
 {
- "id": 272366,
- "node": [
-  {
-   "id": 272366,
-   "name": "僧房のカンタレラ",
-   "nameCN": "僧房的毒药",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/56/272366_H4aF6.jpg",
-   "date": "2018-02-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 347675,
-   "name": "施薬僧のレタ",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/14/347675_0DHSl.jpg",
-   "date": "2019-12-05",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 350931,
-   "name": "施薬僧のレタ外伝 フィサリスの花",
-   "nameCN": "施药僧蕾特外传 酸浆之花",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/9c/350931_mQqoz.jpg",
-   "date": "2021-06-02",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272366,
-   "dst": 347675
-  },
-  {
-   "relate": "前传",
-   "src": 347675,
-   "dst": 272366
-  },
-  {
-   "relate": "主线故事",
-   "src": 350931,
-   "dst": 347675
-  }
- ]
+  "id": "272366",
+  "node": [
+    {
+      "id": 272366,
+      "name": "僧房のカンタレラ",
+      "nameCN": "僧房的毒药",
+      "date": "2018-02-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 347675,
+      "name": "施薬僧のレタ",
+      "nameCN": "",
+      "date": "2019-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350931,
+      "name": "施薬僧のレタ外伝 フィサリスの花",
+      "nameCN": "施药僧蕾特外传 酸浆之花",
+      "date": "2021-06-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272366,
+      "dst": 347675
+    },
+    {
+      "relateString": "前传",
+      "src": 347675,
+      "dst": 272366
+    },
+    {
+      "relateString": "主线故事",
+      "src": 350931,
+      "dst": 347675
+    }
+  ]
 }

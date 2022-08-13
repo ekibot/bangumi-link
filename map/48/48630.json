@@ -1,37 +1,34 @@
 {
- "id": 48630,
- "node": [
-  {
-   "id": 48630,
-   "name": "MÄR",
-   "nameCN": "MÄR 魔兵传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/67/48630_N9UqI.jpg",
-   "date": "2003-05-17",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162565,
-   "name": "MÄRΩ",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/68/162565_K5ZPT.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48630,
-   "dst": 162565
-  },
-  {
-   "relate": "前传",
-   "src": 162565,
-   "dst": 48630
-  }
- ]
+  "id": "48630",
+  "node": [
+    {
+      "id": 48630,
+      "name": "MÄR",
+      "nameCN": "MÄR 魔兵传奇",
+      "date": "2003-05-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162565,
+      "name": "MÄRΩ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48630,
+      "dst": 162565
+    },
+    {
+      "relateString": "前传",
+      "src": 162565,
+      "dst": 48630
+    }
+  ]
 }

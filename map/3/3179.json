@@ -1,57 +1,53 @@
 {
- "id": 3179,
- "node": [
-  {
-   "id": 3179,
-   "name": "センコロール",
-   "nameCN": "千子",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/37/3179_RFccc.jpg",
-   "date": "2009-07-28",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 29413,
-   "name": "センコロール コネクト",
-   "nameCN": "CENCOROLL CONNECT",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/92/29413_m3vv4.jpg",
-   "date": "2019-06-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 285530,
-   "name": "センコロール 3",
-   "nameCN": "CENCOROLL 3",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3179,
-   "dst": 29413
-  },
-  {
-   "relate": "前传",
-   "src": 29413,
-   "dst": 3179
-  },
-  {
-   "relate": "续集",
-   "src": 29413,
-   "dst": 285530
-  },
-  {
-   "relate": "前传",
-   "src": 285530,
-   "dst": 29413
-  }
- ]
+  "id": "3179",
+  "node": [
+    {
+      "id": 3179,
+      "name": "センコロール",
+      "nameCN": "千子",
+      "date": "2009-07-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 29413,
+      "name": "センコロール コネクト",
+      "nameCN": "CENCOROLL CONNECT",
+      "date": "2019-06-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 285530,
+      "name": "センコロール 3",
+      "nameCN": "CENCOROLL 3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3179,
+      "dst": 29413
+    },
+    {
+      "relateString": "前传",
+      "src": 29413,
+      "dst": 3179
+    },
+    {
+      "relateString": "续集",
+      "src": 29413,
+      "dst": 285530
+    },
+    {
+      "relateString": "前传",
+      "src": 285530,
+      "dst": 29413
+    }
+  ]
 }

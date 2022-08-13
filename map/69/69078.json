@@ -1,37 +1,35 @@
 {
- "id": 69078,
- "node": [
-  {
-   "id": 69078,
-   "name": "ガイストクラッシャー",
-   "nameCN": "盖斯特破坏者",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/e8/69078_9z2rG.jpg",
-   "date": "2013-12-05",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 101401,
-   "name": "ガイストクラッシャーゴッド",
-   "nameCN": "盖斯特破坏者 神",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/eb/101401_9BKCM.jpg",
-   "date": "2014-09-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 69078,
-   "dst": 101401
-  },
-  {
-   "relate": "前传",
-   "src": 101401,
-   "dst": 69078
-  }
- ]
+  "id": "69078",
+  "node": [
+    {
+      "id": 69078,
+      "name": "ガイストクラッシャー",
+      "nameCN": "盖斯特破坏者",
+      "date": "2013-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 101401,
+      "name": "ガイストクラッシャーゴッド",
+      "nameCN": "盖斯特破坏者 神",
+      "date": "2014-09-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 69078,
+      "dst": 101401
+    },
+    {
+      "relateString": "前传",
+      "src": 101401,
+      "dst": 69078
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 20168,
- "node": [
-  {
-   "id": 20168,
-   "name": "ファンタシースターIII 時の継承者",
-   "nameCN": "梦幻之星3 时之继承者",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/28/20168_189g8.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 20228,
-   "name": "ファンタシースターII 還らざる時の終わりに",
-   "nameCN": "梦幻之星2 不归的终点",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/50/20228_qg0Tk.jpg",
-   "date": "1989-03-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 57013,
-   "name": "ファンタシースター 千年紀の終りに",
-   "nameCN": "梦幻之星4 千年纪的终结",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/d9/57013_MIKFf.jpg",
-   "date": "1993-12-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 88628,
-   "name": "ファンタシースター",
-   "nameCN": "梦幻之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/5a/88628_y5aca.jpg",
-   "date": "1987-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 20168,
-   "dst": 20228
-  },
-  {
-   "relate": "续集",
-   "src": 20168,
-   "dst": 57013
-  },
-  {
-   "relate": "续集",
-   "src": 20228,
-   "dst": 20168
-  },
-  {
-   "relate": "前传",
-   "src": 20228,
-   "dst": 88628
-  },
-  {
-   "relate": "前传",
-   "src": 57013,
-   "dst": 20168
-  },
-  {
-   "relate": "续集",
-   "src": 88628,
-   "dst": 20228
-  }
- ]
+  "id": "20168",
+  "node": [
+    {
+      "id": 20168,
+      "name": "ファンタシースターIII 時の継承者",
+      "nameCN": "梦幻之星3 时之继承者",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20228,
+      "name": "ファンタシースターII 還らざる時の終わりに",
+      "nameCN": "梦幻之星2 不归的终点",
+      "date": "1989-03-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 57013,
+      "name": "ファンタシースター 千年紀の終りに",
+      "nameCN": "梦幻之星4 千年纪的终结",
+      "date": "1993-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 88628,
+      "name": "ファンタシースター",
+      "nameCN": "梦幻之星",
+      "date": "1987-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 20168,
+      "dst": 20228
+    },
+    {
+      "relateString": "续集",
+      "src": 20168,
+      "dst": 57013
+    },
+    {
+      "relateString": "续集",
+      "src": 20228,
+      "dst": 20168
+    },
+    {
+      "relateString": "前传",
+      "src": 20228,
+      "dst": 88628
+    },
+    {
+      "relateString": "前传",
+      "src": 57013,
+      "dst": 20168
+    },
+    {
+      "relateString": "续集",
+      "src": 88628,
+      "dst": 20228
+    }
+  ]
 }

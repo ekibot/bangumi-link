@@ -1,77 +1,69 @@
 {
- "id": 8786,
- "node": [
-  {
-   "id": 8786,
-   "name": "Hotel Babylon (Season 1)",
-   "nameCN": "巴比伦饭店 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/8e/8786_W9Y66.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 18081,
-   "name": "Hotel Babylon (Season 3)",
-   "nameCN": "巴比伦饭店 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/4d/18081_z9DYW.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 21128,
-   "name": "Hotel Babylon (Season 4)",
-   "nameCN": "巴比伦饭店 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/4d/21128_24PlK.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86325,
-   "name": "Hotel Babylon (Season 2)",
-   "nameCN": "巴比伦饭店 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/aa/86325_EhHHw.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8786,
-   "dst": 86325
-  },
-  {
-   "relate": "续集",
-   "src": 18081,
-   "dst": 21128
-  },
-  {
-   "relate": "前传",
-   "src": 18081,
-   "dst": 86325
-  },
-  {
-   "relate": "前传",
-   "src": 21128,
-   "dst": 18081
-  },
-  {
-   "relate": "前传",
-   "src": 86325,
-   "dst": 8786
-  },
-  {
-   "relate": "续集",
-   "src": 86325,
-   "dst": 18081
-  }
- ]
+  "id": "8786",
+  "node": [
+    {
+      "id": 8786,
+      "name": "Hotel Babylon (Season 1)",
+      "nameCN": "巴比伦饭店 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86325,
+      "name": "Hotel Babylon (Season 2)",
+      "nameCN": "巴比伦饭店 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 18081,
+      "name": "Hotel Babylon (Season 3)",
+      "nameCN": "巴比伦饭店 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 21128,
+      "name": "Hotel Babylon (Season 4)",
+      "nameCN": "巴比伦饭店 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8786,
+      "dst": 86325
+    },
+    {
+      "relateString": "续集",
+      "src": 18081,
+      "dst": 21128
+    },
+    {
+      "relateString": "前传",
+      "src": 18081,
+      "dst": 86325
+    },
+    {
+      "relateString": "前传",
+      "src": 21128,
+      "dst": 18081
+    },
+    {
+      "relateString": "前传",
+      "src": 86325,
+      "dst": 8786
+    },
+    {
+      "relateString": "续集",
+      "src": 86325,
+      "dst": 18081
+    }
+  ]
 }

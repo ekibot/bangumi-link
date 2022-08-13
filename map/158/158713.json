@@ -1,37 +1,34 @@
 {
- "id": 158713,
- "node": [
-  {
-   "id": 158713,
-   "name": "番長連合",
-   "date": "2003-11-06",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/1a/158713_0BUkt.jpg",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 158719,
-   "name": "堂本ルール",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158713,
-   "dst": 158719
-  },
-  {
-   "relate": "前传",
-   "src": 158719,
-   "dst": 158713
-  }
- ]
+  "id": "158713",
+  "node": [
+    {
+      "id": 158713,
+      "name": "番長連合",
+      "nameCN": "",
+      "date": "2003-11-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 158719,
+      "name": "堂本ルール",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158713,
+      "dst": 158719
+    },
+    {
+      "relateString": "前传",
+      "src": 158719,
+      "dst": 158713
+    }
+  ]
 }

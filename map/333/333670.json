@@ -1,0 +1,54 @@
+{
+  "id": "333670",
+  "node": [
+    {
+      "id": 333670,
+      "name": "Heretic",
+      "nameCN": "异教徒",
+      "date": "1994-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 333671,
+      "name": "Hexen: Beyond Heretic",
+      "nameCN": "邪教巫师",
+      "date": "1995-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 334152,
+      "name": "Hexen II",
+      "nameCN": "",
+      "date": "1997-09-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 333670,
+      "dst": 333671
+    },
+    {
+      "relateString": "前传",
+      "src": 333671,
+      "dst": 333670
+    },
+    {
+      "relateString": "续集",
+      "src": 333671,
+      "dst": 334152
+    },
+    {
+      "relateString": "前传",
+      "src": 334152,
+      "dst": 333671
+    }
+  ]
+}

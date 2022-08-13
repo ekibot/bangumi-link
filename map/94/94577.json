@@ -1,57 +1,54 @@
 {
- "id": 94577,
- "node": [
-  {
-   "id": 94577,
-   "name": "四大名捕之会京师",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/39/94577_6L2ch.jpg",
-   "date": "2004-04-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 143214,
-   "name": "四大名捕",
-   "nameCN": "四大名捕",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/4b/143214_VxpV0.jpg",
-   "date": "2004-01-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 143215,
-   "name": "四大名捕之铁手无敌",
-   "nameCN": "四大名捕之铁手无敌",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/e8/143215_zqf4h.jpg",
-   "date": "2004-11-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 94577,
-   "dst": 143214
-  },
-  {
-   "relate": "续集",
-   "src": 94577,
-   "dst": 143215
-  },
-  {
-   "relate": "续集",
-   "src": 143214,
-   "dst": 94577
-  },
-  {
-   "relate": "前传",
-   "src": 143215,
-   "dst": 94577
-  }
- ]
+  "id": "94577",
+  "node": [
+    {
+      "id": 94577,
+      "name": "四大名捕之会京师",
+      "nameCN": "",
+      "date": "2004-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 143214,
+      "name": "四大名捕",
+      "nameCN": "四大名捕",
+      "date": "2004-01-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 143215,
+      "name": "四大名捕之铁手无敌",
+      "nameCN": "四大名捕之铁手无敌",
+      "date": "2004-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 94577,
+      "dst": 143214
+    },
+    {
+      "relateString": "续集",
+      "src": 94577,
+      "dst": 143215
+    },
+    {
+      "relateString": "续集",
+      "src": 143214,
+      "dst": 94577
+    },
+    {
+      "relateString": "前传",
+      "src": 143215,
+      "dst": 94577
+    }
+  ]
 }

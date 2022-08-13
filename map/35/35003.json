@@ -1,77 +1,71 @@
 {
- "id": 35003,
- "node": [
-  {
-   "id": 35003,
-   "name": "みんなのゴルフ6",
-   "nameCN": "大众高尔夫6",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/4b/35003_vMU4o.jpg",
-   "date": "2011-12-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 163854,
-   "name": "みんなのGOLF 5",
-   "nameCN": "大众高尔夫5",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/40/163854_TeFF1.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 213293,
-   "name": "NEW みんなのGOLF",
-   "nameCN": "新大众高尔夫",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/8e/213293_Z3dN4.jpg",
-   "date": "2017-08-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 218798,
-   "name": "みんゴル",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/2c/218798_2UUB6.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 35003,
-   "dst": 163854
-  },
-  {
-   "relate": "续集",
-   "src": 35003,
-   "dst": 213293
-  },
-  {
-   "relate": "续集",
-   "src": 163854,
-   "dst": 35003
-  },
-  {
-   "relate": "前传",
-   "src": 213293,
-   "dst": 35003
-  },
-  {
-   "relate": "不同演绎",
-   "src": 213293,
-   "dst": 218798
-  },
-  {
-   "relate": "不同演绎",
-   "src": 218798,
-   "dst": 213293
-  }
- ]
+  "id": "35003",
+  "node": [
+    {
+      "id": 35003,
+      "name": "みんなのゴルフ6",
+      "nameCN": "大众高尔夫6",
+      "date": "2011-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 163854,
+      "name": "みんなのGOLF 5",
+      "nameCN": "大众高尔夫5",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 213293,
+      "name": "NEW みんなのGOLF",
+      "nameCN": "新大众高尔夫",
+      "date": "2017-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218798,
+      "name": "みんゴル",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 35003,
+      "dst": 163854
+    },
+    {
+      "relateString": "续集",
+      "src": 35003,
+      "dst": 213293
+    },
+    {
+      "relateString": "续集",
+      "src": 163854,
+      "dst": 35003
+    },
+    {
+      "relateString": "前传",
+      "src": 213293,
+      "dst": 35003
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 213293,
+      "dst": 218798
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 218798,
+      "dst": 213293
+    }
+  ]
 }

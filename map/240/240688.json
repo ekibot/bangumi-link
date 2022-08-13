@@ -1,37 +1,35 @@
 {
- "id": 240688,
- "node": [
-  {
-   "id": 240688,
-   "name": "死神道化",
-   "nameCN": "死神道化",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/1e/240688_Y9Z4I.jpg",
-   "date": "2012-02-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 240690,
-   "name": "ETERNAL",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/bb/240690_1o36X.jpg",
-   "date": "2012-03-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240688,
-   "dst": 240690
-  },
-  {
-   "relate": "前传",
-   "src": 240690,
-   "dst": 240688
-  }
- ]
+  "id": "240688",
+  "node": [
+    {
+      "id": 240688,
+      "name": "死神道化",
+      "nameCN": "死神道化",
+      "date": "2012-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240690,
+      "name": "ETERNAL",
+      "nameCN": "",
+      "date": "2012-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240688,
+      "dst": 240690
+    },
+    {
+      "relateString": "前传",
+      "src": 240690,
+      "dst": 240688
+    }
+  ]
 }

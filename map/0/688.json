@@ -1,77 +1,73 @@
 {
- "id": 688,
- "node": [
-  {
-   "id": 688,
-   "name": "Just Cause",
-   "nameCN": "正当防卫",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/99/688_aus.jpg",
-   "date": "2006-09-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 18803,
-   "name": "Just Cause 2",
-   "nameCN": "正当防卫2",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/08/18803_r7W2Q.jpg",
-   "date": "2010-03-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 134056,
-   "name": "Just Cause 3",
-   "nameCN": "正当防卫3",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/24/134056_Pu9lo.jpg",
-   "date": "2015-12-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 249297,
-   "name": "Just Cause 4",
-   "nameCN": "正当防卫4",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/7c/249297_zunGN.jpg",
-   "date": "2018-12-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 688,
-   "dst": 18803
-  },
-  {
-   "relate": "前传",
-   "src": 18803,
-   "dst": 688
-  },
-  {
-   "relate": "续集",
-   "src": 18803,
-   "dst": 134056
-  },
-  {
-   "relate": "前传",
-   "src": 134056,
-   "dst": 18803
-  },
-  {
-   "relate": "续集",
-   "src": 134056,
-   "dst": 249297
-  },
-  {
-   "relate": "前传",
-   "src": 249297,
-   "dst": 134056
-  }
- ]
+  "id": "688",
+  "node": [
+    {
+      "id": 688,
+      "name": "Just Cause",
+      "nameCN": "正当防卫",
+      "date": "2006-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 18803,
+      "name": "Just Cause 2",
+      "nameCN": "正当防卫2",
+      "date": "2010-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 134056,
+      "name": "Just Cause 3",
+      "nameCN": "正当防卫3",
+      "date": "2015-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249297,
+      "name": "Just Cause 4",
+      "nameCN": "正当防卫4",
+      "date": "2018-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 688,
+      "dst": 18803
+    },
+    {
+      "relateString": "前传",
+      "src": 18803,
+      "dst": 688
+    },
+    {
+      "relateString": "续集",
+      "src": 18803,
+      "dst": 134056
+    },
+    {
+      "relateString": "前传",
+      "src": 134056,
+      "dst": 18803
+    },
+    {
+      "relateString": "续集",
+      "src": 134056,
+      "dst": 249297
+    },
+    {
+      "relateString": "前传",
+      "src": 249297,
+      "dst": 134056
+    }
+  ]
 }

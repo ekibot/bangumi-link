@@ -1,37 +1,34 @@
 {
- "id": 101199,
- "node": [
-  {
-   "id": 101199,
-   "name": "Papa Sangre II",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/da/101199_0qoQw.jpg",
-   "date": "2013-10-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 101200,
-   "name": "Papa Sangre",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/26/101200_JO48J.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 101199,
-   "dst": 101200
-  },
-  {
-   "relate": "续集",
-   "src": 101200,
-   "dst": 101199
-  }
- ]
+  "id": "101199",
+  "node": [
+    {
+      "id": 101199,
+      "name": "Papa Sangre II",
+      "nameCN": "",
+      "date": "2013-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 101200,
+      "name": "Papa Sangre",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 101199,
+      "dst": 101200
+    },
+    {
+      "relateString": "续集",
+      "src": 101200,
+      "dst": 101199
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 14991,
- "node": [
-  {
-   "id": 14991,
-   "name": "風雨来記",
-   "nameCN": "风雨来记",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/d6/14991_GBiWd.jpg",
-   "date": "2001-01-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 14993,
-   "name": "風雨来記2",
-   "nameCN": "风雨来记2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/83/14993_ga3wJ.jpg",
-   "date": "2005-11-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PS2"
-  },
-  {
-   "id": 72051,
-   "name": "風雨来記3",
-   "nameCN": "风雨来记3",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/18/72051_mmilP.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 323735,
-   "name": "風雨来記4",
-   "nameCN": "风雨来记4",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/2f/323735_Z1H1g.jpg",
-   "date": "2021-07-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14991,
-   "dst": 14993
-  },
-  {
-   "relate": "前传",
-   "src": 14993,
-   "dst": 14991
-  },
-  {
-   "relate": "续集",
-   "src": 14993,
-   "dst": 72051
-  },
-  {
-   "relate": "前传",
-   "src": 72051,
-   "dst": 14993
-  },
-  {
-   "relate": "续集",
-   "src": 72051,
-   "dst": 323735
-  },
-  {
-   "relate": "前传",
-   "src": 323735,
-   "dst": 72051
-  }
- ]
+  "id": "14991",
+  "node": [
+    {
+      "id": 14991,
+      "name": "風雨来記",
+      "nameCN": "风雨来记",
+      "date": "2001-01-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 14993,
+      "name": "風雨来記2",
+      "nameCN": "风雨来记2",
+      "date": "2005-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 72051,
+      "name": "風雨来記3",
+      "nameCN": "风雨来记3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323735,
+      "name": "風雨来記4",
+      "nameCN": "风雨来记4",
+      "date": "2021-07-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14991,
+      "dst": 14993
+    },
+    {
+      "relateString": "前传",
+      "src": 14993,
+      "dst": 14991
+    },
+    {
+      "relateString": "续集",
+      "src": 14993,
+      "dst": 72051
+    },
+    {
+      "relateString": "前传",
+      "src": 72051,
+      "dst": 14993
+    },
+    {
+      "relateString": "续集",
+      "src": 72051,
+      "dst": 323735
+    },
+    {
+      "relateString": "前传",
+      "src": 323735,
+      "dst": 72051
+    }
+  ]
 }

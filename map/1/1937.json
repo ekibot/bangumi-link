@@ -1,37 +1,35 @@
 {
- "id": 1937,
- "node": [
-  {
-   "id": 1937,
-   "name": "無限のリヴァイアス",
-   "nameCN": "无限的未知",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/6f/1937_F2s22.jpg",
-   "date": "1999-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 279906,
-   "name": "無限のリヴァイアス イリュージョン",
-   "nameCN": "无限的未知 Illusion",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/88/279906_x2QPS.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 1937,
-   "dst": 279906
-  },
-  {
-   "relate": "主线故事",
-   "src": 279906,
-   "dst": 1937
-  }
- ]
+  "id": "1937",
+  "node": [
+    {
+      "id": 1937,
+      "name": "無限のリヴァイアス",
+      "nameCN": "无限的未知",
+      "date": "1999-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 279906,
+      "name": "無限のリヴァイアス イリュージョン",
+      "nameCN": "无限的未知 Illusion",
+      "date": "2000-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 1937,
+      "dst": 279906
+    },
+    {
+      "relateString": "主线故事",
+      "src": 279906,
+      "dst": 1937
+    }
+  ]
 }

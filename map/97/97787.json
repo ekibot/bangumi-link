@@ -1,37 +1,35 @@
 {
- "id": 97787,
- "node": [
-  {
-   "id": 97787,
-   "name": "愛してるって言わなきゃ殺す 東京心中・2",
-   "nameCN": "不说你爱我就杀了你 东京心中・2",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/e2/97787_p1iw0.jpg",
-   "date": "2013-02-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 104421,
-   "name": "君も人生棒に振ってみないか？ 東京心中・3",
-   "nameCN": "你要不要也賭上自己的人生？东京心中・3",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/40/104421_QPB1n.jpg",
-   "date": "2013-03-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 97787,
-   "dst": 104421
-  },
-  {
-   "relate": "前传",
-   "src": 104421,
-   "dst": 97787
-  }
- ]
+  "id": "97787",
+  "node": [
+    {
+      "id": 97787,
+      "name": "愛してるって言わなきゃ殺す 東京心中・2",
+      "nameCN": "不说你爱我就杀了你 东京心中・2",
+      "date": "2013-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 104421,
+      "name": "君も人生棒に振ってみないか？ 東京心中・3",
+      "nameCN": "你要不要也賭上自己的人生？东京心中・3",
+      "date": "2013-03-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 97787,
+      "dst": 104421
+    },
+    {
+      "relateString": "前传",
+      "src": 104421,
+      "dst": 97787
+    }
+  ]
 }

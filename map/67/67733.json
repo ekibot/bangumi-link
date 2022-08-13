@@ -1,37 +1,35 @@
 {
- "id": 67733,
- "node": [
-  {
-   "id": 67733,
-   "name": "魁!!男塾劇場版",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/09/67733_7BfAl.jpg",
-   "date": "1988-07-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 103157,
-   "name": "魁!!男塾",
-   "nameCN": "魁!!男塾",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/6a/103157_oe1vG.jpg",
-   "date": "1988-02-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 67733,
-   "dst": 103157
-  },
-  {
-   "relate": "番外篇",
-   "src": 103157,
-   "dst": 67733
-  }
- ]
+  "id": "67733",
+  "node": [
+    {
+      "id": 67733,
+      "name": "魁!!男塾劇場版",
+      "nameCN": "",
+      "date": "1988-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 103157,
+      "name": "魁!!男塾",
+      "nameCN": "魁!!男塾",
+      "date": "1988-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 67733,
+      "dst": 103157
+    },
+    {
+      "relateString": "番外篇",
+      "src": 103157,
+      "dst": 67733
+    }
+  ]
 }

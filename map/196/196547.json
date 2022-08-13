@@ -1,57 +1,52 @@
 {
- "id": 196547,
- "node": [
-  {
-   "id": 196547,
-   "name": "冬のアゲハ",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/23/196547_jp.jpg",
-   "date": "2010-08-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 196550,
-   "name": "朱月のアゲハ",
-   "nameCN": "朱月的羽音",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/3a/196550_fsoX8.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 196551,
-   "name": "荊冠のアゲハ",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/2d/196551_cqq8c.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196547,
-   "dst": 196550
-  },
-  {
-   "relate": "前传",
-   "src": 196550,
-   "dst": 196547
-  },
-  {
-   "relate": "续集",
-   "src": 196550,
-   "dst": 196551
-  },
-  {
-   "relate": "前传",
-   "src": 196551,
-   "dst": 196550
-  }
- ]
+  "id": "196547",
+  "node": [
+    {
+      "id": 196547,
+      "name": "冬のアゲハ",
+      "nameCN": "",
+      "date": "2010-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196550,
+      "name": "朱月のアゲハ",
+      "nameCN": "朱月的羽音",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196551,
+      "name": "荊冠のアゲハ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196547,
+      "dst": 196550
+    },
+    {
+      "relateString": "前传",
+      "src": 196550,
+      "dst": 196547
+    },
+    {
+      "relateString": "续集",
+      "src": 196550,
+      "dst": 196551
+    },
+    {
+      "relateString": "前传",
+      "src": 196551,
+      "dst": 196550
+    }
+  ]
 }

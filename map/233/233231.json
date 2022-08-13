@@ -1,37 +1,35 @@
 {
- "id": 233231,
- "node": [
-  {
-   "id": 233231,
-   "name": "手中に落としていいですか",
-   "nameCN": "我要將你納入手中",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/11/233231_ZyQqf.jpg",
-   "date": "2017-09-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 289400,
-   "name": "手中に落としていいですか2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/d2/289400_63Mm2.jpg",
-   "date": "2019-08-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233231,
-   "dst": 289400
-  },
-  {
-   "relate": "前传",
-   "src": 289400,
-   "dst": 233231
-  }
- ]
+  "id": "233231",
+  "node": [
+    {
+      "id": 233231,
+      "name": "手中に落としていいですか",
+      "nameCN": "我要將你納入手中",
+      "date": "2017-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 289400,
+      "name": "手中に落としていいですか2",
+      "nameCN": "",
+      "date": "2019-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233231,
+      "dst": 289400
+    },
+    {
+      "relateString": "前传",
+      "src": 289400,
+      "dst": 233231
+    }
+  ]
 }

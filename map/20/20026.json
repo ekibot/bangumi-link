@@ -1,28 +1,35 @@
 {
- "id": 20026,
- "node": [
-  {
-   "id": 20026,
-   "name": "IZUMO -猛き剣の閃記-",
-   "nameCN": "出云战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/d5/20026_UzzJz.jpg",
-   "date": "2005-04-02",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 77050,
-   "name": "IZUMO",
-   "nameCN": "出云战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/07/77050_mqSd0.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 20026,
-   "dst": 77050
-  }
- ]
+  "id": "20026",
+  "node": [
+    {
+      "id": 20026,
+      "name": "IZUMO -猛き剣の閃記-",
+      "nameCN": "出云战记",
+      "date": "2005-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 77050,
+      "name": "IZUMO",
+      "nameCN": "出云战记",
+      "date": "2003-01-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 20026,
+      "dst": 77050
+    },
+    {
+      "relateString": "续集",
+      "src": 77050,
+      "dst": 20026
+    }
+  ]
 }

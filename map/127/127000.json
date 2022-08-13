@@ -1,37 +1,35 @@
 {
- "id": 127000,
- "node": [
-  {
-   "id": 127000,
-   "name": "齊天大勝",
-   "nameCN": "齐天大胜",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/76/127000_75a00.jpg",
-   "date": "2005-07-09",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 127006,
-   "name": "綜藝大勝戰",
-   "nameCN": "综艺大胜战",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/33/127006_a7P26.jpg",
-   "date": "2007-10-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127000,
-   "dst": 127006
-  },
-  {
-   "relate": "前传",
-   "src": 127006,
-   "dst": 127000
-  }
- ]
+  "id": "127000",
+  "node": [
+    {
+      "id": 127000,
+      "name": "齊天大勝",
+      "nameCN": "齐天大胜",
+      "date": "2005-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 127006,
+      "name": "綜藝大勝戰",
+      "nameCN": "综艺大胜战",
+      "date": "2007-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127000,
+      "dst": 127006
+    },
+    {
+      "relateString": "前传",
+      "src": 127006,
+      "dst": 127000
+    }
+  ]
 }

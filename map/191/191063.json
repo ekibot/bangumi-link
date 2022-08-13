@@ -1,37 +1,35 @@
 {
- "id": 191063,
- "node": [
-  {
-   "id": 191063,
-   "name": "レセプタクル",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/b8/191063_jp.jpg",
-   "date": "2012-05-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 259785,
-   "name": "レセプタクルafter",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/f3/259785_AD4K9.jpg",
-   "date": "2018-08-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191063,
-   "dst": 259785
-  },
-  {
-   "relate": "前传",
-   "src": 259785,
-   "dst": 191063
-  }
- ]
+  "id": "191063",
+  "node": [
+    {
+      "id": 191063,
+      "name": "レセプタクル",
+      "nameCN": "",
+      "date": "2012-05-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259785,
+      "name": "レセプタクルafter",
+      "nameCN": "",
+      "date": "2018-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191063,
+      "dst": 259785
+    },
+    {
+      "relateString": "前传",
+      "src": 259785,
+      "dst": 191063
+    }
+  ]
 }

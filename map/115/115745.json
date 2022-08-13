@@ -1,57 +1,54 @@
 {
- "id": 115745,
- "node": [
-  {
-   "id": 115745,
-   "name": "グーグーだって猫である",
-   "nameCN": "咕咕是一只猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/36/115745_K7LuH.jpg",
-   "date": "2014-10-18",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 115746,
-   "name": "グーグーだって猫である",
-   "nameCN": "咕咕是一只猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/bb/115746_qnzNI.jpg",
-   "date": "2008-09-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 177083,
-   "name": "グーグーだって猫である2 -good good the fortune cat-",
-   "nameCN": "咕咕是一只猫2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/f4/177083_HMBkk.jpg",
-   "date": "2016-06-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 115745,
-   "dst": 115746
-  },
-  {
-   "relate": "续集",
-   "src": 115745,
-   "dst": 177083
-  },
-  {
-   "relate": "不同演绎",
-   "src": 115746,
-   "dst": 115745
-  },
-  {
-   "relate": "前传",
-   "src": 177083,
-   "dst": 115745
-  }
- ]
+  "id": "115745",
+  "node": [
+    {
+      "id": 115745,
+      "name": "グーグーだって猫である",
+      "nameCN": "咕咕是一只猫",
+      "date": "2014-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 115746,
+      "name": "グーグーだって猫である",
+      "nameCN": "咕咕是一只猫",
+      "date": "2008-09-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 177083,
+      "name": "グーグーだって猫である2 -good good the fortune cat-",
+      "nameCN": "咕咕是一只猫2",
+      "date": "2016-06-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 115745,
+      "dst": 115746
+    },
+    {
+      "relateString": "续集",
+      "src": 115745,
+      "dst": 177083
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 115746,
+      "dst": 115745
+    },
+    {
+      "relateString": "前传",
+      "src": 177083,
+      "dst": 115745
+    }
+  ]
 }

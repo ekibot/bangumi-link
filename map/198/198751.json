@@ -1,37 +1,34 @@
 {
- "id": 198751,
- "node": [
-  {
-   "id": 198751,
-   "name": "拯救大魔王2",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/37/198751_wSWOH.jpg",
-   "date": "2016-11-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215405,
-   "name": "拯救大魔王：重生",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/a9/215405_7gfIa.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 198751,
-   "dst": 215405
-  },
-  {
-   "relate": "续集",
-   "src": 215405,
-   "dst": 198751
-  }
- ]
+  "id": "198751",
+  "node": [
+    {
+      "id": 198751,
+      "name": "拯救大魔王2",
+      "nameCN": "",
+      "date": "2016-11-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215405,
+      "name": "拯救大魔王：重生",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 198751,
+      "dst": 215405
+    },
+    {
+      "relateString": "续集",
+      "src": 215405,
+      "dst": 198751
+    }
+  ]
 }

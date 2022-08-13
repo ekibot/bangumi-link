@@ -1,37 +1,33 @@
 {
- "id": 312080,
- "node": [
-  {
-   "id": 312080,
-   "name": "Star Raiders",
-   "nameCN": "星际突击者",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/6b/312080_nPaHo.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 317837,
-   "name": "Star Raiders II",
-   "nameCN": "星际突击者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/10/317837_jCHxJ.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 312080,
-   "dst": 317837
-  },
-  {
-   "relate": "前传",
-   "src": 317837,
-   "dst": 312080
-  }
- ]
+  "id": "312080",
+  "node": [
+    {
+      "id": 312080,
+      "name": "Star Raiders",
+      "nameCN": "星际突击者",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317837,
+      "name": "Star Raiders II",
+      "nameCN": "星际突击者2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 312080,
+      "dst": 317837
+    },
+    {
+      "relateString": "前传",
+      "src": 317837,
+      "dst": 312080
+    }
+  ]
 }

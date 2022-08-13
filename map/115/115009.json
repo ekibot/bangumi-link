@@ -1,37 +1,35 @@
 {
- "id": 115009,
- "node": [
-  {
-   "id": 115009,
-   "name": "ヒガンバナ～女たちの犯罪ファイル～",
-   "nameCN": "彼岸花~女人们的犯罪档案~",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/88/115009_LSNZj.jpg",
-   "date": "2014-10-24",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 147827,
-   "name": "ヒガンバナ～警視庁捜査七課～",
-   "nameCN": "彼岸花：警视厅搜查七课",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/ab/147827_Z9btK.jpg",
-   "date": "2016-01-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "全集",
-   "src": 115009,
-   "dst": 147827
-  },
-  {
-   "relate": "总集篇",
-   "src": 147827,
-   "dst": 115009
-  }
- ]
+  "id": "115009",
+  "node": [
+    {
+      "id": 115009,
+      "name": "ヒガンバナ～女たちの犯罪ファイル～",
+      "nameCN": "彼岸花~女人们的犯罪档案~",
+      "date": "2014-10-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 147827,
+      "name": "ヒガンバナ～警視庁捜査七課～",
+      "nameCN": "彼岸花：警视厅搜查七课",
+      "date": "2016-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "全集",
+      "src": 115009,
+      "dst": 147827
+    },
+    {
+      "relateString": "总集篇",
+      "src": 147827,
+      "dst": 115009
+    }
+  ]
 }

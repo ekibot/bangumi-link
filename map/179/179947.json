@@ -1,57 +1,54 @@
 {
- "id": 179947,
- "node": [
-  {
-   "id": 179947,
-   "name": "スクールカースト殺人教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/19/179947_jp.jpg",
-   "date": "2016-04-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 265747,
-   "name": "スクールカースト殺人同窓会",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/8d/265747_hassp.jpg",
-   "date": "2018-10-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 343358,
-   "name": "スクールカースト殺人教室 リベンジ",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/8f/343358_7zIs6.jpg",
-   "date": "2020-08-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 179947,
-   "dst": 265747
-  },
-  {
-   "relate": "前传",
-   "src": 265747,
-   "dst": 179947
-  },
-  {
-   "relate": "续集",
-   "src": 265747,
-   "dst": 343358
-  },
-  {
-   "relate": "前传",
-   "src": 343358,
-   "dst": 265747
-  }
- ]
+  "id": "179947",
+  "node": [
+    {
+      "id": 179947,
+      "name": "スクールカースト殺人教室",
+      "nameCN": "",
+      "date": "2016-04-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 265747,
+      "name": "スクールカースト殺人同窓会",
+      "nameCN": "",
+      "date": "2018-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 343358,
+      "name": "スクールカースト殺人教室 リベンジ",
+      "nameCN": "",
+      "date": "2020-08-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 179947,
+      "dst": 265747
+    },
+    {
+      "relateString": "前传",
+      "src": 265747,
+      "dst": 179947
+    },
+    {
+      "relateString": "续集",
+      "src": 265747,
+      "dst": 343358
+    },
+    {
+      "relateString": "前传",
+      "src": 343358,
+      "dst": 265747
+    }
+  ]
 }

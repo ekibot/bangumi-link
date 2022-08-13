@@ -1,37 +1,33 @@
 {
- "id": 79277,
- "node": [
-  {
-   "id": 79277,
-   "name": "JOE&amp;MAC 戦え原始人",
-   "nameCN": "战斗原始人",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/f9/79277_5RRX7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260595,
-   "name": "ジョー＆マック リターンズ",
-   "nameCN": "战斗原始人回归",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/4e/260595_Qlhyz.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79277,
-   "dst": 260595
-  },
-  {
-   "relate": "前传",
-   "src": 260595,
-   "dst": 79277
-  }
- ]
+  "id": "79277",
+  "node": [
+    {
+      "id": 79277,
+      "name": "JOE&amp;MAC 戦え原始人",
+      "nameCN": "战斗原始人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260595,
+      "name": "ジョー＆マック リターンズ",
+      "nameCN": "战斗原始人回归",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79277,
+      "dst": 260595
+    },
+    {
+      "relateString": "前传",
+      "src": 260595,
+      "dst": 79277
+    }
+  ]
 }

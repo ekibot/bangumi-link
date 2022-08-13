@@ -1,37 +1,34 @@
 {
- "id": 226222,
- "node": [
-  {
-   "id": 226222,
-   "name": "Pokémon TCG Online",
-   "nameCN": "精灵宝可梦 TCG Online",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/e7/226222_911GM.jpg",
-   "date": "2011-03-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 350234,
-   "name": "Pokémon TCG Live",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/a2/350234_Xnt88.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226222,
-   "dst": 350234
-  },
-  {
-   "relate": "前传",
-   "src": 350234,
-   "dst": 226222
-  }
- ]
+  "id": "226222",
+  "node": [
+    {
+      "id": 226222,
+      "name": "Pokémon TCG Online",
+      "nameCN": "精灵宝可梦 TCG Online",
+      "date": "2011-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350234,
+      "name": "Pokémon TCG Live",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226222,
+      "dst": 350234
+    },
+    {
+      "relateString": "前传",
+      "src": 350234,
+      "dst": 226222
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 121954,
- "node": [
-  {
-   "id": 121954,
-   "name": "スチームヘヴン・フリークス",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/d2/121954_jp.jpg",
-   "date": "2014-07-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 121955,
-   "name": "スチームヘヴン・フリークス 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/42/121955_jp.jpg",
-   "date": "2014-11-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121954,
-   "dst": 121955
-  },
-  {
-   "relate": "前传",
-   "src": 121955,
-   "dst": 121954
-  }
- ]
+  "id": "121954",
+  "node": [
+    {
+      "id": 121954,
+      "name": "スチームヘヴン・フリークス",
+      "nameCN": "",
+      "date": "2014-07-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 121955,
+      "name": "スチームヘヴン・フリークス 2",
+      "nameCN": "",
+      "date": "2014-11-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121954,
+      "dst": 121955
+    },
+    {
+      "relateString": "前传",
+      "src": 121955,
+      "dst": 121954
+    }
+  ]
 }

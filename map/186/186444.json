@@ -1,37 +1,34 @@
 {
- "id": 186444,
- "node": [
-  {
-   "id": 186444,
-   "name": "極上天使",
-   "nameCN": "极上天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/3e/186444_k2D1V.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 186445,
-   "name": "極上天使リターンズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/98/186445_4xJqf.jpg",
-   "date": "2002-11-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 186444,
-   "dst": 186445
-  },
-  {
-   "relate": "前传",
-   "src": 186445,
-   "dst": 186444
-  }
- ]
+  "id": "186444",
+  "node": [
+    {
+      "id": 186444,
+      "name": "極上天使",
+      "nameCN": "极上天使",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 186445,
+      "name": "極上天使リターンズ",
+      "nameCN": "",
+      "date": "2002-11-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 186444,
+      "dst": 186445
+    },
+    {
+      "relateString": "前传",
+      "src": 186445,
+      "dst": 186444
+    }
+  ]
 }

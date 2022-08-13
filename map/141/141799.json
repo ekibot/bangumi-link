@@ -1,37 +1,35 @@
 {
- "id": 141799,
- "node": [
-  {
-   "id": 141799,
-   "name": "ふらいんぐうぃっち",
-   "nameCN": "飞翔的魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/25/141799_81ZfO.jpg",
-   "date": "2016-04-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 174504,
-   "name": "ふらいんぐうぃっち ぷち",
-   "nameCN": "小飞翔魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/bc/174504_33ZZ6.jpg",
-   "date": "2016-03-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 141799,
-   "dst": 174504
-  },
-  {
-   "relate": "主线故事",
-   "src": 174504,
-   "dst": 141799
-  }
- ]
+  "id": "141799",
+  "node": [
+    {
+      "id": 141799,
+      "name": "ふらいんぐうぃっち",
+      "nameCN": "飞翔的魔女",
+      "date": "2016-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 174504,
+      "name": "ふらいんぐうぃっち ぷち",
+      "nameCN": "小飞翔魔女",
+      "date": "2016-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 141799,
+      "dst": 174504
+    },
+    {
+      "relateString": "主线故事",
+      "src": 174504,
+      "dst": 141799
+    }
+  ]
 }

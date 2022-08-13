@@ -1,37 +1,34 @@
 {
- "id": 28863,
- "node": [
-  {
-   "id": 28863,
-   "name": "RIGHT×LIGHT",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/c3/28863_444jF.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 29775,
-   "name": "RIGHT∞LIGHT",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/3d/29775_FWFfW.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 28863,
-   "dst": 29775
-  },
-  {
-   "relate": "前传",
-   "src": 29775,
-   "dst": 28863
-  }
- ]
+  "id": "28863",
+  "node": [
+    {
+      "id": 28863,
+      "name": "RIGHT×LIGHT",
+      "nameCN": "",
+      "date": "2007-10-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 29775,
+      "name": "RIGHT∞LIGHT",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 28863,
+      "dst": 29775
+    },
+    {
+      "relateString": "前传",
+      "src": 29775,
+      "dst": 28863
+    }
+  ]
 }

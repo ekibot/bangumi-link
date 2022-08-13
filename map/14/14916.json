@@ -1,57 +1,51 @@
 {
- "id": 14916,
- "node": [
-  {
-   "id": 14916,
-   "name": "Galaxy Angel",
-   "nameCN": "银河天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/b9/14916_FPe4p.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 14917,
-   "name": "Galaxy Angel Moonlit Lovers",
-   "nameCN": "银河天使：月夜情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/9e/14917_ljblz.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 14918,
-   "name": "Galaxy Angel Eternal Lovers",
-   "nameCN": "银河天使：永恒的情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/dd/14918_00mYL.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14916,
-   "dst": 14917
-  },
-  {
-   "relate": "前传",
-   "src": 14917,
-   "dst": 14916
-  },
-  {
-   "relate": "续集",
-   "src": 14917,
-   "dst": 14918
-  },
-  {
-   "relate": "前传",
-   "src": 14918,
-   "dst": 14917
-  }
- ]
+  "id": "14916",
+  "node": [
+    {
+      "id": 14916,
+      "name": "Galaxy Angel",
+      "nameCN": "银河天使",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 14917,
+      "name": "Galaxy Angel Moonlit Lovers",
+      "nameCN": "银河天使：月夜情人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 14918,
+      "name": "Galaxy Angel Eternal Lovers",
+      "nameCN": "银河天使：永恒的情人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14916,
+      "dst": 14917
+    },
+    {
+      "relateString": "前传",
+      "src": 14917,
+      "dst": 14916
+    },
+    {
+      "relateString": "续集",
+      "src": 14917,
+      "dst": 14918
+    },
+    {
+      "relateString": "前传",
+      "src": 14918,
+      "dst": 14917
+    }
+  ]
 }

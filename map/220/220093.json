@@ -1,57 +1,53 @@
 {
- "id": 220093,
- "node": [
-  {
-   "id": 220093,
-   "name": "Hello Neighbor",
-   "nameCN": "你好 邻居",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/45/220093_iO28z.jpg",
-   "date": "2017-12-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 272736,
-   "name": "Hello Neighbor Hide &amp; Seek",
-   "nameCN": "你好邻居：躲猫猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/b1/272736_dxmu3.jpg",
-   "date": "2018-12-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 339010,
-   "name": "Hello Neighbor 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/14/339010_C0qDU.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 220093,
-   "dst": 272736
-  },
-  {
-   "relate": "续集",
-   "src": 220093,
-   "dst": 339010
-  },
-  {
-   "relate": "续集",
-   "src": 272736,
-   "dst": 220093
-  },
-  {
-   "relate": "前传",
-   "src": 339010,
-   "dst": 220093
-  }
- ]
+  "id": "220093",
+  "node": [
+    {
+      "id": 220093,
+      "name": "Hello Neighbor",
+      "nameCN": "你好 邻居",
+      "date": "2017-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272736,
+      "name": "Hello Neighbor Hide &amp; Seek",
+      "nameCN": "你好邻居：躲猫猫",
+      "date": "2018-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 339010,
+      "name": "Hello Neighbor 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 220093,
+      "dst": 272736
+    },
+    {
+      "relateString": "续集",
+      "src": 220093,
+      "dst": 339010
+    },
+    {
+      "relateString": "续集",
+      "src": 272736,
+      "dst": 220093
+    },
+    {
+      "relateString": "前传",
+      "src": 339010,
+      "dst": 220093
+    }
+  ]
 }

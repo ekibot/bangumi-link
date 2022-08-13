@@ -1,37 +1,35 @@
 {
- "id": 288055,
- "node": [
-  {
-   "id": 288055,
-   "name": "VS EVIL",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/29/288055_6yiSD.jpg",
-   "date": "2019-07-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 298752,
-   "name": "終の退魔師",
-   "nameCN": "终之退魔师",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/a0/298752_A44F0.jpg",
-   "date": "2019-12-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 288055,
-   "dst": 298752
-  },
-  {
-   "relate": "前传",
-   "src": 298752,
-   "dst": 288055
-  }
- ]
+  "id": "288055",
+  "node": [
+    {
+      "id": 288055,
+      "name": "VS EVIL",
+      "nameCN": "",
+      "date": "2019-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 298752,
+      "name": "終の退魔師",
+      "nameCN": "终之退魔师",
+      "date": "2019-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 288055,
+      "dst": 298752
+    },
+    {
+      "relateString": "前传",
+      "src": 298752,
+      "dst": 288055
+    }
+  ]
 }

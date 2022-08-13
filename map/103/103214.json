@@ -1,57 +1,54 @@
 {
- "id": 103214,
- "node": [
-  {
-   "id": 103214,
-   "name": "Faking It Season 1",
-   "nameCN": "假亦真 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/96/103214_dDk9k.jpg",
-   "date": "2014-04-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 114160,
-   "name": "Faking It Season 2",
-   "nameCN": "假亦真 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/7d/114160_ZZERj.jpg",
-   "date": "2014-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 175282,
-   "name": "Faking It Season 3",
-   "nameCN": "假亦真 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/53/175282_cs2yk.jpg",
-   "date": "2016-03-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103214,
-   "dst": 114160
-  },
-  {
-   "relate": "前传",
-   "src": 114160,
-   "dst": 103214
-  },
-  {
-   "relate": "续集",
-   "src": 114160,
-   "dst": 175282
-  },
-  {
-   "relate": "前传",
-   "src": 175282,
-   "dst": 114160
-  }
- ]
+  "id": "103214",
+  "node": [
+    {
+      "id": 103214,
+      "name": "Faking It Season 1",
+      "nameCN": "假亦真 第一季",
+      "date": "2014-04-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 114160,
+      "name": "Faking It Season 2",
+      "nameCN": "假亦真 第二季",
+      "date": "2014-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 175282,
+      "name": "Faking It Season 3",
+      "nameCN": "假亦真 第三季",
+      "date": "2016-03-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103214,
+      "dst": 114160
+    },
+    {
+      "relateString": "前传",
+      "src": 114160,
+      "dst": 103214
+    },
+    {
+      "relateString": "续集",
+      "src": 114160,
+      "dst": 175282
+    },
+    {
+      "relateString": "前传",
+      "src": 175282,
+      "dst": 114160
+    }
+  ]
 }

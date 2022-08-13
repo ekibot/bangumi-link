@@ -1,100 +1,107 @@
 {
- "id": 1095,
- "node": [
-  {
-   "id": 1095,
-   "name": "闘神都市Ⅲ",
-   "nameCN": "斗神都市3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/72/1095_ajp.jpg",
-   "date": "2008-11-28",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 26653,
-   "name": "闘神都市II",
-   "nameCN": "斗神都市2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/ba/26653_484X8.jpg",
-   "date": "1994-12-10",
-   "type": 4
-  },
-  {
-   "id": 92983,
-   "name": "闘神都市RPG",
-   "nameCN": "斗神都市",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/1a/92983_rNSNN.jpg",
-   "date": "2014-01-30",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 111612,
-   "name": "闘神都市",
-   "nameCN": "斗神都市",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/80/111612_Y7iZp.jpg",
-   "date": "1990-12-15",
-   "type": 4
-  },
-  {
-   "id": 354249,
-   "name": "闘神都市II そして、それから…",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/28/354249_si6i7.jpg",
-   "date": "1995-12-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1095,
-   "dst": 26653
-  },
-  {
-   "relate": "前传",
-   "src": 1095,
-   "dst": 111612
-  },
-  {
-   "relate": "续集",
-   "src": 26653,
-   "dst": 1095
-  },
-  {
-   "relate": "不同演绎",
-   "src": 26653,
-   "dst": 92983
-  },
-  {
-   "relate": "前传",
-   "src": 26653,
-   "dst": 111612
-  },
-  {
-   "relate": "不同演绎",
-   "src": 92983,
-   "dst": 26653
-  },
-  {
-   "relate": "不同演绎",
-   "src": 92983,
-   "dst": 111612
-  },
-  {
-   "relate": "续集",
-   "src": 111612,
-   "dst": 26653
-  },
-  {
-   "relate": "不同演绎",
-   "src": 111612,
-   "dst": 92983
-  },
-  {
-   "relate": "主线故事",
-   "src": 354249,
-   "dst": 26653
-  }
- ]
+  "id": "1095",
+  "node": [
+    {
+      "id": 1095,
+      "name": "闘神都市Ⅲ",
+      "nameCN": "斗神都市3",
+      "date": "2008-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 26653,
+      "name": "闘神都市II",
+      "nameCN": "斗神都市2",
+      "date": "1994-12-10",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111612,
+      "name": "闘神都市",
+      "nameCN": "斗神都市",
+      "date": "1990-12-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 92983,
+      "name": "闘神都市RPG",
+      "nameCN": "斗神都市",
+      "date": "2014-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 354249,
+      "name": "闘神都市II そして、それから…",
+      "nameCN": "",
+      "date": "1995-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1095,
+      "dst": 26653
+    },
+    {
+      "relateString": "前传",
+      "src": 1095,
+      "dst": 111612
+    },
+    {
+      "relateString": "续集",
+      "src": 26653,
+      "dst": 1095
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 26653,
+      "dst": 92983
+    },
+    {
+      "relateString": "前传",
+      "src": 26653,
+      "dst": 111612
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 92983,
+      "dst": 26653
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 92983,
+      "dst": 111612
+    },
+    {
+      "relateString": "续集",
+      "src": 111612,
+      "dst": 1095
+    },
+    {
+      "relateString": "续集",
+      "src": 111612,
+      "dst": 26653
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 111612,
+      "dst": 92983
+    },
+    {
+      "relateString": "主线故事",
+      "src": 354249,
+      "dst": 26653
+    }
+  ]
 }

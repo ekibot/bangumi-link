@@ -1,37 +1,35 @@
 {
- "id": 19615,
- "node": [
-  {
-   "id": 19615,
-   "name": "東京ミュウミュウ",
-   "nameCN": "东京猫猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/8c/19615_0B0NV.jpg",
-   "date": "2002-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 303195,
-   "name": "東京ミュウミュウ にゅ～♡",
-   "nameCN": "东京猫猫 NEW～♡",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/a4/303195_kvQNT.jpg",
-   "date": "2022-07-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 19615,
-   "dst": 303195
-  },
-  {
-   "relate": "前传",
-   "src": 303195,
-   "dst": 19615
-  }
- ]
+  "id": "19615",
+  "node": [
+    {
+      "id": 19615,
+      "name": "東京ミュウミュウ",
+      "nameCN": "东京猫猫",
+      "date": "2002-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 303195,
+      "name": "東京ミュウミュウ にゅ～♡",
+      "nameCN": "东京猫猫 NEW～♡",
+      "date": "2022-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 19615,
+      "dst": 303195
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 303195,
+      "dst": 19615
+    }
+  ]
 }

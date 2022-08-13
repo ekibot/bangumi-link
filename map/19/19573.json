@@ -1,57 +1,54 @@
 {
- "id": 19573,
- "node": [
-  {
-   "id": 19573,
-   "name": "Garfield",
-   "nameCN": "加菲猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/61/19573_m55eJ.jpg",
-   "date": "2004-12-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 19574,
-   "name": "Garfield: A Tail of Two Kitties",
-   "nameCN": "加菲猫2",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/87/19574_bffv5.jpg",
-   "date": "2006-08-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 208276,
-   "name": "Garfield",
-   "nameCN": "加菲猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/79/208276_MABuM.jpg",
-   "date": "1982-05-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 19573,
-   "dst": 19574
-  },
-  {
-   "relate": "主线故事",
-   "src": 19573,
-   "dst": 208276
-  },
-  {
-   "relate": "前传",
-   "src": 19574,
-   "dst": 19573
-  },
-  {
-   "relate": "衍生",
-   "src": 208276,
-   "dst": 19573
-  }
- ]
+  "id": "19573",
+  "node": [
+    {
+      "id": 19573,
+      "name": "Garfield",
+      "nameCN": "加菲猫",
+      "date": "2004-12-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 19574,
+      "name": "Garfield: A Tail of Two Kitties",
+      "nameCN": "加菲猫2",
+      "date": "2006-08-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 208276,
+      "name": "Garfield",
+      "nameCN": "加菲猫",
+      "date": "1982-05-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 19573,
+      "dst": 19574
+    },
+    {
+      "relateString": "主线故事",
+      "src": 19573,
+      "dst": 208276
+    },
+    {
+      "relateString": "前传",
+      "src": 19574,
+      "dst": 19573
+    },
+    {
+      "relateString": "衍生",
+      "src": 208276,
+      "dst": 19573
+    }
+  ]
 }

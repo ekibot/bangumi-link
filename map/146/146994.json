@@ -1,37 +1,35 @@
 {
- "id": 146994,
- "node": [
-  {
-   "id": 146994,
-   "name": "だがしかし",
-   "nameCN": "粗点心战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/23/146994_7SYIy.jpg",
-   "date": "2016-01-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 221490,
-   "name": "だがしかし2",
-   "nameCN": "粗点心战争2",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/d8/221490_4pO1s.jpg",
-   "date": "2018-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 146994,
-   "dst": 221490
-  },
-  {
-   "relate": "前传",
-   "src": 221490,
-   "dst": 146994
-  }
- ]
+  "id": "146994",
+  "node": [
+    {
+      "id": 146994,
+      "name": "だがしかし",
+      "nameCN": "粗点心战争",
+      "date": "2016-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 221490,
+      "name": "だがしかし2",
+      "nameCN": "粗点心战争2",
+      "date": "2018-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 146994,
+      "dst": 221490
+    },
+    {
+      "relateString": "前传",
+      "src": 221490,
+      "dst": 146994
+    }
+  ]
 }

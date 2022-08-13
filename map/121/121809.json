@@ -1,0 +1,73 @@
+{
+  "id": "121809",
+  "node": [
+    {
+      "id": 121809,
+      "name": "Streets of Rage 2",
+      "nameCN": "怒之铁拳2",
+      "date": "1993-01-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259095,
+      "name": "ベア・ナックル 怒りの鉄拳",
+      "nameCN": "怒之铁拳",
+      "date": "1991-08-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259096,
+      "name": "ベア・ナックルIII",
+      "nameCN": "怒之铁拳3",
+      "date": "1994-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259117,
+      "name": "Streets of Rage 4",
+      "nameCN": "怒之铁拳4",
+      "date": "2020-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 121809,
+      "dst": 259095
+    },
+    {
+      "relateString": "续集",
+      "src": 121809,
+      "dst": 259096
+    },
+    {
+      "relateString": "续集",
+      "src": 259095,
+      "dst": 121809
+    },
+    {
+      "relateString": "前传",
+      "src": 259096,
+      "dst": 121809
+    },
+    {
+      "relateString": "续集",
+      "src": 259096,
+      "dst": 259117
+    },
+    {
+      "relateString": "前传",
+      "src": 259117,
+      "dst": 259096
+    }
+  ]
+}

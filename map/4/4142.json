@@ -1,0 +1,54 @@
+{
+  "id": "4142",
+  "node": [
+    {
+      "id": 4142,
+      "name": "白騎士物語~古の鼓動~",
+      "nameCN": "白骑士物語 遠古的鼓動",
+      "date": "2008-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS3"
+    },
+    {
+      "id": 50221,
+      "name": "白騎士物語 -光と闇の覚醒-",
+      "nameCN": "白骑士物语 光与暗的觉醒",
+      "date": "2010-07-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 11993,
+      "name": "白騎士物語 -episode portable- ドグマ・ウォーズ",
+      "nameCN": "白骑士物语 携带版：道格玛战争",
+      "date": "2011-02-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4142,
+      "dst": 50221
+    },
+    {
+      "relateString": "续集",
+      "src": 11993,
+      "dst": 50221
+    },
+    {
+      "relateString": "前传",
+      "src": 50221,
+      "dst": 4142
+    },
+    {
+      "relateString": "前传",
+      "src": 50221,
+      "dst": 11993
+    }
+  ]
+}

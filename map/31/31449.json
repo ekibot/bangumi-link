@@ -1,34 +1,34 @@
 {
- "id": 31449,
- "node": [
-  {
-   "id": 31449,
-   "name": "ムダヅモ無き改革",
-   "nameCN": "渣和无用改革",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/6c/31449_lNS0S.jpg",
-   "date": null,
-   "type": 1
-  },
-  {
-   "id": 279113,
-   "name": "ムダヅモ無き改革 プリンセスオブジパング",
-   "nameCN": "渣和无用改革 大和公主麻将传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/c8/279113_wSuU0.jpg",
-   "date": "2018-02-15",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 31449,
-   "dst": 279113
-  },
-  {
-   "relate": "前传",
-   "src": 279113,
-   "dst": 31449
-  }
- ]
+  "id": "31449",
+  "node": [
+    {
+      "id": 31449,
+      "name": "ムダヅモ無き改革",
+      "nameCN": "渣和无用改革",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 279113,
+      "name": "ムダヅモ無き改革 プリンセスオブジパング",
+      "nameCN": "渣和无用改革 大和公主麻将传说",
+      "date": "2018-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 31449,
+      "dst": 279113
+    },
+    {
+      "relateString": "前传",
+      "src": 279113,
+      "dst": 31449
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 89971,
- "node": [
-  {
-   "id": 89971,
-   "name": "무한의 탐정",
-   "nameCN": "口袋侦探",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/74/89971_wTLG3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 166248,
-   "name": "★무한의 탐정2★ 추리게임대작",
-   "nameCN": "口袋侦探2",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/91/166248_a48jo.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89971,
-   "dst": 166248
-  },
-  {
-   "relate": "前传",
-   "src": 166248,
-   "dst": 89971
-  }
- ]
+  "id": "89971",
+  "node": [
+    {
+      "id": 89971,
+      "name": "무한의 탐정",
+      "nameCN": "口袋侦探",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 166248,
+      "name": "★무한의 탐정2★ 추리게임대작",
+      "nameCN": "口袋侦探2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89971,
+      "dst": 166248
+    },
+    {
+      "relateString": "前传",
+      "src": 166248,
+      "dst": 89971
+    }
+  ]
 }

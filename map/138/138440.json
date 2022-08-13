@@ -1,37 +1,35 @@
 {
- "id": 138440,
- "node": [
-  {
-   "id": 138440,
-   "name": "初恋モンスター",
-   "nameCN": "初恋Monster",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/83/138440_cdFuU.jpg",
-   "date": "2016-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 192377,
-   "name": "初恋モンスター OAD",
-   "nameCN": "初恋Monster OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/37/192377_95KML.jpg",
-   "date": "2017-02-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 138440,
-   "dst": 192377
-  },
-  {
-   "relate": "前传",
-   "src": 192377,
-   "dst": 138440
-  }
- ]
+  "id": "138440",
+  "node": [
+    {
+      "id": 138440,
+      "name": "初恋モンスター",
+      "nameCN": "初恋Monster",
+      "date": "2016-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 192377,
+      "name": "初恋モンスター OAD",
+      "nameCN": "初恋Monster OAD",
+      "date": "2017-02-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 138440,
+      "dst": 192377
+    },
+    {
+      "relateString": "前传",
+      "src": 192377,
+      "dst": 138440
+    }
+  ]
 }

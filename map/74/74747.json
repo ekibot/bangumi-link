@@ -1,57 +1,54 @@
 {
- "id": 74747,
- "node": [
-  {
-   "id": 74747,
-   "name": "初音ミクGraphics Character Collection CV01 初音ミク edition",
-   "nameCN": "初音未来 Graphics Character Collection CV01",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/40/74747_nrC81.jpg",
-   "date": "2011-09-01",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 74749,
-   "name": "初音ミクGraphics Character Collection CV02 鏡音リン・レン edition",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/6a/74749_a8md8.jpg",
-   "date": "2011-09-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  },
-  {
-   "id": 74753,
-   "name": "初音ミクGraphics Character Collection CV03 巡音ルカ edition",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/85/74753_8yr2E.jpg",
-   "date": "2011-10-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 74747,
-   "dst": 74749
-  },
-  {
-   "relate": "前传",
-   "src": 74749,
-   "dst": 74747
-  },
-  {
-   "relate": "续集",
-   "src": 74749,
-   "dst": 74753
-  },
-  {
-   "relate": "前传",
-   "src": 74753,
-   "dst": 74749
-  }
- ]
+  "id": "74747",
+  "node": [
+    {
+      "id": 74747,
+      "name": "初音ミクGraphics Character Collection CV01 初音ミク edition",
+      "nameCN": "初音未来 Graphics Character Collection CV01",
+      "date": "2011-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 74749,
+      "name": "初音ミクGraphics Character Collection CV02 鏡音リン・レン edition",
+      "nameCN": "",
+      "date": "2011-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 74753,
+      "name": "初音ミクGraphics Character Collection CV03 巡音ルカ edition",
+      "nameCN": "",
+      "date": "2011-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 74747,
+      "dst": 74749
+    },
+    {
+      "relateString": "前传",
+      "src": 74749,
+      "dst": 74747
+    },
+    {
+      "relateString": "续集",
+      "src": 74749,
+      "dst": 74753
+    },
+    {
+      "relateString": "前传",
+      "src": 74753,
+      "dst": 74749
+    }
+  ]
 }

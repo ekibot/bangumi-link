@@ -1,37 +1,35 @@
 {
- "id": 366774,
- "node": [
-  {
-   "id": 366774,
-   "name": "Soul Foundation+",
-   "nameCN": "SEED同人作品",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/30/366774_3c78F.jpg",
-   "date": "2005-01-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 366775,
-   "name": "Soul Foundation 2",
-   "nameCN": "SEED同人游戏2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/7b/366775_f0jqA.jpg",
-   "date": "2009-04-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 366774,
-   "dst": 366775
-  },
-  {
-   "relate": "前传",
-   "src": 366775,
-   "dst": 366774
-  }
- ]
+  "id": "366774",
+  "node": [
+    {
+      "id": 366774,
+      "name": "Soul Foundation+",
+      "nameCN": "SEED同人作品",
+      "date": "2005-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 366775,
+      "name": "Soul Foundation 2",
+      "nameCN": "SEED同人游戏2",
+      "date": "2009-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 366774,
+      "dst": 366775
+    },
+    {
+      "relateString": "前传",
+      "src": 366775,
+      "dst": 366774
+    }
+  ]
 }

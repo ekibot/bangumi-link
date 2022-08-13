@@ -1,37 +1,35 @@
 {
- "id": 24354,
- "node": [
-  {
-   "id": 24354,
-   "name": "최강합체 믹스마스터",
-   "nameCN": "磁星骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/3e/24354_8hHH7.jpg",
-   "date": "2010-05-26",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 24355,
-   "name": "카드왕 믹스마스터",
-   "nameCN": "奇幻宝贝",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/a5/24355_7UnL2.jpg",
-   "date": "2005-10-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 24354,
-   "dst": 24355
-  },
-  {
-   "relate": "续集",
-   "src": 24355,
-   "dst": 24354
-  }
- ]
+  "id": "24354",
+  "node": [
+    {
+      "id": 24354,
+      "name": "최강합체 믹스마스터",
+      "nameCN": "磁星骑士",
+      "date": "2010-05-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 24355,
+      "name": "카드왕 믹스마스터",
+      "nameCN": "奇幻宝贝",
+      "date": "2005-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 24354,
+      "dst": 24355
+    },
+    {
+      "relateString": "续集",
+      "src": 24355,
+      "dst": 24354
+    }
+  ]
 }

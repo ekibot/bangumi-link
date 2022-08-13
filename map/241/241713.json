@@ -1,37 +1,35 @@
 {
- "id": 241713,
- "node": [
-  {
-   "id": 241713,
-   "name": "The Longest Journey",
-   "nameCN": "最长之旅",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/71/241713_AZa4c.jpg",
-   "date": "1999-11-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 252323,
-   "name": "Dreamfall: The Longest Journey",
-   "nameCN": "无尽的旅程2",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/65/252323_40mm2.jpg",
-   "date": "2006-04-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 241713,
-   "dst": 252323
-  },
-  {
-   "relate": "前传",
-   "src": 252323,
-   "dst": 241713
-  }
- ]
+  "id": "241713",
+  "node": [
+    {
+      "id": 241713,
+      "name": "The Longest Journey",
+      "nameCN": "最长之旅",
+      "date": "1999-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 252323,
+      "name": "Dreamfall: The Longest Journey",
+      "nameCN": "无尽的旅程2",
+      "date": "2006-04-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 241713,
+      "dst": 252323
+    },
+    {
+      "relateString": "前传",
+      "src": 252323,
+      "dst": 241713
+    }
+  ]
 }

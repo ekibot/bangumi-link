@@ -1,57 +1,54 @@
 {
- "id": 65845,
- "node": [
-  {
-   "id": 65845,
-   "name": "20世紀少年 第1章 終わりの始まり",
-   "nameCN": "20世纪少年 第1章 完结的开始",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/13/65845_g6c07.jpg",
-   "date": "2008-08-30",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 65846,
-   "name": "20世紀少年 第2章 最後の希望",
-   "nameCN": "20世纪少年：第二部 最后的希望",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/66/65846_toopT.jpg",
-   "date": "2009-01-31",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 65848,
-   "name": "20世紀少年 最終章 ぼくらの旗",
-   "nameCN": "20世纪少年 最终章 我们的旗帜",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/55/65848_Pidv8.jpg",
-   "date": "2009-08-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65845,
-   "dst": 65846
-  },
-  {
-   "relate": "前传",
-   "src": 65846,
-   "dst": 65845
-  },
-  {
-   "relate": "续集",
-   "src": 65846,
-   "dst": 65848
-  },
-  {
-   "relate": "前传",
-   "src": 65848,
-   "dst": 65846
-  }
- ]
+  "id": "65845",
+  "node": [
+    {
+      "id": 65845,
+      "name": "20世紀少年 第1章 終わりの始まり",
+      "nameCN": "20世纪少年 第1章 完结的开始",
+      "date": "2008-08-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 65846,
+      "name": "20世紀少年 第2章 最後の希望",
+      "nameCN": "20世纪少年：第二部 最后的希望",
+      "date": "2009-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 65848,
+      "name": "20世紀少年 最終章 ぼくらの旗",
+      "nameCN": "20世纪少年 最终章 我们的旗帜",
+      "date": "2009-08-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65845,
+      "dst": 65846
+    },
+    {
+      "relateString": "前传",
+      "src": 65846,
+      "dst": 65845
+    },
+    {
+      "relateString": "续集",
+      "src": 65846,
+      "dst": 65848
+    },
+    {
+      "relateString": "前传",
+      "src": 65848,
+      "dst": 65846
+    }
+  ]
 }

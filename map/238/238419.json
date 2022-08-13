@@ -1,37 +1,34 @@
 {
- "id": 238419,
- "node": [
-  {
-   "id": 238419,
-   "name": "빛과 그림자",
-   "nameCN": "光与影",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/48/238419_I61p1.jpg",
-   "date": "2020-08-05",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 303397,
-   "name": "골든 타임",
-   "nameCN": "新娘的假面2-黄金时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/87/303397_dk7E0.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238419,
-   "dst": 303397
-  },
-  {
-   "relate": "前传",
-   "src": 303397,
-   "dst": 238419
-  }
- ]
+  "id": "238419",
+  "node": [
+    {
+      "id": 238419,
+      "name": "빛과 그림자",
+      "nameCN": "光与影",
+      "date": "2020-08-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 303397,
+      "name": "골든 타임",
+      "nameCN": "新娘的假面2-黄金时代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238419,
+      "dst": 303397
+    },
+    {
+      "relateString": "前传",
+      "src": 303397,
+      "dst": 238419
+    }
+  ]
 }

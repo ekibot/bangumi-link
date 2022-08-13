@@ -1,37 +1,35 @@
 {
- "id": 894,
- "node": [
-  {
-   "id": 894,
-   "name": "まりあ†ほりっく",
-   "nameCN": "玛利亚狂热",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/02/894_GgUhH.jpg",
-   "date": "2009-01-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 9726,
-   "name": "まりあ†ほりっく あらいぶ",
-   "nameCN": "玛利亚狂热 ALIVE",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/cb/9726_6NaOM.jpg",
-   "date": "2011-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 894,
-   "dst": 9726
-  },
-  {
-   "relate": "前传",
-   "src": 9726,
-   "dst": 894
-  }
- ]
+  "id": "894",
+  "node": [
+    {
+      "id": 894,
+      "name": "まりあ†ほりっく",
+      "nameCN": "玛利亚狂热",
+      "date": "2009-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 9726,
+      "name": "まりあ†ほりっく あらいぶ",
+      "nameCN": "玛利亚狂热 ALIVE",
+      "date": "2011-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 894,
+      "dst": 9726
+    },
+    {
+      "relateString": "前传",
+      "src": 9726,
+      "dst": 894
+    }
+  ]
 }

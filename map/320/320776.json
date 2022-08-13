@@ -1,37 +1,33 @@
 {
- "id": 320776,
- "node": [
-  {
-   "id": 320776,
-   "name": "ハットトリックヒーロー'93",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/c7/320776_2l7g2.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 320781,
-   "name": "ハットトリックヒーロー'95",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/ef/320781_vSOVY.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 320776,
-   "dst": 320781
-  },
-  {
-   "relate": "前传",
-   "src": 320781,
-   "dst": 320776
-  }
- ]
+  "id": "320776",
+  "node": [
+    {
+      "id": 320776,
+      "name": "ハットトリックヒーロー'93",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 320781,
+      "name": "ハットトリックヒーロー'95",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 320776,
+      "dst": 320781
+    },
+    {
+      "relateString": "前传",
+      "src": 320781,
+      "dst": 320776
+    }
+  ]
 }

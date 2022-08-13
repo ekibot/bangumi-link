@@ -1,97 +1,90 @@
 {
- "id": 822,
- "node": [
-  {
-   "id": 822,
-   "name": "フリクリ",
-   "nameCN": "FLCL",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/da/822_9y55j.jpg",
-   "date": "2000-04-26",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 175398,
-   "name": "フリクリ オルタナ",
-   "nameCN": "FLCL Alternative",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/51/175398_BIjVO.jpg",
-   "date": "2018-09-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 175399,
-   "name": "フリクリ プログレ",
-   "nameCN": "FLCL Progressive",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/40/175399_9qA5O.jpg",
-   "date": "2018-09-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 375217,
-   "name": "FLCL: Grunge",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/8e/375217_d153J.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 375218,
-   "name": "FLCL: Shoegaze",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/c4/375218_G3o8Z.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 822,
-   "dst": 175398
-  },
-  {
-   "relate": "前传",
-   "src": 175398,
-   "dst": 822
-  },
-  {
-   "relate": "续集",
-   "src": 175398,
-   "dst": 175399
-  },
-  {
-   "relate": "前传",
-   "src": 175399,
-   "dst": 175398
-  },
-  {
-   "relate": "续集",
-   "src": 175399,
-   "dst": 375217
-  },
-  {
-   "relate": "前传",
-   "src": 375217,
-   "dst": 175399
-  },
-  {
-   "relate": "续集",
-   "src": 375217,
-   "dst": 375218
-  },
-  {
-   "relate": "前传",
-   "src": 375218,
-   "dst": 375217
-  }
- ]
+  "id": "822",
+  "node": [
+    {
+      "id": 822,
+      "name": "フリクリ",
+      "nameCN": "FLCL",
+      "date": "2000-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 175398,
+      "name": "フリクリ オルタナ",
+      "nameCN": "FLCL Alternative",
+      "date": "2018-09-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 175399,
+      "name": "フリクリ プログレ",
+      "nameCN": "FLCL Progressive",
+      "date": "2018-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 375217,
+      "name": "FLCL: Grunge",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 375218,
+      "name": "FLCL: Shoegaze",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 822,
+      "dst": 175398
+    },
+    {
+      "relateString": "前传",
+      "src": 175398,
+      "dst": 822
+    },
+    {
+      "relateString": "续集",
+      "src": 175398,
+      "dst": 175399
+    },
+    {
+      "relateString": "前传",
+      "src": 175399,
+      "dst": 175398
+    },
+    {
+      "relateString": "续集",
+      "src": 175399,
+      "dst": 375217
+    },
+    {
+      "relateString": "前传",
+      "src": 375217,
+      "dst": 175399
+    },
+    {
+      "relateString": "续集",
+      "src": 375217,
+      "dst": 375218
+    },
+    {
+      "relateString": "前传",
+      "src": 375218,
+      "dst": 375217
+    }
+  ]
 }

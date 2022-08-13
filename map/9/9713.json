@@ -1,37 +1,35 @@
 {
- "id": 9713,
- "node": [
-  {
-   "id": 9713,
-   "name": "ヨコハマ買い出し紀行",
-   "nameCN": "横滨购物纪行",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/77/9713_PV7Ey.jpg",
-   "date": "1998-05-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 14684,
-   "name": "ヨコハマ買い出し紀行 -Quiet Country Cafe-",
-   "nameCN": "横滨购物纪行 -Quiet Country Cafe-",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/7c/14684_91xDD.jpg",
-   "date": "2002-12-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9713,
-   "dst": 14684
-  },
-  {
-   "relate": "前传",
-   "src": 14684,
-   "dst": 9713
-  }
- ]
+  "id": "9713",
+  "node": [
+    {
+      "id": 9713,
+      "name": "ヨコハマ買い出し紀行",
+      "nameCN": "横滨购物纪行",
+      "date": "1998-05-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 14684,
+      "name": "ヨコハマ買い出し紀行 -Quiet Country Cafe-",
+      "nameCN": "横滨购物纪行 -Quiet Country Cafe-",
+      "date": "2002-12-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9713,
+      "dst": 14684
+    },
+    {
+      "relateString": "前传",
+      "src": 14684,
+      "dst": 9713
+    }
+  ]
 }

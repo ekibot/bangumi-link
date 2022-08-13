@@ -1,57 +1,54 @@
 {
- "id": 262068,
- "node": [
-  {
-   "id": 262068,
-   "name": "警視庁捜査資料管理室(仮)",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/6a/262068_rOL3r.jpg",
-   "date": "2018-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 279696,
-   "name": "警視庁捜査資料管理室",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/76/279696_QseuQ.jpg",
-   "date": "2019-04-01",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 302194,
-   "name": "警視庁捜査資料管理室スペシャル　～明石幸男、最後の3日間～",
-   "date": "2020-03-14",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 262068,
-   "dst": 279696
-  },
-  {
-   "relate": "前传",
-   "src": 279696,
-   "dst": 262068
-  },
-  {
-   "relate": "番外篇",
-   "src": 279696,
-   "dst": 302194
-  },
-  {
-   "relate": "主线故事",
-   "src": 302194,
-   "dst": 279696
-  }
- ]
+  "id": "262068",
+  "node": [
+    {
+      "id": 262068,
+      "name": "警視庁捜査資料管理室(仮)",
+      "nameCN": "",
+      "date": "2018-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 279696,
+      "name": "警視庁捜査資料管理室",
+      "nameCN": "",
+      "date": "2019-04-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 302194,
+      "name": "警視庁捜査資料管理室スペシャル　～明石幸男、最後の3日間～",
+      "nameCN": "",
+      "date": "2020-03-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 262068,
+      "dst": 279696
+    },
+    {
+      "relateString": "前传",
+      "src": 279696,
+      "dst": 262068
+    },
+    {
+      "relateString": "番外篇",
+      "src": 279696,
+      "dst": 302194
+    },
+    {
+      "relateString": "主线故事",
+      "src": 302194,
+      "dst": 279696
+    }
+  ]
 }

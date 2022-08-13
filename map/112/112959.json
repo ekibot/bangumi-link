@@ -1,37 +1,34 @@
 {
- "id": 112959,
- "node": [
-  {
-   "id": 112959,
-   "name": "ゼロガンナー2",
-   "nameCN": "零式枪手2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/8a/112959_UsUeB.jpg",
-   "date": "2001-09-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294351,
-   "name": "ゼロガンナー",
-   "nameCN": "零式枪手",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/ea/294351_b3kWb.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 112959,
-   "dst": 294351
-  },
-  {
-   "relate": "续集",
-   "src": 294351,
-   "dst": 112959
-  }
- ]
+  "id": "112959",
+  "node": [
+    {
+      "id": 112959,
+      "name": "ゼロガンナー2",
+      "nameCN": "零式枪手2",
+      "date": "2001-09-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294351,
+      "name": "ゼロガンナー",
+      "nameCN": "零式枪手",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 112959,
+      "dst": 294351
+    },
+    {
+      "relateString": "续集",
+      "src": 294351,
+      "dst": 112959
+    }
+  ]
 }

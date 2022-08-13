@@ -1,29 +1,35 @@
 {
- "id": 309924,
- "node": [
-  {
-   "id": 309924,
-   "name": "univ ～愛・おまたせっ～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2002-05-31"
-  },
-  {
-   "id": 309927,
-   "name": "univ ～恋・はじまるよっ～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2001-05-25"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 309924,
-   "dst": 309927
-  },
-  {
-   "relate": "续集",
-   "src": 309927,
-   "dst": 309924
-  }
- ]
+  "id": "309924",
+  "node": [
+    {
+      "id": 309924,
+      "name": "univ ～愛・おまたせっ～",
+      "nameCN": "",
+      "date": "2002-05-31",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309927,
+      "name": "univ ～恋・はじまるよっ～",
+      "nameCN": "",
+      "date": "2001-05-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 309924,
+      "dst": 309927
+    },
+    {
+      "relateString": "续集",
+      "src": 309927,
+      "dst": 309924
+    }
+  ]
 }

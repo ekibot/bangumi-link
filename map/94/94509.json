@@ -1,37 +1,35 @@
 {
- "id": 94509,
- "node": [
-  {
-   "id": 94509,
-   "name": "山河燃ゆ",
-   "nameCN": "山河燃烧",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/57/94509_6je00.jpg",
-   "date": "1984-01-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 272253,
-   "name": "二つの祖国",
-   "nameCN": "两个祖国",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/cf/272253_4VJjN.jpg",
-   "date": "2019-03-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 94509,
-   "dst": 272253
-  },
-  {
-   "relate": "不同演绎",
-   "src": 272253,
-   "dst": 94509
-  }
- ]
+  "id": "94509",
+  "node": [
+    {
+      "id": 94509,
+      "name": "山河燃ゆ",
+      "nameCN": "山河燃烧",
+      "date": "1984-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 272253,
+      "name": "二つの祖国",
+      "nameCN": "两个祖国",
+      "date": "2019-03-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 94509,
+      "dst": 272253
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 272253,
+      "dst": 94509
+    }
+  ]
 }

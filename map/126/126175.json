@@ -1,37 +1,35 @@
 {
- "id": 126175,
- "node": [
-  {
-   "id": 126175,
-   "name": "ももくり",
-   "nameCN": "小桃小栗 Love Love物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/2a/126175_99Klv.jpg",
-   "date": "2015-12-24",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 185001,
-   "name": "ももくり",
-   "nameCN": "小桃小栗 Love Love物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/bd/185001_3OGXz.jpg",
-   "date": "2016-07-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 126175,
-   "dst": 185001
-  },
-  {
-   "relate": "全集",
-   "src": 185001,
-   "dst": 126175
-  }
- ]
+  "id": "126175",
+  "node": [
+    {
+      "id": 126175,
+      "name": "ももくり",
+      "nameCN": "小桃小栗 Love Love物语",
+      "date": "2015-12-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 185001,
+      "name": "ももくり",
+      "nameCN": "小桃小栗 Love Love物语",
+      "date": "2016-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 126175,
+      "dst": 185001
+    },
+    {
+      "relateString": "全集",
+      "src": 185001,
+      "dst": 126175
+    }
+  ]
 }

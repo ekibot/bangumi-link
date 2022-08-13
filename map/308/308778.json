@@ -1,48 +1,35 @@
 {
- "id": 308778,
- "node": [
-  {
-   "id": 308778,
-   "name": "スパイ教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/a3/308778_tnB9L.jpg",
-   "date": "2020-01-18",
-   "nameCN": "间谍教室",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 329531,
-   "name": "スパイ教室 短編集01 花嫁ロワイヤル",
-   "image": "//lain.bgm.tv/pic/cover/m/ef/d4/329531_tb85p.jpg",
-   "date": "2021-03-19"
-  },
-  {
-   "id": 361405,
-   "name": "スパイ教室 短編集",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/a6/361405_9n8HU.jpg",
-   "date": "2021-03-19",
-   "nameCN": "间谍教室 短篇集",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 308778,
-   "dst": 361405
-  },
-  {
-   "relate": "主线故事",
-   "src": 329531,
-   "dst": 308778
-  },
-  {
-   "relate": "主线故事",
-   "src": 361405,
-   "dst": 308778
-  }
- ]
+  "id": "308778",
+  "node": [
+    {
+      "id": 308778,
+      "name": "スパイ教室",
+      "nameCN": "间谍教室",
+      "date": "2020-01-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 361405,
+      "name": "スパイ教室 短編集",
+      "nameCN": "间谍教室 短篇集",
+      "date": "2021-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 308778,
+      "dst": 361405
+    },
+    {
+      "relateString": "主线故事",
+      "src": 361405,
+      "dst": 308778
+    }
+  ]
 }

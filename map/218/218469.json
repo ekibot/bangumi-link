@@ -1,37 +1,35 @@
 {
- "id": 218469,
- "node": [
-  {
-   "id": 218469,
-   "name": "SHANGRLIA",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/8e/218469_ArZaE.jpg",
-   "date": "1991-08-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 218470,
-   "name": "SHANGRLIA2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/b9/218470_2LZQF.jpg",
-   "date": "1993-09-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218469,
-   "dst": 218470
-  },
-  {
-   "relate": "前传",
-   "src": 218470,
-   "dst": 218469
-  }
- ]
+  "id": "218469",
+  "node": [
+    {
+      "id": 218469,
+      "name": "SHANGRLIA",
+      "nameCN": "",
+      "date": "1991-08-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218470,
+      "name": "SHANGRLIA2",
+      "nameCN": "",
+      "date": "1993-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218469,
+      "dst": 218470
+    },
+    {
+      "relateString": "前传",
+      "src": 218470,
+      "dst": 218469
+    }
+  ]
 }

@@ -1,137 +1,127 @@
 {
- "id": 79281,
- "node": [
-  {
-   "id": 79281,
-   "name": "コットン",
-   "nameCN": "棉花小魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/f3/79281_V0z1S.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 257492,
-   "name": "コットン100%",
-   "nameCN": "棉花小魔女100%",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/e7/257492_ao0U2.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258450,
-   "name": "コットン2",
-   "nameCN": "棉花小魔女2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/f3/258450_KyCcg.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258540,
-   "name": "パノラマコットン",
-   "nameCN": "全景棉花小魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/df/258540_Ya89q.jpg",
-   "date": "1994-08-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 260091,
-   "name": "コットンブーメラン",
-   "nameCN": "棉花小魔女回旋镖",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/4c/260091_znNnE.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 315951,
-   "name": "コットン リブート！",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/f0/315951_8O1Xx.jpg",
-   "date": "2021-02-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79281,
-   "dst": 257492
-  },
-  {
-   "relate": "相同世界观",
-   "src": 79281,
-   "dst": 258540
-  },
-  {
-   "relate": "不同演绎",
-   "src": 79281,
-   "dst": 315951
-  },
-  {
-   "relate": "前传",
-   "src": 257492,
-   "dst": 79281
-  },
-  {
-   "relate": "续集",
-   "src": 257492,
-   "dst": 258450
-  },
-  {
-   "relate": "相同世界观",
-   "src": 257492,
-   "dst": 258540
-  },
-  {
-   "relate": "前传",
-   "src": 258450,
-   "dst": 257492
-  },
-  {
-   "relate": "相同世界观",
-   "src": 258450,
-   "dst": 258540
-  },
-  {
-   "relate": "续集",
-   "src": 258450,
-   "dst": 260091
-  },
-  {
-   "relate": "相同世界观",
-   "src": 258540,
-   "dst": 79281
-  },
-  {
-   "relate": "相同世界观",
-   "src": 258540,
-   "dst": 257492
-  },
-  {
-   "relate": "相同世界观",
-   "src": 258540,
-   "dst": 258450
-  },
-  {
-   "relate": "前传",
-   "src": 260091,
-   "dst": 258450
-  },
-  {
-   "relate": "不同演绎",
-   "src": 315951,
-   "dst": 79281
-  }
- ]
+  "id": "79281",
+  "node": [
+    {
+      "id": 79281,
+      "name": "コットン",
+      "nameCN": "棉花小魔女",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 257492,
+      "name": "コットン100%",
+      "nameCN": "棉花小魔女100%",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258540,
+      "name": "パノラマコットン",
+      "nameCN": "全景棉花小魔女",
+      "date": "1994-08-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 315951,
+      "name": "コットン リブート！",
+      "nameCN": "",
+      "date": "2021-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258450,
+      "name": "コットン2",
+      "nameCN": "棉花小魔女2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260091,
+      "name": "コットンブーメラン",
+      "nameCN": "棉花小魔女回旋镖",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79281,
+      "dst": 257492
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 79281,
+      "dst": 258540
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 79281,
+      "dst": 315951
+    },
+    {
+      "relateString": "前传",
+      "src": 257492,
+      "dst": 79281
+    },
+    {
+      "relateString": "续集",
+      "src": 257492,
+      "dst": 258450
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 257492,
+      "dst": 258540
+    },
+    {
+      "relateString": "前传",
+      "src": 258450,
+      "dst": 257492
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 258450,
+      "dst": 258540
+    },
+    {
+      "relateString": "续集",
+      "src": 258450,
+      "dst": 260091
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 258540,
+      "dst": 79281
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 258540,
+      "dst": 257492
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 258540,
+      "dst": 258450
+    },
+    {
+      "relateString": "前传",
+      "src": 260091,
+      "dst": 258450
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 315951,
+      "dst": 79281
+    }
+  ]
 }

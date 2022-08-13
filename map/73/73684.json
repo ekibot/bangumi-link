@@ -1,37 +1,33 @@
 {
- "id": 73684,
- "node": [
-  {
-   "id": 73684,
-   "name": "アステリクス",
-   "nameCN": "高卢奇兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/67/73684_4A2Zk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261179,
-   "name": "Asterix",
-   "nameCN": "高卢勇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/4b/261179_iCWgk.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 73684,
-   "dst": 261179
-  },
-  {
-   "relate": "相同世界观",
-   "src": 261179,
-   "dst": 73684
-  }
- ]
+  "id": "73684",
+  "node": [
+    {
+      "id": 73684,
+      "name": "アステリクス",
+      "nameCN": "高卢奇兵",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261179,
+      "name": "Asterix",
+      "nameCN": "高卢勇士",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 73684,
+      "dst": 261179
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 261179,
+      "dst": 73684
+    }
+  ]
 }

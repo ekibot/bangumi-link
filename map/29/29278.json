@@ -1,77 +1,73 @@
 {
- "id": 29278,
- "node": [
-  {
-   "id": 29278,
-   "name": "BURN-UP SCRAMBLE",
-   "nameCN": "杀人科 SCRAMBLE",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/bf/29278_ApWlA.jpg",
-   "date": "2004-01-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 36808,
-   "name": "BURN-UP",
-   "nameCN": "杀人科",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/1d/36808_QnQqS.jpg",
-   "date": "1991-03-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 36809,
-   "name": "BURN-UP W",
-   "nameCN": "杀人科 W",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/66/36809_i5wgi.jpg",
-   "date": "1996-04-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 36810,
-   "name": "BURN-UP EXCESS",
-   "nameCN": "杀人科 EXCESS",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/bb/36810_vgG68.jpg",
-   "date": "1997-12-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 29278,
-   "dst": 36810
-  },
-  {
-   "relate": "续集",
-   "src": 36808,
-   "dst": 36809
-  },
-  {
-   "relate": "前传",
-   "src": 36809,
-   "dst": 36808
-  },
-  {
-   "relate": "续集",
-   "src": 36809,
-   "dst": 36810
-  },
-  {
-   "relate": "续集",
-   "src": 36810,
-   "dst": 29278
-  },
-  {
-   "relate": "前传",
-   "src": 36810,
-   "dst": 36809
-  }
- ]
+  "id": "29278",
+  "node": [
+    {
+      "id": 29278,
+      "name": "BURN-UP SCRAMBLE",
+      "nameCN": "杀人科 SCRAMBLE",
+      "date": "2004-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36810,
+      "name": "BURN-UP EXCESS",
+      "nameCN": "杀人科 EXCESS",
+      "date": "1997-12-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36808,
+      "name": "BURN-UP",
+      "nameCN": "杀人科",
+      "date": "1991-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 36809,
+      "name": "BURN-UP W",
+      "nameCN": "杀人科 W",
+      "date": "1996-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 29278,
+      "dst": 36810
+    },
+    {
+      "relateString": "续集",
+      "src": 36808,
+      "dst": 36809
+    },
+    {
+      "relateString": "前传",
+      "src": 36809,
+      "dst": 36808
+    },
+    {
+      "relateString": "续集",
+      "src": 36809,
+      "dst": 36810
+    },
+    {
+      "relateString": "续集",
+      "src": 36810,
+      "dst": 29278
+    },
+    {
+      "relateString": "前传",
+      "src": 36810,
+      "dst": 36809
+    }
+  ]
 }

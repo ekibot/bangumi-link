@@ -1,37 +1,35 @@
 {
- "id": 349585,
- "node": [
-  {
-   "id": 349585,
-   "name": "信長異聞",
-   "nameCN": "信长异闻录",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/6c/349585_e2UQF.jpg",
-   "date": "2002-07-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 350289,
-   "name": "信長戦記",
-   "nameCN": "信长战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/99/350289_3T818.jpg",
-   "date": "2004-06-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 349585,
-   "dst": 350289
-  },
-  {
-   "relate": "不同演绎",
-   "src": 350289,
-   "dst": 349585
-  }
- ]
+  "id": "349585",
+  "node": [
+    {
+      "id": 349585,
+      "name": "信長異聞",
+      "nameCN": "信长异闻录",
+      "date": "2002-07-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350289,
+      "name": "信長戦記",
+      "nameCN": "信长战记",
+      "date": "2004-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 349585,
+      "dst": 350289
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 350289,
+      "dst": 349585
+    }
+  ]
 }

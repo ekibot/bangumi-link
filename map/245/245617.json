@@ -1,37 +1,35 @@
 {
- "id": 245617,
- "node": [
-  {
-   "id": 245617,
-   "name": "糸永くんの恋の糸",
-   "nameCN": "糸永君恋爱的红线",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/16/245617_d0D1p.jpg",
-   "date": "2018-05-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 292156,
-   "name": "糸永くんの恋の糸 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/bf/292156_CbpOl.jpg",
-   "date": "2019-10-04",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 245617,
-   "dst": 292156
-  },
-  {
-   "relate": "前传",
-   "src": 292156,
-   "dst": 245617
-  }
- ]
+  "id": "245617",
+  "node": [
+    {
+      "id": 245617,
+      "name": "糸永くんの恋の糸",
+      "nameCN": "糸永君恋爱的红线",
+      "date": "2018-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 292156,
+      "name": "糸永くんの恋の糸 2",
+      "nameCN": "",
+      "date": "2019-10-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 245617,
+      "dst": 292156
+    },
+    {
+      "relateString": "前传",
+      "src": 292156,
+      "dst": 245617
+    }
+  ]
 }

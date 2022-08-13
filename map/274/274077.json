@@ -1,57 +1,53 @@
 {
- "id": 274077,
- "node": [
-  {
-   "id": 274077,
-   "name": "His Dark Materials Season 1",
-   "nameCN": "黑暗物质三部曲 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/53/274077_6RPtD.jpg",
-   "date": "2019-11-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 274078,
-   "name": "His Dark Materials Season 2",
-   "nameCN": "黑暗物质三部曲 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/76/274078_47Bgh.jpg",
-   "date": "2020-11-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 317686,
-   "name": "His Dark Materials Season 3",
-   "nameCN": "黑暗物质三部曲 第三季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 274077,
-   "dst": 274078
-  },
-  {
-   "relate": "前传",
-   "src": 274078,
-   "dst": 274077
-  },
-  {
-   "relate": "续集",
-   "src": 274078,
-   "dst": 317686
-  },
-  {
-   "relate": "前传",
-   "src": 317686,
-   "dst": 274078
-  }
- ]
+  "id": "274077",
+  "node": [
+    {
+      "id": 274077,
+      "name": "His Dark Materials Season 1",
+      "nameCN": "黑暗物质三部曲 第一季",
+      "date": "2019-11-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 274078,
+      "name": "His Dark Materials Season 2",
+      "nameCN": "黑暗物质三部曲 第二季",
+      "date": "2020-11-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 317686,
+      "name": "His Dark Materials Season 3",
+      "nameCN": "黑暗物质三部曲 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 274077,
+      "dst": 274078
+    },
+    {
+      "relateString": "前传",
+      "src": 274078,
+      "dst": 274077
+    },
+    {
+      "relateString": "续集",
+      "src": 274078,
+      "dst": 317686
+    },
+    {
+      "relateString": "前传",
+      "src": 317686,
+      "dst": 274078
+    }
+  ]
 }

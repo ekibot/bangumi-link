@@ -1,37 +1,33 @@
 {
- "id": 286157,
- "node": [
-  {
-   "id": 286157,
-   "name": "Phil's Dance Party",
-   "nameCN": "菲尔的舞会",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/6f/286157_sEXjz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "其他",
-   "type": 2
-  },
-  {
-   "id": 286158,
-   "name": "Hop",
-   "nameCN": "拯救小兔",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/5f/286158_5f3sn.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 286157,
-   "dst": 286158
-  },
-  {
-   "relate": "番外篇",
-   "src": 286158,
-   "dst": 286157
-  }
- ]
+  "id": "286157",
+  "node": [
+    {
+      "id": 286157,
+      "name": "Phil's Dance Party",
+      "nameCN": "菲尔的舞会",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 286158,
+      "name": "Hop",
+      "nameCN": "拯救小兔",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 286157,
+      "dst": 286158
+    },
+    {
+      "relateString": "番外篇",
+      "src": 286158,
+      "dst": 286157
+    }
+  ]
 }

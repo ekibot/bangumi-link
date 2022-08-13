@@ -1,37 +1,34 @@
 {
- "id": 203779,
- "node": [
-  {
-   "id": 203779,
-   "name": "메렌담",
-   "nameCN": "Merendam",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/ed/203779_FXPDp.jpg",
-   "date": "2015-03-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 203780,
-   "name": "메렌담 2",
-   "nameCN": "Merendam 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/8c/203780_SIc26.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 203779,
-   "dst": 203780
-  },
-  {
-   "relate": "前传",
-   "src": 203780,
-   "dst": 203779
-  }
- ]
+  "id": "203779",
+  "node": [
+    {
+      "id": 203779,
+      "name": "메렌담",
+      "nameCN": "Merendam",
+      "date": "2015-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 203780,
+      "name": "메렌담 2",
+      "nameCN": "Merendam 2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 203779,
+      "dst": 203780
+    },
+    {
+      "relateString": "前传",
+      "src": 203780,
+      "dst": 203779
+    }
+  ]
 }

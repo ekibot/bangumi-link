@@ -1,0 +1,63 @@
+{
+  "id": "65385",
+  "node": [
+    {
+      "id": 65385,
+      "name": "ひとりのクオリア",
+      "nameCN": "一个人的感质空间",
+      "date": "2014-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 65386,
+      "name": "ふたりのクオリア",
+      "nameCN": "两个人的感质空间",
+      "date": "2014-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 373627,
+      "name": "おわりのクオリア",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 65385,
+      "dst": 65386
+    },
+    {
+      "relateString": "续集",
+      "src": 65385,
+      "dst": 373627
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 65386,
+      "dst": 65385
+    },
+    {
+      "relateString": "续集",
+      "src": 65386,
+      "dst": 373627
+    },
+    {
+      "relateString": "前传",
+      "src": 373627,
+      "dst": 65385
+    },
+    {
+      "relateString": "前传",
+      "src": 373627,
+      "dst": 65386
+    }
+  ]
+}

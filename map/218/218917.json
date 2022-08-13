@@ -1,37 +1,35 @@
 {
- "id": 218917,
- "node": [
-  {
-   "id": 218917,
-   "name": "ハナシマさん",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/09/218917_jp.jpg",
-   "date": "2016-07-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 218920,
-   "name": "ハナシマさん 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/25/218920_jp.jpg",
-   "date": "2017-01-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218917,
-   "dst": 218920
-  },
-  {
-   "relate": "前传",
-   "src": 218920,
-   "dst": 218917
-  }
- ]
+  "id": "218917",
+  "node": [
+    {
+      "id": 218917,
+      "name": "ハナシマさん",
+      "nameCN": "",
+      "date": "2016-07-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 218920,
+      "name": "ハナシマさん 2",
+      "nameCN": "",
+      "date": "2017-01-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218917,
+      "dst": 218920
+    },
+    {
+      "relateString": "前传",
+      "src": 218920,
+      "dst": 218917
+    }
+  ]
 }

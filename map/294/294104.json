@@ -1,0 +1,51 @@
+{
+  "id": "294104",
+  "node": [
+    {
+      "id": 294104,
+      "name": "Gotham Girls",
+      "nameCN": "哥谭妹子",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 294106,
+      "name": "Gotham Girls Season 2",
+      "nameCN": "高谭妹子 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 294108,
+      "name": "Gotham Girls Season 3",
+      "nameCN": "高谭妹子 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294104,
+      "dst": 294106
+    },
+    {
+      "relateString": "前传",
+      "src": 294106,
+      "dst": 294104
+    },
+    {
+      "relateString": "续集",
+      "src": 294106,
+      "dst": 294108
+    },
+    {
+      "relateString": "前传",
+      "src": 294108,
+      "dst": 294106
+    }
+  ]
+}

@@ -1,57 +1,52 @@
 {
- "id": 76748,
- "node": [
-  {
-   "id": 76748,
-   "name": "爱灵之贽",
-   "nameCN": "爱灵之贽",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/1f/76748_GY9hb.jpg",
-   "date": "2012-05-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 82139,
-   "name": "狂恋の宴～キョウレンノウタゲ～",
-   "nameCN": "狂恋之宴",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/5c/82139_0c3cJ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 128669,
-   "name": "憑代の花～ヨリシロノハナ～",
-   "nameCN": "凭代之花",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/3b/128669_P26hH.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 76748,
-   "dst": 128669
-  },
-  {
-   "relate": "续集",
-   "src": 82139,
-   "dst": 128669
-  },
-  {
-   "relate": "续集",
-   "src": 128669,
-   "dst": 76748
-  },
-  {
-   "relate": "前传",
-   "src": 128669,
-   "dst": 82139
-  }
- ]
+  "id": "76748",
+  "node": [
+    {
+      "id": 76748,
+      "name": "爱灵之贽",
+      "nameCN": "爱灵之贽",
+      "date": "2012-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 128669,
+      "name": "憑代の花～ヨリシロノハナ～",
+      "nameCN": "凭代之花",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 82139,
+      "name": "狂恋の宴～キョウレンノウタゲ～",
+      "nameCN": "狂恋之宴",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 76748,
+      "dst": 128669
+    },
+    {
+      "relateString": "续集",
+      "src": 82139,
+      "dst": 128669
+    },
+    {
+      "relateString": "续集",
+      "src": 128669,
+      "dst": 76748
+    },
+    {
+      "relateString": "前传",
+      "src": 128669,
+      "dst": 82139
+    }
+  ]
 }

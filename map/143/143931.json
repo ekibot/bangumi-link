@@ -1,37 +1,34 @@
 {
- "id": 143931,
- "node": [
-  {
-   "id": 143931,
-   "name": "FIRE FIRE FIRE 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/cc/143931_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 143933,
-   "name": "FIRE FIRE FIRE トリプルファイヤー 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/47/143933_jp.jpg",
-   "date": "2011-04-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143931,
-   "dst": 143933
-  },
-  {
-   "relate": "前传",
-   "src": 143933,
-   "dst": 143931
-  }
- ]
+  "id": "143931",
+  "node": [
+    {
+      "id": 143931,
+      "name": "FIRE FIRE FIRE 1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143933,
+      "name": "FIRE FIRE FIRE トリプルファイヤー 2",
+      "nameCN": "",
+      "date": "2011-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143931,
+      "dst": 143933
+    },
+    {
+      "relateString": "前传",
+      "src": 143933,
+      "dst": 143931
+    }
+  ]
 }

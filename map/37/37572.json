@@ -1,37 +1,35 @@
 {
- "id": 37572,
- "node": [
-  {
-   "id": 37572,
-   "name": "コドモ警察",
-   "nameCN": "儿童警察",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/50/37572_SZKnU.jpg",
-   "date": "2012-04-17",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 57360,
-   "name": "コドモ警視",
-   "nameCN": "儿童警视",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/61/57360_KKvRv.jpg",
-   "date": "2013-01-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 37572,
-   "dst": 57360
-  },
-  {
-   "relate": "衍生",
-   "src": 57360,
-   "dst": 37572
-  }
- ]
+  "id": "37572",
+  "node": [
+    {
+      "id": 37572,
+      "name": "コドモ警察",
+      "nameCN": "儿童警察",
+      "date": "2012-04-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 57360,
+      "name": "コドモ警視",
+      "nameCN": "儿童警视",
+      "date": "2013-01-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 37572,
+      "dst": 57360
+    },
+    {
+      "relateString": "衍生",
+      "src": 57360,
+      "dst": 37572
+    }
+  ]
 }

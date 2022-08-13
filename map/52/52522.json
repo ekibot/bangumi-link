@@ -1,57 +1,52 @@
 {
- "id": 52522,
- "node": [
-  {
-   "id": 52522,
-   "name": "Zoo Tycoon",
-   "nameCN": "动物园大亨",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/10/52522_Ct7mV.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 52523,
-   "name": "Zoo Tycoon 2",
-   "nameCN": "动物园大亨2",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/16/52523_vMZQp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 234123,
-   "name": "Zoo Tycoon: Ultimate Animal Collection",
-   "nameCN": "动物园大亨：终极动物收藏",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/4e/234123_iZ5hv.jpg",
-   "date": "2017-10-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 52522,
-   "dst": 52523
-  },
-  {
-   "relate": "不同演绎",
-   "src": 52522,
-   "dst": 234123
-  },
-  {
-   "relate": "前传",
-   "src": 52523,
-   "dst": 52522
-  },
-  {
-   "relate": "不同演绎",
-   "src": 234123,
-   "dst": 52522
-  }
- ]
+  "id": "52522",
+  "node": [
+    {
+      "id": 52522,
+      "name": "Zoo Tycoon",
+      "nameCN": "动物园大亨",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 52523,
+      "name": "Zoo Tycoon 2",
+      "nameCN": "动物园大亨2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234123,
+      "name": "Zoo Tycoon: Ultimate Animal Collection",
+      "nameCN": "动物园大亨：终极动物收藏",
+      "date": "2017-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52522,
+      "dst": 52523
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 52522,
+      "dst": 234123
+    },
+    {
+      "relateString": "前传",
+      "src": 52523,
+      "dst": 52522
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 234123,
+      "dst": 52522
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 368474,
- "node": [
-  {
-   "id": 368474,
-   "name": "LeCoRo",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/70/368474_28i3V.jpg",
-   "date": "2014-06-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 368475,
-   "name": "LeCoRo2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/fc/368475_8Ips8.jpg",
-   "date": "2016-07-04",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 368474,
-   "dst": 368475
-  },
-  {
-   "relate": "前传",
-   "src": 368475,
-   "dst": 368474
-  }
- ]
+  "id": "368474",
+  "node": [
+    {
+      "id": 368474,
+      "name": "LeCoRo",
+      "nameCN": "",
+      "date": "2014-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368475,
+      "name": "LeCoRo2",
+      "nameCN": "",
+      "date": "2016-07-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 368474,
+      "dst": 368475
+    },
+    {
+      "relateString": "前传",
+      "src": 368475,
+      "dst": 368474
+    }
+  ]
 }

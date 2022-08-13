@@ -1,67 +1,64 @@
 {
- "id": 118173,
- "node": [
-  {
-   "id": 118173,
-   "name": "すずめすずなり 1",
-   "nameCN": "一窝麻雀 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/06/118173_jp.jpg",
-   "date": "2005-07-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118174,
-   "name": "すずめすずなり 2",
-   "nameCN": "一窝麻雀 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/3d/118174_jp.jpg",
-   "date": "2005-12-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 118175,
-   "name": "すずめすずなり 3",
-   "nameCN": "一窝麻雀 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/6b/118175_jp.jpg",
-   "date": "2006-05-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 118173,
-   "dst": 118174
-  },
-  {
-   "relate": "续集",
-   "src": 118173,
-   "dst": 118175
-  },
-  {
-   "relate": "前传",
-   "src": 118174,
-   "dst": 118173
-  },
-  {
-   "relate": "续集",
-   "src": 118174,
-   "dst": 118175
-  },
-  {
-   "relate": "前传",
-   "src": 118175,
-   "dst": 118173
-  },
-  {
-   "relate": "前传",
-   "src": 118175,
-   "dst": 118174
-  }
- ]
+  "id": "118173",
+  "node": [
+    {
+      "id": 118173,
+      "name": "すずめすずなり 1",
+      "nameCN": "一窝麻雀 1",
+      "date": "2005-07-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118174,
+      "name": "すずめすずなり 2",
+      "nameCN": "一窝麻雀 2",
+      "date": "2005-12-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118175,
+      "name": "すずめすずなり 3",
+      "nameCN": "一窝麻雀 3",
+      "date": "2006-05-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 118173,
+      "dst": 118174
+    },
+    {
+      "relateString": "续集",
+      "src": 118173,
+      "dst": 118175
+    },
+    {
+      "relateString": "前传",
+      "src": 118174,
+      "dst": 118173
+    },
+    {
+      "relateString": "续集",
+      "src": 118174,
+      "dst": 118175
+    },
+    {
+      "relateString": "前传",
+      "src": 118175,
+      "dst": 118173
+    },
+    {
+      "relateString": "前传",
+      "src": 118175,
+      "dst": 118174
+    }
+  ]
 }

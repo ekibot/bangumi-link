@@ -1,37 +1,35 @@
 {
- "id": 7850,
- "node": [
-  {
-   "id": 7850,
-   "name": "新選組 !",
-   "nameCN": "新选组",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/8b/7850_2SNV2.jpg",
-   "date": "2004-01-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 36102,
-   "name": "新選組!! 土方歳三 最期の一日",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/85/36102_EHtKz.jpg",
-   "date": "2006-01-01",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7850,
-   "dst": 36102
-  },
-  {
-   "relate": "前传",
-   "src": 36102,
-   "dst": 7850
-  }
- ]
+  "id": "7850",
+  "node": [
+    {
+      "id": 7850,
+      "name": "新選組 !",
+      "nameCN": "新选组",
+      "date": "2004-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 36102,
+      "name": "新選組!! 土方歳三 最期の一日",
+      "nameCN": "",
+      "date": "2006-01-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7850,
+      "dst": 36102
+    },
+    {
+      "relateString": "前传",
+      "src": 36102,
+      "dst": 7850
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 385,
- "node": [
-  {
-   "id": 385,
-   "name": "ルミナスアーク",
-   "nameCN": "弧光之源",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/91/385_oo105.jpg",
-   "date": "2007-02-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 984,
-   "name": "ルミナスアーク2 ウィル",
-   "nameCN": "弧光之源2 意志",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/3e/984_QvB5z.jpg",
-   "date": "2008-05-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  },
-  {
-   "id": 3240,
-   "name": "ルミナスアーク3 アイズ",
-   "nameCN": "弧光之源3 瞳",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/54/3240_KrlkV.jpg",
-   "date": "2009-12-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 385,
-   "dst": 984
-  },
-  {
-   "relate": "续集",
-   "src": 385,
-   "dst": 3240
-  },
-  {
-   "relate": "前传",
-   "src": 984,
-   "dst": 385
-  },
-  {
-   "relate": "续集",
-   "src": 984,
-   "dst": 3240
-  },
-  {
-   "relate": "前传",
-   "src": 3240,
-   "dst": 385
-  },
-  {
-   "relate": "前传",
-   "src": 3240,
-   "dst": 984
-  }
- ]
+  "id": "385",
+  "node": [
+    {
+      "id": 385,
+      "name": "ルミナスアーク",
+      "nameCN": "弧光之源",
+      "date": "2007-02-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 984,
+      "name": "ルミナスアーク2 ウィル",
+      "nameCN": "弧光之源2 意志",
+      "date": "2008-05-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 3240,
+      "name": "ルミナスアーク3 アイズ",
+      "nameCN": "弧光之源3 瞳",
+      "date": "2009-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 385,
+      "dst": 984
+    },
+    {
+      "relateString": "续集",
+      "src": 385,
+      "dst": 3240
+    },
+    {
+      "relateString": "前传",
+      "src": 984,
+      "dst": 385
+    },
+    {
+      "relateString": "续集",
+      "src": 984,
+      "dst": 3240
+    },
+    {
+      "relateString": "前传",
+      "src": 3240,
+      "dst": 385
+    },
+    {
+      "relateString": "前传",
+      "src": 3240,
+      "dst": 984
+    }
+  ]
 }

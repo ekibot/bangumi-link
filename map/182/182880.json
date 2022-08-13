@@ -1,37 +1,35 @@
 {
- "id": 182880,
- "node": [
-  {
-   "id": 182880,
-   "name": "浮雲心霊奇譚 赤眼の理",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/36/182880_jp.jpg",
-   "date": "2014-11-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 182881,
-   "name": "浮雲心霊奇譚 妖刀の理",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/52/182881_jp.jpg",
-   "date": "2016-01-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 182880,
-   "dst": 182881
-  },
-  {
-   "relate": "前传",
-   "src": 182881,
-   "dst": 182880
-  }
- ]
+  "id": "182880",
+  "node": [
+    {
+      "id": 182880,
+      "name": "浮雲心霊奇譚 赤眼の理",
+      "nameCN": "",
+      "date": "2014-11-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 182881,
+      "name": "浮雲心霊奇譚 妖刀の理",
+      "nameCN": "",
+      "date": "2016-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 182880,
+      "dst": 182881
+    },
+    {
+      "relateString": "前传",
+      "src": 182881,
+      "dst": 182880
+    }
+  ]
 }

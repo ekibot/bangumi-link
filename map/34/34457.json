@@ -1,57 +1,54 @@
 {
- "id": 34457,
- "node": [
-  {
-   "id": 34457,
-   "name": "学校のコワイうわさ 花子さんがきた!!",
-   "nameCN": "校园恐怖传说 - 花子来了",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/94/34457_f1xw6.jpg",
-   "date": "1994-08-15",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 34458,
-   "name": "学校のコワイうわさ 新・花子さんがきた!!",
-   "nameCN": "校园恐怖传说 - 新·花子来了",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/ca/34458_6KfAs.jpg",
-   "date": "2010-08-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 108417,
-   "name": "学校のコワイうわさ 新・花子さんがきた!! シーズン2",
-   "nameCN": "校园恐怖传说 - 新·花子来了！！第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/0a/108417_R06G6.jpg",
-   "date": "2014-07-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 34457,
-   "dst": 34458
-  },
-  {
-   "relate": "前传",
-   "src": 34458,
-   "dst": 34457
-  },
-  {
-   "relate": "续集",
-   "src": 34458,
-   "dst": 108417
-  },
-  {
-   "relate": "前传",
-   "src": 108417,
-   "dst": 34458
-  }
- ]
+  "id": "34457",
+  "node": [
+    {
+      "id": 34457,
+      "name": "学校のコワイうわさ 花子さんがきた!!",
+      "nameCN": "校园恐怖传说 - 花子来了",
+      "date": "1994-08-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 34458,
+      "name": "学校のコワイうわさ 新・花子さんがきた!!",
+      "nameCN": "校园恐怖传说 - 新·花子来了",
+      "date": "2010-08-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 108417,
+      "name": "学校のコワイうわさ 新・花子さんがきた!! シーズン2",
+      "nameCN": "校园恐怖传说 - 新·花子来了！！第二季",
+      "date": "2014-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 34457,
+      "dst": 34458
+    },
+    {
+      "relateString": "前传",
+      "src": 34458,
+      "dst": 34457
+    },
+    {
+      "relateString": "续集",
+      "src": 34458,
+      "dst": 108417
+    },
+    {
+      "relateString": "前传",
+      "src": 108417,
+      "dst": 34458
+    }
+  ]
 }

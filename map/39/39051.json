@@ -1,91 +1,92 @@
 {
- "id": 39051,
- "node": [
-  {
-   "id": 39051,
-   "name": "S.I.S.T.A.R.S:KISS OF TRINITY",
-   "image": "/img/no_icon_subject.png",
-   "date": "2012-04-18"
-  },
-  {
-   "id": 51961,
-   "name": "Color of White",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/1b/51961_W4Zy5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 89145,
-   "name": "LOVEPOTION SIXTYNINE",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/0c/89145_pCWZ6.jpg",
-   "date": "2013-12-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 146910,
-   "name": "ラムネーション！",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/c0/146910_uRttr.jpg",
-   "date": "2016-06-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 269178,
-   "name": "キラキラモンスターズ -Season1-",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/99/269178_Du1rJ.jpg",
-   "date": "2020-05-29",
-   "nameCN": "熠熠星光，魔物娘",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 39051,
-   "dst": 51961
-  },
-  {
-   "relate": "前传",
-   "src": 51961,
-   "dst": 39051
-  },
-  {
-   "relate": "续集",
-   "src": 51961,
-   "dst": 89145
-  },
-  {
-   "relate": "前传",
-   "src": 89145,
-   "dst": 51961
-  },
-  {
-   "relate": "相同世界观",
-   "src": 89145,
-   "dst": 146910
-  },
-  {
-   "relate": "相同世界观",
-   "src": 146910,
-   "dst": 89145
-  },
-  {
-   "relate": "相同世界观",
-   "src": 146910,
-   "dst": 269178
-  },
-  {
-   "relate": "相同世界观",
-   "src": 269178,
-   "dst": 146910
-  }
- ]
+  "id": "39051",
+  "node": [
+    {
+      "id": 39051,
+      "name": "S.I.S.T.A.R.S:KISS OF TRINITY",
+      "nameCN": "",
+      "date": "2012-04-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 51961,
+      "name": "Color of White",
+      "nameCN": "",
+      "date": "2012-12-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 89145,
+      "name": "LOVEPOTION SIXTYNINE",
+      "nameCN": "",
+      "date": "2013-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 146910,
+      "name": "ラムネーション！",
+      "nameCN": "",
+      "date": "2016-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 269178,
+      "name": "キラキラモンスターズ -Season1-",
+      "nameCN": "熠熠星光，魔物娘",
+      "date": "2020-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 39051,
+      "dst": 51961
+    },
+    {
+      "relateString": "前传",
+      "src": 51961,
+      "dst": 39051
+    },
+    {
+      "relateString": "续集",
+      "src": 51961,
+      "dst": 89145
+    },
+    {
+      "relateString": "前传",
+      "src": 89145,
+      "dst": 51961
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 89145,
+      "dst": 146910
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 146910,
+      "dst": 89145
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 146910,
+      "dst": 269178
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 269178,
+      "dst": 146910
+    }
+  ]
 }

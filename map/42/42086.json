@@ -1,57 +1,54 @@
 {
- "id": 42086,
- "node": [
-  {
-   "id": 42086,
-   "name": "龍狼伝",
-   "nameCN": "龙狼传",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/a9/42086_hJxzh.jpg",
-   "date": "1993-12-13",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 213037,
-   "name": "龍狼伝 中原繚乱編",
-   "nameCN": "龙狼传 中原缭乱篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/8b/213037_Yhd79.jpg",
-   "date": "2007-08-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 213038,
-   "name": "龍狼伝 王霸立国編",
-   "nameCN": "龙狼传 王霸立国篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/d5/213038_PEuuM.jpg",
-   "date": "2017-03-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 42086,
-   "dst": 213037
-  },
-  {
-   "relate": "前传",
-   "src": 213037,
-   "dst": 42086
-  },
-  {
-   "relate": "续集",
-   "src": 213037,
-   "dst": 213038
-  },
-  {
-   "relate": "前传",
-   "src": 213038,
-   "dst": 213037
-  }
- ]
+  "id": "42086",
+  "node": [
+    {
+      "id": 42086,
+      "name": "龍狼伝",
+      "nameCN": "龙狼传",
+      "date": "1993-12-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 213037,
+      "name": "龍狼伝 中原繚乱編",
+      "nameCN": "龙狼传 中原缭乱篇",
+      "date": "2007-08-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 213038,
+      "name": "龍狼伝 王霸立国編",
+      "nameCN": "龙狼传 王霸立国篇",
+      "date": "2017-03-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 42086,
+      "dst": 213037
+    },
+    {
+      "relateString": "前传",
+      "src": 213037,
+      "dst": 42086
+    },
+    {
+      "relateString": "续集",
+      "src": 213037,
+      "dst": 213038
+    },
+    {
+      "relateString": "前传",
+      "src": 213038,
+      "dst": 213037
+    }
+  ]
 }

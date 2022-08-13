@@ -1,37 +1,35 @@
 {
- "id": 209698,
- "node": [
-  {
-   "id": 209698,
-   "name": "Big Little Lies",
-   "nameCN": "小谎大事",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/5b/209698_CD6ds.jpg",
-   "date": "2017-02-19",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 234864,
-   "name": "Big Little Lies Season 2",
-   "nameCN": "小谎大事 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/47/234864_1t4gl.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 209698,
-   "dst": 234864
-  },
-  {
-   "relate": "前传",
-   "src": 234864,
-   "dst": 209698
-  }
- ]
+  "id": "209698",
+  "node": [
+    {
+      "id": 209698,
+      "name": "Big Little Lies",
+      "nameCN": "大小谎言",
+      "date": "2017-02-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 234864,
+      "name": "Big Little Lies Season 2",
+      "nameCN": "大小谎言 第2季",
+      "date": "2019-06-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 209698,
+      "dst": 234864
+    },
+    {
+      "relateString": "前传",
+      "src": 234864,
+      "dst": 209698
+    }
+  ]
 }

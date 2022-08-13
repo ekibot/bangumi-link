@@ -1,57 +1,54 @@
 {
- "id": 192031,
- "node": [
-  {
-   "id": 192031,
-   "name": "Victoria",
-   "nameCN": "维多利亚",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/d3/192031_h8GEa.jpg",
-   "date": "2016-08-28",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 223828,
-   "name": "Victoria Season 2",
-   "nameCN": "维多利亚 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/31/223828_PcdId.jpg",
-   "date": "2017-08-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 272756,
-   "name": "Victoria Season 3",
-   "nameCN": "维多利亚 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/81/272756_mhz0p.jpg",
-   "date": "2019-01-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192031,
-   "dst": 223828
-  },
-  {
-   "relate": "前传",
-   "src": 223828,
-   "dst": 192031
-  },
-  {
-   "relate": "续集",
-   "src": 223828,
-   "dst": 272756
-  },
-  {
-   "relate": "前传",
-   "src": 272756,
-   "dst": 223828
-  }
- ]
+  "id": "192031",
+  "node": [
+    {
+      "id": 192031,
+      "name": "Victoria",
+      "nameCN": "维多利亚",
+      "date": "2016-08-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 223828,
+      "name": "Victoria Season 2",
+      "nameCN": "维多利亚 第二季",
+      "date": "2017-08-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 272756,
+      "name": "Victoria Season 3",
+      "nameCN": "维多利亚 第三季",
+      "date": "2019-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192031,
+      "dst": 223828
+    },
+    {
+      "relateString": "前传",
+      "src": 223828,
+      "dst": 192031
+    },
+    {
+      "relateString": "续集",
+      "src": 223828,
+      "dst": 272756
+    },
+    {
+      "relateString": "前传",
+      "src": 272756,
+      "dst": 223828
+    }
+  ]
 }

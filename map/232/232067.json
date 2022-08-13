@@ -1,57 +1,54 @@
 {
- "id": 232067,
- "node": [
-  {
-   "id": 232067,
-   "name": "Spider-Man: Into the Spider-Verse",
-   "nameCN": "蜘蛛侠：平行宇宙",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/80/232067_h3t8A.jpg",
-   "date": "2018-12-14",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 282413,
-   "name": "Spider-Man: Across the Spider-Verse - Part One",
-   "nameCN": "蜘蛛侠：纵横宇宙(上)",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/57/282413_r7z4k.jpg",
-   "date": "2023-06-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 375476,
-   "name": "Spider-Man: Across the Spider-Verse - Part Two",
-   "nameCN": "蜘蛛侠：纵横宇宙(下)",
-   "date": "2024-03-29",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 232067,
-   "dst": 282413
-  },
-  {
-   "relate": "前传",
-   "src": 282413,
-   "dst": 232067
-  },
-  {
-   "relate": "续集",
-   "src": 282413,
-   "dst": 375476
-  },
-  {
-   "relate": "前传",
-   "src": 375476,
-   "dst": 282413
-  }
- ]
+  "id": "232067",
+  "node": [
+    {
+      "id": 232067,
+      "name": "Spider-Man: Into the Spider-Verse",
+      "nameCN": "蜘蛛侠：平行宇宙",
+      "date": "2018-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 282413,
+      "name": "Spider-Man: Across the Spider-Verse - Part One",
+      "nameCN": "蜘蛛侠：纵横宇宙(上)",
+      "date": "2023-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 375476,
+      "name": "Spider-Man: Across the Spider-Verse - Part Two",
+      "nameCN": "蜘蛛侠：纵横宇宙(下)",
+      "date": "2024-03-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 232067,
+      "dst": 282413
+    },
+    {
+      "relateString": "前传",
+      "src": 282413,
+      "dst": 232067
+    },
+    {
+      "relateString": "续集",
+      "src": 282413,
+      "dst": 375476
+    },
+    {
+      "relateString": "前传",
+      "src": 375476,
+      "dst": 282413
+    }
+  ]
 }

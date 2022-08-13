@@ -1,37 +1,35 @@
 {
- "id": 126857,
- "node": [
-  {
-   "id": 126857,
-   "name": "中国好声音 第1季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/e7/126857_5y4WM.jpg",
-   "date": "2012-07-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 140492,
-   "name": "中国好声音 第四季",
-   "nameCN": "中国好声音 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/65/140492_yCzUB.jpg",
-   "date": "2015-07-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126857,
-   "dst": 140492
-  },
-  {
-   "relate": "前传",
-   "src": 140492,
-   "dst": 126857
-  }
- ]
+  "id": "126857",
+  "node": [
+    {
+      "id": 126857,
+      "name": "中国好声音 第1季",
+      "nameCN": "",
+      "date": "2012-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 140492,
+      "name": "中国好声音 第四季",
+      "nameCN": "中国好声音 第四季",
+      "date": "2015-07-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126857,
+      "dst": 140492
+    },
+    {
+      "relateString": "前传",
+      "src": 140492,
+      "dst": 126857
+    }
+  ]
 }

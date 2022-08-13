@@ -1,37 +1,35 @@
 {
- "id": 20023,
- "node": [
-  {
-   "id": 20023,
-   "name": "Alphas (Season 1)",
-   "nameCN": "阿尔法战士 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/a8/20023_cLu6V.jpg",
-   "date": "2011-07-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 46105,
-   "name": "Alphas (Season 2)",
-   "nameCN": "阿尔法战士 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/be/46105_vWWkl.jpg",
-   "date": "2012-07-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20023,
-   "dst": 46105
-  },
-  {
-   "relate": "前传",
-   "src": 46105,
-   "dst": 20023
-  }
- ]
+  "id": "20023",
+  "node": [
+    {
+      "id": 20023,
+      "name": "Alphas (Season 1)",
+      "nameCN": "阿尔法战士 第一季",
+      "date": "2011-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 46105,
+      "name": "Alphas (Season 2)",
+      "nameCN": "阿尔法战士 第二季",
+      "date": "2012-07-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20023,
+      "dst": 46105
+    },
+    {
+      "relateString": "前传",
+      "src": 46105,
+      "dst": 20023
+    }
+  ]
 }

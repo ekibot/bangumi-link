@@ -1,37 +1,35 @@
 {
- "id": 103729,
- "node": [
-  {
-   "id": 103729,
-   "name": "先生のお気に入り!",
-   "nameCN": "秘密情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/42/103729_jp.jpg",
-   "date": "2004-04-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 103730,
-   "name": "続・先生のお気に入り!",
-   "nameCN": "续秘密情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/bf/103730_jp.jpg",
-   "date": "2006-11-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103729,
-   "dst": 103730
-  },
-  {
-   "relate": "前传",
-   "src": 103730,
-   "dst": 103729
-  }
- ]
+  "id": "103729",
+  "node": [
+    {
+      "id": 103729,
+      "name": "先生のお気に入り!",
+      "nameCN": "秘密情人",
+      "date": "2004-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 103730,
+      "name": "続・先生のお気に入り!",
+      "nameCN": "续秘密情人",
+      "date": "2006-11-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103729,
+      "dst": 103730
+    },
+    {
+      "relateString": "前传",
+      "src": 103730,
+      "dst": 103729
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 126486,
- "node": [
-  {
-   "id": 126486,
-   "name": "Lumino City",
-   "nameCN": "爷爷的城市",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/26/126486_8pi98.jpg",
-   "date": "2014-12-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 205277,
-   "name": "lume",
-   "nameCN": "爷爷的灯光",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/fa/205277_N4I1u.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 126486,
-   "dst": 205277
-  },
-  {
-   "relate": "续集",
-   "src": 205277,
-   "dst": 126486
-  }
- ]
+  "id": "126486",
+  "node": [
+    {
+      "id": 126486,
+      "name": "Lumino City",
+      "nameCN": "爷爷的城市",
+      "date": "2014-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 205277,
+      "name": "lume",
+      "nameCN": "爷爷的灯光",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 126486,
+      "dst": 205277
+    },
+    {
+      "relateString": "续集",
+      "src": 205277,
+      "dst": 126486
+    }
+  ]
 }

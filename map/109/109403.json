@@ -1,37 +1,35 @@
 {
- "id": 109403,
- "node": [
-  {
-   "id": 109403,
-   "name": "Moon Animate, Make-Up!",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/f2/109403_iKQm3.jpg",
-   "date": "2014-07-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 188725,
-   "name": "Moon Animate Make-Up 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/ba/188725_h2leY.jpg",
-   "date": "2016-08-01",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 109403,
-   "dst": 188725
-  },
-  {
-   "relate": "前传",
-   "src": 188725,
-   "dst": 109403
-  }
- ]
+  "id": "109403",
+  "node": [
+    {
+      "id": 109403,
+      "name": "Moon Animate, Make-Up!",
+      "nameCN": "",
+      "date": "2014-07-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 188725,
+      "name": "Moon Animate Make-Up 2",
+      "nameCN": "",
+      "date": "2016-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 109403,
+      "dst": 188725
+    },
+    {
+      "relateString": "前传",
+      "src": 188725,
+      "dst": 109403
+    }
+  ]
 }

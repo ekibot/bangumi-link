@@ -1,37 +1,34 @@
 {
- "id": 22691,
- "node": [
-  {
-   "id": 22691,
-   "name": "エリィのアクション",
-   "nameCN": "艾丽的行动",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/13/22691_Z1OCp.jpg",
-   "date": "2011-07-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 39261,
-   "name": "しょぼんのアクション",
-   "nameCN": "猫猫马里奥",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/73/39261_cXG07.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 22691,
-   "dst": 39261
-  },
-  {
-   "relate": "续集",
-   "src": 39261,
-   "dst": 22691
-  }
- ]
+  "id": "22691",
+  "node": [
+    {
+      "id": 22691,
+      "name": "エリィのアクション",
+      "nameCN": "艾丽的行动",
+      "date": "2011-07-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 39261,
+      "name": "しょぼんのアクション",
+      "nameCN": "猫猫马里奥",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 22691,
+      "dst": 39261
+    },
+    {
+      "relateString": "续集",
+      "src": 39261,
+      "dst": 22691
+    }
+  ]
 }

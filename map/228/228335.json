@@ -1,67 +1,61 @@
 {
- "id": 228335,
- "node": [
-  {
-   "id": 228335,
-   "name": "喵有卵用",
-   "nameCN": "喵有卵用",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/28/228335_nSnz6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 229534,
-   "name": "喵有卵用 第二季",
-   "nameCN": "喵有卵用 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/50/229534_2jiJ8.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 229536,
-   "name": "喵有卵用 第三季",
-   "nameCN": "喵有卵用 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/f0/229536_855LK.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228335,
-   "dst": 229534
-  },
-  {
-   "relate": "续集",
-   "src": 228335,
-   "dst": 229536
-  },
-  {
-   "relate": "前传",
-   "src": 229534,
-   "dst": 228335
-  },
-  {
-   "relate": "续集",
-   "src": 229534,
-   "dst": 229536
-  },
-  {
-   "relate": "前传",
-   "src": 229536,
-   "dst": 228335
-  },
-  {
-   "relate": "前传",
-   "src": 229536,
-   "dst": 229534
-  }
- ]
+  "id": "228335",
+  "node": [
+    {
+      "id": 228335,
+      "name": "喵有卵用",
+      "nameCN": "喵有卵用",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229534,
+      "name": "喵有卵用 第二季",
+      "nameCN": "喵有卵用 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229536,
+      "name": "喵有卵用 第三季",
+      "nameCN": "喵有卵用 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228335,
+      "dst": 229534
+    },
+    {
+      "relateString": "续集",
+      "src": 228335,
+      "dst": 229536
+    },
+    {
+      "relateString": "前传",
+      "src": 229534,
+      "dst": 228335
+    },
+    {
+      "relateString": "续集",
+      "src": 229534,
+      "dst": 229536
+    },
+    {
+      "relateString": "前传",
+      "src": 229536,
+      "dst": 228335
+    },
+    {
+      "relateString": "前传",
+      "src": 229536,
+      "dst": 229534
+    }
+  ]
 }

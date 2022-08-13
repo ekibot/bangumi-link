@@ -1,0 +1,54 @@
+{
+  "id": "195567",
+  "node": [
+    {
+      "id": 195567,
+      "name": "小説 映画 ちはやふる 上の句",
+      "nameCN": "",
+      "date": "2016-03-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 195568,
+      "name": "小説 映画 ちはやふる 下の句",
+      "nameCN": "",
+      "date": "2016-03-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 239253,
+      "name": "小説 ちはやふる 結び",
+      "nameCN": "",
+      "date": "2018-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195567,
+      "dst": 195568
+    },
+    {
+      "relateString": "前传",
+      "src": 195568,
+      "dst": 195567
+    },
+    {
+      "relateString": "续集",
+      "src": 195568,
+      "dst": 239253
+    },
+    {
+      "relateString": "前传",
+      "src": 239253,
+      "dst": 195568
+    }
+  ]
+}

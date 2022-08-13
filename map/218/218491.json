@@ -1,37 +1,35 @@
 {
- "id": 218491,
- "node": [
-  {
-   "id": 218491,
-   "name": "METAL EYE",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/dd/218491_7mPKT.jpg",
-   "date": "1993-04-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 218492,
-   "name": "METAL EYE2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/bd/218492_EvhHe.jpg",
-   "date": "1994-08-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218491,
-   "dst": 218492
-  },
-  {
-   "relate": "前传",
-   "src": 218492,
-   "dst": 218491
-  }
- ]
+  "id": "218491",
+  "node": [
+    {
+      "id": 218491,
+      "name": "METAL EYE",
+      "nameCN": "",
+      "date": "1993-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218492,
+      "name": "METAL EYE2",
+      "nameCN": "",
+      "date": "1994-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218491,
+      "dst": 218492
+    },
+    {
+      "relateString": "前传",
+      "src": 218492,
+      "dst": 218491
+    }
+  ]
 }

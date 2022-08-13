@@ -1,116 +1,111 @@
 {
- "id": 18369,
- "node": [
-  {
-   "id": 18369,
-   "name": "Ratchet &amp; Clank: Size Matters",
-   "nameCN": "瑞奇与叮当5",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/1c/18369_iIFnu.jpg",
-   "date": "2007-02-13",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 86738,
-   "name": "Ratchet &amp; Clank Up Your Arsenal",
-   "nameCN": "瑞奇与叮当 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/ff/86738_lLs1l.jpg",
-   "date": "2004-11-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 181569,
-   "name": "Ratchet &amp; Clank",
-   "nameCN": "瑞奇与叮当",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/70/181569_XQE3e.jpg",
-   "date": "2016-04-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 198060,
-   "name": "Ratchet &amp; Clank Collection",
-   "nameCN": "瑞奇与叮当三部曲HD",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/9b/198060_opP66.jpg",
-   "date": "2012-06-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 239295,
-   "name": "Ratchet &amp; Clank: Going Commando",
-   "nameCN": "瑞奇与叮当2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/77/239295_PXo9r.jpg",
-   "date": "2003-11-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 308542,
-   "name": "Ratchet &amp; Clank: Rift Apart",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/68/308542_CJACB.jpg",
-   "date": "2021-06-11",
-   "nameCN": "瑞奇与叮当：时空跳转",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 18369,
-   "dst": 181569
-  },
-  {
-   "relate": "前传",
-   "src": 86738,
-   "dst": 181569
-  },
-  {
-   "relate": "不同演绎",
-   "src": 86738,
-   "dst": 198060
-  },
-  {
-   "relate": "前传",
-   "src": 86738,
-   "dst": 239295
-  },
-  {
-   "relate": "续集",
-   "src": 181569,
-   "dst": 308542
-  },
-  {
-   "relate": "不同演绎",
-   "src": 198060,
-   "dst": 86738
-  },
-  {
-   "relate": "不同演绎",
-   "src": 198060,
-   "dst": 239295
-  },
-  {
-   "relate": "续集",
-   "src": 239295,
-   "dst": 86738
-  },
-  {
-   "relate": "不同演绎",
-   "src": 239295,
-   "dst": 198060
-  },
-  {
-   "relate": "前传",
-   "src": 308542,
-   "dst": 181569
-  }
- ]
+  "id": "18369",
+  "node": [
+    {
+      "id": 18369,
+      "name": "Ratchet &amp; Clank: Size Matters",
+      "nameCN": "瑞奇与叮当5",
+      "date": "2007-02-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 181569,
+      "name": "Ratchet &amp; Clank",
+      "nameCN": "瑞奇与叮当",
+      "date": "2016-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 86738,
+      "name": "Ratchet &amp; Clank Up Your Arsenal",
+      "nameCN": "瑞奇与叮当 3",
+      "date": "2004-11-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198060,
+      "name": "Ratchet &amp; Clank Collection",
+      "nameCN": "瑞奇与叮当三部曲HD",
+      "date": "2012-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 239295,
+      "name": "Ratchet &amp; Clank: Going Commando",
+      "nameCN": "瑞奇与叮当2",
+      "date": "2003-11-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308542,
+      "name": "Ratchet &amp; Clank: Rift Apart",
+      "nameCN": "瑞奇与叮当：时空跳转",
+      "date": "2021-06-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 18369,
+      "dst": 181569
+    },
+    {
+      "relateString": "前传",
+      "src": 86738,
+      "dst": 181569
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 86738,
+      "dst": 198060
+    },
+    {
+      "relateString": "前传",
+      "src": 86738,
+      "dst": 239295
+    },
+    {
+      "relateString": "续集",
+      "src": 181569,
+      "dst": 308542
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 198060,
+      "dst": 86738
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 198060,
+      "dst": 239295
+    },
+    {
+      "relateString": "续集",
+      "src": 239295,
+      "dst": 86738
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 239295,
+      "dst": 198060
+    },
+    {
+      "relateString": "前传",
+      "src": 308542,
+      "dst": 181569
+    }
+  ]
 }

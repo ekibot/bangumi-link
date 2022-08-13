@@ -1,37 +1,35 @@
 {
- "id": 19613,
- "node": [
-  {
-   "id": 19613,
-   "name": "魔法騎士レイアース",
-   "nameCN": "魔法骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/10/19613_PzqLK.jpg",
-   "date": "1994-10-17",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 39543,
-   "name": "レイアース",
-   "nameCN": "魔法骑士雷阿斯OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/42/39543_liI56.jpg",
-   "date": "1997-07-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 19613,
-   "dst": 39543
-  },
-  {
-   "relate": "不同演绎",
-   "src": 39543,
-   "dst": 19613
-  }
- ]
+  "id": "19613",
+  "node": [
+    {
+      "id": 19613,
+      "name": "魔法騎士レイアース",
+      "nameCN": "魔法骑士",
+      "date": "1994-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 39543,
+      "name": "レイアース",
+      "nameCN": "魔法骑士雷阿斯OVA",
+      "date": "1997-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 19613,
+      "dst": 39543
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 39543,
+      "dst": 19613
+    }
+  ]
 }

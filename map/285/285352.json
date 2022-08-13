@@ -1,37 +1,35 @@
 {
- "id": 285352,
- "node": [
-  {
-   "id": 285352,
-   "name": "Descent: Freespace",
-   "nameCN": "侵袭：自由空间",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/a8/285352_G0xPQ.jpg",
-   "date": "1998-03-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 285354,
-   "name": "Freespace 2",
-   "nameCN": "自由空间2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/69/285354_11vAj.jpg",
-   "date": "1999-10-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 285352,
-   "dst": 285354
-  },
-  {
-   "relate": "前传",
-   "src": 285354,
-   "dst": 285352
-  }
- ]
+  "id": "285352",
+  "node": [
+    {
+      "id": 285352,
+      "name": "Descent: Freespace",
+      "nameCN": "侵袭：自由空间",
+      "date": "1998-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285354,
+      "name": "Freespace 2",
+      "nameCN": "自由空间2",
+      "date": "1999-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 285352,
+      "dst": 285354
+    },
+    {
+      "relateString": "前传",
+      "src": 285354,
+      "dst": 285352
+    }
+  ]
 }

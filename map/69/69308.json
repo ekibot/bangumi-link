@@ -1,37 +1,33 @@
 {
- "id": 69308,
- "node": [
-  {
-   "id": 69308,
-   "name": "舞姫 テレプシコーラ",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/3a/69308_0dW1H.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 69314,
-   "name": "舞姫 テレプシコーラ 第2部",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/f5/69314_4lJig.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 69308,
-   "dst": 69314
-  },
-  {
-   "relate": "前传",
-   "src": 69314,
-   "dst": 69308
-  }
- ]
+  "id": "69308",
+  "node": [
+    {
+      "id": 69308,
+      "name": "舞姫 テレプシコーラ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 69314,
+      "name": "舞姫 テレプシコーラ 第2部",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 69308,
+      "dst": 69314
+    },
+    {
+      "relateString": "前传",
+      "src": 69314,
+      "dst": 69308
+    }
+  ]
 }

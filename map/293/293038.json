@@ -1,37 +1,34 @@
 {
- "id": 293038,
- "node": [
-  {
-   "id": 293038,
-   "name": "洋菓子店ローズ ～ほのぼの再建記～",
-   "nameCN": "洋果子店ROSE",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/be/293038_jDYzJ.jpg",
-   "date": "2018-01-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 293039,
-   "name": "洋菓子店ローズ2 パン屋はじめました",
-   "nameCN": "洋果子店ROSE2～面包店开幕了～",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/89/293039_I957t.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 293038,
-   "dst": 293039
-  },
-  {
-   "relate": "前传",
-   "src": 293039,
-   "dst": 293038
-  }
- ]
+  "id": "293038",
+  "node": [
+    {
+      "id": 293038,
+      "name": "洋菓子店ローズ ～ほのぼの再建記～",
+      "nameCN": "洋果子店ROSE",
+      "date": "2018-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293039,
+      "name": "洋菓子店ローズ2 パン屋はじめました",
+      "nameCN": "洋果子店ROSE2～面包店开幕了～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 293038,
+      "dst": 293039
+    },
+    {
+      "relateString": "前传",
+      "src": 293039,
+      "dst": 293038
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 312954,
- "node": [
-  {
-   "id": 312954,
-   "name": "シャム猫あずきさんは世界の中心",
-   "nameCN": "世界，就是绕着猫打转",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/bd/312954_cVRrp.jpg",
-   "date": "2019-12-13",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 327199,
-   "name": "もっと!! シャム猫あずきさんは世界の中心",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/81/327199_vVVei.jpg",
-   "date": "2020-11-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 360165,
-   "name": "まだまだ!!! シャム猫あずきさんは世界の中心",
-   "nameCN": "还有还有！暹罗猫小豆泥是世界的中心",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/66/360165_G6Pl9.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 312954,
-   "dst": 327199
-  },
-  {
-   "relate": "前传",
-   "src": 327199,
-   "dst": 312954
-  },
-  {
-   "relate": "续集",
-   "src": 327199,
-   "dst": 360165
-  },
-  {
-   "relate": "前传",
-   "src": 360165,
-   "dst": 327199
-  }
- ]
+  "id": "312954",
+  "node": [
+    {
+      "id": 312954,
+      "name": "シャム猫あずきさんは世界の中心",
+      "nameCN": "世界，就是绕着猫打转",
+      "date": "2019-12-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 327199,
+      "name": "もっと!! シャム猫あずきさんは世界の中心",
+      "nameCN": "",
+      "date": "2020-11-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 360165,
+      "name": "まだまだ!!! シャム猫あずきさんは世界の中心",
+      "nameCN": "还有还有！暹罗猫小豆泥是世界的中心",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 312954,
+      "dst": 327199
+    },
+    {
+      "relateString": "前传",
+      "src": 327199,
+      "dst": 312954
+    },
+    {
+      "relateString": "续集",
+      "src": 327199,
+      "dst": 360165
+    },
+    {
+      "relateString": "前传",
+      "src": 360165,
+      "dst": 327199
+    }
+  ]
 }

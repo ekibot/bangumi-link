@@ -1,77 +1,72 @@
 {
- "id": 165373,
- "node": [
-  {
-   "id": 165373,
-   "name": "怪異症候群",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/8b/165373_ex7zL.jpg",
-   "date": "2011-10-23",
-   "nameCN": "怪异症候群",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219639,
-   "name": "怪異症候群-R- 人形編",
-   "nameCN": "怪异症候群-R-人偶篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/bf/219639_BosM1.jpg",
-   "date": "2016-10-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 219640,
-   "name": "怪異症候群2",
-   "nameCN": "怪异症候群2",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/e9/219640_aai5K.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 356966,
-   "name": "怪異症候群3",
-   "nameCN": "怪异症候群3",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/1f/356966_W5AWM.jpg",
-   "date": "2019-05-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 165373,
-   "dst": 219639
-  },
-  {
-   "relate": "续集",
-   "src": 165373,
-   "dst": 219640
-  },
-  {
-   "relate": "不同演绎",
-   "src": 219639,
-   "dst": 165373
-  },
-  {
-   "relate": "前传",
-   "src": 219640,
-   "dst": 165373
-  },
-  {
-   "relate": "续集",
-   "src": 219640,
-   "dst": 356966
-  },
-  {
-   "relate": "前传",
-   "src": 356966,
-   "dst": 219640
-  }
- ]
+  "id": "165373",
+  "node": [
+    {
+      "id": 165373,
+      "name": "怪異症候群",
+      "nameCN": "怪异症候群",
+      "date": "2011-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219639,
+      "name": "怪異症候群-R- 人形編",
+      "nameCN": "怪异症候群-R-人偶篇",
+      "date": "2016-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219640,
+      "name": "怪異症候群2",
+      "nameCN": "怪异症候群2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 356966,
+      "name": "怪異症候群3",
+      "nameCN": "怪异症候群3",
+      "date": "2019-05-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 165373,
+      "dst": 219639
+    },
+    {
+      "relateString": "续集",
+      "src": 165373,
+      "dst": 219640
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 219639,
+      "dst": 165373
+    },
+    {
+      "relateString": "前传",
+      "src": 219640,
+      "dst": 165373
+    },
+    {
+      "relateString": "续集",
+      "src": 219640,
+      "dst": 356966
+    },
+    {
+      "relateString": "前传",
+      "src": 356966,
+      "dst": 219640
+    }
+  ]
 }

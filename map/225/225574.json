@@ -1,37 +1,35 @@
 {
- "id": 225574,
- "node": [
-  {
-   "id": 225574,
-   "name": "コープスパーティif",
-   "nameCN": "尸体派对if",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/16/225574_ULNE4.jpg",
-   "date": "2011-02-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 225575,
-   "name": "コープスパーティif　PE",
-   "nameCN": "尸体派对if PE",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/f7/225575_YZ0xj.jpg",
-   "date": "2011-05-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225574,
-   "dst": 225575
-  },
-  {
-   "relate": "前传",
-   "src": 225575,
-   "dst": 225574
-  }
- ]
+  "id": "225574",
+  "node": [
+    {
+      "id": 225574,
+      "name": "コープスパーティif",
+      "nameCN": "尸体派对if",
+      "date": "2011-02-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225575,
+      "name": "コープスパーティif　PE",
+      "nameCN": "尸体派对if PE",
+      "date": "2011-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225574,
+      "dst": 225575
+    },
+    {
+      "relateString": "前传",
+      "src": 225575,
+      "dst": 225574
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 143096,
- "node": [
-  {
-   "id": 143096,
-   "name": "鬼子母神の夢",
-   "nameCN": "鬼子母神之梦",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/9e/143096_aLZnl.jpg",
-   "date": "2014-12-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228491,
-   "name": "夏の幽霊飴",
-   "nameCN": "夏日的幽灵糖",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/dd/228491_bQNuL.jpg",
-   "date": "2015-09-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143096,
-   "dst": 228491
-  },
-  {
-   "relate": "前传",
-   "src": 228491,
-   "dst": 143096
-  }
- ]
+  "id": "143096",
+  "node": [
+    {
+      "id": 143096,
+      "name": "鬼子母神の夢",
+      "nameCN": "鬼子母神之梦",
+      "date": "2014-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228491,
+      "name": "夏の幽霊飴",
+      "nameCN": "夏日的幽灵糖",
+      "date": "2015-09-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143096,
+      "dst": 228491
+    },
+    {
+      "relateString": "前传",
+      "src": 228491,
+      "dst": 143096
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 106032,
- "node": [
-  {
-   "id": 106032,
-   "name": "いっツー THE MOVIE",
-   "nameCN": "爱的单行线 THE MOVIE",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/60/106032_r8pLp.jpg",
-   "date": "2014-08-02",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 106033,
-   "name": "いっツー THE MOVIE2",
-   "nameCN": "爱的单行线 THE MOVIE2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/b4/106033_Ih3hR.jpg",
-   "date": "2014-08-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 106032,
-   "dst": 106033
-  },
-  {
-   "relate": "前传",
-   "src": 106033,
-   "dst": 106032
-  }
- ]
+  "id": "106032",
+  "node": [
+    {
+      "id": 106032,
+      "name": "いっツー THE MOVIE",
+      "nameCN": "爱的单行线 THE MOVIE",
+      "date": "2014-08-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 106033,
+      "name": "いっツー THE MOVIE2",
+      "nameCN": "爱的单行线 THE MOVIE2",
+      "date": "2014-08-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 106032,
+      "dst": 106033
+    },
+    {
+      "relateString": "前传",
+      "src": 106033,
+      "dst": 106032
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 382568,
- "node": [
-  {
-   "id": 382568,
-   "name": "ブルーアーカイブ コミックアンソロジー VOL.1",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/94/382568_3dD8q.jpg",
-   "date": "2021-07-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 382573,
-   "name": "ブルーアーカイブ コミックアンソロジー VOL.2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/51/382573_bTafn.jpg",
-   "type": 1,
-   "date": "2021-12-25",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 382568,
-   "dst": 382573
-  },
-  {
-   "relate": "前传",
-   "src": 382573,
-   "dst": 382568
-  }
- ]
+  "id": "382568",
+  "node": [
+    {
+      "id": 382568,
+      "name": "ブルーアーカイブ コミックアンソロジー VOL.1",
+      "nameCN": "",
+      "date": "2021-07-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 382573,
+      "name": "ブルーアーカイブ コミックアンソロジー VOL.2",
+      "nameCN": "",
+      "date": "2021-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 382568,
+      "dst": 382573
+    },
+    {
+      "relateString": "前传",
+      "src": 382573,
+      "dst": 382568
+    }
+  ]
 }

@@ -1,137 +1,131 @@
 {
- "id": 174227,
- "node": [
-  {
-   "id": 174227,
-   "name": "火线传奇",
-   "nameCN": "火线传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/62/174227_8Fr7K.jpg",
-   "date": "2016-03-11",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 191100,
-   "name": "火线传奇 第二季",
-   "nameCN": "火线传奇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/6f/191100_5In5K.jpg",
-   "date": "2016-08-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 205534,
-   "name": "火线小剧场",
-   "nameCN": "火线小剧场 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/d4/205534_HtVPZ.jpg",
-   "date": "2016-03-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 211549,
-   "name": "火线传奇 第三季",
-   "nameCN": "火线传奇 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/ce/211549_nIo8U.jpg",
-   "date": "2017-05-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 311770,
-   "name": "火线小剧场 第二季",
-   "nameCN": "火线小剧场 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/78/311770_PExXJ.jpg",
-   "date": "2016-08-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 311772,
-   "name": "火线小剧场 第三季",
-   "nameCN": "火线小剧场 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/80/311772_i89c9.jpg",
-   "date": "2017-05-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 174227,
-   "dst": 191100
-  },
-  {
-   "relate": "衍生",
-   "src": 174227,
-   "dst": 205534
-  },
-  {
-   "relate": "前传",
-   "src": 191100,
-   "dst": 174227
-  },
-  {
-   "relate": "续集",
-   "src": 191100,
-   "dst": 211549
-  },
-  {
-   "relate": "衍生",
-   "src": 191100,
-   "dst": 311770
-  },
-  {
-   "relate": "主线故事",
-   "src": 205534,
-   "dst": 174227
-  },
-  {
-   "relate": "续集",
-   "src": 205534,
-   "dst": 311770
-  },
-  {
-   "relate": "前传",
-   "src": 211549,
-   "dst": 191100
-  },
-  {
-   "relate": "衍生",
-   "src": 211549,
-   "dst": 311772
-  },
-  {
-   "relate": "主线故事",
-   "src": 311770,
-   "dst": 191100
-  },
-  {
-   "relate": "前传",
-   "src": 311770,
-   "dst": 205534
-  },
-  {
-   "relate": "续集",
-   "src": 311770,
-   "dst": 311772
-  },
-  {
-   "relate": "主线故事",
-   "src": 311772,
-   "dst": 211549
-  },
-  {
-   "relate": "前传",
-   "src": 311772,
-   "dst": 311770
-  }
- ]
+  "id": "174227",
+  "node": [
+    {
+      "id": 174227,
+      "name": "火线传奇",
+      "nameCN": "火线传奇",
+      "date": "2016-03-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 191100,
+      "name": "火线传奇 第二季",
+      "nameCN": "火线传奇 第二季",
+      "date": "2016-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 205534,
+      "name": "火线小剧场",
+      "nameCN": "火线小剧场 第一季",
+      "date": "2016-03-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 211549,
+      "name": "火线传奇 第三季",
+      "nameCN": "火线传奇 第三季",
+      "date": "2017-05-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 311770,
+      "name": "火线小剧场 第二季",
+      "nameCN": "火线小剧场 第二季",
+      "date": "2016-08-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 311772,
+      "name": "火线小剧场 第三季",
+      "nameCN": "火线小剧场 第三季",
+      "date": "2017-05-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 174227,
+      "dst": 191100
+    },
+    {
+      "relateString": "衍生",
+      "src": 174227,
+      "dst": 205534
+    },
+    {
+      "relateString": "前传",
+      "src": 191100,
+      "dst": 174227
+    },
+    {
+      "relateString": "续集",
+      "src": 191100,
+      "dst": 211549
+    },
+    {
+      "relateString": "衍生",
+      "src": 191100,
+      "dst": 311770
+    },
+    {
+      "relateString": "主线故事",
+      "src": 205534,
+      "dst": 174227
+    },
+    {
+      "relateString": "续集",
+      "src": 205534,
+      "dst": 311770
+    },
+    {
+      "relateString": "前传",
+      "src": 211549,
+      "dst": 191100
+    },
+    {
+      "relateString": "衍生",
+      "src": 211549,
+      "dst": 311772
+    },
+    {
+      "relateString": "主线故事",
+      "src": 311770,
+      "dst": 191100
+    },
+    {
+      "relateString": "前传",
+      "src": 311770,
+      "dst": 205534
+    },
+    {
+      "relateString": "续集",
+      "src": 311770,
+      "dst": 311772
+    },
+    {
+      "relateString": "主线故事",
+      "src": 311772,
+      "dst": 211549
+    },
+    {
+      "relateString": "前传",
+      "src": 311772,
+      "dst": 311770
+    }
+  ]
 }

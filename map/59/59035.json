@@ -1,56 +1,54 @@
 {
- "id": 59035,
- "node": [
-  {
-   "id": 59035,
-   "name": "Z/X IGNITION",
-   "nameCN": "Z/X IGNITION",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/bb/59035_7T336.jpg",
-   "date": "2014-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 94904,
-   "name": "Z/X 絶界の聖戦",
-   "nameCN": "Z/X 绝界的圣战",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/d5/94904_y33R3.jpg",
-   "date": "2013-05-23",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 225941,
-   "name": "Z/X Code reunion",
-   "nameCN": "Z/X Code reunion",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/27/225941_373p3.jpg",
-   "date": "2019-10-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 59035,
-   "dst": 225941
-  },
-  {
-   "relate": "相同世界观",
-   "src": 94904,
-   "dst": 59035
-  },
-  {
-   "relate": "相同世界观",
-   "src": 94904,
-   "dst": 225941
-  },
-  {
-   "relate": "相同世界观",
-   "src": 225941,
-   "dst": 59035
-  }
- ]
+  "id": "59035",
+  "node": [
+    {
+      "id": 59035,
+      "name": "Z/X IGNITION",
+      "nameCN": "Z/X IGNITION",
+      "date": "2014-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 225941,
+      "name": "Z/X Code reunion",
+      "nameCN": "Z/X Code reunion",
+      "date": "2019-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 94904,
+      "name": "Z/X 絶界の聖戦",
+      "nameCN": "Z/X 绝界的圣战",
+      "date": "2013-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 59035,
+      "dst": 225941
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 94904,
+      "dst": 59035
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 94904,
+      "dst": 225941
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 225941,
+      "dst": 59035
+    }
+  ]
 }

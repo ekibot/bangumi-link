@@ -1,57 +1,52 @@
 {
- "id": 68934,
- "node": [
-  {
-   "id": 68934,
-   "name": "機動戦士ガンダム バトルオペレーション",
-   "nameCN": "机动战士高达：激战任务",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/c5/68934_Op06J.jpg",
-   "date": "2012-06-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 132578,
-   "name": "ガンダムバトルオペレーション NEXT",
-   "nameCN": "机动战士高达：激战任务NEXT",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/1c/132578_j7P0c.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 226169,
-   "name": "機動戦士ガンダム バトルオペレーション 2",
-   "nameCN": "机动战士高达：激战任务2",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/32/226169_mdSDu.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68934,
-   "dst": 132578
-  },
-  {
-   "relate": "续集",
-   "src": 68934,
-   "dst": 226169
-  },
-  {
-   "relate": "前传",
-   "src": 132578,
-   "dst": 68934
-  },
-  {
-   "relate": "前传",
-   "src": 226169,
-   "dst": 68934
-  }
- ]
+  "id": "68934",
+  "node": [
+    {
+      "id": 68934,
+      "name": "機動戦士ガンダム バトルオペレーション",
+      "nameCN": "机动战士高达：激战任务",
+      "date": "2012-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 132578,
+      "name": "ガンダムバトルオペレーション NEXT",
+      "nameCN": "机动战士高达：激战任务NEXT",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226169,
+      "name": "機動戦士ガンダム バトルオペレーション 2",
+      "nameCN": "机动战士高达：激战任务2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68934,
+      "dst": 132578
+    },
+    {
+      "relateString": "续集",
+      "src": 68934,
+      "dst": 226169
+    },
+    {
+      "relateString": "前传",
+      "src": 132578,
+      "dst": 68934
+    },
+    {
+      "relateString": "前传",
+      "src": 226169,
+      "dst": 68934
+    }
+  ]
 }

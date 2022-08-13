@@ -1,57 +1,53 @@
 {
- "id": 133472,
- "node": [
-  {
-   "id": 133472,
-   "name": "Grace and Frankie",
-   "nameCN": "同妻俱乐部",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/5a/133472_O2671.jpg",
-   "date": "2015-05-08",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 182250,
-   "name": "Grace and Frankie Season 2",
-   "nameCN": "同妻俱乐部 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/a6/182250_F4vtt.jpg",
-   "date": "2016-05-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 182251,
-   "name": "Grace and Frankie Season 3",
-   "nameCN": "同妻俱乐部 第三季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 133472,
-   "dst": 182250
-  },
-  {
-   "relate": "前传",
-   "src": 182250,
-   "dst": 133472
-  },
-  {
-   "relate": "续集",
-   "src": 182250,
-   "dst": 182251
-  },
-  {
-   "relate": "前传",
-   "src": 182251,
-   "dst": 182250
-  }
- ]
+  "id": "133472",
+  "node": [
+    {
+      "id": 133472,
+      "name": "Grace and Frankie",
+      "nameCN": "同妻俱乐部",
+      "date": "2015-05-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 182250,
+      "name": "Grace and Frankie Season 2",
+      "nameCN": "同妻俱乐部 第二季",
+      "date": "2016-05-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 182251,
+      "name": "Grace and Frankie Season 3",
+      "nameCN": "同妻俱乐部 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 133472,
+      "dst": 182250
+    },
+    {
+      "relateString": "前传",
+      "src": 182250,
+      "dst": 133472
+    },
+    {
+      "relateString": "续集",
+      "src": 182250,
+      "dst": 182251
+    },
+    {
+      "relateString": "前传",
+      "src": 182251,
+      "dst": 182250
+    }
+  ]
 }

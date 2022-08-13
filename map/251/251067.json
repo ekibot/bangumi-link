@@ -1,57 +1,54 @@
 {
- "id": 251067,
- "node": [
-  {
-   "id": 251067,
-   "name": "アクトレイザー",
-   "nameCN": "雷莎出击",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/bf/251067_xgRU6.jpg",
-   "date": "1990-12-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259097,
-   "name": "アクトレイザー2 沈黙への聖戦",
-   "nameCN": "雷莎出击2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/91/259097_7jl1a.jpg",
-   "date": "1993-10-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 350843,
-   "name": "アクトレイザー・ルネサンス",
-   "nameCN": "蕾莎出击：文艺复兴",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/19/350843_0ev0K.jpg",
-   "date": "2021-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251067,
-   "dst": 259097
-  },
-  {
-   "relate": "不同演绎",
-   "src": 251067,
-   "dst": 350843
-  },
-  {
-   "relate": "前传",
-   "src": 259097,
-   "dst": 251067
-  },
-  {
-   "relate": "不同演绎",
-   "src": 350843,
-   "dst": 251067
-  }
- ]
+  "id": "251067",
+  "node": [
+    {
+      "id": 251067,
+      "name": "アクトレイザー",
+      "nameCN": "雷莎出击",
+      "date": "1990-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259097,
+      "name": "アクトレイザー2 沈黙への聖戦",
+      "nameCN": "雷莎出击2",
+      "date": "1993-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350843,
+      "name": "アクトレイザー・ルネサンス",
+      "nameCN": "蕾莎出击：文艺复兴",
+      "date": "2021-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251067,
+      "dst": 259097
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 251067,
+      "dst": 350843
+    },
+    {
+      "relateString": "前传",
+      "src": 259097,
+      "dst": 251067
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 350843,
+      "dst": 251067
+    }
+  ]
 }

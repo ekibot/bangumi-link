@@ -1,0 +1,48 @@
+{
+  "id": "145553",
+  "node": [
+    {
+      "id": 145553,
+      "name": "Elite: Dangerous",
+      "nameCN": "精英：危机四伏",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 328146,
+      "name": "Frontier: First Encounters",
+      "nameCN": "",
+      "date": "1995-04-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167017,
+      "name": "Elite Dangerous: Horizons",
+      "nameCN": "精英危险：地平线",
+      "date": "2015-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 145553,
+      "dst": 328146
+    },
+    {
+      "relateString": "主线故事",
+      "src": 167017,
+      "dst": 145553
+    },
+    {
+      "relateString": "续集",
+      "src": 328146,
+      "dst": 145553
+    }
+  ]
+}

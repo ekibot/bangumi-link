@@ -1,37 +1,35 @@
 {
- "id": 78032,
- "node": [
-  {
-   "id": 78032,
-   "name": "Go!Go!家電男子",
-   "nameCN": "GO！GO！家电男子",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/87/78032_I6uQq.jpg",
-   "date": "2013-07-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 102554,
-   "name": "Go!Go!家電男子 シーズン2",
-   "nameCN": "GO！GO！家电男子2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/54/102554_ny2j3.jpg",
-   "date": "2014-04-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78032,
-   "dst": 102554
-  },
-  {
-   "relate": "前传",
-   "src": 102554,
-   "dst": 78032
-  }
- ]
+  "id": "78032",
+  "node": [
+    {
+      "id": 78032,
+      "name": "Go!Go!家電男子",
+      "nameCN": "GO！GO！家电男子",
+      "date": "2013-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 102554,
+      "name": "Go!Go!家電男子 シーズン2",
+      "nameCN": "GO！GO！家电男子2",
+      "date": "2014-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78032,
+      "dst": 102554
+    },
+    {
+      "relateString": "前传",
+      "src": 102554,
+      "dst": 78032
+    }
+  ]
 }

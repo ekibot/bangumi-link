@@ -1,37 +1,33 @@
 {
- "id": 246030,
- "node": [
-  {
-   "id": 246030,
-   "name": "幸せにしてあげます",
-   "nameCN": "我要给你幸福",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/9b/246030_m0uMn.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 252302,
-   "name": "危ないシリーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/67/252302_b5k5K.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 246030,
-   "dst": 252302
-  },
-  {
-   "relate": "相同世界观",
-   "src": 252302,
-   "dst": 246030
-  }
- ]
+  "id": "246030",
+  "node": [
+    {
+      "id": 246030,
+      "name": "幸せにしてあげます",
+      "nameCN": "我要给你幸福",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 252302,
+      "name": "危ないシリーズ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 246030,
+      "dst": 252302
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 252302,
+      "dst": 246030
+    }
+  ]
 }

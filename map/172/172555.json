@@ -1,37 +1,34 @@
 {
- "id": 172555,
- "node": [
-  {
-   "id": 172555,
-   "name": "さすがの猿飛",
-   "nameCN": "猿飞小忍者",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/cd/172555_7YJnT.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 262777,
-   "name": "さすがの猿飛G",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/d9/262777_A0tc3.jpg",
-   "date": "2018-03-05",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 172555,
-   "dst": 262777
-  },
-  {
-   "relate": "前传",
-   "src": 262777,
-   "dst": 172555
-  }
- ]
+  "id": "172555",
+  "node": [
+    {
+      "id": 172555,
+      "name": "さすがの猿飛",
+      "nameCN": "猿飞小忍者",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 262777,
+      "name": "さすがの猿飛G",
+      "nameCN": "",
+      "date": "2018-03-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 172555,
+      "dst": 262777
+    },
+    {
+      "relateString": "前传",
+      "src": 262777,
+      "dst": 172555
+    }
+  ]
 }

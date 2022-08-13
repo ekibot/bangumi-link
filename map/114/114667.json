@@ -1,57 +1,54 @@
 {
- "id": 114667,
- "node": [
-  {
-   "id": 114667,
-   "name": "やわらかあたま塾",
-   "nameCN": "轻松头脑教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/c1/114667_YglKp.jpg",
-   "date": "2005-06-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114670,
-   "name": "Wiiでやわらかあたま塾",
-   "nameCN": "Wii轻松头脑教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/f7/114670_ythRJ.jpg",
-   "date": "2007-04-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 348316,
-   "name": "やわらかあたま塾 いっしょにあたまのストレッチ",
-   "nameCN": "灵活脑学校 一起伸展大脑",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/1c/348316_y8my9.jpg",
-   "date": "2021-12-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114667,
-   "dst": 114670
-  },
-  {
-   "relate": "前传",
-   "src": 114670,
-   "dst": 114667
-  },
-  {
-   "relate": "续集",
-   "src": 114670,
-   "dst": 348316
-  },
-  {
-   "relate": "前传",
-   "src": 348316,
-   "dst": 114670
-  }
- ]
+  "id": "114667",
+  "node": [
+    {
+      "id": 114667,
+      "name": "やわらかあたま塾",
+      "nameCN": "轻松头脑教室",
+      "date": "2005-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114670,
+      "name": "Wiiでやわらかあたま塾",
+      "nameCN": "Wii轻松头脑教室",
+      "date": "2007-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348316,
+      "name": "やわらかあたま塾 いっしょにあたまのストレッチ",
+      "nameCN": "灵活脑学校 一起伸展大脑",
+      "date": "2021-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114667,
+      "dst": 114670
+    },
+    {
+      "relateString": "前传",
+      "src": 114670,
+      "dst": 114667
+    },
+    {
+      "relateString": "续集",
+      "src": 114670,
+      "dst": 348316
+    },
+    {
+      "relateString": "前传",
+      "src": 348316,
+      "dst": 114670
+    }
+  ]
 }

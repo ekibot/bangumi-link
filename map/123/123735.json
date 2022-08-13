@@ -1,37 +1,35 @@
 {
- "id": 123735,
- "node": [
-  {
-   "id": 123735,
-   "name": "Family Guy (Season 1)",
-   "nameCN": "恶搞之家 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/84/123735_TZNB3.jpg",
-   "date": "1999-01-31",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 126503,
-   "name": "Family Guy (Season 2)",
-   "nameCN": "恶搞之家 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/81/126503_bS8Ny.jpg",
-   "date": "1999-09-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123735,
-   "dst": 126503
-  },
-  {
-   "relate": "前传",
-   "src": 126503,
-   "dst": 123735
-  }
- ]
+  "id": "123735",
+  "node": [
+    {
+      "id": 123735,
+      "name": "Family Guy (Season 1)",
+      "nameCN": "恶搞之家 第一季",
+      "date": "1999-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 126503,
+      "name": "Family Guy (Season 2)",
+      "nameCN": "恶搞之家 第二季",
+      "date": "1999-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123735,
+      "dst": 126503
+    },
+    {
+      "relateString": "前传",
+      "src": 126503,
+      "dst": 123735
+    }
+  ]
 }

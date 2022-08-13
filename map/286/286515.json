@@ -1,37 +1,34 @@
 {
- "id": 286515,
- "node": [
-  {
-   "id": 286515,
-   "name": "Blazing Chrome",
-   "nameCN": "炽热合金",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/99/286515_swB6L.jpg",
-   "date": "2019-07-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 334345,
-   "name": "BLAZING CHROME AC",
-   "nameCN": "炽热合金AC",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/0f/334345_95ddV.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 286515,
-   "dst": 334345
-  },
-  {
-   "relate": "前传",
-   "src": 334345,
-   "dst": 286515
-  }
- ]
+  "id": "286515",
+  "node": [
+    {
+      "id": 286515,
+      "name": "Blazing Chrome",
+      "nameCN": "炽热合金",
+      "date": "2019-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 334345,
+      "name": "BLAZING CHROME AC",
+      "nameCN": "炽热合金AC",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 286515,
+      "dst": 334345
+    },
+    {
+      "relateString": "前传",
+      "src": 334345,
+      "dst": 286515
+    }
+  ]
 }

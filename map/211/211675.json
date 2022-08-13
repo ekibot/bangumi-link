@@ -1,37 +1,35 @@
 {
- "id": 211675,
- "node": [
-  {
-   "id": 211675,
-   "name": "The Surge",
-   "nameCN": "机甲狂潮",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/59/211675_5Oa35.jpg",
-   "date": "2017-05-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 289656,
-   "name": "The Surge 2",
-   "nameCN": "机甲狂潮2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/b2/289656_SqszN.jpg",
-   "date": "2019-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211675,
-   "dst": 289656
-  },
-  {
-   "relate": "前传",
-   "src": 289656,
-   "dst": 211675
-  }
- ]
+  "id": "211675",
+  "node": [
+    {
+      "id": 211675,
+      "name": "The Surge",
+      "nameCN": "机甲狂潮",
+      "date": "2017-05-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289656,
+      "name": "The Surge 2",
+      "nameCN": "机甲狂潮2",
+      "date": "2019-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211675,
+      "dst": 289656
+    },
+    {
+      "relateString": "前传",
+      "src": 289656,
+      "dst": 211675
+    }
+  ]
 }

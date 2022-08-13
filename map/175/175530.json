@@ -1,37 +1,35 @@
 {
- "id": 175530,
- "node": [
-  {
-   "id": 175530,
-   "name": "Infini-T Force",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/c1/175530_0BYXR.jpg",
-   "date": "2017-10-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 223398,
-   "name": "劇場版Infini-T Force／ガッチャマン さらば友よ",
-   "nameCN": "剧场版Infini-T Force 飞鹰侠 再见了朋友",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/ac/223398_g36kk.jpg",
-   "date": "2018-02-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 175530,
-   "dst": 223398
-  },
-  {
-   "relate": "前传",
-   "src": 223398,
-   "dst": 175530
-  }
- ]
+  "id": "175530",
+  "node": [
+    {
+      "id": 175530,
+      "name": "Infini-T Force",
+      "nameCN": "",
+      "date": "2017-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 223398,
+      "name": "劇場版Infini-T Force／ガッチャマン さらば友よ",
+      "nameCN": "剧场版Infini-T Force 飞鹰侠 再见了朋友",
+      "date": "2018-02-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 175530,
+      "dst": 223398
+    },
+    {
+      "relateString": "前传",
+      "src": 223398,
+      "dst": 175530
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 79912,
- "node": [
-  {
-   "id": 79912,
-   "name": "鋳蔷薇",
-   "nameCN": "铸蔷薇",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/50/79912_5YibQ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215531,
-   "name": "ピンクスゥイーツ～鋳薔薇それから～",
-   "nameCN": "粉蔷薇",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/36/215531_L01IV.jpg",
-   "date": "2006-04-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79912,
-   "dst": 215531
-  },
-  {
-   "relate": "前传",
-   "src": 215531,
-   "dst": 79912
-  }
- ]
+  "id": "79912",
+  "node": [
+    {
+      "id": 79912,
+      "name": "鋳蔷薇",
+      "nameCN": "铸蔷薇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215531,
+      "name": "ピンクスゥイーツ～鋳薔薇それから～",
+      "nameCN": "粉蔷薇",
+      "date": "2006-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79912,
+      "dst": 215531
+    },
+    {
+      "relateString": "前传",
+      "src": 215531,
+      "dst": 79912
+    }
+  ]
 }

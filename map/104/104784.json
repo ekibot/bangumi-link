@@ -1,77 +1,73 @@
 {
- "id": 104784,
- "node": [
-  {
-   "id": 104784,
-   "name": "レッスルエンジェルス",
-   "nameCN": "摔角天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/6b/104784_NWZNT.jpg",
-   "date": "1992-02-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 105247,
-   "name": "レッスルエンジェルス2",
-   "nameCN": "摔角天使2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/47/105247_pDVzS.jpg",
-   "date": "1992-12-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 106504,
-   "name": "レッスルエンジェルス3",
-   "nameCN": "摔角天使3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/24/106504_D6wg1.jpg",
-   "date": "1993-10-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 107507,
-   "name": "レッスルエンジェルスSPECIAL",
-   "nameCN": "摔角天使special",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/a6/107507_fjm8i.jpg",
-   "date": "1994-02-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104784,
-   "dst": 105247
-  },
-  {
-   "relate": "前传",
-   "src": 105247,
-   "dst": 104784
-  },
-  {
-   "relate": "续集",
-   "src": 105247,
-   "dst": 106504
-  },
-  {
-   "relate": "前传",
-   "src": 106504,
-   "dst": 105247
-  },
-  {
-   "relate": "续集",
-   "src": 106504,
-   "dst": 107507
-  },
-  {
-   "relate": "前传",
-   "src": 107507,
-   "dst": 106504
-  }
- ]
+  "id": "104784",
+  "node": [
+    {
+      "id": 104784,
+      "name": "レッスルエンジェルス",
+      "nameCN": "摔角天使",
+      "date": "1992-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 105247,
+      "name": "レッスルエンジェルス2",
+      "nameCN": "摔角天使2",
+      "date": "1992-12-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 106504,
+      "name": "レッスルエンジェルス3",
+      "nameCN": "摔角天使3",
+      "date": "1993-10-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107507,
+      "name": "レッスルエンジェルスSPECIAL",
+      "nameCN": "摔角天使special",
+      "date": "1994-02-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104784,
+      "dst": 105247
+    },
+    {
+      "relateString": "前传",
+      "src": 105247,
+      "dst": 104784
+    },
+    {
+      "relateString": "续集",
+      "src": 105247,
+      "dst": 106504
+    },
+    {
+      "relateString": "前传",
+      "src": 106504,
+      "dst": 105247
+    },
+    {
+      "relateString": "续集",
+      "src": 106504,
+      "dst": 107507
+    },
+    {
+      "relateString": "前传",
+      "src": 107507,
+      "dst": 106504
+    }
+  ]
 }

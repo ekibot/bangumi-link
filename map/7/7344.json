@@ -1,37 +1,35 @@
 {
- "id": 7344,
- "node": [
-  {
-   "id": 7344,
-   "name": "武装神姫バトルマスター",
-   "nameCN": "武装神姬：战斗大师",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/da/7344_T0XZs.jpg",
-   "date": "2010-07-15",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 28301,
-   "name": "武装神姫バトルマスターズ Mk.2",
-   "nameCN": "武装神姬 战斗大师 Mk.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/dd/28301_EUEpq.jpg",
-   "date": "2011-09-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7344,
-   "dst": 28301
-  },
-  {
-   "relate": "前传",
-   "src": 28301,
-   "dst": 7344
-  }
- ]
+  "id": "7344",
+  "node": [
+    {
+      "id": 7344,
+      "name": "武装神姫バトルマスター",
+      "nameCN": "武装神姬：战斗大师",
+      "date": "2010-07-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 28301,
+      "name": "武装神姫バトルマスターズ Mk.2",
+      "nameCN": "武装神姬 战斗大师 Mk.2",
+      "date": "2011-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7344,
+      "dst": 28301
+    },
+    {
+      "relateString": "前传",
+      "src": 28301,
+      "dst": 7344
+    }
+  ]
 }

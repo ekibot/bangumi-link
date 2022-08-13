@@ -1,91 +1,86 @@
 {
- "id": 252119,
- "node": [
-  {
-   "id": 252119,
-   "name": "スプラッターハウス",
-   "nameCN": "腐尸之屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/44/252119_mrsBc.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 252120,
-   "name": "スプラッターハウス PARTII",
-   "nameCN": "腐尸之屋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/0c/252120_1zRAj.jpg",
-   "date": "1992-08-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 252121,
-   "name": "スプラッターハウス PARTIII",
-   "nameCN": "腐尸之屋3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/45/252121_KezEe.jpg",
-   "date": "1993-03-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 260848,
-   "name": "スプラッターハウス わんぱくグラフィティ",
-   "nameCN": "腐尸之屋：顽皮的涂鸦",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/74/260848_Q8188.jpg",
-   "date": "1989-07-31",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 321810,
-   "name": "Splatterhouse",
-   "nameCN": "腐尸之屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/30/321810_I999x.jpg",
-   "date": "2010-11-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 252119,
-   "dst": 252120
-  },
-  {
-   "relate": "不同演绎",
-   "src": 252119,
-   "dst": 321810
-  },
-  {
-   "relate": "前传",
-   "src": 252120,
-   "dst": 252119
-  },
-  {
-   "relate": "续集",
-   "src": 252120,
-   "dst": 252121
-  },
-  {
-   "relate": "前传",
-   "src": 252121,
-   "dst": 252120
-  },
-  {
-   "relate": "主线故事",
-   "src": 260848,
-   "dst": 252119
-  },
-  {
-   "relate": "不同演绎",
-   "src": 321810,
-   "dst": 252119
-  }
- ]
+  "id": "252119",
+  "node": [
+    {
+      "id": 252119,
+      "name": "スプラッターハウス",
+      "nameCN": "腐尸之屋",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 252120,
+      "name": "スプラッターハウス PARTII",
+      "nameCN": "腐尸之屋2",
+      "date": "1992-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321810,
+      "name": "Splatterhouse",
+      "nameCN": "腐尸之屋",
+      "date": "2010-11-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 252121,
+      "name": "スプラッターハウス PARTIII",
+      "nameCN": "腐尸之屋3",
+      "date": "1993-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260848,
+      "name": "スプラッターハウス わんぱくグラフィティ",
+      "nameCN": "腐尸之屋：顽皮的涂鸦",
+      "date": "1989-07-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 252119,
+      "dst": 252120
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 252119,
+      "dst": 321810
+    },
+    {
+      "relateString": "前传",
+      "src": 252120,
+      "dst": 252119
+    },
+    {
+      "relateString": "续集",
+      "src": 252120,
+      "dst": 252121
+    },
+    {
+      "relateString": "前传",
+      "src": 252121,
+      "dst": 252120
+    },
+    {
+      "relateString": "主线故事",
+      "src": 260848,
+      "dst": 252119
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 321810,
+      "dst": 252119
+    }
+  ]
 }

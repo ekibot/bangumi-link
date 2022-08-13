@@ -1,37 +1,35 @@
 {
- "id": 241904,
- "node": [
-  {
-   "id": 241904,
-   "name": "Ben and Ed – Bloodparty",
-   "nameCN": "本与艾德：血腥派对",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/ec/241904_D9gNr.jpg",
-   "date": "2017-05-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 241905,
-   "name": "Ben and Ed",
-   "nameCN": "本与艾德",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/8a/241905_7orb6.jpg",
-   "date": "2015-12-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 241904,
-   "dst": 241905
-  },
-  {
-   "relate": "续集",
-   "src": 241905,
-   "dst": 241904
-  }
- ]
+  "id": "241904",
+  "node": [
+    {
+      "id": 241904,
+      "name": "Ben and Ed – Bloodparty",
+      "nameCN": "本与艾德：血腥派对",
+      "date": "2017-05-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 241905,
+      "name": "Ben and Ed",
+      "nameCN": "本与艾德",
+      "date": "2015-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 241904,
+      "dst": 241905
+    },
+    {
+      "relateString": "续集",
+      "src": 241905,
+      "dst": 241904
+    }
+  ]
 }

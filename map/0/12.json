@@ -1,0 +1,49 @@
+{
+  "id": "12",
+  "node": [
+    {
+      "id": 12,
+      "name": "ちょびっツ",
+      "nameCN": "人形电脑天使心",
+      "date": "2002-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 57933,
+      "name": "ちょびっツ「ちびっツ」",
+      "nameCN": "人形电脑天使心：送东西",
+      "date": "2003-02-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 62538,
+      "name": "ちょびっツ",
+      "nameCN": "人形电脑天使心",
+      "date": "2002-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 12,
+      "dst": 57933
+    },
+    {
+      "relateString": "主线故事",
+      "src": 57933,
+      "dst": 12
+    },
+    {
+      "relateString": "主线故事",
+      "src": 62538,
+      "dst": 12
+    }
+  ]
+}

@@ -1,67 +1,64 @@
 {
- "id": 237150,
- "node": [
-  {
-   "id": 237150,
-   "name": "ロケットナイトアドベンチャーズ",
-   "nameCN": "火箭骑士大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/6c/237150_pZmpt.jpg",
-   "date": "1993-08-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256266,
-   "name": "スパークスター",
-   "nameCN": "火箭骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/83/256266_F48Y4.jpg",
-   "date": "1994-09-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259099,
-   "name": "スパークスター ロケットナイトアドベンチャーズ2",
-   "nameCN": "火箭骑士大冒险2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/4a/259099_Ys0yd.jpg",
-   "date": "1994-02-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 237150,
-   "dst": 256266
-  },
-  {
-   "relate": "续集",
-   "src": 237150,
-   "dst": 259099
-  },
-  {
-   "relate": "前传",
-   "src": 256266,
-   "dst": 237150
-  },
-  {
-   "relate": "不同演绎",
-   "src": 256266,
-   "dst": 259099
-  },
-  {
-   "relate": "前传",
-   "src": 259099,
-   "dst": 237150
-  },
-  {
-   "relate": "不同演绎",
-   "src": 259099,
-   "dst": 256266
-  }
- ]
+  "id": "237150",
+  "node": [
+    {
+      "id": 237150,
+      "name": "ロケットナイトアドベンチャーズ",
+      "nameCN": "火箭骑士大冒险",
+      "date": "1993-08-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256266,
+      "name": "スパークスター",
+      "nameCN": "火箭骑士",
+      "date": "1994-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259099,
+      "name": "スパークスター ロケットナイトアドベンチャーズ2",
+      "nameCN": "火箭骑士大冒险2",
+      "date": "1994-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 237150,
+      "dst": 256266
+    },
+    {
+      "relateString": "续集",
+      "src": 237150,
+      "dst": 259099
+    },
+    {
+      "relateString": "前传",
+      "src": 256266,
+      "dst": 237150
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 256266,
+      "dst": 259099
+    },
+    {
+      "relateString": "前传",
+      "src": 259099,
+      "dst": 237150
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 259099,
+      "dst": 256266
+    }
+  ]
 }

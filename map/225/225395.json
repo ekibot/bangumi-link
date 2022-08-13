@@ -1,55 +1,54 @@
 {
- "id": 225395,
- "node": [
-  {
-   "id": 225395,
-   "name": "女装神社",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/f8/225395_Kc755.jpg",
-   "date": "2019-03-30",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 301159,
-   "name": "女装神話",
-   "nameCN": "女装神话",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/97/301159_1dk5o.jpg",
-   "date": "2020-07-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 343053,
-   "name": "女装創世記",
-   "nameCN": "女装创世记",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/4e/343053_ZFi8M.jpg",
-   "date": "2021-09-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225395,
-   "dst": 301159
-  },
-  {
-   "relate": "前传",
-   "src": 301159,
-   "dst": 225395
-  },
-  {
-   "relate": "续集",
-   "src": 301159,
-   "dst": 343053
-  },
-  {
-   "relate": "前传",
-   "src": 343053,
-   "dst": 301159
-  }
- ]
+  "id": "225395",
+  "node": [
+    {
+      "id": 225395,
+      "name": "女装神社",
+      "nameCN": "",
+      "date": "2019-03-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301159,
+      "name": "女装神話",
+      "nameCN": "女装神话",
+      "date": "2020-07-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 343053,
+      "name": "女装創世記",
+      "nameCN": "女装创世记",
+      "date": "2021-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225395,
+      "dst": 301159
+    },
+    {
+      "relateString": "前传",
+      "src": 301159,
+      "dst": 225395
+    },
+    {
+      "relateString": "续集",
+      "src": 301159,
+      "dst": 343053
+    },
+    {
+      "relateString": "前传",
+      "src": 343053,
+      "dst": 301159
+    }
+  ]
 }

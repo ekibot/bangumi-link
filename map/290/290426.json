@@ -1,37 +1,35 @@
 {
- "id": 290426,
- "node": [
-  {
-   "id": 290426,
-   "name": "魔王城でおやすみ",
-   "nameCN": "在魔王城说晚安",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/c3/290426_165P5.jpg",
-   "date": "2020-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 318509,
-   "name": "魔王城でおやすみ ミニアニメ",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/d3/318509_ZVVXi.jpg",
-   "date": "2020-10-08",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 290426,
-   "dst": 318509
-  },
-  {
-   "relate": "主线故事",
-   "src": 318509,
-   "dst": 290426
-  }
- ]
+  "id": "290426",
+  "node": [
+    {
+      "id": 290426,
+      "name": "魔王城でおやすみ",
+      "nameCN": "在魔王城说晚安",
+      "date": "2020-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 318509,
+      "name": "魔王城でおやすみ ミニアニメ",
+      "nameCN": "",
+      "date": "2020-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 290426,
+      "dst": 318509
+    },
+    {
+      "relateString": "主线故事",
+      "src": 318509,
+      "dst": 290426
+    }
+  ]
 }

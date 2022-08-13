@@ -1,29 +1,35 @@
 {
- "id": 256595,
- "node": [
-  {
-   "id": 256595,
-   "name": "pieces/渡り鳥のソムニウム",
-   "image": "/img/no_icon_subject.png",
-   "date": "2019-03-29"
-  },
-  {
-   "id": 297848,
-   "name": "pieces/揺り籠のカナリア",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-05-29"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 256595,
-   "dst": 297848
-  },
-  {
-   "relate": "前传",
-   "src": 297848,
-   "dst": 256595
-  }
- ]
+  "id": "256595",
+  "node": [
+    {
+      "id": 256595,
+      "name": "pieces/渡り鳥のソムニウム",
+      "nameCN": "pieces/候鸟的梦",
+      "date": "2019-03-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 297848,
+      "name": "pieces/揺り籠のカナリア",
+      "nameCN": "",
+      "date": "2020-05-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 256595,
+      "dst": 297848
+    },
+    {
+      "relateString": "前传",
+      "src": 297848,
+      "dst": 256595
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 132212,
- "node": [
-  {
-   "id": 132212,
-   "name": "SUPER LOVERS",
-   "nameCN": "超级恋人",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/fd/132212_79Cpc.jpg",
-   "date": "2016-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 174318,
-   "name": "SUPER LOVERS OAD",
-   "nameCN": "超级恋人 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/85/174318_99c1T.jpg",
-   "date": "2017-01-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 184727,
-   "name": "SUPER LOVERS 2",
-   "nameCN": "超级恋人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/15/184727_6H58n.jpg",
-   "date": "2017-01-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 132212,
-   "dst": 174318
-  },
-  {
-   "relate": "续集",
-   "src": 132212,
-   "dst": 184727
-  },
-  {
-   "relate": "主线故事",
-   "src": 174318,
-   "dst": 132212
-  },
-  {
-   "relate": "前传",
-   "src": 184727,
-   "dst": 132212
-  }
- ]
+  "id": "132212",
+  "node": [
+    {
+      "id": 132212,
+      "name": "SUPER LOVERS",
+      "nameCN": "超级恋人",
+      "date": "2016-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 174318,
+      "name": "SUPER LOVERS OAD",
+      "nameCN": "超级恋人 OAD",
+      "date": "2017-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 184727,
+      "name": "SUPER LOVERS 2",
+      "nameCN": "超级恋人 第二季",
+      "date": "2017-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 132212,
+      "dst": 174318
+    },
+    {
+      "relateString": "续集",
+      "src": 132212,
+      "dst": 184727
+    },
+    {
+      "relateString": "主线故事",
+      "src": 174318,
+      "dst": 132212
+    },
+    {
+      "relateString": "前传",
+      "src": 184727,
+      "dst": 132212
+    }
+  ]
 }

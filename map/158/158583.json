@@ -1,57 +1,54 @@
 {
- "id": 158583,
- "node": [
-  {
-   "id": 158583,
-   "name": "バード 〜砂漠の勝負師〜",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 158588,
-   "name": "バード 〜最凶雀士VS天才魔術師〜",
-   "date": "2011-07-07",
-   "image": "",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 158592,
-   "name": "バード 〜雀界天使VS天才魔術師〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/7a/158592_jp.jpg",
-   "date": "2012-07-06",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158583,
-   "dst": 158588
-  },
-  {
-   "relate": "前传",
-   "src": 158588,
-   "dst": 158583
-  },
-  {
-   "relate": "续集",
-   "src": 158588,
-   "dst": 158592
-  },
-  {
-   "relate": "前传",
-   "src": 158592,
-   "dst": 158588
-  }
- ]
+  "id": "158583",
+  "node": [
+    {
+      "id": 158583,
+      "name": "バード 〜砂漠の勝負師〜",
+      "nameCN": "",
+      "date": "2000-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 158588,
+      "name": "バード 〜最凶雀士VS天才魔術師〜",
+      "nameCN": "",
+      "date": "2011-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 158592,
+      "name": "バード 〜雀界天使VS天才魔術師〜",
+      "nameCN": "",
+      "date": "2012-07-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158583,
+      "dst": 158588
+    },
+    {
+      "relateString": "前传",
+      "src": 158588,
+      "dst": 158583
+    },
+    {
+      "relateString": "续集",
+      "src": 158588,
+      "dst": 158592
+    },
+    {
+      "relateString": "前传",
+      "src": 158592,
+      "dst": 158588
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 204672,
- "node": [
-  {
-   "id": 204672,
-   "name": "モンプチ",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/cf/204672_Yz4yQ.jpg",
-   "date": "2005-12-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 204674,
-   "name": "モンプチ２",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/b1/204674_RcUkg.jpg",
-   "date": "2007-04-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 204672,
-   "dst": 204674
-  },
-  {
-   "relate": "前传",
-   "src": 204674,
-   "dst": 204672
-  }
- ]
+  "id": "204672",
+  "node": [
+    {
+      "id": 204672,
+      "name": "モンプチ",
+      "nameCN": "",
+      "date": "2005-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 204674,
+      "name": "モンプチ２",
+      "nameCN": "",
+      "date": "2007-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 204672,
+      "dst": 204674
+    },
+    {
+      "relateString": "前传",
+      "src": 204674,
+      "dst": 204672
+    }
+  ]
 }

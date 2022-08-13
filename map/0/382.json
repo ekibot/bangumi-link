@@ -1,57 +1,53 @@
 {
- "id": 382,
- "node": [
-  {
-   "id": 382,
-   "name": "火垂るの墓",
-   "nameCN": "萤火虫之墓",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/6f/382_MjyM2.jpg",
-   "date": "1988-04-16",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 122477,
-   "name": "火垂るの墓",
-   "nameCN": "萤火虫之墓",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/63/122477_mb9w4.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 285455,
-   "name": "火垂るの墓 ―ほたるのはか―",
-   "nameCN": "萤火虫之墓",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/4f/285455_Lwi5d.jpg",
-   "date": "2005-11-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 382,
-   "dst": 285455
-  },
-  {
-   "relate": "不同演绎",
-   "src": 122477,
-   "dst": 285455
-  },
-  {
-   "relate": "不同演绎",
-   "src": 285455,
-   "dst": 382
-  },
-  {
-   "relate": "不同演绎",
-   "src": 285455,
-   "dst": 122477
-  }
- ]
+  "id": "382",
+  "node": [
+    {
+      "id": 382,
+      "name": "火垂るの墓",
+      "nameCN": "萤火虫之墓",
+      "date": "1988-04-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 285455,
+      "name": "火垂るの墓 ―ほたるのはか―",
+      "nameCN": "萤火虫之墓",
+      "date": "2005-11-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 122477,
+      "name": "火垂るの墓",
+      "nameCN": "萤火虫之墓",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 382,
+      "dst": 285455
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 122477,
+      "dst": 285455
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 285455,
+      "dst": 382
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 285455,
+      "dst": 122477
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 43075,
- "node": [
-  {
-   "id": 43075,
-   "name": "どきどき魔女神判",
-   "nameCN": "心跳魔女神判",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/7e/43075_a3593.jpg",
-   "date": "2007-07-05",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 77822,
-   "name": "どきどき魔女神判2",
-   "nameCN": "心跳魔女神判2",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/b5/77822_fSbfl.jpg",
-   "date": "2008-07-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  },
-  {
-   "id": 97849,
-   "name": "どき魔女ぷらす",
-   "nameCN": "心跳魔女 Plus",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/df/97849_EqisD.jpg",
-   "date": "2009-07-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43075,
-   "dst": 77822
-  },
-  {
-   "relate": "不同演绎",
-   "src": 43075,
-   "dst": 97849
-  },
-  {
-   "relate": "前传",
-   "src": 77822,
-   "dst": 43075
-  },
-  {
-   "relate": "续集",
-   "src": 77822,
-   "dst": 97849
-  },
-  {
-   "relate": "不同演绎",
-   "src": 97849,
-   "dst": 43075
-  },
-  {
-   "relate": "前传",
-   "src": 97849,
-   "dst": 77822
-  }
- ]
+  "id": "43075",
+  "node": [
+    {
+      "id": 43075,
+      "name": "どきどき魔女神判",
+      "nameCN": "心跳魔女神判",
+      "date": "2007-07-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 77822,
+      "name": "どきどき魔女神判2",
+      "nameCN": "心跳魔女神判2",
+      "date": "2008-07-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 97849,
+      "name": "どき魔女ぷらす",
+      "nameCN": "心跳魔女 Plus",
+      "date": "2009-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43075,
+      "dst": 77822
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 43075,
+      "dst": 97849
+    },
+    {
+      "relateString": "前传",
+      "src": 77822,
+      "dst": 43075
+    },
+    {
+      "relateString": "续集",
+      "src": 77822,
+      "dst": 97849
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 97849,
+      "dst": 43075
+    },
+    {
+      "relateString": "前传",
+      "src": 97849,
+      "dst": 77822
+    }
+  ]
 }

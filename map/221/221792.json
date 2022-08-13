@@ -1,37 +1,34 @@
 {
- "id": 221792,
- "node": [
-  {
-   "id": 221792,
-   "name": "一品芝麻狐",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/f6/221792_VaBy9.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 221794,
-   "name": "一品芝麻狐2·探林卷",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/b3/221794_9DU54.jpg",
-   "date": "2016-07-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 221792,
-   "dst": 221794
-  },
-  {
-   "relate": "前传",
-   "src": 221794,
-   "dst": 221792
-  }
- ]
+  "id": "221792",
+  "node": [
+    {
+      "id": 221792,
+      "name": "一品芝麻狐",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 221794,
+      "name": "一品芝麻狐2·探林卷",
+      "nameCN": "",
+      "date": "2016-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 221792,
+      "dst": 221794
+    },
+    {
+      "relateString": "前传",
+      "src": 221794,
+      "dst": 221792
+    }
+  ]
 }

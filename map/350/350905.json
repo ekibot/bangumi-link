@@ -1,37 +1,35 @@
 {
- "id": 350905,
- "node": [
-  {
-   "id": 350905,
-   "name": "Blazing Angels: Squadrons of WWII",
-   "nameCN": "炽天使：二战空骑兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/4b/350905_4J1S6.jpg",
-   "date": "2006-03-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 350908,
-   "name": "Blazing Angels 2: Secret Missions of WWII",
-   "nameCN": "炽天使2：秘密任务",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/a2/350908_7em7W.jpg",
-   "date": "2007-09-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 350905,
-   "dst": 350908
-  },
-  {
-   "relate": "前传",
-   "src": 350908,
-   "dst": 350905
-  }
- ]
+  "id": "350905",
+  "node": [
+    {
+      "id": 350905,
+      "name": "Blazing Angels: Squadrons of WWII",
+      "nameCN": "炽天使：二战空骑兵",
+      "date": "2006-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350908,
+      "name": "Blazing Angels 2: Secret Missions of WWII",
+      "nameCN": "炽天使2：秘密任务",
+      "date": "2007-09-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 350905,
+      "dst": 350908
+    },
+    {
+      "relateString": "前传",
+      "src": 350908,
+      "dst": 350905
+    }
+  ]
 }

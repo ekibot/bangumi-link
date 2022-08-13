@@ -1,37 +1,34 @@
 {
- "id": 7246,
- "node": [
-  {
-   "id": 7246,
-   "name": "V Season 1",
-   "nameCN": "V星入侵 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/40/7246_Uqy7f.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 10841,
-   "name": "V Season 2",
-   "nameCN": "V星入侵 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/cc/10841_s22Hh.jpg",
-   "date": "2011-01-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7246,
-   "dst": 10841
-  },
-  {
-   "relate": "前传",
-   "src": 10841,
-   "dst": 7246
-  }
- ]
+  "id": "7246",
+  "node": [
+    {
+      "id": 7246,
+      "name": "V Season 1",
+      "nameCN": "V星入侵 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 10841,
+      "name": "V Season 2",
+      "nameCN": "V星入侵 第二季",
+      "date": "2011-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7246,
+      "dst": 10841
+    },
+    {
+      "relateString": "前传",
+      "src": 10841,
+      "dst": 7246
+    }
+  ]
 }

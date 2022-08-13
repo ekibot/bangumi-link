@@ -1,28 +1,54 @@
 {
- "id": 32391,
- "node": [
-  {
-   "id": 32391,
-   "name": "少女神域∽少女天獄 -The Garden of Fifth Zoa-",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/6e/32391_7CP7a.jpg",
-   "date": "2013-04-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 144506,
-   "name": "乱れ雪月華 ～儚く散る細雪～",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/42/144506_te9RT.jpg",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 32391,
-   "dst": 144506
-  }
- ]
+  "id": "32391",
+  "node": [
+    {
+      "id": 32391,
+      "name": "少女神域∽少女天獄 -The Garden of Fifth Zoa-",
+      "nameCN": "",
+      "date": "2013-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 144506,
+      "name": "乱れ雪月華 ～儚く散る細雪～",
+      "nameCN": "",
+      "date": "2015-11-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 183008,
+      "name": "乱れ雪月華 ～月夜の淫舞、狂気の契り～",
+      "nameCN": "",
+      "date": "2016-08-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 32391,
+      "dst": 144506
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 144506,
+      "dst": 32391
+    },
+    {
+      "relateString": "续集",
+      "src": 144506,
+      "dst": 183008
+    },
+    {
+      "relateString": "前传",
+      "src": 183008,
+      "dst": 144506
+    }
+  ]
 }

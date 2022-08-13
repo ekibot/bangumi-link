@@ -1,37 +1,35 @@
 {
- "id": 67373,
- "node": [
-  {
-   "id": 67373,
-   "name": "大図書館の羊飼い",
-   "nameCN": "大图书馆的牧羊人",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/f9/67373_PniL6.jpg",
-   "date": "2014-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 192769,
-   "name": "大図書館の羊飼い THE RADIO",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/ab/192769_lKj3R.jpg",
-   "date": "2014-09-10",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 67373,
-   "dst": 192769
-  },
-  {
-   "relate": "衍生",
-   "src": 192769,
-   "dst": 67373
-  }
- ]
+  "id": "67373",
+  "node": [
+    {
+      "id": 67373,
+      "name": "大図書館の羊飼い",
+      "nameCN": "大图书馆的牧羊人",
+      "date": "2014-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 192769,
+      "name": "大図書館の羊飼い THE RADIO",
+      "nameCN": "",
+      "date": "2014-09-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 67373,
+      "dst": 192769
+    },
+    {
+      "relateString": "衍生",
+      "src": 192769,
+      "dst": 67373
+    }
+  ]
 }

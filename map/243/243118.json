@@ -1,37 +1,35 @@
 {
- "id": 243118,
- "node": [
-  {
-   "id": 243118,
-   "name": "恋 私立櫻丘学園寮",
-   "nameCN": "情恋樱丘男子寮",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/b0/243118_TX6Fr.jpg",
-   "date": "2006-04-24",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 243731,
-   "name": "私立櫻丘学園高等寮",
-   "nameCN": "情恋樱丘男子寮",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/f6/243731_dow10.jpg",
-   "date": "2005-06-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 243118,
-   "dst": 243731
-  },
-  {
-   "relate": "续集",
-   "src": 243731,
-   "dst": 243118
-  }
- ]
+  "id": "243118",
+  "node": [
+    {
+      "id": 243118,
+      "name": "恋 私立櫻丘学園寮",
+      "nameCN": "情恋樱丘男子寮",
+      "date": "2006-04-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 243731,
+      "name": "私立櫻丘学園高等寮",
+      "nameCN": "情恋樱丘男子寮",
+      "date": "2005-06-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 243118,
+      "dst": 243731
+    },
+    {
+      "relateString": "续集",
+      "src": 243731,
+      "dst": 243118
+    }
+  ]
 }

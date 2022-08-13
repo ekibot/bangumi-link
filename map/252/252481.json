@@ -1,37 +1,33 @@
 {
- "id": 252481,
- "node": [
-  {
-   "id": 252481,
-   "name": "メイクアップスペシャルNo.1デートをしよう",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/43/252481_gpgOB.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 252483,
-   "name": "メイクアップスペシャルNO.1",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/a7/252483_5s2Js.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 252481,
-   "dst": 252483
-  },
-  {
-   "relate": "续集",
-   "src": 252483,
-   "dst": 252481
-  }
- ]
+  "id": "252481",
+  "node": [
+    {
+      "id": 252481,
+      "name": "メイクアップスペシャルNo.1デートをしよう",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 252483,
+      "name": "メイクアップスペシャルNO.1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 252481,
+      "dst": 252483
+    },
+    {
+      "relateString": "续集",
+      "src": 252483,
+      "dst": 252481
+    }
+  ]
 }

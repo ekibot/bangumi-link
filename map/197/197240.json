@@ -1,37 +1,35 @@
 {
- "id": 197240,
- "node": [
-  {
-   "id": 197240,
-   "name": "Dirk Gently's Holistic Detective Agency Season 1",
-   "nameCN": "全能侦探社 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/85/197240_X0Szq.jpg",
-   "date": "2016-10-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 227599,
-   "name": "Dirk Gently's Holistic Detective Agency Season 2",
-   "nameCN": "全能侦探社 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/6e/227599_N5d0E.jpg",
-   "date": "2017-10-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 197240,
-   "dst": 227599
-  },
-  {
-   "relate": "前传",
-   "src": 227599,
-   "dst": 197240
-  }
- ]
+  "id": "197240",
+  "node": [
+    {
+      "id": 197240,
+      "name": "Dirk Gently's Holistic Detective Agency Season 1",
+      "nameCN": "全能侦探社 第一季",
+      "date": "2016-10-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 227599,
+      "name": "Dirk Gently's Holistic Detective Agency Season 2",
+      "nameCN": "全能侦探社 第二季",
+      "date": "2017-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 197240,
+      "dst": 227599
+    },
+    {
+      "relateString": "前传",
+      "src": 227599,
+      "dst": 197240
+    }
+  ]
 }

@@ -1,57 +1,52 @@
 {
- "id": 31005,
- "node": [
-  {
-   "id": 31005,
-   "name": "合法ドラッグ",
-   "nameCN": "合法禁药",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/8f/31005_xXbj5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 59526,
-   "name": "ドラッグ&amp;ドロップ",
-   "nameCN": "DRUG &amp; DROP",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/cb/59526_4MfNJ.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 155714,
-   "name": "すき。だからすき",
-   "nameCN": "喜欢所以喜欢",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/47/155714_wRtmF.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 31005,
-   "dst": 59526
-  },
-  {
-   "relate": "相同世界观",
-   "src": 31005,
-   "dst": 155714
-  },
-  {
-   "relate": "前传",
-   "src": 59526,
-   "dst": 31005
-  },
-  {
-   "relate": "相同世界观",
-   "src": 155714,
-   "dst": 31005
-  }
- ]
+  "id": "31005",
+  "node": [
+    {
+      "id": 31005,
+      "name": "合法ドラッグ",
+      "nameCN": "合法禁药",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 59526,
+      "name": "ドラッグ&amp;ドロップ",
+      "nameCN": "DRUG &amp; DROP",
+      "date": "2011-11-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155714,
+      "name": "すき。だからすき",
+      "nameCN": "喜欢所以喜欢",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 31005,
+      "dst": 59526
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 31005,
+      "dst": 155714
+    },
+    {
+      "relateString": "前传",
+      "src": 59526,
+      "dst": 31005
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 155714,
+      "dst": 31005
+    }
+  ]
 }

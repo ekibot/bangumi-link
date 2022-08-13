@@ -1,37 +1,35 @@
 {
- "id": 23683,
- "node": [
-  {
-   "id": 23683,
-   "name": "めだかボックス",
-   "nameCN": "最强会长黑神",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/3f/23683_W4HW4.jpg",
-   "date": "2012-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 42741,
-   "name": "めだかボックス アブノーマル",
-   "nameCN": "最强会长黑神 Abnormal",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/26/42741_ipkTo.jpg",
-   "date": "2012-10-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23683,
-   "dst": 42741
-  },
-  {
-   "relate": "前传",
-   "src": 42741,
-   "dst": 23683
-  }
- ]
+  "id": "23683",
+  "node": [
+    {
+      "id": 23683,
+      "name": "めだかボックス",
+      "nameCN": "最强会长黑神",
+      "date": "2012-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 42741,
+      "name": "めだかボックス アブノーマル",
+      "nameCN": "最强会长黑神 Abnormal",
+      "date": "2012-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23683,
+      "dst": 42741
+    },
+    {
+      "relateString": "前传",
+      "src": 42741,
+      "dst": 23683
+    }
+  ]
 }

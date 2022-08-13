@@ -1,137 +1,124 @@
 {
- "id": 8475,
- "node": [
-  {
-   "id": 8475,
-   "name": "The West Wing Season 1",
-   "nameCN": "白宫风云 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/e4/8475_54j6o.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 8686,
-   "name": "The West Wing Season 2",
-   "nameCN": "白宫风云 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/41/8686_22Vv9.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100673,
-   "name": "The West Wing Season 3",
-   "nameCN": "白宫风云 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/0c/100673_7S10O.jpg",
-   "date": "2001-10-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100677,
-   "name": "The West Wing Season 4",
-   "nameCN": "白宫风云 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/93/100677_eBe8z.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100680,
-   "name": "The West Wing Season 5",
-   "nameCN": "白宫风云 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/c3/100680_ed7Tn.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100681,
-   "name": "The West Wing Season 6",
-   "nameCN": "白宫风云 第六季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/96/100681_UuJ5y.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100682,
-   "name": "The West Wing Season 7",
-   "nameCN": "白宫风云 第七季",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/51/100682_2XLLP.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8475,
-   "dst": 8686
-  },
-  {
-   "relate": "前传",
-   "src": 8686,
-   "dst": 8475
-  },
-  {
-   "relate": "续集",
-   "src": 8686,
-   "dst": 100673
-  },
-  {
-   "relate": "前传",
-   "src": 100673,
-   "dst": 8686
-  },
-  {
-   "relate": "续集",
-   "src": 100673,
-   "dst": 100677
-  },
-  {
-   "relate": "前传",
-   "src": 100677,
-   "dst": 100673
-  },
-  {
-   "relate": "续集",
-   "src": 100677,
-   "dst": 100680
-  },
-  {
-   "relate": "前传",
-   "src": 100680,
-   "dst": 100677
-  },
-  {
-   "relate": "续集",
-   "src": 100680,
-   "dst": 100681
-  },
-  {
-   "relate": "前传",
-   "src": 100681,
-   "dst": 100680
-  },
-  {
-   "relate": "续集",
-   "src": 100681,
-   "dst": 100682
-  },
-  {
-   "relate": "前传",
-   "src": 100682,
-   "dst": 100681
-  }
- ]
+  "id": "8475",
+  "node": [
+    {
+      "id": 8475,
+      "name": "The West Wing Season 1",
+      "nameCN": "白宫风云 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 8686,
+      "name": "The West Wing Season 2",
+      "nameCN": "白宫风云 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100673,
+      "name": "The West Wing Season 3",
+      "nameCN": "白宫风云 第三季",
+      "date": "2001-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100677,
+      "name": "The West Wing Season 4",
+      "nameCN": "白宫风云 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100680,
+      "name": "The West Wing Season 5",
+      "nameCN": "白宫风云 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100681,
+      "name": "The West Wing Season 6",
+      "nameCN": "白宫风云 第六季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100682,
+      "name": "The West Wing Season 7",
+      "nameCN": "白宫风云 第七季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8475,
+      "dst": 8686
+    },
+    {
+      "relateString": "前传",
+      "src": 8686,
+      "dst": 8475
+    },
+    {
+      "relateString": "续集",
+      "src": 8686,
+      "dst": 100673
+    },
+    {
+      "relateString": "前传",
+      "src": 100673,
+      "dst": 8686
+    },
+    {
+      "relateString": "续集",
+      "src": 100673,
+      "dst": 100677
+    },
+    {
+      "relateString": "前传",
+      "src": 100677,
+      "dst": 100673
+    },
+    {
+      "relateString": "续集",
+      "src": 100677,
+      "dst": 100680
+    },
+    {
+      "relateString": "前传",
+      "src": 100680,
+      "dst": 100677
+    },
+    {
+      "relateString": "续集",
+      "src": 100680,
+      "dst": 100681
+    },
+    {
+      "relateString": "前传",
+      "src": 100681,
+      "dst": 100680
+    },
+    {
+      "relateString": "续集",
+      "src": 100681,
+      "dst": 100682
+    },
+    {
+      "relateString": "前传",
+      "src": 100682,
+      "dst": 100681
+    }
+  ]
 }

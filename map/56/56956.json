@@ -1,37 +1,35 @@
 {
- "id": 56956,
- "node": [
-  {
-   "id": 56956,
-   "name": "Doodle Jump",
-   "nameCN": "涂鸦跳跃",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/8d/56956_Sop63.jpg",
-   "date": "2009-04-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 355121,
-   "name": "Doodle Jump 2",
-   "nameCN": "涂鸦跳跃2",
-   "date": "2020-12-20",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/f1/355121_i0H0B.jpg",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56956,
-   "dst": 355121
-  },
-  {
-   "relate": "前传",
-   "src": 355121,
-   "dst": 56956
-  }
- ]
+  "id": "56956",
+  "node": [
+    {
+      "id": 56956,
+      "name": "Doodle Jump",
+      "nameCN": "涂鸦跳跃",
+      "date": "2009-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 355121,
+      "name": "Doodle Jump 2",
+      "nameCN": "涂鸦跳跃2",
+      "date": "2020-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56956,
+      "dst": 355121
+    },
+    {
+      "relateString": "前传",
+      "src": 355121,
+      "dst": 56956
+    }
+  ]
 }

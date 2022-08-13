@@ -1,57 +1,51 @@
 {
- "id": 122869,
- "node": [
-  {
-   "id": 122869,
-   "name": "Pretentious Game",
-   "nameCN": "方块之恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/5b/122869_C3P0q.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 122870,
-   "name": "Pretentious Game 2",
-   "nameCN": "方块之恋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/cc/122870_9p2R9.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122873,
-   "name": "Pretentious Game 3",
-   "nameCN": "方块之恋3",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/0e/122873_rY8yb.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122869,
-   "dst": 122870
-  },
-  {
-   "relate": "前传",
-   "src": 122870,
-   "dst": 122869
-  },
-  {
-   "relate": "续集",
-   "src": 122870,
-   "dst": 122873
-  },
-  {
-   "relate": "前传",
-   "src": 122873,
-   "dst": 122870
-  }
- ]
+  "id": "122869",
+  "node": [
+    {
+      "id": 122869,
+      "name": "Pretentious Game",
+      "nameCN": "方块之恋",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122870,
+      "name": "Pretentious Game 2",
+      "nameCN": "方块之恋2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122873,
+      "name": "Pretentious Game 3",
+      "nameCN": "方块之恋3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122869,
+      "dst": 122870
+    },
+    {
+      "relateString": "前传",
+      "src": 122870,
+      "dst": 122869
+    },
+    {
+      "relateString": "续集",
+      "src": 122870,
+      "dst": 122873
+    },
+    {
+      "relateString": "前传",
+      "src": 122873,
+      "dst": 122870
+    }
+  ]
 }

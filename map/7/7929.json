@@ -1,37 +1,35 @@
 {
- "id": 7929,
- "node": [
-  {
-   "id": 7929,
-   "name": "マスターモスキートン",
-   "nameCN": "爆笑吸血鬼 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/d2/7929_CJ7Nc.jpg",
-   "date": "1996-11-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 22967,
-   "name": "マスターモスキートン'99",
-   "nameCN": "爆笑吸血鬼 99",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/dc/22967_IabUO.jpg",
-   "date": "1997-09-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7929,
-   "dst": 22967
-  },
-  {
-   "relate": "前传",
-   "src": 22967,
-   "dst": 7929
-  }
- ]
+  "id": "7929",
+  "node": [
+    {
+      "id": 7929,
+      "name": "マスターモスキートン",
+      "nameCN": "爆笑吸血鬼 OVA",
+      "date": "1996-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 22967,
+      "name": "マスターモスキートン'99",
+      "nameCN": "爆笑吸血鬼 99",
+      "date": "1997-09-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7929,
+      "dst": 22967
+    },
+    {
+      "relateString": "前传",
+      "src": 22967,
+      "dst": 7929
+    }
+  ]
 }

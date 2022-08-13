@@ -1,57 +1,54 @@
 {
- "id": 12814,
- "node": [
-  {
-   "id": 12814,
-   "name": "戦国無双 Chronicle",
-   "nameCN": "战国无双 编年史",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/6e/12814_5m74u.jpg",
-   "date": "2011-02-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 40540,
-   "name": "戦国無双 Chronicle 2nd",
-   "nameCN": "战国无双 编年史 2nd",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/ae/40540_mAH0C.jpg",
-   "date": "2012-09-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 110375,
-   "name": "戦国無双 Chronicle 3",
-   "nameCN": "战国无双 编年史3",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/94/110375_tR57R.jpg",
-   "date": "2014-12-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12814,
-   "dst": 40540
-  },
-  {
-   "relate": "前传",
-   "src": 40540,
-   "dst": 12814
-  },
-  {
-   "relate": "续集",
-   "src": 40540,
-   "dst": 110375
-  },
-  {
-   "relate": "前传",
-   "src": 110375,
-   "dst": 40540
-  }
- ]
+  "id": "12814",
+  "node": [
+    {
+      "id": 12814,
+      "name": "戦国無双 Chronicle",
+      "nameCN": "战国无双 编年史",
+      "date": "2011-02-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 40540,
+      "name": "戦国無双 Chronicle 2nd",
+      "nameCN": "战国无双 编年史 2nd",
+      "date": "2012-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 110375,
+      "name": "戦国無双 Chronicle 3",
+      "nameCN": "战国无双 编年史3",
+      "date": "2014-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12814,
+      "dst": 40540
+    },
+    {
+      "relateString": "前传",
+      "src": 40540,
+      "dst": 12814
+    },
+    {
+      "relateString": "续集",
+      "src": 40540,
+      "dst": 110375
+    },
+    {
+      "relateString": "前传",
+      "src": 110375,
+      "dst": 40540
+    }
+  ]
 }

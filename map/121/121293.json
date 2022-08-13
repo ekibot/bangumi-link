@@ -1,77 +1,70 @@
 {
- "id": 121293,
- "node": [
-  {
-   "id": 121293,
-   "name": "エルフを狩るモノたち",
-   "nameCN": "妖精狩猎者",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/95/121293_Mmoi7.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 121296,
-   "name": "エルフを狩るモノたちDX",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/2f/121296_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 121317,
-   "name": "エルフを狩るモノたちリターンズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/d9/121317_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 121321,
-   "name": "エルフを狩るモノたち2",
-   "nameCN": "妖精狩猎者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/b0/121321_Imwan.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 121293,
-   "dst": 121296
-  },
-  {
-   "relate": "续集",
-   "src": 121293,
-   "dst": 121317
-  },
-  {
-   "relate": "主线故事",
-   "src": 121296,
-   "dst": 121293
-  },
-  {
-   "relate": "前传",
-   "src": 121317,
-   "dst": 121293
-  },
-  {
-   "relate": "续集",
-   "src": 121317,
-   "dst": 121321
-  },
-  {
-   "relate": "前传",
-   "src": 121321,
-   "dst": 121317
-  }
- ]
+  "id": "121293",
+  "node": [
+    {
+      "id": 121293,
+      "name": "エルフを狩るモノたち",
+      "nameCN": "妖精狩猎者",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121296,
+      "name": "エルフを狩るモノたちDX",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121317,
+      "name": "エルフを狩るモノたちリターンズ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121321,
+      "name": "エルフを狩るモノたち2",
+      "nameCN": "妖精狩猎者2",
+      "date": "2013-01-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 121293,
+      "dst": 121296
+    },
+    {
+      "relateString": "续集",
+      "src": 121293,
+      "dst": 121317
+    },
+    {
+      "relateString": "主线故事",
+      "src": 121296,
+      "dst": 121293
+    },
+    {
+      "relateString": "前传",
+      "src": 121317,
+      "dst": 121293
+    },
+    {
+      "relateString": "续集",
+      "src": 121317,
+      "dst": 121321
+    },
+    {
+      "relateString": "前传",
+      "src": 121321,
+      "dst": 121317
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 147257,
- "node": [
-  {
-   "id": 147257,
-   "name": "鏡の中のオルゴール ひとつめの物語 [THUMBELINA]",
-   "nameCN": "镜中八音盒：第一个物语 [THUMBELINA]",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/b0/147257_8a4G3.jpg",
-   "date": "2003-06-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 147258,
-   "name": "鏡の中のオルゴール ふたつめの物語 [SNOW WHITE]",
-   "nameCN": "镜中八音盒：第二个物语 [SNOW WHITE]",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/07/147258_QkQL9.jpg",
-   "date": "2003-07-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 224747,
-   "name": "鏡の中のオルゴール みっつめの物語 Haensel und Gretel",
-   "nameCN": "镜中八音盒：第三个物语 [Haensel und Gretel]",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/02/224747_iZY88.jpg",
-   "date": "2003-09-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147257,
-   "dst": 147258
-  },
-  {
-   "relate": "前传",
-   "src": 147258,
-   "dst": 147257
-  },
-  {
-   "relate": "续集",
-   "src": 147258,
-   "dst": 224747
-  },
-  {
-   "relate": "前传",
-   "src": 224747,
-   "dst": 147258
-  }
- ]
+  "id": "147257",
+  "node": [
+    {
+      "id": 147257,
+      "name": "鏡の中のオルゴール ひとつめの物語 [THUMBELINA]",
+      "nameCN": "镜中八音盒：第一个物语 [THUMBELINA]",
+      "date": "2003-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 147258,
+      "name": "鏡の中のオルゴール ふたつめの物語 [SNOW WHITE]",
+      "nameCN": "镜中八音盒：第二个物语 [SNOW WHITE]",
+      "date": "2003-07-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224747,
+      "name": "鏡の中のオルゴール みっつめの物語 Haensel und Gretel",
+      "nameCN": "镜中八音盒：第三个物语 [Haensel und Gretel]",
+      "date": "2003-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147257,
+      "dst": 147258
+    },
+    {
+      "relateString": "前传",
+      "src": 147258,
+      "dst": 147257
+    },
+    {
+      "relateString": "续集",
+      "src": 147258,
+      "dst": 224747
+    },
+    {
+      "relateString": "前传",
+      "src": 224747,
+      "dst": 147258
+    }
+  ]
 }

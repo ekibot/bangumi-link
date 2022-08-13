@@ -1,37 +1,33 @@
 {
- "id": 111059,
- "node": [
-  {
-   "id": 111059,
-   "name": "はてな☆イリュージョン",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/64/111059_6APAD.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 303115,
-   "name": "はてな☆イリュージョンR",
-   "nameCN": "奇幻☆怪盗R",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/c0/303115_oAUA8.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111059,
-   "dst": 303115
-  },
-  {
-   "relate": "前传",
-   "src": 303115,
-   "dst": 111059
-  }
- ]
+  "id": "111059",
+  "node": [
+    {
+      "id": 111059,
+      "name": "はてな☆イリュージョン",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 303115,
+      "name": "はてな☆イリュージョンR",
+      "nameCN": "奇幻☆怪盗R",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111059,
+      "dst": 303115
+    },
+    {
+      "relateString": "前传",
+      "src": 303115,
+      "dst": 111059
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 75626,
- "node": [
-  {
-   "id": 75626,
-   "name": "サンクチュアリ",
-   "nameCN": "圣堂教父",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/b5/75626_ay74D.jpg",
-   "date": "1996-05-01",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 290688,
-   "name": "サンクチュアリ",
-   "nameCN": "圣堂教父",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/19/290688_tfUmT.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 75626,
-   "dst": 290688
-  },
-  {
-   "relate": "不同演绎",
-   "src": 290688,
-   "dst": 75626
-  }
- ]
+  "id": "75626",
+  "node": [
+    {
+      "id": 75626,
+      "name": "サンクチュアリ",
+      "nameCN": "圣堂教父",
+      "date": "1996-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 290688,
+      "name": "サンクチュアリ",
+      "nameCN": "圣堂教父",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 75626,
+      "dst": 290688
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 290688,
+      "dst": 75626
+    }
+  ]
 }

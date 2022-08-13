@@ -1,55 +1,48 @@
 {
- "id": 225784,
- "node": [
-  {
-   "id": 225784,
-   "name": "金色ラブリッチェ",
-   "nameCN": "金辉恋曲四重奏",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/de/225784_uEb3Y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 267448,
-   "name": "金色ラブリッチェ -Golden Time-",
-   "nameCN": "金辉恋曲四重奏 -Golden Time-",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/b8/267448_Wy130.jpg",
-   "date": "2019-02-22",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 267449,
-   "name": "金色ラブリッチェ-Golden Time-",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/a3/267449_U5hvK.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 360498,
-   "name": "AMBITIOUS MISSION",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/01/360498_P87BB.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225784,
-   "dst": 267449
-  },
-  {
-   "relate": "相同世界观",
-   "src": 225784,
-   "dst": 360498
-  },
-  {
-   "relate": "前传",
-   "src": 267448,
-   "dst": 225784
-  }
- ]
+  "id": "225784",
+  "node": [
+    {
+      "id": 225784,
+      "name": "金色ラブリッチェ",
+      "nameCN": "金辉恋曲四重奏",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 360498,
+      "name": "AMBITIOUS MISSION",
+      "nameCN": "",
+      "date": "2022-05-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 267448,
+      "name": "金色ラブリッチェ -Golden Time-",
+      "nameCN": "金辉恋曲四重奏 -Golden Time-",
+      "date": "2019-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 225784,
+      "dst": 360498
+    },
+    {
+      "relateString": "前传",
+      "src": 267448,
+      "dst": 225784
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 360498,
+      "dst": 225784
+    }
+  ]
 }

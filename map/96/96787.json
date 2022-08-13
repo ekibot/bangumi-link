@@ -1,77 +1,73 @@
 {
- "id": 96787,
- "node": [
-  {
-   "id": 96787,
-   "name": "テラフォーマーズ",
-   "nameCN": "火星异种",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/b4/96787_PPW53.jpg",
-   "date": "2014-09-26",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 96788,
-   "name": "テラフォーマーズ バグズ2号編",
-   "nameCN": "火星异种 Bugs2号编",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/0c/96788_EtKSf.jpg",
-   "date": "2014-08-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 143558,
-   "name": "テラフォーマーズ リベンジ",
-   "nameCN": "火星异种 REVENGE",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/b7/143558_oiPLt.jpg",
-   "date": "2016-04-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 202165,
-   "name": "テラフォーマーズ 地球編",
-   "nameCN": "火星异种 地球篇",
-   "date": "2018-08-17",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/f8/202165_7o485.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 96787,
-   "dst": 96788
-  },
-  {
-   "relate": "续集",
-   "src": 96787,
-   "dst": 143558
-  },
-  {
-   "relate": "续集",
-   "src": 96788,
-   "dst": 96787
-  },
-  {
-   "relate": "前传",
-   "src": 143558,
-   "dst": 96787
-  },
-  {
-   "relate": "续集",
-   "src": 143558,
-   "dst": 202165
-  },
-  {
-   "relate": "前传",
-   "src": 202165,
-   "dst": 143558
-  }
- ]
+  "id": "96787",
+  "node": [
+    {
+      "id": 96787,
+      "name": "テラフォーマーズ",
+      "nameCN": "火星异种",
+      "date": "2014-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 96788,
+      "name": "テラフォーマーズ バグズ2号編",
+      "nameCN": "火星异种 Bugs2号编",
+      "date": "2014-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 143558,
+      "name": "テラフォーマーズ リベンジ",
+      "nameCN": "火星异种 REVENGE",
+      "date": "2016-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 202165,
+      "name": "テラフォーマーズ 地球編",
+      "nameCN": "火星异种 地球篇",
+      "date": "2018-08-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 96787,
+      "dst": 96788
+    },
+    {
+      "relateString": "续集",
+      "src": 96787,
+      "dst": 143558
+    },
+    {
+      "relateString": "续集",
+      "src": 96788,
+      "dst": 96787
+    },
+    {
+      "relateString": "前传",
+      "src": 143558,
+      "dst": 96787
+    },
+    {
+      "relateString": "续集",
+      "src": 143558,
+      "dst": 202165
+    },
+    {
+      "relateString": "前传",
+      "src": 202165,
+      "dst": 143558
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 162185,
- "node": [
-  {
-   "id": 162185,
-   "name": "戦空の魂",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162189,
-   "name": "戦空の魂 -21世紀の日本人へ-",
-   "date": "2005-03-04",
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 162185,
-   "dst": 162189
-  },
-  {
-   "relate": "前传",
-   "src": 162189,
-   "dst": 162185
-  }
- ]
+  "id": "162185",
+  "node": [
+    {
+      "id": 162185,
+      "name": "戦空の魂",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162189,
+      "name": "戦空の魂 -21世紀の日本人へ-",
+      "nameCN": "",
+      "date": "2005-03-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 162185,
+      "dst": 162189
+    },
+    {
+      "relateString": "前传",
+      "src": 162189,
+      "dst": 162185
+    }
+  ]
 }

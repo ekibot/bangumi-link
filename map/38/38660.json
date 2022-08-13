@@ -1,37 +1,35 @@
 {
- "id": 38660,
- "node": [
-  {
-   "id": 38660,
-   "name": "ウルトラマンゼアス",
-   "nameCN": "哉阿斯奥特曼",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/75/38660_3M5Br.jpg",
-   "date": "1996-03-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 38661,
-   "name": "ウルトラマンゼアス2 超人大戦・光と影",
-   "nameCN": "哉阿斯奥特曼2 超人大战·光与影",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/6f/38661_7AcKp.jpg",
-   "date": "1997-04-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 38660,
-   "dst": 38661
-  },
-  {
-   "relate": "前传",
-   "src": 38661,
-   "dst": 38660
-  }
- ]
+  "id": "38660",
+  "node": [
+    {
+      "id": 38660,
+      "name": "ウルトラマンゼアス",
+      "nameCN": "哉阿斯奥特曼",
+      "date": "1996-03-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 38661,
+      "name": "ウルトラマンゼアス2 超人大戦・光と影",
+      "nameCN": "哉阿斯奥特曼2 超人大战·光与影",
+      "date": "1997-04-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 38660,
+      "dst": 38661
+    },
+    {
+      "relateString": "前传",
+      "src": 38661,
+      "dst": 38660
+    }
+  ]
 }

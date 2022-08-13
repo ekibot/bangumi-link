@@ -1,37 +1,35 @@
 {
- "id": 296890,
- "node": [
-  {
-   "id": 296890,
-   "name": "降魔的",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/a3/296890_bK7ng.jpg",
-   "date": "2017-10-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 304320,
-   "name": "降魔的2.0",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/bf/304320_GW9XG.jpg",
-   "date": "2020-05-04",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 296890,
-   "dst": 304320
-  },
-  {
-   "relate": "前传",
-   "src": 304320,
-   "dst": 296890
-  }
- ]
+  "id": "296890",
+  "node": [
+    {
+      "id": 296890,
+      "name": "降魔的",
+      "nameCN": "",
+      "date": "2017-10-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 304320,
+      "name": "降魔的2.0",
+      "nameCN": "",
+      "date": "2020-05-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 296890,
+      "dst": 304320
+    },
+    {
+      "relateString": "前传",
+      "src": 304320,
+      "dst": 296890
+    }
+  ]
 }

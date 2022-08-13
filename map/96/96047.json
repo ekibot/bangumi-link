@@ -1,37 +1,35 @@
 {
- "id": 96047,
- "node": [
-  {
-   "id": 96047,
-   "name": "まっすぐにいこう。",
-   "nameCN": "狗狗向前冲",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/1f/96047_RcAx9.jpg",
-   "date": "2003-08-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 211556,
-   "name": "まっすぐにいこう。第2期",
-   "nameCN": "狗狗向前冲 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/94/211556_E084A.jpg",
-   "date": "2004-03-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 96047,
-   "dst": 211556
-  },
-  {
-   "relate": "前传",
-   "src": 211556,
-   "dst": 96047
-  }
- ]
+  "id": "96047",
+  "node": [
+    {
+      "id": 96047,
+      "name": "まっすぐにいこう。",
+      "nameCN": "狗狗向前冲",
+      "date": "2003-08-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 211556,
+      "name": "まっすぐにいこう。第2期",
+      "nameCN": "狗狗向前冲 第二季",
+      "date": "2004-03-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 96047,
+      "dst": 211556
+    },
+    {
+      "relateString": "前传",
+      "src": 211556,
+      "dst": 96047
+    }
+  ]
 }

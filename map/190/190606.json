@@ -1,37 +1,33 @@
 {
- "id": 190606,
- "node": [
-  {
-   "id": 190606,
-   "name": "ブラフマン",
-   "nameCN": "基因变身人",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/a0/190606_J7qPF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 190611,
-   "name": "ブラフマンOVERBOOST",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/ea/190611_M853j.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 190606,
-   "dst": 190611
-  },
-  {
-   "relate": "前传",
-   "src": 190611,
-   "dst": 190606
-  }
- ]
+  "id": "190606",
+  "node": [
+    {
+      "id": 190606,
+      "name": "ブラフマン",
+      "nameCN": "基因变身人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 190611,
+      "name": "ブラフマンOVERBOOST",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 190606,
+      "dst": 190611
+    },
+    {
+      "relateString": "前传",
+      "src": 190611,
+      "dst": 190606
+    }
+  ]
 }

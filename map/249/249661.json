@@ -1,37 +1,35 @@
 {
- "id": 249661,
- "node": [
-  {
-   "id": 249661,
-   "name": "あおに鳴く",
-   "nameCN": "慕青而鸣",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/ae/249661_M7p1k.jpg",
-   "date": "2018-01-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 266405,
-   "name": "あおに鳴く・続",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/af/266405_hluYZ.jpg",
-   "date": "2018-11-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 249661,
-   "dst": 266405
-  },
-  {
-   "relate": "前传",
-   "src": 266405,
-   "dst": 249661
-  }
- ]
+  "id": "249661",
+  "node": [
+    {
+      "id": 249661,
+      "name": "あおに鳴く",
+      "nameCN": "慕青而鸣",
+      "date": "2018-01-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 266405,
+      "name": "あおに鳴く・続",
+      "nameCN": "",
+      "date": "2018-11-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 249661,
+      "dst": 266405
+    },
+    {
+      "relateString": "前传",
+      "src": 266405,
+      "dst": 249661
+    }
+  ]
 }

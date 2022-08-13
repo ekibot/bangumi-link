@@ -1,37 +1,35 @@
 {
- "id": 136801,
- "node": [
-  {
-   "id": 136801,
-   "name": "アルティメット・ラヴァーズ ROUND.1",
-   "nameCN": "終極戀人（1）",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/ac/136801_jp.jpg",
-   "date": "2013-04-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 165416,
-   "name": "アルティメット・ラヴァーズ ROUND.2",
-   "nameCN": "終極戀人（2）",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/52/165416_jp.jpg",
-   "date": "2013-05-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 136801,
-   "dst": 165416
-  },
-  {
-   "relate": "前传",
-   "src": 165416,
-   "dst": 136801
-  }
- ]
+  "id": "136801",
+  "node": [
+    {
+      "id": 136801,
+      "name": "アルティメット・ラヴァーズ ROUND.1",
+      "nameCN": "終極戀人（1）",
+      "date": "2013-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 165416,
+      "name": "アルティメット・ラヴァーズ ROUND.2",
+      "nameCN": "終極戀人（2）",
+      "date": "2013-05-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 136801,
+      "dst": 165416
+    },
+    {
+      "relateString": "前传",
+      "src": 165416,
+      "dst": 136801
+    }
+  ]
 }

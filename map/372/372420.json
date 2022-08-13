@@ -1,37 +1,35 @@
 {
- "id": 372420,
- "node": [
-  {
-   "id": 372420,
-   "name": "Gratuitous Space Battles 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/d4/372420_j10fv.jpg",
-   "date": "2015-04-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 372423,
-   "name": "Gratuitous Space Battles",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/9f/372423_2m6wW.jpg",
-   "date": "2009-11-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 372420,
-   "dst": 372423
-  },
-  {
-   "relate": "续集",
-   "src": 372423,
-   "dst": 372420
-  }
- ]
+  "id": "372420",
+  "node": [
+    {
+      "id": 372420,
+      "name": "Gratuitous Space Battles 2",
+      "nameCN": "",
+      "date": "2015-04-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 372423,
+      "name": "Gratuitous Space Battles",
+      "nameCN": "",
+      "date": "2009-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 372420,
+      "dst": 372423
+    },
+    {
+      "relateString": "续集",
+      "src": 372423,
+      "dst": 372420
+    }
+  ]
 }

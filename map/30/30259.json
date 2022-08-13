@@ -1,57 +1,52 @@
 {
- "id": 30259,
- "node": [
-  {
-   "id": 30259,
-   "name": "魔探偵ロキ",
-   "nameCN": "魔侦探洛基",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/89/30259_001fD.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 30287,
-   "name": "魔探偵ロキ RAGNAROK",
-   "nameCN": "魔侦探洛基 RAGNAROK",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/d7/30287_HKPW0.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 216039,
-   "name": "魔探偵ロキRAGNAROK~新世界の神々~",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/e4/216039_37PiW.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30259,
-   "dst": 30287
-  },
-  {
-   "relate": "前传",
-   "src": 30287,
-   "dst": 30259
-  },
-  {
-   "relate": "续集",
-   "src": 30287,
-   "dst": 216039
-  },
-  {
-   "relate": "前传",
-   "src": 216039,
-   "dst": 30287
-  }
- ]
+  "id": "30259",
+  "node": [
+    {
+      "id": 30259,
+      "name": "魔探偵ロキ",
+      "nameCN": "魔侦探洛基",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 30287,
+      "name": "魔探偵ロキ RAGNAROK",
+      "nameCN": "魔侦探洛基 RAGNAROK",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 216039,
+      "name": "魔探偵ロキRAGNAROK~新世界の神々~",
+      "nameCN": "",
+      "date": "2011-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30259,
+      "dst": 30287
+    },
+    {
+      "relateString": "前传",
+      "src": 30287,
+      "dst": 30259
+    },
+    {
+      "relateString": "续集",
+      "src": 30287,
+      "dst": 216039
+    },
+    {
+      "relateString": "前传",
+      "src": 216039,
+      "dst": 30287
+    }
+  ]
 }

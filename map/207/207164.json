@@ -1,57 +1,54 @@
 {
- "id": 207164,
- "node": [
-  {
-   "id": 207164,
-   "name": "My Life As a Teenage Robot Season 1",
-   "nameCN": "我的青少年机器人时代 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/6a/207164_ylYHM.jpg",
-   "date": "2003-08-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208959,
-   "name": "My Life As a Teenage Robot Season 2",
-   "nameCN": "我的青少年机器人时代 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/15/208959_jprzE.jpg",
-   "date": "2004-12-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 208960,
-   "name": "My Life As a Teenage Robot Season 3",
-   "nameCN": "我的青少年机器人时代 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/c6/208960_wiH0V.jpg",
-   "date": "2008-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 207164,
-   "dst": 208959
-  },
-  {
-   "relate": "前传",
-   "src": 208959,
-   "dst": 207164
-  },
-  {
-   "relate": "续集",
-   "src": 208959,
-   "dst": 208960
-  },
-  {
-   "relate": "前传",
-   "src": 208960,
-   "dst": 208959
-  }
- ]
+  "id": "207164",
+  "node": [
+    {
+      "id": 207164,
+      "name": "My Life As a Teenage Robot Season 1",
+      "nameCN": "我的青少年机器人时代 第一季",
+      "date": "2003-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208959,
+      "name": "My Life As a Teenage Robot Season 2",
+      "nameCN": "我的青少年机器人时代 第二季",
+      "date": "2004-12-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208960,
+      "name": "My Life As a Teenage Robot Season 3",
+      "nameCN": "我的青少年机器人时代 第三季",
+      "date": "2008-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 207164,
+      "dst": 208959
+    },
+    {
+      "relateString": "前传",
+      "src": 208959,
+      "dst": 207164
+    },
+    {
+      "relateString": "续集",
+      "src": 208959,
+      "dst": 208960
+    },
+    {
+      "relateString": "前传",
+      "src": 208960,
+      "dst": 208959
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 155448,
- "node": [
-  {
-   "id": 155448,
-   "name": "オメガバースプロジェクト-Season 2- 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/7b/155448_jp.jpg",
-   "date": "2015-11-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 184198,
-   "name": "オメガバースプロジェクト-Season 2- 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/66/184198_jp.jpg",
-   "date": "2015-12-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155448,
-   "dst": 184198
-  },
-  {
-   "relate": "前传",
-   "src": 184198,
-   "dst": 155448
-  }
- ]
+  "id": "155448",
+  "node": [
+    {
+      "id": 155448,
+      "name": "オメガバースプロジェクト-Season 2- 1",
+      "nameCN": "",
+      "date": "2015-11-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 184198,
+      "name": "オメガバースプロジェクト-Season 2- 2",
+      "nameCN": "",
+      "date": "2015-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155448,
+      "dst": 184198
+    },
+    {
+      "relateString": "前传",
+      "src": 184198,
+      "dst": 155448
+    }
+  ]
 }

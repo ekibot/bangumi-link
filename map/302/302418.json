@@ -1,37 +1,35 @@
 {
- "id": 302418,
- "node": [
-  {
-   "id": 302418,
-   "name": "無能なナナ",
-   "nameCN": "无能的奈奈",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/7e/302418_r262i.jpg",
-   "date": "2020-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 324555,
-   "name": "「無能なナナ」ミニアニメ",
-   "nameCN": "「无能的奈奈」迷你动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/a8/324555_U5920.jpg",
-   "date": "2020-10-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 302418,
-   "dst": 324555
-  },
-  {
-   "relate": "主线故事",
-   "src": 324555,
-   "dst": 302418
-  }
- ]
+  "id": "302418",
+  "node": [
+    {
+      "id": 302418,
+      "name": "無能なナナ",
+      "nameCN": "无能的奈奈",
+      "date": "2020-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 324555,
+      "name": "「無能なナナ」ミニアニメ",
+      "nameCN": "「无能的奈奈」迷你动画",
+      "date": "2020-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 302418,
+      "dst": 324555
+    },
+    {
+      "relateString": "主线故事",
+      "src": 324555,
+      "dst": 302418
+    }
+  ]
 }

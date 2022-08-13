@@ -1,37 +1,35 @@
 {
- "id": 220411,
- "node": [
-  {
-   "id": 220411,
-   "name": "フラスコのゆめ",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/6d/220411_Sr8Zz.jpg",
-   "date": "2013-03-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 220413,
-   "name": "フラスコのはて",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/dd/220413_9gX8G.jpg",
-   "date": "2014-06-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 220411,
-   "dst": 220413
-  },
-  {
-   "relate": "前传",
-   "src": 220413,
-   "dst": 220411
-  }
- ]
+  "id": "220411",
+  "node": [
+    {
+      "id": 220411,
+      "name": "フラスコのゆめ",
+      "nameCN": "",
+      "date": "2013-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220413,
+      "name": "フラスコのはて",
+      "nameCN": "",
+      "date": "2014-06-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 220411,
+      "dst": 220413
+    },
+    {
+      "relateString": "前传",
+      "src": 220413,
+      "dst": 220411
+    }
+  ]
 }

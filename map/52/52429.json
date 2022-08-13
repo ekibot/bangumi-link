@@ -1,0 +1,54 @@
+{
+  "id": "52429",
+  "node": [
+    {
+      "id": 52429,
+      "name": "人間仮免中",
+      "nameCN": "",
+      "date": "2012-05-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 339123,
+      "name": "人間仮免中つづき",
+      "nameCN": "",
+      "date": "2016-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 382544,
+      "name": "港町ブルース",
+      "nameCN": "",
+      "date": "2022-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52429,
+      "dst": 339123
+    },
+    {
+      "relateString": "前传",
+      "src": 339123,
+      "dst": 52429
+    },
+    {
+      "relateString": "续集",
+      "src": 339123,
+      "dst": 382544
+    },
+    {
+      "relateString": "前传",
+      "src": 382544,
+      "dst": 339123
+    }
+  ]
+}

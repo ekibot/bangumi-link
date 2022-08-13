@@ -1,53 +1,57 @@
 {
- "id": 1905,
- "node": [
-  {
-   "id": 1905,
-   "name": "サマーウォーズ",
-   "nameCN": "夏日大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/e0/1905_5tj44.jpg",
-   "date": "2009-08-01",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 21288,
-   "name": "サマーウォーズ クライシス・オブ・OZ",
-   "nameCN": "夏日大作战 OZ危机",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/4d/21288_jp.jpg",
-   "type": 1
-  },
-  {
-   "id": 21294,
-   "name": "サマーウォーズ キング・カズマvsクイーン・オズ",
-   "nameCN": "夏日大作战 King Kazuma vs Queen OZ",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/8f/21294_nONld.jpg",
-   "type": 1
-  },
-  {
-   "id": 194125,
-   "name": "サマーウォーズ　公式コミックアンソロジー",
-   "nameCN": "夏日大作战 公式漫画集",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/ed/194125_jp.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1905,
-   "dst": 21288
-  },
-  {
-   "relate": "前传",
-   "src": 1905,
-   "dst": 21294
-  },
-  {
-   "relate": "番外篇",
-   "src": 1905,
-   "dst": 194125
-  }
- ]
+  "id": "1905",
+  "node": [
+    {
+      "id": 1905,
+      "name": "サマーウォーズ",
+      "nameCN": "夏日大作战",
+      "date": "2009-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 21288,
+      "name": "サマーウォーズ クライシス・オブ・OZ",
+      "nameCN": "夏日大作战 OZ危机",
+      "date": "2010-07-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 21294,
+      "name": "サマーウォーズ キング・カズマvsクイーン・オズ",
+      "nameCN": "夏日大作战 King Kazuma vs Queen OZ",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 194125,
+      "name": "サマーウォーズ　公式コミックアンソロジー",
+      "nameCN": "夏日大作战 公式漫画集",
+      "date": "2010-07-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 1905,
+      "dst": 21288
+    },
+    {
+      "relateString": "前传",
+      "src": 1905,
+      "dst": 21294
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1905,
+      "dst": 194125
+    }
+  ]
 }

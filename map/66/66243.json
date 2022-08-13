@@ -1,37 +1,35 @@
 {
- "id": 66243,
- "node": [
-  {
-   "id": 66243,
-   "name": "The Hunchback of Notre Dame",
-   "nameCN": "钟楼怪人",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/83/66243_Xvbol.jpg",
-   "date": "1996-06-21",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 112885,
-   "name": "The Hunchback of Notre Dame II",
-   "nameCN": "钟楼怪人2：老实钟的秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/9a/112885_N3hwm.jpg",
-   "date": "2002-02-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66243,
-   "dst": 112885
-  },
-  {
-   "relate": "前传",
-   "src": 112885,
-   "dst": 66243
-  }
- ]
+  "id": "66243",
+  "node": [
+    {
+      "id": 66243,
+      "name": "The Hunchback of Notre Dame",
+      "nameCN": "钟楼怪人",
+      "date": "1996-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112885,
+      "name": "The Hunchback of Notre Dame II",
+      "nameCN": "钟楼怪人2：老实钟的秘密",
+      "date": "2002-02-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66243,
+      "dst": 112885
+    },
+    {
+      "relateString": "前传",
+      "src": 112885,
+      "dst": 66243
+    }
+  ]
 }

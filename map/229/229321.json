@@ -1,37 +1,34 @@
 {
- "id": 229321,
- "node": [
-  {
-   "id": 229321,
-   "name": "带我下地狱",
-   "nameCN": "带我下地狱",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/24/229321_Tbp22.jpg",
-   "date": "2016-10-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231286,
-   "name": "带我下地狱2",
-   "nameCN": "带我下地狱2",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/d6/231286_4AUu4.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229321,
-   "dst": 231286
-  },
-  {
-   "relate": "前传",
-   "src": 231286,
-   "dst": 229321
-  }
- ]
+  "id": "229321",
+  "node": [
+    {
+      "id": 229321,
+      "name": "带我下地狱",
+      "nameCN": "带我下地狱",
+      "date": "2016-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231286,
+      "name": "带我下地狱2",
+      "nameCN": "带我下地狱2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229321,
+      "dst": 231286
+    },
+    {
+      "relateString": "前传",
+      "src": 231286,
+      "dst": 229321
+    }
+  ]
 }

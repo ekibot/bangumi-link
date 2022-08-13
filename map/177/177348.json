@@ -1,37 +1,34 @@
 {
- "id": 177348,
- "node": [
-  {
-   "id": 177348,
-   "name": "独身アパートどくだみ荘",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/24/177348_eEdWu.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 177358,
-   "name": "新・どくだみ荘",
-   "nameCN": "五味骚男",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/dd/177358_Iu5F3.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 177348,
-   "dst": 177358
-  },
-  {
-   "relate": "前传",
-   "src": 177358,
-   "dst": 177348
-  }
- ]
+  "id": "177348",
+  "node": [
+    {
+      "id": 177348,
+      "name": "独身アパートどくだみ荘",
+      "nameCN": "",
+      "date": "1979-05-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 177358,
+      "name": "新・どくだみ荘",
+      "nameCN": "五味骚男",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 177348,
+      "dst": 177358
+    },
+    {
+      "relateString": "前传",
+      "src": 177358,
+      "dst": 177348
+    }
+  ]
 }

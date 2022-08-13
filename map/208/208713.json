@@ -1,37 +1,35 @@
 {
- "id": 208713,
- "node": [
-  {
-   "id": 208713,
-   "name": "三只兔子",
-   "nameCN": "三只兔子",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/28/208713_L6TdF.jpg",
-   "date": "2017-02-10",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 240259,
-   "name": "三只兔子 第2季",
-   "nameCN": "三只兔子 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/71/240259_XG9Ss.jpg",
-   "date": "2018-02-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 208713,
-   "dst": 240259
-  },
-  {
-   "relate": "前传",
-   "src": 240259,
-   "dst": 208713
-  }
- ]
+  "id": "208713",
+  "node": [
+    {
+      "id": 208713,
+      "name": "三只兔子",
+      "nameCN": "三只兔子",
+      "date": "2017-02-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 240259,
+      "name": "三只兔子 第2季",
+      "nameCN": "三只兔子 第二季",
+      "date": "2018-02-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 208713,
+      "dst": 240259
+    },
+    {
+      "relateString": "前传",
+      "src": 240259,
+      "dst": 208713
+    }
+  ]
 }

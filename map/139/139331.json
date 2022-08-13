@@ -1,37 +1,35 @@
 {
- "id": 139331,
- "node": [
-  {
-   "id": 139331,
-   "name": "Scream (2015) Season 1",
-   "nameCN": "惊声尖叫 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/3a/139331_D3ddZ.jpg",
-   "date": "2015-06-30",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 184287,
-   "name": "Scream (2015) Season 2",
-   "nameCN": "惊声尖叫 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/e4/184287_Ufbfq.jpg",
-   "date": "2016-05-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 139331,
-   "dst": 184287
-  },
-  {
-   "relate": "前传",
-   "src": 184287,
-   "dst": 139331
-  }
- ]
+  "id": "139331",
+  "node": [
+    {
+      "id": 139331,
+      "name": "Scream (2015) Season 1",
+      "nameCN": "惊声尖叫 第一季",
+      "date": "2015-06-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 184287,
+      "name": "Scream (2015) Season 2",
+      "nameCN": "惊声尖叫 第二季",
+      "date": "2016-05-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139331,
+      "dst": 184287
+    },
+    {
+      "relateString": "前传",
+      "src": 184287,
+      "dst": 139331
+    }
+  ]
 }

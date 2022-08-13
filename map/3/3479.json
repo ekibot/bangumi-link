@@ -1,67 +1,64 @@
 {
- "id": 3479,
- "node": [
-  {
-   "id": 3479,
-   "name": "聖痕のクェイサー",
-   "nameCN": "圣痕炼金士",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/50/3479_WG3cc.jpg",
-   "date": "2010-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 10565,
-   "name": "聖痕のクェイサーII",
-   "nameCN": "圣痕炼金士II",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/41/10565_LyAlC.jpg",
-   "date": "2011-04-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 99925,
-   "name": "聖痕のクェイサーOAD 女帝の肖像",
-   "nameCN": "圣痕炼金士OAD 女帝的肖像",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/a2/99925_pp5Up.jpg",
-   "date": "2010-10-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3479,
-   "dst": 10565
-  },
-  {
-   "relate": "番外篇",
-   "src": 3479,
-   "dst": 99925
-  },
-  {
-   "relate": "前传",
-   "src": 10565,
-   "dst": 3479
-  },
-  {
-   "relate": "前传",
-   "src": 10565,
-   "dst": 99925
-  },
-  {
-   "relate": "主线故事",
-   "src": 99925,
-   "dst": 3479
-  },
-  {
-   "relate": "续集",
-   "src": 99925,
-   "dst": 10565
-  }
- ]
+  "id": "3479",
+  "node": [
+    {
+      "id": 3479,
+      "name": "聖痕のクェイサー",
+      "nameCN": "圣痕炼金士",
+      "date": "2010-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10565,
+      "name": "聖痕のクェイサーII",
+      "nameCN": "圣痕炼金士II",
+      "date": "2011-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 99925,
+      "name": "聖痕のクェイサーOAD 女帝の肖像",
+      "nameCN": "圣痕炼金士OAD 女帝的肖像",
+      "date": "2010-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3479,
+      "dst": 10565
+    },
+    {
+      "relateString": "番外篇",
+      "src": 3479,
+      "dst": 99925
+    },
+    {
+      "relateString": "前传",
+      "src": 10565,
+      "dst": 3479
+    },
+    {
+      "relateString": "前传",
+      "src": 10565,
+      "dst": 99925
+    },
+    {
+      "relateString": "主线故事",
+      "src": 99925,
+      "dst": 3479
+    },
+    {
+      "relateString": "续集",
+      "src": 99925,
+      "dst": 10565
+    }
+  ]
 }

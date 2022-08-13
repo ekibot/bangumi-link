@@ -1,37 +1,35 @@
 {
- "id": 228510,
- "node": [
-  {
-   "id": 228510,
-   "name": "魔剣士リーネ",
-   "nameCN": "魔剑士莉奈",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/64/228510_3G9y1.jpg",
-   "date": "2012-05-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228512,
-   "name": "魔剣士リーネ２",
-   "nameCN": "魔剑士莉奈2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/fe/228512_bo3Pj.jpg",
-   "date": "2017-02-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228510,
-   "dst": 228512
-  },
-  {
-   "relate": "前传",
-   "src": 228512,
-   "dst": 228510
-  }
- ]
+  "id": "228510",
+  "node": [
+    {
+      "id": 228510,
+      "name": "魔剣士リーネ",
+      "nameCN": "魔剑士莉奈",
+      "date": "2012-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228512,
+      "name": "魔剣士リーネ２",
+      "nameCN": "魔剑士莉奈2",
+      "date": "2017-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228510,
+      "dst": 228512
+    },
+    {
+      "relateString": "前传",
+      "src": 228512,
+      "dst": 228510
+    }
+  ]
 }

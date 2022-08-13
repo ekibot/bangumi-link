@@ -1,37 +1,34 @@
 {
- "id": 45512,
- "node": [
-  {
-   "id": 45512,
-   "name": "アナスタシア倶楽部 続",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/de/45512_jp.jpg",
-   "date": "2008-05-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 45517,
-   "name": "アナスタシア倶楽部",
-   "nameCN": "寻找公主",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/68/45517_YcZyn.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 45512,
-   "dst": 45517
-  },
-  {
-   "relate": "续集",
-   "src": 45517,
-   "dst": 45512
-  }
- ]
+  "id": "45512",
+  "node": [
+    {
+      "id": 45512,
+      "name": "アナスタシア倶楽部 続",
+      "nameCN": "",
+      "date": "2008-05-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 45517,
+      "name": "アナスタシア倶楽部",
+      "nameCN": "寻找公主",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 45512,
+      "dst": 45517
+    },
+    {
+      "relateString": "续集",
+      "src": 45517,
+      "dst": 45512
+    }
+  ]
 }

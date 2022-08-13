@@ -1,57 +1,54 @@
 {
- "id": 170242,
- "node": [
-  {
-   "id": 170242,
-   "name": "信長の忍び",
-   "nameCN": "信长的忍者",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/74/170242_5m8HA.jpg",
-   "date": "2016-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 209839,
-   "name": "信長の忍び〜伊勢・金ヶ崎篇〜",
-   "nameCN": "信长的忍者 伊势·金崎篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/0f/209839_gDgiG.jpg",
-   "date": "2017-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 235421,
-   "name": "信長の忍び〜姉川・石山篇〜",
-   "nameCN": "信长的忍者 姊川·石山篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/0b/235421_b807c.jpg",
-   "date": "2018-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 170242,
-   "dst": 209839
-  },
-  {
-   "relate": "前传",
-   "src": 209839,
-   "dst": 170242
-  },
-  {
-   "relate": "续集",
-   "src": 209839,
-   "dst": 235421
-  },
-  {
-   "relate": "前传",
-   "src": 235421,
-   "dst": 209839
-  }
- ]
+  "id": "170242",
+  "node": [
+    {
+      "id": 170242,
+      "name": "信長の忍び",
+      "nameCN": "信长的忍者",
+      "date": "2016-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 209839,
+      "name": "信長の忍び〜伊勢・金ヶ崎篇〜",
+      "nameCN": "信长的忍者 伊势·金崎篇",
+      "date": "2017-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 235421,
+      "name": "信長の忍び〜姉川・石山篇〜",
+      "nameCN": "信长的忍者 姊川·石山篇",
+      "date": "2018-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 170242,
+      "dst": 209839
+    },
+    {
+      "relateString": "前传",
+      "src": 209839,
+      "dst": 170242
+    },
+    {
+      "relateString": "续集",
+      "src": 209839,
+      "dst": 235421
+    },
+    {
+      "relateString": "前传",
+      "src": 235421,
+      "dst": 209839
+    }
+  ]
 }

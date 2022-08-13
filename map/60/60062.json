@@ -1,37 +1,35 @@
 {
- "id": 60062,
- "node": [
-  {
-   "id": 60062,
-   "name": "Ariard-少年アリス-",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/44/60062_bpyd1.jpg",
-   "date": "2013-01-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 142721,
-   "name": "Ariard-少年アリス- Under the rose",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/1f/142721_344Pi.jpg",
-   "type": 4,
-   "date": "2015-07-29",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60062,
-   "dst": 142721
-  },
-  {
-   "relate": "前传",
-   "src": 142721,
-   "dst": 60062
-  }
- ]
+  "id": "60062",
+  "node": [
+    {
+      "id": 60062,
+      "name": "Ariard-少年アリス-",
+      "nameCN": "",
+      "date": "2013-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 142721,
+      "name": "Ariard-少年アリス- Under the rose",
+      "nameCN": "",
+      "date": "2015-07-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60062,
+      "dst": 142721
+    },
+    {
+      "relateString": "前传",
+      "src": 142721,
+      "dst": 60062
+    }
+  ]
 }

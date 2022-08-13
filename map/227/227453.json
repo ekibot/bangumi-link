@@ -1,57 +1,54 @@
 {
- "id": 227453,
- "node": [
-  {
-   "id": 227453,
-   "name": "Blaze of Destiny",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/69/227453_BuUr3.jpg",
-   "date": "2003-04-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 227454,
-   "name": "Blaze of Destiny II ～The beginning of the fate～",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/b5/227454_Zx3a6.jpg",
-   "date": "2004-05-21",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 227455,
-   "name": "Blaze of Destiny III -The Tears of the Blue Sea-",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/7e/227455_Y80ti.jpg",
-   "date": "2005-12-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 227453,
-   "dst": 227454
-  },
-  {
-   "relate": "前传",
-   "src": 227454,
-   "dst": 227453
-  },
-  {
-   "relate": "续集",
-   "src": 227454,
-   "dst": 227455
-  },
-  {
-   "relate": "前传",
-   "src": 227455,
-   "dst": 227454
-  }
- ]
+  "id": "227453",
+  "node": [
+    {
+      "id": 227453,
+      "name": "Blaze of Destiny",
+      "nameCN": "",
+      "date": "2003-04-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227454,
+      "name": "Blaze of Destiny II ～The beginning of the fate～",
+      "nameCN": "",
+      "date": "2004-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227455,
+      "name": "Blaze of Destiny III -The Tears of the Blue Sea-",
+      "nameCN": "",
+      "date": "2005-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 227453,
+      "dst": 227454
+    },
+    {
+      "relateString": "前传",
+      "src": 227454,
+      "dst": 227453
+    },
+    {
+      "relateString": "续集",
+      "src": 227454,
+      "dst": 227455
+    },
+    {
+      "relateString": "前传",
+      "src": 227455,
+      "dst": 227454
+    }
+  ]
 }

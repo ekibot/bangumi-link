@@ -1,37 +1,35 @@
 {
- "id": 107776,
- "node": [
-  {
-   "id": 107776,
-   "name": "ファミリーマージャン",
-   "nameCN": "家庭麻将",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/af/107776_mI3ah.jpg",
-   "date": "1987-08-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107777,
-   "name": "ファミリーマージャンⅡ 上海への道",
-   "nameCN": "家庭麻将2 上海之道",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/73/107777_d04Dd.jpg",
-   "date": "1988-11-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107776,
-   "dst": 107777
-  },
-  {
-   "relate": "前传",
-   "src": 107777,
-   "dst": 107776
-  }
- ]
+  "id": "107776",
+  "node": [
+    {
+      "id": 107776,
+      "name": "ファミリーマージャン",
+      "nameCN": "家庭麻将",
+      "date": "1987-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107777,
+      "name": "ファミリーマージャンⅡ 上海への道",
+      "nameCN": "家庭麻将2 上海之道",
+      "date": "1988-11-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107776,
+      "dst": 107777
+    },
+    {
+      "relateString": "前传",
+      "src": 107777,
+      "dst": 107776
+    }
+  ]
 }

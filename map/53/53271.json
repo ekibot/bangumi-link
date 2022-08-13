@@ -1,37 +1,33 @@
 {
- "id": 53271,
- "node": [
-  {
-   "id": 53271,
-   "name": "GP学園生徒会執行部",
-   "nameCN": "GP学园学生会执行部",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/6c/53271_9ET8l.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 53272,
-   "name": "GP学園情報処理部",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/23/53272_l7S5i.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 53271,
-   "dst": 53272
-  },
-  {
-   "relate": "相同世界观",
-   "src": 53272,
-   "dst": 53271
-  }
- ]
+  "id": "53271",
+  "node": [
+    {
+      "id": 53271,
+      "name": "GP学園生徒会執行部",
+      "nameCN": "GP学园学生会执行部",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 53272,
+      "name": "GP学園情報処理部",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 53271,
+      "dst": 53272
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 53272,
+      "dst": 53271
+    }
+  ]
 }

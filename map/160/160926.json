@@ -1,37 +1,35 @@
 {
- "id": 160926,
- "node": [
-  {
-   "id": 160926,
-   "name": "ニセ婚！　1 (バンブーコミックス　COLORFUL SELECT)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/0e/160926_jp.jpg",
-   "date": "2015-05-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 160927,
-   "name": "ニセ婚!  2 完結 (バンブーコミックス COLORFUL SELECT)",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/7b/160927_jp.jpg",
-   "date": "2015-12-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 160926,
-   "dst": 160927
-  },
-  {
-   "relate": "前传",
-   "src": 160927,
-   "dst": 160926
-  }
- ]
+  "id": "160926",
+  "node": [
+    {
+      "id": 160926,
+      "name": "ニセ婚！　1 (バンブーコミックス　COLORFUL SELECT)",
+      "nameCN": "",
+      "date": "2015-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 160927,
+      "name": "ニセ婚!  2 完結 (バンブーコミックス COLORFUL SELECT)",
+      "nameCN": "",
+      "date": "2015-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 160926,
+      "dst": 160927
+    },
+    {
+      "relateString": "前传",
+      "src": 160927,
+      "dst": 160926
+    }
+  ]
 }

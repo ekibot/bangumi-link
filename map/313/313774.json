@@ -1,37 +1,35 @@
 {
- "id": 313774,
- "node": [
-  {
-   "id": 313774,
-   "name": "新聞記者",
-   "nameCN": "新闻记者",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/26/313774_CRqZ5.jpg",
-   "date": "2019-06-28",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 313775,
-   "name": "新聞記者",
-   "date": "2022-01-13",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/44/313775_Jnn4M.jpg",
-   "nameCN": "新闻记者",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 313774,
-   "dst": 313775
-  },
-  {
-   "relate": "不同演绎",
-   "src": 313775,
-   "dst": 313774
-  }
- ]
+  "id": "313774",
+  "node": [
+    {
+      "id": 313774,
+      "name": "新聞記者",
+      "nameCN": "新闻记者",
+      "date": "2019-06-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 313775,
+      "name": "新聞記者",
+      "nameCN": "新闻记者",
+      "date": "2022-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 313774,
+      "dst": 313775
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 313775,
+      "dst": 313774
+    }
+  ]
 }

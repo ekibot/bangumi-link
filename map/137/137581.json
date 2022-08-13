@@ -1,97 +1,92 @@
 {
- "id": 137581,
- "node": [
-  {
-   "id": 137581,
-   "name": "石の繭",
-   "nameCN": "石之茧",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/40/137581_kgGh1.jpg",
-   "date": "2015-08-16",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 192004,
-   "name": "水晶の鼓動 殺人分析班",
-   "nameCN": "水晶的鼓动 杀人分析班",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/00/192004_u999b.jpg",
-   "date": "2016-11-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 285710,
-   "name": "悪の波動　殺人分析班スピンオフ",
-   "nameCN": "恶的波动 杀人分析班番外",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/b8/285710_JYQY3.jpg",
-   "date": "2019-10-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 288868,
-   "name": "蝶の力学　殺人分析班",
-   "nameCN": "蝶之力学 杀人分析班",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/fa/288868_AJ720.jpg",
-   "date": "2019-11-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 363767,
-   "name": "邪神の天秤 公安分析班",
-   "date": "2022-02-13",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/46/363767_nFH1m.jpg",
-   "nameCN": "邪神的天秤 公安分析班",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 137581,
-   "dst": 192004
-  },
-  {
-   "relate": "番外篇",
-   "src": 137581,
-   "dst": 285710
-  },
-  {
-   "relate": "前传",
-   "src": 192004,
-   "dst": 137581
-  },
-  {
-   "relate": "续集",
-   "src": 192004,
-   "dst": 288868
-  },
-  {
-   "relate": "主线故事",
-   "src": 285710,
-   "dst": 137581
-  },
-  {
-   "relate": "前传",
-   "src": 288868,
-   "dst": 192004
-  },
-  {
-   "relate": "续集",
-   "src": 288868,
-   "dst": 363767
-  },
-  {
-   "relate": "前传",
-   "src": 363767,
-   "dst": 288868
-  }
- ]
+  "id": "137581",
+  "node": [
+    {
+      "id": 137581,
+      "name": "石の繭",
+      "nameCN": "石之茧",
+      "date": "2015-08-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 192004,
+      "name": "水晶の鼓動 殺人分析班",
+      "nameCN": "水晶的鼓动 杀人分析班",
+      "date": "2016-11-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 285710,
+      "name": "悪の波動　殺人分析班スピンオフ",
+      "nameCN": "恶的波动 杀人分析班番外",
+      "date": "2019-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 288868,
+      "name": "蝶の力学　殺人分析班",
+      "nameCN": "蝶之力学 杀人分析班",
+      "date": "2019-11-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 363767,
+      "name": "邪神の天秤 公安分析班",
+      "nameCN": "邪神的天秤 公安分析班",
+      "date": "2022-02-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 137581,
+      "dst": 192004
+    },
+    {
+      "relateString": "番外篇",
+      "src": 137581,
+      "dst": 285710
+    },
+    {
+      "relateString": "前传",
+      "src": 192004,
+      "dst": 137581
+    },
+    {
+      "relateString": "续集",
+      "src": 192004,
+      "dst": 288868
+    },
+    {
+      "relateString": "主线故事",
+      "src": 285710,
+      "dst": 137581
+    },
+    {
+      "relateString": "前传",
+      "src": 288868,
+      "dst": 192004
+    },
+    {
+      "relateString": "续集",
+      "src": 288868,
+      "dst": 363767
+    },
+    {
+      "relateString": "前传",
+      "src": 363767,
+      "dst": 288868
+    }
+  ]
 }

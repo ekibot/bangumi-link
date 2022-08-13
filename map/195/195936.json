@@ -1,37 +1,34 @@
 {
- "id": 195936,
- "node": [
-  {
-   "id": 195936,
-   "name": "あやかし緋扇~夢幻のまほろば~",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/be/195936_jp.jpg",
-   "date": "2013-10-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 195938,
-   "name": "あやかし緋扇~八百比丘尼永遠の涙~",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/39/195938_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 195936,
-   "dst": 195938
-  },
-  {
-   "relate": "续集",
-   "src": 195938,
-   "dst": 195936
-  }
- ]
+  "id": "195936",
+  "node": [
+    {
+      "id": 195936,
+      "name": "あやかし緋扇~夢幻のまほろば~",
+      "nameCN": "",
+      "date": "2013-10-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 195938,
+      "name": "あやかし緋扇~八百比丘尼永遠の涙~",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 195936,
+      "dst": 195938
+    },
+    {
+      "relateString": "续集",
+      "src": 195938,
+      "dst": 195936
+    }
+  ]
 }

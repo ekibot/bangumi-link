@@ -1,97 +1,92 @@
 {
- "id": 133301,
- "node": [
-  {
-   "id": 133301,
-   "name": "○○○○○○○○殺人事件",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/73/133301_jp.jpg",
-   "date": "2014-09-04",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 144312,
-   "name": "虹の歯ブラシ 上木らいち発散",
-   "nameCN": "彩虹牙刷",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/d1/144312_329Bt.jpg",
-   "date": "2015-02-05",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 211650,
-   "name": "双蛇密室",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/66/211650_QDUXS.jpg",
-   "date": "2017-04-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 211651,
-   "name": "誰も僕を裁けない",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/0a/211651_jp.jpg",
-   "date": "2016-03-03",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 279880,
-   "name": "メーラーデーモンの戦慄",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/2c/279880_0rBBc.jpg",
-   "date": "2018-09-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 133301,
-   "dst": 144312
-  },
-  {
-   "relate": "前传",
-   "src": 144312,
-   "dst": 133301
-  },
-  {
-   "relate": "续集",
-   "src": 144312,
-   "dst": 211651
-  },
-  {
-   "relate": "前传",
-   "src": 211650,
-   "dst": 211651
-  },
-  {
-   "relate": "续集",
-   "src": 211650,
-   "dst": 279880
-  },
-  {
-   "relate": "前传",
-   "src": 211651,
-   "dst": 144312
-  },
-  {
-   "relate": "续集",
-   "src": 211651,
-   "dst": 211650
-  },
-  {
-   "relate": "前传",
-   "src": 279880,
-   "dst": 211650
-  }
- ]
+  "id": "133301",
+  "node": [
+    {
+      "id": 133301,
+      "name": "○○○○○○○○殺人事件",
+      "nameCN": "",
+      "date": "2014-09-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 144312,
+      "name": "虹の歯ブラシ 上木らいち発散",
+      "nameCN": "彩虹牙刷",
+      "date": "2015-02-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 211651,
+      "name": "誰も僕を裁けない",
+      "nameCN": "",
+      "date": "2016-03-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 211650,
+      "name": "双蛇密室",
+      "nameCN": "",
+      "date": "2017-04-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 279880,
+      "name": "メーラーデーモンの戦慄",
+      "nameCN": "",
+      "date": "2018-09-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 133301,
+      "dst": 144312
+    },
+    {
+      "relateString": "前传",
+      "src": 144312,
+      "dst": 133301
+    },
+    {
+      "relateString": "续集",
+      "src": 144312,
+      "dst": 211651
+    },
+    {
+      "relateString": "前传",
+      "src": 211650,
+      "dst": 211651
+    },
+    {
+      "relateString": "续集",
+      "src": 211650,
+      "dst": 279880
+    },
+    {
+      "relateString": "前传",
+      "src": 211651,
+      "dst": 144312
+    },
+    {
+      "relateString": "续集",
+      "src": 211651,
+      "dst": 211650
+    },
+    {
+      "relateString": "前传",
+      "src": 279880,
+      "dst": 211650
+    }
+  ]
 }

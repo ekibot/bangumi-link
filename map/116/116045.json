@@ -1,37 +1,35 @@
 {
- "id": 116045,
- "node": [
-  {
-   "id": 116045,
-   "name": "妖怪名单",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/11/116045_5u9Mg.jpg",
-   "date": "2014-12-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 146181,
-   "name": "妖怪名单 第二季",
-   "nameCN": "妖怪名单 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/aa/146181_n5oEQ.jpg",
-   "date": "2017-08-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 116045,
-   "dst": 146181
-  },
-  {
-   "relate": "前传",
-   "src": 146181,
-   "dst": 116045
-  }
- ]
+  "id": "116045",
+  "node": [
+    {
+      "id": 116045,
+      "name": "妖怪名单",
+      "nameCN": "",
+      "date": "2014-12-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 146181,
+      "name": "妖怪名单 第二季",
+      "nameCN": "妖怪名单 第二季",
+      "date": "2017-08-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 116045,
+      "dst": 146181
+    },
+    {
+      "relateString": "前传",
+      "src": 146181,
+      "dst": 116045
+    }
+  ]
 }

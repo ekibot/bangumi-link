@@ -1,0 +1,54 @@
+{
+  "id": "16805",
+  "node": [
+    {
+      "id": 16805,
+      "name": "タイムボカン",
+      "nameCN": "时间飞船",
+      "date": "1975-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 175529,
+      "name": "タイムボカン24",
+      "nameCN": "时间飞船24",
+      "date": "2016-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 212009,
+      "name": "タイムボカン 逆襲の三悪人",
+      "nameCN": "时间飞船 逆袭的三恶人",
+      "date": "2017-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 16805,
+      "dst": 175529
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 175529,
+      "dst": 16805
+    },
+    {
+      "relateString": "续集",
+      "src": 175529,
+      "dst": 212009
+    },
+    {
+      "relateString": "前传",
+      "src": 212009,
+      "dst": 175529
+    }
+  ]
+}

@@ -1,62 +1,58 @@
 {
- "id": 393236,
- "node": [
-  {
-   "id": 393236,
-   "name": "Lands of Lore: Guardians of Destiny",
-   "nameCN": "大地传说之二：命运守护神",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/74/393236_LOV2b.jpg",
-   "date": "1997-09-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 393237,
-   "name": "Lands of Lore: The Throne of Chaos",
-   "nameCN": "大地传说：黑暗王座",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/e8/393237_qBQfu.jpg",
-   "type": 4,
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 393239,
-   "name": "Lands of Lore III",
-   "nameCN": "大地传说3",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/fa/393239_zSq6r.jpg",
-   "type": 4,
-   "date": "1999-04-02",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 393236,
-   "dst": 393237
-  },
-  {
-   "relate": "续集",
-   "src": 393236,
-   "dst": 393239
-  },
-  {
-   "relate": "续集",
-   "src": 393237,
-   "dst": 393236
-  },
-  {
-   "relate": "续集",
-   "src": 393237,
-   "dst": 393239
-  },
-  {
-   "relate": "前传",
-   "src": 393239,
-   "dst": 393236
-  }
- ]
+  "id": "393236",
+  "node": [
+    {
+      "id": 393236,
+      "name": "Lands of Lore: Guardians of Destiny",
+      "nameCN": "大地传说之二：命运守护神",
+      "date": "1997-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 393237,
+      "name": "Lands of Lore: The Throne of Chaos",
+      "nameCN": "大地传说：黑暗王座",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 393239,
+      "name": "Lands of Lore III",
+      "nameCN": "大地传说3",
+      "date": "1999-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 393236,
+      "dst": 393237
+    },
+    {
+      "relateString": "续集",
+      "src": 393236,
+      "dst": 393239
+    },
+    {
+      "relateString": "续集",
+      "src": 393237,
+      "dst": 393236
+    },
+    {
+      "relateString": "续集",
+      "src": 393237,
+      "dst": 393239
+    },
+    {
+      "relateString": "前传",
+      "src": 393239,
+      "dst": 393236
+    }
+  ]
 }

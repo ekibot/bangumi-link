@@ -1,37 +1,33 @@
 {
- "id": 294308,
- "node": [
-  {
-   "id": 294308,
-   "name": "伪装学渣（上）",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/31/294308_Q41bn.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 294309,
-   "name": "伪装学渣（下）",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/07/294309_8zZ3G.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294308,
-   "dst": 294309
-  },
-  {
-   "relate": "前传",
-   "src": 294309,
-   "dst": 294308
-  }
- ]
+  "id": "294308",
+  "node": [
+    {
+      "id": 294308,
+      "name": "伪装学渣（上）",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 294309,
+      "name": "伪装学渣（下）",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294308,
+      "dst": 294309
+    },
+    {
+      "relateString": "前传",
+      "src": 294309,
+      "dst": 294308
+    }
+  ]
 }

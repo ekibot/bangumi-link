@@ -1,37 +1,35 @@
 {
- "id": 81044,
- "node": [
-  {
-   "id": 81044,
-   "name": "バタアシ金魚",
-   "nameCN": "笨金鱼",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/12/81044_q7q7h.jpg",
-   "date": "1986-05-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 328194,
-   "name": "お茶の間",
-   "nameCN": "饮茶时间",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/cb/328194_G7UG6.jpg",
-   "date": "1992-02-05",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 81044,
-   "dst": 328194
-  },
-  {
-   "relate": "前传",
-   "src": 328194,
-   "dst": 81044
-  }
- ]
+  "id": "81044",
+  "node": [
+    {
+      "id": 81044,
+      "name": "バタアシ金魚",
+      "nameCN": "笨金鱼",
+      "date": "1986-05-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 328194,
+      "name": "お茶の間",
+      "nameCN": "饮茶时间",
+      "date": "1992-02-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 81044,
+      "dst": 328194
+    },
+    {
+      "relateString": "前传",
+      "src": 328194,
+      "dst": 81044
+    }
+  ]
 }

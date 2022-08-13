@@ -1,37 +1,35 @@
 {
- "id": 151249,
- "node": [
-  {
-   "id": 151249,
-   "name": "幻想書簡・架",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/93/151249_jp.jpg",
-   "date": "2004-07-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 151250,
-   "name": "幻想書簡・戒",
-   "date": "2005-01-28",
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 151249,
-   "dst": 151250
-  },
-  {
-   "relate": "前传",
-   "src": 151250,
-   "dst": 151249
-  }
- ]
+  "id": "151249",
+  "node": [
+    {
+      "id": 151249,
+      "name": "幻想書簡・架",
+      "nameCN": "",
+      "date": "2004-07-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 151250,
+      "name": "幻想書簡・戒",
+      "nameCN": "",
+      "date": "2005-01-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 151249,
+      "dst": 151250
+    },
+    {
+      "relateString": "前传",
+      "src": 151250,
+      "dst": 151249
+    }
+  ]
 }

@@ -1,28 +1,35 @@
 {
- "id": 211528,
- "node": [
-  {
-   "id": 211528,
-   "name": "惚れ薬を飲んだ兄ちゃんが俺のおしりを狙ってる!?",
-   "nameCN": "喝下媚藥的哥哥盯上了我的XX！？  Vol.01",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/b8/211528_jp.jpg",
-   "date": "2016-07-18",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 250058,
-   "name": "惚れ薬を飲んだ兄ちゃんが俺のおしりを狙ってる!? 2",
-   "nameCN": "喝下媚藥的哥哥盯上了我的XX！？  2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/51/250058_phNb3.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211528,
-   "dst": 250058
-  }
- ]
+  "id": "211528",
+  "node": [
+    {
+      "id": 211528,
+      "name": "惚れ薬を飲んだ兄ちゃんが俺のおしりを狙ってる!?",
+      "nameCN": "喝下媚藥的哥哥盯上了我的XX！？  Vol.01",
+      "date": "2016-07-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 250058,
+      "name": "惚れ薬を飲んだ兄ちゃんが俺のおしりを狙ってる!? 2",
+      "nameCN": "喝下媚藥的哥哥盯上了我的XX！？  2",
+      "date": "2017-01-18",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211528,
+      "dst": 250058
+    },
+    {
+      "relateString": "前传",
+      "src": 250058,
+      "dst": 211528
+    }
+  ]
 }

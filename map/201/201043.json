@@ -1,37 +1,33 @@
 {
- "id": 201043,
- "node": [
-  {
-   "id": 201043,
-   "name": "水色時代",
-   "nameCN": "水色时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/d1/201043_hj2Ah.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 201055,
-   "name": "新水色時代",
-   "nameCN": "新水色时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/4b/201055_9Ux4e.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 201043,
-   "dst": 201055
-  },
-  {
-   "relate": "前传",
-   "src": 201055,
-   "dst": 201043
-  }
- ]
+  "id": "201043",
+  "node": [
+    {
+      "id": 201043,
+      "name": "水色時代",
+      "nameCN": "水色时代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 201055,
+      "name": "新水色時代",
+      "nameCN": "新水色时代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 201043,
+      "dst": 201055
+    },
+    {
+      "relateString": "前传",
+      "src": 201055,
+      "dst": 201043
+    }
+  ]
 }

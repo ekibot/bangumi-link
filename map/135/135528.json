@@ -1,37 +1,34 @@
 {
- "id": 135528,
- "node": [
-  {
-   "id": 135528,
-   "name": "出ない部屋から弟が！",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/fe/135528_HbqA5.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 272331,
-   "name": "行くよ神社に弟と！",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/51/272331_SzmK9.jpg",
-   "date": "2015-01-05",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135528,
-   "dst": 272331
-  },
-  {
-   "relate": "前传",
-   "src": 272331,
-   "dst": 135528
-  }
- ]
+  "id": "135528",
+  "node": [
+    {
+      "id": 135528,
+      "name": "出ない部屋から弟が！",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272331,
+      "name": "行くよ神社に弟と！",
+      "nameCN": "",
+      "date": "2015-01-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135528,
+      "dst": 272331
+    },
+    {
+      "relateString": "前传",
+      "src": 272331,
+      "dst": 135528
+    }
+  ]
 }

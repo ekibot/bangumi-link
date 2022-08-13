@@ -1,37 +1,35 @@
 {
- "id": 62115,
- "node": [
-  {
-   "id": 62115,
-   "name": "尸兄",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/03/62115_16jqQ.jpg",
-   "date": "2013-01-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 131225,
-   "name": "我叫白小飞",
-   "nameCN": "我叫白小飞",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/cb/131225_5c8cf.jpg",
-   "date": "2015-04-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 62115,
-   "dst": 131225
-  },
-  {
-   "relate": "前传",
-   "src": 131225,
-   "dst": 62115
-  }
- ]
+  "id": "62115",
+  "node": [
+    {
+      "id": 62115,
+      "name": "尸兄",
+      "nameCN": "",
+      "date": "2013-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 131225,
+      "name": "我叫白小飞",
+      "nameCN": "我叫白小飞",
+      "date": "2015-04-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 62115,
+      "dst": 131225
+    },
+    {
+      "relateString": "前传",
+      "src": 131225,
+      "dst": 62115
+    }
+  ]
 }

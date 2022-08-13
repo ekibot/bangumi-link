@@ -1,77 +1,70 @@
 {
- "id": 77222,
- "node": [
-  {
-   "id": 77222,
-   "name": "G.I. Joe: The Rise of Cobra",
-   "nameCN": "特种部队：眼镜蛇的崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/a5/77222_z7KV4.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 77223,
-   "name": "G.I. Joe: Retaliation",
-   "nameCN": "特种部队：全面反击",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/12/77223_yhYUU.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 322681,
-   "name": "Snake Eyes: G.I. Joe Origins",
-   "nameCN": "特种部队：蛇眼",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/d7/322681_x7iFZ.jpg",
-   "date": "2021-07-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 322682,
-   "name": "G.I. Joe: Ever Vigilant",
-   "nameCN": "特种部队：永远警觉",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77222,
-   "dst": 77223
-  },
-  {
-   "relate": "番外篇",
-   "src": 77222,
-   "dst": 322681
-  },
-  {
-   "relate": "前传",
-   "src": 77223,
-   "dst": 77222
-  },
-  {
-   "relate": "续集",
-   "src": 77223,
-   "dst": 322682
-  },
-  {
-   "relate": "主线故事",
-   "src": 322681,
-   "dst": 77222
-  },
-  {
-   "relate": "前传",
-   "src": 322682,
-   "dst": 77223
-  }
- ]
+  "id": "77222",
+  "node": [
+    {
+      "id": 77222,
+      "name": "G.I. Joe: The Rise of Cobra",
+      "nameCN": "特种部队：眼镜蛇的崛起",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 77223,
+      "name": "G.I. Joe: Retaliation",
+      "nameCN": "特种部队：全面反击",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 322681,
+      "name": "Snake Eyes: G.I. Joe Origins",
+      "nameCN": "特种部队：蛇眼",
+      "date": "2021-07-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 322682,
+      "name": "G.I. Joe: Ever Vigilant",
+      "nameCN": "特种部队：永远警觉",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77222,
+      "dst": 77223
+    },
+    {
+      "relateString": "番外篇",
+      "src": 77222,
+      "dst": 322681
+    },
+    {
+      "relateString": "前传",
+      "src": 77223,
+      "dst": 77222
+    },
+    {
+      "relateString": "续集",
+      "src": 77223,
+      "dst": 322682
+    },
+    {
+      "relateString": "主线故事",
+      "src": 322681,
+      "dst": 77222
+    },
+    {
+      "relateString": "前传",
+      "src": 322682,
+      "dst": 77223
+    }
+  ]
 }

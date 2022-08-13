@@ -1,37 +1,35 @@
 {
- "id": 104838,
- "node": [
-  {
-   "id": 104838,
-   "name": "Murder in the First Season 1",
-   "nameCN": "谜案追凶 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/a5/104838_a9BaB.jpg",
-   "date": "2014-06-09",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 136914,
-   "name": "Murder in the First Season 2",
-   "nameCN": "谜案追凶 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/55/136914_NKh8E.jpg",
-   "date": "2015-06-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104838,
-   "dst": 136914
-  },
-  {
-   "relate": "前传",
-   "src": 136914,
-   "dst": 104838
-  }
- ]
+  "id": "104838",
+  "node": [
+    {
+      "id": 104838,
+      "name": "Murder in the First Season 1",
+      "nameCN": "谜案追凶 第一季",
+      "date": "2014-06-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 136914,
+      "name": "Murder in the First Season 2",
+      "nameCN": "谜案追凶 第二季",
+      "date": "2015-06-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104838,
+      "dst": 136914
+    },
+    {
+      "relateString": "前传",
+      "src": 136914,
+      "dst": 104838
+    }
+  ]
 }

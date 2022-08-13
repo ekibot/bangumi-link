@@ -1,57 +1,52 @@
 {
- "id": 143470,
- "node": [
-  {
-   "id": 143470,
-   "name": "蘇州夜曲",
-   "nameCN": "苏州夜曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/fa/143470_EbmSb.jpg",
-   "date": "1981-02-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 143474,
-   "name": "南京路に花吹雪",
-   "nameCN": "南京路上花吹雪",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/e4/143474_0Dy6z.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 143479,
-   "name": "Shang-hai 1945",
-   "nameCN": "上海 1945",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/24/143479_ot2Ak.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143470,
-   "dst": 143474
-  },
-  {
-   "relate": "前传",
-   "src": 143474,
-   "dst": 143470
-  },
-  {
-   "relate": "续集",
-   "src": 143474,
-   "dst": 143479
-  },
-  {
-   "relate": "前传",
-   "src": 143479,
-   "dst": 143474
-  }
- ]
+  "id": "143470",
+  "node": [
+    {
+      "id": 143470,
+      "name": "蘇州夜曲",
+      "nameCN": "苏州夜曲",
+      "date": "1981-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143474,
+      "name": "南京路に花吹雪",
+      "nameCN": "南京路上花吹雪",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143479,
+      "name": "Shang-hai 1945",
+      "nameCN": "上海 1945",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143470,
+      "dst": 143474
+    },
+    {
+      "relateString": "前传",
+      "src": 143474,
+      "dst": 143470
+    },
+    {
+      "relateString": "续集",
+      "src": 143474,
+      "dst": 143479
+    },
+    {
+      "relateString": "前传",
+      "src": 143479,
+      "dst": 143474
+    }
+  ]
 }

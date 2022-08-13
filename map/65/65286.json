@@ -1,57 +1,54 @@
 {
- "id": 65286,
- "node": [
-  {
-   "id": 65286,
-   "name": "キャプテン",
-   "nameCN": "青少棒扬威记",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/ef/65286_0IGg4.jpg",
-   "date": "1983-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 113899,
-   "name": "プレイボール",
-   "nameCN": "棒球物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/f7/113899_AEOC7.jpg",
-   "date": "2005-07-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 113902,
-   "name": "プレイボール 2nd",
-   "nameCN": "棒球物语 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/02/113902_r7nW9.jpg",
-   "date": "2006-01-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65286,
-   "dst": 113899
-  },
-  {
-   "relate": "前传",
-   "src": 113899,
-   "dst": 65286
-  },
-  {
-   "relate": "续集",
-   "src": 113899,
-   "dst": 113902
-  },
-  {
-   "relate": "前传",
-   "src": 113902,
-   "dst": 113899
-  }
- ]
+  "id": "65286",
+  "node": [
+    {
+      "id": 65286,
+      "name": "キャプテン",
+      "nameCN": "青少棒扬威记",
+      "date": "1983-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113899,
+      "name": "プレイボール",
+      "nameCN": "棒球物语",
+      "date": "2005-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113902,
+      "name": "プレイボール 2nd",
+      "nameCN": "棒球物语 第2期",
+      "date": "2006-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65286,
+      "dst": 113899
+    },
+    {
+      "relateString": "前传",
+      "src": 113899,
+      "dst": 65286
+    },
+    {
+      "relateString": "续集",
+      "src": 113899,
+      "dst": 113902
+    },
+    {
+      "relateString": "前传",
+      "src": 113902,
+      "dst": 113899
+    }
+  ]
 }

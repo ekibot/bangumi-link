@@ -1,37 +1,33 @@
 {
- "id": 179915,
- "node": [
-  {
-   "id": 179915,
-   "name": "不死の猟犬",
-   "nameCN": "不死的猎犬",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/06/179915_7hZz4.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 249760,
-   "name": "不死の稜線",
-   "nameCN": "不死的棱线",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/2b/249760_0knGD.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 179915,
-   "dst": 249760
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249760,
-   "dst": 179915
-  }
- ]
+  "id": "179915",
+  "node": [
+    {
+      "id": 179915,
+      "name": "不死の猟犬",
+      "nameCN": "不死的猎犬",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 249760,
+      "name": "不死の稜線",
+      "nameCN": "不死的棱线",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 179915,
+      "dst": 249760
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249760,
+      "dst": 179915
+    }
+  ]
 }

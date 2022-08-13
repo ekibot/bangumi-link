@@ -1,0 +1,111 @@
+{
+  "id": "4756",
+  "node": [
+    {
+      "id": 4756,
+      "name": "ロックマンエグゼBEAST",
+      "nameCN": "洛克人EXE BEAST",
+      "date": "2005-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5232,
+      "name": "ロックマンエグゼStream",
+      "nameCN": "洛克人EXE STREAM",
+      "date": "2004-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5233,
+      "name": "ロックマンエグゼBEAST+",
+      "nameCN": "洛克人EXE BEAST+",
+      "date": "2006-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5229,
+      "name": "劇場版ロックマンエグゼ 光と闇の遺産",
+      "nameCN": "网络英雄洛克人剧场版 光与暗之遗产",
+      "date": "2005-03-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 5230,
+      "name": "ロックマンエグゼ",
+      "nameCN": "洛克人EXE Season",
+      "date": "2002-03-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5231,
+      "name": "ロックマンエグゼAXESS",
+      "nameCN": "洛克人EXE AXESS",
+      "date": "2003-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 4756,
+      "dst": 5232
+    },
+    {
+      "relateString": "续集",
+      "src": 4756,
+      "dst": 5233
+    },
+    {
+      "relateString": "主线故事",
+      "src": 5229,
+      "dst": 5232
+    },
+    {
+      "relateString": "续集",
+      "src": 5230,
+      "dst": 5231
+    },
+    {
+      "relateString": "前传",
+      "src": 5231,
+      "dst": 5230
+    },
+    {
+      "relateString": "续集",
+      "src": 5231,
+      "dst": 5232
+    },
+    {
+      "relateString": "续集",
+      "src": 5232,
+      "dst": 4756
+    },
+    {
+      "relateString": "番外篇",
+      "src": 5232,
+      "dst": 5229
+    },
+    {
+      "relateString": "前传",
+      "src": 5232,
+      "dst": 5231
+    },
+    {
+      "relateString": "前传",
+      "src": 5233,
+      "dst": 4756
+    }
+  ]
+}

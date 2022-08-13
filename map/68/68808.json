@@ -1,37 +1,35 @@
 {
- "id": 68808,
- "node": [
-  {
-   "id": 68808,
-   "name": "孔雀王",
-   "nameCN": "孔雀王 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/7a/68808_4qkqE.jpg",
-   "date": "1988-04-29",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 69028,
-   "name": "真・孔雀王",
-   "nameCN": "真·孔雀王",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/db/69028_U1v66.jpg",
-   "date": "1994-06-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68808,
-   "dst": 69028
-  },
-  {
-   "relate": "前传",
-   "src": 69028,
-   "dst": 68808
-  }
- ]
+  "id": "68808",
+  "node": [
+    {
+      "id": 68808,
+      "name": "孔雀王",
+      "nameCN": "孔雀王 OVA",
+      "date": "1988-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 69028,
+      "name": "真・孔雀王",
+      "nameCN": "真·孔雀王",
+      "date": "1994-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68808,
+      "dst": 69028
+    },
+    {
+      "relateString": "前传",
+      "src": 69028,
+      "dst": 68808
+    }
+  ]
 }

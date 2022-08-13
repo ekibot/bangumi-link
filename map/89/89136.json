@@ -1,37 +1,35 @@
 {
- "id": 89136,
- "node": [
-  {
-   "id": 89136,
-   "name": "The Amazing Spider-Man",
-   "nameCN": "超凡蜘蛛侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/f7/89136_9gpVJ.jpg",
-   "date": "2012-06-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 285540,
-   "name": "The Amazing Spider-Man 2",
-   "nameCN": "超凡蜘蛛侠 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/8c/285540_z3Edu.jpg",
-   "date": "2014-04-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89136,
-   "dst": 285540
-  },
-  {
-   "relate": "前传",
-   "src": 285540,
-   "dst": 89136
-  }
- ]
+  "id": "89136",
+  "node": [
+    {
+      "id": 89136,
+      "name": "The Amazing Spider-Man",
+      "nameCN": "超凡蜘蛛侠",
+      "date": "2012-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285540,
+      "name": "The Amazing Spider-Man 2",
+      "nameCN": "超凡蜘蛛侠 2",
+      "date": "2014-04-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89136,
+      "dst": 285540
+    },
+    {
+      "relateString": "前传",
+      "src": 285540,
+      "dst": 89136
+    }
+  ]
 }

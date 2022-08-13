@@ -1,37 +1,35 @@
 {
- "id": 75242,
- "node": [
-  {
-   "id": 75242,
-   "name": "Kill Bill: Volume 1",
-   "nameCN": "杀死比尔1",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/d3/75242_unun6.jpg",
-   "date": "2003-10-10",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 179042,
-   "name": "Kill Bill: Volume 2",
-   "nameCN": "杀死比尔2",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/b4/179042_6cBBi.jpg",
-   "date": "2004-04-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75242,
-   "dst": 179042
-  },
-  {
-   "relate": "前传",
-   "src": 179042,
-   "dst": 75242
-  }
- ]
+  "id": "75242",
+  "node": [
+    {
+      "id": 75242,
+      "name": "Kill Bill: Volume 1",
+      "nameCN": "杀死比尔1",
+      "date": "2003-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 179042,
+      "name": "Kill Bill: Volume 2",
+      "nameCN": "杀死比尔2",
+      "date": "2004-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75242,
+      "dst": 179042
+    },
+    {
+      "relateString": "前传",
+      "src": 179042,
+      "dst": 75242
+    }
+  ]
 }

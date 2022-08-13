@@ -1,37 +1,34 @@
 {
- "id": 136916,
- "node": [
-  {
-   "id": 136916,
-   "name": "みんなでスペランカーZ",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/54/136916_Q7SPm.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 206400,
-   "name": "みんなでスペランカー",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/78/206400_cqIIk.jpg",
-   "date": "2009-03-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 136916,
-   "dst": 206400
-  },
-  {
-   "relate": "续集",
-   "src": 206400,
-   "dst": 136916
-  }
- ]
+  "id": "136916",
+  "node": [
+    {
+      "id": 136916,
+      "name": "みんなでスペランカーZ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206400,
+      "name": "みんなでスペランカー",
+      "nameCN": "",
+      "date": "2009-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 136916,
+      "dst": 206400
+    },
+    {
+      "relateString": "续集",
+      "src": 206400,
+      "dst": 136916
+    }
+  ]
 }

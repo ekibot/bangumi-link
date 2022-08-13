@@ -1,37 +1,35 @@
 {
- "id": 267384,
- "node": [
-  {
-   "id": 267384,
-   "name": "夜明けにふる、(上)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/15/267384_jpJH5.jpg",
-   "date": "2018-12-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 267385,
-   "name": "夜明けにふる、(下)",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/ca/267385_KXGcI.jpg",
-   "date": "2018-12-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 267384,
-   "dst": 267385
-  },
-  {
-   "relate": "前传",
-   "src": 267385,
-   "dst": 267384
-  }
- ]
+  "id": "267384",
+  "node": [
+    {
+      "id": 267384,
+      "name": "夜明けにふる、(上)",
+      "nameCN": "",
+      "date": "2018-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 267385,
+      "name": "夜明けにふる、(下)",
+      "nameCN": "",
+      "date": "2018-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 267384,
+      "dst": 267385
+    },
+    {
+      "relateString": "前传",
+      "src": 267385,
+      "dst": 267384
+    }
+  ]
 }

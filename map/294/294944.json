@@ -1,37 +1,35 @@
 {
- "id": 294944,
- "node": [
-  {
-   "id": 294944,
-   "name": "Escape Goat",
-   "nameCN": "山羊逃脱",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/a1/294944_1Rt0z.jpg",
-   "date": "2012-06-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294945,
-   "name": "Escape Goat 2",
-   "nameCN": "山羊逃脱2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/a4/294945_KK7ty.jpg",
-   "date": "2014-03-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294944,
-   "dst": 294945
-  },
-  {
-   "relate": "前传",
-   "src": 294945,
-   "dst": 294944
-  }
- ]
+  "id": "294944",
+  "node": [
+    {
+      "id": 294944,
+      "name": "Escape Goat",
+      "nameCN": "山羊逃脱",
+      "date": "2012-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294945,
+      "name": "Escape Goat 2",
+      "nameCN": "山羊逃脱2",
+      "date": "2014-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294944,
+      "dst": 294945
+    },
+    {
+      "relateString": "前传",
+      "src": 294945,
+      "dst": 294944
+    }
+  ]
 }

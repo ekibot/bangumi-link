@@ -1,37 +1,35 @@
 {
- "id": 185823,
- "node": [
-  {
-   "id": 185823,
-   "name": "Creeper World 3: Arc Eternal",
-   "nameCN": "爬行世界3：永恒之弧",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/f9/185823_Yyo5u.jpg",
-   "date": "2014-03-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321796,
-   "name": "Creeper World 4",
-   "nameCN": "爬行世界4",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/62/321796_OfqAO.jpg",
-   "date": "2020-12-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185823,
-   "dst": 321796
-  },
-  {
-   "relate": "前传",
-   "src": 321796,
-   "dst": 185823
-  }
- ]
+  "id": "185823",
+  "node": [
+    {
+      "id": 185823,
+      "name": "Creeper World 3: Arc Eternal",
+      "nameCN": "爬行世界3：永恒之弧",
+      "date": "2014-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321796,
+      "name": "Creeper World 4",
+      "nameCN": "爬行世界4",
+      "date": "2020-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185823,
+      "dst": 321796
+    },
+    {
+      "relateString": "前传",
+      "src": 321796,
+      "dst": 185823
+    }
+  ]
 }

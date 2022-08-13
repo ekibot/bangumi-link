@@ -1,67 +1,62 @@
 {
- "id": 112542,
- "node": [
-  {
-   "id": 112542,
-   "name": "マリンとヤマト 不思議な日曜日",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/08/112542_k55i9.jpg",
-   "date": "2000-12-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 112782,
-   "name": "千年の約束",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/6a/112782_664Ks.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 114188,
-   "name": "ご案内しますアナザーワールドへ",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/7d/114188_2ZFW3.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 112542,
-   "dst": 112782
-  },
-  {
-   "relate": "续集",
-   "src": 112542,
-   "dst": 114188
-  },
-  {
-   "relate": "前传",
-   "src": 112782,
-   "dst": 112542
-  },
-  {
-   "relate": "前传",
-   "src": 112782,
-   "dst": 114188
-  },
-  {
-   "relate": "前传",
-   "src": 114188,
-   "dst": 112542
-  },
-  {
-   "relate": "续集",
-   "src": 114188,
-   "dst": 112782
-  }
- ]
+  "id": "112542",
+  "node": [
+    {
+      "id": 112542,
+      "name": "マリンとヤマト 不思議な日曜日",
+      "nameCN": "",
+      "date": "2000-12-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 112782,
+      "name": "千年の約束",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 114188,
+      "name": "ご案内しますアナザーワールドへ",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 112542,
+      "dst": 112782
+    },
+    {
+      "relateString": "续集",
+      "src": 112542,
+      "dst": 114188
+    },
+    {
+      "relateString": "前传",
+      "src": 112782,
+      "dst": 112542
+    },
+    {
+      "relateString": "前传",
+      "src": 112782,
+      "dst": 114188
+    },
+    {
+      "relateString": "前传",
+      "src": 114188,
+      "dst": 112542
+    },
+    {
+      "relateString": "续集",
+      "src": 114188,
+      "dst": 112782
+    }
+  ]
 }

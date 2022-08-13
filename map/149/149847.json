@@ -1,57 +1,54 @@
 {
- "id": 149847,
- "node": [
-  {
-   "id": 149847,
-   "name": "ゆららの月",
-   "nameCN": "朦胧的月",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/54/149847_727D0.jpg",
-   "date": "2003-02-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 149848,
-   "name": "らせつの花",
-   "nameCN": "罗刹斯之花",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/99/149848_8UvCi.jpg",
-   "date": "2006-05-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 149871,
-   "name": "ゆめの守人",
-   "nameCN": "守梦人",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/17/149871_XMWX7.jpg",
-   "date": "2014-12-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 149847,
-   "dst": 149848
-  },
-  {
-   "relate": "前传",
-   "src": 149848,
-   "dst": 149847
-  },
-  {
-   "relate": "续集",
-   "src": 149848,
-   "dst": 149871
-  },
-  {
-   "relate": "前传",
-   "src": 149871,
-   "dst": 149848
-  }
- ]
+  "id": "149847",
+  "node": [
+    {
+      "id": 149847,
+      "name": "ゆららの月",
+      "nameCN": "朦胧的月",
+      "date": "2003-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 149848,
+      "name": "らせつの花",
+      "nameCN": "罗刹斯之花",
+      "date": "2006-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 149871,
+      "name": "ゆめの守人",
+      "nameCN": "守梦人",
+      "date": "2014-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 149847,
+      "dst": 149848
+    },
+    {
+      "relateString": "前传",
+      "src": 149848,
+      "dst": 149847
+    },
+    {
+      "relateString": "续集",
+      "src": 149848,
+      "dst": 149871
+    },
+    {
+      "relateString": "前传",
+      "src": 149871,
+      "dst": 149848
+    }
+  ]
 }

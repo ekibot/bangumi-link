@@ -1,37 +1,35 @@
 {
- "id": 265027,
- "node": [
-  {
-   "id": 265027,
-   "name": "恋色☆DEVIL",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/80/265027_TYTkm.jpg",
-   "date": "2010-05-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 265043,
-   "name": "蜜色☆DEVIL",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/b0/265043_38t06.jpg",
-   "date": "2009-06-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 265027,
-   "dst": 265043
-  },
-  {
-   "relate": "续集",
-   "src": 265043,
-   "dst": 265027
-  }
- ]
+  "id": "265027",
+  "node": [
+    {
+      "id": 265027,
+      "name": "恋色☆DEVIL",
+      "nameCN": "",
+      "date": "2010-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 265043,
+      "name": "蜜色☆DEVIL",
+      "nameCN": "",
+      "date": "2009-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 265027,
+      "dst": 265043
+    },
+    {
+      "relateString": "续集",
+      "src": 265043,
+      "dst": 265027
+    }
+  ]
 }

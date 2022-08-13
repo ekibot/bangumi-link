@@ -1,97 +1,88 @@
 {
- "id": 160134,
- "node": [
-  {
-   "id": 160134,
-   "name": "アドリブオフサイド",
-   "date": "2002-07-27",
-   "nameCN": "",
-   "image": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 160146,
-   "name": "アドリブ店長",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160151,
-   "name": "アドリブ店長R",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160163,
-   "name": "アドリブ王子",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160168,
-   "name": "超アドリブ王子",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 160134,
-   "dst": 160146
-  },
-  {
-   "relate": "番外篇",
-   "src": 160146,
-   "dst": 160134
-  },
-  {
-   "relate": "续集",
-   "src": 160146,
-   "dst": 160151
-  },
-  {
-   "relate": "番外篇",
-   "src": 160146,
-   "dst": 160163
-  },
-  {
-   "relate": "前传",
-   "src": 160151,
-   "dst": 160146
-  },
-  {
-   "relate": "主线故事",
-   "src": 160163,
-   "dst": 160146
-  },
-  {
-   "relate": "续集",
-   "src": 160163,
-   "dst": 160168
-  },
-  {
-   "relate": "前传",
-   "src": 160168,
-   "dst": 160163
-  }
- ]
+  "id": "160134",
+  "node": [
+    {
+      "id": 160134,
+      "name": "アドリブオフサイド",
+      "nameCN": "",
+      "date": "2002-07-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160146,
+      "name": "アドリブ店長",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160151,
+      "name": "アドリブ店長R",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160163,
+      "name": "アドリブ王子",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160168,
+      "name": "超アドリブ王子",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 160134,
+      "dst": 160146
+    },
+    {
+      "relateString": "番外篇",
+      "src": 160146,
+      "dst": 160134
+    },
+    {
+      "relateString": "续集",
+      "src": 160146,
+      "dst": 160151
+    },
+    {
+      "relateString": "番外篇",
+      "src": 160146,
+      "dst": 160163
+    },
+    {
+      "relateString": "前传",
+      "src": 160151,
+      "dst": 160146
+    },
+    {
+      "relateString": "主线故事",
+      "src": 160163,
+      "dst": 160146
+    },
+    {
+      "relateString": "续集",
+      "src": 160163,
+      "dst": 160168
+    },
+    {
+      "relateString": "前传",
+      "src": 160168,
+      "dst": 160163
+    }
+  ]
 }

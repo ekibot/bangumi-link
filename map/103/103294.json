@@ -1,37 +1,35 @@
 {
- "id": 103294,
- "node": [
-  {
-   "id": 103294,
-   "name": "月光坂の花屋敷 春",
-   "nameCN": "月光坂的花園大宅 春",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/13/103294_jp.jpg",
-   "date": "2014-05-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 212578,
-   "name": "月光坂の花屋敷 秋",
-   "nameCN": "月光坂的花園大宅 秋",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/92/212578_jp.jpg",
-   "date": "2015-05-07",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103294,
-   "dst": 212578
-  },
-  {
-   "relate": "前传",
-   "src": 212578,
-   "dst": 103294
-  }
- ]
+  "id": "103294",
+  "node": [
+    {
+      "id": 103294,
+      "name": "月光坂の花屋敷 春",
+      "nameCN": "月光坂的花園大宅 春",
+      "date": "2014-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 212578,
+      "name": "月光坂の花屋敷 秋",
+      "nameCN": "月光坂的花園大宅 秋",
+      "date": "2015-05-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103294,
+      "dst": 212578
+    },
+    {
+      "relateString": "前传",
+      "src": 212578,
+      "dst": 103294
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 299498,
- "node": [
-  {
-   "id": 299498,
-   "name": "宇崎ちゃんは遊びたい!",
-   "nameCN": "宇崎学妹想要玩！",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/42/299498_077M0.jpg",
-   "date": "2020-07-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 315744,
-   "name": "宇崎ちゃんは遊びたい！ω（だぶる）",
-   "nameCN": "宇崎学妹想要玩！第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/d8/315744_lDD6L.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 299498,
-   "dst": 315744
-  },
-  {
-   "relate": "前传",
-   "src": 315744,
-   "dst": 299498
-  }
- ]
+  "id": "299498",
+  "node": [
+    {
+      "id": 299498,
+      "name": "宇崎ちゃんは遊びたい!",
+      "nameCN": "宇崎学妹想要玩！",
+      "date": "2020-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 315744,
+      "name": "宇崎ちゃんは遊びたい！ω（だぶる）",
+      "nameCN": "宇崎学妹想要玩！第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 299498,
+      "dst": 315744
+    },
+    {
+      "relateString": "前传",
+      "src": 315744,
+      "dst": 299498
+    }
+  ]
 }

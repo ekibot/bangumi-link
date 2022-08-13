@@ -1,57 +1,51 @@
 {
- "id": 135765,
- "node": [
-  {
-   "id": 135765,
-   "name": "B.P.R.D.",
-   "nameCN": "超自然研究防御局",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/ab/135765_VzoBv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 135782,
-   "name": "B.P.R.D. Hell on Earth",
-   "nameCN": "超自然研究防御局：人间地狱",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/f9/135782_i248i.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 135796,
-   "name": "Hellboy",
-   "nameCN": "地狱小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/74/135796_r5w5Y.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135765,
-   "dst": 135782
-  },
-  {
-   "relate": "相同世界观",
-   "src": 135765,
-   "dst": 135796
-  },
-  {
-   "relate": "前传",
-   "src": 135782,
-   "dst": 135765
-  },
-  {
-   "relate": "相同世界观",
-   "src": 135796,
-   "dst": 135765
-  }
- ]
+  "id": "135765",
+  "node": [
+    {
+      "id": 135765,
+      "name": "B.P.R.D.",
+      "nameCN": "超自然研究防御局",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 135782,
+      "name": "B.P.R.D. Hell on Earth",
+      "nameCN": "超自然研究防御局：人间地狱",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 135796,
+      "name": "Hellboy",
+      "nameCN": "地狱小子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135765,
+      "dst": 135782
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 135765,
+      "dst": 135796
+    },
+    {
+      "relateString": "前传",
+      "src": 135782,
+      "dst": 135765
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 135796,
+      "dst": 135765
+    }
+  ]
 }

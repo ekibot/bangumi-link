@@ -1,99 +1,96 @@
 {
- "id": 122928,
- "node": [
-  {
-   "id": 122928,
-   "name": "Evenicle -イブニクル-",
-   "nameCN": "夏娃年代记",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/33/122928_P5cgO.jpg",
-   "date": "2015-04-24",
-   "type": 4
-  },
-  {
-   "id": 137384,
-   "name": "イブニクル外典",
-   "nameCN": "夏娃年代记外典",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/0e/137384_0oYzh.jpg",
-   "date": "2015-06-12",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256658,
-   "name": "Evenicle -イブニクル- 2",
-   "nameCN": "夏娃年代记2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/a0/256658_4h0IB.jpg",
-   "date": "2019-02-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 289305,
-   "name": "イブニクルの主人公がランスだったら… もしもディスク",
-   "nameCN": "夏娃年代记的主人公是兰斯的话… If Disk",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/af/289305_11112.jpg",
-   "date": "2015-04-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 362100,
-   "name": "イブニクル2の主人公がランスだったら… もしもディスク",
-   "nameCN": "夏娃年代记2的主人公是兰斯的话… If Disk",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/ac/362100_K7LZ7.jpg",
-   "type": 4,
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122928,
-   "dst": 256658
-  },
-  {
-   "relate": "相同世界观",
-   "src": 122928,
-   "dst": 289305
-  },
-  {
-   "relate": "主线故事",
-   "src": 137384,
-   "dst": 122928
-  },
-  {
-   "relate": "前传",
-   "src": 256658,
-   "dst": 122928
-  },
-  {
-   "relate": "相同世界观",
-   "src": 256658,
-   "dst": 362100
-  },
-  {
-   "relate": "相同世界观",
-   "src": 289305,
-   "dst": 122928
-  },
-  {
-   "relate": "续集",
-   "src": 289305,
-   "dst": 362100
-  },
-  {
-   "relate": "相同世界观",
-   "src": 362100,
-   "dst": 256658
-  },
-  {
-   "relate": "前传",
-   "src": 362100,
-   "dst": 289305
-  }
- ]
+  "id": "122928",
+  "node": [
+    {
+      "id": 122928,
+      "name": "Evenicle -イブニクル-",
+      "nameCN": "夏娃年代记",
+      "date": "2015-04-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256658,
+      "name": "Evenicle -イブニクル- 2",
+      "nameCN": "夏娃年代记2",
+      "date": "2019-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289305,
+      "name": "イブニクルの主人公がランスだったら… もしもディスク",
+      "nameCN": "夏娃年代记的主人公是兰斯的话… If Disk",
+      "date": "2015-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 137384,
+      "name": "イブニクル外典",
+      "nameCN": "夏娃年代记外典",
+      "date": "2015-06-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 362100,
+      "name": "イブニクル2の主人公がランスだったら… もしもディスク",
+      "nameCN": "夏娃年代记2的主人公是兰斯的话… If Disk",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122928,
+      "dst": 256658
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 122928,
+      "dst": 289305
+    },
+    {
+      "relateString": "主线故事",
+      "src": 137384,
+      "dst": 122928
+    },
+    {
+      "relateString": "前传",
+      "src": 256658,
+      "dst": 122928
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 256658,
+      "dst": 362100
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 289305,
+      "dst": 122928
+    },
+    {
+      "relateString": "续集",
+      "src": 289305,
+      "dst": 362100
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 362100,
+      "dst": 256658
+    },
+    {
+      "relateString": "前传",
+      "src": 362100,
+      "dst": 289305
+    }
+  ]
 }

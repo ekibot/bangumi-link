@@ -1,0 +1,48 @@
+{
+  "id": "79873",
+  "node": [
+    {
+      "id": 88613,
+      "name": "ガイストクラッシャー",
+      "nameCN": "盖斯特粉碎者",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 98372,
+      "name": "ガイストクラッシャー ファースト",
+      "nameCN": "圣灵破碎者 First",
+      "date": "2014-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 79873,
+      "name": "ガイストクラッシャー",
+      "nameCN": "圣灵破碎者",
+      "date": "2013-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 88613,
+      "dst": 98372
+    },
+    {
+      "relateString": "主线故事",
+      "src": 98372,
+      "dst": 79873
+    },
+    {
+      "relateString": "续集",
+      "src": 98372,
+      "dst": 88613
+    }
+  ]
+}

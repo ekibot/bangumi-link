@@ -1,0 +1,54 @@
+{
+  "id": "111282",
+  "node": [
+    {
+      "id": 111282,
+      "name": "やたもも",
+      "nameCN": "八田百田",
+      "date": "2014-08-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 163817,
+      "name": "やたもも2",
+      "nameCN": "",
+      "date": "2017-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 210193,
+      "name": "やたもも 3",
+      "nameCN": "",
+      "date": "2017-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111282,
+      "dst": 163817
+    },
+    {
+      "relateString": "前传",
+      "src": 163817,
+      "dst": 111282
+    },
+    {
+      "relateString": "续集",
+      "src": 163817,
+      "dst": 210193
+    },
+    {
+      "relateString": "前传",
+      "src": 210193,
+      "dst": 163817
+    }
+  ]
+}

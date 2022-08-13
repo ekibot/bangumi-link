@@ -1,37 +1,35 @@
 {
- "id": 329571,
- "node": [
-  {
-   "id": 329571,
-   "name": "幻想綺帖 一",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/ca/329571_i3b5p.jpg",
-   "date": "2016-11-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 329572,
-   "name": "幻想綺帖 二 玉藻の前",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/fe/329572_ub0n8.jpg",
-   "date": "2016-12-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 329571,
-   "dst": 329572
-  },
-  {
-   "relate": "前传",
-   "src": 329572,
-   "dst": 329571
-  }
- ]
+  "id": "329571",
+  "node": [
+    {
+      "id": 329571,
+      "name": "幻想綺帖 一",
+      "nameCN": "",
+      "date": "2016-11-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 329572,
+      "name": "幻想綺帖 二 玉藻の前",
+      "nameCN": "",
+      "date": "2016-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 329571,
+      "dst": 329572
+    },
+    {
+      "relateString": "前传",
+      "src": 329572,
+      "dst": 329571
+    }
+  ]
 }

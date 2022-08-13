@@ -1,97 +1,92 @@
 {
- "id": 32000,
- "node": [
-  {
-   "id": 32000,
-   "name": "House of Lies (Season 1)",
-   "nameCN": "谎言堂 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/e4/32000_mc7eZ.jpg",
-   "date": "2012-01-08",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 61727,
-   "name": "House of Lies (Season 2)",
-   "nameCN": "谎言堂 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/c1/61727_hglz8.jpg",
-   "date": "2013-01-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 92295,
-   "name": "House of Lies (Season 3)",
-   "nameCN": "谎言堂 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/40/92295_W4w1p.jpg",
-   "date": "2014-01-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 122554,
-   "name": "House of Lies (Season 4)",
-   "nameCN": "谎言堂 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/3e/122554_11812.jpg",
-   "date": "2015-01-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 177988,
-   "name": "House of Lies (Season 5)",
-   "nameCN": "谎言堂 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/ad/177988_b94W2.jpg",
-   "date": "2016-04-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 32000,
-   "dst": 61727
-  },
-  {
-   "relate": "前传",
-   "src": 61727,
-   "dst": 32000
-  },
-  {
-   "relate": "续集",
-   "src": 61727,
-   "dst": 92295
-  },
-  {
-   "relate": "前传",
-   "src": 92295,
-   "dst": 61727
-  },
-  {
-   "relate": "续集",
-   "src": 92295,
-   "dst": 122554
-  },
-  {
-   "relate": "前传",
-   "src": 122554,
-   "dst": 92295
-  },
-  {
-   "relate": "续集",
-   "src": 122554,
-   "dst": 177988
-  },
-  {
-   "relate": "前传",
-   "src": 177988,
-   "dst": 122554
-  }
- ]
+  "id": "32000",
+  "node": [
+    {
+      "id": 32000,
+      "name": "House of Lies (Season 1)",
+      "nameCN": "谎言堂 第一季",
+      "date": "2012-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 61727,
+      "name": "House of Lies (Season 2)",
+      "nameCN": "谎言堂 第二季",
+      "date": "2013-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 92295,
+      "name": "House of Lies (Season 3)",
+      "nameCN": "谎言堂 第三季",
+      "date": "2014-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 122554,
+      "name": "House of Lies (Season 4)",
+      "nameCN": "谎言堂 第四季",
+      "date": "2015-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 177988,
+      "name": "House of Lies (Season 5)",
+      "nameCN": "谎言堂 第五季",
+      "date": "2016-04-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 32000,
+      "dst": 61727
+    },
+    {
+      "relateString": "前传",
+      "src": 61727,
+      "dst": 32000
+    },
+    {
+      "relateString": "续集",
+      "src": 61727,
+      "dst": 92295
+    },
+    {
+      "relateString": "前传",
+      "src": 92295,
+      "dst": 61727
+    },
+    {
+      "relateString": "续集",
+      "src": 92295,
+      "dst": 122554
+    },
+    {
+      "relateString": "前传",
+      "src": 122554,
+      "dst": 92295
+    },
+    {
+      "relateString": "续集",
+      "src": 122554,
+      "dst": 177988
+    },
+    {
+      "relateString": "前传",
+      "src": 177988,
+      "dst": 122554
+    }
+  ]
 }

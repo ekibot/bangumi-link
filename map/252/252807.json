@@ -1,37 +1,35 @@
 {
- "id": 252807,
- "node": [
-  {
-   "id": 252807,
-   "name": "秘密 season 0 (7)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/17/252807_2n7ZH.jpg",
-   "date": "2018-07-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 314655,
-   "name": "秘密 season 0 (8)",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/0c/314655_5N5uV.jpg",
-   "date": "2019-07-05",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 252807,
-   "dst": 314655
-  },
-  {
-   "relate": "前传",
-   "src": 314655,
-   "dst": 252807
-  }
- ]
+  "id": "252807",
+  "node": [
+    {
+      "id": 252807,
+      "name": "秘密 season 0 (7)",
+      "nameCN": "",
+      "date": "2018-07-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 314655,
+      "name": "秘密 season 0 (8)",
+      "nameCN": "",
+      "date": "2019-07-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 252807,
+      "dst": 314655
+    },
+    {
+      "relateString": "前传",
+      "src": 314655,
+      "dst": 252807
+    }
+  ]
 }

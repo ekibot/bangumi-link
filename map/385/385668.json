@@ -1,37 +1,35 @@
 {
- "id": 385668,
- "node": [
-  {
-   "id": 385668,
-   "name": "风暴魔域",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/17/385668_aP6mg.jpg",
-   "date": "2018-12-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 385670,
-   "name": "风暴魔域2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/54/385670_l8eN8.jpg",
-   "type": 4,
-   "date": "2020-09-10",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 385668,
-   "dst": 385670
-  },
-  {
-   "relate": "前传",
-   "src": 385670,
-   "dst": 385668
-  }
- ]
+  "id": "385668",
+  "node": [
+    {
+      "id": 385668,
+      "name": "风暴魔域",
+      "nameCN": "",
+      "date": "2018-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 385670,
+      "name": "风暴魔域2",
+      "nameCN": "",
+      "date": "2020-09-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 385668,
+      "dst": 385670
+    },
+    {
+      "relateString": "前传",
+      "src": 385670,
+      "dst": 385668
+    }
+  ]
 }

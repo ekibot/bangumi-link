@@ -1,77 +1,71 @@
 {
- "id": 91653,
- "node": [
-  {
-   "id": 91653,
-   "name": "Battletoads &amp; Double Dragon",
-   "nameCN": "双截龙与忍者蛙",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/59/91653_Wkakz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 137593,
-   "name": "Rare Replay",
-   "nameCN": "Rare经典游戏合集",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/57/137593_6xXxT.jpg",
-   "date": "2015-08-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261004,
-   "name": "Battletoads Arcade",
-   "nameCN": "忍者蛙街机",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/aa/261004_4qtnp.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 284429,
-   "name": "Battletoads",
-   "nameCN": "忍者蛙",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/aa/284429_fMcXj.jpg",
-   "date": "2020-08-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91653,
-   "dst": 261004
-  },
-  {
-   "relate": "不同演绎",
-   "src": 137593,
-   "dst": 261004
-  },
-  {
-   "relate": "前传",
-   "src": 261004,
-   "dst": 91653
-  },
-  {
-   "relate": "不同演绎",
-   "src": 261004,
-   "dst": 137593
-  },
-  {
-   "relate": "续集",
-   "src": 261004,
-   "dst": 284429
-  },
-  {
-   "relate": "前传",
-   "src": 284429,
-   "dst": 261004
-  }
- ]
+  "id": "91653",
+  "node": [
+    {
+      "id": 91653,
+      "name": "Battletoads &amp; Double Dragon",
+      "nameCN": "双截龙与忍者蛙",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261004,
+      "name": "Battletoads Arcade",
+      "nameCN": "忍者蛙街机",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 137593,
+      "name": "Rare Replay",
+      "nameCN": "Rare经典游戏合集",
+      "date": "2015-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 284429,
+      "name": "Battletoads",
+      "nameCN": "忍者蛙",
+      "date": "2020-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91653,
+      "dst": 261004
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 137593,
+      "dst": 261004
+    },
+    {
+      "relateString": "前传",
+      "src": 261004,
+      "dst": 91653
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 261004,
+      "dst": 137593
+    },
+    {
+      "relateString": "续集",
+      "src": 261004,
+      "dst": 284429
+    },
+    {
+      "relateString": "前传",
+      "src": 284429,
+      "dst": 261004
+    }
+  ]
 }

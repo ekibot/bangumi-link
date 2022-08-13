@@ -1,77 +1,72 @@
 {
- "id": 184577,
- "node": [
-  {
-   "id": 184577,
-   "name": "リング",
-   "nameCN": "午夜凶铃",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/12/184577_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 184578,
-   "name": "らせん",
-   "nameCN": "贞子复活",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/ad/184578_jp.jpg",
-   "date": "1995-08-03",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 184583,
-   "name": "バースデイ",
-   "nameCN": "午夜凶铃4：凶铃诞生",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/80/184583_jp.jpg",
-   "date": "1999-12-08",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 184590,
-   "name": "ループ",
-   "nameCN": "午夜凶铃3：永生不死",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/d6/184590_jp.jpg",
-   "date": "1998-01-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 184577,
-   "dst": 184578
-  },
-  {
-   "relate": "番外篇",
-   "src": 184577,
-   "dst": 184583
-  },
-  {
-   "relate": "前传",
-   "src": 184578,
-   "dst": 184577
-  },
-  {
-   "relate": "续集",
-   "src": 184578,
-   "dst": 184590
-  },
-  {
-   "relate": "主线故事",
-   "src": 184583,
-   "dst": 184577
-  },
-  {
-   "relate": "前传",
-   "src": 184590,
-   "dst": 184578
-  }
- ]
+  "id": "184577",
+  "node": [
+    {
+      "id": 184577,
+      "name": "リング",
+      "nameCN": "午夜凶铃",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 184578,
+      "name": "らせん",
+      "nameCN": "贞子复活",
+      "date": "1995-08-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 184583,
+      "name": "バースデイ",
+      "nameCN": "午夜凶铃4：凶铃诞生",
+      "date": "1999-12-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 184590,
+      "name": "ループ",
+      "nameCN": "午夜凶铃3：永生不死",
+      "date": "1998-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 184577,
+      "dst": 184578
+    },
+    {
+      "relateString": "番外篇",
+      "src": 184577,
+      "dst": 184583
+    },
+    {
+      "relateString": "前传",
+      "src": 184578,
+      "dst": 184577
+    },
+    {
+      "relateString": "续集",
+      "src": 184578,
+      "dst": 184590
+    },
+    {
+      "relateString": "主线故事",
+      "src": 184583,
+      "dst": 184577
+    },
+    {
+      "relateString": "前传",
+      "src": 184590,
+      "dst": 184578
+    }
+  ]
 }

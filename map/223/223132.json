@@ -1,37 +1,35 @@
 {
- "id": 223132,
- "node": [
-  {
-   "id": 223132,
-   "name": "无聊诗社",
-   "nameCN": "无聊诗社",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/f5/223132_OLUO2.jpg",
-   "date": "2017-07-17",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 245783,
-   "name": "无聊诗社 第2季",
-   "nameCN": "无聊诗社 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/cb/245783_zv43q.jpg",
-   "date": "2018-05-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223132,
-   "dst": 245783
-  },
-  {
-   "relate": "前传",
-   "src": 245783,
-   "dst": 223132
-  }
- ]
+  "id": "223132",
+  "node": [
+    {
+      "id": 223132,
+      "name": "无聊诗社",
+      "nameCN": "无聊诗社",
+      "date": "2017-07-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 245783,
+      "name": "无聊诗社 第2季",
+      "nameCN": "无聊诗社 第二季",
+      "date": "2018-05-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223132,
+      "dst": 245783
+    },
+    {
+      "relateString": "前传",
+      "src": 245783,
+      "dst": 223132
+    }
+  ]
 }

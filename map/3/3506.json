@@ -1,57 +1,53 @@
 {
- "id": 3506,
- "node": [
-  {
-   "id": 3506,
-   "name": "竜機伝承PLUS",
-   "nameCN": "龙机传承",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/12/3506_hkJcG.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 83910,
-   "name": "竜機伝承2",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/b2/83910_v6V1V.jpg",
-   "date": "1997-06-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 83911,
-   "name": "竜機伝承3 ～黄昏に導かれし者たち～",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/28/83911_zUaQz.jpg",
-   "date": "2000-01-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3506,
-   "dst": 83910
-  },
-  {
-   "relate": "前传",
-   "src": 83910,
-   "dst": 3506
-  },
-  {
-   "relate": "续集",
-   "src": 83910,
-   "dst": 83911
-  },
-  {
-   "relate": "前传",
-   "src": 83911,
-   "dst": 83910
-  }
- ]
+  "id": "3506",
+  "node": [
+    {
+      "id": 3506,
+      "name": "竜機伝承PLUS",
+      "nameCN": "龙机传承",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 83910,
+      "name": "竜機伝承2",
+      "nameCN": "",
+      "date": "1997-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83911,
+      "name": "竜機伝承3 ～黄昏に導かれし者たち～",
+      "nameCN": "",
+      "date": "2000-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3506,
+      "dst": 83910
+    },
+    {
+      "relateString": "前传",
+      "src": 83910,
+      "dst": 3506
+    },
+    {
+      "relateString": "续集",
+      "src": 83910,
+      "dst": 83911
+    },
+    {
+      "relateString": "前传",
+      "src": 83911,
+      "dst": 83910
+    }
+  ]
 }

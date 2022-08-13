@@ -1,37 +1,34 @@
 {
- "id": 191975,
- "node": [
-  {
-   "id": 191975,
-   "name": "ファイブ",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/e4/191975_61ozo.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 196120,
-   "name": "ファイブ+",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/db/196120_bsUZj.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191975,
-   "dst": 196120
-  },
-  {
-   "relate": "前传",
-   "src": 196120,
-   "dst": 191975
-  }
- ]
+  "id": "191975",
+  "node": [
+    {
+      "id": 191975,
+      "name": "ファイブ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 196120,
+      "name": "ファイブ+",
+      "nameCN": "",
+      "date": "2016-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191975,
+      "dst": 196120
+    },
+    {
+      "relateString": "前传",
+      "src": 196120,
+      "dst": 191975
+    }
+  ]
 }

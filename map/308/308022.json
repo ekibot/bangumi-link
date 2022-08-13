@@ -1,37 +1,34 @@
 {
- "id": 308022,
- "node": [
-  {
-   "id": 308022,
-   "name": "孤雄",
-   "nameCN": "孤雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/f1/308022_vL13C.jpg",
-   "date": "2020-05-31",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 345759,
-   "name": "孤雄",
-   "nameCN": "孤雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/1c/345759_2sr29.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 308022,
-   "dst": 345759
-  },
-  {
-   "relate": "不同演绎",
-   "src": 345759,
-   "dst": 308022
-  }
- ]
+  "id": "308022",
+  "node": [
+    {
+      "id": 308022,
+      "name": "孤雄",
+      "nameCN": "孤雄",
+      "date": "2020-05-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345759,
+      "name": "孤雄",
+      "nameCN": "孤雄",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 308022,
+      "dst": 345759
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 345759,
+      "dst": 308022
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 80571,
- "node": [
-  {
-   "id": 80571,
-   "name": "マキシモ",
-   "nameCN": "马克西姆",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/75/80571_ZeDKP.jpg",
-   "date": "2002-02-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 80576,
-   "name": "魔界英雄記マキシモ",
-   "nameCN": "马克西姆2 机械怪兽的野望",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/59/80576_7uLuX.jpg",
-   "date": "2003-09-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 80571,
-   "dst": 80576
-  },
-  {
-   "relate": "前传",
-   "src": 80576,
-   "dst": 80571
-  }
- ]
+  "id": "80571",
+  "node": [
+    {
+      "id": 80571,
+      "name": "マキシモ",
+      "nameCN": "马克西姆",
+      "date": "2002-02-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 80576,
+      "name": "魔界英雄記マキシモ",
+      "nameCN": "马克西姆2 机械怪兽的野望",
+      "date": "2003-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 80571,
+      "dst": 80576
+    },
+    {
+      "relateString": "前传",
+      "src": 80576,
+      "dst": 80571
+    }
+  ]
 }

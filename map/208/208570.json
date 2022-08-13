@@ -1,37 +1,35 @@
 {
- "id": 208570,
- "node": [
-  {
-   "id": 208570,
-   "name": "Imposters",
-   "nameCN": "假面真情",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/8f/208570_U82jN.jpg",
-   "date": "2017-02-07",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 242415,
-   "name": "Imposters Season 2",
-   "nameCN": "假面真情 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/6c/242415_5O10l.jpg",
-   "date": "2018-04-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 208570,
-   "dst": 242415
-  },
-  {
-   "relate": "前传",
-   "src": 242415,
-   "dst": 208570
-  }
- ]
+  "id": "208570",
+  "node": [
+    {
+      "id": 208570,
+      "name": "Imposters",
+      "nameCN": "假面真情",
+      "date": "2017-02-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 242415,
+      "name": "Imposters Season 2",
+      "nameCN": "假面真情 第二季",
+      "date": "2018-04-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 208570,
+      "dst": 242415
+    },
+    {
+      "relateString": "前传",
+      "src": 242415,
+      "dst": 208570
+    }
+  ]
 }

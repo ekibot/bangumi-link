@@ -1,37 +1,33 @@
 {
- "id": 173974,
- "node": [
-  {
-   "id": 173974,
-   "name": "NYX",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/24/173974_M8ujs.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 173986,
-   "name": "NYX: No Way Home",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/70/173986_Lqqk1.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 173974,
-   "dst": 173986
-  },
-  {
-   "relate": "前传",
-   "src": 173986,
-   "dst": 173974
-  }
- ]
+  "id": "173974",
+  "node": [
+    {
+      "id": 173974,
+      "name": "NYX",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 173986,
+      "name": "NYX: No Way Home",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 173974,
+      "dst": 173986
+    },
+    {
+      "relateString": "前传",
+      "src": 173986,
+      "dst": 173974
+    }
+  ]
 }

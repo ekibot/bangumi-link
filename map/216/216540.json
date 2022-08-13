@@ -1,57 +1,53 @@
 {
- "id": 216540,
- "node": [
-  {
-   "id": 216540,
-   "name": "Pathfinder Adventures",
-   "nameCN": "开拓者冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/e2/216540_OY1Ex.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255030,
-   "name": "Pathfinder: Kingmaker",
-   "nameCN": "开拓者：拥王者",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/6a/255030_kle7y.jpg",
-   "date": "2018-09-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 320536,
-   "name": "Pathfinder: Wrath of the Righteous",
-   "nameCN": "开拓者：正义之怒",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/08/320536_GlI1g.jpg",
-   "date": "2021-09-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 216540,
-   "dst": 255030
-  },
-  {
-   "relate": "相同世界观",
-   "src": 255030,
-   "dst": 216540
-  },
-  {
-   "relate": "续集",
-   "src": 255030,
-   "dst": 320536
-  },
-  {
-   "relate": "前传",
-   "src": 320536,
-   "dst": 255030
-  }
- ]
+  "id": "216540",
+  "node": [
+    {
+      "id": 216540,
+      "name": "Pathfinder Adventures",
+      "nameCN": "开拓者冒险",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255030,
+      "name": "Pathfinder: Kingmaker",
+      "nameCN": "开拓者：拥王者",
+      "date": "2018-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 320536,
+      "name": "Pathfinder: Wrath of the Righteous",
+      "nameCN": "开拓者：正义之怒",
+      "date": "2021-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 216540,
+      "dst": 255030
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 255030,
+      "dst": 216540
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 255030,
+      "dst": 320536
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 320536,
+      "dst": 255030
+    }
+  ]
 }

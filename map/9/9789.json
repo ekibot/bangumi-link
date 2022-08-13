@@ -1,37 +1,35 @@
 {
- "id": 9789,
- "node": [
-  {
-   "id": 9789,
-   "name": "シークレットフライト",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/c9/9789_jp.jpg",
-   "date": "2010-06-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 110863,
-   "name": "エグゼクティヴフライト",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/3a/110863_jp.jpg",
-   "date": "2014-06-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9789,
-   "dst": 110863
-  },
-  {
-   "relate": "前传",
-   "src": 110863,
-   "dst": 9789
-  }
- ]
+  "id": "9789",
+  "node": [
+    {
+      "id": 9789,
+      "name": "シークレットフライト",
+      "nameCN": "",
+      "date": "2010-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 110863,
+      "name": "エグゼクティヴフライト",
+      "nameCN": "",
+      "date": "2014-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9789,
+      "dst": 110863
+    },
+    {
+      "relateString": "前传",
+      "src": 110863,
+      "dst": 9789
+    }
+  ]
 }

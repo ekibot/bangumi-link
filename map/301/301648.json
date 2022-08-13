@@ -1,57 +1,51 @@
 {
- "id": 301648,
- "node": [
-  {
-   "id": 301648,
-   "name": "守卫者",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/36/301648_q4UHS.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 301650,
-   "name": "守卫者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/de/301650_rhXs7.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 301652,
-   "name": "守卫者3",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/33/301652_Ttdvv.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 301648,
-   "dst": 301650
-  },
-  {
-   "relate": "前传",
-   "src": 301650,
-   "dst": 301648
-  },
-  {
-   "relate": "前传",
-   "src": 301650,
-   "dst": 301652
-  },
-  {
-   "relate": "续集",
-   "src": 301652,
-   "dst": 301650
-  }
- ]
+  "id": "301648",
+  "node": [
+    {
+      "id": 301648,
+      "name": "守卫者",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301650,
+      "name": "守卫者2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301652,
+      "name": "守卫者3",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 301648,
+      "dst": 301650
+    },
+    {
+      "relateString": "前传",
+      "src": 301650,
+      "dst": 301648
+    },
+    {
+      "relateString": "前传",
+      "src": 301650,
+      "dst": 301652
+    },
+    {
+      "relateString": "续集",
+      "src": 301652,
+      "dst": 301650
+    }
+  ]
 }

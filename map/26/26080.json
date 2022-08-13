@@ -1,37 +1,35 @@
 {
- "id": 26080,
- "node": [
-  {
-   "id": 26080,
-   "name": "バディ・システム",
-   "nameCN": "帮派",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/2b/26080_jp.jpg",
-   "date": "2002-03-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 136305,
-   "name": "XI-エックスアイ-",
-   "nameCN": "X1极爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/66/136305_jp.jpg",
-   "date": "2004-07-31",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26080,
-   "dst": 136305
-  },
-  {
-   "relate": "前传",
-   "src": 136305,
-   "dst": 26080
-  }
- ]
+  "id": "26080",
+  "node": [
+    {
+      "id": 26080,
+      "name": "バディ・システム",
+      "nameCN": "帮派",
+      "date": "2002-03-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 136305,
+      "name": "XI-エックスアイ-",
+      "nameCN": "X1极爱",
+      "date": "2004-07-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26080,
+      "dst": 136305
+    },
+    {
+      "relateString": "前传",
+      "src": 136305,
+      "dst": 26080
+    }
+  ]
 }

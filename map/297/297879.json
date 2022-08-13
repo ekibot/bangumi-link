@@ -1,57 +1,54 @@
 {
- "id": 297879,
- "node": [
-  {
-   "id": 297879,
-   "name": "異端審問ラボ 魔女の事件簿1",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/ae/297879_1dOM5.jpg",
-   "date": "2015-12-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 297880,
-   "name": "異端審問ラボ 魔女の事件簿2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/3e/297880_7ppFQ.jpg",
-   "date": "2016-05-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 297881,
-   "name": "異端審問ラボ 魔女の事件簿3",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/e2/297881_5eZ6P.jpg",
-   "date": "2016-12-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 297879,
-   "dst": 297880
-  },
-  {
-   "relate": "前传",
-   "src": 297880,
-   "dst": 297879
-  },
-  {
-   "relate": "续集",
-   "src": 297880,
-   "dst": 297881
-  },
-  {
-   "relate": "前传",
-   "src": 297881,
-   "dst": 297880
-  }
- ]
+  "id": "297879",
+  "node": [
+    {
+      "id": 297879,
+      "name": "異端審問ラボ 魔女の事件簿1",
+      "nameCN": "",
+      "date": "2015-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 297880,
+      "name": "異端審問ラボ 魔女の事件簿2",
+      "nameCN": "",
+      "date": "2016-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 297881,
+      "name": "異端審問ラボ 魔女の事件簿3",
+      "nameCN": "",
+      "date": "2016-12-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 297879,
+      "dst": 297880
+    },
+    {
+      "relateString": "前传",
+      "src": 297880,
+      "dst": 297879
+    },
+    {
+      "relateString": "续集",
+      "src": 297880,
+      "dst": 297881
+    },
+    {
+      "relateString": "前传",
+      "src": 297881,
+      "dst": 297880
+    }
+  ]
 }

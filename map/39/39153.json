@@ -1,55 +1,54 @@
 {
- "id": 39153,
- "node": [
-  {
-   "id": 39153,
-   "name": "翼をください",
-   "nameCN": "请给我翅膀",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/1c/39153_aXCK0.jpg",
-   "date": "2010-02-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 99022,
-   "name": "Luv Wave",
-   "nameCN": "爱的波动",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/c9/99022_0Pd6i.jpg",
-   "date": "1998-07-31",
-   "type": 4
-  },
-  {
-   "id": 112391,
-   "name": "いろは～秋の夕日に影ふみを～",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/f7/112391_VoCz9.jpg",
-   "date": "2007-07-20",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 39153,
-   "dst": 99022
-  },
-  {
-   "relate": "相同世界观",
-   "src": 39153,
-   "dst": 112391
-  },
-  {
-   "relate": "相同世界观",
-   "src": 99022,
-   "dst": 39153
-  },
-  {
-   "relate": "相同世界观",
-   "src": 112391,
-   "dst": 39153
-  }
- ]
+  "id": "39153",
+  "node": [
+    {
+      "id": 39153,
+      "name": "翼をください",
+      "nameCN": "请给我翅膀",
+      "date": "2010-02-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99022,
+      "name": "Luv Wave",
+      "nameCN": "爱的波动",
+      "date": "1998-07-31",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 112391,
+      "name": "いろは～秋の夕日に影ふみを～",
+      "nameCN": "",
+      "date": "2007-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 39153,
+      "dst": 99022
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 39153,
+      "dst": 112391
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 99022,
+      "dst": 39153
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 112391,
+      "dst": 39153
+    }
+  ]
 }

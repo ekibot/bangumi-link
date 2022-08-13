@@ -1,37 +1,33 @@
 {
- "id": 64754,
- "node": [
-  {
-   "id": 64754,
-   "name": "ササメケ",
-   "nameCN": "好想踢波",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/86/64754_28FqZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 64767,
-   "name": "ササナキ",
-   "nameCN": "还想踢波",
-   "date": null,
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64754,
-   "dst": 64767
-  },
-  {
-   "relate": "前传",
-   "src": 64767,
-   "dst": 64754
-  }
- ]
+  "id": "64754",
+  "node": [
+    {
+      "id": 64754,
+      "name": "ササメケ",
+      "nameCN": "好想踢波",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 64767,
+      "name": "ササナキ",
+      "nameCN": "还想踢波",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64754,
+      "dst": 64767
+    },
+    {
+      "relateString": "前传",
+      "src": 64767,
+      "dst": 64754
+    }
+  ]
 }

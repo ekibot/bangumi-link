@@ -1,37 +1,35 @@
 {
- "id": 252427,
- "node": [
-  {
-   "id": 252427,
-   "name": "フライングパワーディスク",
-   "nameCN": "野外飞盘",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/ef/252427_Co7V7.jpg",
-   "date": "1994-02-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259118,
-   "name": "Windjammers 2",
-   "nameCN": "野外飞盘2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/1e/259118_XZFCG.jpg",
-   "date": "2022-01-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 252427,
-   "dst": 259118
-  },
-  {
-   "relate": "前传",
-   "src": 259118,
-   "dst": 252427
-  }
- ]
+  "id": "252427",
+  "node": [
+    {
+      "id": 252427,
+      "name": "フライングパワーディスク",
+      "nameCN": "野外飞盘",
+      "date": "1994-02-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259118,
+      "name": "Windjammers 2",
+      "nameCN": "野外飞盘2",
+      "date": "2022-01-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 252427,
+      "dst": 259118
+    },
+    {
+      "relateString": "前传",
+      "src": 259118,
+      "dst": 252427
+    }
+  ]
 }

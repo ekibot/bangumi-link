@@ -1,37 +1,33 @@
 {
- "id": 171217,
- "node": [
-  {
-   "id": 171217,
-   "name": "ぽーきゅぱいん 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/f3/171217_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 192621,
-   "name": "ぽーきゅぱいん 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/01/192621_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171217,
-   "dst": 192621
-  },
-  {
-   "relate": "前传",
-   "src": 192621,
-   "dst": 171217
-  }
- ]
+  "id": "171217",
+  "node": [
+    {
+      "id": 171217,
+      "name": "ぽーきゅぱいん 1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 192621,
+      "name": "ぽーきゅぱいん 2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171217,
+      "dst": 192621
+    },
+    {
+      "relateString": "前传",
+      "src": 192621,
+      "dst": 171217
+    }
+  ]
 }

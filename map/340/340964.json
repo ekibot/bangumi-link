@@ -1,57 +1,51 @@
 {
- "id": 340964,
- "node": [
-  {
-   "id": 340964,
-   "name": "きらきらひかる-浪速美人監察医物語",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/88/340964_EFt88.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 340979,
-   "name": "きらきらひかる2",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/0a/340979_YHy1G.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 340985,
-   "name": "きらきらひかる最終章",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/92/340985_mHdki.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 340964,
-   "dst": 340979
-  },
-  {
-   "relate": "前传",
-   "src": 340979,
-   "dst": 340964
-  },
-  {
-   "relate": "续集",
-   "src": 340979,
-   "dst": 340985
-  },
-  {
-   "relate": "前传",
-   "src": 340985,
-   "dst": 340979
-  }
- ]
+  "id": "340964",
+  "node": [
+    {
+      "id": 340964,
+      "name": "きらきらひかる-浪速美人監察医物語",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340979,
+      "name": "きらきらひかる2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340985,
+      "name": "きらきらひかる最終章",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 340964,
+      "dst": 340979
+    },
+    {
+      "relateString": "前传",
+      "src": 340979,
+      "dst": 340964
+    },
+    {
+      "relateString": "续集",
+      "src": 340979,
+      "dst": 340985
+    },
+    {
+      "relateString": "前传",
+      "src": 340985,
+      "dst": 340979
+    }
+  ]
 }

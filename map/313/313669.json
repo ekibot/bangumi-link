@@ -1,37 +1,35 @@
 {
- "id": 313669,
- "node": [
-  {
-   "id": 313669,
-   "name": "Mr.ペンペン",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/f8/313669_S5nwC.jpg",
-   "date": "1986-03-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 313670,
-   "name": "Mr.ペンペンII",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/2a/313670_38gxp.jpg",
-   "date": "1986-12-29",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 313669,
-   "dst": 313670
-  },
-  {
-   "relate": "前传",
-   "src": 313670,
-   "dst": 313669
-  }
- ]
+  "id": "313669",
+  "node": [
+    {
+      "id": 313669,
+      "name": "Mr.ペンペン",
+      "nameCN": "",
+      "date": "1986-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 313670,
+      "name": "Mr.ペンペンII",
+      "nameCN": "",
+      "date": "1986-12-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 313669,
+      "dst": 313670
+    },
+    {
+      "relateString": "前传",
+      "src": 313670,
+      "dst": 313669
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 340480,
- "node": [
-  {
-   "id": 340480,
-   "name": "ヘブンズ・ロワイヤル",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/ad/340480_vhIdS.jpg",
-   "date": "2019-07-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 340481,
-   "name": "ヘブンズ・ロワイヤル -Frozen Butterfly-",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/47/340481_774JB.jpg",
-   "date": "2020-08-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 340480,
-   "dst": 340481
-  },
-  {
-   "relate": "前传",
-   "src": 340481,
-   "dst": 340480
-  }
- ]
+  "id": "340480",
+  "node": [
+    {
+      "id": 340480,
+      "name": "ヘブンズ・ロワイヤル",
+      "nameCN": "",
+      "date": "2019-07-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 340481,
+      "name": "ヘブンズ・ロワイヤル -Frozen Butterfly-",
+      "nameCN": "",
+      "date": "2020-08-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 340480,
+      "dst": 340481
+    },
+    {
+      "relateString": "前传",
+      "src": 340481,
+      "dst": 340480
+    }
+  ]
 }

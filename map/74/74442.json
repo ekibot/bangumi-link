@@ -1,0 +1,54 @@
+{
+  "id": "74442",
+  "node": [
+    {
+      "id": 74442,
+      "name": "特別授業",
+      "nameCN": "",
+      "date": "2001-05-11",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 81851,
+      "name": "特別授業2",
+      "nameCN": "",
+      "date": "2003-06-13",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 90790,
+      "name": "特別授業3SLG THE ANIMATION",
+      "nameCN": "",
+      "date": "2014-01-03",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 74442,
+      "dst": 81851
+    },
+    {
+      "relateString": "前传",
+      "src": 81851,
+      "dst": 74442
+    },
+    {
+      "relateString": "续集",
+      "src": 81851,
+      "dst": 90790
+    },
+    {
+      "relateString": "前传",
+      "src": 90790,
+      "dst": 81851
+    }
+  ]
+}

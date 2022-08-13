@@ -1,37 +1,35 @@
 {
- "id": 81925,
- "node": [
-  {
-   "id": 81925,
-   "name": "Bad Name",
-   "nameCN": "Bad Name",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/a8/81925_81jK1.jpg",
-   "date": "2005-05-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 131552,
-   "name": "masher",
-   "nameCN": "masher",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/c0/131552_ddrR7.jpg",
-   "date": "2001-08-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 81925,
-   "dst": 131552
-  },
-  {
-   "relate": "续集",
-   "src": 131552,
-   "dst": 81925
-  }
- ]
+  "id": "81925",
+  "node": [
+    {
+      "id": 81925,
+      "name": "Bad Name",
+      "nameCN": "Bad Name",
+      "date": "2005-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131552,
+      "name": "masher",
+      "nameCN": "masher",
+      "date": "2001-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 81925,
+      "dst": 131552
+    },
+    {
+      "relateString": "续集",
+      "src": 131552,
+      "dst": 81925
+    }
+  ]
 }

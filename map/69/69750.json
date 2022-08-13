@@ -1,37 +1,34 @@
 {
- "id": 69750,
- "node": [
-  {
-   "id": 69750,
-   "name": "駅から5分",
-   "nameCN": "距离车站5分钟",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/33/69750_F4wks.jpg",
-   "date": "2007-11-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 69754,
-   "name": "花に染む",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/00/69754_WvBD9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 69750,
-   "dst": 69754
-  },
-  {
-   "relate": "相同世界观",
-   "src": 69754,
-   "dst": 69750
-  }
- ]
+  "id": "69750",
+  "node": [
+    {
+      "id": 69750,
+      "name": "駅から5分",
+      "nameCN": "距离车站5分钟",
+      "date": "2007-11-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 69754,
+      "name": "花に染む",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 69750,
+      "dst": 69754
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 69754,
+      "dst": 69750
+    }
+  ]
 }

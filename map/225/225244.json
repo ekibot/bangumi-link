@@ -1,57 +1,54 @@
 {
- "id": 225244,
- "node": [
-  {
-   "id": 225244,
-   "name": "いじめっこ虐殺ゲーム",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/b5/225244_539Iw.jpg",
-   "date": "2015-05-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 225245,
-   "name": "いじめっこ虐殺ゲーム２　ゲームで学ぶ本格的サバイバル術",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/ca/225245_M7p7H.jpg",
-   "date": "2015-12-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 225246,
-   "name": "いじめっこ虐殺ゲーム３",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/34/225246_2IaKE.jpg",
-   "date": "2016-12-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225244,
-   "dst": 225245
-  },
-  {
-   "relate": "前传",
-   "src": 225245,
-   "dst": 225244
-  },
-  {
-   "relate": "续集",
-   "src": 225245,
-   "dst": 225246
-  },
-  {
-   "relate": "前传",
-   "src": 225246,
-   "dst": 225245
-  }
- ]
+  "id": "225244",
+  "node": [
+    {
+      "id": 225244,
+      "name": "いじめっこ虐殺ゲーム",
+      "nameCN": "",
+      "date": "2015-05-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225245,
+      "name": "いじめっこ虐殺ゲーム２　ゲームで学ぶ本格的サバイバル術",
+      "nameCN": "",
+      "date": "2015-12-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225246,
+      "name": "いじめっこ虐殺ゲーム３",
+      "nameCN": "",
+      "date": "2016-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225244,
+      "dst": 225245
+    },
+    {
+      "relateString": "前传",
+      "src": 225245,
+      "dst": 225244
+    },
+    {
+      "relateString": "续集",
+      "src": 225245,
+      "dst": 225246
+    },
+    {
+      "relateString": "前传",
+      "src": 225246,
+      "dst": 225245
+    }
+  ]
 }

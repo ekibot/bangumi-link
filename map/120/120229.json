@@ -1,37 +1,35 @@
 {
- "id": 120229,
- "node": [
-  {
-   "id": 120229,
-   "name": "Still Life 2",
-   "nameCN": "静物2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/8c/120229_NNYAr.jpg",
-   "date": "2009-04-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 120230,
-   "name": "Still Life",
-   "nameCN": "静物",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/de/120230_Qd00f.jpg",
-   "date": "2005-04-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 120229,
-   "dst": 120230
-  },
-  {
-   "relate": "续集",
-   "src": 120230,
-   "dst": 120229
-  }
- ]
+  "id": "120229",
+  "node": [
+    {
+      "id": 120229,
+      "name": "Still Life 2",
+      "nameCN": "静物2",
+      "date": "2009-04-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 120230,
+      "name": "Still Life",
+      "nameCN": "静物",
+      "date": "2005-04-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 120229,
+      "dst": 120230
+    },
+    {
+      "relateString": "续集",
+      "src": 120230,
+      "dst": 120229
+    }
+  ]
 }

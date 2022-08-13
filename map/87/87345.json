@@ -1,57 +1,53 @@
 {
- "id": 87345,
- "node": [
-  {
-   "id": 87345,
-   "name": "新・子連れ狼",
-   "nameCN": "新·带子狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/0a/87345_xD7SQ.jpg",
-   "date": "2007-06-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 87352,
-   "name": "そしてー子連れ狼刺客の子",
-   "nameCN": "后来－带子狼 刺客之子",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/20/87352_woGvt.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 87735,
-   "name": "子連れ狼",
-   "nameCN": "带子狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/90/87735_gEYRz.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87345,
-   "dst": 87352
-  },
-  {
-   "relate": "前传",
-   "src": 87345,
-   "dst": 87735
-  },
-  {
-   "relate": "前传",
-   "src": 87352,
-   "dst": 87345
-  },
-  {
-   "relate": "续集",
-   "src": 87735,
-   "dst": 87345
-  }
- ]
+  "id": "87345",
+  "node": [
+    {
+      "id": 87345,
+      "name": "新・子連れ狼",
+      "nameCN": "新·带子狼",
+      "date": "2007-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 87352,
+      "name": "そしてー子連れ狼刺客の子",
+      "nameCN": "后来－带子狼 刺客之子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 87735,
+      "name": "子連れ狼",
+      "nameCN": "带子狼",
+      "date": "1970-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87345,
+      "dst": 87352
+    },
+    {
+      "relateString": "前传",
+      "src": 87345,
+      "dst": 87735
+    },
+    {
+      "relateString": "前传",
+      "src": 87352,
+      "dst": 87345
+    },
+    {
+      "relateString": "续集",
+      "src": 87735,
+      "dst": 87345
+    }
+  ]
 }

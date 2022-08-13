@@ -1,112 +1,106 @@
 {
- "id": 61338,
- "node": [
-  {
-   "id": 61338,
-   "name": "キングスフィールド IV",
-   "nameCN": "国王密令4",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/fa/61338_d9dLH.jpg",
-   "date": "2001-10-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 105159,
-   "name": "キングスフィールド",
-   "nameCN": "国王密令",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/22/105159_6zy0S.jpg",
-   "date": "1994-12-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 105160,
-   "name": "キングスフィールド II",
-   "nameCN": "国王密令2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/0a/105160_NpBnn.jpg",
-   "date": "1995-07-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 214730,
-   "name": "キングスフィールド III",
-   "nameCN": "国王密令3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/84/214730_LPfs9.jpg",
-   "date": "1996-06-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PlayStation"
-  },
-  {
-   "id": 214735,
-   "name": "キングスフィールド アディショナル I",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/72/214735_ghSmy.jpg",
-   "date": "2006-07-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 214737,
-   "name": "キングスフィールド アディショナルII",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/b8/214737_11Rbu.jpg",
-   "date": "2006-08-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 61338,
-   "dst": 214730
-  },
-  {
-   "relate": "续集",
-   "src": 105159,
-   "dst": 105160
-  },
-  {
-   "relate": "前传",
-   "src": 105160,
-   "dst": 105159
-  },
-  {
-   "relate": "续集",
-   "src": 105160,
-   "dst": 214730
-  },
-  {
-   "relate": "续集",
-   "src": 214730,
-   "dst": 61338
-  },
-  {
-   "relate": "前传",
-   "src": 214730,
-   "dst": 105160
-  },
-  {
-   "relate": "主线故事",
-   "src": 214735,
-   "dst": 105159
-  },
-  {
-   "relate": "续集",
-   "src": 214735,
-   "dst": 214737
-  },
-  {
-   "relate": "前传",
-   "src": 214737,
-   "dst": 214735
-  }
- ]
+  "id": "61338",
+  "node": [
+    {
+      "id": 61338,
+      "name": "キングスフィールド IV",
+      "nameCN": "国王密令4",
+      "date": "2001-10-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214730,
+      "name": "キングスフィールド III",
+      "nameCN": "国王密令3",
+      "date": "1996-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PlayStation"
+    },
+    {
+      "id": 105159,
+      "name": "キングスフィールド",
+      "nameCN": "国王密令",
+      "date": "1994-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 105160,
+      "name": "キングスフィールド II",
+      "nameCN": "国王密令2",
+      "date": "1995-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214735,
+      "name": "キングスフィールド アディショナル I",
+      "nameCN": "",
+      "date": "2006-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214737,
+      "name": "キングスフィールド アディショナルII",
+      "nameCN": "",
+      "date": "2006-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 61338,
+      "dst": 214730
+    },
+    {
+      "relateString": "续集",
+      "src": 105159,
+      "dst": 105160
+    },
+    {
+      "relateString": "前传",
+      "src": 105160,
+      "dst": 105159
+    },
+    {
+      "relateString": "续集",
+      "src": 105160,
+      "dst": 214730
+    },
+    {
+      "relateString": "续集",
+      "src": 214730,
+      "dst": 61338
+    },
+    {
+      "relateString": "前传",
+      "src": 214730,
+      "dst": 105160
+    },
+    {
+      "relateString": "主线故事",
+      "src": 214735,
+      "dst": 105159
+    },
+    {
+      "relateString": "续集",
+      "src": 214735,
+      "dst": 214737
+    },
+    {
+      "relateString": "前传",
+      "src": 214737,
+      "dst": 214735
+    }
+  ]
 }

@@ -1,0 +1,83 @@
+{
+  "id": "43962",
+  "node": [
+    {
+      "id": 43962,
+      "name": "ななみとこのみのおしえてA・B・C",
+      "nameCN": "",
+      "date": "2003-12-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222438,
+      "name": "はじめてのおるすばん",
+      "nameCN": "",
+      "date": "2001-12-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222439,
+      "name": "はじめてのおいしゃさん",
+      "nameCN": "",
+      "date": "2002-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 88300,
+      "name": "はじめてのおてつだい",
+      "nameCN": "",
+      "date": "2005-10-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 43962,
+      "dst": 222438
+    },
+    {
+      "relateString": "主线故事",
+      "src": 43962,
+      "dst": 222439
+    },
+    {
+      "relateString": "前传",
+      "src": 88300,
+      "dst": 222438
+    },
+    {
+      "relateString": "前传",
+      "src": 88300,
+      "dst": 222439
+    },
+    {
+      "relateString": "续集",
+      "src": 222438,
+      "dst": 88300
+    },
+    {
+      "relateString": "续集",
+      "src": 222438,
+      "dst": 222439
+    },
+    {
+      "relateString": "续集",
+      "src": 222439,
+      "dst": 88300
+    },
+    {
+      "relateString": "前传",
+      "src": 222439,
+      "dst": 222438
+    }
+  ]
+}

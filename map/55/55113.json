@@ -1,57 +1,54 @@
 {
- "id": 55113,
- "node": [
-  {
-   "id": 55113,
-   "name": "たまこまーけっと",
-   "nameCN": "玉子市场",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/7f/55113_TR5Is.jpg",
-   "date": "2013-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 90880,
-   "name": "たまこラブストーリー",
-   "nameCN": "玉子爱情故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/8d/90880_NYUDd.jpg",
-   "date": "2014-04-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 97561,
-   "name": "南の島のデラちゃん",
-   "nameCN": "南之岛的德拉酱",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/6c/97561_BzP68.jpg",
-   "date": "2014-04-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 55113,
-   "dst": 90880
-  },
-  {
-   "relate": "前传",
-   "src": 90880,
-   "dst": 55113
-  },
-  {
-   "relate": "番外篇",
-   "src": 90880,
-   "dst": 97561
-  },
-  {
-   "relate": "主线故事",
-   "src": 97561,
-   "dst": 90880
-  }
- ]
+  "id": "55113",
+  "node": [
+    {
+      "id": 55113,
+      "name": "たまこまーけっと",
+      "nameCN": "玉子市场",
+      "date": "2013-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 90880,
+      "name": "たまこラブストーリー",
+      "nameCN": "玉子爱情故事",
+      "date": "2014-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 97561,
+      "name": "南の島のデラちゃん",
+      "nameCN": "南之岛的德拉酱",
+      "date": "2014-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 55113,
+      "dst": 90880
+    },
+    {
+      "relateString": "前传",
+      "src": 90880,
+      "dst": 55113
+    },
+    {
+      "relateString": "番外篇",
+      "src": 90880,
+      "dst": 97561
+    },
+    {
+      "relateString": "主线故事",
+      "src": 97561,
+      "dst": 90880
+    }
+  ]
 }

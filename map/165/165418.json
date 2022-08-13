@@ -1,45 +1,49 @@
 {
- "id": 165418,
- "node": [
-  {
-   "id": 165418,
-   "name": "おしえて巫女先生",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/46/165418_aafhu.jpg",
-   "date": "2006-03-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 165419,
-   "name": "おしえて巫女先生弐",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/53/165419_BoKJZ.jpg",
-   "date": "2007-10-12",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 268532,
-   "name": "おしえて巫女先生弐・外伝 ～ハーレム編～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2007-12-14"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165418,
-   "dst": 165419
-  },
-  {
-   "relate": "前传",
-   "src": 165419,
-   "dst": 165418
-  },
-  {
-   "relate": "主线故事",
-   "src": 268532,
-   "dst": 165419
-  }
- ]
+  "id": "165418",
+  "node": [
+    {
+      "id": 165418,
+      "name": "おしえて巫女先生",
+      "nameCN": "",
+      "date": "2006-03-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165419,
+      "name": "おしえて巫女先生弐",
+      "nameCN": "",
+      "date": "2007-10-12",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 268532,
+      "name": "おしえて巫女先生弐・外伝 ～ハーレム編～",
+      "nameCN": "",
+      "date": "2007-12-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165418,
+      "dst": 165419
+    },
+    {
+      "relateString": "前传",
+      "src": 165419,
+      "dst": 165418
+    },
+    {
+      "relateString": "主线故事",
+      "src": 268532,
+      "dst": 165419
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 646,
- "node": [
-  {
-   "id": 646,
-   "name": "Rumble Roses XX",
-   "nameCN": "搏击玫瑰XX",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/f3/646_099DP.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 71512,
-   "name": "Rumble Roses",
-   "nameCN": "搏击玫瑰",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/5f/71512_xOzA4.jpg",
-   "date": "2004-11-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 646,
-   "dst": 71512
-  },
-  {
-   "relate": "续集",
-   "src": 71512,
-   "dst": 646
-  }
- ]
+  "id": "646",
+  "node": [
+    {
+      "id": 646,
+      "name": "Rumble Roses XX",
+      "nameCN": "搏击玫瑰XX",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 71512,
+      "name": "Rumble Roses",
+      "nameCN": "搏击玫瑰",
+      "date": "2004-11-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 646,
+      "dst": 71512
+    },
+    {
+      "relateString": "续集",
+      "src": 71512,
+      "dst": 646
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 23700,
- "node": [
-  {
-   "id": 23700,
-   "name": "James Bond 007: Blood Stone",
-   "nameCN": "詹姆斯邦德007:血石",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/5e/23700_gwk64.jpg",
-   "date": "2010-11-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114569,
-   "name": "GoldenEye 007",
-   "nameCN": "黄金眼007",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/65/114569_jlxX1.jpg",
-   "date": "1997-08-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 114571,
-   "name": "GoldenEye 007",
-   "nameCN": "黄金眼007",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/87/114571_SPAQc.jpg",
-   "date": "2010-11-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 245539,
-   "name": "007: Quantum of Solace",
-   "nameCN": "詹姆斯邦德007：量子危机",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/00/245539_Q4Pj2.jpg",
-   "date": "2008-10-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23700,
-   "dst": 114571
-  },
-  {
-   "relate": "前传",
-   "src": 23700,
-   "dst": 245539
-  },
-  {
-   "relate": "不同演绎",
-   "src": 114569,
-   "dst": 114571
-  },
-  {
-   "relate": "前传",
-   "src": 114571,
-   "dst": 23700
-  },
-  {
-   "relate": "不同演绎",
-   "src": 114571,
-   "dst": 114569
-  },
-  {
-   "relate": "续集",
-   "src": 245539,
-   "dst": 23700
-  }
- ]
+  "id": "23700",
+  "node": [
+    {
+      "id": 23700,
+      "name": "James Bond 007: Blood Stone",
+      "nameCN": "詹姆斯邦德007:血石",
+      "date": "2010-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114571,
+      "name": "GoldenEye 007",
+      "nameCN": "黄金眼007",
+      "date": "2010-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245539,
+      "name": "007: Quantum of Solace",
+      "nameCN": "詹姆斯邦德007：量子危机",
+      "date": "2008-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 114569,
+      "name": "GoldenEye 007",
+      "nameCN": "黄金眼007",
+      "date": "1997-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23700,
+      "dst": 114571
+    },
+    {
+      "relateString": "前传",
+      "src": 23700,
+      "dst": 245539
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 114569,
+      "dst": 114571
+    },
+    {
+      "relateString": "前传",
+      "src": 114571,
+      "dst": 23700
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 114571,
+      "dst": 114569
+    },
+    {
+      "relateString": "续集",
+      "src": 245539,
+      "dst": 23700
+    }
+  ]
 }

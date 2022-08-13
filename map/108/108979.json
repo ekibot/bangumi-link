@@ -1,67 +1,61 @@
 {
- "id": 108979,
- "node": [
-  {
-   "id": 108979,
-   "name": "Humbugger",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/57/108979_7sExE.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 108980,
-   "name": "Humbug 2",
-   "nameCN": "坑爹诈骗犯2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/20/108980_16H6y.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 108981,
-   "name": "Humbug",
-   "nameCN": "坑爹诈骗犯",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/1c/108981_EqhJc.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 108979,
-   "dst": 108980
-  },
-  {
-   "relate": "前传",
-   "src": 108979,
-   "dst": 108981
-  },
-  {
-   "relate": "前传",
-   "src": 108980,
-   "dst": 108979
-  },
-  {
-   "relate": "前传",
-   "src": 108980,
-   "dst": 108981
-  },
-  {
-   "relate": "续集",
-   "src": 108981,
-   "dst": 108979
-  },
-  {
-   "relate": "续集",
-   "src": 108981,
-   "dst": 108980
-  }
- ]
+  "id": "108979",
+  "node": [
+    {
+      "id": 108979,
+      "name": "Humbugger",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 108980,
+      "name": "Humbug 2",
+      "nameCN": "坑爹诈骗犯2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 108981,
+      "name": "Humbug",
+      "nameCN": "坑爹诈骗犯",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 108979,
+      "dst": 108980
+    },
+    {
+      "relateString": "前传",
+      "src": 108979,
+      "dst": 108981
+    },
+    {
+      "relateString": "前传",
+      "src": 108980,
+      "dst": 108979
+    },
+    {
+      "relateString": "前传",
+      "src": 108980,
+      "dst": 108981
+    },
+    {
+      "relateString": "续集",
+      "src": 108981,
+      "dst": 108979
+    },
+    {
+      "relateString": "续集",
+      "src": 108981,
+      "dst": 108980
+    }
+  ]
 }

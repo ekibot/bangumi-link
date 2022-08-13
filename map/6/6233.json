@@ -1,37 +1,35 @@
 {
- "id": 6233,
- "node": [
-  {
-   "id": 6233,
-   "name": "サナララ",
-   "nameCN": "Sanarara",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/68/6233_Tvjt6.jpg",
-   "date": "2005-04-29",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 46947,
-   "name": "サナララR",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/b5/46947_kWVKQ.jpg",
-   "date": "2012-10-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 6233,
-   "dst": 46947
-  },
-  {
-   "relate": "不同演绎",
-   "src": 46947,
-   "dst": 6233
-  }
- ]
+  "id": "6233",
+  "node": [
+    {
+      "id": 6233,
+      "name": "サナララ",
+      "nameCN": "Sanarara",
+      "date": "2005-04-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 46947,
+      "name": "サナララR",
+      "nameCN": "",
+      "date": "2012-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 6233,
+      "dst": 46947
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 46947,
+      "dst": 6233
+    }
+  ]
 }

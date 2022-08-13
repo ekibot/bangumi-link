@@ -1,57 +1,53 @@
 {
- "id": 297624,
- "node": [
-  {
-   "id": 297624,
-   "name": "くまクマ熊ベアー",
-   "nameCN": "熊熊勇闯异世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/61/297624_nANa9.jpg",
-   "date": "2020-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 319284,
-   "name": "べあべあべあくまー！",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/02/319284_rXJ3i.jpg",
-   "date": "2020-10-09",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 323651,
-   "name": "くまクマ熊ベアー 2期",
-   "nameCN": "熊熊勇闯异世界 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/ee/323651_8FDuY.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 297624,
-   "dst": 319284
-  },
-  {
-   "relate": "续集",
-   "src": 297624,
-   "dst": 323651
-  },
-  {
-   "relate": "主线故事",
-   "src": 319284,
-   "dst": 297624
-  },
-  {
-   "relate": "前传",
-   "src": 323651,
-   "dst": 297624
-  }
- ]
+  "id": "297624",
+  "node": [
+    {
+      "id": 297624,
+      "name": "くまクマ熊ベアー",
+      "nameCN": "熊熊勇闯异世界",
+      "date": "2020-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 319284,
+      "name": "べあべあべあくまー！",
+      "nameCN": "",
+      "date": "2020-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 323651,
+      "name": "くまクマ熊ベアー 2期",
+      "nameCN": "熊熊勇闯异世界 第2期",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 297624,
+      "dst": 319284
+    },
+    {
+      "relateString": "续集",
+      "src": 297624,
+      "dst": 323651
+    },
+    {
+      "relateString": "主线故事",
+      "src": 319284,
+      "dst": 297624
+    },
+    {
+      "relateString": "前传",
+      "src": 323651,
+      "dst": 297624
+    }
+  ]
 }

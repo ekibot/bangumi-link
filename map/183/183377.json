@@ -1,37 +1,35 @@
 {
- "id": 183377,
- "node": [
-  {
-   "id": 183377,
-   "name": "Екатерина",
-   "nameCN": "叶卡捷琳娜大帝",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/30/183377_ujkUQ.jpg",
-   "date": "2014-11-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 212785,
-   "name": "Екатерина Взлёт",
-   "nameCN": "叶卡捷琳娜大帝 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/75/212785_g1tWo.jpg",
-   "date": "2017-02-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 183377,
-   "dst": 212785
-  },
-  {
-   "relate": "前传",
-   "src": 212785,
-   "dst": 183377
-  }
- ]
+  "id": "183377",
+  "node": [
+    {
+      "id": 183377,
+      "name": "Екатерина",
+      "nameCN": "叶卡捷琳娜大帝",
+      "date": "2014-11-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 212785,
+      "name": "Екатерина Взлёт",
+      "nameCN": "叶卡捷琳娜大帝 第二季",
+      "date": "2017-02-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 183377,
+      "dst": 212785
+    },
+    {
+      "relateString": "前传",
+      "src": 212785,
+      "dst": 183377
+    }
+  ]
 }

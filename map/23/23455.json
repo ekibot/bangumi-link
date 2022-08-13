@@ -1,97 +1,92 @@
 {
- "id": 23455,
- "node": [
-  {
-   "id": 23455,
-   "name": "Person of Interest (Season 1)",
-   "nameCN": "疑犯追踪 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/94/63919_7WyYZ.jpg",
-   "date": "2011-09-22",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 52779,
-   "name": "Person of Interest (Season 2)",
-   "nameCN": "疑犯追踪 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/9a/52779_MV1d7.jpg",
-   "date": "2012-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 84314,
-   "name": "Person of Interest (Season 3)",
-   "nameCN": "疑犯追踪 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/82/84314_W50lM.jpg",
-   "date": "2013-09-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 107009,
-   "name": "Person of Interest (Season 4)",
-   "nameCN": "疑犯追踪 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/ed/107009_EDri3.jpg",
-   "date": "2014-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 133604,
-   "name": "Person of Interest (Season 5)",
-   "nameCN": "疑犯追踪 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/85/133604_jh6sZ.jpg",
-   "date": "2016-05-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23455,
-   "dst": 52779
-  },
-  {
-   "relate": "前传",
-   "src": 52779,
-   "dst": 23455
-  },
-  {
-   "relate": "续集",
-   "src": 52779,
-   "dst": 84314
-  },
-  {
-   "relate": "前传",
-   "src": 84314,
-   "dst": 52779
-  },
-  {
-   "relate": "续集",
-   "src": 84314,
-   "dst": 107009
-  },
-  {
-   "relate": "前传",
-   "src": 107009,
-   "dst": 84314
-  },
-  {
-   "relate": "续集",
-   "src": 107009,
-   "dst": 133604
-  },
-  {
-   "relate": "前传",
-   "src": 133604,
-   "dst": 107009
-  }
- ]
+  "id": "23455",
+  "node": [
+    {
+      "id": 23455,
+      "name": "Person of Interest (Season 1)",
+      "nameCN": "疑犯追踪 第一季",
+      "date": "2011-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 52779,
+      "name": "Person of Interest (Season 2)",
+      "nameCN": "疑犯追踪 第二季",
+      "date": "2012-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 84314,
+      "name": "Person of Interest (Season 3)",
+      "nameCN": "疑犯追踪 第三季",
+      "date": "2013-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 107009,
+      "name": "Person of Interest (Season 4)",
+      "nameCN": "疑犯追踪 第四季",
+      "date": "2014-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 133604,
+      "name": "Person of Interest (Season 5)",
+      "nameCN": "疑犯追踪 第五季",
+      "date": "2016-05-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23455,
+      "dst": 52779
+    },
+    {
+      "relateString": "前传",
+      "src": 52779,
+      "dst": 23455
+    },
+    {
+      "relateString": "续集",
+      "src": 52779,
+      "dst": 84314
+    },
+    {
+      "relateString": "前传",
+      "src": 84314,
+      "dst": 52779
+    },
+    {
+      "relateString": "续集",
+      "src": 84314,
+      "dst": 107009
+    },
+    {
+      "relateString": "前传",
+      "src": 107009,
+      "dst": 84314
+    },
+    {
+      "relateString": "续集",
+      "src": 107009,
+      "dst": 133604
+    },
+    {
+      "relateString": "前传",
+      "src": 133604,
+      "dst": 107009
+    }
+  ]
 }

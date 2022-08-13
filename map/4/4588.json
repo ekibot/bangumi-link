@@ -1,37 +1,35 @@
 {
- "id": 4588,
- "node": [
-  {
-   "id": 4588,
-   "name": "怪物王女",
-   "nameCN": "怪物王女",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/13/4588_gaA28.jpg",
-   "date": "2007-04-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 10488,
-   "name": "怪物王女 OAD",
-   "nameCN": "怪物王女 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/ec/10488_PNSQg.jpg",
-   "date": "2010-12-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4588,
-   "dst": 10488
-  },
-  {
-   "relate": "前传",
-   "src": 10488,
-   "dst": 4588
-  }
- ]
+  "id": "4588",
+  "node": [
+    {
+      "id": 4588,
+      "name": "怪物王女",
+      "nameCN": "怪物王女",
+      "date": "2007-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10488,
+      "name": "怪物王女 OAD",
+      "nameCN": "怪物王女 OAD",
+      "date": "2010-12-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4588,
+      "dst": 10488
+    },
+    {
+      "relateString": "前传",
+      "src": 10488,
+      "dst": 4588
+    }
+  ]
 }

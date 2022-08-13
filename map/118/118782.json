@@ -1,28 +1,29 @@
 {
- "id": 118782,
- "node": [
-  {
-   "id": 118782,
-   "name": "パンチライン",
-   "nameCN": "Punch Line",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/48/118782_50N8N.jpg",
-   "date": "2015-04-09",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 147954,
-   "name": "パンチラインMAX",
-   "nameCN": "Punch Line MAX",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/06/147954_cFQrE.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 118782,
-   "dst": 147954
-  }
- ]
+  "id": "118782",
+  "node": [
+    {
+      "id": 118782,
+      "name": "パンチライン",
+      "nameCN": "Punch Line",
+      "date": "2015-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 147954,
+      "name": "パンチラインMAX",
+      "nameCN": "Punch Line MAX",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 118782,
+      "dst": 147954
+    }
+  ]
 }

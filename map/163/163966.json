@@ -1,85 +1,81 @@
 {
- "id": 163966,
- "node": [
-  {
-   "id": 163966,
-   "name": "精霊幻想記",
-   "nameCN": "精灵幻想记",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/d9/163966_fY8hC.jpg",
-   "date": "2015-09-30",
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 320851,
-   "name": "精霊幻想記",
-   "nameCN": "精灵幻想记",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/ee/320851_MPMXr.jpg",
-   "date": "2021-07-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 341111,
-   "name": "精霊幻想記アナザーテイル",
-   "nameCN": "精灵幻想记 Another Tail",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/fb/341111_86225.jpg",
-   "date": "2021-05-20",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 345056,
-   "name": "セリア先生のわくわくまじかる教室",
-   "nameCN": "瑟莉亚老师的激动人心魔法教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/2d/345056_q8qmX.jpg",
-   "date": "2021-05-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 355803,
-   "name": "精霊幻想記 第2期",
-   "nameCN": "精灵幻想记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/f0/355803_pRcPv.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 163966,
-   "dst": 345056
-  },
-  {
-   "relate": "衍生",
-   "src": 320851,
-   "dst": 345056
-  },
-  {
-   "relate": "续集",
-   "src": 320851,
-   "dst": 355803
-  },
-  {
-   "relate": "主线故事",
-   "src": 341111,
-   "dst": 320851
-  },
-  {
-   "relate": "主线故事",
-   "src": 345056,
-   "dst": 320851
-  },
-  {
-   "relate": "前传",
-   "src": 355803,
-   "dst": 320851
-  }
- ]
+  "id": "163966",
+  "node": [
+    {
+      "id": 163966,
+      "name": "精霊幻想記",
+      "nameCN": "精灵幻想记",
+      "date": "2015-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 345056,
+      "name": "セリア先生のわくわくまじかる教室",
+      "nameCN": "瑟莉亚老师的激动人心魔法教室",
+      "date": "2021-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320851,
+      "name": "精霊幻想記",
+      "nameCN": "精灵幻想记",
+      "date": "2021-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 355803,
+      "name": "精霊幻想記 第2期",
+      "nameCN": "精灵幻想记 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 341111,
+      "name": "精霊幻想記アナザーテイル",
+      "nameCN": "精灵幻想记 Another Tail",
+      "date": "2021-05-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 163966,
+      "dst": 345056
+    },
+    {
+      "relateString": "衍生",
+      "src": 320851,
+      "dst": 345056
+    },
+    {
+      "relateString": "续集",
+      "src": 320851,
+      "dst": 355803
+    },
+    {
+      "relateString": "主线故事",
+      "src": 341111,
+      "dst": 320851
+    },
+    {
+      "relateString": "主线故事",
+      "src": 345056,
+      "dst": 320851
+    },
+    {
+      "relateString": "前传",
+      "src": 355803,
+      "dst": 320851
+    }
+  ]
 }

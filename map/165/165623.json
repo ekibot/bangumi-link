@@ -1,57 +1,54 @@
 {
- "id": 165623,
- "node": [
-  {
-   "id": 165623,
-   "name": "吃饭睡觉打豆豆",
-   "nameCN": "吃饭睡觉打豆豆",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/21/165623_ZaY79.jpg",
-   "date": "2014-11-18",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 165627,
-   "name": "吃饭睡觉打豆豆 第二季 豆特么黑",
-   "nameCN": "吃饭睡觉打豆豆 第二季 豆特么黑",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/7a/165627_LelzL.jpg",
-   "date": "2015-07-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 165629,
-   "name": "吃饭睡觉打豆豆 第三季 神经豆",
-   "nameCN": "吃饭睡觉打豆豆 第三季 神经豆",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/8e/165629_Ih0fO.jpg",
-   "date": "2016-01-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165623,
-   "dst": 165627
-  },
-  {
-   "relate": "前传",
-   "src": 165627,
-   "dst": 165623
-  },
-  {
-   "relate": "续集",
-   "src": 165627,
-   "dst": 165629
-  },
-  {
-   "relate": "前传",
-   "src": 165629,
-   "dst": 165627
-  }
- ]
+  "id": "165623",
+  "node": [
+    {
+      "id": 165623,
+      "name": "吃饭睡觉打豆豆",
+      "nameCN": "吃饭睡觉打豆豆",
+      "date": "2014-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 165627,
+      "name": "吃饭睡觉打豆豆 第二季 豆特么黑",
+      "nameCN": "吃饭睡觉打豆豆 第二季 豆特么黑",
+      "date": "2015-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 165629,
+      "name": "吃饭睡觉打豆豆 第三季 神经豆",
+      "nameCN": "吃饭睡觉打豆豆 第三季 神经豆",
+      "date": "2016-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165623,
+      "dst": 165627
+    },
+    {
+      "relateString": "前传",
+      "src": 165627,
+      "dst": 165623
+    },
+    {
+      "relateString": "续集",
+      "src": 165627,
+      "dst": 165629
+    },
+    {
+      "relateString": "前传",
+      "src": 165629,
+      "dst": 165627
+    }
+  ]
 }

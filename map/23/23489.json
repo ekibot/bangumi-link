@@ -1,57 +1,54 @@
 {
- "id": 23489,
- "node": [
-  {
-   "id": 23489,
-   "name": "パカプラス",
-   "nameCN": "草泥马相随",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/8e/23489_3ywBx.jpg",
-   "date": "2011-08-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 68250,
-   "name": "パカプラスマイナス",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/9e/68250_NNZiM.jpg",
-   "date": "2011-12-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 198781,
-   "name": "パカプラスプラス",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/71/198781_2444O.jpg",
-   "date": "2012-12-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23489,
-   "dst": 68250
-  },
-  {
-   "relate": "前传",
-   "src": 68250,
-   "dst": 23489
-  },
-  {
-   "relate": "续集",
-   "src": 68250,
-   "dst": 198781
-  },
-  {
-   "relate": "前传",
-   "src": 198781,
-   "dst": 68250
-  }
- ]
+  "id": "23489",
+  "node": [
+    {
+      "id": 23489,
+      "name": "パカプラス",
+      "nameCN": "草泥马相随",
+      "date": "2011-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 68250,
+      "name": "パカプラスマイナス",
+      "nameCN": "",
+      "date": "2011-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198781,
+      "name": "パカプラスプラス",
+      "nameCN": "",
+      "date": "2012-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23489,
+      "dst": 68250
+    },
+    {
+      "relateString": "前传",
+      "src": 68250,
+      "dst": 23489
+    },
+    {
+      "relateString": "续集",
+      "src": 68250,
+      "dst": 198781
+    },
+    {
+      "relateString": "前传",
+      "src": 198781,
+      "dst": 68250
+    }
+  ]
 }

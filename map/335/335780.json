@@ -1,0 +1,54 @@
+{
+  "id": "335780",
+  "node": [
+    {
+      "id": 335780,
+      "name": "Starsiege: Tribes",
+      "nameCN": "星际围攻：部落",
+      "date": "1998-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 335781,
+      "name": "Tribes 2",
+      "nameCN": "部落2",
+      "date": "2001-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 335783,
+      "name": "Tribes: Vengeance",
+      "nameCN": "部落：复仇",
+      "date": "2004-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 335780,
+      "dst": 335781
+    },
+    {
+      "relateString": "前传",
+      "src": 335781,
+      "dst": 335780
+    },
+    {
+      "relateString": "续集",
+      "src": 335781,
+      "dst": 335783
+    },
+    {
+      "relateString": "前传",
+      "src": 335783,
+      "dst": 335781
+    }
+  ]
+}

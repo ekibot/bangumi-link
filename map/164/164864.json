@@ -1,77 +1,73 @@
 {
- "id": 164864,
- "node": [
-  {
-   "id": 164864,
-   "name": "聊斋志异",
-   "nameCN": "聊斋1",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/0c/164864_uT6tT.jpg",
-   "date": "2005-12-13",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 164865,
-   "name": "聊斋志异2",
-   "nameCN": "聊斋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/a5/164865_teoOP.jpg",
-   "date": "2007-07-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 164868,
-   "name": "聊斋志异3",
-   "nameCN": "聊斋3",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/5c/164868_Fq2FD.jpg",
-   "date": "2010-07-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 164873,
-   "name": "聊斋新编",
-   "nameCN": "聊斋4",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/f4/164873_XeZR6.jpg",
-   "date": "2015-05-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164864,
-   "dst": 164865
-  },
-  {
-   "relate": "前传",
-   "src": 164865,
-   "dst": 164864
-  },
-  {
-   "relate": "续集",
-   "src": 164865,
-   "dst": 164868
-  },
-  {
-   "relate": "前传",
-   "src": 164868,
-   "dst": 164865
-  },
-  {
-   "relate": "续集",
-   "src": 164868,
-   "dst": 164873
-  },
-  {
-   "relate": "前传",
-   "src": 164873,
-   "dst": 164868
-  }
- ]
+  "id": "164864",
+  "node": [
+    {
+      "id": 164864,
+      "name": "聊斋志异",
+      "nameCN": "聊斋1",
+      "date": "2005-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 164865,
+      "name": "聊斋志异2",
+      "nameCN": "聊斋2",
+      "date": "2007-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 164868,
+      "name": "聊斋志异3",
+      "nameCN": "聊斋3",
+      "date": "2010-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 164873,
+      "name": "聊斋新编",
+      "nameCN": "聊斋4",
+      "date": "2015-05-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164864,
+      "dst": 164865
+    },
+    {
+      "relateString": "前传",
+      "src": 164865,
+      "dst": 164864
+    },
+    {
+      "relateString": "续集",
+      "src": 164865,
+      "dst": 164868
+    },
+    {
+      "relateString": "前传",
+      "src": 164868,
+      "dst": 164865
+    },
+    {
+      "relateString": "续集",
+      "src": 164868,
+      "dst": 164873
+    },
+    {
+      "relateString": "前传",
+      "src": 164873,
+      "dst": 164868
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 3785,
- "node": [
-  {
-   "id": 3785,
-   "name": "BLEACH～ソウル・カーニバル2～",
-   "nameCN": "死神：魂之狂欢2",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/fe/3785_9399d.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 20176,
-   "name": "BLEACH 〜ソウル・カーニバル〜",
-   "nameCN": "Bleach死神：灵魂嘉年华",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/67/20176_m9mCM.jpg",
-   "date": "2008-11-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 3785,
-   "dst": 20176
-  },
-  {
-   "relate": "续集",
-   "src": 20176,
-   "dst": 3785
-  }
- ]
+  "id": "3785",
+  "node": [
+    {
+      "id": 3785,
+      "name": "BLEACH～ソウル・カーニバル2～",
+      "nameCN": "死神：魂之狂欢2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 20176,
+      "name": "BLEACH 〜ソウル・カーニバル〜",
+      "nameCN": "Bleach死神：灵魂嘉年华",
+      "date": "2008-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 3785,
+      "dst": 20176
+    },
+    {
+      "relateString": "续集",
+      "src": 20176,
+      "dst": 3785
+    }
+  ]
 }

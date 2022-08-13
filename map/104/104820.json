@@ -1,37 +1,35 @@
 {
- "id": 104820,
- "node": [
-  {
-   "id": 104820,
-   "name": "人形使い",
-   "nameCN": "人形使",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/2f/104820_7ixBD.jpg",
-   "date": "1992-05-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 115560,
-   "name": "人形使い2",
-   "nameCN": "人形使2",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/d9/115560_MtU7X.jpg",
-   "date": "1996-08-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104820,
-   "dst": 115560
-  },
-  {
-   "relate": "前传",
-   "src": 115560,
-   "dst": 104820
-  }
- ]
+  "id": "104820",
+  "node": [
+    {
+      "id": 104820,
+      "name": "人形使い",
+      "nameCN": "人形使",
+      "date": "1992-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 115560,
+      "name": "人形使い2",
+      "nameCN": "人形使2",
+      "date": "1996-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104820,
+      "dst": 115560
+    },
+    {
+      "relateString": "前传",
+      "src": 115560,
+      "dst": 104820
+    }
+  ]
 }

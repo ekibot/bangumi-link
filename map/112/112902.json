@@ -1,37 +1,35 @@
 {
- "id": 112902,
- "node": [
-  {
-   "id": 112902,
-   "name": "うちのクラスの頼りないラスボス",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/4d/112902_jp.jpg",
-   "date": "2012-12-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 112903,
-   "name": "うちのクラスの頼りないラスボス2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/52/112903_jp.jpg",
-   "date": "2013-04-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 112902,
-   "dst": 112903
-  },
-  {
-   "relate": "前传",
-   "src": 112903,
-   "dst": 112902
-  }
- ]
+  "id": "112902",
+  "node": [
+    {
+      "id": 112902,
+      "name": "うちのクラスの頼りないラスボス",
+      "nameCN": "",
+      "date": "2012-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 112903,
+      "name": "うちのクラスの頼りないラスボス2",
+      "nameCN": "",
+      "date": "2013-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 112902,
+      "dst": 112903
+    },
+    {
+      "relateString": "前传",
+      "src": 112903,
+      "dst": 112902
+    }
+  ]
 }

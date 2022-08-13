@@ -1,57 +1,53 @@
 {
- "id": 217660,
- "node": [
-  {
-   "id": 217660,
-   "name": "盾の勇者の成り上がり",
-   "nameCN": "盾之勇者成名录",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/9b/217660_wTkct.jpg",
-   "date": "2019-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 289906,
-   "name": "盾の勇者の成り上がり Season2",
-   "nameCN": "盾之勇者成名录 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/f0/289906_nu7Zq.jpg",
-   "date": "2022-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 289907,
-   "name": "盾の勇者の成り上がり Season 3",
-   "nameCN": "盾之勇者成名录 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/2d/289907_94SD1.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217660,
-   "dst": 289906
-  },
-  {
-   "relate": "前传",
-   "src": 289906,
-   "dst": 217660
-  },
-  {
-   "relate": "续集",
-   "src": 289906,
-   "dst": 289907
-  },
-  {
-   "relate": "前传",
-   "src": 289907,
-   "dst": 289906
-  }
- ]
+  "id": "217660",
+  "node": [
+    {
+      "id": 217660,
+      "name": "盾の勇者の成り上がり",
+      "nameCN": "盾之勇者成名录",
+      "date": "2019-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 289906,
+      "name": "盾の勇者の成り上がり Season2",
+      "nameCN": "盾之勇者成名录 第二季",
+      "date": "2022-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 289907,
+      "name": "盾の勇者の成り上がり Season 3",
+      "nameCN": "盾之勇者成名录 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217660,
+      "dst": 289906
+    },
+    {
+      "relateString": "前传",
+      "src": 289906,
+      "dst": 217660
+    },
+    {
+      "relateString": "续集",
+      "src": 289906,
+      "dst": 289907
+    },
+    {
+      "relateString": "前传",
+      "src": 289907,
+      "dst": 289906
+    }
+  ]
 }

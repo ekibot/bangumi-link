@@ -1,37 +1,35 @@
 {
- "id": 46307,
- "node": [
-  {
-   "id": 46307,
-   "name": "惡の華",
-   "nameCN": "恶之华",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/18/46307_17Zzm.jpg",
-   "date": "2013-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 268287,
-   "name": "惡の華",
-   "nameCN": "恶之华",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/1e/268287_Eefyd.jpg",
-   "date": "2019-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 46307,
-   "dst": 268287
-  },
-  {
-   "relate": "不同演绎",
-   "src": 268287,
-   "dst": 46307
-  }
- ]
+  "id": "46307",
+  "node": [
+    {
+      "id": 46307,
+      "name": "惡の華",
+      "nameCN": "恶之华",
+      "date": "2013-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 268287,
+      "name": "惡の華",
+      "nameCN": "恶之华",
+      "date": "2019-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 46307,
+      "dst": 268287
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 268287,
+      "dst": 46307
+    }
+  ]
 }

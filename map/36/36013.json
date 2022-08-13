@@ -1,37 +1,35 @@
 {
- "id": 36013,
- "node": [
-  {
-   "id": 36013,
-   "name": "スーパーフィッシング グランダー武蔵",
-   "nameCN": "天才钓鱼郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/41/36013_HizCu.jpg",
-   "date": "1997-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 36014,
-   "name": "スーパーフィッシング グランダー武蔵RV",
-   "nameCN": "天才钓鱼郎RV",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/9f/36014_Aazz3.jpg",
-   "date": "1998-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36013,
-   "dst": 36014
-  },
-  {
-   "relate": "前传",
-   "src": 36014,
-   "dst": 36013
-  }
- ]
+  "id": "36013",
+  "node": [
+    {
+      "id": 36013,
+      "name": "スーパーフィッシング グランダー武蔵",
+      "nameCN": "天才钓鱼郎",
+      "date": "1997-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 36014,
+      "name": "スーパーフィッシング グランダー武蔵RV",
+      "nameCN": "天才钓鱼郎RV",
+      "date": "1998-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36013,
+      "dst": 36014
+    },
+    {
+      "relateString": "前传",
+      "src": 36014,
+      "dst": 36013
+    }
+  ]
 }

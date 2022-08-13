@@ -1,77 +1,73 @@
 {
- "id": 25075,
- "node": [
-  {
-   "id": 25075,
-   "name": "Finding Nemo",
-   "nameCN": "海底总动员",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/6b/25075_1D1Ld.jpg",
-   "date": "2003-05-30",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 111250,
-   "name": "Exploring the Reef",
-   "nameCN": "探索珊瑚礁",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/7e/111250_VuvBU.jpg",
-   "date": "2003-11-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 131779,
-   "name": "Finding Dory",
-   "nameCN": "海底总动员2",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/59/131779_yC093.jpg",
-   "date": "2016-06-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 308839,
-   "name": "Finding Dory: Marine Life Interviews",
-   "nameCN": "寻找多莉：海洋生物访谈",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/4c/308839_56Hz7.jpg",
-   "date": "2016-11-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 25075,
-   "dst": 111250
-  },
-  {
-   "relate": "续集",
-   "src": 25075,
-   "dst": 131779
-  },
-  {
-   "relate": "主线故事",
-   "src": 111250,
-   "dst": 25075
-  },
-  {
-   "relate": "前传",
-   "src": 131779,
-   "dst": 25075
-  },
-  {
-   "relate": "番外篇",
-   "src": 131779,
-   "dst": 308839
-  },
-  {
-   "relate": "主线故事",
-   "src": 308839,
-   "dst": 131779
-  }
- ]
+  "id": "25075",
+  "node": [
+    {
+      "id": 25075,
+      "name": "Finding Nemo",
+      "nameCN": "海底总动员",
+      "date": "2003-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 111250,
+      "name": "Exploring the Reef",
+      "nameCN": "探索珊瑚礁",
+      "date": "2003-11-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 131779,
+      "name": "Finding Dory",
+      "nameCN": "海底总动员2",
+      "date": "2016-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 308839,
+      "name": "Finding Dory: Marine Life Interviews",
+      "nameCN": "寻找多莉：海洋生物访谈",
+      "date": "2016-11-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 25075,
+      "dst": 111250
+    },
+    {
+      "relateString": "续集",
+      "src": 25075,
+      "dst": 131779
+    },
+    {
+      "relateString": "主线故事",
+      "src": 111250,
+      "dst": 25075
+    },
+    {
+      "relateString": "前传",
+      "src": 131779,
+      "dst": 25075
+    },
+    {
+      "relateString": "番外篇",
+      "src": 131779,
+      "dst": 308839
+    },
+    {
+      "relateString": "主线故事",
+      "src": 308839,
+      "dst": 131779
+    }
+  ]
 }

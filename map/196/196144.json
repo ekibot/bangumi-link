@@ -1,37 +1,35 @@
 {
- "id": 196144,
- "node": [
-  {
-   "id": 196144,
-   "name": "숨바꼭질",
-   "nameCN": "捉迷藏",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/7c/196144_6Mo2M.jpg",
-   "date": "2016-05-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 196167,
-   "name": "숨바꼭질2",
-   "nameCN": "捉迷藏2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/f0/196167_UIlLO.jpg",
-   "date": "2016-05-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196144,
-   "dst": 196167
-  },
-  {
-   "relate": "前传",
-   "src": 196167,
-   "dst": 196144
-  }
- ]
+  "id": "196144",
+  "node": [
+    {
+      "id": 196144,
+      "name": "숨바꼭질",
+      "nameCN": "捉迷藏",
+      "date": "2016-05-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196167,
+      "name": "숨바꼭질2",
+      "nameCN": "捉迷藏2",
+      "date": "2016-05-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196144,
+      "dst": 196167
+    },
+    {
+      "relateString": "前传",
+      "src": 196167,
+      "dst": 196144
+    }
+  ]
 }

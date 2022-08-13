@@ -1,120 +1,54 @@
 {
- "id": 46297,
- "node": [
-  {
-   "id": 46297,
-   "name": "NORN9 ノルン＋ノネット",
-   "nameCN": "命运9重奏",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/19/46297_Eq0go.jpg",
-   "date": "2013-05-30",
-   "type": 4
-  },
-  {
-   "id": 105064,
-   "name": "NORN9 LAST ERA",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/a0/105064_50840.jpg",
-   "date": "2015-04-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 125912,
-   "name": "NORN9 VAR COMMONS",
-   "nameCN": "命运九重奏",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/e8/125912_I4o5r.jpg",
-   "date": "2014-12-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 178999,
-   "name": "NORN9 ACT TUNE",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/49/178999_I9C15.jpg",
-   "date": "2016-10-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 253858,
-   "name": "NORN9 LOFN for Nintendo Switch",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/0d/253858_f4jCL.jpg",
-   "date": "2018-09-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46297,
-   "dst": 178999
-  },
-  {
-   "relate": "不同演绎",
-   "src": 46297,
-   "dst": 253858
-  },
-  {
-   "relate": "前传",
-   "src": 105064,
-   "dst": 46297
-  },
-  {
-   "relate": "前传",
-   "src": 105064,
-   "dst": 125912
-  },
-  {
-   "relate": "续集",
-   "src": 105064,
-   "dst": 178999
-  },
-  {
-   "relate": "不同演绎",
-   "src": 125912,
-   "dst": 46297
-  },
-  {
-   "relate": "续集",
-   "src": 125912,
-   "dst": 105064
-  },
-  {
-   "relate": "续集",
-   "src": 125912,
-   "dst": 178999
-  },
-  {
-   "relate": "不同演绎",
-   "src": 125912,
-   "dst": 253858
-  },
-  {
-   "relate": "前传",
-   "src": 178999,
-   "dst": 46297
-  },
-  {
-   "relate": "前传",
-   "src": 178999,
-   "dst": 105064
-  },
-  {
-   "relate": "前传",
-   "src": 178999,
-   "dst": 125912
-  },
-  {
-   "relate": "不同演绎",
-   "src": 253858,
-   "dst": 125912
-  }
- ]
+  "id": "46297",
+  "node": [
+    {
+      "id": 105064,
+      "name": "NORN9 LAST ERA",
+      "nameCN": "",
+      "date": "2015-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 46297,
+      "name": "NORN9 ノルン＋ノネット",
+      "nameCN": "命运9重奏",
+      "date": "2013-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 178999,
+      "name": "NORN9 ACT TUNE",
+      "nameCN": "",
+      "date": "2016-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 105064,
+      "dst": 46297
+    },
+    {
+      "relateString": "续集",
+      "src": 105064,
+      "dst": 178999
+    },
+    {
+      "relateString": "主线故事",
+      "src": 178999,
+      "dst": 46297
+    },
+    {
+      "relateString": "前传",
+      "src": 178999,
+      "dst": 105064
+    }
+  ]
 }

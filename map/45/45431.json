@@ -1,37 +1,35 @@
 {
- "id": 45431,
- "node": [
-  {
-   "id": 45431,
-   "name": "機動戦士ガンダム THE ORIGIN",
-   "nameCN": "机动战士高达 THE ORIGIN",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/55/45431_2yHhf.jpg",
-   "date": "2001-06-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 306167,
-   "name": "機動戦士ガンダム THE ORIGIN MSD ククルス・ドアンの島",
-   "nameCN": "机动战士高达 THE ORIGIN MSD 库库鲁斯·多安的岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/92/306167_49dV3.jpg",
-   "date": "2016-06-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 45431,
-   "dst": 306167
-  },
-  {
-   "relate": "主线故事",
-   "src": 306167,
-   "dst": 45431
-  }
- ]
+  "id": "45431",
+  "node": [
+    {
+      "id": 45431,
+      "name": "機動戦士ガンダム THE ORIGIN",
+      "nameCN": "机动战士高达 THE ORIGIN",
+      "date": "2001-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 306167,
+      "name": "機動戦士ガンダム THE ORIGIN MSD ククルス・ドアンの島",
+      "nameCN": "机动战士高达 THE ORIGIN MSD 库库鲁斯·多安的岛",
+      "date": "2016-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 45431,
+      "dst": 306167
+    },
+    {
+      "relateString": "主线故事",
+      "src": 306167,
+      "dst": 45431
+    }
+  ]
 }

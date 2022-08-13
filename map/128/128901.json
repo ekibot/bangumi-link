@@ -1,33 +1,54 @@
 {
- "id": 128901,
- "node": [
-  {
-   "id": 128901,
-   "name": "今夜、おじ様に抱かれます…",
-   "nameCN": "",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 145395,
-   "name": "今夜、妻が父に抱かれます…",
-   "image": "/img/no_icon_subject.png"
-  },
-  {
-   "id": 192704,
-   "name": "今夜、お義父様に抱かれます…",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 128901,
-   "dst": 145395
-  },
-  {
-   "relate": "相同世界观",
-   "src": 128901,
-   "dst": 192704
-  }
- ]
+  "id": "128901",
+  "node": [
+    {
+      "id": 128901,
+      "name": "今夜、おじ様に抱かれます…",
+      "nameCN": "",
+      "date": "2015-03-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 145395,
+      "name": "今夜、妻が父に抱かれます…",
+      "nameCN": "",
+      "date": "2015-11-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 192704,
+      "name": "今夜、お義父様に抱かれます…",
+      "nameCN": "",
+      "date": "2014-11-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 128901,
+      "dst": 145395
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 128901,
+      "dst": 192704
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 192704,
+      "dst": 128901
+    },
+    {
+      "relateString": "主线故事",
+      "src": 192704,
+      "dst": 145395
+    }
+  ]
 }

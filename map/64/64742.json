@@ -1,57 +1,51 @@
 {
- "id": 64742,
- "node": [
-  {
-   "id": 64742,
-   "name": "清村くんと杉小路くんと",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/f9/64742_JA5j2.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 64747,
-   "name": "清村くんと杉小路くんろ",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/4f/64747_5f1Gi.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 65116,
-   "name": "清村くんと杉小路くんよ",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/7f/65116_6Jff6.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64742,
-   "dst": 65116
-  },
-  {
-   "relate": "前传",
-   "src": 64747,
-   "dst": 65116
-  },
-  {
-   "relate": "前传",
-   "src": 65116,
-   "dst": 64742
-  },
-  {
-   "relate": "续集",
-   "src": 65116,
-   "dst": 64747
-  }
- ]
+  "id": "64742",
+  "node": [
+    {
+      "id": 64742,
+      "name": "清村くんと杉小路くんと",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 65116,
+      "name": "清村くんと杉小路くんよ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 64747,
+      "name": "清村くんと杉小路くんろ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64742,
+      "dst": 65116
+    },
+    {
+      "relateString": "前传",
+      "src": 64747,
+      "dst": 65116
+    },
+    {
+      "relateString": "前传",
+      "src": 65116,
+      "dst": 64742
+    },
+    {
+      "relateString": "续集",
+      "src": 65116,
+      "dst": 64747
+    }
+  ]
 }

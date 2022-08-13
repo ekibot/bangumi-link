@@ -1,37 +1,33 @@
 {
- "id": 221049,
- "node": [
-  {
-   "id": 221049,
-   "name": "ドクターハート２ ～薮田公介の事件カルテ～",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 248600,
-   "name": "ドクターハート　薮田公介の事件カルテ",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 221049,
-   "dst": 248600
-  },
-  {
-   "relate": "续集",
-   "src": 248600,
-   "dst": 221049
-  }
- ]
+  "id": "221049",
+  "node": [
+    {
+      "id": 221049,
+      "name": "ドクターハート２ ～薮田公介の事件カルテ～",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 248600,
+      "name": "ドクターハート　薮田公介の事件カルテ",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 221049,
+      "dst": 248600
+    },
+    {
+      "relateString": "续集",
+      "src": 248600,
+      "dst": 221049
+    }
+  ]
 }

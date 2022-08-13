@@ -1,0 +1,62 @@
+{
+  "id": "35762",
+  "node": [
+    {
+      "id": 35762,
+      "name": "ぼくの地球を守って",
+      "nameCN": "地球守护灵",
+      "date": "1986-12-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52090,
+      "name": "ボクを包む月の光",
+      "nameCN": "包围我的月光",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 250448,
+      "name": "ぼくは地球と歌う",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 35762,
+      "dst": 52090
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 35762,
+      "dst": 250448
+    },
+    {
+      "relateString": "前传",
+      "src": 52090,
+      "dst": 35762
+    },
+    {
+      "relateString": "续集",
+      "src": 52090,
+      "dst": 250448
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 250448,
+      "dst": 35762
+    },
+    {
+      "relateString": "前传",
+      "src": 250448,
+      "dst": 52090
+    }
+  ]
+}

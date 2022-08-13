@@ -1,37 +1,33 @@
 {
- "id": 84821,
- "node": [
-  {
-   "id": 84821,
-   "name": "LINE POP",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/65/84821_0KK89.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 125056,
-   "name": "LINE POP2",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/75/125056_b2B0e.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84821,
-   "dst": 125056
-  },
-  {
-   "relate": "前传",
-   "src": 125056,
-   "dst": 84821
-  }
- ]
+  "id": "84821",
+  "node": [
+    {
+      "id": 84821,
+      "name": "LINE POP",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 125056,
+      "name": "LINE POP2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84821,
+      "dst": 125056
+    },
+    {
+      "relateString": "前传",
+      "src": 125056,
+      "dst": 84821
+    }
+  ]
 }

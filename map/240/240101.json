@@ -1,0 +1,83 @@
+{
+  "id": "240101",
+  "node": [
+    {
+      "id": 240101,
+      "name": "Oddworld: New 'n' Tasty",
+      "nameCN": "奇异世界：新鲜可口",
+      "date": "2014-07-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256622,
+      "name": "Oddworld: Abe's Oddysee",
+      "nameCN": "奇异世界：阿比逃亡记",
+      "date": "1997-09-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 329245,
+      "name": "Oddworld: Soulstorm",
+      "nameCN": "奇异世界：灵魂风暴",
+      "date": "2021-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256621,
+      "name": "Oddworld: Abe's Exoddus",
+      "nameCN": "奇异世界：阿比逃亡记2",
+      "date": "1998-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 240101,
+      "dst": 256622
+    },
+    {
+      "relateString": "续集",
+      "src": 240101,
+      "dst": 329245
+    },
+    {
+      "relateString": "前传",
+      "src": 256621,
+      "dst": 256622
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 256621,
+      "dst": 329245
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 256622,
+      "dst": 240101
+    },
+    {
+      "relateString": "续集",
+      "src": 256622,
+      "dst": 256621
+    },
+    {
+      "relateString": "前传",
+      "src": 329245,
+      "dst": 240101
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 329245,
+      "dst": 256621
+    }
+  ]
+}

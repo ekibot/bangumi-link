@@ -1,57 +1,52 @@
 {
- "id": 129072,
- "node": [
-  {
-   "id": 129072,
-   "name": "バビル2世",
-   "nameCN": "巴比伦二世",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/c4/129072_w5IiY.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 129077,
-   "name": "その名は101",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/2c/129077_G8ko2.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 169519,
-   "name": "バビル2世 ザ・リターナー",
-   "nameCN": "巴比伦2世 THE Returner",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/b8/169519_89zF9.jpg",
-   "date": "2010-07-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129072,
-   "dst": 129077
-  },
-  {
-   "relate": "前传",
-   "src": 129077,
-   "dst": 129072
-  },
-  {
-   "relate": "续集",
-   "src": 129077,
-   "dst": 169519
-  },
-  {
-   "relate": "前传",
-   "src": 169519,
-   "dst": 129077
-  }
- ]
+  "id": "129072",
+  "node": [
+    {
+      "id": 129072,
+      "name": "バビル2世",
+      "nameCN": "巴比伦二世",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 129077,
+      "name": "その名は101",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 169519,
+      "name": "バビル2世 ザ・リターナー",
+      "nameCN": "巴比伦2世 THE Returner",
+      "date": "2010-07-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129072,
+      "dst": 129077
+    },
+    {
+      "relateString": "前传",
+      "src": 129077,
+      "dst": 129072
+    },
+    {
+      "relateString": "续集",
+      "src": 129077,
+      "dst": 169519
+    },
+    {
+      "relateString": "前传",
+      "src": 169519,
+      "dst": 129077
+    }
+  ]
 }

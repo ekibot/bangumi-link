@@ -1,140 +1,166 @@
 {
- "id": 21234,
- "node": [
-  {
-   "id": 21234,
-   "name": "操心術0",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/04/21234_YhpNj.jpg",
-   "date": "2011-01-28",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 21235,
-   "name": "操心術3",
-   "nameCN": "操心术3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/c7/21235_55F9q.jpg",
-   "date": "2008-12-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 200509,
-   "name": "操心術∞",
-   "nameCN": "操心术∞",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/8c/200509_cFQAv.jpg",
-   "date": "2012-11-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 202162,
-   "name": "操心術～P.S.@4～",
-   "nameCN": "操心术",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/14/202162_EpVZc.jpg",
-   "type": 4
-  },
-  {
-   "id": 202163,
-   "name": "操心術2",
-   "nameCN": "操心术2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/fe/202163_74WmU.jpg",
-   "date": "2006-06-30",
-   "type": 4
-  },
-  {
-   "id": 202164,
-   "name": "操心術外伝 ～綾河博士のHENTAI事件簿～",
-   "nameCN": "操心术外传~绫河博士的变态事件簿~",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/e9/202164_Rhc9h.jpg",
-   "date": "2015-06-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 21234,
-   "dst": 21235
-  },
-  {
-   "relate": "相同世界观",
-   "src": 21234,
-   "dst": 200509
-  },
-  {
-   "relate": "前传",
-   "src": 21235,
-   "dst": 202162
-  },
-  {
-   "relate": "前传",
-   "src": 21235,
-   "dst": 202163
-  },
-  {
-   "relate": "相同世界观",
-   "src": 200509,
-   "dst": 21234
-  },
-  {
-   "relate": "主线故事",
-   "src": 200509,
-   "dst": 21235
-  },
-  {
-   "relate": "主线故事",
-   "src": 200509,
-   "dst": 202162
-  },
-  {
-   "relate": "主线故事",
-   "src": 200509,
-   "dst": 202163
-  },
-  {
-   "relate": "相同世界观",
-   "src": 200509,
-   "dst": 202164
-  },
-  {
-   "relate": "续集",
-   "src": 202163,
-   "dst": 21235
-  },
-  {
-   "relate": "前传",
-   "src": 202163,
-   "dst": 202162
-  },
-  {
-   "relate": "相同世界观",
-   "src": 202164,
-   "dst": 21234
-  },
-  {
-   "relate": "主线故事",
-   "src": 202164,
-   "dst": 21235
-  },
-  {
-   "relate": "相同世界观",
-   "src": 202164,
-   "dst": 200509
-  },
-  {
-   "relate": "主线故事",
-   "src": 202164,
-   "dst": 202162
-  },
-  {
-   "relate": "主线故事",
-   "src": 202164,
-   "dst": 202163
-  }
- ]
+  "id": "21234",
+  "node": [
+    {
+      "id": 21234,
+      "name": "操心術0",
+      "nameCN": "",
+      "date": "2011-01-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 21235,
+      "name": "操心術3",
+      "nameCN": "操心术3",
+      "date": "2008-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 200509,
+      "name": "操心術∞",
+      "nameCN": "操心术∞",
+      "date": "2012-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202162,
+      "name": "操心術～P.S.@4～",
+      "nameCN": "操心术",
+      "date": "2004-10-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202163,
+      "name": "操心術2",
+      "nameCN": "操心术2",
+      "date": "2006-06-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 202164,
+      "name": "操心術外伝 ～綾河博士のHENTAI事件簿～",
+      "nameCN": "操心术外传~绫河博士的变态事件簿~",
+      "date": "2015-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 21234,
+      "dst": 21235
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 21234,
+      "dst": 200509
+    },
+    {
+      "relateString": "主线故事",
+      "src": 21234,
+      "dst": 202162
+    },
+    {
+      "relateString": "主线故事",
+      "src": 21234,
+      "dst": 202163
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 21234,
+      "dst": 202164
+    },
+    {
+      "relateString": "前传",
+      "src": 21235,
+      "dst": 202162
+    },
+    {
+      "relateString": "前传",
+      "src": 21235,
+      "dst": 202163
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 200509,
+      "dst": 21234
+    },
+    {
+      "relateString": "主线故事",
+      "src": 200509,
+      "dst": 21235
+    },
+    {
+      "relateString": "主线故事",
+      "src": 200509,
+      "dst": 202162
+    },
+    {
+      "relateString": "主线故事",
+      "src": 200509,
+      "dst": 202163
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 200509,
+      "dst": 202164
+    },
+    {
+      "relateString": "续集",
+      "src": 202162,
+      "dst": 21235
+    },
+    {
+      "relateString": "续集",
+      "src": 202162,
+      "dst": 202163
+    },
+    {
+      "relateString": "续集",
+      "src": 202163,
+      "dst": 21235
+    },
+    {
+      "relateString": "前传",
+      "src": 202163,
+      "dst": 202162
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 202164,
+      "dst": 21234
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202164,
+      "dst": 21235
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 202164,
+      "dst": 200509
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202164,
+      "dst": 202162
+    },
+    {
+      "relateString": "主线故事",
+      "src": 202164,
+      "dst": 202163
+    }
+  ]
 }

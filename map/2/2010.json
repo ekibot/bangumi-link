@@ -1,37 +1,35 @@
 {
- "id": 2010,
- "node": [
-  {
-   "id": 2010,
-   "name": "彩雲国物語",
-   "nameCN": "彩云国物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/a8/2010_BERwz.jpg",
-   "date": "2006-04-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 19707,
-   "name": "彩雲国物語 第2シリーズ",
-   "nameCN": "彩云国物语 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/7a/19707_7A56s.jpg",
-   "date": "2007-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2010,
-   "dst": 19707
-  },
-  {
-   "relate": "前传",
-   "src": 19707,
-   "dst": 2010
-  }
- ]
+  "id": "2010",
+  "node": [
+    {
+      "id": 2010,
+      "name": "彩雲国物語",
+      "nameCN": "彩云国物语",
+      "date": "2006-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 19707,
+      "name": "彩雲国物語 第2シリーズ",
+      "nameCN": "彩云国物语 第二季",
+      "date": "2007-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2010,
+      "dst": 19707
+    },
+    {
+      "relateString": "前传",
+      "src": 19707,
+      "dst": 2010
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 105724,
- "node": [
-  {
-   "id": 105724,
-   "name": "The Adventures of Tintin: The Secret of the Unicorn",
-   "nameCN": "独角兽号的秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/33/105724_us.jpg",
-   "date": "1974-06-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 105725,
-   "name": "Red Rackham's Treasure (The Adventures of Tintin)",
-   "nameCN": "红色拉克姆的宝藏",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/9f/105725_us.jpg",
-   "date": "1974-06-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105724,
-   "dst": 105725
-  },
-  {
-   "relate": "前传",
-   "src": 105725,
-   "dst": 105724
-  }
- ]
+  "id": "105724",
+  "node": [
+    {
+      "id": 105724,
+      "name": "The Adventures of Tintin: The Secret of the Unicorn",
+      "nameCN": "独角兽号的秘密",
+      "date": "1974-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 105725,
+      "name": "Red Rackham's Treasure (The Adventures of Tintin)",
+      "nameCN": "红色拉克姆的宝藏",
+      "date": "1974-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105724,
+      "dst": 105725
+    },
+    {
+      "relateString": "前传",
+      "src": 105725,
+      "dst": 105724
+    }
+  ]
 }

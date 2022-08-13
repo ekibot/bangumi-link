@@ -1,37 +1,35 @@
 {
- "id": 7917,
- "node": [
-  {
-   "id": 7917,
-   "name": "茜新地花屋散華",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/d2/7917_jp.jpg",
-   "date": "2009-03-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 22651,
-   "name": "淋座敷空慰",
-   "nameCN": "淋座敷空慰",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/c5/22651_899xM.jpg",
-   "date": "2011-03-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7917,
-   "dst": 22651
-  },
-  {
-   "relate": "前传",
-   "src": 22651,
-   "dst": 7917
-  }
- ]
+  "id": "7917",
+  "node": [
+    {
+      "id": 7917,
+      "name": "茜新地花屋散華",
+      "nameCN": "",
+      "date": "2009-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 22651,
+      "name": "淋座敷空慰",
+      "nameCN": "淋座敷空慰",
+      "date": "2011-03-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7917,
+      "dst": 22651
+    },
+    {
+      "relateString": "前传",
+      "src": 22651,
+      "dst": 7917
+    }
+  ]
 }

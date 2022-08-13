@@ -1,51 +1,54 @@
 {
- "id": 293633,
- "node": [
-  {
-   "id": 293633,
-   "name": "Amphibia Season 1",
-   "nameCN": "奇幻沼泽 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/64/293633_ayXhH.jpg",
-   "date": "2019-06-14",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 327207,
-   "name": "Amphibia Season 2",
-   "nameCN": "奇幻沼泽 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/01/327207_71XKY.jpg",
-   "date": "2020-07-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 386267,
-   "name": "Amphibia Season 3",
-   "nameCN": "奇幻沼泽 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/bc/386267_bRz9j.jpg",
-   "date": "2021-10-02",
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 293633,
-   "dst": 327207
-  },
-  {
-   "relate": "前传",
-   "src": 327207,
-   "dst": 293633
-  },
-  {
-   "relate": "前传",
-   "src": 386267,
-   "dst": 327207
-  }
- ]
+  "id": "293633",
+  "node": [
+    {
+      "id": 293633,
+      "name": "Amphibia Season 1",
+      "nameCN": "奇幻沼泽 第一季",
+      "date": "2019-06-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 327207,
+      "name": "Amphibia Season 2",
+      "nameCN": "奇幻沼泽 第二季",
+      "date": "2020-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 386267,
+      "name": "Amphibia Season 3",
+      "nameCN": "奇幻沼泽 第三季",
+      "date": "2021-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 293633,
+      "dst": 327207
+    },
+    {
+      "relateString": "前传",
+      "src": 327207,
+      "dst": 293633
+    },
+    {
+      "relateString": "续集",
+      "src": 327207,
+      "dst": 386267
+    },
+    {
+      "relateString": "前传",
+      "src": 386267,
+      "dst": 327207
+    }
+  ]
 }

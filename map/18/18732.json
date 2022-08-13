@@ -1,57 +1,54 @@
 {
- "id": 18732,
- "node": [
-  {
-   "id": 18732,
-   "name": "十一文字の殺人",
-   "nameCN": "十一字杀人",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/b4/18732_52699.jpg",
-   "date": "2011-06-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 19122,
-   "name": "ブルータスの心臓",
-   "nameCN": "布鲁特斯的心脏",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/fc/19122_5CECN.jpg",
-   "date": "2011-06-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 19522,
-   "name": "回廊亭殺人事件",
-   "nameCN": "回廊亭杀人事件",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/00/19522_hhKKH.jpg",
-   "date": "2011-06-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 18732,
-   "dst": 19122
-  },
-  {
-   "relate": "前传",
-   "src": 19122,
-   "dst": 18732
-  },
-  {
-   "relate": "续集",
-   "src": 19122,
-   "dst": 19522
-  },
-  {
-   "relate": "前传",
-   "src": 19522,
-   "dst": 19122
-  }
- ]
+  "id": "18732",
+  "node": [
+    {
+      "id": 18732,
+      "name": "十一文字の殺人",
+      "nameCN": "十一字杀人",
+      "date": "2011-06-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 19122,
+      "name": "ブルータスの心臓",
+      "nameCN": "布鲁特斯的心脏",
+      "date": "2011-06-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 19522,
+      "name": "回廊亭殺人事件",
+      "nameCN": "回廊亭杀人事件",
+      "date": "2011-06-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 18732,
+      "dst": 19122
+    },
+    {
+      "relateString": "前传",
+      "src": 19122,
+      "dst": 18732
+    },
+    {
+      "relateString": "续集",
+      "src": 19122,
+      "dst": 19522
+    },
+    {
+      "relateString": "前传",
+      "src": 19522,
+      "dst": 19122
+    }
+  ]
 }

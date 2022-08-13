@@ -1,0 +1,54 @@
+{
+  "id": "195540",
+  "node": [
+    {
+      "id": 195540,
+      "name": "Transport Fever",
+      "nameCN": "狂热运输",
+      "date": "2016-11-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 195541,
+      "name": "Train Fever",
+      "nameCN": "狂热火车",
+      "date": "2014-09-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294369,
+      "name": "Transport Fever 2",
+      "nameCN": "狂热运输2",
+      "date": "2019-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 195540,
+      "dst": 195541
+    },
+    {
+      "relateString": "续集",
+      "src": 195540,
+      "dst": 294369
+    },
+    {
+      "relateString": "续集",
+      "src": 195541,
+      "dst": 195540
+    },
+    {
+      "relateString": "前传",
+      "src": 294369,
+      "dst": 195540
+    }
+  ]
+}

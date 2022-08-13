@@ -1,37 +1,35 @@
 {
- "id": 107782,
- "node": [
-  {
-   "id": 107782,
-   "name": "麻雀",
-   "nameCN": "二人麻将",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/55/107782_6oX66.jpg",
-   "date": "1983-08-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107784,
-   "name": "4人打ち麻雀",
-   "nameCN": "四人麻将",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/7c/107784_qc92F.jpg",
-   "date": "1984-11-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107782,
-   "dst": 107784
-  },
-  {
-   "relate": "前传",
-   "src": 107784,
-   "dst": 107782
-  }
- ]
+  "id": "107782",
+  "node": [
+    {
+      "id": 107782,
+      "name": "麻雀",
+      "nameCN": "二人麻将",
+      "date": "1983-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107784,
+      "name": "4人打ち麻雀",
+      "nameCN": "四人麻将",
+      "date": "1984-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107782,
+      "dst": 107784
+    },
+    {
+      "relateString": "前传",
+      "src": 107784,
+      "dst": 107782
+    }
+  ]
 }

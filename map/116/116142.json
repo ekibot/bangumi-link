@@ -1,37 +1,33 @@
 {
- "id": 116142,
- "node": [
-  {
-   "id": 116142,
-   "name": "快乐星猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/89/116142_T66K1.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 205219,
-   "name": "星空救援队",
-   "nameCN": "星空救援队",
-   "date": null,
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/c2/205219_hjA9A.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 116142,
-   "dst": 205219
-  },
-  {
-   "relate": "不同世界观",
-   "src": 205219,
-   "dst": 116142
-  }
- ]
+  "id": "116142",
+  "node": [
+    {
+      "id": 116142,
+      "name": "快乐星猫",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 205219,
+      "name": "星空救援队",
+      "nameCN": "星空救援队",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 116142,
+      "dst": 205219
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 205219,
+      "dst": 116142
+    }
+  ]
 }

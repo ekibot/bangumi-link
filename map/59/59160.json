@@ -1,37 +1,34 @@
 {
- "id": 59160,
- "node": [
-  {
-   "id": 59160,
-   "name": "インフェルノコップ",
-   "nameCN": "地狱刑事",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/ba/59160_4UNVM.jpg",
-   "date": "2012-12-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 216788,
-   "name": "インフェルノコップ 第2期",
-   "nameCN": "地狱刑事 第二季",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 59160,
-   "dst": 216788
-  },
-  {
-   "relate": "前传",
-   "src": 216788,
-   "dst": 59160
-  }
- ]
+  "id": "59160",
+  "node": [
+    {
+      "id": 59160,
+      "name": "インフェルノコップ",
+      "nameCN": "地狱刑事",
+      "date": "2012-12-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 216788,
+      "name": "インフェルノコップ 第2期",
+      "nameCN": "地狱刑事 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 59160,
+      "dst": 216788
+    },
+    {
+      "relateString": "前传",
+      "src": 216788,
+      "dst": 59160
+    }
+  ]
 }

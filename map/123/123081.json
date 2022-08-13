@@ -1,51 +1,49 @@
 {
- "id": 123081,
- "node": [
-  {
-   "id": 123081,
-   "name": "Spider-Man: Mysterio's Menace",
-   "nameCN": "蜘蛛侠 密斯特里奥的威胁",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/0e/123081_gfEdM.jpg",
-   "date": "2001-09-19",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 123083,
-   "name": "Spider-Man 2: Enter Electro",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/04/123083_rBDRJ.jpg",
-   "date": "2001-10-19",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 228766,
-   "name": "Spider-Man",
-   "nameCN": "蜘蛛侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/06/228766_gxXKw.jpg",
-   "date": "2000-08-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123081,
-   "dst": 123083
-  },
-  {
-   "relate": "前传",
-   "src": 123083,
-   "dst": 228766
-  },
-  {
-   "relate": "续集",
-   "src": 228766,
-   "dst": 123083
-  }
- ]
+  "id": "123081",
+  "node": [
+    {
+      "id": 123081,
+      "name": "Spider-Man: Mysterio's Menace",
+      "nameCN": "蜘蛛侠 密斯特里奥的威胁",
+      "date": "2001-09-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 123083,
+      "name": "Spider-Man 2: Enter Electro",
+      "nameCN": "",
+      "date": "2001-10-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228766,
+      "name": "Spider-Man",
+      "nameCN": "蜘蛛侠",
+      "date": "2000-08-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123081,
+      "dst": 123083
+    },
+    {
+      "relateString": "前传",
+      "src": 123083,
+      "dst": 228766
+    },
+    {
+      "relateString": "续集",
+      "src": 228766,
+      "dst": 123083
+    }
+  ]
 }

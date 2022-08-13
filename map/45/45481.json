@@ -1,37 +1,34 @@
 {
- "id": 45481,
- "node": [
-  {
-   "id": 45481,
-   "name": "ブロンズの天使外伝 (フラワーコミックスアルファ)",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/77/45481_jp.jpg",
-   "date": "2009-01-09",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 45485,
-   "name": "ブロンズの天使",
-   "nameCN": "普希金的天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/7d/45485_je3jP.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 45481,
-   "dst": 45485
-  },
-  {
-   "relate": "番外篇",
-   "src": 45485,
-   "dst": 45481
-  }
- ]
+  "id": "45481",
+  "node": [
+    {
+      "id": 45481,
+      "name": "ブロンズの天使外伝 (フラワーコミックスアルファ)",
+      "nameCN": "",
+      "date": "2009-01-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 45485,
+      "name": "ブロンズの天使",
+      "nameCN": "普希金的天使",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 45481,
+      "dst": 45485
+    },
+    {
+      "relateString": "番外篇",
+      "src": 45485,
+      "dst": 45481
+    }
+  ]
 }

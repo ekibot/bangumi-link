@@ -1,37 +1,49 @@
 {
- "id": 290656,
- "node": [
-  {
-   "id": 290656,
-   "name": "あまえんぼ",
-   "nameCN": "夏日狂想曲：乡间的难忘回忆",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/f2/290656_G33On.jpg",
-   "date": "2019-09-10",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 353330,
-   "name": "家事代行のお姉さんで僕の勉強が捗らない!",
-   "nameCN": "女孩子只会影响我学习！",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/11/353330_fpzDb.jpg",
-   "type": 4,
-   "date": "2018-05-18",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 290656,
-   "dst": 353330
-  },
-  {
-   "relate": "续集",
-   "src": 353330,
-   "dst": 290656
-  }
- ]
+  "id": "290656",
+  "node": [
+    {
+      "id": 290656,
+      "name": "あまえんぼ",
+      "nameCN": "夏日狂想曲：乡间的难忘回忆",
+      "date": "2019-09-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 353330,
+      "name": "家事代行のお姉さんで僕の勉強が捗らない!",
+      "nameCN": "女孩子只会影响我学习！",
+      "date": "2018-05-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 364920,
+      "name": "あまえんぼ+ ～性を抑えきれない僕と無償の母娘達～",
+      "nameCN": "夏日狂想曲+(Append)",
+      "date": "2020-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 290656,
+      "dst": 353330
+    },
+    {
+      "relateString": "续集",
+      "src": 353330,
+      "dst": 290656
+    },
+    {
+      "relateString": "主线故事",
+      "src": 364920,
+      "dst": 290656
+    }
+  ]
 }

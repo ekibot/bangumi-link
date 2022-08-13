@@ -1,37 +1,33 @@
 {
- "id": 149132,
- "node": [
-  {
-   "id": 149132,
-   "name": "僕の血を吸わないで",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/40/149132_qnp9X.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 149137,
-   "name": "僕にお月様を見せないで",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/55/149137_soDPP.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 149132,
-   "dst": 149137
-  },
-  {
-   "relate": "前传",
-   "src": 149137,
-   "dst": 149132
-  }
- ]
+  "id": "149132",
+  "node": [
+    {
+      "id": 149132,
+      "name": "僕の血を吸わないで",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 149137,
+      "name": "僕にお月様を見せないで",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 149132,
+      "dst": 149137
+    },
+    {
+      "relateString": "前传",
+      "src": 149137,
+      "dst": 149132
+    }
+  ]
 }

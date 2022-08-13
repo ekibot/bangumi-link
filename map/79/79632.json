@@ -1,77 +1,73 @@
 {
- "id": 79632,
- "node": [
-  {
-   "id": 79632,
-   "name": "ワールドヒーローズ",
-   "nameCN": "世界英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/18/79632_3V3EE.jpg",
-   "date": "1992-07-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 301317,
-   "name": "ワールドヒーローズ2JET",
-   "nameCN": "世界英雄2喷射版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/a7/301317_Ff1uf.jpg",
-   "date": "1994-04-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 301326,
-   "name": "ワールドヒーローズ2",
-   "nameCN": "世界英雄2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/c2/301326_PPrEM.jpg",
-   "date": "1993-04-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 303844,
-   "name": "ワールドヒーローズ パーフェクト",
-   "nameCN": "世界英雄 完美版",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/ca/303844_qJQ6j.jpg",
-   "date": "1995-05-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79632,
-   "dst": 301326
-  },
-  {
-   "relate": "前传",
-   "src": 301317,
-   "dst": 301326
-  },
-  {
-   "relate": "续集",
-   "src": 301317,
-   "dst": 303844
-  },
-  {
-   "relate": "前传",
-   "src": 301326,
-   "dst": 79632
-  },
-  {
-   "relate": "续集",
-   "src": 301326,
-   "dst": 301317
-  },
-  {
-   "relate": "前传",
-   "src": 303844,
-   "dst": 301317
-  }
- ]
+  "id": "79632",
+  "node": [
+    {
+      "id": 79632,
+      "name": "ワールドヒーローズ",
+      "nameCN": "世界英雄",
+      "date": "1992-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301326,
+      "name": "ワールドヒーローズ2",
+      "nameCN": "世界英雄2",
+      "date": "1993-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301317,
+      "name": "ワールドヒーローズ2JET",
+      "nameCN": "世界英雄2喷射版",
+      "date": "1994-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 303844,
+      "name": "ワールドヒーローズ パーフェクト",
+      "nameCN": "世界英雄 完美版",
+      "date": "1995-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79632,
+      "dst": 301326
+    },
+    {
+      "relateString": "前传",
+      "src": 301317,
+      "dst": 301326
+    },
+    {
+      "relateString": "续集",
+      "src": 301317,
+      "dst": 303844
+    },
+    {
+      "relateString": "前传",
+      "src": 301326,
+      "dst": 79632
+    },
+    {
+      "relateString": "续集",
+      "src": 301326,
+      "dst": 301317
+    },
+    {
+      "relateString": "前传",
+      "src": 303844,
+      "dst": 301317
+    }
+  ]
 }

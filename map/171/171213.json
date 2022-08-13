@@ -1,37 +1,35 @@
 {
- "id": 171213,
- "node": [
-  {
-   "id": 171213,
-   "name": "ホタルノヒカリ",
-   "nameCN": "小萤的青春",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/03/171213_l727c.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 206084,
-   "name": "ホタルノヒカリSP",
-   "nameCN": "小萤的青春SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/76/206084_UdJHW.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171213,
-   "dst": 206084
-  },
-  {
-   "relate": "前传",
-   "src": 206084,
-   "dst": 171213
-  }
- ]
+  "id": "171213",
+  "node": [
+    {
+      "id": 171213,
+      "name": "ホタルノヒカリ",
+      "nameCN": "小萤的青春",
+      "date": "2004-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 206084,
+      "name": "ホタルノヒカリSP",
+      "nameCN": "小萤的青春SP",
+      "date": "2014-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171213,
+      "dst": 206084
+    },
+    {
+      "relateString": "前传",
+      "src": 206084,
+      "dst": 171213
+    }
+  ]
 }

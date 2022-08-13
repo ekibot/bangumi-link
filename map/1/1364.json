@@ -1,57 +1,54 @@
 {
- "id": 1364,
- "node": [
-  {
-   "id": 1364,
-   "name": "プロポーズ大作戦",
-   "nameCN": "求婚大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/fc/1364_K6ZpF.jpg",
-   "date": "2007-04-16",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 60558,
-   "name": "プロポーズ大作戦SP",
-   "nameCN": "求婚大作战SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/01/60558_w3mo9.jpg",
-   "date": "2008-03-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 215204,
-   "name": "求婚大作战",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/2c/215204_HT635.jpg",
-   "date": "2017-04-24",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1364,
-   "dst": 60558
-  },
-  {
-   "relate": "不同演绎",
-   "src": 1364,
-   "dst": 215204
-  },
-  {
-   "relate": "前传",
-   "src": 60558,
-   "dst": 1364
-  },
-  {
-   "relate": "不同演绎",
-   "src": 215204,
-   "dst": 1364
-  }
- ]
+  "id": "1364",
+  "node": [
+    {
+      "id": 1364,
+      "name": "プロポーズ大作戦",
+      "nameCN": "求婚大作战",
+      "date": "2007-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 60558,
+      "name": "プロポーズ大作戦SP",
+      "nameCN": "求婚大作战SP",
+      "date": "2008-03-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 215204,
+      "name": "求婚大作战",
+      "nameCN": "",
+      "date": "2017-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1364,
+      "dst": 60558
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 1364,
+      "dst": 215204
+    },
+    {
+      "relateString": "前传",
+      "src": 60558,
+      "dst": 1364
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 215204,
+      "dst": 1364
+    }
+  ]
 }

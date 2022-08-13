@@ -1,37 +1,35 @@
 {
- "id": 42850,
- "node": [
-  {
-   "id": 42850,
-   "name": "Brave",
-   "nameCN": "勇敢传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/16/42850_97Yzn.jpg",
-   "date": "2012-06-19",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 112249,
-   "name": "The Legend of Mor'du",
-   "nameCN": "魔都传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/05/112249_M6z17.jpg",
-   "date": "2012-11-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 42850,
-   "dst": 112249
-  },
-  {
-   "relate": "主线故事",
-   "src": 112249,
-   "dst": 42850
-  }
- ]
+  "id": "42850",
+  "node": [
+    {
+      "id": 42850,
+      "name": "Brave",
+      "nameCN": "勇敢传说",
+      "date": "2012-06-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112249,
+      "name": "The Legend of Mor'du",
+      "nameCN": "魔都传奇",
+      "date": "2012-11-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 42850,
+      "dst": 112249
+    },
+    {
+      "relateString": "主线故事",
+      "src": 112249,
+      "dst": 42850
+    }
+  ]
 }

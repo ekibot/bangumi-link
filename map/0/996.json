@@ -1,111 +1,106 @@
 {
- "id": 996,
- "node": [
-  {
-   "id": 996,
-   "name": "Serious Sam II",
-   "nameCN": "英雄萨姆2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/8a/996_buWhf.jpg",
-   "date": "2005-10-11",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 127423,
-   "name": "Serious Sam: The First Encounter",
-   "nameCN": "英雄萨姆 首次出击",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/32/127423_ZWk1A.jpg",
-   "date": "2001-03-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 212891,
-   "name": "Serious Sam 3: BFE",
-   "nameCN": "英雄萨姆3",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/87/212891_Yq2iI.jpg",
-   "date": "2011-11-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 247951,
-   "name": "Serious Sam 4",
-   "nameCN": "英雄萨姆4",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/71/247951_brEiG.jpg",
-   "date": "2020-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 293891,
-   "name": "Serious Sam: The Second Encounter",
-   "nameCN": "英雄萨姆：再度出击",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/7f/293891_VpeVH.jpg",
-   "date": "2002-02-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 365371,
-   "name": "Serious Sam: Siberian Mayhem",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/68/365371_7PrpQ.jpg",
-   "date": "2022-01-25",
-   "nameCN": "英雄萨姆：西伯利亚狂想曲",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 996,
-   "dst": 212891
-  },
-  {
-   "relate": "前传",
-   "src": 996,
-   "dst": 293891
-  },
-  {
-   "relate": "续集",
-   "src": 127423,
-   "dst": 293891
-  },
-  {
-   "relate": "前传",
-   "src": 212891,
-   "dst": 996
-  },
-  {
-   "relate": "续集",
-   "src": 212891,
-   "dst": 247951
-  },
-  {
-   "relate": "前传",
-   "src": 247951,
-   "dst": 212891
-  },
-  {
-   "relate": "续集",
-   "src": 293891,
-   "dst": 996
-  },
-  {
-   "relate": "前传",
-   "src": 293891,
-   "dst": 127423
-  },
-  {
-   "relate": "主线故事",
-   "src": 365371,
-   "dst": 247951
-  }
- ]
+  "id": "996",
+  "node": [
+    {
+      "id": 996,
+      "name": "Serious Sam II",
+      "nameCN": "英雄萨姆2",
+      "date": "2005-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 212891,
+      "name": "Serious Sam 3: BFE",
+      "nameCN": "英雄萨姆3",
+      "date": "2011-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293891,
+      "name": "Serious Sam: The Second Encounter",
+      "nameCN": "英雄萨姆：再度出击",
+      "date": "2002-02-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 127423,
+      "name": "Serious Sam: The First Encounter",
+      "nameCN": "英雄萨姆 首次出击",
+      "date": "2001-03-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 247951,
+      "name": "Serious Sam 4",
+      "nameCN": "英雄萨姆4",
+      "date": "2020-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 365371,
+      "name": "Serious Sam: Siberian Mayhem",
+      "nameCN": "英雄萨姆：西伯利亚狂想曲",
+      "date": "2022-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 996,
+      "dst": 212891
+    },
+    {
+      "relateString": "前传",
+      "src": 996,
+      "dst": 293891
+    },
+    {
+      "relateString": "续集",
+      "src": 127423,
+      "dst": 293891
+    },
+    {
+      "relateString": "前传",
+      "src": 212891,
+      "dst": 996
+    },
+    {
+      "relateString": "续集",
+      "src": 212891,
+      "dst": 247951
+    },
+    {
+      "relateString": "前传",
+      "src": 247951,
+      "dst": 212891
+    },
+    {
+      "relateString": "续集",
+      "src": 293891,
+      "dst": 996
+    },
+    {
+      "relateString": "前传",
+      "src": 293891,
+      "dst": 127423
+    },
+    {
+      "relateString": "主线故事",
+      "src": 365371,
+      "dst": 247951
+    }
+  ]
 }

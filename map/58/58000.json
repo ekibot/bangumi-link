@@ -1,37 +1,35 @@
 {
- "id": 58000,
- "node": [
-  {
-   "id": 58000,
-   "name": "Steel Battalion - Heavy Armor",
-   "nameCN": "重铁骑",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/fb/58000_T3Sl5.jpg",
-   "date": "2012-06-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 249891,
-   "name": "鉄騎",
-   "nameCN": "铁骑",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/cc/249891_J5F25.jpg",
-   "date": "2002-09-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 58000,
-   "dst": 249891
-  },
-  {
-   "relate": "续集",
-   "src": 249891,
-   "dst": 58000
-  }
- ]
+  "id": "58000",
+  "node": [
+    {
+      "id": 58000,
+      "name": "Steel Battalion - Heavy Armor",
+      "nameCN": "重铁骑",
+      "date": "2012-06-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249891,
+      "name": "鉄騎",
+      "nameCN": "铁骑",
+      "date": "2002-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 58000,
+      "dst": 249891
+    },
+    {
+      "relateString": "续集",
+      "src": 249891,
+      "dst": 58000
+    }
+  ]
 }

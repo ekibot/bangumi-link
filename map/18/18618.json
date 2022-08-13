@@ -1,37 +1,34 @@
 {
- "id": 18618,
- "node": [
-  {
-   "id": 18618,
-   "name": "ジャンケンマン",
-   "nameCN": "正气大侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/68/18618_0g99l.jpg",
-   "date": "1991-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 195915,
-   "name": "ジャンケンマン 怪獣大決戦",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/85/195915_1gO1M.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 18618,
-   "dst": 195915
-  },
-  {
-   "relate": "主线故事",
-   "src": 195915,
-   "dst": 18618
-  }
- ]
+  "id": "18618",
+  "node": [
+    {
+      "id": 18618,
+      "name": "ジャンケンマン",
+      "nameCN": "正气大侠",
+      "date": "1991-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 195915,
+      "name": "ジャンケンマン 怪獣大決戦",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 18618,
+      "dst": 195915
+    },
+    {
+      "relateString": "主线故事",
+      "src": 195915,
+      "dst": 18618
+    }
+  ]
 }

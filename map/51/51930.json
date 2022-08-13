@@ -1,37 +1,35 @@
 {
- "id": 51930,
- "node": [
-  {
-   "id": 51930,
-   "name": "死神稼業～怪談ロマンス～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/f6/51930_2ZRKZ.jpg",
-   "date": "2013-03-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 78705,
-   "name": "死神所業〜怪談ロマンス〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/60/78705_wAcbb.jpg",
-   "date": "2013-11-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 51930,
-   "dst": 78705
-  },
-  {
-   "relate": "前传",
-   "src": 78705,
-   "dst": 51930
-  }
- ]
+  "id": "51930",
+  "node": [
+    {
+      "id": 51930,
+      "name": "死神稼業～怪談ロマンス～",
+      "nameCN": "",
+      "date": "2013-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 78705,
+      "name": "死神所業〜怪談ロマンス〜",
+      "nameCN": "",
+      "date": "2013-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 51930,
+      "dst": 78705
+    },
+    {
+      "relateString": "前传",
+      "src": 78705,
+      "dst": 51930
+    }
+  ]
 }

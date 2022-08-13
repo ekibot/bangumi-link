@@ -1,37 +1,35 @@
 {
- "id": 150212,
- "node": [
-  {
-   "id": 150212,
-   "name": "面影レイルバック",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/e3/150212_a2n21.jpg",
-   "date": "2017-09-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 226725,
-   "name": "泥亀の月",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/45/226725_7157L.jpg",
-   "date": "2017-05-02",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 150212,
-   "dst": 226725
-  },
-  {
-   "relate": "续集",
-   "src": 226725,
-   "dst": 150212
-  }
- ]
+  "id": "150212",
+  "node": [
+    {
+      "id": 150212,
+      "name": "面影レイルバック",
+      "nameCN": "",
+      "date": "2017-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226725,
+      "name": "泥亀の月",
+      "nameCN": "",
+      "date": "2017-05-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 150212,
+      "dst": 226725
+    },
+    {
+      "relateString": "续集",
+      "src": 226725,
+      "dst": 150212
+    }
+  ]
 }

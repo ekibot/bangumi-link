@@ -1,37 +1,35 @@
 {
- "id": 2600,
- "node": [
-  {
-   "id": 2600,
-   "name": "白い巨塔",
-   "nameCN": "白色巨塔",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/b9/2600_b4B1p.jpg",
-   "date": "2003-10-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 263927,
-   "name": "白い巨塔",
-   "nameCN": "白色巨塔",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/dd/263927_1YtGV.jpg",
-   "date": "2019-05-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 2600,
-   "dst": 263927
-  },
-  {
-   "relate": "不同演绎",
-   "src": 263927,
-   "dst": 2600
-  }
- ]
+  "id": "2600",
+  "node": [
+    {
+      "id": 2600,
+      "name": "白い巨塔",
+      "nameCN": "白色巨塔",
+      "date": "2003-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 263927,
+      "name": "白い巨塔",
+      "nameCN": "白色巨塔",
+      "date": "2019-05-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 2600,
+      "dst": 263927
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 263927,
+      "dst": 2600
+    }
+  ]
 }

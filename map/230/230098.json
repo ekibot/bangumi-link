@@ -1,57 +1,54 @@
 {
- "id": 230098,
- "node": [
-  {
-   "id": 230098,
-   "name": "Future Man",
-   "nameCN": "高玩救未来",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/12/230098_66SUf.jpg",
-   "date": "2017-11-14",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 272040,
-   "name": "Future Man Season 2",
-   "nameCN": "高玩救未来 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/c0/272040_2n22e.jpg",
-   "date": "2019-01-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 304010,
-   "name": "Future Man Season 3",
-   "nameCN": "高玩救未来 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/a2/304010_t9z6T.jpg",
-   "date": "2020-04-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230098,
-   "dst": 272040
-  },
-  {
-   "relate": "前传",
-   "src": 272040,
-   "dst": 230098
-  },
-  {
-   "relate": "续集",
-   "src": 272040,
-   "dst": 304010
-  },
-  {
-   "relate": "前传",
-   "src": 304010,
-   "dst": 272040
-  }
- ]
+  "id": "230098",
+  "node": [
+    {
+      "id": 230098,
+      "name": "Future Man",
+      "nameCN": "高玩救未来",
+      "date": "2017-11-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 272040,
+      "name": "Future Man Season 2",
+      "nameCN": "高玩救未来 第二季",
+      "date": "2019-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 304010,
+      "name": "Future Man Season 3",
+      "nameCN": "高玩救未来 第三季",
+      "date": "2020-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230098,
+      "dst": 272040
+    },
+    {
+      "relateString": "前传",
+      "src": 272040,
+      "dst": 230098
+    },
+    {
+      "relateString": "续集",
+      "src": 272040,
+      "dst": 304010
+    },
+    {
+      "relateString": "前传",
+      "src": 304010,
+      "dst": 272040
+    }
+  ]
 }

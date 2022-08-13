@@ -1,117 +1,111 @@
 {
- "id": 621,
- "node": [
-  {
-   "id": 621,
-   "name": "Burnout Paradise",
-   "nameCN": "火爆狂飙：天堂",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/fc/621_DSBBz.jpg",
-   "date": "2008-01-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 184621,
-   "name": "Burnout Revenge",
-   "nameCN": "火线狂飙 复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/f6/184621_yPZ97.jpg",
-   "date": "2005-09-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 249241,
-   "name": "Burnout Dominator",
-   "nameCN": "火爆狂飙 统治者",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/32/249241_1ka1j.jpg",
-   "date": "2007-03-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 285374,
-   "name": "Burnout 3: Takedown",
-   "nameCN": "火爆狂飙3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/94/285374_NC01c.jpg",
-   "date": "2004-09-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 322201,
-   "name": "Burnout",
-   "nameCN": "火爆狂飙",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/45/322201_dspj9.jpg",
-   "date": "2001-11-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 322203,
-   "name": "Burnout 2: Point of Impact",
-   "nameCN": "火爆狂飙2：死亡终点",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/6c/322203_mqtJM.jpg",
-   "date": "2002-10-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 621,
-   "dst": 249241
-  },
-  {
-   "relate": "续集",
-   "src": 184621,
-   "dst": 249241
-  },
-  {
-   "relate": "前传",
-   "src": 184621,
-   "dst": 285374
-  },
-  {
-   "relate": "续集",
-   "src": 249241,
-   "dst": 621
-  },
-  {
-   "relate": "前传",
-   "src": 249241,
-   "dst": 184621
-  },
-  {
-   "relate": "续集",
-   "src": 285374,
-   "dst": 184621
-  },
-  {
-   "relate": "前传",
-   "src": 285374,
-   "dst": 322203
-  },
-  {
-   "relate": "续集",
-   "src": 322201,
-   "dst": 322203
-  },
-  {
-   "relate": "续集",
-   "src": 322203,
-   "dst": 285374
-  },
-  {
-   "relate": "前传",
-   "src": 322203,
-   "dst": 322201
-  }
- ]
+  "id": "621",
+  "node": [
+    {
+      "id": 621,
+      "name": "Burnout Paradise",
+      "nameCN": "火爆狂飙：天堂",
+      "date": "2008-01-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249241,
+      "name": "Burnout Dominator",
+      "nameCN": "火爆狂飙 统治者",
+      "date": "2007-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 184621,
+      "name": "Burnout Revenge",
+      "nameCN": "火线狂飙 复仇",
+      "date": "2005-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285374,
+      "name": "Burnout 3: Takedown",
+      "nameCN": "火爆狂飙3",
+      "date": "2004-09-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322203,
+      "name": "Burnout 2: Point of Impact",
+      "nameCN": "火爆狂飙2：死亡终点",
+      "date": "2002-10-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 322201,
+      "name": "Burnout",
+      "nameCN": "火爆狂飙",
+      "date": "2001-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 621,
+      "dst": 249241
+    },
+    {
+      "relateString": "续集",
+      "src": 184621,
+      "dst": 249241
+    },
+    {
+      "relateString": "前传",
+      "src": 184621,
+      "dst": 285374
+    },
+    {
+      "relateString": "续集",
+      "src": 249241,
+      "dst": 621
+    },
+    {
+      "relateString": "前传",
+      "src": 249241,
+      "dst": 184621
+    },
+    {
+      "relateString": "续集",
+      "src": 285374,
+      "dst": 184621
+    },
+    {
+      "relateString": "前传",
+      "src": 285374,
+      "dst": 322203
+    },
+    {
+      "relateString": "续集",
+      "src": 322201,
+      "dst": 322203
+    },
+    {
+      "relateString": "续集",
+      "src": 322203,
+      "dst": 285374
+    },
+    {
+      "relateString": "前传",
+      "src": 322203,
+      "dst": 322201
+    }
+  ]
 }

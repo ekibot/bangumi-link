@@ -1,37 +1,34 @@
 {
- "id": 130092,
- "node": [
-  {
-   "id": 130092,
-   "name": "不思議なソメラちゃん",
-   "nameCN": "不思议美眉",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/21/130092_U3LN3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 205121,
-   "name": "不思議なソメラちゃんオートクチュール",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/fe/205121_kqagG.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130092,
-   "dst": 205121
-  },
-  {
-   "relate": "前传",
-   "src": 205121,
-   "dst": 130092
-  }
- ]
+  "id": "130092",
+  "node": [
+    {
+      "id": 130092,
+      "name": "不思議なソメラちゃん",
+      "nameCN": "不思议美眉",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 205121,
+      "name": "不思議なソメラちゃんオートクチュール",
+      "nameCN": "",
+      "date": "2015-04-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130092,
+      "dst": 205121
+    },
+    {
+      "relateString": "前传",
+      "src": 205121,
+      "dst": 130092
+    }
+  ]
 }

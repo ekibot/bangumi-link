@@ -1,37 +1,35 @@
 {
- "id": 267658,
- "node": [
-  {
-   "id": 267658,
-   "name": "7SEEDS",
-   "nameCN": "幻海奇情",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/90/267658_vSlvu.jpg",
-   "date": "2019-06-28",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 293421,
-   "name": "7SEEDS 第2期",
-   "nameCN": "幻海奇情 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/02/293421_TGc22.jpg",
-   "date": "2020-03-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 267658,
-   "dst": 293421
-  },
-  {
-   "relate": "前传",
-   "src": 293421,
-   "dst": 267658
-  }
- ]
+  "id": "267658",
+  "node": [
+    {
+      "id": 267658,
+      "name": "7SEEDS",
+      "nameCN": "幻海奇情",
+      "date": "2019-06-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 293421,
+      "name": "7SEEDS 第2期",
+      "nameCN": "幻海奇情 第2期",
+      "date": "2020-03-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 267658,
+      "dst": 293421
+    },
+    {
+      "relateString": "前传",
+      "src": 293421,
+      "dst": 267658
+    }
+  ]
 }

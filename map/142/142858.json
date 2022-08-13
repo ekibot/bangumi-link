@@ -1,37 +1,33 @@
 {
- "id": 142858,
- "node": [
-  {
-   "id": 142858,
-   "name": "幽冥录",
-   "nameCN": "幽冥录",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/31/142858_x5ZL0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 156127,
-   "name": "幽冥录Ⅱ之冯家二少",
-   "nameCN": "幽冥录2之冯家二少",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/c2/156127_U1776.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142858,
-   "dst": 156127
-  },
-  {
-   "relate": "前传",
-   "src": 156127,
-   "dst": 142858
-  }
- ]
+  "id": "142858",
+  "node": [
+    {
+      "id": 142858,
+      "name": "幽冥录",
+      "nameCN": "幽冥录",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 156127,
+      "name": "幽冥录Ⅱ之冯家二少",
+      "nameCN": "幽冥录2之冯家二少",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142858,
+      "dst": 156127
+    },
+    {
+      "relateString": "前传",
+      "src": 156127,
+      "dst": 142858
+    }
+  ]
 }

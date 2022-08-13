@@ -1,37 +1,35 @@
 {
- "id": 224515,
- "node": [
-  {
-   "id": 224515,
-   "name": "Super Cat 2",
-   "nameCN": "超级幻影猫2",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/69/224515_chciJ.jpg",
-   "date": "2017-07-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 243196,
-   "name": "Super Cat",
-   "nameCN": "超级幻影猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/bd/243196_e9Q9J.jpg",
-   "date": "2016-01-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 224515,
-   "dst": 243196
-  },
-  {
-   "relate": "续集",
-   "src": 243196,
-   "dst": 224515
-  }
- ]
+  "id": "224515",
+  "node": [
+    {
+      "id": 224515,
+      "name": "Super Cat 2",
+      "nameCN": "超级幻影猫2",
+      "date": "2017-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243196,
+      "name": "Super Cat",
+      "nameCN": "超级幻影猫",
+      "date": "2016-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 224515,
+      "dst": 243196
+    },
+    {
+      "relateString": "续集",
+      "src": 243196,
+      "dst": 224515
+    }
+  ]
 }

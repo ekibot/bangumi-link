@@ -1,67 +1,64 @@
 {
- "id": 286693,
- "node": [
-  {
-   "id": 286693,
-   "name": "アイキス",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/81/286693_3C30i.jpg",
-   "date": "2019-10-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 313466,
-   "name": "アイキス2",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/c8/313466_F0PM8.jpg",
-   "date": "2020-11-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 348391,
-   "name": "アイキス3 sexy",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/4b/348391_0y98K.jpg",
-   "date": "2022-03-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 286693,
-   "dst": 313466
-  },
-  {
-   "relate": "续集",
-   "src": 286693,
-   "dst": 348391
-  },
-  {
-   "relate": "不同演绎",
-   "src": 313466,
-   "dst": 286693
-  },
-  {
-   "relate": "续集",
-   "src": 313466,
-   "dst": 348391
-  },
-  {
-   "relate": "不同演绎",
-   "src": 348391,
-   "dst": 286693
-  },
-  {
-   "relate": "前传",
-   "src": 348391,
-   "dst": 313466
-  }
- ]
+  "id": "286693",
+  "node": [
+    {
+      "id": 286693,
+      "name": "アイキス",
+      "nameCN": "",
+      "date": "2019-10-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 313466,
+      "name": "アイキス2",
+      "nameCN": "",
+      "date": "2020-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348391,
+      "name": "アイキス3 sexy",
+      "nameCN": "",
+      "date": "2022-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 286693,
+      "dst": 313466
+    },
+    {
+      "relateString": "续集",
+      "src": 286693,
+      "dst": 348391
+    },
+    {
+      "relateString": "前传",
+      "src": 313466,
+      "dst": 286693
+    },
+    {
+      "relateString": "续集",
+      "src": 313466,
+      "dst": 348391
+    },
+    {
+      "relateString": "前传",
+      "src": 348391,
+      "dst": 286693
+    },
+    {
+      "relateString": "前传",
+      "src": 348391,
+      "dst": 313466
+    }
+  ]
 }

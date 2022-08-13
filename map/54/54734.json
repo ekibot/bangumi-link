@@ -1,37 +1,35 @@
 {
- "id": 54734,
- "node": [
-  {
-   "id": 54734,
-   "name": "デス・ビリヤード",
-   "nameCN": "死亡台球",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/af/54734_hAG5Q.jpg",
-   "date": "2013-03-02",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 116742,
-   "name": "デス・パレード",
-   "nameCN": "死亡游行",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/86/116742_U6oCo.jpg",
-   "date": "2015-01-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 54734,
-   "dst": 116742
-  },
-  {
-   "relate": "番外篇",
-   "src": 116742,
-   "dst": 54734
-  }
- ]
+  "id": "54734",
+  "node": [
+    {
+      "id": 54734,
+      "name": "デス・ビリヤード",
+      "nameCN": "死亡台球",
+      "date": "2013-03-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 116742,
+      "name": "デス・パレード",
+      "nameCN": "死亡游行",
+      "date": "2015-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 54734,
+      "dst": 116742
+    },
+    {
+      "relateString": "番外篇",
+      "src": 116742,
+      "dst": 54734
+    }
+  ]
 }

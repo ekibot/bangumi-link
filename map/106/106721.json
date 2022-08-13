@@ -1,37 +1,34 @@
 {
- "id": 106721,
- "node": [
-  {
-   "id": 106721,
-   "name": "James Cameron's Avatar: The Game",
-   "nameCN": "阿凡达",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/51/106721_leOil.jpg",
-   "date": "2009-12-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 210401,
-   "name": "Avatar: Frontiers of Pandora",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/94/210401_lwk5k.jpg",
-   "date": null,
-   "nameCN": "阿凡达：潘多拉边境",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 106721,
-   "dst": 210401
-  },
-  {
-   "relate": "前传",
-   "src": 210401,
-   "dst": 106721
-  }
- ]
+  "id": "106721",
+  "node": [
+    {
+      "id": 106721,
+      "name": "James Cameron's Avatar: The Game",
+      "nameCN": "阿凡达",
+      "date": "2009-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 210401,
+      "name": "Avatar: Frontiers of Pandora",
+      "nameCN": "阿凡达：潘多拉边境",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 106721,
+      "dst": 210401
+    },
+    {
+      "relateString": "前传",
+      "src": 210401,
+      "dst": 106721
+    }
+  ]
 }

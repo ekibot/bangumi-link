@@ -1,77 +1,73 @@
 {
- "id": 8611,
- "node": [
-  {
-   "id": 8611,
-   "name": "Mafia II",
-   "nameCN": "黑手党2",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/b7/8611_r11Mu.jpg",
-   "date": "2010-08-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107715,
-   "name": "Mafia",
-   "nameCN": "黑手党",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/4a/107715_hd2yv.jpg",
-   "date": "2002-08-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 142714,
-   "name": "Mafia III",
-   "nameCN": "黑手党3",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/b7/142714_tKtlz.jpg",
-   "date": "2016-10-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 306953,
-   "name": "Mafia: Definitive Edition",
-   "nameCN": "四海兄弟：最终版",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/9c/306953_KHtcy.jpg",
-   "date": "2020-09-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 8611,
-   "dst": 107715
-  },
-  {
-   "relate": "续集",
-   "src": 8611,
-   "dst": 142714
-  },
-  {
-   "relate": "续集",
-   "src": 107715,
-   "dst": 8611
-  },
-  {
-   "relate": "不同演绎",
-   "src": 107715,
-   "dst": 306953
-  },
-  {
-   "relate": "前传",
-   "src": 142714,
-   "dst": 8611
-  },
-  {
-   "relate": "不同演绎",
-   "src": 306953,
-   "dst": 107715
-  }
- ]
+  "id": "8611",
+  "node": [
+    {
+      "id": 8611,
+      "name": "Mafia II",
+      "nameCN": "黑手党2",
+      "date": "2010-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107715,
+      "name": "Mafia",
+      "nameCN": "黑手党",
+      "date": "2002-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 142714,
+      "name": "Mafia III",
+      "nameCN": "黑手党3",
+      "date": "2016-10-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306953,
+      "name": "Mafia: Definitive Edition",
+      "nameCN": "四海兄弟：最终版",
+      "date": "2020-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 8611,
+      "dst": 107715
+    },
+    {
+      "relateString": "续集",
+      "src": 8611,
+      "dst": 142714
+    },
+    {
+      "relateString": "续集",
+      "src": 107715,
+      "dst": 8611
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 107715,
+      "dst": 306953
+    },
+    {
+      "relateString": "前传",
+      "src": 142714,
+      "dst": 8611
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 306953,
+      "dst": 107715
+    }
+  ]
 }

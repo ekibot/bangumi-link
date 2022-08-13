@@ -1,0 +1,54 @@
+{
+  "id": "41574",
+  "node": [
+    {
+      "id": 52340,
+      "name": "アラタなるセカイ 過去編",
+      "nameCN": "新世界 过去篇",
+      "date": "2012-10-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 41574,
+      "name": "アラタなるセカイ 未来編",
+      "nameCN": "新世界 未来篇",
+      "date": "2012-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 52341,
+      "name": "アラタなるセカイ 現在編",
+      "nameCN": "新世界 现在篇",
+      "date": "2012-10-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52340,
+      "dst": 41574
+    },
+    {
+      "relateString": "续集",
+      "src": 52340,
+      "dst": 52341
+    },
+    {
+      "relateString": "续集",
+      "src": 52341,
+      "dst": 41574
+    },
+    {
+      "relateString": "前传",
+      "src": 52341,
+      "dst": 52340
+    }
+  ]
+}

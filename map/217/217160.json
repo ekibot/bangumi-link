@@ -1,37 +1,35 @@
 {
- "id": 217160,
- "node": [
-  {
-   "id": 217160,
-   "name": "キミモノガタリ",
-   "nameCN": "你的故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/5f/217160_TvDsa.jpg",
-   "date": "2015-10-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 217161,
-   "name": "死にたがりの魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/9c/217161_Axacc.jpg",
-   "date": "2016-06-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217160,
-   "dst": 217161
-  },
-  {
-   "relate": "前传",
-   "src": 217161,
-   "dst": 217160
-  }
- ]
+  "id": "217160",
+  "node": [
+    {
+      "id": 217160,
+      "name": "キミモノガタリ",
+      "nameCN": "你的故事",
+      "date": "2015-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217161,
+      "name": "死にたがりの魔女",
+      "nameCN": "",
+      "date": "2016-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217160,
+      "dst": 217161
+    },
+    {
+      "relateString": "前传",
+      "src": 217161,
+      "dst": 217160
+    }
+  ]
 }

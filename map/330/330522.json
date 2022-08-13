@@ -1,0 +1,34 @@
+{
+  "id": "330522",
+  "node": [
+    {
+      "id": 330522,
+      "name": "三國演義",
+      "nameCN": "三国演义",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 330524,
+      "name": "三國演義2",
+      "nameCN": "三国演义2",
+      "date": "1996-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 330522,
+      "dst": 330524
+    },
+    {
+      "relateString": "前传",
+      "src": 330524,
+      "dst": 330522
+    }
+  ]
+}

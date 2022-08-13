@@ -1,77 +1,69 @@
 {
- "id": 302861,
- "node": [
-  {
-   "id": 302861,
-   "name": "電車でD LightningStage",
-   "nameCN": "电车D LightningStage",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/53/302861_c03GO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 302862,
-   "name": "電車でＤ BurningStage",
-   "nameCN": "电车D BurningStage",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/1b/302862_LZwOm.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 302863,
-   "name": "電車でＤ ClimaxStage",
-   "nameCN": "电车D ClimaxStage",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/dd/302863_2HW76.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 302866,
-   "name": "電車でD RisingStage",
-   "nameCN": "电车D RisingStage",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/54/302866_H89Xe.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 302861,
-   "dst": 302862
-  },
-  {
-   "relate": "前传",
-   "src": 302862,
-   "dst": 302861
-  },
-  {
-   "relate": "续集",
-   "src": 302862,
-   "dst": 302863
-  },
-  {
-   "relate": "前传",
-   "src": 302863,
-   "dst": 302862
-  },
-  {
-   "relate": "续集",
-   "src": 302863,
-   "dst": 302866
-  },
-  {
-   "relate": "前传",
-   "src": 302866,
-   "dst": 302863
-  }
- ]
+  "id": "302861",
+  "node": [
+    {
+      "id": 302861,
+      "name": "電車でD LightningStage",
+      "nameCN": "电车D LightningStage",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302862,
+      "name": "電車でＤ BurningStage",
+      "nameCN": "电车D BurningStage",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302863,
+      "name": "電車でＤ ClimaxStage",
+      "nameCN": "电车D ClimaxStage",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302866,
+      "name": "電車でD RisingStage",
+      "nameCN": "电车D RisingStage",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 302861,
+      "dst": 302862
+    },
+    {
+      "relateString": "前传",
+      "src": 302862,
+      "dst": 302861
+    },
+    {
+      "relateString": "续集",
+      "src": 302862,
+      "dst": 302863
+    },
+    {
+      "relateString": "前传",
+      "src": 302863,
+      "dst": 302862
+    },
+    {
+      "relateString": "续集",
+      "src": 302863,
+      "dst": 302866
+    },
+    {
+      "relateString": "前传",
+      "src": 302866,
+      "dst": 302863
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 118265,
- "node": [
-  {
-   "id": 118265,
-   "name": "ゼロから始める魔法の書",
-   "nameCN": "零之魔法书",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/ea/118265_o1WI8.jpg",
-   "date": "2014-02-08",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 291471,
-   "name": "魔法使い黎明期",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/6d/291471_K5n48.jpg",
-   "date": "2018-08-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 118265,
-   "dst": 291471
-  },
-  {
-   "relate": "前传",
-   "src": 291471,
-   "dst": 118265
-  }
- ]
+  "id": "118265",
+  "node": [
+    {
+      "id": 118265,
+      "name": "ゼロから始める魔法の書",
+      "nameCN": "零之魔法书",
+      "date": "2014-02-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 291471,
+      "name": "魔法使い黎明期",
+      "nameCN": "",
+      "date": "2018-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 118265,
+      "dst": 291471
+    },
+    {
+      "relateString": "前传",
+      "src": 291471,
+      "dst": 118265
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 131495,
- "node": [
-  {
-   "id": 131495,
-   "name": "Vice Season 1",
-   "nameCN": "恶 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/47/131495_ZcDyY.jpg",
-   "date": "2013-04-05",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 131496,
-   "name": "Vice Season 2",
-   "nameCN": "恶 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/18/131496_MiRer.jpg",
-   "date": "2014-03-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 131498,
-   "name": "Vice Season 3",
-   "nameCN": "恶 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/ca/131498_XgFEg.jpg",
-   "date": "2015-03-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 131495,
-   "dst": 131496
-  },
-  {
-   "relate": "前传",
-   "src": 131496,
-   "dst": 131495
-  },
-  {
-   "relate": "续集",
-   "src": 131496,
-   "dst": 131498
-  },
-  {
-   "relate": "前传",
-   "src": 131498,
-   "dst": 131496
-  }
- ]
+  "id": "131495",
+  "node": [
+    {
+      "id": 131495,
+      "name": "Vice Season 1",
+      "nameCN": "恶 第一季",
+      "date": "2013-04-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 131496,
+      "name": "Vice Season 2",
+      "nameCN": "恶 第二季",
+      "date": "2014-03-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 131498,
+      "name": "Vice Season 3",
+      "nameCN": "恶 第三季",
+      "date": "2015-03-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 131495,
+      "dst": 131496
+    },
+    {
+      "relateString": "前传",
+      "src": 131496,
+      "dst": 131495
+    },
+    {
+      "relateString": "续集",
+      "src": 131496,
+      "dst": 131498
+    },
+    {
+      "relateString": "前传",
+      "src": 131498,
+      "dst": 131496
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 11831,
- "node": [
-  {
-   "id": 11831,
-   "name": "愛はね、",
-   "nameCN": "迷途之恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/95/11831_jp.jpg",
-   "date": "2010-12-17",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 69795,
-   "name": "ぼうや、もっと鏡みて",
-   "nameCN": "追寻镜中的倒影",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/24/69795_jp.jpg",
-   "date": "2011-06-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11831,
-   "dst": 69795
-  },
-  {
-   "relate": "前传",
-   "src": 69795,
-   "dst": 11831
-  }
- ]
+  "id": "11831",
+  "node": [
+    {
+      "id": 11831,
+      "name": "愛はね、",
+      "nameCN": "迷途之恋",
+      "date": "2010-12-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 69795,
+      "name": "ぼうや、もっと鏡みて",
+      "nameCN": "追寻镜中的倒影",
+      "date": "2011-06-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11831,
+      "dst": 69795
+    },
+    {
+      "relateString": "前传",
+      "src": 69795,
+      "dst": 11831
+    }
+  ]
 }

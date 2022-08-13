@@ -1,51 +1,49 @@
 {
- "id": 223737,
- "node": [
-  {
-   "id": 223737,
-   "name": "奇奇怪怪コイ絵巻",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/26/223737_qTI2I.jpg",
-   "date": "2015-04-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 223738,
-   "name": "奇奇怪怪コイ絵巻ノ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/a7/223738_kMWIS.jpg",
-   "date": "2016-09-07",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 350166,
-   "name": "ラヂオのある部屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/18/350166_DMndn.jpg",
-   "date": "2018-03-14",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223737,
-   "dst": 223738
-  },
-  {
-   "relate": "前传",
-   "src": 223738,
-   "dst": 223737
-  },
-  {
-   "relate": "主线故事",
-   "src": 350166,
-   "dst": 223738
-  }
- ]
+  "id": "223737",
+  "node": [
+    {
+      "id": 223737,
+      "name": "奇奇怪怪コイ絵巻",
+      "nameCN": "",
+      "date": "2015-04-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223738,
+      "name": "奇奇怪怪コイ絵巻ノ2",
+      "nameCN": "",
+      "date": "2016-09-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 350166,
+      "name": "ラヂオのある部屋",
+      "nameCN": "",
+      "date": "2018-03-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223737,
+      "dst": 223738
+    },
+    {
+      "relateString": "前传",
+      "src": 223738,
+      "dst": 223737
+    },
+    {
+      "relateString": "主线故事",
+      "src": 350166,
+      "dst": 223738
+    }
+  ]
 }

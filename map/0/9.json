@@ -1,82 +1,78 @@
 {
- "id": 9,
- "node": [
-  {
-   "id": 9,
-   "name": "リズム天国ゴールド",
-   "nameCN": "节奏天国 金",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/c4/9_ppLN8.jpg",
-   "date": "2008-07-31",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 949,
-   "name": "リズム天国",
-   "nameCN": "节奏天国",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/ef/949_ajp.jpg",
-   "date": "2006-08-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "GameCube"
-  },
-  {
-   "id": 20482,
-   "name": "みんなのリズム天国",
-   "nameCN": "大家的节奏天国",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/79/20482_e6j77.jpg",
-   "date": "2011-07-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 138435,
-   "name": "リズム天国 ザ・ベスト＋",
-   "nameCN": "节奏天国：精选+",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/dd/138435_iUsci.jpg",
-   "date": "2015-06-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 9,
-   "dst": 949
-  },
-  {
-   "relate": "续集",
-   "src": 9,
-   "dst": 20482
-  },
-  {
-   "relate": "续集",
-   "src": 9,
-   "dst": 138435
-  },
-  {
-   "relate": "续集",
-   "src": 949,
-   "dst": 9
-  },
-  {
-   "relate": "前传",
-   "src": 20482,
-   "dst": 9
-  },
-  {
-   "relate": "续集",
-   "src": 20482,
-   "dst": 138435
-  },
-  {
-   "relate": "前传",
-   "src": 138435,
-   "dst": 20482
-  }
- ]
+  "id": "9",
+  "node": [
+    {
+      "id": 9,
+      "name": "リズム天国ゴールド",
+      "nameCN": "节奏天国 金",
+      "date": "2008-07-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 949,
+      "name": "リズム天国",
+      "nameCN": "节奏天国",
+      "date": "2006-08-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "GameCube"
+    },
+    {
+      "id": 20482,
+      "name": "みんなのリズム天国",
+      "nameCN": "大家的节奏天国",
+      "date": "2011-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 138435,
+      "name": "リズム天国 ザ・ベスト＋",
+      "nameCN": "节奏天国：精选+",
+      "date": "2015-06-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 9,
+      "dst": 949
+    },
+    {
+      "relateString": "续集",
+      "src": 9,
+      "dst": 20482
+    },
+    {
+      "relateString": "续集",
+      "src": 9,
+      "dst": 138435
+    },
+    {
+      "relateString": "续集",
+      "src": 949,
+      "dst": 9
+    },
+    {
+      "relateString": "前传",
+      "src": 20482,
+      "dst": 9
+    },
+    {
+      "relateString": "续集",
+      "src": 20482,
+      "dst": 138435
+    },
+    {
+      "relateString": "前传",
+      "src": 138435,
+      "dst": 20482
+    }
+  ]
 }

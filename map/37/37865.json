@@ -1,77 +1,73 @@
 {
- "id": 37865,
- "node": [
-  {
-   "id": 37865,
-   "name": "侍戦隊シンケンジャー",
-   "nameCN": "侍战队真剑者",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/6f/37865_66jm9.jpg",
-   "date": "2009-02-15",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 43515,
-   "name": "侍戦隊シンケンジャー 銀幕版 天下分け目の戦",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/a6/43515_Fm4EP.jpg",
-   "date": "2009-08-08",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 44635,
-   "name": "侍戦隊シンケンジャーVSゴーオンジャー 銀幕BANG!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/a0/44635_00tgq.jpg",
-   "date": "2010-01-30",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 214955,
-   "name": "帰ってきた侍戦隊シンケンジャー 特別幕",
-   "nameCN": "归来的侍战队 特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/e1/214955_iXUyG.jpg",
-   "date": "2010-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 37865,
-   "dst": 43515
-  },
-  {
-   "relate": "番外篇",
-   "src": 37865,
-   "dst": 44635
-  },
-  {
-   "relate": "续集",
-   "src": 37865,
-   "dst": 214955
-  },
-  {
-   "relate": "主线故事",
-   "src": 43515,
-   "dst": 37865
-  },
-  {
-   "relate": "主线故事",
-   "src": 44635,
-   "dst": 37865
-  },
-  {
-   "relate": "前传",
-   "src": 214955,
-   "dst": 37865
-  }
- ]
+  "id": "37865",
+  "node": [
+    {
+      "id": 37865,
+      "name": "侍戦隊シンケンジャー",
+      "nameCN": "侍战队真剑者",
+      "date": "2009-02-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 43515,
+      "name": "侍戦隊シンケンジャー 銀幕版 天下分け目の戦",
+      "nameCN": "",
+      "date": "2009-08-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 44635,
+      "name": "侍戦隊シンケンジャーVSゴーオンジャー 銀幕BANG!!",
+      "nameCN": "",
+      "date": "2010-01-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 214955,
+      "name": "帰ってきた侍戦隊シンケンジャー 特別幕",
+      "nameCN": "归来的侍战队 特别篇",
+      "date": "2010-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 37865,
+      "dst": 43515
+    },
+    {
+      "relateString": "番外篇",
+      "src": 37865,
+      "dst": 44635
+    },
+    {
+      "relateString": "续集",
+      "src": 37865,
+      "dst": 214955
+    },
+    {
+      "relateString": "主线故事",
+      "src": 43515,
+      "dst": 37865
+    },
+    {
+      "relateString": "主线故事",
+      "src": 44635,
+      "dst": 37865
+    },
+    {
+      "relateString": "前传",
+      "src": 214955,
+      "dst": 37865
+    }
+  ]
 }

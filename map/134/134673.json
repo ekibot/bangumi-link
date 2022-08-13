@@ -1,57 +1,54 @@
 {
- "id": 134673,
- "node": [
-  {
-   "id": 134673,
-   "name": "アカギ",
-   "nameCN": "斗牌传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/1f/134673_e1zvX.jpg",
-   "date": "2015-07-17",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 220886,
-   "name": "アカギ「竜崎・矢木編」「市川編」",
-   "nameCN": "斗牌传说 &quot;竜崎、矢木篇&quot; “市川篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/23/220886_5R5hT.jpg",
-   "date": "2017-10-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 234419,
-   "name": "アカギ～鷲巣麻雀完結編～",
-   "nameCN": "斗牌传说 鹫巢麻将完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/83/234419_hZp6g.jpg",
-   "date": "2018-05-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 134673,
-   "dst": 220886
-  },
-  {
-   "relate": "前传",
-   "src": 220886,
-   "dst": 134673
-  },
-  {
-   "relate": "续集",
-   "src": 220886,
-   "dst": 234419
-  },
-  {
-   "relate": "前传",
-   "src": 234419,
-   "dst": 220886
-  }
- ]
+  "id": "134673",
+  "node": [
+    {
+      "id": 134673,
+      "name": "アカギ",
+      "nameCN": "斗牌传说",
+      "date": "2015-07-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 220886,
+      "name": "アカギ「竜崎・矢木編」「市川編」",
+      "nameCN": "斗牌传说 &quot;竜崎、矢木篇&quot; “市川篇",
+      "date": "2017-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 234419,
+      "name": "アカギ～鷲巣麻雀完結編～",
+      "nameCN": "斗牌传说 鹫巢麻将完结篇",
+      "date": "2018-05-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 134673,
+      "dst": 220886
+    },
+    {
+      "relateString": "前传",
+      "src": 220886,
+      "dst": 134673
+    },
+    {
+      "relateString": "续集",
+      "src": 220886,
+      "dst": 234419
+    },
+    {
+      "relateString": "前传",
+      "src": 234419,
+      "dst": 220886
+    }
+  ]
 }

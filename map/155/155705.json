@@ -1,37 +1,35 @@
 {
- "id": 155705,
- "node": [
-  {
-   "id": 155705,
-   "name": "ナツイロココロログ",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/a5/155705_Zh3hn.jpg",
-   "date": "2016-05-27",
-   "nameCN": "夏色心跳日志",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 197099,
-   "name": "ナツイロココロログ～Happy Summer～",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/4b/197099_VJJZk.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2017-03-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155705,
-   "dst": 197099
-  },
-  {
-   "relate": "前传",
-   "src": 197099,
-   "dst": 155705
-  }
- ]
+  "id": "155705",
+  "node": [
+    {
+      "id": 155705,
+      "name": "ナツイロココロログ",
+      "nameCN": "夏色心跳日志",
+      "date": "2016-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 197099,
+      "name": "ナツイロココロログ～Happy Summer～",
+      "nameCN": "",
+      "date": "2017-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155705,
+      "dst": 197099
+    },
+    {
+      "relateString": "前传",
+      "src": 197099,
+      "dst": 155705
+    }
+  ]
 }

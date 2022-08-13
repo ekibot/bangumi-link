@@ -1,37 +1,35 @@
 {
- "id": 30174,
- "node": [
-  {
-   "id": 30174,
-   "name": "Ridge Racer 64",
-   "nameCN": "山脊赛车64",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/84/30174_qNjNz.jpg",
-   "date": "2000-02-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 79681,
-   "name": "Ridge Racer DS",
-   "nameCN": "山脊赛车DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/6c/79681_goaTB.jpg",
-   "date": "2004-12-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 30174,
-   "dst": 79681
-  },
-  {
-   "relate": "不同演绎",
-   "src": 79681,
-   "dst": 30174
-  }
- ]
+  "id": "30174",
+  "node": [
+    {
+      "id": 30174,
+      "name": "Ridge Racer 64",
+      "nameCN": "山脊赛车64",
+      "date": "2000-02-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 79681,
+      "name": "Ridge Racer DS",
+      "nameCN": "山脊赛车DS",
+      "date": "2004-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 30174,
+      "dst": 79681
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 79681,
+      "dst": 30174
+    }
+  ]
 }

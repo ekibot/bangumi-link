@@ -1,37 +1,35 @@
 {
- "id": 196146,
- "node": [
-  {
-   "id": 196146,
-   "name": "狂い鳴くのは僕の番",
-   "nameCN": "狂啸我的命定之番",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/3b/196146_jp.jpg",
-   "date": "2016-10-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 234482,
-   "name": "狂い鳴くのは僕の番;β 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/9d/234482_Y1wpy.jpg",
-   "date": "2017-11-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 196146,
-   "dst": 234482
-  },
-  {
-   "relate": "前传",
-   "src": 234482,
-   "dst": 196146
-  }
- ]
+  "id": "196146",
+  "node": [
+    {
+      "id": 196146,
+      "name": "狂い鳴くのは僕の番",
+      "nameCN": "狂啸我的命定之番",
+      "date": "2016-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 234482,
+      "name": "狂い鳴くのは僕の番;β 1",
+      "nameCN": "",
+      "date": "2017-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 196146,
+      "dst": 234482
+    },
+    {
+      "relateString": "前传",
+      "src": 234482,
+      "dst": 196146
+    }
+  ]
 }

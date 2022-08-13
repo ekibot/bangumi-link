@@ -1,28 +1,29 @@
 {
- "id": 310560,
- "node": [
-  {
-   "id": 310560,
-   "name": "青空之刃",
-   "nameCN": "青空之刃",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/d2/310560_sGBJh.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 310561,
-   "name": "青空之刃",
-   "nameCN": "青空之刃",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/a2/310561_Ps9kZ.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 310560,
-   "dst": 310561
-  }
- ]
+  "id": "310560",
+  "node": [
+    {
+      "id": 310560,
+      "name": "青空之刃",
+      "nameCN": "青空之刃",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 310561,
+      "name": "青空之刃",
+      "nameCN": "青空之刃",
+      "date": "2020-07-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 310560,
+      "dst": 310561
+    }
+  ]
 }

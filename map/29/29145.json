@@ -1,37 +1,34 @@
 {
- "id": 29145,
- "node": [
-  {
-   "id": 29145,
-   "name": "Blade Runner (1997)",
-   "nameCN": "银翼杀手 (1997)",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/9d/29145_N3NCM.jpg",
-   "date": "1997-10-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 268235,
-   "name": "Blade Runner (1985)",
-   "nameCN": "银翼杀手 (1985)",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/4f/268235_1LL3p.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 29145,
-   "dst": 268235
-  },
-  {
-   "relate": "相同世界观",
-   "src": 268235,
-   "dst": 29145
-  }
- ]
+  "id": "29145",
+  "node": [
+    {
+      "id": 29145,
+      "name": "Blade Runner (1997)",
+      "nameCN": "银翼杀手 (1997)",
+      "date": "1997-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 268235,
+      "name": "Blade Runner (1985)",
+      "nameCN": "银翼杀手 (1985)",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 29145,
+      "dst": 268235
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 268235,
+      "dst": 29145
+    }
+  ]
 }

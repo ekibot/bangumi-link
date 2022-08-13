@@ -1,37 +1,34 @@
 {
- "id": 296109,
- "node": [
-  {
-   "id": 296109,
-   "name": "王様ランキング",
-   "nameCN": "国王排名",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/c1/296109_8GeaM.jpg",
-   "date": "2021-10-14",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 394997,
-   "name": "王様ランキング 勇気の宝箱",
-   "nameCN": "国王排名 勇气的宝箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/25/394997_WL1w4.jpg",
-   "type": 2,
-   "date": null,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 296109,
-   "dst": 394997
-  },
-  {
-   "relate": "主线故事",
-   "src": 394997,
-   "dst": 296109
-  }
- ]
+  "id": "296109",
+  "node": [
+    {
+      "id": 296109,
+      "name": "王様ランキング",
+      "nameCN": "国王排名",
+      "date": "2021-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 394997,
+      "name": "王様ランキング 勇気の宝箱",
+      "nameCN": "国王排名 勇气的宝箱",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 296109,
+      "dst": 394997
+    },
+    {
+      "relateString": "主线故事",
+      "src": 394997,
+      "dst": 296109
+    }
+  ]
 }

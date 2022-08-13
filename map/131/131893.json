@@ -1,117 +1,111 @@
 {
- "id": 131893,
- "node": [
-  {
-   "id": 131893,
-   "name": "Silent Hunter",
-   "nameCN": "猎杀潜航",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/4a/131893_5sSIY.jpg",
-   "date": "1996-02-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 131894,
-   "name": "Silent Hunter II",
-   "nameCN": "猎杀潜航2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/e1/131894_HTVDi.jpg",
-   "date": "2001-11-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 131895,
-   "name": "Silent Hunter III",
-   "nameCN": "猎杀潜航3",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/16/131895_78d5U.jpg",
-   "date": "2005-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 131896,
-   "name": "Silent Hunter 4  Wolves Of The Pacific",
-   "nameCN": "猎杀潜航4：太平洋狼群",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/c0/131896_ir5I3.jpg",
-   "date": "2007-03-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 131897,
-   "name": "Silent Hunter V: Battle of the Atlantic",
-   "nameCN": "猎杀潜航5：大西洋之战",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/4e/131897_228sv.jpg",
-   "date": "2010-03-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 131907,
-   "name": "Destroyer Command",
-   "nameCN": "驱逐舰指挥官",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/f6/131907_LpdO7.jpg",
-   "date": "2002-02-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 131893,
-   "dst": 131894
-  },
-  {
-   "relate": "前传",
-   "src": 131894,
-   "dst": 131893
-  },
-  {
-   "relate": "续集",
-   "src": 131894,
-   "dst": 131895
-  },
-  {
-   "relate": "相同世界观",
-   "src": 131894,
-   "dst": 131907
-  },
-  {
-   "relate": "前传",
-   "src": 131895,
-   "dst": 131894
-  },
-  {
-   "relate": "续集",
-   "src": 131895,
-   "dst": 131896
-  },
-  {
-   "relate": "前传",
-   "src": 131896,
-   "dst": 131895
-  },
-  {
-   "relate": "续集",
-   "src": 131896,
-   "dst": 131897
-  },
-  {
-   "relate": "前传",
-   "src": 131897,
-   "dst": 131896
-  },
-  {
-   "relate": "相同世界观",
-   "src": 131907,
-   "dst": 131894
-  }
- ]
+  "id": "131893",
+  "node": [
+    {
+      "id": 131893,
+      "name": "Silent Hunter",
+      "nameCN": "猎杀潜航",
+      "date": "1996-02-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131894,
+      "name": "Silent Hunter II",
+      "nameCN": "猎杀潜航2",
+      "date": "2001-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131895,
+      "name": "Silent Hunter III",
+      "nameCN": "猎杀潜航3",
+      "date": "2005-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131907,
+      "name": "Destroyer Command",
+      "nameCN": "驱逐舰指挥官",
+      "date": "2002-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131896,
+      "name": "Silent Hunter 4  Wolves Of The Pacific",
+      "nameCN": "猎杀潜航4：太平洋狼群",
+      "date": "2007-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131897,
+      "name": "Silent Hunter V: Battle of the Atlantic",
+      "nameCN": "猎杀潜航5：大西洋之战",
+      "date": "2010-03-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 131893,
+      "dst": 131894
+    },
+    {
+      "relateString": "前传",
+      "src": 131894,
+      "dst": 131893
+    },
+    {
+      "relateString": "续集",
+      "src": 131894,
+      "dst": 131895
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 131894,
+      "dst": 131907
+    },
+    {
+      "relateString": "前传",
+      "src": 131895,
+      "dst": 131894
+    },
+    {
+      "relateString": "续集",
+      "src": 131895,
+      "dst": 131896
+    },
+    {
+      "relateString": "前传",
+      "src": 131896,
+      "dst": 131895
+    },
+    {
+      "relateString": "续集",
+      "src": 131896,
+      "dst": 131897
+    },
+    {
+      "relateString": "前传",
+      "src": 131897,
+      "dst": 131896
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 131907,
+      "dst": 131894
+    }
+  ]
 }

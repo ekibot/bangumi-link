@@ -1,57 +1,54 @@
 {
- "id": 120155,
- "node": [
-  {
-   "id": 120155,
-   "name": "体、じゃない！",
-   "nameCN": "想要的不是肉体",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/22/120155_jp.jpg",
-   "date": "2011-04-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 120156,
-   "name": "好き、じゃない!",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/bc/120156_jp.jpg",
-   "date": "2012-09-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 120192,
-   "name": "綺麗じゃないっ!",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/61/120192_jp.jpg",
-   "date": "2013-08-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120155,
-   "dst": 120156
-  },
-  {
-   "relate": "前传",
-   "src": 120156,
-   "dst": 120155
-  },
-  {
-   "relate": "续集",
-   "src": 120156,
-   "dst": 120192
-  },
-  {
-   "relate": "前传",
-   "src": 120192,
-   "dst": 120156
-  }
- ]
+  "id": "120155",
+  "node": [
+    {
+      "id": 120155,
+      "name": "体、じゃない！",
+      "nameCN": "想要的不是肉体",
+      "date": "2011-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120156,
+      "name": "好き、じゃない!",
+      "nameCN": "",
+      "date": "2012-09-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120192,
+      "name": "綺麗じゃないっ!",
+      "nameCN": "",
+      "date": "2013-08-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120155,
+      "dst": 120156
+    },
+    {
+      "relateString": "前传",
+      "src": 120156,
+      "dst": 120155
+    },
+    {
+      "relateString": "续集",
+      "src": 120156,
+      "dst": 120192
+    },
+    {
+      "relateString": "前传",
+      "src": 120192,
+      "dst": 120156
+    }
+  ]
 }

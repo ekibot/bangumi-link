@@ -1,37 +1,35 @@
 {
- "id": 37458,
- "node": [
-  {
-   "id": 37458,
-   "name": "卒業 〜Graduation〜 聖羅V",
-   "nameCN": "卒业 〜Graduation〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/01/37458_C2e4w.jpg",
-   "date": "1995-06-25",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 102600,
-   "name": "Marriage ～結婚～",
-   "nameCN": "结婚",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/3b/102600_i09Zx.jpg",
-   "date": "1996-03-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37458,
-   "dst": 102600
-  },
-  {
-   "relate": "前传",
-   "src": 102600,
-   "dst": 37458
-  }
- ]
+  "id": "37458",
+  "node": [
+    {
+      "id": 37458,
+      "name": "卒業 〜Graduation〜 聖羅V",
+      "nameCN": "卒业 〜Graduation〜",
+      "date": "1995-06-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 102600,
+      "name": "Marriage ～結婚～",
+      "nameCN": "结婚",
+      "date": "1996-03-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37458,
+      "dst": 102600
+    },
+    {
+      "relateString": "前传",
+      "src": 102600,
+      "dst": 37458
+    }
+  ]
 }

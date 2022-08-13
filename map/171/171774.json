@@ -1,57 +1,54 @@
 {
- "id": 171774,
- "node": [
-  {
-   "id": 171774,
-   "name": "하이브",
-   "nameCN": "虫穴",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/f8/171774_bIbCs.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 341073,
-   "name": "개장수",
-   "nameCN": "虫穴前传：狗贩子",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/f4/341073_xLuXe.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 341074,
-   "name": "데드퀸",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/c6/341074_NG8g1.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 171774,
-   "dst": 341073
-  },
-  {
-   "relate": "续集",
-   "src": 171774,
-   "dst": 341074
-  },
-  {
-   "relate": "续集",
-   "src": 341073,
-   "dst": 171774
-  },
-  {
-   "relate": "前传",
-   "src": 341074,
-   "dst": 171774
-  }
- ]
+  "id": "171774",
+  "node": [
+    {
+      "id": 171774,
+      "name": "하이브",
+      "nameCN": "虫穴",
+      "date": "2014-01-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341073,
+      "name": "개장수",
+      "nameCN": "虫穴前传：狗贩子",
+      "date": "2019-06-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341074,
+      "name": "데드퀸",
+      "nameCN": "",
+      "date": "2020-09-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 171774,
+      "dst": 341073
+    },
+    {
+      "relateString": "续集",
+      "src": 171774,
+      "dst": 341074
+    },
+    {
+      "relateString": "续集",
+      "src": 341073,
+      "dst": 171774
+    },
+    {
+      "relateString": "前传",
+      "src": 341074,
+      "dst": 171774
+    }
+  ]
 }

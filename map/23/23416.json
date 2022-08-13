@@ -1,57 +1,54 @@
 {
- "id": 23416,
- "node": [
-  {
-   "id": 23416,
-   "name": "Unforgettable (Season 1)",
-   "nameCN": "记忆神探 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/95/23416_7ClCJ.jpg",
-   "date": "2011-09-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 76449,
-   "name": "Unforgettable (Season 2)",
-   "nameCN": "记忆神探 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/8b/76449_7GNrn.jpg",
-   "date": "2013-07-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 104846,
-   "name": "Unforgettable (Season 3)",
-   "nameCN": "记忆神探 （第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/16/104846_DPWrT.jpg",
-   "date": "2014-06-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23416,
-   "dst": 76449
-  },
-  {
-   "relate": "前传",
-   "src": 76449,
-   "dst": 23416
-  },
-  {
-   "relate": "续集",
-   "src": 76449,
-   "dst": 104846
-  },
-  {
-   "relate": "前传",
-   "src": 104846,
-   "dst": 76449
-  }
- ]
+  "id": "23416",
+  "node": [
+    {
+      "id": 23416,
+      "name": "Unforgettable (Season 1)",
+      "nameCN": "记忆神探 （第一季）",
+      "date": "2011-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 76449,
+      "name": "Unforgettable (Season 2)",
+      "nameCN": "记忆神探 （第二季）",
+      "date": "2013-07-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 104846,
+      "name": "Unforgettable (Season 3)",
+      "nameCN": "记忆神探 （第三季）",
+      "date": "2014-06-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23416,
+      "dst": 76449
+    },
+    {
+      "relateString": "前传",
+      "src": 76449,
+      "dst": 23416
+    },
+    {
+      "relateString": "续集",
+      "src": 76449,
+      "dst": 104846
+    },
+    {
+      "relateString": "前传",
+      "src": 104846,
+      "dst": 76449
+    }
+  ]
 }

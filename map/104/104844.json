@@ -1,37 +1,35 @@
 {
- "id": 104844,
- "node": [
-  {
-   "id": 104844,
-   "name": "Legends Season 1",
-   "nameCN": "传奇卧底 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/f0/104844_ATduD.jpg",
-   "date": "2014-08-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 153561,
-   "name": "Legends Season 2",
-   "nameCN": "传奇卧底 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/94/153561_Q986M.jpg",
-   "date": "2015-11-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104844,
-   "dst": 153561
-  },
-  {
-   "relate": "前传",
-   "src": 153561,
-   "dst": 104844
-  }
- ]
+  "id": "104844",
+  "node": [
+    {
+      "id": 104844,
+      "name": "Legends Season 1",
+      "nameCN": "传奇卧底 第一季",
+      "date": "2014-08-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 153561,
+      "name": "Legends Season 2",
+      "nameCN": "传奇卧底 第二季",
+      "date": "2015-11-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104844,
+      "dst": 153561
+    },
+    {
+      "relateString": "前传",
+      "src": 153561,
+      "dst": 104844
+    }
+  ]
 }

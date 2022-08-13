@@ -1,37 +1,35 @@
 {
- "id": 8364,
- "node": [
-  {
-   "id": 8364,
-   "name": "幻魔大戦",
-   "nameCN": "幻魔大战",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/3b/8364_M1px1.jpg",
-   "date": "1983-03-12",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 25200,
-   "name": "幻魔大戦 -神話前夜の章-",
-   "nameCN": "幻魔大战 ~神话前夜之章~",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/55/25200_Spbee.jpg",
-   "date": "2002-02-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 8364,
-   "dst": 25200
-  },
-  {
-   "relate": "不同演绎",
-   "src": 25200,
-   "dst": 8364
-  }
- ]
+  "id": "8364",
+  "node": [
+    {
+      "id": 8364,
+      "name": "幻魔大戦",
+      "nameCN": "幻魔大战",
+      "date": "1983-03-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 25200,
+      "name": "幻魔大戦 -神話前夜の章-",
+      "nameCN": "幻魔大战 ~神话前夜之章~",
+      "date": "2002-02-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 8364,
+      "dst": 25200
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 25200,
+      "dst": 8364
+    }
+  ]
 }

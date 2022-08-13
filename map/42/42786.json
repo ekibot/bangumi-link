@@ -1,127 +1,121 @@
 {
- "id": 42786,
- "node": [
-  {
-   "id": 42786,
-   "name": "マギ The labyrinth of magic",
-   "nameCN": "天方魔谭MAGI",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/12/42786_kXkkg.jpg",
-   "date": "2012-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 77646,
-   "name": "マギ The kingdom of magic",
-   "nameCN": "天方魔谭MAGI 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/7e/77646_7oJOW.jpg",
-   "date": "2013-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 93356,
-   "name": "マギ シンドバッドの冒険",
-   "nameCN": "天方魔谭MAGI 辛巴达的冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/75/93356_G4XgH.jpg",
-   "date": "2014-05-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 147780,
-   "name": "マギ シンドバッドの冒険",
-   "nameCN": "天方魔谭MAGI 辛巴达的冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/17/147780_8Ama0.jpg",
-   "date": "2016-04-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 211285,
-   "name": "『マギ』後夜祭 -マハラガーン-",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/ef/211285_7hx47.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 42786,
-   "dst": 77646
-  },
-  {
-   "relate": "番外篇",
-   "src": 42786,
-   "dst": 93356
-  },
-  {
-   "relate": "番外篇",
-   "src": 42786,
-   "dst": 147780
-  },
-  {
-   "relate": "衍生",
-   "src": 42786,
-   "dst": 211285
-  },
-  {
-   "relate": "前传",
-   "src": 77646,
-   "dst": 42786
-  },
-  {
-   "relate": "番外篇",
-   "src": 77646,
-   "dst": 93356
-  },
-  {
-   "relate": "番外篇",
-   "src": 77646,
-   "dst": 147780
-  },
-  {
-   "relate": "主线故事",
-   "src": 93356,
-   "dst": 42786
-  },
-  {
-   "relate": "主线故事",
-   "src": 93356,
-   "dst": 77646
-  },
-  {
-   "relate": "不同演绎",
-   "src": 93356,
-   "dst": 147780
-  },
-  {
-   "relate": "主线故事",
-   "src": 147780,
-   "dst": 42786
-  },
-  {
-   "relate": "主线故事",
-   "src": 147780,
-   "dst": 77646
-  },
-  {
-   "relate": "不同演绎",
-   "src": 147780,
-   "dst": 93356
-  },
-  {
-   "relate": "衍生",
-   "src": 211285,
-   "dst": 42786
-  }
- ]
+  "id": "42786",
+  "node": [
+    {
+      "id": 42786,
+      "name": "マギ The labyrinth of magic",
+      "nameCN": "天方魔谭MAGI",
+      "date": "2012-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 77646,
+      "name": "マギ The kingdom of magic",
+      "nameCN": "天方魔谭MAGI 第二季",
+      "date": "2013-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 93356,
+      "name": "マギ シンドバッドの冒険",
+      "nameCN": "天方魔谭MAGI 辛巴达的冒险",
+      "date": "2014-05-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 147780,
+      "name": "マギ シンドバッドの冒険",
+      "nameCN": "天方魔谭MAGI 辛巴达的冒险",
+      "date": "2016-04-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 211285,
+      "name": "『マギ』後夜祭 -マハラガーン-",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 42786,
+      "dst": 77646
+    },
+    {
+      "relateString": "番外篇",
+      "src": 42786,
+      "dst": 93356
+    },
+    {
+      "relateString": "番外篇",
+      "src": 42786,
+      "dst": 147780
+    },
+    {
+      "relateString": "衍生",
+      "src": 42786,
+      "dst": 211285
+    },
+    {
+      "relateString": "前传",
+      "src": 77646,
+      "dst": 42786
+    },
+    {
+      "relateString": "番外篇",
+      "src": 77646,
+      "dst": 93356
+    },
+    {
+      "relateString": "番外篇",
+      "src": 77646,
+      "dst": 147780
+    },
+    {
+      "relateString": "主线故事",
+      "src": 93356,
+      "dst": 42786
+    },
+    {
+      "relateString": "主线故事",
+      "src": 93356,
+      "dst": 77646
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 93356,
+      "dst": 147780
+    },
+    {
+      "relateString": "主线故事",
+      "src": 147780,
+      "dst": 42786
+    },
+    {
+      "relateString": "主线故事",
+      "src": 147780,
+      "dst": 77646
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 147780,
+      "dst": 93356
+    },
+    {
+      "relateString": "衍生",
+      "src": 211285,
+      "dst": 42786
+    }
+  ]
 }

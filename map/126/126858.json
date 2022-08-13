@@ -1,37 +1,35 @@
 {
- "id": 126858,
- "node": [
-  {
-   "id": 126858,
-   "name": "爸爸去哪儿 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/75/126858_00akU.jpg",
-   "date": "2013-10-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 226464,
-   "name": "爸爸去哪儿 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/b0/226464_S8c99.jpg",
-   "date": "2017-09-14",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126858,
-   "dst": 226464
-  },
-  {
-   "relate": "前传",
-   "src": 226464,
-   "dst": 126858
-  }
- ]
+  "id": "126858",
+  "node": [
+    {
+      "id": 126858,
+      "name": "爸爸去哪儿 第一季",
+      "nameCN": "",
+      "date": "2013-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 226464,
+      "name": "爸爸去哪儿 第五季",
+      "nameCN": "",
+      "date": "2017-09-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126858,
+      "dst": 226464
+    },
+    {
+      "relateString": "前传",
+      "src": 226464,
+      "dst": 126858
+    }
+  ]
 }

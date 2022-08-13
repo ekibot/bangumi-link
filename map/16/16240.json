@@ -1,147 +1,140 @@
 {
- "id": 16240,
- "node": [
-  {
-   "id": 16240,
-   "name": "Yes, Minister (Series 1)",
-   "nameCN": "是，大臣 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/82/16240_kVSsO.jpg",
-   "date": "1980-02-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 16260,
-   "name": "Yes, Minister (Series 2)",
-   "nameCN": "是，大臣 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/4a/16260_12g2n.jpg",
-   "date": "1981-02-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 16261,
-   "name": "Yes, Minister (Series 3)",
-   "nameCN": "是，大臣 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/03/16261_3m3dD.jpg",
-   "date": "1982-11-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 16266,
-   "name": "Yes, Minister (Christmas Special)",
-   "nameCN": "是，大臣 圣诞特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/35/16266_PiLOk.jpg",
-   "date": "1984-12-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 16302,
-   "name": "Yes, Prime Minister (Series 1)",
-   "nameCN": "是，首相 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/f7/16302_W00s0.jpg",
-   "date": "1986-01-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 16325,
-   "name": "Yes, Prime Minister (Series 2)",
-   "nameCN": "是，首相 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/70/16325_y7cA6.jpg",
-   "date": "1987-11-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 61655,
-   "name": "Yes, Prime Minister",
-   "nameCN": "是，首相 2013新版",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/cf/61655_jv4hl.jpg",
-   "date": "2013-01-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 16240,
-   "dst": 16260
-  },
-  {
-   "relate": "前传",
-   "src": 16260,
-   "dst": 16240
-  },
-  {
-   "relate": "续集",
-   "src": 16260,
-   "dst": 16261
-  },
-  {
-   "relate": "前传",
-   "src": 16261,
-   "dst": 16260
-  },
-  {
-   "relate": "续集",
-   "src": 16261,
-   "dst": 16266
-  },
-  {
-   "relate": "前传",
-   "src": 16266,
-   "dst": 16261
-  },
-  {
-   "relate": "续集",
-   "src": 16266,
-   "dst": 16302
-  },
-  {
-   "relate": "前传",
-   "src": 16302,
-   "dst": 16266
-  },
-  {
-   "relate": "续集",
-   "src": 16302,
-   "dst": 16325
-  },
-  {
-   "relate": "不同演绎",
-   "src": 16302,
-   "dst": 61655
-  },
-  {
-   "relate": "前传",
-   "src": 16325,
-   "dst": 16302
-  },
-  {
-   "relate": "不同演绎",
-   "src": 16325,
-   "dst": 61655
-  },
-  {
-   "relate": "不同演绎",
-   "src": 61655,
-   "dst": 16302
-  },
-  {
-   "relate": "不同演绎",
-   "src": 61655,
-   "dst": 16325
-  }
- ]
+  "id": "16240",
+  "node": [
+    {
+      "id": 16240,
+      "name": "Yes, Minister (Series 1)",
+      "nameCN": "是，大臣 第一季",
+      "date": "1980-02-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 16260,
+      "name": "Yes, Minister (Series 2)",
+      "nameCN": "是，大臣 第二季",
+      "date": "1981-02-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 16261,
+      "name": "Yes, Minister (Series 3)",
+      "nameCN": "是，大臣 第三季",
+      "date": "1982-11-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 16266,
+      "name": "Yes, Minister (Christmas Special)",
+      "nameCN": "是，大臣 圣诞特别篇",
+      "date": "1984-12-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 16302,
+      "name": "Yes, Prime Minister (Series 1)",
+      "nameCN": "是，首相 第一季",
+      "date": "1986-01-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 16325,
+      "name": "Yes, Prime Minister (Series 2)",
+      "nameCN": "是，首相 第二季",
+      "date": "1987-11-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 61655,
+      "name": "Yes, Prime Minister",
+      "nameCN": "是，首相 2013新版",
+      "date": "2013-01-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 16240,
+      "dst": 16260
+    },
+    {
+      "relateString": "前传",
+      "src": 16260,
+      "dst": 16240
+    },
+    {
+      "relateString": "续集",
+      "src": 16260,
+      "dst": 16261
+    },
+    {
+      "relateString": "前传",
+      "src": 16261,
+      "dst": 16260
+    },
+    {
+      "relateString": "续集",
+      "src": 16261,
+      "dst": 16266
+    },
+    {
+      "relateString": "前传",
+      "src": 16266,
+      "dst": 16261
+    },
+    {
+      "relateString": "续集",
+      "src": 16266,
+      "dst": 16302
+    },
+    {
+      "relateString": "前传",
+      "src": 16302,
+      "dst": 16266
+    },
+    {
+      "relateString": "续集",
+      "src": 16302,
+      "dst": 16325
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 16302,
+      "dst": 61655
+    },
+    {
+      "relateString": "前传",
+      "src": 16325,
+      "dst": 16302
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 16325,
+      "dst": 61655
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 61655,
+      "dst": 16302
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 61655,
+      "dst": 16325
+    }
+  ]
 }

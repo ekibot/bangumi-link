@@ -1,51 +1,53 @@
 {
- "id": 161709,
- "node": [
-  {
-   "id": 161709,
-   "name": "ARK: Survival Evolved",
-   "nameCN": "方舟：生存进化",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/46/161709_KdM66.jpg",
-   "date": "2017-08-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 242025,
-   "name": "方块方舟",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/ec/242025_jIsN2.jpg",
-   "date": "2018-03-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 387236,
-   "name": "ARK 2",
-   "nameCN": "方舟2",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/3c/387236_6N8VE.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 161709,
-   "dst": 242025
-  },
-  {
-   "relate": "不同演绎",
-   "src": 242025,
-   "dst": 161709
-  },
-  {
-   "relate": "前传",
-   "src": 387236,
-   "dst": 161709
-  }
- ]
+  "id": "161709",
+  "node": [
+    {
+      "id": 161709,
+      "name": "ARK: Survival Evolved",
+      "nameCN": "方舟：生存进化",
+      "date": "2017-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242025,
+      "name": "方块方舟",
+      "nameCN": "",
+      "date": "2018-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 387236,
+      "name": "ARK 2",
+      "nameCN": "方舟2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 161709,
+      "dst": 242025
+    },
+    {
+      "relateString": "续集",
+      "src": 161709,
+      "dst": 387236
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 242025,
+      "dst": 161709
+    },
+    {
+      "relateString": "前传",
+      "src": 387236,
+      "dst": 161709
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 192164,
- "node": [
-  {
-   "id": 192164,
-   "name": "青空の悪魔円盤 呪みちる作品集",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/00/192164_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 192166,
-   "name": "押入れのウーリー 呪みちる作品第2集",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/e9/192166_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192164,
-   "dst": 192166
-  },
-  {
-   "relate": "前传",
-   "src": 192166,
-   "dst": 192164
-  }
- ]
+  "id": "192164",
+  "node": [
+    {
+      "id": 192164,
+      "name": "青空の悪魔円盤 呪みちる作品集",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 192166,
+      "name": "押入れのウーリー 呪みちる作品第2集",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192164,
+      "dst": 192166
+    },
+    {
+      "relateString": "前传",
+      "src": 192166,
+      "dst": 192164
+    }
+  ]
 }

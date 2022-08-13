@@ -1,97 +1,87 @@
 {
- "id": 47136,
- "node": [
-  {
-   "id": 47136,
-   "name": "1943 ミッドウェイ海戦",
-   "nameCN": "1943",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/c2/47136_hdJ4L.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 47138,
-   "name": "1942",
-   "nameCN": "1942",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/08/47138_Z4EZH.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 73638,
-   "name": "1941 Couter Attack",
-   "nameCN": "1941反击战",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/6c/73638_aaVDy.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 73645,
-   "name": "19XX -THE WAR AGAINST DESTINY-",
-   "nameCN": "19XX 终极战机",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/be/73645_dbeEE.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 293858,
-   "name": "1944 THE LOOP MASTER",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/4c/293858_KvCZP.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 47136,
-   "dst": 47138
-  },
-  {
-   "relate": "续集",
-   "src": 47136,
-   "dst": 73638
-  },
-  {
-   "relate": "续集",
-   "src": 47138,
-   "dst": 47136
-  },
-  {
-   "relate": "前传",
-   "src": 73638,
-   "dst": 47136
-  },
-  {
-   "relate": "续集",
-   "src": 73638,
-   "dst": 73645
-  },
-  {
-   "relate": "前传",
-   "src": 73645,
-   "dst": 73638
-  },
-  {
-   "relate": "续集",
-   "src": 73645,
-   "dst": 293858
-  },
-  {
-   "relate": "前传",
-   "src": 293858,
-   "dst": 73645
-  }
- ]
+  "id": "47136",
+  "node": [
+    {
+      "id": 47136,
+      "name": "1943 ミッドウェイ海戦",
+      "nameCN": "1943",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 47138,
+      "name": "1942",
+      "nameCN": "1942",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 73638,
+      "name": "1941 Couter Attack",
+      "nameCN": "1941反击战",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 73645,
+      "name": "19XX -THE WAR AGAINST DESTINY-",
+      "nameCN": "19XX 终极战机",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 293858,
+      "name": "1944 THE LOOP MASTER",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 47136,
+      "dst": 47138
+    },
+    {
+      "relateString": "续集",
+      "src": 47136,
+      "dst": 73638
+    },
+    {
+      "relateString": "续集",
+      "src": 47138,
+      "dst": 47136
+    },
+    {
+      "relateString": "前传",
+      "src": 73638,
+      "dst": 47136
+    },
+    {
+      "relateString": "续集",
+      "src": 73638,
+      "dst": 73645
+    },
+    {
+      "relateString": "前传",
+      "src": 73645,
+      "dst": 73638
+    },
+    {
+      "relateString": "续集",
+      "src": 73645,
+      "dst": 293858
+    },
+    {
+      "relateString": "前传",
+      "src": 293858,
+      "dst": 73645
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 198858,
- "node": [
-  {
-   "id": 198858,
-   "name": "Impastor Season 1 (2015)",
-   "date": "2015-07-15",
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 198971,
-   "name": "Impastor Season 2 (2016)",
-   "date": "2016-09-28",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198858,
-   "dst": 198971
-  },
-  {
-   "relate": "前传",
-   "src": 198971,
-   "dst": 198858
-  }
- ]
+  "id": "198858",
+  "node": [
+    {
+      "id": 198858,
+      "name": "Impastor Season 1 (2015)",
+      "nameCN": "",
+      "date": "2015-07-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 198971,
+      "name": "Impastor Season 2 (2016)",
+      "nameCN": "",
+      "date": "2016-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198858,
+      "dst": 198971
+    },
+    {
+      "relateString": "前传",
+      "src": 198971,
+      "dst": 198858
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 626,
- "node": [
-  {
-   "id": 626,
-   "name": "Project Gotham Racing 4",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/64/626_4O220.jpg",
-   "date": "2007-10-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 627,
-   "name": "Project Gotham Racing 3",
-   "nameCN": "世界街头赛车3",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/5c/627_AKAs5.jpg",
-   "date": "2005-11-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 626,
-   "dst": 627
-  },
-  {
-   "relate": "续集",
-   "src": 627,
-   "dst": 626
-  }
- ]
+  "id": "626",
+  "node": [
+    {
+      "id": 626,
+      "name": "Project Gotham Racing 4",
+      "nameCN": "",
+      "date": "2007-10-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 627,
+      "name": "Project Gotham Racing 3",
+      "nameCN": "世界街头赛车3",
+      "date": "2005-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 626,
+      "dst": 627
+    },
+    {
+      "relateString": "续集",
+      "src": 627,
+      "dst": 626
+    }
+  ]
 }

@@ -1,57 +1,52 @@
 {
- "id": 46111,
- "node": [
-  {
-   "id": 46111,
-   "name": "スノーブラザーズ",
-   "nameCN": "雪人兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/ed/46111_6diBZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261524,
-   "name": "おてんきパラダイス スノーブラザーズ2",
-   "nameCN": "雪人兄弟2",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/6f/261524_QL88d.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 391222,
-   "name": "SNOW BROS. SPECIAL",
-   "nameCN": "雪人兄弟 Special",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/b2/391222_aaaSY.jpg",
-   "date": "2022-05-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46111,
-   "dst": 261524
-  },
-  {
-   "relate": "相同世界观",
-   "src": 46111,
-   "dst": 391222
-  },
-  {
-   "relate": "前传",
-   "src": 261524,
-   "dst": 46111
-  },
-  {
-   "relate": "相同世界观",
-   "src": 391222,
-   "dst": 46111
-  }
- ]
+  "id": "46111",
+  "node": [
+    {
+      "id": 46111,
+      "name": "スノーブラザーズ",
+      "nameCN": "雪人兄弟",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261524,
+      "name": "おてんきパラダイス スノーブラザーズ2",
+      "nameCN": "雪人兄弟2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 391222,
+      "name": "SNOW BROS. SPECIAL",
+      "nameCN": "雪人兄弟 Special",
+      "date": "2022-05-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 46111,
+      "dst": 261524
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 46111,
+      "dst": 391222
+    },
+    {
+      "relateString": "前传",
+      "src": 261524,
+      "dst": 46111
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 391222,
+      "dst": 46111
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 192934,
- "node": [
-  {
-   "id": 192934,
-   "name": "异次元通讯",
-   "nameCN": "异次元通讯",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/dc/192934_mROod.jpg",
-   "date": "2016-08-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 218803,
-   "name": "异次元通讯2",
-   "nameCN": "异次元通讯2",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/ec/218803_XxIXQ.jpg",
-   "date": "2017-01-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 228459,
-   "name": "异次元通讯3:两个小姐姐同时跟我聊天",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/d1/228459_m901E.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192934,
-   "dst": 218803
-  },
-  {
-   "relate": "前传",
-   "src": 218803,
-   "dst": 192934
-  },
-  {
-   "relate": "续集",
-   "src": 218803,
-   "dst": 228459
-  },
-  {
-   "relate": "前传",
-   "src": 228459,
-   "dst": 218803
-  }
- ]
+  "id": "192934",
+  "node": [
+    {
+      "id": 192934,
+      "name": "异次元通讯",
+      "nameCN": "异次元通讯",
+      "date": "2016-08-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218803,
+      "name": "异次元通讯2",
+      "nameCN": "异次元通讯2",
+      "date": "2017-01-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228459,
+      "name": "异次元通讯3:两个小姐姐同时跟我聊天",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192934,
+      "dst": 218803
+    },
+    {
+      "relateString": "前传",
+      "src": 218803,
+      "dst": 192934
+    },
+    {
+      "relateString": "续集",
+      "src": 218803,
+      "dst": 228459
+    },
+    {
+      "relateString": "前传",
+      "src": 228459,
+      "dst": 218803
+    }
+  ]
 }

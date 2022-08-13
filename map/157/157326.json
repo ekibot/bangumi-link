@@ -1,37 +1,33 @@
 {
- "id": 157326,
- "node": [
-  {
-   "id": 157326,
-   "name": "八犬伝",
-   "nameCN": "八犬传",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 157346,
-   "name": "BLIND GAME",
-   "nameCN": "新世纪八犬转-盲目游戏",
-   "date": null,
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 157326,
-   "dst": 157346
-  },
-  {
-   "relate": "前传",
-   "src": 157346,
-   "dst": 157326
-  }
- ]
+  "id": "157326",
+  "node": [
+    {
+      "id": 157326,
+      "name": "八犬伝",
+      "nameCN": "八犬传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 157346,
+      "name": "BLIND GAME",
+      "nameCN": "新世纪八犬转-盲目游戏",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 157326,
+      "dst": 157346
+    },
+    {
+      "relateString": "前传",
+      "src": 157346,
+      "dst": 157326
+    }
+  ]
 }

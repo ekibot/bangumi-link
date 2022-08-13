@@ -1,37 +1,35 @@
 {
- "id": 130038,
- "node": [
-  {
-   "id": 130038,
-   "name": "自慰倒錯",
-   "nameCN": "自慰倒错",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/25/130038_upbMd.jpg",
-   "date": "2001-04-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 138387,
-   "name": "多淫症候群",
-   "nameCN": "多淫症候群",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/23/138387_ZnUMZ.jpg",
-   "type": 4,
-   "date": "2002-07-19",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130038,
-   "dst": 138387
-  },
-  {
-   "relate": "前传",
-   "src": 138387,
-   "dst": 130038
-  }
- ]
+  "id": "130038",
+  "node": [
+    {
+      "id": 130038,
+      "name": "自慰倒錯",
+      "nameCN": "自慰倒错",
+      "date": "2001-04-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 138387,
+      "name": "多淫症候群",
+      "nameCN": "多淫症候群",
+      "date": "2002-07-19",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130038,
+      "dst": 138387
+    },
+    {
+      "relateString": "前传",
+      "src": 138387,
+      "dst": 130038
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 35981,
- "node": [
-  {
-   "id": 35981,
-   "name": "超変身コス∞プレイヤー",
-   "nameCN": "超变身巫女祈斗士",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/79/35981_IO63G.jpg",
-   "date": "2004-01-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 35982,
-   "name": "ヒットをねらえ!",
-   "nameCN": "超变身角色扮演前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/b2/35982_RtLZQ.jpg",
-   "date": "2004-03-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 35983,
-   "name": "LOVE♥LOVE?",
-   "nameCN": "LOVE LOVE",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/ac/35983_cSvp5.jpg",
-   "date": "2004-05-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 35981,
-   "dst": 35982
-  },
-  {
-   "relate": "前传",
-   "src": 35982,
-   "dst": 35981
-  },
-  {
-   "relate": "续集",
-   "src": 35982,
-   "dst": 35983
-  },
-  {
-   "relate": "前传",
-   "src": 35983,
-   "dst": 35982
-  }
- ]
+  "id": "35981",
+  "node": [
+    {
+      "id": 35981,
+      "name": "超変身コス∞プレイヤー",
+      "nameCN": "超变身巫女祈斗士",
+      "date": "2004-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 35982,
+      "name": "ヒットをねらえ!",
+      "nameCN": "超变身角色扮演前传",
+      "date": "2004-03-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 35983,
+      "name": "LOVE♥LOVE?",
+      "nameCN": "LOVE LOVE",
+      "date": "2004-05-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 35981,
+      "dst": 35982
+    },
+    {
+      "relateString": "前传",
+      "src": 35982,
+      "dst": 35981
+    },
+    {
+      "relateString": "续集",
+      "src": 35982,
+      "dst": 35983
+    },
+    {
+      "relateString": "前传",
+      "src": 35983,
+      "dst": 35982
+    }
+  ]
 }

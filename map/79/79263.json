@@ -1,37 +1,34 @@
 {
- "id": 79263,
- "node": [
-  {
-   "id": 79263,
-   "name": "ブレイカーズ・リベンジ",
-   "nameCN": "爆裂者 复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/1d/79263_c3IOC.jpg",
-   "date": "1998-07-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 262089,
-   "name": "ブレイカーズ",
-   "nameCN": "爆裂者",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/6f/262089_a7Oo7.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 79263,
-   "dst": 262089
-  },
-  {
-   "relate": "续集",
-   "src": 262089,
-   "dst": 79263
-  }
- ]
+  "id": "79263",
+  "node": [
+    {
+      "id": 79263,
+      "name": "ブレイカーズ・リベンジ",
+      "nameCN": "爆裂者 复仇",
+      "date": "1998-07-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262089,
+      "name": "ブレイカーズ",
+      "nameCN": "爆裂者",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 79263,
+      "dst": 262089
+    },
+    {
+      "relateString": "续集",
+      "src": 262089,
+      "dst": 79263
+    }
+  ]
 }

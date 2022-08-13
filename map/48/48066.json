@@ -1,57 +1,54 @@
 {
- "id": 48066,
- "node": [
-  {
-   "id": 48066,
-   "name": "武装中学生 2045 -夏-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/23/48066_fZ7Hi.jpg",
-   "date": "2012-02-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 48067,
-   "name": "武装中学生ZERO",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/c2/48067_jp.jpg",
-   "date": "2012-02-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 48068,
-   "name": "武装中学生",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/d8/48068_Ewe4e.jpg",
-   "date": "2013-02-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 48066,
-   "dst": 48068
-  },
-  {
-   "relate": "续集",
-   "src": 48067,
-   "dst": 48068
-  },
-  {
-   "relate": "续集",
-   "src": 48068,
-   "dst": 48066
-  },
-  {
-   "relate": "前传",
-   "src": 48068,
-   "dst": 48067
-  }
- ]
+  "id": "48066",
+  "node": [
+    {
+      "id": 48066,
+      "name": "武装中学生 2045 -夏-",
+      "nameCN": "",
+      "date": "2012-02-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 48068,
+      "name": "武装中学生",
+      "nameCN": "",
+      "date": "2013-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 48067,
+      "name": "武装中学生ZERO",
+      "nameCN": "",
+      "date": "2012-02-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 48066,
+      "dst": 48068
+    },
+    {
+      "relateString": "续集",
+      "src": 48067,
+      "dst": 48068
+    },
+    {
+      "relateString": "续集",
+      "src": 48068,
+      "dst": 48066
+    },
+    {
+      "relateString": "前传",
+      "src": 48068,
+      "dst": 48067
+    }
+  ]
 }

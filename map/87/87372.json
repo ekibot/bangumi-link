@@ -1,34 +1,34 @@
 {
- "id": 87372,
- "node": [
-  {
-   "id": 87372,
-   "name": "魔が堕ちる夜 デーモニックイミテイター",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/c7/87372_jp.jpg",
-   "date": "2009-07-24",
-   "nameCN": "",
-   "type": 1
-  },
-  {
-   "id": 87374,
-   "name": "魔が堕ちる夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/e8/87374_NIRFq.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 87372,
-   "dst": 87374
-  },
-  {
-   "relate": "番外篇",
-   "src": 87374,
-   "dst": 87372
-  }
- ]
+  "id": "87372",
+  "node": [
+    {
+      "id": 87372,
+      "name": "魔が堕ちる夜 デーモニックイミテイター",
+      "nameCN": "",
+      "date": "2009-07-24",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 87374,
+      "name": "魔が堕ちる夜",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 87372,
+      "dst": 87374
+    },
+    {
+      "relateString": "番外篇",
+      "src": 87374,
+      "dst": 87372
+    }
+  ]
 }

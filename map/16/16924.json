@@ -1,117 +1,111 @@
 {
- "id": 16924,
- "node": [
-  {
-   "id": 16924,
-   "name": "Where on Earth Is Carmen Sandiego",
-   "nameCN": "神偷卡门",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/2a/16924_H79J4.jpg",
-   "date": "1994-02-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 221539,
-   "name": "Carmen Sandiego Season 1",
-   "nameCN": "大神偷卡门",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/bd/221539_PTxN1.jpg",
-   "date": "2019-01-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 296178,
-   "name": "Carmen Sandiego Season 2",
-   "nameCN": "大神偷卡门 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/56/296178_KjOIz.jpg",
-   "date": "2019-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 324271,
-   "name": "Carmen Sandiego Season 3",
-   "nameCN": "大神偷卡门 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/ad/324271_Vm8Vc.jpg",
-   "date": "2020-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 324287,
-   "name": "Carmen Sandiego: To Steal or Not to Steal",
-   "nameCN": "大神偷卡门：偷不偷？",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/dc/324287_22b7h.jpg",
-   "date": "2020-03-10",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 325402,
-   "name": "Carmen Sandiego Season 4",
-   "nameCN": "大神偷卡门 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/8a/325402_Oj2rY.jpg",
-   "date": "2021-01-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 16924,
-   "dst": 221539
-  },
-  {
-   "relate": "不同演绎",
-   "src": 221539,
-   "dst": 16924
-  },
-  {
-   "relate": "续集",
-   "src": 221539,
-   "dst": 296178
-  },
-  {
-   "relate": "前传",
-   "src": 296178,
-   "dst": 221539
-  },
-  {
-   "relate": "续集",
-   "src": 296178,
-   "dst": 324271
-  },
-  {
-   "relate": "前传",
-   "src": 324271,
-   "dst": 296178
-  },
-  {
-   "relate": "续集",
-   "src": 324271,
-   "dst": 325402
-  },
-  {
-   "relate": "前传",
-   "src": 324287,
-   "dst": 325402
-  },
-  {
-   "relate": "前传",
-   "src": 325402,
-   "dst": 324271
-  },
-  {
-   "relate": "续集",
-   "src": 325402,
-   "dst": 324287
-  }
- ]
+  "id": "16924",
+  "node": [
+    {
+      "id": 16924,
+      "name": "Where on Earth Is Carmen Sandiego",
+      "nameCN": "神偷卡门",
+      "date": "1994-02-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 221539,
+      "name": "Carmen Sandiego Season 1",
+      "nameCN": "大神偷卡门",
+      "date": "2019-01-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 296178,
+      "name": "Carmen Sandiego Season 2",
+      "nameCN": "大神偷卡门 第二季",
+      "date": "2019-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 324271,
+      "name": "Carmen Sandiego Season 3",
+      "nameCN": "大神偷卡门 第三季",
+      "date": "2020-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 325402,
+      "name": "Carmen Sandiego Season 4",
+      "nameCN": "大神偷卡门 第四季",
+      "date": "2021-01-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 324287,
+      "name": "Carmen Sandiego: To Steal or Not to Steal",
+      "nameCN": "大神偷卡门：偷不偷？",
+      "date": "2020-03-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 16924,
+      "dst": 221539
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 221539,
+      "dst": 16924
+    },
+    {
+      "relateString": "续集",
+      "src": 221539,
+      "dst": 296178
+    },
+    {
+      "relateString": "前传",
+      "src": 296178,
+      "dst": 221539
+    },
+    {
+      "relateString": "续集",
+      "src": 296178,
+      "dst": 324271
+    },
+    {
+      "relateString": "前传",
+      "src": 324271,
+      "dst": 296178
+    },
+    {
+      "relateString": "续集",
+      "src": 324271,
+      "dst": 325402
+    },
+    {
+      "relateString": "前传",
+      "src": 324287,
+      "dst": 325402
+    },
+    {
+      "relateString": "前传",
+      "src": 325402,
+      "dst": 324271
+    },
+    {
+      "relateString": "续集",
+      "src": 325402,
+      "dst": 324287
+    }
+  ]
 }

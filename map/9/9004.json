@@ -1,37 +1,34 @@
 {
- "id": 9004,
- "node": [
-  {
-   "id": 9004,
-   "name": "fortissimo//Akkord:Bsusvier",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/99/9004_cDYGZ.jpg",
-   "date": "2010-09-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 91989,
-   "name": "Kadenz fermata//Akkord：fortissimo",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/62/91989_K8B80.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9004,
-   "dst": 91989
-  },
-  {
-   "relate": "前传",
-   "src": 91989,
-   "dst": 9004
-  }
- ]
+  "id": "9004",
+  "node": [
+    {
+      "id": 9004,
+      "name": "fortissimo//Akkord:Bsusvier",
+      "nameCN": "",
+      "date": "2010-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 91989,
+      "name": "Kadenz fermata//Akkord：fortissimo",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9004,
+      "dst": 91989
+    },
+    {
+      "relateString": "前传",
+      "src": 91989,
+      "dst": 9004
+    }
+  ]
 }

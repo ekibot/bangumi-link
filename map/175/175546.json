@@ -1,37 +1,35 @@
 {
- "id": 175546,
- "node": [
-  {
-   "id": 175546,
-   "name": "W.I.T.C.H. Season 1",
-   "nameCN": "魔力w.i.t.c.h.",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/0b/175546_0L7E7.jpg",
-   "date": "2004-12-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 307402,
-   "name": "W.I.T.C.H. Season 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/6b/307402_894H2.jpg",
-   "date": "2006-06-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 175546,
-   "dst": 307402
-  },
-  {
-   "relate": "前传",
-   "src": 307402,
-   "dst": 175546
-  }
- ]
+  "id": "175546",
+  "node": [
+    {
+      "id": 175546,
+      "name": "W.I.T.C.H. Season 1",
+      "nameCN": "魔力w.i.t.c.h.",
+      "date": "2004-12-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 307402,
+      "name": "W.I.T.C.H. Season 2",
+      "nameCN": "",
+      "date": "2006-06-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 175546,
+      "dst": 307402
+    },
+    {
+      "relateString": "前传",
+      "src": 307402,
+      "dst": 175546
+    }
+  ]
 }

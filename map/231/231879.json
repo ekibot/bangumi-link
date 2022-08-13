@@ -1,37 +1,35 @@
 {
- "id": 231879,
- "node": [
-  {
-   "id": 231879,
-   "name": "プラトモ",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/c9/231879_4Dz55.jpg",
-   "date": "2017-11-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 237355,
-   "name": "プラトモ.リゾート",
-   "nameCN": "组合模型2：度假之海",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/af/237355_V5ivv.jpg",
-   "date": "2017-12-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231879,
-   "dst": 237355
-  },
-  {
-   "relate": "前传",
-   "src": 237355,
-   "dst": 231879
-  }
- ]
+  "id": "231879",
+  "node": [
+    {
+      "id": 231879,
+      "name": "プラトモ",
+      "nameCN": "",
+      "date": "2017-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 237355,
+      "name": "プラトモ.リゾート",
+      "nameCN": "组合模型2：度假之海",
+      "date": "2017-12-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231879,
+      "dst": 237355
+    },
+    {
+      "relateString": "前传",
+      "src": 237355,
+      "dst": 231879
+    }
+  ]
 }

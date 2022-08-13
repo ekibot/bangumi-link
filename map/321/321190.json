@@ -1,28 +1,30 @@
 {
- "id": 321190,
- "node": [
-  {
-   "id": 321190,
-   "name": "SELECTION PROJECT",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/e7/321190_xXA8B.jpg",
-   "date": "2021-10-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 341143,
-   "name": "SELECTION PROJECT",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/d6/341143_1JmvU.jpg",
-   "nameCN": "",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 321190,
-   "dst": 341143
-  }
- ]
+  "id": "321190",
+  "node": [
+    {
+      "id": 321190,
+      "name": "SELECTION PROJECT",
+      "nameCN": "",
+      "date": "2021-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 341143,
+      "name": "SELECTION PROJECT",
+      "nameCN": "",
+      "date": "2021-09-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 321190,
+      "dst": 341143
+    }
+  ]
 }

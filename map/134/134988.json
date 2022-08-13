@@ -1,37 +1,35 @@
 {
- "id": 134988,
- "node": [
-  {
-   "id": 134988,
-   "name": "イトウさん",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/74/134988_jp.jpg",
-   "date": "2015-05-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 233242,
-   "name": "I イトウさん２",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/46/233242_eCUPC.jpg",
-   "date": "2017-09-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 134988,
-   "dst": 233242
-  },
-  {
-   "relate": "前传",
-   "src": 233242,
-   "dst": 134988
-  }
- ]
+  "id": "134988",
+  "node": [
+    {
+      "id": 134988,
+      "name": "イトウさん",
+      "nameCN": "",
+      "date": "2015-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 233242,
+      "name": "I イトウさん２",
+      "nameCN": "",
+      "date": "2017-09-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 134988,
+      "dst": 233242
+    },
+    {
+      "relateString": "前传",
+      "src": 233242,
+      "dst": 134988
+    }
+  ]
 }

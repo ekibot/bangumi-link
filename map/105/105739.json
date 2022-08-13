@@ -1,37 +1,33 @@
 {
- "id": 105739,
- "node": [
-  {
-   "id": 105739,
-   "name": "ก้านกล้วย",
-   "nameCN": "小战象",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/be/105739_MCm8e.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 105740,
-   "name": "ก้านกล้วย 2",
-   "nameCN": "小战象2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/0b/105740_SMWsU.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105739,
-   "dst": 105740
-  },
-  {
-   "relate": "前传",
-   "src": 105740,
-   "dst": 105739
-  }
- ]
+  "id": "105739",
+  "node": [
+    {
+      "id": 105739,
+      "name": "ก้านกล้วย",
+      "nameCN": "小战象",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 105740,
+      "name": "ก้านกล้วย 2",
+      "nameCN": "小战象2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105739,
+      "dst": 105740
+    },
+    {
+      "relateString": "前传",
+      "src": 105740,
+      "dst": 105739
+    }
+  ]
 }

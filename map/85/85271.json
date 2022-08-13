@@ -1,37 +1,34 @@
 {
- "id": 85271,
- "node": [
-  {
-   "id": 85271,
-   "name": "毛利元就 誓いの三矢",
-   "nameCN": "毛利元就传",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/89/85271_NNQ0Q.jpg",
-   "date": "1997-05-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 85272,
-   "name": "織田信長伝",
-   "nameCN": "织田信长传",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/6c/85272_a2HDL.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85271,
-   "dst": 85272
-  },
-  {
-   "relate": "前传",
-   "src": 85272,
-   "dst": 85271
-  }
- ]
+  "id": "85271",
+  "node": [
+    {
+      "id": 85271,
+      "name": "毛利元就 誓いの三矢",
+      "nameCN": "毛利元就传",
+      "date": "1997-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 85272,
+      "name": "織田信長伝",
+      "nameCN": "织田信长传",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85271,
+      "dst": 85272
+    },
+    {
+      "relateString": "前传",
+      "src": 85272,
+      "dst": 85271
+    }
+  ]
 }

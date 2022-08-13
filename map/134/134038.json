@@ -1,37 +1,35 @@
 {
- "id": 134038,
- "node": [
-  {
-   "id": 134038,
-   "name": "BIKINI WARRIORS",
-   "nameCN": "比基尼勇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/5e/134038_VyuJ5.jpg",
-   "date": "2015-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 187800,
-   "name": "BIKINI WARRIORS OVA",
-   "nameCN": "比基尼勇士 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/bb/187800_gT6MB.jpg",
-   "date": "2016-12-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 134038,
-   "dst": 187800
-  },
-  {
-   "relate": "前传",
-   "src": 187800,
-   "dst": 134038
-  }
- ]
+  "id": "134038",
+  "node": [
+    {
+      "id": 134038,
+      "name": "BIKINI WARRIORS",
+      "nameCN": "比基尼勇士",
+      "date": "2015-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 187800,
+      "name": "BIKINI WARRIORS OVA",
+      "nameCN": "比基尼勇士 OVA",
+      "date": "2016-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 134038,
+      "dst": 187800
+    },
+    {
+      "relateString": "前传",
+      "src": 187800,
+      "dst": 134038
+    }
+  ]
 }

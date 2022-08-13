@@ -1,77 +1,73 @@
 {
- "id": 79703,
- "node": [
-  {
-   "id": 79703,
-   "name": "奇々怪界",
-   "nameCN": "奇奇怪界",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/fa/79703_5rtNl.jpg",
-   "date": "1986-09-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256220,
-   "name": "奇々怪界 謎の黒マント",
-   "nameCN": "奇奇怪界 谜之黑斗篷",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/67/256220_fCKtL.jpg",
-   "date": "1992-12-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256221,
-   "name": "奇々怪界 月夜草子",
-   "nameCN": "奇奇怪界 月夜草子",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/a4/256221_BqdXq.jpg",
-   "date": "1994-06-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256222,
-   "name": "奇々怪界あどばんす",
-   "nameCN": "奇奇怪界",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/46/256222_YnhIU.jpg",
-   "date": "2001-10-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79703,
-   "dst": 256220
-  },
-  {
-   "relate": "前传",
-   "src": 256220,
-   "dst": 79703
-  },
-  {
-   "relate": "续集",
-   "src": 256220,
-   "dst": 256221
-  },
-  {
-   "relate": "前传",
-   "src": 256221,
-   "dst": 256220
-  },
-  {
-   "relate": "续集",
-   "src": 256221,
-   "dst": 256222
-  },
-  {
-   "relate": "前传",
-   "src": 256222,
-   "dst": 256221
-  }
- ]
+  "id": "79703",
+  "node": [
+    {
+      "id": 79703,
+      "name": "奇々怪界",
+      "nameCN": "奇奇怪界",
+      "date": "1986-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256220,
+      "name": "奇々怪界 謎の黒マント",
+      "nameCN": "奇奇怪界 谜之黑斗篷",
+      "date": "1992-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256221,
+      "name": "奇々怪界 月夜草子",
+      "nameCN": "奇奇怪界 月夜草子",
+      "date": "1994-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256222,
+      "name": "奇々怪界あどばんす",
+      "nameCN": "奇奇怪界",
+      "date": "2001-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79703,
+      "dst": 256220
+    },
+    {
+      "relateString": "前传",
+      "src": 256220,
+      "dst": 79703
+    },
+    {
+      "relateString": "续集",
+      "src": 256220,
+      "dst": 256221
+    },
+    {
+      "relateString": "前传",
+      "src": 256221,
+      "dst": 256220
+    },
+    {
+      "relateString": "续集",
+      "src": 256221,
+      "dst": 256222
+    },
+    {
+      "relateString": "前传",
+      "src": 256222,
+      "dst": 256221
+    }
+  ]
 }

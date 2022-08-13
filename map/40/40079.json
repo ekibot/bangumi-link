@@ -1,37 +1,35 @@
 {
- "id": 40079,
- "node": [
-  {
-   "id": 40079,
-   "name": "がいCHU!",
-   "nameCN": "Hi虫！",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/27/40079_jL2Mq.jpg",
-   "date": "2011-10-31",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162492,
-   "name": "がいCHU! リターンズ-2倍長持ち-",
-   "nameCN": "HI虫! -2倍药效-",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/76/162492_jp.jpg",
-   "date": "2013-08-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 40079,
-   "dst": 162492
-  },
-  {
-   "relate": "前传",
-   "src": 162492,
-   "dst": 40079
-  }
- ]
+  "id": "40079",
+  "node": [
+    {
+      "id": 40079,
+      "name": "がいCHU!",
+      "nameCN": "Hi虫！",
+      "date": "2011-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162492,
+      "name": "がいCHU! リターンズ-2倍長持ち-",
+      "nameCN": "HI虫! -2倍药效-",
+      "date": "2013-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 40079,
+      "dst": 162492
+    },
+    {
+      "relateString": "前传",
+      "src": 162492,
+      "dst": 40079
+    }
+  ]
 }

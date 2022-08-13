@@ -1,37 +1,35 @@
 {
- "id": 16680,
- "node": [
-  {
-   "id": 16680,
-   "name": "ジェット セット ラジオ フューチャー",
-   "nameCN": "街头涂鸦电台 未来",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/42/16680_PDoZ0.jpg",
-   "date": "2002-02-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 22306,
-   "name": "ジェット セット ラジオ",
-   "nameCN": "街头涂鸦电台",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/bf/22306_27u7H.jpg",
-   "date": "2000-06-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 16680,
-   "dst": 22306
-  },
-  {
-   "relate": "续集",
-   "src": 22306,
-   "dst": 16680
-  }
- ]
+  "id": "16680",
+  "node": [
+    {
+      "id": 16680,
+      "name": "ジェット セット ラジオ フューチャー",
+      "nameCN": "街头涂鸦电台 未来",
+      "date": "2002-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 22306,
+      "name": "ジェット セット ラジオ",
+      "nameCN": "街头涂鸦电台",
+      "date": "2000-06-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 16680,
+      "dst": 22306
+    },
+    {
+      "relateString": "续集",
+      "src": 22306,
+      "dst": 16680
+    }
+  ]
 }

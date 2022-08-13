@@ -1,37 +1,35 @@
 {
- "id": 283700,
- "node": [
-  {
-   "id": 283700,
-   "name": "教場",
-   "nameCN": "教场",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/d4/283700_NZ6nP.jpg",
-   "date": "2020-01-04",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 314076,
-   "name": "教場Ⅱ",
-   "nameCN": "教场2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/84/314076_Mu79d.jpg",
-   "date": "2021-01-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 283700,
-   "dst": 314076
-  },
-  {
-   "relate": "前传",
-   "src": 314076,
-   "dst": 283700
-  }
- ]
+  "id": "283700",
+  "node": [
+    {
+      "id": 283700,
+      "name": "教場",
+      "nameCN": "教场",
+      "date": "2020-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 314076,
+      "name": "教場Ⅱ",
+      "nameCN": "教场2",
+      "date": "2021-01-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 283700,
+      "dst": 314076
+    },
+    {
+      "relateString": "前传",
+      "src": 314076,
+      "dst": 283700
+    }
+  ]
 }

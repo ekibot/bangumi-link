@@ -1,37 +1,33 @@
 {
- "id": 312268,
- "node": [
-  {
-   "id": 312268,
-   "name": "빛과 그림자",
-   "nameCN": "光与影",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/66/312268_e2Maa.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 312278,
-   "name": "골든 타임",
-   "nameCN": "黄金时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/18/312278_ffpwE.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 312268,
-   "dst": 312278
-  },
-  {
-   "relate": "前传",
-   "src": 312278,
-   "dst": 312268
-  }
- ]
+  "id": "312268",
+  "node": [
+    {
+      "id": 312268,
+      "name": "빛과 그림자",
+      "nameCN": "光与影",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 312278,
+      "name": "골든 타임",
+      "nameCN": "黄金时代",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 312268,
+      "dst": 312278
+    },
+    {
+      "relateString": "前传",
+      "src": 312278,
+      "dst": 312268
+    }
+  ]
 }

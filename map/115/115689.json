@@ -1,67 +1,64 @@
 {
- "id": 115689,
- "node": [
-  {
-   "id": 115689,
-   "name": "絶対命令",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/cc/115689_jp.jpg",
-   "date": "2008-12-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 115752,
-   "name": "仄かな恋の断片を",
-   "nameCN": "微熱戀碎片",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/88/115752_jp.jpg",
-   "date": "2006-05-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 115753,
-   "name": "略奪者",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/42/115753_jp.jpg",
-   "date": "2009-11-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 115689,
-   "dst": 115752
-  },
-  {
-   "relate": "续集",
-   "src": 115689,
-   "dst": 115753
-  },
-  {
-   "relate": "续集",
-   "src": 115752,
-   "dst": 115689
-  },
-  {
-   "relate": "续集",
-   "src": 115752,
-   "dst": 115753
-  },
-  {
-   "relate": "前传",
-   "src": 115753,
-   "dst": 115689
-  },
-  {
-   "relate": "前传",
-   "src": 115753,
-   "dst": 115752
-  }
- ]
+  "id": "115689",
+  "node": [
+    {
+      "id": 115689,
+      "name": "絶対命令",
+      "nameCN": "",
+      "date": "2008-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 115752,
+      "name": "仄かな恋の断片を",
+      "nameCN": "微熱戀碎片",
+      "date": "2006-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 115753,
+      "name": "略奪者",
+      "nameCN": "",
+      "date": "2009-11-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 115689,
+      "dst": 115752
+    },
+    {
+      "relateString": "续集",
+      "src": 115689,
+      "dst": 115753
+    },
+    {
+      "relateString": "续集",
+      "src": 115752,
+      "dst": 115689
+    },
+    {
+      "relateString": "续集",
+      "src": 115752,
+      "dst": 115753
+    },
+    {
+      "relateString": "前传",
+      "src": 115753,
+      "dst": 115689
+    },
+    {
+      "relateString": "前传",
+      "src": 115753,
+      "dst": 115752
+    }
+  ]
 }

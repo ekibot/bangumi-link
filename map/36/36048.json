@@ -1,37 +1,35 @@
 {
- "id": 36048,
- "node": [
-  {
-   "id": 36048,
-   "name": "ムコ殿",
-   "nameCN": "女婿大人",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/6e/36048_Xfk2a.jpg",
-   "date": "2001-04-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 176843,
-   "name": "ムコ殿2003",
-   "nameCN": "女婿大人2003",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/9b/176843_Kk1US.jpg",
-   "date": "2003-04-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36048,
-   "dst": 176843
-  },
-  {
-   "relate": "前传",
-   "src": 176843,
-   "dst": 36048
-  }
- ]
+  "id": "36048",
+  "node": [
+    {
+      "id": 36048,
+      "name": "ムコ殿",
+      "nameCN": "女婿大人",
+      "date": "2001-04-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 176843,
+      "name": "ムコ殿2003",
+      "nameCN": "女婿大人2003",
+      "date": "2003-04-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36048,
+      "dst": 176843
+    },
+    {
+      "relateString": "前传",
+      "src": 176843,
+      "dst": 36048
+    }
+  ]
 }

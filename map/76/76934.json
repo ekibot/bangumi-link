@@ -1,77 +1,73 @@
 {
- "id": 76934,
- "node": [
-  {
-   "id": 76934,
-   "name": "Chronicles of Inotia: Legend of Feanor",
-   "nameCN": "艾诺迪亚",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/90/76934_p02Au.jpg",
-   "date": "2008-12-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 76935,
-   "name": "Chronicles of Inotia 2: Wanderer of Luone",
-   "nameCN": "艾诺迪亚2",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/d6/76935_EylvU.jpg",
-   "date": "2009-12-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 76937,
-   "name": "Chronicles of Inotia 3: Children of Carnia",
-   "nameCN": "艾诺迪亚3：卡尼亚传人",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/85/76937_jvPPh.jpg",
-   "date": "2011-07-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 76938,
-   "name": "Chronicles of Inotia 4: Assassin of Berkel",
-   "nameCN": "艾诺迪亚4：贝勒塞刺杀者",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/bc/76938_L81W8.jpg",
-   "date": "2012-07-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76934,
-   "dst": 76935
-  },
-  {
-   "relate": "前传",
-   "src": 76935,
-   "dst": 76934
-  },
-  {
-   "relate": "续集",
-   "src": 76935,
-   "dst": 76937
-  },
-  {
-   "relate": "前传",
-   "src": 76937,
-   "dst": 76935
-  },
-  {
-   "relate": "续集",
-   "src": 76937,
-   "dst": 76938
-  },
-  {
-   "relate": "前传",
-   "src": 76938,
-   "dst": 76937
-  }
- ]
+  "id": "76934",
+  "node": [
+    {
+      "id": 76934,
+      "name": "Chronicles of Inotia: Legend of Feanor",
+      "nameCN": "艾诺迪亚",
+      "date": "2008-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 76935,
+      "name": "Chronicles of Inotia 2: Wanderer of Luone",
+      "nameCN": "艾诺迪亚2：罗恩流浪者",
+      "date": "2009-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 76937,
+      "name": "Chronicles of Inotia 3: Children of Carnia",
+      "nameCN": "艾诺迪亚3：卡尼亚传人",
+      "date": "2011-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 76938,
+      "name": "Chronicles of Inotia 4: Assassin of Berkel",
+      "nameCN": "艾诺迪亚4：贝勒塞刺杀者",
+      "date": "2012-07-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76934,
+      "dst": 76935
+    },
+    {
+      "relateString": "前传",
+      "src": 76935,
+      "dst": 76934
+    },
+    {
+      "relateString": "续集",
+      "src": 76935,
+      "dst": 76937
+    },
+    {
+      "relateString": "前传",
+      "src": 76937,
+      "dst": 76935
+    },
+    {
+      "relateString": "续集",
+      "src": 76937,
+      "dst": 76938
+    },
+    {
+      "relateString": "前传",
+      "src": 76938,
+      "dst": 76937
+    }
+  ]
 }

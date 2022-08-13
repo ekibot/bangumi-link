@@ -1,37 +1,35 @@
 {
- "id": 143006,
- "node": [
-  {
-   "id": 143006,
-   "name": "はっぴぃプリンセス",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/0c/143006_UmUTi.jpg",
-   "date": "2007-09-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 143007,
-   "name": "はっぴぃプリンセス～Another Fairytale～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/e4/143007_Lx9eI.jpg",
-   "date": "2008-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143006,
-   "dst": 143007
-  },
-  {
-   "relate": "前传",
-   "src": 143007,
-   "dst": 143006
-  }
- ]
+  "id": "143006",
+  "node": [
+    {
+      "id": 143006,
+      "name": "はっぴぃプリンセス",
+      "nameCN": "",
+      "date": "2007-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 143007,
+      "name": "はっぴぃプリンセス～Another Fairytale～",
+      "nameCN": "",
+      "date": "2008-07-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143006,
+      "dst": 143007
+    },
+    {
+      "relateString": "前传",
+      "src": 143007,
+      "dst": 143006
+    }
+  ]
 }

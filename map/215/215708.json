@@ -1,37 +1,35 @@
 {
- "id": 215708,
- "node": [
-  {
-   "id": 215708,
-   "name": "ティアドロップ",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/9f/215708_Ai6Iz.jpg",
-   "date": "2012-09-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215709,
-   "name": "ティアドロップ２",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/c3/215709_g0QsU.jpg",
-   "date": "2015-01-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 215708,
-   "dst": 215709
-  },
-  {
-   "relate": "前传",
-   "src": 215709,
-   "dst": 215708
-  }
- ]
+  "id": "215708",
+  "node": [
+    {
+      "id": 215708,
+      "name": "ティアドロップ",
+      "nameCN": "",
+      "date": "2012-09-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215709,
+      "name": "ティアドロップ２",
+      "nameCN": "",
+      "date": "2015-01-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 215708,
+      "dst": 215709
+    },
+    {
+      "relateString": "前传",
+      "src": 215709,
+      "dst": 215708
+    }
+  ]
 }

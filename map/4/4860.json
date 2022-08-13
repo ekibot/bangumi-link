@@ -1,57 +1,52 @@
 {
- "id": 4860,
- "node": [
-  {
-   "id": 4860,
-   "name": "Doubt",
-   "nameCN": "疑惧",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/bf/4860_VNI15.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 33558,
-   "name": "JUDGE",
-   "nameCN": "审判",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/ef/33558_1Gn2L.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 86244,
-   "name": "Secret",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/c3/86244_2JJCj.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4860,
-   "dst": 33558
-  },
-  {
-   "relate": "前传",
-   "src": 33558,
-   "dst": 4860
-  },
-  {
-   "relate": "续集",
-   "src": 33558,
-   "dst": 86244
-  },
-  {
-   "relate": "前传",
-   "src": 86244,
-   "dst": 33558
-  }
- ]
+  "id": "4860",
+  "node": [
+    {
+      "id": 4860,
+      "name": "Doubt",
+      "nameCN": "疑惧",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 33558,
+      "name": "JUDGE",
+      "nameCN": "审判",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86244,
+      "name": "Secret",
+      "nameCN": "",
+      "date": "2013-10-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4860,
+      "dst": 33558
+    },
+    {
+      "relateString": "前传",
+      "src": 33558,
+      "dst": 4860
+    },
+    {
+      "relateString": "续集",
+      "src": 33558,
+      "dst": 86244
+    },
+    {
+      "relateString": "前传",
+      "src": 86244,
+      "dst": 33558
+    }
+  ]
 }

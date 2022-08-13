@@ -1,87 +1,130 @@
 {
- "id": 163122,
- "node": [
-  {
-   "id": 163122,
-   "name": "キミトユメミシ",
-   "nameCN": "与你共睹的梦境",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/dc/163122_8zVcO.jpg",
-   "date": "2016-07-29",
-   "type": 4
-  },
-  {
-   "id": 198732,
-   "name": "ニュートンと林檎の樹",
-   "nameCN": "牛顿与苹果树",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/32/198732_IA9uw.jpg",
-   "date": "2017-05-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 240016,
-   "name": "未来ラジオと人工鳩",
-   "nameCN": "未来无线电和人工鸽",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/c4/240016_1FhT7.jpg",
-   "date": "2018-08-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 279827,
-   "name": "人類最強性欲の嫁 工口倫子",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/d7/279827_E0Uv8.jpg",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 295075,
-   "name": "白昼夢の青写真",
-   "nameCN": "白日梦的构想图",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/88/295075_ejRG6.jpg",
-   "date": "2020-09-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 163122,
-   "dst": 295075
-  },
-  {
-   "relate": "相同世界观",
-   "src": 198732,
-   "dst": 295075
-  },
-  {
-   "relate": "相同世界观",
-   "src": 240016,
-   "dst": 279827
-  },
-  {
-   "relate": "相同世界观",
-   "src": 240016,
-   "dst": 295075
-  },
-  {
-   "relate": "相同世界观",
-   "src": 295075,
-   "dst": 163122
-  },
-  {
-   "relate": "相同世界观",
-   "src": 295075,
-   "dst": 198732
-  },
-  {
-   "relate": "相同世界观",
-   "src": 295075,
-   "dst": 240016
-  }
- ]
+  "id": "163122",
+  "node": [
+    {
+      "id": 163122,
+      "name": "キミトユメミシ",
+      "nameCN": "与你共睹的梦境",
+      "date": "2016-07-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 295075,
+      "name": "白昼夢の青写真",
+      "nameCN": "白日梦的构想图",
+      "date": "2020-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198732,
+      "name": "ニュートンと林檎の樹",
+      "nameCN": "牛顿与苹果树",
+      "date": "2017-05-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240016,
+      "name": "未来ラジオと人工鳩",
+      "nameCN": "未来无线电和人工鸽",
+      "date": "2018-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 279827,
+      "name": "人類最強性欲の嫁 工口倫子",
+      "nameCN": "",
+      "date": "2019-04-01",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 339870,
+      "name": "工口倫子シリーズVol2 人類最強性欲の嫁の実家",
+      "nameCN": "",
+      "date": "2021-06-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 384676,
+      "name": "工口倫子シリーズVol3 人類最強性欲の嫁の姉",
+      "nameCN": "",
+      "date": "2022-05-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 163122,
+      "dst": 295075
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 198732,
+      "dst": 295075
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 240016,
+      "dst": 279827
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 240016,
+      "dst": 295075
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 279827,
+      "dst": 240016
+    },
+    {
+      "relateString": "续集",
+      "src": 279827,
+      "dst": 339870
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 295075,
+      "dst": 163122
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 295075,
+      "dst": 198732
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 295075,
+      "dst": 240016
+    },
+    {
+      "relateString": "前传",
+      "src": 339870,
+      "dst": 279827
+    },
+    {
+      "relateString": "续集",
+      "src": 339870,
+      "dst": 384676
+    },
+    {
+      "relateString": "前传",
+      "src": 384676,
+      "dst": 339870
+    }
+  ]
 }

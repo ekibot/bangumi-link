@@ -1,37 +1,33 @@
 {
- "id": 79345,
- "node": [
-  {
-   "id": 79345,
-   "name": "鮫!鮫!鮫!",
-   "nameCN": "鲛!鲛!鲛!",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/1b/79345_ohVkv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261761,
-   "name": "飛翔鮫",
-   "nameCN": "飞翔鲛",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/2b/261761_IrhBL.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 79345,
-   "dst": 261761
-  },
-  {
-   "relate": "续集",
-   "src": 261761,
-   "dst": 79345
-  }
- ]
+  "id": "79345",
+  "node": [
+    {
+      "id": 79345,
+      "name": "鮫!鮫!鮫!",
+      "nameCN": "鲛!鲛!鲛!",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261761,
+      "name": "飛翔鮫",
+      "nameCN": "飞翔鲛",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 79345,
+      "dst": 261761
+    },
+    {
+      "relateString": "续集",
+      "src": 261761,
+      "dst": 79345
+    }
+  ]
 }

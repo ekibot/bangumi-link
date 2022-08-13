@@ -1,37 +1,35 @@
 {
- "id": 308613,
- "node": [
-  {
-   "id": 308613,
-   "name": "Staged",
-   "nameCN": "舞台剧",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/14/308613_19T9c.jpg",
-   "date": "2020-06-10",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 327395,
-   "name": "Staged Season 2",
-   "nameCN": "舞台剧 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/3b/327395_dsQgR.jpg",
-   "date": "2021-01-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 308613,
-   "dst": 327395
-  },
-  {
-   "relate": "前传",
-   "src": 327395,
-   "dst": 308613
-  }
- ]
+  "id": "308613",
+  "node": [
+    {
+      "id": 308613,
+      "name": "Staged",
+      "nameCN": "舞台剧",
+      "date": "2020-06-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 327395,
+      "name": "Staged Season 2",
+      "nameCN": "舞台剧 第二季",
+      "date": "2021-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 308613,
+      "dst": 327395
+    },
+    {
+      "relateString": "前传",
+      "src": 327395,
+      "dst": 308613
+    }
+  ]
 }

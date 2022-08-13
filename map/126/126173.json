@@ -1,37 +1,35 @@
 {
- "id": 126173,
- "node": [
-  {
-   "id": 126173,
-   "name": "ReLIFE",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/a2/126173_II0Y1.jpg",
-   "date": "2016-07-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 213816,
-   "name": "ReLIFE 完結編",
-   "nameCN": "ReLIFE 完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/63/213816_NBkAq.jpg",
-   "date": "2018-03-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126173,
-   "dst": 213816
-  },
-  {
-   "relate": "前传",
-   "src": 213816,
-   "dst": 126173
-  }
- ]
+  "id": "126173",
+  "node": [
+    {
+      "id": 126173,
+      "name": "ReLIFE",
+      "nameCN": "",
+      "date": "2016-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 213816,
+      "name": "ReLIFE 完結編",
+      "nameCN": "ReLIFE 完结篇",
+      "date": "2018-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126173,
+      "dst": 213816
+    },
+    {
+      "relateString": "前传",
+      "src": 213816,
+      "dst": 126173
+    }
+  ]
 }

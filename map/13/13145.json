@@ -1,85 +1,82 @@
 {
- "id": 13145,
- "node": [
-  {
-   "id": 13145,
-   "name": "Company of Heroes: Tales of Valor",
-   "nameCN": "英雄连：勇气传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/f2/13145_mP5r0.jpg",
-   "date": "2009-04-08",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 77099,
-   "name": "Company of Heroes 2",
-   "nameCN": "英雄连2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/85/77099_V29ri.jpg",
-   "date": "2013-06-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 123711,
-   "name": "Company of Heroes",
-   "nameCN": "英雄连",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/9a/123711_WkbPJ.jpg",
-   "date": "2006-09-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 123712,
-   "name": "Company of Heroes: Opposing Fronts",
-   "nameCN": "英雄连：抵抗前线",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/36/123712_x0izG.jpg",
-   "date": "2007-09-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 341932,
-   "name": "Company of Heroes 3",
-   "nameCN": "英雄连3",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/46/341932_H0w5B.jpg",
-   "date": "2022-11-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 13145,
-   "dst": 123711
-  },
-  {
-   "relate": "前传",
-   "src": 77099,
-   "dst": 123711
-  },
-  {
-   "relate": "续集",
-   "src": 77099,
-   "dst": 341932
-  },
-  {
-   "relate": "续集",
-   "src": 123711,
-   "dst": 77099
-  },
-  {
-   "relate": "主线故事",
-   "src": 123712,
-   "dst": 123711
-  },
-  {
-   "relate": "前传",
-   "src": 341932,
-   "dst": 77099
-  }
- ]
+  "id": "13145",
+  "node": [
+    {
+      "id": 13145,
+      "name": "Company of Heroes: Tales of Valor",
+      "nameCN": "英雄连：勇气传说",
+      "date": "2009-04-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 123711,
+      "name": "Company of Heroes",
+      "nameCN": "英雄连",
+      "date": "2006-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77099,
+      "name": "Company of Heroes 2",
+      "nameCN": "英雄连2",
+      "date": "2013-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 341932,
+      "name": "Company of Heroes 3",
+      "nameCN": "英雄连3",
+      "date": "2022-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 123712,
+      "name": "Company of Heroes: Opposing Fronts",
+      "nameCN": "英雄连：抵抗前线",
+      "date": "2007-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 13145,
+      "dst": 123711
+    },
+    {
+      "relateString": "前传",
+      "src": 77099,
+      "dst": 123711
+    },
+    {
+      "relateString": "续集",
+      "src": 77099,
+      "dst": 341932
+    },
+    {
+      "relateString": "续集",
+      "src": 123711,
+      "dst": 77099
+    },
+    {
+      "relateString": "主线故事",
+      "src": 123712,
+      "dst": 123711
+    },
+    {
+      "relateString": "前传",
+      "src": 341932,
+      "dst": 77099
+    }
+  ]
 }

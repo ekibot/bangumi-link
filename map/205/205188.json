@@ -1,57 +1,54 @@
 {
- "id": 205188,
- "node": [
-  {
-   "id": 205188,
-   "name": "人造人間キカイダー",
-   "nameCN": "电脑奇侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/96/205188_0zIJ7.jpg",
-   "date": "1972-07-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 205246,
-   "name": "キカイダー01",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/c6/205246_hFuff.jpg",
-   "date": "1973-05-12",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 212253,
-   "name": "人造人間ハカイダー",
-   "nameCN": "电脑黑魔",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/f7/212253_Cl33f.jpg",
-   "date": "1995-04-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 205188,
-   "dst": 205246
-  },
-  {
-   "relate": "番外篇",
-   "src": 205188,
-   "dst": 212253
-  },
-  {
-   "relate": "前传",
-   "src": 205246,
-   "dst": 205188
-  },
-  {
-   "relate": "主线故事",
-   "src": 212253,
-   "dst": 205188
-  }
- ]
+  "id": "205188",
+  "node": [
+    {
+      "id": 205188,
+      "name": "人造人間キカイダー",
+      "nameCN": "电脑奇侠",
+      "date": "1972-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 205246,
+      "name": "キカイダー01",
+      "nameCN": "",
+      "date": "1973-05-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 212253,
+      "name": "人造人間ハカイダー",
+      "nameCN": "电脑黑魔",
+      "date": "1995-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205188,
+      "dst": 205246
+    },
+    {
+      "relateString": "番外篇",
+      "src": 205188,
+      "dst": 212253
+    },
+    {
+      "relateString": "前传",
+      "src": 205246,
+      "dst": 205188
+    },
+    {
+      "relateString": "主线故事",
+      "src": 212253,
+      "dst": 205188
+    }
+  ]
 }

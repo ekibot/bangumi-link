@@ -1,37 +1,34 @@
 {
- "id": 24102,
- "node": [
-  {
-   "id": 24102,
-   "name": "マリオネット・カンパニー",
-   "nameCN": "人偶情缘",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/1f/24102_C6KCh.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231155,
-   "name": "マリオネットカンパニー 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/61/231155_CPFjk.jpg",
-   "date": "2000-05-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 24102,
-   "dst": 231155
-  },
-  {
-   "relate": "前传",
-   "src": 231155,
-   "dst": 24102
-  }
- ]
+  "id": "24102",
+  "node": [
+    {
+      "id": 24102,
+      "name": "マリオネット・カンパニー",
+      "nameCN": "人偶情缘",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231155,
+      "name": "マリオネットカンパニー 2",
+      "nameCN": "",
+      "date": "2000-05-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 24102,
+      "dst": 231155
+    },
+    {
+      "relateString": "前传",
+      "src": 231155,
+      "dst": 24102
+    }
+  ]
 }

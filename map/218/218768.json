@@ -1,100 +1,97 @@
 {
- "id": 218768,
- "node": [
-  {
-   "id": 218768,
-   "name": "Hello Charlotte EP1: Junk Food, Gods and Teddy Bears",
-   "nameCN": "你好夏洛特 EP1: 垃圾食品、神与泰迪熊",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/8e/218768_DxHv1.jpg",
-   "date": "2015-06-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 218771,
-   "name": "Hello Charlotte EP2: Requiem Aeternam Deo",
-   "nameCN": "你好夏洛特 EP2: Requiem Aeternam Deo",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/d0/218771_IJwZV.jpg",
-   "date": "2016-09-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 218774,
-   "name": "Hello Charlotte: Delirium",
-   "nameCN": "你好夏洛特：精神错乱",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/1b/218774_dvaMX.jpg",
-   "date": "2017-06-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256956,
-   "name": "Hello Charlotte EP3: Childhood's End",
-   "nameCN": "你好夏洛特 EP3: 童年的终结",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/90/256956_YXQhX.jpg",
-   "date": "2018-01-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 272281,
-   "name": "Hello Charlotte: Heaven's Gate",
-   "nameCN": "你好夏洛特：天国之门",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/c5/272281_Y9Yfk.jpg",
-   "date": "2018-09-28",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218768,
-   "dst": 218771
-  },
-  {
-   "relate": "前传",
-   "src": 218771,
-   "dst": 218768
-  },
-  {
-   "relate": "续集",
-   "src": 218771,
-   "dst": 256956
-  },
-  {
-   "relate": "主线故事",
-   "src": 218774,
-   "dst": 218768
-  },
-  {
-   "relate": "主线故事",
-   "src": 218774,
-   "dst": 218771
-  },
-  {
-   "relate": "前传",
-   "src": 256956,
-   "dst": 218771
-  },
-  {
-   "relate": "主线故事",
-   "src": 272281,
-   "dst": 218768
-  },
-  {
-   "relate": "主线故事",
-   "src": 272281,
-   "dst": 218771
-  },
-  {
-   "relate": "主线故事",
-   "src": 272281,
-   "dst": 256956
-  }
- ]
+  "id": "218768",
+  "node": [
+    {
+      "id": 218768,
+      "name": "Hello Charlotte EP1: Junk Food, Gods and Teddy Bears",
+      "nameCN": "你好夏洛特 EP1: 垃圾食品、神与泰迪熊",
+      "date": "2015-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218771,
+      "name": "Hello Charlotte EP2: Requiem Aeternam Deo",
+      "nameCN": "你好夏洛特 EP2: Requiem Aeternam Deo",
+      "date": "2016-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256956,
+      "name": "Hello Charlotte EP3: Childhood's End",
+      "nameCN": "你好夏洛特 EP3: 童年的终结",
+      "date": "2018-01-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218774,
+      "name": "Hello Charlotte: Delirium",
+      "nameCN": "你好夏洛特：精神错乱",
+      "date": "2017-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 272281,
+      "name": "Hello Charlotte: Heaven's Gate",
+      "nameCN": "你好夏洛特：天国之门",
+      "date": "2018-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218768,
+      "dst": 218771
+    },
+    {
+      "relateString": "前传",
+      "src": 218771,
+      "dst": 218768
+    },
+    {
+      "relateString": "续集",
+      "src": 218771,
+      "dst": 256956
+    },
+    {
+      "relateString": "主线故事",
+      "src": 218774,
+      "dst": 218768
+    },
+    {
+      "relateString": "主线故事",
+      "src": 218774,
+      "dst": 218771
+    },
+    {
+      "relateString": "前传",
+      "src": 256956,
+      "dst": 218771
+    },
+    {
+      "relateString": "主线故事",
+      "src": 272281,
+      "dst": 218768
+    },
+    {
+      "relateString": "主线故事",
+      "src": 272281,
+      "dst": 218771
+    },
+    {
+      "relateString": "主线故事",
+      "src": 272281,
+      "dst": 256956
+    }
+  ]
 }

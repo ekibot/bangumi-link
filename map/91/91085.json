@@ -1,57 +1,54 @@
 {
- "id": 91085,
- "node": [
-  {
-   "id": 91085,
-   "name": "サンタ・カンパニー",
-   "nameCN": "圣诞老人公司",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/20/91085_M3i5y.jpg",
-   "date": "2014-10-25",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 284474,
-   "name": "サンタ・カンパニー ～クリスマスの秘密～",
-   "nameCN": "圣诞老人公司～圣诞节的秘密～",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/20/284474_N6ci4.jpg",
-   "date": "2019-11-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 327306,
-   "name": "サンタ・カンパニー 〜真夏のメリークリスマス〜",
-   "nameCN": "圣诞老人公司 仲夏的圣诞快乐",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/cb/327306_D5Tvn.jpg",
-   "date": "2021-01-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 91085,
-   "dst": 284474
-  },
-  {
-   "relate": "不同演绎",
-   "src": 284474,
-   "dst": 91085
-  },
-  {
-   "relate": "相同世界观",
-   "src": 284474,
-   "dst": 327306
-  },
-  {
-   "relate": "相同世界观",
-   "src": 327306,
-   "dst": 284474
-  }
- ]
+  "id": "91085",
+  "node": [
+    {
+      "id": 91085,
+      "name": "サンタ・カンパニー",
+      "nameCN": "圣诞老人公司",
+      "date": "2014-10-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 284474,
+      "name": "サンタ・カンパニー ～クリスマスの秘密～",
+      "nameCN": "圣诞老人公司～圣诞节的秘密～",
+      "date": "2019-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 327306,
+      "name": "サンタ・カンパニー 〜真夏のメリークリスマス〜",
+      "nameCN": "圣诞老人公司 仲夏的圣诞快乐",
+      "date": "2021-01-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 91085,
+      "dst": 284474
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 284474,
+      "dst": 91085
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 284474,
+      "dst": 327306
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 327306,
+      "dst": 284474
+    }
+  ]
 }

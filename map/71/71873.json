@@ -1,37 +1,35 @@
 {
- "id": 71873,
- "node": [
-  {
-   "id": 71873,
-   "name": "ドキドキレンアイ",
-   "nameCN": "脸红心跳的恋爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/92/71873_jp.jpg",
-   "date": "2007-05-09",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 71874,
-   "name": "晴れてボクたちは",
-   "nameCN": "我們的幸福宣言",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/aa/71874_jp.jpg",
-   "date": "2005-11-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 71873,
-   "dst": 71874
-  },
-  {
-   "relate": "续集",
-   "src": 71874,
-   "dst": 71873
-  }
- ]
+  "id": "71873",
+  "node": [
+    {
+      "id": 71873,
+      "name": "ドキドキレンアイ",
+      "nameCN": "脸红心跳的恋爱",
+      "date": "2007-05-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 71874,
+      "name": "晴れてボクたちは",
+      "nameCN": "我們的幸福宣言",
+      "date": "2005-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 71873,
+      "dst": 71874
+    },
+    {
+      "relateString": "续集",
+      "src": 71874,
+      "dst": 71873
+    }
+  ]
 }

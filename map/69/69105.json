@@ -1,37 +1,34 @@
 {
- "id": 69105,
- "node": [
-  {
-   "id": 69105,
-   "name": "焦がれる指先(新裝版)",
-   "nameCN": "双手的温柔",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/4c/69105_jp.jpg",
-   "date": "2007-06-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 71840,
-   "name": "支配する指先",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/7a/71840_3YdGV.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 69105,
-   "dst": 71840
-  },
-  {
-   "relate": "续集",
-   "src": 71840,
-   "dst": 69105
-  }
- ]
+  "id": "69105",
+  "node": [
+    {
+      "id": 69105,
+      "name": "焦がれる指先(新裝版)",
+      "nameCN": "双手的温柔",
+      "date": "2007-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 71840,
+      "name": "支配する指先",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 69105,
+      "dst": 71840
+    },
+    {
+      "relateString": "续集",
+      "src": 71840,
+      "dst": 69105
+    }
+  ]
 }

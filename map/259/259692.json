@@ -1,37 +1,35 @@
 {
- "id": 259692,
- "node": [
-  {
-   "id": 259692,
-   "name": "爆ボンバーマン",
-   "nameCN": "火爆炸弹人",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/1a/259692_EoBXo.jpg",
-   "date": "1997-09-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259693,
-   "name": "爆ボンバーマン2",
-   "nameCN": "火爆炸弹人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/1a/259693_8vP8K.jpg",
-   "date": "1999-12-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 259692,
-   "dst": 259693
-  },
-  {
-   "relate": "前传",
-   "src": 259693,
-   "dst": 259692
-  }
- ]
+  "id": "259692",
+  "node": [
+    {
+      "id": 259692,
+      "name": "爆ボンバーマン",
+      "nameCN": "火爆炸弹人",
+      "date": "1997-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259693,
+      "name": "爆ボンバーマン2",
+      "nameCN": "火爆炸弹人2",
+      "date": "1999-12-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 259692,
+      "dst": 259693
+    },
+    {
+      "relateString": "前传",
+      "src": 259693,
+      "dst": 259692
+    }
+  ]
 }

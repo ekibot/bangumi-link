@@ -1,37 +1,35 @@
 {
- "id": 194343,
- "node": [
-  {
-   "id": 194343,
-   "name": "月影のシミュラクル",
-   "nameCN": "月影之幻像",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/e1/194343_91Jrj.jpg",
-   "date": "2016-10-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 196972,
-   "name": "月影のシミュラクル -解放の羽-",
-   "nameCN": "月影魅像-解放之羽-",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/64/196972_Z1c5g.jpg",
-   "date": "2017-01-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194343,
-   "dst": 196972
-  },
-  {
-   "relate": "前传",
-   "src": 196972,
-   "dst": 194343
-  }
- ]
+  "id": "194343",
+  "node": [
+    {
+      "id": 194343,
+      "name": "月影のシミュラクル",
+      "nameCN": "月影之幻像",
+      "date": "2016-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196972,
+      "name": "月影のシミュラクル -解放の羽-",
+      "nameCN": "月影魅像-解放之羽-",
+      "date": "2017-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194343,
+      "dst": 196972
+    },
+    {
+      "relateString": "前传",
+      "src": 196972,
+      "dst": 194343
+    }
+  ]
 }

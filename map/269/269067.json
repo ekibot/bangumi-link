@@ -1,37 +1,34 @@
 {
- "id": 269067,
- "node": [
-  {
-   "id": 269067,
-   "name": "沙耶の唄",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/5d/269067_mmvZg.jpg",
-   "date": "2018-12-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 270291,
-   "name": "沙耶の唄 第二歌",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269067,
-   "dst": 270291
-  },
-  {
-   "relate": "前传",
-   "src": 270291,
-   "dst": 269067
-  }
- ]
+  "id": "269067",
+  "node": [
+    {
+      "id": 269067,
+      "name": "沙耶の唄",
+      "nameCN": "",
+      "date": "2018-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 270291,
+      "name": "沙耶の唄 第二歌",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269067,
+      "dst": 270291
+    },
+    {
+      "relateString": "前传",
+      "src": 270291,
+      "dst": 269067
+    }
+  ]
 }

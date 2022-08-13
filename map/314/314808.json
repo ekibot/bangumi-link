@@ -1,37 +1,35 @@
 {
- "id": 314808,
- "node": [
-  {
-   "id": 314808,
-   "name": "ノッキンオン・ロックドドア",
-   "nameCN": "敲响密室之门",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/3f/314808_1rK99.jpg",
-   "date": "2016-04-08",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 375533,
-   "name": "ノッキンオン・ロックドドア2",
-   "nameCN": "敲响密室之门2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/93/375533_F0DHC.jpg",
-   "date": "2019-11-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314808,
-   "dst": 375533
-  },
-  {
-   "relate": "前传",
-   "src": 375533,
-   "dst": 314808
-  }
- ]
+  "id": "314808",
+  "node": [
+    {
+      "id": 314808,
+      "name": "ノッキンオン・ロックドドア",
+      "nameCN": "敲响密室之门",
+      "date": "2016-04-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 375533,
+      "name": "ノッキンオン・ロックドドア2",
+      "nameCN": "敲响密室之门2",
+      "date": "2019-11-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314808,
+      "dst": 375533
+    },
+    {
+      "relateString": "前传",
+      "src": 375533,
+      "dst": 314808
+    }
+  ]
 }

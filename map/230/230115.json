@@ -1,37 +1,35 @@
 {
- "id": 230115,
- "node": [
-  {
-   "id": 230115,
-   "name": "Sakura Gamer",
-   "nameCN": "樱花电玩咖",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/3d/230115_GbBql.jpg",
-   "date": "2017-10-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 301610,
-   "name": "Sakura Gamer 2",
-   "nameCN": "樱花电玩咖 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/2c/301610_WbHwH.jpg",
-   "date": "2019-12-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230115,
-   "dst": 301610
-  },
-  {
-   "relate": "前传",
-   "src": 301610,
-   "dst": 230115
-  }
- ]
+  "id": "230115",
+  "node": [
+    {
+      "id": 230115,
+      "name": "Sakura Gamer",
+      "nameCN": "樱花电玩咖",
+      "date": "2017-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301610,
+      "name": "Sakura Gamer 2",
+      "nameCN": "樱花电玩咖 2",
+      "date": "2019-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230115,
+      "dst": 301610
+    },
+    {
+      "relateString": "前传",
+      "src": 301610,
+      "dst": 230115
+    }
+  ]
 }

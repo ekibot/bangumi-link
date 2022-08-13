@@ -1,37 +1,34 @@
 {
- "id": 150100,
- "node": [
-  {
-   "id": 150100,
-   "name": "Microsoft Flight Simulator X",
-   "nameCN": "微软模拟飞行10",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/9c/150100_zl6Bb.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 284374,
-   "name": "Microsoft Flight Simulator",
-   "nameCN": "微软模拟飞行",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/8c/284374_YxQS7.jpg",
-   "date": "2020-08-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150100,
-   "dst": 284374
-  },
-  {
-   "relate": "前传",
-   "src": 284374,
-   "dst": 150100
-  }
- ]
+  "id": "150100",
+  "node": [
+    {
+      "id": 150100,
+      "name": "Microsoft Flight Simulator X",
+      "nameCN": "微软模拟飞行10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 284374,
+      "name": "Microsoft Flight Simulator",
+      "nameCN": "微软模拟飞行",
+      "date": "2020-08-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150100,
+      "dst": 284374
+    },
+    {
+      "relateString": "前传",
+      "src": 284374,
+      "dst": 150100
+    }
+  ]
 }

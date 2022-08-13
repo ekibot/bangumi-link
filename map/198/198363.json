@@ -1,37 +1,35 @@
 {
- "id": 198363,
- "node": [
-  {
-   "id": 198363,
-   "name": "甜點王子",
-   "nameCN": "甜点王子",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/8f/198363_tki0K.jpg",
-   "date": "2015-12-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 279275,
-   "name": "甜點王子2",
-   "nameCN": "甜点王子2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/c5/279275_qGUJG.jpg",
-   "date": "2018-12-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198363,
-   "dst": 279275
-  },
-  {
-   "relate": "前传",
-   "src": 279275,
-   "dst": 198363
-  }
- ]
+  "id": "198363",
+  "node": [
+    {
+      "id": 198363,
+      "name": "甜點王子",
+      "nameCN": "甜点王子",
+      "date": "2015-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 279275,
+      "name": "甜點王子2",
+      "nameCN": "甜点王子2",
+      "date": "2018-12-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198363,
+      "dst": 279275
+    },
+    {
+      "relateString": "前传",
+      "src": 279275,
+      "dst": 198363
+    }
+  ]
 }

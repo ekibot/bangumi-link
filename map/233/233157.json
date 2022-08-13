@@ -1,37 +1,33 @@
 {
- "id": 233157,
- "node": [
-  {
-   "id": 233157,
-   "name": "禁断の恋をしよう",
-   "nameCN": "禁断之恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/4d/233157_ICNB6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 233158,
-   "name": "続♥禁断の恋をしよう",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/ed/233158_JWs09.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233157,
-   "dst": 233158
-  },
-  {
-   "relate": "前传",
-   "src": 233158,
-   "dst": 233157
-  }
- ]
+  "id": "233157",
+  "node": [
+    {
+      "id": 233157,
+      "name": "禁断の恋をしよう",
+      "nameCN": "禁断之恋",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 233158,
+      "name": "続♥禁断の恋をしよう",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233157,
+      "dst": 233158
+    },
+    {
+      "relateString": "前传",
+      "src": 233158,
+      "dst": 233157
+    }
+  ]
 }

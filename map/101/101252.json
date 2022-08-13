@@ -1,77 +1,70 @@
 {
- "id": 101252,
- "node": [
-  {
-   "id": 101252,
-   "name": "Age of Wonders III",
-   "nameCN": "奇迹时代3",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/b0/101252_979We.jpg",
-   "date": "2014-03-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 113907,
-   "name": "Age of Wonders",
-   "nameCN": "奇迹时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/bd/113907_EMc6T.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 113908,
-   "name": "Age of Wonders II: The Wizard's Throne",
-   "nameCN": "奇迹时代2：巫师王座",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/3c/113908_VvZR2.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 113909,
-   "name": "Age of Wonders: Shadow Magic",
-   "nameCN": "奇迹时代：暗影魔法",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/48/113909_hcXxp.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 101252,
-   "dst": 113909
-  },
-  {
-   "relate": "续集",
-   "src": 113907,
-   "dst": 113908
-  },
-  {
-   "relate": "前传",
-   "src": 113908,
-   "dst": 113907
-  },
-  {
-   "relate": "续集",
-   "src": 113908,
-   "dst": 113909
-  },
-  {
-   "relate": "续集",
-   "src": 113909,
-   "dst": 101252
-  },
-  {
-   "relate": "前传",
-   "src": 113909,
-   "dst": 113908
-  }
- ]
+  "id": "101252",
+  "node": [
+    {
+      "id": 101252,
+      "name": "Age of Wonders III",
+      "nameCN": "奇迹时代3",
+      "date": "2014-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 113909,
+      "name": "Age of Wonders: Shadow Magic",
+      "nameCN": "奇迹时代：暗影魔法",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 113907,
+      "name": "Age of Wonders",
+      "nameCN": "奇迹时代",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 113908,
+      "name": "Age of Wonders II: The Wizard's Throne",
+      "nameCN": "奇迹时代2：巫师王座",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 101252,
+      "dst": 113909
+    },
+    {
+      "relateString": "续集",
+      "src": 113907,
+      "dst": 113908
+    },
+    {
+      "relateString": "前传",
+      "src": 113908,
+      "dst": 113907
+    },
+    {
+      "relateString": "续集",
+      "src": 113908,
+      "dst": 113909
+    },
+    {
+      "relateString": "续集",
+      "src": 113909,
+      "dst": 101252
+    },
+    {
+      "relateString": "前传",
+      "src": 113909,
+      "dst": 113908
+    }
+  ]
 }

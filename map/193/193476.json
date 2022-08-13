@@ -1,37 +1,35 @@
 {
- "id": 193476,
- "node": [
-  {
-   "id": 193476,
-   "name": "MR.MORNING",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/e2/193476_TvD0Z.jpg",
-   "date": "2007-05-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 237089,
-   "name": "MR.APPLICANT",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/fa/237089_JE1kU.jpg",
-   "date": "2012-08-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 193476,
-   "dst": 237089
-  },
-  {
-   "relate": "前传",
-   "src": 237089,
-   "dst": 193476
-  }
- ]
+  "id": "193476",
+  "node": [
+    {
+      "id": 193476,
+      "name": "MR.MORNING",
+      "nameCN": "",
+      "date": "2007-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237089,
+      "name": "MR.APPLICANT",
+      "nameCN": "",
+      "date": "2012-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 193476,
+      "dst": 237089
+    },
+    {
+      "relateString": "前传",
+      "src": 237089,
+      "dst": 193476
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 48065,
- "node": [
-  {
-   "id": 48065,
-   "name": "ブラッドラッド",
-   "nameCN": "血意少年",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/2f/48065_cVo4d.jpg",
-   "date": "2013-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 80995,
-   "name": "ブラッドラッド OAD",
-   "nameCN": "血意少年 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/ca/80995_Q8Zsg.jpg",
-   "date": "2013-12-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48065,
-   "dst": 80995
-  },
-  {
-   "relate": "前传",
-   "src": 80995,
-   "dst": 48065
-  }
- ]
+  "id": "48065",
+  "node": [
+    {
+      "id": 48065,
+      "name": "ブラッドラッド",
+      "nameCN": "血意少年",
+      "date": "2013-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 80995,
+      "name": "ブラッドラッド OAD",
+      "nameCN": "血意少年 OAD",
+      "date": "2013-12-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48065,
+      "dst": 80995
+    },
+    {
+      "relateString": "前传",
+      "src": 80995,
+      "dst": 48065
+    }
+  ]
 }

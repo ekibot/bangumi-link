@@ -1,0 +1,54 @@
+{
+  "id": "42736",
+  "node": [
+    {
+      "id": 42736,
+      "name": "Mr. Bean",
+      "nameCN": "憨豆先生",
+      "date": "1990-01-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 333976,
+      "name": "Bean",
+      "nameCN": "憨豆先生的大灾难",
+      "date": "1997-08-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 333977,
+      "name": "Mr. Bean's Holiday",
+      "nameCN": "憨豆的黄金周",
+      "date": "2007-03-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 42736,
+      "dst": 333976
+    },
+    {
+      "relateString": "主线故事",
+      "src": 333976,
+      "dst": 42736
+    },
+    {
+      "relateString": "续集",
+      "src": 333976,
+      "dst": 333977
+    },
+    {
+      "relateString": "前传",
+      "src": 333977,
+      "dst": 333976
+    }
+  ]
+}

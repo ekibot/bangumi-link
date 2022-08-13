@@ -1,37 +1,35 @@
 {
- "id": 249243,
- "node": [
-  {
-   "id": 249243,
-   "name": "喂，看见耳朵啦",
-   "nameCN": "喂，看见耳朵啦",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/7c/249243_pDkL1.jpg",
-   "date": "2018-08-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 271073,
-   "name": "喂，看见耳朵啦 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/9f/271073_8f8qO.jpg",
-   "date": "2019-02-02",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 249243,
-   "dst": 271073
-  },
-  {
-   "relate": "前传",
-   "src": 271073,
-   "dst": 249243
-  }
- ]
+  "id": "249243",
+  "node": [
+    {
+      "id": 249243,
+      "name": "喂，看见耳朵啦",
+      "nameCN": "喂，看见耳朵啦",
+      "date": "2018-08-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 271073,
+      "name": "喂，看见耳朵啦 第二季",
+      "nameCN": "",
+      "date": "2019-02-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 249243,
+      "dst": 271073
+    },
+    {
+      "relateString": "前传",
+      "src": 271073,
+      "dst": 249243
+    }
+  ]
 }

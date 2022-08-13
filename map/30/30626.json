@@ -1,77 +1,71 @@
 {
- "id": 30626,
- "node": [
-  {
-   "id": 30626,
-   "name": "王様ゲーム",
-   "nameCN": "国王游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/85/30626_fJeW2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 63894,
-   "name": "王様ゲーム 終極",
-   "nameCN": "国王游戏 终极",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/eb/63894_OPWmB.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 76107,
-   "name": "王様ゲーム 起源",
-   "nameCN": "国王游戏 起源",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/6d/76107_d2HXm.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 131615,
-   "name": "王様ゲーム 臨場",
-   "nameCN": "国王游戏 临场",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/b4/131615_YCUSb.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30626,
-   "dst": 63894
-  },
-  {
-   "relate": "前传",
-   "src": 30626,
-   "dst": 76107
-  },
-  {
-   "relate": "前传",
-   "src": 63894,
-   "dst": 30626
-  },
-  {
-   "relate": "前传",
-   "src": 63894,
-   "dst": 131615
-  },
-  {
-   "relate": "续集",
-   "src": 76107,
-   "dst": 30626
-  },
-  {
-   "relate": "续集",
-   "src": 131615,
-   "dst": 63894
-  }
- ]
+  "id": "30626",
+  "node": [
+    {
+      "id": 30626,
+      "name": "王様ゲーム",
+      "nameCN": "国王游戏",
+      "date": "2011-01-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 63894,
+      "name": "王様ゲーム 終極",
+      "nameCN": "国王游戏 终极",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 76107,
+      "name": "王様ゲーム 起源",
+      "nameCN": "国王游戏 起源",
+      "date": "2013-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 131615,
+      "name": "王様ゲーム 臨場",
+      "nameCN": "国王游戏 临场",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30626,
+      "dst": 63894
+    },
+    {
+      "relateString": "前传",
+      "src": 30626,
+      "dst": 76107
+    },
+    {
+      "relateString": "前传",
+      "src": 63894,
+      "dst": 30626
+    },
+    {
+      "relateString": "前传",
+      "src": 63894,
+      "dst": 131615
+    },
+    {
+      "relateString": "续集",
+      "src": 76107,
+      "dst": 30626
+    },
+    {
+      "relateString": "续集",
+      "src": 131615,
+      "dst": 63894
+    }
+  ]
 }

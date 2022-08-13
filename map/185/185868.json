@@ -1,37 +1,35 @@
 {
- "id": 185868,
- "node": [
-  {
-   "id": 185868,
-   "name": "ラブラブエイリアン",
-   "nameCN": "恋恋外星人",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/62/185868_88KDA.jpg",
-   "date": "2016-07-13",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 235839,
-   "name": "ラブラブエイリアン2",
-   "nameCN": "恋恋外星人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/a0/235839_Bon7V.jpg",
-   "date": "2018-01-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185868,
-   "dst": 235839
-  },
-  {
-   "relate": "前传",
-   "src": 235839,
-   "dst": 185868
-  }
- ]
+  "id": "185868",
+  "node": [
+    {
+      "id": 185868,
+      "name": "ラブラブエイリアン",
+      "nameCN": "恋恋外星人",
+      "date": "2016-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 235839,
+      "name": "ラブラブエイリアン2",
+      "nameCN": "恋恋外星人 第二季",
+      "date": "2018-01-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185868,
+      "dst": 235839
+    },
+    {
+      "relateString": "前传",
+      "src": 235839,
+      "dst": 185868
+    }
+  ]
 }

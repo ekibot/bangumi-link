@@ -1,57 +1,54 @@
 {
- "id": 5875,
- "node": [
-  {
-   "id": 5875,
-   "name": "超蛙战士之初露锋芒",
-   "nameCN": "超蛙战士之初露锋芒",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/7d/5875_pozYb.jpg",
-   "date": "2010-06-01",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 35331,
-   "name": "超蛙战士之威武教官",
-   "nameCN": "超蛙战士之威武教官",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/05/35331_18B3W.jpg",
-   "date": "2012-05-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 35333,
-   "name": "超蛙战士之星际家园",
-   "nameCN": "超蛙战士之星际家园",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/ff/35333_hHjMk.jpg",
-   "date": "2011-06-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 5875,
-   "dst": 35331
-  },
-  {
-   "relate": "不同演绎",
-   "src": 5875,
-   "dst": 35333
-  },
-  {
-   "relate": "前传",
-   "src": 35331,
-   "dst": 5875
-  },
-  {
-   "relate": "不同演绎",
-   "src": 35333,
-   "dst": 5875
-  }
- ]
+  "id": "5875",
+  "node": [
+    {
+      "id": 5875,
+      "name": "超蛙战士之初露锋芒",
+      "nameCN": "超蛙战士之初露锋芒",
+      "date": "2010-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 35331,
+      "name": "超蛙战士之威武教官",
+      "nameCN": "超蛙战士之威武教官",
+      "date": "2012-05-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 35333,
+      "name": "超蛙战士之星际家园",
+      "nameCN": "超蛙战士之星际家园",
+      "date": "2011-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 5875,
+      "dst": 35331
+    },
+    {
+      "relateString": "前传",
+      "src": 5875,
+      "dst": 35333
+    },
+    {
+      "relateString": "前传",
+      "src": 35331,
+      "dst": 5875
+    },
+    {
+      "relateString": "续集",
+      "src": 35333,
+      "dst": 5875
+    }
+  ]
 }

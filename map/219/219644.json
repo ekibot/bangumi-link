@@ -1,37 +1,35 @@
 {
- "id": 219644,
- "node": [
-  {
-   "id": 219644,
-   "name": "비밀의 숲",
-   "nameCN": "秘密森林",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/7c/219644_h4rK1.jpg",
-   "date": "2017-06-10",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 313127,
-   "name": "비밀의 숲 2",
-   "nameCN": "秘密森林2",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/47/313127_5lQ3c.jpg",
-   "date": "2020-08-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219644,
-   "dst": 313127
-  },
-  {
-   "relate": "前传",
-   "src": 313127,
-   "dst": 219644
-  }
- ]
+  "id": "219644",
+  "node": [
+    {
+      "id": 219644,
+      "name": "비밀의 숲",
+      "nameCN": "秘密森林",
+      "date": "2017-06-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 313127,
+      "name": "비밀의 숲 2",
+      "nameCN": "秘密森林2",
+      "date": "2020-08-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219644,
+      "dst": 313127
+    },
+    {
+      "relateString": "前传",
+      "src": 313127,
+      "dst": 219644
+    }
+  ]
 }

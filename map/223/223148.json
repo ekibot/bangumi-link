@@ -1,97 +1,91 @@
 {
- "id": 223148,
- "node": [
-  {
-   "id": 223148,
-   "name": "星辰变",
-   "nameCN": "星辰变",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/84/223148_8kaor.jpg",
-   "date": "2018-10-05",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 270749,
-   "name": "星辰变 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/b4/270749_5Z565.jpg",
-   "date": "2020-05-03",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 307982,
-   "name": "星辰变 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/7c/307982_ZR8x9.jpg",
-   "date": "2021-09-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 345808,
-   "name": "星辰变 第四季",
-   "nameCN": "星辰变 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/42/345808_zrFY5.jpg",
-   "date": "2022-01-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 379023,
-   "name": "星辰变 第五季",
-   "nameCN": "",
-   "image": "",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223148,
-   "dst": 270749
-  },
-  {
-   "relate": "前传",
-   "src": 270749,
-   "dst": 223148
-  },
-  {
-   "relate": "续集",
-   "src": 270749,
-   "dst": 307982
-  },
-  {
-   "relate": "前传",
-   "src": 307982,
-   "dst": 270749
-  },
-  {
-   "relate": "续集",
-   "src": 307982,
-   "dst": 345808
-  },
-  {
-   "relate": "前传",
-   "src": 345808,
-   "dst": 307982
-  },
-  {
-   "relate": "续集",
-   "src": 345808,
-   "dst": 379023
-  },
-  {
-   "relate": "前传",
-   "src": 379023,
-   "dst": 345808
-  }
- ]
+  "id": "223148",
+  "node": [
+    {
+      "id": 223148,
+      "name": "星辰变",
+      "nameCN": "星辰变",
+      "date": "2018-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 270749,
+      "name": "星辰变 第二季",
+      "nameCN": "",
+      "date": "2020-05-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 307982,
+      "name": "星辰变 第三季",
+      "nameCN": "",
+      "date": "2021-09-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345808,
+      "name": "星辰变 第四季",
+      "nameCN": "星辰变 第四季",
+      "date": "2022-01-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 379023,
+      "name": "星辰变 第五季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223148,
+      "dst": 270749
+    },
+    {
+      "relateString": "前传",
+      "src": 270749,
+      "dst": 223148
+    },
+    {
+      "relateString": "续集",
+      "src": 270749,
+      "dst": 307982
+    },
+    {
+      "relateString": "前传",
+      "src": 307982,
+      "dst": 270749
+    },
+    {
+      "relateString": "续集",
+      "src": 307982,
+      "dst": 345808
+    },
+    {
+      "relateString": "前传",
+      "src": 345808,
+      "dst": 307982
+    },
+    {
+      "relateString": "续集",
+      "src": 345808,
+      "dst": 379023
+    },
+    {
+      "relateString": "前传",
+      "src": 379023,
+      "dst": 345808
+    }
+  ]
 }

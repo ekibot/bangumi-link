@@ -1,28 +1,30 @@
 {
- "id": 94183,
- "node": [
-  {
-   "id": 94183,
-   "name": "ゼブラーマン",
-   "nameCN": "斑马侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/e6/94183_IMiPp.jpg",
-   "date": "2004-01-01",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 351696,
-   "name": "ゼブラーマン",
-   "nameCN": "斑马侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/44/351696_hK9Zj.jpg",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 94183,
-   "dst": 351696
-  }
- ]
+  "id": "94183",
+  "node": [
+    {
+      "id": 94183,
+      "name": "ゼブラーマン",
+      "nameCN": "斑马侠",
+      "date": "2004-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 351696,
+      "name": "ゼブラーマン",
+      "nameCN": "斑马侠",
+      "date": "2004-02-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 94183,
+      "dst": 351696
+    }
+  ]
 }

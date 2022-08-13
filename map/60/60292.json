@@ -1,37 +1,33 @@
 {
- "id": 60292,
- "node": [
-  {
-   "id": 60292,
-   "name": "吉富昭仁秀作集 1 サファイア戦記ビット",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/fe/60292_DdtI7.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189352,
-   "name": "吉富昭仁秀作集 2 ラブラブキュート",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/4b/189352_wzjH7.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60292,
-   "dst": 189352
-  },
-  {
-   "relate": "前传",
-   "src": 189352,
-   "dst": 60292
-  }
- ]
+  "id": "60292",
+  "node": [
+    {
+      "id": 60292,
+      "name": "吉富昭仁秀作集 1 サファイア戦記ビット",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189352,
+      "name": "吉富昭仁秀作集 2 ラブラブキュート",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60292,
+      "dst": 189352
+    },
+    {
+      "relateString": "前传",
+      "src": 189352,
+      "dst": 60292
+    }
+  ]
 }

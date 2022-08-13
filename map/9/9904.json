@@ -1,57 +1,54 @@
 {
- "id": 9904,
- "node": [
-  {
-   "id": 9904,
-   "name": "デビルサマナー：ソウルハッカーズ",
-   "nameCN": "恶魔召唤师：灵魂黑客",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/54/9904_mpNMl.jpg",
-   "date": "1997-11-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 42790,
-   "name": "デビルサマナー ソウルハッカーズ",
-   "nameCN": "恶魔召唤师 灵魂黑客",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/9a/42790_p2uBu.jpg",
-   "date": "2012-08-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 371547,
-   "name": "ソウルハッカーズ2",
-   "nameCN": "灵魂骇客2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/84/371547_ZpFOo.jpg",
-   "date": "2022-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 9904,
-   "dst": 42790
-  },
-  {
-   "relate": "续集",
-   "src": 9904,
-   "dst": 371547
-  },
-  {
-   "relate": "不同演绎",
-   "src": 42790,
-   "dst": 9904
-  },
-  {
-   "relate": "前传",
-   "src": 371547,
-   "dst": 9904
-  }
- ]
+  "id": "9904",
+  "node": [
+    {
+      "id": 9904,
+      "name": "デビルサマナー：ソウルハッカーズ",
+      "nameCN": "恶魔召唤师：灵魂黑客",
+      "date": "1997-11-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 42790,
+      "name": "デビルサマナー ソウルハッカーズ",
+      "nameCN": "恶魔召唤师 灵魂黑客",
+      "date": "2012-08-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 371547,
+      "name": "ソウルハッカーズ2",
+      "nameCN": "灵魂骇客2",
+      "date": "2022-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 9904,
+      "dst": 42790
+    },
+    {
+      "relateString": "续集",
+      "src": 9904,
+      "dst": 371547
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 42790,
+      "dst": 9904
+    },
+    {
+      "relateString": "前传",
+      "src": 371547,
+      "dst": 9904
+    }
+  ]
 }

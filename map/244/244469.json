@@ -1,55 +1,54 @@
 {
- "id": 244469,
- "node": [
-  {
-   "id": 244469,
-   "name": "オオカミパパに溺愛されています",
-   "nameCN": "狼爸爸的溺爱进行式",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/42/244469_bub1X.jpg",
-   "date": "2018-01-24",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 352043,
-   "name": "オオカミパパの幸せ家族計画",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/58/352043_T2C2z.jpg",
-   "date": "2021-08-24",
-   "nameCN": "",
-   "type": 1
-  },
-  {
-   "id": 352046,
-   "name": "オオカミパパとおうちごはんで子育て中",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/0e/352046_jZgJx.jpg",
-   "date": "2019-08-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 244469,
-   "dst": 352046
-  },
-  {
-   "relate": "前传",
-   "src": 352043,
-   "dst": 352046
-  },
-  {
-   "relate": "前传",
-   "src": 352046,
-   "dst": 244469
-  },
-  {
-   "relate": "续集",
-   "src": 352046,
-   "dst": 352043
-  }
- ]
+  "id": "244469",
+  "node": [
+    {
+      "id": 244469,
+      "name": "オオカミパパに溺愛されています",
+      "nameCN": "狼爸爸的溺爱进行式",
+      "date": "2018-01-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 352046,
+      "name": "オオカミパパとおうちごはんで子育て中",
+      "nameCN": "",
+      "date": "2019-08-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 352043,
+      "name": "オオカミパパの幸せ家族計画",
+      "nameCN": "",
+      "date": "2021-08-24",
+      "type": 1,
+      "nsfw": true,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 244469,
+      "dst": 352046
+    },
+    {
+      "relateString": "前传",
+      "src": 352043,
+      "dst": 352046
+    },
+    {
+      "relateString": "前传",
+      "src": 352046,
+      "dst": 244469
+    },
+    {
+      "relateString": "续集",
+      "src": 352046,
+      "dst": 352043
+    }
+  ]
 }

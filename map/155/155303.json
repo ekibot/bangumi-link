@@ -1,37 +1,35 @@
 {
- "id": 155303,
- "node": [
-  {
-   "id": 155303,
-   "name": "オメガバース プロジェクト Season 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/12/155303_ACAXQ.jpg",
-   "date": "2015-03-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 155449,
-   "name": "オメガバースプロジェクト-Season 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/bd/155449_4MNkc.jpg",
-   "date": "2015-11-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 155303,
-   "dst": 155449
-  },
-  {
-   "relate": "相同世界观",
-   "src": 155449,
-   "dst": 155303
-  }
- ]
+  "id": "155303",
+  "node": [
+    {
+      "id": 155303,
+      "name": "オメガバース プロジェクト Season 1",
+      "nameCN": "",
+      "date": "2015-03-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155449,
+      "name": "オメガバースプロジェクト-Season 2",
+      "nameCN": "",
+      "date": "2015-11-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 155303,
+      "dst": 155449
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 155449,
+      "dst": 155303
+    }
+  ]
 }

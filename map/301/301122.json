@@ -1,37 +1,34 @@
 {
- "id": 301122,
- "node": [
-  {
-   "id": 301122,
-   "name": "Defender",
-   "nameCN": "防卫者",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/40/301122_ljHNf.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314391,
-   "name": "Stargate",
-   "nameCN": "星际之门",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/a5/314391_Esrdu.jpg",
-   "date": "1981-10-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 301122,
-   "dst": 314391
-  },
-  {
-   "relate": "前传",
-   "src": 314391,
-   "dst": 301122
-  }
- ]
+  "id": "301122",
+  "node": [
+    {
+      "id": 301122,
+      "name": "Defender",
+      "nameCN": "防卫者",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314391,
+      "name": "Stargate",
+      "nameCN": "星际之门",
+      "date": "1981-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 301122,
+      "dst": 314391
+    },
+    {
+      "relateString": "前传",
+      "src": 314391,
+      "dst": 301122
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 110652,
- "node": [
-  {
-   "id": 110652,
-   "name": "はにつま",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/49/110652_TT6OO.jpg",
-   "date": "2014-11-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 137884,
-   "name": "はにつまＨｓ 〜アフターウェディング〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/1b/137884_Sv97H.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2015-10-30",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 110652,
-   "dst": 137884
-  },
-  {
-   "relate": "前传",
-   "src": 137884,
-   "dst": 110652
-  }
- ]
+  "id": "110652",
+  "node": [
+    {
+      "id": 110652,
+      "name": "はにつま",
+      "nameCN": "",
+      "date": "2014-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 137884,
+      "name": "はにつまＨｓ 〜アフターウェディング〜",
+      "nameCN": "",
+      "date": "2015-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 110652,
+      "dst": 137884
+    },
+    {
+      "relateString": "前传",
+      "src": 137884,
+      "dst": 110652
+    }
+  ]
 }

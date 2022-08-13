@@ -1,37 +1,35 @@
 {
- "id": 64094,
- "node": [
-  {
-   "id": 64094,
-   "name": "Peter Pan",
-   "nameCN": "小飞侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/1e/64094_AgigN.jpg",
-   "date": "1953-02-05",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 112883,
-   "name": "Return to Never Land",
-   "nameCN": "梦不落帝国",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/2b/112883_tvSrX.jpg",
-   "date": "2002-03-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64094,
-   "dst": 112883
-  },
-  {
-   "relate": "前传",
-   "src": 112883,
-   "dst": 64094
-  }
- ]
+  "id": "64094",
+  "node": [
+    {
+      "id": 64094,
+      "name": "Peter Pan",
+      "nameCN": "小飞侠",
+      "date": "1953-02-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112883,
+      "name": "Return to Never Land",
+      "nameCN": "梦不落帝国",
+      "date": "2002-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64094,
+      "dst": 112883
+    },
+    {
+      "relateString": "前传",
+      "src": 112883,
+      "dst": 64094
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 226705,
- "node": [
-  {
-   "id": 226705,
-   "name": "バカレイドッグス",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/7e/226705_j66jI.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 292625,
-   "name": "バカレイドッグス Loser",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/d0/292625_X8boP.jpg",
-   "date": "2019-10-09",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226705,
-   "dst": 292625
-  },
-  {
-   "relate": "前传",
-   "src": 292625,
-   "dst": 226705
-  }
- ]
+  "id": "226705",
+  "node": [
+    {
+      "id": 226705,
+      "name": "バカレイドッグス",
+      "nameCN": "",
+      "date": "2017-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 292625,
+      "name": "バカレイドッグス Loser",
+      "nameCN": "",
+      "date": "2019-10-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226705,
+      "dst": 292625
+    },
+    {
+      "relateString": "前传",
+      "src": 292625,
+      "dst": 226705
+    }
+  ]
 }

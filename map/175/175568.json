@@ -1,57 +1,53 @@
 {
- "id": 175568,
- "node": [
-  {
-   "id": 175568,
-   "name": "B-PROJECT～鼓動＊アンビシャス～",
-   "nameCN": "B-PROJECT～鼓动＊Ambitious～",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/77/175568_38Hgh.jpg",
-   "date": "2016-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 226806,
-   "name": "B-PROJECT～絶頂＊エモーション～",
-   "nameCN": "B-PROJECT～绝顶＊Emotion～",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/35/226806_2rZjZ.jpg",
-   "date": "2019-01-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 320456,
-   "name": "B-PROJECT 第3期",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 175568,
-   "dst": 226806
-  },
-  {
-   "relate": "前传",
-   "src": 226806,
-   "dst": 175568
-  },
-  {
-   "relate": "续集",
-   "src": 226806,
-   "dst": 320456
-  },
-  {
-   "relate": "前传",
-   "src": 320456,
-   "dst": 226806
-  }
- ]
+  "id": "175568",
+  "node": [
+    {
+      "id": 175568,
+      "name": "B-PROJECT～鼓動＊アンビシャス～",
+      "nameCN": "B-PROJECT～鼓动＊Ambitious～",
+      "date": "2016-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 226806,
+      "name": "B-PROJECT～絶頂＊エモーション～",
+      "nameCN": "B-PROJECT～绝顶＊Emotion～",
+      "date": "2019-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 320456,
+      "name": "B-PROJECT 第3期",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 175568,
+      "dst": 226806
+    },
+    {
+      "relateString": "前传",
+      "src": 226806,
+      "dst": 175568
+    },
+    {
+      "relateString": "续集",
+      "src": 226806,
+      "dst": 320456
+    },
+    {
+      "relateString": "前传",
+      "src": 320456,
+      "dst": 226806
+    }
+  ]
 }

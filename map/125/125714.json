@@ -1,37 +1,35 @@
 {
- "id": 125714,
- "node": [
-  {
-   "id": 125714,
-   "name": "金枝慾孽",
-   "nameCN": "金枝欲孽",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/48/125714_edMmq.jpg",
-   "date": "2004-08-23",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 125715,
-   "name": "金枝慾孽貳",
-   "nameCN": "金枝欲孽2",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/ad/125715_DphTp.jpg",
-   "date": "2013-04-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125714,
-   "dst": 125715
-  },
-  {
-   "relate": "前传",
-   "src": 125715,
-   "dst": 125714
-  }
- ]
+  "id": "125714",
+  "node": [
+    {
+      "id": 125714,
+      "name": "金枝慾孽",
+      "nameCN": "金枝欲孽",
+      "date": "2004-08-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 125715,
+      "name": "金枝慾孽貳",
+      "nameCN": "金枝欲孽2",
+      "date": "2013-04-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125714,
+      "dst": 125715
+    },
+    {
+      "relateString": "前传",
+      "src": 125715,
+      "dst": 125714
+    }
+  ]
 }

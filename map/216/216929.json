@@ -1,37 +1,35 @@
 {
- "id": 216929,
- "node": [
-  {
-   "id": 216929,
-   "name": "ことのはアムリラート",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/cd/216929_ltsIL.jpg",
-   "date": "2017-08-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 250639,
-   "name": "いつかのメモラージョ ～ことのはアムリラート～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/2a/250639_6S1ph.jpg",
-   "date": "2019-03-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 216929,
-   "dst": 250639
-  },
-  {
-   "relate": "前传",
-   "src": 250639,
-   "dst": 216929
-  }
- ]
+  "id": "216929",
+  "node": [
+    {
+      "id": 216929,
+      "name": "ことのはアムリラート",
+      "nameCN": "",
+      "date": "2017-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 250639,
+      "name": "いつかのメモラージョ ～ことのはアムリラート～",
+      "nameCN": "",
+      "date": "2019-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 216929,
+      "dst": 250639
+    },
+    {
+      "relateString": "前传",
+      "src": 250639,
+      "dst": 216929
+    }
+  ]
 }

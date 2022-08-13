@@ -1,37 +1,35 @@
 {
- "id": 269551,
- "node": [
-  {
-   "id": 269551,
-   "name": "大王不高兴",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/cb/269551_4m6C7.jpg",
-   "date": "2020-01-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 308826,
-   "name": "大王不高兴2",
-   "nameCN": "大王不高兴 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/38/308826_l79MO.jpg",
-   "date": "2020-07-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269551,
-   "dst": 308826
-  },
-  {
-   "relate": "前传",
-   "src": 308826,
-   "dst": 269551
-  }
- ]
+  "id": "269551",
+  "node": [
+    {
+      "id": 269551,
+      "name": "大王不高兴",
+      "nameCN": "",
+      "date": "2020-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 308826,
+      "name": "大王不高兴2",
+      "nameCN": "大王不高兴 第二季",
+      "date": "2020-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269551,
+      "dst": 308826
+    },
+    {
+      "relateString": "前传",
+      "src": 308826,
+      "dst": 269551
+    }
+  ]
 }

@@ -1,92 +1,88 @@
 {
- "id": 35697,
- "node": [
-  {
-   "id": 35697,
-   "name": "Metro 2033",
-   "nameCN": "地铁2033",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/4a/35697_Aw0aA.jpg",
-   "date": "2010-03-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 65209,
-   "name": "Metro: Last Light",
-   "nameCN": "地铁：最后的曙光",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/25/65209_R9Pih.jpg",
-   "date": "2013-05-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 112136,
-   "name": "Metro Redux",
-   "nameCN": "地铁：归来",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/94/112136_8NhB5.jpg",
-   "date": "2014-08-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216894,
-   "name": "Metro Exodus",
-   "nameCN": "地铁：离乡",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/27/216894_m7T1A.jpg",
-   "date": "2019-02-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 35697,
-   "dst": 65209
-  },
-  {
-   "relate": "不同演绎",
-   "src": 35697,
-   "dst": 112136
-  },
-  {
-   "relate": "前传",
-   "src": 65209,
-   "dst": 35697
-  },
-  {
-   "relate": "不同演绎",
-   "src": 65209,
-   "dst": 112136
-  },
-  {
-   "relate": "续集",
-   "src": 65209,
-   "dst": 216894
-  },
-  {
-   "relate": "不同演绎",
-   "src": 112136,
-   "dst": 35697
-  },
-  {
-   "relate": "不同演绎",
-   "src": 112136,
-   "dst": 65209
-  },
-  {
-   "relate": "续集",
-   "src": 112136,
-   "dst": 216894
-  },
-  {
-   "relate": "前传",
-   "src": 216894,
-   "dst": 65209
-  }
- ]
+  "id": "35697",
+  "node": [
+    {
+      "id": 35697,
+      "name": "Metro 2033",
+      "nameCN": "地铁2033",
+      "date": "2010-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 65209,
+      "name": "Metro: Last Light",
+      "nameCN": "地铁：最后的曙光",
+      "date": "2013-05-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 112136,
+      "name": "Metro Redux",
+      "nameCN": "地铁：归来",
+      "date": "2014-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216894,
+      "name": "Metro Exodus",
+      "nameCN": "地铁：离乡",
+      "date": "2019-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 35697,
+      "dst": 65209
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 35697,
+      "dst": 112136
+    },
+    {
+      "relateString": "前传",
+      "src": 65209,
+      "dst": 35697
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 65209,
+      "dst": 112136
+    },
+    {
+      "relateString": "续集",
+      "src": 65209,
+      "dst": 216894
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 112136,
+      "dst": 35697
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 112136,
+      "dst": 65209
+    },
+    {
+      "relateString": "续集",
+      "src": 112136,
+      "dst": 216894
+    },
+    {
+      "relateString": "前传",
+      "src": 216894,
+      "dst": 65209
+    }
+  ]
 }

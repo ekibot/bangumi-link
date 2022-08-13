@@ -1,28 +1,54 @@
 {
- "id": 19426,
- "node": [
-  {
-   "id": 19426,
-   "name": "まじかるカナン",
-   "nameCN": "魔法少女加奈",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/6a/19426_yECwR.jpg",
-   "date": "2005-01-01",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 29868,
-   "name": "Septem Charm まじかるカナン",
-   "nameCN": "魔法加南",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/84/29868_PZ653.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 19426,
-   "dst": 29868
-  }
- ]
+  "id": "19426",
+  "node": [
+    {
+      "id": 19426,
+      "name": "まじかるカナン",
+      "nameCN": "魔法少女加奈",
+      "date": "2005-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 29868,
+      "name": "Septem Charm まじかるカナン",
+      "nameCN": "魔法加南",
+      "date": "2000-08-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 29869,
+      "name": "Septem Charm まじかるカナン SP どきどき♥サマーキャンプ!",
+      "nameCN": "魔法加南 SP",
+      "date": "2002-08-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 19426,
+      "dst": 29868
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 29868,
+      "dst": 19426
+    },
+    {
+      "relateString": "番外篇",
+      "src": 29868,
+      "dst": 29869
+    },
+    {
+      "relateString": "主线故事",
+      "src": 29869,
+      "dst": 29868
+    }
+  ]
 }

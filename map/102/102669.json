@@ -1,37 +1,34 @@
 {
- "id": 102669,
- "node": [
-  {
-   "id": 102669,
-   "name": "私立荒磯高等学校生徒会執行部 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/4d/102669_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 201120,
-   "name": "Brother",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/f2/201120_KmKdW.jpg",
-   "date": "1996-05-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 102669,
-   "dst": 201120
-  },
-  {
-   "relate": "续集",
-   "src": 201120,
-   "dst": 102669
-  }
- ]
+  "id": "102669",
+  "node": [
+    {
+      "id": 102669,
+      "name": "私立荒磯高等学校生徒会執行部 2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 201120,
+      "name": "Brother",
+      "nameCN": "",
+      "date": "1996-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 102669,
+      "dst": 201120
+    },
+    {
+      "relateString": "续集",
+      "src": 201120,
+      "dst": 102669
+    }
+  ]
 }

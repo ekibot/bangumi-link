@@ -1,37 +1,35 @@
 {
- "id": 215787,
- "node": [
-  {
-   "id": 215787,
-   "name": "Elysion -feeling of release-",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/55/215787_B2DB0.jpg",
-   "date": "2017-04-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 360349,
-   "name": "Elysion2 -genes of the saints-",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/05/360349_3DKD7.jpg",
-   "date": "2020-08-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 215787,
-   "dst": 360349
-  },
-  {
-   "relate": "前传",
-   "src": 360349,
-   "dst": 215787
-  }
- ]
+  "id": "215787",
+  "node": [
+    {
+      "id": 215787,
+      "name": "Elysion -feeling of release-",
+      "nameCN": "",
+      "date": "2017-04-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 360349,
+      "name": "Elysion2 -genes of the saints-",
+      "nameCN": "",
+      "date": "2020-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 215787,
+      "dst": 360349
+    },
+    {
+      "relateString": "前传",
+      "src": 360349,
+      "dst": 215787
+    }
+  ]
 }

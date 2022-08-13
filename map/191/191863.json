@@ -1,37 +1,35 @@
 {
- "id": 191863,
- "node": [
-  {
-   "id": 191863,
-   "name": "アクマと契約",
-   "nameCN": "与恶魔的契约",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/0f/191863_jp.jpg",
-   "date": "2016-09-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 246306,
-   "name": "アクマと契約 ~彼のイジワルな愛し方~",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/52/246306_Wu2wl.jpg",
-   "date": "2018-05-10",
-   "nameCN": "与恶魔的契约~他那坏心眼的爱的方法~",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191863,
-   "dst": 246306
-  },
-  {
-   "relate": "前传",
-   "src": 246306,
-   "dst": 191863
-  }
- ]
+  "id": "191863",
+  "node": [
+    {
+      "id": 191863,
+      "name": "アクマと契約",
+      "nameCN": "与恶魔的契约",
+      "date": "2016-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 246306,
+      "name": "アクマと契約 ~彼のイジワルな愛し方~",
+      "nameCN": "与恶魔的契约~他那坏心眼的爱的方法~",
+      "date": "2018-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191863,
+      "dst": 246306
+    },
+    {
+      "relateString": "前传",
+      "src": 246306,
+      "dst": 191863
+    }
+  ]
 }

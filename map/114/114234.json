@@ -1,37 +1,35 @@
 {
- "id": 114234,
- "node": [
-  {
-   "id": 114234,
-   "name": "VIPER —V16—",
-   "nameCN": "VIPER: V16",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/79/114234_rE9Jl.jpg",
-   "date": "1995-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 125508,
-   "name": "VIPER GTB —RISE AFTER—",
-   "nameCN": "VIPER GTB: RISE AFTER",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/16/125508_kM347.jpg",
-   "date": "2000-01-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 114234,
-   "dst": 125508
-  },
-  {
-   "relate": "前传",
-   "src": 125508,
-   "dst": 114234
-  }
- ]
+  "id": "114234",
+  "node": [
+    {
+      "id": 114234,
+      "name": "VIPER —V16—",
+      "nameCN": "VIPER: V16",
+      "date": "1995-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 125508,
+      "name": "VIPER GTB —RISE AFTER—",
+      "nameCN": "VIPER GTB: RISE AFTER",
+      "date": "2000-01-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 114234,
+      "dst": 125508
+    },
+    {
+      "relateString": "前传",
+      "src": 125508,
+      "dst": 114234
+    }
+  ]
 }

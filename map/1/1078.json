@@ -1,37 +1,35 @@
 {
- "id": 1078,
- "node": [
-  {
-   "id": 1078,
-   "name": "祝福のカンパネラ",
-   "nameCN": "祝福的钟声",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/2a/1078_8S4do.jpg",
-   "date": "2009-01-30",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 26440,
-   "name": "祝祭のカンパネラ",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/a3/26440_nt8ig.jpg",
-   "date": "2010-10-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1078,
-   "dst": 26440
-  },
-  {
-   "relate": "前传",
-   "src": 26440,
-   "dst": 1078
-  }
- ]
+  "id": "1078",
+  "node": [
+    {
+      "id": 1078,
+      "name": "祝福のカンパネラ",
+      "nameCN": "祝福的钟声",
+      "date": "2009-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 26440,
+      "name": "祝祭のカンパネラ",
+      "nameCN": "",
+      "date": "2010-10-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1078,
+      "dst": 26440
+    },
+    {
+      "relateString": "前传",
+      "src": 26440,
+      "dst": 1078
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 163971,
- "node": [
-  {
-   "id": 163971,
-   "name": "Gilmore Girls Season 1",
-   "nameCN": "吉尔莫女孩 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/18/163971_4TrSw.jpg",
-   "date": "2000-10-05",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 207725,
-   "name": "Gilmore Girls Season 2",
-   "nameCN": "吉尔莫女孩 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/08/207725_DTWHa.jpg",
-   "date": "2001-10-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 163971,
-   "dst": 207725
-  },
-  {
-   "relate": "前传",
-   "src": 207725,
-   "dst": 163971
-  }
- ]
+  "id": "163971",
+  "node": [
+    {
+      "id": 163971,
+      "name": "Gilmore Girls Season 1",
+      "nameCN": "吉尔莫女孩 第一季",
+      "date": "2000-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 207725,
+      "name": "Gilmore Girls Season 2",
+      "nameCN": "吉尔莫女孩 第二季",
+      "date": "2001-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 163971,
+      "dst": 207725
+    },
+    {
+      "relateString": "前传",
+      "src": 207725,
+      "dst": 163971
+    }
+  ]
 }

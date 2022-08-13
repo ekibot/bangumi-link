@@ -1,57 +1,54 @@
 {
- "id": 161948,
- "node": [
-  {
-   "id": 161948,
-   "name": "The Cyanide and Happiness Show Season 1",
-   "nameCN": "氰化欢乐秀 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/cc/161948_mTTw7.jpg",
-   "date": "2014-11-13",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 170789,
-   "name": "The Cyanide and Happiness Show Season 2",
-   "nameCN": "氰化欢乐秀 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/50/170789_Jcp9X.jpg",
-   "date": "2015-12-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 225328,
-   "name": "The Cyanide and Happiness Show Season 3",
-   "nameCN": "氰化欢乐秀 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/1f/225328_GeFF2.jpg",
-   "date": "2017-02-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161948,
-   "dst": 170789
-  },
-  {
-   "relate": "前传",
-   "src": 170789,
-   "dst": 161948
-  },
-  {
-   "relate": "续集",
-   "src": 170789,
-   "dst": 225328
-  },
-  {
-   "relate": "前传",
-   "src": 225328,
-   "dst": 170789
-  }
- ]
+  "id": "161948",
+  "node": [
+    {
+      "id": 161948,
+      "name": "The Cyanide and Happiness Show Season 1",
+      "nameCN": "氰化欢乐秀 第一季",
+      "date": "2014-11-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 170789,
+      "name": "The Cyanide and Happiness Show Season 2",
+      "nameCN": "氰化欢乐秀 第二季",
+      "date": "2015-12-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 225328,
+      "name": "The Cyanide and Happiness Show Season 3",
+      "nameCN": "氰化欢乐秀 第三季",
+      "date": "2017-02-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161948,
+      "dst": 170789
+    },
+    {
+      "relateString": "前传",
+      "src": 170789,
+      "dst": 161948
+    },
+    {
+      "relateString": "续集",
+      "src": 170789,
+      "dst": 225328
+    },
+    {
+      "relateString": "前传",
+      "src": 225328,
+      "dst": 170789
+    }
+  ]
 }

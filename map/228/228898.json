@@ -1,37 +1,34 @@
 {
- "id": 228898,
- "node": [
-  {
-   "id": 228898,
-   "name": "ひもてはうす",
-   "nameCN": "不受欢迎之家",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/1a/228898_PdaMm.jpg",
-   "date": "2018-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 267523,
-   "name": "ひもてはうすラジオ 今夜も眠れないのー",
-   "nameCN": "不受欢迎之家广播 今晚也不想睡",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/be/267523_cin0q.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 228898,
-   "dst": 267523
-  },
-  {
-   "relate": "主线故事",
-   "src": 267523,
-   "dst": 228898
-  }
- ]
+  "id": "228898",
+  "node": [
+    {
+      "id": 228898,
+      "name": "ひもてはうす",
+      "nameCN": "不受欢迎之家",
+      "date": "2018-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 267523,
+      "name": "ひもてはうすラジオ 今夜も眠れないのー",
+      "nameCN": "不受欢迎之家广播 今晚也不想睡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 228898,
+      "dst": 267523
+    },
+    {
+      "relateString": "主线故事",
+      "src": 267523,
+      "dst": 228898
+    }
+  ]
 }

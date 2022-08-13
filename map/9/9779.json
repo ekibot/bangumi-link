@@ -1,37 +1,35 @@
 {
- "id": 9779,
- "node": [
-  {
-   "id": 9779,
-   "name": "べるぜバブ",
-   "nameCN": "恶魔奶爸",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/e4/9779_0CD8H.jpg",
-   "date": "2011-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 10765,
-   "name": "べるぜバブ OAD",
-   "nameCN": "恶魔奶爸 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/a8/10765_vYcpt.jpg",
-   "date": "2010-12-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 9779,
-   "dst": 10765
-  },
-  {
-   "relate": "全集",
-   "src": 10765,
-   "dst": 9779
-  }
- ]
+  "id": "9779",
+  "node": [
+    {
+      "id": 9779,
+      "name": "べるぜバブ",
+      "nameCN": "恶魔奶爸",
+      "date": "2011-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10765,
+      "name": "べるぜバブ OAD",
+      "nameCN": "恶魔奶爸 OAD",
+      "date": "2010-12-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 9779,
+      "dst": 10765
+    },
+    {
+      "relateString": "全集",
+      "src": 10765,
+      "dst": 9779
+    }
+  ]
 }

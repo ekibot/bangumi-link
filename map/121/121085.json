@@ -1,37 +1,35 @@
 {
- "id": 121085,
- "node": [
-  {
-   "id": 121085,
-   "name": "アラビアン・騎士",
-   "nameCN": "我的阿拉伯骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/74/121085_jp.jpg",
-   "date": "2009-06-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 121086,
-   "name": "アラビアン・騎士 2",
-   "nameCN": "我的阿拉伯骑士2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/b3/121086_jp.jpg",
-   "date": "2010-12-03",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121085,
-   "dst": 121086
-  },
-  {
-   "relate": "前传",
-   "src": 121086,
-   "dst": 121085
-  }
- ]
+  "id": "121085",
+  "node": [
+    {
+      "id": 121085,
+      "name": "アラビアン・騎士",
+      "nameCN": "我的阿拉伯骑士",
+      "date": "2009-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121086,
+      "name": "アラビアン・騎士 2",
+      "nameCN": "我的阿拉伯骑士2",
+      "date": "2010-12-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121085,
+      "dst": 121086
+    },
+    {
+      "relateString": "前传",
+      "src": 121086,
+      "dst": 121085
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 212625,
- "node": [
-  {
-   "id": 212625,
-   "name": "Harlots",
-   "nameCN": "名姝",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/ab/212625_dNNTA.jpg",
-   "date": "2017-03-29",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 253987,
-   "name": "Harlots Season 2",
-   "nameCN": "名姝 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/c1/253987_16j83.jpg",
-   "date": "2018-07-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 287973,
-   "name": "Harlots Season 3",
-   "nameCN": "名姝 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/ed/287973_OvLeV.jpg",
-   "date": "2019-07-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 212625,
-   "dst": 253987
-  },
-  {
-   "relate": "前传",
-   "src": 253987,
-   "dst": 212625
-  },
-  {
-   "relate": "续集",
-   "src": 253987,
-   "dst": 287973
-  },
-  {
-   "relate": "前传",
-   "src": 287973,
-   "dst": 253987
-  }
- ]
+  "id": "212625",
+  "node": [
+    {
+      "id": 212625,
+      "name": "Harlots",
+      "nameCN": "名姝",
+      "date": "2017-03-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 253987,
+      "name": "Harlots Season 2",
+      "nameCN": "名姝 第二季",
+      "date": "2018-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 287973,
+      "name": "Harlots Season 3",
+      "nameCN": "名姝 第三季",
+      "date": "2019-07-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 212625,
+      "dst": 253987
+    },
+    {
+      "relateString": "前传",
+      "src": 253987,
+      "dst": 212625
+    },
+    {
+      "relateString": "续集",
+      "src": 253987,
+      "dst": 287973
+    },
+    {
+      "relateString": "前传",
+      "src": 287973,
+      "dst": 253987
+    }
+  ]
 }

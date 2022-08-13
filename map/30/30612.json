@@ -1,37 +1,35 @@
 {
- "id": 30612,
- "node": [
-  {
-   "id": 30612,
-   "name": "開店デパート日記",
-   "nameCN": "百货公司日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/90/30612_Oz10t.jpg",
-   "date": "2012-01-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 313529,
-   "name": "開店デパート日記2",
-   "nameCN": "百货公司日记2",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/8d/313529_LE7ee.jpg",
-   "date": "2019-05-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30612,
-   "dst": 313529
-  },
-  {
-   "relate": "前传",
-   "src": 313529,
-   "dst": 30612
-  }
- ]
+  "id": "30612",
+  "node": [
+    {
+      "id": 30612,
+      "name": "開店デパート日記",
+      "nameCN": "百货公司日记",
+      "date": "2012-01-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 313529,
+      "name": "開店デパート日記2",
+      "nameCN": "百货公司日记2",
+      "date": "2019-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30612,
+      "dst": 313529
+    },
+    {
+      "relateString": "前传",
+      "src": 313529,
+      "dst": 30612
+    }
+  ]
 }

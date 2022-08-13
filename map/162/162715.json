@@ -1,37 +1,35 @@
 {
- "id": 162715,
- "node": [
-  {
-   "id": 162715,
-   "name": "クロックワーク・プラネット",
-   "nameCN": "时钟机关之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/a1/162715_ZXvRk.jpg",
-   "date": "2017-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 212739,
-   "name": "レディオワーク・プラネット～時計仕掛けのラジオ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/6a/212739_NM1KC.jpg",
-   "date": "2017-03-23",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 162715,
-   "dst": 212739
-  },
-  {
-   "relate": "衍生",
-   "src": 212739,
-   "dst": 162715
-  }
- ]
+  "id": "162715",
+  "node": [
+    {
+      "id": 162715,
+      "name": "クロックワーク・プラネット",
+      "nameCN": "时钟机关之星",
+      "date": "2017-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 212739,
+      "name": "レディオワーク・プラネット～時計仕掛けのラジオ～",
+      "nameCN": "",
+      "date": "2017-03-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 162715,
+      "dst": 212739
+    },
+    {
+      "relateString": "衍生",
+      "src": 212739,
+      "dst": 162715
+    }
+  ]
 }

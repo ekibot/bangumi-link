@@ -1,37 +1,35 @@
 {
- "id": 116493,
- "node": [
-  {
-   "id": 116493,
-   "name": "コドク~蠱毒~",
-   "nameCN": "蛊毒",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/e1/116493_9asM0.jpg",
-   "date": "2013-04-19",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 116494,
-   "name": "廃墟ゲーム～コドク２～",
-   "nameCN": "废墟游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/7a/116494_zKKj2.jpg",
-   "date": "2013-10-18",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 116493,
-   "dst": 116494
-  },
-  {
-   "relate": "前传",
-   "src": 116494,
-   "dst": 116493
-  }
- ]
+  "id": "116493",
+  "node": [
+    {
+      "id": 116493,
+      "name": "コドク~蠱毒~",
+      "nameCN": "蛊毒",
+      "date": "2013-04-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 116494,
+      "name": "廃墟ゲーム～コドク２～",
+      "nameCN": "废墟游戏",
+      "date": "2013-10-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 116493,
+      "dst": 116494
+    },
+    {
+      "relateString": "前传",
+      "src": 116494,
+      "dst": 116493
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 77020,
- "node": [
-  {
-   "id": 77020,
-   "name": "RedSeedsProfile",
-   "nameCN": "赤种杀机/致命预感",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/c5/77020_l16c9.jpg",
-   "date": "2010-03-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 290121,
-   "name": "Deadly Premonition 2: A Blessing in Disguise",
-   "nameCN": "致命预感2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/b3/290121_rrjO0.jpg",
-   "date": "2020-07-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77020,
-   "dst": 290121
-  },
-  {
-   "relate": "前传",
-   "src": 290121,
-   "dst": 77020
-  }
- ]
+  "id": "77020",
+  "node": [
+    {
+      "id": 77020,
+      "name": "RedSeedsProfile",
+      "nameCN": "赤种杀机/致命预感",
+      "date": "2010-03-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 290121,
+      "name": "Deadly Premonition 2: A Blessing in Disguise",
+      "nameCN": "致命预感2",
+      "date": "2020-07-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77020,
+      "dst": 290121
+    },
+    {
+      "relateString": "前传",
+      "src": 290121,
+      "dst": 77020
+    }
+  ]
 }

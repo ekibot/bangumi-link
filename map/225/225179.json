@@ -1,37 +1,35 @@
 {
- "id": 225179,
- "node": [
-  {
-   "id": 225179,
-   "name": "まんがみたいな恋したいっ！",
-   "nameCN": "谈个漫画恋情！",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/2a/225179_jp.jpg",
-   "date": "2002-12-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 225180,
-   "name": "続・まんがみたいな恋したいっ！",
-   "nameCN": "继续 谈个漫画恋情！",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/3c/225180_jp.jpg",
-   "date": "2004-10-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225179,
-   "dst": 225180
-  },
-  {
-   "relate": "前传",
-   "src": 225180,
-   "dst": 225179
-  }
- ]
+  "id": "225179",
+  "node": [
+    {
+      "id": 225179,
+      "name": "まんがみたいな恋したいっ！",
+      "nameCN": "谈个漫画恋情！",
+      "date": "2002-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 225180,
+      "name": "続・まんがみたいな恋したいっ！",
+      "nameCN": "继续 谈个漫画恋情！",
+      "date": "2004-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225179,
+      "dst": 225180
+    },
+    {
+      "relateString": "前传",
+      "src": 225180,
+      "dst": 225179
+    }
+  ]
 }

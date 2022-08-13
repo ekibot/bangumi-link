@@ -1,37 +1,34 @@
 {
- "id": 82911,
- "node": [
-  {
-   "id": 82911,
-   "name": "彼の庭に咲く花",
-   "nameCN": "爱在樱花下",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/73/82911_jp.jpg",
-   "date": "2005-02-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 82912,
-   "name": "MOONY～桜花寮トリロジー～",
-   "nameCN": "樱花寮之恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/c5/82912_NwwWl.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 82911,
-   "dst": 82912
-  },
-  {
-   "relate": "续集",
-   "src": 82912,
-   "dst": 82911
-  }
- ]
+  "id": "82911",
+  "node": [
+    {
+      "id": 82911,
+      "name": "彼の庭に咲く花",
+      "nameCN": "爱在樱花下",
+      "date": "2005-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82912,
+      "name": "MOONY～桜花寮トリロジー～",
+      "nameCN": "樱花寮之恋",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 82911,
+      "dst": 82912
+    },
+    {
+      "relateString": "续集",
+      "src": 82912,
+      "dst": 82911
+    }
+  ]
 }

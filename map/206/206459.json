@@ -1,37 +1,34 @@
 {
- "id": 206459,
- "node": [
-  {
-   "id": 206459,
-   "name": "ハッピー!",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/a3/206459_ll12X.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 206493,
-   "name": "ハッピー!ハッピー♪",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/3d/206493_X2Box.jpg",
-   "date": "2011-02-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 206459,
-   "dst": 206493
-  },
-  {
-   "relate": "前传",
-   "src": 206493,
-   "dst": 206459
-  }
- ]
+  "id": "206459",
+  "node": [
+    {
+      "id": 206459,
+      "name": "ハッピー!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 206493,
+      "name": "ハッピー!ハッピー♪",
+      "nameCN": "",
+      "date": "2011-02-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 206459,
+      "dst": 206493
+    },
+    {
+      "relateString": "前传",
+      "src": 206493,
+      "dst": 206459
+    }
+  ]
 }

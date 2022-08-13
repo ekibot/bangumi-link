@@ -1,117 +1,111 @@
 {
- "id": 49654,
- "node": [
-  {
-   "id": 49654,
-   "name": "怨み屋本舗",
-   "nameCN": "怨屋本铺",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/f7/49654_R7zmL.jpg",
-   "date": "2001-11-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 49662,
-   "name": "怨み屋本舗 巣来間風介",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/29/49662_NreiG.jpg",
-   "date": "2007-12-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 51207,
-   "name": "怨み屋本舗 REBOOT",
-   "nameCN": "怨屋本铺 REBOOT",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/57/51207_gk9aS.jpg",
-   "date": "2007-12-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 72876,
-   "name": "怨み屋本舗 REVENGE",
-   "nameCN": "怨屋本铺 REVENGE",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/81/72876_V0okH.jpg",
-   "date": "2012-03-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 130520,
-   "name": "怨み屋本舗 EVIL HEART",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/c4/130520_65LKr.jpg",
-   "date": "2015-02-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 244863,
-   "name": "怨み屋本舗 WORST",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/b2/244863_K57ZZ.jpg",
-   "date": "2017-10-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49654,
-   "dst": 49662
-  },
-  {
-   "relate": "前传",
-   "src": 49662,
-   "dst": 49654
-  },
-  {
-   "relate": "续集",
-   "src": 49662,
-   "dst": 51207
-  },
-  {
-   "relate": "前传",
-   "src": 51207,
-   "dst": 49662
-  },
-  {
-   "relate": "续集",
-   "src": 51207,
-   "dst": 72876
-  },
-  {
-   "relate": "前传",
-   "src": 72876,
-   "dst": 51207
-  },
-  {
-   "relate": "续集",
-   "src": 72876,
-   "dst": 130520
-  },
-  {
-   "relate": "前传",
-   "src": 130520,
-   "dst": 72876
-  },
-  {
-   "relate": "续集",
-   "src": 130520,
-   "dst": 244863
-  },
-  {
-   "relate": "前传",
-   "src": 244863,
-   "dst": 130520
-  }
- ]
+  "id": "49654",
+  "node": [
+    {
+      "id": 49654,
+      "name": "怨み屋本舗",
+      "nameCN": "怨屋本铺",
+      "date": "2001-11-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 49662,
+      "name": "怨み屋本舗 巣来間風介",
+      "nameCN": "",
+      "date": "2007-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 51207,
+      "name": "怨み屋本舗 REBOOT",
+      "nameCN": "怨屋本铺 REBOOT",
+      "date": "2007-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 72876,
+      "name": "怨み屋本舗 REVENGE",
+      "nameCN": "怨屋本铺 REVENGE",
+      "date": "2012-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 130520,
+      "name": "怨み屋本舗 EVIL HEART",
+      "nameCN": "",
+      "date": "2015-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 244863,
+      "name": "怨み屋本舗 WORST",
+      "nameCN": "",
+      "date": "2017-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49654,
+      "dst": 49662
+    },
+    {
+      "relateString": "前传",
+      "src": 49662,
+      "dst": 49654
+    },
+    {
+      "relateString": "续集",
+      "src": 49662,
+      "dst": 51207
+    },
+    {
+      "relateString": "前传",
+      "src": 51207,
+      "dst": 49662
+    },
+    {
+      "relateString": "续集",
+      "src": 51207,
+      "dst": 72876
+    },
+    {
+      "relateString": "前传",
+      "src": 72876,
+      "dst": 51207
+    },
+    {
+      "relateString": "续集",
+      "src": 72876,
+      "dst": 130520
+    },
+    {
+      "relateString": "前传",
+      "src": 130520,
+      "dst": 72876
+    },
+    {
+      "relateString": "续集",
+      "src": 130520,
+      "dst": 244863
+    },
+    {
+      "relateString": "前传",
+      "src": 244863,
+      "dst": 130520
+    }
+  ]
 }

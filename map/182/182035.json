@@ -1,0 +1,53 @@
+{
+  "id": "182035",
+  "node": [
+    {
+      "id": 182035,
+      "name": "The Girlfriend Experience",
+      "nameCN": "应召女友",
+      "date": "2016-04-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 226654,
+      "name": "The Girlfriend Experience Season 2",
+      "nameCN": "应召女友 第二季",
+      "date": "2017-11-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 337436,
+      "name": "The Girlfriend Experience (第3季)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 182035,
+      "dst": 226654
+    },
+    {
+      "relateString": "前传",
+      "src": 226654,
+      "dst": 182035
+    },
+    {
+      "relateString": "续集",
+      "src": 226654,
+      "dst": 337436
+    },
+    {
+      "relateString": "前传",
+      "src": 337436,
+      "dst": 226654
+    }
+  ]
+}

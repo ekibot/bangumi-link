@@ -1,0 +1,54 @@
+{
+  "id": "23297",
+  "node": [
+    {
+      "id": 23297,
+      "name": "Drawn: The Painted Tower",
+      "nameCN": "谜画之塔",
+      "date": "2009-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 23298,
+      "name": "Drawn: Dark Flight",
+      "nameCN": "谜画之塔2：暗夜飞行",
+      "date": "2010-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 25317,
+      "name": "Drawn: Trail of Shadows",
+      "nameCN": "谜画之塔3：阴影追踪",
+      "date": "2011-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23297,
+      "dst": 23298
+    },
+    {
+      "relateString": "前传",
+      "src": 23298,
+      "dst": 23297
+    },
+    {
+      "relateString": "续集",
+      "src": 23298,
+      "dst": 25317
+    },
+    {
+      "relateString": "前传",
+      "src": 25317,
+      "dst": 23298
+    }
+  ]
+}

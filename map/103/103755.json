@@ -1,48 +1,35 @@
 {
- "id": 103755,
- "node": [
-  {
-   "id": 103755,
-   "name": "HEN",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/ec/103755_MyTeH.jpg",
-   "date": "1995-09-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 171880,
-   "name": "変[HEN]",
-   "image": "//lain.bgm.tv/pic/cover/m/17/56/171880_jp.jpg",
-   "date": null
-  },
-  {
-   "id": 371693,
-   "name": "変",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/eb/371693_TWuez.jpg",
-   "date": "1991-04-01",
-   "nameCN": "变（YOUNG JUMP COMICS）",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 103755,
-   "dst": 371693
-  },
-  {
-   "relate": "续集",
-   "src": 171880,
-   "dst": 103755
-  },
-  {
-   "relate": "续集",
-   "src": 371693,
-   "dst": 103755
-  }
- ]
+  "id": "103755",
+  "node": [
+    {
+      "id": 103755,
+      "name": "HEN",
+      "nameCN": "HEN（YOUNG JUMP COMICS）",
+      "date": "1995-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 371693,
+      "name": "変",
+      "nameCN": "",
+      "date": "1991-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 103755,
+      "dst": 371693
+    },
+    {
+      "relateString": "续集",
+      "src": 371693,
+      "dst": 103755
+    }
+  ]
 }

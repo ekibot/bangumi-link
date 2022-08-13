@@ -1,77 +1,73 @@
 {
- "id": 13150,
- "node": [
-  {
-   "id": 13150,
-   "name": "VM Japan",
-   "nameCN": "魔唤精灵3",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/2f/13150_e2eOz.jpg",
-   "date": "2002-06-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 13153,
-   "name": "Vantage Master Portable",
-   "nameCN": "魔唤精灵携带版",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/5b/13153_rvEYc.jpg",
-   "date": "2008-04-24",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 51486,
-   "name": "Vantage Master",
-   "nameCN": "魔唤精灵",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/f3/51486_y0IEL.jpg",
-   "date": "1997-12-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 51487,
-   "name": "Vantage Master V2",
-   "nameCN": "魔唤精灵2",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/5b/51487_Ayopc.jpg",
-   "date": "1998-07-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 13150,
-   "dst": 51487
-  },
-  {
-   "relate": "不同演绎",
-   "src": 13153,
-   "dst": 51486
-  },
-  {
-   "relate": "不同演绎",
-   "src": 51486,
-   "dst": 13153
-  },
-  {
-   "relate": "续集",
-   "src": 51486,
-   "dst": 51487
-  },
-  {
-   "relate": "续集",
-   "src": 51487,
-   "dst": 13150
-  },
-  {
-   "relate": "前传",
-   "src": 51487,
-   "dst": 51486
-  }
- ]
+  "id": "13150",
+  "node": [
+    {
+      "id": 13150,
+      "name": "VM Japan",
+      "nameCN": "魔唤精灵3",
+      "date": "2002-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 51487,
+      "name": "Vantage Master V2",
+      "nameCN": "魔唤精灵2",
+      "date": "1998-07-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 13153,
+      "name": "Vantage Master Portable",
+      "nameCN": "魔唤精灵携带版",
+      "date": "2008-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 51486,
+      "name": "Vantage Master",
+      "nameCN": "魔唤精灵",
+      "date": "1997-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 13150,
+      "dst": 51487
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 13153,
+      "dst": 51486
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 51486,
+      "dst": 13153
+    },
+    {
+      "relateString": "续集",
+      "src": 51486,
+      "dst": 51487
+    },
+    {
+      "relateString": "续集",
+      "src": 51487,
+      "dst": 13150
+    },
+    {
+      "relateString": "前传",
+      "src": 51487,
+      "dst": 51486
+    }
+  ]
 }

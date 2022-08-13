@@ -1,34 +1,35 @@
 {
- "id": 22378,
- "node": [
-  {
-   "id": 22378,
-   "name": "まり∽くり -marriage crimson-",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/97/22378_yw5y6.jpg",
-   "date": "2007-08-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 262422,
-   "name": "まり∽くり -Ｒ- ～Queen Save the God ♪～",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/57/262422_xgxwq.jpg",
-   "date": "2018-12-14",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 22378,
-   "dst": 262422
-  },
-  {
-   "relate": "前传",
-   "src": 262422,
-   "dst": 22378
-  }
- ]
+  "id": "22378",
+  "node": [
+    {
+      "id": 22378,
+      "name": "まり∽くり -marriage crimson-",
+      "nameCN": "",
+      "date": "2007-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262422,
+      "name": "まり∽くり -Ｒ- ～Queen Save the God ♪～",
+      "nameCN": "",
+      "date": "2018-12-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 22378,
+      "dst": 262422
+    },
+    {
+      "relateString": "前传",
+      "src": 262422,
+      "dst": 22378
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 262112,
- "node": [
-  {
-   "id": 262112,
-   "name": "おとなの防具屋さん",
-   "nameCN": "大人的防具店",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/46/262112_X22Pp.jpg",
-   "date": "2018-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 275359,
-   "name": "おとなの防具屋さん（裏面）",
-   "nameCN": "大人的防具店（里面）",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/e9/275359_3s53H.jpg",
-   "date": "2019-03-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 322926,
-   "name": "おとなの防具屋さんII",
-   "nameCN": "大人的防具店 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/80/322926_vpZjk.jpg",
-   "date": "2021-01-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 262112,
-   "dst": 275359
-  },
-  {
-   "relate": "续集",
-   "src": 262112,
-   "dst": 322926
-  },
-  {
-   "relate": "主线故事",
-   "src": 275359,
-   "dst": 262112
-  },
-  {
-   "relate": "前传",
-   "src": 322926,
-   "dst": 262112
-  }
- ]
+  "id": "262112",
+  "node": [
+    {
+      "id": 262112,
+      "name": "おとなの防具屋さん",
+      "nameCN": "大人的防具店",
+      "date": "2018-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 275359,
+      "name": "おとなの防具屋さん（裏面）",
+      "nameCN": "大人的防具店（里面）",
+      "date": "2019-03-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 322926,
+      "name": "おとなの防具屋さんII",
+      "nameCN": "大人的防具店 第二季",
+      "date": "2021-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 262112,
+      "dst": 275359
+    },
+    {
+      "relateString": "续集",
+      "src": 262112,
+      "dst": 322926
+    },
+    {
+      "relateString": "主线故事",
+      "src": 275359,
+      "dst": 262112
+    },
+    {
+      "relateString": "前传",
+      "src": 322926,
+      "dst": 262112
+    }
+  ]
 }

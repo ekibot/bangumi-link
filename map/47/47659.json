@@ -1,37 +1,35 @@
 {
- "id": 47659,
- "node": [
-  {
-   "id": 47659,
-   "name": "Shinobi忍",
-   "nameCN": "Shinobi忍",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/4a/47659_AaZ6W.jpg",
-   "date": "2002-11-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 47661,
-   "name": "kunoichi忍",
-   "nameCN": "kunoichi忍",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/d5/47661_Gb22U.jpg",
-   "date": "2003-12-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47659,
-   "dst": 47661
-  },
-  {
-   "relate": "前传",
-   "src": 47661,
-   "dst": 47659
-  }
- ]
+  "id": "47659",
+  "node": [
+    {
+      "id": 47659,
+      "name": "Shinobi忍",
+      "nameCN": "Shinobi忍",
+      "date": "2002-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 47661,
+      "name": "kunoichi忍",
+      "nameCN": "kunoichi忍",
+      "date": "2003-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47659,
+      "dst": 47661
+    },
+    {
+      "relateString": "前传",
+      "src": 47661,
+      "dst": 47659
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 240580,
- "node": [
-  {
-   "id": 240580,
-   "name": "梦塔・雪谜城",
-   "nameCN": "梦塔之雪谜城",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/3e/240580_k1y6D.jpg",
-   "date": "2018-06-01",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 256838,
-   "name": "梦塔・雪谜城 Ⅱ",
-   "nameCN": "梦塔之雪谜城 2",
-   "date": null,
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240580,
-   "dst": 256838
-  },
-  {
-   "relate": "前传",
-   "src": 256838,
-   "dst": 240580
-  }
- ]
+  "id": "240580",
+  "node": [
+    {
+      "id": 240580,
+      "name": "梦塔・雪谜城",
+      "nameCN": "梦塔之雪谜城",
+      "date": "2018-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 256838,
+      "name": "梦塔・雪谜城 Ⅱ",
+      "nameCN": "梦塔之雪谜城 2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240580,
+      "dst": 256838
+    },
+    {
+      "relateString": "前传",
+      "src": 256838,
+      "dst": 240580
+    }
+  ]
 }

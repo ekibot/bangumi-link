@@ -1,37 +1,35 @@
 {
- "id": 213290,
- "node": [
-  {
-   "id": 213290,
-   "name": "Archer (season 8)",
-   "nameCN": "间谍亚契 第八季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/a5/213290_z8oTt.jpg",
-   "date": "2017-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 247562,
-   "name": "Archer (season 9)",
-   "nameCN": "间谍亚契 第9季",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/d8/247562_6fMcL.jpg",
-   "date": "2018-04-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213290,
-   "dst": 247562
-  },
-  {
-   "relate": "前传",
-   "src": 247562,
-   "dst": 213290
-  }
- ]
+  "id": "213290",
+  "node": [
+    {
+      "id": 213290,
+      "name": "Archer (season 8)",
+      "nameCN": "间谍亚契 第八季",
+      "date": "2017-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 247562,
+      "name": "Archer (season 9)",
+      "nameCN": "间谍亚契 第9季",
+      "date": "2018-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213290,
+      "dst": 247562
+    },
+    {
+      "relateString": "前传",
+      "src": 247562,
+      "dst": 213290
+    }
+  ]
 }

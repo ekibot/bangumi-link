@@ -1,42 +1,44 @@
 {
- "id": 122459,
- "node": [
-  {
-   "id": 122459,
-   "name": "帽子屋エリプシス",
-   "nameCN": "帽子屋的许愿魔法",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/a3/122459_jp.jpg",
-   "date": "2008-09-01",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 122462,
-   "name": "帽子屋エリプシス 2",
-   "nameCN": "帽子屋的许愿魔法2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/39/122462_jp.jpg",
-   "type": 1
-  },
-  {
-   "id": 122463,
-   "name": "帽子屋エリプシス 3",
-   "nameCN": "帽子屋的许愿魔法3",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/02/122463_jp.jpg",
-   "date": "2011-04-30",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122459,
-   "dst": 122462
-  },
-  {
-   "relate": "前传",
-   "src": 122463,
-   "dst": 122462
-  }
- ]
+  "id": "122459",
+  "node": [
+    {
+      "id": 122459,
+      "name": "帽子屋エリプシス",
+      "nameCN": "帽子屋的许愿魔法",
+      "date": "2008-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 122462,
+      "name": "帽子屋エリプシス 2",
+      "nameCN": "帽子屋的许愿魔法2",
+      "date": "2010-02-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 122463,
+      "name": "帽子屋エリプシス 3",
+      "nameCN": "帽子屋的许愿魔法3",
+      "date": "2011-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122459,
+      "dst": 122462
+    },
+    {
+      "relateString": "前传",
+      "src": 122463,
+      "dst": 122462
+    }
+  ]
 }

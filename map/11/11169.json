@@ -1,57 +1,54 @@
 {
- "id": 11169,
- "node": [
-  {
-   "id": 11169,
-   "name": "ぱすてるチャイムContinue",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/aa/11169_x00IB.jpg",
-   "date": "2005-06-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 51684,
-   "name": "パステルチャイム3 バインドシーカー",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/8f/51684_FEFFy.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2013-02-15",
-   "nsfw": false,
-   "platform": "PC"
-  },
-  {
-   "id": 343580,
-   "name": "ぱすてるチャイム－恋のスキルアップ－",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/47/343580_nD5aA.jpg",
-   "date": "1998-11-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 11169,
-   "dst": 51684
-  },
-  {
-   "relate": "前传",
-   "src": 11169,
-   "dst": 343580
-  },
-  {
-   "relate": "前传",
-   "src": 51684,
-   "dst": 11169
-  },
-  {
-   "relate": "续集",
-   "src": 343580,
-   "dst": 11169
-  }
- ]
+  "id": "11169",
+  "node": [
+    {
+      "id": 11169,
+      "name": "ぱすてるチャイムContinue",
+      "nameCN": "",
+      "date": "2005-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 51684,
+      "name": "パステルチャイム3 バインドシーカー",
+      "nameCN": "",
+      "date": "2013-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 343580,
+      "name": "ぱすてるチャイム－恋のスキルアップ－",
+      "nameCN": "",
+      "date": "1998-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 11169,
+      "dst": 51684
+    },
+    {
+      "relateString": "前传",
+      "src": 11169,
+      "dst": 343580
+    },
+    {
+      "relateString": "前传",
+      "src": 51684,
+      "dst": 11169
+    },
+    {
+      "relateString": "续集",
+      "src": 343580,
+      "dst": 11169
+    }
+  ]
 }

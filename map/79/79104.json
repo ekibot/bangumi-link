@@ -1,83 +1,82 @@
 {
- "id": 79104,
- "node": [
-  {
-   "id": 79104,
-   "name": "ジオグラマトン -Dyogrammaton-",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/6a/79104_G50B7.jpg",
-   "date": "2005-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 79408,
-   "name": "Zwei Worter",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/0c/79408_MATTV.jpg",
-   "date": "2007-04-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 79411,
-   "name": "ルーンロオド",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/4d/79411_P1Nku.jpg",
-   "date": "2010-01-29",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 222627,
-   "name": "くろふぁん3GHz",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/a0/222627_K38Rq.jpg",
-   "date": "2005-06-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 222629,
-   "name": "くろふぁん4GHz",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/22/222629_JJ43b.jpg",
-   "date": "2007-10-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79104,
-   "dst": 79408
-  },
-  {
-   "relate": "前传",
-   "src": 79408,
-   "dst": 79104
-  },
-  {
-   "relate": "续集",
-   "src": 79408,
-   "dst": 79411
-  },
-  {
-   "relate": "前传",
-   "src": 79411,
-   "dst": 79408
-  },
-  {
-   "relate": "主线故事",
-   "src": 222627,
-   "dst": 79104
-  },
-  {
-   "relate": "主线故事",
-   "src": 222629,
-   "dst": 79408
-  }
- ]
+  "id": "79104",
+  "node": [
+    {
+      "id": 79104,
+      "name": "ジオグラマトン -Dyogrammaton-",
+      "nameCN": "",
+      "date": "2005-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 79408,
+      "name": "Zwei Worter",
+      "nameCN": "",
+      "date": "2007-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 79411,
+      "name": "ルーンロオド",
+      "nameCN": "",
+      "date": "2010-01-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222627,
+      "name": "くろふぁん3GHz",
+      "nameCN": "",
+      "date": "2005-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222629,
+      "name": "くろふぁん4GHz",
+      "nameCN": "",
+      "date": "2007-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79104,
+      "dst": 79408
+    },
+    {
+      "relateString": "前传",
+      "src": 79408,
+      "dst": 79104
+    },
+    {
+      "relateString": "续集",
+      "src": 79408,
+      "dst": 79411
+    },
+    {
+      "relateString": "前传",
+      "src": 79411,
+      "dst": 79408
+    },
+    {
+      "relateString": "主线故事",
+      "src": 222627,
+      "dst": 79104
+    },
+    {
+      "relateString": "主线故事",
+      "src": 222629,
+      "dst": 79408
+    }
+  ]
 }

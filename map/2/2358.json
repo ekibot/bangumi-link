@@ -1,57 +1,54 @@
 {
- "id": 2358,
- "node": [
-  {
-   "id": 2358,
-   "name": "ラムネ",
-   "nameCN": "弹珠汽水",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/0b/2358_NsnmP.jpg",
-   "date": "2004-07-30",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 2359,
-   "name": "そらいろ",
-   "nameCN": "空色",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/91/2359_h82h0.jpg",
-   "date": "2009-09-18",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 186676,
-   "name": "ラムネ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/f1/186676_QSj1y.jpg",
-   "date": "2017-01-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2358,
-   "dst": 2359
-  },
-  {
-   "relate": "续集",
-   "src": 2358,
-   "dst": 186676
-  },
-  {
-   "relate": "前传",
-   "src": 2359,
-   "dst": 2358
-  },
-  {
-   "relate": "前传",
-   "src": 186676,
-   "dst": 2358
-  }
- ]
+  "id": "2358",
+  "node": [
+    {
+      "id": 2358,
+      "name": "ラムネ",
+      "nameCN": "弹珠汽水",
+      "date": "2004-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 2359,
+      "name": "そらいろ",
+      "nameCN": "空色",
+      "date": "2009-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 186676,
+      "name": "ラムネ2",
+      "nameCN": "",
+      "date": "2017-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2358,
+      "dst": 2359
+    },
+    {
+      "relateString": "续集",
+      "src": 2358,
+      "dst": 186676
+    },
+    {
+      "relateString": "前传",
+      "src": 2359,
+      "dst": 2358
+    },
+    {
+      "relateString": "前传",
+      "src": 186676,
+      "dst": 2358
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 83868,
- "node": [
-  {
-   "id": 83868,
-   "name": "ばらかもん",
-   "nameCN": "元气囝仔",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/70/83868_FfaxZ.jpg",
-   "date": "2014-07-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 138352,
-   "name": "みじかもん",
-   "nameCN": "囝仔小短篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/55/138352_G8E6f.jpg",
-   "date": "2014-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 167980,
-   "name": "はんだくん",
-   "nameCN": "半田君",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/1e/167980_lpltp.jpg",
-   "date": "2016-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 83868,
-   "dst": 138352
-  },
-  {
-   "relate": "前传",
-   "src": 83868,
-   "dst": 167980
-  },
-  {
-   "relate": "主线故事",
-   "src": 138352,
-   "dst": 83868
-  },
-  {
-   "relate": "续集",
-   "src": 167980,
-   "dst": 83868
-  }
- ]
+  "id": "83868",
+  "node": [
+    {
+      "id": 83868,
+      "name": "ばらかもん",
+      "nameCN": "元气囝仔",
+      "date": "2014-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 138352,
+      "name": "みじかもん",
+      "nameCN": "囝仔小短篇",
+      "date": "2014-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 167980,
+      "name": "はんだくん",
+      "nameCN": "半田君",
+      "date": "2016-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 83868,
+      "dst": 138352
+    },
+    {
+      "relateString": "前传",
+      "src": 83868,
+      "dst": 167980
+    },
+    {
+      "relateString": "主线故事",
+      "src": 138352,
+      "dst": 83868
+    },
+    {
+      "relateString": "续集",
+      "src": 167980,
+      "dst": 83868
+    }
+  ]
 }

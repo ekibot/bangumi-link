@@ -1,37 +1,35 @@
 {
- "id": 105574,
- "node": [
-  {
-   "id": 105574,
-   "name": "銀河のワールドカップ",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/1a/105574_jp.jpg",
-   "date": "2008-05-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 105575,
-   "name": "風のダンデライオン 銀河のワールドカップ ガールズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/88/105575_jp.jpg",
-   "date": "2012-03-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 105574,
-   "dst": 105575
-  },
-  {
-   "relate": "续集",
-   "src": 105575,
-   "dst": 105574
-  }
- ]
+  "id": "105574",
+  "node": [
+    {
+      "id": 105574,
+      "name": "銀河のワールドカップ",
+      "nameCN": "",
+      "date": "2008-05-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 105575,
+      "name": "風のダンデライオン 銀河のワールドカップ ガールズ",
+      "nameCN": "",
+      "date": "2012-03-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 105574,
+      "dst": 105575
+    },
+    {
+      "relateString": "续集",
+      "src": 105575,
+      "dst": 105574
+    }
+  ]
 }

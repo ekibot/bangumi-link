@@ -1,87 +1,83 @@
 {
- "id": 1025,
- "node": [
-  {
-   "id": 1025,
-   "name": "ローゼンメイデン",
-   "nameCN": "蔷薇少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/b8/1025_vMYDV.jpg",
-   "date": "2004-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 1026,
-   "name": "ローゼンメイデン・トロイメント",
-   "nameCN": "蔷薇少女 梦之终结",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/14/1026_bZoK5.jpg",
-   "date": "2005-10-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 5365,
-   "name": "ローゼンメイデン・オーベルテューレ",
-   "nameCN": "蔷薇少女 序曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/05/5365_ZRtBk.jpg",
-   "date": "2006-12-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 69942,
-   "name": "ローゼンメイデン",
-   "nameCN": "新蔷薇少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/32/69942_He175.jpg",
-   "date": "2013-07-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1025,
-   "dst": 1026
-  },
-  {
-   "relate": "前传",
-   "src": 1025,
-   "dst": 5365
-  },
-  {
-   "relate": "前传",
-   "src": 1026,
-   "dst": 1025
-  },
-  {
-   "relate": "番外篇",
-   "src": 1026,
-   "dst": 5365
-  },
-  {
-   "relate": "不同演绎",
-   "src": 1026,
-   "dst": 69942
-  },
-  {
-   "relate": "续集",
-   "src": 5365,
-   "dst": 1025
-  },
-  {
-   "relate": "主线故事",
-   "src": 5365,
-   "dst": 1026
-  },
-  {
-   "relate": "不同演绎",
-   "src": 69942,
-   "dst": 1026
-  }
- ]
+  "id": "1025",
+  "node": [
+    {
+      "id": 1025,
+      "name": "ローゼンメイデン",
+      "nameCN": "蔷薇少女",
+      "date": "2004-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 1026,
+      "name": "ローゼンメイデン・トロイメント",
+      "nameCN": "蔷薇少女 梦之终结",
+      "date": "2005-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5365,
+      "name": "ローゼンメイデン・オーベルテューレ",
+      "nameCN": "蔷薇少女 序曲",
+      "date": "2006-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 69942,
+      "name": "ローゼンメイデン",
+      "nameCN": "新蔷薇少女",
+      "date": "2013-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1025,
+      "dst": 1026
+    },
+    {
+      "relateString": "前传",
+      "src": 1025,
+      "dst": 5365
+    },
+    {
+      "relateString": "前传",
+      "src": 1026,
+      "dst": 1025
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1026,
+      "dst": 5365
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 1026,
+      "dst": 69942
+    },
+    {
+      "relateString": "续集",
+      "src": 5365,
+      "dst": 1025
+    },
+    {
+      "relateString": "主线故事",
+      "src": 5365,
+      "dst": 1026
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 69942,
+      "dst": 1026
+    }
+  ]
 }

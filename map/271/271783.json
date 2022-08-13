@@ -1,57 +1,54 @@
 {
- "id": 271783,
- "node": [
-  {
-   "id": 271783,
-   "name": "コミックパーティ ワンダーラブ",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/92/271783_67R4K.jpg",
-   "date": "2019-01-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 298976,
-   "name": "コミックパーティ ワンダーラブ (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/ca/298976_8bQvW.jpg",
-   "date": "2019-12-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 363321,
-   "name": "コミックパーティ ワンダーラブラブ",
-   "date": "2022-02-24",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/7f/363321_l99lv.jpg",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 271783,
-   "dst": 298976
-  },
-  {
-   "relate": "前传",
-   "src": 298976,
-   "dst": 271783
-  },
-  {
-   "relate": "续集",
-   "src": 298976,
-   "dst": 363321
-  },
-  {
-   "relate": "前传",
-   "src": 363321,
-   "dst": 298976
-  }
- ]
+  "id": "271783",
+  "node": [
+    {
+      "id": 271783,
+      "name": "コミックパーティ ワンダーラブ",
+      "nameCN": "",
+      "date": "2019-01-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 298976,
+      "name": "コミックパーティ ワンダーラブ (2)",
+      "nameCN": "",
+      "date": "2019-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 363321,
+      "name": "コミックパーティ ワンダーラブラブ",
+      "nameCN": "",
+      "date": "2022-02-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 271783,
+      "dst": 298976
+    },
+    {
+      "relateString": "前传",
+      "src": 298976,
+      "dst": 271783
+    },
+    {
+      "relateString": "续集",
+      "src": 298976,
+      "dst": 363321
+    },
+    {
+      "relateString": "前传",
+      "src": 363321,
+      "dst": 298976
+    }
+  ]
 }

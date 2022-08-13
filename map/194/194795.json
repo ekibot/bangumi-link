@@ -1,37 +1,35 @@
 {
- "id": 194795,
- "node": [
-  {
-   "id": 194795,
-   "name": "オルタンシア・サーガ",
-   "nameCN": "苍之骑士团",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/c2/194795_7wwM2.jpg",
-   "date": "2015-04-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 368767,
-   "name": "オルタンシア・サーガR",
-   "nameCN": "苍之骑士团2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/e1/368767_1fyKb.jpg",
-   "date": "2021-02-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194795,
-   "dst": 368767
-  },
-  {
-   "relate": "前传",
-   "src": 368767,
-   "dst": 194795
-  }
- ]
+  "id": "194795",
+  "node": [
+    {
+      "id": 194795,
+      "name": "オルタンシア・サーガ",
+      "nameCN": "苍之骑士团",
+      "date": "2015-04-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368767,
+      "name": "オルタンシア・サーガR",
+      "nameCN": "苍之骑士团2",
+      "date": "2021-02-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194795,
+      "dst": 368767
+    },
+    {
+      "relateString": "前传",
+      "src": 368767,
+      "dst": 194795
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 88443,
- "node": [
-  {
-   "id": 88443,
-   "name": "Risk of Rain",
-   "nameCN": "雨中冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/b7/88443_sbNZN.jpg",
-   "date": "2013-11-08",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 279655,
-   "name": "Risk of Rain 2",
-   "nameCN": "雨中冒险2",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/aa/279655_v5111.jpg",
-   "date": "2020-08-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88443,
-   "dst": 279655
-  },
-  {
-   "relate": "前传",
-   "src": 279655,
-   "dst": 88443
-  }
- ]
+  "id": "88443",
+  "node": [
+    {
+      "id": 88443,
+      "name": "Risk of Rain",
+      "nameCN": "雨中冒险",
+      "date": "2013-11-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 279655,
+      "name": "Risk of Rain 2",
+      "nameCN": "雨中冒险2",
+      "date": "2020-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88443,
+      "dst": 279655
+    },
+    {
+      "relateString": "前传",
+      "src": 279655,
+      "dst": 88443
+    }
+  ]
 }

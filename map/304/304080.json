@@ -1,34 +1,35 @@
 {
- "id": 304080,
- "node": [
-  {
-   "id": 304080,
-   "name": "判決",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/68/304080_CKgYN.jpg",
-   "date": "1998-12-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 304081,
-   "name": "判決2～Forget Me Not～",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/37/304081_KnXKh.jpg",
-   "date": "2002-04-19",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 304080,
-   "dst": 304081
-  },
-  {
-   "relate": "前传",
-   "src": 304081,
-   "dst": 304080
-  }
- ]
+  "id": "304080",
+  "node": [
+    {
+      "id": 304080,
+      "name": "判決",
+      "nameCN": "",
+      "date": "1998-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 304081,
+      "name": "判決2～Forget Me Not～",
+      "nameCN": "",
+      "date": "2002-04-19",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 304080,
+      "dst": 304081
+    },
+    {
+      "relateString": "前传",
+      "src": 304081,
+      "dst": 304080
+    }
+  ]
 }

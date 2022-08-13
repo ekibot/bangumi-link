@@ -1,117 +1,111 @@
 {
- "id": 1514,
- "node": [
-  {
-   "id": 1514,
-   "name": "Gossip Girl (season 2)",
-   "nameCN": "绯闻女孩 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/f2/1514_1lw1n.jpg",
-   "date": "2008-09-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 2933,
-   "name": "Gossip Girl (season 3)",
-   "nameCN": "绯闻女孩 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/76/2933_a8Qd4.jpg",
-   "date": "2009-09-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 8556,
-   "name": "Gossip Girl (season 4)",
-   "nameCN": "绯闻女孩 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/5d/8556_QN1WE.jpg",
-   "date": "2010-09-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 17304,
-   "name": "Gossip Girl (season 1)",
-   "nameCN": "绯闻女孩 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/f3/17304_V375f.jpg",
-   "date": "2007-09-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 24113,
-   "name": "Gossip Girl (Season 5)",
-   "nameCN": "绯闻女孩 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/25/24113_U77S6.jpg",
-   "date": "2011-09-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 50188,
-   "name": "Gossip Girl (season 6)",
-   "nameCN": "绯闻女孩 第六季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/54/50188_ni7iv.jpg",
-   "date": "2012-10-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1514,
-   "dst": 2933
-  },
-  {
-   "relate": "前传",
-   "src": 1514,
-   "dst": 17304
-  },
-  {
-   "relate": "前传",
-   "src": 2933,
-   "dst": 1514
-  },
-  {
-   "relate": "续集",
-   "src": 2933,
-   "dst": 8556
-  },
-  {
-   "relate": "前传",
-   "src": 8556,
-   "dst": 2933
-  },
-  {
-   "relate": "续集",
-   "src": 8556,
-   "dst": 24113
-  },
-  {
-   "relate": "续集",
-   "src": 17304,
-   "dst": 1514
-  },
-  {
-   "relate": "前传",
-   "src": 24113,
-   "dst": 8556
-  },
-  {
-   "relate": "续集",
-   "src": 24113,
-   "dst": 50188
-  },
-  {
-   "relate": "前传",
-   "src": 50188,
-   "dst": 24113
-  }
- ]
+  "id": "1514",
+  "node": [
+    {
+      "id": 1514,
+      "name": "Gossip Girl (season 2)",
+      "nameCN": "绯闻女孩 第二季",
+      "date": "2008-09-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 2933,
+      "name": "Gossip Girl (season 3)",
+      "nameCN": "绯闻女孩 第三季",
+      "date": "2009-09-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 17304,
+      "name": "Gossip Girl (season 1)",
+      "nameCN": "绯闻女孩 第一季",
+      "date": "2007-09-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 8556,
+      "name": "Gossip Girl (season 4)",
+      "nameCN": "绯闻女孩 第四季",
+      "date": "2010-09-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 24113,
+      "name": "Gossip Girl (Season 5)",
+      "nameCN": "绯闻女孩 第五季",
+      "date": "2011-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 50188,
+      "name": "Gossip Girl (season 6)",
+      "nameCN": "绯闻女孩 第六季",
+      "date": "2012-10-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1514,
+      "dst": 2933
+    },
+    {
+      "relateString": "前传",
+      "src": 1514,
+      "dst": 17304
+    },
+    {
+      "relateString": "前传",
+      "src": 2933,
+      "dst": 1514
+    },
+    {
+      "relateString": "续集",
+      "src": 2933,
+      "dst": 8556
+    },
+    {
+      "relateString": "前传",
+      "src": 8556,
+      "dst": 2933
+    },
+    {
+      "relateString": "续集",
+      "src": 8556,
+      "dst": 24113
+    },
+    {
+      "relateString": "续集",
+      "src": 17304,
+      "dst": 1514
+    },
+    {
+      "relateString": "前传",
+      "src": 24113,
+      "dst": 8556
+    },
+    {
+      "relateString": "续集",
+      "src": 24113,
+      "dst": 50188
+    },
+    {
+      "relateString": "前传",
+      "src": 50188,
+      "dst": 24113
+    }
+  ]
 }

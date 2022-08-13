@@ -1,69 +1,65 @@
 {
- "id": 65759,
- "node": [
-  {
-   "id": 65759,
-   "name": "Cyberpunk 2077",
-   "nameCN": "赛博朋克2077",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/c2/65759_47Cv5.jpg",
-   "date": "2020-12-10",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308396,
-   "name": "Cyberpunk: The Roleplaying Game of the Dark Future",
-   "nameCN": "赛博朋克",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/0b/308396_2jjJ2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308598,
-   "name": "Cyberpunk V3.0",
-   "nameCN": "赛博朋克 V3.0",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/19/308598_Bwazq.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 309311,
-   "name": "Cyberpunk: Edgerunners",
-   "nameCN": "赛博朋克：边缘跑者",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/83/309311_aQQfq.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 65759,
-   "dst": 308598
-  },
-  {
-   "relate": "衍生",
-   "src": 65759,
-   "dst": 309311
-  },
-  {
-   "relate": "不同演绎",
-   "src": 308396,
-   "dst": 308598
-  },
-  {
-   "relate": "不同世界观",
-   "src": 308598,
-   "dst": 65759
-  },
-  {
-   "relate": "不同演绎",
-   "src": 308598,
-   "dst": 308396
-  }
- ]
+  "id": "65759",
+  "node": [
+    {
+      "id": 65759,
+      "name": "Cyberpunk 2077",
+      "nameCN": "赛博朋克2077",
+      "date": "2020-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308598,
+      "name": "Cyberpunk V3.0",
+      "nameCN": "赛博朋克 V3.0",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309311,
+      "name": "Cyberpunk: Edgerunners",
+      "nameCN": "赛博朋克：边缘行者",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 308396,
+      "name": "Cyberpunk: The Roleplaying Game of the Dark Future",
+      "nameCN": "赛博朋克",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 65759,
+      "dst": 308598
+    },
+    {
+      "relateString": "衍生",
+      "src": 65759,
+      "dst": 309311
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 308396,
+      "dst": 308598
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 308598,
+      "dst": 65759
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 308598,
+      "dst": 308396
+    }
+  ]
 }

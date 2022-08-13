@@ -1,37 +1,35 @@
 {
- "id": 124130,
- "node": [
-  {
-   "id": 124130,
-   "name": "金刀情俠",
-   "nameCN": "金刀情侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/3f/124130_Ej844.jpg",
-   "date": "1978-07-02",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 124133,
-   "name": "九月鷹飛",
-   "nameCN": "九月鹰飞",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/4b/124133_2jiUi.jpg",
-   "date": "1986-11-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 124130,
-   "dst": 124133
-  },
-  {
-   "relate": "不同演绎",
-   "src": 124133,
-   "dst": 124130
-  }
- ]
+  "id": "124130",
+  "node": [
+    {
+      "id": 124130,
+      "name": "金刀情俠",
+      "nameCN": "金刀情侠",
+      "date": "1978-07-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 124133,
+      "name": "九月鷹飛",
+      "nameCN": "九月鹰飞",
+      "date": "1986-11-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 124130,
+      "dst": 124133
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 124133,
+      "dst": 124130
+    }
+  ]
 }

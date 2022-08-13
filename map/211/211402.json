@@ -1,55 +1,54 @@
 {
- "id": 211402,
- "node": [
-  {
-   "id": 211402,
-   "name": "狂イク指導3～大和撫子最終計画～",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/a5/211402_T58tp.jpg",
-   "date": "2009-08-21",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 211403,
-   "name": "狂イク指導2～大和撫子増殖計画～",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/85/211403_615L3.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2009-03-06",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 211405,
-   "name": "狂イク指導～大和撫子再生計画～",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/4a/211405_80mWC.jpg",
-   "date": "2008-09-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 211402,
-   "dst": 211403
-  },
-  {
-   "relate": "续集",
-   "src": 211403,
-   "dst": 211402
-  },
-  {
-   "relate": "前传",
-   "src": 211403,
-   "dst": 211405
-  },
-  {
-   "relate": "续集",
-   "src": 211405,
-   "dst": 211403
-  }
- ]
+  "id": "211402",
+  "node": [
+    {
+      "id": 211402,
+      "name": "狂イク指導3～大和撫子最終計画～",
+      "nameCN": "",
+      "date": "2009-08-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211403,
+      "name": "狂イク指導2～大和撫子増殖計画～",
+      "nameCN": "",
+      "date": "2009-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211405,
+      "name": "狂イク指導～大和撫子再生計画～",
+      "nameCN": "",
+      "date": "2008-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 211402,
+      "dst": 211403
+    },
+    {
+      "relateString": "续集",
+      "src": 211403,
+      "dst": 211402
+    },
+    {
+      "relateString": "前传",
+      "src": 211403,
+      "dst": 211405
+    },
+    {
+      "relateString": "续集",
+      "src": 211405,
+      "dst": 211403
+    }
+  ]
 }

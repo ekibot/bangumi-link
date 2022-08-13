@@ -1,37 +1,35 @@
 {
- "id": 169029,
- "node": [
-  {
-   "id": 169029,
-   "name": "大本気。2",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/9e/169029_jp.jpg",
-   "date": "2011-11-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 169031,
-   "name": "大本気。1",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/d4/169031_jp.jpg",
-   "date": "2009-05-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 169029,
-   "dst": 169031
-  },
-  {
-   "relate": "续集",
-   "src": 169031,
-   "dst": 169029
-  }
- ]
+  "id": "169029",
+  "node": [
+    {
+      "id": 169029,
+      "name": "大本気。2",
+      "nameCN": "",
+      "date": "2011-11-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 169031,
+      "name": "大本気。1",
+      "nameCN": "",
+      "date": "2009-05-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 169029,
+      "dst": 169031
+    },
+    {
+      "relateString": "续集",
+      "src": 169031,
+      "dst": 169029
+    }
+  ]
 }

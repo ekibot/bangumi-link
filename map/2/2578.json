@@ -1,97 +1,92 @@
 {
- "id": 2578,
- "node": [
-  {
-   "id": 2578,
-   "name": "時効警察",
-   "nameCN": "时效警察",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/57/2578_Vznnw.jpg",
-   "date": "2006-01-13",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 65704,
-   "name": "帰ってきた時効警察",
-   "nameCN": "时效警察回归",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/c6/65704_jafYs.jpg",
-   "date": "2007-04-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 281226,
-   "name": "時効警察はじめました",
-   "nameCN": "时效警察开始了",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/f9/281226_LFYpl.jpg",
-   "date": "2019-10-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 291169,
-   "name": "時効警察・復活スペシャル",
-   "nameCN": "时效警察 复活 SP",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/3e/291169_1J3nE.jpg",
-   "date": "2019-09-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 291294,
-   "name": "時効警察とくべつへん",
-   "nameCN": "时效警察特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/d8/291294_umi1s.jpg",
-   "date": "2019-10-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2578,
-   "dst": 65704
-  },
-  {
-   "relate": "前传",
-   "src": 65704,
-   "dst": 2578
-  },
-  {
-   "relate": "续集",
-   "src": 65704,
-   "dst": 281226
-  },
-  {
-   "relate": "前传",
-   "src": 281226,
-   "dst": 65704
-  },
-  {
-   "relate": "番外篇",
-   "src": 281226,
-   "dst": 291169
-  },
-  {
-   "relate": "番外篇",
-   "src": 281226,
-   "dst": 291294
-  },
-  {
-   "relate": "主线故事",
-   "src": 291169,
-   "dst": 281226
-  },
-  {
-   "relate": "主线故事",
-   "src": 291294,
-   "dst": 281226
-  }
- ]
+  "id": "2578",
+  "node": [
+    {
+      "id": 2578,
+      "name": "時効警察",
+      "nameCN": "时效警察",
+      "date": "2006-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 65704,
+      "name": "帰ってきた時効警察",
+      "nameCN": "时效警察回归",
+      "date": "2007-04-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 281226,
+      "name": "時効警察はじめました",
+      "nameCN": "时效警察开始了",
+      "date": "2019-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 291169,
+      "name": "時効警察・復活スペシャル",
+      "nameCN": "时效警察 复活 SP",
+      "date": "2019-09-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 291294,
+      "name": "時効警察とくべつへん",
+      "nameCN": "时效警察特别篇",
+      "date": "2019-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2578,
+      "dst": 65704
+    },
+    {
+      "relateString": "前传",
+      "src": 65704,
+      "dst": 2578
+    },
+    {
+      "relateString": "续集",
+      "src": 65704,
+      "dst": 281226
+    },
+    {
+      "relateString": "前传",
+      "src": 281226,
+      "dst": 65704
+    },
+    {
+      "relateString": "番外篇",
+      "src": 281226,
+      "dst": 291169
+    },
+    {
+      "relateString": "番外篇",
+      "src": 281226,
+      "dst": 291294
+    },
+    {
+      "relateString": "主线故事",
+      "src": 291169,
+      "dst": 281226
+    },
+    {
+      "relateString": "主线故事",
+      "src": 291294,
+      "dst": 281226
+    }
+  ]
 }

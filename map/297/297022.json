@@ -1,67 +1,64 @@
 {
- "id": 297022,
- "node": [
-  {
-   "id": 297022,
-   "name": "憂国のモリアーティ",
-   "nameCN": "忧国的莫里亚蒂",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/c9/297022_37o57.jpg",
-   "date": "2020-10-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 319252,
-   "name": "憂国のモリアーティ 2クール目",
-   "nameCN": "忧国的莫里亚蒂 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/8a/319252_Q5brr.jpg",
-   "date": "2021-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 347818,
-   "name": "憂国のモリアーティ～百合の追憶～",
-   "date": "2022-04-27",
-   "nameCN": "忧国的莫里亚蒂～百合的追忆～",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/b9/347818_9hLEA.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 297022,
-   "dst": 319252
-  },
-  {
-   "relate": "衍生",
-   "src": 297022,
-   "dst": 347818
-  },
-  {
-   "relate": "前传",
-   "src": 319252,
-   "dst": 297022
-  },
-  {
-   "relate": "衍生",
-   "src": 319252,
-   "dst": 347818
-  },
-  {
-   "relate": "主线故事",
-   "src": 347818,
-   "dst": 297022
-  },
-  {
-   "relate": "主线故事",
-   "src": 347818,
-   "dst": 319252
-  }
- ]
+  "id": "297022",
+  "node": [
+    {
+      "id": 297022,
+      "name": "憂国のモリアーティ",
+      "nameCN": "忧国的莫里亚蒂",
+      "date": "2020-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 319252,
+      "name": "憂国のモリアーティ 2クール目",
+      "nameCN": "忧国的莫里亚蒂 第二季",
+      "date": "2021-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 347818,
+      "name": "憂国のモリアーティ～百合の追憶～",
+      "nameCN": "忧国的莫里亚蒂～百合的追忆～",
+      "date": "2022-04-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 297022,
+      "dst": 319252
+    },
+    {
+      "relateString": "番外篇",
+      "src": 297022,
+      "dst": 347818
+    },
+    {
+      "relateString": "前传",
+      "src": 319252,
+      "dst": 297022
+    },
+    {
+      "relateString": "衍生",
+      "src": 319252,
+      "dst": 347818
+    },
+    {
+      "relateString": "主线故事",
+      "src": 347818,
+      "dst": 297022
+    },
+    {
+      "relateString": "主线故事",
+      "src": 347818,
+      "dst": 319252
+    }
+  ]
 }

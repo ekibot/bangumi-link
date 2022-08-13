@@ -1,37 +1,35 @@
 {
- "id": 177582,
- "node": [
-  {
-   "id": 177582,
-   "name": "タブー 若き女編",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/79/177582_jp.jpg",
-   "date": "2004-12-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 177583,
-   "name": "Taboo 人妻編",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/4d/177583_jp.jpg",
-   "date": "2004-12-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 177582,
-   "dst": 177583
-  },
-  {
-   "relate": "前传",
-   "src": 177583,
-   "dst": 177582
-  }
- ]
+  "id": "177582",
+  "node": [
+    {
+      "id": 177582,
+      "name": "タブー 若き女編",
+      "nameCN": "",
+      "date": "2004-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 177583,
+      "name": "Taboo 人妻編",
+      "nameCN": "",
+      "date": "2004-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 177582,
+      "dst": 177583
+    },
+    {
+      "relateString": "前传",
+      "src": 177583,
+      "dst": 177582
+    }
+  ]
 }

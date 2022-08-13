@@ -1,57 +1,54 @@
 {
- "id": 127068,
- "node": [
-  {
-   "id": 127068,
-   "name": "影の館",
-   "nameCN": "影之馆",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/8e/127068_jp.jpg",
-   "date": "2013-11-27",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 215823,
-   "name": "暗闇の封印: 邂逅の章",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/78/215823_jp.jpg",
-   "date": "2016-05-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 215824,
-   "name": "暗闇の封印: -黎明の章-",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/9d/215824_jp.jpg",
-   "date": "2016-06-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127068,
-   "dst": 215823
-  },
-  {
-   "relate": "前传",
-   "src": 215823,
-   "dst": 127068
-  },
-  {
-   "relate": "续集",
-   "src": 215823,
-   "dst": 215824
-  },
-  {
-   "relate": "前传",
-   "src": 215824,
-   "dst": 215823
-  }
- ]
+  "id": "127068",
+  "node": [
+    {
+      "id": 127068,
+      "name": "影の館",
+      "nameCN": "影之馆",
+      "date": "2013-11-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 215823,
+      "name": "暗闇の封印: 邂逅の章",
+      "nameCN": "",
+      "date": "2016-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 215824,
+      "name": "暗闇の封印: -黎明の章-",
+      "nameCN": "",
+      "date": "2016-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127068,
+      "dst": 215823
+    },
+    {
+      "relateString": "前传",
+      "src": 215823,
+      "dst": 127068
+    },
+    {
+      "relateString": "续集",
+      "src": 215823,
+      "dst": 215824
+    },
+    {
+      "relateString": "前传",
+      "src": 215824,
+      "dst": 215823
+    }
+  ]
 }

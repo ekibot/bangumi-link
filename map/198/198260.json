@@ -1,37 +1,35 @@
 {
- "id": 198260,
- "node": [
-  {
-   "id": 198260,
-   "name": "シロップ",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/f8/198260_jp.jpg",
-   "date": "2016-05-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271404,
-   "name": "シロップ+",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/12/271404_JB0dl.jpg",
-   "date": "2019-01-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198260,
-   "dst": 271404
-  },
-  {
-   "relate": "前传",
-   "src": 271404,
-   "dst": 198260
-  }
- ]
+  "id": "198260",
+  "node": [
+    {
+      "id": 198260,
+      "name": "シロップ",
+      "nameCN": "",
+      "date": "2016-05-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271404,
+      "name": "シロップ+",
+      "nameCN": "",
+      "date": "2019-01-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198260,
+      "dst": 271404
+    },
+    {
+      "relateString": "前传",
+      "src": 271404,
+      "dst": 198260
+    }
+  ]
 }

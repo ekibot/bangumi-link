@@ -1,37 +1,35 @@
 {
- "id": 275187,
- "node": [
-  {
-   "id": 275187,
-   "name": "狼の花嫁 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/cd/275187_Mu7zl.jpg",
-   "date": "2018-11-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 300608,
-   "name": "狼の花嫁(2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/53/300608_bjLgl.jpg",
-   "date": "2019-09-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 275187,
-   "dst": 300608
-  },
-  {
-   "relate": "前传",
-   "src": 300608,
-   "dst": 275187
-  }
- ]
+  "id": "275187",
+  "node": [
+    {
+      "id": 275187,
+      "name": "狼の花嫁 (1)",
+      "nameCN": "",
+      "date": "2018-11-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 300608,
+      "name": "狼の花嫁(2)",
+      "nameCN": "",
+      "date": "2019-09-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 275187,
+      "dst": 300608
+    },
+    {
+      "relateString": "前传",
+      "src": 300608,
+      "dst": 275187
+    }
+  ]
 }

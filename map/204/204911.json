@@ -1,37 +1,35 @@
 {
- "id": 204911,
- "node": [
-  {
-   "id": 204911,
-   "name": "Sky Force Anniversary",
-   "nameCN": "傲气雄鹰周年版",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/72/204911_FgzS1.jpg",
-   "date": "2015-04-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259844,
-   "name": "Sky Force Reloaded",
-   "nameCN": "傲气雄鹰 重装上阵",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/1d/259844_sfJJh.jpg",
-   "date": "2016-04-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 204911,
-   "dst": 259844
-  },
-  {
-   "relate": "前传",
-   "src": 259844,
-   "dst": 204911
-  }
- ]
+  "id": "204911",
+  "node": [
+    {
+      "id": 204911,
+      "name": "Sky Force Anniversary",
+      "nameCN": "傲气雄鹰周年版",
+      "date": "2015-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259844,
+      "name": "Sky Force Reloaded",
+      "nameCN": "傲气雄鹰 重装上阵",
+      "date": "2016-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 204911,
+      "dst": 259844
+    },
+    {
+      "relateString": "前传",
+      "src": 259844,
+      "dst": 204911
+    }
+  ]
 }

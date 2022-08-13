@@ -1,37 +1,35 @@
 {
- "id": 380865,
- "node": [
-  {
-   "id": 380865,
-   "name": "俺たちナマモノ？です",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/d3/380865_Ghk63.jpg",
-   "date": "2019-09-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 380867,
-   "name": "続！俺たちナマモノ？です",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/66/380867_xZ43X.jpg",
-   "type": 1,
-   "date": "2020-09-18",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 380865,
-   "dst": 380867
-  },
-  {
-   "relate": "前传",
-   "src": 380867,
-   "dst": 380865
-  }
- ]
+  "id": "380865",
+  "node": [
+    {
+      "id": 380865,
+      "name": "俺たちナマモノ？です",
+      "nameCN": "",
+      "date": "2019-09-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 380867,
+      "name": "続！俺たちナマモノ？です",
+      "nameCN": "",
+      "date": "2020-09-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 380865,
+      "dst": 380867
+    },
+    {
+      "relateString": "前传",
+      "src": 380867,
+      "dst": 380865
+    }
+  ]
 }

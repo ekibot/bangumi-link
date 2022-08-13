@@ -1,37 +1,35 @@
 {
- "id": 76800,
- "node": [
-  {
-   "id": 76800,
-   "name": "GS美神",
-   "nameCN": "GS美神",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/5f/76800_NOJtb.jpg",
-   "date": "1993-04-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 76805,
-   "name": "GS美神 極楽大作戦!!",
-   "nameCN": "GS美神极乐大作战 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/0d/76805_Fpu1Z.jpg",
-   "date": "1994-08-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76800,
-   "dst": 76805
-  },
-  {
-   "relate": "前传",
-   "src": 76805,
-   "dst": 76800
-  }
- ]
+  "id": "76800",
+  "node": [
+    {
+      "id": 76800,
+      "name": "GS美神",
+      "nameCN": "GS美神",
+      "date": "1993-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 76805,
+      "name": "GS美神 極楽大作戦!!",
+      "nameCN": "GS美神极乐大作战 剧场版",
+      "date": "1994-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76800,
+      "dst": 76805
+    },
+    {
+      "relateString": "前传",
+      "src": 76805,
+      "dst": 76800
+    }
+  ]
 }

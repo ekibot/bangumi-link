@@ -1,57 +1,54 @@
 {
- "id": 20774,
- "node": [
-  {
-   "id": 20774,
-   "name": "おさわり探偵 小沢里奈",
-   "nameCN": "触摸侦探 小泽里奈",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/78/20774_E09IY.jpg",
-   "date": "2006-04-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 117538,
-   "name": "おさわり探偵 小沢里奈 ライジング3 なめこはバナナの夢を見るか？",
-   "nameCN": "触摸侦探 小泽里奈 复活3 滑子菇会梦见香蕉吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/d6/117538_7NUxr.jpg",
-   "date": "2014-05-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 143907,
-   "name": "おさわり探偵 小沢里奈 シーズン2 1/2 里奈は見た！いや、見てない。",
-   "nameCN": "触摸侦探 小泽里奈 2 1/2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/1f/143907_daE34.jpg",
-   "date": "2007-05-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20774,
-   "dst": 143907
-  },
-  {
-   "relate": "前传",
-   "src": 117538,
-   "dst": 143907
-  },
-  {
-   "relate": "前传",
-   "src": 143907,
-   "dst": 20774
-  },
-  {
-   "relate": "续集",
-   "src": 143907,
-   "dst": 117538
-  }
- ]
+  "id": "20774",
+  "node": [
+    {
+      "id": 20774,
+      "name": "おさわり探偵 小沢里奈",
+      "nameCN": "触摸侦探 小泽里奈",
+      "date": "2006-04-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 143907,
+      "name": "おさわり探偵 小沢里奈 シーズン2 1/2 里奈は見た！いや、見てない。",
+      "nameCN": "触摸侦探 小泽里奈 2 1/2",
+      "date": "2007-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 117538,
+      "name": "おさわり探偵 小沢里奈 ライジング3 なめこはバナナの夢を見るか？",
+      "nameCN": "触摸侦探 小泽里奈 复活3 滑子菇会梦见香蕉吗？",
+      "date": "2014-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20774,
+      "dst": 143907
+    },
+    {
+      "relateString": "前传",
+      "src": 117538,
+      "dst": 143907
+    },
+    {
+      "relateString": "前传",
+      "src": 143907,
+      "dst": 20774
+    },
+    {
+      "relateString": "续集",
+      "src": 143907,
+      "dst": 117538
+    }
+  ]
 }

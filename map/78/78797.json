@@ -1,37 +1,33 @@
 {
- "id": 78797,
- "node": [
-  {
-   "id": 78797,
-   "name": "夜想曲",
-   "nameCN": "浪漫琴心夜想曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/0d/78797_tCQCu.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 79091,
-   "name": "前奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/03/79091_XIRz9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78797,
-   "dst": 79091
-  },
-  {
-   "relate": "前传",
-   "src": 79091,
-   "dst": 78797
-  }
- ]
+  "id": "78797",
+  "node": [
+    {
+      "id": 78797,
+      "name": "夜想曲",
+      "nameCN": "浪漫琴心夜想曲",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 79091,
+      "name": "前奏曲",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78797,
+      "dst": 79091
+    },
+    {
+      "relateString": "前传",
+      "src": 79091,
+      "dst": 78797
+    }
+  ]
 }

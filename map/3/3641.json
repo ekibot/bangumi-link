@@ -1,97 +1,92 @@
 {
- "id": 3641,
- "node": [
-  {
-   "id": 3641,
-   "name": "はじめの一歩 New Challenger",
-   "nameCN": "第一神拳 New Challenger",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/c5/3641_r12wE.jpg",
-   "date": "2009-01-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 10419,
-   "name": "はじめの一歩",
-   "nameCN": "第一神拳",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/fb/10419_hOFuE.jpg",
-   "date": "2000-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 78798,
-   "name": "はじめの一歩 Rising",
-   "nameCN": "第一神拳 Rising",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/44/78798_oZhjv.jpg",
-   "date": "2013-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 135195,
-   "name": "はじめの一歩 Champion Road",
-   "nameCN": "第一神拳 冠军之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/3d/135195_J97sz.jpg",
-   "date": "2003-04-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 135196,
-   "name": "はじめの一歩 間柴vs木村 死刑執行",
-   "nameCN": "第一神拳 间柴vs木村 死刑执行",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/d1/135196_z3R3p.jpg",
-   "date": "2003-09-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 3641,
-   "dst": 10419
-  },
-  {
-   "relate": "续集",
-   "src": 3641,
-   "dst": 78798
-  },
-  {
-   "relate": "续集",
-   "src": 10419,
-   "dst": 3641
-  },
-  {
-   "relate": "番外篇",
-   "src": 10419,
-   "dst": 135195
-  },
-  {
-   "relate": "番外篇",
-   "src": 10419,
-   "dst": 135196
-  },
-  {
-   "relate": "前传",
-   "src": 78798,
-   "dst": 3641
-  },
-  {
-   "relate": "主线故事",
-   "src": 135195,
-   "dst": 10419
-  },
-  {
-   "relate": "主线故事",
-   "src": 135196,
-   "dst": 10419
-  }
- ]
+  "id": "3641",
+  "node": [
+    {
+      "id": 3641,
+      "name": "はじめの一歩 New Challenger",
+      "nameCN": "第一神拳 New Challenger",
+      "date": "2009-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10419,
+      "name": "はじめの一歩",
+      "nameCN": "第一神拳",
+      "date": "2000-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 78798,
+      "name": "はじめの一歩 Rising",
+      "nameCN": "第一神拳 Rising",
+      "date": "2013-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 135195,
+      "name": "はじめの一歩 Champion Road",
+      "nameCN": "第一神拳 冠军之路",
+      "date": "2003-04-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 135196,
+      "name": "はじめの一歩 間柴vs木村 死刑執行",
+      "nameCN": "第一神拳 间柴vs木村 死刑执行",
+      "date": "2003-09-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 3641,
+      "dst": 10419
+    },
+    {
+      "relateString": "续集",
+      "src": 3641,
+      "dst": 78798
+    },
+    {
+      "relateString": "续集",
+      "src": 10419,
+      "dst": 3641
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10419,
+      "dst": 135195
+    },
+    {
+      "relateString": "番外篇",
+      "src": 10419,
+      "dst": 135196
+    },
+    {
+      "relateString": "前传",
+      "src": 78798,
+      "dst": 3641
+    },
+    {
+      "relateString": "主线故事",
+      "src": 135195,
+      "dst": 10419
+    },
+    {
+      "relateString": "主线故事",
+      "src": 135196,
+      "dst": 10419
+    }
+  ]
 }

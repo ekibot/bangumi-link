@@ -1,77 +1,73 @@
 {
- "id": 25076,
- "node": [
-  {
-   "id": 25076,
-   "name": "Monsters, Inc.",
-   "nameCN": "怪兽电力公司",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/31/25076_4ONlN.jpg",
-   "date": "2001-11-02",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 77647,
-   "name": "Monsters University",
-   "nameCN": "怪兽大学",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/9e/77647_zJGmu.jpg",
-   "date": "2013-06-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 96826,
-   "name": "Mike's New Car",
-   "nameCN": "迈克的新车",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/84/96826_IIkZr.jpg",
-   "date": "2002-09-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 337771,
-   "name": "Monsters at Work",
-   "nameCN": "工作怪兽",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/70/337771_3prnm.jpg",
-   "date": "2021-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 25076,
-   "dst": 77647
-  },
-  {
-   "relate": "番外篇",
-   "src": 25076,
-   "dst": 96826
-  },
-  {
-   "relate": "衍生",
-   "src": 25076,
-   "dst": 337771
-  },
-  {
-   "relate": "续集",
-   "src": 77647,
-   "dst": 25076
-  },
-  {
-   "relate": "主线故事",
-   "src": 96826,
-   "dst": 25076
-  },
-  {
-   "relate": "主线故事",
-   "src": 337771,
-   "dst": 25076
-  }
- ]
+  "id": "25076",
+  "node": [
+    {
+      "id": 25076,
+      "name": "Monsters, Inc.",
+      "nameCN": "怪兽电力公司",
+      "date": "2001-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 77647,
+      "name": "Monsters University",
+      "nameCN": "怪兽大学",
+      "date": "2013-06-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 96826,
+      "name": "Mike's New Car",
+      "nameCN": "迈克的新车",
+      "date": "2002-09-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 337771,
+      "name": "Monsters at Work",
+      "nameCN": "工作怪兽",
+      "date": "2021-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 25076,
+      "dst": 77647
+    },
+    {
+      "relateString": "番外篇",
+      "src": 25076,
+      "dst": 96826
+    },
+    {
+      "relateString": "衍生",
+      "src": 25076,
+      "dst": 337771
+    },
+    {
+      "relateString": "续集",
+      "src": 77647,
+      "dst": 25076
+    },
+    {
+      "relateString": "主线故事",
+      "src": 96826,
+      "dst": 25076
+    },
+    {
+      "relateString": "主线故事",
+      "src": 337771,
+      "dst": 25076
+    }
+  ]
 }

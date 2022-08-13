@@ -1,37 +1,35 @@
 {
- "id": 47044,
- "node": [
-  {
-   "id": 47044,
-   "name": "invisible sign-イス- 眠れる森",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/0a/47044_2Q9uj.jpg",
-   "date": "2005-11-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 47045,
-   "name": "invisible sign-イス-",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/0f/47045_JHdhQ.jpg",
-   "date": "2005-03-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 47044,
-   "dst": 47045
-  },
-  {
-   "relate": "续集",
-   "src": 47045,
-   "dst": 47044
-  }
- ]
+  "id": "47044",
+  "node": [
+    {
+      "id": 47044,
+      "name": "invisible sign-イス- 眠れる森",
+      "nameCN": "",
+      "date": "2005-11-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 47045,
+      "name": "invisible sign-イス-",
+      "nameCN": "",
+      "date": "2005-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 47044,
+      "dst": 47045
+    },
+    {
+      "relateString": "续集",
+      "src": 47045,
+      "dst": 47044
+    }
+  ]
 }

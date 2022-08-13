@@ -1,37 +1,35 @@
 {
- "id": 217791,
- "node": [
-  {
-   "id": 217791,
-   "name": "ホームメイド-Homemaid-",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/51/217791_4O4H2.jpg",
-   "date": "2004-10-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 217792,
-   "name": "ホームメイド スイーツ",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/a9/217792_v83N3.jpg",
-   "date": "2008-08-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217791,
-   "dst": 217792
-  },
-  {
-   "relate": "前传",
-   "src": 217792,
-   "dst": 217791
-  }
- ]
+  "id": "217791",
+  "node": [
+    {
+      "id": 217791,
+      "name": "ホームメイド-Homemaid-",
+      "nameCN": "",
+      "date": "2004-10-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217792,
+      "name": "ホームメイド スイーツ",
+      "nameCN": "",
+      "date": "2008-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217791,
+      "dst": 217792
+    },
+    {
+      "relateString": "前传",
+      "src": 217792,
+      "dst": 217791
+    }
+  ]
 }

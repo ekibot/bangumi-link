@@ -1,67 +1,64 @@
 {
- "id": 37905,
- "node": [
-  {
-   "id": 37905,
-   "name": "影技 SHADOW SKILL",
-   "nameCN": "影技",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/8a/37905_PofZ6.jpg",
-   "date": "1998-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 39237,
-   "name": "影技 -SHADOW SKILL-",
-   "nameCN": "影技OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/6d/39237_RAS94.jpg",
-   "date": "1995-10-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 47341,
-   "name": "SHADOW SKILL クルダ流交殺法の秘密",
-   "nameCN": "影技 克鲁达流交杀法的秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/c3/47341_cD33C.jpg",
-   "date": "2003-12-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 37905,
-   "dst": 39237
-  },
-  {
-   "relate": "衍生",
-   "src": 37905,
-   "dst": 47341
-  },
-  {
-   "relate": "不同演绎",
-   "src": 39237,
-   "dst": 37905
-  },
-  {
-   "relate": "衍生",
-   "src": 39237,
-   "dst": 47341
-  },
-  {
-   "relate": "主线故事",
-   "src": 47341,
-   "dst": 37905
-  },
-  {
-   "relate": "主线故事",
-   "src": 47341,
-   "dst": 39237
-  }
- ]
+  "id": "37905",
+  "node": [
+    {
+      "id": 37905,
+      "name": "影技 SHADOW SKILL",
+      "nameCN": "影技",
+      "date": "1998-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 39237,
+      "name": "影技 -SHADOW SKILL-",
+      "nameCN": "影技OVA",
+      "date": "1995-10-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 47341,
+      "name": "SHADOW SKILL クルダ流交殺法の秘密",
+      "nameCN": "影技 克鲁达流交杀法的秘密",
+      "date": "2003-12-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 37905,
+      "dst": 39237
+    },
+    {
+      "relateString": "衍生",
+      "src": 37905,
+      "dst": 47341
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 39237,
+      "dst": 37905
+    },
+    {
+      "relateString": "衍生",
+      "src": 39237,
+      "dst": 47341
+    },
+    {
+      "relateString": "主线故事",
+      "src": 47341,
+      "dst": 37905
+    },
+    {
+      "relateString": "主线故事",
+      "src": 47341,
+      "dst": 39237
+    }
+  ]
 }

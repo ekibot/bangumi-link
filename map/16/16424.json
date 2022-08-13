@@ -1,71 +1,68 @@
 {
- "id": 16424,
- "node": [
-  {
-   "id": 16424,
-   "name": "ディノクライシス2",
-   "nameCN": "恐龙危机2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/78/16424_WBNgn.jpg",
-   "date": "2000-09-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 28402,
-   "name": "ディノクライシス",
-   "nameCN": "恐龙危机",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/82/28402_Zn07t.jpg",
-   "date": "1999-07-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 81088,
-   "name": "ガンサバイバー3 ディノクライシス",
-   "nameCN": "枪下游魂3 恐龙危机",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/ac/81088_gPjoN.jpg",
-   "date": "2002-06-27",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 81089,
-   "name": "ディノクライシス3",
-   "nameCN": "恐龙危机3",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/72/81089_0qO3S.jpg",
-   "date": "2003-06-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 16424,
-   "dst": 28402
-  },
-  {
-   "relate": "续集",
-   "src": 16424,
-   "dst": 81089
-  },
-  {
-   "relate": "续集",
-   "src": 28402,
-   "dst": 16424
-  },
-  {
-   "relate": "主线故事",
-   "src": 81088,
-   "dst": 16424
-  },
-  {
-   "relate": "前传",
-   "src": 81089,
-   "dst": 16424
-  }
- ]
+  "id": "16424",
+  "node": [
+    {
+      "id": 16424,
+      "name": "ディノクライシス2",
+      "nameCN": "恐龙危机2",
+      "date": "2000-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 28402,
+      "name": "ディノクライシス",
+      "nameCN": "恐龙危机",
+      "date": "1999-07-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 81089,
+      "name": "ディノクライシス3",
+      "nameCN": "恐龙危机3",
+      "date": "2003-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 81088,
+      "name": "ガンサバイバー3 ディノクライシス",
+      "nameCN": "枪下游魂3 恐龙危机",
+      "date": "2002-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 16424,
+      "dst": 28402
+    },
+    {
+      "relateString": "续集",
+      "src": 16424,
+      "dst": 81089
+    },
+    {
+      "relateString": "续集",
+      "src": 28402,
+      "dst": 16424
+    },
+    {
+      "relateString": "主线故事",
+      "src": 81088,
+      "dst": 16424
+    },
+    {
+      "relateString": "前传",
+      "src": 81089,
+      "dst": 16424
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 35825,
- "node": [
-  {
-   "id": 35825,
-   "name": "一騎当千",
-   "nameCN": "一骑当千",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/e7/35825_FOOOV.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 191400,
-   "name": "真・一騎当千",
-   "nameCN": "真·一骑当千",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/cc/191400_dezfv.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 320748,
-   "name": "真・一騎当千外伝 勾玉列伝",
-   "nameCN": "真·一骑当千外传 勾玉列传",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/52/320748_1nK1C.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 35825,
-   "dst": 191400
-  },
-  {
-   "relate": "前传",
-   "src": 191400,
-   "dst": 35825
-  },
-  {
-   "relate": "番外篇",
-   "src": 191400,
-   "dst": 320748
-  },
-  {
-   "relate": "主线故事",
-   "src": 320748,
-   "dst": 191400
-  }
- ]
+  "id": "35825",
+  "node": [
+    {
+      "id": 35825,
+      "name": "一騎当千",
+      "nameCN": "一骑当千",
+      "date": "2000-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 191400,
+      "name": "真・一騎当千",
+      "nameCN": "真·一骑当千",
+      "date": "2015-11-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 320748,
+      "name": "真・一騎当千外伝 勾玉列伝",
+      "nameCN": "真·一骑当千外传 勾玉列传",
+      "date": "2018-08-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 35825,
+      "dst": 191400
+    },
+    {
+      "relateString": "前传",
+      "src": 191400,
+      "dst": 35825
+    },
+    {
+      "relateString": "番外篇",
+      "src": 191400,
+      "dst": 320748
+    },
+    {
+      "relateString": "主线故事",
+      "src": 320748,
+      "dst": 191400
+    }
+  ]
 }

@@ -1,117 +1,110 @@
 {
- "id": 6672,
- "node": [
-  {
-   "id": 6672,
-   "name": "Merlin (Season 3)",
-   "nameCN": "梅林传奇 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/b8/6672_sJ21d.jpg",
-   "date": "2010-09-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 7378,
-   "name": "Merlin (Season 1)",
-   "nameCN": "梅林传奇 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/cf/7378_FqXBe.jpg",
-   "date": "2008-09-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 8626,
-   "name": "Merlin (Season 2)",
-   "nameCN": "梅林传奇 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/d8/8626_FNj2D.jpg",
-   "date": "2009-09-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 12622,
-   "name": "Camelot (Season 1)",
-   "nameCN": "圣城风云 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/35/12622_80A8f.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 19463,
-   "name": "Merlin (Season 4)",
-   "nameCN": "梅林传奇 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/ff/19463_73A9d.jpg",
-   "date": "2011-10-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 50812,
-   "name": "Merlin (Season 5)",
-   "nameCN": "梅林传奇 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/dc/50812_64UP6.jpg",
-   "date": "2012-10-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 6672,
-   "dst": 8626
-  },
-  {
-   "relate": "续集",
-   "src": 6672,
-   "dst": 19463
-  },
-  {
-   "relate": "续集",
-   "src": 7378,
-   "dst": 8626
-  },
-  {
-   "relate": "不同演绎",
-   "src": 7378,
-   "dst": 12622
-  },
-  {
-   "relate": "续集",
-   "src": 8626,
-   "dst": 6672
-  },
-  {
-   "relate": "前传",
-   "src": 8626,
-   "dst": 7378
-  },
-  {
-   "relate": "不同演绎",
-   "src": 12622,
-   "dst": 7378
-  },
-  {
-   "relate": "前传",
-   "src": 19463,
-   "dst": 6672
-  },
-  {
-   "relate": "续集",
-   "src": 19463,
-   "dst": 50812
-  },
-  {
-   "relate": "前传",
-   "src": 50812,
-   "dst": 19463
-  }
- ]
+  "id": "6672",
+  "node": [
+    {
+      "id": 6672,
+      "name": "Merlin (Season 3)",
+      "nameCN": "梅林传奇 第三季",
+      "date": "2010-09-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 8626,
+      "name": "Merlin (Season 2)",
+      "nameCN": "梅林传奇 第二季",
+      "date": "2009-09-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 19463,
+      "name": "Merlin (Season 4)",
+      "nameCN": "梅林传奇 第四季",
+      "date": "2011-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 7378,
+      "name": "Merlin (Season 1)",
+      "nameCN": "梅林传奇 第一季",
+      "date": "2008-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 12622,
+      "name": "Camelot (Season 1)",
+      "nameCN": "圣城风云 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 50812,
+      "name": "Merlin (Season 5)",
+      "nameCN": "梅林传奇 第五季",
+      "date": "2012-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 6672,
+      "dst": 8626
+    },
+    {
+      "relateString": "续集",
+      "src": 6672,
+      "dst": 19463
+    },
+    {
+      "relateString": "续集",
+      "src": 7378,
+      "dst": 8626
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 7378,
+      "dst": 12622
+    },
+    {
+      "relateString": "续集",
+      "src": 8626,
+      "dst": 6672
+    },
+    {
+      "relateString": "前传",
+      "src": 8626,
+      "dst": 7378
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 12622,
+      "dst": 7378
+    },
+    {
+      "relateString": "前传",
+      "src": 19463,
+      "dst": 6672
+    },
+    {
+      "relateString": "续集",
+      "src": 19463,
+      "dst": 50812
+    },
+    {
+      "relateString": "前传",
+      "src": 50812,
+      "dst": 19463
+    }
+  ]
 }

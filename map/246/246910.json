@@ -1,37 +1,35 @@
 {
- "id": 246910,
- "node": [
-  {
-   "id": 246910,
-   "name": "蛋蛋小子",
-   "nameCN": "蛋蛋小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/67/246910_U3wdZ.jpg",
-   "date": "2016-09-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 246955,
-   "name": "蛋星侠",
-   "nameCN": "蛋星侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/05/246955_CBB7H.jpg",
-   "date": "2018-05-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 246910,
-   "dst": 246955
-  },
-  {
-   "relate": "前传",
-   "src": 246955,
-   "dst": 246910
-  }
- ]
+  "id": "246910",
+  "node": [
+    {
+      "id": 246910,
+      "name": "蛋蛋小子",
+      "nameCN": "蛋蛋小子",
+      "date": "2016-09-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 246955,
+      "name": "蛋星侠",
+      "nameCN": "蛋星侠",
+      "date": "2018-05-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 246910,
+      "dst": 246955
+    },
+    {
+      "relateString": "前传",
+      "src": 246955,
+      "dst": 246910
+    }
+  ]
 }

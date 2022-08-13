@@ -1,37 +1,35 @@
 {
- "id": 163464,
- "node": [
-  {
-   "id": 163464,
-   "name": "嗨，顾得白",
-   "nameCN": "嗨，顾得白",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/71/163464_pQ33z.jpg",
-   "date": "2015-12-29",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 223120,
-   "name": "嗨，顾得白 第2部",
-   "nameCN": "嗨，顾得白 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/cb/223120_B5dJJ.jpg",
-   "date": "2017-08-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 163464,
-   "dst": 223120
-  },
-  {
-   "relate": "前传",
-   "src": 223120,
-   "dst": 163464
-  }
- ]
+  "id": "163464",
+  "node": [
+    {
+      "id": 163464,
+      "name": "嗨，顾得白",
+      "nameCN": "嗨，顾得白",
+      "date": "2015-12-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 223120,
+      "name": "嗨，顾得白 第2部",
+      "nameCN": "嗨，顾得白 第二部",
+      "date": "2017-08-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 163464,
+      "dst": 223120
+    },
+    {
+      "relateString": "前传",
+      "src": 223120,
+      "dst": 163464
+    }
+  ]
 }

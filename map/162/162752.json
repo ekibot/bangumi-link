@@ -1,37 +1,35 @@
 {
- "id": 162752,
- "node": [
-  {
-   "id": 162752,
-   "name": "こどものままでよかったのに。",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/7a/162752_jp.jpg",
-   "date": "2014-10-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162754,
-   "name": "うちの子がご迷惑かけます。",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/8e/162754_jp.jpg",
-   "date": "2011-08-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 162752,
-   "dst": 162754
-  },
-  {
-   "relate": "番外篇",
-   "src": 162754,
-   "dst": 162752
-  }
- ]
+  "id": "162752",
+  "node": [
+    {
+      "id": 162752,
+      "name": "こどものままでよかったのに。",
+      "nameCN": "",
+      "date": "2014-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162754,
+      "name": "うちの子がご迷惑かけます。",
+      "nameCN": "",
+      "date": "2011-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 162752,
+      "dst": 162754
+    },
+    {
+      "relateString": "番外篇",
+      "src": 162754,
+      "dst": 162752
+    }
+  ]
 }

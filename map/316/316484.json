@@ -1,0 +1,54 @@
+{
+  "id": "316484",
+  "node": [
+    {
+      "id": 316484,
+      "name": "淫魔バスターズ 3",
+      "nameCN": "",
+      "date": "2020-03-31",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 316516,
+      "name": "淫魔バスターズ2",
+      "nameCN": "",
+      "date": "2019-06-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 316515,
+      "name": "淫魔バスターズ 1",
+      "nameCN": "",
+      "date": "2019-02-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 316484,
+      "dst": 316516
+    },
+    {
+      "relateString": "续集",
+      "src": 316515,
+      "dst": 316516
+    },
+    {
+      "relateString": "续集",
+      "src": 316516,
+      "dst": 316484
+    },
+    {
+      "relateString": "前传",
+      "src": 316516,
+      "dst": 316515
+    }
+  ]
+}

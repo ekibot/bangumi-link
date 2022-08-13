@@ -1,57 +1,54 @@
 {
- "id": 23408,
- "node": [
-  {
-   "id": 23408,
-   "name": "Body of Proof Season 1",
-   "nameCN": "逝者之证 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/58/23408_J6xbj.jpg",
-   "date": "2011-01-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 65559,
-   "name": "Body of Proof Season 2",
-   "nameCN": "逝者之证 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/f7/65559_g9bxO.jpg",
-   "date": "2011-09-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 72110,
-   "name": "Body of Proof Season 3",
-   "nameCN": "逝者之证 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/17/72110_v13CV.jpg",
-   "date": "2013-02-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23408,
-   "dst": 65559
-  },
-  {
-   "relate": "前传",
-   "src": 65559,
-   "dst": 23408
-  },
-  {
-   "relate": "续集",
-   "src": 65559,
-   "dst": 72110
-  },
-  {
-   "relate": "前传",
-   "src": 72110,
-   "dst": 65559
-  }
- ]
+  "id": "23408",
+  "node": [
+    {
+      "id": 23408,
+      "name": "Body of Proof Season 1",
+      "nameCN": "逝者之证 第一季",
+      "date": "2011-01-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 65559,
+      "name": "Body of Proof Season 2",
+      "nameCN": "逝者之证 第二季",
+      "date": "2011-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 72110,
+      "name": "Body of Proof Season 3",
+      "nameCN": "逝者之证 第三季",
+      "date": "2013-02-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23408,
+      "dst": 65559
+    },
+    {
+      "relateString": "前传",
+      "src": 65559,
+      "dst": 23408
+    },
+    {
+      "relateString": "续集",
+      "src": 65559,
+      "dst": 72110
+    },
+    {
+      "relateString": "前传",
+      "src": 72110,
+      "dst": 65559
+    }
+  ]
 }

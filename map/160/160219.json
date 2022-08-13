@@ -1,97 +1,91 @@
 {
- "id": 160219,
- "node": [
-  {
-   "id": 160219,
-   "name": "墓王之王 麒麟决",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/33/160219_LMXp2.jpg",
-   "date": "2016-07-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 206052,
-   "name": "墓王之王 寒铁斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/c3/206052_VATmM.jpg",
-   "date": "2017-05-11",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 226250,
-   "name": "墓王之王 悬棺寺",
-   "nameCN": "墓王之王 悬棺寺",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/c6/226250_Dlanm.jpg",
-   "date": "2017-12-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 277541,
-   "name": "墓王之王 幽都战",
-   "nameCN": "墓王之王 幽都战",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/ce/277541_FjL6S.jpg",
-   "date": "2019-11-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 343186,
-   "name": "墓王之王 水无痕",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/7f/343186_6vhq2.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 160219,
-   "dst": 206052
-  },
-  {
-   "relate": "前传",
-   "src": 206052,
-   "dst": 160219
-  },
-  {
-   "relate": "续集",
-   "src": 206052,
-   "dst": 226250
-  },
-  {
-   "relate": "前传",
-   "src": 226250,
-   "dst": 206052
-  },
-  {
-   "relate": "续集",
-   "src": 226250,
-   "dst": 277541
-  },
-  {
-   "relate": "前传",
-   "src": 277541,
-   "dst": 226250
-  },
-  {
-   "relate": "续集",
-   "src": 277541,
-   "dst": 343186
-  },
-  {
-   "relate": "前传",
-   "src": 343186,
-   "dst": 277541
-  }
- ]
+  "id": "160219",
+  "node": [
+    {
+      "id": 160219,
+      "name": "墓王之王 麒麟决",
+      "nameCN": "",
+      "date": "2016-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 206052,
+      "name": "墓王之王 寒铁斗",
+      "nameCN": "",
+      "date": "2017-05-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 226250,
+      "name": "墓王之王 悬棺寺",
+      "nameCN": "墓王之王 悬棺寺",
+      "date": "2017-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 277541,
+      "name": "墓王之王 幽都战",
+      "nameCN": "墓王之王 幽都战",
+      "date": "2019-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 343186,
+      "name": "墓王之王 水无痕",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 160219,
+      "dst": 206052
+    },
+    {
+      "relateString": "前传",
+      "src": 206052,
+      "dst": 160219
+    },
+    {
+      "relateString": "续集",
+      "src": 206052,
+      "dst": 226250
+    },
+    {
+      "relateString": "前传",
+      "src": 226250,
+      "dst": 206052
+    },
+    {
+      "relateString": "续集",
+      "src": 226250,
+      "dst": 277541
+    },
+    {
+      "relateString": "前传",
+      "src": 277541,
+      "dst": 226250
+    },
+    {
+      "relateString": "续集",
+      "src": 277541,
+      "dst": 343186
+    },
+    {
+      "relateString": "前传",
+      "src": 343186,
+      "dst": 277541
+    }
+  ]
 }

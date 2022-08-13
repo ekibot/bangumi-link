@@ -1,37 +1,35 @@
 {
- "id": 72117,
- "node": [
-  {
-   "id": 72117,
-   "name": "StarDrive",
-   "nameCN": "星际殖民",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/9e/72117_6AZgN.jpg",
-   "date": "2013-04-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 130859,
-   "name": "StarDrive 2",
-   "nameCN": "星际殖民2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/45/130859_VsfZ6.jpg",
-   "date": "2015-04-09",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72117,
-   "dst": 130859
-  },
-  {
-   "relate": "前传",
-   "src": 130859,
-   "dst": 72117
-  }
- ]
+  "id": "72117",
+  "node": [
+    {
+      "id": 72117,
+      "name": "StarDrive",
+      "nameCN": "星际殖民",
+      "date": "2013-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 130859,
+      "name": "StarDrive 2",
+      "nameCN": "星际殖民2",
+      "date": "2015-04-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72117,
+      "dst": 130859
+    },
+    {
+      "relateString": "前传",
+      "src": 130859,
+      "dst": 72117
+    }
+  ]
 }

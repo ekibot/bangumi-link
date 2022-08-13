@@ -1,37 +1,35 @@
 {
- "id": 138133,
- "node": [
-  {
-   "id": 138133,
-   "name": "東京!",
-   "nameCN": "东京！",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/1a/138133_vpOBp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 162440,
-   "name": "スカートダーリン",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/cc/162440_jp.jpg",
-   "date": "2015-05-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 138133,
-   "dst": 162440
-  },
-  {
-   "relate": "续集",
-   "src": 162440,
-   "dst": 138133
-  }
- ]
+  "id": "138133",
+  "node": [
+    {
+      "id": 138133,
+      "name": "東京！",
+      "nameCN": "东京！",
+      "date": "2009-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 162440,
+      "name": "スカートダーリン",
+      "nameCN": "",
+      "date": "2015-05-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 138133,
+      "dst": 162440
+    },
+    {
+      "relateString": "续集",
+      "src": 162440,
+      "dst": 138133
+    }
+  ]
 }

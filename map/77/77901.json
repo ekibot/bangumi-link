@@ -1,37 +1,35 @@
 {
- "id": 77901,
- "node": [
-  {
-   "id": 77901,
-   "name": "レディレディ!!",
-   "nameCN": "新小甜甜",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/f2/77901_ZubaK.jpg",
-   "date": "1987-10-21",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 201040,
-   "name": "ハロー!レディリン",
-   "nameCN": "俏淑女小玲",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/bf/201040_maAyH.jpg",
-   "date": "1988-05-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77901,
-   "dst": 201040
-  },
-  {
-   "relate": "前传",
-   "src": 201040,
-   "dst": 77901
-  }
- ]
+  "id": "77901",
+  "node": [
+    {
+      "id": 77901,
+      "name": "レディレディ!!",
+      "nameCN": "新小甜甜",
+      "date": "1987-10-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 201040,
+      "name": "ハロー!レディリン",
+      "nameCN": "俏淑女小玲",
+      "date": "1988-05-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77901,
+      "dst": 201040
+    },
+    {
+      "relateString": "前传",
+      "src": 201040,
+      "dst": 77901
+    }
+  ]
 }

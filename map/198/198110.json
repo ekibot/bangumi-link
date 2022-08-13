@@ -1,57 +1,54 @@
 {
- "id": 198110,
- "node": [
-  {
-   "id": 198110,
-   "name": "ゼロの使い魔 夢魔が紡ぐ夜風の幻想曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/51/198110_2JwMJ.jpg",
-   "date": "2007-11-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 198111,
-   "name": "ゼロの使い魔 小悪魔と春風の協奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/33/198111_DHDdq.jpg",
-   "date": "2007-02-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 198113,
-   "name": "ゼロの使い魔 迷子の終止符と幾千の交響曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/19/198113_IJ33r.jpg",
-   "date": "2008-11-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 198110,
-   "dst": 198111
-  },
-  {
-   "relate": "续集",
-   "src": 198110,
-   "dst": 198113
-  },
-  {
-   "relate": "续集",
-   "src": 198111,
-   "dst": 198110
-  },
-  {
-   "relate": "前传",
-   "src": 198113,
-   "dst": 198110
-  }
- ]
+  "id": "198110",
+  "node": [
+    {
+      "id": 198110,
+      "name": "ゼロの使い魔 夢魔が紡ぐ夜風の幻想曲",
+      "nameCN": "",
+      "date": "2007-11-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198111,
+      "name": "ゼロの使い魔 小悪魔と春風の協奏曲",
+      "nameCN": "",
+      "date": "2007-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 198113,
+      "name": "ゼロの使い魔 迷子の終止符と幾千の交響曲",
+      "nameCN": "",
+      "date": "2008-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 198110,
+      "dst": 198111
+    },
+    {
+      "relateString": "续集",
+      "src": 198110,
+      "dst": 198113
+    },
+    {
+      "relateString": "续集",
+      "src": 198111,
+      "dst": 198110
+    },
+    {
+      "relateString": "前传",
+      "src": 198113,
+      "dst": 198110
+    }
+  ]
 }

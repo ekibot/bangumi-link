@@ -1,0 +1,34 @@
+{
+  "id": "337066",
+  "node": [
+    {
+      "id": 337066,
+      "name": "前科者",
+      "nameCN": "前科者",
+      "date": "2021-11-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 337067,
+      "name": "映画 前科者",
+      "nameCN": "前科者 电影版",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 337066,
+      "dst": 337067
+    },
+    {
+      "relateString": "前传",
+      "src": 337067,
+      "dst": 337066
+    }
+  ]
+}

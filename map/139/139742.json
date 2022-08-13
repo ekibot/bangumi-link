@@ -1,37 +1,35 @@
 {
- "id": 139742,
- "node": [
-  {
-   "id": 139742,
-   "name": "Unravel",
-   "nameCN": "明朗",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/70/139742_1Bn40.jpg",
-   "date": "2016-02-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 249305,
-   "name": "Unravel TWO",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/33/249305_2CpKv.jpg",
-   "date": "2018-06-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 139742,
-   "dst": 249305
-  },
-  {
-   "relate": "前传",
-   "src": 249305,
-   "dst": 139742
-  }
- ]
+  "id": "139742",
+  "node": [
+    {
+      "id": 139742,
+      "name": "Unravel",
+      "nameCN": "明朗",
+      "date": "2016-02-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249305,
+      "name": "Unravel TWO",
+      "nameCN": "",
+      "date": "2018-06-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 139742,
+      "dst": 249305
+    },
+    {
+      "relateString": "前传",
+      "src": 249305,
+      "dst": 139742
+    }
+  ]
 }

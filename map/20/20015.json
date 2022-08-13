@@ -1,37 +1,35 @@
 {
- "id": 20015,
- "node": [
-  {
-   "id": 20015,
-   "name": "626HOTEL",
-   "nameCN": "626旅馆",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/e3/20015_rewy0.jpg",
-   "date": "2008-08-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 234995,
-   "name": "Asylum 626",
-   "nameCN": "精神病院626",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/12/234995_ryrbr.jpg",
-   "date": "2009-09-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20015,
-   "dst": 234995
-  },
-  {
-   "relate": "前传",
-   "src": 234995,
-   "dst": 20015
-  }
- ]
+  "id": "20015",
+  "node": [
+    {
+      "id": 20015,
+      "name": "626HOTEL",
+      "nameCN": "626旅馆",
+      "date": "2008-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234995,
+      "name": "Asylum 626",
+      "nameCN": "精神病院626",
+      "date": "2009-09-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20015,
+      "dst": 234995
+    },
+    {
+      "relateString": "前传",
+      "src": 234995,
+      "dst": 20015
+    }
+  ]
 }

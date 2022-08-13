@@ -1,37 +1,35 @@
 {
- "id": 213076,
- "node": [
-  {
-   "id": 213076,
-   "name": "妹さえいればいい。",
-   "nameCN": "如果有妹妹就好了。",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/59/213076_J5y9R.jpg",
-   "date": "2017-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 228848,
-   "name": "○○さえいればいい。",
-   "nameCN": "如果有○○就好了。",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/53/228848_jUlSO.jpg",
-   "date": "2017-10-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 213076,
-   "dst": 228848
-  },
-  {
-   "relate": "主线故事",
-   "src": 228848,
-   "dst": 213076
-  }
- ]
+  "id": "213076",
+  "node": [
+    {
+      "id": 213076,
+      "name": "妹さえいればいい。",
+      "nameCN": "如果有妹妹就好了。",
+      "date": "2017-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228848,
+      "name": "○○さえいればいい。",
+      "nameCN": "如果有○○就好了。",
+      "date": "2017-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 213076,
+      "dst": 228848
+    },
+    {
+      "relateString": "主线故事",
+      "src": 228848,
+      "dst": 213076
+    }
+  ]
 }

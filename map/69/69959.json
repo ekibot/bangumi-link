@@ -1,37 +1,35 @@
 {
- "id": 69959,
- "node": [
-  {
-   "id": 69959,
-   "name": "エルフの守護者",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/4e/69959_J56a9.jpg",
-   "date": "2012-12-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 227428,
-   "name": "ロストファントム",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/9c/227428_hLc99.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2016-03-04",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 69959,
-   "dst": 227428
-  },
-  {
-   "relate": "前传",
-   "src": 227428,
-   "dst": 69959
-  }
- ]
+  "id": "69959",
+  "node": [
+    {
+      "id": 69959,
+      "name": "エルフの守護者",
+      "nameCN": "",
+      "date": "2012-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227428,
+      "name": "ロストファントム",
+      "nameCN": "",
+      "date": "2016-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 69959,
+      "dst": 227428
+    },
+    {
+      "relateString": "前传",
+      "src": 227428,
+      "dst": 69959
+    }
+  ]
 }

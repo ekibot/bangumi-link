@@ -1,57 +1,51 @@
 {
- "id": 127452,
- "node": [
-  {
-   "id": 127452,
-   "name": "まんが道",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/5a/127452_7Qr3Y.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 127458,
-   "name": "まんが道 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/6c/127458_y0o31.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 127538,
-   "name": "愛…しりそめし頃に…",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/30/127538_xxs9L.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127452,
-   "dst": 127458
-  },
-  {
-   "relate": "前传",
-   "src": 127458,
-   "dst": 127452
-  },
-  {
-   "relate": "续集",
-   "src": 127458,
-   "dst": 127538
-  },
-  {
-   "relate": "前传",
-   "src": 127538,
-   "dst": 127458
-  }
- ]
+  "id": "127452",
+  "node": [
+    {
+      "id": 127452,
+      "name": "まんが道",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 127458,
+      "name": "まんが道 第二部",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 127538,
+      "name": "愛…しりそめし頃に…",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127452,
+      "dst": 127458
+    },
+    {
+      "relateString": "前传",
+      "src": 127458,
+      "dst": 127452
+    },
+    {
+      "relateString": "续集",
+      "src": 127458,
+      "dst": 127538
+    },
+    {
+      "relateString": "前传",
+      "src": 127538,
+      "dst": 127458
+    }
+  ]
 }

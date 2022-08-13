@@ -1,57 +1,53 @@
 {
- "id": 69265,
- "node": [
-  {
-   "id": 69265,
-   "name": "GUNGRAVE O.D.",
-   "nameCN": "铳墓 OverDose",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/ce/69265_uBIMX.jpg",
-   "date": "2004-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 83734,
-   "name": "ガングレイヴ",
-   "nameCN": "铳墓",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/a1/83734_0n070.jpg",
-   "date": "2002-07-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 260347,
-   "name": "Gungrave G.O.R.E",
-   "nameCN": "铳墓 GORE",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/7c/260347_2A2PK.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 69265,
-   "dst": 83734
-  },
-  {
-   "relate": "续集",
-   "src": 69265,
-   "dst": 260347
-  },
-  {
-   "relate": "续集",
-   "src": 83734,
-   "dst": 69265
-  },
-  {
-   "relate": "前传",
-   "src": 260347,
-   "dst": 69265
-  }
- ]
+  "id": "69265",
+  "node": [
+    {
+      "id": 69265,
+      "name": "GUNGRAVE O.D.",
+      "nameCN": "铳墓 OverDose",
+      "date": "2004-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83734,
+      "name": "ガングレイヴ",
+      "nameCN": "铳墓",
+      "date": "2002-07-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260347,
+      "name": "Gungrave G.O.R.E",
+      "nameCN": "铳墓 GORE",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 69265,
+      "dst": 83734
+    },
+    {
+      "relateString": "续集",
+      "src": 69265,
+      "dst": 260347
+    },
+    {
+      "relateString": "续集",
+      "src": 83734,
+      "dst": 69265
+    },
+    {
+      "relateString": "前传",
+      "src": 260347,
+      "dst": 69265
+    }
+  ]
 }

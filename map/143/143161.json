@@ -1,57 +1,54 @@
 {
- "id": 143161,
- "node": [
-  {
-   "id": 143161,
-   "name": "オメガラビリンス",
-   "nameCN": "欧米伽迷宫",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/a6/143161_KqNTu.jpg",
-   "date": "2015-11-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 210655,
-   "name": "オメガラビリンスZ",
-   "nameCN": "欧米伽迷宫Z",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/bd/210655_WkP59.jpg",
-   "date": "2017-07-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 260667,
-   "name": "オメガラビリンス ライフ",
-   "nameCN": "欧米伽迷宫 Life",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/0c/260667_xfSD9.jpg",
-   "date": "2019-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143161,
-   "dst": 210655
-  },
-  {
-   "relate": "前传",
-   "src": 210655,
-   "dst": 143161
-  },
-  {
-   "relate": "续集",
-   "src": 210655,
-   "dst": 260667
-  },
-  {
-   "relate": "前传",
-   "src": 260667,
-   "dst": 210655
-  }
- ]
+  "id": "143161",
+  "node": [
+    {
+      "id": 143161,
+      "name": "オメガラビリンス",
+      "nameCN": "欧米伽迷宫",
+      "date": "2015-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 210655,
+      "name": "オメガラビリンスZ",
+      "nameCN": "欧米伽迷宫Z",
+      "date": "2017-07-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260667,
+      "name": "オメガラビリンス ライフ",
+      "nameCN": "欧米伽迷宫 Life",
+      "date": "2019-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143161,
+      "dst": 210655
+    },
+    {
+      "relateString": "前传",
+      "src": 210655,
+      "dst": 143161
+    },
+    {
+      "relateString": "续集",
+      "src": 210655,
+      "dst": 260667
+    },
+    {
+      "relateString": "前传",
+      "src": 260667,
+      "dst": 210655
+    }
+  ]
 }

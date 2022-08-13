@@ -1,37 +1,35 @@
 {
- "id": 107143,
- "node": [
-  {
-   "id": 107143,
-   "name": "Teenage Mutant Ninja Turtles",
-   "nameCN": "忍者神龟：变种时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/48/107143_11xxB.jpg",
-   "date": "2014-08-08",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 123278,
-   "name": "Teenage Mutant Ninja Turtles: Out of the Shadows (2016)",
-   "nameCN": "忍者神龟2：破影而出",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/0f/123278_K2f4u.jpg",
-   "date": "2016-06-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107143,
-   "dst": 123278
-  },
-  {
-   "relate": "前传",
-   "src": 123278,
-   "dst": 107143
-  }
- ]
+  "id": "107143",
+  "node": [
+    {
+      "id": 107143,
+      "name": "Teenage Mutant Ninja Turtles",
+      "nameCN": "忍者神龟：变种时代",
+      "date": "2014-08-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 123278,
+      "name": "Teenage Mutant Ninja Turtles: Out of the Shadows (2016)",
+      "nameCN": "忍者神龟2：破影而出",
+      "date": "2016-06-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107143,
+      "dst": 123278
+    },
+    {
+      "relateString": "前传",
+      "src": 123278,
+      "dst": 107143
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 193812,
- "node": [
-  {
-   "id": 193812,
-   "name": "真空融接 春",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/22/193812_hOOsT.jpg",
-   "date": "2009-04-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 256841,
-   "name": "真空融接",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/05/256841_jm9Mn.jpg",
-   "date": "2005-03-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 256842,
-   "name": "真空融接",
-   "nameCN": "真空融接",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/c1/256842_75mwC.jpg",
-   "date": "2007-01-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 193812,
-   "dst": 256842
-  },
-  {
-   "relate": "续集",
-   "src": 256841,
-   "dst": 256842
-  },
-  {
-   "relate": "番外篇",
-   "src": 256842,
-   "dst": 193812
-  },
-  {
-   "relate": "前传",
-   "src": 256842,
-   "dst": 256841
-  }
- ]
+  "id": "193812",
+  "node": [
+    {
+      "id": 193812,
+      "name": "真空融接 春",
+      "nameCN": "",
+      "date": "2009-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 256842,
+      "name": "真空融接",
+      "nameCN": "真空融接",
+      "date": "2007-01-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 256841,
+      "name": "真空融接",
+      "nameCN": "",
+      "date": "2005-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 193812,
+      "dst": 256842
+    },
+    {
+      "relateString": "续集",
+      "src": 256841,
+      "dst": 256842
+    },
+    {
+      "relateString": "番外篇",
+      "src": 256842,
+      "dst": 193812
+    },
+    {
+      "relateString": "前传",
+      "src": 256842,
+      "dst": 256841
+    }
+  ]
 }

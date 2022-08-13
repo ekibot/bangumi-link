@@ -1,57 +1,53 @@
 {
- "id": 172521,
- "node": [
-  {
-   "id": 172521,
-   "name": "モンスターファーム2",
-   "nameCN": "怪物农场2",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/3c/172521_HnCnZ.jpg",
-   "date": "1999-02-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261066,
-   "name": "モンスターファームバトルカード",
-   "nameCN": "怪物农场：战斗卡片",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/77/261066_8iQyC.jpg",
-   "date": "2000-03-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 299984,
-   "name": "モンスターファーム",
-   "nameCN": "怪物农场",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/0e/299984_tIiFK.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 172521,
-   "dst": 261066
-  },
-  {
-   "relate": "前传",
-   "src": 172521,
-   "dst": 299984
-  },
-  {
-   "relate": "相同世界观",
-   "src": 261066,
-   "dst": 172521
-  },
-  {
-   "relate": "续集",
-   "src": 299984,
-   "dst": 172521
-  }
- ]
+  "id": "172521",
+  "node": [
+    {
+      "id": 172521,
+      "name": "モンスターファーム2",
+      "nameCN": "怪物农场2",
+      "date": "1999-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261066,
+      "name": "モンスターファームバトルカード",
+      "nameCN": "怪物农场：战斗卡片",
+      "date": "2000-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299984,
+      "name": "モンスターファーム",
+      "nameCN": "怪物农场",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 172521,
+      "dst": 261066
+    },
+    {
+      "relateString": "前传",
+      "src": 172521,
+      "dst": 299984
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 261066,
+      "dst": 172521
+    },
+    {
+      "relateString": "续集",
+      "src": 299984,
+      "dst": 172521
+    }
+  ]
 }

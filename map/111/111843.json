@@ -1,57 +1,52 @@
 {
- "id": 111843,
- "node": [
-  {
-   "id": 111843,
-   "name": "ALICEの館",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/f4/111843_W9VL9.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 111844,
-   "name": "ALICEの館2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/33/111844_98WSS.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 111845,
-   "name": "ALICEの館3",
-   "nameCN": "ALICE之馆3",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/51/111845_Zr13A.jpg",
-   "date": "1995-04-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111843,
-   "dst": 111844
-  },
-  {
-   "relate": "前传",
-   "src": 111844,
-   "dst": 111843
-  },
-  {
-   "relate": "续集",
-   "src": 111844,
-   "dst": 111845
-  },
-  {
-   "relate": "前传",
-   "src": 111845,
-   "dst": 111844
-  }
- ]
+  "id": "111843",
+  "node": [
+    {
+      "id": 111843,
+      "name": "ALICEの館",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111844,
+      "name": "ALICEの館2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 111845,
+      "name": "ALICEの館3",
+      "nameCN": "ALICE之馆3",
+      "date": "1995-04-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111843,
+      "dst": 111844
+    },
+    {
+      "relateString": "前传",
+      "src": 111844,
+      "dst": 111843
+    },
+    {
+      "relateString": "续集",
+      "src": 111844,
+      "dst": 111845
+    },
+    {
+      "relateString": "前传",
+      "src": 111845,
+      "dst": 111844
+    }
+  ]
 }

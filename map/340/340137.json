@@ -1,57 +1,54 @@
 {
- "id": 340137,
- "node": [
-  {
-   "id": 340137,
-   "name": "サーキットの狼II モデナの剣",
-   "nameCN": "赛道之狼2 摩德纳的剑",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/9f/340137_P97Vx.jpg",
-   "date": "1989-08-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 340141,
-   "name": "サーキットの狼",
-   "nameCN": "赛道之狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/8f/340141_Iqqx5.jpg",
-   "date": "1975-01-06",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 340216,
-   "name": "21世紀の狼",
-   "nameCN": "21世纪之狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/f6/340216_I7b6y.jpg",
-   "date": "1997-05-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 340137,
-   "dst": 340141
-  },
-  {
-   "relate": "续集",
-   "src": 340141,
-   "dst": 340137
-  },
-  {
-   "relate": "续集",
-   "src": 340141,
-   "dst": 340216
-  },
-  {
-   "relate": "前传",
-   "src": 340216,
-   "dst": 340141
-  }
- ]
+  "id": "340137",
+  "node": [
+    {
+      "id": 340137,
+      "name": "サーキットの狼II モデナの剣",
+      "nameCN": "赛道之狼2 摩德纳的剑",
+      "date": "1989-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340141,
+      "name": "サーキットの狼",
+      "nameCN": "赛道之狼",
+      "date": "1975-01-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340216,
+      "name": "21世紀の狼",
+      "nameCN": "21世纪之狼",
+      "date": "1997-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 340137,
+      "dst": 340141
+    },
+    {
+      "relateString": "续集",
+      "src": 340141,
+      "dst": 340137
+    },
+    {
+      "relateString": "续集",
+      "src": 340141,
+      "dst": 340216
+    },
+    {
+      "relateString": "前传",
+      "src": 340216,
+      "dst": 340141
+    }
+  ]
 }

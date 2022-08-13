@@ -1,57 +1,51 @@
 {
- "id": 366902,
- "node": [
-  {
-   "id": 366902,
-   "name": "Night at the Museum",
-   "nameCN": "博物馆奇妙夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/1c/366902_Y6R2Z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 366903,
-   "name": "Night at the Museum: Battle of the Smithsonian",
-   "nameCN": "博物馆奇妙夜2",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/cf/366903_9AKrr.jpg",
-   "type": 6,
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 366904,
-   "name": "Night at the Museum: Secret of the Tomb",
-   "nameCN": "博物馆奇妙夜3",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/27/366904_23M3Y.jpg",
-   "type": 6,
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 366902,
-   "dst": 366903
-  },
-  {
-   "relate": "前传",
-   "src": 366903,
-   "dst": 366902
-  },
-  {
-   "relate": "续集",
-   "src": 366903,
-   "dst": 366904
-  },
-  {
-   "relate": "前传",
-   "src": 366904,
-   "dst": 366903
-  }
- ]
+  "id": "366902",
+  "node": [
+    {
+      "id": 366902,
+      "name": "Night at the Museum",
+      "nameCN": "博物馆奇妙夜",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 366903,
+      "name": "Night at the Museum: Battle of the Smithsonian",
+      "nameCN": "博物馆奇妙夜2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 366904,
+      "name": "Night at the Museum: Secret of the Tomb",
+      "nameCN": "博物馆奇妙夜3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 366902,
+      "dst": 366903
+    },
+    {
+      "relateString": "前传",
+      "src": 366903,
+      "dst": 366902
+    },
+    {
+      "relateString": "续集",
+      "src": 366903,
+      "dst": 366904
+    },
+    {
+      "relateString": "前传",
+      "src": 366904,
+      "dst": 366903
+    }
+  ]
 }

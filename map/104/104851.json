@@ -1,57 +1,53 @@
 {
- "id": 104851,
- "node": [
-  {
-   "id": 104851,
-   "name": "Nashville Season 1",
-   "nameCN": "音乐之乡 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/45/104851_0B595.jpg",
-   "date": "2012-10-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 104852,
-   "name": "Nashville Season 2",
-   "nameCN": "音乐之乡 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/6c/104852_N81Z1.jpg",
-   "date": "2013-09-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 104853,
-   "name": "Nashville Season 3",
-   "nameCN": "音乐之乡 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/6d/104853_uuPhu.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104851,
-   "dst": 104852
-  },
-  {
-   "relate": "前传",
-   "src": 104852,
-   "dst": 104851
-  },
-  {
-   "relate": "续集",
-   "src": 104852,
-   "dst": 104853
-  },
-  {
-   "relate": "前传",
-   "src": 104853,
-   "dst": 104852
-  }
- ]
+  "id": "104851",
+  "node": [
+    {
+      "id": 104851,
+      "name": "Nashville Season 1",
+      "nameCN": "音乐之乡 第一季",
+      "date": "2012-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 104852,
+      "name": "Nashville Season 2",
+      "nameCN": "音乐之乡 第二季",
+      "date": "2013-09-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 104853,
+      "name": "Nashville Season 3",
+      "nameCN": "音乐之乡 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104851,
+      "dst": 104852
+    },
+    {
+      "relateString": "前传",
+      "src": 104852,
+      "dst": 104851
+    },
+    {
+      "relateString": "续集",
+      "src": 104852,
+      "dst": 104853
+    },
+    {
+      "relateString": "前传",
+      "src": 104853,
+      "dst": 104852
+    }
+  ]
 }

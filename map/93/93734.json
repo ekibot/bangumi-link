@@ -1,57 +1,54 @@
 {
- "id": 93734,
- "node": [
-  {
-   "id": 93734,
-   "name": "True Detective Season 1",
-   "nameCN": "真探 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/fe/93734_KHuNK.jpg",
-   "date": "2014-01-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 121623,
-   "name": "True Detective Season 2",
-   "nameCN": "真探 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/4b/121623_Le22a.jpg",
-   "date": "2015-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 258420,
-   "name": "True Detective Season 3",
-   "nameCN": "真探 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/d8/258420_YfAei.jpg",
-   "date": "2019-01-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93734,
-   "dst": 121623
-  },
-  {
-   "relate": "前传",
-   "src": 121623,
-   "dst": 93734
-  },
-  {
-   "relate": "续集",
-   "src": 121623,
-   "dst": 258420
-  },
-  {
-   "relate": "前传",
-   "src": 258420,
-   "dst": 121623
-  }
- ]
+  "id": "93734",
+  "node": [
+    {
+      "id": 93734,
+      "name": "True Detective Season 1",
+      "nameCN": "真探 第一季",
+      "date": "2014-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 121623,
+      "name": "True Detective Season 2",
+      "nameCN": "真探 第二季",
+      "date": "2015-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 258420,
+      "name": "True Detective Season 3",
+      "nameCN": "真探 第三季",
+      "date": "2019-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93734,
+      "dst": 121623
+    },
+    {
+      "relateString": "前传",
+      "src": 121623,
+      "dst": 93734
+    },
+    {
+      "relateString": "续集",
+      "src": 121623,
+      "dst": 258420
+    },
+    {
+      "relateString": "前传",
+      "src": 258420,
+      "dst": 121623
+    }
+  ]
 }

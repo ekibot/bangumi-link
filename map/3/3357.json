@@ -1,37 +1,35 @@
 {
- "id": 3357,
- "node": [
-  {
-   "id": 3357,
-   "name": "格闘美神 武龍",
-   "nameCN": "格斗美神·武龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/d6/3357_w2TQ6.jpg",
-   "date": "2005-10-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 106322,
-   "name": "格闘美神 武龍 REBIRTH",
-   "nameCN": "格斗美神 武龙 REBIRTH",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/7a/106322_k6KHY.jpg",
-   "date": "2006-04-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3357,
-   "dst": 106322
-  },
-  {
-   "relate": "前传",
-   "src": 106322,
-   "dst": 3357
-  }
- ]
+  "id": "3357",
+  "node": [
+    {
+      "id": 3357,
+      "name": "格闘美神 武龍",
+      "nameCN": "格斗美神·武龙",
+      "date": "2005-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 106322,
+      "name": "格闘美神 武龍 REBIRTH",
+      "nameCN": "格斗美神 武龙 REBIRTH",
+      "date": "2006-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3357,
+      "dst": 106322
+    },
+    {
+      "relateString": "前传",
+      "src": 106322,
+      "dst": 3357
+    }
+  ]
 }

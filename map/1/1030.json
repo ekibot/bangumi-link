@@ -1,0 +1,54 @@
+{
+  "id": "1030",
+  "node": [
+    {
+      "id": 1030,
+      "name": "ラーゼフォン",
+      "nameCN": "翼神传说",
+      "date": "2002-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3997,
+      "name": "ラーゼフォン 多元変奏曲",
+      "nameCN": "翼神传说 多元变奏曲",
+      "date": "2003-04-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 38936,
+      "name": "ラーゼフォンOVA 間奏曲「彼女と彼女自身と」",
+      "nameCN": "翼神传说 间奏曲「她与她自己」",
+      "date": "2003-08-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1030,
+      "dst": 3997
+    },
+    {
+      "relateString": "番外篇",
+      "src": 1030,
+      "dst": 38936
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 3997,
+      "dst": 1030
+    },
+    {
+      "relateString": "主线故事",
+      "src": 38936,
+      "dst": 1030
+    }
+  ]
+}

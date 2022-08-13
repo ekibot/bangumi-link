@@ -1,0 +1,54 @@
+{
+  "id": "289212",
+  "node": [
+    {
+      "id": 289212,
+      "name": "おいしい給食",
+      "nameCN": "",
+      "date": "2019-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 360365,
+      "name": "おいしい給食 Season2",
+      "nameCN": "美味的学校午餐 Season2",
+      "date": "2021-10-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 360366,
+      "name": "劇場版 おいしい給食 Final Battle",
+      "nameCN": "",
+      "date": "2020-03-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 289212,
+      "dst": 360365
+    },
+    {
+      "relateString": "前传",
+      "src": 360365,
+      "dst": 289212
+    },
+    {
+      "relateString": "续集",
+      "src": 360365,
+      "dst": 360366
+    },
+    {
+      "relateString": "前传",
+      "src": 360366,
+      "dst": 360365
+    }
+  ]
+}

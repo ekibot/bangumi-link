@@ -1,0 +1,71 @@
+{
+  "id": "16893",
+  "node": [
+    {
+      "id": 16893,
+      "name": "三国演义 3D",
+      "nameCN": "三国演义 3D",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228884,
+      "name": "三国演义",
+      "nameCN": "三国演义",
+      "date": "2017-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 288866,
+      "name": "三国演义 第二季 逐鹿中原(上)",
+      "nameCN": "",
+      "date": "2019-04-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 391079,
+      "name": "三国演义 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 16893,
+      "dst": 228884
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 228884,
+      "dst": 16893
+    },
+    {
+      "relateString": "续集",
+      "src": 228884,
+      "dst": 288866
+    },
+    {
+      "relateString": "前传",
+      "src": 288866,
+      "dst": 228884
+    },
+    {
+      "relateString": "续集",
+      "src": 288866,
+      "dst": 391079
+    },
+    {
+      "relateString": "前传",
+      "src": 391079,
+      "dst": 288866
+    }
+  ]
+}

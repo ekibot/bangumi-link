@@ -1,37 +1,35 @@
 {
- "id": 123027,
- "node": [
-  {
-   "id": 123027,
-   "name": "あまゆる。 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/a2/123027_NJ0gN.jpg",
-   "date": "2014-12-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 123028,
-   "name": "あまゆる。 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/db/123028_Ym6Jy.jpg",
-   "date": "2013-12-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 123027,
-   "dst": 123028
-  },
-  {
-   "relate": "续集",
-   "src": 123028,
-   "dst": 123027
-  }
- ]
+  "id": "123027",
+  "node": [
+    {
+      "id": 123027,
+      "name": "あまゆる。 (2)",
+      "nameCN": "",
+      "date": "2014-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 123028,
+      "name": "あまゆる。 (1)",
+      "nameCN": "",
+      "date": "2013-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 123027,
+      "dst": 123028
+    },
+    {
+      "relateString": "续集",
+      "src": 123028,
+      "dst": 123027
+    }
+  ]
 }

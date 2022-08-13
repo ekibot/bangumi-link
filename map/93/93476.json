@@ -1,57 +1,51 @@
 {
- "id": 93476,
- "node": [
-  {
-   "id": 93476,
-   "name": "ローンナイト",
-   "nameCN": "圣龙战将",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/b8/93476_oXB00.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 93520,
-   "name": "ローンナイト2",
-   "nameCN": "打工骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/78/93520_TTz55.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 93540,
-   "name": "ローンナイト2 特別編 遥かな雲海の城",
-   "nameCN": "打工騎士 0 特別篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/01/93540_qabwR.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93476,
-   "dst": 93520
-  },
-  {
-   "relate": "前传",
-   "src": 93520,
-   "dst": 93476
-  },
-  {
-   "relate": "番外篇",
-   "src": 93520,
-   "dst": 93540
-  },
-  {
-   "relate": "主线故事",
-   "src": 93540,
-   "dst": 93520
-  }
- ]
+  "id": "93476",
+  "node": [
+    {
+      "id": 93476,
+      "name": "ローンナイト",
+      "nameCN": "圣龙战将",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93520,
+      "name": "ローンナイト2",
+      "nameCN": "打工骑士",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93540,
+      "name": "ローンナイト2 特別編 遥かな雲海の城",
+      "nameCN": "打工騎士 0 特別篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93476,
+      "dst": 93520
+    },
+    {
+      "relateString": "前传",
+      "src": 93520,
+      "dst": 93476
+    },
+    {
+      "relateString": "番外篇",
+      "src": 93520,
+      "dst": 93540
+    },
+    {
+      "relateString": "主线故事",
+      "src": 93540,
+      "dst": 93520
+    }
+  ]
 }

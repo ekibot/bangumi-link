@@ -1,37 +1,33 @@
 {
- "id": 161301,
- "node": [
-  {
-   "id": 161301,
-   "name": "ボクの社長サマ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/f3/161301_d5F0a.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 161306,
-   "name": "よめヨメかなたさん",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/5f/161306_k1A0X.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 161301,
-   "dst": 161306
-  },
-  {
-   "relate": "相同世界观",
-   "src": 161306,
-   "dst": 161301
-  }
- ]
+  "id": "161301",
+  "node": [
+    {
+      "id": 161301,
+      "name": "ボクの社長サマ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 161306,
+      "name": "よめヨメかなたさん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 161301,
+      "dst": 161306
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 161306,
+      "dst": 161301
+    }
+  ]
 }

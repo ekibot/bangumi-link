@@ -1,37 +1,33 @@
 {
- "id": 118266,
- "node": [
-  {
-   "id": 118266,
-   "name": "ワンダーフリック",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/e4/118266_a9OB5.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 118267,
-   "name": "ワンダーフリックR",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/56/118267_CTawc.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 118266,
-   "dst": 118267
-  },
-  {
-   "relate": "前传",
-   "src": 118267,
-   "dst": 118266
-  }
- ]
+  "id": "118266",
+  "node": [
+    {
+      "id": 118266,
+      "name": "ワンダーフリック",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 118267,
+      "name": "ワンダーフリックR",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 118266,
+      "dst": 118267
+    },
+    {
+      "relateString": "前传",
+      "src": 118267,
+      "dst": 118266
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 238138,
- "node": [
-  {
-   "id": 238138,
-   "name": "祇園祭に降る黒い花 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/3f/238138_hxEB5.jpg",
-   "date": "2016-06-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 238139,
-   "name": "祇園祭に降る黒い花 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/b6/238139_HmJHh.jpg",
-   "date": "2017-11-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 302611,
-   "name": "祇園祭に降る黒い花 (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/90/302611_5xs0r.jpg",
-   "date": "2019-05-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238138,
-   "dst": 238139
-  },
-  {
-   "relate": "前传",
-   "src": 238139,
-   "dst": 238138
-  },
-  {
-   "relate": "续集",
-   "src": 238139,
-   "dst": 302611
-  },
-  {
-   "relate": "前传",
-   "src": 302611,
-   "dst": 238139
-  }
- ]
+  "id": "238138",
+  "node": [
+    {
+      "id": 238138,
+      "name": "祇園祭に降る黒い花 (1)",
+      "nameCN": "",
+      "date": "2016-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 238139,
+      "name": "祇園祭に降る黒い花 (2)",
+      "nameCN": "",
+      "date": "2017-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 302611,
+      "name": "祇園祭に降る黒い花 (3)",
+      "nameCN": "",
+      "date": "2019-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238138,
+      "dst": 238139
+    },
+    {
+      "relateString": "前传",
+      "src": 238139,
+      "dst": 238138
+    },
+    {
+      "relateString": "续集",
+      "src": 238139,
+      "dst": 302611
+    },
+    {
+      "relateString": "前传",
+      "src": 302611,
+      "dst": 238139
+    }
+  ]
 }

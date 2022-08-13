@@ -1,77 +1,73 @@
 {
- "id": 16242,
- "node": [
-  {
-   "id": 16242,
-   "name": "シャドウハーツII",
-   "nameCN": "影之心2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/b9/16242_IJ44I.jpg",
-   "date": "2004-02-19",
-   "nsfw": false,
-   "platform": "PS2",
-   "type": 4
-  },
-  {
-   "id": 16243,
-   "name": "シャドウハーツ",
-   "nameCN": "影之心",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/ca/16243_UB8NZ.jpg",
-   "date": "2001-06-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PS2"
-  },
-  {
-   "id": 16244,
-   "name": "シャドウハーツ・フロム・ザ・ニューワールド",
-   "nameCN": "影之心 来自新世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/10/16244_A2U3U.jpg",
-   "date": "2005-07-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PS2"
-  },
-  {
-   "id": 236351,
-   "name": "クーデルカ",
-   "nameCN": "修道院之谜",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/ab/236351_0W692.jpg",
-   "date": "1999-12-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 16242,
-   "dst": 16243
-  },
-  {
-   "relate": "续集",
-   "src": 16243,
-   "dst": 16242
-  },
-  {
-   "relate": "续集",
-   "src": 16243,
-   "dst": 16244
-  },
-  {
-   "relate": "相同世界观",
-   "src": 16243,
-   "dst": 236351
-  },
-  {
-   "relate": "前传",
-   "src": 16244,
-   "dst": 16243
-  },
-  {
-   "relate": "前传",
-   "src": 236351,
-   "dst": 16243
-  }
- ]
+  "id": "16242",
+  "node": [
+    {
+      "id": 16242,
+      "name": "シャドウハーツII",
+      "nameCN": "影之心2",
+      "date": "2004-02-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 16243,
+      "name": "シャドウハーツ",
+      "nameCN": "影之心",
+      "date": "2001-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 16244,
+      "name": "シャドウハーツ・フロム・ザ・ニューワールド",
+      "nameCN": "影之心 来自新世界",
+      "date": "2005-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 236351,
+      "name": "クーデルカ",
+      "nameCN": "修道院之谜",
+      "date": "1999-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 16242,
+      "dst": 16243
+    },
+    {
+      "relateString": "续集",
+      "src": 16243,
+      "dst": 16242
+    },
+    {
+      "relateString": "续集",
+      "src": 16243,
+      "dst": 16244
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 16243,
+      "dst": 236351
+    },
+    {
+      "relateString": "前传",
+      "src": 16244,
+      "dst": 16243
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 236351,
+      "dst": 16243
+    }
+  ]
 }

@@ -1,49 +1,49 @@
 {
- "id": 111743,
- "node": [
-  {
-   "id": 111743,
-   "name": "エスカレーション'95 お姉さまって呼んでいいですか?",
-   "nameCN": "冲突升级'95：可以叫您姐姐大人吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/89/111743_VV3DA.jpg",
-   "date": "1995-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 121109,
-   "name": "エスカレーション ——蒼い抱擁——",
-   "nameCN": "冲突升级：苍色抱拥",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/da/121109_39Ude.jpg",
-   "date": "1999-06-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 285449,
-   "name": "エスカレーション [HARDCORE]",
-   "nameCN": "冲突升级：HARDCORE",
-   "image": "/img/no_icon_subject.png",
-   "date": "2002-06-14"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111743,
-   "dst": 121109
-  },
-  {
-   "relate": "前传",
-   "src": 121109,
-   "dst": 111743
-  },
-  {
-   "relate": "主线故事",
-   "src": 285449,
-   "dst": 121109
-  }
- ]
+  "id": "111743",
+  "node": [
+    {
+      "id": 111743,
+      "name": "エスカレーション'95 お姉さまって呼んでいいですか?",
+      "nameCN": "冲突升级'95：可以叫您姐姐大人吗？",
+      "date": "1995-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 121109,
+      "name": "エスカレーション ——蒼い抱擁——",
+      "nameCN": "冲突升级：苍色抱拥",
+      "date": "1999-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285449,
+      "name": "エスカレーション [HARDCORE]",
+      "nameCN": "冲突升级：HARDCORE",
+      "date": "2002-06-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111743,
+      "dst": 121109
+    },
+    {
+      "relateString": "前传",
+      "src": 121109,
+      "dst": 111743
+    },
+    {
+      "relateString": "主线故事",
+      "src": 285449,
+      "dst": 121109
+    }
+  ]
 }

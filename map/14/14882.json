@@ -1,0 +1,71 @@
+{
+  "id": "14882",
+  "node": [
+    {
+      "id": 14882,
+      "name": "BIOMEGA",
+      "nameCN": "死亡进化",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 90174,
+      "name": "NOiSE",
+      "nameCN": "战栗之声",
+      "date": "2001-10-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 17258,
+      "name": "BLAME!",
+      "nameCN": "BLAME!",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 214051,
+      "name": "BLAME! THE ANTHOLOGY",
+      "nameCN": "",
+      "date": "2017-05-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14882,
+      "dst": 90174
+    },
+    {
+      "relateString": "前传",
+      "src": 17258,
+      "dst": 90174
+    },
+    {
+      "relateString": "番外篇",
+      "src": 17258,
+      "dst": 214051
+    },
+    {
+      "relateString": "前传",
+      "src": 90174,
+      "dst": 14882
+    },
+    {
+      "relateString": "续集",
+      "src": 90174,
+      "dst": 17258
+    },
+    {
+      "relateString": "主线故事",
+      "src": 214051,
+      "dst": 17258
+    }
+  ]
+}

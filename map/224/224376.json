@@ -1,37 +1,35 @@
 {
- "id": 224376,
- "node": [
-  {
-   "id": 224376,
-   "name": "虜",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/fb/224376_VQhxP.jpg",
-   "date": "1996-10-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 224377,
-   "name": "虜2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/e3/224377_936f4.jpg",
-   "type": 4,
-   "date": "1997-11-14",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224376,
-   "dst": 224377
-  },
-  {
-   "relate": "前传",
-   "src": 224377,
-   "dst": 224376
-  }
- ]
+  "id": "224376",
+  "node": [
+    {
+      "id": 224376,
+      "name": "虜",
+      "nameCN": "",
+      "date": "1996-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224377,
+      "name": "虜2",
+      "nameCN": "",
+      "date": "1997-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224376,
+      "dst": 224377
+    },
+    {
+      "relateString": "前传",
+      "src": 224377,
+      "dst": 224376
+    }
+  ]
 }

@@ -1,97 +1,91 @@
 {
- "id": 9361,
- "node": [
-  {
-   "id": 9361,
-   "name": "Blue Bloods Season 1",
-   "nameCN": "警察世家 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/c1/9361_I4e3P.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 97557,
-   "name": "Blue Bloods Season 2",
-   "nameCN": "警察世家 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/58/97557_dj6s4.jpg",
-   "date": "2011-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97558,
-   "name": "Blue Bloods Season 3",
-   "nameCN": "警察世家 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/78/97558_5QpQ5.jpg",
-   "date": "2012-09-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97559,
-   "name": "Blue Bloods Season 4",
-   "nameCN": "警察世家 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/64/97559_bTWDd.jpg",
-   "date": "2013-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 107011,
-   "name": "Blue Bloods Season 5",
-   "nameCN": "警察世家 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/c7/107011_kkaHs.jpg",
-   "date": "2014-09-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9361,
-   "dst": 97557
-  },
-  {
-   "relate": "前传",
-   "src": 97557,
-   "dst": 9361
-  },
-  {
-   "relate": "续集",
-   "src": 97557,
-   "dst": 97558
-  },
-  {
-   "relate": "前传",
-   "src": 97558,
-   "dst": 97557
-  },
-  {
-   "relate": "续集",
-   "src": 97558,
-   "dst": 97559
-  },
-  {
-   "relate": "前传",
-   "src": 97559,
-   "dst": 97558
-  },
-  {
-   "relate": "续集",
-   "src": 97559,
-   "dst": 107011
-  },
-  {
-   "relate": "前传",
-   "src": 107011,
-   "dst": 97559
-  }
- ]
+  "id": "9361",
+  "node": [
+    {
+      "id": 9361,
+      "name": "Blue Bloods Season 1",
+      "nameCN": "警察世家 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97557,
+      "name": "Blue Bloods Season 2",
+      "nameCN": "警察世家 第二季",
+      "date": "2011-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97558,
+      "name": "Blue Bloods Season 3",
+      "nameCN": "警察世家 第三季",
+      "date": "2012-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97559,
+      "name": "Blue Bloods Season 4",
+      "nameCN": "警察世家 第四季",
+      "date": "2013-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 107011,
+      "name": "Blue Bloods Season 5",
+      "nameCN": "警察世家 第五季",
+      "date": "2014-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9361,
+      "dst": 97557
+    },
+    {
+      "relateString": "前传",
+      "src": 97557,
+      "dst": 9361
+    },
+    {
+      "relateString": "续集",
+      "src": 97557,
+      "dst": 97558
+    },
+    {
+      "relateString": "前传",
+      "src": 97558,
+      "dst": 97557
+    },
+    {
+      "relateString": "续集",
+      "src": 97558,
+      "dst": 97559
+    },
+    {
+      "relateString": "前传",
+      "src": 97559,
+      "dst": 97558
+    },
+    {
+      "relateString": "续集",
+      "src": 97559,
+      "dst": 107011
+    },
+    {
+      "relateString": "前传",
+      "src": 107011,
+      "dst": 97559
+    }
+  ]
 }

@@ -1,57 +1,51 @@
 {
- "id": 87873,
- "node": [
-  {
-   "id": 87873,
-   "name": "Alien Breed: Impact",
-   "nameCN": "异形繁殖:冲击",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/3d/87873_o0Kz0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 87874,
-   "name": "Alien Breed 3: Descent",
-   "nameCN": "异形繁殖3:侵袭",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/21/87874_ywxjF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 87875,
-   "name": "Alien Breed 2: Assault",
-   "nameCN": "异形繁殖2:突击",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/48/87875_N92DC.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 87873,
-   "dst": 87875
-  },
-  {
-   "relate": "前传",
-   "src": 87874,
-   "dst": 87875
-  },
-  {
-   "relate": "前传",
-   "src": 87875,
-   "dst": 87873
-  },
-  {
-   "relate": "续集",
-   "src": 87875,
-   "dst": 87874
-  }
- ]
+  "id": "87873",
+  "node": [
+    {
+      "id": 87873,
+      "name": "Alien Breed: Impact",
+      "nameCN": "异形繁殖:冲击",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 87875,
+      "name": "Alien Breed 2: Assault",
+      "nameCN": "异形繁殖2:突击",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 87874,
+      "name": "Alien Breed 3: Descent",
+      "nameCN": "异形繁殖3:侵袭",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 87873,
+      "dst": 87875
+    },
+    {
+      "relateString": "前传",
+      "src": 87874,
+      "dst": 87875
+    },
+    {
+      "relateString": "前传",
+      "src": 87875,
+      "dst": 87873
+    },
+    {
+      "relateString": "续集",
+      "src": 87875,
+      "dst": 87874
+    }
+  ]
 }

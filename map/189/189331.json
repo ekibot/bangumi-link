@@ -1,37 +1,35 @@
 {
- "id": 189331,
- "node": [
-  {
-   "id": 189331,
-   "name": "エンゼルゲーム さよならと未来のカケラ",
-   "nameCN": "Angel game~再见与未来的碎片~",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/61/189331_88800.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189332,
-   "name": "エンゼルゲームII リバース",
-   "nameCN": "Angel gameⅡ～Rebirth～",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/62/189332_BhAEX.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189331,
-   "dst": 189332
-  },
-  {
-   "relate": "前传",
-   "src": 189332,
-   "dst": 189331
-  }
- ]
+  "id": "189331",
+  "node": [
+    {
+      "id": 189331,
+      "name": "エンゼルゲーム さよならと未来のカケラ",
+      "nameCN": "Angel game~再见与未来的碎片~",
+      "date": "2011-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189332,
+      "name": "エンゼルゲームII リバース",
+      "nameCN": "Angel gameⅡ～Rebirth～",
+      "date": "2014-06-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189331,
+      "dst": 189332
+    },
+    {
+      "relateString": "前传",
+      "src": 189332,
+      "dst": 189331
+    }
+  ]
 }

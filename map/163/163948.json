@@ -1,37 +1,35 @@
 {
- "id": 163948,
- "node": [
-  {
-   "id": 163948,
-   "name": "セガ3D復刻アーカイブス2",
-   "nameCN": "世嘉3D复刻档案2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/0b/163948_0Erdi.jpg",
-   "date": "2015-12-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 163949,
-   "name": "セガ3D復刻アーカイブス",
-   "nameCN": "世嘉3D复刻档案",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/75/163949_rHf2r.jpg",
-   "date": "2014-12-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 163948,
-   "dst": 163949
-  },
-  {
-   "relate": "续集",
-   "src": 163949,
-   "dst": 163948
-  }
- ]
+  "id": "163948",
+  "node": [
+    {
+      "id": 163948,
+      "name": "セガ3D復刻アーカイブス2",
+      "nameCN": "世嘉3D复刻档案2",
+      "date": "2015-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 163949,
+      "name": "セガ3D復刻アーカイブス",
+      "nameCN": "世嘉3D复刻档案",
+      "date": "2014-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 163948,
+      "dst": 163949
+    },
+    {
+      "relateString": "续集",
+      "src": 163949,
+      "dst": 163948
+    }
+  ]
 }

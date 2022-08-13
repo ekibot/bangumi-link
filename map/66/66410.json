@@ -1,37 +1,35 @@
 {
- "id": 66410,
- "node": [
-  {
-   "id": 66410,
-   "name": "絶対防衛レヴィアタン",
-   "nameCN": "绝对防卫利维坦",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/98/66410_5uZ5g.jpg",
-   "date": "2013-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208092,
-   "name": "絶対防衛レヴィアタン ミニ 焚き火劇場",
-   "nameCN": "绝对防卫利维坦 篝火小剧场",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/5f/208092_EGLr8.jpg",
-   "date": "2013-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 66410,
-   "dst": 208092
-  },
-  {
-   "relate": "主线故事",
-   "src": 208092,
-   "dst": 66410
-  }
- ]
+  "id": "66410",
+  "node": [
+    {
+      "id": 66410,
+      "name": "絶対防衛レヴィアタン",
+      "nameCN": "绝对防卫利维坦",
+      "date": "2013-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208092,
+      "name": "絶対防衛レヴィアタン ミニ 焚き火劇場",
+      "nameCN": "绝对防卫利维坦 篝火小剧场",
+      "date": "2013-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 66410,
+      "dst": 208092
+    },
+    {
+      "relateString": "主线故事",
+      "src": 208092,
+      "dst": 66410
+    }
+  ]
 }

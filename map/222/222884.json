@@ -1,37 +1,35 @@
 {
- "id": 222884,
- "node": [
-  {
-   "id": 222884,
-   "name": "剑王朝",
-   "nameCN": "剑王朝",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/71/222884_6pgvy.jpg",
-   "date": "2017-04-26",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 227663,
-   "name": "剑王朝 第2季",
-   "nameCN": "剑王朝 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/e2/227663_aN9kA.jpg",
-   "date": "2017-10-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 222884,
-   "dst": 227663
-  },
-  {
-   "relate": "前传",
-   "src": 227663,
-   "dst": 222884
-  }
- ]
+  "id": "222884",
+  "node": [
+    {
+      "id": 222884,
+      "name": "剑王朝",
+      "nameCN": "剑王朝",
+      "date": "2017-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 227663,
+      "name": "剑王朝 第2季",
+      "nameCN": "剑王朝 第二季",
+      "date": "2017-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 222884,
+      "dst": 227663
+    },
+    {
+      "relateString": "前传",
+      "src": 227663,
+      "dst": 222884
+    }
+  ]
 }

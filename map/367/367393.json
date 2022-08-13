@@ -1,0 +1,35 @@
+{
+  "id": "367393",
+  "node": [
+    {
+      "id": 367393,
+      "name": "Jurassic Park",
+      "nameCN": "侏罗纪公园",
+      "date": "1990-11-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 367394,
+      "name": "The Lost World",
+      "nameCN": "侏罗纪公园2：失落的世界",
+      "date": "1995-09-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 367393,
+      "dst": 367394
+    },
+    {
+      "relateString": "前传",
+      "src": 367394,
+      "dst": 367393
+    }
+  ]
+}

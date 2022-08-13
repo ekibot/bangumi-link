@@ -1,37 +1,35 @@
 {
- "id": 33495,
- "node": [
-  {
-   "id": 33495,
-   "name": "幻世錄",
-   "nameCN": "幻世录",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/85/33495_3wP3Y.jpg",
-   "date": "1998-08-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 33496,
-   "name": "幻世錄Ⅱ：魔神戰爭",
-   "nameCN": "幻世录Ⅱ：魔神战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/28/33496_1u8Zw.jpg",
-   "date": "2002-01-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33495,
-   "dst": 33496
-  },
-  {
-   "relate": "前传",
-   "src": 33496,
-   "dst": 33495
-  }
- ]
+  "id": "33495",
+  "node": [
+    {
+      "id": 33495,
+      "name": "幻世錄",
+      "nameCN": "幻世录",
+      "date": "1998-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 33496,
+      "name": "幻世錄Ⅱ：魔神戰爭",
+      "nameCN": "幻世录Ⅱ：魔神战争",
+      "date": "2002-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33495,
+      "dst": 33496
+    },
+    {
+      "relateString": "前传",
+      "src": 33496,
+      "dst": 33495
+    }
+  ]
 }

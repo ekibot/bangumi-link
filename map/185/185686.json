@@ -1,37 +1,35 @@
 {
- "id": 185686,
- "node": [
-  {
-   "id": 185686,
-   "name": "阿莉塔的试炼",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/a6/185686_b9dvQ.jpg",
-   "date": "2016-06-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 2
-  },
-  {
-   "id": 285728,
-   "name": "阿莉塔的睡前故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/e8/285728_HZh7P.jpg",
-   "date": "2019-07-23",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 185686,
-   "dst": 285728
-  },
-  {
-   "relate": "续集",
-   "src": 285728,
-   "dst": 185686
-  }
- ]
+  "id": "185686",
+  "node": [
+    {
+      "id": 185686,
+      "name": "阿莉塔的试炼",
+      "nameCN": "",
+      "date": "2016-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 285728,
+      "name": "阿莉塔的睡前故事",
+      "nameCN": "",
+      "date": "2019-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 185686,
+      "dst": 285728
+    },
+    {
+      "relateString": "续集",
+      "src": 285728,
+      "dst": 185686
+    }
+  ]
 }

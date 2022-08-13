@@ -1,37 +1,35 @@
 {
- "id": 34809,
- "node": [
-  {
-   "id": 34809,
-   "name": "SWEET～彼の甘い甘い味～",
-   "nameCN": "SWEET～他的甜甜滋味～",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/6d/34809_jp.jpg",
-   "date": "2007-11-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 34811,
-   "name": "BITTER～彼の密やかな接吻～",
-   "nameCN": "BITTER～他的秘密之吻～",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/da/34811_jp.jpg",
-   "date": "2008-02-09",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 34809,
-   "dst": 34811
-  },
-  {
-   "relate": "前传",
-   "src": 34811,
-   "dst": 34809
-  }
- ]
+  "id": "34809",
+  "node": [
+    {
+      "id": 34809,
+      "name": "SWEET～彼の甘い甘い味～",
+      "nameCN": "SWEET～他的甜甜滋味～",
+      "date": "2007-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 34811,
+      "name": "BITTER～彼の密やかな接吻～",
+      "nameCN": "BITTER～他的秘密之吻～",
+      "date": "2008-02-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 34809,
+      "dst": 34811
+    },
+    {
+      "relateString": "前传",
+      "src": 34811,
+      "dst": 34809
+    }
+  ]
 }

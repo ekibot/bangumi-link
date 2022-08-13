@@ -1,28 +1,35 @@
 {
- "id": 33002,
- "node": [
-  {
-   "id": 33002,
-   "name": "みずいろ",
-   "nameCN": "水色",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/7a/33002_89G28.jpg",
-   "date": "2003-04-25",
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 103456,
-   "name": "みずいろ",
-   "nameCN": "水色",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/fb/103456_V81pY.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 33002,
-   "dst": 103456
-  }
- ]
+  "id": "33002",
+  "node": [
+    {
+      "id": 33002,
+      "name": "みずいろ",
+      "nameCN": "水色",
+      "date": "2003-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 103456,
+      "name": "みずいろ",
+      "nameCN": "水色",
+      "date": "2002-08-23",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 33002,
+      "dst": 103456
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 103456,
+      "dst": 33002
+    }
+  ]
 }

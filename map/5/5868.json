@@ -1,87 +1,81 @@
 {
- "id": 5868,
- "node": [
-  {
-   "id": 5868,
-   "name": "黑猫警长",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/1d/5868_pFmev.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 19017,
-   "name": "黑猫警长",
-   "nameCN": "黑猫警长",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/3b/19017_b02TL.jpg",
-   "date": "2010-04-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 134468,
-   "name": "黑猫警长之翡翠之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/a2/134468_VMG4m.jpg",
-   "date": "2015-08-07",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 216320,
-   "name": "新黑猫警长",
-   "nameCN": "黑猫警长 (1992)",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/a8/216320_C9c3c.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 5868,
-   "dst": 19017
-  },
-  {
-   "relate": "番外篇",
-   "src": 5868,
-   "dst": 134468
-  },
-  {
-   "relate": "衍生",
-   "src": 5868,
-   "dst": 216320
-  },
-  {
-   "relate": "全集",
-   "src": 19017,
-   "dst": 5868
-  },
-  {
-   "relate": "续集",
-   "src": 19017,
-   "dst": 134468
-  },
-  {
-   "relate": "主线故事",
-   "src": 134468,
-   "dst": 5868
-  },
-  {
-   "relate": "前传",
-   "src": 134468,
-   "dst": 19017
-  },
-  {
-   "relate": "主线故事",
-   "src": 216320,
-   "dst": 5868
-  }
- ]
+  "id": "5868",
+  "node": [
+    {
+      "id": 5868,
+      "name": "黑猫警长",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 19017,
+      "name": "黑猫警长",
+      "nameCN": "黑猫警长",
+      "date": "2010-04-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 134468,
+      "name": "黑猫警长之翡翠之星",
+      "nameCN": "",
+      "date": "2015-08-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 216320,
+      "name": "新黑猫警长",
+      "nameCN": "黑猫警长 (1992)",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 5868,
+      "dst": 19017
+    },
+    {
+      "relateString": "番外篇",
+      "src": 5868,
+      "dst": 134468
+    },
+    {
+      "relateString": "衍生",
+      "src": 5868,
+      "dst": 216320
+    },
+    {
+      "relateString": "全集",
+      "src": 19017,
+      "dst": 5868
+    },
+    {
+      "relateString": "续集",
+      "src": 19017,
+      "dst": 134468
+    },
+    {
+      "relateString": "主线故事",
+      "src": 134468,
+      "dst": 5868
+    },
+    {
+      "relateString": "前传",
+      "src": 134468,
+      "dst": 19017
+    },
+    {
+      "relateString": "主线故事",
+      "src": 216320,
+      "dst": 5868
+    }
+  ]
 }

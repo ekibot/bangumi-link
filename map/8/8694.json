@@ -1,77 +1,71 @@
 {
- "id": 8694,
- "node": [
-  {
-   "id": 8694,
-   "name": "王ドロボウJING",
-   "nameCN": "盗贼王Jing",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/7a/8694_A72xx.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 10275,
-   "name": "王ドロボウJING",
-   "nameCN": "盗贼王Jing",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/c0/10275_FF4WP.jpg",
-   "date": "2002-05-15",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 98284,
-   "name": "王ドロボウJING in Seventh Heaven",
-   "nameCN": "盗贼王JING之七重天",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/e1/98284_I4u93.jpg",
-   "date": "2004-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 111180,
-   "name": "KING OF BANDIT JING",
-   "nameCN": "新盗贼王Jing",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/be/111180_TFtFU.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8694,
-   "dst": 111180
-  },
-  {
-   "relate": "续集",
-   "src": 10275,
-   "dst": 98284
-  },
-  {
-   "relate": "续集",
-   "src": 10275,
-   "dst": 111180
-  },
-  {
-   "relate": "前传",
-   "src": 98284,
-   "dst": 10275
-  },
-  {
-   "relate": "续集",
-   "src": 98284,
-   "dst": 111180
-  },
-  {
-   "relate": "前传",
-   "src": 111180,
-   "dst": 8694
-  }
- ]
+  "id": "8694",
+  "node": [
+    {
+      "id": 8694,
+      "name": "王ドロボウJING",
+      "nameCN": "盗贼王Jing",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111180,
+      "name": "KING OF BANDIT JING",
+      "nameCN": "新盗贼王Jing",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 10275,
+      "name": "王ドロボウJING",
+      "nameCN": "盗贼王Jing",
+      "date": "2002-05-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 98284,
+      "name": "王ドロボウJING in Seventh Heaven",
+      "nameCN": "盗贼王JING之七重天",
+      "date": "2004-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8694,
+      "dst": 111180
+    },
+    {
+      "relateString": "续集",
+      "src": 10275,
+      "dst": 98284
+    },
+    {
+      "relateString": "续集",
+      "src": 10275,
+      "dst": 111180
+    },
+    {
+      "relateString": "前传",
+      "src": 98284,
+      "dst": 10275
+    },
+    {
+      "relateString": "续集",
+      "src": 98284,
+      "dst": 111180
+    },
+    {
+      "relateString": "前传",
+      "src": 111180,
+      "dst": 8694
+    }
+  ]
 }

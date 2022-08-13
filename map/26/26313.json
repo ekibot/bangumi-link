@@ -1,142 +1,134 @@
 {
- "id": 26313,
- "node": [
-  {
-   "id": 26313,
-   "name": "Saints Row: The Third",
-   "nameCN": "黑道圣徒3",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/c9/26313_5oV77.jpg",
-   "date": "2011-11-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 59334,
-   "name": "Saints Row 2",
-   "nameCN": "黑道圣徒2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/78/59334_ihFgr.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 81532,
-   "name": "Saints Row IV",
-   "nameCN": "黑道圣徒4",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/de/81532_UeKtL.jpg",
-   "date": "2013-08-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122698,
-   "name": "Saints Row: Gat Out of Hell",
-   "nameCN": "黑道圣徒：杀出地狱",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/b0/122698_Ua1v1.jpg",
-   "date": "2015-01-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 122955,
-   "name": "Saints Row",
-   "nameCN": "黑道圣徒",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/7e/122955_z3yey.jpg",
-   "date": "2006-08-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 219838,
-   "name": "Agents of Mayhem",
-   "nameCN": "混乱特工",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/62/219838_2sZ1P.jpg",
-   "date": "2017-08-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 347923,
-   "name": "Saints Row",
-   "nameCN": "黑道圣徒：重启版",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/3d/347923_8ZffT.jpg",
-   "date": "2022-08-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 26313,
-   "dst": 59334
-  },
-  {
-   "relate": "续集",
-   "src": 26313,
-   "dst": 81532
-  },
-  {
-   "relate": "续集",
-   "src": 59334,
-   "dst": 26313
-  },
-  {
-   "relate": "前传",
-   "src": 59334,
-   "dst": 122955
-  },
-  {
-   "relate": "前传",
-   "src": 81532,
-   "dst": 26313
-  },
-  {
-   "relate": "相同世界观",
-   "src": 81532,
-   "dst": 219838
-  },
-  {
-   "relate": "主线故事",
-   "src": 122698,
-   "dst": 81532
-  },
-  {
-   "relate": "相同世界观",
-   "src": 122698,
-   "dst": 219838
-  },
-  {
-   "relate": "续集",
-   "src": 122955,
-   "dst": 59334
-  },
-  {
-   "relate": "不同演绎",
-   "src": 122955,
-   "dst": 347923
-  },
-  {
-   "relate": "相同世界观",
-   "src": 219838,
-   "dst": 81532
-  },
-  {
-   "relate": "相同世界观",
-   "src": 219838,
-   "dst": 122698
-  },
-  {
-   "relate": "不同演绎",
-   "src": 347923,
-   "dst": 122955
-  }
- ]
+  "id": "26313",
+  "node": [
+    {
+      "id": 26313,
+      "name": "Saints Row: The Third",
+      "nameCN": "黑道圣徒3",
+      "date": "2011-11-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 59334,
+      "name": "Saints Row 2",
+      "nameCN": "黑道圣徒2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 81532,
+      "name": "Saints Row IV",
+      "nameCN": "黑道圣徒4",
+      "date": "2013-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122955,
+      "name": "Saints Row",
+      "nameCN": "黑道圣徒",
+      "date": "2006-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219838,
+      "name": "Agents of Mayhem",
+      "nameCN": "混乱特工",
+      "date": "2017-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 122698,
+      "name": "Saints Row: Gat Out of Hell",
+      "nameCN": "黑道圣徒：杀出地狱",
+      "date": "2015-01-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 347923,
+      "name": "Saints Row",
+      "nameCN": "黑道圣徒：重启版",
+      "date": "2022-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 26313,
+      "dst": 59334
+    },
+    {
+      "relateString": "续集",
+      "src": 26313,
+      "dst": 81532
+    },
+    {
+      "relateString": "续集",
+      "src": 59334,
+      "dst": 26313
+    },
+    {
+      "relateString": "前传",
+      "src": 59334,
+      "dst": 122955
+    },
+    {
+      "relateString": "前传",
+      "src": 81532,
+      "dst": 26313
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 81532,
+      "dst": 219838
+    },
+    {
+      "relateString": "主线故事",
+      "src": 122698,
+      "dst": 81532
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 122698,
+      "dst": 219838
+    },
+    {
+      "relateString": "续集",
+      "src": 122955,
+      "dst": 59334
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 122955,
+      "dst": 347923
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 219838,
+      "dst": 81532
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 219838,
+      "dst": 122698
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 347923,
+      "dst": 122955
+    }
+  ]
 }

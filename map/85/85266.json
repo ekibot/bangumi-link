@@ -1,37 +1,35 @@
 {
- "id": 85266,
- "node": [
-  {
-   "id": 85266,
-   "name": "武侠群英传",
-   "nameCN": "武侠群英传",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/33/85266_szRgz.jpg",
-   "date": "2005-08-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 85267,
-   "name": "武侠群英传2",
-   "nameCN": "武侠群英传2",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/b8/85267_i767W.jpg",
-   "date": "2006-01-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85266,
-   "dst": 85267
-  },
-  {
-   "relate": "前传",
-   "src": 85267,
-   "dst": 85266
-  }
- ]
+  "id": "85266",
+  "node": [
+    {
+      "id": 85266,
+      "name": "武侠群英传",
+      "nameCN": "武侠群英传",
+      "date": "2005-08-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 85267,
+      "name": "武侠群英传2",
+      "nameCN": "武侠群英传2",
+      "date": "2006-01-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85266,
+      "dst": 85267
+    },
+    {
+      "relateString": "前传",
+      "src": 85267,
+      "dst": 85266
+    }
+  ]
 }

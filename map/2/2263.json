@@ -1,77 +1,69 @@
 {
- "id": 2263,
- "node": [
-  {
-   "id": 2263,
-   "name": "My Name Is Earl (Season 1)",
-   "nameCN": "愚人善事（第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/50/2263_hG8Gn.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 98028,
-   "name": "My Name Is Earl (Season 2)",
-   "nameCN": "愚人善事（第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/08/98028_hzR39.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 98029,
-   "name": "My Name Is Earl (Season 3)",
-   "nameCN": "愚人善事（第三季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/e3/98029_i322Z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 98030,
-   "name": "My Name Is Earl (Season 4)",
-   "nameCN": "愚人善事（第四季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/b1/98030_t92qO.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2263,
-   "dst": 98028
-  },
-  {
-   "relate": "前传",
-   "src": 98028,
-   "dst": 2263
-  },
-  {
-   "relate": "续集",
-   "src": 98028,
-   "dst": 98029
-  },
-  {
-   "relate": "前传",
-   "src": 98029,
-   "dst": 98028
-  },
-  {
-   "relate": "续集",
-   "src": 98029,
-   "dst": 98030
-  },
-  {
-   "relate": "前传",
-   "src": 98030,
-   "dst": 98029
-  }
- ]
+  "id": "2263",
+  "node": [
+    {
+      "id": 2263,
+      "name": "My Name Is Earl (Season 1)",
+      "nameCN": "愚人善事（第一季）",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 98028,
+      "name": "My Name Is Earl (Season 2)",
+      "nameCN": "愚人善事（第二季）",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 98029,
+      "name": "My Name Is Earl (Season 3)",
+      "nameCN": "愚人善事（第三季）",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 98030,
+      "name": "My Name Is Earl (Season 4)",
+      "nameCN": "愚人善事（第四季）",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2263,
+      "dst": 98028
+    },
+    {
+      "relateString": "前传",
+      "src": 98028,
+      "dst": 2263
+    },
+    {
+      "relateString": "续集",
+      "src": 98028,
+      "dst": 98029
+    },
+    {
+      "relateString": "前传",
+      "src": 98029,
+      "dst": 98028
+    },
+    {
+      "relateString": "续集",
+      "src": 98029,
+      "dst": 98030
+    },
+    {
+      "relateString": "前传",
+      "src": 98030,
+      "dst": 98029
+    }
+  ]
 }

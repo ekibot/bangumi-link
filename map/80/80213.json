@@ -1,97 +1,92 @@
 {
- "id": 80213,
- "node": [
-  {
-   "id": 80213,
-   "name": "スーパーボンバーマン3",
-   "nameCN": "超级炸弹人3",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/55/80213_dV8gB.jpg",
-   "date": "1995-04-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 80214,
-   "name": "スーパーボンバーマン5",
-   "nameCN": "超级炸弹人5",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/ae/80214_LAu6F.jpg",
-   "date": "1997-02-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256166,
-   "name": "スーパーボンバーマン",
-   "nameCN": "超级炸弹人",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/0a/256166_r7A3g.jpg",
-   "date": "1993-04-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259088,
-   "name": "スーパーボンバーマン2",
-   "nameCN": "超级炸弹人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/ba/259088_KobkD.jpg",
-   "date": "1994-04-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259089,
-   "name": "スーパーボンバーマン4",
-   "nameCN": "超级炸弹人4",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/0c/259089_I3cuo.jpg",
-   "date": "1996-04-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 80213,
-   "dst": 259088
-  },
-  {
-   "relate": "续集",
-   "src": 80213,
-   "dst": 259089
-  },
-  {
-   "relate": "前传",
-   "src": 80214,
-   "dst": 259089
-  },
-  {
-   "relate": "续集",
-   "src": 256166,
-   "dst": 259088
-  },
-  {
-   "relate": "续集",
-   "src": 259088,
-   "dst": 80213
-  },
-  {
-   "relate": "前传",
-   "src": 259088,
-   "dst": 256166
-  },
-  {
-   "relate": "前传",
-   "src": 259089,
-   "dst": 80213
-  },
-  {
-   "relate": "续集",
-   "src": 259089,
-   "dst": 80214
-  }
- ]
+  "id": "80213",
+  "node": [
+    {
+      "id": 80213,
+      "name": "スーパーボンバーマン3",
+      "nameCN": "超级炸弹人3",
+      "date": "1995-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259088,
+      "name": "スーパーボンバーマン2",
+      "nameCN": "超级炸弹人2",
+      "date": "1994-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259089,
+      "name": "スーパーボンバーマン4",
+      "nameCN": "超级炸弹人4",
+      "date": "1996-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 80214,
+      "name": "スーパーボンバーマン5",
+      "nameCN": "超级炸弹人5",
+      "date": "1997-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256166,
+      "name": "スーパーボンバーマン",
+      "nameCN": "超级炸弹人",
+      "date": "1993-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 80213,
+      "dst": 259088
+    },
+    {
+      "relateString": "续集",
+      "src": 80213,
+      "dst": 259089
+    },
+    {
+      "relateString": "前传",
+      "src": 80214,
+      "dst": 259089
+    },
+    {
+      "relateString": "续集",
+      "src": 256166,
+      "dst": 259088
+    },
+    {
+      "relateString": "续集",
+      "src": 259088,
+      "dst": 80213
+    },
+    {
+      "relateString": "前传",
+      "src": 259088,
+      "dst": 256166
+    },
+    {
+      "relateString": "前传",
+      "src": 259089,
+      "dst": 80213
+    },
+    {
+      "relateString": "续集",
+      "src": 259089,
+      "dst": 80214
+    }
+  ]
 }

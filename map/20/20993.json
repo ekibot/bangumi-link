@@ -1,57 +1,54 @@
 {
- "id": 20993,
- "node": [
-  {
-   "id": 20993,
-   "name": "クロックタワー3",
-   "nameCN": "钟楼3",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/40/20993_AFEg1.jpg",
-   "date": "2002-12-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 22328,
-   "name": "クロックタワー",
-   "nameCN": "钟楼",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/92/22328_7MFaQ.jpg",
-   "date": "1995-09-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 22330,
-   "name": "クロックタワー2",
-   "nameCN": "钟楼2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/c1/22330_7nlWc.jpg",
-   "date": "1996-12-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 20993,
-   "dst": 22330
-  },
-  {
-   "relate": "续集",
-   "src": 22328,
-   "dst": 22330
-  },
-  {
-   "relate": "续集",
-   "src": 22330,
-   "dst": 20993
-  },
-  {
-   "relate": "前传",
-   "src": 22330,
-   "dst": 22328
-  }
- ]
+  "id": "20993",
+  "node": [
+    {
+      "id": 20993,
+      "name": "クロックタワー3",
+      "nameCN": "钟楼3",
+      "date": "2002-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 22330,
+      "name": "クロックタワー2",
+      "nameCN": "钟楼2",
+      "date": "1996-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 22328,
+      "name": "クロックタワー",
+      "nameCN": "钟楼",
+      "date": "1995-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 20993,
+      "dst": 22330
+    },
+    {
+      "relateString": "续集",
+      "src": 22328,
+      "dst": 22330
+    },
+    {
+      "relateString": "续集",
+      "src": 22330,
+      "dst": 20993
+    },
+    {
+      "relateString": "前传",
+      "src": 22330,
+      "dst": 22328
+    }
+  ]
 }

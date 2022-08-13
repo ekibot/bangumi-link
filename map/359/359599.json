@@ -1,0 +1,54 @@
+{
+  "id": "359599",
+  "node": [
+    {
+      "id": 359599,
+      "name": "三國立志傳",
+      "nameCN": "三国立志传",
+      "date": "2001-07-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 359600,
+      "name": "三國立志傳2",
+      "nameCN": "三国立志传2",
+      "date": "2003-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 359604,
+      "name": "三國立志傳3",
+      "nameCN": "三国立志传3",
+      "date": "2005-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 359599,
+      "dst": 359600
+    },
+    {
+      "relateString": "前传",
+      "src": 359600,
+      "dst": 359599
+    },
+    {
+      "relateString": "续集",
+      "src": 359600,
+      "dst": 359604
+    },
+    {
+      "relateString": "前传",
+      "src": 359604,
+      "dst": 359600
+    }
+  ]
+}

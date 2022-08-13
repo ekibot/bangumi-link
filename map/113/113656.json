@@ -1,37 +1,35 @@
 {
- "id": 113656,
- "node": [
-  {
-   "id": 113656,
-   "name": "なりヒロwww",
-   "nameCN": "成为英雄www",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/c6/113656_O73CB.jpg",
-   "date": "2014-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 120086,
-   "name": "こんな私たちがなりゆきでヒロインになった結果www",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/09/120086_b7yKK.jpg",
-   "date": "2014-09-27",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 113656,
-   "dst": 120086
-  },
-  {
-   "relate": "续集",
-   "src": 120086,
-   "dst": 113656
-  }
- ]
+  "id": "113656",
+  "node": [
+    {
+      "id": 113656,
+      "name": "なりヒロwww",
+      "nameCN": "成为英雄www",
+      "date": "2014-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 120086,
+      "name": "こんな私たちがなりゆきでヒロインになった結果www",
+      "nameCN": "",
+      "date": "2014-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 113656,
+      "dst": 120086
+    },
+    {
+      "relateString": "续集",
+      "src": 120086,
+      "dst": 113656
+    }
+  ]
 }

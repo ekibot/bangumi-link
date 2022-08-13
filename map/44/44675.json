@@ -1,77 +1,73 @@
 {
- "id": 44675,
- "node": [
-  {
-   "id": 44675,
-   "name": "马丁的早晨",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/1d/44675_3T7Pv.jpg",
-   "date": "2004-02-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 240781,
-   "name": "百变马丁",
-   "nameCN": "百变马丁",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/0e/240781_W339p.jpg",
-   "date": "2015-12-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 241096,
-   "name": "百变马丁 第2季",
-   "nameCN": "百变马丁 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/3d/241096_Wy9f0.jpg",
-   "date": "2017-10-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 241183,
-   "name": "百变马丁 第3季",
-   "nameCN": "百变马丁 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/fd/241183_cqr5w.jpg",
-   "date": "2018-03-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44675,
-   "dst": 240781
-  },
-  {
-   "relate": "前传",
-   "src": 240781,
-   "dst": 44675
-  },
-  {
-   "relate": "续集",
-   "src": 240781,
-   "dst": 241096
-  },
-  {
-   "relate": "前传",
-   "src": 241096,
-   "dst": 240781
-  },
-  {
-   "relate": "续集",
-   "src": 241096,
-   "dst": 241183
-  },
-  {
-   "relate": "前传",
-   "src": 241183,
-   "dst": 241096
-  }
- ]
+  "id": "44675",
+  "node": [
+    {
+      "id": 44675,
+      "name": "马丁的早晨",
+      "nameCN": "",
+      "date": "2004-02-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 240781,
+      "name": "百变马丁",
+      "nameCN": "百变马丁",
+      "date": "2015-12-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 241096,
+      "name": "百变马丁 第2季",
+      "nameCN": "百变马丁 第二季",
+      "date": "2017-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 241183,
+      "name": "百变马丁 第3季",
+      "nameCN": "百变马丁 第三季",
+      "date": "2018-03-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44675,
+      "dst": 240781
+    },
+    {
+      "relateString": "前传",
+      "src": 240781,
+      "dst": 44675
+    },
+    {
+      "relateString": "续集",
+      "src": 240781,
+      "dst": 241096
+    },
+    {
+      "relateString": "前传",
+      "src": 241096,
+      "dst": 240781
+    },
+    {
+      "relateString": "续集",
+      "src": 241096,
+      "dst": 241183
+    },
+    {
+      "relateString": "前传",
+      "src": 241183,
+      "dst": 241096
+    }
+  ]
 }

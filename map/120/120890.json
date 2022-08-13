@@ -1,37 +1,33 @@
 {
- "id": 120890,
- "node": [
-  {
-   "id": 120890,
-   "name": "千本桜",
-   "nameCN": "千本樱",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/8c/120890_0rHGz.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 234120,
-   "name": "千本桜-大正百年帝都桜京-",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/b0/234120_1BnrA.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120890,
-   "dst": 234120
-  },
-  {
-   "relate": "前传",
-   "src": 234120,
-   "dst": 120890
-  }
- ]
+  "id": "120890",
+  "node": [
+    {
+      "id": 120890,
+      "name": "千本桜",
+      "nameCN": "千本樱",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 234120,
+      "name": "千本桜-大正百年帝都桜京-",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120890,
+      "dst": 234120
+    },
+    {
+      "relateString": "前传",
+      "src": 234120,
+      "dst": 120890
+    }
+  ]
 }

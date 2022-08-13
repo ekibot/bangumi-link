@@ -1,127 +1,121 @@
 {
- "id": 91180,
- "node": [
-  {
-   "id": 91180,
-   "name": "Wizards of Waverly Place (Season 1)",
-   "nameCN": "少年魔法师 (第一季)",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/9c/91180_i1271.jpg",
-   "date": "2007-10-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 100688,
-   "name": "Wizards of Waverly Place (Season 2)",
-   "nameCN": "少年魔法师 (第二季)",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/40/100688_X363E.jpg",
-   "date": "2008-09-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100689,
-   "name": "Wizards of Waverly Place: The Movie",
-   "nameCN": "少年魔法师 电视电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/1c/100689_TzZhH.jpg",
-   "date": "2009-08-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100691,
-   "name": "Wizards of Waverly Place (Season 3)",
-   "nameCN": "少年魔法师 (第三季)",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/3a/100691_KKQQ6.jpg",
-   "date": "2009-10-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 100692,
-   "name": "Wizards of Waverly Place (Season 4)",
-   "nameCN": "少年魔法师 (第四季)",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/14/100692_Q1HXN.jpg",
-   "date": "2010-11-12",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 100694,
-   "name": "Wizards of Waverly Place Special",
-   "nameCN": "少年魔法师 特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/38/100694_nmDYe.jpg",
-   "date": "2013-03-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91180,
-   "dst": 100688
-  },
-  {
-   "relate": "前传",
-   "src": 100688,
-   "dst": 91180
-  },
-  {
-   "relate": "续集",
-   "src": 100688,
-   "dst": 100689
-  },
-  {
-   "relate": "续集",
-   "src": 100688,
-   "dst": 100691
-  },
-  {
-   "relate": "前传",
-   "src": 100689,
-   "dst": 100688
-  },
-  {
-   "relate": "续集",
-   "src": 100689,
-   "dst": 100691
-  },
-  {
-   "relate": "前传",
-   "src": 100691,
-   "dst": 100688
-  },
-  {
-   "relate": "前传",
-   "src": 100691,
-   "dst": 100689
-  },
-  {
-   "relate": "续集",
-   "src": 100691,
-   "dst": 100692
-  },
-  {
-   "relate": "前传",
-   "src": 100692,
-   "dst": 100691
-  },
-  {
-   "relate": "续集",
-   "src": 100692,
-   "dst": 100694
-  },
-  {
-   "relate": "前传",
-   "src": 100694,
-   "dst": 100692
-  }
- ]
+  "id": "91180",
+  "node": [
+    {
+      "id": 91180,
+      "name": "Wizards of Waverly Place (Season 1)",
+      "nameCN": "少年魔法师 (第一季)",
+      "date": "2007-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100688,
+      "name": "Wizards of Waverly Place (Season 2)",
+      "nameCN": "少年魔法师 (第二季)",
+      "date": "2008-09-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100689,
+      "name": "Wizards of Waverly Place: The Movie",
+      "nameCN": "少年魔法师 电视电影",
+      "date": "2009-08-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100691,
+      "name": "Wizards of Waverly Place (Season 3)",
+      "nameCN": "少年魔法师 (第三季)",
+      "date": "2009-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100692,
+      "name": "Wizards of Waverly Place (Season 4)",
+      "nameCN": "少年魔法师 (第四季)",
+      "date": "2010-11-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 100694,
+      "name": "Wizards of Waverly Place Special",
+      "nameCN": "少年魔法师 特别篇",
+      "date": "2013-03-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91180,
+      "dst": 100688
+    },
+    {
+      "relateString": "前传",
+      "src": 100688,
+      "dst": 91180
+    },
+    {
+      "relateString": "续集",
+      "src": 100688,
+      "dst": 100689
+    },
+    {
+      "relateString": "续集",
+      "src": 100688,
+      "dst": 100691
+    },
+    {
+      "relateString": "前传",
+      "src": 100689,
+      "dst": 100688
+    },
+    {
+      "relateString": "续集",
+      "src": 100689,
+      "dst": 100691
+    },
+    {
+      "relateString": "前传",
+      "src": 100691,
+      "dst": 100688
+    },
+    {
+      "relateString": "前传",
+      "src": 100691,
+      "dst": 100689
+    },
+    {
+      "relateString": "续集",
+      "src": 100691,
+      "dst": 100692
+    },
+    {
+      "relateString": "前传",
+      "src": 100692,
+      "dst": 100691
+    },
+    {
+      "relateString": "续集",
+      "src": 100692,
+      "dst": 100694
+    },
+    {
+      "relateString": "前传",
+      "src": 100694,
+      "dst": 100692
+    }
+  ]
 }

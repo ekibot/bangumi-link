@@ -1,37 +1,35 @@
 {
- "id": 313803,
- "node": [
-  {
-   "id": 313803,
-   "name": "来访者2",
-   "nameCN": "来访者二",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/26/313803_bNzGd.jpg",
-   "date": "2019-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 313804,
-   "name": "来访者",
-   "nameCN": "来访者",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/e5/313804_BBXaO.jpg",
-   "date": "2018-07-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 313803,
-   "dst": 313804
-  },
-  {
-   "relate": "续集",
-   "src": 313804,
-   "dst": 313803
-  }
- ]
+  "id": "313803",
+  "node": [
+    {
+      "id": 313803,
+      "name": "来访者2",
+      "nameCN": "来访者二",
+      "date": "2019-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 313804,
+      "name": "来访者",
+      "nameCN": "来访者",
+      "date": "2018-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 313803,
+      "dst": 313804
+    },
+    {
+      "relateString": "续集",
+      "src": 313804,
+      "dst": 313803
+    }
+  ]
 }

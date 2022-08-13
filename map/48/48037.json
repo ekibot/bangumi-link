@@ -1,57 +1,54 @@
 {
- "id": 48037,
- "node": [
-  {
-   "id": 48037,
-   "name": "うーさーのその日暮らし",
-   "nameCN": "兔宝的悲惨日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/b4/48037_L1tM1.jpg",
-   "date": "2012-10-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 81847,
-   "name": "うーさーのその日暮らし 覚醒編",
-   "nameCN": "兔宝的悲惨日常 觉醒篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/e0/81847_VSJPN.jpg",
-   "date": "2014-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 121003,
-   "name": "うーさーのその日暮らし 夢幻編",
-   "nameCN": "兔宝的悲惨日常 梦幻篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/5f/121003_X6G3K.jpg",
-   "date": "2015-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48037,
-   "dst": 81847
-  },
-  {
-   "relate": "前传",
-   "src": 81847,
-   "dst": 48037
-  },
-  {
-   "relate": "续集",
-   "src": 81847,
-   "dst": 121003
-  },
-  {
-   "relate": "前传",
-   "src": 121003,
-   "dst": 81847
-  }
- ]
+  "id": "48037",
+  "node": [
+    {
+      "id": 48037,
+      "name": "うーさーのその日暮らし",
+      "nameCN": "兔宝的悲惨日常",
+      "date": "2012-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 81847,
+      "name": "うーさーのその日暮らし 覚醒編",
+      "nameCN": "兔宝的悲惨日常 觉醒篇",
+      "date": "2014-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 121003,
+      "name": "うーさーのその日暮らし 夢幻編",
+      "nameCN": "兔宝的悲惨日常 梦幻篇",
+      "date": "2015-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48037,
+      "dst": 81847
+    },
+    {
+      "relateString": "前传",
+      "src": 81847,
+      "dst": 48037
+    },
+    {
+      "relateString": "续集",
+      "src": 81847,
+      "dst": 121003
+    },
+    {
+      "relateString": "前传",
+      "src": 121003,
+      "dst": 81847
+    }
+  ]
 }

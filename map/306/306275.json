@@ -1,37 +1,35 @@
 {
- "id": 306275,
- "node": [
-  {
-   "id": 306275,
-   "name": "死者出立",
-   "date": "2014-12-07",
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 306276,
-   "name": "部屋",
-   "date": "2013-08-02",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/10/306276_BM544.jpg",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 306275,
-   "dst": 306276
-  },
-  {
-   "relate": "续集",
-   "src": 306276,
-   "dst": 306275
-  }
- ]
+  "id": "306275",
+  "node": [
+    {
+      "id": 306275,
+      "name": "死者出立",
+      "nameCN": "",
+      "date": "2014-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306276,
+      "name": "部屋",
+      "nameCN": "",
+      "date": "2013-08-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 306275,
+      "dst": 306276
+    },
+    {
+      "relateString": "续集",
+      "src": 306276,
+      "dst": 306275
+    }
+  ]
 }

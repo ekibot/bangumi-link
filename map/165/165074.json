@@ -1,77 +1,73 @@
 {
- "id": 165074,
- "node": [
-  {
-   "id": 165074,
-   "name": "星の金貨",
-   "nameCN": "星之金币",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/d6/165074_9797E.jpg",
-   "date": "1995-04-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 165075,
-   "name": "続・星の金貨",
-   "nameCN": "星之金币续集",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/3c/165075_k8b24.jpg",
-   "date": "1996-10-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 165076,
-   "name": "星の金貨 完結編スペシャル",
-   "nameCN": "星之金币完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/4c/165076_269O6.jpg",
-   "date": "1997-04-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 165078,
-   "name": "新・星の金貨",
-   "nameCN": "新星之金币",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/9a/165078_nI6rI.jpg",
-   "date": "2001-04-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165074,
-   "dst": 165075
-  },
-  {
-   "relate": "不同演绎",
-   "src": 165074,
-   "dst": 165078
-  },
-  {
-   "relate": "前传",
-   "src": 165075,
-   "dst": 165074
-  },
-  {
-   "relate": "续集",
-   "src": 165075,
-   "dst": 165076
-  },
-  {
-   "relate": "前传",
-   "src": 165076,
-   "dst": 165075
-  },
-  {
-   "relate": "不同演绎",
-   "src": 165078,
-   "dst": 165074
-  }
- ]
+  "id": "165074",
+  "node": [
+    {
+      "id": 165074,
+      "name": "星の金貨",
+      "nameCN": "星之金币",
+      "date": "1995-04-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 165075,
+      "name": "続・星の金貨",
+      "nameCN": "星之金币续集",
+      "date": "1996-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 165078,
+      "name": "新・星の金貨",
+      "nameCN": "新星之金币",
+      "date": "2001-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 165076,
+      "name": "星の金貨 完結編スペシャル",
+      "nameCN": "星之金币完结篇",
+      "date": "1997-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165074,
+      "dst": 165075
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 165074,
+      "dst": 165078
+    },
+    {
+      "relateString": "前传",
+      "src": 165075,
+      "dst": 165074
+    },
+    {
+      "relateString": "续集",
+      "src": 165075,
+      "dst": 165076
+    },
+    {
+      "relateString": "前传",
+      "src": 165076,
+      "dst": 165075
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 165078,
+      "dst": 165074
+    }
+  ]
 }

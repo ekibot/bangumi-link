@@ -1,37 +1,35 @@
 {
- "id": 11209,
- "node": [
-  {
-   "id": 11209,
-   "name": "NIGHT HEAD GENESIS",
-   "nameCN": "暗夜起源",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/d4/11209_U0USU.jpg",
-   "date": "2006-07-29",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 318602,
-   "name": "NIGHT HEAD 2041",
-   "nameCN": "暗夜第六感 2041",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/61/318602_m7e5f.jpg",
-   "date": "2021-07-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 11209,
-   "dst": 318602
-  },
-  {
-   "relate": "不同演绎",
-   "src": 318602,
-   "dst": 11209
-  }
- ]
+  "id": "11209",
+  "node": [
+    {
+      "id": 11209,
+      "name": "NIGHT HEAD GENESIS",
+      "nameCN": "暗夜起源",
+      "date": "2006-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 318602,
+      "name": "NIGHT HEAD 2041",
+      "nameCN": "暗夜第六感 2041",
+      "date": "2021-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 11209,
+      "dst": 318602
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 318602,
+      "dst": 11209
+    }
+  ]
 }

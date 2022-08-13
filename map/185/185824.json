@@ -1,57 +1,52 @@
 {
- "id": 185824,
- "node": [
-  {
-   "id": 185824,
-   "name": "Мажор",
-   "date": "2014-12-15",
-   "nameCN": "",
-   "image": "",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 207953,
-   "name": "Мажор 2",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 305256,
-   "name": "Мажор (Сезон 3)",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 185824,
-   "dst": 207953
-  },
-  {
-   "relate": "前传",
-   "src": 207953,
-   "dst": 185824
-  },
-  {
-   "relate": "续集",
-   "src": 207953,
-   "dst": 305256
-  },
-  {
-   "relate": "前传",
-   "src": 305256,
-   "dst": 207953
-  }
- ]
+  "id": "185824",
+  "node": [
+    {
+      "id": 185824,
+      "name": "Мажор",
+      "nameCN": "",
+      "date": "2014-12-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 207953,
+      "name": "Мажор 2",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 305256,
+      "name": "Мажор (Сезон 3)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 185824,
+      "dst": 207953
+    },
+    {
+      "relateString": "前传",
+      "src": 207953,
+      "dst": 185824
+    },
+    {
+      "relateString": "续集",
+      "src": 207953,
+      "dst": 305256
+    },
+    {
+      "relateString": "前传",
+      "src": 305256,
+      "dst": 207953
+    }
+  ]
 }

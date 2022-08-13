@@ -1,57 +1,54 @@
 {
- "id": 28021,
- "node": [
-  {
-   "id": 28021,
-   "name": "長靴をはいた猫",
-   "nameCN": "穿长靴的猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/92/28021_t3UMT.jpg",
-   "date": "1969-03-18",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 83545,
-   "name": "長靴をはいた猫 80日間世界一周",
-   "nameCN": "穿长靴的猫 80日环游世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/96/83545_3zP3k.jpg",
-   "date": "1976-03-20",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 83546,
-   "name": "ながぐつ三銃士",
-   "nameCN": "长靴三枪手",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/e6/83546_nF1h4.jpg",
-   "date": "1972-03-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 28021,
-   "dst": 83546
-  },
-  {
-   "relate": "前传",
-   "src": 83545,
-   "dst": 83546
-  },
-  {
-   "relate": "前传",
-   "src": 83546,
-   "dst": 28021
-  },
-  {
-   "relate": "续集",
-   "src": 83546,
-   "dst": 83545
-  }
- ]
+  "id": "28021",
+  "node": [
+    {
+      "id": 28021,
+      "name": "長靴をはいた猫",
+      "nameCN": "穿长靴的猫",
+      "date": "1969-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 83546,
+      "name": "ながぐつ三銃士",
+      "nameCN": "长靴三枪手",
+      "date": "1972-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 83545,
+      "name": "長靴をはいた猫 80日間世界一周",
+      "nameCN": "穿长靴的猫 80日环游世界",
+      "date": "1976-03-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 28021,
+      "dst": 83546
+    },
+    {
+      "relateString": "前传",
+      "src": 83545,
+      "dst": 83546
+    },
+    {
+      "relateString": "前传",
+      "src": 83546,
+      "dst": 28021
+    },
+    {
+      "relateString": "续集",
+      "src": 83546,
+      "dst": 83545
+    }
+  ]
 }

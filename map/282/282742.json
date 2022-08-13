@@ -1,57 +1,54 @@
 {
- "id": 282742,
- "node": [
-  {
-   "id": 282742,
-   "name": "书灵记",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/04/282742_13dNA.jpg",
-   "date": "2019-09-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 306909,
-   "name": "书灵记 第二季",
-   "nameCN": "书灵记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/0c/306909_UHI5H.jpg",
-   "date": "2020-10-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 383209,
-   "name": "书灵记 第三季",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/47/383209_Gmov5.jpg",
-   "date": "2022-05-18",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 282742,
-   "dst": 306909
-  },
-  {
-   "relate": "前传",
-   "src": 306909,
-   "dst": 282742
-  },
-  {
-   "relate": "续集",
-   "src": 306909,
-   "dst": 383209
-  },
-  {
-   "relate": "前传",
-   "src": 383209,
-   "dst": 306909
-  }
- ]
+  "id": "282742",
+  "node": [
+    {
+      "id": 282742,
+      "name": "书灵记",
+      "nameCN": "",
+      "date": "2019-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 306909,
+      "name": "书灵记 第二季",
+      "nameCN": "书灵记 第二季",
+      "date": "2020-10-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 383209,
+      "name": "书灵记 第三季",
+      "nameCN": "",
+      "date": "2022-05-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 282742,
+      "dst": 306909
+    },
+    {
+      "relateString": "前传",
+      "src": 306909,
+      "dst": 282742
+    },
+    {
+      "relateString": "续集",
+      "src": 306909,
+      "dst": 383209
+    },
+    {
+      "relateString": "前传",
+      "src": 383209,
+      "dst": 306909
+    }
+  ]
 }

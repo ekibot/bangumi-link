@@ -1,49 +1,49 @@
 {
- "id": 187476,
- "node": [
-  {
-   "id": 187476,
-   "name": "シンソウノイズ～受信探偵の事件簿～",
-   "nameCN": "真相的噪音～收受侦探事件簿～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2016-12-22"
-  },
-  {
-   "id": 196308,
-   "name": "シンソウノイズ～くすはらゆい＆橘まおのラジオ事件簿～",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/ee/196308_ipmnB.jpg",
-   "date": "2016-10-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 276425,
-   "name": "シンソウノイズ～くすはらゆい&amp;橘まおのラジオ事件簿～ 2ndSeason",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/a2/276425_litYI.jpg",
-   "date": "2019-02-28",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 187476,
-   "dst": 196308
-  },
-  {
-   "relate": "续集",
-   "src": 196308,
-   "dst": 276425
-  },
-  {
-   "relate": "前传",
-   "src": 276425,
-   "dst": 196308
-  }
- ]
+  "id": "187476",
+  "node": [
+    {
+      "id": 187476,
+      "name": "シンソウノイズ～受信探偵の事件簿～",
+      "nameCN": "真相的噪音～收受侦探事件簿～",
+      "date": "2016-12-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 196308,
+      "name": "シンソウノイズ～くすはらゆい＆橘まおのラジオ事件簿～",
+      "nameCN": "",
+      "date": "2016-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 276425,
+      "name": "シンソウノイズ～くすはらゆい&amp;橘まおのラジオ事件簿～ 2ndSeason",
+      "nameCN": "",
+      "date": "2019-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 187476,
+      "dst": 196308
+    },
+    {
+      "relateString": "续集",
+      "src": 196308,
+      "dst": 276425
+    },
+    {
+      "relateString": "前传",
+      "src": 276425,
+      "dst": 196308
+    }
+  ]
 }

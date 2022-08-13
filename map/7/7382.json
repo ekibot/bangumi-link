@@ -1,37 +1,33 @@
 {
- "id": 7382,
- "node": [
-  {
-   "id": 7382,
-   "name": "Dementium II",
-   "nameCN": "病房2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/dd/7382_I9t9r.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 54163,
-   "name": "Dementium",
-   "nameCN": "病房",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/d1/54163_ftSsx.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7382,
-   "dst": 54163
-  },
-  {
-   "relate": "续集",
-   "src": 54163,
-   "dst": 7382
-  }
- ]
+  "id": "7382",
+  "node": [
+    {
+      "id": 7382,
+      "name": "Dementium II",
+      "nameCN": "病房2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 54163,
+      "name": "Dementium",
+      "nameCN": "病房",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7382,
+      "dst": 54163
+    },
+    {
+      "relateString": "续集",
+      "src": 54163,
+      "dst": 7382
+    }
+  ]
 }

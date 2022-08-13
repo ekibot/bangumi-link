@@ -1,37 +1,35 @@
 {
- "id": 1098,
- "node": [
-  {
-   "id": 1098,
-   "name": "世界ノ全テ",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/e0/1098_yYP94.jpg",
-   "date": "2002-04-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 44441,
-   "name": "世界ノ全テノ全テ",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/2b/44441_aTe9c.jpg",
-   "date": "2012-08-31",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1098,
-   "dst": 44441
-  },
-  {
-   "relate": "不同演绎",
-   "src": 44441,
-   "dst": 1098
-  }
- ]
+  "id": "1098",
+  "node": [
+    {
+      "id": 1098,
+      "name": "世界ノ全テ",
+      "nameCN": "",
+      "date": "2002-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 44441,
+      "name": "世界ノ全テノ全テ",
+      "nameCN": "",
+      "date": "2012-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1098,
+      "dst": 44441
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 44441,
+      "dst": 1098
+    }
+  ]
 }

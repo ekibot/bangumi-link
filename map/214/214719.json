@@ -1,37 +1,35 @@
 {
- "id": 214719,
- "node": [
-  {
-   "id": 214719,
-   "name": "The Book of Unwritten Tales 2",
-   "nameCN": "未传之书2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/ea/214719_jY94s.jpg",
-   "date": "2015-02-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 214720,
-   "name": "The Book of Unwritten Tales",
-   "nameCN": "未传之书",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/b2/214720_9z650.jpg",
-   "date": "2012-08-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 214719,
-   "dst": 214720
-  },
-  {
-   "relate": "续集",
-   "src": 214720,
-   "dst": 214719
-  }
- ]
+  "id": "214719",
+  "node": [
+    {
+      "id": 214719,
+      "name": "The Book of Unwritten Tales 2",
+      "nameCN": "未传之书2",
+      "date": "2015-02-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 214720,
+      "name": "The Book of Unwritten Tales",
+      "nameCN": "未传之书",
+      "date": "2012-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 214719,
+      "dst": 214720
+    },
+    {
+      "relateString": "续集",
+      "src": 214720,
+      "dst": 214719
+    }
+  ]
 }

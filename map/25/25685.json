@@ -1,37 +1,35 @@
 {
- "id": 25685,
- "node": [
-  {
-   "id": 25685,
-   "name": "三国志大戦·天",
-   "nameCN": "三国志大战·天",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/39/25685_ntFVS.jpg",
-   "date": "2008-08-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 179941,
-   "name": "三国志大戦DS",
-   "nameCN": "三国志大战DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/44/179941_97eT8.jpg",
-   "date": "2007-01-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 25685,
-   "dst": 179941
-  },
-  {
-   "relate": "续集",
-   "src": 179941,
-   "dst": 25685
-  }
- ]
+  "id": "25685",
+  "node": [
+    {
+      "id": 25685,
+      "name": "三国志大戦·天",
+      "nameCN": "三国志大战·天",
+      "date": "2008-08-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 179941,
+      "name": "三国志大戦DS",
+      "nameCN": "三国志大战DS",
+      "date": "2007-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 25685,
+      "dst": 179941
+    },
+    {
+      "relateString": "续集",
+      "src": 179941,
+      "dst": 25685
+    }
+  ]
 }

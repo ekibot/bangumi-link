@@ -1,57 +1,52 @@
 {
- "id": 55981,
- "node": [
-  {
-   "id": 55981,
-   "name": "K2",
-   "nameCN": "无敌怪医K2",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/f4/55981_EtZEt.jpg",
-   "date": "2004-11-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56078,
-   "name": "スーパードクターK",
-   "nameCN": "无敌怪医K",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/05/56078_4US8J.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56080,
-   "name": "Doctor K",
-   "nameCN": "新无敌怪医K",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/6f/56080_EAayA.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 55981,
-   "dst": 56080
-  },
-  {
-   "relate": "续集",
-   "src": 56078,
-   "dst": 56080
-  },
-  {
-   "relate": "续集",
-   "src": 56080,
-   "dst": 55981
-  },
-  {
-   "relate": "前传",
-   "src": 56080,
-   "dst": 56078
-  }
- ]
+  "id": "55981",
+  "node": [
+    {
+      "id": 55981,
+      "name": "K2",
+      "nameCN": "无敌怪医K2",
+      "date": "2004-11-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56080,
+      "name": "Doctor K",
+      "nameCN": "新无敌怪医K",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56078,
+      "name": "スーパードクターK",
+      "nameCN": "无敌怪医K",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 55981,
+      "dst": 56080
+    },
+    {
+      "relateString": "续集",
+      "src": 56078,
+      "dst": 56080
+    },
+    {
+      "relateString": "续集",
+      "src": 56080,
+      "dst": 55981
+    },
+    {
+      "relateString": "前传",
+      "src": 56080,
+      "dst": 56078
+    }
+  ]
 }

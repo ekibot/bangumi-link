@@ -1,37 +1,35 @@
 {
- "id": 179351,
- "node": [
-  {
-   "id": 179351,
-   "name": "痛姫",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/28/179351_jp.jpg",
-   "date": "2011-08-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 179437,
-   "name": "痛姫×ライバルは隠れオタク",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/5f/179437_jp.jpg",
-   "date": "2013-07-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 179351,
-   "dst": 179437
-  },
-  {
-   "relate": "前传",
-   "src": 179437,
-   "dst": 179351
-  }
- ]
+  "id": "179351",
+  "node": [
+    {
+      "id": 179351,
+      "name": "痛姫",
+      "nameCN": "",
+      "date": "2011-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 179437,
+      "name": "痛姫×ライバルは隠れオタク",
+      "nameCN": "",
+      "date": "2013-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 179351,
+      "dst": 179437
+    },
+    {
+      "relateString": "前传",
+      "src": 179437,
+      "dst": 179351
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 269546,
- "node": [
-  {
-   "id": 269546,
-   "name": "元龙",
-   "nameCN": "元龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/f3/269546_99W0W.jpg",
-   "date": "2020-07-11",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 320219,
-   "name": "元龙 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/21/320219_U3uBN.jpg",
-   "date": "2021-07-03",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 358648,
-   "name": "元龙 第三季",
-   "date": null,
-   "image": "https://lain.bgm.tv/pic/cover/m/96/38/358648_NfbXB.jpg",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269546,
-   "dst": 320219
-  },
-  {
-   "relate": "前传",
-   "src": 320219,
-   "dst": 269546
-  },
-  {
-   "relate": "续集",
-   "src": 320219,
-   "dst": 358648
-  },
-  {
-   "relate": "前传",
-   "src": 358648,
-   "dst": 320219
-  }
- ]
+  "id": "269546",
+  "node": [
+    {
+      "id": 269546,
+      "name": "元龙",
+      "nameCN": "元龙",
+      "date": "2020-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320219,
+      "name": "元龙 第二季",
+      "nameCN": "",
+      "date": "2021-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 358648,
+      "name": "元龙 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269546,
+      "dst": 320219
+    },
+    {
+      "relateString": "前传",
+      "src": 320219,
+      "dst": 269546
+    },
+    {
+      "relateString": "续集",
+      "src": 320219,
+      "dst": 358648
+    },
+    {
+      "relateString": "前传",
+      "src": 358648,
+      "dst": 320219
+    }
+  ]
 }

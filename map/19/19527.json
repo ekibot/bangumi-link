@@ -1,73 +1,34 @@
 {
- "id": 19527,
- "node": [
-  {
-   "id": 19527,
-   "name": "HELLS ANGELS",
-   "nameCN": "地狱天使",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/18/19527_37V5t.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 104253,
-   "name": "要塞学園",
-   "nameCN": "要塞学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/e3/104253_8V6u0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 134536,
-   "name": "STONe",
-   "nameCN": "STONe 沙海魔兽",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/42/134536_9U1iR.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 134537,
-   "name": "要塞学园",
-   "nameCN": "要塞学园",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/2f/134537_nD777.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 19527,
-   "dst": 134536
-  },
-  {
-   "relate": "不同世界观",
-   "src": 19527,
-   "dst": 134537
-  },
-  {
-   "relate": "不同世界观",
-   "src": 104253,
-   "dst": 19527
-  },
-  {
-   "relate": "不同世界观",
-   "src": 104253,
-   "dst": 134536
-  },
-  {
-   "relate": "不同世界观",
-   "src": 134536,
-   "dst": 19527
-  },
-  {
-   "relate": "不同世界观",
-   "src": 134536,
-   "dst": 134537
-  }
- ]
+  "id": "19527",
+  "node": [
+    {
+      "id": 19527,
+      "name": "HELLS ANGELS",
+      "nameCN": "地狱天使",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 134536,
+      "name": "STONe",
+      "nameCN": "STONe 沙海魔兽",
+      "date": "2001-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 19527,
+      "dst": 134536
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 134536,
+      "dst": 19527
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 261529,
- "node": [
-  {
-   "id": 261529,
-   "name": "DEAD OF THE BRAIN ～死霊の叫び～",
-   "nameCN": "脑死亡~死灵的呐喊",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/b8/261529_JWBIw.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 261530,
-   "name": "Dead of the Brain 2",
-   "nameCN": "脑死亡2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/02/261530_3U3l0.jpg",
-   "date": "1993-11-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 261529,
-   "dst": 261530
-  },
-  {
-   "relate": "前传",
-   "src": 261530,
-   "dst": 261529
-  }
- ]
+  "id": "261529",
+  "node": [
+    {
+      "id": 261529,
+      "name": "DEAD OF THE BRAIN ～死霊の叫び～",
+      "nameCN": "脑死亡~死灵的呐喊",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261530,
+      "name": "Dead of the Brain 2",
+      "nameCN": "脑死亡2",
+      "date": "1993-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 261529,
+      "dst": 261530
+    },
+    {
+      "relateString": "前传",
+      "src": 261530,
+      "dst": 261529
+    }
+  ]
 }

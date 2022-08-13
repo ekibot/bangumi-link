@@ -1,37 +1,33 @@
 {
- "id": 156842,
- "node": [
-  {
-   "id": 156842,
-   "name": "不思議のたたりちゃん",
-   "nameCN": "多多里复仇日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/8f/156842_60eGo.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 156851,
-   "name": "新・不思議のたたりちゃん",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/1c/156851_WJ7ib.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156842,
-   "dst": 156851
-  },
-  {
-   "relate": "前传",
-   "src": 156851,
-   "dst": 156842
-  }
- ]
+  "id": "156842",
+  "node": [
+    {
+      "id": 156842,
+      "name": "不思議のたたりちゃん",
+      "nameCN": "多多里复仇日记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 156851,
+      "name": "新・不思議のたたりちゃん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156842,
+      "dst": 156851
+    },
+    {
+      "relateString": "前传",
+      "src": 156851,
+      "dst": 156842
+    }
+  ]
 }

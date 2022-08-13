@@ -1,34 +1,35 @@
 {
- "id": 260613,
- "node": [
-  {
-   "id": 260613,
-   "name": "酔いどれ恋をせず (1)",
-   "nameCN": "不醉不愛 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/f1/260613_bsZb6.jpg",
-   "date": "2017-09-01",
-   "type": 1
-  },
-  {
-   "id": 270255,
-   "name": "酔いどれ恋をせず (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/6b/270255_8XuYL.jpg",
-   "date": "2018-12-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 260613,
-   "dst": 270255
-  },
-  {
-   "relate": "前传",
-   "src": 270255,
-   "dst": 260613
-  }
- ]
+  "id": "260613",
+  "node": [
+    {
+      "id": 260613,
+      "name": "酔いどれ恋をせず (1)",
+      "nameCN": "不醉不愛 1",
+      "date": "2017-09-01",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 270255,
+      "name": "酔いどれ恋をせず (2)",
+      "nameCN": "",
+      "date": "2018-12-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 260613,
+      "dst": 270255
+    },
+    {
+      "relateString": "前传",
+      "src": 270255,
+      "dst": 260613
+    }
+  ]
 }

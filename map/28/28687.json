@@ -1,37 +1,35 @@
 {
- "id": 28687,
- "node": [
-  {
-   "id": 28687,
-   "name": "テルマエ・ロマエ",
-   "nameCN": "罗马浴场",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/13/28687_6quq4.jpg",
-   "date": "2012-01-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 317692,
-   "name": "テルマエ・ロマエ ノヴァエ",
-   "nameCN": "新罗马浴场",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/17/317692_c72WT.jpg",
-   "date": "2022-03-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 28687,
-   "dst": 317692
-  },
-  {
-   "relate": "不同演绎",
-   "src": 317692,
-   "dst": 28687
-  }
- ]
+  "id": "28687",
+  "node": [
+    {
+      "id": 28687,
+      "name": "テルマエ・ロマエ",
+      "nameCN": "罗马浴场",
+      "date": "2012-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317692,
+      "name": "テルマエ・ロマエ ノヴァエ",
+      "nameCN": "新罗马浴场",
+      "date": "2022-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 28687,
+      "dst": 317692
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 317692,
+      "dst": 28687
+    }
+  ]
 }

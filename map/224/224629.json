@@ -1,37 +1,35 @@
 {
- "id": 224629,
- "node": [
-  {
-   "id": 224629,
-   "name": "Tiny Metal",
-   "nameCN": "小小合金",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/9d/224629_7B7X1.jpg",
-   "date": "2017-12-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 284948,
-   "name": "TINY METAL: FULL METAL RUMBLE",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/f6/284948_kDvbz.jpg",
-   "date": "2019-07-11",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224629,
-   "dst": 284948
-  },
-  {
-   "relate": "前传",
-   "src": 284948,
-   "dst": 224629
-  }
- ]
+  "id": "224629",
+  "node": [
+    {
+      "id": 224629,
+      "name": "Tiny Metal",
+      "nameCN": "小小合金",
+      "date": "2017-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 284948,
+      "name": "TINY METAL: FULL METAL RUMBLE",
+      "nameCN": "",
+      "date": "2019-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224629,
+      "dst": 284948
+    },
+    {
+      "relateString": "前传",
+      "src": 284948,
+      "dst": 224629
+    }
+  ]
 }

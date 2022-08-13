@@ -1,57 +1,54 @@
 {
- "id": 303886,
- "node": [
-  {
-   "id": 303886,
-   "name": "星の砂物語",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/04/303886_8MC2O.jpg",
-   "date": "1991-03-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 303887,
-   "name": "星の砂物語２",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/da/303887_g4Zd0.jpg",
-   "date": "1992-06-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 303888,
-   "name": "星の砂物語3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/54/303888_xfuF8.jpg",
-   "date": "1995-06-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 303886,
-   "dst": 303887
-  },
-  {
-   "relate": "前传",
-   "src": 303887,
-   "dst": 303886
-  },
-  {
-   "relate": "续集",
-   "src": 303887,
-   "dst": 303888
-  },
-  {
-   "relate": "前传",
-   "src": 303888,
-   "dst": 303887
-  }
- ]
+  "id": "303886",
+  "node": [
+    {
+      "id": 303886,
+      "name": "星の砂物語",
+      "nameCN": "",
+      "date": "1991-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 303887,
+      "name": "星の砂物語２",
+      "nameCN": "",
+      "date": "1992-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 303888,
+      "name": "星の砂物語3",
+      "nameCN": "",
+      "date": "1995-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 303886,
+      "dst": 303887
+    },
+    {
+      "relateString": "前传",
+      "src": 303887,
+      "dst": 303886
+    },
+    {
+      "relateString": "续集",
+      "src": 303887,
+      "dst": 303888
+    },
+    {
+      "relateString": "前传",
+      "src": 303888,
+      "dst": 303887
+    }
+  ]
 }

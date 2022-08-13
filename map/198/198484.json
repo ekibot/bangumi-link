@@ -1,37 +1,35 @@
 {
- "id": 198484,
- "node": [
-  {
-   "id": 198484,
-   "name": "DOGS",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/66/198484_t4b28.jpg",
-   "date": "2016-12-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 282945,
-   "name": "DOGS infight",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/02/282945_GznLk.jpg",
-   "date": "2019-07-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198484,
-   "dst": 282945
-  },
-  {
-   "relate": "前传",
-   "src": 282945,
-   "dst": 198484
-  }
- ]
+  "id": "198484",
+  "node": [
+    {
+      "id": 198484,
+      "name": "DOGS",
+      "nameCN": "",
+      "date": "2016-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 282945,
+      "name": "DOGS infight",
+      "nameCN": "",
+      "date": "2019-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198484,
+      "dst": 282945
+    },
+    {
+      "relateString": "前传",
+      "src": 282945,
+      "dst": 198484
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 258333,
- "node": [
-  {
-   "id": 258333,
-   "name": "孔雀王子",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/72/258333_5QPYC.jpg",
-   "date": "1988-12-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 263734,
-   "name": "阿修羅",
-   "nameCN": "阿修罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/f4/263734_0lH1r.jpg",
-   "date": "1990-01-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 258333,
-   "dst": 263734
-  },
-  {
-   "relate": "前传",
-   "src": 263734,
-   "dst": 258333
-  }
- ]
+  "id": "258333",
+  "node": [
+    {
+      "id": 258333,
+      "name": "孔雀王子",
+      "nameCN": "",
+      "date": "1988-12-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 263734,
+      "name": "阿修羅",
+      "nameCN": "阿修罗",
+      "date": "1990-01-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 258333,
+      "dst": 263734
+    },
+    {
+      "relateString": "前传",
+      "src": 263734,
+      "dst": 258333
+    }
+  ]
 }

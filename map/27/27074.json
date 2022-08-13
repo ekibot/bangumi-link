@@ -1,37 +1,35 @@
 {
- "id": 27074,
- "node": [
-  {
-   "id": 27074,
-   "name": "寡黙な珈琲 臆病な胡桃",
-   "nameCN": "沈默的咖啡 胆小的胡桃",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/33/27074_jp.jpg",
-   "date": "2011-06-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 81832,
-   "name": "寡黙な珈琲 臆病な胡桃 2",
-   "nameCN": "沈默的咖啡 胆小的胡桃 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/95/81832_jp.jpg",
-   "date": "2013-06-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 27074,
-   "dst": 81832
-  },
-  {
-   "relate": "前传",
-   "src": 81832,
-   "dst": 27074
-  }
- ]
+  "id": "27074",
+  "node": [
+    {
+      "id": 27074,
+      "name": "寡黙な珈琲 臆病な胡桃",
+      "nameCN": "沈默的咖啡 胆小的胡桃",
+      "date": "2011-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 81832,
+      "name": "寡黙な珈琲 臆病な胡桃 2",
+      "nameCN": "沈默的咖啡 胆小的胡桃 2",
+      "date": "2013-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 27074,
+      "dst": 81832
+    },
+    {
+      "relateString": "前传",
+      "src": 81832,
+      "dst": 27074
+    }
+  ]
 }

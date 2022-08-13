@@ -1,33 +1,35 @@
 {
- "id": 93361,
- "node": [
-  {
-   "id": 93361,
-   "name": "PRETTY×CATION",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/8f/93361_AS3aF.jpg",
-   "date": "2014-04-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 118099,
-   "name": "PRETTY×CATION2",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/b0/118099_703HO.jpg",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93361,
-   "dst": 118099
-  },
-  {
-   "relate": "前传",
-   "src": 118099,
-   "dst": 93361
-  }
- ]
+  "id": "93361",
+  "node": [
+    {
+      "id": 93361,
+      "name": "PRETTY×CATION",
+      "nameCN": "",
+      "date": "2014-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 118099,
+      "name": "PRETTY×CATION2",
+      "nameCN": "",
+      "date": "2015-04-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93361,
+      "dst": 118099
+    },
+    {
+      "relateString": "前传",
+      "src": 118099,
+      "dst": 93361
+    }
+  ]
 }

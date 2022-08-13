@@ -1,57 +1,54 @@
 {
- "id": 110239,
- "node": [
-  {
-   "id": 110239,
-   "name": "昭和元禄落語心中 与太郎放浪編",
-   "nameCN": "昭和元禄落语心中 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/1d/110239_9S66C.jpg",
-   "date": "2015-03-06",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 119394,
-   "name": "昭和元禄落語心中",
-   "nameCN": "昭和元禄落语心中",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/10/119394_06TrB.jpg",
-   "date": "2016-01-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 176615,
-   "name": "昭和元禄落語心中 -助六再び篇-",
-   "nameCN": "昭和元禄落语心中 -助六再临篇-",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/ab/176615_W4d9D.jpg",
-   "date": "2017-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 110239,
-   "dst": 119394
-  },
-  {
-   "relate": "番外篇",
-   "src": 119394,
-   "dst": 110239
-  },
-  {
-   "relate": "续集",
-   "src": 119394,
-   "dst": 176615
-  },
-  {
-   "relate": "前传",
-   "src": 176615,
-   "dst": 119394
-  }
- ]
+  "id": "110239",
+  "node": [
+    {
+      "id": 110239,
+      "name": "昭和元禄落語心中 与太郎放浪編",
+      "nameCN": "昭和元禄落语心中 OAD",
+      "date": "2015-03-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 119394,
+      "name": "昭和元禄落語心中",
+      "nameCN": "昭和元禄落语心中",
+      "date": "2016-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 176615,
+      "name": "昭和元禄落語心中 -助六再び篇-",
+      "nameCN": "昭和元禄落语心中 -助六再临篇-",
+      "date": "2017-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 110239,
+      "dst": 119394
+    },
+    {
+      "relateString": "番外篇",
+      "src": 119394,
+      "dst": 110239
+    },
+    {
+      "relateString": "续集",
+      "src": 119394,
+      "dst": 176615
+    },
+    {
+      "relateString": "前传",
+      "src": 176615,
+      "dst": 119394
+    }
+  ]
 }

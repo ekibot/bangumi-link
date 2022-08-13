@@ -1,37 +1,35 @@
 {
- "id": 86074,
- "node": [
-  {
-   "id": 86074,
-   "name": "Batman",
-   "nameCN": "蝙蝠侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/b1/86074_81Wmw.jpg",
-   "date": "1989-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 244639,
-   "name": "Batman: Return of the Joker",
-   "nameCN": "蝙蝠侠2 小丑回归",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/8f/244639_m30y7.jpg",
-   "date": "1991-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86074,
-   "dst": 244639
-  },
-  {
-   "relate": "前传",
-   "src": 244639,
-   "dst": 86074
-  }
- ]
+  "id": "86074",
+  "node": [
+    {
+      "id": 86074,
+      "name": "Batman",
+      "nameCN": "蝙蝠侠",
+      "date": "1989-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 244639,
+      "name": "Batman: Return of the Joker",
+      "nameCN": "蝙蝠侠2 小丑回归",
+      "date": "1991-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86074,
+      "dst": 244639
+    },
+    {
+      "relateString": "前传",
+      "src": 244639,
+      "dst": 86074
+    }
+  ]
 }

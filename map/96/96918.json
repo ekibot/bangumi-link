@@ -1,49 +1,48 @@
 {
- "id": 96918,
- "node": [
-  {
-   "id": 96918,
-   "name": "アルドノア・ゼロ",
-   "nameCN": "ALDNOAH.ZERO",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/95/96918_WllEN.jpg",
-   "date": "2014-07-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 107835,
-   "name": "アルドノア・ゼロ 第2期",
-   "nameCN": "ALDNOAH.ZERO 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/a6/107835_WtiiI.jpg",
-   "date": "2015-01-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 120028,
-   "name": "ALDNOAH.ZERO外伝 TWIN GEMINI",
-   "nameCN": "ALDNOAH.ZERO外传 TWIN GEMINI",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/75/120028_mJgnJ.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 96918,
-   "dst": 107835
-  },
-  {
-   "relate": "相同世界观",
-   "src": 96918,
-   "dst": 120028
-  },
-  {
-   "relate": "前传",
-   "src": 107835,
-   "dst": 96918
-  }
- ]
+  "id": "96918",
+  "node": [
+    {
+      "id": 96918,
+      "name": "アルドノア・ゼロ",
+      "nameCN": "ALDNOAH.ZERO",
+      "date": "2014-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 107835,
+      "name": "アルドノア・ゼロ 第2期",
+      "nameCN": "ALDNOAH.ZERO 第二季",
+      "date": "2015-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 120028,
+      "name": "ALDNOAH.ZERO外伝 TWIN GEMINI",
+      "nameCN": "ALDNOAH.ZERO外传 TWIN GEMINI",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 96918,
+      "dst": 107835
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 96918,
+      "dst": 120028
+    },
+    {
+      "relateString": "前传",
+      "src": 107835,
+      "dst": 96918
+    }
+  ]
 }

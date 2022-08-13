@@ -1,67 +1,63 @@
 {
- "id": 53010,
- "node": [
-  {
-   "id": 53010,
-   "name": "Dungeons &amp; Dragons: Daggerdale",
-   "nameCN": "龙与地下城：匕首谷",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/41/53010_3qtGg.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 72808,
-   "name": "Neverwinter",
-   "nameCN": "无冬OL",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/95/72808_hm8Z1.jpg",
-   "date": "2013-06-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 235403,
-   "name": "Dungeons &amp; Dragons: Dragonshard",
-   "nameCN": "龙与地下城：龙晶",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/4a/235403_PP1PK.jpg",
-   "date": "2005-09-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 53010,
-   "dst": 72808
-  },
-  {
-   "relate": "不同世界观",
-   "src": 53010,
-   "dst": 235403
-  },
-  {
-   "relate": "相同世界观",
-   "src": 72808,
-   "dst": 53010
-  },
-  {
-   "relate": "不同世界观",
-   "src": 72808,
-   "dst": 235403
-  },
-  {
-   "relate": "不同世界观",
-   "src": 235403,
-   "dst": 53010
-  },
-  {
-   "relate": "不同世界观",
-   "src": 235403,
-   "dst": 72808
-  }
- ]
+  "id": "53010",
+  "node": [
+    {
+      "id": 53010,
+      "name": "Dungeons &amp; Dragons: Daggerdale",
+      "nameCN": "龙与地下城：匕首谷",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 72808,
+      "name": "Neverwinter",
+      "nameCN": "无冬OL",
+      "date": "2013-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 235403,
+      "name": "Dungeons &amp; Dragons: Dragonshard",
+      "nameCN": "龙与地下城：龙晶",
+      "date": "2005-09-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 53010,
+      "dst": 72808
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 53010,
+      "dst": 235403
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 72808,
+      "dst": 53010
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 72808,
+      "dst": 235403
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 235403,
+      "dst": 53010
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 235403,
+      "dst": 72808
+    }
+  ]
 }

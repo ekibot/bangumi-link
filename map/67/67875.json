@@ -1,37 +1,35 @@
 {
- "id": 67875,
- "node": [
-  {
-   "id": 67875,
-   "name": "The Bible",
-   "nameCN": "圣经故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/34/67875_a11qz.jpg",
-   "date": "2013-03-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 130155,
-   "name": "A.D. The Bible Continues Season 1",
-   "nameCN": "公元：后圣经故事 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/e3/130155_LhiP4.jpg",
-   "date": "2015-04-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 67875,
-   "dst": 130155
-  },
-  {
-   "relate": "前传",
-   "src": 130155,
-   "dst": 67875
-  }
- ]
+  "id": "67875",
+  "node": [
+    {
+      "id": 67875,
+      "name": "The Bible",
+      "nameCN": "圣经故事",
+      "date": "2013-03-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 130155,
+      "name": "A.D. The Bible Continues Season 1",
+      "nameCN": "公元：后圣经故事 第一季",
+      "date": "2015-04-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67875,
+      "dst": 130155
+    },
+    {
+      "relateString": "前传",
+      "src": 130155,
+      "dst": 67875
+    }
+  ]
 }

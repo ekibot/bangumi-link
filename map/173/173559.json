@@ -1,57 +1,53 @@
 {
- "id": 173559,
- "node": [
-  {
-   "id": 173559,
-   "name": "브레이커",
-   "nameCN": "The Breaker",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/0e/173559_2YM0z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 173560,
-   "name": "브레이커 NW",
-   "nameCN": "The Breaker: New Waves",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/f4/173560_4mbUk.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 381133,
-   "name": "이터널 포스",
-   "nameCN": "Eternal Force",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/83/381133_Eo5IH.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 173559,
-   "dst": 173560
-  },
-  {
-   "relate": "前传",
-   "src": 173560,
-   "dst": 173559
-  },
-  {
-   "relate": "续集",
-   "src": 173560,
-   "dst": 381133
-  },
-  {
-   "relate": "前传",
-   "src": 381133,
-   "dst": 173560
-  }
- ]
+  "id": "173559",
+  "node": [
+    {
+      "id": 173559,
+      "name": "브레이커",
+      "nameCN": "The Breaker",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 173560,
+      "name": "브레이커 NW",
+      "nameCN": "The Breaker: New Waves",
+      "date": "2010-09-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 381133,
+      "name": "이터널 포스",
+      "nameCN": "Eternal Force",
+      "date": "2022-05-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 173559,
+      "dst": 173560
+    },
+    {
+      "relateString": "前传",
+      "src": 173560,
+      "dst": 173559
+    },
+    {
+      "relateString": "续集",
+      "src": 173560,
+      "dst": 381133
+    },
+    {
+      "relateString": "前传",
+      "src": 381133,
+      "dst": 173560
+    }
+  ]
 }

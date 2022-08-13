@@ -1,37 +1,35 @@
 {
- "id": 246914,
- "node": [
-  {
-   "id": 246914,
-   "name": "スーパードラゴンボールヒーローズ",
-   "nameCN": "超级龙珠英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/f9/246914_6JK6I.jpg",
-   "date": "2018-07-01",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 303963,
-   "name": "スーパードラゴンボールヒーローズ ビッグバンミッション",
-   "nameCN": "超级龙珠英雄BIGBANG MISSION",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/93/303963_79aba.jpg",
-   "date": "2020-03-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 246914,
-   "dst": 303963
-  },
-  {
-   "relate": "前传",
-   "src": 303963,
-   "dst": 246914
-  }
- ]
+  "id": "246914",
+  "node": [
+    {
+      "id": 246914,
+      "name": "スーパードラゴンボールヒーローズ",
+      "nameCN": "超级龙珠英雄",
+      "date": "2018-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 303963,
+      "name": "スーパードラゴンボールヒーローズ ビッグバンミッション",
+      "nameCN": "超级龙珠英雄BIGBANG MISSION",
+      "date": "2020-03-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 246914,
+      "dst": 303963
+    },
+    {
+      "relateString": "前传",
+      "src": 303963,
+      "dst": 246914
+    }
+  ]
 }

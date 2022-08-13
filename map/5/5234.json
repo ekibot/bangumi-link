@@ -1,0 +1,35 @@
+{
+  "id": "5234",
+  "node": [
+    {
+      "id": 5234,
+      "name": "流星のロックマン",
+      "nameCN": "流星之洛克人",
+      "date": "2006-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 5235,
+      "name": "流星のロックマン トライブ",
+      "nameCN": "流星之洛克人 Tribe",
+      "date": "2007-11-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 5234,
+      "dst": 5235
+    },
+    {
+      "relateString": "前传",
+      "src": 5235,
+      "dst": 5234
+    }
+  ]
+}

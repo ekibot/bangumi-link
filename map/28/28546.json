@@ -1,37 +1,34 @@
 {
- "id": 28546,
- "node": [
-  {
-   "id": 28546,
-   "name": "黄金狗剩",
-   "nameCN": "黄金狗剩",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/85/28546_7d7BF.jpg",
-   "date": "2011-11-01",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 51518,
-   "name": "黄金狗剩之史蒂芬前传",
-   "nameCN": "黄金狗剩之史蒂芬前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/63/51518_2xOHS.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 28546,
-   "dst": 51518
-  },
-  {
-   "relate": "续集",
-   "src": 51518,
-   "dst": 28546
-  }
- ]
+  "id": "28546",
+  "node": [
+    {
+      "id": 28546,
+      "name": "黄金狗剩",
+      "nameCN": "黄金狗剩",
+      "date": "2011-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 51518,
+      "name": "黄金狗剩之史蒂芬前传",
+      "nameCN": "黄金狗剩之史蒂芬前传",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 28546,
+      "dst": 51518
+    },
+    {
+      "relateString": "续集",
+      "src": 51518,
+      "dst": 28546
+    }
+  ]
 }

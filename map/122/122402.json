@@ -1,37 +1,35 @@
 {
- "id": 122402,
- "node": [
-  {
-   "id": 122402,
-   "name": "銀灰のスピードスター",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/a5/122402_9lk7k.jpg",
-   "date": "2014-08-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 340169,
-   "name": "首都高SPL",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/9f/340169_m3lIW.jpg",
-   "date": "2016-09-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122402,
-   "dst": 340169
-  },
-  {
-   "relate": "前传",
-   "src": 340169,
-   "dst": 122402
-  }
- ]
+  "id": "122402",
+  "node": [
+    {
+      "id": 122402,
+      "name": "銀灰のスピードスター",
+      "nameCN": "",
+      "date": "2014-08-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 340169,
+      "name": "首都高SPL",
+      "nameCN": "",
+      "date": "2016-09-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122402,
+      "dst": 340169
+    },
+    {
+      "relateString": "前传",
+      "src": 340169,
+      "dst": 122402
+    }
+  ]
 }

@@ -1,57 +1,52 @@
 {
- "id": 70938,
- "node": [
-  {
-   "id": 70938,
-   "name": "イナズマイレブン",
-   "nameCN": "闪电十一人",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/34/70938_92zA6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 190941,
-   "name": "イナズマイレブンGO",
-   "nameCN": "闪电十一人GO",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/f7/190941_LI7fu.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 245141,
-   "name": "イナズマイレブン アレスの天秤",
-   "nameCN": "闪电十一人 阿瑞斯的天秤",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/26/245141_zg776.jpg",
-   "date": "2018-06-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 70938,
-   "dst": 190941
-  },
-  {
-   "relate": "相同世界观",
-   "src": 70938,
-   "dst": 245141
-  },
-  {
-   "relate": "前传",
-   "src": 190941,
-   "dst": 70938
-  },
-  {
-   "relate": "相同世界观",
-   "src": 245141,
-   "dst": 70938
-  }
- ]
+  "id": "70938",
+  "node": [
+    {
+      "id": 70938,
+      "name": "イナズマイレブン",
+      "nameCN": "闪电十一人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 190941,
+      "name": "イナズマイレブンGO",
+      "nameCN": "闪电十一人GO",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 245141,
+      "name": "イナズマイレブン アレスの天秤",
+      "nameCN": "闪电十一人 阿瑞斯的天秤",
+      "date": "2018-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 70938,
+      "dst": 190941
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 70938,
+      "dst": 245141
+    },
+    {
+      "relateString": "前传",
+      "src": 190941,
+      "dst": 70938
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 245141,
+      "dst": 70938
+    }
+  ]
 }

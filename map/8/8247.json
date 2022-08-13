@@ -1,37 +1,35 @@
 {
- "id": 8247,
- "node": [
-  {
-   "id": 8247,
-   "name": "3丁目のタマ うちのタマ知りませんか?",
-   "nameCN": "猫狗宠物街",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/5f/8247_xTJXO.jpg",
-   "date": "1993-07-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 8248,
-   "name": "3丁目のタマ うちのタマ知りませんか? 第2期",
-   "nameCN": "猫狗宠物街 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/d1/8248_GRC0K.jpg",
-   "date": "1994-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8247,
-   "dst": 8248
-  },
-  {
-   "relate": "前传",
-   "src": 8248,
-   "dst": 8247
-  }
- ]
+  "id": "8247",
+  "node": [
+    {
+      "id": 8247,
+      "name": "3丁目のタマ うちのタマ知りませんか?",
+      "nameCN": "猫狗宠物街",
+      "date": "1993-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 8248,
+      "name": "3丁目のタマ うちのタマ知りませんか? 第2期",
+      "nameCN": "猫狗宠物街 第2期",
+      "date": "1994-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8247,
+      "dst": 8248
+    },
+    {
+      "relateString": "前传",
+      "src": 8248,
+      "dst": 8247
+    }
+  ]
 }

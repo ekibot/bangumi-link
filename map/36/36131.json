@@ -1,37 +1,35 @@
 {
- "id": 36131,
- "node": [
-  {
-   "id": 36131,
-   "name": "GON -ゴン-",
-   "nameCN": "小恐龙阿贡",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/5e/36131_Sgw9w.jpg",
-   "date": "2012-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 182784,
-   "name": "GON -ゴン- 2期",
-   "nameCN": "小恐龙阿贡 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/18/182784_u1916.jpg",
-   "date": "2015-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36131,
-   "dst": 182784
-  },
-  {
-   "relate": "前传",
-   "src": 182784,
-   "dst": 36131
-  }
- ]
+  "id": "36131",
+  "node": [
+    {
+      "id": 36131,
+      "name": "GON -ゴン-",
+      "nameCN": "小恐龙阿贡",
+      "date": "2012-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 182784,
+      "name": "GON -ゴン- 2期",
+      "nameCN": "小恐龙阿贡 第二季",
+      "date": "2015-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36131,
+      "dst": 182784
+    },
+    {
+      "relateString": "前传",
+      "src": 182784,
+      "dst": 36131
+    }
+  ]
 }

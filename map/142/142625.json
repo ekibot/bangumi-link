@@ -1,37 +1,35 @@
 {
- "id": 142625,
- "node": [
-  {
-   "id": 142625,
-   "name": "なかだし孕メイド",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/c5/142625_9FQOI.jpg",
-   "date": "2007-08-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 142626,
-   "name": "なかだし孕メイド 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/38/142626_Jv8vj.jpg",
-   "date": "2008-08-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142625,
-   "dst": 142626
-  },
-  {
-   "relate": "前传",
-   "src": 142626,
-   "dst": 142625
-  }
- ]
+  "id": "142625",
+  "node": [
+    {
+      "id": 142625,
+      "name": "なかだし孕メイド",
+      "nameCN": "",
+      "date": "2007-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 142626,
+      "name": "なかだし孕メイド 2",
+      "nameCN": "",
+      "date": "2008-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142625,
+      "dst": 142626
+    },
+    {
+      "relateString": "前传",
+      "src": 142626,
+      "dst": 142625
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 260630,
- "node": [
-  {
-   "id": 260630,
-   "name": "明治東亰恋伽",
-   "nameCN": "明治东京恋伽",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/ee/260630_J1Whm.jpg",
-   "date": "2019-04-09",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 283628,
-   "name": "映画 明治東亰恋伽",
-   "nameCN": "明治东京恋伽",
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/21/283628_D3AiL.jpg",
-   "date": "2019-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 260630,
-   "dst": 283628
-  },
-  {
-   "relate": "前传",
-   "src": 283628,
-   "dst": 260630
-  }
- ]
+  "id": "260630",
+  "node": [
+    {
+      "id": 260630,
+      "name": "明治東亰恋伽",
+      "nameCN": "明治东京恋伽",
+      "date": "2019-04-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 283628,
+      "name": "映画 明治東亰恋伽",
+      "nameCN": "明治东京恋伽",
+      "date": "2019-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 260630,
+      "dst": 283628
+    },
+    {
+      "relateString": "前传",
+      "src": 283628,
+      "dst": 260630
+    }
+  ]
 }

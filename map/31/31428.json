@@ -1,37 +1,35 @@
 {
- "id": 31428,
- "node": [
-  {
-   "id": 31428,
-   "name": "新海底軍艦",
-   "nameCN": "新海底军舰",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/87/31428_2tWjA.jpg",
-   "date": "1995-12-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 372590,
-   "name": "海底軍艦",
-   "nameCN": "海底军舰",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/4d/372590_0J9jn.jpg",
-   "date": "1963-12-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 31428,
-   "dst": 372590
-  },
-  {
-   "relate": "不同演绎",
-   "src": 372590,
-   "dst": 31428
-  }
- ]
+  "id": "31428",
+  "node": [
+    {
+      "id": 31428,
+      "name": "新海底軍艦",
+      "nameCN": "新海底军舰",
+      "date": "1995-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 372590,
+      "name": "海底軍艦",
+      "nameCN": "海底军舰",
+      "date": "1963-12-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 31428,
+      "dst": 372590
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 372590,
+      "dst": 31428
+    }
+  ]
 }

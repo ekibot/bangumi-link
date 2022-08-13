@@ -1,87 +1,83 @@
 {
- "id": 192428,
- "node": [
-  {
-   "id": 192428,
-   "name": "つぐもも",
-   "nameCN": "怪怪守护神",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/44/192428_rrRIT.jpg",
-   "date": "2017-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 276792,
-   "name": "継つぐもも",
-   "nameCN": "继 怪怪守护神",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/44/276792_vwZ8n.jpg",
-   "date": "2020-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 276793,
-   "name": "つぐもも OVA",
-   "nameCN": "怪怪守护神 OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/5c/276793_Z448Y.jpg",
-   "date": "2020-01-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 302684,
-   "name": "継つぐももミニアニメ",
-   "nameCN": "继 怪怪守护神 迷你动画",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/24/302684_s8aCg.jpg",
-   "date": "2019-12-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192428,
-   "dst": 276792
-  },
-  {
-   "relate": "番外篇",
-   "src": 192428,
-   "dst": 276793
-  },
-  {
-   "relate": "前传",
-   "src": 276792,
-   "dst": 192428
-  },
-  {
-   "relate": "番外篇",
-   "src": 276792,
-   "dst": 276793
-  },
-  {
-   "relate": "衍生",
-   "src": 276792,
-   "dst": 302684
-  },
-  {
-   "relate": "主线故事",
-   "src": 276793,
-   "dst": 192428
-  },
-  {
-   "relate": "主线故事",
-   "src": 276793,
-   "dst": 276792
-  },
-  {
-   "relate": "主线故事",
-   "src": 302684,
-   "dst": 276792
-  }
- ]
+  "id": "192428",
+  "node": [
+    {
+      "id": 192428,
+      "name": "つぐもも",
+      "nameCN": "怪怪守护神",
+      "date": "2017-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 276792,
+      "name": "継つぐもも",
+      "nameCN": "继 怪怪守护神",
+      "date": "2020-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 276793,
+      "name": "つぐもも OVA",
+      "nameCN": "怪怪守护神 OVA",
+      "date": "2020-01-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 302684,
+      "name": "継つぐももミニアニメ",
+      "nameCN": "继 怪怪守护神 迷你动画",
+      "date": "2019-12-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192428,
+      "dst": 276792
+    },
+    {
+      "relateString": "番外篇",
+      "src": 192428,
+      "dst": 276793
+    },
+    {
+      "relateString": "前传",
+      "src": 276792,
+      "dst": 192428
+    },
+    {
+      "relateString": "番外篇",
+      "src": 276792,
+      "dst": 276793
+    },
+    {
+      "relateString": "衍生",
+      "src": 276792,
+      "dst": 302684
+    },
+    {
+      "relateString": "主线故事",
+      "src": 276793,
+      "dst": 192428
+    },
+    {
+      "relateString": "主线故事",
+      "src": 276793,
+      "dst": 276792
+    },
+    {
+      "relateString": "主线故事",
+      "src": 302684,
+      "dst": 276792
+    }
+  ]
 }

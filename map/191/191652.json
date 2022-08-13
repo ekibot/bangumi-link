@@ -1,57 +1,53 @@
 {
- "id": 191652,
- "node": [
-  {
-   "id": 191652,
-   "name": "WWE 2K16",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/50/191652_GgD19.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219636,
-   "name": "WWE 2K18",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/7e/219636_upeKr.jpg",
-   "date": "2017-10-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219666,
-   "name": "WWE 2K17",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/c0/219666_8xtNC.jpg",
-   "date": "2016-10-11",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191652,
-   "dst": 219666
-  },
-  {
-   "relate": "前传",
-   "src": 219636,
-   "dst": 219666
-  },
-  {
-   "relate": "前传",
-   "src": 219666,
-   "dst": 191652
-  },
-  {
-   "relate": "续集",
-   "src": 219666,
-   "dst": 219636
-  }
- ]
+  "id": "191652",
+  "node": [
+    {
+      "id": 191652,
+      "name": "WWE 2K16",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219666,
+      "name": "WWE 2K17",
+      "nameCN": "",
+      "date": "2016-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219636,
+      "name": "WWE 2K18",
+      "nameCN": "",
+      "date": "2017-10-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191652,
+      "dst": 219666
+    },
+    {
+      "relateString": "前传",
+      "src": 219636,
+      "dst": 219666
+    },
+    {
+      "relateString": "前传",
+      "src": 219666,
+      "dst": 191652
+    },
+    {
+      "relateString": "续集",
+      "src": 219666,
+      "dst": 219636
+    }
+  ]
 }

@@ -1,51 +1,49 @@
 {
- "id": 10445,
- "node": [
-  {
-   "id": 10445,
-   "name": "キャッスルヴァニア ロード オブ シャドウ",
-   "nameCN": "恶魔城 暗影之王",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/c5/10445_ZG5NA.jpg",
-   "date": "2010-10-05",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 41434,
-   "name": "キャッスルヴァニア ロード オブ シャドウ 宿命の魔鏡",
-   "nameCN": "恶魔城：命运之镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/4f/41434_0Zb4m.jpg",
-   "date": "2013-03-20",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 82442,
-   "name": "悪魔城ドラキュラ ロード オブ シャドウ2",
-   "nameCN": "恶魔城：暗影之王2",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/6f/82442_F78nn.jpg",
-   "date": "2014-02-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10445,
-   "dst": 82442
-  },
-  {
-   "relate": "主线故事",
-   "src": 41434,
-   "dst": 10445
-  },
-  {
-   "relate": "前传",
-   "src": 82442,
-   "dst": 10445
-  }
- ]
+  "id": "10445",
+  "node": [
+    {
+      "id": 10445,
+      "name": "キャッスルヴァニア ロード オブ シャドウ",
+      "nameCN": "恶魔城 暗影之王",
+      "date": "2010-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 82442,
+      "name": "悪魔城ドラキュラ ロード オブ シャドウ2",
+      "nameCN": "恶魔城：暗影之王2",
+      "date": "2014-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 41434,
+      "name": "キャッスルヴァニア ロード オブ シャドウ 宿命の魔鏡",
+      "nameCN": "恶魔城：命运之镜",
+      "date": "2013-03-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10445,
+      "dst": 82442
+    },
+    {
+      "relateString": "主线故事",
+      "src": 41434,
+      "dst": 10445
+    },
+    {
+      "relateString": "前传",
+      "src": 82442,
+      "dst": 10445
+    }
+  ]
 }

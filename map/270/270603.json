@@ -1,37 +1,35 @@
 {
- "id": 270603,
- "node": [
-  {
-   "id": 270603,
-   "name": "水畔空蝉",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/f1/270603_v0ovf.jpg",
-   "date": "2018-08-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 338399,
-   "name": "樱下花期",
-   "nameCN": "樱下花期",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/25/338399_fMdqG.jpg",
-   "date": "2021-06-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 270603,
-   "dst": 338399
-  },
-  {
-   "relate": "前传",
-   "src": 338399,
-   "dst": 270603
-  }
- ]
+  "id": "270603",
+  "node": [
+    {
+      "id": 270603,
+      "name": "水畔空蝉",
+      "nameCN": "",
+      "date": "2018-08-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 338399,
+      "name": "樱下花期",
+      "nameCN": "樱下花期",
+      "date": "2021-06-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 270603,
+      "dst": 338399
+    },
+    {
+      "relateString": "前传",
+      "src": 338399,
+      "dst": 270603
+    }
+  ]
 }

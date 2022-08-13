@@ -1,37 +1,35 @@
 {
- "id": 316945,
- "node": [
-  {
-   "id": 316945,
-   "name": "Adventures of Bertram Fiddle 1: A Dreadly Business",
-   "nameCN": "伯特伦费德历险记 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/a4/316945_224V2.jpg",
-   "date": "2015-04-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 316946,
-   "name": "Adventures of Bertram Fiddle 2: A Bleaker Predicklement",
-   "nameCN": "伯特伦费德历险记 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/64/316946_34ITJ.jpg",
-   "date": "2017-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 316945,
-   "dst": 316946
-  },
-  {
-   "relate": "前传",
-   "src": 316946,
-   "dst": 316945
-  }
- ]
+  "id": "316945",
+  "node": [
+    {
+      "id": 316945,
+      "name": "Adventures of Bertram Fiddle 1: A Dreadly Business",
+      "nameCN": "伯特伦费德历险记 1",
+      "date": "2015-04-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 316946,
+      "name": "Adventures of Bertram Fiddle 2: A Bleaker Predicklement",
+      "nameCN": "伯特伦费德历险记 2",
+      "date": "2017-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 316945,
+      "dst": 316946
+    },
+    {
+      "relateString": "前传",
+      "src": 316946,
+      "dst": 316945
+    }
+  ]
 }

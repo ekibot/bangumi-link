@@ -1,77 +1,73 @@
 {
- "id": 37240,
- "node": [
-  {
-   "id": 37240,
-   "name": "マシンロボ クロノスの大逆襲",
-   "nameCN": "天威勇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/10/37240_6qqHZ.jpg",
-   "date": "1986-07-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 37241,
-   "name": "マシンロボ ぶっちぎりバトルハッカーズ",
-   "nameCN": "新天威勇士",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/85/37241_z1Yj4.jpg",
-   "date": "1987-06-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 37243,
-   "name": "レイナ剣狼伝説",
-   "nameCN": "Leina 剑狼传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/48/37243_Lkwop.jpg",
-   "date": "1988-02-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 325237,
-   "name": "ライトニングトラップ レイナ&amp;ライカ",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/12/325237_sc9Au.jpg",
-   "date": "1990-05-23",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37240,
-   "dst": 37241
-  },
-  {
-   "relate": "番外篇",
-   "src": 37240,
-   "dst": 37243
-  },
-  {
-   "relate": "前传",
-   "src": 37241,
-   "dst": 37240
-  },
-  {
-   "relate": "主线故事",
-   "src": 37243,
-   "dst": 37240
-  },
-  {
-   "relate": "相同世界观",
-   "src": 37243,
-   "dst": 325237
-  },
-  {
-   "relate": "相同世界观",
-   "src": 325237,
-   "dst": 37243
-  }
- ]
+  "id": "37240",
+  "node": [
+    {
+      "id": 37240,
+      "name": "マシンロボ クロノスの大逆襲",
+      "nameCN": "天威勇士",
+      "date": "1986-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37241,
+      "name": "マシンロボ ぶっちぎりバトルハッカーズ",
+      "nameCN": "新天威勇士",
+      "date": "1987-06-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37243,
+      "name": "レイナ剣狼伝説",
+      "nameCN": "Leina 剑狼传说",
+      "date": "1988-02-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 325237,
+      "name": "ライトニングトラップ レイナ&amp;ライカ",
+      "nameCN": "",
+      "date": "1990-05-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37240,
+      "dst": 37241
+    },
+    {
+      "relateString": "番外篇",
+      "src": 37240,
+      "dst": 37243
+    },
+    {
+      "relateString": "前传",
+      "src": 37241,
+      "dst": 37240
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37243,
+      "dst": 37240
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 37243,
+      "dst": 325237
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 325237,
+      "dst": 37243
+    }
+  ]
 }

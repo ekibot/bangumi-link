@@ -1,37 +1,35 @@
 {
- "id": 165240,
- "node": [
-  {
-   "id": 165240,
-   "name": "ですろり 一章 ～チカラ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/9b/165240_quR42.jpg",
-   "date": "2006-11-09",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 165254,
-   "name": "ですろり 二章 ～イノチ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/42/165254_eYo99.jpg",
-   "date": "2008-06-21",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165240,
-   "dst": 165254
-  },
-  {
-   "relate": "前传",
-   "src": 165254,
-   "dst": 165240
-  }
- ]
+  "id": "165240",
+  "node": [
+    {
+      "id": 165240,
+      "name": "ですろり 一章 ～チカラ～",
+      "nameCN": "",
+      "date": "2006-11-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165254,
+      "name": "ですろり 二章 ～イノチ～",
+      "nameCN": "",
+      "date": "2008-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165240,
+      "dst": 165254
+    },
+    {
+      "relateString": "前传",
+      "src": 165254,
+      "dst": 165240
+    }
+  ]
 }

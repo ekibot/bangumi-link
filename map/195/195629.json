@@ -1,57 +1,53 @@
 {
- "id": 195629,
- "node": [
-  {
-   "id": 195629,
-   "name": "超級醫生3",
-   "nameCN": "超级医生3",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/4b/195629_waB66.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 333996,
-   "name": "瘋狂醫院",
-   "nameCN": "疯狂医院",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/b4/333996_O1Se1.jpg",
-   "date": "1993-09-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 340916,
-   "name": "瘋狂醫院2 超級醫生",
-   "nameCN": "疯狂医院2 超级医生",
-   "date": "1995-01-01",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 195629,
-   "dst": 340916
-  },
-  {
-   "relate": "续集",
-   "src": 333996,
-   "dst": 340916
-  },
-  {
-   "relate": "续集",
-   "src": 340916,
-   "dst": 195629
-  },
-  {
-   "relate": "前传",
-   "src": 340916,
-   "dst": 333996
-  }
- ]
+  "id": "195629",
+  "node": [
+    {
+      "id": 195629,
+      "name": "超級醫生3",
+      "nameCN": "超级医生3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 340916,
+      "name": "瘋狂醫院2 超級醫生",
+      "nameCN": "疯狂医院2 超级医生",
+      "date": "1995-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 333996,
+      "name": "瘋狂醫院",
+      "nameCN": "疯狂医院",
+      "date": "1993-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 195629,
+      "dst": 340916
+    },
+    {
+      "relateString": "续集",
+      "src": 333996,
+      "dst": 340916
+    },
+    {
+      "relateString": "续集",
+      "src": 340916,
+      "dst": 195629
+    },
+    {
+      "relateString": "前传",
+      "src": 340916,
+      "dst": 333996
+    }
+  ]
 }

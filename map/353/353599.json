@@ -1,37 +1,35 @@
 {
- "id": 353599,
- "node": [
-  {
-   "id": 353599,
-   "name": "栄冠はオレに輝け!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/71/353599_e88KQ.jpg",
-   "date": "2017-03-08",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 373707,
-   "name": "栄冠はオレに輝け!!ワイルドカード",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/a0/373707_4yzj2.jpg",
-   "date": "2018-08-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 353599,
-   "dst": 373707
-  },
-  {
-   "relate": "前传",
-   "src": 373707,
-   "dst": 353599
-  }
- ]
+  "id": "353599",
+  "node": [
+    {
+      "id": 353599,
+      "name": "栄冠はオレに輝け!!",
+      "nameCN": "",
+      "date": "2017-03-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 373707,
+      "name": "栄冠はオレに輝け!!ワイルドカード",
+      "nameCN": "",
+      "date": "2018-08-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 353599,
+      "dst": 373707
+    },
+    {
+      "relateString": "前传",
+      "src": 373707,
+      "dst": 353599
+    }
+  ]
 }

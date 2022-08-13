@@ -1,37 +1,35 @@
 {
- "id": 82046,
- "node": [
-  {
-   "id": 82046,
-   "name": "倒不了的塔",
-   "nameCN": "倒不了的塔",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/da/82046_1HH0l.jpg",
-   "date": "2013-08-20",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 115205,
-   "name": "倒不了的塔 第二季",
-   "nameCN": "倒不了的塔 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/5b/115205_omEj1.jpg",
-   "date": "2014-04-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82046,
-   "dst": 115205
-  },
-  {
-   "relate": "前传",
-   "src": 115205,
-   "dst": 82046
-  }
- ]
+  "id": "82046",
+  "node": [
+    {
+      "id": 82046,
+      "name": "倒不了的塔",
+      "nameCN": "倒不了的塔",
+      "date": "2013-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 115205,
+      "name": "倒不了的塔 第二季",
+      "nameCN": "倒不了的塔 第二季",
+      "date": "2014-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82046,
+      "dst": 115205
+    },
+    {
+      "relateString": "前传",
+      "src": 115205,
+      "dst": 82046
+    }
+  ]
 }

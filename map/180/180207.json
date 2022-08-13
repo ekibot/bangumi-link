@@ -1,37 +1,35 @@
 {
- "id": 180207,
- "node": [
-  {
-   "id": 180207,
-   "name": "20XX",
-   "nameCN": "20XX",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/17/180207_1S0ex.jpg",
-   "date": "2017-08-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 300243,
-   "name": "30XX",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/32/300243_CDPf2.jpg",
-   "date": "2021-02-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 180207,
-   "dst": 300243
-  },
-  {
-   "relate": "前传",
-   "src": 300243,
-   "dst": 180207
-  }
- ]
+  "id": "180207",
+  "node": [
+    {
+      "id": 180207,
+      "name": "20XX",
+      "nameCN": "20XX",
+      "date": "2017-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 300243,
+      "name": "30XX",
+      "nameCN": "",
+      "date": "2021-02-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 180207,
+      "dst": 300243
+    },
+    {
+      "relateString": "前传",
+      "src": 300243,
+      "dst": 180207
+    }
+  ]
 }

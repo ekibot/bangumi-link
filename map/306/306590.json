@@ -1,37 +1,35 @@
 {
- "id": 306590,
- "node": [
-  {
-   "id": 306590,
-   "name": "Randy Cunningham: 9th Grade Ninja",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/64/306590_vDZtN.jpg",
-   "date": "2012-08-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 306594,
-   "name": "Randy Cunningham: 9th Grade Ninja (Season 2)",
-   "nameCN": "忍者好小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/ce/306594_4GeMG.jpg",
-   "date": "2014-07-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 306590,
-   "dst": 306594
-  },
-  {
-   "relate": "前传",
-   "src": 306594,
-   "dst": 306590
-  }
- ]
+  "id": "306590",
+  "node": [
+    {
+      "id": 306590,
+      "name": "Randy Cunningham: 9th Grade Ninja",
+      "nameCN": "",
+      "date": "2012-08-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 306594,
+      "name": "Randy Cunningham: 9th Grade Ninja (Season 2)",
+      "nameCN": "忍者好小子",
+      "date": "2014-07-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 306590,
+      "dst": 306594
+    },
+    {
+      "relateString": "前传",
+      "src": 306594,
+      "dst": 306590
+    }
+  ]
 }

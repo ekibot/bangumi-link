@@ -1,37 +1,34 @@
 {
- "id": 79565,
- "node": [
-  {
-   "id": 79565,
-   "name": "レイジ・オブ・ザ・ドラゴンズ",
-   "nameCN": "龙吼",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/cc/79565_Yf1aA.jpg",
-   "date": "2002-06-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84312,
-   "name": "ダブルドラゴン",
-   "nameCN": "格斗双截龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/c8/84312_GHHGQ.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 79565,
-   "dst": 84312
-  },
-  {
-   "relate": "不同演绎",
-   "src": 84312,
-   "dst": 79565
-  }
- ]
+  "id": "79565",
+  "node": [
+    {
+      "id": 79565,
+      "name": "レイジ・オブ・ザ・ドラゴンズ",
+      "nameCN": "龙吼",
+      "date": "2002-06-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84312,
+      "name": "ダブルドラゴン",
+      "nameCN": "格斗双截龙",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 79565,
+      "dst": 84312
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 84312,
+      "dst": 79565
+    }
+  ]
 }

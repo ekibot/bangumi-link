@@ -1,117 +1,111 @@
 {
- "id": 6014,
- "node": [
-  {
-   "id": 6014,
-   "name": "Community Season 1",
-   "nameCN": "废柴联盟 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/68/6014_d0SE5.jpg",
-   "date": "2009-09-17",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 12074,
-   "name": "Community Season 2",
-   "nameCN": "废柴联盟 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/51/27381_PPpnQ.jpg",
-   "date": "2010-09-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 23631,
-   "name": "Community Season 3",
-   "nameCN": "废柴联盟 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/c9/23631_ZgGF1.jpg",
-   "date": "2011-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 49665,
-   "name": "Community Season 4",
-   "nameCN": "废柴联盟 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/e3/49665_Q98g9.jpg",
-   "date": "2013-02-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 83232,
-   "name": "Community Season 5",
-   "nameCN": "废柴联盟 第五季",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/57/83232_hh8hR.jpg",
-   "date": "2014-01-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 127092,
-   "name": "Community Season 6",
-   "nameCN": "废柴联盟 第六季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/eb/127092_7dt9M.jpg",
-   "date": "2015-03-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 6014,
-   "dst": 12074
-  },
-  {
-   "relate": "前传",
-   "src": 12074,
-   "dst": 6014
-  },
-  {
-   "relate": "续集",
-   "src": 12074,
-   "dst": 23631
-  },
-  {
-   "relate": "前传",
-   "src": 23631,
-   "dst": 12074
-  },
-  {
-   "relate": "续集",
-   "src": 23631,
-   "dst": 49665
-  },
-  {
-   "relate": "前传",
-   "src": 49665,
-   "dst": 23631
-  },
-  {
-   "relate": "续集",
-   "src": 49665,
-   "dst": 83232
-  },
-  {
-   "relate": "前传",
-   "src": 83232,
-   "dst": 49665
-  },
-  {
-   "relate": "续集",
-   "src": 83232,
-   "dst": 127092
-  },
-  {
-   "relate": "前传",
-   "src": 127092,
-   "dst": 83232
-  }
- ]
+  "id": "6014",
+  "node": [
+    {
+      "id": 6014,
+      "name": "Community Season 1",
+      "nameCN": "废柴联盟 第一季",
+      "date": "2009-09-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 12074,
+      "name": "Community Season 2",
+      "nameCN": "废柴联盟 第二季",
+      "date": "2010-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 23631,
+      "name": "Community Season 3",
+      "nameCN": "废柴联盟 第三季",
+      "date": "2011-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 49665,
+      "name": "Community Season 4",
+      "nameCN": "废柴联盟 第四季",
+      "date": "2013-02-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 83232,
+      "name": "Community Season 5",
+      "nameCN": "废柴联盟 第五季",
+      "date": "2014-01-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 127092,
+      "name": "Community Season 6",
+      "nameCN": "废柴联盟 第六季",
+      "date": "2015-03-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 6014,
+      "dst": 12074
+    },
+    {
+      "relateString": "前传",
+      "src": 12074,
+      "dst": 6014
+    },
+    {
+      "relateString": "续集",
+      "src": 12074,
+      "dst": 23631
+    },
+    {
+      "relateString": "前传",
+      "src": 23631,
+      "dst": 12074
+    },
+    {
+      "relateString": "续集",
+      "src": 23631,
+      "dst": 49665
+    },
+    {
+      "relateString": "前传",
+      "src": 49665,
+      "dst": 23631
+    },
+    {
+      "relateString": "续集",
+      "src": 49665,
+      "dst": 83232
+    },
+    {
+      "relateString": "前传",
+      "src": 83232,
+      "dst": 49665
+    },
+    {
+      "relateString": "续集",
+      "src": 83232,
+      "dst": 127092
+    },
+    {
+      "relateString": "前传",
+      "src": 127092,
+      "dst": 83232
+    }
+  ]
 }

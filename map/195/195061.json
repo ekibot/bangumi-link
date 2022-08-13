@@ -1,57 +1,54 @@
 {
- "id": 195061,
- "node": [
-  {
-   "id": 195061,
-   "name": "性格クズでなにが悪い",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/74/195061_jp.jpg",
-   "date": "2016-09-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 256358,
-   "name": "クズは急には直らない",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/f8/256358_Hm11w.jpg",
-   "date": "2018-07-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 322637,
-   "name": "クズでもできる恋愛論",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/67/322637_wWw50.jpg",
-   "date": "2020-11-05",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195061,
-   "dst": 256358
-  },
-  {
-   "relate": "前传",
-   "src": 256358,
-   "dst": 195061
-  },
-  {
-   "relate": "续集",
-   "src": 256358,
-   "dst": 322637
-  },
-  {
-   "relate": "前传",
-   "src": 322637,
-   "dst": 256358
-  }
- ]
+  "id": "195061",
+  "node": [
+    {
+      "id": 195061,
+      "name": "性格クズでなにが悪い",
+      "nameCN": "",
+      "date": "2016-09-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 256358,
+      "name": "クズは急には直らない",
+      "nameCN": "",
+      "date": "2018-07-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322637,
+      "name": "クズでもできる恋愛論",
+      "nameCN": "",
+      "date": "2020-11-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195061,
+      "dst": 256358
+    },
+    {
+      "relateString": "前传",
+      "src": 256358,
+      "dst": 195061
+    },
+    {
+      "relateString": "续集",
+      "src": 256358,
+      "dst": 322637
+    },
+    {
+      "relateString": "前传",
+      "src": 322637,
+      "dst": 256358
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 2129,
- "node": [
-  {
-   "id": 2129,
-   "name": "けんぷファー",
-   "nameCN": "肯普法",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/4b/2129_fX9b7.jpg",
-   "date": "2009-10-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 68807,
-   "name": "けんぷファー für die Liebe",
-   "nameCN": "肯普法 为了爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/5a/68807_xX3m1.jpg",
-   "date": "2011-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2129,
-   "dst": 68807
-  },
-  {
-   "relate": "前传",
-   "src": 68807,
-   "dst": 2129
-  }
- ]
+  "id": "2129",
+  "node": [
+    {
+      "id": 2129,
+      "name": "けんぷファー",
+      "nameCN": "肯普法",
+      "date": "2009-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 68807,
+      "name": "けんぷファー für die Liebe",
+      "nameCN": "肯普法 为了爱",
+      "date": "2011-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2129,
+      "dst": 68807
+    },
+    {
+      "relateString": "前传",
+      "src": 68807,
+      "dst": 2129
+    }
+  ]
 }

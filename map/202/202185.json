@@ -1,37 +1,33 @@
 {
- "id": 202185,
- "node": [
-  {
-   "id": 202185,
-   "name": "餓狼伝",
-   "nameCN": "饿狼传",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/53/202185_f9FCJ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 286495,
-   "name": "餓狼伝BOY",
-   "nameCN": "饿狼传BOY",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/f0/286495_5sNBF.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 202185,
-   "dst": 286495
-  },
-  {
-   "relate": "续集",
-   "src": 286495,
-   "dst": 202185
-  }
- ]
+  "id": "202185",
+  "node": [
+    {
+      "id": 202185,
+      "name": "餓狼伝",
+      "nameCN": "饿狼传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 286495,
+      "name": "餓狼伝BOY",
+      "nameCN": "饿狼传BOY",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 202185,
+      "dst": 286495
+    },
+    {
+      "relateString": "续集",
+      "src": 286495,
+      "dst": 202185
+    }
+  ]
 }

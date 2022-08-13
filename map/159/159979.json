@@ -1,37 +1,35 @@
 {
- "id": 159979,
- "node": [
-  {
-   "id": 159979,
-   "name": "Compiler",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 159987,
-   "name": "アセンブラ0X",
-   "nameCN": "assembler OX",
-   "date": null,
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 159979,
-   "dst": 159987
-  },
-  {
-   "relate": "前传",
-   "src": 159987,
-   "dst": 159979
-  }
- ]
+  "id": "159979",
+  "node": [
+    {
+      "id": 159979,
+      "name": "Compiler",
+      "nameCN": "电脑少女",
+      "date": "1991-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159987,
+      "name": "アセンブラ0X",
+      "nameCN": "电脑少女OXII",
+      "date": "1993-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 159979,
+      "dst": 159987
+    },
+    {
+      "relateString": "前传",
+      "src": 159987,
+      "dst": 159979
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 248092,
- "node": [
-  {
-   "id": 248092,
-   "name": "無気力日和。+",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/d6/248092_7OPJ6.jpg",
-   "date": "2015-10-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 248093,
-   "name": "無気力日和。",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/a3/248093_g5vsK.jpg",
-   "date": "2015-01-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 248092,
-   "dst": 248093
-  },
-  {
-   "relate": "续集",
-   "src": 248093,
-   "dst": 248092
-  }
- ]
+  "id": "248092",
+  "node": [
+    {
+      "id": 248092,
+      "name": "無気力日和。+",
+      "nameCN": "",
+      "date": "2015-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 248093,
+      "name": "無気力日和。",
+      "nameCN": "",
+      "date": "2015-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 248092,
+      "dst": 248093
+    },
+    {
+      "relateString": "续集",
+      "src": 248093,
+      "dst": 248092
+    }
+  ]
 }

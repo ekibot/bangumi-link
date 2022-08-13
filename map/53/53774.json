@@ -1,97 +1,92 @@
 {
- "id": 53774,
- "node": [
-  {
-   "id": 53774,
-   "name": "エースをねらえ!",
-   "nameCN": "网球甜心",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/7a/53774_0vni1.jpg",
-   "date": "1973-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 72360,
-   "name": "新・エースをねらえ!",
-   "nameCN": "新・网球娇娃",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/f9/72360_I98Ow.jpg",
-   "date": "1978-10-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 75855,
-   "name": "エースをねらえ!",
-   "nameCN": "网球娇娃 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/1c/75855_zCyr3.jpg",
-   "date": "1979-09-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 75856,
-   "name": "エースをねらえ!2",
-   "nameCN": "网球娇娃2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/e6/75856_78o2e.jpg",
-   "date": "1988-07-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 75858,
-   "name": "エースをねらえ!ファイナルステージ",
-   "nameCN": "网球娇娃 Final Stage",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/9d/75858_RHquA.jpg",
-   "date": "1989-10-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53774,
-   "dst": 72360
-  },
-  {
-   "relate": "总集篇",
-   "src": 53774,
-   "dst": 75855
-  },
-  {
-   "relate": "前传",
-   "src": 72360,
-   "dst": 53774
-  },
-  {
-   "relate": "续集",
-   "src": 72360,
-   "dst": 75856
-  },
-  {
-   "relate": "全集",
-   "src": 75855,
-   "dst": 53774
-  },
-  {
-   "relate": "前传",
-   "src": 75856,
-   "dst": 72360
-  },
-  {
-   "relate": "续集",
-   "src": 75856,
-   "dst": 75858
-  },
-  {
-   "relate": "前传",
-   "src": 75858,
-   "dst": 75856
-  }
- ]
+  "id": "53774",
+  "node": [
+    {
+      "id": 53774,
+      "name": "エースをねらえ!",
+      "nameCN": "网球甜心",
+      "date": "1973-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 72360,
+      "name": "新・エースをねらえ!",
+      "nameCN": "新・网球娇娃",
+      "date": "1978-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 75855,
+      "name": "エースをねらえ!",
+      "nameCN": "网球娇娃 剧场版",
+      "date": "1979-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 75856,
+      "name": "エースをねらえ!2",
+      "nameCN": "网球娇娃2",
+      "date": "1988-07-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 75858,
+      "name": "エースをねらえ!ファイナルステージ",
+      "nameCN": "网球娇娃 Final Stage",
+      "date": "1989-10-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53774,
+      "dst": 72360
+    },
+    {
+      "relateString": "总集篇",
+      "src": 53774,
+      "dst": 75855
+    },
+    {
+      "relateString": "前传",
+      "src": 72360,
+      "dst": 53774
+    },
+    {
+      "relateString": "续集",
+      "src": 72360,
+      "dst": 75856
+    },
+    {
+      "relateString": "全集",
+      "src": 75855,
+      "dst": 53774
+    },
+    {
+      "relateString": "前传",
+      "src": 75856,
+      "dst": 72360
+    },
+    {
+      "relateString": "续集",
+      "src": 75856,
+      "dst": 75858
+    },
+    {
+      "relateString": "前传",
+      "src": 75858,
+      "dst": 75856
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 231588,
- "node": [
-  {
-   "id": 231588,
-   "name": "さつきとショーコ",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/ed/231588_rTgOe.jpg",
-   "date": "2011-10-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231589,
-   "name": "さつきとショーコ２",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/7f/231589_4VV4n.jpg",
-   "date": "2015-07-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231588,
-   "dst": 231589
-  },
-  {
-   "relate": "前传",
-   "src": 231589,
-   "dst": 231588
-  }
- ]
+  "id": "231588",
+  "node": [
+    {
+      "id": 231588,
+      "name": "さつきとショーコ",
+      "nameCN": "",
+      "date": "2011-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231589,
+      "name": "さつきとショーコ２",
+      "nameCN": "",
+      "date": "2015-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231588,
+      "dst": 231589
+    },
+    {
+      "relateString": "前传",
+      "src": 231589,
+      "dst": 231588
+    }
+  ]
 }

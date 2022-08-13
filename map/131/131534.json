@@ -1,34 +1,35 @@
 {
- "id": 131534,
- "node": [
-  {
-   "id": 131534,
-   "name": "END END SUMMER",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/3e/131534_Zp7Jr.jpg",
-   "date": "2009-06-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 131535,
-   "name": "INNOCENT INCEST",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/db/131535_NXwzI.jpg",
-   "date": "2013-08-03",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 131534,
-   "dst": 131535
-  },
-  {
-   "relate": "前传",
-   "src": 131535,
-   "dst": 131534
-  }
- ]
+  "id": "131534",
+  "node": [
+    {
+      "id": 131534,
+      "name": "END END SUMMER",
+      "nameCN": "",
+      "date": "2009-06-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 131535,
+      "name": "INNOCENT INCEST",
+      "nameCN": "",
+      "date": "2013-08-03",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 131534,
+      "dst": 131535
+    },
+    {
+      "relateString": "前传",
+      "src": 131535,
+      "dst": 131534
+    }
+  ]
 }

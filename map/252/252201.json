@@ -1,28 +1,30 @@
 {
- "id": 252201,
- "node": [
-  {
-   "id": 252201,
-   "name": "蝴蝶",
-   "nameCN": "蝴蝶",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/05/252201_04s0h.jpg",
-   "date": "2018-06-22",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 280625,
-   "name": "人间",
-   "nameCN": "人间",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/a9/280625_cITdD.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 252201,
-   "dst": 280625
-  }
- ]
+  "id": "252201",
+  "node": [
+    {
+      "id": 252201,
+      "name": "蝴蝶",
+      "nameCN": "蝴蝶",
+      "date": "2018-06-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 280625,
+      "name": "人间",
+      "nameCN": "人间",
+      "date": "2019-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 252201,
+      "dst": 280625
+    }
+  ]
 }

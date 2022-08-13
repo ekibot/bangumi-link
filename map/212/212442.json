@@ -1,37 +1,34 @@
 {
- "id": 212442,
- "node": [
-  {
-   "id": 212442,
-   "name": "ファイナルファンタジーXIV 光のお父さん",
-   "nameCN": "最终幻想14 光之父亲",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/df/212442_haXJR.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 279898,
-   "name": "劇場版 ファイナルファンタジーXIV 光のお父さん",
-   "nameCN": "剧场版 最终幻想14 光之父亲",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/f7/279898_73U7B.jpg",
-   "date": "2019-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 212442,
-   "dst": 279898
-  },
-  {
-   "relate": "不同演绎",
-   "src": 279898,
-   "dst": 212442
-  }
- ]
+  "id": "212442",
+  "node": [
+    {
+      "id": 212442,
+      "name": "ファイナルファンタジーXIV 光のお父さん",
+      "nameCN": "最终幻想14 光之父亲",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 279898,
+      "name": "劇場版 ファイナルファンタジーXIV 光のお父さん",
+      "nameCN": "剧场版 最终幻想14 光之父亲",
+      "date": "2019-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 212442,
+      "dst": 279898
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 279898,
+      "dst": 212442
+    }
+  ]
 }

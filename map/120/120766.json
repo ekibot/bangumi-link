@@ -1,57 +1,52 @@
 {
- "id": 120766,
- "node": [
-  {
-   "id": 120766,
-   "name": "Cat Shit One",
-   "nameCN": "猫屎一号",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/84/120766_U5vUZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 120771,
-   "name": "Cat Shit One '80",
-   "nameCN": "猫屎一号 '80",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/64/120771_fqwF6.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 120775,
-   "name": "Cat Shit One JP",
-   "nameCN": "猫屎一号JP",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/42/120775_AgYhI.jpg",
-   "date": "2011-10-31",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120766,
-   "dst": 120771
-  },
-  {
-   "relate": "前传",
-   "src": 120771,
-   "dst": 120766
-  },
-  {
-   "relate": "续集",
-   "src": 120771,
-   "dst": 120775
-  },
-  {
-   "relate": "前传",
-   "src": 120775,
-   "dst": 120771
-  }
- ]
+  "id": "120766",
+  "node": [
+    {
+      "id": 120766,
+      "name": "Cat Shit One",
+      "nameCN": "猫屎一号",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120771,
+      "name": "Cat Shit One '80",
+      "nameCN": "猫屎一号 '80",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 120775,
+      "name": "Cat Shit One JP",
+      "nameCN": "猫屎一号JP",
+      "date": "2011-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120766,
+      "dst": 120771
+    },
+    {
+      "relateString": "前传",
+      "src": 120771,
+      "dst": 120766
+    },
+    {
+      "relateString": "续集",
+      "src": 120771,
+      "dst": 120775
+    },
+    {
+      "relateString": "前传",
+      "src": 120775,
+      "dst": 120771
+    }
+  ]
 }

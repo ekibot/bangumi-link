@@ -1,37 +1,35 @@
 {
- "id": 215304,
- "node": [
-  {
-   "id": 215304,
-   "name": "お前の前で泣くもんか",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/23/215304_jp.jpg",
-   "date": "2017-03-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 241292,
-   "name": "お前の前で泣くもんか セレモニー",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/d7/241292_ejS0w.jpg",
-   "date": "2017-11-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 215304,
-   "dst": 241292
-  },
-  {
-   "relate": "前传",
-   "src": 241292,
-   "dst": 215304
-  }
- ]
+  "id": "215304",
+  "node": [
+    {
+      "id": 215304,
+      "name": "お前の前で泣くもんか",
+      "nameCN": "",
+      "date": "2017-03-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241292,
+      "name": "お前の前で泣くもんか セレモニー",
+      "nameCN": "",
+      "date": "2017-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 215304,
+      "dst": 241292
+    },
+    {
+      "relateString": "前传",
+      "src": 241292,
+      "dst": 215304
+    }
+  ]
 }

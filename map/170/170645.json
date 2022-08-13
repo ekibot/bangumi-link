@@ -1,37 +1,34 @@
 {
- "id": 170645,
- "node": [
-  {
-   "id": 170645,
-   "name": "小山荘のきらわれ者",
-   "nameCN": "小山庄里遭人厌的家伙",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/39/170645_Vl0b3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 170653,
-   "name": "小山荘のきらわれ者〜リターンズ〜",
-   "nameCN": "小山庄的不速之客〜回归〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/d3/170653_3fl1d.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 170645,
-   "dst": 170653
-  },
-  {
-   "relate": "前传",
-   "src": 170653,
-   "dst": 170645
-  }
- ]
+  "id": "170645",
+  "node": [
+    {
+      "id": 170645,
+      "name": "小山荘のきらわれ者",
+      "nameCN": "小山庄里遭人厌的家伙",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 170653,
+      "name": "小山荘のきらわれ者〜リターンズ〜",
+      "nameCN": "小山庄的不速之客〜回归〜",
+      "date": "2014-09-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 170645,
+      "dst": 170653
+    },
+    {
+      "relateString": "前传",
+      "src": 170653,
+      "dst": 170645
+    }
+  ]
 }

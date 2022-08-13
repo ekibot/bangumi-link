@@ -1,37 +1,35 @@
 {
- "id": 105330,
- "node": [
-  {
-   "id": 105330,
-   "name": "The Night Shift Season:1",
-   "nameCN": "夜班医生",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/f5/105330_pBPdi.jpg",
-   "date": "2014-05-27",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 192308,
-   "name": "The Night Shift (season 2)",
-   "date": "2015-02-23",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 105330,
-   "dst": 192308
-  },
-  {
-   "relate": "前传",
-   "src": 192308,
-   "dst": 105330
-  }
- ]
+  "id": "105330",
+  "node": [
+    {
+      "id": 105330,
+      "name": "The Night Shift Season:1",
+      "nameCN": "夜班医生",
+      "date": "2014-05-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 192308,
+      "name": "The Night Shift (season 2)",
+      "nameCN": "",
+      "date": "2015-02-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 105330,
+      "dst": 192308
+    },
+    {
+      "relateString": "前传",
+      "src": 192308,
+      "dst": 105330
+    }
+  ]
 }

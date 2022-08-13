@@ -1,37 +1,35 @@
 {
- "id": 270235,
- "node": [
-  {
-   "id": 270235,
-   "name": "The Shivering Truth",
-   "nameCN": "颤抖的真相",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/7f/270235_nDVL7.jpg",
-   "date": "2018-05-22",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 317879,
-   "name": "The Shivering Truth Season 2",
-   "nameCN": "颤抖的真相 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/89/317879_9a1pH.jpg",
-   "date": "2020-05-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 270235,
-   "dst": 317879
-  },
-  {
-   "relate": "前传",
-   "src": 317879,
-   "dst": 270235
-  }
- ]
+  "id": "270235",
+  "node": [
+    {
+      "id": 270235,
+      "name": "The Shivering Truth",
+      "nameCN": "颤抖的真相",
+      "date": "2018-05-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317879,
+      "name": "The Shivering Truth Season 2",
+      "nameCN": "颤抖的真相 第二季",
+      "date": "2020-05-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 270235,
+      "dst": 317879
+    },
+    {
+      "relateString": "前传",
+      "src": 317879,
+      "dst": 270235
+    }
+  ]
 }

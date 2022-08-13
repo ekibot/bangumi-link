@@ -1,37 +1,35 @@
 {
- "id": 123039,
- "node": [
-  {
-   "id": 123039,
-   "name": "誰かが恋した繁花街",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/7a/123039_woaEw.jpg",
-   "date": "2013-12-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 213678,
-   "name": "彼女が恋した繁花街 〜True Flower With You〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/6f/213678_zBjzG.jpg",
-   "date": "2016-08-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 123039,
-   "dst": 213678
-  },
-  {
-   "relate": "前传",
-   "src": 213678,
-   "dst": 123039
-  }
- ]
+  "id": "123039",
+  "node": [
+    {
+      "id": 123039,
+      "name": "誰かが恋した繁花街",
+      "nameCN": "",
+      "date": "2013-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 213678,
+      "name": "彼女が恋した繁花街 〜True Flower With You〜",
+      "nameCN": "",
+      "date": "2016-08-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 123039,
+      "dst": 213678
+    },
+    {
+      "relateString": "前传",
+      "src": 213678,
+      "dst": 123039
+    }
+  ]
 }

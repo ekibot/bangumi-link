@@ -1,37 +1,35 @@
 {
- "id": 10985,
- "node": [
-  {
-   "id": 10985,
-   "name": "ヴィーナス&amp;ブレイブス ～魔女と女神と滅びの予言～",
-   "nameCN": "维纳斯与布雷斯：魔女与女神的破灭预言",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/3b/10985_Muz4a.jpg",
-   "date": "2003-02-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 61128,
-   "name": "7〜モールモースの騎兵隊〜",
-   "nameCN": "七勇士 摩尔摩斯骑兵队",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/37/61128_cMTMa.jpg",
-   "date": "2000-12-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 10985,
-   "dst": 61128
-  },
-  {
-   "relate": "续集",
-   "src": 61128,
-   "dst": 10985
-  }
- ]
+  "id": "10985",
+  "node": [
+    {
+      "id": 10985,
+      "name": "ヴィーナス&amp;ブレイブス ～魔女と女神と滅びの予言～",
+      "nameCN": "维纳斯与布雷斯：魔女与女神的破灭预言",
+      "date": "2003-02-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61128,
+      "name": "7〜モールモースの騎兵隊〜",
+      "nameCN": "七勇士 摩尔摩斯骑兵队",
+      "date": "2000-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 10985,
+      "dst": 61128
+    },
+    {
+      "relateString": "续集",
+      "src": 61128,
+      "dst": 10985
+    }
+  ]
 }

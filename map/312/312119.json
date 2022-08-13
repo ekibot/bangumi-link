@@ -1,37 +1,35 @@
 {
- "id": 312119,
- "node": [
-  {
-   "id": 312119,
-   "name": "无法拥抱的你",
-   "nameCN": "无法拥抱的你",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/f1/312119_kSSRr.jpg",
-   "date": "2017-11-20",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 312120,
-   "name": "无法拥抱的你2",
-   "nameCN": "无法拥抱的你 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/57/312120_1sP6z.jpg",
-   "date": "2018-02-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 312119,
-   "dst": 312120
-  },
-  {
-   "relate": "前传",
-   "src": 312120,
-   "dst": 312119
-  }
- ]
+  "id": "312119",
+  "node": [
+    {
+      "id": 312119,
+      "name": "无法拥抱的你",
+      "nameCN": "无法拥抱的你",
+      "date": "2017-11-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 312120,
+      "name": "无法拥抱的你2",
+      "nameCN": "无法拥抱的你 第二季",
+      "date": "2018-02-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 312119,
+      "dst": 312120
+    },
+    {
+      "relateString": "前传",
+      "src": 312120,
+      "dst": 312119
+    }
+  ]
 }

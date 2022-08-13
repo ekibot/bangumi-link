@@ -1,37 +1,33 @@
 {
- "id": 53639,
- "node": [
-  {
-   "id": 53639,
-   "name": "ハンマーセッション!",
-   "nameCN": "震撼鲜师",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/79/53639_XfAK1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 93617,
-   "name": "ハンマーセッション!In High School",
-   "nameCN": "震撼鲜师 高校篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/c5/93617_3oh3b.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 53639,
-   "dst": 93617
-  },
-  {
-   "relate": "前传",
-   "src": 93617,
-   "dst": 53639
-  }
- ]
+  "id": "53639",
+  "node": [
+    {
+      "id": 53639,
+      "name": "ハンマーセッション!",
+      "nameCN": "震撼鲜师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93617,
+      "name": "ハンマーセッション!In High School",
+      "nameCN": "震撼鲜师 高校篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 53639,
+      "dst": 93617
+    },
+    {
+      "relateString": "前传",
+      "src": 93617,
+      "dst": 53639
+    }
+  ]
 }

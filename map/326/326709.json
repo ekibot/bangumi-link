@@ -1,37 +1,35 @@
 {
- "id": 326709,
- "node": [
-  {
-   "id": 326709,
-   "name": "マジカミ イビルオブテイルコート",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/c4/326709_SNS5s.jpg",
-   "date": "2020-09-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 351019,
-   "name": "アイ・アム・マジカミ イビルオブフラワーバッド",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/5e/351019_D6FoW.jpg",
-   "date": "2021-08-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 326709,
-   "dst": 351019
-  },
-  {
-   "relate": "前传",
-   "src": 351019,
-   "dst": 326709
-  }
- ]
+  "id": "326709",
+  "node": [
+    {
+      "id": 326709,
+      "name": "マジカミ イビルオブテイルコート",
+      "nameCN": "",
+      "date": "2020-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 351019,
+      "name": "アイ・アム・マジカミ イビルオブフラワーバッド",
+      "nameCN": "",
+      "date": "2021-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 326709,
+      "dst": 351019
+    },
+    {
+      "relateString": "前传",
+      "src": 351019,
+      "dst": 326709
+    }
+  ]
 }

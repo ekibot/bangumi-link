@@ -1,37 +1,35 @@
 {
- "id": 194792,
- "node": [
-  {
-   "id": 194792,
-   "name": "王者荣耀",
-   "nameCN": "王者荣耀",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/00/194792_22sys.jpg",
-   "date": "2015-11-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 211944,
-   "name": "傳說對決",
-   "nameCN": "传说对决",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/66/211944_8348u.jpg",
-   "date": "2017-03-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 194792,
-   "dst": 211944
-  },
-  {
-   "relate": "不同演绎",
-   "src": 211944,
-   "dst": 194792
-  }
- ]
+  "id": "194792",
+  "node": [
+    {
+      "id": 194792,
+      "name": "王者荣耀",
+      "nameCN": "王者荣耀",
+      "date": "2015-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 211944,
+      "name": "傳說對決",
+      "nameCN": "传说对决",
+      "date": "2017-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 194792,
+      "dst": 211944
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 211944,
+      "dst": 194792
+    }
+  ]
 }

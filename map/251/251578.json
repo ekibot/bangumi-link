@@ -1,77 +1,73 @@
 {
- "id": 251578,
- "node": [
-  {
-   "id": 251578,
-   "name": "Yellowstone Season 1",
-   "nameCN": "黄石 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/39/251578_wZCQu.jpg",
-   "date": "2018-06-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 258239,
-   "name": "Yellowstone Season 2",
-   "nameCN": "黄石 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/1a/258239_8ITp1.jpg",
-   "date": "2019-06-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 356531,
-   "name": "Yellowstone Season 3",
-   "nameCN": "黄石 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/78/356531_bt33M.jpg",
-   "date": "2020-06-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 356532,
-   "name": "Yellowstone Season 4",
-   "nameCN": "黄石 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/e9/356532_7u0uB.jpg",
-   "date": "2021-11-07",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251578,
-   "dst": 258239
-  },
-  {
-   "relate": "前传",
-   "src": 258239,
-   "dst": 251578
-  },
-  {
-   "relate": "续集",
-   "src": 258239,
-   "dst": 356531
-  },
-  {
-   "relate": "前传",
-   "src": 356531,
-   "dst": 258239
-  },
-  {
-   "relate": "续集",
-   "src": 356531,
-   "dst": 356532
-  },
-  {
-   "relate": "前传",
-   "src": 356532,
-   "dst": 356531
-  }
- ]
+  "id": "251578",
+  "node": [
+    {
+      "id": 251578,
+      "name": "Yellowstone Season 1",
+      "nameCN": "黄石 第一季",
+      "date": "2018-06-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 258239,
+      "name": "Yellowstone Season 2",
+      "nameCN": "黄石 第二季",
+      "date": "2019-06-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 356531,
+      "name": "Yellowstone Season 3",
+      "nameCN": "黄石 第三季",
+      "date": "2020-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 356532,
+      "name": "Yellowstone Season 4",
+      "nameCN": "黄石 第四季",
+      "date": "2021-11-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251578,
+      "dst": 258239
+    },
+    {
+      "relateString": "前传",
+      "src": 258239,
+      "dst": 251578
+    },
+    {
+      "relateString": "续集",
+      "src": 258239,
+      "dst": 356531
+    },
+    {
+      "relateString": "前传",
+      "src": 356531,
+      "dst": 258239
+    },
+    {
+      "relateString": "续集",
+      "src": 356531,
+      "dst": 356532
+    },
+    {
+      "relateString": "前传",
+      "src": 356532,
+      "dst": 356531
+    }
+  ]
 }

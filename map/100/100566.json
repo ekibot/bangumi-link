@@ -1,37 +1,35 @@
 {
- "id": 100566,
- "node": [
-  {
-   "id": 100566,
-   "name": "筋トレ応援ゲーム ねんしょう！",
-   "nameCN": "肌肉锻炼应援游戏 燃烧！",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/8c/100566_805yn.jpg",
-   "date": "2012-10-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 100567,
-   "name": "ランニング応援ゲーム ねんしょう！2",
-   "nameCN": "跑步应援游戏 燃烧！2",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/bb/100567_MY9mZ.jpg",
-   "date": "2013-11-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100566,
-   "dst": 100567
-  },
-  {
-   "relate": "前传",
-   "src": 100567,
-   "dst": 100566
-  }
- ]
+  "id": "100566",
+  "node": [
+    {
+      "id": 100566,
+      "name": "筋トレ応援ゲーム ねんしょう！",
+      "nameCN": "肌肉锻炼应援游戏 燃烧！",
+      "date": "2012-10-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 100567,
+      "name": "ランニング応援ゲーム ねんしょう！2",
+      "nameCN": "跑步应援游戏 燃烧！2",
+      "date": "2013-11-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100566,
+      "dst": 100567
+    },
+    {
+      "relateString": "前传",
+      "src": 100567,
+      "dst": 100566
+    }
+  ]
 }

@@ -1,71 +1,53 @@
 {
- "id": 101922,
- "node": [
-  {
-   "id": 101922,
-   "name": "Monument Valley",
-   "nameCN": "纪念碑谷",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/d1/101922_DZJzr.jpg",
-   "date": "2014-04-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 112773,
-   "name": "Monument Valley: Forgotten Shores",
-   "nameCN": "纪念碑谷: 被遗忘的海岸",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/ea/112773_687pT.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216446,
-   "name": "Monument Valley 2",
-   "nameCN": "纪念碑谷2",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/05/216446_7An7a.jpg",
-   "date": "2017-06-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 320964,
-   "name": "Monument Valley 3",
-   "nameCN": "纪念碑谷3",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/10/320964_X3NZK.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 101922,
-   "dst": 216446
-  },
-  {
-   "relate": "主线故事",
-   "src": 112773,
-   "dst": 101922
-  },
-  {
-   "relate": "前传",
-   "src": 216446,
-   "dst": 101922
-  },
-  {
-   "relate": "续集",
-   "src": 216446,
-   "dst": 320964
-  },
-  {
-   "relate": "前传",
-   "src": 320964,
-   "dst": 216446
-  }
- ]
+  "id": "101922",
+  "node": [
+    {
+      "id": 101922,
+      "name": "Monument Valley",
+      "nameCN": "纪念碑谷",
+      "date": "2014-04-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216446,
+      "name": "Monument Valley 2",
+      "nameCN": "纪念碑谷2",
+      "date": "2017-06-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 320964,
+      "name": "Monument Valley 3",
+      "nameCN": "纪念碑谷3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 101922,
+      "dst": 216446
+    },
+    {
+      "relateString": "前传",
+      "src": 216446,
+      "dst": 101922
+    },
+    {
+      "relateString": "续集",
+      "src": 216446,
+      "dst": 320964
+    },
+    {
+      "relateString": "前传",
+      "src": 320964,
+      "dst": 216446
+    }
+  ]
 }

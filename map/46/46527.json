@@ -1,37 +1,34 @@
 {
- "id": 46527,
- "node": [
-  {
-   "id": 46527,
-   "name": "魔法使い(♂)と弟子(♀)の不適切なカンケイ",
-   "nameCN": "魔法师和弟子的不正当关系",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/2d/46527_4zbKI.jpg",
-   "date": "2009-10-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 46531,
-   "name": "クラスメイト(♀)と迷宮の不適切な攻略法",
-   "nameCN": "同班同学(♀)与迷宫的不恰当攻略法",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/a4/46531_xPgbX.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 46527,
-   "dst": 46531
-  },
-  {
-   "relate": "前传",
-   "src": 46531,
-   "dst": 46527
-  }
- ]
+  "id": "46527",
+  "node": [
+    {
+      "id": 46527,
+      "name": "魔法使い(♂)と弟子(♀)の不適切なカンケイ",
+      "nameCN": "魔法师和弟子的不正当关系",
+      "date": "2009-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 46531,
+      "name": "クラスメイト(♀)と迷宮の不適切な攻略法",
+      "nameCN": "同班同学(♀)与迷宫的不恰当攻略法",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 46527,
+      "dst": 46531
+    },
+    {
+      "relateString": "前传",
+      "src": 46531,
+      "dst": 46527
+    }
+  ]
 }

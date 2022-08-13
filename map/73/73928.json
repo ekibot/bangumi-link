@@ -1,97 +1,92 @@
 {
- "id": 73928,
- "node": [
-  {
-   "id": 73928,
-   "name": "魔法のプリンセス ミンキーモモ",
-   "nameCN": "魔法公主明琪桃子",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/91/73928_z60J9.jpg",
-   "date": "1982-03-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 81582,
-   "name": "魔法のプリンセス ミンキーモモ 夢を抱きしめて",
-   "nameCN": "魔法公主 明琪桃子 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/0c/81582_DDXiz.jpg",
-   "date": "1991-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 93047,
-   "name": "MINKY MOMO IN 夢にかける橋",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/58/93047_21YZ6.jpg",
-   "date": "1993-05-21",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 93049,
-   "name": "MINKY MOMO IN 旅だちの駅",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/7b/93049_USM7V.jpg",
-   "date": "1994-06-22",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 317022,
-   "name": "魔法のプリンセス ミンキーモモ 夢の中の輪舞",
-   "nameCN": "魔法公主明琪桃子 梦中的轮舞",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/0b/317022_1TvI8.jpg",
-   "date": "1985-07-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 73928,
-   "dst": 81582
-  },
-  {
-   "relate": "衍生",
-   "src": 73928,
-   "dst": 317022
-  },
-  {
-   "relate": "前传",
-   "src": 81582,
-   "dst": 73928
-  },
-  {
-   "relate": "续集",
-   "src": 81582,
-   "dst": 93047
-  },
-  {
-   "relate": "续集",
-   "src": 81582,
-   "dst": 93049
-  },
-  {
-   "relate": "前传",
-   "src": 93047,
-   "dst": 81582
-  },
-  {
-   "relate": "前传",
-   "src": 93049,
-   "dst": 81582
-  },
-  {
-   "relate": "主线故事",
-   "src": 317022,
-   "dst": 73928
-  }
- ]
+  "id": "73928",
+  "node": [
+    {
+      "id": 73928,
+      "name": "魔法のプリンセス ミンキーモモ",
+      "nameCN": "魔法公主明琪桃子",
+      "date": "1982-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 81582,
+      "name": "魔法のプリンセス ミンキーモモ 夢を抱きしめて",
+      "nameCN": "魔法公主 明琪桃子 第二季",
+      "date": "1991-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 317022,
+      "name": "魔法のプリンセス ミンキーモモ 夢の中の輪舞",
+      "nameCN": "魔法公主明琪桃子 梦中的轮舞",
+      "date": "1985-07-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 93047,
+      "name": "MINKY MOMO IN 夢にかける橋",
+      "nameCN": "",
+      "date": "1993-05-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 93049,
+      "name": "MINKY MOMO IN 旅だちの駅",
+      "nameCN": "",
+      "date": "1994-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 73928,
+      "dst": 81582
+    },
+    {
+      "relateString": "衍生",
+      "src": 73928,
+      "dst": 317022
+    },
+    {
+      "relateString": "前传",
+      "src": 81582,
+      "dst": 73928
+    },
+    {
+      "relateString": "续集",
+      "src": 81582,
+      "dst": 93047
+    },
+    {
+      "relateString": "续集",
+      "src": 81582,
+      "dst": 93049
+    },
+    {
+      "relateString": "前传",
+      "src": 93047,
+      "dst": 81582
+    },
+    {
+      "relateString": "前传",
+      "src": 93049,
+      "dst": 81582
+    },
+    {
+      "relateString": "主线故事",
+      "src": 317022,
+      "dst": 73928
+    }
+  ]
 }

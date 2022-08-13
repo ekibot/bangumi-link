@@ -1,67 +1,64 @@
 {
- "id": 174669,
- "node": [
-  {
-   "id": 174669,
-   "name": "Grantchester Season 2",
-   "nameCN": "牧师神探 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/b5/174669_A22Xl.jpg",
-   "date": "2016-03-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 206512,
-   "name": "Grantchester: Christmas Special 2016",
-   "nameCN": "牧师神探：2016圣诞特辑",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/8f/206512_II7x3.jpg",
-   "date": "2016-12-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 215628,
-   "name": "Grantchester Season 3",
-   "nameCN": "牧师神探 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/75/215628_g7x2L.jpg",
-   "date": "2017-04-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 174669,
-   "dst": 206512
-  },
-  {
-   "relate": "续集",
-   "src": 174669,
-   "dst": 215628
-  },
-  {
-   "relate": "前传",
-   "src": 206512,
-   "dst": 174669
-  },
-  {
-   "relate": "续集",
-   "src": 206512,
-   "dst": 215628
-  },
-  {
-   "relate": "前传",
-   "src": 215628,
-   "dst": 174669
-  },
-  {
-   "relate": "前传",
-   "src": 215628,
-   "dst": 206512
-  }
- ]
+  "id": "174669",
+  "node": [
+    {
+      "id": 174669,
+      "name": "Grantchester Season 2",
+      "nameCN": "牧师神探 第二季",
+      "date": "2016-03-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 206512,
+      "name": "Grantchester: Christmas Special 2016",
+      "nameCN": "牧师神探：2016圣诞特辑",
+      "date": "2016-12-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 215628,
+      "name": "Grantchester Season 3",
+      "nameCN": "牧师神探 第三季",
+      "date": "2017-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 174669,
+      "dst": 206512
+    },
+    {
+      "relateString": "续集",
+      "src": 174669,
+      "dst": 215628
+    },
+    {
+      "relateString": "前传",
+      "src": 206512,
+      "dst": 174669
+    },
+    {
+      "relateString": "续集",
+      "src": 206512,
+      "dst": 215628
+    },
+    {
+      "relateString": "前传",
+      "src": 215628,
+      "dst": 174669
+    },
+    {
+      "relateString": "前传",
+      "src": 215628,
+      "dst": 206512
+    }
+  ]
 }

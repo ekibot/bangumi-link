@@ -1,37 +1,35 @@
 {
- "id": 199259,
- "node": [
-  {
-   "id": 199259,
-   "name": "兽王争锋",
-   "nameCN": "兽王争锋",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/8b/199259_ZWYdK.jpg",
-   "date": "2016-11-25",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 228137,
-   "name": "兽王争锋之原石之力",
-   "nameCN": "兽王争锋之原石之力",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/5d/228137_5iIXS.jpg",
-   "date": "2017-10-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 199259,
-   "dst": 228137
-  },
-  {
-   "relate": "前传",
-   "src": 228137,
-   "dst": 199259
-  }
- ]
+  "id": "199259",
+  "node": [
+    {
+      "id": 199259,
+      "name": "兽王争锋",
+      "nameCN": "兽王争锋",
+      "date": "2016-11-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228137,
+      "name": "兽王争锋之原石之力",
+      "nameCN": "兽王争锋之原石之力",
+      "date": "2017-10-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 199259,
+      "dst": 228137
+    },
+    {
+      "relateString": "前传",
+      "src": 228137,
+      "dst": 199259
+    }
+  ]
 }

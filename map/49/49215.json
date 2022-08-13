@@ -1,62 +1,59 @@
 {
- "id": 49215,
- "node": [
-  {
-   "id": 49215,
-   "name": "討鬼伝",
-   "nameCN": "讨鬼传",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/90/49215_NBxVU.jpg",
-   "date": "2013-06-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 103961,
-   "name": "討鬼伝 極",
-   "nameCN": "讨鬼传 极",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/9f/103961_QqqEC.jpg",
-   "date": "2013-06-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 148779,
-   "name": "討鬼伝2",
-   "nameCN": "讨鬼传2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/64/148779_T6RT4.jpg",
-   "date": "2016-07-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 49215,
-   "dst": 148779
-  },
-  {
-   "relate": "主线故事",
-   "src": 103961,
-   "dst": 49215
-  },
-  {
-   "relate": "续集",
-   "src": 103961,
-   "dst": 148779
-  },
-  {
-   "relate": "前传",
-   "src": 148779,
-   "dst": 49215
-  },
-  {
-   "relate": "前传",
-   "src": 148779,
-   "dst": 103961
-  }
- ]
+  "id": "49215",
+  "node": [
+    {
+      "id": 49215,
+      "name": "討鬼伝",
+      "nameCN": "讨鬼传",
+      "date": "2013-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 148779,
+      "name": "討鬼伝2",
+      "nameCN": "讨鬼传2",
+      "date": "2016-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 103961,
+      "name": "討鬼伝 極",
+      "nameCN": "讨鬼传 极",
+      "date": "2013-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 49215,
+      "dst": 148779
+    },
+    {
+      "relateString": "主线故事",
+      "src": 103961,
+      "dst": 49215
+    },
+    {
+      "relateString": "续集",
+      "src": 103961,
+      "dst": 148779
+    },
+    {
+      "relateString": "前传",
+      "src": 148779,
+      "dst": 49215
+    },
+    {
+      "relateString": "前传",
+      "src": 148779,
+      "dst": 103961
+    }
+  ]
 }

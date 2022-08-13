@@ -1,57 +1,54 @@
 {
- "id": 248028,
- "node": [
-  {
-   "id": 248028,
-   "name": "リトルエヌ フリッパーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/ea/248028_22MH2.jpg",
-   "date": "2016-03-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 248040,
-   "name": "リトルエヌ フリッパーズ2",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/c6/248040_1wZmM.jpg",
-   "date": "2016-08-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 248066,
-   "name": "リトルエヌ フリッパーズ3",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/20/248066_rvlwU.jpg",
-   "date": "2017-06-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 248028,
-   "dst": 248040
-  },
-  {
-   "relate": "前传",
-   "src": 248040,
-   "dst": 248028
-  },
-  {
-   "relate": "续集",
-   "src": 248040,
-   "dst": 248066
-  },
-  {
-   "relate": "前传",
-   "src": 248066,
-   "dst": 248040
-  }
- ]
+  "id": "248028",
+  "node": [
+    {
+      "id": 248028,
+      "name": "リトルエヌ フリッパーズ",
+      "nameCN": "",
+      "date": "2016-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 248040,
+      "name": "リトルエヌ フリッパーズ2",
+      "nameCN": "",
+      "date": "2016-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 248066,
+      "name": "リトルエヌ フリッパーズ3",
+      "nameCN": "",
+      "date": "2017-06-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 248028,
+      "dst": 248040
+    },
+    {
+      "relateString": "前传",
+      "src": 248040,
+      "dst": 248028
+    },
+    {
+      "relateString": "续集",
+      "src": 248040,
+      "dst": 248066
+    },
+    {
+      "relateString": "前传",
+      "src": 248066,
+      "dst": 248040
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 15661,
- "node": [
-  {
-   "id": 15661,
-   "name": "The Borgias (Season 1)",
-   "nameCN": "波吉亚家族 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/94/15661_iTvYM.jpg",
-   "date": "2011-04-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 38735,
-   "name": "The Borgias (Season 2)",
-   "nameCN": "波吉亚家族 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/e2/38735_uZRu3.jpg",
-   "date": "2012-04-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 73209,
-   "name": "The Borgias (Season 3)",
-   "nameCN": "波吉亚家族 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/8e/73209_a7M75.jpg",
-   "date": "2013-04-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 15661,
-   "dst": 38735
-  },
-  {
-   "relate": "前传",
-   "src": 38735,
-   "dst": 15661
-  },
-  {
-   "relate": "续集",
-   "src": 38735,
-   "dst": 73209
-  },
-  {
-   "relate": "前传",
-   "src": 73209,
-   "dst": 38735
-  }
- ]
+  "id": "15661",
+  "node": [
+    {
+      "id": 15661,
+      "name": "The Borgias (Season 1)",
+      "nameCN": "波吉亚家族 第一季",
+      "date": "2011-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 38735,
+      "name": "The Borgias (Season 2)",
+      "nameCN": "波吉亚家族 第二季",
+      "date": "2012-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 73209,
+      "name": "The Borgias (Season 3)",
+      "nameCN": "波吉亚家族 第三季",
+      "date": "2013-04-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 15661,
+      "dst": 38735
+    },
+    {
+      "relateString": "前传",
+      "src": 38735,
+      "dst": 15661
+    },
+    {
+      "relateString": "续集",
+      "src": 38735,
+      "dst": 73209
+    },
+    {
+      "relateString": "前传",
+      "src": 73209,
+      "dst": 38735
+    }
+  ]
 }

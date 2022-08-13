@@ -1,0 +1,54 @@
+{
+  "id": "120107",
+  "node": [
+    {
+      "id": 120107,
+      "name": "セブン☆スター",
+      "nameCN": "",
+      "date": "2014-08-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 372035,
+      "name": "SEVEN☆STAR MEN SOUL",
+      "nameCN": "",
+      "date": "2016-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 362433,
+      "name": "セブン☆スターJT",
+      "nameCN": "",
+      "date": "2020-12-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120107,
+      "dst": 372035
+    },
+    {
+      "relateString": "前传",
+      "src": 362433,
+      "dst": 372035
+    },
+    {
+      "relateString": "前传",
+      "src": 372035,
+      "dst": 120107
+    },
+    {
+      "relateString": "续集",
+      "src": 372035,
+      "dst": 362433
+    }
+  ]
+}

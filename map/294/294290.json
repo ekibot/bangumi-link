@@ -1,57 +1,53 @@
 {
- "id": 294290,
- "node": [
-  {
-   "id": 294290,
-   "name": "我是大神仙",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/1f/294290_rziLs.jpg",
-   "date": "2020-11-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 329227,
-   "name": "我是大神仙 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/6d/329227_Yr92X.jpg",
-   "date": "2021-02-25",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 339213,
-   "name": "我是大神仙 第三季",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294290,
-   "dst": 329227
-  },
-  {
-   "relate": "前传",
-   "src": 329227,
-   "dst": 294290
-  },
-  {
-   "relate": "续集",
-   "src": 329227,
-   "dst": 339213
-  },
-  {
-   "relate": "前传",
-   "src": 339213,
-   "dst": 329227
-  }
- ]
+  "id": "294290",
+  "node": [
+    {
+      "id": 294290,
+      "name": "我是大神仙",
+      "nameCN": "",
+      "date": "2020-11-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 329227,
+      "name": "我是大神仙 第二季",
+      "nameCN": "",
+      "date": "2021-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 339213,
+      "name": "我是大神仙 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294290,
+      "dst": 329227
+    },
+    {
+      "relateString": "前传",
+      "src": 329227,
+      "dst": 294290
+    },
+    {
+      "relateString": "续集",
+      "src": 329227,
+      "dst": 339213
+    },
+    {
+      "relateString": "前传",
+      "src": 339213,
+      "dst": 329227
+    }
+  ]
 }

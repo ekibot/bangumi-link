@@ -1,97 +1,91 @@
 {
- "id": 109678,
- "node": [
-  {
-   "id": 109678,
-   "name": "NBA Elite 11",
-   "nameCN": "NBA精英11",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/e9/109678_F2fUY.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 167855,
-   "name": "NBA Live 15",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/3a/167855_2D08t.jpg",
-   "date": "2014-10-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 182447,
-   "name": "NBA Live 16",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/ab/182447_8QH8G.jpg",
-   "date": "2015-09-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216846,
-   "name": "NBA Live 18",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/3e/216846_B6eUv.jpg",
-   "date": "2017-09-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 302204,
-   "name": "NBA LIVE 14",
-   "nameCN": "NBA LIVE 14",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/19/302204_2p7DW.jpg",
-   "date": "2013-11-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 109678,
-   "dst": 302204
-  },
-  {
-   "relate": "续集",
-   "src": 167855,
-   "dst": 182447
-  },
-  {
-   "relate": "前传",
-   "src": 167855,
-   "dst": 302204
-  },
-  {
-   "relate": "前传",
-   "src": 182447,
-   "dst": 167855
-  },
-  {
-   "relate": "续集",
-   "src": 182447,
-   "dst": 216846
-  },
-  {
-   "relate": "前传",
-   "src": 216846,
-   "dst": 182447
-  },
-  {
-   "relate": "前传",
-   "src": 302204,
-   "dst": 109678
-  },
-  {
-   "relate": "续集",
-   "src": 302204,
-   "dst": 167855
-  }
- ]
+  "id": "109678",
+  "node": [
+    {
+      "id": 109678,
+      "name": "NBA Elite 11",
+      "nameCN": "NBA精英11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 302204,
+      "name": "NBA LIVE 14",
+      "nameCN": "NBA LIVE 14",
+      "date": "2013-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167855,
+      "name": "NBA Live 15",
+      "nameCN": "",
+      "date": "2014-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 182447,
+      "name": "NBA Live 16",
+      "nameCN": "",
+      "date": "2015-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216846,
+      "name": "NBA Live 18",
+      "nameCN": "",
+      "date": "2017-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 109678,
+      "dst": 302204
+    },
+    {
+      "relateString": "续集",
+      "src": 167855,
+      "dst": 182447
+    },
+    {
+      "relateString": "前传",
+      "src": 167855,
+      "dst": 302204
+    },
+    {
+      "relateString": "前传",
+      "src": 182447,
+      "dst": 167855
+    },
+    {
+      "relateString": "续集",
+      "src": 182447,
+      "dst": 216846
+    },
+    {
+      "relateString": "前传",
+      "src": 216846,
+      "dst": 182447
+    },
+    {
+      "relateString": "前传",
+      "src": 302204,
+      "dst": 109678
+    },
+    {
+      "relateString": "续集",
+      "src": 302204,
+      "dst": 167855
+    }
+  ]
 }

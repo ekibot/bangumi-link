@@ -1,37 +1,35 @@
 {
- "id": 213329,
- "node": [
-  {
-   "id": 213329,
-   "name": "アニメガタリズ",
-   "nameCN": "动画同好会",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/b8/213329_oBQqg.jpg",
-   "date": "2017-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 217599,
-   "name": "アニメガタリ",
-   "nameCN": "动画讨论同好会",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/5c/217599_76UPM.jpg",
-   "date": "2015-04-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 213329,
-   "dst": 217599
-  },
-  {
-   "relate": "相同世界观",
-   "src": 217599,
-   "dst": 213329
-  }
- ]
+  "id": "213329",
+  "node": [
+    {
+      "id": 213329,
+      "name": "アニメガタリズ",
+      "nameCN": "动画同好会",
+      "date": "2017-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 217599,
+      "name": "アニメガタリ",
+      "nameCN": "动画讨论同好会",
+      "date": "2015-04-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 213329,
+      "dst": 217599
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 217599,
+      "dst": 213329
+    }
+  ]
 }

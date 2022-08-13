@@ -1,37 +1,35 @@
 {
- "id": 104405,
- "node": [
-  {
-   "id": 104405,
-   "name": "Piano Tiles",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/4f/104405_XpOPk.jpg",
-   "date": "2014-04-25",
-   "nameCN": "别踩白块儿",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171621,
-   "name": "Piano Tiles 2",
-   "nameCN": "别踩白块儿2",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/60/171621_2l60n.jpg",
-   "date": "2015-08-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 104405,
-   "dst": 171621
-  },
-  {
-   "relate": "续集",
-   "src": 171621,
-   "dst": 104405
-  }
- ]
+  "id": "104405",
+  "node": [
+    {
+      "id": 104405,
+      "name": "Piano Tiles",
+      "nameCN": "别踩白块儿",
+      "date": "2014-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171621,
+      "name": "Piano Tiles 2",
+      "nameCN": "别踩白块儿2",
+      "date": "2015-08-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104405,
+      "dst": 171621
+    },
+    {
+      "relateString": "前传",
+      "src": 171621,
+      "dst": 104405
+    }
+  ]
 }

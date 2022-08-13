@@ -1,77 +1,73 @@
 {
- "id": 145365,
- "node": [
-  {
-   "id": 145365,
-   "name": "Mr. Pickles",
-   "nameCN": "腌黄瓜先生",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/63/145365_4KUJ2.jpg",
-   "date": "2014-09-21",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 202884,
-   "name": "Mr. Pickles Season 2",
-   "nameCN": "腌黄瓜先生 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/f8/202884_0XKwX.jpg",
-   "date": "2016-04-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 241326,
-   "name": "Mr. Pickles Season 3",
-   "nameCN": "腌黄瓜先生 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/b7/241326_Qq0MM.jpg",
-   "date": "2018-02-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 353655,
-   "name": "Mr. Pickles Season 4",
-   "nameCN": "腌黄瓜先生 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/d6/353655_22WMS.jpg",
-   "date": "2019-11-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 145365,
-   "dst": 202884
-  },
-  {
-   "relate": "前传",
-   "src": 202884,
-   "dst": 145365
-  },
-  {
-   "relate": "续集",
-   "src": 202884,
-   "dst": 241326
-  },
-  {
-   "relate": "前传",
-   "src": 241326,
-   "dst": 202884
-  },
-  {
-   "relate": "续集",
-   "src": 241326,
-   "dst": 353655
-  },
-  {
-   "relate": "前传",
-   "src": 353655,
-   "dst": 241326
-  }
- ]
+  "id": "145365",
+  "node": [
+    {
+      "id": 145365,
+      "name": "Mr. Pickles",
+      "nameCN": "腌黄瓜先生",
+      "date": "2014-09-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 202884,
+      "name": "Mr. Pickles Season 2",
+      "nameCN": "腌黄瓜先生 第二季",
+      "date": "2016-04-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 241326,
+      "name": "Mr. Pickles Season 3",
+      "nameCN": "腌黄瓜先生 第三季",
+      "date": "2018-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 353655,
+      "name": "Mr. Pickles Season 4",
+      "nameCN": "腌黄瓜先生 第四季",
+      "date": "2019-11-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 145365,
+      "dst": 202884
+    },
+    {
+      "relateString": "前传",
+      "src": 202884,
+      "dst": 145365
+    },
+    {
+      "relateString": "续集",
+      "src": 202884,
+      "dst": 241326
+    },
+    {
+      "relateString": "前传",
+      "src": 241326,
+      "dst": 202884
+    },
+    {
+      "relateString": "续集",
+      "src": 241326,
+      "dst": 353655
+    },
+    {
+      "relateString": "前传",
+      "src": 353655,
+      "dst": 241326
+    }
+  ]
 }

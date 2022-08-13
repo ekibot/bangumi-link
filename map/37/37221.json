@@ -1,57 +1,53 @@
 {
- "id": 37221,
- "node": [
-  {
-   "id": 37221,
-   "name": "UFO戦士ダイアポロン",
-   "nameCN": "UFO战士 大阿波罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/0b/37221_F0n90.jpg",
-   "date": "1976-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 37223,
-   "name": "UFO戦士ダイアポロンII",
-   "nameCN": "UFO战士 大阿波罗2",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/c7/37223_M3ne6.jpg",
-   "date": "1976-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 187188,
-   "name": "Shadow World",
-   "nameCN": "UFO战士大阿波罗 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/6f/187188_mn8yI.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37221,
-   "dst": 37223
-  },
-  {
-   "relate": "总集篇",
-   "src": 37221,
-   "dst": 187188
-  },
-  {
-   "relate": "前传",
-   "src": 37223,
-   "dst": 37221
-  },
-  {
-   "relate": "全集",
-   "src": 187188,
-   "dst": 37221
-  }
- ]
+  "id": "37221",
+  "node": [
+    {
+      "id": 37221,
+      "name": "UFO戦士ダイアポロン",
+      "nameCN": "UFO战士 大阿波罗",
+      "date": "1976-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37223,
+      "name": "UFO戦士ダイアポロンII",
+      "nameCN": "UFO战士 大阿波罗2",
+      "date": "1976-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 187188,
+      "name": "Shadow World",
+      "nameCN": "UFO战士大阿波罗 剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37221,
+      "dst": 37223
+    },
+    {
+      "relateString": "总集篇",
+      "src": 37221,
+      "dst": 187188
+    },
+    {
+      "relateString": "前传",
+      "src": 37223,
+      "dst": 37221
+    },
+    {
+      "relateString": "全集",
+      "src": 187188,
+      "dst": 37221
+    }
+  ]
 }

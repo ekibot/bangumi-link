@@ -1,87 +1,83 @@
 {
- "id": 2567,
- "node": [
-  {
-   "id": 2567,
-   "name": "生徒会の一存",
-   "nameCN": "学生会的一己之见",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/a0/2567_Vg1Y8.jpg",
-   "date": "2009-10-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 48289,
-   "name": "生徒会の一存 Lv.2",
-   "nameCN": "学生会的一己之见 Lv.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/81/48289_E717e.jpg",
-   "date": "2012-10-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 77756,
-   "name": "生徒会の一存 Lv.2 EX",
-   "nameCN": "学生会的一己之见 Lv.2 EX",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/66/77756_YZ52G.jpg",
-   "date": "2013-07-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 195816,
-   "name": "ゲーマーズ!",
-   "nameCN": "GAMERS电玩咖",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/f3/195816_8fZHP.jpg",
-   "date": "2017-07-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2567,
-   "dst": 48289
-  },
-  {
-   "relate": "前传",
-   "src": 48289,
-   "dst": 2567
-  },
-  {
-   "relate": "番外篇",
-   "src": 48289,
-   "dst": 77756
-  },
-  {
-   "relate": "主线故事",
-   "src": 77756,
-   "dst": 48289
-  },
-  {
-   "relate": "相同世界观",
-   "src": 77756,
-   "dst": 195816
-  },
-  {
-   "relate": "相同世界观",
-   "src": 195816,
-   "dst": 2567
-  },
-  {
-   "relate": "相同世界观",
-   "src": 195816,
-   "dst": 48289
-  },
-  {
-   "relate": "相同世界观",
-   "src": 195816,
-   "dst": 77756
-  }
- ]
+  "id": "2567",
+  "node": [
+    {
+      "id": 2567,
+      "name": "生徒会の一存",
+      "nameCN": "学生会的一己之见",
+      "date": "2009-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 48289,
+      "name": "生徒会の一存 Lv.2",
+      "nameCN": "学生会的一己之见 Lv.2",
+      "date": "2012-10-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 77756,
+      "name": "生徒会の一存 Lv.2 EX",
+      "nameCN": "学生会的一己之见 Lv.2 EX",
+      "date": "2013-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 195816,
+      "name": "ゲーマーズ!",
+      "nameCN": "GAMERS电玩咖",
+      "date": "2017-07-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2567,
+      "dst": 48289
+    },
+    {
+      "relateString": "前传",
+      "src": 48289,
+      "dst": 2567
+    },
+    {
+      "relateString": "番外篇",
+      "src": 48289,
+      "dst": 77756
+    },
+    {
+      "relateString": "主线故事",
+      "src": 77756,
+      "dst": 48289
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 77756,
+      "dst": 195816
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 195816,
+      "dst": 2567
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 195816,
+      "dst": 48289
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 195816,
+      "dst": 77756
+    }
+  ]
 }

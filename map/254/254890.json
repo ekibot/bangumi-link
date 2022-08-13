@@ -1,77 +1,73 @@
 {
- "id": 254890,
- "node": [
-  {
-   "id": 254890,
-   "name": "Disenchantment Season 1",
-   "nameCN": "幻灭 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/74/254890_YKCgh.jpg",
-   "date": "2018-08-17",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 290215,
-   "name": "Disenchantment Season 2",
-   "nameCN": "幻灭 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/8f/290215_UJNjK.jpg",
-   "date": "2019-09-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 325647,
-   "name": "Disenchantment Season 3",
-   "nameCN": "祛魅 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/cc/325647_Eg70R.jpg",
-   "date": "2021-01-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 366215,
-   "name": "Disenchantment Season 4",
-   "nameCN": "幻灭 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/3a/366215_Jue0b.jpg",
-   "date": "2022-02-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 254890,
-   "dst": 290215
-  },
-  {
-   "relate": "前传",
-   "src": 290215,
-   "dst": 254890
-  },
-  {
-   "relate": "续集",
-   "src": 290215,
-   "dst": 325647
-  },
-  {
-   "relate": "前传",
-   "src": 325647,
-   "dst": 290215
-  },
-  {
-   "relate": "续集",
-   "src": 325647,
-   "dst": 366215
-  },
-  {
-   "relate": "前传",
-   "src": 366215,
-   "dst": 325647
-  }
- ]
+  "id": "254890",
+  "node": [
+    {
+      "id": 254890,
+      "name": "Disenchantment Season 1",
+      "nameCN": "幻灭 第一季",
+      "date": "2018-08-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 290215,
+      "name": "Disenchantment Season 2",
+      "nameCN": "幻灭 第二季",
+      "date": "2019-09-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 325647,
+      "name": "Disenchantment Season 3",
+      "nameCN": "祛魅 第三季",
+      "date": "2021-01-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 366215,
+      "name": "Disenchantment Season 4",
+      "nameCN": "幻灭 第四季",
+      "date": "2022-02-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 254890,
+      "dst": 290215
+    },
+    {
+      "relateString": "前传",
+      "src": 290215,
+      "dst": 254890
+    },
+    {
+      "relateString": "续集",
+      "src": 290215,
+      "dst": 325647
+    },
+    {
+      "relateString": "前传",
+      "src": 325647,
+      "dst": 290215
+    },
+    {
+      "relateString": "续集",
+      "src": 325647,
+      "dst": 366215
+    },
+    {
+      "relateString": "前传",
+      "src": 366215,
+      "dst": 325647
+    }
+  ]
 }

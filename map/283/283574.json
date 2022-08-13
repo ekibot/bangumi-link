@@ -1,37 +1,34 @@
 {
- "id": 283574,
- "node": [
-  {
-   "id": 283574,
-   "name": "Flack",
-   "nameCN": "公关",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/a9/283574_3599Y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 306596,
-   "name": "Flack Season 2",
-   "nameCN": "公关 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/ea/306596_XL7yJ.jpg",
-   "date": "2020-04-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 283574,
-   "dst": 306596
-  },
-  {
-   "relate": "前传",
-   "src": 306596,
-   "dst": 283574
-  }
- ]
+  "id": "283574",
+  "node": [
+    {
+      "id": 283574,
+      "name": "Flack",
+      "nameCN": "公关",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 306596,
+      "name": "Flack Season 2",
+      "nameCN": "公关 第二季",
+      "date": "2020-04-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 283574,
+      "dst": 306596
+    },
+    {
+      "relateString": "前传",
+      "src": 306596,
+      "dst": 283574
+    }
+  ]
 }

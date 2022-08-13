@@ -1,37 +1,35 @@
 {
- "id": 78150,
- "node": [
-  {
-   "id": 78150,
-   "name": "イキガミ",
-   "nameCN": "死亡預告",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/17/78150_ZC3eE.jpg",
-   "date": "2005-08-05",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 390095,
-   "name": "イキガミ 再臨",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/97/390095_4zLj5.jpg",
-   "type": 1,
-   "date": "2022-06-30",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78150,
-   "dst": 390095
-  },
-  {
-   "relate": "前传",
-   "src": 390095,
-   "dst": 78150
-  }
- ]
+  "id": "78150",
+  "node": [
+    {
+      "id": 78150,
+      "name": "イキガミ",
+      "nameCN": "死亡預告",
+      "date": "2005-08-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 390095,
+      "name": "イキガミ 再臨",
+      "nameCN": "",
+      "date": "2022-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78150,
+      "dst": 390095
+    },
+    {
+      "relateString": "前传",
+      "src": 390095,
+      "dst": 78150
+    }
+  ]
 }

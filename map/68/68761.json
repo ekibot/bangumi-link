@@ -1,57 +1,54 @@
 {
- "id": 68761,
- "node": [
-  {
-   "id": 68761,
-   "name": "STAR☆Right",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/9c/68761_fQXLq.jpg",
-   "date": "2013-04-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 116689,
-   "name": "STAR☆Knight",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/ec/116689_jp.jpg",
-   "date": "2014-10-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 184105,
-   "name": "STAR☆Flight",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/8d/184105_jp.jpg",
-   "date": "2016-02-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 68761,
-   "dst": 116689
-  },
-  {
-   "relate": "前传",
-   "src": 116689,
-   "dst": 68761
-  },
-  {
-   "relate": "续集",
-   "src": 116689,
-   "dst": 184105
-  },
-  {
-   "relate": "前传",
-   "src": 184105,
-   "dst": 116689
-  }
- ]
+  "id": "68761",
+  "node": [
+    {
+      "id": 68761,
+      "name": "STAR☆Right",
+      "nameCN": "",
+      "date": "2013-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 116689,
+      "name": "STAR☆Knight",
+      "nameCN": "",
+      "date": "2014-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 184105,
+      "name": "STAR☆Flight",
+      "nameCN": "",
+      "date": "2016-02-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 68761,
+      "dst": 116689
+    },
+    {
+      "relateString": "前传",
+      "src": 116689,
+      "dst": 68761
+    },
+    {
+      "relateString": "续集",
+      "src": 116689,
+      "dst": 184105
+    },
+    {
+      "relateString": "前传",
+      "src": 184105,
+      "dst": 116689
+    }
+  ]
 }

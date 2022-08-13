@@ -1,37 +1,35 @@
 {
- "id": 165543,
- "node": [
-  {
-   "id": 165543,
-   "name": "密室ブリード2",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/c8/165543_C445n.jpg",
-   "date": "2014-04-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 165544,
-   "name": "密室ブリード",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/4c/165544_Z67hh.jpg",
-   "type": 4,
-   "date": "2013-02-27",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 165543,
-   "dst": 165544
-  },
-  {
-   "relate": "续集",
-   "src": 165544,
-   "dst": 165543
-  }
- ]
+  "id": "165543",
+  "node": [
+    {
+      "id": 165543,
+      "name": "密室ブリード2",
+      "nameCN": "",
+      "date": "2014-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165544,
+      "name": "密室ブリード",
+      "nameCN": "",
+      "date": "2013-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 165543,
+      "dst": 165544
+    },
+    {
+      "relateString": "续集",
+      "src": 165544,
+      "dst": 165543
+    }
+  ]
 }

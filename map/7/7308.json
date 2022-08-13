@@ -1,77 +1,72 @@
 {
- "id": 7308,
- "node": [
-  {
-   "id": 7308,
-   "name": "日本人の知らない日本語",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/23/7308_jp.jpg",
-   "date": "2009-02-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 7309,
-   "name": "日本人の知らない日本語2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/83/7309_xbT4i.jpg",
-   "date": "2010-02-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 116325,
-   "name": "日本人の知らない日本語3 祝! 卒業編",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/f1/116325_AX7DO.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 116326,
-   "name": "日本人の知らない日本語4 海外編",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/4f/116326_idycY.jpg",
-   "date": "2013-08-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7308,
-   "dst": 7309
-  },
-  {
-   "relate": "前传",
-   "src": 7309,
-   "dst": 7308
-  },
-  {
-   "relate": "续集",
-   "src": 7309,
-   "dst": 116325
-  },
-  {
-   "relate": "前传",
-   "src": 116325,
-   "dst": 7309
-  },
-  {
-   "relate": "续集",
-   "src": 116325,
-   "dst": 116326
-  },
-  {
-   "relate": "前传",
-   "src": 116326,
-   "dst": 116325
-  }
- ]
+  "id": "7308",
+  "node": [
+    {
+      "id": 7308,
+      "name": "日本人の知らない日本語",
+      "nameCN": "",
+      "date": "2009-02-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 7309,
+      "name": "日本人の知らない日本語2",
+      "nameCN": "",
+      "date": "2010-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 116325,
+      "name": "日本人の知らない日本語3 祝! 卒業編",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 116326,
+      "name": "日本人の知らない日本語4 海外編",
+      "nameCN": "",
+      "date": "2013-08-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7308,
+      "dst": 7309
+    },
+    {
+      "relateString": "前传",
+      "src": 7309,
+      "dst": 7308
+    },
+    {
+      "relateString": "续集",
+      "src": 7309,
+      "dst": 116325
+    },
+    {
+      "relateString": "前传",
+      "src": 116325,
+      "dst": 7309
+    },
+    {
+      "relateString": "续集",
+      "src": 116325,
+      "dst": 116326
+    },
+    {
+      "relateString": "前传",
+      "src": 116326,
+      "dst": 116325
+    }
+  ]
 }

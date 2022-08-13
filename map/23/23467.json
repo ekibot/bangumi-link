@@ -1,37 +1,35 @@
 {
- "id": 23467,
- "node": [
-  {
-   "id": 23467,
-   "name": "アキハバラ電脳組",
-   "nameCN": "秋叶原电脑组",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/df/23467_ajNpY.jpg",
-   "date": "1998-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 43952,
-   "name": "アキハバラ電脳組 2011年の夏休み",
-   "nameCN": "秋叶原电脑组 2011年的暑假",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/fc/43952_7L3t9.jpg",
-   "date": "1999-08-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 23467,
-   "dst": 43952
-  },
-  {
-   "relate": "前传",
-   "src": 43952,
-   "dst": 23467
-  }
- ]
+  "id": "23467",
+  "node": [
+    {
+      "id": 23467,
+      "name": "アキハバラ電脳組",
+      "nameCN": "秋叶原电脑组",
+      "date": "1998-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 43952,
+      "name": "アキハバラ電脳組 2011年の夏休み",
+      "nameCN": "秋叶原电脑组 2011年的暑假",
+      "date": "1999-08-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23467,
+      "dst": 43952
+    },
+    {
+      "relateString": "前传",
+      "src": 43952,
+      "dst": 23467
+    }
+  ]
 }

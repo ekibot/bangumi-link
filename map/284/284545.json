@@ -1,37 +1,35 @@
 {
- "id": 284545,
- "node": [
-  {
-   "id": 284545,
-   "name": "狼と香辛料VR",
-   "nameCN": "狼与香辛料VR",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/f6/284545_121mB.jpg",
-   "date": "2019-06-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 317170,
-   "name": "狼と香辛料VR2",
-   "nameCN": "狼与香辛料VR2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/a4/317170_Mv8NM.jpg",
-   "date": "2020-12-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 284545,
-   "dst": 317170
-  },
-  {
-   "relate": "前传",
-   "src": 317170,
-   "dst": 284545
-  }
- ]
+  "id": "284545",
+  "node": [
+    {
+      "id": 284545,
+      "name": "狼と香辛料VR",
+      "nameCN": "狼与香辛料VR",
+      "date": "2019-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317170,
+      "name": "狼と香辛料VR2",
+      "nameCN": "狼与香辛料VR2",
+      "date": "2020-12-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 284545,
+      "dst": 317170
+    },
+    {
+      "relateString": "前传",
+      "src": 317170,
+      "dst": 284545
+    }
+  ]
 }

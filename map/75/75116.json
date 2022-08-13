@@ -1,141 +1,90 @@
 {
- "id": 75116,
- "node": [
-  {
-   "id": 75116,
-   "name": "血界戦線",
-   "nameCN": "血界战线",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/f9/75116_Ep0Qj.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 133901,
-   "name": "血界戦線 オンリー・ア・ペイパームーン",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/f1/133901_jp.jpg",
-   "date": "2015-06-04",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 139050,
-   "name": "血界戦線 Back 2 Back",
-   "nameCN": "血界战线 Back 2 Back",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/5e/139050_d6n81.jpg",
-   "date": "2016-01-04",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 227434,
-   "name": "血界戦線 グッド・アズ・グッド・マン",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/f2/227434_TefD2.jpg",
-   "date": "2017-10-04",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 314749,
-   "name": "舞台 血界戦線",
-   "nameCN": "舞台 血界战线",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/a4/314749_zg4qS.jpg",
-   "date": "2019-11-02",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 352461,
-   "name": "舞台『血界戦線』Blitz Along Alone",
-   "nameCN": "舞台剧 血界战线 Blitz Along Alone",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/bf/352461_c77ca.jpg",
-   "date": "2021-10-22",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 352462,
-   "name": "舞台『血界戦線』Beat Goes On",
-   "nameCN": "舞台剧 血界战线 Beat Goes On",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/35/352462_RPkrl.jpg",
-   "date": "2020-11-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 394485,
-   "name": "血界戦線 Beat 3 Peat",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/47/394485_pwnCZ.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 75116,
-   "dst": 133901
-  },
-  {
-   "relate": "续集",
-   "src": 75116,
-   "dst": 139050
-  },
-  {
-   "relate": "番外篇",
-   "src": 75116,
-   "dst": 227434
-  },
-  {
-   "relate": "主线故事",
-   "src": 133901,
-   "dst": 75116
-  },
-  {
-   "relate": "前传",
-   "src": 139050,
-   "dst": 75116
-  },
-  {
-   "relate": "主线故事",
-   "src": 227434,
-   "dst": 75116
-  },
-  {
-   "relate": "续集",
-   "src": 314749,
-   "dst": 352462
-  },
-  {
-   "relate": "前传",
-   "src": 352461,
-   "dst": 352462
-  },
-  {
-   "relate": "前传",
-   "src": 352462,
-   "dst": 314749
-  },
-  {
-   "relate": "续集",
-   "src": 352462,
-   "dst": 352461
-  },
-  {
-   "relate": "前传",
-   "src": 394485,
-   "dst": 139050
-  }
- ]
+  "id": "75116",
+  "node": [
+    {
+      "id": 75116,
+      "name": "血界戦線",
+      "nameCN": "血界战线",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 133901,
+      "name": "血界戦線 オンリー・ア・ペイパームーン",
+      "nameCN": "",
+      "date": "2015-06-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 139050,
+      "name": "血界戦線 Back 2 Back",
+      "nameCN": "血界战线 Back 2 Back",
+      "date": "2016-01-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 227434,
+      "name": "血界戦線 グッド・アズ・グッド・マン",
+      "nameCN": "",
+      "date": "2017-10-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 394485,
+      "name": "血界戦線 Beat 3 Peat",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 75116,
+      "dst": 133901
+    },
+    {
+      "relateString": "续集",
+      "src": 75116,
+      "dst": 139050
+    },
+    {
+      "relateString": "番外篇",
+      "src": 75116,
+      "dst": 227434
+    },
+    {
+      "relateString": "主线故事",
+      "src": 133901,
+      "dst": 75116
+    },
+    {
+      "relateString": "前传",
+      "src": 139050,
+      "dst": 75116
+    },
+    {
+      "relateString": "续集",
+      "src": 139050,
+      "dst": 394485
+    },
+    {
+      "relateString": "主线故事",
+      "src": 227434,
+      "dst": 75116
+    },
+    {
+      "relateString": "前传",
+      "src": 394485,
+      "dst": 139050
+    }
+  ]
 }

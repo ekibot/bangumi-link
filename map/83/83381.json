@@ -1,81 +1,77 @@
 {
- "id": 83381,
- "node": [
-  {
-   "id": 83381,
-   "name": "Outlast",
-   "nameCN": "逃生",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/f3/83381_RAeR3.jpg",
-   "date": "2013-09-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 117635,
-   "name": "Outlast: Whistleblower",
-   "nameCN": "逃生：告密者",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/24/117635_hY2yh.jpg",
-   "date": "2014-05-06",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 170323,
-   "name": "Outlast 2",
-   "nameCN": "逃生2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/19/170323_Y00X6.jpg",
-   "date": "2017-04-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 343095,
-   "name": "The Outlast: Trials",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/b7/343095_XkQtD.jpg",
-   "date": null,
-   "nameCN": "逃生：试炼",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 83381,
-   "dst": 170323
-  },
-  {
-   "relate": "相同世界观",
-   "src": 83381,
-   "dst": 343095
-  },
-  {
-   "relate": "主线故事",
-   "src": 117635,
-   "dst": 83381
-  },
-  {
-   "relate": "前传",
-   "src": 170323,
-   "dst": 83381
-  },
-  {
-   "relate": "相同世界观",
-   "src": 170323,
-   "dst": 343095
-  },
-  {
-   "relate": "相同世界观",
-   "src": 343095,
-   "dst": 83381
-  },
-  {
-   "relate": "相同世界观",
-   "src": 343095,
-   "dst": 170323
-  }
- ]
+  "id": "83381",
+  "node": [
+    {
+      "id": 83381,
+      "name": "Outlast",
+      "nameCN": "逃生",
+      "date": "2013-09-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 170323,
+      "name": "Outlast 2",
+      "nameCN": "逃生2",
+      "date": "2017-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 343095,
+      "name": "The Outlast: Trials",
+      "nameCN": "逃生：试炼",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 117635,
+      "name": "Outlast: Whistleblower",
+      "nameCN": "逃生：告密者",
+      "date": "2014-05-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 83381,
+      "dst": 170323
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 83381,
+      "dst": 343095
+    },
+    {
+      "relateString": "主线故事",
+      "src": 117635,
+      "dst": 83381
+    },
+    {
+      "relateString": "前传",
+      "src": 170323,
+      "dst": 83381
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 170323,
+      "dst": 343095
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 343095,
+      "dst": 83381
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 343095,
+      "dst": 170323
+    }
+  ]
 }

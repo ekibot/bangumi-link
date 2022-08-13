@@ -1,37 +1,34 @@
 {
- "id": 65736,
- "node": [
-  {
-   "id": 65736,
-   "name": "ナナヲチートイツ",
-   "nameCN": "七绪的七对子",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/0c/65736_w0M9m.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287414,
-   "name": "ナナヲチートイツ 紅龍",
-   "nameCN": "七绪的七对子 红龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/ff/287414_1npa6.jpg",
-   "date": "2016-07-15",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65736,
-   "dst": 287414
-  },
-  {
-   "relate": "前传",
-   "src": 287414,
-   "dst": 65736
-  }
- ]
+  "id": "65736",
+  "node": [
+    {
+      "id": 65736,
+      "name": "ナナヲチートイツ",
+      "nameCN": "七绪的七对子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287414,
+      "name": "ナナヲチートイツ 紅龍",
+      "nameCN": "七绪的七对子 红龙",
+      "date": "2016-07-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65736,
+      "dst": 287414
+    },
+    {
+      "relateString": "前传",
+      "src": 287414,
+      "dst": 65736
+    }
+  ]
 }

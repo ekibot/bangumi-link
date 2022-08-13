@@ -1,0 +1,54 @@
+{
+  "id": "255069",
+  "node": [
+    {
+      "id": 255069,
+      "name": "마스카 MASCA",
+      "nameCN": "MASCA列王记",
+      "date": "2000-07-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 255082,
+      "name": "마스카 MASCA 외전",
+      "nameCN": "",
+      "date": "2003-06-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 255084,
+      "name": "마스카 MASCA 또 다른 이야기",
+      "nameCN": "",
+      "date": "2002-01-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 255069,
+      "dst": 255082
+    },
+    {
+      "relateString": "番外篇",
+      "src": 255069,
+      "dst": 255084
+    },
+    {
+      "relateString": "主线故事",
+      "src": 255082,
+      "dst": 255069
+    },
+    {
+      "relateString": "主线故事",
+      "src": 255084,
+      "dst": 255069
+    }
+  ]
+}

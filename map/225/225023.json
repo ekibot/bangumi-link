@@ -1,37 +1,34 @@
 {
- "id": 225023,
- "node": [
-  {
-   "id": 225023,
-   "name": "东北萌兽",
-   "nameCN": "东北萌兽",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/76/225023_077Pb.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 250984,
-   "name": "东北萌兽 第2季",
-   "nameCN": "东北萌兽 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/75/250984_c99Z4.jpg",
-   "date": "2018-06-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225023,
-   "dst": 250984
-  },
-  {
-   "relate": "前传",
-   "src": 250984,
-   "dst": 225023
-  }
- ]
+  "id": "225023",
+  "node": [
+    {
+      "id": 225023,
+      "name": "东北萌兽",
+      "nameCN": "东北萌兽",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 250984,
+      "name": "东北萌兽 第2季",
+      "nameCN": "东北萌兽 第二季",
+      "date": "2018-06-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225023,
+      "dst": 250984
+    },
+    {
+      "relateString": "前传",
+      "src": 250984,
+      "dst": 225023
+    }
+  ]
 }

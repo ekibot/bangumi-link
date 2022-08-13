@@ -1,37 +1,35 @@
 {
- "id": 2829,
- "node": [
-  {
-   "id": 2829,
-   "name": "Candy boy",
-   "nameCN": "糖果男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/b2/2829_m02t0.jpg",
-   "date": "2008-05-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 95419,
-   "name": "Candy☆Boy",
-   "nameCN": "糖果男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/ed/95419_2oCmS.jpg",
-   "date": "2007-11-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2829,
-   "dst": 95419
-  },
-  {
-   "relate": "续集",
-   "src": 95419,
-   "dst": 2829
-  }
- ]
+  "id": "2829",
+  "node": [
+    {
+      "id": 2829,
+      "name": "Candy boy",
+      "nameCN": "糖果男孩",
+      "date": "2008-05-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 95419,
+      "name": "Candy☆Boy",
+      "nameCN": "糖果男孩",
+      "date": "2007-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2829,
+      "dst": 95419
+    },
+    {
+      "relateString": "续集",
+      "src": 95419,
+      "dst": 2829
+    }
+  ]
 }

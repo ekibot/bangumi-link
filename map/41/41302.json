@@ -1,77 +1,73 @@
 {
- "id": 41302,
- "node": [
-  {
-   "id": 41302,
-   "name": "Continuum (Season 1)",
-   "nameCN": "超越时间线 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/92/41302_kFQKF.jpg",
-   "date": "2012-05-27",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 71892,
-   "name": "Continuum (Season 2)",
-   "nameCN": "超越时间线 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/2f/71892_bCK98.jpg",
-   "date": "2013-04-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 96106,
-   "name": "Continuum (Season 3)",
-   "nameCN": "超越时间线 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/12/96106_44f9k.jpg",
-   "date": "2014-03-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 148251,
-   "name": "Continuum (Season 4)",
-   "nameCN": "超越时间线 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/51/148251_rNzkn.jpg",
-   "date": "2015-09-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 41302,
-   "dst": 71892
-  },
-  {
-   "relate": "前传",
-   "src": 71892,
-   "dst": 41302
-  },
-  {
-   "relate": "续集",
-   "src": 71892,
-   "dst": 96106
-  },
-  {
-   "relate": "前传",
-   "src": 96106,
-   "dst": 71892
-  },
-  {
-   "relate": "续集",
-   "src": 96106,
-   "dst": 148251
-  },
-  {
-   "relate": "前传",
-   "src": 148251,
-   "dst": 96106
-  }
- ]
+  "id": "41302",
+  "node": [
+    {
+      "id": 41302,
+      "name": "Continuum (Season 1)",
+      "nameCN": "超越时间线 第一季",
+      "date": "2012-05-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 71892,
+      "name": "Continuum (Season 2)",
+      "nameCN": "超越时间线 第二季",
+      "date": "2013-04-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 96106,
+      "name": "Continuum (Season 3)",
+      "nameCN": "超越时间线 第三季",
+      "date": "2014-03-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 148251,
+      "name": "Continuum (Season 4)",
+      "nameCN": "超越时间线 第四季",
+      "date": "2015-09-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 41302,
+      "dst": 71892
+    },
+    {
+      "relateString": "前传",
+      "src": 71892,
+      "dst": 41302
+    },
+    {
+      "relateString": "续集",
+      "src": 71892,
+      "dst": 96106
+    },
+    {
+      "relateString": "前传",
+      "src": 96106,
+      "dst": 71892
+    },
+    {
+      "relateString": "续集",
+      "src": 96106,
+      "dst": 148251
+    },
+    {
+      "relateString": "前传",
+      "src": 148251,
+      "dst": 96106
+    }
+  ]
 }

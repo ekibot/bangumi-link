@@ -1,107 +1,100 @@
 {
- "id": 33219,
- "node": [
-  {
-   "id": 33219,
-   "name": "メガゾーン23",
-   "nameCN": "无限地带23",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/72/33219_tgTjq.jpg",
-   "date": "1985-03-09",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 33220,
-   "name": "メガゾーン23 PART II 秘密く・だ・さ・い",
-   "nameCN": "无限地带23 PART II",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/11/33220_qNqL7.jpg",
-   "date": "1986-05-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 37033,
-   "name": "MEGAZONE23 III",
-   "nameCN": "无限地带23 PART III",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/bf/37033_0lJLj.jpg",
-   "date": "1989-09-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 210443,
-   "name": "メガゾーン 23 XI",
-   "nameCN": "无限地带23 XI",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/dc/210443_92n6q.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 375851,
-   "name": "メガゾーン23 SIN",
-   "nameCN": "无限地带23 SIN",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/6a/375851_RBCGN.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33219,
-   "dst": 33220
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33219,
-   "dst": 375851
-  },
-  {
-   "relate": "前传",
-   "src": 33220,
-   "dst": 33219
-  },
-  {
-   "relate": "续集",
-   "src": 33220,
-   "dst": 37033
-  },
-  {
-   "relate": "不同演绎",
-   "src": 33220,
-   "dst": 375851
-  },
-  {
-   "relate": "前传",
-   "src": 37033,
-   "dst": 33220
-  },
-  {
-   "relate": "续集",
-   "src": 37033,
-   "dst": 210443
-  },
-  {
-   "relate": "前传",
-   "src": 210443,
-   "dst": 37033
-  },
-  {
-   "relate": "不同演绎",
-   "src": 375851,
-   "dst": 33219
-  },
-  {
-   "relate": "不同演绎",
-   "src": 375851,
-   "dst": 33220
-  }
- ]
+  "id": "33219",
+  "node": [
+    {
+      "id": 33219,
+      "name": "メガゾーン23",
+      "nameCN": "无限地带23",
+      "date": "1985-03-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 33220,
+      "name": "メガゾーン23 PART II 秘密く・だ・さ・い",
+      "nameCN": "无限地带23 PART II",
+      "date": "1986-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 375851,
+      "name": "メガゾーン23 SIN",
+      "nameCN": "无限地带23 SIN",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 37033,
+      "name": "MEGAZONE23 III",
+      "nameCN": "无限地带23 PART III",
+      "date": "1989-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 210443,
+      "name": "メガゾーン 23 XI",
+      "nameCN": "无限地带23 XI",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33219,
+      "dst": 33220
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 33219,
+      "dst": 375851
+    },
+    {
+      "relateString": "前传",
+      "src": 33220,
+      "dst": 33219
+    },
+    {
+      "relateString": "续集",
+      "src": 33220,
+      "dst": 37033
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 33220,
+      "dst": 375851
+    },
+    {
+      "relateString": "前传",
+      "src": 37033,
+      "dst": 33220
+    },
+    {
+      "relateString": "续集",
+      "src": 37033,
+      "dst": 210443
+    },
+    {
+      "relateString": "前传",
+      "src": 210443,
+      "dst": 37033
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 375851,
+      "dst": 33219
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 375851,
+      "dst": 33220
+    }
+  ]
 }

@@ -1,51 +1,53 @@
 {
- "id": 976,
- "node": [
-  {
-   "id": 976,
-   "name": "怪 〜ayakashi〜",
-   "nameCN": "怪 ～ayakashi ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/01/976_FwSrS.jpg",
-   "date": "2006-01-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2496,
-   "name": "モノノ怪",
-   "nameCN": "物怪",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/ff/2496_Q9lC9.jpg",
-   "date": "2007-07-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 388469,
-   "name": "劇場版 モノノ怪",
-   "nameCN": "怪化猫 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/8e/388469_4ZP44.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 976,
-   "dst": 2496
-  },
-  {
-   "relate": "主线故事",
-   "src": 2496,
-   "dst": 976
-  },
-  {
-   "relate": "主线故事",
-   "src": 388469,
-   "dst": 2496
-  }
- ]
+  "id": "976",
+  "node": [
+    {
+      "id": 976,
+      "name": "怪 〜ayakashi〜",
+      "nameCN": "怪 ～ayakashi ～",
+      "date": "2006-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2496,
+      "name": "モノノ怪",
+      "nameCN": "物怪",
+      "date": "2007-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 388469,
+      "name": "劇場版 モノノ怪",
+      "nameCN": "怪化猫 剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 976,
+      "dst": 2496
+    },
+    {
+      "relateString": "主线故事",
+      "src": 2496,
+      "dst": 976
+    },
+    {
+      "relateString": "衍生",
+      "src": 2496,
+      "dst": 388469
+    },
+    {
+      "relateString": "主线故事",
+      "src": 388469,
+      "dst": 2496
+    }
+  ]
 }

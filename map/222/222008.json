@@ -1,37 +1,34 @@
 {
- "id": 222008,
- "node": [
-  {
-   "id": 222008,
-   "name": "メルヘンフォーレスト 〜メルンちゃんと森の贈り物〜",
-   "nameCN": "童话森林 ～药师梅露与森林的礼物～",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/60/222008_67erf.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 326011,
-   "name": "メルヘンフォーレスト",
-   "nameCN": "童话森林",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/4b/326011_SxC7i.jpg",
-   "date": "2021-01-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 222008,
-   "dst": 326011
-  },
-  {
-   "relate": "不同演绎",
-   "src": 326011,
-   "dst": 222008
-  }
- ]
+  "id": "222008",
+  "node": [
+    {
+      "id": 222008,
+      "name": "メルヘンフォーレスト 〜メルンちゃんと森の贈り物〜",
+      "nameCN": "童话森林 ～药师梅露与森林的礼物～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326011,
+      "name": "メルヘンフォーレスト",
+      "nameCN": "童话森林",
+      "date": "2021-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 222008,
+      "dst": 326011
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 326011,
+      "dst": 222008
+    }
+  ]
 }

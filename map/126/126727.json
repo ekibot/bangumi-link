@@ -1,37 +1,35 @@
 {
- "id": 126727,
- "node": [
-  {
-   "id": 126727,
-   "name": "Zuma",
-   "nameCN": "祖玛",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/df/126727_M9j9j.jpg",
-   "date": "2003-12-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 140511,
-   "name": "Zuma's Revenge!",
-   "nameCN": "祖玛复仇记",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/15/140511_6j5s4.jpg",
-   "date": "2009-09-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 126727,
-   "dst": 140511
-  },
-  {
-   "relate": "前传",
-   "src": 140511,
-   "dst": 126727
-  }
- ]
+  "id": "126727",
+  "node": [
+    {
+      "id": 126727,
+      "name": "Zuma",
+      "nameCN": "祖玛",
+      "date": "2003-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 140511,
+      "name": "Zuma's Revenge!",
+      "nameCN": "祖玛复仇记",
+      "date": "2009-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 126727,
+      "dst": 140511
+    },
+    {
+      "relateString": "前传",
+      "src": 140511,
+      "dst": 126727
+    }
+  ]
 }

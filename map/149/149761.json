@@ -1,57 +1,54 @@
 {
- "id": 149761,
- "node": [
-  {
-   "id": 149761,
-   "name": "Back to the Future",
-   "nameCN": "回到未来",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/63/149761_u5JX4.jpg",
-   "date": "1985-07-03",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 149762,
-   "name": "Back to the Future Part II",
-   "nameCN": "回到未来2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/71/149762_zI2Mf.jpg",
-   "date": "1989-11-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 149763,
-   "name": "Back to the Future Part III",
-   "nameCN": "回到未来3",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/67/149763_yvZfU.jpg",
-   "date": "1990-05-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 149761,
-   "dst": 149762
-  },
-  {
-   "relate": "前传",
-   "src": 149762,
-   "dst": 149761
-  },
-  {
-   "relate": "续集",
-   "src": 149762,
-   "dst": 149763
-  },
-  {
-   "relate": "前传",
-   "src": 149763,
-   "dst": 149762
-  }
- ]
+  "id": "149761",
+  "node": [
+    {
+      "id": 149761,
+      "name": "Back to the Future",
+      "nameCN": "回到未来",
+      "date": "1985-07-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 149762,
+      "name": "Back to the Future Part II",
+      "nameCN": "回到未来2",
+      "date": "1989-11-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 149763,
+      "name": "Back to the Future Part III",
+      "nameCN": "回到未来3",
+      "date": "1990-05-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 149761,
+      "dst": 149762
+    },
+    {
+      "relateString": "前传",
+      "src": 149762,
+      "dst": 149761
+    },
+    {
+      "relateString": "续集",
+      "src": 149762,
+      "dst": 149763
+    },
+    {
+      "relateString": "前传",
+      "src": 149763,
+      "dst": 149762
+    }
+  ]
 }

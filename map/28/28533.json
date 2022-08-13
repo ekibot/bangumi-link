@@ -1,57 +1,54 @@
 {
- "id": 28533,
- "node": [
-  {
-   "id": 28533,
-   "name": "宇宙兄弟",
-   "nameCN": "宇宙兄弟",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/0d/28533_unUBN.jpg",
-   "date": "2012-04-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 90502,
-   "name": "宇宙兄弟#0",
-   "nameCN": "宇宙兄弟#0",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/a2/90502_0dDP7.jpg",
-   "date": "2014-08-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 180225,
-   "name": "宇宙兄弟#0 小山宙哉 Special Edition",
-   "nameCN": "宇宙兄弟#0 小山宙哉 Special Edition",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/98/180225_07ps0.jpg",
-   "date": "2016-09-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 28533,
-   "dst": 90502
-  },
-  {
-   "relate": "续集",
-   "src": 90502,
-   "dst": 28533
-  },
-  {
-   "relate": "不同演绎",
-   "src": 90502,
-   "dst": 180225
-  },
-  {
-   "relate": "不同演绎",
-   "src": 180225,
-   "dst": 90502
-  }
- ]
+  "id": "28533",
+  "node": [
+    {
+      "id": 28533,
+      "name": "宇宙兄弟",
+      "nameCN": "宇宙兄弟",
+      "date": "2012-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 90502,
+      "name": "宇宙兄弟#0",
+      "nameCN": "宇宙兄弟#0",
+      "date": "2014-08-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 180225,
+      "name": "宇宙兄弟#0 小山宙哉 Special Edition",
+      "nameCN": "宇宙兄弟#0 小山宙哉 Special Edition",
+      "date": "2016-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 28533,
+      "dst": 90502
+    },
+    {
+      "relateString": "续集",
+      "src": 90502,
+      "dst": 28533
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 90502,
+      "dst": 180225
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 180225,
+      "dst": 90502
+    }
+  ]
 }

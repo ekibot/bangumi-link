@@ -1,37 +1,35 @@
 {
- "id": 236597,
- "node": [
-  {
-   "id": 236597,
-   "name": "ラディアン",
-   "nameCN": "虚空魔境",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/48/236597_o033R.jpg",
-   "date": "2018-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 276051,
-   "name": "ラディアン 第2シリーズ",
-   "nameCN": "虚空魔境 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/f7/276051_LgzY9.jpg",
-   "date": "2019-10-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 236597,
-   "dst": 276051
-  },
-  {
-   "relate": "前传",
-   "src": 276051,
-   "dst": 236597
-  }
- ]
+  "id": "236597",
+  "node": [
+    {
+      "id": 236597,
+      "name": "ラディアン",
+      "nameCN": "虚空魔境",
+      "date": "2018-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 276051,
+      "name": "ラディアン 第2シリーズ",
+      "nameCN": "虚空魔境 第二季",
+      "date": "2019-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 236597,
+      "dst": 276051
+    },
+    {
+      "relateString": "前传",
+      "src": 276051,
+      "dst": 236597
+    }
+  ]
 }

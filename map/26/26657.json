@@ -1,0 +1,73 @@
+{
+  "id": "26657",
+  "node": [
+    {
+      "id": 26657,
+      "name": "金星特急",
+      "nameCN": "",
+      "date": "2010-01-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 291149,
+      "name": "金星特急 外伝",
+      "nameCN": "",
+      "date": "2013-11-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 382080,
+      "name": "金星特急・番外編 花を追う旅",
+      "nameCN": "",
+      "date": "2020-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 382088,
+      "name": "続・金星特急 竜血の娘",
+      "nameCN": "",
+      "date": "2021-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 26657,
+      "dst": 291149
+    },
+    {
+      "relateString": "番外篇",
+      "src": 26657,
+      "dst": 382080
+    },
+    {
+      "relateString": "续集",
+      "src": 26657,
+      "dst": 382088
+    },
+    {
+      "relateString": "主线故事",
+      "src": 291149,
+      "dst": 26657
+    },
+    {
+      "relateString": "主线故事",
+      "src": 382080,
+      "dst": 26657
+    },
+    {
+      "relateString": "前传",
+      "src": 382088,
+      "dst": 26657
+    }
+  ]
+}

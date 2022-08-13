@@ -1,37 +1,35 @@
 {
- "id": 124770,
- "node": [
-  {
-   "id": 124770,
-   "name": "Grow Home",
-   "nameCN": "成长家园",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/e0/124770_fn3Wp.jpg",
-   "date": "2015-02-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 190446,
-   "name": "Grow Up",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/3a/190446_7Ksyz.jpg",
-   "date": "2016-08-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124770,
-   "dst": 190446
-  },
-  {
-   "relate": "前传",
-   "src": 190446,
-   "dst": 124770
-  }
- ]
+  "id": "124770",
+  "node": [
+    {
+      "id": 124770,
+      "name": "Grow Home",
+      "nameCN": "成长家园",
+      "date": "2015-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 190446,
+      "name": "Grow Up",
+      "nameCN": "",
+      "date": "2016-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124770,
+      "dst": 190446
+    },
+    {
+      "relateString": "前传",
+      "src": 190446,
+      "dst": 124770
+    }
+  ]
 }

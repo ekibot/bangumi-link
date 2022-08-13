@@ -1,29 +1,35 @@
 {
- "id": 231740,
- "node": [
-  {
-   "id": 231740,
-   "name": "Temptation～催淫の奈落～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-06-17"
-  },
-  {
-   "id": 231745,
-   "name": "Temptation2",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-07-15"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231740,
-   "dst": 231745
-  },
-  {
-   "relate": "前传",
-   "src": 231745,
-   "dst": 231740
-  }
- ]
+  "id": "231740",
+  "node": [
+    {
+      "id": 231740,
+      "name": "Temptation～催淫の奈落～",
+      "nameCN": "",
+      "date": "2006-06-17",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231745,
+      "name": "Temptation2",
+      "nameCN": "",
+      "date": "2006-07-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231740,
+      "dst": 231745
+    },
+    {
+      "relateString": "前传",
+      "src": 231745,
+      "dst": 231740
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 238711,
- "node": [
-  {
-   "id": 238711,
-   "name": "アンブロシアの誘惑",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/da/238711_r5U5Y.jpg",
-   "date": "2001-06-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 238712,
-   "name": "アリアドネの緒",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/06/238712_I9LOE.jpg",
-   "date": "2001-11-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 238711,
-   "dst": 238712
-  },
-  {
-   "relate": "前传",
-   "src": 238712,
-   "dst": 238711
-  }
- ]
+  "id": "238711",
+  "node": [
+    {
+      "id": 238711,
+      "name": "アンブロシアの誘惑",
+      "nameCN": "",
+      "date": "2001-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 238712,
+      "name": "アリアドネの緒",
+      "nameCN": "",
+      "date": "2001-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 238711,
+      "dst": 238712
+    },
+    {
+      "relateString": "前传",
+      "src": 238712,
+      "dst": 238711
+    }
+  ]
 }

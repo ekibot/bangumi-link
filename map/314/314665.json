@@ -1,37 +1,33 @@
 {
- "id": 314665,
- "node": [
-  {
-   "id": 314665,
-   "name": "SwordQuest: EarthWorld",
-   "nameCN": "寻剑：地世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/e2/314665_Kq11h.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 315341,
-   "name": "Swordquest: FireWorld",
-   "nameCN": "寻剑：火世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/db/315341_bqQHB.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314665,
-   "dst": 315341
-  },
-  {
-   "relate": "前传",
-   "src": 315341,
-   "dst": 314665
-  }
- ]
+  "id": "314665",
+  "node": [
+    {
+      "id": 314665,
+      "name": "SwordQuest: EarthWorld",
+      "nameCN": "寻剑：地世界",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 315341,
+      "name": "Swordquest: FireWorld",
+      "nameCN": "寻剑：火世界",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314665,
+      "dst": 315341
+    },
+    {
+      "relateString": "前传",
+      "src": 315341,
+      "dst": 314665
+    }
+  ]
 }

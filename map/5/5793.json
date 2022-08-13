@@ -1,37 +1,34 @@
 {
- "id": 5793,
- "node": [
-  {
-   "id": 5793,
-   "name": "ピクニック",
-   "nameCN": "情热时光",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/25/5793_8VNCV.jpg",
-   "date": "2004-08-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 5799,
-   "name": "僕にだって言い分がある",
-   "nameCN": "远离尘嚣的爱情",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/01/5799_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 5793,
-   "dst": 5799
-  },
-  {
-   "relate": "番外篇",
-   "src": 5799,
-   "dst": 5793
-  }
- ]
+  "id": "5793",
+  "node": [
+    {
+      "id": 5793,
+      "name": "ピクニック",
+      "nameCN": "情热时光",
+      "date": "2004-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 5799,
+      "name": "僕にだって言い分がある",
+      "nameCN": "远离尘嚣的爱情",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 5793,
+      "dst": 5799
+    },
+    {
+      "relateString": "番外篇",
+      "src": 5799,
+      "dst": 5793
+    }
+  ]
 }

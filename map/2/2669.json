@@ -1,77 +1,72 @@
 {
- "id": 2669,
- "node": [
-  {
-   "id": 2669,
-   "name": "クレヨンしんちゃん",
-   "nameCN": "蜡笔小新",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/ed/2669_rav75.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 24822,
-   "name": "新クレヨンしんちゃん",
-   "nameCN": "新蜡笔小新",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/9b/24822_R940j.jpg",
-   "date": "2012-07-13",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 193363,
-   "name": "アクション仮面",
-   "nameCN": "动感超人",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/0b/193363_e22xM.jpg",
-   "date": "2014-01-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 312401,
-   "name": "野原ひろし 昼メシの流儀",
-   "nameCN": "野原广志午餐流派",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/59/312401_v10EF.jpg",
-   "date": "2016-10-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2669,
-   "dst": 24822
-  },
-  {
-   "relate": "番外篇",
-   "src": 2669,
-   "dst": 193363
-  },
-  {
-   "relate": "番外篇",
-   "src": 2669,
-   "dst": 312401
-  },
-  {
-   "relate": "前传",
-   "src": 24822,
-   "dst": 2669
-  },
-  {
-   "relate": "主线故事",
-   "src": 193363,
-   "dst": 2669
-  },
-  {
-   "relate": "主线故事",
-   "src": 312401,
-   "dst": 2669
-  }
- ]
+  "id": "2669",
+  "node": [
+    {
+      "id": 2669,
+      "name": "クレヨンしんちゃん",
+      "nameCN": "蜡笔小新",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 24822,
+      "name": "新クレヨンしんちゃん",
+      "nameCN": "新蜡笔小新",
+      "date": "2012-07-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 193363,
+      "name": "アクション仮面",
+      "nameCN": "动感超人",
+      "date": "2014-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 312401,
+      "name": "野原ひろし 昼メシの流儀",
+      "nameCN": "野原广志午餐流派",
+      "date": "2016-10-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2669,
+      "dst": 24822
+    },
+    {
+      "relateString": "番外篇",
+      "src": 2669,
+      "dst": 193363
+    },
+    {
+      "relateString": "番外篇",
+      "src": 2669,
+      "dst": 312401
+    },
+    {
+      "relateString": "前传",
+      "src": 24822,
+      "dst": 2669
+    },
+    {
+      "relateString": "主线故事",
+      "src": 193363,
+      "dst": 2669
+    },
+    {
+      "relateString": "主线故事",
+      "src": 312401,
+      "dst": 2669
+    }
+  ]
 }

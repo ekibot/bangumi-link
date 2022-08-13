@@ -1,37 +1,35 @@
 {
- "id": 253384,
- "node": [
-  {
-   "id": 253384,
-   "name": "前田利家 上 天下無敵の槍の又左",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/e9/253384_W55tl.jpg",
-   "date": "2017-02-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 253385,
-   "name": "前田利家 下 決戦! 本能寺",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/fe/253385_Y4jd7.jpg",
-   "date": "2017-02-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 253384,
-   "dst": 253385
-  },
-  {
-   "relate": "前传",
-   "src": 253385,
-   "dst": 253384
-  }
- ]
+  "id": "253384",
+  "node": [
+    {
+      "id": 253384,
+      "name": "前田利家 上 天下無敵の槍の又左",
+      "nameCN": "",
+      "date": "2017-02-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 253385,
+      "name": "前田利家 下 決戦! 本能寺",
+      "nameCN": "",
+      "date": "2017-02-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 253384,
+      "dst": 253385
+    },
+    {
+      "relateString": "前传",
+      "src": 253385,
+      "dst": 253384
+    }
+  ]
 }

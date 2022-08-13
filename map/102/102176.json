@@ -1,57 +1,35 @@
 {
- "id": 102176,
- "node": [
-  {
-   "id": 102176,
-   "name": "あやかしごはん",
-   "nameCN": "妖怪米饭",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/fb/102176_Szsi9.jpg",
-   "date": "2014-08-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 126670,
-   "name": "あやかしごはん～おおもりっ！～",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/bf/126670_mlN0l.jpg",
-   "date": "2015-10-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 165876,
-   "name": "あやかしごはん～おかわりっ！～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/28/165876_kVJhk.jpg",
-   "date": "2015-11-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 102176,
-   "dst": 126670
-  },
-  {
-   "relate": "续集",
-   "src": 102176,
-   "dst": 165876
-  },
-  {
-   "relate": "不同演绎",
-   "src": 126670,
-   "dst": 102176
-  },
-  {
-   "relate": "前传",
-   "src": 165876,
-   "dst": 102176
-  }
- ]
+  "id": "102176",
+  "node": [
+    {
+      "id": 102176,
+      "name": "あやかしごはん",
+      "nameCN": "妖怪米饭",
+      "date": "2014-08-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165876,
+      "name": "あやかしごはん～おかわりっ！～",
+      "nameCN": "",
+      "date": "2015-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 102176,
+      "dst": 165876
+    },
+    {
+      "relateString": "前传",
+      "src": 165876,
+      "dst": 102176
+    }
+  ]
 }

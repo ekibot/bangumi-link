@@ -1,37 +1,33 @@
 {
- "id": 130499,
- "node": [
-  {
-   "id": 130499,
-   "name": "嬢王",
-   "nameCN": "娘王",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/48/130499_ZOYjG.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 130501,
-   "name": "嬢王Virgin～六本木nightGP partII～",
-   "nameCN": "娘王 Virgin",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/de/130501_eu780.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130499,
-   "dst": 130501
-  },
-  {
-   "relate": "前传",
-   "src": 130501,
-   "dst": 130499
-  }
- ]
+  "id": "130499",
+  "node": [
+    {
+      "id": 130499,
+      "name": "嬢王",
+      "nameCN": "娘王",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 130501,
+      "name": "嬢王Virgin～六本木nightGP partII～",
+      "nameCN": "娘王 Virgin",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130499,
+      "dst": 130501
+    },
+    {
+      "relateString": "前传",
+      "src": 130501,
+      "dst": 130499
+    }
+  ]
 }

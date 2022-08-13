@@ -1,0 +1,54 @@
+{
+  "id": "5467",
+  "node": [
+    {
+      "id": 5467,
+      "name": "魔動王グランゾート",
+      "nameCN": "魔动王",
+      "date": "1989-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 25422,
+      "name": "魔動王グランゾート 冒険編",
+      "nameCN": "魔动王 冒险篇",
+      "date": "1992-02-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 25423,
+      "name": "魔動王グランゾート 最後のマジカル大戦",
+      "nameCN": "魔动王 最后的魔法大战",
+      "date": "1990-08-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 5467,
+      "dst": 25422
+    },
+    {
+      "relateString": "番外篇",
+      "src": 5467,
+      "dst": 25423
+    },
+    {
+      "relateString": "主线故事",
+      "src": 25422,
+      "dst": 5467
+    },
+    {
+      "relateString": "主线故事",
+      "src": 25423,
+      "dst": 5467
+    }
+  ]
+}

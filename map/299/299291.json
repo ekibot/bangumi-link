@@ -1,30 +1,35 @@
 {
- "id": 299291,
- "node": [
-  {
-   "id": 299291,
-   "name": "くのイチ忍法帳",
-   "nameCN": "女忍忍法帐",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-09-14"
-  },
-  {
-   "id": 299293,
-   "name": "くのイチ忍法帳 第二幕 ～檻の中の女の子～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2007-07-30"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 299291,
-   "dst": 299293
-  },
-  {
-   "relate": "前传",
-   "src": 299293,
-   "dst": 299291
-  }
- ]
+  "id": "299291",
+  "node": [
+    {
+      "id": 299291,
+      "name": "くのイチ忍法帳",
+      "nameCN": "女忍忍法帐",
+      "date": "2006-09-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299293,
+      "name": "くのイチ忍法帳 第二幕 ～檻の中の女の子～",
+      "nameCN": "",
+      "date": "2007-07-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 299291,
+      "dst": 299293
+    },
+    {
+      "relateString": "前传",
+      "src": 299293,
+      "dst": 299291
+    }
+  ]
 }

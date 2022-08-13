@@ -1,37 +1,35 @@
 {
- "id": 103208,
- "node": [
-  {
-   "id": 103208,
-   "name": "赤灯えれじい",
-   "nameCN": "工地恋歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/9c/103208_cZivP.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 103233,
-   "name": "赤灯えれじい 東京物語",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/9f/103233_jp.jpg",
-   "date": "2009-07-06",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103208,
-   "dst": 103233
-  },
-  {
-   "relate": "前传",
-   "src": 103233,
-   "dst": 103208
-  }
- ]
+  "id": "103208",
+  "node": [
+    {
+      "id": 103208,
+      "name": "赤灯えれじい",
+      "nameCN": "工地恋歌",
+      "date": "2004-03-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 103233,
+      "name": "赤灯えれじい 東京物語",
+      "nameCN": "",
+      "date": "2009-07-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103208,
+      "dst": 103233
+    },
+    {
+      "relateString": "前传",
+      "src": 103233,
+      "dst": 103208
+    }
+  ]
 }

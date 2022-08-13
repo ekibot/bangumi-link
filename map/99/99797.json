@@ -1,37 +1,35 @@
 {
- "id": 99797,
- "node": [
-  {
-   "id": 99797,
-   "name": "ぼくらの勇気 未満都市",
-   "nameCN": "我们的勇气 未满都市",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/8e/99797_OlFiL.jpg",
-   "date": "1997-10-18",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 215092,
-   "name": "ぼくらの勇気 未満都市 2017",
-   "nameCN": "我们的勇气 未满都市2017",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/10/215092_f64f6.jpg",
-   "date": "2017-07-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99797,
-   "dst": 215092
-  },
-  {
-   "relate": "前传",
-   "src": 215092,
-   "dst": 99797
-  }
- ]
+  "id": "99797",
+  "node": [
+    {
+      "id": 99797,
+      "name": "ぼくらの勇気 未満都市",
+      "nameCN": "我们的勇气 未满都市",
+      "date": "1997-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 215092,
+      "name": "ぼくらの勇気 未満都市 2017",
+      "nameCN": "我们的勇气 未满都市2017",
+      "date": "2017-07-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99797,
+      "dst": 215092
+    },
+    {
+      "relateString": "前传",
+      "src": 215092,
+      "dst": 99797
+    }
+  ]
 }

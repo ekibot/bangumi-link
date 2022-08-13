@@ -1,37 +1,33 @@
 {
- "id": 88382,
- "node": [
-  {
-   "id": 88382,
-   "name": "夏子の酒",
-   "nameCN": "夏子的酒",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/fa/88382_9LjiI.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 88387,
-   "name": "奈津の蔵",
-   "nameCN": "奈津之藏",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/23/88387_GGnGY.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88382,
-   "dst": 88387
-  },
-  {
-   "relate": "前传",
-   "src": 88387,
-   "dst": 88382
-  }
- ]
+  "id": "88382",
+  "node": [
+    {
+      "id": 88382,
+      "name": "夏子の酒",
+      "nameCN": "夏子的酒",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 88387,
+      "name": "奈津の蔵",
+      "nameCN": "奈津之藏",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88382,
+      "dst": 88387
+    },
+    {
+      "relateString": "前传",
+      "src": 88387,
+      "dst": 88382
+    }
+  ]
 }

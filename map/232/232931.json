@@ -1,37 +1,33 @@
 {
- "id": 232931,
- "node": [
-  {
-   "id": 232931,
-   "name": "ちょー魔王〈上〉",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/1c/232931_ZiGZ5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 232932,
-   "name": "ちょー魔王〈下〉",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/cf/232932_BnofD.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 232931,
-   "dst": 232932
-  },
-  {
-   "relate": "前传",
-   "src": 232932,
-   "dst": 232931
-  }
- ]
+  "id": "232931",
+  "node": [
+    {
+      "id": 232931,
+      "name": "ちょー魔王〈上〉",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 232932,
+      "name": "ちょー魔王〈下〉",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 232931,
+      "dst": 232932
+    },
+    {
+      "relateString": "前传",
+      "src": 232932,
+      "dst": 232931
+    }
+  ]
 }

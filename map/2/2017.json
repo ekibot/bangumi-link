@@ -1,37 +1,35 @@
 {
- "id": 2017,
- "node": [
-  {
-   "id": 2017,
-   "name": "ザ·クイズショウ 2",
-   "nameCN": "益智游戏2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/88/2017_XpXw9.jpg",
-   "date": "2009-04-18",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 36341,
-   "name": "ザ・クイズショウ（第1シーズン）",
-   "nameCN": "益智游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/3a/36341_Zc700.jpg",
-   "date": "2008-07-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2017,
-   "dst": 36341
-  },
-  {
-   "relate": "续集",
-   "src": 36341,
-   "dst": 2017
-  }
- ]
+  "id": "2017",
+  "node": [
+    {
+      "id": 2017,
+      "name": "ザ·クイズショウ 2",
+      "nameCN": "益智游戏2",
+      "date": "2009-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 36341,
+      "name": "ザ・クイズショウ（第1シーズン）",
+      "nameCN": "益智游戏",
+      "date": "2008-07-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2017,
+      "dst": 36341
+    },
+    {
+      "relateString": "续集",
+      "src": 36341,
+      "dst": 2017
+    }
+  ]
 }

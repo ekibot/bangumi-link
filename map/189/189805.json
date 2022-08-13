@@ -1,37 +1,34 @@
 {
- "id": 189805,
- "node": [
-  {
-   "id": 189805,
-   "name": "康熙微服私访记",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/e1/189805_N4PnI.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 190100,
-   "name": "康熙微服私访记Ⅱ",
-   "nameCN": "康熙微服私访记 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/2f/190100_5OhdH.jpg",
-   "date": "1998-11-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189805,
-   "dst": 190100
-  },
-  {
-   "relate": "前传",
-   "src": 190100,
-   "dst": 189805
-  }
- ]
+  "id": "189805",
+  "node": [
+    {
+      "id": 189805,
+      "name": "康熙微服私访记",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 190100,
+      "name": "康熙微服私访记Ⅱ",
+      "nameCN": "康熙微服私访记 第二部",
+      "date": "1998-11-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189805,
+      "dst": 190100
+    },
+    {
+      "relateString": "前传",
+      "src": 190100,
+      "dst": 189805
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 194465,
- "node": [
-  {
-   "id": 194465,
-   "name": "Timeless Season 1 (2016–17)",
-   "nameCN": "时空守卫",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/f6/194465_2z1D5.jpg",
-   "date": "2016-10-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 240320,
-   "name": "Timeless Season 2 (2018)",
-   "date": "2018-03-11",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194465,
-   "dst": 240320
-  },
-  {
-   "relate": "前传",
-   "src": 240320,
-   "dst": 194465
-  }
- ]
+  "id": "194465",
+  "node": [
+    {
+      "id": 194465,
+      "name": "Timeless Season 1 (2016–17)",
+      "nameCN": "时空守卫",
+      "date": "2016-10-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 240320,
+      "name": "Timeless Season 2 (2018)",
+      "nameCN": "",
+      "date": "2018-03-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194465,
+      "dst": 240320
+    },
+    {
+      "relateString": "前传",
+      "src": 240320,
+      "dst": 194465
+    }
+  ]
 }

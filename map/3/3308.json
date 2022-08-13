@@ -1,37 +1,35 @@
 {
- "id": 3308,
- "node": [
-  {
-   "id": 3308,
-   "name": "FOREVER BLUE 海の呼び声",
-   "nameCN": "永恒蔚蓝 大海的呼声",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/b4/3308_ooyXQ.jpg",
-   "date": "2009-09-17",
-   "nsfw": false,
-   "platform": "Wii",
-   "type": 4
-  },
-  {
-   "id": 262142,
-   "name": "FOREVER BLUE",
-   "nameCN": "永恒蔚蓝",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/92/262142_QnZy0.jpg",
-   "date": "2007-08-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 3308,
-   "dst": 262142
-  },
-  {
-   "relate": "续集",
-   "src": 262142,
-   "dst": 3308
-  }
- ]
+  "id": "3308",
+  "node": [
+    {
+      "id": 3308,
+      "name": "FOREVER BLUE 海の呼び声",
+      "nameCN": "永恒蔚蓝 大海的呼声",
+      "date": "2009-09-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "Wii"
+    },
+    {
+      "id": 262142,
+      "name": "FOREVER BLUE",
+      "nameCN": "永恒蔚蓝",
+      "date": "2007-08-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 3308,
+      "dst": 262142
+    },
+    {
+      "relateString": "续集",
+      "src": 262142,
+      "dst": 3308
+    }
+  ]
 }

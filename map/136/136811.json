@@ -1,37 +1,34 @@
 {
- "id": 136811,
- "node": [
-  {
-   "id": 136811,
-   "name": "陰からマモル!",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/14/136811_5T690.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 136826,
-   "name": "もっと!陰からマモル!",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/80/136826_Nb3m5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 136811,
-   "dst": 136826
-  },
-  {
-   "relate": "前传",
-   "src": 136826,
-   "dst": 136811
-  }
- ]
+  "id": "136811",
+  "node": [
+    {
+      "id": 136811,
+      "name": "陰からマモル!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 136826,
+      "name": "もっと!陰からマモル!",
+      "nameCN": "",
+      "date": "2009-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 136811,
+      "dst": 136826
+    },
+    {
+      "relateString": "前传",
+      "src": 136826,
+      "dst": 136811
+    }
+  ]
 }

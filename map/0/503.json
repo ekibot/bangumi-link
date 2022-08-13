@@ -1,37 +1,35 @@
 {
- "id": 503,
- "node": [
-  {
-   "id": 503,
-   "name": "ホーホケキョ となりの山田くん",
-   "nameCN": "我的邻居山田君",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/5e/503_PPSWP.jpg",
-   "date": "1999-07-17",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 96537,
-   "name": "ののちゃん",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/e4/96537_9XCve.jpg",
-   "date": "2001-07-07",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 503,
-   "dst": 96537
-  },
-  {
-   "relate": "不同演绎",
-   "src": 96537,
-   "dst": 503
-  }
- ]
+  "id": "503",
+  "node": [
+    {
+      "id": 503,
+      "name": "ホーホケキョ となりの山田くん",
+      "nameCN": "我的邻居山田君",
+      "date": "1999-07-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 96537,
+      "name": "ののちゃん",
+      "nameCN": "",
+      "date": "2001-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 503,
+      "dst": 96537
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 96537,
+      "dst": 503
+    }
+  ]
 }

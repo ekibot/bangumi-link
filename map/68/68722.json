@@ -1,37 +1,34 @@
 {
- "id": 68722,
- "node": [
-  {
-   "id": 68722,
-   "name": "龙族",
-   "nameCN": "龙族",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/d6/68722_ggAfR.jpg",
-   "date": "2010-04-23",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 187150,
-   "name": "龙族前传 哀悼之翼",
-   "nameCN": "龙族前传 哀悼之翼",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/97/187150_p0Tka.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 68722,
-   "dst": 187150
-  },
-  {
-   "relate": "续集",
-   "src": 187150,
-   "dst": 68722
-  }
- ]
+  "id": "68722",
+  "node": [
+    {
+      "id": 68722,
+      "name": "龙族",
+      "nameCN": "龙族",
+      "date": "2010-04-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 187150,
+      "name": "龙族前传 哀悼之翼",
+      "nameCN": "龙族前传 哀悼之翼",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 68722,
+      "dst": 187150
+    },
+    {
+      "relateString": "续集",
+      "src": 187150,
+      "dst": 68722
+    }
+  ]
 }

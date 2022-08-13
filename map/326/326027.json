@@ -1,37 +1,35 @@
 {
- "id": 326027,
- "node": [
-  {
-   "id": 326027,
-   "name": "大阪MADファミリー",
-   "nameCN": "大阪MAD家族",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/43/326027_4Fqh6.jpg",
-   "date": "2018-10-02",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 366249,
-   "name": "KOBE BBG ~神戸ベタブミガールズ~",
-   "nameCN": "神户地板油女孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/7b/366249_5jHBj.jpg",
-   "date": "2022-01-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 326027,
-   "dst": 366249
-  },
-  {
-   "relate": "主线故事",
-   "src": 366249,
-   "dst": 326027
-  }
- ]
+  "id": "326027",
+  "node": [
+    {
+      "id": 326027,
+      "name": "大阪MADファミリー",
+      "nameCN": "大阪MAD家族",
+      "date": "2018-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 366249,
+      "name": "KOBE BBG ~神戸ベタブミガールズ~",
+      "nameCN": "神户地板油女孩",
+      "date": "2022-01-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 326027,
+      "dst": 366249
+    },
+    {
+      "relateString": "主线故事",
+      "src": 366249,
+      "dst": 326027
+    }
+  ]
 }

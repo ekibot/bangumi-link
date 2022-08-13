@@ -1,37 +1,35 @@
 {
- "id": 208447,
- "node": [
-  {
-   "id": 208447,
-   "name": "おにぎりスタッバー",
-   "nameCN": "你好哇，暗杀者",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/49/208447_jp.jpg",
-   "date": "2016-12-28",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 236769,
-   "name": "ひとくいマンイーター",
-   "nameCN": "幸会，食人鬼。",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/f9/236769_Ze1py.jpg",
-   "date": "2017-03-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 208447,
-   "dst": 236769
-  },
-  {
-   "relate": "续集",
-   "src": 236769,
-   "dst": 208447
-  }
- ]
+  "id": "208447",
+  "node": [
+    {
+      "id": 208447,
+      "name": "おにぎりスタッバー",
+      "nameCN": "你好哇，暗杀者",
+      "date": "2016-12-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 236769,
+      "name": "ひとくいマンイーター",
+      "nameCN": "幸会，食人鬼。",
+      "date": "2017-03-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 208447,
+      "dst": 236769
+    },
+    {
+      "relateString": "续集",
+      "src": 236769,
+      "dst": 208447
+    }
+  ]
 }

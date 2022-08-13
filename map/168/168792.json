@@ -1,37 +1,35 @@
 {
- "id": 168792,
- "node": [
-  {
-   "id": 168792,
-   "name": "七星のスバル",
-   "nameCN": "七星的昴星团",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/9b/168792_yLA1y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 247957,
-   "name": "七星のスバル (0)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/b6/247957_dsTZh.jpg",
-   "date": "2018-06-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 168792,
-   "dst": 247957
-  },
-  {
-   "relate": "续集",
-   "src": 247957,
-   "dst": 168792
-  }
- ]
+  "id": "168792",
+  "node": [
+    {
+      "id": 168792,
+      "name": "七星のスバル",
+      "nameCN": "七星的昴星团",
+      "date": "2015-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 247957,
+      "name": "七星のスバル (0)",
+      "nameCN": "",
+      "date": "2018-06-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 168792,
+      "dst": 247957
+    },
+    {
+      "relateString": "续集",
+      "src": 247957,
+      "dst": 168792
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 171517,
- "node": [
-  {
-   "id": 171517,
-   "name": "TOKYO TRIBE2",
-   "nameCN": "东京暴族2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/46/171517_8Hggn.jpg",
-   "date": "1998-07-24",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 173435,
-   "name": "TOKYO TRIBE",
-   "nameCN": "东京暴族前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/e5/173435_oMwmw.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 171517,
-   "dst": 173435
-  },
-  {
-   "relate": "续集",
-   "src": 173435,
-   "dst": 171517
-  }
- ]
+  "id": "171517",
+  "node": [
+    {
+      "id": 171517,
+      "name": "TOKYO TRIBE2",
+      "nameCN": "东京暴族2",
+      "date": "1998-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 173435,
+      "name": "TOKYO TRIBE",
+      "nameCN": "东京暴族前传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 171517,
+      "dst": 173435
+    },
+    {
+      "relateString": "续集",
+      "src": 173435,
+      "dst": 171517
+    }
+  ]
 }

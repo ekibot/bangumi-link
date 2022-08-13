@@ -1,117 +1,111 @@
 {
- "id": 645,
- "node": [
-  {
-   "id": 645,
-   "name": "F.E.A.R. First Encounter Assault Recon",
-   "nameCN": "极度恐慌",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/9f/645_CES2c.jpg",
-   "date": "2005-10-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 660,
-   "name": "F.E.A.R. Files",
-   "nameCN": "极度恐慌 文档",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/26/660_aus.jpg",
-   "date": "2007-11-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 964,
-   "name": "F.E.A.R.2: Project Origin",
-   "nameCN": "极度恐慌2：起源计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/65/964_i0yEE.jpg",
-   "date": "2009-02-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 43260,
-   "name": "F.E.A.R. Extraction Point",
-   "nameCN": "极度恐慌：撤离点",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/98/43260_zw7Eq.jpg",
-   "date": "2006-10-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 43262,
-   "name": "F.E.A.R 3",
-   "nameCN": "极度恐慌 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/62/43262_oHIIy.jpg",
-   "date": "2011-06-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 45322,
-   "name": "F.E.A.R. Perseus Mandate",
-   "nameCN": "极度恐慌：帕尔修斯的指令",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/a8/45322_HW82T.jpg",
-   "date": "2007-11-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 645,
-   "dst": 964
-  },
-  {
-   "relate": "不同演绎",
-   "src": 660,
-   "dst": 43260
-  },
-  {
-   "relate": "不同演绎",
-   "src": 660,
-   "dst": 45322
-  },
-  {
-   "relate": "前传",
-   "src": 964,
-   "dst": 645
-  },
-  {
-   "relate": "续集",
-   "src": 964,
-   "dst": 43262
-  },
-  {
-   "relate": "主线故事",
-   "src": 43260,
-   "dst": 645
-  },
-  {
-   "relate": "不同演绎",
-   "src": 43260,
-   "dst": 660
-  },
-  {
-   "relate": "前传",
-   "src": 43262,
-   "dst": 964
-  },
-  {
-   "relate": "主线故事",
-   "src": 45322,
-   "dst": 645
-  },
-  {
-   "relate": "不同演绎",
-   "src": 45322,
-   "dst": 660
-  }
- ]
+  "id": "645",
+  "node": [
+    {
+      "id": 645,
+      "name": "F.E.A.R. First Encounter Assault Recon",
+      "nameCN": "极度恐慌",
+      "date": "2005-10-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 964,
+      "name": "F.E.A.R.2: Project Origin",
+      "nameCN": "极度恐慌2：起源计划",
+      "date": "2009-02-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 43262,
+      "name": "F.E.A.R 3",
+      "nameCN": "极度恐慌 3",
+      "date": "2011-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 660,
+      "name": "F.E.A.R. Files",
+      "nameCN": "极度恐慌 文档",
+      "date": "2007-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 43260,
+      "name": "F.E.A.R. Extraction Point",
+      "nameCN": "极度恐慌：撤离点",
+      "date": "2006-10-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 45322,
+      "name": "F.E.A.R. Perseus Mandate",
+      "nameCN": "极度恐慌：帕尔修斯的指令",
+      "date": "2007-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 645,
+      "dst": 964
+    },
+    {
+      "relateString": "前传",
+      "src": 964,
+      "dst": 645
+    },
+    {
+      "relateString": "续集",
+      "src": 964,
+      "dst": 43262
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 660,
+      "dst": 43260
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 660,
+      "dst": 45322
+    },
+    {
+      "relateString": "主线故事",
+      "src": 43260,
+      "dst": 645
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 43260,
+      "dst": 660
+    },
+    {
+      "relateString": "前传",
+      "src": 43262,
+      "dst": 964
+    },
+    {
+      "relateString": "主线故事",
+      "src": 45322,
+      "dst": 645
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 45322,
+      "dst": 660
+    }
+  ]
 }

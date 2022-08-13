@@ -1,57 +1,54 @@
 {
- "id": 309750,
- "node": [
-  {
-   "id": 309750,
-   "name": "CT SPECIAL FORCES",
-   "nameCN": "CT特种部队",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/af/309750_50B3Z.jpg",
-   "date": "2002-07-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309844,
-   "name": "CT SPECIAL FORCES 2: BACK IN THE TRENCHES",
-   "nameCN": "CT特种部队2 重返战壕",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/c8/309844_H0zr9.jpg",
-   "date": "2003-08-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 334156,
-   "name": "CT Special Forces 3 Bioterror",
-   "nameCN": "CT特种部队3 生化恐怖",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/d2/334156_dZY4M.jpg",
-   "date": "2004-03-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 309750,
-   "dst": 309844
-  },
-  {
-   "relate": "前传",
-   "src": 309844,
-   "dst": 309750
-  },
-  {
-   "relate": "续集",
-   "src": 309844,
-   "dst": 334156
-  },
-  {
-   "relate": "前传",
-   "src": 334156,
-   "dst": 309844
-  }
- ]
+  "id": "309750",
+  "node": [
+    {
+      "id": 309750,
+      "name": "CT SPECIAL FORCES",
+      "nameCN": "CT特种部队",
+      "date": "2002-07-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309844,
+      "name": "CT SPECIAL FORCES 2: BACK IN THE TRENCHES",
+      "nameCN": "CT特种部队2 重返战壕",
+      "date": "2003-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 334156,
+      "name": "CT Special Forces 3 Bioterror",
+      "nameCN": "CT特种部队3 生化恐怖",
+      "date": "2004-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 309750,
+      "dst": 309844
+    },
+    {
+      "relateString": "前传",
+      "src": 309844,
+      "dst": 309750
+    },
+    {
+      "relateString": "续集",
+      "src": 309844,
+      "dst": 334156
+    },
+    {
+      "relateString": "前传",
+      "src": 334156,
+      "dst": 309844
+    }
+  ]
 }

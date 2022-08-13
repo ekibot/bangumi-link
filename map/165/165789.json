@@ -1,37 +1,35 @@
 {
- "id": 165789,
- "node": [
-  {
-   "id": 165789,
-   "name": "ドン・チャック物語",
-   "nameCN": "父子情深",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/b0/165789_S9qNJ.jpg",
-   "date": "1975-04-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 165790,
-   "name": "新ドン・チャック物語",
-   "nameCN": "新父子情深",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/14/165790_T8Uva.jpg",
-   "date": "1976-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165789,
-   "dst": 165790
-  },
-  {
-   "relate": "前传",
-   "src": 165790,
-   "dst": 165789
-  }
- ]
+  "id": "165789",
+  "node": [
+    {
+      "id": 165789,
+      "name": "ドン・チャック物語",
+      "nameCN": "父子情深",
+      "date": "1975-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 165790,
+      "name": "新ドン・チャック物語",
+      "nameCN": "新父子情深",
+      "date": "1976-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165789,
+      "dst": 165790
+    },
+    {
+      "relateString": "前传",
+      "src": 165790,
+      "dst": 165789
+    }
+  ]
 }

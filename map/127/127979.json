@@ -1,57 +1,54 @@
 {
- "id": 127979,
- "node": [
-  {
-   "id": 127979,
-   "name": "モンスター娘のいる日常",
-   "nameCN": "魔物娘的同居日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/f5/127979_BSR5R.jpg",
-   "date": "2015-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 169148,
-   "name": "モンスター娘のいる日常 OAD",
-   "nameCN": "魔物娘的同居日常 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/7b/169148_Eauec.jpg",
-   "date": "2016-11-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 175028,
-   "name": "「モンスター娘のいる日常」 ほぼ毎日○○! 生っぽい動画 ~実録! モン娘の60日~",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/82/175028_bf98M.jpg",
-   "date": "2016-03-16",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127979,
-   "dst": 169148
-  },
-  {
-   "relate": "番外篇",
-   "src": 127979,
-   "dst": 175028
-  },
-  {
-   "relate": "前传",
-   "src": 169148,
-   "dst": 127979
-  },
-  {
-   "relate": "主线故事",
-   "src": 175028,
-   "dst": 127979
-  }
- ]
+  "id": "127979",
+  "node": [
+    {
+      "id": 127979,
+      "name": "モンスター娘のいる日常",
+      "nameCN": "魔物娘的同居日常",
+      "date": "2015-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 169148,
+      "name": "モンスター娘のいる日常 OAD",
+      "nameCN": "魔物娘的同居日常 OAD",
+      "date": "2016-11-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 175028,
+      "name": "「モンスター娘のいる日常」 ほぼ毎日○○! 生っぽい動画 ~実録! モン娘の60日~",
+      "nameCN": "",
+      "date": "2016-03-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127979,
+      "dst": 169148
+    },
+    {
+      "relateString": "番外篇",
+      "src": 127979,
+      "dst": 175028
+    },
+    {
+      "relateString": "前传",
+      "src": 169148,
+      "dst": 127979
+    },
+    {
+      "relateString": "主线故事",
+      "src": 175028,
+      "dst": 127979
+    }
+  ]
 }

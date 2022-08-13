@@ -1,81 +1,75 @@
 {
- "id": 34292,
- "node": [
-  {
-   "id": 34292,
-   "name": "愛神餐館2",
-   "nameCN": "爱神餐馆2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/65/34292_k4Vak.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 125859,
-   "name": "愛神餐館",
-   "nameCN": "爱神餐馆",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/85/125859_Xgi5t.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 220034,
-   "name": "愛神餐館MAX",
-   "nameCN": "爱神餐馆MAX",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/26/220034_hsj9s.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 220057,
-   "name": "愛神餐館外傳：時流之輪",
-   "nameCN": "爱神餐馆外传：时流之轮",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/9a/220057_v790Q.jpg",
-   "date": "2000-12-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 34292,
-   "dst": 125859
-  },
-  {
-   "relate": "前传",
-   "src": 34292,
-   "dst": 220034
-  },
-  {
-   "relate": "续集",
-   "src": 125859,
-   "dst": 34292
-  },
-  {
-   "relate": "不同演绎",
-   "src": 125859,
-   "dst": 220034
-  },
-  {
-   "relate": "续集",
-   "src": 220034,
-   "dst": 34292
-  },
-  {
-   "relate": "不同演绎",
-   "src": 220034,
-   "dst": 125859
-  },
-  {
-   "relate": "主线故事",
-   "src": 220057,
-   "dst": 220034
-  }
- ]
+  "id": "34292",
+  "node": [
+    {
+      "id": 34292,
+      "name": "愛神餐館2",
+      "nameCN": "爱神餐馆2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 125859,
+      "name": "愛神餐館",
+      "nameCN": "爱神餐馆",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220034,
+      "name": "愛神餐館MAX",
+      "nameCN": "爱神餐馆MAX",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220057,
+      "name": "愛神餐館外傳：時流之輪",
+      "nameCN": "爱神餐馆外传：时流之轮",
+      "date": "2000-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 34292,
+      "dst": 125859
+    },
+    {
+      "relateString": "前传",
+      "src": 34292,
+      "dst": 220034
+    },
+    {
+      "relateString": "续集",
+      "src": 125859,
+      "dst": 34292
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 125859,
+      "dst": 220034
+    },
+    {
+      "relateString": "续集",
+      "src": 220034,
+      "dst": 34292
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 220034,
+      "dst": 125859
+    },
+    {
+      "relateString": "主线故事",
+      "src": 220057,
+      "dst": 220034
+    }
+  ]
 }

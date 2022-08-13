@@ -1,37 +1,34 @@
 {
- "id": 9984,
- "node": [
-  {
-   "id": 9984,
-   "name": "風の行方",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/93/9984_jp.jpg",
-   "date": "2004-10-09",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 9985,
-   "name": "未来の記憶",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/9b/9985_fP2RB.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 9984,
-   "dst": 9985
-  },
-  {
-   "relate": "续集",
-   "src": 9985,
-   "dst": 9984
-  }
- ]
+  "id": "9984",
+  "node": [
+    {
+      "id": 9984,
+      "name": "風の行方",
+      "nameCN": "",
+      "date": "2004-10-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 9985,
+      "name": "未来の記憶",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 9984,
+      "dst": 9985
+    },
+    {
+      "relateString": "续集",
+      "src": 9985,
+      "dst": 9984
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 143137,
- "node": [
-  {
-   "id": 143137,
-   "name": "コウノドリ",
-   "nameCN": "产科医鸿鸟",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/f0/143137_I3mJK.jpg",
-   "date": "2015-10-16",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 217601,
-   "name": "コウノドリ　第2シリーズ",
-   "nameCN": "产科医鸿鸟 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/bc/217601_6I9Io.jpg",
-   "date": "2017-10-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143137,
-   "dst": 217601
-  },
-  {
-   "relate": "前传",
-   "src": 217601,
-   "dst": 143137
-  }
- ]
+  "id": "143137",
+  "node": [
+    {
+      "id": 143137,
+      "name": "コウノドリ",
+      "nameCN": "产科医鸿鸟",
+      "date": "2015-10-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 217601,
+      "name": "コウノドリ　第2シリーズ",
+      "nameCN": "产科医鸿鸟 第二季",
+      "date": "2017-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143137,
+      "dst": 217601
+    },
+    {
+      "relateString": "前传",
+      "src": 217601,
+      "dst": 143137
+    }
+  ]
 }

@@ -1,69 +1,54 @@
 {
- "id": 198395,
- "node": [
-  {
-   "id": 198395,
-   "name": "One Room",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/69/198395_zRIuN.jpg",
-   "date": "2017-01-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 226507,
-   "name": "One Room セカンドシーズン",
-   "nameCN": "One Room 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/1e/226507_dBZCh.jpg",
-   "date": "2018-07-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 301233,
-   "name": "One Room サードシーズン",
-   "nameCN": "One Room 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/5b/301233_mq8zr.jpg",
-   "date": "2020-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 346242,
-   "name": "がんばれ同期ちゃん",
-   "nameCN": "加油！同期酱",
-   "image": "//lain.bgm.tv/pic/cover/m/70/03/346242_Ci4St.jpg",
-   "date": "2021-09-20"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198395,
-   "dst": 226507
-  },
-  {
-   "relate": "前传",
-   "src": 226507,
-   "dst": 198395
-  },
-  {
-   "relate": "续集",
-   "src": 226507,
-   "dst": 301233
-  },
-  {
-   "relate": "前传",
-   "src": 301233,
-   "dst": 226507
-  },
-  {
-   "relate": "相同世界观",
-   "src": 346242,
-   "dst": 198395
-  }
- ]
+  "id": "198395",
+  "node": [
+    {
+      "id": 198395,
+      "name": "One Room",
+      "nameCN": "",
+      "date": "2017-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 226507,
+      "name": "One Room セカンドシーズン",
+      "nameCN": "One Room 第二季",
+      "date": "2018-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 301233,
+      "name": "One Room サードシーズン",
+      "nameCN": "One Room 第三季",
+      "date": "2020-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198395,
+      "dst": 226507
+    },
+    {
+      "relateString": "前传",
+      "src": 226507,
+      "dst": 198395
+    },
+    {
+      "relateString": "续集",
+      "src": 226507,
+      "dst": 301233
+    },
+    {
+      "relateString": "前传",
+      "src": 301233,
+      "dst": 226507
+    }
+  ]
 }

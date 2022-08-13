@@ -1,37 +1,35 @@
 {
- "id": 299272,
- "node": [
-  {
-   "id": 299272,
-   "name": "The Guest Book (Series 1)",
-   "nameCN": "来宾留言 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/fd/299272_DgAgU.jpg",
-   "date": "2017-08-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 299273,
-   "name": "The Guest Book (Series 2)",
-   "nameCN": "来宾留言 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/b5/299273_Pf9rF.jpg",
-   "date": "2018-10-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 299272,
-   "dst": 299273
-  },
-  {
-   "relate": "前传",
-   "src": 299273,
-   "dst": 299272
-  }
- ]
+  "id": "299272",
+  "node": [
+    {
+      "id": 299272,
+      "name": "The Guest Book (Series 1)",
+      "nameCN": "来宾留言 第一季",
+      "date": "2017-08-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 299273,
+      "name": "The Guest Book (Series 2)",
+      "nameCN": "来宾留言 第二季",
+      "date": "2018-10-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 299272,
+      "dst": 299273
+    },
+    {
+      "relateString": "前传",
+      "src": 299273,
+      "dst": 299272
+    }
+  ]
 }

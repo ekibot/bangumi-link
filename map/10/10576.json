@@ -1,57 +1,54 @@
 {
- "id": 10576,
- "node": [
-  {
-   "id": 10576,
-   "name": "The 3rd Birthday",
-   "nameCN": "寄生前夜：第三次生日",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/3f/10576_Hg4qP.jpg",
-   "date": "2010-12-22",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 20144,
-   "name": "parasite eve",
-   "nameCN": "寄生前夜",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/d4/20144_aAfae.jpg",
-   "date": "1998-03-29",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 20997,
-   "name": "Parasite Eve II",
-   "nameCN": "寄生前夜2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/49/20997_rcBJe.jpg",
-   "date": "1999-12-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 10576,
-   "dst": 20997
-  },
-  {
-   "relate": "续集",
-   "src": 20144,
-   "dst": 20997
-  },
-  {
-   "relate": "续集",
-   "src": 20997,
-   "dst": 10576
-  },
-  {
-   "relate": "前传",
-   "src": 20997,
-   "dst": 20144
-  }
- ]
+  "id": "10576",
+  "node": [
+    {
+      "id": 10576,
+      "name": "The 3rd Birthday",
+      "nameCN": "寄生前夜：第三次生日",
+      "date": "2010-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 20997,
+      "name": "Parasite Eve II",
+      "nameCN": "寄生前夜2",
+      "date": "1999-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20144,
+      "name": "parasite eve",
+      "nameCN": "寄生前夜",
+      "date": "1998-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 10576,
+      "dst": 20997
+    },
+    {
+      "relateString": "续集",
+      "src": 20144,
+      "dst": 20997
+    },
+    {
+      "relateString": "续集",
+      "src": 20997,
+      "dst": 10576
+    },
+    {
+      "relateString": "前传",
+      "src": 20997,
+      "dst": 20144
+    }
+  ]
 }

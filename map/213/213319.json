@@ -1,57 +1,54 @@
 {
- "id": 213319,
- "node": [
-  {
-   "id": 213319,
-   "name": "赤ひげ",
-   "nameCN": "红胡子",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/4e/213319_DZe0k.jpg",
-   "date": "2017-11-03",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 280376,
-   "name": "赤ひげ2",
-   "nameCN": "红胡子 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/9d/280376_uwUQ5.jpg",
-   "date": "2019-11-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 310399,
-   "name": "赤ひげ3",
-   "nameCN": "红胡子 3",
-   "date": "2020-10-23",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/0b/310399_4m3uo.jpg",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213319,
-   "dst": 280376
-  },
-  {
-   "relate": "前传",
-   "src": 280376,
-   "dst": 213319
-  },
-  {
-   "relate": "续集",
-   "src": 280376,
-   "dst": 310399
-  },
-  {
-   "relate": "前传",
-   "src": 310399,
-   "dst": 280376
-  }
- ]
+  "id": "213319",
+  "node": [
+    {
+      "id": 213319,
+      "name": "赤ひげ",
+      "nameCN": "红胡子",
+      "date": "2017-11-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 280376,
+      "name": "赤ひげ2",
+      "nameCN": "红胡子 2",
+      "date": "2019-11-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 310399,
+      "name": "赤ひげ3",
+      "nameCN": "红胡子 3",
+      "date": "2020-10-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213319,
+      "dst": 280376
+    },
+    {
+      "relateString": "前传",
+      "src": 280376,
+      "dst": 213319
+    },
+    {
+      "relateString": "续集",
+      "src": 280376,
+      "dst": 310399
+    },
+    {
+      "relateString": "前传",
+      "src": 310399,
+      "dst": 280376
+    }
+  ]
 }

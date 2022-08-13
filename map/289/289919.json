@@ -1,37 +1,35 @@
 {
- "id": 289919,
- "node": [
-  {
-   "id": 289919,
-   "name": "스페셜포스",
-   "nameCN": "特种部队Online",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/eb/289919_A8FqN.jpg",
-   "date": "2004-07-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 289920,
-   "name": "스페셜포스 2",
-   "nameCN": "风暴战区",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/7e/289920_po3To.jpg",
-   "date": "2011-08-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 289919,
-   "dst": 289920
-  },
-  {
-   "relate": "前传",
-   "src": 289920,
-   "dst": 289919
-  }
- ]
+  "id": "289919",
+  "node": [
+    {
+      "id": 289919,
+      "name": "스페셜포스",
+      "nameCN": "特种部队Online",
+      "date": "2004-07-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 289920,
+      "name": "스페셜포스 2",
+      "nameCN": "风暴战区",
+      "date": "2011-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 289919,
+      "dst": 289920
+    },
+    {
+      "relateString": "前传",
+      "src": 289920,
+      "dst": 289919
+    }
+  ]
 }

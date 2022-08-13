@@ -1,37 +1,34 @@
 {
- "id": 21479,
- "node": [
-  {
-   "id": 21479,
-   "name": "みずほアンビバレンツ",
-   "nameCN": "瑞穂ambivalent",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/1d/21479_646Oi.jpg",
-   "date": "2008-09-12",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 21484,
-   "name": "お姉さまとお呼びっ!!",
-   "nameCN": "喊我姐姐大人！",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/c3/21484_a1ll1.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 21479,
-   "dst": 21484
-  },
-  {
-   "relate": "续集",
-   "src": 21484,
-   "dst": 21479
-  }
- ]
+  "id": "21479",
+  "node": [
+    {
+      "id": 21479,
+      "name": "みずほアンビバレンツ",
+      "nameCN": "瑞穂ambivalent",
+      "date": "2008-09-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 21484,
+      "name": "お姉さまとお呼びっ!!",
+      "nameCN": "喊我姐姐大人！",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 21479,
+      "dst": 21484
+    },
+    {
+      "relateString": "续集",
+      "src": 21484,
+      "dst": 21479
+    }
+  ]
 }

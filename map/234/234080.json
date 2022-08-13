@@ -1,37 +1,35 @@
 {
- "id": 234080,
- "node": [
-  {
-   "id": 234080,
-   "name": "观海策",
-   "nameCN": "观海策之北地风烟",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/d4/234080_7PrsB.jpg",
-   "date": "2018-06-17",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 304670,
-   "name": "观海策之铁骑雄关",
-   "nameCN": "观海策之铁骑雄关",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/bc/304670_1K1Z4.jpg",
-   "date": "2020-04-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234080,
-   "dst": 304670
-  },
-  {
-   "relate": "前传",
-   "src": 304670,
-   "dst": 234080
-  }
- ]
+  "id": "234080",
+  "node": [
+    {
+      "id": 234080,
+      "name": "观海策",
+      "nameCN": "观海策之北地风烟",
+      "date": "2018-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 304670,
+      "name": "观海策之铁骑雄关",
+      "nameCN": "观海策之铁骑雄关",
+      "date": "2020-04-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234080,
+      "dst": 304670
+    },
+    {
+      "relateString": "前传",
+      "src": 304670,
+      "dst": 234080
+    }
+  ]
 }

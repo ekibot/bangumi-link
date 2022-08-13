@@ -1,57 +1,53 @@
 {
- "id": 195197,
- "node": [
-  {
-   "id": 195197,
-   "name": "カクサンキボウ。",
-   "nameCN": "扩散希望。",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/dd/195197_TThl2.jpg",
-   "date": "2011-11-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 195200,
-   "name": "拡散『希望』",
-   "nameCN": "扩散『希望』",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/2b/195200_T0c4Y.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 215451,
-   "name": "ヘンカンカイシ。",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/43/215451_95l5w.jpg",
-   "date": "2016-11-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195197,
-   "dst": 195200
-  },
-  {
-   "relate": "前传",
-   "src": 195197,
-   "dst": 215451
-  },
-  {
-   "relate": "前传",
-   "src": 195200,
-   "dst": 195197
-  },
-  {
-   "relate": "续集",
-   "src": 215451,
-   "dst": 195197
-  }
- ]
+  "id": "195197",
+  "node": [
+    {
+      "id": 195197,
+      "name": "カクサンキボウ。",
+      "nameCN": "扩散希望。",
+      "date": "2011-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 195200,
+      "name": "拡散『希望』",
+      "nameCN": "扩散『希望』",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215451,
+      "name": "ヘンカンカイシ。",
+      "nameCN": "",
+      "date": "2016-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195197,
+      "dst": 195200
+    },
+    {
+      "relateString": "前传",
+      "src": 195197,
+      "dst": 215451
+    },
+    {
+      "relateString": "前传",
+      "src": 195200,
+      "dst": 195197
+    },
+    {
+      "relateString": "续集",
+      "src": 215451,
+      "dst": 195197
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 335,
- "node": [
-  {
-   "id": 335,
-   "name": "黒博物館スプリンガルド",
-   "nameCN": "黑博物馆弹簧腿杰克",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/b9/335_56T0z.jpg",
-   "date": "2007-09-21",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118271,
-   "name": "黒博物館ゴースト アンド レディ",
-   "nameCN": "黑博物馆幽灵与女郎",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/a8/118271_ey818.jpg",
-   "date": "2014-11-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 378020,
-   "name": "黒博物館 三日月よ、怪物と踊れ",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/56/378020_P8u3U.jpg",
-   "date": "2022-07-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 335,
-   "dst": 118271
-  },
-  {
-   "relate": "前传",
-   "src": 118271,
-   "dst": 335
-  },
-  {
-   "relate": "续集",
-   "src": 118271,
-   "dst": 378020
-  },
-  {
-   "relate": "前传",
-   "src": 378020,
-   "dst": 118271
-  }
- ]
+  "id": "335",
+  "node": [
+    {
+      "id": 335,
+      "name": "黒博物館スプリンガルド",
+      "nameCN": "黑博物馆弹簧腿杰克",
+      "date": "2007-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118271,
+      "name": "黒博物館ゴースト アンド レディ",
+      "nameCN": "黑博物馆幽灵与女郎",
+      "date": "2014-11-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 378020,
+      "name": "黒博物館 三日月よ、怪物と踊れ",
+      "nameCN": "",
+      "date": "2022-07-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 335,
+      "dst": 118271
+    },
+    {
+      "relateString": "前传",
+      "src": 118271,
+      "dst": 335
+    },
+    {
+      "relateString": "续集",
+      "src": 118271,
+      "dst": 378020
+    },
+    {
+      "relateString": "前传",
+      "src": 378020,
+      "dst": 118271
+    }
+  ]
 }

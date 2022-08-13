@@ -1,37 +1,35 @@
 {
- "id": 218783,
- "node": [
-  {
-   "id": 218783,
-   "name": "伊藤くん A to E",
-   "nameCN": "伊藤君A到E",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/36/218783_X32kj.jpg",
-   "date": "2017-08-20",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 262536,
-   "name": "映画 伊藤くん A to E",
-   "nameCN": "伊藤君A到E（电影）",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/63/262536_4866m.jpg",
-   "date": "2018-01-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218783,
-   "dst": 262536
-  },
-  {
-   "relate": "前传",
-   "src": 262536,
-   "dst": 218783
-  }
- ]
+  "id": "218783",
+  "node": [
+    {
+      "id": 218783,
+      "name": "伊藤くん A to E",
+      "nameCN": "伊藤君A到E",
+      "date": "2017-08-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 262536,
+      "name": "映画 伊藤くん A to E",
+      "nameCN": "伊藤君A到E（电影）",
+      "date": "2018-01-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218783,
+      "dst": 262536
+    },
+    {
+      "relateString": "前传",
+      "src": 262536,
+      "dst": 218783
+    }
+  ]
 }

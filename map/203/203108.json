@@ -1,37 +1,35 @@
 {
- "id": 203108,
- "node": [
-  {
-   "id": 203108,
-   "name": "超☆お素敵ダーリン",
-   "nameCN": "超☆优质达令",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/59/203108_Fnqa4.jpg",
-   "date": "2007-01-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 203112,
-   "name": "お素敵ダーリン",
-   "nameCN": "优质达令",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/bb/203112_ANcbJ.jpg",
-   "date": "2004-12-16",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 203108,
-   "dst": 203112
-  },
-  {
-   "relate": "续集",
-   "src": 203112,
-   "dst": 203108
-  }
- ]
+  "id": "203108",
+  "node": [
+    {
+      "id": 203108,
+      "name": "超☆お素敵ダーリン",
+      "nameCN": "超☆优质达令",
+      "date": "2007-01-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 203112,
+      "name": "お素敵ダーリン",
+      "nameCN": "优质达令",
+      "date": "2004-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 203108,
+      "dst": 203112
+    },
+    {
+      "relateString": "续集",
+      "src": 203112,
+      "dst": 203108
+    }
+  ]
 }

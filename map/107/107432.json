@@ -1,37 +1,35 @@
 {
- "id": 107432,
- "node": [
-  {
-   "id": 107432,
-   "name": "Spaced Season 1 (1999)",
-   "nameCN": "屋事生非 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/e3/107432_56YIX.jpg",
-   "date": "1999-09-24",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 269026,
-   "name": "Spaced Season 2 (2001)",
-   "nameCN": "屋事生非 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/2d/269026_Xd8MU.jpg",
-   "date": "2001-02-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 107432,
-   "dst": 269026
-  },
-  {
-   "relate": "前传",
-   "src": 269026,
-   "dst": 107432
-  }
- ]
+  "id": "107432",
+  "node": [
+    {
+      "id": 107432,
+      "name": "Spaced Season 1 (1999)",
+      "nameCN": "屋事生非 第一季",
+      "date": "1999-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 269026,
+      "name": "Spaced Season 2 (2001)",
+      "nameCN": "屋事生非 第二季",
+      "date": "2001-02-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 107432,
+      "dst": 269026
+    },
+    {
+      "relateString": "前传",
+      "src": 269026,
+      "dst": 107432
+    }
+  ]
 }

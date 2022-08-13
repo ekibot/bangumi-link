@@ -1,37 +1,34 @@
 {
- "id": 75003,
- "node": [
-  {
-   "id": 75003,
-   "name": "帽子世界",
-   "nameCN": "帽子世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/84/75003_Kmflp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 285891,
-   "name": "新約・帽子世界",
-   "nameCN": "新约帽子世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/3f/285891_6mAZ6.jpg",
-   "date": "2019-04-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 75003,
-   "dst": 285891
-  },
-  {
-   "relate": "不同演绎",
-   "src": 285891,
-   "dst": 75003
-  }
- ]
+  "id": "75003",
+  "node": [
+    {
+      "id": 75003,
+      "name": "帽子世界",
+      "nameCN": "帽子世界",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285891,
+      "name": "新約・帽子世界",
+      "nameCN": "新约帽子世界",
+      "date": "2019-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 75003,
+      "dst": 285891
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 285891,
+      "dst": 75003
+    }
+  ]
 }

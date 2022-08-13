@@ -1,37 +1,33 @@
 {
- "id": 93092,
- "node": [
-  {
-   "id": 93092,
-   "name": "やまとの羽根",
-   "nameCN": "大和羽球男",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/ab/93092_fgKB9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 93112,
-   "name": "スマッシュ!",
-   "nameCN": "羽球小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/1b/93112_27SdY.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93092,
-   "dst": 93112
-  },
-  {
-   "relate": "前传",
-   "src": 93112,
-   "dst": 93092
-  }
- ]
+  "id": "93092",
+  "node": [
+    {
+      "id": 93092,
+      "name": "やまとの羽根",
+      "nameCN": "大和羽球男",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93112,
+      "name": "スマッシュ!",
+      "nameCN": "羽球小子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93092,
+      "dst": 93112
+    },
+    {
+      "relateString": "前传",
+      "src": 93112,
+      "dst": 93092
+    }
+  ]
 }

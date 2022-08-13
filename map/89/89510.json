@@ -1,37 +1,33 @@
 {
- "id": 89510,
- "node": [
-  {
-   "id": 89510,
-   "name": "夜まで待てない。",
-   "nameCN": "等不到夜晚。",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/b1/89510_VQq8N.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 204468,
-   "name": "やっぱり夜まで待てない。",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/40/204468_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89510,
-   "dst": 204468
-  },
-  {
-   "relate": "前传",
-   "src": 204468,
-   "dst": 89510
-  }
- ]
+  "id": "89510",
+  "node": [
+    {
+      "id": 89510,
+      "name": "夜まで待てない。",
+      "nameCN": "等不到夜晚。",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 204468,
+      "name": "やっぱり夜まで待てない。",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89510,
+      "dst": 204468
+    },
+    {
+      "relateString": "前传",
+      "src": 204468,
+      "dst": 89510
+    }
+  ]
 }

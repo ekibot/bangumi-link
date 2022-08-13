@@ -1,37 +1,35 @@
 {
- "id": 251688,
- "node": [
-  {
-   "id": 251688,
-   "name": "キャラクタイムズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/72/251688_BNS3S.jpg",
-   "date": "2013-05-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 251698,
-   "name": "キャラクタイムズ ゴールデン",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/6d/251698_b2F2o.jpg",
-   "date": "2016-01-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251688,
-   "dst": 251698
-  },
-  {
-   "relate": "前传",
-   "src": 251698,
-   "dst": 251688
-  }
- ]
+  "id": "251688",
+  "node": [
+    {
+      "id": 251688,
+      "name": "キャラクタイムズ",
+      "nameCN": "",
+      "date": "2013-05-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 251698,
+      "name": "キャラクタイムズ ゴールデン",
+      "nameCN": "",
+      "date": "2016-01-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251688,
+      "dst": 251698
+    },
+    {
+      "relateString": "前传",
+      "src": 251698,
+      "dst": 251688
+    }
+  ]
 }

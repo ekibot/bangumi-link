@@ -1,37 +1,35 @@
 {
- "id": 137698,
- "node": [
-  {
-   "id": 137698,
-   "name": "Stitchers Season 1",
-   "nameCN": "思想调查员 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/af/137698_Jj0kN.jpg",
-   "date": "2015-06-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 183818,
-   "name": "Stitchers Season 2",
-   "nameCN": "思想调查员 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/0e/183818_t0h5y.jpg",
-   "date": "2016-03-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 137698,
-   "dst": 183818
-  },
-  {
-   "relate": "前传",
-   "src": 183818,
-   "dst": 137698
-  }
- ]
+  "id": "137698",
+  "node": [
+    {
+      "id": 137698,
+      "name": "Stitchers Season 1",
+      "nameCN": "思想调查员 第一季",
+      "date": "2015-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 183818,
+      "name": "Stitchers Season 2",
+      "nameCN": "思想调查员 第二季",
+      "date": "2016-03-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 137698,
+      "dst": 183818
+    },
+    {
+      "relateString": "前传",
+      "src": 183818,
+      "dst": 137698
+    }
+  ]
 }

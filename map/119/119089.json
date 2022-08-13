@@ -1,37 +1,35 @@
 {
- "id": 119089,
- "node": [
-  {
-   "id": 119089,
-   "name": "夢をかなえるゾウ",
-   "nameCN": "梦象成真",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/ea/119089_jp.jpg",
-   "date": "2007-08-11",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 119090,
-   "name": "夢をかなえるゾウ2 ガネーシャと貧乏神",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/4a/119090_jp.jpg",
-   "date": "2012-12-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 119089,
-   "dst": 119090
-  },
-  {
-   "relate": "前传",
-   "src": 119090,
-   "dst": 119089
-  }
- ]
+  "id": "119089",
+  "node": [
+    {
+      "id": 119089,
+      "name": "夢をかなえるゾウ",
+      "nameCN": "梦象成真",
+      "date": "2007-08-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 119090,
+      "name": "夢をかなえるゾウ2 ガネーシャと貧乏神",
+      "nameCN": "",
+      "date": "2012-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 119089,
+      "dst": 119090
+    },
+    {
+      "relateString": "前传",
+      "src": 119090,
+      "dst": 119089
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 181367,
- "node": [
-  {
-   "id": 181367,
-   "name": "神の舌を持つ男",
-   "nameCN": "拥有神之舌的男人",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/b5/181367_1bca1.jpg",
-   "date": "2016-07-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 214341,
-   "name": "RANMARU 神の舌を持つ男 鬼灯デスロード編",
-   "nameCN": "拥有神之舌的男子~鬼灯死亡之路篇~",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/23/214341_itlbu.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 181367,
-   "dst": 214341
-  },
-  {
-   "relate": "前传",
-   "src": 214341,
-   "dst": 181367
-  }
- ]
+  "id": "181367",
+  "node": [
+    {
+      "id": 181367,
+      "name": "神の舌を持つ男",
+      "nameCN": "拥有神之舌的男人",
+      "date": "2016-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 214341,
+      "name": "RANMARU 神の舌を持つ男 鬼灯デスロード編",
+      "nameCN": "拥有神之舌的男子~鬼灯死亡之路篇~",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 181367,
+      "dst": 214341
+    },
+    {
+      "relateString": "前传",
+      "src": 214341,
+      "dst": 181367
+    }
+  ]
 }

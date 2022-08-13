@@ -1,37 +1,35 @@
 {
- "id": 220393,
- "node": [
-  {
-   "id": 220393,
-   "name": "キシカイセイ",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/eb/220393_uAtgs.jpg",
-   "date": "2015-09-06",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 220394,
-   "name": "ハイケイ",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/a6/220394_F3Ce8.jpg",
-   "date": "2015-09-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 220393,
-   "dst": 220394
-  },
-  {
-   "relate": "前传",
-   "src": 220394,
-   "dst": 220393
-  }
- ]
+  "id": "220393",
+  "node": [
+    {
+      "id": 220393,
+      "name": "キシカイセイ",
+      "nameCN": "",
+      "date": "2015-09-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220394,
+      "name": "ハイケイ",
+      "nameCN": "",
+      "date": "2015-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 220393,
+      "dst": 220394
+    },
+    {
+      "relateString": "前传",
+      "src": 220394,
+      "dst": 220393
+    }
+  ]
 }

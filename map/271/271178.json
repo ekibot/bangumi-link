@@ -1,51 +1,72 @@
 {
- "id": 271178,
- "node": [
-  {
-   "id": 271178,
-   "name": "あねいも2 H’s もっとHにステップUP！",
-   "image": "/img/no_icon_subject.png",
-   "date": "2008-03-28"
-  },
-  {
-   "id": 271179,
-   "name": "あねいも2 ～Second Stage～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2007-04-27"
-  },
-  {
-   "id": 271180,
-   "name": "あねいも ～ミニファンディスク～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2007-04-27"
-  },
-  {
-   "id": 331110,
-   "name": "あねいも～アイとHのステップアップ～",
-   "image": "/img/no_icon_subject.png",
-   "date": "unknown"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 271178,
-   "dst": 271179
-  },
-  {
-   "relate": "前传",
-   "src": 271179,
-   "dst": 331110
-  },
-  {
-   "relate": "前传",
-   "src": 271180,
-   "dst": 331110
-  },
-  {
-   "relate": "续集",
-   "src": 331110,
-   "dst": 271179
-  }
- ]
+  "id": "271178",
+  "node": [
+    {
+      "id": 271178,
+      "name": "あねいも2 H’s もっとHにステップUP！",
+      "nameCN": "",
+      "date": "2008-03-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 271179,
+      "name": "あねいも2 ～Second Stage～",
+      "nameCN": "",
+      "date": "2007-04-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 271180,
+      "name": "あねいも ～ミニファンディスク～",
+      "nameCN": "",
+      "date": "2007-04-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 331110,
+      "name": "あねいも～アイとHのステップアップ～",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 271178,
+      "dst": 271179
+    },
+    {
+      "relateString": "主线故事",
+      "src": 271178,
+      "dst": 271180
+    },
+    {
+      "relateString": "前传",
+      "src": 271179,
+      "dst": 331110
+    },
+    {
+      "relateString": "前传",
+      "src": 271180,
+      "dst": 331110
+    },
+    {
+      "relateString": "续集",
+      "src": 331110,
+      "dst": 271179
+    },
+    {
+      "relateString": "续集",
+      "src": 331110,
+      "dst": 271180
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 125027,
- "node": [
-  {
-   "id": 125027,
-   "name": "恋はいつも嵐のように",
-   "nameCN": "男校风雨情",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/cd/125027_Tu2c1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 252500,
-   "name": "恋はいつも嵐のように+",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/43/252500_MoTai.jpg",
-   "date": "2005-10-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125027,
-   "dst": 252500
-  },
-  {
-   "relate": "前传",
-   "src": 252500,
-   "dst": 125027
-  }
- ]
+  "id": "125027",
+  "node": [
+    {
+      "id": 125027,
+      "name": "恋はいつも嵐のように",
+      "nameCN": "男校风雨情",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 252500,
+      "name": "恋はいつも嵐のように+",
+      "nameCN": "",
+      "date": "2005-10-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125027,
+      "dst": 252500
+    },
+    {
+      "relateString": "前传",
+      "src": 252500,
+      "dst": 125027
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 86804,
- "node": [
-  {
-   "id": 86804,
-   "name": "ストレンジ・プラス",
-   "nameCN": "STRANGE+",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/73/86804_We1Cc.jpg",
-   "date": "2014-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 100986,
-   "name": "真 ストレンジ・プラス",
-   "nameCN": "STRANGE+ 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/6e/100986_N2A8a.jpg",
-   "date": "2014-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86804,
-   "dst": 100986
-  },
-  {
-   "relate": "前传",
-   "src": 100986,
-   "dst": 86804
-  }
- ]
+  "id": "86804",
+  "node": [
+    {
+      "id": 86804,
+      "name": "ストレンジ・プラス",
+      "nameCN": "STRANGE+",
+      "date": "2014-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 100986,
+      "name": "真 ストレンジ・プラス",
+      "nameCN": "STRANGE+ 第二季",
+      "date": "2014-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86804,
+      "dst": 100986
+    },
+    {
+      "relateString": "前传",
+      "src": 100986,
+      "dst": 86804
+    }
+  ]
 }

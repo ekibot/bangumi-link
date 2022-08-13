@@ -1,37 +1,35 @@
 {
- "id": 142201,
- "node": [
-  {
-   "id": 142201,
-   "name": "Yu-Gi-Oh! Legacy of the Duelist",
-   "nameCN": "游戏王：决斗者遗产",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/51/142201_KNysw.jpg",
-   "date": "2015-07-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 299064,
-   "name": "遊戯王デュエルモンスターズ レガシー・オブ・ザ・デュエリスト：リンク・エボリューション",
-   "nameCN": "游戏王 决斗者遗产-链接进化",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/df/299064_0028R.jpg",
-   "date": "2019-04-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142201,
-   "dst": 299064
-  },
-  {
-   "relate": "前传",
-   "src": 299064,
-   "dst": 142201
-  }
- ]
+  "id": "142201",
+  "node": [
+    {
+      "id": 142201,
+      "name": "Yu-Gi-Oh! Legacy of the Duelist",
+      "nameCN": "游戏王：决斗者遗产",
+      "date": "2015-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 299064,
+      "name": "遊戯王デュエルモンスターズ レガシー・オブ・ザ・デュエリスト：リンク・エボリューション",
+      "nameCN": "游戏王 决斗者遗产-链接进化",
+      "date": "2019-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142201,
+      "dst": 299064
+    },
+    {
+      "relateString": "前传",
+      "src": 299064,
+      "dst": 142201
+    }
+  ]
 }

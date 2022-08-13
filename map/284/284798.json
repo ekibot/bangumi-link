@@ -1,37 +1,35 @@
 {
- "id": 284798,
- "node": [
-  {
-   "id": 284798,
-   "name": "リベンジャーズ・ハイ",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/59/284798_616Dy.jpg",
-   "date": "2019-06-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 337917,
-   "name": "楽園殺し: 鏡のなかの少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/d2/337917_m6nte.jpg",
-   "date": "2021-06-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 284798,
-   "dst": 337917
-  },
-  {
-   "relate": "前传",
-   "src": 337917,
-   "dst": 284798
-  }
- ]
+  "id": "284798",
+  "node": [
+    {
+      "id": 284798,
+      "name": "リベンジャーズ・ハイ",
+      "nameCN": "",
+      "date": "2019-06-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 337917,
+      "name": "楽園殺し: 鏡のなかの少女",
+      "nameCN": "",
+      "date": "2021-06-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 284798,
+      "dst": 337917
+    },
+    {
+      "relateString": "前传",
+      "src": 337917,
+      "dst": 284798
+    }
+  ]
 }

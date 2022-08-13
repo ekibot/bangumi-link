@@ -1,37 +1,35 @@
 {
- "id": 309572,
- "node": [
-  {
-   "id": 309572,
-   "name": "Premium",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/23/309572_k4ooE.jpg",
-   "date": "1992-09-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309573,
-   "name": "Premium2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/92/309573_U1UL3.jpg",
-   "date": "1993-01-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 309572,
-   "dst": 309573
-  },
-  {
-   "relate": "前传",
-   "src": 309573,
-   "dst": 309572
-  }
- ]
+  "id": "309572",
+  "node": [
+    {
+      "id": 309572,
+      "name": "Premium",
+      "nameCN": "",
+      "date": "1992-09-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309573,
+      "name": "Premium2",
+      "nameCN": "",
+      "date": "1993-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 309572,
+      "dst": 309573
+    },
+    {
+      "relateString": "前传",
+      "src": 309573,
+      "dst": 309572
+    }
+  ]
 }

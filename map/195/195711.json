@@ -1,57 +1,54 @@
 {
- "id": 195711,
- "node": [
-  {
-   "id": 195711,
-   "name": "和女儿的日常",
-   "nameCN": "和女儿的日常",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/0e/195711_719D3.jpg",
-   "date": "2016-10-20",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 211228,
-   "name": "和女儿的日常 第二季",
-   "nameCN": "和女儿的日常 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/9d/211228_Ccqu8.jpg",
-   "date": "2017-03-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 356529,
-   "name": "和女儿的日常 第三季",
-   "nameCN": "和女儿的日常 第三季",
-   "date": "2018-10-09",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195711,
-   "dst": 211228
-  },
-  {
-   "relate": "前传",
-   "src": 211228,
-   "dst": 195711
-  },
-  {
-   "relate": "续集",
-   "src": 211228,
-   "dst": 356529
-  },
-  {
-   "relate": "前传",
-   "src": 356529,
-   "dst": 211228
-  }
- ]
+  "id": "195711",
+  "node": [
+    {
+      "id": 195711,
+      "name": "和女儿的日常",
+      "nameCN": "和女儿的日常",
+      "date": "2016-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 211228,
+      "name": "和女儿的日常 第二季",
+      "nameCN": "和女儿的日常 第二季",
+      "date": "2017-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 356529,
+      "name": "和女儿的日常 第三季",
+      "nameCN": "和女儿的日常 第三季",
+      "date": "2018-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195711,
+      "dst": 211228
+    },
+    {
+      "relateString": "前传",
+      "src": 211228,
+      "dst": 195711
+    },
+    {
+      "relateString": "续集",
+      "src": 211228,
+      "dst": 356529
+    },
+    {
+      "relateString": "前传",
+      "src": 356529,
+      "dst": 211228
+    }
+  ]
 }

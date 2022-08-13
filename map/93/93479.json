@@ -1,37 +1,35 @@
 {
- "id": 93479,
- "node": [
-  {
-   "id": 93479,
-   "name": "こびとづかん こびと観察セット",
-   "nameCN": "农场精灵 精灵观察SET",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/7c/93479_6VNkN.jpg",
-   "date": "2012-07-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 93482,
-   "name": "こびとづかん こびとの不思議 実験セット",
-   "nameCN": "农场精灵 精灵之不思议 实验套装",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/a3/93482_RWqUJ.jpg",
-   "date": "2013-12-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93479,
-   "dst": 93482
-  },
-  {
-   "relate": "前传",
-   "src": 93482,
-   "dst": 93479
-  }
- ]
+  "id": "93479",
+  "node": [
+    {
+      "id": 93479,
+      "name": "こびとづかん こびと観察セット",
+      "nameCN": "农场精灵 精灵观察SET",
+      "date": "2012-07-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 93482,
+      "name": "こびとづかん こびとの不思議 実験セット",
+      "nameCN": "农场精灵 精灵之不思议 实验套装",
+      "date": "2013-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93479,
+      "dst": 93482
+    },
+    {
+      "relateString": "前传",
+      "src": 93482,
+      "dst": 93479
+    }
+  ]
 }

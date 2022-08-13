@@ -1,37 +1,34 @@
 {
- "id": 240386,
- "node": [
-  {
-   "id": 240386,
-   "name": "ヴィンランド・サガ",
-   "nameCN": "海盗战记",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/8f/240386_6Q62q.jpg",
-   "date": "2019-07-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 296739,
-   "name": "ヴィンランド・サガ SEASON2",
-   "nameCN": "海盗战记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/16/296739_71dLe.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240386,
-   "dst": 296739
-  },
-  {
-   "relate": "前传",
-   "src": 296739,
-   "dst": 240386
-  }
- ]
+  "id": "240386",
+  "node": [
+    {
+      "id": 240386,
+      "name": "ヴィンランド・サガ",
+      "nameCN": "海盗战记",
+      "date": "2019-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 296739,
+      "name": "ヴィンランド・サガ SEASON2",
+      "nameCN": "海盗战记 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240386,
+      "dst": 296739
+    },
+    {
+      "relateString": "前传",
+      "src": 296739,
+      "dst": 240386
+    }
+  ]
 }

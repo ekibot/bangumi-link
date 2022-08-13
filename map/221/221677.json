@@ -1,37 +1,35 @@
 {
- "id": 221677,
- "node": [
-  {
-   "id": 221677,
-   "name": "シークレット×××",
-   "nameCN": "秘密×××",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/f8/221677_LLxqL.jpg",
-   "date": "2017-10-02",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 237696,
-   "name": "セラピーゲーム",
-   "nameCN": "疗伤游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/13/237696_DeSr4.jpg",
-   "type": 1,
-   "date": "2018-12-01",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 221677,
-   "dst": 237696
-  },
-  {
-   "relate": "相同世界观",
-   "src": 237696,
-   "dst": 221677
-  }
- ]
+  "id": "221677",
+  "node": [
+    {
+      "id": 221677,
+      "name": "シークレット×××",
+      "nameCN": "秘密×××",
+      "date": "2017-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 237696,
+      "name": "セラピーゲーム",
+      "nameCN": "疗伤游戏",
+      "date": "2018-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 221677,
+      "dst": 237696
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 237696,
+      "dst": 221677
+    }
+  ]
 }

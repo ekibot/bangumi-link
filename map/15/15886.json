@@ -1,37 +1,34 @@
 {
- "id": 15886,
- "node": [
-  {
-   "id": 15886,
-   "name": "さかあがりハリケーン",
-   "nameCN": "坂上台风",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/9e/15886_Wwb7U.jpg",
-   "date": "2008-11-28",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 153803,
-   "name": "さかあがりハリケーンPortable",
-   "nameCN": "上坡台风 携带版",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/fe/153803_a1a41.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 15886,
-   "dst": 153803
-  },
-  {
-   "relate": "不同演绎",
-   "src": 153803,
-   "dst": 15886
-  }
- ]
+  "id": "15886",
+  "node": [
+    {
+      "id": 15886,
+      "name": "さかあがりハリケーン",
+      "nameCN": "坂上台风",
+      "date": "2008-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 153803,
+      "name": "さかあがりハリケーンPortable",
+      "nameCN": "上坡台风 携带版",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 15886,
+      "dst": 153803
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 153803,
+      "dst": 15886
+    }
+  ]
 }

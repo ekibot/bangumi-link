@@ -1,37 +1,35 @@
 {
- "id": 60711,
- "node": [
-  {
-   "id": 60711,
-   "name": "よろこびは腕の中",
-   "nameCN": "被拥抱的喜悦",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/ef/60711_jp.jpg",
-   "date": "2012-08-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 69128,
-   "name": "よろこびは膝の上",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/c1/69128_jp.jpg",
-   "date": "2010-11-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 60711,
-   "dst": 69128
-  },
-  {
-   "relate": "番外篇",
-   "src": 69128,
-   "dst": 60711
-  }
- ]
+  "id": "60711",
+  "node": [
+    {
+      "id": 60711,
+      "name": "よろこびは腕の中",
+      "nameCN": "被拥抱的喜悦",
+      "date": "2012-08-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 69128,
+      "name": "よろこびは膝の上",
+      "nameCN": "",
+      "date": "2010-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 60711,
+      "dst": 69128
+    },
+    {
+      "relateString": "番外篇",
+      "src": 69128,
+      "dst": 60711
+    }
+  ]
 }

@@ -1,92 +1,88 @@
 {
- "id": 443,
- "node": [
-  {
-   "id": 443,
-   "name": "のだめカンタービレ",
-   "nameCN": "交响情人梦",
-   "image": "https://lain.bgm.tv/pic/cover/m/13/f3/443_nZWcE.jpg",
-   "date": "2007-01-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 1966,
-   "name": "のだめカンタービレ 巴里編",
-   "nameCN": "交响情人梦 巴黎篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/83/1966_gSCg8.jpg",
-   "date": "2008-10-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 3478,
-   "name": "のだめカンタービレ フィナーレ",
-   "nameCN": "交响情人梦Finale",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/71/3478_RqqZr.jpg",
-   "date": "2010-01-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 10162,
-   "name": "のだめカンタービレ OAD",
-   "nameCN": "交响情人梦 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/aa/10162_xPpa8.jpg",
-   "date": "2009-08-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 443,
-   "dst": 1966
-  },
-  {
-   "relate": "番外篇",
-   "src": 443,
-   "dst": 10162
-  },
-  {
-   "relate": "前传",
-   "src": 1966,
-   "dst": 443
-  },
-  {
-   "relate": "续集",
-   "src": 1966,
-   "dst": 3478
-  },
-  {
-   "relate": "衍生",
-   "src": 1966,
-   "dst": 10162
-  },
-  {
-   "relate": "前传",
-   "src": 3478,
-   "dst": 1966
-  },
-  {
-   "relate": "番外篇",
-   "src": 3478,
-   "dst": 10162
-  },
-  {
-   "relate": "主线故事",
-   "src": 10162,
-   "dst": 1966
-  },
-  {
-   "relate": "主线故事",
-   "src": 10162,
-   "dst": 3478
-  }
- ]
+  "id": "443",
+  "node": [
+    {
+      "id": 443,
+      "name": "のだめカンタービレ",
+      "nameCN": "交响情人梦",
+      "date": "2007-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 1966,
+      "name": "のだめカンタービレ 巴里編",
+      "nameCN": "交响情人梦 巴黎篇",
+      "date": "2008-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 10162,
+      "name": "のだめカンタービレ OAD",
+      "nameCN": "交响情人梦 OAD",
+      "date": "2009-08-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 3478,
+      "name": "のだめカンタービレ フィナーレ",
+      "nameCN": "交响情人梦Finale",
+      "date": "2010-01-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 443,
+      "dst": 1966
+    },
+    {
+      "relateString": "番外篇",
+      "src": 443,
+      "dst": 10162
+    },
+    {
+      "relateString": "前传",
+      "src": 1966,
+      "dst": 443
+    },
+    {
+      "relateString": "续集",
+      "src": 1966,
+      "dst": 3478
+    },
+    {
+      "relateString": "衍生",
+      "src": 1966,
+      "dst": 10162
+    },
+    {
+      "relateString": "前传",
+      "src": 3478,
+      "dst": 1966
+    },
+    {
+      "relateString": "番外篇",
+      "src": 3478,
+      "dst": 10162
+    },
+    {
+      "relateString": "主线故事",
+      "src": 10162,
+      "dst": 1966
+    },
+    {
+      "relateString": "主线故事",
+      "src": 10162,
+      "dst": 3478
+    }
+  ]
 }

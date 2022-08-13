@@ -1,37 +1,35 @@
 {
- "id": 62583,
- "node": [
-  {
-   "id": 62583,
-   "name": "Evoland",
-   "nameCN": "进化之地",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/f2/62583_7cvjk.jpg",
-   "date": "2013-04-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 145329,
-   "name": "Evoland 2",
-   "nameCN": "进化之地2",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/a9/145329_d7I2T.jpg",
-   "date": "2015-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 62583,
-   "dst": 145329
-  },
-  {
-   "relate": "前传",
-   "src": 145329,
-   "dst": 62583
-  }
- ]
+  "id": "62583",
+  "node": [
+    {
+      "id": 62583,
+      "name": "Evoland",
+      "nameCN": "进化之地",
+      "date": "2013-04-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 145329,
+      "name": "Evoland 2",
+      "nameCN": "进化之地2",
+      "date": "2015-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 62583,
+      "dst": 145329
+    },
+    {
+      "relateString": "前传",
+      "src": 145329,
+      "dst": 62583
+    }
+  ]
 }

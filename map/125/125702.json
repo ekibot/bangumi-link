@@ -1,57 +1,54 @@
 {
- "id": 125702,
- "node": [
-  {
-   "id": 125702,
-   "name": "使徒行者",
-   "nameCN": "使徒行者",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/47/125702_bGkv0.jpg",
-   "date": "2014-08-25",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 226235,
-   "name": "使徒行者2",
-   "nameCN": "使徒行者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/ed/226235_xfhaV.jpg",
-   "date": "2017-09-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 317324,
-   "name": "使徒行者3",
-   "nameCN": "使徒行者3",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/3c/317324_A820F.jpg",
-   "date": "2020-10-12",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 125702,
-   "dst": 226235
-  },
-  {
-   "relate": "前传",
-   "src": 226235,
-   "dst": 125702
-  },
-  {
-   "relate": "续集",
-   "src": 226235,
-   "dst": 317324
-  },
-  {
-   "relate": "前传",
-   "src": 317324,
-   "dst": 226235
-  }
- ]
+  "id": "125702",
+  "node": [
+    {
+      "id": 125702,
+      "name": "使徒行者",
+      "nameCN": "使徒行者",
+      "date": "2014-08-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 226235,
+      "name": "使徒行者2",
+      "nameCN": "使徒行者2",
+      "date": "2017-09-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 317324,
+      "name": "使徒行者3",
+      "nameCN": "使徒行者3",
+      "date": "2020-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 125702,
+      "dst": 226235
+    },
+    {
+      "relateString": "前传",
+      "src": 226235,
+      "dst": 125702
+    },
+    {
+      "relateString": "续集",
+      "src": 226235,
+      "dst": 317324
+    },
+    {
+      "relateString": "前传",
+      "src": 317324,
+      "dst": 226235
+    }
+  ]
 }

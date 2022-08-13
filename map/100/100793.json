@@ -1,37 +1,35 @@
 {
- "id": 100793,
- "node": [
-  {
-   "id": 100793,
-   "name": "不純モザイク",
-   "nameCN": "不純馬賽克",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/d1/100793_jp.jpg",
-   "date": "2010-12-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 100794,
-   "name": "花は嵐を踏み越えて",
-   "nameCN": "跨越暴風雨的花",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/5e/100794_jp.jpg",
-   "date": "2012-09-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100793,
-   "dst": 100794
-  },
-  {
-   "relate": "前传",
-   "src": 100794,
-   "dst": 100793
-  }
- ]
+  "id": "100793",
+  "node": [
+    {
+      "id": 100793,
+      "name": "不純モザイク",
+      "nameCN": "不純馬賽克",
+      "date": "2010-12-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 100794,
+      "name": "花は嵐を踏み越えて",
+      "nameCN": "跨越暴風雨的花",
+      "date": "2012-09-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100793,
+      "dst": 100794
+    },
+    {
+      "relateString": "前传",
+      "src": 100794,
+      "dst": 100793
+    }
+  ]
 }

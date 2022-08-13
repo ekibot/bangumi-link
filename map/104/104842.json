@@ -1,37 +1,35 @@
 {
- "id": 104842,
- "node": [
-  {
-   "id": 104842,
-   "name": "Dominion Season 1",
-   "nameCN": "圣域",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/5f/104842_c4pVN.jpg",
-   "date": "2014-06-19",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 139688,
-   "name": "Dominion Season 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/d9/139688_7YDcK.jpg",
-   "date": "2015-07-09",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 104842,
-   "dst": 139688
-  },
-  {
-   "relate": "前传",
-   "src": 139688,
-   "dst": 104842
-  }
- ]
+  "id": "104842",
+  "node": [
+    {
+      "id": 104842,
+      "name": "Dominion Season 1",
+      "nameCN": "圣域",
+      "date": "2014-06-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 139688,
+      "name": "Dominion Season 2",
+      "nameCN": "",
+      "date": "2015-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 104842,
+      "dst": 139688
+    },
+    {
+      "relateString": "前传",
+      "src": 139688,
+      "dst": 104842
+    }
+  ]
 }

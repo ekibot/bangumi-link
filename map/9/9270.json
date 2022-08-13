@@ -1,97 +1,92 @@
 {
- "id": 9270,
- "node": [
-  {
-   "id": 9270,
-   "name": "ちびまる子ちゃん",
-   "nameCN": "樱桃小丸子",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/04/9270_h9lL9.jpg",
-   "date": "1995-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 28165,
-   "name": "ちびまる子ちゃん",
-   "nameCN": "樱桃小丸子",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/9b/28165_9rt6A.jpg",
-   "date": "1990-01-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 28166,
-   "name": "ちびまる子ちゃん",
-   "nameCN": "樱桃小丸子：友情岁月",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/b8/28166_g814H.jpg",
-   "date": "1990-12-15",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 28167,
-   "name": "ちびまる子ちゃん わたしの好きな歌",
-   "nameCN": "樱桃小丸子：我最喜欢的歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/db/28167_nSe66.jpg",
-   "date": "1992-12-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 139663,
-   "name": "ちびまる子ちゃん イタリアから来た少年",
-   "nameCN": "樱桃小丸子：来自意大利的少年",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/5f/139663_13JzM.jpg",
-   "date": "2015-12-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 9270,
-   "dst": 28165
-  },
-  {
-   "relate": "番外篇",
-   "src": 9270,
-   "dst": 139663
-  },
-  {
-   "relate": "续集",
-   "src": 28165,
-   "dst": 9270
-  },
-  {
-   "relate": "番外篇",
-   "src": 28165,
-   "dst": 28166
-  },
-  {
-   "relate": "番外篇",
-   "src": 28165,
-   "dst": 28167
-  },
-  {
-   "relate": "主线故事",
-   "src": 28166,
-   "dst": 28165
-  },
-  {
-   "relate": "主线故事",
-   "src": 28167,
-   "dst": 28165
-  },
-  {
-   "relate": "主线故事",
-   "src": 139663,
-   "dst": 9270
-  }
- ]
+  "id": "9270",
+  "node": [
+    {
+      "id": 9270,
+      "name": "ちびまる子ちゃん",
+      "nameCN": "樱桃小丸子",
+      "date": "1995-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 28165,
+      "name": "ちびまる子ちゃん",
+      "nameCN": "樱桃小丸子",
+      "date": "1990-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 139663,
+      "name": "ちびまる子ちゃん イタリアから来た少年",
+      "nameCN": "樱桃小丸子：来自意大利的少年",
+      "date": "2015-12-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 28166,
+      "name": "ちびまる子ちゃん",
+      "nameCN": "樱桃小丸子：友情岁月",
+      "date": "1990-12-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 28167,
+      "name": "ちびまる子ちゃん わたしの好きな歌",
+      "nameCN": "樱桃小丸子：我最喜欢的歌",
+      "date": "1992-12-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 9270,
+      "dst": 28165
+    },
+    {
+      "relateString": "番外篇",
+      "src": 9270,
+      "dst": 139663
+    },
+    {
+      "relateString": "续集",
+      "src": 28165,
+      "dst": 9270
+    },
+    {
+      "relateString": "番外篇",
+      "src": 28165,
+      "dst": 28166
+    },
+    {
+      "relateString": "番外篇",
+      "src": 28165,
+      "dst": 28167
+    },
+    {
+      "relateString": "主线故事",
+      "src": 28166,
+      "dst": 28165
+    },
+    {
+      "relateString": "主线故事",
+      "src": 28167,
+      "dst": 28165
+    },
+    {
+      "relateString": "主线故事",
+      "src": 139663,
+      "dst": 9270
+    }
+  ]
 }

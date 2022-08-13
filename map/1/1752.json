@@ -1,57 +1,54 @@
 {
- "id": 1752,
- "node": [
-  {
-   "id": 1752,
-   "name": "くるねこ",
-   "nameCN": "来来猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/c4/1752_pkJlR.jpg",
-   "date": "2009-07-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 6756,
-   "name": "くるねこ Season2",
-   "nameCN": "来来猫 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/1f/6756_o02oA.jpg",
-   "date": "2010-07-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 227059,
-   "name": "くるねこ タテアニメバージョン",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/bd/227059_4FZuJ.jpg",
-   "date": "2017-10-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1752,
-   "dst": 6756
-  },
-  {
-   "relate": "不同演绎",
-   "src": 1752,
-   "dst": 227059
-  },
-  {
-   "relate": "前传",
-   "src": 6756,
-   "dst": 1752
-  },
-  {
-   "relate": "不同演绎",
-   "src": 227059,
-   "dst": 1752
-  }
- ]
+  "id": "1752",
+  "node": [
+    {
+      "id": 1752,
+      "name": "くるねこ",
+      "nameCN": "来来猫",
+      "date": "2009-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 6756,
+      "name": "くるねこ Season2",
+      "nameCN": "来来猫 第二季",
+      "date": "2010-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 227059,
+      "name": "くるねこ タテアニメバージョン",
+      "nameCN": "",
+      "date": "2017-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1752,
+      "dst": 6756
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 1752,
+      "dst": 227059
+    },
+    {
+      "relateString": "前传",
+      "src": 6756,
+      "dst": 1752
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 227059,
+      "dst": 1752
+    }
+  ]
 }

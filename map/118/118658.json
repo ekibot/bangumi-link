@@ -1,37 +1,35 @@
 {
- "id": 118658,
- "node": [
-  {
-   "id": 118658,
-   "name": "サイコメトラーEIJI",
-   "nameCN": "感应少年",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/43/118658_jHsn0.jpg",
-   "date": "1997-01-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 118667,
-   "name": "サイコメトラーEIJI2",
-   "nameCN": "感应少年 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/98/118667_670K1.jpg",
-   "date": "1999-10-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 118658,
-   "dst": 118667
-  },
-  {
-   "relate": "前传",
-   "src": 118667,
-   "dst": 118658
-  }
- ]
+  "id": "118658",
+  "node": [
+    {
+      "id": 118658,
+      "name": "サイコメトラーEIJI",
+      "nameCN": "感应少年",
+      "date": "1997-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 118667,
+      "name": "サイコメトラーEIJI2",
+      "nameCN": "感应少年 2",
+      "date": "1999-10-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 118658,
+      "dst": 118667
+    },
+    {
+      "relateString": "前传",
+      "src": 118667,
+      "dst": 118658
+    }
+  ]
 }

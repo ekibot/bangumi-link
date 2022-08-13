@@ -1,37 +1,33 @@
 {
- "id": 300579,
- "node": [
-  {
-   "id": 300579,
-   "name": "小説アークザラッド3 ハンター・アレク誕生 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/04/300579_0F2i4.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 300589,
-   "name": "小説アークザラッド3 ハンター・アレク誕生 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/3d/300589_eQsEF.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 300579,
-   "dst": 300589
-  },
-  {
-   "relate": "前传",
-   "src": 300589,
-   "dst": 300579
-  }
- ]
+  "id": "300579",
+  "node": [
+    {
+      "id": 300579,
+      "name": "小説アークザラッド3 ハンター・アレク誕生 上",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 300589,
+      "name": "小説アークザラッド3 ハンター・アレク誕生 下",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 300579,
+      "dst": 300589
+    },
+    {
+      "relateString": "前传",
+      "src": 300589,
+      "dst": 300579
+    }
+  ]
 }

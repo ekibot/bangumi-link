@@ -1,37 +1,35 @@
 {
- "id": 93872,
- "node": [
-  {
-   "id": 93872,
-   "name": "スカルマン",
-   "nameCN": "骷髅人",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/5a/93872_ehhY9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 93880,
-   "name": "怪奇ロマネスク劇画 スカルマン THE SKULL MAN",
-   "nameCN": "怪奇罗马式剧画 骷髅人",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/b2/93880_2I64a.jpg",
-   "date": "1969-12-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 93872,
-   "dst": 93880
-  },
-  {
-   "relate": "续集",
-   "src": 93880,
-   "dst": 93872
-  }
- ]
+  "id": "93872",
+  "node": [
+    {
+      "id": 93872,
+      "name": "スカルマン",
+      "nameCN": "骷髅人",
+      "date": "1998-03-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93880,
+      "name": "怪奇ロマネスク劇画 スカルマン THE SKULL MAN",
+      "nameCN": "怪奇罗马式剧画 骷髅人",
+      "date": "1969-12-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 93872,
+      "dst": 93880
+    },
+    {
+      "relateString": "续集",
+      "src": 93880,
+      "dst": 93872
+    }
+  ]
 }

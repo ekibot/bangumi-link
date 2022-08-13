@@ -1,97 +1,91 @@
 {
- "id": 2398,
- "node": [
-  {
-   "id": 2398,
-   "name": "Heroes (Season 1)",
-   "nameCN": "英雄 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/50/2398_zz957.jpg",
-   "date": "2006-09-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 72396,
-   "name": "Heroes Season 2",
-   "nameCN": "英雄 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/10/72396_K6Dvw.jpg",
-   "date": "2007-09-24",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 72398,
-   "name": "Heroes Season 3",
-   "nameCN": "英雄 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/9c/72398_n6yrb.jpg",
-   "date": "2008-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 72399,
-   "name": "Heroes Season 4",
-   "nameCN": "英雄 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/07/72399_ZeK5s.jpg",
-   "date": "2009-09-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 97887,
-   "name": "Heroes Reborn",
-   "nameCN": "英雄 重生",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/24/97887_FNx91.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2398,
-   "dst": 72396
-  },
-  {
-   "relate": "前传",
-   "src": 72396,
-   "dst": 2398
-  },
-  {
-   "relate": "续集",
-   "src": 72396,
-   "dst": 72398
-  },
-  {
-   "relate": "前传",
-   "src": 72398,
-   "dst": 72396
-  },
-  {
-   "relate": "续集",
-   "src": 72398,
-   "dst": 72399
-  },
-  {
-   "relate": "前传",
-   "src": 72399,
-   "dst": 72398
-  },
-  {
-   "relate": "续集",
-   "src": 72399,
-   "dst": 97887
-  },
-  {
-   "relate": "前传",
-   "src": 97887,
-   "dst": 72399
-  }
- ]
+  "id": "2398",
+  "node": [
+    {
+      "id": 2398,
+      "name": "Heroes (Season 1)",
+      "nameCN": "英雄 第一季",
+      "date": "2006-09-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 72396,
+      "name": "Heroes Season 2",
+      "nameCN": "英雄 第二季",
+      "date": "2007-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 72398,
+      "name": "Heroes Season 3",
+      "nameCN": "英雄 第三季",
+      "date": "2008-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 72399,
+      "name": "Heroes Season 4",
+      "nameCN": "英雄 第四季",
+      "date": "2009-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97887,
+      "name": "Heroes Reborn",
+      "nameCN": "英雄 重生",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2398,
+      "dst": 72396
+    },
+    {
+      "relateString": "前传",
+      "src": 72396,
+      "dst": 2398
+    },
+    {
+      "relateString": "续集",
+      "src": 72396,
+      "dst": 72398
+    },
+    {
+      "relateString": "前传",
+      "src": 72398,
+      "dst": 72396
+    },
+    {
+      "relateString": "续集",
+      "src": 72398,
+      "dst": 72399
+    },
+    {
+      "relateString": "前传",
+      "src": 72399,
+      "dst": 72398
+    },
+    {
+      "relateString": "续集",
+      "src": 72399,
+      "dst": 97887
+    },
+    {
+      "relateString": "前传",
+      "src": 97887,
+      "dst": 72399
+    }
+  ]
 }

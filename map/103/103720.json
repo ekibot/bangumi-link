@@ -1,37 +1,35 @@
 {
- "id": 103720,
- "node": [
-  {
-   "id": 103720,
-   "name": "Helvetica Standard",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/dd/103720_jp.jpg",
-   "date": "2011-07-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118630,
-   "name": "Helvetica Standard 絵",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/78/118630_jp.jpg",
-   "date": "2014-11-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103720,
-   "dst": 118630
-  },
-  {
-   "relate": "前传",
-   "src": 118630,
-   "dst": 103720
-  }
- ]
+  "id": "103720",
+  "node": [
+    {
+      "id": 103720,
+      "name": "Helvetica Standard",
+      "nameCN": "",
+      "date": "2011-07-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118630,
+      "name": "Helvetica Standard 絵",
+      "nameCN": "",
+      "date": "2014-11-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103720,
+      "dst": 118630
+    },
+    {
+      "relateString": "前传",
+      "src": 118630,
+      "dst": 103720
+    }
+  ]
 }

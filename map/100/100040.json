@@ -1,37 +1,35 @@
 {
- "id": 100040,
- "node": [
-  {
-   "id": 100040,
-   "name": "天体のメソッド",
-   "nameCN": "天体的秩序",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/96/100040_cs2Gg.jpg",
-   "date": "2014-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 270081,
-   "name": "天体のメソッド もうひとつの願い",
-   "nameCN": "天体的秩序 另一个愿望",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/6d/270081_EC3SL.jpg",
-   "date": "2019-10-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100040,
-   "dst": 270081
-  },
-  {
-   "relate": "前传",
-   "src": 270081,
-   "dst": 100040
-  }
- ]
+  "id": "100040",
+  "node": [
+    {
+      "id": 100040,
+      "name": "天体のメソッド",
+      "nameCN": "天体的秩序",
+      "date": "2014-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 270081,
+      "name": "天体のメソッド もうひとつの願い",
+      "nameCN": "天体的秩序 另一个愿望",
+      "date": "2019-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100040,
+      "dst": 270081
+    },
+    {
+      "relateString": "前传",
+      "src": 270081,
+      "dst": 100040
+    }
+  ]
 }

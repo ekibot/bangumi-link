@@ -1,57 +1,53 @@
 {
- "id": 180945,
- "node": [
-  {
-   "id": 180945,
-   "name": "Versailles Season 1",
-   "nameCN": "凡尔赛 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/17/180945_0vv68.jpg",
-   "date": "2015-11-16",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 212354,
-   "name": "Versailles Season 2",
-   "nameCN": "凡尔赛 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/33/212354_4cFgl.jpg",
-   "date": "2017-03-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 217518,
-   "name": "Versailles Season 3",
-   "nameCN": "凡尔赛 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/ba/217518_749d4.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 180945,
-   "dst": 212354
-  },
-  {
-   "relate": "前传",
-   "src": 212354,
-   "dst": 180945
-  },
-  {
-   "relate": "续集",
-   "src": 212354,
-   "dst": 217518
-  },
-  {
-   "relate": "前传",
-   "src": 217518,
-   "dst": 212354
-  }
- ]
+  "id": "180945",
+  "node": [
+    {
+      "id": 180945,
+      "name": "Versailles Season 1",
+      "nameCN": "凡尔赛 第一季",
+      "date": "2015-11-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 212354,
+      "name": "Versailles Season 2",
+      "nameCN": "凡尔赛 第二季",
+      "date": "2017-03-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 217518,
+      "name": "Versailles Season 3",
+      "nameCN": "凡尔赛 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 180945,
+      "dst": 212354
+    },
+    {
+      "relateString": "前传",
+      "src": 212354,
+      "dst": 180945
+    },
+    {
+      "relateString": "续集",
+      "src": 212354,
+      "dst": 217518
+    },
+    {
+      "relateString": "前传",
+      "src": 217518,
+      "dst": 212354
+    }
+  ]
 }

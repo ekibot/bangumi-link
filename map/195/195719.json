@@ -1,57 +1,54 @@
 {
- "id": 195719,
- "node": [
-  {
-   "id": 195719,
-   "name": "ラハと理の魔法生 -the 2ndstory-",
-   "image": "https://lain.bgm.tv/pic/cover/m/ec/52/195719_0bBGY.jpg",
-   "date": "2016-08-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 195732,
-   "name": "ラハと魔法の園-the graystory-",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/4b/216105_oi3ze.jpg",
-   "date": "2016-04-02",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 216104,
-   "name": "ラハと百年魔法石〜the endstory〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/17/216104_Uj0u0.jpg",
-   "date": "2017-02-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 195719,
-   "dst": 195732
-  },
-  {
-   "relate": "续集",
-   "src": 195719,
-   "dst": 216104
-  },
-  {
-   "relate": "续集",
-   "src": 195732,
-   "dst": 195719
-  },
-  {
-   "relate": "前传",
-   "src": 216104,
-   "dst": 195719
-  }
- ]
+  "id": "195719",
+  "node": [
+    {
+      "id": 195719,
+      "name": "ラハと理の魔法生 -the 2ndstory-",
+      "nameCN": "",
+      "date": "2016-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 195732,
+      "name": "ラハと魔法の園-the graystory-",
+      "nameCN": "",
+      "date": "2016-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216104,
+      "name": "ラハと百年魔法石〜the endstory〜",
+      "nameCN": "",
+      "date": "2017-02-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 195719,
+      "dst": 195732
+    },
+    {
+      "relateString": "续集",
+      "src": 195719,
+      "dst": 216104
+    },
+    {
+      "relateString": "续集",
+      "src": 195732,
+      "dst": 195719
+    },
+    {
+      "relateString": "前传",
+      "src": 216104,
+      "dst": 195719
+    }
+  ]
 }

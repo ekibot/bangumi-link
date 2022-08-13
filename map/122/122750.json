@@ -1,37 +1,35 @@
 {
- "id": 122750,
- "node": [
-  {
-   "id": 122750,
-   "name": "アイアングランマ",
-   "nameCN": "钢铁大妈",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/d2/122750_sykN6.jpg",
-   "date": "2015-01-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 248599,
-   "name": "アイアングランマ２",
-   "nameCN": "钢铁大妈2",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/a6/248599_17JoE.jpg",
-   "date": "2018-06-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 122750,
-   "dst": 248599
-  },
-  {
-   "relate": "前传",
-   "src": 248599,
-   "dst": 122750
-  }
- ]
+  "id": "122750",
+  "node": [
+    {
+      "id": 122750,
+      "name": "アイアングランマ",
+      "nameCN": "钢铁大妈",
+      "date": "2015-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 248599,
+      "name": "アイアングランマ２",
+      "nameCN": "钢铁大妈2",
+      "date": "2018-06-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 122750,
+      "dst": 248599
+    },
+    {
+      "relateString": "前传",
+      "src": 248599,
+      "dst": 122750
+    }
+  ]
 }

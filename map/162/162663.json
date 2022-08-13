@@ -1,57 +1,54 @@
 {
- "id": 162663,
- "node": [
-  {
-   "id": 162663,
-   "name": "リルリルフェアリル～妖精のドア～",
-   "nameCN": "莉露莉露妖精莉露～妖精之门～",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/55/162663_MI7jC.jpg",
-   "date": "2016-02-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 208360,
-   "name": "リルリルフェアリル～魔法の鏡～",
-   "nameCN": "莉露莉露妖精莉露～魔法之镜～",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/63/208360_CP5Js.jpg",
-   "date": "2017-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 237762,
-   "name": "おしえて魔法のペンデュラム～リルリルフェアリル～",
-   "nameCN": "告诉我魔法之摆～莉露莉露妖精莉露～",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/f7/237762_ZXxnZ.jpg",
-   "date": "2018-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 162663,
-   "dst": 208360
-  },
-  {
-   "relate": "前传",
-   "src": 208360,
-   "dst": 162663
-  },
-  {
-   "relate": "续集",
-   "src": 208360,
-   "dst": 237762
-  },
-  {
-   "relate": "前传",
-   "src": 237762,
-   "dst": 208360
-  }
- ]
+  "id": "162663",
+  "node": [
+    {
+      "id": 162663,
+      "name": "リルリルフェアリル～妖精のドア～",
+      "nameCN": "莉露莉露妖精莉露～妖精之门～",
+      "date": "2016-02-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 208360,
+      "name": "リルリルフェアリル～魔法の鏡～",
+      "nameCN": "莉露莉露妖精莉露～魔法之镜～",
+      "date": "2017-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 237762,
+      "name": "おしえて魔法のペンデュラム～リルリルフェアリル～",
+      "nameCN": "告诉我魔法之摆～莉露莉露妖精莉露～",
+      "date": "2018-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 162663,
+      "dst": 208360
+    },
+    {
+      "relateString": "前传",
+      "src": 208360,
+      "dst": 162663
+    },
+    {
+      "relateString": "续集",
+      "src": 208360,
+      "dst": 237762
+    },
+    {
+      "relateString": "前传",
+      "src": 237762,
+      "dst": 208360
+    }
+  ]
 }

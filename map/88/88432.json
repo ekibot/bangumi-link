@@ -1,37 +1,35 @@
 {
- "id": 88432,
- "node": [
-  {
-   "id": 88432,
-   "name": "GUNDAM EXA",
-   "nameCN": "高达EXA",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/46/88432_IOojJ.jpg",
-   "date": "2011-05-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 138970,
-   "name": "GUNDAM EXA VS",
-   "nameCN": "高达EXA VS",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/4a/138970_2Q3n4.jpg",
-   "date": "2014-03-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88432,
-   "dst": 138970
-  },
-  {
-   "relate": "前传",
-   "src": 138970,
-   "dst": 88432
-  }
- ]
+  "id": "88432",
+  "node": [
+    {
+      "id": 88432,
+      "name": "GUNDAM EXA",
+      "nameCN": "高达EXA",
+      "date": "2011-05-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 138970,
+      "name": "GUNDAM EXA VS",
+      "nameCN": "高达EXA VS",
+      "date": "2014-03-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88432,
+      "dst": 138970
+    },
+    {
+      "relateString": "前传",
+      "src": 138970,
+      "dst": 88432
+    }
+  ]
 }

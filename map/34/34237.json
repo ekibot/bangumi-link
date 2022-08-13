@@ -1,57 +1,54 @@
 {
- "id": 34237,
- "node": [
-  {
-   "id": 34237,
-   "name": "Puss In Boots",
-   "nameCN": "穿靴子的猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/f0/34237_LLPdo.jpg",
-   "date": "2011-10-28",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 87936,
-   "name": "Puss in Boots: The Three Diablos",
-   "nameCN": "穿靴子的猫：萌猫三剑客",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/08/87936_xDqpb.jpg",
-   "date": "2012-02-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 387892,
-   "name": "Puss in Boots: The Last Wish",
-   "nameCN": "穿靴子的猫：最后的愿望",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/d4/387892_74Kou.jpg",
-   "date": "2022-12-21",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 34237,
-   "dst": 87936
-  },
-  {
-   "relate": "续集",
-   "src": 34237,
-   "dst": 387892
-  },
-  {
-   "relate": "主线故事",
-   "src": 87936,
-   "dst": 34237
-  },
-  {
-   "relate": "前传",
-   "src": 387892,
-   "dst": 34237
-  }
- ]
+  "id": "34237",
+  "node": [
+    {
+      "id": 34237,
+      "name": "Puss In Boots",
+      "nameCN": "穿靴子的猫",
+      "date": "2011-10-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 87936,
+      "name": "Puss in Boots: The Three Diablos",
+      "nameCN": "穿靴子的猫：萌猫三剑客",
+      "date": "2012-02-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 387892,
+      "name": "Puss in Boots: The Last Wish",
+      "nameCN": "穿靴子的猫：最后的愿望",
+      "date": "2022-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 34237,
+      "dst": 87936
+    },
+    {
+      "relateString": "续集",
+      "src": 34237,
+      "dst": 387892
+    },
+    {
+      "relateString": "主线故事",
+      "src": 87936,
+      "dst": 34237
+    },
+    {
+      "relateString": "前传",
+      "src": 387892,
+      "dst": 34237
+    }
+  ]
 }

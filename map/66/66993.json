@@ -1,37 +1,35 @@
 {
- "id": 66993,
- "node": [
-  {
-   "id": 66993,
-   "name": "Criminal Justice",
-   "nameCN": "司法正义",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/f2/66993_UrLeq.jpg",
-   "date": "2008-06-30",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 66994,
-   "name": "Criminal Justice (Season 2)",
-   "nameCN": "司法正义 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/a4/66994_4jT12.jpg",
-   "date": "2009-10-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66993,
-   "dst": 66994
-  },
-  {
-   "relate": "前传",
-   "src": 66994,
-   "dst": 66993
-  }
- ]
+  "id": "66993",
+  "node": [
+    {
+      "id": 66993,
+      "name": "Criminal Justice",
+      "nameCN": "司法正义",
+      "date": "2008-06-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 66994,
+      "name": "Criminal Justice (Season 2)",
+      "nameCN": "司法正义 第二季",
+      "date": "2009-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66993,
+      "dst": 66994
+    },
+    {
+      "relateString": "前传",
+      "src": 66994,
+      "dst": 66993
+    }
+  ]
 }

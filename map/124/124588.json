@@ -1,57 +1,54 @@
 {
- "id": 124588,
- "node": [
-  {
-   "id": 124588,
-   "name": "Brothers in Arms 3: Sons of War",
-   "nameCN": "兄弟连3：战争之子",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/e7/124588_88hq4.jpg",
-   "date": "2014-12-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 227125,
-   "name": "Brothers in Arms 2: Global Front",
-   "nameCN": "兄弟连2：全球战线",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/09/227125_TUTuU.jpg",
-   "date": "2010-02-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 264539,
-   "name": "Brothers in Arms: Hour of Heroes",
-   "nameCN": "兄弟连：英雄时刻",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/e1/264539_1l3AL.jpg",
-   "date": "2008-11-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 124588,
-   "dst": 227125
-  },
-  {
-   "relate": "续集",
-   "src": 227125,
-   "dst": 124588
-  },
-  {
-   "relate": "前传",
-   "src": 227125,
-   "dst": 264539
-  },
-  {
-   "relate": "续集",
-   "src": 264539,
-   "dst": 227125
-  }
- ]
+  "id": "124588",
+  "node": [
+    {
+      "id": 124588,
+      "name": "Brothers in Arms 3: Sons of War",
+      "nameCN": "兄弟连3：战争之子",
+      "date": "2014-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227125,
+      "name": "Brothers in Arms 2: Global Front",
+      "nameCN": "兄弟连2：全球战线",
+      "date": "2010-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 264539,
+      "name": "Brothers in Arms: Hour of Heroes",
+      "nameCN": "兄弟连：英雄时刻",
+      "date": "2008-11-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 124588,
+      "dst": 227125
+    },
+    {
+      "relateString": "续集",
+      "src": 227125,
+      "dst": 124588
+    },
+    {
+      "relateString": "前传",
+      "src": 227125,
+      "dst": 264539
+    },
+    {
+      "relateString": "续集",
+      "src": 264539,
+      "dst": 227125
+    }
+  ]
 }

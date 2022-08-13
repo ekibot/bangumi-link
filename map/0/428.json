@@ -1,97 +1,92 @@
 {
- "id": 428,
- "node": [
-  {
-   "id": 428,
-   "name": "サバイバルキッズ -LOST in BLUE-",
-   "nameCN": "生存之子 迷失蔚蓝",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/7d/428_ajp.jpg",
-   "date": "2005-08-25",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 59203,
-   "name": "サバイバルキッズ -LOST in BLUE 2-",
-   "nameCN": "生存之子 迷失蔚蓝2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/78/59203_6ocgr.jpg",
-   "date": "2007-03-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 223184,
-   "name": "サバイバルキッズ 孤島の冒険者",
-   "nameCN": "荒岛求生记 孤岛的冒险者",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/13/223184_5o8Ti.jpg",
-   "date": "1999-06-17",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259637,
-   "name": "サバイバルキッズ2 脱出!!双子島!",
-   "nameCN": "荒岛求生记2 脱出!!双子岛!",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/b4/259637_0GqQh.jpg",
-   "date": "2000-07-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259638,
-   "name": "サバイバルキッズ 小さな島の大きな秘密!?",
-   "nameCN": "生存之子 迷失蔚蓝3",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/46/259638_AtdvH.jpg",
-   "date": "2007-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 428,
-   "dst": 59203
-  },
-  {
-   "relate": "前传",
-   "src": 428,
-   "dst": 259637
-  },
-  {
-   "relate": "前传",
-   "src": 59203,
-   "dst": 428
-  },
-  {
-   "relate": "续集",
-   "src": 59203,
-   "dst": 259638
-  },
-  {
-   "relate": "续集",
-   "src": 223184,
-   "dst": 259637
-  },
-  {
-   "relate": "续集",
-   "src": 259637,
-   "dst": 428
-  },
-  {
-   "relate": "前传",
-   "src": 259637,
-   "dst": 223184
-  },
-  {
-   "relate": "前传",
-   "src": 259638,
-   "dst": 59203
-  }
- ]
+  "id": "428",
+  "node": [
+    {
+      "id": 428,
+      "name": "サバイバルキッズ -LOST in BLUE-",
+      "nameCN": "生存之子 迷失蔚蓝",
+      "date": "2005-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 59203,
+      "name": "サバイバルキッズ -LOST in BLUE 2-",
+      "nameCN": "生存之子 迷失蔚蓝2",
+      "date": "2007-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259637,
+      "name": "サバイバルキッズ2 脱出!!双子島!",
+      "nameCN": "荒岛求生记2 脱出!!双子岛!",
+      "date": "2000-07-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259638,
+      "name": "サバイバルキッズ 小さな島の大きな秘密!?",
+      "nameCN": "生存之子 迷失蔚蓝3",
+      "date": "2007-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223184,
+      "name": "サバイバルキッズ 孤島の冒険者",
+      "nameCN": "荒岛求生记 孤岛的冒险者",
+      "date": "1999-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 428,
+      "dst": 59203
+    },
+    {
+      "relateString": "前传",
+      "src": 428,
+      "dst": 259637
+    },
+    {
+      "relateString": "前传",
+      "src": 59203,
+      "dst": 428
+    },
+    {
+      "relateString": "续集",
+      "src": 59203,
+      "dst": 259638
+    },
+    {
+      "relateString": "续集",
+      "src": 223184,
+      "dst": 259637
+    },
+    {
+      "relateString": "续集",
+      "src": 259637,
+      "dst": 428
+    },
+    {
+      "relateString": "前传",
+      "src": 259637,
+      "dst": 223184
+    },
+    {
+      "relateString": "前传",
+      "src": 259638,
+      "dst": 59203
+    }
+  ]
 }

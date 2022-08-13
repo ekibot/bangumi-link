@@ -1,56 +1,54 @@
 {
- "id": 169372,
- "node": [
-  {
-   "id": 169372,
-   "name": "Magical Psalter ・ 御魔之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/5a/169372_w71Mm.jpg",
-   "date": "2012-08-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 169373,
-   "name": "Magical Psalter II · 逢魔之途",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/b1/169373_uAVZh.jpg",
-   "date": "2014-01-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 169374,
-   "name": "Magical Psalter EXTRA -",
-   "nameCN": "御魔之路&amp;逢魔之途外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/4a/169374_Zz0Nz.jpg",
-   "date": "2015-06-25",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169372,
-   "dst": 169373
-  },
-  {
-   "relate": "前传",
-   "src": 169373,
-   "dst": 169372
-  },
-  {
-   "relate": "主线故事",
-   "src": 169374,
-   "dst": 169372
-  },
-  {
-   "relate": "主线故事",
-   "src": 169374,
-   "dst": 169373
-  }
- ]
+  "id": "169372",
+  "node": [
+    {
+      "id": 169372,
+      "name": "Magical Psalter ・ 御魔之路",
+      "nameCN": "",
+      "date": "2012-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 169373,
+      "name": "Magical Psalter II · 逢魔之途",
+      "nameCN": "",
+      "date": "2014-01-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 169374,
+      "name": "Magical Psalter EXTRA -",
+      "nameCN": "御魔之路&amp;逢魔之途外传",
+      "date": "2015-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169372,
+      "dst": 169373
+    },
+    {
+      "relateString": "前传",
+      "src": 169373,
+      "dst": 169372
+    },
+    {
+      "relateString": "主线故事",
+      "src": 169374,
+      "dst": 169372
+    },
+    {
+      "relateString": "主线故事",
+      "src": 169374,
+      "dst": 169373
+    }
+  ]
 }

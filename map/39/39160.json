@@ -1,77 +1,73 @@
 {
- "id": 39160,
- "node": [
-  {
-   "id": 39160,
-   "name": "Wallander (Season 1)",
-   "nameCN": "维兰德 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/6b/39160_3lUPk.jpg",
-   "date": "2008-11-30",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 86395,
-   "name": "Wallander (Season 2)",
-   "nameCN": "维兰德 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/88/86395_tJo4o.jpg",
-   "date": "2010-01-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86396,
-   "name": "Wallander (Season 3)",
-   "nameCN": "维兰德 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/a7/86396_2PZzb.jpg",
-   "date": "2012-07-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86397,
-   "name": "Wallander (Season 4)",
-   "nameCN": "维兰德 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/4a/86397_cie3C.jpg",
-   "date": "2015-12-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 39160,
-   "dst": 86395
-  },
-  {
-   "relate": "前传",
-   "src": 86395,
-   "dst": 39160
-  },
-  {
-   "relate": "续集",
-   "src": 86395,
-   "dst": 86396
-  },
-  {
-   "relate": "前传",
-   "src": 86396,
-   "dst": 86395
-  },
-  {
-   "relate": "续集",
-   "src": 86396,
-   "dst": 86397
-  },
-  {
-   "relate": "前传",
-   "src": 86397,
-   "dst": 86396
-  }
- ]
+  "id": "39160",
+  "node": [
+    {
+      "id": 39160,
+      "name": "Wallander (Season 1)",
+      "nameCN": "维兰德 第一季",
+      "date": "2008-11-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86395,
+      "name": "Wallander (Season 2)",
+      "nameCN": "维兰德 第二季",
+      "date": "2010-01-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86396,
+      "name": "Wallander (Season 3)",
+      "nameCN": "维兰德 第三季",
+      "date": "2012-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86397,
+      "name": "Wallander (Season 4)",
+      "nameCN": "维兰德 第四季",
+      "date": "2015-12-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 39160,
+      "dst": 86395
+    },
+    {
+      "relateString": "前传",
+      "src": 86395,
+      "dst": 39160
+    },
+    {
+      "relateString": "续集",
+      "src": 86395,
+      "dst": 86396
+    },
+    {
+      "relateString": "前传",
+      "src": 86396,
+      "dst": 86395
+    },
+    {
+      "relateString": "续集",
+      "src": 86396,
+      "dst": 86397
+    },
+    {
+      "relateString": "前传",
+      "src": 86397,
+      "dst": 86396
+    }
+  ]
 }

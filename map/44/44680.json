@@ -1,37 +1,35 @@
 {
- "id": 44680,
- "node": [
-  {
-   "id": 44680,
-   "name": "メダロット",
-   "nameCN": "徽章战士",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/0c/44680_MLJNI.jpg",
-   "date": "1999-07-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 97149,
-   "name": "メダロット魂",
-   "nameCN": "徽章战士魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/40/97149_3EQE5.jpg",
-   "date": "2000-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 44680,
-   "dst": 97149
-  },
-  {
-   "relate": "前传",
-   "src": 97149,
-   "dst": 44680
-  }
- ]
+  "id": "44680",
+  "node": [
+    {
+      "id": 44680,
+      "name": "メダロット",
+      "nameCN": "徽章战士",
+      "date": "1999-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 97149,
+      "name": "メダロット魂",
+      "nameCN": "徽章战士魂",
+      "date": "2000-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 44680,
+      "dst": 97149
+    },
+    {
+      "relateString": "前传",
+      "src": 97149,
+      "dst": 44680
+    }
+  ]
 }

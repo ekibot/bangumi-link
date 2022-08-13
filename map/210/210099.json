@@ -1,37 +1,35 @@
 {
- "id": 210099,
- "node": [
-  {
-   "id": 210099,
-   "name": "百合百景",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/db/210099_r2dR2.jpg",
-   "date": "2017-03-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 241034,
-   "name": "百合ごよみ 百合百景 2",
-   "nameCN": "百合日历 百合百景 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/2a/241034_9mLqh.jpg",
-   "date": "2018-03-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 210099,
-   "dst": 241034
-  },
-  {
-   "relate": "前传",
-   "src": 241034,
-   "dst": 210099
-  }
- ]
+  "id": "210099",
+  "node": [
+    {
+      "id": 210099,
+      "name": "百合百景",
+      "nameCN": "",
+      "date": "2017-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 241034,
+      "name": "百合ごよみ 百合百景 2",
+      "nameCN": "百合日历 百合百景 2",
+      "date": "2018-03-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 210099,
+      "dst": 241034
+    },
+    {
+      "relateString": "前传",
+      "src": 241034,
+      "dst": 210099
+    }
+  ]
 }

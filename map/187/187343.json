@@ -1,0 +1,54 @@
+{
+  "id": "187343",
+  "node": [
+    {
+      "id": 187343,
+      "name": "마야고",
+      "nameCN": "摩耶姑-女神的束缚",
+      "date": "2015-08-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 333723,
+      "name": "빙의",
+      "nameCN": "附身",
+      "date": "2014-08-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 333724,
+      "name": "데모니악",
+      "nameCN": "着魔",
+      "date": "2017-02-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 187343,
+      "dst": 333723
+    },
+    {
+      "relateString": "续集",
+      "src": 187343,
+      "dst": 333724
+    },
+    {
+      "relateString": "续集",
+      "src": 333723,
+      "dst": 187343
+    },
+    {
+      "relateString": "前传",
+      "src": 333724,
+      "dst": 187343
+    }
+  ]
+}

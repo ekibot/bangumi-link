@@ -1,29 +1,35 @@
 {
- "id": 229771,
- "node": [
-  {
-   "id": 229771,
-   "name": "みにょっ! －巫女－",
-   "image": "/img/no_icon_subject.png",
-   "date": "2003-11-07"
-  },
-  {
-   "id": 229773,
-   "name": "みにょっ！2～今度は社務所～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2005-03-18"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229771,
-   "dst": 229773
-  },
-  {
-   "relate": "前传",
-   "src": 229773,
-   "dst": 229771
-  }
- ]
+  "id": "229771",
+  "node": [
+    {
+      "id": 229771,
+      "name": "みにょっ! －巫女－",
+      "nameCN": "",
+      "date": "2003-11-07",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 229773,
+      "name": "みにょっ！2～今度は社務所～",
+      "nameCN": "",
+      "date": "2005-03-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229771,
+      "dst": 229773
+    },
+    {
+      "relateString": "前传",
+      "src": 229773,
+      "dst": 229771
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 112162,
- "node": [
-  {
-   "id": 112162,
-   "name": "SWEET SKETCH",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/96/112162_jp.jpg",
-   "date": "2009-11-10",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189875,
-   "name": "SWEET SKETCH SECOND",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/5e/189875_jp.jpg",
-   "date": "2009-12-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 112162,
-   "dst": 189875
-  },
-  {
-   "relate": "前传",
-   "src": 189875,
-   "dst": 112162
-  }
- ]
+  "id": "112162",
+  "node": [
+    {
+      "id": 112162,
+      "name": "SWEET SKETCH",
+      "nameCN": "",
+      "date": "2009-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189875,
+      "name": "SWEET SKETCH SECOND",
+      "nameCN": "",
+      "date": "2009-12-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 112162,
+      "dst": 189875
+    },
+    {
+      "relateString": "前传",
+      "src": 189875,
+      "dst": 112162
+    }
+  ]
 }

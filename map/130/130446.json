@@ -1,57 +1,54 @@
 {
- "id": 130446,
- "node": [
-  {
-   "id": 130446,
-   "name": "Kingsman: The Secret Service",
-   "nameCN": "王牌特工：特工学院",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/4a/130446_PAw7E.jpg",
-   "date": "2014-12-13",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 226271,
-   "name": "Kingsman: The Golden Circle",
-   "nameCN": "王牌特工2：黄金圈",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/bb/226271_16hoF.jpg",
-   "date": "2017-09-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 369750,
-   "name": "The King's Man",
-   "nameCN": "王牌特工：源起",
-   "image": "https://lain.bgm.tv/pic/cover/m/6a/d6/369750_qFX0W.jpg",
-   "date": "2021-12-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 130446,
-   "dst": 226271
-  },
-  {
-   "relate": "前传",
-   "src": 226271,
-   "dst": 130446
-  },
-  {
-   "relate": "续集",
-   "src": 226271,
-   "dst": 369750
-  },
-  {
-   "relate": "前传",
-   "src": 369750,
-   "dst": 226271
-  }
- ]
+  "id": "130446",
+  "node": [
+    {
+      "id": 130446,
+      "name": "Kingsman: The Secret Service",
+      "nameCN": "王牌特工：特工学院",
+      "date": "2014-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 226271,
+      "name": "Kingsman: The Golden Circle",
+      "nameCN": "王牌特工2：黄金圈",
+      "date": "2017-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 369750,
+      "name": "The King's Man",
+      "nameCN": "王牌特工：源起",
+      "date": "2021-12-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 130446,
+      "dst": 226271
+    },
+    {
+      "relateString": "前传",
+      "src": 226271,
+      "dst": 130446
+    },
+    {
+      "relateString": "续集",
+      "src": 226271,
+      "dst": 369750
+    },
+    {
+      "relateString": "前传",
+      "src": 369750,
+      "dst": 226271
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 272706,
- "node": [
-  {
-   "id": 272706,
-   "name": "つごもりの通り道 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/01/272706_Z60bK.jpg",
-   "date": "2018-07-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 272709,
-   "name": "つごもりの通り道　下",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/a8/272709_ztezC.jpg",
-   "date": "2018-07-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272706,
-   "dst": 272709
-  },
-  {
-   "relate": "前传",
-   "src": 272709,
-   "dst": 272706
-  }
- ]
+  "id": "272706",
+  "node": [
+    {
+      "id": 272706,
+      "name": "つごもりの通り道 上",
+      "nameCN": "",
+      "date": "2018-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 272709,
+      "name": "つごもりの通り道　下",
+      "nameCN": "",
+      "date": "2018-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272706,
+      "dst": 272709
+    },
+    {
+      "relateString": "前传",
+      "src": 272709,
+      "dst": 272706
+    }
+  ]
 }

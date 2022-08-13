@@ -1,57 +1,54 @@
 {
- "id": 300021,
- "node": [
-  {
-   "id": 300021,
-   "name": "MudRunner",
-   "nameCN": "旋转轮胎：泥泞奔驰",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/d8/300021_tC4Ii.jpg",
-   "date": "2017-10-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 305723,
-   "name": "SnowRunner",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/98/305723_EH0P8.jpg",
-   "date": "2020-04-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 324397,
-   "name": "Spintires",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/af/324397_186wq.jpg",
-   "date": "2014-06-13",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 300021,
-   "dst": 305723
-  },
-  {
-   "relate": "前传",
-   "src": 300021,
-   "dst": 324397
-  },
-  {
-   "relate": "前传",
-   "src": 305723,
-   "dst": 300021
-  },
-  {
-   "relate": "续集",
-   "src": 324397,
-   "dst": 300021
-  }
- ]
+  "id": "300021",
+  "node": [
+    {
+      "id": 300021,
+      "name": "MudRunner",
+      "nameCN": "旋转轮胎：泥泞奔驰",
+      "date": "2017-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 305723,
+      "name": "SnowRunner",
+      "nameCN": "",
+      "date": "2020-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 324397,
+      "name": "Spintires",
+      "nameCN": "",
+      "date": "2014-06-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 300021,
+      "dst": 305723
+    },
+    {
+      "relateString": "前传",
+      "src": 300021,
+      "dst": 324397
+    },
+    {
+      "relateString": "前传",
+      "src": 305723,
+      "dst": 300021
+    },
+    {
+      "relateString": "续集",
+      "src": 324397,
+      "dst": 300021
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 147068,
- "node": [
-  {
-   "id": 147068,
-   "name": "3月のライオン",
-   "nameCN": "3月的狮子",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/86/147068_60GJJ.jpg",
-   "date": "2016-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 211567,
-   "name": "3月のライオン 第2シリーズ",
-   "nameCN": "3月的狮子 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/49/211567_pGm5Q.jpg",
-   "date": "2017-10-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147068,
-   "dst": 211567
-  },
-  {
-   "relate": "前传",
-   "src": 211567,
-   "dst": 147068
-  }
- ]
+  "id": "147068",
+  "node": [
+    {
+      "id": 147068,
+      "name": "3月のライオン",
+      "nameCN": "3月的狮子",
+      "date": "2016-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 211567,
+      "name": "3月のライオン 第2シリーズ",
+      "nameCN": "3月的狮子 第二季",
+      "date": "2017-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147068,
+      "dst": 211567
+    },
+    {
+      "relateString": "前传",
+      "src": 211567,
+      "dst": 147068
+    }
+  ]
 }

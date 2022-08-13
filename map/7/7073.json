@@ -1,37 +1,35 @@
 {
- "id": 7073,
- "node": [
-  {
-   "id": 7073,
-   "name": "鳳于九天 一",
-   "nameCN": "凤于九天 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/21/7073_5Qbw5.jpg",
-   "date": "2010-06-22",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118064,
-   "name": "鳳于九天 二",
-   "nameCN": "凤于九天 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/98/118064_80Qiw.jpg",
-   "date": "2014-02-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7073,
-   "dst": 118064
-  },
-  {
-   "relate": "前传",
-   "src": 118064,
-   "dst": 7073
-  }
- ]
+  "id": "7073",
+  "node": [
+    {
+      "id": 7073,
+      "name": "鳳于九天 一",
+      "nameCN": "凤于九天 1",
+      "date": "2010-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118064,
+      "name": "鳳于九天 二",
+      "nameCN": "凤于九天 2",
+      "date": "2014-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7073,
+      "dst": 118064
+    },
+    {
+      "relateString": "前传",
+      "src": 118064,
+      "dst": 7073
+    }
+  ]
 }

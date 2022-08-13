@@ -1,37 +1,35 @@
 {
- "id": 41909,
- "node": [
-  {
-   "id": 41909,
-   "name": "大好き!ハローキティ",
-   "nameCN": "最喜欢！凯蒂猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/41/41909_Zok7Z.jpg",
-   "date": "1993-10-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 82995,
-   "name": "あそぼう!! ハローキティ",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/ff/82995_68Z7R.jpg",
-   "date": "1994-04-06",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 41909,
-   "dst": 82995
-  },
-  {
-   "relate": "前传",
-   "src": 82995,
-   "dst": 41909
-  }
- ]
+  "id": "41909",
+  "node": [
+    {
+      "id": 41909,
+      "name": "大好き!ハローキティ",
+      "nameCN": "最喜欢！凯蒂猫",
+      "date": "1993-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 82995,
+      "name": "あそぼう!! ハローキティ",
+      "nameCN": "",
+      "date": "1994-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 41909,
+      "dst": 82995
+    },
+    {
+      "relateString": "前传",
+      "src": 82995,
+      "dst": 41909
+    }
+  ]
 }

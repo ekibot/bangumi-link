@@ -1,57 +1,54 @@
 {
- "id": 223129,
- "node": [
-  {
-   "id": 223129,
-   "name": "邪王追妻",
-   "nameCN": "邪王追妻",
-   "image": "https://lain.bgm.tv/pic/cover/m/0e/43/223129_Dsg0H.jpg",
-   "date": "2019-01-24",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 315263,
-   "name": "邪王追妻之一世倾城",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/71/315263_2Ns0n.jpg",
-   "date": "2020-12-11",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 351122,
-   "name": "邪王追妻之神女归来",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/86/351122_dSSXS.jpg",
-   "date": "2021-09-29",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 223129,
-   "dst": 315263
-  },
-  {
-   "relate": "前传",
-   "src": 315263,
-   "dst": 223129
-  },
-  {
-   "relate": "续集",
-   "src": 315263,
-   "dst": 351122
-  },
-  {
-   "relate": "前传",
-   "src": 351122,
-   "dst": 315263
-  }
- ]
+  "id": "223129",
+  "node": [
+    {
+      "id": 223129,
+      "name": "邪王追妻",
+      "nameCN": "邪王追妻",
+      "date": "2019-01-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 315263,
+      "name": "邪王追妻之一世倾城",
+      "nameCN": "",
+      "date": "2020-12-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 351122,
+      "name": "邪王追妻之神女归来",
+      "nameCN": "",
+      "date": "2021-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 223129,
+      "dst": 315263
+    },
+    {
+      "relateString": "前传",
+      "src": 315263,
+      "dst": 223129
+    },
+    {
+      "relateString": "续集",
+      "src": 315263,
+      "dst": 351122
+    },
+    {
+      "relateString": "前传",
+      "src": 351122,
+      "dst": 315263
+    }
+  ]
 }

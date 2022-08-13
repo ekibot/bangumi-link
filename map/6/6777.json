@@ -1,0 +1,54 @@
+{
+  "id": "6777",
+  "node": [
+    {
+      "id": 6777,
+      "name": "ネコ侍三十路",
+      "nameCN": "败犬武士30拉警报",
+      "date": "2009-12-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 6778,
+      "name": "ネコ侍",
+      "nameCN": "处女浪人",
+      "date": "2008-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 38421,
+      "name": "ネコ侍三十路ネコのきもち",
+      "nameCN": "败犬武士拉警报-猫咪的心情",
+      "date": "2011-07-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 6777,
+      "dst": 6778
+    },
+    {
+      "relateString": "续集",
+      "src": 6777,
+      "dst": 38421
+    },
+    {
+      "relateString": "续集",
+      "src": 6778,
+      "dst": 6777
+    },
+    {
+      "relateString": "前传",
+      "src": 38421,
+      "dst": 6777
+    }
+  ]
+}

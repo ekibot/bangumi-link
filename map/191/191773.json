@@ -1,57 +1,54 @@
 {
- "id": 191773,
- "node": [
-  {
-   "id": 191773,
-   "name": "桃色男女ちぇん★",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/22/191773_jp.jpg",
-   "date": "2016-01-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 191774,
-   "name": "桃色男女ちぇん★2nd season",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/68/191774_jp.jpg",
-   "date": "2016-08-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 209261,
-   "name": "桃色男女ちぇん★final season",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/f6/209261_jp.jpg",
-   "date": "2016-12-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 191773,
-   "dst": 191774
-  },
-  {
-   "relate": "前传",
-   "src": 191774,
-   "dst": 191773
-  },
-  {
-   "relate": "续集",
-   "src": 191774,
-   "dst": 209261
-  },
-  {
-   "relate": "前传",
-   "src": 209261,
-   "dst": 191774
-  }
- ]
+  "id": "191773",
+  "node": [
+    {
+      "id": 191773,
+      "name": "桃色男女ちぇん★",
+      "nameCN": "",
+      "date": "2016-01-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 191774,
+      "name": "桃色男女ちぇん★2nd season",
+      "nameCN": "",
+      "date": "2016-08-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 209261,
+      "name": "桃色男女ちぇん★final season",
+      "nameCN": "",
+      "date": "2016-12-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 191773,
+      "dst": 191774
+    },
+    {
+      "relateString": "前传",
+      "src": 191774,
+      "dst": 191773
+    },
+    {
+      "relateString": "续集",
+      "src": 191774,
+      "dst": 209261
+    },
+    {
+      "relateString": "前传",
+      "src": 209261,
+      "dst": 191774
+    }
+  ]
 }

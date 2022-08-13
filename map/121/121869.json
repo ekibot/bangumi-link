@@ -1,37 +1,35 @@
 {
- "id": 121869,
- "node": [
-  {
-   "id": 121869,
-   "name": "Assetto Corsa",
-   "nameCN": "神力科莎",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/ad/121869_5A434.jpg",
-   "date": "2014-12-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314247,
-   "name": "Assetto Corsa Competizione",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/c2/314247_Exq7L.jpg",
-   "date": "2019-05-29",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121869,
-   "dst": 314247
-  },
-  {
-   "relate": "前传",
-   "src": 314247,
-   "dst": 121869
-  }
- ]
+  "id": "121869",
+  "node": [
+    {
+      "id": 121869,
+      "name": "Assetto Corsa",
+      "nameCN": "神力科莎",
+      "date": "2014-12-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314247,
+      "name": "Assetto Corsa Competizione",
+      "nameCN": "",
+      "date": "2019-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121869,
+      "dst": 314247
+    },
+    {
+      "relateString": "前传",
+      "src": 314247,
+      "dst": 121869
+    }
+  ]
 }

@@ -1,76 +1,73 @@
 {
- "id": 1573,
- "node": [
-  {
-   "id": 1573,
-   "name": "ヴァルキリープロファイル",
-   "nameCN": "女神侧身像",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/af/1573_PnO22.jpg",
-   "date": "1999-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 3119,
-   "name": "VALKYRIE PROFILE SILMERIA",
-   "nameCN": "女神侧身像2 希尔梅丽娅",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/2c/3119_5Zzd9.jpg",
-   "date": "2006-06-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PS2"
-  },
-  {
-   "id": 14521,
-   "name": "VALKYRIE PROFILE -咎を背负う者-",
-   "nameCN": "北欧女神 负罪者",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/e0/14521_7Q3zT.jpg",
-   "date": "2008-10-30",
-   "nsfw": false,
-   "platform": "NDS"
-  },
-  {
-   "id": 373792,
-   "name": "ヴァルキリーエリュシオン",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/12/373792_WAEFp.jpg",
-   "date": "2022-09-29",
-   "nameCN": "女神侧身像 极乐世界",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 1573,
-   "dst": 3119
-  },
-  {
-   "relate": "相同世界观",
-   "src": 1573,
-   "dst": 373792
-  },
-  {
-   "relate": "续集",
-   "src": 3119,
-   "dst": 1573
-  },
-  {
-   "relate": "相同世界观",
-   "src": 3119,
-   "dst": 373792
-  },
-  {
-   "relate": "主线故事",
-   "src": 14521,
-   "dst": 3119
-  },
-  {
-   "relate": "相同世界观",
-   "src": 373792,
-   "dst": 1573
-  }
- ]
+  "id": "1573",
+  "node": [
+    {
+      "id": 1573,
+      "name": "ヴァルキリープロファイル",
+      "nameCN": "女神侧身像",
+      "date": "1999-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 3119,
+      "name": "VALKYRIE PROFILE SILMERIA",
+      "nameCN": "女神侧身像2 希尔梅丽娅",
+      "date": "2006-06-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PS2"
+    },
+    {
+      "id": 373792,
+      "name": "ヴァルキリーエリュシオン",
+      "nameCN": "女神侧身像 极乐世界",
+      "date": "2022-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 14521,
+      "name": "VALKYRIE PROFILE -咎を背负う者-",
+      "nameCN": "北欧女神 负罪者",
+      "date": "2008-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1573,
+      "dst": 3119
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 1573,
+      "dst": 373792
+    },
+    {
+      "relateString": "前传",
+      "src": 3119,
+      "dst": 1573
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 3119,
+      "dst": 373792
+    },
+    {
+      "relateString": "主线故事",
+      "src": 14521,
+      "dst": 3119
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 373792,
+      "dst": 1573
+    }
+  ]
 }

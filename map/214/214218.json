@@ -1,0 +1,54 @@
+{
+  "id": "214218",
+  "node": [
+    {
+      "id": 214218,
+      "name": "ちいさなあくま3",
+      "nameCN": "",
+      "date": "2015-11-21",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 313009,
+      "name": "ちいさなあくま2",
+      "nameCN": "",
+      "date": "2015-02-20",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 313010,
+      "name": "ちいさなあくま４",
+      "nameCN": "",
+      "date": "2016-02-20",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 214218,
+      "dst": 313009
+    },
+    {
+      "relateString": "续集",
+      "src": 214218,
+      "dst": 313010
+    },
+    {
+      "relateString": "续集",
+      "src": 313009,
+      "dst": 214218
+    },
+    {
+      "relateString": "前传",
+      "src": 313010,
+      "dst": 214218
+    }
+  ]
+}

@@ -1,37 +1,35 @@
 {
- "id": 203836,
- "node": [
-  {
-   "id": 203836,
-   "name": "続・ばけバレ!!",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/fe/203836_jp.jpg",
-   "date": "2013-05-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 203837,
-   "name": "ばけバレ!",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/b8/203837_jp.jpg",
-   "type": 1,
-   "date": "2011-10-31",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 203836,
-   "dst": 203837
-  },
-  {
-   "relate": "续集",
-   "src": 203837,
-   "dst": 203836
-  }
- ]
+  "id": "203836",
+  "node": [
+    {
+      "id": 203836,
+      "name": "続・ばけバレ!!",
+      "nameCN": "",
+      "date": "2013-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 203837,
+      "name": "ばけバレ!",
+      "nameCN": "",
+      "date": "2011-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 203836,
+      "dst": 203837
+    },
+    {
+      "relateString": "续集",
+      "src": 203837,
+      "dst": 203836
+    }
+  ]
 }

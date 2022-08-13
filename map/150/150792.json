@@ -1,57 +1,52 @@
 {
- "id": 150792,
- "node": [
-  {
-   "id": 150792,
-   "name": "あまえないでよっ!!",
-   "nameCN": "极乐天师",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/74/150792_phdee.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 170309,
-   "name": "あまえないでよっ!!MS",
-   "nameCN": "极乐天师MS",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/4f/170309_S6btp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 170316,
-   "name": "あまえないでよっ!! R",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/95/170316_jp.jpg",
-   "date": "2016-02-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150792,
-   "dst": 170309
-  },
-  {
-   "relate": "前传",
-   "src": 170309,
-   "dst": 150792
-  },
-  {
-   "relate": "续集",
-   "src": 170309,
-   "dst": 170316
-  },
-  {
-   "relate": "前传",
-   "src": 170316,
-   "dst": 170309
-  }
- ]
+  "id": "150792",
+  "node": [
+    {
+      "id": 150792,
+      "name": "あまえないでよっ!!",
+      "nameCN": "极乐天师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 170309,
+      "name": "あまえないでよっ!!MS",
+      "nameCN": "极乐天师MS",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 170316,
+      "name": "あまえないでよっ!! R",
+      "nameCN": "",
+      "date": "2016-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150792,
+      "dst": 170309
+    },
+    {
+      "relateString": "前传",
+      "src": 170309,
+      "dst": 150792
+    },
+    {
+      "relateString": "续集",
+      "src": 170309,
+      "dst": 170316
+    },
+    {
+      "relateString": "前传",
+      "src": 170316,
+      "dst": 170309
+    }
+  ]
 }

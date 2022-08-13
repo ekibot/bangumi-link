@@ -1,37 +1,33 @@
 {
- "id": 151154,
- "node": [
-  {
-   "id": 151154,
-   "name": "変態女教師 ときめきランジェリー",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/b7/151154_71Ztf.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 151155,
-   "name": "変態女教師 魅惑のハイレグカット",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/4e/151155_69u6S.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 151154,
-   "dst": 151155
-  },
-  {
-   "relate": "前传",
-   "src": 151155,
-   "dst": 151154
-  }
- ]
+  "id": "151154",
+  "node": [
+    {
+      "id": 151154,
+      "name": "変態女教師 ときめきランジェリー",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 151155,
+      "name": "変態女教師 魅惑のハイレグカット",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 151154,
+      "dst": 151155
+    },
+    {
+      "relateString": "前传",
+      "src": 151155,
+      "dst": 151154
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 38379,
- "node": [
-  {
-   "id": 38379,
-   "name": "狼と香辛料",
-   "nameCN": "狼与香辛料",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/6a/38379_oK4yy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 297312,
-   "name": "新説 狼と香辛料 狼と羊皮紙",
-   "nameCN": "狼与羊皮纸",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/25/297312_VO2A2.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 38379,
-   "dst": 297312
-  },
-  {
-   "relate": "前传",
-   "src": 297312,
-   "dst": 38379
-  }
- ]
+  "id": "38379",
+  "node": [
+    {
+      "id": 38379,
+      "name": "狼と香辛料",
+      "nameCN": "狼与香辛料",
+      "date": "2007-09-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 297312,
+      "name": "新説 狼と香辛料 狼と羊皮紙",
+      "nameCN": "狼与羊皮纸",
+      "date": "2019-05-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 38379,
+      "dst": 297312
+    },
+    {
+      "relateString": "前传",
+      "src": 297312,
+      "dst": 38379
+    }
+  ]
 }

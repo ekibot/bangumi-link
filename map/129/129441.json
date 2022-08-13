@@ -1,57 +1,54 @@
 {
- "id": 129441,
- "node": [
-  {
-   "id": 129441,
-   "name": "BLUE GIANT",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/fe/129441_44neN.jpg",
-   "date": "2013-11-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 217707,
-   "name": "BLUE GIANT SUPREME",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/1e/217707_jfGGg.jpg",
-   "date": "2017-03-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 306212,
-   "name": "BLUE GIANT EXPLORER",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/0b/306212_abazo.jpg",
-   "date": "2020-10-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129441,
-   "dst": 217707
-  },
-  {
-   "relate": "前传",
-   "src": 217707,
-   "dst": 129441
-  },
-  {
-   "relate": "续集",
-   "src": 217707,
-   "dst": 306212
-  },
-  {
-   "relate": "前传",
-   "src": 306212,
-   "dst": 217707
-  }
- ]
+  "id": "129441",
+  "node": [
+    {
+      "id": 129441,
+      "name": "BLUE GIANT",
+      "nameCN": "",
+      "date": "2013-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 217707,
+      "name": "BLUE GIANT SUPREME",
+      "nameCN": "",
+      "date": "2017-03-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 306212,
+      "name": "BLUE GIANT EXPLORER",
+      "nameCN": "",
+      "date": "2020-10-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129441,
+      "dst": 217707
+    },
+    {
+      "relateString": "前传",
+      "src": 217707,
+      "dst": 129441
+    },
+    {
+      "relateString": "续集",
+      "src": 217707,
+      "dst": 306212
+    },
+    {
+      "relateString": "前传",
+      "src": 306212,
+      "dst": 217707
+    }
+  ]
 }

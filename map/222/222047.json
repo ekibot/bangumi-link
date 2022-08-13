@@ -1,28 +1,35 @@
 {
- "id": 222047,
- "node": [
-  {
-   "id": 222047,
-   "name": "20世紀美少女 歴史上の美女だけど処女あげます",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/8d/222047_jp.jpg",
-   "date": "2016-06-25",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 240643,
-   "name": "20世紀美少女 ~日常編は学園ハーレム!?~",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/09/240643_kfBbE.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 222047,
-   "dst": 240643
-  }
- ]
+  "id": "222047",
+  "node": [
+    {
+      "id": 222047,
+      "name": "20世紀美少女 歴史上の美女だけど処女あげます",
+      "nameCN": "",
+      "date": "2016-06-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 240643,
+      "name": "20世紀美少女 ~日常編は学園ハーレム!?~",
+      "nameCN": "",
+      "date": "2015-10-24",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 222047,
+      "dst": 240643
+    },
+    {
+      "relateString": "续集",
+      "src": 240643,
+      "dst": 222047
+    }
+  ]
 }

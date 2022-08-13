@@ -1,37 +1,33 @@
 {
- "id": 94061,
- "node": [
-  {
-   "id": 94061,
-   "name": "影武者徳川家康",
-   "nameCN": "影武者德川家康",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/e7/94061_3YnrO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 121616,
-   "name": "SAKON（左近） -戦国風雲録-",
-   "nameCN": "破军星——SAKON",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/b0/121616_3KEpA.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 94061,
-   "dst": 121616
-  },
-  {
-   "relate": "相同世界观",
-   "src": 121616,
-   "dst": 94061
-  }
- ]
+  "id": "94061",
+  "node": [
+    {
+      "id": 94061,
+      "name": "影武者徳川家康",
+      "nameCN": "影武者德川家康",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 121616,
+      "name": "SAKON（左近） -戦国風雲録-",
+      "nameCN": "破军星——SAKON",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 94061,
+      "dst": 121616
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 121616,
+      "dst": 94061
+    }
+  ]
 }

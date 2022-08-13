@@ -1,57 +1,54 @@
 {
- "id": 111619,
- "node": [
-  {
-   "id": 111619,
-   "name": "何かいいの見つけた！",
-   "nameCN": "发现美好恋情！",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/63/111619_jp.jpg",
-   "date": "2014-06-02",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 286920,
-   "name": "何かいいの見つけた！Re:",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/ce/286920_8JCrJ.jpg",
-   "date": "2019-09-02",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 323835,
-   "name": "何かいいの見つけた!Re:2",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/fd/323835_33e69.jpg",
-   "date": "2020-09-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111619,
-   "dst": 286920
-  },
-  {
-   "relate": "前传",
-   "src": 286920,
-   "dst": 111619
-  },
-  {
-   "relate": "续集",
-   "src": 286920,
-   "dst": 323835
-  },
-  {
-   "relate": "前传",
-   "src": 323835,
-   "dst": 286920
-  }
- ]
+  "id": "111619",
+  "node": [
+    {
+      "id": 111619,
+      "name": "何かいいの見つけた！",
+      "nameCN": "发现美好恋情！",
+      "date": "2014-06-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 286920,
+      "name": "何かいいの見つけた！Re:",
+      "nameCN": "",
+      "date": "2019-09-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 323835,
+      "name": "何かいいの見つけた!Re:2",
+      "nameCN": "",
+      "date": "2020-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111619,
+      "dst": 286920
+    },
+    {
+      "relateString": "前传",
+      "src": 286920,
+      "dst": 111619
+    },
+    {
+      "relateString": "续集",
+      "src": 286920,
+      "dst": 323835
+    },
+    {
+      "relateString": "前传",
+      "src": 323835,
+      "dst": 286920
+    }
+  ]
 }

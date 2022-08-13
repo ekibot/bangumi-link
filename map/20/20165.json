@@ -1,28 +1,35 @@
 {
- "id": 20165,
- "node": [
-  {
-   "id": 20165,
-   "name": "催眠術",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/f2/20165_4ZDQa.jpg",
-   "date": "2001-12-21",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 222678,
-   "name": "催眠術Re",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/75/222678_FL6rr.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 20165,
-   "dst": 222678
-  }
- ]
+  "id": "20165",
+  "node": [
+    {
+      "id": 20165,
+      "name": "催眠術",
+      "nameCN": "",
+      "date": "2001-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222678,
+      "name": "催眠術Re",
+      "nameCN": "",
+      "date": "2014-05-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 20165,
+      "dst": 222678
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 222678,
+      "dst": 20165
+    }
+  ]
 }

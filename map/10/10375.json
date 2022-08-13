@@ -1,67 +1,64 @@
 {
- "id": 10375,
- "node": [
-  {
-   "id": 10375,
-   "name": "伝説巨神イデオン",
-   "nameCN": "传说巨神伊迪安",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/1d/10375_slxX1.jpg",
-   "date": "1980-05-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 23304,
-   "name": "伝説巨神イデオン 発動篇",
-   "nameCN": "传说巨神伊迪安 发动篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/d6/23304_QHIka.jpg",
-   "date": "1982-07-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 23305,
-   "name": "伝説巨神イデオン 接触篇",
-   "nameCN": "传说巨神伊迪安 接触篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/45/23305_4B55U.jpg",
-   "date": "1982-07-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10375,
-   "dst": 23304
-  },
-  {
-   "relate": "总集篇",
-   "src": 10375,
-   "dst": 23305
-  },
-  {
-   "relate": "前传",
-   "src": 23304,
-   "dst": 10375
-  },
-  {
-   "relate": "前传",
-   "src": 23304,
-   "dst": 23305
-  },
-  {
-   "relate": "全集",
-   "src": 23305,
-   "dst": 10375
-  },
-  {
-   "relate": "续集",
-   "src": 23305,
-   "dst": 23304
-  }
- ]
+  "id": "10375",
+  "node": [
+    {
+      "id": 10375,
+      "name": "伝説巨神イデオン",
+      "nameCN": "传说巨神伊迪安",
+      "date": "1980-05-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 23304,
+      "name": "伝説巨神イデオン 発動篇",
+      "nameCN": "传说巨神伊迪安 发动篇",
+      "date": "1982-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 23305,
+      "name": "伝説巨神イデオン 接触篇",
+      "nameCN": "传说巨神伊迪安 接触篇",
+      "date": "1982-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10375,
+      "dst": 23304
+    },
+    {
+      "relateString": "总集篇",
+      "src": 10375,
+      "dst": 23305
+    },
+    {
+      "relateString": "前传",
+      "src": 23304,
+      "dst": 10375
+    },
+    {
+      "relateString": "前传",
+      "src": 23304,
+      "dst": 23305
+    },
+    {
+      "relateString": "全集",
+      "src": 23305,
+      "dst": 10375
+    },
+    {
+      "relateString": "续集",
+      "src": 23305,
+      "dst": 23304
+    }
+  ]
 }

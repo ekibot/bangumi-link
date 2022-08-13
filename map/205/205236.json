@@ -1,37 +1,33 @@
 {
- "id": 205236,
- "node": [
-  {
-   "id": 205236,
-   "name": "少年PMC",
-   "nameCN": "少年PMC",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/68/205236_DcTft.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 345915,
-   "name": "惊爆校园",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/c7/345915_0mm9w.jpg",
-   "type": 1,
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 205236,
-   "dst": 345915
-  },
-  {
-   "relate": "相同世界观",
-   "src": 345915,
-   "dst": 205236
-  }
- ]
+  "id": "205236",
+  "node": [
+    {
+      "id": 205236,
+      "name": "少年PMC",
+      "nameCN": "少年PMC",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 345915,
+      "name": "惊爆校园",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 205236,
+      "dst": 345915
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 345915,
+      "dst": 205236
+    }
+  ]
 }

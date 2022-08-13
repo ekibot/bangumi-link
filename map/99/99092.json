@@ -1,37 +1,35 @@
 {
- "id": 99092,
- "node": [
-  {
-   "id": 99092,
-   "name": "ふうせんいぬティニー",
-   "nameCN": "气球狗迪尼",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/3b/99092_G1Zex.jpg",
-   "date": "2014-09-26",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 132770,
-   "name": "ふうせんいぬティニー 第2シリーズ",
-   "nameCN": "气球狗迪尼 第二期",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/7b/132770_39A45.jpg",
-   "date": "2015-09-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99092,
-   "dst": 132770
-  },
-  {
-   "relate": "前传",
-   "src": 132770,
-   "dst": 99092
-  }
- ]
+  "id": "99092",
+  "node": [
+    {
+      "id": 99092,
+      "name": "ふうせんいぬティニー",
+      "nameCN": "气球狗迪尼",
+      "date": "2014-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 132770,
+      "name": "ふうせんいぬティニー 第2シリーズ",
+      "nameCN": "气球狗迪尼 第二期",
+      "date": "2015-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99092,
+      "dst": 132770
+    },
+    {
+      "relateString": "前传",
+      "src": 132770,
+      "dst": 99092
+    }
+  ]
 }

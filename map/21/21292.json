@@ -1,37 +1,34 @@
 {
- "id": 21292,
- "node": [
-  {
-   "id": 21292,
-   "name": "Will o' Wisp",
-   "nameCN": "绯色流星",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/57/21292_zzfZ0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321437,
-   "name": "ウィル・オ・ウィスプ ～イースターの奇跡～",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/8d/321437_q2s21.jpg",
-   "date": "2008-10-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21292,
-   "dst": 321437
-  },
-  {
-   "relate": "前传",
-   "src": 321437,
-   "dst": 21292
-  }
- ]
+  "id": "21292",
+  "node": [
+    {
+      "id": 21292,
+      "name": "Will o' Wisp",
+      "nameCN": "绯色流星",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321437,
+      "name": "ウィル・オ・ウィスプ ～イースターの奇跡～",
+      "nameCN": "",
+      "date": "2008-10-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21292,
+      "dst": 321437
+    },
+    {
+      "relateString": "前传",
+      "src": 321437,
+      "dst": 21292
+    }
+  ]
 }

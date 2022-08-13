@@ -1,37 +1,34 @@
 {
- "id": 157667,
- "node": [
-  {
-   "id": 157667,
-   "name": "新巨人の星",
-   "nameCN": "新巨人之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/f0/157667_IOgI5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 157679,
-   "name": "巨人の星",
-   "nameCN": "巨人之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/74/157679_xWz6S.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 157667,
-   "dst": 157679
-  },
-  {
-   "relate": "续集",
-   "src": 157679,
-   "dst": 157667
-  }
- ]
+  "id": "157667",
+  "node": [
+    {
+      "id": 157667,
+      "name": "新巨人の星",
+      "nameCN": "新巨人之星",
+      "date": "1976-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 157679,
+      "name": "巨人の星",
+      "nameCN": "巨人之星",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 157667,
+      "dst": 157679
+    },
+    {
+      "relateString": "续集",
+      "src": 157679,
+      "dst": 157667
+    }
+  ]
 }

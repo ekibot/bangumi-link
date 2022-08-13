@@ -1,37 +1,35 @@
 {
- "id": 92524,
- "node": [
-  {
-   "id": 92524,
-   "name": "Crimson Gem Saga",
-   "nameCN": "亚斯特尼西雅物语2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/49/92524_TM8zA.jpg",
-   "date": "2008-10-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 253863,
-   "name": "アストニシアストーリー",
-   "nameCN": "亚斯特尼西雅物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/97/253863_8PgLd.jpg",
-   "date": "2006-09-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 92524,
-   "dst": 253863
-  },
-  {
-   "relate": "续集",
-   "src": 253863,
-   "dst": 92524
-  }
- ]
+  "id": "92524",
+  "node": [
+    {
+      "id": 92524,
+      "name": "Crimson Gem Saga",
+      "nameCN": "亚斯特尼西雅物语2",
+      "date": "2008-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 253863,
+      "name": "アストニシアストーリー",
+      "nameCN": "亚斯特尼西雅物语",
+      "date": "2006-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 92524,
+      "dst": 253863
+    },
+    {
+      "relateString": "续集",
+      "src": 253863,
+      "dst": 92524
+    }
+  ]
 }

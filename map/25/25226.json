@@ -1,57 +1,54 @@
 {
- "id": 25226,
- "node": [
-  {
-   "id": 25226,
-   "name": "gdgd妖精s（ぐだぐだフェアリーズ）",
-   "nameCN": "gdgd妖精s",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/dd/25226_s0Kns.jpg",
-   "date": "2011-10-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 54435,
-   "name": "gdgd妖精s（ぐだぐだフェアリーーズ）",
-   "nameCN": "gdgd妖精s 第2季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/a0/54435_nhJEe.jpg",
-   "date": "2013-01-09",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 103276,
-   "name": "劇場版 gdgd妖精s っていう映画はどうかな…?",
-   "nameCN": "剧场版 gdgd妖精s",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/0c/103276_Ywlnz.jpg",
-   "date": "2014-09-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 25226,
-   "dst": 54435
-  },
-  {
-   "relate": "前传",
-   "src": 54435,
-   "dst": 25226
-  },
-  {
-   "relate": "续集",
-   "src": 54435,
-   "dst": 103276
-  },
-  {
-   "relate": "前传",
-   "src": 103276,
-   "dst": 54435
-  }
- ]
+  "id": "25226",
+  "node": [
+    {
+      "id": 25226,
+      "name": "gdgd妖精s（ぐだぐだフェアリーズ）",
+      "nameCN": "gdgd妖精s",
+      "date": "2011-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 54435,
+      "name": "gdgd妖精s（ぐだぐだフェアリーーズ）",
+      "nameCN": "gdgd妖精s 第2季",
+      "date": "2013-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 103276,
+      "name": "劇場版 gdgd妖精s っていう映画はどうかな…?",
+      "nameCN": "剧场版 gdgd妖精s",
+      "date": "2014-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25226,
+      "dst": 54435
+    },
+    {
+      "relateString": "前传",
+      "src": 54435,
+      "dst": 25226
+    },
+    {
+      "relateString": "续集",
+      "src": 54435,
+      "dst": 103276
+    },
+    {
+      "relateString": "前传",
+      "src": 103276,
+      "dst": 54435
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 208950,
- "node": [
-  {
-   "id": 208950,
-   "name": "笑う招き猫",
-   "nameCN": "笑的招财猫",
-   "date": "2017-04-29",
-   "image": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 211773,
-   "name": "笑う招き猫",
-   "nameCN": "微笑的招财猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/00/211773_3Af9A.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 208950,
-   "dst": 211773
-  },
-  {
-   "relate": "衍生",
-   "src": 211773,
-   "dst": 208950
-  }
- ]
+  "id": "208950",
+  "node": [
+    {
+      "id": 208950,
+      "name": "笑う招き猫",
+      "nameCN": "笑的招财猫",
+      "date": "2017-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 211773,
+      "name": "笑う招き猫",
+      "nameCN": "微笑的招财猫",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 208950,
+      "dst": 211773
+    },
+    {
+      "relateString": "衍生",
+      "src": 211773,
+      "dst": 208950
+    }
+  ]
 }

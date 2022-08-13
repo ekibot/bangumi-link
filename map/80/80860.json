@@ -1,37 +1,35 @@
 {
- "id": 80860,
- "node": [
-  {
-   "id": 80860,
-   "name": "マップス 伝説のさまよえる星人たち",
-   "nameCN": "星图传说 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/90/80860_URu6S.jpg",
-   "date": "1987-07-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 80861,
-   "name": "マップス",
-   "nameCN": "星图传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/00/80861_n7949.jpg",
-   "date": "1994-07-08",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 80860,
-   "dst": 80861
-  },
-  {
-   "relate": "不同演绎",
-   "src": 80861,
-   "dst": 80860
-  }
- ]
+  "id": "80860",
+  "node": [
+    {
+      "id": 80860,
+      "name": "マップス 伝説のさまよえる星人たち",
+      "nameCN": "星图传说 剧场版",
+      "date": "1987-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 80861,
+      "name": "マップス",
+      "nameCN": "星图传说",
+      "date": "1994-07-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 80860,
+      "dst": 80861
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 80861,
+      "dst": 80860
+    }
+  ]
 }

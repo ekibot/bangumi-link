@@ -1,57 +1,54 @@
 {
- "id": 242449,
- "node": [
-  {
-   "id": 242449,
-   "name": "おあむ物語 その夏、わたしが知ったこと",
-   "nameCN": "御庵物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/03/242449_7l9z9.jpg",
-   "date": "2018-04-08",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 262935,
-   "name": "いつか会えるキミに",
-   "nameCN": "终有一日会与你相见",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/63/262935_nHqUx.jpg",
-   "date": "2018-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 304617,
-   "name": "大垣まつりにいこうよ！",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/cc/304617_PYbW8.jpg",
-   "date": "2020-03-29",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 242449,
-   "dst": 262935
-  },
-  {
-   "relate": "前传",
-   "src": 262935,
-   "dst": 242449
-  },
-  {
-   "relate": "续集",
-   "src": 262935,
-   "dst": 304617
-  },
-  {
-   "relate": "前传",
-   "src": 304617,
-   "dst": 262935
-  }
- ]
+  "id": "242449",
+  "node": [
+    {
+      "id": 242449,
+      "name": "おあむ物語 その夏、わたしが知ったこと",
+      "nameCN": "御庵物语",
+      "date": "2018-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 262935,
+      "name": "いつか会えるキミに",
+      "nameCN": "终有一日会与你相见",
+      "date": "2018-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 304617,
+      "name": "大垣まつりにいこうよ！",
+      "nameCN": "",
+      "date": "2020-03-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 242449,
+      "dst": 262935
+    },
+    {
+      "relateString": "前传",
+      "src": 262935,
+      "dst": 242449
+    },
+    {
+      "relateString": "续集",
+      "src": 262935,
+      "dst": 304617
+    },
+    {
+      "relateString": "前传",
+      "src": 304617,
+      "dst": 262935
+    }
+  ]
 }

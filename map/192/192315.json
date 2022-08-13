@@ -1,37 +1,34 @@
 {
- "id": 192315,
- "node": [
-  {
-   "id": 192315,
-   "name": "Conflict: Desert Storm",
-   "nameCN": "冲突：沙漠风暴",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/d1/192315_TDcu2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 244460,
-   "name": "Conflict: Desert Storm II",
-   "nameCN": "冲突：沙漠风暴2",
-   "image": "https://lain.bgm.tv/pic/cover/m/80/f3/244460_8606a.jpg",
-   "date": "2003-09-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 192315,
-   "dst": 244460
-  },
-  {
-   "relate": "前传",
-   "src": 244460,
-   "dst": 192315
-  }
- ]
+  "id": "192315",
+  "node": [
+    {
+      "id": 192315,
+      "name": "Conflict: Desert Storm",
+      "nameCN": "冲突：沙漠风暴",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 244460,
+      "name": "Conflict: Desert Storm II",
+      "nameCN": "冲突：沙漠风暴2",
+      "date": "2003-09-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 192315,
+      "dst": 244460
+    },
+    {
+      "relateString": "前传",
+      "src": 244460,
+      "dst": 192315
+    }
+  ]
 }

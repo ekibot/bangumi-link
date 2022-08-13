@@ -1,57 +1,54 @@
 {
- "id": 64566,
- "node": [
-  {
-   "id": 64566,
-   "name": "明治東亰恋伽",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/ef/64566_6vrtF.jpg",
-   "date": "2013-09-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 87391,
-   "name": "明治東亰恋伽 トワヰライト・キス",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/51/87391_09ZlI.jpg",
-   "date": "2015-04-23",
-   "nameCN": "明治东京恋伽 Twilight Kiss",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 188601,
-   "name": "明治東亰恋伽 Full Moon",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/f9/188601_dDiDd.jpg",
-   "date": "2016-08-25",
-   "nameCN": "明治东京恋伽 Full Moon",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64566,
-   "dst": 87391
-  },
-  {
-   "relate": "不同演绎",
-   "src": 64566,
-   "dst": 188601
-  },
-  {
-   "relate": "前传",
-   "src": 87391,
-   "dst": 64566
-  },
-  {
-   "relate": "不同演绎",
-   "src": 188601,
-   "dst": 64566
-  }
- ]
+  "id": "64566",
+  "node": [
+    {
+      "id": 64566,
+      "name": "明治東亰恋伽",
+      "nameCN": "",
+      "date": "2013-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 87391,
+      "name": "明治東亰恋伽 トワヰライト・キス",
+      "nameCN": "明治东京恋伽 Twilight Kiss",
+      "date": "2015-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 188601,
+      "name": "明治東亰恋伽 Full Moon",
+      "nameCN": "明治东京恋伽 Full Moon",
+      "date": "2016-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64566,
+      "dst": 87391
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 64566,
+      "dst": 188601
+    },
+    {
+      "relateString": "前传",
+      "src": 87391,
+      "dst": 64566
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 188601,
+      "dst": 64566
+    }
+  ]
 }

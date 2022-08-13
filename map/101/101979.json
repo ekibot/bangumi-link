@@ -1,37 +1,35 @@
 {
- "id": 101979,
- "node": [
-  {
-   "id": 101979,
-   "name": "花咲舞が黙っていない",
-   "nameCN": "花咲舞无法沉默",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/10/101979_CXDYX.jpg",
-   "date": "2014-04-16",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 129833,
-   "name": "花咲舞が黙ってない",
-   "nameCN": "花咲舞无法沉默 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/a5/129833_ZOoOm.jpg",
-   "date": "2015-07-08",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 101979,
-   "dst": 129833
-  },
-  {
-   "relate": "前传",
-   "src": 129833,
-   "dst": 101979
-  }
- ]
+  "id": "101979",
+  "node": [
+    {
+      "id": 101979,
+      "name": "花咲舞が黙っていない",
+      "nameCN": "花咲舞无法沉默",
+      "date": "2014-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 129833,
+      "name": "花咲舞が黙ってない",
+      "nameCN": "花咲舞无法沉默 第二季",
+      "date": "2015-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 101979,
+      "dst": 129833
+    },
+    {
+      "relateString": "前传",
+      "src": 129833,
+      "dst": 101979
+    }
+  ]
 }

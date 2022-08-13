@@ -1,37 +1,35 @@
 {
- "id": 50552,
- "node": [
-  {
-   "id": 50552,
-   "name": "TMNT",
-   "nameCN": "忍者神龟",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/ca/50552_z8d1d.jpg",
-   "date": "2007-03-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 128658,
-   "name": "Teenage Mutant Ninja Turtles: Arcade Attack",
-   "nameCN": "忍者神龟：冲击",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/b9/128658_G6736.jpg",
-   "date": "2009-11-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 50552,
-   "dst": 128658
-  },
-  {
-   "relate": "前传",
-   "src": 128658,
-   "dst": 50552
-  }
- ]
+  "id": "50552",
+  "node": [
+    {
+      "id": 50552,
+      "name": "TMNT",
+      "nameCN": "忍者神龟",
+      "date": "2007-03-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 128658,
+      "name": "Teenage Mutant Ninja Turtles: Arcade Attack",
+      "nameCN": "忍者神龟：冲击",
+      "date": "2009-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 50552,
+      "dst": 128658
+    },
+    {
+      "relateString": "前传",
+      "src": 128658,
+      "dst": 50552
+    }
+  ]
 }

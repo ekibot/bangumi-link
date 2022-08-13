@@ -1,37 +1,35 @@
 {
- "id": 280031,
- "node": [
-  {
-   "id": 280031,
-   "name": "イノセントリア",
-   "nameCN": "无邪之地",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/c7/280031_j87H1.jpg",
-   "date": "2005-03-06",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294903,
-   "name": "イノセントリア ラストラス",
-   "nameCN": "无邪之地：闪耀",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/d4/294903_wph10.jpg",
-   "date": "2007-06-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 280031,
-   "dst": 294903
-  },
-  {
-   "relate": "前传",
-   "src": 294903,
-   "dst": 280031
-  }
- ]
+  "id": "280031",
+  "node": [
+    {
+      "id": 280031,
+      "name": "イノセントリア",
+      "nameCN": "无邪之地",
+      "date": "2005-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294903,
+      "name": "イノセントリア ラストラス",
+      "nameCN": "无邪之地：闪耀",
+      "date": "2007-06-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 280031,
+      "dst": 294903
+    },
+    {
+      "relateString": "前传",
+      "src": 294903,
+      "dst": 280031
+    }
+  ]
 }

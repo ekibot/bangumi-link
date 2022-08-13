@@ -1,37 +1,35 @@
 {
- "id": 14220,
- "node": [
-  {
-   "id": 14220,
-   "name": "君と僕。",
-   "nameCN": "少年同盟",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/6b/14220_4i0Mg.jpg",
-   "date": "2011-10-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 29421,
-   "name": "君と僕。2",
-   "nameCN": "少年同盟 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/0b/29421_5R1KO.jpg",
-   "date": "2012-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 14220,
-   "dst": 29421
-  },
-  {
-   "relate": "前传",
-   "src": 29421,
-   "dst": 14220
-  }
- ]
+  "id": "14220",
+  "node": [
+    {
+      "id": 14220,
+      "name": "君と僕。",
+      "nameCN": "少年同盟",
+      "date": "2011-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 29421,
+      "name": "君と僕。2",
+      "nameCN": "少年同盟 2",
+      "date": "2012-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 14220,
+      "dst": 29421
+    },
+    {
+      "relateString": "前传",
+      "src": 29421,
+      "dst": 14220
+    }
+  ]
 }

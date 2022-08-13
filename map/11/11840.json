@@ -1,97 +1,91 @@
 {
- "id": 11840,
- "node": [
-  {
-   "id": 11840,
-   "name": "SimCity 4",
-   "nameCN": "模拟城市4",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/e2/11840_iU0Iw.jpg",
-   "date": "2003-01-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 14408,
-   "name": "SimCity 3000",
-   "nameCN": "模拟城市3000",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/bb/14408_qA81a.jpg",
-   "date": "1999-01-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 61073,
-   "name": "Simcity",
-   "nameCN": "模拟城市 (2013)",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/55/61073_TkkDO.jpg",
-   "date": "2013-03-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 144980,
-   "name": "SimCity 2000",
-   "nameCN": "模拟城市2000",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/50/144980_WbL6I.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256286,
-   "name": "SimCity",
-   "nameCN": "模拟城市",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/af/256286_6k1cQ.jpg",
-   "date": "1989-02-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 11840,
-   "dst": 14408
-  },
-  {
-   "relate": "续集",
-   "src": 11840,
-   "dst": 61073
-  },
-  {
-   "relate": "续集",
-   "src": 14408,
-   "dst": 11840
-  },
-  {
-   "relate": "前传",
-   "src": 14408,
-   "dst": 144980
-  },
-  {
-   "relate": "前传",
-   "src": 61073,
-   "dst": 11840
-  },
-  {
-   "relate": "续集",
-   "src": 144980,
-   "dst": 14408
-  },
-  {
-   "relate": "前传",
-   "src": 144980,
-   "dst": 256286
-  },
-  {
-   "relate": "续集",
-   "src": 256286,
-   "dst": 144980
-  }
- ]
+  "id": "11840",
+  "node": [
+    {
+      "id": 11840,
+      "name": "SimCity 4",
+      "nameCN": "模拟城市4",
+      "date": "2003-01-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 14408,
+      "name": "SimCity 3000",
+      "nameCN": "模拟城市3000",
+      "date": "1999-01-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61073,
+      "name": "Simcity",
+      "nameCN": "模拟城市 (2013)",
+      "date": "2013-03-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 144980,
+      "name": "SimCity 2000",
+      "nameCN": "模拟城市2000",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256286,
+      "name": "SimCity",
+      "nameCN": "模拟城市",
+      "date": "1989-02-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 11840,
+      "dst": 14408
+    },
+    {
+      "relateString": "续集",
+      "src": 11840,
+      "dst": 61073
+    },
+    {
+      "relateString": "续集",
+      "src": 14408,
+      "dst": 11840
+    },
+    {
+      "relateString": "前传",
+      "src": 14408,
+      "dst": 144980
+    },
+    {
+      "relateString": "前传",
+      "src": 61073,
+      "dst": 11840
+    },
+    {
+      "relateString": "续集",
+      "src": 144980,
+      "dst": 14408
+    },
+    {
+      "relateString": "前传",
+      "src": 144980,
+      "dst": 256286
+    },
+    {
+      "relateString": "续集",
+      "src": 256286,
+      "dst": 144980
+    }
+  ]
 }

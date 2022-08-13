@@ -1,37 +1,35 @@
 {
- "id": 161677,
- "node": [
-  {
-   "id": 161677,
-   "name": "YAT安心!宇宙旅行 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/a1/161677_JFP1f.jpg",
-   "date": "1998-04-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 197883,
-   "name": "YAT安心!宇宙旅行",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/04/197883_a5I55.jpg",
-   "date": "1996-10-05",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 161677,
-   "dst": 197883
-  },
-  {
-   "relate": "续集",
-   "src": 197883,
-   "dst": 161677
-  }
- ]
+  "id": "161677",
+  "node": [
+    {
+      "id": 161677,
+      "name": "YAT安心!宇宙旅行 第2期",
+      "nameCN": "",
+      "date": "1998-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 197883,
+      "name": "YAT安心!宇宙旅行",
+      "nameCN": "",
+      "date": "1996-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 161677,
+      "dst": 197883
+    },
+    {
+      "relateString": "续集",
+      "src": 197883,
+      "dst": 161677
+    }
+  ]
 }

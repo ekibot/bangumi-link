@@ -1,37 +1,34 @@
 {
- "id": 307995,
- "node": [
-  {
-   "id": 307995,
-   "name": "风雨廊桥",
-   "nameCN": "风雨廊桥",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/36/307995_BwWwg.jpg",
-   "date": "2020-06-15",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 345788,
-   "name": "风雨廊桥 昆仑摩勒",
-   "nameCN": "风雨廊桥 昆仑摩勒",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/b4/345788_50rG3.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 307995,
-   "dst": 345788
-  },
-  {
-   "relate": "前传",
-   "src": 345788,
-   "dst": 307995
-  }
- ]
+  "id": "307995",
+  "node": [
+    {
+      "id": 307995,
+      "name": "风雨廊桥",
+      "nameCN": "风雨廊桥",
+      "date": "2020-06-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345788,
+      "name": "风雨廊桥 昆仑摩勒",
+      "nameCN": "风雨廊桥 昆仑摩勒",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 307995,
+      "dst": 345788
+    },
+    {
+      "relateString": "前传",
+      "src": 345788,
+      "dst": 307995
+    }
+  ]
 }

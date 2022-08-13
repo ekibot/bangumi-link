@@ -1,57 +1,53 @@
 {
- "id": 100521,
- "node": [
-  {
-   "id": 100521,
-   "name": "Generation XTH -CODE HAZARD-",
-   "nameCN": "爱丽丝奏鸣曲 命运之轮",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/41/100521_hA3Cy.jpg",
-   "date": "2008-04-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 193668,
-   "name": "爱丽丝奏鸣曲2冲击代码",
-   "nameCN": "爱丽丝奏鸣曲2冲击代码",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/7d/193668_S7U0A.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 194370,
-   "name": "爱丽丝奏鸣曲3真相终章",
-   "nameCN": "爱丽丝奏鸣曲3真相终章",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/f6/194370_Jz066.jpg",
-   "date": "2009-05-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100521,
-   "dst": 193668
-  },
-  {
-   "relate": "前传",
-   "src": 193668,
-   "dst": 100521
-  },
-  {
-   "relate": "续集",
-   "src": 193668,
-   "dst": 194370
-  },
-  {
-   "relate": "前传",
-   "src": 194370,
-   "dst": 193668
-  }
- ]
+  "id": "100521",
+  "node": [
+    {
+      "id": 100521,
+      "name": "Generation XTH -CODE HAZARD-",
+      "nameCN": "爱丽丝奏鸣曲 命运之轮",
+      "date": "2008-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 193668,
+      "name": "爱丽丝奏鸣曲2冲击代码",
+      "nameCN": "爱丽丝奏鸣曲2冲击代码",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 194370,
+      "name": "爱丽丝奏鸣曲3真相终章",
+      "nameCN": "爱丽丝奏鸣曲3真相终章",
+      "date": "2009-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100521,
+      "dst": 193668
+    },
+    {
+      "relateString": "前传",
+      "src": 193668,
+      "dst": 100521
+    },
+    {
+      "relateString": "续集",
+      "src": 193668,
+      "dst": 194370
+    },
+    {
+      "relateString": "前传",
+      "src": 194370,
+      "dst": 193668
+    }
+  ]
 }

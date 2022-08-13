@@ -1,37 +1,34 @@
 {
- "id": 255936,
- "node": [
-  {
-   "id": 255936,
-   "name": "Tecmo Super Bowl",
-   "nameCN": "特库摩超级碗",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/ea/255936_9niiF.jpg",
-   "date": "1991-12-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260858,
-   "name": "テクモボウル",
-   "nameCN": "特库摩碗",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/cd/260858_rIZDZ.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 255936,
-   "dst": 260858
-  },
-  {
-   "relate": "续集",
-   "src": 260858,
-   "dst": 255936
-  }
- ]
+  "id": "255936",
+  "node": [
+    {
+      "id": 255936,
+      "name": "Tecmo Super Bowl",
+      "nameCN": "特库摩超级碗",
+      "date": "1991-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260858,
+      "name": "テクモボウル",
+      "nameCN": "特库摩碗",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 255936,
+      "dst": 260858
+    },
+    {
+      "relateString": "续集",
+      "src": 260858,
+      "dst": 255936
+    }
+  ]
 }

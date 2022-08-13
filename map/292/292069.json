@@ -1,37 +1,34 @@
 {
- "id": 292069,
- "node": [
-  {
-   "id": 292069,
-   "name": "豪学竞技（1）",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/34/292069_6I0rO.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 301687,
-   "name": "豪学竞技（2）",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/46/301687_uiuw3.jpg",
-   "date": "2015-10-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 292069,
-   "dst": 301687
-  },
-  {
-   "relate": "前传",
-   "src": 301687,
-   "dst": 292069
-  }
- ]
+  "id": "292069",
+  "node": [
+    {
+      "id": 292069,
+      "name": "豪学竞技（1）",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 301687,
+      "name": "豪学竞技（2）",
+      "nameCN": "",
+      "date": "2015-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 292069,
+      "dst": 301687
+    },
+    {
+      "relateString": "前传",
+      "src": 301687,
+      "dst": 292069
+    }
+  ]
 }

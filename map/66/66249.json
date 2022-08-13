@@ -1,37 +1,35 @@
 {
- "id": 66249,
- "node": [
-  {
-   "id": 66249,
-   "name": "Brother Bear",
-   "nameCN": "熊的传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/83/66249_kU9VD.jpg",
-   "date": "2003-11-01",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 113082,
-   "name": "Brother Bear 2",
-   "nameCN": "熊的传说2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/c2/113082_XpJRr.jpg",
-   "date": "2006-08-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66249,
-   "dst": 113082
-  },
-  {
-   "relate": "前传",
-   "src": 113082,
-   "dst": 66249
-  }
- ]
+  "id": "66249",
+  "node": [
+    {
+      "id": 66249,
+      "name": "Brother Bear",
+      "nameCN": "熊的传说",
+      "date": "2003-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 113082,
+      "name": "Brother Bear 2",
+      "nameCN": "熊的传说2",
+      "date": "2006-08-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66249,
+      "dst": 113082
+    },
+    {
+      "relateString": "前传",
+      "src": 113082,
+      "dst": 66249
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 269191,
- "node": [
-  {
-   "id": 269191,
-   "name": "新しい王様 Season1",
-   "nameCN": "新的王者",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/db/269191_qJ5gx.jpg",
-   "date": "2019-01-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 269192,
-   "name": "新しい王様 Season2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/1c/269192_yWkyK.jpg",
-   "date": "2019-01-17",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269191,
-   "dst": 269192
-  },
-  {
-   "relate": "前传",
-   "src": 269192,
-   "dst": 269191
-  }
- ]
+  "id": "269191",
+  "node": [
+    {
+      "id": 269191,
+      "name": "新しい王様 Season1",
+      "nameCN": "新的王者",
+      "date": "2019-01-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 269192,
+      "name": "新しい王様 Season2",
+      "nameCN": "",
+      "date": "2019-01-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269191,
+      "dst": 269192
+    },
+    {
+      "relateString": "前传",
+      "src": 269192,
+      "dst": 269191
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 294524,
- "node": [
-  {
-   "id": 294524,
-   "name": "18不限",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/63/294524_0rwZh.jpg",
-   "date": "2017-09-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 294525,
-   "name": "18不限-2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/7d/294525_231oz.jpg",
-   "date": "2018-09-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294524,
-   "dst": 294525
-  },
-  {
-   "relate": "前传",
-   "src": 294525,
-   "dst": 294524
-  }
- ]
+  "id": "294524",
+  "node": [
+    {
+      "id": 294524,
+      "name": "18不限",
+      "nameCN": "",
+      "date": "2017-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 294525,
+      "name": "18不限-2",
+      "nameCN": "",
+      "date": "2018-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294524,
+      "dst": 294525
+    },
+    {
+      "relateString": "前传",
+      "src": 294525,
+      "dst": 294524
+    }
+  ]
 }

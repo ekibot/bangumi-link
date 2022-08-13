@@ -1,37 +1,35 @@
 {
- "id": 216137,
- "node": [
-  {
-   "id": 216137,
-   "name": "食神魂",
-   "nameCN": "食神魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/5c/216137_10qDz.jpg",
-   "date": "2017-05-26",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 222203,
-   "name": "食神魂 第二季",
-   "nameCN": "食神魂 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/37/222203_k2T1U.jpg",
-   "date": "2018-03-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 216137,
-   "dst": 222203
-  },
-  {
-   "relate": "前传",
-   "src": 222203,
-   "dst": 216137
-  }
- ]
+  "id": "216137",
+  "node": [
+    {
+      "id": 216137,
+      "name": "食神魂",
+      "nameCN": "食神魂",
+      "date": "2017-05-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 222203,
+      "name": "食神魂 第二季",
+      "nameCN": "食神魂 第二季",
+      "date": "2018-03-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 216137,
+      "dst": 222203
+    },
+    {
+      "relateString": "前传",
+      "src": 222203,
+      "dst": 216137
+    }
+  ]
 }

@@ -1,29 +1,35 @@
 {
- "id": 165561,
- "node": [
-  {
-   "id": 165561,
-   "name": "World Dominate",
-   "image": "/img/no_icon_subject.png",
-   "date": "2015-12-26"
-  },
-  {
-   "id": 221591,
-   "name": "Ideal Reality",
-   "image": "/img/no_icon_subject.png",
-   "date": "2017-07-08"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165561,
-   "dst": 221591
-  },
-  {
-   "relate": "前传",
-   "src": 221591,
-   "dst": 165561
-  }
- ]
+  "id": "165561",
+  "node": [
+    {
+      "id": 165561,
+      "name": "World Dominate",
+      "nameCN": "",
+      "date": "2015-12-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 221591,
+      "name": "Ideal Reality",
+      "nameCN": "",
+      "date": "2017-07-08",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165561,
+      "dst": 221591
+    },
+    {
+      "relateString": "前传",
+      "src": 221591,
+      "dst": 165561
+    }
+  ]
 }

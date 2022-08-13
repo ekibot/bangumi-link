@@ -1,37 +1,34 @@
 {
- "id": 201115,
- "node": [
-  {
-   "id": 201115,
-   "name": "さよならbaby",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/58/201115_jp.jpg",
-   "date": "2006-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 209728,
-   "name": "仮面ティーチャー",
-   "nameCN": "假面教师",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/09/209728_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 201115,
-   "dst": 209728
-  },
-  {
-   "relate": "番外篇",
-   "src": 209728,
-   "dst": 201115
-  }
- ]
+  "id": "201115",
+  "node": [
+    {
+      "id": 201115,
+      "name": "さよならbaby",
+      "nameCN": "",
+      "date": "2006-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 209728,
+      "name": "仮面ティーチャー",
+      "nameCN": "假面教师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 201115,
+      "dst": 209728
+    },
+    {
+      "relateString": "番外篇",
+      "src": 209728,
+      "dst": 201115
+    }
+  ]
 }

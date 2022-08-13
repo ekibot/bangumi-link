@@ -1,37 +1,35 @@
 {
- "id": 200543,
- "node": [
-  {
-   "id": 200543,
-   "name": "がんがんがんこちゃん",
-   "nameCN": "吵闹的顽固小子",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/26/200543_1Q13I.jpg",
-   "date": "2017-01-23",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 238831,
-   "name": "がんがんがんこちゃん 第2期",
-   "nameCN": "吵闹的顽固小子 第2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/76/238831_Kzvbk.jpg",
-   "date": "2018-02-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 200543,
-   "dst": 238831
-  },
-  {
-   "relate": "前传",
-   "src": 238831,
-   "dst": 200543
-  }
- ]
+  "id": "200543",
+  "node": [
+    {
+      "id": 200543,
+      "name": "がんがんがんこちゃん",
+      "nameCN": "吵闹的顽固小子",
+      "date": "2017-01-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 238831,
+      "name": "がんがんがんこちゃん 第2期",
+      "nameCN": "吵闹的顽固小子 第2期",
+      "date": "2018-02-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 200543,
+      "dst": 238831
+    },
+    {
+      "relateString": "前传",
+      "src": 238831,
+      "dst": 200543
+    }
+  ]
 }

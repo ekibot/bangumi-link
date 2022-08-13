@@ -1,37 +1,35 @@
 {
- "id": 59581,
- "node": [
-  {
-   "id": 59581,
-   "name": "赤ちゃんはどこからくるの?",
-   "nameCN": "为你而生",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/d3/59581_Q44n4.jpg",
-   "date": "2005-10-20",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 68291,
-   "name": "きみのためなら死ねる",
-   "nameCN": "为你而死",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/7b/68291_QLjsU.jpg",
-   "date": "2004-11-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "NDS"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 59581,
-   "dst": 68291
-  },
-  {
-   "relate": "续集",
-   "src": 68291,
-   "dst": 59581
-  }
- ]
+  "id": "59581",
+  "node": [
+    {
+      "id": 59581,
+      "name": "赤ちゃんはどこからくるの?",
+      "nameCN": "为你而生",
+      "date": "2005-10-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 68291,
+      "name": "きみのためなら死ねる",
+      "nameCN": "为你而死",
+      "date": "2004-11-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 59581,
+      "dst": 68291
+    },
+    {
+      "relateString": "续集",
+      "src": 68291,
+      "dst": 59581
+    }
+  ]
 }

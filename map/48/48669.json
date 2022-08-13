@@ -1,76 +1,72 @@
 {
- "id": 48669,
- "node": [
-  {
-   "id": 48669,
-   "name": "戦勇。",
-   "nameCN": "战勇。",
-   "image": "https://lain.bgm.tv/pic/cover/m/cc/0e/48669_T9wFl.jpg",
-   "date": "2013-01-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 69165,
-   "name": "戦勇。第2期",
-   "nameCN": "战勇。第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/00/69165_818aa.jpg",
-   "date": "2013-07-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 101153,
-   "name": "がくモン！～オオカミ少女はくじけない～",
-   "nameCN": "学园怪物！～狼男少女不会屈服～",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/15/101153_Lvwr3.jpg",
-   "date": "2014-04-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 309601,
-   "name": "戦勇F5（Reload）",
-   "nameCN": "战勇F5（Reload）",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/ad/309601_Av16v.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48669,
-   "dst": 69165
-  },
-  {
-   "relate": "相同世界观",
-   "src": 48669,
-   "dst": 101153
-  },
-  {
-   "relate": "前传",
-   "src": 69165,
-   "dst": 48669
-  },
-  {
-   "relate": "相同世界观",
-   "src": 101153,
-   "dst": 48669
-  },
-  {
-   "relate": "主线故事",
-   "src": 309601,
-   "dst": 48669
-  },
-  {
-   "relate": "主线故事",
-   "src": 309601,
-   "dst": 69165
-  }
- ]
+  "id": "48669",
+  "node": [
+    {
+      "id": 48669,
+      "name": "戦勇。",
+      "nameCN": "战勇。",
+      "date": "2013-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 69165,
+      "name": "戦勇。第2期",
+      "nameCN": "战勇。第二季",
+      "date": "2013-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 101153,
+      "name": "がくモン！～オオカミ少女はくじけない～",
+      "nameCN": "学园怪物！～狼男少女不会屈服～",
+      "date": "2014-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 309601,
+      "name": "戦勇F5（Reload）",
+      "nameCN": "战勇F5（Reload）",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48669,
+      "dst": 69165
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 48669,
+      "dst": 101153
+    },
+    {
+      "relateString": "前传",
+      "src": 69165,
+      "dst": 48669
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 101153,
+      "dst": 48669
+    },
+    {
+      "relateString": "主线故事",
+      "src": 309601,
+      "dst": 48669
+    },
+    {
+      "relateString": "主线故事",
+      "src": 309601,
+      "dst": 69165
+    }
+  ]
 }

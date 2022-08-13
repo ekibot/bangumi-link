@@ -1,57 +1,54 @@
 {
- "id": 134752,
- "node": [
-  {
-   "id": 134752,
-   "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/8d/134752_jp.jpg",
-   "date": "2014-09-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 148743,
-   "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/13/148743_jp.jpg",
-   "date": "2015-09-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 193430,
-   "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/ab/193430_jp.jpg",
-   "date": "2016-09-21",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 134752,
-   "dst": 148743
-  },
-  {
-   "relate": "前传",
-   "src": 148743,
-   "dst": 134752
-  },
-  {
-   "relate": "续集",
-   "src": 148743,
-   "dst": 193430
-  },
-  {
-   "relate": "前传",
-   "src": 193430,
-   "dst": 148743
-  }
- ]
+  "id": "134752",
+  "node": [
+    {
+      "id": 134752,
+      "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (1)",
+      "nameCN": "",
+      "date": "2014-09-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 148743,
+      "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (2)",
+      "nameCN": "",
+      "date": "2015-09-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 193430,
+      "name": "くちびるに蝶の骨 ~バタフライ・ルージュ~ (3)",
+      "nameCN": "",
+      "date": "2016-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 134752,
+      "dst": 148743
+    },
+    {
+      "relateString": "前传",
+      "src": 148743,
+      "dst": 134752
+    },
+    {
+      "relateString": "续集",
+      "src": 148743,
+      "dst": 193430
+    },
+    {
+      "relateString": "前传",
+      "src": 193430,
+      "dst": 148743
+    }
+  ]
 }

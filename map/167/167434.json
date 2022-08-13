@@ -1,37 +1,34 @@
 {
- "id": 167434,
- "node": [
-  {
-   "id": 167434,
-   "name": "ガーリッシュ ナンバー",
-   "nameCN": "少女编号",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/31/167434_B0BSn.jpg",
-   "date": "2016-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 212803,
-   "name": "ガーリッシュ ナンバー 修羅",
-   "nameCN": "少女编号 修罗",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/d1/212803_ivHeF.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167434,
-   "dst": 212803
-  },
-  {
-   "relate": "前传",
-   "src": 212803,
-   "dst": 167434
-  }
- ]
+  "id": "167434",
+  "node": [
+    {
+      "id": 167434,
+      "name": "ガーリッシュ ナンバー",
+      "nameCN": "少女编号",
+      "date": "2016-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 212803,
+      "name": "ガーリッシュ ナンバー 修羅",
+      "nameCN": "少女编号 修罗",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167434,
+      "dst": 212803
+    },
+    {
+      "relateString": "前传",
+      "src": 212803,
+      "dst": 167434
+    }
+  ]
 }

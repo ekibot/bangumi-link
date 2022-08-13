@@ -1,37 +1,35 @@
 {
- "id": 176894,
- "node": [
-  {
-   "id": 176894,
-   "name": "Hill Climb Racing",
-   "nameCN": "登山赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/d0/176894_PpDLZ.jpg",
-   "date": "2012-09-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 372505,
-   "name": "Hill Climb Racing 2",
-   "nameCN": "登山赛车 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/d4/372505_JNG4n.jpg",
-   "date": "2016-12-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 176894,
-   "dst": 372505
-  },
-  {
-   "relate": "前传",
-   "src": 372505,
-   "dst": 176894
-  }
- ]
+  "id": "176894",
+  "node": [
+    {
+      "id": 176894,
+      "name": "Hill Climb Racing",
+      "nameCN": "登山赛车",
+      "date": "2012-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 372505,
+      "name": "Hill Climb Racing 2",
+      "nameCN": "登山赛车 2",
+      "date": "2016-12-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 176894,
+      "dst": 372505
+    },
+    {
+      "relateString": "前传",
+      "src": 372505,
+      "dst": 176894
+    }
+  ]
 }

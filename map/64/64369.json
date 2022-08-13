@@ -1,37 +1,34 @@
 {
- "id": 64369,
- "node": [
-  {
-   "id": 64369,
-   "name": "コンビニDMZ",
-   "nameCN": "超商无战事",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/80/64369_fZhPH.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 64375,
-   "name": "コンビニDMZ plus!",
-   "nameCN": "超商无战事 plus",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/db/64375_jp.jpg",
-   "date": "2012-08-08",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64369,
-   "dst": 64375
-  },
-  {
-   "relate": "前传",
-   "src": 64375,
-   "dst": 64369
-  }
- ]
+  "id": "64369",
+  "node": [
+    {
+      "id": 64369,
+      "name": "コンビニDMZ",
+      "nameCN": "超商无战事",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 64375,
+      "name": "コンビニDMZ plus!",
+      "nameCN": "超商无战事 plus",
+      "date": "2012-08-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64369,
+      "dst": 64375
+    },
+    {
+      "relateString": "前传",
+      "src": 64375,
+      "dst": 64369
+    }
+  ]
 }

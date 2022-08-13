@@ -1,37 +1,35 @@
 {
- "id": 30515,
- "node": [
-  {
-   "id": 30515,
-   "name": "マーメイドメロディーぴちぴちピッチ",
-   "nameCN": "人鱼的旋律",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/a7/30515_1kDAD.jpg",
-   "date": "2003-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 67990,
-   "name": "マーメイドメロディー ぴちぴちピッチ ピュア",
-   "nameCN": "人鱼的旋律 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/28/67990_ArglO.jpg",
-   "date": "2004-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30515,
-   "dst": 67990
-  },
-  {
-   "relate": "前传",
-   "src": 67990,
-   "dst": 30515
-  }
- ]
+  "id": "30515",
+  "node": [
+    {
+      "id": 30515,
+      "name": "マーメイドメロディーぴちぴちピッチ",
+      "nameCN": "人鱼的旋律",
+      "date": "2003-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 67990,
+      "name": "マーメイドメロディー ぴちぴちピッチ ピュア",
+      "nameCN": "人鱼的旋律 第二季",
+      "date": "2004-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30515,
+      "dst": 67990
+    },
+    {
+      "relateString": "前传",
+      "src": 67990,
+      "dst": 30515
+    }
+  ]
 }

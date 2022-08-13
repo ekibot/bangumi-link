@@ -1,37 +1,35 @@
 {
- "id": 72749,
- "node": [
-  {
-   "id": 72749,
-   "name": "Dance Evolution",
-   "nameCN": "舞蹈进化",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/0c/72749_setQ3.jpg",
-   "date": "2010-11-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 243421,
-   "name": "DANCERUSH STARDOM",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/2b/243421_nxxNZ.jpg",
-   "date": "2018-03-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72749,
-   "dst": 243421
-  },
-  {
-   "relate": "前传",
-   "src": 243421,
-   "dst": 72749
-  }
- ]
+  "id": "72749",
+  "node": [
+    {
+      "id": 72749,
+      "name": "Dance Evolution",
+      "nameCN": "舞蹈进化",
+      "date": "2010-11-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 243421,
+      "name": "DANCERUSH STARDOM",
+      "nameCN": "",
+      "date": "2018-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72749,
+      "dst": 243421
+    },
+    {
+      "relateString": "前传",
+      "src": 243421,
+      "dst": 72749
+    }
+  ]
 }

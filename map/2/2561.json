@@ -1,57 +1,54 @@
 {
- "id": 2561,
- "node": [
-  {
-   "id": 2561,
-   "name": "ハケンの品格",
-   "nameCN": "派遣员的品格",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/eb/2561_Te999.jpg",
-   "date": "2007-01-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 298440,
-   "name": "ハケンの品格",
-   "nameCN": "派遣员的品格 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/47/298440_7L39t.jpg",
-   "date": "2020-06-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 304387,
-   "name": "春子の物語 ハケンの品格2007特別編",
-   "nameCN": "派遣员的品格 特别篇SP 春子的故事",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/1a/304387_geyjN.jpg",
-   "date": "2020-04-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2561,
-   "dst": 298440
-  },
-  {
-   "relate": "总集篇",
-   "src": 2561,
-   "dst": 304387
-  },
-  {
-   "relate": "前传",
-   "src": 298440,
-   "dst": 2561
-  },
-  {
-   "relate": "全集",
-   "src": 304387,
-   "dst": 2561
-  }
- ]
+  "id": "2561",
+  "node": [
+    {
+      "id": 2561,
+      "name": "ハケンの品格",
+      "nameCN": "派遣员的品格",
+      "date": "2007-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 298440,
+      "name": "ハケンの品格",
+      "nameCN": "派遣员的品格 2",
+      "date": "2020-06-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 304387,
+      "name": "春子の物語 ハケンの品格2007特別編",
+      "nameCN": "派遣员的品格 特别篇SP 春子的故事",
+      "date": "2020-04-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2561,
+      "dst": 298440
+    },
+    {
+      "relateString": "总集篇",
+      "src": 2561,
+      "dst": 304387
+    },
+    {
+      "relateString": "前传",
+      "src": 298440,
+      "dst": 2561
+    },
+    {
+      "relateString": "全集",
+      "src": 304387,
+      "dst": 2561
+    }
+  ]
 }

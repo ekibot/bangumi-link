@@ -1,37 +1,35 @@
 {
- "id": 84183,
- "node": [
-  {
-   "id": 84183,
-   "name": "イノサン",
-   "nameCN": "纯真的人",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/5f/84183_16ZKT.jpg",
-   "date": "2013-01-31",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 149172,
-   "name": "イノサンRougeルージュ",
-   "nameCN": "纯真之人 Rouge",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/71/149172_c88o6.jpg",
-   "date": "2015-10-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84183,
-   "dst": 149172
-  },
-  {
-   "relate": "前传",
-   "src": 149172,
-   "dst": 84183
-  }
- ]
+  "id": "84183",
+  "node": [
+    {
+      "id": 84183,
+      "name": "イノサン",
+      "nameCN": "纯真的人",
+      "date": "2013-01-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 149172,
+      "name": "イノサンRougeルージュ",
+      "nameCN": "纯真之人 Rouge",
+      "date": "2015-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84183,
+      "dst": 149172
+    },
+    {
+      "relateString": "前传",
+      "src": 149172,
+      "dst": 84183
+    }
+  ]
 }

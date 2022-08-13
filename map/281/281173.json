@@ -1,57 +1,54 @@
 {
- "id": 281173,
- "node": [
-  {
-   "id": 281173,
-   "name": "監察医 朝顔",
-   "nameCN": "监察医 朝颜",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/77/281173_WWP59.jpg",
-   "date": "2019-07-08",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 301800,
-   "name": "監察医 朝顔2",
-   "nameCN": "监察医 朝颜2",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/b1/301800_DpNmB.jpg",
-   "date": "2020-11-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 394722,
-   "name": "監察医 朝顔2022スペシャル",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/d4/394722_JY6HB.jpg",
-   "date": "2022-09-26",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 281173,
-   "dst": 301800
-  },
-  {
-   "relate": "前传",
-   "src": 301800,
-   "dst": 281173
-  },
-  {
-   "relate": "续集",
-   "src": 301800,
-   "dst": 394722
-  },
-  {
-   "relate": "前传",
-   "src": 394722,
-   "dst": 301800
-  }
- ]
+  "id": "281173",
+  "node": [
+    {
+      "id": 281173,
+      "name": "監察医 朝顔",
+      "nameCN": "监察医 朝颜",
+      "date": "2019-07-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 301800,
+      "name": "監察医 朝顔2",
+      "nameCN": "监察医 朝颜2",
+      "date": "2020-11-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 394722,
+      "name": "監察医 朝顔2022スペシャル",
+      "nameCN": "",
+      "date": "2022-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 281173,
+      "dst": 301800
+    },
+    {
+      "relateString": "前传",
+      "src": 301800,
+      "dst": 281173
+    },
+    {
+      "relateString": "续集",
+      "src": 301800,
+      "dst": 394722
+    },
+    {
+      "relateString": "前传",
+      "src": 394722,
+      "dst": 301800
+    }
+  ]
 }

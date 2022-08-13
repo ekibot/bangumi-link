@@ -1,57 +1,54 @@
 {
- "id": 237423,
- "node": [
-  {
-   "id": 237423,
-   "name": "ケムリクサ",
-   "nameCN": "烟草",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/01/237423_S1Sxz.jpg",
-   "date": "2019-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 271284,
-   "name": "ケムリクサ",
-   "nameCN": "烟草",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/28/271284_mR0d0.jpg",
-   "date": "2012-11-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 280213,
-   "name": "「どん兵衛×ケムリクサ」コラボCM",
-   "nameCN": "日清「冬兵卫×烟草」合作CM",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/c6/280213_pcM0p.jpg",
-   "date": "2019-02-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 237423,
-   "dst": 271284
-  },
-  {
-   "relate": "衍生",
-   "src": 237423,
-   "dst": 280213
-  },
-  {
-   "relate": "不同演绎",
-   "src": 271284,
-   "dst": 237423
-  },
-  {
-   "relate": "主线故事",
-   "src": 280213,
-   "dst": 237423
-  }
- ]
+  "id": "237423",
+  "node": [
+    {
+      "id": 237423,
+      "name": "ケムリクサ",
+      "nameCN": "烟草",
+      "date": "2019-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 271284,
+      "name": "ケムリクサ",
+      "nameCN": "烟草",
+      "date": "2010-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 280213,
+      "name": "「どん兵衛×ケムリクサ」コラボCM",
+      "nameCN": "日清「冬兵卫×烟草」合作CM",
+      "date": "2019-02-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 237423,
+      "dst": 271284
+    },
+    {
+      "relateString": "衍生",
+      "src": 237423,
+      "dst": 280213
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 271284,
+      "dst": 237423
+    },
+    {
+      "relateString": "主线故事",
+      "src": 280213,
+      "dst": 237423
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 219779,
- "node": [
-  {
-   "id": 219779,
-   "name": "デビルズライン",
-   "nameCN": "魔性之线DEVIL'S LINE",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/bc/219779_81F01.jpg",
-   "date": "2018-04-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 299378,
-   "name": "デビルズライン OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/74/299378_h93nH.jpg",
-   "date": "2018-08-23",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219779,
-   "dst": 299378
-  },
-  {
-   "relate": "前传",
-   "src": 299378,
-   "dst": 219779
-  }
- ]
+  "id": "219779",
+  "node": [
+    {
+      "id": 219779,
+      "name": "デビルズライン",
+      "nameCN": "魔性之线DEVIL'S LINE",
+      "date": "2018-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 299378,
+      "name": "デビルズライン OAD",
+      "nameCN": "",
+      "date": "2018-08-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219779,
+      "dst": 299378
+    },
+    {
+      "relateString": "前传",
+      "src": 299378,
+      "dst": 219779
+    }
+  ]
 }

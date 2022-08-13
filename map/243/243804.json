@@ -1,37 +1,35 @@
 {
- "id": 243804,
- "node": [
-  {
-   "id": 243804,
-   "name": "アリス in Junk Box Dia ~藤丸豆ノ介アリスシリーズ短編集~",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/60/243804_n6ShQ.jpg",
-   "date": "2014-12-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 243809,
-   "name": "アリス in JunkBox ~藤丸豆ノ介アリスシリース短編集~",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/3f/243809_Z22ni.jpg",
-   "nameCN": "爱丽丝 in Junk Box ~藤丸豆ノ介爱丽丝系列短篇集~",
-   "date": "2014-03-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 243804,
-   "dst": 243809
-  },
-  {
-   "relate": "续集",
-   "src": 243809,
-   "dst": 243804
-  }
- ]
+  "id": "243804",
+  "node": [
+    {
+      "id": 243804,
+      "name": "アリス in Junk Box Dia ~藤丸豆ノ介アリスシリーズ短編集~",
+      "nameCN": "",
+      "date": "2014-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 243809,
+      "name": "アリス in JunkBox ~藤丸豆ノ介アリスシリース短編集~",
+      "nameCN": "爱丽丝 in Junk Box ~藤丸豆ノ介爱丽丝系列短篇集~",
+      "date": "2014-03-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 243804,
+      "dst": 243809
+    },
+    {
+      "relateString": "续集",
+      "src": 243809,
+      "dst": 243804
+    }
+  ]
 }

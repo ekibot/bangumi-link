@@ -1,57 +1,51 @@
 {
- "id": 48058,
- "node": [
-  {
-   "id": 48058,
-   "name": "バーテンダー",
-   "nameCN": "调酒师",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/98/48058_Z2L52.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 192570,
-   "name": "バーテンダー a Paris",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/e2/192570_L5Ll5.jpg",
-   "date": null,
-   "nameCN": "王牌酒保a Paris",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 192580,
-   "name": "バーテンダー a Tokyo",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/c9/192580_LM8LC.jpg",
-   "date": null,
-   "nameCN": "王牌酒保a Tokyo",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48058,
-   "dst": 192570
-  },
-  {
-   "relate": "前传",
-   "src": 192570,
-   "dst": 48058
-  },
-  {
-   "relate": "续集",
-   "src": 192570,
-   "dst": 192580
-  },
-  {
-   "relate": "前传",
-   "src": 192580,
-   "dst": 192570
-  }
- ]
+  "id": "48058",
+  "node": [
+    {
+      "id": 48058,
+      "name": "バーテンダー",
+      "nameCN": "调酒师",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 192570,
+      "name": "バーテンダー a Paris",
+      "nameCN": "王牌酒保a Paris",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 192580,
+      "name": "バーテンダー a Tokyo",
+      "nameCN": "王牌酒保a Tokyo",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48058,
+      "dst": 192570
+    },
+    {
+      "relateString": "前传",
+      "src": 192570,
+      "dst": 48058
+    },
+    {
+      "relateString": "续集",
+      "src": 192570,
+      "dst": 192580
+    },
+    {
+      "relateString": "前传",
+      "src": 192580,
+      "dst": 192570
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 78239,
- "node": [
-  {
-   "id": 78239,
-   "name": "夜空のすみっこで、",
-   "nameCN": "在夜空下相遇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/58/78239_zSGiI.jpg",
-   "date": "2013-07-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 322311,
-   "name": "夜明けにふる、",
-   "nameCN": "黎明的堕落",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/3b/322311_gco6C.jpg",
-   "date": "2018-12-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78239,
-   "dst": 322311
-  },
-  {
-   "relate": "前传",
-   "src": 322311,
-   "dst": 78239
-  }
- ]
+  "id": "78239",
+  "node": [
+    {
+      "id": 78239,
+      "name": "夜空のすみっこで、",
+      "nameCN": "在夜空下相遇",
+      "date": "2013-07-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322311,
+      "name": "夜明けにふる、",
+      "nameCN": "黎明的堕落",
+      "date": "2018-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78239,
+      "dst": 322311
+    },
+    {
+      "relateString": "前传",
+      "src": 322311,
+      "dst": 78239
+    }
+  ]
 }

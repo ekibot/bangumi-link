@@ -1,37 +1,35 @@
 {
- "id": 300113,
- "node": [
-  {
-   "id": 300113,
-   "name": "XIゴ",
-   "nameCN": "最后的骰子",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/89/300113_BtVEF.jpg",
-   "date": "2002-12-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 300156,
-   "name": "Devil Dice",
-   "nameCN": "魔鬼骰子",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/4b/300156_kPCnd.jpg",
-   "date": "1998-06-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 300113,
-   "dst": 300156
-  },
-  {
-   "relate": "续集",
-   "src": 300156,
-   "dst": 300113
-  }
- ]
+  "id": "300113",
+  "node": [
+    {
+      "id": 300113,
+      "name": "XIゴ",
+      "nameCN": "最后的骰子",
+      "date": "2002-12-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 300156,
+      "name": "Devil Dice",
+      "nameCN": "魔鬼骰子",
+      "date": "1998-06-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 300113,
+      "dst": 300156
+    },
+    {
+      "relateString": "续集",
+      "src": 300156,
+      "dst": 300113
+    }
+  ]
 }

@@ -1,57 +1,51 @@
 {
- "id": 22267,
- "node": [
-  {
-   "id": 22267,
-   "name": "星界の戦旗",
-   "nameCN": "星界的战旗",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/00/22267_eC8ve.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 22273,
-   "name": "星界の紋章",
-   "nameCN": "星界的纹章",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/60/22273_EVqM3.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 22277,
-   "name": "星界の断章",
-   "nameCN": "星界的斷章",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/56/22277_s8OHz.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 22267,
-   "dst": 22273
-  },
-  {
-   "relate": "续集",
-   "src": 22273,
-   "dst": 22267
-  },
-  {
-   "relate": "番外篇",
-   "src": 22273,
-   "dst": 22277
-  },
-  {
-   "relate": "主线故事",
-   "src": 22277,
-   "dst": 22273
-  }
- ]
+  "id": "22267",
+  "node": [
+    {
+      "id": 22267,
+      "name": "星界の戦旗",
+      "nameCN": "星界的战旗",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 22273,
+      "name": "星界の紋章",
+      "nameCN": "星界的纹章",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 22277,
+      "name": "星界の断章",
+      "nameCN": "星界的斷章",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 22267,
+      "dst": 22273
+    },
+    {
+      "relateString": "续集",
+      "src": 22273,
+      "dst": 22267
+    },
+    {
+      "relateString": "番外篇",
+      "src": 22273,
+      "dst": 22277
+    },
+    {
+      "relateString": "主线故事",
+      "src": 22277,
+      "dst": 22273
+    }
+  ]
 }

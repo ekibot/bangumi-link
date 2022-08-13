@@ -1,37 +1,35 @@
 {
- "id": 95066,
- "node": [
-  {
-   "id": 95066,
-   "name": "LOVE SO LIFE",
-   "nameCN": "LOVE SO LIFE～温馨的爱～",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/87/95066_6h44X.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 233438,
-   "name": "LIFE SO HAPPY",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/d3/233438_AraV0.jpg",
-   "date": "2016-12-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 95066,
-   "dst": 233438
-  },
-  {
-   "relate": "前传",
-   "src": 233438,
-   "dst": 95066
-  }
- ]
+  "id": "95066",
+  "node": [
+    {
+      "id": 95066,
+      "name": "LOVE SO LIFE",
+      "nameCN": "LOVE SO LIFE～温馨的爱～",
+      "date": "2009-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 233438,
+      "name": "LIFE SO HAPPY",
+      "nameCN": "",
+      "date": "2016-12-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 95066,
+      "dst": 233438
+    },
+    {
+      "relateString": "前传",
+      "src": 233438,
+      "dst": 95066
+    }
+  ]
 }

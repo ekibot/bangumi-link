@@ -1,37 +1,35 @@
 {
- "id": 318821,
- "node": [
-  {
-   "id": 318821,
-   "name": "アーリエル クリスタル伝説",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/16/318821_dEnC4.jpg",
-   "date": "1991-12-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 318823,
-   "name": "ロイアルストーン 開かれし時の扉",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/c0/318823_Bv2mB.jpg",
-   "date": "1995-02-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 318821,
-   "dst": 318823
-  },
-  {
-   "relate": "前传",
-   "src": 318823,
-   "dst": 318821
-  }
- ]
+  "id": "318821",
+  "node": [
+    {
+      "id": 318821,
+      "name": "アーリエル クリスタル伝説",
+      "nameCN": "",
+      "date": "1991-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 318823,
+      "name": "ロイアルストーン 開かれし時の扉",
+      "nameCN": "",
+      "date": "1995-02-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 318821,
+      "dst": 318823
+    },
+    {
+      "relateString": "前传",
+      "src": 318823,
+      "dst": 318821
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 9774,
- "node": [
-  {
-   "id": 9774,
-   "name": "これはゾンビですか?",
-   "nameCN": "这个是僵尸吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/36/9774_pWnwE.jpg",
-   "date": "2011-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 18797,
-   "name": "これはゾンビですか? オブ・ザ・デッド",
-   "nameCN": "这个是僵尸吗？OF THE DEAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/2e/18797_XZ7R7.jpg",
-   "date": "2012-04-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 39195,
-   "name": "これはゾンビですか? OAD",
-   "nameCN": "这个是僵尸吗？ OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/4a/39195_zwgaw.jpg",
-   "date": "2011-06-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9774,
-   "dst": 18797
-  },
-  {
-   "relate": "番外篇",
-   "src": 9774,
-   "dst": 39195
-  },
-  {
-   "relate": "前传",
-   "src": 18797,
-   "dst": 9774
-  },
-  {
-   "relate": "番外篇",
-   "src": 18797,
-   "dst": 39195
-  },
-  {
-   "relate": "主线故事",
-   "src": 39195,
-   "dst": 9774
-  },
-  {
-   "relate": "主线故事",
-   "src": 39195,
-   "dst": 18797
-  }
- ]
+  "id": "9774",
+  "node": [
+    {
+      "id": 9774,
+      "name": "これはゾンビですか?",
+      "nameCN": "这个是僵尸吗？",
+      "date": "2011-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 18797,
+      "name": "これはゾンビですか? オブ・ザ・デッド",
+      "nameCN": "这个是僵尸吗？OF THE DEAD",
+      "date": "2012-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 39195,
+      "name": "これはゾンビですか? OAD",
+      "nameCN": "这个是僵尸吗？ OAD",
+      "date": "2011-06-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9774,
+      "dst": 18797
+    },
+    {
+      "relateString": "番外篇",
+      "src": 9774,
+      "dst": 39195
+    },
+    {
+      "relateString": "前传",
+      "src": 18797,
+      "dst": 9774
+    },
+    {
+      "relateString": "番外篇",
+      "src": 18797,
+      "dst": 39195
+    },
+    {
+      "relateString": "主线故事",
+      "src": 39195,
+      "dst": 9774
+    },
+    {
+      "relateString": "主线故事",
+      "src": 39195,
+      "dst": 18797
+    }
+  ]
 }

@@ -1,37 +1,33 @@
 {
- "id": 82893,
- "node": [
-  {
-   "id": 82893,
-   "name": "ガールズザウルス",
-   "nameCN": "美女恐龙妹",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/f6/82893_sTOZs.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 91263,
-   "name": "ガールズザウルスDX",
-   "nameCN": "美女恐龙妹DX",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/62/91263_iCvwY.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82893,
-   "dst": 91263
-  },
-  {
-   "relate": "前传",
-   "src": 91263,
-   "dst": 82893
-  }
- ]
+  "id": "82893",
+  "node": [
+    {
+      "id": 82893,
+      "name": "ガールズザウルス",
+      "nameCN": "美女恐龙妹",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 91263,
+      "name": "ガールズザウルスDX",
+      "nameCN": "美女恐龙妹DX",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82893,
+      "dst": 91263
+    },
+    {
+      "relateString": "前传",
+      "src": 91263,
+      "dst": 82893
+    }
+  ]
 }

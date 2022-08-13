@@ -1,28 +1,34 @@
 {
- "id": 284715,
- "node": [
-  {
-   "id": 284715,
-   "name": "転生した大聖女は、聖女であることをひた隠す",
-   "nameCN": "转生了的大圣女，拼死隐瞒自己身为圣女",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/fa/284715_7lk7Y.jpg",
-   "date": "2019-06-15",
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 391824,
-   "name": "転生した大聖女は、聖女であることをひた隠す ZERO",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/71/391824_xB06n.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 284715,
-   "dst": 391824
-  }
- ]
+  "id": "284715",
+  "node": [
+    {
+      "id": 284715,
+      "name": "転生した大聖女は、聖女であることをひた隠す",
+      "nameCN": "转生了的大圣女，拼死隐瞒自己身为圣女",
+      "date": "2019-06-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 391824,
+      "name": "転生した大聖女は、聖女であることをひた隠す ZERO",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 284715,
+      "dst": 391824
+    },
+    {
+      "relateString": "续集",
+      "src": 391824,
+      "dst": 284715
+    }
+  ]
 }

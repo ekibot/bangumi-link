@@ -1,77 +1,73 @@
 {
- "id": 12770,
- "node": [
-  {
-   "id": 12770,
-   "name": "Arrested Development Season 1",
-   "nameCN": "发展受阻 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/7c/12770_Q01PP.jpg",
-   "date": "2003-11-02",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 75148,
-   "name": "Arrested Development Season 2",
-   "nameCN": "发展受阻 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/5f/75148_QGN8F.jpg",
-   "date": "2004-11-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86489,
-   "name": "Arrested Development Season 3",
-   "nameCN": "发展受阻 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/eb/86489_b1ezW.jpg",
-   "date": "2005-09-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 86490,
-   "name": "Arrested Development Season 4",
-   "nameCN": "发展受阻 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/e5/86490_9aZW6.jpg",
-   "date": "2013-05-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 12770,
-   "dst": 75148
-  },
-  {
-   "relate": "前传",
-   "src": 75148,
-   "dst": 12770
-  },
-  {
-   "relate": "续集",
-   "src": 75148,
-   "dst": 86489
-  },
-  {
-   "relate": "前传",
-   "src": 86489,
-   "dst": 75148
-  },
-  {
-   "relate": "续集",
-   "src": 86489,
-   "dst": 86490
-  },
-  {
-   "relate": "前传",
-   "src": 86490,
-   "dst": 86489
-  }
- ]
+  "id": "12770",
+  "node": [
+    {
+      "id": 12770,
+      "name": "Arrested Development Season 1",
+      "nameCN": "发展受阻 第一季",
+      "date": "2003-11-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 75148,
+      "name": "Arrested Development Season 2",
+      "nameCN": "发展受阻 第二季",
+      "date": "2004-11-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86489,
+      "name": "Arrested Development Season 3",
+      "nameCN": "发展受阻 第三季",
+      "date": "2005-09-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 86490,
+      "name": "Arrested Development Season 4",
+      "nameCN": "发展受阻 第四季",
+      "date": "2013-05-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 12770,
+      "dst": 75148
+    },
+    {
+      "relateString": "前传",
+      "src": 75148,
+      "dst": 12770
+    },
+    {
+      "relateString": "续集",
+      "src": 75148,
+      "dst": 86489
+    },
+    {
+      "relateString": "前传",
+      "src": 86489,
+      "dst": 75148
+    },
+    {
+      "relateString": "续集",
+      "src": 86489,
+      "dst": 86490
+    },
+    {
+      "relateString": "前传",
+      "src": 86490,
+      "dst": 86489
+    }
+  ]
 }

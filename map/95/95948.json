@@ -1,67 +1,64 @@
 {
- "id": 95948,
- "node": [
-  {
-   "id": 95948,
-   "name": "マッハGoGoGo",
-   "nameCN": "马赫5号",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/bd/95948_pqpAS.jpg",
-   "date": "1967-04-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 95949,
-   "name": "マッハGoGoGo",
-   "nameCN": "马赫5号",
-   "image": "https://lain.bgm.tv/pic/cover/m/5d/da/95949_vhQvJ.jpg",
-   "date": "1997-01-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 139469,
-   "name": "マッハガール",
-   "nameCN": "Mach Girl",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/9a/139469_oaPo7.jpg",
-   "date": "2008-09-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 95948,
-   "dst": 95949
-  },
-  {
-   "relate": "衍生",
-   "src": 95948,
-   "dst": 139469
-  },
-  {
-   "relate": "前传",
-   "src": 95949,
-   "dst": 95948
-  },
-  {
-   "relate": "衍生",
-   "src": 95949,
-   "dst": 139469
-  },
-  {
-   "relate": "主线故事",
-   "src": 139469,
-   "dst": 95948
-  },
-  {
-   "relate": "主线故事",
-   "src": 139469,
-   "dst": 95949
-  }
- ]
+  "id": "95948",
+  "node": [
+    {
+      "id": 95948,
+      "name": "マッハGoGoGo",
+      "nameCN": "马赫5号",
+      "date": "1967-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 95949,
+      "name": "マッハGoGoGo",
+      "nameCN": "马赫5号",
+      "date": "1997-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 139469,
+      "name": "マッハガール",
+      "nameCN": "Mach Girl",
+      "date": "2008-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 95948,
+      "dst": 95949
+    },
+    {
+      "relateString": "衍生",
+      "src": 95948,
+      "dst": 139469
+    },
+    {
+      "relateString": "前传",
+      "src": 95949,
+      "dst": 95948
+    },
+    {
+      "relateString": "衍生",
+      "src": 95949,
+      "dst": 139469
+    },
+    {
+      "relateString": "主线故事",
+      "src": 139469,
+      "dst": 95948
+    },
+    {
+      "relateString": "主线故事",
+      "src": 139469,
+      "dst": 95949
+    }
+  ]
 }

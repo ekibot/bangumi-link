@@ -1,37 +1,35 @@
 {
- "id": 73721,
- "node": [
-  {
-   "id": 73721,
-   "name": "Hitman",
-   "nameCN": "杀手 代号47",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/69/73721_RC4vi.jpg",
-   "date": "2007-11-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 154662,
-   "name": "Hitman: Agent 47",
-   "nameCN": "代号47",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/5a/154662_929dI.jpg",
-   "date": "2015-08-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 73721,
-   "dst": 154662
-  },
-  {
-   "relate": "不同演绎",
-   "src": 154662,
-   "dst": 73721
-  }
- ]
+  "id": "73721",
+  "node": [
+    {
+      "id": 73721,
+      "name": "Hitman",
+      "nameCN": "杀手 代号47",
+      "date": "2007-11-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 154662,
+      "name": "Hitman: Agent 47",
+      "nameCN": "代号47",
+      "date": "2015-08-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 73721,
+      "dst": 154662
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 154662,
+      "dst": 73721
+    }
+  ]
 }

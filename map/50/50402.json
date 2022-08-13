@@ -1,37 +1,34 @@
 {
- "id": 50402,
- "node": [
-  {
-   "id": 50402,
-   "name": "DESIRE",
-   "nameCN": "欲望",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/c6/50402_84g1s.jpg",
-   "date": "1997-11-04",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 50435,
-   "name": "DESIRE 2nd season",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/6d/50435_2Mqv9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 50402,
-   "dst": 50435
-  },
-  {
-   "relate": "前传",
-   "src": 50435,
-   "dst": 50402
-  }
- ]
+  "id": "50402",
+  "node": [
+    {
+      "id": 50402,
+      "name": "DESIRE",
+      "nameCN": "欲望",
+      "date": "1997-11-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 50435,
+      "name": "DESIRE 2nd season",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 50402,
+      "dst": 50435
+    },
+    {
+      "relateString": "前传",
+      "src": 50435,
+      "dst": 50402
+    }
+  ]
 }

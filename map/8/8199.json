@@ -1,0 +1,73 @@
+{
+  "id": "8199",
+  "node": [
+    {
+      "id": 8199,
+      "name": "Gargoyles Season 1",
+      "nameCN": "夜行神龙 第一季",
+      "date": "1994-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 112503,
+      "name": "Gargoyles: The Heroes Awaken",
+      "nameCN": "夜行神龙电影版",
+      "date": "1995-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 347340,
+      "name": "Gargoyles Season 2",
+      "nameCN": "夜行神龙 第二季",
+      "date": "1995-09-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 347364,
+      "name": "Gargoyles: The Goliath Chronicles",
+      "nameCN": "夜行神龙 第三季",
+      "date": "1996-09-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 8199,
+      "dst": 112503
+    },
+    {
+      "relateString": "续集",
+      "src": 8199,
+      "dst": 347340
+    },
+    {
+      "relateString": "主线故事",
+      "src": 112503,
+      "dst": 8199
+    },
+    {
+      "relateString": "前传",
+      "src": 347340,
+      "dst": 8199
+    },
+    {
+      "relateString": "续集",
+      "src": 347340,
+      "dst": 347364
+    },
+    {
+      "relateString": "前传",
+      "src": 347364,
+      "dst": 347340
+    }
+  ]
+}

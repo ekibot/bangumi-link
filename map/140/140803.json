@@ -1,67 +1,64 @@
 {
- "id": 140803,
- "node": [
-  {
-   "id": 140803,
-   "name": "ビューティーハニー 第2巻",
-   "nameCN": "Beauty Honey 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/f6/140803_jp.jpg",
-   "date": "2008-06-05",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 140804,
-   "name": "ビューティーハニー 第1巻",
-   "nameCN": "Beauty Honey 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/32/140804_jp.jpg",
-   "date": "2007-09-05",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 140805,
-   "name": "ビューティーハニー 第3巻",
-   "nameCN": "Beauty Honey 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/e4/140805_jp.jpg",
-   "date": "2009-03-05",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 140803,
-   "dst": 140804
-  },
-  {
-   "relate": "续集",
-   "src": 140803,
-   "dst": 140805
-  },
-  {
-   "relate": "续集",
-   "src": 140804,
-   "dst": 140803
-  },
-  {
-   "relate": "续集",
-   "src": 140804,
-   "dst": 140805
-  },
-  {
-   "relate": "前传",
-   "src": 140805,
-   "dst": 140803
-  },
-  {
-   "relate": "前传",
-   "src": 140805,
-   "dst": 140804
-  }
- ]
+  "id": "140803",
+  "node": [
+    {
+      "id": 140803,
+      "name": "ビューティーハニー 第2巻",
+      "nameCN": "Beauty Honey 2",
+      "date": "2008-06-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 140804,
+      "name": "ビューティーハニー 第1巻",
+      "nameCN": "Beauty Honey 1",
+      "date": "2007-09-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 140805,
+      "name": "ビューティーハニー 第3巻",
+      "nameCN": "Beauty Honey 3",
+      "date": "2009-03-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 140803,
+      "dst": 140804
+    },
+    {
+      "relateString": "续集",
+      "src": 140803,
+      "dst": 140805
+    },
+    {
+      "relateString": "续集",
+      "src": 140804,
+      "dst": 140803
+    },
+    {
+      "relateString": "续集",
+      "src": 140804,
+      "dst": 140805
+    },
+    {
+      "relateString": "前传",
+      "src": 140805,
+      "dst": 140803
+    },
+    {
+      "relateString": "前传",
+      "src": 140805,
+      "dst": 140804
+    }
+  ]
 }

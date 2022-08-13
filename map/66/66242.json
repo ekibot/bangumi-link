@@ -1,37 +1,35 @@
 {
- "id": 66242,
- "node": [
-  {
-   "id": 66242,
-   "name": "Pocahontas",
-   "nameCN": "风中奇缘",
-   "image": "https://lain.bgm.tv/pic/cover/m/3b/6d/66242_V2T0R.jpg",
-   "date": "1995-06-23",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 112354,
-   "name": "Pocahontas II: Journey to a New World",
-   "nameCN": "风中奇缘2",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/44/112354_677KX.jpg",
-   "date": "1998-08-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66242,
-   "dst": 112354
-  },
-  {
-   "relate": "前传",
-   "src": 112354,
-   "dst": 66242
-  }
- ]
+  "id": "66242",
+  "node": [
+    {
+      "id": 66242,
+      "name": "Pocahontas",
+      "nameCN": "风中奇缘",
+      "date": "1995-06-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112354,
+      "name": "Pocahontas II: Journey to a New World",
+      "nameCN": "风中奇缘2",
+      "date": "1998-08-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66242,
+      "dst": 112354
+    },
+    {
+      "relateString": "前传",
+      "src": 112354,
+      "dst": 66242
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 20699,
- "node": [
-  {
-   "id": 20699,
-   "name": "DOGS / BULLETS &amp; CARNAGE",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/05/20699_C9mZ7.jpg",
-   "date": "2006-10-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 51717,
-   "name": "狗-DOGS-",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/ad/51717_rIgXv.jpg",
-   "date": "2001-12-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 20699,
-   "dst": 51717
-  },
-  {
-   "relate": "续集",
-   "src": 51717,
-   "dst": 20699
-  }
- ]
+  "id": "20699",
+  "node": [
+    {
+      "id": 20699,
+      "name": "DOGS / BULLETS &amp; CARNAGE",
+      "nameCN": "",
+      "date": "2006-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 51717,
+      "name": "狗-DOGS-",
+      "nameCN": "",
+      "date": "2001-12-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 20699,
+      "dst": 51717
+    },
+    {
+      "relateString": "续集",
+      "src": 51717,
+      "dst": 20699
+    }
+  ]
 }

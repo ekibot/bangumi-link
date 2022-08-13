@@ -1,37 +1,34 @@
 {
- "id": 236721,
- "node": [
-  {
-   "id": 236721,
-   "name": "ごはんのおとも 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/6d/236721_us.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 1
-  },
-  {
-   "id": 236724,
-   "name": "ごはんのおとも",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/52/236724_643Vd.jpg",
-   "date": "2015-02-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 236721,
-   "dst": 236724
-  },
-  {
-   "relate": "续集",
-   "src": 236724,
-   "dst": 236721
-  }
- ]
+  "id": "236721",
+  "node": [
+    {
+      "id": 236721,
+      "name": "ごはんのおとも 2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 236724,
+      "name": "ごはんのおとも",
+      "nameCN": "",
+      "date": "2015-02-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 236721,
+      "dst": 236724
+    },
+    {
+      "relateString": "续集",
+      "src": 236724,
+      "dst": 236721
+    }
+  ]
 }

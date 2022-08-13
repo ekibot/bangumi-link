@@ -1,37 +1,35 @@
 {
- "id": 84004,
- "node": [
-  {
-   "id": 84004,
-   "name": "INTERACT PLAY VR",
-   "nameCN": "电车之狼VR",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/ac/84004_zUp4y.jpg",
-   "date": "2001-08-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84005,
-   "name": "INTERACT PLAY",
-   "nameCN": "电车之狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/5c/84005_ba8An.jpg",
-   "type": 4,
-   "date": "2000-11-02",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 84004,
-   "dst": 84005
-  },
-  {
-   "relate": "相同世界观",
-   "src": 84005,
-   "dst": 84004
-  }
- ]
+  "id": "84004",
+  "node": [
+    {
+      "id": 84004,
+      "name": "INTERACT PLAY VR",
+      "nameCN": "电车之狼VR",
+      "date": "2001-08-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84005,
+      "name": "INTERACT PLAY",
+      "nameCN": "电车之狼",
+      "date": "2000-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 84004,
+      "dst": 84005
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 84005,
+      "dst": 84004
+    }
+  ]
 }

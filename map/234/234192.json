@@ -1,37 +1,35 @@
 {
- "id": 234192,
- "node": [
-  {
-   "id": 234192,
-   "name": "Poly Bridge",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/79/234192_Ms1tm.jpg",
-   "date": "2016-07-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 306933,
-   "name": "Poly Bridge 2",
-   "nameCN": "桥梁建造师2",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/93/306933_cBx1b.jpg",
-   "date": "2020-05-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234192,
-   "dst": 306933
-  },
-  {
-   "relate": "前传",
-   "src": 306933,
-   "dst": 234192
-  }
- ]
+  "id": "234192",
+  "node": [
+    {
+      "id": 234192,
+      "name": "Poly Bridge",
+      "nameCN": "",
+      "date": "2016-07-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306933,
+      "name": "Poly Bridge 2",
+      "nameCN": "桥梁建造师2",
+      "date": "2020-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234192,
+      "dst": 306933
+    },
+    {
+      "relateString": "前传",
+      "src": 306933,
+      "dst": 234192
+    }
+  ]
 }

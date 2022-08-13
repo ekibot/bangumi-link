@@ -1,37 +1,35 @@
 {
- "id": 33079,
- "node": [
-  {
-   "id": 33079,
-   "name": "The Mask",
-   "nameCN": "变相怪杰",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/75/33079_9glJI.jpg",
-   "date": "1994-07-29",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 33088,
-   "name": "Son of the Mask",
-   "nameCN": "變相怪傑2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/2a/33088_RNeRN.jpg",
-   "date": "2005-02-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33079,
-   "dst": 33088
-  },
-  {
-   "relate": "前传",
-   "src": 33088,
-   "dst": 33079
-  }
- ]
+  "id": "33079",
+  "node": [
+    {
+      "id": 33079,
+      "name": "The Mask",
+      "nameCN": "变相怪杰",
+      "date": "1994-07-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 33088,
+      "name": "Son of the Mask",
+      "nameCN": "變相怪傑2",
+      "date": "2005-02-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33079,
+      "dst": 33088
+    },
+    {
+      "relateString": "前传",
+      "src": 33088,
+      "dst": 33079
+    }
+  ]
 }

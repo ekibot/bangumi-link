@@ -1,37 +1,35 @@
 {
- "id": 56603,
- "node": [
-  {
-   "id": 56603,
-   "name": "ジョジョの奇妙な冒険",
-   "nameCN": "jojo的奇妙冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/e2/56603_6Vppp.jpg",
-   "date": "1998-12-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 66596,
-   "name": "ジョジョの奇妙な冒険 未来への遺産",
-   "nameCN": "JOJO的奇妙冒险 未来遗产",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/98/66596_haE7U.jpg",
-   "date": "1999-09-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56603,
-   "dst": 66596
-  },
-  {
-   "relate": "前传",
-   "src": 66596,
-   "dst": 56603
-  }
- ]
+  "id": "56603",
+  "node": [
+    {
+      "id": 56603,
+      "name": "ジョジョの奇妙な冒険",
+      "nameCN": "jojo的奇妙冒险",
+      "date": "1998-12-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 66596,
+      "name": "ジョジョの奇妙な冒険 未来への遺産",
+      "nameCN": "JOJO的奇妙冒险 未来遗产",
+      "date": "1999-09-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56603,
+      "dst": 66596
+    },
+    {
+      "relateString": "前传",
+      "src": 66596,
+      "dst": 56603
+    }
+  ]
 }

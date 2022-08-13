@@ -1,37 +1,35 @@
 {
- "id": 251319,
- "node": [
-  {
-   "id": 251319,
-   "name": "Evil Genius",
-   "nameCN": "邪恶天才",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/74/251319_V3383.jpg",
-   "date": "2004-09-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 284444,
-   "name": "Evil Genius 2: World Domination",
-   "nameCN": "邪恶天才2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/24/284444_DDusU.jpg",
-   "date": "2021-03-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251319,
-   "dst": 284444
-  },
-  {
-   "relate": "前传",
-   "src": 284444,
-   "dst": 251319
-  }
- ]
+  "id": "251319",
+  "node": [
+    {
+      "id": 251319,
+      "name": "Evil Genius",
+      "nameCN": "邪恶天才",
+      "date": "2004-09-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 284444,
+      "name": "Evil Genius 2: World Domination",
+      "nameCN": "邪恶天才2",
+      "date": "2021-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251319,
+      "dst": 284444
+    },
+    {
+      "relateString": "前传",
+      "src": 284444,
+      "dst": 251319
+    }
+  ]
 }

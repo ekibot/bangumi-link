@@ -1,37 +1,34 @@
 {
- "id": 77582,
- "node": [
-  {
-   "id": 77582,
-   "name": "Olympus Has Fallen",
-   "nameCN": "白宫陷落",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/61/77582_lmu8o.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 180029,
-   "name": "Landon Has Fallen",
-   "nameCN": "伦敦陷落",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/76/180029_go7bg.jpg",
-   "date": "2016-03-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77582,
-   "dst": 180029
-  },
-  {
-   "relate": "前传",
-   "src": 180029,
-   "dst": 77582
-  }
- ]
+  "id": "77582",
+  "node": [
+    {
+      "id": 77582,
+      "name": "Olympus Has Fallen",
+      "nameCN": "白宫陷落",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 180029,
+      "name": "Landon Has Fallen",
+      "nameCN": "伦敦陷落",
+      "date": "2016-03-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77582,
+      "dst": 180029
+    },
+    {
+      "relateString": "前传",
+      "src": 180029,
+      "dst": 77582
+    }
+  ]
 }

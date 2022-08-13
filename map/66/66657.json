@@ -1,77 +1,72 @@
 {
- "id": 66657,
- "node": [
-  {
-   "id": 66657,
-   "name": "空気読み。",
-   "nameCN": "阅读空气",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/bf/66657_15pDg.jpg",
-   "date": "2012-09-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 242073,
-   "name": "空気読み。2",
-   "nameCN": "阅读空气2",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/a7/242073_YiElg.jpg",
-   "date": "2012-10-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 242074,
-   "name": "空気読み。3",
-   "nameCN": "阅读空气3",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/07/242074_9t6zz.jpg",
-   "date": "2013-12-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 292387,
-   "name": "みんなで空気読み。",
-   "nameCN": "大家一起察言观色。",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/9e/292387_k0IZQ.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66657,
-   "dst": 242073
-  },
-  {
-   "relate": "不同演绎",
-   "src": 66657,
-   "dst": 292387
-  },
-  {
-   "relate": "前传",
-   "src": 242073,
-   "dst": 66657
-  },
-  {
-   "relate": "续集",
-   "src": 242073,
-   "dst": 242074
-  },
-  {
-   "relate": "前传",
-   "src": 242074,
-   "dst": 242073
-  },
-  {
-   "relate": "不同演绎",
-   "src": 292387,
-   "dst": 66657
-  }
- ]
+  "id": "66657",
+  "node": [
+    {
+      "id": 66657,
+      "name": "空気読み。",
+      "nameCN": "阅读空气",
+      "date": "2012-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242073,
+      "name": "空気読み。2",
+      "nameCN": "阅读空气2",
+      "date": "2012-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 292387,
+      "name": "みんなで空気読み。",
+      "nameCN": "大家一起察言观色。",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 242074,
+      "name": "空気読み。3",
+      "nameCN": "阅读空气3",
+      "date": "2013-12-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66657,
+      "dst": 242073
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 66657,
+      "dst": 292387
+    },
+    {
+      "relateString": "前传",
+      "src": 242073,
+      "dst": 66657
+    },
+    {
+      "relateString": "续集",
+      "src": 242073,
+      "dst": 242074
+    },
+    {
+      "relateString": "前传",
+      "src": 242074,
+      "dst": 242073
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 292387,
+      "dst": 66657
+    }
+  ]
 }

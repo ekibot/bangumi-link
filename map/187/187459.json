@@ -1,37 +1,35 @@
 {
- "id": 187459,
- "node": [
-  {
-   "id": 187459,
-   "name": "先生はそんなこと教えてない!",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/ad/187459_jp.jpg",
-   "date": "2015-01-13",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 199987,
-   "name": "先生の言うことききなさい!",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/be/199987_jp.jpg",
-   "type": 1,
-   "date": "2016-07-30",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 187459,
-   "dst": 199987
-  },
-  {
-   "relate": "前传",
-   "src": 199987,
-   "dst": 187459
-  }
- ]
+  "id": "187459",
+  "node": [
+    {
+      "id": 187459,
+      "name": "先生はそんなこと教えてない!",
+      "nameCN": "",
+      "date": "2015-01-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 199987,
+      "name": "先生の言うことききなさい!",
+      "nameCN": "",
+      "date": "2016-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 187459,
+      "dst": 199987
+    },
+    {
+      "relateString": "前传",
+      "src": 199987,
+      "dst": 187459
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 111741,
- "node": [
-  {
-   "id": 111741,
-   "name": "Enigmatis: The Mists of Ravenwood",
-   "nameCN": "乌鸦森林之谜2：鸦林迷雾",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/d3/111741_9xwlD.jpg",
-   "date": "2013-09-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 321628,
-   "name": "Enigmatis 3: The Shadow of Karkhala",
-   "nameCN": "乌鸦森林之谜3：卡赫拉之影",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/7e/321628_rL0lU.jpg",
-   "date": "2016-08-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 368448,
-   "name": "Enigmatis: The Ghosts of Maple Creek",
-   "nameCN": "乌鸦森林之谜：枫叶溪幽灵",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/5c/368448_J4dz6.jpg",
-   "date": "2011-09-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111741,
-   "dst": 321628
-  },
-  {
-   "relate": "前传",
-   "src": 111741,
-   "dst": 368448
-  },
-  {
-   "relate": "前传",
-   "src": 321628,
-   "dst": 111741
-  },
-  {
-   "relate": "续集",
-   "src": 368448,
-   "dst": 111741
-  }
- ]
+  "id": "111741",
+  "node": [
+    {
+      "id": 111741,
+      "name": "Enigmatis: The Mists of Ravenwood",
+      "nameCN": "乌鸦森林之谜2：鸦林迷雾",
+      "date": "2013-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321628,
+      "name": "Enigmatis 3: The Shadow of Karkhala",
+      "nameCN": "乌鸦森林之谜3：卡赫拉之影",
+      "date": "2016-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 368448,
+      "name": "Enigmatis: The Ghosts of Maple Creek",
+      "nameCN": "乌鸦森林之谜：枫叶溪幽灵",
+      "date": "2011-09-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111741,
+      "dst": 321628
+    },
+    {
+      "relateString": "前传",
+      "src": 111741,
+      "dst": 368448
+    },
+    {
+      "relateString": "前传",
+      "src": 321628,
+      "dst": 111741
+    },
+    {
+      "relateString": "续集",
+      "src": 368448,
+      "dst": 111741
+    }
+  ]
 }

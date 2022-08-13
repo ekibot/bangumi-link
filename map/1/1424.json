@@ -1,107 +1,102 @@
 {
- "id": 1424,
- "node": [
-  {
-   "id": 1424,
-   "name": "けいおん！",
-   "nameCN": "轻音少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/9d/1424_q8FMQ.jpg",
-   "date": "2009-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 3774,
-   "name": "けいおん!!",
-   "nameCN": "轻音少女 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/f1/3774_hs9Fr.jpg",
-   "date": "2010-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 12426,
-   "name": "映画けいおん！",
-   "nameCN": "轻音少女 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/3c/12426_vt490.jpg",
-   "date": "2011-12-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 31525,
-   "name": "うらおん!",
-   "nameCN": "K-On!:Ura-On!",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/b5/31525_t37Ok.jpg",
-   "date": "2009-07-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 31531,
-   "name": "うらおん!!",
-   "nameCN": "K-On!!:Ura-On!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/f1/31531_52F4G.jpg",
-   "date": "2010-07-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1424,
-   "dst": 3774
-  },
-  {
-   "relate": "衍生",
-   "src": 1424,
-   "dst": 31525
-  },
-  {
-   "relate": "前传",
-   "src": 3774,
-   "dst": 1424
-  },
-  {
-   "relate": "番外篇",
-   "src": 3774,
-   "dst": 12426
-  },
-  {
-   "relate": "衍生",
-   "src": 3774,
-   "dst": 31531
-  },
-  {
-   "relate": "主线故事",
-   "src": 12426,
-   "dst": 3774
-  },
-  {
-   "relate": "主线故事",
-   "src": 31525,
-   "dst": 1424
-  },
-  {
-   "relate": "续集",
-   "src": 31525,
-   "dst": 31531
-  },
-  {
-   "relate": "主线故事",
-   "src": 31531,
-   "dst": 3774
-  },
-  {
-   "relate": "前传",
-   "src": 31531,
-   "dst": 31525
-  }
- ]
+  "id": "1424",
+  "node": [
+    {
+      "id": 1424,
+      "name": "けいおん！",
+      "nameCN": "轻音少女",
+      "date": "2009-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 3774,
+      "name": "けいおん!!",
+      "nameCN": "轻音少女 第二季",
+      "date": "2010-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 31525,
+      "name": "うらおん!",
+      "nameCN": "K-On!:Ura-On!",
+      "date": "2009-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 12426,
+      "name": "映画けいおん！",
+      "nameCN": "轻音少女 剧场版",
+      "date": "2011-12-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 31531,
+      "name": "うらおん!!",
+      "nameCN": "K-On!!:Ura-On!!",
+      "date": "2010-07-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1424,
+      "dst": 3774
+    },
+    {
+      "relateString": "衍生",
+      "src": 1424,
+      "dst": 31525
+    },
+    {
+      "relateString": "前传",
+      "src": 3774,
+      "dst": 1424
+    },
+    {
+      "relateString": "番外篇",
+      "src": 3774,
+      "dst": 12426
+    },
+    {
+      "relateString": "衍生",
+      "src": 3774,
+      "dst": 31531
+    },
+    {
+      "relateString": "主线故事",
+      "src": 12426,
+      "dst": 3774
+    },
+    {
+      "relateString": "主线故事",
+      "src": 31525,
+      "dst": 1424
+    },
+    {
+      "relateString": "续集",
+      "src": 31525,
+      "dst": 31531
+    },
+    {
+      "relateString": "主线故事",
+      "src": 31531,
+      "dst": 3774
+    },
+    {
+      "relateString": "前传",
+      "src": 31531,
+      "dst": 31525
+    }
+  ]
 }

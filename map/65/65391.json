@@ -1,37 +1,35 @@
 {
- "id": 65391,
- "node": [
-  {
-   "id": 65391,
-   "name": "Peace@Pieces",
-   "nameCN": "Peace@Pieces",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/33/65391_Bmz5F.jpg",
-   "date": "2004-12-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 150322,
-   "name": "わんもあ＠ぴぃしぃず",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/6f/150322_8OBDO.jpg",
-   "date": "2005-08-19",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65391,
-   "dst": 150322
-  },
-  {
-   "relate": "前传",
-   "src": 150322,
-   "dst": 65391
-  }
- ]
+  "id": "65391",
+  "node": [
+    {
+      "id": 65391,
+      "name": "Peace@Pieces",
+      "nameCN": "Peace@Pieces",
+      "date": "2004-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 150322,
+      "name": "わんもあ＠ぴぃしぃず",
+      "nameCN": "",
+      "date": "2005-08-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65391,
+      "dst": 150322
+    },
+    {
+      "relateString": "前传",
+      "src": 150322,
+      "dst": 65391
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 214771,
- "node": [
-  {
-   "id": 214771,
-   "name": "DISTRAINT",
-   "nameCN": "扣押",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/2f/214771_reMb5.jpg",
-   "date": "2015-10-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 215078,
-   "name": "DISTRAINT 2",
-   "nameCN": "扣押2",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/cc/215078_Uuzov.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 214771,
-   "dst": 215078
-  },
-  {
-   "relate": "前传",
-   "src": 215078,
-   "dst": 214771
-  }
- ]
+  "id": "214771",
+  "node": [
+    {
+      "id": 214771,
+      "name": "DISTRAINT",
+      "nameCN": "扣押",
+      "date": "2015-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 215078,
+      "name": "DISTRAINT 2",
+      "nameCN": "扣押2",
+      "date": "2018-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 214771,
+      "dst": 215078
+    },
+    {
+      "relateString": "前传",
+      "src": 215078,
+      "dst": 214771
+    }
+  ]
 }

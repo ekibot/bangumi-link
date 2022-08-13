@@ -1,28 +1,35 @@
 {
- "id": 383046,
- "node": [
-  {
-   "id": 383046,
-   "name": "キミニオトドケ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/15/383046_Im96b.jpg",
-   "date": "2019-05-14",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 383047,
-   "name": "オトケキドミニ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/00/383047_Pkc7J.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 383046,
-   "dst": 383047
-  }
- ]
+  "id": "383046",
+  "node": [
+    {
+      "id": 383046,
+      "name": "キミニオトドケ",
+      "nameCN": "",
+      "date": "2019-05-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 383047,
+      "name": "オトケキドミニ",
+      "nameCN": "",
+      "date": "2022-03-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 383046,
+      "dst": 383047
+    },
+    {
+      "relateString": "前传",
+      "src": 383047,
+      "dst": 383046
+    }
+  ]
 }

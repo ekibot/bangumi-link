@@ -1,37 +1,35 @@
 {
- "id": 194112,
- "node": [
-  {
-   "id": 194112,
-   "name": "刀剣恋慕～神のまにまに～",
-   "nameCN": "刀剑恋慕～随神之侧～",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/4e/194112_5m4wM.jpg",
-   "date": "2015-12-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 200619,
-   "name": "淡雪",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/1e/200619_vslMq.jpg",
-   "nameCN": "",
-   "type": 4,
-   "date": "2016-03-13",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194112,
-   "dst": 200619
-  },
-  {
-   "relate": "前传",
-   "src": 200619,
-   "dst": 194112
-  }
- ]
+  "id": "194112",
+  "node": [
+    {
+      "id": 194112,
+      "name": "刀剣恋慕～神のまにまに～",
+      "nameCN": "刀剑恋慕～随神之侧～",
+      "date": "2015-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 200619,
+      "name": "淡雪",
+      "nameCN": "",
+      "date": "2016-03-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194112,
+      "dst": 200619
+    },
+    {
+      "relateString": "前传",
+      "src": 200619,
+      "dst": 194112
+    }
+  ]
 }

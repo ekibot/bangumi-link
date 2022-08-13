@@ -1,37 +1,35 @@
 {
- "id": 80667,
- "node": [
-  {
-   "id": 80667,
-   "name": "Knights of Pen &amp; Paper",
-   "nameCN": "骑士经理",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/fd/80667_5a86u.jpg",
-   "date": "2012-10-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 203251,
-   "name": "Knights of Pen &amp; Paper II",
-   "nameCN": "骑士经理2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/f6/203251_70fw9.jpg",
-   "date": "2015-05-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 80667,
-   "dst": 203251
-  },
-  {
-   "relate": "前传",
-   "src": 203251,
-   "dst": 80667
-  }
- ]
+  "id": "80667",
+  "node": [
+    {
+      "id": 80667,
+      "name": "Knights of Pen &amp; Paper",
+      "nameCN": "骑士经理",
+      "date": "2012-10-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 203251,
+      "name": "Knights of Pen &amp; Paper II",
+      "nameCN": "骑士经理2",
+      "date": "2015-05-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 80667,
+      "dst": 203251
+    },
+    {
+      "relateString": "前传",
+      "src": 203251,
+      "dst": 80667
+    }
+  ]
 }

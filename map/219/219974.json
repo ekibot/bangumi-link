@@ -1,37 +1,33 @@
 {
- "id": 219974,
- "node": [
-  {
-   "id": 219974,
-   "name": "ソウルヒストリカ",
-   "nameCN": "灵魂史学",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/45/219974_c0FX2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 386388,
-   "name": "ソウルティアーズ",
-   "nameCN": "灵魂之泪",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/8c/386388_n2u2A.jpg",
-   "type": 4,
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219974,
-   "dst": 386388
-  },
-  {
-   "relate": "前传",
-   "src": 386388,
-   "dst": 219974
-  }
- ]
+  "id": "219974",
+  "node": [
+    {
+      "id": 219974,
+      "name": "ソウルヒストリカ",
+      "nameCN": "灵魂史学",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 386388,
+      "name": "ソウルティアーズ",
+      "nameCN": "灵魂之泪",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219974,
+      "dst": 386388
+    },
+    {
+      "relateString": "前传",
+      "src": 386388,
+      "dst": 219974
+    }
+  ]
 }

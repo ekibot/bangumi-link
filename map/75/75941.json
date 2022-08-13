@@ -1,57 +1,54 @@
 {
- "id": 75941,
- "node": [
-  {
-   "id": 75941,
-   "name": "Graceland (Season 1)",
-   "nameCN": "恩赐之地 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/e4/75941_v50C3.jpg",
-   "date": "2013-06-06",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 105934,
-   "name": "Graceland (Season 2)",
-   "nameCN": "恩赐之地 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/ea/105934_4UIaf.jpg",
-   "date": "2014-06-11",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 139170,
-   "name": "Graceland Season 3",
-   "nameCN": "恩赐之地 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/8c/139170_QdGRW.jpg",
-   "date": "2015-06-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75941,
-   "dst": 105934
-  },
-  {
-   "relate": "前传",
-   "src": 105934,
-   "dst": 75941
-  },
-  {
-   "relate": "续集",
-   "src": 105934,
-   "dst": 139170
-  },
-  {
-   "relate": "前传",
-   "src": 139170,
-   "dst": 105934
-  }
- ]
+  "id": "75941",
+  "node": [
+    {
+      "id": 75941,
+      "name": "Graceland (Season 1)",
+      "nameCN": "恩赐之地 第一季",
+      "date": "2013-06-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 105934,
+      "name": "Graceland (Season 2)",
+      "nameCN": "恩赐之地 第二季",
+      "date": "2014-06-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 139170,
+      "name": "Graceland Season 3",
+      "nameCN": "恩赐之地 第三季",
+      "date": "2015-06-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75941,
+      "dst": 105934
+    },
+    {
+      "relateString": "前传",
+      "src": 105934,
+      "dst": 75941
+    },
+    {
+      "relateString": "续集",
+      "src": 105934,
+      "dst": 139170
+    },
+    {
+      "relateString": "前传",
+      "src": 139170,
+      "dst": 105934
+    }
+  ]
 }

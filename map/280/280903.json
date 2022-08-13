@@ -1,57 +1,54 @@
 {
- "id": 280903,
- "node": [
-  {
-   "id": 280903,
-   "name": "Ghosts",
-   "nameCN": "古宅老友记",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/35/280903_Ua87g.jpg",
-   "date": "2019-04-16",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 315755,
-   "name": "Ghosts Season 2",
-   "nameCN": "古宅老友记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/df/315755_978WK.jpg",
-   "date": "2020-09-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 345998,
-   "name": "Ghosts Season 3",
-   "nameCN": "古宅老友记 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/2c/345998_M2g00.jpg",
-   "date": "2021-08-09",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 280903,
-   "dst": 315755
-  },
-  {
-   "relate": "前传",
-   "src": 315755,
-   "dst": 280903
-  },
-  {
-   "relate": "续集",
-   "src": 315755,
-   "dst": 345998
-  },
-  {
-   "relate": "前传",
-   "src": 345998,
-   "dst": 315755
-  }
- ]
+  "id": "280903",
+  "node": [
+    {
+      "id": 280903,
+      "name": "Ghosts",
+      "nameCN": "古宅老友记",
+      "date": "2019-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 315755,
+      "name": "Ghosts Season 2",
+      "nameCN": "古宅老友记 第二季",
+      "date": "2020-09-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 345998,
+      "name": "Ghosts Season 3",
+      "nameCN": "古宅老友记 第三季",
+      "date": "2021-08-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 280903,
+      "dst": 315755
+    },
+    {
+      "relateString": "前传",
+      "src": 315755,
+      "dst": 280903
+    },
+    {
+      "relateString": "续集",
+      "src": 315755,
+      "dst": 345998
+    },
+    {
+      "relateString": "前传",
+      "src": 345998,
+      "dst": 315755
+    }
+  ]
 }

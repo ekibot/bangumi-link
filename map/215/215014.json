@@ -1,37 +1,35 @@
 {
- "id": 215014,
- "node": [
-  {
-   "id": 215014,
-   "name": "マツコ&amp;有吉 かりそめ天国",
-   "nameCN": "松子和有吉的小天国",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/11/215014_Amzy6.jpg",
-   "date": "2017-04-05",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 215016,
-   "name": "マツコ&amp;有吉の怒り新党",
-   "nameCN": "松子和有吉的愤怒新党",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/34/215016_kqOwJ.jpg",
-   "date": "2011-04-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 215014,
-   "dst": 215016
-  },
-  {
-   "relate": "续集",
-   "src": 215016,
-   "dst": 215014
-  }
- ]
+  "id": "215014",
+  "node": [
+    {
+      "id": 215014,
+      "name": "マツコ&amp;有吉 かりそめ天国",
+      "nameCN": "松子和有吉的小天国",
+      "date": "2017-04-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 215016,
+      "name": "マツコ&amp;有吉の怒り新党",
+      "nameCN": "松子和有吉的愤怒新党",
+      "date": "2011-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 215014,
+      "dst": 215016
+    },
+    {
+      "relateString": "续集",
+      "src": 215016,
+      "dst": 215014
+    }
+  ]
 }

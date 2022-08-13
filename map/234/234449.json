@@ -1,77 +1,72 @@
 {
- "id": 234449,
- "node": [
-  {
-   "id": 234449,
-   "name": "我家大师兄脑子有坑",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/d9/234449_QnGx6.jpg",
-   "date": "2018-04-04",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 269550,
-   "name": "我家大师兄是个反派",
-   "nameCN": "我家大师兄是个反派",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/07/269550_8Hr3Z.jpg",
-   "date": "2020-10-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 269554,
-   "name": "我家大师兄脑子有坑 特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/6a/269554_RRcrz.jpg",
-   "date": "2018-10-31",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 325329,
-   "name": "我家大师兄有点靠谱",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234449,
-   "dst": 269550
-  },
-  {
-   "relate": "番外篇",
-   "src": 234449,
-   "dst": 269554
-  },
-  {
-   "relate": "前传",
-   "src": 269550,
-   "dst": 234449
-  },
-  {
-   "relate": "续集",
-   "src": 269550,
-   "dst": 325329
-  },
-  {
-   "relate": "主线故事",
-   "src": 269554,
-   "dst": 234449
-  },
-  {
-   "relate": "前传",
-   "src": 325329,
-   "dst": 269550
-  }
- ]
+  "id": "234449",
+  "node": [
+    {
+      "id": 234449,
+      "name": "我家大师兄脑子有坑",
+      "nameCN": "",
+      "date": "2018-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 269550,
+      "name": "我家大师兄是个反派",
+      "nameCN": "我家大师兄是个反派",
+      "date": "2020-10-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 269554,
+      "name": "我家大师兄脑子有坑 特别篇",
+      "nameCN": "",
+      "date": "2018-10-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 325329,
+      "name": "我家大师兄有点靠谱",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234449,
+      "dst": 269550
+    },
+    {
+      "relateString": "番外篇",
+      "src": 234449,
+      "dst": 269554
+    },
+    {
+      "relateString": "前传",
+      "src": 269550,
+      "dst": 234449
+    },
+    {
+      "relateString": "续集",
+      "src": 269550,
+      "dst": 325329
+    },
+    {
+      "relateString": "主线故事",
+      "src": 269554,
+      "dst": 234449
+    },
+    {
+      "relateString": "前传",
+      "src": 325329,
+      "dst": 269550
+    }
+  ]
 }

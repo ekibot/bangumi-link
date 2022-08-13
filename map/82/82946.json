@@ -1,37 +1,35 @@
 {
- "id": 82946,
- "node": [
-  {
-   "id": 82946,
-   "name": "沙羅屋敷の若君 上",
-   "nameCN": "管家与少爷 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/c2/82946_jp.jpg",
-   "date": "2005-04-20",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 82947,
-   "name": "沙羅屋敷の若君 下",
-   "nameCN": "管家与少爷 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/43/82947_jp.jpg",
-   "date": "2005-04-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82946,
-   "dst": 82947
-  },
-  {
-   "relate": "前传",
-   "src": 82947,
-   "dst": 82946
-  }
- ]
+  "id": "82946",
+  "node": [
+    {
+      "id": 82946,
+      "name": "沙羅屋敷の若君 上",
+      "nameCN": "管家与少爷 上",
+      "date": "2005-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 82947,
+      "name": "沙羅屋敷の若君 下",
+      "nameCN": "管家与少爷 下",
+      "date": "2005-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82946,
+      "dst": 82947
+    },
+    {
+      "relateString": "前传",
+      "src": 82947,
+      "dst": 82946
+    }
+  ]
 }

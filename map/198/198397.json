@@ -1,77 +1,71 @@
 {
- "id": 198397,
- "node": [
-  {
-   "id": 198397,
-   "name": "Baskets Season 1",
-   "nameCN": "小丑梦摇篮 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/75/198397_QEffj.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 208485,
-   "name": "Baskets Season 2",
-   "nameCN": "小丑梦摇篮 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/7c/208485_M1Vg9.jpg",
-   "date": "2017-01-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 236311,
-   "name": "Baskets Season 3",
-   "nameCN": "小丑梦摇篮 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/35/4c/236311_12rD6.jpg",
-   "date": "2018-01-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 290263,
-   "name": "Baskets Season 4",
-   "nameCN": "小丑梦摇篮 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f7/36/290263_RYcCk.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198397,
-   "dst": 208485
-  },
-  {
-   "relate": "前传",
-   "src": 208485,
-   "dst": 198397
-  },
-  {
-   "relate": "续集",
-   "src": 208485,
-   "dst": 236311
-  },
-  {
-   "relate": "前传",
-   "src": 236311,
-   "dst": 208485
-  },
-  {
-   "relate": "续集",
-   "src": 236311,
-   "dst": 290263
-  },
-  {
-   "relate": "前传",
-   "src": 290263,
-   "dst": 236311
-  }
- ]
+  "id": "198397",
+  "node": [
+    {
+      "id": 198397,
+      "name": "Baskets Season 1",
+      "nameCN": "小丑梦摇篮 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 208485,
+      "name": "Baskets Season 2",
+      "nameCN": "小丑梦摇篮 第二季",
+      "date": "2017-01-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 236311,
+      "name": "Baskets Season 3",
+      "nameCN": "小丑梦摇篮 第三季",
+      "date": "2018-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 290263,
+      "name": "Baskets Season 4",
+      "nameCN": "小丑梦摇篮 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198397,
+      "dst": 208485
+    },
+    {
+      "relateString": "前传",
+      "src": 208485,
+      "dst": 198397
+    },
+    {
+      "relateString": "续集",
+      "src": 208485,
+      "dst": 236311
+    },
+    {
+      "relateString": "前传",
+      "src": 236311,
+      "dst": 208485
+    },
+    {
+      "relateString": "续集",
+      "src": 236311,
+      "dst": 290263
+    },
+    {
+      "relateString": "前传",
+      "src": 290263,
+      "dst": 236311
+    }
+  ]
 }

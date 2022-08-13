@@ -1,0 +1,51 @@
+{
+  "id": "291099",
+  "node": [
+    {
+      "id": 291099,
+      "name": "地下99階のロンド",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 291100,
+      "name": "眠れぬ夜のポルカ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 291101,
+      "name": "まだ見ぬ楽園へのカノン",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 291099,
+      "dst": 291100
+    },
+    {
+      "relateString": "前传",
+      "src": 291100,
+      "dst": 291099
+    },
+    {
+      "relateString": "续集",
+      "src": 291100,
+      "dst": 291101
+    },
+    {
+      "relateString": "前传",
+      "src": 291101,
+      "dst": 291100
+    }
+  ]
+}

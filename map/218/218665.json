@@ -1,34 +1,35 @@
 {
- "id": 218665,
- "node": [
-  {
-   "id": 218665,
-   "name": "ハーレム×すくらっち",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/74/218665_4I3kG.jpg",
-   "date": "2007-01-26",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 218668,
-   "name": "お姉さん×すくらっち",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/01/218668_PPGRP.jpg",
-   "date": "2008-07-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 218665,
-   "dst": 218668
-  },
-  {
-   "relate": "前传",
-   "src": 218668,
-   "dst": 218665
-  }
- ]
+  "id": "218665",
+  "node": [
+    {
+      "id": 218665,
+      "name": "ハーレム×すくらっち",
+      "nameCN": "",
+      "date": "2007-01-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 218668,
+      "name": "お姉さん×すくらっち",
+      "nameCN": "",
+      "date": "2008-07-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 218665,
+      "dst": 218668
+    },
+    {
+      "relateString": "前传",
+      "src": 218668,
+      "dst": 218665
+    }
+  ]
 }

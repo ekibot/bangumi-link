@@ -1,37 +1,35 @@
 {
- "id": 178768,
- "node": [
-  {
-   "id": 178768,
-   "name": "绝对领域",
-   "nameCN": "绝对领域A.F.",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/b7/178768_zk3ZJ.jpg",
-   "date": "2015-04-10",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 178799,
-   "name": "绝对领域极战纪",
-   "nameCN": "绝对领域极战纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/82/178799_67yNw.jpg",
-   "date": "2016-04-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 178768,
-   "dst": 178799
-  },
-  {
-   "relate": "前传",
-   "src": 178799,
-   "dst": 178768
-  }
- ]
+  "id": "178768",
+  "node": [
+    {
+      "id": 178768,
+      "name": "绝对领域",
+      "nameCN": "绝对领域A.F.",
+      "date": "2015-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 178799,
+      "name": "绝对领域极战纪",
+      "nameCN": "绝对领域极战纪",
+      "date": "2016-04-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 178768,
+      "dst": 178799
+    },
+    {
+      "relateString": "前传",
+      "src": 178799,
+      "dst": 178768
+    }
+  ]
 }

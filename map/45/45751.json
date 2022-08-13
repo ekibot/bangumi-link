@@ -1,37 +1,35 @@
 {
- "id": 45751,
- "node": [
-  {
-   "id": 45751,
-   "name": "この世界の向こうで",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/4c/45751_b3TB7.jpg",
-   "date": "2012-11-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 128764,
-   "name": "さくらにかげつ",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/2a/128764_H2y75.jpg",
-   "date": "2015-07-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 45751,
-   "dst": 128764
-  },
-  {
-   "relate": "相同世界观",
-   "src": 128764,
-   "dst": 45751
-  }
- ]
+  "id": "45751",
+  "node": [
+    {
+      "id": 45751,
+      "name": "この世界の向こうで",
+      "nameCN": "",
+      "date": "2012-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 128764,
+      "name": "さくらにかげつ",
+      "nameCN": "",
+      "date": "2015-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 45751,
+      "dst": 128764
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 128764,
+      "dst": 45751
+    }
+  ]
 }

@@ -1,34 +1,35 @@
 {
- "id": 225827,
- "node": [
-  {
-   "id": 225827,
-   "name": "ホラーブック",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/c4/225827_95F43.jpg",
-   "date": "2016-11-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 321571,
-   "name": "ホラーブックII 13日の悪霊",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/fa/321571_COQ2a.jpg",
-   "date": "2018-11-16",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225827,
-   "dst": 321571
-  },
-  {
-   "relate": "前传",
-   "src": 321571,
-   "dst": 225827
-  }
- ]
+  "id": "225827",
+  "node": [
+    {
+      "id": 225827,
+      "name": "ホラーブック",
+      "nameCN": "",
+      "date": "2016-11-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 321571,
+      "name": "ホラーブックII 13日の悪霊",
+      "nameCN": "",
+      "date": "2018-11-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225827,
+      "dst": 321571
+    },
+    {
+      "relateString": "前传",
+      "src": 321571,
+      "dst": 225827
+    }
+  ]
 }

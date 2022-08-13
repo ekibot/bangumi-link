@@ -1,37 +1,34 @@
 {
- "id": 134277,
- "node": [
-  {
-   "id": 134277,
-   "name": "日本海軍菊花聯合艦隊",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/65/134277_3Qd2x.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 322593,
-   "name": "ザハロフの晩餐",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/af/322593_ykSL2.jpg",
-   "date": "2020-05-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 134277,
-   "dst": 322593
-  },
-  {
-   "relate": "前传",
-   "src": 322593,
-   "dst": 134277
-  }
- ]
+  "id": "134277",
+  "node": [
+    {
+      "id": 134277,
+      "name": "日本海軍菊花聯合艦隊",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322593,
+      "name": "ザハロフの晩餐",
+      "nameCN": "",
+      "date": "2020-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 134277,
+      "dst": 322593
+    },
+    {
+      "relateString": "前传",
+      "src": 322593,
+      "dst": 134277
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 241019,
- "node": [
-  {
-   "id": 241019,
-   "name": "ムラサキ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ce/4d/241019_sq9Sk.jpg",
-   "date": "2014-10-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 251663,
-   "name": "ムラサキ劍",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/eb/251663_6tXd0.jpg",
-   "date": "2018-03-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 241019,
-   "dst": 251663
-  },
-  {
-   "relate": "前传",
-   "src": 251663,
-   "dst": 241019
-  }
- ]
+  "id": "241019",
+  "node": [
+    {
+      "id": 241019,
+      "name": "ムラサキ",
+      "nameCN": "",
+      "date": "2014-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 251663,
+      "name": "ムラサキ劍",
+      "nameCN": "",
+      "date": "2018-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 241019,
+      "dst": 251663
+    },
+    {
+      "relateString": "前传",
+      "src": 251663,
+      "dst": 241019
+    }
+  ]
 }

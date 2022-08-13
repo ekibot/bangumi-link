@@ -1,37 +1,33 @@
 {
- "id": 135979,
- "node": [
-  {
-   "id": 135979,
-   "name": "迷彩天国 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/2f/135979_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 135980,
-   "name": "迷彩天国 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/c7/135980_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 135979,
-   "dst": 135980
-  },
-  {
-   "relate": "前传",
-   "src": 135980,
-   "dst": 135979
-  }
- ]
+  "id": "135979",
+  "node": [
+    {
+      "id": 135979,
+      "name": "迷彩天国 上",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 135980,
+      "name": "迷彩天国 下",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 135979,
+      "dst": 135980
+    },
+    {
+      "relateString": "前传",
+      "src": 135980,
+      "dst": 135979
+    }
+  ]
 }

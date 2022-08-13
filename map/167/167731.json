@@ -1,29 +1,35 @@
 {
- "id": 167731,
- "node": [
-  {
-   "id": 167731,
-   "name": "甘える首輪",
-   "image": "/img/no_icon_subject.png",
-   "date": "2016-01-15"
-  },
-  {
-   "id": 195488,
-   "name": "絡める首輪",
-   "image": "/img/no_icon_subject.png",
-   "date": "2016-10-15"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167731,
-   "dst": 195488
-  },
-  {
-   "relate": "前传",
-   "src": 195488,
-   "dst": 167731
-  }
- ]
+  "id": "167731",
+  "node": [
+    {
+      "id": 167731,
+      "name": "甘える首輪",
+      "nameCN": "",
+      "date": "2016-01-15",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 195488,
+      "name": "絡める首輪",
+      "nameCN": "",
+      "date": "2016-10-15",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167731,
+      "dst": 195488
+    },
+    {
+      "relateString": "前传",
+      "src": 195488,
+      "dst": 167731
+    }
+  ]
 }

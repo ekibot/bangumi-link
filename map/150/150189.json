@@ -1,37 +1,35 @@
 {
- "id": 150189,
- "node": [
-  {
-   "id": 150189,
-   "name": "声優ユニットはじめました。",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/17/150189_jp.jpg",
-   "date": "2014-01-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 150190,
-   "name": "声優ユニットはじめました。2",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/2c/150190_jp.jpg",
-   "date": "2014-07-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150189,
-   "dst": 150190
-  },
-  {
-   "relate": "前传",
-   "src": 150190,
-   "dst": 150189
-  }
- ]
+  "id": "150189",
+  "node": [
+    {
+      "id": 150189,
+      "name": "声優ユニットはじめました。",
+      "nameCN": "",
+      "date": "2014-01-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 150190,
+      "name": "声優ユニットはじめました。2",
+      "nameCN": "",
+      "date": "2014-07-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150189,
+      "dst": 150190
+    },
+    {
+      "relateString": "前传",
+      "src": 150190,
+      "dst": 150189
+    }
+  ]
 }

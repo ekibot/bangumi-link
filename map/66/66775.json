@@ -1,34 +1,35 @@
 {
- "id": 66775,
- "node": [
-  {
-   "id": 66775,
-   "name": "痴漢者トーマス",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/d2/66775_40LV4.jpg",
-   "date": "2003-08-01",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 66776,
-   "name": "痴漢者トーマスII",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/e0/66776_pJrJ7.jpg",
-   "date": "2005-09-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66775,
-   "dst": 66776
-  },
-  {
-   "relate": "前传",
-   "src": 66776,
-   "dst": 66775
-  }
- ]
+  "id": "66775",
+  "node": [
+    {
+      "id": 66775,
+      "name": "痴漢者トーマス",
+      "nameCN": "",
+      "date": "2003-08-01",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 66776,
+      "name": "痴漢者トーマスII",
+      "nameCN": "",
+      "date": "2005-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66775,
+      "dst": 66776
+    },
+    {
+      "relateString": "前传",
+      "src": 66776,
+      "dst": 66775
+    }
+  ]
 }

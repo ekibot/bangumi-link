@@ -1,57 +1,54 @@
 {
- "id": 47129,
- "node": [
-  {
-   "id": 47129,
-   "name": "SILVER CHAOS",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/7e/47129_Po2s1.jpg",
-   "date": "2002-07-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 47130,
-   "name": "Artificial Mermaid -SILVER CHAOS 2-",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/47/47130_hdsZp.jpg",
-   "date": "2004-02-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 47131,
-   "name": "SILVER CHAOS FAN BOX",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/98/47131_26p3P.jpg",
-   "date": "2003-05-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47129,
-   "dst": 47130
-  },
-  {
-   "relate": "续集",
-   "src": 47129,
-   "dst": 47131
-  },
-  {
-   "relate": "前传",
-   "src": 47130,
-   "dst": 47129
-  },
-  {
-   "relate": "前传",
-   "src": 47131,
-   "dst": 47129
-  }
- ]
+  "id": "47129",
+  "node": [
+    {
+      "id": 47129,
+      "name": "SILVER CHAOS",
+      "nameCN": "",
+      "date": "2002-07-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 47130,
+      "name": "Artificial Mermaid -SILVER CHAOS 2-",
+      "nameCN": "",
+      "date": "2004-02-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 47131,
+      "name": "SILVER CHAOS FAN BOX",
+      "nameCN": "",
+      "date": "2003-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47129,
+      "dst": 47130
+    },
+    {
+      "relateString": "续集",
+      "src": 47129,
+      "dst": 47131
+    },
+    {
+      "relateString": "前传",
+      "src": 47130,
+      "dst": 47129
+    },
+    {
+      "relateString": "前传",
+      "src": 47131,
+      "dst": 47129
+    }
+  ]
 }

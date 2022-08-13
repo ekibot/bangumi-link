@@ -1,37 +1,35 @@
 {
- "id": 314164,
- "node": [
-  {
-   "id": 314164,
-   "name": "LEGO Indiana Jones: The Original Adventures",
-   "nameCN": "乐高印第安纳琼斯",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/97/314164_ydd3N.jpg",
-   "date": "2008-06-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314166,
-   "name": "LEGO Indiana Jones 2: The Adventure Continues",
-   "nameCN": "乐高印第安纳琼斯2：冒险再续",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/c2/314166_00Z0z.jpg",
-   "date": "2009-11-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314164,
-   "dst": 314166
-  },
-  {
-   "relate": "前传",
-   "src": 314166,
-   "dst": 314164
-  }
- ]
+  "id": "314164",
+  "node": [
+    {
+      "id": 314164,
+      "name": "LEGO Indiana Jones: The Original Adventures",
+      "nameCN": "乐高印第安纳琼斯",
+      "date": "2008-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314166,
+      "name": "LEGO Indiana Jones 2: The Adventure Continues",
+      "nameCN": "乐高印第安纳琼斯2：冒险再续",
+      "date": "2009-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314164,
+      "dst": 314166
+    },
+    {
+      "relateString": "前传",
+      "src": 314166,
+      "dst": 314164
+    }
+  ]
 }

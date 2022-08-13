@@ -1,51 +1,49 @@
 {
- "id": 1147,
- "node": [
-  {
-   "id": 1147,
-   "name": "ゼーガペイン",
-   "nameCN": "ZEGAPAIN",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/d5/1147_q2qJU.jpg",
-   "date": "2006-04-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 175581,
-   "name": "ゼーガペイン ADP",
-   "nameCN": "ZEGAPAIN ADP",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/77/175581_Rz9xT.jpg",
-   "date": "2016-10-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 288319,
-   "name": "エンタングル:ガール",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/d3/288319_Z7p7A.jpg",
-   "date": "2019-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 1147,
-   "dst": 175581
-  },
-  {
-   "relate": "全集",
-   "src": 175581,
-   "dst": 1147
-  },
-  {
-   "relate": "主线故事",
-   "src": 288319,
-   "dst": 1147
-  }
- ]
+  "id": "1147",
+  "node": [
+    {
+      "id": 1147,
+      "name": "ゼーガペイン",
+      "nameCN": "ZEGAPAIN",
+      "date": "2006-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 175581,
+      "name": "ゼーガペイン ADP",
+      "nameCN": "ZEGAPAIN ADP",
+      "date": "2016-10-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 288319,
+      "name": "エンタングル:ガール",
+      "nameCN": "",
+      "date": "2019-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 1147,
+      "dst": 175581
+    },
+    {
+      "relateString": "全集",
+      "src": 175581,
+      "dst": 1147
+    },
+    {
+      "relateString": "主线故事",
+      "src": 288319,
+      "dst": 1147
+    }
+  ]
 }

@@ -1,67 +1,64 @@
 {
- "id": 107887,
- "node": [
-  {
-   "id": 107887,
-   "name": "Dr.LUIGI &amp; 細菌撲滅",
-   "nameCN": "路易医生 &amp; 细菌扑灭",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/e7/107887_WRlx6.jpg",
-   "date": "2014-01-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 107890,
-   "name": "Dr.MARIO &amp; 細菌撲滅",
-   "nameCN": "马里奥医生 &amp; 细菌扑灭",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/8d/107890_pLvhG.jpg",
-   "date": "2008-03-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 138188,
-   "name": "Dr. MARIO ギャクテン! 特効薬 &amp; 細菌撲滅",
-   "nameCN": "马里奥医生：消灭细菌",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/01/138188_sj14j.jpg",
-   "date": "2015-05-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 107887,
-   "dst": 107890
-  },
-  {
-   "relate": "续集",
-   "src": 107887,
-   "dst": 138188
-  },
-  {
-   "relate": "续集",
-   "src": 107890,
-   "dst": 107887
-  },
-  {
-   "relate": "续集",
-   "src": 107890,
-   "dst": 138188
-  },
-  {
-   "relate": "前传",
-   "src": 138188,
-   "dst": 107887
-  },
-  {
-   "relate": "前传",
-   "src": 138188,
-   "dst": 107890
-  }
- ]
+  "id": "107887",
+  "node": [
+    {
+      "id": 107887,
+      "name": "Dr.LUIGI &amp; 細菌撲滅",
+      "nameCN": "路易医生 &amp; 细菌扑灭",
+      "date": "2014-01-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107890,
+      "name": "Dr.MARIO &amp; 細菌撲滅",
+      "nameCN": "马里奥医生 &amp; 细菌扑灭",
+      "date": "2008-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 138188,
+      "name": "Dr. MARIO ギャクテン! 特効薬 &amp; 細菌撲滅",
+      "nameCN": "马里奥医生：消灭细菌",
+      "date": "2015-05-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 107887,
+      "dst": 107890
+    },
+    {
+      "relateString": "续集",
+      "src": 107887,
+      "dst": 138188
+    },
+    {
+      "relateString": "续集",
+      "src": 107890,
+      "dst": 107887
+    },
+    {
+      "relateString": "续集",
+      "src": 107890,
+      "dst": 138188
+    },
+    {
+      "relateString": "前传",
+      "src": 138188,
+      "dst": 107887
+    },
+    {
+      "relateString": "前传",
+      "src": 138188,
+      "dst": 107890
+    }
+  ]
 }

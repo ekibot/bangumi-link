@@ -1,37 +1,35 @@
 {
- "id": 20546,
- "node": [
-  {
-   "id": 20546,
-   "name": "リーヴェルエステート-The 2nd engagement",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/c5/20546_iz19T.jpg",
-   "date": "2010-02-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 265761,
-   "name": "リーヴェルエステート",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/60/265761_QKL7C.jpg",
-   "date": "2009-06-13",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 20546,
-   "dst": 265761
-  },
-  {
-   "relate": "续集",
-   "src": 265761,
-   "dst": 20546
-  }
- ]
+  "id": "20546",
+  "node": [
+    {
+      "id": 20546,
+      "name": "リーヴェルエステート-The 2nd engagement",
+      "nameCN": "",
+      "date": "2010-02-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 265761,
+      "name": "リーヴェルエステート",
+      "nameCN": "",
+      "date": "2009-06-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 20546,
+      "dst": 265761
+    },
+    {
+      "relateString": "续集",
+      "src": 265761,
+      "dst": 20546
+    }
+  ]
 }

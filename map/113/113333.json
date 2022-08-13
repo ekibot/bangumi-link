@@ -1,37 +1,35 @@
 {
- "id": 113333,
- "node": [
-  {
-   "id": 113333,
-   "name": "魔幻仙踪",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/02/113333_FuGFa.jpg",
-   "date": "2014-05-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 229127,
-   "name": "魔幻仙踪",
-   "nameCN": "魔幻仙踪",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/08/229127_oV6OU.jpg",
-   "date": "2008-03-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 113333,
-   "dst": 229127
-  },
-  {
-   "relate": "不同演绎",
-   "src": 229127,
-   "dst": 113333
-  }
- ]
+  "id": "113333",
+  "node": [
+    {
+      "id": 113333,
+      "name": "魔幻仙踪",
+      "nameCN": "",
+      "date": "2014-05-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 229127,
+      "name": "魔幻仙踪",
+      "nameCN": "魔幻仙踪",
+      "date": "2008-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 113333,
+      "dst": 229127
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 229127,
+      "dst": 113333
+    }
+  ]
 }

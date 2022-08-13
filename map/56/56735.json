@@ -1,57 +1,54 @@
 {
- "id": 56735,
- "node": [
-  {
-   "id": 56735,
-   "name": "Sonic &amp; All-Stars Racing Transformed",
-   "nameCN": "索尼克与世嘉全明星赛车 变形",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/65/56735_6FjjD.jpg",
-   "date": "2012-11-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 89166,
-   "name": "Sonic &amp; Sega All-Stars Racing",
-   "nameCN": "索尼克与世嘉全明星赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/90/89166_ZHabv.jpg",
-   "date": "2010-02-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 282826,
-   "name": "TEAM SONIC RACING",
-   "nameCN": "索尼克团队赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/2a/282826_nCN00.jpg",
-   "date": "2019-05-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 56735,
-   "dst": 89166
-  },
-  {
-   "relate": "续集",
-   "src": 56735,
-   "dst": 282826
-  },
-  {
-   "relate": "续集",
-   "src": 89166,
-   "dst": 56735
-  },
-  {
-   "relate": "前传",
-   "src": 282826,
-   "dst": 56735
-  }
- ]
+  "id": "56735",
+  "node": [
+    {
+      "id": 56735,
+      "name": "Sonic &amp; All-Stars Racing Transformed",
+      "nameCN": "索尼克与世嘉全明星赛车 变形",
+      "date": "2012-11-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 89166,
+      "name": "Sonic &amp; Sega All-Stars Racing",
+      "nameCN": "索尼克与世嘉全明星赛车",
+      "date": "2010-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 282826,
+      "name": "TEAM SONIC RACING",
+      "nameCN": "索尼克团队赛车",
+      "date": "2019-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 56735,
+      "dst": 89166
+    },
+    {
+      "relateString": "续集",
+      "src": 56735,
+      "dst": 282826
+    },
+    {
+      "relateString": "续集",
+      "src": 89166,
+      "dst": 56735
+    },
+    {
+      "relateString": "前传",
+      "src": 282826,
+      "dst": 56735
+    }
+  ]
 }

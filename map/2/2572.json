@@ -1,37 +1,35 @@
 {
- "id": 2572,
- "node": [
-  {
-   "id": 2572,
-   "name": "探偵学園Q",
-   "nameCN": "侦探学院Q",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/e9/2572_DHQHy.jpg",
-   "date": "2007-07-03",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 18909,
-   "name": "探偵学園Q 単発ドラマ",
-   "nameCN": "侦探学院Q 单发电视剧",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/0d/18909_qkvKH.jpg",
-   "date": "2006-07-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 2572,
-   "dst": 18909
-  },
-  {
-   "relate": "续集",
-   "src": 18909,
-   "dst": 2572
-  }
- ]
+  "id": "2572",
+  "node": [
+    {
+      "id": 2572,
+      "name": "探偵学園Q",
+      "nameCN": "侦探学院Q",
+      "date": "2007-07-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 18909,
+      "name": "探偵学園Q 単発ドラマ",
+      "nameCN": "侦探学院Q 单发电视剧",
+      "date": "2006-07-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 2572,
+      "dst": 18909
+    },
+    {
+      "relateString": "续集",
+      "src": 18909,
+      "dst": 2572
+    }
+  ]
 }

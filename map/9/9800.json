@@ -1,97 +1,92 @@
 {
- "id": 9800,
- "node": [
-  {
-   "id": 9800,
-   "name": "IS〈インフィニット・ストラトス〉",
-   "nameCN": "IS〈无限斯特拉托斯〉",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/bc/9800_eIkZW.jpg",
-   "date": "2011-01-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 27885,
-   "name": "IS〈インフィニット・ストラトス〉 アンコール 恋に焦がれる六重奏",
-   "nameCN": "IS OVA 渴望热恋的六重奏",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/20/27885_vfYec.jpg",
-   "date": "2011-12-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 68022,
-   "name": "IS〈インフィニット・ストラトス〉2",
-   "nameCN": "IS〈无限斯特拉托斯〉第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/37/68022_chJ9g.jpg",
-   "date": "2013-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 80840,
-   "name": "IS〈インフィニット・ストラトス〉2 ロング・バケーションEDITION",
-   "nameCN": "IS2 OVA 一夏的回忆",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/b5/80840_l9pE6.jpg",
-   "date": "2013-10-30",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 90967,
-   "name": "IS〈インフィニット・ストラトス〉2 OVA ワールド・パージ編",
-   "nameCN": "IS2 OVA 世界清洗篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/b0/90967_rUiRv.jpg",
-   "date": "2014-11-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 9800,
-   "dst": 27885
-  },
-  {
-   "relate": "续集",
-   "src": 9800,
-   "dst": 68022
-  },
-  {
-   "relate": "主线故事",
-   "src": 27885,
-   "dst": 9800
-  },
-  {
-   "relate": "前传",
-   "src": 68022,
-   "dst": 9800
-  },
-  {
-   "relate": "番外篇",
-   "src": 68022,
-   "dst": 80840
-  },
-  {
-   "relate": "番外篇",
-   "src": 68022,
-   "dst": 90967
-  },
-  {
-   "relate": "主线故事",
-   "src": 80840,
-   "dst": 68022
-  },
-  {
-   "relate": "主线故事",
-   "src": 90967,
-   "dst": 68022
-  }
- ]
+  "id": "9800",
+  "node": [
+    {
+      "id": 9800,
+      "name": "IS〈インフィニット・ストラトス〉",
+      "nameCN": "IS〈无限斯特拉托斯〉",
+      "date": "2011-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 27885,
+      "name": "IS〈インフィニット・ストラトス〉 アンコール 恋に焦がれる六重奏",
+      "nameCN": "IS OVA 渴望热恋的六重奏",
+      "date": "2011-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 68022,
+      "name": "IS〈インフィニット・ストラトス〉2",
+      "nameCN": "IS〈无限斯特拉托斯〉第二季",
+      "date": "2013-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 80840,
+      "name": "IS〈インフィニット・ストラトス〉2 ロング・バケーションEDITION",
+      "nameCN": "IS2 OVA 一夏的回忆",
+      "date": "2013-10-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 90967,
+      "name": "IS〈インフィニット・ストラトス〉2 OVA ワールド・パージ編",
+      "nameCN": "IS2 OVA 世界清洗篇",
+      "date": "2014-11-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 9800,
+      "dst": 27885
+    },
+    {
+      "relateString": "续集",
+      "src": 9800,
+      "dst": 68022
+    },
+    {
+      "relateString": "主线故事",
+      "src": 27885,
+      "dst": 9800
+    },
+    {
+      "relateString": "前传",
+      "src": 68022,
+      "dst": 9800
+    },
+    {
+      "relateString": "番外篇",
+      "src": 68022,
+      "dst": 80840
+    },
+    {
+      "relateString": "番外篇",
+      "src": 68022,
+      "dst": 90967
+    },
+    {
+      "relateString": "主线故事",
+      "src": 80840,
+      "dst": 68022
+    },
+    {
+      "relateString": "主线故事",
+      "src": 90967,
+      "dst": 68022
+    }
+  ]
 }

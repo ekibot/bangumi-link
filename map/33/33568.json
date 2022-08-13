@@ -1,37 +1,33 @@
 {
- "id": 33568,
- "node": [
-  {
-   "id": 33568,
-   "name": "百合男子",
-   "nameCN": "百合男子",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/9a/33568_P7W2q.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 127502,
-   "name": "俺の嫁なんていねぇ！",
-   "nameCN": "我没有老婆！",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/74/127502_4n5o3.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33568,
-   "dst": 127502
-  },
-  {
-   "relate": "前传",
-   "src": 127502,
-   "dst": 33568
-  }
- ]
+  "id": "33568",
+  "node": [
+    {
+      "id": 33568,
+      "name": "百合男子",
+      "nameCN": "百合男子",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 127502,
+      "name": "俺の嫁なんていねぇ！",
+      "nameCN": "我没有老婆！",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33568,
+      "dst": 127502
+    },
+    {
+      "relateString": "前传",
+      "src": 127502,
+      "dst": 33568
+    }
+  ]
 }

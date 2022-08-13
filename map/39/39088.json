@@ -1,97 +1,92 @@
 {
- "id": 39088,
- "node": [
-  {
-   "id": 39088,
-   "name": "Madagascar",
-   "nameCN": "马达加斯加",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/cc/39088_0jMJ6.jpg",
-   "date": "2005-07-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 39089,
-   "name": "Madagascar: Escape to Africa",
-   "nameCN": "马达加斯加2：逃往非洲",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/26/39089_QtrYt.jpg",
-   "date": "2008-11-07",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 46126,
-   "name": "Madagascar 3: Europe's Most Wanted",
-   "nameCN": "马达加斯加3",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/47/46126_nmzY8.jpg",
-   "date": "2012-06-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 46742,
-   "name": "The Penguins of Madagascar Season 1",
-   "nameCN": "马达加斯加企鹅 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/ac/46742_MwGwk.jpg",
-   "date": "2009-11-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 116276,
-   "name": "Penguins of Madagascar",
-   "nameCN": "马达加斯加的企鹅",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/8a/116276_V957M.jpg",
-   "date": "2014-11-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 39088,
-   "dst": 39089
-  },
-  {
-   "relate": "衍生",
-   "src": 39088,
-   "dst": 46742
-  },
-  {
-   "relate": "前传",
-   "src": 39089,
-   "dst": 39088
-  },
-  {
-   "relate": "续集",
-   "src": 39089,
-   "dst": 46126
-  },
-  {
-   "relate": "前传",
-   "src": 46126,
-   "dst": 39089
-  },
-  {
-   "relate": "主线故事",
-   "src": 46742,
-   "dst": 39088
-  },
-  {
-   "relate": "不同演绎",
-   "src": 46742,
-   "dst": 116276
-  },
-  {
-   "relate": "不同演绎",
-   "src": 116276,
-   "dst": 46742
-  }
- ]
+  "id": "39088",
+  "node": [
+    {
+      "id": 39088,
+      "name": "Madagascar",
+      "nameCN": "马达加斯加",
+      "date": "2005-07-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 39089,
+      "name": "Madagascar: Escape to Africa",
+      "nameCN": "马达加斯加2：逃往非洲",
+      "date": "2008-11-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 46742,
+      "name": "The Penguins of Madagascar Season 1",
+      "nameCN": "马达加斯加企鹅 第一季",
+      "date": "2009-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 46126,
+      "name": "Madagascar 3: Europe's Most Wanted",
+      "nameCN": "马达加斯加3",
+      "date": "2012-06-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 116276,
+      "name": "Penguins of Madagascar",
+      "nameCN": "马达加斯加的企鹅",
+      "date": "2014-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 39088,
+      "dst": 39089
+    },
+    {
+      "relateString": "衍生",
+      "src": 39088,
+      "dst": 46742
+    },
+    {
+      "relateString": "前传",
+      "src": 39089,
+      "dst": 39088
+    },
+    {
+      "relateString": "续集",
+      "src": 39089,
+      "dst": 46126
+    },
+    {
+      "relateString": "前传",
+      "src": 46126,
+      "dst": 39089
+    },
+    {
+      "relateString": "主线故事",
+      "src": 46742,
+      "dst": 39088
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 46742,
+      "dst": 116276
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 116276,
+      "dst": 46742
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 8835,
- "node": [
-  {
-   "id": 8835,
-   "name": "ママレード・ボーイ",
-   "nameCN": "橘子酱男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/ab/8835_7ppjo.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 146087,
-   "name": "ママレード・ボーイ little",
-   "nameCN": "橘子酱男孩 little",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/4f/146087_EDzdM.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8835,
-   "dst": 146087
-  },
-  {
-   "relate": "前传",
-   "src": 146087,
-   "dst": 8835
-  }
- ]
+  "id": "8835",
+  "node": [
+    {
+      "id": 8835,
+      "name": "ママレード・ボーイ",
+      "nameCN": "橘子酱男孩",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 146087,
+      "name": "ママレード・ボーイ little",
+      "nameCN": "橘子酱男孩 little",
+      "date": "2013-03-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8835,
+      "dst": 146087
+    },
+    {
+      "relateString": "前传",
+      "src": 146087,
+      "dst": 8835
+    }
+  ]
 }

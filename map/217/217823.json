@@ -1,37 +1,35 @@
 {
- "id": 217823,
- "node": [
-  {
-   "id": 217823,
-   "name": "Fuzion Frenzy",
-   "nameCN": "疯狂大乱斗",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/6c/217823_XBbfJ.jpg",
-   "date": "2001-11-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 217824,
-   "name": "Fuzion Frenzy 2",
-   "nameCN": "疯狂大乱斗2",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/39/217824_7b3dc.jpg",
-   "date": "2007-01-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 217823,
-   "dst": 217824
-  },
-  {
-   "relate": "前传",
-   "src": 217824,
-   "dst": 217823
-  }
- ]
+  "id": "217823",
+  "node": [
+    {
+      "id": 217823,
+      "name": "Fuzion Frenzy",
+      "nameCN": "疯狂大乱斗",
+      "date": "2001-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 217824,
+      "name": "Fuzion Frenzy 2",
+      "nameCN": "疯狂大乱斗2",
+      "date": "2007-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 217823,
+      "dst": 217824
+    },
+    {
+      "relateString": "前传",
+      "src": 217824,
+      "dst": 217823
+    }
+  ]
 }

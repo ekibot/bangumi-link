@@ -1,49 +1,34 @@
 {
- "id": 68632,
- "node": [
-  {
-   "id": 68632,
-   "name": "サバイバル",
-   "nameCN": "陆地沉没记",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/4e/68632_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 196227,
-   "name": "サバイバル~少年Sの記録~",
-   "nameCN": "陆地沉没记～少年S的记录～",
-   "image": "//lain.bgm.tv/pic/cover/m/d8/7e/196227_2m5TT.jpg",
-   "date": "2016-01-13"
-  },
-  {
-   "id": 365858,
-   "name": "サバイバル Another Story",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/3c/365858_2u2I1.jpg",
-   "date": "2001-11-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 68632,
-   "dst": 365858
-  },
-  {
-   "relate": "相同世界观",
-   "src": 196227,
-   "dst": 68632
-  },
-  {
-   "relate": "主线故事",
-   "src": 365858,
-   "dst": 68632
-  }
- ]
+  "id": "68632",
+  "node": [
+    {
+      "id": 68632,
+      "name": "サバイバル",
+      "nameCN": "陆地沉没记",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 365858,
+      "name": "サバイバル Another Story",
+      "nameCN": "",
+      "date": "2001-11-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 68632,
+      "dst": 365858
+    },
+    {
+      "relateString": "主线故事",
+      "src": 365858,
+      "dst": 68632
+    }
+  ]
 }

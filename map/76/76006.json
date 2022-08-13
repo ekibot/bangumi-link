@@ -1,37 +1,35 @@
 {
- "id": 76006,
- "node": [
-  {
-   "id": 76006,
-   "name": "The White Queen (Season 1)",
-   "nameCN": "白王后 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/c9/76006_tRRX8.jpg",
-   "date": "2013-06-16",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 214628,
-   "name": "The White Princess",
-   "nameCN": "白公主",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/cd/214628_o5aNY.jpg",
-   "date": "2017-04-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76006,
-   "dst": 214628
-  },
-  {
-   "relate": "前传",
-   "src": 214628,
-   "dst": 76006
-  }
- ]
+  "id": "76006",
+  "node": [
+    {
+      "id": 76006,
+      "name": "The White Queen (Season 1)",
+      "nameCN": "白王后 第一季",
+      "date": "2013-06-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 214628,
+      "name": "The White Princess",
+      "nameCN": "白公主",
+      "date": "2017-04-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76006,
+      "dst": 214628
+    },
+    {
+      "relateString": "前传",
+      "src": 214628,
+      "dst": 76006
+    }
+  ]
 }

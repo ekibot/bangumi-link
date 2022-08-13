@@ -1,37 +1,35 @@
 {
- "id": 181907,
- "node": [
-  {
-   "id": 181907,
-   "name": "名探偵コナン 10years シネマガイド",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/8d/181907_jp.jpg",
-   "date": "2006-03-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 181908,
-   "name": "名探偵コナン 20years シネマガイド",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/a6/181908_jp.jpg",
-   "date": "2016-04-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 181907,
-   "dst": 181908
-  },
-  {
-   "relate": "前传",
-   "src": 181908,
-   "dst": 181907
-  }
- ]
+  "id": "181907",
+  "node": [
+    {
+      "id": 181907,
+      "name": "名探偵コナン 10years シネマガイド",
+      "nameCN": "",
+      "date": "2006-03-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 181908,
+      "name": "名探偵コナン 20years シネマガイド",
+      "nameCN": "",
+      "date": "2016-04-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 181907,
+      "dst": 181908
+    },
+    {
+      "relateString": "前传",
+      "src": 181908,
+      "dst": 181907
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 94533,
- "node": [
-  {
-   "id": 94533,
-   "name": "風雲之天下會",
-   "nameCN": "风云之天下会",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/67/94533_Hsqfq.jpg",
-   "date": "1998-02-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 94536,
-   "name": "风云2：七武器",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/85/94536_PupeG.jpg",
-   "date": "2001-06-21",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 94533,
-   "dst": 94536
-  },
-  {
-   "relate": "前传",
-   "src": 94536,
-   "dst": 94533
-  }
- ]
+  "id": "94533",
+  "node": [
+    {
+      "id": 94533,
+      "name": "風雲之天下會",
+      "nameCN": "风云之天下会",
+      "date": "1998-02-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 94536,
+      "name": "风云2：七武器",
+      "nameCN": "",
+      "date": "2001-06-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 94533,
+      "dst": 94536
+    },
+    {
+      "relateString": "前传",
+      "src": 94536,
+      "dst": 94533
+    }
+  ]
 }

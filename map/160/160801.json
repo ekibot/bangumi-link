@@ -1,97 +1,87 @@
 {
- "id": 160801,
- "node": [
-  {
-   "id": 160801,
-   "name": "釜ヶ崎&lt;ドヤ街&gt;まんが日記",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/a0/160801_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 160802,
-   "name": "カマやん漂流記",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/b6/160802_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160803,
-   "name": "Hotel New 釜ケ崎",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160804,
-   "name": "日本お笑い資本主義",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/8e/160804_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 160805,
-   "name": "カマやんの曲がりかど",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/b3/160805_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 160801,
-   "dst": 160802
-  },
-  {
-   "relate": "前传",
-   "src": 160802,
-   "dst": 160801
-  },
-  {
-   "relate": "续集",
-   "src": 160802,
-   "dst": 160803
-  },
-  {
-   "relate": "前传",
-   "src": 160803,
-   "dst": 160802
-  },
-  {
-   "relate": "续集",
-   "src": 160803,
-   "dst": 160804
-  },
-  {
-   "relate": "前传",
-   "src": 160804,
-   "dst": 160803
-  },
-  {
-   "relate": "续集",
-   "src": 160804,
-   "dst": 160805
-  },
-  {
-   "relate": "前传",
-   "src": 160805,
-   "dst": 160804
-  }
- ]
+  "id": "160801",
+  "node": [
+    {
+      "id": 160801,
+      "name": "釜ヶ崎&lt;ドヤ街&gt;まんが日記",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160802,
+      "name": "カマやん漂流記",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160803,
+      "name": "Hotel New 釜ケ崎",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160804,
+      "name": "日本お笑い資本主義",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160805,
+      "name": "カマやんの曲がりかど",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 160801,
+      "dst": 160802
+    },
+    {
+      "relateString": "前传",
+      "src": 160802,
+      "dst": 160801
+    },
+    {
+      "relateString": "续集",
+      "src": 160802,
+      "dst": 160803
+    },
+    {
+      "relateString": "前传",
+      "src": 160803,
+      "dst": 160802
+    },
+    {
+      "relateString": "续集",
+      "src": 160803,
+      "dst": 160804
+    },
+    {
+      "relateString": "前传",
+      "src": 160804,
+      "dst": 160803
+    },
+    {
+      "relateString": "续集",
+      "src": 160804,
+      "dst": 160805
+    },
+    {
+      "relateString": "前传",
+      "src": 160805,
+      "dst": 160804
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 54984,
- "node": [
-  {
-   "id": 54984,
-   "name": "サクラ大戦 漫画版",
-   "nameCN": "樱花大战 漫画版",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/e4/54984_koZK1.jpg",
-   "date": "2003-02-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56751,
-   "name": "サクラ大戦 漫画版 第二部",
-   "nameCN": "樱花大战 漫画版 第二部",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/2f/56751_Wc9Ln.jpg",
-   "date": "2010-02-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 54984,
-   "dst": 56751
-  },
-  {
-   "relate": "前传",
-   "src": 56751,
-   "dst": 54984
-  }
- ]
+  "id": "54984",
+  "node": [
+    {
+      "id": 54984,
+      "name": "サクラ大戦 漫画版",
+      "nameCN": "樱花大战 漫画版",
+      "date": "2003-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56751,
+      "name": "サクラ大戦 漫画版 第二部",
+      "nameCN": "樱花大战 漫画版 第二部",
+      "date": "2010-02-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 54984,
+      "dst": 56751
+    },
+    {
+      "relateString": "前传",
+      "src": 56751,
+      "dst": 54984
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 11284,
- "node": [
-  {
-   "id": 11284,
-   "name": "いつか青空の下で",
-   "nameCN": "爱在青空下",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/b0/11284_jp.jpg",
-   "date": "2004-06-26",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 11290,
-   "name": "そして恋がはじまる",
-   "nameCN": "爱如此奇妙",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/ef/11290_jp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 11284,
-   "dst": 11290
-  },
-  {
-   "relate": "续集",
-   "src": 11290,
-   "dst": 11284
-  }
- ]
+  "id": "11284",
+  "node": [
+    {
+      "id": 11284,
+      "name": "いつか青空の下で",
+      "nameCN": "爱在青空下",
+      "date": "2004-06-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 11290,
+      "name": "そして恋がはじまる",
+      "nameCN": "爱如此奇妙",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 11284,
+      "dst": 11290
+    },
+    {
+      "relateString": "续集",
+      "src": 11290,
+      "dst": 11284
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 224167,
- "node": [
-  {
-   "id": 224167,
-   "name": "Strike Season 1",
-   "nameCN": "神探斯特莱克 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/cf/224167_HQ4BQ.jpg",
-   "date": "2017-08-27",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 226112,
-   "name": "Strike Season 2",
-   "nameCN": "神探斯特莱克 第二季",
-   "date": "2018-02-25",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224167,
-   "dst": 226112
-  },
-  {
-   "relate": "前传",
-   "src": 226112,
-   "dst": 224167
-  }
- ]
+  "id": "224167",
+  "node": [
+    {
+      "id": 224167,
+      "name": "Strike Season 1",
+      "nameCN": "神探斯特莱克 第一季",
+      "date": "2017-08-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 226112,
+      "name": "Strike Season 2",
+      "nameCN": "神探斯特莱克 第二季",
+      "date": "2018-02-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224167,
+      "dst": 226112
+    },
+    {
+      "relateString": "前传",
+      "src": 226112,
+      "dst": 224167
+    }
+  ]
 }

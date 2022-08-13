@@ -1,37 +1,35 @@
 {
- "id": 143309,
- "node": [
-  {
-   "id": 143309,
-   "name": "コルセーア 完全版 上",
-   "nameCN": "海盗迷情 完全版 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/13/143309_jp.jpg",
-   "date": "2014-12-24",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 143310,
-   "name": "コルセーア 完全版 下",
-   "nameCN": "海盗迷情 完全版 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/bf/143310_jp.jpg",
-   "date": "2014-12-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 143309,
-   "dst": 143310
-  },
-  {
-   "relate": "前传",
-   "src": 143310,
-   "dst": 143309
-  }
- ]
+  "id": "143309",
+  "node": [
+    {
+      "id": 143309,
+      "name": "コルセーア 完全版 上",
+      "nameCN": "海盗迷情 完全版 上",
+      "date": "2014-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 143310,
+      "name": "コルセーア 完全版 下",
+      "nameCN": "海盗迷情 完全版 下",
+      "date": "2014-12-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 143309,
+      "dst": 143310
+    },
+    {
+      "relateString": "前传",
+      "src": 143310,
+      "dst": 143309
+    }
+  ]
 }

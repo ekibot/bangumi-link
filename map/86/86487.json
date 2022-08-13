@@ -1,37 +1,35 @@
 {
- "id": 86487,
- "node": [
-  {
-   "id": 86487,
-   "name": "おやすみ☆ダーリン",
-   "nameCN": "晚安，亲爱的",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/2c/86487_jp.jpg",
-   "date": "2005-10-08",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 86488,
-   "name": "おやすみ❤ラブダーリン",
-   "nameCN": "晚安我的爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/be/86488_jp.jpg",
-   "date": "2007-01-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86487,
-   "dst": 86488
-  },
-  {
-   "relate": "前传",
-   "src": 86488,
-   "dst": 86487
-  }
- ]
+  "id": "86487",
+  "node": [
+    {
+      "id": 86487,
+      "name": "おやすみ☆ダーリン",
+      "nameCN": "晚安，亲爱的",
+      "date": "2005-10-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86488,
+      "name": "おやすみ❤ラブダーリン",
+      "nameCN": "晚安我的爱",
+      "date": "2007-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86487,
+      "dst": 86488
+    },
+    {
+      "relateString": "前传",
+      "src": 86488,
+      "dst": 86487
+    }
+  ]
 }

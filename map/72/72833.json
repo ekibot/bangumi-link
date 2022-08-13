@@ -1,37 +1,35 @@
 {
- "id": 72833,
- "node": [
-  {
-   "id": 72833,
-   "name": "Max &amp; the Magic Marker",
-   "nameCN": "麦克斯与魔法标记",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/db/72833_KeSsr.jpg",
-   "date": "2010-01-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 164508,
-   "name": "Max: The Curse of Brotherhood",
-   "nameCN": "麦克斯：兄弟魔咒",
-   "image": "https://lain.bgm.tv/pic/cover/m/e6/0e/164508_k00Xw.jpg",
-   "date": "2013-12-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72833,
-   "dst": 164508
-  },
-  {
-   "relate": "前传",
-   "src": 164508,
-   "dst": 72833
-  }
- ]
+  "id": "72833",
+  "node": [
+    {
+      "id": 72833,
+      "name": "Max &amp; the Magic Marker",
+      "nameCN": "麦克斯与魔法标记",
+      "date": "2010-01-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 164508,
+      "name": "Max: The Curse of Brotherhood",
+      "nameCN": "麦克斯：兄弟魔咒",
+      "date": "2013-12-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72833,
+      "dst": 164508
+    },
+    {
+      "relateString": "前传",
+      "src": 164508,
+      "dst": 72833
+    }
+  ]
 }

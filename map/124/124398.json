@@ -1,37 +1,35 @@
 {
- "id": 124398,
- "node": [
-  {
-   "id": 124398,
-   "name": "家有儿女",
-   "nameCN": "家有儿女",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/ee/124398_JhP6a.jpg",
-   "date": "2005-02-12",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 268558,
-   "name": "家有儿女 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/b1/268558_0p50I.jpg",
-   "date": "2005-12-09",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 124398,
-   "dst": 268558
-  },
-  {
-   "relate": "前传",
-   "src": 268558,
-   "dst": 124398
-  }
- ]
+  "id": "124398",
+  "node": [
+    {
+      "id": 124398,
+      "name": "家有儿女",
+      "nameCN": "家有儿女",
+      "date": "2005-02-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 268558,
+      "name": "家有儿女 第二季",
+      "nameCN": "",
+      "date": "2005-12-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 124398,
+      "dst": 268558
+    },
+    {
+      "relateString": "前传",
+      "src": 268558,
+      "dst": 124398
+    }
+  ]
 }

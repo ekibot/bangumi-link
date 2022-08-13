@@ -1,37 +1,34 @@
 {
- "id": 39447,
- "node": [
-  {
-   "id": 39447,
-   "name": "カミヤドリ",
-   "nameCN": "神灭领域",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/b1/39447_hWsB6.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 109882,
-   "name": "神宿りのナギ",
-   "nameCN": "神宿之凪",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/7d/109882_Ts9DP.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 39447,
-   "dst": 109882
-  },
-  {
-   "relate": "前传",
-   "src": 109882,
-   "dst": 39447
-  }
- ]
+  "id": "39447",
+  "node": [
+    {
+      "id": 39447,
+      "name": "カミヤドリ",
+      "nameCN": "神灭领域",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 109882,
+      "name": "神宿りのナギ",
+      "nameCN": "神宿之凪",
+      "date": "2007-09-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 39447,
+      "dst": 109882
+    },
+    {
+      "relateString": "前传",
+      "src": 109882,
+      "dst": 39447
+    }
+  ]
 }

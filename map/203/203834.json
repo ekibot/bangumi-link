@@ -1,37 +1,35 @@
 {
- "id": 203834,
- "node": [
-  {
-   "id": 203834,
-   "name": "3% Season 1",
-   "nameCN": "百分之三",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/42/244861_J9bSS.jpg",
-   "date": "2016-11-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 244866,
-   "name": "3% Season 2",
-   "nameCN": "百分之三 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/9d/244866_E02LZ.jpg",
-   "date": "2018-04-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 203834,
-   "dst": 244866
-  },
-  {
-   "relate": "前传",
-   "src": 244866,
-   "dst": 203834
-  }
- ]
+  "id": "203834",
+  "node": [
+    {
+      "id": 203834,
+      "name": "3% Season 1",
+      "nameCN": "百分之三",
+      "date": "2016-11-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 244866,
+      "name": "3% Season 2",
+      "nameCN": "百分之三 第二季",
+      "date": "2018-04-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 203834,
+      "dst": 244866
+    },
+    {
+      "relateString": "前传",
+      "src": 244866,
+      "dst": 203834
+    }
+  ]
 }

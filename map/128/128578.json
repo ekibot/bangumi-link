@@ -1,57 +1,54 @@
 {
- "id": 128578,
- "node": [
-  {
-   "id": 128578,
-   "name": "メイちゃんの執事",
-   "nameCN": "小咩的管家",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/41/128578_0qL0c.jpg",
-   "date": "2006-05-02",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 128600,
-   "name": "メイちゃんの執事DX",
-   "nameCN": "咩咩的执事DX",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/11/128600_c7188.jpg",
-   "date": "2015-01-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 128603,
-   "name": "ミカド☆ボーイ",
-   "nameCN": "帝都☆男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/53/128603_O0kgc.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128578,
-   "dst": 128600
-  },
-  {
-   "relate": "相同世界观",
-   "src": 128578,
-   "dst": 128603
-  },
-  {
-   "relate": "前传",
-   "src": 128600,
-   "dst": 128578
-  },
-  {
-   "relate": "相同世界观",
-   "src": 128603,
-   "dst": 128578
-  }
- ]
+  "id": "128578",
+  "node": [
+    {
+      "id": 128578,
+      "name": "メイちゃんの執事",
+      "nameCN": "小咩的管家",
+      "date": "2006-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 128600,
+      "name": "メイちゃんの執事DX",
+      "nameCN": "咩咩的执事DX",
+      "date": "2015-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 128603,
+      "name": "ミカド☆ボーイ",
+      "nameCN": "帝都☆男孩",
+      "date": "2013-04-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128578,
+      "dst": 128600
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 128578,
+      "dst": 128603
+    },
+    {
+      "relateString": "前传",
+      "src": 128600,
+      "dst": 128578
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 128603,
+      "dst": 128578
+    }
+  ]
 }

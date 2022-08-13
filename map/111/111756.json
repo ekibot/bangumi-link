@@ -1,37 +1,35 @@
 {
- "id": 111756,
- "node": [
-  {
-   "id": 111756,
-   "name": "転校生",
-   "nameCN": "转校生",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/9f/111756_J99EO.jpg",
-   "date": "1995-03-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 117371,
-   "name": "転校生2",
-   "nameCN": "转校生2",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/25/117371_G3rRr.jpg",
-   "date": "1998-04-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 111756,
-   "dst": 117371
-  },
-  {
-   "relate": "前传",
-   "src": 117371,
-   "dst": 111756
-  }
- ]
+  "id": "111756",
+  "node": [
+    {
+      "id": 111756,
+      "name": "転校生",
+      "nameCN": "转校生",
+      "date": "1995-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 117371,
+      "name": "転校生2",
+      "nameCN": "转校生2",
+      "date": "1998-04-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 111756,
+      "dst": 117371
+    },
+    {
+      "relateString": "前传",
+      "src": 117371,
+      "dst": 111756
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 30507,
- "node": [
-  {
-   "id": 30507,
-   "name": "GENJI",
-   "nameCN": "源氏 -武士的黎明-",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/fb/30507_Z5haf.jpg",
-   "date": "2005-06-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 57923,
-   "name": "GENJI -神威奏乱-",
-   "nameCN": "源氏 -神威奏乱-",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/1b/57923_pdMT9.jpg",
-   "date": "2006-11-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30507,
-   "dst": 57923
-  },
-  {
-   "relate": "前传",
-   "src": 57923,
-   "dst": 30507
-  }
- ]
+  "id": "30507",
+  "node": [
+    {
+      "id": 30507,
+      "name": "GENJI",
+      "nameCN": "源氏 -武士的黎明-",
+      "date": "2005-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 57923,
+      "name": "GENJI -神威奏乱-",
+      "nameCN": "源氏 -神威奏乱-",
+      "date": "2006-11-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30507,
+      "dst": 57923
+    },
+    {
+      "relateString": "前传",
+      "src": 57923,
+      "dst": 30507
+    }
+  ]
 }

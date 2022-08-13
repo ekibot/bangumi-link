@@ -1,77 +1,73 @@
 {
- "id": 26068,
- "node": [
-  {
-   "id": 26068,
-   "name": "アンダーグラウンドホテル 上",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/77/26068_jp.jpg",
-   "date": "2009-05-19",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 26069,
-   "name": "アンダーグラウンドホテル 下",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/03/26069_jp.jpg",
-   "date": "2009-05-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 69263,
-   "name": "アンダーグラ〔×ウ〕ンドホテルKISS&amp;KILL",
-   "nameCN": "UNDER GROUND(GRAND) HOTEL KISS&amp;KILL",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/b3/69263_jp.jpg",
-   "date": "2013-01-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 132216,
-   "name": "アンダーグラウンドホテル",
-   "nameCN": "危险地下情",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/9a/132216_V9EZn.jpg",
-   "date": "2009-05-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 26068,
-   "dst": 26069
-  },
-  {
-   "relate": "前传",
-   "src": 26069,
-   "dst": 26068
-  },
-  {
-   "relate": "续集",
-   "src": 26069,
-   "dst": 69263
-  },
-  {
-   "relate": "前传",
-   "src": 69263,
-   "dst": 26069
-  },
-  {
-   "relate": "主线故事",
-   "src": 69263,
-   "dst": 132216
-  },
-  {
-   "relate": "番外篇",
-   "src": 132216,
-   "dst": 69263
-  }
- ]
+  "id": "26068",
+  "node": [
+    {
+      "id": 26068,
+      "name": "アンダーグラウンドホテル 上",
+      "nameCN": "",
+      "date": "2009-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 26069,
+      "name": "アンダーグラウンドホテル 下",
+      "nameCN": "",
+      "date": "2009-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 69263,
+      "name": "アンダーグラ〔×ウ〕ンドホテルKISS&amp;KILL",
+      "nameCN": "UNDER GROUND(GRAND) HOTEL KISS&amp;KILL",
+      "date": "2013-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 132216,
+      "name": "アンダーグラウンドホテル",
+      "nameCN": "危险地下情",
+      "date": "2009-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 26068,
+      "dst": 26069
+    },
+    {
+      "relateString": "前传",
+      "src": 26069,
+      "dst": 26068
+    },
+    {
+      "relateString": "续集",
+      "src": 26069,
+      "dst": 69263
+    },
+    {
+      "relateString": "前传",
+      "src": 69263,
+      "dst": 26069
+    },
+    {
+      "relateString": "主线故事",
+      "src": 69263,
+      "dst": 132216
+    },
+    {
+      "relateString": "番外篇",
+      "src": 132216,
+      "dst": 69263
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 103618,
- "node": [
-  {
-   "id": 103618,
-   "name": "クローバー図書館の住人たち",
-   "nameCN": "四叶草图书馆的居民们",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/83/103618_cwyda.jpg",
-   "date": "2014-09-26",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 122525,
-   "name": "クローバー図書館の住人たちⅡ",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/0c/122525_VcBi3.jpg",
-   "date": "2015-04-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103618,
-   "dst": 122525
-  },
-  {
-   "relate": "前传",
-   "src": 122525,
-   "dst": 103618
-  }
- ]
+  "id": "103618",
+  "node": [
+    {
+      "id": 103618,
+      "name": "クローバー図書館の住人たち",
+      "nameCN": "四叶草图书馆的居民们",
+      "date": "2014-09-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 122525,
+      "name": "クローバー図書館の住人たちⅡ",
+      "nameCN": "",
+      "date": "2015-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103618,
+      "dst": 122525
+    },
+    {
+      "relateString": "前传",
+      "src": 122525,
+      "dst": 103618
+    }
+  ]
 }

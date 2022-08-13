@@ -1,37 +1,35 @@
 {
- "id": 3817,
- "node": [
-  {
-   "id": 3817,
-   "name": "子連れオオカミ",
-   "nameCN": "带子狼",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/6c/3817_dluuK.jpg",
-   "date": "2009-01-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 7559,
-   "name": "オオカミの血族",
-   "nameCN": "狼之血族",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/0a/7559_jp.jpg",
-   "date": "2010-07-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3817,
-   "dst": 7559
-  },
-  {
-   "relate": "前传",
-   "src": 7559,
-   "dst": 3817
-  }
- ]
+  "id": "3817",
+  "node": [
+    {
+      "id": 3817,
+      "name": "子連れオオカミ",
+      "nameCN": "带子狼",
+      "date": "2009-01-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 7559,
+      "name": "オオカミの血族",
+      "nameCN": "狼之血族",
+      "date": "2010-07-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3817,
+      "dst": 7559
+    },
+    {
+      "relateString": "前传",
+      "src": 7559,
+      "dst": 3817
+    }
+  ]
 }

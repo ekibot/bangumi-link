@@ -1,77 +1,73 @@
 {
- "id": 2482,
- "node": [
-  {
-   "id": 2482,
-   "name": "こどものじかん",
-   "nameCN": "萝莉的时间",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/5c/2482_IvcyP.jpg",
-   "date": "2007-10-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 4829,
-   "name": "こどものじかん OAD",
-   "nameCN": "萝莉的时间 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/6e/4829_11z50.jpg",
-   "date": "2007-09-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 4830,
-   "name": "こどものじかん 2学期",
-   "nameCN": "萝莉的时间 2学期",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/71/4830_myTSm.jpg",
-   "date": "2009-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 11142,
-   "name": "こどものじかん～こどものなつじかん～",
-   "nameCN": "萝莉的时间～萝莉的夏令时～",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/0b/11142_dV2Q1.jpg",
-   "date": "2011-01-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 2482,
-   "dst": 4829
-  },
-  {
-   "relate": "续集",
-   "src": 2482,
-   "dst": 4830
-  },
-  {
-   "relate": "主线故事",
-   "src": 4829,
-   "dst": 2482
-  },
-  {
-   "relate": "前传",
-   "src": 4830,
-   "dst": 2482
-  },
-  {
-   "relate": "续集",
-   "src": 4830,
-   "dst": 11142
-  },
-  {
-   "relate": "前传",
-   "src": 11142,
-   "dst": 4830
-  }
- ]
+  "id": "2482",
+  "node": [
+    {
+      "id": 2482,
+      "name": "こどものじかん",
+      "nameCN": "萝莉的时间",
+      "date": "2007-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 4829,
+      "name": "こどものじかん OAD",
+      "nameCN": "萝莉的时间 OAD",
+      "date": "2007-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 4830,
+      "name": "こどものじかん 2学期",
+      "nameCN": "萝莉的时间 2学期",
+      "date": "2009-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 11142,
+      "name": "こどものじかん～こどものなつじかん～",
+      "nameCN": "萝莉的时间～萝莉的夏令时～",
+      "date": "2011-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 2482,
+      "dst": 4829
+    },
+    {
+      "relateString": "续集",
+      "src": 2482,
+      "dst": 4830
+    },
+    {
+      "relateString": "主线故事",
+      "src": 4829,
+      "dst": 2482
+    },
+    {
+      "relateString": "前传",
+      "src": 4830,
+      "dst": 2482
+    },
+    {
+      "relateString": "续集",
+      "src": 4830,
+      "dst": 11142
+    },
+    {
+      "relateString": "前传",
+      "src": 11142,
+      "dst": 4830
+    }
+  ]
 }

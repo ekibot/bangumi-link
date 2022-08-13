@@ -1,57 +1,54 @@
 {
- "id": 206805,
- "node": [
-  {
-   "id": 206805,
-   "name": "新紀幻想スペクトラルソウルズII",
-   "nameCN": "新纪幻想2",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/cd/206805_7tx01.jpg",
-   "date": "2005-01-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 206982,
-   "name": "新紀幻想スペクトラルソウルズ",
-   "nameCN": "新纪幻想 圣魔之魂",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/2d/206982_DvQck.jpg",
-   "date": "2003-10-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 206989,
-   "name": "新紀幻想 ～SS II アンリミテッドサイド〜",
-   "nameCN": "新纪幻想~SSII 无尽边缘",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/1c/206989_xPQsF.jpg",
-   "date": "2005-10-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 206805,
-   "dst": 206982
-  },
-  {
-   "relate": "不同演绎",
-   "src": 206805,
-   "dst": 206989
-  },
-  {
-   "relate": "续集",
-   "src": 206982,
-   "dst": 206805
-  },
-  {
-   "relate": "不同演绎",
-   "src": 206989,
-   "dst": 206805
-  }
- ]
+  "id": "206805",
+  "node": [
+    {
+      "id": 206805,
+      "name": "新紀幻想スペクトラルソウルズII",
+      "nameCN": "新纪幻想2",
+      "date": "2005-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206982,
+      "name": "新紀幻想スペクトラルソウルズ",
+      "nameCN": "新纪幻想 圣魔之魂",
+      "date": "2003-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 206989,
+      "name": "新紀幻想 ～SS II アンリミテッドサイド〜",
+      "nameCN": "新纪幻想~SSII 无尽边缘",
+      "date": "2005-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 206805,
+      "dst": 206982
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 206805,
+      "dst": 206989
+    },
+    {
+      "relateString": "续集",
+      "src": 206982,
+      "dst": 206805
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 206989,
+      "dst": 206805
+    }
+  ]
 }

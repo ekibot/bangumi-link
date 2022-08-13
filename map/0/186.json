@@ -1,77 +1,73 @@
 {
- "id": 186,
- "node": [
-  {
-   "id": 186,
-   "name": "Rock Band 2",
-   "nameCN": "摇滚乐团2",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/72/186_aus.jpg",
-   "date": "2008-09-14",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 187,
-   "name": "Rock Band",
-   "nameCN": "摇滚乐团",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/fe/187_aus.jpg",
-   "date": "2007-11-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 73937,
-   "name": "Rock Band 3",
-   "nameCN": "摇滚乐团3",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/27/73937_101hM.jpg",
-   "date": "2010-10-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 138427,
-   "name": "Rock Band 4",
-   "nameCN": "摇滚乐团4",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/54/138427_jNoLZ.jpg",
-   "date": "2015-10-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 186,
-   "dst": 187
-  },
-  {
-   "relate": "续集",
-   "src": 186,
-   "dst": 73937
-  },
-  {
-   "relate": "续集",
-   "src": 187,
-   "dst": 186
-  },
-  {
-   "relate": "前传",
-   "src": 73937,
-   "dst": 186
-  },
-  {
-   "relate": "续集",
-   "src": 73937,
-   "dst": 138427
-  },
-  {
-   "relate": "前传",
-   "src": 138427,
-   "dst": 73937
-  }
- ]
+  "id": "186",
+  "node": [
+    {
+      "id": 186,
+      "name": "Rock Band 2",
+      "nameCN": "摇滚乐团2",
+      "date": "2008-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 187,
+      "name": "Rock Band",
+      "nameCN": "摇滚乐团",
+      "date": "2007-11-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 73937,
+      "name": "Rock Band 3",
+      "nameCN": "摇滚乐团3",
+      "date": "2010-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 138427,
+      "name": "Rock Band 4",
+      "nameCN": "摇滚乐团4",
+      "date": "2015-10-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 186,
+      "dst": 187
+    },
+    {
+      "relateString": "续集",
+      "src": 186,
+      "dst": 73937
+    },
+    {
+      "relateString": "续集",
+      "src": 187,
+      "dst": 186
+    },
+    {
+      "relateString": "前传",
+      "src": 73937,
+      "dst": 186
+    },
+    {
+      "relateString": "续集",
+      "src": 73937,
+      "dst": 138427
+    },
+    {
+      "relateString": "前传",
+      "src": 138427,
+      "dst": 73937
+    }
+  ]
 }

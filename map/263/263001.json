@@ -1,37 +1,33 @@
 {
- "id": 263001,
- "node": [
-  {
-   "id": 263001,
-   "name": "SEVEN SEVENS 登場篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/5d/263001_8bb89.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 2
-  },
-  {
-   "id": 263002,
-   "name": "モンスターブラックス 逆襲篇",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263001,
-   "dst": 263002
-  },
-  {
-   "relate": "前传",
-   "src": 263002,
-   "dst": 263001
-  }
- ]
+  "id": "263001",
+  "node": [
+    {
+      "id": 263001,
+      "name": "SEVEN SEVENS 登場篇",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 263002,
+      "name": "モンスターブラックス 逆襲篇",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263001,
+      "dst": 263002
+    },
+    {
+      "relateString": "前传",
+      "src": 263002,
+      "dst": 263001
+    }
+  ]
 }

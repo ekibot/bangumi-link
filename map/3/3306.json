@@ -1,34 +1,35 @@
 {
- "id": 3306,
- "node": [
-  {
-   "id": 3306,
-   "name": "ましろ色シンフォニー -Love is Pure White-",
-   "nameCN": "纯白交响曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/fc/3306_Z56g5.jpg",
-   "date": "2009-10-30",
-   "type": 4
-  },
-  {
-   "id": 13218,
-   "name": "ましろ色シンフォニー *mutsu-no-hana",
-   "nameCN": "纯白交响曲 六出飞花",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/40/13218_WoOdo.jpg",
-   "date": "2011-06-30",
-   "nsfw": false,
-   "platform": "PSP"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 3306,
-   "dst": 13218
-  },
-  {
-   "relate": "不同演绎",
-   "src": 13218,
-   "dst": 3306
-  }
- ]
+  "id": "3306",
+  "node": [
+    {
+      "id": 3306,
+      "name": "ましろ色シンフォニー -Love is Pure White-",
+      "nameCN": "纯白交响曲",
+      "date": "2009-10-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 13218,
+      "name": "ましろ色シンフォニー *mutsu-no-hana",
+      "nameCN": "纯白交响曲 六出飞花",
+      "date": "2011-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 3306,
+      "dst": 13218
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 13218,
+      "dst": 3306
+    }
+  ]
 }

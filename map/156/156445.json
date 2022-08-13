@@ -1,37 +1,33 @@
 {
- "id": 156445,
- "node": [
-  {
-   "id": 156445,
-   "name": "アクセスの森",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/d8/156445_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 156446,
-   "name": "王様の館 アクセスの森2",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156445,
-   "dst": 156446
-  },
-  {
-   "relate": "前传",
-   "src": 156446,
-   "dst": 156445
-  }
- ]
+  "id": "156445",
+  "node": [
+    {
+      "id": 156445,
+      "name": "アクセスの森",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 156446,
+      "name": "王様の館 アクセスの森2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156445,
+      "dst": 156446
+    },
+    {
+      "relateString": "前传",
+      "src": 156446,
+      "dst": 156445
+    }
+  ]
 }

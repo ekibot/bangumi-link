@@ -1,106 +1,101 @@
 {
- "id": 40388,
- "node": [
-  {
-   "id": 40388,
-   "name": "あたしンち",
-   "nameCN": "我们这一家",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/17/40388_92io2.jpg",
-   "date": "2002-04-19",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 49287,
-   "name": "映画 あたしンち",
-   "nameCN": "我们这一家 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/7e/49287_26t44.jpg",
-   "date": "2003-12-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 111231,
-   "name": "劇場版3D あたしンち -情熱の超ちょ?能力?母大暴走！-",
-   "nameCN": "剧场版3D 我们这一家 -热情的超能力- 母亲大暴走！",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/ef/111231_r2L64.jpg",
-   "date": "2010-11-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 115858,
-   "name": "あたしンち",
-   "nameCN": "我们这一家",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/b0/115858_4l8Gw.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 131717,
-   "name": "新あたしんち",
-   "nameCN": "新我们这一家",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/6a/131717_DDgOS.jpg",
-   "date": "2015-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 40388,
-   "dst": 49287
-  },
-  {
-   "relate": "番外篇",
-   "src": 40388,
-   "dst": 111231
-  },
-  {
-   "relate": "续集",
-   "src": 40388,
-   "dst": 131717
-  },
-  {
-   "relate": "主线故事",
-   "src": 49287,
-   "dst": 40388
-  },
-  {
-   "relate": "续集",
-   "src": 49287,
-   "dst": 111231
-  },
-  {
-   "relate": "主线故事",
-   "src": 111231,
-   "dst": 40388
-  },
-  {
-   "relate": "前传",
-   "src": 111231,
-   "dst": 49287
-  },
-  {
-   "relate": "不同演绎",
-   "src": 115858,
-   "dst": 49287
-  },
-  {
-   "relate": "不同演绎",
-   "src": 115858,
-   "dst": 111231
-  },
-  {
-   "relate": "前传",
-   "src": 131717,
-   "dst": 40388
-  }
- ]
+  "id": "40388",
+  "node": [
+    {
+      "id": 40388,
+      "name": "あたしンち",
+      "nameCN": "我们这一家",
+      "date": "2002-04-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 49287,
+      "name": "映画 あたしンち",
+      "nameCN": "我们这一家 剧场版",
+      "date": "2003-12-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 111231,
+      "name": "劇場版3D あたしンち -情熱の超ちょ?能力?母大暴走！-",
+      "nameCN": "剧场版3D 我们这一家 -热情的超能力- 母亲大暴走！",
+      "date": "2010-11-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 131717,
+      "name": "新あたしんち",
+      "nameCN": "新我们这一家",
+      "date": "2015-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 115858,
+      "name": "あたしンち",
+      "nameCN": "我们这一家",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 40388,
+      "dst": 49287
+    },
+    {
+      "relateString": "番外篇",
+      "src": 40388,
+      "dst": 111231
+    },
+    {
+      "relateString": "续集",
+      "src": 40388,
+      "dst": 131717
+    },
+    {
+      "relateString": "主线故事",
+      "src": 49287,
+      "dst": 40388
+    },
+    {
+      "relateString": "续集",
+      "src": 49287,
+      "dst": 111231
+    },
+    {
+      "relateString": "主线故事",
+      "src": 111231,
+      "dst": 40388
+    },
+    {
+      "relateString": "前传",
+      "src": 111231,
+      "dst": 49287
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 115858,
+      "dst": 49287
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 115858,
+      "dst": 111231
+    },
+    {
+      "relateString": "前传",
+      "src": 131717,
+      "dst": 40388
+    }
+  ]
 }

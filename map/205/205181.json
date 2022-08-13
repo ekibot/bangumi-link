@@ -1,37 +1,35 @@
 {
- "id": 205181,
- "node": [
-  {
-   "id": 205181,
-   "name": "哈喽！葡星人",
-   "nameCN": "哈喽！葡星人",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/22/205181_553a7.jpg",
-   "date": "2016-12-26",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 238070,
-   "name": "哈喽！葡星人2 极训特工",
-   "nameCN": "哈喽！葡星人之极训特工",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/93/238070_D6zdE.jpg",
-   "date": "2018-02-24",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 205181,
-   "dst": 238070
-  },
-  {
-   "relate": "前传",
-   "src": 238070,
-   "dst": 205181
-  }
- ]
+  "id": "205181",
+  "node": [
+    {
+      "id": 205181,
+      "name": "哈喽！葡星人",
+      "nameCN": "哈喽！葡星人",
+      "date": "2016-12-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 238070,
+      "name": "哈喽！葡星人2 极训特工",
+      "nameCN": "哈喽！葡星人之极训特工",
+      "date": "2018-02-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 205181,
+      "dst": 238070
+    },
+    {
+      "relateString": "前传",
+      "src": 238070,
+      "dst": 205181
+    }
+  ]
 }

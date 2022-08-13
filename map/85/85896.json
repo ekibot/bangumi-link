@@ -1,37 +1,34 @@
 {
- "id": 85896,
- "node": [
-  {
-   "id": 85896,
-   "name": "恋する姉妹の六重奏",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/1c/85896_8KL6S.jpg",
-   "date": "2014-02-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 127067,
-   "name": "恋する姉妹の六重奏PLUS",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/5e/127067_C8mDA.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 85896,
-   "dst": 127067
-  },
-  {
-   "relate": "前传",
-   "src": 127067,
-   "dst": 85896
-  }
- ]
+  "id": "85896",
+  "node": [
+    {
+      "id": 85896,
+      "name": "恋する姉妹の六重奏",
+      "nameCN": "",
+      "date": "2014-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 127067,
+      "name": "恋する姉妹の六重奏PLUS",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 85896,
+      "dst": 127067
+    },
+    {
+      "relateString": "前传",
+      "src": 127067,
+      "dst": 85896
+    }
+  ]
 }

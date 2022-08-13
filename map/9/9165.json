@@ -1,37 +1,35 @@
 {
- "id": 9165,
- "node": [
-  {
-   "id": 9165,
-   "name": "耳たぶの理由",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/64/9165_jp.jpg",
-   "date": "2009-02-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 111080,
-   "name": "胸の鼓動",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/77/111080_jp.jpg",
-   "date": "2014-08-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9165,
-   "dst": 111080
-  },
-  {
-   "relate": "前传",
-   "src": 111080,
-   "dst": 9165
-  }
- ]
+  "id": "9165",
+  "node": [
+    {
+      "id": 9165,
+      "name": "耳たぶの理由",
+      "nameCN": "",
+      "date": "2009-02-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111080,
+      "name": "胸の鼓動",
+      "nameCN": "",
+      "date": "2014-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9165,
+      "dst": 111080
+    },
+    {
+      "relateString": "前传",
+      "src": 111080,
+      "dst": 9165
+    }
+  ]
 }

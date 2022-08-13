@@ -1,141 +1,138 @@
 {
- "id": 214741,
- "node": [
-  {
-   "id": 214741,
-   "name": "西行纪",
-   "nameCN": "西行纪",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/a8/214741_Kl30c.jpg",
-   "date": "2018-07-18",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 263324,
-   "name": "西行纪之集结篇",
-   "nameCN": "西行纪之集结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/e7/263324_lZLaP.jpg",
-   "date": "2019-09-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 299263,
-   "name": "西行纪之宿命篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/2d/299263_HVJVt.jpg",
-   "date": "2021-06-02",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 299264,
-   "name": "西行纪之再见悟空",
-   "nameCN": "西行纪之再见悟空",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/f6/299264_f5wH7.jpg",
-   "date": "2020-05-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 345807,
-   "name": "西行纪之重生篇",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/b7/345807_lV20V.jpg",
-   "date": "2022-06-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 379682,
-   "name": "西行纪之穷奇地洞",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/24/379682_mH5wt.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 395284,
-   "name": "西行纪 年播剧集",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/c5/395284_dsrfL.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 214741,
-   "dst": 263324
-  },
-  {
-   "relate": "衍生",
-   "src": 214741,
-   "dst": 299264
-  },
-  {
-   "relate": "前传",
-   "src": 263324,
-   "dst": 214741
-  },
-  {
-   "relate": "续集",
-   "src": 263324,
-   "dst": 299263
-  },
-  {
-   "relate": "番外篇",
-   "src": 263324,
-   "dst": 299264
-  },
-  {
-   "relate": "前传",
-   "src": 299263,
-   "dst": 263324
-  },
-  {
-   "relate": "续集",
-   "src": 299263,
-   "dst": 345807
-  },
-  {
-   "relate": "主线故事",
-   "src": 299264,
-   "dst": 214741
-  },
-  {
-   "relate": "主线故事",
-   "src": 299264,
-   "dst": 263324
-  },
-  {
-   "relate": "前传",
-   "src": 345807,
-   "dst": 299263
-  },
-  {
-   "relate": "衍生",
-   "src": 345807,
-   "dst": 379682
-  },
-  {
-   "relate": "主线故事",
-   "src": 379682,
-   "dst": 345807
-  },
-  {
-   "relate": "前传",
-   "src": 395284,
-   "dst": 345807
-  }
- ]
+  "id": "214741",
+  "node": [
+    {
+      "id": 214741,
+      "name": "西行纪",
+      "nameCN": "西行纪",
+      "date": "2018-07-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 263324,
+      "name": "西行纪之集结篇",
+      "nameCN": "西行纪之集结篇",
+      "date": "2019-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 299264,
+      "name": "西行纪之再见悟空",
+      "nameCN": "西行纪之再见悟空",
+      "date": "2020-05-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 299263,
+      "name": "西行纪之宿命篇",
+      "nameCN": "",
+      "date": "2021-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345807,
+      "name": "西行纪之重生篇",
+      "nameCN": "",
+      "date": "2022-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 379682,
+      "name": "西行纪之穷奇地洞",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 395284,
+      "name": "西行纪 年播剧集",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 214741,
+      "dst": 263324
+    },
+    {
+      "relateString": "衍生",
+      "src": 214741,
+      "dst": 299264
+    },
+    {
+      "relateString": "前传",
+      "src": 263324,
+      "dst": 214741
+    },
+    {
+      "relateString": "续集",
+      "src": 263324,
+      "dst": 299263
+    },
+    {
+      "relateString": "番外篇",
+      "src": 263324,
+      "dst": 299264
+    },
+    {
+      "relateString": "前传",
+      "src": 299263,
+      "dst": 263324
+    },
+    {
+      "relateString": "续集",
+      "src": 299263,
+      "dst": 345807
+    },
+    {
+      "relateString": "主线故事",
+      "src": 299264,
+      "dst": 214741
+    },
+    {
+      "relateString": "主线故事",
+      "src": 299264,
+      "dst": 263324
+    },
+    {
+      "relateString": "前传",
+      "src": 345807,
+      "dst": 299263
+    },
+    {
+      "relateString": "衍生",
+      "src": 345807,
+      "dst": 379682
+    },
+    {
+      "relateString": "续集",
+      "src": 345807,
+      "dst": 395284
+    },
+    {
+      "relateString": "主线故事",
+      "src": 379682,
+      "dst": 345807
+    },
+    {
+      "relateString": "前传",
+      "src": 395284,
+      "dst": 345807
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 182343,
- "node": [
-  {
-   "id": 182343,
-   "name": "SUPERHOT",
-   "nameCN": "燥热",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/b3/182343_BvF58.jpg",
-   "date": "2016-02-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 308381,
-   "name": "SUPERHOT VR",
-   "nameCN": "燥热 VR",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/36/308381_IpIFZ.jpg",
-   "date": "2017-05-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 310140,
-   "name": "SUPERHOT: MIND CONTROL DELETE",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/3d/310140_67eHi.jpg",
-   "date": "2020-07-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 182343,
-   "dst": 308381
-  },
-  {
-   "relate": "续集",
-   "src": 182343,
-   "dst": 310140
-  },
-  {
-   "relate": "不同演绎",
-   "src": 308381,
-   "dst": 182343
-  },
-  {
-   "relate": "前传",
-   "src": 310140,
-   "dst": 182343
-  }
- ]
+  "id": "182343",
+  "node": [
+    {
+      "id": 182343,
+      "name": "SUPERHOT",
+      "nameCN": "燥热",
+      "date": "2016-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 308381,
+      "name": "SUPERHOT VR",
+      "nameCN": "燥热 VR",
+      "date": "2017-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 310140,
+      "name": "SUPERHOT: MIND CONTROL DELETE",
+      "nameCN": "",
+      "date": "2020-07-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 182343,
+      "dst": 308381
+    },
+    {
+      "relateString": "续集",
+      "src": 182343,
+      "dst": 310140
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 308381,
+      "dst": 182343
+    },
+    {
+      "relateString": "前传",
+      "src": 310140,
+      "dst": 182343
+    }
+  ]
 }

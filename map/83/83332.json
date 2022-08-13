@@ -1,37 +1,35 @@
 {
- "id": 83332,
- "node": [
-  {
-   "id": 83332,
-   "name": "COMPILER",
-   "nameCN": "电脑情人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/a3/83332_mmOwo.jpg",
-   "date": "1994-03-05",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 83346,
-   "name": "COMPILER FESTA",
-   "nameCN": "电脑情人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/b5/83346_7Q2c7.jpg",
-   "date": "1995-12-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 83332,
-   "dst": 83346
-  },
-  {
-   "relate": "前传",
-   "src": 83346,
-   "dst": 83332
-  }
- ]
+  "id": "83332",
+  "node": [
+    {
+      "id": 83332,
+      "name": "COMPILER",
+      "nameCN": "电脑情人",
+      "date": "1994-03-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 83346,
+      "name": "COMPILER FESTA",
+      "nameCN": "电脑情人2",
+      "date": "1995-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 83332,
+      "dst": 83346
+    },
+    {
+      "relateString": "前传",
+      "src": 83346,
+      "dst": 83332
+    }
+  ]
 }

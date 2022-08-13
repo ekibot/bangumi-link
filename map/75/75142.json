@@ -1,57 +1,54 @@
 {
- "id": 75142,
- "node": [
-  {
-   "id": 75142,
-   "name": "Mistresses (Season 1)",
-   "nameCN": "春心荡漾 （第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/db/75142_003en.jpg",
-   "date": "2013-06-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 84410,
-   "name": "Mistresses (Season 2)",
-   "nameCN": "春心荡漾 （第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/17/84410_q1uqo.jpg",
-   "date": "2014-06-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 141233,
-   "name": "Mistresses (U.S. season 3)",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/ff/141233_LZzNf.jpg",
-   "date": "2015-06-18",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75142,
-   "dst": 84410
-  },
-  {
-   "relate": "前传",
-   "src": 84410,
-   "dst": 75142
-  },
-  {
-   "relate": "续集",
-   "src": 84410,
-   "dst": 141233
-  },
-  {
-   "relate": "前传",
-   "src": 141233,
-   "dst": 84410
-  }
- ]
+  "id": "75142",
+  "node": [
+    {
+      "id": 75142,
+      "name": "Mistresses (Season 1)",
+      "nameCN": "春心荡漾 （第一季）",
+      "date": "2013-06-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 84410,
+      "name": "Mistresses (Season 2)",
+      "nameCN": "春心荡漾 （第二季）",
+      "date": "2014-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 141233,
+      "name": "Mistresses (U.S. season 3)",
+      "nameCN": "",
+      "date": "2015-06-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75142,
+      "dst": 84410
+    },
+    {
+      "relateString": "前传",
+      "src": 84410,
+      "dst": 75142
+    },
+    {
+      "relateString": "续集",
+      "src": 84410,
+      "dst": 141233
+    },
+    {
+      "relateString": "前传",
+      "src": 141233,
+      "dst": 84410
+    }
+  ]
 }

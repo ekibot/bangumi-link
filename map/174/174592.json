@@ -1,37 +1,35 @@
 {
- "id": 174592,
- "node": [
-  {
-   "id": 174592,
-   "name": "ハンドシェイカー",
-   "nameCN": "Hand Shakers",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/51/174592_74xbt.jpg",
-   "date": "2017-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 240757,
-   "name": "W'z《ウィズ》",
-   "nameCN": "W'Z",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/d0/240757_3vU3I.jpg",
-   "date": "2019-01-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 174592,
-   "dst": 240757
-  },
-  {
-   "relate": "前传",
-   "src": 240757,
-   "dst": 174592
-  }
- ]
+  "id": "174592",
+  "node": [
+    {
+      "id": 174592,
+      "name": "ハンドシェイカー",
+      "nameCN": "Hand Shakers",
+      "date": "2017-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 240757,
+      "name": "W'z《ウィズ》",
+      "nameCN": "W'Z",
+      "date": "2019-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 174592,
+      "dst": 240757
+    },
+    {
+      "relateString": "前传",
+      "src": 240757,
+      "dst": 174592
+    }
+  ]
 }

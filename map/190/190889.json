@@ -1,37 +1,35 @@
 {
- "id": 190889,
- "node": [
-  {
-   "id": 190889,
-   "name": "图腾领域",
-   "nameCN": "图腾领域",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/92/190889_N4xhA.jpg",
-   "date": "2016-09-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 228057,
-   "name": "图腾领域2",
-   "nameCN": "图腾领域 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/1e/228057_a77OT.jpg",
-   "date": "2017-09-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 190889,
-   "dst": 228057
-  },
-  {
-   "relate": "前传",
-   "src": 228057,
-   "dst": 190889
-  }
- ]
+  "id": "190889",
+  "node": [
+    {
+      "id": 190889,
+      "name": "图腾领域",
+      "nameCN": "图腾领域",
+      "date": "2016-09-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228057,
+      "name": "图腾领域2",
+      "nameCN": "图腾领域 第二季",
+      "date": "2017-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 190889,
+      "dst": 228057
+    },
+    {
+      "relateString": "前传",
+      "src": 228057,
+      "dst": 190889
+    }
+  ]
 }

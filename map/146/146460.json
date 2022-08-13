@@ -1,37 +1,35 @@
 {
- "id": 146460,
- "node": [
-  {
-   "id": 146460,
-   "name": "のばらあいこ (The best best)",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/21/146460_jp.jpg",
-   "date": "2010-06-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 146461,
-   "name": "のばらあいこ 2 (The best best)",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/ed/146461_jp.jpg",
-   "date": "2010-06-20",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 146460,
-   "dst": 146461
-  },
-  {
-   "relate": "前传",
-   "src": 146461,
-   "dst": 146460
-  }
- ]
+  "id": "146460",
+  "node": [
+    {
+      "id": 146460,
+      "name": "のばらあいこ (The best best)",
+      "nameCN": "",
+      "date": "2010-06-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 146461,
+      "name": "のばらあいこ 2 (The best best)",
+      "nameCN": "",
+      "date": "2010-06-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 146460,
+      "dst": 146461
+    },
+    {
+      "relateString": "前传",
+      "src": 146461,
+      "dst": 146460
+    }
+  ]
 }

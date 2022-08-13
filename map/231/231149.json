@@ -1,57 +1,54 @@
 {
- "id": 231149,
- "node": [
-  {
-   "id": 231149,
-   "name": "聖少女戦隊レイカーズ",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/3a/231149_xW9qN.jpg",
-   "date": "1993-12-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231150,
-   "name": "聖少女戦隊レイカーズ II",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/b9/231150_6cf13.jpg",
-   "date": "1994-12-16",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 231151,
-   "name": "聖少女戦隊レイカーズ III",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/90/231151_WjjxF.jpg",
-   "date": "1996-04-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 231149,
-   "dst": 231150
-  },
-  {
-   "relate": "前传",
-   "src": 231150,
-   "dst": 231149
-  },
-  {
-   "relate": "续集",
-   "src": 231150,
-   "dst": 231151
-  },
-  {
-   "relate": "前传",
-   "src": 231151,
-   "dst": 231150
-  }
- ]
+  "id": "231149",
+  "node": [
+    {
+      "id": 231149,
+      "name": "聖少女戦隊レイカーズ",
+      "nameCN": "",
+      "date": "1993-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231150,
+      "name": "聖少女戦隊レイカーズ II",
+      "nameCN": "",
+      "date": "1994-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231151,
+      "name": "聖少女戦隊レイカーズ III",
+      "nameCN": "",
+      "date": "1996-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 231149,
+      "dst": 231150
+    },
+    {
+      "relateString": "前传",
+      "src": 231150,
+      "dst": 231149
+    },
+    {
+      "relateString": "续集",
+      "src": 231150,
+      "dst": 231151
+    },
+    {
+      "relateString": "前传",
+      "src": 231151,
+      "dst": 231150
+    }
+  ]
 }

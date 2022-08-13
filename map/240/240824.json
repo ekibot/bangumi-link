@@ -1,37 +1,34 @@
 {
- "id": 240824,
- "node": [
-  {
-   "id": 240824,
-   "name": "バトルフォーミュラ",
-   "nameCN": "战斗方程式赛车",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/ff/240824_Z65QI.jpg",
-   "date": "1991-09-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256063,
-   "name": "Spy Hunter",
-   "nameCN": "间谍猎人",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/71/256063_MUS45.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 240824,
-   "dst": 256063
-  },
-  {
-   "relate": "续集",
-   "src": 256063,
-   "dst": 240824
-  }
- ]
+  "id": "240824",
+  "node": [
+    {
+      "id": 240824,
+      "name": "バトルフォーミュラ",
+      "nameCN": "战斗方程式赛车",
+      "date": "1991-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256063,
+      "name": "Spy Hunter",
+      "nameCN": "间谍猎人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 240824,
+      "dst": 256063
+    },
+    {
+      "relateString": "续集",
+      "src": 256063,
+      "dst": 240824
+    }
+  ]
 }

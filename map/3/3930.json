@@ -1,77 +1,73 @@
 {
- "id": 3930,
- "node": [
-  {
-   "id": 3930,
-   "name": "恋じゃないけど",
-   "nameCN": "这样算是恋爱吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/9d/3930_j9kAR.jpg",
-   "date": "2009-12-26",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 3931,
-   "name": "嫌いじゃないけど",
-   "nameCN": "这样算是讨厌吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/ff/3931_IFeiA.jpg",
-   "date": "2008-07-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 54537,
-   "name": "彼じゃないけど",
-   "nameCN": "这样算是男友吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/e5/54537_jp.jpg",
-   "date": "2011-12-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 66972,
-   "name": "素直じゃないけど",
-   "nameCN": "这样算是坦率吗？",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/76/66972_jp.jpg",
-   "date": "2013-02-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 3930,
-   "dst": 3931
-  },
-  {
-   "relate": "续集",
-   "src": 3930,
-   "dst": 54537
-  },
-  {
-   "relate": "续集",
-   "src": 3931,
-   "dst": 3930
-  },
-  {
-   "relate": "前传",
-   "src": 54537,
-   "dst": 3930
-  },
-  {
-   "relate": "续集",
-   "src": 54537,
-   "dst": 66972
-  },
-  {
-   "relate": "前传",
-   "src": 66972,
-   "dst": 54537
-  }
- ]
+  "id": "3930",
+  "node": [
+    {
+      "id": 3930,
+      "name": "恋じゃないけど",
+      "nameCN": "这样算是恋爱吗？",
+      "date": "2009-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 3931,
+      "name": "嫌いじゃないけど",
+      "nameCN": "这样算是讨厌吗？",
+      "date": "2008-07-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 54537,
+      "name": "彼じゃないけど",
+      "nameCN": "这样算是男友吗？",
+      "date": "2011-12-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 66972,
+      "name": "素直じゃないけど",
+      "nameCN": "这样算是坦率吗？",
+      "date": "2013-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 3930,
+      "dst": 3931
+    },
+    {
+      "relateString": "续集",
+      "src": 3930,
+      "dst": 54537
+    },
+    {
+      "relateString": "续集",
+      "src": 3931,
+      "dst": 3930
+    },
+    {
+      "relateString": "前传",
+      "src": 54537,
+      "dst": 3930
+    },
+    {
+      "relateString": "续集",
+      "src": 54537,
+      "dst": 66972
+    },
+    {
+      "relateString": "前传",
+      "src": 66972,
+      "dst": 54537
+    }
+  ]
 }

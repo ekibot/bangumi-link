@@ -1,57 +1,52 @@
 {
- "id": 169461,
- "node": [
-  {
-   "id": 169461,
-   "name": "독고",
-   "nameCN": "毒鼓",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/b8/169461_A28Q9.jpg",
-   "date": "2015-09-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 221985,
-   "name": "블러드 레인",
-   "nameCN": "Blood Rain 血雨江湖",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/13/221985_4K1O1.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 304644,
-   "name": "독고 리와인드",
-   "nameCN": "毒鼓Rewind",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/49/304644_nv6Ei.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169461,
-   "dst": 221985
-  },
-  {
-   "relate": "前传",
-   "src": 169461,
-   "dst": 304644
-  },
-  {
-   "relate": "前传",
-   "src": 221985,
-   "dst": 169461
-  },
-  {
-   "relate": "续集",
-   "src": 304644,
-   "dst": 169461
-  }
- ]
+  "id": "169461",
+  "node": [
+    {
+      "id": 169461,
+      "name": "독고",
+      "nameCN": "毒鼓",
+      "date": "2015-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 221985,
+      "name": "블러드 레인",
+      "nameCN": "Blood Rain 血雨江湖",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 304644,
+      "name": "독고 리와인드",
+      "nameCN": "毒鼓Rewind",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169461,
+      "dst": 221985
+    },
+    {
+      "relateString": "前传",
+      "src": 169461,
+      "dst": 304644
+    },
+    {
+      "relateString": "前传",
+      "src": 221985,
+      "dst": 169461
+    },
+    {
+      "relateString": "续集",
+      "src": 304644,
+      "dst": 169461
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 258946,
- "node": [
-  {
-   "id": 258946,
-   "name": "太郎の番兵",
-   "nameCN": "太郎的哨兵",
-   "date": "1918-03-30",
-   "image": "",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 258955,
-   "name": "太郎の番兵 潜航艇の巻",
-   "nameCN": "太郎的哨兵 潜水艇之卷",
-   "date": "1918-08-04",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 258946,
-   "dst": 258955
-  },
-  {
-   "relate": "前传",
-   "src": 258955,
-   "dst": 258946
-  }
- ]
+  "id": "258946",
+  "node": [
+    {
+      "id": 258946,
+      "name": "太郎の番兵",
+      "nameCN": "太郎的哨兵",
+      "date": "1918-03-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 258955,
+      "name": "太郎の番兵 潜航艇の巻",
+      "nameCN": "太郎的哨兵 潜水艇之卷",
+      "date": "1918-08-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 258946,
+      "dst": 258955
+    },
+    {
+      "relateString": "前传",
+      "src": 258955,
+      "dst": 258946
+    }
+  ]
 }

@@ -1,97 +1,92 @@
 {
- "id": 30308,
- "node": [
-  {
-   "id": 30308,
-   "name": "クッキングママ 3",
-   "nameCN": "料理妈妈3",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/f4/30308_NZ1WD.jpg",
-   "date": "2009-11-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 85486,
-   "name": "クッキングママ4",
-   "nameCN": "料理妈妈4",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/7d/85486_mYn0y.jpg",
-   "date": "2011-12-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 167748,
-   "name": "クッキングママ2",
-   "nameCN": "料理妈妈2",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/e4/167748_evEa5.jpg",
-   "date": "2007-11-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 208021,
-   "name": "クッキングママ",
-   "nameCN": "料理妈妈",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/28/208021_5167J.jpg",
-   "date": "2006-03-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 291406,
-   "name": "クッキングママ5",
-   "nameCN": "料理妈妈5",
-   "image": "https://lain.bgm.tv/pic/cover/m/5f/33/291406_l7Qv3.jpg",
-   "date": "2013-11-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30308,
-   "dst": 85486
-  },
-  {
-   "relate": "前传",
-   "src": 30308,
-   "dst": 167748
-  },
-  {
-   "relate": "前传",
-   "src": 85486,
-   "dst": 30308
-  },
-  {
-   "relate": "续集",
-   "src": 85486,
-   "dst": 291406
-  },
-  {
-   "relate": "续集",
-   "src": 167748,
-   "dst": 30308
-  },
-  {
-   "relate": "前传",
-   "src": 167748,
-   "dst": 208021
-  },
-  {
-   "relate": "续集",
-   "src": 208021,
-   "dst": 167748
-  },
-  {
-   "relate": "前传",
-   "src": 291406,
-   "dst": 85486
-  }
- ]
+  "id": "30308",
+  "node": [
+    {
+      "id": 30308,
+      "name": "クッキングママ 3",
+      "nameCN": "料理妈妈3",
+      "date": "2009-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 85486,
+      "name": "クッキングママ4",
+      "nameCN": "料理妈妈4",
+      "date": "2011-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167748,
+      "name": "クッキングママ2",
+      "nameCN": "料理妈妈2",
+      "date": "2007-11-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 291406,
+      "name": "クッキングママ5",
+      "nameCN": "料理妈妈5",
+      "date": "2013-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 208021,
+      "name": "クッキングママ",
+      "nameCN": "料理妈妈",
+      "date": "2006-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30308,
+      "dst": 85486
+    },
+    {
+      "relateString": "前传",
+      "src": 30308,
+      "dst": 167748
+    },
+    {
+      "relateString": "前传",
+      "src": 85486,
+      "dst": 30308
+    },
+    {
+      "relateString": "续集",
+      "src": 85486,
+      "dst": 291406
+    },
+    {
+      "relateString": "续集",
+      "src": 167748,
+      "dst": 30308
+    },
+    {
+      "relateString": "前传",
+      "src": 167748,
+      "dst": 208021
+    },
+    {
+      "relateString": "续集",
+      "src": 208021,
+      "dst": 167748
+    },
+    {
+      "relateString": "前传",
+      "src": 291406,
+      "dst": 85486
+    }
+  ]
 }

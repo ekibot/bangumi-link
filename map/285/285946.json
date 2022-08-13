@@ -1,37 +1,35 @@
 {
- "id": 285946,
- "node": [
-  {
-   "id": 285946,
-   "name": "Happy Valley Season 1",
-   "nameCN": "幸福谷 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/41/285946_iSzeE.jpg",
-   "date": "2014-04-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 285947,
-   "name": "Happy Valley Season 2",
-   "nameCN": "幸福谷 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/67/285947_pcpHP.jpg",
-   "date": "2016-02-09",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 285946,
-   "dst": 285947
-  },
-  {
-   "relate": "前传",
-   "src": 285947,
-   "dst": 285946
-  }
- ]
+  "id": "285946",
+  "node": [
+    {
+      "id": 285946,
+      "name": "Happy Valley Season 1",
+      "nameCN": "幸福谷 第一季",
+      "date": "2014-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 285947,
+      "name": "Happy Valley Season 2",
+      "nameCN": "幸福谷 第二季",
+      "date": "2016-02-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 285946,
+      "dst": 285947
+    },
+    {
+      "relateString": "前传",
+      "src": 285947,
+      "dst": 285946
+    }
+  ]
 }

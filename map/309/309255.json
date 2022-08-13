@@ -1,37 +1,33 @@
 {
- "id": 309255,
- "node": [
-  {
-   "id": 309255,
-   "name": "激突要塞！",
-   "nameCN": "激突要塞！",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/b9/309255_4rzgL.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309256,
-   "name": "激突要塞！＋",
-   "nameCN": "激突要塞！＋",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/ec/309256_2gZaz.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 309255,
-   "dst": 309256
-  },
-  {
-   "relate": "前传",
-   "src": 309256,
-   "dst": 309255
-  }
- ]
+  "id": "309255",
+  "node": [
+    {
+      "id": 309255,
+      "name": "激突要塞！",
+      "nameCN": "激突要塞！",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309256,
+      "name": "激突要塞！＋",
+      "nameCN": "激突要塞！＋",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 309255,
+      "dst": 309256
+    },
+    {
+      "relateString": "前传",
+      "src": 309256,
+      "dst": 309255
+    }
+  ]
 }

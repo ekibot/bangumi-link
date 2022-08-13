@@ -1,37 +1,34 @@
 {
- "id": 88166,
- "node": [
-  {
-   "id": 88166,
-   "name": "怪盗セイント・テール",
-   "nameCN": "怪盗圣少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/bf/88166_QraPq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 260370,
-   "name": "怪盗セイント・テール girls",
-   "nameCN": "怪盗圣少女 girls",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/a4/260370_z9ff5.jpg",
-   "date": "2019-10-28",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 88166,
-   "dst": 260370
-  },
-  {
-   "relate": "前传",
-   "src": 260370,
-   "dst": 88166
-  }
- ]
+  "id": "88166",
+  "node": [
+    {
+      "id": 88166,
+      "name": "怪盗セイント・テール",
+      "nameCN": "怪盗圣少女",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 260370,
+      "name": "怪盗セイント・テール girls",
+      "nameCN": "怪盗圣少女 girls",
+      "date": "2019-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 88166,
+      "dst": 260370
+    },
+    {
+      "relateString": "前传",
+      "src": 260370,
+      "dst": 88166
+    }
+  ]
 }

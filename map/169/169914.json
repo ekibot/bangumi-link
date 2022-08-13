@@ -1,37 +1,34 @@
 {
- "id": 169914,
- "node": [
-  {
-   "id": 169914,
-   "name": "グッドモーニング・コール",
-   "nameCN": "Good Morning Call",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/f2/169914_GvVcj.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 265111,
-   "name": "グッドモーニング・コール our campus days",
-   "nameCN": "Good Morning Call our campus days",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/eb/265111_6b87l.jpg",
-   "date": "2017-09-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 169914,
-   "dst": 265111
-  },
-  {
-   "relate": "前传",
-   "src": 265111,
-   "dst": 169914
-  }
- ]
+  "id": "169914",
+  "node": [
+    {
+      "id": 169914,
+      "name": "グッドモーニング・コール",
+      "nameCN": "Good Morning Call",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 265111,
+      "name": "グッドモーニング・コール our campus days",
+      "nameCN": "Good Morning Call our campus days",
+      "date": "2017-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 169914,
+      "dst": 265111
+    },
+    {
+      "relateString": "前传",
+      "src": 265111,
+      "dst": 169914
+    }
+  ]
 }

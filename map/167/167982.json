@@ -1,57 +1,54 @@
 {
- "id": 167982,
- "node": [
-  {
-   "id": 167982,
-   "name": "呀！小鬼",
-   "nameCN": "呀！小鬼之别惹小鬼",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/8d/167982_A9rbq.jpg",
-   "date": "2015-12-30",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 167983,
-   "name": "呀！小鬼 2",
-   "nameCN": "呀！小鬼之忍者的复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/76/167983_HzHhk.jpg",
-   "date": "2016-01-31",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 171665,
-   "name": "呀！小鬼 3",
-   "nameCN": "呀！小鬼之小鬼前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/13/171665_WvUgt.jpg",
-   "date": "2016-03-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167982,
-   "dst": 167983
-  },
-  {
-   "relate": "前传",
-   "src": 167982,
-   "dst": 171665
-  },
-  {
-   "relate": "前传",
-   "src": 167983,
-   "dst": 167982
-  },
-  {
-   "relate": "续集",
-   "src": 171665,
-   "dst": 167982
-  }
- ]
+  "id": "167982",
+  "node": [
+    {
+      "id": 167982,
+      "name": "呀！小鬼",
+      "nameCN": "呀！小鬼之别惹小鬼",
+      "date": "2015-12-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 167983,
+      "name": "呀！小鬼 2",
+      "nameCN": "呀！小鬼之忍者的复仇",
+      "date": "2016-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 171665,
+      "name": "呀！小鬼 3",
+      "nameCN": "呀！小鬼之小鬼前传",
+      "date": "2016-03-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167982,
+      "dst": 167983
+    },
+    {
+      "relateString": "前传",
+      "src": 167982,
+      "dst": 171665
+    },
+    {
+      "relateString": "前传",
+      "src": 167983,
+      "dst": 167982
+    },
+    {
+      "relateString": "续集",
+      "src": 171665,
+      "dst": 167982
+    }
+  ]
 }

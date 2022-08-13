@@ -1,57 +1,51 @@
 {
- "id": 52992,
- "node": [
-  {
-   "id": 52992,
-   "name": "みんなはどう?",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/95/52992_nazs4.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 52994,
-   "name": "みんなはどう?メガキューブ",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/66/52994_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 52995,
-   "name": "みんなはどう?ZOMBIE",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/e6/52995_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 52992,
-   "dst": 52994
-  },
-  {
-   "relate": "前传",
-   "src": 52994,
-   "dst": 52992
-  },
-  {
-   "relate": "续集",
-   "src": 52994,
-   "dst": 52995
-  },
-  {
-   "relate": "前传",
-   "src": 52995,
-   "dst": 52994
-  }
- ]
+  "id": "52992",
+  "node": [
+    {
+      "id": 52992,
+      "name": "みんなはどう?",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52994,
+      "name": "みんなはどう?メガキューブ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 52995,
+      "name": "みんなはどう?ZOMBIE",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52992,
+      "dst": 52994
+    },
+    {
+      "relateString": "前传",
+      "src": 52994,
+      "dst": 52992
+    },
+    {
+      "relateString": "续集",
+      "src": 52994,
+      "dst": 52995
+    },
+    {
+      "relateString": "前传",
+      "src": 52995,
+      "dst": 52994
+    }
+  ]
 }

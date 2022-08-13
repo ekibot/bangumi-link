@@ -1,37 +1,35 @@
 {
- "id": 80193,
- "node": [
-  {
-   "id": 80193,
-   "name": "ヒト喰イ",
-   "nameCN": "吞噬人间",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/44/80193_idNzT.jpg",
-   "date": "2012-12-18",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 128660,
-   "name": "ヒトクイ —origin—",
-   "nameCN": "吞噬人间origin",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/67/128660_vdycV.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 80193,
-   "dst": 128660
-  },
-  {
-   "relate": "续集",
-   "src": 128660,
-   "dst": 80193
-  }
- ]
+  "id": "80193",
+  "node": [
+    {
+      "id": 80193,
+      "name": "ヒト喰イ",
+      "nameCN": "吞噬人间",
+      "date": "2012-12-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 128660,
+      "name": "ヒトクイ —origin—",
+      "nameCN": "吞噬人间origin",
+      "date": "2014-12-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 80193,
+      "dst": 128660
+    },
+    {
+      "relateString": "番外篇",
+      "src": 128660,
+      "dst": 80193
+    }
+  ]
 }

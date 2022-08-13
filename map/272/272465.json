@@ -1,37 +1,34 @@
 {
- "id": 272465,
- "node": [
-  {
-   "id": 272465,
-   "name": "Joust",
-   "nameCN": "鸵鸟骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/6e/272465_E77fc.jpg",
-   "date": "1982-07-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 316783,
-   "name": "Joust 2: Survival of the Fittest",
-   "nameCN": "鸵鸟骑士2：适者生存",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/98/316783_tH6Or.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272465,
-   "dst": 316783
-  },
-  {
-   "relate": "前传",
-   "src": 316783,
-   "dst": 272465
-  }
- ]
+  "id": "272465",
+  "node": [
+    {
+      "id": 272465,
+      "name": "Joust",
+      "nameCN": "鸵鸟骑士",
+      "date": "1982-07-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 316783,
+      "name": "Joust 2: Survival of the Fittest",
+      "nameCN": "鸵鸟骑士2：适者生存",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272465,
+      "dst": 316783
+    },
+    {
+      "relateString": "前传",
+      "src": 316783,
+      "dst": 272465
+    }
+  ]
 }

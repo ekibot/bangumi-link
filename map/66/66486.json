@@ -1,77 +1,73 @@
 {
- "id": 66486,
- "node": [
-  {
-   "id": 66486,
-   "name": "Thief (2014)",
-   "nameCN": "神偷 4",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/bb/66486_BKa6T.jpg",
-   "date": "2014-02-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 77004,
-   "name": "Thief: The Dark Project",
-   "nameCN": "神偷：暗黑计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/a9/77004_t73kG.jpg",
-   "date": "1998-11-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 77005,
-   "name": "Thief II: The Metal Age",
-   "nameCN": "神偷2：金属时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/f4/77005_i3f3K.jpg",
-   "date": "2000-12-29",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 77006,
-   "name": "Thief: Deadly Shadows",
-   "nameCN": "神偷3：致命阴影",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/aa/77006_o91ik.jpg",
-   "date": "2004-05-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 66486,
-   "dst": 77006
-  },
-  {
-   "relate": "续集",
-   "src": 77004,
-   "dst": 77005
-  },
-  {
-   "relate": "前传",
-   "src": 77005,
-   "dst": 77004
-  },
-  {
-   "relate": "续集",
-   "src": 77005,
-   "dst": 77006
-  },
-  {
-   "relate": "续集",
-   "src": 77006,
-   "dst": 66486
-  },
-  {
-   "relate": "前传",
-   "src": 77006,
-   "dst": 77005
-  }
- ]
+  "id": "66486",
+  "node": [
+    {
+      "id": 66486,
+      "name": "Thief (2014)",
+      "nameCN": "神偷 4",
+      "date": "2014-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77006,
+      "name": "Thief: Deadly Shadows",
+      "nameCN": "神偷3：致命阴影",
+      "date": "2004-05-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77004,
+      "name": "Thief: The Dark Project",
+      "nameCN": "神偷：暗黑计划",
+      "date": "1998-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 77005,
+      "name": "Thief II: The Metal Age",
+      "nameCN": "神偷2：金属时代",
+      "date": "2000-12-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 66486,
+      "dst": 77006
+    },
+    {
+      "relateString": "续集",
+      "src": 77004,
+      "dst": 77005
+    },
+    {
+      "relateString": "前传",
+      "src": 77005,
+      "dst": 77004
+    },
+    {
+      "relateString": "续集",
+      "src": 77005,
+      "dst": 77006
+    },
+    {
+      "relateString": "续集",
+      "src": 77006,
+      "dst": 66486
+    },
+    {
+      "relateString": "前传",
+      "src": 77006,
+      "dst": 77005
+    }
+  ]
 }

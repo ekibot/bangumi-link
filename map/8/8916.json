@@ -1,102 +1,97 @@
 {
- "id": 8916,
- "node": [
-  {
-   "id": 8916,
-   "name": "ベッドの下の秘密",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/88/8916_jp.jpg",
-   "date": "2010-08-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 26059,
-   "name": "鋼鉄の大天使",
-   "nameCN": "大天使的新娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/ed/26059_jp.jpg",
-   "date": "2007-09-29",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 26062,
-   "name": "虜囚麗人",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/9f/26062_jp.jpg",
-   "date": "2009-08-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 119762,
-   "name": "堕天使に捧げる詩",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/3f/119762_jp.jpg",
-   "date": "2008-11-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 119763,
-   "name": "童貞最前線",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/4b/119763_jp.jpg",
-   "date": "2009-09-29",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 8916,
-   "dst": 119763
-  },
-  {
-   "relate": "续集",
-   "src": 26059,
-   "dst": 119762
-  },
-  {
-   "relate": "前传",
-   "src": 26062,
-   "dst": 119762
-  },
-  {
-   "relate": "续集",
-   "src": 26062,
-   "dst": 119763
-  },
-  {
-   "relate": "前传",
-   "src": 119762,
-   "dst": 26059
-  },
-  {
-   "relate": "续集",
-   "src": 119762,
-   "dst": 26062
-  },
-  {
-   "relate": "续集",
-   "src": 119763,
-   "dst": 8916
-  },
-  {
-   "relate": "前传",
-   "src": 119763,
-   "dst": 26059
-  },
-  {
-   "relate": "前传",
-   "src": 119763,
-   "dst": 26062
-  }
- ]
+  "id": "8916",
+  "node": [
+    {
+      "id": 8916,
+      "name": "ベッドの下の秘密",
+      "nameCN": "",
+      "date": "2010-08-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 119763,
+      "name": "童貞最前線",
+      "nameCN": "",
+      "date": "2009-09-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 26059,
+      "name": "鋼鉄の大天使",
+      "nameCN": "大天使的新娘",
+      "date": "2007-09-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 119762,
+      "name": "堕天使に捧げる詩",
+      "nameCN": "",
+      "date": "2008-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 26062,
+      "name": "虜囚麗人",
+      "nameCN": "",
+      "date": "2009-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 8916,
+      "dst": 119763
+    },
+    {
+      "relateString": "续集",
+      "src": 26059,
+      "dst": 119762
+    },
+    {
+      "relateString": "前传",
+      "src": 26062,
+      "dst": 119762
+    },
+    {
+      "relateString": "续集",
+      "src": 26062,
+      "dst": 119763
+    },
+    {
+      "relateString": "前传",
+      "src": 119762,
+      "dst": 26059
+    },
+    {
+      "relateString": "续集",
+      "src": 119762,
+      "dst": 26062
+    },
+    {
+      "relateString": "续集",
+      "src": 119763,
+      "dst": 8916
+    },
+    {
+      "relateString": "前传",
+      "src": 119763,
+      "dst": 26059
+    },
+    {
+      "relateString": "前传",
+      "src": 119763,
+      "dst": 26062
+    }
+  ]
 }

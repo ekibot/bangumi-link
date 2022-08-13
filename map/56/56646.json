@@ -1,57 +1,51 @@
 {
- "id": 56646,
- "node": [
-  {
-   "id": 56646,
-   "name": "The Umbrella Academy: Apocalypse Suite",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/93/56646_ma2D2.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56658,
-   "name": "The Umbrella Academy: Dallas",
-   "nameCN": "伞学院 达拉斯",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/aa/56658_iV9G9.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 262896,
-   "name": "The Umbrella Academy: Hotel Oblivion",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/6d/262896_oOF88.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 56646,
-   "dst": 56658
-  },
-  {
-   "relate": "前传",
-   "src": 56658,
-   "dst": 56646
-  },
-  {
-   "relate": "续集",
-   "src": 56658,
-   "dst": 262896
-  },
-  {
-   "relate": "前传",
-   "src": 262896,
-   "dst": 56658
-  }
- ]
+  "id": "56646",
+  "node": [
+    {
+      "id": 56646,
+      "name": "The Umbrella Academy: Apocalypse Suite",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56658,
+      "name": "The Umbrella Academy: Dallas",
+      "nameCN": "伞学院 达拉斯",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 262896,
+      "name": "The Umbrella Academy: Hotel Oblivion",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 56646,
+      "dst": 56658
+    },
+    {
+      "relateString": "前传",
+      "src": 56658,
+      "dst": 56646
+    },
+    {
+      "relateString": "续集",
+      "src": 56658,
+      "dst": 262896
+    },
+    {
+      "relateString": "前传",
+      "src": 262896,
+      "dst": 56658
+    }
+  ]
 }

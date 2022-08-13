@@ -1,77 +1,72 @@
 {
- "id": 96748,
- "node": [
-  {
-   "id": 96748,
-   "name": "Trials evolution",
-   "nameCN": "特技摩托：进化",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/8f/96748_cC7Zi.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 102782,
-   "name": "Trials Fusion",
-   "nameCN": "特技摩托：聚变",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/a3/102782_tK9fQ.jpg",
-   "date": "2014-04-15",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 182074,
-   "name": "Trials HD",
-   "nameCN": "特技摩托 HD",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/75/182074_FSIFF.jpg",
-   "date": "2009-08-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 281477,
-   "name": "Trials Rising",
-   "nameCN": "特技摩托：崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/2f/281477_JsCxM.jpg",
-   "date": "2019-02-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 96748,
-   "dst": 102782
-  },
-  {
-   "relate": "前传",
-   "src": 96748,
-   "dst": 182074
-  },
-  {
-   "relate": "前传",
-   "src": 102782,
-   "dst": 96748
-  },
-  {
-   "relate": "续集",
-   "src": 102782,
-   "dst": 281477
-  },
-  {
-   "relate": "续集",
-   "src": 182074,
-   "dst": 96748
-  },
-  {
-   "relate": "前传",
-   "src": 281477,
-   "dst": 102782
-  }
- ]
+  "id": "96748",
+  "node": [
+    {
+      "id": 96748,
+      "name": "Trials evolution",
+      "nameCN": "特技摩托：进化",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 102782,
+      "name": "Trials Fusion",
+      "nameCN": "特技摩托：聚变",
+      "date": "2014-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 182074,
+      "name": "Trials HD",
+      "nameCN": "特技摩托 HD",
+      "date": "2009-08-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 281477,
+      "name": "Trials Rising",
+      "nameCN": "特技摩托：崛起",
+      "date": "2019-02-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 96748,
+      "dst": 102782
+    },
+    {
+      "relateString": "前传",
+      "src": 96748,
+      "dst": 182074
+    },
+    {
+      "relateString": "前传",
+      "src": 102782,
+      "dst": 96748
+    },
+    {
+      "relateString": "续集",
+      "src": 102782,
+      "dst": 281477
+    },
+    {
+      "relateString": "续集",
+      "src": 182074,
+      "dst": 96748
+    },
+    {
+      "relateString": "前传",
+      "src": 281477,
+      "dst": 102782
+    }
+  ]
 }

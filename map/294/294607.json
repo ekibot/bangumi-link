@@ -1,37 +1,35 @@
 {
- "id": 294607,
- "node": [
-  {
-   "id": 294607,
-   "name": "三国群英传Online",
-   "nameCN": "三国群英传Online",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/33/294607_B2v5V.jpg",
-   "date": "2005-09-15",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 294608,
-   "name": "三国群英传2online",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/fb/294608_HU37n.jpg",
-   "date": "2009-04-02",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 294607,
-   "dst": 294608
-  },
-  {
-   "relate": "前传",
-   "src": 294608,
-   "dst": 294607
-  }
- ]
+  "id": "294607",
+  "node": [
+    {
+      "id": 294607,
+      "name": "三国群英传Online",
+      "nameCN": "三国群英传Online",
+      "date": "2005-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 294608,
+      "name": "三国群英传2online",
+      "nameCN": "",
+      "date": "2009-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 294607,
+      "dst": 294608
+    },
+    {
+      "relateString": "前传",
+      "src": 294608,
+      "dst": 294607
+    }
+  ]
 }

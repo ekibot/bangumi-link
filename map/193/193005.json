@@ -1,37 +1,34 @@
 {
- "id": 193005,
- "node": [
-  {
-   "id": 193005,
-   "name": "まもって!ロリポップ",
-   "nameCN": "恋之魔法波波糖",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/7a/193005_ER30F.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 238742,
-   "name": "もどって！まもって！ロリポップ",
-   "nameCN": "回来吧！恋之魔法波波糖",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/33/238742_2L2K9.jpg",
-   "date": "2006-09-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 193005,
-   "dst": 238742
-  },
-  {
-   "relate": "前传",
-   "src": 238742,
-   "dst": 193005
-  }
- ]
+  "id": "193005",
+  "node": [
+    {
+      "id": 193005,
+      "name": "まもって!ロリポップ",
+      "nameCN": "恋之魔法波波糖",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 238742,
+      "name": "もどって！まもって！ロリポップ",
+      "nameCN": "回来吧！恋之魔法波波糖",
+      "date": "2006-09-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 193005,
+      "dst": 238742
+    },
+    {
+      "relateString": "前传",
+      "src": 238742,
+      "dst": 193005
+    }
+  ]
 }

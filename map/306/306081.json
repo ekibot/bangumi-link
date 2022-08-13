@@ -1,37 +1,35 @@
 {
- "id": 306081,
- "node": [
-  {
-   "id": 306081,
-   "name": "Stuntman",
-   "nameCN": "特技人",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/b5/306081_e24Zw.jpg",
-   "date": "2002-06-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 306083,
-   "name": "Stuntman: Ignition",
-   "nameCN": "特技人：点火",
-   "image": "https://lain.bgm.tv/pic/cover/m/65/8b/306083_G9Fqs.jpg",
-   "date": "2007-08-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 306081,
-   "dst": 306083
-  },
-  {
-   "relate": "前传",
-   "src": 306083,
-   "dst": 306081
-  }
- ]
+  "id": "306081",
+  "node": [
+    {
+      "id": 306081,
+      "name": "Stuntman",
+      "nameCN": "特技人",
+      "date": "2002-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306083,
+      "name": "Stuntman: Ignition",
+      "nameCN": "特技人：点火",
+      "date": "2007-08-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 306081,
+      "dst": 306083
+    },
+    {
+      "relateString": "前传",
+      "src": 306083,
+      "dst": 306081
+    }
+  ]
 }

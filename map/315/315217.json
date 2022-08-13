@@ -1,57 +1,52 @@
 {
- "id": 315217,
- "node": [
-  {
-   "id": 315217,
-   "name": "魔獣戦線 愛蔵版",
-   "nameCN": "魔兽战线",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/39/315217_EDlxv.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 315241,
-   "name": "真説・魔獣戦線",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/f8/315241_nuQQr.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 315248,
-   "name": "魔獣戦線 文庫版",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/30/315248_R3nDH.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 315217,
-   "dst": 315241
-  },
-  {
-   "relate": "前传",
-   "src": 315241,
-   "dst": 315217
-  },
-  {
-   "relate": "前传",
-   "src": 315241,
-   "dst": 315248
-  },
-  {
-   "relate": "续集",
-   "src": 315248,
-   "dst": 315241
-  }
- ]
+  "id": "315217",
+  "node": [
+    {
+      "id": 315217,
+      "name": "魔獣戦線 愛蔵版",
+      "nameCN": "魔兽战线",
+      "date": "1975-09-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 315241,
+      "name": "真説・魔獣戦線",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 315248,
+      "name": "魔獣戦線 文庫版",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 315217,
+      "dst": 315241
+    },
+    {
+      "relateString": "前传",
+      "src": 315241,
+      "dst": 315217
+    },
+    {
+      "relateString": "前传",
+      "src": 315241,
+      "dst": 315248
+    },
+    {
+      "relateString": "续集",
+      "src": 315248,
+      "dst": 315241
+    }
+  ]
 }

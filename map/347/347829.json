@@ -1,37 +1,35 @@
 {
- "id": 347829,
- "node": [
-  {
-   "id": 347829,
-   "name": ".Decluster Zero",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/91/347829_BuuTR.jpg",
-   "date": "2015-07-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 347830,
-   "name": ".Decluster",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/b9/347830_EkMLe.jpg",
-   "date": "2015-03-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 347829,
-   "dst": 347830
-  },
-  {
-   "relate": "续集",
-   "src": 347830,
-   "dst": 347829
-  }
- ]
+  "id": "347829",
+  "node": [
+    {
+      "id": 347829,
+      "name": ".Decluster Zero",
+      "nameCN": "",
+      "date": "2015-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 347830,
+      "name": ".Decluster",
+      "nameCN": "",
+      "date": "2015-03-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 347829,
+      "dst": 347830
+    },
+    {
+      "relateString": "续集",
+      "src": 347830,
+      "dst": 347829
+    }
+  ]
 }

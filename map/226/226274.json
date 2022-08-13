@@ -1,30 +1,35 @@
 {
- "id": 226274,
- "node": [
-  {
-   "id": 226274,
-   "name": "マジック☆マジカル☆アクションガール",
-   "nameCN": "魔法☆神秘☆動作系少女",
-   "image": "/img/no_icon_subject.png",
-   "date": "2015-12-04"
-  },
-  {
-   "id": 226275,
-   "name": "マジックガール★ZERO",
-   "image": "/img/no_icon_subject.png",
-   "date": "2016-06-24"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226274,
-   "dst": 226275
-  },
-  {
-   "relate": "前传",
-   "src": 226275,
-   "dst": 226274
-  }
- ]
+  "id": "226274",
+  "node": [
+    {
+      "id": 226274,
+      "name": "マジック☆マジカル☆アクションガール",
+      "nameCN": "魔法☆神秘☆動作系少女",
+      "date": "2015-12-04",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 226275,
+      "name": "マジックガール★ZERO",
+      "nameCN": "",
+      "date": "2016-06-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226274,
+      "dst": 226275
+    },
+    {
+      "relateString": "前传",
+      "src": 226275,
+      "dst": 226274
+    }
+  ]
 }

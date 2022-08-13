@@ -1,67 +1,64 @@
 {
- "id": 86097,
- "node": [
-  {
-   "id": 86097,
-   "name": "図書館戦争",
-   "nameCN": "图书馆战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/34/86097_rrk75.jpg",
-   "date": "2013-04-27",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 119343,
-   "name": "図書館戦争-THE LAST MISSION-",
-   "nameCN": "图书馆战争2：THE LAST MISSION",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/23/119343_6qN27.jpg",
-   "date": "2015-10-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 144851,
-   "name": "図書館戦争 ブック・オブ・メモリーズ",
-   "nameCN": "图书馆战争 BOOK OF MEMORIES",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/a1/144851_V9U12.jpg",
-   "date": "2015-10-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 86097,
-   "dst": 119343
-  },
-  {
-   "relate": "续集",
-   "src": 86097,
-   "dst": 144851
-  },
-  {
-   "relate": "前传",
-   "src": 119343,
-   "dst": 86097
-  },
-  {
-   "relate": "前传",
-   "src": 119343,
-   "dst": 144851
-  },
-  {
-   "relate": "前传",
-   "src": 144851,
-   "dst": 86097
-  },
-  {
-   "relate": "续集",
-   "src": 144851,
-   "dst": 119343
-  }
- ]
+  "id": "86097",
+  "node": [
+    {
+      "id": 86097,
+      "name": "図書館戦争",
+      "nameCN": "图书馆战争",
+      "date": "2013-04-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 119343,
+      "name": "図書館戦争-THE LAST MISSION-",
+      "nameCN": "图书馆战争2：THE LAST MISSION",
+      "date": "2015-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 144851,
+      "name": "図書館戦争 ブック・オブ・メモリーズ",
+      "nameCN": "图书馆战争 BOOK OF MEMORIES",
+      "date": "2015-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 86097,
+      "dst": 119343
+    },
+    {
+      "relateString": "续集",
+      "src": 86097,
+      "dst": 144851
+    },
+    {
+      "relateString": "前传",
+      "src": 119343,
+      "dst": 86097
+    },
+    {
+      "relateString": "前传",
+      "src": 119343,
+      "dst": 144851
+    },
+    {
+      "relateString": "前传",
+      "src": 144851,
+      "dst": 86097
+    },
+    {
+      "relateString": "续集",
+      "src": 144851,
+      "dst": 119343
+    }
+  ]
 }

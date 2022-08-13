@@ -1,37 +1,35 @@
 {
- "id": 189461,
- "node": [
-  {
-   "id": 189461,
-   "name": "少女咖啡枪",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/51/189461_uk0Uw.jpg",
-   "date": "2016-11-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 285065,
-   "name": "双生视界",
-   "nameCN": "少女咖啡枪II：双生视界",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/9d/285065_WSW6s.jpg",
-   "date": "2019-11-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189461,
-   "dst": 285065
-  },
-  {
-   "relate": "前传",
-   "src": 285065,
-   "dst": 189461
-  }
- ]
+  "id": "189461",
+  "node": [
+    {
+      "id": 189461,
+      "name": "少女咖啡枪",
+      "nameCN": "",
+      "date": "2016-11-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 285065,
+      "name": "双生视界",
+      "nameCN": "少女咖啡枪II：双生视界",
+      "date": "2019-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189461,
+      "dst": 285065
+    },
+    {
+      "relateString": "前传",
+      "src": 285065,
+      "dst": 189461
+    }
+  ]
 }

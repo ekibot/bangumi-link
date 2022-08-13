@@ -1,37 +1,35 @@
 {
- "id": 272510,
- "node": [
-  {
-   "id": 272510,
-   "name": "まちカドまぞく",
-   "nameCN": "街角魔族",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/22/272510_BZ00p.jpg",
-   "date": "2019-07-11",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 313852,
-   "name": "まちカドまぞく 2丁目",
-   "nameCN": "街角魔族 2丁目",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/d3/313852_Msy6s.jpg",
-   "date": "2022-04-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272510,
-   "dst": 313852
-  },
-  {
-   "relate": "前传",
-   "src": 313852,
-   "dst": 272510
-  }
- ]
+  "id": "272510",
+  "node": [
+    {
+      "id": 272510,
+      "name": "まちカドまぞく",
+      "nameCN": "街角魔族",
+      "date": "2019-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 313852,
+      "name": "まちカドまぞく 2丁目",
+      "nameCN": "街角魔族 2丁目",
+      "date": "2022-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272510,
+      "dst": 313852
+    },
+    {
+      "relateString": "前传",
+      "src": 313852,
+      "dst": 272510
+    }
+  ]
 }

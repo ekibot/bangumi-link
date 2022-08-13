@@ -1,57 +1,51 @@
 {
- "id": 103930,
- "node": [
-  {
-   "id": 103930,
-   "name": "EAGLE MASTER SCENARIO 4 ～DARK FOREST～",
-   "nameCN": "EAGLE MASTER SCENARIO 4 ～DARK FOREST～",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/f3/103930_V7F60.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 103932,
-   "name": "EAGLE MASTER SCENARIO 5 ～バイオレンス・ゾーン２～",
-   "nameCN": "EAGLE MASTER SCENARIO 5 暴力区域2",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/21/103932_A6WSH.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 103940,
-   "name": "EAGLE MASTER SCENARIO 6 ～JET スクランダー～",
-   "nameCN": "EAGLE MASTER SCENARIO 6 JET 四库兰大啊",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/b7/103940_1DvJj.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103930,
-   "dst": 103932
-  },
-  {
-   "relate": "前传",
-   "src": 103932,
-   "dst": 103930
-  },
-  {
-   "relate": "续集",
-   "src": 103932,
-   "dst": 103940
-  },
-  {
-   "relate": "前传",
-   "src": 103940,
-   "dst": 103932
-  }
- ]
+  "id": "103930",
+  "node": [
+    {
+      "id": 103930,
+      "name": "EAGLE MASTER SCENARIO 4 ～DARK FOREST～",
+      "nameCN": "EAGLE MASTER SCENARIO 4 ～DARK FOREST～",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 103932,
+      "name": "EAGLE MASTER SCENARIO 5 ～バイオレンス・ゾーン２～",
+      "nameCN": "EAGLE MASTER SCENARIO 5 暴力区域2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 103940,
+      "name": "EAGLE MASTER SCENARIO 6 ～JET スクランダー～",
+      "nameCN": "EAGLE MASTER SCENARIO 6 JET 四库兰大啊",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103930,
+      "dst": 103932
+    },
+    {
+      "relateString": "前传",
+      "src": 103932,
+      "dst": 103930
+    },
+    {
+      "relateString": "续集",
+      "src": 103932,
+      "dst": 103940
+    },
+    {
+      "relateString": "前传",
+      "src": 103940,
+      "dst": 103932
+    }
+  ]
 }

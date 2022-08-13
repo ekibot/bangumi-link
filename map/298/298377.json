@@ -1,37 +1,35 @@
 {
- "id": 298377,
- "node": [
-  {
-   "id": 298377,
-   "name": "わたしにください",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/a6/298377_vFz87.jpg",
-   "date": "2019-11-21",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 298378,
-   "name": "わたしにください-十八と二十六の間に-",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/c2/298378_3ai5z.jpg",
-   "date": "2019-12-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 298377,
-   "dst": 298378
-  },
-  {
-   "relate": "前传",
-   "src": 298378,
-   "dst": 298377
-  }
- ]
+  "id": "298377",
+  "node": [
+    {
+      "id": 298377,
+      "name": "わたしにください",
+      "nameCN": "",
+      "date": "2019-11-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 298378,
+      "name": "わたしにください-十八と二十六の間に-",
+      "nameCN": "",
+      "date": "2019-12-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 298377,
+      "dst": 298378
+    },
+    {
+      "relateString": "前传",
+      "src": 298378,
+      "dst": 298377
+    }
+  ]
 }

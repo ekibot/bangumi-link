@@ -1,97 +1,92 @@
 {
- "id": 234108,
- "node": [
-  {
-   "id": 234108,
-   "name": "Escaping the Prison",
-   "nameCN": "火柴人越狱记",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/d6/234108_GN4w4.jpg",
-   "date": "2010-04-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 234109,
-   "name": "Stealing the Diamond",
-   "nameCN": "火柴人偷钻石",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/de/234109_Oz22O.jpg",
-   "date": "2011-07-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 234110,
-   "name": "Infiltrating the Airship",
-   "nameCN": "火柴人潜入飞船",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/31/234110_tJa3Z.jpg",
-   "date": "2013-05-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 234111,
-   "name": "Fleeing the Complex",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/3a/234111_wiWQs.jpg",
-   "date": "2015-11-12",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 329341,
-   "name": "Breaking the Bank",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/60/329341_pvnZK.jpg",
-   "date": "2008-08-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234108,
-   "dst": 234109
-  },
-  {
-   "relate": "前传",
-   "src": 234108,
-   "dst": 329341
-  },
-  {
-   "relate": "前传",
-   "src": 234109,
-   "dst": 234108
-  },
-  {
-   "relate": "续集",
-   "src": 234109,
-   "dst": 234110
-  },
-  {
-   "relate": "前传",
-   "src": 234110,
-   "dst": 234109
-  },
-  {
-   "relate": "续集",
-   "src": 234110,
-   "dst": 234111
-  },
-  {
-   "relate": "前传",
-   "src": 234111,
-   "dst": 234110
-  },
-  {
-   "relate": "续集",
-   "src": 329341,
-   "dst": 234108
-  }
- ]
+  "id": "234108",
+  "node": [
+    {
+      "id": 234108,
+      "name": "Escaping the Prison",
+      "nameCN": "火柴人越狱记",
+      "date": "2010-04-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234109,
+      "name": "Stealing the Diamond",
+      "nameCN": "火柴人偷钻石",
+      "date": "2011-07-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 329341,
+      "name": "Breaking the Bank",
+      "nameCN": "",
+      "date": "2008-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234110,
+      "name": "Infiltrating the Airship",
+      "nameCN": "火柴人潜入飞船",
+      "date": "2013-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 234111,
+      "name": "Fleeing the Complex",
+      "nameCN": "",
+      "date": "2015-11-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234108,
+      "dst": 234109
+    },
+    {
+      "relateString": "前传",
+      "src": 234108,
+      "dst": 329341
+    },
+    {
+      "relateString": "前传",
+      "src": 234109,
+      "dst": 234108
+    },
+    {
+      "relateString": "续集",
+      "src": 234109,
+      "dst": 234110
+    },
+    {
+      "relateString": "前传",
+      "src": 234110,
+      "dst": 234109
+    },
+    {
+      "relateString": "续集",
+      "src": 234110,
+      "dst": 234111
+    },
+    {
+      "relateString": "前传",
+      "src": 234111,
+      "dst": 234110
+    },
+    {
+      "relateString": "续集",
+      "src": 329341,
+      "dst": 234108
+    }
+  ]
 }

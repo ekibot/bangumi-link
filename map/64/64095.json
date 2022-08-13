@@ -1,37 +1,35 @@
 {
- "id": 64095,
- "node": [
-  {
-   "id": 64095,
-   "name": "Lady and the Tramp",
-   "nameCN": "小姐与流浪汉",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/2b/64095_UR997.jpg",
-   "date": "1955-06-22",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 112363,
-   "name": "Lady and the Tramp II: Scamp's Adventure",
-   "nameCN": "小姐与流浪汉2：狗儿逃家记",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/2a/112363_N0064.jpg",
-   "date": "2001-02-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64095,
-   "dst": 112363
-  },
-  {
-   "relate": "前传",
-   "src": 112363,
-   "dst": 64095
-  }
- ]
+  "id": "64095",
+  "node": [
+    {
+      "id": 64095,
+      "name": "Lady and the Tramp",
+      "nameCN": "小姐与流浪汉",
+      "date": "1955-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 112363,
+      "name": "Lady and the Tramp II: Scamp's Adventure",
+      "nameCN": "小姐与流浪汉2：狗儿逃家记",
+      "date": "2001-02-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64095,
+      "dst": 112363
+    },
+    {
+      "relateString": "前传",
+      "src": 112363,
+      "dst": 64095
+    }
+  ]
 }

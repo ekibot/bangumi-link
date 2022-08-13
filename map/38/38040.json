@@ -1,107 +1,102 @@
 {
- "id": 38040,
- "node": [
-  {
-   "id": 38040,
-   "name": "リトルバスターズ！",
-   "nameCN": "Little Busters!",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/ea/38040_KFMP9.jpg",
-   "date": "2012-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 69484,
-   "name": "リトルバスターズ! 〜Refrain〜",
-   "nameCN": "Little Busters! 〜Refrain〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/98/69484_47lg4.jpg",
-   "date": "2013-10-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 83737,
-   "name": "リトルバスターズ! EX",
-   "nameCN": "Little Busters! EX",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/3d/83737_53160.jpg",
-   "date": "2014-01-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 88438,
-   "name": "リトルバスターズ! 番外編",
-   "nameCN": "Little Busters! 番外篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/09/88438_O1z3Z.jpg",
-   "date": "2013-08-28",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 218167,
-   "name": "劇場版 クドわふたー",
-   "nameCN": "剧场版 库特wafter",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/47/218167_sP88E.jpg",
-   "date": "2021-07-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 38040,
-   "dst": 69484
-  },
-  {
-   "relate": "番外篇",
-   "src": 38040,
-   "dst": 83737
-  },
-  {
-   "relate": "番外篇",
-   "src": 38040,
-   "dst": 88438
-  },
-  {
-   "relate": "番外篇",
-   "src": 38040,
-   "dst": 218167
-  },
-  {
-   "relate": "前传",
-   "src": 69484,
-   "dst": 38040
-  },
-  {
-   "relate": "番外篇",
-   "src": 69484,
-   "dst": 83737
-  },
-  {
-   "relate": "主线故事",
-   "src": 83737,
-   "dst": 38040
-  },
-  {
-   "relate": "主线故事",
-   "src": 83737,
-   "dst": 69484
-  },
-  {
-   "relate": "主线故事",
-   "src": 88438,
-   "dst": 38040
-  },
-  {
-   "relate": "主线故事",
-   "src": 218167,
-   "dst": 38040
-  }
- ]
+  "id": "38040",
+  "node": [
+    {
+      "id": 38040,
+      "name": "リトルバスターズ！",
+      "nameCN": "Little Busters!",
+      "date": "2012-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 69484,
+      "name": "リトルバスターズ! 〜Refrain〜",
+      "nameCN": "Little Busters! 〜Refrain〜",
+      "date": "2013-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 83737,
+      "name": "リトルバスターズ! EX",
+      "nameCN": "Little Busters! EX",
+      "date": "2014-01-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 88438,
+      "name": "リトルバスターズ! 番外編",
+      "nameCN": "Little Busters! 番外篇",
+      "date": "2013-08-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 218167,
+      "name": "劇場版 クドわふたー",
+      "nameCN": "剧场版 库特wafter",
+      "date": "2021-07-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 38040,
+      "dst": 69484
+    },
+    {
+      "relateString": "番外篇",
+      "src": 38040,
+      "dst": 83737
+    },
+    {
+      "relateString": "番外篇",
+      "src": 38040,
+      "dst": 88438
+    },
+    {
+      "relateString": "番外篇",
+      "src": 38040,
+      "dst": 218167
+    },
+    {
+      "relateString": "前传",
+      "src": 69484,
+      "dst": 38040
+    },
+    {
+      "relateString": "番外篇",
+      "src": 69484,
+      "dst": 83737
+    },
+    {
+      "relateString": "主线故事",
+      "src": 83737,
+      "dst": 38040
+    },
+    {
+      "relateString": "主线故事",
+      "src": 83737,
+      "dst": 69484
+    },
+    {
+      "relateString": "主线故事",
+      "src": 88438,
+      "dst": 38040
+    },
+    {
+      "relateString": "主线故事",
+      "src": 218167,
+      "dst": 38040
+    }
+  ]
 }

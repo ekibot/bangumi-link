@@ -1,37 +1,35 @@
 {
- "id": 219198,
- "node": [
-  {
-   "id": 219198,
-   "name": "全力失踪",
-   "nameCN": "全力失踪",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/be/219198_VEZvl.jpg",
-   "date": "2017-09-03",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 270649,
-   "name": "大全力失踪",
-   "nameCN": "大全力失踪",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/c7/270649_ieTaE.jpg",
-   "date": "2019-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219198,
-   "dst": 270649
-  },
-  {
-   "relate": "前传",
-   "src": 270649,
-   "dst": 219198
-  }
- ]
+  "id": "219198",
+  "node": [
+    {
+      "id": 219198,
+      "name": "全力失踪",
+      "nameCN": "全力失踪",
+      "date": "2017-09-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 270649,
+      "name": "大全力失踪",
+      "nameCN": "大全力失踪",
+      "date": "2019-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219198,
+      "dst": 270649
+    },
+    {
+      "relateString": "前传",
+      "src": 270649,
+      "dst": 219198
+    }
+  ]
 }

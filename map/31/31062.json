@@ -1,37 +1,33 @@
 {
- "id": 31062,
- "node": [
-  {
-   "id": 31062,
-   "name": "花情曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/64/31062_4D144.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 31067,
-   "name": "恋泉—花情曲余話",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/74/31067_gQwPZ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 31062,
-   "dst": 31067
-  },
-  {
-   "relate": "前传",
-   "src": 31067,
-   "dst": 31062
-  }
- ]
+  "id": "31062",
+  "node": [
+    {
+      "id": 31062,
+      "name": "花情曲",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 31067,
+      "name": "恋泉—花情曲余話",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 31062,
+      "dst": 31067
+    },
+    {
+      "relateString": "前传",
+      "src": 31067,
+      "dst": 31062
+    }
+  ]
 }

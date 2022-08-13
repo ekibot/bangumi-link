@@ -1,37 +1,35 @@
 {
- "id": 1004,
- "node": [
-  {
-   "id": 1004,
-   "name": "HOSHIGAMI - ホシガミ",
-   "nameCN": "星神",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/d3/1004_wEDG3.jpg",
-   "date": "2007-05-24",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 224395,
-   "name": "HOSHIGAMI 沈みゆく蒼き大地",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/53/224395_z3MmX.jpg",
-   "date": "2002-02-07",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1004,
-   "dst": 224395
-  },
-  {
-   "relate": "不同演绎",
-   "src": 224395,
-   "dst": 1004
-  }
- ]
+  "id": "1004",
+  "node": [
+    {
+      "id": 1004,
+      "name": "HOSHIGAMI - ホシガミ",
+      "nameCN": "星神",
+      "date": "2007-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 224395,
+      "name": "HOSHIGAMI 沈みゆく蒼き大地",
+      "nameCN": "",
+      "date": "2002-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1004,
+      "dst": 224395
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 224395,
+      "dst": 1004
+    }
+  ]
 }

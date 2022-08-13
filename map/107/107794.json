@@ -1,43 +1,49 @@
 {
- "id": 107794,
- "node": [
-  {
-   "id": 107794,
-   "name": "Girl Doll Toy 2 ～使者～",
-   "nameCN": "Girl Doll Toy 2 ～使者～",
-   "image": "/img/no_icon_subject.png",
-   "date": "1999-07-16"
-  },
-  {
-   "id": 107795,
-   "name": "Girl Doll Toy 外伝 AZAMI",
-   "nameCN": "Girl Doll Toy 外传 AZAMI",
-   "image": "/img/no_icon_subject.png",
-   "date": "1999-05-14"
-  },
-  {
-   "id": 107796,
-   "name": "Girl Doll Toy ～魂をください～",
-   "nameCN": "Girl Doll Toy ～请给我灵魂～",
-   "image": "/img/no_icon_subject.png",
-   "date": "1997-12-18"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 107794,
-   "dst": 107796
-  },
-  {
-   "relate": "主线故事",
-   "src": 107795,
-   "dst": 107796
-  },
-  {
-   "relate": "续集",
-   "src": 107796,
-   "dst": 107794
-  }
- ]
+  "id": "107794",
+  "node": [
+    {
+      "id": 107794,
+      "name": "Girl Doll Toy 2 ～使者～",
+      "nameCN": "Girl Doll Toy 2 ～使者～",
+      "date": "1999-07-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107796,
+      "name": "Girl Doll Toy ～魂をください～",
+      "nameCN": "Girl Doll Toy ～请给我灵魂～",
+      "date": "1997-12-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 107795,
+      "name": "Girl Doll Toy 外伝 AZAMI",
+      "nameCN": "Girl Doll Toy 外传 AZAMI",
+      "date": "1999-05-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 107794,
+      "dst": 107796
+    },
+    {
+      "relateString": "主线故事",
+      "src": 107795,
+      "dst": 107796
+    },
+    {
+      "relateString": "续集",
+      "src": 107796,
+      "dst": 107794
+    }
+  ]
 }

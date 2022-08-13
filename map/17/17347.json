@@ -1,37 +1,35 @@
 {
- "id": 17347,
- "node": [
-  {
-   "id": 17347,
-   "name": "戦国美少女絵巻 贰!! ~春風の章~",
-   "nameCN": "战国美少女2-春风之章",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/d7/17347_7G715.jpg",
-   "date": "1999-04-23",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 137373,
-   "name": "戦国美少女絵巻 空を斬る!!",
-   "nameCN": "战国美少女-斩断云空",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/eb/137373_l3LL2.jpg",
-   "date": "1994-04-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 17347,
-   "dst": 137373
-  },
-  {
-   "relate": "续集",
-   "src": 137373,
-   "dst": 17347
-  }
- ]
+  "id": "17347",
+  "node": [
+    {
+      "id": 17347,
+      "name": "戦国美少女絵巻 贰!! ~春風の章~",
+      "nameCN": "战国美少女2-春风之章",
+      "date": "1999-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 137373,
+      "name": "戦国美少女絵巻 空を斬る!!",
+      "nameCN": "战国美少女-斩断云空",
+      "date": "1994-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 17347,
+      "dst": 137373
+    },
+    {
+      "relateString": "续集",
+      "src": 137373,
+      "dst": 17347
+    }
+  ]
 }

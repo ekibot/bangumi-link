@@ -1,77 +1,69 @@
 {
- "id": 132354,
- "node": [
-  {
-   "id": 132354,
-   "name": "完結版 アーシアン 別巻-秘密の花園",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/1d/132354_yWKqe.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 132355,
-   "name": "完結版 アーシアン 1",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/b6/132355_BmB5E.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 132356,
-   "name": "完結版 アーシアン 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/16/132356_m6jmZ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 132357,
-   "name": "完結版 アーシアン 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/2f/132357_8H5r0.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 132354,
-   "dst": 132357
-  },
-  {
-   "relate": "续集",
-   "src": 132355,
-   "dst": 132356
-  },
-  {
-   "relate": "前传",
-   "src": 132356,
-   "dst": 132355
-  },
-  {
-   "relate": "续集",
-   "src": 132356,
-   "dst": 132357
-  },
-  {
-   "relate": "续集",
-   "src": 132357,
-   "dst": 132354
-  },
-  {
-   "relate": "前传",
-   "src": 132357,
-   "dst": 132356
-  }
- ]
+  "id": "132354",
+  "node": [
+    {
+      "id": 132354,
+      "name": "完結版 アーシアン 別巻-秘密の花園",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 132357,
+      "name": "完結版 アーシアン 3",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 132355,
+      "name": "完結版 アーシアン 1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 132356,
+      "name": "完結版 アーシアン 2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 132354,
+      "dst": 132357
+    },
+    {
+      "relateString": "续集",
+      "src": 132355,
+      "dst": 132356
+    },
+    {
+      "relateString": "前传",
+      "src": 132356,
+      "dst": 132355
+    },
+    {
+      "relateString": "续集",
+      "src": 132356,
+      "dst": 132357
+    },
+    {
+      "relateString": "续集",
+      "src": 132357,
+      "dst": 132354
+    },
+    {
+      "relateString": "前传",
+      "src": 132357,
+      "dst": 132356
+    }
+  ]
 }

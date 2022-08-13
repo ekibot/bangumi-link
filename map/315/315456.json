@@ -1,0 +1,52 @@
+{
+  "id": "315456",
+  "node": [
+    {
+      "id": 315456,
+      "name": "SK∞ エスケーエイト",
+      "nameCN": "无限滑板",
+      "date": "2021-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 340867,
+      "name": "SK∞ エスケーエイト 新作アニメ",
+      "nameCN": "无限滑板 新作动画",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 340869,
+      "name": "SK∞ エスケーエイト The Stage",
+      "nameCN": "舞台剧 无限滑板",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 315456,
+      "dst": 340867
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 315456,
+      "dst": 340869
+    },
+    {
+      "relateString": "前传",
+      "src": 340867,
+      "dst": 315456
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 340869,
+      "dst": 315456
+    }
+  ]
+}

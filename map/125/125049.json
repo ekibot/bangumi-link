@@ -1,37 +1,35 @@
 {
- "id": 125049,
- "node": [
-  {
-   "id": 125049,
-   "name": "Dance with Devils",
-   "nameCN": "与魔共舞",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/38/125049_2Gbzo.jpg",
-   "date": "2015-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 207664,
-   "name": "Dance with Devils-Fortuna-",
-   "nameCN": "与魔共舞-Fortuna-",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/29/207664_oftAK.jpg",
-   "date": "2017-11-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 125049,
-   "dst": 207664
-  },
-  {
-   "relate": "主线故事",
-   "src": 207664,
-   "dst": 125049
-  }
- ]
+  "id": "125049",
+  "node": [
+    {
+      "id": 125049,
+      "name": "Dance with Devils",
+      "nameCN": "与魔共舞",
+      "date": "2015-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 207664,
+      "name": "Dance with Devils-Fortuna-",
+      "nameCN": "与魔共舞-Fortuna-",
+      "date": "2017-11-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 125049,
+      "dst": 207664
+    },
+    {
+      "relateString": "主线故事",
+      "src": 207664,
+      "dst": 125049
+    }
+  ]
 }

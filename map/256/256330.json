@@ -1,37 +1,34 @@
 {
- "id": 256330,
- "node": [
-  {
-   "id": 256330,
-   "name": "ソルスティスII",
-   "nameCN": "魔境奇兵2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/55/256330_pvwzV.jpg",
-   "date": "1993-11-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260741,
-   "name": "Solstice",
-   "nameCN": "魔境奇兵",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/a6/260741_NVcvV.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 256330,
-   "dst": 260741
-  },
-  {
-   "relate": "续集",
-   "src": 260741,
-   "dst": 256330
-  }
- ]
+  "id": "256330",
+  "node": [
+    {
+      "id": 256330,
+      "name": "ソルスティスII",
+      "nameCN": "魔境奇兵2",
+      "date": "1993-11-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260741,
+      "name": "Solstice",
+      "nameCN": "魔境奇兵",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 256330,
+      "dst": 260741
+    },
+    {
+      "relateString": "续集",
+      "src": 260741,
+      "dst": 256330
+    }
+  ]
 }

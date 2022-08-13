@@ -1,57 +1,54 @@
 {
- "id": 90667,
- "node": [
-  {
-   "id": 90667,
-   "name": "おにくだいすき！ ゼウシくん",
-   "nameCN": "无肉不欢的宙牛君",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/5b/90667_qQ1Ek.jpg",
-   "date": "2014-01-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 119033,
-   "name": "おにくだいすき！ ゼウシくん 2期",
-   "nameCN": "无肉不欢的宙牛君 2期",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/5c/119033_dblEA.jpg",
-   "date": "2014-11-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 168898,
-   "name": "おにくだいすき！ ゼウシくん 「すてきなハンバーグ」",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/2a/168898_QI8sK.jpg",
-   "date": "2016-02-10",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 90667,
-   "dst": 119033
-  },
-  {
-   "relate": "前传",
-   "src": 119033,
-   "dst": 90667
-  },
-  {
-   "relate": "续集",
-   "src": 119033,
-   "dst": 168898
-  },
-  {
-   "relate": "前传",
-   "src": 168898,
-   "dst": 119033
-  }
- ]
+  "id": "90667",
+  "node": [
+    {
+      "id": 90667,
+      "name": "おにくだいすき！ ゼウシくん",
+      "nameCN": "无肉不欢的宙牛君",
+      "date": "2014-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 119033,
+      "name": "おにくだいすき！ ゼウシくん 2期",
+      "nameCN": "无肉不欢的宙牛君 2期",
+      "date": "2014-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 168898,
+      "name": "おにくだいすき！ ゼウシくん 「すてきなハンバーグ」",
+      "nameCN": "",
+      "date": "2016-02-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 90667,
+      "dst": 119033
+    },
+    {
+      "relateString": "前传",
+      "src": 119033,
+      "dst": 90667
+    },
+    {
+      "relateString": "续集",
+      "src": 119033,
+      "dst": 168898
+    },
+    {
+      "relateString": "前传",
+      "src": 168898,
+      "dst": 119033
+    }
+  ]
 }

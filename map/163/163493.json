@@ -1,37 +1,34 @@
 {
- "id": 163493,
- "node": [
-  {
-   "id": 163493,
-   "name": "無敵のwing!",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/23/163493_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 163494,
-   "name": "奇跡のwing!",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/f8/163494_jp.jpg",
-   "date": "2002-02-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 163493,
-   "dst": 163494
-  },
-  {
-   "relate": "前传",
-   "src": 163494,
-   "dst": 163493
-  }
- ]
+  "id": "163493",
+  "node": [
+    {
+      "id": 163493,
+      "name": "無敵のwing!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 163494,
+      "name": "奇跡のwing!",
+      "nameCN": "",
+      "date": "2002-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 163493,
+      "dst": 163494
+    },
+    {
+      "relateString": "前传",
+      "src": 163494,
+      "dst": 163493
+    }
+  ]
 }

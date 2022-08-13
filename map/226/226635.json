@@ -1,37 +1,35 @@
 {
- "id": 226635,
- "node": [
-  {
-   "id": 226635,
-   "name": "SEAL Team",
-   "nameCN": "海豹突击队",
-   "image": "https://lain.bgm.tv/pic/cover/m/3e/bc/226635_EEyqg.jpg",
-   "date": "2017-09-27",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 265771,
-   "name": "SEAL Team Season 2",
-   "nameCN": "海豹突击队 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/43/265771_Af65M.jpg",
-   "date": "2018-10-03",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226635,
-   "dst": 265771
-  },
-  {
-   "relate": "前传",
-   "src": 265771,
-   "dst": 226635
-  }
- ]
+  "id": "226635",
+  "node": [
+    {
+      "id": 226635,
+      "name": "SEAL Team",
+      "nameCN": "海豹突击队",
+      "date": "2017-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 265771,
+      "name": "SEAL Team Season 2",
+      "nameCN": "海豹突击队 第二季",
+      "date": "2018-10-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226635,
+      "dst": 265771
+    },
+    {
+      "relateString": "前传",
+      "src": 265771,
+      "dst": 226635
+    }
+  ]
 }

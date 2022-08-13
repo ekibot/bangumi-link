@@ -1,37 +1,35 @@
 {
- "id": 142559,
- "node": [
-  {
-   "id": 142559,
-   "name": "S+RUSH!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/f4/142559_jp.jpg",
-   "date": "2014-02-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 142560,
-   "name": "RUSH!",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/b7/142560_jp.jpg",
-   "date": "2012-08-24",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 142559,
-   "dst": 142560
-  },
-  {
-   "relate": "续集",
-   "src": 142560,
-   "dst": 142559
-  }
- ]
+  "id": "142559",
+  "node": [
+    {
+      "id": 142559,
+      "name": "S+RUSH!!",
+      "nameCN": "",
+      "date": "2014-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 142560,
+      "name": "RUSH!",
+      "nameCN": "",
+      "date": "2012-08-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 142559,
+      "dst": 142560
+    },
+    {
+      "relateString": "续集",
+      "src": 142560,
+      "dst": 142559
+    }
+  ]
 }

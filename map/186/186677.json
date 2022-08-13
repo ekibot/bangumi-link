@@ -1,37 +1,35 @@
 {
- "id": 186677,
- "node": [
-  {
-   "id": 186677,
-   "name": "トリノライン",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/34/186677_xIUji.jpg",
-   "date": "2017-03-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228670,
-   "name": "トリノライン：ジェネシス",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/c4/228670_D2DRN.jpg",
-   "date": "2018-01-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 186677,
-   "dst": 228670
-  },
-  {
-   "relate": "前传",
-   "src": 228670,
-   "dst": 186677
-  }
- ]
+  "id": "186677",
+  "node": [
+    {
+      "id": 186677,
+      "name": "トリノライン",
+      "nameCN": "",
+      "date": "2017-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228670,
+      "name": "トリノライン：ジェネシス",
+      "nameCN": "",
+      "date": "2018-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 186677,
+      "dst": 228670
+    },
+    {
+      "relateString": "前传",
+      "src": 228670,
+      "dst": 186677
+    }
+  ]
 }

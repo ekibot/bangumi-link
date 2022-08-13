@@ -1,57 +1,54 @@
 {
- "id": 34772,
- "node": [
-  {
-   "id": 34772,
-   "name": "愛で痴れる夜の純情 禿編",
-   "nameCN": "花降楼 秃篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/8c/34772_jp.jpg",
-   "date": "2007-03-19",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 100116,
-   "name": "愛で痴れる夜の純情 傾城編",
-   "nameCN": "花降楼 倾城篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/cd/100116_jp.jpg",
-   "date": "2008-12-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 100117,
-   "name": "愛で痴れる夜の純情 華園編",
-   "nameCN": "花降楼 华园篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/ae/100117_jp.jpg",
-   "date": "2010-04-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 34772,
-   "dst": 100116
-  },
-  {
-   "relate": "前传",
-   "src": 100116,
-   "dst": 34772
-  },
-  {
-   "relate": "续集",
-   "src": 100116,
-   "dst": 100117
-  },
-  {
-   "relate": "前传",
-   "src": 100117,
-   "dst": 100116
-  }
- ]
+  "id": "34772",
+  "node": [
+    {
+      "id": 34772,
+      "name": "愛で痴れる夜の純情 禿編",
+      "nameCN": "花降楼 秃篇",
+      "date": "2007-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 100116,
+      "name": "愛で痴れる夜の純情 傾城編",
+      "nameCN": "花降楼 倾城篇",
+      "date": "2008-12-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 100117,
+      "name": "愛で痴れる夜の純情 華園編",
+      "nameCN": "花降楼 华园篇",
+      "date": "2010-04-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 34772,
+      "dst": 100116
+    },
+    {
+      "relateString": "前传",
+      "src": 100116,
+      "dst": 34772
+    },
+    {
+      "relateString": "续集",
+      "src": 100116,
+      "dst": 100117
+    },
+    {
+      "relateString": "前传",
+      "src": 100117,
+      "dst": 100116
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 211707,
- "node": [
-  {
-   "id": 211707,
-   "name": "Shades of Blue Season 1",
-   "nameCN": "蓝海暮色 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/c9/211707_axg1M.jpg",
-   "date": "2016-01-07",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 211708,
-   "name": "Shades of Blue Season 2",
-   "nameCN": "蓝海暮色 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/6d/211708_B5HuH.jpg",
-   "date": "2017-03-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 211709,
-   "name": "Shades of Blue Season 3",
-   "nameCN": "蓝海暮色 第三季",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 211707,
-   "dst": 211708
-  },
-  {
-   "relate": "前传",
-   "src": 211708,
-   "dst": 211707
-  },
-  {
-   "relate": "续集",
-   "src": 211708,
-   "dst": 211709
-  },
-  {
-   "relate": "前传",
-   "src": 211709,
-   "dst": 211708
-  }
- ]
+  "id": "211707",
+  "node": [
+    {
+      "id": 211707,
+      "name": "Shades of Blue Season 1",
+      "nameCN": "蓝海暮色 第一季",
+      "date": "2016-01-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 211708,
+      "name": "Shades of Blue Season 2",
+      "nameCN": "蓝海暮色 第二季",
+      "date": "2017-03-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 211709,
+      "name": "Shades of Blue Season 3",
+      "nameCN": "蓝海暮色 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 211707,
+      "dst": 211708
+    },
+    {
+      "relateString": "前传",
+      "src": 211708,
+      "dst": 211707
+    },
+    {
+      "relateString": "续集",
+      "src": 211708,
+      "dst": 211709
+    },
+    {
+      "relateString": "前传",
+      "src": 211709,
+      "dst": 211708
+    }
+  ]
 }

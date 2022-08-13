@@ -1,29 +1,35 @@
 {
- "id": 25479,
- "node": [
-  {
-   "id": 25479,
-   "name": "あっぱれ！天下御免",
-   "image": "/img/no_icon_subject.png",
-   "date": "2011-12-22"
-  },
-  {
-   "id": 47296,
-   "name": "あっぱれ！天下御免［祭］ ～恋と嵐は大江戸の華～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2012-12-21"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 25479,
-   "dst": 47296
-  },
-  {
-   "relate": "前传",
-   "src": 47296,
-   "dst": 25479
-  }
- ]
+  "id": "25479",
+  "node": [
+    {
+      "id": 25479,
+      "name": "あっぱれ！天下御免",
+      "nameCN": "",
+      "date": "2011-12-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 47296,
+      "name": "あっぱれ！天下御免［祭］ ～恋と嵐は大江戸の華～",
+      "nameCN": "",
+      "date": "2012-12-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 25479,
+      "dst": 47296
+    },
+    {
+      "relateString": "前传",
+      "src": 47296,
+      "dst": 25479
+    }
+  ]
 }

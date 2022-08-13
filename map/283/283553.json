@@ -1,37 +1,35 @@
 {
- "id": 283553,
- "node": [
-  {
-   "id": 283553,
-   "name": "The Dark Crystal: Age of Resistance",
-   "nameCN": "魔水晶：抗争时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/35/283553_ZnLzk.jpg",
-   "date": "2019-08-30",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 324869,
-   "name": "The Dark Crystal",
-   "nameCN": "黑水晶",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/21/324869_YIY59.jpg",
-   "date": "1982-12-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 283553,
-   "dst": 324869
-  },
-  {
-   "relate": "前传",
-   "src": 324869,
-   "dst": 283553
-  }
- ]
+  "id": "283553",
+  "node": [
+    {
+      "id": 283553,
+      "name": "The Dark Crystal: Age of Resistance",
+      "nameCN": "魔水晶：抗争时代",
+      "date": "2019-08-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 324869,
+      "name": "The Dark Crystal",
+      "nameCN": "黑水晶",
+      "date": "1982-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 283553,
+      "dst": 324869
+    },
+    {
+      "relateString": "前传",
+      "src": 324869,
+      "dst": 283553
+    }
+  ]
 }

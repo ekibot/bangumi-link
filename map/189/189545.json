@@ -1,37 +1,35 @@
 {
- "id": 189545,
- "node": [
-  {
-   "id": 189545,
-   "name": "戦国鳥獣戯画〜甲〜",
-   "nameCN": "战国鸟兽戏画～甲～",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/85/189545_6mwNR.jpg",
-   "date": "2016-10-08",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 194927,
-   "name": "戦国鳥獣戯画〜乙〜",
-   "nameCN": "战国鸟兽戏画～乙～",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/52/194927_u9uKb.jpg",
-   "date": "2017-01-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189545,
-   "dst": 194927
-  },
-  {
-   "relate": "前传",
-   "src": 194927,
-   "dst": 189545
-  }
- ]
+  "id": "189545",
+  "node": [
+    {
+      "id": 189545,
+      "name": "戦国鳥獣戯画〜甲〜",
+      "nameCN": "战国鸟兽戏画～甲～",
+      "date": "2016-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 194927,
+      "name": "戦国鳥獣戯画〜乙〜",
+      "nameCN": "战国鸟兽戏画～乙～",
+      "date": "2017-01-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189545,
+      "dst": 194927
+    },
+    {
+      "relateString": "前传",
+      "src": 194927,
+      "dst": 189545
+    }
+  ]
 }

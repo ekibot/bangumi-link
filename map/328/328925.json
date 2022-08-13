@@ -1,37 +1,35 @@
 {
- "id": 328925,
- "node": [
-  {
-   "id": 328925,
-   "name": "CD-Lime",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/41/328925_cO54Z.jpg",
-   "date": "2008-06-17",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 328926,
-   "name": "CD-Manatsu",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/a4/328926_gJls6.jpg",
-   "date": "2008-08-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 328925,
-   "dst": 328926
-  },
-  {
-   "relate": "前传",
-   "src": 328926,
-   "dst": 328925
-  }
- ]
+  "id": "328925",
+  "node": [
+    {
+      "id": 328925,
+      "name": "CD-Lime",
+      "nameCN": "",
+      "date": "2008-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 328926,
+      "name": "CD-Manatsu",
+      "nameCN": "",
+      "date": "2008-08-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 328925,
+      "dst": 328926
+    },
+    {
+      "relateString": "前传",
+      "src": 328926,
+      "dst": 328925
+    }
+  ]
 }

@@ -1,50 +1,54 @@
 {
- "id": 323584,
- "node": [
-  {
-   "id": 323584,
-   "name": "デザートタイム 夢幻の迷宮",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/f6/323584_1NAP8.jpg",
-   "date": "1998-12-11",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 323585,
-   "name": "ファントムナイト　夢幻の迷宮II",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/2f/323585_0EA5q.jpg",
-   "date": "2000-04-28",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 325564,
-   "name": "夢幻の迷宮3 TYPE S",
-   "image": "/img/no_icon_subject.png",
-   "date": "2003-05-30"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 323584,
-   "dst": 323585
-  },
-  {
-   "relate": "前传",
-   "src": 323585,
-   "dst": 323584
-  },
-  {
-   "relate": "续集",
-   "src": 323585,
-   "dst": 325564
-  },
-  {
-   "relate": "前传",
-   "src": 325564,
-   "dst": 323585
-  }
- ]
+  "id": "323584",
+  "node": [
+    {
+      "id": 323584,
+      "name": "デザートタイム 夢幻の迷宮",
+      "nameCN": "",
+      "date": "1998-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323585,
+      "name": "ファントムナイト　夢幻の迷宮II",
+      "nameCN": "",
+      "date": "2000-04-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325564,
+      "name": "夢幻の迷宮3 TYPE S",
+      "nameCN": "",
+      "date": "2003-05-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 323584,
+      "dst": 323585
+    },
+    {
+      "relateString": "前传",
+      "src": 323585,
+      "dst": 323584
+    },
+    {
+      "relateString": "续集",
+      "src": 323585,
+      "dst": 325564
+    },
+    {
+      "relateString": "前传",
+      "src": 325564,
+      "dst": 323585
+    }
+  ]
 }

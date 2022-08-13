@@ -1,57 +1,53 @@
 {
- "id": 289101,
- "node": [
-  {
-   "id": 289101,
-   "name": "天官赐福",
-   "nameCN": "天官赐福",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/88/289101_iMEi1.jpg",
-   "date": "2020-10-31",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 289102,
-   "name": "天官赐福 第二季",
-   "date": null,
-   "image": "https://lain.bgm.tv/pic/cover/m/2d/83/289102_d24ul.jpg",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 320209,
-   "name": "天官赐福 特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ee/cb/320209_tMNz2.jpg",
-   "date": "2021-02-16",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 289101,
-   "dst": 289102
-  },
-  {
-   "relate": "番外篇",
-   "src": 289101,
-   "dst": 320209
-  },
-  {
-   "relate": "前传",
-   "src": 289102,
-   "dst": 289101
-  },
-  {
-   "relate": "主线故事",
-   "src": 320209,
-   "dst": 289101
-  }
- ]
+  "id": "289101",
+  "node": [
+    {
+      "id": 289101,
+      "name": "天官赐福",
+      "nameCN": "天官赐福",
+      "date": "2020-10-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 289102,
+      "name": "天官赐福 第二季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320209,
+      "name": "天官赐福 特别篇",
+      "nameCN": "",
+      "date": "2021-02-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 289101,
+      "dst": 289102
+    },
+    {
+      "relateString": "番外篇",
+      "src": 289101,
+      "dst": 320209
+    },
+    {
+      "relateString": "前传",
+      "src": 289102,
+      "dst": 289101
+    },
+    {
+      "relateString": "主线故事",
+      "src": 320209,
+      "dst": 289101
+    }
+  ]
 }

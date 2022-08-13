@@ -1,37 +1,33 @@
 {
- "id": 84898,
- "node": [
-  {
-   "id": 84898,
-   "name": "BOYS LOVE",
-   "nameCN": "男孩的爱",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/b4/84898_2F2Vy.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 84899,
-   "name": "BOYS LOVE2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/fe/84899_t3sen.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84898,
-   "dst": 84899
-  },
-  {
-   "relate": "前传",
-   "src": 84899,
-   "dst": 84898
-  }
- ]
+  "id": "84898",
+  "node": [
+    {
+      "id": 84898,
+      "name": "BOYS LOVE",
+      "nameCN": "男孩的爱",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 84899,
+      "name": "BOYS LOVE2",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84898,
+      "dst": 84899
+    },
+    {
+      "relateString": "前传",
+      "src": 84899,
+      "dst": 84898
+    }
+  ]
 }

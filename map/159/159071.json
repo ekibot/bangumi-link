@@ -1,57 +1,54 @@
 {
- "id": 159071,
- "node": [
-  {
-   "id": 159071,
-   "name": "となりの席は外国人",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/bb/159071_jp.jpg",
-   "date": "2012-03-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 159072,
-   "name": "イエス！ となりの席は外国人",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/75/159072_jp.jpg",
-   "date": "2015-03-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 159073,
-   "name": "モット! となりの席は外国人",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/0d/159073_jp.jpg",
-   "date": "2013-11-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 159071,
-   "dst": 159073
-  },
-  {
-   "relate": "前传",
-   "src": 159072,
-   "dst": 159073
-  },
-  {
-   "relate": "前传",
-   "src": 159073,
-   "dst": 159071
-  },
-  {
-   "relate": "续集",
-   "src": 159073,
-   "dst": 159072
-  }
- ]
+  "id": "159071",
+  "node": [
+    {
+      "id": 159071,
+      "name": "となりの席は外国人",
+      "nameCN": "",
+      "date": "2012-03-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159073,
+      "name": "モット! となりの席は外国人",
+      "nameCN": "",
+      "date": "2013-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 159072,
+      "name": "イエス！ となりの席は外国人",
+      "nameCN": "",
+      "date": "2015-03-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 159071,
+      "dst": 159073
+    },
+    {
+      "relateString": "前传",
+      "src": 159072,
+      "dst": 159073
+    },
+    {
+      "relateString": "前传",
+      "src": 159073,
+      "dst": 159071
+    },
+    {
+      "relateString": "续集",
+      "src": 159073,
+      "dst": 159072
+    }
+  ]
 }

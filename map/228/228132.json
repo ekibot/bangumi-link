@@ -1,40 +1,44 @@
 {
- "id": 228132,
- "node": [
-  {
-   "id": 228132,
-   "name": "Sdorica 万象物语",
-   "nameCN": "Sdorica 万象物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/20/228132_KrE2h.jpg",
-   "date": "2017-06-29",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 334602,
-   "name": "Sdorica After Sunset 萬象物語‧納杰爾篇",
-   "nameCN": "Sdorica After Sunset 万象物语 纳杰尔篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/cd/334602_WhHHv.jpg",
-   "type": 1
-  },
-  {
-   "id": 334603,
-   "name": "Sdorica Before Sunset 萬象物語‧西奧多篇",
-   "nameCN": "Sdorica Before Sunset 万象物语 西奥多篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/06/334603_gEfKC.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 228132,
-   "dst": 334602
-  },
-  {
-   "relate": "番外篇",
-   "src": 228132,
-   "dst": 334603
-  }
- ]
+  "id": "228132",
+  "node": [
+    {
+      "id": 228132,
+      "name": "Sdorica 万象物语",
+      "nameCN": "Sdorica 万象物语",
+      "date": "2017-06-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 334602,
+      "name": "Sdorica After Sunset 萬象物語‧納杰爾篇",
+      "nameCN": "Sdorica After Sunset 万象物语 纳杰尔篇",
+      "date": "2018-08-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 334603,
+      "name": "Sdorica Before Sunset 萬象物語‧西奧多篇",
+      "nameCN": "Sdorica Before Sunset 万象物语 西奥多篇",
+      "date": "2017-07-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 228132,
+      "dst": 334602
+    },
+    {
+      "relateString": "番外篇",
+      "src": 228132,
+      "dst": 334603
+    }
+  ]
 }

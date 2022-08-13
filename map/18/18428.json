@@ -1,37 +1,35 @@
 {
- "id": 18428,
- "node": [
-  {
-   "id": 18428,
-   "name": "太陽の船 ソルビアンカ",
-   "nameCN": "太阳之船 SOL BIANCA",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/3f/18428_5eL10.jpg",
-   "date": "1999-09-24",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 49570,
-   "name": "SOL BIANCA",
-   "nameCN": "太阳之船",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/2b/49570_qdlFU.jpg",
-   "date": "1990-03-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 18428,
-   "dst": 49570
-  },
-  {
-   "relate": "前传",
-   "src": 49570,
-   "dst": 18428
-  }
- ]
+  "id": "18428",
+  "node": [
+    {
+      "id": 18428,
+      "name": "太陽の船 ソルビアンカ",
+      "nameCN": "太阳之船 SOL BIANCA",
+      "date": "1999-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 49570,
+      "name": "SOL BIANCA",
+      "nameCN": "太阳之船",
+      "date": "1990-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 18428,
+      "dst": 49570
+    },
+    {
+      "relateString": "前传",
+      "src": 49570,
+      "dst": 18428
+    }
+  ]
 }

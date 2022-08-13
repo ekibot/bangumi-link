@@ -1,37 +1,34 @@
 {
- "id": 213068,
- "node": [
-  {
-   "id": 213068,
-   "name": "Fate/Grand Order 電撃コミックアンソロジー",
-   "nameCN": "Fate/Grand Order 电击漫画选集",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/e7/213068_57zw9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 326327,
-   "name": "Fate/Grand Order 電撃コミックアンソロジーRe",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/2b/326327_m4jDZ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213068,
-   "dst": 326327
-  },
-  {
-   "relate": "前传",
-   "src": 326327,
-   "dst": 213068
-  }
- ]
+  "id": "213068",
+  "node": [
+    {
+      "id": 213068,
+      "name": "Fate/Grand Order 電撃コミックアンソロジー",
+      "nameCN": "Fate/Grand Order 电击漫画选集",
+      "date": "2016-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 326327,
+      "name": "Fate/Grand Order 電撃コミックアンソロジーRe",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213068,
+      "dst": 326327
+    },
+    {
+      "relateString": "前传",
+      "src": 326327,
+      "dst": 213068
+    }
+  ]
 }

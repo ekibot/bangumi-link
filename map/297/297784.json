@@ -1,57 +1,54 @@
 {
- "id": 297784,
- "node": [
-  {
-   "id": 297784,
-   "name": "Super Mega Baseball 2",
-   "nameCN": "超级棒球2",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/05/297784_P0gW3.jpg",
-   "date": "2018-05-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307864,
-   "name": "Super Mega Baseball",
-   "nameCN": "超级棒球",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/53/307864_t1T0m.jpg",
-   "date": "2014-12-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 363504,
-   "name": "Super Mega Baseball 3",
-   "nameCN": "超级棒球3",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/e4/363504_7Mf1s.jpg",
-   "date": "2020-05-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 297784,
-   "dst": 307864
-  },
-  {
-   "relate": "续集",
-   "src": 297784,
-   "dst": 363504
-  },
-  {
-   "relate": "续集",
-   "src": 307864,
-   "dst": 297784
-  },
-  {
-   "relate": "前传",
-   "src": 363504,
-   "dst": 297784
-  }
- ]
+  "id": "297784",
+  "node": [
+    {
+      "id": 297784,
+      "name": "Super Mega Baseball 2",
+      "nameCN": "超级棒球2",
+      "date": "2018-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307864,
+      "name": "Super Mega Baseball",
+      "nameCN": "超级棒球",
+      "date": "2014-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 363504,
+      "name": "Super Mega Baseball 3",
+      "nameCN": "超级棒球3",
+      "date": "2020-05-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 297784,
+      "dst": 307864
+    },
+    {
+      "relateString": "续集",
+      "src": 297784,
+      "dst": 363504
+    },
+    {
+      "relateString": "续集",
+      "src": 307864,
+      "dst": 297784
+    },
+    {
+      "relateString": "前传",
+      "src": 363504,
+      "dst": 297784
+    }
+  ]
 }

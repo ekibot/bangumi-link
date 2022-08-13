@@ -1,37 +1,35 @@
 {
- "id": 240428,
- "node": [
-  {
-   "id": 240428,
-   "name": "ムヒョとロージーの魔法律相談事務所",
-   "nameCN": "魔法律事务所",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/b3/240428_41t1I.jpg",
-   "date": "2018-08-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 284838,
-   "name": "ムヒョとロージーの魔法律相談事務所 第2期",
-   "nameCN": "魔法律事务所 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ef/ea/284838_4uYqw.jpg",
-   "date": "2020-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 240428,
-   "dst": 284838
-  },
-  {
-   "relate": "前传",
-   "src": 284838,
-   "dst": 240428
-  }
- ]
+  "id": "240428",
+  "node": [
+    {
+      "id": 240428,
+      "name": "ムヒョとロージーの魔法律相談事務所",
+      "nameCN": "魔法律事务所",
+      "date": "2018-08-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 284838,
+      "name": "ムヒョとロージーの魔法律相談事務所 第2期",
+      "nameCN": "魔法律事务所 第二季",
+      "date": "2020-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 240428,
+      "dst": 284838
+    },
+    {
+      "relateString": "前传",
+      "src": 284838,
+      "dst": 240428
+    }
+  ]
 }

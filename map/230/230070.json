@@ -1,37 +1,35 @@
 {
- "id": 230070,
- "node": [
-  {
-   "id": 230070,
-   "name": "もうひとつの命",
-   "nameCN": "另一段生命",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/bf/230070_3E3iU.jpg",
-   "date": "2017-12-22",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 241543,
-   "name": "もうひとりの魔女",
-   "nameCN": "另一位魔女",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/15/241543_S53ll.jpg",
-   "date": "2018-04-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230070,
-   "dst": 241543
-  },
-  {
-   "relate": "前传",
-   "src": 241543,
-   "dst": 230070
-  }
- ]
+  "id": "230070",
+  "node": [
+    {
+      "id": 230070,
+      "name": "もうひとつの命",
+      "nameCN": "另一段生命",
+      "date": "2017-12-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 241543,
+      "name": "もうひとりの魔女",
+      "nameCN": "另一位魔女",
+      "date": "2018-04-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230070,
+      "dst": 241543
+    },
+    {
+      "relateString": "前传",
+      "src": 241543,
+      "dst": 230070
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 127797,
- "node": [
-  {
-   "id": 127797,
-   "name": "東方カードモンスターズ",
-   "nameCN": "东方卡片妖怪",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/09/127797_X2r2a.jpg",
-   "date": "2012-12-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 171401,
-   "name": "東方カードモンスターズ2　-TAG DUELIST-",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/fa/171401_OaY77.jpg",
-   "date": "2015-08-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127797,
-   "dst": 171401
-  },
-  {
-   "relate": "前传",
-   "src": 171401,
-   "dst": 127797
-  }
- ]
+  "id": "127797",
+  "node": [
+    {
+      "id": 127797,
+      "name": "東方カードモンスターズ",
+      "nameCN": "东方卡片妖怪",
+      "date": "2012-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171401,
+      "name": "東方カードモンスターズ2　-TAG DUELIST-",
+      "nameCN": "",
+      "date": "2015-08-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127797,
+      "dst": 171401
+    },
+    {
+      "relateString": "前传",
+      "src": 171401,
+      "dst": 127797
+    }
+  ]
 }

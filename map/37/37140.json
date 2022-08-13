@@ -1,37 +1,35 @@
 {
- "id": 37140,
- "node": [
-  {
-   "id": 37140,
-   "name": "ガッ活!",
-   "nameCN": "学活！",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/d8/37140_TUb8C.jpg",
-   "date": "2012-04-03",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 61222,
-   "name": "ガッ活! 第2シリーズ",
-   "nameCN": "学活！ 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/85/61222_ZglcX.jpg",
-   "date": "2013-04-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 37140,
-   "dst": 61222
-  },
-  {
-   "relate": "前传",
-   "src": 61222,
-   "dst": 37140
-  }
- ]
+  "id": "37140",
+  "node": [
+    {
+      "id": 37140,
+      "name": "ガッ活!",
+      "nameCN": "学活！",
+      "date": "2012-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 61222,
+      "name": "ガッ活! 第2シリーズ",
+      "nameCN": "学活！ 第二季",
+      "date": "2013-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 37140,
+      "dst": 61222
+    },
+    {
+      "relateString": "前传",
+      "src": 61222,
+      "dst": 37140
+    }
+  ]
 }

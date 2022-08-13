@@ -1,57 +1,54 @@
 {
- "id": 271257,
- "node": [
-  {
-   "id": 271257,
-   "name": "万界神主",
-   "nameCN": "万界神主",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/02/271257_YG0p4.jpg",
-   "date": "2019-02-06",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 298505,
-   "name": "万界神主 第二季",
-   "nameCN": "万界神主 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/50/298505_f4i6i.jpg",
-   "date": "2020-02-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 330179,
-   "name": "万界神主 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/cc/330179_c0m0u.jpg",
-   "date": "2021-03-17",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 271257,
-   "dst": 298505
-  },
-  {
-   "relate": "前传",
-   "src": 298505,
-   "dst": 271257
-  },
-  {
-   "relate": "续集",
-   "src": 298505,
-   "dst": 330179
-  },
-  {
-   "relate": "前传",
-   "src": 330179,
-   "dst": 298505
-  }
- ]
+  "id": "271257",
+  "node": [
+    {
+      "id": 271257,
+      "name": "万界神主",
+      "nameCN": "万界神主",
+      "date": "2019-02-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 298505,
+      "name": "万界神主 第二季",
+      "nameCN": "万界神主 第二季",
+      "date": "2020-02-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 330179,
+      "name": "万界神主 第三季",
+      "nameCN": "",
+      "date": "2021-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 271257,
+      "dst": 298505
+    },
+    {
+      "relateString": "前传",
+      "src": 298505,
+      "dst": 271257
+    },
+    {
+      "relateString": "续集",
+      "src": 298505,
+      "dst": 330179
+    },
+    {
+      "relateString": "前传",
+      "src": 330179,
+      "dst": 298505
+    }
+  ]
 }

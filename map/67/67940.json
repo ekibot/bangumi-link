@@ -1,37 +1,35 @@
 {
- "id": 67940,
- "node": [
-  {
-   "id": 67940,
-   "name": "グーニーズ",
-   "nameCN": "七宝奇谋",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/16/67940_HYHGl.jpg",
-   "date": "1986-02-21",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256066,
-   "name": "グーニーズ2 フラッテリー最後の挑戦",
-   "nameCN": "七宝奇谋2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/99/256066_NDpGE.jpg",
-   "date": "1987-03-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 67940,
-   "dst": 256066
-  },
-  {
-   "relate": "前传",
-   "src": 256066,
-   "dst": 67940
-  }
- ]
+  "id": "67940",
+  "node": [
+    {
+      "id": 67940,
+      "name": "グーニーズ",
+      "nameCN": "七宝奇谋",
+      "date": "1986-02-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256066,
+      "name": "グーニーズ2 フラッテリー最後の挑戦",
+      "nameCN": "七宝奇谋2",
+      "date": "1987-03-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 67940,
+      "dst": 256066
+    },
+    {
+      "relateString": "前传",
+      "src": 256066,
+      "dst": 67940
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 222422,
- "node": [
-  {
-   "id": 222422,
-   "name": "やんちゃギャルの安城さん",
-   "nameCN": "顽皮辣妹安城同学",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/0e/222422_cykSC.jpg",
-   "date": "2018-03-12",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 359852,
-   "name": "やんちゃギャルの安城さんたち 高1編",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/f9/359852_AzqfT.jpg",
-   "date": "2019-12-23",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 222422,
-   "dst": 359852
-  },
-  {
-   "relate": "前传",
-   "src": 359852,
-   "dst": 222422
-  }
- ]
+  "id": "222422",
+  "node": [
+    {
+      "id": 222422,
+      "name": "やんちゃギャルの安城さん",
+      "nameCN": "顽皮辣妹安城同学",
+      "date": "2018-03-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 359852,
+      "name": "やんちゃギャルの安城さんたち 高1編",
+      "nameCN": "",
+      "date": "2019-12-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 222422,
+      "dst": 359852
+    },
+    {
+      "relateString": "前传",
+      "src": 359852,
+      "dst": 222422
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 82490,
- "node": [
-  {
-   "id": 82490,
-   "name": "湘南爆走族",
-   "nameCN": "湘南爆走族",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/a7/82490_bD6f4.jpg",
-   "date": "1986-09-10",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 161775,
-   "name": "新・湘南爆走族 荒くれナイト",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/b8/161775_cZ3Z9.jpg",
-   "date": "1997-09-12",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 82490,
-   "dst": 161775
-  },
-  {
-   "relate": "前传",
-   "src": 161775,
-   "dst": 82490
-  }
- ]
+  "id": "82490",
+  "node": [
+    {
+      "id": 82490,
+      "name": "湘南爆走族",
+      "nameCN": "湘南爆走族",
+      "date": "1986-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 161775,
+      "name": "新・湘南爆走族 荒くれナイト",
+      "nameCN": "",
+      "date": "1997-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 82490,
+      "dst": 161775
+    },
+    {
+      "relateString": "前传",
+      "src": 161775,
+      "dst": 82490
+    }
+  ]
 }

@@ -1,55 +1,54 @@
 {
- "id": 16355,
- "node": [
-  {
-   "id": 16355,
-   "name": "W.L.O. 世界恋愛機構",
-   "nameCN": "W.L.O. 世界恋爱机构",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/48/16355_uopPj.jpg",
-   "date": "2009-03-26",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 49320,
-   "name": "LOVESICK PUPPIES -僕らは恋するために生まれてきた-",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/20/49320_6gGS9.jpg",
-   "date": "2013-03-22",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 109387,
-   "name": "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW",
-   "nameCN": "W.L.O. 世界恋爱机构 L.L.S. -LOVE LOVE SHOW",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/47/109387_sZwos.jpg",
-   "date": "2009-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 16355,
-   "dst": 49320
-  },
-  {
-   "relate": "续集",
-   "src": 16355,
-   "dst": 109387
-  },
-  {
-   "relate": "相同世界观",
-   "src": 49320,
-   "dst": 16355
-  },
-  {
-   "relate": "前传",
-   "src": 109387,
-   "dst": 16355
-  }
- ]
+  "id": "16355",
+  "node": [
+    {
+      "id": 16355,
+      "name": "W.L.O. 世界恋愛機構",
+      "nameCN": "W.L.O. 世界恋爱机构",
+      "date": "2009-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 49320,
+      "name": "LOVESICK PUPPIES -僕らは恋するために生まれてきた-",
+      "nameCN": "",
+      "date": "2013-03-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 109387,
+      "name": "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW",
+      "nameCN": "W.L.O. 世界恋爱机构 L.L.S. -LOVE LOVE SHOW",
+      "date": "2009-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 16355,
+      "dst": 49320
+    },
+    {
+      "relateString": "续集",
+      "src": 16355,
+      "dst": 109387
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 49320,
+      "dst": 16355
+    },
+    {
+      "relateString": "前传",
+      "src": 109387,
+      "dst": 16355
+    }
+  ]
 }

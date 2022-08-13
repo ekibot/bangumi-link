@@ -1,37 +1,35 @@
 {
- "id": 284386,
- "node": [
-  {
-   "id": 284386,
-   "name": "GhostWire: Tokyo",
-   "nameCN": "幽灵线：东京",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/8f/284386_w37y3.jpg",
-   "date": "2022-03-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 372555,
-   "name": "Ghostwire: Tokyo - Prelude",
-   "nameCN": "幽灵线：东京 序章",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/69/372555_45dJZ.jpg",
-   "date": "2022-03-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 284386,
-   "dst": 372555
-  },
-  {
-   "relate": "续集",
-   "src": 372555,
-   "dst": 284386
-  }
- ]
+  "id": "284386",
+  "node": [
+    {
+      "id": 284386,
+      "name": "GhostWire: Tokyo",
+      "nameCN": "幽灵线：东京",
+      "date": "2022-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 372555,
+      "name": "Ghostwire: Tokyo - Prelude",
+      "nameCN": "幽灵线：东京 序章",
+      "date": "2022-03-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 284386,
+      "dst": 372555
+    },
+    {
+      "relateString": "续集",
+      "src": 372555,
+      "dst": 284386
+    }
+  ]
 }

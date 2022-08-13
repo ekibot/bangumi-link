@@ -1,57 +1,53 @@
 {
- "id": 132979,
- "node": [
-  {
-   "id": 132979,
-   "name": "アウトラン2",
-   "nameCN": "超越2",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/14/132979_6UnnE.jpg",
-   "date": "2003-12-01",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 147246,
-   "name": "OUTRUN",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/db/147246_zP70b.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 149386,
-   "name": "OutRun 2006: Coast 2 Coast",
-   "nameCN": "户外赛车2006超越海岸",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/6c/149386_cVHbb.jpg",
-   "date": "2006-03-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 132979,
-   "dst": 147246
-  },
-  {
-   "relate": "不同演绎",
-   "src": 132979,
-   "dst": 149386
-  },
-  {
-   "relate": "续集",
-   "src": 147246,
-   "dst": 132979
-  },
-  {
-   "relate": "不同演绎",
-   "src": 149386,
-   "dst": 132979
-  }
- ]
+  "id": "132979",
+  "node": [
+    {
+      "id": 132979,
+      "name": "アウトラン2",
+      "nameCN": "超越2",
+      "date": "2003-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 147246,
+      "name": "OUTRUN",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 149386,
+      "name": "OutRun 2006: Coast 2 Coast",
+      "nameCN": "户外赛车2006超越海岸",
+      "date": "2006-03-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 132979,
+      "dst": 147246
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 132979,
+      "dst": 149386
+    },
+    {
+      "relateString": "续集",
+      "src": 147246,
+      "dst": 132979
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 149386,
+      "dst": 132979
+    }
+  ]
 }

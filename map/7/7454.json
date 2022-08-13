@@ -1,37 +1,35 @@
 {
- "id": 7454,
- "node": [
-  {
-   "id": 7454,
-   "name": "暴走カレシ",
-   "nameCN": "暴走彼氏",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/19/7454_jp.jpg",
-   "date": "2009-02-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 54521,
-   "name": "発情カレシ",
-   "nameCN": "发情男朋友",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/6e/54521_jp.jpg",
-   "date": "2011-11-30",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7454,
-   "dst": 54521
-  },
-  {
-   "relate": "前传",
-   "src": 54521,
-   "dst": 7454
-  }
- ]
+  "id": "7454",
+  "node": [
+    {
+      "id": 7454,
+      "name": "暴走カレシ",
+      "nameCN": "暴走彼氏",
+      "date": "2009-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 54521,
+      "name": "発情カレシ",
+      "nameCN": "发情男朋友",
+      "date": "2011-11-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7454,
+      "dst": 54521
+    },
+    {
+      "relateString": "前传",
+      "src": 54521,
+      "dst": 7454
+    }
+  ]
 }

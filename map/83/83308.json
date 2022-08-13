@@ -1,57 +1,54 @@
 {
- "id": 83308,
- "node": [
-  {
-   "id": 83308,
-   "name": "Bad Education (Season 2)",
-   "nameCN": "不良教育 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/19/e9/83308_eX2w8.jpg",
-   "date": "2013-09-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 83320,
-   "name": "Bad Education (Season 1)",
-   "nameCN": "不良教育 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/86/83320_0QJ2O.jpg",
-   "date": "2012-08-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 114480,
-   "name": "Bad Education (Season 3)",
-   "nameCN": "不良教育 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/86/114480_iet55.jpg",
-   "date": "2014-09-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 83308,
-   "dst": 83320
-  },
-  {
-   "relate": "续集",
-   "src": 83308,
-   "dst": 114480
-  },
-  {
-   "relate": "续集",
-   "src": 83320,
-   "dst": 83308
-  },
-  {
-   "relate": "前传",
-   "src": 114480,
-   "dst": 83308
-  }
- ]
+  "id": "83308",
+  "node": [
+    {
+      "id": 83308,
+      "name": "Bad Education (Season 2)",
+      "nameCN": "不良教育 第二季",
+      "date": "2013-09-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 83320,
+      "name": "Bad Education (Season 1)",
+      "nameCN": "不良教育 第一季",
+      "date": "2012-08-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 114480,
+      "name": "Bad Education (Season 3)",
+      "nameCN": "不良教育 第三季",
+      "date": "2014-09-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 83308,
+      "dst": 83320
+    },
+    {
+      "relateString": "续集",
+      "src": 83308,
+      "dst": 114480
+    },
+    {
+      "relateString": "续集",
+      "src": 83320,
+      "dst": 83308
+    },
+    {
+      "relateString": "前传",
+      "src": 114480,
+      "dst": 83308
+    }
+  ]
 }

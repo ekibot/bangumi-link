@@ -1,37 +1,35 @@
 {
- "id": 159885,
- "node": [
-  {
-   "id": 159885,
-   "name": "疯狂时代",
-   "nameCN": "疯狂时代",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/bf/159885_8qWXe.jpg",
-   "date": "2015-07-14",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 183748,
-   "name": "疯狂时代 第2季",
-   "nameCN": "疯狂时代 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/b3/183748_7a999.jpg",
-   "date": "2016-05-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 159885,
-   "dst": 183748
-  },
-  {
-   "relate": "前传",
-   "src": 183748,
-   "dst": 159885
-  }
- ]
+  "id": "159885",
+  "node": [
+    {
+      "id": 159885,
+      "name": "疯狂时代",
+      "nameCN": "疯狂时代",
+      "date": "2015-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 183748,
+      "name": "疯狂时代 第2季",
+      "nameCN": "疯狂时代 第二季",
+      "date": "2016-05-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 159885,
+      "dst": 183748
+    },
+    {
+      "relateString": "前传",
+      "src": 183748,
+      "dst": 159885
+    }
+  ]
 }

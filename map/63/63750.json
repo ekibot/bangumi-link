@@ -1,40 +1,44 @@
 {
- "id": 63750,
- "node": [
-  {
-   "id": 63750,
-   "name": "クライング フリーマン",
-   "nameCN": "哭泣杀神",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/97/63750_YG15h.jpg",
-   "date": "1988-11-25",
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 293703,
-   "name": "浪漫杀手自由人",
-   "nameCN": "浪漫殺手自由人",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/4c/293703_Ja6iz.jpg",
-   "type": 6
-  },
-  {
-   "id": 294240,
-   "name": "紅場飛龍",
-   "nameCN": "红场飞龙",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/c5/294240_z7GGU.jpg",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 63750,
-   "dst": 293703
-  },
-  {
-   "relate": "不同演绎",
-   "src": 63750,
-   "dst": 294240
-  }
- ]
+  "id": "63750",
+  "node": [
+    {
+      "id": 63750,
+      "name": "クライング フリーマン",
+      "nameCN": "哭泣杀神",
+      "date": "1988-11-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 293703,
+      "name": "浪漫杀手自由人",
+      "nameCN": "浪漫殺手自由人",
+      "date": "1990-05-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 294240,
+      "name": "紅場飛龍",
+      "nameCN": "红场飞龙",
+      "date": "1990-08-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 63750,
+      "dst": 293703
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 63750,
+      "dst": 294240
+    }
+  ]
 }

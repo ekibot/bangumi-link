@@ -1,37 +1,34 @@
 {
- "id": 158892,
- "node": [
-  {
-   "id": 158892,
-   "name": "マツイ日記は知っている!",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 158896,
-   "name": "マツイ日記は知っている! MAJOR",
-   "date": "2003-06-17",
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158892,
-   "dst": 158896
-  },
-  {
-   "relate": "前传",
-   "src": 158896,
-   "dst": 158892
-  }
- ]
+  "id": "158892",
+  "node": [
+    {
+      "id": 158892,
+      "name": "マツイ日記は知っている!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 158896,
+      "name": "マツイ日記は知っている! MAJOR",
+      "nameCN": "",
+      "date": "2003-06-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158892,
+      "dst": 158896
+    },
+    {
+      "relateString": "前传",
+      "src": 158896,
+      "dst": 158892
+    }
+  ]
 }

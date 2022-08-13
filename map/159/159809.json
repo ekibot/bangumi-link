@@ -1,37 +1,34 @@
 {
- "id": 159809,
- "node": [
-  {
-   "id": 159809,
-   "name": "Assassin's Creed",
-   "nameCN": "刺客信条",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/7f/159809_6Jd7a.jpg",
-   "date": "2016-12-21",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 211854,
-   "name": "Assassin's Creed",
-   "nameCN": "刺客信条",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 159809,
-   "dst": 211854
-  },
-  {
-   "relate": "不同演绎",
-   "src": 211854,
-   "dst": 159809
-  }
- ]
+  "id": "159809",
+  "node": [
+    {
+      "id": 159809,
+      "name": "Assassin's Creed",
+      "nameCN": "刺客信条",
+      "date": "2016-12-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 211854,
+      "name": "Assassin's Creed",
+      "nameCN": "刺客信条",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 159809,
+      "dst": 211854
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 211854,
+      "dst": 159809
+    }
+  ]
 }

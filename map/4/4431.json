@@ -1,37 +1,34 @@
 {
- "id": 4431,
- "node": [
-  {
-   "id": 4431,
-   "name": "風雲 幕末伝",
-   "nameCN": "风云 幕末传",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/13/4431_7FN3f.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 327801,
-   "name": "風雲 新撰組",
-   "nameCN": "风云 新选组",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/cb/327801_dmsxM.jpg",
-   "date": "2004-01-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 4431,
-   "dst": 327801
-  },
-  {
-   "relate": "续集",
-   "src": 327801,
-   "dst": 4431
-  }
- ]
+  "id": "4431",
+  "node": [
+    {
+      "id": 4431,
+      "name": "風雲 幕末伝",
+      "nameCN": "风云 幕末传",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 327801,
+      "name": "風雲 新撰組",
+      "nameCN": "风云 新选组",
+      "date": "2004-01-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 4431,
+      "dst": 327801
+    },
+    {
+      "relateString": "续集",
+      "src": 327801,
+      "dst": 4431
+    }
+  ]
 }

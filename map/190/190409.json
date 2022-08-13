@@ -1,37 +1,35 @@
 {
- "id": 190409,
- "node": [
-  {
-   "id": 190409,
-   "name": "ガチイキ挑発ナイト",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/8e/190409_jp.jpg",
-   "date": "2016-06-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 287270,
-   "name": "ガチイキ挑発ナイト (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/4c/287270_fh44c.jpg",
-   "date": "2019-07-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 190409,
-   "dst": 287270
-  },
-  {
-   "relate": "前传",
-   "src": 287270,
-   "dst": 190409
-  }
- ]
+  "id": "190409",
+  "node": [
+    {
+      "id": 190409,
+      "name": "ガチイキ挑発ナイト",
+      "nameCN": "",
+      "date": "2016-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 287270,
+      "name": "ガチイキ挑発ナイト (2)",
+      "nameCN": "",
+      "date": "2019-07-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 190409,
+      "dst": 287270
+    },
+    {
+      "relateString": "前传",
+      "src": 287270,
+      "dst": 190409
+    }
+  ]
 }

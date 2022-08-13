@@ -1,37 +1,35 @@
 {
- "id": 45801,
- "node": [
-  {
-   "id": 45801,
-   "name": "三国之赤壁",
-   "nameCN": "赤壁",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/58/45801_d5Wdp.jpg",
-   "date": "1997-08-06",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 322989,
-   "name": "官渡",
-   "nameCN": "官渡",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/42/322989_yv2lU.jpg",
-   "date": "1996-05-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 45801,
-   "dst": 322989
-  },
-  {
-   "relate": "相同世界观",
-   "src": 322989,
-   "dst": 45801
-  }
- ]
+  "id": "45801",
+  "node": [
+    {
+      "id": 45801,
+      "name": "三国之赤壁",
+      "nameCN": "赤壁",
+      "date": "1997-08-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 322989,
+      "name": "官渡",
+      "nameCN": "官渡",
+      "date": "1996-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 45801,
+      "dst": 322989
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 322989,
+      "dst": 45801
+    }
+  ]
 }

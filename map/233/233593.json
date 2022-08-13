@@ -1,137 +1,130 @@
 {
- "id": 233593,
- "node": [
-  {
-   "id": 233593,
-   "name": "非人哉",
-   "nameCN": "非人哉",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/b5/233593_r0O3D.jpg",
-   "date": "2018-03-29",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 298070,
-   "name": "非人哉 Part.3",
-   "nameCN": "非人哉 第三部分",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/b6/298070_3j9hQ.jpg",
-   "date": "2020-01-08",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 308545,
-   "name": "非人哉 Part.4",
-   "nameCN": "非人哉 第四部分",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/fd/308545_i0G71.jpg",
-   "date": "2020-06-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 312629,
-   "name": "非人哉 Part.2",
-   "nameCN": "非人哉 第二部分",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/76/312629_IRXLs.jpg",
-   "date": "2018-07-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 328512,
-   "name": "非人哉 Part.5",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/bd/328512_C0BVj.jpg",
-   "date": "2021-02-10",
-   "nameCN": "非人哉 第五部分",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 341360,
-   "name": "非人哉 Part.6",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/90/341360_VnQZB.jpg",
-   "date": "2021-07-21",
-   "nameCN": "非人哉 第六部分",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 393947,
-   "name": "非人哉 第2季",
-   "nameCN": "非人哉 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/1f/393947_ffWGn.jpg",
-   "type": 2,
-   "date": "2022-08-10",
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233593,
-   "dst": 312629
-  },
-  {
-   "relate": "续集",
-   "src": 298070,
-   "dst": 308545
-  },
-  {
-   "relate": "前传",
-   "src": 298070,
-   "dst": 312629
-  },
-  {
-   "relate": "前传",
-   "src": 308545,
-   "dst": 298070
-  },
-  {
-   "relate": "续集",
-   "src": 308545,
-   "dst": 328512
-  },
-  {
-   "relate": "前传",
-   "src": 312629,
-   "dst": 233593
-  },
-  {
-   "relate": "续集",
-   "src": 312629,
-   "dst": 298070
-  },
-  {
-   "relate": "前传",
-   "src": 328512,
-   "dst": 308545
-  },
-  {
-   "relate": "续集",
-   "src": 328512,
-   "dst": 341360
-  },
-  {
-   "relate": "前传",
-   "src": 341360,
-   "dst": 328512
-  },
-  {
-   "relate": "续集",
-   "src": 341360,
-   "dst": 393947
-  },
-  {
-   "relate": "前传",
-   "src": 393947,
-   "dst": 341360
-  }
- ]
+  "id": "233593",
+  "node": [
+    {
+      "id": 233593,
+      "name": "非人哉",
+      "nameCN": "非人哉",
+      "date": "2018-03-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 312629,
+      "name": "非人哉 Part.2",
+      "nameCN": "非人哉 第二部分",
+      "date": "2018-07-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 298070,
+      "name": "非人哉 Part.3",
+      "nameCN": "非人哉 第三部分",
+      "date": "2020-01-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 308545,
+      "name": "非人哉 Part.4",
+      "nameCN": "非人哉 第四部分",
+      "date": "2020-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 328512,
+      "name": "非人哉 Part.5",
+      "nameCN": "非人哉 第五部分",
+      "date": "2021-02-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 341360,
+      "name": "非人哉 Part.6",
+      "nameCN": "非人哉 第六部分",
+      "date": "2021-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 393947,
+      "name": "非人哉 第2季",
+      "nameCN": "非人哉 第二季",
+      "date": "2022-08-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233593,
+      "dst": 312629
+    },
+    {
+      "relateString": "续集",
+      "src": 298070,
+      "dst": 308545
+    },
+    {
+      "relateString": "前传",
+      "src": 298070,
+      "dst": 312629
+    },
+    {
+      "relateString": "前传",
+      "src": 308545,
+      "dst": 298070
+    },
+    {
+      "relateString": "续集",
+      "src": 308545,
+      "dst": 328512
+    },
+    {
+      "relateString": "前传",
+      "src": 312629,
+      "dst": 233593
+    },
+    {
+      "relateString": "续集",
+      "src": 312629,
+      "dst": 298070
+    },
+    {
+      "relateString": "前传",
+      "src": 328512,
+      "dst": 308545
+    },
+    {
+      "relateString": "续集",
+      "src": 328512,
+      "dst": 341360
+    },
+    {
+      "relateString": "前传",
+      "src": 341360,
+      "dst": 328512
+    },
+    {
+      "relateString": "续集",
+      "src": 341360,
+      "dst": 393947
+    },
+    {
+      "relateString": "前传",
+      "src": 393947,
+      "dst": 341360
+    }
+  ]
 }

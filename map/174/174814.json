@@ -1,37 +1,35 @@
 {
- "id": 174814,
- "node": [
-  {
-   "id": 174814,
-   "name": "幻想郷 Tower Defense",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/ea/174814_xnkrr.jpg",
-   "date": "2009-12-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 174851,
-   "name": "幻想郷 Tower Defense 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/b3/174851_wW1OZ.jpg",
-   "date": "2011-12-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 174814,
-   "dst": 174851
-  },
-  {
-   "relate": "前传",
-   "src": 174851,
-   "dst": 174814
-  }
- ]
+  "id": "174814",
+  "node": [
+    {
+      "id": 174814,
+      "name": "幻想郷 Tower Defense",
+      "nameCN": "",
+      "date": "2009-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 174851,
+      "name": "幻想郷 Tower Defense 2",
+      "nameCN": "",
+      "date": "2011-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 174814,
+      "dst": 174851
+    },
+    {
+      "relateString": "前传",
+      "src": 174851,
+      "dst": 174814
+    }
+  ]
 }

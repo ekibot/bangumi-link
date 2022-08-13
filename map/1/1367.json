@@ -1,37 +1,35 @@
 {
- "id": 1367,
- "node": [
-  {
-   "id": 1367,
-   "name": "BLOODY MONDAY",
-   "nameCN": "血色星期一",
-   "image": "https://lain.bgm.tv/pic/cover/m/a2/23/1367_v8WHp.jpg",
-   "date": "2008-10-11",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 3528,
-   "name": "BLOODY MONDAY 2",
-   "nameCN": "BLOODY MONDAY 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/d8/3528_nCXCA.jpg",
-   "date": "2010-01-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1367,
-   "dst": 3528
-  },
-  {
-   "relate": "前传",
-   "src": 3528,
-   "dst": 1367
-  }
- ]
+  "id": "1367",
+  "node": [
+    {
+      "id": 1367,
+      "name": "BLOODY MONDAY",
+      "nameCN": "血色星期一",
+      "date": "2008-10-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 3528,
+      "name": "BLOODY MONDAY 2",
+      "nameCN": "BLOODY MONDAY 2",
+      "date": "2010-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1367,
+      "dst": 3528
+    },
+    {
+      "relateString": "前传",
+      "src": 3528,
+      "dst": 1367
+    }
+  ]
 }

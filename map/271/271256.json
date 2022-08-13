@@ -1,77 +1,73 @@
 {
- "id": 271256,
- "node": [
-  {
-   "id": 271256,
-   "name": "灵剑尊",
-   "nameCN": "灵剑尊",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/c6/271256_zR2r0.jpg",
-   "date": "2019-01-15",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 282740,
-   "name": "灵剑尊 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/25/282740_AzF03.jpg",
-   "date": "2019-05-28",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 296258,
-   "name": "灵剑尊 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/73/2c/296258_KhbKw.jpg",
-   "date": "2019-12-24",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 308948,
-   "name": "灵剑尊 第四季",
-   "nameCN": "灵剑尊 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/9d/308948_oeFFI.jpg",
-   "date": "2020-09-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 271256,
-   "dst": 282740
-  },
-  {
-   "relate": "前传",
-   "src": 282740,
-   "dst": 271256
-  },
-  {
-   "relate": "续集",
-   "src": 282740,
-   "dst": 296258
-  },
-  {
-   "relate": "前传",
-   "src": 296258,
-   "dst": 282740
-  },
-  {
-   "relate": "续集",
-   "src": 296258,
-   "dst": 308948
-  },
-  {
-   "relate": "前传",
-   "src": 308948,
-   "dst": 296258
-  }
- ]
+  "id": "271256",
+  "node": [
+    {
+      "id": 271256,
+      "name": "灵剑尊",
+      "nameCN": "灵剑尊",
+      "date": "2019-01-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 282740,
+      "name": "灵剑尊 第二季",
+      "nameCN": "",
+      "date": "2019-05-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 296258,
+      "name": "灵剑尊 第三季",
+      "nameCN": "",
+      "date": "2019-12-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 308948,
+      "name": "灵剑尊 第四季",
+      "nameCN": "灵剑尊 第四季",
+      "date": "2020-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 271256,
+      "dst": 282740
+    },
+    {
+      "relateString": "前传",
+      "src": 282740,
+      "dst": 271256
+    },
+    {
+      "relateString": "续集",
+      "src": 282740,
+      "dst": 296258
+    },
+    {
+      "relateString": "前传",
+      "src": 296258,
+      "dst": 282740
+    },
+    {
+      "relateString": "续集",
+      "src": 296258,
+      "dst": 308948
+    },
+    {
+      "relateString": "前传",
+      "src": 308948,
+      "dst": 296258
+    }
+  ]
 }

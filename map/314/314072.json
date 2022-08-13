@@ -1,37 +1,33 @@
 {
- "id": 314072,
- "node": [
-  {
-   "id": 314072,
-   "name": "打工英雄傳",
-   "nameCN": "打工英雄傳",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/11/314072_DdTH1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 314073,
-   "name": "打工英雄傳 2",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314072,
-   "dst": 314073
-  },
-  {
-   "relate": "前传",
-   "src": 314073,
-   "dst": 314072
-  }
- ]
+  "id": "314072",
+  "node": [
+    {
+      "id": 314072,
+      "name": "打工英雄傳",
+      "nameCN": "打工英雄傳",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314073,
+      "name": "打工英雄傳 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314072,
+      "dst": 314073
+    },
+    {
+      "relateString": "前传",
+      "src": 314073,
+      "dst": 314072
+    }
+  ]
 }

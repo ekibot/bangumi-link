@@ -1,37 +1,33 @@
 {
- "id": 33384,
- "node": [
-  {
-   "id": 33384,
-   "name": "SCHOOLMATE",
-   "nameCN": "同校生",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/9b/33384_NZQjf.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 76208,
-   "name": "SCHOOLMATE Kiss",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/80/76208_M0lG0.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 33384,
-   "dst": 76208
-  },
-  {
-   "relate": "前传",
-   "src": 76208,
-   "dst": 33384
-  }
- ]
+  "id": "33384",
+  "node": [
+    {
+      "id": 33384,
+      "name": "SCHOOLMATE",
+      "nameCN": "同校生",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 76208,
+      "name": "SCHOOLMATE Kiss",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 33384,
+      "dst": 76208
+    },
+    {
+      "relateString": "前传",
+      "src": 76208,
+      "dst": 33384
+    }
+  ]
 }

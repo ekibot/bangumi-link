@@ -1,37 +1,35 @@
 {
- "id": 318611,
- "node": [
-  {
-   "id": 318611,
-   "name": "杖と剣のウィストリア",
-   "nameCN": "杖与剑的魔剑谭",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/8e/318611_g5OSz.jpg",
-   "date": "2021-04-09",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 336976,
-   "name": "杖と剣の約束",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/65/336976_7zcW0.jpg",
-   "date": "2020-12-09",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 318611,
-   "dst": 336976
-  },
-  {
-   "relate": "续集",
-   "src": 336976,
-   "dst": 318611
-  }
- ]
+  "id": "318611",
+  "node": [
+    {
+      "id": 318611,
+      "name": "杖と剣のウィストリア",
+      "nameCN": "杖与剑的魔剑谭",
+      "date": "2021-04-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 336976,
+      "name": "杖と剣の約束",
+      "nameCN": "",
+      "date": "2020-12-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 318611,
+      "dst": 336976
+    },
+    {
+      "relateString": "续集",
+      "src": 336976,
+      "dst": 318611
+    }
+  ]
 }

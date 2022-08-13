@@ -1,57 +1,53 @@
 {
- "id": 120002,
- "node": [
-  {
-   "id": 120002,
-   "name": "呪巣 -怨ノ章-",
-   "nameCN": "怨宅 -怨之章-",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/e8/120002_RcsUY.jpg",
-   "date": "2014-08-05",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 219881,
-   "name": "呪巣 -零ノ章-",
-   "nameCN": "怨宅 -零之章-",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/22/219881_6AM6s.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 219882,
-   "name": "呪巣 -起ノ章-",
-   "nameCN": "怨宅 -起之章-",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/a4/219882_A4YAf.jpg",
-   "date": "2016-08-05",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 120002,
-   "dst": 219881
-  },
-  {
-   "relate": "前传",
-   "src": 219881,
-   "dst": 120002
-  },
-  {
-   "relate": "续集",
-   "src": 219881,
-   "dst": 219882
-  },
-  {
-   "relate": "前传",
-   "src": 219882,
-   "dst": 219881
-  }
- ]
+  "id": "120002",
+  "node": [
+    {
+      "id": 120002,
+      "name": "呪巣 -怨ノ章-",
+      "nameCN": "怨宅 -怨之章-",
+      "date": "2014-08-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219881,
+      "name": "呪巣 -零ノ章-",
+      "nameCN": "怨宅 -零之章-",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 219882,
+      "name": "呪巣 -起ノ章-",
+      "nameCN": "怨宅 -起之章-",
+      "date": "2016-08-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 120002,
+      "dst": 219881
+    },
+    {
+      "relateString": "前传",
+      "src": 219881,
+      "dst": 120002
+    },
+    {
+      "relateString": "续集",
+      "src": 219881,
+      "dst": 219882
+    },
+    {
+      "relateString": "前传",
+      "src": 219882,
+      "dst": 219881
+    }
+  ]
 }

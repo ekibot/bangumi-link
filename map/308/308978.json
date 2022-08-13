@@ -1,97 +1,87 @@
 {
- "id": 308978,
- "node": [
-  {
-   "id": 308978,
-   "name": "로보트 태권브이",
-   "nameCN": "机器人跆拳V",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/3e/308978_c9kuS.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 310520,
-   "name": "로보트 태권V 제2탄 - 우주작전",
-   "nameCN": "机器人跆拳V：宇宙大战",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/b7/310520_7odXu.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 310522,
-   "name": "로보트 태권V와 황금날개의 대결",
-   "nameCN": "机器人跆拳V与黄金之翼123",
-   "image": "https://lain.bgm.tv/pic/cover/m/c8/e0/310522_UicBg.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 310523,
-   "name": "로보트 태권브이 제3탄 - 수중 특공대",
-   "nameCN": "机器人跆拳V：水下突击队",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/37/310523_7Q52n.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 310524,
-   "name": "황금날개 1.2.3.",
-   "nameCN": "黄金之翼1.2.3",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/53/310524_0wQB7.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 308978,
-   "dst": 310520
-  },
-  {
-   "relate": "衍生",
-   "src": 308978,
-   "dst": 310522
-  },
-  {
-   "relate": "前传",
-   "src": 310520,
-   "dst": 308978
-  },
-  {
-   "relate": "续集",
-   "src": 310520,
-   "dst": 310523
-  },
-  {
-   "relate": "主线故事",
-   "src": 310522,
-   "dst": 308978
-  },
-  {
-   "relate": "主线故事",
-   "src": 310522,
-   "dst": 310524
-  },
-  {
-   "relate": "前传",
-   "src": 310523,
-   "dst": 310520
-  },
-  {
-   "relate": "衍生",
-   "src": 310524,
-   "dst": 310522
-  }
- ]
+  "id": "308978",
+  "node": [
+    {
+      "id": 308978,
+      "name": "로보트 태권브이",
+      "nameCN": "机器人跆拳V",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 310520,
+      "name": "로보트 태권V 제2탄 - 우주작전",
+      "nameCN": "机器人跆拳V：宇宙大战",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 310522,
+      "name": "로보트 태권V와 황금날개의 대결",
+      "nameCN": "机器人跆拳V与黄金之翼123",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 310523,
+      "name": "로보트 태권브이 제3탄 - 수중 특공대",
+      "nameCN": "机器人跆拳V：水下突击队",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 310524,
+      "name": "황금날개 1.2.3.",
+      "nameCN": "黄金之翼1.2.3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 308978,
+      "dst": 310520
+    },
+    {
+      "relateString": "衍生",
+      "src": 308978,
+      "dst": 310522
+    },
+    {
+      "relateString": "前传",
+      "src": 310520,
+      "dst": 308978
+    },
+    {
+      "relateString": "续集",
+      "src": 310520,
+      "dst": 310523
+    },
+    {
+      "relateString": "主线故事",
+      "src": 310522,
+      "dst": 308978
+    },
+    {
+      "relateString": "主线故事",
+      "src": 310522,
+      "dst": 310524
+    },
+    {
+      "relateString": "前传",
+      "src": 310523,
+      "dst": 310520
+    },
+    {
+      "relateString": "衍生",
+      "src": 310524,
+      "dst": 310522
+    }
+  ]
 }

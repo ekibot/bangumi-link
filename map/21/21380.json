@@ -1,117 +1,109 @@
 {
- "id": 21380,
- "node": [
-  {
-   "id": 21380,
-   "name": "Armed Assault 2",
-   "nameCN": "武装突袭2",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/86/21380_7a7E1.jpg",
-   "date": "2009-06-23",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 84693,
-   "name": "ArmA III",
-   "nameCN": "武装突袭3",
-   "image": "https://lain.bgm.tv/pic/cover/m/c5/52/84693_j8jZx.jpg",
-   "date": "2013-09-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 101917,
-   "name": "DayZ",
-   "nameCN": "DayZ 独立版",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/3f/101917_FgC7E.jpg",
-   "date": "2013-12-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 104935,
-   "name": "DayZ Mod",
-   "nameCN": "DayZ 模组",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/40/104935_CeCzf.jpg",
-   "date": "2012-01-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 383227,
-   "name": "ArmA IV",
-   "nameCN": "武装突袭4",
-   "image": "",
-   "type": 4,
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 383228,
-   "name": "ArmA Reforger",
-   "nameCN": "武装突袭 Reforger",
-   "image": "",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 21380,
-   "dst": 84693
-  },
-  {
-   "relate": "不同演绎",
-   "src": 21380,
-   "dst": 104935
-  },
-  {
-   "relate": "前传",
-   "src": 84693,
-   "dst": 21380
-  },
-  {
-   "relate": "续集",
-   "src": 84693,
-   "dst": 383227
-  },
-  {
-   "relate": "不同演绎",
-   "src": 101917,
-   "dst": 104935
-  },
-  {
-   "relate": "不同演绎",
-   "src": 104935,
-   "dst": 21380
-  },
-  {
-   "relate": "不同演绎",
-   "src": 104935,
-   "dst": 101917
-  },
-  {
-   "relate": "前传",
-   "src": 383227,
-   "dst": 84693
-  },
-  {
-   "relate": "相同世界观",
-   "src": 383227,
-   "dst": 383228
-  },
-  {
-   "relate": "相同世界观",
-   "src": 383228,
-   "dst": 383227
-  }
- ]
+  "id": "21380",
+  "node": [
+    {
+      "id": 21380,
+      "name": "Armed Assault 2",
+      "nameCN": "武装突袭2",
+      "date": "2009-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84693,
+      "name": "ArmA III",
+      "nameCN": "武装突袭3",
+      "date": "2013-09-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 104935,
+      "name": "DayZ Mod",
+      "nameCN": "DayZ 模组",
+      "date": "2012-01-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 383227,
+      "name": "ArmA IV",
+      "nameCN": "武装突袭4",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 101917,
+      "name": "DayZ",
+      "nameCN": "DayZ 独立版",
+      "date": "2013-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 383228,
+      "name": "ArmA Reforger",
+      "nameCN": "武装突袭 Reforger",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 21380,
+      "dst": 84693
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 21380,
+      "dst": 104935
+    },
+    {
+      "relateString": "前传",
+      "src": 84693,
+      "dst": 21380
+    },
+    {
+      "relateString": "续集",
+      "src": 84693,
+      "dst": 383227
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 101917,
+      "dst": 104935
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 104935,
+      "dst": 21380
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 104935,
+      "dst": 101917
+    },
+    {
+      "relateString": "前传",
+      "src": 383227,
+      "dst": 84693
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 383227,
+      "dst": 383228
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 383228,
+      "dst": 383227
+    }
+  ]
 }

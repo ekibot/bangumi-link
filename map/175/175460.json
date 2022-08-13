@@ -1,0 +1,54 @@
+{
+  "id": "175460",
+  "node": [
+    {
+      "id": 175460,
+      "name": "灵契",
+      "nameCN": "灵契",
+      "date": "2016-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 207451,
+      "name": "スピリットパクト",
+      "nameCN": "灵契",
+      "date": "2017-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 233615,
+      "name": "スピリットパクト -黄泉の契り-",
+      "nameCN": "灵契·黄泉之契",
+      "date": "2018-02-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 175460,
+      "dst": 207451
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 207451,
+      "dst": 175460
+    },
+    {
+      "relateString": "续集",
+      "src": 207451,
+      "dst": 233615
+    },
+    {
+      "relateString": "前传",
+      "src": 233615,
+      "dst": 207451
+    }
+  ]
+}

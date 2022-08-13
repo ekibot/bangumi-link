@@ -1,57 +1,53 @@
 {
- "id": 127135,
- "node": [
-  {
-   "id": 127135,
-   "name": "Summerラディッシュバケーション!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/2b/127135_4dvX8.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 132674,
-   "name": "Snow ラディッシュ バケーション!!",
-   "nameCN": "Snow 小萝卜 假日！！",
-   "image": "https://lain.bgm.tv/pic/cover/m/32/60/132674_4OV89.jpg",
-   "date": "2001-12-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 166048,
-   "name": "Summer ラディッシュ バケーション！！2",
-   "nameCN": "Summer小萝卜假日！！二",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/e8/166048_ukieW.jpg",
-   "date": "2004-08-13",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 127135,
-   "dst": 132674
-  },
-  {
-   "relate": "续集",
-   "src": 127135,
-   "dst": 166048
-  },
-  {
-   "relate": "续集",
-   "src": 132674,
-   "dst": 127135
-  },
-  {
-   "relate": "前传",
-   "src": 166048,
-   "dst": 127135
-  }
- ]
+  "id": "127135",
+  "node": [
+    {
+      "id": 127135,
+      "name": "Summerラディッシュバケーション!!",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 132674,
+      "name": "Snow ラディッシュ バケーション!!",
+      "nameCN": "Snow 小萝卜 假日！！",
+      "date": "2001-12-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 166048,
+      "name": "Summer ラディッシュ バケーション！！2",
+      "nameCN": "Summer小萝卜假日！！二",
+      "date": "2004-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 127135,
+      "dst": 132674
+    },
+    {
+      "relateString": "续集",
+      "src": 127135,
+      "dst": 166048
+    },
+    {
+      "relateString": "续集",
+      "src": 132674,
+      "dst": 127135
+    },
+    {
+      "relateString": "前传",
+      "src": 166048,
+      "dst": 127135
+    }
+  ]
 }

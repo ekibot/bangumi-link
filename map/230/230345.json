@@ -1,37 +1,35 @@
 {
- "id": 230345,
- "node": [
-  {
-   "id": 230345,
-   "name": "狂想の肉宴",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/33/230345_HW87a.jpg",
-   "date": "2002-04-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 230350,
-   "name": "狂想の肉宴 弐",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/f3/230350_nSnnk.jpg",
-   "date": "2003-04-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 230345,
-   "dst": 230350
-  },
-  {
-   "relate": "前传",
-   "src": 230350,
-   "dst": 230345
-  }
- ]
+  "id": "230345",
+  "node": [
+    {
+      "id": 230345,
+      "name": "狂想の肉宴",
+      "nameCN": "",
+      "date": "2002-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 230350,
+      "name": "狂想の肉宴 弐",
+      "nameCN": "",
+      "date": "2003-04-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 230345,
+      "dst": 230350
+    },
+    {
+      "relateString": "前传",
+      "src": 230350,
+      "dst": 230345
+    }
+  ]
 }

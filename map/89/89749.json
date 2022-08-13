@@ -1,37 +1,35 @@
 {
- "id": 89749,
- "node": [
-  {
-   "id": 89749,
-   "name": "Hollywood Game Night (Season 1)",
-   "nameCN": "好莱坞游戏之夜（第一季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/cd/89749_z9Aqg.jpg",
-   "date": "2013-07-11",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 89750,
-   "name": "Hollywood Game Night (Season 2)",
-   "nameCN": "好莱坞游戏之夜（第二季）",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/ce/89750_HaC4h.jpg",
-   "date": "2013-12-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 89749,
-   "dst": 89750
-  },
-  {
-   "relate": "前传",
-   "src": 89750,
-   "dst": 89749
-  }
- ]
+  "id": "89749",
+  "node": [
+    {
+      "id": 89749,
+      "name": "Hollywood Game Night (Season 1)",
+      "nameCN": "好莱坞游戏之夜（第一季）",
+      "date": "2013-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 89750,
+      "name": "Hollywood Game Night (Season 2)",
+      "nameCN": "好莱坞游戏之夜（第二季）",
+      "date": "2013-12-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 89749,
+      "dst": 89750
+    },
+    {
+      "relateString": "前传",
+      "src": 89750,
+      "dst": 89749
+    }
+  ]
 }

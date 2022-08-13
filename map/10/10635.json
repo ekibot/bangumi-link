@@ -1,137 +1,130 @@
 {
- "id": 10635,
- "node": [
-  {
-   "id": 10635,
-   "name": "同級生2",
-   "nameCN": "同级生2",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/4c/10635_XH5Zh.jpg",
-   "date": "1995-01-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 20346,
-   "name": "同級生",
-   "nameCN": "同级生",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/8d/20346_7xz31.jpg",
-   "type": 4,
-   "date": "1992-12-17",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 67144,
-   "name": "下級生",
-   "nameCN": "下级生",
-   "image": "https://lain.bgm.tv/pic/cover/m/29/1b/67144_X0vcf.jpg",
-   "date": "1996-06-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 67148,
-   "name": "下級生2",
-   "nameCN": "下级生2",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/e4/67148_21Tq1.jpg",
-   "date": "2004-08-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 209317,
-   "name": "同級生～Another World～",
-   "nameCN": "同级生AW",
-   "image": "https://lain.bgm.tv/pic/cover/m/aa/b7/209317_gvmR1.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 317476,
-   "name": "同級生リメイク",
-   "nameCN": "同级生 重制版",
-   "image": "https://lain.bgm.tv/pic/cover/m/10/18/317476_k38hn.jpg",
-   "type": 4,
-   "date": "2021-02-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 10635,
-   "dst": 20346
-  },
-  {
-   "relate": "不同世界观",
-   "src": 10635,
-   "dst": 209317
-  },
-  {
-   "relate": "续集",
-   "src": 20346,
-   "dst": 10635
-  },
-  {
-   "relate": "不同世界观",
-   "src": 20346,
-   "dst": 209317
-  },
-  {
-   "relate": "不同演绎",
-   "src": 20346,
-   "dst": 317476
-  },
-  {
-   "relate": "相同世界观",
-   "src": 67144,
-   "dst": 67148
-  },
-  {
-   "relate": "不同世界观",
-   "src": 67144,
-   "dst": 209317
-  },
-  {
-   "relate": "相同世界观",
-   "src": 67148,
-   "dst": 67144
-  },
-  {
-   "relate": "不同世界观",
-   "src": 67148,
-   "dst": 209317
-  },
-  {
-   "relate": "不同世界观",
-   "src": 209317,
-   "dst": 10635
-  },
-  {
-   "relate": "不同世界观",
-   "src": 209317,
-   "dst": 20346
-  },
-  {
-   "relate": "不同世界观",
-   "src": 209317,
-   "dst": 67144
-  },
-  {
-   "relate": "不同世界观",
-   "src": 209317,
-   "dst": 67148
-  },
-  {
-   "relate": "不同演绎",
-   "src": 317476,
-   "dst": 20346
-  }
- ]
+  "id": "10635",
+  "node": [
+    {
+      "id": 10635,
+      "name": "同級生2",
+      "nameCN": "同级生2",
+      "date": "1995-01-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20346,
+      "name": "同級生",
+      "nameCN": "同级生",
+      "date": "1992-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 209317,
+      "name": "同級生～Another World～",
+      "nameCN": "同级生AW",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317476,
+      "name": "同級生リメイク",
+      "nameCN": "同级生 重制版",
+      "date": "2021-02-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 67144,
+      "name": "下級生",
+      "nameCN": "下级生",
+      "date": "1996-06-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 67148,
+      "name": "下級生2",
+      "nameCN": "下级生2",
+      "date": "2004-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 10635,
+      "dst": 20346
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 10635,
+      "dst": 209317
+    },
+    {
+      "relateString": "续集",
+      "src": 20346,
+      "dst": 10635
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 20346,
+      "dst": 209317
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 20346,
+      "dst": 317476
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 67144,
+      "dst": 67148
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 67144,
+      "dst": 209317
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 67148,
+      "dst": 67144
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 67148,
+      "dst": 209317
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 209317,
+      "dst": 10635
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 209317,
+      "dst": 20346
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 209317,
+      "dst": 67144
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 209317,
+      "dst": 67148
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 317476,
+      "dst": 20346
+    }
+  ]
 }

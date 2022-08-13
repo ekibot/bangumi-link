@@ -1,37 +1,35 @@
 {
- "id": 278964,
- "node": [
-  {
-   "id": 278964,
-   "name": "ペット リマスター・エディション",
-   "nameCN": "pet 完全重制版",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/ed/278964_zzCF3.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 303047,
-   "name": "fish -フィッシュ-",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/04/303047_54mX3.jpg",
-   "date": "2022-02-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 278964,
-   "dst": 303047
-  },
-  {
-   "relate": "前传",
-   "src": 303047,
-   "dst": 278964
-  }
- ]
+  "id": "278964",
+  "node": [
+    {
+      "id": 278964,
+      "name": "ペット リマスター・エディション",
+      "nameCN": "pet 完全重制版",
+      "date": "2002-07-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 303047,
+      "name": "fish -フィッシュ-",
+      "nameCN": "",
+      "date": "2022-02-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 278964,
+      "dst": 303047
+    },
+    {
+      "relateString": "前传",
+      "src": 303047,
+      "dst": 278964
+    }
+  ]
 }

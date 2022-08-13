@@ -1,57 +1,54 @@
 {
- "id": 120301,
- "node": [
-  {
-   "id": 120301,
-   "name": "盗墓笔记 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/a5/120301_WKX77.jpg",
-   "date": "2015-06-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 189417,
-   "name": "盗墓笔记",
-   "nameCN": "盗墓笔记",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/44/189417_4i9pg.jpg",
-   "date": "2016-08-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 334692,
-   "name": "怒海潜沙&amp;秦岭神树",
-   "nameCN": "盗墓笔记之怒海潜沙&amp;秦岭神树",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/b1/334692_8RQ2K.jpg",
-   "date": "2019-06-06",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 120301,
-   "dst": 189417
-  },
-  {
-   "relate": "续集",
-   "src": 120301,
-   "dst": 334692
-  },
-  {
-   "relate": "不同演绎",
-   "src": 189417,
-   "dst": 120301
-  },
-  {
-   "relate": "前传",
-   "src": 334692,
-   "dst": 120301
-  }
- ]
+  "id": "120301",
+  "node": [
+    {
+      "id": 120301,
+      "name": "盗墓笔记 第一季",
+      "nameCN": "",
+      "date": "2015-06-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 189417,
+      "name": "盗墓笔记",
+      "nameCN": "盗墓笔记",
+      "date": "2016-08-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 334692,
+      "name": "怒海潜沙&amp;秦岭神树",
+      "nameCN": "盗墓笔记之怒海潜沙&amp;秦岭神树",
+      "date": "2019-06-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 120301,
+      "dst": 189417
+    },
+    {
+      "relateString": "续集",
+      "src": 120301,
+      "dst": 334692
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 189417,
+      "dst": 120301
+    },
+    {
+      "relateString": "前传",
+      "src": 334692,
+      "dst": 120301
+    }
+  ]
 }

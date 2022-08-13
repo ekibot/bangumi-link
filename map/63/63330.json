@@ -1,57 +1,54 @@
 {
- "id": 63330,
- "node": [
-  {
-   "id": 63330,
-   "name": "巴啦啦小魔仙大电影",
-   "nameCN": "巴啦啦小魔仙大电影",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/88/63330_k6e8o.jpg",
-   "date": "2013-01-31",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 95180,
-   "name": "巴啦啦小魔仙之魔法的考验",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/26/94972_lUQBu.jpg",
-   "date": "2014-01-23",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 142166,
-   "name": "巴啦啦小魔仙之魔箭公主",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/82/142166_V95l0.jpg",
-   "date": "2015-10-01",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 63330,
-   "dst": 95180
-  },
-  {
-   "relate": "前传",
-   "src": 95180,
-   "dst": 63330
-  },
-  {
-   "relate": "续集",
-   "src": 95180,
-   "dst": 142166
-  },
-  {
-   "relate": "前传",
-   "src": 142166,
-   "dst": 95180
-  }
- ]
+  "id": "63330",
+  "node": [
+    {
+      "id": 63330,
+      "name": "巴啦啦小魔仙大电影",
+      "nameCN": "巴啦啦小魔仙大电影",
+      "date": "2013-01-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 95180,
+      "name": "巴啦啦小魔仙之魔法的考验",
+      "nameCN": "",
+      "date": "2014-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 142166,
+      "name": "巴啦啦小魔仙之魔箭公主",
+      "nameCN": "",
+      "date": "2015-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 63330,
+      "dst": 95180
+    },
+    {
+      "relateString": "前传",
+      "src": 95180,
+      "dst": 63330
+    },
+    {
+      "relateString": "续集",
+      "src": 95180,
+      "dst": 142166
+    },
+    {
+      "relateString": "前传",
+      "src": 142166,
+      "dst": 95180
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 225980,
- "node": [
-  {
-   "id": 225980,
-   "name": "American Vandal",
-   "nameCN": "美国囧案",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/6b/225980_LKZ5N.jpg",
-   "date": "2017-09-15",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 260572,
-   "name": "American Vandal Season 2",
-   "nameCN": "美国高中破坏公物事件 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/a0/260572_8eqS8.jpg",
-   "date": "2018-09-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 225980,
-   "dst": 260572
-  },
-  {
-   "relate": "前传",
-   "src": 260572,
-   "dst": 225980
-  }
- ]
+  "id": "225980",
+  "node": [
+    {
+      "id": 225980,
+      "name": "American Vandal",
+      "nameCN": "美国囧案",
+      "date": "2017-09-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 260572,
+      "name": "American Vandal Season 2",
+      "nameCN": "美国高中破坏公物事件 第二季",
+      "date": "2018-09-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 225980,
+      "dst": 260572
+    },
+    {
+      "relateString": "前传",
+      "src": 260572,
+      "dst": 225980
+    }
+  ]
 }

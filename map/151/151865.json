@@ -1,37 +1,35 @@
 {
- "id": 151865,
- "node": [
-  {
-   "id": 151865,
-   "name": "赤と鉄スペシャル",
-   "image": "https://lain.bgm.tv/pic/cover/m/dc/90/151865_jp.jpg",
-   "date": "2013-02-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 151866,
-   "name": "赤と鉄",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/3c/151866_JR7n0.jpg",
-   "date": "2007-10-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 151865,
-   "dst": 151866
-  },
-  {
-   "relate": "番外篇",
-   "src": 151866,
-   "dst": 151865
-  }
- ]
+  "id": "151865",
+  "node": [
+    {
+      "id": 151865,
+      "name": "赤と鉄スペシャル",
+      "nameCN": "",
+      "date": "2013-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 151866,
+      "name": "赤と鉄",
+      "nameCN": "",
+      "date": "2007-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 151865,
+      "dst": 151866
+    },
+    {
+      "relateString": "番外篇",
+      "src": 151866,
+      "dst": 151865
+    }
+  ]
 }

@@ -1,51 +1,48 @@
 {
- "id": 43532,
- "node": [
-  {
-   "id": 43532,
-   "name": "Endless Space",
-   "nameCN": "无尽空间",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/cc/43532_4tJhm.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 203848,
-   "name": "Endless Space 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/6d/203848_jZDwd.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 326049,
-   "name": "Love Thyself - A Horatio Story",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/a1/326049_xxXVX.jpg",
-   "date": "2019-04-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 43532,
-   "dst": 203848
-  },
-  {
-   "relate": "前传",
-   "src": 203848,
-   "dst": 43532
-  },
-  {
-   "relate": "主线故事",
-   "src": 326049,
-   "dst": 203848
-  }
- ]
+  "id": "43532",
+  "node": [
+    {
+      "id": 43532,
+      "name": "Endless Space",
+      "nameCN": "无尽空间",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 203848,
+      "name": "Endless Space 2",
+      "nameCN": "",
+      "date": "2016-10-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 326049,
+      "name": "Love Thyself - A Horatio Story",
+      "nameCN": "",
+      "date": "2019-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 43532,
+      "dst": 203848
+    },
+    {
+      "relateString": "前传",
+      "src": 203848,
+      "dst": 43532
+    },
+    {
+      "relateString": "主线故事",
+      "src": 326049,
+      "dst": 203848
+    }
+  ]
 }

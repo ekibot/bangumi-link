@@ -1,102 +1,95 @@
 {
- "id": 3364,
- "node": [
-  {
-   "id": 3364,
-   "name": "同級生",
-   "nameCN": "同级生",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/1e/3364_BTclL.jpg",
-   "date": "2008-02-15",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 41239,
-   "name": "空と原",
-   "nameCN": "空与原",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/e8/41239_0407B.jpg",
-   "date": "2012-05-19",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 117256,
-   "name": "O.B.",
-   "image": "https://lain.bgm.tv/pic/cover/m/03/3f/117256_ov8oE.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 117257,
-   "name": "卒業生",
-   "nameCN": "毕业生",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/c3/117257_b00ov.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 322255,
-   "name": "blanc",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/1c/322255_d9DVT.jpg",
-   "date": "2020-09-23",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 3364,
-   "dst": 41239
-  },
-  {
-   "relate": "续集",
-   "src": 3364,
-   "dst": 117257
-  },
-  {
-   "relate": "续集",
-   "src": 3364,
-   "dst": 322255
-  },
-  {
-   "relate": "主线故事",
-   "src": 41239,
-   "dst": 3364
-  },
-  {
-   "relate": "前传",
-   "src": 117256,
-   "dst": 117257
-  },
-  {
-   "relate": "续集",
-   "src": 117256,
-   "dst": 322255
-  },
-  {
-   "relate": "前传",
-   "src": 117257,
-   "dst": 3364
-  },
-  {
-   "relate": "续集",
-   "src": 117257,
-   "dst": 117256
-  },
-  {
-   "relate": "前传",
-   "src": 322255,
-   "dst": 117256
-  }
- ]
+  "id": "3364",
+  "node": [
+    {
+      "id": 3364,
+      "name": "同級生",
+      "nameCN": "同级生",
+      "date": "2008-02-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 41239,
+      "name": "空と原",
+      "nameCN": "空与原",
+      "date": "2012-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 117257,
+      "name": "卒業生",
+      "nameCN": "毕业生",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 322255,
+      "name": "blanc",
+      "nameCN": "",
+      "date": "2020-09-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 117256,
+      "name": "O.B.",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 3364,
+      "dst": 41239
+    },
+    {
+      "relateString": "续集",
+      "src": 3364,
+      "dst": 117257
+    },
+    {
+      "relateString": "续集",
+      "src": 3364,
+      "dst": 322255
+    },
+    {
+      "relateString": "主线故事",
+      "src": 41239,
+      "dst": 3364
+    },
+    {
+      "relateString": "前传",
+      "src": 117256,
+      "dst": 117257
+    },
+    {
+      "relateString": "续集",
+      "src": 117256,
+      "dst": 322255
+    },
+    {
+      "relateString": "前传",
+      "src": 117257,
+      "dst": 3364
+    },
+    {
+      "relateString": "续集",
+      "src": 117257,
+      "dst": 117256
+    },
+    {
+      "relateString": "前传",
+      "src": 322255,
+      "dst": 117256
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 229137,
- "node": [
-  {
-   "id": 229137,
-   "name": "Runaways (Season 1)",
-   "nameCN": "离家童盟 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/83/229137_w47Qp.jpg",
-   "date": "2017-11-21",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 269939,
-   "name": "Runaways (Season 2)",
-   "nameCN": "离家童盟 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/0b/269939_dG44d.jpg",
-   "date": "2018-12-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 296416,
-   "name": "Runaways (Season 3)",
-   "nameCN": "离家童盟 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/64/296416_bBEW1.jpg",
-   "date": "2019-12-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229137,
-   "dst": 269939
-  },
-  {
-   "relate": "前传",
-   "src": 269939,
-   "dst": 229137
-  },
-  {
-   "relate": "续集",
-   "src": 269939,
-   "dst": 296416
-  },
-  {
-   "relate": "前传",
-   "src": 296416,
-   "dst": 269939
-  }
- ]
+  "id": "229137",
+  "node": [
+    {
+      "id": 229137,
+      "name": "Runaways (Season 1)",
+      "nameCN": "离家童盟 第一季",
+      "date": "2017-11-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 269939,
+      "name": "Runaways (Season 2)",
+      "nameCN": "离家童盟 第二季",
+      "date": "2018-12-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 296416,
+      "name": "Runaways (Season 3)",
+      "nameCN": "离家童盟 第三季",
+      "date": "2019-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229137,
+      "dst": 269939
+    },
+    {
+      "relateString": "前传",
+      "src": 269939,
+      "dst": 229137
+    },
+    {
+      "relateString": "续集",
+      "src": 269939,
+      "dst": 296416
+    },
+    {
+      "relateString": "前传",
+      "src": 296416,
+      "dst": 269939
+    }
+  ]
 }

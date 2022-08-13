@@ -1,57 +1,54 @@
 {
- "id": 310150,
- "node": [
-  {
-   "id": 310150,
-   "name": "超普通都市カシワ伝説R",
-   "nameCN": "超普通都市柏传说R",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/fa/310150_G3t37.jpg",
-   "date": "2020-07-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 310817,
-   "name": "超普通都市カシワ伝説",
-   "nameCN": "超普通都市柏传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/f6/310817_Kh9bA.jpg",
-   "date": "2016-02-13",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 310818,
-   "name": "超普通都市カシワ伝説Z",
-   "nameCN": "超普通都市柏传说Z",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/51/310818_T7BNT.jpg",
-   "date": "2019-07-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 310150,
-   "dst": 310818
-  },
-  {
-   "relate": "续集",
-   "src": 310817,
-   "dst": 310818
-  },
-  {
-   "relate": "续集",
-   "src": 310818,
-   "dst": 310150
-  },
-  {
-   "relate": "前传",
-   "src": 310818,
-   "dst": 310817
-  }
- ]
+  "id": "310150",
+  "node": [
+    {
+      "id": 310150,
+      "name": "超普通都市カシワ伝説R",
+      "nameCN": "超普通都市柏传说R",
+      "date": "2020-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 310818,
+      "name": "超普通都市カシワ伝説Z",
+      "nameCN": "超普通都市柏传说Z",
+      "date": "2019-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 310817,
+      "name": "超普通都市カシワ伝説",
+      "nameCN": "超普通都市柏传说",
+      "date": "2016-02-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 310150,
+      "dst": 310818
+    },
+    {
+      "relateString": "续集",
+      "src": 310817,
+      "dst": 310818
+    },
+    {
+      "relateString": "续集",
+      "src": 310818,
+      "dst": 310150
+    },
+    {
+      "relateString": "前传",
+      "src": 310818,
+      "dst": 310817
+    }
+  ]
 }

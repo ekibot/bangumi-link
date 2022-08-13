@@ -1,77 +1,73 @@
 {
- "id": 150810,
- "node": [
-  {
-   "id": 150810,
-   "name": "the boondocks Season 1",
-   "nameCN": "乡下人 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/f8/150810_ezehZ.jpg",
-   "date": "2005-11-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 181010,
-   "name": "the boondocks Season 2",
-   "nameCN": "乡下人 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/32/181010_h38v5.jpg",
-   "date": "2007-10-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 181023,
-   "name": "the boondocks Season 3",
-   "nameCN": "乡下人 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/97/181023_764fx.jpg",
-   "date": "2010-05-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 181024,
-   "name": "the boondocks Season 4",
-   "nameCN": "乡下人 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/41/181024_1zfsw.jpg",
-   "date": "2014-04-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 150810,
-   "dst": 181010
-  },
-  {
-   "relate": "前传",
-   "src": 181010,
-   "dst": 150810
-  },
-  {
-   "relate": "续集",
-   "src": 181010,
-   "dst": 181023
-  },
-  {
-   "relate": "前传",
-   "src": 181023,
-   "dst": 181010
-  },
-  {
-   "relate": "续集",
-   "src": 181023,
-   "dst": 181024
-  },
-  {
-   "relate": "前传",
-   "src": 181024,
-   "dst": 181023
-  }
- ]
+  "id": "150810",
+  "node": [
+    {
+      "id": 150810,
+      "name": "the boondocks Season 1",
+      "nameCN": "乡下人 第一季",
+      "date": "2005-11-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 181010,
+      "name": "the boondocks Season 2",
+      "nameCN": "乡下人 第二季",
+      "date": "2007-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 181023,
+      "name": "the boondocks Season 3",
+      "nameCN": "乡下人 第三季",
+      "date": "2010-05-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 181024,
+      "name": "the boondocks Season 4",
+      "nameCN": "乡下人 第四季",
+      "date": "2014-04-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 150810,
+      "dst": 181010
+    },
+    {
+      "relateString": "前传",
+      "src": 181010,
+      "dst": 150810
+    },
+    {
+      "relateString": "续集",
+      "src": 181010,
+      "dst": 181023
+    },
+    {
+      "relateString": "前传",
+      "src": 181023,
+      "dst": 181010
+    },
+    {
+      "relateString": "续集",
+      "src": 181023,
+      "dst": 181024
+    },
+    {
+      "relateString": "前传",
+      "src": 181024,
+      "dst": 181023
+    }
+  ]
 }

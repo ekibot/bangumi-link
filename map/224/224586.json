@@ -1,37 +1,34 @@
 {
- "id": 224586,
- "node": [
-  {
-   "id": 224586,
-   "name": "ピオフィオーレの晩鐘",
-   "nameCN": "虔诚之花的晚钟",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/f9/224586_EBiO5.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 283695,
-   "name": "ピオフィオーレの晩鐘 -Episodio1926-",
-   "nameCN": "虔诚之花的晚钟 -Episodio1926-",
-   "image": "https://lain.bgm.tv/pic/cover/m/cb/b5/283695_8o13F.jpg",
-   "date": "2020-11-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224586,
-   "dst": 283695
-  },
-  {
-   "relate": "前传",
-   "src": 283695,
-   "dst": 224586
-  }
- ]
+  "id": "224586",
+  "node": [
+    {
+      "id": 224586,
+      "name": "ピオフィオーレの晩鐘",
+      "nameCN": "虔诚之花的晚钟",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 283695,
+      "name": "ピオフィオーレの晩鐘 -Episodio1926-",
+      "nameCN": "虔诚之花的晚钟 -Episodio1926-",
+      "date": "2020-11-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224586,
+      "dst": 283695
+    },
+    {
+      "relateString": "前传",
+      "src": 283695,
+      "dst": 224586
+    }
+  ]
 }

@@ -1,92 +1,87 @@
 {
- "id": 99146,
- "node": [
-  {
-   "id": 99146,
-   "name": "蒼き雷霆 ガンヴォルト",
-   "nameCN": "苍蓝雷霆：刚巴尔特",
-   "image": "https://lain.bgm.tv/pic/cover/m/24/3e/99146_zhBrB.jpg",
-   "date": "2014-08-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 185807,
-   "name": "蒼き雷霆 ガンヴォルト 爪",
-   "nameCN": "苍蓝雷霆：刚巴尔特-爪",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/68/185807_ou550.jpg",
-   "date": "2016-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 283648,
-   "name": "白き鋼鉄のX THE OUT OF GUNVOLT",
-   "nameCN": "白色钢铁X 离去的刚巴尔特",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/45/283648_1EmTC.jpg",
-   "date": "2019-09-24",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 309426,
-   "name": "蒼き雷霆 ガンヴォルト 鎖環",
-   "nameCN": "苍蓝雷霆GUNVOLT 3 锁环",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/5d/309426_pc1Q8.jpg",
-   "date": "2022-07-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 348253,
-   "name": "白き鋼鉄のX（イクス）2",
-   "nameCN": "银白钢铁X2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/2a/348253_Hwb7p.jpg",
-   "date": "2022-01-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99146,
-   "dst": 185807
-  },
-  {
-   "relate": "前传",
-   "src": 185807,
-   "dst": 99146
-  },
-  {
-   "relate": "续集",
-   "src": 185807,
-   "dst": 309426
-  },
-  {
-   "relate": "主线故事",
-   "src": 283648,
-   "dst": 185807
-  },
-  {
-   "relate": "续集",
-   "src": 283648,
-   "dst": 348253
-  },
-  {
-   "relate": "前传",
-   "src": 309426,
-   "dst": 185807
-  },
-  {
-   "relate": "前传",
-   "src": 348253,
-   "dst": 283648
-  }
- ]
+  "id": "99146",
+  "node": [
+    {
+      "id": 99146,
+      "name": "蒼き雷霆 ガンヴォルト",
+      "nameCN": "苍蓝雷霆：刚巴尔特",
+      "date": "2014-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 185807,
+      "name": "蒼き雷霆 ガンヴォルト 爪",
+      "nameCN": "苍蓝雷霆：刚巴尔特-爪",
+      "date": "2016-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309426,
+      "name": "蒼き雷霆 ガンヴォルト 鎖環",
+      "nameCN": "苍蓝雷霆GUNVOLT 3 锁环",
+      "date": "2022-07-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 283648,
+      "name": "白き鋼鉄のX THE OUT OF GUNVOLT",
+      "nameCN": "白色钢铁X 离去的刚巴尔特",
+      "date": "2019-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 348253,
+      "name": "白き鋼鉄のX（イクス）2",
+      "nameCN": "银白钢铁X2",
+      "date": "2022-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99146,
+      "dst": 185807
+    },
+    {
+      "relateString": "前传",
+      "src": 185807,
+      "dst": 99146
+    },
+    {
+      "relateString": "续集",
+      "src": 185807,
+      "dst": 309426
+    },
+    {
+      "relateString": "主线故事",
+      "src": 283648,
+      "dst": 185807
+    },
+    {
+      "relateString": "续集",
+      "src": 283648,
+      "dst": 348253
+    },
+    {
+      "relateString": "前传",
+      "src": 309426,
+      "dst": 185807
+    },
+    {
+      "relateString": "前传",
+      "src": 348253,
+      "dst": 283648
+    }
+  ]
 }

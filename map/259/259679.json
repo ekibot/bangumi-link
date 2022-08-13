@@ -1,37 +1,35 @@
 {
- "id": 259679,
- "node": [
-  {
-   "id": 259679,
-   "name": "タイヘン・ヘンタイ",
-   "nameCN": "不得了、她是个变态！",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/db/259679_VljPB.jpg",
-   "date": "2014-12-06",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 259680,
-   "name": "タイヘン(ハート)ヘンタイ 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/80/259680_8zBaQ.jpg",
-   "date": "2015-08-07",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 259679,
-   "dst": 259680
-  },
-  {
-   "relate": "前传",
-   "src": 259680,
-   "dst": 259679
-  }
- ]
+  "id": "259679",
+  "node": [
+    {
+      "id": 259679,
+      "name": "タイヘン・ヘンタイ",
+      "nameCN": "不得了、她是个变态！",
+      "date": "2014-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259680,
+      "name": "タイヘン(ハート)ヘンタイ 2",
+      "nameCN": "",
+      "date": "2015-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 259679,
+      "dst": 259680
+    },
+    {
+      "relateString": "前传",
+      "src": 259680,
+      "dst": 259679
+    }
+  ]
 }

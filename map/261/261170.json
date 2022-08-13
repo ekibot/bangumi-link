@@ -1,37 +1,35 @@
 {
- "id": 261170,
- "node": [
-  {
-   "id": 261170,
-   "name": "ルームロンダリング",
-   "nameCN": "洗屋",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/1c/261170_9Idvi.jpg",
-   "date": "2018-11-05",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 261171,
-   "name": "ルームロンダリング",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/8a/261171_bcUqC.jpg",
-   "date": "2018-07-07",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 261170,
-   "dst": 261171
-  },
-  {
-   "relate": "续集",
-   "src": 261171,
-   "dst": 261170
-  }
- ]
+  "id": "261170",
+  "node": [
+    {
+      "id": 261170,
+      "name": "ルームロンダリング",
+      "nameCN": "洗屋",
+      "date": "2018-11-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 261171,
+      "name": "ルームロンダリング",
+      "nameCN": "",
+      "date": "2018-07-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 261170,
+      "dst": 261171
+    },
+    {
+      "relateString": "续集",
+      "src": 261171,
+      "dst": 261170
+    }
+  ]
 }

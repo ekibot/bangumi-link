@@ -1,67 +1,64 @@
 {
- "id": 7880,
- "node": [
-  {
-   "id": 7880,
-   "name": "Paradise Kiss",
-   "nameCN": "天堂之吻",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/ba/7880_x3GyR.jpg",
-   "date": "2005-10-13",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 38226,
-   "name": "ご近所物語",
-   "nameCN": "近所物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/55/38226_yAJ66.jpg",
-   "date": "1995-09-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 270663,
-   "name": "ご近所物語 (劇場版)",
-   "nameCN": "近所物语 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/cb/270663_2zd6x.jpg",
-   "date": "1996-03-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 7880,
-   "dst": 38226
-  },
-  {
-   "relate": "相同世界观",
-   "src": 7880,
-   "dst": 270663
-  },
-  {
-   "relate": "相同世界观",
-   "src": 38226,
-   "dst": 7880
-  },
-  {
-   "relate": "不同演绎",
-   "src": 38226,
-   "dst": 270663
-  },
-  {
-   "relate": "相同世界观",
-   "src": 270663,
-   "dst": 7880
-  },
-  {
-   "relate": "不同演绎",
-   "src": 270663,
-   "dst": 38226
-  }
- ]
+  "id": "7880",
+  "node": [
+    {
+      "id": 7880,
+      "name": "Paradise Kiss",
+      "nameCN": "天堂之吻",
+      "date": "2005-10-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 38226,
+      "name": "ご近所物語",
+      "nameCN": "近所物语",
+      "date": "1995-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 270663,
+      "name": "ご近所物語 (劇場版)",
+      "nameCN": "近所物语 剧场版",
+      "date": "1996-03-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 7880,
+      "dst": 38226
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 7880,
+      "dst": 270663
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 38226,
+      "dst": 7880
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 38226,
+      "dst": 270663
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 270663,
+      "dst": 7880
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 270663,
+      "dst": 38226
+    }
+  ]
 }

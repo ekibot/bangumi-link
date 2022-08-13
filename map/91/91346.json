@@ -1,34 +1,35 @@
 {
- "id": 91346,
- "node": [
-  {
-   "id": 91346,
-   "name": "ゴールデンマリッジ",
-   "nameCN": "Golden Marriage",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/fc/91346_0j6Z4.jpg",
-   "date": "2014-05-30",
-   "type": 4
-  },
-  {
-   "id": 119624,
-   "name": "Golden Marriage -Jewel Days-",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/58/119624_zaZ53.jpg",
-   "date": "2015-03-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 91346,
-   "dst": 119624
-  },
-  {
-   "relate": "前传",
-   "src": 119624,
-   "dst": 91346
-  }
- ]
+  "id": "91346",
+  "node": [
+    {
+      "id": 91346,
+      "name": "ゴールデンマリッジ",
+      "nameCN": "Golden Marriage",
+      "date": "2014-05-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 119624,
+      "name": "Golden Marriage -Jewel Days-",
+      "nameCN": "",
+      "date": "2015-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 91346,
+      "dst": 119624
+    },
+    {
+      "relateString": "前传",
+      "src": 119624,
+      "dst": 91346
+    }
+  ]
 }

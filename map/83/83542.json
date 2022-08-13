@@ -1,37 +1,35 @@
 {
- "id": 83542,
- "node": [
-  {
-   "id": 83542,
-   "name": "SF新世紀レンズマン",
-   "nameCN": "透镜人",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/cb/83542_PCGJ0.jpg",
-   "date": "1984-07-07",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 188951,
-   "name": "GALACTIC PATROL レンズマン",
-   "nameCN": "透镜人",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/b1/188951_iGSld.jpg",
-   "date": "1984-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 83542,
-   "dst": 188951
-  },
-  {
-   "relate": "不同演绎",
-   "src": 188951,
-   "dst": 83542
-  }
- ]
+  "id": "83542",
+  "node": [
+    {
+      "id": 83542,
+      "name": "SF新世紀レンズマン",
+      "nameCN": "透镜人",
+      "date": "1984-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 188951,
+      "name": "GALACTIC PATROL レンズマン",
+      "nameCN": "透镜人",
+      "date": "1984-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 83542,
+      "dst": 188951
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 188951,
+      "dst": 83542
+    }
+  ]
 }

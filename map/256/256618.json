@@ -1,57 +1,54 @@
 {
- "id": 256618,
- "node": [
-  {
-   "id": 256618,
-   "name": "Colony Wars",
-   "nameCN": "殖民地战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/95/256618_PYY5B.jpg",
-   "date": "1997-10-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256625,
-   "name": "Colony Wars: Vengeance",
-   "nameCN": "殖民地战争2-复仇",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/93/256625_Zp3X7.jpg",
-   "date": "1998-10-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 256628,
-   "name": "Colony Wars: Red Sun",
-   "nameCN": "殖民地战争3：红色太阳",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/92/256628_458CC.jpg",
-   "date": "2000-05-02",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 256618,
-   "dst": 256625
-  },
-  {
-   "relate": "前传",
-   "src": 256625,
-   "dst": 256618
-  },
-  {
-   "relate": "续集",
-   "src": 256625,
-   "dst": 256628
-  },
-  {
-   "relate": "前传",
-   "src": 256628,
-   "dst": 256625
-  }
- ]
+  "id": "256618",
+  "node": [
+    {
+      "id": 256618,
+      "name": "Colony Wars",
+      "nameCN": "殖民地战争",
+      "date": "1997-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256625,
+      "name": "Colony Wars: Vengeance",
+      "nameCN": "殖民地战争2-复仇",
+      "date": "1998-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256628,
+      "name": "Colony Wars: Red Sun",
+      "nameCN": "殖民地战争3：红色太阳",
+      "date": "2000-05-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 256618,
+      "dst": 256625
+    },
+    {
+      "relateString": "前传",
+      "src": 256625,
+      "dst": 256618
+    },
+    {
+      "relateString": "续集",
+      "src": 256625,
+      "dst": 256628
+    },
+    {
+      "relateString": "前传",
+      "src": 256628,
+      "dst": 256625
+    }
+  ]
 }

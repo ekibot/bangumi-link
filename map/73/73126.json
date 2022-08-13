@@ -1,37 +1,35 @@
 {
- "id": 73126,
- "node": [
-  {
-   "id": 73126,
-   "name": "ココロ＠ファンクション！",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/65/73126_GVpk7.jpg",
-   "date": "2013-10-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 111618,
-   "name": "ココロ＠ファンクション！ NEO",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/99/111618_m5KaM.jpg",
-   "date": "2014-11-28",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 73126,
-   "dst": 111618
-  },
-  {
-   "relate": "前传",
-   "src": 111618,
-   "dst": 73126
-  }
- ]
+  "id": "73126",
+  "node": [
+    {
+      "id": 73126,
+      "name": "ココロ＠ファンクション！",
+      "nameCN": "",
+      "date": "2013-10-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 111618,
+      "name": "ココロ＠ファンクション！ NEO",
+      "nameCN": "",
+      "date": "2014-11-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 73126,
+      "dst": 111618
+    },
+    {
+      "relateString": "前传",
+      "src": 111618,
+      "dst": 73126
+    }
+  ]
 }

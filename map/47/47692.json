@@ -1,77 +1,73 @@
 {
- "id": 47692,
- "node": [
-  {
-   "id": 47692,
-   "name": "The Killing Season 1",
-   "nameCN": "谋杀 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/2a/47692_1PW5G.jpg",
-   "date": "2011-04-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 47693,
-   "name": "The Killing Season 2",
-   "nameCN": "谋杀 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/2c/47693_PeEok.jpg",
-   "date": "2012-04-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 76634,
-   "name": "The Killing Season 3",
-   "nameCN": "谋杀 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/d6/76634_LRM8R.jpg",
-   "date": "2013-06-02",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 106261,
-   "name": "The Killing Season 4",
-   "nameCN": "谋杀 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/20/106261_lkIV4.jpg",
-   "date": "2014-08-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47692,
-   "dst": 47693
-  },
-  {
-   "relate": "前传",
-   "src": 47693,
-   "dst": 47692
-  },
-  {
-   "relate": "续集",
-   "src": 47693,
-   "dst": 76634
-  },
-  {
-   "relate": "前传",
-   "src": 76634,
-   "dst": 47693
-  },
-  {
-   "relate": "续集",
-   "src": 76634,
-   "dst": 106261
-  },
-  {
-   "relate": "前传",
-   "src": 106261,
-   "dst": 76634
-  }
- ]
+  "id": "47692",
+  "node": [
+    {
+      "id": 47692,
+      "name": "The Killing Season 1",
+      "nameCN": "谋杀 第一季",
+      "date": "2011-04-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 47693,
+      "name": "The Killing Season 2",
+      "nameCN": "谋杀 第二季",
+      "date": "2012-04-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 76634,
+      "name": "The Killing Season 3",
+      "nameCN": "谋杀 第三季",
+      "date": "2013-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 106261,
+      "name": "The Killing Season 4",
+      "nameCN": "谋杀 第四季",
+      "date": "2014-08-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47692,
+      "dst": 47693
+    },
+    {
+      "relateString": "前传",
+      "src": 47693,
+      "dst": 47692
+    },
+    {
+      "relateString": "续集",
+      "src": 47693,
+      "dst": 76634
+    },
+    {
+      "relateString": "前传",
+      "src": 76634,
+      "dst": 47693
+    },
+    {
+      "relateString": "续集",
+      "src": 76634,
+      "dst": 106261
+    },
+    {
+      "relateString": "前传",
+      "src": 106261,
+      "dst": 76634
+    }
+  ]
 }

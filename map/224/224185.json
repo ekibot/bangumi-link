@@ -1,55 +1,54 @@
 {
- "id": 224185,
- "node": [
-  {
-   "id": 224185,
-   "name": "淫辱スタジオ最終テイク～薄汚ねえシンデレラ",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/a9/224185_pdwhn.jpg",
-   "date": "2008-05-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 224194,
-   "name": "淫辱スタジオTAKE2～姦獄鬼畜ショータイム",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/1b/224194_OYE42.jpg",
-   "date": "2008-04-25",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 224203,
-   "name": "淫辱スタジオ～背徳の密室オーディション",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/30/224203_YeUas.jpg",
-   "date": "2007-06-29",
-   "nameCN": "",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 224185,
-   "dst": 224194
-  },
-  {
-   "relate": "续集",
-   "src": 224194,
-   "dst": 224185
-  },
-  {
-   "relate": "前传",
-   "src": 224194,
-   "dst": 224203
-  },
-  {
-   "relate": "续集",
-   "src": 224203,
-   "dst": 224194
-  }
- ]
+  "id": "224185",
+  "node": [
+    {
+      "id": 224185,
+      "name": "淫辱スタジオ最終テイク～薄汚ねえシンデレラ",
+      "nameCN": "",
+      "date": "2008-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224194,
+      "name": "淫辱スタジオTAKE2～姦獄鬼畜ショータイム",
+      "nameCN": "",
+      "date": "2008-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 224203,
+      "name": "淫辱スタジオ～背徳の密室オーディション",
+      "nameCN": "",
+      "date": "2007-06-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 224185,
+      "dst": 224194
+    },
+    {
+      "relateString": "续集",
+      "src": 224194,
+      "dst": 224185
+    },
+    {
+      "relateString": "前传",
+      "src": 224194,
+      "dst": 224203
+    },
+    {
+      "relateString": "续集",
+      "src": 224203,
+      "dst": 224194
+    }
+  ]
 }

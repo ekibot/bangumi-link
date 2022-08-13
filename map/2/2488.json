@@ -1,0 +1,35 @@
+{
+  "id": "2488",
+  "node": [
+    {
+      "id": 2488,
+      "name": "セブンデイズ MONDAY→THURSDAY",
+      "nameCN": "星期恋人",
+      "date": "2007-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 2489,
+      "name": "セブンデイズ FRIDAY→SUNDAY",
+      "nameCN": "续星期恋人",
+      "date": "2009-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2488,
+      "dst": 2489
+    },
+    {
+      "relateString": "前传",
+      "src": 2489,
+      "dst": 2488
+    }
+  ]
+}

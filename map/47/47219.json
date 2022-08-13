@@ -1,37 +1,35 @@
 {
- "id": 47219,
- "node": [
-  {
-   "id": 47219,
-   "name": "テルマエ・ロマエ",
-   "nameCN": "罗马浴场",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/31/47219_B9ZO9.jpg",
-   "date": "2012-04-28",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 96640,
-   "name": "テルマエ・ロマエ II",
-   "nameCN": "罗马浴场 II",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/76/96640_GtfXf.jpg",
-   "date": "2014-04-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 47219,
-   "dst": 96640
-  },
-  {
-   "relate": "前传",
-   "src": 96640,
-   "dst": 47219
-  }
- ]
+  "id": "47219",
+  "node": [
+    {
+      "id": 47219,
+      "name": "テルマエ・ロマエ",
+      "nameCN": "罗马浴场",
+      "date": "2012-04-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 96640,
+      "name": "テルマエ・ロマエ II",
+      "nameCN": "罗马浴场 II",
+      "date": "2014-04-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 47219,
+      "dst": 96640
+    },
+    {
+      "relateString": "前传",
+      "src": 96640,
+      "dst": 47219
+    }
+  ]
 }

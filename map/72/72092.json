@@ -1,37 +1,35 @@
 {
- "id": 72092,
- "node": [
-  {
-   "id": 72092,
-   "name": "Surgeon Simulator 2013",
-   "nameCN": "模拟外科医生2013",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/6c/72092_lD7y1.jpg",
-   "date": "2013-04-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 313731,
-   "name": "Surgeon Simulator 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/b8/313731_vuFI7.jpg",
-   "date": "2020-08-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72092,
-   "dst": 313731
-  },
-  {
-   "relate": "前传",
-   "src": 313731,
-   "dst": 72092
-  }
- ]
+  "id": "72092",
+  "node": [
+    {
+      "id": 72092,
+      "name": "Surgeon Simulator 2013",
+      "nameCN": "模拟外科医生2013",
+      "date": "2013-04-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 313731,
+      "name": "Surgeon Simulator 2",
+      "nameCN": "",
+      "date": "2020-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72092,
+      "dst": 313731
+    },
+    {
+      "relateString": "前传",
+      "src": 313731,
+      "dst": 72092
+    }
+  ]
 }

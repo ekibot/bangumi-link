@@ -1,37 +1,35 @@
 {
- "id": 147568,
- "node": [
-  {
-   "id": 147568,
-   "name": "Rewrite",
-   "image": "https://lain.bgm.tv/pic/cover/m/5e/cc/147568_0XYiM.jpg",
-   "date": "2016-07-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 193562,
-   "name": "Rewrite 2nd Season",
-   "nameCN": "Rewrite 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/5a/193562_SPa3I.jpg",
-   "date": "2017-01-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 147568,
-   "dst": 193562
-  },
-  {
-   "relate": "前传",
-   "src": 193562,
-   "dst": 147568
-  }
- ]
+  "id": "147568",
+  "node": [
+    {
+      "id": 147568,
+      "name": "Rewrite",
+      "nameCN": "",
+      "date": "2016-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 193562,
+      "name": "Rewrite 2nd Season",
+      "nameCN": "Rewrite 第二季",
+      "date": "2017-01-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 147568,
+      "dst": 193562
+    },
+    {
+      "relateString": "前传",
+      "src": 193562,
+      "dst": 147568
+    }
+  ]
 }

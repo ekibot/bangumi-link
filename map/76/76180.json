@@ -1,37 +1,35 @@
 {
- "id": 76180,
- "node": [
-  {
-   "id": 76180,
-   "name": "なるようになるさ。",
-   "nameCN": "总会有办法的。",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/99/76180_k076B.jpg",
-   "date": "2013-07-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 101976,
-   "name": "なるようになるさ。2",
-   "nameCN": "总会有办法的。2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/36/101976_NUcRu.jpg",
-   "date": "2014-04-22",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 76180,
-   "dst": 101976
-  },
-  {
-   "relate": "前传",
-   "src": 101976,
-   "dst": 76180
-  }
- ]
+  "id": "76180",
+  "node": [
+    {
+      "id": 76180,
+      "name": "なるようになるさ。",
+      "nameCN": "总会有办法的。",
+      "date": "2013-07-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 101976,
+      "name": "なるようになるさ。2",
+      "nameCN": "总会有办法的。2",
+      "date": "2014-04-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 76180,
+      "dst": 101976
+    },
+    {
+      "relateString": "前传",
+      "src": 101976,
+      "dst": 76180
+    }
+  ]
 }

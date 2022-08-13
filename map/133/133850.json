@@ -1,37 +1,35 @@
 {
- "id": 133850,
- "node": [
-  {
-   "id": 133850,
-   "name": "Maleficent",
-   "nameCN": "沉睡魔咒",
-   "image": "https://lain.bgm.tv/pic/cover/m/5c/8f/133850_VwAvX.jpg",
-   "date": "2014-06-20",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 286166,
-   "name": "Maleficent: Mistress of Evil",
-   "nameCN": "沉睡魔咒2：恶魔夫人",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/e0/286166_KKKNp.jpg",
-   "date": "2019-10-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 133850,
-   "dst": 286166
-  },
-  {
-   "relate": "前传",
-   "src": 286166,
-   "dst": 133850
-  }
- ]
+  "id": "133850",
+  "node": [
+    {
+      "id": 133850,
+      "name": "Maleficent",
+      "nameCN": "沉睡魔咒",
+      "date": "2014-06-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 286166,
+      "name": "Maleficent: Mistress of Evil",
+      "nameCN": "沉睡魔咒2：恶魔夫人",
+      "date": "2019-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 133850,
+      "dst": 286166
+    },
+    {
+      "relateString": "前传",
+      "src": 286166,
+      "dst": 133850
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 20990,
- "node": [
-  {
-   "id": 20990,
-   "name": "Dance Central",
-   "nameCN": "热舞中心",
-   "image": "https://lain.bgm.tv/pic/cover/m/67/b7/20990_N5Sbe.jpg",
-   "date": "2010-11-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 25624,
-   "name": "Dance Central 2",
-   "nameCN": "舞蹈中心2",
-   "image": "https://lain.bgm.tv/pic/cover/m/69/fc/25624_NMnJT.jpg",
-   "date": "2011-10-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 20990,
-   "dst": 25624
-  },
-  {
-   "relate": "前传",
-   "src": 25624,
-   "dst": 20990
-  }
- ]
+  "id": "20990",
+  "node": [
+    {
+      "id": 20990,
+      "name": "Dance Central",
+      "nameCN": "热舞中心",
+      "date": "2010-11-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 25624,
+      "name": "Dance Central 2",
+      "nameCN": "舞蹈中心2",
+      "date": "2011-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 20990,
+      "dst": 25624
+    },
+    {
+      "relateString": "前传",
+      "src": 25624,
+      "dst": 20990
+    }
+  ]
 }

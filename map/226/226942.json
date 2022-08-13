@@ -1,37 +1,35 @@
 {
- "id": 226942,
- "node": [
-  {
-   "id": 226942,
-   "name": "ROAD TO YOU ～君へと続く道～",
-   "nameCN": "ROAD TO YOU～通向你的道路～",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/47/226942_Js1s1.jpg",
-   "date": "2017-10-11",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 262696,
-   "name": "ROAD TO YOU ～星降る丘の約束～",
-   "nameCN": "ROAD TO YOU ～星降之丘的约定～",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/92/262696_hS9A5.jpg",
-   "date": "2018-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226942,
-   "dst": 262696
-  },
-  {
-   "relate": "前传",
-   "src": 262696,
-   "dst": 226942
-  }
- ]
+  "id": "226942",
+  "node": [
+    {
+      "id": 226942,
+      "name": "ROAD TO YOU ～君へと続く道～",
+      "nameCN": "ROAD TO YOU～通向你的道路～",
+      "date": "2017-10-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 262696,
+      "name": "ROAD TO YOU ～星降る丘の約束～",
+      "nameCN": "ROAD TO YOU ～星降之丘的约定～",
+      "date": "2018-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226942,
+      "dst": 262696
+    },
+    {
+      "relateString": "前传",
+      "src": 262696,
+      "dst": 226942
+    }
+  ]
 }

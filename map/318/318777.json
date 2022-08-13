@@ -1,57 +1,54 @@
 {
- "id": 318777,
- "node": [
-  {
-   "id": 318777,
-   "name": "星辰の箱庭 ~夜の守り~",
-   "image": "https://lain.bgm.tv/pic/cover/m/a0/46/318777_p4rhp.jpg",
-   "date": "2018-05-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 318778,
-   "name": "星辰の箱庭2 ~雨と花の命~",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/85/318778_gFyG0.jpg",
-   "date": "2018-10-14",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 318779,
-   "name": "星辰の箱庭3 ~神の許嫁~",
-   "image": "https://lain.bgm.tv/pic/cover/m/63/54/318779_gmMuu.jpg",
-   "date": "2019-03-17",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 318777,
-   "dst": 318778
-  },
-  {
-   "relate": "前传",
-   "src": 318778,
-   "dst": 318777
-  },
-  {
-   "relate": "续集",
-   "src": 318778,
-   "dst": 318779
-  },
-  {
-   "relate": "前传",
-   "src": 318779,
-   "dst": 318778
-  }
- ]
+  "id": "318777",
+  "node": [
+    {
+      "id": 318777,
+      "name": "星辰の箱庭 ~夜の守り~",
+      "nameCN": "",
+      "date": "2018-05-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 318778,
+      "name": "星辰の箱庭2 ~雨と花の命~",
+      "nameCN": "",
+      "date": "2018-10-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 318779,
+      "name": "星辰の箱庭3 ~神の許嫁~",
+      "nameCN": "",
+      "date": "2019-03-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 318777,
+      "dst": 318778
+    },
+    {
+      "relateString": "前传",
+      "src": 318778,
+      "dst": 318777
+    },
+    {
+      "relateString": "续集",
+      "src": 318778,
+      "dst": 318779
+    },
+    {
+      "relateString": "前传",
+      "src": 318779,
+      "dst": 318778
+    }
+  ]
 }

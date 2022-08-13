@@ -1,77 +1,73 @@
 {
- "id": 183746,
- "node": [
-  {
-   "id": 183746,
-   "name": "小鸡彩虹",
-   "nameCN": "小鸡彩虹",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/c2/183746_sCj96.jpg",
-   "date": "2016-05-25",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 229729,
-   "name": "小鸡彩虹 第2季",
-   "nameCN": "小鸡彩虹 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/b1/229729_m0BSb.jpg",
-   "date": "2017-04-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 229730,
-   "name": "小鸡彩虹 第3季",
-   "nameCN": "小鸡彩虹 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/e2/229730_qQ20e.jpg",
-   "date": "2017-04-12",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 247806,
-   "name": "小鸡彩虹 第4季",
-   "nameCN": "小鸡彩虹 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/d0/247806_Vov2C.jpg",
-   "date": "2018-05-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 183746,
-   "dst": 229729
-  },
-  {
-   "relate": "前传",
-   "src": 229729,
-   "dst": 183746
-  },
-  {
-   "relate": "续集",
-   "src": 229729,
-   "dst": 229730
-  },
-  {
-   "relate": "前传",
-   "src": 229730,
-   "dst": 229729
-  },
-  {
-   "relate": "续集",
-   "src": 229730,
-   "dst": 247806
-  },
-  {
-   "relate": "前传",
-   "src": 247806,
-   "dst": 229730
-  }
- ]
+  "id": "183746",
+  "node": [
+    {
+      "id": 183746,
+      "name": "小鸡彩虹",
+      "nameCN": "小鸡彩虹",
+      "date": "2016-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229729,
+      "name": "小鸡彩虹 第2季",
+      "nameCN": "小鸡彩虹 第二季",
+      "date": "2017-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 229730,
+      "name": "小鸡彩虹 第3季",
+      "nameCN": "小鸡彩虹 第三季",
+      "date": "2017-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 247806,
+      "name": "小鸡彩虹 第4季",
+      "nameCN": "小鸡彩虹 第四季",
+      "date": "2018-05-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 183746,
+      "dst": 229729
+    },
+    {
+      "relateString": "前传",
+      "src": 229729,
+      "dst": 183746
+    },
+    {
+      "relateString": "续集",
+      "src": 229729,
+      "dst": 229730
+    },
+    {
+      "relateString": "前传",
+      "src": 229730,
+      "dst": 229729
+    },
+    {
+      "relateString": "续集",
+      "src": 229730,
+      "dst": 247806
+    },
+    {
+      "relateString": "前传",
+      "src": 247806,
+      "dst": 229730
+    }
+  ]
 }

@@ -1,77 +1,72 @@
 {
- "id": 79336,
- "node": [
-  {
-   "id": 79336,
-   "name": "Fantasy Zone",
-   "nameCN": "幻想地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/72/79336_Ad2SD.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 252348,
-   "name": "ファンタジーゾーンII オパオパの涙",
-   "nameCN": "幻想地带2",
-   "image": "https://lain.bgm.tv/pic/cover/m/25/be/252348_5ZqUW.jpg",
-   "date": "1987-10-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 252349,
-   "name": "ファンタジーゾーンII DX オパオパの涙",
-   "nameCN": "幻想地带2 DX",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/c0/252349_n8QNt.jpg",
-   "date": "2008-09-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 258471,
-   "name": "スーパーファンタジーゾーン",
-   "nameCN": "超级幻想地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/e1/258471_3rZ3A.jpg",
-   "date": "1992-01-14",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 79336,
-   "dst": 252348
-  },
-  {
-   "relate": "前传",
-   "src": 252348,
-   "dst": 79336
-  },
-  {
-   "relate": "不同演绎",
-   "src": 252348,
-   "dst": 252349
-  },
-  {
-   "relate": "续集",
-   "src": 252348,
-   "dst": 258471
-  },
-  {
-   "relate": "不同演绎",
-   "src": 252349,
-   "dst": 252348
-  },
-  {
-   "relate": "前传",
-   "src": 258471,
-   "dst": 252348
-  }
- ]
+  "id": "79336",
+  "node": [
+    {
+      "id": 79336,
+      "name": "Fantasy Zone",
+      "nameCN": "幻想地带",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 252348,
+      "name": "ファンタジーゾーンII オパオパの涙",
+      "nameCN": "幻想地带2",
+      "date": "1987-10-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 252349,
+      "name": "ファンタジーゾーンII DX オパオパの涙",
+      "nameCN": "幻想地带2 DX",
+      "date": "2008-09-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 258471,
+      "name": "スーパーファンタジーゾーン",
+      "nameCN": "超级幻想地带",
+      "date": "1992-01-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 79336,
+      "dst": 252348
+    },
+    {
+      "relateString": "前传",
+      "src": 252348,
+      "dst": 79336
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 252348,
+      "dst": 252349
+    },
+    {
+      "relateString": "续集",
+      "src": 252348,
+      "dst": 258471
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 252349,
+      "dst": 252348
+    },
+    {
+      "relateString": "前传",
+      "src": 258471,
+      "dst": 252348
+    }
+  ]
 }

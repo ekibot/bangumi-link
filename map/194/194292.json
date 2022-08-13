@@ -1,57 +1,54 @@
 {
- "id": 194292,
- "node": [
-  {
-   "id": 194292,
-   "name": "山女日記～女たちは頂を目指して～",
-   "nameCN": "山女日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/4b/194292_k2IvI.jpg",
-   "date": "2016-11-06",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 224013,
-   "name": "山女日記 ～山フェスに行こう／アルプスの女王～",
-   "image": "https://lain.bgm.tv/pic/cover/m/04/02/224013_A27Ff.jpg",
-   "date": "2017-10-29",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 353281,
-   "name": "山女日記３",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/68/353281_Yqdy5.jpg",
-   "date": "2021-10-17",
-   "nameCN": "山女日记3",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194292,
-   "dst": 224013
-  },
-  {
-   "relate": "前传",
-   "src": 224013,
-   "dst": 194292
-  },
-  {
-   "relate": "续集",
-   "src": 224013,
-   "dst": 353281
-  },
-  {
-   "relate": "前传",
-   "src": 353281,
-   "dst": 224013
-  }
- ]
+  "id": "194292",
+  "node": [
+    {
+      "id": 194292,
+      "name": "山女日記～女たちは頂を目指して～",
+      "nameCN": "山女日记",
+      "date": "2016-11-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 224013,
+      "name": "山女日記 ～山フェスに行こう／アルプスの女王～",
+      "nameCN": "",
+      "date": "2017-10-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 353281,
+      "name": "山女日記３",
+      "nameCN": "山女日记3",
+      "date": "2021-10-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194292,
+      "dst": 224013
+    },
+    {
+      "relateString": "前传",
+      "src": 224013,
+      "dst": 194292
+    },
+    {
+      "relateString": "续集",
+      "src": 224013,
+      "dst": 353281
+    },
+    {
+      "relateString": "前传",
+      "src": 353281,
+      "dst": 224013
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 251928,
- "node": [
-  {
-   "id": 251928,
-   "name": "Myst",
-   "nameCN": "神秘岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/81/251928_VEEFB.jpg",
-   "date": "1993-09-24",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 251929,
-   "name": "Riven",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/99/251929_Zh621.jpg",
-   "date": "1997-10-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 251928,
-   "dst": 251929
-  },
-  {
-   "relate": "前传",
-   "src": 251929,
-   "dst": 251928
-  }
- ]
+  "id": "251928",
+  "node": [
+    {
+      "id": 251928,
+      "name": "Myst",
+      "nameCN": "神秘岛",
+      "date": "1993-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 251929,
+      "name": "Riven",
+      "nameCN": "",
+      "date": "1997-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 251928,
+      "dst": 251929
+    },
+    {
+      "relateString": "前传",
+      "src": 251929,
+      "dst": 251928
+    }
+  ]
 }

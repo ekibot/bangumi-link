@@ -1,66 +1,64 @@
 {
- "id": 4639,
- "node": [
-  {
-   "id": 4639,
-   "name": "素晴らしき日々～不連続存在～",
-   "nameCN": "美好的每一天 ～不连续的存在～",
-   "image": "https://lain.bgm.tv/pic/cover/m/33/b8/4639_kDq7d.jpg",
-   "date": "2010-03-26",
-   "type": 4
-  },
-  {
-   "id": 7871,
-   "name": "終ノ空",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/67/7871_9MPXL.jpg",
-   "date": "1999-08-27",
-   "nameCN": "终之空",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 259061,
-   "name": "素晴らしき日々 ～不連続存在～ フルボイスHD版",
-   "nameCN": "美好的每一天 ～不连续的存在～全语音HD版",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/27/259061_i2Ou2.jpg",
-   "date": "2018-07-20",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 314512,
-   "name": "終ノ空 remake",
-   "nameCN": "终之空 remake",
-   "image": "https://lain.bgm.tv/pic/cover/m/d9/f3/314512_c21n6.jpg",
-   "date": "2020-12-25",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 4639,
-   "dst": 7871
-  },
-  {
-   "relate": "不同演绎",
-   "src": 7871,
-   "dst": 4639
-  },
-  {
-   "relate": "不同演绎",
-   "src": 7871,
-   "dst": 314512
-  },
-  {
-   "relate": "不同演绎",
-   "src": 259061,
-   "dst": 4639
-  },
-  {
-   "relate": "不同演绎",
-   "src": 314512,
-   "dst": 4639
-  }
- ]
+  "id": "4639",
+  "node": [
+    {
+      "id": 4639,
+      "name": "素晴らしき日々～不連続存在～",
+      "nameCN": "美好的每一天 ～不连续的存在～",
+      "date": "2010-03-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 7871,
+      "name": "終ノ空",
+      "nameCN": "终之空",
+      "date": "1999-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 314512,
+      "name": "終ノ空 remake",
+      "nameCN": "终之空 remake",
+      "date": "2020-12-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 4639,
+      "dst": 7871
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 4639,
+      "dst": 314512
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 7871,
+      "dst": 4639
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 7871,
+      "dst": 314512
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 314512,
+      "dst": 4639
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 314512,
+      "dst": 7871
+    }
+  ]
 }

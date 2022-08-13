@@ -1,57 +1,54 @@
 {
- "id": 42281,
- "node": [
-  {
-   "id": 42281,
-   "name": "イエスタデイをうたって",
-   "nameCN": "昨日之歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/b9/42281_5XR09.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 81682,
-   "name": "イエスタデイをうたってEX~原点を訪ねて 冬目景 初期短編集~",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/da/81682_Hz38t.jpg",
-   "date": "2009-11-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 303848,
-   "name": "イエスタデイをうたって afterword",
-   "nameCN": "昨日之歌 afterword",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/52/303848_2qzHf.jpg",
-   "date": "2020-04-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 42281,
-   "dst": 81682
-  },
-  {
-   "relate": "续集",
-   "src": 42281,
-   "dst": 303848
-  },
-  {
-   "relate": "主线故事",
-   "src": 81682,
-   "dst": 42281
-  },
-  {
-   "relate": "前传",
-   "src": 303848,
-   "dst": 42281
-  }
- ]
+  "id": "42281",
+  "node": [
+    {
+      "id": 42281,
+      "name": "イエスタデイをうたって",
+      "nameCN": "昨日之歌",
+      "date": "1997-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 81682,
+      "name": "イエスタデイをうたってEX~原点を訪ねて 冬目景 初期短編集~",
+      "nameCN": "",
+      "date": "2009-11-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 303848,
+      "name": "イエスタデイをうたって afterword",
+      "nameCN": "昨日之歌 afterword",
+      "date": "2020-04-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 42281,
+      "dst": 81682
+    },
+    {
+      "relateString": "续集",
+      "src": 42281,
+      "dst": 303848
+    },
+    {
+      "relateString": "主线故事",
+      "src": 81682,
+      "dst": 42281
+    },
+    {
+      "relateString": "前传",
+      "src": 303848,
+      "dst": 42281
+    }
+  ]
 }

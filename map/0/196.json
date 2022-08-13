@@ -1,37 +1,35 @@
 {
- "id": 196,
- "node": [
-  {
-   "id": 196,
-   "name": "Dark Sector",
-   "nameCN": "黑暗地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/4b/196_zzEEP.jpg",
-   "date": "2008-03-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 85102,
-   "name": "Warframe",
-   "nameCN": "星际战甲",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/23/85102_7l6jJ.jpg",
-   "date": "2013-03-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 196,
-   "dst": 85102
-  },
-  {
-   "relate": "不同世界观",
-   "src": 85102,
-   "dst": 196
-  }
- ]
+  "id": "196",
+  "node": [
+    {
+      "id": 196,
+      "name": "Dark Sector",
+      "nameCN": "黑暗地带",
+      "date": "2008-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 85102,
+      "name": "Warframe",
+      "nameCN": "星际战甲",
+      "date": "2013-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 196,
+      "dst": 85102
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 85102,
+      "dst": 196
+    }
+  ]
 }

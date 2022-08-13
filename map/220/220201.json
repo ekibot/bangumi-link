@@ -1,37 +1,34 @@
 {
- "id": 220201,
- "node": [
-  {
-   "id": 220201,
-   "name": "A Boy and His Blob",
-   "nameCN": "男孩与泡泡怪",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/5e/220201_ibPD1.jpg",
-   "date": "2009-10-13",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256064,
-   "name": "A Boy and His Blob: Trouble on Blobolonia",
-   "nameCN": "男孩与泡泡怪",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/c5/256064_fvgGM.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 220201,
-   "dst": 256064
-  },
-  {
-   "relate": "不同演绎",
-   "src": 256064,
-   "dst": 220201
-  }
- ]
+  "id": "220201",
+  "node": [
+    {
+      "id": 220201,
+      "name": "A Boy and His Blob",
+      "nameCN": "男孩与泡泡怪",
+      "date": "2009-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256064,
+      "name": "A Boy and His Blob: Trouble on Blobolonia",
+      "nameCN": "男孩与泡泡怪",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 220201,
+      "dst": 256064
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 256064,
+      "dst": 220201
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 9021,
- "node": [
-  {
-   "id": 9021,
-   "name": "椿びより",
-   "nameCN": "椿日和",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/46/9021_jp.jpg",
-   "date": "2009-05-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 9152,
-   "name": "椿だより",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/27/9152_r86hH.jpg",
-   "date": "2010-10-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9021,
-   "dst": 9152
-  },
-  {
-   "relate": "前传",
-   "src": 9152,
-   "dst": 9021
-  }
- ]
+  "id": "9021",
+  "node": [
+    {
+      "id": 9021,
+      "name": "椿びより",
+      "nameCN": "椿日和",
+      "date": "2009-05-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 9152,
+      "name": "椿だより",
+      "nameCN": "",
+      "date": "2010-10-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9021,
+      "dst": 9152
+    },
+    {
+      "relateString": "前传",
+      "src": 9152,
+      "dst": 9021
+    }
+  ]
 }

@@ -1,77 +1,73 @@
 {
- "id": 77476,
- "node": [
-  {
-   "id": 77476,
-   "name": "シドニアの騎士",
-   "nameCN": "希德尼娅的骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/23/77476_4TwHt.jpg",
-   "date": "2014-04-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 105255,
-   "name": "シドニアの騎士 第九惑星戦役",
-   "nameCN": "希德尼娅的骑士 第九惑星战役",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/a6/105255_Ldl25.jpg",
-   "date": "2015-04-10",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 118098,
-   "name": "劇場版 シドニアの騎士",
-   "nameCN": "剧场版 希德尼娅的骑士",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/f8/118098_hX68v.jpg",
-   "date": "2015-03-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 217285,
-   "name": "シドニアの騎士 あいつむぐほし",
-   "nameCN": "希德尼娅的骑士 编织爱的行星",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/75/217285_3GYu9.jpg",
-   "date": "2021-06-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 77476,
-   "dst": 105255
-  },
-  {
-   "relate": "总集篇",
-   "src": 77476,
-   "dst": 118098
-  },
-  {
-   "relate": "前传",
-   "src": 105255,
-   "dst": 77476
-  },
-  {
-   "relate": "续集",
-   "src": 105255,
-   "dst": 217285
-  },
-  {
-   "relate": "全集",
-   "src": 118098,
-   "dst": 77476
-  },
-  {
-   "relate": "前传",
-   "src": 217285,
-   "dst": 105255
-  }
- ]
+  "id": "77476",
+  "node": [
+    {
+      "id": 77476,
+      "name": "シドニアの騎士",
+      "nameCN": "希德尼娅的骑士",
+      "date": "2014-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 105255,
+      "name": "シドニアの騎士 第九惑星戦役",
+      "nameCN": "希德尼娅的骑士 第九惑星战役",
+      "date": "2015-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 118098,
+      "name": "劇場版 シドニアの騎士",
+      "nameCN": "剧场版 希德尼娅的骑士",
+      "date": "2015-03-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 217285,
+      "name": "シドニアの騎士 あいつむぐほし",
+      "nameCN": "希德尼娅的骑士 编织爱的行星",
+      "date": "2021-06-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 77476,
+      "dst": 105255
+    },
+    {
+      "relateString": "总集篇",
+      "src": 77476,
+      "dst": 118098
+    },
+    {
+      "relateString": "前传",
+      "src": 105255,
+      "dst": 77476
+    },
+    {
+      "relateString": "续集",
+      "src": 105255,
+      "dst": 217285
+    },
+    {
+      "relateString": "全集",
+      "src": 118098,
+      "dst": 77476
+    },
+    {
+      "relateString": "前传",
+      "src": 217285,
+      "dst": 105255
+    }
+  ]
 }

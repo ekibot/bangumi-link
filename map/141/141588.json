@@ -1,37 +1,35 @@
 {
- "id": 141588,
- "node": [
-  {
-   "id": 141588,
-   "name": "オシリスの天秤",
-   "nameCN": "欧西里斯的天秤",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/07/141588_Mkd24.jpg",
-   "date": "2015-08-01",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 177664,
-   "name": "オシリスの天秤 第2期",
-   "nameCN": "欧西里斯的天秤 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/db/177664_IxCcr.jpg",
-   "date": "2016-04-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 141588,
-   "dst": 177664
-  },
-  {
-   "relate": "前传",
-   "src": 177664,
-   "dst": 141588
-  }
- ]
+  "id": "141588",
+  "node": [
+    {
+      "id": 141588,
+      "name": "オシリスの天秤",
+      "nameCN": "欧西里斯的天秤",
+      "date": "2015-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 177664,
+      "name": "オシリスの天秤 第2期",
+      "nameCN": "欧西里斯的天秤 第二季",
+      "date": "2016-04-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 141588,
+      "dst": 177664
+    },
+    {
+      "relateString": "前传",
+      "src": 177664,
+      "dst": 141588
+    }
+  ]
 }

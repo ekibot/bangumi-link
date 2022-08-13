@@ -1,37 +1,35 @@
 {
- "id": 210469,
- "node": [
-  {
-   "id": 210469,
-   "name": "The Snowman and the Snowdog",
-   "nameCN": "雪人与雪犬",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/2e/210469_GGzgi.jpg",
-   "date": "2012-12-24",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 210495,
-   "name": "The Snowman",
-   "nameCN": "雪人",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/6c/210495_W1CQf.jpg",
-   "date": "1982-12-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 210469,
-   "dst": 210495
-  },
-  {
-   "relate": "续集",
-   "src": 210495,
-   "dst": 210469
-  }
- ]
+  "id": "210469",
+  "node": [
+    {
+      "id": 210469,
+      "name": "The Snowman and the Snowdog",
+      "nameCN": "雪人与雪犬",
+      "date": "2012-12-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 210495,
+      "name": "The Snowman",
+      "nameCN": "雪人",
+      "date": "1982-12-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 210469,
+      "dst": 210495
+    },
+    {
+      "relateString": "续集",
+      "src": 210495,
+      "dst": 210469
+    }
+  ]
 }

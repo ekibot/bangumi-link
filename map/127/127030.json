@@ -1,0 +1,51 @@
+{
+  "id": "127030",
+  "node": [
+    {
+      "id": 127030,
+      "name": "野球狂の詩",
+      "nameCN": "野球狂之诗",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259539,
+      "name": "野球狂の詩 平成編",
+      "nameCN": "野球狂之诗 平成篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 259540,
+      "name": "新・野球狂の詩",
+      "nameCN": "新・野球狂之诗",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127030,
+      "dst": 259539
+    },
+    {
+      "relateString": "前传",
+      "src": 259539,
+      "dst": 127030
+    },
+    {
+      "relateString": "续集",
+      "src": 259539,
+      "dst": 259540
+    },
+    {
+      "relateString": "前传",
+      "src": 259540,
+      "dst": 259539
+    }
+  ]
+}

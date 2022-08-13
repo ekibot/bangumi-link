@@ -1,37 +1,35 @@
 {
- "id": 127051,
- "node": [
-  {
-   "id": 127051,
-   "name": "鬥魚",
-   "nameCN": "斗鱼",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/66/127051_qqY33.jpg",
-   "date": "2004-01-28",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 127055,
-   "name": "鬥魚II",
-   "nameCN": "斗鱼II",
-   "image": "https://lain.bgm.tv/pic/cover/m/3a/00/127055_PP623.jpg",
-   "date": "2004-09-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 127051,
-   "dst": 127055
-  },
-  {
-   "relate": "前传",
-   "src": 127055,
-   "dst": 127051
-  }
- ]
+  "id": "127051",
+  "node": [
+    {
+      "id": 127051,
+      "name": "鬥魚",
+      "nameCN": "斗鱼",
+      "date": "2004-01-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 127055,
+      "name": "鬥魚II",
+      "nameCN": "斗鱼II",
+      "date": "2004-09-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 127051,
+      "dst": 127055
+    },
+    {
+      "relateString": "前传",
+      "src": 127055,
+      "dst": 127051
+    }
+  ]
 }

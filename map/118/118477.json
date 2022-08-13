@@ -1,37 +1,33 @@
 {
- "id": 118477,
- "node": [
-  {
-   "id": 118477,
-   "name": "PPア・ラ・カルト",
-   "nameCN": "爸爸的调情菜单",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/25/118477_jp.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118478,
-   "name": "PPコンプレックス",
-   "nameCN": "恋恋情深赤子心",
-   "image": "https://lain.bgm.tv/pic/cover/m/16/ae/118478_e8vMp.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 118477,
-   "dst": 118478
-  },
-  {
-   "relate": "续集",
-   "src": 118478,
-   "dst": 118477
-  }
- ]
+  "id": "118477",
+  "node": [
+    {
+      "id": 118477,
+      "name": "PPア・ラ・カルト",
+      "nameCN": "爸爸的调情菜单",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118478,
+      "name": "PPコンプレックス",
+      "nameCN": "恋恋情深赤子心",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 118477,
+      "dst": 118478
+    },
+    {
+      "relateString": "续集",
+      "src": 118478,
+      "dst": 118477
+    }
+  ]
 }

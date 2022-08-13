@@ -1,37 +1,35 @@
 {
- "id": 222888,
- "node": [
-  {
-   "id": 222888,
-   "name": "Barbie and Her Sisters in the Great Puppy Adventure",
-   "nameCN": "芭比与姐妹之狗狗大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/75/222888_3cTbQ.jpg",
-   "date": "2015-10-20",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 222889,
-   "name": "Barbie and Her Sisters in a Puppy Chase",
-   "nameCN": "芭比与姐妹之狗狗奇遇记",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/1b/222889_MaG4d.jpg",
-   "date": "2016-10-18",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 222888,
-   "dst": 222889
-  },
-  {
-   "relate": "前传",
-   "src": 222889,
-   "dst": 222888
-  }
- ]
+  "id": "222888",
+  "node": [
+    {
+      "id": 222888,
+      "name": "Barbie and Her Sisters in the Great Puppy Adventure",
+      "nameCN": "芭比与姐妹之狗狗大冒险",
+      "date": "2015-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 222889,
+      "name": "Barbie and Her Sisters in a Puppy Chase",
+      "nameCN": "芭比与姐妹之狗狗奇遇记",
+      "date": "2016-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 222888,
+      "dst": 222889
+    },
+    {
+      "relateString": "前传",
+      "src": 222889,
+      "dst": 222888
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 108010,
- "node": [
-  {
-   "id": 108010,
-   "name": "音楽少女",
-   "nameCN": "音乐少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/78/108010_734Z9.jpg",
-   "date": "2015-03-22",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 240366,
-   "name": "音楽少女",
-   "nameCN": "音乐少女",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/78/240366_SH9Do.jpg",
-   "date": "2018-07-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 108010,
-   "dst": 240366
-  },
-  {
-   "relate": "不同演绎",
-   "src": 240366,
-   "dst": 108010
-  }
- ]
+  "id": "108010",
+  "node": [
+    {
+      "id": 108010,
+      "name": "音楽少女",
+      "nameCN": "音乐少女",
+      "date": "2015-03-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 240366,
+      "name": "音楽少女",
+      "nameCN": "音乐少女",
+      "date": "2018-07-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 108010,
+      "dst": 240366
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 240366,
+      "dst": 108010
+    }
+  ]
 }

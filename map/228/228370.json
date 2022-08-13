@@ -1,37 +1,35 @@
 {
- "id": 228370,
- "node": [
-  {
-   "id": 228370,
-   "name": "彼女の肖像",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/73/228370_76lC7.jpg",
-   "date": "2015-06-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 228376,
-   "name": "醜悪絵画",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/ba/228376_tLK00.jpg",
-   "date": "2017-01-22",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 228370,
-   "dst": 228376
-  },
-  {
-   "relate": "前传",
-   "src": 228376,
-   "dst": 228370
-  }
- ]
+  "id": "228370",
+  "node": [
+    {
+      "id": 228370,
+      "name": "彼女の肖像",
+      "nameCN": "",
+      "date": "2015-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228376,
+      "name": "醜悪絵画",
+      "nameCN": "",
+      "date": "2017-01-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 228370,
+      "dst": 228376
+    },
+    {
+      "relateString": "前传",
+      "src": 228376,
+      "dst": 228370
+    }
+  ]
 }

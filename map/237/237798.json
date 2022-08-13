@@ -1,77 +1,73 @@
 {
- "id": 237798,
- "node": [
-  {
-   "id": 237798,
-   "name": "Legacy of Kain: Soul Reaver",
-   "nameCN": "凯恩的遗产：勾魂使者",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/f0/237798_B07Tk.jpg",
-   "date": "1999-08-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 240099,
-   "name": "Blood Omen: Legacy of Kain",
-   "nameCN": "凯恩的遗产：血兆",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/e9/240099_oKbNl.jpg",
-   "date": "1996-11-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 240792,
-   "name": "Blood Omen 2",
-   "nameCN": "血兆2",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/97/240792_rut8R.jpg",
-   "date": "2002-03-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 240809,
-   "name": "Soul Reaver 2",
-   "nameCN": "勾魂使者2",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/17/240809_98Ip9.jpg",
-   "date": "2001-10-31",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 237798,
-   "dst": 240099
-  },
-  {
-   "relate": "续集",
-   "src": 237798,
-   "dst": 240809
-  },
-  {
-   "relate": "续集",
-   "src": 240099,
-   "dst": 237798
-  },
-  {
-   "relate": "前传",
-   "src": 240099,
-   "dst": 240792
-  },
-  {
-   "relate": "续集",
-   "src": 240792,
-   "dst": 240099
-  },
-  {
-   "relate": "前传",
-   "src": 240809,
-   "dst": 237798
-  }
- ]
+  "id": "237798",
+  "node": [
+    {
+      "id": 237798,
+      "name": "Legacy of Kain: Soul Reaver",
+      "nameCN": "凯恩的遗产：勾魂使者",
+      "date": "1999-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240099,
+      "name": "Blood Omen: Legacy of Kain",
+      "nameCN": "凯恩的遗产：血兆",
+      "date": "1996-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240809,
+      "name": "Soul Reaver 2",
+      "nameCN": "勾魂使者2",
+      "date": "2001-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240792,
+      "name": "Blood Omen 2",
+      "nameCN": "血兆2",
+      "date": "2002-03-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 237798,
+      "dst": 240099
+    },
+    {
+      "relateString": "续集",
+      "src": 237798,
+      "dst": 240809
+    },
+    {
+      "relateString": "续集",
+      "src": 240099,
+      "dst": 237798
+    },
+    {
+      "relateString": "前传",
+      "src": 240099,
+      "dst": 240792
+    },
+    {
+      "relateString": "续集",
+      "src": 240792,
+      "dst": 240099
+    },
+    {
+      "relateString": "前传",
+      "src": 240809,
+      "dst": 237798
+    }
+  ]
 }

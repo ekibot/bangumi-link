@@ -1,37 +1,33 @@
 {
- "id": 236155,
- "node": [
-  {
-   "id": 236155,
-   "name": "trap adventure",
-   "nameCN": "trap adventure",
-   "image": "https://lain.bgm.tv/pic/cover/m/54/13/236155_9naNk.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 236157,
-   "name": "trap adventure 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/85/236157_PsSnQ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 236155,
-   "dst": 236157
-  },
-  {
-   "relate": "前传",
-   "src": 236157,
-   "dst": 236155
-  }
- ]
+  "id": "236155",
+  "node": [
+    {
+      "id": 236155,
+      "name": "trap adventure",
+      "nameCN": "trap adventure",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 236157,
+      "name": "trap adventure 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 236155,
+      "dst": 236157
+    },
+    {
+      "relateString": "前传",
+      "src": 236157,
+      "dst": 236155
+    }
+  ]
 }

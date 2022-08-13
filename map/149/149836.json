@@ -1,37 +1,34 @@
 {
- "id": 149836,
- "node": [
-  {
-   "id": 149836,
-   "name": "KEY JACK",
-   "nameCN": "天才锁匠",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/4f/149836_cwHUo.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 149865,
-   "name": "KEY JACK TEENAGE EDITION",
-   "nameCN": "Key Jack ~ 天才解锁少年 ~",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/e0/149865_GTY41.jpg",
-   "date": "2011-12-16",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 149836,
-   "dst": 149865
-  },
-  {
-   "relate": "前传",
-   "src": 149865,
-   "dst": 149836
-  }
- ]
+  "id": "149836",
+  "node": [
+    {
+      "id": 149836,
+      "name": "KEY JACK",
+      "nameCN": "天才锁匠",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 149865,
+      "name": "KEY JACK TEENAGE EDITION",
+      "nameCN": "Key Jack ~ 天才解锁少年 ~",
+      "date": "2011-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 149836,
+      "dst": 149865
+    },
+    {
+      "relateString": "前传",
+      "src": 149865,
+      "dst": 149836
+    }
+  ]
 }

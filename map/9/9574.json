@@ -1,57 +1,52 @@
 {
- "id": 9574,
- "node": [
-  {
-   "id": 9574,
-   "name": "Galaxian",
-   "nameCN": "小蜜蜂",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/54/9574_93B9Z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 99717,
-   "name": "Galaga Legions DX",
-   "nameCN": "大蜜蜂军团",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/ae/99717_eoF4z.jpg",
-   "date": "2008-08-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 216403,
-   "name": "Galaga",
-   "nameCN": "大蜜蜂",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/35/216403_bZC77.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 9574,
-   "dst": 216403
-  },
-  {
-   "relate": "不同演绎",
-   "src": 99717,
-   "dst": 216403
-  },
-  {
-   "relate": "前传",
-   "src": 216403,
-   "dst": 9574
-  },
-  {
-   "relate": "不同演绎",
-   "src": 216403,
-   "dst": 99717
-  }
- ]
+  "id": "9574",
+  "node": [
+    {
+      "id": 9574,
+      "name": "Galaxian",
+      "nameCN": "小蜜蜂",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216403,
+      "name": "Galaga",
+      "nameCN": "大蜜蜂",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99717,
+      "name": "Galaga Legions DX",
+      "nameCN": "大蜜蜂军团",
+      "date": "2008-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 9574,
+      "dst": 216403
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 99717,
+      "dst": 216403
+    },
+    {
+      "relateString": "前传",
+      "src": 216403,
+      "dst": 9574
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 216403,
+      "dst": 99717
+    }
+  ]
 }

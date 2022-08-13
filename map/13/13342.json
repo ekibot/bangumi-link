@@ -1,81 +1,102 @@
 {
- "id": 13342,
- "node": [
-  {
-   "id": 13342,
-   "name": "下級生",
-   "nameCN": "下级生",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/c4/13342_LJviv.jpg",
-   "date": "1999-07-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 16340,
-   "name": "下級生2 ～瞳の中の少女たち～",
-   "nameCN": "下级生2 ～瞳孔中的少女们～",
-   "image": "https://lain.bgm.tv/pic/cover/m/df/dd/16340_IJCB2.jpg",
-   "type": 2,
-   "date": "2004-10-07",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 78804,
-   "name": "下級生2〜季花詞集 Anthology〜",
-   "nameCN": "下级生2～季花词集～",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/66/78804_57GTG.jpg",
-   "type": 2
-  },
-  {
-   "id": 78805,
-   "name": "下級生2〜Sketchbook〜",
-   "nameCN": "下级生2～Sketchbook～",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/4d/78805_nW558.jpg",
-   "type": 2
-  },
-  {
-   "id": 100660,
-   "name": "エルフ版 下級生 あなただけを見つめて…",
-   "nameCN": "下级生",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/1c/100660_GO71b.jpg",
-   "type": 2,
-   "date": "1997-11-24",
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 13342,
-   "dst": 16340
-  },
-  {
-   "relate": "不同演绎",
-   "src": 13342,
-   "dst": 100660
-  },
-  {
-   "relate": "相同世界观",
-   "src": 16340,
-   "dst": 13342
-  },
-  {
-   "relate": "不同演绎",
-   "src": 16340,
-   "dst": 78804
-  },
-  {
-   "relate": "不同演绎",
-   "src": 16340,
-   "dst": 78805
-  },
-  {
-   "relate": "不同演绎",
-   "src": 100660,
-   "dst": 13342
-  }
- ]
+  "id": "13342",
+  "node": [
+    {
+      "id": 13342,
+      "name": "下級生",
+      "nameCN": "下级生",
+      "date": "1999-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 16340,
+      "name": "下級生2 ～瞳の中の少女たち～",
+      "nameCN": "下级生2 ～瞳孔中的少女们～",
+      "date": "2004-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 100660,
+      "name": "エルフ版 下級生 あなただけを見つめて…",
+      "nameCN": "下级生",
+      "date": "1997-11-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 78804,
+      "name": "下級生2〜季花詞集 Anthology〜",
+      "nameCN": "下级生2～季花词集～",
+      "date": "2006-03-24",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 78805,
+      "name": "下級生2〜Sketchbook〜",
+      "nameCN": "下级生2～Sketchbook～",
+      "date": "2007-05-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 13342,
+      "dst": 16340
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 13342,
+      "dst": 100660
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 16340,
+      "dst": 13342
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 16340,
+      "dst": 78804
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 16340,
+      "dst": 78805
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 78804,
+      "dst": 16340
+    },
+    {
+      "relateString": "续集",
+      "src": 78804,
+      "dst": 78805
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 78805,
+      "dst": 16340
+    },
+    {
+      "relateString": "前传",
+      "src": 78805,
+      "dst": 78804
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 100660,
+      "dst": 13342
+    }
+  ]
 }

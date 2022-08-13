@@ -1,37 +1,34 @@
 {
- "id": 99949,
- "node": [
-  {
-   "id": 99949,
-   "name": "TIME TO STAR 星光之路",
-   "nameCN": "星光之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/56/99949_3z5CF.jpg",
-   "date": "2014-01-16",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 114551,
-   "name": "TIME TO STARⅡ 偶像之路",
-   "nameCN": "偶像之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/62/114551_EDIQB.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 99949,
-   "dst": 114551
-  },
-  {
-   "relate": "前传",
-   "src": 114551,
-   "dst": 99949
-  }
- ]
+  "id": "99949",
+  "node": [
+    {
+      "id": 99949,
+      "name": "TIME TO STAR 星光之路",
+      "nameCN": "星光之路",
+      "date": "2014-01-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 114551,
+      "name": "TIME TO STARⅡ 偶像之路",
+      "nameCN": "偶像之路",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 99949,
+      "dst": 114551
+    },
+    {
+      "relateString": "前传",
+      "src": 114551,
+      "dst": 99949
+    }
+  ]
 }

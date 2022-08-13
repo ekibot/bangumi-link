@@ -1,37 +1,35 @@
 {
- "id": 298373,
- "node": [
-  {
-   "id": 298373,
-   "name": "Monster Prom",
-   "nameCN": "魔物舞会",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/fb/298373_2M55V.jpg",
-   "date": "2018-04-27",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 317708,
-   "name": "Monster Prom 2: Monster Camp",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/98/317708_8ccI8.jpg",
-   "date": "2020-10-23",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 298373,
-   "dst": 317708
-  },
-  {
-   "relate": "前传",
-   "src": 317708,
-   "dst": 298373
-  }
- ]
+  "id": "298373",
+  "node": [
+    {
+      "id": 298373,
+      "name": "Monster Prom",
+      "nameCN": "魔物舞会",
+      "date": "2018-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 317708,
+      "name": "Monster Prom 2: Monster Camp",
+      "nameCN": "",
+      "date": "2020-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 298373,
+      "dst": 317708
+    },
+    {
+      "relateString": "前传",
+      "src": 317708,
+      "dst": 298373
+    }
+  ]
 }

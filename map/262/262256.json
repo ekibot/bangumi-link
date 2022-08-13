@@ -1,37 +1,35 @@
 {
- "id": 262256,
- "node": [
-  {
-   "id": 262256,
-   "name": "ザ・ファブル",
-   "nameCN": "杀手寓言",
-   "image": "https://lain.bgm.tv/pic/cover/m/3d/33/262256_oSl44.jpg",
-   "date": "2019-06-21",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 316556,
-   "name": "ザ・ファブル 殺さない殺し屋",
-   "nameCN": "杀手寓言 杀不死的杀手",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/50/316556_462Qu.jpg",
-   "date": "2021-06-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 262256,
-   "dst": 316556
-  },
-  {
-   "relate": "前传",
-   "src": 316556,
-   "dst": 262256
-  }
- ]
+  "id": "262256",
+  "node": [
+    {
+      "id": 262256,
+      "name": "ザ・ファブル",
+      "nameCN": "杀手寓言",
+      "date": "2019-06-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 316556,
+      "name": "ザ・ファブル 殺さない殺し屋",
+      "nameCN": "杀手寓言 杀不死的杀手",
+      "date": "2021-06-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 262256,
+      "dst": 316556
+    },
+    {
+      "relateString": "前传",
+      "src": 316556,
+      "dst": 262256
+    }
+  ]
 }

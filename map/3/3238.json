@@ -1,71 +1,68 @@
 {
- "id": 3238,
- "node": [
-  {
-   "id": 3238,
-   "name": "グランディアII",
-   "nameCN": "格兰蒂亚2",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/8a/3238_r18br.jpg",
-   "date": "2000-08-03",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 20145,
-   "name": "グランディアⅢ",
-   "nameCN": "格兰蒂亚3",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/cf/20145_KQnN0.jpg",
-   "date": "2005-08-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 61508,
-   "name": "グランディア",
-   "nameCN": "格兰蒂亚",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/8f/61508_ORrt1.jpg",
-   "date": "1997-12-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 123922,
-   "name": "グランディア ～デジタルミュージアム～",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/78/123922_MRO83.jpg",
-   "date": "1998-05-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 3238,
-   "dst": 20145
-  },
-  {
-   "relate": "前传",
-   "src": 3238,
-   "dst": 61508
-  },
-  {
-   "relate": "前传",
-   "src": 20145,
-   "dst": 3238
-  },
-  {
-   "relate": "续集",
-   "src": 61508,
-   "dst": 3238
-  },
-  {
-   "relate": "主线故事",
-   "src": 123922,
-   "dst": 61508
-  }
- ]
+  "id": "3238",
+  "node": [
+    {
+      "id": 3238,
+      "name": "グランディアII",
+      "nameCN": "格兰蒂亚2",
+      "date": "2000-08-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 20145,
+      "name": "グランディアⅢ",
+      "nameCN": "格兰蒂亚3",
+      "date": "2005-08-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 61508,
+      "name": "グランディア",
+      "nameCN": "格兰蒂亚",
+      "date": "1997-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 123922,
+      "name": "グランディア ～デジタルミュージアム～",
+      "nameCN": "",
+      "date": "1998-05-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 3238,
+      "dst": 20145
+    },
+    {
+      "relateString": "前传",
+      "src": 3238,
+      "dst": 61508
+    },
+    {
+      "relateString": "前传",
+      "src": 20145,
+      "dst": 3238
+    },
+    {
+      "relateString": "续集",
+      "src": 61508,
+      "dst": 3238
+    },
+    {
+      "relateString": "主线故事",
+      "src": 123922,
+      "dst": 61508
+    }
+  ]
 }

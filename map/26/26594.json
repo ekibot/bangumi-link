@@ -1,37 +1,35 @@
 {
- "id": 26594,
- "node": [
-  {
-   "id": 26594,
-   "name": "ダロス",
-   "nameCN": "宇宙战争",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/2a/26594_M2O1N.jpg",
-   "date": "1983-12-14",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 26672,
-   "name": "ダロス Special",
-   "nameCN": "宇宙战争 总集篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/1b/26672_V19Xh.jpg",
-   "date": "1985-08-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 26594,
-   "dst": 26672
-  },
-  {
-   "relate": "全集",
-   "src": 26672,
-   "dst": 26594
-  }
- ]
+  "id": "26594",
+  "node": [
+    {
+      "id": 26594,
+      "name": "ダロス",
+      "nameCN": "宇宙战争",
+      "date": "1983-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 26672,
+      "name": "ダロス Special",
+      "nameCN": "宇宙战争 总集篇",
+      "date": "1985-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 26594,
+      "dst": 26672
+    },
+    {
+      "relateString": "全集",
+      "src": 26672,
+      "dst": 26594
+    }
+  ]
 }

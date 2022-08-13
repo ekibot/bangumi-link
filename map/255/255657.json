@@ -1,37 +1,35 @@
 {
- "id": 255657,
- "node": [
-  {
-   "id": 255657,
-   "name": "ひらがな推し",
-   "nameCN": "平假名推",
-   "image": "https://lain.bgm.tv/pic/cover/m/5a/f5/255657_u4dpp.jpg",
-   "date": "2018-04-08",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 278790,
-   "name": "日向坂で会いましょう",
-   "nameCN": "在日向坂相会",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/6c/278790_2oeEc.jpg",
-   "date": "2019-04-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 255657,
-   "dst": 278790
-  },
-  {
-   "relate": "前传",
-   "src": 278790,
-   "dst": 255657
-  }
- ]
+  "id": "255657",
+  "node": [
+    {
+      "id": 255657,
+      "name": "ひらがな推し",
+      "nameCN": "平假名推",
+      "date": "2018-04-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 278790,
+      "name": "日向坂で会いましょう",
+      "nameCN": "在日向坂相会",
+      "date": "2019-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 255657,
+      "dst": 278790
+    },
+    {
+      "relateString": "前传",
+      "src": 278790,
+      "dst": 255657
+    }
+  ]
 }

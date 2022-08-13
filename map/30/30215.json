@@ -1,23 +1,35 @@
 {
- "id": 30215,
- "node": [
-  {
-   "id": 30215,
-   "name": "少女連鎖 ～Heart of the distortion～",
-   "image": "/img/no_icon_subject.png",
-   "date": "2005-12-02"
-  },
-  {
-   "id": 222423,
-   "name": "少女連鎖２ ～童貞少年・快楽調教責め～",
-   "image": "/img/no_icon_subject.png"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30215,
-   "dst": 222423
-  }
- ]
+  "id": "30215",
+  "node": [
+    {
+      "id": 30215,
+      "name": "少女連鎖 ～Heart of the distortion～",
+      "nameCN": "",
+      "date": "2005-12-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 222423,
+      "name": "少女連鎖２ ～童貞少年・快楽調教責め～",
+      "nameCN": "",
+      "date": "2007-02-23",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30215,
+      "dst": 222423
+    },
+    {
+      "relateString": "前传",
+      "src": 222423,
+      "dst": 30215
+    }
+  ]
 }

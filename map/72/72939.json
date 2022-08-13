@@ -1,37 +1,35 @@
 {
- "id": 72939,
- "node": [
-  {
-   "id": 72939,
-   "name": "明治緋色綺譚",
-   "nameCN": "明治绯色绮谭",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/7b/72939_hVrhW.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 169845,
-   "name": "明治メランコリア",
-   "nameCN": "明治恋爱忧郁谭",
-   "image": "https://lain.bgm.tv/pic/cover/m/1e/0c/169845_tC2M1.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72939,
-   "dst": 169845
-  },
-  {
-   "relate": "前传",
-   "src": 169845,
-   "dst": 72939
-  }
- ]
+  "id": "72939",
+  "node": [
+    {
+      "id": 72939,
+      "name": "明治緋色綺譚",
+      "nameCN": "明治绯色绮谭",
+      "date": "2011-10-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 169845,
+      "name": "明治メランコリア",
+      "nameCN": "明治恋爱忧郁谭",
+      "date": "2014-08-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72939,
+      "dst": 169845
+    },
+    {
+      "relateString": "前传",
+      "src": 169845,
+      "dst": 72939
+    }
+  ]
 }

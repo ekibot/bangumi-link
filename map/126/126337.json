@@ -1,117 +1,111 @@
 {
- "id": 126337,
- "node": [
-  {
-   "id": 126337,
-   "name": "學警狙擊",
-   "nameCN": "学警狙击",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/e1/126337_7O6y2.jpg",
-   "date": "2009-02-16",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 126338,
-   "name": "學警雄心",
-   "nameCN": "学警雄心",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/b3/126338_PFAQ1.jpg",
-   "date": "2005-04-11",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 126339,
-   "name": "學警出更",
-   "nameCN": "学警出更",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/1d/126339_BxB6k.jpg",
-   "date": "2007-06-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 128575,
-   "name": "潛行狙擊",
-   "nameCN": "潜行狙击",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/80/128575_C7tKD.jpg",
-   "date": "2011-08-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  },
-  {
-   "id": 128576,
-   "name": "Laughing Gor之潛罪犯",
-   "nameCN": "Laughing Gor之潜罪犯",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/d7/128576_88eP3.jpg",
-   "date": "2011-12-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 128577,
-   "name": "Laughing Gor之變節",
-   "nameCN": "Laughing Gor之变节",
-   "image": "https://lain.bgm.tv/pic/cover/m/99/2c/128577_wcu4c.jpg",
-   "date": "2009-08-13",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 126337,
-   "dst": 126339
-  },
-  {
-   "relate": "衍生",
-   "src": 126337,
-   "dst": 128575
-  },
-  {
-   "relate": "衍生",
-   "src": 126337,
-   "dst": 128577
-  },
-  {
-   "relate": "续集",
-   "src": 126338,
-   "dst": 126339
-  },
-  {
-   "relate": "续集",
-   "src": 126339,
-   "dst": 126337
-  },
-  {
-   "relate": "前传",
-   "src": 126339,
-   "dst": 126338
-  },
-  {
-   "relate": "衍生",
-   "src": 128575,
-   "dst": 126337
-  },
-  {
-   "relate": "续集",
-   "src": 128575,
-   "dst": 128576
-  },
-  {
-   "relate": "前传",
-   "src": 128576,
-   "dst": 128575
-  },
-  {
-   "relate": "衍生",
-   "src": 128577,
-   "dst": 126337
-  }
- ]
+  "id": "126337",
+  "node": [
+    {
+      "id": 126337,
+      "name": "學警狙擊",
+      "nameCN": "学警狙击",
+      "date": "2009-02-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 126339,
+      "name": "學警出更",
+      "nameCN": "学警出更",
+      "date": "2007-06-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128575,
+      "name": "潛行狙擊",
+      "nameCN": "潜行狙击",
+      "date": "2011-08-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128577,
+      "name": "Laughing Gor之變節",
+      "nameCN": "Laughing Gor之变节",
+      "date": "2009-08-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 126338,
+      "name": "學警雄心",
+      "nameCN": "学警雄心",
+      "date": "2005-04-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 128576,
+      "name": "Laughing Gor之潛罪犯",
+      "nameCN": "Laughing Gor之潜罪犯",
+      "date": "2011-12-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 126337,
+      "dst": 126339
+    },
+    {
+      "relateString": "衍生",
+      "src": 126337,
+      "dst": 128575
+    },
+    {
+      "relateString": "衍生",
+      "src": 126337,
+      "dst": 128577
+    },
+    {
+      "relateString": "续集",
+      "src": 126338,
+      "dst": 126339
+    },
+    {
+      "relateString": "续集",
+      "src": 126339,
+      "dst": 126337
+    },
+    {
+      "relateString": "前传",
+      "src": 126339,
+      "dst": 126338
+    },
+    {
+      "relateString": "衍生",
+      "src": 128575,
+      "dst": 126337
+    },
+    {
+      "relateString": "续集",
+      "src": 128575,
+      "dst": 128576
+    },
+    {
+      "relateString": "前传",
+      "src": 128576,
+      "dst": 128575
+    },
+    {
+      "relateString": "衍生",
+      "src": 128577,
+      "dst": 126337
+    }
+  ]
 }

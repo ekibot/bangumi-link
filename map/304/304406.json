@@ -1,37 +1,33 @@
 {
- "id": 304406,
- "node": [
-  {
-   "id": 304406,
-   "name": "ハイウェイ・バトルR×R",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/ce/304406_wjTw5.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 304407,
-   "name": "ハイウェイ・バトルＲ×Ｒ２　マキシマム・スピード",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/74/304407_jsbr1.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 304406,
-   "dst": 304407
-  },
-  {
-   "relate": "前传",
-   "src": 304407,
-   "dst": 304406
-  }
- ]
+  "id": "304406",
+  "node": [
+    {
+      "id": 304406,
+      "name": "ハイウェイ・バトルR×R",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 304407,
+      "name": "ハイウェイ・バトルＲ×Ｒ２　マキシマム・スピード",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 304406,
+      "dst": 304407
+    },
+    {
+      "relateString": "前传",
+      "src": 304407,
+      "dst": 304406
+    }
+  ]
 }

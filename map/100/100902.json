@@ -1,37 +1,35 @@
 {
- "id": 100902,
- "node": [
-  {
-   "id": 100902,
-   "name": "箱庭ロジック",
-   "nameCN": "箱庭逻辑",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/4d/100902_Z4oyo.jpg",
-   "date": "2014-10-31",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 180012,
-   "name": "箱庭ロジック～瑚子といちゃらぶＳＭ生活～",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/88/180012_V5G97.jpg",
-   "date": "2016-06-24",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 100902,
-   "dst": 180012
-  },
-  {
-   "relate": "前传",
-   "src": 180012,
-   "dst": 100902
-  }
- ]
+  "id": "100902",
+  "node": [
+    {
+      "id": 100902,
+      "name": "箱庭ロジック",
+      "nameCN": "箱庭逻辑",
+      "date": "2014-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 180012,
+      "name": "箱庭ロジック～瑚子といちゃらぶＳＭ生活～",
+      "nameCN": "",
+      "date": "2016-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 100902,
+      "dst": 180012
+    },
+    {
+      "relateString": "前传",
+      "src": 180012,
+      "dst": 100902
+    }
+  ]
 }

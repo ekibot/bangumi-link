@@ -1,37 +1,35 @@
 {
- "id": 219051,
- "node": [
-  {
-   "id": 219051,
-   "name": "一華後宮料理帖 第四品",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/2a/219051_jp.jpg",
-   "date": "2017-07-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 226043,
-   "name": "一華後宮料理帖 第五品",
-   "image": "https://lain.bgm.tv/pic/cover/m/c3/c1/226043_jp.jpg",
-   "date": "2017-10-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 219051,
-   "dst": 226043
-  },
-  {
-   "relate": "前传",
-   "src": 226043,
-   "dst": 219051
-  }
- ]
+  "id": "219051",
+  "node": [
+    {
+      "id": 219051,
+      "name": "一華後宮料理帖 第四品",
+      "nameCN": "",
+      "date": "2017-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 226043,
+      "name": "一華後宮料理帖 第五品",
+      "nameCN": "",
+      "date": "2017-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 219051,
+      "dst": 226043
+    },
+    {
+      "relateString": "前传",
+      "src": 226043,
+      "dst": 219051
+    }
+  ]
 }

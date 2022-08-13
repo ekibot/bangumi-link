@@ -1,37 +1,35 @@
 {
- "id": 144258,
- "node": [
-  {
-   "id": 144258,
-   "name": "姫君の輿入れ",
-   "nameCN": "少主的花轎",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/8c/144258_jp.jpg",
-   "date": "2005-12-22",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 144259,
-   "name": "貴公子の求婚",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/5d/144259_jp.jpg",
-   "date": "2008-12-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144258,
-   "dst": 144259
-  },
-  {
-   "relate": "前传",
-   "src": 144259,
-   "dst": 144258
-  }
- ]
+  "id": "144258",
+  "node": [
+    {
+      "id": 144258,
+      "name": "姫君の輿入れ",
+      "nameCN": "少主的花轎",
+      "date": "2005-12-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 144259,
+      "name": "貴公子の求婚",
+      "nameCN": "",
+      "date": "2008-12-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144258,
+      "dst": 144259
+    },
+    {
+      "relateString": "前传",
+      "src": 144259,
+      "dst": 144258
+    }
+  ]
 }

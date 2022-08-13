@@ -1,57 +1,54 @@
 {
- "id": 13485,
- "node": [
-  {
-   "id": 13485,
-   "name": "ロウきゅーぶ！",
-   "nameCN": "萝球社！",
-   "image": "https://lain.bgm.tv/pic/cover/m/57/f6/13485_j5Sd9.jpg",
-   "date": "2011-07-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 51935,
-   "name": "ロウきゅーぶ！SS",
-   "nameCN": "萝球社！SS",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/2f/51935_rzzeE.jpg",
-   "date": "2013-07-05",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 66523,
-   "name": "ロウきゅーぶ! OAD",
-   "nameCN": "萝球社 OAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/11/9d/66523_x1TqJ.jpg",
-   "date": "2013-06-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 13485,
-   "dst": 51935
-  },
-  {
-   "relate": "番外篇",
-   "src": 13485,
-   "dst": 66523
-  },
-  {
-   "relate": "前传",
-   "src": 51935,
-   "dst": 13485
-  },
-  {
-   "relate": "主线故事",
-   "src": 66523,
-   "dst": 13485
-  }
- ]
+  "id": "13485",
+  "node": [
+    {
+      "id": 13485,
+      "name": "ロウきゅーぶ！",
+      "nameCN": "萝球社！",
+      "date": "2011-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 51935,
+      "name": "ロウきゅーぶ！SS",
+      "nameCN": "萝球社！SS",
+      "date": "2013-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 66523,
+      "name": "ロウきゅーぶ! OAD",
+      "nameCN": "萝球社 OAD",
+      "date": "2013-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 13485,
+      "dst": 51935
+    },
+    {
+      "relateString": "番外篇",
+      "src": 13485,
+      "dst": 66523
+    },
+    {
+      "relateString": "前传",
+      "src": 51935,
+      "dst": 13485
+    },
+    {
+      "relateString": "主线故事",
+      "src": 66523,
+      "dst": 13485
+    }
+  ]
 }

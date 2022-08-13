@@ -1,37 +1,35 @@
 {
- "id": 198598,
- "node": [
-  {
-   "id": 198598,
-   "name": "ラブ米 -WE LOVE RICE-",
-   "nameCN": "爱米 -WE LOVE RICE-",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/21/198598_f3FSH.jpg",
-   "date": "2017-04-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 218383,
-   "name": "ラブ米 -WE LOVE RICE- 二期作",
-   "nameCN": "爱米 -WE LOVE RICE- 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/2e/218383_MkKBR.jpg",
-   "date": "2017-10-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198598,
-   "dst": 218383
-  },
-  {
-   "relate": "前传",
-   "src": 218383,
-   "dst": 198598
-  }
- ]
+  "id": "198598",
+  "node": [
+    {
+      "id": 198598,
+      "name": "ラブ米 -WE LOVE RICE-",
+      "nameCN": "爱米 -WE LOVE RICE-",
+      "date": "2017-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 218383,
+      "name": "ラブ米 -WE LOVE RICE- 二期作",
+      "nameCN": "爱米 -WE LOVE RICE- 第二季",
+      "date": "2017-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198598,
+      "dst": 218383
+    },
+    {
+      "relateString": "前传",
+      "src": 218383,
+      "dst": 198598
+    }
+  ]
 }

@@ -1,60 +1,64 @@
 {
- "id": 349477,
- "node": [
-  {
-   "id": 349477,
-   "name": "リンカーベル・アカデミア ～龍族のフィアンセ～",
-   "image": "https://lain.bgm.tv/pic/cover/m/92/c4/349477_AEDc0.jpg",
-   "date": "2021-10-29",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 354611,
-   "name": "リンカーベル・アカデミア～落第魔女とヒミツの儀式～",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/db/354611_N7Y7v.jpg",
-   "date": "2021-08-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 360135,
-   "name": "リンカーベル・アカデミア ～アルケミストは恋煩う～",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/fa/360135_f5I8u.jpg",
-   "type": 4,
-   "date": "2021-12-24",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 349477,
-   "dst": 354611
-  },
-  {
-   "relate": "续集",
-   "src": 354611,
-   "dst": 349477
-  },
-  {
-   "relate": "相同世界观",
-   "src": 354611,
-   "dst": 360135
-  },
-  {
-   "relate": "相同世界观",
-   "src": 360135,
-   "dst": 349477
-  },
-  {
-   "relate": "相同世界观",
-   "src": 360135,
-   "dst": 354611
-  }
- ]
+  "id": "349477",
+  "node": [
+    {
+      "id": 349477,
+      "name": "リンカーベル・アカデミア ～龍族のフィアンセ～",
+      "nameCN": "",
+      "date": "2021-10-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 354611,
+      "name": "リンカーベル・アカデミア～落第魔女とヒミツの儀式～",
+      "nameCN": "",
+      "date": "2021-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 360135,
+      "name": "リンカーベル・アカデミア ～アルケミストは恋煩う～",
+      "nameCN": "",
+      "date": "2021-12-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 349477,
+      "dst": 354611
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 349477,
+      "dst": 360135
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 354611,
+      "dst": 349477
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 354611,
+      "dst": 360135
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 360135,
+      "dst": 349477
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 360135,
+      "dst": 354611
+    }
+  ]
 }

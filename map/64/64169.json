@@ -1,57 +1,54 @@
 {
- "id": 64169,
- "node": [
-  {
-   "id": 64169,
-   "name": "俺と上司の恋の話",
-   "nameCN": "俺和上司的恋情",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/33/64169_jp.jpg",
-   "date": "2012-04-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 86582,
-   "name": "俺と部下の恋の先",
-   "nameCN": "俺和部下的恋爱之路",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/03/86582_jp.jpg",
-   "date": "2013-05-29",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 124813,
-   "name": "俺と彼氏の恋の果て",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/3e/124813_jp.jpg",
-   "date": "2014-11-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 64169,
-   "dst": 86582
-  },
-  {
-   "relate": "前传",
-   "src": 86582,
-   "dst": 64169
-  },
-  {
-   "relate": "续集",
-   "src": 86582,
-   "dst": 124813
-  },
-  {
-   "relate": "前传",
-   "src": 124813,
-   "dst": 86582
-  }
- ]
+  "id": "64169",
+  "node": [
+    {
+      "id": 64169,
+      "name": "俺と上司の恋の話",
+      "nameCN": "俺和上司的恋情",
+      "date": "2012-04-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 86582,
+      "name": "俺と部下の恋の先",
+      "nameCN": "俺和部下的恋爱之路",
+      "date": "2013-05-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 124813,
+      "name": "俺と彼氏の恋の果て",
+      "nameCN": "",
+      "date": "2014-11-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 64169,
+      "dst": 86582
+    },
+    {
+      "relateString": "前传",
+      "src": 86582,
+      "dst": 64169
+    },
+    {
+      "relateString": "续集",
+      "src": 86582,
+      "dst": 124813
+    },
+    {
+      "relateString": "前传",
+      "src": 124813,
+      "dst": 86582
+    }
+  ]
 }

@@ -1,34 +1,35 @@
 {
- "id": 15001,
- "node": [
-  {
-   "id": 15001,
-   "name": "Hyper→Highspeed→Genius",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/d0/15001_R9jw9.jpg",
-   "date": "2011-06-24",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 76189,
-   "name": "HHG 女神の終焉",
-   "image": "https://lain.bgm.tv/pic/cover/m/96/4d/76189_2XiD8.jpg",
-   "date": "2013-11-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 15001,
-   "dst": 76189
-  },
-  {
-   "relate": "前传",
-   "src": 76189,
-   "dst": 15001
-  }
- ]
+  "id": "15001",
+  "node": [
+    {
+      "id": 15001,
+      "name": "Hyper→Highspeed→Genius",
+      "nameCN": "",
+      "date": "2011-06-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 76189,
+      "name": "HHG 女神の終焉",
+      "nameCN": "",
+      "date": "2013-11-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 15001,
+      "dst": 76189
+    },
+    {
+      "relateString": "前传",
+      "src": 76189,
+      "dst": 15001
+    }
+  ]
 }

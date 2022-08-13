@@ -1,37 +1,34 @@
 {
- "id": 17825,
- "node": [
-  {
-   "id": 17825,
-   "name": "ラグーンエンジン アインザッツ",
-   "nameCN": "封魔少年前传",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/e6/17825_3XxXh.jpg",
-   "date": "2006-06-23",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 56107,
-   "name": "ラグーンエンジン",
-   "nameCN": "封魔少年焰&amp;阵",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/b6/56107_pAgBh.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 17825,
-   "dst": 56107
-  },
-  {
-   "relate": "前传",
-   "src": 56107,
-   "dst": 17825
-  }
- ]
+  "id": "17825",
+  "node": [
+    {
+      "id": 17825,
+      "name": "ラグーンエンジン アインザッツ",
+      "nameCN": "封魔少年前传",
+      "date": "2006-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 56107,
+      "name": "ラグーンエンジン",
+      "nameCN": "封魔少年焰&amp;阵",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 17825,
+      "dst": 56107
+    },
+    {
+      "relateString": "前传",
+      "src": 56107,
+      "dst": 17825
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 18243,
- "node": [
-  {
-   "id": 18243,
-   "name": "STEINS;GATE─シュタインズ・ゲート─円環連鎖のウロボロス",
-   "nameCN": "命运石之门 圆环连锁的衔尾蛇",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/b3/18243_gnA0Z.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 111837,
-   "name": "STEINS;GATE 比翼連理のアンダーリン",
-   "nameCN": "命运石之门 比翼连理的非恋人",
-   "image": "https://lain.bgm.tv/pic/cover/m/7b/bc/111837_czcX7.jpg",
-   "date": "2011-12-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 18243,
-   "dst": 111837
-  },
-  {
-   "relate": "续集",
-   "src": 111837,
-   "dst": 18243
-  }
- ]
+  "id": "18243",
+  "node": [
+    {
+      "id": 18243,
+      "name": "STEINS;GATE─シュタインズ・ゲート─円環連鎖のウロボロス",
+      "nameCN": "命运石之门 圆环连锁的衔尾蛇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 111837,
+      "name": "STEINS;GATE 比翼連理のアンダーリン",
+      "nameCN": "命运石之门 比翼连理的非恋人",
+      "date": "2011-12-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 18243,
+      "dst": 111837
+    },
+    {
+      "relateString": "续集",
+      "src": 111837,
+      "dst": 18243
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 92660,
- "node": [
-  {
-   "id": 92660,
-   "name": "もみじ－ワタシ…人形じゃありません…",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/5f/92660_1ze3i.jpg",
-   "date": "2001-04-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 223759,
-   "name": "もみじ Happy Story",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/29/223759_VJR0g.jpg",
-   "date": "2002-10-18",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 92660,
-   "dst": 223759
-  },
-  {
-   "relate": "前传",
-   "src": 223759,
-   "dst": 92660
-  }
- ]
+  "id": "92660",
+  "node": [
+    {
+      "id": 92660,
+      "name": "もみじ－ワタシ…人形じゃありません…",
+      "nameCN": "",
+      "date": "2001-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223759,
+      "name": "もみじ Happy Story",
+      "nameCN": "",
+      "date": "2002-10-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 92660,
+      "dst": 223759
+    },
+    {
+      "relateString": "前传",
+      "src": 223759,
+      "dst": 92660
+    }
+  ]
 }

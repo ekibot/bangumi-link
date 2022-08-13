@@ -1,37 +1,35 @@
 {
- "id": 321167,
- "node": [
-  {
-   "id": 321167,
-   "name": "ゆるキャン△ VIRTUAL CAMP ～本栖湖編～",
-   "nameCN": "摇曳露营△ VIRTUAL CAMP ～本栖湖篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/95/fa/321167_fxEXt.jpg",
-   "date": "2021-03-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 330422,
-   "name": "ゆるキャン△ VIRTUAL CAMP ～麓キャンプ場編～",
-   "nameCN": "摇曳露营△ VIRTUAL CAMP ～山麓露营场篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/0b/b5/330422_gu8fu.jpg",
-   "date": "2021-04-08",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 321167,
-   "dst": 330422
-  },
-  {
-   "relate": "前传",
-   "src": 330422,
-   "dst": 321167
-  }
- ]
+  "id": "321167",
+  "node": [
+    {
+      "id": 321167,
+      "name": "ゆるキャン△ VIRTUAL CAMP ～本栖湖編～",
+      "nameCN": "摇曳露营△ VIRTUAL CAMP ～本栖湖篇～",
+      "date": "2021-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 330422,
+      "name": "ゆるキャン△ VIRTUAL CAMP ～麓キャンプ場編～",
+      "nameCN": "摇曳露营△ VIRTUAL CAMP ～山麓露营场篇～",
+      "date": "2021-04-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 321167,
+      "dst": 330422
+    },
+    {
+      "relateString": "前传",
+      "src": 330422,
+      "dst": 321167
+    }
+  ]
 }

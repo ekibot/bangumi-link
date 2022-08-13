@@ -1,0 +1,54 @@
+{
+  "id": "279454",
+  "node": [
+    {
+      "id": 279454,
+      "name": "Sakura MMO",
+      "nameCN": "樱花MMO",
+      "date": "2018-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301608,
+      "name": "Sakura MMO 2",
+      "nameCN": "樱花MMO 2",
+      "date": "2019-01-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 301609,
+      "name": "Sakura MMO 3",
+      "nameCN": "樱花MMO 3",
+      "date": "2019-06-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 279454,
+      "dst": 301608
+    },
+    {
+      "relateString": "前传",
+      "src": 301608,
+      "dst": 279454
+    },
+    {
+      "relateString": "续集",
+      "src": 301608,
+      "dst": 301609
+    },
+    {
+      "relateString": "前传",
+      "src": 301609,
+      "dst": 301608
+    }
+  ]
+}

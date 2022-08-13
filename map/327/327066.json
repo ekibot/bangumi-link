@@ -1,34 +1,28 @@
 {
- "id": 327066,
- "node": [
-  {
-   "id": 327066,
-   "name": "情人节 不见不散",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 327067,
-   "name": "情人节2 世纪之恋",
-   "nameCN": "情人节2 世纪之恋",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "PC"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 327066,
-   "dst": 327067
-  },
-  {
-   "relate": "前传",
-   "src": 327067,
-   "dst": 327066
-  }
- ]
+  "id": "327066",
+  "node": [
+    {
+      "id": 327067,
+      "name": "情人节2 世纪之恋",
+      "nameCN": "情人节2 世纪之恋",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 327066,
+      "name": "情人节 不见不散",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 327067,
+      "dst": 327066
+    }
+  ]
 }

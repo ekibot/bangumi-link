@@ -1,37 +1,35 @@
 {
- "id": 202901,
- "node": [
-  {
-   "id": 202901,
-   "name": "MotoGP™13",
-   "nameCN": "摩托GP13",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/2e/202901_3b95l.jpg",
-   "date": "2013-06-20",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 287092,
-   "name": "MotoGP™14",
-   "nameCN": "摩托GP14",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/95/287092_z6AT5.jpg",
-   "date": "2014-06-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 202901,
-   "dst": 287092
-  },
-  {
-   "relate": "前传",
-   "src": 287092,
-   "dst": 202901
-  }
- ]
+  "id": "202901",
+  "node": [
+    {
+      "id": 202901,
+      "name": "MotoGP™13",
+      "nameCN": "摩托GP13",
+      "date": "2013-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 287092,
+      "name": "MotoGP™14",
+      "nameCN": "摩托GP14",
+      "date": "2014-06-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 202901,
+      "dst": 287092
+    },
+    {
+      "relateString": "前传",
+      "src": 287092,
+      "dst": 202901
+    }
+  ]
 }

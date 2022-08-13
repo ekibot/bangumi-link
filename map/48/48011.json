@@ -1,71 +1,68 @@
 {
- "id": 48011,
- "node": [
-  {
-   "id": 48011,
-   "name": "Scania Truck Driver Simulator",
-   "nameCN": "斯堪尼亚卡车模拟",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/c6/48011_EJccY.jpg",
-   "date": "2012-06-12",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 51678,
-   "name": "Euro Truck Simulator 2",
-   "nameCN": "欧洲卡车模拟2",
-   "image": "https://lain.bgm.tv/pic/cover/m/a9/8a/51678_r8XzQ.jpg",
-   "date": "2012-10-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 121873,
-   "name": "Euro Truck Simulator",
-   "nameCN": "欧洲卡车模拟",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/c8/121873_2lrF3.jpg",
-   "date": "2008-08-06",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 165273,
-   "name": "American Truck Simulator",
-   "nameCN": "美国卡车模拟",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/f2/165273_1R6Ll.jpg",
-   "date": "2016-02-03",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 48011,
-   "dst": 51678
-  },
-  {
-   "relate": "前传",
-   "src": 51678,
-   "dst": 121873
-  },
-  {
-   "relate": "不同演绎",
-   "src": 51678,
-   "dst": 165273
-  },
-  {
-   "relate": "续集",
-   "src": 121873,
-   "dst": 51678
-  },
-  {
-   "relate": "不同演绎",
-   "src": 165273,
-   "dst": 51678
-  }
- ]
+  "id": "48011",
+  "node": [
+    {
+      "id": 48011,
+      "name": "Scania Truck Driver Simulator",
+      "nameCN": "斯堪尼亚卡车模拟",
+      "date": "2012-06-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 51678,
+      "name": "Euro Truck Simulator 2",
+      "nameCN": "欧洲卡车模拟2",
+      "date": "2012-10-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 121873,
+      "name": "Euro Truck Simulator",
+      "nameCN": "欧洲卡车模拟",
+      "date": "2008-08-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 165273,
+      "name": "American Truck Simulator",
+      "nameCN": "美国卡车模拟",
+      "date": "2016-02-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 48011,
+      "dst": 51678
+    },
+    {
+      "relateString": "前传",
+      "src": 51678,
+      "dst": 121873
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 51678,
+      "dst": 165273
+    },
+    {
+      "relateString": "续集",
+      "src": 121873,
+      "dst": 51678
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 165273,
+      "dst": 51678
+    }
+  ]
 }

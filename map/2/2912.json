@@ -1,37 +1,35 @@
 {
- "id": 2912,
- "node": [
-  {
-   "id": 2912,
-   "name": "グラビテーション",
-   "nameCN": "万有引力",
-   "image": "https://lain.bgm.tv/pic/cover/m/c6/8c/2912_vjJ0V.jpg",
-   "date": "2000-10-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2913,
-   "name": "グラビテーション",
-   "nameCN": "万有引力OVA",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/1d/2913_VjJcI.jpg",
-   "date": "1999-07-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 2912,
-   "dst": 2913
-  },
-  {
-   "relate": "不同演绎",
-   "src": 2913,
-   "dst": 2912
-  }
- ]
+  "id": "2912",
+  "node": [
+    {
+      "id": 2912,
+      "name": "グラビテーション",
+      "nameCN": "万有引力",
+      "date": "2000-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2913,
+      "name": "グラビテーション",
+      "nameCN": "万有引力OVA",
+      "date": "1999-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 2912,
+      "dst": 2913
+    },
+    {
+      "relateString": "主线故事",
+      "src": 2913,
+      "dst": 2912
+    }
+  ]
 }

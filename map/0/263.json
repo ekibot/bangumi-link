@@ -1,186 +1,179 @@
 {
- "id": 263,
- "node": [
-  {
-   "id": 263,
-   "name": "Gears Of War",
-   "nameCN": "战争机器",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/19/263_itY34.jpg",
-   "date": "2006-11-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 640,
-   "name": "Gears of War 2",
-   "nameCN": "战争机器2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4f/fc/640_aus.jpg",
-   "date": "2008-11-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "Xbox360"
-  },
-  {
-   "id": 24645,
-   "name": "Gears of War 3",
-   "nameCN": "战争机器3",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/41/24645_GGHny.jpg",
-   "date": "2011-09-20",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 68573,
-   "name": "Gears of War：Jugement",
-   "nameCN": "战争机器：审判",
-   "image": "https://lain.bgm.tv/pic/cover/m/fe/f3/68573_7zb57.jpg",
-   "date": "2013-03-19",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 137441,
-   "name": "Gears of War: Ultimate Edition",
-   "nameCN": "战争机器：终极版",
-   "image": "https://lain.bgm.tv/pic/cover/m/6c/d8/137441_zH339.jpg",
-   "date": "2015-08-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 137443,
-   "name": "Gears of War 4",
-   "nameCN": "战争机器4",
-   "image": "https://lain.bgm.tv/pic/cover/m/2a/2a/137443_yJdyM.jpg",
-   "date": "2016-10-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 249289,
-   "name": "Gears Tactics",
-   "nameCN": "战争机器：战略版",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/15/249289_380At.jpg",
-   "date": "2020-04-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 249291,
-   "name": "Gears 5",
-   "nameCN": "战争机器5",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/39/249291_33OKb.jpg",
-   "date": "2019-09-10",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 263,
-   "dst": 640
-  },
-  {
-   "relate": "不同演绎",
-   "src": 263,
-   "dst": 137441
-  },
-  {
-   "relate": "相同世界观",
-   "src": 263,
-   "dst": 249289
-  },
-  {
-   "relate": "前传",
-   "src": 640,
-   "dst": 263
-  },
-  {
-   "relate": "续集",
-   "src": 640,
-   "dst": 24645
-  },
-  {
-   "relate": "相同世界观",
-   "src": 640,
-   "dst": 249289
-  },
-  {
-   "relate": "前传",
-   "src": 24645,
-   "dst": 640
-  },
-  {
-   "relate": "续集",
-   "src": 24645,
-   "dst": 137443
-  },
-  {
-   "relate": "相同世界观",
-   "src": 24645,
-   "dst": 249289
-  },
-  {
-   "relate": "主线故事",
-   "src": 68573,
-   "dst": 263
-  },
-  {
-   "relate": "主线故事",
-   "src": 68573,
-   "dst": 640
-  },
-  {
-   "relate": "主线故事",
-   "src": 68573,
-   "dst": 24645
-  },
-  {
-   "relate": "不同演绎",
-   "src": 137441,
-   "dst": 263
-  },
-  {
-   "relate": "相同世界观",
-   "src": 137441,
-   "dst": 249289
-  },
-  {
-   "relate": "前传",
-   "src": 137443,
-   "dst": 24645
-  },
-  {
-   "relate": "相同世界观",
-   "src": 137443,
-   "dst": 249289
-  },
-  {
-   "relate": "续集",
-   "src": 137443,
-   "dst": 249291
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249289,
-   "dst": 263
-  },
-  {
-   "relate": "前传",
-   "src": 249291,
-   "dst": 137443
-  },
-  {
-   "relate": "相同世界观",
-   "src": 249291,
-   "dst": 249289
-  }
- ]
+  "id": "263",
+  "node": [
+    {
+      "id": 263,
+      "name": "Gears Of War",
+      "nameCN": "战争机器",
+      "date": "2006-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 640,
+      "name": "Gears of War 2",
+      "nameCN": "战争机器2",
+      "date": "2008-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "Xbox360"
+    },
+    {
+      "id": 137441,
+      "name": "Gears of War: Ultimate Edition",
+      "nameCN": "战争机器：终极版",
+      "date": "2015-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249289,
+      "name": "Gears Tactics",
+      "nameCN": "战争机器：战略版",
+      "date": "2020-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 24645,
+      "name": "Gears of War 3",
+      "nameCN": "战争机器3",
+      "date": "2011-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 137443,
+      "name": "Gears of War 4",
+      "nameCN": "战争机器4",
+      "date": "2016-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 68573,
+      "name": "Gears of War：Jugement",
+      "nameCN": "战争机器：审判",
+      "date": "2013-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 249291,
+      "name": "Gears 5",
+      "nameCN": "战争机器5",
+      "date": "2019-09-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 263,
+      "dst": 640
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 263,
+      "dst": 137441
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 263,
+      "dst": 249289
+    },
+    {
+      "relateString": "前传",
+      "src": 640,
+      "dst": 263
+    },
+    {
+      "relateString": "续集",
+      "src": 640,
+      "dst": 24645
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 640,
+      "dst": 249289
+    },
+    {
+      "relateString": "前传",
+      "src": 24645,
+      "dst": 640
+    },
+    {
+      "relateString": "续集",
+      "src": 24645,
+      "dst": 137443
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 24645,
+      "dst": 249289
+    },
+    {
+      "relateString": "主线故事",
+      "src": 68573,
+      "dst": 263
+    },
+    {
+      "relateString": "主线故事",
+      "src": 68573,
+      "dst": 640
+    },
+    {
+      "relateString": "主线故事",
+      "src": 68573,
+      "dst": 24645
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 137441,
+      "dst": 263
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 137441,
+      "dst": 249289
+    },
+    {
+      "relateString": "前传",
+      "src": 137443,
+      "dst": 24645
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 137443,
+      "dst": 249289
+    },
+    {
+      "relateString": "续集",
+      "src": 137443,
+      "dst": 249291
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249289,
+      "dst": 263
+    },
+    {
+      "relateString": "前传",
+      "src": 249291,
+      "dst": 137443
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 249291,
+      "dst": 249289
+    }
+  ]
 }

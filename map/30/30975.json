@@ -1,37 +1,33 @@
 {
- "id": 30975,
- "node": [
-  {
-   "id": 30975,
-   "name": "中国ラブアタック",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/08/30975_p9F39.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 192553,
-   "name": "東京ラブアタック",
-   "nameCN": "東京愛的出擊",
-   "image": "https://lain.bgm.tv/pic/cover/m/d1/a6/192553_xF32F.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 30975,
-   "dst": 192553
-  },
-  {
-   "relate": "续集",
-   "src": 192553,
-   "dst": 30975
-  }
- ]
+  "id": "30975",
+  "node": [
+    {
+      "id": 30975,
+      "name": "中国ラブアタック",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 192553,
+      "name": "東京ラブアタック",
+      "nameCN": "東京愛的出擊",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 30975,
+      "dst": 192553
+    },
+    {
+      "relateString": "续集",
+      "src": 192553,
+      "dst": 30975
+    }
+  ]
 }

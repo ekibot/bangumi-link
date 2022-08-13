@@ -1,87 +1,83 @@
 {
- "id": 80615,
- "node": [
-  {
-   "id": 80615,
-   "name": "Titanfall",
-   "nameCN": "泰坦天降",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/db/80615_Jj27R.jpg",
-   "date": "2014-03-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 180706,
-   "name": "Titanfall 2",
-   "nameCN": "泰坦天降2",
-   "image": "https://lain.bgm.tv/pic/cover/m/79/7f/180706_sHDDh.jpg",
-   "date": "2016-10-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 273991,
-   "name": "Apex Legends",
-   "nameCN": "Apex 英雄",
-   "image": "https://lain.bgm.tv/pic/cover/m/b9/68/273991_UxoPu.jpg",
-   "date": "2019-02-04",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 345910,
-   "name": "Apex Legends Mobile",
-   "nameCN": "Apex 英雄 手机版",
-   "image": "https://lain.bgm.tv/pic/cover/m/a1/fc/345910_YOACM.jpg",
-   "date": "2022-05-17",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 80615,
-   "dst": 180706
-  },
-  {
-   "relate": "相同世界观",
-   "src": 80615,
-   "dst": 273991
-  },
-  {
-   "relate": "前传",
-   "src": 180706,
-   "dst": 80615
-  },
-  {
-   "relate": "相同世界观",
-   "src": 180706,
-   "dst": 273991
-  },
-  {
-   "relate": "相同世界观",
-   "src": 273991,
-   "dst": 80615
-  },
-  {
-   "relate": "相同世界观",
-   "src": 273991,
-   "dst": 180706
-  },
-  {
-   "relate": "不同演绎",
-   "src": 273991,
-   "dst": 345910
-  },
-  {
-   "relate": "不同演绎",
-   "src": 345910,
-   "dst": 273991
-  }
- ]
+  "id": "80615",
+  "node": [
+    {
+      "id": 80615,
+      "name": "Titanfall",
+      "nameCN": "泰坦天降",
+      "date": "2014-03-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 180706,
+      "name": "Titanfall 2",
+      "nameCN": "泰坦天降2",
+      "date": "2016-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 273991,
+      "name": "Apex Legends",
+      "nameCN": "Apex 英雄",
+      "date": "2019-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 345910,
+      "name": "Apex Legends Mobile",
+      "nameCN": "Apex 英雄 手机版",
+      "date": "2022-05-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 80615,
+      "dst": 180706
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 80615,
+      "dst": 273991
+    },
+    {
+      "relateString": "前传",
+      "src": 180706,
+      "dst": 80615
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 180706,
+      "dst": 273991
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 273991,
+      "dst": 80615
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 273991,
+      "dst": 180706
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 273991,
+      "dst": 345910
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 345910,
+      "dst": 273991
+    }
+  ]
 }

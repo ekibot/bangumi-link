@@ -1,28 +1,35 @@
 {
- "id": 314641,
- "node": [
-  {
-   "id": 314641,
-   "name": "もっと抵抗してくれよ",
-   "nameCN": "盡全力反抗啊　爽朗王子的扭曲癖好",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/ee/314641_5nzPG.jpg",
-   "date": "2020-08-25",
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 379980,
-   "name": "もっと抵抗してくれよ 恋人編 爽やか王子の歪んだ性癖",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/a5/379980_f3yJl.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 314641,
-   "dst": 379980
-  }
- ]
+  "id": "314641",
+  "node": [
+    {
+      "id": 314641,
+      "name": "もっと抵抗してくれよ",
+      "nameCN": "盡全力反抗啊　爽朗王子的扭曲癖好",
+      "date": "2020-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 379980,
+      "name": "もっと抵抗してくれよ 恋人編 爽やか王子の歪んだ性癖",
+      "nameCN": "",
+      "date": "2021-12-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 314641,
+      "dst": 379980
+    },
+    {
+      "relateString": "前传",
+      "src": 379980,
+      "dst": 314641
+    }
+  ]
 }

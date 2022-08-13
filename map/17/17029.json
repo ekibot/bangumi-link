@@ -1,37 +1,34 @@
 {
- "id": 17029,
- "node": [
-  {
-   "id": 17029,
-   "name": "バトルシティー",
-   "nameCN": "坦克大战",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/0d/17029_JdeD3.jpg",
-   "date": "1985-09-09",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 260586,
-   "name": "タンクフォース",
-   "nameCN": "坦克大战2",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/d6/260586_55EWt.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 17029,
-   "dst": 260586
-  },
-  {
-   "relate": "前传",
-   "src": 260586,
-   "dst": 17029
-  }
- ]
+  "id": "17029",
+  "node": [
+    {
+      "id": 17029,
+      "name": "バトルシティー",
+      "nameCN": "坦克大战",
+      "date": "1985-09-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260586,
+      "name": "タンクフォース",
+      "nameCN": "坦克大战2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 17029,
+      "dst": 260586
+    },
+    {
+      "relateString": "前传",
+      "src": 260586,
+      "dst": 17029
+    }
+  ]
 }

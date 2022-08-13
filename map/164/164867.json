@@ -1,37 +1,35 @@
 {
- "id": 164867,
- "node": [
-  {
-   "id": 164867,
-   "name": "Making a Murderer",
-   "nameCN": "制造谋杀者",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/d6/164867_6Tp6g.jpg",
-   "date": "2015-12-18",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 265772,
-   "name": "Making a Murderer Season 2",
-   "nameCN": "谋杀犯的形成 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/c2/265772_iq6J3.jpg",
-   "date": "2018-10-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164867,
-   "dst": 265772
-  },
-  {
-   "relate": "前传",
-   "src": 265772,
-   "dst": 164867
-  }
- ]
+  "id": "164867",
+  "node": [
+    {
+      "id": 164867,
+      "name": "Making a Murderer",
+      "nameCN": "制造谋杀者",
+      "date": "2015-12-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 265772,
+      "name": "Making a Murderer Season 2",
+      "nameCN": "谋杀犯的形成 第二季",
+      "date": "2018-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164867,
+      "dst": 265772
+    },
+    {
+      "relateString": "前传",
+      "src": 265772,
+      "dst": 164867
+    }
+  ]
 }

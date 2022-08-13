@@ -1,37 +1,34 @@
 {
- "id": 78171,
- "node": [
-  {
-   "id": 78171,
-   "name": "月夜に響くノクターン Rebirth",
-   "nameCN": "月夜响荡曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/90/78171_uh0d5.jpg",
-   "date": "2009-10-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 347299,
-   "name": "風の色 鮮やかに",
-   "nameCN": "风色协奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/5d/347299_8vYyy.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78171,
-   "dst": 347299
-  },
-  {
-   "relate": "前传",
-   "src": 347299,
-   "dst": 78171
-  }
- ]
+  "id": "78171",
+  "node": [
+    {
+      "id": 78171,
+      "name": "月夜に響くノクターン Rebirth",
+      "nameCN": "月夜响荡曲",
+      "date": "2009-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 347299,
+      "name": "風の色 鮮やかに",
+      "nameCN": "风色协奏曲",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78171,
+      "dst": 347299
+    },
+    {
+      "relateString": "前传",
+      "src": 347299,
+      "dst": 78171
+    }
+  ]
 }

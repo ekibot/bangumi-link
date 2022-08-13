@@ -1,37 +1,33 @@
 {
- "id": 121149,
- "node": [
-  {
-   "id": 121149,
-   "name": "ぼくらの七日間戦争 (1)",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/03/121149_3j1DP.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 189473,
-   "name": "ぼくらの七日間戦争 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/f3/189473_ma6Oz.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121149,
-   "dst": 189473
-  },
-  {
-   "relate": "前传",
-   "src": 189473,
-   "dst": 121149
-  }
- ]
+  "id": "121149",
+  "node": [
+    {
+      "id": 121149,
+      "name": "ぼくらの七日間戦争 (1)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 189473,
+      "name": "ぼくらの七日間戦争 (2)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121149,
+      "dst": 189473
+    },
+    {
+      "relateString": "前传",
+      "src": 189473,
+      "dst": 121149
+    }
+  ]
 }

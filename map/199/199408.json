@@ -1,37 +1,35 @@
 {
- "id": 199408,
- "node": [
-  {
-   "id": 199408,
-   "name": "戦隊ヒーロー スキヤキフォース -ぐんまの平和を願うシーズン-",
-   "image": "https://lain.bgm.tv/pic/cover/m/a3/50/199408_PpL6f.jpg",
-   "date": "2017-01-09",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 238300,
-   "name": "戦隊ヒーロー スキヤキフォース - ぐんまの平和を願うシーズン え、また？ -",
-   "image": "https://lain.bgm.tv/pic/cover/m/1d/d8/238300_54vz9.jpg",
-   "date": "2018-01-15",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 199408,
-   "dst": 238300
-  },
-  {
-   "relate": "前传",
-   "src": 238300,
-   "dst": 199408
-  }
- ]
+  "id": "199408",
+  "node": [
+    {
+      "id": 199408,
+      "name": "戦隊ヒーロー スキヤキフォース -ぐんまの平和を願うシーズン-",
+      "nameCN": "",
+      "date": "2017-01-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 238300,
+      "name": "戦隊ヒーロー スキヤキフォース - ぐんまの平和を願うシーズン え、また？ -",
+      "nameCN": "",
+      "date": "2018-01-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 199408,
+      "dst": 238300
+    },
+    {
+      "relateString": "前传",
+      "src": 238300,
+      "dst": 199408
+    }
+  ]
 }

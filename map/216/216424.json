@@ -1,37 +1,34 @@
 {
- "id": 216424,
- "node": [
-  {
-   "id": 216424,
-   "name": "マジで航海してます。",
-   "nameCN": "真的在航海",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/b6/216424_c6dha.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 255024,
-   "name": "マジで航海してます。～Second Season～",
-   "nameCN": "真的在航海 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/48/255024_JoMoC.jpg",
-   "date": "2018-07-29",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 216424,
-   "dst": 255024
-  },
-  {
-   "relate": "前传",
-   "src": 255024,
-   "dst": 216424
-  }
- ]
+  "id": "216424",
+  "node": [
+    {
+      "id": 216424,
+      "name": "マジで航海してます。",
+      "nameCN": "真的在航海",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 255024,
+      "name": "マジで航海してます。～Second Season～",
+      "nameCN": "真的在航海 第二季",
+      "date": "2018-07-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 216424,
+      "dst": 255024
+    },
+    {
+      "relateString": "前传",
+      "src": 255024,
+      "dst": 216424
+    }
+  ]
 }

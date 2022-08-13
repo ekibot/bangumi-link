@@ -1,0 +1,33 @@
+{
+  "id": "71331",
+  "node": [
+    {
+      "id": 71331,
+      "name": "バトルクラブ",
+      "nameCN": "斗阵俱乐部",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 71332,
+      "name": "バトルクラブ2nd stage",
+      "nameCN": "斗阵俱乐部 2nd stage",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 71331,
+      "dst": 71332
+    },
+    {
+      "relateString": "前传",
+      "src": 71332,
+      "dst": 71331
+    }
+  ]
+}

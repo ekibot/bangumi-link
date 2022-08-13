@@ -1,37 +1,34 @@
 {
- "id": 154571,
- "node": [
-  {
-   "id": 154571,
-   "name": "The Snorks",
-   "nameCN": "海底小精灵",
-   "image": "https://lain.bgm.tv/pic/cover/m/82/d1/154571_QO068.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 242316,
-   "name": "Snorks Season 2",
-   "nameCN": "海底小精灵 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/52/242316_vbr18.jpg",
-   "date": "1985-09-14",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 154571,
-   "dst": 242316
-  },
-  {
-   "relate": "前传",
-   "src": 242316,
-   "dst": 154571
-  }
- ]
+  "id": "154571",
+  "node": [
+    {
+      "id": 154571,
+      "name": "The Snorks",
+      "nameCN": "海底小精灵",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 242316,
+      "name": "Snorks Season 2",
+      "nameCN": "海底小精灵 第二季",
+      "date": "1985-09-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 154571,
+      "dst": 242316
+    },
+    {
+      "relateString": "前传",
+      "src": 242316,
+      "dst": 154571
+    }
+  ]
 }

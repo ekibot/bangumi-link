@@ -1,37 +1,35 @@
 {
- "id": 81129,
- "node": [
-  {
-   "id": 81129,
-   "name": "ゆりゆり",
-   "nameCN": "缤纷百合",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/96/81129_x5Xyb.jpg",
-   "date": "2012-07-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 290352,
-   "name": "ゆりゆり2",
-   "nameCN": "缤纷百合2",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/03/290352_DQk5k.jpg",
-   "date": "2019-09-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 81129,
-   "dst": 290352
-  },
-  {
-   "relate": "前传",
-   "src": 290352,
-   "dst": 81129
-  }
- ]
+  "id": "81129",
+  "node": [
+    {
+      "id": 81129,
+      "name": "ゆりゆり",
+      "nameCN": "缤纷百合",
+      "date": "2012-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 290352,
+      "name": "ゆりゆり2",
+      "nameCN": "缤纷百合2",
+      "date": "2019-09-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 81129,
+      "dst": 290352
+    },
+    {
+      "relateString": "前传",
+      "src": 290352,
+      "dst": 81129
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 1355,
- "node": [
-  {
-   "id": 1355,
-   "name": "タイヨウのうた",
-   "nameCN": "太阳之歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/b8/c2/1355_iueGy.jpg",
-   "date": "2006-07-14",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 5928,
-   "name": "タイヨウのうた",
-   "nameCN": "太阳之歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/e1/5928_AG05h.jpg",
-   "date": "2006-06-17",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 1355,
-   "dst": 5928
-  },
-  {
-   "relate": "不同演绎",
-   "src": 5928,
-   "dst": 1355
-  }
- ]
+  "id": "1355",
+  "node": [
+    {
+      "id": 1355,
+      "name": "タイヨウのうた",
+      "nameCN": "太阳之歌",
+      "date": "2006-07-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 5928,
+      "name": "タイヨウのうた",
+      "nameCN": "太阳之歌",
+      "date": "2006-06-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 1355,
+      "dst": 5928
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 5928,
+      "dst": 1355
+    }
+  ]
 }

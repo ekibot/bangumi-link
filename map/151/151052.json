@@ -1,57 +1,54 @@
 {
- "id": 151052,
- "node": [
-  {
-   "id": 151052,
-   "name": "KORG DS-10",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/ee/151052_C6e6T.jpg",
-   "date": "2008-07-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 151053,
-   "name": "KORG M01D",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/6a/151053_020eo.jpg",
-   "date": "2013-11-07",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 151054,
-   "name": "KORG DSN-12",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/3b/151054_hLYB3.jpg",
-   "date": "2014-10-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 151052,
-   "dst": 151053
-  },
-  {
-   "relate": "前传",
-   "src": 151053,
-   "dst": 151052
-  },
-  {
-   "relate": "相同世界观",
-   "src": 151053,
-   "dst": 151054
-  },
-  {
-   "relate": "相同世界观",
-   "src": 151054,
-   "dst": 151053
-  }
- ]
+  "id": "151052",
+  "node": [
+    {
+      "id": 151052,
+      "name": "KORG DS-10",
+      "nameCN": "",
+      "date": "2008-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 151053,
+      "name": "KORG M01D",
+      "nameCN": "",
+      "date": "2013-11-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 151054,
+      "name": "KORG DSN-12",
+      "nameCN": "",
+      "date": "2014-10-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 151052,
+      "dst": 151053
+    },
+    {
+      "relateString": "前传",
+      "src": 151053,
+      "dst": 151052
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 151053,
+      "dst": 151054
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 151054,
+      "dst": 151053
+    }
+  ]
 }

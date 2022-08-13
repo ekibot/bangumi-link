@@ -1,57 +1,54 @@
 {
- "id": 158281,
- "node": [
-  {
-   "id": 158281,
-   "name": "小説 名探偵コナン CASE1",
-   "image": "https://lain.bgm.tv/pic/cover/m/ba/5c/158281_jp.jpg",
-   "date": "2015-06-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 158282,
-   "name": "小説 名探偵コナン CASE2",
-   "image": "https://lain.bgm.tv/pic/cover/m/da/c5/158282_jp.jpg",
-   "date": "2015-10-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 181909,
-   "name": "小説 名探偵コナン CASE3",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/bd/181909_jp.jpg",
-   "date": "2016-03-16",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 158281,
-   "dst": 158282
-  },
-  {
-   "relate": "前传",
-   "src": 158282,
-   "dst": 158281
-  },
-  {
-   "relate": "续集",
-   "src": 158282,
-   "dst": 181909
-  },
-  {
-   "relate": "前传",
-   "src": 181909,
-   "dst": 158282
-  }
- ]
+  "id": "158281",
+  "node": [
+    {
+      "id": 158281,
+      "name": "小説 名探偵コナン CASE1",
+      "nameCN": "",
+      "date": "2015-06-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 158282,
+      "name": "小説 名探偵コナン CASE2",
+      "nameCN": "",
+      "date": "2015-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 181909,
+      "name": "小説 名探偵コナン CASE3",
+      "nameCN": "",
+      "date": "2016-03-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 158281,
+      "dst": 158282
+    },
+    {
+      "relateString": "前传",
+      "src": 158282,
+      "dst": 158281
+    },
+    {
+      "relateString": "续集",
+      "src": 158282,
+      "dst": 181909
+    },
+    {
+      "relateString": "前传",
+      "src": 181909,
+      "dst": 158282
+    }
+  ]
 }

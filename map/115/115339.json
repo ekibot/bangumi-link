@@ -1,37 +1,35 @@
 {
- "id": 115339,
- "node": [
-  {
-   "id": 115339,
-   "name": "浦和の調ちゃん",
-   "nameCN": "浦和小调",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/b1/115339_Es3pU.jpg",
-   "date": "2015-04-09",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 192976,
-   "name": "むさしの！",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/82/192976_Lg5FJ.jpg",
-   "date": "2022-07-02",
-   "nameCN": "武藏野！",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 115339,
-   "dst": 192976
-  },
-  {
-   "relate": "前传",
-   "src": 192976,
-   "dst": 115339
-  }
- ]
+  "id": "115339",
+  "node": [
+    {
+      "id": 115339,
+      "name": "浦和の調ちゃん",
+      "nameCN": "浦和小调",
+      "date": "2015-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 192976,
+      "name": "むさしの！",
+      "nameCN": "武藏野！",
+      "date": "2022-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 115339,
+      "dst": 192976
+    },
+    {
+      "relateString": "前传",
+      "src": 192976,
+      "dst": 115339
+    }
+  ]
 }

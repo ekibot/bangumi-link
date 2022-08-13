@@ -1,37 +1,35 @@
 {
- "id": 199788,
- "node": [
-  {
-   "id": 199788,
-   "name": "ラブログ!!Next",
-   "nameCN": "爱的部落格!! Next",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/97/199788_jp.jpg",
-   "date": "2008-11-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 199789,
-   "name": "ラブログ!!",
-   "nameCN": "爱的部落格!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/9f/3f/199789_eq85l.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 199788,
-   "dst": 199789
-  },
-  {
-   "relate": "续集",
-   "src": 199789,
-   "dst": 199788
-  }
- ]
+  "id": "199788",
+  "node": [
+    {
+      "id": 199788,
+      "name": "ラブログ!!Next",
+      "nameCN": "爱的部落格!! Next",
+      "date": "2008-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 199789,
+      "name": "ラブログ!!",
+      "nameCN": "爱的部落格!!",
+      "date": "2005-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 199788,
+      "dst": 199789
+    },
+    {
+      "relateString": "续集",
+      "src": 199789,
+      "dst": 199788
+    }
+  ]
 }

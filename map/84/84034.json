@@ -1,37 +1,35 @@
 {
- "id": 84034,
- "node": [
-  {
-   "id": 84034,
-   "name": "東京トイボックス",
-   "nameCN": "东京玩具箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/f3/84034_Af0LY.jpg",
-   "date": "2013-10-05",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 92829,
-   "name": "大東京トイボックス",
-   "nameCN": "大东京玩具箱",
-   "image": "https://lain.bgm.tv/pic/cover/m/46/76/92829_U38MX.jpg",
-   "date": "2014-01-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 84034,
-   "dst": 92829
-  },
-  {
-   "relate": "前传",
-   "src": 92829,
-   "dst": 84034
-  }
- ]
+  "id": "84034",
+  "node": [
+    {
+      "id": 84034,
+      "name": "東京トイボックス",
+      "nameCN": "东京玩具箱",
+      "date": "2013-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 92829,
+      "name": "大東京トイボックス",
+      "nameCN": "大东京玩具箱",
+      "date": "2014-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 84034,
+      "dst": 92829
+    },
+    {
+      "relateString": "前传",
+      "src": 92829,
+      "dst": 84034
+    }
+  ]
 }

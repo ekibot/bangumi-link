@@ -1,57 +1,54 @@
 {
- "id": 261568,
- "node": [
-  {
-   "id": 261568,
-   "name": "Explained",
-   "nameCN": "流行新鲜事",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/30/261568_ANnSQ.jpg",
-   "date": "2018-05-23",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 292062,
-   "name": "Explained Season 2",
-   "nameCN": "流行新鲜事 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/a0/292062_I6ZEC.jpg",
-   "date": "2019-09-26",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 320143,
-   "name": "Whose Vote Counts, Explained",
-   "nameCN": "投票选举解密",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/b1/320143_B3wE5.jpg",
-   "date": "2020-09-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 261568,
-   "dst": 292062
-  },
-  {
-   "relate": "番外篇",
-   "src": 261568,
-   "dst": 320143
-  },
-  {
-   "relate": "前传",
-   "src": 292062,
-   "dst": 261568
-  },
-  {
-   "relate": "主线故事",
-   "src": 320143,
-   "dst": 261568
-  }
- ]
+  "id": "261568",
+  "node": [
+    {
+      "id": 261568,
+      "name": "Explained",
+      "nameCN": "流行新鲜事",
+      "date": "2018-05-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 292062,
+      "name": "Explained Season 2",
+      "nameCN": "流行新鲜事 第二季",
+      "date": "2019-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 320143,
+      "name": "Whose Vote Counts, Explained",
+      "nameCN": "投票选举解密",
+      "date": "2020-09-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 261568,
+      "dst": 292062
+    },
+    {
+      "relateString": "番外篇",
+      "src": 261568,
+      "dst": 320143
+    },
+    {
+      "relateString": "前传",
+      "src": 292062,
+      "dst": 261568
+    },
+    {
+      "relateString": "主线故事",
+      "src": 320143,
+      "dst": 261568
+    }
+  ]
 }

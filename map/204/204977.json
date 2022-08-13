@@ -1,65 +1,62 @@
 {
- "id": 204977,
- "node": [
-  {
-   "id": 204977,
-   "name": "Reigns",
-   "image": "https://lain.bgm.tv/pic/cover/m/e4/f5/204977_DFaDO.jpg",
-   "date": "2016-08-11",
-   "nameCN": "王权",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 225511,
-   "name": "Reigns: Her Majesty",
-   "image": "https://lain.bgm.tv/pic/cover/m/43/db/225511_M6ZGW.jpg",
-   "date": "2017-12-06",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 292986,
-   "name": "Reigns: Game of Thrones",
-   "nameCN": "王权：权力的游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/f4/292986_d3DUL.jpg",
-   "date": "2018-10-18",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 387082,
-   "name": "Reigns: Three Kingdoms",
-   "nameCN": "王权 三国",
-   "image": "",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 204977,
-   "dst": 225511
-  },
-  {
-   "relate": "前传",
-   "src": 225511,
-   "dst": 204977
-  },
-  {
-   "relate": "主线故事",
-   "src": 292986,
-   "dst": 204977
-  },
-  {
-   "relate": "主线故事",
-   "src": 387082,
-   "dst": 204977
-  }
- ]
+  "id": "204977",
+  "node": [
+    {
+      "id": 204977,
+      "name": "Reigns",
+      "nameCN": "王权",
+      "date": "2016-08-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 225511,
+      "name": "Reigns: Her Majesty",
+      "nameCN": "",
+      "date": "2017-12-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 292986,
+      "name": "Reigns: Game of Thrones",
+      "nameCN": "王权：权力的游戏",
+      "date": "2018-10-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 387082,
+      "name": "Reigns: Three Kingdoms",
+      "nameCN": "王权 三国",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 204977,
+      "dst": 225511
+    },
+    {
+      "relateString": "前传",
+      "src": 225511,
+      "dst": 204977
+    },
+    {
+      "relateString": "主线故事",
+      "src": 292986,
+      "dst": 204977
+    },
+    {
+      "relateString": "主线故事",
+      "src": 387082,
+      "dst": 204977
+    }
+  ]
 }

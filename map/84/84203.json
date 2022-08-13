@@ -1,28 +1,29 @@
 {
- "id": 84203,
- "node": [
-  {
-   "id": 84203,
-   "name": "Hearthstone",
-   "nameCN": "炉石传说",
-   "image": "https://lain.bgm.tv/pic/cover/m/02/b9/84203_04Bqx.jpg",
-   "date": "2014-03-11",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 223383,
-   "name": "Hearthstone is Home",
-   "nameCN": "炉石与家",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/c0/223383_k4AD0.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 84203,
-   "dst": 223383
-  }
- ]
+  "id": "84203",
+  "node": [
+    {
+      "id": 84203,
+      "name": "Hearthstone",
+      "nameCN": "炉石传说",
+      "date": "2014-03-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 223383,
+      "name": "Hearthstone is Home",
+      "nameCN": "炉石与家",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 84203,
+      "dst": 223383
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 200449,
- "node": [
-  {
-   "id": 200449,
-   "name": "Ultimate Avengers",
-   "nameCN": "终极复仇者",
-   "image": "https://lain.bgm.tv/pic/cover/m/05/76/200449_Xddjc.jpg",
-   "date": "2006-02-21",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 200450,
-   "name": "Ultimate Avengers 2: Rise of the Panther",
-   "nameCN": "终极复仇者2：黑豹的崛起",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/c1/200450_gy08G.jpg",
-   "date": "2006-08-08",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 312319,
-   "name": "The Invincible Iron Man",
-   "nameCN": "无敌钢铁侠",
-   "image": "https://lain.bgm.tv/pic/cover/m/e1/db/312319_0oZOK.jpg",
-   "date": "2007-01-23",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 200449,
-   "dst": 200450
-  },
-  {
-   "relate": "前传",
-   "src": 200450,
-   "dst": 200449
-  },
-  {
-   "relate": "续集",
-   "src": 200450,
-   "dst": 312319
-  },
-  {
-   "relate": "前传",
-   "src": 312319,
-   "dst": 200450
-  }
- ]
+  "id": "200449",
+  "node": [
+    {
+      "id": 200449,
+      "name": "Ultimate Avengers",
+      "nameCN": "终极复仇者",
+      "date": "2006-02-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 200450,
+      "name": "Ultimate Avengers 2: Rise of the Panther",
+      "nameCN": "终极复仇者2：黑豹的崛起",
+      "date": "2006-08-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 312319,
+      "name": "The Invincible Iron Man",
+      "nameCN": "无敌钢铁侠",
+      "date": "2007-01-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 200449,
+      "dst": 200450
+    },
+    {
+      "relateString": "前传",
+      "src": 200450,
+      "dst": 200449
+    },
+    {
+      "relateString": "续集",
+      "src": 200450,
+      "dst": 312319
+    },
+    {
+      "relateString": "前传",
+      "src": 312319,
+      "dst": 200450
+    }
+  ]
 }

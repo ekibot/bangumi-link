@@ -1,37 +1,33 @@
 {
- "id": 128122,
- "node": [
-  {
-   "id": 128122,
-   "name": "弟切草",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/87/128122_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 128124,
-   "name": "彼岸花",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/0b/128124_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 128122,
-   "dst": 128124
-  },
-  {
-   "relate": "前传",
-   "src": 128124,
-   "dst": 128122
-  }
- ]
+  "id": "128122",
+  "node": [
+    {
+      "id": 128122,
+      "name": "弟切草",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 128124,
+      "name": "彼岸花",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 128122,
+      "dst": 128124
+    },
+    {
+      "relateString": "前传",
+      "src": 128124,
+      "dst": 128122
+    }
+  ]
 }

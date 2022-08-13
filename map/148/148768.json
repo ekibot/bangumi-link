@@ -1,37 +1,34 @@
 {
- "id": 148768,
- "node": [
-  {
-   "id": 148768,
-   "name": "デュアン・サーク",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/d0/148768_2tVcz.jpg",
-   "date": "1996-09-25",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 149094,
-   "name": "デュアン・サークII",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/27/149094_1qben.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 148768,
-   "dst": 149094
-  },
-  {
-   "relate": "前传",
-   "src": 149094,
-   "dst": 148768
-  }
- ]
+  "id": "148768",
+  "node": [
+    {
+      "id": 148768,
+      "name": "デュアン・サーク",
+      "nameCN": "",
+      "date": "1996-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 149094,
+      "name": "デュアン・サークII",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 148768,
+      "dst": 149094
+    },
+    {
+      "relateString": "前传",
+      "src": 149094,
+      "dst": 148768
+    }
+  ]
 }

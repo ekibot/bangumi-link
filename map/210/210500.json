@@ -1,37 +1,34 @@
 {
- "id": 210500,
- "node": [
-  {
-   "id": 210500,
-   "name": "DYING：Reborn",
-   "nameCN": "临终：重生试炼",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/ce/210500_by4Z3.jpg",
-   "date": "2017-02-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 220085,
-   "name": "DYING ISLAND",
-   "image": "https://lain.bgm.tv/pic/cover/m/3f/b7/220085_0y4JQ.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 210500,
-   "dst": 220085
-  },
-  {
-   "relate": "前传",
-   "src": 220085,
-   "dst": 210500
-  }
- ]
+  "id": "210500",
+  "node": [
+    {
+      "id": 210500,
+      "name": "DYING：Reborn",
+      "nameCN": "临终：重生试炼",
+      "date": "2017-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 220085,
+      "name": "DYING ISLAND",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 210500,
+      "dst": 220085
+    },
+    {
+      "relateString": "前传",
+      "src": 220085,
+      "dst": 210500
+    }
+  ]
 }

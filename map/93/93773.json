@@ -1,37 +1,35 @@
 {
- "id": 93773,
- "node": [
-  {
-   "id": 93773,
-   "name": "11人いる!",
-   "nameCN": "第11人",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/43/93773_76yRR.jpg",
-   "date": "1978-05-10",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 93774,
-   "name": "続・11人いる!",
-   "nameCN": "第11人续",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/d5/93774_OSJ1C.jpg",
-   "date": "1978-06-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93773,
-   "dst": 93774
-  },
-  {
-   "relate": "前传",
-   "src": 93774,
-   "dst": 93773
-  }
- ]
+  "id": "93773",
+  "node": [
+    {
+      "id": 93773,
+      "name": "11人いる!",
+      "nameCN": "第11人",
+      "date": "1978-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 93774,
+      "name": "続・11人いる!",
+      "nameCN": "第11人续",
+      "date": "1978-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93773,
+      "dst": 93774
+    },
+    {
+      "relateString": "前传",
+      "src": 93774,
+      "dst": 93773
+    }
+  ]
 }

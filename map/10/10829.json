@@ -1,37 +1,35 @@
 {
- "id": 10829,
- "node": [
-  {
-   "id": 10829,
-   "name": "とある飛空士への追憶",
-   "nameCN": "对某飞行员的追忆",
-   "image": "https://lain.bgm.tv/pic/cover/m/2c/45/10829_BEIf1.jpg",
-   "date": "2011-10-01",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 73828,
-   "name": "とある飛空士への恋歌",
-   "nameCN": "献给某飞行员的恋歌",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/f6/73828_CJIhx.jpg",
-   "date": "2014-01-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 10829,
-   "dst": 73828
-  },
-  {
-   "relate": "相同世界观",
-   "src": 73828,
-   "dst": 10829
-  }
- ]
+  "id": "10829",
+  "node": [
+    {
+      "id": 10829,
+      "name": "とある飛空士への追憶",
+      "nameCN": "对某飞行员的追忆",
+      "date": "2011-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 73828,
+      "name": "とある飛空士への恋歌",
+      "nameCN": "献给某飞行员的恋歌",
+      "date": "2014-01-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "相同世界观",
+      "src": 10829,
+      "dst": 73828
+    },
+    {
+      "relateString": "相同世界观",
+      "src": 73828,
+      "dst": 10829
+    }
+  ]
 }

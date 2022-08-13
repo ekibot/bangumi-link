@@ -1,37 +1,34 @@
 {
- "id": 24105,
- "node": [
-  {
-   "id": 24105,
-   "name": "エーベルージュ",
-   "nameCN": "恋爱物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/12/24105_8ggdg.jpg",
-   "date": "1996-07-12",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 71356,
-   "name": "エーベルージュ2",
-   "nameCN": "恋爱物语2",
-   "image": "https://lain.bgm.tv/pic/cover/m/31/bd/71356_A0t5t.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 24105,
-   "dst": 71356
-  },
-  {
-   "relate": "前传",
-   "src": 71356,
-   "dst": 24105
-  }
- ]
+  "id": "24105",
+  "node": [
+    {
+      "id": 24105,
+      "name": "エーベルージュ",
+      "nameCN": "恋爱物语",
+      "date": "1996-07-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 71356,
+      "name": "エーベルージュ2",
+      "nameCN": "恋爱物语2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 24105,
+      "dst": 71356
+    },
+    {
+      "relateString": "前传",
+      "src": 71356,
+      "dst": 24105
+    }
+  ]
 }

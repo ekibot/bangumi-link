@@ -1,37 +1,35 @@
 {
- "id": 231863,
- "node": [
-  {
-   "id": 231863,
-   "name": "Two Dots",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/14/231863_bHhoW.jpg",
-   "date": "2014-05-29",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231865,
-   "name": "Dots: A Game About Connecting",
-   "nameCN": "Dots: 一个关于连接的游戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/7c/231865_QZFbo.jpg",
-   "date": "2013-04-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 231863,
-   "dst": 231865
-  },
-  {
-   "relate": "续集",
-   "src": 231865,
-   "dst": 231863
-  }
- ]
+  "id": "231863",
+  "node": [
+    {
+      "id": 231863,
+      "name": "Two Dots",
+      "nameCN": "",
+      "date": "2014-05-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231865,
+      "name": "Dots: A Game About Connecting",
+      "nameCN": "Dots: 一个关于连接的游戏",
+      "date": "2013-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 231863,
+      "dst": 231865
+    },
+    {
+      "relateString": "续集",
+      "src": 231865,
+      "dst": 231863
+    }
+  ]
 }

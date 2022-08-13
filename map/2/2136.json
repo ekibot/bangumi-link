@@ -1,37 +1,35 @@
 {
- "id": 2136,
- "node": [
-  {
-   "id": 2136,
-   "name": "鬼畜眼鏡",
-   "nameCN": "鬼畜眼镜",
-   "image": "https://lain.bgm.tv/pic/cover/m/4e/62/2136_Y35XY.jpg",
-   "date": "2007-07-20",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 4874,
-   "name": "鬼畜眼鏡R",
-   "nameCN": "鬼畜眼镜R",
-   "image": "https://lain.bgm.tv/pic/cover/m/fb/09/4874_zqOd0.jpg",
-   "type": 4,
-   "date": "2009-03-27",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 2136,
-   "dst": 4874
-  },
-  {
-   "relate": "前传",
-   "src": 4874,
-   "dst": 2136
-  }
- ]
+  "id": "2136",
+  "node": [
+    {
+      "id": 2136,
+      "name": "鬼畜眼鏡",
+      "nameCN": "鬼畜眼镜",
+      "date": "2007-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 4874,
+      "name": "鬼畜眼鏡R",
+      "nameCN": "鬼畜眼镜R",
+      "date": "2009-03-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 2136,
+      "dst": 4874
+    },
+    {
+      "relateString": "前传",
+      "src": 4874,
+      "dst": 2136
+    }
+  ]
 }

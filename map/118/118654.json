@@ -1,57 +1,54 @@
 {
- "id": 118654,
- "node": [
-  {
-   "id": 118654,
-   "name": "新宿スワン",
-   "nameCN": "新宿天鹅",
-   "image": "https://lain.bgm.tv/pic/cover/m/55/be/118654_D4D42.jpg",
-   "date": "2015-05-30",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 118655,
-   "name": "新宿スワン",
-   "nameCN": "新宿天鹅",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/3e/118655_Vvvh5.jpg",
-   "date": "2007-08-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 207710,
-   "name": "新宿スワンII",
-   "nameCN": "新宿天鹅2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/94/207710_1T5t5.jpg",
-   "date": "2017-01-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 118654,
-   "dst": 118655
-  },
-  {
-   "relate": "续集",
-   "src": 118654,
-   "dst": 207710
-  },
-  {
-   "relate": "不同演绎",
-   "src": 118655,
-   "dst": 118654
-  },
-  {
-   "relate": "前传",
-   "src": 207710,
-   "dst": 118654
-  }
- ]
+  "id": "118654",
+  "node": [
+    {
+      "id": 118654,
+      "name": "新宿スワン",
+      "nameCN": "新宿天鹅",
+      "date": "2015-05-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 118655,
+      "name": "新宿スワン",
+      "nameCN": "新宿天鹅",
+      "date": "2007-08-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 207710,
+      "name": "新宿スワンII",
+      "nameCN": "新宿天鹅2",
+      "date": "2017-01-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 118654,
+      "dst": 118655
+    },
+    {
+      "relateString": "续集",
+      "src": 118654,
+      "dst": 207710
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 118655,
+      "dst": 118654
+    },
+    {
+      "relateString": "前传",
+      "src": 207710,
+      "dst": 118654
+    }
+  ]
 }

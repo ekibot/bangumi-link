@@ -1,37 +1,35 @@
 {
- "id": 1656,
- "node": [
-  {
-   "id": 1656,
-   "name": "赤い糸DS",
-   "nameCN": "红线DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/2a/1656_lMv00.jpg",
-   "date": "2008-12-25",
-   "nsfw": false,
-   "platform": "NDS",
-   "type": 4
-  },
-  {
-   "id": 57017,
-   "name": "赤い糸 destiny DS",
-   "nameCN": "红线 命运 DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/c5/57017_dr1Zr.jpg",
-   "date": "2009-03-26",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1656,
-   "dst": 57017
-  },
-  {
-   "relate": "前传",
-   "src": 57017,
-   "dst": 1656
-  }
- ]
+  "id": "1656",
+  "node": [
+    {
+      "id": 1656,
+      "name": "赤い糸DS",
+      "nameCN": "红线DS",
+      "date": "2008-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "NDS"
+    },
+    {
+      "id": 57017,
+      "name": "赤い糸 destiny DS",
+      "nameCN": "红线 命运 DS",
+      "date": "2009-03-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1656,
+      "dst": 57017
+    },
+    {
+      "relateString": "前传",
+      "src": 57017,
+      "dst": 1656
+    }
+  ]
 }

@@ -1,37 +1,34 @@
 {
- "id": 195632,
- "node": [
-  {
-   "id": 195632,
-   "name": "Beyond Good and Evil",
-   "nameCN": "超越善恶",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/94/195632_2L39N.jpg",
-   "date": "2003-11-11",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 216982,
-   "name": "Beyond Good and Evil 2",
-   "nameCN": "超越善恶2",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/1a/216982_u89mH.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 195632,
-   "dst": 216982
-  },
-  {
-   "relate": "前传",
-   "src": 216982,
-   "dst": 195632
-  }
- ]
+  "id": "195632",
+  "node": [
+    {
+      "id": 195632,
+      "name": "Beyond Good and Evil",
+      "nameCN": "超越善恶",
+      "date": "2003-11-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 216982,
+      "name": "Beyond Good and Evil 2",
+      "nameCN": "超越善恶2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 195632,
+      "dst": 216982
+    },
+    {
+      "relateString": "前传",
+      "src": 216982,
+      "dst": 195632
+    }
+  ]
 }

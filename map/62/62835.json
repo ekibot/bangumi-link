@@ -1,37 +1,35 @@
 {
- "id": 62835,
- "node": [
-  {
-   "id": 62835,
-   "name": "Atlantis: The Lost Empire",
-   "nameCN": "亚特兰蒂斯：失落的帝国",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/74/62835_2oQpT.jpg",
-   "date": "2001-06-15",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 113006,
-   "name": "Atlantis: Milo's Return",
-   "nameCN": "亚特兰蒂斯2：神秘的水晶",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/94/113006_EIcfs.jpg",
-   "date": "2003-05-13",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 62835,
-   "dst": 113006
-  },
-  {
-   "relate": "前传",
-   "src": 113006,
-   "dst": 62835
-  }
- ]
+  "id": "62835",
+  "node": [
+    {
+      "id": 62835,
+      "name": "Atlantis: The Lost Empire",
+      "nameCN": "亚特兰蒂斯：失落的帝国",
+      "date": "2001-06-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 113006,
+      "name": "Atlantis: Milo's Return",
+      "nameCN": "亚特兰蒂斯2：神秘的水晶",
+      "date": "2003-05-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 62835,
+      "dst": 113006
+    },
+    {
+      "relateString": "前传",
+      "src": 113006,
+      "dst": 62835
+    }
+  ]
 }

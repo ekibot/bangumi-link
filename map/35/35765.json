@@ -1,51 +1,48 @@
 {
- "id": 35765,
- "node": [
-  {
-   "id": 35765,
-   "name": "人工少女3",
-   "nameCN": "人工少女3",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/7e/35765_fUjUw.jpg",
-   "date": "2007-11-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 83330,
-   "name": "人工少女2",
-   "nameCN": "人工少女2",
-   "image": "https://lain.bgm.tv/pic/cover/m/7a/6b/83330_eLyw2.jpg",
-   "type": 4,
-   "date": "2004-11-26",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 83331,
-   "name": "人工少女3 はんなり",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/fa/83331_xxdg2.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 35765,
-   "dst": 83330
-  },
-  {
-   "relate": "续集",
-   "src": 83330,
-   "dst": 35765
-  },
-  {
-   "relate": "主线故事",
-   "src": 83331,
-   "dst": 35765
-  }
- ]
+  "id": "35765",
+  "node": [
+    {
+      "id": 35765,
+      "name": "人工少女3",
+      "nameCN": "人工少女3",
+      "date": "2007-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83330,
+      "name": "人工少女2",
+      "nameCN": "人工少女2",
+      "date": "2004-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 83331,
+      "name": "人工少女3 はんなり",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 35765,
+      "dst": 83330
+    },
+    {
+      "relateString": "续集",
+      "src": 83330,
+      "dst": 35765
+    },
+    {
+      "relateString": "主线故事",
+      "src": 83331,
+      "dst": 35765
+    }
+  ]
 }

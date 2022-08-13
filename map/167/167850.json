@@ -1,57 +1,54 @@
 {
- "id": 167850,
- "node": [
-  {
-   "id": 167850,
-   "name": "The Magicians Season 1",
-   "nameCN": "魔法师 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/c0/167850_YO3PK.jpg",
-   "date": "2015-12-16",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 207554,
-   "name": "The Magicians Season 2",
-   "nameCN": "魔法师 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/c1/207554_r2Rrw.jpg",
-   "date": "2017-01-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 265517,
-   "name": "The Magicians Season 3",
-   "nameCN": "魔法师 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/6e/6b/265517_3W3Ut.jpg",
-   "date": "2018-01-10",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167850,
-   "dst": 207554
-  },
-  {
-   "relate": "前传",
-   "src": 207554,
-   "dst": 167850
-  },
-  {
-   "relate": "续集",
-   "src": 207554,
-   "dst": 265517
-  },
-  {
-   "relate": "前传",
-   "src": 265517,
-   "dst": 207554
-  }
- ]
+  "id": "167850",
+  "node": [
+    {
+      "id": 167850,
+      "name": "The Magicians Season 1",
+      "nameCN": "魔法师 第一季",
+      "date": "2015-12-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 207554,
+      "name": "The Magicians Season 2",
+      "nameCN": "魔法师 第二季",
+      "date": "2017-01-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 265517,
+      "name": "The Magicians Season 3",
+      "nameCN": "魔法师 第三季",
+      "date": "2018-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167850,
+      "dst": 207554
+    },
+    {
+      "relateString": "前传",
+      "src": 207554,
+      "dst": 167850
+    },
+    {
+      "relateString": "续集",
+      "src": 207554,
+      "dst": 265517
+    },
+    {
+      "relateString": "前传",
+      "src": 265517,
+      "dst": 207554
+    }
+  ]
 }

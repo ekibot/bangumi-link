@@ -1,37 +1,35 @@
 {
- "id": 354960,
- "node": [
-  {
-   "id": 354960,
-   "name": "SHIGUNYAN Artworks 2009-2015 Vol.1",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/f6/354960_6EGg8.jpg",
-   "date": "2017-08-13",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "画集",
-   "type": 1
-  },
-  {
-   "id": 354961,
-   "name": "SHIGUNYAN Artworks 2009-2015 Vol.2",
-   "image": "https://lain.bgm.tv/pic/cover/m/bc/9a/354961_Ek5wt.jpg",
-   "date": "2017-12-31",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "画集"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 354960,
-   "dst": 354961
-  },
-  {
-   "relate": "前传",
-   "src": 354961,
-   "dst": 354960
-  }
- ]
+  "id": "354960",
+  "node": [
+    {
+      "id": 354960,
+      "name": "SHIGUNYAN Artworks 2009-2015 Vol.1",
+      "nameCN": "",
+      "date": "2017-08-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 354961,
+      "name": "SHIGUNYAN Artworks 2009-2015 Vol.2",
+      "nameCN": "",
+      "date": "2017-12-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 354960,
+      "dst": 354961
+    },
+    {
+      "relateString": "前传",
+      "src": 354961,
+      "dst": 354960
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 113072,
- "node": [
-  {
-   "id": 113072,
-   "name": "ぐらP＆ろで夫",
-   "nameCN": "GranP&amp;Rodeo夫",
-   "image": "https://lain.bgm.tv/pic/cover/m/64/87/113072_3A7h4.jpg",
-   "date": "2014-10-19",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 182342,
-   "name": "ぐらP＆ろで夫 2期",
-   "nameCN": "GranP&amp;Rodeo夫 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/4f/182342_63hRa.jpg",
-   "date": "2016-07-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113072,
-   "dst": 182342
-  },
-  {
-   "relate": "前传",
-   "src": 182342,
-   "dst": 113072
-  }
- ]
+  "id": "113072",
+  "node": [
+    {
+      "id": 113072,
+      "name": "ぐらP＆ろで夫",
+      "nameCN": "GranP&amp;Rodeo夫",
+      "date": "2014-10-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 182342,
+      "name": "ぐらP＆ろで夫 2期",
+      "nameCN": "GranP&amp;Rodeo夫 第二季",
+      "date": "2016-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113072,
+      "dst": 182342
+    },
+    {
+      "relateString": "前传",
+      "src": 182342,
+      "dst": 113072
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 157400,
- "node": [
-  {
-   "id": 157400,
-   "name": "再婚一直線!",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/e6/157400_jp.jpg",
-   "date": "2005-12-05",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 157401,
-   "name": "再婚一直線! 寿編",
-   "image": "https://lain.bgm.tv/pic/cover/m/a5/08/157401_jp.jpg",
-   "date": "2006-10-25",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 157400,
-   "dst": 157401
-  },
-  {
-   "relate": "前传",
-   "src": 157401,
-   "dst": 157400
-  }
- ]
+  "id": "157400",
+  "node": [
+    {
+      "id": 157400,
+      "name": "再婚一直線!",
+      "nameCN": "",
+      "date": "2005-12-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 157401,
+      "name": "再婚一直線! 寿編",
+      "nameCN": "",
+      "date": "2006-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 157400,
+      "dst": 157401
+    },
+    {
+      "relateString": "前传",
+      "src": 157401,
+      "dst": 157400
+    }
+  ]
 }

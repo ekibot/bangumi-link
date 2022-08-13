@@ -1,37 +1,33 @@
 {
- "id": 127150,
- "node": [
-  {
-   "id": 127150,
-   "name": "師匠シリーズ",
-   "nameCN": "师傅系列",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 127152,
-   "name": "師匠シリーズ",
-   "nameCN": "师傅系列",
-   "date": null,
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 127150,
-   "dst": 127152
-  },
-  {
-   "relate": "不同演绎",
-   "src": 127152,
-   "dst": 127150
-  }
- ]
+  "id": "127150",
+  "node": [
+    {
+      "id": 127150,
+      "name": "師匠シリーズ",
+      "nameCN": "师傅系列",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 127152,
+      "name": "師匠シリーズ",
+      "nameCN": "师傅系列",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 127150,
+      "dst": 127152
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 127152,
+      "dst": 127150
+    }
+  ]
 }

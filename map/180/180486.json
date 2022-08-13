@@ -1,57 +1,54 @@
 {
- "id": 180486,
- "node": [
-  {
-   "id": 180486,
-   "name": "復讐教室",
-   "nameCN": "复仇教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/8e/180486_jp.jpg",
-   "date": "2013-11-14",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 238263,
-   "name": "復讐の唄",
-   "image": "https://lain.bgm.tv/pic/cover/m/87/ca/238263_2Qq0i.jpg",
-   "date": "2012-10-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 238264,
-   "name": "復讐教室 連鎖",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/35/238264_8iKfa.jpg",
-   "date": "2014-05-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 180486,
-   "dst": 238264
-  },
-  {
-   "relate": "续集",
-   "src": 238263,
-   "dst": 238264
-  },
-  {
-   "relate": "前传",
-   "src": 238264,
-   "dst": 180486
-  },
-  {
-   "relate": "前传",
-   "src": 238264,
-   "dst": 238263
-  }
- ]
+  "id": "180486",
+  "node": [
+    {
+      "id": 180486,
+      "name": "復讐教室",
+      "nameCN": "复仇教室",
+      "date": "2013-11-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 238264,
+      "name": "復讐教室 連鎖",
+      "nameCN": "",
+      "date": "2014-05-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 238263,
+      "name": "復讐の唄",
+      "nameCN": "",
+      "date": "2012-10-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 180486,
+      "dst": 238264
+    },
+    {
+      "relateString": "续集",
+      "src": 238263,
+      "dst": 238264
+    },
+    {
+      "relateString": "前传",
+      "src": 238264,
+      "dst": 180486
+    },
+    {
+      "relateString": "前传",
+      "src": 238264,
+      "dst": 238263
+    }
+  ]
 }

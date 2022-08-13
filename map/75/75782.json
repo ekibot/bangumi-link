@@ -1,147 +1,138 @@
 {
- "id": 75782,
- "node": [
-  {
-   "id": 75782,
-   "name": "最遊記外伝",
-   "nameCN": "最遊記外傳",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/d2/75782_g4Wol.jpg",
-   "date": "2005-12-28",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 75790,
-   "name": "最遊記",
-   "nameCN": "最游记",
-   "image": "https://lain.bgm.tv/pic/cover/m/9b/06/75790_iJj1o.jpg",
-   "date": "1997-10-27",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 108690,
-   "name": "最遊記RELOAD",
-   "nameCN": "最遊記 RELOAD",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/a0/108690_0SZK5.jpg",
-   "date": "2002-07-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 108702,
-   "name": "最遊記RELOAD BLAST",
-   "nameCN": "最游记 RELOAD BLAST",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/6a/108702_WP05m.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 117057,
-   "name": "最遊記異聞",
-   "image": "https://lain.bgm.tv/pic/cover/m/cd/4f/117057_jp.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 117099,
-   "name": "最遊記OMNIBUS",
-   "nameCN": "最游记OMNIBUS",
-   "image": "https://lain.bgm.tv/pic/cover/m/b4/3d/117099_jp.jpg",
-   "date": "2010-07-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 117100,
-   "name": "最遊記 紅楼天戯",
-   "nameCN": "最游记 红楼天戏",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/75/117100_jp.jpg",
-   "date": "2011-04-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 75782,
-   "dst": 75790
-  },
-  {
-   "relate": "续集",
-   "src": 75782,
-   "dst": 117057
-  },
-  {
-   "relate": "前传",
-   "src": 75790,
-   "dst": 75782
-  },
-  {
-   "relate": "续集",
-   "src": 75790,
-   "dst": 108690
-  },
-  {
-   "relate": "前传",
-   "src": 75790,
-   "dst": 117057
-  },
-  {
-   "relate": "番外篇",
-   "src": 75790,
-   "dst": 117099
-  },
-  {
-   "relate": "番外篇",
-   "src": 75790,
-   "dst": 117100
-  },
-  {
-   "relate": "前传",
-   "src": 108690,
-   "dst": 75790
-  },
-  {
-   "relate": "续集",
-   "src": 108690,
-   "dst": 108702
-  },
-  {
-   "relate": "前传",
-   "src": 108702,
-   "dst": 108690
-  },
-  {
-   "relate": "前传",
-   "src": 117057,
-   "dst": 75782
-  },
-  {
-   "relate": "续集",
-   "src": 117057,
-   "dst": 75790
-  },
-  {
-   "relate": "主线故事",
-   "src": 117099,
-   "dst": 75790
-  },
-  {
-   "relate": "主线故事",
-   "src": 117100,
-   "dst": 75790
-  }
- ]
+  "id": "75782",
+  "node": [
+    {
+      "id": 75782,
+      "name": "最遊記外伝",
+      "nameCN": "最遊記外傳",
+      "date": "2005-12-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 75790,
+      "name": "最遊記",
+      "nameCN": "最游记",
+      "date": "1997-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 117057,
+      "name": "最遊記異聞",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 108690,
+      "name": "最遊記RELOAD",
+      "nameCN": "最遊記 RELOAD",
+      "date": "2002-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 117099,
+      "name": "最遊記OMNIBUS",
+      "nameCN": "最游记OMNIBUS",
+      "date": "2010-07-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 117100,
+      "name": "最遊記 紅楼天戯",
+      "nameCN": "最游记 红楼天戏",
+      "date": "2011-04-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 108702,
+      "name": "最遊記RELOAD BLAST",
+      "nameCN": "最游记 RELOAD BLAST",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 75782,
+      "dst": 75790
+    },
+    {
+      "relateString": "续集",
+      "src": 75782,
+      "dst": 117057
+    },
+    {
+      "relateString": "前传",
+      "src": 75790,
+      "dst": 75782
+    },
+    {
+      "relateString": "续集",
+      "src": 75790,
+      "dst": 108690
+    },
+    {
+      "relateString": "前传",
+      "src": 75790,
+      "dst": 117057
+    },
+    {
+      "relateString": "番外篇",
+      "src": 75790,
+      "dst": 117099
+    },
+    {
+      "relateString": "番外篇",
+      "src": 75790,
+      "dst": 117100
+    },
+    {
+      "relateString": "前传",
+      "src": 108690,
+      "dst": 75790
+    },
+    {
+      "relateString": "续集",
+      "src": 108690,
+      "dst": 108702
+    },
+    {
+      "relateString": "前传",
+      "src": 108702,
+      "dst": 108690
+    },
+    {
+      "relateString": "前传",
+      "src": 117057,
+      "dst": 75782
+    },
+    {
+      "relateString": "续集",
+      "src": 117057,
+      "dst": 75790
+    },
+    {
+      "relateString": "主线故事",
+      "src": 117099,
+      "dst": 75790
+    },
+    {
+      "relateString": "主线故事",
+      "src": 117100,
+      "dst": 75790
+    }
+  ]
 }

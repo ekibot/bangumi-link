@@ -1,37 +1,34 @@
 {
- "id": 226827,
- "node": [
-  {
-   "id": 226827,
-   "name": "蔷薇X",
-   "nameCN": "蔷薇X",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/c1/226827_fm4Yf.jpg",
-   "date": "2016-06-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 267707,
-   "name": "蔷薇x2016",
-   "nameCN": "蔷薇x2016",
-   "image": "https://lain.bgm.tv/pic/cover/m/8f/0b/267707_2s9rf.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 226827,
-   "dst": 267707
-  },
-  {
-   "relate": "前传",
-   "src": 267707,
-   "dst": 226827
-  }
- ]
+  "id": "226827",
+  "node": [
+    {
+      "id": 226827,
+      "name": "蔷薇X",
+      "nameCN": "蔷薇X",
+      "date": "2016-06-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 267707,
+      "name": "蔷薇x2016",
+      "nameCN": "蔷薇x2016",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 226827,
+      "dst": 267707
+    },
+    {
+      "relateString": "前传",
+      "src": 267707,
+      "dst": 226827
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 142340,
- "node": [
-  {
-   "id": 142340,
-   "name": "QQスイーパー",
-   "nameCN": "QQ扫除者",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/bb/142340_jtiyc.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 146735,
-   "name": "クイーンズ・クオリティ",
-   "nameCN": "Queens Quality",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/16/146735_9N738.jpg",
-   "date": "2016-01-26",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 142340,
-   "dst": 146735
-  },
-  {
-   "relate": "前传",
-   "src": 146735,
-   "dst": 142340
-  }
- ]
+  "id": "142340",
+  "node": [
+    {
+      "id": 142340,
+      "name": "QQスイーパー",
+      "nameCN": "QQ扫除者",
+      "date": "2014-03-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 146735,
+      "name": "クイーンズ・クオリティ",
+      "nameCN": "Queens Quality",
+      "date": "2016-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 142340,
+      "dst": 146735
+    },
+    {
+      "relateString": "前传",
+      "src": 146735,
+      "dst": 142340
+    }
+  ]
 }

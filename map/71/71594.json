@@ -1,37 +1,35 @@
 {
- "id": 71594,
- "node": [
-  {
-   "id": 71594,
-   "name": "The Croods",
-   "nameCN": "疯狂原始人",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/0c/71594_PKv31.jpg",
-   "date": "2013-03-22",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 226193,
-   "name": "The Croods: A New Age",
-   "nameCN": "疯狂原始人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f4/dc/226193_r59r6.jpg",
-   "date": "2020-11-25",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 71594,
-   "dst": 226193
-  },
-  {
-   "relate": "前传",
-   "src": 226193,
-   "dst": 71594
-  }
- ]
+  "id": "71594",
+  "node": [
+    {
+      "id": 71594,
+      "name": "The Croods",
+      "nameCN": "疯狂原始人",
+      "date": "2013-03-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 226193,
+      "name": "The Croods: A New Age",
+      "nameCN": "疯狂原始人2",
+      "date": "2020-11-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 71594,
+      "dst": 226193
+    },
+    {
+      "relateString": "前传",
+      "src": 226193,
+      "dst": 71594
+    }
+  ]
 }

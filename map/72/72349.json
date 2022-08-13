@@ -1,77 +1,73 @@
 {
- "id": 72349,
- "node": [
-  {
-   "id": 72349,
-   "name": "Vicious (Season 1)",
-   "nameCN": "极品基老伴 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/a5/72349_03kG6.jpg",
-   "date": "2013-04-29",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 92112,
-   "name": "Vicious Christmas Special 2013",
-   "nameCN": "极品基老伴：2013 圣诞特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a4/83/92112_8J4kP.jpg",
-   "date": "2013-12-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 92113,
-   "name": "Vicious (Season 2)",
-   "nameCN": "极品基老伴 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b0/3b/92113_XiwT7.jpg",
-   "date": "2015-06-01",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 187877,
-   "name": "Vicious Series Finale",
-   "nameCN": "极品基老伴：完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/55/187877_Dd4h6.jpg",
-   "date": "2016-06-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 72349,
-   "dst": 92112
-  },
-  {
-   "relate": "续集",
-   "src": 72349,
-   "dst": 92113
-  },
-  {
-   "relate": "前传",
-   "src": 92112,
-   "dst": 72349
-  },
-  {
-   "relate": "前传",
-   "src": 92113,
-   "dst": 72349
-  },
-  {
-   "relate": "续集",
-   "src": 92113,
-   "dst": 187877
-  },
-  {
-   "relate": "前传",
-   "src": 187877,
-   "dst": 92113
-  }
- ]
+  "id": "72349",
+  "node": [
+    {
+      "id": 72349,
+      "name": "Vicious (Season 1)",
+      "nameCN": "极品基老伴 第一季",
+      "date": "2013-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 92112,
+      "name": "Vicious Christmas Special 2013",
+      "nameCN": "极品基老伴：2013 圣诞特别篇",
+      "date": "2013-12-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 92113,
+      "name": "Vicious (Season 2)",
+      "nameCN": "极品基老伴 第二季",
+      "date": "2015-06-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 187877,
+      "name": "Vicious Series Finale",
+      "nameCN": "极品基老伴：完结篇",
+      "date": "2016-06-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 72349,
+      "dst": 92112
+    },
+    {
+      "relateString": "续集",
+      "src": 72349,
+      "dst": 92113
+    },
+    {
+      "relateString": "前传",
+      "src": 92112,
+      "dst": 72349
+    },
+    {
+      "relateString": "前传",
+      "src": 92113,
+      "dst": 72349
+    },
+    {
+      "relateString": "续集",
+      "src": 92113,
+      "dst": 187877
+    },
+    {
+      "relateString": "前传",
+      "src": 187877,
+      "dst": 92113
+    }
+  ]
 }

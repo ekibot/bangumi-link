@@ -1,37 +1,34 @@
 {
- "id": 213937,
- "node": [
-  {
-   "id": 213937,
-   "name": "Genius Season 1",
-   "nameCN": "天才 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/02/213937_R10TK.jpg",
-   "date": "2017-04-25",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 213939,
-   "name": "Genius Season 2",
-   "nameCN": "天才 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/ae/213939_h787a.jpg",
-   "date": null,
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213937,
-   "dst": 213939
-  },
-  {
-   "relate": "前传",
-   "src": 213939,
-   "dst": 213937
-  }
- ]
+  "id": "213937",
+  "node": [
+    {
+      "id": 213937,
+      "name": "Genius Season 1",
+      "nameCN": "天才 第一季",
+      "date": "2017-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 213939,
+      "name": "Genius Season 2",
+      "nameCN": "天才 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213937,
+      "dst": 213939
+    },
+    {
+      "relateString": "前传",
+      "src": 213939,
+      "dst": 213937
+    }
+  ]
 }

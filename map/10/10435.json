@@ -1,37 +1,35 @@
 {
- "id": 10435,
- "node": [
-  {
-   "id": 10435,
-   "name": "テレビまんが 昭和物語",
-   "nameCN": "昭和物语",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/f1/10435_99c2B.jpg",
-   "date": "2011-04-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 112596,
-   "name": "テレビまんが 昭和物語 劇場版",
-   "nameCN": "昭和物语 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/9e/22/112596_V30uM.jpg",
-   "date": "2011-01-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "总集篇",
-   "src": 10435,
-   "dst": 112596
-  },
-  {
-   "relate": "全集",
-   "src": 112596,
-   "dst": 10435
-  }
- ]
+  "id": "10435",
+  "node": [
+    {
+      "id": 10435,
+      "name": "テレビまんが 昭和物語",
+      "nameCN": "昭和物语",
+      "date": "2011-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 112596,
+      "name": "テレビまんが 昭和物語 劇場版",
+      "nameCN": "昭和物语 剧场版",
+      "date": "2011-01-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "总集篇",
+      "src": 10435,
+      "dst": 112596
+    },
+    {
+      "relateString": "全集",
+      "src": 112596,
+      "dst": 10435
+    }
+  ]
 }

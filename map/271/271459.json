@@ -1,77 +1,71 @@
 {
- "id": 271459,
- "node": [
-  {
-   "id": 271459,
-   "name": "何様のつもりダ!! SWEET新婚編",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/86/271459_GzgWK.jpg",
-   "date": "2014-03-12",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271470,
-   "name": "何様のつもりダ!! 新婚編",
-   "nameCN": "酷哥辣妹两相好 新婚篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/98/f0/271470_7ioBo.jpg",
-   "date": "2003-01-01",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271474,
-   "name": "続 何様のつもりダ!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/f5/91/271474_UVH3v.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271478,
-   "name": "何様のつもりダ!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/ed/271478_2T7W7.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 271459,
-   "dst": 271478
-  },
-  {
-   "relate": "前传",
-   "src": 271470,
-   "dst": 271478
-  },
-  {
-   "relate": "前传",
-   "src": 271474,
-   "dst": 271478
-  },
-  {
-   "relate": "续集",
-   "src": 271478,
-   "dst": 271459
-  },
-  {
-   "relate": "续集",
-   "src": 271478,
-   "dst": 271470
-  },
-  {
-   "relate": "续集",
-   "src": 271478,
-   "dst": 271474
-  }
- ]
+  "id": "271459",
+  "node": [
+    {
+      "id": 271459,
+      "name": "何様のつもりダ!! SWEET新婚編",
+      "nameCN": "",
+      "date": "2014-03-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271478,
+      "name": "何様のつもりダ!!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271470,
+      "name": "何様のつもりダ!! 新婚編",
+      "nameCN": "酷哥辣妹两相好 新婚篇",
+      "date": "2003-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271474,
+      "name": "続 何様のつもりダ!!",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 271459,
+      "dst": 271478
+    },
+    {
+      "relateString": "前传",
+      "src": 271470,
+      "dst": 271478
+    },
+    {
+      "relateString": "前传",
+      "src": 271474,
+      "dst": 271478
+    },
+    {
+      "relateString": "续集",
+      "src": 271478,
+      "dst": 271459
+    },
+    {
+      "relateString": "续集",
+      "src": 271478,
+      "dst": 271470
+    },
+    {
+      "relateString": "续集",
+      "src": 271478,
+      "dst": 271474
+    }
+  ]
 }

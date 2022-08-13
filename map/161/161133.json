@@ -1,37 +1,34 @@
 {
- "id": 161133,
- "node": [
-  {
-   "id": 161133,
-   "name": "とべ!人類",
-   "nameCN": "飞吧！人类",
-   "image": "https://lain.bgm.tv/pic/cover/m/c9/6c/161133_Zb9WO.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 161134,
-   "name": "とべ!人類 2",
-   "nameCN": "飞吧！人类 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/93/9c/161134_IZjBV.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161133,
-   "dst": 161134
-  },
-  {
-   "relate": "前传",
-   "src": 161134,
-   "dst": 161133
-  }
- ]
+  "id": "161133",
+  "node": [
+    {
+      "id": 161133,
+      "name": "とべ!人類",
+      "nameCN": "飞吧！人类",
+      "date": "1978-09-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 161134,
+      "name": "とべ!人類 2",
+      "nameCN": "飞吧！人类 2",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161133,
+      "dst": 161134
+    },
+    {
+      "relateString": "前传",
+      "src": 161134,
+      "dst": 161133
+    }
+  ]
 }

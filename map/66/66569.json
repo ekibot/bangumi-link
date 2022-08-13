@@ -1,37 +1,34 @@
 {
- "id": 66569,
- "node": [
-  {
-   "id": 66569,
-   "name": "DX-Ball 2",
-   "nameCN": "打砖块",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/56/66569_O7da8.jpg",
-   "date": "1998-12-16",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 68290,
-   "name": "DX-Ball",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/16/68290_mAOSo.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 66569,
-   "dst": 68290
-  },
-  {
-   "relate": "续集",
-   "src": 68290,
-   "dst": 66569
-  }
- ]
+  "id": "66569",
+  "node": [
+    {
+      "id": 66569,
+      "name": "DX-Ball 2",
+      "nameCN": "打砖块",
+      "date": "1998-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 68290,
+      "name": "DX-Ball",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 66569,
+      "dst": 68290
+    },
+    {
+      "relateString": "续集",
+      "src": 68290,
+      "dst": 66569
+    }
+  ]
 }

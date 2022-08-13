@@ -1,37 +1,35 @@
 {
- "id": 7560,
- "node": [
-  {
-   "id": 7560,
-   "name": "好きというのになぜかしら",
-   "nameCN": "明明都說愛我了",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/f7/7560_jp.jpg",
-   "date": "2010-07-30",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 154573,
-   "name": "いつもあなたの事ばかり",
-   "image": "https://lain.bgm.tv/pic/cover/m/ca/9b/154573_jp.jpg",
-   "date": "2015-07-30",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7560,
-   "dst": 154573
-  },
-  {
-   "relate": "前传",
-   "src": 154573,
-   "dst": 7560
-  }
- ]
+  "id": "7560",
+  "node": [
+    {
+      "id": 7560,
+      "name": "好きというのになぜかしら",
+      "nameCN": "明明都說愛我了",
+      "date": "2010-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 154573,
+      "name": "いつもあなたの事ばかり",
+      "nameCN": "",
+      "date": "2015-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7560,
+      "dst": 154573
+    },
+    {
+      "relateString": "前传",
+      "src": 154573,
+      "dst": 7560
+    }
+  ]
 }

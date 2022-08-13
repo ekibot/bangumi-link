@@ -1,37 +1,34 @@
 {
- "id": 253439,
- "node": [
-  {
-   "id": 253439,
-   "name": "PC原人2",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/67/253439_4j7w8.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 253440,
-   "name": "PC原人",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/cf/253440_zVzIB.jpg",
-   "date": "1989-12-15",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 253439,
-   "dst": 253440
-  },
-  {
-   "relate": "续集",
-   "src": 253440,
-   "dst": 253439
-  }
- ]
+  "id": "253439",
+  "node": [
+    {
+      "id": 253439,
+      "name": "PC原人2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 253440,
+      "name": "PC原人",
+      "nameCN": "",
+      "date": "1989-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 253439,
+      "dst": 253440
+    },
+    {
+      "relateString": "续集",
+      "src": 253440,
+      "dst": 253439
+    }
+  ]
 }

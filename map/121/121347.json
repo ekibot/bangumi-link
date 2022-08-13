@@ -1,37 +1,35 @@
 {
- "id": 121347,
- "node": [
-  {
-   "id": 121347,
-   "name": "溫瑞安群俠傳",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/38/121347_Fr3Te.jpg",
-   "date": "2009-02-19",
-   "nameCN": "温瑞安群侠传",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 123752,
-   "name": "溫瑞安群俠傳2",
-   "nameCN": "温瑞安群侠传2",
-   "image": "https://lain.bgm.tv/pic/cover/m/53/ff/123752_Ylo8t.jpg",
-   "date": "2011-05-17",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 121347,
-   "dst": 123752
-  },
-  {
-   "relate": "前传",
-   "src": 123752,
-   "dst": 121347
-  }
- ]
+  "id": "121347",
+  "node": [
+    {
+      "id": 121347,
+      "name": "溫瑞安群俠傳",
+      "nameCN": "温瑞安群侠传",
+      "date": "2009-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 123752,
+      "name": "溫瑞安群俠傳2",
+      "nameCN": "温瑞安群侠传2",
+      "date": "2011-05-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 121347,
+      "dst": 123752
+    },
+    {
+      "relateString": "前传",
+      "src": 123752,
+      "dst": 121347
+    }
+  ]
 }

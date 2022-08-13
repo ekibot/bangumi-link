@@ -1,37 +1,33 @@
 {
- "id": 161175,
- "node": [
-  {
-   "id": 161175,
-   "name": "キス・ミー",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 161178,
-   "name": "NEW キス・ミー",
-   "date": null,
-   "nameCN": "",
-   "image": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 161175,
-   "dst": 161178
-  },
-  {
-   "relate": "前传",
-   "src": 161178,
-   "dst": 161175
-  }
- ]
+  "id": "161175",
+  "node": [
+    {
+      "id": 161175,
+      "name": "キス・ミー",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 161178,
+      "name": "NEW キス・ミー",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 161175,
+      "dst": 161178
+    },
+    {
+      "relateString": "前传",
+      "src": 161178,
+      "dst": 161175
+    }
+  ]
 }

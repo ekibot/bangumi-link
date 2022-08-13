@@ -1,37 +1,35 @@
 {
- "id": 268556,
- "node": [
-  {
-   "id": 268556,
-   "name": "柴公園",
-   "nameCN": "柴公园",
-   "image": "https://lain.bgm.tv/pic/cover/m/db/29/268556_hoGh3.jpg",
-   "date": "2019-01-10",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 306315,
-   "name": "柴公園",
-   "nameCN": "柴公园",
-   "image": "https://lain.bgm.tv/pic/cover/m/d3/3b/306315_jrj9P.jpg",
-   "date": "2019-06-14",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 268556,
-   "dst": 306315
-  },
-  {
-   "relate": "前传",
-   "src": 306315,
-   "dst": 268556
-  }
- ]
+  "id": "268556",
+  "node": [
+    {
+      "id": 268556,
+      "name": "柴公園",
+      "nameCN": "柴公园",
+      "date": "2019-01-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 306315,
+      "name": "柴公園",
+      "nameCN": "柴公园",
+      "date": "2019-06-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 268556,
+      "dst": 306315
+    },
+    {
+      "relateString": "前传",
+      "src": 306315,
+      "dst": 268556
+    }
+  ]
 }

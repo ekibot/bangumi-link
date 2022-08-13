@@ -1,37 +1,35 @@
 {
- "id": 50289,
- "node": [
-  {
-   "id": 50289,
-   "name": "匿名探偵",
-   "nameCN": "匿名侦探",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/da/50289_I3mnx.jpg",
-   "date": "2012-10-12",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 112585,
-   "name": "匿名探偵2",
-   "nameCN": "匿名侦探2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/ae/112585_g4V9l.jpg",
-   "date": "2014-07-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 50289,
-   "dst": 112585
-  },
-  {
-   "relate": "前传",
-   "src": 112585,
-   "dst": 50289
-  }
- ]
+  "id": "50289",
+  "node": [
+    {
+      "id": 50289,
+      "name": "匿名探偵",
+      "nameCN": "匿名侦探",
+      "date": "2012-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 112585,
+      "name": "匿名探偵2",
+      "nameCN": "匿名侦探2",
+      "date": "2014-07-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 50289,
+      "dst": 112585
+    },
+    {
+      "relateString": "前传",
+      "src": 112585,
+      "dst": 50289
+    }
+  ]
 }

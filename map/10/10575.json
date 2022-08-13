@@ -1,77 +1,73 @@
 {
- "id": 10575,
- "node": [
-  {
-   "id": 10575,
-   "name": "Good Luck Charlie (Season 1)",
-   "nameCN": "查莉成长日记 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/e6/10575_tttU8.jpg",
-   "date": "2010-04-04",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 91177,
-   "name": "Good Luck Charlie (Season 2)",
-   "nameCN": "查莉成长日记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/ee/91177_Z6BCb.jpg",
-   "date": "2011-02-20",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 91178,
-   "name": "Good Luck Charlie (Season 3)",
-   "nameCN": "查莉成长日记 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/5b/2f/91178_03G63.jpg",
-   "date": "2012-05-06",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 97921,
-   "name": "Good Luck Charlie (Season 4)",
-   "nameCN": "查莉成长日记 第四季",
-   "image": "https://lain.bgm.tv/pic/cover/m/9c/b9/97921_Xsj5W.jpg",
-   "date": "2013-04-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 10575,
-   "dst": 91177
-  },
-  {
-   "relate": "前传",
-   "src": 91177,
-   "dst": 10575
-  },
-  {
-   "relate": "续集",
-   "src": 91177,
-   "dst": 91178
-  },
-  {
-   "relate": "前传",
-   "src": 91178,
-   "dst": 91177
-  },
-  {
-   "relate": "续集",
-   "src": 91178,
-   "dst": 97921
-  },
-  {
-   "relate": "前传",
-   "src": 97921,
-   "dst": 91178
-  }
- ]
+  "id": "10575",
+  "node": [
+    {
+      "id": 10575,
+      "name": "Good Luck Charlie (Season 1)",
+      "nameCN": "查莉成长日记 第一季",
+      "date": "2010-04-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 91177,
+      "name": "Good Luck Charlie (Season 2)",
+      "nameCN": "查莉成长日记 第二季",
+      "date": "2011-02-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 91178,
+      "name": "Good Luck Charlie (Season 3)",
+      "nameCN": "查莉成长日记 第三季",
+      "date": "2012-05-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 97921,
+      "name": "Good Luck Charlie (Season 4)",
+      "nameCN": "查莉成长日记 第四季",
+      "date": "2013-04-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 10575,
+      "dst": 91177
+    },
+    {
+      "relateString": "前传",
+      "src": 91177,
+      "dst": 10575
+    },
+    {
+      "relateString": "续集",
+      "src": 91177,
+      "dst": 91178
+    },
+    {
+      "relateString": "前传",
+      "src": 91178,
+      "dst": 91177
+    },
+    {
+      "relateString": "续集",
+      "src": 91178,
+      "dst": 97921
+    },
+    {
+      "relateString": "前传",
+      "src": 97921,
+      "dst": 91178
+    }
+  ]
 }

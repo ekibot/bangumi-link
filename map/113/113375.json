@@ -1,37 +1,34 @@
 {
- "id": 113375,
- "node": [
-  {
-   "id": 113375,
-   "name": "ワルプルギスナイトフィーバー",
-   "image": "https://lain.bgm.tv/pic/cover/m/9a/cf/113375_2A5jj.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 113376,
-   "name": "ワルプルギスナイトフィーバー",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/bd/113376_2FCml.jpg",
-   "date": "2010-05-01",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 113375,
-   "dst": 113376
-  },
-  {
-   "relate": "前传",
-   "src": 113376,
-   "dst": 113375
-  }
- ]
+  "id": "113375",
+  "node": [
+    {
+      "id": 113375,
+      "name": "ワルプルギスナイトフィーバー",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 113376,
+      "name": "ワルプルギスナイトフィーバー",
+      "nameCN": "",
+      "date": "2010-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 113375,
+      "dst": 113376
+    },
+    {
+      "relateString": "前传",
+      "src": 113376,
+      "dst": 113375
+    }
+  ]
 }

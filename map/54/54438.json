@@ -1,37 +1,35 @@
 {
- "id": 54438,
- "node": [
-  {
-   "id": 54438,
-   "name": "八犬伝 -東方八犬異聞-",
-   "nameCN": "八犬传-东方八犬异闻-",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/02/54438_m2lIX.jpg",
-   "date": "2013-01-05",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 68935,
-   "name": "八犬伝 -東方八犬異聞-  二期",
-   "nameCN": "八犬传-东方八犬异闻- 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/4d/68935_0gT1p.jpg",
-   "date": "2013-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 54438,
-   "dst": 68935
-  },
-  {
-   "relate": "前传",
-   "src": 68935,
-   "dst": 54438
-  }
- ]
+  "id": "54438",
+  "node": [
+    {
+      "id": 54438,
+      "name": "八犬伝 -東方八犬異聞-",
+      "nameCN": "八犬传-东方八犬异闻-",
+      "date": "2013-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 68935,
+      "name": "八犬伝 -東方八犬異聞-  二期",
+      "nameCN": "八犬传-东方八犬异闻- 第二季",
+      "date": "2013-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 54438,
+      "dst": 68935
+    },
+    {
+      "relateString": "前传",
+      "src": 68935,
+      "dst": 54438
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 108020,
- "node": [
-  {
-   "id": 108020,
-   "name": "愛気",
-   "nameCN": "麻辣功夫王",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/aa/108020_c94Cx.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 155114,
-   "name": "愛気-S",
-   "image": "https://lain.bgm.tv/pic/cover/m/b3/5e/155114_dYyPl.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 108020,
-   "dst": 155114
-  },
-  {
-   "relate": "前传",
-   "src": 155114,
-   "dst": 108020
-  }
- ]
+  "id": "108020",
+  "node": [
+    {
+      "id": 108020,
+      "name": "愛気",
+      "nameCN": "麻辣功夫王",
+      "date": "2004-09-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 155114,
+      "name": "愛気-S",
+      "nameCN": "",
+      "date": "2013-01-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 108020,
+      "dst": 155114
+    },
+    {
+      "relateString": "前传",
+      "src": 155114,
+      "dst": 108020
+    }
+  ]
 }

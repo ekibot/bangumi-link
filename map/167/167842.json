@@ -1,37 +1,35 @@
 {
- "id": 167842,
- "node": [
-  {
-   "id": 167842,
-   "name": "デジモンワールド デジタルカードバトル",
-   "nameCN": "数码宝贝世界卡片大战",
-   "image": "https://lain.bgm.tv/pic/cover/m/26/43/167842_1Sr8Q.jpg",
-   "date": "1999-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 167843,
-   "name": "デジモンワールド デジタルカードアリーナ",
-   "nameCN": "数码宝贝世界卡片大战2",
-   "image": "https://lain.bgm.tv/pic/cover/m/15/78/167843_0QXiV.jpg",
-   "date": "2000-12-21",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 167842,
-   "dst": 167843
-  },
-  {
-   "relate": "前传",
-   "src": 167843,
-   "dst": 167842
-  }
- ]
+  "id": "167842",
+  "node": [
+    {
+      "id": 167842,
+      "name": "デジモンワールド デジタルカードバトル",
+      "nameCN": "数码宝贝世界卡片大战",
+      "date": "1999-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 167843,
+      "name": "デジモンワールド デジタルカードアリーナ",
+      "nameCN": "数码宝贝世界卡片大战2",
+      "date": "2000-12-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 167842,
+      "dst": 167843
+    },
+    {
+      "relateString": "前传",
+      "src": 167843,
+      "dst": 167842
+    }
+  ]
 }

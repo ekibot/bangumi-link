@@ -1,57 +1,53 @@
 {
- "id": 224244,
- "node": [
-  {
-   "id": 224244,
-   "name": "維新の嵐",
-   "nameCN": "维新之岚",
-   "image": "https://lain.bgm.tv/pic/cover/m/7f/d8/224244_r7E7y.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259530,
-   "name": "維新の嵐 幕末志士伝",
-   "nameCN": "维新之岚 幕末志士传",
-   "image": "https://lain.bgm.tv/pic/cover/m/de/5b/259530_9nE31.jpg",
-   "date": "1998-05-01",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 306984,
-   "name": "維新の嵐 疾風龍馬伝",
-   "nameCN": "维新之岚 疾风龙马传",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/74/306984_7h1O7.jpg",
-   "date": "2010-11-18",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 224244,
-   "dst": 259530
-  },
-  {
-   "relate": "前传",
-   "src": 259530,
-   "dst": 224244
-  },
-  {
-   "relate": "续集",
-   "src": 259530,
-   "dst": 306984
-  },
-  {
-   "relate": "前传",
-   "src": 306984,
-   "dst": 259530
-  }
- ]
+  "id": "224244",
+  "node": [
+    {
+      "id": 224244,
+      "name": "維新の嵐",
+      "nameCN": "维新之岚",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259530,
+      "name": "維新の嵐 幕末志士伝",
+      "nameCN": "维新之岚 幕末志士传",
+      "date": "1998-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 306984,
+      "name": "維新の嵐 疾風龍馬伝",
+      "nameCN": "维新之岚 疾风龙马传",
+      "date": "2010-11-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 224244,
+      "dst": 259530
+    },
+    {
+      "relateString": "前传",
+      "src": 259530,
+      "dst": 224244
+    },
+    {
+      "relateString": "续集",
+      "src": 259530,
+      "dst": 306984
+    },
+    {
+      "relateString": "前传",
+      "src": 306984,
+      "dst": 259530
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 164360,
- "node": [
-  {
-   "id": 164360,
-   "name": "銭華 〜銀座ホステス株バトル〜",
-   "nameCN": "钱华",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/27/164360_AwChj.jpg",
-   "date": "2006-06-20",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 164361,
-   "name": "銭華2 DX豪華版",
-   "nameCN": "钱华2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/70/164361_5CeGZ.jpg",
-   "date": "2007-04-04",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 164360,
-   "dst": 164361
-  },
-  {
-   "relate": "前传",
-   "src": 164361,
-   "dst": 164360
-  }
- ]
+  "id": "164360",
+  "node": [
+    {
+      "id": 164360,
+      "name": "銭華 〜銀座ホステス株バトル〜",
+      "nameCN": "钱华",
+      "date": "2006-06-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 164361,
+      "name": "銭華2 DX豪華版",
+      "nameCN": "钱华2",
+      "date": "2007-04-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 164360,
+      "dst": 164361
+    },
+    {
+      "relateString": "前传",
+      "src": 164361,
+      "dst": 164360
+    }
+  ]
 }

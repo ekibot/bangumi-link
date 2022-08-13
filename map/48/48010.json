@@ -1,30 +1,35 @@
 {
- "id": 48010,
- "node": [
-  {
-   "id": 48010,
-   "name": "ハピメア",
-   "nameCN": "幸福噩梦",
-   "image": "/img/no_icon_subject.png",
-   "date": "2013-02-28"
-  },
-  {
-   "id": 85349,
-   "name": "ハピメア Fragmentation Dream",
-   "image": "/img/no_icon_subject.png",
-   "date": "2014-02-28"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 48010,
-   "dst": 85349
-  },
-  {
-   "relate": "前传",
-   "src": 85349,
-   "dst": 48010
-  }
- ]
+  "id": "48010",
+  "node": [
+    {
+      "id": 48010,
+      "name": "ハピメア",
+      "nameCN": "幸福噩梦",
+      "date": "2013-02-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 85349,
+      "name": "ハピメア Fragmentation Dream",
+      "nameCN": "",
+      "date": "2014-02-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 48010,
+      "dst": 85349
+    },
+    {
+      "relateString": "前传",
+      "src": 85349,
+      "dst": 48010
+    }
+  ]
 }

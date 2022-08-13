@@ -1,37 +1,35 @@
 {
- "id": 248618,
- "node": [
-  {
-   "id": 248618,
-   "name": "White Noise 2",
-   "nameCN": "白躁2",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/78/248618_nJee3.jpg",
-   "date": "2017-04-07",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 248620,
-   "name": "White Noise Online",
-   "nameCN": "白躁 Online",
-   "image": "https://lain.bgm.tv/pic/cover/m/47/f0/248620_Leez2.jpg",
-   "date": "2014-05-23",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 248618,
-   "dst": 248620
-  },
-  {
-   "relate": "续集",
-   "src": 248620,
-   "dst": 248618
-  }
- ]
+  "id": "248618",
+  "node": [
+    {
+      "id": 248618,
+      "name": "White Noise 2",
+      "nameCN": "白躁2",
+      "date": "2017-04-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 248620,
+      "name": "White Noise Online",
+      "nameCN": "白躁 Online",
+      "date": "2014-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 248618,
+      "dst": 248620
+    },
+    {
+      "relateString": "续集",
+      "src": 248620,
+      "dst": 248618
+    }
+  ]
 }

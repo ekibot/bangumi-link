@@ -1,37 +1,35 @@
 {
- "id": 11259,
- "node": [
-  {
-   "id": 11259,
-   "name": "Princess Frontier",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/3d/11259_8CYva.jpg",
-   "date": "2008-03-28",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "PC",
-   "type": 4
-  },
-  {
-   "id": 142334,
-   "name": "Princess Frontier Portable",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/31/142334_cNFZN.jpg",
-   "date": "2011-04-07",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 11259,
-   "dst": 142334
-  },
-  {
-   "relate": "不同演绎",
-   "src": 142334,
-   "dst": 11259
-  }
- ]
+  "id": "11259",
+  "node": [
+    {
+      "id": 11259,
+      "name": "Princess Frontier",
+      "nameCN": "",
+      "date": "2008-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 142334,
+      "name": "Princess Frontier Portable",
+      "nameCN": "",
+      "date": "2011-04-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 11259,
+      "dst": 142334
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 142334,
+      "dst": 11259
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 229330,
- "node": [
-  {
-   "id": 229330,
-   "name": "Team Thor",
-   "nameCN": "雷神小队",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/96/229330_N3zp0.jpg",
-   "date": "2016-07-23",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 229332,
-   "name": "Team Thor: Part 2",
-   "nameCN": "雷神小队：第二部分",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/c1/229332_89D83.jpg",
-   "date": "2017-02-28",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 229330,
-   "dst": 229332
-  },
-  {
-   "relate": "前传",
-   "src": 229332,
-   "dst": 229330
-  }
- ]
+  "id": "229330",
+  "node": [
+    {
+      "id": 229330,
+      "name": "Team Thor",
+      "nameCN": "雷神小队",
+      "date": "2016-07-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 229332,
+      "name": "Team Thor: Part 2",
+      "nameCN": "雷神小队：第二部分",
+      "date": "2017-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 229330,
+      "dst": 229332
+    },
+    {
+      "relateString": "前传",
+      "src": 229332,
+      "dst": 229330
+    }
+  ]
 }

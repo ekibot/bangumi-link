@@ -1,37 +1,35 @@
 {
- "id": 1695,
- "node": [
-  {
-   "id": 1695,
-   "name": "Pushing Daisies Season 1",
-   "nameCN": "灵指神探 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/a8/60890_Qcbwb.jpg",
-   "date": "2007-10-03",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 61456,
-   "name": "Pushing Daisies Season 2",
-   "nameCN": "灵指神探 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/e7/61456_LoQnP.jpg",
-   "date": "2009-07-21",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1695,
-   "dst": 61456
-  },
-  {
-   "relate": "前传",
-   "src": 61456,
-   "dst": 1695
-  }
- ]
+  "id": "1695",
+  "node": [
+    {
+      "id": 1695,
+      "name": "Pushing Daisies Season 1",
+      "nameCN": "灵指神探 第一季",
+      "date": "2007-10-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 61456,
+      "name": "Pushing Daisies Season 2",
+      "nameCN": "灵指神探 第二季",
+      "date": "2009-07-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1695,
+      "dst": 61456
+    },
+    {
+      "relateString": "前传",
+      "src": 61456,
+      "dst": 1695
+    }
+  ]
 }

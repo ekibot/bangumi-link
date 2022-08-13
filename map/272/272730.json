@@ -1,57 +1,54 @@
 {
- "id": 272730,
- "node": [
-  {
-   "id": 272730,
-   "name": "Loki: Agent of Asgard Volume 1: Trust Me",
-   "image": "https://lain.bgm.tv/pic/cover/m/48/2b/272730_t3LQE.jpg",
-   "date": "2014-09-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 272731,
-   "name": "Loki: Agent of Asgard Volume 2: I Cannot Tell a Lie",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/12/272731_Qz6o3.jpg",
-   "date": "2015-05-12",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 272732,
-   "name": "Loki: Agent of Asgard Vol. 3: Last Days",
-   "image": "https://lain.bgm.tv/pic/cover/m/78/97/272732_QTAfp.jpg",
-   "date": "2015-10-13",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 272730,
-   "dst": 272731
-  },
-  {
-   "relate": "前传",
-   "src": 272731,
-   "dst": 272730
-  },
-  {
-   "relate": "续集",
-   "src": 272731,
-   "dst": 272732
-  },
-  {
-   "relate": "前传",
-   "src": 272732,
-   "dst": 272731
-  }
- ]
+  "id": "272730",
+  "node": [
+    {
+      "id": 272730,
+      "name": "Loki: Agent of Asgard Volume 1: Trust Me",
+      "nameCN": "",
+      "date": "2014-09-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 272731,
+      "name": "Loki: Agent of Asgard Volume 2: I Cannot Tell a Lie",
+      "nameCN": "",
+      "date": "2015-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 272732,
+      "name": "Loki: Agent of Asgard Vol. 3: Last Days",
+      "nameCN": "",
+      "date": "2015-10-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 272730,
+      "dst": 272731
+    },
+    {
+      "relateString": "前传",
+      "src": 272731,
+      "dst": 272730
+    },
+    {
+      "relateString": "续集",
+      "src": 272731,
+      "dst": 272732
+    },
+    {
+      "relateString": "前传",
+      "src": 272732,
+      "dst": 272731
+    }
+  ]
 }

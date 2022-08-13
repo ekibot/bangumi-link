@@ -1,37 +1,35 @@
 {
- "id": 198508,
- "node": [
-  {
-   "id": 198508,
-   "name": "桃太郎電鉄2017 たちあがれ日本!!",
-   "nameCN": "桃太郎电铁2017 站起来日本!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/06/58/198508_iSUXO.jpg",
-   "date": "2016-12-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 323233,
-   "name": "桃太郎電鉄 ～昭和 平成 令和も定番！～",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/e8/323233_dGLD2.jpg",
-   "nameCN": "桃太郎电铁～昭和 平成 令和也是基本款！～",
-   "date": "2020-11-19",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198508,
-   "dst": 323233
-  },
-  {
-   "relate": "前传",
-   "src": 323233,
-   "dst": 198508
-  }
- ]
+  "id": "198508",
+  "node": [
+    {
+      "id": 198508,
+      "name": "桃太郎電鉄2017 たちあがれ日本!!",
+      "nameCN": "桃太郎电铁2017 站起来日本!!",
+      "date": "2016-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323233,
+      "name": "桃太郎電鉄 ～昭和 平成 令和も定番！～",
+      "nameCN": "桃太郎电铁～昭和 平成 令和也是基本款！～",
+      "date": "2020-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198508,
+      "dst": 323233
+    },
+    {
+      "relateString": "前传",
+      "src": 323233,
+      "dst": 198508
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 110500,
- "node": [
-  {
-   "id": 110500,
-   "name": "Little Nemo",
-   "nameCN": "小尼莫",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/5b/110500_EsEL2.jpg",
-   "date": "1911-04-08",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 2
-  },
-  {
-   "id": 147927,
-   "name": "NEMO ニモ",
-   "nameCN": "小尼莫梦乡历险记",
-   "image": "https://lain.bgm.tv/pic/cover/m/a6/26/147927_2khg7.jpg",
-   "date": "1989-07-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 289458,
-   "name": "Little NEMO リトルニモ パイロット",
-   "nameCN": "小尼莫梦乡历险记 样片",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/af/289458_aDmnV.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 110500,
-   "dst": 147927
-  },
-  {
-   "relate": "不同演绎",
-   "src": 147927,
-   "dst": 110500
-  },
-  {
-   "relate": "不同演绎",
-   "src": 147927,
-   "dst": 289458
-  },
-  {
-   "relate": "不同演绎",
-   "src": 289458,
-   "dst": 147927
-  }
- ]
+  "id": "110500",
+  "node": [
+    {
+      "id": 110500,
+      "name": "Little Nemo",
+      "nameCN": "小尼莫",
+      "date": "1911-04-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 147927,
+      "name": "NEMO ニモ",
+      "nameCN": "小尼莫梦乡历险记",
+      "date": "1989-07-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 289458,
+      "name": "Little NEMO リトルニモ パイロット",
+      "nameCN": "小尼莫梦乡历险记 样片",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 110500,
+      "dst": 147927
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 147927,
+      "dst": 110500
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 147927,
+      "dst": 289458
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 289458,
+      "dst": 147927
+    }
+  ]
 }

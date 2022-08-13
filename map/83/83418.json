@@ -1,37 +1,35 @@
 {
- "id": 83418,
- "node": [
-  {
-   "id": 83418,
-   "name": "のんのんびより",
-   "nameCN": "悠哉日常大王",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/f8/83418_GkVm9.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 375698,
-   "name": "のんのんびより りめんばー",
-   "nameCN": "悠哉日常大王 Remember",
-   "image": "https://lain.bgm.tv/pic/cover/m/e3/bd/375698_l628N.jpg",
-   "type": 1,
-   "date": "2022-03-23",
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 83418,
-   "dst": 375698
-  },
-  {
-   "relate": "主线故事",
-   "src": 375698,
-   "dst": 83418
-  }
- ]
+  "id": "83418",
+  "node": [
+    {
+      "id": 83418,
+      "name": "のんのんびより",
+      "nameCN": "悠哉日常大王",
+      "date": "2009-09-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 375698,
+      "name": "のんのんびより りめんばー",
+      "nameCN": "悠哉日常大王 Remember",
+      "date": "2022-03-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 83418,
+      "dst": 375698
+    },
+    {
+      "relateString": "主线故事",
+      "src": 375698,
+      "dst": 83418
+    }
+  ]
 }

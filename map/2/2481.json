@@ -1,57 +1,54 @@
 {
- "id": 2481,
- "node": [
-  {
-   "id": 2481,
-   "name": "宇宙の騎士テッカマンブレード",
-   "nameCN": "宇宙骑士BLADE",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/57/2481_msJP0.jpg",
-   "date": "1992-02-18",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 37193,
-   "name": "宇宙の騎士テッカマン",
-   "nameCN": "宇宙骑士铁甲人",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/61/37193_h9Tow.jpg",
-   "date": "1975-07-02",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 37254,
-   "name": "宇宙の騎士テッカマンブレードII",
-   "nameCN": "宇宙骑士BLADE II",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/c1/37254_KB3MB.jpg",
-   "date": "1994-07-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 2481,
-   "dst": 37193
-  },
-  {
-   "relate": "续集",
-   "src": 2481,
-   "dst": 37254
-  },
-  {
-   "relate": "不同世界观",
-   "src": 37193,
-   "dst": 2481
-  },
-  {
-   "relate": "前传",
-   "src": 37254,
-   "dst": 2481
-  }
- ]
+  "id": "2481",
+  "node": [
+    {
+      "id": 2481,
+      "name": "宇宙の騎士テッカマンブレード",
+      "nameCN": "宇宙骑士BLADE",
+      "date": "1992-02-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37193,
+      "name": "宇宙の騎士テッカマン",
+      "nameCN": "宇宙骑士铁甲人",
+      "date": "1975-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37254,
+      "name": "宇宙の騎士テッカマンブレードII",
+      "nameCN": "宇宙骑士BLADE II",
+      "date": "1994-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 2481,
+      "dst": 37193
+    },
+    {
+      "relateString": "续集",
+      "src": 2481,
+      "dst": 37254
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 37193,
+      "dst": 2481
+    },
+    {
+      "relateString": "前传",
+      "src": 37254,
+      "dst": 2481
+    }
+  ]
 }

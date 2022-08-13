@@ -1,37 +1,35 @@
 {
- "id": 94033,
- "node": [
-  {
-   "id": 94033,
-   "name": "斗罗大陆II绝世唐门",
-   "nameCN": "斗罗大陆2绝世唐门",
-   "image": "https://lain.bgm.tv/pic/cover/m/0a/90/94033_ZJaj6.jpg",
-   "date": "2013-06-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 118878,
-   "name": "斗罗大陆",
-   "nameCN": "斗罗大陆",
-   "image": "https://lain.bgm.tv/pic/cover/m/d6/31/118878_Kh8KE.jpg",
-   "date": "2011-04-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 94033,
-   "dst": 118878
-  },
-  {
-   "relate": "续集",
-   "src": 118878,
-   "dst": 94033
-  }
- ]
+  "id": "94033",
+  "node": [
+    {
+      "id": 94033,
+      "name": "斗罗大陆II绝世唐门",
+      "nameCN": "斗罗大陆2绝世唐门",
+      "date": "2013-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 118878,
+      "name": "斗罗大陆",
+      "nameCN": "斗罗大陆",
+      "date": "2011-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 94033,
+      "dst": 118878
+    },
+    {
+      "relateString": "续集",
+      "src": 118878,
+      "dst": 94033
+    }
+  ]
 }

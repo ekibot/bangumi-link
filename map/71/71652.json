@@ -1,37 +1,33 @@
 {
- "id": 71652,
- "node": [
-  {
-   "id": 71652,
-   "name": "YASHA-夜叉-",
-   "nameCN": "夜叉",
-   "image": "https://lain.bgm.tv/pic/cover/m/76/32/71652_RRfyL.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 117884,
-   "name": "イヴの眠り",
-   "nameCN": "沉睡的夏娃",
-   "image": "https://lain.bgm.tv/pic/cover/m/20/5c/117884_3HY1y.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 71652,
-   "dst": 117884
-  },
-  {
-   "relate": "前传",
-   "src": 117884,
-   "dst": 71652
-  }
- ]
+  "id": "71652",
+  "node": [
+    {
+      "id": 71652,
+      "name": "YASHA-夜叉-",
+      "nameCN": "夜叉",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 117884,
+      "name": "イヴの眠り",
+      "nameCN": "沉睡的夏娃",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 71652,
+      "dst": 117884
+    },
+    {
+      "relateString": "前传",
+      "src": 117884,
+      "dst": 71652
+    }
+  ]
 }

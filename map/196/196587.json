@@ -1,37 +1,33 @@
 {
- "id": 196587,
- "node": [
-  {
-   "id": 196587,
-   "name": "Psiconautas, los niños olvidados",
-   "nameCN": "被遗忘的孩子",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/e3/196587_bxM91.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 257639,
-   "name": "Birdboy",
-   "nameCN": "鸟男孩",
-   "image": "https://lain.bgm.tv/pic/cover/m/d5/9d/257639_1yaP9.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 196587,
-   "dst": 257639
-  },
-  {
-   "relate": "续集",
-   "src": 257639,
-   "dst": 196587
-  }
- ]
+  "id": "196587",
+  "node": [
+    {
+      "id": 196587,
+      "name": "Psiconautas, los niños olvidados",
+      "nameCN": "被遗忘的孩子",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 257639,
+      "name": "Birdboy",
+      "nameCN": "鸟男孩",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 196587,
+      "dst": 257639
+    },
+    {
+      "relateString": "续集",
+      "src": 257639,
+      "dst": 196587
+    }
+  ]
 }

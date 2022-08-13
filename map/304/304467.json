@@ -1,0 +1,51 @@
+{
+  "id": "304467",
+  "node": [
+    {
+      "id": 304467,
+      "name": "斗罗大陆外传神界传说",
+      "nameCN": "斗罗大陆外传神界传说",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 304471,
+      "name": "斗罗大陆外传唐门英雄传",
+      "nameCN": "斗罗大陆外传唐门英雄传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 304480,
+      "name": "斗罗大陆IV终极斗罗",
+      "nameCN": "斗罗大陆IV终极斗罗",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 304467,
+      "dst": 304471
+    },
+    {
+      "relateString": "前传",
+      "src": 304471,
+      "dst": 304467
+    },
+    {
+      "relateString": "续集",
+      "src": 304471,
+      "dst": 304480
+    },
+    {
+      "relateString": "前传",
+      "src": 304480,
+      "dst": 304471
+    }
+  ]
+}

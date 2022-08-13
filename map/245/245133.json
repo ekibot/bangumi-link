@@ -1,48 +1,54 @@
 {
- "id": 245133,
- "node": [
-  {
-   "id": 245133,
-   "name": "魔法天使ミサキ",
-   "nameCN": "魔法天使美咲",
-   "image": "/img/no_icon_subject.png",
-   "date": "2003-08-22"
-  },
-  {
-   "id": 245134,
-   "name": "突撃天使かのん",
-   "nameCN": "突击天使花音",
-   "image": "/img/no_icon_subject.png",
-   "date": "2004-07-16"
-  },
-  {
-   "id": 245135,
-   "name": "魔法天使ミサキ2",
-   "nameCN": "魔法天使美咲2",
-   "image": "/img/no_icon_subject.png",
-   "date": "2006-10-20"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 245133,
-   "dst": 245134
-  },
-  {
-   "relate": "前传",
-   "src": 245134,
-   "dst": 245133
-  },
-  {
-   "relate": "续集",
-   "src": 245134,
-   "dst": 245135
-  },
-  {
-   "relate": "前传",
-   "src": 245135,
-   "dst": 245134
-  }
- ]
+  "id": "245133",
+  "node": [
+    {
+      "id": 245133,
+      "name": "魔法天使ミサキ",
+      "nameCN": "魔法天使美咲",
+      "date": "2003-08-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245134,
+      "name": "突撃天使かのん",
+      "nameCN": "突击天使花音",
+      "date": "2004-07-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245135,
+      "name": "魔法天使ミサキ2",
+      "nameCN": "魔法天使美咲2",
+      "date": "2006-10-20",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 245133,
+      "dst": 245134
+    },
+    {
+      "relateString": "前传",
+      "src": 245134,
+      "dst": 245133
+    },
+    {
+      "relateString": "续集",
+      "src": 245134,
+      "dst": 245135
+    },
+    {
+      "relateString": "前传",
+      "src": 245135,
+      "dst": 245134
+    }
+  ]
 }

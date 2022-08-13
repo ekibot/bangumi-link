@@ -1,67 +1,64 @@
 {
- "id": 31331,
- "node": [
-  {
-   "id": 31331,
-   "name": "午前3時の無法地帯",
-   "nameCN": "凌晨三点的混乱地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/d0/ce/31331_CX6Xc.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 145248,
-   "name": "午前3時の危険地帯",
-   "nameCN": "凌晨3点的危险地带",
-   "image": "https://lain.bgm.tv/pic/cover/m/42/ae/145248_wI28F.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 145253,
-   "name": "午前3時の不協和音",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/81/145253_zM0SU.jpg",
-   "date": "2012-05-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 31331,
-   "dst": 145248
-  },
-  {
-   "relate": "番外篇",
-   "src": 31331,
-   "dst": 145253
-  },
-  {
-   "relate": "前传",
-   "src": 145248,
-   "dst": 31331
-  },
-  {
-   "relate": "番外篇",
-   "src": 145248,
-   "dst": 145253
-  },
-  {
-   "relate": "主线故事",
-   "src": 145253,
-   "dst": 31331
-  },
-  {
-   "relate": "主线故事",
-   "src": 145253,
-   "dst": 145248
-  }
- ]
+  "id": "31331",
+  "node": [
+    {
+      "id": 31331,
+      "name": "午前3時の無法地帯",
+      "nameCN": "凌晨三点的混乱地带",
+      "date": "2008-04-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145248,
+      "name": "午前3時の危険地帯",
+      "nameCN": "凌晨3点的危险地带",
+      "date": "2009-09-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 145253,
+      "name": "午前3時の不協和音",
+      "nameCN": "",
+      "date": "2012-05-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 31331,
+      "dst": 145248
+    },
+    {
+      "relateString": "番外篇",
+      "src": 31331,
+      "dst": 145253
+    },
+    {
+      "relateString": "前传",
+      "src": 145248,
+      "dst": 31331
+    },
+    {
+      "relateString": "番外篇",
+      "src": 145248,
+      "dst": 145253
+    },
+    {
+      "relateString": "主线故事",
+      "src": 145253,
+      "dst": 31331
+    },
+    {
+      "relateString": "主线故事",
+      "src": 145253,
+      "dst": 145248
+    }
+  ]
 }

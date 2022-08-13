@@ -1,37 +1,33 @@
 {
- "id": 234999,
- "node": [
-  {
-   "id": 234999,
-   "name": "TheHOUSE",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/7e/234999_HYgts.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 235000,
-   "name": "TheHOUSE 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/9a/235000_boOZo.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 234999,
-   "dst": 235000
-  },
-  {
-   "relate": "前传",
-   "src": 235000,
-   "dst": 234999
-  }
- ]
+  "id": "234999",
+  "node": [
+    {
+      "id": 234999,
+      "name": "TheHOUSE",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 235000,
+      "name": "TheHOUSE 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 234999,
+      "dst": 235000
+    },
+    {
+      "relateString": "前传",
+      "src": 235000,
+      "dst": 234999
+    }
+  ]
 }

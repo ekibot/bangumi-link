@@ -1,37 +1,35 @@
 {
- "id": 103814,
- "node": [
-  {
-   "id": 103814,
-   "name": "信長協奏曲",
-   "nameCN": "信长协奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/02/103814_u22qV.jpg",
-   "date": "2014-10-13",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 103815,
-   "name": "信長協奏曲",
-   "nameCN": "信长协奏曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/b7/b6/103815_dP3sR.jpg",
-   "date": "2016-01-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 103814,
-   "dst": 103815
-  },
-  {
-   "relate": "前传",
-   "src": 103815,
-   "dst": 103814
-  }
- ]
+  "id": "103814",
+  "node": [
+    {
+      "id": 103814,
+      "name": "信長協奏曲",
+      "nameCN": "信长协奏曲",
+      "date": "2014-10-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 103815,
+      "name": "信長協奏曲",
+      "nameCN": "信长协奏曲",
+      "date": "2016-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 103814,
+      "dst": 103815
+    },
+    {
+      "relateString": "前传",
+      "src": 103815,
+      "dst": 103814
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 42580,
- "node": [
-  {
-   "id": 42580,
-   "name": "ヒトナツの夢",
-   "nameCN": "盛夏之梦  A Dream of Summer",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/43/42580_yP0tJ.jpg",
-   "date": "2005-08-26",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 231818,
-   "name": "ほたるゆき -SnowSky Edition-",
-   "image": "https://lain.bgm.tv/pic/cover/m/f8/db/231818_w5hLL.jpg",
-   "date": "2017-12-07",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 42580,
-   "dst": 231818
-  },
-  {
-   "relate": "前传",
-   "src": 231818,
-   "dst": 42580
-  }
- ]
+  "id": "42580",
+  "node": [
+    {
+      "id": 42580,
+      "name": "ヒトナツの夢",
+      "nameCN": "盛夏之梦  A Dream of Summer",
+      "date": "2005-08-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 231818,
+      "name": "ほたるゆき -SnowSky Edition-",
+      "nameCN": "",
+      "date": "2017-12-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 42580,
+      "dst": 231818
+    },
+    {
+      "relateString": "前传",
+      "src": 231818,
+      "dst": 42580
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 213891,
- "node": [
-  {
-   "id": 213891,
-   "name": "ねこぢるうどん",
-   "nameCN": "猫汤",
-   "image": "https://lain.bgm.tv/pic/cover/m/c2/53/213891_dTtHn.jpg",
-   "date": "1992-07-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 213896,
-   "name": "ねこぢるyうどん",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/9a/213896_0p0KZ.jpg",
-   "date": "2000-11-20",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 213891,
-   "dst": 213896
-  },
-  {
-   "relate": "前传",
-   "src": 213896,
-   "dst": 213891
-  }
- ]
+  "id": "213891",
+  "node": [
+    {
+      "id": 213891,
+      "name": "ねこぢるうどん",
+      "nameCN": "猫汤",
+      "date": "1992-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 213896,
+      "name": "ねこぢるyうどん",
+      "nameCN": "",
+      "date": "2000-11-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 213891,
+      "dst": 213896
+    },
+    {
+      "relateString": "前传",
+      "src": 213896,
+      "dst": 213891
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 117395,
- "node": [
-  {
-   "id": 117395,
-   "name": "Bee and PuppyCat Season 1",
-   "nameCN": "蜂妹与狗狗猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/7d/117395_Zu5zv.jpg",
-   "date": "2013-07-11",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 377837,
-   "name": "Bee and PuppyCat: Lazy in Space",
-   "image": "https://lain.bgm.tv/pic/cover/m/6f/dd/377837_vU9uB.jpg",
-   "date": "2019-09-26",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 117395,
-   "dst": 377837
-  },
-  {
-   "relate": "前传",
-   "src": 377837,
-   "dst": 117395
-  }
- ]
+  "id": "117395",
+  "node": [
+    {
+      "id": 117395,
+      "name": "Bee and PuppyCat Season 1",
+      "nameCN": "蜂妹与狗狗猫",
+      "date": "2013-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 377837,
+      "name": "Bee and PuppyCat: Lazy in Space",
+      "nameCN": "",
+      "date": "2019-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 117395,
+      "dst": 377837
+    },
+    {
+      "relateString": "前传",
+      "src": 377837,
+      "dst": 117395
+    }
+  ]
 }

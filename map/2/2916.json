@@ -1,37 +1,34 @@
 {
- "id": 2916,
- "node": [
-  {
-   "id": 2916,
-   "name": "東京BABYLON",
-   "nameCN": "东京巴比伦",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/0a/2916_2cN0N.jpg",
-   "date": "1992-10-21",
-   "nsfw": false,
-   "platform": "OVA",
-   "type": 2
-  },
-  {
-   "id": 317642,
-   "name": "東京BABYLON 2021",
-   "nameCN": "东京巴比伦 2021",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/50/317642_IE5Ds.jpg",
-   "date": null,
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 2916,
-   "dst": 317642
-  },
-  {
-   "relate": "不同演绎",
-   "src": 317642,
-   "dst": 2916
-  }
- ]
+  "id": "2916",
+  "node": [
+    {
+      "id": 2916,
+      "name": "東京BABYLON",
+      "nameCN": "东京巴比伦",
+      "date": "1992-10-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 317642,
+      "name": "東京BABYLON 2021",
+      "nameCN": "东京巴比伦 2021",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 2916,
+      "dst": 317642
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 317642,
+      "dst": 2916
+    }
+  ]
 }

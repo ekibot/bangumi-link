@@ -1,37 +1,33 @@
 {
- "id": 168081,
- "node": [
-  {
-   "id": 168081,
-   "name": "ペンギン娘",
-   "nameCN": "企鹅娘",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/f5/168081_NgT1T.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 168085,
-   "name": "ペンギン娘MAX",
-   "nameCN": "企鹅娘MAX",
-   "image": "https://lain.bgm.tv/pic/cover/m/61/fd/168085_OrAR5.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 168081,
-   "dst": 168085
-  },
-  {
-   "relate": "前传",
-   "src": 168085,
-   "dst": 168081
-  }
- ]
+  "id": "168081",
+  "node": [
+    {
+      "id": 168081,
+      "name": "ペンギン娘",
+      "nameCN": "企鹅娘",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 168085,
+      "name": "ペンギン娘MAX",
+      "nameCN": "企鹅娘MAX",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 168081,
+      "dst": 168085
+    },
+    {
+      "relateString": "前传",
+      "src": 168085,
+      "dst": 168081
+    }
+  ]
 }

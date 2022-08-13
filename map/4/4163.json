@@ -1,87 +1,83 @@
 {
- "id": 4163,
- "node": [
-  {
-   "id": 4163,
-   "name": "カレイドスター",
-   "nameCN": "百变之星",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/49/4163_E22Se.jpg",
-   "date": "2003-04-03",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 37062,
-   "name": "カレイドスター 新たなる翼 -EXTRA STAGE-『笑わない すごい お姫様』",
-   "nameCN": "百变之星 崭新之翼 EXTRA STAGE 不笑的公主",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/40/37062_3IMF2.jpg",
-   "date": "2004-10-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 37063,
-   "name": "カレイドスター Legend of phoenix 〜レイラ・ハミルトン物語〜",
-   "nameCN": "百变之星 不死鸟传说 ～蕾拉・汉密尔顿物语～",
-   "image": "https://lain.bgm.tv/pic/cover/m/d7/cb/37063_5L1LS.jpg",
-   "date": "2006-01-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 37065,
-   "name": "カレイドスター ぐっどだよ! ぐぅーっど!",
-   "nameCN": "百变之星 妙啊！妙！",
-   "image": "https://lain.bgm.tv/pic/cover/m/d4/2e/37065_5XkZY.jpg",
-   "date": "2006-09-27",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 4163,
-   "dst": 37062
-  },
-  {
-   "relate": "续集",
-   "src": 4163,
-   "dst": 37063
-  },
-  {
-   "relate": "番外篇",
-   "src": 4163,
-   "dst": 37065
-  },
-  {
-   "relate": "前传",
-   "src": 37062,
-   "dst": 4163
-  },
-  {
-   "relate": "续集",
-   "src": 37062,
-   "dst": 37063
-  },
-  {
-   "relate": "前传",
-   "src": 37063,
-   "dst": 4163
-  },
-  {
-   "relate": "前传",
-   "src": 37063,
-   "dst": 37062
-  },
-  {
-   "relate": "主线故事",
-   "src": 37065,
-   "dst": 4163
-  }
- ]
+  "id": "4163",
+  "node": [
+    {
+      "id": 4163,
+      "name": "カレイドスター",
+      "nameCN": "百变之星",
+      "date": "2003-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 37062,
+      "name": "カレイドスター 新たなる翼 -EXTRA STAGE-『笑わない すごい お姫様』",
+      "nameCN": "百变之星 崭新之翼 EXTRA STAGE 不笑的公主",
+      "date": "2004-10-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 37063,
+      "name": "カレイドスター Legend of phoenix 〜レイラ・ハミルトン物語〜",
+      "nameCN": "百变之星 不死鸟传说 ～蕾拉・汉密尔顿物语～",
+      "date": "2006-01-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 37065,
+      "name": "カレイドスター ぐっどだよ! ぐぅーっど!",
+      "nameCN": "百变之星 妙啊！妙！",
+      "date": "2006-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 4163,
+      "dst": 37062
+    },
+    {
+      "relateString": "续集",
+      "src": 4163,
+      "dst": 37063
+    },
+    {
+      "relateString": "番外篇",
+      "src": 4163,
+      "dst": 37065
+    },
+    {
+      "relateString": "前传",
+      "src": 37062,
+      "dst": 4163
+    },
+    {
+      "relateString": "续集",
+      "src": 37062,
+      "dst": 37063
+    },
+    {
+      "relateString": "前传",
+      "src": 37063,
+      "dst": 4163
+    },
+    {
+      "relateString": "前传",
+      "src": 37063,
+      "dst": 37062
+    },
+    {
+      "relateString": "主线故事",
+      "src": 37065,
+      "dst": 4163
+    }
+  ]
 }

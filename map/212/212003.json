@@ -1,107 +1,101 @@
 {
- "id": 212003,
- "node": [
-  {
-   "id": 212003,
-   "name": "ウマ娘 プリティーダービー",
-   "nameCN": "赛马娘 Pretty Derby",
-   "image": "https://lain.bgm.tv/pic/cover/m/91/c0/212003_pPk1M.jpg",
-   "date": "2018-04-01",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 269389,
-   "name": "うまよん",
-   "nameCN": "赛马娘四格",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/85/269389_vhLZ0.jpg",
-   "date": "2020-07-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 315574,
-   "name": "ウマ娘 プリティーダービー Season 2",
-   "nameCN": "赛马娘 Pretty Derby 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/1c/6b/315574_7778r.jpg",
-   "date": "2021-01-04",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 371692,
-   "name": "ゲーム『ウマ娘 プリティーダービー』1st Anniversary Special Animation",
-   "nameCN": "『赛马娘 Pretty Derby』1周年纪念动画短片",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/66/371692_fffEO.jpg",
-   "date": "2022-02-22",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 380448,
-   "name": "ウマ娘 プリティーダービー 新シリーズ",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/f2/a7/380448_E2ddI.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "衍生",
-   "src": 212003,
-   "dst": 269389
-  },
-  {
-   "relate": "续集",
-   "src": 212003,
-   "dst": 315574
-  },
-  {
-   "relate": "主线故事",
-   "src": 269389,
-   "dst": 212003
-  },
-  {
-   "relate": "主线故事",
-   "src": 269389,
-   "dst": 315574
-  },
-  {
-   "relate": "前传",
-   "src": 315574,
-   "dst": 212003
-  },
-  {
-   "relate": "衍生",
-   "src": 315574,
-   "dst": 269389
-  },
-  {
-   "relate": "续集",
-   "src": 315574,
-   "dst": 371692
-  },
-  {
-   "relate": "续集",
-   "src": 315574,
-   "dst": 380448
-  },
-  {
-   "relate": "前传",
-   "src": 371692,
-   "dst": 315574
-  },
-  {
-   "relate": "前传",
-   "src": 380448,
-   "dst": 315574
-  }
- ]
+  "id": "212003",
+  "node": [
+    {
+      "id": 212003,
+      "name": "ウマ娘 プリティーダービー",
+      "nameCN": "赛马娘 Pretty Derby",
+      "date": "2018-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 269389,
+      "name": "うまよん",
+      "nameCN": "赛马娘四格",
+      "date": "2020-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 315574,
+      "name": "ウマ娘 プリティーダービー Season 2",
+      "nameCN": "赛马娘 Pretty Derby 第二季",
+      "date": "2021-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 371692,
+      "name": "ゲーム『ウマ娘 プリティーダービー』1st Anniversary Special Animation",
+      "nameCN": "『赛马娘 Pretty Derby』1周年纪念动画短片",
+      "date": "2022-02-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 380448,
+      "name": "ウマ娘 プリティーダービー 新シリーズ",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "衍生",
+      "src": 212003,
+      "dst": 269389
+    },
+    {
+      "relateString": "续集",
+      "src": 212003,
+      "dst": 315574
+    },
+    {
+      "relateString": "主线故事",
+      "src": 269389,
+      "dst": 212003
+    },
+    {
+      "relateString": "主线故事",
+      "src": 269389,
+      "dst": 315574
+    },
+    {
+      "relateString": "前传",
+      "src": 315574,
+      "dst": 212003
+    },
+    {
+      "relateString": "衍生",
+      "src": 315574,
+      "dst": 269389
+    },
+    {
+      "relateString": "续集",
+      "src": 315574,
+      "dst": 371692
+    },
+    {
+      "relateString": "续集",
+      "src": 315574,
+      "dst": 380448
+    },
+    {
+      "relateString": "前传",
+      "src": 371692,
+      "dst": 315574
+    },
+    {
+      "relateString": "前传",
+      "src": 380448,
+      "dst": 315574
+    }
+  ]
 }

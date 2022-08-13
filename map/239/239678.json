@@ -1,37 +1,35 @@
 {
- "id": 239678,
- "node": [
-  {
-   "id": 239678,
-   "name": "宮本から君へ",
-   "nameCN": "宫本不容易",
-   "image": "https://lain.bgm.tv/pic/cover/m/c0/d1/239678_4kosL.jpg",
-   "date": "2018-04-06",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 274001,
-   "name": "宮本から君へ",
-   "nameCN": "宫本不容易",
-   "image": "https://lain.bgm.tv/pic/cover/m/00/cb/274001_3rc53.jpg",
-   "date": "2019-09-27",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 239678,
-   "dst": 274001
-  },
-  {
-   "relate": "前传",
-   "src": 274001,
-   "dst": 239678
-  }
- ]
+  "id": "239678",
+  "node": [
+    {
+      "id": 239678,
+      "name": "宮本から君へ",
+      "nameCN": "宫本不容易",
+      "date": "2018-04-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 274001,
+      "name": "宮本から君へ",
+      "nameCN": "宫本不容易",
+      "date": "2019-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 239678,
+      "dst": 274001
+    },
+    {
+      "relateString": "前传",
+      "src": 274001,
+      "dst": 239678
+    }
+  ]
 }

@@ -1,57 +1,53 @@
 {
- "id": 93511,
- "node": [
-  {
-   "id": 93511,
-   "name": "ラーメン発見伝",
-   "nameCN": "拉面王",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/7c/93511_QkUVq.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 302342,
-   "name": "らーめん才遊記",
-   "image": "https://lain.bgm.tv/pic/cover/m/e0/3f/302342_rxexW.jpg",
-   "date": "2010-02-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 355276,
-   "name": "らーめん再遊記",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/ec/355276_LzBlv.jpg",
-   "date": "2020-06-08",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 93511,
-   "dst": 302342
-  },
-  {
-   "relate": "前传",
-   "src": 302342,
-   "dst": 93511
-  },
-  {
-   "relate": "续集",
-   "src": 302342,
-   "dst": 355276
-  },
-  {
-   "relate": "前传",
-   "src": 355276,
-   "dst": 302342
-  }
- ]
+  "id": "93511",
+  "node": [
+    {
+      "id": 93511,
+      "name": "ラーメン発見伝",
+      "nameCN": "拉面王",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 302342,
+      "name": "らーめん才遊記",
+      "nameCN": "",
+      "date": "2010-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 355276,
+      "name": "らーめん再遊記",
+      "nameCN": "",
+      "date": "2020-06-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 93511,
+      "dst": 302342
+    },
+    {
+      "relateString": "前传",
+      "src": 302342,
+      "dst": 93511
+    },
+    {
+      "relateString": "续集",
+      "src": 302342,
+      "dst": 355276
+    },
+    {
+      "relateString": "前传",
+      "src": 355276,
+      "dst": 302342
+    }
+  ]
 }

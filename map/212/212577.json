@@ -1,37 +1,35 @@
 {
- "id": 212577,
- "node": [
-  {
-   "id": 212577,
-   "name": "乃木坂って、どこ?",
-   "nameCN": "乃木坂在哪里？",
-   "image": "https://lain.bgm.tv/pic/cover/m/94/5e/212577_vVrD3.jpg",
-   "date": "2011-10-02",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 212596,
-   "name": "乃木坂工事中",
-   "nameCN": "乃木坂工事中",
-   "image": "https://lain.bgm.tv/pic/cover/m/52/9d/212596_xeTTu.jpg",
-   "date": "2015-04-19",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 212577,
-   "dst": 212596
-  },
-  {
-   "relate": "前传",
-   "src": 212596,
-   "dst": 212577
-  }
- ]
+  "id": "212577",
+  "node": [
+    {
+      "id": 212577,
+      "name": "乃木坂って、どこ?",
+      "nameCN": "乃木坂在哪里？",
+      "date": "2011-10-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 212596,
+      "name": "乃木坂工事中",
+      "nameCN": "乃木坂工事中",
+      "date": "2015-04-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 212577,
+      "dst": 212596
+    },
+    {
+      "relateString": "前传",
+      "src": 212596,
+      "dst": 212577
+    }
+  ]
 }

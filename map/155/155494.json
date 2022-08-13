@@ -1,37 +1,34 @@
 {
- "id": 155494,
- "node": [
-  {
-   "id": 155494,
-   "name": "おぼっちゃまくん",
-   "nameCN": "天才少爷",
-   "image": "https://lain.bgm.tv/pic/cover/m/af/ae/155494_C4cQc.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 187294,
-   "name": "おぼっちゃまくん 新作",
-   "image": "https://lain.bgm.tv/pic/cover/m/0f/a4/187294_6i0oz.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 155494,
-   "dst": 187294
-  },
-  {
-   "relate": "前传",
-   "src": 187294,
-   "dst": 155494
-  }
- ]
+  "id": "155494",
+  "node": [
+    {
+      "id": 155494,
+      "name": "おぼっちゃまくん",
+      "nameCN": "天才少爷",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 187294,
+      "name": "おぼっちゃまくん 新作",
+      "nameCN": "",
+      "date": "2016-07-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 155494,
+      "dst": 187294
+    },
+    {
+      "relateString": "前传",
+      "src": 187294,
+      "dst": 155494
+    }
+  ]
 }

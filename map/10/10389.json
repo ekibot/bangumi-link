@@ -1,77 +1,73 @@
 {
- "id": 10389,
- "node": [
-  {
-   "id": 10389,
-   "name": "未来少年コナン",
-   "nameCN": "未来少年柯南",
-   "image": "https://lain.bgm.tv/pic/cover/m/75/a6/10389_eV80V.jpg",
-   "date": "1978-04-04",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 25418,
-   "name": "未来少年コナン特別篇 巨大機ギガントの復活",
-   "nameCN": "未来少年柯南特别篇 巨大机毒蛾号的复活",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/dc/25418_tYe82.jpg",
-   "date": "1984-03-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 47667,
-   "name": "未来少年コナン",
-   "nameCN": "未来少年柯南 剧场版",
-   "image": "https://lain.bgm.tv/pic/cover/m/01/da/47667_kbhzb.jpg",
-   "date": "1979-09-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 47668,
-   "name": "未来少年コナンII タイガアドベンチャー",
-   "nameCN": "未来少年柯南II 泰加大冒险",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/ce/47668_sskc2.jpg",
-   "date": "1999-10-16",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 10389,
-   "dst": 25418
-  },
-  {
-   "relate": "总集篇",
-   "src": 10389,
-   "dst": 47667
-  },
-  {
-   "relate": "不同世界观",
-   "src": 10389,
-   "dst": 47668
-  },
-  {
-   "relate": "主线故事",
-   "src": 25418,
-   "dst": 10389
-  },
-  {
-   "relate": "全集",
-   "src": 47667,
-   "dst": 10389
-  },
-  {
-   "relate": "不同世界观",
-   "src": 47668,
-   "dst": 10389
-  }
- ]
+  "id": "10389",
+  "node": [
+    {
+      "id": 10389,
+      "name": "未来少年コナン",
+      "nameCN": "未来少年柯南",
+      "date": "1978-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 25418,
+      "name": "未来少年コナン特別篇 巨大機ギガントの復活",
+      "nameCN": "未来少年柯南特别篇 巨大机毒蛾号的复活",
+      "date": "1984-03-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 47667,
+      "name": "未来少年コナン",
+      "nameCN": "未来少年柯南 剧场版",
+      "date": "1979-09-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 47668,
+      "name": "未来少年コナンII タイガアドベンチャー",
+      "nameCN": "未来少年柯南II 泰加大冒险",
+      "date": "1999-10-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 10389,
+      "dst": 25418
+    },
+    {
+      "relateString": "总集篇",
+      "src": 10389,
+      "dst": 47667
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 10389,
+      "dst": 47668
+    },
+    {
+      "relateString": "主线故事",
+      "src": 25418,
+      "dst": 10389
+    },
+    {
+      "relateString": "全集",
+      "src": 47667,
+      "dst": 10389
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 47668,
+      "dst": 10389
+    }
+  ]
 }

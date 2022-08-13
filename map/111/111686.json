@@ -1,37 +1,33 @@
 {
- "id": 111686,
- "node": [
-  {
-   "id": 111686,
-   "name": "白猫プロジェクト",
-   "nameCN": "白猫计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/0f/111686_C5HBs.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 227258,
-   "name": "白猫テニス",
-   "nameCN": "白猫网球",
-   "image": "https://lain.bgm.tv/pic/cover/m/36/37/227258_ubjwT.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 111686,
-   "dst": 227258
-  },
-  {
-   "relate": "不同演绎",
-   "src": 227258,
-   "dst": 111686
-  }
- ]
+  "id": "111686",
+  "node": [
+    {
+      "id": 111686,
+      "name": "白猫プロジェクト",
+      "nameCN": "白猫计划",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 227258,
+      "name": "白猫テニス",
+      "nameCN": "白猫网球",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 111686,
+      "dst": 227258
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 227258,
+      "dst": 111686
+    }
+  ]
 }

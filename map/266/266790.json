@@ -1,37 +1,35 @@
 {
- "id": 266790,
- "node": [
-  {
-   "id": 266790,
-   "name": "例えば雨が降ったなら",
-   "image": "https://lain.bgm.tv/pic/cover/m/0d/27/266790_5GZEd.jpg",
-   "date": "2018-07-27",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 345760,
-   "name": "例えば雪が融け合うように",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/15/345760_YTYM6.jpg",
-   "date": "2021-08-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 266790,
-   "dst": 345760
-  },
-  {
-   "relate": "前传",
-   "src": 345760,
-   "dst": 266790
-  }
- ]
+  "id": "266790",
+  "node": [
+    {
+      "id": 266790,
+      "name": "例えば雨が降ったなら",
+      "nameCN": "",
+      "date": "2018-07-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 345760,
+      "name": "例えば雪が融け合うように",
+      "nameCN": "",
+      "date": "2021-08-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 266790,
+      "dst": 345760
+    },
+    {
+      "relateString": "前传",
+      "src": 345760,
+      "dst": 266790
+    }
+  ]
 }

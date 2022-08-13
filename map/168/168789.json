@@ -1,37 +1,35 @@
 {
- "id": 168789,
- "node": [
-  {
-   "id": 168789,
-   "name": "Alice in Musicland",
-   "image": "https://lain.bgm.tv/pic/cover/m/08/e1/168789_jp.jpg",
-   "date": "2015-03-18",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 245932,
-   "name": "Music Wizard of OZ",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/d7/245932_eLwbu.jpg",
-   "date": "2016-11-26",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 168789,
-   "dst": 245932
-  },
-  {
-   "relate": "前传",
-   "src": 245932,
-   "dst": 168789
-  }
- ]
+  "id": "168789",
+  "node": [
+    {
+      "id": 168789,
+      "name": "Alice in Musicland",
+      "nameCN": "",
+      "date": "2015-03-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 245932,
+      "name": "Music Wizard of OZ",
+      "nameCN": "",
+      "date": "2016-11-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 168789,
+      "dst": 245932
+    },
+    {
+      "relateString": "前传",
+      "src": 245932,
+      "dst": 168789
+    }
+  ]
 }

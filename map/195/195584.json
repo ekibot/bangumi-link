@@ -1,57 +1,53 @@
 {
- "id": 195584,
- "node": [
-  {
-   "id": 195584,
-   "name": "快傑ヤンチャ丸3 対決!ゾウリンゲン",
-   "nameCN": "快杰洋枪丸3 对决!相凌轩",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/9e/195584_99quq.jpg",
-   "date": "1993-03-30",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255701,
-   "name": "快傑ヤンチャ丸",
-   "nameCN": "快杰洋枪丸",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/c8/255701_AgZj1.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 259107,
-   "name": "快傑ヤンチャ丸2 からくりランド",
-   "nameCN": "快杰洋枪丸2 机关岛",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/1a/259107_4K3LB.jpg",
-   "date": "1991-08-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 195584,
-   "dst": 259107
-  },
-  {
-   "relate": "续集",
-   "src": 255701,
-   "dst": 259107
-  },
-  {
-   "relate": "续集",
-   "src": 259107,
-   "dst": 195584
-  },
-  {
-   "relate": "前传",
-   "src": 259107,
-   "dst": 255701
-  }
- ]
+  "id": "195584",
+  "node": [
+    {
+      "id": 195584,
+      "name": "快傑ヤンチャ丸3 対決!ゾウリンゲン",
+      "nameCN": "快杰洋枪丸3 对决!相凌轩",
+      "date": "1993-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 259107,
+      "name": "快傑ヤンチャ丸2 からくりランド",
+      "nameCN": "快杰洋枪丸2 机关岛",
+      "date": "1991-08-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255701,
+      "name": "快傑ヤンチャ丸",
+      "nameCN": "快杰洋枪丸",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 195584,
+      "dst": 259107
+    },
+    {
+      "relateString": "续集",
+      "src": 255701,
+      "dst": 259107
+    },
+    {
+      "relateString": "续集",
+      "src": 259107,
+      "dst": 195584
+    },
+    {
+      "relateString": "前传",
+      "src": 259107,
+      "dst": 255701
+    }
+  ]
 }

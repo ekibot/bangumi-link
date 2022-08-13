@@ -1,57 +1,54 @@
 {
- "id": 162424,
- "node": [
-  {
-   "id": 162424,
-   "name": "幼稚園ゲーム",
-   "date": "2001-02-05",
-   "nameCN": "",
-   "image": "",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 162493,
-   "name": "幼稚園ゲーム2〜社宅篇〜",
-   "date": "2002-05-27",
-   "image": "",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  },
-  {
-   "id": 162494,
-   "name": "幼稚園ゲーム3",
-   "date": "2003-11-24",
-   "nameCN": "",
-   "image": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 162424,
-   "dst": 162493
-  },
-  {
-   "relate": "前传",
-   "src": 162493,
-   "dst": 162424
-  },
-  {
-   "relate": "续集",
-   "src": 162493,
-   "dst": 162494
-  },
-  {
-   "relate": "前传",
-   "src": 162494,
-   "dst": 162493
-  }
- ]
+  "id": "162424",
+  "node": [
+    {
+      "id": 162424,
+      "name": "幼稚園ゲーム",
+      "nameCN": "",
+      "date": "2001-02-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 162493,
+      "name": "幼稚園ゲーム2〜社宅篇〜",
+      "nameCN": "",
+      "date": "2002-05-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 162494,
+      "name": "幼稚園ゲーム3",
+      "nameCN": "",
+      "date": "2003-11-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 162424,
+      "dst": 162493
+    },
+    {
+      "relateString": "前传",
+      "src": 162493,
+      "dst": 162424
+    },
+    {
+      "relateString": "续集",
+      "src": 162493,
+      "dst": 162494
+    },
+    {
+      "relateString": "前传",
+      "src": 162494,
+      "dst": 162493
+    }
+  ]
 }

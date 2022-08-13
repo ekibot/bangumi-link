@@ -1,37 +1,33 @@
 {
- "id": 52525,
- "node": [
-  {
-   "id": 52525,
-   "name": "Tarr Chronicles",
-   "nameCN": "塔尔历代记",
-   "image": "https://lain.bgm.tv/pic/cover/m/bb/bf/52525_ICnbC.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 52526,
-   "name": "Dark Horizon",
-   "nameCN": "黑暗地平线",
-   "image": "https://lain.bgm.tv/pic/cover/m/fc/9e/52526_nEi0m.jpg",
-   "date": null,
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 52525,
-   "dst": 52526
-  },
-  {
-   "relate": "前传",
-   "src": 52526,
-   "dst": 52525
-  }
- ]
+  "id": "52525",
+  "node": [
+    {
+      "id": 52525,
+      "name": "Tarr Chronicles",
+      "nameCN": "塔尔历代记",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 52526,
+      "name": "Dark Horizon",
+      "nameCN": "黑暗地平线",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 52525,
+      "dst": 52526
+    },
+    {
+      "relateString": "前传",
+      "src": 52526,
+      "dst": 52525
+    }
+  ]
 }

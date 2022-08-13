@@ -1,57 +1,53 @@
 {
- "id": 78888,
- "node": [
-  {
-   "id": 78888,
-   "name": "F",
-   "nameCN": "极速悍将",
-   "image": "https://lain.bgm.tv/pic/cover/m/8e/c8/78888_l0l1L.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 179653,
-   "name": "F REGENERATION 瑠璃",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/e4/179653_5K55k.jpg",
-   "date": "2003-04-18",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 179657,
-   "name": "F FINAL",
-   "image": "https://lain.bgm.tv/pic/cover/m/ae/07/179657_9T0F8.jpg",
-   "date": "2013-06-28",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 78888,
-   "dst": 179653
-  },
-  {
-   "relate": "前传",
-   "src": 179653,
-   "dst": 78888
-  },
-  {
-   "relate": "续集",
-   "src": 179653,
-   "dst": 179657
-  },
-  {
-   "relate": "前传",
-   "src": 179657,
-   "dst": 179653
-  }
- ]
+  "id": "78888",
+  "node": [
+    {
+      "id": 78888,
+      "name": "F",
+      "nameCN": "极速悍将",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 179653,
+      "name": "F REGENERATION 瑠璃",
+      "nameCN": "",
+      "date": "2003-04-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 179657,
+      "name": "F FINAL",
+      "nameCN": "",
+      "date": "2013-06-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 78888,
+      "dst": 179653
+    },
+    {
+      "relateString": "前传",
+      "src": 179653,
+      "dst": 78888
+    },
+    {
+      "relateString": "续集",
+      "src": 179653,
+      "dst": 179657
+    },
+    {
+      "relateString": "前传",
+      "src": 179657,
+      "dst": 179653
+    }
+  ]
 }

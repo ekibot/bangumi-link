@@ -1,97 +1,92 @@
 {
- "id": 130089,
- "node": [
-  {
-   "id": 130089,
-   "name": "제5공화국",
-   "nameCN": "第五共和國",
-   "image": "https://lain.bgm.tv/pic/cover/m/83/d9/130089_zm0yD.jpg",
-   "date": "2005-04-23",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 316549,
-   "name": "제4공화국",
-   "nameCN": "第四共和国",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/27/316549_j5jZN.jpg",
-   "date": "1995-10-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 316550,
-   "name": "제3공화국",
-   "nameCN": "第三共和国",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/bb/316550_9m88c.jpg",
-   "date": "1993-02-07",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  },
-  {
-   "id": 316564,
-   "name": "제1공화국",
-   "nameCN": "第一共和国",
-   "image": "https://lain.bgm.tv/pic/cover/m/22/35/316564_Fin2F.jpg",
-   "date": "1982-04-02",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 316565,
-   "name": "제2공화국",
-   "nameCN": "第二共和国",
-   "image": "https://lain.bgm.tv/pic/cover/m/21/dd/316565_5cc00.jpg",
-   "date": "1989-07-16",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 130089,
-   "dst": 316549
-  },
-  {
-   "relate": "续集",
-   "src": 316549,
-   "dst": 130089
-  },
-  {
-   "relate": "前传",
-   "src": 316549,
-   "dst": 316550
-  },
-  {
-   "relate": "续集",
-   "src": 316550,
-   "dst": 316549
-  },
-  {
-   "relate": "前传",
-   "src": 316550,
-   "dst": 316565
-  },
-  {
-   "relate": "续集",
-   "src": 316564,
-   "dst": 316565
-  },
-  {
-   "relate": "续集",
-   "src": 316565,
-   "dst": 316550
-  },
-  {
-   "relate": "前传",
-   "src": 316565,
-   "dst": 316564
-  }
- ]
+  "id": "130089",
+  "node": [
+    {
+      "id": 130089,
+      "name": "제5공화국",
+      "nameCN": "第五共和國",
+      "date": "2005-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 316549,
+      "name": "제4공화국",
+      "nameCN": "第四共和国",
+      "date": "1995-10-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 316550,
+      "name": "제3공화국",
+      "nameCN": "第三共和国",
+      "date": "1993-02-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 316565,
+      "name": "제2공화국",
+      "nameCN": "第二共和国",
+      "date": "1989-07-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 316564,
+      "name": "제1공화국",
+      "nameCN": "第一共和国",
+      "date": "1982-04-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 130089,
+      "dst": 316549
+    },
+    {
+      "relateString": "续集",
+      "src": 316549,
+      "dst": 130089
+    },
+    {
+      "relateString": "前传",
+      "src": 316549,
+      "dst": 316550
+    },
+    {
+      "relateString": "续集",
+      "src": 316550,
+      "dst": 316549
+    },
+    {
+      "relateString": "前传",
+      "src": 316550,
+      "dst": 316565
+    },
+    {
+      "relateString": "续集",
+      "src": 316564,
+      "dst": 316565
+    },
+    {
+      "relateString": "续集",
+      "src": 316565,
+      "dst": 316550
+    },
+    {
+      "relateString": "前传",
+      "src": 316565,
+      "dst": 316564
+    }
+  ]
 }

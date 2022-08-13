@@ -1,37 +1,35 @@
 {
- "id": 66246,
- "node": [
-  {
-   "id": 66246,
-   "name": "The Emperor's New Groove",
-   "nameCN": "变身国王",
-   "image": "https://lain.bgm.tv/pic/cover/m/ac/51/66246_0pl87.jpg",
-   "date": "2000-12-15",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 113077,
-   "name": "Kronk's New Groove",
-   "nameCN": "变身国王2:高刚外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/03/113077_sFNuE.jpg",
-   "date": "2005-11-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 66246,
-   "dst": 113077
-  },
-  {
-   "relate": "前传",
-   "src": 113077,
-   "dst": 66246
-  }
- ]
+  "id": "66246",
+  "node": [
+    {
+      "id": 66246,
+      "name": "The Emperor's New Groove",
+      "nameCN": "变身国王",
+      "date": "2000-12-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 113077,
+      "name": "Kronk's New Groove",
+      "nameCN": "变身国王2:高刚外传",
+      "date": "2005-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 66246,
+      "dst": 113077
+    },
+    {
+      "relateString": "前传",
+      "src": 113077,
+      "dst": 66246
+    }
+  ]
 }

@@ -1,67 +1,92 @@
 {
- "id": 295925,
- "node": [
-  {
-   "id": 295925,
-   "name": "Secret Agent～騎士学園の忍びなるもの～",
-   "image": "https://lain.bgm.tv/pic/cover/m/7c/c4/295925_fWdJI.jpg",
-   "date": "2020-05-29",
-   "nameCN": "",
-   "type": 4
-  },
-  {
-   "id": 319941,
-   "name": "Secret Agent ～騎士学園の忍びなるもの～ カノンミニafterADV",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-06-26"
-  },
-  {
-   "id": 319942,
-   "name": "Secret Agent ～騎士学園の忍びなるもの～ 神楽ミニafterADV",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-06-26"
-  },
-  {
-   "id": 319943,
-   "name": "Secret Agent ～騎士学園の忍びなるもの～ 舞ミニafterADV",
-   "image": "/img/no_icon_subject.png",
-   "date": "2020-12-18"
-  },
-  {
-   "id": 325321,
-   "name": "Secret Agent影華～shadow flower～",
-   "image": "https://lain.bgm.tv/pic/cover/m/8a/64/325321_B7b2M.jpg",
-   "date": "2021-04-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 295925,
-   "dst": 319941
-  },
-  {
-   "relate": "前传",
-   "src": 319941,
-   "dst": 295925
-  },
-  {
-   "relate": "前传",
-   "src": 319942,
-   "dst": 295925
-  },
-  {
-   "relate": "前传",
-   "src": 319943,
-   "dst": 295925
-  },
-  {
-   "relate": "前传",
-   "src": 325321,
-   "dst": 295925
-  }
- ]
+  "id": "295925",
+  "node": [
+    {
+      "id": 295925,
+      "name": "Secret Agent～騎士学園の忍びなるもの～",
+      "nameCN": "",
+      "date": "2020-05-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 319941,
+      "name": "Secret Agent ～騎士学園の忍びなるもの～ カノンミニafterADV",
+      "nameCN": "",
+      "date": "2020-06-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 319942,
+      "name": "Secret Agent ～騎士学園の忍びなるもの～ 神楽ミニafterADV",
+      "nameCN": "",
+      "date": "2020-06-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 319943,
+      "name": "Secret Agent ～騎士学園の忍びなるもの～ 舞ミニafterADV",
+      "nameCN": "",
+      "date": "2020-12-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "PC"
+    },
+    {
+      "id": 325321,
+      "name": "Secret Agent影華～shadow flower～",
+      "nameCN": "",
+      "date": "2021-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 295925,
+      "dst": 319941
+    },
+    {
+      "relateString": "续集",
+      "src": 295925,
+      "dst": 319942
+    },
+    {
+      "relateString": "续集",
+      "src": 295925,
+      "dst": 319943
+    },
+    {
+      "relateString": "续集",
+      "src": 295925,
+      "dst": 325321
+    },
+    {
+      "relateString": "前传",
+      "src": 319941,
+      "dst": 295925
+    },
+    {
+      "relateString": "前传",
+      "src": 319942,
+      "dst": 295925
+    },
+    {
+      "relateString": "前传",
+      "src": 319943,
+      "dst": 295925
+    },
+    {
+      "relateString": "前传",
+      "src": 325321,
+      "dst": 295925
+    }
+  ]
 }

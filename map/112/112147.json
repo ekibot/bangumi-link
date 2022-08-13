@@ -1,37 +1,35 @@
 {
- "id": 112147,
- "node": [
-  {
-   "id": 112147,
-   "name": "あぐかる",
-   "nameCN": "农业天使茨城酱",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/48/112147_44q1j.jpg",
-   "date": "2010-09-17",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 238437,
-   "name": "あぐかる PLAY WITH IBARAKI編",
-   "image": "https://lain.bgm.tv/pic/cover/m/e7/a9/238437_sGQ8C.jpg",
-   "date": "2014-06-06",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 112147,
-   "dst": 238437
-  },
-  {
-   "relate": "前传",
-   "src": 238437,
-   "dst": 112147
-  }
- ]
+  "id": "112147",
+  "node": [
+    {
+      "id": 112147,
+      "name": "あぐかる",
+      "nameCN": "农业天使茨城酱",
+      "date": "2010-09-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 238437,
+      "name": "あぐかる PLAY WITH IBARAKI編",
+      "nameCN": "",
+      "date": "2014-06-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 112147,
+      "dst": 238437
+    },
+    {
+      "relateString": "前传",
+      "src": 238437,
+      "dst": 112147
+    }
+  ]
 }

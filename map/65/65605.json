@@ -1,117 +1,111 @@
 {
- "id": 65605,
- "node": [
-  {
-   "id": 65605,
-   "name": "グラゼニ",
-   "nameCN": "钱进球场",
-   "image": "https://lain.bgm.tv/pic/cover/m/30/2d/65605_3aGEZ.jpg",
-   "date": "2011-05-23",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 140905,
-   "name": "グラゼニ ～東京ドーム編～",
-   "nameCN": "钱进球场 东京巨蛋篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/72/0f/140905_KKH4o.jpg",
-   "date": "2015-01-23",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 341618,
-   "name": "グラゼニ ~パ・リーグ編~",
-   "image": "https://lain.bgm.tv/pic/cover/m/59/0e/341618_pZ600.jpg",
-   "nameCN": "钱进球场 ～太平洋联盟篇～",
-   "date": "2018-06-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 341631,
-   "name": "グラゼニ ~夏之介の青春~",
-   "image": "https://lain.bgm.tv/pic/cover/m/6b/e2/341631_5uS9u.jpg",
-   "date": "2020-07-20",
-   "nameCN": "钱进球场 ~夏之介的青春~",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 368443,
-   "name": "グラゼニ ～大リーグ編～",
-   "nameCN": "钱进球场 ～大联盟篇～",
-   "image": "https://lain.bgm.tv/pic/cover/m/89/e5/368443_hlQS0.jpg",
-   "date": "2022-01-20",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 368447,
-   "name": "昭和のグラゼニ",
-   "nameCN": "昭和的钱进球场",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/46/368447_8JpoP.jpg",
-   "date": "2022-04-22",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 65605,
-   "dst": 140905
-  },
-  {
-   "relate": "番外篇",
-   "src": 65605,
-   "dst": 341631
-  },
-  {
-   "relate": "番外篇",
-   "src": 65605,
-   "dst": 368447
-  },
-  {
-   "relate": "前传",
-   "src": 140905,
-   "dst": 65605
-  },
-  {
-   "relate": "续集",
-   "src": 140905,
-   "dst": 341618
-  },
-  {
-   "relate": "前传",
-   "src": 341618,
-   "dst": 140905
-  },
-  {
-   "relate": "续集",
-   "src": 341618,
-   "dst": 368443
-  },
-  {
-   "relate": "主线故事",
-   "src": 341631,
-   "dst": 65605
-  },
-  {
-   "relate": "前传",
-   "src": 368443,
-   "dst": 341618
-  },
-  {
-   "relate": "主线故事",
-   "src": 368447,
-   "dst": 65605
-  }
- ]
+  "id": "65605",
+  "node": [
+    {
+      "id": 65605,
+      "name": "グラゼニ",
+      "nameCN": "钱进球场",
+      "date": "2011-05-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 140905,
+      "name": "グラゼニ ～東京ドーム編～",
+      "nameCN": "钱进球场 东京巨蛋篇",
+      "date": "2015-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341631,
+      "name": "グラゼニ ~夏之介の青春~",
+      "nameCN": "钱进球场 ~夏之介的青春~",
+      "date": "2020-07-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 368447,
+      "name": "昭和のグラゼニ",
+      "nameCN": "昭和的钱进球场",
+      "date": "2022-04-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341618,
+      "name": "グラゼニ ~パ・リーグ編~",
+      "nameCN": "钱进球场 ～太平洋联盟篇～",
+      "date": "2018-06-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 368443,
+      "name": "グラゼニ ～大リーグ編～",
+      "nameCN": "钱进球场 ～大联盟篇～",
+      "date": "2022-01-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 65605,
+      "dst": 140905
+    },
+    {
+      "relateString": "番外篇",
+      "src": 65605,
+      "dst": 341631
+    },
+    {
+      "relateString": "番外篇",
+      "src": 65605,
+      "dst": 368447
+    },
+    {
+      "relateString": "前传",
+      "src": 140905,
+      "dst": 65605
+    },
+    {
+      "relateString": "续集",
+      "src": 140905,
+      "dst": 341618
+    },
+    {
+      "relateString": "前传",
+      "src": 341618,
+      "dst": 140905
+    },
+    {
+      "relateString": "续集",
+      "src": 341618,
+      "dst": 368443
+    },
+    {
+      "relateString": "主线故事",
+      "src": 341631,
+      "dst": 65605
+    },
+    {
+      "relateString": "前传",
+      "src": 368443,
+      "dst": 341618
+    },
+    {
+      "relateString": "主线故事",
+      "src": 368447,
+      "dst": 65605
+    }
+  ]
 }

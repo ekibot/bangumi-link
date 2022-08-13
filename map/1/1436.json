@@ -1,37 +1,35 @@
 {
- "id": 1436,
- "node": [
-  {
-   "id": 1436,
-   "name": "アスラクライン",
-   "nameCN": "机巧魔神",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/a3/1436_S6699.jpg",
-   "date": "2009-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2610,
-   "name": "アスラクライン2",
-   "nameCN": "机巧魔神2",
-   "image": "https://lain.bgm.tv/pic/cover/m/8d/c5/2610_32q23.jpg",
-   "date": "2009-10-01",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 1436,
-   "dst": 2610
-  },
-  {
-   "relate": "前传",
-   "src": 2610,
-   "dst": 1436
-  }
- ]
+  "id": "1436",
+  "node": [
+    {
+      "id": 1436,
+      "name": "アスラクライン",
+      "nameCN": "机巧魔神",
+      "date": "2009-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2610,
+      "name": "アスラクライン2",
+      "nameCN": "机巧魔神2",
+      "date": "2009-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 1436,
+      "dst": 2610
+    },
+    {
+      "relateString": "前传",
+      "src": 2610,
+      "dst": 1436
+    }
+  ]
 }

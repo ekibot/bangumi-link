@@ -1,127 +1,117 @@
 {
- "id": 116148,
- "node": [
-  {
-   "id": 116148,
-   "name": "夺宝幸运星",
-   "image": "https://lain.bgm.tv/pic/cover/m/f0/0d/116148_NNXpF.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 116149,
-   "name": "夺宝幸运星2",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/50/116149_33Q3E.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 134435,
-   "name": "金箍棒传奇",
-   "nameCN": "金箍棒传奇",
-   "image": "https://lain.bgm.tv/pic/cover/m/51/a5/134435_883vI.jpg",
-   "date": "2012-12-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 134436,
-   "name": "金箍棒传奇2：沙僧的逆袭",
-   "nameCN": "金箍棒传奇2：沙僧的逆袭",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/72/134436_A2yCC.jpg",
-   "date": "2015-05-29",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 205220,
-   "name": "夺宝幸运星第四季",
-   "date": null,
-   "image": "",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 205221,
-   "name": "夺宝幸运星第三季",
-   "date": null,
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/4d/c5/205221_vK3Z4.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 116148,
-   "dst": 116149
-  },
-  {
-   "relate": "番外篇",
-   "src": 116148,
-   "dst": 134435
-  },
-  {
-   "relate": "番外篇",
-   "src": 116148,
-   "dst": 134436
-  },
-  {
-   "relate": "前传",
-   "src": 116149,
-   "dst": 116148
-  },
-  {
-   "relate": "续集",
-   "src": 116149,
-   "dst": 205221
-  },
-  {
-   "relate": "主线故事",
-   "src": 134435,
-   "dst": 116148
-  },
-  {
-   "relate": "续集",
-   "src": 134435,
-   "dst": 134436
-  },
-  {
-   "relate": "主线故事",
-   "src": 134436,
-   "dst": 116148
-  },
-  {
-   "relate": "前传",
-   "src": 134436,
-   "dst": 134435
-  },
-  {
-   "relate": "前传",
-   "src": 205220,
-   "dst": 205221
-  },
-  {
-   "relate": "前传",
-   "src": 205221,
-   "dst": 116149
-  },
-  {
-   "relate": "续集",
-   "src": 205221,
-   "dst": 205220
-  }
- ]
+  "id": "116148",
+  "node": [
+    {
+      "id": 116148,
+      "name": "夺宝幸运星",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 116149,
+      "name": "夺宝幸运星2",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 134435,
+      "name": "金箍棒传奇",
+      "nameCN": "金箍棒传奇",
+      "date": "2012-12-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 134436,
+      "name": "金箍棒传奇2：沙僧的逆袭",
+      "nameCN": "金箍棒传奇2：沙僧的逆袭",
+      "date": "2015-05-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 205221,
+      "name": "夺宝幸运星第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 205220,
+      "name": "夺宝幸运星第四季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 116148,
+      "dst": 116149
+    },
+    {
+      "relateString": "番外篇",
+      "src": 116148,
+      "dst": 134435
+    },
+    {
+      "relateString": "番外篇",
+      "src": 116148,
+      "dst": 134436
+    },
+    {
+      "relateString": "前传",
+      "src": 116149,
+      "dst": 116148
+    },
+    {
+      "relateString": "续集",
+      "src": 116149,
+      "dst": 205221
+    },
+    {
+      "relateString": "主线故事",
+      "src": 134435,
+      "dst": 116148
+    },
+    {
+      "relateString": "续集",
+      "src": 134435,
+      "dst": 134436
+    },
+    {
+      "relateString": "主线故事",
+      "src": 134436,
+      "dst": 116148
+    },
+    {
+      "relateString": "前传",
+      "src": 134436,
+      "dst": 134435
+    },
+    {
+      "relateString": "前传",
+      "src": 205220,
+      "dst": 205221
+    },
+    {
+      "relateString": "前传",
+      "src": 205221,
+      "dst": 116149
+    },
+    {
+      "relateString": "续集",
+      "src": 205221,
+      "dst": 205220
+    }
+  ]
 }

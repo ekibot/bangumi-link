@@ -1,77 +1,73 @@
 {
- "id": 30160,
- "node": [
-  {
-   "id": 30160,
-   "name": "Red Faction: Guerrilla",
-   "nameCN": "红色派系3：游击战",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/91/30160_3v6ny.jpg",
-   "date": "2009-06-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 115731,
-   "name": "Red Faction: Armageddon",
-   "nameCN": "红色派系:末日审判",
-   "image": "https://lain.bgm.tv/pic/cover/m/74/7c/115731_dZH69.jpg",
-   "date": "2011-06-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 240094,
-   "name": "Red Faction",
-   "nameCN": "红色派系",
-   "image": "https://lain.bgm.tv/pic/cover/m/86/45/240094_XnxWJ.jpg",
-   "date": "2001-05-22",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 240793,
-   "name": "Red Faction II",
-   "nameCN": "红色派系2",
-   "image": "https://lain.bgm.tv/pic/cover/m/b6/8f/240793_pNCsJ.jpg",
-   "date": "2002-10-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 30160,
-   "dst": 115731
-  },
-  {
-   "relate": "前传",
-   "src": 30160,
-   "dst": 240793
-  },
-  {
-   "relate": "前传",
-   "src": 115731,
-   "dst": 30160
-  },
-  {
-   "relate": "续集",
-   "src": 240094,
-   "dst": 240793
-  },
-  {
-   "relate": "续集",
-   "src": 240793,
-   "dst": 30160
-  },
-  {
-   "relate": "前传",
-   "src": 240793,
-   "dst": 240094
-  }
- ]
+  "id": "30160",
+  "node": [
+    {
+      "id": 30160,
+      "name": "Red Faction: Guerrilla",
+      "nameCN": "红色派系3：游击战",
+      "date": "2009-06-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 115731,
+      "name": "Red Faction: Armageddon",
+      "nameCN": "红色派系:末日审判",
+      "date": "2011-06-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240793,
+      "name": "Red Faction II",
+      "nameCN": "红色派系2",
+      "date": "2002-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 240094,
+      "name": "Red Faction",
+      "nameCN": "红色派系",
+      "date": "2001-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 30160,
+      "dst": 115731
+    },
+    {
+      "relateString": "前传",
+      "src": 30160,
+      "dst": 240793
+    },
+    {
+      "relateString": "前传",
+      "src": 115731,
+      "dst": 30160
+    },
+    {
+      "relateString": "续集",
+      "src": 240094,
+      "dst": 240793
+    },
+    {
+      "relateString": "续集",
+      "src": 240793,
+      "dst": 30160
+    },
+    {
+      "relateString": "前传",
+      "src": 240793,
+      "dst": 240094
+    }
+  ]
 }

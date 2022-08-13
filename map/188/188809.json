@@ -1,29 +1,35 @@
 {
- "id": 188809,
- "node": [
-  {
-   "id": 188809,
-   "name": "ROUND SHELL",
-   "image": "//lain.bgm.tv/pic/cover/m/f8/b3/188809_gIgCg.jpg",
-   "date": "2004-06-10"
-  },
-  {
-   "id": 188811,
-   "name": "ROUND SHELL SECOND",
-   "image": "//lain.bgm.tv/pic/cover/m/f8/18/188811_6r5uK.jpg",
-   "date": "2005-06-25"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 188809,
-   "dst": 188811
-  },
-  {
-   "relate": "前传",
-   "src": 188811,
-   "dst": 188809
-  }
- ]
+  "id": "188809",
+  "node": [
+    {
+      "id": 188809,
+      "name": "ROUND SHELL",
+      "nameCN": "",
+      "date": "2004-06-10",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 188811,
+      "name": "ROUND SHELL SECOND",
+      "nameCN": "",
+      "date": "2005-06-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 188809,
+      "dst": 188811
+    },
+    {
+      "relateString": "前传",
+      "src": 188811,
+      "dst": 188809
+    }
+  ]
 }

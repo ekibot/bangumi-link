@@ -1,37 +1,35 @@
 {
- "id": 300072,
- "node": [
-  {
-   "id": 300072,
-   "name": "そらのだいじな旦那さま",
-   "nameCN": "我珍视的夫君大人",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/92/300072_6SVNU.jpg",
-   "date": "2017-01-19",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 300074,
-   "name": "そらのいとしい旦那さま",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/0d/300074_2R2CV.jpg",
-   "date": "2019-10-17",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 300072,
-   "dst": 300074
-  },
-  {
-   "relate": "前传",
-   "src": 300074,
-   "dst": 300072
-  }
- ]
+  "id": "300072",
+  "node": [
+    {
+      "id": 300072,
+      "name": "そらのだいじな旦那さま",
+      "nameCN": "我珍视的夫君大人",
+      "date": "2017-01-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 300074,
+      "name": "そらのいとしい旦那さま",
+      "nameCN": "",
+      "date": "2019-10-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 300072,
+      "dst": 300074
+    },
+    {
+      "relateString": "前传",
+      "src": 300074,
+      "dst": 300072
+    }
+  ]
 }

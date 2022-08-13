@@ -1,37 +1,33 @@
 {
- "id": 254960,
- "node": [
-  {
-   "id": 254960,
-   "name": "夕怪クラブ定例会",
-   "image": "https://lain.bgm.tv/pic/cover/m/41/bf/254960_55Th1.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255034,
-   "name": "夕怪クラブ怪談会",
-   "image": "https://lain.bgm.tv/pic/cover/m/39/2b/255034_6IKs9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 254960,
-   "dst": 255034
-  },
-  {
-   "relate": "前传",
-   "src": 255034,
-   "dst": 254960
-  }
- ]
+  "id": "254960",
+  "node": [
+    {
+      "id": 254960,
+      "name": "夕怪クラブ定例会",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255034,
+      "name": "夕怪クラブ怪談会",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 254960,
+      "dst": 255034
+    },
+    {
+      "relateString": "前传",
+      "src": 255034,
+      "dst": 254960
+    }
+  ]
 }

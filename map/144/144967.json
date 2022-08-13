@@ -1,37 +1,35 @@
 {
- "id": 144967,
- "node": [
-  {
-   "id": 144967,
-   "name": "神明之胄",
-   "nameCN": "神明之胄",
-   "image": "https://lain.bgm.tv/pic/cover/m/ea/b7/144967_A0Gap.jpg",
-   "date": "2015-12-02",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 183282,
-   "name": "神明之胄 第2季",
-   "nameCN": "神明之胄 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/fd/183282_gz6yG.jpg",
-   "date": "2017-01-18",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 144967,
-   "dst": 183282
-  },
-  {
-   "relate": "前传",
-   "src": 183282,
-   "dst": 144967
-  }
- ]
+  "id": "144967",
+  "node": [
+    {
+      "id": 144967,
+      "name": "神明之胄",
+      "nameCN": "神明之胄",
+      "date": "2015-12-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 183282,
+      "name": "神明之胄 第2季",
+      "nameCN": "神明之胄 第二季",
+      "date": "2017-01-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 144967,
+      "dst": 183282
+    },
+    {
+      "relateString": "前传",
+      "src": 183282,
+      "dst": 144967
+    }
+  ]
 }

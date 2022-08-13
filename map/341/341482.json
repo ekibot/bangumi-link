@@ -1,57 +1,52 @@
 {
- "id": 341482,
- "node": [
-  {
-   "id": 341482,
-   "name": "プラトニックチェーン",
-   "nameCN": "柏拉图之链",
-   "date": null,
-   "image": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 341484,
-   "name": "晴れときどき女子高生〜プラトニックチェーン〜",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/55/341484_fDB30.jpg",
-   "date": "2004-12-15",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  },
-  {
-   "id": 341486,
-   "name": "プラトニックチェーン",
-   "nameCN": "柏拉图之链",
-   "image": "https://lain.bgm.tv/pic/cover/m/1b/9b/341486_t4LFF.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 341482,
-   "dst": 341484
-  },
-  {
-   "relate": "番外篇",
-   "src": 341484,
-   "dst": 341482
-  },
-  {
-   "relate": "主线故事",
-   "src": 341484,
-   "dst": 341486
-  },
-  {
-   "relate": "番外篇",
-   "src": 341486,
-   "dst": 341484
-  }
- ]
+  "id": "341482",
+  "node": [
+    {
+      "id": 341482,
+      "name": "プラトニックチェーン",
+      "nameCN": "柏拉图之链",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 341484,
+      "name": "晴れときどき女子高生〜プラトニックチェーン〜",
+      "nameCN": "",
+      "date": "2004-12-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 341486,
+      "name": "プラトニックチェーン",
+      "nameCN": "柏拉图之链",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 341482,
+      "dst": 341484
+    },
+    {
+      "relateString": "番外篇",
+      "src": 341484,
+      "dst": 341482
+    },
+    {
+      "relateString": "主线故事",
+      "src": 341484,
+      "dst": 341486
+    },
+    {
+      "relateString": "番外篇",
+      "src": 341486,
+      "dst": 341484
+    }
+  ]
 }

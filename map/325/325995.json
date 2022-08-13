@@ -1,57 +1,53 @@
 {
- "id": 325995,
- "node": [
-  {
-   "id": 325995,
-   "name": "あきのいけにおちる",
-   "image": "https://lain.bgm.tv/pic/cover/m/4c/d3/325995_yR9O3.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 325997,
-   "name": "はるのうみにしずむ",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/ea/325997_8ee9F.jpg",
-   "date": "2019-06-24",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 325998,
-   "name": "なつのかわにうかぶ",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/6d/325998_OOcP5.jpg",
-   "date": "2020-07-26",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 325995,
-   "dst": 325998
-  },
-  {
-   "relate": "续集",
-   "src": 325997,
-   "dst": 325998
-  },
-  {
-   "relate": "续集",
-   "src": 325998,
-   "dst": 325995
-  },
-  {
-   "relate": "前传",
-   "src": 325998,
-   "dst": 325997
-  }
- ]
+  "id": "325995",
+  "node": [
+    {
+      "id": 325995,
+      "name": "あきのいけにおちる",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325998,
+      "name": "なつのかわにうかぶ",
+      "nameCN": "",
+      "date": "2020-07-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 325997,
+      "name": "はるのうみにしずむ",
+      "nameCN": "",
+      "date": "2019-06-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 325995,
+      "dst": 325998
+    },
+    {
+      "relateString": "续集",
+      "src": 325997,
+      "dst": 325998
+    },
+    {
+      "relateString": "续集",
+      "src": 325998,
+      "dst": 325995
+    },
+    {
+      "relateString": "前传",
+      "src": 325998,
+      "dst": 325997
+    }
+  ]
 }

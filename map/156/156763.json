@@ -1,57 +1,53 @@
 {
- "id": 156763,
- "node": [
-  {
-   "id": 156763,
-   "name": "Emily is away",
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/92/156763_1u9OQ.jpg",
-   "date": "2015-11-21",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 255281,
-   "name": "Emily is Away Too",
-   "image": "https://lain.bgm.tv/pic/cover/m/bf/08/255281_27nn5.jpg",
-   "date": "2017-05-27",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 309082,
-   "name": "Emily is Away &lt;3",
-   "image": "https://lain.bgm.tv/pic/cover/m/2b/17/309082_z03aN.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 156763,
-   "dst": 255281
-  },
-  {
-   "relate": "前传",
-   "src": 255281,
-   "dst": 156763
-  },
-  {
-   "relate": "续集",
-   "src": 255281,
-   "dst": 309082
-  },
-  {
-   "relate": "前传",
-   "src": 309082,
-   "dst": 255281
-  }
- ]
+  "id": "156763",
+  "node": [
+    {
+      "id": 156763,
+      "name": "Emily is away",
+      "nameCN": "",
+      "date": "2015-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 255281,
+      "name": "Emily is Away Too",
+      "nameCN": "",
+      "date": "2017-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 309082,
+      "name": "Emily is Away &lt;3",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 156763,
+      "dst": 255281
+    },
+    {
+      "relateString": "前传",
+      "src": 255281,
+      "dst": 156763
+    },
+    {
+      "relateString": "续集",
+      "src": 255281,
+      "dst": 309082
+    },
+    {
+      "relateString": "前传",
+      "src": 309082,
+      "dst": 255281
+    }
+  ]
 }

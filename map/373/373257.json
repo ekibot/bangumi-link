@@ -1,71 +1,68 @@
 {
- "id": 373257,
- "node": [
-  {
-   "id": 373257,
-   "name": "Sift Renegade 3: Defiance",
-   "image": "https://lain.bgm.tv/pic/cover/m/90/63/373257_3fozM.jpg",
-   "date": "2013-01-30",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 373258,
-   "name": "Sift Renegade 3",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/63/373258_N0Jw0.jpg",
-   "date": "2012-12-09",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 373259,
-   "name": "Sift Renegade",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/12/373259_3eg2j.jpg",
-   "date": "2008-12-22",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 373260,
-   "name": "Sift Renegade 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/09/1a/373260_jPV1N.jpg",
-   "date": "2009-10-08",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 373257,
-   "dst": 373258
-  },
-  {
-   "relate": "前传",
-   "src": 373258,
-   "dst": 373260
-  },
-  {
-   "relate": "续集",
-   "src": 373259,
-   "dst": 373260
-  },
-  {
-   "relate": "续集",
-   "src": 373260,
-   "dst": 373258
-  },
-  {
-   "relate": "前传",
-   "src": 373260,
-   "dst": 373259
-  }
- ]
+  "id": "373257",
+  "node": [
+    {
+      "id": 373257,
+      "name": "Sift Renegade 3: Defiance",
+      "nameCN": "",
+      "date": "2013-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 373258,
+      "name": "Sift Renegade 3",
+      "nameCN": "",
+      "date": "2012-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 373260,
+      "name": "Sift Renegade 2",
+      "nameCN": "",
+      "date": "2009-10-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 373259,
+      "name": "Sift Renegade",
+      "nameCN": "",
+      "date": "2008-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 373257,
+      "dst": 373258
+    },
+    {
+      "relateString": "前传",
+      "src": 373258,
+      "dst": 373260
+    },
+    {
+      "relateString": "续集",
+      "src": 373259,
+      "dst": 373260
+    },
+    {
+      "relateString": "续集",
+      "src": 373260,
+      "dst": 373258
+    },
+    {
+      "relateString": "前传",
+      "src": 373260,
+      "dst": 373259
+    }
+  ]
 }

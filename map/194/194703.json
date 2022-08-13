@@ -1,37 +1,35 @@
 {
- "id": 194703,
- "node": [
-  {
-   "id": 194703,
-   "name": "Saturday Night Live (Season 42)",
-   "nameCN": "周六夜现场 第四十二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/f6/2f/194703_0YZO9.jpg",
-   "date": "2016-10-01",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 228101,
-   "name": "Saturday Night Live (Season 43)",
-   "nameCN": "周六夜现场 第四十三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/a1/228101_a2r71.jpg",
-   "date": "2017-09-30",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 194703,
-   "dst": 228101
-  },
-  {
-   "relate": "前传",
-   "src": 228101,
-   "dst": 194703
-  }
- ]
+  "id": "194703",
+  "node": [
+    {
+      "id": 194703,
+      "name": "Saturday Night Live (Season 42)",
+      "nameCN": "周六夜现场 第四十二季",
+      "date": "2016-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 228101,
+      "name": "Saturday Night Live (Season 43)",
+      "nameCN": "周六夜现场 第四十三季",
+      "date": "2017-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 194703,
+      "dst": 228101
+    },
+    {
+      "relateString": "前传",
+      "src": 228101,
+      "dst": 194703
+    }
+  ]
 }

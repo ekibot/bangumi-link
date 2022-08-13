@@ -1,77 +1,73 @@
 {
- "id": 155447,
- "node": [
-  {
-   "id": 155447,
-   "name": "SOCOM 4: U.S. Navy SEALs",
-   "nameCN": "海豹突击队4",
-   "image": "https://lain.bgm.tv/pic/cover/m/68/47/155447_982Rs.jpg",
-   "date": "2011-04-19",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 245686,
-   "name": "SOCOM 3 U.S. Navy SEALs",
-   "nameCN": "海豹突击队3",
-   "image": "https://lain.bgm.tv/pic/cover/m/ff/17/245686_t8zK8.jpg",
-   "date": "2005-10-11",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 245687,
-   "name": "SOCOM II U.S. Navy SEALs",
-   "nameCN": "海豹突击队2",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/05/245687_mkK0j.jpg",
-   "date": "2003-11-04",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 245688,
-   "name": "SOCOM U.S. Navy SEALs",
-   "nameCN": "海豹突击队",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/1f/245688_l7FTk.jpg",
-   "date": "2002-08-27",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 155447,
-   "dst": 245686
-  },
-  {
-   "relate": "续集",
-   "src": 245686,
-   "dst": 155447
-  },
-  {
-   "relate": "前传",
-   "src": 245686,
-   "dst": 245687
-  },
-  {
-   "relate": "续集",
-   "src": 245687,
-   "dst": 245686
-  },
-  {
-   "relate": "前传",
-   "src": 245687,
-   "dst": 245688
-  },
-  {
-   "relate": "续集",
-   "src": 245688,
-   "dst": 245687
-  }
- ]
+  "id": "155447",
+  "node": [
+    {
+      "id": 155447,
+      "name": "SOCOM 4: U.S. Navy SEALs",
+      "nameCN": "海豹突击队4",
+      "date": "2011-04-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245686,
+      "name": "SOCOM 3 U.S. Navy SEALs",
+      "nameCN": "海豹突击队3",
+      "date": "2005-10-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245687,
+      "name": "SOCOM II U.S. Navy SEALs",
+      "nameCN": "海豹突击队2",
+      "date": "2003-11-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 245688,
+      "name": "SOCOM U.S. Navy SEALs",
+      "nameCN": "海豹突击队",
+      "date": "2002-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 155447,
+      "dst": 245686
+    },
+    {
+      "relateString": "续集",
+      "src": 245686,
+      "dst": 155447
+    },
+    {
+      "relateString": "前传",
+      "src": 245686,
+      "dst": 245687
+    },
+    {
+      "relateString": "续集",
+      "src": 245687,
+      "dst": 245686
+    },
+    {
+      "relateString": "前传",
+      "src": 245687,
+      "dst": 245688
+    },
+    {
+      "relateString": "续集",
+      "src": 245688,
+      "dst": 245687
+    }
+  ]
 }

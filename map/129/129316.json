@@ -1,37 +1,34 @@
 {
- "id": 129316,
- "node": [
-  {
-   "id": 129316,
-   "name": "キャプテン",
-   "image": "https://lain.bgm.tv/pic/cover/m/2f/2b/129316_83gnt.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 353495,
-   "name": "キャプテン2",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/2d/353495_2iu3B.jpg",
-   "date": "2021-05-19",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 129316,
-   "dst": 353495
-  },
-  {
-   "relate": "前传",
-   "src": 353495,
-   "dst": 129316
-  }
- ]
+  "id": "129316",
+  "node": [
+    {
+      "id": 129316,
+      "name": "キャプテン",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 353495,
+      "name": "キャプテン2",
+      "nameCN": "",
+      "date": "2021-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 129316,
+      "dst": 353495
+    },
+    {
+      "relateString": "前传",
+      "src": 353495,
+      "dst": 129316
+    }
+  ]
 }

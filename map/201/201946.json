@@ -1,37 +1,35 @@
 {
- "id": 201946,
- "node": [
-  {
-   "id": 201946,
-   "name": "子猫拾いました",
-   "nameCN": "捡到了只小猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/81/68/201946_T919D.jpg",
-   "date": "2016-01-25",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 211842,
-   "name": "子猫また拾いました",
-   "nameCN": "又捡到了只小猫",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/c9/211842_Q3iXW.jpg",
-   "date": "2017-06-24",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 201946,
-   "dst": 211842
-  },
-  {
-   "relate": "前传",
-   "src": 211842,
-   "dst": 201946
-  }
- ]
+  "id": "201946",
+  "node": [
+    {
+      "id": 201946,
+      "name": "子猫拾いました",
+      "nameCN": "捡到了只小猫",
+      "date": "2016-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 211842,
+      "name": "子猫また拾いました",
+      "nameCN": "又捡到了只小猫",
+      "date": "2017-06-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 201946,
+      "dst": 211842
+    },
+    {
+      "relateString": "前传",
+      "src": 211842,
+      "dst": 201946
+    }
+  ]
 }

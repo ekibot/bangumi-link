@@ -1,28 +1,35 @@
 {
- "id": 7852,
- "node": [
-  {
-   "id": 7852,
-   "name": "パピヨンローゼ New Season",
-   "nameCN": "内衣战士玫瑰蝴蝶 New Season",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/65/7852_ilaD0.jpg",
-   "date": "2006-02-09",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 81717,
-   "name": "ランジェリー戦士 パピヨンローゼ",
-   "nameCN": "内衣战士玫瑰蝴蝶",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/dd/81717_DoW54.jpg",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 7852,
-   "dst": 81717
-  }
- ]
+  "id": "7852",
+  "node": [
+    {
+      "id": 7852,
+      "name": "パピヨンローゼ New Season",
+      "nameCN": "内衣战士玫瑰蝴蝶 New Season",
+      "date": "2006-02-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 81717,
+      "name": "ランジェリー戦士 パピヨンローゼ",
+      "nameCN": "内衣战士玫瑰蝴蝶",
+      "date": "2003-04-25",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 7852,
+      "dst": 81717
+    },
+    {
+      "relateString": "续集",
+      "src": 81717,
+      "dst": 7852
+    }
+  ]
 }

@@ -1,57 +1,54 @@
 {
- "id": 36116,
- "node": [
-  {
-   "id": 36116,
-   "name": "The Mask: The Animated Series Season 1",
-   "nameCN": "变相怪杰",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/1b/36116_GJW2e.jpg",
-   "date": "1995-08-12",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 291042,
-   "name": "The Mask: The Animated Series Season 2",
-   "date": "1996-09-03",
-   "image": "",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 291043,
-   "name": "The Mask: The Animated Series Season 3",
-   "date": "1997-07-05",
-   "nameCN": "",
-   "image": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 36116,
-   "dst": 291042
-  },
-  {
-   "relate": "前传",
-   "src": 291042,
-   "dst": 36116
-  },
-  {
-   "relate": "续集",
-   "src": 291042,
-   "dst": 291043
-  },
-  {
-   "relate": "前传",
-   "src": 291043,
-   "dst": 291042
-  }
- ]
+  "id": "36116",
+  "node": [
+    {
+      "id": 36116,
+      "name": "The Mask: The Animated Series Season 1",
+      "nameCN": "变相怪杰",
+      "date": "1995-08-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 291042,
+      "name": "The Mask: The Animated Series Season 2",
+      "nameCN": "",
+      "date": "1996-09-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 291043,
+      "name": "The Mask: The Animated Series Season 3",
+      "nameCN": "",
+      "date": "1997-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 36116,
+      "dst": 291042
+    },
+    {
+      "relateString": "前传",
+      "src": 291042,
+      "dst": 36116
+    },
+    {
+      "relateString": "续集",
+      "src": 291042,
+      "dst": 291043
+    },
+    {
+      "relateString": "前传",
+      "src": 291043,
+      "dst": 291042
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 199910,
- "node": [
-  {
-   "id": 199910,
-   "name": "放課後、あいましょう Re.",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/84/199910_jp.jpg",
-   "date": "2016-12-01",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 202757,
-   "name": "放課後、あいましょう。",
-   "nameCN": "放课后的密会。",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/07/202757_jp.jpg",
-   "date": "2015-07-01",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 199910,
-   "dst": 202757
-  },
-  {
-   "relate": "续集",
-   "src": 202757,
-   "dst": 199910
-  }
- ]
+  "id": "199910",
+  "node": [
+    {
+      "id": 199910,
+      "name": "放課後、あいましょう Re.",
+      "nameCN": "",
+      "date": "2016-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 202757,
+      "name": "放課後、あいましょう。",
+      "nameCN": "放课后的密会。",
+      "date": "2015-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 199910,
+      "dst": 202757
+    },
+    {
+      "relateString": "续集",
+      "src": 202757,
+      "dst": 199910
+    }
+  ]
 }

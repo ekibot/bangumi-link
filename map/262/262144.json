@@ -1,37 +1,34 @@
 {
- "id": 262144,
- "node": [
-  {
-   "id": 262144,
-   "name": "Blazing Soul ー白閃ー",
-   "image": "https://lain.bgm.tv/pic/cover/m/4a/1d/262144_1vXfY.jpg",
-   "date": "2018-09-16",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 262145,
-   "name": "Blazing Soul",
-   "image": "https://lain.bgm.tv/pic/cover/m/07/00/262145_564mI.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 262144,
-   "dst": 262145
-  },
-  {
-   "relate": "前传",
-   "src": 262145,
-   "dst": 262144
-  }
- ]
+  "id": "262144",
+  "node": [
+    {
+      "id": 262144,
+      "name": "Blazing Soul ー白閃ー",
+      "nameCN": "",
+      "date": "2018-09-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 262145,
+      "name": "Blazing Soul",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 262144,
+      "dst": 262145
+    },
+    {
+      "relateString": "前传",
+      "src": 262145,
+      "dst": 262144
+    }
+  ]
 }

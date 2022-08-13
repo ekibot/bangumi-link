@@ -1,37 +1,35 @@
 {
- "id": 5902,
- "node": [
-  {
-   "id": 5902,
-   "name": "anego",
-   "nameCN": "傻大姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/70/a3/5902_G1Dfm.jpg",
-   "date": "2005-04-20",
-   "nsfw": false,
-   "platform": "日剧",
-   "type": 6
-  },
-  {
-   "id": 106489,
-   "name": "Anego 2005年末特别篇",
-   "nameCN": "大姐头 2005年末特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/77/a8/106489_dcDjr.jpg",
-   "date": "2005-12-18",
-   "type": 6,
-   "nsfw": false,
-   "platform": "日剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "番外篇",
-   "src": 5902,
-   "dst": 106489
-  },
-  {
-   "relate": "番外篇",
-   "src": 106489,
-   "dst": 5902
-  }
- ]
+  "id": "5902",
+  "node": [
+    {
+      "id": 5902,
+      "name": "anego",
+      "nameCN": "傻大姐",
+      "date": "2005-04-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 106489,
+      "name": "Anego 2005年末特别篇",
+      "nameCN": "大姐头 2005年末特别篇",
+      "date": "2005-12-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 5902,
+      "dst": 106489
+    },
+    {
+      "relateString": "番外篇",
+      "src": 106489,
+      "dst": 5902
+    }
+  ]
 }

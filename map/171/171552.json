@@ -1,37 +1,34 @@
 {
- "id": 171552,
- "node": [
-  {
-   "id": 171552,
-   "name": "斉藤さん",
-   "image": "https://lain.bgm.tv/pic/cover/m/71/51/171552_95HQ6.jpg",
-   "date": null,
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 171558,
-   "name": "斉藤さん もっと!",
-   "image": "https://lain.bgm.tv/pic/cover/m/23/0e/171558_dOTM9.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 171552,
-   "dst": 171558
-  },
-  {
-   "relate": "前传",
-   "src": 171558,
-   "dst": 171552
-  }
- ]
+  "id": "171552",
+  "node": [
+    {
+      "id": 171552,
+      "name": "斉藤さん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 171558,
+      "name": "斉藤さん もっと!",
+      "nameCN": "",
+      "date": "2015-02-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 171552,
+      "dst": 171558
+    },
+    {
+      "relateString": "前传",
+      "src": 171558,
+      "dst": 171552
+    }
+  ]
 }

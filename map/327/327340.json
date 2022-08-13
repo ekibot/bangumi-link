@@ -1,37 +1,35 @@
 {
- "id": 327340,
- "node": [
-  {
-   "id": 327340,
-   "name": "探偵中毒1",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/f2/327340_8g7Jm.jpg",
-   "date": "2017-05-01",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  },
-  {
-   "id": 327341,
-   "name": "探偵中毒2",
-   "image": "https://lain.bgm.tv/pic/cover/m/6d/62/327341_AA7IJ.jpg",
-   "date": "2018-03-31",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 327340,
-   "dst": 327341
-  },
-  {
-   "relate": "前传",
-   "src": 327341,
-   "dst": 327340
-  }
- ]
+  "id": "327340",
+  "node": [
+    {
+      "id": 327340,
+      "name": "探偵中毒1",
+      "nameCN": "",
+      "date": "2017-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 327341,
+      "name": "探偵中毒2",
+      "nameCN": "",
+      "date": "2018-03-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 327340,
+      "dst": 327341
+    },
+    {
+      "relateString": "前传",
+      "src": 327341,
+      "dst": 327340
+    }
+  ]
 }

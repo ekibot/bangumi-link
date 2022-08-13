@@ -1,37 +1,35 @@
 {
- "id": 290036,
- "node": [
-  {
-   "id": 290036,
-   "name": "メカニックスD XAZSA",
-   "image": "https://lain.bgm.tv/pic/cover/m/f9/f5/290036_9cpOR.jpg",
-   "date": "2000-06-02",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 290037,
-   "name": "XAZSA",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/f8/290037_Bq1hK.jpg",
-   "date": "1992-06-03",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "小说"
-  }
- ],
- "relate": [
-  {
-   "relate": "主线故事",
-   "src": 290036,
-   "dst": 290037
-  },
-  {
-   "relate": "番外篇",
-   "src": 290037,
-   "dst": 290036
-  }
- ]
+  "id": "290036",
+  "node": [
+    {
+      "id": 290036,
+      "name": "メカニックスD XAZSA",
+      "nameCN": "",
+      "date": "2000-06-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 290037,
+      "name": "XAZSA",
+      "nameCN": "",
+      "date": "1992-06-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "主线故事",
+      "src": 290036,
+      "dst": 290037
+    },
+    {
+      "relateString": "番外篇",
+      "src": 290037,
+      "dst": 290036
+    }
+  ]
 }

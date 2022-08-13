@@ -1,57 +1,54 @@
 {
- "id": 269549,
- "node": [
-  {
-   "id": 269549,
-   "name": "汉化日记",
-   "nameCN": "汉化日记",
-   "image": "https://lain.bgm.tv/pic/cover/m/eb/ea/269549_XVSUo.jpg",
-   "date": "2019-07-21",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 291635,
-   "name": "汉化日记 第二季",
-   "nameCN": "汉化日记 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/e8/ab/291635_tMm9a.jpg",
-   "date": "2020-11-15",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 326151,
-   "name": "汉化日记 第三季",
-   "date": "2022-07-31",
-   "nameCN": "",
-   "image": "https://lain.bgm.tv/pic/cover/m/bd/05/326151_E7Yuy.jpg",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 269549,
-   "dst": 291635
-  },
-  {
-   "relate": "前传",
-   "src": 291635,
-   "dst": 269549
-  },
-  {
-   "relate": "续集",
-   "src": 291635,
-   "dst": 326151
-  },
-  {
-   "relate": "前传",
-   "src": 326151,
-   "dst": 291635
-  }
- ]
+  "id": "269549",
+  "node": [
+    {
+      "id": 269549,
+      "name": "汉化日记",
+      "nameCN": "汉化日记",
+      "date": "2019-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 291635,
+      "name": "汉化日记 第二季",
+      "nameCN": "汉化日记 第二季",
+      "date": "2020-11-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 326151,
+      "name": "汉化日记 第三季",
+      "nameCN": "",
+      "date": "2022-07-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 269549,
+      "dst": 291635
+    },
+    {
+      "relateString": "前传",
+      "src": 291635,
+      "dst": 269549
+    },
+    {
+      "relateString": "续集",
+      "src": 291635,
+      "dst": 326151
+    },
+    {
+      "relateString": "前传",
+      "src": 326151,
+      "dst": 291635
+    }
+  ]
 }

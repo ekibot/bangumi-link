@@ -1,57 +1,53 @@
 {
- "id": 277554,
- "node": [
-  {
-   "id": 277554,
-   "name": "無職転生 ～異世界行ったら本気だす～",
-   "nameCN": "无职转生 ～在异世界认真地活下去～",
-   "image": "https://lain.bgm.tv/pic/cover/m/8b/00/277554_z999u.jpg",
-   "date": "2021-01-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 325585,
-   "name": "無職転生 ～異世界行ったら本気だす～ 第2クール",
-   "nameCN": "无职转生 ～在异世界认真地活下去～ 第二部分",
-   "image": "https://lain.bgm.tv/pic/cover/m/60/4d/325585_yyZe6.jpg",
-   "date": "2021-10-03",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 373247,
-   "name": "無職転生Ⅱ ～異世界行ったら本気だす～",
-   "nameCN": "无职转生Ⅱ ～在异世界认真地活下去～",
-   "image": "https://lain.bgm.tv/pic/cover/m/cf/55/373247_HILg0.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 277554,
-   "dst": 325585
-  },
-  {
-   "relate": "前传",
-   "src": 325585,
-   "dst": 277554
-  },
-  {
-   "relate": "续集",
-   "src": 325585,
-   "dst": 373247
-  },
-  {
-   "relate": "前传",
-   "src": 373247,
-   "dst": 325585
-  }
- ]
+  "id": "277554",
+  "node": [
+    {
+      "id": 277554,
+      "name": "無職転生 ～異世界行ったら本気だす～",
+      "nameCN": "无职转生 ～在异世界认真地活下去～",
+      "date": "2021-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 325585,
+      "name": "無職転生 ～異世界行ったら本気だす～ 第2クール",
+      "nameCN": "无职转生 ～在异世界认真地活下去～ 第二部分",
+      "date": "2021-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 373247,
+      "name": "無職転生Ⅱ ～異世界行ったら本気だす～",
+      "nameCN": "无职转生Ⅱ ～在异世界认真地活下去～",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 277554,
+      "dst": 325585
+    },
+    {
+      "relateString": "前传",
+      "src": 325585,
+      "dst": 277554
+    },
+    {
+      "relateString": "续集",
+      "src": 325585,
+      "dst": 373247
+    },
+    {
+      "relateString": "前传",
+      "src": 373247,
+      "dst": 325585
+    }
+  ]
 }

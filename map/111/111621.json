@@ -1,0 +1,70 @@
+{
+  "id": "111621",
+  "node": [
+    {
+      "id": 111621,
+      "name": "フルアヘッド!ココ",
+      "nameCN": "海霸王",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111626,
+      "name": "フルアヘッドココ 番外編",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 377255,
+      "name": "フルアヘッド！ココ ゼルヴァンス",
+      "nameCN": "",
+      "date": "2017-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111641,
+      "name": "フルアヘッド!ココ 新装版",
+      "nameCN": "海霸王 新装版",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "番外篇",
+      "src": 111621,
+      "dst": 111626
+    },
+    {
+      "relateString": "续集",
+      "src": 111621,
+      "dst": 377255
+    },
+    {
+      "relateString": "主线故事",
+      "src": 111626,
+      "dst": 111621
+    },
+    {
+      "relateString": "续集",
+      "src": 111641,
+      "dst": 377255
+    },
+    {
+      "relateString": "前传",
+      "src": 377255,
+      "dst": 111621
+    },
+    {
+      "relateString": "前传",
+      "src": 377255,
+      "dst": 111641
+    }
+  ]
+}

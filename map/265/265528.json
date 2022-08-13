@@ -1,57 +1,54 @@
 {
- "id": 265528,
- "node": [
-  {
-   "id": 265528,
-   "name": "M．C．",
-   "image": "https://lain.bgm.tv/pic/cover/m/a8/cc/265528_vjVN1.jpg",
-   "date": "2004-05-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 265529,
-   "name": "M．C．−duet−",
-   "image": "https://lain.bgm.tv/pic/cover/m/e2/70/265529_AGzxx.jpg",
-   "date": "2004-09-10",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 265530,
-   "name": "M.C.-trois-",
-   "image": "https://lain.bgm.tv/pic/cover/m/c4/02/265530_7cb66.jpg",
-   "date": "2005-07-30",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 265528,
-   "dst": 265529
-  },
-  {
-   "relate": "前传",
-   "src": 265529,
-   "dst": 265528
-  },
-  {
-   "relate": "续集",
-   "src": 265529,
-   "dst": 265530
-  },
-  {
-   "relate": "前传",
-   "src": 265530,
-   "dst": 265529
-  }
- ]
+  "id": "265528",
+  "node": [
+    {
+      "id": 265528,
+      "name": "M．C．",
+      "nameCN": "",
+      "date": "2004-05-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 265529,
+      "name": "M．C．−duet−",
+      "nameCN": "",
+      "date": "2004-09-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 265530,
+      "name": "M.C.-trois-",
+      "nameCN": "",
+      "date": "2005-07-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 265528,
+      "dst": 265529
+    },
+    {
+      "relateString": "前传",
+      "src": 265529,
+      "dst": 265528
+    },
+    {
+      "relateString": "续集",
+      "src": 265529,
+      "dst": 265530
+    },
+    {
+      "relateString": "前传",
+      "src": 265530,
+      "dst": 265529
+    }
+  ]
 }

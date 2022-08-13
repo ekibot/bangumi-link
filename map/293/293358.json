@@ -1,37 +1,35 @@
 {
- "id": 293358,
- "node": [
-  {
-   "id": 293358,
-   "name": "白刃と黒牡丹",
-   "nameCN": "白刃与黑牡丹",
-   "image": "https://lain.bgm.tv/pic/cover/m/88/1f/293358_700Z0.jpg",
-   "date": "2019-09-10",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 319258,
-   "name": "白刃と黒牡丹 (2)",
-   "image": "https://lain.bgm.tv/pic/cover/m/1a/18/319258_Ztt8c.jpg",
-   "date": "2020-11-10",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 293358,
-   "dst": 319258
-  },
-  {
-   "relate": "前传",
-   "src": 319258,
-   "dst": 293358
-  }
- ]
+  "id": "293358",
+  "node": [
+    {
+      "id": 293358,
+      "name": "白刃と黒牡丹",
+      "nameCN": "白刃与黑牡丹",
+      "date": "2019-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 319258,
+      "name": "白刃と黒牡丹 (2)",
+      "nameCN": "",
+      "date": "2020-11-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 293358,
+      "dst": 319258
+    },
+    {
+      "relateString": "前传",
+      "src": 319258,
+      "dst": 293358
+    }
+  ]
 }

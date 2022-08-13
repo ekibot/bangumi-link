@@ -1,107 +1,102 @@
 {
- "id": 23114,
- "node": [
-  {
-   "id": 23114,
-   "name": "カルドセプト",
-   "nameCN": "卡片召唤师",
-   "image": "https://lain.bgm.tv/pic/cover/m/fa/9e/23114_2VKDs.jpg",
-   "date": "2012-06-28",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 30663,
-   "name": "カルドセプト DS",
-   "nameCN": "卡片召唤师DS",
-   "image": "https://lain.bgm.tv/pic/cover/m/50/af/30663_1Bj5u.jpg",
-   "date": "2008-10-16",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 171445,
-   "name": "カルドセプト リボルト",
-   "nameCN": "卡片召唤师：反叛",
-   "image": "https://lain.bgm.tv/pic/cover/m/97/6f/171445_PdOmy.jpg",
-   "date": "2016-07-07",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 353627,
-   "name": "カルドセプト",
-   "nameCN": "卡片召唤师",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/eb/353627_sAmz4.jpg",
-   "date": "1997-10-30",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 353628,
-   "name": "カルドセプト セカンド",
-   "nameCN": "卡片召唤师2",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/ea/353628_xJhBp.jpg",
-   "date": "2001-07-12",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "相同世界观",
-   "src": 23114,
-   "dst": 30663
-  },
-  {
-   "relate": "续集",
-   "src": 23114,
-   "dst": 171445
-  },
-  {
-   "relate": "不同演绎",
-   "src": 23114,
-   "dst": 353628
-  },
-  {
-   "relate": "相同世界观",
-   "src": 30663,
-   "dst": 23114
-  },
-  {
-   "relate": "不同演绎",
-   "src": 30663,
-   "dst": 353627
-  },
-  {
-   "relate": "前传",
-   "src": 171445,
-   "dst": 23114
-  },
-  {
-   "relate": "不同演绎",
-   "src": 353627,
-   "dst": 30663
-  },
-  {
-   "relate": "续集",
-   "src": 353627,
-   "dst": 353628
-  },
-  {
-   "relate": "不同演绎",
-   "src": 353628,
-   "dst": 23114
-  },
-  {
-   "relate": "前传",
-   "src": 353628,
-   "dst": 353627
-  }
- ]
+  "id": "23114",
+  "node": [
+    {
+      "id": 23114,
+      "name": "カルドセプト",
+      "nameCN": "卡片召唤师",
+      "date": "2012-06-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 30663,
+      "name": "カルドセプト DS",
+      "nameCN": "卡片召唤师DS",
+      "date": "2008-10-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 171445,
+      "name": "カルドセプト リボルト",
+      "nameCN": "卡片召唤师：反叛",
+      "date": "2016-07-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 353628,
+      "name": "カルドセプト セカンド",
+      "nameCN": "卡片召唤师2",
+      "date": "2001-07-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 353627,
+      "name": "カルドセプト",
+      "nameCN": "卡片召唤师",
+      "date": "1997-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 23114,
+      "dst": 30663
+    },
+    {
+      "relateString": "续集",
+      "src": 23114,
+      "dst": 171445
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 23114,
+      "dst": 353628
+    },
+    {
+      "relateString": "续集",
+      "src": 30663,
+      "dst": 23114
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 30663,
+      "dst": 353627
+    },
+    {
+      "relateString": "前传",
+      "src": 171445,
+      "dst": 23114
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 353627,
+      "dst": 30663
+    },
+    {
+      "relateString": "续集",
+      "src": 353627,
+      "dst": 353628
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 353628,
+      "dst": 23114
+    },
+    {
+      "relateString": "前传",
+      "src": 353628,
+      "dst": 353627
+    }
+  ]
 }

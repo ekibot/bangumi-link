@@ -1,37 +1,35 @@
 {
- "id": 165395,
- "node": [
-  {
-   "id": 165395,
-   "name": "ぷるるんっ!しずくちゃん",
-   "nameCN": "彩虹水滴",
-   "image": "https://lain.bgm.tv/pic/cover/m/4b/05/165395_xMTL6.jpg",
-   "date": "2006-10-07",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 201416,
-   "name": "ぷるるんっ!しずくちゃん あはっ☆",
-   "nameCN": "彩虹水滴 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/34/6d/201416_e5333.jpg",
-   "date": "2007-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 165395,
-   "dst": 201416
-  },
-  {
-   "relate": "前传",
-   "src": 201416,
-   "dst": 165395
-  }
- ]
+  "id": "165395",
+  "node": [
+    {
+      "id": 165395,
+      "name": "ぷるるんっ!しずくちゃん",
+      "nameCN": "彩虹水滴",
+      "date": "2006-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 201416,
+      "name": "ぷるるんっ!しずくちゃん あはっ☆",
+      "nameCN": "彩虹水滴 第二季",
+      "date": "2007-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 165395,
+      "dst": 201416
+    },
+    {
+      "relateString": "前传",
+      "src": 201416,
+      "dst": 165395
+    }
+  ]
 }

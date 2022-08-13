@@ -1,83 +1,62 @@
 {
- "id": 7691,
- "node": [
-  {
-   "id": 7691,
-   "name": "絶体絶命都市3 -壊れゆく街と彼女の歌-",
-   "nameCN": "绝体绝命都市3 -崩坏的城市与她的歌声-",
-   "image": "https://lain.bgm.tv/pic/cover/m/c7/4c/7691_AdZra.jpg",
-   "date": "2009-04-23",
-   "nsfw": false,
-   "platform": "PSP",
-   "type": 4
-  },
-  {
-   "id": 32815,
-   "name": "絶体絶命都市2 -凍てついた記憶たち-",
-   "nameCN": "绝体绝命都市2 -冰冻的记忆-",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/37/32815_Zpt3B.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 99807,
-   "name": "絶体絶命都市",
-   "nameCN": "绝体绝命都市",
-   "image": "https://lain.bgm.tv/pic/cover/m/28/d3/99807_y88eT.jpg",
-   "date": "2002-04-25",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 122555,
-   "name": "絶体絶命都市4Plus -Summer Memories-",
-   "nameCN": "绝体绝命都市4Plus 夏日回忆",
-   "image": "https://lain.bgm.tv/pic/cover/m/85/b6/122555_m40ML.jpg",
-   "date": "2018-11-22",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  },
-  {
-   "id": 124070,
-   "name": "絶体絶命都市2 -凍てついた記憶たち-",
-   "nameCN": "绝体绝命都市2 -冰冻的记忆-",
-   "image": "https://lain.bgm.tv/pic/cover/m/40/dc/124070_sc2xf.jpg",
-   "type": 4
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 7691,
-   "dst": 122555
-  },
-  {
-   "relate": "前传",
-   "src": 7691,
-   "dst": 124070
-  },
-  {
-   "relate": "续集",
-   "src": 32815,
-   "dst": 7691
-  },
-  {
-   "relate": "前传",
-   "src": 32815,
-   "dst": 99807
-  },
-  {
-   "relate": "续集",
-   "src": 99807,
-   "dst": 124070
-  },
-  {
-   "relate": "前传",
-   "src": 122555,
-   "dst": 7691
-  }
- ]
+  "id": "7691",
+  "node": [
+    {
+      "id": 7691,
+      "name": "絶体絶命都市3 -壊れゆく街と彼女の歌-",
+      "nameCN": "绝体绝命都市3 -崩坏的城市与她的歌声-",
+      "date": "2009-04-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PSP"
+    },
+    {
+      "id": 122555,
+      "name": "絶体絶命都市4Plus -Summer Memories-",
+      "nameCN": "绝体绝命都市4Plus 夏日回忆",
+      "date": "2018-11-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 32815,
+      "name": "絶体絶命都市2 -凍てついた記憶たち-",
+      "nameCN": "绝体绝命都市2 -冰冻的记忆-",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99807,
+      "name": "絶体絶命都市",
+      "nameCN": "绝体绝命都市",
+      "date": "2002-04-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 7691,
+      "dst": 122555
+    },
+    {
+      "relateString": "续集",
+      "src": 32815,
+      "dst": 7691
+    },
+    {
+      "relateString": "前传",
+      "src": 32815,
+      "dst": 99807
+    },
+    {
+      "relateString": "前传",
+      "src": 122555,
+      "dst": 7691
+    }
+  ]
 }

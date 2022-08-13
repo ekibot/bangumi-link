@@ -1,37 +1,35 @@
 {
- "id": 200538,
- "node": [
-  {
-   "id": 200538,
-   "name": "「スキ!」まで0秒",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/6b/200538_jp.jpg",
-   "date": "2016-02-26",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 200539,
-   "name": "「スキ!」まで0秒 おかわりっ",
-   "image": "https://lain.bgm.tv/pic/cover/m/45/5a/200539_jp.jpg",
-   "date": "2016-07-22",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 200538,
-   "dst": 200539
-  },
-  {
-   "relate": "前传",
-   "src": 200539,
-   "dst": 200538
-  }
- ]
+  "id": "200538",
+  "node": [
+    {
+      "id": 200538,
+      "name": "「スキ!」まで0秒",
+      "nameCN": "",
+      "date": "2016-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 200539,
+      "name": "「スキ!」まで0秒 おかわりっ",
+      "nameCN": "",
+      "date": "2016-07-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 200538,
+      "dst": 200539
+    },
+    {
+      "relateString": "前传",
+      "src": 200539,
+      "dst": 200538
+    }
+  ]
 }

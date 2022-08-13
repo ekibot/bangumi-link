@@ -1,37 +1,35 @@
 {
- "id": 106835,
- "node": [
-  {
-   "id": 106835,
-   "name": "暗殺教室",
-   "nameCN": "暗杀教室",
-   "image": "https://lain.bgm.tv/pic/cover/m/be/cb/106835_2s0II.jpg",
-   "date": "2015-03-21",
-   "nsfw": false,
-   "platform": "其他",
-   "type": 6
-  },
-  {
-   "id": 131892,
-   "name": "暗殺教室〜卒業編〜",
-   "nameCN": "暗杀教室 毕业篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/d2/cc/131892_z7rKc.jpg",
-   "date": "2016-03-25",
-   "type": 6,
-   "nsfw": false,
-   "platform": "其他"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 106835,
-   "dst": 131892
-  },
-  {
-   "relate": "前传",
-   "src": 131892,
-   "dst": 106835
-  }
- ]
+  "id": "106835",
+  "node": [
+    {
+      "id": 106835,
+      "name": "暗殺教室",
+      "nameCN": "暗杀教室",
+      "date": "2015-03-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 131892,
+      "name": "暗殺教室〜卒業編〜",
+      "nameCN": "暗杀教室 毕业篇",
+      "date": "2016-03-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 106835,
+      "dst": 131892
+    },
+    {
+      "relateString": "前传",
+      "src": 131892,
+      "dst": 106835
+    }
+  ]
 }

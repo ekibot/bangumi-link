@@ -1,37 +1,35 @@
 {
- "id": 237154,
- "node": [
-  {
-   "id": 237154,
-   "name": "オレっ!トンバ",
-   "nameCN": "东巴",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/91/237154_ZMeea.jpg",
-   "date": "1997-12-25",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 256632,
-   "name": "トンバ！ ザ・ワイルドアドベンチャー",
-   "nameCN": "东巴2",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/24/256632_pDFkP.jpg",
-   "date": "1999-10-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 237154,
-   "dst": 256632
-  },
-  {
-   "relate": "前传",
-   "src": 256632,
-   "dst": 237154
-  }
- ]
+  "id": "237154",
+  "node": [
+    {
+      "id": 237154,
+      "name": "オレっ!トンバ",
+      "nameCN": "东巴",
+      "date": "1997-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 256632,
+      "name": "トンバ！ ザ・ワイルドアドベンチャー",
+      "nameCN": "东巴2",
+      "date": "1999-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 237154,
+      "dst": 256632
+    },
+    {
+      "relateString": "前传",
+      "src": 256632,
+      "dst": 237154
+    }
+  ]
 }

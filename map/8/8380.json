@@ -1,97 +1,92 @@
 {
- "id": 8380,
- "node": [
-  {
-   "id": 8380,
-   "name": "プロジェクトA子",
-   "nameCN": "A子计划",
-   "image": "https://lain.bgm.tv/pic/cover/m/58/5e/8380_PP3iC.jpg",
-   "date": "1986-06-21",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 55058,
-   "name": "プロジェクトA子2 大徳寺財閥の陰謀",
-   "nameCN": "A子计划2 大德寺财团的阴谋",
-   "image": "https://lain.bgm.tv/pic/cover/m/27/4d/55058_xZkr4.jpg",
-   "date": "1987-05-17",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 55059,
-   "name": "プロジェクトA子3 シンデレラ・ラプソディ",
-   "nameCN": "A子计划3 灰姑娘狂想曲",
-   "image": "https://lain.bgm.tv/pic/cover/m/c1/b6/55059_X9gzC.jpg",
-   "date": "1988-06-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 55060,
-   "name": "プロジェクトA子 完結篇",
-   "nameCN": "A子计划4 完结篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/a7/5f/55060_sQSXl.jpg",
-   "date": "1989-10-07",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  },
-  {
-   "id": 55061,
-   "name": "A-Ko The VS",
-   "nameCN": "A子计划 外传",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/f0/55061_3YI2z.jpg",
-   "date": "1990-07-21",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 8380,
-   "dst": 55058
-  },
-  {
-   "relate": "番外篇",
-   "src": 8380,
-   "dst": 55061
-  },
-  {
-   "relate": "前传",
-   "src": 55058,
-   "dst": 8380
-  },
-  {
-   "relate": "续集",
-   "src": 55058,
-   "dst": 55059
-  },
-  {
-   "relate": "前传",
-   "src": 55059,
-   "dst": 55058
-  },
-  {
-   "relate": "续集",
-   "src": 55059,
-   "dst": 55060
-  },
-  {
-   "relate": "前传",
-   "src": 55060,
-   "dst": 55059
-  },
-  {
-   "relate": "主线故事",
-   "src": 55061,
-   "dst": 8380
-  }
- ]
+  "id": "8380",
+  "node": [
+    {
+      "id": 8380,
+      "name": "プロジェクトA子",
+      "nameCN": "A子计划",
+      "date": "1986-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 55058,
+      "name": "プロジェクトA子2 大徳寺財閥の陰謀",
+      "nameCN": "A子计划2 大德寺财团的阴谋",
+      "date": "1987-05-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 55061,
+      "name": "A-Ko The VS",
+      "nameCN": "A子计划 外传",
+      "date": "1990-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 55059,
+      "name": "プロジェクトA子3 シンデレラ・ラプソディ",
+      "nameCN": "A子计划3 灰姑娘狂想曲",
+      "date": "1988-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 55060,
+      "name": "プロジェクトA子 完結篇",
+      "nameCN": "A子计划4 完结篇",
+      "date": "1989-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 8380,
+      "dst": 55058
+    },
+    {
+      "relateString": "番外篇",
+      "src": 8380,
+      "dst": 55061
+    },
+    {
+      "relateString": "前传",
+      "src": 55058,
+      "dst": 8380
+    },
+    {
+      "relateString": "续集",
+      "src": 55058,
+      "dst": 55059
+    },
+    {
+      "relateString": "前传",
+      "src": 55059,
+      "dst": 55058
+    },
+    {
+      "relateString": "续集",
+      "src": 55059,
+      "dst": 55060
+    },
+    {
+      "relateString": "前传",
+      "src": 55060,
+      "dst": 55059
+    },
+    {
+      "relateString": "主线故事",
+      "src": 55061,
+      "dst": 8380
+    }
+  ]
 }

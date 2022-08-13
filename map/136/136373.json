@@ -1,37 +1,35 @@
 {
- "id": 136373,
- "node": [
-  {
-   "id": 136373,
-   "name": "火柴人联盟",
-   "image": "https://lain.bgm.tv/pic/cover/m/66/e7/136373_hq7kE.jpg",
-   "date": "2015-03-15",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 307717,
-   "name": "火柴人联盟2",
-   "image": "https://lain.bgm.tv/pic/cover/m/e5/dd/307717_lCZLe.jpg",
-   "date": "2017-01-01",
-   "nameCN": "",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 136373,
-   "dst": 307717
-  },
-  {
-   "relate": "前传",
-   "src": 307717,
-   "dst": 136373
-  }
- ]
+  "id": "136373",
+  "node": [
+    {
+      "id": 136373,
+      "name": "火柴人联盟",
+      "nameCN": "",
+      "date": "2015-03-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 307717,
+      "name": "火柴人联盟2",
+      "nameCN": "",
+      "date": "2017-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 136373,
+      "dst": 307717
+    },
+    {
+      "relateString": "前传",
+      "src": 307717,
+      "dst": 136373
+    }
+  ]
 }

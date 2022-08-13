@@ -1,49 +1,49 @@
 {
- "id": 269090,
- "node": [
-  {
-   "id": 269090,
-   "name": "HELLO WORLD",
-   "nameCN": "你好 世界",
-   "image": "https://lain.bgm.tv/pic/cover/m/14/a6/269090_600EK.jpg",
-   "date": "2019-09-20",
-   "nsfw": false,
-   "platform": "剧场版",
-   "type": 2
-  },
-  {
-   "id": 289310,
-   "name": "ANOTHER WORLD",
-   "image": "https://lain.bgm.tv/pic/cover/m/f3/80/289310_GtfXQ.jpg",
-   "date": "2019-09-13",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 290405,
-   "name": "HELLO WORLD if --勘解由小路三鈴は世界で最初の失恋をする--",
-   "nameCN": "HELLO WORLD if ─世上最初的失恋者勘解由小路三铃─",
-   "image": "https://lain.bgm.tv/pic/cover/m/17/7e/290405_IIId4.jpg",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 269090,
-   "dst": 289310
-  },
-  {
-   "relate": "番外篇",
-   "src": 269090,
-   "dst": 290405
-  },
-  {
-   "relate": "续集",
-   "src": 289310,
-   "dst": 269090
-  }
- ]
+  "id": "269090",
+  "node": [
+    {
+      "id": 269090,
+      "name": "HELLO WORLD",
+      "nameCN": "你好 世界",
+      "date": "2019-09-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 289310,
+      "name": "ANOTHER WORLD",
+      "nameCN": "",
+      "date": "2019-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 290405,
+      "name": "HELLO WORLD if --勘解由小路三鈴は世界で最初の失恋をする--",
+      "nameCN": "HELLO WORLD if ─世上最初的失恋者勘解由小路三铃─",
+      "date": "2019-09-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 269090,
+      "dst": 289310
+    },
+    {
+      "relateString": "番外篇",
+      "src": 269090,
+      "dst": 290405
+    },
+    {
+      "relateString": "续集",
+      "src": 289310,
+      "dst": 269090
+    }
+  ]
 }

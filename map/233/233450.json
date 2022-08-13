@@ -1,37 +1,35 @@
 {
- "id": 233450,
- "node": [
-  {
-   "id": 233450,
-   "name": "晴れのち四季部",
-   "nameCN": "晴天之后的四季部",
-   "image": "https://lain.bgm.tv/pic/cover/m/12/1e/233450_1s4tt.jpg",
-   "date": "2017-10-27",
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 271303,
-   "name": "晴れのち四季部 2",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/46/271303_oZIeG.jpg",
-   "date": "2019-02-27",
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 233450,
-   "dst": 271303
-  },
-  {
-   "relate": "前传",
-   "src": 271303,
-   "dst": 233450
-  }
- ]
+  "id": "233450",
+  "node": [
+    {
+      "id": 233450,
+      "name": "晴れのち四季部",
+      "nameCN": "晴天之后的四季部",
+      "date": "2017-10-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 271303,
+      "name": "晴れのち四季部 2",
+      "nameCN": "",
+      "date": "2019-02-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 233450,
+      "dst": 271303
+    },
+    {
+      "relateString": "前传",
+      "src": 271303,
+      "dst": 233450
+    }
+  ]
 }

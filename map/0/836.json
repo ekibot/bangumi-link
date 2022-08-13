@@ -1,57 +1,54 @@
 {
- "id": 836,
- "node": [
-  {
-   "id": 836,
-   "name": "藍より青し",
-   "nameCN": "青出于蓝",
-   "image": "https://lain.bgm.tv/pic/cover/m/ab/88/836_8emEs.jpg",
-   "date": "2002-04-10",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2120,
-   "name": "藍より青し～縁～",
-   "nameCN": "青出于蓝～缘～",
-   "image": "https://lain.bgm.tv/pic/cover/m/44/cd/2120_9Jy29.jpg",
-   "date": "2003-10-12",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 2833,
-   "name": "藍より青し～縁～ 葵サンタ編",
-   "nameCN": "青出于蓝～缘～ 圣诞特别篇",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/e5/2833_Un2UG.jpg",
-   "date": "2003-09-26",
-   "type": 2,
-   "nsfw": false,
-   "platform": "OVA"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 836,
-   "dst": 2120
-  },
-  {
-   "relate": "前传",
-   "src": 2120,
-   "dst": 836
-  },
-  {
-   "relate": "番外篇",
-   "src": 2120,
-   "dst": 2833
-  },
-  {
-   "relate": "主线故事",
-   "src": 2833,
-   "dst": 2120
-  }
- ]
+  "id": "836",
+  "node": [
+    {
+      "id": 836,
+      "name": "藍より青し",
+      "nameCN": "青出于蓝",
+      "date": "2002-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2120,
+      "name": "藍より青し～縁～",
+      "nameCN": "青出于蓝～缘～",
+      "date": "2003-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2833,
+      "name": "藍より青し～縁～ 葵サンタ編",
+      "nameCN": "青出于蓝～缘～ 圣诞特别篇",
+      "date": "2003-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 836,
+      "dst": 2120
+    },
+    {
+      "relateString": "前传",
+      "src": 2120,
+      "dst": 836
+    },
+    {
+      "relateString": "番外篇",
+      "src": 2120,
+      "dst": 2833
+    },
+    {
+      "relateString": "主线故事",
+      "src": 2833,
+      "dst": 2120
+    }
+  ]
 }

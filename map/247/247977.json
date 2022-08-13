@@ -1,57 +1,53 @@
 {
- "id": 247977,
- "node": [
-  {
-   "id": 247977,
-   "name": "仙王的日常生活",
-   "nameCN": "仙王的日常生活",
-   "image": "https://lain.bgm.tv/pic/cover/m/ed/66/247977_CeyvC.jpg",
-   "date": "2020-01-18",
-   "nsfw": false,
-   "platform": "WEB",
-   "type": 2
-  },
-  {
-   "id": 320218,
-   "name": "仙王的日常生活 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/49/07/320218_QA4iu.jpg",
-   "date": "2021-10-30",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  },
-  {
-   "id": 358742,
-   "name": "仙王的日常生活 第三季",
-   "date": null,
-   "image": "https://lain.bgm.tv/pic/cover/m/0c/5f/358742_pc43z.jpg",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "WEB"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 247977,
-   "dst": 320218
-  },
-  {
-   "relate": "前传",
-   "src": 320218,
-   "dst": 247977
-  },
-  {
-   "relate": "续集",
-   "src": 320218,
-   "dst": 358742
-  },
-  {
-   "relate": "前传",
-   "src": 358742,
-   "dst": 320218
-  }
- ]
+  "id": "247977",
+  "node": [
+    {
+      "id": 247977,
+      "name": "仙王的日常生活",
+      "nameCN": "仙王的日常生活",
+      "date": "2020-01-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 320218,
+      "name": "仙王的日常生活 第二季",
+      "nameCN": "",
+      "date": "2021-10-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 358742,
+      "name": "仙王的日常生活 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 247977,
+      "dst": 320218
+    },
+    {
+      "relateString": "前传",
+      "src": 320218,
+      "dst": 247977
+    },
+    {
+      "relateString": "续集",
+      "src": 320218,
+      "dst": 358742
+    },
+    {
+      "relateString": "前传",
+      "src": 358742,
+      "dst": 320218
+    }
+  ]
 }

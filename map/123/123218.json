@@ -1,37 +1,35 @@
 {
- "id": 123218,
- "node": [
-  {
-   "id": 123218,
-   "name": "三国演义",
-   "image": "https://lain.bgm.tv/pic/cover/m/e9/7a/123218_2HpT2.jpg",
-   "date": "1994-10-23",
-   "nameCN": "",
-   "nsfw": false,
-   "platform": "华语剧",
-   "type": 6
-  },
-  {
-   "id": 123741,
-   "name": "三国",
-   "image": "https://lain.bgm.tv/pic/cover/m/dd/f3/123741_qrazI.jpg",
-   "date": "2010-05-02",
-   "nameCN": "",
-   "type": 6,
-   "nsfw": false,
-   "platform": "华语剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同演绎",
-   "src": 123218,
-   "dst": 123741
-  },
-  {
-   "relate": "不同演绎",
-   "src": 123741,
-   "dst": 123218
-  }
- ]
+  "id": "123218",
+  "node": [
+    {
+      "id": 123218,
+      "name": "三国演义",
+      "nameCN": "",
+      "date": "1994-10-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 123741,
+      "name": "三国",
+      "nameCN": "",
+      "date": "2010-05-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同演绎",
+      "src": 123218,
+      "dst": 123741
+    },
+    {
+      "relateString": "不同演绎",
+      "src": 123741,
+      "dst": 123218
+    }
+  ]
 }

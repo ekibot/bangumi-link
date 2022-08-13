@@ -1,37 +1,35 @@
 {
- "id": 198830,
- "node": [
-  {
-   "id": 198830,
-   "name": "Curious Expedition",
-   "nameCN": "奇妙探险队",
-   "image": "https://lain.bgm.tv/pic/cover/m/d8/07/198830_H0PM6.jpg",
-   "date": "2016-09-02",
-   "nsfw": false,
-   "platform": "全部游戏",
-   "type": 4
-  },
-  {
-   "id": 327357,
-   "name": "Curious Expedition 2",
-   "nameCN": "奇妙探险队2",
-   "image": "https://lain.bgm.tv/pic/cover/m/9d/e0/327357_zn0Zv.jpg",
-   "date": "2021-01-28",
-   "type": 4,
-   "nsfw": false,
-   "platform": "全部游戏"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 198830,
-   "dst": 327357
-  },
-  {
-   "relate": "前传",
-   "src": 327357,
-   "dst": 198830
-  }
- ]
+  "id": "198830",
+  "node": [
+    {
+      "id": 198830,
+      "name": "Curious Expedition",
+      "nameCN": "奇妙探险队",
+      "date": "2016-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 327357,
+      "name": "Curious Expedition 2",
+      "nameCN": "奇妙探险队2",
+      "date": "2021-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 198830,
+      "dst": 327357
+    },
+    {
+      "relateString": "前传",
+      "src": 327357,
+      "dst": 198830
+    }
+  ]
 }

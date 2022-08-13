@@ -1,57 +1,54 @@
 {
- "id": 141836,
- "node": [
-  {
-   "id": 141836,
-   "name": "Another Period Season 1",
-   "nameCN": "流金岁月 第一季",
-   "image": "https://lain.bgm.tv/pic/cover/m/56/f3/141836_8FTV5.jpg",
-   "date": "2015-06-23",
-   "nsfw": false,
-   "platform": "欧美剧",
-   "type": 6
-  },
-  {
-   "id": 187170,
-   "name": "Another Period Season 2",
-   "nameCN": "流金岁月 第二季",
-   "image": "https://lain.bgm.tv/pic/cover/m/62/6d/187170_dcrVD.jpg",
-   "date": "2016-06-15",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  },
-  {
-   "id": 236264,
-   "name": "Another Period Season 3",
-   "nameCN": "流金岁月 第三季",
-   "image": "https://lain.bgm.tv/pic/cover/m/2e/16/236264_zgOIA.jpg",
-   "date": "2018-01-23",
-   "type": 6,
-   "nsfw": false,
-   "platform": "欧美剧"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 141836,
-   "dst": 187170
-  },
-  {
-   "relate": "前传",
-   "src": 187170,
-   "dst": 141836
-  },
-  {
-   "relate": "续集",
-   "src": 187170,
-   "dst": 236264
-  },
-  {
-   "relate": "前传",
-   "src": 236264,
-   "dst": 187170
-  }
- ]
+  "id": "141836",
+  "node": [
+    {
+      "id": 141836,
+      "name": "Another Period Season 1",
+      "nameCN": "流金岁月 第一季",
+      "date": "2015-06-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 187170,
+      "name": "Another Period Season 2",
+      "nameCN": "流金岁月 第二季",
+      "date": "2016-06-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 236264,
+      "name": "Another Period Season 3",
+      "nameCN": "流金岁月 第三季",
+      "date": "2018-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 141836,
+      "dst": 187170
+    },
+    {
+      "relateString": "前传",
+      "src": 187170,
+      "dst": 141836
+    },
+    {
+      "relateString": "续集",
+      "src": 187170,
+      "dst": 236264
+    },
+    {
+      "relateString": "前传",
+      "src": 236264,
+      "dst": 187170
+    }
+  ]
 }

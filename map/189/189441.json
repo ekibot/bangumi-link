@@ -1,107 +1,102 @@
 {
- "id": 189441,
- "node": [
-  {
-   "id": 189441,
-   "name": "プロゴルファー猿",
-   "nameCN": "球场小神将",
-   "image": "https://lain.bgm.tv/pic/cover/m/b1/3b/189441_H4yA6.jpg",
-   "date": "1985-04-02",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 189442,
-   "name": "新プロゴルファー猿",
-   "nameCN": "新球场小神将",
-   "image": "https://lain.bgm.tv/pic/cover/m/8c/bc/189442_q2rrb.jpg",
-   "date": "1988-04-11",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 189443,
-   "name": "プロゴルファー猿",
-   "nameCN": "球场小神将",
-   "image": "https://lain.bgm.tv/pic/cover/m/3c/30/189443_PPB9z.jpg",
-   "date": "1982-10-19",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 189444,
-   "name": "プロゴルファー猿 スーパーGOLFワールドへの挑戦!!",
-   "image": "https://lain.bgm.tv/pic/cover/m/b2/0f/189444_9893E.jpg",
-   "date": "1986-03-15",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  },
-  {
-   "id": 189445,
-   "name": "プロゴルファー猿 甲賀秘境! 影の忍法ゴルファー参上!",
-   "image": "https://lain.bgm.tv/pic/cover/m/ad/0c/189445_0727B.jpg",
-   "date": "1987-03-14",
-   "nameCN": "",
-   "type": 2,
-   "nsfw": false,
-   "platform": "剧场版"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 189441,
-   "dst": 189442
-  },
-  {
-   "relate": "番外篇",
-   "src": 189441,
-   "dst": 189443
-  },
-  {
-   "relate": "番外篇",
-   "src": 189441,
-   "dst": 189444
-  },
-  {
-   "relate": "番外篇",
-   "src": 189441,
-   "dst": 189445
-  },
-  {
-   "relate": "前传",
-   "src": 189442,
-   "dst": 189441
-  },
-  {
-   "relate": "主线故事",
-   "src": 189443,
-   "dst": 189441
-  },
-  {
-   "relate": "主线故事",
-   "src": 189444,
-   "dst": 189441
-  },
-  {
-   "relate": "续集",
-   "src": 189444,
-   "dst": 189445
-  },
-  {
-   "relate": "主线故事",
-   "src": 189445,
-   "dst": 189441
-  },
-  {
-   "relate": "前传",
-   "src": 189445,
-   "dst": 189444
-  }
- ]
+  "id": "189441",
+  "node": [
+    {
+      "id": 189441,
+      "name": "プロゴルファー猿",
+      "nameCN": "球场小神将",
+      "date": "1985-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 189442,
+      "name": "新プロゴルファー猿",
+      "nameCN": "新球场小神将",
+      "date": "1988-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 189443,
+      "name": "プロゴルファー猿",
+      "nameCN": "球场小神将",
+      "date": "1982-10-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 189444,
+      "name": "プロゴルファー猿 スーパーGOLFワールドへの挑戦!!",
+      "nameCN": "",
+      "date": "1986-03-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 189445,
+      "name": "プロゴルファー猿 甲賀秘境! 影の忍法ゴルファー参上!",
+      "nameCN": "",
+      "date": "1987-03-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 189441,
+      "dst": 189442
+    },
+    {
+      "relateString": "番外篇",
+      "src": 189441,
+      "dst": 189443
+    },
+    {
+      "relateString": "番外篇",
+      "src": 189441,
+      "dst": 189444
+    },
+    {
+      "relateString": "番外篇",
+      "src": 189441,
+      "dst": 189445
+    },
+    {
+      "relateString": "前传",
+      "src": 189442,
+      "dst": 189441
+    },
+    {
+      "relateString": "主线故事",
+      "src": 189443,
+      "dst": 189441
+    },
+    {
+      "relateString": "主线故事",
+      "src": 189444,
+      "dst": 189441
+    },
+    {
+      "relateString": "续集",
+      "src": 189444,
+      "dst": 189445
+    },
+    {
+      "relateString": "主线故事",
+      "src": 189445,
+      "dst": 189441
+    },
+    {
+      "relateString": "前传",
+      "src": 189445,
+      "dst": 189444
+    }
+  ]
 }

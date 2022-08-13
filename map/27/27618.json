@@ -1,37 +1,34 @@
 {
- "id": 27618,
- "node": [
-  {
-   "id": 27618,
-   "name": "R.O.D",
-   "nameCN": "读或死",
-   "image": "https://lain.bgm.tv/pic/cover/m/37/0f/27618_vDt3j.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "小说",
-   "type": 1
-  },
-  {
-   "id": 57237,
-   "name": "R.O.D REHABILITATION",
-   "nameCN": "读或死 REHABILITATION",
-   "image": "https://lain.bgm.tv/pic/cover/m/84/90/57237_tO5oV.jpg",
-   "date": "2013-04-25",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 27618,
-   "dst": 57237
-  },
-  {
-   "relate": "不同世界观",
-   "src": 57237,
-   "dst": 27618
-  }
- ]
+  "id": "27618",
+  "node": [
+    {
+      "id": 27618,
+      "name": "R.O.D",
+      "nameCN": "读或死",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 57237,
+      "name": "R.O.D REHABILITATION",
+      "nameCN": "读或死 REHABILITATION",
+      "date": "2013-04-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 27618,
+      "dst": 57237
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 57237,
+      "dst": 27618
+    }
+  ]
 }

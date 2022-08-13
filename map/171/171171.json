@@ -1,37 +1,34 @@
 {
- "id": 171171,
- "node": [
-  {
-   "id": 171171,
-   "name": "고수",
-   "nameCN": "高手",
-   "image": "https://lain.bgm.tv/pic/cover/m/7e/0a/171171_H2lzh.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 172930,
-   "name": "용비불패",
-   "nameCN": "龙飞不败",
-   "image": "https://lain.bgm.tv/pic/cover/m/18/65/172930_nnE10.jpg",
-   "date": null,
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 171171,
-   "dst": 172930
-  },
-  {
-   "relate": "续集",
-   "src": 172930,
-   "dst": 171171
-  }
- ]
+  "id": "171171",
+  "node": [
+    {
+      "id": 171171,
+      "name": "고수",
+      "nameCN": "高手",
+      "date": "2015-09-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 172930,
+      "name": "용비불패",
+      "nameCN": "龙飞不败",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 171171,
+      "dst": 172930
+    },
+    {
+      "relateString": "续集",
+      "src": 172930,
+      "dst": 171171
+    }
+  ]
 }

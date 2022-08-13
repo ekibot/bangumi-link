@@ -1,28 +1,30 @@
 {
- "id": 236510,
- "node": [
-  {
-   "id": 236510,
-   "name": "RELEASE THE SPYCE",
-   "nameCN": "月影特工",
-   "image": "https://lain.bgm.tv/pic/cover/m/7d/9a/236510_wa77s.jpg",
-   "date": "2018-10-06",
-   "nsfw": false,
-   "platform": "TV"
-  },
-  {
-   "id": 260923,
-   "name": "RELEASE THE SPYCE GOLDEN GENESIS",
-   "image": "https://lain.bgm.tv/pic/cover/m/1f/28/260923_64yrF.jpg",
-   "nameCN": "",
-   "type": 1
-  }
- ],
- "relate": [
-  {
-   "relate": "前传",
-   "src": 236510,
-   "dst": 260923
-  }
- ]
+  "id": "236510",
+  "node": [
+    {
+      "id": 236510,
+      "name": "RELEASE THE SPYCE",
+      "nameCN": "月影特工",
+      "date": "2018-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 260923,
+      "name": "RELEASE THE SPYCE GOLDEN GENESIS",
+      "nameCN": "",
+      "date": "2018-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "前传",
+      "src": 236510,
+      "dst": 260923
+    }
+  ]
 }

@@ -1,37 +1,35 @@
 {
- "id": 2642,
- "node": [
-  {
-   "id": 2642,
-   "name": "双恋",
-   "nameCN": "双恋",
-   "image": "https://lain.bgm.tv/pic/cover/m/f1/2f/2642_5SS6E.jpg",
-   "date": "2004-10-06",
-   "nsfw": false,
-   "platform": "TV",
-   "type": 2
-  },
-  {
-   "id": 2643,
-   "name": "フタコイ オルタナティブ",
-   "nameCN": "双恋 Alternative",
-   "image": "https://lain.bgm.tv/pic/cover/m/38/18/2643_FuUMd.jpg",
-   "date": "2005-04-06",
-   "type": 2,
-   "nsfw": false,
-   "platform": "TV"
-  }
- ],
- "relate": [
-  {
-   "relate": "不同世界观",
-   "src": 2642,
-   "dst": 2643
-  },
-  {
-   "relate": "不同世界观",
-   "src": 2643,
-   "dst": 2642
-  }
- ]
+  "id": "2642",
+  "node": [
+    {
+      "id": 2642,
+      "name": "双恋",
+      "nameCN": "双恋",
+      "date": "2004-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 2643,
+      "name": "フタコイ オルタナティブ",
+      "nameCN": "双恋 Alternative",
+      "date": "2005-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "不同世界观",
+      "src": 2642,
+      "dst": 2643
+    },
+    {
+      "relateString": "不同世界观",
+      "src": 2643,
+      "dst": 2642
+    }
+  ]
 }

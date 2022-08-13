@@ -1,0 +1,49 @@
+{
+  "id": "3011",
+  "node": [
+    {
+      "id": 23666,
+      "name": "AYAKASHI",
+      "nameCN": "",
+      "date": "2005-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 54769,
+      "name": "AYAKASHI H",
+      "nameCN": "",
+      "date": "2006-09-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 3011,
+      "name": "AYAKASHI",
+      "nameCN": "魂兽",
+      "date": "2007-12-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 23666,
+      "dst": 54769
+    },
+    {
+      "relateString": "前传",
+      "src": 54769,
+      "dst": 3011
+    },
+    {
+      "relateString": "前传",
+      "src": 54769,
+      "dst": 23666
+    }
+  ]
+}

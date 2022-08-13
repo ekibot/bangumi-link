@@ -1,37 +1,33 @@
 {
- "id": 60168,
- "node": [
-  {
-   "id": 60168,
-   "name": "きょうの猫村さん",
-   "nameCN": "今日的猫村小姐",
-   "image": "https://lain.bgm.tv/pic/cover/m/fd/36/60168_rKLVt.jpg",
-   "date": null,
-   "nsfw": false,
-   "platform": "漫画",
-   "type": 1
-  },
-  {
-   "id": 60313,
-   "name": "カーサの猫村さん",
-   "image": "https://lain.bgm.tv/pic/cover/m/b5/9f/60313_8zVVz.jpg",
-   "date": null,
-   "nameCN": "",
-   "type": 1,
-   "nsfw": false,
-   "platform": "漫画"
-  }
- ],
- "relate": [
-  {
-   "relate": "续集",
-   "src": 60168,
-   "dst": 60313
-  },
-  {
-   "relate": "前传",
-   "src": 60313,
-   "dst": 60168
-  }
- ]
+  "id": "60168",
+  "node": [
+    {
+      "id": 60168,
+      "name": "きょうの猫村さん",
+      "nameCN": "今日的猫村小姐",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 60313,
+      "name": "カーサの猫村さん",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relateString": "续集",
+      "src": 60168,
+      "dst": 60313
+    },
+    {
+      "relateString": "前传",
+      "src": 60313,
+      "dst": 60168
+    }
+  ]
 }
