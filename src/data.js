@@ -1,19 +1,23 @@
 /* eslint-disable camelcase */
 const fs = require('fs');
+const NReadlines = require('n-readlines');
 
 /**
  * parse archive json lines
  * @param {string} name
  */
-const getArchive = (name, map) => fs.readFileSync(`archive/${name}.jsonlines`)
-  .toString().split('\n').map((v) => {
+function getArchive(name, map) {
+  const reader = new NReadlines(`archive/${name}.jsonlines`);
+  let line;
+  // eslint-disable-next-line no-cond-assign
+  while (line = reader.next()) {
     try {
-      return map(JSON.parse(v));
+      map(JSON.parse(line.toString()));
     } catch (e) {
-      return undefined;
+      process.stderr.write(`parse line error: ${line}\n`);
     }
-  })
-  .filter((v) => v);
+  }
+}
 
 function parseInfoBox(infobox) {
   return infobox.replace(/\r|}}\s*$/g, '').split(/\n\s*\|/g).slice(1).map((c) => {
@@ -82,7 +86,9 @@ const subjectCacheFile = 'archive/subject.json';
  */
 const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(subjectCacheFile))
   : (() => {
-    const _subjects = Object.fromEntries(getArchive('subject', (v) => {
+    const _subjects = {};
+    getArchive('subject', (v) => {
+      if (!v) return;
       process.stdout.write(`processing subject ${v.id}\r`);
       const infobox = parseInfoBox(v.infobox);
       let date;
@@ -98,7 +104,7 @@ const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(su
           break;
         }
       }
-      return [v.id, {
+      _subjects[v.id] = {
         id: v.id,
         name: v.name,
         name_cn: v.name_cn,
@@ -107,8 +113,8 @@ const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(su
         date,
         week,
         platform: platformInfo[v.type]?.[v.platform].type_cn,
-      }];
-    }));
+      };
+    });
     fs.writeFileSync(subjectCacheFile, JSON.stringify(_subjects));
     return _subjects;
   })();

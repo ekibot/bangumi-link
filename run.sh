@@ -3,12 +3,12 @@ echo "load archive ..."
 rm dump.zip
 wget https://github.com/bangumi/Archive/releases/download/archive/dump.zip
 
-rm -r ./archive
+rm -rf ./archive
 unzip dump.zip -d ./archive
 
 echo "fetch data ..."
 
-rm -r ./data
+rm -rf ./data
 git clone --depth 1 https://${GH_TOKEN}@github.com/ekibot/bangumi-link.git data
 
 echo "extracting ..."
