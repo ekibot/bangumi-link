@@ -1,0 +1,52 @@
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <title>Documents</title>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div id="container" class="container">
+      <a id="force">
+        <h1>关系图</h1>
+      </a>
+      <a id="sort">
+        <h1>按照发行时间排序</h1>
+      </a>
+    </div>
+    <script>
+      function getQueryVariable(variable) {
+        const query = new URLSearchParams(
+          document.location.search.substring(1)
+        );
+        return query.get(variable);
+      }
+
+      const _subject_id = getQueryVariable("subject");
+
+      if (!_subject_id) {
+        $("body").html("请指定subject参数");
+      } else {
+        $("#sort").attr("href", `./date_sort.html?subject=${_subject_id}`);
+        $("#force").attr("href", `./force_layout.html?subject=${_subject_id}`);
+      }
+    </script>
+  </body>
+</html>
