@@ -1,0 +1,47 @@
+name: extract
+
+on:
+  schedule:
+    - cron: "0 0 * * 3"
+  push:
+    branches:
+      - spider
+    
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Spider branch
+      uses: actions/checkout@v2
+      with:
+        ref: spider
+    - name: Checkout Master branch
+      uses: actions/checkout@v2
+      with:
+        ref: master
+        path: data
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '16.x'
+    - name: Create local changes
+      run: |
+        wget https://github.com/bangumi/Archive/releases/download/archive/dump.zip
+        unzip dump.zip -d ./archive
+        npm install
+        npm install bangumi-data@latest
+        node src/extract.js
+    - name: Commit files
+      id: commit
+      run: |
+        cd data
+        git config --local user.email "soekibun+bot@gmail.com"
+        git config --local user.name "ekibot"
+        time=$(date "+%Y%m%d%H%M%S")
+        git add . -v
+        git commit -m "Update at ${time}"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        directory: data
