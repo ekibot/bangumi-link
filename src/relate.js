@@ -34,7 +34,7 @@ getArchive('subject-relations', (v) => {
     const mapId = Math.min(mapIdSrc, mapIdDst, v.subject_id, v.related_subject_id);
     // map附加记录
     const map = maps[mapId] ?? {
-      id: mapId.toString(),
+      id: mapId,
       node: [],
       relate: [],
     };
@@ -58,7 +58,7 @@ getArchive('subject-relations', (v) => {
     if (!map.node.includes(srcSubject)) map.node.push(srcSubject);
     if (!map.node.includes(dstSubject)) map.node.push(dstSubject);
     map.relate.push({
-      relateString,
+      relate: relateString,
       src: v.subject_id,
       dst: v.related_subject_id,
     });
