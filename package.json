@@ -2,20 +2,18 @@
   "name": "bangumi_link",
   "version": "1.0.0",
   "description": "bangumi link",
-  "main": "spider.js",
+  "main": "src/extract.js",
   "scripts": {
-    "lint": "eslint --fix ./*.js",
-    "dev": "node spider.js"
+    "lint": "eslint --fix src/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekibun/bangumi_link.git"
+    "url": "https://github.com/ekibot/bangumi-link.git"
   },
   "dependencies": {
-    "abort-controller": "^3.0.0",
-    "chalk": "^4.1.0",
-    "cheerio": "^1.0.0-rc.5",
-    "node-fetch": "^2.6.1"
+    "bangumi-data": "^0.3.97",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
