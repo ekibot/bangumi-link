@@ -5,6 +5,7 @@
       "id": 161510,
       "name": "釣りキチ三平",
       "nameCN": "天才小钓手",
+      "date": "1974-02-18",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -17,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 395766,
+      "name": "釣りキチ三平 平成版",
+      "nameCN": "",
+      "date": "2002-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -26,8 +36,18 @@
       "dst": 241419
     },
     {
+      "relate": "续集",
+      "src": 161510,
+      "dst": 395766
+    },
+    {
       "relate": "主线故事",
       "src": 241419,
+      "dst": 161510
+    },
+    {
+      "relate": "前传",
+      "src": 395766,
       "dst": 161510
     }
   ]
