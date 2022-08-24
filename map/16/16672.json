@@ -1,0 +1,35 @@
+{
+  "id": 16672,
+  "node": [
+    {
+      "id": 16672,
+      "name": "A Song of Ice and Fire",
+      "nameCN": "冰与火之歌",
+      "date": "1996-08-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 397650,
+      "name": "Fire &amp; Blood",
+      "nameCN": "血与火",
+      "date": "2018-11-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 16672,
+      "dst": 397650
+    },
+    {
+      "relate": "续集",
+      "src": 397650,
+      "dst": 16672
+    }
+  ]
+}

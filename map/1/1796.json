@@ -47,6 +47,14 @@
       "platform": "欧美剧"
     },
     {
+      "id": 397131,
+      "name": "The X-Files: Fight the Future",
+      "nameCN": "X档案：征服未来",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 126280,
       "name": "The X-Files (season 6)",
       "nameCN": "X档案 第六季",
@@ -145,17 +153,17 @@
     {
       "relate": "续集",
       "src": 126273,
-      "dst": 126280
-    },
-    {
-      "relate": "前传",
-      "src": 126280,
-      "dst": 126273
+      "dst": 397131
     },
     {
       "relate": "续集",
       "src": 126280,
       "dst": 126281
+    },
+    {
+      "relate": "前传",
+      "src": 126280,
+      "dst": 397131
     },
     {
       "relate": "前传",
@@ -201,6 +209,16 @@
       "relate": "前传",
       "src": 213677,
       "dst": 142971
+    },
+    {
+      "relate": "前传",
+      "src": 397131,
+      "dst": 126273
+    },
+    {
+      "relate": "续集",
+      "src": 397131,
+      "dst": 126280
     }
   ]
 }
