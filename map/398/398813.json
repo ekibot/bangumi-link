@@ -1,0 +1,51 @@
+{
+  "id": 398813,
+  "node": [
+    {
+      "id": 398813,
+      "name": "毛毛镇第一季",
+      "nameCN": "毛毛镇第一季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 398815,
+      "name": "毛毛镇第二季",
+      "nameCN": "毛毛镇第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 398816,
+      "name": "毛毛镇第三季",
+      "nameCN": "毛毛镇第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 398813,
+      "dst": 398815
+    },
+    {
+      "relate": "前传",
+      "src": 398815,
+      "dst": 398813
+    },
+    {
+      "relate": "续集",
+      "src": 398815,
+      "dst": 398816
+    },
+    {
+      "relate": "前传",
+      "src": 398816,
+      "dst": 398815
+    }
+  ]
+}
