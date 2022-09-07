@@ -1,0 +1,53 @@
+{
+  "id": 399019,
+  "node": [
+    {
+      "id": 399019,
+      "name": "Yogi Bear",
+      "nameCN": "瑜伽熊",
+      "date": "2010-12-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 399021,
+      "name": "yogi bear 2",
+      "nameCN": "瑜伽熊2",
+      "date": "2025-05-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 399043,
+      "name": "Yogi Bear: The Video Game",
+      "nameCN": "瑜伽熊",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 399019,
+      "dst": 399021
+    },
+    {
+      "relate": "前传",
+      "src": 399021,
+      "dst": 399019
+    },
+    {
+      "relate": "衍生",
+      "src": 399043,
+      "dst": 399019
+    },
+    {
+      "relate": "衍生",
+      "src": 399043,
+      "dst": 399021
+    }
+  ]
+}

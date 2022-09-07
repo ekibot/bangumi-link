@@ -13,11 +13,11 @@
     {
       "id": 722,
       "name": "黄金の太阳 失われし时代",
-      "nameCN": "黄金太阳2 失落的时代",
+      "nameCN": "黄金太阳 失落的时代",
       "date": "2002-06-28",
       "type": 4,
       "nsfw": false,
-      "platform": "GameCube"
+      "platform": "全部游戏"
     },
     {
       "id": 2065,
@@ -27,6 +27,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "NDS"
+    },
+    {
+      "id": 398925,
+      "name": "Rakion",
+      "nameCN": "RUSH冲锋",
+      "date": "2005-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -49,6 +58,11 @@
       "relate": "前传",
       "src": 2065,
       "dst": 722
+    },
+    {
+      "relate": "续集",
+      "src": 2065,
+      "dst": 398925
     }
   ]
 }

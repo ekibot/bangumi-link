@@ -29,6 +29,14 @@
       "platform": "全部游戏"
     },
     {
+      "id": 399259,
+      "name": "Men of War II",
+      "nameCN": "战争之人 2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 207753,
       "name": "Men of War:Vietnam",
       "nameCN": "战争之人：越南",
@@ -73,6 +81,11 @@
       "dst": 30114
     },
     {
+      "relate": "续集",
+      "src": 207741,
+      "dst": 399259
+    },
+    {
       "relate": "主线故事",
       "src": 207753,
       "dst": 207741
@@ -85,6 +98,11 @@
     {
       "relate": "主线故事",
       "src": 207759,
+      "dst": 207741
+    },
+    {
+      "relate": "前传",
+      "src": 399259,
       "dst": 207741
     }
   ]

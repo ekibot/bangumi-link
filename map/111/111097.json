@@ -12,8 +12,8 @@
     },
     {
       "id": 171364,
-      "name": "Big Hero 6: The Series",
-      "nameCN": "剧版超能陆战队",
+      "name": "Big Hero 6: The Series Season 1",
+      "nameCN": "剧版超能陆战队 第一季",
       "date": "2017-11-20",
       "type": 2,
       "nsfw": false,
@@ -27,6 +27,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 399379,
+      "name": "Hero 6: The Series Season 2",
+      "nameCN": "剧版超能陆战队 第二季",
+      "date": "2019-05-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 399383,
+      "name": "Hero 6: The Series Season 3",
+      "nameCN": "剧版超能陆战队 第三季",
+      "date": "2020-09-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -46,9 +64,29 @@
       "dst": 111097
     },
     {
+      "relate": "续集",
+      "src": 171364,
+      "dst": 399379
+    },
+    {
       "relate": "主线故事",
       "src": 345596,
       "dst": 111097
+    },
+    {
+      "relate": "前传",
+      "src": 399379,
+      "dst": 171364
+    },
+    {
+      "relate": "续集",
+      "src": 399379,
+      "dst": 399383
+    },
+    {
+      "relate": "前传",
+      "src": 399383,
+      "dst": 399379
     }
   ]
 }

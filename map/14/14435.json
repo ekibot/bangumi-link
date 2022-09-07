@@ -29,10 +29,27 @@
       "platform": "全部游戏"
     },
     {
+      "id": 116537,
+      "name": "いろとりどりのセカイ WORLD'S END -RE:BIRTH-",
+      "nameCN": "",
+      "date": "2015-03-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 130211,
       "name": "紅い瞳に映るセカイ",
       "nameCN": "你朱眸里的五彩世界",
       "date": "2015-07-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 399225,
+      "name": "いろとりどりのヒカリ HD Re:GENERATION",
+      "nameCN": "",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -56,6 +73,14 @@
       "platform": "全部游戏"
     },
     {
+      "id": 399224,
+      "name": "紅い瞳に映るセカイ HD Re:GENERATION",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 147010,
       "name": "いろとりどりのセカイ COMPLETE ARTWORKS First Volume -WORLD'S END-",
       "nameCN": "",
@@ -63,15 +88,6 @@
       "type": 1,
       "nsfw": false,
       "platform": "画集"
-    },
-    {
-      "id": 116537,
-      "name": "いろとりどりのセカイ WORLD'S END -RE:BIRTH-",
-      "nameCN": "",
-      "date": "2015-03-19",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
     },
     {
       "id": 286585,
@@ -100,6 +116,11 @@
       "dst": 14435
     },
     {
+      "relate": "不同演绎",
+      "src": 37755,
+      "dst": 116537
+    },
+    {
       "relate": "续集",
       "src": 37755,
       "dst": 130211
@@ -107,7 +128,7 @@
     {
       "relate": "不同演绎",
       "src": 37755,
-      "dst": 384959
+      "dst": 399225
     },
     {
       "relate": "主线故事",
@@ -125,6 +146,11 @@
       "dst": 95520
     },
     {
+      "relate": "不同演绎",
+      "src": 116537,
+      "dst": 37755
+    },
+    {
       "relate": "前传",
       "src": 130211,
       "dst": 37755
@@ -132,7 +158,7 @@
     {
       "relate": "不同演绎",
       "src": 130211,
-      "dst": 384959
+      "dst": 399224
     },
     {
       "relate": "主线故事",
@@ -165,14 +191,34 @@
       "dst": 14435
     },
     {
-      "relate": "不同演绎",
+      "relate": "续集",
       "src": 384959,
-      "dst": 37755
+      "dst": 399225
     },
     {
       "relate": "不同演绎",
-      "src": 384959,
+      "src": 399224,
       "dst": 130211
+    },
+    {
+      "relate": "前传",
+      "src": 399224,
+      "dst": 399225
+    },
+    {
+      "relate": "不同演绎",
+      "src": 399225,
+      "dst": 37755
+    },
+    {
+      "relate": "前传",
+      "src": 399225,
+      "dst": 384959
+    },
+    {
+      "relate": "续集",
+      "src": 399225,
+      "dst": 399224
     }
   ]
 }
