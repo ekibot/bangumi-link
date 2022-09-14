@@ -56,6 +56,15 @@
       "platform": "GameCube"
     },
     {
+      "id": 14091,
+      "name": "テイルズ オブ ファンタジア なりきりダンジョン",
+      "nameCN": "幻想传说 换装迷宫",
+      "date": "2000-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "GBC"
+    },
+    {
       "id": 77579,
       "name": "TALES OF SYMPHONIA Unisonant Pack",
       "nameCN": "仙乐传说编年史",
@@ -80,6 +89,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 401236,
+      "name": "テイルズ オブ シンフォニア リマスター",
+      "nameCN": "仙乐传说 Remastered",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     },
     {
       "id": 7881,
@@ -119,6 +136,11 @@
     },
     {
       "relate": "前传",
+      "src": 1553,
+      "dst": 14091
+    },
+    {
+      "relate": "前传",
       "src": 1554,
       "dst": 1553
     },
@@ -148,6 +170,11 @@
       "dst": 98595
     },
     {
+      "relate": "不同演绎",
+      "src": 1557,
+      "dst": 401236
+    },
+    {
       "relate": "相同世界观",
       "src": 3114,
       "dst": 742
@@ -173,6 +200,16 @@
       "dst": 742
     },
     {
+      "relate": "主线故事",
+      "src": 14091,
+      "dst": 742
+    },
+    {
+      "relate": "续集",
+      "src": 14091,
+      "dst": 1553
+    },
+    {
       "relate": "不同演绎",
       "src": 77579,
       "dst": 1557
@@ -181,6 +218,11 @@
       "relate": "不同演绎",
       "src": 77579,
       "dst": 3114
+    },
+    {
+      "relate": "不同演绎",
+      "src": 401236,
+      "dst": 1557
     }
   ]
 }

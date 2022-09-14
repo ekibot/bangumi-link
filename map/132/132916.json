@@ -44,6 +44,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 400776,
+      "name": "あんさんぶるスターズ！！追憶セレクション『エレメント』",
+      "nameCN": "偶像梦幻祭 追忆Selection『Element』",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -73,6 +81,11 @@
       "dst": 358909
     },
     {
+      "relate": "衍生",
+      "src": 159159,
+      "dst": 400776
+    },
+    {
       "relate": "番外篇",
       "src": 293719,
       "dst": 358909
@@ -80,6 +93,11 @@
     {
       "relate": "前传",
       "src": 358909,
+      "dst": 159159
+    },
+    {
+      "relate": "主线故事",
+      "src": 400776,
       "dst": 159159
     }
   ]

@@ -5,7 +5,7 @@
       "id": 95014,
       "name": "スケバン刑事",
       "nameCN": "神秘女刑警",
-      "date": "1975-12-05",
+      "date": "1976-04-20",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -18,6 +18,33 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 401072,
+      "name": "スケバン刑事Pretend",
+      "nameCN": "",
+      "date": "2022-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 401080,
+      "name": "時をかけるスケバン刑事",
+      "nameCN": "",
+      "date": "2022-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 401081,
+      "name": "Re:スケバン刑事",
+      "nameCN": "",
+      "date": "2022-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +54,38 @@
       "dst": 164457
     },
     {
+      "relate": "番外篇",
+      "src": 95014,
+      "dst": 401072
+    },
+    {
+      "relate": "番外篇",
+      "src": 95014,
+      "dst": 401080
+    },
+    {
+      "relate": "番外篇",
+      "src": 95014,
+      "dst": 401081
+    },
+    {
       "relate": "前传",
       "src": 164457,
+      "dst": 95014
+    },
+    {
+      "relate": "主线故事",
+      "src": 401072,
+      "dst": 95014
+    },
+    {
+      "relate": "主线故事",
+      "src": 401080,
+      "dst": 95014
+    },
+    {
+      "relate": "主线故事",
+      "src": 401081,
       "dst": 95014
     }
   ]

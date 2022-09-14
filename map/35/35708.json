@@ -22,7 +22,7 @@
     {
       "id": 234369,
       "name": "特命戦隊ゴーバスターズVS海賊戦隊ゴーカイジャー THE MOVIE",
-      "nameCN": "",
+      "nameCN": "特命战队Go Busters VS 海贼战队豪快者 The Movie",
       "date": "2013-01-19",
       "type": 6,
       "nsfw": false,
@@ -36,6 +36,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 291223,
+      "name": "Power Rangers Beast Morphers",
+      "nameCN": "",
+      "date": "2019-03-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -55,6 +64,11 @@
       "dst": 255501
     },
     {
+      "relate": "不同演绎",
+      "src": 35708,
+      "dst": 291223
+    },
+    {
       "relate": "主线故事",
       "src": 211111,
       "dst": 35708
@@ -67,6 +81,11 @@
     {
       "relate": "主线故事",
       "src": 255501,
+      "dst": 35708
+    },
+    {
+      "relate": "不同演绎",
+      "src": 291223,
       "dst": 35708
     }
   ]

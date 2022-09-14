@@ -26,6 +26,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 400761,
+      "name": "Lifeline: Beside You in Time",
+      "nameCN": "生命线：在你身边",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -45,9 +53,24 @@
       "dst": 343475
     },
     {
+      "relate": "续集",
+      "src": 161357,
+      "dst": 400761
+    },
+    {
       "relate": "前传",
       "src": 343475,
       "dst": 161357
+    },
+    {
+      "relate": "续集",
+      "src": 343475,
+      "dst": 400761
+    },
+    {
+      "relate": "前传",
+      "src": 400761,
+      "dst": 343475
     }
   ]
 }

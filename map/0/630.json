@@ -241,6 +241,22 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 400814,
+      "name": "Assassin’s Creed Codename RED",
+      "nameCN": "刺客信条 代号：RED",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 400813,
+      "name": "Assassin’s Creed Codename HEXE",
+      "nameCN": "刺客信条：代号女巫",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -443,6 +459,26 @@
       "relate": "前传",
       "src": 399159,
       "dst": 305543
+    },
+    {
+      "relate": "续集",
+      "src": 399159,
+      "dst": 400814
+    },
+    {
+      "relate": "前传",
+      "src": 400813,
+      "dst": 400814
+    },
+    {
+      "relate": "前传",
+      "src": 400814,
+      "dst": 399159
+    },
+    {
+      "relate": "续集",
+      "src": 400814,
+      "dst": 400813
     }
   ]
 }

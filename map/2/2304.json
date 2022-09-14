@@ -8,7 +8,7 @@
       "date": "2008-11-20",
       "type": 4,
       "nsfw": false,
-      "platform": "PSP"
+      "platform": "全部游戏"
     },
     {
       "id": 4594,
@@ -17,7 +17,7 @@
       "date": "2009-12-03",
       "type": 4,
       "nsfw": false,
-      "platform": "PSP"
+      "platform": "全部游戏"
     },
     {
       "id": 20263,
@@ -47,6 +47,15 @@
       "platform": "全部游戏"
     },
     {
+      "id": 348693,
+      "name": "機動戦士ガンダム ガンダムvs.Ζガンダム",
+      "nameCN": "机动战士高达 高达vs.Z高达",
+      "date": "2004-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 37587,
       "name": "機動戦士ガンダム EXTREME VS. FULL BOOST",
       "nameCN": "机动战士高达 EXTREME VS. FULL BOOST",
@@ -60,6 +69,23 @@
       "name": "機動戦士ガンダム EXTREME VS. MAXI BOOST",
       "nameCN": "机动战士高达 EXTREME VS. MAXI BOOST",
       "date": "2014-03-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 86834,
+      "name": "機動戦士Ζガンダム エゥーゴvs.ティターンズ",
+      "nameCN": "机动战士Z高达 幽谷 VS 泰坦斯",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 346124,
+      "name": "機動戦士ガンダム　連邦VS.ジオン　DX",
+      "nameCN": "机动战士高达 联邦VS吉翁 DX",
+      "date": "2001-12-06",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -117,7 +143,7 @@
       "dst": 4594
     },
     {
-      "relate": "不同世界观",
+      "relate": "前传",
       "src": 2304,
       "dst": 20263
     },
@@ -137,7 +163,12 @@
       "dst": 20263
     },
     {
-      "relate": "不同世界观",
+      "relate": "前传",
+      "src": 16825,
+      "dst": 348693
+    },
+    {
+      "relate": "续集",
       "src": 20263,
       "dst": 2304
     },
@@ -165,6 +196,16 @@
       "relate": "续集",
       "src": 37587,
       "dst": 100414
+    },
+    {
+      "relate": "前传",
+      "src": 86834,
+      "dst": 346124
+    },
+    {
+      "relate": "续集",
+      "src": 86834,
+      "dst": 348693
     },
     {
       "relate": "前传",
@@ -215,6 +256,21 @@
       "relate": "前传",
       "src": 298655,
       "dst": 293753
+    },
+    {
+      "relate": "续集",
+      "src": 346124,
+      "dst": 86834
+    },
+    {
+      "relate": "续集",
+      "src": 348693,
+      "dst": 16825
+    },
+    {
+      "relate": "前传",
+      "src": 348693,
+      "dst": 86834
     }
   ]
 }
