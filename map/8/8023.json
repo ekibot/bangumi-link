@@ -20,10 +20,46 @@
       "platform": "全部游戏"
     },
     {
+      "id": 132542,
+      "name": "電車でGO!FINAL",
+      "nameCN": "电车GO!FINAL",
+      "date": "2004-05-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 101296,
       "name": "Mobile Train Simulator 京成・都営浅草・京急線",
       "nameCN": "移动火车模拟：京成、都営浅草、京急线",
       "date": "2006-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 401555,
+      "name": "TrainSimulator + 電車でGO! 東京急行編",
+      "nameCN": "",
+      "date": "2003-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 401548,
+      "name": "電車でGO! PLUG&amp;PLAY",
+      "nameCN": "",
+      "date": "2018-02-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 401554,
+      "name": "電車でGO! プロフェッショナル2",
+      "nameCN": "",
+      "date": "2002-10-25",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -36,6 +72,11 @@
       "dst": 101295
     },
     {
+      "relate": "不同演绎",
+      "src": 8023,
+      "dst": 132542
+    },
+    {
       "relate": "相同世界观",
       "src": 101295,
       "dst": 8023
@@ -46,8 +87,43 @@
       "dst": 101296
     },
     {
+      "relate": "不同演绎",
+      "src": 101295,
+      "dst": 401555
+    },
+    {
       "relate": "相同世界观",
       "src": 101296,
+      "dst": 101295
+    },
+    {
+      "relate": "不同演绎",
+      "src": 132542,
+      "dst": 8023
+    },
+    {
+      "relate": "不同演绎",
+      "src": 132542,
+      "dst": 401548
+    },
+    {
+      "relate": "前传",
+      "src": 132542,
+      "dst": 401554
+    },
+    {
+      "relate": "不同演绎",
+      "src": 401548,
+      "dst": 132542
+    },
+    {
+      "relate": "续集",
+      "src": 401554,
+      "dst": 132542
+    },
+    {
+      "relate": "不同演绎",
+      "src": 401555,
       "dst": 101295
     }
   ]
