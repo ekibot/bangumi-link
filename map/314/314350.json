@@ -18,6 +18,32 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 402719,
+      "name": "All Creatures Great and Small Season 3",
+      "nameCN": "万物生灵 第三季",
+      "date": "2022-09-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 402750,
+      "name": "All Creatures Great and Small: Christmas Special (2021)",
+      "nameCN": "万物生灵：2021圣诞特别集",
+      "date": "2021-12-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 402721,
+      "name": "All Creatures Great and Small Season 4",
+      "nameCN": "万物生灵 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +56,46 @@
       "relate": "前传",
       "src": 351384,
       "dst": 314350
+    },
+    {
+      "relate": "续集",
+      "src": 351384,
+      "dst": 402719
+    },
+    {
+      "relate": "续集",
+      "src": 351384,
+      "dst": 402750
+    },
+    {
+      "relate": "前传",
+      "src": 402719,
+      "dst": 351384
+    },
+    {
+      "relate": "续集",
+      "src": 402719,
+      "dst": 402721
+    },
+    {
+      "relate": "前传",
+      "src": 402719,
+      "dst": 402750
+    },
+    {
+      "relate": "前传",
+      "src": 402721,
+      "dst": 402719
+    },
+    {
+      "relate": "前传",
+      "src": 402750,
+      "dst": 351384
+    },
+    {
+      "relate": "续集",
+      "src": 402750,
+      "dst": 402719
     }
   ]
 }

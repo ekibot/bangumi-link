@@ -35,6 +35,23 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 402710,
+      "name": "The Crown Season 5",
+      "nameCN": "王冠 第五季",
+      "date": "2022-11-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 402711,
+      "name": "The Crown Season 6",
+      "nameCN": "王冠 第六季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -67,6 +84,26 @@
       "relate": "前传",
       "src": 319726,
       "dst": 234874
+    },
+    {
+      "relate": "续集",
+      "src": 319726,
+      "dst": 402710
+    },
+    {
+      "relate": "前传",
+      "src": 402710,
+      "dst": 319726
+    },
+    {
+      "relate": "续集",
+      "src": 402710,
+      "dst": 402711
+    },
+    {
+      "relate": "前传",
+      "src": 402711,
+      "dst": 402710
     }
   ]
 }
