@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 293,
-      "name": "Project IGI: I'm Going In",
+      "name": "Project I.G.I.",
       "nameCN": "秘密潜入",
       "date": "2000-12-15",
       "type": 4,
@@ -12,9 +12,17 @@
     },
     {
       "id": 208343,
-      "name": "I.G.I.-2: Covert Strike",
+      "name": "I.G.I 2: Covert Strike",
       "nameCN": "秘密潜入2：隐秘行动",
       "date": "2003-03-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 379678,
+      "name": "I.G.I. Origins",
+      "nameCN": "秘密潜入：起源",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 208343,
       "dst": 293
+    },
+    {
+      "relate": "续集",
+      "src": 208343,
+      "dst": 379678
+    },
+    {
+      "relate": "前传",
+      "src": 379678,
+      "dst": 208343
     }
   ]
 }

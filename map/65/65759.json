@@ -28,6 +28,14 @@
       "platform": "WEB"
     },
     {
+      "id": 403877,
+      "name": "Project Orion",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 308396,
       "name": "Cyberpunk: The Roleplaying Game of the Dark Future",
       "nameCN": "赛博朋克",
@@ -48,6 +56,11 @@
       "dst": 309311
     },
     {
+      "relate": "续集",
+      "src": 65759,
+      "dst": 403877
+    },
+    {
       "relate": "不同演绎",
       "src": 308396,
       "dst": 308598
@@ -61,6 +74,11 @@
       "relate": "不同演绎",
       "src": 308598,
       "dst": 308396
+    },
+    {
+      "relate": "前传",
+      "src": 403877,
+      "dst": 65759
     }
   ]
 }
