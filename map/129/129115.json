@@ -45,6 +45,31 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 404365,
+      "name": "Bosch (season 6)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 404366,
+      "name": "Bosch (season 7)",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 404367,
+      "name": "Bosch Legacy",
+      "nameCN": "",
+      "date": "2022-05-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -87,6 +112,36 @@
       "relate": "前传",
       "src": 306479,
       "dst": 242922
+    },
+    {
+      "relate": "续集",
+      "src": 306479,
+      "dst": 404365
+    },
+    {
+      "relate": "前传",
+      "src": 404365,
+      "dst": 306479
+    },
+    {
+      "relate": "续集",
+      "src": 404365,
+      "dst": 404366
+    },
+    {
+      "relate": "前传",
+      "src": 404366,
+      "dst": 404365
+    },
+    {
+      "relate": "续集",
+      "src": 404366,
+      "dst": 404367
+    },
+    {
+      "relate": "前传",
+      "src": 404367,
+      "dst": 404366
     }
   ]
 }

@@ -41,6 +41,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 404428,
+      "name": "The Rookie (season 5)",
+      "nameCN": "菜鸟老警第5季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -75,13 +83,23 @@
       "dst": 331641
     },
     {
-      "relate": "相同世界观",
+      "relate": "衍生",
       "src": 360779,
       "dst": 403656
     },
     {
-      "relate": "相同世界观",
+      "relate": "续集",
+      "src": 360779,
+      "dst": 404428
+    },
+    {
+      "relate": "衍生",
       "src": 403656,
+      "dst": 360779
+    },
+    {
+      "relate": "前传",
+      "src": 404428,
       "dst": 360779
     }
   ]
