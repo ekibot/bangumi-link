@@ -2,15 +2,6 @@
   "id": 333206,
   "node": [
     {
-      "id": 333986,
-      "name": "ASTLIBRA ミニ外伝 ～幻霧の洞窟～",
-      "nameCN": "",
-      "date": "2015-11-19",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
-    },
-    {
       "id": 333206,
       "name": "ASTLIBRA ～生きた証～",
       "nameCN": "",
@@ -18,12 +9,40 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 405362,
+      "name": "ASTLIBRA ～生きた証～ Revision",
+      "nameCN": "神之天平 Revision",
+      "date": "2022-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 333986,
+      "name": "ASTLIBRA ミニ外伝 ～幻霧の洞窟～",
+      "nameCN": "",
+      "date": "2015-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
     {
+      "relate": "不同演绎",
+      "src": 333206,
+      "dst": 405362
+    },
+    {
       "relate": "主线故事",
       "src": 333986,
+      "dst": 333206
+    },
+    {
+      "relate": "不同演绎",
+      "src": 405362,
       "dst": 333206
     }
   ]

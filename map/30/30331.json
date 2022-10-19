@@ -77,6 +77,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 277283,
+      "name": "FAIRY TAIL CITY HERO",
+      "nameCN": "",
+      "date": "2019-03-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 281508,
+      "name": "FAIRY TAIL ハッピーの大冒険",
+      "nameCN": "FAIRY TAIL 哈比大冒险",
+      "date": "2018-12-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -121,6 +139,16 @@
       "dst": 262151
     },
     {
+      "relate": "番外篇",
+      "src": 30331,
+      "dst": 277283
+    },
+    {
+      "relate": "番外篇",
+      "src": 30331,
+      "dst": 281508
+    },
+    {
       "relate": "主线故事",
       "src": 126299,
       "dst": 30331
@@ -158,6 +186,16 @@
     {
       "relate": "前传",
       "src": 262151,
+      "dst": 30331
+    },
+    {
+      "relate": "主线故事",
+      "src": 277283,
+      "dst": 30331
+    },
+    {
+      "relate": "主线故事",
+      "src": 281508,
       "dst": 30331
     }
   ]

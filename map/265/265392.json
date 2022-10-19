@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 405233,
+      "name": "新·异常生物见闻录：序",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 313549
     },
     {
+      "relate": "前传",
+      "src": 265392,
+      "dst": 405233
+    },
+    {
       "relate": "主线故事",
       "src": 313549,
+      "dst": 265392
+    },
+    {
+      "relate": "续集",
+      "src": 405233,
       "dst": 265392
     }
   ]
