@@ -1,0 +1,51 @@
+{
+  "id": 405978,
+  "node": [
+    {
+      "id": 405978,
+      "name": "A.L.I.A.S 3",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 405979,
+      "name": "A.L.I.A.S 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 405980,
+      "name": "A.L.I.A.S",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 405978,
+      "dst": 405979
+    },
+    {
+      "relate": "续集",
+      "src": 405979,
+      "dst": 405978
+    },
+    {
+      "relate": "前传",
+      "src": 405979,
+      "dst": 405980
+    },
+    {
+      "relate": "续集",
+      "src": 405980,
+      "dst": 405979
+    }
+  ]
+}
