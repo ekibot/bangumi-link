@@ -36,6 +36,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 406250,
+      "name": "Animal Kingdom (Season 5)",
+      "nameCN": "野兽家族 第五季",
+      "date": "2021-07-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 406249,
+      "name": "Animal Kingdom (Season 6)",
+      "nameCN": "野兽家族 第六季",
+      "date": "2022-06-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -68,6 +86,26 @@
       "relate": "前传",
       "src": 285279,
       "dst": 265609
+    },
+    {
+      "relate": "续集",
+      "src": 285279,
+      "dst": 406250
+    },
+    {
+      "relate": "前传",
+      "src": 406249,
+      "dst": 406250
+    },
+    {
+      "relate": "前传",
+      "src": 406250,
+      "dst": 285279
+    },
+    {
+      "relate": "续集",
+      "src": 406250,
+      "dst": 406249
     }
   ]
 }

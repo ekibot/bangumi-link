@@ -20,6 +20,14 @@
       "platform": "全部游戏"
     },
     {
+      "id": 406189,
+      "name": "The Witcher Remake",
+      "nameCN": "巫师 重制版",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 66198,
       "name": "The Witcher 3: Wild Hunt",
       "nameCN": "巫师3：狂猎",
@@ -197,16 +205,16 @@
       "platform": "欧美剧"
     },
     {
-      "id": 403875,
-      "name": "Project Sirius",
-      "nameCN": "",
-      "type": 4,
+      "id": 406543,
+      "name": "The Witcher Season 4",
+      "nameCN": "猎魔人 第四季",
+      "type": 6,
       "nsfw": false,
-      "platform": "全部游戏"
+      "platform": "欧美剧"
     },
     {
-      "id": 403876,
-      "name": "Project Canis Majoris",
+      "id": 403875,
+      "name": "Project Sirius",
       "nameCN": "",
       "type": 4,
       "nsfw": false,
@@ -227,6 +235,11 @@
       "relate": "续集",
       "src": 18173,
       "dst": 18174
+    },
+    {
+      "relate": "不同演绎",
+      "src": 18173,
+      "dst": 406189
     },
     {
       "relate": "前传",
@@ -449,6 +462,11 @@
       "dst": 294690
     },
     {
+      "relate": "续集",
+      "src": 362850,
+      "dst": 406543
+    },
+    {
       "relate": "前传",
       "src": 375291,
       "dst": 66198
@@ -457,11 +475,6 @@
       "relate": "相同世界观",
       "src": 375291,
       "dst": 403875
-    },
-    {
-      "relate": "相同世界观",
-      "src": 375291,
-      "dst": 403876
     },
     {
       "relate": "主线故事",
@@ -474,19 +487,14 @@
       "dst": 375291
     },
     {
-      "relate": "相同世界观",
-      "src": 403875,
-      "dst": 403876
+      "relate": "不同演绎",
+      "src": 406189,
+      "dst": 18173
     },
     {
-      "relate": "相同世界观",
-      "src": 403876,
-      "dst": 375291
-    },
-    {
-      "relate": "相同世界观",
-      "src": 403876,
-      "dst": 403875
+      "relate": "前传",
+      "src": 406543,
+      "dst": 362850
     }
   ]
 }

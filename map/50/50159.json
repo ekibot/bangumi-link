@@ -99,6 +99,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 406266,
+      "name": "Family Guy (Season 14)",
+      "nameCN": "恶搞之家 第十四季",
+      "date": "2015-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 406268,
+      "name": "Family Guy (Season 15)",
+      "nameCN": "恶搞之家 第十五季",
+      "date": "2016-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -201,6 +219,26 @@
       "relate": "前传",
       "src": 126513,
       "dst": 126512
+    },
+    {
+      "relate": "续集",
+      "src": 126513,
+      "dst": 406266
+    },
+    {
+      "relate": "前传",
+      "src": 406266,
+      "dst": 126513
+    },
+    {
+      "relate": "续集",
+      "src": 406266,
+      "dst": 406268
+    },
+    {
+      "relate": "前传",
+      "src": 406268,
+      "dst": 406266
     }
   ]
 }

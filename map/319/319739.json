@@ -2,14 +2,6 @@
   "id": 319739,
   "node": [
     {
-      "id": 351845,
-      "name": "Slow living with Princess",
-      "nameCN": "我被逐出队伍后过上慢生活",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
-    },
-    {
       "id": 319739,
       "name": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
       "nameCN": "因为不是命中注定的同伴而被赶出了勇者的队伍、从此以后过上了悠闲的隐居生活",
@@ -17,12 +9,38 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 406628,
+      "name": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました 第2期",
+      "nameCN": "因为不是命中注定的同伴而被赶出了勇者的队伍、从此以后过上了悠闲的隐居生活 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 351845,
+      "name": "Slow living with Princess",
+      "nameCN": "我被逐出队伍后过上慢生活",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 319739,
+      "dst": 406628
+    },
+    {
       "relate": "衍生",
       "src": 351845,
+      "dst": 319739
+    },
+    {
+      "relate": "前传",
+      "src": 406628,
       "dst": 319739
     }
   ]
