@@ -29,6 +29,31 @@
       "platform": "TV"
     },
     {
+      "id": 380448,
+      "name": "ウマ娘 プリティーダービー Road to the Top",
+      "nameCN": "赛马娘 Pretty Derby Road to the Top",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 380506,
+      "name": "うまゆる",
+      "nameCN": "马娘摇曳",
+      "date": "2022-10-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 269397,
+      "name": "うまよん",
+      "nameCN": "赛马娘四格",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 371692,
       "name": "ゲーム『ウマ娘 プリティーダービー』1st Anniversary Special Animation",
       "nameCN": "『赛马娘 Pretty Derby』1周年纪念动画短片",
@@ -38,12 +63,12 @@
       "platform": "WEB"
     },
     {
-      "id": 380448,
-      "name": "ウマ娘 プリティーダービー 新シリーズ",
-      "nameCN": "",
+      "id": 407332,
+      "name": "ウマ娘 プリティーダービー Season 3",
+      "nameCN": "赛马娘 Pretty Derby 第三季",
       "type": 2,
       "nsfw": false,
-      "platform": "WEB"
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -58,14 +83,29 @@
       "dst": 315574
     },
     {
+      "relate": "不同世界观",
+      "src": 212003,
+      "dst": 380448
+    },
+    {
+      "relate": "衍生",
+      "src": 212003,
+      "dst": 380506
+    },
+    {
       "relate": "主线故事",
       "src": 269389,
       "dst": 212003
     },
     {
-      "relate": "主线故事",
+      "relate": "续集",
       "src": 269389,
-      "dst": 315574
+      "dst": 380506
+    },
+    {
+      "relate": "衍生",
+      "src": 269397,
+      "dst": 380506
     },
     {
       "relate": "前传",
@@ -73,28 +113,38 @@
       "dst": 212003
     },
     {
-      "relate": "衍生",
-      "src": 315574,
-      "dst": 269389
-    },
-    {
-      "relate": "续集",
+      "relate": "番外篇",
       "src": 315574,
       "dst": 371692
     },
     {
       "relate": "续集",
       "src": 315574,
-      "dst": 380448
+      "dst": 407332
     },
     {
-      "relate": "前传",
+      "relate": "主线故事",
       "src": 371692,
       "dst": 315574
     },
     {
-      "relate": "前传",
+      "relate": "不同世界观",
       "src": 380448,
+      "dst": 212003
+    },
+    {
+      "relate": "主线故事",
+      "src": 380506,
+      "dst": 212003
+    },
+    {
+      "relate": "前传",
+      "src": 380506,
+      "dst": 269389
+    },
+    {
+      "relate": "前传",
+      "src": 407332,
       "dst": 315574
     }
   ]

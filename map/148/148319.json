@@ -24,6 +24,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 406893,
+      "name": "三毛奇遇记",
+      "nameCN": "三毛奇遇记",
+      "date": "2010-11-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 406897,
+      "name": "三毛历险记",
+      "nameCN": "三毛历险记",
+      "date": "2011-11-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 406899,
+      "name": "三毛旅行记",
+      "nameCN": "三毛旅行记",
+      "date": "2013-10-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -36,6 +63,11 @@
       "relate": "不同演绎",
       "src": 148319,
       "dst": 173099
+    },
+    {
+      "relate": "不同世界观",
+      "src": 148319,
+      "dst": 406893
     },
     {
       "relate": "不同演绎",
@@ -56,6 +88,31 @@
       "relate": "前传",
       "src": 173099,
       "dst": 172724
+    },
+    {
+      "relate": "不同世界观",
+      "src": 406893,
+      "dst": 148319
+    },
+    {
+      "relate": "续集",
+      "src": 406893,
+      "dst": 406897
+    },
+    {
+      "relate": "前传",
+      "src": 406897,
+      "dst": 406893
+    },
+    {
+      "relate": "续集",
+      "src": 406897,
+      "dst": 406899
+    },
+    {
+      "relate": "前传",
+      "src": 406899,
+      "dst": 406897
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "id": 407333,
+  "node": [
+    {
+      "id": 407333,
+      "name": "借王",
+      "nameCN": "借王",
+      "date": "1996-03-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 407334,
+      "name": "借王Ⅱ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 407336,
+      "name": "新・借王",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 407333,
+      "dst": 407334
+    },
+    {
+      "relate": "前传",
+      "src": 407334,
+      "dst": 407333
+    },
+    {
+      "relate": "续集",
+      "src": 407334,
+      "dst": 407336
+    },
+    {
+      "relate": "前传",
+      "src": 407336,
+      "dst": 407334
+    }
+  ]
+}
