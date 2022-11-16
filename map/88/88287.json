@@ -29,15 +29,6 @@
       "platform": "剧场版"
     },
     {
-      "id": 260770,
-      "name": "ご注文はうさぎですか？ BLOOM",
-      "nameCN": "请问您今天要来点兔子吗？BLOOM",
-      "date": "2020-10-10",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 260772,
       "name": "ご注文はうさぎですか？？～Sing For You～",
       "nameCN": "请问您今天要来点兔子吗？？～Sing for You～",
@@ -45,6 +36,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 260770,
+      "name": "ご注文はうさぎですか？ BLOOM",
+      "nameCN": "请问您今天要来点兔子吗？BLOOM",
+      "date": "2020-10-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -59,34 +59,19 @@
       "dst": 88287
     },
     {
-      "relate": "番外篇",
+      "relate": "续集",
       "src": 123568,
       "dst": 181995
     },
     {
-      "relate": "续集",
-      "src": 123568,
-      "dst": 260770
-    },
-    {
-      "relate": "番外篇",
-      "src": 123568,
-      "dst": 260772
-    },
-    {
-      "relate": "主线故事",
-      "src": 181995,
-      "dst": 123568
-    },
-    {
-      "relate": "续集",
-      "src": 181995,
-      "dst": 260772
-    },
-    {
       "relate": "前传",
-      "src": 260770,
+      "src": 181995,
       "dst": 123568
+    },
+    {
+      "relate": "续集",
+      "src": 181995,
+      "dst": 260772
     },
     {
       "relate": "前传",
