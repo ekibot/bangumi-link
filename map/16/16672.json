@@ -18,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 408590,
+      "name": "A Knight of the Seven Kingdoms",
+      "nameCN": "七王国的骑士",
+      "date": "2015-10-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -27,9 +36,29 @@
       "dst": 397650
     },
     {
+      "relate": "前传",
+      "src": 16672,
+      "dst": 408590
+    },
+    {
       "relate": "续集",
       "src": 397650,
       "dst": 16672
+    },
+    {
+      "relate": "相同世界观",
+      "src": 397650,
+      "dst": 408590
+    },
+    {
+      "relate": "续集",
+      "src": 408590,
+      "dst": 16672
+    },
+    {
+      "relate": "相同世界观",
+      "src": 408590,
+      "dst": 397650
     }
   ]
 }

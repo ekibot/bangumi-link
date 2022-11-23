@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 354026,
-      "name": "Inside Job",
-      "nameCN": "阴谋办公室",
+      "name": "Inside Job Season 1 Part.1",
+      "nameCN": "阴谋办公室 第一季 Part.1",
       "date": "2021-10-22",
       "type": 2,
       "nsfw": false,
@@ -12,9 +12,17 @@
     },
     {
       "id": 406514,
+      "name": "Inside Job Season 1 Part.2",
+      "nameCN": "阴谋办公室 第一季 Part.2",
+      "date": "2022-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 408511,
       "name": "Inside Job Season 2",
       "nameCN": "阴谋办公室 第二季",
-      "date": "2022-11-18",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 406514,
       "dst": 354026
+    },
+    {
+      "relate": "续集",
+      "src": 406514,
+      "dst": 408511
+    },
+    {
+      "relate": "前传",
+      "src": 408511,
+      "dst": 406514
     }
   ]
 }

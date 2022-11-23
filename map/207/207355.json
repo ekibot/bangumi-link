@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 408611,
+      "name": "住住3",
+      "nameCN": "住住3",
+      "date": "2021-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 408612,
+      "name": "住住4",
+      "nameCN": "住住4",
+      "date": "2022-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 306497,
       "dst": 207355
+    },
+    {
+      "relate": "续集",
+      "src": 306497,
+      "dst": 408611
+    },
+    {
+      "relate": "前传",
+      "src": 408611,
+      "dst": 306497
+    },
+    {
+      "relate": "续集",
+      "src": 408611,
+      "dst": 408612
+    },
+    {
+      "relate": "前传",
+      "src": 408612,
+      "dst": 408611
     }
   ]
 }
