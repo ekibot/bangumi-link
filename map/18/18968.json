@@ -508,6 +508,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 408813,
+      "name": "Andor Season 2",
+      "nameCN": "安多 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -832,7 +840,7 @@
       "dst": 247805
     },
     {
-      "relate": "前传",
+      "relate": "番外篇",
       "src": 187708,
       "dst": 395363
     },
@@ -1232,14 +1240,24 @@
       "dst": 340837
     },
     {
-      "relate": "续集",
+      "relate": "主线故事",
       "src": 395363,
       "dst": 187708
+    },
+    {
+      "relate": "续集",
+      "src": 395363,
+      "dst": 408813
     },
     {
       "relate": "主线故事",
       "src": 407777,
       "dst": 294641
+    },
+    {
+      "relate": "前传",
+      "src": 408813,
+      "dst": 395363
     }
   ]
 }

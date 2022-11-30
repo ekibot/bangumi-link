@@ -1,0 +1,54 @@
+{
+  "id": 150873,
+  "node": [
+    {
+      "id": 150873,
+      "name": "舞-HiME",
+      "nameCN": "",
+      "date": "2004-11-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 409296,
+      "name": "舞-乙HiME",
+      "nameCN": "舞-乙HiME",
+      "date": "2005-11-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 409297,
+      "name": "舞-乙HiME嵐",
+      "nameCN": "舞-乙HiME岚",
+      "date": "2007-08-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 150873,
+      "dst": 409296
+    },
+    {
+      "relate": "前传",
+      "src": 409296,
+      "dst": 150873
+    },
+    {
+      "relate": "番外篇",
+      "src": 409296,
+      "dst": 409297
+    },
+    {
+      "relate": "主线故事",
+      "src": 409297,
+      "dst": 409296
+    }
+  ]
+}
