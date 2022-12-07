@@ -1,0 +1,54 @@
+{
+  "id": 409622,
+  "node": [
+    {
+      "id": 409622,
+      "name": "SILENT CHILL -DEJA VU-",
+      "nameCN": "",
+      "date": "2021-06-06",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 409623,
+      "name": "SILENT CHILL -DOUBT-",
+      "nameCN": "",
+      "date": "2019-11-18",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 409625,
+      "name": "SILENT CHILL ―Discovery―",
+      "nameCN": "",
+      "date": "2019-07-18",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 409622,
+      "dst": 409623
+    },
+    {
+      "relate": "前传",
+      "src": 409623,
+      "dst": 409622
+    },
+    {
+      "relate": "续集",
+      "src": 409623,
+      "dst": 409625
+    },
+    {
+      "relate": "前传",
+      "src": 409625,
+      "dst": 409623
+    }
+  ]
+}

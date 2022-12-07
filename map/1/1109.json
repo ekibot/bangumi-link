@@ -369,6 +369,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 409323,
+      "name": "ひろがるスカイ！プリキュア",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -778,8 +786,18 @@
       "dst": 368456
     },
     {
+      "relate": "续集",
+      "src": 364932,
+      "dst": 409323
+    },
+    {
       "relate": "主线故事",
       "src": 368456,
+      "dst": 364932
+    },
+    {
+      "relate": "前传",
+      "src": 409323,
       "dst": 364932
     }
   ]

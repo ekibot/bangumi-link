@@ -85,7 +85,7 @@
     {
       "id": 3903,
       "name": "D.C.II P.C.",
-      "nameCN": "",
+      "nameCN": "初音岛2",
       "date": "2008-12-26",
       "type": 4,
       "nsfw": false,
@@ -112,8 +112,16 @@
     {
       "id": 22228,
       "name": "D.C.III ～ダ・カーポIII～",
-      "nameCN": "初音岛Ⅲ",
+      "nameCN": "初音岛3",
       "date": "2012-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 261765,
+      "name": "D.C.4 ～ダ・カーポ4～",
+      "nameCN": "初音岛4",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -278,6 +286,33 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 333293,
+      "name": "D.C.4 Plus Harmony",
+      "nameCN": "",
+      "date": "2021-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 313995,
+      "name": "D.C.4 Fortunate Departures ～ダ・カーポ4～フォーチュネイトデパーチャーズ",
+      "nameCN": "",
+      "date": "2021-02-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 362646,
+      "name": "D.C.4 Sweet Harmony ～ダ・カーポ4～ スイートハーモニー",
+      "nameCN": "",
+      "date": "2022-04-28",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -367,6 +402,11 @@
       "dst": 22228
     },
     {
+      "relate": "相同世界观",
+      "src": 3903,
+      "dst": 261765
+    },
+    {
       "relate": "主线故事",
       "src": 3905,
       "dst": 4044
@@ -395,6 +435,11 @@
       "relate": "前传",
       "src": 4044,
       "dst": 259900
+    },
+    {
+      "relate": "相同世界观",
+      "src": 4044,
+      "dst": 261765
     },
     {
       "relate": "不同世界观",
@@ -490,6 +535,11 @@
       "relate": "相同世界观",
       "src": 22228,
       "dst": 126140
+    },
+    {
+      "relate": "续集",
+      "src": 22228,
+      "dst": 261765
     },
     {
       "relate": "前传",
@@ -607,9 +657,54 @@
       "dst": 19078
     },
     {
+      "relate": "相同世界观",
+      "src": 261765,
+      "dst": 3903
+    },
+    {
+      "relate": "相同世界观",
+      "src": 261765,
+      "dst": 4044
+    },
+    {
+      "relate": "前传",
+      "src": 261765,
+      "dst": 22228
+    },
+    {
+      "relate": "不同演绎",
+      "src": 261765,
+      "dst": 333293
+    },
+    {
+      "relate": "主线故事",
+      "src": 313995,
+      "dst": 261765
+    },
+    {
+      "relate": "不同演绎",
+      "src": 313995,
+      "dst": 362646
+    },
+    {
+      "relate": "不同演绎",
+      "src": 333293,
+      "dst": 261765
+    },
+    {
       "relate": "不同演绎",
       "src": 360753,
       "dst": 19078
+    },
+    {
+      "relate": "主线故事",
+      "src": 362646,
+      "dst": 261765
+    },
+    {
+      "relate": "不同演绎",
+      "src": 362646,
+      "dst": 313995
     }
   ]
 }

@@ -267,7 +267,16 @@
       "date": "2018-12-21",
       "type": 6,
       "nsfw": false,
-      "platform": "欧美剧"
+      "platform": "其他"
+    },
+    {
+      "id": 339986,
+      "name": "Transformers: Rise of the Beasts",
+      "nameCN": "变形金刚：超能勇士崛起",
+      "date": "2023-06-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     },
     {
       "id": 24266,
@@ -292,15 +301,6 @@
       "name": "Transformers: The Last Knight",
       "nameCN": "变形金刚5：最后的骑士",
       "date": "2017-06-23",
-      "type": 6,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
-      "id": 339986,
-      "name": "Transformers: Rise of the Beasts",
-      "nameCN": "变形金刚：超能勇士崛起",
-      "date": "2023-06-09",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -636,6 +636,11 @@
       "dst": 269072
     },
     {
+      "relate": "不同世界观",
+      "src": 19567,
+      "dst": 339986
+    },
+    {
       "relate": "前传",
       "src": 19568,
       "dst": 19567
@@ -681,6 +686,11 @@
       "dst": 19567
     },
     {
+      "relate": "相同世界观",
+      "src": 269072,
+      "dst": 339986
+    },
+    {
       "relate": "续集",
       "src": 269072,
       "dst": 360086
@@ -691,9 +701,14 @@
       "dst": 339986
     },
     {
-      "relate": "前传",
+      "relate": "不同世界观",
       "src": 339986,
-      "dst": 182960
+      "dst": 19567
+    },
+    {
+      "relate": "相同世界观",
+      "src": 339986,
+      "dst": 269072
     },
     {
       "relate": "不同演绎",

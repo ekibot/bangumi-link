@@ -4,7 +4,7 @@
     {
       "id": 66569,
       "name": "DX-Ball 2",
-      "nameCN": "打砖块",
+      "nameCN": "打砖块2",
       "date": "1998-12-16",
       "type": 4,
       "nsfw": false,
@@ -17,6 +17,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 409567,
+      "name": "DX-Ball 2: 20th Anniversary Edition",
+      "nameCN": "打砖块2：20周年纪念版",
+      "date": "2018-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 68290
     },
     {
+      "relate": "不同演绎",
+      "src": 66569,
+      "dst": 409567
+    },
+    {
       "relate": "续集",
       "src": 68290,
+      "dst": 66569
+    },
+    {
+      "relate": "不同演绎",
+      "src": 409567,
       "dst": 66569
     }
   ]
