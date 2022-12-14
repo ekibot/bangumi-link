@@ -2,15 +2,6 @@
   "id": 342076,
   "node": [
     {
-      "id": 390225,
-      "name": "けもの道☆ガーリッシュスクエア LOVE+PLUS",
-      "nameCN": "",
-      "date": "2022-07-15",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
-    },
-    {
       "id": 342076,
       "name": "けもの道☆ガーリッシュスクエア",
       "nameCN": "",
@@ -18,12 +9,39 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 410165,
+      "name": "けもの道☆ガーリッシュスクエア 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 390225,
+      "name": "けもの道☆ガーリッシュスクエア LOVE+PLUS",
+      "nameCN": "",
+      "date": "2022-07-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 342076,
+      "dst": 410165
+    },
+    {
       "relate": "主线故事",
       "src": 390225,
+      "dst": 342076
+    },
+    {
+      "relate": "前传",
+      "src": 410165,
       "dst": 342076
     }
   ]

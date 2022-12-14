@@ -3,17 +3,27 @@
   "node": [
     {
       "id": 165390,
-      "name": "Draw a Stickman:Epic",
+      "name": "Draw a Stickman: Epic",
       "nameCN": "画个火柴人：传奇",
+      "date": "2013-12-03",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
     },
     {
       "id": 234629,
-      "name": "Draw a Stickman: EPIC 2",
+      "name": "Draw a Stickman: Epic 2",
       "nameCN": "画个火柴人：传奇2",
       "date": "2015-11-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 410908,
+      "name": "Draw a Stickman: Epic 3",
+      "nameCN": "画个火柴人：传奇3",
+      "date": "2020-05-07",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -29,6 +39,16 @@
       "relate": "前传",
       "src": 234629,
       "dst": 165390
+    },
+    {
+      "relate": "续集",
+      "src": 234629,
+      "dst": 410908
+    },
+    {
+      "relate": "前传",
+      "src": 410908,
+      "dst": 234629
     }
   ]
 }

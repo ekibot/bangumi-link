@@ -180,6 +180,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 410023,
+      "name": "开心超人联盟之奇幻谜瑞岛",
+      "nameCN": "",
+      "date": "2021-11-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 410020,
+      "name": "开心超人联盟之平行时空大冒险",
+      "nameCN": "",
+      "date": "2022-12-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 410024,
+      "name": "开心超人联盟之异星迷航",
+      "nameCN": "",
+      "date": "2022-05-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -372,6 +399,36 @@
       "relate": "前传",
       "src": 333379,
       "dst": 320427
+    },
+    {
+      "relate": "续集",
+      "src": 333379,
+      "dst": 410023
+    },
+    {
+      "relate": "前传",
+      "src": 410023,
+      "dst": 333379
+    },
+    {
+      "relate": "前传",
+      "src": 410020,
+      "dst": 410024
+    },
+    {
+      "relate": "续集",
+      "src": 410023,
+      "dst": 410024
+    },
+    {
+      "relate": "续集",
+      "src": 410024,
+      "dst": 410020
+    },
+    {
+      "relate": "前传",
+      "src": 410024,
+      "dst": 410023
     }
   ]
 }
