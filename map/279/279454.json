@@ -7,7 +7,7 @@
       "nameCN": "樱花MMO",
       "date": "2018-10-16",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
       "platform": "全部游戏"
     },
     {
@@ -16,7 +16,7 @@
       "nameCN": "樱花MMO 2",
       "date": "2019-01-26",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
       "platform": "全部游戏"
     },
     {
@@ -25,7 +25,16 @@
       "nameCN": "樱花MMO 3",
       "date": "2019-06-08",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 411580,
+      "name": "Sakura MMO Extra",
+      "nameCN": "樱花MMO Extra",
+      "date": "2021-01-12",
+      "type": 4,
+      "nsfw": true,
       "platform": "全部游戏"
     }
   ],
@@ -49,6 +58,16 @@
       "relate": "前传",
       "src": 301609,
       "dst": 301608
+    },
+    {
+      "relate": "续集",
+      "src": 301609,
+      "dst": 411580
+    },
+    {
+      "relate": "前传",
+      "src": 411580,
+      "dst": 301609
     }
   ]
 }

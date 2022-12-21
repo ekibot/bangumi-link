@@ -1,0 +1,67 @@
+{
+  "id": 221227,
+  "node": [
+    {
+      "id": 221227,
+      "name": "我的三体 罗辑传",
+      "nameCN": "",
+      "date": "2016-06-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 246001,
+      "name": "我的三体 章北海传",
+      "nameCN": "",
+      "date": "2020-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 285437,
+      "name": "三体",
+      "nameCN": "",
+      "date": "2022-12-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 343182,
+      "name": "我的三体 第四季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 221227,
+      "dst": 246001
+    },
+    {
+      "relate": "不同演绎",
+      "src": 221227,
+      "dst": 285437
+    },
+    {
+      "relate": "前传",
+      "src": 246001,
+      "dst": 221227
+    },
+    {
+      "relate": "续集",
+      "src": 246001,
+      "dst": 343182
+    },
+    {
+      "relate": "前传",
+      "src": 343182,
+      "dst": 246001
+    }
+  ]
+}

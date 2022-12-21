@@ -62,6 +62,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 411018,
+      "name": "キングダム3",
+      "nameCN": "王者天下3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -121,9 +129,19 @@
       "dst": 273423
     },
     {
+      "relate": "续集",
+      "src": 364470,
+      "dst": 411018
+    },
+    {
       "relate": "前传",
       "src": 403503,
       "dst": 353266
+    },
+    {
+      "relate": "前传",
+      "src": 411018,
+      "dst": 364470
     }
   ]
 }

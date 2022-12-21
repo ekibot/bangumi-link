@@ -1,0 +1,54 @@
+{
+  "id": 411462,
+  "node": [
+    {
+      "id": 411462,
+      "name": "The Littles Season 1‎",
+      "nameCN": "小不点 第一季",
+      "date": "1983-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 411599,
+      "name": "The Littles Season 2",
+      "nameCN": "小不点 第二季",
+      "date": "1984-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 411600,
+      "name": "The Littles Season 3",
+      "nameCN": "小不点 第三季",
+      "date": "1985-09-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 411462,
+      "dst": 411599
+    },
+    {
+      "relate": "前传",
+      "src": 411599,
+      "dst": 411462
+    },
+    {
+      "relate": "续集",
+      "src": 411599,
+      "dst": 411600
+    },
+    {
+      "relate": "前传",
+      "src": 411600,
+      "dst": 411599
+    }
+  ]
+}

@@ -18,6 +18,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 411428,
+      "name": "SPY×FAMILY 劇場版",
+      "nameCN": "间谍过家家 剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 411427,
+      "name": "SPY×FAMILY Season 2",
+      "nameCN": "间谍过家家 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +43,28 @@
       "dst": 373267
     },
     {
+      "relate": "番外篇",
+      "src": 329906,
+      "dst": 411428
+    },
+    {
       "relate": "前传",
       "src": 373267,
+      "dst": 329906
+    },
+    {
+      "relate": "续集",
+      "src": 373267,
+      "dst": 411427
+    },
+    {
+      "relate": "前传",
+      "src": 411427,
+      "dst": 373267
+    },
+    {
+      "relate": "主线故事",
+      "src": 411428,
       "dst": 329906
     }
   ]

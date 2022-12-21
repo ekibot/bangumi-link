@@ -45,6 +45,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 411450,
+      "name": "青の祓魔師 TVアニメ新シリーズ",
+      "nameCN": "青之驱魔师 新作",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -84,8 +92,18 @@
       "dst": 199630
     },
     {
+      "relate": "续集",
+      "src": 186034,
+      "dst": 411450
+    },
+    {
       "relate": "主线故事",
       "src": 199630,
+      "dst": 186034
+    },
+    {
+      "relate": "前传",
+      "src": 411450,
       "dst": 186034
     }
   ]
