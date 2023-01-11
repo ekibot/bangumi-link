@@ -99,6 +99,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 414742,
+      "name": "はなかっぱ 第11期",
+      "nameCN": "花样河童 第11季",
+      "date": "2020-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 414743,
+      "name": "はなかっぱ 第12期",
+      "nameCN": "花样河童 第12季",
+      "date": "2021-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -201,6 +219,26 @@
       "relate": "前传",
       "src": 302447,
       "dst": 302446
+    },
+    {
+      "relate": "续集",
+      "src": 302447,
+      "dst": 414742
+    },
+    {
+      "relate": "前传",
+      "src": 414742,
+      "dst": 302447
+    },
+    {
+      "relate": "续集",
+      "src": 414742,
+      "dst": 414743
+    },
+    {
+      "relate": "前传",
+      "src": 414743,
+      "dst": 414742
     }
   ]
 }

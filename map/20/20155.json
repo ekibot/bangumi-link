@@ -18,6 +18,24 @@
       "type": 4,
       "nsfw": true,
       "platform": "全部游戏"
+    },
+    {
+      "id": 80320,
+      "name": "催眠術3",
+      "nameCN": "",
+      "date": "2013-09-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 238278,
+      "name": "催眠術4",
+      "nameCN": "",
+      "date": "2019-03-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -25,6 +43,26 @@
       "relate": "主线故事",
       "src": 20155,
       "dst": 20157
+    },
+    {
+      "relate": "续集",
+      "src": 20157,
+      "dst": 80320
+    },
+    {
+      "relate": "前传",
+      "src": 80320,
+      "dst": 20157
+    },
+    {
+      "relate": "续集",
+      "src": 80320,
+      "dst": 238278
+    },
+    {
+      "relate": "前传",
+      "src": 238278,
+      "dst": 80320
     }
   ]
 }

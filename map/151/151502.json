@@ -21,7 +21,15 @@
     {
       "id": 151504,
       "name": "福五鼠之战国风云",
-      "nameCN": "福五鼠之战国风云",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 414188,
+      "name": "福五鼠之风云再起",
+      "nameCN": "",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -47,6 +55,16 @@
       "relate": "前传",
       "src": 151504,
       "dst": 151503
+    },
+    {
+      "relate": "续集",
+      "src": 151504,
+      "dst": 414188
+    },
+    {
+      "relate": "前传",
+      "src": 414188,
+      "dst": 151504
     }
   ]
 }

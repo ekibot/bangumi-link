@@ -11,15 +11,6 @@
       "platform": "TV"
     },
     {
-      "id": 10419,
-      "name": "はじめの一歩",
-      "nameCN": "第一神拳",
-      "date": "2000-10-03",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 78798,
       "name": "はじめの一歩 Rising",
       "nameCN": "第一神拳 Rising",
@@ -38,6 +29,15 @@
       "platform": "TV"
     },
     {
+      "id": 10419,
+      "name": "はじめの一歩",
+      "nameCN": "第一神拳",
+      "date": "2000-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 135196,
       "name": "はじめの一歩 間柴vs木村 死刑執行",
       "nameCN": "第一神拳 间柴vs木村 死刑执行",
@@ -49,22 +49,17 @@
   ],
   "relate": [
     {
-      "relate": "前传",
-      "src": 3641,
-      "dst": 10419
-    },
-    {
       "relate": "续集",
       "src": 3641,
       "dst": 78798
     },
     {
-      "relate": "续集",
-      "src": 10419,
-      "dst": 3641
+      "relate": "前传",
+      "src": 3641,
+      "dst": 135195
     },
     {
-      "relate": "番外篇",
+      "relate": "续集",
       "src": 10419,
       "dst": 135195
     },
@@ -79,7 +74,12 @@
       "dst": 3641
     },
     {
-      "relate": "主线故事",
+      "relate": "续集",
+      "src": 135195,
+      "dst": 3641
+    },
+    {
+      "relate": "前传",
       "src": 135195,
       "dst": 10419
     },
