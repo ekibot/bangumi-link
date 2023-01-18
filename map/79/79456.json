@@ -10,9 +10,18 @@
       "platform": "全部游戏"
     },
     {
+      "id": 242945,
+      "name": "怒号層圏",
+      "nameCN": "怒II",
+      "date": "1986-10-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 242949,
-      "name": "Ikari III - The Rescue",
-      "nameCN": "",
+      "name": "怒III",
+      "nameCN": "怒III",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -22,12 +31,22 @@
     {
       "relate": "续集",
       "src": 79456,
+      "dst": 242945
+    },
+    {
+      "relate": "前传",
+      "src": 242945,
+      "dst": 79456
+    },
+    {
+      "relate": "续集",
+      "src": 242945,
       "dst": 242949
     },
     {
       "relate": "前传",
       "src": 242949,
-      "dst": 79456
+      "dst": 242945
     }
   ]
 }

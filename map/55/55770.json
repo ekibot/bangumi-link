@@ -225,8 +225,17 @@
     },
     {
       "id": 376739,
-      "name": "進撃の巨人 The Final Season 完結編",
-      "nameCN": "进击的巨人 最终季 完结篇",
+      "name": "進撃の巨人 The Final Season 完結編 前編",
+      "nameCN": "进击的巨人 最终季 完结篇 前篇",
+      "date": "2023-03-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 415779,
+      "name": "進撃の巨人 The Final Season 完結編 後編",
+      "nameCN": "进击的巨人 最终季 完结篇 后篇",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -567,6 +576,16 @@
       "relate": "前传",
       "src": 376739,
       "dst": 331752
+    },
+    {
+      "relate": "续集",
+      "src": 376739,
+      "dst": 415779
+    },
+    {
+      "relate": "前传",
+      "src": 415779,
+      "dst": 376739
     }
   ]
 }

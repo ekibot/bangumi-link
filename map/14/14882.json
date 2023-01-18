@@ -5,6 +5,7 @@
       "id": 14882,
       "name": "BIOMEGA",
       "nameCN": "死亡进化",
+      "date": "2007-01-19",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -22,6 +23,7 @@
       "id": 17258,
       "name": "BLAME!",
       "nameCN": "BLAME!",
+      "date": "1998-06-20",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -34,6 +36,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 415402,
+      "name": "BLAME! 珪素生物の砦",
+      "nameCN": "BLAME! 硅基生物的堡垒",
+      "date": "2017-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -53,6 +64,11 @@
       "dst": 214051
     },
     {
+      "relate": "番外篇",
+      "src": 17258,
+      "dst": 415402
+    },
+    {
       "relate": "前传",
       "src": 90174,
       "dst": 14882
@@ -65,6 +81,11 @@
     {
       "relate": "主线故事",
       "src": 214051,
+      "dst": 17258
+    },
+    {
+      "relate": "主线故事",
+      "src": 415402,
       "dst": 17258
     }
   ]
