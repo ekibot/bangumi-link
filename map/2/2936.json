@@ -38,6 +38,15 @@
       "platform": "OVA"
     },
     {
+      "id": 363801,
+      "name": "蒼穹のファフナー BEHIND THE LINE",
+      "nameCN": "苍穹之法芙娜 BEHIND THE LINE",
+      "date": "2023-01-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 60901,
       "name": "蒼穹のファフナー EXODUS",
       "nameCN": "苍穹之法芙娜 EXODUS",
@@ -63,15 +72,6 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
-    },
-    {
-      "id": 363801,
-      "name": "蒼穹のファフナー BEHIND THE LINE",
-      "nameCN": "苍穹之法芙娜 BEHIND THE LINE",
-      "date": "2023-01-20",
-      "type": 2,
-      "nsfw": false,
-      "platform": "其他"
     }
   ],
   "relate": [
@@ -103,17 +103,17 @@
     {
       "relate": "续集",
       "src": 14109,
-      "dst": 60901
-    },
-    {
-      "relate": "前传",
-      "src": 60901,
-      "dst": 14109
+      "dst": 363801
     },
     {
       "relate": "续集",
       "src": 60901,
       "dst": 130230
+    },
+    {
+      "relate": "前传",
+      "src": 60901,
+      "dst": 363801
     },
     {
       "relate": "前传",
@@ -136,14 +136,14 @@
       "dst": 130230
     },
     {
-      "relate": "衍生",
-      "src": 204623,
-      "dst": 363801
+      "relate": "前传",
+      "src": 363801,
+      "dst": 14109
     },
     {
-      "relate": "主线故事",
+      "relate": "续集",
       "src": 363801,
-      "dst": 204623
+      "dst": 60901
     }
   ]
 }
