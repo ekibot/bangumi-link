@@ -47,6 +47,15 @@
       "platform": "OVA"
     },
     {
+      "id": 417855,
+      "name": "真・恋姫†無双 LIVE Revolution",
+      "nameCN": "真・恋姬无双 LIVE Revolution",
+      "date": "2010-03-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 82214,
       "name": "真・恋姫†無双 〜乙女大乱〜 †あわわっDVD第七巻はOVAすぺしゃるです〜†",
       "nameCN": "真・恋姬无双～少女大乱～ OVA",
@@ -83,6 +92,11 @@
       "dst": 7183
     },
     {
+      "relate": "番外篇",
+      "src": 2606,
+      "dst": 417855
+    },
+    {
       "relate": "前传",
       "src": 4286,
       "dst": 2606
@@ -98,14 +112,39 @@
       "dst": 2606
     },
     {
+      "relate": "前传",
+      "src": 7183,
+      "dst": 7184
+    },
+    {
+      "relate": "续集",
+      "src": 7183,
+      "dst": 82214
+    },
+    {
       "relate": "主线故事",
       "src": 7184,
       "dst": 811
     },
     {
+      "relate": "续集",
+      "src": 7184,
+      "dst": 7183
+    },
+    {
       "relate": "主线故事",
       "src": 82214,
       "dst": 4286
+    },
+    {
+      "relate": "前传",
+      "src": 82214,
+      "dst": 7183
+    },
+    {
+      "relate": "主线故事",
+      "src": 417855,
+      "dst": 2606
     }
   ]
 }
