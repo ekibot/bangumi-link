@@ -25,6 +25,22 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 418802,
+      "name": "三体Ⅱ：黑暗森林",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 418803,
+      "name": "三体：大史",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
     }
   ],
   "relate": [
@@ -37,6 +53,26 @@
       "relate": "不同演绎",
       "src": 388982,
       "dst": 314217
+    },
+    {
+      "relate": "续集",
+      "src": 388982,
+      "dst": 418802
+    },
+    {
+      "relate": "番外篇",
+      "src": 388982,
+      "dst": 418803
+    },
+    {
+      "relate": "前传",
+      "src": 418802,
+      "dst": 388982
+    },
+    {
+      "relate": "主线故事",
+      "src": 418803,
+      "dst": 388982
     }
   ]
 }

@@ -77,6 +77,24 @@
       "type": 4,
       "nsfw": false,
       "platform": "街机"
+    },
+    {
+      "id": 262123,
+      "name": "jubeat festo",
+      "nameCN": "",
+      "date": "2018-09-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 408067,
+      "name": "jubeat Ave.",
+      "nameCN": "",
+      "date": "2022-08-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -194,6 +212,26 @@
       "relate": "前传",
       "src": 188712,
       "dst": 163859
+    },
+    {
+      "relate": "续集",
+      "src": 188712,
+      "dst": 262123
+    },
+    {
+      "relate": "前传",
+      "src": 262123,
+      "dst": 188712
+    },
+    {
+      "relate": "续集",
+      "src": 262123,
+      "dst": 408067
+    },
+    {
+      "relate": "前传",
+      "src": 408067,
+      "dst": 262123
     }
   ]
 }
