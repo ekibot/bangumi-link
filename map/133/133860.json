@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 419613,
+      "name": "Zootopia 2",
+      "nameCN": "疯狂动物城2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 388319
     },
     {
+      "relate": "续集",
+      "src": 133860,
+      "dst": 419613
+    },
+    {
       "relate": "主线故事",
       "src": 388319,
+      "dst": 133860
+    },
+    {
+      "relate": "前传",
+      "src": 419613,
       "dst": 133860
     }
   ]

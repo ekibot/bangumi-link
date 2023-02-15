@@ -1,0 +1,53 @@
+{
+  "id": 163017,
+  "node": [
+    {
+      "id": 163017,
+      "name": "フライ,ダディ,フライ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 419541,
+      "name": "レヴォリューション No.3",
+      "nameCN": "",
+      "date": "2008-09-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 419542,
+      "name": "SPEED",
+      "nameCN": "",
+      "date": "2011-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 163017,
+      "dst": 419541
+    },
+    {
+      "relate": "番外篇",
+      "src": 419541,
+      "dst": 163017
+    },
+    {
+      "relate": "番外篇",
+      "src": 419541,
+      "dst": 419542
+    },
+    {
+      "relate": "主线故事",
+      "src": 419542,
+      "dst": 419541
+    }
+  ]
+}

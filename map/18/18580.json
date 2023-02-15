@@ -99,6 +99,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 415065,
+      "name": "Kung Fu Panda: The Dragon Knight Season 2",
+      "nameCN": "功夫熊猫：神龙骑士 第二季",
+      "date": "2023-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -203,9 +212,19 @@
       "dst": 35814
     },
     {
+      "relate": "续集",
+      "src": 388088,
+      "dst": 415065
+    },
+    {
       "relate": "前传",
       "src": 395881,
       "dst": 115615
+    },
+    {
+      "relate": "前传",
+      "src": 415065,
+      "dst": 388088
     }
   ]
 }

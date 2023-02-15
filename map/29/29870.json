@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 29870,
-      "name": "My Little Pony: Friendship Is Magic : S1",
-      "nameCN": "小马驹G4 第一季",
+      "name": "My Little Pony Friendship is Magic Season 1",
+      "nameCN": "小马宝莉：友谊就是魔法 第一季",
       "date": "2010-10-10",
       "type": 2,
       "nsfw": false,
@@ -12,8 +12,8 @@
     },
     {
       "id": 35858,
-      "name": "My Little Pony: Friendship Is Magic : S2",
-      "nameCN": "小马驹G4 第二季",
+      "name": "My Little Pony Friendship is Magic Season 2",
+      "nameCN": "小马宝莉：友谊就是魔法 第二季",
       "date": "2011-09-17",
       "type": 2,
       "nsfw": false,
@@ -56,9 +56,18 @@
       "platform": "WEB"
     },
     {
+      "id": 419871,
+      "name": "My Little Pony Friendship is Magic animated shorts",
+      "nameCN": "",
+      "date": "2018-11-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 54234,
-      "name": "My Little Pony: Friendship Is Magic : S3",
-      "nameCN": "小马驹G4 第三季",
+      "name": "My Little Pony Friendship is Magic Season 3",
+      "nameCN": "小马宝莉：友谊就是魔法 第三季",
       "date": "2012-11-10",
       "type": 2,
       "nsfw": false,
@@ -75,8 +84,8 @@
     },
     {
       "id": 89536,
-      "name": "My Little Pony: Friendship Is Magic : S4",
-      "nameCN": "小马驹G4 第四季",
+      "name": "My Little Pony Friendship is Magic Season 4",
+      "nameCN": "小马宝莉：友谊就是魔法 第四季",
       "date": "2013-11-23",
       "type": 2,
       "nsfw": false,
@@ -129,8 +138,8 @@
     },
     {
       "id": 129224,
-      "name": "My Little Pony: Friendship Is Magic : S5",
-      "nameCN": "小马驹G4 第五季",
+      "name": "My Little Pony Friendship is Magic Season 5",
+      "nameCN": "小马宝莉：友谊就是魔法 第五季",
       "date": "2015-04-04",
       "type": 2,
       "nsfw": false,
@@ -201,8 +210,8 @@
     },
     {
       "id": 170415,
-      "name": "My Little Pony: Friendship Is Magic : S6",
-      "nameCN": "小马驹G4 第六季",
+      "name": "My Little Pony Friendship is Magic Season 6",
+      "nameCN": "小马宝莉：友谊就是魔法 第六季",
       "date": "2016-03-26",
       "type": 2,
       "nsfw": false,
@@ -219,8 +228,8 @@
     },
     {
       "id": 208576,
-      "name": "My Little Pony: Friendship Is Magic : S7",
-      "nameCN": "小马驹G4 第七季",
+      "name": "My Little Pony Friendship is Magic Season 7",
+      "nameCN": "小马宝莉：友谊就是魔法 第七季",
       "date": "2017-04-15",
       "type": 2,
       "nsfw": false,
@@ -237,8 +246,8 @@
     },
     {
       "id": 241427,
-      "name": "My Little Pony: Friendship Is Magic : S8",
-      "nameCN": "小马驹G4 第八季",
+      "name": "My Little Pony Friendship is Magic Season 8",
+      "nameCN": "小马宝莉：友谊就是魔法 第八季",
       "date": "2018-03-24",
       "type": 2,
       "nsfw": false,
@@ -255,12 +264,21 @@
     },
     {
       "id": 280442,
-      "name": "My Little Pony: Friendship Is Magic : S9",
-      "nameCN": "小马驹G4 第九季",
+      "name": "My Little Pony Friendship is Magic Season 9",
+      "nameCN": "小马宝莉：友谊就是魔法 第九季",
       "date": "2019-04-06",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 419874,
+      "name": "My Little Pony Equestria Girls Digital Series Season 2",
+      "nameCN": "",
+      "date": "2019-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     },
     {
       "id": 286087,
@@ -324,6 +342,11 @@
       "relate": "不同演绎",
       "src": 29870,
       "dst": 346077
+    },
+    {
+      "relate": "衍生",
+      "src": 29870,
+      "dst": 419871
     },
     {
       "relate": "前传",
@@ -651,6 +674,11 @@
       "dst": 280443
     },
     {
+      "relate": "续集",
+      "src": 267366,
+      "dst": 419874
+    },
+    {
       "relate": "主线故事",
       "src": 267374,
       "dst": 80599
@@ -809,6 +837,16 @@
       "relate": "前传",
       "src": 416739,
       "dst": 416737
+    },
+    {
+      "relate": "主线故事",
+      "src": 419871,
+      "dst": 29870
+    },
+    {
+      "relate": "前传",
+      "src": 419874,
+      "dst": 267366
     }
   ]
 }

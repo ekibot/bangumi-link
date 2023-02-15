@@ -1,0 +1,54 @@
+{
+  "id": 419825,
+  "node": [
+    {
+      "id": 419825,
+      "name": "My Little Pony: Pony Life Season 1",
+      "nameCN": "",
+      "date": "2020-11-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 419826,
+      "name": "My Little Pony: Pony Life Season 2",
+      "nameCN": "",
+      "date": "2021-04-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 419827,
+      "name": "My Little Pony: Pony Life Stop Motion Shorts",
+      "nameCN": "",
+      "date": "2020-01-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 419825,
+      "dst": 419826
+    },
+    {
+      "relate": "番外篇",
+      "src": 419825,
+      "dst": 419827
+    },
+    {
+      "relate": "前传",
+      "src": 419826,
+      "dst": 419825
+    },
+    {
+      "relate": "主线故事",
+      "src": 419827,
+      "dst": 419825
+    }
+  ]
+}
