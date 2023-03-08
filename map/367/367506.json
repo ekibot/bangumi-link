@@ -24,6 +24,22 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 422330,
+      "name": "Wayfarers of the South Tigris",
+      "nameCN": "南河旅人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 422331,
+      "name": "Scholars of the South Tigris",
+      "nameCN": "南河学者",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -46,6 +62,26 @@
       "relate": "前传",
       "src": 421289,
       "dst": 419820
+    },
+    {
+      "relate": "相同世界观",
+      "src": 421289,
+      "dst": 422330
+    },
+    {
+      "relate": "相同世界观",
+      "src": 422330,
+      "dst": 421289
+    },
+    {
+      "relate": "续集",
+      "src": 422330,
+      "dst": 422331
+    },
+    {
+      "relate": "前传",
+      "src": 422331,
+      "dst": 422330
     }
   ]
 }

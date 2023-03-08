@@ -2,19 +2,27 @@
   "id": 122041,
   "node": [
     {
-      "id": 147896,
-      "name": "Cities: Skylines - After Dark",
-      "nameCN": "都市：天际线 - 不夜城",
-      "date": "2015-09-24",
+      "id": 122041,
+      "name": "Cities: Skylines",
+      "nameCN": "城市：天际线",
+      "date": "2015-03-11",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
     },
     {
-      "id": 122041,
-      "name": "Cities: Skylines",
-      "nameCN": "城市：天际线",
-      "date": "2015-03-11",
+      "id": 423235,
+      "name": "Cities: Skylines II",
+      "nameCN": "城市：天际线2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 147896,
+      "name": "Cities: Skylines - After Dark",
+      "nameCN": "都市：天际线 - 不夜城",
+      "date": "2015-09-24",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -40,6 +48,11 @@
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 122041,
+      "dst": 423235
+    },
+    {
       "relate": "主线故事",
       "src": 147896,
       "dst": 122041
@@ -52,6 +65,11 @@
     {
       "relate": "主线故事",
       "src": 207841,
+      "dst": 122041
+    },
+    {
+      "relate": "前传",
+      "src": 423235,
       "dst": 122041
     }
   ]

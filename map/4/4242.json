@@ -17,6 +17,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 423037,
+      "name": "新邋遢大王",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 47301
     },
     {
+      "relate": "不同演绎",
+      "src": 4242,
+      "dst": 423037
+    },
+    {
       "relate": "全集",
       "src": 47301,
+      "dst": 4242
+    },
+    {
+      "relate": "不同演绎",
+      "src": 423037,
       "dst": 4242
     }
   ]
