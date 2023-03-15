@@ -29,6 +29,14 @@
       "platform": "OVA"
     },
     {
+      "id": 381945,
+      "name": "Katonohasama Days",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 383199,
       "name": "School Idol Days",
       "nameCN": "日在偶像校园",
@@ -46,30 +54,12 @@
       "platform": "全部游戏"
     },
     {
-      "id": 1142,
-      "name": "Summer Days",
-      "nameCN": "日在盛夏",
-      "date": "2006-06-23",
-      "type": 4,
-      "nsfw": true,
-      "platform": "全部游戏"
-    },
-    {
       "id": 14300,
       "name": "School Days HQ",
       "nameCN": "日在校园 HQ",
       "date": "2010-10-08",
       "type": 4,
       "nsfw": true,
-      "platform": "PC"
-    },
-    {
-      "id": 28630,
-      "name": "SHINY DAYS",
-      "nameCN": "日了就闪",
-      "date": "2012-04-27",
-      "type": 4,
-      "nsfw": false,
       "platform": "PC"
     },
     {
@@ -91,6 +81,15 @@
       "platform": "PC"
     },
     {
+      "id": 1142,
+      "name": "Summer Days",
+      "nameCN": "日在盛夏",
+      "date": "2006-06-23",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
       "id": 2423,
       "name": "Cross Days",
       "nameCN": "日在交叉",
@@ -98,6 +97,15 @@
       "type": 4,
       "nsfw": true,
       "platform": "全部游戏"
+    },
+    {
+      "id": 28630,
+      "name": "SHINY DAYS",
+      "nameCN": "日了就闪",
+      "date": "2012-04-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
     },
     {
       "id": 97236,
@@ -109,12 +117,21 @@
       "platform": "全部游戏"
     },
     {
-      "id": 381945,
-      "name": "Katonohasama Days",
-      "nameCN": "",
-      "type": 2,
+      "id": 90946,
+      "name": "Island Days",
+      "nameCN": "海岛之日",
+      "date": "2014-07-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 423690,
+      "name": "ティアメール",
+      "nameCN": "TearMail",
+      "type": 4,
       "nsfw": true,
-      "platform": "OVA"
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -129,6 +146,11 @@
       "dst": 54764
     },
     {
+      "relate": "衍生",
+      "src": 827,
+      "dst": 381945
+    },
+    {
       "relate": "相同世界观",
       "src": 43378,
       "dst": 827
@@ -140,23 +162,18 @@
     },
     {
       "relate": "主线故事",
-      "src": 383199,
+      "src": 381945,
       "dst": 827
     },
     {
-      "relate": "续集",
-      "src": 1141,
-      "dst": 1142
+      "relate": "主线故事",
+      "src": 383199,
+      "dst": 827
     },
     {
       "relate": "不同演绎",
       "src": 1141,
       "dst": 14300
-    },
-    {
-      "relate": "续集",
-      "src": 1141,
-      "dst": 28630
     },
     {
       "relate": "相同世界观",
@@ -169,7 +186,7 @@
       "dst": 241930
     },
     {
-      "relate": "前传",
+      "relate": "主线故事",
       "src": 1142,
       "dst": 1141
     },
@@ -214,7 +231,7 @@
       "dst": 28630
     },
     {
-      "relate": "前传",
+      "relate": "主线故事",
       "src": 28630,
       "dst": 1141
     },
@@ -234,6 +251,11 @@
       "dst": 14300
     },
     {
+      "relate": "主线故事",
+      "src": 90946,
+      "dst": 1141
+    },
+    {
       "relate": "相同世界观",
       "src": 97236,
       "dst": 2423
@@ -251,7 +273,7 @@
     {
       "relate": "续集",
       "src": 99034,
-      "dst": 97236
+      "dst": 423690
     },
     {
       "relate": "不同世界观",
@@ -260,13 +282,13 @@
     },
     {
       "relate": "主线故事",
-      "src": 381945,
+      "src": 383199,
       "dst": 1141
     },
     {
-      "relate": "主线故事",
-      "src": 383199,
-      "dst": 1141
+      "relate": "前传",
+      "src": 423690,
+      "dst": 99034
     }
   ]
 }
