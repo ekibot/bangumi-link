@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 425355,
+      "name": "想星のアクエリオン Myth of Emotions",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -137,6 +145,11 @@
       "dst": 12620
     },
     {
+      "relate": "续集",
+      "src": 126024,
+      "dst": 425355
+    },
+    {
       "relate": "主线故事",
       "src": 129131,
       "dst": 1763
@@ -145,6 +158,11 @@
       "relate": "主线故事",
       "src": 129131,
       "dst": 12620
+    },
+    {
+      "relate": "前传",
+      "src": 425355,
+      "dst": 126024
     }
   ]
 }

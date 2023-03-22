@@ -11,6 +11,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 112063,
+      "name": "アンデルセン童話 にんぎょ姫",
+      "nameCN": "人鱼公主",
+      "date": "1975-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 112360,
       "name": "The Little Mermaid II: Return to the Sea",
       "nameCN": "小美人鱼2：重返大海",
@@ -27,10 +36,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 119577,
+      "name": "人魚姫 マリーナの冒険",
+      "nameCN": "小美人鱼冒险传奇",
+      "date": "1991-02-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
     {
+      "relate": "不同演绎",
+      "src": 36151,
+      "dst": 112063
+    },
+    {
       "relate": "续集",
       "src": 36151,
       "dst": 112360
@@ -39,6 +62,16 @@
       "relate": "续集",
       "src": 36151,
       "dst": 113260
+    },
+    {
+      "relate": "不同演绎",
+      "src": 36151,
+      "dst": 119577
+    },
+    {
+      "relate": "不同演绎",
+      "src": 112063,
+      "dst": 36151
     },
     {
       "relate": "前传",
@@ -59,6 +92,11 @@
       "relate": "前传",
       "src": 113260,
       "dst": 112360
+    },
+    {
+      "relate": "不同演绎",
+      "src": 119577,
+      "dst": 36151
     }
   ]
 }

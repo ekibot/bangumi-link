@@ -18,6 +18,33 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 26451,
+      "name": "ウィッチズガーデン",
+      "nameCN": "魔女的花园",
+      "date": "2012-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 228301,
+      "name": "はぴねす！2 Sakura Celebration",
+      "nameCN": "Happiness! 2 樱花盛典",
+      "date": "2019-02-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 295317,
+      "name": "はぴねす！2 りらっくす",
+      "nameCN": "",
+      "date": "2020-04-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -27,9 +54,34 @@
       "dst": 26440
     },
     {
+      "relate": "相同世界观",
+      "src": 1078,
+      "dst": 26451
+    },
+    {
       "relate": "前传",
       "src": 26440,
       "dst": 1078
+    },
+    {
+      "relate": "相同世界观",
+      "src": 26451,
+      "dst": 1078
+    },
+    {
+      "relate": "相同世界观",
+      "src": 26451,
+      "dst": 228301
+    },
+    {
+      "relate": "相同世界观",
+      "src": 228301,
+      "dst": 26451
+    },
+    {
+      "relate": "主线故事",
+      "src": 295317,
+      "dst": 228301
     }
   ]
 }

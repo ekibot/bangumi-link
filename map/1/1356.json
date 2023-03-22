@@ -343,6 +343,15 @@
       "platform": "日剧"
     },
     {
+      "id": 273886,
+      "name": "Ultraman: The Adventure Begins",
+      "nameCN": "奥特曼USA",
+      "date": "1987-10-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 38656,
       "name": "ウルトラマンティガ・ウルトラマンダイナ&amp;ウルトラマンガイア 超時空の大決戦",
       "nameCN": "迪迦＆戴拿＆盖亚·奥特曼 超时空的大决战",
@@ -383,6 +392,24 @@
       "name": "ウルトラマンガイア ガイアよ再び",
       "nameCN": "盖亚奥特曼 盖亚再现",
       "date": "2001-03-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 127039,
+      "name": "ULTRAMAN GREAT",
+      "nameCN": "葛雷奥特曼",
+      "date": "1990-09-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 127040,
+      "name": "ULTRAMAN POWERED",
+      "nameCN": "帕瓦特奥特曼",
+      "date": "1993-12-17",
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
@@ -682,14 +709,14 @@
       "dst": 329945
     },
     {
-      "relate": "续集",
-      "src": 38666,
-      "dst": 11304
-    },
-    {
       "relate": "前传",
       "src": 38666,
       "dst": 61260
+    },
+    {
+      "relate": "续集",
+      "src": 38666,
+      "dst": 273886
     },
     {
       "relate": "相同世界观",
@@ -802,6 +829,21 @@
       "dst": 11304
     },
     {
+      "relate": "续集",
+      "src": 127039,
+      "dst": 127040
+    },
+    {
+      "relate": "前传",
+      "src": 127039,
+      "dst": 273886
+    },
+    {
+      "relate": "前传",
+      "src": 127040,
+      "dst": 127039
+    },
+    {
       "relate": "主线故事",
       "src": 139594,
       "dst": 38667
@@ -870,6 +912,16 @@
       "relate": "续集",
       "src": 231247,
       "dst": 284510
+    },
+    {
+      "relate": "前传",
+      "src": 273886,
+      "dst": 38666
+    },
+    {
+      "relate": "续集",
+      "src": 273886,
+      "dst": 127039
     },
     {
       "relate": "不同演绎",

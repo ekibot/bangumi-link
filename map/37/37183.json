@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 112450,
+      "name": "チョロQダグラム",
+      "nameCN": "回力车达格拉姆",
+      "date": "1983-07-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 424786,
+      "name": "DOUGRAM vs ROUND-FACER",
+      "nameCN": "火星的战士达格拉姆",
+      "date": "1987-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -27,8 +45,28 @@
       "dst": 47673
     },
     {
+      "relate": "衍生",
+      "src": 37183,
+      "dst": 112450
+    },
+    {
+      "relate": "衍生",
+      "src": 37183,
+      "dst": 424786
+    },
+    {
       "relate": "全集",
       "src": 47673,
+      "dst": 37183
+    },
+    {
+      "relate": "主线故事",
+      "src": 112450,
+      "dst": 37183
+    },
+    {
+      "relate": "主线故事",
+      "src": 424786,
       "dst": 37183
     }
   ]
