@@ -124,8 +124,9 @@
     },
     {
       "id": 287008,
-      "name": "猎魔人 卷八：风暴季节",
-      "nameCN": "风暴季节",
+      "name": "Sezon burz",
+      "nameCN": "猎魔人 卷八：风暴季节",
+      "date": "2013-11-06",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -191,6 +192,7 @@
       "id": 362850,
       "name": "The Witcher Season 3",
       "nameCN": "猎魔人 第三季",
+      "date": "2023-06-29",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -228,6 +230,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 438282,
+      "name": "The Witcher Season 5",
+      "nameCN": "猎魔人 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -495,6 +505,16 @@
       "relate": "前传",
       "src": 406543,
       "dst": 362850
+    },
+    {
+      "relate": "续集",
+      "src": 406543,
+      "dst": 438282
+    },
+    {
+      "relate": "前传",
+      "src": 438282,
+      "dst": 406543
     }
   ]
 }

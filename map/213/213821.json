@@ -42,6 +42,22 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 443738,
+      "name": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "nameCN": "夺宝奇兵4",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 443742,
+      "name": "Indiana Jones and the Dial of Destiny",
+      "nameCN": "夺宝奇兵5",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -91,6 +107,11 @@
       "dst": 265837
     },
     {
+      "relate": "续集",
+      "src": 266004,
+      "dst": 443738
+    },
+    {
       "relate": "相同世界观",
       "src": 266426,
       "dst": 213821
@@ -104,6 +125,21 @@
       "relate": "前传",
       "src": 271844,
       "dst": 213821
+    },
+    {
+      "relate": "前传",
+      "src": 443738,
+      "dst": 266004
+    },
+    {
+      "relate": "续集",
+      "src": 443738,
+      "dst": 443742
+    },
+    {
+      "relate": "前传",
+      "src": 443742,
+      "dst": 443738
     }
   ]
 }

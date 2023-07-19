@@ -5,6 +5,7 @@
       "id": 174853,
       "name": "優駿の門",
       "nameCN": "优骏之门",
+      "date": "1995-05-12",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -13,6 +14,7 @@
       "id": 174872,
       "name": "優駿の門GI",
       "nameCN": "优骏之门GI",
+      "date": "2001-06-30",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -30,6 +32,7 @@
       "id": 174875,
       "name": "優駿の門番外編 瞳の中のライバル",
       "nameCN": "",
+      "date": "1999-07-05",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -57,6 +60,33 @@
       "name": "優駿の門 -チャンプ-",
       "nameCN": "",
       "date": "2011-10-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 435648,
+      "name": "優駿の門GP",
+      "nameCN": "",
+      "date": "2015-09-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 362323,
+      "name": "優駿の門2020馬術",
+      "nameCN": "",
+      "date": "2020-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 435665,
+      "name": "優駿の門 ムンク",
+      "nameCN": "",
+      "date": "2022-04-20",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -122,6 +152,36 @@
       "relate": "前传",
       "src": 174897,
       "dst": 174888
+    },
+    {
+      "relate": "续集",
+      "src": 174897,
+      "dst": 435648
+    },
+    {
+      "relate": "前传",
+      "src": 362323,
+      "dst": 435648
+    },
+    {
+      "relate": "续集",
+      "src": 362323,
+      "dst": 435665
+    },
+    {
+      "relate": "前传",
+      "src": 435648,
+      "dst": 174897
+    },
+    {
+      "relate": "续集",
+      "src": 435648,
+      "dst": 362323
+    },
+    {
+      "relate": "前传",
+      "src": 435665,
+      "dst": 362323
     }
   ]
 }

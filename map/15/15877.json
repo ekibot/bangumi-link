@@ -28,6 +28,15 @@
       "platform": "欧美剧"
     },
     {
+      "id": 241176,
+      "name": "Game of Thrones: Conquest and Rebellion",
+      "nameCN": "权力的游戏：征服与反抗",
+      "date": "2017-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 293860,
       "name": "House of the Dragon",
       "nameCN": "龙之家族",
@@ -64,6 +73,14 @@
       "id": 398077,
       "name": "House of the Dragon Season 2",
       "nameCN": "龙之家族 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 429521,
+      "name": "A Knight of the Seven Kingdoms: The Hedge Knight",
+      "nameCN": "七王国的骑士",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -135,6 +152,11 @@
       "dst": 194603
     },
     {
+      "relate": "前传",
+      "src": 15877,
+      "dst": 241176
+    },
+    {
       "relate": "衍生",
       "src": 15877,
       "dst": 293860
@@ -158,6 +180,11 @@
       "relate": "前传",
       "src": 15877,
       "dst": 398077
+    },
+    {
+      "relate": "前传",
+      "src": 15877,
+      "dst": 429521
     },
     {
       "relate": "前传",
@@ -230,6 +257,11 @@
       "dst": 202417
     },
     {
+      "relate": "续集",
+      "src": 241176,
+      "dst": 15877
+    },
+    {
       "relate": "衍生",
       "src": 293860,
       "dst": 15877
@@ -263,6 +295,11 @@
       "relate": "前传",
       "src": 398077,
       "dst": 293860
+    },
+    {
+      "relate": "续集",
+      "src": 429521,
+      "dst": 15877
     }
   ]
 }

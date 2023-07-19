@@ -345,7 +345,7 @@
     },
     {
       "id": 419874,
-      "name": "My Little Pony Equestria Girls Digital Series Season 2",
+      "name": "My Little Pony Equestria Girls Digital Series (Season 2)",
       "nameCN": "",
       "date": "2019-01-11",
       "type": 2,
@@ -372,8 +372,8 @@
     },
     {
       "id": 416736,
-      "name": "My Little Pony:Make Your Mark",
-      "nameCN": "小马宝莉：留下印记",
+      "name": "My Little Pony: Make Your Mark Chapter 1",
+      "nameCN": "小马宝莉：我的可爱印记 第一章",
       "date": "2022-05-26",
       "type": 2,
       "nsfw": false,
@@ -381,8 +381,8 @@
     },
     {
       "id": 416737,
-      "name": "My Little Pony:Make Your Mark",
-      "nameCN": "小马宝莉：留下印记 第二章",
+      "name": "My Little Pony: Make Your Mark Chapter 2",
+      "nameCN": "小马宝莉：我的可爱标记 第二章",
       "date": "2022-09-26",
       "type": 2,
       "nsfw": false,
@@ -399,9 +399,18 @@
     },
     {
       "id": 416739,
-      "name": "My Little Pony: Winter Wishday",
-      "nameCN": "小马宝莉：冬季许愿日",
+      "name": "My Little Pony: Make Your Mark Chapter 3",
+      "nameCN": "小马宝莉 我的可爱标记 第三章",
       "date": "2022-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 436008,
+      "name": "My Little Pony: Make Your Mark Chapter 4",
+      "nameCN": "小马宝莉 我的可爱标记 第四章",
+      "date": "2023-06-06",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -984,6 +993,11 @@
       "dst": 416737
     },
     {
+      "relate": "续集",
+      "src": 416739,
+      "dst": 436008
+    },
+    {
       "relate": "主线故事",
       "src": 419828,
       "dst": 416736
@@ -1042,6 +1056,11 @@
       "relate": "全集",
       "src": 421261,
       "dst": 280442
+    },
+    {
+      "relate": "前传",
+      "src": 436008,
+      "dst": 416739
     }
   ]
 }

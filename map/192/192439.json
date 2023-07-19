@@ -26,6 +26,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 438043,
+      "name": "Better Things Season 4",
+      "nameCN": "更美好的事 第四季",
+      "date": "2020-03-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 438044,
+      "name": "Better Things Season 5",
+      "nameCN": "更美好的事 第五季",
+      "date": "2022-02-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -48,6 +66,26 @@
       "relate": "前传",
       "src": 290266,
       "dst": 225811
+    },
+    {
+      "relate": "续集",
+      "src": 290266,
+      "dst": 438043
+    },
+    {
+      "relate": "前传",
+      "src": 438043,
+      "dst": 290266
+    },
+    {
+      "relate": "续集",
+      "src": 438043,
+      "dst": 438044
+    },
+    {
+      "relate": "前传",
+      "src": 438044,
+      "dst": 438043
     }
   ]
 }

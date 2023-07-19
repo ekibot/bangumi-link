@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 413894,
+      "name": "ヤマトタケル",
+      "nameCN": "太阳武神",
+      "date": "1994-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 180401
     },
     {
+      "relate": "衍生",
+      "src": 37257,
+      "dst": 413894
+    },
+    {
       "relate": "前传",
       "src": 180401,
+      "dst": 37257
+    },
+    {
+      "relate": "衍生",
+      "src": 413894,
       "dst": 37257
     }
   ]

@@ -1,0 +1,49 @@
+{
+  "id": 285635,
+  "node": [
+    {
+      "id": 285635,
+      "name": "Heroes of Hammerwatch",
+      "nameCN": "铁锤守卫英雄传",
+      "date": "2018-03-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 428000,
+      "name": "Hammerwatch",
+      "nameCN": "铁锤守卫",
+      "date": "2013-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 428005,
+      "name": "Hammerwatch II",
+      "nameCN": "铁锤守卫2",
+      "date": "2023-08-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 285635,
+      "dst": 428000
+    },
+    {
+      "relate": "续集",
+      "src": 428000,
+      "dst": 428005
+    },
+    {
+      "relate": "前传",
+      "src": 428005,
+      "dst": 428000
+    }
+  ]
+}

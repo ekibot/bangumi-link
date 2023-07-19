@@ -18,17 +18,35 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 441619,
+      "name": "王様ランキング 完全新作劇場版",
+      "nameCN": "国王排名 完全新作剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
     {
-      "relate": "番外篇",
+      "relate": "衍生",
       "src": 296109,
       "dst": 394997
     },
     {
+      "relate": "衍生",
+      "src": 296109,
+      "dst": 441619
+    },
+    {
       "relate": "主线故事",
       "src": 394997,
+      "dst": 296109
+    },
+    {
+      "relate": "主线故事",
+      "src": 441619,
       "dst": 296109
     }
   ]

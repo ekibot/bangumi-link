@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 443535,
+      "name": "Scooby-Doo, Where Are You?",
+      "nameCN": "史酷比救救我",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 80724
     },
     {
+      "relate": "主线故事",
+      "src": 80723,
+      "dst": 443535
+    },
+    {
       "relate": "前传",
       "src": 80724,
+      "dst": 80723
+    },
+    {
+      "relate": "衍生",
+      "src": 443535,
       "dst": 80723
     }
   ]

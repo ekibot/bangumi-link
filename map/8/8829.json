@@ -16,6 +16,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 425811,
+      "name": "P.As.",
+      "nameCN": "",
+      "date": "2021-10-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -25,8 +34,18 @@
       "dst": 56702
     },
     {
+      "relate": "续集",
+      "src": 8829,
+      "dst": 425811
+    },
+    {
       "relate": "主线故事",
       "src": 56702,
+      "dst": 8829
+    },
+    {
+      "relate": "前传",
+      "src": 425811,
       "dst": 8829
     }
   ]

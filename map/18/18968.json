@@ -182,6 +182,15 @@
       "platform": "WEB"
     },
     {
+      "id": 382277,
+      "name": "Ahsoka",
+      "nameCN": "阿索卡",
+      "date": "2023-08-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 60412,
       "name": "Star Wars: Episode VI - Return of the Jedi",
       "nameCN": "星球大战6：绝地归来",
@@ -273,8 +282,8 @@
     },
     {
       "id": 255714,
-      "name": "Star Wars：Resistance Season 1",
-      "nameCN": "星球大战：抵抗组织第一季",
+      "name": "Star Wars: Resistance Season 1",
+      "nameCN": "星球大战：抵抗组织 第一季",
       "date": "2018-10-07",
       "type": 2,
       "nsfw": false,
@@ -339,6 +348,15 @@
       "name": "Star Wars Rebels (Season 4)",
       "nameCN": "星球大战：义军崛起 第四季",
       "date": "2017-10-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 432478,
+      "name": "Star Wars: Resistance Season 2",
+      "nameCN": "星球大战：抵抗组织 第二季",
+      "date": "2019-10-06",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -425,14 +443,6 @@
       "platform": "欧美剧"
     },
     {
-      "id": 382277,
-      "name": "Ahsoka",
-      "nameCN": "阿索卡",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
       "id": 385452,
       "name": "The Mandalorian Season 4",
       "nameCN": "曼达洛人 第四季",
@@ -451,8 +461,9 @@
     },
     {
       "id": 385455,
-      "name": "Star Wars: Visions Season 2",
+      "name": "Star Wars: Visions Volume 2",
       "nameCN": "星球大战：幻境 第二季",
+      "date": "2023-05-04",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -675,6 +686,11 @@
       "relate": "衍生",
       "src": 60402,
       "dst": 340837
+    },
+    {
+      "relate": "相同世界观",
+      "src": 60402,
+      "dst": 382277
     },
     {
       "relate": "前传",
@@ -977,6 +993,11 @@
       "dst": 207409
     },
     {
+      "relate": "续集",
+      "src": 255714,
+      "dst": 432478
+    },
+    {
       "relate": "主线故事",
       "src": 262921,
       "dst": 60402
@@ -1212,6 +1233,11 @@
       "dst": 276576
     },
     {
+      "relate": "相同世界观",
+      "src": 382277,
+      "dst": 60402
+    },
+    {
       "relate": "衍生",
       "src": 382277,
       "dst": 300831
@@ -1260,6 +1286,11 @@
       "relate": "前传",
       "src": 408813,
       "dst": 395363
+    },
+    {
+      "relate": "前传",
+      "src": 432478,
+      "dst": 255714
     }
   ]
 }

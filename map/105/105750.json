@@ -23,6 +23,7 @@
       "id": 301169,
       "name": "Outlander Season 5",
       "nameCN": "古战场传奇 第五季",
+      "date": "2020-02-16",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -40,6 +41,25 @@
       "id": 234872,
       "name": "Outlander Season 4",
       "nameCN": "古战场传奇 第四季",
+      "date": "2018-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 377333,
+      "name": "Outlander Season 6",
+      "nameCN": "古战场传奇 第六季",
+      "date": "2022-03-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 441646,
+      "name": "Outlander Season 7",
+      "nameCN": "古战场传奇 第七季",
+      "date": "2023-06-16",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -100,6 +120,26 @@
       "relate": "前传",
       "src": 301169,
       "dst": 234872
+    },
+    {
+      "relate": "续集",
+      "src": 301169,
+      "dst": 377333
+    },
+    {
+      "relate": "前传",
+      "src": 377333,
+      "dst": 301169
+    },
+    {
+      "relate": "续集",
+      "src": 377333,
+      "dst": 441646
+    },
+    {
+      "relate": "前传",
+      "src": 441646,
+      "dst": 377333
     }
   ]
 }

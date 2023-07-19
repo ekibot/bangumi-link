@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 302819,
-      "name": "Alfred Hitchcock Presents (Season 1)",
+      "name": "Alfred Hitchcock Presents Season 1 (1955)",
       "nameCN": "希区柯克剧场 第一季",
       "date": "1955-10-02",
       "type": 6,
@@ -12,8 +12,54 @@
     },
     {
       "id": 381338,
-      "name": "Alfred Hitchcock Presents Season 2",
+      "name": "Alfred Hitchcock Presents Season 2 (1956)",
       "nameCN": "希区柯克剧场第二季",
+      "date": "1956-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 433011,
+      "name": "Alfred Hitchcock Presents Season 3 (1957)",
+      "nameCN": "希区柯克剧场 第三季",
+      "date": "1957-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 433012,
+      "name": "Alfred Hitchcock Presents Season 4 (1958)",
+      "nameCN": "希区柯克剧场 第四季",
+      "date": "1958-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 433013,
+      "name": "Alfred Hitchcock Presents Season 5 (1959)",
+      "nameCN": "希区柯克剧场 第五季",
+      "date": "1959-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 433014,
+      "name": "Alfred Hitchcock Presents Season 6 (1960)",
+      "nameCN": "希区柯克剧场 第六季",
+      "date": "1960-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 433015,
+      "name": "Alfred Hitchcock Presents Season 7 (1961)",
+      "nameCN": "希区柯克剧场 第七季",
+      "date": "1961-10-10",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -29,6 +75,56 @@
       "relate": "前传",
       "src": 381338,
       "dst": 302819
+    },
+    {
+      "relate": "续集",
+      "src": 381338,
+      "dst": 433011
+    },
+    {
+      "relate": "前传",
+      "src": 433011,
+      "dst": 381338
+    },
+    {
+      "relate": "续集",
+      "src": 433011,
+      "dst": 433012
+    },
+    {
+      "relate": "前传",
+      "src": 433012,
+      "dst": 433011
+    },
+    {
+      "relate": "续集",
+      "src": 433012,
+      "dst": 433013
+    },
+    {
+      "relate": "前传",
+      "src": 433013,
+      "dst": 433012
+    },
+    {
+      "relate": "续集",
+      "src": 433013,
+      "dst": 433014
+    },
+    {
+      "relate": "前传",
+      "src": 433014,
+      "dst": 433013
+    },
+    {
+      "relate": "续集",
+      "src": 433014,
+      "dst": 433015
+    },
+    {
+      "relate": "前传",
+      "src": 433015,
+      "dst": 433014
     }
   ]
 }

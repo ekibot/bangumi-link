@@ -1,0 +1,52 @@
+{
+  "id": 341163,
+  "node": [
+    {
+      "id": 341163,
+      "name": "ブルーロック",
+      "nameCN": "蓝色监狱",
+      "date": "2022-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 426123,
+      "name": "ブルーロック 第2期",
+      "nameCN": "蓝色监狱 第2期",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 426124,
+      "name": "劇場版ブルーロック -EPISODE 凪-",
+      "nameCN": "剧场版蓝色监狱 -EPISODE 凪-",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 341163,
+      "dst": 426123
+    },
+    {
+      "relate": "番外篇",
+      "src": 341163,
+      "dst": 426124
+    },
+    {
+      "relate": "前传",
+      "src": 426123,
+      "dst": 341163
+    },
+    {
+      "relate": "主线故事",
+      "src": 426124,
+      "dst": 341163
+    }
+  ]
+}

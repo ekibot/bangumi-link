@@ -16,6 +16,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 436076,
+      "name": "BOYS LOVE オメガバース",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -25,8 +33,18 @@
       "dst": 84899
     },
     {
+      "relate": "续集",
+      "src": 84898,
+      "dst": 436076
+    },
+    {
       "relate": "前传",
       "src": 84899,
+      "dst": 84898
+    },
+    {
+      "relate": "前传",
+      "src": 436076,
       "dst": 84898
     }
   ]

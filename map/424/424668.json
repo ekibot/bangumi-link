@@ -18,18 +18,75 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 427232,
+      "name": "含苞待放的元帥閣下",
+      "nameCN": "含苞待放的元帅阁下",
+      "date": "2013-07-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 427236,
+      "name": "重返侏儸紀",
+      "nameCN": "重返侏罗纪",
+      "date": "2010-07-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 427234,
+      "name": "移民侏儸紀",
+      "nameCN": "移民侏罗纪",
+      "date": "2009-04-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
     {
-      "relate": "相同世界观",
+      "relate": "续集",
       "src": 424668,
       "dst": 424669
     },
     {
-      "relate": "相同世界观",
+      "relate": "前传",
+      "src": 424668,
+      "dst": 427232
+    },
+    {
+      "relate": "前传",
       "src": 424669,
       "dst": 424668
+    },
+    {
+      "relate": "续集",
+      "src": 427232,
+      "dst": 424668
+    },
+    {
+      "relate": "前传",
+      "src": 427232,
+      "dst": 427236
+    },
+    {
+      "relate": "续集",
+      "src": 427234,
+      "dst": 427236
+    },
+    {
+      "relate": "续集",
+      "src": 427236,
+      "dst": 427232
+    },
+    {
+      "relate": "前传",
+      "src": 427236,
+      "dst": 427234
     }
   ]
 }

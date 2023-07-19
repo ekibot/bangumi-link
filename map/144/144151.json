@@ -18,6 +18,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 421029,
+      "name": "Last Stage -ありふれたホシの終末期-",
+      "nameCN": "Last Stage-某星球的终焉-",
+      "date": "2016-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -27,9 +36,29 @@
       "dst": 144152
     },
     {
+      "relate": "续集",
+      "src": 144151,
+      "dst": 421029
+    },
+    {
       "relate": "前传",
       "src": 144152,
       "dst": 144151
+    },
+    {
+      "relate": "续集",
+      "src": 144152,
+      "dst": 421029
+    },
+    {
+      "relate": "前传",
+      "src": 421029,
+      "dst": 144151
+    },
+    {
+      "relate": "前传",
+      "src": 421029,
+      "dst": 144152
     }
   ]
 }

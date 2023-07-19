@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 216799,
-      "name": "the venture bros Season 1",
+      "name": "The Venture Bros. Season 1",
       "nameCN": "冒险兄弟 第一季",
       "date": "2003-02-16",
       "type": 2,
@@ -12,20 +12,66 @@
     },
     {
       "id": 219468,
-      "name": "the venture bros Season 2",
+      "name": "The Venture Bros. Season 2",
       "nameCN": "冒险兄弟 第二季",
+      "date": "2006-06-25",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
     },
     {
       "id": 226559,
-      "name": "The Venture Bros Season 3",
+      "name": "The Venture Bros. Season 3",
       "nameCN": "冒险兄弟 第三季",
       "date": "2008-06-01",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 440505,
+      "name": "The Venture Bros. Season 4",
+      "nameCN": "冒险兄弟 第四季",
+      "date": "2009-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 440506,
+      "name": "The Venture Bros. Season 5",
+      "nameCN": "冒险兄弟 第五季",
+      "date": "2013-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 440507,
+      "name": "The Venture Bros. Season 6",
+      "nameCN": "冒险兄弟 第六季",
+      "date": "2015-02-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 440508,
+      "name": "The Venture Bros. Season 7",
+      "nameCN": "冒险兄弟 第七季",
+      "date": "2018-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 440511,
+      "name": "The Venture Bros.: Radiant is the Blood of the Baboon Heart",
+      "nameCN": "",
+      "date": "2023-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -48,6 +94,56 @@
       "relate": "前传",
       "src": 226559,
       "dst": 219468
+    },
+    {
+      "relate": "续集",
+      "src": 226559,
+      "dst": 440505
+    },
+    {
+      "relate": "前传",
+      "src": 440505,
+      "dst": 226559
+    },
+    {
+      "relate": "续集",
+      "src": 440505,
+      "dst": 440506
+    },
+    {
+      "relate": "前传",
+      "src": 440506,
+      "dst": 440505
+    },
+    {
+      "relate": "续集",
+      "src": 440506,
+      "dst": 440507
+    },
+    {
+      "relate": "前传",
+      "src": 440507,
+      "dst": 440506
+    },
+    {
+      "relate": "续集",
+      "src": 440507,
+      "dst": 440508
+    },
+    {
+      "relate": "前传",
+      "src": 440508,
+      "dst": 440507
+    },
+    {
+      "relate": "衍生",
+      "src": 440508,
+      "dst": 440511
+    },
+    {
+      "relate": "主线故事",
+      "src": 440511,
+      "dst": 440508
     }
   ]
 }

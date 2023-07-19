@@ -72,6 +72,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 429533,
+      "name": "Harry Potter",
+      "nameCN": "哈利波特",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -144,6 +152,16 @@
       "relate": "续集",
       "src": 60122,
       "dst": 60119
+    },
+    {
+      "relate": "不同演绎",
+      "src": 60122,
+      "dst": 429533
+    },
+    {
+      "relate": "不同演绎",
+      "src": 429533,
+      "dst": 60122
     }
   ]
 }

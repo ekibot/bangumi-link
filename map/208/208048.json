@@ -17,6 +17,38 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 442359,
+      "name": "逗逗迪迪之酷比小侦探",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442360,
+      "name": "逗逗迪迪之汉字小侦探",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442361,
+      "name": "逗逗迪迪爱唱歌",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442362,
+      "name": "逗逗迪迪之美梦精灵",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -29,6 +61,46 @@
       "relate": "番外篇",
       "src": 208093,
       "dst": 208048
+    },
+    {
+      "relate": "续集",
+      "src": 208093,
+      "dst": 442359
+    },
+    {
+      "relate": "前传",
+      "src": 442359,
+      "dst": 208093
+    },
+    {
+      "relate": "续集",
+      "src": 442359,
+      "dst": 442360
+    },
+    {
+      "relate": "前传",
+      "src": 442360,
+      "dst": 442359
+    },
+    {
+      "relate": "续集",
+      "src": 442360,
+      "dst": 442361
+    },
+    {
+      "relate": "前传",
+      "src": 442361,
+      "dst": 442360
+    },
+    {
+      "relate": "续集",
+      "src": 442361,
+      "dst": 442362
+    },
+    {
+      "relate": "前传",
+      "src": 442362,
+      "dst": 442361
     }
   ]
 }

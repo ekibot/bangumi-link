@@ -74,10 +74,28 @@
       "platform": "欧美剧"
     },
     {
+      "id": 415260,
+      "name": "Father Brown Season 10",
+      "nameCN": "布朗神父 第十季",
+      "date": "2023-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 388036,
       "name": "Father Brown Season 1",
       "nameCN": "布朗神父 第一季",
       "date": "2013-01-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 392281,
+      "name": "Sister Boniface Mysteries Season1",
+      "nameCN": "博尼法斯修女探案集 第一季",
+      "date": "2022-02-08",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -151,6 +169,11 @@
     },
     {
       "relate": "续集",
+      "src": 388034,
+      "dst": 415260
+    },
+    {
+      "relate": "续集",
       "src": 388035,
       "dst": 134077
     },
@@ -163,6 +186,21 @@
       "relate": "续集",
       "src": 388036,
       "dst": 388035
+    },
+    {
+      "relate": "衍生",
+      "src": 388036,
+      "dst": 392281
+    },
+    {
+      "relate": "衍生",
+      "src": 392281,
+      "dst": 388036
+    },
+    {
+      "relate": "前传",
+      "src": 415260,
+      "dst": 388034
     }
   ]
 }

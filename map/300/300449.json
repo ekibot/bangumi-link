@@ -1,0 +1,54 @@
+{
+  "id": 300449,
+  "node": [
+    {
+      "id": 300449,
+      "name": "Moominvalley",
+      "nameCN": "姆明山谷",
+      "date": "2019-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 439376,
+      "name": "Moominvalley Season 2",
+      "nameCN": "姆明山谷 第二季",
+      "date": "2019-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 439377,
+      "name": "Moominvalley Season 3",
+      "nameCN": "姆明山谷 第三季",
+      "date": "2022-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 300449,
+      "dst": 439376
+    },
+    {
+      "relate": "前传",
+      "src": 439376,
+      "dst": 300449
+    },
+    {
+      "relate": "续集",
+      "src": 439376,
+      "dst": 439377
+    },
+    {
+      "relate": "前传",
+      "src": 439377,
+      "dst": 439376
+    }
+  ]
+}

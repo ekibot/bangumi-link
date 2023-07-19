@@ -13,8 +13,17 @@
     {
       "id": 164980,
       "name": "ハートカクテル",
-      "nameCN": "",
+      "nameCN": "心情鸡尾酒",
       "date": "1986-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 425590,
+      "name": "ハートカクテル カラフル",
+      "nameCN": "心情鸡尾酒 Colorful",
+      "date": "2023-03-28",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -30,6 +39,16 @@
       "relate": "续集",
       "src": 164980,
       "dst": 99957
+    },
+    {
+      "relate": "续集",
+      "src": 164980,
+      "dst": 425590
+    },
+    {
+      "relate": "前传",
+      "src": 425590,
+      "dst": 164980
     }
   ]
 }

@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 441146,
+      "name": "Human Resources Season 1",
+      "nameCN": "人力资源 第一季",
+      "date": "2022-03-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 336232,
       "name": "Big Mouth Season 3",
       "nameCN": "大嘴巴 第三季",
@@ -54,6 +63,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 441148,
+      "name": "Human Resources Season 2",
+      "nameCN": "人力资源 第二季",
+      "date": "2023-06-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -61,6 +79,11 @@
       "relate": "续集",
       "src": 336230,
       "dst": 336231
+    },
+    {
+      "relate": "衍生",
+      "src": 336230,
+      "dst": 441146
     },
     {
       "relate": "前传",
@@ -106,6 +129,21 @@
       "relate": "前传",
       "src": 336235,
       "dst": 336234
+    },
+    {
+      "relate": "主线故事",
+      "src": 441146,
+      "dst": 336230
+    },
+    {
+      "relate": "续集",
+      "src": 441146,
+      "dst": 441148
+    },
+    {
+      "relate": "前传",
+      "src": 441148,
+      "dst": 441146
     }
   ]
 }

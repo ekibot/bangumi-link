@@ -112,7 +112,7 @@
     {
       "id": 202661,
       "name": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
-      "nameCN": "火影忍者 博人传之火影次世代",
+      "nameCN": "博人传-火影次世代-",
       "date": "2017-04-05",
       "type": 2,
       "nsfw": false,
@@ -203,7 +203,7 @@
       "id": 46070,
       "name": "ロック・リーの青春フルパワー忍伝",
       "nameCN": "李洛克的全速率青春忍者传",
-      "date": "2011-12-03",
+      "date": "2012-02-03",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -301,7 +301,7 @@
     {
       "id": 173370,
       "name": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS-",
-      "nameCN": "博人传之火影忍者次世代",
+      "nameCN": "博人传-火影次世代-",
       "date": "2016-08-04",
       "type": 1,
       "nsfw": false,
@@ -320,7 +320,7 @@
       "id": 212572,
       "name": "うちはサスケの写輪眼伝",
       "nameCN": "宇智波佐助写轮眼传",
-      "date": "2014-10-03",
+      "date": "2015-08-04",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -364,7 +364,7 @@
     {
       "id": 325458,
       "name": "NARUTO -ナルト- ナルト新伝 親子の日",
-      "nameCN": "",
+      "nameCN": "火影忍者 鸣人新传 亲子之日",
       "date": "2018-05-02",
       "type": 1,
       "nsfw": false,
@@ -400,7 +400,7 @@
     {
       "id": 325462,
       "name": "NARUTO -ナルト- サスケ烈伝 うちはの末裔と天球の星屑",
-      "nameCN": "",
+      "nameCN": "火影忍者 佐助烈传 宇智波的后裔与天球的星尘",
       "date": "2019-08-02",
       "type": 1,
       "nsfw": false,
@@ -445,18 +445,10 @@
     {
       "id": 423621,
       "name": "BORUTO-ボルト- NARUTO NEXT GENERATIONS 第ニ部",
-      "nameCN": "火影忍者 博人传之火影次世代 第二部",
+      "nameCN": "博人传-火影次世代- 第二部",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
-    },
-    {
-      "id": 213055,
-      "name": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS- NOVEL",
-      "nameCN": "火影忍者 博人传之火影次世代 小说",
-      "type": 1,
-      "nsfw": false,
-      "platform": "小说"
     },
     {
       "id": 5461,
@@ -544,6 +536,14 @@
       "name": "NARUTO -ナルト- 疾風伝 ナルティメットストーム4 ROAD TO BORUTO",
       "nameCN": "火影忍者 疾风传 终极风暴4 慕留人传",
       "date": "2017-02-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 430007,
+      "name": "NARUTO X BORUTO ナルティメットストームコネクションズ",
+      "nameCN": "NARUTO X BORUTO 火影忍者 终极风暴羁绊",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -1176,11 +1176,6 @@
       "dst": 46070
     },
     {
-      "relate": "不同世界观",
-      "src": 213055,
-      "dst": 221136
-    },
-    {
       "relate": "前传",
       "src": 5461,
       "dst": 9735
@@ -1261,14 +1256,14 @@
       "dst": 202661
     },
     {
-      "relate": "不同世界观",
-      "src": 221136,
-      "dst": 173370
+      "relate": "续集",
+      "src": 218369,
+      "dst": 430007
     },
     {
       "relate": "不同世界观",
       "src": 221136,
-      "dst": 213055
+      "dst": 173370
     },
     {
       "relate": "主线故事",
@@ -1414,6 +1409,11 @@
       "relate": "前传",
       "src": 423621,
       "dst": 202661
+    },
+    {
+      "relate": "前传",
+      "src": 430007,
+      "dst": 218369
     }
   ]
 }

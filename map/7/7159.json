@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 426100,
+      "name": "TRIGUN STAMPEDE シリーズ完結編",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -39,6 +47,11 @@
       "relate": "不同演绎",
       "src": 7159,
       "dst": 388170
+    },
+    {
+      "relate": "不同演绎",
+      "src": 7159,
+      "dst": 426100
     },
     {
       "relate": "主线故事",
@@ -56,9 +69,19 @@
       "dst": 7159
     },
     {
-      "relate": "不同演绎",
+      "relate": "续集",
       "src": 388170,
-      "dst": 10782
+      "dst": 426100
+    },
+    {
+      "relate": "不同演绎",
+      "src": 426100,
+      "dst": 7159
+    },
+    {
+      "relate": "前传",
+      "src": 426100,
+      "dst": 388170
     }
   ]
 }

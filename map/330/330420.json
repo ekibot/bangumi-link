@@ -27,6 +27,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 435914,
+      "name": "俺の空 Ver.2001",
+      "nameCN": "",
+      "date": "2001-03-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 435915,
+      "name": "俺の空 '03",
+      "nameCN": "",
+      "date": "2003-06-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 405787,
       "dst": 330420
+    },
+    {
+      "relate": "续集",
+      "src": 405787,
+      "dst": 435914
+    },
+    {
+      "relate": "前传",
+      "src": 435914,
+      "dst": 405787
+    },
+    {
+      "relate": "续集",
+      "src": 435914,
+      "dst": 435915
+    },
+    {
+      "relate": "前传",
+      "src": 435915,
+      "dst": 435914
     }
   ]
 }

@@ -11,10 +11,28 @@
       "platform": "漫画"
     },
     {
+      "id": 442274,
+      "name": "ネコ×ネコ beginning",
+      "nameCN": "",
+      "date": "2020-01-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 410859,
       "name": "ネコ×ネコ wedding",
       "nameCN": "",
       "date": "2022-10-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 442275,
+      "name": "ネコ×ネコ hopeful",
+      "nameCN": "",
+      "date": "2021-01-16",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -24,12 +42,32 @@
     {
       "relate": "续集",
       "src": 296661,
-      "dst": 410859
+      "dst": 442274
+    },
+    {
+      "relate": "前传",
+      "src": 442274,
+      "dst": 296661
     },
     {
       "relate": "前传",
       "src": 410859,
-      "dst": 296661
+      "dst": 442275
+    },
+    {
+      "relate": "续集",
+      "src": 442274,
+      "dst": 442275
+    },
+    {
+      "relate": "续集",
+      "src": 442275,
+      "dst": 410859
+    },
+    {
+      "relate": "前传",
+      "src": 442275,
+      "dst": 442274
     }
   ]
 }

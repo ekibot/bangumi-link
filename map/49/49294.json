@@ -83,6 +83,15 @@
       "platform": "TV"
     },
     {
+      "id": 389772,
+      "name": "幻日のヨハネ -SUNSHINE in the MIRROR-",
+      "nameCN": "幻日夜羽 -镜中晖光-",
+      "date": "2023-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 234295,
       "name": "ラブライブ!サンシャイン!! The School Idol Movie Over the Rainbow",
       "nameCN": "LoveLive! Sunshine!! 学园偶像 电影 彩虹彼端",
@@ -128,6 +137,14 @@
       "platform": "TV"
     },
     {
+      "id": 442614,
+      "name": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 劇場上映シリーズ 第1部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 354146,
       "name": "ラブライブ！スーパースター!! 2期",
       "nameCN": "Love Live! Superstar!! 第二季",
@@ -138,8 +155,9 @@
     },
     {
       "id": 408883,
-      "name": "虹ヶ咲学園スクールアイドル同好会 OVA",
-      "nameCN": "LoveLive！虹咲学园学园偶像同好会 OVA",
+      "name": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY",
+      "nameCN": "LoveLive！虹咲学园学园偶像同好会 NEXT SKY",
+      "date": "2023-06-23",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -151,6 +169,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 442615,
+      "name": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 劇場上映シリーズ 第2部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 442616,
+      "name": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 劇場上映シリーズ 第3部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -227,6 +261,11 @@
     {
       "relate": "不同世界观",
       "src": 165553,
+      "dst": 389772
+    },
+    {
+      "relate": "不同世界观",
+      "src": 165553,
       "dst": 410904
     },
     {
@@ -285,6 +324,11 @@
       "dst": 410904
     },
     {
+      "relate": "衍生",
+      "src": 296659,
+      "dst": 442614
+    },
+    {
       "relate": "相同世界观",
       "src": 306742,
       "dst": 49294
@@ -320,6 +364,11 @@
       "dst": 408883
     },
     {
+      "relate": "衍生",
+      "src": 335579,
+      "dst": 442614
+    },
+    {
       "relate": "前传",
       "src": 354146,
       "dst": 306742
@@ -328,6 +377,11 @@
       "relate": "续集",
       "src": 354146,
       "dst": 404480
+    },
+    {
+      "relate": "不同世界观",
+      "src": 389772,
+      "dst": 165553
     },
     {
       "relate": "主线故事",
@@ -363,6 +417,36 @@
       "relate": "不同世界观",
       "src": 410904,
       "dst": 306742
+    },
+    {
+      "relate": "主线故事",
+      "src": 442614,
+      "dst": 296659
+    },
+    {
+      "relate": "主线故事",
+      "src": 442614,
+      "dst": 335579
+    },
+    {
+      "relate": "续集",
+      "src": 442614,
+      "dst": 442615
+    },
+    {
+      "relate": "前传",
+      "src": 442615,
+      "dst": 442614
+    },
+    {
+      "relate": "续集",
+      "src": 442615,
+      "dst": 442616
+    },
+    {
+      "relate": "前传",
+      "src": 442616,
+      "dst": 442615
     }
   ]
 }

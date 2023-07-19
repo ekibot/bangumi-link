@@ -1,0 +1,51 @@
+{
+  "id": 86332,
+  "node": [
+    {
+      "id": 86332,
+      "name": "Super Mario Bros. Crossover 1",
+      "nameCN": "超级混搭马里奥1",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 86334,
+      "name": "Super Mario Bros. Crossover 2",
+      "nameCN": "超级混搭马里奥2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 86333,
+      "name": "Super Mario Bros. Crossover 3",
+      "nameCN": "超级混搭马里奥3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 86332,
+      "dst": 86334
+    },
+    {
+      "relate": "前传",
+      "src": 86333,
+      "dst": 86334
+    },
+    {
+      "relate": "前传",
+      "src": 86334,
+      "dst": 86332
+    },
+    {
+      "relate": "续集",
+      "src": 86334,
+      "dst": 86333
+    }
+  ]
+}

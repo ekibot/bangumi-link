@@ -45,6 +45,33 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 444012,
+      "name": "ポプテピピック SEASON FIVE",
+      "nameCN": "",
+      "date": "2021-03-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 444013,
+      "name": "ポプテピピック SEASON SIX",
+      "nameCN": "",
+      "date": "2021-12-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 444014,
+      "name": "ポプテピピック SEASON SEVEN",
+      "nameCN": "",
+      "date": "2023-07-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -84,9 +111,39 @@
       "dst": 292778
     },
     {
+      "relate": "续集",
+      "src": 289987,
+      "dst": 444012
+    },
+    {
       "relate": "前传",
       "src": 292778,
       "dst": 289987
+    },
+    {
+      "relate": "前传",
+      "src": 444012,
+      "dst": 289987
+    },
+    {
+      "relate": "续集",
+      "src": 444012,
+      "dst": 444013
+    },
+    {
+      "relate": "前传",
+      "src": 444013,
+      "dst": 444012
+    },
+    {
+      "relate": "续集",
+      "src": 444013,
+      "dst": 444014
+    },
+    {
+      "relate": "前传",
+      "src": 444014,
+      "dst": 444013
     }
   ]
 }

@@ -112,6 +112,7 @@
       "id": 139952,
       "name": "Tom and Jerry: Robin Hood and His Merry Mouse",
       "nameCN": "猫和老鼠：罗宾汉和他的机灵鼠",
+      "date": "2012-09-24",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -879,6 +880,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 349227,
+      "name": "Tom and Jerry in New York",
+      "nameCN": "猫和老鼠在纽约",
+      "date": "2021-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 441862,
+      "name": "Tom and Jerry in New York Season 2",
+      "nameCN": "猫和老鼠在纽约 第二季",
+      "date": "2021-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -2428,6 +2447,11 @@
       "dst": 101799
     },
     {
+      "relate": "前传",
+      "src": 169850,
+      "dst": 349227
+    },
+    {
       "relate": "续集",
       "src": 278571,
       "dst": 278572
@@ -2523,6 +2547,11 @@
       "dst": 280941
     },
     {
+      "relate": "续集",
+      "src": 349227,
+      "dst": 441862
+    },
+    {
       "relate": "主线故事",
       "src": 386923,
       "dst": 25961
@@ -2541,6 +2570,11 @@
       "relate": "前传",
       "src": 386924,
       "dst": 386923
+    },
+    {
+      "relate": "前传",
+      "src": 441862,
+      "dst": 349227
     }
   ]
 }

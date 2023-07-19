@@ -314,6 +314,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 430656,
+      "name": "The Simpsons Season 34",
+      "nameCN": "辛普森一家 第三十四季",
+      "date": "2022-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 430660,
+      "name": "The Simpsons Season 35",
+      "nameCN": "辛普森一家 第三十五季",
+      "date": "2023-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -656,6 +674,26 @@
       "relate": "前传",
       "src": 379840,
       "dst": 379838
+    },
+    {
+      "relate": "续集",
+      "src": 379840,
+      "dst": 430656
+    },
+    {
+      "relate": "前传",
+      "src": 430656,
+      "dst": 379840
+    },
+    {
+      "relate": "续集",
+      "src": 430656,
+      "dst": 430660
+    },
+    {
+      "relate": "前传",
+      "src": 430660,
+      "dst": 430656
     }
   ]
 }

@@ -18,6 +18,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 425490,
+      "name": "政宗くんのリベンジ engagement",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 210439
     },
     {
+      "relate": "续集",
+      "src": 57143,
+      "dst": 425490
+    },
+    {
       "relate": "主线故事",
       "src": 210439,
+      "dst": 57143
+    },
+    {
+      "relate": "前传",
+      "src": 425490,
       "dst": 57143
     }
   ]

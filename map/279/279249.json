@@ -27,6 +27,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 445576,
+      "name": "What We Do in the Shadows Season 4",
+      "nameCN": "吸血鬼生活 第四季",
+      "date": "2022-07-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 445577,
+      "name": "What We Do in the Shadows Season 5",
+      "nameCN": "吸血鬼生活 第五季",
+      "date": "2023-07-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 385500,
       "dst": 385499
+    },
+    {
+      "relate": "续集",
+      "src": 385500,
+      "dst": 445576
+    },
+    {
+      "relate": "前传",
+      "src": 445576,
+      "dst": 385500
+    },
+    {
+      "relate": "续集",
+      "src": 445576,
+      "dst": 445577
+    },
+    {
+      "relate": "前传",
+      "src": 445577,
+      "dst": 445576
     }
   ]
 }

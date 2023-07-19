@@ -4,7 +4,7 @@
     {
       "id": 37240,
       "name": "マシンロボ クロノスの大逆襲",
-      "nameCN": "天威勇士",
+      "nameCN": "天威勇士 克罗诺斯的大逆袭",
       "date": "1986-07-03",
       "type": 2,
       "nsfw": false,
@@ -13,7 +13,7 @@
     {
       "id": 37241,
       "name": "マシンロボ ぶっちぎりバトルハッカーズ",
-      "nameCN": "新天威勇士",
+      "nameCN": "天威勇士 战斗黑客",
       "date": "1987-06-03",
       "type": 2,
       "nsfw": false,
@@ -22,11 +22,29 @@
     {
       "id": 37243,
       "name": "レイナ剣狼伝説",
-      "nameCN": "Leina 剑狼传说",
+      "nameCN": "蕾娜剑狼传说",
       "date": "1988-02-05",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 387955,
+      "name": "Challenge of the GoBots",
+      "nameCN": "百变雄师",
+      "date": "1984-09-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 387970,
+      "name": "GoBots: Battle of the Rock Lords",
+      "nameCN": "百变雄师剧场版",
+      "date": "1986-03-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -36,9 +54,14 @@
       "dst": 37241
     },
     {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 37240,
       "dst": 37243
+    },
+    {
+      "relate": "不同世界观",
+      "src": 37240,
+      "dst": 387955
     },
     {
       "relate": "前传",
@@ -49,6 +72,21 @@
       "relate": "主线故事",
       "src": 37243,
       "dst": 37240
+    },
+    {
+      "relate": "不同世界观",
+      "src": 387955,
+      "dst": 37240
+    },
+    {
+      "relate": "番外篇",
+      "src": 387955,
+      "dst": 387970
+    },
+    {
+      "relate": "主线故事",
+      "src": 387970,
+      "dst": 387955
     }
   ]
 }

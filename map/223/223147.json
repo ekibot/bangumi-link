@@ -44,6 +44,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 445681,
+      "name": "凡人修仙传 星海飞驰篇 序章",
+      "nameCN": "",
+      "date": "2023-07-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -83,9 +92,24 @@
       "dst": 406306
     },
     {
+      "relate": "续集",
+      "src": 348240,
+      "dst": 445681
+    },
+    {
       "relate": "前传",
       "src": 406306,
+      "dst": 445681
+    },
+    {
+      "relate": "前传",
+      "src": 445681,
       "dst": 348240
+    },
+    {
+      "relate": "续集",
+      "src": 445681,
+      "dst": 406306
     }
   ]
 }

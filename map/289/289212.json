@@ -27,6 +27,23 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 425759,
+      "name": "おいしい給食 season3",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 425761,
+      "name": "劇場版 おいしい給食 卒業",
+      "nameCN": "",
+      "date": "2022-05-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -46,9 +63,39 @@
       "dst": 360366
     },
     {
+      "relate": "续集",
+      "src": 360365,
+      "dst": 425759
+    },
+    {
+      "relate": "续集",
+      "src": 360365,
+      "dst": 425761
+    },
+    {
       "relate": "前传",
       "src": 360366,
       "dst": 360365
+    },
+    {
+      "relate": "前传",
+      "src": 425759,
+      "dst": 360365
+    },
+    {
+      "relate": "前传",
+      "src": 425759,
+      "dst": 425761
+    },
+    {
+      "relate": "前传",
+      "src": 425761,
+      "dst": 360365
+    },
+    {
+      "relate": "续集",
+      "src": 425761,
+      "dst": 425759
     }
   ]
 }

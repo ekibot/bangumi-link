@@ -1,0 +1,70 @@
+{
+  "id": 44601,
+  "node": [
+    {
+      "id": 44601,
+      "name": "マップス 外伝1",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44616,
+      "name": "マップス",
+      "nameCN": "星图传说",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 44602,
+      "name": "マップス 外伝2",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 404420,
+      "name": "マップス外伝",
+      "nameCN": "星际终结者外传",
+      "date": "1996-09-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 44601,
+      "dst": 44616
+    },
+    {
+      "relate": "主线故事",
+      "src": 44602,
+      "dst": 44616
+    },
+    {
+      "relate": "番外篇",
+      "src": 44616,
+      "dst": 44601
+    },
+    {
+      "relate": "番外篇",
+      "src": 44616,
+      "dst": 44602
+    },
+    {
+      "relate": "番外篇",
+      "src": 44616,
+      "dst": 404420
+    },
+    {
+      "relate": "主线故事",
+      "src": 404420,
+      "dst": 44616
+    }
+  ]
+}

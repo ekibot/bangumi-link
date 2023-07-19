@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 230073,
-      "name": "喵咪斗恶龙",
+      "name": "Cat Quest",
       "nameCN": "喵咪斗恶龙",
       "date": "2017-08-08",
       "type": 4,
@@ -15,6 +15,14 @@
       "name": "Cat Quest II",
       "nameCN": "喵咪斗恶龙  II",
       "date": "2019-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 437542,
+      "name": "Cat Quest: Pirates of the Purribean",
+      "nameCN": "猫咪斗恶龙：喵勒比海盗",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 309371,
       "dst": 230073
+    },
+    {
+      "relate": "续集",
+      "src": 309371,
+      "dst": 437542
+    },
+    {
+      "relate": "前传",
+      "src": 437542,
+      "dst": 309371
     }
   ]
 }

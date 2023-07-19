@@ -74,16 +74,18 @@
     },
     {
       "id": 350512,
-      "name": "The Walking Dead SPIN-OFF",
-      "nameCN": "行尸走肉衍生剧",
+      "name": "The Walking Dead: Daryl Dixon",
+      "nameCN": "行尸走肉：达里尔·迪克森",
+      "date": "2023-09-10",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
     },
     {
       "id": 373540,
-      "name": "Dead City",
-      "nameCN": "死城",
+      "name": "The Walking Dead: Dead City",
+      "nameCN": "行尸走肉：死亡之城",
+      "date": "2023-06-18",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -253,6 +255,23 @@
       "name": "Fear the Walking Dead Season 7",
       "nameCN": "行尸之惧 第七季",
       "date": "2021-10-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 446014,
+      "name": "Fear the Walking Dead Season 8",
+      "nameCN": "行尸之惧 第八季",
+      "date": "2023-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 445399,
+      "name": "The Walking Dead: Daryl Dixon Season 2",
+      "nameCN": "行尸走肉：达里尔·迪克森 第二季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -665,6 +684,11 @@
       "dst": 350512
     },
     {
+      "relate": "相同世界观",
+      "src": 288323,
+      "dst": 373540
+    },
+    {
       "relate": "续集",
       "src": 288323,
       "dst": 373544
@@ -745,6 +769,11 @@
       "dst": 373544
     },
     {
+      "relate": "续集",
+      "src": 324749,
+      "dst": 446014
+    },
+    {
       "relate": "衍生",
       "src": 350512,
       "dst": 9644
@@ -775,6 +804,11 @@
       "dst": 379758
     },
     {
+      "relate": "续集",
+      "src": 350512,
+      "dst": 445399
+    },
+    {
       "relate": "衍生",
       "src": 373540,
       "dst": 9644
@@ -792,7 +826,7 @@
     {
       "relate": "相同世界观",
       "src": 373540,
-      "dst": 292786
+      "dst": 288323
     },
     {
       "relate": "相同世界观",
@@ -848,6 +882,16 @@
       "relate": "相同世界观",
       "src": 379758,
       "dst": 373540
+    },
+    {
+      "relate": "前传",
+      "src": 445399,
+      "dst": 350512
+    },
+    {
+      "relate": "前传",
+      "src": 446014,
+      "dst": 324749
     }
   ]
 }

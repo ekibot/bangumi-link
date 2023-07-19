@@ -1,0 +1,53 @@
+{
+  "id": 130635,
+  "node": [
+    {
+      "id": 130635,
+      "name": "Fight Club 2",
+      "nameCN": "搏击俱乐部2",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 445800,
+      "name": "Fight Club",
+      "nameCN": "搏击俱乐部",
+      "date": "1996-08-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 445835,
+      "name": "Fight Club 3",
+      "nameCN": "搏击俱乐部 3",
+      "date": "2019-01-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 130635,
+      "dst": 445800
+    },
+    {
+      "relate": "续集",
+      "src": 130635,
+      "dst": 445835
+    },
+    {
+      "relate": "续集",
+      "src": 445800,
+      "dst": 130635
+    },
+    {
+      "relate": "前传",
+      "src": 445835,
+      "dst": 130635
+    }
+  ]
+}

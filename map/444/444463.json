@@ -1,0 +1,54 @@
+{
+  "id": 444463,
+  "node": [
+    {
+      "id": 444463,
+      "name": "The Great North Season 1",
+      "nameCN": "大北方 第一季",
+      "date": "2021-01-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 444464,
+      "name": "The Great North Season 2",
+      "nameCN": "大北方 第二季",
+      "date": "2021-09-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 444465,
+      "name": "The Great North Season 3",
+      "nameCN": "大北方 第三季",
+      "date": "2022-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 444463,
+      "dst": 444464
+    },
+    {
+      "relate": "前传",
+      "src": 444464,
+      "dst": 444463
+    },
+    {
+      "relate": "续集",
+      "src": 444464,
+      "dst": 444465
+    },
+    {
+      "relate": "前传",
+      "src": 444465,
+      "dst": 444464
+    }
+  ]
+}

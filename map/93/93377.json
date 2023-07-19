@@ -46,6 +46,15 @@
       "platform": "TV"
     },
     {
+      "id": 314174,
+      "name": "Rick and Morty: Samurai &amp; Shogun",
+      "nameCN": "瑞克和莫蒂：武士与将军",
+      "date": "2020-03-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 331936,
       "name": "Rick and Morty Season 5",
       "nameCN": "瑞克和莫蒂 第五季",
@@ -71,6 +80,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 441140,
+      "name": "Rick and Morty Season 7",
+      "nameCN": "瑞克和莫蒂 第七季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -110,9 +127,19 @@
       "dst": 146457
     },
     {
+      "relate": "番外篇",
+      "src": 246238,
+      "dst": 314174
+    },
+    {
       "relate": "续集",
       "src": 246238,
       "dst": 331936
+    },
+    {
+      "relate": "主线故事",
+      "src": 314174,
+      "dst": 246238
     },
     {
       "relate": "前传",
@@ -135,6 +162,11 @@
       "dst": 331936
     },
     {
+      "relate": "续集",
+      "src": 358934,
+      "dst": 441140
+    },
+    {
       "relate": "不同演绎",
       "src": 383338,
       "dst": 93377
@@ -143,6 +175,11 @@
       "relate": "主线故事",
       "src": 410900,
       "dst": 331936
+    },
+    {
+      "relate": "前传",
+      "src": 441140,
+      "dst": 358934
     }
   ]
 }

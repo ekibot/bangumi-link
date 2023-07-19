@@ -53,6 +53,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 432044,
+      "name": "あんさんぶるスターズ！！追憶セレクション『クロスロード』",
+      "nameCN": "偶像梦幻祭 追忆Selection『Crossroad』",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -87,6 +95,11 @@
       "dst": 400776
     },
     {
+      "relate": "衍生",
+      "src": 159159,
+      "dst": 432044
+    },
+    {
       "relate": "番外篇",
       "src": 293719,
       "dst": 358909
@@ -100,6 +113,21 @@
       "relate": "主线故事",
       "src": 400776,
       "dst": 159159
+    },
+    {
+      "relate": "续集",
+      "src": 400776,
+      "dst": 432044
+    },
+    {
+      "relate": "主线故事",
+      "src": 432044,
+      "dst": 159159
+    },
+    {
+      "relate": "前传",
+      "src": 432044,
+      "dst": 400776
     }
   ]
 }

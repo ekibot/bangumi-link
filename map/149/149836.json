@@ -5,6 +5,7 @@
       "id": 149836,
       "name": "KEY JACK",
       "nameCN": "天才锁匠",
+      "date": "1999-10-04",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -14,6 +15,24 @@
       "name": "KEY JACK TEENAGE EDITION",
       "nameCN": "Key Jack ~ 天才解锁少年 ~",
       "date": "2011-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 256463,
+      "name": "KEY JACK DEADLOCK",
+      "nameCN": "",
+      "date": "2017-11-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 437389,
+      "name": "KEY JACK KEEP ALIVE",
+      "nameCN": "",
+      "date": "2019-04-16",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -29,6 +48,26 @@
       "relate": "前传",
       "src": 149865,
       "dst": 149836
+    },
+    {
+      "relate": "续集",
+      "src": 149865,
+      "dst": 256463
+    },
+    {
+      "relate": "前传",
+      "src": 256463,
+      "dst": 149865
+    },
+    {
+      "relate": "续集",
+      "src": 256463,
+      "dst": 437389
+    },
+    {
+      "relate": "前传",
+      "src": 437389,
+      "dst": 256463
     }
   ]
 }

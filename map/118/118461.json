@@ -20,6 +20,15 @@
       "platform": "欧美剧"
     },
     {
+      "id": 439103,
+      "name": "The Office Series 1",
+      "nameCN": "办公室笑云 第一季",
+      "date": "2001-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 118463,
       "name": "The Office (Season 3)",
       "nameCN": "办公室 第三季",
@@ -81,6 +90,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 439104,
+      "name": "The Office Series 2",
+      "nameCN": "办公室笑云 第二季",
+      "date": "2002-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 439105,
+      "name": "The Office Christmas Specials",
+      "nameCN": "办公室笑云 圣诞特别篇",
+      "date": "2003-12-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -88,6 +115,11 @@
       "relate": "续集",
       "src": 118461,
       "dst": 118462
+    },
+    {
+      "relate": "不同演绎",
+      "src": 118461,
+      "dst": 439103
     },
     {
       "relate": "前传",
@@ -163,6 +195,31 @@
       "relate": "前传",
       "src": 118470,
       "dst": 118469
+    },
+    {
+      "relate": "不同演绎",
+      "src": 439103,
+      "dst": 118461
+    },
+    {
+      "relate": "续集",
+      "src": 439103,
+      "dst": 439104
+    },
+    {
+      "relate": "前传",
+      "src": 439104,
+      "dst": 439103
+    },
+    {
+      "relate": "续集",
+      "src": 439104,
+      "dst": 439105
+    },
+    {
+      "relate": "前传",
+      "src": 439105,
+      "dst": 439104
     }
   ]
 }

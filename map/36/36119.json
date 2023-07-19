@@ -20,6 +20,14 @@
       "platform": "TV"
     },
     {
+      "id": 379954,
+      "name": "The New Adventures of Pinocchio",
+      "nameCN": "新匹诺曹历险记",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 386090,
       "name": "Pinocchio",
       "nameCN": "匹诺曹",
@@ -29,10 +37,28 @@
       "platform": "欧美剧"
     },
     {
+      "id": 410944,
+      "name": "Guillermo del Toro's Pinocchio",
+      "nameCN": "吉尔莫·德尔·托罗的匹诺曹",
+      "date": "2022-11-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 177596,
       "name": "Pinocchio",
       "nameCN": "木偶奇遇记",
       "date": "2008-12-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 416973,
+      "name": "Guillermo del Toro's Pinocchio: Handcarved Cinema",
+      "nameCN": "吉尔莫·德尔·托罗的匹诺曹：幕后匠人",
+      "date": "2022-12-09",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -47,7 +73,17 @@
     {
       "relate": "不同演绎",
       "src": 36119,
+      "dst": 379954
+    },
+    {
+      "relate": "不同演绎",
+      "src": 36119,
       "dst": 386090
+    },
+    {
+      "relate": "不同演绎",
+      "src": 36119,
+      "dst": 410944
     },
     {
       "relate": "不同演绎",
@@ -61,6 +97,11 @@
     },
     {
       "relate": "不同演绎",
+      "src": 379954,
+      "dst": 36119
+    },
+    {
+      "relate": "不同演绎",
       "src": 386090,
       "dst": 36119
     },
@@ -68,6 +109,21 @@
       "relate": "不同演绎",
       "src": 386090,
       "dst": 177596
+    },
+    {
+      "relate": "不同演绎",
+      "src": 410944,
+      "dst": 36119
+    },
+    {
+      "relate": "衍生",
+      "src": 410944,
+      "dst": 416973
+    },
+    {
+      "relate": "衍生",
+      "src": 416973,
+      "dst": 410944
     }
   ]
 }
