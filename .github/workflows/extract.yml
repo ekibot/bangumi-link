@@ -23,11 +23,9 @@ jobs:
         path: data
     - uses: actions/setup-node@v1
       with:
-        node-version: '16.x'
+        node-version: '18.x'
     - name: Create local changes
       run: |
-        wget https://github.com/bangumi/Archive/releases/download/archive/dump.zip
-        unzip dump.zip -d ./archive
         npm install
         npm install bangumi-data@latest
         node src/extract.js
