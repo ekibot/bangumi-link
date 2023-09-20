@@ -16,6 +16,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 448868,
+      "name": "湘南爆走族 ファースト フラッグ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -25,8 +33,18 @@
       "dst": 179930
     },
     {
+      "relate": "番外篇",
+      "src": 67600,
+      "dst": 448868
+    },
+    {
       "relate": "主线故事",
       "src": 179930,
+      "dst": 67600
+    },
+    {
+      "relate": "主线故事",
+      "src": 448868,
       "dst": 67600
     }
   ]

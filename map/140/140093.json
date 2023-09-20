@@ -27,6 +27,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 448981,
+      "name": "Sunrider 4: The Captain's Return",
+      "nameCN": "太阳骑士4：舰长归来",
+      "date": "2023-02-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -42,11 +51,16 @@
     },
     {
       "relate": "相同世界观",
+      "src": 140093,
+      "dst": 448981
+    },
+    {
+      "relate": "相同世界观",
       "src": 154668,
       "dst": 140093
     },
     {
-      "relate": "相同世界观",
+      "relate": "续集",
       "src": 154668,
       "dst": 186154
     },
@@ -56,9 +70,24 @@
       "dst": 140093
     },
     {
-      "relate": "相同世界观",
+      "relate": "前传",
       "src": 186154,
       "dst": 154668
+    },
+    {
+      "relate": "续集",
+      "src": 186154,
+      "dst": 448981
+    },
+    {
+      "relate": "相同世界观",
+      "src": 448981,
+      "dst": 140093
+    },
+    {
+      "relate": "前传",
+      "src": 448981,
+      "dst": 186154
     }
   ]
 }

@@ -39,8 +39,8 @@
     },
     {
       "id": 308545,
-      "name": "非人哉 Part.4",
-      "nameCN": "非人哉 第四部分",
+      "name": "非人哉 立春篇",
+      "nameCN": "",
       "date": "2020-06-17",
       "type": 2,
       "nsfw": false,
@@ -48,8 +48,8 @@
     },
     {
       "id": 328512,
-      "name": "非人哉 Part.5",
-      "nameCN": "非人哉 第五部分",
+      "name": "非人哉 夏至篇",
+      "nameCN": "",
       "date": "2021-02-10",
       "type": 2,
       "nsfw": false,
@@ -57,8 +57,8 @@
     },
     {
       "id": 341360,
-      "name": "非人哉 Part.6",
-      "nameCN": "非人哉 第六部分",
+      "name": "非人哉 冬至篇",
+      "nameCN": "",
       "date": "2021-07-21",
       "type": 2,
       "nsfw": false,
@@ -66,8 +66,8 @@
     },
     {
       "id": 393947,
-      "name": "非人哉 第2季",
-      "nameCN": "非人哉 第二季",
+      "name": "非人哉 春分篇",
+      "nameCN": "非人哉 第2季",
       "date": "2022-08-10",
       "type": 2,
       "nsfw": false,
@@ -84,9 +84,33 @@
     },
     {
       "id": 413619,
-      "name": "非人哉 第二季 Part.2",
-      "nameCN": "非人哉 第二季 第二部分",
+      "name": "非人哉 秋分篇",
+      "nameCN": "",
       "date": "2023-01-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 448676,
+      "name": "非人哉 小满篇",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 453308,
+      "name": "有兽焉 第三季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 448677,
+      "name": "非人哉 立冬篇",
+      "nameCN": "",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -179,9 +203,39 @@
       "dst": 393947
     },
     {
+      "relate": "续集",
+      "src": 413619,
+      "dst": 448676
+    },
+    {
       "relate": "前传",
       "src": 442553,
       "dst": 358741
+    },
+    {
+      "relate": "续集",
+      "src": 442553,
+      "dst": 453308
+    },
+    {
+      "relate": "前传",
+      "src": 448676,
+      "dst": 413619
+    },
+    {
+      "relate": "续集",
+      "src": 448676,
+      "dst": 448677
+    },
+    {
+      "relate": "前传",
+      "src": 448677,
+      "dst": 448676
+    },
+    {
+      "relate": "前传",
+      "src": 453308,
+      "dst": 442553
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "id": 8444,
+  "node": [
+    {
+      "id": 8444,
+      "name": "Knytt Stories",
+      "nameCN": "尼特的故事",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 73956,
+      "name": "Knytt Underground",
+      "nameCN": "尼特的故事:地下探险",
+      "date": "2012-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 84046,
+      "name": "Knytt",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 8444,
+      "dst": 73956
+    },
+    {
+      "relate": "前传",
+      "src": 8444,
+      "dst": 84046
+    },
+    {
+      "relate": "前传",
+      "src": 73956,
+      "dst": 8444
+    },
+    {
+      "relate": "续集",
+      "src": 84046,
+      "dst": 8444
+    }
+  ]
+}

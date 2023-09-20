@@ -1,0 +1,35 @@
+{
+  "id": 452234,
+  "node": [
+    {
+      "id": 452234,
+      "name": "激犬シアター",
+      "nameCN": "",
+      "date": "1995-09-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 452235,
+      "name": "激鳥シアター",
+      "nameCN": "",
+      "date": "1994-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 452234,
+      "dst": 452235
+    },
+    {
+      "relate": "续集",
+      "src": 452235,
+      "dst": 452234
+    }
+  ]
+}

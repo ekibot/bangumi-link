@@ -4,7 +4,7 @@
     {
       "id": 325042,
       "name": "大江大河",
-      "nameCN": "大江大河",
+      "nameCN": "",
       "date": "2018-12-10",
       "type": 6,
       "nsfw": false,
@@ -13,8 +13,16 @@
     {
       "id": 325051,
       "name": "大江大河2",
-      "nameCN": "大江大河2",
+      "nameCN": "",
       "date": "2020-12-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 448206,
+      "name": "大江大河3",
+      "nameCN": "",
       "type": 6,
       "nsfw": false,
       "platform": "华语剧"
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 325051,
       "dst": 325042
+    },
+    {
+      "relate": "续集",
+      "src": 325051,
+      "dst": 448206
+    },
+    {
+      "relate": "前传",
+      "src": 448206,
+      "dst": 325051
     }
   ]
 }

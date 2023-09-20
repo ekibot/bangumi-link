@@ -1,0 +1,54 @@
+{
+  "id": 61152,
+  "node": [
+    {
+      "id": 61152,
+      "name": "Dungeon Hunter 3",
+      "nameCN": "地牢猎手3",
+      "date": "2012-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 454243,
+      "name": "Dungeon Hunter 4",
+      "nameCN": "地牢猎手4",
+      "date": "2013-04-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 283161,
+      "name": "Dungeon Hunter 5",
+      "nameCN": "地牢猎手5",
+      "date": "2015-03-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 61152,
+      "dst": 454243
+    },
+    {
+      "relate": "前传",
+      "src": 283161,
+      "dst": 454243
+    },
+    {
+      "relate": "前传",
+      "src": 454243,
+      "dst": 61152
+    },
+    {
+      "relate": "续集",
+      "src": 454243,
+      "dst": 283161
+    }
+  ]
+}

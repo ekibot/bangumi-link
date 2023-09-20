@@ -84,8 +84,8 @@
     },
     {
       "id": 349549,
-      "name": "American Horror Story:Double Feature Season 10",
-      "nameCN": "美国恐怖故事：双面 第十季",
+      "name": "American Horror Story: Double Feature Season 10",
+      "nameCN": "美国恐怖故事：双面",
       "date": "2021-08-25",
       "type": 6,
       "nsfw": false,
@@ -96,6 +96,23 @@
       "name": "American Horror Story: New York City Season 11",
       "nameCN": "美国恐怖故事：纽约 第十一季",
       "date": "2022-10-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 450535,
+      "name": "American Horror Story: Delicate Season 12",
+      "nameCN": "",
+      "date": "2023-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 450536,
+      "name": "American Horror Story: Season 13",
+      "nameCN": "",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -201,6 +218,26 @@
       "relate": "前传",
       "src": 404318,
       "dst": 349549
+    },
+    {
+      "relate": "续集",
+      "src": 404318,
+      "dst": 450535
+    },
+    {
+      "relate": "前传",
+      "src": 450535,
+      "dst": 404318
+    },
+    {
+      "relate": "续集",
+      "src": 450535,
+      "dst": 450536
+    },
+    {
+      "relate": "前传",
+      "src": 450536,
+      "dst": 450535
     }
   ]
 }

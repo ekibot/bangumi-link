@@ -1,0 +1,70 @@
+{
+  "id": 451196,
+  "node": [
+    {
+      "id": 451196,
+      "name": "Jane's Hotel",
+      "nameCN": "珍妮的旅馆",
+      "date": "2007-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 451200,
+      "name": "Jane's Hotel 2: Family Hero",
+      "nameCN": "珍妮的旅馆2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 451202,
+      "name": "Jane's Hotel 3: Mania",
+      "nameCN": "珍妮的旅馆3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 451220,
+      "name": "Jane's Hotel: New Story",
+      "nameCN": "珍妮的旅馆：新的故事",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 451196,
+      "dst": 451200
+    },
+    {
+      "relate": "前传",
+      "src": 451200,
+      "dst": 451196
+    },
+    {
+      "relate": "续集",
+      "src": 451200,
+      "dst": 451202
+    },
+    {
+      "relate": "前传",
+      "src": 451202,
+      "dst": 451200
+    },
+    {
+      "relate": "续集",
+      "src": 451202,
+      "dst": 451220
+    },
+    {
+      "relate": "前传",
+      "src": 451220,
+      "dst": 451202
+    }
+  ]
+}

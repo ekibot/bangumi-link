@@ -18,6 +18,23 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 451751,
+      "name": "The Morning Show Season 3",
+      "nameCN": "早间新闻 第三季",
+      "date": "2023-09-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 451752,
+      "name": "The Morning Show Season 4",
+      "nameCN": "早间新闻 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +47,26 @@
       "relate": "前传",
       "src": 349470,
       "dst": 294102
+    },
+    {
+      "relate": "续集",
+      "src": 349470,
+      "dst": 451751
+    },
+    {
+      "relate": "前传",
+      "src": 451751,
+      "dst": 349470
+    },
+    {
+      "relate": "续集",
+      "src": 451751,
+      "dst": 451752
+    },
+    {
+      "relate": "前传",
+      "src": 451752,
+      "dst": 451751
     }
   ]
 }

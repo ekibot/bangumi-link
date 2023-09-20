@@ -17,6 +17,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 446380,
+      "name": "フルメタル・パニック! Family",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 30219
     },
     {
+      "relate": "番外篇",
+      "src": 1831,
+      "dst": 446380
+    },
+    {
       "relate": "前传",
       "src": 30219,
+      "dst": 1831
+    },
+    {
+      "relate": "主线故事",
+      "src": 446380,
       "dst": 1831
     }
   ]

@@ -29,10 +29,28 @@
       "platform": "TV"
     },
     {
+      "id": 445940,
+      "name": "星界の紋章 特別編",
+      "nameCN": "星界的纹章 特别篇",
+      "date": "2000-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 9618,
       "name": "星界の戦旗II",
       "nameCN": "星界的战旗II",
       "date": "2001-07-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 445941,
+      "name": "星界の戦旗 特別編",
+      "nameCN": "星界的战旗 特别篇",
+      "date": "2001-07-07",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -59,6 +77,11 @@
       "dst": 34515
     },
     {
+      "relate": "总集篇",
+      "src": 4301,
+      "dst": 445940
+    },
+    {
       "relate": "前传",
       "src": 9617,
       "dst": 4301
@@ -67,6 +90,11 @@
       "relate": "续集",
       "src": 9617,
       "dst": 9618
+    },
+    {
+      "relate": "总集篇",
+      "src": 9617,
+      "dst": 445941
     },
     {
       "relate": "前传",
@@ -87,6 +115,16 @@
       "relate": "主线故事",
       "src": 34515,
       "dst": 4301
+    },
+    {
+      "relate": "全集",
+      "src": 445940,
+      "dst": 4301
+    },
+    {
+      "relate": "全集",
+      "src": 445941,
+      "dst": 9617
     }
   ]
 }

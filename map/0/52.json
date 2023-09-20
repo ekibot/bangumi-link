@@ -110,6 +110,15 @@
       "platform": "全部游戏"
     },
     {
+      "id": 452020,
+      "name": "Warcraft III: Reforged",
+      "nameCN": "魔兽争霸III：重制版",
+      "date": "2020-01-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 6818,
       "name": "Warcraft III: The Frozen Throne",
       "nameCN": "魔兽争霸III：冰封王座",
@@ -137,8 +146,8 @@
     },
     {
       "id": 395876,
-      "name": "Warcraft Arclight Rumble",
-      "nameCN": "魔兽弧光大作战",
+      "name": "Warcraft Rumble",
+      "nameCN": "魔兽大作战",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -201,6 +210,11 @@
       "dst": 378610
     },
     {
+      "relate": "不同演绎",
+      "src": 52,
+      "dst": 452020
+    },
+    {
       "relate": "相同世界观",
       "src": 277,
       "dst": 52
@@ -354,6 +368,11 @@
       "relate": "相同世界观",
       "src": 6818,
       "dst": 378610
+    },
+    {
+      "relate": "不同演绎",
+      "src": 6818,
+      "dst": 452020
     },
     {
       "relate": "相同世界观",
@@ -804,6 +823,16 @@
       "relate": "主线故事",
       "src": 395876,
       "dst": 277
+    },
+    {
+      "relate": "不同演绎",
+      "src": 452020,
+      "dst": 52
+    },
+    {
+      "relate": "不同演绎",
+      "src": 452020,
+      "dst": 6818
     }
   ]
 }

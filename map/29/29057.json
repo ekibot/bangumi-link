@@ -12,7 +12,7 @@
     {
       "id": 64990,
       "name": "DIABOLIK LOVERS MORE,BLOOD",
-      "nameCN": "",
+      "nameCN": "魔鬼恋人 血祭",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -22,6 +22,15 @@
       "name": "DIABOLIK LOVERS LOST EDEN",
       "nameCN": "",
       "date": "2017-02-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 260353,
+      "name": "DIABOLIK LOVERS CHAOS LINEAGE",
+      "nameCN": "",
+      "date": "2019-03-28",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -79,15 +88,6 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
-    },
-    {
-      "id": 260353,
-      "name": "DIABOLIK LOVERS CHAOS LINEAGE",
-      "nameCN": "",
-      "date": "2019-03-28",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -100,6 +100,11 @@
       "relate": "续集",
       "src": 29057,
       "dst": 189277
+    },
+    {
+      "relate": "不同世界观",
+      "src": 29057,
+      "dst": 260353
     },
     {
       "relate": "前传",
@@ -147,6 +152,11 @@
       "dst": 189277
     },
     {
+      "relate": "续集",
+      "src": 120200,
+      "dst": 260353
+    },
+    {
       "relate": "前传",
       "src": 124778,
       "dst": 64993
@@ -162,12 +172,17 @@
       "dst": 120200
     },
     {
-      "relate": "续集",
+      "relate": "不同世界观",
       "src": 189277,
       "dst": 260353
     },
     {
       "relate": "前传",
+      "src": 260353,
+      "dst": 120200
+    },
+    {
+      "relate": "不同世界观",
       "src": 260353,
       "dst": 189277
     }

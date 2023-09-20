@@ -18,6 +18,23 @@
       "platform": "全部游戏"
     },
     {
+      "id": 265701,
+      "name": "Snakes",
+      "nameCN": "贪吃蛇（立体版）",
+      "date": "2005-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 453247,
+      "name": "Snake EX2",
+      "nameCN": "贪吃蛇 EX2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 409137,
       "name": "Snake III",
       "nameCN": "贪吃蛇3",
@@ -35,18 +52,38 @@
     },
     {
       "relate": "前传",
-      "src": 409137,
-      "dst": 414436
-    },
-    {
-      "relate": "前传",
       "src": 414436,
       "dst": 56946
     },
     {
+      "relate": "前传",
+      "src": 265701,
+      "dst": 453247
+    },
+    {
+      "relate": "前传",
+      "src": 409137,
+      "dst": 453247
+    },
+    {
       "relate": "续集",
       "src": 414436,
+      "dst": 453247
+    },
+    {
+      "relate": "续集",
+      "src": 453247,
+      "dst": 265701
+    },
+    {
+      "relate": "续集",
+      "src": 453247,
       "dst": 409137
+    },
+    {
+      "relate": "前传",
+      "src": 453247,
+      "dst": 414436
     }
   ]
 }

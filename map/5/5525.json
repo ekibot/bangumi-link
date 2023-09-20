@@ -16,6 +16,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 447800,
+      "name": "piece Jの総てアナザーストーリーズ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -25,8 +33,18 @@
       "dst": 5530
     },
     {
+      "relate": "番外篇",
+      "src": 5525,
+      "dst": 447800
+    },
+    {
       "relate": "主线故事",
       "src": 5530,
+      "dst": 5525
+    },
+    {
+      "relate": "主线故事",
+      "src": 447800,
       "dst": 5525
     }
   ]

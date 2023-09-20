@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 17027,
-      "name": "Golden Axe III",
+      "name": "ゴールデンアックス III",
       "nameCN": "战斧3",
       "date": "1993-06-25",
       "type": 4,
@@ -12,7 +12,7 @@
     },
     {
       "id": 126521,
-      "name": "Golden Axe II",
+      "name": "ゴールデンアックスII",
       "nameCN": "战斧2",
       "date": "1991-12-26",
       "type": 4,
@@ -21,9 +21,17 @@
     },
     {
       "id": 126520,
-      "name": "Golden Axe",
+      "name": "ゴールデンアックス",
       "nameCN": "战斧",
       "date": "1989-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 453282,
+      "name": "ゴールデンアックス デスアダーの復讐",
+      "nameCN": "战斧 帝王的复仇",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -42,12 +50,22 @@
     },
     {
       "relate": "续集",
+      "src": 126520,
+      "dst": 453282
+    },
+    {
+      "relate": "续集",
       "src": 126521,
       "dst": 17027
     },
     {
       "relate": "前传",
       "src": 126521,
+      "dst": 126520
+    },
+    {
+      "relate": "前传",
+      "src": 453282,
       "dst": 126520
     }
   ]

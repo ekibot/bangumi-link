@@ -1,0 +1,92 @@
+{
+  "id": 446991,
+  "node": [
+    {
+      "id": 446991,
+      "name": "Casino Royale",
+      "nameCN": "007：大战皇家赌场",
+      "date": "2006-11-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 446998,
+      "name": "Quantum of Solace",
+      "nameCN": "007：大破量子危机",
+      "date": "2008-10-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 447000,
+      "name": "Skyfall",
+      "nameCN": "007：大破天幕杀机",
+      "date": "2012-10-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 447002,
+      "name": "Spectre",
+      "nameCN": "007：幽灵党",
+      "date": "2015-10-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 447003,
+      "name": "No Time to Die",
+      "nameCN": "007：无暇赴死",
+      "date": "2021-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 446991,
+      "dst": 446998
+    },
+    {
+      "relate": "前传",
+      "src": 446998,
+      "dst": 446991
+    },
+    {
+      "relate": "续集",
+      "src": 446998,
+      "dst": 447000
+    },
+    {
+      "relate": "前传",
+      "src": 447000,
+      "dst": 446998
+    },
+    {
+      "relate": "续集",
+      "src": 447000,
+      "dst": 447002
+    },
+    {
+      "relate": "前传",
+      "src": 447002,
+      "dst": 447000
+    },
+    {
+      "relate": "续集",
+      "src": 447002,
+      "dst": 447003
+    },
+    {
+      "relate": "前传",
+      "src": 447003,
+      "dst": 447002
+    }
+  ]
+}

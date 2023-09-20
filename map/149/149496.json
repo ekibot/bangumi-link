@@ -165,6 +165,25 @@
       "id": 399857,
       "name": "maimai でらっくす FESTiVAL",
       "nameCN": "",
+      "date": "2022-09-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 453391,
+      "name": "maimai でらっくす FESTiVAL PLUS",
+      "nameCN": "",
+      "date": "2023-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 453388,
+      "name": "maimai でらっくす BUDDiES",
+      "nameCN": "",
+      "date": "2023-09-14",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -355,6 +374,26 @@
       "relate": "前传",
       "src": 399857,
       "dst": 378743
+    },
+    {
+      "relate": "续集",
+      "src": 399857,
+      "dst": 453391
+    },
+    {
+      "relate": "前传",
+      "src": 453388,
+      "dst": 453391
+    },
+    {
+      "relate": "前传",
+      "src": 453391,
+      "dst": 399857
+    },
+    {
+      "relate": "续集",
+      "src": 453391,
+      "dst": 453388
     }
   ]
 }

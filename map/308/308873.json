@@ -17,12 +17,31 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 447898,
+      "name": "Clam Man",
+      "nameCN": "蛤蜊人",
+      "date": "2019-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
     {
       "relate": "主线故事",
       "src": 308873,
+      "dst": 309198
+    },
+    {
+      "relate": "前传",
+      "src": 309198,
+      "dst": 447898
+    },
+    {
+      "relate": "续集",
+      "src": 447898,
       "dst": 309198
     }
   ]

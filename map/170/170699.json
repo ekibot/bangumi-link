@@ -18,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 450440,
+      "name": "덴큐",
+      "nameCN": "",
+      "date": "2021-08-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 351601
     },
     {
+      "relate": "番外篇",
+      "src": 170699,
+      "dst": 450440
+    },
+    {
       "relate": "主线故事",
       "src": 351601,
+      "dst": 170699
+    },
+    {
+      "relate": "主线故事",
+      "src": 450440,
       "dst": 170699
     }
   ]

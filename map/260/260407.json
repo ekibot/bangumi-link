@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 451119,
+      "name": "魔王様、リトライ! R",
+      "nameCN": "重来吧、魔王大人！R",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 444828
     },
     {
+      "relate": "续集",
+      "src": 260407,
+      "dst": 451119
+    },
+    {
       "relate": "主线故事",
       "src": 444828,
+      "dst": 260407
+    },
+    {
+      "relate": "前传",
+      "src": 451119,
       "dst": 260407
     }
   ]

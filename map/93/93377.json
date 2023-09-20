@@ -85,6 +85,31 @@
       "id": 441140,
       "name": "Rick and Morty Season 7",
       "nameCN": "瑞克和莫蒂 第七季",
+      "date": "2023-10-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 451756,
+      "name": "Rick and Morty Season 8",
+      "nameCN": "瑞克和莫蒂 第八季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 451757,
+      "name": "Rick and Morty Season 9",
+      "nameCN": "瑞克和莫蒂 第九季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 451758,
+      "name": "Rick and Morty Season 10",
+      "nameCN": "瑞克和莫蒂 第十季",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -180,6 +205,36 @@
       "relate": "前传",
       "src": 441140,
       "dst": 358934
+    },
+    {
+      "relate": "续集",
+      "src": 441140,
+      "dst": 451756
+    },
+    {
+      "relate": "前传",
+      "src": 451756,
+      "dst": 441140
+    },
+    {
+      "relate": "续集",
+      "src": 451756,
+      "dst": 451757
+    },
+    {
+      "relate": "前传",
+      "src": 451757,
+      "dst": 451756
+    },
+    {
+      "relate": "续集",
+      "src": 451757,
+      "dst": 451758
+    },
+    {
+      "relate": "前传",
+      "src": 451758,
+      "dst": 451757
     }
   ]
 }

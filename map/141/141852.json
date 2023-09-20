@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 451982,
+      "name": "We Baby Bears",
+      "nameCN": "咱们小裸熊",
+      "date": "2022-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 210289,
       "name": "We Bare Bears Season 3",
       "nameCN": "咱们裸熊 第三季",
@@ -36,6 +45,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 451984,
+      "name": "We Baby Bears Season 2",
+      "nameCN": "咱们小裸熊 第二季",
+      "date": "2023-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -43,6 +61,11 @@
       "relate": "续集",
       "src": 141852,
       "dst": 170557
+    },
+    {
+      "relate": "衍生",
+      "src": 141852,
+      "dst": 451982
     },
     {
       "relate": "前传",
@@ -68,6 +91,21 @@
       "relate": "前传",
       "src": 238589,
       "dst": 210289
+    },
+    {
+      "relate": "主线故事",
+      "src": 451982,
+      "dst": 141852
+    },
+    {
+      "relate": "续集",
+      "src": 451982,
+      "dst": 451984
+    },
+    {
+      "relate": "前传",
+      "src": 451984,
+      "dst": 451982
     }
   ]
 }

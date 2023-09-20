@@ -18,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 450137,
+      "name": "おせん―和な女―",
+      "nameCN": "",
+      "date": "2023-01-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 84168,
       "dst": 84167
+    },
+    {
+      "relate": "续集",
+      "src": 84168,
+      "dst": 450137
+    },
+    {
+      "relate": "前传",
+      "src": 450137,
+      "dst": 84168
     }
   ]
 }
