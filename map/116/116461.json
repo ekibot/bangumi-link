@@ -11,15 +11,6 @@
       "platform": "TV"
     },
     {
-      "id": 160124,
-      "name": "食戟のソーマ 弍ノ皿",
-      "nameCN": "食戟之灵 贰之皿",
-      "date": "2016-07-02",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 148098,
       "name": "食戟のソーマ OAD",
       "nameCN": "食戟之灵 OAD",
@@ -27,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 160124,
+      "name": "食戟のソーマ 弍ノ皿",
+      "nameCN": "食戟之灵 贰之皿",
+      "date": "2016-07-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 217632,
@@ -94,9 +94,19 @@
   ],
   "relate": [
     {
+      "relate": "衍生",
+      "src": 116461,
+      "dst": 148098
+    },
+    {
       "relate": "续集",
       "src": 116461,
       "dst": 160124
+    },
+    {
+      "relate": "主线故事",
+      "src": 148098,
+      "dst": 116461
     },
     {
       "relate": "主线故事",

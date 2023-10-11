@@ -1,0 +1,35 @@
+{
+  "id": 456777,
+  "node": [
+    {
+      "id": 456777,
+      "name": "バーバーハーバー",
+      "nameCN": "",
+      "date": "2001-09-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 456778,
+      "name": "バーバーハーバーNG",
+      "nameCN": "",
+      "date": "2005-05-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 456777,
+      "dst": 456778
+    },
+    {
+      "relate": "前传",
+      "src": 456778,
+      "dst": 456777
+    }
+  ]
+}

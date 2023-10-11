@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 456601,
+      "name": "镇魂街 第四季",
+      "nameCN": "镇魂街 群英大战篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -68,6 +76,16 @@
       "relate": "前传",
       "src": 405210,
       "dst": 298525
+    },
+    {
+      "relate": "续集",
+      "src": 405210,
+      "dst": 456601
+    },
+    {
+      "relate": "前传",
+      "src": 456601,
+      "dst": 405210
     }
   ]
 }

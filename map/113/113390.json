@@ -20,6 +20,23 @@
       "platform": "日剧"
     },
     {
+      "id": 410903,
+      "name": "Murder on the Orient Express",
+      "nameCN": "东方快车谋杀案",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 449529,
+      "name": "Murder on the Orient Express (2017)",
+      "nameCN": "东方快车谋杀案",
+      "date": "2017-11-10",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 330100,
       "name": "死との約束",
       "nameCN": "死亡约会",
@@ -36,6 +53,16 @@
       "dst": 237802
     },
     {
+      "relate": "不同演绎",
+      "src": 113390,
+      "dst": 410903
+    },
+    {
+      "relate": "不同演绎",
+      "src": 113390,
+      "dst": 449529
+    },
+    {
       "relate": "前传",
       "src": 237802,
       "dst": 113390
@@ -49,6 +76,26 @@
       "relate": "前传",
       "src": 330100,
       "dst": 237802
+    },
+    {
+      "relate": "不同演绎",
+      "src": 410903,
+      "dst": 113390
+    },
+    {
+      "relate": "不同演绎",
+      "src": 410903,
+      "dst": 449529
+    },
+    {
+      "relate": "不同演绎",
+      "src": 449529,
+      "dst": 113390
+    },
+    {
+      "relate": "不同演绎",
+      "src": 449529,
+      "dst": 410903
     }
   ]
 }

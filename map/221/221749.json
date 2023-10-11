@@ -17,6 +17,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 455462,
+      "name": "Re:Monster 暗黒大陸編",
+      "nameCN": "怪物转生 暗黑大陆篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 221774
     },
     {
+      "relate": "续集",
+      "src": 221749,
+      "dst": 455462
+    },
+    {
       "relate": "主线故事",
       "src": 221774,
+      "dst": 221749
+    },
+    {
+      "relate": "前传",
+      "src": 455462,
       "dst": 221749
     }
   ]

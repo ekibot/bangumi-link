@@ -18,6 +18,23 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 456652,
+      "name": "クリミナルボーダー 3rd offence",
+      "nameCN": "",
+      "date": "2023-11-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 456696,
+      "name": "クリミナルボーダー life sentence",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -30,6 +47,26 @@
       "relate": "前传",
       "src": 421435,
       "dst": 392553
+    },
+    {
+      "relate": "续集",
+      "src": 421435,
+      "dst": 456652
+    },
+    {
+      "relate": "前传",
+      "src": 456652,
+      "dst": 421435
+    },
+    {
+      "relate": "续集",
+      "src": 456652,
+      "dst": 456696
+    },
+    {
+      "relate": "前传",
+      "src": 456696,
+      "dst": 456652
     }
   ]
 }

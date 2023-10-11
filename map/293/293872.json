@@ -25,13 +25,21 @@
       "nameCN": "地狱客栈",
       "type": 2,
       "nsfw": false,
-      "platform": "TV"
+      "platform": "WEB"
     },
     {
       "id": 430298,
       "name": "Helluva Boss Season 2",
       "nameCN": "极恶老大 第二季",
       "date": "2022-07-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 457549,
+      "name": "Hazbin Hotel Season 2",
+      "nameCN": "地狱客栈 第2季",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -64,9 +72,19 @@
       "dst": 293872
     },
     {
+      "relate": "续集",
+      "src": 430135,
+      "dst": 457549
+    },
+    {
       "relate": "前传",
       "src": 430298,
       "dst": 335729
+    },
+    {
+      "relate": "前传",
+      "src": 457549,
+      "dst": 430135
     }
   ]
 }

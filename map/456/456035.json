@@ -1,0 +1,35 @@
+{
+  "id": 456035,
+  "node": [
+    {
+      "id": 456035,
+      "name": "The Addams Family",
+      "nameCN": "亚当斯一家",
+      "date": "1991-11-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 456036,
+      "name": "The Addams Family Values",
+      "nameCN": "亚当斯一家的价值观",
+      "date": "1993-11-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 456035,
+      "dst": 456036
+    },
+    {
+      "relate": "前传",
+      "src": 456036,
+      "dst": 456035
+    }
+  ]
+}

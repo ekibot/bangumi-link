@@ -4,7 +4,7 @@
     {
       "id": 115287,
       "name": "F-ZERO",
-      "nameCN": "F-ZERO",
+      "nameCN": "",
       "date": "1990-11-21",
       "type": 4,
       "nsfw": false,
@@ -15,6 +15,15 @@
       "name": "F-ZERO X",
       "nameCN": "F-ZERO X",
       "date": "1998-07-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 454802,
+      "name": "F-ZERO 99",
+      "nameCN": "",
+      "date": "2023-09-15",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -35,6 +44,11 @@
       "dst": 115354
     },
     {
+      "relate": "续集",
+      "src": 115287,
+      "dst": 454802
+    },
+    {
       "relate": "前传",
       "src": 115354,
       "dst": 115287
@@ -43,6 +57,11 @@
       "relate": "主线故事",
       "src": 115541,
       "dst": 115354
+    },
+    {
+      "relate": "前传",
+      "src": 454802,
+      "dst": 115287
     }
   ]
 }

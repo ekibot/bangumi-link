@@ -1,0 +1,52 @@
+{
+  "id": 455284,
+  "node": [
+    {
+      "id": 455284,
+      "name": "ミュージカル『テニスの王子様』",
+      "nameCN": "网球王子音乐剧",
+      "date": "2003-04-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 455534,
+      "name": "ミュージカル『テニスの王子様』 Remarkable 1st Match 不動峰",
+      "nameCN": "网球王子音乐剧 Remarkable 1st Match 不动峰",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 456411,
+      "name": "ミュージカル 『テニスの王子様』 More than Limit 聖ルドルフ学院",
+      "nameCN": "网球王子音乐剧 More than Limit 圣鲁道夫学院",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 455284,
+      "dst": 455534
+    },
+    {
+      "relate": "前传",
+      "src": 455534,
+      "dst": 455284
+    },
+    {
+      "relate": "续集",
+      "src": 455534,
+      "dst": 456411
+    },
+    {
+      "relate": "前传",
+      "src": 456411,
+      "dst": 455534
+    }
+  ]
+}

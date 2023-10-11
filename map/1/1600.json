@@ -143,6 +143,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 454887,
+      "name": "BURN THE WITCH #0.8",
+      "nameCN": "龙与魔女 #0.8",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 457326,
+      "name": "BLEACH 千年血戦篇-相剋譚-",
+      "nameCN": "死神 千年血战篇-相克谭-",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -283,6 +299,11 @@
     },
     {
       "relate": "前传",
+      "src": 302293,
+      "dst": 454887
+    },
+    {
+      "relate": "前传",
       "src": 365968,
       "dst": 10134
     },
@@ -295,6 +316,21 @@
       "relate": "前传",
       "src": 412916,
       "dst": 302286
+    },
+    {
+      "relate": "续集",
+      "src": 412916,
+      "dst": 457326
+    },
+    {
+      "relate": "续集",
+      "src": 454887,
+      "dst": 302293
+    },
+    {
+      "relate": "前传",
+      "src": 457326,
+      "dst": 412916
     }
   ]
 }
