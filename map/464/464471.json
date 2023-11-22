@@ -1,0 +1,54 @@
+{
+  "id": 464471,
+  "node": [
+    {
+      "id": 464471,
+      "name": "Halo: Silent Storm",
+      "nameCN": "光环：寂静风暴",
+      "date": "2018-09-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 464508,
+      "name": "Halo: Oblivion",
+      "nameCN": "光环：湮没",
+      "date": "2019-09-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 464513,
+      "name": "Halo: Shadows of Reach",
+      "nameCN": "光环:致远星的暗影",
+      "date": "2020-10-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 464471,
+      "dst": 464508
+    },
+    {
+      "relate": "前传",
+      "src": 464508,
+      "dst": 464471
+    },
+    {
+      "relate": "续集",
+      "src": 464508,
+      "dst": 464513
+    },
+    {
+      "relate": "前传",
+      "src": 464513,
+      "dst": 464508
+    }
+  ]
+}

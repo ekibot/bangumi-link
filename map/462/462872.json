@@ -1,0 +1,69 @@
+{
+  "id": 462872,
+  "node": [
+    {
+      "id": 462872,
+      "name": "The Hound of the Baskervilles",
+      "nameCN": "巴斯克维尔的猎犬",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 462874,
+      "name": "The Sign of Four",
+      "nameCN": "四签名",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 462878,
+      "name": "The Royal Scandal",
+      "nameCN": "皇家丑闻",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 462877,
+      "name": "The Case of the Whitechapel Vampire",
+      "nameCN": "教堂魅影",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 462872,
+      "dst": 462874
+    },
+    {
+      "relate": "前传",
+      "src": 462874,
+      "dst": 462872
+    },
+    {
+      "relate": "续集",
+      "src": 462874,
+      "dst": 462878
+    },
+    {
+      "relate": "前传",
+      "src": 462877,
+      "dst": 462878
+    },
+    {
+      "relate": "前传",
+      "src": 462878,
+      "dst": 462874
+    },
+    {
+      "relate": "续集",
+      "src": 462878,
+      "dst": 462877
+    }
+  ]
+}

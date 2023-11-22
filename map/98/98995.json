@@ -18,6 +18,33 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 462929,
+      "name": "キャリバン -キャリエールファンディスク-",
+      "nameCN": "",
+      "date": "2004-08-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 99036,
+      "name": "MARIONETTE～糸使い～",
+      "nameCN": "",
+      "date": "2003-03-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 323574,
+      "name": "エンジェルメイド",
+      "nameCN": "",
+      "date": "2004-03-19",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -27,9 +54,39 @@
       "dst": 99026
     },
     {
+      "relate": "续集",
+      "src": 98995,
+      "dst": 462929
+    },
+    {
       "relate": "不同演绎",
       "src": 99026,
       "dst": 98995
+    },
+    {
+      "relate": "续集",
+      "src": 99036,
+      "dst": 462929
+    },
+    {
+      "relate": "续集",
+      "src": 323574,
+      "dst": 462929
+    },
+    {
+      "relate": "前传",
+      "src": 462929,
+      "dst": 98995
+    },
+    {
+      "relate": "前传",
+      "src": 462929,
+      "dst": 99036
+    },
+    {
+      "relate": "前传",
+      "src": 462929,
+      "dst": 323574
     }
   ]
 }

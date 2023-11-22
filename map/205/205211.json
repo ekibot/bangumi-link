@@ -16,6 +16,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 463624,
+      "name": "激战奇轮3",
+      "nameCN": "",
+      "date": "2017-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -28,6 +37,16 @@
       "relate": "前传",
       "src": 205212,
       "dst": 205211
+    },
+    {
+      "relate": "续集",
+      "src": 205212,
+      "dst": 463624
+    },
+    {
+      "relate": "前传",
+      "src": 463624,
+      "dst": 205212
     }
   ]
 }

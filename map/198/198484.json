@@ -4,7 +4,7 @@
     {
       "id": 198484,
       "name": "DOGS",
-      "nameCN": "",
+      "nameCN": "DOGS",
       "date": "2016-12-01",
       "type": 1,
       "nsfw": false,
@@ -13,8 +13,17 @@
     {
       "id": 282945,
       "name": "DOGS infight",
-      "nameCN": "",
+      "nameCN": "DOGS 纠缠",
       "date": "2019-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 461354,
+      "name": "DOGS dog eat dog",
+      "nameCN": "",
+      "date": "2023-11-01",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 282945,
       "dst": 198484
+    },
+    {
+      "relate": "续集",
+      "src": 282945,
+      "dst": 461354
+    },
+    {
+      "relate": "前传",
+      "src": 461354,
+      "dst": 282945
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "id": 267213,
+  "node": [
+    {
+      "id": 267213,
+      "name": "Fireboy and Watergirl",
+      "nameCN": "森林冰火人",
+      "date": "2009-06-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 457960,
+      "name": "Fireboy &amp; Watergirl: Elements",
+      "nameCN": "森林冰火人：元素",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 353619,
+      "name": "Fireboy &amp; Watergirl: Fairy Tales",
+      "nameCN": "森林冰火人：童话",
+      "date": "2021-11-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 267213,
+      "dst": 457960
+    },
+    {
+      "relate": "前传",
+      "src": 353619,
+      "dst": 457960
+    },
+    {
+      "relate": "前传",
+      "src": 457960,
+      "dst": 267213
+    },
+    {
+      "relate": "续集",
+      "src": 457960,
+      "dst": 353619
+    }
+  ]
+}

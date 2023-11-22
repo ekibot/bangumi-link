@@ -153,6 +153,24 @@
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
+    },
+    {
+      "id": 421425,
+      "name": "魔法戦士 FINAL IGNITION",
+      "nameCN": "",
+      "date": "2022-11-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 464540,
+      "name": "魔法戦士EXTRA IGNITION",
+      "nameCN": "",
+      "date": "2023-12-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -345,6 +363,26 @@
       "relate": "前传",
       "src": 347354,
       "dst": 222233
+    },
+    {
+      "relate": "续集",
+      "src": 347354,
+      "dst": 421425
+    },
+    {
+      "relate": "前传",
+      "src": 421425,
+      "dst": 347354
+    },
+    {
+      "relate": "续集",
+      "src": 421425,
+      "dst": 464540
+    },
+    {
+      "relate": "前传",
+      "src": 464540,
+      "dst": 421425
     }
   ]
 }

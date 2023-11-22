@@ -145,9 +145,34 @@
       "platform": "全部游戏"
     },
     {
+      "id": 463719,
+      "name": "World of Warcraft: the War Within",
+      "nameCN": "魔兽世界 地心之战",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
       "id": 395876,
       "name": "Warcraft Rumble",
       "nameCN": "魔兽大作战",
+      "date": "2023-11-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 463718,
+      "name": "World of Warcraft: Midnight",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 463720,
+      "name": "World of Warcraft: the Last Titan",
+      "nameCN": "",
       "type": 4,
       "nsfw": false,
       "platform": "全部游戏"
@@ -820,6 +845,11 @@
       "dst": 294015
     },
     {
+      "relate": "续集",
+      "src": 378610,
+      "dst": 463719
+    },
+    {
       "relate": "主线故事",
       "src": 395876,
       "dst": 277
@@ -833,6 +863,31 @@
       "relate": "不同演绎",
       "src": 452020,
       "dst": 6818
+    },
+    {
+      "relate": "前传",
+      "src": 463718,
+      "dst": 463719
+    },
+    {
+      "relate": "续集",
+      "src": 463718,
+      "dst": 463720
+    },
+    {
+      "relate": "前传",
+      "src": 463719,
+      "dst": 378610
+    },
+    {
+      "relate": "续集",
+      "src": 463719,
+      "dst": 463718
+    },
+    {
+      "relate": "前传",
+      "src": 463720,
+      "dst": 463718
     }
   ]
 }

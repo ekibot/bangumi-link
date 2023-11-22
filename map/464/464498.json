@@ -1,0 +1,54 @@
+{
+  "id": 464498,
+  "node": [
+    {
+      "id": 464498,
+      "name": "Halo: Glasslands",
+      "nameCN": "光环：焦土",
+      "date": "2011-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 464501,
+      "name": "Halo: The Thursday War",
+      "nameCN": "光环：星期四战争",
+      "date": "2012-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 464506,
+      "name": "Halo: Mortal Dictata",
+      "nameCN": "光环：众生训诫",
+      "date": "2014-01-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 464498,
+      "dst": 464501
+    },
+    {
+      "relate": "前传",
+      "src": 464501,
+      "dst": 464498
+    },
+    {
+      "relate": "续集",
+      "src": 464501,
+      "dst": 464506
+    },
+    {
+      "relate": "前传",
+      "src": 464506,
+      "dst": 464501
+    }
+  ]
+}

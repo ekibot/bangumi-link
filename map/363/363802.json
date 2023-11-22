@@ -3,26 +3,26 @@
   "node": [
     {
       "id": 363802,
-      "name": "地牢脫出2 銀月蒼狼",
+      "name": "Escape Dungeon 2-銀月蒼狼 蘇拉爾",
       "nameCN": "地牢脱出2-银月苍狼 苏拉尔",
-      "date": "2022-01-15",
+      "date": "2022-01-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 374047,
+      "name": "Escape Dungeon-莎莉絲．地牢脫出",
+      "nameCN": "莎莉丝 地牢脱出",
+      "date": "2020-11-16",
       "type": 4,
       "nsfw": true,
       "platform": "全部游戏"
     },
     {
       "id": 430994,
-      "name": "Loop Queen-地牢脱出3 轮回女王",
-      "nameCN": "",
-      "type": 4,
-      "nsfw": false,
-      "platform": "全部游戏"
-    },
-    {
-      "id": 374047,
-      "name": "莎莉絲 地牢脫出",
-      "nameCN": "莎莉丝 地牢脱出",
-      "date": "2020-11-16",
+      "name": "Loop Queen-地牢脫出3 輪迴女王",
+      "nameCN": "Loop Queen-地牢脱出3 轮回女王",
       "type": 4,
       "nsfw": true,
       "platform": "全部游戏"
@@ -30,12 +30,17 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 363802,
+      "dst": 374047
+    },
+    {
       "relate": "续集",
       "src": 363802,
       "dst": 430994
     },
     {
-      "relate": "前传",
+      "relate": "续集",
       "src": 374047,
       "dst": 363802
     },

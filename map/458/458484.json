@@ -1,0 +1,54 @@
+{
+  "id": 458484,
+  "node": [
+    {
+      "id": 458484,
+      "name": "BloodRayne",
+      "nameCN": "吸血莱恩",
+      "date": "2006-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 458487,
+      "name": "BloodRayne II: Deliverance",
+      "nameCN": "吸血莱恩2：解脱",
+      "date": "2007-09-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 458490,
+      "name": "BloodRayne 3: The Third Reich",
+      "nameCN": "吸血莱恩3：第三帝国",
+      "date": "2011-05-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 458484,
+      "dst": 458487
+    },
+    {
+      "relate": "前传",
+      "src": 458487,
+      "dst": 458484
+    },
+    {
+      "relate": "续集",
+      "src": 458487,
+      "dst": 458490
+    },
+    {
+      "relate": "前传",
+      "src": 458490,
+      "dst": 458487
+    }
+  ]
+}

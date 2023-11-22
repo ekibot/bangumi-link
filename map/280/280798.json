@@ -30,7 +30,7 @@
     },
     {
       "id": 366193,
-      "name": "GEN V",
+      "name": "Gen V",
       "nameCN": "V世代",
       "date": "2023-09-29",
       "type": 6,
@@ -50,6 +50,14 @@
       "id": 386945,
       "name": "The Boys Season 4",
       "nameCN": "黑袍纠察队 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 460612,
+      "name": "Gen V Season 2",
+      "nameCN": "V世代 第二季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -87,14 +95,9 @@
       "dst": 287276
     },
     {
-      "relate": "衍生",
-      "src": 311103,
-      "dst": 366193
-    },
-    {
       "relate": "续集",
       "src": 311103,
-      "dst": 386945
+      "dst": 366193
     },
     {
       "relate": "主线故事",
@@ -102,14 +105,29 @@
       "dst": 280798
     },
     {
-      "relate": "衍生",
+      "relate": "前传",
       "src": 366193,
-      "dst": 280798
+      "dst": 311103
+    },
+    {
+      "relate": "续集",
+      "src": 366193,
+      "dst": 386945
     },
     {
       "relate": "前传",
       "src": 386945,
-      "dst": 311103
+      "dst": 366193
+    },
+    {
+      "relate": "续集",
+      "src": 386945,
+      "dst": 460612
+    },
+    {
+      "relate": "前传",
+      "src": 460612,
+      "dst": 386945
     }
   ]
 }

@@ -16,7 +16,7 @@
       "nameCN": "夜勤病栋",
       "date": "1999-12-22",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
       "platform": "全部游戏"
     },
     {
@@ -34,13 +34,22 @@
       "nameCN": "夜勤病栋・弐",
       "date": "2004-01-15",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 460829,
+      "name": "夜勤病棟リメイク",
+      "nameCN": "夜勤病栋 重制版",
+      "date": "2024-02-22",
+      "type": 4,
+      "nsfw": true,
       "platform": "全部游戏"
     },
     {
       "id": 77568,
       "name": "夜勤病棟・参",
-      "nameCN": "",
+      "nameCN": "夜勤病栋・参",
       "date": "2004-12-10",
       "type": 4,
       "nsfw": true,
@@ -92,6 +101,11 @@
       "dst": 77564
     },
     {
+      "relate": "不同演绎",
+      "src": 77561,
+      "dst": 460829
+    },
+    {
       "relate": "前传",
       "src": 77564,
       "dst": 77561
@@ -115,6 +129,11 @@
       "relate": "主线故事",
       "src": 77575,
       "dst": 77564
+    },
+    {
+      "relate": "不同演绎",
+      "src": 460829,
+      "dst": 77561
     }
   ]
 }

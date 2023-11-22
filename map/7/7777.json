@@ -29,6 +29,14 @@
       "platform": "TV"
     },
     {
+      "id": 465183,
+      "name": "Saving Bikini Bottom: The Sandy Cheeks Movie",
+      "nameCN": "拯救比基尼海滩：珊迪大电影",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 126615,
       "name": "SpongeBob SquarePants (Season 3)",
       "nameCN": "海绵宝宝 第三季",
@@ -126,6 +134,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 462604,
+      "name": "SpongeBob SquarePant Season 14",
+      "nameCN": "海绵宝宝 第十四季",
+      "date": "2023-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -138,6 +155,11 @@
       "relate": "衍生",
       "src": 7777,
       "dst": 430480
+    },
+    {
+      "relate": "相同世界观",
+      "src": 7777,
+      "dst": 465183
     },
     {
       "relate": "前传",
@@ -255,8 +277,23 @@
       "dst": 320843
     },
     {
+      "relate": "续集",
+      "src": 320844,
+      "dst": 462604
+    },
+    {
       "relate": "主线故事",
       "src": 430480,
+      "dst": 7777
+    },
+    {
+      "relate": "前传",
+      "src": 462604,
+      "dst": 320844
+    },
+    {
+      "relate": "相同世界观",
+      "src": 465183,
       "dst": 7777
     }
   ]

@@ -27,6 +27,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 404044,
+      "name": "Ghosts Season 4",
+      "nameCN": "古宅老友记 第4季",
+      "date": "2022-09-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 465901,
+      "name": "Ghosts Season 5",
+      "nameCN": "古宅老友记 第5季",
+      "date": "2023-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 345998,
       "dst": 315755
+    },
+    {
+      "relate": "续集",
+      "src": 345998,
+      "dst": 404044
+    },
+    {
+      "relate": "前传",
+      "src": 404044,
+      "dst": 345998
+    },
+    {
+      "relate": "续集",
+      "src": 404044,
+      "dst": 465901
+    },
+    {
+      "relate": "前传",
+      "src": 465901,
+      "dst": 404044
     }
   ]
 }

@@ -28,15 +28,6 @@
       "platform": "漫画"
     },
     {
-      "id": 388917,
-      "name": "星にききたまえーAsk The Starsー",
-      "nameCN": "",
-      "date": "2022-06-06",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 410748,
       "name": "やじきた学園道中記スピンオフ 星にききたまえ ―Ask The Stars―",
       "nameCN": "",
@@ -53,6 +44,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 464185,
+      "name": "やじきた異世界道中記",
+      "nameCN": "",
+      "date": "2023-11-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -65,11 +65,6 @@
       "relate": "续集",
       "src": 118002,
       "dst": 370319
-    },
-    {
-      "relate": "番外篇",
-      "src": 118002,
-      "dst": 388917
     },
     {
       "relate": "番外篇",
@@ -97,14 +92,19 @@
       "dst": 370319
     },
     {
-      "relate": "主线故事",
-      "src": 388917,
-      "dst": 118002
+      "relate": "续集",
+      "src": 370335,
+      "dst": 464185
     },
     {
       "relate": "主线故事",
       "src": 410748,
       "dst": 118002
+    },
+    {
+      "relate": "前传",
+      "src": 464185,
+      "dst": 370335
     }
   ]
 }

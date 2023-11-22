@@ -32,6 +32,16 @@
       "id": 234863,
       "name": "Fargo Season 4",
       "nameCN": "冰血暴 第四季",
+      "date": "2020-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 464851,
+      "name": "Fargo Season 5",
+      "nameCN": "冰血暴 第五季",
+      "date": "2023-11-21",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -67,6 +77,16 @@
       "relate": "前传",
       "src": 234863,
       "dst": 158855
+    },
+    {
+      "relate": "续集",
+      "src": 234863,
+      "dst": 464851
+    },
+    {
+      "relate": "前传",
+      "src": 464851,
+      "dst": 234863
     }
   ]
 }

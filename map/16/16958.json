@@ -2,15 +2,6 @@
   "id": 16958,
   "node": [
     {
-      "id": 37306,
-      "name": "超電激ストライカー",
-      "nameCN": "超电激冲锋卫士",
-      "date": "2012-07-27",
-      "type": 4,
-      "nsfw": false,
-      "platform": "PC"
-    },
-    {
       "id": 16958,
       "name": "電激ストライカー",
       "nameCN": "电激冲锋卫士",
@@ -18,11 +9,25 @@
       "type": 4,
       "nsfw": false,
       "platform": "PC"
+    },
+    {
+      "id": 37306,
+      "name": "超電激ストライカー",
+      "nameCN": "超电激冲锋卫士",
+      "date": "2012-07-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
     }
   ],
   "relate": [
     {
-      "relate": "主线故事",
+      "relate": "不同演绎",
+      "src": 16958,
+      "dst": 37306
+    },
+    {
+      "relate": "不同演绎",
       "src": 37306,
       "dst": 16958
     }

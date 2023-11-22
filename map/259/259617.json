@@ -1,0 +1,52 @@
+{
+  "id": 259617,
+  "node": [
+    {
+      "id": 259617,
+      "name": "劲爆战士",
+      "nameCN": "劲爆战士",
+      "date": "2008-09-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463621,
+      "name": "劲爆战士 第二季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463623,
+      "name": "劲爆战士3之梦境之战",
+      "nameCN": "劲爆战士 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 259617,
+      "dst": 463621
+    },
+    {
+      "relate": "前传",
+      "src": 463621,
+      "dst": 259617
+    },
+    {
+      "relate": "续集",
+      "src": 463621,
+      "dst": 463623
+    },
+    {
+      "relate": "前传",
+      "src": 463623,
+      "dst": 463621
+    }
+  ]
+}

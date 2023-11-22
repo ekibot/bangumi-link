@@ -1,0 +1,54 @@
+{
+  "id": 337456,
+  "node": [
+    {
+      "id": 337456,
+      "name": "摩尔庄园",
+      "nameCN": "摩尔庄园",
+      "date": "2011-06-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463618,
+      "name": "摩尔庄园 第二季",
+      "nameCN": "",
+      "date": "2012-03-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463619,
+      "name": "摩尔庄园 第三季",
+      "nameCN": "",
+      "date": "2013-03-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 337456,
+      "dst": 463618
+    },
+    {
+      "relate": "前传",
+      "src": 463618,
+      "dst": 337456
+    },
+    {
+      "relate": "续集",
+      "src": 463618,
+      "dst": 463619
+    },
+    {
+      "relate": "前传",
+      "src": 463619,
+      "dst": 463618
+    }
+  ]
+}

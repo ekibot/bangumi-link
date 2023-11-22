@@ -3,11 +3,11 @@
   "node": [
     {
       "id": 1095,
-      "name": "闘神都市Ⅲ",
+      "name": "闘神都市III",
       "nameCN": "斗神都市3",
       "date": "2008-11-28",
       "type": 4,
-      "nsfw": false,
+      "nsfw": true,
       "platform": "PC"
     },
     {
@@ -27,6 +27,15 @@
       "type": 4,
       "nsfw": true,
       "platform": "全部游戏"
+    },
+    {
+      "id": 464295,
+      "name": "闘神都市III",
+      "nameCN": "斗神都市3",
+      "date": "2009-10-05",
+      "type": 1,
+      "nsfw": true,
+      "platform": "小说"
     },
     {
       "id": 92983,
@@ -57,6 +66,11 @@
       "relate": "前传",
       "src": 1095,
       "dst": 111612
+    },
+    {
+      "relate": "番外篇",
+      "src": 1095,
+      "dst": 464295
     },
     {
       "relate": "续集",

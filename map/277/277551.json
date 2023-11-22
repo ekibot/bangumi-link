@@ -18,6 +18,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 464593,
+      "name": "地縛少年花子くん 第2期",
+      "nameCN": "地缚少年花子君 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 464594,
+      "name": "放課後少年花子くん 続篇",
+      "nameCN": "放学后少年花子君 续篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,9 +43,29 @@
       "dst": 412164
     },
     {
+      "relate": "续集",
+      "src": 277551,
+      "dst": 464593
+    },
+    {
       "relate": "主线故事",
       "src": 412164,
       "dst": 277551
+    },
+    {
+      "relate": "续集",
+      "src": 412164,
+      "dst": 464594
+    },
+    {
+      "relate": "前传",
+      "src": 464593,
+      "dst": 277551
+    },
+    {
+      "relate": "前传",
+      "src": 464594,
+      "dst": 412164
     }
   ]
 }

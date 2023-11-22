@@ -1,0 +1,69 @@
+{
+  "id": 466306,
+  "node": [
+    {
+      "id": 466306,
+      "name": "Sherlock Holmes and the Sign of Four",
+      "nameCN": "四签名",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 466308,
+      "name": "Sherlock Holmes and a Study in Scarlet",
+      "nameCN": "血字的研究",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 466309,
+      "name": "Sherlock Holmes and the Baskerville Curse",
+      "nameCN": "巴斯克维尔的诅咒",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 466307,
+      "name": "Sherlock Holmes and the Valley of Fear",
+      "nameCN": "恐怖谷",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 466306,
+      "dst": 466308
+    },
+    {
+      "relate": "续集",
+      "src": 466306,
+      "dst": 466309
+    },
+    {
+      "relate": "前传",
+      "src": 466307,
+      "dst": 466309
+    },
+    {
+      "relate": "续集",
+      "src": 466308,
+      "dst": 466306
+    },
+    {
+      "relate": "前传",
+      "src": 466309,
+      "dst": 466306
+    },
+    {
+      "relate": "续集",
+      "src": 466309,
+      "dst": 466307
+    }
+  ]
+}

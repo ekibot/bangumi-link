@@ -1,0 +1,54 @@
+{
+  "id": 464462,
+  "node": [
+    {
+      "id": 464462,
+      "name": "Halo: Last Light",
+      "nameCN": "光环：末路曙光",
+      "date": "2015-09-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 464469,
+      "name": "Halo: Retribution",
+      "nameCN": "光环：惩戒",
+      "date": "2017-08-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 464517,
+      "name": "Halo: Divine Wind",
+      "nameCN": "光环:神圣之风",
+      "date": "2021-10-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 464462,
+      "dst": 464469
+    },
+    {
+      "relate": "前传",
+      "src": 464469,
+      "dst": 464462
+    },
+    {
+      "relate": "续集",
+      "src": 464469,
+      "dst": 464517
+    },
+    {
+      "relate": "前传",
+      "src": 464517,
+      "dst": 464469
+    }
+  ]
+}

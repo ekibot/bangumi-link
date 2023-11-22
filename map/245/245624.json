@@ -49,8 +49,17 @@
     {
       "id": 433396,
       "name": "ケダモノアラシ－Love me baby!－",
-      "nameCN": "",
+      "nameCN": "野性风暴-Love me baby！-",
       "date": "2023-05-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 461823,
+      "name": "ケダモノアラシ－Bind me baby!－",
+      "nameCN": "",
+      "date": "2023-11-09",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -98,6 +107,11 @@
       "dst": 364487
     },
     {
+      "relate": "续集",
+      "src": 433396,
+      "dst": 461823
+    },
+    {
       "relate": "前传",
       "src": 433398,
       "dst": 297209
@@ -106,6 +120,11 @@
       "relate": "续集",
       "src": 433398,
       "dst": 338573
+    },
+    {
+      "relate": "前传",
+      "src": 461823,
+      "dst": 433396
     }
   ]
 }

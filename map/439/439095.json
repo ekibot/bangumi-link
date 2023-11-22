@@ -1,0 +1,51 @@
+{
+  "id": 439095,
+  "node": [
+    {
+      "id": 439095,
+      "name": "数学荒岛历险记",
+      "nameCN": "数学荒岛历险记",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463626,
+      "name": "数学荒岛历险记2",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463627,
+      "name": "数学荒岛历险记3",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 439095,
+      "dst": 463626
+    },
+    {
+      "relate": "前传",
+      "src": 463626,
+      "dst": 439095
+    },
+    {
+      "relate": "续集",
+      "src": 463626,
+      "dst": 463627
+    },
+    {
+      "relate": "前传",
+      "src": 463627,
+      "dst": 463626
+    }
+  ]
+}

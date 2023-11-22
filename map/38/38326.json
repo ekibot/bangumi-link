@@ -11,6 +11,15 @@
       "platform": "OVA"
     },
     {
+      "id": 43558,
+      "name": "ジョジョの奇妙な冒険",
+      "nameCN": "JOJO的奇妙冒险",
+      "date": "2012-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 85631,
       "name": "ジョジョの奇妙な冒険 スターダストクルセイダース",
       "nameCN": "JOJO的奇妙冒险 星尘斗士",
@@ -33,15 +42,6 @@
       "name": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
       "nameCN": "JOJO的奇妙冒险 不灭钻石",
       "date": "2016-04-01",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 43558,
-      "name": "ジョジョの奇妙な冒険",
-      "nameCN": "JOJO的奇妙冒险",
-      "date": "2012-10-05",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -121,6 +121,11 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 38326,
+      "dst": 43558
+    },
+    {
       "relate": "不同演绎",
       "src": 38326,
       "dst": 85631
@@ -134,6 +139,11 @@
       "relate": "续集",
       "src": 38326,
       "dst": 150490
+    },
+    {
+      "relate": "续集",
+      "src": 43558,
+      "dst": 38326
     },
     {
       "relate": "不同演绎",

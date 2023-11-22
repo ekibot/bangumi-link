@@ -50,6 +50,7 @@
       "id": 402721,
       "name": "All Creatures Great and Small Season 4",
       "nameCN": "万物生灵 第四季",
+      "date": "2023-10-05",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -59,6 +60,14 @@
       "name": "All Creatures Great and Small: 2022 Christmas Special",
       "nameCN": "万物生灵：2022圣诞特别集",
       "date": "2022-12-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 458015,
+      "name": "All Creatures Great and Small: 2023 Christmas Special",
+      "nameCN": "万物生灵：2023圣诞特别集",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -111,6 +120,11 @@
       "dst": 402719
     },
     {
+      "relate": "番外篇",
+      "src": 402721,
+      "dst": 458015
+    },
+    {
       "relate": "主线故事",
       "src": 402750,
       "dst": 351384
@@ -124,6 +138,11 @@
       "relate": "主线故事",
       "src": 412636,
       "dst": 402719
+    },
+    {
+      "relate": "主线故事",
+      "src": 458015,
+      "dst": 402721
     }
   ]
 }

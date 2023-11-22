@@ -1,0 +1,52 @@
+{
+  "id": 445304,
+  "node": [
+    {
+      "id": 445304,
+      "name": "Krapopolis Season 1",
+      "nameCN": "猥城琐事 第一季",
+      "date": "2023-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 460177,
+      "name": "Krapopolis Season 2",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 460178,
+      "name": "Krapopolis Season 3",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 445304,
+      "dst": 460177
+    },
+    {
+      "relate": "前传",
+      "src": 460177,
+      "dst": 445304
+    },
+    {
+      "relate": "续集",
+      "src": 460177,
+      "dst": 460178
+    },
+    {
+      "relate": "前传",
+      "src": 460178,
+      "dst": 460177
+    }
+  ]
+}

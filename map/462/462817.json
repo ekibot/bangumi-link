@@ -1,0 +1,54 @@
+{
+  "id": 462817,
+  "node": [
+    {
+      "id": 462817,
+      "name": "Batman: Earth One",
+      "nameCN": "蝙蝠侠：一号地球",
+      "date": "2012-07-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 462824,
+      "name": "Batman Earth One Vol. 2",
+      "nameCN": "蝙蝠侠：一号地球 第二卷",
+      "date": "2015-05-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 462826,
+      "name": "Batman: Earth One Vol. 3",
+      "nameCN": "蝙蝠侠：一号地球 第三卷",
+      "date": "2021-06-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 462817,
+      "dst": 462824
+    },
+    {
+      "relate": "前传",
+      "src": 462824,
+      "dst": 462817
+    },
+    {
+      "relate": "续集",
+      "src": 462824,
+      "dst": 462826
+    },
+    {
+      "relate": "前传",
+      "src": 462826,
+      "dst": 462824
+    }
+  ]
+}

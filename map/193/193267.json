@@ -36,6 +36,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 465903,
+      "name": "The Loud House Season 5",
+      "nameCN": "喧闹一家亲 第五季",
+      "date": "2020-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 465904,
+      "name": "The Loud House Season 6",
+      "nameCN": "喧闹一家亲 第六季",
+      "date": "2022-03-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 465905,
+      "name": "The Loud House Season 7",
+      "nameCN": "喧闹一家亲 第七季",
+      "date": "2023-05-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -68,6 +95,36 @@
       "relate": "前传",
       "src": 357466,
       "dst": 354327
+    },
+    {
+      "relate": "续集",
+      "src": 357466,
+      "dst": 465903
+    },
+    {
+      "relate": "前传",
+      "src": 465903,
+      "dst": 357466
+    },
+    {
+      "relate": "续集",
+      "src": 465903,
+      "dst": 465904
+    },
+    {
+      "relate": "前传",
+      "src": 465904,
+      "dst": 465903
+    },
+    {
+      "relate": "续集",
+      "src": 465904,
+      "dst": 465905
+    },
+    {
+      "relate": "前传",
+      "src": 465905,
+      "dst": 465904
     }
   ]
 }

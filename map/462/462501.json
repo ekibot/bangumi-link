@@ -1,0 +1,51 @@
+{
+  "id": 462501,
+  "node": [
+    {
+      "id": 462501,
+      "name": "Sherlock Holmes (Stoll film series)",
+      "nameCN": "福尔摩斯（斯托尔系列）",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 462505,
+      "name": "The Hound of the Baskervilles",
+      "nameCN": "巴斯克维尔的猎犬",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 462506,
+      "name": "The Sign of Four",
+      "nameCN": "四签名",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "番外篇",
+      "src": 462501,
+      "dst": 462505
+    },
+    {
+      "relate": "番外篇",
+      "src": 462501,
+      "dst": 462506
+    },
+    {
+      "relate": "主线故事",
+      "src": 462505,
+      "dst": 462501
+    },
+    {
+      "relate": "主线故事",
+      "src": 462506,
+      "dst": 462501
+    }
+  ]
+}

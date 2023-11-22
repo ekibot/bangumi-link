@@ -300,7 +300,7 @@
       "id": 363281,
       "name": "Echo",
       "nameCN": "回声",
-      "date": "2024-01-24",
+      "date": "2024-01-10",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -763,6 +763,15 @@
       "platform": "欧美剧"
     },
     {
+      "id": 211663,
+      "name": "The Defenders",
+      "nameCN": "捍卫者联盟",
+      "date": "2017-08-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 392957,
       "name": "Daredevil: Born Again",
       "nameCN": "夜魔侠：重生",
@@ -793,15 +802,6 @@
       "name": "Iron Fist",
       "nameCN": "铁拳",
       "date": "2017-03-17",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 211663,
-      "name": "The Defenders",
-      "nameCN": "捍卫者联盟",
-      "date": "2017-08-18",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -1215,7 +1215,6 @@
       "id": 282417,
       "name": "Deadpool 3",
       "nameCN": "死侍3",
-      "date": "2024-05-03",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -1473,10 +1472,18 @@
       "platform": "欧美剧"
     },
     {
+      "id": 440667,
+      "name": "Agatha: Coven of Chaos",
+      "nameCN": "阿加莎：混沌女巫团",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 354540,
       "name": "Venom 3",
       "nameCN": "毒液3",
-      "date": "2024-07-12",
+      "date": "2024-11-08",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -1493,6 +1500,7 @@
       "id": 345972,
       "name": "What If...? Season 2",
       "nameCN": "假如…？ 第二季",
+      "date": "2023-12-22",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -1532,6 +1540,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 465709,
+      "name": "What If...? Season 3",
+      "nameCN": "假如…？ 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     },
     {
       "id": 376017,
@@ -2788,6 +2804,11 @@
       "dst": 126726
     },
     {
+      "relate": "不同世界观",
+      "src": 8773,
+      "dst": 211663
+    },
+    {
       "relate": "不同演绎",
       "src": 8773,
       "dst": 392957
@@ -3126,6 +3147,11 @@
       "relate": "相同世界观",
       "src": 130128,
       "dst": 126726
+    },
+    {
+      "relate": "相同世界观",
+      "src": 130128,
+      "dst": 211663
     },
     {
       "relate": "相同世界观",
@@ -4093,7 +4119,7 @@
       "dst": 127576
     },
     {
-      "relate": "不同演绎",
+      "relate": "不同世界观",
       "src": 211663,
       "dst": 8773
     },
@@ -4110,11 +4136,6 @@
     {
       "relate": "相同世界观",
       "src": 211663,
-      "dst": 133697
-    },
-    {
-      "relate": "相同世界观",
-      "src": 211663,
       "dst": 187399
     },
     {
@@ -4125,22 +4146,7 @@
     {
       "relate": "相同世界观",
       "src": 211663,
-      "dst": 220546
-    },
-    {
-      "relate": "相同世界观",
-      "src": 211663,
       "dst": 223003
-    },
-    {
-      "relate": "相同世界观",
-      "src": 211663,
-      "dst": 237432
-    },
-    {
-      "relate": "相同世界观",
-      "src": 211663,
-      "dst": 239871
     },
     {
       "relate": "前传",
@@ -5519,6 +5525,11 @@
     },
     {
       "relate": "相同世界观",
+      "src": 280925,
+      "dst": 440667
+    },
+    {
+      "relate": "相同世界观",
       "src": 280927,
       "dst": 133240
     },
@@ -5923,6 +5934,11 @@
       "dst": 286963
     },
     {
+      "relate": "续集",
+      "src": 345972,
+      "dst": 465709
+    },
+    {
       "relate": "相同世界观",
       "src": 350503,
       "dst": 36150
@@ -6054,6 +6070,11 @@
     },
     {
       "relate": "相同世界观",
+      "src": 440667,
+      "dst": 280925
+    },
+    {
+      "relate": "相同世界观",
       "src": 442080,
       "dst": 178607
     },
@@ -6071,6 +6092,11 @@
       "relate": "前传",
       "src": 449187,
       "dst": 386627
+    },
+    {
+      "relate": "前传",
+      "src": 465709,
+      "dst": 345972
     }
   ]
 }

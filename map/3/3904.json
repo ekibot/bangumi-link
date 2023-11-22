@@ -1,0 +1,54 @@
+{
+  "id": 3904,
+  "node": [
+    {
+      "id": 3904,
+      "name": "FairlyLife",
+      "nameCN": "",
+      "date": "2008-10-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "PC"
+    },
+    {
+      "id": 464004,
+      "name": "ミニミニファンディスク“みくりまくり”",
+      "nameCN": "",
+      "date": "2008-12-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
+    },
+    {
+      "id": 464021,
+      "name": "よりこりまくり。",
+      "nameCN": "",
+      "date": "2009-12-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "全部游戏"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 3904,
+      "dst": 464004
+    },
+    {
+      "relate": "续集",
+      "src": 3904,
+      "dst": 464021
+    },
+    {
+      "relate": "前传",
+      "src": 464004,
+      "dst": 3904
+    },
+    {
+      "relate": "前传",
+      "src": 464021,
+      "dst": 3904
+    }
+  ]
+}
