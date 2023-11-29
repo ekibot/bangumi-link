@@ -113,7 +113,7 @@
       "id": 447962,
       "name": "Predators",
       "nameCN": "新铁血战士",
-      "date": "2010-07-07",
+      "date": "2010-07-09",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -121,11 +121,29 @@
     {
       "id": 448108,
       "name": "The Predator",
-      "nameCN": "铁血战士：掠夺者",
-      "date": "2018-09-06",
+      "nameCN": "铁血战士",
+      "date": "2018-09-13",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 450248,
+      "name": "Prey",
+      "nameCN": "铁血战士：狩猎",
+      "date": "2022-08-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 467447,
+      "name": "Predator: Concrete Jungle",
+      "nameCN": "铁血战士：钢筋丛林",
+      "date": "2005-04-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "全部游戏"
     }
   ],
   "relate": [
@@ -503,6 +521,21 @@
       "relate": "前传",
       "src": 448108,
       "dst": 447962
+    },
+    {
+      "relate": "续集",
+      "src": 448108,
+      "dst": 450248
+    },
+    {
+      "relate": "前传",
+      "src": 450248,
+      "dst": 448108
+    },
+    {
+      "relate": "不同演绎",
+      "src": 467447,
+      "dst": 447958
     }
   ]
 }

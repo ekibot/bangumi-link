@@ -117,6 +117,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 396302,
+      "name": "劇場版 PSYCHO-PASS サイコパス PROVIDENCE",
+      "nameCN": "剧场版 心理测量者 PROVIDENCE",
+      "date": "2023-05-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 277105,
       "name": "PSYCHO-PASS サイコパス 3",
       "nameCN": "心理测量者3",
@@ -130,15 +139,6 @@
       "name": "PSYCHO-PASS サイコパス 3 FIRST INSPECTOR",
       "nameCN": "心理测量者3 FIRST INSPECTOR",
       "date": "2020-03-27",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
-      "id": 396302,
-      "name": "劇場版 PSYCHO-PASS サイコパス PROVIDENCE",
-      "nameCN": "剧场版 心理测量者 PROVIDENCE",
-      "date": "2023-05-12",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -248,12 +248,7 @@
     {
       "relate": "续集",
       "src": 239926,
-      "dst": 277105
-    },
-    {
-      "relate": "前传",
-      "src": 277105,
-      "dst": 239926
+      "dst": 396302
     },
     {
       "relate": "续集",
@@ -262,18 +257,23 @@
     },
     {
       "relate": "前传",
-      "src": 296308,
-      "dst": 277105
-    },
-    {
-      "relate": "续集",
-      "src": 296308,
+      "src": 277105,
       "dst": 396302
     },
     {
       "relate": "前传",
+      "src": 296308,
+      "dst": 277105
+    },
+    {
+      "relate": "前传",
       "src": 396302,
-      "dst": 296308
+      "dst": 239926
+    },
+    {
+      "relate": "续集",
+      "src": 396302,
+      "dst": 277105
     }
   ]
 }

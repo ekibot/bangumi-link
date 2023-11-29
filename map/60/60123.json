@@ -1,0 +1,35 @@
+{
+  "id": 60123,
+  "node": [
+    {
+      "id": 60123,
+      "name": "Charlie and the Chocolate Factory",
+      "nameCN": "查理和巧克力工厂",
+      "date": "2005-07-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 466954,
+      "name": "Wonka",
+      "nameCN": "旺卡",
+      "date": "2023-12-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 60123,
+      "dst": 466954
+    },
+    {
+      "relate": "续集",
+      "src": 466954,
+      "dst": 60123
+    }
+  ]
+}
