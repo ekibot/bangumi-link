@@ -1,0 +1,54 @@
+{
+  "id": 373242,
+  "node": [
+    {
+      "id": 373242,
+      "name": "Jドリーム",
+      "nameCN": "足球之梦",
+      "date": "1993-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 468640,
+      "name": "Jドリーム 飛翔編",
+      "nameCN": "",
+      "date": "1996-05-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 468641,
+      "name": "Jドリーム 完全燃焼編",
+      "nameCN": "",
+      "date": "1998-06-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 373242,
+      "dst": 468640
+    },
+    {
+      "relate": "前传",
+      "src": 468640,
+      "dst": 373242
+    },
+    {
+      "relate": "续集",
+      "src": 468640,
+      "dst": 468641
+    },
+    {
+      "relate": "前传",
+      "src": 468641,
+      "dst": 468640
+    }
+  ]
+}

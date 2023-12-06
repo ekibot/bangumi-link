@@ -1,0 +1,54 @@
+{
+  "id": 453326,
+  "node": [
+    {
+      "id": 453326,
+      "name": "Sherlock Holmes",
+      "nameCN": "福尔摩斯探案集",
+      "date": "1964-05-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 453327,
+      "name": "Sir Arthur Conan Doyle's Sherlock Holmes",
+      "nameCN": "柯南道尔爵士的福尔摩斯",
+      "date": "1968-09-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 459705,
+      "name": "Sherlock Holmes",
+      "nameCN": "福尔摩斯探案集",
+      "date": "1967-08-28",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 453326,
+      "dst": 453327
+    },
+    {
+      "relate": "不同演绎",
+      "src": 453326,
+      "dst": 459705
+    },
+    {
+      "relate": "前传",
+      "src": 453327,
+      "dst": 453326
+    },
+    {
+      "relate": "不同演绎",
+      "src": 459705,
+      "dst": 453326
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 468830,
+  "node": [
+    {
+      "id": 468830,
+      "name": "Todd McFarlane's Spawn",
+      "nameCN": "再生侠 动画版",
+      "date": "1997-05-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 468838,
+      "name": "Todd McFarlane's Spawn 2",
+      "nameCN": "再生侠 动画版 第二季",
+      "date": "1998-05-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 468839,
+      "name": "Todd McFarlane's Spawn 3",
+      "nameCN": "再生侠 动画版 第三季",
+      "date": "1999-05-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 468830,
+      "dst": 468838
+    },
+    {
+      "relate": "前传",
+      "src": 468838,
+      "dst": 468830
+    },
+    {
+      "relate": "续集",
+      "src": 468838,
+      "dst": 468839
+    },
+    {
+      "relate": "前传",
+      "src": 468839,
+      "dst": 468838
+    }
+  ]
+}

@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 389052,
+      "name": "中国惊奇先生 · 极道仙师",
+      "nameCN": "",
+      "date": "2023-11-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 137646
     },
     {
+      "relate": "续集",
+      "src": 98367,
+      "dst": 389052
+    },
+    {
       "relate": "全集",
       "src": 137646,
+      "dst": 98367
+    },
+    {
+      "relate": "前传",
+      "src": 389052,
       "dst": 98367
     }
   ]
