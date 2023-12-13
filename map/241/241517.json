@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 369413,
+      "name": "Babylon Berlin Season 3",
+      "nameCN": "巴比伦柏林 第三季",
+      "date": "2020-01-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 369415,
+      "name": "Babylon Berlin Season 4",
+      "nameCN": "巴比伦柏林 第四季",
+      "date": "2022-10-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 241913,
       "dst": 241517
+    },
+    {
+      "relate": "续集",
+      "src": 241913,
+      "dst": 369413
+    },
+    {
+      "relate": "前传",
+      "src": 369413,
+      "dst": 241913
+    },
+    {
+      "relate": "续集",
+      "src": 369413,
+      "dst": 369415
+    },
+    {
+      "relate": "前传",
+      "src": 369415,
+      "dst": 369413
     }
   ]
 }

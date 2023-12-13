@@ -1,0 +1,54 @@
+{
+  "id": 176292,
+  "node": [
+    {
+      "id": 176292,
+      "name": "BROTHERHOOD FINAL FANTASY XV",
+      "nameCN": "最终幻想15 兄弟情",
+      "date": "2016-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 176296,
+      "name": "KINGSGLAIVE FINAL FANTASY XV",
+      "nameCN": "最终幻想15 王者之剑",
+      "date": "2016-07-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 282591,
+      "name": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE",
+      "nameCN": "最终幻想15 艾汀篇 - 序章",
+      "date": "2019-02-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 176292,
+      "dst": 176296
+    },
+    {
+      "relate": "衍生",
+      "src": 176296,
+      "dst": 176292
+    },
+    {
+      "relate": "前传",
+      "src": 176296,
+      "dst": 282591
+    },
+    {
+      "relate": "续集",
+      "src": 282591,
+      "dst": 176296
+    }
+  ]
+}

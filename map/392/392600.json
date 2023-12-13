@@ -1,0 +1,54 @@
+{
+  "id": 392600,
+  "node": [
+    {
+      "id": 392600,
+      "name": "Dragon Age: The Silent Grove",
+      "nameCN": "龙腾世纪：寂静丛林",
+      "date": "2012-02-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 392601,
+      "name": "Dragon Age: Those Who Speak",
+      "nameCN": "龙腾世纪：进言之人",
+      "date": "2012-08-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 392602,
+      "name": "Dragon Age: Until We Sleep",
+      "nameCN": "龙腾世纪：直到我们入睡",
+      "date": "2013-03-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 392600,
+      "dst": 392601
+    },
+    {
+      "relate": "前传",
+      "src": 392601,
+      "dst": 392600
+    },
+    {
+      "relate": "续集",
+      "src": 392601,
+      "dst": 392602
+    },
+    {
+      "relate": "前传",
+      "src": 392602,
+      "dst": 392601
+    }
+  ]
+}

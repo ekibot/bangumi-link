@@ -1,0 +1,53 @@
+{
+  "id": 15784,
+  "node": [
+    {
+      "id": 15784,
+      "name": ".hack//CELL",
+      "nameCN": "",
+      "date": "2006-09-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 28799,
+      "name": ".hack//Alcor 破軍の序曲",
+      "nameCN": ".hack//Alcor 破軍序曲",
+      "date": "2007-03-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 28801,
+      "name": ".hack//GnU",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 15784,
+      "dst": 28799
+    },
+    {
+      "relate": "续集",
+      "src": 28799,
+      "dst": 15784
+    },
+    {
+      "relate": "前传",
+      "src": 28799,
+      "dst": 28801
+    },
+    {
+      "relate": "续集",
+      "src": 28801,
+      "dst": 28799
+    }
+  ]
+}
