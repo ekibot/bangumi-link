@@ -55,6 +55,15 @@
       "platform": "OVA"
     },
     {
+      "id": 199228,
+      "name": "コードギアス 復活のルルーシュ",
+      "nameCN": "Code Geass 复活的鲁路修",
+      "date": "2019-02-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 199229,
       "name": "コードギアス 反逆のルルーシュ I 興道",
       "nameCN": "Code Geass 反叛的鲁路修 I 兴道",
@@ -77,6 +86,14 @@
       "name": "コードギアス 反逆のルルーシュ III 皇道",
       "nameCN": "Code Geass 反叛的鲁路修 III 皇道",
       "date": "2018-05-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 321469,
+      "name": "コードギアス 奪還のロゼ 第1幕",
+      "nameCN": "Code Geass 夺还的罗赛 第1幕",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -161,21 +178,28 @@
       "platform": "剧场版"
     },
     {
-      "id": 199228,
-      "name": "コードギアス 復活のルルーシュ",
-      "nameCN": "Code Geass 复活的鲁路修",
-      "date": "2019-02-09",
+      "id": 470832,
+      "name": "コードギアス 奪還のロゼ 第2幕",
+      "nameCN": "Code Geass 夺还的罗赛 第2幕",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
     },
     {
-      "id": 321469,
-      "name": "コードギアス 奪還のゼット",
-      "nameCN": "Code Geass 夺还之Z",
+      "id": 470833,
+      "name": "コードギアス 奪還のロゼ 第3幕",
+      "nameCN": "Code Geass 夺还的罗赛 第3幕",
       "type": 2,
       "nsfw": false,
-      "platform": "WEB"
+      "platform": "剧场版"
+    },
+    {
+      "id": 470834,
+      "name": "コードギアス 奪還のロゼ 第4幕",
+      "nameCN": "Code Geass 夺还的罗赛 第4幕",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -205,6 +229,11 @@
       "dst": 99952
     },
     {
+      "relate": "不同世界观",
+      "src": 8,
+      "dst": 199228
+    },
+    {
       "relate": "不同演绎",
       "src": 8,
       "dst": 199229
@@ -218,6 +247,11 @@
       "relate": "不同演绎",
       "src": 8,
       "dst": 199231
+    },
+    {
+      "relate": "相同世界观",
+      "src": 8,
+      "dst": 321469
     },
     {
       "relate": "续集",
@@ -278,6 +312,11 @@
       "relate": "不同演绎",
       "src": 793,
       "dst": 199231
+    },
+    {
+      "relate": "相同世界观",
+      "src": 793,
+      "dst": 321469
     },
     {
       "relate": "相同世界观",
@@ -390,11 +429,6 @@
       "dst": 199231
     },
     {
-      "relate": "续集",
-      "src": 199228,
-      "dst": 321469
-    },
-    {
       "relate": "不同演绎",
       "src": 199229,
       "dst": 8
@@ -450,9 +484,44 @@
       "dst": 199230
     },
     {
-      "relate": "前传",
+      "relate": "相同世界观",
       "src": 321469,
-      "dst": 199228
+      "dst": 8
+    },
+    {
+      "relate": "相同世界观",
+      "src": 321469,
+      "dst": 793
+    },
+    {
+      "relate": "续集",
+      "src": 321469,
+      "dst": 470832
+    },
+    {
+      "relate": "前传",
+      "src": 470832,
+      "dst": 321469
+    },
+    {
+      "relate": "续集",
+      "src": 470832,
+      "dst": 470833
+    },
+    {
+      "relate": "前传",
+      "src": 470833,
+      "dst": 470832
+    },
+    {
+      "relate": "续集",
+      "src": 470833,
+      "dst": 470834
+    },
+    {
+      "relate": "前传",
+      "src": 470834,
+      "dst": 470833
     }
   ]
 }
