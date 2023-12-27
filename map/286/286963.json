@@ -1,0 +1,53 @@
+{
+  "id": 286963,
+  "node": [
+    {
+      "id": 286963,
+      "name": "What If...? Season 1",
+      "nameCN": "假如…？ 第一季",
+      "date": "2021-08-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 345972,
+      "name": "What If...? Season 2",
+      "nameCN": "假如…？ 第二季",
+      "date": "2023-12-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 465709,
+      "name": "What If...? Season 3",
+      "nameCN": "假如…？ 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 286963,
+      "dst": 345972
+    },
+    {
+      "relate": "前传",
+      "src": 345972,
+      "dst": 286963
+    },
+    {
+      "relate": "续集",
+      "src": 345972,
+      "dst": 465709
+    },
+    {
+      "relate": "前传",
+      "src": 465709,
+      "dst": 345972
+    }
+  ]
+}

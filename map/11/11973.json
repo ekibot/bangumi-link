@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 471868,
+      "name": "うた☆プリ劇場版シリーズ QUARTET NIGHT編",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -122,8 +130,18 @@
       "dst": 382346
     },
     {
+      "relate": "续集",
+      "src": 331652,
+      "dst": 471868
+    },
+    {
       "relate": "主线故事",
       "src": 382346,
+      "dst": 331652
+    },
+    {
+      "relate": "前传",
+      "src": 471868,
       "dst": 331652
     }
   ]
