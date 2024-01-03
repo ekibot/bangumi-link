@@ -13,6 +13,16 @@
       "id": 53286,
       "name": "GunSmith Cats Burst",
       "nameCN": "",
+      "date": "2005-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 109870,
+      "name": "GUNSMITH CATS",
+      "nameCN": "猫眼女枪手",
+      "date": "1991-12-16",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -27,7 +37,12 @@
     {
       "relate": "前传",
       "src": 53286,
-      "dst": 53285
+      "dst": 109870
+    },
+    {
+      "relate": "续集",
+      "src": 109870,
+      "dst": 53286
     }
   ]
 }

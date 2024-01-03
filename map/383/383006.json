@@ -1,0 +1,73 @@
+{
+  "id": 383006,
+  "node": [
+    {
+      "id": 383006,
+      "name": "劣情欲求",
+      "nameCN": "",
+      "date": "2022-05-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 395949,
+      "name": "快楽中毒",
+      "nameCN": "",
+      "date": "2021-11-25",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 439706,
+      "name": "深愛一途",
+      "nameCN": "",
+      "date": "2023-05-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 472814,
+      "name": "愛執染着",
+      "nameCN": "",
+      "date": "2023-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 383006,
+      "dst": 395949
+    },
+    {
+      "relate": "续集",
+      "src": 383006,
+      "dst": 439706
+    },
+    {
+      "relate": "续集",
+      "src": 395949,
+      "dst": 383006
+    },
+    {
+      "relate": "前传",
+      "src": 439706,
+      "dst": 383006
+    },
+    {
+      "relate": "续集",
+      "src": 439706,
+      "dst": 472814
+    },
+    {
+      "relate": "前传",
+      "src": 472814,
+      "dst": 439706
+    }
+  ]
+}
