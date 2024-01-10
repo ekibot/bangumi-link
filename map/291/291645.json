@@ -90,6 +90,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 473672,
+      "name": "梦幻书院 第九季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -179,8 +187,18 @@
       "dst": 431443
     },
     {
+      "relate": "续集",
+      "src": 424486,
+      "dst": 473672
+    },
+    {
       "relate": "主线故事",
       "src": 431443,
+      "dst": 424486
+    },
+    {
+      "relate": "前传",
+      "src": 473672,
       "dst": 424486
     }
   ]

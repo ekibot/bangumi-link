@@ -1,0 +1,54 @@
+{
+  "id": 298728,
+  "node": [
+    {
+      "id": 298728,
+      "name": "Star Trek: Picard Season 1",
+      "nameCN": "星际迷航：皮卡德 第一季",
+      "date": "2020-01-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 366515,
+      "name": "Star Trek: Picard Season 2",
+      "nameCN": "星际迷航：皮卡德 第二季",
+      "date": "2022-03-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 400804,
+      "name": "Star Trek: Picard Season 3",
+      "nameCN": "星际迷航：皮卡德 第三季",
+      "date": "2023-02-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 298728,
+      "dst": 366515
+    },
+    {
+      "relate": "前传",
+      "src": 366515,
+      "dst": 298728
+    },
+    {
+      "relate": "续集",
+      "src": 366515,
+      "dst": 400804
+    },
+    {
+      "relate": "前传",
+      "src": 400804,
+      "dst": 366515
+    }
+  ]
+}

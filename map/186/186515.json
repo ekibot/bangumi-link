@@ -205,6 +205,22 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 473832,
+      "name": "劇場版 BanG Dream! It's MyGO!!!!! 前編 春の陽だまり、迷い猫",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 473833,
+      "name": "劇場版 BanG Dream! It's MyGO!!!!! 後編 うたう、僕らになれるうた &amp; FILM LIVE",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -414,6 +430,16 @@
       "dst": 454684
     },
     {
+      "relate": "总集篇",
+      "src": 428735,
+      "dst": 473832
+    },
+    {
+      "relate": "总集篇",
+      "src": 428735,
+      "dst": 473833
+    },
+    {
       "relate": "主线故事",
       "src": 448391,
       "dst": 428735
@@ -432,6 +458,26 @@
       "relate": "前传",
       "src": 454684,
       "dst": 428735
+    },
+    {
+      "relate": "全集",
+      "src": 473832,
+      "dst": 428735
+    },
+    {
+      "relate": "续集",
+      "src": 473832,
+      "dst": 473833
+    },
+    {
+      "relate": "全集",
+      "src": 473833,
+      "dst": 428735
+    },
+    {
+      "relate": "前传",
+      "src": 473833,
+      "dst": 473832
     }
   ]
 }
