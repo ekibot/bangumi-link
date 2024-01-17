@@ -5,6 +5,7 @@
       "id": 203126,
       "name": "瞳・元気KINGDOM",
       "nameCN": "凝眸深处",
+      "date": "1994-07-19",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -13,6 +14,16 @@
       "id": 203127,
       "name": "アルペジオ―瞳・元気番外編",
       "nameCN": "",
+      "date": "1997-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 475437,
+      "name": "ハローハロー NEXT KINGDOM 瞳・元気次世代編",
+      "nameCN": "哈啰哈啰 NEXT KINGDOM",
+      "date": "2016-12-20",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -25,8 +36,18 @@
       "dst": 203127
     },
     {
+      "relate": "续集",
+      "src": 203126,
+      "dst": 475437
+    },
+    {
       "relate": "主线故事",
       "src": 203127,
+      "dst": 203126
+    },
+    {
+      "relate": "前传",
+      "src": 475437,
       "dst": 203126
     }
   ]

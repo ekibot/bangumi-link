@@ -1,0 +1,54 @@
+{
+  "id": 475416,
+  "node": [
+    {
+      "id": 475416,
+      "name": "Howl's Moving Castle",
+      "nameCN": "哈尔的移动城堡",
+      "date": "1986-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 475417,
+      "name": "Castle in the Air",
+      "nameCN": "飞天魔毯",
+      "date": "1990-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 475420,
+      "name": "House of Many Ways",
+      "nameCN": "迷宫之屋",
+      "date": "2008-06-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 475416,
+      "dst": 475417
+    },
+    {
+      "relate": "前传",
+      "src": 475417,
+      "dst": 475416
+    },
+    {
+      "relate": "续集",
+      "src": 475417,
+      "dst": 475420
+    },
+    {
+      "relate": "前传",
+      "src": 475420,
+      "dst": 475417
+    }
+  ]
+}

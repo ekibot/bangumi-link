@@ -390,8 +390,8 @@
     },
     {
       "id": 419828,
-      "name": "My Little Pony: Tell Your Tale",
-      "nameCN": "小马宝莉：小马国大小事",
+      "name": "My Little Pony: Tell Your Tale Season 1",
+      "nameCN": "小马宝莉：小马国大小事 第一季",
       "date": "2022-04-07",
       "type": 2,
       "nsfw": false,
@@ -414,6 +414,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 474841,
+      "name": "My Little Pony: Tell Your Tale Season 2",
+      "nameCN": "小马宝莉：小马国大小事 第二季",
+      "date": "2024-01-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     },
     {
       "id": 455066,
@@ -1021,6 +1030,11 @@
       "dst": 416736
     },
     {
+      "relate": "续集",
+      "src": 419828,
+      "dst": 474841
+    },
+    {
       "relate": "相同世界观",
       "src": 419829,
       "dst": 29870
@@ -1099,6 +1113,11 @@
       "relate": "前传",
       "src": 461916,
       "dst": 455066
+    },
+    {
+      "relate": "前传",
+      "src": 474841,
+      "dst": 419828
     }
   ]
 }
