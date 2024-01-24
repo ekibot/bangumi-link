@@ -18,17 +18,36 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 475782,
+      "name": "シャンフロ劇場",
+      "nameCN": "香境剧场",
+      "date": "2023-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
     {
-      "relate": "番外篇",
+      "relate": "衍生",
       "src": 390980,
       "dst": 466331
     },
     {
+      "relate": "衍生",
+      "src": 390980,
+      "dst": 475782
+    },
+    {
       "relate": "主线故事",
       "src": 466331,
+      "dst": 390980
+    },
+    {
+      "relate": "主线故事",
+      "src": 475782,
       "dst": 390980
     }
   ]

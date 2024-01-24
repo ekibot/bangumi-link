@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 430148,
-      "name": "Clone High Season 1",
-      "nameCN": "克隆高校 第一季",
+      "name": "Clone High",
+      "nameCN": "克隆高校",
       "date": "2002-11-02",
       "type": 2,
       "nsfw": false,
@@ -12,9 +12,18 @@
     },
     {
       "id": 430150,
-      "name": "Clone High",
-      "nameCN": "克隆高校",
+      "name": "Clone High Season 1",
+      "nameCN": "克隆高校 第一季",
       "date": "2023-05-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 476536,
+      "name": "Clone High Season 2",
+      "nameCN": "克隆高校 第二季",
+      "date": "2024-02-01",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 430150,
       "dst": 430148
+    },
+    {
+      "relate": "续集",
+      "src": 430150,
+      "dst": 476536
+    },
+    {
+      "relate": "前传",
+      "src": 476536,
+      "dst": 430150
     }
   ]
 }
