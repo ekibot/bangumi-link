@@ -27,6 +27,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 477456,
+      "name": "楽園追放 心のレゾナンス",
+      "nameCN": "乐园追放 心之共鸣",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -39,6 +47,16 @@
       "relate": "续集",
       "src": 37395,
       "dst": 144540
+    },
+    {
+      "relate": "续集",
+      "src": 37395,
+      "dst": 477456
+    },
+    {
+      "relate": "前传",
+      "src": 477456,
+      "dst": 37395
     }
   ]
 }
