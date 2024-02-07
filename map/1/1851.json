@@ -53,6 +53,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 478488,
+      "name": "Angel Beats! The 4コマ お空の死んだ世界から",
+      "nameCN": "",
+      "date": "2014-10-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -82,9 +91,24 @@
       "dst": 270568
     },
     {
+      "relate": "番外篇",
+      "src": 1851,
+      "dst": 478488
+    },
+    {
+      "relate": "续集",
+      "src": 54370,
+      "dst": 478488
+    },
+    {
       "relate": "主线故事",
       "src": 120930,
       "dst": 1851
+    },
+    {
+      "relate": "前传",
+      "src": 478488,
+      "dst": 54370
     }
   ]
 }
