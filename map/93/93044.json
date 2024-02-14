@@ -53,6 +53,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 479825,
+      "name": "Frozen III",
+      "nameCN": "冰雪奇缘3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -97,6 +105,11 @@
       "dst": 439585
     },
     {
+      "relate": "续集",
+      "src": 128131,
+      "dst": 479825
+    },
+    {
       "relate": "主线故事",
       "src": 210599,
       "dst": 93044
@@ -114,6 +127,11 @@
     {
       "relate": "主线故事",
       "src": 439585,
+      "dst": 128131
+    },
+    {
+      "relate": "前传",
+      "src": 479825,
       "dst": 128131
     }
   ]
