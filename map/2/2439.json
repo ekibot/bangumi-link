@@ -65,6 +65,33 @@
       "platform": "剧场版"
     },
     {
+      "id": 18575,
+      "name": "CLOVER",
+      "nameCN": "三叶草",
+      "date": "1999-08-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 2478,
+      "name": "こばと。",
+      "nameCN": "小鸠。",
+      "date": "2009-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 113514,
+      "name": "Wish",
+      "nameCN": "",
+      "date": "1997-12-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 2894,
       "name": "ツバサ TOKYO REVELATIONS",
       "nameCN": "翼·年代记 东京默示录",
@@ -136,6 +163,21 @@
       "relate": "番外篇",
       "src": 2891,
       "dst": 2893
+    },
+    {
+      "relate": "不同世界观",
+      "src": 2891,
+      "dst": 18575
+    },
+    {
+      "relate": "相同世界观",
+      "src": 2478,
+      "dst": 113514
+    },
+    {
+      "relate": "不同世界观",
+      "src": 2891,
+      "dst": 113514
     },
     {
       "relate": "前传",
@@ -236,6 +278,21 @@
       "relate": "前传",
       "src": 11598,
       "dst": 4859
+    },
+    {
+      "relate": "不同世界观",
+      "src": 18575,
+      "dst": 2891
+    },
+    {
+      "relate": "相同世界观",
+      "src": 113514,
+      "dst": 2478
+    },
+    {
+      "relate": "不同世界观",
+      "src": 113514,
+      "dst": 2891
     }
   ]
 }
