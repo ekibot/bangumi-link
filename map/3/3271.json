@@ -29,6 +29,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 425222,
+      "name": "アイドルマスター シャイニーカラーズ",
+      "nameCN": "偶像大师 闪耀色彩",
+      "date": "2024-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 47691,
       "name": "THE IDOLM@STER Live For You!",
       "nameCN": "偶像大师 Live For You!",
@@ -245,20 +254,20 @@
       "platform": "其他"
     },
     {
-      "id": 425222,
-      "name": "アイドルマスター シャイニーカラーズ",
-      "nameCN": "偶像大师 闪耀色彩",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 354417,
       "name": "アイドルマスター シンデレラガールズ コミックアンソロジー",
       "nameCN": "偶像大师 灰姑娘女孩 Comics Anthology",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 483362,
+      "name": "アイドルマスター シャイニーカラーズ 2nd season",
+      "nameCN": "偶像大师 闪耀色彩 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -271,6 +280,11 @@
       "relate": "不同世界观",
       "src": 3271,
       "dst": 64172
+    },
+    {
+      "relate": "不同世界观",
+      "src": 3271,
+      "dst": 425222
     },
     {
       "relate": "不同世界观",
@@ -331,6 +345,11 @@
       "relate": "不同世界观",
       "src": 11577,
       "dst": 376703
+    },
+    {
+      "relate": "相同世界观",
+      "src": 11577,
+      "dst": 425222
     },
     {
       "relate": "主线故事",
@@ -466,6 +485,11 @@
       "relate": "不同世界观",
       "src": 101399,
       "dst": 376703
+    },
+    {
+      "relate": "相同世界观",
+      "src": 101399,
+      "dst": 425222
     },
     {
       "relate": "前传",
@@ -773,9 +797,29 @@
       "dst": 309807
     },
     {
-      "relate": "衍生",
+      "relate": "不同世界观",
       "src": 425222,
-      "dst": 343607
+      "dst": 3271
+    },
+    {
+      "relate": "相同世界观",
+      "src": 425222,
+      "dst": 11577
+    },
+    {
+      "relate": "相同世界观",
+      "src": 425222,
+      "dst": 101399
+    },
+    {
+      "relate": "续集",
+      "src": 425222,
+      "dst": 483362
+    },
+    {
+      "relate": "前传",
+      "src": 483362,
+      "dst": 425222
     }
   ]
 }

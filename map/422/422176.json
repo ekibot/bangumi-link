@@ -1,0 +1,70 @@
+{
+  "id": 422176,
+  "node": [
+    {
+      "id": 422176,
+      "name": "BabyRiki",
+      "nameCN": "瑞奇宝宝",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 422178,
+      "name": "BabyRiki Season 2",
+      "nameCN": "瑞奇宝宝 第二季",
+      "date": "2018-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 482744,
+      "name": "BabyRiki Season 3",
+      "nameCN": "瑞奇宝宝 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 482745,
+      "name": "BabyRiki Season 4",
+      "nameCN": "瑞奇宝宝 第四季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 422176,
+      "dst": 422178
+    },
+    {
+      "relate": "前传",
+      "src": 422178,
+      "dst": 422176
+    },
+    {
+      "relate": "续集",
+      "src": 422178,
+      "dst": 482744
+    },
+    {
+      "relate": "前传",
+      "src": 482744,
+      "dst": 422178
+    },
+    {
+      "relate": "续集",
+      "src": 482744,
+      "dst": 482745
+    },
+    {
+      "relate": "前传",
+      "src": 482745,
+      "dst": 482744
+    }
+  ]
+}

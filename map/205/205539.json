@@ -1,0 +1,52 @@
+{
+  "id": 205539,
+  "node": [
+    {
+      "id": 205539,
+      "name": "那萨尔丁",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 483785,
+      "name": "那萨尔丁 第二季",
+      "nameCN": "那萨尔丁 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 483789,
+      "name": "那萨尔丁东游记",
+      "nameCN": "那萨尔丁东游记",
+      "date": "2020-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 205539,
+      "dst": 483785
+    },
+    {
+      "relate": "前传",
+      "src": 483785,
+      "dst": 205539
+    },
+    {
+      "relate": "续集",
+      "src": 483785,
+      "dst": 483789
+    },
+    {
+      "relate": "前传",
+      "src": 483789,
+      "dst": 483785
+    }
+  ]
+}
