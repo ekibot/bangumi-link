@@ -20,15 +20,6 @@
       "platform": "TV"
     },
     {
-      "id": 455209,
-      "name": "しんでゅありてぃ科学講座",
-      "nameCN": "",
-      "date": "2023-07-12",
-      "type": 2,
-      "nsfw": false,
-      "platform": "WEB"
-    },
-    {
       "id": 456042,
       "name": "SYNDUALITY Noir 第2クール",
       "nameCN": "奇异贤伴 黑色天使 第2部分",
@@ -36,6 +27,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 455209,
+      "name": "しんでゅありてぃ科学講座",
+      "nameCN": "",
+      "date": "2023-07-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -46,6 +46,11 @@
     },
     {
       "relate": "衍生",
+      "src": 369401,
+      "dst": 456042
+    },
+    {
+      "relate": "主线故事",
       "src": 401301,
       "dst": 369401
     },
@@ -63,6 +68,11 @@
       "relate": "主线故事",
       "src": 455209,
       "dst": 401301
+    },
+    {
+      "relate": "衍生",
+      "src": 456042,
+      "dst": 369401
     },
     {
       "relate": "前传",
