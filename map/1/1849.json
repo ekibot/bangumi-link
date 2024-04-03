@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 487782,
+      "name": "ケロロ軍曹 アニメ新プロジェクト",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -97,6 +105,11 @@
       "dst": 90005
     },
     {
+      "relate": "续集",
+      "src": 1849,
+      "dst": 487782
+    },
+    {
       "relate": "主线故事",
       "src": 3761,
       "dst": 1849
@@ -124,6 +137,11 @@
     {
       "relate": "不同演绎",
       "src": 90005,
+      "dst": 1849
+    },
+    {
+      "relate": "前传",
+      "src": 487782,
       "dst": 1849
     }
   ]
