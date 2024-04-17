@@ -18,6 +18,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 489874,
+      "name": "偷星九月天·前传",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 172255
     },
     {
+      "relate": "前传",
+      "src": 55046,
+      "dst": 489874
+    },
+    {
       "relate": "主线故事",
       "src": 172255,
+      "dst": 55046
+    },
+    {
+      "relate": "续集",
+      "src": 489874,
       "dst": 55046
     }
   ]
