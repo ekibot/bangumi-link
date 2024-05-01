@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 74484,
+      "name": "同級生2",
+      "nameCN": "同级生2",
+      "date": "1996-03-22",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
+    },
+    {
+      "id": 102188,
+      "name": "同級生2 Special 卒業生",
+      "nameCN": "同级生2 Special 卒业生",
+      "date": "1999-08-27",
+      "type": 2,
+      "nsfw": true,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -28,8 +46,28 @@
     },
     {
       "relate": "前传",
+      "src": 74484,
+      "dst": 96675
+    },
+    {
+      "relate": "番外篇",
+      "src": 74484,
+      "dst": 102188
+    },
+    {
+      "relate": "前传",
       "src": 96675,
       "dst": 74483
+    },
+    {
+      "relate": "续集",
+      "src": 96675,
+      "dst": 74484
+    },
+    {
+      "relate": "主线故事",
+      "src": 102188,
+      "dst": 74484
     }
   ]
 }

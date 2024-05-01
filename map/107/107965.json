@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 107965,
-      "name": "妖刀记",
+      "name": "妖刀記",
       "nameCN": "妖刀记",
       "type": 1,
       "nsfw": false,
@@ -11,8 +11,17 @@
     },
     {
       "id": 419445,
-      "name": "鱼龙舞",
+      "name": "魚龍舞",
       "nameCN": "鱼龙舞",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 492051,
+      "name": "奇鋒錄",
+      "nameCN": "奇锋录",
+      "date": "2023-04-28",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -26,7 +35,17 @@
     },
     {
       "relate": "续集",
+      "src": 107965,
+      "dst": 492051
+    },
+    {
+      "relate": "续集",
       "src": 419445,
+      "dst": 107965
+    },
+    {
+      "relate": "前传",
+      "src": 492051,
       "dst": 107965
     }
   ]
