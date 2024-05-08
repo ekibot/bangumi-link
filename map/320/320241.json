@@ -21,9 +21,26 @@
     },
     {
       "id": 453314,
-      "name": "永生 第三季",
-      "nameCN": "",
+      "name": "永生之气壮山河",
+      "nameCN": "永生 第三季",
       "date": "2024-04-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 493609,
+      "name": "永生之海噬仙灵",
+      "nameCN": "永生 第四季",
+      "date": "2024-07-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 487853,
+      "name": "永生之太元仙府",
+      "nameCN": "",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -49,6 +66,26 @@
       "relate": "前传",
       "src": 453314,
       "dst": 405213
+    },
+    {
+      "relate": "续集",
+      "src": 453314,
+      "dst": 493609
+    },
+    {
+      "relate": "前传",
+      "src": 487853,
+      "dst": 493609
+    },
+    {
+      "relate": "前传",
+      "src": 493609,
+      "dst": 453314
+    },
+    {
+      "relate": "续集",
+      "src": 493609,
+      "dst": 487853
     }
   ]
 }

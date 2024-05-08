@@ -11,10 +11,28 @@
       "platform": "剧场版"
     },
     {
+      "id": 47146,
+      "name": "麥兜菠蘿油王子",
+      "nameCN": "麦兜菠萝油王子",
+      "date": "2004-06-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 47147,
       "name": "麥兜噹噹伴我心",
       "nameCN": "麦兜当当伴我心",
       "date": "2012-07-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 47144,
+      "name": "麥兜故事",
+      "nameCN": "麦兜故事",
+      "date": "2001-12-15",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -31,9 +49,29 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 2310,
+      "dst": 47146
+    },
+    {
       "relate": "续集",
       "src": 2310,
       "dst": 47147
+    },
+    {
+      "relate": "续集",
+      "src": 47144,
+      "dst": 47146
+    },
+    {
+      "relate": "续集",
+      "src": 47146,
+      "dst": 2310
+    },
+    {
+      "relate": "前传",
+      "src": 47146,
+      "dst": 47144
     },
     {
       "relate": "前传",
