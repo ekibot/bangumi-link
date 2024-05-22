@@ -70,18 +70,17 @@
       "platform": "欧美剧"
     },
     {
-      "id": 398077,
-      "name": "House of the Dragon Season 2",
-      "nameCN": "龙之家族 第二季",
-      "date": "2024-06-16",
+      "id": 429521,
+      "name": "A Knight of the Seven Kingdoms: The Hedge Knight",
+      "nameCN": "七王国的骑士",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
     },
     {
-      "id": 429521,
-      "name": "A Knight of the Seven Kingdoms: The Hedge Knight",
-      "nameCN": "七王国的骑士",
+      "id": 494631,
+      "name": "House of the Dragon Season 3",
+      "nameCN": "龙之家族 第三季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -139,6 +138,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 398077,
+      "name": "House of the Dragon Season 2",
+      "nameCN": "龙之家族 第二季",
+      "date": "2024-06-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -180,12 +188,12 @@
     {
       "relate": "前传",
       "src": 15877,
-      "dst": 398077
+      "dst": 429521
     },
     {
       "relate": "前传",
       "src": 15877,
-      "dst": 429521
+      "dst": 494631
     },
     {
       "relate": "前传",
@@ -288,19 +296,29 @@
       "dst": 15877
     },
     {
-      "relate": "续集",
-      "src": 398077,
-      "dst": 15877
-    },
-    {
       "relate": "前传",
       "src": 398077,
       "dst": 293860
     },
     {
       "relate": "续集",
+      "src": 398077,
+      "dst": 494631
+    },
+    {
+      "relate": "续集",
       "src": 429521,
       "dst": 15877
+    },
+    {
+      "relate": "续集",
+      "src": 494631,
+      "dst": 15877
+    },
+    {
+      "relate": "前传",
+      "src": 494631,
+      "dst": 398077
     }
   ]
 }

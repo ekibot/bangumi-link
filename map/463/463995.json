@@ -1,0 +1,52 @@
+{
+  "id": 463995,
+  "node": [
+    {
+      "id": 463995,
+      "name": "SHOGUN 将軍",
+      "nameCN": "幕府将军",
+      "date": "2024-02-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 495385,
+      "name": "SHOGUN 将軍 シーズン2",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 495386,
+      "name": "SHOGUN 将軍 シーズン3",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 463995,
+      "dst": 495385
+    },
+    {
+      "relate": "前传",
+      "src": 495385,
+      "dst": 463995
+    },
+    {
+      "relate": "续集",
+      "src": 495385,
+      "dst": 495386
+    },
+    {
+      "relate": "前传",
+      "src": 495386,
+      "dst": 495385
+    }
+  ]
+}

@@ -11,25 +11,63 @@
       "platform": "OVA"
     },
     {
-      "id": 214214,
-      "name": "電影少女 -VIDEO GIRL AI-",
+      "id": 229895,
+      "name": "電影少女 -VIDEO GIRL AI 2018-",
       "nameCN": "电影少女",
-      "date": "1991-06-29",
+      "date": "2018-01-13",
       "type": 6,
       "nsfw": false,
-      "platform": "其他"
+      "platform": "日剧"
+    },
+    {
+      "id": 270053,
+      "name": "電影少女 -VIDEO GIRL AI 2018- 特別編",
+      "nameCN": "电影少女 特别篇",
+      "date": "2019-01-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 272033,
+      "name": "電影少女 -VIDEO GIRL MAI 2019-",
+      "nameCN": "电影少女 第二季",
+      "date": "2019-04-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
     {
       "relate": "不同演绎",
       "src": 1583,
-      "dst": 214214
+      "dst": 229895
     },
     {
       "relate": "不同演绎",
-      "src": 214214,
+      "src": 229895,
       "dst": 1583
+    },
+    {
+      "relate": "番外篇",
+      "src": 229895,
+      "dst": 270053
+    },
+    {
+      "relate": "续集",
+      "src": 229895,
+      "dst": 272033
+    },
+    {
+      "relate": "主线故事",
+      "src": 270053,
+      "dst": 229895
+    },
+    {
+      "relate": "前传",
+      "src": 272033,
+      "dst": 229895
     }
   ]
 }
