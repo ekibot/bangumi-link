@@ -1,0 +1,72 @@
+{
+  "id": 145139,
+  "node": [
+    {
+      "id": 145139,
+      "name": "2001: A Space Odyssey",
+      "nameCN": "2001太空漫游",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 496577,
+      "name": "2010: Odyssey Two",
+      "nameCN": "2010",
+      "date": "1984-01-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 496600,
+      "name": "2061: Odyssey Three",
+      "nameCN": "2061：太空漫游",
+      "date": "1987-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 496602,
+      "name": "3001: The Final Odyssey",
+      "nameCN": "3001：太空漫游",
+      "date": "1998-01-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 145139,
+      "dst": 496577
+    },
+    {
+      "relate": "前传",
+      "src": 496577,
+      "dst": 145139
+    },
+    {
+      "relate": "续集",
+      "src": 496577,
+      "dst": 496600
+    },
+    {
+      "relate": "前传",
+      "src": 496600,
+      "dst": 496577
+    },
+    {
+      "relate": "续集",
+      "src": 496600,
+      "dst": 496602
+    },
+    {
+      "relate": "前传",
+      "src": 496602,
+      "dst": 496600
+    }
+  ]
+}

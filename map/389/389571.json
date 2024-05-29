@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 496391,
+      "name": "マッシュル-MASHLE- 続編",
+      "nameCN": "物理魔法使马修 续篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 443493,
       "dst": 389571
+    },
+    {
+      "relate": "续集",
+      "src": 443493,
+      "dst": 496391
+    },
+    {
+      "relate": "前传",
+      "src": 496391,
+      "dst": 443493
     }
   ]
 }

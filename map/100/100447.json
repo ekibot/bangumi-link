@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 168213,
+      "name": "Genocidal Organ",
+      "nameCN": "虐杀器官",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -41,6 +49,11 @@
       "dst": 118784
     },
     {
+      "relate": "不同演绎",
+      "src": 100447,
+      "dst": 168213
+    },
+    {
       "relate": "相同世界观",
       "src": 100448,
       "dst": 100447
@@ -59,6 +72,11 @@
       "relate": "相同世界观",
       "src": 118784,
       "dst": 100448
+    },
+    {
+      "relate": "不同演绎",
+      "src": 168213,
+      "dst": 100447
     }
   ]
 }
