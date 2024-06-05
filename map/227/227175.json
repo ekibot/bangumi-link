@@ -2,15 +2,6 @@
   "id": 227175,
   "node": [
     {
-      "id": 338617,
-      "name": "ニンジャバットマン",
-      "nameCN": "",
-      "date": "2019-03-05",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 227175,
       "name": "ニンジャバットマン",
       "nameCN": "忍者蝙蝠侠",
@@ -18,12 +9,39 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 497110,
+      "name": "ニンジャバットマン対ヤクザリーグ",
+      "nameCN": "忍者蝙蝠侠对极道联盟",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 338617,
+      "name": "ニンジャバットマン",
+      "nameCN": "",
+      "date": "2019-03-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 227175,
+      "dst": 497110
+    },
+    {
       "relate": "不同演绎",
       "src": 338617,
+      "dst": 227175
+    },
+    {
+      "relate": "前传",
+      "src": 497110,
       "dst": 227175
     }
   ]

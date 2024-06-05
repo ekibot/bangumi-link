@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 496974,
+      "name": "Sleepy Hollow Season 3",
+      "nameCN": "断头谷 第三季",
+      "date": "2015-10-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 496977,
+      "name": "Sleepy Hollow Season 4",
+      "nameCN": "断头谷 第四季",
+      "date": "2017-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 85341,
       "dst": 76880
+    },
+    {
+      "relate": "续集",
+      "src": 85341,
+      "dst": 496974
+    },
+    {
+      "relate": "前传",
+      "src": 496974,
+      "dst": 85341
+    },
+    {
+      "relate": "续集",
+      "src": 496974,
+      "dst": 496977
+    },
+    {
+      "relate": "前传",
+      "src": 496977,
+      "dst": 496974
     }
   ]
 }

@@ -29,15 +29,6 @@
       "platform": "OVA"
     },
     {
-      "id": 3102,
-      "name": "くじびき♥アンバランス",
-      "nameCN": "不公正抽签",
-      "date": "2006-10-06",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 1219,
       "name": "げんしけん2",
       "nameCN": "现视研2",
@@ -54,6 +45,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 3102,
+      "name": "くじびき♥アンバランス",
+      "nameCN": "不公正抽签",
+      "date": "2006-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 71802,
@@ -77,11 +77,6 @@
       "dst": 3100
     },
     {
-      "relate": "衍生",
-      "src": 928,
-      "dst": 3102
-    },
-    {
       "relate": "前传",
       "src": 1219,
       "dst": 1220
@@ -102,6 +97,11 @@
       "dst": 1219
     },
     {
+      "relate": "衍生",
+      "src": 1220,
+      "dst": 3102
+    },
+    {
       "relate": "主线故事",
       "src": 3100,
       "dst": 928
@@ -114,7 +114,7 @@
     {
       "relate": "主线故事",
       "src": 3102,
-      "dst": 928
+      "dst": 1220
     },
     {
       "relate": "前传",

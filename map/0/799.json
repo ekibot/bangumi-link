@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 497594,
+      "name": "ef - a tale of memories. ~prologue~",
+      "nameCN": "悠久之翼Prologue",
+      "date": "2007-08-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -28,7 +37,17 @@
     },
     {
       "relate": "前传",
+      "src": 799,
+      "dst": 497594
+    },
+    {
+      "relate": "前传",
       "src": 1029,
+      "dst": 799
+    },
+    {
+      "relate": "续集",
+      "src": 497594,
       "dst": 799
     }
   ]
