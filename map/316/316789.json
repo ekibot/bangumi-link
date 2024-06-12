@@ -81,6 +81,23 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 471779,
+      "name": "肥志百科 ·运动篇",
+      "nameCN": "",
+      "date": "2024-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 493750,
+      "name": "肥志百科 第11季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -163,6 +180,26 @@
       "relate": "前传",
       "src": 471778,
       "dst": 424989
+    },
+    {
+      "relate": "续集",
+      "src": 471778,
+      "dst": 471779
+    },
+    {
+      "relate": "前传",
+      "src": 471779,
+      "dst": 471778
+    },
+    {
+      "relate": "续集",
+      "src": 471779,
+      "dst": 493750
+    },
+    {
+      "relate": "前传",
+      "src": 493750,
+      "dst": 471779
     }
   ]
 }

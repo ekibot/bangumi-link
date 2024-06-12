@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 498378,
+      "name": "SPY×FAMILY Season 3",
+      "nameCN": "间谍过家家 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -75,6 +83,11 @@
       "dst": 411428
     },
     {
+      "relate": "续集",
+      "src": 411427,
+      "dst": 498378
+    },
+    {
       "relate": "主线故事",
       "src": 411428,
       "dst": 329906
@@ -87,6 +100,11 @@
     {
       "relate": "主线故事",
       "src": 411428,
+      "dst": 411427
+    },
+    {
+      "relate": "前传",
+      "src": 498378,
       "dst": 411427
     }
   ]

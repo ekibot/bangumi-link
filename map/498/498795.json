@@ -1,0 +1,51 @@
+{
+  "id": 498795,
+  "node": [
+    {
+      "id": 498795,
+      "name": "浮生物语",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 498804,
+      "name": "浮珑·浮生物语前传",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 498805,
+      "name": "浮生物语外传·七夜",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 498795,
+      "dst": 498804
+    },
+    {
+      "relate": "番外篇",
+      "src": 498795,
+      "dst": 498805
+    },
+    {
+      "relate": "续集",
+      "src": 498804,
+      "dst": 498795
+    },
+    {
+      "relate": "主线故事",
+      "src": 498805,
+      "dst": 498795
+    }
+  ]
+}
