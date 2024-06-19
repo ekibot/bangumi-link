@@ -2,14 +2,6 @@
   "id": 184017,
   "node": [
     {
-      "id": 363612,
-      "name": "两个动画沙盒条目不显多余吗?因为要用来测试条目关联啊",
-      "nameCN": "",
-      "type": 2,
-      "nsfw": true,
-      "platform": "其他"
-    },
-    {
       "id": 184017,
       "name": "沙盒 ~永不完结的套娃~",
       "nameCN": "Bangumi Wiki 动画测试用沙盘",
@@ -17,11 +9,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 363612,
+      "name": "两个动画沙盒条目不显多余吗?因为要用来测试条目关联啊",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": true,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
-      "relate": "不同世界观",
+      "relate": "相同世界观",
+      "src": 184017,
+      "dst": 363612
+    },
+    {
+      "relate": "相同世界观",
       "src": 363612,
       "dst": 184017
     }

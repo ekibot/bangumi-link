@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 498930,
+      "name": "Spirit Riding Free",
+      "nameCN": "小馬王：自由奔馳",
+      "date": "2017-05-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,9 +36,29 @@
       "dst": 363286
     },
     {
+      "relate": "续集",
+      "src": 39503,
+      "dst": 498930
+    },
+    {
       "relate": "前传",
       "src": 363286,
       "dst": 39503
+    },
+    {
+      "relate": "前传",
+      "src": 363286,
+      "dst": 498930
+    },
+    {
+      "relate": "前传",
+      "src": 498930,
+      "dst": 39503
+    },
+    {
+      "relate": "续集",
+      "src": 498930,
+      "dst": 363286
     }
   ]
 }

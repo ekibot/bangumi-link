@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 499073,
+      "name": "ダンジョン飯 第2期",
+      "nameCN": "迷宫饭 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 480062
     },
     {
+      "relate": "续集",
+      "src": 395378,
+      "dst": 499073
+    },
+    {
       "relate": "衍生",
       "src": 480062,
+      "dst": 395378
+    },
+    {
+      "relate": "前传",
+      "src": 499073,
       "dst": 395378
     }
   ]
