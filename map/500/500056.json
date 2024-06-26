@@ -1,0 +1,35 @@
+{
+  "id": 500056,
+  "node": [
+    {
+      "id": 500056,
+      "name": "metro",
+      "nameCN": "",
+      "date": "2012-09-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 500080,
+      "name": "metro ex",
+      "nameCN": "",
+      "date": "2017-02-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 500056,
+      "dst": 500080
+    },
+    {
+      "relate": "前传",
+      "src": 500080,
+      "dst": 500056
+    }
+  ]
+}

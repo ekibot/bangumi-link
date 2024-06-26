@@ -380,6 +380,15 @@
       "platform": "欧美剧"
     },
     {
+      "id": 500678,
+      "name": "Star Trek: Prodigy Season 2",
+      "nameCN": "星际迷航：神童 第二季",
+      "date": "2024-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 484434,
       "name": "Star Trek: Discovery Season 5",
       "nameCN": "",
@@ -890,6 +899,11 @@
       "dst": 396699
     },
     {
+      "relate": "续集",
+      "src": 355796,
+      "dst": 500678
+    },
+    {
       "relate": "前传",
       "src": 358518,
       "dst": 297976
@@ -928,6 +942,11 @@
       "relate": "前传",
       "src": 484434,
       "dst": 358518
+    },
+    {
+      "relate": "前传",
+      "src": 500678,
+      "dst": 355796
     }
   ]
 }

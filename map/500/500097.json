@@ -1,0 +1,71 @@
+{
+  "id": 500097,
+  "node": [
+    {
+      "id": 500097,
+      "name": "反击者4",
+      "nameCN": "反击者4",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 500110,
+      "name": "反击者3",
+      "nameCN": "反击者3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 500113,
+      "name": "反击者2",
+      "nameCN": "反击者2",
+      "date": "2022-01-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 500115,
+      "name": "反击者",
+      "nameCN": "反击者",
+      "date": "2021-07-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 500097,
+      "dst": 500110
+    },
+    {
+      "relate": "续集",
+      "src": 500110,
+      "dst": 500097
+    },
+    {
+      "relate": "前传",
+      "src": 500110,
+      "dst": 500113
+    },
+    {
+      "relate": "续集",
+      "src": 500113,
+      "dst": 500110
+    },
+    {
+      "relate": "前传",
+      "src": 500113,
+      "dst": 500115
+    },
+    {
+      "relate": "续集",
+      "src": 500115,
+      "dst": 500113
+    }
+  ]
+}

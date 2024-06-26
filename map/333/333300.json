@@ -1,0 +1,54 @@
+{
+  "id": 333300,
+  "node": [
+    {
+      "id": 333300,
+      "name": "洛克王国大冒险",
+      "nameCN": "",
+      "date": "2013-08-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 333301,
+      "name": "洛克王国大冒险2之恩佐日记",
+      "nameCN": "",
+      "date": "2014-04-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 333302,
+      "name": "洛克王国大冒险3八大徽章",
+      "nameCN": "",
+      "date": "2015-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 333300,
+      "dst": 333301
+    },
+    {
+      "relate": "前传",
+      "src": 333301,
+      "dst": 333300
+    },
+    {
+      "relate": "续集",
+      "src": 333301,
+      "dst": 333302
+    },
+    {
+      "relate": "前传",
+      "src": 333302,
+      "dst": 333301
+    }
+  ]
+}
