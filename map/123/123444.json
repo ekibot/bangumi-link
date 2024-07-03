@@ -1,0 +1,35 @@
+{
+  "id": 123444,
+  "node": [
+    {
+      "id": 123444,
+      "name": "Wander Over Yonder",
+      "nameCN": "星际漫步",
+      "date": "2013-08-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 143400,
+      "name": "Wander Over Yonder Season 2",
+      "nameCN": "星际漫步 第二季",
+      "date": "2015-08-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 123444,
+      "dst": 143400
+    },
+    {
+      "relate": "前传",
+      "src": 143400,
+      "dst": 123444
+    }
+  ]
+}

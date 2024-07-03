@@ -163,6 +163,14 @@
       "platform": "TV"
     },
     {
+      "id": 501937,
+      "name": "幻日のヨハネ -SUNSHINE in the MIRROR- 劇場総集編",
+      "nameCN": "幻日夜羽 -镜中晖光- 剧场总集篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 471926,
       "name": "にじよん あにめーしょん 2",
       "nameCN": "虹四动画 第二季",
@@ -195,6 +203,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 501745,
+      "name": "叛逆のニジガサキ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -384,6 +400,11 @@
       "dst": 165553
     },
     {
+      "relate": "总集篇",
+      "src": 389772,
+      "dst": 501937
+    },
+    {
       "relate": "主线故事",
       "src": 401960,
       "dst": 296659
@@ -467,6 +488,16 @@
       "relate": "前传",
       "src": 471926,
       "dst": 401960
+    },
+    {
+      "relate": "主线故事",
+      "src": 501745,
+      "dst": 296659
+    },
+    {
+      "relate": "全集",
+      "src": 501937,
+      "dst": 389772
     }
   ]
 }
