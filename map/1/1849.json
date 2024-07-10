@@ -4,7 +4,7 @@
     {
       "id": 1849,
       "name": "ケロロ軍曹",
-      "nameCN": "KERORO军曹",
+      "nameCN": "Keroro军曹",
       "date": "2004-04-03",
       "type": 2,
       "nsfw": false,
@@ -58,7 +58,7 @@
     {
       "id": 90005,
       "name": "ケロロ",
-      "nameCN": "KERORO",
+      "nameCN": "Keroro",
       "date": "2014-03-22",
       "type": 2,
       "nsfw": false,
@@ -71,6 +71,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 502929,
+      "name": "超投影版ケロロ軍曹 星空をとりもどせ! 太陽系大追跡であります!!",
+      "nameCN": "全天域版Keroro軍曹 取回星空！太阳系大追踪是也！！",
+      "date": "2014-08-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -110,6 +119,11 @@
       "dst": 487782
     },
     {
+      "relate": "番外篇",
+      "src": 1849,
+      "dst": 502929
+    },
+    {
       "relate": "主线故事",
       "src": 3761,
       "dst": 1849
@@ -142,6 +156,11 @@
     {
       "relate": "前传",
       "src": 487782,
+      "dst": 1849
+    },
+    {
+      "relate": "主线故事",
+      "src": 502929,
       "dst": 1849
     }
   ]

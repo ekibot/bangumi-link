@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 502928,
+      "name": "みなみけ 新シリーズ",
+      "nameCN": "南家三姐妹 新系列",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -122,8 +130,18 @@
       "dst": 80205
     },
     {
+      "relate": "续集",
+      "src": 47685,
+      "dst": 502928
+    },
+    {
       "relate": "主线故事",
       "src": 80205,
+      "dst": 47685
+    },
+    {
+      "relate": "前传",
+      "src": 502928,
       "dst": 47685
     }
   ]
