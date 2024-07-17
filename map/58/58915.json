@@ -36,6 +36,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 503237,
+      "name": "Shrek 5",
+      "nameCN": "怪物史莱克5",
+      "date": "2026-07-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -68,6 +77,16 @@
       "relate": "前传",
       "src": 58963,
       "dst": 58960
+    },
+    {
+      "relate": "续集",
+      "src": 58963,
+      "dst": 503237
+    },
+    {
+      "relate": "前传",
+      "src": 503237,
+      "dst": 58963
     }
   ]
 }
