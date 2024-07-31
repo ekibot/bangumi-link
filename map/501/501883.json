@@ -1,0 +1,54 @@
+{
+  "id": 501883,
+  "node": [
+    {
+      "id": 501883,
+      "name": "The Clockwork Rocket: Orthogonal Book One",
+      "nameCN": "正交三部曲1：发条火箭",
+      "date": "2011-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 501885,
+      "name": "The Eternal Flame: Orthogonal Book Two",
+      "nameCN": "正交三部曲2：永恒烈焰",
+      "date": "2012-08-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 501886,
+      "name": "The Arrows of Time: Orthogonal Book Three",
+      "nameCN": "正交三部曲3：时间之箭",
+      "date": "2015-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 501883,
+      "dst": 501885
+    },
+    {
+      "relate": "前传",
+      "src": 501885,
+      "dst": 501883
+    },
+    {
+      "relate": "续集",
+      "src": 501885,
+      "dst": 501886
+    },
+    {
+      "relate": "前传",
+      "src": 501886,
+      "dst": 501885
+    }
+  ]
+}

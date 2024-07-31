@@ -44,6 +44,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 505394,
+      "name": "Hazbin Hotel Season 3",
+      "nameCN": "地狱客栈 第3季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 505395,
+      "name": "Hazbin Hotel Season 4",
+      "nameCN": "地狱客栈 第4季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -86,6 +102,26 @@
       "relate": "前传",
       "src": 457549,
       "dst": 430135
+    },
+    {
+      "relate": "续集",
+      "src": 457549,
+      "dst": 505394
+    },
+    {
+      "relate": "前传",
+      "src": 505394,
+      "dst": 457549
+    },
+    {
+      "relate": "续集",
+      "src": 505394,
+      "dst": 505395
+    },
+    {
+      "relate": "前传",
+      "src": 505395,
+      "dst": 505394
     }
   ]
 }

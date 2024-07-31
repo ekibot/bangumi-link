@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 505303,
+      "name": "カッコウの許嫁 第2期",
+      "nameCN": "杜鹃的婚约 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 379853
     },
     {
+      "relate": "续集",
+      "src": 327606,
+      "dst": 505303
+    },
+    {
       "relate": "主线故事",
       "src": 379853,
+      "dst": 327606
+    },
+    {
+      "relate": "前传",
+      "src": 505303,
       "dst": 327606
     }
   ]

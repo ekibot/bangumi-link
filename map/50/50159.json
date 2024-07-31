@@ -29,6 +29,24 @@
       "platform": "TV"
     },
     {
+      "id": 123735,
+      "name": "Family Guy (Season 1)",
+      "nameCN": "恶搞之家 第一季",
+      "date": "1999-01-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 126503,
+      "name": "Family Guy (Season 2)",
+      "nameCN": "恶搞之家 第二季",
+      "date": "1999-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 126504,
       "name": "Family Guy (Season 3)",
       "nameCN": "恶搞之家 第三季",
@@ -191,6 +209,26 @@
       "relate": "续集",
       "src": 50159,
       "dst": 126512
+    },
+    {
+      "relate": "续集",
+      "src": 123735,
+      "dst": 126503
+    },
+    {
+      "relate": "前传",
+      "src": 126503,
+      "dst": 123735
+    },
+    {
+      "relate": "续集",
+      "src": 126503,
+      "dst": 126504
+    },
+    {
+      "relate": "前传",
+      "src": 126504,
+      "dst": 126503
     },
     {
       "relate": "续集",
