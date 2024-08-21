@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 508155,
+      "name": "ポッドのPodcast",
+      "nameCN": "",
+      "date": "2023-01-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +36,29 @@
       "dst": 446618
     },
     {
+      "relate": "衍生",
+      "src": 368116,
+      "dst": 508155
+    },
+    {
       "relate": "前传",
       "src": 446618,
       "dst": 368116
+    },
+    {
+      "relate": "衍生",
+      "src": 446618,
+      "dst": 508155
+    },
+    {
+      "relate": "衍生",
+      "src": 508155,
+      "dst": 368116
+    },
+    {
+      "relate": "衍生",
+      "src": 508155,
+      "dst": 446618
     }
   ]
 }

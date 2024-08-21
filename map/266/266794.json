@@ -53,6 +53,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 508003,
+      "name": "Dr.STONE SCIENCE FUTURE 第2クール",
+      "nameCN": "新石纪 SCIENCE FUTURE 第2部分",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 508004,
+      "name": "Dr.STONE SCIENCE FUTURE 第3クール",
+      "nameCN": "新石纪 SCIENCE FUTURE 第3部分",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -105,6 +121,26 @@
       "relate": "前传",
       "src": 471578,
       "dst": 424372
+    },
+    {
+      "relate": "续集",
+      "src": 471578,
+      "dst": 508003
+    },
+    {
+      "relate": "前传",
+      "src": 508003,
+      "dst": 471578
+    },
+    {
+      "relate": "续集",
+      "src": 508003,
+      "dst": 508004
+    },
+    {
+      "relate": "前传",
+      "src": 508004,
+      "dst": 508003
     }
   ]
 }

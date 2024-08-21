@@ -2,14 +2,6 @@
   "id": 393037,
   "node": [
     {
-      "id": 503609,
-      "name": "義妹生活@comic",
-      "nameCN": "义妹生活",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 393037,
       "name": "義妹生活",
       "nameCN": "义妹生活",
@@ -17,12 +9,26 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 507984,
+      "name": "義妹生活ラジオ ～Radio Diary～",
+      "nameCN": "",
+      "date": "2024-04-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
-      "relate": "不同演绎",
-      "src": 503609,
+      "relate": "衍生",
+      "src": 393037,
+      "dst": 507984
+    },
+    {
+      "relate": "衍生",
+      "src": 507984,
       "dst": 393037
     }
   ]

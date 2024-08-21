@@ -78,9 +78,9 @@
       "platform": "欧美剧"
     },
     {
-      "id": 494631,
-      "name": "House of the Dragon Season 3",
-      "nameCN": "龙之家族 第三季",
+      "id": 507403,
+      "name": "House of the Dragon Season 4",
+      "nameCN": "龙之家族 第四季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -147,6 +147,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 494631,
+      "name": "House of the Dragon Season 3",
+      "nameCN": "龙之家族 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -193,7 +201,7 @@
     {
       "relate": "前传",
       "src": 15877,
-      "dst": 494631
+      "dst": 507403
     },
     {
       "relate": "前传",
@@ -271,6 +279,11 @@
       "dst": 15877
     },
     {
+      "relate": "衍生",
+      "src": 293860,
+      "dst": 15877
+    },
+    {
       "relate": "续集",
       "src": 293860,
       "dst": 398077
@@ -306,14 +319,24 @@
       "dst": 15877
     },
     {
+      "relate": "前传",
+      "src": 494631,
+      "dst": 398077
+    },
+    {
       "relate": "续集",
       "src": 494631,
+      "dst": 507403
+    },
+    {
+      "relate": "续集",
+      "src": 507403,
       "dst": 15877
     },
     {
       "relate": "前传",
-      "src": 494631,
-      "dst": 398077
+      "src": 507403,
+      "dst": 494631
     }
   ]
 }

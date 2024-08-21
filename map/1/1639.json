@@ -111,11 +111,11 @@
     },
     {
       "id": 219760,
-      "name": "哪吒与变形金刚",
+      "name": "我的哪吒与变形金刚",
       "nameCN": "",
       "type": 2,
       "nsfw": false,
-      "platform": "其他"
+      "platform": "TV"
     },
     {
       "id": 313673,
@@ -124,6 +124,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 316962,
+      "name": "Transformers Cyberverse",
+      "nameCN": "变形金刚：赛博志",
+      "date": "2018-08-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 442368,
@@ -419,6 +428,11 @@
     {
       "relate": "不同演绎",
       "src": 1639,
+      "dst": 316962
+    },
+    {
+      "relate": "不同演绎",
+      "src": 1639,
       "dst": 442368
     },
     {
@@ -632,6 +646,11 @@
       "dst": 1639
     },
     {
+      "relate": "不同世界观",
+      "src": 219760,
+      "dst": 316962
+    },
+    {
       "relate": "前传",
       "src": 285379,
       "dst": 77219
@@ -655,6 +674,16 @@
       "relate": "前传",
       "src": 313673,
       "dst": 442368
+    },
+    {
+      "relate": "不同演绎",
+      "src": 316962,
+      "dst": 1639
+    },
+    {
+      "relate": "不同世界观",
+      "src": 316962,
+      "dst": 219760
     },
     {
       "relate": "续集",

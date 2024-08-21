@@ -18,6 +18,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 508160,
+      "name": "アサルトリリィ ラジオガーデン-OVERFLOW-",
+      "nameCN": "",
+      "date": "2020-06-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 508161,
+      "name": "アサルトリリィ放送局 ～夏吉＆岩田のラムネで乾杯～",
+      "nameCN": "",
+      "date": "2020-06-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 508158,
+      "name": "アサルトリリィ放送局 Lily’s Time",
+      "nameCN": "",
+      "date": "2022-04-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +54,38 @@
       "dst": 331306
     },
     {
+      "relate": "衍生",
+      "src": 292712,
+      "dst": 508160
+    },
+    {
+      "relate": "衍生",
+      "src": 292712,
+      "dst": 508161
+    },
+    {
       "relate": "主线故事",
       "src": 331306,
+      "dst": 292712
+    },
+    {
+      "relate": "衍生",
+      "src": 331306,
+      "dst": 508158
+    },
+    {
+      "relate": "衍生",
+      "src": 508158,
+      "dst": 331306
+    },
+    {
+      "relate": "衍生",
+      "src": 508160,
+      "dst": 292712
+    },
+    {
+      "relate": "衍生",
+      "src": 508161,
       "dst": 292712
     }
   ]
