@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 510275,
+      "name": "ラジオ「Familia」へようこそ！",
+      "nameCN": "",
+      "date": "2023-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 510276,
+      "name": "ラジオ「Familia」へようこそ！ ～おかわりはいかがですか～",
+      "nameCN": "",
+      "date": "2024-07-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +45,39 @@
       "dst": 442673
     },
     {
+      "relate": "衍生",
+      "src": 398943,
+      "dst": 510275
+    },
+    {
       "relate": "前传",
       "src": 442673,
       "dst": 398943
+    },
+    {
+      "relate": "衍生",
+      "src": 442673,
+      "dst": 510276
+    },
+    {
+      "relate": "衍生",
+      "src": 510275,
+      "dst": 398943
+    },
+    {
+      "relate": "续集",
+      "src": 510275,
+      "dst": 510276
+    },
+    {
+      "relate": "衍生",
+      "src": 510276,
+      "dst": 442673
+    },
+    {
+      "relate": "前传",
+      "src": 510276,
+      "dst": 510275
     }
   ]
 }
