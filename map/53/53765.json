@@ -170,6 +170,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 512169,
+      "name": "超ショートアニメ",
+      "nameCN": "",
+      "date": "2024-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -367,6 +376,16 @@
       "relate": "前传",
       "src": 497881,
       "dst": 309910
+    },
+    {
+      "relate": "衍生",
+      "src": 497881,
+      "dst": 512169
+    },
+    {
+      "relate": "主线故事",
+      "src": 512169,
+      "dst": 497881
     }
   ]
 }

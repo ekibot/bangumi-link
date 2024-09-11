@@ -74,6 +74,15 @@
       "platform": "WEB"
     },
     {
+      "id": 511225,
+      "name": "TVアニメ「STEINS;GATEラジオ」 未来ガジェット電波局",
+      "nameCN": "",
+      "date": "2011-04-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 247449,
       "name": "STEINS;GATE 承認共鳴のパードン",
       "nameCN": "命运石之门 承认共鸣的宽恕",
@@ -153,6 +162,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 511224,
+      "name": "STEINS;GATEラジオ 未来ガジェット電波局",
+      "nameCN": "",
+      "date": "2009-09-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -215,6 +233,11 @@
       "relate": "不同世界观",
       "src": 10380,
       "dst": 203861
+    },
+    {
+      "relate": "衍生",
+      "src": 10380,
+      "dst": 511225
     },
     {
       "relate": "前传",
@@ -390,6 +413,21 @@
       "relate": "主线故事",
       "src": 438637,
       "dst": 129807
+    },
+    {
+      "relate": "续集",
+      "src": 511224,
+      "dst": 511225
+    },
+    {
+      "relate": "衍生",
+      "src": 511225,
+      "dst": 10380
+    },
+    {
+      "relate": "前传",
+      "src": 511225,
+      "dst": 511224
     }
   ]
 }

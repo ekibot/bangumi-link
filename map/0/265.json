@@ -38,6 +38,24 @@
       "platform": "剧场版"
     },
     {
+      "id": 22505,
+      "name": "ヱヴァンゲリヲン新劇場版:Q",
+      "nameCN": "福音战士新剧场版：Q",
+      "date": "2012-11-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 29883,
+      "name": "シン・エヴァンゲリオン劇場版:│▌",
+      "nameCN": "新・福音战士剧场版：终",
+      "date": "2021-03-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 39923,
       "name": "REVIVAL OF EVANGELION 新世紀エヴァンゲリオン劇場版 DEATH (TRUE)² / Air / まごころを、君に",
       "nameCN": "新世纪福音战士剧场版 DEATH(TRUE)2/Air/真心为你",
@@ -74,22 +92,13 @@
       "platform": "WEB"
     },
     {
-      "id": 22505,
-      "name": "ヱヴァンゲリヲン新劇場版:Q",
-      "nameCN": "福音战士新剧场版：Q",
-      "date": "2012-11-17",
+      "id": 415148,
+      "name": "EVANGELION:3.0(-46h)",
+      "nameCN": "",
+      "date": "2023-03-08",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
-      "id": 29883,
-      "name": "シン・エヴァンゲリオン劇場版:│▌",
-      "nameCN": "新・福音战士剧场版：终",
-      "date": "2021-03-08",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 342084,
@@ -99,15 +108,6 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
-    },
-    {
-      "id": 415148,
-      "name": "EVANGELION:3.0(-46h)",
-      "nameCN": "",
-      "date": "2023-03-08",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
     }
   ],
   "relate": [
@@ -125,6 +125,16 @@
       "relate": "续集",
       "src": 265,
       "dst": 6049
+    },
+    {
+      "relate": "不同演绎",
+      "src": 265,
+      "dst": 22505
+    },
+    {
+      "relate": "不同演绎",
+      "src": 265,
+      "dst": 29883
     },
     {
       "relate": "总集篇",
@@ -212,12 +222,7 @@
       "dst": 29883
     },
     {
-      "relate": "前传",
-      "src": 22505,
-      "dst": 342084
-    },
-    {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 22505,
       "dst": 415148
     },
@@ -232,7 +237,7 @@
       "dst": 22505
     },
     {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 29883,
       "dst": 415148
     },
@@ -255,6 +260,16 @@
       "relate": "主线故事",
       "src": 235701,
       "dst": 265
+    },
+    {
+      "relate": "主线故事",
+      "src": 342084,
+      "dst": 22505
+    },
+    {
+      "relate": "主线故事",
+      "src": 342084,
+      "dst": 29883
     },
     {
       "relate": "前传",
