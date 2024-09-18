@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 513314,
+      "name": "俺だけレベルアップな件 -ReAwakening-",
+      "nameCN": "我独自升级 -ReAwakening-",
+      "date": "2024-11-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -26,9 +35,29 @@
       "dst": 487630
     },
     {
+      "relate": "总集篇",
+      "src": 390353,
+      "dst": 513314
+    },
+    {
       "relate": "前传",
       "src": 487630,
       "dst": 390353
+    },
+    {
+      "relate": "总集篇",
+      "src": 487630,
+      "dst": 513314
+    },
+    {
+      "relate": "全集",
+      "src": 513314,
+      "dst": 390353
+    },
+    {
+      "relate": "全集",
+      "src": 513314,
+      "dst": 487630
     }
   ]
 }

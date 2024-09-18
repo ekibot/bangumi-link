@@ -1,0 +1,71 @@
+{
+  "id": 2571,
+  "node": [
+    {
+      "id": 2571,
+      "name": "SP 警視庁警備部警護課第四係",
+      "nameCN": "SP要人警护官",
+      "date": "2007-11-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 36374,
+      "name": "SP THE MOTION PICTURE 野望篇（Episode V）",
+      "nameCN": "要人警护官 野望篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 36411,
+      "name": "SP THE MOTION PICTURE 革命篇（Episode VI<The Final Episode>）",
+      "nameCN": "要人警护官 革命篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 36375,
+      "name": "SP THE MOTION PICTURE ドラマスペシャル 革命前日（Pre Episode VI）",
+      "nameCN": "要人警护官 革命前日",
+      "date": "2011-03-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "番外篇",
+      "src": 2571,
+      "dst": 36374
+    },
+    {
+      "relate": "番外篇",
+      "src": 2571,
+      "dst": 36411
+    },
+    {
+      "relate": "主线故事",
+      "src": 36374,
+      "dst": 2571
+    },
+    {
+      "relate": "前传",
+      "src": 36375,
+      "dst": 36411
+    },
+    {
+      "relate": "主线故事",
+      "src": 36411,
+      "dst": 2571
+    },
+    {
+      "relate": "续集",
+      "src": 36411,
+      "dst": 36375
+    }
+  ]
+}

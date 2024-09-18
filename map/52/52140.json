@@ -1,0 +1,54 @@
+{
+  "id": 52140,
+  "node": [
+    {
+      "id": 52140,
+      "name": "Understanding Comics",
+      "nameCN": "理解漫画",
+      "date": "1993-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 194480,
+      "name": "Reinventing Comics",
+      "nameCN": "重构漫画",
+      "date": "2000-07-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 194479,
+      "name": "Making Comics",
+      "nameCN": "制造漫画",
+      "date": "2006-09-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 52140,
+      "dst": 194480
+    },
+    {
+      "relate": "前传",
+      "src": 194479,
+      "dst": 194480
+    },
+    {
+      "relate": "前传",
+      "src": 194480,
+      "dst": 52140
+    },
+    {
+      "relate": "续集",
+      "src": 194480,
+      "dst": 194479
+    }
+  ]
+}

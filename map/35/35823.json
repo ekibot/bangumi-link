@@ -400,11 +400,20 @@
     {
       "id": 449437,
       "name": "Star Trek: Lower Decks Season 4",
-      "nameCN": "",
+      "nameCN": "星际迷航：下层舰员 第四季",
       "date": "2023-09-07",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 512939,
+      "name": "Star Trek: Lower Decks Season 5",
+      "nameCN": "",
+      "date": "2024-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -939,6 +948,11 @@
       "dst": 396699
     },
     {
+      "relate": "续集",
+      "src": 449437,
+      "dst": 512939
+    },
+    {
       "relate": "前传",
       "src": 484434,
       "dst": 358518
@@ -947,6 +961,11 @@
       "relate": "前传",
       "src": 500678,
       "dst": 355796
+    },
+    {
+      "relate": "前传",
+      "src": 512939,
+      "dst": 449437
     }
   ]
 }

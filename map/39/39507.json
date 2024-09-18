@@ -54,6 +54,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 513137,
+      "name": "Phineas and Ferb Season 5",
+      "nameCN": "飞哥与小佛 第五季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -103,8 +111,18 @@
       "dst": 405400
     },
     {
+      "relate": "续集",
+      "src": 322880,
+      "dst": 513137
+    },
+    {
       "relate": "主线故事",
       "src": 405400,
+      "dst": 322880
+    },
+    {
+      "relate": "前传",
+      "src": 513137,
       "dst": 322880
     }
   ]
