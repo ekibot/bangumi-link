@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 514876,
+      "name": "ご注文はラジオですか? Is the order radio?",
+      "nameCN": "",
+      "date": "2014-03-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 181995,
       "name": "ご注文はうさぎですか？？～Dear My Sister～",
       "nameCN": "请问您今天要来点兔子吗？？～Dear My Sister～",
@@ -27,6 +36,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 514879,
+      "name": "ご注文はラジオですか?? Is the order radio?? 〜ラビットハウスへようこそ〜",
+      "nameCN": "",
+      "date": "2015-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     },
     {
       "id": 260772,
@@ -45,6 +63,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 514884,
+      "name": "ご注文はラジオですか？BLOOM",
+      "nameCN": "",
+      "date": "2020-07-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 514882,
+      "name": "ご注文はラジオですか?? Is the order radio?? 〜チマメ隊のポポロンラジオ〜",
+      "nameCN": "",
+      "date": "2016-07-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 514883,
+      "name": "ご注文はラジオですか？？ ～WELCOME【う・さ！】～",
+      "nameCN": "",
+      "date": "2018-07-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -52,6 +97,11 @@
       "relate": "续集",
       "src": 88287,
       "dst": 123568
+    },
+    {
+      "relate": "衍生",
+      "src": 88287,
+      "dst": 514876
     },
     {
       "relate": "前传",
@@ -62,6 +112,11 @@
       "relate": "续集",
       "src": 123568,
       "dst": 181995
+    },
+    {
+      "relate": "衍生",
+      "src": 123568,
+      "dst": 514879
     },
     {
       "relate": "前传",
@@ -79,6 +134,11 @@
       "dst": 260772
     },
     {
+      "relate": "衍生",
+      "src": 260770,
+      "dst": 514884
+    },
+    {
       "relate": "主线故事",
       "src": 260772,
       "dst": 123568
@@ -92,6 +152,61 @@
       "relate": "续集",
       "src": 260772,
       "dst": 260770
+    },
+    {
+      "relate": "衍生",
+      "src": 514876,
+      "dst": 88287
+    },
+    {
+      "relate": "续集",
+      "src": 514876,
+      "dst": 514879
+    },
+    {
+      "relate": "衍生",
+      "src": 514879,
+      "dst": 123568
+    },
+    {
+      "relate": "前传",
+      "src": 514879,
+      "dst": 514876
+    },
+    {
+      "relate": "续集",
+      "src": 514879,
+      "dst": 514882
+    },
+    {
+      "relate": "前传",
+      "src": 514882,
+      "dst": 514879
+    },
+    {
+      "relate": "续集",
+      "src": 514882,
+      "dst": 514883
+    },
+    {
+      "relate": "前传",
+      "src": 514883,
+      "dst": 514882
+    },
+    {
+      "relate": "续集",
+      "src": 514883,
+      "dst": 514884
+    },
+    {
+      "relate": "衍生",
+      "src": 514884,
+      "dst": 260770
+    },
+    {
+      "relate": "前传",
+      "src": 514884,
+      "dst": 514883
     }
   ]
 }

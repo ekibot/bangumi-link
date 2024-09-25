@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 515022,
+      "name": "天体のメソッド放送局",
+      "nameCN": "",
+      "date": "2014-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 270081
     },
     {
+      "relate": "衍生",
+      "src": 100040,
+      "dst": 515022
+    },
+    {
       "relate": "前传",
       "src": 270081,
+      "dst": 100040
+    },
+    {
+      "relate": "衍生",
+      "src": 515022,
       "dst": 100040
     }
   ]

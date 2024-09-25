@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 513939,
+      "name": "ばなにゃ あらうんど ざ わーるど",
+      "nameCN": "香蕉喵游世界",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 288311,
       "dst": 168123
+    },
+    {
+      "relate": "续集",
+      "src": 288311,
+      "dst": 513939
+    },
+    {
+      "relate": "前传",
+      "src": 513939,
+      "dst": 288311
     }
   ]
 }

@@ -26,6 +26,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 514344,
+      "name": "アルドノア・ラジオ",
+      "nameCN": "",
+      "date": "2014-06-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 514031,
+      "name": "アルドノア・ゼロ 雨の断章 -The Penultimate Truth-",
+      "nameCN": "ALDNOAH.ZERO 雨之断章",
+      "date": "2025-03-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -40,8 +58,28 @@
       "dst": 120028
     },
     {
+      "relate": "衍生",
+      "src": 96918,
+      "dst": 514344
+    },
+    {
       "relate": "前传",
       "src": 107835,
+      "dst": 96918
+    },
+    {
+      "relate": "续集",
+      "src": 107835,
+      "dst": 514031
+    },
+    {
+      "relate": "前传",
+      "src": 514031,
+      "dst": 107835
+    },
+    {
+      "relate": "衍生",
+      "src": 514344,
       "dst": 96918
     }
   ]
