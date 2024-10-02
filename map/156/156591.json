@@ -41,6 +41,15 @@
       "id": 456601,
       "name": "镇魂街 第四季",
       "nameCN": "",
+      "date": "2024-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 516076,
+      "name": "镇魂街 第五季",
+      "nameCN": "镇魂街 王国纷争篇",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -86,6 +95,16 @@
       "relate": "前传",
       "src": 456601,
       "dst": 405210
+    },
+    {
+      "relate": "续集",
+      "src": 456601,
+      "dst": 516076
+    },
+    {
+      "relate": "前传",
+      "src": 516076,
+      "dst": 456601
     }
   ]
 }

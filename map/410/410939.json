@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 516047,
+      "name": "Radio Unnamed Memory",
+      "nameCN": "",
+      "date": "2024-04-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 501205
     },
     {
+      "relate": "衍生",
+      "src": 410939,
+      "dst": 516047
+    },
+    {
       "relate": "前传",
       "src": 501205,
+      "dst": 410939
+    },
+    {
+      "relate": "衍生",
+      "src": 516047,
       "dst": 410939
     }
   ]

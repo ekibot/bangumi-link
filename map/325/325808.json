@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 515666,
+      "name": "TVアニメ地獄楽「神仙郷放送局」",
+      "nameCN": "",
+      "date": "2023-04-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 443446
     },
     {
+      "relate": "衍生",
+      "src": 325808,
+      "dst": 515666
+    },
+    {
       "relate": "前传",
       "src": 443446,
+      "dst": 325808
+    },
+    {
+      "relate": "衍生",
+      "src": 515666,
       "dst": 325808
     }
   ]

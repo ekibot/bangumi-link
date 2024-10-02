@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 515880,
+      "name": "ぐらんぶる Season 2",
+      "nameCN": "碧蓝之海 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,9 +35,29 @@
       "dst": 509463
     },
     {
+      "relate": "续集",
+      "src": 235130,
+      "dst": 515880
+    },
+    {
       "relate": "衍生",
       "src": 509463,
       "dst": 235130
+    },
+    {
+      "relate": "衍生",
+      "src": 509463,
+      "dst": 515880
+    },
+    {
+      "relate": "前传",
+      "src": 515880,
+      "dst": 235130
+    },
+    {
+      "relate": "衍生",
+      "src": 515880,
+      "dst": 509463
     }
   ]
 }
