@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 516395,
+      "name": "A Charlie Brown Thanksgiving",
+      "nameCN": "查理布朗的感恩节",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -97,6 +105,11 @@
       "dst": 366770
     },
     {
+      "relate": "总集篇",
+      "src": 749,
+      "dst": 516395
+    },
+    {
       "relate": "主线故事",
       "src": 113090,
       "dst": 749
@@ -124,6 +137,11 @@
     {
       "relate": "主线故事",
       "src": 366770,
+      "dst": 749
+    },
+    {
+      "relate": "全集",
+      "src": 516395,
       "dst": 749
     }
   ]
