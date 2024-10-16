@@ -332,6 +332,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 519266,
+      "name": "The Simpsons Season 36",
+      "nameCN": "辛普森一家 第三十六季",
+      "date": "2024-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -694,6 +703,16 @@
       "relate": "前传",
       "src": 430660,
       "dst": 430656
+    },
+    {
+      "relate": "续集",
+      "src": 430660,
+      "dst": 519266
+    },
+    {
+      "relate": "前传",
+      "src": 519266,
+      "dst": 430660
     }
   ]
 }
