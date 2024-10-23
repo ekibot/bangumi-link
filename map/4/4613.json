@@ -11,6 +11,15 @@
       "platform": "欧美剧"
     },
     {
+      "id": 10669,
+      "name": "Doctor Who (series 4)",
+      "nameCN": "神秘博士 第四季",
+      "date": "2008-04-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 16364,
       "name": "Doctor Who (series 6)",
       "nameCN": "神秘博士 第六季",
@@ -33,69 +42,6 @@
       "name": "Doctor Who: 2010 A Christmas Carol",
       "nameCN": "神秘博士2010圣诞特别篇",
       "date": "2010-12-25",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 30047,
-      "name": "Doctor Who: 2011 The Doctor, the Widow and the Wardrobe",
-      "nameCN": "神秘博士2011圣诞特别篇",
-      "date": "2011-12-25",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 46240,
-      "name": "Doctor Who (series 7)",
-      "nameCN": "神秘博士 第七季",
-      "date": "2012-09-01",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 88888,
-      "name": "Doctor Who: 2013 The Day of the Doctor",
-      "nameCN": "神秘博士50周年特别篇",
-      "date": "2013-11-23",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 92409,
-      "name": "Doctor Who (series 8)",
-      "nameCN": "神秘博士 第八季",
-      "date": "2014-08-23",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 89038,
-      "name": "Doctor Who: The Time of the Doctor",
-      "nameCN": "神秘博士2013圣诞特别篇",
-      "date": "2013-12-25",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 118746,
-      "name": "Doctor Who: Last Christmas",
-      "nameCN": "神秘博士2014圣诞特别篇",
-      "date": "2014-12-25",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
-      "id": 147133,
-      "name": "Doctor Who (series 9)",
-      "nameCN": "神秘博士 第九季",
-      "date": "2015-09-19",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -164,15 +110,6 @@
       "platform": "欧美剧"
     },
     {
-      "id": 10669,
-      "name": "Doctor Who (series 4)",
-      "nameCN": "神秘博士 第四季",
-      "date": "2008-04-05",
-      "type": 6,
-      "nsfw": false,
-      "platform": "欧美剧"
-    },
-    {
       "id": 97403,
       "name": "Doctor Who: 2007 Voyage of the Damned",
       "nameCN": "神秘博士2007圣诞特别篇",
@@ -204,6 +141,69 @@
       "name": "Torchwood Season 2",
       "nameCN": "火炬木小组 第二季",
       "date": "2008-01-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 30047,
+      "name": "Doctor Who: 2011 The Doctor, the Widow and the Wardrobe",
+      "nameCN": "神秘博士2011圣诞特别篇",
+      "date": "2011-12-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 46240,
+      "name": "Doctor Who (series 7)",
+      "nameCN": "神秘博士 第七季",
+      "date": "2012-09-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 88888,
+      "name": "Doctor Who: 2013 The Day of the Doctor",
+      "nameCN": "神秘博士50周年特别篇",
+      "date": "2013-11-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 92409,
+      "name": "Doctor Who (series 8)",
+      "nameCN": "神秘博士 第八季",
+      "date": "2014-08-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 89038,
+      "name": "Doctor Who: The Time of the Doctor",
+      "nameCN": "神秘博士2013圣诞特别篇",
+      "date": "2013-12-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 118746,
+      "name": "Doctor Who: Last Christmas",
+      "nameCN": "神秘博士2014圣诞特别篇",
+      "date": "2014-12-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 147133,
+      "name": "Doctor Who (series 9)",
+      "nameCN": "神秘博士 第九季",
+      "date": "2015-09-19",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -652,6 +652,11 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 4613,
+      "dst": 10669
+    },
+    {
       "relate": "续集",
       "src": 4613,
       "dst": 16364
@@ -665,6 +670,101 @@
       "relate": "续集",
       "src": 4613,
       "dst": 97417
+    },
+    {
+      "relate": "续集",
+      "src": 10666,
+      "dst": 10667
+    },
+    {
+      "relate": "衍生",
+      "src": 10666,
+      "dst": 10987
+    },
+    {
+      "relate": "番外篇",
+      "src": 10666,
+      "dst": 97400
+    },
+    {
+      "relate": "前传",
+      "src": 10666,
+      "dst": 339903
+    },
+    {
+      "relate": "前传",
+      "src": 10667,
+      "dst": 10666
+    },
+    {
+      "relate": "续集",
+      "src": 10667,
+      "dst": 10668
+    },
+    {
+      "relate": "番外篇",
+      "src": 10667,
+      "dst": 97400
+    },
+    {
+      "relate": "续集",
+      "src": 10667,
+      "dst": 97404
+    },
+    {
+      "relate": "前传",
+      "src": 10668,
+      "dst": 10667
+    },
+    {
+      "relate": "续集",
+      "src": 10668,
+      "dst": 10669
+    },
+    {
+      "relate": "续集",
+      "src": 10668,
+      "dst": 97403
+    },
+    {
+      "relate": "前传",
+      "src": 10668,
+      "dst": 97404
+    },
+    {
+      "relate": "衍生",
+      "src": 10668,
+      "dst": 259356
+    },
+    {
+      "relate": "续集",
+      "src": 10669,
+      "dst": 4613
+    },
+    {
+      "relate": "前传",
+      "src": 10669,
+      "dst": 10668
+    },
+    {
+      "relate": "前传",
+      "src": 10669,
+      "dst": 97403
+    },
+    {
+      "relate": "续集",
+      "src": 10669,
+      "dst": 97405
+    },
+    {
+      "relate": "衍生",
+      "src": 10987,
+      "dst": 10666
+    },
+    {
+      "relate": "续集",
+      "src": 10987,
+      "dst": 259132
     },
     {
       "relate": "前传",
@@ -760,96 +860,6 @@
       "relate": "续集",
       "src": 92409,
       "dst": 147133
-    },
-    {
-      "relate": "续集",
-      "src": 10666,
-      "dst": 10667
-    },
-    {
-      "relate": "衍生",
-      "src": 10666,
-      "dst": 10987
-    },
-    {
-      "relate": "番外篇",
-      "src": 10666,
-      "dst": 97400
-    },
-    {
-      "relate": "前传",
-      "src": 10666,
-      "dst": 339903
-    },
-    {
-      "relate": "前传",
-      "src": 10667,
-      "dst": 10666
-    },
-    {
-      "relate": "续集",
-      "src": 10667,
-      "dst": 10668
-    },
-    {
-      "relate": "番外篇",
-      "src": 10667,
-      "dst": 97400
-    },
-    {
-      "relate": "续集",
-      "src": 10667,
-      "dst": 97404
-    },
-    {
-      "relate": "前传",
-      "src": 10668,
-      "dst": 10667
-    },
-    {
-      "relate": "续集",
-      "src": 10668,
-      "dst": 10669
-    },
-    {
-      "relate": "续集",
-      "src": 10668,
-      "dst": 97403
-    },
-    {
-      "relate": "前传",
-      "src": 10668,
-      "dst": 97404
-    },
-    {
-      "relate": "衍生",
-      "src": 10668,
-      "dst": 259356
-    },
-    {
-      "relate": "前传",
-      "src": 10669,
-      "dst": 10668
-    },
-    {
-      "relate": "前传",
-      "src": 10669,
-      "dst": 97403
-    },
-    {
-      "relate": "续集",
-      "src": 10669,
-      "dst": 97405
-    },
-    {
-      "relate": "衍生",
-      "src": 10987,
-      "dst": 10666
-    },
-    {
-      "relate": "续集",
-      "src": 10987,
-      "dst": 259132
     },
     {
       "relate": "主线故事",

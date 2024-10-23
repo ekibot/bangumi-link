@@ -141,6 +141,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 520676,
+      "name": "Rick and Morty Season 11",
+      "nameCN": "瑞克和莫蒂 第十一季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 520677,
+      "name": "Rick and Morty Season 12",
+      "nameCN": "瑞克和莫蒂 第十二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -280,6 +296,11 @@
       "dst": 451757
     },
     {
+      "relate": "续集",
+      "src": 451758,
+      "dst": 520676
+    },
+    {
       "relate": "主线故事",
       "src": 508734,
       "dst": 246238
@@ -293,6 +314,21 @@
       "relate": "前传",
       "src": 508737,
       "dst": 314174
+    },
+    {
+      "relate": "前传",
+      "src": 520676,
+      "dst": 451758
+    },
+    {
+      "relate": "续集",
+      "src": 520676,
+      "dst": 520677
+    },
+    {
+      "relate": "前传",
+      "src": 520677,
+      "dst": 520676
     }
   ]
 }

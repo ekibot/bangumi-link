@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 381165,
+      "name": "パソコントラベル探偵団",
+      "nameCN": "个人电脑旅行侦探团",
+      "date": "1983-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -28,7 +37,17 @@
     },
     {
       "relate": "续集",
+      "src": 115985,
+      "dst": 381165
+    },
+    {
+      "relate": "续集",
       "src": 380722,
+      "dst": 115985
+    },
+    {
+      "relate": "前传",
+      "src": 381165,
       "dst": 115985
     }
   ]
