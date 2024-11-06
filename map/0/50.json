@@ -1183,7 +1183,7 @@
     },
     {
       "id": 509490,
-      "name": "機動戦士ガンダム 鉄血のオルフェンズ　鉄華団放送局",
+      "name": "鉄華団放送局",
       "nameCN": "",
       "date": "2015-10-04",
       "type": 6,
@@ -1486,6 +1486,14 @@
       "name": "機動戦士ガンダムSEED FREEDOM 特別版",
       "nameCN": "机动战士高达SEED FREEDOM 特別版",
       "date": "2024-09-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 522411,
+      "name": "機動戦士ガンダムSEED FREEDOM ZERO",
+      "nameCN": "机动战士高达SEED FREEDOM ZERO",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -3520,6 +3528,11 @@
       "dst": 520710
     },
     {
+      "relate": "前传",
+      "src": 337586,
+      "dst": 522411
+    },
+    {
       "relate": "不同世界观",
       "src": 339095,
       "dst": 50
@@ -3752,6 +3765,11 @@
     {
       "relate": "不同演绎",
       "src": 520710,
+      "dst": 337586
+    },
+    {
+      "relate": "续集",
+      "src": 522411,
       "dst": 337586
     }
   ]
