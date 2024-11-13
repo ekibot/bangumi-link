@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 523534,
+      "name": "The Bad Guys: A Very Bad Holiday",
+      "nameCN": "坏蛋联盟：坏坏假期",
+      "date": "2023-11-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 523535,
+      "name": "The Bad Guys: Haunted Heist",
+      "nameCN": "坏蛋联盟：偷偷来搞鬼",
+      "date": "2024-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,8 +45,28 @@
       "dst": 487185
     },
     {
+      "relate": "衍生",
+      "src": 380229,
+      "dst": 523534
+    },
+    {
+      "relate": "衍生",
+      "src": 380229,
+      "dst": 523535
+    },
+    {
       "relate": "前传",
       "src": 487185,
+      "dst": 380229
+    },
+    {
+      "relate": "主线故事",
+      "src": 523534,
+      "dst": 380229
+    },
+    {
+      "relate": "主线故事",
+      "src": 523535,
       "dst": 380229
     }
   ]

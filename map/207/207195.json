@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 523664,
+      "name": "ゆるキャン△ SEASON４",
+      "nameCN": "摇曳露营△ 第四季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -165,6 +173,16 @@
       "relate": "衍生",
       "src": 405785,
       "dst": 262898
+    },
+    {
+      "relate": "续集",
+      "src": 405785,
+      "dst": 523664
+    },
+    {
+      "relate": "前传",
+      "src": 523664,
+      "dst": 405785
     }
   ]
 }
