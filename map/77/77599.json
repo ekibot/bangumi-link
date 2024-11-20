@@ -11,15 +11,6 @@
       "platform": "OVA"
     },
     {
-      "id": 77619,
-      "name": "天上編 宇宙皇子",
-      "nameCN": "天上篇 宇宙皇子",
-      "date": "1990-09-22",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
       "id": 77616,
       "name": "宇宙皇子（地上編）",
       "nameCN": "宇宙皇子 地上篇",
@@ -27,13 +18,32 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 77619,
+      "name": "天上編 宇宙皇子",
+      "nameCN": "天上篇 宇宙皇子",
+      "date": "1990-09-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 77599,
+      "dst": 77616
+    },
+    {
       "relate": "总集篇",
       "src": 77599,
       "dst": 77619
+    },
+    {
+      "relate": "续集",
+      "src": 77616,
+      "dst": 77599
     },
     {
       "relate": "续集",
