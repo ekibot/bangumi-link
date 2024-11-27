@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 524894,
+      "name": "Star Wars: Visions Volume 3",
+      "nameCN": "星球大战：幻境 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 385455,
       "dst": 340837
+    },
+    {
+      "relate": "续集",
+      "src": 385455,
+      "dst": 524894
+    },
+    {
+      "relate": "前传",
+      "src": 524894,
+      "dst": 385455
     }
   ]
 }

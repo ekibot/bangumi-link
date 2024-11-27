@@ -1,0 +1,51 @@
+{
+  "id": 213810,
+  "node": [
+    {
+      "id": 213810,
+      "name": "蓝漠的花",
+      "nameCN": "蓝漠的花 漫画版",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 525097,
+      "name": "蓝漠的花·夏沫篇",
+      "nameCN": "蓝漠的花·夏沫篇 漫画版",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 525254,
+      "name": "蓝漠的花·林默儿篇",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 213810,
+      "dst": 525097
+    },
+    {
+      "relate": "前传",
+      "src": 525097,
+      "dst": 213810
+    },
+    {
+      "relate": "续集",
+      "src": 525097,
+      "dst": 525254
+    },
+    {
+      "relate": "前传",
+      "src": 525254,
+      "dst": 525097
+    }
+  ]
+}

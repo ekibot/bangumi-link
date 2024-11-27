@@ -278,6 +278,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 525084,
+      "name": "KING OF PRISM 次回作",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -702,9 +710,19 @@
       "dst": 249245
     },
     {
+      "relate": "续集",
+      "src": 486477,
+      "dst": 525084
+    },
+    {
       "relate": "前传",
       "src": 524365,
       "dst": 468758
+    },
+    {
+      "relate": "前传",
+      "src": 525084,
+      "dst": 486477
     }
   ]
 }

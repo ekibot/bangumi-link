@@ -27,6 +27,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 525490,
+      "name": "Dream Productions",
+      "nameCN": "梦境制片厂",
+      "date": "2024-12-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -41,6 +50,11 @@
       "dst": 400730
     },
     {
+      "relate": "衍生",
+      "src": 119035,
+      "dst": 525490
+    },
+    {
       "relate": "主线故事",
       "src": 211845,
       "dst": 119035
@@ -49,6 +63,21 @@
       "relate": "前传",
       "src": 400730,
       "dst": 119035
+    },
+    {
+      "relate": "衍生",
+      "src": 400730,
+      "dst": 525490
+    },
+    {
+      "relate": "主线故事",
+      "src": 525490,
+      "dst": 119035
+    },
+    {
+      "relate": "主线故事",
+      "src": 525490,
+      "dst": 400730
     }
   ]
 }
