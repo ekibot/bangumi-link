@@ -27,6 +27,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 525953,
+      "name": "Kim Possible Season 2",
+      "nameCN": "麻辣女孩 第二季",
+      "date": "2003-07-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 525954,
+      "name": "Kim Possible Season 3",
+      "nameCN": "麻辣女孩 第三季",
+      "date": "2004-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 525956,
+      "name": "Kim Possible Season 4",
+      "nameCN": "麻辣女孩 第四季",
+      "date": "2007-02-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -39,6 +66,11 @@
       "relate": "衍生",
       "src": 69295,
       "dst": 113016
+    },
+    {
+      "relate": "续集",
+      "src": 69295,
+      "dst": 525953
     },
     {
       "relate": "主线故事",
@@ -59,6 +91,31 @@
       "relate": "前传",
       "src": 113016,
       "dst": 113007
+    },
+    {
+      "relate": "前传",
+      "src": 525953,
+      "dst": 69295
+    },
+    {
+      "relate": "续集",
+      "src": 525953,
+      "dst": 525954
+    },
+    {
+      "relate": "前传",
+      "src": 525954,
+      "dst": 525953
+    },
+    {
+      "relate": "续集",
+      "src": 525954,
+      "dst": 525956
+    },
+    {
+      "relate": "前传",
+      "src": 525956,
+      "dst": 525954
     }
   ]
 }

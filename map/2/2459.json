@@ -45,6 +45,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 526567,
+      "name": "ギャグマンガ日和GO",
+      "nameCN": "搞笑漫画日和GO",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -85,8 +93,18 @@
     },
     {
       "relate": "续集",
+      "src": 3482,
+      "dst": 526567
+    },
+    {
+      "relate": "续集",
       "src": 113443,
       "dst": 2461
+    },
+    {
+      "relate": "前传",
+      "src": 526567,
+      "dst": 3482
     }
   ]
 }

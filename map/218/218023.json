@@ -2,6 +2,23 @@
   "id": 218023,
   "node": [
     {
+      "id": 218023,
+      "name": "Wiedźmin",
+      "nameCN": "猎魔人",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 525986,
+      "name": "Rozdroże kruków",
+      "nameCN": "",
+      "date": "2024-11-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
       "id": 464852,
       "name": "The Witcher: Sirens of The Deep",
       "nameCN": "巫师 深海女妖",
@@ -9,20 +26,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
-    },
-    {
-      "id": 218023,
-      "name": "Wiedźmin",
-      "nameCN": "猎魔人",
-      "type": 1,
-      "nsfw": false,
-      "platform": "小说"
     }
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 218023,
+      "dst": 525986
+    },
+    {
       "relate": "主线故事",
       "src": 464852,
+      "dst": 218023
+    },
+    {
+      "relate": "续集",
+      "src": 525986,
       "dst": 218023
     }
   ]

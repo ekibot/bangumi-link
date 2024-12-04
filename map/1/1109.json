@@ -414,6 +414,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 526104,
+      "name": "キミとアイドルプリキュア♪",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -883,8 +891,18 @@
       "dst": 485315
     },
     {
+      "relate": "续集",
+      "src": 467784,
+      "dst": 526104
+    },
+    {
       "relate": "主线故事",
       "src": 485315,
+      "dst": 467784
+    },
+    {
+      "relate": "前传",
+      "src": 526104,
       "dst": 467784
     }
   ]

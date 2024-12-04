@@ -31,11 +31,28 @@
     {
       "id": 209579,
       "name": "Smurfs: The Lost Village",
-      "nameCN": "蓝精灵3：失落的村庄",
+      "nameCN": "蓝精灵：失落的村庄",
       "date": "2017-04-07",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 524750,
+      "name": "The Smurfs: A Christmas Carol",
+      "nameCN": "蓝精灵：圣诞颂歌",
+      "date": "2011-09-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 526068,
+      "name": "The Smurfs: The Legend of Smurfy Hollow",
+      "nameCN": "蓝精灵：精灵谷的传说",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -51,6 +68,16 @@
     },
     {
       "relate": "不同演绎",
+      "src": 14519,
+      "dst": 209579
+    },
+    {
+      "relate": "不同演绎",
+      "src": 14519,
+      "dst": 524750
+    },
+    {
+      "relate": "不同演绎",
       "src": 61217,
       "dst": 14519
     },
@@ -70,13 +97,23 @@
       "dst": 61217
     },
     {
-      "relate": "续集",
+      "relate": "番外篇",
       "src": 88446,
-      "dst": 209579
+      "dst": 526068
     },
     {
-      "relate": "前传",
+      "relate": "不同演绎",
       "src": 209579,
+      "dst": 14519
+    },
+    {
+      "relate": "不同演绎",
+      "src": 524750,
+      "dst": 14519
+    },
+    {
+      "relate": "主线故事",
+      "src": 526068,
       "dst": 88446
     }
   ]

@@ -1,0 +1,52 @@
+{
+  "id": 298459,
+  "node": [
+    {
+      "id": 298459,
+      "name": "Neuromancer",
+      "nameCN": "神经漫游者",
+      "date": "1984-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 526311,
+      "name": "Count Zero",
+      "nameCN": "零伯爵",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 526312,
+      "name": "Mona Lisa Overdrive",
+      "nameCN": "重启蒙娜丽莎",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 298459,
+      "dst": 526311
+    },
+    {
+      "relate": "前传",
+      "src": 526311,
+      "dst": 298459
+    },
+    {
+      "relate": "续集",
+      "src": 526311,
+      "dst": 526312
+    },
+    {
+      "relate": "前传",
+      "src": 526312,
+      "dst": 526311
+    }
+  ]
+}
