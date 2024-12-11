@@ -1,0 +1,54 @@
+{
+  "id": 527101,
+  "node": [
+    {
+      "id": 527101,
+      "name": "杀戮秀 第一季",
+      "nameCN": "",
+      "date": "2018-05-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527102,
+      "name": "杀戮秀 第二季",
+      "nameCN": "",
+      "date": "2019-04-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527103,
+      "name": "杀戮秀 第三季",
+      "nameCN": "",
+      "date": "2020-02-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 527101,
+      "dst": 527102
+    },
+    {
+      "relate": "前传",
+      "src": 527102,
+      "dst": 527101
+    },
+    {
+      "relate": "续集",
+      "src": 527102,
+      "dst": 527103
+    },
+    {
+      "relate": "前传",
+      "src": 527103,
+      "dst": 527102
+    }
+  ]
+}

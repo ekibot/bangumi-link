@@ -3,9 +3,9 @@
   "node": [
     {
       "id": 492281,
-      "name": "SCI谜案集 第一季",
+      "name": "SCI谜案集 第一季（重制版）",
       "nameCN": "",
-      "date": "2019-05-05",
+      "date": "2019-06-23",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -15,6 +15,15 @@
       "name": "SCI谜案集 第二季",
       "nameCN": "",
       "date": "2019-10-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527830,
+      "name": "SCI谜案集 第一季",
+      "nameCN": "",
+      "date": "2019-05-05",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -63,6 +72,11 @@
       "dst": 492282
     },
     {
+      "relate": "不同演绎",
+      "src": 492281,
+      "dst": 527830
+    },
+    {
       "relate": "前传",
       "src": 492282,
       "dst": 492281
@@ -106,6 +120,11 @@
       "relate": "前传",
       "src": 492286,
       "dst": 492284
+    },
+    {
+      "relate": "不同演绎",
+      "src": 527830,
+      "dst": 492281
     }
   ]
 }

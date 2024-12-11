@@ -1,0 +1,52 @@
+{
+  "id": 229612,
+  "node": [
+    {
+      "id": 229612,
+      "name": "进击的机甲之圣戒飞陀",
+      "nameCN": "进击的机甲之圣戒飞陀",
+      "date": "2015-11-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 527560,
+      "name": "机甲旋风之星际海盗",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 527559,
+      "name": "机甲旋风激战篇",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 229612,
+      "dst": 527560
+    },
+    {
+      "relate": "续集",
+      "src": 527559,
+      "dst": 527560
+    },
+    {
+      "relate": "续集",
+      "src": 527560,
+      "dst": 229612
+    },
+    {
+      "relate": "前传",
+      "src": 527560,
+      "dst": 527559
+    }
+  ]
+}

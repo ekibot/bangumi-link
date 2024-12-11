@@ -1,0 +1,33 @@
+{
+  "id": 160052,
+  "node": [
+    {
+      "id": 160052,
+      "name": "ロックマンリミックス",
+      "nameCN": "洛克人REMIX",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 160056,
+      "name": "ロックマンメガミックス",
+      "nameCN": "洛克人MEGAMIX",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 160052,
+      "dst": 160056
+    },
+    {
+      "relate": "番外篇",
+      "src": 160056,
+      "dst": 160052
+    }
+  ]
+}

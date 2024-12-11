@@ -11,6 +11,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 83552,
+      "name": "ピーターパンの冒険",
+      "nameCN": "彼得潘的冒险",
+      "date": "1989-01-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 112883,
       "name": "Return to Never Land",
       "nameCN": "梦不落帝国",
@@ -18,18 +27,46 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 316545,
+      "name": "世界名作劇場・完結版 ピーターパンの冒険",
+      "nameCN": "世界名作剧场·完结版 彼得潘的冒险",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 64094,
+      "dst": 83552
+    },
     {
       "relate": "续集",
       "src": 64094,
       "dst": 112883
     },
     {
+      "relate": "不同演绎",
+      "src": 83552,
+      "dst": 64094
+    },
+    {
+      "relate": "总集篇",
+      "src": 83552,
+      "dst": 316545
+    },
+    {
       "relate": "前传",
       "src": 112883,
       "dst": 64094
+    },
+    {
+      "relate": "全集",
+      "src": 316545,
+      "dst": 83552
     }
   ]
 }
