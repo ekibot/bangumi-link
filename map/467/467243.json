@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 529756,
+      "name": "ラーメン赤猫 第2期",
+      "nameCN": "拉面赤猫 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 510015
     },
     {
+      "relate": "续集",
+      "src": 467243,
+      "dst": 529756
+    },
+    {
       "relate": "衍生",
       "src": 510015,
+      "dst": 467243
+    },
+    {
+      "relate": "前传",
+      "src": 529756,
       "dst": 467243
     }
   ]

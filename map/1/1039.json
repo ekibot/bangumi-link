@@ -29,6 +29,15 @@
       "platform": "其他"
     },
     {
+      "id": 530007,
+      "name": "Wallace & Gromit's Cracking Contraptions",
+      "nameCN": "超级无敌掌门狗：异想天开小发明",
+      "date": "2002-10-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 26224,
       "name": "Shaun the Sheep Season 1",
       "nameCN": "小羊肖恩 第一季",
@@ -138,6 +147,11 @@
       "relate": "续集",
       "src": 1039,
       "dst": 137371
+    },
+    {
+      "relate": "前传",
+      "src": 1039,
+      "dst": 530007
     },
     {
       "relate": "续集",
@@ -265,6 +279,11 @@
       "dst": 140627
     },
     {
+      "relate": "续集",
+      "src": 132427,
+      "dst": 530007
+    },
+    {
       "relate": "前传",
       "src": 137371,
       "dst": 1039
@@ -388,6 +407,16 @@
       "relate": "前传",
       "src": 439341,
       "dst": 439340
+    },
+    {
+      "relate": "续集",
+      "src": 530007,
+      "dst": 1039
+    },
+    {
+      "relate": "前传",
+      "src": 530007,
+      "dst": 132427
     }
   ]
 }

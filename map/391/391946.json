@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 529649,
+      "name": "Abbott Elementary Season 3",
+      "nameCN": "小学风云 第三季",
+      "date": "2024-02-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 529651,
+      "name": "Abbott Elementary Season 4",
+      "nameCN": "小学风云 第四季",
+      "date": "2024-10-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 407022,
       "dst": 391946
+    },
+    {
+      "relate": "续集",
+      "src": 407022,
+      "dst": 529649
+    },
+    {
+      "relate": "前传",
+      "src": 529649,
+      "dst": 407022
+    },
+    {
+      "relate": "续集",
+      "src": 529649,
+      "dst": 529651
+    },
+    {
+      "relate": "前传",
+      "src": 529651,
+      "dst": 529649
     }
   ]
 }

@@ -11,9 +11,18 @@
       "platform": "TV"
     },
     {
-      "id": 112340,
-      "name": "Hello, My Friend",
-      "nameCN": "高飞狗",
+      "id": 112705,
+      "name": "An Extremely Goofy Movie",
+      "nameCN": "极限高飞",
+      "date": "2000-02-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 147929,
+      "name": "A Goofy Movie",
+      "nameCN": "高飞电影",
       "date": "1995-04-07",
       "type": 2,
       "nsfw": false,
@@ -22,13 +31,23 @@
   ],
   "relate": [
     {
-      "relate": "不同演绎",
+      "relate": "衍生",
       "src": 36400,
-      "dst": 112340
+      "dst": 112705
     },
     {
-      "relate": "不同演绎",
-      "src": 112340,
+      "relate": "番外篇",
+      "src": 36400,
+      "dst": 147929
+    },
+    {
+      "relate": "主线故事",
+      "src": 112705,
+      "dst": 36400
+    },
+    {
+      "relate": "主线故事",
+      "src": 147929,
       "dst": 36400
     }
   ]

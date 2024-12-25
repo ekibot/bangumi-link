@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 528833,
+      "name": "宝島メモリアル 夕凪と呼ばれた男",
+      "nameCN": "",
+      "date": "1992-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 425953
     },
     {
+      "relate": "续集",
+      "src": 38941,
+      "dst": 528833
+    },
+    {
       "relate": "全集",
       "src": 425953,
+      "dst": 38941
+    },
+    {
+      "relate": "前传",
+      "src": 528833,
       "dst": 38941
     }
   ]

@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 528088,
+      "name": "あらいぐま カルカル団",
+      "nameCN": "小浣熊",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 316213
     },
     {
+      "relate": "不同演绎",
+      "src": 23609,
+      "dst": 528088
+    },
+    {
       "relate": "全集",
       "src": 316213,
+      "dst": 23609
+    },
+    {
+      "relate": "不同演绎",
+      "src": 528088,
       "dst": 23609
     }
   ]
