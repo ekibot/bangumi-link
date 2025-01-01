@@ -29,6 +29,15 @@
       "platform": "WEB"
     },
     {
+      "id": 530746,
+      "name": "Dexter: Original Sin",
+      "nameCN": "嗜血法医：源罪",
+      "date": "2024-12-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
       "id": 4031,
       "name": "Dexter Season 3",
       "nameCN": "嗜血法医 第三季",
@@ -102,6 +111,11 @@
       "relate": "衍生",
       "src": 4029,
       "dst": 505817
+    },
+    {
+      "relate": "前传",
+      "src": 4029,
+      "dst": 530746
     },
     {
       "relate": "前传",
@@ -179,9 +193,24 @@
       "dst": 76446
     },
     {
+      "relate": "续集",
+      "src": 345280,
+      "dst": 530746
+    },
+    {
       "relate": "主线故事",
       "src": 505817,
       "dst": 4029
+    },
+    {
+      "relate": "续集",
+      "src": 530746,
+      "dst": 4029
+    },
+    {
+      "relate": "前传",
+      "src": 530746,
+      "dst": 345280
     }
   ]
 }

@@ -11,24 +11,6 @@
       "platform": "TV"
     },
     {
-      "id": 2662,
-      "name": "ひだまりスケッチ×365 特別編",
-      "nameCN": "向阳素描×365 特别篇",
-      "date": "2009-10-17",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
-    },
-    {
-      "id": 9642,
-      "name": "ひだまりスケッチ 特別編",
-      "nameCN": "向阳素描 特别篇",
-      "date": "2007-10-18",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
-    },
-    {
       "id": 896,
       "name": "ひだまりスケッチ",
       "nameCN": "向阳素描",
@@ -38,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 2662,
+      "name": "ひだまりスケッチ×365 特別編",
+      "nameCN": "向阳素描×365 特别篇",
+      "date": "2009-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 3622,
       "name": "ひだまりスケッチ×☆☆☆",
       "nameCN": "向阳素描×☆☆☆",
@@ -45,6 +36,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 9642,
+      "name": "ひだまりスケッチ 特別編",
+      "nameCN": "向阳素描 特别篇",
+      "date": "2007-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     },
     {
       "id": 9639,
@@ -85,14 +85,29 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 330,
+      "dst": 896
+    },
+    {
       "relate": "续集",
       "src": 330,
       "dst": 2662
     },
     {
+      "relate": "续集",
+      "src": 330,
+      "dst": 3622
+    },
+    {
       "relate": "前传",
       "src": 330,
       "dst": 9642
+    },
+    {
+      "relate": "续集",
+      "src": 896,
+      "dst": 330
     },
     {
       "relate": "续集",
@@ -112,12 +127,22 @@
     {
       "relate": "前传",
       "src": 3622,
+      "dst": 330
+    },
+    {
+      "relate": "前传",
+      "src": 3622,
       "dst": 2662
     },
     {
       "relate": "续集",
       "src": 3622,
       "dst": 9639
+    },
+    {
+      "relate": "续集",
+      "src": 3622,
+      "dst": 22241
     },
     {
       "relate": "前传",
@@ -138,6 +163,11 @@
       "relate": "前传",
       "src": 9642,
       "dst": 896
+    },
+    {
+      "relate": "前传",
+      "src": 22241,
+      "dst": 3622
     },
     {
       "relate": "前传",

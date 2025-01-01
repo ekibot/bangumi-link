@@ -1,0 +1,53 @@
+{
+  "id": 531008,
+  "node": [
+    {
+      "id": 531008,
+      "name": "Rosemary & Thyme Season 1",
+      "nameCN": "园丁女侦探 第一季",
+      "date": "2003-08-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 531010,
+      "name": "Rosemary & Thyme Season 2",
+      "nameCN": "园丁女侦探 第二季",
+      "date": "2004-10-03",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 531012,
+      "name": "Rosemary & Thyme Season 3",
+      "nameCN": "园丁女侦探 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 531008,
+      "dst": 531010
+    },
+    {
+      "relate": "前传",
+      "src": 531010,
+      "dst": 531008
+    },
+    {
+      "relate": "续集",
+      "src": 531010,
+      "dst": 531012
+    },
+    {
+      "relate": "前传",
+      "src": 531012,
+      "dst": 531010
+    }
+  ]
+}

@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 530442,
+      "name": "Cloudy with a Chance of Meatballs Season 1",
+      "nameCN": "天降美食 第一季",
+      "date": "2017-02-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 530445,
+      "name": "Cloudy with a Chance of Meatballs Season 2",
+      "nameCN": "天降美食 第二季",
+      "date": "2018-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,9 +45,29 @@
       "dst": 97447
     },
     {
+      "relate": "衍生",
+      "src": 18656,
+      "dst": 530442
+    },
+    {
       "relate": "前传",
       "src": 97447,
       "dst": 18656
+    },
+    {
+      "relate": "主线故事",
+      "src": 530442,
+      "dst": 18656
+    },
+    {
+      "relate": "续集",
+      "src": 530442,
+      "dst": 530445
+    },
+    {
+      "relate": "前传",
+      "src": 530445,
+      "dst": 530442
     }
   ]
 }
