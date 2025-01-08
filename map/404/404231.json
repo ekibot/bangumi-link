@@ -2,15 +2,6 @@
   "id": 404231,
   "node": [
     {
-      "id": 448879,
-      "name": "デリコズ・ナーサリー",
-      "nameCN": "德里科的托儿所",
-      "date": "2024-08-07",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 404231,
       "name": "TRUMP",
       "nameCN": "",
@@ -18,12 +9,40 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 531919,
+      "name": "COCOON",
+      "nameCN": "",
+      "date": "2024-09-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 448879,
+      "name": "デリコズ・ナーサリー",
+      "nameCN": "德里科的托儿所",
+      "date": "2024-08-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 404231,
+      "dst": 531919
+    },
+    {
       "relate": "续集",
       "src": 448879,
+      "dst": 404231
+    },
+    {
+      "relate": "续集",
+      "src": 531919,
       "dst": 404231
     }
   ]
