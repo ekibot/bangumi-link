@@ -651,6 +651,14 @@
       "platform": "漫画"
     },
     {
+      "id": 530729,
+      "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+      "nameCN": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 402128,
       "name": "Fate/strange Fake -Whispers of Dawn-",
       "nameCN": "命运-奇异赝品 黎明低语",
@@ -658,6 +666,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 530731,
+      "name": "魔法少女リリカルなのは EXCEEDS",
+      "nameCN": "魔法少女奈叶 EXCEEDS",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -2367,6 +2383,11 @@
       "dst": 68284
     },
     {
+      "relate": "续集",
+      "src": 220403,
+      "dst": 530729
+    },
+    {
       "relate": "总集篇",
       "src": 331490,
       "dst": 3484
@@ -2455,6 +2476,16 @@
       "relate": "前传",
       "src": 443831,
       "dst": 402128
+    },
+    {
+      "relate": "前传",
+      "src": 530729,
+      "dst": 220403
+    },
+    {
+      "relate": "前传",
+      "src": 530731,
+      "dst": 220403
     }
   ]
 }
