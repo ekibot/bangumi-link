@@ -29,6 +29,14 @@
       "platform": "TV"
     },
     {
+      "id": 534907,
+      "name": "アイドリッシュセブン 劇場総集編",
+      "nameCN": "IDOLiSH7-偶像星愿- 剧场总集篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 323960,
       "name": "アイドリッシュセブン Third BEAT!",
       "nameCN": "IDOLiSH7-偶像星愿- Third BEAT!",
@@ -45,6 +53,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 534901,
+      "name": "アイドリッシュセブン 4期",
+      "nameCN": "IDOLiSH7-偶像星愿- 4期",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -57,6 +73,11 @@
       "relate": "续集",
       "src": 190441,
       "dst": 253042
+    },
+    {
+      "relate": "总集篇",
+      "src": 190441,
+      "dst": 534907
     },
     {
       "relate": "主线故事",
@@ -87,6 +108,21 @@
       "relate": "前传",
       "src": 331751,
       "dst": 323960
+    },
+    {
+      "relate": "续集",
+      "src": 331751,
+      "dst": 534901
+    },
+    {
+      "relate": "前传",
+      "src": 534901,
+      "dst": 331751
+    },
+    {
+      "relate": "全集",
+      "src": 534907,
+      "dst": 190441
     }
   ]
 }

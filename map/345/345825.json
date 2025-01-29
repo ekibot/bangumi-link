@@ -17,6 +17,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "华语剧"
+    },
+    {
+      "id": 520300,
+      "name": "剑来 第2季",
+      "nameCN": "剑来 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 442028
     },
     {
+      "relate": "续集",
+      "src": 345825,
+      "dst": 520300
+    },
+    {
       "relate": "不同演绎",
       "src": 442028,
+      "dst": 345825
+    },
+    {
+      "relate": "前传",
+      "src": 520300,
       "dst": 345825
     }
   ]
