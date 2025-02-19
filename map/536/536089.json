@@ -1,0 +1,54 @@
+{
+  "id": 536089,
+  "node": [
+    {
+      "id": 536089,
+      "name": "The Adventures of Paddington",
+      "nameCN": "帕丁顿熊的冒险之旅",
+      "date": "2019-12-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 536090,
+      "name": "The Adventures of Paddington Season 2",
+      "nameCN": "帕丁顿熊的冒险之旅 第二季",
+      "date": "2021-02-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 536091,
+      "name": "The Adventures of Paddington Season 3",
+      "nameCN": "帕丁顿熊的冒险之旅 第三季",
+      "date": "2023-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 536089,
+      "dst": 536090
+    },
+    {
+      "relate": "前传",
+      "src": 536090,
+      "dst": 536089
+    },
+    {
+      "relate": "续集",
+      "src": 536090,
+      "dst": 536091
+    },
+    {
+      "relate": "前传",
+      "src": 536091,
+      "dst": 536090
+    }
+  ]
+}

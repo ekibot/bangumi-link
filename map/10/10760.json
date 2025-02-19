@@ -1,0 +1,49 @@
+{
+  "id": 10760,
+  "node": [
+    {
+      "id": 10760,
+      "name": "遊☆戯☆王ZEXAL",
+      "nameCN": "游戏王ZEXAL",
+      "date": "2011-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 48670,
+      "name": "遊☆戯☆王ZEXAL II",
+      "nameCN": "游戏王ZEXAL II",
+      "date": "2012-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 67458,
+      "name": "遊☆戯☆王ZEXAL",
+      "nameCN": "游戏王ZEXAL",
+      "date": "2011-06-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 10760,
+      "dst": 48670
+    },
+    {
+      "relate": "前传",
+      "src": 48670,
+      "dst": 10760
+    },
+    {
+      "relate": "不同世界观",
+      "src": 67458,
+      "dst": 10760
+    }
+  ]
+}

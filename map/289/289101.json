@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 522287,
+      "name": "天官赐福 全新动画短片",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -41,14 +49,34 @@
       "dst": 320209
     },
     {
+      "relate": "衍生",
+      "src": 289101,
+      "dst": 522287
+    },
+    {
       "relate": "前传",
       "src": 289102,
       "dst": 289101
     },
     {
+      "relate": "衍生",
+      "src": 289102,
+      "dst": 522287
+    },
+    {
       "relate": "主线故事",
       "src": 320209,
       "dst": 289101
+    },
+    {
+      "relate": "主线故事",
+      "src": 522287,
+      "dst": 289101
+    },
+    {
+      "relate": "主线故事",
+      "src": 522287,
+      "dst": 289102
     }
   ]
 }

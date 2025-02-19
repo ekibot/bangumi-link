@@ -151,6 +151,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 536033,
+      "name": "Death in Paradise Season 14",
+      "nameCN": "天堂岛疑云 第十四季",
+      "date": "2024-02-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -330,6 +339,11 @@
       "dst": 530426
     },
     {
+      "relate": "续集",
+      "src": 529137,
+      "dst": 536033
+    },
+    {
       "relate": "前传",
       "src": 529702,
       "dst": 529133
@@ -343,6 +357,21 @@
       "relate": "前传",
       "src": 530426,
       "dst": 529137
+    },
+    {
+      "relate": "主线故事",
+      "src": 530426,
+      "dst": 536033
+    },
+    {
+      "relate": "前传",
+      "src": 536033,
+      "dst": 529137
+    },
+    {
+      "relate": "番外篇",
+      "src": 536033,
+      "dst": 530426
     }
   ]
 }

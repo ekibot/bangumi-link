@@ -1,0 +1,54 @@
+{
+  "id": 144562,
+  "node": [
+    {
+      "id": 144562,
+      "name": "World of Tomorrow",
+      "nameCN": "今夕何夕",
+      "date": "2015-01-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 536255,
+      "name": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
+      "nameCN": "今夕何夕2",
+      "date": "2017-10-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 536256,
+      "name": "World of Tomorrow Episode Three: The Absent Destinations of David Prime",
+      "nameCN": "今夕何夕3",
+      "date": "2020-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 144562,
+      "dst": 536255
+    },
+    {
+      "relate": "前传",
+      "src": 536255,
+      "dst": 144562
+    },
+    {
+      "relate": "续集",
+      "src": 536255,
+      "dst": 536256
+    },
+    {
+      "relate": "前传",
+      "src": 536256,
+      "dst": 536255
+    }
+  ]
+}

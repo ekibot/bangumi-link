@@ -83,33 +83,6 @@
       "platform": "剧场版"
     },
     {
-      "id": 38228,
-      "name": "聖闘士星矢 LEGEND of SANCTUARY",
-      "nameCN": "圣斗士星矢 圣域传说",
-      "date": "2014-06-21",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
-      "id": 202250,
-      "name": "聖闘士星矢 セインティア翔",
-      "nameCN": "圣斗士星矢 圣斗少女翔",
-      "date": "2018-12-24",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 221295,
-      "name": "聖闘士星矢: Knights of the Zodiac",
-      "nameCN": "圣斗士星矢：黄道十二宫战士",
-      "date": "2019-07-19",
-      "type": 2,
-      "nsfw": false,
-      "platform": "WEB"
-    },
-    {
       "id": 1486,
       "name": "聖闘士星矢 冥王ハーデスエリシオン編",
       "nameCN": "圣斗士星矢 极乐净土篇",
@@ -150,6 +123,33 @@
       "name": "聖闘士星矢 黄金魂 -soul of gold-",
       "nameCN": "圣斗士星矢 黄金魂 -soul of gold-",
       "date": "2015-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 38228,
+      "name": "聖闘士星矢 LEGEND of SANCTUARY",
+      "nameCN": "圣斗士星矢 圣域传说",
+      "date": "2014-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 202250,
+      "name": "聖闘士星矢 セインティア翔",
+      "nameCN": "圣斗士星矢 圣斗少女翔",
+      "date": "2018-12-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 221295,
+      "name": "聖闘士星矢: Knights of the Zodiac",
+      "nameCN": "圣斗士星矢：黄道十二宫战士",
+      "date": "2019-07-19",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -229,12 +229,37 @@
       "dst": 27479
     },
     {
+      "relate": "前传",
+      "src": 1486,
+      "dst": 20234
+    },
+    {
+      "relate": "续集",
+      "src": 1486,
+      "dst": 20235
+    },
+    {
+      "relate": "续集",
+      "src": 1486,
+      "dst": 33446
+    },
+    {
+      "relate": "番外篇",
+      "src": 1486,
+      "dst": 116716
+    },
+    {
+      "relate": "相同世界观",
+      "src": 4843,
+      "dst": 33446
+    },
+    {
       "relate": "不同演绎",
       "src": 4843,
       "dst": 38228
     },
     {
-      "relate": "衍生",
+      "relate": "相同世界观",
       "src": 4843,
       "dst": 202250
     },
@@ -257,26 +282,6 @@
       "relate": "前传",
       "src": 20232,
       "dst": 593
-    },
-    {
-      "relate": "前传",
-      "src": 1486,
-      "dst": 20234
-    },
-    {
-      "relate": "续集",
-      "src": 1486,
-      "dst": 20235
-    },
-    {
-      "relate": "续集",
-      "src": 1486,
-      "dst": 33446
-    },
-    {
-      "relate": "番外篇",
-      "src": 1486,
-      "dst": 116716
     },
     {
       "relate": "续集",
@@ -334,12 +339,17 @@
       "dst": 4843
     },
     {
+      "relate": "不同演绎",
+      "src": 38228,
+      "dst": 221295
+    },
+    {
       "relate": "主线故事",
       "src": 116716,
       "dst": 1486
     },
     {
-      "relate": "主线故事",
+      "relate": "相同世界观",
       "src": 202250,
       "dst": 4843
     },
@@ -347,6 +357,11 @@
       "relate": "不同演绎",
       "src": 221295,
       "dst": 4843
+    },
+    {
+      "relate": "不同演绎",
+      "src": 221295,
+      "dst": 38228
     },
     {
       "relate": "续集",

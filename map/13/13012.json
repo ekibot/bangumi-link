@@ -44,6 +44,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 536891,
+      "name": "哪吒3",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -71,6 +79,16 @@
       "relate": "前传",
       "src": 383308,
       "dst": 231261
+    },
+    {
+      "relate": "续集",
+      "src": 383308,
+      "dst": 536891
+    },
+    {
+      "relate": "前传",
+      "src": 536891,
+      "dst": 383308
     }
   ]
 }
