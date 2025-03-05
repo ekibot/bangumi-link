@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 540443,
+      "name": "チェンソーマン・ザ・カオス 4-D",
+      "nameCN": "链锯人 THE CHAOS 4D",
+      "date": "2024-09-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 470660
     },
     {
+      "relate": "番外篇",
+      "src": 321885,
+      "dst": 540443
+    },
+    {
       "relate": "前传",
       "src": 470660,
+      "dst": 321885
+    },
+    {
+      "relate": "主线故事",
+      "src": 540443,
       "dst": 321885
     }
   ]

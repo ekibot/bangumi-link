@@ -1,0 +1,54 @@
+{
+  "id": 541549,
+  "node": [
+    {
+      "id": 541549,
+      "name": "런닝맨: 리벤져스",
+      "nameCN": "Running Man－复仇者之战",
+      "date": "2023-08-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 541551,
+      "name": "애니메이션 런닝맨2",
+      "nameCN": "Running Man 动画版 第二季",
+      "date": "2019-01-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 541550,
+      "name": "애니메이션 런닝맨",
+      "nameCN": "Running Man 动画版",
+      "date": "2017-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 541549,
+      "dst": 541551
+    },
+    {
+      "relate": "续集",
+      "src": 541550,
+      "dst": 541551
+    },
+    {
+      "relate": "续集",
+      "src": 541551,
+      "dst": 541549
+    },
+    {
+      "relate": "前传",
+      "src": 541551,
+      "dst": 541550
+    }
+  ]
+}
