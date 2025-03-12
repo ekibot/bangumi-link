@@ -54,6 +54,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 542046,
+      "name": "完美世界剧场版 第二部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -103,9 +111,29 @@
       "dst": 449355
     },
     {
+      "relate": "续集",
+      "src": 485902,
+      "dst": 542046
+    },
+    {
       "relate": "前传",
       "src": 505396,
       "dst": 449355
+    },
+    {
+      "relate": "衍生",
+      "src": 505396,
+      "dst": 542046
+    },
+    {
+      "relate": "前传",
+      "src": 542046,
+      "dst": 485902
+    },
+    {
+      "relate": "主线故事",
+      "src": 542046,
+      "dst": 505396
     }
   ]
 }

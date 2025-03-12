@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 542812,
+      "name": "Junk World",
+      "nameCN": "废世界",
+      "date": "2025-06-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -29,6 +38,16 @@
       "relate": "番外篇",
       "src": 364543,
       "dst": 240847
+    },
+    {
+      "relate": "续集",
+      "src": 364543,
+      "dst": 542812
+    },
+    {
+      "relate": "前传",
+      "src": 542812,
+      "dst": 364543
     }
   ]
 }
