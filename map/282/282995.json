@@ -71,6 +71,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 419209,
+      "name": "阿衰 第八季",
+      "nameCN": "阿衰 第八季",
+      "date": "2022-06-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 419211,
+      "name": "阿衰 第九季",
+      "nameCN": "阿衰 第九季",
+      "date": "2022-11-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -140,9 +158,29 @@
       "dst": 370350
     },
     {
+      "relate": "续集",
+      "src": 370351,
+      "dst": 419209
+    },
+    {
       "relate": "不同演绎",
       "src": 370352,
       "dst": 282995
+    },
+    {
+      "relate": "前传",
+      "src": 419209,
+      "dst": 370351
+    },
+    {
+      "relate": "续集",
+      "src": 419209,
+      "dst": 419211
+    },
+    {
+      "relate": "前传",
+      "src": 419211,
+      "dst": 419209
     }
   ]
 }
