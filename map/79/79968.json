@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 545375,
+      "name": "ツインビーPARADISE チューリップ海岸物語",
+      "nameCN": "兵蜂PARADISE 郁金香海岸物语",
+      "date": "1998-12-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 466854
     },
     {
+      "relate": "番外篇",
+      "src": 79968,
+      "dst": 545375
+    },
+    {
       "relate": "续集",
       "src": 466854,
+      "dst": 79968
+    },
+    {
+      "relate": "主线故事",
+      "src": 545375,
       "dst": 79968
     }
   ]

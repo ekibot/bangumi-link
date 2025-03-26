@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 545813,
+      "name": "Coco 2",
+      "nameCN": "寻梦环游记2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 239758
     },
     {
+      "relate": "续集",
+      "src": 209925,
+      "dst": 545813
+    },
+    {
       "relate": "主线故事",
       "src": 239758,
+      "dst": 209925
+    },
+    {
+      "relate": "前传",
+      "src": 545813,
       "dst": 209925
     }
   ]

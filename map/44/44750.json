@@ -11,10 +11,28 @@
       "platform": "漫画"
     },
     {
+      "id": 61308,
+      "name": "霊媒師いずな",
+      "nameCN": "靈媒師東名",
+      "date": "2008-08-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 115107,
       "name": "地獄先生ぬ〜べ〜 NEO",
       "nameCN": "灵异教师神眉NEO",
       "date": "2014-10-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 61316,
+      "name": "霊媒師いずな Ascension",
+      "nameCN": "靈媒師東名 Ascension",
+      "date": "2012-04-19",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -27,13 +45,42 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 546939,
+      "name": "地獄先生ぬ〜べ〜怪",
+      "nameCN": "",
+      "date": "2025-05-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
     {
+      "relate": "不同世界观",
+      "src": 44750,
+      "dst": 61308
+    },
+    {
       "relate": "续集",
       "src": 44750,
       "dst": 115107
+    },
+    {
+      "relate": "不同世界观",
+      "src": 61308,
+      "dst": 44750
+    },
+    {
+      "relate": "续集",
+      "src": 61308,
+      "dst": 61316
+    },
+    {
+      "relate": "前传",
+      "src": 61316,
+      "dst": 61308
     },
     {
       "relate": "前传",
@@ -49,6 +96,16 @@
       "relate": "前传",
       "src": 307515,
       "dst": 115107
+    },
+    {
+      "relate": "续集",
+      "src": 307515,
+      "dst": 546939
+    },
+    {
+      "relate": "前传",
+      "src": 546939,
+      "dst": 307515
     }
   ]
 }
