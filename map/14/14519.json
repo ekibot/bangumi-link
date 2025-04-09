@@ -2,15 +2,6 @@
   "id": 14519,
   "node": [
     {
-      "id": 14519,
-      "name": "The Smurfs",
-      "nameCN": "蓝精灵",
-      "date": "1981-09-12",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 209579,
       "name": "Smurfs: The Lost Village",
       "nameCN": "蓝精灵：失落的村庄",
@@ -20,6 +11,24 @@
       "platform": "剧场版"
     },
     {
+      "id": 14519,
+      "name": "The Smurfs",
+      "nameCN": "蓝精灵",
+      "date": "1981-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 420264,
+      "name": "Les Schtroumpfs",
+      "nameCN": "蓝精灵",
+      "date": "1958-10-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 524750,
       "name": "The Smurfs: A Christmas Carol",
       "nameCN": "蓝精灵：圣诞颂歌",
@@ -27,19 +36,17 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 526068,
+      "name": "The Smurfs: The Legend of Smurfy Hollow",
+      "nameCN": "蓝精灵：精灵谷的传说",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
-    {
-      "relate": "不同演绎",
-      "src": 14519,
-      "dst": 209579
-    },
-    {
-      "relate": "不同演绎",
-      "src": 14519,
-      "dst": 524750
-    },
     {
       "relate": "不同演绎",
       "src": 209579,
@@ -47,7 +54,32 @@
     },
     {
       "relate": "不同演绎",
+      "src": 420264,
+      "dst": 14519
+    },
+    {
+      "relate": "不同演绎",
+      "src": 420264,
+      "dst": 209579
+    },
+    {
+      "relate": "不同演绎",
+      "src": 420264,
+      "dst": 524750
+    },
+    {
+      "relate": "不同演绎",
+      "src": 420264,
+      "dst": 526068
+    },
+    {
+      "relate": "不同演绎",
       "src": 524750,
+      "dst": 14519
+    },
+    {
+      "relate": "不同演绎",
+      "src": 526068,
       "dst": 14519
     }
   ]

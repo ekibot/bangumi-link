@@ -35,7 +35,7 @@
       "date": "2024-08-02",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "WEB"
     },
     {
       "id": 126615,
@@ -138,9 +138,45 @@
     },
     {
       "id": 462604,
-      "name": "SpongeBob SquarePant Season 14",
+      "name": "SpongeBob SquarePants Season 14",
       "nameCN": "海绵宝宝 第十四季",
       "date": "2023-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 549993,
+      "name": "The Patrick Star Show Season 2",
+      "nameCN": "派大星秀 第二季",
+      "date": "2023-07-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 549979,
+      "name": "SpongeBob SquarePants Season 15",
+      "nameCN": "海绵宝宝 第十五季",
+      "date": "2024-07-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 549994,
+      "name": "The Patrick Star Show Season 3",
+      "nameCN": "派大星秀 第三季",
+      "date": "2024-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 549995,
+      "name": "The Patrick Star Show Season 4",
+      "nameCN": "派大星秀 第四季",
+      "date": "2025-03-21",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -288,14 +324,54 @@
       "dst": 7777
     },
     {
+      "relate": "续集",
+      "src": 430480,
+      "dst": 549993
+    },
+    {
       "relate": "前传",
       "src": 462604,
       "dst": 320844
     },
     {
+      "relate": "续集",
+      "src": 462604,
+      "dst": 549979
+    },
+    {
       "relate": "相同世界观",
       "src": 465183,
       "dst": 7777
+    },
+    {
+      "relate": "前传",
+      "src": 549979,
+      "dst": 462604
+    },
+    {
+      "relate": "前传",
+      "src": 549993,
+      "dst": 430480
+    },
+    {
+      "relate": "续集",
+      "src": 549993,
+      "dst": 549994
+    },
+    {
+      "relate": "前传",
+      "src": 549994,
+      "dst": 549993
+    },
+    {
+      "relate": "续集",
+      "src": 549994,
+      "dst": 549995
+    },
+    {
+      "relate": "前传",
+      "src": 549995,
+      "dst": 549994
     }
   ]
 }
