@@ -30,7 +30,7 @@
     },
     {
       "id": 530746,
-      "name": "Dexter: Original Sin",
+      "name": "Dexter: Original Sin Season 1",
       "nameCN": "嗜血法医：源罪",
       "date": "2024-12-13",
       "type": 6,
@@ -99,6 +99,22 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 552070,
+      "name": "Dexter: Resurrection",
+      "nameCN": "嗜血法医：杀魔复生",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 552059,
+      "name": "Dexter: Original Sin Season 2",
+      "nameCN": "嗜血法医：源罪 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -113,7 +129,7 @@
       "dst": 505817
     },
     {
-      "relate": "前传",
+      "relate": "番外篇",
       "src": 4029,
       "dst": 530746
     },
@@ -193,9 +209,14 @@
       "dst": 76446
     },
     {
-      "relate": "续集",
+      "relate": "衍生",
       "src": 345280,
       "dst": 530746
+    },
+    {
+      "relate": "续集",
+      "src": 345280,
+      "dst": 552070
     },
     {
       "relate": "主线故事",
@@ -203,13 +224,28 @@
       "dst": 4029
     },
     {
-      "relate": "续集",
+      "relate": "主线故事",
       "src": 530746,
       "dst": 4029
     },
     {
-      "relate": "前传",
+      "relate": "衍生",
       "src": 530746,
+      "dst": 345280
+    },
+    {
+      "relate": "续集",
+      "src": 530746,
+      "dst": 552059
+    },
+    {
+      "relate": "前传",
+      "src": 552059,
+      "dst": 530746
+    },
+    {
+      "relate": "前传",
+      "src": 552070,
       "dst": 345280
     }
   ]

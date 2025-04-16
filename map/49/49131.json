@@ -81,6 +81,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 551559,
+      "name": "デート・ア・ライブ 新プロジェクト",
+      "nameCN": "约会大作战 新项目",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -193,6 +201,16 @@
       "relate": "前传",
       "src": 389466,
       "dst": 302128
+    },
+    {
+      "relate": "续集",
+      "src": 389466,
+      "dst": 551559
+    },
+    {
+      "relate": "前传",
+      "src": 551559,
+      "dst": 389466
     }
   ]
 }
