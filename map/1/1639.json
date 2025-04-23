@@ -360,15 +360,6 @@
       "platform": "漫画"
     },
     {
-      "id": 449693,
-      "name": "The Transformers: All Hail Megatron",
-      "nameCN": "变形金刚：威震天万岁",
-      "date": "2011-08-09",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 449694,
       "name": "The Transformers: Maximum Dinobots",
       "nameCN": "变形金刚：恐龙行动",
@@ -378,9 +369,28 @@
       "platform": "漫画"
     },
     {
+      "id": 449693,
+      "name": "The Transformers: All Hail Megatron",
+      "nameCN": "变形金刚：威震天万岁",
+      "date": "2011-08-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 449695,
       "name": "The Transformers (IDW)",
       "nameCN": "变形金刚（IDW）",
+      "date": "2009-11-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 553505,
+      "name": "The Transformers: Bumblebee",
+      "nameCN": "变形金刚：大黄蜂",
+      "date": "2010-07-08",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -865,17 +875,7 @@
     {
       "relate": "续集",
       "src": 449691,
-      "dst": 449693
-    },
-    {
-      "relate": "续集",
-      "src": 449691,
       "dst": 449694
-    },
-    {
-      "relate": "前传",
-      "src": 449693,
-      "dst": 449691
     },
     {
       "relate": "前传",
@@ -903,6 +903,11 @@
       "dst": 449693
     },
     {
+      "relate": "番外篇",
+      "src": 449695,
+      "dst": 553505
+    },
+    {
       "relate": "全集",
       "src": 502000,
       "dst": 18268
@@ -916,6 +921,11 @@
       "relate": "续集",
       "src": 528037,
       "dst": 316962
+    },
+    {
+      "relate": "主线故事",
+      "src": 553505,
+      "dst": 449695
     }
   ]
 }
