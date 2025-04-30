@@ -164,6 +164,15 @@
       "platform": "TV"
     },
     {
+      "id": 17758,
+      "name": "機動戦士ガンダム MS IGLOO2 重力戦線",
+      "nameCN": "机动战士高达MS IGLOO 2 重力战线",
+      "date": "2008-10-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 18709,
       "name": "機動戦士ガンダムAGE",
       "nameCN": "机动战士高达AGE",
@@ -487,6 +496,24 @@
       "platform": "剧场版"
     },
     {
+      "id": 359476,
+      "name": "機動戦士Vガンダム外伝",
+      "nameCN": "机动战士V高达外传",
+      "date": "1995-11-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 467358,
+      "name": "機動戦士Vガンダム外伝 オデロ・ヘンリークからの手紙",
+      "nameCN": "机动战士V高达外传 奥德罗·亨里克的来信",
+      "date": "2024-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 5972,
       "name": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
       "nameCN": "机动战士高达00 先驱者的觉醒",
@@ -635,15 +662,6 @@
       "name": "機動戦士ガンダム MS IGLOO 黙示録0079",
       "nameCN": "机动战士高达 MS IGLOO 默示录0079",
       "date": "2006-04-26",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
-    },
-    {
-      "id": 17758,
-      "name": "機動戦士ガンダム MS IGLOO2 重力戦線",
-      "nameCN": "机动战士高达MS IGLOO 2 重力战线",
-      "date": "2008-10-24",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -1642,7 +1660,7 @@
       "dst": 2664
     },
     {
-      "relate": "番外篇",
+      "relate": "衍生",
       "src": 50,
       "dst": 2690
     },
@@ -1695,6 +1713,11 @@
       "relate": "不同世界观",
       "src": 50,
       "dst": 15154
+    },
+    {
+      "relate": "衍生",
+      "src": 50,
+      "dst": 17758
     },
     {
       "relate": "不同世界观",
@@ -1897,6 +1920,16 @@
       "dst": 50
     },
     {
+      "relate": "番外篇",
+      "src": 985,
+      "dst": 359476
+    },
+    {
+      "relate": "番外篇",
+      "src": 985,
+      "dst": 467358
+    },
+    {
       "relate": "前传",
       "src": 1010,
       "dst": 286
@@ -2057,6 +2090,11 @@
       "dst": 2691
     },
     {
+      "relate": "相同世界观",
+      "src": 2690,
+      "dst": 17758
+    },
+    {
       "relate": "主线故事",
       "src": 2691,
       "dst": 50
@@ -2067,7 +2105,7 @@
       "dst": 2690
     },
     {
-      "relate": "续集",
+      "relate": "相同世界观",
       "src": 2691,
       "dst": 17758
     },
@@ -2422,7 +2460,12 @@
       "dst": 50
     },
     {
-      "relate": "前传",
+      "relate": "相同世界观",
+      "src": 17758,
+      "dst": 2690
+    },
+    {
+      "relate": "相同世界观",
       "src": 17758,
       "dst": 2691
     },

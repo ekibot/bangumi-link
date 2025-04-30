@@ -1,0 +1,53 @@
+{
+  "id": 403642,
+  "node": [
+    {
+      "id": 403642,
+      "name": "兔子帮",
+      "nameCN": "兔子帮",
+      "date": "2012-09-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 555563,
+      "name": "兔子帮之勇闯螃蟹岛",
+      "nameCN": "兔子帮之勇闯螃蟹岛",
+      "date": "2015-02-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 555566,
+      "name": "兔子帮之机械师联盟",
+      "nameCN": "兔子帮之机械师联盟",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 403642,
+      "dst": 555563
+    },
+    {
+      "relate": "前传",
+      "src": 555563,
+      "dst": 403642
+    },
+    {
+      "relate": "续集",
+      "src": 555563,
+      "dst": 555566
+    },
+    {
+      "relate": "前传",
+      "src": 555566,
+      "dst": 555563
+    }
+  ]
+}

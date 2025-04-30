@@ -394,6 +394,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 554527,
+      "name": "The Transformers: More than Meets the Eye",
+      "nameCN": "变形金刚：超越视觉",
+      "date": "2012-01-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 554554,
+      "name": "Transformers: Robots in Disguise",
+      "nameCN": "变形金刚：非同凡响",
+      "date": "2012-01-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -908,6 +926,16 @@
       "dst": 553505
     },
     {
+      "relate": "续集",
+      "src": 449695,
+      "dst": 554527
+    },
+    {
+      "relate": "续集",
+      "src": 449695,
+      "dst": 554554
+    },
+    {
       "relate": "全集",
       "src": 502000,
       "dst": 18268
@@ -925,6 +953,16 @@
     {
       "relate": "主线故事",
       "src": 553505,
+      "dst": 449695
+    },
+    {
+      "relate": "前传",
+      "src": 554527,
+      "dst": 449695
+    },
+    {
+      "relate": "前传",
+      "src": 554554,
       "dst": 449695
     }
   ]
