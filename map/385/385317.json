@@ -18,18 +18,47 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 551010,
+      "name": "Star Wars: Tales of the Underworld",
+      "nameCN": "星球大战：黑道传说",
+      "date": "2025-05-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
     {
-      "relate": "续集",
+      "relate": "相同世界观",
       "src": 385317,
       "dst": 488561
     },
     {
-      "relate": "前传",
+      "relate": "相同世界观",
+      "src": 385317,
+      "dst": 551010
+    },
+    {
+      "relate": "相同世界观",
       "src": 488561,
       "dst": 385317
+    },
+    {
+      "relate": "相同世界观",
+      "src": 488561,
+      "dst": 551010
+    },
+    {
+      "relate": "相同世界观",
+      "src": 551010,
+      "dst": 385317
+    },
+    {
+      "relate": "相同世界观",
+      "src": 551010,
+      "dst": 488561
     }
   ]
 }

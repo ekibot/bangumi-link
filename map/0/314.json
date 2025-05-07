@@ -477,6 +477,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 555830,
+      "name": "LUPIN THE IIIRD 銭形と2人のルパン",
+      "nameCN": "鲁邦三世 钱形与两个鲁邦",
+      "date": "2025-06-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -961,6 +970,11 @@
       "dst": 192442
     },
     {
+      "relate": "续集",
+      "src": 276785,
+      "dst": 526159
+    },
+    {
       "relate": "主线故事",
       "src": 278938,
       "dst": 24274
@@ -986,9 +1000,19 @@
       "dst": 24274
     },
     {
-      "relate": "主线故事",
+      "relate": "前传",
       "src": 526159,
-      "dst": 24274
+      "dst": 276785
+    },
+    {
+      "relate": "前传",
+      "src": 526159,
+      "dst": 555830
+    },
+    {
+      "relate": "续集",
+      "src": 555830,
+      "dst": 526159
     }
   ]
 }

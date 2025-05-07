@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 555710,
+      "name": "时光代理人Ⅲ",
+      "nameCN": "时光代理人 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -65,6 +73,11 @@
       "dst": 456165
     },
     {
+      "relate": "续集",
+      "src": 341311,
+      "dst": 555710
+    },
+    {
       "relate": "主线故事",
       "src": 352184,
       "dst": 320224
@@ -77,6 +90,11 @@
     {
       "relate": "主线故事",
       "src": 456165,
+      "dst": 341311
+    },
+    {
+      "relate": "前传",
+      "src": 555710,
       "dst": 341311
     }
   ]
