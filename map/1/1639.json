@@ -412,6 +412,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 558242,
+      "name": "The Transformers: Lost Light",
+      "nameCN": "变形金刚：失落之光",
+      "date": "2016-12-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 558232,
+      "name": "Optimus Prime",
+      "nameCN": "擎天柱",
+      "date": "2016-12-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -961,9 +979,29 @@
       "dst": 449695
     },
     {
+      "relate": "续集",
+      "src": 554527,
+      "dst": 558242
+    },
+    {
       "relate": "前传",
       "src": 554554,
       "dst": 449695
+    },
+    {
+      "relate": "续集",
+      "src": 554554,
+      "dst": 558232
+    },
+    {
+      "relate": "前传",
+      "src": 558232,
+      "dst": 554554
+    },
+    {
+      "relate": "前传",
+      "src": 558242,
+      "dst": 554527
     }
   ]
 }

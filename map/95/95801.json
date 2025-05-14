@@ -11,13 +11,13 @@
       "platform": "剧场版"
     },
     {
-      "id": 178532,
-      "name": "摩尔庄园大电影2：海妖宝藏",
+      "id": 463619,
+      "name": "摩尔庄园 第三季",
       "nameCN": "",
-      "date": "2012-07-05",
+      "date": "2013-03-16",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "TV"
     },
     {
       "id": 178531,
@@ -27,13 +27,40 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 178532,
+      "name": "摩尔庄园大电影2：海妖宝藏",
+      "nameCN": "",
+      "date": "2012-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 337456,
+      "name": "摩尔庄园",
+      "nameCN": "摩尔庄园",
+      "date": "2011-06-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 463618,
+      "name": "摩尔庄园 第二季",
+      "nameCN": "",
+      "date": "2012-03-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
     {
       "relate": "前传",
       "src": 95801,
-      "dst": 178532
+      "dst": 463619
     },
     {
       "relate": "续集",
@@ -49,6 +76,31 @@
       "relate": "前传",
       "src": 178532,
       "dst": 178531
+    },
+    {
+      "relate": "续集",
+      "src": 337456,
+      "dst": 463618
+    },
+    {
+      "relate": "前传",
+      "src": 463618,
+      "dst": 337456
+    },
+    {
+      "relate": "续集",
+      "src": 463618,
+      "dst": 463619
+    },
+    {
+      "relate": "续集",
+      "src": 463619,
+      "dst": 95801
+    },
+    {
+      "relate": "前传",
+      "src": 463619,
+      "dst": 463618
     }
   ]
 }
