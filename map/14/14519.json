@@ -2,15 +2,6 @@
   "id": 14519,
   "node": [
     {
-      "id": 209579,
-      "name": "Smurfs: The Lost Village",
-      "nameCN": "蓝精灵：失落的村庄",
-      "date": "2017-04-07",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
       "id": 14519,
       "name": "The Smurfs",
       "nameCN": "蓝精灵",
@@ -18,6 +9,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 559070,
+      "name": "Les Schtroumpfs Season 1",
+      "nameCN": "蓝精灵 第一季",
+      "date": "2021-04-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 209579,
+      "name": "Smurfs: The Lost Village",
+      "nameCN": "蓝精灵：失落的村庄",
+      "date": "2017-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     },
     {
       "id": 420264,
@@ -44,13 +53,41 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 559071,
+      "name": "Les Schtroumpfs Season 2",
+      "nameCN": "蓝精灵 第二季",
+      "date": "2022-08-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 559072,
+      "name": "Les Schtroumpfs Season 3",
+      "nameCN": "蓝精灵 第三季",
+      "date": "2024-08-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
     {
       "relate": "不同演绎",
+      "src": 14519,
+      "dst": 559070
+    },
+    {
+      "relate": "不同演绎",
       "src": 209579,
       "dst": 14519
+    },
+    {
+      "relate": "续集",
+      "src": 209579,
+      "dst": 559070
     },
     {
       "relate": "不同演绎",
@@ -81,6 +118,36 @@
       "relate": "不同演绎",
       "src": 526068,
       "dst": 14519
+    },
+    {
+      "relate": "不同演绎",
+      "src": 559070,
+      "dst": 14519
+    },
+    {
+      "relate": "前传",
+      "src": 559070,
+      "dst": 209579
+    },
+    {
+      "relate": "续集",
+      "src": 559070,
+      "dst": 559071
+    },
+    {
+      "relate": "前传",
+      "src": 559071,
+      "dst": 559070
+    },
+    {
+      "relate": "续集",
+      "src": 559071,
+      "dst": 559072
+    },
+    {
+      "relate": "前传",
+      "src": 559072,
+      "dst": 559071
     }
   ]
 }

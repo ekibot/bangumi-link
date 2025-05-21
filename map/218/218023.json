@@ -17,6 +17,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 558959,
+      "name": "The Little Witcher",
+      "nameCN": "",
+      "date": "2025-05-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 525986
     },
     {
+      "relate": "番外篇",
+      "src": 218023,
+      "dst": 558959
+    },
+    {
       "relate": "续集",
       "src": 525986,
+      "dst": 218023
+    },
+    {
+      "relate": "主线故事",
+      "src": 558959,
       "dst": 218023
     }
   ]
