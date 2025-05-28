@@ -1,0 +1,54 @@
+{
+  "id": 68715,
+  "node": [
+    {
+      "id": 68715,
+      "name": "LEGO：Legends of Chima Season 1",
+      "nameCN": "乐高：气功传奇第一季",
+      "date": "2013-01-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 559847,
+      "name": "LEGO：Legends of Chima Season 2",
+      "nameCN": "乐高：气功传奇 第二季",
+      "date": "2014-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 559848,
+      "name": "LEGO：Legends of Chima Season 3",
+      "nameCN": "乐高：气功传奇第3季",
+      "date": "2014-08-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 68715,
+      "dst": 559847
+    },
+    {
+      "relate": "前传",
+      "src": 559847,
+      "dst": 68715
+    },
+    {
+      "relate": "续集",
+      "src": 559847,
+      "dst": 559848
+    },
+    {
+      "relate": "前传",
+      "src": 559848,
+      "dst": 559847
+    }
+  ]
+}

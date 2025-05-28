@@ -1,0 +1,73 @@
+{
+  "id": 262367,
+  "node": [
+    {
+      "id": 262367,
+      "name": "Donald Gets Drafted",
+      "nameCN": "唐老鸭从军记",
+      "date": "1942-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 529276,
+      "name": "The Vanishing Private",
+      "nameCN": "消失的大兵",
+      "date": "1942-09-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 529279,
+      "name": "Sky Trooper",
+      "nameCN": "空降兵",
+      "date": "1942-11-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 529292,
+      "name": "Fall Out Fall In",
+      "nameCN": "陆兵行军",
+      "date": "1943-04-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 262367,
+      "dst": 529276
+    },
+    {
+      "relate": "前传",
+      "src": 529276,
+      "dst": 262367
+    },
+    {
+      "relate": "续集",
+      "src": 529276,
+      "dst": 529279
+    },
+    {
+      "relate": "前传",
+      "src": 529279,
+      "dst": 529276
+    },
+    {
+      "relate": "续集",
+      "src": 529279,
+      "dst": 529292
+    },
+    {
+      "relate": "前传",
+      "src": 529292,
+      "dst": 529279
+    }
+  ]
+}

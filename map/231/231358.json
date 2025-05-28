@@ -29,6 +29,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 559861,
+      "name": "LEGO：BIONICLE",
+      "nameCN": "乐高：生化战士",
+      "date": "2014-12-16",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 231360,
       "name": "Bionicle 3: Web of Shadows",
       "nameCN": "生化战士3：暗影之网",
@@ -36,6 +45,32 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 559862,
+      "name": "LEGO：BIONICLE Season 2",
+      "nameCN": "乐高：生化战士 第二季",
+      "date": "2015-08-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 559866,
+      "name": "LEGO：BIONICLE：The Journey to One Part1",
+      "nameCN": "乐高：生化战士：一之旅 第一部分",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 559867,
+      "name": "LEGO：BIONICLE：The Journey to One Part2",
+      "nameCN": "乐高：生化战士：一之旅 第二部分",
+      "date": "2016-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -48,6 +83,11 @@
       "relate": "相同世界观",
       "src": 231358,
       "dst": 231361
+    },
+    {
+      "relate": "不同演绎",
+      "src": 231358,
+      "dst": 559861
     },
     {
       "relate": "前传",
@@ -68,6 +108,41 @@
       "relate": "相同世界观",
       "src": 231361,
       "dst": 231358
+    },
+    {
+      "relate": "不同演绎",
+      "src": 559861,
+      "dst": 231358
+    },
+    {
+      "relate": "续集",
+      "src": 559861,
+      "dst": 559862
+    },
+    {
+      "relate": "前传",
+      "src": 559862,
+      "dst": 559861
+    },
+    {
+      "relate": "续集",
+      "src": 559862,
+      "dst": 559866
+    },
+    {
+      "relate": "前传",
+      "src": 559866,
+      "dst": 559862
+    },
+    {
+      "relate": "续集",
+      "src": 559866,
+      "dst": 559867
+    },
+    {
+      "relate": "前传",
+      "src": 559867,
+      "dst": 559866
     }
   ]
 }

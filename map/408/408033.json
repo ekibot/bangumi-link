@@ -36,6 +36,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 559002,
+      "name": "放送局占拠",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -65,8 +73,18 @@
       "dst": 484032
     },
     {
+      "relate": "续集",
+      "src": 466858,
+      "dst": 559002
+    },
+    {
       "relate": "主线故事",
       "src": 484032,
+      "dst": 466858
+    },
+    {
+      "relate": "前传",
+      "src": 559002,
       "dst": 466858
     }
   ]
