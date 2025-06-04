@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 562158,
+      "name": "待回收",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -41,6 +49,11 @@
       "dst": 529431
     },
     {
+      "relate": "全集",
+      "src": 467461,
+      "dst": 562158
+    },
+    {
       "relate": "衍生",
       "src": 521885,
       "dst": 467461
@@ -49,6 +62,11 @@
       "relate": "前传",
       "src": 529431,
       "dst": 467461
+    },
+    {
+      "relate": "全集",
+      "src": 529431,
+      "dst": 562158
     }
   ]
 }
