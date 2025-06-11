@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "华语剧"
+    },
+    {
+      "id": 484565,
+      "name": "琅琊榜",
+      "nameCN": "琅琊榜",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 196364
     },
     {
+      "relate": "不同演绎",
+      "src": 123713,
+      "dst": 484565
+    },
+    {
       "relate": "前传",
       "src": 196364,
+      "dst": 123713
+    },
+    {
+      "relate": "不同演绎",
+      "src": 484565,
       "dst": 123713
     }
   ]
