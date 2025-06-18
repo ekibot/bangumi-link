@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 564421,
+      "name": "異世界かるてっと3",
+      "nameCN": "异世界四重奏 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -46,8 +54,18 @@
       "dst": 303126
     },
     {
+      "relate": "续集",
+      "src": 285422,
+      "dst": 564421
+    },
+    {
       "relate": "前传",
       "src": 303126,
+      "dst": 285422
+    },
+    {
+      "relate": "前传",
+      "src": 564421,
       "dst": 285422
     }
   ]

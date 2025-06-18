@@ -32,6 +32,30 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 564778,
+      "name": "快乐东西5",
+      "nameCN": "快乐东西5",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 564788,
+      "name": "快乐东西6",
+      "nameCN": "快乐东西6",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 564790,
+      "name": "快乐东西7",
+      "nameCN": "快乐东西7",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -64,6 +88,36 @@
       "relate": "前传",
       "src": 119971,
       "dst": 119970
+    },
+    {
+      "relate": "续集",
+      "src": 119971,
+      "dst": 564778
+    },
+    {
+      "relate": "前传",
+      "src": 564778,
+      "dst": 119971
+    },
+    {
+      "relate": "续集",
+      "src": 564778,
+      "dst": 564788
+    },
+    {
+      "relate": "前传",
+      "src": 564788,
+      "dst": 564778
+    },
+    {
+      "relate": "续集",
+      "src": 564788,
+      "dst": 564790
+    },
+    {
+      "relate": "前传",
+      "src": 564790,
+      "dst": 564788
     }
   ]
 }

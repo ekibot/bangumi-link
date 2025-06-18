@@ -18,6 +18,30 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 564212,
+      "name": "天天成长记 第三季",
+      "nameCN": "天天成长记 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 564216,
+      "name": "天天成长记 第四季",
+      "nameCN": "天天成长记 第四季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 564217,
+      "name": "天天成长记 第五季",
+      "nameCN": "天天成长记 第五季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -30,6 +54,36 @@
       "relate": "前传",
       "src": 235243,
       "dst": 225031
+    },
+    {
+      "relate": "续集",
+      "src": 235243,
+      "dst": 564212
+    },
+    {
+      "relate": "前传",
+      "src": 564212,
+      "dst": 235243
+    },
+    {
+      "relate": "续集",
+      "src": 564212,
+      "dst": 564216
+    },
+    {
+      "relate": "前传",
+      "src": 564216,
+      "dst": 564212
+    },
+    {
+      "relate": "续集",
+      "src": 564216,
+      "dst": 564217
+    },
+    {
+      "relate": "前传",
+      "src": 564217,
+      "dst": 564216
     }
   ]
 }
