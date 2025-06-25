@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 565537,
+      "name": "Mickey Mouse Clubhouse pilot",
+      "nameCN": "米奇妙妙屋 试播集",
+      "date": "2005-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 564416,
       "name": "Mickey Mouse Clubhouse Season 3",
       "nameCN": "米奇妙妙屋 第三季",
@@ -36,6 +45,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 564419,
+      "name": "Mickey Mouse Clubhouse+",
+      "nameCN": "米奇妙妙屋+",
+      "date": "2025-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -43,6 +61,11 @@
       "relate": "续集",
       "src": 236635,
       "dst": 564415
+    },
+    {
+      "relate": "前传",
+      "src": 236635,
+      "dst": 565537
     },
     {
       "relate": "前传",
@@ -68,6 +91,21 @@
       "relate": "前传",
       "src": 564417,
       "dst": 564416
+    },
+    {
+      "relate": "续集",
+      "src": 564417,
+      "dst": 564419
+    },
+    {
+      "relate": "前传",
+      "src": 564419,
+      "dst": 564417
+    },
+    {
+      "relate": "续集",
+      "src": 565537,
+      "dst": 236635
     }
   ]
 }
