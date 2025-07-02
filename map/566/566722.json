@@ -1,0 +1,54 @@
+{
+  "id": 566722,
+  "node": [
+    {
+      "id": 566722,
+      "name": "星星梦",
+      "nameCN": "星星梦",
+      "date": "2015-06-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 566724,
+      "name": "星星梦 第二季",
+      "nameCN": "星星梦 第二季",
+      "date": "2020-01-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 566729,
+      "name": "星星梦 第三季",
+      "nameCN": "星星梦 第三季",
+      "date": "2022-02-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 566722,
+      "dst": 566724
+    },
+    {
+      "relate": "前传",
+      "src": 566724,
+      "dst": 566722
+    },
+    {
+      "relate": "续集",
+      "src": 566724,
+      "dst": 566729
+    },
+    {
+      "relate": "前传",
+      "src": 566729,
+      "dst": 566724
+    }
+  ]
+}
