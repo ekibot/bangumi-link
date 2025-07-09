@@ -1,0 +1,54 @@
+{
+  "id": 425330,
+  "node": [
+    {
+      "id": 425330,
+      "name": "포갓 레인저",
+      "nameCN": "",
+      "date": "2014-05-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 567720,
+      "name": "싸움귀",
+      "nameCN": "战神",
+      "date": "2016-12-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 567713,
+      "name": "불멸의 투귀",
+      "nameCN": "",
+      "date": "2022-04-12",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 425330,
+      "dst": 567720
+    },
+    {
+      "relate": "前传",
+      "src": 567713,
+      "dst": 567720
+    },
+    {
+      "relate": "前传",
+      "src": 567720,
+      "dst": 425330
+    },
+    {
+      "relate": "续集",
+      "src": 567720,
+      "dst": 567713
+    }
+  ]
+}

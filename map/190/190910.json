@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 567896,
+      "name": "ブラッククローバー 2nd Season",
+      "nameCN": "黑色五叶草 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -60,6 +68,11 @@
       "dst": 331759
     },
     {
+      "relate": "续集",
+      "src": 202880,
+      "dst": 567896
+    },
+    {
       "relate": "主线故事",
       "src": 297745,
       "dst": 202880
@@ -67,6 +80,11 @@
     {
       "relate": "主线故事",
       "src": 331759,
+      "dst": 202880
+    },
+    {
+      "relate": "前传",
+      "src": 567896,
       "dst": 202880
     }
   ]

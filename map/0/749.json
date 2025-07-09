@@ -23,7 +23,7 @@
       "id": 113092,
       "name": "A Boy Named Charlie Brown",
       "nameCN": "查理布朗男孩",
-      "date": "1971-08-26",
+      "date": "1965-12-04",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -31,7 +31,7 @@
     {
       "id": 139016,
       "name": "The Peanuts Movie",
-      "nameCN": "花生漫画大电影：史努比",
+      "nameCN": "史努比：花生大电影",
       "date": "2015-11-06",
       "type": 2,
       "nsfw": false,
@@ -112,7 +112,7 @@
     {
       "id": 472860,
       "name": "Bon Voyage, Charlie Brown (and Don't Come Back!!)",
-      "nameCN": "一路顺风，查理布朗",
+      "nameCN": "一路顺风，查理·布朗",
       "date": "1980-05-30",
       "type": 2,
       "nsfw": false,
@@ -228,9 +228,18 @@
     },
     {
       "id": 293924,
-      "name": "Snoopy in Space",
-      "nameCN": "",
+      "name": "Snoopy in Space Season 1",
+      "nameCN": "史努比太空历险记 第一季",
       "date": "2019-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 568785,
+      "name": "Snoopy in Space Season 2",
+      "nameCN": "史努比太空历险记 第二季",
+      "date": "2021-11-12",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -398,6 +407,11 @@
       "dst": 749
     },
     {
+      "relate": "续集",
+      "src": 293924,
+      "dst": 568785
+    },
+    {
       "relate": "主线故事",
       "src": 329191,
       "dst": 749
@@ -506,6 +520,11 @@
       "relate": "主线故事",
       "src": 525976,
       "dst": 749
+    },
+    {
+      "relate": "前传",
+      "src": 568785,
+      "dst": 293924
     }
   ]
 }
