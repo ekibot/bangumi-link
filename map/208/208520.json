@@ -269,6 +269,15 @@
       "platform": "TV"
     },
     {
+      "id": 564900,
+      "name": "Ninjago Legends: Monstrosity",
+      "nameCN": "乐高幻影忍者：魔兽之地",
+      "date": "2025-06-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 563512,
       "name": "Ninjago - Dream Team",
       "nameCN": "乐高幻影忍者：梦之队",
@@ -309,15 +318,6 @@
       "name": "Ninjago: Dragons Rising：Return to the Wyldness",
       "nameCN": "乐高幻影忍者：神龙崛起：重回怀尔德尼斯",
       "date": "2024-07-08",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 564900,
-      "name": "Ninjago Legends: Monstrosity",
-      "nameCN": "乐高幻影忍者：魔兽之地",
-      "date": "2025-06-15",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -587,6 +587,11 @@
       "dst": 554390
     },
     {
+      "relate": "前传",
+      "src": 554022,
+      "dst": 564900
+    },
+    {
       "relate": "续集",
       "src": 554383,
       "dst": 554384
@@ -640,11 +645,6 @@
       "relate": "前传",
       "src": 554391,
       "dst": 554390
-    },
-    {
-      "relate": "续集",
-      "src": 554391,
-      "dst": 564900
     },
     {
       "relate": "主线故事",
@@ -752,9 +752,9 @@
       "dst": 563334
     },
     {
-      "relate": "前传",
+      "relate": "续集",
       "src": 564900,
-      "dst": 554391
+      "dst": 554022
     }
   ]
 }

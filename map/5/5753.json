@@ -30,8 +30,8 @@
     },
     {
       "id": 368802,
-      "name": "Futurama (Season 8)",
-      "nameCN": "飞出个未来 第8季",
+      "name": "Futurama Season 11 on Hulu",
+      "nameCN": "飞出个未来 第11季(Hulu版)",
       "date": "2023-07-24",
       "type": 2,
       "nsfw": false,
@@ -108,6 +108,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 572758,
+      "name": "Futurama Season 12 on Hulu",
+      "nameCN": "飞出个未来 第12季(Hulu版)",
+      "date": "2024-07-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 572759,
+      "name": "Futurama Season 13 on Hulu",
+      "nameCN": "飞出个未来 第13季(Hulu版)",
+      "date": "2025-09-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -220,6 +238,26 @@
       "relate": "前传",
       "src": 368802,
       "dst": 22346
+    },
+    {
+      "relate": "续集",
+      "src": 368802,
+      "dst": 572758
+    },
+    {
+      "relate": "前传",
+      "src": 572758,
+      "dst": 368802
+    },
+    {
+      "relate": "续集",
+      "src": 572758,
+      "dst": 572759
+    },
+    {
+      "relate": "前传",
+      "src": 572759,
+      "dst": 572758
     }
   ]
 }

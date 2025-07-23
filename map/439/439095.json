@@ -12,7 +12,15 @@
     {
       "id": 463626,
       "name": "数学荒岛历险记2",
-      "nameCN": "",
+      "nameCN": "数学荒岛历险记2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 570303,
+      "name": "荒岛历险记之罗克和编程猫",
+      "nameCN": "荒岛历险记之罗克和编程猫",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -20,7 +28,7 @@
     {
       "id": 463627,
       "name": "数学荒岛历险记3",
-      "nameCN": "",
+      "nameCN": "数学荒岛历险记3",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -31,6 +39,11 @@
       "relate": "续集",
       "src": 439095,
       "dst": 463626
+    },
+    {
+      "relate": "衍生",
+      "src": 439095,
+      "dst": 570303
     },
     {
       "relate": "前传",
@@ -46,6 +59,11 @@
       "relate": "前传",
       "src": 463627,
       "dst": 463626
+    },
+    {
+      "relate": "主线故事",
+      "src": 570303,
+      "dst": 439095
     }
   ]
 }
