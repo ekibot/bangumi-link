@@ -1,0 +1,83 @@
+{
+  "id": 100205,
+  "node": [
+    {
+      "id": 100205,
+      "name": "新妹魔王の契約者",
+      "nameCN": "新妹魔王的契约者",
+      "date": "2015-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 120914,
+      "name": "新妹魔王の契約者 OAD",
+      "nameCN": "新妹魔王的契约者 OAD",
+      "date": "2015-06-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 128885,
+      "name": "新妹魔王の契約者 BURST",
+      "nameCN": "新妹魔王的契约者 BURST",
+      "date": "2015-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 228625,
+      "name": "新妹魔王の契約者 DEPARTURES",
+      "nameCN": "新妹魔王的契约者 DEPARTURES",
+      "date": "2018-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "衍生",
+      "src": 100205,
+      "dst": 120914
+    },
+    {
+      "relate": "续集",
+      "src": 100205,
+      "dst": 128885
+    },
+    {
+      "relate": "主线故事",
+      "src": 120914,
+      "dst": 100205
+    },
+    {
+      "relate": "主线故事",
+      "src": 120914,
+      "dst": 128885
+    },
+    {
+      "relate": "前传",
+      "src": 128885,
+      "dst": 100205
+    },
+    {
+      "relate": "衍生",
+      "src": 128885,
+      "dst": 120914
+    },
+    {
+      "relate": "续集",
+      "src": 128885,
+      "dst": 228625
+    },
+    {
+      "relate": "前传",
+      "src": 228625,
+      "dst": 128885
+    }
+  ]
+}
