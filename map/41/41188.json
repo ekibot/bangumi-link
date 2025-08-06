@@ -18,6 +18,59 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 575985,
+      "name": "钢铁飞龙2龙魂觉醒",
+      "nameCN": "",
+      "date": "2019-11-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 576023,
+      "name": "钢铁飞龙之再见奥特曼",
+      "nameCN": "",
+      "date": "2017-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 575987,
+      "name": "钢铁飞龙3山海神兽录",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 575991,
+      "name": "钢铁飞龙4时空战记",
+      "nameCN": "",
+      "date": "2022-11-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 576026,
+      "name": "钢铁飞龙2奥特曼力量",
+      "nameCN": "",
+      "date": "2018-11-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 576024,
+      "name": "钢铁飞龙之奥特曼崛起",
+      "nameCN": "",
+      "date": "2019-01-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -27,9 +80,69 @@
       "dst": 83694
     },
     {
+      "relate": "续集",
+      "src": 41188,
+      "dst": 575985
+    },
+    {
+      "relate": "不同演绎",
+      "src": 41188,
+      "dst": 576023
+    },
+    {
       "relate": "不同演绎",
       "src": 83694,
       "dst": 41188
+    },
+    {
+      "relate": "前传",
+      "src": 575985,
+      "dst": 41188
+    },
+    {
+      "relate": "续集",
+      "src": 575985,
+      "dst": 575987
+    },
+    {
+      "relate": "前传",
+      "src": 575987,
+      "dst": 575985
+    },
+    {
+      "relate": "续集",
+      "src": 575987,
+      "dst": 575991
+    },
+    {
+      "relate": "前传",
+      "src": 575991,
+      "dst": 575987
+    },
+    {
+      "relate": "不同演绎",
+      "src": 576023,
+      "dst": 41188
+    },
+    {
+      "relate": "续集",
+      "src": 576023,
+      "dst": 576026
+    },
+    {
+      "relate": "前传",
+      "src": 576024,
+      "dst": 576026
+    },
+    {
+      "relate": "前传",
+      "src": 576026,
+      "dst": 576023
+    },
+    {
+      "relate": "续集",
+      "src": 576026,
+      "dst": 576024
     }
   ]
 }

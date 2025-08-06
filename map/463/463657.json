@@ -1,0 +1,54 @@
+{
+  "id": 463657,
+  "node": [
+    {
+      "id": 463657,
+      "name": "Unicorn Academy Season 1",
+      "nameCN": "独角兽骑士队 第一季",
+      "date": "2023-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 576021,
+      "name": "Unicorn Academy Season 2",
+      "nameCN": "独角兽骑士队 第二季",
+      "date": "2024-06-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 576027,
+      "name": "Unicorn Academy Season 3",
+      "nameCN": "独角兽骑士队 第三季",
+      "date": "2025-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 463657,
+      "dst": 576021
+    },
+    {
+      "relate": "前传",
+      "src": 576021,
+      "dst": 463657
+    },
+    {
+      "relate": "续集",
+      "src": 576021,
+      "dst": 576027
+    },
+    {
+      "relate": "前传",
+      "src": 576027,
+      "dst": 576021
+    }
+  ]
+}

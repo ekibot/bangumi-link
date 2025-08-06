@@ -155,15 +155,6 @@
       "platform": "TV"
     },
     {
-      "id": 501948,
-      "name": "きょうのAqours",
-      "nameCN": "",
-      "date": "2021-10-29",
-      "type": 2,
-      "nsfw": false,
-      "platform": "WEB"
-    },
-    {
       "id": 507976,
       "name": "ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!!",
       "nameCN": "",
@@ -177,6 +168,15 @@
       "name": "ラブライブ！シリーズ　オフィシャルカードゲーム presents AiScReamのとろけるタイム♡♡♡",
       "nameCN": "",
       "date": "2025-04-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575338,
+      "name": "きょうのAqours",
+      "nameCN": "",
+      "date": "2021-10-29",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -358,6 +358,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 501948,
+      "name": "待合并",
+      "nameCN": "",
+      "date": "2021-10-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -397,7 +406,7 @@
       "dst": 528749
     },
     {
-      "relate": "主线故事",
+      "relate": "衍生",
       "src": 49294,
       "dst": 548460
     },
@@ -494,11 +503,6 @@
     {
       "relate": "衍生",
       "src": 165553,
-      "dst": 501948
-    },
-    {
-      "relate": "衍生",
-      "src": 165553,
       "dst": 507976
     },
     {
@@ -520,6 +524,11 @@
       "relate": "衍生",
       "src": 165553,
       "dst": 572422
+    },
+    {
+      "relate": "衍生",
+      "src": 165553,
+      "dst": 575338
     },
     {
       "relate": "前传",
@@ -817,7 +826,7 @@
       "dst": 548460
     },
     {
-      "relate": "番外篇",
+      "relate": "衍生",
       "src": 548460,
       "dst": 49294
     },
@@ -970,6 +979,11 @@
       "relate": "衍生",
       "src": 572422,
       "dst": 306742
+    },
+    {
+      "relate": "衍生",
+      "src": 575338,
+      "dst": 165553
     }
   ]
 }

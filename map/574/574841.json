@@ -1,0 +1,52 @@
+{
+  "id": 574841,
+  "node": [
+    {
+      "id": 574841,
+      "name": "瓢虫贝贝之乌龙魔法",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 574845,
+      "name": "瓢虫贝贝2之神秘工厂",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 574850,
+      "name": "瓢虫贝贝3拯救古树镇",
+      "nameCN": "",
+      "date": "2013-05-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 574841,
+      "dst": 574845
+    },
+    {
+      "relate": "前传",
+      "src": 574845,
+      "dst": 574841
+    },
+    {
+      "relate": "续集",
+      "src": 574845,
+      "dst": 574850
+    },
+    {
+      "relate": "前传",
+      "src": 574850,
+      "dst": 574845
+    }
+  ]
+}
