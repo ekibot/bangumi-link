@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 577812,
+      "name": "シュガシュガルーン 本編アニメーション",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 568245
     },
     {
+      "relate": "续集",
+      "src": 10160,
+      "dst": 577812
+    },
+    {
       "relate": "主线故事",
       "src": 568245,
+      "dst": 10160
+    },
+    {
+      "relate": "前传",
+      "src": 577812,
       "dst": 10160
     }
   ]
