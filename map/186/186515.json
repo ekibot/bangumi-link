@@ -202,10 +202,11 @@
     {
       "id": 540449,
       "name": "元祖！バンドリちゃん",
-      "nameCN": "",
+      "nameCN": "元祖！BanG Dream Chan",
+      "date": "2025-10-02",
       "type": 2,
       "nsfw": false,
-      "platform": "TV"
+      "platform": "WEB"
     },
     {
       "id": 448391,
@@ -237,7 +238,7 @@
     {
       "id": 473833,
       "name": "劇場版 BanG Dream! It's MyGO!!!!! 後編 うたう、僕らになれるうた & FILM LIVE",
-      "nameCN": "",
+      "nameCN": "剧场版 BanG Dream! It's MyGO!!!!! 后篇 歌唱着，由我们所作的歌 & FILM LIVE",
       "date": "2024-11-08",
       "type": 2,
       "nsfw": false,
@@ -250,6 +251,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 578262,
+      "name": "Ave Mujica 新作映画",
+      "nameCN": "Ave Mujica 新作电影",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -524,6 +533,11 @@
       "dst": 548133
     },
     {
+      "relate": "续集",
+      "src": 454684,
+      "dst": 578262
+    },
+    {
       "relate": "全集",
       "src": 473832,
       "dst": 428735
@@ -557,6 +571,11 @@
       "relate": "主线故事",
       "src": 558831,
       "dst": 186515
+    },
+    {
+      "relate": "前传",
+      "src": 578262,
+      "dst": 454684
     }
   ]
 }

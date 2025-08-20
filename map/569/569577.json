@@ -1,0 +1,53 @@
+{
+  "id": 569577,
+  "node": [
+    {
+      "id": 569577,
+      "name": "封妖录",
+      "nameCN": "",
+      "date": "2022-11-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 578553,
+      "name": "封妖录&焰麟 联动外传",
+      "nameCN": "",
+      "date": "2023-09-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 578550,
+      "name": "封妖录 安魂定魄篇",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 569577,
+      "dst": 578553
+    },
+    {
+      "relate": "前传",
+      "src": 578550,
+      "dst": 578553
+    },
+    {
+      "relate": "前传",
+      "src": 578553,
+      "dst": 569577
+    },
+    {
+      "relate": "续集",
+      "src": 578553,
+      "dst": 578550
+    }
+  ]
+}

@@ -17,6 +17,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 578276,
+      "name": "艾米咕噜 第二季",
+      "nameCN": "",
+      "date": "2019-03-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 578278,
+      "name": "艾米咕噜寻宝记",
+      "nameCN": "",
+      "date": "2022-02-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 578277,
+      "name": "艾米咕噜 第三季",
+      "nameCN": "",
+      "date": "2022-01-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -26,8 +53,38 @@
       "dst": 569758
     },
     {
+      "relate": "续集",
+      "src": 240749,
+      "dst": 578276
+    },
+    {
+      "relate": "衍生",
+      "src": 240749,
+      "dst": 578278
+    },
+    {
       "relate": "主线故事",
       "src": 569758,
+      "dst": 240749
+    },
+    {
+      "relate": "前传",
+      "src": 578276,
+      "dst": 240749
+    },
+    {
+      "relate": "续集",
+      "src": 578276,
+      "dst": 578277
+    },
+    {
+      "relate": "前传",
+      "src": 578277,
+      "dst": 578276
+    },
+    {
+      "relate": "主线故事",
+      "src": 578278,
       "dst": 240749
     }
   ]
