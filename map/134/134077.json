@@ -99,6 +99,33 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 580324,
+      "name": "Sister Boniface Mysteries Season 2",
+      "nameCN": "博尼法斯修女探案集 第二季",
+      "date": "2023-04-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 580327,
+      "name": "Sister Boniface Mysteries Season 4",
+      "nameCN": "博尼法斯修女探案集 第四季",
+      "date": "2024-12-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 580326,
+      "name": "Sister Boniface Mysteries Season 3",
+      "nameCN": "博尼法斯修女探案集 第三季",
+      "date": "2024-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -198,9 +225,59 @@
       "dst": 388036
     },
     {
+      "relate": "续集",
+      "src": 392281,
+      "dst": 580324
+    },
+    {
+      "relate": "续集",
+      "src": 392281,
+      "dst": 580327
+    },
+    {
       "relate": "前传",
       "src": 415260,
       "dst": 388034
+    },
+    {
+      "relate": "前传",
+      "src": 580324,
+      "dst": 392281
+    },
+    {
+      "relate": "续集",
+      "src": 580324,
+      "dst": 580326
+    },
+    {
+      "relate": "续集",
+      "src": 580324,
+      "dst": 580327
+    },
+    {
+      "relate": "前传",
+      "src": 580326,
+      "dst": 580324
+    },
+    {
+      "relate": "续集",
+      "src": 580326,
+      "dst": 580327
+    },
+    {
+      "relate": "前传",
+      "src": 580327,
+      "dst": 392281
+    },
+    {
+      "relate": "前传",
+      "src": 580327,
+      "dst": 580324
+    },
+    {
+      "relate": "前传",
+      "src": 580327,
+      "dst": 580326
     }
   ]
 }

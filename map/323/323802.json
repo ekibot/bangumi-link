@@ -1,0 +1,35 @@
+{
+  "id": 323802,
+  "node": [
+    {
+      "id": 323802,
+      "name": "마이X리포트",
+      "nameCN": "我的X报告",
+      "date": "2018-05-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 580009,
+      "name": "마이 X-MAS 리포트",
+      "nameCN": "我的圣诞特辑",
+      "date": "2020-12-02",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "番外篇",
+      "src": 323802,
+      "dst": 580009
+    },
+    {
+      "relate": "主线故事",
+      "src": 580009,
+      "dst": 323802
+    }
+  ]
+}

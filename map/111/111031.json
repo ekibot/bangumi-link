@@ -1,0 +1,52 @@
+{
+  "id": 111031,
+  "node": [
+    {
+      "id": 111031,
+      "name": "夢幻紳士 幻想篇",
+      "nameCN": "",
+      "date": "2005-04-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111034,
+      "name": "夢幻紳士 逢魔篇",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 111035,
+      "name": "夢幻紳士 迷宮篇",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 111031,
+      "dst": 111034
+    },
+    {
+      "relate": "前传",
+      "src": 111034,
+      "dst": 111031
+    },
+    {
+      "relate": "续集",
+      "src": 111034,
+      "dst": 111035
+    },
+    {
+      "relate": "前传",
+      "src": 111035,
+      "dst": 111034
+    }
+  ]
+}
