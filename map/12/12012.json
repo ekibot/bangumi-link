@@ -1,0 +1,33 @@
+{
+  "id": 12012,
+  "node": [
+    {
+      "id": 12012,
+      "name": "海尔兄弟",
+      "nameCN": "海尔兄弟",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 581254,
+      "name": "海尔兄弟续集",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 12012,
+      "dst": 581254
+    },
+    {
+      "relate": "前传",
+      "src": 581254,
+      "dst": 12012
+    }
+  ]
+}

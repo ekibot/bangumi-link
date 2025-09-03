@@ -1,0 +1,51 @@
+{
+  "id": 565400,
+  "node": [
+    {
+      "id": 565400,
+      "name": "九藏喵窩日常篇",
+      "nameCN": "九藏喵窝 日常篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 581248,
+      "name": "九藏喵窩 櫻花村篇",
+      "nameCN": "九藏喵窝 樱花村篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 581245,
+      "name": "九藏喵窩 喵王國篇",
+      "nameCN": "九藏喵窝 喵王国篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 565400,
+      "dst": 581248
+    },
+    {
+      "relate": "续集",
+      "src": 581245,
+      "dst": 581248
+    },
+    {
+      "relate": "续集",
+      "src": 581248,
+      "dst": 565400
+    },
+    {
+      "relate": "前传",
+      "src": 581248,
+      "dst": 581245
+    }
+  ]
+}

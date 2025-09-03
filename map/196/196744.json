@@ -1,0 +1,51 @@
+{
+  "id": 196744,
+  "node": [
+    {
+      "id": 196744,
+      "name": "Persian Series #1",
+      "nameCN": "波斯系列 #1",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 196745,
+      "name": "Persian Series #2",
+      "nameCN": "波斯系列 #2",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 196746,
+      "name": "Persian Series #3",
+      "nameCN": "波斯系列 #3",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 196744,
+      "dst": 196745
+    },
+    {
+      "relate": "前传",
+      "src": 196745,
+      "dst": 196744
+    },
+    {
+      "relate": "续集",
+      "src": 196745,
+      "dst": 196746
+    },
+    {
+      "relate": "前传",
+      "src": 196746,
+      "dst": 196745
+    }
+  ]
+}

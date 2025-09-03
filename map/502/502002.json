@@ -54,6 +54,33 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 581998,
+      "name": "ゴチゾウパーティー",
+      "nameCN": "饱藏派对",
+      "date": "2025-08-31",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 545304,
+      "name": "仮面ライダーゼッツ",
+      "nameCN": "假面骑士ZZZ",
+      "date": "2025-09-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    },
+    {
+      "id": 580305,
+      "name": "仮面ライダーゼッツ SERIES OF SISTER'S SUBSTORY エージェント美浪",
+      "nameCN": "",
+      "date": "2025-09-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -84,6 +111,11 @@
     },
     {
       "relate": "衍生",
+      "src": 502002,
+      "dst": 581998
+    },
+    {
+      "relate": "衍生",
       "src": 510736,
       "dst": 502002
     },
@@ -106,6 +138,31 @@
       "relate": "衍生",
       "src": 542613,
       "dst": 502002
+    },
+    {
+      "relate": "衍生",
+      "src": 545304,
+      "dst": 580305
+    },
+    {
+      "relate": "衍生",
+      "src": 545304,
+      "dst": 581998
+    },
+    {
+      "relate": "衍生",
+      "src": 580305,
+      "dst": 545304
+    },
+    {
+      "relate": "衍生",
+      "src": 581998,
+      "dst": 502002
+    },
+    {
+      "relate": "衍生",
+      "src": 581998,
+      "dst": 545304
     }
   ]
 }
