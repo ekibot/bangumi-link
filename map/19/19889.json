@@ -341,6 +341,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 583581,
+      "name": "The Simpsons Season 37",
+      "nameCN": "辛普森一家 第37季",
+      "date": "2025-09-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -713,6 +722,16 @@
       "relate": "前传",
       "src": 519266,
       "dst": 430660
+    },
+    {
+      "relate": "续集",
+      "src": 519266,
+      "dst": 583581
+    },
+    {
+      "relate": "前传",
+      "src": 583581,
+      "dst": 519266
     }
   ]
 }

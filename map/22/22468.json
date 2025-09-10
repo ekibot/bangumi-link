@@ -4,8 +4,17 @@
     {
       "id": 22468,
       "name": "NO.6",
-      "nameCN": "未来都市 NO.6",
+      "nameCN": "未来都市NO.6",
       "date": "2003-10-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 295043,
+      "name": "NO.6 beyond",
+      "nameCN": "未來都市NO.6 beyond",
+      "date": "2012-11-22",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -22,9 +31,19 @@
   ],
   "relate": [
     {
+      "relate": "番外篇",
+      "src": 22468,
+      "dst": 295043
+    },
+    {
       "relate": "续集",
       "src": 22468,
       "dst": 535829
+    },
+    {
+      "relate": "主线故事",
+      "src": 295043,
+      "dst": 22468
     },
     {
       "relate": "前传",

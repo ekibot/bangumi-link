@@ -901,8 +901,8 @@
     },
     {
       "id": 101799,
-      "name": "The Tom and Jerry Show (2014 TV series) Season 1",
-      "nameCN": "猫和老鼠2014 第一季",
+      "name": "The Tom and Jerry Show Season 1",
+      "nameCN": "新猫和老鼠 第一季",
       "date": "2014-04-09",
       "type": 2,
       "nsfw": false,
@@ -910,12 +910,30 @@
     },
     {
       "id": 169850,
-      "name": "The Tom and Jerry Show (2014 TV series) Season 2",
-      "nameCN": "猫和老鼠2014 第二季",
+      "name": "The Tom and Jerry Show Season 2",
+      "nameCN": "新猫和老鼠 第二季",
       "date": "2016-02-06",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 583949,
+      "name": "Tom and Jerry: Santa's Little Helpers",
+      "nameCN": "",
+      "date": "2014-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 583946,
+      "name": "The Tom and Jerry Show Season 3",
+      "nameCN": "新猫和老鼠 第三季",
+      "date": "2019-02-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     },
     {
       "id": 349227,
@@ -931,6 +949,24 @@
       "name": "Tom and Jerry in New York Season 2",
       "nameCN": "猫和老鼠在纽约 第二季",
       "date": "2021-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 583947,
+      "name": "The Tom and Jerry Show Season 4",
+      "nameCN": "新猫和老鼠 第四季",
+      "date": "2021-02-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 583948,
+      "name": "The Tom and Jerry Show Season 5",
+      "nameCN": "新猫和老鼠 第五季",
+      "date": "2021-02-15",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -2498,6 +2534,11 @@
       "dst": 278573
     },
     {
+      "relate": "衍生",
+      "src": 101799,
+      "dst": 583949
+    },
+    {
       "relate": "前传",
       "src": 169850,
       "dst": 101799
@@ -2505,7 +2546,7 @@
     {
       "relate": "续集",
       "src": 169850,
-      "dst": 349227
+      "dst": 583946
     },
     {
       "relate": "续集",
@@ -2656,6 +2697,36 @@
       "relate": "主线故事",
       "src": 559865,
       "dst": 25961
+    },
+    {
+      "relate": "前传",
+      "src": 583946,
+      "dst": 169850
+    },
+    {
+      "relate": "续集",
+      "src": 583946,
+      "dst": 583947
+    },
+    {
+      "relate": "前传",
+      "src": 583947,
+      "dst": 583946
+    },
+    {
+      "relate": "续集",
+      "src": 583947,
+      "dst": 583948
+    },
+    {
+      "relate": "前传",
+      "src": 583948,
+      "dst": 583947
+    },
+    {
+      "relate": "主线故事",
+      "src": 583949,
+      "dst": 101799
     }
   ]
 }
