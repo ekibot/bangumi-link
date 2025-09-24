@@ -93,8 +93,8 @@
     },
     {
       "id": 345280,
-      "name": "Dexter: New Blood (Season 1)",
-      "nameCN": "嗜血法医：杀魔新生 第1季",
+      "name": "Dexter: New Blood",
+      "nameCN": "嗜血法医：杀魔新生",
       "date": "2021-11-07",
       "type": 6,
       "nsfw": false,
@@ -102,8 +102,8 @@
     },
     {
       "id": 552070,
-      "name": "Dexter: Resurrection",
-      "nameCN": "嗜血法医：杀魔复生",
+      "name": "Dexter: Resurrection Season 1",
+      "nameCN": "嗜血法医：杀魔复生 第一季",
       "date": "2025-07-11",
       "type": 6,
       "nsfw": false,
@@ -113,6 +113,14 @@
       "id": 552059,
       "name": "Dexter: Original Sin Season 2",
       "nameCN": "嗜血法医：源罪 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 586104,
+      "name": "Dexter: Resurrection Season 2",
+      "nameCN": "嗜血法医：杀魔复生 第二季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -248,6 +256,16 @@
       "relate": "前传",
       "src": 552070,
       "dst": 345280
+    },
+    {
+      "relate": "续集",
+      "src": 552070,
+      "dst": 586104
+    },
+    {
+      "relate": "前传",
+      "src": 586104,
+      "dst": 552070
     }
   ]
 }

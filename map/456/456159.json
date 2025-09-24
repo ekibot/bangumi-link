@@ -12,9 +12,18 @@
     },
     {
       "id": 535077,
-      "name": "牧神记2",
-      "nameCN": "",
+      "name": "牧神记 贰",
+      "nameCN": "牧神记2",
       "date": "2025-04-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 587256,
+      "name": "牧神记 叁",
+      "nameCN": "牧神记3",
+      "date": "2025-10-19",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 535077,
       "dst": 456159
+    },
+    {
+      "relate": "续集",
+      "src": 535077,
+      "dst": 587256
+    },
+    {
+      "relate": "前传",
+      "src": 587256,
+      "dst": 535077
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": 587052,
+  "node": [
+    {
+      "id": 587052,
+      "name": "핫썸머 S2",
+      "nameCN": "",
+      "date": "2021-08-01",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 587079,
+      "name": "손 없는 날",
+      "nameCN": "",
+      "date": "2021-10-12",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    },
+    {
+      "id": 587092,
+      "name": "라이언 하트",
+      "nameCN": "",
+      "date": "2021-10-12",
+      "type": 1,
+      "nsfw": true,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 587052,
+      "dst": 587079
+    },
+    {
+      "relate": "前传",
+      "src": 587052,
+      "dst": 587092
+    },
+    {
+      "relate": "续集",
+      "src": 587079,
+      "dst": 587052
+    },
+    {
+      "relate": "续集",
+      "src": 587092,
+      "dst": 587052
+    }
+  ]
+}
