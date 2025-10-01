@@ -91,6 +91,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 2873,
+      "name": "魔法戦記リリカルなのはForce",
+      "nameCN": "魔法战记奈叶Force",
+      "date": "2010-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 110867,
       "name": "魔法少女リリカルなのはViVid",
       "nameCN": "魔法少女奈叶ViVid",
@@ -104,6 +113,33 @@
       "name": "魔法少女リリカルなのは コミックアラカルト",
       "nameCN": "",
       "date": "2010-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 2872,
+      "name": "魔法少女リリカルなのはViVid",
+      "nameCN": "魔法少女Lyrical奈叶～vivid～",
+      "date": "2010-01-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 74390,
+      "name": "魔法少女リリカルなのはViVid LIFE",
+      "nameCN": "魔法少女奈叶ViVid LIFE",
+      "date": "2012-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 74373,
+      "name": "魔法戦記リリカルなのはForce Dimension",
+      "nameCN": "",
+      "date": "2013-02-23",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -244,6 +280,15 @@
       "platform": "漫画"
     },
     {
+      "id": 41279,
+      "name": "魔法戦記リリカルなのはForce true colored",
+      "nameCN": "魔法战记奈叶Force 全彩版",
+      "date": "2012-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 331490,
       "name": "Fate/stay night [Unlimited Blade Works]",
       "nameCN": "",
@@ -283,6 +328,15 @@
       "name": "魔法少女リリカルなのはINNOCENTS",
       "nameCN": "魔法少女奈叶INNOCENTS",
       "date": "2015-02-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 589082,
+      "name": "魔法少女リリカルなのは　マテリアル娘。　INNOCENT",
+      "nameCN": "",
+      "date": "2014-04-25",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -364,12 +418,37 @@
     {
       "relate": "续集",
       "src": 1264,
+      "dst": 2873
+    },
+    {
+      "relate": "续集",
+      "src": 1264,
       "dst": 110867
     },
     {
       "relate": "番外篇",
       "src": 1264,
       "dst": 526679
+    },
+    {
+      "relate": "相同世界观",
+      "src": 2872,
+      "dst": 2873
+    },
+    {
+      "relate": "番外篇",
+      "src": 2872,
+      "dst": 74390
+    },
+    {
+      "relate": "相同世界观",
+      "src": 2873,
+      "dst": 2872
+    },
+    {
+      "relate": "番外篇",
+      "src": 2873,
+      "dst": 74373
     },
     {
       "relate": "不同演绎",
@@ -492,6 +571,11 @@
       "dst": 44591
     },
     {
+      "relate": "番外篇",
+      "src": 41279,
+      "dst": 74373
+    },
+    {
       "relate": "前传",
       "src": 44591,
       "dst": 37540
@@ -570,6 +654,21 @@
       "relate": "续集",
       "src": 68284,
       "dst": 220403
+    },
+    {
+      "relate": "主线故事",
+      "src": 74373,
+      "dst": 2873
+    },
+    {
+      "relate": "主线故事",
+      "src": 74373,
+      "dst": 41279
+    },
+    {
+      "relate": "主线故事",
+      "src": 74390,
+      "dst": 2872
     },
     {
       "relate": "不同世界观",
@@ -723,6 +822,11 @@
     },
     {
       "relate": "前传",
+      "src": 211355,
+      "dst": 589082
+    },
+    {
+      "relate": "前传",
       "src": 211358,
       "dst": 211355
     },
@@ -775,6 +879,11 @@
       "relate": "前传",
       "src": 530731,
       "dst": 220403
+    },
+    {
+      "relate": "续集",
+      "src": 589082,
+      "dst": 211355
     }
   ]
 }

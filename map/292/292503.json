@@ -18,6 +18,23 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 588447,
+      "name": "Primal: Tales of Savagery",
+      "nameCN": "史前战纪：野蛮故事",
+      "date": "2020-01-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 588451,
+      "name": "Primal Season 3",
+      "nameCN": "史前战纪 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,9 +44,29 @@
       "dst": 396407
     },
     {
+      "relate": "总集篇",
+      "src": 292503,
+      "dst": 588447
+    },
+    {
       "relate": "前传",
       "src": 396407,
       "dst": 292503
+    },
+    {
+      "relate": "续集",
+      "src": 396407,
+      "dst": 588451
+    },
+    {
+      "relate": "全集",
+      "src": 588447,
+      "dst": 292503
+    },
+    {
+      "relate": "前传",
+      "src": 588451,
+      "dst": 396407
     }
   ]
 }

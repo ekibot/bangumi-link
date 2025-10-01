@@ -14,6 +14,7 @@
       "id": 52781,
       "name": "The Simpsons Movie",
       "nameCN": "辛普森一家",
+      "date": "2007-07-27",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -35,6 +36,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 590141,
+      "name": "The Simpsons Movie 2",
+      "nameCN": "辛普森一家2",
+      "date": "2027-07-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     },
     {
       "id": 87218,
@@ -372,6 +382,11 @@
       "relate": "主线故事",
       "src": 52781,
       "dst": 19889
+    },
+    {
+      "relate": "续集",
+      "src": 52781,
+      "dst": 590141
     },
     {
       "relate": "主线故事",
@@ -732,6 +747,11 @@
       "relate": "前传",
       "src": 583581,
       "dst": 519266
+    },
+    {
+      "relate": "前传",
+      "src": 590141,
+      "dst": 52781
     }
   ]
 }
