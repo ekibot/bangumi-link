@@ -31,8 +31,17 @@
     {
       "id": 315264,
       "name": "マジカルエミ 〜フィナーレ！フィナーレ！〜",
-      "nameCN": "魔法之星爱美 Finale! Finale!　",
+      "nameCN": "魔法之星爱美 Finale! Finale!",
       "date": "1986-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 590658,
+      "name": "マジカルエミ 〜ラブリードリーム〜 音楽編",
+      "nameCN": "魔法之星爱美 Lovely Dream 音乐篇",
+      "date": "1986-01-25",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -55,6 +64,11 @@
       "dst": 315264
     },
     {
+      "relate": "总集篇",
+      "src": 67780,
+      "dst": 590658
+    },
+    {
       "relate": "主线故事",
       "src": 214824,
       "dst": 67780
@@ -67,6 +81,11 @@
     {
       "relate": "全集",
       "src": 315264,
+      "dst": 67780
+    },
+    {
+      "relate": "全集",
+      "src": 590658,
       "dst": 67780
     }
   ]

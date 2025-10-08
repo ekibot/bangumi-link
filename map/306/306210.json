@@ -38,19 +38,19 @@
       "platform": "WEB"
     },
     {
-      "id": 359771,
-      "name": "Solar Opposites Season 4",
-      "nameCN": "外星也难民 第四季",
-      "date": "2023-08-14",
+      "id": 442518,
+      "name": "A Sinister Halloween Scary Opposites Solar Special",
+      "nameCN": "外星也难民：万圣节特别篇",
+      "date": "2022-10-03",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
     },
     {
-      "id": 442518,
-      "name": "A Sinister Halloween Scary Opposites Solar Special",
-      "nameCN": "外星也难民：万圣节特别篇",
-      "date": "2022-10-03",
+      "id": 359771,
+      "name": "Solar Opposites Season 4",
+      "nameCN": "外星也难民 第四季",
+      "date": "2023-08-14",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -119,6 +119,11 @@
       "dst": 330042
     },
     {
+      "relate": "续集",
+      "src": 359768,
+      "dst": 442518
+    },
+    {
       "relate": "前传",
       "src": 359770,
       "dst": 330042
@@ -129,7 +134,7 @@
       "dst": 359771
     },
     {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 359770,
       "dst": 442518
     },
@@ -144,9 +149,14 @@
       "dst": 458225
     },
     {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 359771,
       "dst": 478096
+    },
+    {
+      "relate": "前传",
+      "src": 442518,
+      "dst": 359768
     },
     {
       "relate": "主线故事",
@@ -154,14 +164,14 @@
       "dst": 359770
     },
     {
-      "relate": "前传",
-      "src": 458225,
-      "dst": 359771
+      "relate": "续集",
+      "src": 442518,
+      "dst": 478096
     },
     {
       "relate": "前传",
       "src": 458225,
-      "dst": 478096
+      "dst": 359771
     },
     {
       "relate": "续集",
@@ -169,7 +179,7 @@
       "dst": 505980
     },
     {
-      "relate": "衍生",
+      "relate": "番外篇",
       "src": 458225,
       "dst": 517177
     },
@@ -179,9 +189,14 @@
       "dst": 359771
     },
     {
+      "relate": "前传",
+      "src": 478096,
+      "dst": 442518
+    },
+    {
       "relate": "续集",
       "src": 478096,
-      "dst": 458225
+      "dst": 517177
     },
     {
       "relate": "前传",
@@ -192,6 +207,11 @@
       "relate": "主线故事",
       "src": 517177,
       "dst": 458225
+    },
+    {
+      "relate": "前传",
+      "src": 517177,
+      "dst": 478096
     }
   ]
 }

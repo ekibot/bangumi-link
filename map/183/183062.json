@@ -4,7 +4,8 @@
     {
       "id": 183062,
       "name": "Do Da Dancin'!",
-      "nameCN": "",
+      "nameCN": "Do Da Dancin！舞动的旋律",
+      "date": "2001-01-24",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -17,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 402992,
+      "name": "お天気予報",
+      "nameCN": "天气预报",
+      "date": "2000-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -26,8 +36,18 @@
       "dst": 183076
     },
     {
+      "relate": "番外篇",
+      "src": 183062,
+      "dst": 402992
+    },
+    {
       "relate": "前传",
       "src": 183076,
+      "dst": 183062
+    },
+    {
+      "relate": "主线故事",
+      "src": 402992,
       "dst": 183062
     }
   ]

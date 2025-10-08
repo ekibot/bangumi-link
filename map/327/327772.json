@@ -90,6 +90,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 591584,
+      "name": "カードファイト!! ヴァンガード Divinez 幻真星戦編",
+      "nameCN": "卡片战斗先导者 Divinez Deluxe 幻真星战篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -179,9 +187,19 @@
       "dst": 440880
     },
     {
+      "relate": "续集",
+      "src": 440881,
+      "dst": 591584
+    },
+    {
       "relate": "衍生",
       "src": 508620,
       "dst": 402835
+    },
+    {
+      "relate": "前传",
+      "src": 591584,
+      "dst": 440881
     }
   ]
 }

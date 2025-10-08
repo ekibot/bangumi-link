@@ -360,6 +360,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 592717,
+      "name": "The Simpsons O C’mon All Ye Faithful",
+      "nameCN": "",
+      "date": "2024-12-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 592718,
+      "name": "The Simpsons The Past and the Furious",
+      "nameCN": "",
+      "date": "2025-02-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 592719,
+      "name": "The Simpsons Yellow Planet",
+      "nameCN": "",
+      "date": "2025-04-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -744,6 +771,21 @@
       "dst": 583581
     },
     {
+      "relate": "番外篇",
+      "src": 519266,
+      "dst": 592717
+    },
+    {
+      "relate": "番外篇",
+      "src": 519266,
+      "dst": 592718
+    },
+    {
+      "relate": "番外篇",
+      "src": 519266,
+      "dst": 592719
+    },
+    {
       "relate": "前传",
       "src": 583581,
       "dst": 519266
@@ -752,6 +794,41 @@
       "relate": "前传",
       "src": 590141,
       "dst": 52781
+    },
+    {
+      "relate": "主线故事",
+      "src": 592717,
+      "dst": 519266
+    },
+    {
+      "relate": "续集",
+      "src": 592717,
+      "dst": 592718
+    },
+    {
+      "relate": "主线故事",
+      "src": 592718,
+      "dst": 519266
+    },
+    {
+      "relate": "前传",
+      "src": 592718,
+      "dst": 592717
+    },
+    {
+      "relate": "续集",
+      "src": 592718,
+      "dst": 592719
+    },
+    {
+      "relate": "主线故事",
+      "src": 592719,
+      "dst": 519266
+    },
+    {
+      "relate": "前传",
+      "src": 592719,
+      "dst": 592718
     }
   ]
 }

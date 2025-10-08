@@ -21,8 +21,18 @@
     },
     {
       "id": 19805,
-      "name": "9S<ないんえす? > SS",
+      "name": "9S<ないんえす?> SS",
       "nameCN": "",
+      "date": "2006-01-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 592245,
+      "name": "9S<ないんえす?> after",
+      "nameCN": "",
+      "date": "2025-12-10",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -48,6 +58,16 @@
       "relate": "番外篇",
       "src": 19806,
       "dst": 19805
+    },
+    {
+      "relate": "番外篇",
+      "src": 19806,
+      "dst": 592245
+    },
+    {
+      "relate": "主线故事",
+      "src": 592245,
+      "dst": 19806
     }
   ]
 }

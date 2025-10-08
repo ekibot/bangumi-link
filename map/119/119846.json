@@ -121,8 +121,26 @@
     {
       "id": 439028,
       "name": "Bob's Burgers Season 14",
-      "nameCN": "开心汉堡店 第十四季",
+      "nameCN": "开心汉堡店 第14季",
       "date": "2023-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 593132,
+      "name": "Bob's Burgers Season 15",
+      "nameCN": "开心汉堡店 第15季",
+      "date": "2024-09-29",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 593133,
+      "name": "Bob's Burgers Season 16",
+      "nameCN": "开心汉堡店 第16季",
+      "date": "2025-09-28",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -258,6 +276,26 @@
       "relate": "前传",
       "src": 439028,
       "dst": 439027
+    },
+    {
+      "relate": "续集",
+      "src": 439028,
+      "dst": 593132
+    },
+    {
+      "relate": "前传",
+      "src": 593132,
+      "dst": 439028
+    },
+    {
+      "relate": "续集",
+      "src": 593132,
+      "dst": 593133
+    },
+    {
+      "relate": "前传",
+      "src": 593133,
+      "dst": 593132
     }
   ]
 }

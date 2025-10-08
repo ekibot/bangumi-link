@@ -207,6 +207,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 519254,
+      "name": "Family Guy Halloween Special",
+      "nameCN": "恶搞之家 万圣节特别集",
+      "date": "2024-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 549977,
+      "name": "Family Guy Christmas Special",
+      "nameCN": "恶搞之家 圣诞节特别集",
+      "date": "2024-11-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 592268,
+      "name": "Family Guy Halloween Special 2025",
+      "nameCN": "恶搞之家 万圣节特别集 2025",
+      "date": "2025-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -426,9 +453,49 @@
       "dst": 549976
     },
     {
+      "relate": "主线故事",
+      "src": 519254,
+      "dst": 549976
+    },
+    {
+      "relate": "续集",
+      "src": 519254,
+      "dst": 549977
+    },
+    {
       "relate": "前传",
       "src": 549976,
       "dst": 430664
+    },
+    {
+      "relate": "番外篇",
+      "src": 549976,
+      "dst": 519254
+    },
+    {
+      "relate": "番外篇",
+      "src": 549976,
+      "dst": 549977
+    },
+    {
+      "relate": "前传",
+      "src": 549977,
+      "dst": 519254
+    },
+    {
+      "relate": "主线故事",
+      "src": 549977,
+      "dst": 549976
+    },
+    {
+      "relate": "续集",
+      "src": 549977,
+      "dst": 592268
+    },
+    {
+      "relate": "前传",
+      "src": 592268,
+      "dst": 549977
     }
   ]
 }
