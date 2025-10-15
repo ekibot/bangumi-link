@@ -29,6 +29,15 @@
       "platform": "其他"
     },
     {
+      "id": 596841,
+      "name": "Hotel Transylvania Season 2",
+      "nameCN": "精灵旅社 第二季",
+      "date": "2019-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 178606,
       "name": "Hotel Transylvania 3: Summer Vacation",
       "nameCN": "精灵旅社3：疯狂假期",
@@ -45,6 +54,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 596760,
+      "name": "Monster Pets: Hotel Transylvania",
+      "nameCN": "精灵旅社番外篇：精灵怪宠",
+      "date": "2021-04-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 596840,
+      "name": "Hotel Transylvania Season 1",
+      "nameCN": "精灵旅社 第一季",
+      "date": "2017-06-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -57,6 +84,11 @@
       "relate": "番外篇",
       "src": 61213,
       "dst": 162158
+    },
+    {
+      "relate": "前传",
+      "src": 61213,
+      "dst": 596841
     },
     {
       "relate": "前传",
@@ -87,6 +119,31 @@
       "relate": "前传",
       "src": 365782,
       "dst": 178606
+    },
+    {
+      "relate": "番外篇",
+      "src": 365782,
+      "dst": 596760
+    },
+    {
+      "relate": "主线故事",
+      "src": 596760,
+      "dst": 365782
+    },
+    {
+      "relate": "续集",
+      "src": 596840,
+      "dst": 596841
+    },
+    {
+      "relate": "续集",
+      "src": 596841,
+      "dst": 61213
+    },
+    {
+      "relate": "前传",
+      "src": 596841,
+      "dst": 596840
     }
   ]
 }

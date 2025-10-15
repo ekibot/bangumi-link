@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 568090,
+      "name": "Marvel's Iron Man and his Awesome Friends",
+      "nameCN": "钢铁侠和他超棒的朋友们",
+      "date": "2025-08-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 585411,
       "name": "Meet Spidey and His Amazing Friends Season 1",
       "nameCN": "",
@@ -72,6 +81,31 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 595884,
+      "name": "Marvel's Spidey and His Amazing Friends Season 5",
+      "nameCN": "蜘蛛侠与他的神奇朋友们 第五季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 595921,
+      "name": "Meet Iron Man and His Awesome Friends",
+      "nameCN": "",
+      "date": "2025-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 595885,
+      "name": "Marvel's Spidey and His Amazing Friends Season 6",
+      "nameCN": "蜘蛛侠与他的神奇朋友们 第六季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -79,6 +113,11 @@
       "relate": "续集",
       "src": 430507,
       "dst": 430508
+    },
+    {
+      "relate": "相同世界观",
+      "src": 430507,
+      "dst": 568090
     },
     {
       "relate": "衍生",
@@ -126,6 +165,21 @@
       "dst": 585416
     },
     {
+      "relate": "续集",
+      "src": 561911,
+      "dst": 595884
+    },
+    {
+      "relate": "相同世界观",
+      "src": 568090,
+      "dst": 430507
+    },
+    {
+      "relate": "衍生",
+      "src": 568090,
+      "dst": 595921
+    },
+    {
       "relate": "主线故事",
       "src": 585411,
       "dst": 430507
@@ -154,6 +208,26 @@
       "relate": "主线故事",
       "src": 585416,
       "dst": 561911
+    },
+    {
+      "relate": "前传",
+      "src": 595884,
+      "dst": 561911
+    },
+    {
+      "relate": "续集",
+      "src": 595884,
+      "dst": 595885
+    },
+    {
+      "relate": "前传",
+      "src": 595885,
+      "dst": 595884
+    },
+    {
+      "relate": "主线故事",
+      "src": 595921,
+      "dst": 568090
     }
   ]
 }
