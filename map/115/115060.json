@@ -18,6 +18,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 598614,
+      "name": "新 仮面ライダーSPIRITS ロンリー仮面ライダー編",
+      "nameCN": "新 假面骑士SPIRITS 孤独的假面骑士篇",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -28,7 +36,17 @@
     },
     {
       "relate": "续集",
+      "src": 115060,
+      "dst": 598614
+    },
+    {
+      "relate": "续集",
       "src": 115119,
+      "dst": 115060
+    },
+    {
+      "relate": "前传",
+      "src": 598614,
       "dst": 115060
     }
   ]

@@ -1,0 +1,54 @@
+{
+  "id": 597343,
+  "node": [
+    {
+      "id": 597343,
+      "name": "Spider-Man Noir",
+      "nameCN": "暗影蜘蛛侠V3",
+      "date": "2026-06-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 597344,
+      "name": "Spider-Man Noir: Twilight In Babylon",
+      "nameCN": "暗影蜘蛛侠V2",
+      "date": "2020-12-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 597348,
+      "name": "Spider-Man Noir",
+      "nameCN": "暗影蜘蛛侠V1",
+      "date": "2009-12-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 597343,
+      "dst": 597344
+    },
+    {
+      "relate": "续集",
+      "src": 597344,
+      "dst": 597343
+    },
+    {
+      "relate": "前传",
+      "src": 597344,
+      "dst": 597348
+    },
+    {
+      "relate": "续集",
+      "src": 597348,
+      "dst": 597344
+    }
+  ]
+}

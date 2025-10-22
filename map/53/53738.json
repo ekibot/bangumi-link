@@ -17,6 +17,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 597809,
+      "name": "ハイスクール！奇面組",
+      "nameCN": "高校奇面组",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 214191
     },
     {
+      "relate": "不同演绎",
+      "src": 53738,
+      "dst": 597809
+    },
+    {
       "relate": "全集",
       "src": 214191,
+      "dst": 53738
+    },
+    {
+      "relate": "不同演绎",
+      "src": 597809,
       "dst": 53738
     }
   ]

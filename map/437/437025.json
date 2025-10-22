@@ -1,0 +1,54 @@
+{
+  "id": 437025,
+  "node": [
+    {
+      "id": 437025,
+      "name": "幽靈酒店",
+      "nameCN": "幽灵酒店",
+      "date": "2014-01-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 597906,
+      "name": "幽靈BOSS",
+      "nameCN": "幽灵BOSS",
+      "date": "2014-05-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 597922,
+      "name": "幽靈界",
+      "nameCN": "幽灵界",
+      "date": "2015-01-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 437025,
+      "dst": 597906
+    },
+    {
+      "relate": "前传",
+      "src": 597906,
+      "dst": 437025
+    },
+    {
+      "relate": "续集",
+      "src": 597906,
+      "dst": 597922
+    },
+    {
+      "relate": "前传",
+      "src": 597922,
+      "dst": 597906
+    }
+  ]
+}
