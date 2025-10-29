@@ -725,6 +725,7 @@
       "id": 548715,
       "name": "ANOTHER GENE",
       "nameCN": "另一个基因",
+      "date": "2022-07-15",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -942,6 +943,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 601602,
+      "name": "ゼナのファイル",
+      "nameCN": "泽纳的档案",
+      "date": "2022-04-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 550160,
+      "name": "ウルティメイトフォースゼロ ～Side Story～",
+      "nameCN": "终极赛罗警备队 ～Side Story～",
+      "date": "2021-03-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     },
     {
       "id": 550295,
@@ -3133,9 +3152,19 @@
       "dst": 537343
     },
     {
+      "relate": "前传",
+      "src": 548715,
+      "dst": 601602
+    },
+    {
       "relate": "全集",
       "src": 549232,
       "dst": 61260
+    },
+    {
+      "relate": "前传",
+      "src": 550160,
+      "dst": 189220
     },
     {
       "relate": "续集",
@@ -3211,6 +3240,11 @@
       "relate": "续集",
       "src": 579064,
       "dst": 38667
+    },
+    {
+      "relate": "续集",
+      "src": 601602,
+      "dst": 548715
     }
   ]
 }
