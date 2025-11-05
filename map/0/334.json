@@ -65,15 +65,6 @@
       "platform": "OVA"
     },
     {
-      "id": 529300,
-      "name": "フルメタル・パニック！ 踊るベリー・メリー・クリスマス",
-      "nameCN": "全金属狂潮 舞动的Very Merry Christmas",
-      "date": "2016-12-23",
-      "type": 6,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 150246,
       "name": "フルメタル・パニック! Invisible Victory",
       "nameCN": "全金属狂潮 Invisible Victory",
@@ -81,6 +72,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 529300,
+      "name": "フルメタル・パニック！ 踊るベリー・メリー・クリスマス",
+      "nameCN": "全金属狂潮 舞动的Very Merry Christmas",
+      "date": "2016-12-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -127,6 +127,11 @@
     {
       "relate": "续集",
       "src": 337,
+      "dst": 150246
+    },
+    {
+      "relate": "续集",
+      "src": 337,
       "dst": 529300
     },
     {
@@ -147,6 +152,11 @@
     {
       "relate": "主线故事",
       "src": 2689,
+      "dst": 337
+    },
+    {
+      "relate": "前传",
+      "src": 150246,
       "dst": 337
     },
     {

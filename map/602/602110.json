@@ -1,0 +1,52 @@
+{
+  "id": 602110,
+  "node": [
+    {
+      "id": 602110,
+      "name": "It: Welcome to Derry Season 1",
+      "nameCN": "小丑回魂：欢迎来到德里镇 第一季",
+      "date": "2025-10-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 603334,
+      "name": "It: Welcome to Derry Season 2",
+      "nameCN": "小丑回魂：欢迎来到德里镇 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 603335,
+      "name": "It: Welcome to Derry Season 3",
+      "nameCN": "小丑回魂：欢迎来到德里镇 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 602110,
+      "dst": 603334
+    },
+    {
+      "relate": "续集",
+      "src": 603334,
+      "dst": 602110
+    },
+    {
+      "relate": "前传",
+      "src": 603334,
+      "dst": 603335
+    },
+    {
+      "relate": "续集",
+      "src": 603335,
+      "dst": 603334
+    }
+  ]
+}
