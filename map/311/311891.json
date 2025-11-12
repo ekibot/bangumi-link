@@ -27,6 +27,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 606193,
+      "name": "アオのハコ Interlude",
+      "nameCN": "",
+      "date": "2025-12-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -46,8 +55,18 @@
       "dst": 522700
     },
     {
+      "relate": "番外篇",
+      "src": 332037,
+      "dst": 606193
+    },
+    {
       "relate": "续集",
       "src": 522700,
+      "dst": 332037
+    },
+    {
+      "relate": "主线故事",
+      "src": 606193,
       "dst": 332037
     }
   ]
