@@ -48,8 +48,8 @@
     },
     {
       "id": 593416,
-      "name": "Superior Spider-Man (2013 - 2014)",
-      "nameCN": "",
+      "name": "Superior Spider-Man",
+      "nameCN": "究极蜘蛛侠",
       "date": "2013-05-29",
       "type": 1,
       "nsfw": false,
@@ -65,10 +65,37 @@
       "platform": "漫画"
     },
     {
+      "id": 607473,
+      "name": "Superior Spider-Man",
+      "nameCN": "究极蜘蛛侠V2",
+      "date": "2019-07-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 593908,
       "name": "The Amazing Spider-Man (1963 - 1998)",
       "nameCN": "神奇蜘蛛侠",
       "date": "1963-03-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 606887,
+      "name": "Amazing Spider-Man: Torn",
+      "nameCN": "神奇蜘蛛侠：撕裂",
+      "date": "2026-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 607481,
+      "name": "Superior Spider-Man",
+      "nameCN": "究极蜘蛛侠V3",
+      "date": "2024-04-30",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -132,6 +159,11 @@
     },
     {
       "relate": "续集",
+      "src": 593416,
+      "dst": 607473
+    },
+    {
+      "relate": "续集",
       "src": 593901,
       "dst": 593416
     },
@@ -144,6 +176,31 @@
       "relate": "续集",
       "src": 593908,
       "dst": 593901
+    },
+    {
+      "relate": "番外篇",
+      "src": 593908,
+      "dst": 606887
+    },
+    {
+      "relate": "主线故事",
+      "src": 606887,
+      "dst": 593908
+    },
+    {
+      "relate": "前传",
+      "src": 607473,
+      "dst": 593416
+    },
+    {
+      "relate": "续集",
+      "src": 607473,
+      "dst": 607481
+    },
+    {
+      "relate": "前传",
+      "src": 607481,
+      "dst": 607473
     }
   ]
 }

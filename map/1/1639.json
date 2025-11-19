@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 1639,
-      "name": "The Transformers",
-      "nameCN": "变形金刚（G1）",
+      "name": "The Transformers Season 1",
+      "nameCN": "变形金刚 第一季（G1）",
       "date": "1984-09-17",
       "type": 2,
       "nsfw": false,
@@ -181,6 +181,15 @@
       "platform": "TV"
     },
     {
+      "id": 607652,
+      "name": "The Transformers Season 2",
+      "nameCN": "变形金刚 第二季（G1）",
+      "date": "1985-09-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 502000,
       "name": "Transformers Prime Beast Hunters: Predacons Rising",
       "nameCN": "变形金刚：狩魔之战",
@@ -244,10 +253,18 @@
       "platform": "剧场版"
     },
     {
-      "id": 442367,
-      "name": "戦え!超ロボット生命体トランスフォーマー2010",
-      "nameCN": "战斗吧！超机器人生命体 变形金刚2010",
-      "date": "1986-11-14",
+      "id": 313673,
+      "name": "戦え!超ロボット生命体トランスフォーマー スクランブルシティ発動編",
+      "nameCN": "变形金刚：大都市发动篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 607653,
+      "name": "The Transformers Season 3",
+      "nameCN": "变形金刚 第三季（G1）",
+      "date": "1986-09-15",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -266,6 +283,15 @@
       "name": "トランスフォーマー 超神マスターフォース",
       "nameCN": "变形金刚：隐者战士",
       "date": "1988-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442367,
+      "name": "戦え!超ロボット生命体トランスフォーマー2010",
+      "nameCN": "战斗吧！超机器人生命体 变形金刚2010",
+      "date": "1986-11-14",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -323,14 +349,6 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
-    },
-    {
-      "id": 313673,
-      "name": "戦え!超ロボット生命体トランスフォーマー スクランブルシティ発動編",
-      "nameCN": "变形金刚：大都市发动篇",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
     },
     {
       "id": 563558,
@@ -466,6 +484,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 607306,
+      "name": "Transformers: Rescue Bots Season 2",
+      "nameCN": "变形金刚：救援机器人 第二季",
+      "date": "2014-03-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 607379,
+      "name": "Transformers: Rescue Bots Season 3",
+      "nameCN": "变形金刚：救援机器人 第三季",
+      "date": "2014-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 607383,
+      "name": "Transformers: Rescue Bots Season 4",
+      "nameCN": "变形金刚：救援机器人 第四季",
+      "date": "2016-04-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -565,6 +610,11 @@
       "dst": 606038
     },
     {
+      "relate": "续集",
+      "src": 1639,
+      "dst": 607652
+    },
+    {
       "relate": "不同世界观",
       "src": 4522,
       "dst": 1639
@@ -625,14 +675,19 @@
       "dst": 25716
     },
     {
-      "relate": "前传",
-      "src": 47721,
-      "dst": 1639
-    },
-    {
       "relate": "不同世界观",
       "src": 47721,
-      "dst": 442367
+      "dst": 313673
+    },
+    {
+      "relate": "前传",
+      "src": 47721,
+      "dst": 607652
+    },
+    {
+      "relate": "续集",
+      "src": 47721,
+      "dst": 607653
     },
     {
       "relate": "续集",
@@ -810,6 +865,11 @@
       "dst": 339619
     },
     {
+      "relate": "不同世界观",
+      "src": 313673,
+      "dst": 47721
+    },
+    {
       "relate": "续集",
       "src": 313673,
       "dst": 442367
@@ -870,11 +930,6 @@
       "dst": 563558
     },
     {
-      "relate": "不同世界观",
-      "src": 442367,
-      "dst": 47721
-    },
-    {
       "relate": "续集",
       "src": 442367,
       "dst": 77218
@@ -895,14 +950,19 @@
       "dst": 313673
     },
     {
-      "relate": "前传",
-      "src": 442688,
-      "dst": 1639
+      "relate": "不同演绎",
+      "src": 442368,
+      "dst": 607652
     },
     {
       "relate": "不同世界观",
       "src": 442688,
       "dst": 77218
+    },
+    {
+      "relate": "前传",
+      "src": 442688,
+      "dst": 607653
     },
     {
       "relate": "主线故事",
@@ -1088,6 +1148,61 @@
       "relate": "相同世界观",
       "src": 606038,
       "dst": 18268
+    },
+    {
+      "relate": "续集",
+      "src": 606038,
+      "dst": 607306
+    },
+    {
+      "relate": "前传",
+      "src": 607306,
+      "dst": 606038
+    },
+    {
+      "relate": "续集",
+      "src": 607306,
+      "dst": 607379
+    },
+    {
+      "relate": "前传",
+      "src": 607379,
+      "dst": 607306
+    },
+    {
+      "relate": "续集",
+      "src": 607379,
+      "dst": 607383
+    },
+    {
+      "relate": "前传",
+      "src": 607383,
+      "dst": 607379
+    },
+    {
+      "relate": "前传",
+      "src": 607652,
+      "dst": 1639
+    },
+    {
+      "relate": "续集",
+      "src": 607652,
+      "dst": 47721
+    },
+    {
+      "relate": "不同演绎",
+      "src": 607652,
+      "dst": 442368
+    },
+    {
+      "relate": "前传",
+      "src": 607653,
+      "dst": 47721
+    },
+    {
+      "relate": "续集",
+      "src": 607653,
+      "dst": 442688
     }
   ]
 }

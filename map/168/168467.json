@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 282169,
+      "name": "少年アシベ",
+      "nameCN": "少年阿贝",
+      "date": "1991-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 240459,
       "name": "少年アシベ GO!GO!ゴマちゃん 第3シリーズ",
       "nameCN": "少年阿贝GO！GO！小芝麻 第三季",
@@ -36,6 +45,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 607043,
+      "name": "小3アシベ QQゴマちゃん",
+      "nameCN": "小3阿贝 QQ小芝麻",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -43,6 +60,11 @@
       "relate": "续集",
       "src": 168467,
       "dst": 209352
+    },
+    {
+      "relate": "前传",
+      "src": 168467,
+      "dst": 282169
     },
     {
       "relate": "前传",
@@ -68,6 +90,21 @@
       "relate": "前传",
       "src": 279470,
       "dst": 240459
+    },
+    {
+      "relate": "续集",
+      "src": 279470,
+      "dst": 607043
+    },
+    {
+      "relate": "续集",
+      "src": 282169,
+      "dst": 168467
+    },
+    {
+      "relate": "前传",
+      "src": 607043,
+      "dst": 279470
     }
   ]
 }

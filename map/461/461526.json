@@ -1,0 +1,92 @@
+{
+  "id": 461526,
+  "node": [
+    {
+      "id": 461526,
+      "name": "LEGO Marvel Avengers: Code Red",
+      "nameCN": "乐高复仇者联盟：红色代码",
+      "date": "2023-10-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 585247,
+      "name": "LEGO Marvel Avengers: Time Twisted",
+      "nameCN": "乐高复仇者联盟：时间扭曲",
+      "date": "2022-01-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 585270,
+      "name": "Lego Marvel Avengers: Mission Demolition",
+      "nameCN": "乐高复仇者联盟：爆破任务",
+      "date": "2024-10-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 585248,
+      "name": "LEGO Marvel Avengers: Loki in Training",
+      "nameCN": "乐高复仇者联盟：实习生洛基",
+      "date": "2021-11-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 608612,
+      "name": "LEGO Marvel Avengers: Strange Tails",
+      "nameCN": "乐高漫威复仇者联盟：奇异故事",
+      "date": "2025-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 461526,
+      "dst": 585247
+    },
+    {
+      "relate": "续集",
+      "src": 461526,
+      "dst": 585270
+    },
+    {
+      "relate": "续集",
+      "src": 585247,
+      "dst": 461526
+    },
+    {
+      "relate": "前传",
+      "src": 585247,
+      "dst": 585248
+    },
+    {
+      "relate": "续集",
+      "src": 585248,
+      "dst": 585247
+    },
+    {
+      "relate": "前传",
+      "src": 585270,
+      "dst": 461526
+    },
+    {
+      "relate": "续集",
+      "src": 585270,
+      "dst": 608612
+    },
+    {
+      "relate": "前传",
+      "src": 608612,
+      "dst": 585270
+    }
+  ]
+}
