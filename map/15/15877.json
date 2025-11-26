@@ -73,6 +73,7 @@
       "id": 429521,
       "name": "A Knight of the Seven Kingdoms: The Hedge Knight",
       "nameCN": "七王国的骑士",
+      "date": "2026-01-18",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -152,6 +153,14 @@
       "id": 494631,
       "name": "House of the Dragon Season 3",
       "nameCN": "龙之家族 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 609457,
+      "name": "A Knight of the Seven Kingdoms Season 2",
+      "nameCN": "七王国的骑士 第二季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -319,6 +328,11 @@
       "dst": 15877
     },
     {
+      "relate": "续集",
+      "src": 429521,
+      "dst": 609457
+    },
+    {
       "relate": "前传",
       "src": 494631,
       "dst": 398077
@@ -337,6 +351,11 @@
       "relate": "前传",
       "src": 507403,
       "dst": 494631
+    },
+    {
+      "relate": "前传",
+      "src": 609457,
+      "dst": 429521
     }
   ]
 }

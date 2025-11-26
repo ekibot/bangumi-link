@@ -83,10 +83,28 @@
       "platform": "漫画"
     },
     {
+      "id": 609071,
+      "name": "Spider-Man: Blue",
+      "nameCN": "",
+      "date": "2004-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 606887,
       "name": "Amazing Spider-Man: Torn",
       "nameCN": "神奇蜘蛛侠：撕裂",
       "date": "2026-07-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 609070,
+      "name": "Gwen Stacy: Beyond Amazing",
+      "nameCN": "",
+      "date": "2024-11-13",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -173,6 +191,11 @@
       "dst": 593908
     },
     {
+      "relate": "番外篇",
+      "src": 593901,
+      "dst": 609071
+    },
+    {
       "relate": "续集",
       "src": 593908,
       "dst": 593901
@@ -181,6 +204,11 @@
       "relate": "番外篇",
       "src": 593908,
       "dst": 606887
+    },
+    {
+      "relate": "番外篇",
+      "src": 593908,
+      "dst": 609070
     },
     {
       "relate": "主线故事",
@@ -201,6 +229,16 @@
       "relate": "前传",
       "src": 607481,
       "dst": 607473
+    },
+    {
+      "relate": "主线故事",
+      "src": 609070,
+      "dst": 593908
+    },
+    {
+      "relate": "主线故事",
+      "src": 609071,
+      "dst": 593901
     }
   ]
 }

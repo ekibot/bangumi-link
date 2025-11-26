@@ -18,6 +18,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "画集"
+    },
+    {
+      "id": 610562,
+      "name": "Backgammon : 峰倉かずや画集. 3",
+      "nameCN": "",
+      "date": "2001-04-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
+    },
+    {
+      "id": 610566,
+      "name": "Backgammon-remix : 峰倉かずや画集",
+      "nameCN": "",
+      "date": "2003-12-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 530507,
       "dst": 530505
+    },
+    {
+      "relate": "续集",
+      "src": 530507,
+      "dst": 610562
+    },
+    {
+      "relate": "前传",
+      "src": 610562,
+      "dst": 530507
+    },
+    {
+      "relate": "续集",
+      "src": 610562,
+      "dst": 610566
+    },
+    {
+      "relate": "前传",
+      "src": 610566,
+      "dst": 610562
     }
   ]
 }
