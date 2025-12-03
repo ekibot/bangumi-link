@@ -1,0 +1,54 @@
+{
+  "id": 612107,
+  "node": [
+    {
+      "id": 612107,
+      "name": "Venom: Devil's Pack",
+      "nameCN": "",
+      "date": "2013-04-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 612110,
+      "name": "Carnage: Minimum Carnage",
+      "nameCN": "",
+      "date": "2013-01-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 612108,
+      "name": "Venom: Toxin With A Vengeance!",
+      "nameCN": "",
+      "date": "2013-08-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 612107,
+      "dst": 612110
+    },
+    {
+      "relate": "前传",
+      "src": 612108,
+      "dst": 612110
+    },
+    {
+      "relate": "前传",
+      "src": 612110,
+      "dst": 612107
+    },
+    {
+      "relate": "续集",
+      "src": 612110,
+      "dst": 612108
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 593026,
+  "node": [
+    {
+      "id": 593026,
+      "name": "Venom (2018-2021)",
+      "nameCN": "毒液V4",
+      "date": "2018-11-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 611564,
+      "name": "Venom (2016 - 2018)",
+      "nameCN": "毒液V3",
+      "date": "2017-06-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 612115,
+      "name": "Venom (2021)",
+      "nameCN": "毒液V5",
+      "date": "2022-04-05",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 612103,
+      "name": "Venom (2011 - 2013)",
+      "nameCN": "毒液V2",
+      "date": "2012-03-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 612111,
+      "name": "Venom (2003 - 2004)",
+      "nameCN": "毒液V1",
+      "date": "2004-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 593026,
+      "dst": 611564
+    },
+    {
+      "relate": "续集",
+      "src": 593026,
+      "dst": 612115
+    },
+    {
+      "relate": "续集",
+      "src": 611564,
+      "dst": 593026
+    },
+    {
+      "relate": "前传",
+      "src": 611564,
+      "dst": 612103
+    },
+    {
+      "relate": "续集",
+      "src": 612103,
+      "dst": 611564
+    },
+    {
+      "relate": "前传",
+      "src": 612103,
+      "dst": 612111
+    },
+    {
+      "relate": "续集",
+      "src": 612111,
+      "dst": 612103
+    },
+    {
+      "relate": "前传",
+      "src": 612115,
+      "dst": 593026
+    }
+  ]
+}
