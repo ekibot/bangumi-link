@@ -53,7 +53,23 @@
       "date": "2025-07-21",
       "type": 2,
       "nsfw": false,
-      "platform": "TV"
+      "platform": "WEB"
+    },
+    {
+      "id": 615991,
+      "name": "Mickey Mouse Clubhouse+ Season 2",
+      "nameCN": "米奇妙妙屋+ 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 615993,
+      "name": "Mickey Mouse Clubhouse+ Season 3",
+      "nameCN": "米奇妙妙屋+ 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -104,8 +120,28 @@
     },
     {
       "relate": "续集",
+      "src": 564419,
+      "dst": 615991
+    },
+    {
+      "relate": "续集",
       "src": 565537,
       "dst": 236635
+    },
+    {
+      "relate": "前传",
+      "src": 615991,
+      "dst": 564419
+    },
+    {
+      "relate": "续集",
+      "src": 615991,
+      "dst": 615993
+    },
+    {
+      "relate": "前传",
+      "src": 615993,
+      "dst": 615991
     }
   ]
 }

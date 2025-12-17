@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 428416,
-      "name": "All-New Spider-Gwen: The Ghost-Spider",
-      "nameCN": "全新蜘蛛格温：幽灵蜘蛛",
+      "name": "All-New Spider-Gwen: The Ghost-Spider Vol. 1",
+      "nameCN": "",
       "date": "2026-04-14",
       "type": 1,
       "nsfw": false,
@@ -45,6 +45,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 615611,
+      "name": "All-New Spider-Gwen: The Ghost-Spider",
+      "nameCN": "全新蜘蛛格温：幽灵蜘蛛",
+      "date": "2026-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -79,14 +88,19 @@
       "dst": 597715
     },
     {
-      "relate": "续集",
-      "src": 597736,
-      "dst": 428416
-    },
-    {
       "relate": "前传",
       "src": 597736,
       "dst": 428419
+    },
+    {
+      "relate": "续集",
+      "src": 597736,
+      "dst": 615611
+    },
+    {
+      "relate": "前传",
+      "src": 615611,
+      "dst": 597736
     }
   ]
 }

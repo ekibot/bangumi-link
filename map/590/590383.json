@@ -27,6 +27,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 615204,
+      "name": "Foyle's War Season 4",
+      "nameCN": "战地神探 第四季",
+      "date": "2006-01-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 615297,
+      "name": "Foyle's War Season 5",
+      "nameCN": "战地神探 第五季",
+      "date": "2008-01-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 603978,
       "dst": 590384
+    },
+    {
+      "relate": "续集",
+      "src": 603978,
+      "dst": 615204
+    },
+    {
+      "relate": "前传",
+      "src": 615204,
+      "dst": 603978
+    },
+    {
+      "relate": "续集",
+      "src": 615204,
+      "dst": 615297
+    },
+    {
+      "relate": "前传",
+      "src": 615297,
+      "dst": 615204
     }
   ]
 }
