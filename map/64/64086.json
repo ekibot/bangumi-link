@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 617034,
+      "name": "The Wizard's Apprentice",
+      "nameCN": "魔法师的学徒",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 66244
     },
     {
+      "relate": "不同演绎",
+      "src": 64086,
+      "dst": 617034
+    },
+    {
       "relate": "前传",
       "src": 66244,
+      "dst": 64086
+    },
+    {
+      "relate": "不同演绎",
+      "src": 617034,
       "dst": 64086
     }
   ]
