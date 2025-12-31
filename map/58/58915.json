@@ -38,6 +38,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 617485,
+      "name": "Shrek the Halls",
+      "nameCN": "",
+      "date": "2007-11-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 503237,
       "name": "Shrek 5",
       "nameCN": "怪物史莱克5",
@@ -74,6 +83,11 @@
       "dst": 58963
     },
     {
+      "relate": "番外篇",
+      "src": 58960,
+      "dst": 617485
+    },
+    {
       "relate": "前传",
       "src": 58963,
       "dst": 58960
@@ -87,6 +101,11 @@
       "relate": "前传",
       "src": 503237,
       "dst": 58963
+    },
+    {
+      "relate": "主线故事",
+      "src": 617485,
+      "dst": 58960
     }
   ]
 }

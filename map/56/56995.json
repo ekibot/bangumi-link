@@ -18,17 +18,36 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 383137,
+      "name": "がんばれ!キッカーズ ぼくたちの伝説",
+      "nameCN": "加油！吉塔斯：我们的传说",
+      "date": "1987-08-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
     {
-      "relate": "衍生",
+      "relate": "续集",
       "src": 56995,
       "dst": 310760
     },
     {
-      "relate": "主线故事",
+      "relate": "总集篇",
+      "src": 56995,
+      "dst": 383137
+    },
+    {
+      "relate": "前传",
       "src": 310760,
+      "dst": 56995
+    },
+    {
+      "relate": "全集",
+      "src": 383137,
       "dst": 56995
     }
   ]

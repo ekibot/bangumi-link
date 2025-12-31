@@ -18,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 617429,
+      "name": "LIAR GAME The Last Game",
+      "nameCN": "欺诈游戏 The Last Game",
+      "date": "2026-02-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 16057
     },
     {
+      "relate": "续集",
+      "src": 1651,
+      "dst": 617429
+    },
+    {
       "relate": "主线故事",
       "src": 16057,
+      "dst": 1651
+    },
+    {
+      "relate": "前传",
+      "src": 617429,
       "dst": 1651
     }
   ]

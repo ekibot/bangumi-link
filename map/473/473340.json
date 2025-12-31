@@ -1,0 +1,87 @@
+{
+  "id": 473340,
+  "node": [
+    {
+      "id": 473340,
+      "name": "Stille Nacht III - Tales From Vienna Woods",
+      "nameCN": "寂静夜3：维也纳森林的传说",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 618338,
+      "name": "Stille Nacht II: Are We Still Married?",
+      "nameCN": "寂静夜2：我们还是夫妻吗？",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 618339,
+      "name": "Stille Nacht IV: Can't Go Wrong Without You",
+      "nameCN": "寂静夜4：没有你不会误入歧途",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 618337,
+      "name": "Stille Nacht I: Dramolet",
+      "nameCN": "寂静夜1：微型戏剧",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 618340,
+      "name": "Stille Nacht V: Dog Door",
+      "nameCN": "寂静夜5：狗门",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 473340,
+      "dst": 618338
+    },
+    {
+      "relate": "续集",
+      "src": 473340,
+      "dst": 618339
+    },
+    {
+      "relate": "续集",
+      "src": 618337,
+      "dst": 618338
+    },
+    {
+      "relate": "续集",
+      "src": 618338,
+      "dst": 473340
+    },
+    {
+      "relate": "前传",
+      "src": 618338,
+      "dst": 618337
+    },
+    {
+      "relate": "前传",
+      "src": 618339,
+      "dst": 473340
+    },
+    {
+      "relate": "续集",
+      "src": 618339,
+      "dst": 618340
+    },
+    {
+      "relate": "前传",
+      "src": 618340,
+      "dst": 618339
+    }
+  ]
+}

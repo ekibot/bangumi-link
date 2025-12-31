@@ -13,11 +13,64 @@
     {
       "id": 195914,
       "name": "ふしぎの国のアリス",
-      "nameCN": "爱丽思梦游记",
+      "nameCN": "爱丽丝梦游仙境",
       "date": "1983-10-10",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 553353,
+      "name": "Alicia en Sueños",
+      "nameCN": "爱丽丝梦游仙境",
+      "date": "2024-05-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 618333,
+      "name": "Alice in Not So Wonderland",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509663,
+      "name": "Curious Alice",
+      "nameCN": "好奇的爱丽丝",
+      "date": "1971-11-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 553355,
+      "name": "Alice in Dreams: The looking Glass",
+      "nameCN": "爱丽丝梦游仙境：镜中奇遇记",
+      "date": "2024-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 553356,
+      "name": "ALICE IN DREAMS: The White Rabbit",
+      "nameCN": "爱丽丝梦游仙境：白兔",
+      "date": "2025-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 561910,
+      "name": "ALICE IN DREAMS: The Smiling Cat",
+      "nameCN": "爱丽丝梦游仙境：微笑猫",
+      "date": "2025-06-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -28,8 +81,88 @@
     },
     {
       "relate": "不同演绎",
+      "src": 64048,
+      "dst": 553353
+    },
+    {
+      "relate": "不同演绎",
+      "src": 64048,
+      "dst": 618333
+    },
+    {
+      "relate": "不同演绎",
       "src": 195914,
       "dst": 64048
+    },
+    {
+      "relate": "不同演绎",
+      "src": 195914,
+      "dst": 553353
+    },
+    {
+      "relate": "不同演绎",
+      "src": 509663,
+      "dst": 553353
+    },
+    {
+      "relate": "不同演绎",
+      "src": 553353,
+      "dst": 64048
+    },
+    {
+      "relate": "不同演绎",
+      "src": 553353,
+      "dst": 195914
+    },
+    {
+      "relate": "不同演绎",
+      "src": 553353,
+      "dst": 509663
+    },
+    {
+      "relate": "续集",
+      "src": 553353,
+      "dst": 553355
+    },
+    {
+      "relate": "不同演绎",
+      "src": 553353,
+      "dst": 618333
+    },
+    {
+      "relate": "前传",
+      "src": 553355,
+      "dst": 553353
+    },
+    {
+      "relate": "续集",
+      "src": 553355,
+      "dst": 553356
+    },
+    {
+      "relate": "前传",
+      "src": 553356,
+      "dst": 553355
+    },
+    {
+      "relate": "续集",
+      "src": 553356,
+      "dst": 561910
+    },
+    {
+      "relate": "前传",
+      "src": 561910,
+      "dst": 553356
+    },
+    {
+      "relate": "不同演绎",
+      "src": 618333,
+      "dst": 64048
+    },
+    {
+      "relate": "不同演绎",
+      "src": 618333,
+      "dst": 553353
     }
   ]
 }

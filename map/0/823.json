@@ -561,9 +561,17 @@
     },
     {
       "id": 592343,
-      "name": "ブラックヒストリー 黒ずくめの組織との対決の歴史",
-      "nameCN": "BLACK HISTORY 与黑衣组织对决的历史",
+      "name": "名探偵コナン ブラックヒストリー 黒ずくめの組織との対決の歴史",
+      "nameCN": "名侦探柯南 BLACK HISTORY 与黑衣组织对决的历史",
       "date": "2007-12-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 618199,
+      "name": "名探偵コナン 30号殺人事件",
+      "nameCN": "",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -576,15 +584,6 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
-    },
-    {
-      "id": 586284,
-      "name": "名探偵コナン エピソード“ZERO” 工藤新一水族館事件",
-      "nameCN": "名侦探柯南 Episode“ZERO” 工藤新一水族馆事件",
-      "date": "2026-01-03",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
     }
   ],
   "relate": [
@@ -912,6 +911,11 @@
       "relate": "总集篇",
       "src": 899,
       "dst": 592343
+    },
+    {
+      "relate": "番外篇",
+      "src": 899,
+      "dst": 618199
     },
     {
       "relate": "主线故事",
@@ -1724,18 +1728,13 @@
       "dst": 489499
     },
     {
-      "relate": "不同演绎",
-      "src": 586284,
+      "relate": "全集",
+      "src": 592343,
       "dst": 899
     },
     {
-      "relate": "续集",
-      "src": 586284,
-      "dst": 192732
-    },
-    {
-      "relate": "全集",
-      "src": 592343,
+      "relate": "主线故事",
+      "src": 618199,
       "dst": 899
     }
   ]
