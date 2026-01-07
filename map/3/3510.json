@@ -108,6 +108,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 619825,
+      "name": "ONE PIECE novel A",
+      "nameCN": "航海王 novel A",
+      "date": "2018-04-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -167,6 +176,11 @@
       "dst": 520678
     },
     {
+      "relate": "番外篇",
+      "src": 3510,
+      "dst": 619825
+    },
+    {
       "relate": "主线故事",
       "src": 55585,
       "dst": 3510
@@ -219,6 +233,11 @@
     {
       "relate": "主线故事",
       "src": 520678,
+      "dst": 3510
+    },
+    {
+      "relate": "主线故事",
+      "src": 619825,
       "dst": 3510
     }
   ]
