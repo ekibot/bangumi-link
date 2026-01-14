@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 10609,
+      "name": "星空へ架かる橋",
+      "nameCN": "架向星空之桥",
+      "date": "2011-04-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 24541,
+      "name": "星空へ架かる橋 OVA",
+      "nameCN": "架向星空之桥 OVA",
+      "date": "2011-12-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -27,9 +45,29 @@
       "dst": 1932
     },
     {
+      "relate": "相同世界观",
+      "src": 1271,
+      "dst": 10609
+    },
+    {
       "relate": "主线故事",
       "src": 1932,
       "dst": 1271
+    },
+    {
+      "relate": "相同世界观",
+      "src": 10609,
+      "dst": 1271
+    },
+    {
+      "relate": "番外篇",
+      "src": 10609,
+      "dst": 24541
+    },
+    {
+      "relate": "主线故事",
+      "src": 24541,
+      "dst": 10609
     }
   ]
 }

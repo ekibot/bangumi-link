@@ -1,0 +1,54 @@
+{
+  "id": 112693,
+  "node": [
+    {
+      "id": 112693,
+      "name": "The Lord of the Rings",
+      "nameCN": "指环王",
+      "date": "1978-11-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 616567,
+      "name": "The Return of the King",
+      "nameCN": "王者无敌",
+      "date": "1980-05-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 334190,
+      "name": "The Hobbit",
+      "nameCN": "霍比特人",
+      "date": "1977-11-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 112693,
+      "dst": 616567
+    },
+    {
+      "relate": "续集",
+      "src": 334190,
+      "dst": 616567
+    },
+    {
+      "relate": "不同演绎",
+      "src": 616567,
+      "dst": 112693
+    },
+    {
+      "relate": "前传",
+      "src": 616567,
+      "dst": 334190
+    }
+  ]
+}
