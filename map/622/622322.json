@@ -1,0 +1,54 @@
+{
+  "id": 622322,
+  "node": [
+    {
+      "id": 622322,
+      "name": "pippi Longstocking Season 1",
+      "nameCN": "长袜子皮皮 第一季",
+      "date": "1997-10-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 622325,
+      "name": "pippi Longstocking Season 2",
+      "nameCN": "长袜子皮皮 第二季",
+      "date": "1998-08-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 622326,
+      "name": "Pippi Longstocking",
+      "nameCN": "长袜子皮皮",
+      "date": "1997-08-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 622322,
+      "dst": 622325
+    },
+    {
+      "relate": "前传",
+      "src": 622322,
+      "dst": 622326
+    },
+    {
+      "relate": "前传",
+      "src": 622325,
+      "dst": 622322
+    },
+    {
+      "relate": "续集",
+      "src": 622326,
+      "dst": 622322
+    }
+  ]
+}

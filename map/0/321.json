@@ -84,11 +84,12 @@
     },
     {
       "id": 217071,
-      "name": "機動警察パトレイバー EZY",
-      "nameCN": "机动警察 EZY",
+      "name": "機動警察パトレイバー EZY File 1",
+      "nameCN": "机动警察 EZY 第一章",
+      "date": "2026-05-15",
       "type": 2,
       "nsfw": false,
-      "platform": "OVA"
+      "platform": "剧场版"
     },
     {
       "id": 116370,
@@ -139,6 +140,15 @@
       "id": 214208,
       "name": "ユーリ!!! on ICE 劇場版: ICE ADOLESCENCE",
       "nameCN": "冰上的尤里 剧场版",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 622412,
+      "name": "機動警察パトレイバー EZY File 2",
+      "nameCN": "机动警察 EZY 第二章",
+      "date": "2026-08-14",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -241,6 +251,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 622413,
+      "name": "機動警察パトレイバー EZY File 3",
+      "nameCN": "机动警察 EZY 第三章",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -388,6 +406,11 @@
       "relate": "前传",
       "src": 217071,
       "dst": 13552
+    },
+    {
+      "relate": "续集",
+      "src": 217071,
+      "dst": 622412
     },
     {
       "relate": "不同演绎",
@@ -548,6 +571,21 @@
       "relate": "主线故事",
       "src": 606274,
       "dst": 362335
+    },
+    {
+      "relate": "前传",
+      "src": 622412,
+      "dst": 217071
+    },
+    {
+      "relate": "续集",
+      "src": 622412,
+      "dst": 622413
+    },
+    {
+      "relate": "前传",
+      "src": 622413,
+      "dst": 622412
     }
   ]
 }

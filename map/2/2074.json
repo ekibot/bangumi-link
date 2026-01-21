@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 2078,
+      "name": "逮捕しちゃうぞ フルスロットル",
+      "nameCN": "逮捕令 全速前进",
+      "date": "2007-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 41887,
       "name": "逮捕しちゃうぞ the MOVIE",
       "nameCN": "逮捕令 剧场版 墨东署最大危机",
@@ -54,15 +63,6 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
-    },
-    {
-      "id": 2078,
-      "name": "逮捕しちゃうぞ フルスロットル",
-      "nameCN": "逮捕令 全速前进",
-      "date": "2007-10-04",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
     }
   ],
   "relate": [
@@ -70,6 +70,11 @@
       "relate": "续集",
       "src": 2074,
       "dst": 2076
+    },
+    {
+      "relate": "续集",
+      "src": 2074,
+      "dst": 2078
     },
     {
       "relate": "番外篇",
@@ -97,12 +102,17 @@
       "dst": 2074
     },
     {
-      "relate": "续集",
+      "relate": "不同演绎",
       "src": 2076,
       "dst": 2078
     },
     {
       "relate": "前传",
+      "src": 2078,
+      "dst": 2074
+    },
+    {
+      "relate": "不同演绎",
       "src": 2078,
       "dst": 2076
     },

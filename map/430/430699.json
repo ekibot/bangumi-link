@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 621939,
+      "name": "劇場版 メダリスト",
+      "nameCN": "剧场版 金牌得主",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 548818,
       "dst": 430699
+    },
+    {
+      "relate": "续集",
+      "src": 548818,
+      "dst": 621939
+    },
+    {
+      "relate": "前传",
+      "src": 621939,
+      "dst": 548818
     }
   ]
 }
