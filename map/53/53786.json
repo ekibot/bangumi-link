@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 382935,
+      "name": "まんがなるほど物語",
+      "nameCN": "",
+      "date": "1986-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 382230,
       "dst": 53786
+    },
+    {
+      "relate": "续集",
+      "src": 382230,
+      "dst": 382935
+    },
+    {
+      "relate": "前传",
+      "src": 382935,
+      "dst": 382230
     }
   ]
 }
