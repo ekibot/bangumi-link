@@ -27,6 +27,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 625067,
+      "name": "バード BLACK MARKET",
+      "nameCN": "",
+      "date": "2017-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -49,6 +58,16 @@
       "relate": "前传",
       "src": 158592,
       "dst": 158588
+    },
+    {
+      "relate": "续集",
+      "src": 158592,
+      "dst": 625067
+    },
+    {
+      "relate": "前传",
+      "src": 625067,
+      "dst": 158592
     }
   ]
 }
