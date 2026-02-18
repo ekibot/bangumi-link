@@ -1,0 +1,54 @@
+{
+  "id": 627297,
+  "node": [
+    {
+      "id": 627297,
+      "name": "OK KO! Let's Be Heroes Season 1",
+      "nameCN": "成为英雄吧 第一季",
+      "date": "2017-08-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 627299,
+      "name": "OK KO! Let's Be Heroes Season 2",
+      "nameCN": "成为英雄吧 第二季",
+      "date": "2018-03-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 627302,
+      "name": "OK KO! Let's Be Heroes Season 3",
+      "nameCN": "成为英雄吧 第三季",
+      "date": "2019-07-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 627297,
+      "dst": 627299
+    },
+    {
+      "relate": "前传",
+      "src": 627299,
+      "dst": 627297
+    },
+    {
+      "relate": "续集",
+      "src": 627299,
+      "dst": 627302
+    },
+    {
+      "relate": "前传",
+      "src": 627302,
+      "dst": 627299
+    }
+  ]
+}

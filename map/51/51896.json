@@ -78,6 +78,15 @@
       "platform": "漫画"
     },
     {
+      "id": 627399,
+      "name": "Forever Evil",
+      "nameCN": "邪恶永恒",
+      "date": "2015-05-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 74765,
       "name": "Justice League #3 DC New 52",
       "nameCN": "",
@@ -334,6 +343,33 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 458192,
+      "name": "Justice League Vol. 5: Forever Heroes (The New 52)",
+      "nameCN": "正义联盟 第五卷：英雄永恒",
+      "date": "2014-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 458193,
+      "name": "Justice League Vol. 6: Injustice League (The New 52)",
+      "nameCN": "正义联盟 第六卷：不义联盟",
+      "date": "2015-07-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 627364,
+      "name": "Justice League: Trinity War",
+      "nameCN": "正义联盟：三体之战",
+      "date": "2014-12-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -421,6 +457,11 @@
       "relate": "相同世界观",
       "src": 74764,
       "dst": 578616
+    },
+    {
+      "relate": "相同世界观",
+      "src": 74764,
+      "dst": 627399
     },
     {
       "relate": "相同世界观",
@@ -753,6 +794,16 @@
       "dst": 233566
     },
     {
+      "relate": "主线故事",
+      "src": 458192,
+      "dst": 627399
+    },
+    {
+      "relate": "前传",
+      "src": 458193,
+      "dst": 627399
+    },
+    {
       "relate": "相同世界观",
       "src": 458196,
       "dst": 72168
@@ -786,6 +837,31 @@
       "relate": "相同世界观",
       "src": 578616,
       "dst": 74764
+    },
+    {
+      "relate": "续集",
+      "src": 627364,
+      "dst": 627399
+    },
+    {
+      "relate": "相同世界观",
+      "src": 627399,
+      "dst": 74764
+    },
+    {
+      "relate": "番外篇",
+      "src": 627399,
+      "dst": 458192
+    },
+    {
+      "relate": "续集",
+      "src": 627399,
+      "dst": 458193
+    },
+    {
+      "relate": "前传",
+      "src": 627399,
+      "dst": 627364
     }
   ]
 }

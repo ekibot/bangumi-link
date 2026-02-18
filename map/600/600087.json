@@ -1,0 +1,69 @@
+{
+  "id": 600087,
+  "node": [
+    {
+      "id": 600087,
+      "name": "ミナの村と森",
+      "nameCN": "米娜的村庄与森林",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 600246,
+      "name": "ミナの村と川",
+      "nameCN": "米娜的村庄与河流",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 600265,
+      "name": "ミナの村のごみ騒動",
+      "nameCN": "米娜的村庄的垃圾风波",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 615855,
+      "name": "ミナの防災村づくり",
+      "nameCN": "米娜的防灾村建设",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 600087,
+      "dst": 600246
+    },
+    {
+      "relate": "续集",
+      "src": 600087,
+      "dst": 600265
+    },
+    {
+      "relate": "续集",
+      "src": 600246,
+      "dst": 600087
+    },
+    {
+      "relate": "前传",
+      "src": 600265,
+      "dst": 600087
+    },
+    {
+      "relate": "续集",
+      "src": 600265,
+      "dst": 615855
+    },
+    {
+      "relate": "前传",
+      "src": 615855,
+      "dst": 600265
+    }
+  ]
+}
