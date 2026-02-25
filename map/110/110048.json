@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 629550,
+      "name": "監獄ラジオ学園",
+      "nameCN": "监狱广播学园",
+      "date": "2015-07-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 158796
     },
     {
+      "relate": "衍生",
+      "src": 110048,
+      "dst": 629550
+    },
+    {
       "relate": "主线故事",
       "src": 158796,
+      "dst": 110048
+    },
+    {
+      "relate": "衍生",
+      "src": 629550,
       "dst": 110048
     }
   ]

@@ -56,6 +56,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 631154,
+      "name": "Super Sleuth Christmas Movie",
+      "nameCN": "",
+      "date": "2007-11-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 112504,
       "name": "Pooh's Grand Adventure: The Search for Christopher Robin",
       "nameCN": "小熊维尼:寻找克里斯多夫罗宾",
@@ -135,6 +144,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 631128,
+      "name": "Winnie the Pooh and Christmas Too",
+      "nameCN": "",
+      "date": "1991-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -162,6 +180,11 @@
       "relate": "相同世界观",
       "src": 44677,
       "dst": 113011
+    },
+    {
+      "relate": "番外篇",
+      "src": 44677,
+      "dst": 631154
     },
     {
       "relate": "相同世界观",
@@ -374,6 +397,11 @@
       "dst": 113011
     },
     {
+      "relate": "不同演绎",
+      "src": 112888,
+      "dst": 631128
+    },
+    {
       "relate": "相同世界观",
       "src": 112891,
       "dst": 60712
@@ -477,6 +505,16 @@
       "relate": "续集",
       "src": 316285,
       "dst": 132403
+    },
+    {
+      "relate": "不同演绎",
+      "src": 631128,
+      "dst": 112888
+    },
+    {
+      "relate": "主线故事",
+      "src": 631154,
+      "dst": 44677
     }
   ]
 }

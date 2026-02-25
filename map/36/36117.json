@@ -1,0 +1,54 @@
+{
+  "id": 36117,
+  "node": [
+    {
+      "id": 36117,
+      "name": "Scooby-Doo, Where Are You!",
+      "nameCN": "史酷比救救我",
+      "date": "1969-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 631219,
+      "name": "Scooby-Doo, Where Are You! Season 2",
+      "nameCN": "",
+      "date": "1970-09-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 631220,
+      "name": "Scooby-Doo, Where Are You! Season 3",
+      "nameCN": "",
+      "date": "1978-09-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 36117,
+      "dst": 631219
+    },
+    {
+      "relate": "前传",
+      "src": 631219,
+      "dst": 36117
+    },
+    {
+      "relate": "续集",
+      "src": 631219,
+      "dst": 631220
+    },
+    {
+      "relate": "前传",
+      "src": 631220,
+      "dst": 631219
+    }
+  ]
+}

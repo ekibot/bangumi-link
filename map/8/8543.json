@@ -209,6 +209,15 @@
       "platform": "TV"
     },
     {
+      "id": 585190,
+      "name": "The Incredible Hulk",
+      "nameCN": "不可思议的绿巨人",
+      "date": "1982-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 106177,
       "name": "Ultimate Spider-Man: Web-Warriors",
       "nameCN": "终极蜘蛛侠 第三季：蛛网勇士",
@@ -321,15 +330,6 @@
       "name": "Spider-Man and His Amazing Friends Season 1",
       "nameCN": "蜘蛛侠和他的神奇朋友们 第一季",
       "date": "1981-09-12",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 585190,
-      "name": "The Incredible Hulk",
-      "nameCN": "不可思议的绿巨人",
-      "date": "1982-09-18",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -510,6 +510,15 @@
       "name": "マーベル フューチャー・アベンジャーズ2",
       "nameCN": "漫威未来复仇者 第二季",
       "date": "2018-07-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 210862,
+      "name": "Ultimate Wolverine vs. Hulk",
+      "nameCN": "终极金刚狼大战绿巨人",
+      "date": "2013-09-10",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -711,6 +720,15 @@
       "platform": "漫画"
     },
     {
+      "id": 585176,
+      "name": "Planet Hulk",
+      "nameCN": "星球绿巨人",
+      "date": "2010-02-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 585201,
       "name": "X-Men Season 3",
       "nameCN": "X战警 第三季",
@@ -779,6 +797,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 630930,
+      "name": "Your Friendly Neighborhood Spider-Man Season 3",
+      "nameCN": "你的友好邻居蜘蛛侠 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -981,6 +1007,11 @@
       "relate": "相同世界观",
       "src": 55582,
       "dst": 274349
+    },
+    {
+      "relate": "不同世界观",
+      "src": 55582,
+      "dst": 585190
     },
     {
       "relate": "前传",
@@ -1429,6 +1460,11 @@
     },
     {
       "relate": "不同世界观",
+      "src": 210862,
+      "dst": 585190
+    },
+    {
+      "relate": "不同世界观",
       "src": 213777,
       "dst": 130059
     },
@@ -1601,6 +1637,11 @@
       "relate": "相同世界观",
       "src": 226722,
       "dst": 226721
+    },
+    {
+      "relate": "不同世界观",
+      "src": 226722,
+      "dst": 585190
     },
     {
       "relate": "前传",
@@ -1928,6 +1969,11 @@
       "dst": 292016
     },
     {
+      "relate": "不同世界观",
+      "src": 585176,
+      "dst": 585190
+    },
+    {
       "relate": "不同演绎",
       "src": 585180,
       "dst": 137870
@@ -2026,6 +2072,11 @@
       "relate": "相同世界观",
       "src": 585184,
       "dst": 585183
+    },
+    {
+      "relate": "不同世界观",
+      "src": 585190,
+      "dst": 55582
     },
     {
       "relate": "相同世界观",
@@ -2038,9 +2089,24 @@
       "dst": 137870
     },
     {
+      "relate": "不同世界观",
+      "src": 585190,
+      "dst": 210862
+    },
+    {
+      "relate": "不同世界观",
+      "src": 585190,
+      "dst": 226722
+    },
+    {
       "relate": "相同世界观",
       "src": 585190,
       "dst": 349067
+    },
+    {
+      "relate": "不同世界观",
+      "src": 585190,
+      "dst": 585176
     },
     {
       "relate": "前传",
@@ -2166,6 +2232,16 @@
       "relate": "前传",
       "src": 595651,
       "dst": 440659
+    },
+    {
+      "relate": "续集",
+      "src": 595651,
+      "dst": 630930
+    },
+    {
+      "relate": "前传",
+      "src": 630930,
+      "dst": 595651
     }
   ]
 }

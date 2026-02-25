@@ -3,9 +3,9 @@
   "node": [
     {
       "id": 169112,
-      "name": "Tamala 2010:A Punk Cat in Space",
+      "name": "TAMALA2010 a punk cat in space",
       "nameCN": "朋克太空猫",
-      "date": "2003-09-28",
+      "date": "2002-10-19",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -17,6 +17,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 585259,
+      "name": "TAMALA ON PARADE",
+      "nameCN": "朋克猫巡演",
+      "date": "2007-08-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -26,8 +35,18 @@
       "dst": 562666
     },
     {
+      "relate": "番外篇",
+      "src": 169112,
+      "dst": 585259
+    },
+    {
       "relate": "前传",
       "src": 562666,
+      "dst": 169112
+    },
+    {
+      "relate": "主线故事",
+      "src": 585259,
       "dst": 169112
     }
   ]

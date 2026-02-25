@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 629648,
+      "name": "待回收",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 207420
     },
     {
+      "relate": "续集",
+      "src": 206135,
+      "dst": 629648
+    },
+    {
       "relate": "前传",
       "src": 207420,
+      "dst": 206135
+    },
+    {
+      "relate": "前传",
+      "src": 629648,
       "dst": 206135
     }
   ]
