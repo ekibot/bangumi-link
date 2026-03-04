@@ -1,0 +1,71 @@
+{
+  "id": 583381,
+  "node": [
+    {
+      "id": 583381,
+      "name": "藍の路",
+      "nameCN": "靛蓝之路",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 601814,
+      "name": "白の路",
+      "nameCN": "纯白之路",
+      "date": "2004-02-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 601816,
+      "name": "檸檬の路",
+      "nameCN": "柠檬之路",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 601808,
+      "name": "朱の路",
+      "nameCN": "绯红之路",
+      "date": "2003-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 583381,
+      "dst": 601814
+    },
+    {
+      "relate": "续集",
+      "src": 583381,
+      "dst": 601816
+    },
+    {
+      "relate": "续集",
+      "src": 601808,
+      "dst": 601814
+    },
+    {
+      "relate": "续集",
+      "src": 601814,
+      "dst": 583381
+    },
+    {
+      "relate": "前传",
+      "src": 601814,
+      "dst": 601808
+    },
+    {
+      "relate": "前传",
+      "src": 601816,
+      "dst": 583381
+    }
+  ]
+}

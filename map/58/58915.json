@@ -20,6 +20,24 @@
       "platform": "剧场版"
     },
     {
+      "id": 632281,
+      "name": "Shrek: The Ghost of Lord Farquaad",
+      "nameCN": "怪物史莱克：法尔奎德领主的鬼魂",
+      "date": "2004-05-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 632283,
+      "name": "Shrek in the Swamp Karaoke Dance Party",
+      "nameCN": "史莱克在沼泽卡拉OK舞会",
+      "date": "2001-11-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 58960,
       "name": "Shrek the Third",
       "nameCN": "怪物史莱克3",
@@ -27,6 +45,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 632309,
+      "name": "Far Far Away Idol",
+      "nameCN": "远得要命王国偶像大赛",
+      "date": "2004-11-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     },
     {
       "id": 58963,
@@ -47,6 +74,15 @@
       "platform": "TV"
     },
     {
+      "id": 168199,
+      "name": "The Pig Who Cried Werewolf",
+      "nameCN": "疑神疑鬼的小猪",
+      "date": "2011-10-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 503237,
       "name": "Shrek 5",
       "nameCN": "怪物史莱克5",
@@ -54,6 +90,42 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 632318,
+      "name": "Scared Shrekless",
+      "nameCN": "史莱克的万圣节游戏",
+      "date": "2010-10-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 632339,
+      "name": "Donkey's Christmas Shrektacular",
+      "nameCN": "驴子的圣诞歌舞秀",
+      "date": "2010-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 632553,
+      "name": "Shrek's Yule Log",
+      "nameCN": "史莱克的圣诞柴",
+      "date": "2010-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 632557,
+      "name": "Thriller Night",
+      "nameCN": "史莱克惊悚夜",
+      "date": "2011-09-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
@@ -61,6 +133,16 @@
       "relate": "续集",
       "src": 58915,
       "dst": 58918
+    },
+    {
+      "relate": "番外篇",
+      "src": 58915,
+      "dst": 632281
+    },
+    {
+      "relate": "番外篇",
+      "src": 58915,
+      "dst": 632283
     },
     {
       "relate": "前传",
@@ -71,6 +153,11 @@
       "relate": "续集",
       "src": 58918,
       "dst": 58960
+    },
+    {
+      "relate": "番外篇",
+      "src": 58918,
+      "dst": 632309
     },
     {
       "relate": "前传",
@@ -93,9 +180,39 @@
       "dst": 58960
     },
     {
+      "relate": "番外篇",
+      "src": 58963,
+      "dst": 168199
+    },
+    {
       "relate": "续集",
       "src": 58963,
       "dst": 503237
+    },
+    {
+      "relate": "番外篇",
+      "src": 58963,
+      "dst": 632318
+    },
+    {
+      "relate": "番外篇",
+      "src": 58963,
+      "dst": 632339
+    },
+    {
+      "relate": "番外篇",
+      "src": 58963,
+      "dst": 632553
+    },
+    {
+      "relate": "番外篇",
+      "src": 58963,
+      "dst": 632557
+    },
+    {
+      "relate": "主线故事",
+      "src": 168199,
+      "dst": 58963
     },
     {
       "relate": "前传",
@@ -106,6 +223,41 @@
       "relate": "主线故事",
       "src": 617485,
       "dst": 58960
+    },
+    {
+      "relate": "主线故事",
+      "src": 632281,
+      "dst": 58915
+    },
+    {
+      "relate": "主线故事",
+      "src": 632283,
+      "dst": 58915
+    },
+    {
+      "relate": "主线故事",
+      "src": 632309,
+      "dst": 58918
+    },
+    {
+      "relate": "主线故事",
+      "src": 632318,
+      "dst": 58963
+    },
+    {
+      "relate": "主线故事",
+      "src": 632339,
+      "dst": 58963
+    },
+    {
+      "relate": "主线故事",
+      "src": 632553,
+      "dst": 58963
+    },
+    {
+      "relate": "主线故事",
+      "src": 632557,
+      "dst": 58963
     }
   ]
 }
