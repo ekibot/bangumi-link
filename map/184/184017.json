@@ -2,50 +2,27 @@
   "id": 184017,
   "node": [
     {
-      "id": 184017,
-      "name": "[沙盒] 动画A",
-      "nameCN": "Bangumi Wiki 动画测试用沙盘",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 363612,
-      "name": "[沙盒] 动画B",
-      "nameCN": "沙盒",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 354677,
       "name": "沙盒(1)",
       "nameCN": "沙盒",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 184017,
+      "name": "[沙盒] 动画A",
+      "nameCN": "Bangumi Wiki 动画测试用沙盘",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
     {
-      "relate": "衍生",
-      "src": 184017,
-      "dst": 363612
-    },
-    {
       "relate": "主线故事",
       "src": 354677,
       "dst": 184017
-    },
-    {
-      "relate": "主线故事",
-      "src": 363612,
-      "dst": 184017
-    },
-    {
-      "relate": "续集",
-      "src": 363612,
-      "dst": 354677
     }
   ]
 }
