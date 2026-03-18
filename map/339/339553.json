@@ -1,0 +1,51 @@
+{
+  "id": 339553,
+  "node": [
+    {
+      "id": 339553,
+      "name": "故乡 Heimat- Eine Chronik in elf Teilen",
+      "nameCN": "故乡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 464232,
+      "name": "Heimat II: A Chronicle of a Generation",
+      "nameCN": "故乡II",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 464233,
+      "name": "Heimat 3: Chronicle of a Changing Time",
+      "nameCN": "故乡3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 339553,
+      "dst": 464232
+    },
+    {
+      "relate": "前传",
+      "src": 464232,
+      "dst": 339553
+    },
+    {
+      "relate": "续集",
+      "src": 464232,
+      "dst": 464233
+    },
+    {
+      "relate": "前传",
+      "src": 464233,
+      "dst": 464232
+    }
+  ]
+}

@@ -13,17 +13,17 @@
     {
       "id": 597715,
       "name": "Spider-Gwen (2015 - 2018)",
-      "nameCN": "蜘蛛格温",
+      "nameCN": "蜘蛛格温V2",
       "date": "2016-05-11",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
     },
     {
-      "id": 597736,
-      "name": "Spider-Gwen: The Ghost-Spider (2024-2025)",
-      "nameCN": "蜘蛛格温：幽灵蜘蛛V2",
-      "date": "2025-01-22",
+      "id": 635901,
+      "name": "Ghost-Spider (2019 - 2020)",
+      "nameCN": "",
+      "date": "2020-02-05",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -38,10 +38,64 @@
       "platform": "漫画"
     },
     {
+      "id": 635401,
+      "name": "Silk",
+      "nameCN": "蛛丝V2",
+      "date": "2016-05-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 597736,
+      "name": "Spider-Gwen: The Ghost-Spider (2024-2025)",
+      "nameCN": "蜘蛛格温：幽灵蜘蛛V2",
+      "date": "2025-01-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 615611,
       "name": "All-New Spider-Gwen: The Ghost-Spider",
       "nameCN": "全新蜘蛛格温：幽灵蜘蛛",
       "date": "2026-04-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635400,
+      "name": "Silk Vol. 0 : The Life and Times of Cindy Moon",
+      "nameCN": "",
+      "date": "2015-10-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635407,
+      "name": "Silk Vol. 1: Threats And Menaces",
+      "nameCN": "",
+      "date": "2021-11-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635408,
+      "name": "Silk Vol. 2: Age Of The Witch",
+      "nameCN": "",
+      "date": "2022-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635410,
+      "name": "Silk Vol. 3: Nightmare Boulevard",
+      "nameCN": "",
+      "date": "2023-12-05",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -56,7 +110,7 @@
     {
       "relate": "续集",
       "src": 428419,
-      "dst": 597736
+      "dst": 635901
     },
     {
       "relate": "续集",
@@ -69,14 +123,14 @@
       "dst": 597723
     },
     {
+      "relate": "相同世界观",
+      "src": 597715,
+      "dst": 635401
+    },
+    {
       "relate": "续集",
       "src": 597723,
       "dst": 597715
-    },
-    {
-      "relate": "前传",
-      "src": 597736,
-      "dst": 428419
     },
     {
       "relate": "续集",
@@ -85,7 +139,67 @@
     },
     {
       "relate": "前传",
+      "src": 597736,
+      "dst": 635901
+    },
+    {
+      "relate": "前传",
       "src": 615611,
+      "dst": 597736
+    },
+    {
+      "relate": "续集",
+      "src": 635400,
+      "dst": 635401
+    },
+    {
+      "relate": "相同世界观",
+      "src": 635401,
+      "dst": 597715
+    },
+    {
+      "relate": "前传",
+      "src": 635401,
+      "dst": 635400
+    },
+    {
+      "relate": "续集",
+      "src": 635401,
+      "dst": 635407
+    },
+    {
+      "relate": "前传",
+      "src": 635407,
+      "dst": 635401
+    },
+    {
+      "relate": "续集",
+      "src": 635407,
+      "dst": 635408
+    },
+    {
+      "relate": "前传",
+      "src": 635408,
+      "dst": 635407
+    },
+    {
+      "relate": "续集",
+      "src": 635408,
+      "dst": 635410
+    },
+    {
+      "relate": "前传",
+      "src": 635410,
+      "dst": 635408
+    },
+    {
+      "relate": "前传",
+      "src": 635901,
+      "dst": 428419
+    },
+    {
+      "relate": "续集",
+      "src": 635901,
       "dst": 597736
     }
   ]

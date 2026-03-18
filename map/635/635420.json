@@ -1,0 +1,54 @@
+{
+  "id": 635420,
+  "node": [
+    {
+      "id": 635420,
+      "name": "Spider-Man 2099",
+      "nameCN": "蜘蛛侠2099",
+      "date": "2009-04-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635426,
+      "name": "Spider-Man 2099 (2014-2015)",
+      "nameCN": "蜘蛛侠2099 V2",
+      "date": "2015-02-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 635430,
+      "name": "Spider-Man 2099 (2015-2017)",
+      "nameCN": "",
+      "date": "2016-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 635420,
+      "dst": 635426
+    },
+    {
+      "relate": "前传",
+      "src": 635426,
+      "dst": 635420
+    },
+    {
+      "relate": "续集",
+      "src": 635426,
+      "dst": 635430
+    },
+    {
+      "relate": "前传",
+      "src": 635430,
+      "dst": 635426
+    }
+  ]
+}
