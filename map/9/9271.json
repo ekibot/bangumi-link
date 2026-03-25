@@ -234,6 +234,42 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 636043,
+      "name": "おじゃる丸 第26シリーズ",
+      "nameCN": "",
+      "date": "2023-04-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 636046,
+      "name": "おじゃる丸 第27シリーズ",
+      "nameCN": "",
+      "date": "2024-04-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 636047,
+      "name": "おじゃる丸 第28シリーズ",
+      "nameCN": "",
+      "date": "2025-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 636048,
+      "name": "おじゃる丸 第29シリーズ",
+      "nameCN": "反斗小王子 第29季",
+      "date": "2026-03-30",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -486,6 +522,46 @@
       "relate": "前传",
       "src": 416317,
       "dst": 416316
+    },
+    {
+      "relate": "续集",
+      "src": 416317,
+      "dst": 636043
+    },
+    {
+      "relate": "前传",
+      "src": 636043,
+      "dst": 416317
+    },
+    {
+      "relate": "续集",
+      "src": 636043,
+      "dst": 636046
+    },
+    {
+      "relate": "前传",
+      "src": 636046,
+      "dst": 636043
+    },
+    {
+      "relate": "续集",
+      "src": 636046,
+      "dst": 636047
+    },
+    {
+      "relate": "前传",
+      "src": 636047,
+      "dst": 636046
+    },
+    {
+      "relate": "续集",
+      "src": 636047,
+      "dst": 636048
+    },
+    {
+      "relate": "前传",
+      "src": 636048,
+      "dst": 636047
     }
   ]
 }

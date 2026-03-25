@@ -23,7 +23,7 @@
       "id": 60712,
       "name": "Winnie the Pooh",
       "nameCN": "小熊维尼",
-      "date": "2011-04-15",
+      "date": "2011-04-06",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -50,16 +50,34 @@
       "id": 113011,
       "name": "Winnie the Pooh: Springtime with Roo",
       "nameCN": "小熊维尼：春天的百亩森林",
-      "date": "2004-03-23",
+      "date": "2004-03-09",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 631154,
-      "name": "Super Sleuth Christmas Movie",
+      "name": "My Friends Tigger & Pooh: Super Sleuth Christmas Movie",
       "nameCN": "",
       "date": "2007-11-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 637462,
+      "name": "Tigger & Pooh and a Musical Too",
+      "nameCN": "",
+      "date": "2009-04-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 637463,
+      "name": "My Friends Tigger & Pooh: Super-Duper Super Sleuths",
+      "nameCN": "",
+      "date": "2010-04-06",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -71,16 +89,25 @@
       "date": "1997-08-05",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
+    },
+    {
+      "id": 637445,
+      "name": "Boo to You Too! Winnie the Pooh",
+      "nameCN": "",
+      "date": "1996-10-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 112512,
       "name": "Winnie the Pooh: Seasons of Giving",
       "nameCN": "小熊维尼：感恩的季节",
-      "date": "1999-11-08",
+      "date": "1999-11-09",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 112888,
@@ -113,7 +140,7 @@
       "id": 113014,
       "name": "Pooh's Heffalump Movie",
       "nameCN": "小熊维尼之长鼻怪大冒险",
-      "date": "2005-02-10",
+      "date": "2005-02-11",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -125,7 +152,7 @@
       "date": "2005-09-13",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 132403,
@@ -144,6 +171,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 637458,
+      "name": "A Winnie the Pooh Thanksgiving",
+      "nameCN": "",
+      "date": "1998-11-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 631128,
@@ -187,6 +223,16 @@
       "dst": 631154
     },
     {
+      "relate": "番外篇",
+      "src": 44677,
+      "dst": 637462
+    },
+    {
+      "relate": "番外篇",
+      "src": 44677,
+      "dst": 637463
+    },
+    {
       "relate": "相同世界观",
       "src": 59844,
       "dst": 44677
@@ -215,6 +261,11 @@
       "relate": "衍生",
       "src": 59844,
       "dst": 113011
+    },
+    {
+      "relate": "不同演绎",
+      "src": 59844,
+      "dst": 637445
     },
     {
       "relate": "相同世界观",
@@ -382,6 +433,11 @@
       "dst": 113011
     },
     {
+      "relate": "全集",
+      "src": 112512,
+      "dst": 637458
+    },
+    {
       "relate": "相同世界观",
       "src": 112888,
       "dst": 60712
@@ -467,6 +523,11 @@
       "dst": 113014
     },
     {
+      "relate": "不同演绎",
+      "src": 113071,
+      "dst": 637445
+    },
+    {
       "relate": "主线故事",
       "src": 132403,
       "dst": 66234
@@ -514,6 +575,31 @@
     {
       "relate": "主线故事",
       "src": 631154,
+      "dst": 44677
+    },
+    {
+      "relate": "不同演绎",
+      "src": 637445,
+      "dst": 59844
+    },
+    {
+      "relate": "不同演绎",
+      "src": 637445,
+      "dst": 113071
+    },
+    {
+      "relate": "总集篇",
+      "src": 637458,
+      "dst": 112512
+    },
+    {
+      "relate": "主线故事",
+      "src": 637462,
+      "dst": 44677
+    },
+    {
+      "relate": "主线故事",
+      "src": 637463,
       "dst": 44677
     }
   ]

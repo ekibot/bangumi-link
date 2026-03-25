@@ -17,6 +17,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 586702,
+      "name": "少年H",
+      "nameCN": "全职猎人：西索外传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 55583
     },
     {
+      "relate": "番外篇",
+      "src": 24596,
+      "dst": 586702
+    },
+    {
       "relate": "主线故事",
       "src": 55583,
+      "dst": 24596
+    },
+    {
+      "relate": "主线故事",
+      "src": 586702,
       "dst": 24596
     }
   ]
