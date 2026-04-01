@@ -18,17 +18,35 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 16008,
+      "name": "スパイラル 〜推理の絆〜",
+      "nameCN": "推理之绊",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
     {
-      "relate": "前传",
+      "relate": "相同世界观",
       "src": 15980,
       "dst": 15994
     },
     {
-      "relate": "续集",
+      "relate": "番外篇",
+      "src": 15980,
+      "dst": 16008
+    },
+    {
+      "relate": "相同世界观",
       "src": 15994,
+      "dst": 15980
+    },
+    {
+      "relate": "主线故事",
+      "src": 16008,
       "dst": 15980
     }
   ]

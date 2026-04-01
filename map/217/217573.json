@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 520633,
+      "name": "リラックマ",
+      "nameCN": "轻松熊",
+      "date": "2026-04-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 317694
     },
     {
+      "relate": "不同演绎",
+      "src": 217573,
+      "dst": 520633
+    },
+    {
       "relate": "前传",
       "src": 317694,
+      "dst": 217573
+    },
+    {
+      "relate": "不同演绎",
+      "src": 520633,
       "dst": 217573
     }
   ]

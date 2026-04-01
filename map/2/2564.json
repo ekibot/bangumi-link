@@ -18,6 +18,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 580133,
+      "name": "LIAR GAME",
+      "nameCN": "欺诈游戏",
+      "date": "2026-04-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 2646
     },
     {
+      "relate": "不同演绎",
+      "src": 2564,
+      "dst": 580133
+    },
+    {
       "relate": "前传",
       "src": 2646,
+      "dst": 2564
+    },
+    {
+      "relate": "不同演绎",
+      "src": 580133,
       "dst": 2564
     }
   ]
