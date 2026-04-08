@@ -17,6 +17,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 639020,
+      "name": "ザ・ファブル 第2期",
+      "nameCN": "杀手寓言 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 449242
     },
     {
+      "relate": "续集",
+      "src": 444339,
+      "dst": 639020
+    },
+    {
       "relate": "不同演绎",
       "src": 449242,
+      "dst": 444339
+    },
+    {
+      "relate": "前传",
+      "src": 639020,
       "dst": 444339
     }
   ]

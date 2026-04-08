@@ -1,0 +1,54 @@
+{
+  "id": 639182,
+  "node": [
+    {
+      "id": 639182,
+      "name": "Godzilla: Infinity Roar",
+      "nameCN": "",
+      "date": "2026-11-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 639184,
+      "name": "Godzilla Destroys the Marvel Universe",
+      "nameCN": "",
+      "date": "2026-03-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 639185,
+      "name": "Godzilla vs. the Marvel Universe",
+      "nameCN": "",
+      "date": "2025-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 639182,
+      "dst": 639184
+    },
+    {
+      "relate": "续集",
+      "src": 639184,
+      "dst": 639182
+    },
+    {
+      "relate": "前传",
+      "src": 639184,
+      "dst": 639185
+    },
+    {
+      "relate": "续集",
+      "src": 639185,
+      "dst": 639184
+    }
+  ]
+}

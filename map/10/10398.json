@@ -11,15 +11,6 @@
       "platform": "TV"
     },
     {
-      "id": 189512,
-      "name": "恐竜惑星",
-      "nameCN": "恐龙行星",
-      "date": "1993-04-05",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 189016,
       "name": "救命戦士ナノセイバー",
       "nameCN": "救命战士Nanosaver",
@@ -27,9 +18,23 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 189512,
+      "name": "恐竜惑星",
+      "nameCN": "恐龙行星",
+      "date": "1993-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
+    {
+      "relate": "续集",
+      "src": 10398,
+      "dst": 189016
+    },
     {
       "relate": "前传",
       "src": 10398,
@@ -38,17 +43,12 @@
     {
       "relate": "前传",
       "src": 189016,
-      "dst": 189512
-    },
-    {
-      "relate": "续集",
-      "src": 189512,
       "dst": 10398
     },
     {
       "relate": "续集",
       "src": 189512,
-      "dst": 189016
+      "dst": 10398
     }
   ]
 }

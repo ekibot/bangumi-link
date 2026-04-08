@@ -27,6 +27,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 639425,
+      "name": "熊熊帮帮团4",
+      "nameCN": "熊熊帮帮团 第4季",
+      "date": "2026-01-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 639426,
+      "name": "熊熊帮帮团5",
+      "nameCN": "熊熊帮帮团 第5季",
+      "date": "2026-03-31",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 546901,
       "dst": 445680
+    },
+    {
+      "relate": "续集",
+      "src": 546901,
+      "dst": 639425
+    },
+    {
+      "relate": "前传",
+      "src": 639425,
+      "dst": 546901
+    },
+    {
+      "relate": "续集",
+      "src": 639425,
+      "dst": 639426
+    },
+    {
+      "relate": "前传",
+      "src": 639426,
+      "dst": 639425
     }
   ]
 }

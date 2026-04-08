@@ -155,15 +155,6 @@
       "platform": "TV"
     },
     {
-      "id": 442688,
-      "name": "The Transformers: The Rebirth",
-      "nameCN": "变形金刚：重生",
-      "date": "1987-11-09",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 443758,
       "name": "Transformers One",
       "nameCN": "变形金刚：起源",
@@ -271,42 +262,6 @@
       "platform": "TV"
     },
     {
-      "id": 77218,
-      "name": "トランスフォーマー ザ☆ヘッドマスターズ",
-      "nameCN": "变形金刚：头领战士",
-      "date": "1987-07-03",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 77219,
-      "name": "トランスフォーマー 超神マスターフォース",
-      "nameCN": "变形金刚：隐者战士",
-      "date": "1988-04-12",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 442367,
-      "name": "戦え!超ロボット生命体トランスフォーマー2010",
-      "nameCN": "战斗吧！超机器人生命体 变形金刚2010",
-      "date": "1986-11-14",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
-      "id": 285379,
-      "name": "戦え!超ロボット生命体 トランスフォーマーV",
-      "nameCN": "变形金刚之胜利斗争",
-      "date": "1989-03-14",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 209625,
       "name": "トランスフォーマー カーロボット",
       "nameCN": "变形金刚：汽车人战记",
@@ -334,15 +289,6 @@
       "platform": "TV"
     },
     {
-      "id": 296307,
-      "name": "トランスフォーマーZ",
-      "nameCN": "变形金刚Z",
-      "date": "1990-07-21",
-      "type": 2,
-      "nsfw": false,
-      "platform": "OVA"
-    },
-    {
       "id": 339619,
       "name": "Transformers: War for Cybertron Season 2",
       "nameCN": "变形金刚：赛博坦之战 第二季",
@@ -350,6 +296,60 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 77218,
+      "name": "トランスフォーマー ザ☆ヘッドマスターズ",
+      "nameCN": "变形金刚：头领战士",
+      "date": "1987-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 77219,
+      "name": "トランスフォーマー 超神マスターフォース",
+      "nameCN": "变形金刚：隐者战士",
+      "date": "1988-04-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442367,
+      "name": "戦え!超ロボット生命体トランスフォーマー2010",
+      "nameCN": "战斗吧！超机器人生命体 变形金刚2010",
+      "date": "1986-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 442688,
+      "name": "The Transformers: The Rebirth",
+      "nameCN": "变形金刚：重生",
+      "date": "1987-11-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 285379,
+      "name": "戦え!超ロボット生命体 トランスフォーマーV",
+      "nameCN": "变形金刚之胜利斗争",
+      "date": "1989-03-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 296307,
+      "name": "トランスフォーマーZ",
+      "nameCN": "变形金刚Z",
+      "date": "1990-07-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     },
     {
       "id": 563558,
@@ -605,11 +605,6 @@
       "dst": 442368
     },
     {
-      "relate": "续集",
-      "src": 1639,
-      "dst": 442688
-    },
-    {
       "relate": "不同世界观",
       "src": 1639,
       "dst": 443758
@@ -685,6 +680,11 @@
       "dst": 25716
     },
     {
+      "relate": "前传",
+      "src": 47721,
+      "dst": 1639
+    },
+    {
       "relate": "不同世界观",
       "src": 47721,
       "dst": 313673
@@ -698,31 +698,6 @@
       "relate": "续集",
       "src": 47721,
       "dst": 607653
-    },
-    {
-      "relate": "续集",
-      "src": 77218,
-      "dst": 77219
-    },
-    {
-      "relate": "前传",
-      "src": 77218,
-      "dst": 442367
-    },
-    {
-      "relate": "不同世界观",
-      "src": 77218,
-      "dst": 442688
-    },
-    {
-      "relate": "前传",
-      "src": 77219,
-      "dst": 77218
-    },
-    {
-      "relate": "续集",
-      "src": 77219,
-      "dst": 285379
     },
     {
       "relate": "不同世界观",
@@ -850,21 +825,6 @@
       "dst": 528037
     },
     {
-      "relate": "前传",
-      "src": 285379,
-      "dst": 77219
-    },
-    {
-      "relate": "续集",
-      "src": 285379,
-      "dst": 296307
-    },
-    {
-      "relate": "前传",
-      "src": 296307,
-      "dst": 285379
-    },
-    {
       "relate": "不同世界观",
       "src": 301156,
       "dst": 1639
@@ -878,6 +838,46 @@
       "relate": "不同世界观",
       "src": 313673,
       "dst": 47721
+    },
+    {
+      "relate": "续集",
+      "src": 77218,
+      "dst": 77219
+    },
+    {
+      "relate": "前传",
+      "src": 77218,
+      "dst": 442367
+    },
+    {
+      "relate": "不同世界观",
+      "src": 77218,
+      "dst": 442688
+    },
+    {
+      "relate": "前传",
+      "src": 77219,
+      "dst": 77218
+    },
+    {
+      "relate": "续集",
+      "src": 77219,
+      "dst": 285379
+    },
+    {
+      "relate": "前传",
+      "src": 285379,
+      "dst": 77219
+    },
+    {
+      "relate": "续集",
+      "src": 285379,
+      "dst": 296307
+    },
+    {
+      "relate": "前传",
+      "src": 296307,
+      "dst": 285379
     },
     {
       "relate": "续集",

@@ -29,6 +29,15 @@
       "platform": "TV"
     },
     {
+      "id": 116276,
+      "name": "Penguins of Madagascar",
+      "nameCN": "马达加斯加的企鹅",
+      "date": "2014-11-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 435601,
       "name": "Merry Madagascar",
       "nameCN": "马达加斯加的圣诞",
@@ -42,15 +51,6 @@
       "name": "Madagascar 3: Europe's Most Wanted",
       "nameCN": "马达加斯加3",
       "date": "2012-06-06",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
-      "id": 116276,
-      "name": "Penguins of Madagascar",
-      "nameCN": "马达加斯加的企鹅",
-      "date": "2014-11-14",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -88,6 +88,11 @@
     {
       "relate": "衍生",
       "src": 39088,
+      "dst": 116276
+    },
+    {
+      "relate": "衍生",
+      "src": 39088,
       "dst": 435601
     },
     {
@@ -119,6 +124,11 @@
       "relate": "续集",
       "src": 46742,
       "dst": 439841
+    },
+    {
+      "relate": "主线故事",
+      "src": 116276,
+      "dst": 39088
     },
     {
       "relate": "不同演绎",

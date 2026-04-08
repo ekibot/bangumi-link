@@ -99,6 +99,24 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 638885,
+      "name": "DON’T BLEACH MY FIST",
+      "nameCN": "",
+      "date": "2026-06-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 268579,
+      "name": "BLEACHイラスト集 JET",
+      "nameCN": "",
+      "date": "2018-12-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "画集"
     }
   ],
   "relate": [
@@ -153,6 +171,11 @@
       "dst": 537022
     },
     {
+      "relate": "不同世界观",
+      "src": 10134,
+      "dst": 638885
+    },
+    {
       "relate": "主线故事",
       "src": 122914,
       "dst": 10134
@@ -183,9 +206,19 @@
       "dst": 10134
     },
     {
+      "relate": "前传",
+      "src": 184388,
+      "dst": 268579
+    },
+    {
       "relate": "主线故事",
       "src": 204253,
       "dst": 10134
+    },
+    {
+      "relate": "续集",
+      "src": 268579,
+      "dst": 184388
     },
     {
       "relate": "前传",
@@ -200,6 +233,11 @@
     {
       "relate": "主线故事",
       "src": 537022,
+      "dst": 10134
+    },
+    {
+      "relate": "不同世界观",
+      "src": 638885,
       "dst": 10134
     }
   ]
