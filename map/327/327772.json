@@ -99,6 +99,32 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 640282,
+      "name": "カードファイト!! ヴァンガード Divinez 幻真覚醒編",
+      "nameCN": "",
+      "date": "2026-05-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 640765,
+      "name": "カードファイト!! ヴァンガード Divinez 運命星戦編",
+      "nameCN": "卡片战斗先导者 Divinez 命运星战篇",
+      "date": "2026-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 640766,
+      "name": "カードファイト!! ヴァンガード 完全新作",
+      "nameCN": "卡片战斗先导者 完全新作",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -201,6 +227,31 @@
       "relate": "前传",
       "src": 591584,
       "dst": 440881
+    },
+    {
+      "relate": "前传",
+      "src": 591584,
+      "dst": 640282
+    },
+    {
+      "relate": "续集",
+      "src": 591584,
+      "dst": 640765
+    },
+    {
+      "relate": "前传",
+      "src": 640765,
+      "dst": 591584
+    },
+    {
+      "relate": "续集",
+      "src": 640765,
+      "dst": 640766
+    },
+    {
+      "relate": "前传",
+      "src": 640766,
+      "dst": 640765
     }
   ]
 }

@@ -38,6 +38,15 @@
       "platform": "TV"
     },
     {
+      "id": 549975,
+      "name": "The Legend of Aang: The Last Airbender",
+      "nameCN": "安昂传奇：最后的气宗",
+      "date": "2026-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
       "id": 43180,
       "name": "The Legend of Korra Book 2: Spirits",
       "nameCN": "科拉传奇 第二季：神灵",
@@ -101,6 +110,11 @@
       "dst": 10599
     },
     {
+      "relate": "续集",
+      "src": 4608,
+      "dst": 549975
+    },
+    {
       "relate": "前传",
       "src": 10599,
       "dst": 4608
@@ -144,6 +158,11 @@
       "relate": "续集",
       "src": 365702,
       "dst": 10599
+    },
+    {
+      "relate": "前传",
+      "src": 549975,
+      "dst": 4608
     }
   ]
 }
