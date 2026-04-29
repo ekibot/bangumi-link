@@ -209,6 +209,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 645278,
+      "name": "My Little Pony: Escape from Catrina",
+      "nameCN": "",
+      "date": "1985-03-23",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 126728,
       "name": "My Little Pony: A Very Minty Christmas",
       "nameCN": "我的小马驹：非常薄荷味的圣诞",
@@ -227,6 +236,31 @@
       "platform": "OVA"
     },
     {
+      "id": 645261,
+      "name": "My Little Pony: Friends Are Never Far Away",
+      "nameCN": "",
+      "date": "2005-08-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 645263,
+      "name": "My Little Pony: Pinkie Pie's Special Day",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 645272,
+      "name": "My Little Pony: Rainbow Dash's Special Day",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 126731,
       "name": "My Little Pony: A Very Pony Place",
       "nameCN": "我的小马驹：一个非常小马的地方",
@@ -236,10 +270,9 @@
       "platform": "OVA"
     },
     {
-      "id": 126732,
-      "name": "My Little Pony: Twinkle Wish Adventure",
-      "nameCN": "我的小马：星星许愿冒险",
-      "date": "2009-10-13",
+      "id": 645268,
+      "name": "My Little Pony: Meet the Ponies",
+      "nameCN": "",
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
@@ -441,6 +474,48 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 645257,
+      "name": "My Little Pony: A Charming Birthday",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 645259,
+      "name": "My Little Pony: Dancing in the Clouds",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 126732,
+      "name": "My Little Pony: Twinkle Wish Adventure",
+      "nameCN": "我的小马：星星许愿冒险",
+      "date": "2009-10-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 645270,
+      "name": "My Little Pony: Starsong and the Magic Dance Shoes",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 645276,
+      "name": "My Little Pony: Rescue at Midnight Castle",
+      "nameCN": "",
+      "date": "1984-04-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -600,7 +675,7 @@
       "dst": 126723
     },
     {
-      "relate": "番外篇",
+      "relate": "前传",
       "src": 126722,
       "dst": 126725
     },
@@ -625,19 +700,34 @@
       "dst": 346077
     },
     {
-      "relate": "不同演绎",
-      "src": 126725,
-      "dst": 29870
-    },
-    {
-      "relate": "主线故事",
+      "relate": "续集",
       "src": 126725,
       "dst": 126722
+    },
+    {
+      "relate": "前传",
+      "src": 126725,
+      "dst": 645278
     },
     {
       "relate": "续集",
       "src": 126728,
       "dst": 126729
+    },
+    {
+      "relate": "前传",
+      "src": 126728,
+      "dst": 645261
+    },
+    {
+      "relate": "总集篇",
+      "src": 126728,
+      "dst": 645263
+    },
+    {
+      "relate": "总集篇",
+      "src": 126728,
+      "dst": 645272
     },
     {
       "relate": "前传",
@@ -650,6 +740,11 @@
       "dst": 126730
     },
     {
+      "relate": "总集篇",
+      "src": 126729,
+      "dst": 645263
+    },
+    {
       "relate": "前传",
       "src": 126730,
       "dst": 126729
@@ -660,19 +755,29 @@
       "dst": 126731
     },
     {
+      "relate": "总集篇",
+      "src": 126730,
+      "dst": 645272
+    },
+    {
       "relate": "前传",
       "src": 126731,
       "dst": 126730
     },
     {
-      "relate": "续集",
+      "relate": "总集篇",
       "src": 126731,
-      "dst": 126732
+      "dst": 645263
     },
     {
-      "relate": "前传",
-      "src": 126732,
-      "dst": 126731
+      "relate": "续集",
+      "src": 126731,
+      "dst": 645268
+    },
+    {
+      "relate": "总集篇",
+      "src": 126731,
+      "dst": 645272
     },
     {
       "relate": "前传",
@@ -1123,6 +1228,111 @@
       "relate": "前传",
       "src": 474841,
       "dst": 419828
+    },
+    {
+      "relate": "续集",
+      "src": 645257,
+      "dst": 645259
+    },
+    {
+      "relate": "前传",
+      "src": 645259,
+      "dst": 645257
+    },
+    {
+      "relate": "续集",
+      "src": 645259,
+      "dst": 645261
+    },
+    {
+      "relate": "续集",
+      "src": 645261,
+      "dst": 126728
+    },
+    {
+      "relate": "前传",
+      "src": 645261,
+      "dst": 645259
+    },
+    {
+      "relate": "总集篇",
+      "src": 645261,
+      "dst": 645263
+    },
+    {
+      "relate": "全集",
+      "src": 645263,
+      "dst": 126728
+    },
+    {
+      "relate": "全集",
+      "src": 645263,
+      "dst": 126729
+    },
+    {
+      "relate": "全集",
+      "src": 645263,
+      "dst": 126731
+    },
+    {
+      "relate": "全集",
+      "src": 645263,
+      "dst": 645261
+    },
+    {
+      "relate": "前传",
+      "src": 645268,
+      "dst": 126731
+    },
+    {
+      "relate": "前传",
+      "src": 126732,
+      "dst": 645270
+    },
+    {
+      "relate": "续集",
+      "src": 645268,
+      "dst": 645270
+    },
+    {
+      "relate": "续集",
+      "src": 645270,
+      "dst": 126732
+    },
+    {
+      "relate": "前传",
+      "src": 645270,
+      "dst": 645268
+    },
+    {
+      "relate": "全集",
+      "src": 645272,
+      "dst": 126728
+    },
+    {
+      "relate": "全集",
+      "src": 645272,
+      "dst": 126730
+    },
+    {
+      "relate": "全集",
+      "src": 645272,
+      "dst": 126731
+    },
+    {
+      "relate": "续集",
+      "src": 645276,
+      "dst": 645278
+    },
+    {
+      "relate": "续集",
+      "src": 645278,
+      "dst": 126725
+    },
+    {
+      "relate": "前传",
+      "src": 645278,
+      "dst": 645276
     }
   ]
 }

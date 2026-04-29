@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 645265,
+      "name": "Forensic Files Season 12",
+      "nameCN": "美国法医档案 第十二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -28,7 +36,17 @@
     },
     {
       "relate": "前传",
+      "src": 640767,
+      "dst": 645265
+    },
+    {
+      "relate": "前传",
       "src": 640769,
+      "dst": 640767
+    },
+    {
+      "relate": "续集",
+      "src": 645265,
       "dst": 640767
     }
   ]
