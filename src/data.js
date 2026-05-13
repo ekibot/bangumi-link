@@ -12,7 +12,7 @@ function getArchive(name, map) {
   // eslint-disable-next-line no-cond-assign
   while (line = reader.next()) {
     try {
-      map(JSON.parse(line.toString()));
+      map(JSON.parse(line.toString().replace(/\n/g, "\\n").replace(/\r/g, "")));
     } catch (e) {
       process.stderr.write(`parse line error: ${line}\n`);
     }
