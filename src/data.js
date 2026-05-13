@@ -12,7 +12,7 @@ function getArchive(name, map) {
   // eslint-disable-next-line no-cond-assign
   while (line = reader.next()) {
     try {
-      map(JSON.parse(line.toString().replace(/\n/g, "\\n").replace(/\r/g, "")));
+      map(JSON.parse(line.toString()));
     } catch (e) {
       process.stderr.write(`parse line error: ${line}\n`);
     }
@@ -112,7 +112,7 @@ const subjects = fs.existsSync(subjectCacheFile) ? JSON.parse(fs.readFileSync(su
         nsfw: v.nsfw,
         date,
         week,
-        platform: platformInfo[v.type]?.[v.platform].type_cn,
+        platform: platformInfo[v.type]?.[v.platform]?.type_cn ?? "其他",
       };
     });
     fs.writeFileSync(subjectCacheFile, JSON.stringify(_subjects));
