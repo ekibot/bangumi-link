@@ -1,0 +1,51 @@
+{
+  "id": 174580,
+  "node": [
+    {
+      "id": 174580,
+      "name": "The Gamers",
+      "nameCN": "玩家",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 174581,
+      "name": "The Gamers: Dorkness Rising",
+      "nameCN": "呆瓜的崛起",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 174582,
+      "name": "The Gamers: Hands of Fate",
+      "nameCN": "命运之手",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 174580,
+      "dst": 174581
+    },
+    {
+      "relate": "前传",
+      "src": 174581,
+      "dst": 174580
+    },
+    {
+      "relate": "续集",
+      "src": 174581,
+      "dst": 174582
+    },
+    {
+      "relate": "前传",
+      "src": 174582,
+      "dst": 174581
+    }
+  ]
+}

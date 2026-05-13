@@ -1,0 +1,54 @@
+{
+  "id": 420986,
+  "node": [
+    {
+      "id": 420986,
+      "name": "Sakura Alien",
+      "nameCN": "樱花外客",
+      "date": "2022-01-11",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 437548,
+      "name": "Sakura Alien 2",
+      "nameCN": "樱花外客2",
+      "date": "2022-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 516981,
+      "name": "Sakura Alien 3",
+      "nameCN": "樱花外客3",
+      "date": "2024-10-07",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 420986,
+      "dst": 437548
+    },
+    {
+      "relate": "前传",
+      "src": 437548,
+      "dst": 420986
+    },
+    {
+      "relate": "续集",
+      "src": 437548,
+      "dst": 516981
+    },
+    {
+      "relate": "前传",
+      "src": 516981,
+      "dst": 437548
+    }
+  ]
+}

@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 64567,
+      "name": "アナザー",
+      "nameCN": "替身",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 24540
     },
     {
+      "relate": "不同演绎",
+      "src": 20851,
+      "dst": 64567
+    },
+    {
       "relate": "续集",
       "src": 24540,
+      "dst": 20851
+    },
+    {
+      "relate": "不同演绎",
+      "src": 64567,
       "dst": 20851
     }
   ]

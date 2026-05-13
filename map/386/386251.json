@@ -1,0 +1,48 @@
+{
+  "id": 386251,
+  "node": [
+    {
+      "id": 386251,
+      "name": "Warhammer 40,000: Boltgun",
+      "nameCN": "战锤40k：爆矢枪",
+      "date": "2023-05-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 560457,
+      "name": "Warhammer 40,000: Boltgun 2",
+      "nameCN": "战锤40k：爆矢枪2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 560531,
+      "name": "Warhammer 40,000: Boltgun - Words of Vengeance",
+      "nameCN": "战锤40K：爆矢枪 复仇之言",
+      "date": "2025-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 386251,
+      "dst": 560457
+    },
+    {
+      "relate": "前传",
+      "src": 560457,
+      "dst": 386251
+    },
+    {
+      "relate": "主线故事",
+      "src": 560531,
+      "dst": 386251
+    }
+  ]
+}

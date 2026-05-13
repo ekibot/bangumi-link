@@ -11,6 +11,14 @@
       "platform": "日剧"
     },
     {
+      "id": 395081,
+      "name": "劇場版TOKYO MER ～走る緊急救命室～",
+      "nameCN": "剧场版TOKYO MER ～移动急救室～",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 444725,
       "name": "TOKYO MER〜隅田川ミッション〜",
       "nameCN": "",
@@ -18,9 +26,30 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 513773,
+      "name": "劇場版 TOKYO MER～走る緊急救命室～南海ミッション",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 583191,
+      "name": "劇場版『TOKYO MER～走る緊急救命室～CAPITAL CRISIS』",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
+    {
+      "relate": "续集",
+      "src": 336979,
+      "dst": 395081
+    },
     {
       "relate": "续集",
       "src": 336979,
@@ -28,8 +57,33 @@
     },
     {
       "relate": "前传",
+      "src": 395081,
+      "dst": 336979
+    },
+    {
+      "relate": "续集",
+      "src": 395081,
+      "dst": 513773
+    },
+    {
+      "relate": "前传",
       "src": 444725,
       "dst": 336979
+    },
+    {
+      "relate": "前传",
+      "src": 513773,
+      "dst": 395081
+    },
+    {
+      "relate": "续集",
+      "src": 513773,
+      "dst": 583191
+    },
+    {
+      "relate": "前传",
+      "src": 583191,
+      "dst": 513773
     }
   ]
 }

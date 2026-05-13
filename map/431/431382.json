@@ -1,0 +1,64 @@
+{
+  "id": 431382,
+  "node": [
+    {
+      "id": 431382,
+      "name": "Per un pugno di dollari",
+      "nameCN": "荒野大镖客",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627063,
+      "name": "Per qualche dollaro in più",
+      "nameCN": "黄昏双镖客",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627064,
+      "name": "Il buono, il brutto, il cattivo",
+      "nameCN": "黄金三镖客",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627065,
+      "name": "The Man with No Name",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 431382,
+      "dst": 627063
+    },
+    {
+      "relate": "前传",
+      "src": 627063,
+      "dst": 431382
+    },
+    {
+      "relate": "续集",
+      "src": 627063,
+      "dst": 627064
+    },
+    {
+      "relate": "前传",
+      "src": 627064,
+      "dst": 627063
+    },
+    {
+      "relate": "续集",
+      "src": 627064,
+      "dst": 627065
+    }
+  ]
+}

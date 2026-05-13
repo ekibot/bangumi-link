@@ -1,0 +1,53 @@
+{
+  "id": 105886,
+  "node": [
+    {
+      "id": 105886,
+      "name": "Lords of The Fallen",
+      "nameCN": "堕落之王",
+      "date": "2014-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 397709,
+      "name": "Lords of the Fallen",
+      "nameCN": "堕落之主",
+      "date": "2023-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 579509,
+      "name": "Lords of the Fallen II",
+      "nameCN": "堕落之主2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 105886,
+      "dst": 397709
+    },
+    {
+      "relate": "前传",
+      "src": 397709,
+      "dst": 105886
+    },
+    {
+      "relate": "续集",
+      "src": 397709,
+      "dst": 579509
+    },
+    {
+      "relate": "前传",
+      "src": 579509,
+      "dst": 397709
+    }
+  ]
+}

@@ -11,6 +11,14 @@
       "platform": "TV"
     },
     {
+      "id": 20693,
+      "name": "GANTZ",
+      "nameCN": "杀戮都市",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 52764,
       "name": "GANTZ 〜the 2nd stage〜",
       "nameCN": "杀戮都市 2nd Stage",
@@ -27,9 +35,31 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 25002,
+      "name": "GANTZ PERFECT ANSWER",
+      "nameCN": "杀戮都市 完美答案",
+      "date": "2011-10-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 118681,
+      "name": "ANOTHER GANTZ",
+      "nameCN": "杀戮都市SP",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 2750,
+      "dst": 20693
+    },
     {
       "relate": "续集",
       "src": 2750,
@@ -41,6 +71,26 @@
       "dst": 154971
     },
     {
+      "relate": "不同演绎",
+      "src": 20693,
+      "dst": 2750
+    },
+    {
+      "relate": "续集",
+      "src": 20693,
+      "dst": 25002
+    },
+    {
+      "relate": "衍生",
+      "src": 20693,
+      "dst": 118681
+    },
+    {
+      "relate": "前传",
+      "src": 25002,
+      "dst": 20693
+    },
+    {
       "relate": "前传",
       "src": 52764,
       "dst": 2750
@@ -49,6 +99,11 @@
       "relate": "不同世界观",
       "src": 52764,
       "dst": 154971
+    },
+    {
+      "relate": "衍生",
+      "src": 118681,
+      "dst": 20693
     },
     {
       "relate": "前传",

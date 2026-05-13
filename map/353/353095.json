@@ -1,0 +1,70 @@
+{
+  "id": 353095,
+  "node": [
+    {
+      "id": 353095,
+      "name": "Day of the Dead",
+      "nameCN": "活死人之日",
+      "date": "2021-10-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 353096,
+      "name": "Day of the Dead",
+      "nameCN": "活死人之日",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509082,
+      "name": "Dawn of the Dead",
+      "nameCN": "活死人黎明",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509084,
+      "name": "Dawn of the Dead",
+      "nameCN": "活死人黎明",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 353095,
+      "dst": 353096
+    },
+    {
+      "relate": "不同演绎",
+      "src": 353096,
+      "dst": 353095
+    },
+    {
+      "relate": "前传",
+      "src": 353096,
+      "dst": 509082
+    },
+    {
+      "relate": "续集",
+      "src": 509082,
+      "dst": 353096
+    },
+    {
+      "relate": "不同演绎",
+      "src": 509082,
+      "dst": 509084
+    },
+    {
+      "relate": "不同演绎",
+      "src": 509084,
+      "dst": 509082
+    }
+  ]
+}

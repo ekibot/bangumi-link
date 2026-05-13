@@ -1,0 +1,33 @@
+{
+  "id": 521420,
+  "node": [
+    {
+      "id": 521420,
+      "name": "The Amazing Spider-Man",
+      "nameCN": "超凡蜘蛛侠",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 521421,
+      "name": "The Amazing Spider-Man 2",
+      "nameCN": "超凡蜘蛛侠2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 521420,
+      "dst": 521421
+    },
+    {
+      "relate": "前传",
+      "src": 521421,
+      "dst": 521420
+    }
+  ]
+}

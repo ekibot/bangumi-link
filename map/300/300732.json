@@ -1,0 +1,54 @@
+{
+  "id": 300732,
+  "node": [
+    {
+      "id": 300732,
+      "name": "Hidden Through Time",
+      "nameCN": "时代之下",
+      "date": "2020-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 430124,
+      "name": "Hidden Through Time 2: Myths & Magic",
+      "nameCN": "时代之下2 神话与魔法",
+      "date": "2023-10-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 507364,
+      "name": "Hidden Through Time 2: Discovery",
+      "nameCN": "",
+      "date": "2024-08-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 300732,
+      "dst": 430124
+    },
+    {
+      "relate": "续集",
+      "src": 300732,
+      "dst": 507364
+    },
+    {
+      "relate": "前传",
+      "src": 430124,
+      "dst": 300732
+    },
+    {
+      "relate": "前传",
+      "src": 507364,
+      "dst": 300732
+    }
+  ]
+}

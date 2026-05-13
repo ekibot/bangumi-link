@@ -1,0 +1,52 @@
+{
+  "id": 210500,
+  "node": [
+    {
+      "id": 210500,
+      "name": "DYING：Reborn",
+      "nameCN": "临终：重生试炼",
+      "date": "2017-02-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 220085,
+      "name": "DYING ISLAND",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 515959,
+      "name": "DYING : 1983",
+      "nameCN": "临终：1983",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 210500,
+      "dst": 220085
+    },
+    {
+      "relate": "续集",
+      "src": 210500,
+      "dst": 515959
+    },
+    {
+      "relate": "前传",
+      "src": 220085,
+      "dst": 210500
+    },
+    {
+      "relate": "前传",
+      "src": 515959,
+      "dst": 210500
+    }
+  ]
+}

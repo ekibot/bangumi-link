@@ -1,0 +1,54 @@
+{
+  "id": 432662,
+  "node": [
+    {
+      "id": 432662,
+      "name": "Varney Lake",
+      "nameCN": "瓦涅湖",
+      "date": "2023-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 468956,
+      "name": "Bahnsen Knights",
+      "nameCN": "巴恩森骑士团",
+      "date": "2023-12-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 499880,
+      "name": "Mothmen 1966",
+      "nameCN": "天蛾人1966",
+      "date": "2022-07-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 432662,
+      "dst": 468956
+    },
+    {
+      "relate": "前传",
+      "src": 432662,
+      "dst": 499880
+    },
+    {
+      "relate": "前传",
+      "src": 468956,
+      "dst": 432662
+    },
+    {
+      "relate": "续集",
+      "src": 499880,
+      "dst": 432662
+    }
+  ]
+}

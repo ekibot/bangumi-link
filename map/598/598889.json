@@ -1,0 +1,69 @@
+{
+  "id": 598889,
+  "node": [
+    {
+      "id": 598889,
+      "name": "警察故事",
+      "nameCN": "警察故事",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 598904,
+      "name": "警察故事續集",
+      "nameCN": "警察故事续集",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 598916,
+      "name": "警察故事III超級警察",
+      "nameCN": "警察故事3：超级警察",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 598923,
+      "name": "警察故事4之簡單任務",
+      "nameCN": "警察故事4：简单任务",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 598889,
+      "dst": 598904
+    },
+    {
+      "relate": "前传",
+      "src": 598904,
+      "dst": 598889
+    },
+    {
+      "relate": "续集",
+      "src": 598904,
+      "dst": 598916
+    },
+    {
+      "relate": "前传",
+      "src": 598916,
+      "dst": 598904
+    },
+    {
+      "relate": "续集",
+      "src": 598916,
+      "dst": 598923
+    },
+    {
+      "relate": "前传",
+      "src": 598923,
+      "dst": 598916
+    }
+  ]
+}

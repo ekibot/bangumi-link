@@ -36,6 +36,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 537872,
+      "name": "映画 正直不動産",
+      "nameCN": "电影 正直不动产",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -75,8 +83,18 @@
       "dst": 515283
     },
     {
+      "relate": "续集",
+      "src": 453124,
+      "dst": 537872
+    },
+    {
       "relate": "衍生",
       "src": 515283,
+      "dst": 453124
+    },
+    {
+      "relate": "前传",
+      "src": 537872,
       "dst": 453124
     }
   ]

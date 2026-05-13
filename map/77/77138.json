@@ -17,6 +17,54 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 467590,
+      "name": "First Blood",
+      "nameCN": "第一滴血",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 467591,
+      "name": "Rambo: First Blood Part II",
+      "nameCN": "第一滴血2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 643027,
+      "name": "John Rambo",
+      "nameCN": "约翰·兰博",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 467592,
+      "name": "Rambo III",
+      "nameCN": "第一滴血3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 467593,
+      "name": "Rambo",
+      "nameCN": "兰博",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 467594,
+      "name": "Rambo: Last Blood",
+      "nameCN": "兰博：最后的血",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -24,6 +72,76 @@
       "relate": "不同世界观",
       "src": 77138,
       "dst": 511328
+    },
+    {
+      "relate": "续集",
+      "src": 467590,
+      "dst": 467591
+    },
+    {
+      "relate": "前传",
+      "src": 467590,
+      "dst": 643027
+    },
+    {
+      "relate": "前传",
+      "src": 467591,
+      "dst": 467590
+    },
+    {
+      "relate": "续集",
+      "src": 467591,
+      "dst": 467592
+    },
+    {
+      "relate": "前传",
+      "src": 467592,
+      "dst": 467591
+    },
+    {
+      "relate": "续集",
+      "src": 467592,
+      "dst": 467593
+    },
+    {
+      "relate": "前传",
+      "src": 467593,
+      "dst": 467592
+    },
+    {
+      "relate": "续集",
+      "src": 467593,
+      "dst": 467594
+    },
+    {
+      "relate": "前传",
+      "src": 467594,
+      "dst": 467593
+    },
+    {
+      "relate": "衍生",
+      "src": 511328,
+      "dst": 467591
+    },
+    {
+      "relate": "衍生",
+      "src": 511328,
+      "dst": 467592
+    },
+    {
+      "relate": "衍生",
+      "src": 511328,
+      "dst": 467593
+    },
+    {
+      "relate": "衍生",
+      "src": 511328,
+      "dst": 467594
+    },
+    {
+      "relate": "续集",
+      "src": 643027,
+      "dst": 467590
     }
   ]
 }

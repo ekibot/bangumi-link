@@ -1,0 +1,53 @@
+{
+  "id": 106560,
+  "node": [
+    {
+      "id": 106560,
+      "name": "The Forest",
+      "nameCN": "森林",
+      "date": "2018-04-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 418656,
+      "name": "Sons Of The Forest",
+      "nameCN": "森林之子",
+      "date": "2024-02-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 614984,
+      "name": "Forest 3",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 106560,
+      "dst": 418656
+    },
+    {
+      "relate": "前传",
+      "src": 418656,
+      "dst": 106560
+    },
+    {
+      "relate": "续集",
+      "src": 418656,
+      "dst": 614984
+    },
+    {
+      "relate": "前传",
+      "src": 614984,
+      "dst": 418656
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 358275,
+  "node": [
+    {
+      "id": 358275,
+      "name": "Creepy Tale",
+      "nameCN": "惊悚故事",
+      "date": "2020-02-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 358276,
+      "name": "Creepy Tale 2",
+      "nameCN": "惊悚故事2",
+      "date": "2021-07-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 424267,
+      "name": "Creepy Tale 3: Ingrid Penance",
+      "nameCN": "惊悚故事3：英格莉忏悔录",
+      "date": "2023-03-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 516235,
+      "name": "Creepy Tale: Some Other Place",
+      "nameCN": "惊悚故事：异世迷境",
+      "date": "2024-05-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 358275,
+      "dst": 358276
+    },
+    {
+      "relate": "前传",
+      "src": 358276,
+      "dst": 358275
+    },
+    {
+      "relate": "续集",
+      "src": 358276,
+      "dst": 424267
+    },
+    {
+      "relate": "前传",
+      "src": 424267,
+      "dst": 358276
+    },
+    {
+      "relate": "续集",
+      "src": 424267,
+      "dst": 516235
+    },
+    {
+      "relate": "前传",
+      "src": 516235,
+      "dst": 424267
+    }
+  ]
+}

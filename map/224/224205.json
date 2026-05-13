@@ -1,0 +1,54 @@
+{
+  "id": 224205,
+  "node": [
+    {
+      "id": 224205,
+      "name": "Polka",
+      "nameCN": "",
+      "date": "2017-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 567857,
+      "name": "Time Traveler",
+      "nameCN": "",
+      "date": "2012-12-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 567859,
+      "name": "Geppaku: Monogatari",
+      "nameCN": "",
+      "date": "2020-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 224205,
+      "dst": 567857
+    },
+    {
+      "relate": "续集",
+      "src": 224205,
+      "dst": 567859
+    },
+    {
+      "relate": "续集",
+      "src": 567857,
+      "dst": 224205
+    },
+    {
+      "relate": "前传",
+      "src": 567859,
+      "dst": 224205
+    }
+  ]
+}

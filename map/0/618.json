@@ -1,0 +1,54 @@
+{
+  "id": 618,
+  "node": [
+    {
+      "id": 618,
+      "name": "VOCALOID2 キャラクターボーカルシリーズ01 初音ミク HATSUNE MIKU",
+      "nameCN": "VOCALOID2 角色主唱系列 CV01 初音未來",
+      "date": "2007-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 619,
+      "name": "VOCALOID2 キャラクターボーカルシリーズ02 鏡音リン・レン KAGAMINE RIN/LEN",
+      "nameCN": "VOCALOID2 角色主唱系列 CV02 镜音铃・连",
+      "date": "2007-12-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 13220,
+      "name": "VOCALOID2 キャラクターボーカルシリーズ03 巡音ルカ MEGURINE LUKA",
+      "nameCN": "VOCALOID2 角色主唱系列 CV03 巡音流歌",
+      "date": "2009-01-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 618,
+      "dst": 619
+    },
+    {
+      "relate": "前传",
+      "src": 619,
+      "dst": 618
+    },
+    {
+      "relate": "续集",
+      "src": 619,
+      "dst": 13220
+    },
+    {
+      "relate": "前传",
+      "src": 13220,
+      "dst": 619
+    }
+  ]
+}

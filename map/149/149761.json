@@ -1,0 +1,51 @@
+{
+  "id": 149761,
+  "node": [
+    {
+      "id": 149761,
+      "name": "Back to the Future",
+      "nameCN": "回到未来",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 149762,
+      "name": "Back to the Future Part Ⅱ",
+      "nameCN": "回到未来2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 149763,
+      "name": "Back to the Future Part Ⅲ",
+      "nameCN": "回到未来3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 149761,
+      "dst": 149762
+    },
+    {
+      "relate": "前传",
+      "src": 149762,
+      "dst": 149761
+    },
+    {
+      "relate": "续集",
+      "src": 149762,
+      "dst": 149763
+    },
+    {
+      "relate": "前传",
+      "src": 149763,
+      "dst": 149762
+    }
+  ]
+}

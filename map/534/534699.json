@@ -1,0 +1,69 @@
+{
+  "id": 534699,
+  "node": [
+    {
+      "id": 534699,
+      "name": "Poltergeist",
+      "nameCN": "吵闹鬼",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 534701,
+      "name": "Poltergeist II: The Other Side",
+      "nameCN": "鬼驱人2：另一边",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 534703,
+      "name": "Poltergeist（2015）",
+      "nameCN": "鬼驱人",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 534702,
+      "name": "Poltergeist III",
+      "nameCN": "鬼驱人3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 534699,
+      "dst": 534701
+    },
+    {
+      "relate": "不同演绎",
+      "src": 534699,
+      "dst": 534703
+    },
+    {
+      "relate": "前传",
+      "src": 534701,
+      "dst": 534699
+    },
+    {
+      "relate": "续集",
+      "src": 534701,
+      "dst": 534702
+    },
+    {
+      "relate": "前传",
+      "src": 534702,
+      "dst": 534701
+    },
+    {
+      "relate": "不同演绎",
+      "src": 534703,
+      "dst": 534699
+    }
+  ]
+}

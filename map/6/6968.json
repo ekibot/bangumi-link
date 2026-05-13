@@ -1,0 +1,49 @@
+{
+  "id": 6968,
+  "node": [
+    {
+      "id": 6968,
+      "name": "はぴねす！",
+      "nameCN": "Happiness!",
+      "date": "2005-10-21",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 522355,
+      "name": "はぴねす! でらっくす",
+      "nameCN": "",
+      "date": "2007-01-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 6969,
+      "name": "はぴねす！りらっくす",
+      "nameCN": "",
+      "date": "2006-09-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 6968,
+      "dst": 522355
+    },
+    {
+      "relate": "主线故事",
+      "src": 6969,
+      "dst": 6968
+    },
+    {
+      "relate": "前传",
+      "src": 522355,
+      "dst": 6968
+    }
+  ]
+}

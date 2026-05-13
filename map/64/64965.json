@@ -1,0 +1,51 @@
+{
+  "id": 64965,
+  "node": [
+    {
+      "id": 64965,
+      "name": "The Godfather",
+      "nameCN": "教父",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 96295,
+      "name": "The Godfather Part II",
+      "nameCN": "教父2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 96296,
+      "name": "The Godfather Part III",
+      "nameCN": "教父3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 64965,
+      "dst": 96295
+    },
+    {
+      "relate": "前传",
+      "src": 96295,
+      "dst": 64965
+    },
+    {
+      "relate": "续集",
+      "src": 96295,
+      "dst": 96296
+    },
+    {
+      "relate": "前传",
+      "src": 96296,
+      "dst": 96295
+    }
+  ]
+}

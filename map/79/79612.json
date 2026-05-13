@@ -1,0 +1,52 @@
+{
+  "id": 79612,
+  "node": [
+    {
+      "id": 79612,
+      "name": "究極タイガー",
+      "nameCN": "究极虎",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 577073,
+      "name": "タイガーヘリ",
+      "nameCN": "虎式直升机",
+      "date": "1985-10-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 619983,
+      "name": "究極タイガーII",
+      "nameCN": "究极虎2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 79612,
+      "dst": 577073
+    },
+    {
+      "relate": "续集",
+      "src": 79612,
+      "dst": 619983
+    },
+    {
+      "relate": "续集",
+      "src": 577073,
+      "dst": 79612
+    },
+    {
+      "relate": "前传",
+      "src": 619983,
+      "dst": 79612
+    }
+  ]
+}

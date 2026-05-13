@@ -1,0 +1,54 @@
+{
+  "id": 58003,
+  "node": [
+    {
+      "id": 58003,
+      "name": "Viva Piñata",
+      "nameCN": "宝贝万岁",
+      "date": "2006-11-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 500348,
+      "name": "Viva Piñata: Party Animals",
+      "nameCN": "宝贝万岁：派对动物",
+      "date": "2007-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 500350,
+      "name": "Viva Piñata: Trouble in Paradise",
+      "nameCN": "宝贝万岁：天堂里的烦恼",
+      "date": "2008-09-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 58003,
+      "dst": 500348
+    },
+    {
+      "relate": "前传",
+      "src": 500348,
+      "dst": 58003
+    },
+    {
+      "relate": "续集",
+      "src": 500348,
+      "dst": 500350
+    },
+    {
+      "relate": "前传",
+      "src": 500350,
+      "dst": 500348
+    }
+  ]
+}

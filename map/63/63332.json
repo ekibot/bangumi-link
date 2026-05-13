@@ -18,6 +18,31 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 482655,
+      "name": "里見八犬伝",
+      "nameCN": "里见八犬传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 484973,
+      "name": "八犬伝",
+      "nameCN": "八犬传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 356982,
+      "name": "里見八犬伝",
+      "nameCN": "里见八犬传",
+      "date": "2006-01-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -27,9 +52,39 @@
       "dst": 63333
     },
     {
+      "relate": "不同演绎",
+      "src": 63332,
+      "dst": 482655
+    },
+    {
+      "relate": "不同演绎",
+      "src": 63332,
+      "dst": 484973
+    },
+    {
       "relate": "前传",
       "src": 63333,
       "dst": 63332
+    },
+    {
+      "relate": "不同演绎",
+      "src": 63333,
+      "dst": 484973
+    },
+    {
+      "relate": "不同演绎",
+      "src": 356982,
+      "dst": 482655
+    },
+    {
+      "relate": "不同演绎",
+      "src": 482655,
+      "dst": 63332
+    },
+    {
+      "relate": "不同演绎",
+      "src": 482655,
+      "dst": 356982
     }
   ]
 }

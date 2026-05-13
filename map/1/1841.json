@@ -11,6 +11,14 @@
       "platform": "TV"
     },
     {
+      "id": 120235,
+      "name": "秘密 THE TOP SECRET",
+      "nameCN": "秘密",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 525784,
       "name": "秘密～THE TOP SECRET～",
       "nameCN": "秘密～THE TOP SECRET～",
@@ -24,12 +32,32 @@
     {
       "relate": "不同演绎",
       "src": 1841,
+      "dst": 120235
+    },
+    {
+      "relate": "不同演绎",
+      "src": 1841,
+      "dst": 525784
+    },
+    {
+      "relate": "不同演绎",
+      "src": 120235,
+      "dst": 1841
+    },
+    {
+      "relate": "不同演绎",
+      "src": 120235,
       "dst": 525784
     },
     {
       "relate": "不同演绎",
       "src": 525784,
       "dst": 1841
+    },
+    {
+      "relate": "不同演绎",
+      "src": 525784,
+      "dst": 120235
     }
   ]
 }

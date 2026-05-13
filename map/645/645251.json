@@ -1,0 +1,54 @@
+{
+  "id": 645251,
+  "node": [
+    {
+      "id": 645251,
+      "name": "魔城伝説",
+      "nameCN": "魔城传说",
+      "date": "1986-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 645255,
+      "name": "魔城伝説II ガリウスの迷宮",
+      "nameCN": "",
+      "date": "1987-04-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 645258,
+      "name": "シャロム 魔城伝説III 完結編",
+      "nameCN": "",
+      "date": "1987-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 645251,
+      "dst": 645255
+    },
+    {
+      "relate": "前传",
+      "src": 645255,
+      "dst": 645251
+    },
+    {
+      "relate": "续集",
+      "src": 645255,
+      "dst": 645258
+    },
+    {
+      "relate": "前传",
+      "src": 645258,
+      "dst": 645255
+    }
+  ]
+}

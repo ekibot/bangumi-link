@@ -17,6 +17,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 450340,
+      "name": "Lemony Snicket's A Series of Unfortunate Events",
+      "nameCN": "雷蒙·斯尼奇的不幸历险",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 211181
     },
     {
+      "relate": "衍生",
+      "src": 194652,
+      "dst": 450340
+    },
+    {
       "relate": "前传",
       "src": 211181,
+      "dst": 194652
+    },
+    {
+      "relate": "衍生",
+      "src": 450340,
       "dst": 194652
     }
   ]

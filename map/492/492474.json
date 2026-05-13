@@ -1,0 +1,54 @@
+{
+  "id": 492474,
+  "node": [
+    {
+      "id": 492474,
+      "name": "Wildlife Park",
+      "nameCN": "野生动物园大亨",
+      "date": "2003-05-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492475,
+      "name": "Wildlife Park 2",
+      "nameCN": "野生动物园大亨2",
+      "date": "2006-05-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492476,
+      "name": "Wildlife Park 3",
+      "nameCN": "野生动物园大亨3",
+      "date": "2014-05-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 492474,
+      "dst": 492475
+    },
+    {
+      "relate": "前传",
+      "src": 492475,
+      "dst": 492474
+    },
+    {
+      "relate": "续集",
+      "src": 492475,
+      "dst": 492476
+    },
+    {
+      "relate": "前传",
+      "src": 492476,
+      "dst": 492475
+    }
+  ]
+}

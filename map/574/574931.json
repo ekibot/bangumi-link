@@ -1,0 +1,47 @@
+{
+  "id": 574931,
+  "node": [
+    {
+      "id": 574931,
+      "name": "Escape from New York",
+      "nameCN": "纽约大逃亡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627084,
+      "name": "Escape from L.A.",
+      "nameCN": "洛杉矶大逃亡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627070,
+      "name": "The Adventures of Snake Plissken",
+      "nameCN": "",
+      "date": "1997-01-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 574931,
+      "dst": 627084
+    },
+    {
+      "relate": "前传",
+      "src": 627084,
+      "dst": 574931
+    },
+    {
+      "relate": "前传",
+      "src": 627084,
+      "dst": 627070
+    }
+  ]
+}

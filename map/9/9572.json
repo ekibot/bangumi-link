@@ -18,6 +18,49 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 565559,
+      "name": "Les Trois Mousquetaires: D'Artagnan",
+      "nameCN": "三个火枪手：达达尼昂",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 92338,
+      "name": "The Musketeers (Season 1)",
+      "nameCN": "火枪手 第一季",
+      "date": "2014-01-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 122156,
+      "name": "The Musketeers (Season 2)",
+      "nameCN": "火枪手 第二季",
+      "date": "2014-01-02",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 184777,
+      "name": "The Musketeers (Season 3)",
+      "nameCN": "火枪手 第三季",
+      "date": "2016-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 586957,
+      "name": "Les Trois Mousquetaires: Milady",
+      "nameCN": "三个火枪手：米莱迪",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +70,59 @@
       "dst": 458112
     },
     {
+      "relate": "不同演绎",
+      "src": 9572,
+      "dst": 565559
+    },
+    {
+      "relate": "续集",
+      "src": 92338,
+      "dst": 122156
+    },
+    {
+      "relate": "不同演绎",
+      "src": 92338,
+      "dst": 565559
+    },
+    {
+      "relate": "前传",
+      "src": 122156,
+      "dst": 92338
+    },
+    {
+      "relate": "续集",
+      "src": 122156,
+      "dst": 184777
+    },
+    {
+      "relate": "前传",
+      "src": 184777,
+      "dst": 122156
+    },
+    {
       "relate": "主线故事",
       "src": 458112,
       "dst": 9572
+    },
+    {
+      "relate": "不同演绎",
+      "src": 565559,
+      "dst": 9572
+    },
+    {
+      "relate": "不同演绎",
+      "src": 565559,
+      "dst": 92338
+    },
+    {
+      "relate": "续集",
+      "src": 565559,
+      "dst": 586957
+    },
+    {
+      "relate": "前传",
+      "src": 586957,
+      "dst": 565559
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "id": 421921,
+  "node": [
+    {
+      "id": 421921,
+      "name": "Unlock!: Timeless Adventures",
+      "nameCN": "大搜查！时光冒险",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492385,
+      "name": "Unlock!: Epic Adventures",
+      "nameCN": "大搜查！史诗冒险",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492384,
+      "name": "Unlock!: Mythic Adventures",
+      "nameCN": "大搜查！神话冒险",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 421921,
+      "dst": 492385
+    },
+    {
+      "relate": "前传",
+      "src": 492384,
+      "dst": 492385
+    },
+    {
+      "relate": "前传",
+      "src": 492385,
+      "dst": 421921
+    },
+    {
+      "relate": "续集",
+      "src": 492385,
+      "dst": 492384
+    }
+  ]
+}

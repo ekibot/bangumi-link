@@ -1,0 +1,51 @@
+{
+  "id": 261527,
+  "node": [
+    {
+      "id": 261527,
+      "name": "コラムス",
+      "nameCN": "宝石方块",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 567470,
+      "name": "コラムスクラウン",
+      "nameCN": "宝石方块 王冠",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 619150,
+      "name": "コラムスII THE VOYAGE THROUGH TIME",
+      "nameCN": "宝石方块2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 261527,
+      "dst": 567470
+    },
+    {
+      "relate": "续集",
+      "src": 261527,
+      "dst": 619150
+    },
+    {
+      "relate": "前传",
+      "src": 567470,
+      "dst": 261527
+    },
+    {
+      "relate": "前传",
+      "src": 619150,
+      "dst": 261527
+    }
+  ]
+}

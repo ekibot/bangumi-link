@@ -1,0 +1,51 @@
+{
+  "id": 495485,
+  "node": [
+    {
+      "id": 495485,
+      "name": "Eye of the Beholder",
+      "nameCN": "魔眼杀机",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 495486,
+      "name": "Eye of the Beholder II: The Legend of Darkmoon",
+      "nameCN": "魔眼杀机2：隐月传奇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 495487,
+      "name": "Eye of the Beholder III: Assault on Myth Drannor",
+      "nameCN": "魔眼杀机3：血战札诺尔",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 495485,
+      "dst": 495486
+    },
+    {
+      "relate": "前传",
+      "src": 495486,
+      "dst": 495485
+    },
+    {
+      "relate": "续集",
+      "src": 495486,
+      "dst": 495487
+    },
+    {
+      "relate": "前传",
+      "src": 495487,
+      "dst": 495486
+    }
+  ]
+}

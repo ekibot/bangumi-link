@@ -1,0 +1,54 @@
+{
+  "id": 321240,
+  "node": [
+    {
+      "id": 321240,
+      "name": "舞台 PSYCHO-PASS サイコパス Virtue and Vice",
+      "nameCN": "舞台剧 PSYCHO-PASS 心理测量者 Virtue and Vice",
+      "date": "2019-04-18",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 321241,
+      "name": "舞台 PSYCHO-PASS サイコパス Virtue and Vice 2",
+      "nameCN": "舞台剧 PSYCHO-PASS 心理测量者 Virtue and Vice 2",
+      "date": "2020-11-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 517254,
+      "name": "舞台 PSYCHO-PASS サイコパス Virtue and Vice 3",
+      "nameCN": "舞台剧 PSYCHO-PASS 心理测量者 Virtue and Vice 3",
+      "date": "2024-03-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 321240,
+      "dst": 321241
+    },
+    {
+      "relate": "前传",
+      "src": 321241,
+      "dst": 321240
+    },
+    {
+      "relate": "续集",
+      "src": 321241,
+      "dst": 517254
+    },
+    {
+      "relate": "前传",
+      "src": 517254,
+      "dst": 321241
+    }
+  ]
+}

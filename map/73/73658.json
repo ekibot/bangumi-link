@@ -1,0 +1,54 @@
+{
+  "id": 73658,
+  "node": [
+    {
+      "id": 73658,
+      "name": "龍虎の拳2",
+      "nameCN": "龙虎之拳2",
+      "date": "1994-02-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 73659,
+      "name": "ART OF FIGHTING 龍虎の拳 外伝",
+      "nameCN": "龙虎之拳 外传",
+      "date": "1996-03-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 252114,
+      "name": "龍虎の拳",
+      "nameCN": "龙虎之拳",
+      "date": "1992-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 73658,
+      "dst": 73659
+    },
+    {
+      "relate": "前传",
+      "src": 73658,
+      "dst": 252114
+    },
+    {
+      "relate": "前传",
+      "src": 73659,
+      "dst": 73658
+    },
+    {
+      "relate": "续集",
+      "src": 252114,
+      "dst": 73658
+    }
+  ]
+}

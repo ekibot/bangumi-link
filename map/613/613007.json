@@ -1,0 +1,73 @@
+{
+  "id": 613007,
+  "node": [
+    {
+      "id": 613007,
+      "name": "Anime Artist",
+      "nameCN": "动漫艺术家",
+      "date": "2019-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 613008,
+      "name": "Anime Artist 2: Lovely Danya",
+      "nameCN": "动漫艺术家2",
+      "date": "2020-02-24",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 613010,
+      "name": "Anime Artist 3: Harem",
+      "nameCN": "动漫艺术家3",
+      "date": "2020-11-19",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 613011,
+      "name": "Anime Artist: Tiffy’s Notty Secret",
+      "nameCN": "",
+      "date": "2021-09-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 613007,
+      "dst": 613008
+    },
+    {
+      "relate": "前传",
+      "src": 613008,
+      "dst": 613007
+    },
+    {
+      "relate": "续集",
+      "src": 613008,
+      "dst": 613010
+    },
+    {
+      "relate": "前传",
+      "src": 613010,
+      "dst": 613008
+    },
+    {
+      "relate": "续集",
+      "src": 613010,
+      "dst": 613011
+    },
+    {
+      "relate": "前传",
+      "src": 613011,
+      "dst": 613010
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 250449,
+  "node": [
+    {
+      "id": 250449,
+      "name": "魔法騎士レイアース",
+      "nameCN": "魔法骑士",
+      "date": "1995-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 625179,
+      "name": "魔法騎士レイアース2 ～making of magic knight～",
+      "nameCN": "魔法骑士雷阿斯 魔法骑士育成",
+      "date": "1995-08-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 625177,
+      "name": "魔法騎士レイアース",
+      "nameCN": "魔法骑士雷阿斯",
+      "date": "1994-12-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 250449,
+      "dst": 625179
+    },
+    {
+      "relate": "续集",
+      "src": 625177,
+      "dst": 625179
+    },
+    {
+      "relate": "续集",
+      "src": 625179,
+      "dst": 250449
+    },
+    {
+      "relate": "前传",
+      "src": 625179,
+      "dst": 625177
+    }
+  ]
+}

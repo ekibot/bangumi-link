@@ -1,0 +1,51 @@
+{
+  "id": 530100,
+  "node": [
+    {
+      "id": 530100,
+      "name": "小婴儿逃出系列1",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 530178,
+      "name": "小婴儿逃出系列2",
+      "nameCN": "小婴儿逃出系列2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 530179,
+      "name": "小婴儿逃出系列3",
+      "nameCN": "小婴儿逃出系列3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 530100,
+      "dst": 530178
+    },
+    {
+      "relate": "前传",
+      "src": 530178,
+      "dst": 530100
+    },
+    {
+      "relate": "续集",
+      "src": 530178,
+      "dst": 530179
+    },
+    {
+      "relate": "前传",
+      "src": 530179,
+      "dst": 530178
+    }
+  ]
+}

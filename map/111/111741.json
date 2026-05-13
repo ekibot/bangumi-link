@@ -1,0 +1,51 @@
+{
+  "id": 111741,
+  "node": [
+    {
+      "id": 111741,
+      "name": "Enigmatis: The Mists of Ravenwood",
+      "nameCN": "乌鸦森林之谜2：鸦林迷雾",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 321628,
+      "name": "Enigmatis 3: The Shadow of Karkhala",
+      "nameCN": "乌鸦森林之谜3：卡赫拉之影",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 368448,
+      "name": "Enigmatis: The Ghosts of Maple Creek",
+      "nameCN": "乌鸦森林之谜：枫叶溪幽灵",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 111741,
+      "dst": 321628
+    },
+    {
+      "relate": "前传",
+      "src": 111741,
+      "dst": 368448
+    },
+    {
+      "relate": "前传",
+      "src": 321628,
+      "dst": 111741
+    },
+    {
+      "relate": "续集",
+      "src": 368448,
+      "dst": 111741
+    }
+  ]
+}

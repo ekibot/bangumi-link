@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 498516,
+      "name": "カムイ外伝",
+      "nameCN": "卡姆依外传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 289176
     },
     {
+      "relate": "不同演绎",
+      "src": 103132,
+      "dst": 498516
+    },
+    {
       "relate": "全集",
       "src": 289176,
+      "dst": 103132
+    },
+    {
+      "relate": "不同演绎",
+      "src": 498516,
       "dst": 103132
     }
   ]

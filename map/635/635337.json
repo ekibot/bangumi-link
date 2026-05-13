@@ -1,0 +1,53 @@
+{
+  "id": 635337,
+  "node": [
+    {
+      "id": 635337,
+      "name": "TAIGA- the 1st - リメイク",
+      "nameCN": "",
+      "date": "2024-04-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 635339,
+      "name": "TAIGA- the 2nd -",
+      "nameCN": "",
+      "date": "2024-04-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 641771,
+      "name": "TAIGA-the 3rd",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 635337,
+      "dst": 635339
+    },
+    {
+      "relate": "前传",
+      "src": 635339,
+      "dst": 635337
+    },
+    {
+      "relate": "续集",
+      "src": 635339,
+      "dst": 641771
+    },
+    {
+      "relate": "前传",
+      "src": 641771,
+      "dst": 635339
+    }
+  ]
+}

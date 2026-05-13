@@ -18,6 +18,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 131410,
+      "name": "双恋 -フタコイ-",
+      "nameCN": "",
+      "date": "2004-12-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 624880,
+      "name": "フタコイ オルタナティブ 恋と少女とマシンガン",
+      "nameCN": "双恋 Alternative 恋与少女与机关枪",
+      "date": "2005-06-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 624881,
+      "name": "双恋島 〜恋と水着のサバイバル〜",
+      "nameCN": "",
+      "date": "2005-08-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +57,26 @@
       "relate": "不同世界观",
       "src": 2643,
       "dst": 2642
+    },
+    {
+      "relate": "不同世界观",
+      "src": 131410,
+      "dst": 624880
+    },
+    {
+      "relate": "相同世界观",
+      "src": 624880,
+      "dst": 2643
+    },
+    {
+      "relate": "不同世界观",
+      "src": 624880,
+      "dst": 131410
+    },
+    {
+      "relate": "主线故事",
+      "src": 624881,
+      "dst": 131410
     }
   ]
 }

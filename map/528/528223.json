@@ -1,0 +1,51 @@
+{
+  "id": 528223,
+  "node": [
+    {
+      "id": 528223,
+      "name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "nameCN": "纳尼亚传奇：狮子·女巫·魔衣橱",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 528227,
+      "name": "The Chronicles of Narnia: Prince Caspian",
+      "nameCN": "纳尼亚传奇2：凯斯宾王子",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 528232,
+      "name": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "nameCN": "纳尼亚传奇：黎明踏浪号",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 528223,
+      "dst": 528227
+    },
+    {
+      "relate": "前传",
+      "src": 528227,
+      "dst": 528223
+    },
+    {
+      "relate": "续集",
+      "src": 528227,
+      "dst": 528232
+    },
+    {
+      "relate": "前传",
+      "src": 528232,
+      "dst": 528227
+    }
+  ]
+}

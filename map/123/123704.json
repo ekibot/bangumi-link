@@ -1,0 +1,49 @@
+{
+  "id": 123704,
+  "node": [
+    {
+      "id": 123704,
+      "name": "Find Love2 ～Rhapsody～",
+      "nameCN": "",
+      "date": "1998-11-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 595656,
+      "name": "Find Love",
+      "nameCN": "",
+      "date": "1997-10-02",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 633808,
+      "name": "Find Love 2: The Prologue",
+      "nameCN": "",
+      "date": "1998-06-04",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 123704,
+      "dst": 595656
+    },
+    {
+      "relate": "续集",
+      "src": 595656,
+      "dst": 123704
+    },
+    {
+      "relate": "主线故事",
+      "src": 633808,
+      "dst": 123704
+    }
+  ]
+}

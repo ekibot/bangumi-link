@@ -1,0 +1,33 @@
+{
+  "id": 7382,
+  "node": [
+    {
+      "id": 7382,
+      "name": "Dementium II",
+      "nameCN": "病房2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 54163,
+      "name": "Dementium",
+      "nameCN": "病房",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 7382,
+      "dst": 54163
+    },
+    {
+      "relate": "续集",
+      "src": 54163,
+      "dst": 7382
+    }
+  ]
+}

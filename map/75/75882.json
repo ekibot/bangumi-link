@@ -1,0 +1,83 @@
+{
+  "id": 75882,
+  "node": [
+    {
+      "id": 75882,
+      "name": "The Incredible Adventures of Van Helsing",
+      "nameCN": "范海辛的惊奇之旅",
+      "date": "2013-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 111680,
+      "name": "The Incredible Adventures of Van Helsing II",
+      "nameCN": "范海辛的奇妙冒险2",
+      "date": "2014-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 203411,
+      "name": "World of Van Helsing: Deathtrap",
+      "nameCN": "范海辛的世界：死亡陷阱",
+      "date": "2017-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 205258,
+      "name": "The Incredible Adventures of Van Helsing III",
+      "nameCN": "范海辛的奇妙冒险3",
+      "date": "2015-05-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 75882,
+      "dst": 111680
+    },
+    {
+      "relate": "相同世界观",
+      "src": 75882,
+      "dst": 203411
+    },
+    {
+      "relate": "前传",
+      "src": 111680,
+      "dst": 75882
+    },
+    {
+      "relate": "相同世界观",
+      "src": 111680,
+      "dst": 203411
+    },
+    {
+      "relate": "续集",
+      "src": 111680,
+      "dst": 205258
+    },
+    {
+      "relate": "相同世界观",
+      "src": 203411,
+      "dst": 75882
+    },
+    {
+      "relate": "相同世界观",
+      "src": 203411,
+      "dst": 111680
+    },
+    {
+      "relate": "前传",
+      "src": 205258,
+      "dst": 111680
+    }
+  ]
+}

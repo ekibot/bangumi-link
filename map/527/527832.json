@@ -11,6 +11,14 @@
       "platform": "漫画"
     },
     {
+      "id": 527834,
+      "name": "28 Weeks Later",
+      "nameCN": "惊变28周",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 527836,
       "name": "28 Days Later: The Aftermath",
       "nameCN": "惊变28天：劫后余波",
@@ -18,18 +26,87 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 527833,
+      "name": "28 Days Later",
+      "nameCN": "惊变28天",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527838,
+      "name": "28 Years Later",
+      "nameCN": "惊变28年",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 593614,
+      "name": "28 Years Later: The Bone Temple",
+      "nameCN": "惊变28年：白骨圣殿",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
       "relate": "续集",
       "src": 527832,
+      "dst": 527834
+    },
+    {
+      "relate": "续集",
+      "src": 527832,
       "dst": 527836
+    },
+    {
+      "relate": "续集",
+      "src": 527833,
+      "dst": 527834
+    },
+    {
+      "relate": "续集",
+      "src": 527833,
+      "dst": 527836
+    },
+    {
+      "relate": "前传",
+      "src": 527834,
+      "dst": 527833
+    },
+    {
+      "relate": "前传",
+      "src": 527834,
+      "dst": 527836
+    },
+    {
+      "relate": "续集",
+      "src": 527834,
+      "dst": 527838
     },
     {
       "relate": "前传",
       "src": 527836,
       "dst": 527832
+    },
+    {
+      "relate": "前传",
+      "src": 527838,
+      "dst": 527834
+    },
+    {
+      "relate": "续集",
+      "src": 527838,
+      "dst": 593614
+    },
+    {
+      "relate": "前传",
+      "src": 593614,
+      "dst": 527838
     }
   ]
 }

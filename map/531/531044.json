@@ -1,0 +1,69 @@
+{
+  "id": 531044,
+  "node": [
+    {
+      "id": 531044,
+      "name": "Bad Boys",
+      "nameCN": "绝地战警",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531045,
+      "name": "Bad Boys II",
+      "nameCN": "绝地战警2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531051,
+      "name": "Bad Boys for Life",
+      "nameCN": "绝地战警：疾速追击",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531053,
+      "name": "Bad Boys: Ride or Die",
+      "nameCN": "绝地战警：生死与共",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 531044,
+      "dst": 531045
+    },
+    {
+      "relate": "前传",
+      "src": 531045,
+      "dst": 531044
+    },
+    {
+      "relate": "续集",
+      "src": 531045,
+      "dst": 531051
+    },
+    {
+      "relate": "前传",
+      "src": 531051,
+      "dst": 531045
+    },
+    {
+      "relate": "续集",
+      "src": 531051,
+      "dst": 531053
+    },
+    {
+      "relate": "前传",
+      "src": 531053,
+      "dst": 531051
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 75242,
+  "node": [
+    {
+      "id": 75242,
+      "name": "Kill Bill: Volume 1",
+      "nameCN": "杀死比尔1",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 179042,
+      "name": "Kill Bill: Volume 2",
+      "nameCN": "杀死比尔2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 636139,
+      "name": "Kill Bill: The Whole Bloody Affair",
+      "nameCN": "杀死比尔：整个血腥事件",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 75242,
+      "dst": 179042
+    },
+    {
+      "relate": "总集篇",
+      "src": 75242,
+      "dst": 636139
+    },
+    {
+      "relate": "前传",
+      "src": 179042,
+      "dst": 75242
+    },
+    {
+      "relate": "总集篇",
+      "src": 179042,
+      "dst": 636139
+    },
+    {
+      "relate": "全集",
+      "src": 636139,
+      "dst": 75242
+    },
+    {
+      "relate": "全集",
+      "src": 636139,
+      "dst": 179042
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 465964,
+  "node": [
+    {
+      "id": 465964,
+      "name": "Austin Powers: International Man of Mystery",
+      "nameCN": "王牌大贱谍",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 465965,
+      "name": "Austin Powers: The Spy Who Shagged Me",
+      "nameCN": "王牌大贱谍2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 465966,
+      "name": "Austin Powers in Goldmember",
+      "nameCN": "王牌大贱谍3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 465964,
+      "dst": 465965
+    },
+    {
+      "relate": "前传",
+      "src": 465965,
+      "dst": 465964
+    },
+    {
+      "relate": "续集",
+      "src": 465965,
+      "dst": 465966
+    },
+    {
+      "relate": "前传",
+      "src": 465966,
+      "dst": 465965
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 118532,
+  "node": [
+    {
+      "id": 118532,
+      "name": "Rocksmith 2014",
+      "nameCN": "摇滚史密斯 2014",
+      "date": "2013-10-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 151359,
+      "name": "Rocksmith",
+      "nameCN": "",
+      "date": "2011-10-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 471307,
+      "name": "Rocksmith+",
+      "nameCN": "摇滚史密斯+",
+      "date": "2022-09-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 118532,
+      "dst": 151359
+    },
+    {
+      "relate": "续集",
+      "src": 118532,
+      "dst": 471307
+    },
+    {
+      "relate": "续集",
+      "src": 151359,
+      "dst": 118532
+    },
+    {
+      "relate": "前传",
+      "src": 471307,
+      "dst": 118532
+    }
+  ]
+}

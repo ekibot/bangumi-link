@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 624099,
+      "name": "劇場版 虎に翼",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 592850
     },
     {
+      "relate": "续集",
+      "src": 421431,
+      "dst": 624099
+    },
+    {
       "relate": "衍生",
       "src": 592850,
+      "dst": 421431
+    },
+    {
+      "relate": "前传",
+      "src": 624099,
       "dst": 421431
     }
   ]

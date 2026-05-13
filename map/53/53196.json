@@ -2,6 +2,23 @@
   "id": 53196,
   "node": [
     {
+      "id": 53196,
+      "name": "帝都物語",
+      "nameCN": "帝都物语",
+      "date": "1991-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 356936,
+      "name": "帝都物語",
+      "nameCN": "帝都物语",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 213633,
       "name": "帝都物語―Babylon Tokyo",
       "nameCN": "帝都物语",
@@ -10,20 +27,67 @@
       "platform": "漫画"
     },
     {
-      "id": 53196,
-      "name": "帝都物語",
-      "nameCN": "帝都物语",
-      "date": "1991-09-27",
-      "type": 2,
+      "id": 356942,
+      "name": "帝都大戦",
+      "nameCN": "帝都大战 (1989)",
+      "type": 6,
       "nsfw": false,
-      "platform": "OVA"
+      "platform": "其他"
+    },
+    {
+      "id": 460023,
+      "name": "帝都物語 外伝",
+      "nameCN": "帝都物语 外传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
       "relate": "不同演绎",
+      "src": 53196,
+      "dst": 356936
+    },
+    {
+      "relate": "不同演绎",
       "src": 213633,
       "dst": 53196
+    },
+    {
+      "relate": "不同演绎",
+      "src": 356936,
+      "dst": 53196
+    },
+    {
+      "relate": "续集",
+      "src": 356936,
+      "dst": 356942
+    },
+    {
+      "relate": "番外篇",
+      "src": 356936,
+      "dst": 460023
+    },
+    {
+      "relate": "前传",
+      "src": 356942,
+      "dst": 356936
+    },
+    {
+      "relate": "续集",
+      "src": 356942,
+      "dst": 460023
+    },
+    {
+      "relate": "主线故事",
+      "src": 460023,
+      "dst": 356936
+    },
+    {
+      "relate": "前传",
+      "src": 460023,
+      "dst": 356942
     }
   ]
 }

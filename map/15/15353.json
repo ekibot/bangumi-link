@@ -36,6 +36,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 270808,
+      "name": "The Guyver",
+      "nameCN": "强殖装甲",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 270811,
+      "name": "Guyver: Dark Hero",
+      "nameCN": "强殖装甲：暗黑英雄",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -75,9 +91,29 @@
       "dst": 54864
     },
     {
+      "relate": "不同演绎",
+      "src": 54863,
+      "dst": 270808
+    },
+    {
       "relate": "前传",
       "src": 54864,
       "dst": 54863
+    },
+    {
+      "relate": "不同演绎",
+      "src": 270808,
+      "dst": 54863
+    },
+    {
+      "relate": "续集",
+      "src": 270808,
+      "dst": 270811
+    },
+    {
+      "relate": "前传",
+      "src": 270811,
+      "dst": 270808
     }
   ]
 }

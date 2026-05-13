@@ -1,0 +1,54 @@
+{
+  "id": 493401,
+  "node": [
+    {
+      "id": 493401,
+      "name": "Field of Glory",
+      "nameCN": "荣耀战场",
+      "date": "2009-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 493403,
+      "name": "Field of Glory II",
+      "nameCN": "荣耀战场2",
+      "date": "2017-10-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 493404,
+      "name": "Field of Glory II: Medieval",
+      "nameCN": "荣耀战场2：中世纪",
+      "date": "2021-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 493401,
+      "dst": 493403
+    },
+    {
+      "relate": "前传",
+      "src": 493403,
+      "dst": 493401
+    },
+    {
+      "relate": "续集",
+      "src": 493403,
+      "dst": 493404
+    },
+    {
+      "relate": "前传",
+      "src": 493404,
+      "dst": 493403
+    }
+  ]
+}

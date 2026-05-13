@@ -47,6 +47,14 @@
       "platform": "欧美剧"
     },
     {
+      "id": 597349,
+      "name": "Stargate",
+      "nameCN": "星际之门",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 205072,
       "name": "Stargate Atlantis (Season 3)",
       "nameCN": "星际之门：亚特兰蒂斯 [第三季]",
@@ -72,6 +80,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 469722,
+      "name": "Stargate: Timekeepers",
+      "nameCN": "",
+      "date": "2024-01-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -94,6 +111,11 @@
       "relate": "相同世界观",
       "src": 23057,
       "dst": 205070
+    },
+    {
+      "relate": "前传",
+      "src": 23057,
+      "dst": 597349
     },
     {
       "relate": "续集",
@@ -169,6 +191,16 @@
       "relate": "前传",
       "src": 205075,
       "dst": 205073
+    },
+    {
+      "relate": "相同世界观",
+      "src": 469722,
+      "dst": 23057
+    },
+    {
+      "relate": "续集",
+      "src": 597349,
+      "dst": 23057
     }
   ]
 }

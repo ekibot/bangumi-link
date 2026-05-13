@@ -1,0 +1,51 @@
+{
+  "id": 610603,
+  "node": [
+    {
+      "id": 610603,
+      "name": "孤独のわっち",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 610604,
+      "name": "わっちグルメ",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 610605,
+      "name": "わっちグルメVol3～人斬りわっち　昼メシの流儀～",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 610603,
+      "dst": 610604
+    },
+    {
+      "relate": "前传",
+      "src": 610604,
+      "dst": 610603
+    },
+    {
+      "relate": "续集",
+      "src": 610604,
+      "dst": 610605
+    },
+    {
+      "relate": "前传",
+      "src": 610605,
+      "dst": 610604
+    }
+  ]
+}

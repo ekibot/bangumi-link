@@ -1,0 +1,54 @@
+{
+  "id": 471003,
+  "node": [
+    {
+      "id": 471003,
+      "name": "Vader Immortal: Episode I",
+      "nameCN": "维达不朽：第一集",
+      "date": "2019-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 471004,
+      "name": "Vader Immortal: Episode II",
+      "nameCN": "维达不朽：第二集",
+      "date": "2019-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 471005,
+      "name": "Vader Immortal: Episode III",
+      "nameCN": "维达不朽：第三集",
+      "date": "2019-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 471003,
+      "dst": 471004
+    },
+    {
+      "relate": "前传",
+      "src": 471004,
+      "dst": 471003
+    },
+    {
+      "relate": "续集",
+      "src": 471004,
+      "dst": 471005
+    },
+    {
+      "relate": "前传",
+      "src": 471005,
+      "dst": 471004
+    }
+  ]
+}

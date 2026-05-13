@@ -1,0 +1,52 @@
+{
+  "id": 1275,
+  "node": [
+    {
+      "id": 1275,
+      "name": "僕等がいた",
+      "nameCN": "我们的存在",
+      "date": "2006-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 33225,
+      "name": "僕等がいた 前篇",
+      "nameCN": "我们的存在 前篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 33228,
+      "name": "僕等がいた 後篇",
+      "nameCN": "我们的存在 后篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 1275,
+      "dst": 33225
+    },
+    {
+      "relate": "不同演绎",
+      "src": 33225,
+      "dst": 1275
+    },
+    {
+      "relate": "续集",
+      "src": 33225,
+      "dst": 33228
+    },
+    {
+      "relate": "前传",
+      "src": 33228,
+      "dst": 33225
+    }
+  ]
+}

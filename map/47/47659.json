@@ -1,0 +1,48 @@
+{
+  "id": 47659,
+  "node": [
+    {
+      "id": 47659,
+      "name": "Shinobi",
+      "nameCN": "Shinobi忍",
+      "date": "2002-12-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 47661,
+      "name": "Kunoichi -忍-",
+      "nameCN": "Kunoichi忍",
+      "date": "2003-12-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 469571,
+      "name": "Shinobi",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 47659,
+      "dst": 47661
+    },
+    {
+      "relate": "前传",
+      "src": 47661,
+      "dst": 47659
+    },
+    {
+      "relate": "不同演绎",
+      "src": 469571,
+      "dst": 47659
+    }
+  ]
+}

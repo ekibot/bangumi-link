@@ -18,6 +18,24 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 242902,
+      "name": "ドルアーガの塔",
+      "nameCN": "德鲁亚加之塔",
+      "date": "1984-07-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 450352,
+      "name": "攻めCOMダンジョン ドルルルアーガ",
+      "nameCN": "勇者试炼场",
+      "date": "2000-12-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +48,16 @@
       "relate": "前传",
       "src": 888,
       "dst": 303
+    },
+    {
+      "relate": "续集",
+      "src": 242902,
+      "dst": 303
+    },
+    {
+      "relate": "主线故事",
+      "src": 450352,
+      "dst": 242902
     }
   ]
 }

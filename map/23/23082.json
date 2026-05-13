@@ -1,0 +1,54 @@
+{
+  "id": 23082,
+  "node": [
+    {
+      "id": 23082,
+      "name": "真・三國無双 VS",
+      "nameCN": "真·三国无双 VS",
+      "date": "2012-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 54228,
+      "name": "真 三國無双ＤＳ～ファイターズバトル～",
+      "nameCN": "真·三国无双DS 斗士之魂",
+      "date": "2007-04-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 68124,
+      "name": "真・三國無双 Advance",
+      "nameCN": "真三国无双advance",
+      "date": "2005-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 23082,
+      "dst": 54228
+    },
+    {
+      "relate": "续集",
+      "src": 54228,
+      "dst": 23082
+    },
+    {
+      "relate": "前传",
+      "src": 54228,
+      "dst": 68124
+    },
+    {
+      "relate": "续集",
+      "src": 68124,
+      "dst": 54228
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 208575,
+  "node": [
+    {
+      "id": 208575,
+      "name": "A Plague Tale: Innocence",
+      "nameCN": "瘟疫传说：无罪",
+      "date": "2019-05-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 338912,
+      "name": "A Plague Tale: Requiem",
+      "nameCN": "瘟疫传说：安魂曲",
+      "date": "2022-10-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 563178,
+      "name": "Resonance: A Plague Tale Legacy",
+      "nameCN": "共鸣：瘟疫传说传承",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 208575,
+      "dst": 338912
+    },
+    {
+      "relate": "前传",
+      "src": 338912,
+      "dst": 208575
+    },
+    {
+      "relate": "相同世界观",
+      "src": 338912,
+      "dst": 563178
+    },
+    {
+      "relate": "相同世界观",
+      "src": 563178,
+      "dst": 338912
+    }
+  ]
+}

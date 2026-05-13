@@ -1,0 +1,54 @@
+{
+  "id": 522007,
+  "node": [
+    {
+      "id": 522007,
+      "name": "EUREKA Act.1 Olam Atziluth",
+      "nameCN": "",
+      "date": "2009-02-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 522008,
+      "name": "EUREKA Act.2 Olam Briah",
+      "nameCN": "",
+      "date": "2010-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 522010,
+      "name": "EUREKA Act.3 Olam Yetzirah",
+      "nameCN": "",
+      "date": "2013-03-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 522007,
+      "dst": 522008
+    },
+    {
+      "relate": "前传",
+      "src": 522008,
+      "dst": 522007
+    },
+    {
+      "relate": "续集",
+      "src": 522008,
+      "dst": 522010
+    },
+    {
+      "relate": "前传",
+      "src": 522010,
+      "dst": 522008
+    }
+  ]
+}

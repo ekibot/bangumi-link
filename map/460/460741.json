@@ -1,0 +1,53 @@
+{
+  "id": 460741,
+  "node": [
+    {
+      "id": 460741,
+      "name": "アンラベル・トリガー",
+      "nameCN": "",
+      "date": "2024-03-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 545710,
+      "name": "アンラベル・トリガー -Prelude to War-",
+      "nameCN": "",
+      "date": "2025-07-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 545711,
+      "name": "アンラベル・トリガー -Cold War-",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 460741,
+      "dst": 545710
+    },
+    {
+      "relate": "前传",
+      "src": 545710,
+      "dst": 460741
+    },
+    {
+      "relate": "续集",
+      "src": 545710,
+      "dst": 545711
+    },
+    {
+      "relate": "前传",
+      "src": 545711,
+      "dst": 545710
+    }
+  ]
+}

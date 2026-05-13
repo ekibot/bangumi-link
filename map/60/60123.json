@@ -1,0 +1,75 @@
+{
+  "id": 60123,
+  "node": [
+    {
+      "id": 60123,
+      "name": "Charlie and the Chocolate Factory",
+      "nameCN": "查理和巧克力工厂",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 466954,
+      "name": "Wonka",
+      "nameCN": "旺卡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 475211,
+      "name": "Willy Wonka & the Chocolate Factory",
+      "nameCN": "欢乐糖果屋",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 475208,
+      "name": "Charlie and the Chocolate Factory",
+      "nameCN": "查理和巧克力工厂",
+      "date": "1964-01-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 60123,
+      "dst": 466954
+    },
+    {
+      "relate": "不同演绎",
+      "src": 60123,
+      "dst": 475211
+    },
+    {
+      "relate": "续集",
+      "src": 466954,
+      "dst": 60123
+    },
+    {
+      "relate": "续集",
+      "src": 466954,
+      "dst": 475211
+    },
+    {
+      "relate": "衍生",
+      "src": 475208,
+      "dst": 466954
+    },
+    {
+      "relate": "不同演绎",
+      "src": 475211,
+      "dst": 60123
+    },
+    {
+      "relate": "前传",
+      "src": 475211,
+      "dst": 466954
+    }
+  ]
+}

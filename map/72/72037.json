@@ -1,0 +1,54 @@
+{
+  "id": 72037,
+  "node": [
+    {
+      "id": 72037,
+      "name": "RoboCop 3",
+      "nameCN": "机械战警3",
+      "date": "1992-08-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 473727,
+      "name": "RoboCop 2",
+      "nameCN": "机械战警2",
+      "date": "1991-04-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 473726,
+      "name": "RoboCop",
+      "nameCN": "机械战警",
+      "date": "1988-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 72037,
+      "dst": 473727
+    },
+    {
+      "relate": "续集",
+      "src": 473726,
+      "dst": 473727
+    },
+    {
+      "relate": "续集",
+      "src": 473727,
+      "dst": 72037
+    },
+    {
+      "relate": "前传",
+      "src": 473727,
+      "dst": 473726
+    }
+  ]
+}

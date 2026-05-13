@@ -1,0 +1,87 @@
+{
+  "id": 367428,
+  "node": [
+    {
+      "id": 367428,
+      "name": "Jumanji: Welcome to the Jungle",
+      "nameCN": "勇敢者游戏：决战丛林",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 524299,
+      "name": "Jumanji",
+      "nameCN": "勇敢者的游戏",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 585679,
+      "name": "Jumanji: The Next Level",
+      "nameCN": "勇敢者游戏2：再战巅峰",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 524300,
+      "name": "Zathura: A Space Adventure",
+      "nameCN": "勇敢者的游戏外传：太空飞行棋",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 612440,
+      "name": "Untitled Jumanji: The Next Level sequel",
+      "nameCN": "勇敢者的游戏3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 367428,
+      "dst": 524299
+    },
+    {
+      "relate": "续集",
+      "src": 367428,
+      "dst": 585679
+    },
+    {
+      "relate": "续集",
+      "src": 524299,
+      "dst": 367428
+    },
+    {
+      "relate": "番外篇",
+      "src": 524299,
+      "dst": 524300
+    },
+    {
+      "relate": "主线故事",
+      "src": 524300,
+      "dst": 524299
+    },
+    {
+      "relate": "前传",
+      "src": 585679,
+      "dst": 367428
+    },
+    {
+      "relate": "续集",
+      "src": 585679,
+      "dst": 612440
+    },
+    {
+      "relate": "前传",
+      "src": 612440,
+      "dst": 585679
+    }
+  ]
+}

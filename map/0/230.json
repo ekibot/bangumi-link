@@ -1,0 +1,47 @@
+{
+  "id": 230,
+  "node": [
+    {
+      "id": 230,
+      "name": "Wii Fit",
+      "nameCN": "Wii Fit",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 75644,
+      "name": "Wii Fit U",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 117639,
+      "name": "Wii Fit Plus",
+      "nameCN": "Wii Fit Plus",
+      "date": "2009-10-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 230,
+      "dst": 75644
+    },
+    {
+      "relate": "前传",
+      "src": 75644,
+      "dst": 230
+    },
+    {
+      "relate": "主线故事",
+      "src": 117639,
+      "dst": 230
+    }
+  ]
+}

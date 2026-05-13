@@ -29,6 +29,22 @@
       "platform": "日剧"
     },
     {
+      "id": 44449,
+      "name": "劇場版 SPEC～天～／警視庁公安部公安第五課 未詳事件特別対策係事件簿",
+      "nameCN": "SPEC～天～",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 60574,
+      "name": "劇場版 SPEC～結～ 漸ノ編",
+      "nameCN": "SPEC～结～ 渐之篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 60576,
       "name": "SPEC～零～／警視庁公安部公安第五課 未詳事件特別対策係事件簿",
       "nameCN": "SPEC～零～",
@@ -36,6 +52,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 78592,
+      "name": "劇場版 SPEC～結～ 爻ノ篇",
+      "nameCN": "SPEC～结～ 爻之篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     },
     {
       "id": 262407,
@@ -54,6 +78,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 10112,
+      "name": "ケイゾク/映画 Beautiful Dreamer",
+      "nameCN": "继续/剧场版 Beautiful Dreamer",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -68,9 +100,24 @@
       "dst": 37752
     },
     {
+      "relate": "番外篇",
+      "src": 9384,
+      "dst": 44449
+    },
+    {
+      "relate": "番外篇",
+      "src": 9384,
+      "dst": 60574
+    },
+    {
       "relate": "前传",
       "src": 9384,
       "dst": 60576
+    },
+    {
+      "relate": "番外篇",
+      "src": 9384,
+      "dst": 78592
     },
     {
       "relate": "番外篇",
@@ -88,8 +135,18 @@
       "dst": 10111
     },
     {
+      "relate": "番外篇",
+      "src": 10110,
+      "dst": 10112
+    },
+    {
       "relate": "主线故事",
       "src": 10111,
+      "dst": 10110
+    },
+    {
+      "relate": "主线故事",
+      "src": 10112,
       "dst": 10110
     },
     {
@@ -99,8 +156,53 @@
     },
     {
       "relate": "续集",
+      "src": 37752,
+      "dst": 44449
+    },
+    {
+      "relate": "主线故事",
+      "src": 44449,
+      "dst": 9384
+    },
+    {
+      "relate": "前传",
+      "src": 44449,
+      "dst": 37752
+    },
+    {
+      "relate": "续集",
+      "src": 44449,
+      "dst": 60574
+    },
+    {
+      "relate": "主线故事",
+      "src": 60574,
+      "dst": 9384
+    },
+    {
+      "relate": "前传",
+      "src": 60574,
+      "dst": 44449
+    },
+    {
+      "relate": "续集",
+      "src": 60574,
+      "dst": 78592
+    },
+    {
+      "relate": "续集",
       "src": 60576,
       "dst": 9384
+    },
+    {
+      "relate": "主线故事",
+      "src": 78592,
+      "dst": 9384
+    },
+    {
+      "relate": "前传",
+      "src": 78592,
+      "dst": 60574
     },
     {
       "relate": "主线故事",

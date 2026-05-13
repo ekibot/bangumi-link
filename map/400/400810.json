@@ -1,0 +1,34 @@
+{
+  "id": 400810,
+  "node": [
+    {
+      "id": 400810,
+      "name": "Animal Shelter",
+      "nameCN": "动物收容所",
+      "date": "2022-03-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 496312,
+      "name": "Animal Shelter 2",
+      "nameCN": "动物收容所2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 400810,
+      "dst": 496312
+    },
+    {
+      "relate": "前传",
+      "src": 496312,
+      "dst": 400810
+    }
+  ]
+}

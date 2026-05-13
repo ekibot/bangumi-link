@@ -1,0 +1,52 @@
+{
+  "id": 277200,
+  "node": [
+    {
+      "id": 277200,
+      "name": "纸人",
+      "nameCN": "纸人",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 309776,
+      "name": "纸人贰",
+      "nameCN": "纸人贰",
+      "date": "2020-07-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 549829,
+      "name": "纸人叁",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 277200,
+      "dst": 309776
+    },
+    {
+      "relate": "前传",
+      "src": 309776,
+      "dst": 277200
+    },
+    {
+      "relate": "续集",
+      "src": 309776,
+      "dst": 549829
+    },
+    {
+      "relate": "前传",
+      "src": 549829,
+      "dst": 309776
+    }
+  ]
+}

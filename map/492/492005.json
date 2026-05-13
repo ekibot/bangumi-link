@@ -1,0 +1,54 @@
+{
+  "id": 492005,
+  "node": [
+    {
+      "id": 492005,
+      "name": "TWilight refrAIN",
+      "nameCN": "",
+      "date": "2008-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492006,
+      "name": "TWilight INSanity",
+      "nameCN": "",
+      "date": "2006-12-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 492008,
+      "name": "Alternative Sphere",
+      "nameCN": "",
+      "date": "2009-12-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 492005,
+      "dst": 492006
+    },
+    {
+      "relate": "续集",
+      "src": 492005,
+      "dst": 492008
+    },
+    {
+      "relate": "续集",
+      "src": 492006,
+      "dst": 492005
+    },
+    {
+      "relate": "前传",
+      "src": 492008,
+      "dst": 492005
+    }
+  ]
+}

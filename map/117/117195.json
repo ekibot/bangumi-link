@@ -18,6 +18,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 523905,
+      "name": "Monster High: The Movie",
+      "nameCN": "怪物高中：电影版",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 526394,
+      "name": "Monster High 2",
+      "nameCN": "怪物高中2电影版",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +43,29 @@
       "dst": 238440
     },
     {
+      "relate": "衍生",
+      "src": 117195,
+      "dst": 523905
+    },
+    {
       "relate": "主线故事",
       "src": 238440,
       "dst": 117195
+    },
+    {
+      "relate": "衍生",
+      "src": 523905,
+      "dst": 117195
+    },
+    {
+      "relate": "续集",
+      "src": 523905,
+      "dst": 526394
+    },
+    {
+      "relate": "前传",
+      "src": 526394,
+      "dst": 523905
     }
   ]
 }

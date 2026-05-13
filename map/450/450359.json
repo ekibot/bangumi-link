@@ -1,0 +1,46 @@
+{
+  "id": 450359,
+  "node": [
+    {
+      "id": 450359,
+      "name": "Dice Throne: Season One",
+      "nameCN": "王权骰铸：第一季",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 450363,
+      "name": "Dice Throne: Season Two – Battle Chest",
+      "nameCN": "王权骰铸：第二季",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 480490,
+      "name": "Marvel Dice Throne",
+      "nameCN": "王权骰铸：漫威",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 450359,
+      "dst": 450363
+    },
+    {
+      "relate": "前传",
+      "src": 450363,
+      "dst": 450359
+    },
+    {
+      "relate": "主线故事",
+      "src": 480490,
+      "dst": 450359
+    }
+  ]
+}

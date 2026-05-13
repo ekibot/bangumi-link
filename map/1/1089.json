@@ -1,0 +1,83 @@
+{
+  "id": 1089,
+  "node": [
+    {
+      "id": 1089,
+      "name": "ef - the latter tale.",
+      "nameCN": "悠久之翼-后篇",
+      "date": "2008-05-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 1488,
+      "name": "ef - the first tale.",
+      "nameCN": "悠久之翼-前篇",
+      "date": "2006-12-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 4881,
+      "name": "天使の日曜日",
+      "nameCN": "天使的星期日",
+      "date": "2010-09-17",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 290941,
+      "name": "天使の日曜日「続・プリンセスサマー」",
+      "nameCN": "天使的星期日 「续·公主的夏日」",
+      "date": "2011-05-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 1089,
+      "dst": 1488
+    },
+    {
+      "relate": "续集",
+      "src": 1488,
+      "dst": 1089
+    },
+    {
+      "relate": "主线故事",
+      "src": 4881,
+      "dst": 1089
+    },
+    {
+      "relate": "主线故事",
+      "src": 4881,
+      "dst": 1488
+    },
+    {
+      "relate": "续集",
+      "src": 4881,
+      "dst": 290941
+    },
+    {
+      "relate": "主线故事",
+      "src": 290941,
+      "dst": 1089
+    },
+    {
+      "relate": "主线故事",
+      "src": 290941,
+      "dst": 1488
+    },
+    {
+      "relate": "前传",
+      "src": 290941,
+      "dst": 4881
+    }
+  ]
+}

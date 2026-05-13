@@ -2,15 +2,6 @@
   "id": 26135,
   "node": [
     {
-      "id": 67421,
-      "name": "魔界転生",
-      "nameCN": "魔界转生",
-      "date": "1998-11-01",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 26135,
       "name": "魔界転生 地獄篇",
       "nameCN": "魔界转生 地狱篇",
@@ -20,6 +11,23 @@
       "platform": "OVA"
     },
     {
+      "id": 460269,
+      "name": "魔界転生",
+      "nameCN": "魔界转生",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 67421,
+      "name": "魔界転生",
+      "nameCN": "魔界转生",
+      "date": "1998-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 74187,
       "name": "十 ~忍法魔界転生~",
       "nameCN": "十 忍法魔界转生",
@@ -27,9 +35,22 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 515524,
+      "name": "魔界転生",
+      "nameCN": "魔界转生 (2003)",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 26135,
+      "dst": 460269
+    },
     {
       "relate": "不同演绎",
       "src": 67421,
@@ -39,6 +60,21 @@
       "relate": "不同演绎",
       "src": 74187,
       "dst": 26135
+    },
+    {
+      "relate": "不同演绎",
+      "src": 460269,
+      "dst": 26135
+    },
+    {
+      "relate": "不同演绎",
+      "src": 460269,
+      "dst": 515524
+    },
+    {
+      "relate": "不同演绎",
+      "src": 515524,
+      "dst": 460269
     }
   ]
 }

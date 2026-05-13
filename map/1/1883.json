@@ -1,0 +1,54 @@
+{
+  "id": 1883,
+  "node": [
+    {
+      "id": 1883,
+      "name": "トモダチコレクション",
+      "nameCN": "朋友收藏集",
+      "date": "2009-06-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 23101,
+      "name": "トモダチコレクション 新生活",
+      "nameCN": "朋友聚会 新生活",
+      "date": "2013-04-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 548136,
+      "name": "トモダチコレクション わくわく生活",
+      "nameCN": "Tomodachi Life 朋友收集 梦想生活",
+      "date": "2026-04-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 1883,
+      "dst": 23101
+    },
+    {
+      "relate": "前传",
+      "src": 23101,
+      "dst": 1883
+    },
+    {
+      "relate": "续集",
+      "src": 23101,
+      "dst": 548136
+    },
+    {
+      "relate": "前传",
+      "src": 548136,
+      "dst": 23101
+    }
+  ]
+}

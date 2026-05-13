@@ -1,0 +1,67 @@
+{
+  "id": 25204,
+  "node": [
+    {
+      "id": 25204,
+      "name": "遺作",
+      "nameCN": "遗作",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 25205,
+      "name": "臭作",
+      "nameCN": "臭作",
+      "date": "1998-03-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 25206,
+      "name": "鬼作",
+      "nameCN": "鬼作",
+      "date": "2001-03-30",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 512720,
+      "name": "禿作",
+      "nameCN": "",
+      "date": "2001-06-04",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 25204,
+      "dst": 25205
+    },
+    {
+      "relate": "前传",
+      "src": 25205,
+      "dst": 25204
+    },
+    {
+      "relate": "续集",
+      "src": 25205,
+      "dst": 25206
+    },
+    {
+      "relate": "前传",
+      "src": 25206,
+      "dst": 25205
+    },
+    {
+      "relate": "主线故事",
+      "src": 512720,
+      "dst": 25206
+    }
+  ]
+}

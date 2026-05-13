@@ -20,6 +20,14 @@
       "platform": "日剧"
     },
     {
+      "id": 189151,
+      "name": "劇場版 仮面ライダーアマゾン",
+      "nameCN": "剧场版 假面骑士亚马逊",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 184154,
       "name": "仮面ライダーアマゾンズ シーズン2",
       "nameCN": "假面骑士Amazons 第二季",
@@ -36,6 +44,30 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 575262,
+      "name": "劇場版 仮面ライダーアマゾンズ Season1 覚醒",
+      "nameCN": "剧场版 假面骑士Amazons Season 1 觉醒",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 239413,
+      "name": "仮面ライダーアマゾンズ THE MOVIE 最後ノ審判",
+      "nameCN": "假面骑士Amazons THE MOVIE 最后的审判",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575264,
+      "name": "劇場版 仮面ライダーアマゾンズ Season2 輪廻",
+      "nameCN": "剧场版 假面骑士Amazons Season 2 轮回",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -43,6 +75,11 @@
       "relate": "不同演绎",
       "src": 43375,
       "dst": 176974
+    },
+    {
+      "relate": "番外篇",
+      "src": 43375,
+      "dst": 189151
     },
     {
       "relate": "不同演绎",
@@ -60,9 +97,64 @@
       "dst": 249056
     },
     {
+      "relate": "总集篇",
+      "src": 176974,
+      "dst": 575262
+    },
+    {
       "relate": "前传",
       "src": 184154,
       "dst": 176974
+    },
+    {
+      "relate": "续集",
+      "src": 184154,
+      "dst": 239413
+    },
+    {
+      "relate": "总集篇",
+      "src": 184154,
+      "dst": 575264
+    },
+    {
+      "relate": "主线故事",
+      "src": 189151,
+      "dst": 43375
+    },
+    {
+      "relate": "前传",
+      "src": 239413,
+      "dst": 184154
+    },
+    {
+      "relate": "前传",
+      "src": 239413,
+      "dst": 575264
+    },
+    {
+      "relate": "全集",
+      "src": 575262,
+      "dst": 176974
+    },
+    {
+      "relate": "续集",
+      "src": 575262,
+      "dst": 575264
+    },
+    {
+      "relate": "全集",
+      "src": 575264,
+      "dst": 184154
+    },
+    {
+      "relate": "续集",
+      "src": 575264,
+      "dst": 239413
+    },
+    {
+      "relate": "前传",
+      "src": 575264,
+      "dst": 575262
     }
   ]
 }

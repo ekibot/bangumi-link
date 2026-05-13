@@ -1,0 +1,51 @@
+{
+  "id": 444915,
+  "node": [
+    {
+      "id": 444915,
+      "name": "Frankenstein",
+      "nameCN": "科学怪人",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 589665,
+      "name": "The Bride of Frankenstein",
+      "nameCN": "科学怪人的新娘",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 589667,
+      "name": "Son of Frankenstein",
+      "nameCN": "科学怪人之子",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 444915,
+      "dst": 589665
+    },
+    {
+      "relate": "前传",
+      "src": 589665,
+      "dst": 444915
+    },
+    {
+      "relate": "续集",
+      "src": 589665,
+      "dst": 589667
+    },
+    {
+      "relate": "前传",
+      "src": 589667,
+      "dst": 589665
+    }
+  ]
+}

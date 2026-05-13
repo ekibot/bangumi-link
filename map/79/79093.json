@@ -74,6 +74,14 @@
       "platform": "TV"
     },
     {
+      "id": 277188,
+      "name": "Ben 10: Race Against Time",
+      "nameCN": "少年骇客：超时空圣战",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 277172,
       "name": "Ben 10: Alien Force Season 3",
       "nameCN": "少年骇客：外星英雄 第三季",
@@ -90,6 +98,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 277190,
+      "name": "Ben 10: Alien Swarm",
+      "nameCN": "少年骇客：异形群体",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     },
     {
       "id": 277176,
@@ -239,6 +255,11 @@
       "dst": 277169
     },
     {
+      "relate": "番外篇",
+      "src": 277170,
+      "dst": 277188
+    },
+    {
       "relate": "前传",
       "src": 277171,
       "dst": 211271
@@ -257,6 +278,11 @@
       "relate": "续集",
       "src": 277172,
       "dst": 277174
+    },
+    {
+      "relate": "番外篇",
+      "src": 277172,
+      "dst": 277190
     },
     {
       "relate": "前传",
@@ -370,8 +396,28 @@
     },
     {
       "relate": "主线故事",
+      "src": 277188,
+      "dst": 277170
+    },
+    {
+      "relate": "续集",
+      "src": 277188,
+      "dst": 277190
+    },
+    {
+      "relate": "主线故事",
       "src": 277189,
       "dst": 79093
+    },
+    {
+      "relate": "主线故事",
+      "src": 277190,
+      "dst": 277172
+    },
+    {
+      "relate": "前传",
+      "src": 277190,
+      "dst": 277188
     }
   ]
 }

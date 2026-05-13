@@ -1,0 +1,79 @@
+{
+  "id": 532107,
+  "node": [
+    {
+      "id": 532107,
+      "name": "Jaws",
+      "nameCN": "大白鲨",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532108,
+      "name": "Jaws 2",
+      "nameCN": "大白鲨2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532109,
+      "name": "Jaws 3-D",
+      "nameCN": "大白鲨3-D",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532110,
+      "name": "Jaws: The Revenge",
+      "nameCN": "大白鲨：复仇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 532107,
+      "dst": 532108
+    },
+    {
+      "relate": "前传",
+      "src": 532108,
+      "dst": 532107
+    },
+    {
+      "relate": "续集",
+      "src": 532108,
+      "dst": 532109
+    },
+    {
+      "relate": "续集",
+      "src": 532108,
+      "dst": 532110
+    },
+    {
+      "relate": "前传",
+      "src": 532109,
+      "dst": 532108
+    },
+    {
+      "relate": "不同世界观",
+      "src": 532109,
+      "dst": 532110
+    },
+    {
+      "relate": "前传",
+      "src": 532110,
+      "dst": 532108
+    },
+    {
+      "relate": "不同世界观",
+      "src": 532110,
+      "dst": 532109
+    }
+  ]
+}

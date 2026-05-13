@@ -1,0 +1,52 @@
+{
+  "id": 567147,
+  "node": [
+    {
+      "id": 567147,
+      "name": "ロックウェル～遠雷",
+      "nameCN": "",
+      "date": "2005-12-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 567148,
+      "name": "ロックウェル～怪火",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 567151,
+      "name": "砂漠の月",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 567147,
+      "dst": 567148
+    },
+    {
+      "relate": "续集",
+      "src": 567147,
+      "dst": 567151
+    },
+    {
+      "relate": "续集",
+      "src": 567148,
+      "dst": 567147
+    },
+    {
+      "relate": "前传",
+      "src": 567151,
+      "dst": 567147
+    }
+  ]
+}

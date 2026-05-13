@@ -1,0 +1,51 @@
+{
+  "id": 261310,
+  "node": [
+    {
+      "id": 261310,
+      "name": "ラスタンサーガ",
+      "nameCN": "拉斯坦传奇",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 617869,
+      "name": "ラスタンサーガII",
+      "nameCN": "王者之剑2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 618082,
+      "name": "ウォリアーブレード",
+      "nameCN": "王者之剑3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 261310,
+      "dst": 617869
+    },
+    {
+      "relate": "前传",
+      "src": 617869,
+      "dst": 261310
+    },
+    {
+      "relate": "续集",
+      "src": 617869,
+      "dst": 618082
+    },
+    {
+      "relate": "前传",
+      "src": 618082,
+      "dst": 617869
+    }
+  ]
+}

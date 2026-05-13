@@ -1,0 +1,51 @@
+{
+  "id": 527927,
+  "node": [
+    {
+      "id": 527927,
+      "name": "Arthur et les Minimoys",
+      "nameCN": "亚瑟和他的迷你王国",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527930,
+      "name": "Arthur et la Vengeance de Maltazard",
+      "nameCN": "亚瑟和他的迷你王国2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 527931,
+      "name": "Arthur 3: La Guerre des deux mondes",
+      "nameCN": "亚瑟3：终极对决",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 527927,
+      "dst": 527930
+    },
+    {
+      "relate": "前传",
+      "src": 527930,
+      "dst": 527927
+    },
+    {
+      "relate": "续集",
+      "src": 527930,
+      "dst": 527931
+    },
+    {
+      "relate": "前传",
+      "src": 527931,
+      "dst": 527930
+    }
+  ]
+}

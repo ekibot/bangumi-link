@@ -1,0 +1,54 @@
+{
+  "id": 86833,
+  "node": [
+    {
+      "id": 86833,
+      "name": "決戦III",
+      "nameCN": "决战3",
+      "date": "2004-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 306988,
+      "name": "決戦II",
+      "nameCN": "决战2",
+      "date": "2001-03-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 306987,
+      "name": "決戦",
+      "nameCN": "决战",
+      "date": "2000-03-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 86833,
+      "dst": 306988
+    },
+    {
+      "relate": "续集",
+      "src": 306987,
+      "dst": 306988
+    },
+    {
+      "relate": "续集",
+      "src": 306988,
+      "dst": 86833
+    },
+    {
+      "relate": "前传",
+      "src": 306988,
+      "dst": 306987
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 554753,
+  "node": [
+    {
+      "id": 554753,
+      "name": "学校",
+      "nameCN": "学校",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 555270,
+      "name": "学校II",
+      "nameCN": "学校2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 556170,
+      "name": "学校III",
+      "nameCN": "学校3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 554753,
+      "dst": 555270
+    },
+    {
+      "relate": "前传",
+      "src": 555270,
+      "dst": 554753
+    },
+    {
+      "relate": "续集",
+      "src": 555270,
+      "dst": 556170
+    },
+    {
+      "relate": "前传",
+      "src": 556170,
+      "dst": 555270
+    }
+  ]
+}

@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 171387,
+      "name": "氷菓",
+      "nameCN": "冰菓",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 111762
     },
     {
+      "relate": "不同演绎",
+      "src": 27364,
+      "dst": 171387
+    },
+    {
       "relate": "主线故事",
       "src": 111762,
+      "dst": 27364
+    },
+    {
+      "relate": "不同演绎",
+      "src": 171387,
       "dst": 27364
     }
   ]

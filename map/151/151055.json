@@ -11,12 +11,36 @@
       "platform": "欧美剧"
     },
     {
+      "id": 151991,
+      "name": "Army of Darkness",
+      "nameCN": "鬼玩人3 魔界英豪",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 151992,
       "name": "Ash vs. Evil Dead Season 2",
       "nameCN": "鬼玩人 第二季",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 151977,
+      "name": "The Evil Dead",
+      "nameCN": "鬼玩人",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 151980,
+      "name": "Evil Dead II",
+      "nameCN": "鬼玩人2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     },
     {
       "id": 239942,
@@ -30,9 +54,39 @@
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 151055,
+      "dst": 151991
+    },
+    {
       "relate": "续集",
       "src": 151055,
       "dst": 151992
+    },
+    {
+      "relate": "续集",
+      "src": 151977,
+      "dst": 151980
+    },
+    {
+      "relate": "前传",
+      "src": 151980,
+      "dst": 151977
+    },
+    {
+      "relate": "续集",
+      "src": 151980,
+      "dst": 151991
+    },
+    {
+      "relate": "续集",
+      "src": 151991,
+      "dst": 151055
+    },
+    {
+      "relate": "前传",
+      "src": 151991,
+      "dst": 151980
     },
     {
       "relate": "前传",

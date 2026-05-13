@@ -1,0 +1,54 @@
+{
+  "id": 499620,
+  "node": [
+    {
+      "id": 499620,
+      "name": "The Getaway",
+      "nameCN": "大逃亡",
+      "date": "2002-12-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 499623,
+      "name": "The Getaway: Black Monday",
+      "nameCN": "大逃亡：黑色星期一",
+      "date": "2004-11-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 499634,
+      "name": "Gangs of London",
+      "nameCN": "伦敦黑帮",
+      "date": "2006-09-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 499620,
+      "dst": 499623
+    },
+    {
+      "relate": "前传",
+      "src": 499623,
+      "dst": 499620
+    },
+    {
+      "relate": "主线故事",
+      "src": 499634,
+      "dst": 499620
+    },
+    {
+      "relate": "主线故事",
+      "src": 499634,
+      "dst": 499623
+    }
+  ]
+}

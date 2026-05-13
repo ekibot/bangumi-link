@@ -1,0 +1,52 @@
+{
+  "id": 535059,
+  "node": [
+    {
+      "id": 535059,
+      "name": "Timecop",
+      "nameCN": "时空特警",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 535061,
+      "name": "Timecop（1997）",
+      "nameCN": "时空特警",
+      "date": "1997-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 535062,
+      "name": "Timecop: The Berlin Decision",
+      "nameCN": "时空特警2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "不同演绎",
+      "src": 535059,
+      "dst": 535061
+    },
+    {
+      "relate": "续集",
+      "src": 535059,
+      "dst": 535062
+    },
+    {
+      "relate": "不同演绎",
+      "src": 535061,
+      "dst": 535059
+    },
+    {
+      "relate": "前传",
+      "src": 535062,
+      "dst": 535059
+    }
+  ]
+}

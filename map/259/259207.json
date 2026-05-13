@@ -1,0 +1,54 @@
+{
+  "id": 259207,
+  "node": [
+    {
+      "id": 259207,
+      "name": "Ghostbusters",
+      "nameCN": "捉鬼敢死队",
+      "date": "1990-06-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 260423,
+      "name": "Newゴーストバスターズ2",
+      "nameCN": "捉鬼敢死队2",
+      "date": "1990-12-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 608642,
+      "name": "ゴーストバスターズ（FC）",
+      "nameCN": "捉鬼敢死队",
+      "date": "1986-09-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 259207,
+      "dst": 260423
+    },
+    {
+      "relate": "前传",
+      "src": 260423,
+      "dst": 259207
+    },
+    {
+      "relate": "前传",
+      "src": 260423,
+      "dst": 608642
+    },
+    {
+      "relate": "续集",
+      "src": 608642,
+      "dst": 260423
+    }
+  ]
+}

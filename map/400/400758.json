@@ -1,0 +1,53 @@
+{
+  "id": 400758,
+  "node": [
+    {
+      "id": 400758,
+      "name": "Sixtar Gate: STARTRAIL",
+      "nameCN": "六星门：星迹",
+      "date": "2023-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 556500,
+      "name": "Sixtar Gate: STARGAZER",
+      "nameCN": "六星门：观星者",
+      "date": "2025-07-11",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 627311,
+      "name": "Sixtar Gate: UNIVERSE",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 400758,
+      "dst": 556500
+    },
+    {
+      "relate": "前传",
+      "src": 556500,
+      "dst": 400758
+    },
+    {
+      "relate": "续集",
+      "src": 556500,
+      "dst": 627311
+    },
+    {
+      "relate": "前传",
+      "src": 627311,
+      "dst": 556500
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": 133527,
+  "node": [
+    {
+      "id": 133527,
+      "name": "Bloodstained: Ritual of the Night",
+      "nameCN": "血污：夜之仪式",
+      "date": "2019-06-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 562426,
+      "name": "Bloodstained: The Scarlet Engagement",
+      "nameCN": "赤痕：绯红契约",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 246920,
+      "name": "Bloodstained: Curse of the Moon",
+      "nameCN": "血污：月之诅咒",
+      "date": "2018-05-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 309197,
+      "name": "Bloodstained: Curse of the Moon 2",
+      "nameCN": "血污：月之诅咒2",
+      "date": "2020-07-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 133527,
+      "dst": 562426
+    },
+    {
+      "relate": "主线故事",
+      "src": 246920,
+      "dst": 133527
+    },
+    {
+      "relate": "续集",
+      "src": 246920,
+      "dst": 309197
+    },
+    {
+      "relate": "主线故事",
+      "src": 309197,
+      "dst": 133527
+    },
+    {
+      "relate": "前传",
+      "src": 309197,
+      "dst": 246920
+    },
+    {
+      "relate": "前传",
+      "src": 562426,
+      "dst": 133527
+    }
+  ]
+}

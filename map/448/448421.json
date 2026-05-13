@@ -1,0 +1,70 @@
+{
+  "id": 448421,
+  "node": [
+    {
+      "id": 448421,
+      "name": "エコエコアザラク -WIZARD OF DARKNESS-",
+      "nameCN": "黑暗法师1",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 448423,
+      "name": "エコエコアザラクII -BIRTH OF THE WIZARD-",
+      "nameCN": "黑暗法师2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 448424,
+      "name": "エコエコアザラクIII -MISA THE DARK ANGEL-",
+      "nameCN": "黑暗法师3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 499224,
+      "name": "エコエコアザラク",
+      "nameCN": "黑暗法师 TV版",
+      "date": "1997-02-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 448421,
+      "dst": 448423
+    },
+    {
+      "relate": "前传",
+      "src": 448423,
+      "dst": 448421
+    },
+    {
+      "relate": "续集",
+      "src": 448423,
+      "dst": 448424
+    },
+    {
+      "relate": "前传",
+      "src": 448424,
+      "dst": 448423
+    },
+    {
+      "relate": "番外篇",
+      "src": 448424,
+      "dst": 499224
+    },
+    {
+      "relate": "主线故事",
+      "src": 499224,
+      "dst": 448424
+    }
+  ]
+}

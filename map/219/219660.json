@@ -1,0 +1,54 @@
+{
+  "id": 219660,
+  "node": [
+    {
+      "id": 219660,
+      "name": "Oscura",
+      "nameCN": "引火精灵",
+      "date": "2011-10-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 522567,
+      "name": "Oscura: Lost Light",
+      "nameCN": "",
+      "date": "2015-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 522573,
+      "name": "Oscura: Second Shadow",
+      "nameCN": "引火精灵：第二个影子",
+      "date": "2014-06-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 219660,
+      "dst": 522567
+    },
+    {
+      "relate": "续集",
+      "src": 219660,
+      "dst": 522573
+    },
+    {
+      "relate": "续集",
+      "src": 522567,
+      "dst": 219660
+    },
+    {
+      "relate": "前传",
+      "src": 522573,
+      "dst": 219660
+    }
+  ]
+}

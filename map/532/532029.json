@@ -1,0 +1,54 @@
+{
+  "id": 532029,
+  "node": [
+    {
+      "id": 532029,
+      "name": "High School Musical: Makin' the Cut!",
+      "nameCN": "",
+      "date": "2007-08-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532030,
+      "name": "High School Musical 2: Work This Out!",
+      "nameCN": "",
+      "date": "2008-04-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532031,
+      "name": "High School Musical 3: Senior Year",
+      "nameCN": "",
+      "date": "2008-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 532029,
+      "dst": 532030
+    },
+    {
+      "relate": "前传",
+      "src": 532030,
+      "dst": 532029
+    },
+    {
+      "relate": "续集",
+      "src": 532030,
+      "dst": 532031
+    },
+    {
+      "relate": "前传",
+      "src": 532031,
+      "dst": 532030
+    }
+  ]
+}

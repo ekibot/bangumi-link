@@ -1,0 +1,54 @@
+{
+  "id": 509043,
+  "node": [
+    {
+      "id": 509043,
+      "name": "黒白の世界season1",
+      "nameCN": "",
+      "date": "2019-01-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509044,
+      "name": "黒白の世界Season2",
+      "nameCN": "",
+      "date": "2020-08-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509045,
+      "name": "黒白の世界FinalSeason",
+      "nameCN": "",
+      "date": "2021-07-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 509043,
+      "dst": 509044
+    },
+    {
+      "relate": "前传",
+      "src": 509044,
+      "dst": 509043
+    },
+    {
+      "relate": "续集",
+      "src": 509044,
+      "dst": 509045
+    },
+    {
+      "relate": "前传",
+      "src": 509045,
+      "dst": 509044
+    }
+  ]
+}

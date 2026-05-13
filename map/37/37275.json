@@ -20,6 +20,14 @@
       "platform": "剧场版"
     },
     {
+      "id": 186682,
+      "name": "Starship Troopers",
+      "nameCN": "星河战队",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 223289,
       "name": "Starship Troopers: Traitor of Mars",
       "nameCN": "星船伞兵：火星叛徒",
@@ -36,6 +44,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 274396,
+      "name": "Starship Troopers 2: Hero of the Federation",
+      "nameCN": "星河战队2：联邦英雄",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 274397,
+      "name": "Starship Troopers 3: Marauder",
+      "nameCN": "星河战队3：掠夺者",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -43,6 +67,11 @@
       "relate": "相同世界观",
       "src": 37275,
       "dst": 40879
+    },
+    {
+      "relate": "相同世界观",
+      "src": 37275,
+      "dst": 186682
     },
     {
       "relate": "相同世界观",
@@ -60,6 +89,11 @@
       "dst": 37275
     },
     {
+      "relate": "相同世界观",
+      "src": 40879,
+      "dst": 186682
+    },
+    {
       "relate": "续集",
       "src": 40879,
       "dst": 223289
@@ -68,6 +102,26 @@
       "relate": "相同世界观",
       "src": 40879,
       "dst": 274381
+    },
+    {
+      "relate": "相同世界观",
+      "src": 186682,
+      "dst": 37275
+    },
+    {
+      "relate": "相同世界观",
+      "src": 186682,
+      "dst": 40879
+    },
+    {
+      "relate": "相同世界观",
+      "src": 186682,
+      "dst": 274381
+    },
+    {
+      "relate": "续集",
+      "src": 186682,
+      "dst": 274396
     },
     {
       "relate": "相同世界观",
@@ -85,6 +139,11 @@
       "dst": 274381
     },
     {
+      "relate": "不同演绎",
+      "src": 223289,
+      "dst": 274397
+    },
+    {
       "relate": "相同世界观",
       "src": 274381,
       "dst": 37275
@@ -97,7 +156,32 @@
     {
       "relate": "相同世界观",
       "src": 274381,
+      "dst": 186682
+    },
+    {
+      "relate": "相同世界观",
+      "src": 274381,
       "dst": 223289
+    },
+    {
+      "relate": "前传",
+      "src": 274396,
+      "dst": 186682
+    },
+    {
+      "relate": "续集",
+      "src": 274396,
+      "dst": 274397
+    },
+    {
+      "relate": "不同演绎",
+      "src": 274397,
+      "dst": 223289
+    },
+    {
+      "relate": "前传",
+      "src": 274397,
+      "dst": 274396
     }
   ]
 }

@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 570265,
+      "name": "Bambi: The Reckoning",
+      "nameCN": "小鹿斑比：清算",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 113080
     },
     {
+      "relate": "不同演绎",
+      "src": 36759,
+      "dst": 570265
+    },
+    {
       "relate": "前传",
       "src": 113080,
+      "dst": 36759
+    },
+    {
+      "relate": "不同演绎",
+      "src": 570265,
       "dst": 36759
     }
   ]

@@ -1,0 +1,33 @@
+{
+  "id": 428132,
+  "node": [
+    {
+      "id": 428132,
+      "name": "A Minecraft Movie",
+      "nameCN": "我的世界大电影",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 594064,
+      "name": "A Minecraft Movie 2",
+      "nameCN": "我的世界大电影2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 428132,
+      "dst": 594064
+    },
+    {
+      "relate": "前传",
+      "src": 594064,
+      "dst": 428132
+    }
+  ]
+}

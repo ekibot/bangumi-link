@@ -1,0 +1,54 @@
+{
+  "id": 230073,
+  "node": [
+    {
+      "id": 230073,
+      "name": "Cat Quest",
+      "nameCN": "喵咪斗恶龙",
+      "date": "2017-08-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 309371,
+      "name": "Cat Quest II",
+      "nameCN": "喵咪斗恶龙2",
+      "date": "2019-09-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 437542,
+      "name": "Cat Quest III",
+      "nameCN": "猫咪斗恶龙3",
+      "date": "2024-08-08",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 230073,
+      "dst": 309371
+    },
+    {
+      "relate": "前传",
+      "src": 309371,
+      "dst": 230073
+    },
+    {
+      "relate": "续集",
+      "src": 309371,
+      "dst": 437542
+    },
+    {
+      "relate": "前传",
+      "src": 437542,
+      "dst": 309371
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 99949,
+  "node": [
+    {
+      "id": 99949,
+      "name": "TIME TO STAR 星光之路",
+      "nameCN": "星光之路",
+      "date": "2014-01-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 114551,
+      "name": "TIME TO STARⅡ 偶像之路",
+      "nameCN": "偶像之路",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 594831,
+      "name": "TIME TO STARⅡ偶像之路终极版",
+      "nameCN": "TIME TO STARⅡ 偶像之路终极版",
+      "date": "2024-11-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 99949,
+      "dst": 114551
+    },
+    {
+      "relate": "前传",
+      "src": 114551,
+      "dst": 99949
+    },
+    {
+      "relate": "不同演绎",
+      "src": 114551,
+      "dst": 594831
+    },
+    {
+      "relate": "不同演绎",
+      "src": 594831,
+      "dst": 114551
+    }
+  ]
+}

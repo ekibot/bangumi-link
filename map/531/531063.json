@@ -1,0 +1,69 @@
+{
+  "id": 531063,
+  "node": [
+    {
+      "id": 531063,
+      "name": "Beverly Hills Cop",
+      "nameCN": "比佛利山超级警探",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531068,
+      "name": "Beverly Hills Cop II",
+      "nameCN": "比佛利山超级警探2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531069,
+      "name": "Beverly Hills Cop III",
+      "nameCN": "比佛利山超级警探3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531070,
+      "name": "Beverly Hills Cop: Axel F",
+      "nameCN": "比佛利山超级警探4",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 531063,
+      "dst": 531068
+    },
+    {
+      "relate": "前传",
+      "src": 531068,
+      "dst": 531063
+    },
+    {
+      "relate": "续集",
+      "src": 531068,
+      "dst": 531069
+    },
+    {
+      "relate": "前传",
+      "src": 531069,
+      "dst": 531068
+    },
+    {
+      "relate": "续集",
+      "src": 531069,
+      "dst": 531070
+    },
+    {
+      "relate": "前传",
+      "src": 531070,
+      "dst": 531069
+    }
+  ]
+}

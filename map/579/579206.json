@@ -1,0 +1,51 @@
+{
+  "id": 579206,
+  "node": [
+    {
+      "id": 579206,
+      "name": "A Grim Chase",
+      "nameCN": "一场严峻的追逐",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 579210,
+      "name": "A Grim Love Tale",
+      "nameCN": "一个冷酷的爱情故事",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 579221,
+      "name": "A Grim Granny",
+      "nameCN": "冷酷的奶奶",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 579206,
+      "dst": 579210
+    },
+    {
+      "relate": "续集",
+      "src": 579206,
+      "dst": 579221
+    },
+    {
+      "relate": "续集",
+      "src": 579210,
+      "dst": 579206
+    },
+    {
+      "relate": "前传",
+      "src": 579221,
+      "dst": 579206
+    }
+  ]
+}

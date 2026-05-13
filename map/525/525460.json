@@ -1,0 +1,52 @@
+{
+  "id": 525460,
+  "node": [
+    {
+      "id": 525460,
+      "name": "Kinoko3",
+      "nameCN": "",
+      "date": "2007-11-03",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 530873,
+      "name": "Kinoko2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 530869,
+      "name": "Kinoko1",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 525460,
+      "dst": 530873
+    },
+    {
+      "relate": "续集",
+      "src": 530869,
+      "dst": 530873
+    },
+    {
+      "relate": "续集",
+      "src": 530873,
+      "dst": 525460
+    },
+    {
+      "relate": "前传",
+      "src": 530873,
+      "dst": 530869
+    }
+  ]
+}

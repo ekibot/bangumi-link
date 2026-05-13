@@ -1,0 +1,53 @@
+{
+  "id": 295011,
+  "node": [
+    {
+      "id": 295011,
+      "name": "Hunting Simulator",
+      "nameCN": "模拟狩猎",
+      "date": "2017-06-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 404585,
+      "name": "Hunting Simulator 2",
+      "nameCN": "模拟狩猎2",
+      "date": "2020-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 526384,
+      "name": "Hunting Simulator 3",
+      "nameCN": "模拟狩猎3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 295011,
+      "dst": 404585
+    },
+    {
+      "relate": "前传",
+      "src": 404585,
+      "dst": 295011
+    },
+    {
+      "relate": "续集",
+      "src": 404585,
+      "dst": 526384
+    },
+    {
+      "relate": "前传",
+      "src": 526384,
+      "dst": 404585
+    }
+  ]
+}

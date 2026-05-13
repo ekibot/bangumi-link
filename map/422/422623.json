@@ -1,0 +1,51 @@
+{
+  "id": 422623,
+  "node": [
+    {
+      "id": 422623,
+      "name": "Heroes of Sokoban",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 422624,
+      "name": "Heroes of Sokoban II: Monsters",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 422625,
+      "name": "Heroes of Sokoban III: The Bard and The Druid",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 422623,
+      "dst": 422624
+    },
+    {
+      "relate": "前传",
+      "src": 422624,
+      "dst": 422623
+    },
+    {
+      "relate": "续集",
+      "src": 422624,
+      "dst": 422625
+    },
+    {
+      "relate": "前传",
+      "src": 422625,
+      "dst": 422624
+    }
+  ]
+}

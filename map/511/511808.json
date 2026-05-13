@@ -1,0 +1,54 @@
+{
+  "id": 511808,
+  "node": [
+    {
+      "id": 511808,
+      "name": "Super Star Wars",
+      "nameCN": "超级星球大战",
+      "date": "1992-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 511809,
+      "name": "Super Star Wars: The Empire Strikes Back",
+      "nameCN": "超级星球大战：帝国反击战",
+      "date": "1993-11-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 511810,
+      "name": "Super Star Wars: Return of the Jedi",
+      "nameCN": "超级星球大战：绝地归来",
+      "date": "1994-11-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 511808,
+      "dst": 511809
+    },
+    {
+      "relate": "前传",
+      "src": 511809,
+      "dst": 511808
+    },
+    {
+      "relate": "续集",
+      "src": 511809,
+      "dst": 511810
+    },
+    {
+      "relate": "前传",
+      "src": 511810,
+      "dst": 511809
+    }
+  ]
+}

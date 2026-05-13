@@ -1,0 +1,54 @@
+{
+  "id": 414430,
+  "node": [
+    {
+      "id": 414430,
+      "name": "Raze",
+      "nameCN": "虚拟对战",
+      "date": "2010-02-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 414432,
+      "name": "Raze 2",
+      "nameCN": "虚拟对战2",
+      "date": "2011-09-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 414433,
+      "name": "Raze 3",
+      "nameCN": "虚拟对战3",
+      "date": "2014-07-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 414430,
+      "dst": 414432
+    },
+    {
+      "relate": "前传",
+      "src": 414432,
+      "dst": 414430
+    },
+    {
+      "relate": "续集",
+      "src": 414432,
+      "dst": 414433
+    },
+    {
+      "relate": "前传",
+      "src": 414433,
+      "dst": 414432
+    }
+  ]
+}

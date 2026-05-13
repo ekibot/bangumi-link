@@ -1,0 +1,73 @@
+{
+  "id": 345749,
+  "node": [
+    {
+      "id": 345749,
+      "name": "Black Smith2",
+      "nameCN": "铁匠2",
+      "date": "2020-08-14",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 502965,
+      "name": "Black Smith",
+      "nameCN": "铁匠",
+      "date": "2019-12-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 502966,
+      "name": "Black Smith3",
+      "nameCN": "铁匠3",
+      "date": "2021-05-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 502967,
+      "name": "Black Smith4",
+      "nameCN": "铁匠4",
+      "date": "2023-09-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 345749,
+      "dst": 502965
+    },
+    {
+      "relate": "续集",
+      "src": 345749,
+      "dst": 502966
+    },
+    {
+      "relate": "续集",
+      "src": 502965,
+      "dst": 345749
+    },
+    {
+      "relate": "前传",
+      "src": 502966,
+      "dst": 345749
+    },
+    {
+      "relate": "续集",
+      "src": 502966,
+      "dst": 502967
+    },
+    {
+      "relate": "前传",
+      "src": 502967,
+      "dst": 502966
+    }
+  ]
+}

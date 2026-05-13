@@ -1,0 +1,51 @@
+{
+  "id": 195554,
+  "node": [
+    {
+      "id": 195554,
+      "name": "テニスの王子様 SWEAT & TEARS",
+      "nameCN": "网球王子 SWEAT & TEARS",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 195555,
+      "name": "テニスの王子様 SWEAT & TEARS 2",
+      "nameCN": "网球王子 SWEAT & TEARS 2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 195560,
+      "name": "テニスの王子様 RUSH & DREAM!",
+      "nameCN": "网球王子 RUSH & DREAM!",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 195554,
+      "dst": 195555
+    },
+    {
+      "relate": "前传",
+      "src": 195555,
+      "dst": 195554
+    },
+    {
+      "relate": "续集",
+      "src": 195555,
+      "dst": 195560
+    },
+    {
+      "relate": "前传",
+      "src": 195560,
+      "dst": 195555
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 79699,
+  "node": [
+    {
+      "id": 79699,
+      "name": "レイストーム",
+      "nameCN": "镭射风暴",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 239964,
+      "name": "レイフォース",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 390925,
+      "name": "レイクライシス",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 79699,
+      "dst": 239964
+    },
+    {
+      "relate": "续集",
+      "src": 79699,
+      "dst": 390925
+    },
+    {
+      "relate": "续集",
+      "src": 239964,
+      "dst": 79699
+    },
+    {
+      "relate": "前传",
+      "src": 390925,
+      "dst": 79699
+    }
+  ]
+}

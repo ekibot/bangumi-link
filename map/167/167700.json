@@ -1,0 +1,49 @@
+{
+  "id": 167700,
+  "node": [
+    {
+      "id": 167700,
+      "name": "ポケモンバンク",
+      "nameCN": "宝可梦虚拟银行",
+      "date": "2013-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 508333,
+      "name": "Pokémon HOME",
+      "nameCN": "Pokémon HOME",
+      "date": "2020-02-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 196049,
+      "name": "ポケムーバー",
+      "nameCN": "宝可梦虚拟传送",
+      "date": "2013-12-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 167700,
+      "dst": 508333
+    },
+    {
+      "relate": "主线故事",
+      "src": 196049,
+      "dst": 167700
+    },
+    {
+      "relate": "前传",
+      "src": 508333,
+      "dst": 167700
+    }
+  ]
+}

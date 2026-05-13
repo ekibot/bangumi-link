@@ -1,0 +1,72 @@
+{
+  "id": 15090,
+  "node": [
+    {
+      "id": 15090,
+      "name": "The Guild II",
+      "nameCN": "行会2",
+      "date": "2006-09-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575595,
+      "name": "Europa 1400: The Guild",
+      "nameCN": "行会1",
+      "date": "2002-10-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575597,
+      "name": "The Guild 3",
+      "nameCN": "行会3",
+      "date": "2022-06-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575599,
+      "name": "The Guild - Europa 1410",
+      "nameCN": "行会：欧洲1410",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 15090,
+      "dst": 575595
+    },
+    {
+      "relate": "续集",
+      "src": 15090,
+      "dst": 575597
+    },
+    {
+      "relate": "续集",
+      "src": 575595,
+      "dst": 15090
+    },
+    {
+      "relate": "前传",
+      "src": 575597,
+      "dst": 15090
+    },
+    {
+      "relate": "续集",
+      "src": 575597,
+      "dst": 575599
+    },
+    {
+      "relate": "前传",
+      "src": 575599,
+      "dst": 575597
+    }
+  ]
+}

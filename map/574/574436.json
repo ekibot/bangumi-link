@@ -1,0 +1,52 @@
+{
+  "id": 574436,
+  "node": [
+    {
+      "id": 574436,
+      "name": "S.A.",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 574440,
+      "name": "S.A. 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 574442,
+      "name": "S.A. 3",
+      "nameCN": "",
+      "date": "1995-03-23",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 574436,
+      "dst": 574440
+    },
+    {
+      "relate": "前传",
+      "src": 574440,
+      "dst": 574436
+    },
+    {
+      "relate": "续集",
+      "src": 574440,
+      "dst": 574442
+    },
+    {
+      "relate": "前传",
+      "src": 574442,
+      "dst": 574440
+    }
+  ]
+}

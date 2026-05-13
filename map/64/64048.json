@@ -11,6 +11,14 @@
       "platform": "剧场版"
     },
     {
+      "id": 140672,
+      "name": "Alice in Wonderland",
+      "nameCN": "爱丽丝梦游奇境",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 195914,
       "name": "ふしぎの国のアリス",
       "nameCN": "爱丽丝梦游仙境",
@@ -33,6 +41,14 @@
       "name": "Alice in Not So Wonderland",
       "nameCN": "",
       "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 152940,
+      "name": "Alice Through the Looking Glass",
+      "nameCN": "爱丽丝梦游仙境2：镜中奇遇记",
+      "type": 6,
       "nsfw": false,
       "platform": "其他"
     },
@@ -77,6 +93,11 @@
     {
       "relate": "不同演绎",
       "src": 64048,
+      "dst": 140672
+    },
+    {
+      "relate": "不同演绎",
+      "src": 64048,
       "dst": 195914
     },
     {
@@ -88,6 +109,21 @@
       "relate": "不同演绎",
       "src": 64048,
       "dst": 618333
+    },
+    {
+      "relate": "不同演绎",
+      "src": 140672,
+      "dst": 64048
+    },
+    {
+      "relate": "续集",
+      "src": 140672,
+      "dst": 152940
+    },
+    {
+      "relate": "前传",
+      "src": 152940,
+      "dst": 140672
     },
     {
       "relate": "不同演绎",

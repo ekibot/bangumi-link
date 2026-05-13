@@ -11,6 +11,14 @@
       "platform": "日剧"
     },
     {
+      "id": 11277,
+      "name": "劇場版 仮面ライダーカブト GOD SPEED LOVE",
+      "nameCN": "剧场版 假面骑士KABUTO 神·速·爱",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 189180,
       "name": "仮面ライダーカブト超バトルDVD 誕生!ガタックハイパーフォーム!!",
       "nameCN": "假面骑士KABUTO 超战斗DVD 诞生！Gatack Hyper Form!!",
@@ -27,9 +35,22 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 639278,
+      "name": "仮面ライダーカブト20th 天を継ぐもの",
+      "nameCN": "假面骑士KABUTO 20周年 天之继承者",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
+    {
+      "relate": "前传",
+      "src": 11188,
+      "dst": 11277
+    },
     {
       "relate": "番外篇",
       "src": 11188,
@@ -41,8 +62,23 @@
       "dst": 335529
     },
     {
+      "relate": "续集",
+      "src": 11188,
+      "dst": 639278
+    },
+    {
+      "relate": "续集",
+      "src": 11277,
+      "dst": 11188
+    },
+    {
       "relate": "主线故事",
       "src": 189180,
+      "dst": 11188
+    },
+    {
+      "relate": "前传",
+      "src": 639278,
       "dst": 11188
     }
   ]

@@ -1,0 +1,82 @@
+{
+  "id": 11169,
+  "node": [
+    {
+      "id": 11169,
+      "name": "ぱすてるチャイムContinue",
+      "nameCN": "粉红钟声Continue",
+      "date": "2005-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 51684,
+      "name": "パステルチャイム3 バインドシーカー",
+      "nameCN": "粉彩铃音3",
+      "date": "2013-02-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 343580,
+      "name": "ぱすてるチャイム－恋のスキルアップ－",
+      "nameCN": "",
+      "date": "1998-11-26",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 11532,
+      "name": "ぱすちゃC++",
+      "nameCN": "",
+      "date": "2005-12-09",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 555674,
+      "name": "ハニワ闇開発室ぷち",
+      "nameCN": "哈尼瓦开发室",
+      "date": "2012-12-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 11169,
+      "dst": 51684
+    },
+    {
+      "relate": "前传",
+      "src": 11169,
+      "dst": 343580
+    },
+    {
+      "relate": "主线故事",
+      "src": 11532,
+      "dst": 11169
+    },
+    {
+      "relate": "前传",
+      "src": 51684,
+      "dst": 11169
+    },
+    {
+      "relate": "续集",
+      "src": 343580,
+      "dst": 11169
+    },
+    {
+      "relate": "主线故事",
+      "src": 555674,
+      "dst": 51684
+    }
+  ]
+}

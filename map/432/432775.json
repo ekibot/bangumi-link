@@ -1,0 +1,51 @@
+{
+  "id": 432775,
+  "node": [
+    {
+      "id": 432775,
+      "name": "Terra Mystica",
+      "nameCN": "神秘大地",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 464019,
+      "name": "Age of Innovation",
+      "nameCN": "大创造时代",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 478126,
+      "name": "Terra Nova",
+      "nameCN": "大地新秘境",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 432775,
+      "dst": 464019
+    },
+    {
+      "relate": "不同演绎",
+      "src": 432775,
+      "dst": 478126
+    },
+    {
+      "relate": "前传",
+      "src": 464019,
+      "dst": 432775
+    },
+    {
+      "relate": "不同演绎",
+      "src": 478126,
+      "dst": 432775
+    }
+  ]
+}

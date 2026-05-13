@@ -1,0 +1,54 @@
+{
+  "id": 506970,
+  "node": [
+    {
+      "id": 506970,
+      "name": "Cossacks: European Wars",
+      "nameCN": "哥萨克：欧洲战争",
+      "date": "2001-03-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 506971,
+      "name": "Cossacks II: Napoleonic Wars",
+      "nameCN": "哥萨克2：拿破仑战争",
+      "date": "2005-04-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 506972,
+      "name": "Cossacks 3",
+      "nameCN": "哥萨克3",
+      "date": "2016-09-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 506970,
+      "dst": 506971
+    },
+    {
+      "relate": "前传",
+      "src": 506971,
+      "dst": 506970
+    },
+    {
+      "relate": "续集",
+      "src": 506971,
+      "dst": 506972
+    },
+    {
+      "relate": "前传",
+      "src": 506972,
+      "dst": 506971
+    }
+  ]
+}

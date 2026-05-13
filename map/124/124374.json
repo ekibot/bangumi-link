@@ -1,0 +1,48 @@
+{
+  "id": 124374,
+  "node": [
+    {
+      "id": 464910,
+      "name": "王子さまLv2",
+      "nameCN": "王子殿下Lv2",
+      "date": "2004-04-16",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 560875,
+      "name": "王子さまLV1.5",
+      "nameCN": "",
+      "date": "2002-02-22",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 124374,
+      "name": "王子さまLV1",
+      "nameCN": "王子殿下Lv1",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 464910,
+      "dst": 560875
+    },
+    {
+      "relate": "主线故事",
+      "src": 560875,
+      "dst": 124374
+    },
+    {
+      "relate": "前传",
+      "src": 560875,
+      "dst": 464910
+    }
+  ]
+}

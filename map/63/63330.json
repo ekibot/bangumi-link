@@ -1,0 +1,51 @@
+{
+  "id": 63330,
+  "node": [
+    {
+      "id": 63330,
+      "name": "巴啦啦小魔仙大电影",
+      "nameCN": "巴啦啦小魔仙大电影",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 95180,
+      "name": "巴啦啦小魔仙之魔法的考验",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 142166,
+      "name": "巴啦啦小魔仙之魔箭公主",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 63330,
+      "dst": 95180
+    },
+    {
+      "relate": "前传",
+      "src": 95180,
+      "dst": 63330
+    },
+    {
+      "relate": "续集",
+      "src": 95180,
+      "dst": 142166
+    },
+    {
+      "relate": "前传",
+      "src": 142166,
+      "dst": 95180
+    }
+  ]
+}

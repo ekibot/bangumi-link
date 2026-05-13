@@ -1,0 +1,111 @@
+{
+  "id": 16845,
+  "node": [
+    {
+      "id": 16845,
+      "name": "アリス2010",
+      "nameCN": "爱丽丝2010",
+      "date": "2009-12-18",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 301624,
+      "name": "ALICEの館7",
+      "nameCN": "爱丽丝之馆7",
+      "date": "2004-12-17",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 111843,
+      "name": "ALICEの館",
+      "nameCN": "",
+      "date": "1990-02-15",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 111844,
+      "name": "ALICEの館2",
+      "nameCN": "爱丽丝之馆2",
+      "date": "1992-07-15",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 111845,
+      "name": "ALICEの館3",
+      "nameCN": "ALICE之馆3",
+      "date": "1995-04-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 367387,
+      "name": "アリスの館 4・5・6",
+      "nameCN": "爱丽丝之馆4·5·6",
+      "date": "1997-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 16845,
+      "dst": 301624
+    },
+    {
+      "relate": "续集",
+      "src": 301624,
+      "dst": 16845
+    },
+    {
+      "relate": "续集",
+      "src": 111843,
+      "dst": 111844
+    },
+    {
+      "relate": "前传",
+      "src": 111844,
+      "dst": 111843
+    },
+    {
+      "relate": "续集",
+      "src": 111844,
+      "dst": 111845
+    },
+    {
+      "relate": "前传",
+      "src": 111845,
+      "dst": 111844
+    },
+    {
+      "relate": "续集",
+      "src": 111845,
+      "dst": 367387
+    },
+    {
+      "relate": "前传",
+      "src": 301624,
+      "dst": 367387
+    },
+    {
+      "relate": "前传",
+      "src": 367387,
+      "dst": 111845
+    },
+    {
+      "relate": "续集",
+      "src": 367387,
+      "dst": 301624
+    }
+  ]
+}

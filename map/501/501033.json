@@ -2,15 +2,6 @@
   "id": 501033,
   "node": [
     {
-      "id": 531615,
-      "name": "誰ソ彼ホテル",
-      "nameCN": "",
-      "date": "2024-12-26",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 501033,
       "name": "誰ソ彼ホテル",
       "nameCN": "黄昏旅店",
@@ -18,12 +9,45 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 537273,
+      "name": "舞台「誰ソ彼ホテル」",
+      "nameCN": "舞台剧 黄昏旅店",
+      "date": "2025-04-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 531615,
+      "name": "誰ソ彼ホテル",
+      "nameCN": "",
+      "date": "2024-12-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
     {
       "relate": "不同演绎",
+      "src": 501033,
+      "dst": 537273
+    },
+    {
+      "relate": "不同演绎",
       "src": 531615,
+      "dst": 501033
+    },
+    {
+      "relate": "不同演绎",
+      "src": 531615,
+      "dst": 537273
+    },
+    {
+      "relate": "不同演绎",
+      "src": 537273,
       "dst": 501033
     }
   ]

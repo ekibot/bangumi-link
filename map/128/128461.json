@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 128464,
+      "name": "交渉人 THE MOVIE タイムリミット高度10,000mの頭脳戦",
+      "nameCN": "交涉人 电影版",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 128462
     },
     {
+      "relate": "番外篇",
+      "src": 128461,
+      "dst": 128464
+    },
+    {
       "relate": "前传",
       "src": 128462,
+      "dst": 128461
+    },
+    {
+      "relate": "主线故事",
+      "src": 128464,
       "dst": 128461
     }
   ]

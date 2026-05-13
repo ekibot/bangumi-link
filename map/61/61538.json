@@ -1,0 +1,54 @@
+{
+  "id": 61538,
+  "node": [
+    {
+      "id": 61538,
+      "name": "Disney Infinity",
+      "nameCN": "迪士尼无限",
+      "date": "2013-08-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 500564,
+      "name": "Disney Infinity 2.0",
+      "nameCN": "迪士尼无限2.0",
+      "date": "2014-09-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 500566,
+      "name": "Disney Infinity 3.0",
+      "nameCN": "迪士尼无限3.0",
+      "date": "2015-08-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 61538,
+      "dst": 500564
+    },
+    {
+      "relate": "前传",
+      "src": 500564,
+      "dst": 61538
+    },
+    {
+      "relate": "续集",
+      "src": 500564,
+      "dst": 500566
+    },
+    {
+      "relate": "前传",
+      "src": 500566,
+      "dst": 500564
+    }
+  ]
+}

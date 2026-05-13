@@ -1,0 +1,54 @@
+{
+  "id": 601005,
+  "node": [
+    {
+      "id": 601005,
+      "name": "ヒトナツの聖地巡礼",
+      "nameCN": "",
+      "date": "2010-06-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 601446,
+      "name": "遥かなる剣が峰",
+      "nameCN": "",
+      "date": "2008-12-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 601448,
+      "name": "クイズトラベラー -around the world-",
+      "nameCN": "",
+      "date": "2008-08-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 601005,
+      "dst": 601446
+    },
+    {
+      "relate": "续集",
+      "src": 601446,
+      "dst": 601005
+    },
+    {
+      "relate": "前传",
+      "src": 601446,
+      "dst": 601448
+    },
+    {
+      "relate": "续集",
+      "src": 601448,
+      "dst": 601446
+    }
+  ]
+}

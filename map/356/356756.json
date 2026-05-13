@@ -36,6 +36,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 525437,
+      "name": "パリピ孔明 THE MOVIE",
+      "nameCN": "派对浪客诸葛孔明 THE MOVIE",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -60,6 +68,11 @@
       "dst": 465789
     },
     {
+      "relate": "续集",
+      "src": 433008,
+      "dst": 525437
+    },
+    {
       "relate": "主线故事",
       "src": 465789,
       "dst": 433008
@@ -68,6 +81,11 @@
       "relate": "全集",
       "src": 467732,
       "dst": 356756
+    },
+    {
+      "relate": "前传",
+      "src": 525437,
+      "dst": 433008
     }
   ]
 }

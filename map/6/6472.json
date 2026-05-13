@@ -1,0 +1,91 @@
+{
+  "id": 6472,
+  "node": [
+    {
+      "id": 6472,
+      "name": "Ever Quest",
+      "nameCN": "无尽的任务",
+      "date": "1999-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 82142,
+      "name": "EverQuest Next",
+      "nameCN": "无尽的任务Next",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 133337,
+      "name": "Lords of EverQuest",
+      "nameCN": "王者：无尽的任务战略版",
+      "date": "2003-12-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 457996,
+      "name": "Champions of Norrath: Realms of EverQuest",
+      "nameCN": "无尽的任务之无尽国度：诺拉斯战士",
+      "date": "2004-02-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 457997,
+      "name": "Champions: Return to Arms",
+      "nameCN": "诺拉斯战士：力量回归",
+      "date": "2005-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 6472,
+      "dst": 82142
+    },
+    {
+      "relate": "相同世界观",
+      "src": 6472,
+      "dst": 133337
+    },
+    {
+      "relate": "前传",
+      "src": 82142,
+      "dst": 6472
+    },
+    {
+      "relate": "相同世界观",
+      "src": 133337,
+      "dst": 6472
+    },
+    {
+      "relate": "相同世界观",
+      "src": 133337,
+      "dst": 457996
+    },
+    {
+      "relate": "相同世界观",
+      "src": 457996,
+      "dst": 133337
+    },
+    {
+      "relate": "续集",
+      "src": 457996,
+      "dst": 457997
+    },
+    {
+      "relate": "前传",
+      "src": 457997,
+      "dst": 457996
+    }
+  ]
+}

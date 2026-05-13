@@ -29,6 +29,14 @@
       "platform": "TV"
     },
     {
+      "id": 363082,
+      "name": "The Jungle Book",
+      "nameCN": "奇幻森林",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 443531,
       "name": "Маугли",
       "nameCN": "蒙哥里历险记",
@@ -36,6 +44,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 589740,
+      "name": "Mowgli: Legend of the Jungle",
+      "nameCN": "森林之子毛克利",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -48,6 +64,11 @@
       "relate": "不同演绎",
       "src": 64098,
       "dst": 140974
+    },
+    {
+      "relate": "不同演绎",
+      "src": 64098,
+      "dst": 363082
     },
     {
       "relate": "不同演绎",
@@ -66,8 +87,33 @@
     },
     {
       "relate": "不同演绎",
+      "src": 140974,
+      "dst": 363082
+    },
+    {
+      "relate": "不同演绎",
+      "src": 363082,
+      "dst": 64098
+    },
+    {
+      "relate": "不同演绎",
+      "src": 363082,
+      "dst": 140974
+    },
+    {
+      "relate": "不同演绎",
+      "src": 363082,
+      "dst": 589740
+    },
+    {
+      "relate": "不同演绎",
       "src": 443531,
       "dst": 64098
+    },
+    {
+      "relate": "不同演绎",
+      "src": 589740,
+      "dst": 363082
     }
   ]
 }

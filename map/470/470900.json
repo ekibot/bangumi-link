@@ -1,0 +1,52 @@
+{
+  "id": 470900,
+  "node": [
+    {
+      "id": 470900,
+      "name": "Rubble Trouble New York",
+      "nameCN": "高楼爆破",
+      "date": "2010-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 504322,
+      "name": "Rubble Trouble Tokyo",
+      "nameCN": "高楼爆破2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 504323,
+      "name": "Rubble Trouble Moscow",
+      "nameCN": "高楼爆破3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 470900,
+      "dst": 504322
+    },
+    {
+      "relate": "前传",
+      "src": 504322,
+      "dst": 470900
+    },
+    {
+      "relate": "续集",
+      "src": 504322,
+      "dst": 504323
+    },
+    {
+      "relate": "前传",
+      "src": 504323,
+      "dst": 504322
+    }
+  ]
+}

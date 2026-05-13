@@ -1,0 +1,54 @@
+{
+  "id": 296673,
+  "node": [
+    {
+      "id": 296673,
+      "name": "Coffee Talk",
+      "nameCN": "咖啡心语",
+      "date": "2020-01-29",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 387062,
+      "name": "Coffee Talk Episode 2: Hibiscus & Butterfly",
+      "nameCN": "咖啡心语 第二集：洛神花与蝴蝶",
+      "date": "2023-04-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509943,
+      "name": "Coffee Talk Tokyo",
+      "nameCN": "咖啡心语 东京",
+      "date": "2026-05-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 296673,
+      "dst": 387062
+    },
+    {
+      "relate": "前传",
+      "src": 387062,
+      "dst": 296673
+    },
+    {
+      "relate": "续集",
+      "src": 387062,
+      "dst": 509943
+    },
+    {
+      "relate": "前传",
+      "src": 509943,
+      "dst": 387062
+    }
+  ]
+}

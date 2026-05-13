@@ -1,0 +1,86 @@
+{
+  "id": 64109,
+  "node": [
+    {
+      "id": 64109,
+      "name": "Ted",
+      "nameCN": "泰迪熊",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 465735,
+      "name": "Ted",
+      "nameCN": "泰迪熊",
+      "date": "2024-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 477513,
+      "name": "Ted 2",
+      "nameCN": "泰迪熊2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 633271,
+      "name": "Ted Season 2",
+      "nameCN": "泰迪熊 第二季",
+      "date": "2026-03-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 64109,
+      "dst": 465735
+    },
+    {
+      "relate": "续集",
+      "src": 64109,
+      "dst": 477513
+    },
+    {
+      "relate": "前传",
+      "src": 64109,
+      "dst": 633271
+    },
+    {
+      "relate": "续集",
+      "src": 465735,
+      "dst": 633271
+    },
+    {
+      "relate": "前传",
+      "src": 477513,
+      "dst": 64109
+    },
+    {
+      "relate": "前传",
+      "src": 477513,
+      "dst": 633271
+    },
+    {
+      "relate": "续集",
+      "src": 633271,
+      "dst": 64109
+    },
+    {
+      "relate": "前传",
+      "src": 633271,
+      "dst": 465735
+    },
+    {
+      "relate": "续集",
+      "src": 633271,
+      "dst": 477513
+    }
+  ]
+}

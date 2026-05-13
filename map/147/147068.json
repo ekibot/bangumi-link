@@ -11,6 +11,14 @@
       "platform": "TV"
     },
     {
+      "id": 147527,
+      "name": "3月のライオン 前編",
+      "nameCN": "3月的狮子 前篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 211567,
       "name": "3月のライオン 第2シリーズ",
       "nameCN": "3月的狮子 第二季",
@@ -18,13 +26,41 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 173753,
+      "name": "3月のライオン 後編",
+      "nameCN": "3月的狮子 后篇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "不同演绎",
+      "src": 147068,
+      "dst": 147527
+    },
+    {
       "relate": "续集",
       "src": 147068,
       "dst": 211567
+    },
+    {
+      "relate": "不同演绎",
+      "src": 147527,
+      "dst": 147068
+    },
+    {
+      "relate": "续集",
+      "src": 147527,
+      "dst": 173753
+    },
+    {
+      "relate": "前传",
+      "src": 173753,
+      "dst": 147527
     },
     {
       "relate": "前传",

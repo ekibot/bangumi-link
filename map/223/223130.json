@@ -1,0 +1,54 @@
+{
+  "id": 223130,
+  "node": [
+    {
+      "id": 223130,
+      "name": "Jurassic World Evolution",
+      "nameCN": "侏罗纪世界 进化",
+      "date": "2018-06-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 338644,
+      "name": "Jurassic World Evolution 2",
+      "nameCN": "侏罗纪世界：进化 2",
+      "date": "2021-11-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 565261,
+      "name": "Jurassic World Evolution 3",
+      "nameCN": "侏罗纪世界：进化3",
+      "date": "2025-10-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 223130,
+      "dst": 338644
+    },
+    {
+      "relate": "前传",
+      "src": 338644,
+      "dst": 223130
+    },
+    {
+      "relate": "续集",
+      "src": 338644,
+      "dst": 565261
+    },
+    {
+      "relate": "前传",
+      "src": 565261,
+      "dst": 338644
+    }
+  ]
+}

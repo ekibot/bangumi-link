@@ -1,0 +1,54 @@
+{
+  "id": 238011,
+  "node": [
+    {
+      "id": 238011,
+      "name": "NOeSIS03-歌う影の戯曲-",
+      "nameCN": "",
+      "date": "2017-11-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 295354,
+      "name": "NOeSIS 羽化",
+      "nameCN": "NOeSIS 羽化 重制版",
+      "date": "2016-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 295352,
+      "name": "NOeSIS　嘘を吐いた記憶の物語",
+      "nameCN": "NOeSIS 诉说谎言的记忆之物语 重制版",
+      "date": "2016-06-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 238011,
+      "dst": 295354
+    },
+    {
+      "relate": "续集",
+      "src": 295352,
+      "dst": 295354
+    },
+    {
+      "relate": "续集",
+      "src": 295354,
+      "dst": 238011
+    },
+    {
+      "relate": "前传",
+      "src": 295354,
+      "dst": 295352
+    }
+  ]
+}

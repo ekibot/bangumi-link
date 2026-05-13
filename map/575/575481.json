@@ -1,0 +1,51 @@
+{
+  "id": 575481,
+  "node": [
+    {
+      "id": 575481,
+      "name": "Bill & Ted's Excellent Adventures",
+      "nameCN": "比尔和泰德历险记",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575484,
+      "name": "Bill & Ted's Bogus Journey",
+      "nameCN": "比尔和泰德畅游鬼门关",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 575490,
+      "name": "Bill & Ted Face the Music",
+      "nameCN": "比尔和泰德寻歌记",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 575481,
+      "dst": 575484
+    },
+    {
+      "relate": "前传",
+      "src": 575484,
+      "dst": 575481
+    },
+    {
+      "relate": "续集",
+      "src": 575484,
+      "dst": 575490
+    },
+    {
+      "relate": "前传",
+      "src": 575490,
+      "dst": 575484
+    }
+  ]
+}

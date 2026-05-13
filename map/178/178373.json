@@ -1,0 +1,48 @@
+{
+  "id": 178373,
+  "node": [
+    {
+      "id": 178373,
+      "name": "Enter the Gungeon",
+      "nameCN": "挺进地牢",
+      "date": "2016-04-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 549735,
+      "name": "Enter the Gungeon 2",
+      "nameCN": "挺进地牢2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 300810,
+      "name": "Exit the Gungeon",
+      "nameCN": "逃出地牢",
+      "date": "2019-09-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 178373,
+      "dst": 549735
+    },
+    {
+      "relate": "主线故事",
+      "src": 300810,
+      "dst": 178373
+    },
+    {
+      "relate": "前传",
+      "src": 549735,
+      "dst": 178373
+    }
+  ]
+}

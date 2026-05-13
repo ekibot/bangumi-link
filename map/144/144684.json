@@ -1,0 +1,51 @@
+{
+  "id": 144684,
+  "node": [
+    {
+      "id": 144684,
+      "name": "Bounce Tales",
+      "nameCN": "小红球传说",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 607412,
+      "name": "Bounce Back",
+      "nameCN": "小红球回归",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 154747,
+      "name": "Bounce Original",
+      "nameCN": "小红球",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 144684,
+      "dst": 607412
+    },
+    {
+      "relate": "续集",
+      "src": 154747,
+      "dst": 607412
+    },
+    {
+      "relate": "续集",
+      "src": 607412,
+      "dst": 144684
+    },
+    {
+      "relate": "前传",
+      "src": 607412,
+      "dst": 154747
+    }
+  ]
+}

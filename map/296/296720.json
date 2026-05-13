@@ -20,6 +20,14 @@
       "platform": "欧美剧"
     },
     {
+      "id": 532033,
+      "name": "High School Musical",
+      "nameCN": "歌舞青春",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 394632,
       "name": "High School Musical: The Musical - The Series Season 3",
       "nameCN": "歌舞青春：音乐剧集 第三季",
@@ -36,6 +44,30 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 532034,
+      "name": "High School Musical 2",
+      "nameCN": "歌舞青春2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532035,
+      "name": "High School Musical 3: Senior Year",
+      "nameCN": "歌舞青春3：毕业季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 532036,
+      "name": "Sharpay's Fabulous Adventure",
+      "nameCN": "千金傲游记",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -43,6 +75,11 @@
       "relate": "续集",
       "src": 296720,
       "dst": 375465
+    },
+    {
+      "relate": "不同演绎",
+      "src": 296720,
+      "dst": 532033
     },
     {
       "relate": "前传",
@@ -68,6 +105,41 @@
       "relate": "前传",
       "src": 450337,
       "dst": 394632
+    },
+    {
+      "relate": "不同演绎",
+      "src": 532033,
+      "dst": 296720
+    },
+    {
+      "relate": "续集",
+      "src": 532033,
+      "dst": 532034
+    },
+    {
+      "relate": "前传",
+      "src": 532034,
+      "dst": 532033
+    },
+    {
+      "relate": "续集",
+      "src": 532034,
+      "dst": 532035
+    },
+    {
+      "relate": "前传",
+      "src": 532035,
+      "dst": 532034
+    },
+    {
+      "relate": "续集",
+      "src": 532035,
+      "dst": 532036
+    },
+    {
+      "relate": "前传",
+      "src": 532036,
+      "dst": 532035
     }
   ]
 }

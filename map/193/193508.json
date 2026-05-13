@@ -18,6 +18,54 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 586333,
+      "name": "The Exorcist",
+      "nameCN": "驱魔人",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 586334,
+      "name": "Exorcist II: The Heretic",
+      "nameCN": "驱魔人II",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 586340,
+      "name": "Exorcist: The Beginning",
+      "nameCN": "驱魔人前传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 586341,
+      "name": "Dominion: Prequel to the Exorcist",
+      "nameCN": "驱魔人：欺瞒者",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 586342,
+      "name": "The Exorcist: Believer",
+      "nameCN": "驱魔人：信徒",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 586335,
+      "name": "The Exorcist III",
+      "nameCN": "驱魔人III",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +75,69 @@
       "dst": 226731
     },
     {
+      "relate": "不同演绎",
+      "src": 193508,
+      "dst": 586333
+    },
+    {
       "relate": "前传",
       "src": 226731,
       "dst": 193508
+    },
+    {
+      "relate": "不同演绎",
+      "src": 586333,
+      "dst": 193508
+    },
+    {
+      "relate": "续集",
+      "src": 586333,
+      "dst": 586334
+    },
+    {
+      "relate": "前传",
+      "src": 586333,
+      "dst": 586340
+    },
+    {
+      "relate": "番外篇",
+      "src": 586333,
+      "dst": 586341
+    },
+    {
+      "relate": "续集",
+      "src": 586333,
+      "dst": 586342
+    },
+    {
+      "relate": "前传",
+      "src": 586334,
+      "dst": 586333
+    },
+    {
+      "relate": "续集",
+      "src": 586334,
+      "dst": 586335
+    },
+    {
+      "relate": "前传",
+      "src": 586335,
+      "dst": 586334
+    },
+    {
+      "relate": "续集",
+      "src": 586340,
+      "dst": 586333
+    },
+    {
+      "relate": "主线故事",
+      "src": 586341,
+      "dst": 586333
+    },
+    {
+      "relate": "前传",
+      "src": 586342,
+      "dst": 586333
     }
   ]
 }

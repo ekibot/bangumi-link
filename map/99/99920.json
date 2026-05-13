@@ -1,0 +1,80 @@
+{
+  "id": 99920,
+  "node": [
+    {
+      "id": 99920,
+      "name": "Riddick",
+      "nameCN": "星际传奇3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 344261,
+      "name": "The Chronicles of Riddick",
+      "nameCN": "星际传奇2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 344260,
+      "name": "Pitch Black",
+      "nameCN": "星际传奇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 523922,
+      "name": "The Chronicles of Riddick: Dark Fury",
+      "nameCN": "雷迪克编年史：黑暗女神",
+      "date": "2004-06-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 99920,
+      "dst": 344261
+    },
+    {
+      "relate": "续集",
+      "src": 344260,
+      "dst": 344261
+    },
+    {
+      "relate": "续集",
+      "src": 344260,
+      "dst": 523922
+    },
+    {
+      "relate": "续集",
+      "src": 344261,
+      "dst": 99920
+    },
+    {
+      "relate": "前传",
+      "src": 344261,
+      "dst": 344260
+    },
+    {
+      "relate": "前传",
+      "src": 344261,
+      "dst": 523922
+    },
+    {
+      "relate": "前传",
+      "src": 523922,
+      "dst": 344260
+    },
+    {
+      "relate": "续集",
+      "src": 523922,
+      "dst": 344261
+    }
+  ]
+}

@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 215141,
+      "name": "となりの怪物くん",
+      "nameCN": "邻座的怪同学",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 59077
     },
     {
+      "relate": "不同演绎",
+      "src": 40533,
+      "dst": 215141
+    },
+    {
       "relate": "主线故事",
       "src": 59077,
+      "dst": 40533
+    },
+    {
+      "relate": "不同演绎",
+      "src": 215141,
       "dst": 40533
     }
   ]

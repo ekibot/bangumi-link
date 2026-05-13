@@ -83,6 +83,14 @@
       "platform": "OVA"
     },
     {
+      "id": 549652,
+      "name": "How to Train Your Dragon 2",
+      "nameCN": "驯龙高手2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 365366,
       "name": "How to Train Your Dragon: Homecoming",
       "nameCN": "驯龙高手：归家",
@@ -90,6 +98,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 420963,
+      "name": "How to Train Your Dragon",
+      "nameCN": "新·驯龙高手",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -149,6 +165,11 @@
       "dst": 316828
     },
     {
+      "relate": "不同演绎",
+      "src": 95796,
+      "dst": 549652
+    },
+    {
       "relate": "主线故事",
       "src": 110434,
       "dst": 13295
@@ -202,6 +223,21 @@
       "relate": "主线故事",
       "src": 365366,
       "dst": 215916
+    },
+    {
+      "relate": "续集",
+      "src": 420963,
+      "dst": 549652
+    },
+    {
+      "relate": "不同演绎",
+      "src": 549652,
+      "dst": 95796
+    },
+    {
+      "relate": "前传",
+      "src": 549652,
+      "dst": 420963
     }
   ]
 }

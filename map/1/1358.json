@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 59604,
+      "name": "ホタルノヒカリ",
+      "nameCN": "萤之光",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -27,9 +35,29 @@
       "dst": 7191
     },
     {
+      "relate": "番外篇",
+      "src": 1358,
+      "dst": 59604
+    },
+    {
       "relate": "前传",
       "src": 7191,
       "dst": 1358
+    },
+    {
+      "relate": "番外篇",
+      "src": 7191,
+      "dst": 59604
+    },
+    {
+      "relate": "番外篇",
+      "src": 59604,
+      "dst": 1358
+    },
+    {
+      "relate": "番外篇",
+      "src": 59604,
+      "dst": 7191
     }
   ]
 }

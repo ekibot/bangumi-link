@@ -1,0 +1,49 @@
+{
+  "id": 123497,
+  "node": [
+    {
+      "id": 123497,
+      "name": "Dying Light",
+      "nameCN": "消逝的光芒",
+      "date": "2015-01-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 249294,
+      "name": "Dying Light 2 Stay Human",
+      "nameCN": "消逝的光芒2：坚守人性",
+      "date": "2022-02-04",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 509037,
+      "name": "Dying Light: The Beast",
+      "nameCN": "消逝的光芒：困兽",
+      "date": "2025-09-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 123497,
+      "dst": 249294
+    },
+    {
+      "relate": "前传",
+      "src": 249294,
+      "dst": 123497
+    },
+    {
+      "relate": "主线故事",
+      "src": 509037,
+      "dst": 249294
+    }
+  ]
+}

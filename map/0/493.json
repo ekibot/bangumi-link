@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 521202,
+      "name": "Hellsing",
+      "nameCN": "皇家国教骑士团",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -56,8 +64,18 @@
     },
     {
       "relate": "不同演绎",
+      "src": 493,
+      "dst": 521202
+    },
+    {
+      "relate": "不同演绎",
       "src": 2216,
       "dst": 493
+    },
+    {
+      "relate": "不同演绎",
+      "src": 2216,
+      "dst": 521202
     },
     {
       "relate": "主线故事",
@@ -68,6 +86,16 @@
       "relate": "全集",
       "src": 285380,
       "dst": 493
+    },
+    {
+      "relate": "不同演绎",
+      "src": 521202,
+      "dst": 493
+    },
+    {
+      "relate": "不同演绎",
+      "src": 521202,
+      "dst": 2216
     }
   ]
 }

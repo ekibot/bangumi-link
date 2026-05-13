@@ -1,0 +1,53 @@
+{
+  "id": 524500,
+  "node": [
+    {
+      "id": 524500,
+      "name": "Satria Garuda BIMA-X",
+      "nameCN": "迦楼罗骑士比马X",
+      "date": "2014-09-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 524502,
+      "name": "Bima Satria Garuda",
+      "nameCN": "迦楼罗骑士比马",
+      "date": "2013-06-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 555511,
+      "name": "Satria Heroes: Revenge Of Darkness",
+      "nameCN": "骑士英雄：黑暗复仇",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 524500,
+      "dst": 524502
+    },
+    {
+      "relate": "续集",
+      "src": 524500,
+      "dst": 555511
+    },
+    {
+      "relate": "续集",
+      "src": 524502,
+      "dst": 524500
+    },
+    {
+      "relate": "前传",
+      "src": 555511,
+      "dst": 524500
+    }
+  ]
+}
