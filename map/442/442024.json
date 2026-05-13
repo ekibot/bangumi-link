@@ -14,7 +14,6 @@
       "id": 442770,
       "name": "ニンジャスレイヤー ネオサイタマ炎上",
       "nameCN": "忍者杀手",
-      "date": "2015-04-16",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -31,6 +30,14 @@
       "id": 442772,
       "name": "ニンジャスレイヤー第3部 不滅のニンジャソウル",
       "nameCN": "忍者杀手第三部 不灭的忍者灵魂",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 645906,
+      "name": "ニンジャスレイヤー Age of Mappor-Calypse",
+      "nameCN": "忍者杀手 末法默示时代",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -66,6 +73,16 @@
       "relate": "前传",
       "src": 442772,
       "dst": 442771
+    },
+    {
+      "relate": "续集",
+      "src": 442772,
+      "dst": 645906
+    },
+    {
+      "relate": "前传",
+      "src": 645906,
+      "dst": 442772
     }
   ]
 }

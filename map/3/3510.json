@@ -126,6 +126,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 649997,
+      "name": "ONE PIECE novel LAW",
+      "nameCN": "",
+      "date": "2020-04-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -195,6 +204,11 @@
       "dst": 637255
     },
     {
+      "relate": "番外篇",
+      "src": 3510,
+      "dst": 649997
+    },
+    {
       "relate": "主线故事",
       "src": 55585,
       "dst": 3510
@@ -257,6 +271,11 @@
     {
       "relate": "主线故事",
       "src": 637255,
+      "dst": 3510
+    },
+    {
+      "relate": "主线故事",
+      "src": 649997,
       "dst": 3510
     }
   ]

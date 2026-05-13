@@ -72,6 +72,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 645891,
+      "name": "GTO",
+      "nameCN": "",
+      "date": "2026-07-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "日剧"
     }
   ],
   "relate": [
@@ -149,6 +158,16 @@
       "relate": "主线故事",
       "src": 454848,
       "dst": 13203
+    },
+    {
+      "relate": "续集",
+      "src": 454848,
+      "dst": 645891
+    },
+    {
+      "relate": "前传",
+      "src": 645891,
+      "dst": 454848
     }
   ]
 }
