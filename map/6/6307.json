@@ -11,26 +11,9 @@
       "platform": "小说"
     },
     {
-      "id": 6362,
-      "name": "わたしたちの 超！ 田村くん",
-      "nameCN": "我们俩的超！田村同学",
-      "type": 1,
-      "nsfw": false,
-      "platform": "小说"
-    },
-    {
       "id": 6363,
       "name": "ひみつメランコリー",
       "nameCN": "秘密的忧郁",
-      "date": "2006-05-27",
-      "type": 1,
-      "nsfw": false,
-      "platform": "小说"
-    },
-    {
-      "id": 6364,
-      "name": "ニセとら！",
-      "nameCN": "",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
@@ -39,17 +22,31 @@
       "id": 6365,
       "name": "おひげガールズ",
       "nameCN": "有胡子的女孩",
+      "date": "2007-05-10",
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 650543,
+      "name": "電撃hPa",
+      "nameCN": "",
+      "date": "2005-10-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 650547,
+      "name": "電撃BUNKOYOMI",
+      "nameCN": "",
+      "date": "2006-11-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
-    {
-      "relate": "番外篇",
-      "src": 6307,
-      "dst": 6362
-    },
     {
       "relate": "番外篇",
       "src": 6307,
@@ -58,17 +55,17 @@
     {
       "relate": "番外篇",
       "src": 6307,
-      "dst": 6364
+      "dst": 6365
     },
     {
       "relate": "番外篇",
       "src": 6307,
-      "dst": 6365
+      "dst": 650543
     },
     {
-      "relate": "主线故事",
-      "src": 6362,
-      "dst": 6307
+      "relate": "番外篇",
+      "src": 6307,
+      "dst": 650547
     },
     {
       "relate": "主线故事",
@@ -77,12 +74,17 @@
     },
     {
       "relate": "主线故事",
-      "src": 6364,
+      "src": 6365,
       "dst": 6307
     },
     {
       "relate": "主线故事",
-      "src": 6365,
+      "src": 650543,
+      "dst": 6307
+    },
+    {
+      "relate": "主线故事",
+      "src": 650547,
       "dst": 6307
     }
   ]

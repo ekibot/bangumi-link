@@ -426,7 +426,7 @@
     {
       "id": 127457,
       "name": "SUBMARINE SUPER 99",
-      "nameCN": "",
+      "nameCN": "超级潜艇99",
       "date": "2003-05-08",
       "type": 2,
       "nsfw": false,
@@ -498,6 +498,15 @@
       "id": 219099,
       "name": "THE ZERO CENTURY MAETEL",
       "nameCN": "零世纪 梅德尔",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 652822,
+      "name": "銀河鉄道物語 〜忘れられた時の惑星〜",
+      "nameCN": "银河铁道物语 被遗忘时间的惑星 剧场版",
+      "date": "2007-03-24",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -1150,6 +1159,11 @@
       "relate": "续集",
       "src": 49267,
       "dst": 12785
+    },
+    {
+      "relate": "总集篇",
+      "src": 49267,
+      "dst": 652822
     },
     {
       "relate": "续集",
@@ -1930,6 +1944,11 @@
       "relate": "不同演绎",
       "src": 620108,
       "dst": 74534
+    },
+    {
+      "relate": "全集",
+      "src": 652822,
+      "dst": 49267
     }
   ]
 }
