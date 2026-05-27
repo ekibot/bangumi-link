@@ -11,6 +11,15 @@
       "platform": "其他"
     },
     {
+      "id": 256548,
+      "name": "Tiny Toon Adventures: Buster's Hidden Treasure",
+      "nameCN": "宾尼兔大冒险-隐藏的宝藏",
+      "date": "1993-02-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 256902,
       "name": "Tiny Toon Adventures 2: Trouble in Wackyland",
       "nameCN": "兔宝宝历险记2",
@@ -18,18 +27,131 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 257058,
+      "name": "Tiny Toon Adventures: Buster Busts Loose!",
+      "nameCN": "顽皮兔大冒险",
+      "date": "1992-12-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 655069,
+      "name": "Tiny Toon Adventures: Babs' Big Break",
+      "nameCN": "兔宝宝历险记：芭布丝的大突破",
+      "date": "1992-02-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 655070,
+      "name": "Tiny Toon Adventures 2: Montana's Movie Madness",
+      "nameCN": "兔宝宝历险记2：蒙大拿的疯狂电影",
+      "date": "1993-12-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 655137,
+      "name": "Tiny Toon Adventures: Wacky Sports",
+      "nameCN": "兔宝宝历险记3：心跳运动会",
+      "date": "1994-11-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 655136,
+      "name": "Tiny Toon Adventures: Wacky Sports Challenge",
+      "nameCN": "兔宝宝历险记：古怪运动会",
+      "date": "1994-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 655138,
+      "name": "Tiny Toon Adventures: ACME All-Stars",
+      "nameCN": "兔宝宝历险记：ACME全明星",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
+    {
+      "relate": "相同世界观",
+      "src": 101733,
+      "dst": 256548
+    },
     {
       "relate": "续集",
       "src": 101733,
       "dst": 256902
     },
     {
+      "relate": "相同世界观",
+      "src": 101733,
+      "dst": 257058
+    },
+    {
+      "relate": "相同世界观",
+      "src": 101733,
+      "dst": 655069
+    },
+    {
+      "relate": "相同世界观",
+      "src": 256548,
+      "dst": 101733
+    },
+    {
       "relate": "前传",
       "src": 256902,
       "dst": 101733
+    },
+    {
+      "relate": "相同世界观",
+      "src": 257058,
+      "dst": 101733
+    },
+    {
+      "relate": "相同世界观",
+      "src": 655069,
+      "dst": 101733
+    },
+    {
+      "relate": "续集",
+      "src": 655069,
+      "dst": 655070
+    },
+    {
+      "relate": "前传",
+      "src": 655070,
+      "dst": 655069
+    },
+    {
+      "relate": "续集",
+      "src": 655070,
+      "dst": 655137
+    },
+    {
+      "relate": "主线故事",
+      "src": 655136,
+      "dst": 257058
+    },
+    {
+      "relate": "前传",
+      "src": 655137,
+      "dst": 655070
+    },
+    {
+      "relate": "主线故事",
+      "src": 655138,
+      "dst": 256548
     }
   ]
 }

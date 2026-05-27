@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 631210,
-      "name": "VIPER アイランド Vol.1",
+      "name": "Réserve",
       "nameCN": "",
       "date": "1999-01-29",
       "type": 4,
@@ -12,9 +12,18 @@
     },
     {
       "id": 631281,
-      "name": "VIPER アイランド Vol.2",
+      "name": "Réserve 1/2",
       "nameCN": "",
       "date": "1999-03-25",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 654238,
+      "name": "Réserve 2",
+      "nameCN": "",
+      "date": "1999-11-25",
       "type": 4,
       "nsfw": true,
       "platform": "其他"
@@ -27,8 +36,18 @@
       "dst": 631281
     },
     {
+      "relate": "续集",
+      "src": 631210,
+      "dst": 654238
+    },
+    {
       "relate": "相同世界观",
       "src": 631281,
+      "dst": 631210
+    },
+    {
+      "relate": "前传",
+      "src": 654238,
       "dst": 631210
     }
   ]

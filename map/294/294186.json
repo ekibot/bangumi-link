@@ -4,8 +4,7 @@
     {
       "id": 294186,
       "name": "For All Mankind",
-      "nameCN": "为全人类",
-      "date": "2019-11-01",
+      "nameCN": "为了全人类",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -15,6 +14,14 @@
       "name": "For All Mankind Season 2",
       "nameCN": "为全人类 第二季",
       "date": "2021-02-19",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 655115,
+      "name": "Star City",
+      "nameCN": "星城",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -53,6 +60,11 @@
       "dst": 328893
     },
     {
+      "relate": "衍生",
+      "src": 294186,
+      "dst": 655115
+    },
+    {
       "relate": "前传",
       "src": 328893,
       "dst": 294186
@@ -86,6 +98,11 @@
       "relate": "前传",
       "src": 637701,
       "dst": 464803
+    },
+    {
+      "relate": "衍生",
+      "src": 655115,
+      "dst": 294186
     }
   ]
 }
