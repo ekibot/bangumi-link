@@ -17,6 +17,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 656794,
+      "name": "Paradox Live THE ANIMATION 映画",
+      "nameCN": "Paradox Live THE ANIMATION 电影",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -24,6 +32,16 @@
       "relate": "不同演绎",
       "src": 385210,
       "dst": 407348
+    },
+    {
+      "relate": "续集",
+      "src": 385210,
+      "dst": 656794
+    },
+    {
+      "relate": "前传",
+      "src": 656794,
+      "dst": 385210
     }
   ]
 }

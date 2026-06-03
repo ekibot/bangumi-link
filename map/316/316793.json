@@ -1,0 +1,35 @@
+{
+  "id": 316793,
+  "node": [
+    {
+      "id": 316793,
+      "name": "The Smokey Bear Show",
+      "nameCN": "斯莫基熊",
+      "date": "1969-09-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 656950,
+      "name": "The Ballad of Smokey the Bear",
+      "nameCN": "斯莫基熊之歌",
+      "date": "1966-11-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 316793,
+      "dst": 656950
+    },
+    {
+      "relate": "续集",
+      "src": 656950,
+      "dst": 316793
+    }
+  ]
+}

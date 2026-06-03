@@ -13,7 +13,38 @@
       "id": 95604,
       "name": "The Hunger Games: Catching Fire",
       "nameCN": "饥饿游戏2：星火燎原",
-      "date": "2013-11-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 657364,
+      "name": "The Hunger Games: Sunrise on the Reaping",
+      "nameCN": "饥饿游戏：收获日出",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 657356,
+      "name": "The Hunger Games: Mockingjay - Part 1",
+      "nameCN": "饥饿游戏3：嘲笑鸟(上)",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 644620,
+      "name": "The Hunger Games: The Ballad of Songbirds and Snakes",
+      "nameCN": "饥饿游戏：鸣鸟与蛇之歌",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 657357,
+      "name": "The Hunger Games: Mockingjay - Part 2",
+      "nameCN": "饥饿游戏3：嘲笑鸟(下)",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -27,8 +58,48 @@
     },
     {
       "relate": "前传",
+      "src": 47074,
+      "dst": 657364
+    },
+    {
+      "relate": "前传",
       "src": 95604,
       "dst": 47074
+    },
+    {
+      "relate": "续集",
+      "src": 95604,
+      "dst": 657356
+    },
+    {
+      "relate": "续集",
+      "src": 644620,
+      "dst": 657364
+    },
+    {
+      "relate": "前传",
+      "src": 657356,
+      "dst": 95604
+    },
+    {
+      "relate": "续集",
+      "src": 657356,
+      "dst": 657357
+    },
+    {
+      "relate": "前传",
+      "src": 657357,
+      "dst": 657356
+    },
+    {
+      "relate": "续集",
+      "src": 657364,
+      "dst": 47074
+    },
+    {
+      "relate": "前传",
+      "src": 657364,
+      "dst": 644620
     }
   ]
 }

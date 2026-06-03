@@ -43,6 +43,22 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 101236,
+      "name": "Epic Battle Fantasy 3.3: Bullet Heaven",
+      "nameCN": "史诗幻想：弹幕天堂",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 636463,
+      "name": "Bullet Heaven 2",
+      "nameCN": "弹幕天堂2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -82,9 +98,29 @@
       "dst": 269379
     },
     {
+      "relate": "主线故事",
+      "src": 101236,
+      "dst": 19880
+    },
+    {
+      "relate": "续集",
+      "src": 101236,
+      "dst": 636463
+    },
+    {
       "relate": "前传",
       "src": 269379,
       "dst": 72716
+    },
+    {
+      "relate": "主线故事",
+      "src": 636463,
+      "dst": 72716
+    },
+    {
+      "relate": "前传",
+      "src": 636463,
+      "dst": 101236
     }
   ]
 }

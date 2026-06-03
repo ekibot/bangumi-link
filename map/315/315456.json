@@ -20,8 +20,9 @@
     },
     {
       "id": 340869,
-      "name": "SK∞ エスケーエイト The Stage",
+      "name": "SK∞ エスケーエイト The Stage 第一部 The First Part ～熱い夜のはじまり～",
       "nameCN": "舞台剧 无限滑板",
+      "date": "2021-12-02",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
@@ -34,6 +35,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "OVA"
+    },
+    {
+      "id": 655806,
+      "name": "SK∞ エスケーエイト The Stage 第二部 The Last Part ～俺たちの無限大～",
+      "nameCN": "",
+      "date": "2023-01-11",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -63,9 +73,19 @@
       "dst": 315456
     },
     {
+      "relate": "续集",
+      "src": 340869,
+      "dst": 655806
+    },
+    {
       "relate": "主线故事",
       "src": 396229,
       "dst": 315456
+    },
+    {
+      "relate": "前传",
+      "src": 655806,
+      "dst": 340869
     }
   ]
 }
