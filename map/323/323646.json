@@ -1,0 +1,51 @@
+{
+  "id": 323646,
+  "node": [
+    {
+      "id": 323646,
+      "name": "ギャルズパニックS2",
+      "nameCN": "天蚕变S2",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 658076,
+      "name": "ギャルズパニックS",
+      "nameCN": "天蚕变S",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 658079,
+      "name": "ギャルズパニックS3",
+      "nameCN": "天蚕变S3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 323646,
+      "dst": 658076
+    },
+    {
+      "relate": "续集",
+      "src": 323646,
+      "dst": 658079
+    },
+    {
+      "relate": "续集",
+      "src": 658076,
+      "dst": 323646
+    },
+    {
+      "relate": "前传",
+      "src": 658079,
+      "dst": 323646
+    }
+  ]
+}

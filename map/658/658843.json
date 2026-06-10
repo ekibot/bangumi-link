@@ -1,0 +1,54 @@
+{
+  "id": 658843,
+  "node": [
+    {
+      "id": 658843,
+      "name": "Marvel's Spider-Man: The Black Cat Strikes",
+      "nameCN": "",
+      "date": "2020-09-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 658848,
+      "name": "Marvel's Spider-Man: Velocity",
+      "nameCN": "",
+      "date": "2020-03-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 658849,
+      "name": "Marvel's Spider-Man: City at War",
+      "nameCN": "",
+      "date": "2019-10-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 658843,
+      "dst": 658848
+    },
+    {
+      "relate": "续集",
+      "src": 658848,
+      "dst": 658843
+    },
+    {
+      "relate": "前传",
+      "src": 658848,
+      "dst": 658849
+    },
+    {
+      "relate": "续集",
+      "src": 658849,
+      "dst": 658848
+    }
+  ]
+}

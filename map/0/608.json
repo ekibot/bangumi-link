@@ -11,15 +11,6 @@
       "platform": "其他"
     },
     {
-      "id": 88413,
-      "name": "StarCraft: Brood War",
-      "nameCN": "星际争霸：母巢之战",
-      "date": "1998-11-30",
-      "type": 4,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 1647,
       "name": "StarCraft II: Wings of Liberty",
       "nameCN": "星际争霸2：自由之翼",
@@ -47,9 +38,18 @@
       "platform": "其他"
     },
     {
+      "id": 88413,
+      "name": "StarCraft: Brood War",
+      "nameCN": "星际争霸：母巢之战",
+      "date": "1998-11-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 167709,
-      "name": "Speed of Darkness (StarCraft #3)",
-      "nameCN": "黑暗降临之前",
+      "name": "StarCraft #3: Speed of Darkness",
+      "nameCN": "星际争霸：黑暗降临之前",
       "date": "2002-06-01",
       "type": 1,
       "nsfw": false,
@@ -58,28 +58,28 @@
     {
       "id": 234828,
       "name": "StarCraft II: Heaven's Devils",
-      "nameCN": "",
+      "nameCN": "星际争霸：天堂恶魔",
       "date": "2010-12-28",
       "type": 1,
       "nsfw": false,
-      "platform": "其他"
+      "platform": "小说"
     }
   ],
   "relate": [
     {
       "relate": "续集",
       "src": 608,
-      "dst": 88413
+      "dst": 1647
+    },
+    {
+      "relate": "前传",
+      "src": 1647,
+      "dst": 608
     },
     {
       "relate": "续集",
       "src": 1647,
       "dst": 54253
-    },
-    {
-      "relate": "前传",
-      "src": 1647,
-      "dst": 88413
     },
     {
       "relate": "前传",
@@ -90,11 +90,6 @@
       "relate": "续集",
       "src": 54253,
       "dst": 118410
-    },
-    {
-      "relate": "前传",
-      "src": 88413,
-      "dst": 608
     },
     {
       "relate": "续集",

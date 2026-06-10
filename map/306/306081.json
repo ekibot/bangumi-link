@@ -18,6 +18,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 657843,
+      "name": "Stuntman: Hollywood",
+      "nameCN": "特技演员：好莱坞",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +38,16 @@
       "relate": "前传",
       "src": 306083,
       "dst": 306081
+    },
+    {
+      "relate": "续集",
+      "src": 306083,
+      "dst": 657843
+    },
+    {
+      "relate": "前传",
+      "src": 657843,
+      "dst": 306083
     }
   ]
 }

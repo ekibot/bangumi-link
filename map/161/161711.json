@@ -4,7 +4,7 @@
     {
       "id": 161711,
       "name": "Cuphead",
-      "nameCN": "茶杯头大冒险",
+      "nameCN": "茶杯头",
       "date": "2017-09-29",
       "type": 4,
       "nsfw": false,
@@ -36,6 +36,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 658243,
+      "name": "Mighty Cuphead Adventure",
+      "nameCN": "茶杯头大冒险",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -56,6 +64,11 @@
     },
     {
       "relate": "续集",
+      "src": 161711,
+      "dst": 658243
+    },
+    {
+      "relate": "续集",
       "src": 286186,
       "dst": 386950
     },
@@ -73,6 +86,11 @@
       "relate": "前传",
       "src": 410486,
       "dst": 386950
+    },
+    {
+      "relate": "前传",
+      "src": 658243,
+      "dst": 161711
     }
   ]
 }

@@ -460,6 +460,15 @@
       "platform": "漫画"
     },
     {
+      "id": 428404,
+      "name": "Spider-Gwen: Ghost-Spider Vol. 1: Spider-Geddon",
+      "nameCN": "",
+      "date": "2019-05-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 608625,
       "name": "Spider-Geddon",
       "nameCN": "",
@@ -482,6 +491,24 @@
       "name": "Spider-Geddon: Edge of Spider-Geddon",
       "nameCN": "",
       "date": "2019-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 658469,
+      "name": "Peter Parker: The Spectacular Spider-Man Vol. 5: Spider-Geddon",
+      "nameCN": "",
+      "date": "2019-02-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 658493,
+      "name": "Spider-Geddon: Covert Ops",
+      "nameCN": "",
+      "date": "2019-03-12",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -1056,6 +1083,11 @@
       "dst": 607481
     },
     {
+      "relate": "主线故事",
+      "src": 428404,
+      "dst": 608625
+    },
+    {
       "relate": "前传",
       "src": 607473,
       "dst": 608625
@@ -1071,6 +1103,11 @@
       "dst": 635446
     },
     {
+      "relate": "番外篇",
+      "src": 608625,
+      "dst": 428404
+    },
+    {
       "relate": "续集",
       "src": 608625,
       "dst": 607473
@@ -1079,6 +1116,16 @@
       "relate": "前传",
       "src": 608625,
       "dst": 639098
+    },
+    {
+      "relate": "番外篇",
+      "src": 608625,
+      "dst": 658469
+    },
+    {
+      "relate": "番外篇",
+      "src": 608625,
+      "dst": 658493
     },
     {
       "relate": "主线故事",
@@ -1609,6 +1656,16 @@
       "relate": "主线故事",
       "src": 656760,
       "dst": 656111
+    },
+    {
+      "relate": "主线故事",
+      "src": 658469,
+      "dst": 608625
+    },
+    {
+      "relate": "主线故事",
+      "src": 658493,
+      "dst": 608625
     }
   ]
 }

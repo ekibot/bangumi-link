@@ -18,6 +18,33 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 658595,
+      "name": "Space Empires III",
+      "nameCN": "太空帝国III",
+      "date": "1997-10-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 658589,
+      "name": "Space Empires II",
+      "nameCN": "太空帝国2",
+      "date": "1995-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 658599,
+      "name": "Space Empires I",
+      "nameCN": "太空帝国I",
+      "date": "1995-01-01",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +57,36 @@
       "relate": "续集",
       "src": 38693,
       "dst": 38692
+    },
+    {
+      "relate": "前传",
+      "src": 38693,
+      "dst": 658595
+    },
+    {
+      "relate": "续集",
+      "src": 658589,
+      "dst": 658595
+    },
+    {
+      "relate": "前传",
+      "src": 658589,
+      "dst": 658599
+    },
+    {
+      "relate": "续集",
+      "src": 658595,
+      "dst": 38693
+    },
+    {
+      "relate": "前传",
+      "src": 658595,
+      "dst": 658589
+    },
+    {
+      "relate": "续集",
+      "src": 658599,
+      "dst": 658589
     }
   ]
 }

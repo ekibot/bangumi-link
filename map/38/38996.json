@@ -54,6 +54,14 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 658241,
+      "name": "Guild Wars 3",
+      "nameCN": "激战3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -118,6 +126,11 @@
       "dst": 39000
     },
     {
+      "relate": "续集",
+      "src": 39240,
+      "dst": 658241
+    },
+    {
       "relate": "前传",
       "src": 168219,
       "dst": 38996
@@ -136,6 +149,11 @@
       "relate": "前传",
       "src": 168219,
       "dst": 39000
+    },
+    {
+      "relate": "前传",
+      "src": 658241,
+      "dst": 39240
     }
   ]
 }

@@ -18,6 +18,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 659016,
+      "name": "4コマしーきゅーぶ vol.1",
+      "nameCN": "",
+      "date": "2013-08-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 76337
     },
     {
+      "relate": "番外篇",
+      "src": 76308,
+      "dst": 659016
+    },
+    {
       "relate": "续集",
       "src": 76337,
+      "dst": 76308
+    },
+    {
+      "relate": "主线故事",
+      "src": 659016,
       "dst": 76308
     }
   ]

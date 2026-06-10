@@ -162,6 +162,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 658054,
+      "name": "魔法科高校の劣等生 第二部",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -346,9 +354,19 @@
       "dst": 364522
     },
     {
+      "relate": "续集",
+      "src": 501729,
+      "dst": 658054
+    },
+    {
       "relate": "主线故事",
       "src": 505477,
       "dst": 26505
+    },
+    {
+      "relate": "前传",
+      "src": 658054,
+      "dst": 501729
     }
   ]
 }
