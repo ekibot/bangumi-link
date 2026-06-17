@@ -1,0 +1,54 @@
+{
+  "id": 658671,
+  "node": [
+    {
+      "id": 658671,
+      "name": "Go Jetters",
+      "nameCN": "全球探险冲冲冲",
+      "date": "2015-10-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 658674,
+      "name": "Go Jetters Series 2",
+      "nameCN": "全球探险冲冲冲 第二季",
+      "date": "2017-09-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 658676,
+      "name": "Go Jetters Series 3",
+      "nameCN": "全球探险冲冲冲 第三季",
+      "date": "2019-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 658671,
+      "dst": 658674
+    },
+    {
+      "relate": "前传",
+      "src": 658674,
+      "dst": 658671
+    },
+    {
+      "relate": "续集",
+      "src": 658674,
+      "dst": 658676
+    },
+    {
+      "relate": "前传",
+      "src": 658676,
+      "dst": 658674
+    }
+  ]
+}

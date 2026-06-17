@@ -1,0 +1,35 @@
+{
+  "id": 660646,
+  "node": [
+    {
+      "id": 660646,
+      "name": "X-Men Origins",
+      "nameCN": "",
+      "date": "2010-06-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 660647,
+      "name": "X-Men Origins II",
+      "nameCN": "",
+      "date": "2011-03-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 660646,
+      "dst": 660647
+    },
+    {
+      "relate": "续集",
+      "src": 660647,
+      "dst": 660646
+    }
+  ]
+}

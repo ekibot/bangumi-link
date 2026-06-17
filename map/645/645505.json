@@ -98,6 +98,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 660356,
+      "name": "Wolverine (2003)",
+      "nameCN": "",
+      "date": "2004-02-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -210,6 +219,16 @@
       "relate": "续集",
       "src": 659122,
       "dst": 659101
+    },
+    {
+      "relate": "前传",
+      "src": 659122,
+      "dst": 660356
+    },
+    {
+      "relate": "续集",
+      "src": 660356,
+      "dst": 659122
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": 658450,
+  "node": [
+    {
+      "id": 658450,
+      "name": "Sid the Science Kid",
+      "nameCN": "科学小子席德",
+      "date": "2008-09-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 658451,
+      "name": "Sid the Science Kid Season 2",
+      "nameCN": "科学小子席德 第二季",
+      "date": "2010-06-21",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 658535,
+      "name": "Sid the Science Kid: The Movie",
+      "nameCN": "科学小子席德之博物馆奇幻记",
+      "date": "2013-03-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 658450,
+      "dst": 658451
+    },
+    {
+      "relate": "番外篇",
+      "src": 658450,
+      "dst": 658535
+    },
+    {
+      "relate": "前传",
+      "src": 658451,
+      "dst": 658450
+    },
+    {
+      "relate": "主线故事",
+      "src": 658535,
+      "dst": 658450
+    }
+  ]
+}

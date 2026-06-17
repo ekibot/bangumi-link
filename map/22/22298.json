@@ -1,0 +1,54 @@
+{
+  "id": 22298,
+  "node": [
+    {
+      "id": 22298,
+      "name": "Avadon: The Black Fortress",
+      "nameCN": "阿瓦登：黑暗城堡",
+      "date": "2011-05-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 659973,
+      "name": "Avadon 2: The Corruption",
+      "nameCN": "",
+      "date": "2013-10-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 659975,
+      "name": "Avadon 3: The Warborn",
+      "nameCN": "",
+      "date": "2016-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 22298,
+      "dst": 659973
+    },
+    {
+      "relate": "前传",
+      "src": 659973,
+      "dst": 22298
+    },
+    {
+      "relate": "续集",
+      "src": 659973,
+      "dst": 659975
+    },
+    {
+      "relate": "前传",
+      "src": 659975,
+      "dst": 659973
+    }
+  ]
+}

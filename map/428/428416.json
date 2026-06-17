@@ -20,24 +20,6 @@
       "platform": "漫画"
     },
     {
-      "id": 597713,
-      "name": "Spider-Gwen: Gwenverse",
-      "nameCN": "蜘蛛格温：格温宇宙",
-      "date": "2022-11-23",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 597743,
-      "name": "King in Black: Gwenom Vs. Carnage",
-      "nameCN": "黑衣帝王：毒液格温VS屠杀玛丽",
-      "date": "2021-08-10",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 635471,
       "name": "Spider-Gwen: Smash",
       "nameCN": "",
@@ -81,6 +63,33 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 597713,
+      "name": "Spider-Gwen: Gwenverse",
+      "nameCN": "蜘蛛格温：格温宇宙",
+      "date": "2022-11-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 597743,
+      "name": "King in Black: Gwenom Vs. Carnage",
+      "nameCN": "黑衣帝王：毒液格温VS屠杀玛丽",
+      "date": "2021-08-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 660452,
+      "name": "Spider-Gwen: Shadow Clones",
+      "nameCN": "",
+      "date": "2023-10-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -96,23 +105,13 @@
     },
     {
       "relate": "前传",
-      "src": 597713,
-      "dst": 597743
-    },
-    {
-      "relate": "续集",
-      "src": 597713,
-      "dst": 635471
-    },
-    {
-      "relate": "前传",
       "src": 597736,
       "dst": 635471
     },
     {
       "relate": "续集",
-      "src": 597743,
-      "dst": 597713
+      "src": 635471,
+      "dst": 597736
     },
     {
       "relate": "前传",
@@ -141,18 +140,28 @@
     },
     {
       "relate": "前传",
+      "src": 597713,
+      "dst": 597743
+    },
+    {
+      "relate": "续集",
+      "src": 597713,
+      "dst": 660452
+    },
+    {
+      "relate": "续集",
+      "src": 597743,
+      "dst": 597713
+    },
+    {
+      "relate": "前传",
       "src": 597743,
       "dst": 635901
     },
     {
       "relate": "前传",
       "src": 635471,
-      "dst": 597713
-    },
-    {
-      "relate": "续集",
-      "src": 635471,
-      "dst": 597736
+      "dst": 660452
     },
     {
       "relate": "前传",
@@ -163,6 +172,16 @@
       "relate": "续集",
       "src": 635901,
       "dst": 597743
+    },
+    {
+      "relate": "前传",
+      "src": 660452,
+      "dst": 597713
+    },
+    {
+      "relate": "续集",
+      "src": 660452,
+      "dst": 635471
     }
   ]
 }
