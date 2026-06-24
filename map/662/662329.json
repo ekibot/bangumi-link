@@ -1,0 +1,53 @@
+{
+  "id": 662329,
+  "node": [
+    {
+      "id": 662329,
+      "name": "Martin Mystère",
+      "nameCN": "校园神兵",
+      "date": "2003-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 662331,
+      "name": "Martin Mystère Season 2",
+      "nameCN": "校园神兵 第二季",
+      "date": "2004-08-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 662332,
+      "name": "Martin Mystère Season 3",
+      "nameCN": "校园神兵 第三季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 662329,
+      "dst": 662331
+    },
+    {
+      "relate": "前传",
+      "src": 662331,
+      "dst": 662329
+    },
+    {
+      "relate": "续集",
+      "src": 662331,
+      "dst": 662332
+    },
+    {
+      "relate": "前传",
+      "src": 662332,
+      "dst": 662331
+    }
+  ]
+}

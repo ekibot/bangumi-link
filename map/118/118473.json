@@ -20,6 +20,15 @@
       "platform": "TV"
     },
     {
+      "id": 136125,
+      "name": "Sofia the First: Once Upon a Princess",
+      "nameCN": "小公主苏菲亚：公主传奇",
+      "date": "2012-11-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 199330,
       "name": "Elena of Avalor Season 1",
       "nameCN": "艾莲娜公主 第一季",
@@ -45,6 +54,42 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 199331,
+      "name": "Elena and the Secret of Avalor",
+      "nameCN": "艾莲娜公主与阿瓦洛王国之谜",
+      "date": "2016-11-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 662507,
+      "name": "Elena of Avalor Season 2",
+      "nameCN": "艾莲娜公主 第二季",
+      "date": "2017-10-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 662033,
+      "name": "Sofia the First: Royal Magic",
+      "nameCN": "小公主苏菲亚：皇家魔法",
+      "date": "2026-05-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 662513,
+      "name": "Elena of Avalor Season 3",
+      "nameCN": "艾莲娜公主 第三季",
+      "date": "2019-10-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -52,6 +97,11 @@
       "relate": "续集",
       "src": 118473,
       "dst": 118474
+    },
+    {
+      "relate": "番外篇",
+      "src": 118473,
+      "dst": 136125
     },
     {
       "relate": "相同世界观",
@@ -69,19 +119,14 @@
       "dst": 149647
     },
     {
-      "relate": "相同世界观",
-      "src": 118474,
-      "dst": 199330
+      "relate": "主线故事",
+      "src": 136125,
+      "dst": 118473
     },
     {
       "relate": "前传",
       "src": 149647,
       "dst": 118474
-    },
-    {
-      "relate": "相同世界观",
-      "src": 149647,
-      "dst": 199330
     },
     {
       "relate": "续集",
@@ -94,19 +139,49 @@
       "dst": 118473
     },
     {
-      "relate": "相同世界观",
+      "relate": "番外篇",
       "src": 199330,
-      "dst": 118474
+      "dst": 199331
     },
     {
-      "relate": "相同世界观",
+      "relate": "续集",
       "src": 199330,
-      "dst": 149647
+      "dst": 662507
+    },
+    {
+      "relate": "主线故事",
+      "src": 199331,
+      "dst": 199330
     },
     {
       "relate": "前传",
       "src": 323398,
       "dst": 149647
+    },
+    {
+      "relate": "续集",
+      "src": 323398,
+      "dst": 662033
+    },
+    {
+      "relate": "前传",
+      "src": 662033,
+      "dst": 323398
+    },
+    {
+      "relate": "前传",
+      "src": 662507,
+      "dst": 199330
+    },
+    {
+      "relate": "续集",
+      "src": 662507,
+      "dst": 662513
+    },
+    {
+      "relate": "前传",
+      "src": 662513,
+      "dst": 662507
     }
   ]
 }

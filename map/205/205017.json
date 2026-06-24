@@ -1,0 +1,54 @@
+{
+  "id": 205017,
+  "node": [
+    {
+      "id": 205017,
+      "name": "Ransom Season 1",
+      "nameCN": "赎金 第一季",
+      "date": "2017-01-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 663089,
+      "name": "Ransom Season 2",
+      "nameCN": "赎金 第二季",
+      "date": "2018-04-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 663090,
+      "name": "Ransom Season 3",
+      "nameCN": "赎金 第三季",
+      "date": "2019-02-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 205017,
+      "dst": 663089
+    },
+    {
+      "relate": "前传",
+      "src": 663089,
+      "dst": 205017
+    },
+    {
+      "relate": "续集",
+      "src": 663089,
+      "dst": 663090
+    },
+    {
+      "relate": "前传",
+      "src": 663090,
+      "dst": 663089
+    }
+  ]
+}

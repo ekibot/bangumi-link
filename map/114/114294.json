@@ -27,6 +27,33 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 661539,
+      "name": "Madam Secretary Season 4",
+      "nameCN": "国务卿女士 第四季",
+      "date": "2017-10-08",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 661548,
+      "name": "Madam Secretary Season 5",
+      "nameCN": "国务卿女士 第五季",
+      "date": "2018-10-07",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 661563,
+      "name": "Madam Secretary Season 6",
+      "nameCN": "国务卿女士 第六季",
+      "date": "2019-10-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -49,6 +76,36 @@
       "relate": "前传",
       "src": 182303,
       "dst": 148486
+    },
+    {
+      "relate": "续集",
+      "src": 182303,
+      "dst": 661539
+    },
+    {
+      "relate": "前传",
+      "src": 661539,
+      "dst": 182303
+    },
+    {
+      "relate": "续集",
+      "src": 661539,
+      "dst": 661548
+    },
+    {
+      "relate": "前传",
+      "src": 661548,
+      "dst": 661539
+    },
+    {
+      "relate": "续集",
+      "src": 661548,
+      "dst": 661563
+    },
+    {
+      "relate": "前传",
+      "src": 661563,
+      "dst": 661548
     }
   ]
 }

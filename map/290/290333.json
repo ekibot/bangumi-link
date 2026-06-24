@@ -31,7 +31,7 @@
     {
       "id": 382619,
       "name": "We Were Here Forever",
-      "nameCN": "",
+      "nameCN": "我们曾到此永",
       "date": "2022-05-10",
       "type": 4,
       "nsfw": false,
@@ -42,6 +42,14 @@
       "name": "We Were Here Expeditions: The FriendShip",
       "nameCN": "我们曾到此探险：友谊考验",
       "date": "2023-09-14",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 662041,
+      "name": "We Were Here Tomorrow",
+      "nameCN": "我们曾到此：明日遗踪",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -87,6 +95,16 @@
       "relate": "前传",
       "src": 455816,
       "dst": 382619
+    },
+    {
+      "relate": "续集",
+      "src": 455816,
+      "dst": 662041
+    },
+    {
+      "relate": "前传",
+      "src": 662041,
+      "dst": 455816
     }
   ]
 }
