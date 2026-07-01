@@ -32,6 +32,22 @@
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
+    },
+    {
+      "id": 664365,
+      "name": "Infernal Tides",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 664367,
+      "name": "Mindbreaker",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -64,6 +80,26 @@
       "relate": "前传",
       "src": 288923,
       "dst": 288922
+    },
+    {
+      "relate": "续集",
+      "src": 288923,
+      "dst": 664365
+    },
+    {
+      "relate": "前传",
+      "src": 664365,
+      "dst": 288923
+    },
+    {
+      "relate": "续集",
+      "src": 664365,
+      "dst": 664367
+    },
+    {
+      "relate": "前传",
+      "src": 664367,
+      "dst": 664365
     }
   ]
 }

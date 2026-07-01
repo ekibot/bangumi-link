@@ -99,6 +99,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 663505,
+      "name": "Joey: Season 2",
+      "nameCN": "乔伊 第二季",
+      "date": "2005-09-22",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -201,6 +210,16 @@
       "relate": "衍生",
       "src": 146518,
       "dst": 3864
+    },
+    {
+      "relate": "续集",
+      "src": 146518,
+      "dst": 663505
+    },
+    {
+      "relate": "前传",
+      "src": 663505,
+      "dst": 146518
     }
   ]
 }

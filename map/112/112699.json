@@ -1,0 +1,54 @@
+{
+  "id": 112699,
+  "node": [
+    {
+      "id": 112699,
+      "name": "Kirikou and the Sorceress",
+      "nameCN": "叽哩咕历险记",
+      "date": "1998-12-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 636604,
+      "name": "Kirikou et les bêtes sauvages",
+      "nameCN": "叽哩咕与野兽",
+      "date": "2005-05-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 636633,
+      "name": "Kirikou et les hommes et les femmes",
+      "nameCN": "叽哩咕与男人与女人",
+      "date": "2012-10-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 112699,
+      "dst": 636604
+    },
+    {
+      "relate": "前传",
+      "src": 636604,
+      "dst": 112699
+    },
+    {
+      "relate": "续集",
+      "src": 636604,
+      "dst": 636633
+    },
+    {
+      "relate": "前传",
+      "src": 636633,
+      "dst": 636604
+    }
+  ]
+}

@@ -2,15 +2,6 @@
   "id": 327530,
   "node": [
     {
-      "id": 441035,
-      "name": "Slime 3K: Rise Against Despot",
-      "nameCN": "史莱姆3K: 反抗暴君",
-      "date": "2024-10-31",
-      "type": 4,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 327530,
       "name": "Despot's Game",
       "nameCN": "暴君的游戏",
@@ -18,12 +9,39 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 661717,
+      "name": "Hull Rupture",
+      "nameCN": "命悬一舰",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 441035,
+      "name": "Slime 3K: Rise Against Despot",
+      "nameCN": "史莱姆3K: 反抗暴君",
+      "date": "2024-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "相同世界观",
+      "src": 327530,
+      "dst": 661717
+    },
+    {
       "relate": "主线故事",
       "src": 441035,
+      "dst": 327530
+    },
+    {
+      "relate": "相同世界观",
+      "src": 661717,
       "dst": 327530
     }
   ]

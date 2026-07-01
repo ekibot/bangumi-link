@@ -45,6 +45,22 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 663439,
+      "name": "Invincible Season 5",
+      "nameCN": "无敌少侠 第五季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 663440,
+      "name": "Invincible Season 6",
+      "nameCN": "无敌少侠 第六季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -87,6 +103,26 @@
       "relate": "前传",
       "src": 505401,
       "dst": 465873
+    },
+    {
+      "relate": "续集",
+      "src": 505401,
+      "dst": 663439
+    },
+    {
+      "relate": "前传",
+      "src": 663439,
+      "dst": 505401
+    },
+    {
+      "relate": "续集",
+      "src": 663439,
+      "dst": 663440
+    },
+    {
+      "relate": "前传",
+      "src": 663440,
+      "dst": 663439
     }
   ]
 }

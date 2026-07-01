@@ -2,6 +2,23 @@
   "id": 519378,
   "node": [
     {
+      "id": 519378,
+      "name": "サイキックフォース",
+      "nameCN": "超能力格斗",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 663864,
+      "name": "サイキックフォース2012",
+      "nameCN": "超能力格斗2012",
+      "date": "1998-06-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 662456,
       "name": "サイキックフォース パズル大戦",
       "nameCN": "超能力格斗 泡泡龙大战",
@@ -9,20 +26,22 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
-    },
-    {
-      "id": 519378,
-      "name": "サイキックフォース",
-      "nameCN": "超能力格斗",
-      "type": 4,
-      "nsfw": false,
-      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 519378,
+      "dst": 663864
+    },
+    {
       "relate": "主线故事",
       "src": 662456,
+      "dst": 519378
+    },
+    {
+      "relate": "前传",
+      "src": 663864,
       "dst": 519378
     }
   ]

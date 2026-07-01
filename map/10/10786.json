@@ -27,6 +27,14 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 664429,
+      "name": "南部档案",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
     }
   ],
   "relate": [
@@ -41,6 +49,11 @@
       "dst": 64171
     },
     {
+      "relate": "番外篇",
+      "src": 10786,
+      "dst": 664429
+    },
+    {
       "relate": "前传",
       "src": 49415,
       "dst": 10786
@@ -59,6 +72,11 @@
       "relate": "前传",
       "src": 64171,
       "dst": 49415
+    },
+    {
+      "relate": "主线故事",
+      "src": 664429,
+      "dst": 10786
     }
   ]
 }

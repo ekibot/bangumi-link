@@ -226,10 +226,10 @@
       "platform": "其他"
     },
     {
-      "id": 343161,
-      "name": "eFootball",
-      "nameCN": "实况足球Online",
-      "date": "2021-09-30",
+      "id": 662811,
+      "name": "eFootball PES 2021 SEASON UPDATE",
+      "nameCN": "实况足球2021 赛季更新",
+      "date": "2020-09-15",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -275,6 +275,24 @@
       "name": "ESPN MLS ExtraTime 2002",
       "nameCN": "",
       "date": "2001-04-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 343161,
+      "name": "eFootball",
+      "nameCN": "实况足球Online",
+      "date": "2021-09-30",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 625842,
+      "name": "eFootball Kick-Off!",
+      "nameCN": "",
+      "date": "2026-06-04",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -519,7 +537,7 @@
     {
       "relate": "续集",
       "src": 299282,
-      "dst": 343161
+      "dst": 662811
     },
     {
       "relate": "续集",
@@ -582,9 +600,29 @@
       "dst": 205225
     },
     {
+      "relate": "不同演绎",
+      "src": 343161,
+      "dst": 625842
+    },
+    {
       "relate": "前传",
       "src": 343161,
+      "dst": 662811
+    },
+    {
+      "relate": "不同演绎",
+      "src": 625842,
+      "dst": 343161
+    },
+    {
+      "relate": "前传",
+      "src": 662811,
       "dst": 299282
+    },
+    {
+      "relate": "续集",
+      "src": 662811,
+      "dst": 343161
     }
   ]
 }
