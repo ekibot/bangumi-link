@@ -111,8 +111,8 @@
     },
     {
       "id": 185764,
-      "name": "Teen Titans",
-      "nameCN": "少年泰坦",
+      "name": "Teen Titans season 1",
+      "nameCN": "少年泰坦 第一季",
       "date": "2003-07-19",
       "type": 2,
       "nsfw": false,
@@ -314,7 +314,7 @@
       "date": "1998-03-17",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 127957,
@@ -1671,6 +1671,15 @@
       "platform": "剧场版"
     },
     {
+      "id": 664971,
+      "name": "Teen Titans season 2",
+      "nameCN": "少年泰坦 第二季",
+      "date": "2004-01-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 225757,
       "name": "The Flash Season 4",
       "nameCN": "闪电侠 第四季",
@@ -2277,6 +2286,33 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 664981,
+      "name": "Teen Titans season 3",
+      "nameCN": "少年泰坦 第三季",
+      "date": "2004-08-28",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 664984,
+      "name": "Teen Titans season 4",
+      "nameCN": "少年泰坦 第四季",
+      "date": "2005-01-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 664986,
+      "name": "Teen Titans season 5",
+      "nameCN": "少年泰坦 第五季",
+      "date": "2005-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -3061,11 +3097,6 @@
       "dst": 96757
     },
     {
-      "relate": "续集",
-      "src": 96756,
-      "dst": 96758
-    },
-    {
       "relate": "相同世界观",
       "src": 96756,
       "dst": 101718
@@ -3106,11 +3137,6 @@
       "dst": 96758
     },
     {
-      "relate": "前传",
-      "src": 96757,
-      "dst": 127957
-    },
-    {
       "relate": "衍生",
       "src": 96757,
       "dst": 186592
@@ -3133,17 +3159,7 @@
     {
       "relate": "前传",
       "src": 96758,
-      "dst": 96756
-    },
-    {
-      "relate": "前传",
-      "src": 96758,
       "dst": 96757
-    },
-    {
-      "relate": "前传",
-      "src": 96758,
-      "dst": 127957
     },
     {
       "relate": "衍生",
@@ -3784,16 +3800,6 @@
       "relate": "续集",
       "src": 127957,
       "dst": 96756
-    },
-    {
-      "relate": "续集",
-      "src": 127957,
-      "dst": 96757
-    },
-    {
-      "relate": "续集",
-      "src": 127957,
-      "dst": 96758
     },
     {
       "relate": "相同世界观",
@@ -5166,9 +5172,24 @@
       "dst": 403433
     },
     {
+      "relate": "续集",
+      "src": 185764,
+      "dst": 664971
+    },
+    {
       "relate": "前传",
       "src": 186031,
       "dst": 72389
+    },
+    {
+      "relate": "主线故事",
+      "src": 186592,
+      "dst": 96756
+    },
+    {
+      "relate": "主线故事",
+      "src": 186592,
+      "dst": 96757
     },
     {
       "relate": "主线故事",
@@ -7774,6 +7795,41 @@
       "relate": "相同世界观",
       "src": 582832,
       "dst": 436329
+    },
+    {
+      "relate": "前传",
+      "src": 664971,
+      "dst": 185764
+    },
+    {
+      "relate": "续集",
+      "src": 664971,
+      "dst": 664981
+    },
+    {
+      "relate": "前传",
+      "src": 664981,
+      "dst": 664971
+    },
+    {
+      "relate": "续集",
+      "src": 664981,
+      "dst": 664984
+    },
+    {
+      "relate": "前传",
+      "src": 664984,
+      "dst": 664981
+    },
+    {
+      "relate": "续集",
+      "src": 664984,
+      "dst": 664986
+    },
+    {
+      "relate": "前传",
+      "src": 664986,
+      "dst": 664984
     }
   ]
 }

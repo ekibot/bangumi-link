@@ -18,6 +18,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 449354,
+      "name": "花仙子之魔法香对论",
+      "nameCN": "花仙子之魔法香对论",
+      "date": "2026-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,8 +36,18 @@
       "dst": 114192
     },
     {
+      "relate": "续集",
+      "src": 11683,
+      "dst": 449354
+    },
+    {
       "relate": "主线故事",
       "src": 114192,
+      "dst": 11683
+    },
+    {
+      "relate": "前传",
+      "src": 449354,
       "dst": 11683
     }
   ]

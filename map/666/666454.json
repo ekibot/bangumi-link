@@ -1,0 +1,73 @@
+{
+  "id": 666454,
+  "node": [
+    {
+      "id": 666454,
+      "name": "Puffin Rock and the New Friends",
+      "nameCN": "",
+      "date": "2023-07-04",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 666592,
+      "name": "Puffin Rock",
+      "nameCN": "欢乐海鹦岛",
+      "date": "2015-01-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 666603,
+      "name": "Puffin Rock Season 2",
+      "nameCN": "欢乐海鹦岛 第二季",
+      "date": "2016-02-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 666606,
+      "name": "Puffin Rock Season 3",
+      "nameCN": "欢乐海鹦岛 第三季",
+      "date": "2025-09-15",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 666454,
+      "dst": 666592
+    },
+    {
+      "relate": "番外篇",
+      "src": 666592,
+      "dst": 666454
+    },
+    {
+      "relate": "续集",
+      "src": 666592,
+      "dst": 666603
+    },
+    {
+      "relate": "前传",
+      "src": 666603,
+      "dst": 666592
+    },
+    {
+      "relate": "续集",
+      "src": 666603,
+      "dst": 666606
+    },
+    {
+      "relate": "前传",
+      "src": 666606,
+      "dst": 666603
+    }
+  ]
+}

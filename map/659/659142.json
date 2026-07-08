@@ -20,10 +20,10 @@
       "platform": "漫画"
     },
     {
-      "id": 662570,
-      "name": "X-23 (2018)",
+      "id": 666163,
+      "name": "All-New Wolverine",
       "nameCN": "",
-      "date": "2007-08-22",
+      "date": "2016-05-11",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -33,6 +33,24 @@
       "name": "X-23: Innocence Lost",
       "nameCN": "",
       "date": "2006-04-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 662570,
+      "name": "X-23 (2018)",
+      "nameCN": "",
+      "date": "2007-08-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 666173,
+      "name": "Laura Kinney: Wolverine",
+      "nameCN": "",
+      "date": "2025-08-13",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -47,7 +65,7 @@
     {
       "relate": "续集",
       "src": 659142,
-      "dst": 662570
+      "dst": 666163
     },
     {
       "relate": "续集",
@@ -67,7 +85,27 @@
     {
       "relate": "前传",
       "src": 662570,
+      "dst": 666163
+    },
+    {
+      "relate": "续集",
+      "src": 662570,
+      "dst": 666173
+    },
+    {
+      "relate": "前传",
+      "src": 666163,
       "dst": 659142
+    },
+    {
+      "relate": "续集",
+      "src": 666163,
+      "dst": 662570
+    },
+    {
+      "relate": "前传",
+      "src": 666173,
+      "dst": 662570
     }
   ]
 }

@@ -63,6 +63,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 666230,
+      "name": "モノノ怪 新プロジェクト",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -135,6 +143,16 @@
       "relate": "前传",
       "src": 505562,
       "dst": 505488
+    },
+    {
+      "relate": "续集",
+      "src": 505562,
+      "dst": 666230
+    },
+    {
+      "relate": "前传",
+      "src": 666230,
+      "dst": 505562
     }
   ]
 }

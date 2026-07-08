@@ -1,0 +1,54 @@
+{
+  "id": 592538,
+  "node": [
+    {
+      "id": 592538,
+      "name": "Marvel 1602: New World",
+      "nameCN": "",
+      "date": "2006-01-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 665372,
+      "name": "Marvel 1602: Fantastick Four",
+      "nameCN": "",
+      "date": "2007-05-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 665373,
+      "name": "Marvel 1602",
+      "nameCN": "",
+      "date": "2004-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 592538,
+      "dst": 665372
+    },
+    {
+      "relate": "前传",
+      "src": 592538,
+      "dst": 665373
+    },
+    {
+      "relate": "前传",
+      "src": 665372,
+      "dst": 592538
+    },
+    {
+      "relate": "续集",
+      "src": 665373,
+      "dst": 592538
+    }
+  ]
+}

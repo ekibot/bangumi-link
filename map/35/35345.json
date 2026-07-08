@@ -18,17 +18,53 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 665131,
+      "name": "マリーベルの交通安全",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 665133,
+      "name": "マリーベルの火の用心 〜グラッときたらどうする〜",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
     }
   ],
   "relate": [
     {
-      "relate": "总集篇",
+      "relate": "不同演绎",
       "src": 35345,
       "dst": 404506
     },
     {
-      "relate": "全集",
+      "relate": "衍生",
+      "src": 35345,
+      "dst": 665131
+    },
+    {
+      "relate": "衍生",
+      "src": 35345,
+      "dst": 665133
+    },
+    {
+      "relate": "不同演绎",
       "src": 404506,
+      "dst": 35345
+    },
+    {
+      "relate": "主线故事",
+      "src": 665131,
+      "dst": 35345
+    },
+    {
+      "relate": "主线故事",
+      "src": 665133,
       "dst": 35345
     }
   ]
