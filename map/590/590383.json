@@ -54,6 +54,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 667540,
+      "name": "Foyle's War Season 7",
+      "nameCN": "战地神探 第七季",
+      "date": "2013-03-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 667543,
+      "name": "Foyle's War Season 8",
+      "nameCN": "战地神探 第八季",
+      "date": "2015-01-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -106,6 +124,26 @@
       "relate": "前传",
       "src": 627091,
       "dst": 615297
+    },
+    {
+      "relate": "续集",
+      "src": 627091,
+      "dst": 667540
+    },
+    {
+      "relate": "前传",
+      "src": 667540,
+      "dst": 627091
+    },
+    {
+      "relate": "续集",
+      "src": 667540,
+      "dst": 667543
+    },
+    {
+      "relate": "前传",
+      "src": 667543,
+      "dst": 667540
     }
   ]
 }

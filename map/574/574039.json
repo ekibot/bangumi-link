@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 668255,
+      "name": "春猿火×幸祜 TWO-MAN LIVE「Singularity Live Vol.2」",
+      "nameCN": "",
+      "date": "2022-11-06",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 668254,
+      "name": "理芽×ヰ世界情緒 TWO-MAN LIVE「Singularity Live」",
+      "nameCN": "",
+      "date": "2022-07-17",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "续集",
       "src": 611635,
       "dst": 574039
+    },
+    {
+      "relate": "前传",
+      "src": 611635,
+      "dst": 668255
+    },
+    {
+      "relate": "续集",
+      "src": 668254,
+      "dst": 668255
+    },
+    {
+      "relate": "续集",
+      "src": 668255,
+      "dst": 611635
+    },
+    {
+      "relate": "前传",
+      "src": 668255,
+      "dst": 668254
     }
   ]
 }

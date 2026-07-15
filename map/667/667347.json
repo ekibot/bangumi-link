@@ -1,0 +1,51 @@
+{
+  "id": 667347,
+  "node": [
+    {
+      "id": 667347,
+      "name": "死の実況中継",
+      "nameCN": "死亡直播",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 667350,
+      "name": "デスブログ",
+      "nameCN": "死亡博客",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 667353,
+      "name": "杉沢村都市伝説",
+      "nameCN": "杉泽村都市传说",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 667347,
+      "dst": 667350
+    },
+    {
+      "relate": "前传",
+      "src": 667350,
+      "dst": 667347
+    },
+    {
+      "relate": "续集",
+      "src": 667350,
+      "dst": 667353
+    },
+    {
+      "relate": "前传",
+      "src": 667353,
+      "dst": 667350
+    }
+  ]
+}

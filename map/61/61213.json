@@ -65,6 +65,15 @@
       "platform": "WEB"
     },
     {
+      "id": 668349,
+      "name": "The Haunting of Hotel Transylvania",
+      "nameCN": "精灵旅社大闹鬼",
+      "date": "2027-10-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 596840,
       "name": "Hotel Transylvania Season 1",
       "nameCN": "精灵旅社 第一季",
@@ -126,6 +135,11 @@
       "dst": 596760
     },
     {
+      "relate": "续集",
+      "src": 365782,
+      "dst": 668349
+    },
+    {
       "relate": "主线故事",
       "src": 596760,
       "dst": 365782
@@ -144,6 +158,11 @@
       "relate": "前传",
       "src": 596841,
       "dst": 596840
+    },
+    {
+      "relate": "前传",
+      "src": 668349,
+      "dst": 365782
     }
   ]
 }
