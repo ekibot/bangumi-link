@@ -5,6 +5,7 @@
       "id": 56263,
       "name": "アルカノイド",
       "nameCN": "打砖块",
+      "date": "1986-04-26",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -25,6 +26,41 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 669045,
+      "name": "アルカノイドリターンズ",
+      "nameCN": "打砖块归来",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 307351,
+      "name": "アルカノイドDS",
+      "nameCN": "打砖块DS",
+      "date": "2007-12-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 674511,
+      "name": "アルカノイドLive!",
+      "nameCN": "打砖块Live!",
+      "date": "2009-05-06",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 674507,
+      "name": "アルカノイド プラス",
+      "nameCN": "打砖块plus！",
+      "date": "2009-05-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -39,6 +75,11 @@
       "dst": 260814
     },
     {
+      "relate": "续集",
+      "src": 259115,
+      "dst": 669045
+    },
+    {
       "relate": "前传",
       "src": 260814,
       "dst": 56263
@@ -47,6 +88,41 @@
       "relate": "续集",
       "src": 260814,
       "dst": 259115
+    },
+    {
+      "relate": "前传",
+      "src": 307351,
+      "dst": 669045
+    },
+    {
+      "relate": "续集",
+      "src": 307351,
+      "dst": 674511
+    },
+    {
+      "relate": "前传",
+      "src": 669045,
+      "dst": 259115
+    },
+    {
+      "relate": "续集",
+      "src": 669045,
+      "dst": 307351
+    },
+    {
+      "relate": "前传",
+      "src": 674507,
+      "dst": 674511
+    },
+    {
+      "relate": "前传",
+      "src": 674511,
+      "dst": 307351
+    },
+    {
+      "relate": "续集",
+      "src": 674511,
+      "dst": 674507
     }
   ]
 }

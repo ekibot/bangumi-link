@@ -181,7 +181,7 @@
     {
       "id": 348542,
       "name": "Star Trek: Strange New Worlds",
-      "nameCN": "星际迷航：奇异新世界",
+      "nameCN": "",
       "date": "2022-05-05",
       "type": 6,
       "nsfw": false,
@@ -653,6 +653,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 672555,
+      "name": "Star Trek: Strange New Worlds Season 4",
+      "nameCN": "",
+      "date": "2026-07-23",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -1880,6 +1889,16 @@
       "relate": "前传",
       "src": 571569,
       "dst": 392044
+    },
+    {
+      "relate": "续集",
+      "src": 571569,
+      "dst": 672555
+    },
+    {
+      "relate": "前传",
+      "src": 672555,
+      "dst": 571569
     }
   ]
 }

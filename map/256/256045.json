@@ -4,16 +4,24 @@
     {
       "id": 256045,
       "name": "QIX",
-      "nameCN": "",
+      "nameCN": "天蚕变",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
     },
     {
-      "id": 464445,
-      "name": "QIX++",
-      "nameCN": "",
-      "date": "2009-12-09",
+      "id": 668592,
+      "name": "スーパークイックス",
+      "nameCN": "超级天蚕变",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 668588,
+      "name": "ヴォルフィード",
+      "nameCN": "异形天蚕变",
+      "date": "1989-05-16",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -23,12 +31,22 @@
     {
       "relate": "续集",
       "src": 256045,
-      "dst": 464445
+      "dst": 668592
     },
     {
       "relate": "前传",
-      "src": 464445,
+      "src": 668588,
+      "dst": 668592
+    },
+    {
+      "relate": "前传",
+      "src": 668592,
       "dst": 256045
+    },
+    {
+      "relate": "续集",
+      "src": 668592,
+      "dst": 668588
     }
   ]
 }

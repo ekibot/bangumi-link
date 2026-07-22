@@ -18,6 +18,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 672995,
+      "name": "白色闪电 第二季",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 544113
     },
     {
+      "relate": "续集",
+      "src": 346429,
+      "dst": 672995
+    },
+    {
       "relate": "全集",
       "src": 544113,
+      "dst": 346429
+    },
+    {
+      "relate": "前传",
+      "src": 672995,
       "dst": 346429
     }
   ]

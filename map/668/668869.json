@@ -1,0 +1,54 @@
+{
+  "id": 668869,
+  "node": [
+    {
+      "id": 668869,
+      "name": "Revenge of the Stepford Wives",
+      "nameCN": "",
+      "date": "1980-10-12",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 668870,
+      "name": "The Stepford Children",
+      "nameCN": "",
+      "date": "1987-03-15",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 668895,
+      "name": "The Stepford Husbands",
+      "nameCN": "",
+      "date": "1996-05-14",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 668869,
+      "dst": 668870
+    },
+    {
+      "relate": "前传",
+      "src": 668870,
+      "dst": 668869
+    },
+    {
+      "relate": "续集",
+      "src": 668870,
+      "dst": 668895
+    },
+    {
+      "relate": "前传",
+      "src": 668895,
+      "dst": 668870
+    }
+  ]
+}
