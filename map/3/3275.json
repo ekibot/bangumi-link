@@ -81,6 +81,23 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 538631,
+      "name": "Avatar: Seven Havens Season 1",
+      "nameCN": "降世神通：七个避风港 第一季",
+      "date": "2026-10-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 538632,
+      "name": "Avatar: Seven Havens Season 2",
+      "nameCN": "降世神通：七个避风港 第二季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -156,8 +173,28 @@
     },
     {
       "relate": "续集",
+      "src": 114184,
+      "dst": 538631
+    },
+    {
+      "relate": "续集",
       "src": 365702,
       "dst": 10599
+    },
+    {
+      "relate": "前传",
+      "src": 538631,
+      "dst": 114184
+    },
+    {
+      "relate": "续集",
+      "src": 538631,
+      "dst": 538632
+    },
+    {
+      "relate": "前传",
+      "src": 538632,
+      "dst": 538631
     },
     {
       "relate": "前传",

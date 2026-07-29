@@ -1,0 +1,54 @@
+{
+  "id": 677580,
+  "node": [
+    {
+      "id": 677580,
+      "name": "One More Chance Chapter I",
+      "nameCN": "重启人生",
+      "date": "2018-08-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 679755,
+      "name": "One More Chance Chapter 2",
+      "nameCN": "重启人生2",
+      "date": "2019-05-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 679759,
+      "name": "One More Chance Chapter 3 Final",
+      "nameCN": "重启人生3",
+      "date": "2020-05-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 677580,
+      "dst": 679755
+    },
+    {
+      "relate": "前传",
+      "src": 679755,
+      "dst": 677580
+    },
+    {
+      "relate": "续集",
+      "src": 679755,
+      "dst": 679759
+    },
+    {
+      "relate": "前传",
+      "src": 679759,
+      "dst": 679755
+    }
+  ]
+}

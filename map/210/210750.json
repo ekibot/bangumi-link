@@ -1,0 +1,73 @@
+{
+  "id": 210750,
+  "node": [
+    {
+      "id": 210750,
+      "name": "Ant-Man: World Hive",
+      "nameCN": "",
+      "date": "2020-08-25",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 210751,
+      "name": "Ant-Man Vol. 1: Second-Chance Man",
+      "nameCN": "",
+      "date": "2015-06-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 679704,
+      "name": "Ant-Man: Ant-Iversary",
+      "nameCN": "",
+      "date": "2023-01-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 679706,
+      "name": "The Astonishing Ant-Man",
+      "nameCN": "",
+      "date": "2016-04-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 210750,
+      "dst": 210751
+    },
+    {
+      "relate": "续集",
+      "src": 210750,
+      "dst": 679704
+    },
+    {
+      "relate": "续集",
+      "src": 210751,
+      "dst": 210750
+    },
+    {
+      "relate": "续集",
+      "src": 210751,
+      "dst": 679706
+    },
+    {
+      "relate": "前传",
+      "src": 679704,
+      "dst": 210750
+    },
+    {
+      "relate": "前传",
+      "src": 679706,
+      "dst": 210751
+    }
+  ]
+}

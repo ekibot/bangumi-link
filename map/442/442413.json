@@ -2,6 +2,24 @@
   "id": 442413,
   "node": [
     {
+      "id": 442413,
+      "name": "Taffy Tales",
+      "nameCN": "太妃物语",
+      "date": "2022-10-13",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
+      "id": 674577,
+      "name": "Taffy Tales Redux",
+      "nameCN": "太妃物语豪华版",
+      "date": "2026-05-29",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
+    },
+    {
       "id": 442414,
       "name": "Taffy Tales Halloween Special",
       "nameCN": "",
@@ -11,10 +29,10 @@
       "platform": "其他"
     },
     {
-      "id": 442413,
-      "name": "Taffy Tales",
-      "nameCN": "太妃物语",
-      "date": "2022-10-13",
+      "id": 442415,
+      "name": "Taffy Tales Christmas Special",
+      "nameCN": "",
+      "date": "2019-12-25",
       "type": 4,
       "nsfw": true,
       "platform": "其他"
@@ -22,8 +40,23 @@
   ],
   "relate": [
     {
+      "relate": "不同演绎",
+      "src": 442413,
+      "dst": 674577
+    },
+    {
       "relate": "主线故事",
       "src": 442414,
+      "dst": 442413
+    },
+    {
+      "relate": "主线故事",
+      "src": 442415,
+      "dst": 442413
+    },
+    {
+      "relate": "不同演绎",
+      "src": 674577,
       "dst": 442413
     }
   ]

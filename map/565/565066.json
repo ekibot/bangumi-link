@@ -2,15 +2,6 @@
   "id": 565066,
   "node": [
     {
-      "id": 640166,
-      "name": "EO:Lockdown",
-      "nameCN": "",
-      "date": "2026-04-07",
-      "type": 4,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 565066,
       "name": "エンドレス・オーバーホール",
       "nameCN": "",
@@ -18,13 +9,51 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 676871,
+      "name": "エンドレス・オーバープレッシャー",
+      "nameCN": "",
+      "date": "2026-07-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 640166,
+      "name": "EO:Lockdown",
+      "nameCN": "",
+      "date": "2026-04-07",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 565066,
+      "dst": 676871
+    },
+    {
       "relate": "主线故事",
       "src": 640166,
       "dst": 565066
+    },
+    {
+      "relate": "前传",
+      "src": 640166,
+      "dst": 676871
+    },
+    {
+      "relate": "续集",
+      "src": 676871,
+      "dst": 565066
+    },
+    {
+      "relate": "续集",
+      "src": 676871,
+      "dst": 640166
     }
   ]
 }

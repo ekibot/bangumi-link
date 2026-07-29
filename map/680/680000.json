@@ -1,0 +1,54 @@
+{
+  "id": 680000,
+  "node": [
+    {
+      "id": 680000,
+      "name": "Cosmic Ghost Rider: Baby Thanos Must Die",
+      "nameCN": "",
+      "date": "2019-01-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 680001,
+      "name": "Cosmic Ghost Rider Destroys Marvel History",
+      "nameCN": "",
+      "date": "2019-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 680002,
+      "name": "Revenge Of The Cosmic Ghost Rider",
+      "nameCN": "",
+      "date": "2020-08-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 680000,
+      "dst": 680001
+    },
+    {
+      "relate": "前传",
+      "src": 680001,
+      "dst": 680000
+    },
+    {
+      "relate": "续集",
+      "src": 680001,
+      "dst": 680002
+    },
+    {
+      "relate": "前传",
+      "src": 680002,
+      "dst": 680001
+    }
+  ]
+}

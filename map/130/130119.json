@@ -16,6 +16,22 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 682124,
+      "name": "Ghost Rider",
+      "nameCN": "恶灵骑士",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 289581,
+      "name": "Ghost Rider Season 1",
+      "nameCN": "恶灵骑士 第一季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -25,9 +41,29 @@
       "dst": 130120
     },
     {
+      "relate": "不同演绎",
+      "src": 130119,
+      "dst": 682124
+    },
+    {
       "relate": "前传",
       "src": 130120,
       "dst": 130119
+    },
+    {
+      "relate": "不同演绎",
+      "src": 289581,
+      "dst": 682124
+    },
+    {
+      "relate": "不同演绎",
+      "src": 682124,
+      "dst": 130119
+    },
+    {
+      "relate": "不同演绎",
+      "src": 682124,
+      "dst": 289581
     }
   ]
 }
