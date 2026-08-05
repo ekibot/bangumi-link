@@ -1,0 +1,51 @@
+{
+  "id": 687564,
+  "node": [
+    {
+      "id": 687564,
+      "name": "白色房间·零",
+      "nameCN": "白色房间·零",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 687565,
+      "name": "白色房间基金会",
+      "nameCN": "白色房间基金会",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 687567,
+      "name": "白色房间",
+      "nameCN": "白色房间",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 687564,
+      "dst": 687565
+    },
+    {
+      "relate": "续集",
+      "src": 687565,
+      "dst": 687564
+    },
+    {
+      "relate": "前传",
+      "src": 687565,
+      "dst": 687567
+    },
+    {
+      "relate": "续集",
+      "src": 687567,
+      "dst": 687565
+    }
+  ]
+}

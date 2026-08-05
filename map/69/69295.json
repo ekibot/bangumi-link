@@ -38,6 +38,24 @@
       "platform": "TV"
     },
     {
+      "id": 689381,
+      "name": "Kim Possible: The Villain Files",
+      "nameCN": "麻辣女孩：罪犯档案",
+      "date": "2004-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 689382,
+      "name": "Kim Possible: The Secret Files",
+      "nameCN": "麻辣女孩：最高机密",
+      "date": "2003-09-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
       "id": 525954,
       "name": "Kim Possible Season 3",
       "nameCN": "麻辣女孩 第三季",
@@ -73,6 +91,16 @@
       "dst": 525953
     },
     {
+      "relate": "衍生",
+      "src": 69295,
+      "dst": 689381
+    },
+    {
+      "relate": "衍生",
+      "src": 69295,
+      "dst": 689382
+    },
+    {
       "relate": "主线故事",
       "src": 113007,
       "dst": 69295
@@ -80,7 +108,12 @@
     {
       "relate": "续集",
       "src": 113007,
-      "dst": 113016
+      "dst": 689381
+    },
+    {
+      "relate": "前传",
+      "src": 113007,
+      "dst": 689382
     },
     {
       "relate": "主线故事",
@@ -90,7 +123,7 @@
     {
       "relate": "前传",
       "src": 113016,
-      "dst": 113007
+      "dst": 689381
     },
     {
       "relate": "前传",
@@ -116,6 +149,31 @@
       "relate": "前传",
       "src": 525956,
       "dst": 525954
+    },
+    {
+      "relate": "主线故事",
+      "src": 689381,
+      "dst": 69295
+    },
+    {
+      "relate": "前传",
+      "src": 689381,
+      "dst": 113007
+    },
+    {
+      "relate": "续集",
+      "src": 689381,
+      "dst": 113016
+    },
+    {
+      "relate": "主线故事",
+      "src": 689382,
+      "dst": 69295
+    },
+    {
+      "relate": "续集",
+      "src": 689382,
+      "dst": 113007
     }
   ]
 }

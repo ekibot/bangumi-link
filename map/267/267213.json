@@ -3,9 +3,36 @@
   "node": [
     {
       "id": 267213,
-      "name": "Fireboy and Watergirl",
+      "name": "Fireboy & Watergirl in The Forest Temple",
       "nameCN": "森林冰火人",
       "date": "2009-11-19",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 688277,
+      "name": "Fireboy & Watergirl 2: In The Light Temple",
+      "nameCN": "森林冰火人2",
+      "date": "2010-10-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 688279,
+      "name": "Fireboy & Watergirl 3: In The Ice Temple",
+      "nameCN": "森林冰火人3",
+      "date": "2012-04-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 353619,
+      "name": "Fireboy & Watergirl: Fairy Tales",
+      "nameCN": "森林冰火人：童话",
+      "date": "2021-11-02",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -20,10 +47,18 @@
       "platform": "其他"
     },
     {
-      "id": 353619,
-      "name": "Fireboy & Watergirl: Fairy Tales",
-      "nameCN": "森林冰火人：童话",
-      "date": "2021-11-02",
+      "id": 688287,
+      "name": "Fireboy & Watergirl and Friends",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 688282,
+      "name": "Fireboy & Watergirl 4: in The Crystal Temple",
+      "nameCN": "森林冰火人4",
+      "date": "2013-03-29",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -33,7 +68,22 @@
     {
       "relate": "续集",
       "src": 267213,
-      "dst": 457960
+      "dst": 688277
+    },
+    {
+      "relate": "前传",
+      "src": 688277,
+      "dst": 267213
+    },
+    {
+      "relate": "续集",
+      "src": 688277,
+      "dst": 688279
+    },
+    {
+      "relate": "前传",
+      "src": 688279,
+      "dst": 688277
     },
     {
       "relate": "前传",
@@ -41,13 +91,38 @@
       "dst": 457960
     },
     {
-      "relate": "前传",
-      "src": 457960,
-      "dst": 267213
+      "relate": "续集",
+      "src": 353619,
+      "dst": 688287
     },
     {
       "relate": "续集",
       "src": 457960,
+      "dst": 353619
+    },
+    {
+      "relate": "前传",
+      "src": 457960,
+      "dst": 688282
+    },
+    {
+      "relate": "续集",
+      "src": 688279,
+      "dst": 688282
+    },
+    {
+      "relate": "续集",
+      "src": 688282,
+      "dst": 457960
+    },
+    {
+      "relate": "前传",
+      "src": 688282,
+      "dst": 688279
+    },
+    {
+      "relate": "前传",
+      "src": 688287,
       "dst": 353619
     }
   ]
