@@ -30,7 +30,7 @@
     },
     {
       "id": 585411,
-      "name": "Meet Spidey and His Amazing Friends Season 1",
+      "name": "Marvel's Meet Spidey and his Amazing Friends Season 1",
       "nameCN": "",
       "date": "2021-06-21",
       "type": 2,
@@ -48,7 +48,7 @@
     },
     {
       "id": 585413,
-      "name": "Meet Spidey and His Amazing Friends Season 2",
+      "name": "Marvel's Meet Spidey and his Amazing Friends Season 2",
       "nameCN": "",
       "date": "2022-07-18",
       "type": 2,
@@ -66,7 +66,7 @@
     },
     {
       "id": 585414,
-      "name": "Meet Spidey and His Amazing Friends Season 3",
+      "name": "Marvel's Meet Spidey and his Amazing Friends Season 3",
       "nameCN": "",
       "date": "2023-09-29",
       "type": 2,
@@ -75,7 +75,7 @@
     },
     {
       "id": 585416,
-      "name": "Meet Spidey and His Amazing Friends Season 4",
+      "name": "Marvel's Meet Spidey and his Amazing Friends Season 4",
       "nameCN": "",
       "date": "2025-05-30",
       "type": 2,
@@ -113,6 +113,15 @@
       "name": "Meet Iron Man and His Awesome Friends",
       "nameCN": "",
       "date": "2025-07-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 695947,
+      "name": "Marvel's Meet Spidey and his Amazing Friends Season 5",
+      "nameCN": "",
+      "date": "2026-05-01",
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
@@ -263,6 +272,11 @@
       "dst": 585414
     },
     {
+      "relate": "续集",
+      "src": 585416,
+      "dst": 695947
+    },
+    {
       "relate": "主线故事",
       "src": 589825,
       "dst": 568090
@@ -276,6 +290,11 @@
       "relate": "续集",
       "src": 595884,
       "dst": 595885
+    },
+    {
+      "relate": "衍生",
+      "src": 595884,
+      "dst": 695947
     },
     {
       "relate": "前传",
@@ -296,6 +315,16 @@
       "relate": "主线故事",
       "src": 608842,
       "dst": 568090
+    },
+    {
+      "relate": "前传",
+      "src": 695947,
+      "dst": 585416
+    },
+    {
+      "relate": "主线故事",
+      "src": 695947,
+      "dst": 595884
     }
   ]
 }

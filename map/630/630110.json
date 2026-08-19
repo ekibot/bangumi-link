@@ -1,0 +1,53 @@
+{
+  "id": 630110,
+  "node": [
+    {
+      "id": 630110,
+      "name": "土豆侠 第一季",
+      "nameCN": "土豆侠 第一季",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 696164,
+      "name": "土豆侠 第二季",
+      "nameCN": "土豆侠 第二季",
+      "date": "2015-06-12",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 696165,
+      "name": "土豆侠 第三季",
+      "nameCN": "土豆侠 第三季",
+      "date": "2016-08-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 630110,
+      "dst": 696164
+    },
+    {
+      "relate": "前传",
+      "src": 696164,
+      "dst": 630110
+    },
+    {
+      "relate": "续集",
+      "src": 696164,
+      "dst": 696165
+    },
+    {
+      "relate": "前传",
+      "src": 696165,
+      "dst": 696164
+    }
+  ]
+}

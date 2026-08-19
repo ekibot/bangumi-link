@@ -1,0 +1,52 @@
+{
+  "id": 679615,
+  "node": [
+    {
+      "id": 679615,
+      "name": "Professor T Season 3",
+      "nameCN": "T教授 第三季",
+      "date": "2024-01-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 695571,
+      "name": "Professor T Season 4",
+      "nameCN": "T教授 第四季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 695764,
+      "name": "Professor T Season 5",
+      "nameCN": "T教授 第五季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 679615,
+      "dst": 695571
+    },
+    {
+      "relate": "前传",
+      "src": 695571,
+      "dst": 679615
+    },
+    {
+      "relate": "续集",
+      "src": 695571,
+      "dst": 695764
+    },
+    {
+      "relate": "前传",
+      "src": 695764,
+      "dst": 695571
+    }
+  ]
+}

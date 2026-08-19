@@ -1,0 +1,52 @@
+{
+  "id": 663253,
+  "node": [
+    {
+      "id": 663253,
+      "name": "Batman: Knightfall Part 1: Knightfall",
+      "nameCN": "",
+      "date": "2026-08-25",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 695770,
+      "name": "Batman: Knightfall Part 2: Knightquest",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
+      "id": 695771,
+      "name": "Batman: Knightfall Part 3: KnightsEnd",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 663253,
+      "dst": 695770
+    },
+    {
+      "relate": "前传",
+      "src": 695770,
+      "dst": 663253
+    },
+    {
+      "relate": "续集",
+      "src": 695770,
+      "dst": 695771
+    },
+    {
+      "relate": "前传",
+      "src": 695771,
+      "dst": 695770
+    }
+  ]
+}

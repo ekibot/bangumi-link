@@ -36,6 +36,15 @@
       "type": 1,
       "nsfw": false,
       "platform": "小说"
+    },
+    {
+      "id": 696147,
+      "name": "To LOVEるーとらぶるー 短編集 Parade",
+      "nameCN": "出包王女短篇集 Parade",
+      "date": "2026-10-02",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -60,6 +69,11 @@
       "dst": 400856
     },
     {
+      "relate": "番外篇",
+      "src": 31469,
+      "dst": 696147
+    },
+    {
       "relate": "主线故事",
       "src": 45817,
       "dst": 24308
@@ -67,6 +81,11 @@
     {
       "relate": "主线故事",
       "src": 400856,
+      "dst": 31469
+    },
+    {
+      "relate": "主线故事",
+      "src": 696147,
       "dst": 31469
     }
   ]
