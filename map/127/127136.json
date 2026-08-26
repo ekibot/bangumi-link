@@ -177,6 +177,31 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 696447,
+      "name": "Beyond Paradise Season 2",
+      "nameCN": "天堂岛之外 第二季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 696912,
+      "name": "Beyond Paradise Season 3",
+      "nameCN": "天堂岛之外 第三季",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 697080,
+      "name": "Beyond Paradise Season 4",
+      "nameCN": "天堂岛之外 第四季",
+      "date": "2026-03-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -409,6 +434,36 @@
       "relate": "相同世界观",
       "src": 696113,
       "dst": 127136
+    },
+    {
+      "relate": "续集",
+      "src": 696113,
+      "dst": 696447
+    },
+    {
+      "relate": "前传",
+      "src": 696447,
+      "dst": 696113
+    },
+    {
+      "relate": "续集",
+      "src": 696447,
+      "dst": 696912
+    },
+    {
+      "relate": "前传",
+      "src": 696912,
+      "dst": 696447
+    },
+    {
+      "relate": "续集",
+      "src": 696912,
+      "dst": 697080
+    },
+    {
+      "relate": "前传",
+      "src": 697080,
+      "dst": 696912
     }
   ]
 }

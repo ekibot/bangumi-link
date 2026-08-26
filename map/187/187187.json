@@ -54,6 +54,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 697573,
+      "name": "Stranger Things: Tales From '85 Season 2",
+      "nameCN": "怪奇物语：来自85年的故事 第二季",
+      "date": "2026-09-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -116,6 +125,16 @@
       "relate": "续集",
       "src": 564361,
       "dst": 231461
+    },
+    {
+      "relate": "续集",
+      "src": 564361,
+      "dst": 697573
+    },
+    {
+      "relate": "前传",
+      "src": 697573,
+      "dst": 564361
     }
   ]
 }

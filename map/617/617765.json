@@ -4,7 +4,7 @@
     {
       "id": 617765,
       "name": "チェイスH.Q.",
-      "nameCN": "",
+      "nameCN": "追踪H.Q.",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -21,6 +21,15 @@
       "id": 665128,
       "name": "スーパーチェイスクリミナルターミネーション",
       "nameCN": "超级追踪",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 696805,
+      "name": "チェイスH.Q.2",
+      "nameCN": "追踪H.Q. 2",
+      "date": "2007-12-19",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -46,6 +55,16 @@
       "relate": "前传",
       "src": 665128,
       "dst": 618138
+    },
+    {
+      "relate": "续集",
+      "src": 665128,
+      "dst": 696805
+    },
+    {
+      "relate": "前传",
+      "src": 696805,
+      "dst": 665128
     }
   ]
 }

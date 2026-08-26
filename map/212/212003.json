@@ -107,6 +107,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 697060,
+      "name": "うまゆる ふるげ～と！",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -324,6 +332,16 @@
       "relate": "主线故事",
       "src": 555332,
       "dst": 530377
+    },
+    {
+      "relate": "续集",
+      "src": 555332,
+      "dst": 697060
+    },
+    {
+      "relate": "前传",
+      "src": 697060,
+      "dst": 555332
     }
   ]
 }

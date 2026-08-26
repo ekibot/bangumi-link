@@ -20,6 +20,15 @@
       "platform": "其他"
     },
     {
+      "id": 696932,
+      "name": "TOCA Race Driver 3",
+      "nameCN": "超级房车赛3",
+      "date": "2006-02-21",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 122949,
       "name": "Grid Autosport",
       "nameCN": "超级房车赛：汽车运动",
@@ -45,6 +54,24 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 696930,
+      "name": "TOCA Race Driver",
+      "nameCN": "超级房车赛",
+      "date": "2002-08-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 696931,
+      "name": "TOCA Race Driver 2",
+      "nameCN": "超级房车赛2",
+      "date": "2004-04-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -52,6 +79,11 @@
       "relate": "续集",
       "src": 178,
       "dst": 74655
+    },
+    {
+      "relate": "前传",
+      "src": 178,
+      "dst": 696932
     },
     {
       "relate": "前传",
@@ -87,6 +119,31 @@
       "relate": "前传",
       "src": 343278,
       "dst": 305878
+    },
+    {
+      "relate": "续集",
+      "src": 696930,
+      "dst": 696931
+    },
+    {
+      "relate": "前传",
+      "src": 696931,
+      "dst": 696930
+    },
+    {
+      "relate": "续集",
+      "src": 696931,
+      "dst": 696932
+    },
+    {
+      "relate": "续集",
+      "src": 696932,
+      "dst": 178
+    },
+    {
+      "relate": "前传",
+      "src": 696932,
+      "dst": 696931
     }
   ]
 }
