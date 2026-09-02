@@ -81,6 +81,15 @@
       "platform": "OVA"
     },
     {
+      "id": 698320,
+      "name": "Wakfu",
+      "nameCN": "",
+      "date": "2012-06-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 101304,
       "name": "Wakfu",
       "nameCN": "沃土",
@@ -131,6 +140,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 698314,
+      "name": "Wakfu: Oropo, Bataille pour l'Éliacube",
+      "nameCN": "",
+      "date": "2023-11-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -178,6 +196,11 @@
       "relate": "续集",
       "src": 96894,
       "dst": 141613
+    },
+    {
+      "relate": "番外篇",
+      "src": 96894,
+      "dst": 698320
     },
     {
       "relate": "主线故事",
@@ -242,11 +265,6 @@
     {
       "relate": "前传",
       "src": 171938,
-      "dst": 96894
-    },
-    {
-      "relate": "前传",
-      "src": 171938,
       "dst": 141613
     },
     {
@@ -275,8 +293,18 @@
       "dst": 584912
     },
     {
+      "relate": "番外篇",
+      "src": 429938,
+      "dst": 698314
+    },
+    {
       "relate": "前传",
       "src": 584912,
+      "dst": 429938
+    },
+    {
+      "relate": "主线故事",
+      "src": 698314,
       "dst": 429938
     }
   ]

@@ -158,18 +158,28 @@
       "platform": "漫画"
     },
     {
-      "id": 72168,
-      "name": "Catwoman (2011)",
-      "nameCN": "猫女v4",
-      "date": "2012-05-16",
+      "id": 51896,
+      "name": "Justice League Vol. 1: Origin",
+      "nameCN": "正义联盟 第一卷：起源",
+      "date": "2012-05-02",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
     },
     {
       "id": 73214,
-      "name": "Supergirl (The New 52)",
+      "name": "Supergirl (2011)",
       "nameCN": "超级少女",
+      "date": "2012-10-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 72168,
+      "name": "Catwoman (2011)",
+      "nameCN": "猫女v4",
+      "date": "2012-05-16",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -194,17 +204,18 @@
     },
     {
       "id": 89979,
-      "name": "The Flash (The New 52)",
+      "name": "The Flash (2011)",
       "nameCN": "新52 闪电侠",
-      "date": "2013-10-08",
+      "date": "2012-11-13",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
     },
     {
       "id": 458196,
-      "name": "Batgirl (The New 52)",
+      "name": "Batgirl (2011)",
       "nameCN": "蝙蝠女（新52）",
+      "date": "2012-07-11",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -228,15 +239,6 @@
       "platform": "漫画"
     },
     {
-      "id": 51896,
-      "name": "Justice League Vol. 1: Origin",
-      "nameCN": "正义联盟 第一卷：起源",
-      "date": "2012-05-02",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 233566,
       "name": "Dark Nights: Metal",
       "nameCN": "黑暗之夜：金属",
@@ -247,8 +249,9 @@
     },
     {
       "id": 578616,
-      "name": "Earth 2 (The New 52)",
+      "name": "Earth 2 (2012)",
       "nameCN": "二号地球（新52）",
+      "date": "2013-03-13",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -257,7 +260,7 @@
       "id": 627399,
       "name": "Forever Evil",
       "nameCN": "邪恶永恒",
-      "date": "2015-05-19",
+      "date": "2014-09-03",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -326,51 +329,6 @@
       "name": "Batman Incorporated Vol. 2: Gotham's Most Wanted (The New 52)",
       "nameCN": "",
       "date": "2013-12-03",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 93462,
-      "name": "Batgirl Vol. 1: The Darkest Reflection (The New 52)",
-      "nameCN": "",
-      "date": "2013-02-12",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 93463,
-      "name": "Batgirl Vol. 2: Knightfall Descends (The New 52)",
-      "nameCN": "",
-      "date": "2013-10-29",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 93464,
-      "name": "Batgirl Vol. 3: Death of the Family (The New 52)",
-      "nameCN": "",
-      "date": "2013-10-29",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 93465,
-      "name": "Batgirl Vol. 4: Wanted (The New 52)",
-      "nameCN": "",
-      "date": "2014-05-27",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
-      "id": 458197,
-      "name": "Batgirl Vol. 5: Deadline (The New 52)",
-      "nameCN": "",
-      "date": "2015-06-02",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -962,6 +920,11 @@
     },
     {
       "relate": "相同世界观",
+      "src": 51896,
+      "dst": 73214
+    },
+    {
+      "relate": "相同世界观",
       "src": 72168,
       "dst": 73214
     },
@@ -1009,6 +972,11 @@
       "relate": "相同世界观",
       "src": 73214,
       "dst": 74764
+    },
+    {
+      "relate": "相同世界观",
+      "src": 73214,
+      "dst": 89979
     },
     {
       "relate": "相同世界观",
@@ -1093,6 +1061,11 @@
     {
       "relate": "相同世界观",
       "src": 79819,
+      "dst": 89979
+    },
+    {
+      "relate": "相同世界观",
+      "src": 79819,
       "dst": 458196
     },
     {
@@ -1113,7 +1086,17 @@
     {
       "relate": "相同世界观",
       "src": 89979,
+      "dst": 73214
+    },
+    {
+      "relate": "相同世界观",
+      "src": 89979,
       "dst": 74764
+    },
+    {
+      "relate": "相同世界观",
+      "src": 89979,
+      "dst": 79819
     },
     {
       "relate": "相同世界观",
@@ -1129,76 +1112,6 @@
       "relate": "相同世界观",
       "src": 92056,
       "dst": 74764
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93462,
-      "dst": 72168
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93462,
-      "dst": 74764
-    },
-    {
-      "relate": "续集",
-      "src": 93462,
-      "dst": 93463
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93463,
-      "dst": 74764
-    },
-    {
-      "relate": "前传",
-      "src": 93463,
-      "dst": 93462
-    },
-    {
-      "relate": "续集",
-      "src": 93463,
-      "dst": 93464
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93464,
-      "dst": 72168
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93464,
-      "dst": 74764
-    },
-    {
-      "relate": "前传",
-      "src": 93464,
-      "dst": 93463
-    },
-    {
-      "relate": "续集",
-      "src": 93464,
-      "dst": 93465
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93465,
-      "dst": 72168
-    },
-    {
-      "relate": "相同世界观",
-      "src": 93465,
-      "dst": 74764
-    },
-    {
-      "relate": "前传",
-      "src": 93465,
-      "dst": 93464
-    },
-    {
-      "relate": "续集",
-      "src": 93465,
-      "dst": 458197
     },
     {
       "relate": "相同世界观",
@@ -1429,11 +1342,6 @@
       "relate": "相同世界观",
       "src": 458196,
       "dst": 89979
-    },
-    {
-      "relate": "前传",
-      "src": 458197,
-      "dst": 93465
     },
     {
       "relate": "前传",

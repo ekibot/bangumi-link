@@ -27,6 +27,23 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 697927,
+      "name": "RollerCoaster Tycoon World",
+      "nameCN": "过山车大亨：世界",
+      "date": "2016-11-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 697597,
+      "name": "RollerCoaster Tycoon Wonderworks",
+      "nameCN": "过山车大亨 Wonderworks",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -41,6 +58,11 @@
       "dst": 108835
     },
     {
+      "relate": "续集",
+      "src": 65691,
+      "dst": 697927
+    },
+    {
       "relate": "前传",
       "src": 108835,
       "dst": 38151
@@ -49,6 +71,21 @@
       "relate": "续集",
       "src": 108835,
       "dst": 65691
+    },
+    {
+      "relate": "前传",
+      "src": 697597,
+      "dst": 697927
+    },
+    {
+      "relate": "前传",
+      "src": 697927,
+      "dst": 65691
+    },
+    {
+      "relate": "续集",
+      "src": 697927,
+      "dst": 697597
     }
   ]
 }

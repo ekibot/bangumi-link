@@ -18,6 +18,42 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 609005,
+      "name": "栖云异梦：睹玉",
+      "nameCN": "",
+      "date": "2024-09-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 667911,
+      "name": "栖云异梦2：瑶山谣",
+      "nameCN": "",
+      "date": "2025-03-25",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 675332,
+      "name": "栖云异梦3：溯源",
+      "nameCN": "",
+      "date": "2026-08-10",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 669107,
+      "name": "栖云：遗忘之境",
+      "nameCN": "",
+      "date": "2025-12-23",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -28,8 +64,43 @@
     },
     {
       "relate": "续集",
+      "src": 407112,
+      "dst": 609005
+    },
+    {
+      "relate": "续集",
       "src": 445522,
       "dst": 407112
+    },
+    {
+      "relate": "前传",
+      "src": 609005,
+      "dst": 407112
+    },
+    {
+      "relate": "续集",
+      "src": 609005,
+      "dst": 667911
+    },
+    {
+      "relate": "前传",
+      "src": 667911,
+      "dst": 609005
+    },
+    {
+      "relate": "续集",
+      "src": 667911,
+      "dst": 675332
+    },
+    {
+      "relate": "主线故事",
+      "src": 669107,
+      "dst": 407112
+    },
+    {
+      "relate": "前传",
+      "src": 675332,
+      "dst": 667911
     }
   ]
 }
