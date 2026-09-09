@@ -4,7 +4,7 @@
     {
       "id": 196034,
       "name": "The Grand Tour Season 1",
-      "nameCN": "歌朗途",
+      "nameCN": "歌朗途 第一季",
       "date": "2016-11-18",
       "type": 6,
       "nsfw": false,
@@ -72,6 +72,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 699601,
+      "name": "The Grand Tour (Season 1)",
+      "nameCN": "歌朗途 第一季（2026）",
+      "date": "2026-09-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -166,6 +175,11 @@
       "dst": 401781
     },
     {
+      "relate": "续集",
+      "src": 512704,
+      "dst": 699601
+    },
+    {
       "relate": "全集",
       "src": 658113,
       "dst": 196034
@@ -204,6 +218,11 @@
       "relate": "全集",
       "src": 658190,
       "dst": 236009
+    },
+    {
+      "relate": "前传",
+      "src": 699601,
+      "dst": 512704
     }
   ]
 }

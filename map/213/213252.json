@@ -1,0 +1,54 @@
+{
+  "id": 213252,
+  "node": [
+    {
+      "id": 213252,
+      "name": "Spintires",
+      "nameCN": "旋转轮胎",
+      "date": "2014-06-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 300021,
+      "name": "MudRunner",
+      "nameCN": "旋转轮胎：泥泞奔驰",
+      "date": "2017-10-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 305723,
+      "name": "SnowRunner",
+      "nameCN": "雪地奔驰",
+      "date": "2020-04-28",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 213252,
+      "dst": 300021
+    },
+    {
+      "relate": "前传",
+      "src": 300021,
+      "dst": 213252
+    },
+    {
+      "relate": "续集",
+      "src": 300021,
+      "dst": 305723
+    },
+    {
+      "relate": "前传",
+      "src": 305723,
+      "dst": 300021
+    }
+  ]
+}

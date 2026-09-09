@@ -1,0 +1,34 @@
+{
+  "id": 623851,
+  "node": [
+    {
+      "id": 623851,
+      "name": "日本三國",
+      "nameCN": "日本三国",
+      "date": "2026-04-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 699060,
+      "name": "日本三國 続編",
+      "nameCN": "日本三国 续篇",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 623851,
+      "dst": 699060
+    },
+    {
+      "relate": "前传",
+      "src": 699060,
+      "dst": 623851
+    }
+  ]
+}

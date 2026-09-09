@@ -27,6 +27,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 699433,
+      "name": "舞台『東京リベンジャーズ ―天竺編―』",
+      "nameCN": "",
+      "date": "2024-08-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 699441,
+      "name": "舞台『 東京リベンジャーズ ーThe LAST LEAP－』",
+      "nameCN": "",
+      "date": "2025-06-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -49,6 +67,26 @@
       "relate": "前传",
       "src": 368012,
       "dst": 368011
+    },
+    {
+      "relate": "续集",
+      "src": 368012,
+      "dst": 699433
+    },
+    {
+      "relate": "前传",
+      "src": 699433,
+      "dst": 368012
+    },
+    {
+      "relate": "续集",
+      "src": 699433,
+      "dst": 699441
+    },
+    {
+      "relate": "前传",
+      "src": 699441,
+      "dst": 699433
     }
   ]
 }

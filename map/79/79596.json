@@ -3,7 +3,7 @@
   "node": [
     {
       "id": 79596,
-      "name": "Shadow Dancer",
+      "name": "シャドーダンサー",
       "nameCN": "影武者",
       "type": 4,
       "nsfw": false,
@@ -49,6 +49,14 @@
       "name": "The GG忍",
       "nameCN": "",
       "date": "1991-04-26",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 699155,
+      "name": "The Cyber Shinobi",
+      "nameCN": "电脑神忍",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -110,6 +118,11 @@
       "dst": 261167
     },
     {
+      "relate": "续集",
+      "src": 252422,
+      "dst": 699155
+    },
+    {
       "relate": "不同演绎",
       "src": 256592,
       "dst": 79596
@@ -133,6 +146,11 @@
       "relate": "续集",
       "src": 261167,
       "dst": 261166
+    },
+    {
+      "relate": "前传",
+      "src": 699155,
+      "dst": 252422
     }
   ]
 }

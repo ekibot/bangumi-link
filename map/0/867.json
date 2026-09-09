@@ -42,6 +42,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 83209,
+      "name": "リベリオンズ Secret Game 2nd Stage BOOSTED EDITION",
+      "nameCN": "秘密游戏2：反叛",
+      "date": "2013-09-27",
+      "type": 4,
+      "nsfw": true,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -76,9 +85,29 @@
       "dst": 867
     },
     {
+      "relate": "不同演绎",
+      "src": 14177,
+      "dst": 55359
+    },
+    {
+      "relate": "不同演绎",
+      "src": 14177,
+      "dst": 83209
+    },
+    {
       "relate": "前传",
       "src": 55359,
       "dst": 867
+    },
+    {
+      "relate": "不同演绎",
+      "src": 55359,
+      "dst": 14177
+    },
+    {
+      "relate": "不同演绎",
+      "src": 83209,
+      "dst": 14177
     }
   ]
 }

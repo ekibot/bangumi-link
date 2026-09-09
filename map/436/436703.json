@@ -19,7 +19,31 @@
     },
     {
       "id": 458124,
-      "name": "The Texas Chainsaw Massacre（2003）",
+      "name": "The Texas Chainsaw Massacre",
+      "nameCN": "德州电锯杀人狂",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 458211,
+      "name": "Texas Chainsaw 3D",
+      "nameCN": "德州电锯杀人狂3D",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 458276,
+      "name": "Leatherface",
+      "nameCN": "人皮脸",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 458288,
+      "name": "Texas Chainsaw Massacre",
       "nameCN": "德州电锯杀人狂",
       "type": 6,
       "nsfw": false,
@@ -40,6 +64,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 458198,
+      "name": "The Texas Chainsaw Massacre: The Beginning",
+      "nameCN": "德州电锯杀人狂前传",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -52,6 +84,21 @@
       "relate": "不同演绎",
       "src": 436703,
       "dst": 458124
+    },
+    {
+      "relate": "续集",
+      "src": 436703,
+      "dst": 458211
+    },
+    {
+      "relate": "前传",
+      "src": 436703,
+      "dst": 458276
+    },
+    {
+      "relate": "续集",
+      "src": 436703,
+      "dst": 458288
     },
     {
       "relate": "前传",
@@ -81,6 +128,31 @@
     {
       "relate": "不同演绎",
       "src": 458124,
+      "dst": 436703
+    },
+    {
+      "relate": "前传",
+      "src": 458124,
+      "dst": 458198
+    },
+    {
+      "relate": "续集",
+      "src": 458198,
+      "dst": 458124
+    },
+    {
+      "relate": "前传",
+      "src": 458211,
+      "dst": 436703
+    },
+    {
+      "relate": "续集",
+      "src": 458276,
+      "dst": 436703
+    },
+    {
+      "relate": "前传",
+      "src": 458288,
       "dst": 436703
     }
   ]

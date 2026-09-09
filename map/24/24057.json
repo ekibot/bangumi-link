@@ -1,0 +1,48 @@
+{
+  "id": 24057,
+  "node": [
+    {
+      "id": 24057,
+      "name": "Inception",
+      "nameCN": "盗梦空间",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 699227,
+      "name": "Inception: The Cobol Job",
+      "nameCN": "",
+      "date": "2010-12-07",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 699228,
+      "name": "Inception: The Big Under",
+      "nameCN": "",
+      "date": "2010-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 24057,
+      "dst": 699227
+    },
+    {
+      "relate": "番外篇",
+      "src": 24057,
+      "dst": 699228
+    },
+    {
+      "relate": "续集",
+      "src": 699227,
+      "dst": 24057
+    }
+  ]
+}

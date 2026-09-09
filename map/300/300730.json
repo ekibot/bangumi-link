@@ -18,6 +18,33 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 322795,
+      "name": "Oik 3",
+      "nameCN": "",
+      "date": "2017-11-09",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 322796,
+      "name": "Oik 4",
+      "nameCN": "",
+      "date": "2018-06-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 335964,
+      "name": "Oik 5",
+      "nameCN": "",
+      "date": "2019-01-24",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +57,36 @@
       "relate": "前传",
       "src": 300731,
       "dst": 300730
+    },
+    {
+      "relate": "续集",
+      "src": 300731,
+      "dst": 322795
+    },
+    {
+      "relate": "前传",
+      "src": 322795,
+      "dst": 300731
+    },
+    {
+      "relate": "续集",
+      "src": 322795,
+      "dst": 322796
+    },
+    {
+      "relate": "前传",
+      "src": 322796,
+      "dst": 322795
+    },
+    {
+      "relate": "续集",
+      "src": 322796,
+      "dst": 335964
+    },
+    {
+      "relate": "前传",
+      "src": 335964,
+      "dst": 322796
     }
   ]
 }

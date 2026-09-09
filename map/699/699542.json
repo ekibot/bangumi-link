@@ -1,0 +1,51 @@
+{
+  "id": 699542,
+  "node": [
+    {
+      "id": 699542,
+      "name": "大唐游俠傳",
+      "nameCN": "大唐游侠传",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 699543,
+      "name": "龍鳳寶釵緣",
+      "nameCN": "龙凤宝钗录",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 699544,
+      "name": "慧劍心魔",
+      "nameCN": "慧剑心魔",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 699542,
+      "dst": 699543
+    },
+    {
+      "relate": "前传",
+      "src": 699543,
+      "dst": 699542
+    },
+    {
+      "relate": "续集",
+      "src": 699543,
+      "dst": 699544
+    },
+    {
+      "relate": "前传",
+      "src": 699544,
+      "dst": 699543
+    }
+  ]
+}
