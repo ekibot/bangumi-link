@@ -1,0 +1,91 @@
+{
+  "id": 535280,
+  "node": [
+    {
+      "id": 535280,
+      "name": "Harley Quinn (2013)",
+      "nameCN": "哈莉奎茵(new 52)",
+      "date": "2014-10-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 700585,
+      "name": "Harley Quinn (2016)",
+      "nameCN": "",
+      "date": "2017-03-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 700614,
+      "name": "Harley Quinn (2000)",
+      "nameCN": "",
+      "date": "2008-01-16",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 700597,
+      "name": "Harley Quinn (2021)",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 700608,
+      "name": "Harley Quinn in Paradise",
+      "nameCN": "",
+      "date": "2026-10-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 535280,
+      "dst": 700585
+    },
+    {
+      "relate": "前传",
+      "src": 535280,
+      "dst": 700614
+    },
+    {
+      "relate": "前传",
+      "src": 700585,
+      "dst": 535280
+    },
+    {
+      "relate": "续集",
+      "src": 700585,
+      "dst": 700597
+    },
+    {
+      "relate": "前传",
+      "src": 700597,
+      "dst": 700585
+    },
+    {
+      "relate": "番外篇",
+      "src": 700597,
+      "dst": 700608
+    },
+    {
+      "relate": "主线故事",
+      "src": 700608,
+      "dst": 700597
+    },
+    {
+      "relate": "续集",
+      "src": 700614,
+      "dst": 535280
+    }
+  ]
+}

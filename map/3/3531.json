@@ -40,7 +40,7 @@
     {
       "id": 116051,
       "name": "遊☆戯☆王アーク・ファイブ TAG FORCE SPECIAL",
-      "nameCN": "游戏王ARC-V卡片力量SP",
+      "nameCN": "游戏王ARC-V Tag Force SP",
       "date": "2015-01-22",
       "type": 4,
       "nsfw": false,
@@ -51,6 +51,15 @@
       "name": "遊☆戯☆王デュエルモンスターズGX タッグフォース2",
       "nameCN": "游戏王! 怪兽对决GX 卡片力量2",
       "date": "2007-09-27",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 700398,
+      "name": "遊戯王 TAG FORCE GX",
+      "nameCN": "",
+      "date": "2027-02-16",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -107,6 +116,11 @@
       "dst": 38134
     },
     {
+      "relate": "不同演绎",
+      "src": 38133,
+      "dst": 700398
+    },
+    {
       "relate": "续集",
       "src": 38134,
       "dst": 38133
@@ -125,6 +139,11 @@
       "relate": "前传",
       "src": 116051,
       "dst": 22144
+    },
+    {
+      "relate": "不同演绎",
+      "src": 700398,
+      "dst": 38133
     }
   ]
 }

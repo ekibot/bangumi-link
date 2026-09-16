@@ -1,0 +1,54 @@
+{
+  "id": 700868,
+  "node": [
+    {
+      "id": 700868,
+      "name": "Dune: House Corrino",
+      "nameCN": "",
+      "date": "2024-12-03",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 701128,
+      "name": "Dune: House  Harkonnen",
+      "nameCN": "",
+      "date": "2023-10-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 701129,
+      "name": "Dune: House   Atreides",
+      "nameCN": "",
+      "date": "2021-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 700868,
+      "dst": 701128
+    },
+    {
+      "relate": "续集",
+      "src": 701128,
+      "dst": 700868
+    },
+    {
+      "relate": "前传",
+      "src": 701128,
+      "dst": 701129
+    },
+    {
+      "relate": "续集",
+      "src": 701129,
+      "dst": 701128
+    }
+  ]
+}

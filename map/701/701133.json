@@ -1,0 +1,54 @@
+{
+  "id": 701133,
+  "node": [
+    {
+      "id": 701133,
+      "name": "Faithless",
+      "nameCN": "",
+      "date": "2020-01-07",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 701134,
+      "name": "Faithless II",
+      "nameCN": "",
+      "date": "2021-02-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 701135,
+      "name": "Faithless III",
+      "nameCN": "",
+      "date": "2023-02-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 701133,
+      "dst": 701134
+    },
+    {
+      "relate": "前传",
+      "src": 701134,
+      "dst": 701133
+    },
+    {
+      "relate": "续集",
+      "src": 701134,
+      "dst": 701135
+    },
+    {
+      "relate": "前传",
+      "src": 701135,
+      "dst": 701134
+    }
+  ]
+}
