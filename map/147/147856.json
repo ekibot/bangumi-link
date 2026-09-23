@@ -1,0 +1,54 @@
+{
+  "id": 147856,
+  "node": [
+    {
+      "id": 147856,
+      "name": "Abe Sapien",
+      "nameCN": "",
+      "date": "2013-12-11",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 705547,
+      "name": "Abe Sapien Volume 2: The Devil Does Not Jest",
+      "nameCN": "",
+      "date": "2012-04-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 705548,
+      "name": "Abe Sapien Volume 1: The Drowning",
+      "nameCN": "",
+      "date": "2008-09-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 147856,
+      "dst": 705547
+    },
+    {
+      "relate": "续集",
+      "src": 705547,
+      "dst": 147856
+    },
+    {
+      "relate": "前传",
+      "src": 705547,
+      "dst": 705548
+    },
+    {
+      "relate": "续集",
+      "src": 705548,
+      "dst": 705547
+    }
+  ]
+}

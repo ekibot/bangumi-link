@@ -18,12 +18,57 @@
       "platform": "其他"
     },
     {
+      "id": 705528,
+      "name": "Avatar: The Next Shadow",
+      "nameCN": "",
+      "date": "2021-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 705529,
+      "name": "Avatar: Adapt or Die",
+      "nameCN": "",
+      "date": "2023-03-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 705530,
+      "name": "Toruk - The First Flight",
+      "nameCN": "",
+      "date": "2015-12-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 282932,
       "name": "Avatar: Fire and Ash",
       "nameCN": "阿凡达：火与烬",
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 705220,
+      "name": "Avatar: The Gap Year--Tipping Point",
+      "nameCN": "",
+      "date": "2026-08-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 705521,
+      "name": "Avatar: The High Ground",
+      "nameCN": "",
+      "date": "2022-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     },
     {
       "id": 282933,
@@ -49,6 +94,21 @@
       "dst": 282931
     },
     {
+      "relate": "续集",
+      "src": 237002,
+      "dst": 705528
+    },
+    {
+      "relate": "前传",
+      "src": 237002,
+      "dst": 705529
+    },
+    {
+      "relate": "前传",
+      "src": 237002,
+      "dst": 705530
+    },
+    {
       "relate": "前传",
       "src": 282931,
       "dst": 237002
@@ -57,6 +117,16 @@
       "relate": "续集",
       "src": 282931,
       "dst": 282932
+    },
+    {
+      "relate": "前传",
+      "src": 282931,
+      "dst": 705220
+    },
+    {
+      "relate": "前传",
+      "src": 282931,
+      "dst": 705521
     },
     {
       "relate": "前传",
@@ -82,6 +152,11 @@
       "relate": "前传",
       "src": 282934,
       "dst": 282933
+    },
+    {
+      "relate": "续集",
+      "src": 705530,
+      "dst": 237002
     }
   ]
 }

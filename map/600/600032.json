@@ -1,0 +1,54 @@
+{
+  "id": 600032,
+  "node": [
+    {
+      "id": 600032,
+      "name": "The Stormlight Archive",
+      "nameCN": "飓光志",
+      "date": "2010-08-31",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 610131,
+      "name": "Mistborn",
+      "nameCN": "迷雾之子",
+      "date": "2006-07-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 706040,
+      "name": "Wax and Wayne",
+      "nameCN": "迷雾之子外传",
+      "date": "2011-11-08",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "相同世界观",
+      "src": 600032,
+      "dst": 610131
+    },
+    {
+      "relate": "相同世界观",
+      "src": 610131,
+      "dst": 600032
+    },
+    {
+      "relate": "续集",
+      "src": 610131,
+      "dst": 706040
+    },
+    {
+      "relate": "前传",
+      "src": 706040,
+      "dst": 610131
+    }
+  ]
+}

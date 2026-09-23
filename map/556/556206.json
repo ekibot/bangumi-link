@@ -1,0 +1,35 @@
+{
+  "id": 556206,
+  "node": [
+    {
+      "id": 556206,
+      "name": "The Wheel of Time",
+      "nameCN": "时光之轮",
+      "date": "1990-01-15",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 705887,
+      "name": "New Spring",
+      "nameCN": "时光之轮前传：新春",
+      "date": "2004-01-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 556206,
+      "dst": 705887
+    },
+    {
+      "relate": "续集",
+      "src": 705887,
+      "dst": 556206
+    }
+  ]
+}
