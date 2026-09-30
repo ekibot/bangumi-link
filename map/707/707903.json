@@ -1,0 +1,53 @@
+{
+  "id": 707903,
+  "node": [
+    {
+      "id": 707903,
+      "name": "Chickenhare",
+      "nameCN": "",
+      "date": "2006-09-27",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 707904,
+      "name": "Chickenhare Volume 2: Fire in the Hole",
+      "nameCN": "",
+      "date": "2008-04-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 707910,
+      "name": "Chickenhare Volume 3: Fish & Grymps",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 707903,
+      "dst": 707904
+    },
+    {
+      "relate": "前传",
+      "src": 707904,
+      "dst": 707903
+    },
+    {
+      "relate": "续集",
+      "src": 707904,
+      "dst": 707910
+    },
+    {
+      "relate": "前传",
+      "src": 707910,
+      "dst": 707904
+    }
+  ]
+}

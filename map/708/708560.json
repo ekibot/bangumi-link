@@ -1,0 +1,53 @@
+{
+  "id": 708560,
+  "node": [
+    {
+      "id": 708560,
+      "name": "30 Days of Night",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 708561,
+      "name": "30 Days of Night: Dark Days",
+      "nameCN": "",
+      "date": "2004-04-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 708562,
+      "name": "30 Days of Night: Return to Barrow",
+      "nameCN": "",
+      "date": "2004-11-17",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 708560,
+      "dst": 708561
+    },
+    {
+      "relate": "前传",
+      "src": 708561,
+      "dst": 708560
+    },
+    {
+      "relate": "续集",
+      "src": 708561,
+      "dst": 708562
+    },
+    {
+      "relate": "前传",
+      "src": 708562,
+      "dst": 708561
+    }
+  ]
+}

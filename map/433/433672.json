@@ -2,14 +2,6 @@
   "id": 433672,
   "node": [
     {
-      "id": 504700,
-      "name": "퇴마록",
-      "nameCN": "退魔录",
-      "type": 6,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 433672,
       "name": "퇴마록",
       "nameCN": "退魔录",
@@ -17,12 +9,38 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 706789,
+      "name": "퇴마록 2: 초상화가 부르고 있다",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 504700,
+      "name": "퇴마록",
+      "nameCN": "退魔录",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "续集",
+      "src": 433672,
+      "dst": 706789
+    },
+    {
       "relate": "不同演绎",
       "src": 504700,
+      "dst": 433672
+    },
+    {
+      "relate": "前传",
+      "src": 706789,
       "dst": 433672
     }
   ]

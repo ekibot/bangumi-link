@@ -252,6 +252,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 708080,
+      "name": "Family Guy: Happy Hell-O-Ween",
+      "nameCN": "",
+      "date": "2026-10-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -554,6 +563,16 @@
       "relate": "主线故事",
       "src": 653290,
       "dst": 640711
+    },
+    {
+      "relate": "续集",
+      "src": 653290,
+      "dst": 708080
+    },
+    {
+      "relate": "前传",
+      "src": 708080,
+      "dst": 653290
     }
   ]
 }

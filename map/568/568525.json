@@ -4,7 +4,7 @@
     {
       "id": 568525,
       "name": "朱色の仮面",
-      "nameCN": "朱红的假面",
+      "nameCN": "朱色假面",
       "date": "2026-10-10",
       "type": 2,
       "nsfw": false,
@@ -17,6 +17,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 708227,
+      "name": "「朱色の仮面」～ラジオの仮面～",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -26,8 +34,18 @@
       "dst": 637949
     },
     {
+      "relate": "衍生",
+      "src": 568525,
+      "dst": 708227
+    },
+    {
       "relate": "前传",
       "src": 637949,
+      "dst": 568525
+    },
+    {
+      "relate": "衍生",
+      "src": 708227,
       "dst": 568525
     }
   ]

@@ -1,0 +1,54 @@
+{
+  "id": 699951,
+  "node": [
+    {
+      "id": 699951,
+      "name": "The Dark Tower",
+      "nameCN": "黑暗塔",
+      "date": "1982-06-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 706623,
+      "name": "The Wind Through the Keyhole",
+      "nameCN": "黑暗塔系列番外篇：穿过锁孔的风",
+      "date": "2012-02-21",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 706633,
+      "name": "The Eyes of the Dragon",
+      "nameCN": "龙之眼",
+      "date": "1984-01-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "番外篇",
+      "src": 699951,
+      "dst": 706623
+    },
+    {
+      "relate": "相同世界观",
+      "src": 699951,
+      "dst": 706633
+    },
+    {
+      "relate": "主线故事",
+      "src": 706623,
+      "dst": 699951
+    },
+    {
+      "relate": "相同世界观",
+      "src": 706633,
+      "dst": 699951
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 671778,
+  "node": [
+    {
+      "id": 671778,
+      "name": "Fallen Hero: Revelations",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 708212,
+      "name": "Fallen Hero: Retribution",
+      "nameCN": "",
+      "date": "2023-02-02",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 708211,
+      "name": "Fallen Hero: Rebirth",
+      "nameCN": "",
+      "date": "2018-03-16",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 671778,
+      "dst": 708212
+    },
+    {
+      "relate": "续集",
+      "src": 708211,
+      "dst": 708212
+    },
+    {
+      "relate": "续集",
+      "src": 708212,
+      "dst": 671778
+    },
+    {
+      "relate": "前传",
+      "src": 708212,
+      "dst": 708211
+    }
+  ]
+}
