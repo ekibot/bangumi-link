@@ -1,0 +1,54 @@
+{
+  "id": 438112,
+  "node": [
+    {
+      "id": 438112,
+      "name": "Magpie Murders",
+      "nameCN": "喜鹊谋杀案",
+      "date": "2017-06-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 438113,
+      "name": "Moonflower Murders",
+      "nameCN": "猫头鹰谋杀案",
+      "date": "2020-08-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 709893,
+      "name": "Marble Hall Murders",
+      "nameCN": "翠鸟谋杀案",
+      "date": "2025-05-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 438112,
+      "dst": 438113
+    },
+    {
+      "relate": "前传",
+      "src": 438113,
+      "dst": 438112
+    },
+    {
+      "relate": "续集",
+      "src": 438113,
+      "dst": 709893
+    },
+    {
+      "relate": "前传",
+      "src": 709893,
+      "dst": 438113
+    }
+  ]
+}

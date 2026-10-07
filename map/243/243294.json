@@ -83,6 +83,15 @@
       "platform": "其他"
     },
     {
+      "id": 280546,
+      "name": "Out Foxed",
+      "nameCN": "逮狐狸",
+      "date": "1949-11-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
       "id": 653576,
       "name": "The Chump Champ",
       "nameCN": "傻瓜冠军",
@@ -141,6 +150,15 @@
       "name": "Drag-a-Long Droopy",
       "nameCN": "牛仔德鲁比",
       "date": "1954-02-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 653588,
+      "name": "Homesteader Droopy",
+      "nameCN": "农场主德鲁比",
+      "date": "1954-07-10",
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
@@ -258,18 +276,28 @@
     },
     {
       "relate": "前传",
+      "src": 280546,
+      "dst": 280560
+    },
+    {
+      "relate": "续集",
+      "src": 280546,
+      "dst": 653576
+    },
+    {
+      "relate": "前传",
       "src": 280560,
       "dst": 280542
     },
     {
       "relate": "续集",
       "src": 280560,
-      "dst": 653576
+      "dst": 280546
     },
     {
       "relate": "前传",
       "src": 653576,
-      "dst": 280560
+      "dst": 280546
     },
     {
       "relate": "续集",
@@ -330,6 +358,16 @@
       "relate": "前传",
       "src": 653586,
       "dst": 653584
+    },
+    {
+      "relate": "续集",
+      "src": 653586,
+      "dst": 653588
+    },
+    {
+      "relate": "前传",
+      "src": 653588,
+      "dst": 653586
     },
     {
       "relate": "前传",
@@ -343,7 +381,7 @@
     },
     {
       "relate": "续集",
-      "src": 653586,
+      "src": 653588,
       "dst": 653590
     },
     {
@@ -354,7 +392,7 @@
     {
       "relate": "前传",
       "src": 653590,
-      "dst": 653586
+      "dst": 653588
     },
     {
       "relate": "前传",

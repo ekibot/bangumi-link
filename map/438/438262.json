@@ -1,0 +1,52 @@
+{
+  "id": 438262,
+  "node": [
+    {
+      "id": 438262,
+      "name": "唐人街探案2",
+      "nameCN": "唐人街探案2",
+      "date": "2018-02-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "华语剧"
+    },
+    {
+      "id": 699548,
+      "name": "唐人街探案",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 535938,
+      "name": "唐探1900",
+      "nameCN": "唐探1900",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 438262,
+      "dst": 699548
+    },
+    {
+      "relate": "续集",
+      "src": 535938,
+      "dst": 699548
+    },
+    {
+      "relate": "续集",
+      "src": 699548,
+      "dst": 438262
+    },
+    {
+      "relate": "前传",
+      "src": 699548,
+      "dst": 535938
+    }
+  ]
+}

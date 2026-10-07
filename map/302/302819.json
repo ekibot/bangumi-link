@@ -63,6 +63,33 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 709280,
+      "name": "The Alfred Hitchcock Hour Season 1",
+      "nameCN": "希区柯克长篇故事集 第一季",
+      "date": "1962-09-20",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 709290,
+      "name": "The Alfred Hitchcock Hour Season 2",
+      "nameCN": "希区柯克长篇故事集 第二季",
+      "date": "1963-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 709292,
+      "name": "The Alfred Hitchcock Hour Season 3",
+      "nameCN": "希区柯克长篇故事集 第三季",
+      "date": "1964-10-05",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -125,6 +152,36 @@
       "relate": "前传",
       "src": 433015,
       "dst": 433014
+    },
+    {
+      "relate": "续集",
+      "src": 433015,
+      "dst": 709280
+    },
+    {
+      "relate": "前传",
+      "src": 709280,
+      "dst": 433015
+    },
+    {
+      "relate": "续集",
+      "src": 709280,
+      "dst": 709290
+    },
+    {
+      "relate": "前传",
+      "src": 709290,
+      "dst": 709280
+    },
+    {
+      "relate": "续集",
+      "src": 709290,
+      "dst": 709292
+    },
+    {
+      "relate": "前传",
+      "src": 709292,
+      "dst": 709290
     }
   ]
 }

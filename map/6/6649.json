@@ -20,15 +20,6 @@
       "platform": "剧场版"
     },
     {
-      "id": 112358,
-      "name": "Buzz Lightyear of Star Command: The Adventure Begins",
-      "nameCN": "巴斯光年",
-      "date": "2000-08-08",
-      "type": 2,
-      "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
       "id": 354630,
       "name": "Lightyear",
       "nameCN": "光年正传",
@@ -36,6 +27,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 709374,
+      "name": "Buzz Lightyear of Star Command",
+      "nameCN": "",
+      "date": "2000-10-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 6651,
@@ -101,6 +101,15 @@
       "platform": "TV"
     },
     {
+      "id": 112358,
+      "name": "Buzz Lightyear of Star Command: The Adventure Begins",
+      "nameCN": "巴斯光年",
+      "date": "2000-08-08",
+      "type": 2,
+      "nsfw": false,
+      "platform": "OVA"
+    },
+    {
       "id": 308841,
       "name": "Lamp Life",
       "nameCN": "牧羊女大冒险",
@@ -137,12 +146,12 @@
     {
       "relate": "衍生",
       "src": 6649,
-      "dst": 112358
+      "dst": 354630
     },
     {
       "relate": "衍生",
       "src": 6649,
-      "dst": 354630
+      "dst": 709374
     },
     {
       "relate": "前传",
@@ -210,14 +219,9 @@
       "dst": 6651
     },
     {
-      "relate": "主线故事",
+      "relate": "不同演绎",
       "src": 112358,
-      "dst": 6649
-    },
-    {
-      "relate": "不同世界观",
-      "src": 112358,
-      "dst": 354630
+      "dst": 709374
     },
     {
       "relate": "前传",
@@ -260,14 +264,19 @@
       "dst": 6649
     },
     {
-      "relate": "不同世界观",
-      "src": 354630,
-      "dst": 112358
-    },
-    {
       "relate": "前传",
       "src": 441800,
       "dst": 117148
+    },
+    {
+      "relate": "主线故事",
+      "src": 709374,
+      "dst": 6649
+    },
+    {
+      "relate": "不同演绎",
+      "src": 709374,
+      "dst": 112358
     }
   ]
 }

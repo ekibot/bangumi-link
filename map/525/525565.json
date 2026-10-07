@@ -11,6 +11,15 @@
       "platform": "TV"
     },
     {
+      "id": 535669,
+      "name": "氷の城壁",
+      "nameCN": "冰之城墙",
+      "date": "2026-04-02",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 638497,
       "name": "正反対な君と僕 第2期",
       "nameCN": "相反的你和我 第二季",
@@ -18,18 +27,47 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 665390,
+      "name": "氷の城壁 第2期",
+      "nameCN": "冰之城墙 第二季",
+      "date": "2026-10-01",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
+    {
+      "relate": "相同世界观",
+      "src": 525565,
+      "dst": 535669
+    },
     {
       "relate": "续集",
       "src": 525565,
       "dst": 638497
     },
     {
+      "relate": "相同世界观",
+      "src": 535669,
+      "dst": 525565
+    },
+    {
+      "relate": "续集",
+      "src": 535669,
+      "dst": 665390
+    },
+    {
       "relate": "前传",
       "src": 638497,
       "dst": 525565
+    },
+    {
+      "relate": "前传",
+      "src": 665390,
+      "dst": 535669
     }
   ]
 }

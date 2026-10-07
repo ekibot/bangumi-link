@@ -26,15 +26,6 @@
       "date": "2012-11-18",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
-    },
-    {
-      "id": 199330,
-      "name": "Elena of Avalor Season 1",
-      "nameCN": "艾莲娜公主 第一季",
-      "date": "2016-07-22",
-      "type": 2,
-      "nsfw": false,
       "platform": "TV"
     },
     {
@@ -42,6 +33,15 @@
       "name": "Sofia the First (Season 3)",
       "nameCN": "小公主苏菲亚 第三季",
       "date": "2015-08-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 199331,
+      "name": "Elena and the Secret of Avalor",
+      "nameCN": "艾莲娜公主与阿瓦洛王国之谜",
+      "date": "2016-11-20",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -56,13 +56,13 @@
       "platform": "TV"
     },
     {
-      "id": 199331,
-      "name": "Elena and the Secret of Avalor",
-      "nameCN": "艾莲娜公主与阿瓦洛王国之谜",
-      "date": "2016-11-27",
+      "id": 199330,
+      "name": "Elena of Avalor Season 1",
+      "nameCN": "艾莲娜公主 第一季",
+      "date": "2016-07-22",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "TV"
     },
     {
       "id": 662507,
@@ -99,14 +99,9 @@
       "dst": 118474
     },
     {
-      "relate": "番外篇",
+      "relate": "前传",
       "src": 118473,
       "dst": 136125
-    },
-    {
-      "relate": "相同世界观",
-      "src": 118473,
-      "dst": 199330
     },
     {
       "relate": "前传",
@@ -119,7 +114,7 @@
       "dst": 149647
     },
     {
-      "relate": "主线故事",
+      "relate": "续集",
       "src": 136125,
       "dst": 118473
     },
@@ -129,17 +124,17 @@
       "dst": 118474
     },
     {
+      "relate": "相同世界观",
+      "src": 149647,
+      "dst": 199331
+    },
+    {
       "relate": "续集",
       "src": 149647,
       "dst": 323398
     },
     {
-      "relate": "相同世界观",
-      "src": 199330,
-      "dst": 118473
-    },
-    {
-      "relate": "番外篇",
+      "relate": "前传",
       "src": 199330,
       "dst": 199331
     },
@@ -149,7 +144,12 @@
       "dst": 662507
     },
     {
-      "relate": "主线故事",
+      "relate": "相同世界观",
+      "src": 199331,
+      "dst": 149647
+    },
+    {
+      "relate": "续集",
       "src": 199331,
       "dst": 199330
     },

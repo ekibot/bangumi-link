@@ -1,0 +1,54 @@
+{
+  "id": 710403,
+  "node": [
+    {
+      "id": 710403,
+      "name": "Tales of the Otori",
+      "nameCN": "",
+      "date": "2002-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 710406,
+      "name": "Children of the Otori",
+      "nameCN": "",
+      "date": "2020-01-28",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 710411,
+      "name": "The Tale of Shikanoko",
+      "nameCN": "",
+      "date": "2016-04-26",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 710403,
+      "dst": 710406
+    },
+    {
+      "relate": "前传",
+      "src": 710403,
+      "dst": 710411
+    },
+    {
+      "relate": "前传",
+      "src": 710406,
+      "dst": 710403
+    },
+    {
+      "relate": "续集",
+      "src": 710411,
+      "dst": 710403
+    }
+  ]
+}

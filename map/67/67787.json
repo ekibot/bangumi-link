@@ -26,7 +26,7 @@
       "date": "1999-12-07",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 113012,
@@ -65,10 +65,28 @@
       "platform": "TV"
     },
     {
+      "id": 709359,
+      "name": "Duck the Halls: A Mickey Mouse Christmas Special",
+      "nameCN": "",
+      "date": "2016-12-09",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 324300,
       "name": "Mickey Mouse Season 5",
       "nameCN": "米老鼠2013 第五季",
       "date": "2018-10-06",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 709358,
+      "name": "The Scariest Story Ever: A Mickey Mouse Halloween Spooktacular",
+      "nameCN": "",
+      "date": "2017-10-08",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -146,6 +164,11 @@
       "dst": 222400
     },
     {
+      "relate": "番外篇",
+      "src": 168748,
+      "dst": 709359
+    },
+    {
       "relate": "前传",
       "src": 222400,
       "dst": 168748
@@ -156,9 +179,24 @@
       "dst": 324300
     },
     {
+      "relate": "番外篇",
+      "src": 222400,
+      "dst": 709358
+    },
+    {
       "relate": "前传",
       "src": 324300,
       "dst": 222400
+    },
+    {
+      "relate": "主线故事",
+      "src": 709358,
+      "dst": 222400
+    },
+    {
+      "relate": "主线故事",
+      "src": 709359,
+      "dst": 168748
     }
   ]
 }

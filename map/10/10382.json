@@ -2,14 +2,6 @@
   "id": 10382,
   "node": [
     {
-      "id": 453323,
-      "name": "レジェンズ",
-      "nameCN": "",
-      "type": 1,
-      "nsfw": false,
-      "platform": "漫画"
-    },
-    {
       "id": 10382,
       "name": "レジェンズ 甦る竜王伝説",
       "nameCN": "LEGENDZ 苏生龙王传说",
@@ -17,12 +9,39 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 710492,
+      "name": "レジェンズ～甦る竜王伝説～ パイロット版",
+      "nameCN": "LEGENDZ 苏生龙王传说 初期样片",
+      "date": "2003-09-20",
+      "type": 2,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 453323,
+      "name": "レジェンズ",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
     {
+      "relate": "不同演绎",
+      "src": 10382,
+      "dst": 710492
+    },
+    {
       "relate": "不同世界观",
       "src": 453323,
+      "dst": 10382
+    },
+    {
+      "relate": "不同演绎",
+      "src": 710492,
       "dst": 10382
     }
   ]
