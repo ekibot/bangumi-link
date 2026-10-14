@@ -29,10 +29,37 @@
       "platform": "TV"
     },
     {
+      "id": 711921,
+      "name": "Garfield's Thanksgiving",
+      "nameCN": "加菲猫的感恩节",
+      "date": "1989-11-22",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 711922,
+      "name": "Garfield's Feline Fantasies",
+      "nameCN": "爱幻想的加菲猫",
+      "date": "1990-05-18",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 459593,
       "name": "Garfield and Friends Season 4",
       "nameCN": "加菲猫和他的朋友们 第四季",
       "date": "1991-09-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 711924,
+      "name": "Garfield Gets a Life",
+      "nameCN": "加菲猫之重获新生",
+      "date": "1991-05-08",
       "type": 2,
       "nsfw": false,
       "platform": "TV"
@@ -82,6 +109,16 @@
       "dst": 459592
     },
     {
+      "relate": "衍生",
+      "src": 459591,
+      "dst": 711921
+    },
+    {
+      "relate": "衍生",
+      "src": 459591,
+      "dst": 711922
+    },
+    {
       "relate": "前传",
       "src": 459592,
       "dst": 459591
@@ -90,6 +127,11 @@
       "relate": "续集",
       "src": 459592,
       "dst": 459593
+    },
+    {
+      "relate": "衍生",
+      "src": 459592,
+      "dst": 711924
     },
     {
       "relate": "前传",
@@ -125,6 +167,21 @@
       "relate": "前传",
       "src": 459596,
       "dst": 459595
+    },
+    {
+      "relate": "主线故事",
+      "src": 711921,
+      "dst": 459591
+    },
+    {
+      "relate": "主线故事",
+      "src": 711922,
+      "dst": 459591
+    },
+    {
+      "relate": "主线故事",
+      "src": 711924,
+      "dst": 459592
     }
   ]
 }

@@ -107,6 +107,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 711731,
+      "name": "Planet of the Apes (2001)",
+      "nameCN": "",
+      "date": "2002-02-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 711730,
+      "name": "Planet of the Apes: The Human War",
+      "nameCN": "",
+      "date": "2001-07-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
     }
   ],
   "relate": [
@@ -287,6 +305,11 @@
     },
     {
       "relate": "前传",
+      "src": 533982,
+      "dst": 711731
+    },
+    {
+      "relate": "前传",
       "src": 533984,
       "dst": 227645
     },
@@ -314,6 +337,16 @@
       "relate": "不同演绎",
       "src": 533985,
       "dst": 533982
+    },
+    {
+      "relate": "续集",
+      "src": 711730,
+      "dst": 711731
+    },
+    {
+      "relate": "前传",
+      "src": 711731,
+      "dst": 711730
     }
   ]
 }

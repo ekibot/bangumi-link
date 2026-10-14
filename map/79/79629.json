@@ -18,6 +18,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 711291,
+      "name": "バーチャコップ3",
+      "nameCN": "VR战警3",
+      "date": "2003-02-18",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +39,16 @@
       "relate": "前传",
       "src": 128280,
       "dst": 79629
+    },
+    {
+      "relate": "续集",
+      "src": 128280,
+      "dst": 711291
+    },
+    {
+      "relate": "前传",
+      "src": 711291,
+      "dst": 128280
     }
   ]
 }

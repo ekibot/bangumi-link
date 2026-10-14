@@ -1,0 +1,33 @@
+{
+  "id": 586540,
+  "node": [
+    {
+      "id": 586540,
+      "name": "The Jungle Book",
+      "nameCN": "丛林奇谭",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 710863,
+      "name": "The Second Jungle Boo",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 586540,
+      "dst": 710863
+    },
+    {
+      "relate": "前传",
+      "src": 710863,
+      "dst": 586540
+    }
+  ]
+}

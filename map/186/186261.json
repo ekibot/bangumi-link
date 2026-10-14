@@ -56,19 +56,19 @@
       "platform": "漫画"
     },
     {
-      "id": 660351,
-      "name": "Civil War: Wolverine",
+      "id": 652806,
+      "name": "Fallen Son: The Death of Captain America",
       "nameCN": "",
-      "date": "2007-05-16",
+      "date": "2009-07-08",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
     },
     {
-      "id": 663126,
-      "name": "What If? Civil War",
+      "id": 660351,
+      "name": "Civil War: Wolverine",
       "nameCN": "",
-      "date": "2008-04-23",
+      "date": "2007-05-16",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -191,13 +191,13 @@
       "platform": "漫画"
     },
     {
-      "id": 666150,
-      "name": "Civil War: A Novel of the Marvel Universe",
-      "nameCN": "内战",
-      "date": "2012-06-06",
+      "id": 700279,
+      "name": "Civil War: Unmasked",
+      "nameCN": "",
+      "date": "2027-02-02",
       "type": 1,
       "nsfw": false,
-      "platform": "小说"
+      "platform": "漫画"
     },
     {
       "id": 635433,
@@ -470,14 +470,14 @@
       "dst": 650643
     },
     {
+      "relate": "续集",
+      "src": 186261,
+      "dst": 652806
+    },
+    {
       "relate": "番外篇",
       "src": 186261,
       "dst": 660351
-    },
-    {
-      "relate": "不同世界观",
-      "src": 186261,
-      "dst": 663126
     },
     {
       "relate": "番外篇",
@@ -545,9 +545,9 @@
       "dst": 666143
     },
     {
-      "relate": "不同世界观",
+      "relate": "番外篇",
       "src": 186261,
-      "dst": 666150
+      "dst": 700279
     },
     {
       "relate": "前传",
@@ -745,6 +745,11 @@
       "dst": 186261
     },
     {
+      "relate": "前传",
+      "src": 652806,
+      "dst": 186261
+    },
+    {
       "relate": "主线故事",
       "src": 660351,
       "dst": 186261
@@ -758,11 +763,6 @@
       "relate": "主线故事",
       "src": 662855,
       "dst": 186262
-    },
-    {
-      "relate": "不同世界观",
-      "src": 663126,
-      "dst": 186261
     },
     {
       "relate": "主线故事",
@@ -845,11 +845,6 @@
       "dst": 186261
     },
     {
-      "relate": "不同世界观",
-      "src": 666150,
-      "dst": 186261
-    },
-    {
       "relate": "主线故事",
       "src": 666152,
       "dst": 186262
@@ -923,6 +918,11 @@
       "relate": "续集",
       "src": 668299,
       "dst": 665704
+    },
+    {
+      "relate": "主线故事",
+      "src": 700279,
+      "dst": 186261
     }
   ]
 }

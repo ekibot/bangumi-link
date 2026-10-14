@@ -18,6 +18,15 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 711801,
+      "name": "ドラゴンセイバー",
+      "nameCN": "龙魂2",
+      "date": "1990-12-13",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +39,16 @@
       "relate": "续集",
       "src": 261763,
       "dst": 260657
+    },
+    {
+      "relate": "续集",
+      "src": 261763,
+      "dst": 711801
+    },
+    {
+      "relate": "前传",
+      "src": 711801,
+      "dst": 261763
     }
   ]
 }

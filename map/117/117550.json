@@ -5,6 +5,7 @@
       "id": 117550,
       "name": "The Escapists",
       "nameCN": "逃脱者",
+      "date": "2015-02-13",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -13,6 +14,15 @@
       "id": 219668,
       "name": "The Escapists 2",
       "nameCN": "逃脱者2",
+      "date": "2017-08-22",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 712115,
+      "name": "The Escapists 3",
+      "nameCN": "逃脱者3",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -28,6 +38,16 @@
       "relate": "前传",
       "src": 219668,
       "dst": 117550
+    },
+    {
+      "relate": "续集",
+      "src": 219668,
+      "dst": 712115
+    },
+    {
+      "relate": "前传",
+      "src": 712115,
+      "dst": 219668
     }
   ]
 }
