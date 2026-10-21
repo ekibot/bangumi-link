@@ -1,0 +1,71 @@
+{
+  "id": 712879,
+  "node": [
+    {
+      "id": 712879,
+      "name": "Species",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 712881,
+      "name": "Species II",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 712882,
+      "name": "Species III",
+      "nameCN": "",
+      "date": "2004-11-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 712885,
+      "name": "Species: The Awakening",
+      "nameCN": "",
+      "date": "2007-09-29",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 712879,
+      "dst": 712881
+    },
+    {
+      "relate": "前传",
+      "src": 712881,
+      "dst": 712879
+    },
+    {
+      "relate": "续集",
+      "src": 712881,
+      "dst": 712882
+    },
+    {
+      "relate": "前传",
+      "src": 712882,
+      "dst": 712881
+    },
+    {
+      "relate": "续集",
+      "src": 712882,
+      "dst": 712885
+    },
+    {
+      "relate": "前传",
+      "src": 712885,
+      "dst": 712882
+    }
+  ]
+}

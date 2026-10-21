@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "剧场版"
+    },
+    {
+      "id": 712545,
+      "name": "ちいかわ 第3期",
+      "nameCN": "吉伊卡哇 第3期",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -46,8 +54,18 @@
       "dst": 610494
     },
     {
+      "relate": "续集",
+      "src": 569138,
+      "dst": 712545
+    },
+    {
       "relate": "主线故事",
       "src": 610494,
+      "dst": 569138
+    },
+    {
+      "relate": "前传",
+      "src": 712545,
       "dst": 569138
     }
   ]

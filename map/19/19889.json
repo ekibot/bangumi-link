@@ -387,6 +387,42 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 713459,
+      "name": "The Simpsons Season 38",
+      "nameCN": "辛普森一家 第38季",
+      "date": "2026-09-27",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 713460,
+      "name": "The Simpsons Extreme Makeover: Homer Edition",
+      "nameCN": "",
+      "date": "2026-06-17",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 713461,
+      "name": "The Simpsons Simpsley",
+      "nameCN": "",
+      "date": "2026-07-03",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
+    },
+    {
+      "id": 713462,
+      "name": "The Simpsons Yellow Mirror",
+      "nameCN": "",
+      "date": "2026-08-26",
+      "type": 2,
+      "nsfw": false,
+      "platform": "WEB"
     }
   ],
   "relate": [
@@ -791,6 +827,26 @@
       "dst": 519266
     },
     {
+      "relate": "续集",
+      "src": 583581,
+      "dst": 713459
+    },
+    {
+      "relate": "番外篇",
+      "src": 583581,
+      "dst": 713460
+    },
+    {
+      "relate": "番外篇",
+      "src": 583581,
+      "dst": 713461
+    },
+    {
+      "relate": "番外篇",
+      "src": 583581,
+      "dst": 713462
+    },
+    {
       "relate": "前传",
       "src": 590141,
       "dst": 52781
@@ -829,6 +885,56 @@
       "relate": "前传",
       "src": 592719,
       "dst": 592718
+    },
+    {
+      "relate": "续集",
+      "src": 592719,
+      "dst": 713460
+    },
+    {
+      "relate": "前传",
+      "src": 713459,
+      "dst": 583581
+    },
+    {
+      "relate": "主线故事",
+      "src": 713460,
+      "dst": 583581
+    },
+    {
+      "relate": "前传",
+      "src": 713460,
+      "dst": 592719
+    },
+    {
+      "relate": "续集",
+      "src": 713460,
+      "dst": 713461
+    },
+    {
+      "relate": "主线故事",
+      "src": 713461,
+      "dst": 583581
+    },
+    {
+      "relate": "前传",
+      "src": 713461,
+      "dst": 713460
+    },
+    {
+      "relate": "续集",
+      "src": 713461,
+      "dst": 713462
+    },
+    {
+      "relate": "主线故事",
+      "src": 713462,
+      "dst": 583581
+    },
+    {
+      "relate": "前传",
+      "src": 713462,
+      "dst": 713461
     }
   ]
 }

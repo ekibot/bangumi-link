@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 149531,
+      "name": "Please Like Me Season 3",
+      "nameCN": "请喜欢我 第三季",
+      "date": "2015-10-16",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 205163,
+      "name": "Please Like Me Season 4",
+      "nameCN": "请喜欢我 第四季",
+      "date": "2016-11-09",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 111389,
       "dst": 77012
+    },
+    {
+      "relate": "续集",
+      "src": 111389,
+      "dst": 149531
+    },
+    {
+      "relate": "前传",
+      "src": 149531,
+      "dst": 111389
+    },
+    {
+      "relate": "续集",
+      "src": 149531,
+      "dst": 205163
+    },
+    {
+      "relate": "前传",
+      "src": 205163,
+      "dst": 149531
     }
   ]
 }
