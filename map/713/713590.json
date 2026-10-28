@@ -1,0 +1,54 @@
+{
+  "id": 713590,
+  "node": [
+    {
+      "id": 713590,
+      "name": "Universe X",
+      "nameCN": "",
+      "date": "2002-02-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 713604,
+      "name": "Earth X",
+      "nameCN": "",
+      "date": "2000-12-06",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 715230,
+      "name": "Paradise X",
+      "nameCN": "",
+      "date": "2003-10-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 713590,
+      "dst": 713604
+    },
+    {
+      "relate": "续集",
+      "src": 713590,
+      "dst": 715230
+    },
+    {
+      "relate": "续集",
+      "src": 713604,
+      "dst": 713590
+    },
+    {
+      "relate": "前传",
+      "src": 715230,
+      "dst": 713590
+    }
+  ]
+}

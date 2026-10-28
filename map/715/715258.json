@@ -1,0 +1,51 @@
+{
+  "id": 715258,
+  "node": [
+    {
+      "id": 715258,
+      "name": "Oh, God!",
+      "nameCN": "上帝下凡",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 715260,
+      "name": "Oh, God! Book II",
+      "nameCN": "上帝下凡2",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 715261,
+      "name": "Oh, God! You Devil",
+      "nameCN": "上帝下凡3",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 715258,
+      "dst": 715260
+    },
+    {
+      "relate": "前传",
+      "src": 715260,
+      "dst": 715258
+    },
+    {
+      "relate": "续集",
+      "src": 715260,
+      "dst": 715261
+    },
+    {
+      "relate": "前传",
+      "src": 715261,
+      "dst": 715260
+    }
+  ]
+}

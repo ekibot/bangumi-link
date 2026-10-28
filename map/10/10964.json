@@ -81,6 +81,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 715118,
+      "name": "Scrubs Season 10",
+      "nameCN": "实习医生风云 第十季",
+      "date": "2026-02-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 715119,
+      "name": "Scrubs Season 11",
+      "nameCN": "实习医生风云 第十一季",
+      "date": "2026-09-30",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -163,6 +181,26 @@
       "relate": "前传",
       "src": 191277,
       "dst": 191276
+    },
+    {
+      "relate": "续集",
+      "src": 191277,
+      "dst": 715118
+    },
+    {
+      "relate": "前传",
+      "src": 715118,
+      "dst": 191277
+    },
+    {
+      "relate": "续集",
+      "src": 715118,
+      "dst": 715119
+    },
+    {
+      "relate": "前传",
+      "src": 715119,
+      "dst": 715118
     }
   ]
 }

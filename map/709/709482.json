@@ -1,0 +1,54 @@
+{
+  "id": 709482,
+  "node": [
+    {
+      "id": 709482,
+      "name": "The Black Magician Trilogy",
+      "nameCN": "",
+      "date": "2003-11-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 716416,
+      "name": "The Magician's Apprentice",
+      "nameCN": "",
+      "date": "2009-02-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 716422,
+      "name": "The Traitor Spy Trilogy",
+      "nameCN": "",
+      "date": "2010-04-18",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 709482,
+      "dst": 716416
+    },
+    {
+      "relate": "续集",
+      "src": 709482,
+      "dst": 716422
+    },
+    {
+      "relate": "续集",
+      "src": 716416,
+      "dst": 709482
+    },
+    {
+      "relate": "前传",
+      "src": 716422,
+      "dst": 709482
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 716432,
+  "node": [
+    {
+      "id": 716432,
+      "name": "The Fallen Moon",
+      "nameCN": "",
+      "date": "2009-08-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 716443,
+      "name": "The Risen Sun",
+      "nameCN": "",
+      "date": "2012-07-01",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    },
+    {
+      "id": 716463,
+      "name": "The Southern Star",
+      "nameCN": "",
+      "date": "2016-09-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "小说"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 716432,
+      "dst": 716443
+    },
+    {
+      "relate": "前传",
+      "src": 716443,
+      "dst": 716432
+    },
+    {
+      "relate": "续集",
+      "src": 716443,
+      "dst": 716463
+    },
+    {
+      "relate": "前传",
+      "src": 716463,
+      "dst": 716443
+    }
+  ]
+}

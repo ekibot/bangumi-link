@@ -23,6 +23,34 @@
       "id": 225988,
       "name": "This Is Us Season 3",
       "nameCN": "我们这一天 第三季",
+      "date": "2018-09-25",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 291419,
+      "name": "This Is Us Season 4",
+      "nameCN": "我们这一天 第四季",
+      "date": "2019-09-24",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 319547,
+      "name": "This Is Us Season 5",
+      "nameCN": "我们这一天 第五季",
+      "date": "2020-10-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 365842,
+      "name": "This is US season 6",
+      "nameCN": "我们这一天 第六季",
+      "date": "2022-01-04",
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
@@ -48,6 +76,36 @@
       "relate": "前传",
       "src": 225988,
       "dst": 225983
+    },
+    {
+      "relate": "续集",
+      "src": 225988,
+      "dst": 291419
+    },
+    {
+      "relate": "前传",
+      "src": 291419,
+      "dst": 225988
+    },
+    {
+      "relate": "续集",
+      "src": 291419,
+      "dst": 319547
+    },
+    {
+      "relate": "前传",
+      "src": 319547,
+      "dst": 291419
+    },
+    {
+      "relate": "续集",
+      "src": 319547,
+      "dst": 365842
+    },
+    {
+      "relate": "前传",
+      "src": 365842,
+      "dst": 319547
     }
   ]
 }
