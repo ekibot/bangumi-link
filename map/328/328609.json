@@ -98,6 +98,23 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 718086,
+      "name": "映画ぼっち・ざ・ろっく！星のあしあと",
+      "nameCN": "电影 孤独摇滚！星之足迹",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
+    },
+    {
+      "id": 718501,
+      "name": "結束バンド ASIA TOUR 2027 “To Asia.”",
+      "nameCN": "",
+      "date": "2027-03-13",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -150,6 +167,16 @@
       "relate": "衍生",
       "src": 328609,
       "dst": 538079
+    },
+    {
+      "relate": "前传",
+      "src": 328609,
+      "dst": 718086
+    },
+    {
+      "relate": "衍生",
+      "src": 328609,
+      "dst": 718501
     },
     {
       "relate": "衍生",
@@ -240,6 +267,16 @@
       "relate": "续集",
       "src": 538079,
       "dst": 538075
+    },
+    {
+      "relate": "续集",
+      "src": 718086,
+      "dst": 328609
+    },
+    {
+      "relate": "衍生",
+      "src": 718501,
+      "dst": 328609
     }
   ]
 }

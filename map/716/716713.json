@@ -1,0 +1,33 @@
+{
+  "id": 716713,
+  "node": [
+    {
+      "id": 716713,
+      "name": "Short Circuit",
+      "nameCN": "霹雳五号",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 716718,
+      "name": "Short Circuit 2",
+      "nameCN": "霹雳五号续集",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 716713,
+      "dst": 716718
+    },
+    {
+      "relate": "前传",
+      "src": 716718,
+      "dst": 716713
+    }
+  ]
+}

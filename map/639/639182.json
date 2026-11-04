@@ -20,6 +20,15 @@
       "platform": "漫画"
     },
     {
+      "id": 700268,
+      "name": "Godzilla Conquers The Multiverse",
+      "nameCN": "",
+      "date": "2027-04-20",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 639185,
       "name": "Godzilla vs. the Marvel Universe",
       "nameCN": "",
@@ -37,6 +46,11 @@
     },
     {
       "relate": "续集",
+      "src": 639182,
+      "dst": 700268
+    },
+    {
+      "relate": "续集",
       "src": 639184,
       "dst": 639182
     },
@@ -49,6 +63,11 @@
       "relate": "续集",
       "src": 639185,
       "dst": 639184
+    },
+    {
+      "relate": "前传",
+      "src": 700268,
+      "dst": 639182
     }
   ]
 }

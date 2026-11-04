@@ -18,6 +18,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 717930,
+      "name": "ロメリア戦記 第IIクール",
+      "nameCN": "罗梅莉亚战记 第2部分",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     }
   ],
   "relate": [
@@ -27,8 +35,18 @@
       "dst": 708229
     },
     {
+      "relate": "续集",
+      "src": 511936,
+      "dst": 717930
+    },
+    {
       "relate": "主线故事",
       "src": 708229,
+      "dst": 511936
+    },
+    {
+      "relate": "前传",
+      "src": 717930,
       "dst": 511936
     }
   ]

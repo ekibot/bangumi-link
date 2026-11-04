@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 333023,
+      "name": "Manifest Season 3",
+      "nameCN": "命运航班 第三季",
+      "date": "2021-04-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 408718,
+      "name": "Manifest Season 4",
+      "nameCN": "命运航班 第四季",
+      "date": "2022-11-04",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 298075,
       "dst": 262146
+    },
+    {
+      "relate": "续集",
+      "src": 298075,
+      "dst": 333023
+    },
+    {
+      "relate": "前传",
+      "src": 333023,
+      "dst": 298075
+    },
+    {
+      "relate": "续集",
+      "src": 333023,
+      "dst": 408718
+    },
+    {
+      "relate": "前传",
+      "src": 408718,
+      "dst": 333023
     }
   ]
 }

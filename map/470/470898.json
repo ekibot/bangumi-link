@@ -1,0 +1,82 @@
+{
+  "id": 470898,
+  "node": [
+    {
+      "id": 470898,
+      "name": "Test Subject Blue",
+      "nameCN": "蓝色药水",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 716932,
+      "name": "Test Subject Green",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 716929,
+      "name": "Test Subject Arena",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 716931,
+      "name": "Test Subject Arena 2",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 716935,
+      "name": "Test Subject Complete",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 470898,
+      "dst": 716932
+    },
+    {
+      "relate": "主线故事",
+      "src": 716929,
+      "dst": 470898
+    },
+    {
+      "relate": "续集",
+      "src": 716929,
+      "dst": 716931
+    },
+    {
+      "relate": "前传",
+      "src": 716931,
+      "dst": 716929
+    },
+    {
+      "relate": "前传",
+      "src": 716932,
+      "dst": 470898
+    },
+    {
+      "relate": "续集",
+      "src": 716932,
+      "dst": 716935
+    },
+    {
+      "relate": "前传",
+      "src": 716935,
+      "dst": 716932
+    }
+  ]
+}

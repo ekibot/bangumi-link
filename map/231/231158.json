@@ -17,7 +17,16 @@
       "date": "2001-09-12",
       "type": 6,
       "nsfw": false,
-      "platform": "欧美剧"
+      "platform": "其他"
+    },
+    {
+      "id": 718111,
+      "name": "Blue Planet III",
+      "nameCN": "蓝色星球 第三季",
+      "date": "2026-11-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -28,7 +37,17 @@
     },
     {
       "relate": "续集",
+      "src": 231158,
+      "dst": 718111
+    },
+    {
+      "relate": "续集",
       "src": 231162,
+      "dst": 231158
+    },
+    {
+      "relate": "前传",
+      "src": 718111,
       "dst": 231158
     }
   ]

@@ -1,0 +1,54 @@
+{
+  "id": 717836,
+  "node": [
+    {
+      "id": 717836,
+      "name": "喜劇の人",
+      "nameCN": "",
+      "date": "1995-07-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 717837,
+      "name": "続・喜劇の人",
+      "nameCN": "",
+      "date": "1996-04-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 717838,
+      "name": "新・喜劇の人",
+      "nameCN": "",
+      "date": "1997-06-30",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 717836,
+      "dst": 717837
+    },
+    {
+      "relate": "前传",
+      "src": 717837,
+      "dst": 717836
+    },
+    {
+      "relate": "续集",
+      "src": 717837,
+      "dst": 717838
+    },
+    {
+      "relate": "前传",
+      "src": 717838,
+      "dst": 717837
+    }
+  ]
+}

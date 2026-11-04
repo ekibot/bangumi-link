@@ -47,10 +47,19 @@
       "platform": "漫画"
     },
     {
-      "id": 665356,
-      "name": "West Coast Avengers (2024)",
+      "id": 718270,
+      "name": "Gwenpool Strikes Back",
       "nameCN": "",
-      "date": "2025-07-23",
+      "date": "2020-02-19",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 718271,
+      "name": "The Unbelievable Gwenpool",
+      "nameCN": "",
+      "date": "2016-11-09",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -100,11 +109,21 @@
     {
       "relate": "续集",
       "src": 665351,
-      "dst": 665356
+      "dst": 718270
     },
     {
       "relate": "前传",
-      "src": 665356,
+      "src": 665351,
+      "dst": 718271
+    },
+    {
+      "relate": "前传",
+      "src": 718270,
+      "dst": 665351
+    },
+    {
+      "relate": "续集",
+      "src": 718271,
       "dst": 665351
     }
   ]

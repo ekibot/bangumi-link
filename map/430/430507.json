@@ -38,6 +38,14 @@
       "platform": "WEB"
     },
     {
+      "id": 589825,
+      "name": "Marvel's Avengers: Mightiest Friends",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
       "id": 476514,
       "name": "Marvel's Spidey and His Amazing Friends Season 3",
       "nameCN": "蜘蛛侠与他的神奇朋友们 第三季",
@@ -101,14 +109,6 @@
       "platform": "TV"
     },
     {
-      "id": 589825,
-      "name": "Marvel's Avengers: Mightiest Friends",
-      "nameCN": "",
-      "type": 2,
-      "nsfw": false,
-      "platform": "TV"
-    },
-    {
       "id": 595921,
       "name": "Meet Iron Man and His Awesome Friends",
       "nameCN": "",
@@ -116,6 +116,15 @@
       "type": 2,
       "nsfw": false,
       "platform": "WEB"
+    },
+    {
+      "id": 717369,
+      "name": "Marvel’s Spidey and the Avengers: Halloween Team-Up!",
+      "nameCN": "",
+      "date": "2026-09-24",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
     },
     {
       "id": 695947,
@@ -152,6 +161,11 @@
       "dst": 585411
     },
     {
+      "relate": "相同世界观",
+      "src": 430507,
+      "dst": 589825
+    },
+    {
       "relate": "前传",
       "src": 430508,
       "dst": 430507
@@ -207,7 +221,7 @@
       "dst": 430507
     },
     {
-      "relate": "衍生",
+      "relate": "相同世界观",
       "src": 568090,
       "dst": 589825
     },
@@ -220,6 +234,11 @@
       "relate": "衍生",
       "src": 568090,
       "dst": 608842
+    },
+    {
+      "relate": "衍生",
+      "src": 568090,
+      "dst": 717369
     },
     {
       "relate": "主线故事",
@@ -277,7 +296,12 @@
       "dst": 695947
     },
     {
-      "relate": "主线故事",
+      "relate": "相同世界观",
+      "src": 589825,
+      "dst": 430507
+    },
+    {
+      "relate": "相同世界观",
       "src": 589825,
       "dst": 568090
     },
@@ -295,6 +319,11 @@
       "relate": "衍生",
       "src": 595884,
       "dst": 695947
+    },
+    {
+      "relate": "衍生",
+      "src": 595884,
+      "dst": 717369
     },
     {
       "relate": "前传",
@@ -324,6 +353,16 @@
     {
       "relate": "主线故事",
       "src": 695947,
+      "dst": 595884
+    },
+    {
+      "relate": "主线故事",
+      "src": 717369,
+      "dst": 568090
+    },
+    {
+      "relate": "主线故事",
+      "src": 717369,
       "dst": 595884
     }
   ]

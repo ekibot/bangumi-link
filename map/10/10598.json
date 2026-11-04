@@ -5,10 +5,10 @@
       "id": 10598,
       "name": "Highlander: The Search for Vengeance",
       "nameCN": "高地人：复仇之旅",
-      "date": "2008-07-05",
+      "date": "2007-06-05",
       "type": 2,
       "nsfw": false,
-      "platform": "剧场版"
+      "platform": "OVA"
     },
     {
       "id": 270776,
@@ -85,6 +85,15 @@
       "type": 6,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 717598,
+      "name": "HIGHLANDER ハイランダー ディレクターズカット版",
+      "nameCN": "高地人：复仇之旅 加长完全版",
+      "date": "2008-07-05",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     },
     {
       "id": 299944,
@@ -177,6 +186,11 @@
       "relate": "相同世界观",
       "src": 10598,
       "dst": 499585
+    },
+    {
+      "relate": "不同演绎",
+      "src": 10598,
+      "dst": 717598
     },
     {
       "relate": "番外篇",
@@ -477,6 +491,11 @@
       "relate": "相同世界观",
       "src": 499585,
       "dst": 299930
+    },
+    {
+      "relate": "不同演绎",
+      "src": 717598,
+      "dst": 10598
     }
   ]
 }
