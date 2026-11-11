@@ -1,0 +1,54 @@
+{
+  "id": 652692,
+  "node": [
+    {
+      "id": 652692,
+      "name": "Infinity Companion",
+      "nameCN": "",
+      "date": "2014-04-22",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 718689,
+      "name": "Infinity",
+      "nameCN": "",
+      "date": "2014-02-14",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 718692,
+      "name": "Infinity Incoming!",
+      "nameCN": "",
+      "date": "2013-07-24",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "主线故事",
+      "src": 652692,
+      "dst": 718689
+    },
+    {
+      "relate": "番外篇",
+      "src": 718689,
+      "dst": 652692
+    },
+    {
+      "relate": "前传",
+      "src": 718689,
+      "dst": 718692
+    },
+    {
+      "relate": "续集",
+      "src": 718692,
+      "dst": 718689
+    }
+  ]
+}

@@ -3,15 +3,16 @@
   "node": [
     {
       "id": 9574,
-      "name": "Galaxian",
+      "name": "ギャラクシアン",
       "nameCN": "小蜜蜂",
+      "date": "1979-09-15",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
     },
     {
       "id": 216403,
-      "name": "Galaga",
+      "name": "ギャラガ",
       "nameCN": "大蜜蜂",
       "type": 4,
       "nsfw": false,
@@ -22,6 +23,23 @@
       "name": "Galaga Legions DX",
       "nameCN": "大蜜蜂军团",
       "date": "2008-08-20",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 526184,
+      "name": "ギャプラス",
+      "nameCN": "大蜜蜂3",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 258543,
+      "name": "ギャラガ'88",
+      "nameCN": "大蜜蜂88",
+      "date": "1987-12-01",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -47,6 +65,26 @@
       "relate": "不同演绎",
       "src": 216403,
       "dst": 99717
+    },
+    {
+      "relate": "续集",
+      "src": 216403,
+      "dst": 526184
+    },
+    {
+      "relate": "前传",
+      "src": 258543,
+      "dst": 526184
+    },
+    {
+      "relate": "前传",
+      "src": 526184,
+      "dst": 216403
+    },
+    {
+      "relate": "续集",
+      "src": 526184,
+      "dst": 258543
     }
   ]
 }

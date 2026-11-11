@@ -3,8 +3,8 @@
   "node": [
     {
       "id": 1569,
-      "name": "Hot Shots Golf: Open Tee 2",
-      "nameCN": "大众高尔夫 便携版2",
+      "name": "みんなのGOLF ポータブル2",
+      "nameCN": "全民高尔夫 便携版2",
       "date": "2007-12-06",
       "type": 4,
       "nsfw": false,
@@ -12,9 +12,60 @@
     },
     {
       "id": 14150,
-      "name": "Hot Shots Golf: Open Tee",
-      "nameCN": "大众高尔夫 便携版",
+      "name": "みんなのGOLFポータブル",
+      "nameCN": "全民高尔夫 便携版",
       "date": "2004-12-12",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 35003,
+      "name": "みんなのゴルフ6",
+      "nameCN": "大众高尔夫6",
+      "date": "2011-12-17",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 163854,
+      "name": "みんなのGOLF 5",
+      "nameCN": "大众高尔夫5",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 505521,
+      "name": "みんなのGOLF 4",
+      "nameCN": "全民高尔夫4",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 213293,
+      "name": "NEW みんなのGOLF",
+      "nameCN": "新大众高尔夫",
+      "date": "2017-08-31",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 218798,
+      "name": "みんゴル",
+      "nameCN": "",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 503065,
+      "name": "みんなのGOLF VR",
+      "nameCN": "全民高尔夫 VR",
+      "date": "2019-05-21",
       "type": 4,
       "nsfw": false,
       "platform": "其他"
@@ -28,8 +79,68 @@
     },
     {
       "relate": "续集",
+      "src": 1569,
+      "dst": 35003
+    },
+    {
+      "relate": "续集",
       "src": 14150,
       "dst": 1569
+    },
+    {
+      "relate": "续集",
+      "src": 14150,
+      "dst": 163854
+    },
+    {
+      "relate": "前传",
+      "src": 14150,
+      "dst": 505521
+    },
+    {
+      "relate": "前传",
+      "src": 35003,
+      "dst": 1569
+    },
+    {
+      "relate": "续集",
+      "src": 35003,
+      "dst": 213293
+    },
+    {
+      "relate": "续集",
+      "src": 163854,
+      "dst": 1569
+    },
+    {
+      "relate": "前传",
+      "src": 163854,
+      "dst": 14150
+    },
+    {
+      "relate": "前传",
+      "src": 213293,
+      "dst": 35003
+    },
+    {
+      "relate": "不同演绎",
+      "src": 213293,
+      "dst": 218798
+    },
+    {
+      "relate": "不同演绎",
+      "src": 218798,
+      "dst": 213293
+    },
+    {
+      "relate": "主线故事",
+      "src": 503065,
+      "dst": 213293
+    },
+    {
+      "relate": "续集",
+      "src": 505521,
+      "dst": 14150
     }
   ]
 }

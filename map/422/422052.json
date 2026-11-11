@@ -36,6 +36,14 @@
       "type": 6,
       "nsfw": false,
       "platform": "日剧"
+    },
+    {
+      "id": 719357,
+      "name": "映画「VIVANT」",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
@@ -60,6 +68,11 @@
       "dst": 701123
     },
     {
+      "relate": "续集",
+      "src": 559852,
+      "dst": 719357
+    },
+    {
       "relate": "主线故事",
       "src": 666456,
       "dst": 559852
@@ -67,6 +80,11 @@
     {
       "relate": "主线故事",
       "src": 701123,
+      "dst": 559852
+    },
+    {
+      "relate": "前传",
+      "src": 719357,
       "dst": 559852
     }
   ]

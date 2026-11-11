@@ -20,10 +20,64 @@
       "platform": "漫画"
     },
     {
+      "id": 663095,
+      "name": "Thanos vs. Hulk",
+      "nameCN": "",
+      "date": "2015-06-09",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 718720,
+      "name": "The Infinity Entity",
+      "nameCN": "",
+      "date": "2016-06-29",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
       "id": 657781,
       "name": "Thanos: The Infinity Finale",
       "nameCN": "",
       "date": "2016-04-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 657786,
+      "name": "Thanos: The Infinity Siblings",
+      "nameCN": "",
+      "date": "2018-04-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 666264,
+      "name": "Guardians of the Galaxy: Mother Entropy",
+      "nameCN": "",
+      "date": "2017-08-23",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 657788,
+      "name": "Thanos: The Infinity Conflict",
+      "nameCN": "",
+      "date": "2018-11-13",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 657789,
+      "name": "Thanos: The Infinity Ending",
+      "nameCN": "",
+      "date": "2019-10-02",
       "type": 1,
       "nsfw": false,
       "platform": "漫画"
@@ -37,18 +91,78 @@
     },
     {
       "relate": "前传",
+      "src": 657777,
+      "dst": 663095
+    },
+    {
+      "relate": "前传",
       "src": 657780,
       "dst": 657777
     },
     {
       "relate": "续集",
       "src": 657780,
-      "dst": 657781
+      "dst": 718720
+    },
+    {
+      "relate": "续集",
+      "src": 657781,
+      "dst": 657786
+    },
+    {
+      "relate": "番外篇",
+      "src": 657781,
+      "dst": 666264
     },
     {
       "relate": "前传",
       "src": 657781,
+      "dst": 718720
+    },
+    {
+      "relate": "前传",
+      "src": 657786,
+      "dst": 657781
+    },
+    {
+      "relate": "续集",
+      "src": 657786,
+      "dst": 657788
+    },
+    {
+      "relate": "前传",
+      "src": 657788,
+      "dst": 657786
+    },
+    {
+      "relate": "续集",
+      "src": 657788,
+      "dst": 657789
+    },
+    {
+      "relate": "前传",
+      "src": 657789,
+      "dst": 657788
+    },
+    {
+      "relate": "续集",
+      "src": 663095,
+      "dst": 657777
+    },
+    {
+      "relate": "主线故事",
+      "src": 666264,
+      "dst": 657781
+    },
+    {
+      "relate": "前传",
+      "src": 718720,
       "dst": 657780
+    },
+    {
+      "relate": "续集",
+      "src": 718720,
+      "dst": 657781
     }
   ]
 }
