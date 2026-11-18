@@ -1,0 +1,54 @@
+{
+  "id": 390674,
+  "node": [
+    {
+      "id": 390674,
+      "name": "The Terminal List",
+      "nameCN": "终极名单",
+      "date": "2022-07-01",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 720310,
+      "name": "The Terminal List: Dark Wolf",
+      "nameCN": "终极名单：黑狼",
+      "date": "2025-08-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 720312,
+      "name": "The Terminal List Season 2",
+      "nameCN": "终极名单 第二季",
+      "date": "2026-10-21",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 390674,
+      "dst": 720310
+    },
+    {
+      "relate": "续集",
+      "src": 390674,
+      "dst": 720312
+    },
+    {
+      "relate": "续集",
+      "src": 720310,
+      "dst": 390674
+    },
+    {
+      "relate": "前传",
+      "src": 720312,
+      "dst": 390674
+    }
+  ]
+}

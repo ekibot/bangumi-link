@@ -2,15 +2,6 @@
   "id": 529052,
   "node": [
     {
-      "id": 647559,
-      "name": "もっと知りたい君のこと",
-      "nameCN": "",
-      "date": "2026-05-05",
-      "type": 4,
-      "nsfw": false,
-      "platform": "其他"
-    },
-    {
       "id": 529052,
       "name": "ぼくが夢を見るその日",
       "nameCN": "",
@@ -18,12 +9,40 @@
       "type": 4,
       "nsfw": false,
       "platform": "其他"
+    },
+    {
+      "id": 719820,
+      "name": "トラブルメイト",
+      "nameCN": "",
+      "date": "2026-11-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 647559,
+      "name": "もっと知りたい君のこと",
+      "nameCN": "",
+      "date": "2026-05-05",
+      "type": 4,
+      "nsfw": false,
+      "platform": "其他"
     }
   ],
   "relate": [
     {
+      "relate": "前传",
+      "src": 529052,
+      "dst": 719820
+    },
+    {
       "relate": "主线故事",
       "src": 647559,
+      "dst": 529052
+    },
+    {
+      "relate": "续集",
+      "src": 719820,
       "dst": 529052
     }
   ]

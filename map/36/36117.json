@@ -91,8 +91,26 @@
       "platform": "TV"
     },
     {
-      "id": 631220,
-      "name": "Scooby-Doo, Where Are You! Season 3",
+      "id": 631194,
+      "name": "The Scooby-Doo Show Season 1",
+      "nameCN": "",
+      "date": "1976-09-11",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 631195,
+      "name": "The Scooby-Doo Show Season 2",
+      "nameCN": "",
+      "date": "1977-09-10",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 631196,
+      "name": "The Scooby-Doo Show Season 3",
       "nameCN": "",
       "date": "1978-09-09",
       "type": 2,
@@ -172,6 +190,31 @@
       "dst": 294703
     },
     {
+      "relate": "续集",
+      "src": 631194,
+      "dst": 631195
+    },
+    {
+      "relate": "前传",
+      "src": 631195,
+      "dst": 631194
+    },
+    {
+      "relate": "续集",
+      "src": 631195,
+      "dst": 631196
+    },
+    {
+      "relate": "前传",
+      "src": 631196,
+      "dst": 631195
+    },
+    {
+      "relate": "前传",
+      "src": 631196,
+      "dst": 631219
+    },
+    {
       "relate": "前传",
       "src": 631219,
       "dst": 36117
@@ -179,12 +222,7 @@
     {
       "relate": "续集",
       "src": 631219,
-      "dst": 631220
-    },
-    {
-      "relate": "前传",
-      "src": 631220,
-      "dst": 631219
+      "dst": 631196
     },
     {
       "relate": "主线故事",

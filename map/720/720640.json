@@ -1,0 +1,54 @@
+{
+  "id": 720640,
+  "node": [
+    {
+      "id": 720640,
+      "name": "The Ruff and Reddy Show",
+      "nameCN": "",
+      "date": "1957-12-14",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 720641,
+      "name": "The Ruff and Reddy Show Season 2",
+      "nameCN": "",
+      "date": "1958-12-13",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    },
+    {
+      "id": 720643,
+      "name": "The Ruff and Reddy Show Season 3",
+      "nameCN": "",
+      "date": "1959-12-19",
+      "type": 2,
+      "nsfw": false,
+      "platform": "TV"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 720640,
+      "dst": 720641
+    },
+    {
+      "relate": "前传",
+      "src": 720641,
+      "dst": 720640
+    },
+    {
+      "relate": "续集",
+      "src": 720641,
+      "dst": 720643
+    },
+    {
+      "relate": "前传",
+      "src": 720643,
+      "dst": 720641
+    }
+  ]
+}

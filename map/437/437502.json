@@ -27,6 +27,14 @@
       "type": 2,
       "nsfw": false,
       "platform": "TV"
+    },
+    {
+      "id": 720432,
+      "name": "映画 おでかけ子ザメ 水のまちの思い出",
+      "nameCN": "",
+      "type": 2,
+      "nsfw": false,
+      "platform": "剧场版"
     }
   ],
   "relate": [
@@ -49,6 +57,16 @@
       "relate": "前传",
       "src": 616378,
       "dst": 494044
+    },
+    {
+      "relate": "续集",
+      "src": 616378,
+      "dst": 720432
+    },
+    {
+      "relate": "前传",
+      "src": 720432,
+      "dst": 616378
     }
   ]
 }
