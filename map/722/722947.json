@@ -1,0 +1,53 @@
+{
+  "id": 722947,
+  "node": [
+    {
+      "id": 722947,
+      "name": "Magik (2025)",
+      "nameCN": "",
+      "date": "2025-09-10",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 722980,
+      "name": "Magik & Colossus: Bound by Blood",
+      "nameCN": "",
+      "date": "2026-11-04",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    },
+    {
+      "id": 723150,
+      "name": "X-Orcists",
+      "nameCN": "",
+      "type": 1,
+      "nsfw": false,
+      "platform": "漫画"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 722947,
+      "dst": 722980
+    },
+    {
+      "relate": "前传",
+      "src": 722980,
+      "dst": 722947
+    },
+    {
+      "relate": "续集",
+      "src": 722980,
+      "dst": 723150
+    },
+    {
+      "relate": "前传",
+      "src": 723150,
+      "dst": 722980
+    }
+  ]
+}

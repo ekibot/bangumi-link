@@ -1,0 +1,51 @@
+{
+  "id": 725768,
+  "node": [
+    {
+      "id": 725768,
+      "name": "新乌龙院之笑闹江湖",
+      "nameCN": "",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 725980,
+      "name": "無敵反斗星",
+      "nameCN": "无敌反斗星",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 725972,
+      "name": "笑林小子Ⅱ之新烏龍院",
+      "nameCN": "笑林小子2：新乌龙院",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "前传",
+      "src": 725768,
+      "dst": 725980
+    },
+    {
+      "relate": "续集",
+      "src": 725972,
+      "dst": 725980
+    },
+    {
+      "relate": "续集",
+      "src": 725980,
+      "dst": 725768
+    },
+    {
+      "relate": "前传",
+      "src": 725980,
+      "dst": 725972
+    }
+  ]
+}

@@ -18,6 +18,24 @@
       "type": 6,
       "nsfw": false,
       "platform": "欧美剧"
+    },
+    {
+      "id": 262410,
+      "name": "The Good Place Season 3",
+      "nameCN": "善地 第三季",
+      "date": "2018-09-27",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
+    },
+    {
+      "id": 291425,
+      "name": "The Good Place Season 4",
+      "nameCN": "善地 第四季",
+      "date": "2019-09-26",
+      "type": 6,
+      "nsfw": false,
+      "platform": "欧美剧"
     }
   ],
   "relate": [
@@ -30,6 +48,26 @@
       "relate": "前传",
       "src": 226589,
       "dst": 226587
+    },
+    {
+      "relate": "续集",
+      "src": 226589,
+      "dst": 262410
+    },
+    {
+      "relate": "前传",
+      "src": 262410,
+      "dst": 226589
+    },
+    {
+      "relate": "续集",
+      "src": 262410,
+      "dst": 291425
+    },
+    {
+      "relate": "前传",
+      "src": 291425,
+      "dst": 262410
     }
   ]
 }

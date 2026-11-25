@@ -1,0 +1,51 @@
+{
+  "id": 724229,
+  "node": [
+    {
+      "id": 724229,
+      "name": "Honey, I Shrunk the Kids",
+      "nameCN": "亲爱的，我把孩子缩小了",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 724230,
+      "name": "Honey, I Blew Up the Kid",
+      "nameCN": "亲爱的，我把孩子放大了",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    },
+    {
+      "id": 724231,
+      "name": "Honey, We Shrunk Ourselves",
+      "nameCN": "亲爱的，我把我们缩小了",
+      "type": 6,
+      "nsfw": false,
+      "platform": "其他"
+    }
+  ],
+  "relate": [
+    {
+      "relate": "续集",
+      "src": 724229,
+      "dst": 724230
+    },
+    {
+      "relate": "前传",
+      "src": 724230,
+      "dst": 724229
+    },
+    {
+      "relate": "续集",
+      "src": 724230,
+      "dst": 724231
+    },
+    {
+      "relate": "前传",
+      "src": 724231,
+      "dst": 724230
+    }
+  ]
+}
